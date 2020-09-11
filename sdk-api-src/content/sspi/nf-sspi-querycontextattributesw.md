@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 ms.date: 12/05/2018
 ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryContextAttributes function [Security], QueryContextAttributesA, QueryContextAttributesW, SECPKG_ATTR_CERT_TRUST_STATUS, SECPKG_ATTR_CREDS, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_C_ACCESS_TOKEN, SECPKG_ATTR_C_FULL_ACCESS_TOKEN, SECPKG_ATTR_NEGOTIATION_PACKAGE, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_SERVER_AUTH_FLAGS, SECPKG_ATTR_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, security.querycontextattributes__credssp_, sspi/QueryContextAttributes, sspi/QueryContextAttributesA, sspi/QueryContextAttributesW
-f1_keywords:
-- sspi/QueryContextAttributes
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- QueryContextAttributes
-- QueryContextAttributesA
-- QueryContextAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryContextAttributesW
+ - sspi/QueryContextAttributesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - QueryContextAttributes
+ - QueryContextAttributesA
+ - QueryContextAttributesW
 ---
 
 # QueryContextAttributesW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryContextAttributes (CredSSP)</b> function lets a transport application query the Credential Security Support Provider (CredSSP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> for certain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A  handle to the security context to be queried.
-
 
 ### -param ulAttribute [in]
 
@@ -217,17 +212,12 @@ This value is supported only on the CredSSP server.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
 A pointer to a structure that receives the attributes. The structure type depends on the value of the <i>ulAttribute</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns SEC_E_OK.
 
@@ -263,14 +253,8 @@ The function failed. The value of the <i>ulAttribute</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The structure pointed to by the <i>pBuffer</i> parameter varies depending on the attribute being queried.
 
@@ -284,9 +268,6 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 > The sspi.h header defines QueryContextAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -305,7 +286,4 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: f72d9a06-0568-4e46-a904-202aad2f8859
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReaderInfo, IWICMetadataReaderInfo interface [Windows Imaging Component], IWICMetadataReaderInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareaderinfo, wic._wic_codec_iwicmetadatareaderinfo, wincodecsdk/IWICMetadataReaderInfo
-f1_keywords:
-- wincodecsdk/IWICMetadataReaderInfo
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataReaderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataReaderInfo
+ - wincodecsdk/IWICMetadataReaderInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataReaderInfo
 ---
 
 # IWICMetadataReaderInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide basic information about the registered metadata reader.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Determines if a stream contains a metadata item pattern.
 
 </td>
 </tr>
-</table> 
+</table>
 

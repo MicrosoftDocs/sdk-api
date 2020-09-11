@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
 ms.date: 12/05/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
-f1_keywords:
-- wingdi/CreateMetaFile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
-- ext-ms-win-gdi-metafile-l1-1-2.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- CreateMetaFile
-- CreateMetaFileA
-- CreateMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateMetaFileW
+ - wingdi/CreateMetaFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+ - ext-ms-win-gdi-metafile-l1-1-2.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - CreateMetaFile
+ - CreateMetaFileA
+ - CreateMetaFileW
 ---
 
 # CreateMetaFileW function
@@ -55,34 +56,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateMetaFile</b> function creates a device context for a Windows-format metafile.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pszFile [in]
 
 A pointer to the file name for the Windows-format metafile to be created. If this parameter is <b>NULL</b>, the Windows-format metafile is memory based and its contents are lost when it is deleted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the device context for the Windows-format metafile.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Where text arguments must use Unicode characters, use the <b>CreateMetaFile</b> function as a wide-character function. Where text arguments must use characters from the Windows character set, use this function as an ANSI function.
 
@@ -100,9 +89,6 @@ To create a scalable Windows-format metafile, record the graphics output in the 
 > The wingdi.h header defines CreateMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closemetafile">CloseMetaFile</a>
 
@@ -133,7 +119,4 @@ To create a scalable Windows-format metafile, record the graphics output in the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
 

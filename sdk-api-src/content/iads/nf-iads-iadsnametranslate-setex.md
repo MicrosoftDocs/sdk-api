@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: e8a5014e-d848-46b7-a336-7801ff1f6b08
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],SetEx method, IADsNameTranslate.SetEx, IADsNameTranslate::SetEx, SetEx, SetEx method [ADSI], SetEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_setex, adsi.iadsnametranslate__setex, adsi.iadsnametranslate_setex, iads/IADsNameTranslate::SetEx
-f1_keywords:
-- iads/IADsNameTranslate.SetEx
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsNameTranslate.SetEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsNameTranslate::SetEx
+ - iads/IADsNameTranslate::SetEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsNameTranslate.SetEx
 ---
 
 # IADsNameTranslate::SetEx
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsNameTranslate::SetEx</b> method establishes an array of objects for name translation. The specified objects must exist in the connected directory server. To set the name and format of a single directory object, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param lnFormatType
 
 The format type of the input names. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
 
-
 ### -param pvar
 
 A variant array of strings that hold object names.
 
-
 ## -returns
-
-
 
 This method supports the standard <b>HRESULT</b> return values, including:
 
-
-
-
 ## -remarks
-
-
 
 You cannot use the <b>IADsNameTranslate::SetEx</b> method to set name translation for objects residing on other servers, even when the referral chasing option is enabled. For more information about referral chasing, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>.
 
@@ -180,14 +167,7 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
 </html>
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
@@ -202,7 +182,4 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
- 
-
- 
 

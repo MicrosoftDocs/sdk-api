@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0C43CD34-22A2-440A-97D5-682D979B52A9
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RegisterNotifications method, IMFTimedText.RegisterNotifications, IMFTimedText::RegisterNotifications, RegisterNotifications, RegisterNotifications method [Media Foundation], RegisterNotifications method [Media Foundation],IMFTimedText interface, mf.imftimedtext_registernotifications, mfmediaengine/IMFTimedText::RegisterNotifications
-f1_keywords:
-- mfmediaengine/IMFTimedText.RegisterNotifications
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedText.RegisterNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedText::RegisterNotifications
+ - mfmediaengine/IMFTimedText::RegisterNotifications
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedText.RegisterNotifications
 ---
 
 # IMFTimedText::RegisterNotifications
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a timed-text notify object.
 
-
 ## -parameters
-
-
-
 
 ### -param notify [in, optional]
 
@@ -64,25 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/n
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a> interface for the timed-text notify object to register.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
- 
-
- 
 

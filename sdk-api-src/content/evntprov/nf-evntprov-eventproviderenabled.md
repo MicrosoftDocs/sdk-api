@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
 ms.date: 12/05/2018
 ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
-f1_keywords:
-- evntprov/EventProviderEnabled
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-eventing-provider-l1-1-0.dll
-- API-MS-Win-Eventing-Provider-L1-1-1.dll
-api_name:
-- EventProviderEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventProviderEnabled
+ - evntprov/EventProviderEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-eventing-provider-l1-1-0.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
+api_name:
+ - EventProviderEnabled
 ---
 
 # EventProviderEnabled function
@@ -54,20 +55,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if the event is enabled for any session.
 
-
 ## -parameters
-
-
-
 
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
       <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
-
 
 ### -param Level [in]
 
@@ -136,28 +131,18 @@ Detailed trace events.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Keyword [in]
 
 Bitmask that specifies the event category. This mask should be the same keyword mask that you defined in 
-      the manifest for the event. 
-
+      the manifest for the event.
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the event is enabled for a session; otherwise, returns 
       <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Typically, providers do not call this function to determine if a session is expecting this event; they simply 
     write the event and ETW determines if the event is logged to the session.
@@ -171,13 +156,7 @@ The provider would call this function if the provider did not generate an
     manifest. If the event descriptor is available, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
@@ -188,7 +167,4 @@ The provider would call this function if the provider did not generate an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>
- 
-
- 
 

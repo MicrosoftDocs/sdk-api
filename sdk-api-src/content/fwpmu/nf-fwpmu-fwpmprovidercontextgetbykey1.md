@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 896b0b83-b262-4a09-a88e-eb4b623888ab
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetByKey1, FwpmProviderContextGetByKey1 function [Filtering], fwp.fwpmprovidercontextgetbykey1_func, fwpmu/FwpmProviderContextGetByKey1
-f1_keywords:
-- fwpmu/FwpmProviderContextGetByKey1
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmProviderContextGetByKey1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmProviderContextGetByKey1
+ - fwpmu/FwpmProviderContextGetByKey1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmProviderContextGetByKey1
 ---
 
 # FwpmProviderContextGetByKey1 function
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmProviderContextGetByKey1</b> function retrieves a provider context.<div class="alert"><b>Note</b>  <b>FwpmProviderContextGetByKey1</b> is the specific implementation of FwpmProviderContextGetByKey used in Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextgetbykey2">FwpmProviderContextGetByKey2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextgetbykey0">FwpmProviderContextGetByKey0</a> is available.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -66,13 +61,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param key [in]
 
 Type: <b>const GUID*</b>
 
 Pointer to a GUID that uniquely identifies the provider context. This is a pointer to the same GUID that was specified when the application called <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd1">FwpmProviderContextAdd1</a> for this object.
-
 
 ### -param providerContext [out]
 
@@ -80,10 +73,7 @@ Type: [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fw
 
 The provider context information.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -129,33 +119,18 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must free the returned object by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
 The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the provider context. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_PROVIDER_CONTEXT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd1">FwpmProviderContextAdd1</a>
- 
-
- 
 

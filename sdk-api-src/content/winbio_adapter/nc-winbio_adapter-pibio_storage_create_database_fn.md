@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 7b9e034e-51d4-4209-9092-14e21e9fff3c
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CREATE_DATABASE_FN, PIBIO_STORAGE_CREATE_DATABASE_FN callback, StorageAdapterCreateDatabase, StorageAdapterCreateDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptercreatedatabase, winbio_adapter/StorageAdapterCreateDatabase
-f1_keywords:
-- winbio_adapter/StorageAdapterCreateDatabase
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- StorageAdapterCreateDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_STORAGE_CREATE_DATABASE_FN
+ - winbio_adapter/PIBIO_STORAGE_CREATE_DATABASE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - StorageAdapterCreateDatabase
 ---
 
 # PIBIO_STORAGE_CREATE_DATABASE_FN callback function
@@ -49,58 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to create and configure a new database.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
 ### -param DatabaseId [in]
 
 Pointer to a GUID that uniquely identifies the database. This is the same GUID used to register the database in the registry.
-
 
 ### -param Factor [in]
 
 A WINBIO_BIOMETRIC_TYPE value that specifies the type of the biometric factor stored in this database. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
 
-
 ### -param Format [in]
 
 Pointer to a GUID that specifies the vendor-defined format of the data in the <b>VendorDataBlock</b> member of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> object.
-
 
 ### -param FilePath [in]
 
 Pointer to a <b>NULL</b>-terminated Unicode string that contains the fully qualified file path for the database.
 
-
 ### -param ConnectString [in]
 
 Pointer to a <b>NULL</b>-terminated Unicode connection string for the database.
-
 
 ### -param IndexElementCount [in]
 
 The number of elements in the index vector. This can be equal to or greater than zero.
 
-
 ### -param InitialSize [in]
 
 A value that contains the beginning size of the  database, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -132,14 +118,8 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The biometric service calls this method if the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a> function fails and if an <b>AutoCreate</b> flag has been associated with the database in the registry.
 
@@ -341,14 +321,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
@@ -363,7 +336,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>
- 
-
- 
 

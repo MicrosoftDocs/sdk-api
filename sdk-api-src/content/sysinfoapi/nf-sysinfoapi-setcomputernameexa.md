@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 12163456-770c-4f9e-9261-a6ea5f2cd93a
 ms.date: 12/05/2018
 ms.keywords: ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, SetComputerNameEx, SetComputerNameEx function, SetComputerNameExA, SetComputerNameExW, _win32_setcomputernameex, base.setcomputernameex, sysinfoapi/SetComputerNameEx, sysinfoapi/SetComputerNameExA, sysinfoapi/SetComputerNameExW
-f1_keywords:
-- sysinfoapi/SetComputerNameEx
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- SetComputerNameEx
-- SetComputerNameExA
-- SetComputerNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetComputerNameExA
+ - sysinfoapi/SetComputerNameExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - SetComputerNameEx
+ - SetComputerNameExA
+ - SetComputerNameExW
 ---
 
 # SetComputerNameExA function
@@ -58,15 +59,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a new NetBIOS or DNS name for the local computer. Name changes made by 
 <b>SetComputerNameEx</b> do not take effect until the user restarts the computer.
 
-
 ## -parameters
-
-
-
 
 ### -param NameType [in]
 
@@ -117,29 +113,19 @@ Warning: Using this option to set the NetBIOS name breaks the convention of inte
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [in]
 
 The new name. The name cannot include control characters, leading or trailing spaces, or any of the following characters: " / \ [ ] : | &lt; &gt; + = ; , ?
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetComputerNameEx</b> can set the Computer Name (the first label of the full DNS name) or the primary DNS suffix of the local computer. It cannot set a fully qualified DNS name in one call.
 
@@ -160,9 +146,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 > The sysinfoapi.h header defines SetComputerNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
 
@@ -189,7 +172,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
- 
-
- 
 

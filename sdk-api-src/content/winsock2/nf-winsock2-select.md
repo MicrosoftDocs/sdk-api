@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: f9f1092d-7e15-41cd-a42f-abe8a4f33e15
 ms.date: 12/05/2018
 ms.keywords: _win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select
-f1_keywords:
-- winsock2/select
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- select
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - select
+ - winsock2/select
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - select
 ---
 
 # select function
@@ -49,35 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>select</b> function determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O.
 
-
 ## -parameters
-
-
-
 
 ### -param nfds [in]
 
 Ignored. The <i>nfds</i> parameter is included only for compatibility with Berkeley sockets.
 
-
 ### -param readfds [in, out]
 
 An optional pointer to a set of sockets to be checked for readability.
-
 
 ### -param writefds [in, out]
 
 An optional pointer to a set of sockets to be checked for writability.
 
-
 ### -param exceptfds [in, out]
 
 An optional pointer to a set of sockets to be checked for errors.
-
 
 ### -param timeout [in]
 
@@ -85,10 +77,7 @@ The maximum time for
 <b>select</b> to wait, provided in the form of a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-timeval">TIMEVAL</a> structure. Set the <i>timeout</i> parameter to <b>null</b> for blocking operations.
 
-
 ## -returns
-
-
 
 The 
 <b>select</b> function returns the total number of socket handles that are ready and contained in the 
@@ -180,14 +169,8 @@ One of the descriptor sets contains an entry that is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>select</b> function is used to determine the status of one or more sockets. For each socket, the caller can request information on read, write, or error status. The set of sockets for which a given status is requested is indicated by an 
@@ -279,13 +262,7 @@ The parameter <i>time-out</i> controls how long the
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-timeval">TIMEVAL</a>
 
@@ -324,7 +301,4 @@ The parameter <i>time-out</i> controls how long the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
- 
-
- 
 

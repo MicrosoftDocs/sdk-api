@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.date: 12/05/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
-f1_keywords:
-- winsock2/WSAPoll
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAPoll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAPoll
+ - winsock2/WSAPoll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAPoll
 ---
 
 # WSAPoll function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WSAPoll</b> function determines status of one or more sockets.
 
-
 ## -parameters
-
-
-
 
 ### -param fdArray [in, out]
 
 An array of one or more <b>POLLFD</b> structures specifying the set  of sockets for which status is requested. The   array must contain at least one structure with a valid socket. Upon return, this parameter receives the updated sockets with the <b>revents</b> status flags member set on each one that matches the status query criteria.
 
-
 ### -param fds [in]
 
 The number of <b>WSAPOLLFD</b> structures in <i>fdarray</i>. This is not necessarily the number of sockets for which status is requested.
-
 
 ### -param timeout [in]
 
@@ -91,12 +85,8 @@ A value that specifies the wait behavior, based on the following values.
 <td>Wait indefinitely.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns one of the following values.
 			<table>
@@ -172,14 +162,8 @@ The function was unable to allocate sufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSAPoll</b> function is defined on Windows Vista and later. 
 
@@ -281,20 +265,11 @@ The timeout argument specifies how long the function is to wait before returning
 <div> </div>
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
 [WSAPOLLFD](/windows/win32/api/winsock2/ns-winsock2-wsapollfd)
- 
-
- 
 

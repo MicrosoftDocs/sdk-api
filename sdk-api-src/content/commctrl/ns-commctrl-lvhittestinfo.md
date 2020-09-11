@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvhittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVHITTESTINFO, LPLVHITTESTINFO, LPLVHITTESTINFO structure pointer [Windows Controls], LVHITTESTINFO, LVHITTESTINFO structure [Windows Controls], LVHT_ABOVE, LVHT_BELOW, LVHT_EX_FOOTER, LVHT_EX_GROUP, LVHT_EX_GROUP_BACKGROUND, LVHT_EX_GROUP_COLLAPSE, LVHT_EX_GROUP_FOOTER, LVHT_EX_GROUP_HEADER, LVHT_EX_GROUP_STATEICON, LVHT_EX_GROUP_SUBSETLINK, LVHT_EX_ONCONTENTS, LVHT_NOWHERE, LVHT_ONITEMICON, LVHT_ONITEMLABEL, LVHT_ONITEMSTATEICON, LVHT_TOLEFT, LVHT_TORIGHT, _win32_LVHITTESTINFO, _win32_LVHITTESTINFO_cpp, commctrl/LPLVHITTESTINFO, commctrl/LVHITTESTINFO, controls.LVHITTESTINFO, controls._win32_LVHITTESTINFO'
-f1_keywords:
-- commctrl/LVHITTESTINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVHITTESTINFO
 targetos: Windows
 req.typenames: LVHITTESTINFO, *LPLVHITTESTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVHITTESTINFO
+ - commctrl/tagLVHITTESTINFO
+ - LPLVHITTESTINFO
+ - commctrl/LPLVHITTESTINFO
+ - LVHITTESTINFO
+ - commctrl/LVHITTESTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVHITTESTINFO
 ---
 
 # LVHITTESTINFO structure
@@ -49,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-hittest">LVM_HITTEST</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-subitemhittest">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
-			<b>LVHITTESTINFO</b> structure. 
-
+			<b>LVHITTESTINFO</b> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field pt
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-The position to hit test, in client coordinates. 
-
+The position to hit test, in client coordinates.
 
 ### -field flags
 
@@ -252,23 +251,19 @@ The position is to the right of the list-view control's client area.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iItem
 
 Type: <b>int</b>
 
-Receives the index of the matching item. Or if hit-testing a subitem, this value represents the subitem's parent item. 
-
+Receives the index of the matching item. Or if hit-testing a subitem, this value represents the subitem's parent item.
 
 ### -field iSubItem
 
 Type: <b>int</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Receives the index of the matching subitem. When hit-testing an item, this member will be zero. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Receives the index of the matching subitem. When hit-testing an item, this member will be zero.
 
 ### -field iGroup
 

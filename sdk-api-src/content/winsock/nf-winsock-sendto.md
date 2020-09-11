@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
 ms.date: 12/05/2018
 ms.keywords: _win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto
-f1_keywords:
-- winsock/sendto
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- sendto
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - sendto
+ - winsock/sendto
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - sendto
 ---
 
 # sendto function
@@ -49,50 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>sendto</b> function sends data to a specific destination.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a (possibly connected) socket.
 
-
 ### -param buf [in]
 
 A pointer to a buffer containing the data to be transmitted.
-
 
 ### -param len [in]
 
 The length, in bytes, of the data pointed to by the <i>buf</i> parameter.
 
-
 ### -param flags [in]
 
 A set of flags that specify the way in which the call is made.
-
 
 ### -param to [in]
 
 An optional pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the address of the target socket.
 
-
 ### -param tolen [in]
 
 The size, in bytes, of the address pointed to by the <i>to</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>sendto</b> returns the total number of bytes sent, which can be less than the number indicated by <i>len</i>. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -372,14 +360,8 @@ The connection has been dropped, because of a network failure or because the sys
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>sendto</b> function is used to write outgoing data on a socket. For message-oriented sockets, care must be taken not to exceed the maximum packet size of the underlying subnets, which can be obtained by using 
@@ -536,13 +518,7 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -577,7 +553,4 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

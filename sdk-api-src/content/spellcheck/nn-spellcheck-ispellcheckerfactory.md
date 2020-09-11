@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
-f1_keywords:
-- spellcheck/ISpellCheckerFactory
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellCheckerFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckerFactory
+ - spellcheck/ISpellCheckerFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellCheckerFactory
 ---
 
 # ISpellCheckerFactory interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A factory for instantiating a spell checker (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>) as well as providing functionality for determining which languages are supported.
 
 <b>ISpellCheckerFactory</b> is the starting point for clients of the <a href="https://docs.microsoft.com/windows/desktop/Intl/spell-checker-api">Spell Checking API</a>, which should be created as an in-proc COM Server as shown in the example below.
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Gets the set of languages/dialects supported by any of the registered spell chec
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
- 
-
- 
 

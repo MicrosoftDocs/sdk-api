@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 7f5c549d-52a3-4013-9f86-844d823636f6
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen.get_UserSid, IFsrmFileScreen::UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_usersid, fsrm.ifsrmfilescreen_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid
-f1_keywords:
-- fsrmscreen/IFsrmFileScreen.UserSid
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreen.UserSid
-- IFsrmFileScreen.get_UserSid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreen::get_UserSid
+ - fsrmscreen/IFsrmFileScreen::get_UserSid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreen.UserSid
+ - IFsrmFileScreen.get_UserSid
 ---
 
 # IFsrmFileScreen::get_UserSid
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -59,21 +59,13 @@ The SID of the user whose files will be screened.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreen">IFsrmFileScreen</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
- 
-
- 
 

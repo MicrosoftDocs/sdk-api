@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: e5644452-8f58-45de-8dc2-878bbb05fcf3
 ms.date: 12/05/2018
 ms.keywords: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, wsw.ws_create_channel_for_listener_callback
-f1_keywords:
-- webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
+ - webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK
 ---
 
 # WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> call
                 for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param *listenerInstance [in]
 
 The pointer to the state specific to this listener instance,
                     as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
-                
-
 
 ### -param *channelParameters
 
@@ -73,8 +67,6 @@ The pointer to the value that was specified by the
                 
 
 If the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
-                
-
 
 ### -param channelParametersSize [in]
 
@@ -95,14 +87,10 @@ A pointer to an structure allocated by the callback
 
 If this callback is successful, then the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
                     in this parameter.
-                
-
 
 ### -param *error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ### -param channelInstance
 
@@ -114,12 +102,8 @@ A pointer to an structure allocated by the callback
 
 If this callback is successful, then the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_channel_callback">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
                     in this parameter.
-                
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -160,18 +144,9 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for information about the contract
                 of this API.
-            
-
-
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: a323c662-e005-44aa-a903-1eb7d6ddff9e
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IEnumWbemClassObject interface, IEnumWbemClassObject interface [Windows Management Instrumentation],Clone method, IEnumWbemClassObject.Clone, IEnumWbemClassObject::Clone, _hmm_ienumwbemclassobject_clone, wbemcli/IEnumWbemClassObject::Clone, wmi.ienumwbemclassobject_clone
-f1_keywords:
-- wbemcli/IEnumWbemClassObject.Clone
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IEnumWbemClassObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWbemClassObject::Clone
+ - wbemcli/IEnumWbemClassObject::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IEnumWbemClassObject.Clone
 ---
 
 # IEnumWbemClassObject::Clone
 
 
 ## -description
-
 
 The <b>IEnumWbemClassObject::Clone</b> method makes 
     a logical copy of the entire enumerator, retaining its current position in an enumeration. This method makes only 
@@ -65,9 +65,6 @@ The <b>IEnumWbemClassObject::Clone</b> method makes
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
 Receives a pointer to a new 
@@ -75,12 +72,7 @@ Receives a pointer to a new
       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the interface pointer is no longer 
       required. On error, there will not be a return of a new object.
 
-
 ## -returns
-
-
-
-
 
 On error, you can call the COM function 
        <a href="https://msdn.microsoft.com/library/ms221032.aspx">GetErrorInfo</a> to obtain more error 
@@ -89,12 +81,7 @@ On error, you can call the COM function
 
 The following list lists the value contained within an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 Because the call-back to the sink might not be returned at the same authentication level as the client 
     requires, it is recommended that you use semisynchronous communication instead of asynchronous. If you require 
@@ -129,7 +116,4 @@ BOOL CloneEnum(IEnumWbemClassObject *pSrc)
     return TRUE;
 }
 ```
-
-
-
 

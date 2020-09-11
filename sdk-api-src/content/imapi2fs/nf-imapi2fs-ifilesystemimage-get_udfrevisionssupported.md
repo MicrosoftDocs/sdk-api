@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: ad9b4a68-5fef-4092-9cef-4b5ebd9c5093
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevisionsSupported method, IFileSystemImage.get_UDFRevisionsSupported, IFileSystemImage::get_UDFRevisionsSupported, get_UDFRevisionsSupported, get_UDFRevisionsSupported method [IMAPI], get_UDFRevisionsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevisionssupported, imapi2fs/IFileSystemImage::get_UDFRevisionsSupported
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_UDFRevisionsSupported
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_UDFRevisionsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_UDFRevisionsSupported
+ - imapi2fs/IFileSystemImage::get_UDFRevisionsSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_UDFRevisionsSupported
 ---
 
 # IFileSystemImage::get_UDFRevisionsSupported
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of supported UDF revision levels.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 List of supported UDF revision levels. Each element of the list is VARIANT. The variant type is <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the revision level.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -88,24 +81,12 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The value is encoded according to the UDF specification, except the variable size is LONG. For example, revision level 1.02 is represented as 0x102.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
@@ -116,7 +97,4 @@ The value is encoded according to the UDF specification, except the variable siz
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_udfrevision">IFileSystemImage::put_UDFRevision</a>
- 
-
- 
 

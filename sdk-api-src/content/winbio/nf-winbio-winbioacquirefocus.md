@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: ad8bdcc9-0317-4d35-a587-9a2f3a4144ae
 ms.date: 12/05/2018
 ms.keywords: WinBioAcquireFocus, WinBioAcquireFocus function [Windows Biometric Framework API], secbiomet.winbioacquirefocus, winbio/WinBioAcquireFocus
-f1_keywords:
-- winbio/WinBioAcquireFocus
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- WinBioExt.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioAcquireFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioAcquireFocus
+ - winbio/WinBioAcquireFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - WinBioExt.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioAcquireFocus
 ---
 
 # WinBioAcquireFocus function
@@ -52,20 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Acquires window focus.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -86,14 +78,8 @@ The calling process must be running under the Local System account.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Windows Biometric Framework uses window focus to arbitrate among multiple sessions connected to  the system pool.
 
@@ -121,19 +107,11 @@ If you do not acquire focus when calling the following functions, they will beha
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>
- 
-
- 
 

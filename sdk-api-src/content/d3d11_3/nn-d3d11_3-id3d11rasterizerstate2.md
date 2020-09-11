@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 335D976C-9E7F-4EAE-B671-F99D1B31669B
 ms.date: 12/05/2018
 ms.keywords: ID3D11RasterizerState2, ID3D11RasterizerState2 interface [Direct3D 11], ID3D11RasterizerState2 interface [Direct3D 11],described, d3d11_3/ID3D11RasterizerState2, direct3d11.id3d11rasterizerstate2
-f1_keywords:
-- d3d11_3/ID3D11RasterizerState2
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11RasterizerState2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11RasterizerState2
+ - d3d11_3/ID3D11RasterizerState2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11RasterizerState2
 ---
 
 # ID3D11RasterizerState2 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The rasterizer-state interface holds a description for rasterizer state that you can bind to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>. This rasterizer-state interface supports forced sample count and conservative rasterization mode.
-
 
 ## -inheritance
 
@@ -78,29 +77,17 @@ Gets the description for rasterizer state that you used to create the rasterizer
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create a rasterizer-state object, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createrasterizerstate2">ID3D11Device3::CreateRasterizerState2</a>. To bind the rasterizer-state object to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-rssetstate">ID3D11DeviceContext::RSSetState</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11rasterizerstate1">ID3D11RasterizerState1</a>
- 
-
- 
 

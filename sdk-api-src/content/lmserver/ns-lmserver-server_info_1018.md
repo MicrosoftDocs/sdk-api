@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 0a87d88c-af70-41ce-9d92-6e642d284819
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1018, *PSERVER_INFO_1018, LPSERVER_INFO_1018, LPSERVER_INFO_1018 structure pointer [Network Management], PSERVER_INFO_1018, PSERVER_INFO_1018 structure pointer [Network Management], SERVER_INFO_1018, SERVER_INFO_1018 structure [Network Management], _win32_server_info_1018_str, lmserver/LPSERVER_INFO_1018, lmserver/PSERVER_INFO_1018, lmserver/SERVER_INFO_1018, netmgmt.server_info_1018_str'
-f1_keywords:
-- lmserver/SERVER_INFO_1018
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_INFO_1018
 targetos: Windows
 req.typenames: SERVER_INFO_1018, *PSERVER_INFO_1018, *LPSERVER_INFO_1018
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_INFO_1018
+ - lmserver/_SERVER_INFO_1018
+ - PSERVER_INFO_1018
+ - lmserver/PSERVER_INFO_1018
+ - SERVER_INFO_1018
+ - lmserver/SERVER_INFO_1018
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_INFO_1018
 ---
 
 # SERVER_INFO_1018 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>SERVER_INFO_1018</b> structure contains information about how much the announce rate can vary for the specified server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sv1018_anndelta
 
@@ -70,11 +70,7 @@ The delta value allows randomly varied announce rates. For example, if the sv<i>
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
@@ -97,7 +93,4 @@ The delta value allows randomly varied announce rates. For example, if the sv<i>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
- 
-
- 
 

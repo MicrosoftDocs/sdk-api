@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b8889f7d-3228-4ecc-8d24-c04234d3101e
 ms.date: 12/05/2018
 ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ITfRange interface [Text Services Framework],described, _tsf_itfrange_ref, msctf/ITfRange, tsf.itfrange
-f1_keywords:
-- msctf/ITfRange
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange
+ - msctf/ITfRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfRange
 ---
 
 # ITfRange interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange</b> interface is used by text services and applications to reference and manipulate text within a given context. The interface ID is IID_ITfRange.
-
 
 ## -inheritance
 
@@ -266,12 +265,9 @@ Moves the start anchor of this range to an anchor within another range.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The TSF manager implements this interface. For more information about ranges, anchors, embedded objects, and other text properties used by TSF, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a>, <a href="https://docs.microsoft.com/windows/desktop/TSF/embedded-objects">Embedded Objects</a>, and other topics within <a href="https://docs.microsoft.com/windows/desktop/TSF/using-text-services-framework">Using Text Services Framework</a>.
 
@@ -318,12 +314,7 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
 
@@ -357,7 +348,4 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/using-text-services-framework">Using Text Services Framework</a>
- 
-
- 
 

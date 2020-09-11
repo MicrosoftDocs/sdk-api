@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 953f291d-a1b8-4cad-8ddf-59e251de65f2
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_VolumeName method, IDiscRecorder2.get_VolumeName, IDiscRecorder2::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_volumename, imapi2/IDiscRecorder2::get_VolumeName
-f1_keywords:
-- imapi2/IDiscRecorder2.get_VolumeName
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_VolumeName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_VolumeName
+ - imapi2/IDiscRecorder2::get_VolumeName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_VolumeName
 ---
 
 # IDiscRecorder2::get_VolumeName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the unique volume name associated with the device.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-String that contains the unique volume name associated with the device. 
-
+String that contains the unique volume name associated with the device.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -114,27 +107,12 @@ Value: 0x8007000E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To retrieve the drive letter assignment, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumepathnames">IDiscRecorder2::get_VolumePathNames</a> method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
- 
-
- 
 

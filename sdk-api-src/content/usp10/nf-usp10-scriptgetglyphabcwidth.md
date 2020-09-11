@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 71611c9c-f8f6-4064-b153-f31a8cbb7761
 ms.date: 12/05/2018
 ms.keywords: ScriptGetGlyphABCWidth, ScriptGetGlyphABCWidth function [Internationalization for Windows Applications], _win32_ScriptGetGlyphABCWidth, intl.scriptgetglyphabcwidth, usp10/ScriptGetGlyphABCWidth
-f1_keywords:
-- usp10/ScriptGetGlyphABCWidth
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptGetGlyphABCWidth
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptGetGlyphABCWidth
+ - usp10/ScriptGetGlyphABCWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptGetGlyphABCWidth
 ---
 
 # ScriptGetGlyphABCWidth function
@@ -52,61 +53,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">ABC width</a> of a given glyph.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param wGlyph [in]
 
 Glyph to analyze.
 
-
 ### -param pABC [out]
 
 Pointer to the ABC width of the specified glyph.
 
-
 ## -returns
-
-
 
 Returns S_OK if the ABC width of the glyph is retrieved. The function returns a nonzero HRESULT value if it does not succeed.
 
 The function returns E_HANDLE if the font or operating system does not support glyph indexes.
 
-
-
-
 ## -remarks
-
-
 
 This function is limited in its usefulness. For example, it is useful for drawing glyph charts. It should not be used for ordinary complex script text formatting.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
@@ -117,7 +97,4 @@ This function is limited in its usefulness. For example, it is useful for drawin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

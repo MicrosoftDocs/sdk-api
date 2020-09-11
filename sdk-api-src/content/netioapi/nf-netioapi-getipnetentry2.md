@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: c77e01da-2d5a-4c74-b581-62fa6ee52c9e
 ms.date: 12/05/2018
 ms.keywords: GetIpNetEntry2, GetIpNetEntry2 function [IP Helper], iphlp.getipnetentry2, netioapi/GetIpNetEntry2
-f1_keywords:
-- netioapi/GetIpNetEntry2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpNetEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpNetEntry2
+ - netioapi/GetIpNetEntry2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpNetEntry2
 ---
 
 # GetIpNetEntry2 function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>GetIpNetEntry2</b> function  retrieves information for a neighbor IP address entry on the local computer. 
-
+<b>GetIpNetEntry2</b> function  retrieves information for a neighbor IP address entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> structure entry for a neighbor IP address entry. On successful return, this structure will be updated with the properties for neighbor IP address.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,14 +128,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpNetEntry2</b> function is defined on Windows Vista and later. 
 
@@ -157,13 +144,7 @@ On output when the call is successful, <b>GetIpNetEntry2</b> retrieves the other
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a> function can be called to enumerate the neighbor IP address entries on a local computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2">CreateIpNetEntry2</a>
 
@@ -194,7 +175,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipnetentry2">SetIpNetEntry2</a>
- 
-
- 
 

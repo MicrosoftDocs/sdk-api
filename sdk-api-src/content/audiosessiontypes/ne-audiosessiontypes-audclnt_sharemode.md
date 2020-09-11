@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: f4870d0f-85d1-48ad-afe0-2f5a960c08fb
 ms.date: 12/05/2018
 ms.keywords: AUDCLNT_SHAREMODE, AUDCLNT_SHAREMODE , AUDCLNT_SHAREMODE enumeration [Core Audio], AUDCLNT_SHAREMODE_EXCLUSIVE, AUDCLNT_SHAREMODE_SHARED, audiosessiontypes/AUDCLNT_SHAREMODE, audiosessiontypes/AUDCLNT_SHAREMODE_EXCLUSIVE, audiosessiontypes/AUDCLNT_SHAREMODE_SHARED, coreaudio.audclnt_sharemode
-f1_keywords:
-- audiosessiontypes/AUDCLNT_SHAREMODE
-dev_langs:
-- c++
 req.header: audiosessiontypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Audiosessiontypes.h
-api_name:
-- AUDCLNT_SHAREMODE
 targetos: Windows
 req.typenames: AUDCLNT_SHAREMODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AUDCLNT_SHAREMODE
+ - audiosessiontypes/_AUDCLNT_SHAREMODE
+ - AUDCLNT_SHAREMODE
+ - audiosessiontypes/AUDCLNT_SHAREMODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Audiosessiontypes.h
+api_name:
+ - AUDCLNT_SHAREMODE
 ---
 
 # AUDCLNT_SHAREMODE enumeration
@@ -49,31 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AUDCLNT_SHAREMODE</b> enumeration defines constants that indicate whether an audio stream will run in shared mode or in exclusive mode.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field AUDCLNT_SHAREMODE_SHARED
 
 The audio stream will run in shared mode. For more information, see Remarks.
 
-
 ### -field AUDCLNT_SHAREMODE_EXCLUSIVE
 
 The audio stream will run in exclusive mode. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a> methods use the constants defined in the <b>AUDCLNT_SHAREMODE</b> enumeration.
 
@@ -83,13 +74,7 @@ In exclusive mode, the Windows audio service attempts to establish a connection 
 
 For more information about shared-mode and exclusive-mode streams, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/user-mode-audio-components">User-Mode Audio Components</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
 
@@ -104,7 +89,4 @@ For more information about shared-mode and exclusive-mode streams, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>
- 
-
- 
 

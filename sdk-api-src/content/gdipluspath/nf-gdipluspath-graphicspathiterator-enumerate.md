@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\enumerate.htm
 ms.date: 12/05/2018
 ms.keywords: Enumerate, Enumerate method [GDI+], Enumerate method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],Enumerate method, GraphicsPathIterator.Enumerate, GraphicsPathIterator::Enumerate, _gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Enumerate_points_types_count_
-f1_keywords:
-- gdipluspath/GraphicsPathIterator.Enumerate
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPathIterator.Enumerate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPathIterator::Enumerate
+ - gdipluspath/GraphicsPathIterator::Enumerate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPathIterator.Enumerate
 ---
 
 # GraphicsPathIterator::Enumerate
@@ -50,50 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPathIterator::Enumerate</b> method copies the path's data points to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> array and copies the path's point types to a <b>BYTE</b> array.
 
-
 ## -parameters
-
-
-
 
 ### -param points [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>*</b>
 
-Pointer to an array that receives the path's data points. 
-
+Pointer to an array that receives the path's data points.
 
 ### -param types [out]
 
 Type: <b>BYTE*</b>
 
-Pointer to an array that receives the path's point types. 
-
+Pointer to an array that receives the path's point types.
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of elements in the <i>points</i> array. This is the same as the number of elements in the <i>types</i> array. 
-
+Integer that specifies the number of elements in the <i>points</i> array. This is the same as the number of elements in the <i>types</i> array.
 
 ## -returns
 
-
-
 Type: <b>INT</b>
 
-This method returns the number of points retrieved. 
-
-
-
+This method returns the number of points retrieved.
 
 ## -remarks
-
-
 
 This 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a> object is associated with a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. That <b>GraphicsPath</b> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pathpointtype">PathPointType</a> enumeration.
@@ -141,14 +127,7 @@ delete[] pTypes;
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
@@ -187,7 +166,4 @@ delete[] pTypes;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
- 
-
- 
 

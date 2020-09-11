@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 993996E9-40B8-4FC6-B1CF-883829F8D1F5
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,SetMarker method, ID3D12CommandQueue.SetMarker, ID3D12CommandQueue::SetMarker, SetMarker, SetMarker method, SetMarker method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::SetMarker, direct3d12.id3d12commandqueue_setmarker
-f1_keywords:
-- d3d12/ID3D12CommandQueue.SetMarker
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.h
-api_name:
-- ID3D12CommandQueue.SetMarker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12CommandQueue::SetMarker
+ - d3d12/ID3D12CommandQueue::SetMarker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.h
+api_name:
+ - ID3D12CommandQueue.SetMarker
 ---
 
 # ID3D12CommandQueue::SetMarker
@@ -49,23 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not intended to be called directly.  Use the
         <a href="https://devblogs.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command queue.
 
-
 ## -parameters
-
-
-
 
 ### -param Metadata
 
 Type: <b>UINT</b>
 
 Internal.
-          
-
 
 ### -param pData [in, optional]
 
@@ -73,32 +67,19 @@ Type: <b>const void*</b>
 
 Internal.
 
-
 ### -param Size
 
 Type: <b>UINT</b>
 
 Internal.
 
-
 ## -remarks
-
-
 
 This is a support method used internally by the PIX event runtime.  It is not intended to be called directly.
 
 To insert instrumentation markers at the current location within a D3D12 command queue, use the <b>PIXSetMarker</b> function.  This is provided by the <a href="https://devblogs.microsoft.com/pix/winpixeventruntime/">WinPixEventRuntime</a> NuGet package.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
- 
-
- 
 

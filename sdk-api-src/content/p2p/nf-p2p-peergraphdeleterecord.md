@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: d6ecc762-8702-4366-81fc-c2b168dc8cb3
 ms.date: 12/05/2018
 ms.keywords: PeerGraphDeleteRecord, PeerGraphDeleteRecord function [Peer Networking], p2p.peergraphdeleterecord, p2p/PeerGraphDeleteRecord
-f1_keywords:
-- p2p/PeerGraphDeleteRecord
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphDeleteRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphDeleteRecord
+ - p2p/PeerGraphDeleteRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphDeleteRecord
 ---
 
 # PeerGraphDeleteRecord function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphDeleteRecord</b> function marks a record as deleted within a peer graph.  The record is not  available on a local node to function calls, for example, calls   to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphGetRecord</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumrecords">PeerGraphEnumRecords</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to a peer graph.
 
-
 ### -param pRecordId [in]
 
 Pointer to a record ID to delete.
-
 
 ### -param fLocal [in]
 
@@ -76,8 +70,6 @@ Specify <b>TRUE</b> to remove a record from only  a local database without notif
 <div> </div>
 
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -142,15 +134,8 @@ The specified record cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetrecord">PeerGraphAddRecord</a>
 
@@ -165,7 +150,4 @@ The specified record cannot be found.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>
- 
-
- 
 

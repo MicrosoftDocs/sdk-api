@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 9beb0a0a-b3bf-46d0-b10c-0fc3ab25c18d
 ms.date: 12/05/2018
 ms.keywords: IExtendPropertySheet2, IExtendPropertySheet2 interface [MMC], IExtendPropertySheet2 interface [MMC],described, _slate_iextendpropertysheet2, mmc.iextendpropertysheet2, mmc/IExtendPropertySheet2
-f1_keywords:
-- mmc/IExtendPropertySheet2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IExtendPropertySheet2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtendPropertySheet2
+ - mmc/IExtendPropertySheet2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IExtendPropertySheet2
 ---
 
 # IExtendPropertySheet2 interface
 
 
 ## -description
-
 
 The 
 <b>IExtendPropertySheet2</b> interface is introduced in MMC 1.1.
@@ -61,8 +61,6 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet2-getwatermarks">IExtendPropertySheet2::GetWatermarks</a>
-
-
 
 ## -inheritance
 
@@ -106,16 +104,9 @@ Determines whether the object needs pages.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
- 
-
- 
 

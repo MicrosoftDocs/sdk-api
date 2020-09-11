@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 45DAA909-8D5D-4522-803B-E42EA8E09CE8
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_QUERY_BINDING_CACHE_REQUEST, KERB_QUERY_BINDING_CACHE_REQUEST, KERB_QUERY_BINDING_CACHE_REQUEST structure [Security], PKERB_QUERY_BINDING_CACHE_REQUEST, PKERB_QUERY_BINDING_CACHE_REQUEST structure pointer [Security], ntsecapi/KERB_QUERY_BINDING_CACHE_REQUEST, ntsecapi/PKERB_QUERY_BINDING_CACHE_REQUEST, security.kerb_query_binding_cache_request'
-f1_keywords:
-- ntsecapi/KERB_QUERY_BINDING_CACHE_REQUEST
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_QUERY_BINDING_CACHE_REQUEST
 targetos: Windows
 req.typenames: KERB_QUERY_BINDING_CACHE_REQUEST, *PKERB_QUERY_BINDING_CACHE_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_QUERY_BINDING_CACHE_REQUEST
+ - ntsecapi/_KERB_QUERY_BINDING_CACHE_REQUEST
+ - PKERB_QUERY_BINDING_CACHE_REQUEST
+ - ntsecapi/PKERB_QUERY_BINDING_CACHE_REQUEST
+ - KERB_QUERY_BINDING_CACHE_REQUEST
+ - ntsecapi/KERB_QUERY_BINDING_CACHE_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_QUERY_BINDING_CACHE_REQUEST
 ---
 
 # KERB_QUERY_BINDING_CACHE_REQUEST structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used to query the binding cache. You must have the <b>SeTcbPrivilege</b> privilege set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MessageType
 

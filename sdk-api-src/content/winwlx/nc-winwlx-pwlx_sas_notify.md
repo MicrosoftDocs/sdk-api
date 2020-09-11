@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 534afdf8-6809-413a-ac5c-23978f2b288a
 ms.date: 12/05/2018
 ms.keywords: PWLX_SAS_NOTIFY, PWLX_SAS_NOTIFY callback, WLX_SAS_TYPE_CTRL_ALT_DEL, WlxSasNotify, WlxSasNotify callback function [Security], _gina_wlxsasnotify, security.wlxsasnotify, winwlx/WlxSasNotify
-f1_keywords:
-- winwlx/WlxSasNotify
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxSasNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_SAS_NOTIFY
+ - winwlx/PWLX_SAS_NOTIFY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxSasNotify
 ---
 
 # PWLX_SAS_NOTIFY callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxSasNotify function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,14 +57,10 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 
 ## -parameters
 
-
-
-
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
-
 
 ### -param dwSasType [in]
 
@@ -97,13 +93,8 @@ Indicates that the user has typed the CTRL+ALT+DEL SAS.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
@@ -118,7 +109,4 @@ Indicates that the user has typed the CTRL+ALT+DEL SAS.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
- 
-
- 
 

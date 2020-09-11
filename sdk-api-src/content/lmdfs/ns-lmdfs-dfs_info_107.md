@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: 38afc682-bb37-42ad-9e92-a1b0aa277f29
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_107, *PDFS_INFO_107, DFS_INFO_107, DFS_INFO_107 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, PDFS_INFO_107, PDFS_INFO_107 structure pointer [Distributed File System], dfs.dfs_info_107, fs.dfs_info_107, lmdfs/DFS_INFO_107, lmdfs/PDFS_INFO_107'
-f1_keywords:
-- lmdfs/DFS_INFO_107
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_107
 targetos: Windows
 req.typenames: DFS_INFO_107, *PDFS_INFO_107, *LPDFS_INFO_107
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_107
+ - lmdfs/_DFS_INFO_107
+ - PDFS_INFO_107
+ - lmdfs/PDFS_INFO_107
+ - DFS_INFO_107
+ - lmdfs/DFS_INFO_107
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_107
 ---
 
 # DFS_INFO_107 structure
@@ -49,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a DFS root or link, including the comment, state, time-out, property flags, 
      and link reparse point security descriptor. This structure is only for use with the 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> and 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Comment
 
 Pointer to a null-terminated Unicode string that contains a comment associated with the DFS root or 
       link.
-
 
 ### -field State
 
@@ -113,17 +112,14 @@ The system sets this flag if the root is associated with a stand-alone DFS names
 
 The system sets this flag if the root is associated with a domain-based DFS namespace.
 
-
 ### -field Timeout
 
 Specifies the time-out, in seconds, of the DFS root or link.
-
 
 ### -field PropertyFlagMask
 
 Specifies a mask value that indicates which flags are valid for evaluation in the 
       <b>PropertyFlags</b> field.
-
 
 ### -field PropertyFlags
 
@@ -201,26 +197,15 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
          DFS link.
 
-
 ### -field SecurityDescriptorLength
-
- 
-
 
 ### -field pSecurityDescriptor.size_is
 
- 
-
-
 ### -field pSecurityDescriptor.size_is.SecurityDescriptorLength
-
- 
-
 
 ### -field SdLengthReserved
 
 This member is reserved for system use.
-
 
 ### -field pSecurityDescriptor
 
@@ -228,18 +213,11 @@ Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
       structure that specifies a self-relative security descriptor to be associated with the DFS link's reparse point. 
       This field is valid for DFS links only.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1ab81008-42d8-4863-8836-0508e49ceca9
 ms.date: 12/05/2018
 ms.keywords: CreateWizard97Pages, CreateWizard97Pages method [Failover Cluster], CreateWizard97Pages method [Failover Cluster],IWEExtendWizard97 interface, IWEExtendWizard97 interface [Failover Cluster],CreateWizard97Pages method, IWEExtendWizard97.CreateWizard97Pages, IWEExtendWizard97::CreateWizard97Pages, _wolf_iweextendwizard97_createwizard97pages, cluadmex/IWEExtendWizard97::CreateWizard97Pages, mscs.iweextendwizard97_createwizard97pages
-f1_keywords:
-- cluadmex/IWEExtendWizard97.CreateWizard97Pages
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWEExtendWizard97.CreateWizard97Pages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWEExtendWizard97::CreateWizard97Pages
+ - cluadmex/IWEExtendWizard97::CreateWizard97Pages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWEExtendWizard97.CreateWizard97Pages
 ---
 
 # IWEExtendWizard97::CreateWizard97Pages
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
 Allows you to create Wizard97 property pages and add them to a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> Wizard.
 
-
 ## -parameters
 
-
-
-
 ### -param piData [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard97 pages to be added. By calling 
@@ -107,10 +102,7 @@ Depending on the type of <a href="https://docs.microsoft.com/previous-versions/w
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizard97callback">IWCWizard97Callback</a> interface 
        implementation used to add the new Wizard97 property pages to the wizard.
 
-
 ## -returns
-
-
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
@@ -157,14 +149,8 @@ The extension does not support adding Wizard97 pages.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If your extension has no Wizard97 pages but does have non-Wizard97 pages, you can either:
@@ -196,12 +182,7 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
        using the <i>piCallback</i> pointer.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>
 
@@ -252,7 +233,4 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendwizard97">IWEExtendWizard97</a>
- 
-
- 
 

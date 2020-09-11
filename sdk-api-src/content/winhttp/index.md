@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: WinHttp
+f1_keywords:
+ - winhttp
+ - winhttp/winhttp
 ---
 
 # Winhttp.h header
 
 
 ## -description
-
 
 This header is used by Windows HTTP Services (WinHTTP). For more information, see:
 

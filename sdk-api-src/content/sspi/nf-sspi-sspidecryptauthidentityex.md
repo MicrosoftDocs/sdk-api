@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA
 ms.date: 12/05/2018
 ms.keywords: SspiDecryptAuthIdentityEx, SspiDecryptAuthIdentityEx function [Security], security.sspidecryptauthidentityex, sspi/SspiDecryptAuthIdentityEx
-f1_keywords:
-- sspi/SspiDecryptAuthIdentityEx
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SspiDecryptAuthIdentityEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SspiDecryptAuthIdentityEx
+ - sspi/SspiDecryptAuthIdentityEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SspiDecryptAuthIdentityEx
 ---
 
 # SspiDecryptAuthIdentityEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Decrypts a <b>SEC_WINNT_AUTH_IDENTITY_OPAQUE</b> structure. 
-
+Decrypts a <b>SEC_WINNT_AUTH_IDENTITY_OPAQUE</b> structure.
 
 ## -parameters
-
-
-
 
 ### -param Options [in]
 
@@ -90,21 +86,14 @@ The encrypted structure can only be decrypted by the same process. Calling the f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EncryptedAuthData [in, out]
 
- This buffer is the output of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function. 
-
+ This buffer is the output of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, it returns SEC_E_OK.
 
 If the function fails, it returns a nonzero error code.
-
-
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
-f1_keywords:
-- fsrm/IFsrmCollection._NewEnum
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmCollection._NewEnum
-- IFsrmCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmCollection::get__NewEnum
+ - fsrm/IFsrmCollection::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmCollection._NewEnum
+ - IFsrmCollection.get__NewEnum
 ---
 
 # IFsrmCollection::get__NewEnum
@@ -50,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of a new 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> enumeration for the items in 
     the collection.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 C/C++ users use this method to enumerate items in the collection. Call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> of the 
@@ -82,16 +78,7 @@ If the item is an <b>HRESULT</b> value, the variant type is
     <b>VT_I4</b>. Use the <b>lVal</b> member of the variant to get the 
     <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: c1602718-2221-4e49-a57c-f65f87174dc9
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],RequestDestroyResource method, IHolder.RequestDestroyResource, IHolder::RequestDestroyResource, RequestDestroyResource, RequestDestroyResource method [COM+], RequestDestroyResource method [COM+],IHolder interface, _dtc_IHolder_RequestDestroyResource, comsvcs/IHolder::RequestDestroyResource, cos.iholder_requestdestroyresource
-f1_keywords:
-- comsvcs/IHolder.RequestDestroyResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.RequestDestroyResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::RequestDestroyResource
+ - comsvcs/IHolder::RequestDestroyResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.RequestDestroyResource
 ---
 
 # IHolder::RequestDestroyResource
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a resource, calling its destructor to free memory and other associated system resources.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IHolder0009 [in]
 
 The resource to be destroyed.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -108,18 +101,8 @@ The method failed. The resource has not been destroyed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
 

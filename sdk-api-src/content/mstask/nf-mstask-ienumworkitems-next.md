@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: a606e340-33fb-4a51-acdd-b7428c755ac5
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Next method, IEnumWorkItems.Next, IEnumWorkItems::Next, Next, Next method [Task Scheduler], Next method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_next, mstask/IEnumWorkItems::Next, taskschd.ienumworkitems_next
-f1_keywords:
-- mstask/IEnumWorkItems.Next
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IEnumWorkItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWorkItems::Next
+ - mstask/IEnumWorkItems::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IEnumWorkItems.Next
 ---
 
 # IEnumWorkItems::Next
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Retrieves the next specified number of tasks in the enumeration sequence.
 
 If there are fewer than the requested number of tasks left in the sequence, all the remaining elements are retrieved.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of tasks to retrieve.
-
 
 ### -param rgpwszNames [out]
 
@@ -73,15 +68,11 @@ A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated char
 
 After processing the names returned in <i>rgpwszNames</i>, you must first free each character string in the array and then the array itself using <b>CoTaskMemFree</b>.
 
-
 ### -param pceltFetched [out]
 
 A pointer to the number of tasks returned in <i>rgpwszNames</i>. If the <i>celt</i> parameter is 1, this parameter may be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -135,14 +126,8 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for resetting the enumeration, skipping tasks, and making a copy of the current state of the enumeration.
@@ -154,12 +139,7 @@ For an example of how to use <b>Next</b> to enumerate the tasks in the Scheduled
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
 
@@ -174,7 +154,4 @@ For an example of how to use <b>Next</b> to enumerate the tasks in the Scheduled
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
- 
-
- 
 

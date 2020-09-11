@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
 ms.date: 12/05/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
-f1_keywords:
-- oledlg/OleUIInsertObject
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIInsertObject
-- OleUIInsertObjectA
-- OleUIInsertObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIInsertObjectA
+ - oledlg/OleUIInsertObjectA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIInsertObject
+ - OleUIInsertObjectA
+ - OleUIInsertObjectW
 ---
 
 # OleUIInsertObjectA function
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Insert Object</b> dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
  Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure for this dialog box.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -438,14 +430,8 @@ The <b>cchFile</b> or <b>lpszFile</b> value is invalid. The <b>cchFile</b> membe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OleUIInsertObject</b> allows the user to select the type of object to be inserted from a list box containing the object applications registered on the user's system. To populate that list box, <b>OleUIInsertObject</b> traverses the registry, adding every object server it finds that meets the following criteria:
 
@@ -485,15 +471,9 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
- 
-
- 
 

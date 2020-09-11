@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 12a929e5-813d-4dae-9ea0-5a3c0a88cf05
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPADDRTABLE, MIB_IPADDRTABLE, MIB_IPADDRTABLE structure [MIB], PMIB_IPADDRTABLE, PMIB_IPADDRTABLE structure pointer [MIB], _mpr_mib_ipaddrtable, ipmib/MIB_IPADDRTABLE, ipmib/PMIB_IPADDRTABLE, iprtrmib/MIB_IPADDRTABLE, iprtrmib/PMIB_IPADDRTABLE, mib.mib_ipaddrtable, rras.mib_ipaddrtable'
-f1_keywords:
-- ipmib/MIB_IPADDRTABLE
-dev_langs:
-- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipmib.h
-- Iprtrmib.h
-api_name:
-- MIB_IPADDRTABLE
 targetos: Windows
 req.typenames: MIB_IPADDRTABLE, *PMIB_IPADDRTABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPADDRTABLE
+ - ipmib/_MIB_IPADDRTABLE
+ - PMIB_IPADDRTABLE
+ - ipmib/PMIB_IPADDRTABLE
+ - MIB_IPADDRTABLE
+ - ipmib/MIB_IPADDRTABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_IPADDRTABLE
 ---
 
 # MIB_IPADDRTABLE structure
@@ -50,30 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IPADDRTABLE</b> structure contains a table of IPv4 address entries.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumEntries
 
 The number of IPv4 address entries in the table.
-
 
 ### -field table
 
 A pointer to a table of IPv4 address entries implemented as an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrrow_w2k">MIB_IPADDRROW</a> structures.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function retrieves the interface–to–IPv4 address mapping table on a local computer and returns this information in an <b>MIB_IPADDRTABLE</b> structure.
 
@@ -91,19 +87,11 @@ To view an example that retrieves the <b>MIB_IPADDRTABLE</b> structure and then 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrrow_w2k">MIB_IPADDRROW</a>
- 
-
- 
 

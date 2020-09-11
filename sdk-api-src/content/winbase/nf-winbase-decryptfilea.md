@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.date: 12/05/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
-f1_keywords:
-- winbase/DecryptFile
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
-api_name:
-- DecryptFile
-- DecryptFileA
-- DecryptFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DecryptFileA
+ - winbase/DecryptFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+api_name:
+ - DecryptFile
+ - DecryptFileA
+ - DecryptFileW
 ---
 
 # DecryptFileA function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrypts an encrypted file or directory.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -69,27 +65,18 @@ The name of the file or directory to be decrypted.
 The caller must have the <b>FILE_READ_DATA</b>, <b>FILE_WRITE_DATA</b>, <b>FILE_READ_ATTRIBUTES</b>, <b>FILE_WRITE_ATTRIBUTES</b>, and <b>SYNCHRONIZE</b> access rights. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param dwReserved
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>DecryptFile</b> function requires exclusive access to the file being decrypted, and will fail if another process is using the file. If the file is not encrypted, 
@@ -168,9 +155,6 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
@@ -184,7 +168,4 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

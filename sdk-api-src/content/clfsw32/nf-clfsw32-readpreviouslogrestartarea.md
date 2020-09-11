@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f304dbb7-7d5c-403c-9418-60947cc4c3a1
 ms.date: 12/05/2018
 ms.keywords: ReadPreviousLogRestartArea, ReadPreviousLogRestartArea function [Files], clfsw32/ReadPreviousLogRestartArea, fs.readpreviouslogrestartarea
-f1_keywords:
-- clfsw32/ReadPreviousLogRestartArea
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- ReadPreviousLogRestartArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadPreviousLogRestartArea
+ - clfsw32/ReadPreviousLogRestartArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - ReadPreviousLogRestartArea
 ---
 
 # ReadPreviousLogRestartArea function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads the previous log restart area that is relative to the current restart record specified in the read context, <i>pvReadContext</i>. This read context is the one previously created by  a call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pvReadContext [in]
 
@@ -64,21 +60,17 @@ A pointer to a system-allocated read context that <a href="https://docs.microsof
 
   Even when those functions return <b>ERROR_IO_PENDING</b>, they still return a pointer to a valid read context. For information about  asynchronous completion, see the Remarks section of this topic.
 
-
 ### -param ppvRestartBuffer [out]
 
 A pointer to a variable that receives a pointer to the restart data.
-
 
 ### -param pcbRestartBuffer [out]
 
 A pointer to a variable that receives the size of the restart data at <i>*ppvRestartBuffer</i>, in bytes.
 
-
 ### -param plsnRestart [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the log sequence number (LSN) of the restart area  that   this function returns.
-
 
 ### -param pOverlapped [in, out, optional]
 
@@ -86,10 +78,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -99,12 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The following list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
 
@@ -121,12 +105,7 @@ To obtain a valid pointer,  the client must call <b>ReadPreviousLogRestartArea</
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
@@ -149,7 +128,4 @@ To obtain a valid pointer,  the client must call <b>ReadPreviousLogRestartArea</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>
- 
-
- 
 

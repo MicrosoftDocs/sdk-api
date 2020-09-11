@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
 ms.date: 12/05/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
-f1_keywords:
-- handleapi/DuplicateHandle
-dev_langs:
-- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-handle-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- DuplicateHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DuplicateHandle
+ - handleapi/DuplicateHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-handle-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - DuplicateHandle
 ---
 
 # DuplicateHandle function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Duplicates an object handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hSourceProcessHandle [in]
 
@@ -72,16 +68,13 @@ A handle to the process with the handle to be duplicated.
 The handle must have the PROCESS_DUP_HANDLE access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-
 ### -param hSourceHandle [in]
 
 The handle to be duplicated. This is an open object handle that is valid in the context of the source process. For a list of objects whose handles can be duplicated, see the following Remarks section.
 
-
 ### -param hTargetProcessHandle [in]
 
 A handle to the process that is to receive the duplicated handle. The handle must have the PROCESS_DUP_HANDLE access right.
-
 
 ### -param lpTargetHandle [out]
 
@@ -94,7 +87,6 @@ If <i>hSourceHandle</i> is a pseudo handle returned by <a href="https://docs.mic
 
 If <i>lpTargetHandle</i> is <b>NULL</b>, the function duplicates the handle, but does not return the duplicate handle value to the caller. This behavior exists only for backward compatibility with previous versions of this function. You should not use this feature, as you will lose system resources until the target process terminates.
 
-
 ### -param dwDesiredAccess [in]
 
 The access requested for the new handle. For the flags that can be specified for each object type, see the following Remarks section. 
@@ -104,11 +96,9 @@ The access requested for the new handle. For the flags that can be specified for
 
 This parameter is ignored if the <i>dwOptions</i> parameter specifies the DUPLICATE_SAME_ACCESS flag. Otherwise, the flags that can be specified depend on the type of object whose handle is to be duplicated.
 
-
 ### -param bInheritHandle [in]
 
 A variable that indicates whether the handle is inheritable. If <b>TRUE</b>, the duplicate handle can be inherited by new processes created by the target process. If <b>FALSE</b>, the new handle cannot be inherited.
-
 
 ### -param dwOptions [in]
 
@@ -144,24 +134,15 @@ Ignores the <i>dwDesiredAccess</i> parameter. The duplicate handle has the same 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The duplicate handle refers to the same object as the original handle. Therefore, any changes to the object are reflected through both handles. For example, if you duplicate a file handle, the current file position is always the same for both handles. For  file handles to have different file positions, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to create file handles that share access to the same file.
 
@@ -404,14 +385,7 @@ DWORD CALLBACK ThreadProc(PVOID pvParam)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -423,7 +397,4 @@ DWORD CALLBACK ThreadProc(PVOID pvParam)
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and
 		  Object Functions</a>
- 
-
- 
 

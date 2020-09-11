@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
 ms.date: 12/05/2018
 ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID
-f1_keywords:
-- combaseapi/CLSIDFromProgID
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CLSIDFromProgID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLSIDFromProgID
+ - combaseapi/CLSIDFromProgID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CLSIDFromProgID
 ---
 
 # CLSIDFromProgID function
@@ -54,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Looks up a CLSID in the registry, given a ProgID.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszProgID [in]
 
 A pointer to the ProgID whose CLSID is requested.
 
-
 ### -param lpclsid [out]
 
 Receives a pointer to the retrieved CLSID on return.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -119,31 +111,16 @@ An error occurred writing the CLSID to the registry. See Remarks below.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Given a ProgID, <b>CLSIDFromProgID</b> looks up its associated CLSID in the registry. If the ProgID cannot be found in the registry, <b>CLSIDFromProgID</b> creates an OLE 1 CLSID for the ProgID and a CLSID entry in the registry. Because of the restrictions placed on OLE 1 CLSID values, <b>CLSIDFromProgID</b> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring">CLSIDFromString</a> are the only two functions that can be used to generate a CLSID for an OLE 1 object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogidex">CLSIDFromProgIDEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid">ProgIDFromCLSID</a>
- 
-
- 
 

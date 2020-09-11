@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 89444189-254e-4a3c-9c8e-79c8b96aee34
 ms.date: 12/05/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink interface [Text Services Framework],OnActivated method, ITfActiveLanguageProfileNotifySink.OnActivated, ITfActiveLanguageProfileNotifySink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfActiveLanguageProfileNotifySink interface, _tsf_itfactivelanguageprofilenotifysink_onactivated_ref, msctf/ITfActiveLanguageProfileNotifySink::OnActivated, tsf.itfactivelanguageprofilenotifysink_onactivated
-f1_keywords:
-- msctf/ITfActiveLanguageProfileNotifySink.OnActivated
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfActiveLanguageProfileNotifySink.OnActivated
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfActiveLanguageProfileNotifySink::OnActivated
+ - msctf/ITfActiveLanguageProfileNotifySink::OnActivated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfActiveLanguageProfileNotifySink.OnActivated
 ---
 
 # ITfActiveLanguageProfileNotifySink::OnActivated
+
 
 ## -description
 
@@ -73,3 +75,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 [ITfActiveLanguageProfileNotifySink interface](nn-msctf-itfactivelanguageprofilenotifysink.md)
+

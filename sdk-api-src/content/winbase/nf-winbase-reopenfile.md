@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 56d8a4b1-e3b5-4134-8d21-bf40761e9dcc
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, ReOpenFile, ReOpenFile function [Files], SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, base.reopenfile, fs.reopenfile, winbase/ReOpenFile
-f1_keywords:
-- winbase/ReOpenFile
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-api_name:
-- ReOpenFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReOpenFile
+ - winbase/ReOpenFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - ReOpenFile
 ---
 
 # ReOpenFile function
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reopens the specified file system object with different access rights, sharing mode, and 
     flags.
 
-
 ## -parameters
-
-
-
 
 ### -param hOriginalFile [in]
 
 A handle to the object to be reopened. The object must have been created by the 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -80,7 +75,6 @@ The required access to the object. For a list of values, see
 If this parameter is zero (0), the application can query device attributes without accessing the device. This 
        is useful if an application wants to determine the size of a floppy disk drive and the formats it supports 
        without requiring a floppy in the drive.
-
 
 ### -param dwShareMode [in]
 
@@ -142,8 +136,6 @@ If the object has already been opened with write access, the sharing mode must i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -412,24 +404,15 @@ Impersonate the client at the Impersonation impersonation level.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <i>dwFlags</i> parameter cannot contain any of the file attribute flags 
     (<b>FILE_ATTRIBUTE_*</b>). These can only be specified when the file is created.
@@ -492,22 +475,12 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

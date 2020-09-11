@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5ACE8143-DC14-495C-A644-A2076FB1980F
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
-f1_keywords:
-- mfmediaengine/IMFMediaEngine.Load
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngine.Load
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngine::Load
+ - mfmediaengine/IMFMediaEngine::Load
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngine.Load
 ---
 
 # IMFMediaEngine::Load
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the current media source.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The main purpose of this method is to reload a list of source elements after updating the list. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">SetSourceElements</a>. Otherwise, calling this method is generally not required. To load a new media source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">IMFMediaEngine::SetSource</a> or <b>IMFMediaEngine::SetSourceElements</b>.
 
@@ -89,18 +76,9 @@ If the Media Engine is unable to load the file, the Media Engine sends an <b>MF_
 
 For more information about event handling in the Media Engine, see <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify">IMFMediaEngineNotify</a>.
 
-This method corresponds to the <b>load</b> method of the <b>HTMLMediaElement</b> interface in HTML5. 
-
-
-
+This method corresponds to the <b>load</b> method of the <b>HTMLMediaElement</b> interface in HTML5.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
- 
-
- 
 

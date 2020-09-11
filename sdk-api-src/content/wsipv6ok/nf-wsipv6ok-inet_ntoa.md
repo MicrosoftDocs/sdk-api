@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 01cd32e7-a01d-40e8-afb5-69223d643a0e
 ms.date: 12/05/2018
 ms.keywords: _win32_inet_ntoa_2, inet_ntoa, inet_ntoa function [Winsock], winsock.inet_ntoa_2, wsipv6ok/inet_ntoa
-f1_keywords:
-- wsipv6ok/inet_ntoa
-dev_langs:
-- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- inet_ntoa
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - inet_ntoa
+ - wsipv6ok/inet_ntoa
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - inet_ntoa
 ---
 
 # inet_ntoa macro
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>inet_ntoa</b> function converts an (Ipv4) Internet network address into an ASCII string in Internet standard dotted-decimal format.
 
-
 ## -parameters
-
-
-
 
 ### -param a [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure that represents an Internet host address.
 
-
 ## -remarks
-
-
 
 The 
 <b>inet_ntoa</b> function takes an Internet address structure specified by the <i>in</i> parameter and returns a <b>NULL</b>-terminated ASCII string that represents the address in "." (dot) notation as in "192.168.16.0", an example of an IPv4 address in dotted-decimal notation.   The string returned by 
@@ -82,13 +75,7 @@ On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/des
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>IN6_ADDR</b>
 
@@ -151,7 +138,4 @@ On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
- 
-
- 
 

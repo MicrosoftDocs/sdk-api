@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defframeproc.htm
 ms.date: 12/05/2018
 ms.keywords: DefFrameProc, DefFrameProc function [Windows and Messages], DefFrameProcA, DefFrameProcW, _win32_DefFrameProc, _win32_defframeproc_cpp, winmsg.defframeproc, winui._win32_defframeproc, winuser/DefFrameProc, winuser/DefFrameProcA, winuser/DefFrameProcW
-f1_keywords:
-- winuser/DefFrameProc
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DefFrameProc
-- DefFrameProcA
-- DefFrameProcW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DefFrameProcA
+ - winuser/DefFrameProcA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DefFrameProc
+ - DefFrameProcA
+ - DefFrameProcW
 ---
 
 # DefFrameProcA function
@@ -51,64 +52,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process. All window messages that are not explicitly processed by the window procedure must be passed to the <b>DefFrameProc</b> function, not the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function. 
-
+Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process. All window messages that are not explicitly processed by the window procedure must be passed to the <b>DefFrameProc</b> function, not the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the MDI frame window. 
-
+A handle to the MDI frame window.
 
 ### -param hWndMDIClient [in]
 
 Type: <b>HWND</b>
 
-A handle to the MDI client window. 
-
+A handle to the MDI client window.
 
 ### -param uMsg [in]
 
 Type: <b>UINT</b>
 
-The message to be processed. 
-
+The message to be processed.
 
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ## -returns
 
-
-
 Type: <b>LRESULT</b>
 
-The return value specifies the result of the message processing and depends on the message. If the <i>hWndMDIClient</i> parameter is <b>NULL</b>, the return value is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function. 
-
-
-
+The return value specifies the result of the message processing and depends on the message. If the <i>hWndMDIClient</i> parameter is <b>NULL</b>, the return value is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function.
 
 ## -remarks
-
-
 
 When an application's window procedure does not handle a message, it typically passes the message to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to process the message. MDI applications use the <b>DefFrameProc</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defmdichildproca">DefMDIChildProc</a> functions instead of <b>DefWindowProc</b> to provide default message processing. All messages that an application would usually pass to <b>DefWindowProc</b> (such as nonclient messages and the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message) should be passed to <b>DefFrameProc</b> instead. The <b>DefFrameProc</b> function also handles the following messages. 
 
@@ -155,9 +139,6 @@ When an application's window procedure does not handle a message, it typically p
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -179,7 +160,4 @@ When an application's window procedure does not handle a message, it typically p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
- 
-
- 
 

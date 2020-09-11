@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 3889505c-29a0-49dd-aca8-a26417b25a94
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionGuid, FindActCtxSectionGuid function [Side-by-side Assemblies], _win32_findactctxsectionguid, setup.findactctxsectionguid, winbase/FindActCtxSectionGuid
-f1_keywords:
-- winbase/FindActCtxSectionGuid
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-sidebyside-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- FindActCtxSectionGuid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindActCtxSectionGuid
+ - winbase/FindActCtxSectionGuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-sidebyside-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - FindActCtxSectionGuid
 ---
 
 # FindActCtxSectionGuid function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FindActCtxSectionGuid</b> function retrieves information on a specific GUID in the current activation context and returns a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -86,13 +82,10 @@ This function returns the activation context handle where the redirection data w
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpExtensionGuid [in]
 
 Reserved; must be null.
-
 
 ### -param ulSectionId [in]
 
@@ -118,16 +111,12 @@ The following is a valid GUID section identifier beginning with Windows Server 
 
 Pointer to a GUID to be used as the search criteria.
 
-
 ### -param ReturnedData [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure to be filled out with the requested GUID information.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
@@ -136,29 +125,15 @@ This function sets errors that can be retrieved by calling
 <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function should only be called by the Side-by-side API functions or COM methods. Applications should not directly call this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionstringa">FindActCtxSectionString</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0f171cf4-87b9-43a6-97f2-80ed344fe376
 ms.date: 12/05/2018
 ms.keywords: CoInitialize, CoInitialize function [COM], _com_CoInitialize, com.coinitialize, objbase/CoInitialize
-f1_keywords:
-- objbase/CoInitialize
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-OLE32-IE-l1-1-0.dll
-- ole32_wp.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- CoInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoInitialize
+ - objbase/CoInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-OLE32-IE-l1-1-0.dll
+ - ole32_wp.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - CoInitialize
 ---
 
 # CoInitialize function
@@ -55,27 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the COM library on the current thread and identifies the concurrency model as single-thread apartment (STA).
 
 New applications should call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> instead of CoInitialize. 
 
 If you want to use the Windows Runtime, you must call Windows::Foundation::Initialize instead.
 
-
 ## -parameters
-
-
-
 
 ### -param pvReserved [in, optional]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -118,14 +111,8 @@ A previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comba
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You need to initialize the COM library on a thread before you call any of the library functions except <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>, to get a pointer to the standard allocator, and the memory allocation functions.
 
@@ -144,16 +131,7 @@ Typically, the COM library is initialized on a thread only once. Subsequent call
 
 Because there is no way to control the order in which in-process servers are loaded or unloaded, do not call <b>CoInitialize</b>, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> from the <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
- 
-
- 
 

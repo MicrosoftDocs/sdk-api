@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 4221f5c8-a71c-4368-9be4-9562063b6cfd
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetGroupSetUsers, NetGroupSetUsers function [Network Management], _win32_netgroupsetusers, lmaccess/NetGroupSetUsers, netmgmt.netgroupsetusers
-f1_keywords:
-- lmaccess/NetGroupSetUsers
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetGroupSetUsers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetGroupSetUsers
+ - lmaccess/NetGroupSetUsers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetGroupSetUsers
 ---
 
 # NetGroupSetUsers function
@@ -49,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetGroupSetUsers</b> function sets the membership for the specified global group. Each user you specify is enrolled as a member of the global group. Users you do not specify, but who are currently members of the global group, will have their membership revoked.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param groupname [in]
 
 A pointer to a constant string that specifies the name of the global group of interest. For more information, see the Remarks section.
-
 
 ### -param level [in]
 
@@ -107,23 +97,17 @@ The <i>buf</i> parameter points to an array of
 </td>
 </tr>
 </table>
- 
-
 
 ### -param buf [in]
 
 A pointer to the buffer that contains the data. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param totalentries [in]
 
 The number of entries in the buffer pointed to by the <i>buf</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -245,14 +229,8 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
@@ -281,13 +259,7 @@ User account names are limited to 20 characters and group names are limited to 2
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management group functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_0">GROUP_USERS_INFO_0</a>
 
@@ -328,7 +300,4 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

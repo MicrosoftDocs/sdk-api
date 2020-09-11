@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 39481d9a-79d5-4bbf-8480-4095a34dddb6
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetServiceObjectSecurity, SetServiceObjectSecurity function [Security], _win32_setserviceobjectsecurity, security.setserviceobjectsecurity, winsvc/SetServiceObjectSecurity
-f1_keywords:
-- winsvc/SetServiceObjectSecurity
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l2-1-0.dll
-api_name:
-- SetServiceObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetServiceObjectSecurity
+ - winsvc/SetServiceObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l2-1-0.dll
+api_name:
+ - SetServiceObjectSecurity
 ---
 
 # SetServiceObjectSecurity function
@@ -52,23 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SetServiceObjectSecurity</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> function.]
 
 The <b>SetServiceObjectSecurity</b> function sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a service object.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The access required for this handle depends on the security information specified in the <i>dwSecurityInformation</i> parameter.
-
 
 ### -param dwSecurityInformation [in]
 
@@ -133,18 +128,13 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sys
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSecurityDescriptor [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero. 
 
@@ -203,14 +193,8 @@ The specified service has been marked for deletion.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetServiceObjectSecurity</b> function sets the specified portions of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the service object based on the information specified in the <i>lpSecurityDescriptor</i> buffer. This function replaces any or all of the security information associated with the service object, according to the flags set in the <i>dwSecurityInformation</i> parameter and subject to the access rights of the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>.
 
@@ -220,13 +204,7 @@ When a service is created, the service control manager assigns a default securit
 
 Note that granting certain access to untrusted users (such as SERVICE_CHANGE_CONFIG or SERVICE_STOP) can allow them to interfere with the execution of your service and possibly allow them to run applications under the LocalSystem account.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
@@ -249,7 +227,4 @@ Note that granting certain access to untrusted users (such as SERVICE_CHANGE_CON
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileWithProgress, MoveFileWithProgress function [Files], MoveFileWithProgressA, MoveFileWithProgressW, Rename file [Files], _win32_movefilewithprogress, base.movefilewithprogress, fs.movefilewithprogress, winbase/MoveFileWithProgress, winbase/MoveFileWithProgressA, winbase/MoveFileWithProgressW
-f1_keywords:
-- winbase/MoveFileWithProgress
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- MoveFileWithProgress
-- MoveFileWithProgressA
-- MoveFileWithProgressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MoveFileWithProgressA
+ - winbase/MoveFileWithProgressA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - MoveFileWithProgress
+ - MoveFileWithProgressA
+ - MoveFileWithProgressW
 ---
 
 # MoveFileWithProgressA function
@@ -58,18 +59,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves a file or directory, including its children. You can provide a callback function that receives 
     progress notifications.
 
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpExistingFileName [in]
 
@@ -121,13 +117,11 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/n
       useful if you provide a user interface that displays the progress of the operation. This parameter can be 
       <b>NULL</b>.
 
-
 ### -param lpData [in, optional]
 
 An argument to be passed to the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> callback function. This 
       parameter can be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -229,12 +223,8 @@ This value has no effect if <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> is set.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -253,12 +243,7 @@ When moving a file across volumes, if <i>lpProgressRoutine</i> returns
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
        <b>ERROR_REQUEST_ABORTED</b>. The existing file is left intact.
 
-
-
-
 ## -remarks
-
-
 
 The <b>MoveFileWithProgress</b> function coordinates its operation with the link 
     tracking service, so link sources can be tracked as they are moved.
@@ -342,9 +327,6 @@ CsvFs will do redirected IO for compressed files.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>
 
 
@@ -362,7 +344,4 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
- 
-
- 
 

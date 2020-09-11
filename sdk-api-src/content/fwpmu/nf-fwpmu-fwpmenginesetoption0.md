@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 6044a334-a1dc-4447-8581-cd0ffc5883db
 ms.date: 12/05/2018
 ms.keywords: FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND, FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE, FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND, FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST, FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST, FwpmEngineSetOption0, FwpmEngineSetOption0 function [Filtering], fwp.fwpmenginesetoption0, fwpmu/FwpmEngineSetOption0
-f1_keywords:
-- fwpmu/FwpmEngineSetOption0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmEngineSetOption0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmEngineSetOption0
+ - fwpmu/FwpmEngineSetOption0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmEngineSetOption0
 ---
 
 # FwpmEngineSetOption0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmEngineSetOption0</b> function changes the filter engine settings.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param option [in]
 
 Type: [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)</b>
 
 The option to be set.
-
 
 ### -param newValue [in]
 
@@ -229,13 +223,7 @@ When <i>option</i> is <b>FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC</b>  (availabl
 
 The <b>FWPM_ENGINE_NAME_CACHE</b>  option is reserved for internal use.
 
-
-
-
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -281,14 +269,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function cannot be called from within a transaction. It will fail
 with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
@@ -321,13 +303,7 @@ Disabling and re-enabling of network event collection (FWPM_ENGINE_COLLECT_NET_E
 
 <b>FwpmEngineSetOption0</b> is a specific implementation of FwpmEngineSetOption. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)
 
@@ -338,7 +314,4 @@ Disabling and re-enabling of network event collection (FWPM_ENGINE_COLLECT_NET_E
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginegetoption0">FwpmEngineGetOption0</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 3A5FE3A2-8D0D-4073-94FE-B0AC5DBF2D25
 ms.date: 12/05/2018
 ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxContentGroupMapReader interface, IAppxContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxContentGroupMapReader.GetAutomaticGroups, IAppxContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxcontentgroupmapreader_getautomaticgroups
-f1_keywords:
-- appxpackaging/IAppxContentGroupMapReader.GetAutomaticGroups
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxContentGroupMapReader.GetAutomaticGroups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxContentGroupMapReader::GetAutomaticGroups
+ - appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxContentGroupMapReader.GetAutomaticGroups
 ---
 
 # IAppxContentGroupMapReader::GetAutomaticGroups
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the automatic content group(s) from the content group map.
 
-
 ## -parameters
-
-
-
 
 ### -param automaticGroupsEnumerator [out, retval]
 
 An enumerator for the automatic content group(s).
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupmapreader">IAppxContentGroupMapReader</a>
- 
-
- 
 

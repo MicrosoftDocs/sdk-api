@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 95d88d28-57b7-4b4a-abda-a69f25b1e8b8
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],Union method, ISyncKnowledge.Union, ISyncKnowledge::Union, Union, Union method [Windows Sync], Union method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_union, winsync/ISyncKnowledge::Union
-f1_keywords:
-- winsync/ISyncKnowledge.Union
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.Union
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::Union
+ - winsync/ISyncKnowledge::Union
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.Union
 ---
 
 # ISyncKnowledge::Union
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Combines the specified knowledge with the current knowledge.
 
-
 ## -parameters
-
-
-
 
 ### -param pKnowledge [in]
 
 The knowledge to combine with the current knowledge.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -113,18 +106,8 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
 

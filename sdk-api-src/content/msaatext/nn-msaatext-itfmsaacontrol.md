@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: e01a0177-7e3a-4087-84b8-151da2145be8
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework], ITfMSAAControl interface [Text Services Framework],described, msaatext/ITfMSAAControl, tsf.itfmsaacontrol
-f1_keywords:
-- msaatext/ITfMSAAControl
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMSAAControl
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMSAAControl
+ - msaatext/ITfMSAAControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMSAAControl
 ---
 
 # ITfMSAAControl interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfMSAAControl</b> interface is used by <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a> to add or remove a document from TSF control, to avoid unnecessary overhead in TSF. This interface is not recommended for use by other applications.
 
 The interface ID is IID_ITfMSAAControl.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Used by MSAA to request TSF support of an MSAA client.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
- 
-
- 
 

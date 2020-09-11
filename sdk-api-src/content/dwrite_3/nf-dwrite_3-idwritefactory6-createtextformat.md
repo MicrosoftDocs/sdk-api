@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateTextForm
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateTextFormat method, IDWriteFactory6.CreateTextFormat, IDWriteFactory6::CreateTextFormat, CreateTextFormat, CreateTextFormat method [Direct Write], CreateTextFormat method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createtextformat, dwrite_3/IDWriteFactory6::CreateTextFormat
-f1_keywords:
-- dwrite_3/IDWriteFactory6.CreateTextFormat
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory6::CreateFontSetBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFactory6::CreateTextFormat
+ - dwrite_3/IDWriteFactory6::CreateTextFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory6::CreateFontSetBuilder
 ---
 
 ## -description
@@ -102,3 +103,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 If *fontCollection* is `nullptr`, then the system font collection is used, grouped by typographic family name ([DWRITE_FONT_FAMILY_MODEL_TYPOGRAPHIC](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_family_model)) without downloadable fonts.
 
 ## -see-also
+

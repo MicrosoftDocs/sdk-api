@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
 ms.date: 12/05/2018
 ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
-f1_keywords:
-- iads/IADsSecurityUtility
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsSecurityUtility
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsSecurityUtility
+ - iads/IADsSecurityUtility
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsSecurityUtility
 ---
 
 # IADsSecurityUtility interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsSecurityUtility</b> interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key. You can also use it to convert the security descriptor to or from raw or hexadecimal mode and you can limit the scope of the security descriptor data retrieved or set by indicating whether you want it for the owner, group, DACL, or SACL.
-
 
 ## -inheritance
 
@@ -120,24 +119,15 @@ Determines which elements of the security descriptor to retrieve or set.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To read the system access-control list (SACL) of a file or directory, the <b>SE_SECURITY_NAME</b> privilege must be enabled for the calling process. For more information about retrieving the SACL for an object, see <a href="https://docs.microsoft.com/windows/desktop/AD/retrieving-an-objectampaposs-sacl">Retrieving an Object's SACL</a>.
 
 For more information and a code example that shows how to use the <b>IADsSecurityUtility</b> interface to add an ACE to a file, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/example-code-for-adding-an-ace-to-a-file">Example Code for Adding an ACE to a File</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
@@ -172,7 +162,4 @@ For more information and a code example that shows how to use the <b>IADsSecurit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/security-interfaces">Security Interfaces</a>
- 
-
- 
 

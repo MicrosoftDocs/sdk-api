@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: c4b9f4bb-24f0-4b5e-b12d-8be839b34895
 ms.date: 12/05/2018
 ms.keywords: SnmpSendMsg, SnmpSendMsg function [SNMP], _snmp_snmpsendmsg, snmp.snmpsendmsg, winsnmp/SnmpSendMsg
-f1_keywords:
-- winsnmp/SnmpSendMsg
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpSendMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpSendMsg
+ - winsnmp/SnmpSendMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpSendMsg
 ---
 
 # SnmpSendMsg function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -60,40 +60,29 @@ If a WinSNMP application expects a PDU in response to a
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function using the session handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session.
 
-
 ### -param srcEntity [in]
 
 Handle to the management entity that initiates the request to send the SNMP message.
-
 
 ### -param dstEntity [in]
 
 Handle to the target entity that will respond to the SNMP request.
 
-
 ### -param context [in]
 
 Handle to the context, (a set of managed object resources), that the target management entity controls.
-
 
 ### -param PDU [in]
 
 Handle to the protocol data unit that contains the SNMP operation request.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -289,12 +278,7 @@ An unknown or undefined error occurred.
 For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/network-transport-errors">Network Transport Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SnmpSendMsg</b> function executes asynchronously and therefore returns immediately.
@@ -314,13 +298,7 @@ For additional information, see
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-programming-tasks">WinSNMP Programming Tasks</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp-messages">About SNMP Messages</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
 
@@ -336,7 +314,4 @@ For additional information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

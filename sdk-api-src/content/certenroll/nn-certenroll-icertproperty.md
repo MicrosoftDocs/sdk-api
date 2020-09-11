@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 947c2f09-993d-4ced-8b76-66b79d96e3bc
 ms.date: 12/05/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty interface [Security],described, certenroll/ICertProperty, security.icertproperty
-f1_keywords:
-- certenroll/ICertProperty
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertProperty
+ - certenroll/ICertProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertProperty
 ---
 
 # ICertProperty interface
 
 
 ## -description
-
 
 The <b>ICertProperty</b> interface can be used to associate an external property with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. Properties are never sent to or processed by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, and they are not stored inside a certificate. Typically, they are associated with a  certificate after the certificate is received from the certification authority and before it is saved in a store. The properties are saved in the store along with the certificate. A collection of properties is contained in an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a> object. You can initialize the collection by using an existing certificate.
 
@@ -173,13 +173,9 @@ Retrieves the value of the  certificate property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -190,7 +186,4 @@ Retrieves the value of the  certificate property.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

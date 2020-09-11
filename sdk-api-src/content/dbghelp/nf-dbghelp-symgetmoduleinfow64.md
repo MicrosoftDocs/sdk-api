@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
 ms.date: 12/05/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
-f1_keywords:
-- dbghelp/SymGetModuleInfo64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymGetModuleInfo64
-- SymGetModuleInfo64
-- SymGetModuleInfoW64
-- SymGetModuleInfo
-- SymGetModuleInfoW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymGetModuleInfoW64
+ - dbghelp/SymGetModuleInfoW64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymGetModuleInfo64
+ - SymGetModuleInfo64
+ - SymGetModuleInfoW64
+ - SymGetModuleInfo
+ - SymGetModuleInfoW
 ---
 
 # SymGetModuleInfoW64 function
@@ -53,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the module information of the specified module.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param qwAddr [in]
 
 The virtual address that is contained in one of the modules loaded by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function.
-
 
 ### -param ModuleInfo [out]
 
@@ -82,19 +76,12 @@ A pointer to an
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The module table is searched for a module that contains the <i>dwAddr</i>. The module is located based on the load address and size of each module. If a valid module is found, the <i>ModuleInfo</i> parameter is filled with the information about the module.
 
@@ -150,14 +137,7 @@ SymGetModuleInfoW(
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -172,7 +152,4 @@ SymGetModuleInfoW(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
- 
-
- 
 

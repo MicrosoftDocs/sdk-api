@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
 ms.date: 12/05/2018
 ms.keywords: SHGetDiskFreeSpace, SHGetDiskFreeSpaceEx, SHGetDiskFreeSpaceEx function [Windows Shell], SHGetDiskFreeSpaceExA, SHGetDiskFreeSpaceExW, _shell_SHGetDiskFreeSpaceEx, shell.SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceExA, shellapi/SHGetDiskFreeSpaceExW
-f1_keywords:
-- shellapi/SHGetDiskFreeSpaceEx
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHGetDiskFreeSpaceEx
-- SHGetDiskFreeSpaceExA
-- SHGetDiskFreeSpaceExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetDiskFreeSpaceExW
+ - shellapi/SHGetDiskFreeSpaceExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHGetDiskFreeSpaceEx
+ - SHGetDiskFreeSpaceExA
+ - SHGetDiskFreeSpaceExW
 ---
 
 # SHGetDiskFreeSpaceExW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves disk space information for a disk volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pszDirectoryName [in]
 
@@ -66,13 +62,11 @@ Type: <b>LPCTSTR</b>
 
 A null-terminated string that specifies the volume for which size information is retrieved. This can be a drive letter, UNC name, or the path of a folder. You cannot use <b>NULL</b> to represent the current drive.
 
-
 ### -param pulFreeBytesAvailableToCaller [out, optional]
 
 Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes on the volume available to the calling application. If the operating system implements per-user quotas, this value may be less than the total number of free bytes on the volume.
-
 
 ### -param pulTotalNumberOfBytes [out, optional]
 
@@ -80,28 +74,19 @@ Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_IN
 
 Pointer to a value that receives the total size of the volume, in bytes.
 
-
 ### -param pulTotalNumberOfFreeBytes [out, optional]
 
 Type: <b><a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>*</b>
 
 Pointer to a value that receives the number of bytes of free space on the volume.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The similarly named function <a href="https://docs.microsoft.com/previous-versions/bb762176(v=vs.85)">SHGetDiskFreeSpace</a> is merely an alias for <b>SHGetDiskFreeSpaceEx</b>. When you call <b>SHGetDiskFreeSpace</b> you actually call this function.
 
@@ -116,15 +101,9 @@ This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa">GetDiskFreeSpaceEx</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/bb762176(v=vs.85)">SHGetDiskFreeSpace</a>
- 
-
- 
 

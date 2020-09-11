@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 048fcb8d-acd3-4917-a997-dd133db399f8
 ms.date: 12/05/2018
 ms.keywords: _win32_ioctlsocket_2, ioctlsocket, ioctlsocket function [Winsock], winsock.ioctlsocket_2, winsock/ioctlsocket
-f1_keywords:
-- winsock2/ioctlsocket
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- ioctlsocket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ioctlsocket
+ - winsock2/ioctlsocket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - ioctlsocket
 ---
 
 # ioctlsocket function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ioctlsocket</b> function controls the I/O mode of a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param cmd [in]
 
 A command to perform on the socket <i>s</i>.
-
 
 ### -param argp [in, out]
 
 A pointer to a parameter for <i>cmd</i>.
 
-
 ## -returns
-
-
 
 Upon successful completion, the 
 <b>ioctlsocket</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -144,14 +135,8 @@ The <i>argp</i> parameter is not a valid part of the user address space.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>ioctlsocket</b> function can be used on any socket in any state. It is used to set or retrieve some operating parameters associated with the socket, independent of the protocol and communications subsystem. Here are the supported commands to use in the <i>cmd</i> parameter and their semantics:
@@ -224,13 +209,7 @@ This
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -261,7 +240,4 @@ This
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

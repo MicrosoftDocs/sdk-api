@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: c673d5cc-c4ca-4238-8090-55abe3db324b
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_ANALYSIS, SCRIPT_ANALYSIS structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_ANALYSIS_str, intl.script_analysis, usp10/SCRIPT_ANALYSIS
-f1_keywords:
-- usp10/SCRIPT_ANALYSIS
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usp10.h
-api_name:
-- SCRIPT_ANALYSIS
 targetos: Windows
 req.typenames: SCRIPT_ANALYSIS
 req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - tag_SCRIPT_ANALYSIS
+ - usp10/tag_SCRIPT_ANALYSIS
+ - SCRIPT_ANALYSIS
+ - usp10/SCRIPT_ANALYSIS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usp10.h
+api_name:
+ - SCRIPT_ANALYSIS
 ---
 
 # SCRIPT_ANALYSIS structure
@@ -49,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains a portion of a Unicode string, that is, an "item".
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field eScript
 
 Opaque value identifying the engine that Uniscribe uses when calling the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a> functions for the item. The value for this member is undefined and applications should not rely on its value being the same from one release to the next. An application can obtain the attributes of <b>eScript</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>.
 
 To disable shaping, the application should set this member to SCRIPT_UNDEFINED.
-
 
 ### -field fRTL
 
@@ -98,8 +92,6 @@ Use a left-to-right rendering direction.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fLayoutRTL
 
@@ -131,8 +123,6 @@ Lay out the number in a left-to-right run, because it is read as part of the lef
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fLinkBefore
 
@@ -164,8 +154,6 @@ Do not shape the first character by linking with a previous character.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fLinkAfter
 
@@ -197,8 +185,6 @@ Do not shape the last character by linking with a subsequent character.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fLogicalOrder
 
@@ -230,8 +216,6 @@ Generate all glyph-related arrays in visual order, with the first array entry co
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNoGlyphIndex
 
@@ -265,29 +249,18 @@ Enable the use of glyphs for the item. This value is the default.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field s
 
 A <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure containing a copy of the Unicode algorithm state.
 
-
 ## -remarks
-
-
 
 This structure is filled by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>, each of which breaks a Unicode string into individually shapeable items. Neither function accesses the <b>SCRIPT_ANALYSIS</b> structure directly. Each function handles an array of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures, each of which has a member defining a <b>SCRIPT_ANALYSIS</b> structure.
 
 Applications that use <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> should also use <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a>
 
@@ -334,7 +307,4 @@ Applications that use <a href="https://docs.microsoft.com/windows/desktop/api/us
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
- 
-
- 
 

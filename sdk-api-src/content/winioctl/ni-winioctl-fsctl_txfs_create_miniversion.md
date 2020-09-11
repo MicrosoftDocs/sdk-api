@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3d12b149-ab34-46c4-89fc-8ddc12a81fa0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_CREATE_MINIVERSION, FSCTL_TXFS_CREATE_MINIVERSION control, FSCTL_TXFS_CREATE_MINIVERSION control code [Files], fs.fsctl_txfs_create_miniversion, winioctl/FSCTL_TXFS_CREATE_MINIVERSION
-f1_keywords:
-- winioctl/FSCTL_TXFS_CREATE_MINIVERSION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_CREATE_MINIVERSION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_CREATE_MINIVERSION
+ - winioctl/FSCTL_TXFS_CREATE_MINIVERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_CREATE_MINIVERSION
 ---
 
 # FSCTL_TXFS_CREATE_MINIVERSION IOCTL
+
 
 ## -description
 
@@ -65,26 +67,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -94,7 +89,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 **FSCTL_TXFS_CREATE_MINIVERSION** is a synchronous operation.
@@ -103,8 +97,8 @@ If you attempt to create a miniversion in a non-active transaction, **ERROR_INVA
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

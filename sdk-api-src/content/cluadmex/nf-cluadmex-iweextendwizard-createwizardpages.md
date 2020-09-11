@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.date: 12/05/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
-f1_keywords:
-- cluadmex/IWEExtendWizard.CreateWizardPages
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWEExtendWizard.CreateWizardPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWEExtendWizard::CreateWizardPages
+ - cluadmex/IWEExtendWizard::CreateWizardPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWEExtendWizard.CreateWizardPages
 ---
 
 # IWEExtendWizard::CreateWizardPages
 
 
 ## -description
-
 
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
@@ -57,14 +57,9 @@ Allows you to create wizard pages and add them to
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator's</a> New Resource Wizard 
      or Cluster Application Wizard.
 
-
 ## -parameters
 
-
-
-
 ### -param piData [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard pages to be added. By calling 
@@ -108,10 +103,7 @@ Depending on the type of <a href="https://docs.microsoft.com/previous-versions/w
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizardcallback">IWCWizardCallback</a> interface 
        implementation used to add the new property pages to the wizard.
 
-
 ## -returns
-
-
 
 Return one of the following values or any <b>HRESULT</b> that describes the results of 
        the operation.
@@ -159,14 +151,8 @@ The extension does not support adding a property page to the Create Group Wizard
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To add Wizard97 wizard pages, use the 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a> 
@@ -199,12 +185,7 @@ To create the page, call the function
        using the <i>piCallback</i> pointer.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
 
@@ -255,7 +236,4 @@ To create the page, call the function
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
-f1_keywords:
-- faxcom/IFaxTiff
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxTiff
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxTiff
+ - faxcom/IFaxTiff
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxTiff
 ---
 
 # IFaxTiff interface
 
 
 ## -description
-
 
 The <b>IFaxTiff</b> dual interface is used by a fax client application to retrieve information about <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> objects. A FaxTiff object represents a Tagged Image File Format Class F (TIFF Class F) file that the fax service has transmitted or received. The fax service embeds custom Tagged Image File Format (TIFF) tags in the file to store information about the fax transmission.
 
@@ -60,8 +60,6 @@ It is not necessary to be familiar with the structure of a TIFF file to use the 
 
 ## -remarks
 
-
-
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 You should not implement this interface. The Microsoft standard implementation provides complete functionality.
 
@@ -72,15 +70,9 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-c
 
 The property methods of the <b>IFaxTiff</b> interface get or set the properties described following. If the property supports read access, the <b>IFaxTiff</b> interface includes a <i>get_PropertyName</i> method. If the property supports write access, the interface includes a <i>put_PropertyName</i> method.
 
-Following are the properties associated with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object. 
-
-
-
+Following are the properties associated with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -91,7 +83,4 @@ Following are the properties associated with a <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

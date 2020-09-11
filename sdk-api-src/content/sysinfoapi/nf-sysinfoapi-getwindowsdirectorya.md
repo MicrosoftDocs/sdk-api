@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
 ms.date: 12/05/2018
 ms.keywords: GetWindowsDirectory, GetWindowsDirectory function, GetWindowsDirectoryA, GetWindowsDirectoryW, _win32_getwindowsdirectory, base.getwindowsdirectory, sysinfoapi/GetWindowsDirectory, sysinfoapi/GetWindowsDirectoryA, sysinfoapi/GetWindowsDirectoryW
-f1_keywords:
-- sysinfoapi/GetWindowsDirectory
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetWindowsDirectory
-- GetWindowsDirectoryA
-- GetWindowsDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetWindowsDirectoryA
+ - sysinfoapi/GetWindowsDirectoryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetWindowsDirectory
+ - GetWindowsDirectoryA
+ - GetWindowsDirectoryW
 ---
 
 # GetWindowsDirectoryA function
@@ -59,20 +60,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the 
     path of the Windows directory.
 
 This function is provided primarily for compatibility with legacy applications. New applications should store code in the Program Files folder 
     and persistent data in the Application Data folder in the user's profile. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param lpBuffer [out]
 
@@ -80,19 +75,13 @@ A pointer to a buffer that receives the path. This path does not end with a
       backslash unless the Windows directory is the root directory. For example, if the Windows directory is named 
       Windows on drive C, the path of the Windows directory retrieved by this function is C:\Windows. If the system 
       was installed in the root directory of drive C, the path retrieved is C:\.
-     
-
 
 ### -param uSize [in]
 
 The maximum size of the buffer specified by the <i>lpBuffer</i> parameter, in 
       <b>TCHARs</b>. This value should be set to <b>MAX_PATH</b>.
-     
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the length of the string copied to the buffer, in 
        <b>TCHARs</b>, not including the terminating null character.
@@ -104,14 +93,8 @@ If the length is greater than the size of the buffer, the return value is the si
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-      
-
-
-
 
 ## -remarks
-
-
 
 The Windows directory is the directory where some legacy applications  store initialization and help files. New applications should not store files in the Windows directory; instead, they should store system-wide data in the application's installation directory, and user-specific data in the user's profile.
 
@@ -148,9 +131,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>
 
 
@@ -164,7 +144,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
- 
-
- 
 

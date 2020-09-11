@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 59F6E33A-9BD8-4ED3-8CA7-235E2A0C2686
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootConstantBufferView method, ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView, ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView method, SetGraphicsRootConstantBufferView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setgraphicsrootconstantbufferview
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView
+ - d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
 ---
 
 # ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param RootParameterIndex [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The slot number for binding.
-          
-
 
 ### -param BufferLocation [in]
 
@@ -73,16 +66,8 @@ Type: <b>D3D12_GPU_VIRTUAL_ADDRESS</b>
 
 The GPU virtual address of the constant buffer.
             D3D12_GPU_VIRTUAL_ADDRESS is a typedef'd alias of UINT64.
-          
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

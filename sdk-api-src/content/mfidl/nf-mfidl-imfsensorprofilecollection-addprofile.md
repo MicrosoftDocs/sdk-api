@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4997E69B-6444-4603-ABCF-4E2526B5AC23
 ms.date: 12/05/2018
 ms.keywords: AddProfile, AddProfile method [Media Foundation], AddProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],AddProfile method, IMFSensorProfileCollection.AddProfile, IMFSensorProfileCollection::AddProfile, mf.imfsensorprofilecollection_addprofile, mfidl/IMFSensorProfileCollection::AddProfile
-f1_keywords:
-- mfidl/IMFSensorProfileCollection.AddProfile
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfsensorgroup.dll
-api_name:
-- IMFSensorProfileCollection.AddProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorProfileCollection::AddProfile
+ - mfidl/IMFSensorProfileCollection::AddProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfsensorgroup.dll
+api_name:
+ - IMFSensorProfileCollection.AddProfile
 ---
 
 # IMFSensorProfileCollection::AddProfile
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the specified profile to the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pProfile [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> object describing the profile to add.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a>
- 
-
- 
 

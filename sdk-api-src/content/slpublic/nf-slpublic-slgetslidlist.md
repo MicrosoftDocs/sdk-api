@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e2733f2e-e78b-4a77-a81d-d5913baa4bc4
 ms.date: 12/05/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
-f1_keywords:
-- slpublic/SLGetSLIDList
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetSLIDList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetSLIDList
+ - slpublic/SLGetSLIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetSLIDList
 ---
 
 # SLGetSLIDList function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of <b>SLID</b>s according to the input query ID type and the ID value.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -64,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param eQueryIdType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
 
 The type of input ID.
-
 
 ### -param pQueryId [in, optional]
 
@@ -78,13 +72,11 @@ Type: <b>const SLID*</b>
 
 A pointer to the input ID.
 
-
 ### -param eReturnIdType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slidtype">SLIDTYPE</a></b>
 
 The type of returned IDs.
-
 
 ### -param pnReturnIds [out]
 
@@ -92,17 +84,13 @@ Type: <b>UINT*</b>
 
 A pointer to the number of returned IDs.
 
-
 ### -param ppReturnIds [out]
 
 Type: <b>SLID**</b>
 
 An array of returned IDs.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -150,14 +138,8 @@ The request is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following queries combinations are supported.
 
@@ -356,9 +338,4 @@ Get union of all application IDs or SKU IDs from all grants of
 </td>
 </tr>
 </table>
- 
-
-
-
-
 

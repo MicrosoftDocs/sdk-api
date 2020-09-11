@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: c34c39c0-8200-438a-8353-238225aea5cb
 ms.date: 12/05/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapXmlUserData, WlanSetProfileEapXmlUserData function [NativeWIFI], nwifi.wlansetprofileeapxmluserdata, wlanapi/WlanSetProfileEapXmlUserData
-f1_keywords:
-- wlanapi/WlanSetProfileEapXmlUserData
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanSetProfileEapXmlUserData
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanSetProfileEapXmlUserData
+ - wlanapi/WlanSetProfileEapXmlUserData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanSetProfileEapXmlUserData
 ---
 
 # WlanSetProfileEapXmlUserData function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanSetProfileEapXmlUserData</b> function sets the Extensible Authentication Protocol (EAP) user credentials as specified by an XML string. The user credentials apply to a profile on an adapter. These credentials can only be used by the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param pInterfaceGuid [in]
 
 The GUID of the interface.
-
 
 ### -param strProfileName [in]
 
 The name of the profile associated with the EAP user data. Profile names are case-sensitive. This string must be NULL-terminated.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied name must match the profile name derived automatically from the SSID of the network. For an infrastructure network profile, the SSID must be supplied for the profile name. For an ad hoc network profile, the supplied name must be the SSID of the ad hoc network followed by <code>-adhoc</code>.
-
 
 ### -param dwFlags [in]
 
@@ -100,8 +93,6 @@ Set EAP host data for all users of this profile.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strEapXmlUserData [in]
 
@@ -109,15 +100,11 @@ A pointer to XML data used to set the user credentials.
 
 The XML data must be based on the <a href="/windows/win32/eaphost/eaphostusercredentialsschema-schema">EAPHost User Credentials schema</a>. To view sample user credential XML data, see EAPHost <a href="/windows/win32/eaphost/user-profiles">User Properties</a>.
 
-
 ### -param pReserved
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -228,14 +215,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>WlanSetProfileEapXmlUserData</b> function sets the EAP user credentials to use on a profile.  This function can only be called on a profile that uses 802.1X for authentication. On Windows Vista and Windows Server 2008, these credentials can only be used by the caller.
 
@@ -250,15 +231,9 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanSetProfileEapXmlUserData</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This function can only be used for Protected EAP (PEAP) credentials. It cannot be used for other EAP types. 
-
-
-
+<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This function can only be used for Protected EAP (PEAP) credentials. It cannot be used for other EAP types.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a>
 
@@ -289,7 +264,4 @@ The <b>WlanSetProfileEapXmlUserData</b> function can fail with <b>ERROR_INVALID_
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a>
- 
-
- 
 

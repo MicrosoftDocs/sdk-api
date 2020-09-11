@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Owner method, IVideoWindow.get_Owner, IVideoWindow::get_Owner, IVideoWindowget_Owner, control/IVideoWindow::get_Owner, dshow.ivideowindow_get_owner, get_Owner, get_Owner method [DirectShow], get_Owner method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_Owner
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_Owner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_Owner
+ - control/IVideoWindow::get_Owner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_Owner
 ---
 
 # IVideoWindow::get_Owner
@@ -50,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Owner</code> method retrieves the video window's parent window, if any.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Owner [out]
 
 Receives a handle to the window, as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oahwnd">OAHWND</a> type. If the video window has no parent, this parameter receives the value <b>NULL</b>.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -113,22 +102,12 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
- 
-
- 
 

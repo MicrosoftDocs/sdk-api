@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
-f1_keywords:
-- realtimeapiset/QueryUnbiasedInterruptTimePrecise
-dev_langs:
-- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-realtime-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-RealTime-l1-1-1.dll
-api_name:
-- QueryUnbiasedInterruptTimePrecise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryUnbiasedInterruptTimePrecise
+ - realtimeapiset/QueryUnbiasedInterruptTimePrecise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-realtime-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-RealTime-l1-1-1.dll
+api_name:
+ - QueryUnbiasedInterruptTimePrecise
 ---
 
 # QueryUnbiasedInterruptTimePrecise function
@@ -54,23 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the current unbiased interrupt-time count, in a more precise form than <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation. 
-
+Gets the current unbiased interrupt-time count, in a more precise form than <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 
 ## -parameters
-
-
-
 
 ### -param lpUnbiasedInterruptTimePrecise [out]
 
 A pointer to a ULONGLONG in which to receive the unbiased interrupt-time count in system time units of 100 nanoseconds. Divide by ten million, or 1e7, to get seconds (there are 1e9 nanoseconds in a second, so there are 1e7 100-nanoseconds in a second).
 
-
 ## -remarks
-
-
 
 <b>QueryUnbiasedInterruptTimePrecise</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime">QueryUnbiasedInterruptTime</a> routine, but is more precise. The interrupt time reported by <b>QueryUnbiasedInterruptTime</b> is based on the latest tick of the system clock timer. The system clock timer is the hardware timer that periodically generates interrupts for the system clock. The uniform period between system clock timer interrupts is referred to as a system clock tick, and is typically in the range of 0.5 milliseconds to 15.625 milliseconds, depending on the hardware platform. The interrupt time value retrieved by <b>QueryUnbiasedInterruptTime</b> is accurate within a system clock tick.
 
@@ -85,13 +78,7 @@ Also see Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/real
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see
 				<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/interrupt-time">Interrupt Time</a>
 
@@ -114,7 +101,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0601
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/windows-time">Windows Time</a>
- 
-
- 
 

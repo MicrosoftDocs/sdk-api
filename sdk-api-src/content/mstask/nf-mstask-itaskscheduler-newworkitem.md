@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 1fbd65ae-0b54-4175-bf26-4226b1aabdc1
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITaskScheduler.NewWorkItem, ITaskScheduler::NewWorkItem, NewWorkItem, NewWorkItem method [Task Scheduler], NewWorkItem method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_newworkitem, mstask/ITaskScheduler::NewWorkItem, taskschd.itaskscheduler_newworkitem
-f1_keywords:
-- mstask/ITaskScheduler.NewWorkItem
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITaskScheduler.NewWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITaskScheduler::NewWorkItem
+ - mstask/ITaskScheduler::NewWorkItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITaskScheduler.NewWorkItem
 ---
 
 # ITaskScheduler::NewWorkItem
@@ -49,42 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>NewWorkItem</b> method creates a new <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>, allocating space for the work item and retrieving its address.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszTaskName [in]
 
 A null-terminated string that specifies the name of the new work item. This name must conform to Windows NT file-naming conventions, but cannot include backslashes because nesting within the task folder object is not allowed.
 
-
 ### -param rclsid [in]
 
 The class identifier of the work item to be created. The only class supported at this time, the task class, has the identifier CLSID_Ctask.
-
 
 ### -param riid [in]
 
 The reference identifier of the interface being requested. The only interface supported at this time, 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>, has the identifier IID_ITask.
 
-
 ### -param ppUnk [out]
 
 A pointer to an interface pointer that receives the requested interface. See Remarks for information on saving the work item to disk.
 
-
 ## -returns
-
-
 
 The 
 <b>NewWorkItem</b> method returns one of the following values.
@@ -150,14 +140,8 @@ The caller does not have permission to perform the operation. For more informati
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method handles memory allocation automatically when creating the new work item.
 
@@ -191,17 +175,8 @@ You can create a task by calling <a href="https://docs.microsoft.com/windows/des
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
 
@@ -216,7 +191,4 @@ You can create a task by calling <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">ITaskScheduler::AddWorkItem</a>
- 
-
- 
 

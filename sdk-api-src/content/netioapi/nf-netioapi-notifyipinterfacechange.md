@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 745128cf-7737-4f95-9712-26e0f6ae39b4
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyIpInterfaceChange, NotifyIpInterfaceChange function [IP Helper], iphlp.notifyipinterfacechange, netioapi/NotifyIpInterfaceChange
-f1_keywords:
-- netioapi/NotifyIpInterfaceChange
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- NotifyIpInterfaceChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyIpInterfaceChange
+ - netioapi/NotifyIpInterfaceChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - NotifyIpInterfaceChange
 ---
 
 # NotifyIpInterfaceChange function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NotifyIpInterfaceChange</b> function  registers to be notified for changes to all IP interfaces, IPv4 interfaces, or IPv6 interfaces on  a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -108,35 +104,27 @@ The address family is unspecified. When this parameter is specified,  this funct
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Callback [in]
 
 A pointer to the function to call when a change occurs. This function will be invoked
         when an interface notification is received.
 
-
 ### -param CallerContext [in]
 
 A user context passed to the callback function specified in the <i>Callback</i> parameter when an interface notification is received.
-
 
 ### -param InitialNotification [in]
 
 A value that indicates whether the callback should be invoked
         immediately after registration for change notification completes. This initial notification does not indicate a change occurred to an IP interface. The purpose of this parameter to provide confirmation that the callback is registered.
 
-
 ### -param NotificationHandle [in, out]
 
 A pointer used to return a handle that can be later used to
         deregister the change notification. On success, a notification handle is returned in this parameter. If an error occurs, <b>NULL</b> is returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -193,14 +181,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NotifyIpInterfaceChange</b> function is defined on Windows Vista and later. 
 
@@ -262,13 +244,7 @@ Once the <b>NotifyIpInterfaceChange</b> function is called to register for chang
 
 Any registration for change notifications does not persist across a system shut down or reboot.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
 
@@ -319,7 +295,4 @@ Any registration for change notifications does not persist across a system shut 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a>
- 
-
- 
 

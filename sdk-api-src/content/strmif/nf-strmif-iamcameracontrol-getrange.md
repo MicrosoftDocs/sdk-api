@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
-f1_keywords:
-- strmif/IAMCameraControl.GetRange
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMCameraControl.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMCameraControl::GetRange
+ - strmif/IAMCameraControl::GetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMCameraControl.GetRange
 ---
 
 # IAMCameraControl::GetRange
@@ -50,67 +51,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetRange</b> method gets the range and default value of a specified camera property.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Property [in]
 
 Specifies the property to query, as a value from the [CameraControlProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
-          
-
 
 ### -param pMin [out]
 
 Receives the minimum value of the property.
-          
-
 
 ### -param pMax [out]
 
 Receives the maximum value of the property.
-          
-
 
 ### -param pSteppingDelta [out]
 
 Receives the step size for the property. The step size is the smallest increment by which the property can change.
-          
-
 
 ### -param pDefault [out]
 
 Receives the default value of the property.
-          
-
 
 ### -param pCapsFlags [out]
 
 Receives a member of the [CameraControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration, indicating whether the property is controlled automatically or manually.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
@@ -121,7 +94,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
- 
-
- 
 

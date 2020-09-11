@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9290BEF8-24C9-47F0-B258-56ED7D67620B
 ms.date: 12/05/2018
 ms.keywords: SspiEncryptAuthIdentityEx, SspiEncryptAuthIdentityEx function [Security], security.sspiencryptauthidentityex, sspi/SspiEncryptAuthIdentityEx
-f1_keywords:
-- sspi/SspiEncryptAuthIdentityEx
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SspiEncryptAuthIdentityEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SspiEncryptAuthIdentityEx
+ - sspi/SspiEncryptAuthIdentityEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SspiEncryptAuthIdentityEx
 ---
 
 # SspiEncryptAuthIdentityEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Encrypts a <b>SEC_WINNT_AUTH_IDENTITY_OPAQUE</b> structure. 
-
+Encrypts a <b>SEC_WINNT_AUTH_IDENTITY_OPAQUE</b> structure.
 
 ## -parameters
-
-
-
 
 ### -param Options [in]
 
@@ -90,32 +86,19 @@ The encrypted structure can only be decrypted by the same process. Calling the f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AuthData [in, out]
 
 On input, a pointer to an identity buffer to encrypt. This buffer must be prepared for encryption prior to the call to this function. This can be done by calling the function <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a>. On output, the encrypted identity buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns SEC_E_OK.
 
 If the function fails, it returns a nonzero error code.
 
-
-
-
 ## -remarks
-
-
 
 To transfer credentials securely across processes, applications typically call this function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option,  followed by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspimarshalauthidentity">SspiMarshalAuthIdentity</a> to obtain a marshaled authentication buffer and its length. 
 For example, Online Identity Credential Provider does this to return the authentication buffer from their <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-getserialization">ICredentialProviderCredential::GetSerialization</a> method.
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 27bd8c79-34ff-44ee-ad99-aa079af7da89
 ms.date: 12/05/2018
 ms.keywords: FolderIdToCsidl, FolderIdToCsidl method [Windows Shell], FolderIdToCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdToCsidl method, IKnownFolderManager.FolderIdToCsidl, IKnownFolderManager::FolderIdToCsidl, _shell_IKnownFolderManager_FolderIdToCsidl, shell.IKnownFolderManager_FolderIdToCsidl, shobjidl_core/IKnownFolderManager::FolderIdToCsidl
-f1_keywords:
-- shobjidl_core/IKnownFolderManager.FolderIdToCsidl
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IKnownFolderManager.FolderIdToCsidl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnownFolderManager::FolderIdToCsidl
+ - shobjidl_core/IKnownFolderManager::FolderIdToCsidl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IKnownFolderManager.FolderIdToCsidl
 ---
 
 # IKnownFolderManager::FolderIdToCsidl
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the legacy <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that is the equivalent of a given <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param rfid [in]
 
@@ -64,17 +60,13 @@ Type: <b>REFKNOWNFOLDERID</b>
 
 Reference to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
 
-
 ### -param pnCsidl [out]
 
 Type: <b>int*</b>
 
 When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value. This pointer is passed uninitialized.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,24 +89,12 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To call this method, the caller must have at least User privileges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
@@ -125,7 +105,4 @@ To call this method, the caller must have at least User privileges.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
- 
-
- 
 

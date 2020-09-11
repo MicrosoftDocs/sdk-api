@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 9ec01908-3765-4e95-a9d3-fdf6daa5f64d
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS structure [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_RESOURCE_CLASS, PCLUSPROP_RESOURCE_CLASS structure pointer [Failover Cluster], _wolf_clusprop_resource_class, clusapi/CLUSPROP_RESOURCE_CLASS, clusapi/PCLUSPROP_RESOURCE_CLASS, mscs.clusprop_resource_class'
-f1_keywords:
-- clusapi/CLUSPROP_RESOURCE_CLASS
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_RESOURCE_CLASS
 targetos: Windows
 req.typenames: CLUSPROP_RESOURCE_CLASS, *PCLUSPROP_RESOURCE_CLASS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_RESOURCE_CLASS
+ - clusapi/CLUSPROP_RESOURCE_CLASS
+ - PCLUSPROP_RESOURCE_CLASS
+ - clusapi/PCLUSPROP_RESOURCE_CLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_RESOURCE_CLASS
 ---
 
 # CLUSPROP_RESOURCE_CLASS structure
 
 
 ## -description
-
 
 Describes a resource class. It is used as an entry in a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
@@ -61,9 +63,6 @@ Describes a resource class. It is used as an entry in a
 </ul>
 
 ## -struct-fields
-
-
-
 
 ### -field rc
 
@@ -99,18 +98,13 @@ Resource class is unknown.
 Resource belongs to a user-defined class. <b>CLUS_RESCLASS_USER</b> specifies the 
          beginning of the range for user-defined resource classes.
 
-
 ### -field CLUSPROP_VALUE
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_RESCLASS</b> (0x00020002) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>rc</b> member.
 
-
 ## -remarks
-
-
 
 A resource class identifies resources of similar capability. A 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> that defines its own resource class should 
@@ -118,13 +112,7 @@ A resource class identifies resources of similar capability. A
      <b>CLUS_RESCLASS_USER</b>. <b>CLUS_RESCLASS_USER</b> specifies the 
      beginning for user-defined resource class identifiers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
@@ -139,7 +127,4 @@ A resource class identifies resources of similar capability. A
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
 

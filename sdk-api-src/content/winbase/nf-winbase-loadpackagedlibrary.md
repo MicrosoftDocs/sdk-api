@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4a103753-a2c9-487f-b797-01d5f5d489f3
 ms.date: 12/05/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary
-f1_keywords:
-- winbase/LoadPackagedLibrary
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l2-1-0.dll
-- KernelBase.dll
-api_name:
-- LoadPackagedLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadPackagedLibrary
+ - winbase/LoadPackagedLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l2-1-0.dll
+ - KernelBase.dll
+api_name:
+ - LoadPackagedLibrary
 ---
 
 # LoadPackagedLibrary function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the specified packaged module and its dependencies into the address space of the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param lpwLibFileName [in]
 
@@ -72,26 +68,17 @@ If the specified module is already loaded in the process, the function returns a
 
 If loading the specified module causes the system to load other associated modules, the function first searches loaded modules, then it searches the package dependency graph of the process.  For more information, see Remarks.
 
-
 ### -param Reserved
 
 This parameter is reserved. It must be 0.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the loaded module.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>LoadPackagedLibrary</b> function is a simplified version of <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>. Windows Runtime apps  can use <b>LoadPackagedLibrary</b> to load packaged modules. Desktop applications cannot use <b>LoadPackagedLibrary</b>; if a desktop application calls this function it fails with <b>APPMODEL_ERROR_NO_PACKAGE</b>.
@@ -116,11 +103,5 @@ On Windows Phone, **LoadPackagedLibrary** must be called from `PhoneAppModelHost
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
- 
-
- 
 

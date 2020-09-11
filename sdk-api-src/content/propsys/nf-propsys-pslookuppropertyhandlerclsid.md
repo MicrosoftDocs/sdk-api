@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 43f90a33-9bd6-4e47-ab92-5e0d01ba268a
 ms.date: 12/05/2018
 ms.keywords: PSLookupPropertyHandlerCLSID, PSLookupPropertyHandlerCLSID function [Windows Properties], _shell_PSLookupPropertyHandlerCLSID, properties.PSLookupPropertyHandlerCLSID, propsys/PSLookupPropertyHandlerCLSID, shell.PSLookupPropertyHandlerCLSID
-f1_keywords:
-- propsys/PSLookupPropertyHandlerCLSID
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSLookupPropertyHandlerCLSID
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSLookupPropertyHandlerCLSID
+ - propsys/PSLookupPropertyHandlerCLSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSLookupPropertyHandlerCLSID
 ---
 
 # PSLookupPropertyHandlerCLSID function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the class identifier (CLSID) of a per-computer, registered file property handler.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFilePath [in]
 
@@ -64,28 +60,19 @@ Type: <b>PCWSTR</b>
 
 Pointer to a null-terminated, Unicode buffer that contains the absolute path of the file whose property handler CLSID is requested.
 
-
 ### -param pclsid [out]
 
 Type: <b>CLSID*</b>
 
 When this function returns, contains the requested property handler CLSID.
 
-
 ## -returns
-
-
 
 Type: <b>PSSTDAPI</b>
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 For information on how to register your handler, see <a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-handlers">Initializing Property Handlers</a>.
 
@@ -115,21 +102,11 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>
- 
-
- 
 

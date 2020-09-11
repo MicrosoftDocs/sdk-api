@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 261ea39e-485f-4039-94b0-cd92f614c0a9
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],UnregisterSink method, ITPluggableTerminalEventSinkRegistration.UnregisterSink, ITPluggableTerminalEventSinkRegistration::UnregisterSink, UnregisterSink, UnregisterSink method [TAPI 2.2], UnregisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_unregistersink, msp/ITPluggableTerminalEventSinkRegistration::UnregisterSink, tapi3.itpluggableterminaleventsinkregistration_unregistersink
-f1_keywords:
-- tapi3/ITPluggableTerminalEventSinkRegistration.UnregisterSink
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalEventSinkRegistration.UnregisterSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalEventSinkRegistration::UnregisterSink
+ - tapi3/ITPluggableTerminalEventSinkRegistration::UnregisterSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalEventSinkRegistration.UnregisterSink
 ---
 
 # ITPluggableTerminalEventSinkRegistration::UnregisterSink
@@ -49,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>UnregisterSink</b> method clears event registration for pluggable terminal events.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration">ITPluggableTerminalEventSinkRegistration</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-registersink">RegisterSink</a>
- 
-
- 
 

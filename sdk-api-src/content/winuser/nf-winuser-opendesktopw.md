@@ -8,10 +8,6 @@ tech.root: winstation
 ms.assetid: 7f805f47-1737-4f4b-a74a-9c1423b65f2c
 ms.date: 12/05/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenDesktop, OpenDesktop function [Windows Stations and Desktops], OpenDesktopA, OpenDesktopW, _win32_opendesktop, base.opendesktop, winstation.opendesktop, winuser/OpenDesktop, winuser/OpenDesktopA, winuser/OpenDesktopW
-f1_keywords:
-- winuser/OpenDesktop
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
-- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
-api_name:
-- OpenDesktop
-- OpenDesktopA
-- OpenDesktopW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenDesktopW
+ - winuser/OpenDesktopW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
+ - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+api_name:
+ - OpenDesktop
+ - OpenDesktopA
+ - OpenDesktopW
 ---
 
 # OpenDesktopW function
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the specified desktop object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszDesktop [in]
 
 The name of the desktop to be opened. Desktop names are case-insensitive.
 
 This desktop must belong to the current window station.
-
 
 ### -param dwFlags [in]
 
@@ -90,23 +85,17 @@ Allows processes running in other accounts on the desktop to set hooks in this p
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fInherit [in]
 
 If this value is <b>TRUE</b>, processes created by this process will inherit the handle. Otherwise, the processes do not inherit this handle.
-
 
 ### -param dwDesiredAccess [in]
 
 The access to the desktop. For a list of access rights, see 
 <a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the opened desktop. When you are finished using the handle, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> function to close it.
@@ -114,12 +103,7 @@ If the function succeeds, the return value is a handle to the opened desktop. Wh
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The calling process must have an associated window station, either assigned by the system at process creation time or set by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function.
@@ -134,9 +118,6 @@ If the <i>dwDesiredAccess</i> parameter specifies the <b>READ_CONTROL</b>, <b>WR
 > The winuser.h header defines OpenDesktop as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a>
 
@@ -167,7 +148,4 @@ If the <i>dwDesiredAccess</i> parameter specifies the <b>READ_CONTROL</b>, <b>WR
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
- 
-
- 
 

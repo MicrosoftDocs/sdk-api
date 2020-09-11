@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: b52e1baf-6a81-44bc-a061-4d42e6f4ed64
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
-f1_keywords:
-- wingdi/CreateBitmap
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- CreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateBitmap
+ - wingdi/CreateBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - CreateBitmap
 ---
 
 # CreateBitmap function
@@ -54,43 +55,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateBitmap</b> function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 
-
 ## -parameters
-
-
-
 
 ### -param nWidth [in]
 
 The bitmap width, in pixels.
 
-
 ### -param nHeight [in]
 
 The bitmap height, in pixels.
-
 
 ### -param nPlanes [in]
 
 The number of color planes used by the device.
 
-
 ### -param nBitCount [in]
 
 The number of bits required to identify the color of a single pixel.
-
 
 ### -param lpBits [in]
 
 A pointer to an array of color data used to set the colors in a rectangle of pixels. Each scan line in the rectangle must be word aligned (scan lines that are not word aligned must be padded with zeros). If this parameter is <b>NULL</b>, the contents of the new bitmap is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to a bitmap.
 
@@ -115,14 +104,8 @@ The calculated size of the bitmap is less than zero.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreateBitmap</b> function creates a device-dependent bitmap.
 
@@ -136,13 +119,7 @@ If an application sets the <i>nWidth</i> or <i>nHeight</i> parameters to zero, <
 
 When you no longer need the bitmap, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -177,7 +154,4 @@ When you no longer need the bitmap, call the <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbitmapbits">SetBitmapBits</a>
- 
-
- 
 

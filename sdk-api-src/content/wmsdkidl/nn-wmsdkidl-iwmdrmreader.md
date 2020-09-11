@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: bf4ff0f3-1f78-43c4-be4d-c74209176e58
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], IWMDRMReader interface [windows Media Format],described, IWMDRMReaderInterface, wmformat.iwmdrmreader, wmsdkidl/IWMDRMReader
-f1_keywords:
-- wmsdkidl/IWMDRMReader
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMDRMReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMReader
+ - wmsdkidl/IWMDRMReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMDRMReader
 ---
 
 # IWMDRMReader interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IWMDRMReader</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
@@ -57,9 +57,6 @@ ms.custom: 19H1
 The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
 
 This interface can be obtained from a reader object.
-
-
-
 
 ## -inheritance
 
@@ -152,12 +149,7 @@ Sets the DRM_Rights that will be requested for the next file that is opened.
 
 For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
@@ -184,7 +176,4 @@ For information on other interfaces that can be obtained by using the QueryInter
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

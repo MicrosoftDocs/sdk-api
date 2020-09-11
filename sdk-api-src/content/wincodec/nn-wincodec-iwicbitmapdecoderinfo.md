@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 7edc6d1a-7eda-45ef-bf1d-c5835b37a90f
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoderInfo, IWICBitmapDecoderInfo interface [Windows Imaging Component], IWICBitmapDecoderInfo interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoderinfo, wic._wic_codec_iwicbitmapdecoderinfo, wincodec/IWICBitmapDecoderInfo
-f1_keywords:
-- wincodec/IWICBitmapDecoderInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapDecoderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapDecoderInfo
+ - wincodec/IWICBitmapDecoderInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapDecoderInfo
 ---
 
 # IWICBitmapDecoderInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a decoder.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Retrieves a value that indicates whether the codec recognizes the pattern within
 
 </td>
 </tr>
-</table> 
+</table>
 

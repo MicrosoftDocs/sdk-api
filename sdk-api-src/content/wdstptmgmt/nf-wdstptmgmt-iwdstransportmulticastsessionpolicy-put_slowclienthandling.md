@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: db83fffe-a011-4b6a-940c-b539b0d4fd1a
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],SlowClientHandling property, IWdsTransportMulticastSessionPolicy.SlowClientHandling, IWdsTransportMulticastSessionPolicy.put_SlowClientHandling, IWdsTransportMulticastSessionPolicy::SlowClientHandling, IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, IWdsTransportMulticastSessionPolicy::put_SlowClientHandling, SlowClientHandling property [Windows Deployment Services], SlowClientHandling property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, put_SlowClientHandling, wds.iwdstransportmulticastsessionpolicy_slowclienthandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
-f1_keywords:
-- wdstptmgmt/IWdsTransportMulticastSessionPolicy.SlowClientHandling
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportMulticastSessionPolicy.SlowClientHandling
-- IWdsTransportMulticastSessionPolicy.get_SlowClientHandling
-- IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
+ - wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportMulticastSessionPolicy.SlowClientHandling
+ - IWdsTransportMulticastSessionPolicy.get_SlowClientHandling
+ - IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
 ---
 
 # IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves  a <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_slow_client_handling_type">WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE</a> value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmulticastsessionpolicy">IWdsTransportMulticastSessionPolicy</a>
- 
-
- 
 

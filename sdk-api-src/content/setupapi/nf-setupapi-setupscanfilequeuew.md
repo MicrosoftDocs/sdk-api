@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 4d59bb19-bb4a-4a24-814b-322e46e40fab
 ms.date: 12/05/2018
 ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USER, SPQ_SCAN_PRUNE_COPY_QUEUE, SPQ_SCAN_PRUNE_DELREN, SPQ_SCAN_USE_CALLBACK, SPQ_SCAN_USE_CALLBACKEX, SPQ_SCAN_USE_CALLBACK_SIGNERINFO, SetupScanFileQueue, SetupScanFileQueue function [Setup API], SetupScanFileQueueA, SetupScanFileQueueW, _setupapi_setupscanfilequeue, setup.setupscanfilequeue, setupapi/SetupScanFileQueue, setupapi/SetupScanFileQueueA, setupapi/SetupScanFileQueueW
-f1_keywords:
-- setupapi/SetupScanFileQueue
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupScanFileQueue
-- SetupScanFileQueueA
-- SetupScanFileQueueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupScanFileQueueW
+ - setupapi/SetupScanFileQueueW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupScanFileQueue
+ - SetupScanFileQueueA
+ - SetupScanFileQueueW
 ---
 
 # SetupScanFileQueueW function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupScanFileQueue</b> function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
 
-
 ## -parameters
-
-
-
 
 ### -param FileQueue [in]
 
 Handle to the setup file queue whose copy list is to be scanned or iterated.
-
 
 ### -param Flags [in]
 
@@ -166,13 +161,10 @@ Combined with SPQ_SCAN_FILE_PRESENCE or SPQ_SCAN_FILE_VALIDITY, removes entries 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Window [in]
 
 Optional handle to the window to own dialog boxes that are presented. This parameter is not used if the <i>Flags</i> parameter does not contain SPQ_SCAN_FILE_PRESENCE or if <i>Flags</i> does not contain SPQ_SCAN_INFORM_USER.
-
 
 ### -param CallbackRoutine [in]
 
@@ -190,15 +182,11 @@ Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/se
 
 Optional pointer to a context that contains caller-defined data passed to the callback routine pointed to by <i>CallbackRoutine</i>.
 
-
 ### -param Result [out]
 
 Pointer to a variable that receives the result of the scan operation.
 
-
 ## -returns
-
-
 
 The function returns a nonzero value if all nodes in the queue were processed.
 
@@ -250,13 +238,7 @@ The queue passed the check and, if SPQ_SCAN_INFORM_USER was specified, the user 
 The function returns zero if an error occurred or the callback function returned nonzero. If <i>Result</i> is nonzero, it is the value returned by the callback function that stopped queue processing. If <i>Result</i> is zero, extended error information can be retrieved by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a>
 
@@ -275,9 +257,6 @@ The function returns zero if an error occurred or the callback function returned
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdefaultqueuecallbacka">SetupDefaultQueueCallback</a>
- 
-
- 
 
 ## -remarks
 

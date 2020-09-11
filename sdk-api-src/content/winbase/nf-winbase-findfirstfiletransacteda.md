@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
 ms.date: 12/05/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FindFirstFileTransacted, FindFirstFileTransacted function [Files], FindFirstFileTransactedA, FindFirstFileTransactedW, fs.findfirstfiletransacted, winbase/FindFirstFileTransacted, winbase/FindFirstFileTransactedA, winbase/FindFirstFileTransactedW
-f1_keywords:
-- winbase/FindFirstFileTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- FindFirstFileTransacted
-- FindFirstFileTransactedA
-- FindFirstFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstFileTransactedA
+ - winbase/FindFirstFileTransactedA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - FindFirstFileTransacted
+ - FindFirstFileTransactedA
+ - FindFirstFileTransactedW
 ---
 
 # FindFirstFileTransactedA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -70,11 +70,7 @@ This function is the transacted form of the <a href="https://docs.microsoft.com/
 
 For the most basic version of this function, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -93,7 +89,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
 ### -param fInfoLevelId [in]
 
 The information level of the returned data.
@@ -102,12 +97,10 @@ The information level of the returned data.
 This parameter is one of the 
        <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_info_levels">FINDEX_INFO_LEVELS</a> enumeration values.
 
-
 ### -param lpFindFileData [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that 
        receives information about a found file or subdirectory.
-
 
 ### -param fSearchOp [in]
 
@@ -117,7 +110,6 @@ The type of filtering to perform that is different from wildcard matching.
 This parameter is one of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-findex_search_ops">FINDEX_SEARCH_OPS</a> 
        enumeration values.
 
-
 ### -param lpSearchFilter
 
 A pointer to the search criteria if the specified <i>fSearchOp</i> needs structured search 
@@ -126,7 +118,6 @@ A pointer to the search criteria if the specified <i>fSearchOp</i> needs structu
 
 At this time, none of the supported <i>fSearchOp</i> values require extended search 
        information. Therefore, this pointer must be <b>NULL</b>.
-
 
 ### -param dwAdditionalFlags [in]
 
@@ -149,17 +140,12 @@ Searches are case-sensitive.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a search handle used in a subsequent call to 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> or 
@@ -168,12 +154,7 @@ If the function succeeds, the return value is a search handle used in a subseque
 If the function fails or fails to locate files from the search string in the <i>lpFileName</i> parameter, the return value is <b>INVALID_HANDLE_VALUE</b> and the contents of <i>lpFindFileData</i> are indeterminate. To get extended 
        error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FindFirstFileTransacted</b> function opens a search handle and 
     returns information about the first file that the file system finds with a name that matches the specified pattern. This may or may not be the first file or directory that appears in a directory-listing application (such as the dir command) when given the same file name string pattern. This is because <b>FindFirstFileTransacted</b> does no sorting of the search results. For additional information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>.
@@ -310,9 +291,6 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -342,7 +320,4 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
- 
-
- 
 

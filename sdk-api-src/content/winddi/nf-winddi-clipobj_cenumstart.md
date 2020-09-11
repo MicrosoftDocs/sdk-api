@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: e719f856-04a9-480d-b79a-df2307a48162
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], display.clipobj_cenumstart, gdifncs_53ccc337-0aa7-442c-a612-facb369b66c6.xml, winddi/CLIPOBJ_cEnumStart
-f1_keywords:
-- winddi/CLIPOBJ_cEnumStart
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- CLIPOBJ_cEnumStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLIPOBJ_cEnumStart
+ - winddi/CLIPOBJ_cEnumStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - CLIPOBJ_cEnumStart
 ---
 
 # CLIPOBJ_cEnumStart function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CLIPOBJ_cEnumStart</b> function sets parameters for enumerating rectangles in a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pco [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the clip region to be enumerated.
-
 
 ### -param bAll [in]
 
@@ -69,11 +64,9 @@ Specifies whether the entire region should be enumerated. This parameter is <b>T
 
 A driver that caches clip regions must enumerate the entire region.
 
-
 ### -param iType [in]
 
 Specifies the data structures that are to be written by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>. This parameter currently must be CT_RECTANGLES, indicating that the region is to be enumerated as a list of rectangles.
-
 
 ### -param iDirection [in]
 
@@ -135,38 +128,22 @@ Left to right, bottom to top.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cLimit [in]
 
 Specifies the maximum number of rectangles to be enumerated. If this parameter is zero, counting is omitted.
 
-
 ## -returns
-
-
 
 The return value is the count of enumerated rectangles. If the count exceeds <b>cLimit</b>, the return value is 0xFFFFFFFF.
 
-
-
-
 ## -remarks
-
-
 
 A region can be enumerated whether this function is called. By default, the driver only enumerates relevant rectangles, starting at the upper left.
 
 The driver can restart enumeration by calling this function again.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
@@ -177,7 +154,4 @@ The driver can restart enumeration by calling this function again.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
- 
-
- 
 

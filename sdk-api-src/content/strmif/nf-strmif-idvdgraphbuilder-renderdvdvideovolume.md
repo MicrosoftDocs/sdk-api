@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 731d2f4b-2a54-451a-8d98-b5fdf47c1dc8
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder interface [DirectShow],RenderDvdVideoVolume method, IDvdGraphBuilder.RenderDvdVideoVolume, IDvdGraphBuilder::RenderDvdVideoVolume, IDvdGraphBuilderRenderDvdVideoVolume, RenderDvdVideoVolume, RenderDvdVideoVolume method [DirectShow], RenderDvdVideoVolume method [DirectShow],IDvdGraphBuilder interface, dshow.idvdgraphbuilder_renderdvdvideovolume, strmif/IDvdGraphBuilder::RenderDvdVideoVolume
-f1_keywords:
-- strmif/IDvdGraphBuilder.RenderDvdVideoVolume
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdGraphBuilder.RenderDvdVideoVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdGraphBuilder::RenderDvdVideoVolume
+ - strmif/IDvdGraphBuilder::RenderDvdVideoVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdGraphBuilder.RenderDvdVideoVolume
 ---
 
 # IDvdGraphBuilder::RenderDvdVideoVolume
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RenderDvdVideoVolume</code> method completes building a filter graph according to user specifications for playing a DVD-Video volume.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpcwszPathName [in]
 
 Pointer to the path for the DVD-Video volume to play. Can be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -76,8 +68,6 @@ Bitwise OR of flags from <a href="https://docs.microsoft.com/windows/desktop/api
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS</a> structure. When the method returns, the structure indicates any rendering failures.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. The DirectShow implementation return values include the following:
 
@@ -166,14 +156,8 @@ The filter graph contains more than one video renderer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS</a> structure reflects failure codes for this method. Reasons for this method returning S_FALSE include the following:
 
@@ -188,13 +172,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_
 </ul>
 This method builds the graph without any knowledge of the DVD-Video file or volume to play. The DVD-Video graph builder builds the graph even if <i>lpcwszPathName</i> is <b>NULL</b> or if the DVD Navigator filter does not find a default DVD-Video volume to play.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -205,7 +183,4 @@ This method builds the graph without any knowledge of the DVD-Video file or volu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
- 
-
- 
 

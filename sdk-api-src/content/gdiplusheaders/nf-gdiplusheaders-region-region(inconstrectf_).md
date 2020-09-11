@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_95rectfamprect.htm
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(IN const RectF &), Region.Region(const RectF&), Region::Region, Region::Region(IN const RectF &), _gdiplus_CLASS_Region_Region_RectF_rect_, gdiplus._gdiplus_CLASS_Region_Region_RectF_rect_
-f1_keywords:
-- gdiplusheaders/Region.Region
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.Region
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::Region
+ - gdiplusheaders/Region::Region
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.Region
 ---
 
 # Region::Region(IN const RectF &)
@@ -50,33 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a region that is defined by a rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param rect [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
 
-Reference to a rectangle. 
-
+Reference to a rectangle.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
- 
-
- 
 

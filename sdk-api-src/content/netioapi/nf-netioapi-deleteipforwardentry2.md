@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 68d5a5a5-21cf-4337-8a35-7f847f5e2138
 ms.date: 12/05/2018
 ms.keywords: DeleteIpForwardEntry2, DeleteIpForwardEntry2 function [IP Helper], iphlp.deleteipforwardentry2, netioapi/DeleteIpForwardEntry2
-f1_keywords:
-- netioapi/DeleteIpForwardEntry2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- DeleteIpForwardEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteIpForwardEntry2
+ - netioapi/DeleteIpForwardEntry2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - DeleteIpForwardEntry2
 ---
 
 # DeleteIpForwardEntry2 function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>DeleteIpForwardEntry2</b> function  deletes an IP route entry on the local computer. 
-
+<b>DeleteIpForwardEntry2</b> function  deletes an IP route entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for an IP route entry. On successful return, this entry will be deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,14 +128,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>DeleteIpForwardEntry2</b> function is defined on Windows Vista and later. 
 
@@ -161,15 +148,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi
 
 The <b>DeleteIpForwardEntry2</b> function can only be called by a user logged on as a member of the Administrators group. If <b>DeleteIpForwardEntry2</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
@@ -204,7 +183,4 @@ The <b>DeleteIpForwardEntry2</b> function can only be called by a user logged on
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
- 
-
- 
 

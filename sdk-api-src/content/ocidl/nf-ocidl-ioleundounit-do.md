@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5f087779-ef92-41c9-94e6-61d07d5731a7
 ms.date: 12/05/2018
 ms.keywords: Do, Do method [COM], Do method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],Do method, IOleUndoUnit.Do, IOleUndoUnit::Do, _ole_ioleundounit_do, com.ioleundounit_do, ocidl/IOleUndoUnit::Do
-f1_keywords:
-- ocidl/IOleUndoUnit.Do
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleUndoUnit.Do
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUndoUnit::Do
+ - ocidl/IOleUndoUnit::Do
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleUndoUnit.Do
 ---
 
 # IOleUndoUnit::Do
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.
 
-
 ## -parameters
-
-
-
 
 ### -param pUndoManager [in]
 
 A pointer to the undo manager. See <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success.
 
-
-
-
 ## -remarks
-
-
 
 The undo unit is responsible for carrying out its action. Performing its own undo action results in another action that can potentially be reversed. However, if <i>pUndoManager</i> is <b>NULL</b>, the undo unit should perform its undo action but should not attempt to put anything on the redo or undo stack.
 
@@ -89,13 +77,7 @@ After calling this method, the undo manager must release the undo unit.
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a> interface for error handling strategies for undo units. The error handling strategy affects the implementation of this method, particularly for parent units.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add">IOleUndoManager::Add</a>
 
@@ -106,7 +88,4 @@ See the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
- 
-
- 
 

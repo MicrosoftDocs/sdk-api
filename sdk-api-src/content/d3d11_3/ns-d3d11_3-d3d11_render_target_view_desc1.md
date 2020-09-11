@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: D87F06B4-7574-4BBD-A481-653CA35B8FB2
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1, D3D11_RENDER_TARGET_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1, direct3d11.d3d11_render_target_view_desc1
-f1_keywords:
-- d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_RENDER_TARGET_VIEW_DESC1
 targetos: Windows
 req.typenames: D3D11_RENDER_TARGET_VIEW_DESC1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_RENDER_TARGET_VIEW_DESC1
+ - d3d11_3/D3D11_RENDER_TARGET_VIEW_DESC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_RENDER_TARGET_VIEW_DESC1
 ---
 
 ## -description
@@ -105,3 +106,4 @@ If the format is set to DXGI_FORMAT_UNKNOWN, then the format of the resource tha
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
+

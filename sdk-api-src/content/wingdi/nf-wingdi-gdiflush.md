@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 6d2f398d-7a30-4b14-81de-23ab10e1749c
 ms.date: 12/05/2018
 ms.keywords: GdiFlush, GdiFlush function [Windows GDI], _win32_GdiFlush, gdi.gdiflush, wingdi/GdiFlush
-f1_keywords:
-- wingdi/GdiFlush
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- GdiFlush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GdiFlush
+ - wingdi/GdiFlush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - GdiFlush
 ---
 
 # GdiFlush function
@@ -54,31 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GdiFlush</b> function flushes the calling thread's current batch.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If all functions in the current batch succeed, the return value is nonzero.
 
 If not all functions in the current batch succeed, the return value is zero, indicating that at least one function returned an error.
 
-
-
-
 ## -remarks
-
-
 
 Batching enhances drawing performance by minimizing the amount of time needed to call GDI drawing functions that return Boolean values. The system accumulates the parameters for calls to these functions in the current batch and then calls the functions when the batch is flushed by any of the following means:
 
@@ -98,13 +85,7 @@ An application should call <b>GdiFlush</b> before a thread goes away if there is
 
 A multithreaded application that serializes access to GDI objects with a mutex must ensure flushing the GDI batch queue by calling <b>GdiFlush</b> as each thread releases ownership of the GDI object. This prevents collisions of the GDI objects (device contexts, metafiles, and so on).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gdigetbatchlimit">GdiGetBatchLimit
       </a>
@@ -121,7 +102,4 @@ A multithreaded application that serializes access to GDI objects with a mutex m
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
- 
-
- 
 

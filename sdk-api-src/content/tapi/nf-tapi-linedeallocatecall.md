@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: a695ee19-e371-4126-b438-62bf52179cba
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall
-f1_keywords:
-- tapi/lineDeallocateCall
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineDeallocateCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineDeallocateCall
+ - tapi/lineDeallocateCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineDeallocateCall
 ---
 
 # lineDeallocateCall function
@@ -49,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineDeallocateCall</b> function deallocates the specified call handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 The call handle to be deallocated. An application with monitoring privileges for a call can always deallocate its handle for that call. An application with owner privilege for a call can deallocate its handle unless it is the sole owner of the call and the call is not in the <i>idle</i> state. The call handle is no longer valid after it has been deallocated.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values include:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 The deallocation does not affect the call state of the physical call. It does, however, release internal resources related to the call.
 
@@ -97,13 +85,7 @@ In API versions 2.0 or later,
 <b>lineDeallocateCall</b> does not suspend outstanding LINE_REPLY messages; every asynchronous function that returns a <i>dwRequestID</i> to the application always results in the delivery of the associated LINE_REPLY message unless the application calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -126,7 +108,4 @@ In API versions 2.0 or later,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
- 
-
- 
 

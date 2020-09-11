@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 0eae7899-c40b-4a5f-9e9c-adae021885e7
 ms.date: 12/05/2018
 ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, ProcessBasicInformation, ProcessBreakOnTermination, ProcessDebugPort, ProcessImageFileName, ProcessSubsystemInformation, ProcessWow64Information, base.ntqueryinformationprocess, winternl/NtQueryInformationProcess
-f1_keywords:
-- winternl/NtQueryInformationProcess
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- NtQueryInformationProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtQueryInformationProcess
+ - winternl/NtQueryInformationProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - NtQueryInformationProcess
 ---
 
 # NtQueryInformationProcess function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>NtQueryInformationProcess</b> may be altered or unavailable in future versions of Windows. Applications should use the alternate functions listed in this topic.]
 
 Retrieves  information about the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param ProcessHandle [in]
 
 A handle to the process for which information is to be retrieved.
-
 
 ### -param ProcessInformationClass [in]
 
@@ -151,8 +146,6 @@ Retrieves a <b>SUBSYSTEM_INFORMATION_TYPE</b> value indicating the subsystem typ
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ProcessInformation [out]
 
@@ -195,31 +188,21 @@ When the <i>ProcessInformationClass</i>  parameter is <b>ProcessImageFileName</b
 
 If the buffer is too small, the function fails with the STATUS_INFO_LENGTH_MISMATCH error code and the <i>ReturnLength</i> parameter is set to the required buffer size.
 
-
 ### -param ProcessInformationLength [in]
 
 The size of the buffer pointed to by the <i>ProcessInformation</i> parameter, in bytes.
-
 
 ### -param ReturnLength [out, optional]
 
 A pointer to a variable in which the function returns the size of the requested information. If the function was successful, this is the size of the information written to the buffer pointed to by the <i>ProcessInformation</i> parameter, but if the buffer was too small, this is the minimum size of buffer needed to receive the information successfully.
 
-
 ## -returns
-
-
 
 The function returns  an NTSTATUS success or error code. 
 
 The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h header file available in the DDK, and are described in the DDK documentation under Kernel-Mode Driver Architecture / Design Guide / Driver Programming Techniques / Logging Errors.
 
-
-
-
 ## -remarks
-
-
 
 The <b>NtQueryInformationProcess</b> function and the structures that it returns are internal to the operating system and  subject to change from one  release of Windows to another.  To maintain the    compatibility of your application, it is better to use public functions mentioned in the description of the <i>ProcessInformationClass</i> parameter instead.
 
@@ -227,13 +210,7 @@ If you do use <b>NtQueryInformationProcess</b>, access the function through <a h
 
 This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
 
@@ -252,7 +229,4 @@ This function has no associated import library. You must use the <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a>
- 
-
- 
 

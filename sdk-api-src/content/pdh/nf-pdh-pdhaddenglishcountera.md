@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
 ms.date: 12/05/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter
-f1_keywords:
-- pdh/PdhAddEnglishCounter
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhAddEnglishCounter
-- PdhAddEnglishCounterA
-- PdhAddEnglishCounterW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhAddEnglishCounterA
+ - pdh/PdhAddEnglishCounterA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhAddEnglishCounter
+ - PdhAddEnglishCounterA
+ - PdhAddEnglishCounterW
 ---
 
 # PdhAddEnglishCounterA function
@@ -51,41 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the specified language-neutral counter to the query.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hQuery [in]
 
 Handle to the query to which you want to add the counter. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function.
 
-
 ### -param szFullCounterPath [in]
 
 Null-terminated string that contains the counter path. For details on the format of a counter path, see 
 <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/specifying-a-counter-path">Specifying a Counter Path</a>. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ### -param dwUserData [in]
 
 User-defined value. This value becomes part of the counter information. To retrieve this value later, call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> function and access the <b>dwQueryUserData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_counter_info_a">PDH_COUNTER_INFO</a> structure.
-
 
 ### -param phCounter [out]
 
 Handle to the counter that was added to the query. You may need to reference this handle in subsequent calls.
 
-
 ## -returns
-
-
 
 Return ERROR_SUCCESS if the function succeeds.
 						
@@ -199,14 +188,8 @@ Unable to allocate memory required to complete the function.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function provides a language-neutral way to add performance counters to the query. In contrast, the counter path that you specify in the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function must be localized. 
 
@@ -236,9 +219,6 @@ To remove the counter from the query, use the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
 
 
@@ -256,7 +236,4 @@ To remove the counter from the query, use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a>
- 
-
- 
 

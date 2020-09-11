@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
-f1_keywords:
-- wincrypt/CryptDuplicateHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptDuplicateHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDuplicateHash
+ - wincrypt/CryptDuplicateHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptDuplicateHash
 ---
 
 # CryptDuplicateHash function
@@ -51,40 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptDuplicateHash</b> function makes an exact copy of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> to the point when the duplication is done. The duplicate hash includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the hash.
 
 A hash can be created in a piece-by-piece way. The <b>CryptDuplicateHash</b> function can be used to create separate hashes of two different contents that begin with the same content.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 Handle of the hash to be duplicated.
 
-
 ### -param pdwReserved [in]
 
 Reserved for future use and must be zero.
-
 
 ### -param dwFlags [in]
 
 Reserved for future use and must be zero.
 
-
 ### -param phHash [out]
 
 Address of the handle of the duplicated hash. When you have finished using the hash, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -132,14 +122,8 @@ A handle to the original hash is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CryptDuplicateHash</b> makes a copy of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> and the exact <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the hash. This function might be used if a calling application needed to generate two hashes but both hashes had to start with some common data hashed. For example, a hash might be created, the common data hashed, a duplicate made with the <b>CryptDuplicateHash</b> function, and then the data unique to each hash would be added.
 
@@ -265,21 +249,11 @@ if(hCryptProv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

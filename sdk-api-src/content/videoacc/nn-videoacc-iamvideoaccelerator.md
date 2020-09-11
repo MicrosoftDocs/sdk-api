@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
-f1_keywords:
-- videoacc/IAMVideoAccelerator
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator
+ - videoacc/IAMVideoAccelerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator
 ---
 
 # IAMVideoAccelerator interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAMVideoAccelerator</b> interface enables a video decoder filter to access DirectX Video Acceleration (DXVA) 1.0 functionality. Applications should not call methods on this interface.
 
 The Video Mixing Renderer filter's input pins support this interface, and so does pin 0 on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>. If a video decoder filter calls methods on this interface, the decoder should support the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify</a> interface on its output pin. For more information on how to use this interface, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>.
-
-
-
 
 ## -inheritance
 
@@ -185,20 +181,13 @@ Releases a buffer that was locked by a previous call to <a href="https://docs.mi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/gg463516">DXVA 1.0 specification</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 4b60f7cd-0375-4569-abb1-721fd8cdf5a1
 ms.date: 12/05/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
-f1_keywords:
-- newdev/DiShowUpdateDevice
-dev_langs:
-- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Newdev.dll
-api_name:
-- DiShowUpdateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DiShowUpdateDevice
+ - newdev/DiShowUpdateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Newdev.dll
+api_name:
+ - DiShowUpdateDevice
 ---
 
 # DiShowUpdateDevice function
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DiShowUpdateDevice</b> function displays the Hardware Update wizard for a specified device.
-
 
 ## -parameters
 
-
-
-
 ### -param hwndParent [in, optional]
 
-A handle to the top-level window that <b>DiShowUpdateDevice</b> uses to display any user interface components that are associated with updating the specified device. This parameter is optional and can be set to <b>NULL</b>. 
-
+A handle to the top-level window that <b>DiShowUpdateDevice</b> uses to display any user interface components that are associated with updating the specified device. This parameter is optional and can be set to <b>NULL</b>.
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
-
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard.
 
 ### -param DeviceInfoData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
 
-
 ### -param Flags [in]
 
 This parameter must be set to zero.
 
-
 ### -param NeedReboot [out, optional]
 
-A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicate whether a system restart is required to complete the driver update. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the driver update, <b>DiShowUpdateDevice</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiShowUpdateDevice</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the driver update, <b>DiShowUpdateDevice</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section. 
-
+A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicate whether a system restart is required to complete the driver update. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the driver update, <b>DiShowUpdateDevice</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiShowUpdateDevice</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the driver update, <b>DiShowUpdateDevice</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
 
 ## -returns
-
-
 
 <b>DiShowUpdateDevice</b> returns <b>TRUE</b> if the Hardware Update wizard successfully updated the driver for the specified device. Otherwise, <b>DiShowUpdateDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. Some of the more common error values that <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> might return are as follows:
 
@@ -139,14 +128,8 @@ The value specified for <i>Flags</i> is not equal to zero.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>DiShowUpdateDevice</b> displays the Hardware Update wizard for the specified device instance. For information about how to update device drivers by using the Hardware Update wizard, see Help and Support Center.
 
@@ -164,15 +147,9 @@ The application must perform required operations, other than calling <b>DiShowUp
 </ul>
 To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>.
 
-To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>. 
-
-
-
+To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
 
@@ -183,7 +160,4 @@ To install a new driver for a device instead of invoking the Hardware Update wiz
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>
- 
-
- 
 

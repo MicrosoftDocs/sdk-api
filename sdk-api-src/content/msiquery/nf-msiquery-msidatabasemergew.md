@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
-f1_keywords:
-- msiquery/MsiDatabaseMerge
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDatabaseMerge
-- MsiDatabaseMergeA
-- MsiDatabaseMergeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDatabaseMergeW
+ - msiquery/MsiDatabaseMergeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDatabaseMerge
+ - MsiDatabaseMergeA
+ - MsiDatabaseMergeW
 ---
 
 # MsiDatabaseMergeW function
@@ -51,34 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MsiDatabaseMerge</b> function merges two databases together, which allows duplicate rows. 
-
+<b>MsiDatabaseMerge</b> function merges two databases together, which allows duplicate rows.
 
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
 The handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
-
 ### -param hDatabaseMerge [in]
 
 The handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to merge into the base database.
-
 
 ### -param szTableName [in]
 
 The name of the table to receive merge conflict information.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiDatabaseMerge</b> function returns one of the following values:
@@ -145,14 +136,8 @@ Schema difference between the two databases.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>MsiDatabaseMerge</b> function and the <a href="https://docs.microsoft.com/windows/desktop/Msi/database-merge">Merge</a> method of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-object">Database</a> object cannot be used to merge a module that is included in the installation package. They should not be used to merge 
@@ -211,15 +196,9 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/column-definition-format">Column Definition Format</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
- 
-
- 
 

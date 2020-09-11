@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 161CFCBF-BBAE-4590-8545-D916EC1885D8
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactory2, IMFMediaEngineClassFactory2 interface [Media Foundation], IMFMediaEngineClassFactory2 interface [Media Foundation],described, mf.imfmediaengineclassfactory2, mfmediaengine/IMFMediaEngineClassFactory2
-f1_keywords:
-- mfmediaengine/IMFMediaEngineClassFactory2
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineClassFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineClassFactory2
+ - mfmediaengine/IMFMediaEngineClassFactory2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineClassFactory2
 ---
 
 # IMFMediaEngineClassFactory2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a> object.
-
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Creates a media keys object based on the specified key system.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactoryex">IMFMediaEngineClassFactoryEx</a>
 
@@ -94,7 +89,4 @@ Creates a media keys object based on the specified key system.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 9a7813fe-358a-44eb-99da-c63f98d055c3
 ms.date: 12/05/2018
 ms.keywords: '*LPDISPLAY_DEVICEW, *PDISPLAY_DEVICEW, DISPLAY_DEVICE, DISPLAY_DEVICE structure [Windows GDI], DISPLAY_DEVICEA, DISPLAY_DEVICEW, PDISPLAY_DEVICE, PDISPLAY_DEVICE structure pointer [Windows GDI], _DISPLAY_DEVICEA, _DISPLAY_DEVICEW, _win32_DISPLAY_DEVICE_str, gdi.display_device, wingdi/DISPLAY_DEVICE, wingdi/DISPLAY_DEVICEA, wingdi/DISPLAY_DEVICEW, wingdi/PDISPLAY_DEVICE'
-f1_keywords:
-- wingdi/DISPLAY_DEVICE
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- DISPLAY_DEVICE
-- DISPLAY_DEVICEA
-- DISPLAY_DEVICEW
 targetos: Windows
 req.typenames: DISPLAY_DEVICEW, *PDISPLAY_DEVICEW, *LPDISPLAY_DEVICEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DISPLAY_DEVICEW
+ - wingdi/_DISPLAY_DEVICEW
+ - PDISPLAY_DEVICEW
+ - wingdi/PDISPLAY_DEVICEW
+ - DISPLAY_DEVICEW
+ - wingdi/DISPLAY_DEVICEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - DISPLAY_DEVICE
+ - DISPLAY_DEVICEA
+ - DISPLAY_DEVICEW
 ---
 
 # DISPLAY_DEVICEW structure
@@ -51,32 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DISPLAY_DEVICE</b> structure receives information about the display device specified by the <i>iDevNum</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> function.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cb
 
 Size, in bytes, of the <b>DISPLAY_DEVICE</b> structure. This must be initialized prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>.
 
-
 ### -field DeviceName
 
 An array of characters identifying the device name. This is either the adapter device or the monitor device.
 
-
 ### -field DeviceString
 
 An array of characters containing the device context string. This is either a description of the display adapter or of the display monitor.
-
 
 ### -field StateFlags
 
@@ -114,22 +108,16 @@ Device state flags. It can be any reasonable combination of the following.
 <td>The device is VGA compatible.</td>
 </tr>
 </table>
- 
-
 
 ### -field DeviceID
 
 Not used.
 
-
 ### -field DeviceKey
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The four string members are set based on the parameters passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. If the <i>lpDevice</i> param is <b>NULL</b>, then DISPLAY_DEVICE is filled in with information about the display adapter(s). If it is a valid device name, then it is filled in with information about the monitor(s) for that device.
 
@@ -141,9 +129,6 @@ The four string members are set based on the parameters passed to <a href="https
 > The wingdi.h header defines DISPLAY_DEVICE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-structures">Device Context Structures</a>
 
@@ -159,7 +144,4 @@ The four string members are set based on the parameters passed to <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
- 
-
- 
 

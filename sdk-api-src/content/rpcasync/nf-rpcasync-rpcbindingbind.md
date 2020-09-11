@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
 ms.date: 12/05/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
-f1_keywords:
-- rpcasync/RpcBindingBind
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingBind
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingBind
+ - rpcasync/RpcBindingBind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingBind
 ---
 
 # RpcBindingBind function
@@ -49,36 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RpcBindingBind</b> function contacts an RPC server and binds to it.
 
-
 ## -parameters
-
-
-
 
 ### -param pAsync [in, optional]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information. This state information contains the completion method used to signal when the bind operation is complete.
 
-
 ### -param Binding [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a> structure that contains the binding handle created with a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>.
 
-
 ### -param IfSpec [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-if-handle">RPC_IF_HANDLE</a> value that specifies the interface on which calls for this binding handle will be made. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-if-handle">RPC_IF_HANDLE</a> value that specifies the interface on which calls for this binding handle will be made.
 
 ## -returns
-
-
 
 This function returns RPC_S_OK on success; otherwise, an RPC_S_* error code is returned. For information on these error codes, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.
 
@@ -116,11 +105,7 @@ An obsolete feature of RPC was requested for this binding operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 <b>RpcBindingBind</b> contacts the RPC server and binds to it using the binding handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>. Binding handles established using this method are referred to as "fast" binding handles.
 
@@ -169,19 +154,11 @@ Certain functions must not be called until the bind operation has signaled compl
 <div class="alert"><b>Note</b>  Currently, this function supports only the <b>ncalrpc</b> protocol sequence.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingunbind">RpcBindingUnbind</a>
- 
-
- 
 

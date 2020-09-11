@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bb1b863f-e29f-496f-a50e-9ea524fe8603
 ms.date: 12/05/2018
 ms.keywords: HandlerEx, HandlerEx callback, HandlerEx callback function, LPHANDLER_FUNCTION_EX, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_DEVICEEVENT, SERVICE_CONTROL_HARDWAREPROFILECHANGE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_POWEREVENT, SERVICE_CONTROL_PRESHUTDOWN, SERVICE_CONTROL_SESSIONCHANGE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, SERVICE_CONTROL_TIMECHANGE, SERVICE_CONTROL_TRIGGEREVENT, SERVICE_CONTROL_USERMODEREBOOT, _win32_handlerex, base.handlerex, winsvc/HandlerEx
-f1_keywords:
-- winsvc/HandlerEx
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinSvc.h
-api_name:
-- HandlerEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPHANDLER_FUNCTION_EX
+ - winsvc/LPHANDLER_FUNCTION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinSvc.h
+api_name:
+ - HandlerEx
 ---
 
 # LPHANDLER_FUNCTION_EX callback function
 
 
 ## -description
-
 
 An application-defined callback function used with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function. A 
@@ -64,11 +64,7 @@ This function supersedes the <a href="https://docs.microsoft.com/windows/desktop
     service can use either control handler, but the new control handler supports user-defined context data and 
     additional extended control codes.
 
-
 ## -parameters
-
-
-
 
 ### -param dwControl [in]
 
@@ -367,8 +363,6 @@ The service defines the action associated with the control code.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwEventType [in]
 
@@ -420,7 +414,6 @@ If <i>dwControl</i> is <b>SERVICE_CONTROL_SESSIONCHANGE</b>, this parameter can 
        values specified in the <i>wParam</i> parameter of the 
  	     <a href="https://docs.microsoft.com/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> message.
 
-
 ### -param lpEventData [in]
 
 Additional device information, if required. The format of this data depends on the value of the 
@@ -442,7 +435,6 @@ If
 
 If <i>dwControl</i> is <b>SERVICE_CONTROL_TIMECHANGE</b>, this data is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info">SERVICE_TIMECHANGE_INFO</a> structure.
 
-
 ### -param lpContext [in]
 
 User-defined data passed from 
@@ -450,10 +442,7 @@ User-defined data passed from
       When multiple services share a process, the <i>lpContext</i> parameter can help identify the 
       service.
 
-
 ## -returns
-
-
 
 The return value for this function depends on the control code received.
 
@@ -471,11 +460,7 @@ The following list identifies the rules for this return value:
 <li>For all other control codes your service handles, return <b>NO_ERROR</b>.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 When a service is started, its <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function 
     should immediately call the 
@@ -526,13 +511,7 @@ Services can also use the
     shutdown notification. This notification is received when the running applications are shutting down, which occurs 
     before services are shut down.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-powerbroadcast_setting">POWERBROADCAST_SETTING</a>
 
@@ -575,7 +554,4 @@ Services can also use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a>
- 
-
- 
 

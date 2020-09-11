@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 46d17e95-93ce-4a43-b86c-489d6e3afe12
 ms.date: 12/05/2018
 ms.keywords: GetPixel, GetPixel function [Windows GDI], _win32_GetPixel, gdi.getpixel, wingdi/GetPixel
-f1_keywords:
-- wingdi/GetPixel
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- GetPixel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPixel
+ - wingdi/GetPixel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - GetPixel
 ---
 
 # GetPixel function
@@ -53,42 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetPixel</b> function retrieves the red, green, blue (RGB) color value of the pixel at the specified coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param x [in]
 
 The x-coordinate, in logical units, of the pixel to be examined.
-
 
 ### -param y [in]
 
 The y-coordinate, in logical units, of the pixel to be examined.
 
-
 ## -returns
-
-
 
 The return value is the <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the RGB of the pixel. If the pixel is outside of the current clipping region, the return value is CLR_INVALID (0xFFFFFFFF defined in Wingdi.h).
 
-
-
-
 ## -remarks
-
-
 
 The pixel must be within the boundaries of the current clipping region.
 
@@ -96,13 +82,7 @@ Not all devices support <b>GetPixel</b>. An application should call <a href="htt
 
 A bitmap must be selected within the device context, otherwise, CLR_INVALID is returned on all pixels.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -121,7 +101,4 @@ A bitmap must be selected within the device context, otherwise, CLR_INVALID is r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>
- 
-
- 
 

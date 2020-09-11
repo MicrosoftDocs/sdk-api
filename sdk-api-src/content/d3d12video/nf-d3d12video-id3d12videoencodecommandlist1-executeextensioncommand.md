@@ -4,7 +4,7 @@ title: ID3D12VideoEncodeCommandList1::ExecuteExtensionCommand
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Records a command to execute a video extension command into an encode command list. 
+description: Records a command to execute a video extension command into an encode command list.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList1::ExecuteExtensionCommand
 f1_keywords:
+ - ID3D12VideoEncodeCommandList1::ExecuteExtensionCommand
  - d3d12video/ID3D12VideoEncodeCommandList1::ExecuteExtensionCommand
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Records a command to execute a video extension command into a encode command list. 
+Records a command to execute a video extension command into a encode command list.
 
 ## -parameters
 

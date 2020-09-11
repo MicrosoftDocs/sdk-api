@@ -7,10 +7,6 @@ helpviewer_keywords: ["operator=="]
 ms.assetid: 2121ed0a-74e5-4e44-a20e-52f4f895a3ae
 ms.date: 05/20/2019
 ms.keywords: operator==
-f1_keywords:
-- chstring/operator==
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - operator==
+ - chstring/operator==
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- operator==
+ - operator==
 ---
 
 # operator==
+
 
 ## -description
 
@@ -83,3 +85,4 @@ assert( s1 == s2 );
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+

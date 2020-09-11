@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions, IBackgroundCopyJobHttpOptions interface [BITS], IBackgroundCopyJobHttpOptions interface [BITS],described, bits.ibackgroundcopyjobhttpoptions, bits2_5/IBackgroundCopyJobHttpOptions
-f1_keywords:
-- bits2_5/IBackgroundCopyJobHttpOptions
-dev_langs:
-- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx4.dll
-api_name:
-- IBackgroundCopyJobHttpOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions
+ - bits2_5/IBackgroundCopyJobHttpOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx4.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions
 ---
 
 # IBackgroundCopyJobHttpOptions interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests. 
 
-To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method using __uuidof(IBackgroundCopyJobHttpOptions) for the interface identifier. 
-
+To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method using __uuidof(IBackgroundCopyJobHttpOptions) for the interface identifier.
 
 ## -inheritance
 
@@ -142,16 +141,9 @@ Sets flags for HTTP that determine whether the certificate revocation list is ch
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
- 
-
- 
 

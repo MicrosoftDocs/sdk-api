@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 4f0bd653-5cd1-26ff-b805-ecf9070b3990, D3D10_SHADER_DESC, D3D10_SHADER_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_DESC, direct3d10.d3d10_shader_desc
-f1_keywords:
-- d3d10shader/D3D10_SHADER_DESC
-dev_langs:
-- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D10Shader.h
-api_name:
-- D3D10_SHADER_DESC
 targetos: Windows
 req.typenames: D3D10_SHADER_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3D10_SHADER_DESC
+ - d3d10shader/_D3D10_SHADER_DESC
+ - D3D10_SHADER_DESC
+ - d3d10shader/D3D10_SHADER_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D10Shader.h
+api_name:
+ - D3D10_SHADER_DESC
 ---
 
 ## -description
@@ -249,3 +252,4 @@ A shader is written in HLSL and compiled into an intermediate language by the HL
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
+

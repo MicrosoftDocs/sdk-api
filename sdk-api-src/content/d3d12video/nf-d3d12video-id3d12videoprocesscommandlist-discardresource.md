@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessCommandList::DiscardResource","DiscardR
 tech.root: mf
 ms.assetid: ee2e1ce5-e6ab-4e49-9177-2ff98dca420e
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::DiscardResource
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::DiscardResource, DiscardResource, ID3D12VideoProcessCommandList.DiscardResource, ID3D12VideoProcessCommandList::DiscardResource, ID3D12VideoProcessCommandList.DiscardResource
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::DiscardResource
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::DiscardResource
+ - d3d12video/ID3D12VideoProcessCommandList::DiscardResource
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::DiscardResource
 ---
 
 # ID3D12VideoProcessCommandList::DiscardResource
@@ -60,3 +61,4 @@ A pointer to a <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF
 ## -remarks
 
 ## -see-also
+

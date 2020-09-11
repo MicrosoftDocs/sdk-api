@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 9730f61a-8da7-4693-9fd2-94650e36ce8a
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerConfig, TUISPI_providerConfig function [TAPI 2.2], _tspi_tuispi_providerconfig, tspi.tuispi_providerconfig, tspi/TUISPI_providerConfig
-f1_keywords:
-- tspi/TUISPI_providerConfig
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TUISPI_providerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TUISPI_providerConfig
+ - tspi/TUISPI_providerConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TUISPI_providerConfig
 ---
 
 # TUISPI_providerConfig function
 
 
 ## -description
-
 
 The 
 <b>TUISPI_providerConfig</b> function implements the UI elements that must execute in the context of the calling application. This function makes the 
@@ -59,41 +59,27 @@ The
 
 Implementation is optional.
 
-
 ## -parameters
-
-
-
 
 ### -param lpfnUIDLLCallback
 
 Pointer to a function the UI DLL can call to communicate with the service provider DLL to obtain information needed to display the dialog box and to send updated configuration to the service provider.
 
-
 ### -param hwndOwner
 
 The handle of the parent window in which the function can create any dialog box windows required during the configuration.
-
 
 ### -param dwPermanentProviderID
 
 The service provider's permanent provider identifier.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_OPERATIONFAILED, LINEERR_NOMEM.
 
-
-
-
 ## -remarks
-
-
 
 This function may be called while the service provider is in use (that is, between calls of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> and 
@@ -106,13 +92,7 @@ There is no directly corresponding function at the TAPI level. In TAPI, applicat
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialog">lineConfigDialog</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneconfigdialog">phoneConfigDialog</a>, which allow configuration of parameters of a particular line or phone once it has been installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a>
 
@@ -127,7 +107,4 @@ There is no directly corresponding function at the TAPI level. In TAPI, applicat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: aa9d5604-5b94-47d9-9e68-d708a656a5ea
 ms.date: 12/05/2018
 ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], ISettingsIdentity interface [SMI],described, smi.isettingsidentity, wcmconfig/ISettingsIdentity
-f1_keywords:
-- wcmconfig/ISettingsIdentity
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsIdentity
+ - wcmconfig/ISettingsIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsIdentity
 ---
 
 # ISettingsIdentity interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies a namespace to open or use.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Sets the identity attribute for a setting.
 
 </td>
 </tr>
-</table> 
+</table>
 

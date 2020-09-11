@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c52cb35a-8f5b-479e-9c08-3185c9a561f2
 ms.date: 12/05/2018
 ms.keywords: MFCreateDeviceSourceActivate, MFCreateDeviceSourceActivate function [Media Foundation], mf.mfcreatedevicesourceactivate, mfidl/MFCreateDeviceSourceActivate
-f1_keywords:
-- mfidl/MFCreateDeviceSourceActivate
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateDeviceSourceActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateDeviceSourceActivate
+ - mfidl/MFCreateDeviceSourceActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateDeviceSourceActivate
 ---
 
 # MFCreateDeviceSourceActivate function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an activation object that represents a hardware capture device.
 
-
 ## -parameters
-
-
-
 
 ### -param pAttributes [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store, which is used to select the device. See Remarks.
 
-
 ### -param ppActivate [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The caller must release the interface.
 
-
 ## -remarks
-
-
 
 This function creates an activation object that can be used to create a media source for a hardware device. To create the media source itself, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a>.
 
@@ -135,15 +127,8 @@ Specifies the symbolic link to the device.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
@@ -162,7 +147,4 @@ Specifies the symbolic link to the device.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

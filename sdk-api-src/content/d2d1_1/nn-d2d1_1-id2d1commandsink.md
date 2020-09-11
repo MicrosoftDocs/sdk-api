@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 4e0ce837-7f4e-4b93-8dd7-68f60cfb1105
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink, ID2D1CommandSink interface [Direct2D], ID2D1CommandSink interface [Direct2D],described, d2d1_1/ID2D1CommandSink, direct2d.id2d1commandsink
-f1_keywords:
-- d2d1_1/ID2D1CommandSink
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1CommandSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandSink
+ - d2d1_1/ID2D1CommandSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandSink
 ---
 
 # ID2D1CommandSink interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The command sink is implemented by you for an application when you want to receive a playback of the commands recorded in a command list. A typical usage will be for transforming the command list into another format such as XPS when some degree of conversion between the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primitives and the target format is required.
 
 
 
 The command sink interface doesn't have any resource creation methods on it. The resources are still logically bound to the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device on which the command list was created and will be passed in to the command sink implementation.
-
-
-
 
 ## -inheritance
 
@@ -302,12 +298,9 @@ The unit mode changes the meaning of subsequent units from DIPs to pixels  or th
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>ID2D1CommandSink</b> can be implemented to receive a play-back of the commands recorded in a command list. This interface is typically used for transforming the command list into another format  where some degree of conversion between the Direct2D primitives and the target format is required.
       
@@ -319,13 +312,7 @@ The <b>ID2D1CommandSink</b> interface does not have any resource creation method
 
 Not all methods implemented by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a> are present.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
@@ -336,7 +323,4 @@ Not all methods implemented by <a href="https://docs.microsoft.com/windows/deskt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

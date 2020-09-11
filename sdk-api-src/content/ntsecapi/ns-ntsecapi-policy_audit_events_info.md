@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3442e5e5-78cf-4bda-ba11-0f51ee40df16
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO, POLICY_AUDIT_EVENTS_INFO structure [Security], POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, PPOLICY_AUDIT_EVENTS_INFO, PPOLICY_AUDIT_EVENTS_INFO structure pointer [Security], _POLICY_AUDIT_EVENTS_INFO, _lsa_policy_audit_events_info, ntsecapi/POLICY_AUDIT_EVENTS_INFO, ntsecapi/PPOLICY_AUDIT_EVENTS_INFO, security.policy_audit_events_info'
-f1_keywords:
-- ntsecapi/POLICY_AUDIT_EVENTS_INFO
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- POLICY_AUDIT_EVENTS_INFO
 targetos: Windows
 req.typenames: POLICY_AUDIT_EVENTS_INFO, *PPOLICY_AUDIT_EVENTS_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _POLICY_AUDIT_EVENTS_INFO
+ - ntsecapi/_POLICY_AUDIT_EVENTS_INFO
+ - PPOLICY_AUDIT_EVENTS_INFO
+ - ntsecapi/PPOLICY_AUDIT_EVENTS_INFO
+ - POLICY_AUDIT_EVENTS_INFO
+ - ntsecapi/POLICY_AUDIT_EVENTS_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - POLICY_AUDIT_EVENTS_INFO
 ---
 
 # POLICY_AUDIT_EVENTS_INFO structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>POLICY_AUDIT_EVENTS_INFO</b> structure is used to set and query the system's auditing rules. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasetinformationpolicy">LsaSetInformationPolicy</a> functions use this structure when their <i>InformationClass</i> parameters are set to <b>PolicyAuditEventsInformation</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AuditingMode
 
@@ -70,7 +70,6 @@ Indicates whether auditing is enabled.
 If this flag is <b>TRUE</b>, the system generates audit records according to the event auditing options specified in the <b>EventAuditingOptions</b> member.
 
 If this flag is <b>FALSE</b>, the system does not generate audit records. However, note that set operations update the event auditing options as specified in the <b>EventAuditingOptions</b> member even when <b>AuditingMode</b> is <b>FALSE</b>.
-
 
 ### -field EventAuditingOptions
 
@@ -130,27 +129,16 @@ Do not generate audit records for events of this type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaximumAuditEventCount
 
 Specifies the number of elements in the <b>EventAuditingOptions</b> array. For set operations, if this value is less than the number of audit event types supported by the system, the system does not change the auditing options for event types with indexes equal to or higher than the value specified in <b>MaximumAuditEventCount</b>.
 
-
 ## -remarks
-
-
 
 LSA Policy defines a mask for the valid event auditing options. The POLICY_AUDIT_EVENT_MASK mask evaluates to <b>TRUE</b> if it is set equal to any of the preceding event auditing options.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a>
 
@@ -165,7 +153,4 @@ LSA Policy defines a mask for the valid event auditing options. The POLICY_AUDIT
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3945fdf1-6361-413e-9621-18871ded47a4
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Commit method, ITransactionContext.Commit, ITransactionContext::Commit, _cos_ITransactionContext_Commit, comsvcs/ITransactionContext::Commit, cos.itransactioncontext_commit
-f1_keywords:
-- comsvcs/ITransactionContext.Commit
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionContext.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionContext::Commit
+ - comsvcs/ITransactionContext::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionContext.Commit
 ---
 
 # ITransactionContext::Commit
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -105,14 +97,8 @@ The transaction was aborted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling <b>Commit</b> attempts to commit a transaction. However, the transaction aborts under the following conditions:
 
@@ -125,16 +111,7 @@ Calling <b>Commit</b> attempts to commit a transaction. However, the transaction
 </ul>
 When the method returns, whether the transaction commits or aborts, the transaction ends.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
- 
-
- 
 

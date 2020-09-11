@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.date: 12/05/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
-f1_keywords:
-- xpsobjectmodel/IXpsOMPageReference.CollectLinkTargets
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPageReference.CollectLinkTargets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPageReference::CollectLinkTargets
+ - xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPageReference.CollectLinkTargets
 ---
 
 # IXpsOMPageReference::CollectLinkTargets
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param linkTargets [out, retval]
 
@@ -66,8 +62,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjec
 <div> </div>
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -110,14 +104,8 @@ Not enough memory to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the page is originally loaded from a package but  is not currently loaded in the object model, this method returns the values specified in the original <b>PageContent.LinkTargets</b> markup.
       
@@ -173,14 +161,7 @@ This method returns the pointer to a new collection every time it is called. To 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a>
 
@@ -191,7 +172,4 @@ This method returns the pointer to a new collection every time it is called. To 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

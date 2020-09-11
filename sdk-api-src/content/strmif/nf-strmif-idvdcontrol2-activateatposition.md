@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42
 ms.date: 12/05/2018
 ms.keywords: ActivateAtPosition, ActivateAtPosition method [DirectShow], ActivateAtPosition method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateAtPosition method, IDvdControl2.ActivateAtPosition, IDvdControl2::ActivateAtPosition, IDvdControl2ActivateAtPosition, dshow.idvdcontrol2_activateatposition, strmif/IDvdControl2::ActivateAtPosition
-f1_keywords:
-- strmif/IDvdControl2.ActivateAtPosition
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.ActivateAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::ActivateAtPosition
+ - strmif/IDvdControl2::ActivateAtPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.ActivateAtPosition
 ---
 
 # IDvdControl2::ActivateAtPosition
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ActivateAtPosition</code> method activates the menu button under the mouse pointer position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param point [in]
 
 Point on the client window area, in screen pixel coordinates.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -145,14 +135,8 @@ The operation is inhibited by user operation (UOP) control.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The mouse pointer coordinates are relative to the upper left of the client area, which isn't necessarily the video display area if the video is in letterbox format.
 
@@ -177,15 +161,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -200,7 +177,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
- 
-
- 
 

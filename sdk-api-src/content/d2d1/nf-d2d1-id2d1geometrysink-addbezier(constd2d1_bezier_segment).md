@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 7db2efd1-bfe8-475e-b447-03f0583f37a6
 ms.date: 12/05/2018
 ms.keywords: AddBezier, AddBezier method [Direct2D], AddBezier method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddBezier method, ID2D1GeometrySink.AddBezier, ID2D1GeometrySink.AddBezier(const D2D1_BEZIER_SEGMENT), ID2D1GeometrySink::AddBezier, ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT), d2d1/ID2D1GeometrySink::AddBezier, direct2d.ID2D1GeometrySink_AddBezier_ptr_D2D1_BEZIER_SEGMENT
-f1_keywords:
-- d2d1/ID2D1GeometrySink.AddBezier
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1GeometrySink.AddBezier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1GeometrySink::AddBezier
+ - d2d1/ID2D1GeometrySink::AddBezier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1GeometrySink.AddBezier
 ---
 
 ## -description
@@ -63,3 +64,4 @@ A structure that describes the control points and end point of the Bezier curve 
 <a href="/windows/win32/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
+

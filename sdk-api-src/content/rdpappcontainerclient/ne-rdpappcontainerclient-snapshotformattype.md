@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.date: 12/05/2018
 ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
-f1_keywords:
-- rdpappcontainerclient/SnapshotFormatType
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- MsTscAx.dll
-api_name:
-- SnapshotFormatType
 targetos: Windows
 req.typenames: SnapshotFormatType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL_IRemoteDesktopClientActions_0003
+ - rdpappcontainerclient/__MIDL_IRemoteDesktopClientActions_0003
+ - SnapshotFormatType
+ - rdpappcontainerclient/SnapshotFormatType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - MsTscAx.dll
+api_name:
+ - SnapshotFormatType
 ---
 
 # SnapshotFormatType enumeration
@@ -49,31 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
-
 
 ## -enum-fields
 
-
-
-
 ### -field SnapshotFormatPng
-
 
 ### -field SnapshotFormatJpeg
 
-
 ### -field SnapshotFormatBmp
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>
- 
-
- 
 

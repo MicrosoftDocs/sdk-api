@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a01adfec-dbe0-4817-af97-63163760fafc
 ms.date: 12/05/2018
 ms.keywords: BCryptEnumRegisteredProviders, BCryptEnumRegisteredProviders function [Security], bcrypt/BCryptEnumRegisteredProviders, security.bcryptenumregisteredproviders
-f1_keywords:
-- bcrypt/BCryptEnumRegisteredProviders
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptEnumRegisteredProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptEnumRegisteredProviders
+ - bcrypt/BCryptEnumRegisteredProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptEnumRegisteredProviders
 ---
 
 # BCryptEnumRegisteredProviders function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptEnumRegisteredProviders</b> function retrieves information about the registered providers.
 
-
 ## -parameters
-
-
-
 
 ### -param pcbBuffer [in, out]
 
@@ -75,10 +71,7 @@ If this parameter is the address of a <b>NULL</b> pointer, this function will al
 
 If this parameter is the address of a non-<b>NULL</b> pointer, this function will copy the provider information into this buffer. The <i>pcbBuffer</i> parameter must contain the size, in bytes, of the entire buffer. If the buffer is not large enough to hold all of the provider information, this function will return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -126,15 +119,8 @@ One or more parameters are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 The <b>BCryptEnumRegisteredProviders</b> function can be called in one of two ways:
 
@@ -162,20 +148,11 @@ This code will allocate the memory required for the <a href="https://docs.micros
 
 <b>BCryptEnumRegisteredProviders</b> can be called only in user mode.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_providers">CRYPT_PROVIDERS</a>
- 
-
- 
 

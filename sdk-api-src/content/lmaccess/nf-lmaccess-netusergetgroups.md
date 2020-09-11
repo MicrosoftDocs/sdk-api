@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: ecf1a94c-5dda-4f49-81bd-93e551e089f1
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetUserGetGroups, NetUserGetGroups function [Network Management], _win32_netusergetgroups, lmaccess/NetUserGetGroups, netmgmt.netusergetgroups
-f1_keywords:
-- lmaccess/NetUserGetGroups
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserGetGroups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserGetGroups
+ - lmaccess/NetUserGetGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserGetGroups
 ---
 
 # NetUserGetGroups function
@@ -49,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserGetGroups</b> function retrieves a list of global groups to which a specified user belongs.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param username [in]
 
 A pointer to a constant string that specifies the name of the user to search for in each group account. For more information, see the following Remarks section.
-
 
 ### -param level [in]
 
@@ -107,14 +97,11 @@ Return the names of the global groups to which the user belongs with attributes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
-
 
 ### -param prefmaxlen [in]
 
@@ -122,20 +109,15 @@ The preferred maximum length, in bytes, of returned data. If MAX_PREFERRED_LENGT
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ### -param entriesread [out]
 
 A pointer to a value that receives the count of elements actually retrieved.
-
 
 ### -param totalentries [out]
 
 A pointer to a value that receives the total number of entries that could have been retrieved.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -235,14 +217,8 @@ The user could not be found. This error is returned if the <i>username</i> could
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
@@ -361,14 +337,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_users_info_0">GROUP_USERS_INFO_0</a>
 
@@ -405,7 +374,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

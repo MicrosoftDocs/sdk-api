@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: cba37f7f-6ab2-469c-95c2-61d9e4d31d0b
 ms.date: 12/05/2018
 ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],DeleteInputStream method, IMFTransform.DeleteInputStream, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream
-f1_keywords:
-- mftransform/IMFTransform.DeleteInputStream
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.DeleteInputStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::DeleteInputStream
+ - mftransform/IMFTransform::DeleteInputStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.DeleteInputStream
 ---
 
 # IMFTransform::DeleteInputStream
@@ -50,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes an input stream from this Media Foundation transform (MFT).
-        
-
 
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Identifier of the input stream to remove.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -139,14 +130,8 @@ The transform has unprocessed input buffers for the specified stream.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the transform has a fixed number of input streams, the method returns <b>E_NOTIMPL</b>.
       
@@ -159,20 +144,11 @@ If the transform still has unprocessed input for that stream, the method might s
 
 If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTDeleteInputStream</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

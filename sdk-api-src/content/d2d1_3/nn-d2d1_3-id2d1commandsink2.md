@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: bd1a22a8-bbf3-d515-5596-1797e261cd1e
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink2, ID2D1CommandSink2 interface [Direct2D], ID2D1CommandSink2 interface [Direct2D],described, d2d1_3/ID2D1CommandSink2, direct2d.id2d1commandsink2
-f1_keywords:
-- d2d1_3/ID2D1CommandSink2
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1_3.h
-api_name:
-- ID2D1CommandSink2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandSink2
+ - d2d1_3/ID2D1CommandSink2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1_3.h
+api_name:
+ - ID2D1CommandSink2
 ---
 
 # ID2D1CommandSink2 interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a> interface. 
    It also enables access to ink rendering and gradient mesh rendering.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Renders the given ink object using the given brush and ink style.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a>
- 
-
- 
 

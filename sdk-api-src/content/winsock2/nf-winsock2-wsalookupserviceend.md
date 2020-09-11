@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: f9d2ac54-a818-464d-918e-80ebb5b1b106
 ms.date: 12/05/2018
 ms.keywords: WSALookupServiceEnd, WSALookupServiceEnd function [Winsock], _win32_wsalookupserviceend_2, winsock.wsalookupserviceend_2, winsock2/WSALookupServiceEnd
-f1_keywords:
-- winsock2/WSALookupServiceEnd
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSALookupServiceEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSALookupServiceEnd
+ - winsock2/WSALookupServiceEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSALookupServiceEnd
 ---
 
 # WSALookupServiceEnd function
 
 
 ## -description
-
 
 The 
 <b>WSALookupServiceEnd</b> function is called to free the handle after previous calls to 
@@ -61,21 +61,14 @@ If you call
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta">WSALookupServiceNext</a> is blocked, the end call will have the same effect as a cancel and will cause the 
 <b>WSALookupServiceNext</b> call to return immediately.
 
-
 ## -parameters
-
-
-
 
 ### -param hLookup [in]
 
 Handle previously obtained by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
 
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -120,26 +113,14 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupserviceend">Bluetooth and WSALookupServiceEnd</a>
 
@@ -158,7 +139,4 @@ There was insufficient memory to perform the operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO structure pointer, PROCESSOR_GROUP_INFO, PROCESSOR_GROUP_INFO structure, _PROCESSOR_GROUP_INFO, base.processor_group_info, winnt/PPROCESSOR_GROUP_INFO, winnt/PROCESSOR_GROUP_INFO'
-f1_keywords:
-- winnt/PROCESSOR_GROUP_INFO
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- PROCESSOR_GROUP_INFO
 targetos: Windows
 req.typenames: PROCESSOR_GROUP_INFO, *PPROCESSOR_GROUP_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROCESSOR_GROUP_INFO
+ - winnt/_PROCESSOR_GROUP_INFO
+ - PPROCESSOR_GROUP_INFO
+ - winnt/PPROCESSOR_GROUP_INFO
+ - PROCESSOR_GROUP_INFO
+ - winnt/PROCESSOR_GROUP_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - PROCESSOR_GROUP_INFO
 ---
 
 # PROCESSOR_GROUP_INFO structure
@@ -49,42 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the number and affinity of processors in a processor group.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MaximumProcessorCount
 
 The maximum number of processors in the group.
 
-
 ### -field ActiveProcessorCount
 
 The number of active processors in the group.
-
 
 ### -field Reserved
 
 This member is reserved.
 
-
 ### -field ActiveProcessorMask
 
 A bitmap that specifies the affinity for zero or more active processors within the group.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_relationship">GROUP_RELATIONSHIP</a>
- 
-
- 
 

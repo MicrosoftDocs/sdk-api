@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeLongArray, ICertEncodeLongArray interface [Security], ICertEncodeLongArray interface [Security],described, _certsrv_icertencodelongarray, certenc/ICertEncodeLongArray, security.icertencodelongarray
-f1_keywords:
-- certenc/ICertEncodeLongArray
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeLongArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeLongArray
+ - certenc/ICertEncodeLongArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeLongArray
 ---
 
 # ICertEncodeLongArray interface
 
 
 ## -description
-
 
 The <b>ICertEncodeLongArray</b> interface provides methods for handling <b>Long</b> arrays used in certificate extensions.
 
@@ -60,7 +60,6 @@ This interface is provided mainly as a demonstration for encoding custom extensi
 <b>ICertEncodeLongArray</b> is defined in Certenc.h. When you create your program, however, use Certsrv.h as the include file. Certenc.dll provides the <b>ICertEncodeLongArray</b> interface. The type information for this interface is also in Certencl.dll, which is shipped with the Platform SDK.
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Sets a <b>Long</b> value at a specified index of a <b>Long</b> array.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
-f1_keywords:
-- mfidl/IMFQualityAdviseLimits
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFQualityAdviseLimits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFQualityAdviseLimits
+ - mfidl/IMFQualityAdviseLimits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFQualityAdviseLimits
 ---
 
 # IMFQualityAdviseLimits interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries an object for the number of <i>quality modes</i> it supports. Quality modes are used to adjust the trade-off between quality and speed when rendering audio or video.
 
 The default presenter for the <i>enhanced video renderer</i> (EVR) implements this interface. The EVR uses the interface to respond to quality messages from the quality manager.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Gets the minimum quality level that is  supported by the component.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

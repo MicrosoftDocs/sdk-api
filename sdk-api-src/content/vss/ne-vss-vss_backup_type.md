@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 82934737-0d80-4b5d-a1fa-1ba38e446504
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE, PVSS_BACKUP_TYPE enumeration pointer [VSS], VSS_BACKUP_TYPE, VSS_BACKUP_TYPE enumeration [VSS], VSS_BT_COPY, VSS_BT_DIFFERENTIAL, VSS_BT_FULL, VSS_BT_INCREMENTAL, VSS_BT_LOG, VSS_BT_OTHER, VSS_BT_UNDEFINED, _win32_vss_backup_type, base.vss_backup_type, vss/PVSS_BACKUP_TYPE, vss/VSS_BACKUP_TYPE, vss/VSS_BT_COPY, vss/VSS_BT_DIFFERENTIAL, vss/VSS_BT_FULL, vss/VSS_BT_INCREMENTAL, vss/VSS_BT_LOG, vss/VSS_BT_OTHER, vss/VSS_BT_UNDEFINED'
-f1_keywords:
-- vss/VSS_BACKUP_TYPE
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vss.h
-api_name:
-- VSS_BACKUP_TYPE
 targetos: Windows
 req.typenames: VSS_BACKUP_TYPE, *PVSS_BACKUP_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_BACKUP_TYPE
+ - vss/_VSS_BACKUP_TYPE
+ - PVSS_BACKUP_TYPE
+ - vss/PVSS_BACKUP_TYPE
+ - VSS_BACKUP_TYPE
+ - vss/VSS_BACKUP_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vss.h
+api_name:
+ - VSS_BACKUP_TYPE
 ---
 
 # VSS_BACKUP_TYPE enumeration
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VSS_BACKUP_TYPE</b> enumeration indicates the 
     type of backup to be performed using VSS writer/requester coordination.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_BT_UNDEFINED
 
@@ -66,7 +66,6 @@ The backup type is not known.
 
 This value indicates an application error.
 
-
 ### -field VSS_BT_FULL
 
 Full backup: all files, regardless of whether they have been marked as backed up or not, are saved. This is 
@@ -74,7 +73,6 @@ Full backup: all files, regardless of whether they have been marked as backed up
       
 
 Each file's backup history will be updated to reflect that it was backed up.
-
 
 ### -field VSS_BT_INCREMENTAL
 
@@ -89,7 +87,6 @@ If a requester's backup type is <b>VSS_BT_INCREMENTAL</b> and a particular write
        backup schema does not support that sort of backup, the requester will always perform a full 
        (<b>VSS_BT_FULL</b>) backup on that writer's data.
 
-
 ### -field VSS_BT_DIFFERENTIAL
 
 Differential backup: files created or changed since the last full backup are saved. Files are not marked as 
@@ -103,7 +100,6 @@ If a requester's backup type is <b>VSS_BT_DIFFERENTIAL</b> and a particular writ
        backup schema does not support that sort of backup, the requester will always perform a full 
        (<b>VSS_BT_FULL</b>) backup on that writer's data.
 
-
 ### -field VSS_BT_LOG
 
 The log file of a writer is to participate in backup or restore operations. 
@@ -115,7 +111,6 @@ A requester can implement this sort of backup on a particular writer only if it 
 If a requester's backup type is <b>VSS_BT_LOG</b> and a particular writer's backup 
        schema does not support that sort of backup, the requester will always perform a full 
        (<b>VSS_BT_FULL</b>) backup on that writer's data.
-
 
 ### -field VSS_BT_COPY
 
@@ -130,15 +125,11 @@ If a requester's backup type is <b>VSS_BT_COPY</b> and a particular writer's bac
        schema does not support that sort of backup, the requester will always perform a full 
        (<b>VSS_BT_FULL</b>) backup on that writer's data.
 
-
 ### -field VSS_BT_OTHER
 
 Backup type that is not full, copy, log, incremental, or differential.
 
-
 ## -remarks
-
-
 
 An implementation of a backup type defined by a 
     <b>VSS_BACKUP_TYPE</b> value must be done using the VSS API.
@@ -163,20 +154,11 @@ Writers use
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getbackuptype">CVssWriter::GetBackupType</a> to determine the 
     backup type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getbackuptype">CVssWriter::GetBackupType</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
- 
-
- 
 

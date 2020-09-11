@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 0b4ee605-ef9d-458b-af9a-83f27c9f4cb5
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(), XMUBYTEN4.XMUBYTEN4(const float), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(const float), dxmath.xmubyten4_ctor_1
-f1_keywords:
-- directxpackedvector/XMUBYTEN4.XMUBYTEN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUBYTEN4.XMUBYTEN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUBYTEN4::XMUBYTEN4
+ - directxpackedvector/XMUBYTEN4::XMUBYTEN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUBYTEN4.XMUBYTEN4
 ---
 
 # XMUBYTEN4::XMUBYTEN4(const float)
+
 
 ## -description
 
@@ -92,3 +94,4 @@ instance.w = (uint8_t)_w1;
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
+

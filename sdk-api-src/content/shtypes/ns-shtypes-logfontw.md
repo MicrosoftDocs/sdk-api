@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
 ms.date: 12/05/2018
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT
-f1_keywords:
-- shtypes/LOGFONT
-dev_langs:
-- c++
 req.header: shtypes.h
 req.include-header: Shtypes.h, Dimm.h
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dimm.h
-api_name:
-- LOGFONT
-- LOGFONTA
-- LOGFONTW
 targetos: Windows
 req.typenames: LOGFONTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLOGFONTW
+ - shtypes/tagLOGFONTW
+ - LOGFONTW
+ - shtypes/LOGFONTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dimm.h
+api_name:
+ - LOGFONT
+ - LOGFONTA
+ - LOGFONTW
 ---
 
 # LOGFONTW structure
@@ -51,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the attributes of a font.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lfHeight
 
@@ -109,14 +107,11 @@ where <b>MulDiv</b> is defined as follows:
 
 ```
 
-
-
 ### -field lfWidth
 
 Type: <b>LONG</b>
 
 Specifies the average width, in logical units, of characters in the font. If <b>lfWidth</b> is not zero, the aspect ratio of the device is matched against the digitization aspect ratio of the available fonts to find the closest match, determined by the absolute value of the difference.
-
 
 ### -field lfEscapement
 
@@ -126,13 +121,11 @@ Specifies the angle, in tenths of degrees, between the escapement vector and the
 
 The <b>lfEscapement</b> member specifies both the escapement and orientation. You should set <b>lfEscapement</b> and <b>lfOrientation</b> to the same value.
 
-
 ### -field lfOrientation
 
 Type: <b>LONG</b>
 
 Specifies the angle, in tenths of degrees, between each character's base line and the x-axis of the device.
-
 
 ### -field lfWeight
 
@@ -208,8 +201,6 @@ The following values are defined in Wingdi.h for convenience.
 <td>900</td>
 </tr>
 </table>
- 
-
 
 ### -field lfItalic
 
@@ -217,20 +208,17 @@ Type: <b>BYTE</b>
 
 <b>TRUE</b> to specify an italic font.
 
-
 ### -field lfUnderline
 
 Type: <b>BYTE</b>
 
 <b>TRUE</b> to specify an underlined font.
 
-
 ### -field lfStrikeOut
 
 Type: <b>BYTE</b>
 
 <b>TRUE</b> to specify a strikeout font.
-
 
 ### -field lfCharSet
 
@@ -319,7 +307,6 @@ Fonts with other character sets may exist in the operating system. If an applica
 
 This member is important in the font mapping process. To ensure consistent results, specify a specific character set. If you specify a typeface name in the <b>lfFaceName</b> member, make sure that the <b>lfCharSet</b> value matches the character set of the typeface specified in <b>lfFaceName</b>.
 
-
 ### -field lfOutPrecision
 
 Type: <b>BYTE</b>
@@ -344,8 +331,6 @@ Specifies the output precision. The output precision defines how closely the out
 <td>This value is not used by the font mapper, but it is returned when raster fonts are enumerated.</td>
 </tr>
 </table>
- 
-
 
 ### -field lfClipPrecision
 
@@ -371,8 +356,6 @@ Specifies the clipping precision. The clipping precision defines how to clip cha
 <td>Not used by the font mapper, but is returned when raster, vector, or TrueType fonts are enumerated.</td>
 </tr>
 </table>
- 
-
 
 ### -field lfQuality
 
@@ -411,8 +394,6 @@ Specifies the output quality. The output quality defines how carefully the GDI m
 <td>For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower. Bold, italic, underline, and strikeout fonts are synthesized if necessary.</td>
 </tr>
 </table>
- 
-
 
 ### -field lfPitchAndFamily
 
@@ -472,8 +453,6 @@ Font families describe the look of a font in a general way. They are intended fo
 <td>Fonts with variable stroke width (proportional) and without serifs, for example, Sans Serif.</td>
 </tr>
 </table>
- 
-
 
 ### -field lfFaceName
 
@@ -481,10 +460,7 @@ Type: <b>TCHAR[LF_FACESIZE]</b>
 
 Specifies a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
 
-
 ## -remarks
-
-
 
 The following situations do not support ClearType antialiasing:
 
@@ -506,15 +482,9 @@ This structure first appeared in Shtypes.idl and Shtypes.h in Windows Vista, fo
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-getfont">IVisualProperties::GetFont</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setfont">IVisualProperties::SetFont</a>
- 
-
- 
 

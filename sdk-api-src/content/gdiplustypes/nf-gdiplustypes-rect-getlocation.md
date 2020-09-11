@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getlocation.htm
 ms.date: 12/05/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],Rect class, Rect class [GDI+],GetLocation method, Rect.GetLocation, Rect::GetLocation, _gdiplus_CLASS_Rect_GetLocation_point_, gdiplus._gdiplus_CLASS_Rect_GetLocation_point_
-f1_keywords:
-- gdiplustypes/Rect.GetLocation
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Rect.GetLocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Rect::GetLocation
+ - gdiplustypes/Rect::GetLocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Rect.GetLocation
 ---
 
 # Rect::GetLocation
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Rect::GetLocation</b> method gets the coordinates of the upper-left corner of the rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param point [out]
 
 Type: <b>Point*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that receives the coordinates of the upper-left corner. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that receives the coordinates of the upper-left corner.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
@@ -104,7 +96,4 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustype
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
 

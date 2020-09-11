@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: ef02221b-df45-4fc3-8d9d-f119fa802d34
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutOpen, mmeapi/waveOutOpen, multimedia.waveoutopen, waveOutOpen, waveOutOpen function [Windows Multimedia]
-f1_keywords:
-- mmeapi/waveOutOpen
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- waveOutOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - waveOutOpen
+ - mmeapi/waveOutOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - waveOutOpen
 ---
 
 # waveOutOpen function
@@ -51,23 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>waveOutOpen</b> function opens the given waveform-audio output device for playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phwo
 
 Pointer to a buffer that receives a handle identifying the open waveform-audio output device. Use the handle to identify the device when calling other waveform-audio output functions. This parameter might be <b>NULL</b> if the <b>WAVE_FORMAT_QUERY</b> flag is specified for <i>fdwOpen</i>.
-          
-
 
 ### -param uDeviceID
 
@@ -85,14 +76,10 @@ Identifier of the waveform-audio output device to open. It can be either a devic
 <td>The function selects a waveform-audio output device capable of playing the given format.</td>
 </tr>
 </table>
- 
-
 
 ### -param pwfx
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the format of the waveform-audio data to be sent to the device. You can free this structure immediately after passing it to <b>waveOutOpen</b>.
-          
-
 
 ### -param dwCallback
 
@@ -107,12 +94,9 @@ Specifies the callback mechanism. The value must be one of the following:
 </ul>
 The <i>fdwOpen</i> parameter specifies how the <i>dwCallback</i> parameter is interpreted. For more information, see Remarks.
 
-
 ### -param dwInstance
 
 User-instance data passed to the callback mechanism. This parameter is not used with the window callback mechanism.
-          
-
 
 ### -param fdwOpen
 
@@ -173,12 +157,8 @@ This flag applies only when <i>uDeviceID</i> equals <b>WAVE_MAPPER</b>.
 <td>If this flag is specified, the <i>uDeviceID</i> parameter specifies a waveform-audio device to be mapped to by the wave mapper.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>MMSYSERR_NOERROR</b> if successful or an error otherwise. Possible error values include the following.
           
@@ -255,14 +235,8 @@ The device is synchronous but <a href="https://docs.microsoft.com/previous-versi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <a href="https://docs.microsoft.com/previous-versions/dd743860(v=vs.85)">waveOutGetNumDevs</a> function to determine the number of waveform-audio output devices present in the system. If the value specified by the <i>uDeviceID</i> parameter is a device identifier, it can vary from zero to one less than the number of devices present. The <b>WAVE_MAPPER</b> constant can also be used as a device identifier.
       
@@ -307,13 +281,7 @@ If <i>fdwOpen</i> contains the <b>CALLBACK_EVENT</b> flag, <i>dwCallback</i> is 
 
 If <i>fdwOpen</i> contains the <b>CALLBACK_NULL</b> flag, <i>dwCallback</i> must be <b>NULL</b>. In that case, no callback mechanism is used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/using-a-callback-function-to-process-driver-messages">Using a Callback Function to Process Driver Messages</a>
 
@@ -332,7 +300,4 @@ If <i>fdwOpen</i> contains the <b>CALLBACK_NULL</b> flag, <i>dwCallback</i> must
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
 

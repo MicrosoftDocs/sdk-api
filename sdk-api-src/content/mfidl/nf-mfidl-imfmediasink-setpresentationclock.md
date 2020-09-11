@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 844fc3b3-b56e-4048-b589-e24457bcc419
 ms.date: 12/05/2018
 ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink interface [Media Foundation],SetPresentationClock method, IMFMediaSink.SetPresentationClock, IMFMediaSink::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFMediaSink interface, mf.imfmediasink_setpresentationclock, mfidl/IMFMediaSink::SetPresentationClock
-f1_keywords:
-- mfidl/IMFMediaSink.SetPresentationClock
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSink.SetPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSink::SetPresentationClock
+ - mfidl/IMFMediaSink::SetPresentationClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSink.SetPresentationClock
 ---
 
 # IMFMediaSink::SetPresentationClock
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the presentation clock on the media sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPresentationClock [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface of the presentation clock, or <b>NULL</b>. If the value is <b>NULL</b>, the media sink stops listening to the presentaton clock that was previously set, if any.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,14 +102,8 @@ The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 During streaming, the media sink attempts to match rates with the presentation clock. Ideally, the media sink presents samples at the correct time according to the presentation clock and does not fall behind. Rateless media sinks are an exception to this rule, as they consume samples as quickly as possible and ignore the clock. If the sink is rateless, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_RATELESS flag.
 
@@ -129,13 +113,7 @@ If <i>pPresentationClock</i> is non-<b>NULL</b>, the media sink must register fo
 
 All media sinks must support this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
@@ -146,7 +124,4 @@ All media sinks must support this method.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
 

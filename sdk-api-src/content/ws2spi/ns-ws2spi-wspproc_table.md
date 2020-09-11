@@ -31,12 +31,21 @@ api_location:
 api_name:
  - _WSPPROC_TABLE
  - WSPPROC_TABLE
+f1_keywords:
+ - _WSPPROC_TABLE
+ - ws2spi/_WSPPROC_TABLE
+ - LPWSPPROC_TABLE
+ - ws2spi/LPWSPPROC_TABLE
+ - WSPPROC_TABLE
+ - ws2spi/WSPPROC_TABLE
 ---
 
 ## -description
+
 The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions.
 
 ## -struct-fields
+
 ```C++
 } WSPPROC_TABLE, FAR * LPWSPPROC_TABLE;
 ```
@@ -58,7 +67,6 @@ A pointer to the **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** function.
 A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> function.
 
 ### -field lpWSPCancelBlockingCall
-
 
 A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">LPWSPCancelBlockingCall</a></b> function.
 
@@ -107,13 +115,11 @@ A pointer to the [**LPWSPGetOverlappedResult**](/windows/win32/api/ws2spi/nc-ws2
 
 A pointer to the    function.
 
-
 ### -field lpWSPGetSockName
 
 A pointer to the [**WSPGetSockName**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockname) function.
 
 ### -field lpWSPGetSockOpt
-
 
 A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> function.
 
@@ -208,9 +214,11 @@ A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSP
 A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a> function.
 
 ## -remarks
+
 The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions that are returned by the <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a> function.
 
 ## -see-also
+
 **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
 
 

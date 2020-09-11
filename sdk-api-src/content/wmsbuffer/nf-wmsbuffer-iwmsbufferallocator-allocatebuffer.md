@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
 ms.date: 12/05/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
-f1_keywords:
-- wmsbuffer/IWMSBufferAllocator.AllocateBuffer
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmsbuffer.h
-api_name:
-- IWMSBufferAllocator.AllocateBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSBufferAllocator::AllocateBuffer
+ - wmsbuffer/IWMSBufferAllocator::AllocateBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmsbuffer.h
+api_name:
+ - IWMSBufferAllocator.AllocateBuffer
 ---
 
 # IWMSBufferAllocator::AllocateBuffer
@@ -49,44 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AllocateBuffer</b> method initializes a buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwMaxBufferSize [in]
 
 <b>DWORD</b> containing the maximum size of the buffer in bytes.
 
-
 ### -param ppBuffer [out]
 
 Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-iwmsbufferallocator">IWMSBufferAllocator Interface</a>
- 
-
- 
 

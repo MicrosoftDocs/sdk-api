@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvlink.htm
 ms.date: 12/05/2018
 ms.keywords: '*PNMLVLINK, LPNMLVLINK, LPNMLVLINK structure pointer [Windows Controls], NMLVLINK, NMLVLINK structure [Windows Controls], commctrl/LPNMLVLINK, commctrl/NMLVLINK, controls.NMLVLINK, controls.shell_NMLVLINK, shell_NMLVLINK, shell_NMLVLINK_cpp'
-f1_keywords:
-- commctrl/NMLVLINK
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMLVLINK
 targetos: Windows
 req.typenames: NMLVLINK, *PNMLVLINK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMLVLINK
+ - commctrl/tagNMLVLINK
+ - PNMLVLINK
+ - commctrl/PNMLVLINK
+ - NMLVLINK
+ - commctrl/NMLVLINK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMLVLINK
 ---
 
 # NMLVLINK structure
@@ -49,15 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-linkclick">LVN_LINKCLICK</a> notification code.
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
@@ -66,7 +65,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-ric
 
 <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains basic information about the notification code.
 
-
 ### -field link
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
@@ -74,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-com
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a> structure that contains information about the link that was clicked.
 
-
 ### -field iItem
 
 Type: <b>int</b>
 
 Index of the item that contains the link.
-
 
 ### -field iSubItem
 

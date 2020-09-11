@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: c95585b3-bf40-4aee-ae47-ca8f43daf0e6
 ms.date: 12/05/2018
 ms.keywords: DsBrowseForContainer, DsBrowseForContainer function [Active Directory], DsBrowseForContainerA, DsBrowseForContainerW, _glines_dsbrowseforcontainer, ad.dsbrowseforcontainer, dsclient/DsBrowseForContainer, dsclient/DsBrowseForContainerA, dsclient/DsBrowseForContainerW
-f1_keywords:
-- dsclient/DsBrowseForContainer
-dev_langs:
-- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Dsuiext.lib
 req.dll: Dsuiext.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dsuiext.dll
-api_name:
-- DsBrowseForContainer
-- DsBrowseForContainerA
-- DsBrowseForContainerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsBrowseForContainerW
+ - dsclient/DsBrowseForContainerW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dsuiext.dll
+api_name:
+ - DsBrowseForContainer
+ - DsBrowseForContainerA
+ - DsBrowseForContainerW
 ---
 
 # DsBrowseForContainerW function
@@ -51,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsBrowseForContainer</b> function displays a dialog box used to browse for container objects in Active Directory Domain Services.
 
-
 ## -parameters
-
-
-
 
 ### -param pInfo [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsbrowseinfoa">DSBROWSEINFO</a> structure that contains data about  initializing the container browser dialog and receives data about the selected object.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
-
-
-
 ## -remarks
-
-
 
 The dialog box displays a container picker which is either populated with containers from a particular root or which uses trusted domains. If it uses trusted domains, it can use either the domain that the user is currently logged on to, or it can use an alternate domain specified by the application using the <b>pszRoot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsbrowseinfoa">DSBROWSEINFO</a> structure. If the user clicks the <b>OK</b> pushbutton or double-clicks an object, <b>IDOK</b> is returned and <b>pszPath</b> contains the ADsPath of the selected object. If the user cancels the dialog box, <b>DsBrowseForContainer</b> returns <b>IDCANCEL</b>.
 
@@ -133,15 +121,9 @@ void PickContainer(void)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsbrowseinfoa">DSBROWSEINFO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4c437f26-6fe1-477d-9955-bc900215aa59
 ms.date: 12/05/2018
 ms.keywords: 4c437f26-6fe1-477d-9955-bc900215aa59, MFInitVideoFormat_RGB, MFInitVideoFormat_RGB function [Media Foundation], mf.mfinitvideoformat_rgb, mfapi/MFInitVideoFormat_RGB
-f1_keywords:
-- mfapi/MFInitVideoFormat_RGB
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFInitVideoFormat_RGB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFInitVideoFormat_RGB
+ - mfapi/MFInitVideoFormat_RGB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFInitVideoFormat_RGB
 ---
 
 # MFInitVideoFormat_RGB function
@@ -49,55 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Applications should avoid using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure, and use media type attributes instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>.]
 
 Initializes an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure for an uncompressed RGB video format.
 
-
 ## -parameters
-
-
-
 
 ### -param pVideoFormat [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure. The functions fills in the structure members with the format information.
-          
-
 
 ### -param dwWidth [in]
 
 The width of the video, in pixels.
-          
-
 
 ### -param dwHeight [in]
 
 The height of the video, in pixels.
-          
-
 
 ### -param D3Dfmt [in]
 
 A 
             
               <b>D3DFORMAT</b> value that specifies the RGB format.
-          
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function fills in some reasonable default values for the specified RGB format.
       
@@ -111,12 +92,7 @@ In general, you should avoid calling this function. If you know all of the forma
 <div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-headers-and-libraries">Library Changes in Windows 7</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
@@ -131,7 +107,4 @@ In general, you should avoid calling this function. If you know all of the forma
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
- 
-
- 
 

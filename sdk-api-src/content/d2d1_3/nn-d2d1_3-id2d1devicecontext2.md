@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 25c11cfc-75af-20a1-8f54-6b370942b841
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext2, ID2D1DeviceContext2 interface [Direct2D], ID2D1DeviceContext2 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext2, direct2d.id2d1devicecontext2
-f1_keywords:
-- d2d1_3/ID2D1DeviceContext2
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.lib
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext2
+ - d2d1_3/ID2D1DeviceContext2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.lib
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext2
 ---
 
 # ID2D1DeviceContext2 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface performs all the same functions as the ID2D1DeviceContext1 interface, plus it enables functionality such as ink rendering, gradient mesh rendering, and improved image loading.
-
 
 ## -inheritance
 
@@ -165,16 +164,9 @@ Returns the world bounds of a given gradient mesh.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
-f1_keywords:
-- storageprovider/IStorageProviderPropertyHandler
-dev_langs:
-- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- storageprovider.h
-api_name:
-- IStorageProviderPropertyHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStorageProviderPropertyHandler
+ - storageprovider/IStorageProviderPropertyHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - storageprovider.h
+api_name:
+ - IStorageProviderPropertyHandler
 ---
 
 # IStorageProviderPropertyHandler interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a collection of properties associated with a file or folder.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Saves properties associated with a file or folder.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Caution</b>  <p class="note">You should only implement this interface if you have a specific need to do so.  
 
@@ -107,5 +103,4 @@ This interface is responsible for keeping track of the following properties:
 <li>StorageProviderFileChecksum</li>
 <li>StorageProviderFileVersionWaterline</li>
 </ul>
-
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 95beb13d-db84-4713-9c27-27b37eac7f2f
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_TYPE, MFP_EVENT_TYPE enumeration [Media Foundation], MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, MFP_EVENT_TYPE_ERROR, MFP_EVENT_TYPE_FRAME_STEP, MFP_EVENT_TYPE_MEDIAITEM_CLEARED, MFP_EVENT_TYPE_MEDIAITEM_CREATED, MFP_EVENT_TYPE_MEDIAITEM_SET, MFP_EVENT_TYPE_MF, MFP_EVENT_TYPE_PAUSE, MFP_EVENT_TYPE_PLAY, MFP_EVENT_TYPE_PLAYBACK_ENDED, MFP_EVENT_TYPE_POSITION_SET, MFP_EVENT_TYPE_RATE_SET, MFP_EVENT_TYPE_STOP, mf.mfp_event_type, mfplay/MFP_EVENT_TYPE, mfplay/MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL, mfplay/MFP_EVENT_TYPE_ERROR, mfplay/MFP_EVENT_TYPE_FRAME_STEP, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CLEARED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_CREATED, mfplay/MFP_EVENT_TYPE_MEDIAITEM_SET, mfplay/MFP_EVENT_TYPE_MF, mfplay/MFP_EVENT_TYPE_PAUSE, mfplay/MFP_EVENT_TYPE_PLAY, mfplay/MFP_EVENT_TYPE_PLAYBACK_ENDED, mfplay/MFP_EVENT_TYPE_POSITION_SET, mfplay/MFP_EVENT_TYPE_RATE_SET, mfplay/MFP_EVENT_TYPE_STOP
-f1_keywords:
-- mfplay/MFP_EVENT_TYPE
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfplay.h
-api_name:
-- MFP_EVENT_TYPE
 targetos: Windows
 req.typenames: MFP_EVENT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFP_EVENT_TYPE
+ - mfplay/MFP_EVENT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfplay.h
+api_name:
+ - MFP_EVENT_TYPE
 ---
 
 # MFP_EVENT_TYPE enumeration
@@ -49,88 +50,67 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Defines event types for the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MFP_EVENT_TYPE_PLAY
 
 Playback has started. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-play">IMFPMediaPlayer::Play</a> method completes.
 
-
 ### -field MFP_EVENT_TYPE_PAUSE
 
 Playback has paused. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">IMFPMediaPlayer::Pause</a> method completes.
-
 
 ### -field MFP_EVENT_TYPE_STOP
 
 Playback has stopped. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-stop">IMFPMediaPlayer::Stop</a> method completes.
 
-
 ### -field MFP_EVENT_TYPE_POSITION_SET
 
 The MFPlay player object has seeked to a new playback position. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">IMFPMediaPlayer::SetPosition</a> method completes.
-
 
 ### -field MFP_EVENT_TYPE_RATE_SET
 
 The playback rate has changed. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setrate">IMFPMediaPlayer::SetRate</a> method completes.
 
-
 ### -field MFP_EVENT_TYPE_MEDIAITEM_CREATED
 
-A new media item was created. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">CreateMediaItemFromObject</a> method completes. 
-
+A new media item was created. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">CreateMediaItemFromObject</a> method completes.
 
 ### -field MFP_EVENT_TYPE_MEDIAITEM_SET
 
 A media item is ready for playback. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem">IMFPMediaPlayer::SetMediaItem</a> method completes.
 
-
 ### -field MFP_EVENT_TYPE_FRAME_STEP
 
 A frame-step operation has completed. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-framestep">IMFPMediaPlayer::FrameStep</a> method completes.
-
 
 ### -field MFP_EVENT_TYPE_MEDIAITEM_CLEARED
 
 The current media item was cleared. This event is sent when the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-clearmediaitem">IMFPMediaPlayer::ClearMediaItem</a> method completes.
 
-
 ### -field MFP_EVENT_TYPE_MF
 
 A pipeline object sent an event. The player object forwards certain pipeline events to the application. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ns-mfplay-mfp_mf_event">MFP_MF_EVENT</a>.
 
-
 ### -field MFP_EVENT_TYPE_ERROR
 
-A playback error has occurred. 
-
+A playback error has occurred.
 
 ### -field MFP_EVENT_TYPE_PLAYBACK_ENDED
 
 Playback has ended. The player object sends this event when playback reaches the end of the media file.
 
-
 ### -field MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL
 
 The media source requires authentication before it can play the file.
 
-
 ## -remarks
-
-
 
 For each event type, the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback receives a pointer to a data structure. The first part of the data structure is always an <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/ns-mfplay-mfp_event_header">MFP_EVENT_HEADER</a> structure. The following table lists the data structure for each event type.
 
@@ -316,22 +296,12 @@ In your implementation of <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
 

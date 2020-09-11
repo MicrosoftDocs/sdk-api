@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 3EB1BA51-61CB-4389-84A9-77DAC9815AC7
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device5 interface [Direct3D 11],OpenSharedFence method, ID3D11Device5.OpenSharedFence, ID3D11Device5::OpenSharedFence, OpenSharedFence, OpenSharedFence method [Direct3D 11], OpenSharedFence method [Direct3D 11],ID3D11Device5 interface, d3d11_4/ID3D11Device5::OpenSharedFence, direct3d11.id3d11device5_opensharedfence
-f1_keywords:
-- d3d11_4/ID3D11Device5.OpenSharedFence
-dev_langs:
-- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,29 @@ req.type-library:
 req.lib: D3d11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.lib
-- d3d11.dll
-api_name:
-- ID3D11Device5.OpenSharedFence
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device5::OpenSharedFence
+ - d3d11_4/ID3D11Device5::OpenSharedFence
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.lib
+ - d3d11.dll
+api_name:
+ - ID3D11Device5.OpenSharedFence
 ---
 
 # ID3D11Device5::OpenSharedFence
+
 
 ## -description
 
@@ -82,3 +84,4 @@ This method returns one of the <a href="/windows/win32/direct3d11/d3d11-graphics
 ## -see-also
 
 [ID3D11Device5](/windows/win32/api/d3d11_4/nn-d3d11_4-id3d11device5), [Multi-adapter systems](/windows/win32/direct3d12/multi-engine)
+

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: E391B568-5E43-42C7-B186-8CA524331FFE
 ms.date: 12/05/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater
-f1_keywords:
-- versionhelpers/IsWindows8Point1OrGreater
-dev_langs:
-- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- ntdll.dll
-api_name:
-- IsWindows8Point1OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsWindows8Point1OrGreater
+ - versionhelpers/IsWindows8Point1OrGreater
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - ntdll.dll
+api_name:
+ - IsWindows8Point1OrGreater
 ---
 
 # IsWindows8Point1OrGreater function
@@ -50,29 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates if the current OS version matches, or is greater than, the Windows 8.1 version.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 True if the current OS version matches, or is greater than, the Windows 8.1 version; otherwise, false.
 
-
-
-
 ## -remarks
-
-
 
 Applications not manifested for Windows 8.1 or Windows 10 return false, even if the current operating system version is Windows 8.1 or Windows 10. To manifest your applications for Windows 8.1 or Windows 10, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
@@ -99,14 +86,7 @@ For example, if your application requires Windows 8.1 or later, use the followi
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows7orgreater">IsWindows7OrGreater</a>
 
@@ -149,7 +129,4 @@ For example, if your application requires Windows 8.1 or later, use the followi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
- 
-
- 
 

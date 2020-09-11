@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: c9ab5a24-b0b3-41cc-a4bf-3619f156008c
 ms.date: 12/05/2018
 ms.keywords: CreatePartitionEx, CreatePartitionEx method [VDS], CreatePartitionEx method [VDS],IVdsCreatePartitionEx interface, IVdsCreatePartitionEx interface [VDS],CreatePartitionEx method, IVdsCreatePartitionEx.CreatePartitionEx, IVdsCreatePartitionEx::CreatePartitionEx, base.ivdscreatepartitionex_createpartitionex, vds/IVdsCreatePartitionEx::CreatePartitionEx
-f1_keywords:
-- vds/IVdsCreatePartitionEx.CreatePartitionEx
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsCreatePartitionEx.CreatePartitionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsCreatePartitionEx::CreatePartitionEx
+ - vds/IVdsCreatePartitionEx::CreatePartitionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsCreatePartitionEx.CreatePartitionEx
 ---
 
 # IVdsCreatePartitionEx::CreatePartitionEx
 
 
 ## -description
-
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
@@ -60,11 +60,7 @@ This method supersedes the
     <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a> 
     method.
 
-
 ## -parameters
-
-
-
 
 ### -param ullOffset [in]
 
@@ -75,11 +71,9 @@ The partition offset, in bytes. If the offset is not aligned and the <i>ulAlign<
 When the caller specifies both the <i>ullOffset</i> and 
       <i>ulAlign</i> parameters, the offset must be within the first cylinder.
 
-
 ### -param ullSize [in]
 
 The size, in bytes, of the new partition.
-
 
 ### -param ulAlign [in]
 
@@ -92,13 +86,11 @@ If the beginning of a disk has sufficient space to accommodate the partition
       size, and the <i>ulAlign</i> parameter is specified but the 
       <i>ullOffset</i> parameter is not, the call to <b>CreatePartitionEx</b> fails.
 
-
 ### -param para [in]
 
 The pointer to parameters defined by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a> 
       structure.
-
 
 ### -param ppAsync [out]
 
@@ -106,10 +98,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
       VDS initializes on return. Callers must release the interface. Use this pointer to cancel, wait for, or query 
       the status of the operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -208,14 +197,8 @@ The partition was created successfully, but VDS failed to update the boot option
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method operates on basic disks having either a GPT or MBR 
     partition scheme.
@@ -234,12 +217,7 @@ If a dynamic disk is read-only and offline, it must be made read/write and broug
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">IVdsDiskOnline::Online</a> method.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a>
 
@@ -250,7 +228,4 @@ If a dynamic disk is read-only and offline, it must be made read/write and broug
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdscreatepartitionex">IVdsCreatePartitionEx</a>
- 
-
- 
 

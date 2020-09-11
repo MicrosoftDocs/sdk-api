@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\huesaturationlightnessparams.htm
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightnessParams, HueSaturationLightnessParams structure [GDI+], _gdiplus_STRUC_HueSaturationLightnessParams, gdiplus._gdiplus_STRUC_HueSaturationLightnessParams, gdipluseffects/HueSaturationLightnessParams
-f1_keywords:
-- gdipluseffects/HueSaturationLightnessParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- HueSaturationLightnessParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - HueSaturationLightnessParams
+ - gdipluseffects/HueSaturationLightnessParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - HueSaturationLightnessParams
 ---
 
 # HueSaturationLightnessParams structure
 
 
 ## -description
-
 
 The <b>HueSaturationLightnessParams</b> structure contains members that specify hue, saturation and lightness adjustments to a bitmap.
 
@@ -62,22 +62,17 @@ You can adjust the hue, saturation, and lightness of a bitmap by following these
 
 ## -struct-fields
 
-
-
-
 ### -field hueLevel
 
 Type: <b>INT</b>
 
 Integer in the range -180 through 180 that specifies the change in hue. A value of 0 specifies no change. Positive values specify counterclockwise rotation on the color wheel. Negative values specify clockwise rotation on the color wheel.
 
-
 ### -field saturationLevel
 
 Type: <b>INT</b>
 
 Integer in the range -100 through 100 that specifies the change in saturation. A value of 0 specifies no change. Positive values specify increased saturation and negative values specify decreased saturation.
-
 
 ### -field lightnessLevel
 

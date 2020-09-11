@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 60bbb555-7d01-49cb-b7b3-9dc905066f94
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],Advise method, IOleAdviseHolder.Advise, IOleAdviseHolder::Advise, _ole_ioleadviseholder_advise, com.ioleadviseholder_advise, oleidl/IOleAdviseHolder::Advise
-f1_keywords:
-- oleidl/IOleAdviseHolder.Advise
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleAdviseHolder.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleAdviseHolder::Advise
+ - oleidl/IOleAdviseHolder::Advise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleAdviseHolder.Advise
 ---
 
 # IOleAdviseHolder::Advise
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes an advisory connection between an OLE object and the calling object's advise sink. Through that sink, the calling object can receive notification when the OLE object is renamed, saved, or closed.
 
-
 ## -parameters
-
-
-
 
 ### -param pAdvise [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that should be informed of changes.
 
-
 ### -param pdwConnection [out]
 
 A pointer to a token that can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">IOleAdviseHolder::Unadvise</a> method to delete the advisory connection. The calling object is responsible for calling both <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on this pointer.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -91,14 +83,8 @@ The supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-o
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Containers, object handlers, and link objects all create advise sinks to receive notification of changes in compound-document objects of interest, such as embedded or linked objects. OLE objects of interest to these objects must implement the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface, which includes several advisory methods, including <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>. A call to this method must set up an advisory connection with any advise sink that calls it, and maintain each connection until it is closed. It must be able to handle more than one advisory connection at a time.
 
@@ -106,13 +92,7 @@ Containers, object handlers, and link objects all create advise sinks to receive
 
 If the attempt to establish an advisory connection is successful, the object receiving the call returns a nonzero value through <i>pdwConnection</i>. If the attempt fails, the object returns a zero. To delete an advisory connection, the object with the advise sink passes this nonzero token back to the object by calling <b>IOleAdviseHolder::Advise</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
 
@@ -127,7 +107,4 @@ If the attempt to establish an advisory connection is successful, the object rec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
- 
-
- 
 

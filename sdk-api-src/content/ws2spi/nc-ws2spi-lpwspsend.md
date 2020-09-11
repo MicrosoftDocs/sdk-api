@@ -27,48 +27,62 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPSEND
+ - LPWSPSEND
+f1_keywords:
+ - LPWSPSEND
+ - ws2spi/LPWSPSEND
 ---
 
 ## -description
+
 The **LPWSPSend** function sends data on a connected socket.
 
 ## -parameters
 
 ### -param s [in]
+
 A descriptor identifying a connected socket.
 
 ### -param lpBuffers [in]
+
 A pointer to an array of <a href="/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the **LPWSPSend** function is called, the system owns these buffers and the application may not access them. Data buffers referenced in each WSABUF structure are owned by the system and your application may not access them for the lifetime of the call.
 
 ### -param dwBufferCount [in]
+
 The number of <a href="/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 ### -param lpNumberOfBytesSent [out]
+
 A pointer to the number of bytes sent by this call.
 
 ### -param dwFlags [in]
+
 A set of flags that specifies the way in which the call is made.
 
 ### -param lpOverlapped [in]
+
 A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure (ignored for nonoverlapped sockets).
 
 ### -param lpCompletionRoutine [in]
+
 A pointer to the completion routine called when the send operation has been completed (ignored for nonoverlapped sockets).
 
 ### -param lpThreadId [in]
+
 A pointer to a <b><a href="/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer to same) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [out]
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs and the send operation has completed immediately, **LPWSPSend** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
 <table>
@@ -250,6 +264,7 @@ Overlapped operation has been canceled due to the closure of the socket, or the 
 </table>
 
 ## -remarks
+
 The **LPWSPSend** function is used to write outgoing data from one or more buffers on a connection-oriented socket specified by <i>s</i>. It can also be used, however, on connectionless sockets that have a stipulated default peer address established through the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> function.
 
 For overlapped sockets (created using <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a> with flag WSA_FLAG_OVERLAPPED) this will occur using overlapped I/O, unless both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are null in which case the socket is treated as a nonoverlapped socket. A completion indication will occur (invocation of the completion routine or setting of an event object) when the supplied buffer(s) have been consumed by the transport. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
@@ -315,7 +330,6 @@ The completion routines can be called in any order, though not necessarily in th
 
 ## -see-also
 
-
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a>
    
 
@@ -323,3 +337,4 @@ The completion routines can be called in any order, though not necessarily in th
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
+

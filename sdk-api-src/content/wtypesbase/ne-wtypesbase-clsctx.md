@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e
 ms.date: 12/05/2018
 ms.keywords: CLSCTX, CLSCTX enumeration [COM], CLSCTX_ACTIVATE_32_BIT_SERVER, CLSCTX_ACTIVATE_64_BIT_SERVER, CLSCTX_ACTIVATE_AAA_AS_IU, CLSCTX_APPCONTAINER, CLSCTX_DISABLE_AAA, CLSCTX_ENABLE_AAA, CLSCTX_ENABLE_CLOAKING, CLSCTX_ENABLE_CODE_DOWNLOAD, CLSCTX_FROM_DEFAULT_CONTEXT, CLSCTX_INPROC_HANDLER, CLSCTX_INPROC_HANDLER16, CLSCTX_INPROC_SERVER, CLSCTX_INPROC_SERVER16, CLSCTX_LOCAL_SERVER, CLSCTX_NO_CODE_DOWNLOAD, CLSCTX_NO_CUSTOM_MARSHAL, CLSCTX_NO_FAILURE_LOG, CLSCTX_PS_DLL, CLSCTX_REMOTE_SERVER, CLSCTX_RESERVED1, CLSCTX_RESERVED2, CLSCTX_RESERVED3, CLSCTX_RESERVED4, CLSCTX_RESERVED5, _com_CLSCTX, com.clsctx, wtypesbase/CLSCTX, wtypesbase/CLSCTX_ACTIVATE_32_BIT_SERVER, wtypesbase/CLSCTX_ACTIVATE_64_BIT_SERVER, wtypesbase/CLSCTX_ACTIVATE_AAA_AS_IU, wtypesbase/CLSCTX_APPCONTAINER, wtypesbase/CLSCTX_DISABLE_AAA, wtypesbase/CLSCTX_ENABLE_AAA, wtypesbase/CLSCTX_ENABLE_CLOAKING, wtypesbase/CLSCTX_ENABLE_CODE_DOWNLOAD, wtypesbase/CLSCTX_FROM_DEFAULT_CONTEXT, wtypesbase/CLSCTX_INPROC_HANDLER, wtypesbase/CLSCTX_INPROC_HANDLER16, wtypesbase/CLSCTX_INPROC_SERVER, wtypesbase/CLSCTX_INPROC_SERVER16, wtypesbase/CLSCTX_LOCAL_SERVER, wtypesbase/CLSCTX_NO_CODE_DOWNLOAD, wtypesbase/CLSCTX_NO_CUSTOM_MARSHAL, wtypesbase/CLSCTX_NO_FAILURE_LOG, wtypesbase/CLSCTX_PS_DLL, wtypesbase/CLSCTX_REMOTE_SERVER, wtypesbase/CLSCTX_RESERVED1, wtypesbase/CLSCTX_RESERVED2, wtypesbase/CLSCTX_RESERVED3, wtypesbase/CLSCTX_RESERVED4, wtypesbase/CLSCTX_RESERVED5
-f1_keywords:
-- wtypesbase/CLSCTX
-dev_langs:
-- c++
 req.header: wtypesbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wtypesbase.h
-api_name:
-- CLSCTX
 targetos: Windows
 req.typenames: CLSCTX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCLSCTX
+ - wtypesbase/tagCLSCTX
+ - CLSCTX
+ - wtypesbase/CLSCTX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wtypesbase.h
+api_name:
+ - CLSCTX
 ---
 
 # CLSCTX enumeration
@@ -49,84 +52,65 @@ ms.custom: 19H1
 
 ## -description
 
-
 Values that are used in activation calls to indicate the execution contexts in which an object is to be run. These values are also used in calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> to indicate the set of execution contexts in which a class object is to be made available for requests to construct instances.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CLSCTX_INPROC_SERVER
 
 The code that creates and manages objects of this class is a DLL that runs in the same process as the caller of the function specifying the class context.
 
-
 ### -field CLSCTX_INPROC_HANDLER
 
 The code that manages objects of this class is an in-process handler. This is a DLL that runs in the client process and implements client-side structures of this class when instances of the class are accessed remotely.
-
 
 ### -field CLSCTX_LOCAL_SERVER
 
 The EXE code that creates and manages objects of this class runs on same machine but is loaded in a separate process space.
 
-
 ### -field CLSCTX_INPROC_SERVER16
 
 Obsolete.
-
 
 ### -field CLSCTX_REMOTE_SERVER
 
 A remote context. The <a href="https://docs.microsoft.com/windows/desktop/com/localserver32">LocalServer32</a> or <a href="https://docs.microsoft.com/windows/desktop/com/localservice">LocalService</a> code that creates and manages objects of this class is run on a different computer.
 
-
 ### -field CLSCTX_INPROC_HANDLER16
 
 Obsolete.
-
 
 ### -field CLSCTX_RESERVED1
 
 Reserved.
 
-
 ### -field CLSCTX_RESERVED2
 
 Reserved.
-
 
 ### -field CLSCTX_RESERVED3
 
 Reserved.
 
-
 ### -field CLSCTX_RESERVED4
 
 Reserved.
-
 
 ### -field CLSCTX_NO_CODE_DOWNLOAD
 
 Disaables the downloading of code from the directory service or the Internet. This flag cannot be set at the same time as CLSCTX_ENABLE_CODE_DOWNLOAD.
 
-
 ### -field CLSCTX_RESERVED5
 
 Reserved.
-
 
 ### -field CLSCTX_NO_CUSTOM_MARSHAL
 
 Specify if you want the activation to fail if it uses custom marshalling.
 
-
 ### -field CLSCTX_ENABLE_CODE_DOWNLOAD
 
 Enables the downloading of code from the directory service or the Internet. This flag cannot be set at the same time as CLSCTX_NO_CODE_DOWNLOAD.
-
 
 ### -field CLSCTX_NO_FAILURE_LOG
 
@@ -147,32 +131,25 @@ Disables activate-as-activator (AAA) activations for this activation only. This 
 
 <b>Windows 2000:  </b>This flag is not supported.
 
-
 ### -field CLSCTX_ENABLE_AAA
 
 Enables activate-as-activator (AAA) activations for this activation only. This flag overrides the setting of the EOAC_DISABLE_AAA flag from the EOLE_AUTHENTICATION_CAPABILITIES enumeration. This flag cannot be set at the same time as CLSCTX_DISABLE_AAA. Any activation where a server process would be launched under the caller's identity is known as an activate-as-activator (AAA) activation. Enabling this flag allows an application to transfer its identity to an activated component. 
 
 <b>Windows 2000:  </b>This flag is not supported.
 
-
 ### -field CLSCTX_FROM_DEFAULT_CONTEXT
 
 Begin this activation from the default context of the current apartment.
 
-
 ### -field CLSCTX_ACTIVATE_X86_SERVER
-
 
 ### -field CLSCTX_ACTIVATE_32_BIT_SERVER
 
 Activate or connect to a 32-bit version of the server; fail if one is not registered.
 
-
 ### -field CLSCTX_ACTIVATE_64_BIT_SERVER
 
 Activate or connect to a 64 bit version of the server; fail if one is not registered.
-
-
 
 ### -field CLSCTX_ENABLE_CLOAKING
 
@@ -181,7 +158,6 @@ When this flag is specified, COM uses the impersonation token of the thread, if 
 
 <b>Windows Vista or later:  </b>This flag is supported.
 
-
 ### -field CLSCTX_APPCONTAINER
 
 Indicates activation is for an app container.
@@ -189,8 +165,6 @@ Indicates activation is for an app container.
 
 <div class="alert"><b>Note</b>  This flag is reserved for internal use and is not intended to be used directly from your code.</div>
 <div> </div>
-
-
 
 ### -field CLSCTX_ACTIVATE_AAA_AS_IU
 
@@ -208,12 +182,9 @@ This flag has no effect for in-process servers.
 
 Off-machine activations fail when they use this flag.
 
-
 ### -field CLSCTX_RESERVED6
 
-
 ### -field CLSCTX_ACTIVATE_ARM32_SERVER
-
 
 ### -field CLSCTX_PS_DLL
 
@@ -223,11 +194,7 @@ Used for loading Proxy/Stub DLLs.
 <div class="alert"><b>Note</b>  This flag is reserved for internal use and is not intended to be used directly from your code.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Values from the <b>CLSCTX</b> enumeration are used in activation calls (<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>, and so on) to indicate the preferred execution contextsâ€”in-process, local, or remoteâ€”in which an object is to be run. They are also used in calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> to indicate the set of execution contexts in which a class object is to be made available for requests to construct instances (<b>IClassFactory::CreateInstance</b>).
 
@@ -403,12 +370,7 @@ The flags CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER flow a
 <b>PreferredServerBitness</b>
 <b>PreferredServerBitness</b>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/objidl/ns-objidl-bind_opts2~r1">BIND_OPTS2</a>
 
@@ -455,7 +417,4 @@ The flags CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER flow a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/registering-a-running-exe-server">Registering a Running EXE Server</a>
- 
-
- 
 

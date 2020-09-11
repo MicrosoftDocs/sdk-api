@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
 ms.date: 12/05/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
-f1_keywords:
-- rtscom/IStylusPlugin.SystemEvent
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusPlugin.SystemEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusPlugin::SystemEvent
+ - rtscom/IStylusPlugin::SystemEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusPlugin.SystemEvent
 ---
 
 # IStylusPlugin::SystemEvent
@@ -49,68 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Notifies the implementing plug-in that a system event is available.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param piRtsSrc [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
-
 ### -param tcid [in]
 
 The tablet context identifier for the event.
-
 
 ### -param sid [in]
 
 The security identifier.
 
-
 ### -param event [in]
 
 The system event sent by the RTS object
-
 
 ### -param eventdata [in]
 
 The 
               <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-system_event_data">SYSTEM_EVENT_DATA</a> structure containing information about the system event, <i>event</i>.
 
-
 ## -returns
-
-
 
 For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
 
-
-
-
 ## -remarks
-
-
 
 When a system event is being processed the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object provides real time stylus events on a specific window handle within a specific window input rectangle.
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a> method to determine what packet properties are sent in the events.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
@@ -137,7 +112,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4F91FD8A-A8B6-4066-A0EB-F764A3BFD8A2
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],SetWorkQueueEx method, IMFRealTimeClientEx.SetWorkQueueEx, IMFRealTimeClientEx::SetWorkQueueEx, SetWorkQueueEx, SetWorkQueueEx method [Media Foundation], SetWorkQueueEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_setworkqueueex, mfidl/IMFRealTimeClientEx::SetWorkQueueEx
-f1_keywords:
-- mfidl/IMFRealTimeClientEx.SetWorkQueueEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFRealTimeClientEx.SetWorkQueueEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRealTimeClientEx::SetWorkQueueEx
+ - mfidl/IMFRealTimeClientEx::SetWorkQueueEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFRealTimeClientEx.SetWorkQueueEx
 ---
 
 # IMFRealTimeClientEx::SetWorkQueueEx
@@ -49,47 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the work queue that this object should use for asynchronous work items. 
-
+Specifies the work queue that this object should use for asynchronous work items.
 
 ## -parameters
-
-
-
 
 ### -param dwMultithreadedWorkQueueId
 
 The work queue identifier.
 
-
 ### -param lWorkItemBasePriority
 
 The base priority for work items.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The object should use the values of <i>dwMultithreadedWorkQueueId</i> and <i>lWorkItemBasePriority</i> when it queues new work items. Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem2">MFPutWorkItem2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitemex2">MFPutWorkItemEx2</a> function to queue the work item.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclientex">IMFRealTimeClientEx</a>
 
@@ -100,7 +81,4 @@ The object should use the values of <i>dwMultithreadedWorkQueueId</i> and <i>lWo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
 

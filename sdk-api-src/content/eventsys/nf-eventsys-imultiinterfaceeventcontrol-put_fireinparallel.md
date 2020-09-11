@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: c26cce66-e713-42f7-9716-385b59085977
 ms.date: 12/05/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],FireInParallel property, IMultiInterfaceEventControl.FireInParallel, IMultiInterfaceEventControl.put_FireInParallel, IMultiInterfaceEventControl::FireInParallel, IMultiInterfaceEventControl::get_FireInParallel, IMultiInterfaceEventControl::put_FireInParallel, cos.imultiinterfaceeventcontrol_fireinparallel, eventsys/IMultiInterfaceEventControl::FireInParallel, eventsys/IMultiInterfaceEventControl::get_FireInParallel, eventsys/IMultiInterfaceEventControl::put_FireInParallel, put_FireInParallel
-f1_keywords:
-- eventsys/IMultiInterfaceEventControl.FireInParallel
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IMultiInterfaceEventControl.FireInParallel
-- IMultiInterfaceEventControl.get_FireInParallel
-- IMultiInterfaceEventControl.put_FireInParallel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiInterfaceEventControl::put_FireInParallel
+ - eventsys/IMultiInterfaceEventControl::put_FireInParallel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IMultiInterfaceEventControl.FireInParallel
+ - IMultiInterfaceEventControl.get_FireInParallel
+ - IMultiInterfaceEventControl.put_FireInParallel
 ---
 
 # IMultiInterfaceEventControl::put_FireInParallel
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether events can be delivered to two or more subscribers in parallel.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
- 
-
- 
 

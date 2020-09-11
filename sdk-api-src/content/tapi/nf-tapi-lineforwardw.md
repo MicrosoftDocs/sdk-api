@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward
-f1_keywords:
-- tapi/lineForward
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineForward
-- lineForwardA
-- lineForwardW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineForwardW
+ - tapi/lineForwardW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineForward
+ - lineForwardA
+ - lineForwardW
 ---
 
 # lineForwardW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineForward</b> function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions. When an originating address (<i>dwAddressID</i>) is forwarded, the specified incoming calls for that address are deflected to the other number by the switch. This function provides a combination of forward and do-not-disturb features. This function can also cancel forwarding currently in effect.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to the line device.
 
-
 ### -param bAllAddresses
 
 Specifies whether all originating addresses on the line or just the one specified is to be forwarded. If <b>TRUE</b>, all addresses on the line are forwarded and <i>dwAddressID</i> is ignored; if <b>FALSE</b>, only the address specified as <i>dwAddressID</i> is forwarded.
-
 
 ### -param dwAddressID
 
@@ -80,22 +74,18 @@ Address on the specified line whose incoming calls are to be forwarded. This par
 
 An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
 
-
 ### -param lpForwardList
 
 Pointer to a variably sized data structure that describes the specific forwarding instructions, of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>.
 
-
 ### -param dwNumRingsNoAnswer
 
 Number of rings before a call is considered a "no answer." If <i>dwNumRingsNoAnswer</i> is out of range, the actual value is set to the nearest value in the allowable range.
 
-
 ### -param lphConsultCall
 
 Pointer to an HCALL location. In some telephony environments, this location is loaded with a handle to a consultation call that is used to consult the party that is being forwarded to, and the application becomes the initial sole owner of this call. This pointer must be valid even in environments where call forwarding does not require a consultation call. This handle is set to <b>NULL</b> if no consultation call is created.
-
 
 ### -param lpCallParams
 
@@ -103,22 +93,14 @@ Pointer to a structure of type
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. This pointer is ignored unless 
 <b>lineForward</b> requires the establishment of a call to the forwarding destination (and <i>lphConsultCall</i> is returned, in which case <i>lpCallParams</i> is optional). If <b>NULL</b>, default call parameters are used. Otherwise, the specified call parameters are used for establishing <i>hConsultCall</i>.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALLINEHANDLE, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESS, LINEERR_OPERATIONFAILED, LINEERR_INVALCOUNTRYCODE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_INVALPARAM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 A successful forwarding indicates only that the request has been accepted by the service provider, not that forwarding is set up at the switch. A 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a> (forwarding) message provides confirmation for forwarding having been set up at the switch.
@@ -145,9 +127,6 @@ Invoking
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/forward-ovr">Forward Overview</a>
 
 
@@ -173,7 +152,4 @@ Invoking
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
- 
-
- 
 

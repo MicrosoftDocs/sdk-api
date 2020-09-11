@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
 ms.date: 12/05/2018
 ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
-f1_keywords:
-- ctffunc/ITfFnGetLinguisticAlternates.GetAlternates
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- ITfFnGetLinguisticAlternates.GetAlternates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnGetLinguisticAlternates::GetAlternates
+ - ctffunc/ITfFnGetLinguisticAlternates::GetAlternates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - ITfFnGetLinguisticAlternates.GetAlternates
 ---
 
 # ITfFnGetLinguisticAlternates::GetAlternates
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a list of alternate strings for a given text range.
 
-
 ## -parameters
-
-
-
 
 ### -param pRange [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to return alternates for.
 
-
 ### -param ppCandidateList [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -124,18 +116,8 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffngetlinguisticalternates">ITfFnGetLinguisticAlternates</a>
- 
-
- 
 

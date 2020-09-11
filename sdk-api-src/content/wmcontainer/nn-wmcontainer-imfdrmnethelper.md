@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c
 ms.date: 12/05/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
-f1_keywords:
-- wmcontainer/IMFDRMNetHelper
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcontainer.h
-api_name:
-- IMFDRMNetHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDRMNetHelper
+ - wmcontainer/IMFDRMNetHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcontainer.h
+api_name:
+ - IMFDRMNetHelper
 ---
 
 # IMFDRMNetHelper interface
 
 
 ## -description
-
 
 Configures Windows Media Digital Rights Management (DRM) for Network Devices on a network sink.
 
@@ -58,7 +58,6 @@ Configures Windows Media Digital Rights Management (DRM) for Network Devices on 
 <li>Create the media sink by calling  the activation object <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a> method.</li>
 <li>Get an <b>IMFDRMNetHelper</b> pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the media sink.</li>
 </ol>For more information, see Remarks.
-
 
 ## -inheritance
 
@@ -93,12 +92,9 @@ Gets the license response for the specified request.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To stream protected content over a network, the <i>ASF streaming media sink</i> provides an output trust authority (OTA) that supports  Windows Media DRM for Network Devices and implements the <b>IMFDRMNetHelper</b> interface. For this OTA,  encryption occurs on each frame before multiplexing. The license request and response process takes place in the media sink.
 
@@ -120,15 +116,7 @@ To stream the content, the application does the following:
 <li>To get the cached license response, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfdrmnethelper-getchainedlicenseresponse">IMFDRMNetHelper::GetChainedLicenseResponse</a>.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 07277405-1172-42e5-af51-8e2c1ea06894
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], IUIAutomationValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationValuePattern, uiauto_IUIAutomationValuePattern, uiautomationclient/IUIAutomationValuePattern, winauto.uiauto_IUIAutomationValuePattern
-f1_keywords:
-- uiautomationclient/IUIAutomationValuePattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationValuePattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationValuePattern
+ - uiautomationclient/IUIAutomationValuePattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationValuePattern
 ---
 
 # IUIAutomationValuePattern interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a control that contains a value that does not span a range and that can be represented as a string. This string may or may not be editable, depending on the control and its settings.
-
 
 ## -inheritance
 
@@ -150,16 +149,9 @@ Retrieves the value of the element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
 

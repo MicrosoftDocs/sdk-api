@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: fb08ddae-2abf-4a86-a5d8-ea745ae35aa8
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], IWMDeviceRegistration interface [windows Media Format],described, IWMDeviceRegistrationInterface, wmformat.iwmdeviceregistration, wmsdkidl/IWMDeviceRegistration
-f1_keywords:
-- wmsdkidl/IWMDeviceRegistration
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMDeviceRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDeviceRegistration
+ - wmsdkidl/IWMDeviceRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMDeviceRegistration
 ---
 
 # IWMDeviceRegistration interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IWMDeviceRegistration</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
@@ -57,9 +57,6 @@ ms.custom: 19H1
 The <b>IWMDeviceRegistration</b> interface registers playback devices for secure data delivery.
 
 You can create a device registration object and retrieve a pointer to its <b>IWMDeviceRegistration</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatedeviceregistration">WMCreateDeviceRegistration</a> function.
-
-
-
 
 ## -inheritance
 
@@ -130,12 +127,9 @@ Removes a device from the device registration database.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The primary purpose of the device registration database is to store data about connected devices that can receive streaming media encoded for the Windows Media DRM 10 for Network Devices protocol. You can enter other devices in the database if desired.
 
@@ -145,16 +139,7 @@ The same device registration database is used by all applications.
 
 Devices in the database are registered by type. Devices that support Windows Media DRM 10 for Network Devices use the DRM_DEVICE_REGISTER_TYPE_STREAMING register type. Other types may be supported in future versions.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

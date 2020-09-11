@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 178824f5-9dda-4e8a-b921-f2c9d064a83c
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], ITPluggableTerminalClassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassregistration, tapi3.itpluggableterminalclassregistration, termmgr/ITPluggableTerminalClassRegistration
-f1_keywords:
-- termmgr/ITPluggableTerminalClassRegistration
-dev_langs:
-- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalClassRegistration
+ - termmgr/ITPluggableTerminalClassRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalClassRegistration
 ---
 
 # ITPluggableTerminalClassRegistration interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITPluggableTerminalClassRegistration</b> interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal. (Each pluggable terminal must register itself in order to make the terminal available to applications.) The 
 <b>ITPluggableTerminalClassRegistration</b> interface is created using COM <b>CoCreateInstance</b>.
-
 
 ## -inheritance
 
@@ -223,5 +222,5 @@ Sets the terminal version.
 
 </td>
 </tr>
-</table> 
+</table>
 

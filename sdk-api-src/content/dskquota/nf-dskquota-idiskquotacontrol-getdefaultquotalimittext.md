@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a39d457c-9a6f-4d57-a91f-878fcb96916e
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaLimitText, GetDefaultQuotaLimitText method [Files], GetDefaultQuotaLimitText method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaLimitText method, IDiskQuotaControl.GetDefaultQuotaLimitText, IDiskQuotaControl::GetDefaultQuotaLimitText, _win32_idiskquotacontrol_getdefaultquotalimittext, base.idiskquotacontrol_getdefaultquotalimittext, dskquota/IDiskQuotaControl::GetDefaultQuotaLimitText, fs.idiskquotacontrol_getdefaultquotalimittext
-f1_keywords:
-- dskquota/IDiskQuotaControl.GetDefaultQuotaLimitText
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.GetDefaultQuotaLimitText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::GetDefaultQuotaLimitText
+ - dskquota/IDiskQuotaControl::GetDefaultQuotaLimitText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.GetDefaultQuotaLimitText
 ---
 
 # IDiskQuotaControl::GetDefaultQuotaLimitText
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the default quota limit for the volume. The limit is expressed as a text string; for example, 10.5 MB. This limit is applied automatically to new users of the volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pszText [out]
 
 The text string. If the volume has no limit, the string returned is "No Limit" (localized). If the buffer is too small, the string is truncated to fit the buffer.
 
-
 ### -param cchText [in]
 
 The size of the buffer, in characters.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -157,15 +149,8 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -176,7 +161,4 @@ An unexpected exception occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
 

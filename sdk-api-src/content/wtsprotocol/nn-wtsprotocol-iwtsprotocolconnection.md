@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 584a6874-0df4-480e-a10a-4b603643870e
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], IWTSProtocolConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolconnection, wtsprotocol/IWTSProtocolConnection
-f1_keywords:
-- wtsprotocol/IWTSProtocolConnection
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWTSProtocolConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolConnection
+ - wtsprotocol/IWTSProtocolConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWTSProtocolConnection
 ---
 
 # IWTSProtocolConnection interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IWTSProtocolConnection</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>.]
 
@@ -368,5 +368,5 @@ Sends an error code to the client.
 
 </td>
 </tr>
-</table> 
+</table>
 

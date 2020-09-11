@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 806def9b-1842-4443-9a63-fba380545018
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
-f1_keywords:
-- wmsdkidl/IWMProfileManager.SaveProfile
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfileManager.SaveProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfileManager::SaveProfile
+ - wmsdkidl/IWMProfileManager::SaveProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfileManager.SaveProfile
 ---
 
 # IWMProfileManager::SaveProfile
@@ -52,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SaveProfile</b> method saves a profile into an XML-formatted string.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIWMProfile [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the object containing the profile data to be saved.
 
-
 ### -param pwszProfile [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the profile. Set this to <b>NULL</b> to retrieve the length of string required.
-
 
 ### -param pdwLength [in, out]
 
 On input, specifies the length of the <i>pwszProfile</i> string. On output, if the method succeeds, specifies a pointer to a <b>DWORD</b> containing the number of characters, including the terminating <b>null</b> character, required to hold the profile.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -124,14 +112,8 @@ Either the <i>pIWMProfile</i> or <i>pdwLength</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should make two calls to <b>SaveProfile</b>. On the first call, pass <b>NULL</b> as <i>pwszProfile</i>. On return, the value of <i>pdwLength</i> is set to the length required to hold the profile in string form. Then you can allocate the required amount of memory for the buffer and pass a pointer to it as <i>pwszProfile</i> on the second call.
 
@@ -141,16 +123,7 @@ To save a custom profile for later use, you must save the content of the returne
 
 To load a saved custom profile, copy the contents of the profile from the .prx file to a string and use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
- 
-
- 
 

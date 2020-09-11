@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d9454acd-7a4a-4f54-b614-beee8763f1ef
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadIconResourceSpecifier, PowerReadIconResourceSpecifier function, base.powerreadiconresourcespecifier, powrprof/PowerReadIconResourceSpecifier
-f1_keywords:
-- powrprof/PowerReadIconResourceSpecifier
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerReadIconResourceSpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerReadIconResourceSpecifier
+ - powrprof/PowerReadIconResourceSpecifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerReadIconResourceSpecifier
 ---
 
 # PowerReadIconResourceSpecifier function
 
 
 ## -description
-
 
 Retrieves the icon resource for the specified power setting, subgroup, or scheme. If the 
     <i>SchemeGuid</i> parameter is not <b>NULL</b> but both the 
@@ -61,21 +61,15 @@ Retrieves the icon resource for the specified power setting, subgroup, or scheme
     <i>PowerSettingGuid</i> parameters are not <b>NULL</b>, the friendly name of 
     the power setting will be returned.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in, optional]
 
 The identifier of the power scheme.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -176,20 +170,16 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
-
 
 ### -param Buffer [out, optional]
 
 A pointer to a buffer that receives the icon resource. If this parameter is <b>NULL</b>, 
      the <i>BufferSize</i> 
      parameter receives the required buffer size.
-
 
 ### -param BufferSize [in, out]
 
@@ -201,26 +191,14 @@ If the <i>Buffer</i> parameter is <b>NULL</b>, the function returns ERROR_SUCCES
 If the specified buffer size is not large enough to hold the 
      requested data, the function returns  <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
        the call failed. If the buffer size specified by the <i>BufferSize</i> parameter is too small, 
        <b>ERROR_MORE_DATA</b> will be returned and the <b>DWORD</b> pointed 
        to by the <i>BufferSize</i> parameter will be filled in with the required buffer size.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 37f9dc58-362d-413e-a593-4dda52fb7d8b
 ms.date: 12/05/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
-f1_keywords:
-- netioapi/ResolveIpNetEntry2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- ResolveIpNetEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResolveIpNetEntry2
+ - netioapi/ResolveIpNetEntry2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - ResolveIpNetEntry2
 ---
 
 # ResolveIpNetEntry2 function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>ResolveIpNetEntry2</b> function  resolves the physical address for a neighbor IP address entry on the local computer. 
-
+<b>ResolveIpNetEntry2</b> function  resolves the physical address for a neighbor IP address entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> structure entry for a neighbor IP address entry. On successful return, this structure will be updated with the properties for neighbor IP address.
 
-
 ### -param SourceAddress [in, optional]
 
 A pointer to a 
-an optional source IP address used to select the interface to send the requests on for the neighbor IP address entry. 
-
+an optional source IP address used to select the interface to send the requests on for the neighbor IP address entry.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -141,14 +133,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ResolveIpNetEntry2</b> function is defined on Windows Vista and later. 
 
@@ -166,15 +152,9 @@ The <b>Address</b> member in the <a href="https://docs.microsoft.com/windows/des
 
 If the IP address passed in the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> pointed to by the <i>Row</i> parameter is a duplicate of an existing neighbor IP address on the interface, the <b>ResolveIpNetEntry2</b> function will flush the existing entry before resolving the IP address. 
 
-On output when the call is successful, <b>ResolveIpNetEntry2</b> retrieves the other properties for the neighbor IP address and fills out the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> structure pointed to by the <i>Row</i> parameter. The  <b>PhysicalAddress</b> and <b>PhysicalAddressLength</b> members in the <b>MIB_IPNET_ROW2</b> structure pointed to by the <i>Row</i> parameter will be initialized to a valid physical address. 
-
-
-
+On output when the call is successful, <b>ResolveIpNetEntry2</b> retrieves the other properties for the neighbor IP address and fills out the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_row2">MIB_IPNET_ROW2</a> structure pointed to by the <i>Row</i> parameter. The  <b>PhysicalAddress</b> and <b>PhysicalAddressLength</b> members in the <b>MIB_IPNET_ROW2</b> structure pointed to by the <i>Row</i> parameter will be initialized to a valid physical address.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2">CreateIpNetEntry2</a>
 
@@ -209,7 +189,4 @@ On output when the call is successful, <b>ResolveIpNetEntry2</b> retrieves the o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipnetentry2">SetIpNetEntry2</a>
- 
-
- 
 

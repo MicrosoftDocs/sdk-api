@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: d23c4902-4e61-45ff-8a49-62eea1b92d4a
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], IWRdsProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowconnection, wtsprotocol/IWRdsProtocolShadowConnection
-f1_keywords:
-- wtsprotocol/IWRdsProtocolShadowConnection
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolShadowConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolShadowConnection
+ - wtsprotocol/IWRdsProtocolShadowConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolShadowConnection
 ---
 
 # IWRdsProtocolShadowConnection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that notify the protocol provider about the status of session shadowing. The <b>IWRdsProtocolShadowConnection</b> interface can also be used to exchange information between the shadow client and the shadow target. This interface is implemented by the protocol provider, and its methods are called by the Remote Desktop Services service.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Notifies the protocol that shadowing has stopped.
 
 </td>
 </tr>
-</table> 
+</table>
 

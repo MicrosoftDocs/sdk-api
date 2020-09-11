@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetproc.htm
 ms.date: 12/05/2018
 ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PRECREATE, PropSheetProc, PropSheetProc callback, PropSheetProc callback function [Windows Controls], _win32_PropSheetProc, _win32_PropSheetProc_cpp, controls.PropSheetProc, controls._win32_PropSheetProc, prsht/PFNPROPSHEETCALLBACK, prsht/PropSheetProc
-f1_keywords:
-- prsht/PropSheetProc
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Prsht.h
-api_name:
-- PropSheetProc
-- PFNPROPSHEETCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNPROPSHEETCALLBACK
+ - prsht/PFNPROPSHEETCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheetProc
+ - PFNPROPSHEETCALLBACK
 ---
 
 # PFNPROPSHEETCALLBACK callback function
@@ -50,29 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function that the system calls when the property sheet is being created and initialized.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 ### -param Arg2
 
-
 ### -param Arg3
-
-
-
-
-
-
-
 
 #### - hwndDlg
 
@@ -188,27 +175,16 @@ Indicates that the property sheet is about to be created. The <i>hwndDlg</i> par
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
 Returns zero.
 
-
-
-
 ## -remarks
-
-
 
 To enable a <i>PropSheetProc</i> callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure when you call the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function to create the property sheet. Use the <b>pfnCallback</b> member to specify an address of the callback function, and set the <b>PSP_USECALLBACK</b> flag in the <b>dwFlags</b> member.
 
 <i>PropSheetProc</i> is a placeholder for the application-defined function name. The <b>PFNPROPSHEETCALLBACK</b> type is the address of a <i>PropSheetProc</i> callback function.
-
-
 

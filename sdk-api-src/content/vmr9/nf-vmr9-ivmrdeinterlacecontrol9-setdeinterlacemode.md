@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2c88b3b9-32eb-473b-9db5-9e9d65e2062c
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl9 interface [DirectShow],SetDeinterlaceMode method, IVMRDeinterlaceControl9.SetDeinterlaceMode, IVMRDeinterlaceControl9::SetDeinterlaceMode, IVMRDeinterlaceControl9SetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl9 interface, dshow.ivmrdeinterlacecontrol9_setdeinterlacemode, vmr9/IVMRDeinterlaceControl9::SetDeinterlaceMode
-f1_keywords:
-- vmr9/IVMRDeinterlaceControl9.SetDeinterlaceMode
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRDeinterlaceControl9.SetDeinterlaceMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRDeinterlaceControl9::SetDeinterlaceMode
+ - vmr9/IVMRDeinterlaceControl9::SetDeinterlaceMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRDeinterlaceControl9.SetDeinterlaceMode
 ---
 
 # IVMRDeinterlaceControl9::SetDeinterlaceMode
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetDeinterlaceMode</b> method sets the deinterlacing mode for the specified video stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Index of the video stream to set. To set all streams, use the value 0xFFFFFFFF.
 
-
 ### -param lpDeinterlaceMode [in]
 
 Pointer to a GUID that specifies the deinterlacing mode. To turn off deinterlacing, use the value GUID_NULL.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -128,14 +117,8 @@ The VMR is not in mixer mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the application does not specify the mode, the VMR defaults to the first mode reported by the driver. In either case, if the VMR cannot use the preferred mode, it falls back to another mode as specified in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlaceprefs">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
 
@@ -148,12 +131,7 @@ The <b>SetDeinterlaceMode</b> method is effective only for new connections made 
 <li>Monitor changes</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -172,7 +150,4 @@ The <b>SetDeinterlaceMode</b> method is effective only for new connections made 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
- 
-
- 
 

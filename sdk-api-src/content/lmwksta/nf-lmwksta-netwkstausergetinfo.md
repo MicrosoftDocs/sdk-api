@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 25ec7a49-fd26-4105-823b-a257a57f724e
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
-f1_keywords:
-- lmwksta/NetWkstaUserGetInfo
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetWkstaUserGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetWkstaUserGetInfo
+ - lmwksta/NetWkstaUserGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetWkstaUserGetInfo
 ---
 
 # NetWkstaUserGetInfo function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetWkstaUserGetInfo</b> function returns information about the currently logged-on user. This function must be called in the context of the logged-on user.
 
-
 ## -parameters
-
-
-
 
 ### -param reserved
 
 This parameter must be set to <b>NULL</b>.
-
 
 ### -param level [in]
 
@@ -109,8 +104,6 @@ Return domains browsed by the workstation. The <i>bufptr</i> parameter points to
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -119,10 +112,7 @@ Pointer to the buffer that receives the data. The format of this data depends on
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -167,14 +157,8 @@ One of the function parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>NetWkstaUserGetInfo</b> function only works locally.
@@ -239,14 +223,7 @@ int wmain(void)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstasetinfo">NetWkstaSetInfo</a>
 
@@ -275,7 +252,4 @@ int wmain(void)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
- 
-
- 
 

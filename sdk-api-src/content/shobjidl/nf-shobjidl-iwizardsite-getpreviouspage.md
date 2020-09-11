@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 998eabc5-a0d4-450f-92bf-cf81f74c48d2
 ms.date: 12/05/2018
 ms.keywords: GetPreviousPage, GetPreviousPage method [Windows Shell], GetPreviousPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetPreviousPage method, IWizardSite.GetPreviousPage, IWizardSite::GetPreviousPage, _shell_IWizardSite_GetPreviousPage, shell.IWizardSite_GetPreviousPage, shobjidl/IWizardSite::GetPreviousPage
-f1_keywords:
-- shobjidl/IWizardSite.GetPreviousPage
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IWizardSite.GetPreviousPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWizardSite::GetPreviousPage
+ - shobjidl/IWizardSite::GetPreviousPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IWizardSite.GetPreviousPage
 ---
 
 # IWizardSite::GetPreviousPage
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
 
-
 ## -parameters
-
-
-
 
 ### -param phpage [out]
 
@@ -64,14 +60,9 @@ Type: <b>HPROPSHEETPAGE*</b>
 
 A pointer to a variable handle of type <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that comes immediately before the wizard extension page.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

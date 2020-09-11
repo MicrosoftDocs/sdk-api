@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: C74B0374-D6C7-44C7-94EF-E97B46534462
 ms.date: 12/05/2018
 ms.keywords: IImePad interface [Internationalization for Windows Applications],Request method, IImePad.Request, IImePad::Request, IMEPADREQ_CHANGESTRING, IMEPADREQ_DELETESTRING, IMEPADREQ_FORCEIMEPADWINDOWSHOW, IMEPADREQ_GETAPPLETUISTYLE, IMEPADREQ_GETAPPLHWND, IMEPADREQ_GETCOMPOSITIONSTRING, IMEPADREQ_GETCOMPOSITIONSTRINGINFO, IMEPADREQ_GETCONVERSIONSTATUS, IMEPADREQ_GETCURRENTIMEINFO, IMEPADREQ_GETCURRENTUILANG, IMEPADREQ_GETDEFAULTUILANGID, IMEPADREQ_GETVERSION, IMEPADREQ_INSERTSTRING, IMEPADREQ_ISAPPLETACTIVE, IMEPADREQ_ISIMEPADWINDOWVISIBLE, IMEPADREQ_POSTMODALNOTIFY, IMEPADREQ_SENDCONTROL, IMEPADREQ_SETAPPLETMINMAXSIZE, IMEPADREQ_SETAPPLETSIZE, IMEPADREQ_SETAPPLETUISTYLE, Request, Request method [Internationalization for Windows Applications], Request method [Internationalization for Windows Applications],IImePad interface, imepad/IImePad::Request, intl.iimepad_request
-f1_keywords:
-- imepad/IImePad.Request
-dev_langs:
-- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Imepad.h
-api_name:
-- IImePad.Request
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImePad::Request
+ - imepad/IImePad::Request
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Imepad.h
+api_name:
+ - IImePad.Request
 ---
 
 # IImePad::Request
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by an  <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> to insert text into an app.
 
 <b>Request</b> is the only method that <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> can call. By calling this method with one of the <b>IMEPADREQ_*</b> request IDs, <b>IImePadApplet</b> can insert text into an app and can control IME's composition string in an  app.
 
-
 ## -parameters
-
-
-
 
 ### -param pIImePadApplet [in]
 
 The interface pointer of the calling applet.
-
 
 ### -param reqId [in]
 
@@ -358,31 +353,20 @@ Gets the IME information that invoked ImePad.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param wParam [in, out]
 
 Additional information specific to <i>reqId</i>.
 
-
 ### -param lParam [in, out]
 
 Additional information specific to <i>reqId</i>.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> if successful, otherwise <b>E_FAIL</b>.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Possible_IMEPADCTRL___values"></a><a id="possible_imepadctrl___values"></a><a id="POSSIBLE_IMEPADCTRL___VALUES"></a>Possible <b>IMEPADCTRL_*</b> values</h3>
 These are the possible values that <i>wParam</i> can take when <i>reqId</i> is set to <b>IMEPADREQ_SENDCONTROL</b>:<table>
@@ -542,17 +526,8 @@ These are the possible values that can be received via <i>wParam</i> when <i>req
 <td>Min size is fixed.</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>
 
@@ -563,7 +538,4 @@ These are the possible values that can be received via <i>wParam</i> when <i>req
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a>
- 
-
- 
 

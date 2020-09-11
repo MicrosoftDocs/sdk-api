@@ -8,10 +8,6 @@ tech.root: WinSAT
 ms.assetid: 9e8d2490-9d48-4512-b5f0-5c2f9cdeb287
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT],described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
-f1_keywords:
-- winsatcominterfacei/IProvideWinSATVisuals
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IProvideWinSATVisuals
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProvideWinSATVisuals
+ - winsatcominterfacei/IProvideWinSATVisuals
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IProvideWinSATVisuals
 ---
 
 # IProvideWinSATVisuals interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IProvideWinSATVisuals may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves elements that can be used in a user interface to graphically represent the WinSAT assessment.
 
 To retrieve this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CProvideWinSATVisuals) as the class identifier and __uuidof(IProvideWinSATVisuals) as the interface identifier.
-
 
 ## -inheritance
 
@@ -81,5 +80,5 @@ Retrieves a bitmap for the WinSAT base score.
 
 </td>
 </tr>
-</table> 
+</table>
 

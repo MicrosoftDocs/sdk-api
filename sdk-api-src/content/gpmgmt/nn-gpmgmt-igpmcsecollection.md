@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: e32c1c39-b817-4db6-ad76-b2e66b54d79d
 ms.date: 12/05/2018
 ms.keywords: GPMCSECollection, IGPMCSECollection, IGPMCSECollection interface [GPMC], IGPMCSECollection interface [GPMC],described, _win32_igpmcsecollection, gpmc.igpmcsecollection, gpmgmt/IGPMCSECollection
-f1_keywords:
-- gpmgmt/IGPMCSECollection
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMCSECollection
-- IGPMCSECollection.Count
-- IGPMCSECollection.get_Count
-- IGPMCSECollection.Item
-- IGPMCSECollection.get_Item
-- GPMCSECollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMCSECollection
+ - gpmgmt/IGPMCSECollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMCSECollection
+ - IGPMCSECollection.Count
+ - IGPMCSECollection.get_Count
+ - IGPMCSECollection.Item
+ - IGPMCSECollection.get_Item
+ - GPMCSECollection
 ---
 
 # IGPMCSECollection interface
@@ -54,11 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMCSECollection</b> interface contains methods that enable applications to query a collection of client-side extensions (CSEs) when you use the Group Policy Management Console (GPMC) interfaces. To create a <b>GPMCSECollection</b> object, call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getclientsideextensions">IGPM::GetClientSideExtensions</a> method.
-
 
 ## -inheritance
 
@@ -112,13 +111,9 @@ Index for a specific CSE from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -129,7 +124,4 @@ Index for a specific CSE from the collection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmclientsideextension">IGPMClientSideExtension</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 656b230d-b4ba-45e4-b6b3-8bbe72f9428a
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_PARTITION_INFO, CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, CLUS_PARTITION_INFO, CLUS_PARTITION_INFO structure [Failover Cluster], FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUS_PARTITION_INFO, PCLUS_PARTITION_INFO structure pointer [Failover Cluster], _wolf_clus_partition_info, clusapi/CLUS_PARTITION_INFO, clusapi/PCLUS_PARTITION_INFO, mscs.clus_partition_info'
-f1_keywords:
-- clusapi/CLUS_PARTITION_INFO
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUS_PARTITION_INFO
 targetos: Windows
 req.typenames: CLUS_PARTITION_INFO, *PCLUS_PARTITION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUS_PARTITION_INFO
+ - clusapi/CLUS_PARTITION_INFO
+ - PCLUS_PARTITION_INFO
+ - clusapi/PCLUS_PARTITION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUS_PARTITION_INFO
 ---
 
 # CLUS_PARTITION_INFO structure
@@ -49,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains data describing a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">storage class resource</a> volume and file 
     system. It is used as the data member of a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a> structure and as the 
     return value of some <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> operations.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -95,27 +93,22 @@ The partition should be used to store quorum files if no partition is specified 
         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources, the smallest NTFS partition 
         larger than 50MB automatically receives this flag.
 
-
 ### -field szDeviceName
 
 Device name for the storage class resource, such as "C:". No backslash is included.
-
 
 ### -field szVolumeLabel
 
 Volume label for the storage class resource.
 
-
 ### -field dwSerialNumber
 
 Serial number of the storage class resource volume.
-
 
 ### -field rgdwMaximumComponentLength
 
 Value of the maximum length, in characters, of a file name component supported by the specified file 
       system. A file name component is the portion of a file name between backslashes.
-
 
 ### -field dwFileSystemFlags
 
@@ -146,15 +139,11 @@ The file system supports Unicode in file names as they appear on storage class r
 
 The file system preserves and enforces access control lists (ACLs).
 
-
 ### -field szFileSystem
 
 Name of the file system, such as "FAT" or "NTFS".
 
-
 ## -remarks
-
-
 
 A <b>CLUS_PARTITION_INFO</b> structure can be returned by 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> when the 
@@ -173,12 +162,7 @@ See
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a>
 
@@ -197,7 +181,4 @@ See
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>
- 
-
- 
 

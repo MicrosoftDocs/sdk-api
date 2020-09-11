@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b02f3966-4bbf-4266-b5a5-237d975f69c9
 ms.date: 12/05/2018
 ms.keywords: ITfReverseConversionMgr, ITfReverseConversionMgr interface [Text Services Framework], ITfReverseConversionMgr interface [Text Services Framework],described, msctf/ITfReverseConversionMgr, tsf.itfreverseconversionmgr
-f1_keywords:
-- msctf/ITfReverseConversionMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReverseConversionMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfReverseConversionMgr
+ - msctf/ITfReverseConversionMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReverseConversionMgr
 ---
 
 # ITfReverseConversionMgr interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>ITfReverseConversionMgr</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.]
 
-Provides access to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> objects, which are used to perform reverse conversions. 
-
+Provides access to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> objects, which are used to perform reverse conversions.
 
 ## -inheritance
 
@@ -81,14 +80,9 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-ms
 <div> </div>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A reverse conversion provides the keystroke sequences required to create the specified string.
-
-
 

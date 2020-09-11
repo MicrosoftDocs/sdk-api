@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 03c2e5d4-fcba-4b6c-9982-54b451ef129d
 ms.date: 12/05/2018
 ms.keywords: 03c2e5d4-fcba-4b6c-9982-54b451ef129d, IKM_Alt, IKM_Control, IKM_Shift, InkShiftKeyModifierFlags, InkShiftKeyModifierFlags enumeration [Tablet PC], msinkaut/IKM_Alt, msinkaut/IKM_Control, msinkaut/IKM_Shift, msinkaut/InkShiftKeyModifierFlags, tablet.inkshiftkeymodifierflags
-f1_keywords:
-- msinkaut/InkShiftKeyModifierFlags
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkShiftKeyModifierFlags
 targetos: Windows
 req.typenames: InkShiftKeyModifierFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkShiftKeyModifierFlags
+ - msinkaut/InkShiftKeyModifierFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkShiftKeyModifierFlags
 ---
 
 # InkShiftKeyModifierFlags enumeration
@@ -49,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies which modifier key was pressed.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IKM_Shift
 
 The SHIFT key was used as a modifier.
 
-
 ### -field IKM_Control
 
 The CTRL key was used as a modifier.
-
 
 ### -field IKM_Alt
 
 The ALT key was used as a modifier.
 
-
 ## -remarks
-
-
 
 In C++, explicit casting is required when trying to set more than one flag at a time. A compilation error occurs if explicit casting is not used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-keydown">KeyDown Event [InkEdit Control]</a>
 
@@ -111,7 +93,4 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel Event [InkPicture Control]</a>
- 
-
- 
 

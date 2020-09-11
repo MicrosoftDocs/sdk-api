@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 6a5a1f14-f14f-404b-90d8-0afceafc087c
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],ParseDisplayName method, IMoniker.ParseDisplayName, IMoniker::ParseDisplayName, ParseDisplayName, ParseDisplayName method [COM], ParseDisplayName method [COM],IMoniker interface, _com_imoniker_parsedisplayname, com.imoniker_parsedisplayname, objidl/IMoniker::ParseDisplayName
-f1_keywords:
-- objidl/IMoniker.ParseDisplayName
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.ParseDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::ParseDisplayName
+ - objidl/IMoniker::ParseDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.ParseDisplayName
 ---
 
 # IMoniker::ParseDisplayName
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a display name into a moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pbc [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
 
-
 ### -param pmkToLeft [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker that has been built out of the display name up to this point.
-
 
 ### -param pszDisplayName [in]
 
 The remaining display name to be parsed.
 
-
 ### -param pchEaten [out]
 
 A pointer to a variable that receives the number of characters in <i>pszDisplayName</i> that were consumed in this step.
-
 
 ### -param ppmkOut [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the moniker that was built from <i>pszDisplayName</i>. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation sets *<i>ppmkOut</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return valuesE_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -121,12 +110,7 @@ An error in the syntax of the input components (<i>pmkToLeft</i>, this moniker, 
 
 This method can also return the errors associated with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a> method.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Moniker clients do not typically call <b>ParseDisplayName</b> directly. Instead, they call the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> function when they want to convert a display name into a moniker (for example, in implementing the <b>Links</b> dialog box for a container application, or for implementing a macro language that supports references to objects outside the document). That function first parses the initial portion of the display name itself.
@@ -218,15 +202,8 @@ Parses a full or partial URL string into a result moniker (ppmkOut). If <i>szDis
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
@@ -237,7 +214,4 @@ Parses a full or partial URL string into a result moniker (ppmkOut). If <i>szDis
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
- 
-
- 
 

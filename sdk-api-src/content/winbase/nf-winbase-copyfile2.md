@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: aa2df686-4b61-4d90-ba0b-c78c5a0d2d59
 ms.date: 12/05/2018
 ms.keywords: CopyFile2, CopyFile2 function [Files], fs.copyfile2, winbase/CopyFile2
-f1_keywords:
-- winbase/CopyFile2
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-api_name:
-- CopyFile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyFile2
+ - winbase/CopyFile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+api_name:
+ - CopyFile2
 ---
 
 # CopyFile2 function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies an existing file to a new file, notifying the application of its progress through a callback 
     function.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszExistingFileName [in]
 
@@ -75,7 +71,6 @@ To extend this limit to 32,767 wide characters, prepend "\\?\" to the path. For 
 If <i>lpExistingFileName</i> does not exist, the 
        <b>CopyFile2</b> function fails returns 
        <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code>.
-
 
 ### -param pwszNewFileName [in]
 
@@ -93,10 +88,7 @@ Optional address of a
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a> 
       structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value will return <b>TRUE</b> when passed to the 
       <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> macro.
@@ -173,14 +165,8 @@ The <b>dwCopyFlags</b> member of the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function preserves extended attributes, OLE structured storage, NTFS file system alternate data streams, 
     and file attributes. Security attributes for the existing file are not copied to the new file. To copy security 
@@ -253,22 +239,12 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-copyfile2_extended_parameters">COPYFILE2_EXTENDED_PARAMETERS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

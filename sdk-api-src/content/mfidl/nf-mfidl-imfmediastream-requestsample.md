@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3838167b-5774-47f5-9b8d-2882eaa97167
 ms.date: 12/05/2018
 ms.keywords: 3838167b-5774-47f5-9b8d-2882eaa97167, IMFMediaStream interface [Media Foundation],RequestSample method, IMFMediaStream.RequestSample, IMFMediaStream::RequestSample, RequestSample, RequestSample method [Media Foundation], RequestSample method [Media Foundation],IMFMediaStream interface, mf.imfmediastream_requestsample, mfidl/IMFMediaStream::RequestSample
-f1_keywords:
-- mfidl/IMFMediaStream.RequestSample
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaStream.RequestSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaStream::RequestSample
+ - mfidl/IMFMediaStream::RequestSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaStream.RequestSample
 ---
 
 # IMFMediaStream::RequestSample
@@ -50,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests a sample from the media source.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pToken [in]
 
 Pointer to the <b>IUnknown</b> interface to an object that is used as a token for the request. The caller must implement this object. This parameter can be <b>NULL</b>. See Remarks.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,14 +115,8 @@ The source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mf
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>pToken</i> is not <b>NULL</b>, the media stream calls <b>AddRef</b> on <i>pToken</i> and places the token in a first-in, first-out queue.
 
@@ -163,19 +149,11 @@ If a media source enounters an error asynchronously while processing data, it sh
 <li>Send an <a href="https://docs.microsoft.com/windows/desktop/medfound/meerror">MEError</a> event.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediastream">IMFMediaStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.date: 12/05/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
-f1_keywords:
-- vswriter/IVssCreateExpressWriterMetadata.AddExcludeFiles
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateExpressWriterMetadata.AddExcludeFiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateExpressWriterMetadata::AddExcludeFiles
+ - vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateExpressWriterMetadata.AddExcludeFiles
 ---
 
 # IVssCreateExpressWriterMetadata::AddExcludeFiles
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Excludes a file set (a specified file or files) that might otherwise be implicitly included when a component of an express writer is backed up.
 
-
 ## -parameters
-
-
-
 
 ### -param wszPath [in]
 
@@ -70,7 +66,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash (\). It is up to applications that retrieve this information to check.
 
-
 ### -param wszFilespec [in]
 
 A pointer to a null-terminated wide character string containing the file specification of the files to be excluded. 
@@ -79,7 +74,6 @@ A pointer to a null-terminated wide character string containing the file specifi
 
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -91,10 +85,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 For information on traversing over mounted folders, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -163,14 +154,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Express writers support only local resources—sets of files whose absolute path starts with a valid local volume specification and cannot be a mapped network drive. Therefore, path inputs (<i>wszPath</i>) to 
 <b>AddExcludeFiles</b> (after the resolution of any environment variables) must be in this format. For example, it is often convenient to define a component to include all files in a specified directory and then use 
@@ -179,20 +164,11 @@ Express writers support only local resources—sets of files whose absolute path
 For more information on excluding files, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-metadata-document-contents">Exclude File List Specification</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreateexpresswritermetadata-addcomponent">IVssCreateExpressWriterMetadata::AddComponent</a>
- 
-
- 
 

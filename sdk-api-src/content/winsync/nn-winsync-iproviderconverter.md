@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 67dc6290-00e8-457a-97be-efe8e731619d
 ms.date: 12/05/2018
 ms.keywords: IProviderConverter, IProviderConverter interface [Windows Sync], IProviderConverter interface [Windows Sync],described, winsync.iproviderconverter, winsync/IProviderConverter
-f1_keywords:
-- winsync/IProviderConverter
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IProviderConverter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderConverter
+ - winsync/IProviderConverter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IProviderConverter
 ---
 
 # IProviderConverter interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 When implemented by a derived class, represents an object that can convert an <b>ISyncProvider</b> object to an <b>IKnowledgeSyncProvider</b> object.
-
-
 
 ## -inheritance
 
@@ -79,25 +77,13 @@ Initializes the <b>IProviderConverter</b> object with the <b>ISyncProvider</b> o
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IProviderConverter</b> is typically implemented by the developer of the custom provider that it converts.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

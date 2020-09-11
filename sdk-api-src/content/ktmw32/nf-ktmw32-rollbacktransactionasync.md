@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: df23e5af-c37e-4e60-b160-6ffa8f6a26e3
 ms.date: 12/05/2018
 ms.keywords: RollbackTransactionAsync, RollbackTransactionAsync function [Files], fs.rollbacktransactionasync, ktmw32/RollbackTransactionAsync
-f1_keywords:
-- ktmw32/RollbackTransactionAsync
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- RollbackTransactionAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RollbackTransactionAsync
+ - ktmw32/RollbackTransactionAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - RollbackTransactionAsync
 ---
 
 # RollbackTransactionAsync function
@@ -49,35 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that the specified transaction be rolled back.  This function returns asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param TransactionHandle [in]
 
 A handle to the transaction.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_IO_PENDING.
 
-If the function fails, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes: 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes:
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a>
 
@@ -92,7 +79,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransaction">OpenTransaction</a>
- 
-
- 
 

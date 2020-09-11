@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 19d99eba-e7ee-4bdc-8a9f-2cac97d17dea
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnWriteCompleted method, IRDPSRAPITransportStreamEvents.OnWriteCompleted, IRDPSRAPITransportStreamEvents::OnWriteCompleted, OnWriteCompleted, OnWriteCompleted method [RDP], OnWriteCompleted method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onwritecompleted, rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
-f1_keywords:
-- rdpencomapi/IRDPSRAPITransportStreamEvents.OnWriteCompleted
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPITransportStreamEvents.OnWriteCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPITransportStreamEvents::OnWriteCompleted
+ - rdpencomapi/IRDPSRAPITransportStreamEvents::OnWriteCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPITransportStreamEvents.OnWriteCompleted
 ---
 
 # IRDPSRAPITransportStreamEvents::OnWriteCompleted
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the Remote Desktop Protocol (RDP) stack that a write operation has completed. The RDP stack resumes ownership of the stream buffer and uses it for subsequent operations.
 
-
 ## -parameters
-
-
-
 
 ### -param pBuffer [in]
 
@@ -64,18 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a> interface pointer that represents the stream buffer that was written.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents">IRDPSRAPITransportStreamEvents</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapitransportstream-writebuffer">WriteBuffer</a>
- 
-
- 
 

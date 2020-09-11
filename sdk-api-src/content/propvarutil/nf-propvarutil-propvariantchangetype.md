@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: cb64ae1d-7dcf-4e73-b6ab-18fc9f91192d
 ms.date: 12/05/2018
 ms.keywords: PropVariantChangeType, PropVariantChangeType function [Windows Properties], _shell_PropVariantChangeType, properties.PropVariantChangeType, propvarutil/PropVariantChangeType, shell.PropVariantChangeType
-f1_keywords:
-- propvarutil/PropVariantChangeType
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantChangeType
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantChangeType
+ - propvarutil/PropVariantChangeType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantChangeType
 ---
 
 # PropVariantChangeType function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Coerces a value stored as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure to an equivalent value of a different variant type.
 
-
 ## -parameters
-
-
-
 
 ### -param ppropvarDest [out]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-prop
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that, when this function returns successfully, receives the coerced value and its new type.
 
-
 ### -param propvarSrc [in]
 
 Type: <b>REFPROPVARIANT</b>
 
 A reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the value expressed as its original type.
-
 
 ### -param flags [in]
 
@@ -78,28 +72,19 @@ Type: <b>PROPVAR_CHANGE_FLAGS</b>
 
 Reserved, must be 0.
 
-
 ### -param vt [in]
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
 Specifies the new type for the value. See the tables below for recognized type names.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if successful, or a standard COM error value otherwise. If the requested coercion is not possible, an error is returned.
 
-
-
-
 ## -remarks
-
-
 
 Note that the source and destination <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures must be separate structures. You cannot overwrite the source <b>PROPVARIANT</b> data with the new destination data; attempting to do so will result in an error.
 
@@ -424,7 +409,4 @@ if (SUCCEEDED(hr))
     PropVariantClear(&propvarString);
 }
 ```
-
-
-
 

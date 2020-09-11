@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 89E26D36-3536-45F5-9396-83CCFB26890B
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility, IAppVisibility interface [Windows Shell], IAppVisibility interface [Windows Shell],described, shell.IAppVisibility, shobjidl_core/IAppVisibility
-f1_keywords:
-- shobjidl_core/IAppVisibility
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IAppVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppVisibility
+ - shobjidl_core/IAppVisibility
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IAppVisibility
 ---
 
 # IAppVisibility interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides functionality to determine whether the display is showing Windows Store apps.
-
 
 ## -inheritance
 
@@ -104,12 +103,9 @@ Cancels a connection that was previously established by using <a href="https://d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the <b>IAppVisibility</b> interface to determine when a display is showing Windows Store apps. This is useful for accessibility tools and other applications.
 
@@ -117,13 +113,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf
 
 Don't implement the <b>IAppVisibility</b> interface. Instead, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function with <b>CLSID_AppVisibility</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
 
@@ -134,7 +124,4 @@ Don't implement the <b>IAppVisibility</b> interface. Instead, call the <a href="
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-monitor_app_visibility">MONITOR_APP_VISIBILITY</a>
- 
-
- 
 

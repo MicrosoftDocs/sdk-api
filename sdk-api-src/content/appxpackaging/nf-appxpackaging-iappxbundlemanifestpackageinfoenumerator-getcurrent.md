@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 52F525CB-162B-47E9-BF85-B920CBCCD983
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],GetCurrent method, IAppxBundleManifestPackageInfoEnumerator.GetCurrent, IAppxBundleManifestPackageInfoEnumerator::GetCurrent, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetCurrent, appxpkg.iappxbundlemanifestpackageinfoenumerator_getcurrent
-f1_keywords:
-- appxpackaging/IAppxBundleManifestPackageInfoEnumerator.GetCurrent
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestPackageInfoEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestPackageInfoEnumerator::GetCurrent
+ - appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestPackageInfoEnumerator.GetCurrent
 ---
 
 # IAppxBundleManifestPackageInfoEnumerator::GetCurrent
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the &lt;Package&gt; element at the current position of the enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param packageInfo [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>**</b>
 
-The current &lt;Package&gt; element. 
-
+The current &lt;Package&gt; element.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -90,27 +83,12 @@ The enumerator has passed the last item in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The enumerator’s position points to the first element by default. So, with a newly constructed enumerator that contains at least one element, <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-gethascurrent">IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent</a> returns <b>TRUE</b> and <b>GetCurrent</b> returns the first element.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfoenumerator">IAppxBundleManifestPackageInfoEnumerator</a>
- 
-
- 
 

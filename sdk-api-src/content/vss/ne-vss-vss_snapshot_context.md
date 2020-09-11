@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2efe3066-4b91-4501-bacb-4211b222e0c3
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT enumeration pointer [VSS], VSS_CTX_ALL, VSS_CTX_APP_ROLLBACK, VSS_CTX_BACKUP, VSS_CTX_CLIENT_ACCESSIBLE, VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, VSS_CTX_FILE_SHARE_BACKUP, VSS_CTX_NAS_ROLLBACK, VSS_SNAPSHOT_CONTEXT, VSS_SNAPSHOT_CONTEXT enumeration [VSS], _VSS_SNAPSHOT_CONTEXT, _VSS_SNAPSHOT_CONTEXT enumeration [VSS], _win32__vss_snapshot_context, base._vss_snapshot_context, vss/PVSS_SNAPSHOT_CONTEXT, vss/VSS_CTX_ALL, vss/VSS_CTX_APP_ROLLBACK, vss/VSS_CTX_BACKUP, vss/VSS_CTX_CLIENT_ACCESSIBLE, vss/VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, vss/VSS_CTX_FILE_SHARE_BACKUP, vss/VSS_CTX_NAS_ROLLBACK, vss/_VSS_SNAPSHOT_CONTEXT'
-f1_keywords:
-- vss/VSS_SNAPSHOT_CONTEXT
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vss.h
-api_name:
-- VSS_SNAPSHOT_CONTEXT
 targetos: Windows
 req.typenames: VSS_SNAPSHOT_CONTEXT, *PVSS_SNAPSHOT_CONTEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_SNAPSHOT_CONTEXT
+ - vss/_VSS_SNAPSHOT_CONTEXT
+ - PVSS_SNAPSHOT_CONTEXT
+ - vss/PVSS_SNAPSHOT_CONTEXT
+ - VSS_SNAPSHOT_CONTEXT
+ - vss/VSS_SNAPSHOT_CONTEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vss.h
+api_name:
+ - VSS_SNAPSHOT_CONTEXT
 ---
 
 # VSS_SNAPSHOT_CONTEXT enumeration
@@ -49,29 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>_VSS_SNAPSHOT_CONTEXT</b> enumeration 
     enables a requester using 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> to 
     specify how a shadow copy is to be created, queried, or deleted and the degree of writer 
     involvement.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_CTX_BACKUP
 
 The standard backup context. Specifies an auto-release, nonpersistent shadow copy in which writers are 
       involved in the creation.
 
-
 ### -field VSS_CTX_FILE_SHARE_BACKUP
 
 Specifies an auto-release, nonpersistent shadow copy created without writer involvement.
-
 
 ### -field VSS_CTX_NAS_ROLLBACK
 
@@ -85,7 +83,6 @@ Lightweight automated file rollback mechanisms or persistent shadow copies of fi
        example, a requester could use this context for creating a shadow copy of a NAS volume hosting documents and 
        simple user shares. Those types of data do not need writer involvement to create a consistent shadow copy.
 
-
 ### -field VSS_CTX_APP_ROLLBACK
 
 Specifies a persistent, non-auto-release shadow copy with writer involvement. This context is designed 
@@ -95,7 +92,6 @@ Specifies a persistent, non-auto-release shadow copy with writer involvement. Th
 Automated file rollback mechanisms of system volumes and shadow copies to be used in data mining or restore 
        operations might run under this context. This context is similar to <b>VSS_CTX_BACKUP</b> 
        but allows a requester more control over the persistence of the shadow copy.
-
 
 ### -field VSS_CTX_CLIENT_ACCESSIBLE
 
@@ -120,10 +116,7 @@ All types of currently live shadow copies are available for administrative opera
       and 
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>.
 
-
 ## -remarks
-
-
 
 The data type to be used with values of 
     <b>_VSS_SNAPSHOT_CONTEXT</b> is 
@@ -159,13 +152,7 @@ However, these values cannot be used to modify <b>VSS_CTX_CLIENT_ACCESSIBLE</b>
 The use of <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> is limited to systems running 
     Windows Server 2008 Enterprise, Windows Server 2008 Datacenter, Windows Server 2003, Enterprise Edition, or Windows Server 2003, Datacenter Edition.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>
 
@@ -188,7 +175,4 @@ The use of <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> is limited to systems running
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
- 
-
- 
 

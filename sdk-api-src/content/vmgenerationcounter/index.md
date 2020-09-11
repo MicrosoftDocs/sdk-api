@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: hyperv
+f1_keywords:
+ - vmgenerationcounter
+ - vmgenerationcounter/vmgenerationcounter
 ---
 
 # Vmgenerationcounter.h header
 
 
 ## -description
-
 
 This header is used by Hyper-V management. For more information, see:
 

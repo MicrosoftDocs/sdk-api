@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
 ms.date: 12/05/2018
 ms.keywords: '*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, p2p.drt_registration'
-f1_keywords:
-- drt/DRT_REGISTRATION
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- drt.h
-api_name:
-- DRT_REGISTRATION
 targetos: Windows
 req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - drt_registration_tag
+ - drt/drt_registration_tag
+ - PDRT_REGISTRATION
+ - drt/PDRT_REGISTRATION
+ - DRT_REGISTRATION
+ - drt/DRT_REGISTRATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - drt.h
+api_name:
+ - DRT_REGISTRATION
 ---
 
 # DRT_REGISTRATION structure
@@ -49,29 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DRT_REGISTRATION</b> structure contains  key and application data that make up a registration.
 
-
 ## -struct-fields
-
-
-
 
 ### -field key
 
 Contains the key portion of the registration.
 
-
 ### -field appData
 
 The application data associated with the key. The <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure containing this application data must point to a buffer less than 4KB in size.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result">DRT_SEARCH_RESULT</a>
 
@@ -82,7 +77,4 @@ The application data associated with the key. The <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
- 
-
- 
 

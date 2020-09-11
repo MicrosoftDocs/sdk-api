@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 9ff5f784-33f0-45b8-bccd-3e90a9afd67f
 ms.date: 12/05/2018
 ms.keywords: 9ff5f784-33f0-45b8-bccd-3e90a9afd67f, IStylusPlugin interface [Tablet PC],InAirPackets method, IStylusPlugin.InAirPackets, IStylusPlugin::InAirPackets, InAirPackets, InAirPackets method [Tablet PC], InAirPackets method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::InAirPackets, tablet.istylusplugin_inairpackets
-f1_keywords:
-- rtscom/IStylusPlugin.InAirPackets
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusPlugin.InAirPackets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusPlugin::InAirPackets
+ - rtscom/IStylusPlugin::InAirPackets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusPlugin.InAirPackets
 ---
 
 # IStylusPlugin::InAirPackets
@@ -49,65 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Notifies the object implementing the plug-in that the stylus is moving above the digitizer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param piRtsSrc [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
-
 ### -param pStylusInfo [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> structure containing the information about the RTS that is associated with the stylus.
-
 
 ### -param cPktCount [in]
 
 The number of properties per data packet.
 
-
 ### -param cPktBuffLength [in]
 
 The length, in <b>bytes</b>, of the buffer pointed to by <i>pPackets</i>. The memory occupied by each packet is (<i>cPktBuffLength</i> / <i>cPktCount</i>). Valid values are 0 through 0x7FFF, inclusive.
-
 
 ### -param pPackets [in]
 
 A pointer to the start of the packet data. It is read-only.
 
-
 ### -param pcInOutPkts [in, out]
 
 The number of <b>LONGs</b> in <i>ppInOutPkt</i>.
-
 
 ### -param ppInOutPkts [in, out]
 
 A pointer to an array of modified stylus data packets. The plug-in can use this parameter to feed modified packet data to downstream packets. For a value other than <b>NULL</b>, RTS will send this data down to plug-ins by using the <i>pPacket</i> parameter.
 
-
 ## -returns
-
-
 
 For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method is called when data packets are created by the stylus when it is in range but is moving above the digitizer and not touching the digitizer. You can return an array of modified packets by using the <i>ppInOutPkt</i> parameter. Create a buffer and point <i>ppInOutPkts</i> to it. Only one packet can be present at that location.
 
@@ -196,14 +175,7 @@ STDMETHODIMP CPacketModifier::Packets(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
@@ -222,7 +194,4 @@ STDMETHODIMP CPacketModifier::Packets(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
- 
-
- 
 

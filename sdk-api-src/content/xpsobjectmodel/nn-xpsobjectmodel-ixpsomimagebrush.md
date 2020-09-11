@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: f5478582-466b-496e-b7f3-42fb8caa6814
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageBrush, IXpsOMImageBrush interface [XPS Documents and Packaging], IXpsOMImageBrush interface [XPS Documents and Packaging],described, xps.ixpsomimagebrush, xpsobjectmodel/IXpsOMImageBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMImageBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMImageBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMImageBrush
+ - xpsobjectmodel/IXpsOMImageBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMImageBrush
 ---
 
 # IXpsOMImageBrush interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A brush that uses a raster image as a source.
-
 
 ## -inheritance
 
@@ -117,12 +116,9 @@ Sets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xp
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The image used by this brush is defined in a coordinate space that is specified by the image's resolution. The image type must be JPEG, PNG, TIFF 6.0, or HD  Photo.
 
@@ -172,14 +168,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createimagebrush">IXpsOMObjectFactory::CreateImageBrush</a>
 
@@ -194,7 +183,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

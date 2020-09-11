@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
-f1_keywords:
-- certenroll/IX509PublicKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PublicKey
+ - certenroll/IX509PublicKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PublicKey
 ---
 
 # IX509PublicKey interface
 
 
 ## -description
-
 
 The <b>IX509PublicKey</b> interface represents a   public key in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The public key is included in the certificate request sent to a certification authority (CA) and in the certificate received from the CA. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/public-private-key-pairs">Public/Private Key Pairs</a>.
 
@@ -204,13 +204,9 @@ Retrieves the length of the public key.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
@@ -225,7 +221,4 @@ Retrieves the length of the public key.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/public-private-key-pairs">Public/Private Key Pairs</a>
- 
-
- 
 

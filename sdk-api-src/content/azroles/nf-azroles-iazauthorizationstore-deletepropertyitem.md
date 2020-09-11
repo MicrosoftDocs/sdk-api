@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7c204a3c-2c5b-44d3-bbab-2765e66da925
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AzAuthorizationStore object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzAuthorizationStore object, DeletePropertyItem method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePropertyItem method, IAzAuthorizationStore.DeletePropertyItem, IAzAuthorizationStore::DeletePropertyItem, azroles/IAzAuthorizationStore::DeletePropertyItem, security.azauthorizationstore_deletepropertyitem
-f1_keywords:
-- azroles/AzAuthorizationStore.DeletePropertyItem
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- AzAuthorizationStore.DeletePropertyItem
-- IAzAuthorizationStore.DeletePropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::DeletePropertyItem
+ - azroles/IAzAuthorizationStore::DeletePropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - AzAuthorizationStore.DeletePropertyItem
+ - IAzAuthorizationStore.DeletePropertyItem
 ---
 
 # IAzAuthorizationStore::DeletePropertyItem
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeletePropertyItem</b> method removes the specified principal from the specified  list of principals.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -129,8 +125,6 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
@@ -140,28 +134,17 @@ The variant must be a <b>BSTR</b> variant.
 
 If AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS_NAME, or AZ_PROP_DELEGATED_POLICY_USERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name must be in user principal name (UPN) format (for example, "someone@example.com").
 
-
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
 
-
-
-
 ## -remarks
 
-
-
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
-
-
 

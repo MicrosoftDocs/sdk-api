@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 291EA582-22E3-4646-8E89-74162E98203F
 ms.date: 12/05/2018
 ms.keywords: IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], IMFSensorTransformFactory interface [Media Foundation],described, mf.imfsensortransformfactory, mfidl/IMFSensorTransformFactory
-f1_keywords:
-- mfidl/IMFSensorTransformFactory
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorTransformFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorTransformFactory
+ - mfidl/IMFSensorTransformFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorTransformFactory
 ---
 
 # IMFSensorTransformFactory interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The interface implemented by sensor transforms to allow  the media pipeline to query requirements of the sensor transform and to create a runtime instance of the sensor transform.
-
 
 ## -inheritance
 
@@ -107,5 +106,5 @@ Called by the media pipeline to initialize the sensor transform.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 0178f248-8dc0-c0ee-63c1-8db3f6ef94c3
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontSet, IDWriteFontSet interface [Direct Write], IDWriteFontSet interface [Direct Write],described, directwrite.idwritefontset, dwrite_3/IDWriteFontSet
-f1_keywords:
-- dwrite_3/IDWriteFontSet
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontSet
+ - dwrite_3/IDWriteFontSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontSet
 ---
 
 # IDWriteFontSet interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a font set.
-
 
 ## -inheritance
 
@@ -129,5 +128,5 @@ Returns how many times a given property value occurs in the set.
 
 </td>
 </tr>
-</table> 
+</table>
 

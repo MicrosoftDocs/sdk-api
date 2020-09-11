@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 1f46b528-d9a1-4967-afa2-424ee1eebbcb
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportSetInfo, MprConfigInterfaceTransportSetInfo function [RAS], _mpr_mprconfiginterfacetransportsetinfo, mprapi/MprConfigInterfaceTransportSetInfo, rras.mprconfiginterfacetransportsetinfo
-f1_keywords:
-- mprapi/MprConfigInterfaceTransportSetInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigInterfaceTransportSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigInterfaceTransportSetInfo
+ - mprapi/MprConfigInterfaceTransportSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigInterfaceTransportSetInfo
 ---
 
 # MprConfigInterfaceTransportSetInfo function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigInterfaceTransportSetInfo</b> function updates the configuration information for the client on the specified interface and transport protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
 
 ### -param hRouterInterface [in]
 
@@ -71,14 +66,12 @@ Handle to the interface configuration in which to update the information. Obtain
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacecreate">MprConfigInterfaceCreate</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>.
 
-
 ### -param hRouterIfTransport [in]
 
 Handle to the transport configuration in which to update the information for the client. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportadd">MprConfigInterfaceTransportAdd</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportgethandle">MprConfigInterfaceTransportGetHandle</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportenum">MprConfigInterfaceTransportEnum</a>. Supported transport protocol types are listed on <a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>.
-
 
 ### -param pInterfaceInfo [in, optional]
 
@@ -90,7 +83,6 @@ Pointer to an information header that contains configuration information for the
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not update the configuration information for the client.
 
-
 ### -param dwInterfaceInfoSize [in, optional]
 
 Specifies the size, in bytes, of the data pointed to by <i>pInterfaceInfo</i>. 
@@ -100,10 +92,7 @@ Specifies the size, in bytes, of the data pointed to by <i>pInterfaceInfo</i>.
 
 This parameter is optional; the calling application may specify zero for this parameter. However, if <i>pInterfaceInfo</i> is not <b>NULL</b>, this parameter cannot be zero. For more information, see the Remarks section later in this topic.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR. For more information, see the Remarks section later in this topic.
 
@@ -157,25 +146,13 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>pInterfaceInfo</i> parameter is <b>NULL</b>, 
 <b>MprConfigInterfaceTransportSetInfo</b> does nothing and returns immediately with a value of NO_ERROR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -210,7 +187,4 @@ If the <i>pInterfaceInfo</i> parameter is <b>NULL</b>,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 73288c46-6c6d-4938-9bb7-4d94acfc67f6
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl, ITLegacyCallMediaControl interface [TAPI 2.2], ITLegacyCallMediaControl interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol, tapi3.itlegacycallmediacontrol, tapi3if/ITLegacyCallMediaControl
-f1_keywords:
-- tapi3if/ITLegacyCallMediaControl
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyCallMediaControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyCallMediaControl
+ - tapi3if/ITLegacyCallMediaControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyCallMediaControl
 ---
 
 # ITLegacyCallMediaControl interface
 
 
 ## -description
-
 
 The 
 <b>ITLegacyCallMediaControl</b> interface supports legacy applications that must communicate directly with a device. This interface is exposed on the 
@@ -59,7 +59,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a> interface is an extension of the 
 <b>ITLegacyCallMediaControl</b> interface. 
 <b>ITLegacyCallMediaControl2</b> provides additional methods, primarily for tone detection and generation.
-
 
 ## -inheritance
 
@@ -126,20 +125,13 @@ Sets
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
- 
-
- 
 

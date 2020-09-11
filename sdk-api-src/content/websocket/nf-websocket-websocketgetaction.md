@@ -8,10 +8,6 @@ tech.root: WebSock
 ms.assetid: 566cff2d-15dd-45c6-bc41-550be1f45cfd
 ms.date: 12/05/2018
 ms.keywords: WebSocketGetAction, WebSocketGetAction function [Websocket Protocol Component API], websock.websocketgetaction, websocket/WebSocketGetAction
-f1_keywords:
-- websocket/WebSocketGetAction
-dev_langs:
-- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- websocket.dll
-api_name:
-- WebSocketGetAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WebSocketGetAction
+ - websocket/WebSocketGetAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - websocket.dll
+api_name:
+ - WebSocketGetAction
 ---
 
 # WebSocketGetAction function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WebSocketGetAction</b> function returns an action from a call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>, <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-
 
 WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-
 ### -param eActionQueue [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action_queue">WEB_SOCKET_ACTION_QUEUE</a></b>
 
 Enumeration that specifies whether to query the send queue, the receive queue, or both.
-
 
 ### -param pDataBuffers [in, out]
 
@@ -87,13 +81,11 @@ Type: <b>ULONG*</b>
 
 On input, pointer to a value that specifies the number of elements in <i>pDataBuffers</i>. On successful output, number of elements that were actually returned in <i>pDataBuffers</i>.
 
-
 ### -param pAction [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_ACTION</a>*</b>
 
 On successful output, pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_ACTION</a> enumeration that specifies the action returned from the query to the queue defines in <i>eActionQueue</i>.
-
 
 ### -param pBufferType [out]
 
@@ -101,13 +93,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-we
 
 On successful output, pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_buffer_type">WEB_SOCKET_BUFFER_TYPE</a> enumeration that specifies the type of Web Socket buffer data returned in <i>pDataBuffers</i>.
 
-
 ### -param pvApplicationContext [out, optional]
 
 Type: <b>PVOID*</b>
 
 On successful output, pointer to an application context handle. The context returned here was initially passed to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>. <i>pvApplicationContext</i> is not set if <i>pAction</i> is <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_NO_ACTION</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_SEND_TO_NETWORK_ACTION</a> when sending a pong in response to receiving a ping.
-
 
 ### -param pvActionContext [out]
 
@@ -115,10 +105,7 @@ Type: <b>PVOID*</b>
 
 On successful output, pointer to an action context handle. This handle is passed into a subsequent call <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -154,14 +141,8 @@ Protocol performed invalid operations. This is only returned for receive operati
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each call to <b>WebSocketGetAction</b> must be paired with a call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>.
 
@@ -177,13 +158,7 @@ If the <i>ulBytesTransferred</i> parameter of <a href="https://docs.microsoft.co
 </ul>
 There may be only one outstanding send and receive operation at a time, so the next action will be returned once the previous one has been completed using <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_ACTION</a>
 
@@ -206,7 +181,4 @@ There may be only one outstanding send and receive operation at a time, so the n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
- 
-
- 
 

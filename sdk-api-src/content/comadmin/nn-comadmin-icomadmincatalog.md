@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2c3c49df-9ca5-40ea-b45c-f4eca1004602
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], ICOMAdminCatalog interface [COM+],described, comadmin/ICOMAdminCatalog, cos.icomadmincatalog
-f1_keywords:
-- comadmin/ICOMAdminCatalog
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog
-- ICOMAdminCatalog.Reserved1
-- ICOMAdminCatalog.Reserved2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog
+ - comadmin/ICOMAdminCatalog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog
+ - ICOMAdminCatalog.Reserved1
+ - ICOMAdminCatalog.Reserved2
 ---
 
 # ICOMAdminCatalog interface
@@ -51,9 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a session to do programmatic COM+ administration, access collections in the catalog, install COM+ applications and components, start and stop services, and connect to remote servers. <b>ICOMAdminCatalog</b> provides access to the COM+ catalog data store.
-
 
 ## -inheritance
 
@@ -323,5 +322,5 @@ Retrieves the minor version number of the COMAdmin library.
 
 </td>
 </tr>
-</table> 
+</table>
 

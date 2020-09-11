@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager interface [COM],described, _ole_ioleundomanager, com.ioleundomanager, ocidl/IOleUndoManager
-f1_keywords:
-- ocidl/IOleUndoManager
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleUndoManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUndoManager
+ - ocidl/IOleUndoManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleUndoManager
 ---
 
 # IOleUndoManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IOleUndoManager</b> interface enables containers to implement multi-level undo and redo operations for actions that occur within contained controls.
-
 
 ## -inheritance
 
@@ -176,12 +175,9 @@ Instructs the undo manager to perform actions back through the undo stack, down 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The control must create an undo unit with the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a> interface or a parent undo unit with the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a> interface derived from <b>IOleUndoUnit</b>. Both of these interfaces perform the undo action and the parent undo unit additionally can contain nested undo units.
 
@@ -233,20 +229,11 @@ When an object without this value is added to a user-visible undo context, the b
 
 In addition, non-compliant objects may be added to nested containers. In this case, the nested container needs to notify the undo manager that undo can no longer be safely supported by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-enable">IOleUndoManager::Enable</a> with <b>FALSE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
- 
-
- 
 

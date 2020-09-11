@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.date: 12/05/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
-f1_keywords:
-- shobjidl/IUserAccountChangeCallback
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IUserAccountChangeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserAccountChangeCallback
+ - shobjidl/IUserAccountChangeCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IUserAccountChangeCallback
 ---
 
 # IUserAccountChangeCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method which is called when the picture that represents a user account is changed.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Called to send notifications when the picture that represents a user account is 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Applications that want to notify users through this interface can add their class identifier (CLSID) strings as values under this key: 
 
@@ -95,6 +91,4 @@ Applications that want to notify users through this interface can add their clas
 
 
 The values under this key are enumerated to create this callback object.
-
-
 

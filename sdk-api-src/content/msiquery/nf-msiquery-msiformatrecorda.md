@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
 ms.date: 12/05/2018
 ms.keywords: MsiFormatRecord, MsiFormatRecord function, MsiFormatRecordA, MsiFormatRecordW, _msi_msiformatrecord, msiquery/MsiFormatRecord, msiquery/MsiFormatRecordA, msiquery/MsiFormatRecordW, setup.msiformatrecord
-f1_keywords:
-- msiquery/MsiFormatRecord
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiFormatRecord
-- MsiFormatRecordA
-- MsiFormatRecordW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiFormatRecordA
+ - msiquery/MsiFormatRecordA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiFormatRecord
+ - MsiFormatRecordA
+ - MsiFormatRecordW
 ---
 
 # MsiFormatRecordA function
@@ -52,49 +53,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiFormatRecord</b> function formats record field data and properties using a format string.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation. This may be omitted, in which case only the record field parameters are processed and properties are not available for substitution.
 
-
 ### -param hRecord [in]
 
 Handle to the record to format. The template string must be stored in record field 0 followed by referenced data parameters.
-
 
 ### -param szResultBuf [out]
 
 Pointer to the buffer that receives the null terminated formatted string. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szResultBuf</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function then returns <b>ERROR_MORE_DATA</b> and <i>pcchResultBuf</i> contains the required buffer size in <b>TCHAR</b>s, not including the terminating null character. On return of <b>ERROR_SUCCESS</b>, <i>pcchResultBuf</i> contains the number of <b>TCHAR</b>s written to the buffer, not including the terminating null character.
 
-
 ### -param pcchResultBuf [in, out]
 
 Pointer to the variable that specifies the size, in <b>TCHAR</b>s, of the buffer pointed to by the variable <i>szResultBuf</i>. When the function returns <b>ERROR_SUCCESS</b>, this variable contains the size of the data copied to <i>szResultBuf</i>, not including the terminating null character. If <i>szResultBuf</i> is not large enough, the function returns <b>ERROR_MORE_DATA</b> and stores the required size, not including the terminating null character, in the variable pointed to by <i>pcchResultBuf</i>.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiFormatRecord</b> function returns one of the following values:
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiFormatRecord</b> function uses the following format process.
@@ -151,11 +136,5 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
 

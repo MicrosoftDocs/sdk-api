@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: e32051ef-5605-485c-94f9-d79f385cd6d6
 ms.date: 12/05/2018
 ms.keywords: CachedCanSelectMultiple property [Windows Accessibility], CachedCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedCanSelectMultiple property, IUIAutomationSelectionPattern.CachedCanSelectMultiple, IUIAutomationSelectionPattern.get_CachedCanSelectMultiple, IUIAutomationSelectionPattern::CachedCanSelectMultiple, IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, get_CachedCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CachedCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CachedCanSelectMultiple
-f1_keywords:
-- uiautomationclient/IUIAutomationSelectionPattern.CachedCanSelectMultiple
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationSelectionPattern.CachedCanSelectMultiple
-- IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
+ - uiautomationclient/IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationSelectionPattern.CachedCanSelectMultiple
+ - IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
 ---
 
 # IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a cached value that indicates whether more than one item in the container can be selected at one time.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_cachedisselectionrequired">IUIAutomationSelectionPattern::CachedIsSelectionRequired</a>
- 
-
- 
 

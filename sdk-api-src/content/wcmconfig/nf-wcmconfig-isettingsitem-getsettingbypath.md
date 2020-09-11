@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: a4270c46-b214-4232-b414-d6b6e4e35635
 ms.date: 12/05/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingByPath method, ISettingsItem.GetSettingByPath, ISettingsItem::GetSettingByPath, smi.isettingsitem_getsettingbypath, wcmconfig/ISettingsItem::GetSettingByPath
-f1_keywords:
-- wcmconfig/ISettingsItem.GetSettingByPath
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.GetSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::GetSettingByPath
+ - wcmconfig/ISettingsItem::GetSettingByPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.GetSettingByPath
 ---
 
 # ISettingsItem::GetSettingByPath
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a setting based on the given path.
 
-
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 Path of the list element or attribute to retrieve. The path is relative to the current setting.
 
-
 ### -param Setting [out]
 
  An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> interface pointer used to access the item.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,18 +127,8 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
 

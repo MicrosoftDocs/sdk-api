@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: a31267ed-60cd-4de9-9fed-26bb390b29e6
 ms.date: 12/05/2018
 ms.keywords: IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], IWICComponentInfo interface [Windows Imaging Component],described, _wic_codec_iwiccomponentinfo, wic._wic_codec_iwiccomponentinfo, wincodec/IWICComponentInfo
-f1_keywords:
-- wincodec/IWICComponentInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICComponentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICComponentInfo
+ - wincodec/IWICComponentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICComponentInfo
 ---
 
 # IWICComponentInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide component information.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Retrieves the component's version.
 
 </td>
 </tr>
-</table> 
+</table>
 

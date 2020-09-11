@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
 ms.date: 12/05/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
-f1_keywords:
-- cfgmgr32/CM_Unregister_Notification
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CfgMgr32.dll
-- API-MS-Win-devices-config-l1-1-0.dll
-- API-MS-Win-devices-config-l1-1-1.dll
-api_name:
-- CM_Unregister_Notification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Unregister_Notification
+ - cfgmgr32/CM_Unregister_Notification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CfgMgr32.dll
+ - API-MS-Win-devices-config-l1-1-0.dll
+ - API-MS-Win-devices-config-l1-1-1.dll
+api_name:
+ - CM_Unregister_Notification
 ---
 
 # CM_Unregister_Notification function
@@ -51,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
 
 The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICATION handle.
 
-
 ## -parameters
-
-
-
 
 ### -param NotifyContext [in]
 
 The HCMNOTIFICATION handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> function.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 Do not call <b>CM_Unregister_Notification</b> from a notification callback. Doing so may cause a deadlock because <b>CM_Unregister_Notification</b> waits for pending callbacks to finish.
 
@@ -233,17 +221,7 @@ end:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a>
- 
-
- 
 

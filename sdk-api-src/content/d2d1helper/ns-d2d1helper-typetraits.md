@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 18003d9f-4202-4bea-9580-bbf8fcdbca8f
 ms.date: 12/05/2018
 ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1helper/TypeTraits, direct2d.typetraits_t_
-f1_keywords:
-- d2d1helper/TypeTraits
-dev_langs:
-- c++
 req.header: d2d1helper.h
 req.include-header: D2d1_1helper.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1helper.h
-api_name:
-- TypeTraits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TypeTraits
+ - d2d1helper/TypeTraits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1helper.h
+api_name:
+ - TypeTraits
 ---
 
 # TypeTraits structure
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains implementations of <b>Point</b>, <b>Size</b>, and <b>Rect</b> that store their data using the specified type.
 
-
 ## -struct-fields
-
 
 ### -field field
 
 Contains the typedef for <b>Point</b>, <b>Size</b>, or <b>Rect</b> with the type specified in the template type.
 
-
 ### -field .Type
 
 The template type.
-
-
-
 

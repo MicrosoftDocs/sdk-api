@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
 ms.date: 12/05/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
-f1_keywords:
-- iads/IADsUser.SetPassword
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsUser.SetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsUser::SetPassword
+ - iads/IADsUser::SetPassword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsUser.SetPassword
 ---
 
 # IADsUser::SetPassword
@@ -49,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
    The <b>IADsUser::SetPassword</b> method sets the user password to a specified value. For the LDAP provider, the user account must have been created and stored in the underlying directory using  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> before <b>IADsUser::SetPassword</b> is called.
 
 The WinNT provider, however, enables you to set the password on a newly created user object prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>. This ensures that you create  passwords that comply with the system password policy before you create the user account.
 
-
 ## -parameters
-
-
-
 
 ### -param NewPassword
 
@@ -72,19 +67,11 @@ TBD
 
 A <b>BSTR</b> that contains the new password.
 
-
 ## -returns
-
-
 
 This method supports the standard return values, including <b>S_OK</b>. For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The LDAP provider for Active Directory uses one of three processes to set the password; third-party LDAP directories such as iPlanet do not use this password authentication process. The method may vary according to the network configuration. Attempts to set the password occur in the following order:
 
@@ -135,14 +122,7 @@ HRESULT SetPassword(IADsUser *pUser, BSTR password)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -170,7 +150,4 @@ HRESULT SetPassword(IADsUser *pUser, BSTR password)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
- 
-
- 
 

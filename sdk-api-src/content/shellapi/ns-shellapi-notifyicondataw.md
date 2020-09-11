@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
 ms.date: 12/05/2018
 ms.keywords: '*PNOTIFYICONDATAW, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAW, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA'
-f1_keywords:
-- shellapi/NOTIFYICONDATA
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shellapi.h
-api_name:
-- NOTIFYICONDATA
-- NOTIFYICONDATAW
 targetos: Windows
 req.typenames: NOTIFYICONDATAW, *PNOTIFYICONDATAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NOTIFYICONDATAW
+ - shellapi/_NOTIFYICONDATAW
+ - PNOTIFYICONDATAW
+ - shellapi/PNOTIFYICONDATAW
+ - NOTIFYICONDATAW
+ - shellapi/NOTIFYICONDATAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shellapi.h
+api_name:
+ - NOTIFYICONDATA
+ - NOTIFYICONDATAW
 ---
 
 # NOTIFYICONDATAW structure
@@ -50,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information that the system needs to display notifications in the notification area. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona">Shell_NotifyIcon</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -65,20 +65,17 @@ Type: <b>DWORD</b>
 
 The size of this structure, in bytes.
 
-
 ### -field hWnd
 
 Type: <b>HWND</b>
 
 A handle to the window that receives notifications associated with an icon in the notification area.
 
-
 ### -field uID
 
 Type: <b>UINT</b>
 
 The application-defined identifier of the taskbar icon. The Shell uses either (<b>hWnd</b> plus <b>uID</b>) or <b>guidItem</b> to identify which icon to operate on when <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona">Shell_NotifyIcon</a> is invoked. You can have multiple icons associated with a single <b>hWnd</b> by assigning each a different <b>uID</b>. If <b>guidItem</b> is specified, <b>uID</b> is ignored.
-
 
 ### -field uFlags
 
@@ -146,7 +143,6 @@ Flags that either indicate which of the other members of the structure contain v
 
 0x00000080. <b>Windows Vista and later</b>. Use the standard tooltip. Normally, when <b>uVersion</b> is set to NOTIFYICON_VERSION_4, the standard tooltip is suppressed and can be replaced by the application-drawn, pop-up UI. If the application wants to show the standard tooltip with NOTIFYICON_VERSION_4, it can specify NIF_SHOWTIP to indicate the standard tooltip should still be shown.
 
-
 ### -field uCallbackMessage
 
 Type: <b>UINT</b>
@@ -178,7 +174,6 @@ A handle to the icon to be added, modified, or deleted. Windows XP and later su
 
 If only a 16x16 pixel icon is provided, it is scaled to a larger size in a system set to a high dpi value. This can lead to an unattractive result. It is recommended that you provide both a 16x16 pixel icon and a 32x32 icon in your resource file. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-loadiconmetric">LoadIconMetric</a> to ensure that the correct icon is loaded and scaled appropriately. See Remarks for a code example.
 
-
 ### -field szTip
 
 Type: <b>TCHAR[64]</b>
@@ -188,7 +183,6 @@ A null-terminated string that specifies the text for a standard tooltip. It can 
 
 
 For Windows 2000 and later, <b>szTip</b> can have a maximum of 128 characters, including the terminating null character.
-
 
 ### -field dwState
 
@@ -208,13 +202,11 @@ Type: <b>DWORD</b>
 
 0x00000002. The icon resource is shared between multiple icons.
 
-
 ### -field dwStateMask
 
 Type: <b>DWORD</b>
 
 <b>Windows 2000 and later</b>. A value that specifies which bits of the <b>dwState</b> member are retrieved or modified. The possible values are the same as those for <b>dwState</b>. For example, setting this member to <b>NIS_HIDDEN</b> causes only the item's hidden state to be modified while the icon sharing bit is ignored regardless of its value.
-
 
 ### -field szInfo
 
@@ -222,11 +214,7 @@ Type: <b>TCHAR[256]</b>
 
 <b>Windows 2000 and later</b>. A null-terminated string that specifies the text to display in a balloon notification. It can have a maximum of 256 characters, including the terminating null character, but should be restricted to 200 characters in English to accommodate localization. To remove the balloon notification from the UI, either delete the icon (with <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona">NIM_DELETE</a>) or set the <b>NIF_INFO</b> flag in <b>uFlags</b> and set <b>szInfo</b> to an empty string.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.uTimeout
 
@@ -240,20 +228,17 @@ Type: <b>UINT</b>
 <div> </div>
 Union with <b>uVersion</b>. The timeout value, in milliseconds, for notification. The system enforces minimum and maximum timeout values. Values specified in <b>uTimeout</b> that are too large are set to the maximum value. Values that are too small default to the minimum value. The system minimum and maximum timeout values are currently set at 10 seconds and 30 seconds, respectively. See Remarks for further discussion of <b>uTimeout</b>.
 
-
 ### -field DUMMYUNIONNAME.uVersion
 
 Type: <b>UINT</b>
 
 <b>Windows 2000 and later</b>. Union with <b>uTimeout</b> (deprecated as of Windows Vista). Specifies which version of the Shell notification icon interface should be used. For more information on the differences in these versions, see <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona">Shell_NotifyIcon</a>. This member is employed only when using <b>Shell_NotifyIcon</b> to send an <b>NIM_SETVERSION</b> message.
 
-
 ### -field szInfoTitle
 
 Type: <b>TCHAR[64]</b>
 
 <b>Windows 2000 and later</b>. A null-terminated string that specifies a title for a balloon notification. This title appears in a larger font immediately above the text. It can have a maximum of 64 characters, including the terminating null character, but should be restricted to 48 characters in English to accommodate localization.
-
 
 ### -field dwInfoFlags
 
@@ -334,7 +319,6 @@ If the current user is not in quiet time, this flag has no effect.
 
 0x0000000F. <b>Windows XP and later</b>. Reserved.
 
-
 ### -field guidItem
 
 Type: <b>GUID</b>
@@ -352,7 +336,6 @@ If your application is intended to run on both Windows Vista and Windows 7, it
 If you identify the notification icon with a GUID in one call to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicona">Shell_NotifyIcon</a>, you must use that same GUID to identify the icon in any subsequent <b>Shell_NotifyIcon</b> calls that deal with that same icon.
 
 To generate a GUID for use in this member, use a GUID-generating tool such as Guidgen.exe.
-
 
 ### -field hBalloonIcon
 
@@ -501,10 +484,7 @@ Use the Windows 2000 behavior. Use this value for applications designed for Win
 
 Use the current behavior. Use this value for applications designed for Windows Vista and later.
 
-
 ## -remarks
-
-
 
 See <a href="https://msdn.microsoft.com/library/aa511497.aspx">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
 
@@ -646,11 +626,5 @@ This also occurs in the case of a side-by-side installation. When dealing with a
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/notification-area">Notifications and the Notification Area</a>
- 
-
- 
 

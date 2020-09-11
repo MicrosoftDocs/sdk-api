@@ -6,10 +6,6 @@ helpviewer_keywords: ["DWRITE_FONT_FAMILY_MODEL","DWRITE_FONT_FAMILY_MODEL enume
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: DWRITE_FONT_FAMILY_MODEL, DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write], directwrite.dwrite_font_family_model, dwrite_3/DWRITE_FONT_FAMILY_MODEL
-f1_keywords:
-- dwrite_3/DWRITE_FONT_FAMILY_MODEL
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_FAMILY_MODEL
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_FAMILY_MODEL
+ - dwrite_3/DWRITE_FONT_FAMILY_MODEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_FAMILY_MODEL
 ---
 
 ## -description
@@ -59,3 +60,4 @@ Families are grouped by the weight-stretch-style family name, where all faces th
 ## -remarks
 
 ## -see-also
+

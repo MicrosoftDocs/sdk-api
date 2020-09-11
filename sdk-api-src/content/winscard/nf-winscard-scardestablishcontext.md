@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1cf9b005-b76c-4fc9-b4bd-a1ad8552535f
 ms.date: 12/05/2018
 ms.keywords: SCARD_SCOPE_SYSTEM, SCARD_SCOPE_USER, SCardEstablishContext, SCardEstablishContext function [Security], _smart_scardestablishcontext, security.scardestablishcontext, winscard/SCardEstablishContext
-f1_keywords:
-- winscard/SCardEstablishContext
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-wlan-scard-l1-1-0.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardEstablishContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardEstablishContext
+ - winscard/SCardEstablishContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-wlan-scard-l1-1-0.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardEstablishContext
 ---
 
 # SCardEstablishContext function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardEstablishContext</b> function establishes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> (the scope) within which database operations are performed.
 
-
 ## -parameters
-
-
-
 
 ### -param dwScope [in]
 
@@ -90,38 +86,26 @@ Database operations are performed within the domain of the system. The calling a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvReserved1 [in]
 
 Reserved for future use and must be <b>NULL</b>. This parameter will allow a suitably privileged management application to act on behalf of another user.
 
-
 ### -param pvReserved2 [in]
 
 Reserved for future use and must be <b>NULL</b>.
-
 
 ### -param phContext [out]
 
 A handle to the established <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. This handle can now be supplied to other functions attempting to do work within this context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns SCARD_S_SUCCESS. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>. 
-
-
-
+If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 ## -remarks
-
-
 
 The context handle returned by <b>SCardEstablishContext</b> can be used by database query and management functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-query-functions">Smart Card Database Query Functions</a> and 
@@ -157,17 +141,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreleasecontext">SCardReleaseContext</a>
- 
-
- 
 

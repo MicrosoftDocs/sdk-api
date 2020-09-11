@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: C9DC823D-46D5-4459-A20A-0969D20C6E9E
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfo, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management], IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfo, appxpkg.iappxbundlemanifestoptionalbundleinfo
-f1_keywords:
-- appxpackaging/IAppxBundleManifestOptionalBundleInfo
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestOptionalBundleInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestOptionalBundleInfo
+ - appxpackaging/IAppxBundleManifestOptionalBundleInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestOptionalBundleInfo
 ---
 
 # IAppxBundleManifestOptionalBundleInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bundle package manifest. 
-
+Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bundle package manifest.
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Retrieves optional packages in the bundle.
 
 </td>
 </tr>
-</table> 
+</table>
 

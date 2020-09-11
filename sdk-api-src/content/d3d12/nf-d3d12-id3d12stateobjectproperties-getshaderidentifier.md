@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: E93279A1-4238-49C7-8525-EE01999454D9
 ms.date: 12/05/2018
 ms.keywords: GetShaderIdentifier, GetShaderIdentifier method, GetShaderIdentifier method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderIdentifier method, ID3D12StateObjectProperties.GetShaderIdentifier, ID3D12StateObjectProperties::GetShaderIdentifier, d3d12/ID3D12StateObjectProperties::GetShaderIdentifier, direct3d12.id3d12stateobjectproperties_getshaderidentifier
-f1_keywords:
-- d3d12/ID3D12StateObjectProperties.GetShaderIdentifier
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12StateObjectProperties.GetShaderIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12StateObjectProperties::GetShaderIdentifier
+ - d3d12/ID3D12StateObjectProperties::GetShaderIdentifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12StateObjectProperties.GetShaderIdentifier
 ---
 
 # ID3D12StateObjectProperties::GetShaderIdentifier
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the unique identifier for a shader that can be used in a shader record.  
-
+Retrieves the unique identifier for a shader that can be used in a shader record.
 
 ## -parameters
-
-
-
 
 ### -param pExportName
 
 Entrypoint in the state object for which to retrieve an identifier.
 
-
 ## -returns
-
-
 
 A pointer to the shader identifier.
 
@@ -75,16 +68,7 @@ The data itself globally identifies the shader, so even if the shader appears in
 
 If the shader isn’t fully resolved in the state object, the return value is <b>nullptr</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
- 
-
- 
 

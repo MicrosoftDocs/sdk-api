@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 81BC78F1-6F95-49D3-8EDD-EB7E13119A86
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList, IWSCProductList interface [Windows API], IWSCProductList interface [Windows API],described, iwscapi/IWSCProductList, winprog.iwscproductlist
-f1_keywords:
-- iwscapi/IWSCProductList
-dev_langs:
-- c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- iwscapi.h
-api_name:
-- IWSCProductList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSCProductList
+ - iwscapi/IWSCProductList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - iwscapi.h
+api_name:
+ - IWSCProductList
 ---
 
 # IWSCProductList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods  to collect product information for the selected type of providers installed on the computer.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Returns one of the  types of providers on the computer.
 
 </td>
 </tr>
-</table> 
+</table>
 

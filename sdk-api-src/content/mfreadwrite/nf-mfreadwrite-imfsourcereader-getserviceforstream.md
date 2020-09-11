@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d8868e4d-eedd-4fbd-b870-d3af48890c92
 ms.date: 12/05/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetServiceForStream method, IMFSourceReader.GetServiceForStream, IMFSourceReader::GetServiceForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getserviceforstream, mfreadwrite/IMFSourceReader::GetServiceForStream
-f1_keywords:
-- mfreadwrite/IMFSourceReader.GetServiceForStream
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReader.GetServiceForStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReader::GetServiceForStream
+ - mfreadwrite/IMFSourceReader::GetServiceForStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReader.GetServiceForStream
 ---
 
 # IMFSourceReader::GetServiceForStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the underlying media source or decoder for an interface.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -113,48 +109,28 @@ The media source.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param guidService [in]
 
 A service identifier GUID.  If the value is <b>GUID_NULL</b>, the method calls <b>QueryInterface</b> to get the requested interface. Otherwise, the method calls the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method. For a list of service identifiers, see <a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>.
 
-
 ### -param riid [in]
 
 The interface identifier (IID) of the interface being requested.
-
-
-
 
 ### -param ppvObject [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
@@ -165,7 +141,4 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
 

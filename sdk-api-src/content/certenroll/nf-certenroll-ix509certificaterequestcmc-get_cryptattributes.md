@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 733d29d8-95ea-4193-99b0-a07fcf560435
 ms.date: 12/05/2018
 ms.keywords: CryptAttributes property [Security], CryptAttributes property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],CryptAttributes property, IX509CertificateRequestCmc.CryptAttributes, IX509CertificateRequestCmc.get_CryptAttributes, IX509CertificateRequestCmc::CryptAttributes, IX509CertificateRequestCmc::get_CryptAttributes, certenroll/IX509CertificateRequestCmc::CryptAttributes, certenroll/IX509CertificateRequestCmc::get_CryptAttributes, get_CryptAttributes, security.ix509certificaterequestcmc_cryptattributes_property
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc.CryptAttributes
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCmc.CryptAttributes
-- IX509CertificateRequestCmc.get_CryptAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc::get_CryptAttributes
+ - certenroll/IX509CertificateRequestCmc::get_CryptAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCmc.CryptAttributes
+ - IX509CertificateRequestCmc.get_CryptAttributes
 ---
 
 # IX509CertificateRequestCmc::get_CryptAttributes
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptAttributes</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a> collection of optional certificate attributes.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You must initialize the CMC request object before calling this property. For more information, see the following topics:<ul>
 <li>
@@ -84,17 +80,7 @@ You must initialize the CMC request object before calling this property. For mor
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
- 
-
- 
 

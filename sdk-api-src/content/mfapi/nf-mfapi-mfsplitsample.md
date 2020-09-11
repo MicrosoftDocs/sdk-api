@@ -35,6 +35,7 @@ api_location:
 api_name:
  - MFSplitSample
 f1_keywords:
+ - MFSplitSample
  - mfapi/MFSplitSample
 dev_langs:
  - c++

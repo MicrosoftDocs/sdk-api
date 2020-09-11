@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 5978a8d3-78ea-4dc2-a957-32f00c81f52d
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportAdd, MprAdminInterfaceTransportAdd function [RAS], _mpr_mpradmininterfacetransportadd, mprapi/MprAdminInterfaceTransportAdd, rras.mpradmininterfacetransportadd
-f1_keywords:
-- mprapi/MprAdminInterfaceTransportAdd
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceTransportAdd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceTransportAdd
+ - mprapi/MprAdminInterfaceTransportAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceTransportAdd
 ---
 
 # MprAdminInterfaceTransportAdd function
@@ -49,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminInterfaceTransportAdd</b> function adds a transport (for example, IP or IPX) to a specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the router on which information is being added. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
-
 ### -param hInterface [in]
 
 Handle to the interface on which the transport is being added. This handle is obtained by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
-					
-
 
 ### -param dwTransportId [in]
 
@@ -102,23 +95,17 @@ A <b>DWORD</b> value that describes the transport type to add to the interface. 
 <td>Windows Server 2008 or later: Internet Protocol version 6</td>
 </tr>
 </table>
- 
-
 
 ### -param pInterfaceInfo [in]
 
 Pointer to an information header that specifies interface information for this transport. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
 
-
 ### -param dwInterfaceInfoSize [in]
 
 Specifies the size, in bytes, of the information pointed to by <i>pInterfaceInfo</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -174,24 +161,12 @@ The <i>dwTransportId</i> value does not match any supported transport.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>dwTransportId</i> parameter also specifies the router manager because a router uses a different router manager for each transport.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
@@ -210,7 +185,4 @@ The <i>dwTransportId</i> parameter also specifies the router manager because a r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

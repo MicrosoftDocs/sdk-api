@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 88c94a7f-5cf0-4d61-833f-91cba45d8624
 ms.date: 12/05/2018
 ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COSERVERINFO, com.coserverinfo, objidlbase/COSERVERINFO
-f1_keywords:
-- objidlbase/COSERVERINFO
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- objidlbase.h
-api_name:
-- COSERVERINFO
 targetos: Windows
 req.typenames: COSERVERINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _COSERVERINFO
+ - objidlbase/_COSERVERINFO
+ - COSERVERINFO
+ - objidlbase/COSERVERINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - objidlbase.h
+api_name:
+ - COSERVERINFO
 ---
 
 # COSERVERINFO structure
@@ -49,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Identifies a remote computer resource to the activation functions. 
-
+Identifies a remote computer resource to the activation functions.
 
 ## -struct-fields
-
-
-
 
 ### -field dwReserved1
 
 This member is reserved and must be 0.
 
-
 ### -field pwszName
 
 The name of the computer.
-
 
 ### -field pAuthInfo
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a> structure to override the default activation security for machine remote activations. Otherwise, set to <b>NULL</b> to indicate that default values should be used. For more information, see the Remarks section.
 
-
 ### -field dwReserved2
 
 This member is reserved and must be 0.
 
-
 ## -remarks
-
-
 
 The <b>COSERVERINFO</b> structure is used primarily to identify a remote system in object creation functions. Computer resources are named using the naming scheme of the network transport. By default, all UNC ("&#92;&#92;<i>server</i>" or "<i>server</i>") and DNS names ("<i>domain</i>.com", "<i>example</i>.microsoft.com", or "135.5.33.19") names are allowed. 
 
@@ -103,14 +95,7 @@ If the <i>pAuthInfo</i> parameter is <b>NULL</b>, then <i>dwAuthnLevel</i> can b
 
 Starting with Windows XP with Service Pack 2 (SP2), <i>dwAuthnLevel</i> is the maximum of RPC_C_AUTHN_LEVEL_CONNECT and the process-wide authentication level of the client process that is issuing the activation request. For earlier versions of the operating system, this is RPC_C_AUTHN_LEVEL_CONNECT.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/com/activation-security">Activation Security</a>
 
@@ -137,7 +122,4 @@ Starting with Windows XP with Service Pack 2 (SP2), <i>dwAuthnLevel</i> is the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/turning-off-activation-security">Turning Off Activation Security</a>
- 
-
- 
 

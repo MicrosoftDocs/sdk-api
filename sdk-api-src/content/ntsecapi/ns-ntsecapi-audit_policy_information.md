@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3fafeec9-a028-4a65-933e-fb973eb257b0
 ms.date: 12/05/2018
 ms.keywords: '*PAUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION, AUDIT_POLICY_INFORMATION structure [Security], PAUDIT_POLICY_INFORMATION, PAUDIT_POLICY_INFORMATION structure pointer [Security], PER_USER_AUDIT_FAILURE_EXCLUDE, PER_USER_AUDIT_FAILURE_INCLUDE, PER_USER_AUDIT_NONE, PER_USER_AUDIT_SUCCESS_EXCLUDE, PER_USER_AUDIT_SUCCESS_INCLUDE, PER_USER_POLICY_UNCHANGED, POLICY_AUDIT_EVENT_FAILURE, POLICY_AUDIT_EVENT_NONE, POLICY_AUDIT_EVENT_SUCCESS, POLICY_AUDIT_EVENT_UNCHANGED, ntsecapi/AUDIT_POLICY_INFORMATION, ntsecapi/PAUDIT_POLICY_INFORMATION, security.audit_policy_information'
-f1_keywords:
-- ntsecapi/AUDIT_POLICY_INFORMATION
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- AUDIT_POLICY_INFORMATION
 targetos: Windows
 req.typenames: AUDIT_POLICY_INFORMATION, *PAUDIT_POLICY_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AUDIT_POLICY_INFORMATION
+ - ntsecapi/_AUDIT_POLICY_INFORMATION
+ - PAUDIT_POLICY_INFORMATION
+ - ntsecapi/PAUDIT_POLICY_INFORMATION
+ - AUDIT_POLICY_INFORMATION
+ - ntsecapi/AUDIT_POLICY_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - AUDIT_POLICY_INFORMATION
 ---
 
 # AUDIT_POLICY_INFORMATION structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AUDIT_POLICY_INFORMATION</b> structure specifies a security event type and when to audit that type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AuditSubCategoryGuid
 
 A <b>GUID</b> structure that specifies an audit subcategory.
-
 
 ### -field AuditingInformation
 
@@ -205,18 +204,12 @@ This value is valid for the <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuditCategoryGuid
 
 A <b>GUID</b> structure that specifies an audit-policy category.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditcomputeeffectivepolicybysid">AuditComputeEffectivePolicyBySid</a>
 
@@ -239,7 +232,4 @@ A <b>GUID</b> structure that specifies an audit-policy category.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsystempolicy">AuditSetSystemPolicy</a>
- 
-
- 
 

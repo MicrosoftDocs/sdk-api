@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: c9e95532-8c65-45fb-acd0-a1f09cee2ce2
 ms.date: 12/05/2018
 ms.keywords: GopherGetAttribute, GopherGetAttribute function [WinINet], GopherGetAttributeA, GopherGetAttributeW, _inet_gophergetattribute_function, wininet.gophergetattribute, wininet/GopherGetAttribute, wininet/GopherGetAttributeA, wininet/GopherGetAttributeW
-f1_keywords:
-- wininet/GopherGetAttribute
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- GopherGetAttribute
-- GopherGetAttributeA
-- GopherGetAttributeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GopherGetAttributeA
+ - wininet/GopherGetAttributeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - GopherGetAttribute
+ - GopherGetAttributeA
+ - GopherGetAttributeW
 ---
 
 # GopherGetAttributeA function
@@ -51,27 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>GopherGetAttribute</b> function is available for use in the operating systems specified in the Requirements section.]
 
 Retrieves the specific attribute information from the server.
 
-
 ## -parameters
-
-
-
 
 ### -param hConnect [in]
 
 Handle to a Gopher session returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
-
 ### -param lpszLocator [in]
 
 Pointer to a <b>null</b>-terminated string that identifies the item at the Gopher server on which to return attribute information.
-
 
 ### -param lpszAttributeName [in]
 
@@ -79,23 +73,19 @@ Pointer to a space-delimited string specifying the names of attributes to return
 <i>lpszAttributeName</i> is <b>NULL</b>, 
 <b>GopherGetAttribute</b> returns information about all attributes.
 
-
 ### -param lpBuffer [out]
 
 Pointer to an application-defined buffer from which attribute information is retrieved.
-
 
 ### -param dwBufferLength [in]
 
 Size of the 
 <i>lpBuffer</i> buffer, in <b>TCHARs</b>.
 
-
 ### -param lpdwCharactersReturned [out]
 
 Pointer to a variable that contains the number of characters read into the 
 <i>lpBuffer</i> buffer.
-
 
 ### -param lpfnEnumerator [in]
 
@@ -108,26 +98,17 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-
 The callback function receives the address of a single 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-gopher_attribute_type">GOPHER_ATTRIBUTE_TYPE</a> structure with each call. The enumeration callback function allows the application to avoid having to parse the Gopher attribute information.
 
-
 ### -param dwContext [in]
 
 Application-defined value that associates this operation with any application data.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the request is satisfied, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a>.
 
-
-
-
 ## -remarks
-
-
 
 Generally, applications call this function after calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a> or 
@@ -149,11 +130,5 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

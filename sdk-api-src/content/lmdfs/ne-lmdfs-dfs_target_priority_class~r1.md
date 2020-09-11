@@ -3,10 +3,6 @@ UID: NE:lmdfs._DFS_TARGET_PRIORITY_CLASS~r1
 title: DFS_TARGET_PRIORITY_CLASS
 ms.date: 01/30/19
 ms.keywords: _DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
-f1_keywords:
-- lmdfs/_DFS_TARGET_PRIORITY_CLASS
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -19,15 +15,22 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - _DFS_TARGET_PRIORITY_CLASS
+ - lmdfs/_DFS_TARGET_PRIORITY_CLASS
+ - DFS_TARGET_PRIORITY_CLASS
+ - lmdfs/DFS_TARGET_PRIORITY_CLASS
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- lmdfs.h
+ - lmdfs.h
 api_name:
-- _DFS_TARGET_PRIORITY_CLASS
-- DFS_TARGET_PRIORITY_CLASS
+ - _DFS_TARGET_PRIORITY_CLASS
+ - DFS_TARGET_PRIORITY_CLASS
 ---
 
 # DFS_TARGET_PRIORITY_CLASS enumeration
@@ -37,42 +40,33 @@ api_name:
 
 Defines the set of possible DFS target priority class settings.
 
-
 ## -enum-fields
 
 ### -field DfsInvalidPriorityClass
 
 The priority class is not valid.
 
-
 ### -field DfsSiteCostNormalPriorityClass
 
 The middle or "normal" site cost priority class for a DFS target.
-
 
 ### -field DfsGlobalHighPriorityClass
 
 The highest priority class for a DFS target. Targets assigned this class receive global preference.
 
-
 ### -field DfsSiteCostHighPriorityClass
 
 The highest site cost priority class for a DFS target. Targets assigned this class receive the most preference among targets of the same site cost for a given DFS client.
-
 
 ### -field DfsSiteCostLowPriorityClass
 
 The lowest site cost priority class for a DFS target. Targets assigned this class receive the least preference among targets of the same site cost for a given DFS client.
 
-
 ### -field DfsGlobalLowPriorityClass
 
 The lowest level of priority class for a DFS target. Targets assigned this class receive the least preference globally.
 
-
 ## -remarks
-
-
 
 The order of priority classes from highest to lowest is as follows:
 
@@ -96,15 +90,7 @@ For example, all of the server targets with a site-cost value of 0 are first gro
 For more information about how server target priority is determined, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
- 
-
 

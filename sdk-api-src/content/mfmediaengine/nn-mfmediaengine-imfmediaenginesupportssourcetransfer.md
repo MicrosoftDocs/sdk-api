@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
-f1_keywords:
-- mfmediaengine/IMFMediaEngineSupportsSourceTransfer
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineSupportsSourceTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineSupportsSourceTransfer
+ - mfmediaengine/IMFMediaEngineSupportsSourceTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineSupportsSourceTransfer
 ---
 
 # IMFMediaEngineSupportsSourceTransfer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the media source to be transferred between  the media engine and the sharing engine for Play To.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Specifies wether or not the source should be transferred.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

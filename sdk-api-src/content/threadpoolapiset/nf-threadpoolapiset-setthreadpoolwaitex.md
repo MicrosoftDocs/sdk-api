@@ -1,17 +1,13 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWaitEx
 title: SetThreadpoolWaitEx function (threadpoolapiset.h)
-description: Sets the wait object�replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
+description: Sets the wait object�replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
 helpviewer_keywords: ["SetThreadpoolWaitEx","SetThreadpoolWaitEx function","base.setthreadpoolwaitex","threadpoolapiset/SetThreadpoolWaitEx"]
 old-location: base\setthreadpoolwaitex.htm
 tech.root: backup
 ms.assetid: 0653D169-CE6B-4D8F-A640-F49B2BCBBF61
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWaitEx, SetThreadpoolWaitEx function, base.setthreadpoolwaitex, threadpoolapiset/SetThreadpoolWaitEx
-f1_keywords:
-- threadpoolapiset/SetThreadpoolWaitEx
-dev_langs:
-- c++
 req.header: threadpoolapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetThreadpoolWaitEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadpoolWaitEx
+ - threadpoolapiset/SetThreadpoolWaitEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetThreadpoolWaitEx
 ---
 
 # SetThreadpoolWaitEx function
@@ -54,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the wait object, replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
 
-
 ## -parameters
-
-
-
 
 ### -param pwa [in, out]
 
 A pointer to a <b>TP_WAIT</b> structure that defines the wait object. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait">CreateThreadpoolWait</a> function returns this pointer.
-
 
 ### -param h [in, optional]
 
@@ -79,7 +74,6 @@ If this parameter is not NULL, it must refer to a valid waitable object.
 If this handle is closed while the wait is still pending, the function's behavior is undefined. If the wait is still pending and the handle must be closed, use <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a> to cancel the wait and then close the handle.
 
 The wait is considered set if this parameter is non-NULL.
-
 
 ### -param pftTimeout [in, optional]
 
@@ -110,9 +104,6 @@ If the timeout specified by <i>pftTimeout</i> is relative, the time that the sys
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>
 
 
@@ -126,7 +117,4 @@ If the timeout specified by <i>pftTimeout</i> is relative, the time that the sys
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks">WaitForThreadpoolWaitCallbacks</a>
- 
-
- 
 

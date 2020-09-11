@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 8c393786-0c2d-4244-8ec3-0ac9e47e76c6
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],PrepareMedia method, IDiscFormat2RawCD.PrepareMedia, IDiscFormat2RawCD::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_preparemedia, imapi2/IDiscFormat2RawCD::PrepareMedia
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.PrepareMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.PrepareMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::PrepareMedia
+ - imapi2/IDiscFormat2RawCD::PrepareMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.PrepareMedia
 ---
 
 # IDiscFormat2RawCD::PrepareMedia
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the current media for exclusive access.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -449,14 +441,8 @@ Value: 0x00AA0006
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname">IDiscFormat2RawCD::put_ClientName</a> method. 
 
@@ -464,20 +450,11 @@ Also, you must call the <b>IDiscFormat2RawCD::PrepareMedia</b> method before cal
 
 After the write is complete or you cancel the write operation, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a> method to release the lock.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a>
- 
-
- 
 

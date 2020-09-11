@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 578c7130-7426-4a2e-ae0f-ed8a84449b06
 ms.date: 12/05/2018
 ms.keywords: InternetSetOption, InternetSetOption function [WinINet], InternetSetOptionA, InternetSetOptionW, _inet_internetsetoption_function, wininet.internetsetoption, wininet/InternetSetOption, wininet/InternetSetOptionA, wininet/InternetSetOptionW
-f1_keywords:
-- wininet/InternetSetOption
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetSetOption
-- InternetSetOptionA
-- InternetSetOptionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetSetOptionA
+ - wininet/InternetSetOptionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetSetOption
+ - InternetSetOptionA
+ - InternetSetOptionW
 ---
 
 # InternetSetOptionA function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an Internet option.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 Handle on which to set information.
-
 
 ### -param dwOption [in]
 
 Internet option to be set. This can be one of the 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/option-flags">Option Flags</a> values.
 
-
 ### -param lpBuffer [in]
 
 Pointer to a buffer that contains the option setting.
-
 
 ### -param dwBufferLength [in]
 
@@ -83,23 +76,14 @@ Size of the
 <i>lpBuffer</i> contains a string, 
 the size is in <b>TCHARs</b>.  If 
 <i>lpBuffer</i> contains anything other than a string, 
-the size is in bytes. 
-
+the size is in bytes.
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return the error <b>ERROR_INVALID_PARAMETER</b> if an option flag that cannot be set is specified.
 
@@ -118,9 +102,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 > The wininet.h header defines InternetSetOption as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
@@ -147,7 +128,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

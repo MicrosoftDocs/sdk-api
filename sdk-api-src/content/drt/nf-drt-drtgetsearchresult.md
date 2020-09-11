@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: b89ea470-072e-46b6-9f5d-3e05aa012188
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchResult, DrtGetSearchResult function [Peer Networking], drt/DrtGetSearchResult, p2p.drtgetsearchresult
-f1_keywords:
-- drt/DrtGetSearchResult
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtGetSearchResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtGetSearchResult
+ - drt/DrtGetSearchResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtGetSearchResult
 ---
 
 # DrtGetSearchResult function
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtGetSearchResult</b> function allows the caller to retrieve the search result(s).
 
-
 ## -parameters
-
-
-
 
 ### -param hSearchContext [in]
 
 Handle to the search context to close. This parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> function.
 
-
 ### -param ulSearchResultSize [out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result">DRT_SEARCH_RESULT</a> structure containing the search result.
-
 
 ### -param pSearchResult
 
 Receives a pointer to a DRT_SEARCH_RESULT structure containing the search results.
 
-
-
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -164,18 +153,8 @@ The search is currently in progress.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
- 
-
- 
 

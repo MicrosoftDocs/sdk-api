@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: a3928874-5a15-43d9-9d9c-8b66478b0597
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], IPhotoProgressDialog interface [Picture Acquisition],described, IPhotoProgressDialogInterface, photoacquire/IPhotoProgressDialog, picacq.iphotoprogressdialog
-f1_keywords:
-- photoacquire/IPhotoProgressDialog
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IPhotoProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog
+ - photoacquire/IPhotoProgressDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IPhotoProgressDialog
 ---
 
 # IPhotoProgressDialog interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Provides the progress dialog box that may be displayed when enumerating or importing images. The dialog box is modal and runs in its own thread.
-
-
-
 
 ## -inheritance
 
@@ -197,16 +193,9 @@ Indicates whether to show the check box in the progress dialog box indicating wh
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
 

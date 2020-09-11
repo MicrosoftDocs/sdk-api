@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 328902b7-97e3-40dc-9771-f5e64ccf3364
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_DSM_INPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_RESILIENCY_START_LOAD_BALANCING, DEVICE_DSM_FLAG_RESILIENCY_START_RESYNC, DEVICE_DSM_FLAG_TRIM_NOT_FS_ALLOCATED, DEVICE_DSM_INPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer, base.device_manage_data_set_attributes, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES'
-f1_keywords:
-- winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
 req.redist: 
+f1_keywords:
+ - _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/_DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
 # DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
@@ -48,22 +53,16 @@ req.redist:
 
 ## -description
 
-
 Input structure for the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of this data structure. Must be set to 
       <code>sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES)</code>.
-
 
 ### -field Action
 
@@ -191,8 +190,6 @@ A resiliency action is performed. The <b>DeviceDsmActionFlag_NonDestructive</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -240,8 +237,6 @@ Starts a load balancing operation on the storage device. This flag is specific t
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ParameterBlockOffset
 
@@ -249,12 +244,10 @@ Byte offset to the start of the parameter block stored in the buffer contiguous 
       aligned to the corresponding structure alignment. A value of zero indicates there is no parameter block and the 
       <b>ParameterBlockLength</b> member must also be zero.
 
-
 ### -field ParameterBlockLength
 
 Length of the parameter block, in bytes. A value of zero indicates there is no parameter block and the 
       <b>ParameterBlockOffset</b> member must also be zero.
-
 
 ### -field DataSetRangesOffset
 
@@ -265,27 +258,17 @@ Byte offset to the start of the data set ranges block made up of an array of
       value of zero indicates there is no data set ranges block and the 
       <b>DataSetRangesLength</b> member must also be zero.
 
-
 ### -field DataSetRangesLength
 
 Length of the data set ranges block, in bytes. A value of zero indicates there is no data set ranges block 
       and the <b>DataSetRangesOffset</b> member must also be zero.
 
-
 ## -remarks
-
-
 
 The total length of the buffer that contains this structure must be at least 
     <code>(sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES) + ParameterBlockLength + DataSetRangesLength)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
@@ -296,7 +279,4 @@ The total length of the buffer that contains this structure must be at least
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
 

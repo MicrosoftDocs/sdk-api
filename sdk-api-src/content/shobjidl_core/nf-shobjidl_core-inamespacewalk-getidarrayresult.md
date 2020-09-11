@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3
 ms.date: 12/05/2018
 ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArrayResult method [Windows Shell],INamespaceWalk interface, INamespaceWalk interface [Windows Shell],GetIDArrayResult method, INamespaceWalk.GetIDArrayResult, INamespaceWalk::GetIDArrayResult, _win32_INamespaceWalk_GetIDArrayResult, shell.INamespaceWalk_GetIDArrayResult, shobjidl_core/INamespaceWalk::GetIDArrayResult
-f1_keywords:
-- shobjidl_core/INamespaceWalk.GetIDArrayResult
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INamespaceWalk.GetIDArrayResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INamespaceWalk::GetIDArrayResult
+ - shobjidl_core/INamespaceWalk::GetIDArrayResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INamespaceWalk.GetIDArrayResult
 ---
 
 # INamespaceWalk::GetIDArrayResult
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of objects found during a namespace walk initiated by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">INamespaceWalk::Walk</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pcItems [out]
 
@@ -64,28 +60,19 @@ Type: <b>UINT*</b>
 
 The number of items stored in <i>pppidl</i>
 
-
 ### -param prgpidl [out]
 
 Type: <b>LPITEMIDLIST**</b>
 
 The address of a pointer to an array of PIDLs representing the items found during the namespace walk.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To use <b>INamespaceWalk::GetIDArrayResult</b>, <b>NSWF_DONT_ACCUMULATE_RESULT</b> cannot be specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalk-walk">INamespaceWalk::Walk</a>.
 
@@ -148,7 +135,4 @@ void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
     return; 
 }
 ```
-
-
-
 

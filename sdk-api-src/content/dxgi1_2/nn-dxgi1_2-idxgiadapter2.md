@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 9AAD133C-CE40-498B-827F-2B35C7C15B8C
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter2, IDXGIAdapter2 interface [DXGI], IDXGIAdapter2 interface [DXGI],described, direct3ddxgi.idxgiadapter2, dxgi1_2/IDXGIAdapter2
-f1_keywords:
-- dxgi1_2/IDXGIAdapter2
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIAdapter2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIAdapter2
+ - dxgi1_2/IDXGIAdapter2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIAdapter2
 ---
 
 # IDXGIAdapter2 interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDXGIAdapter2</b> interface represents a display subsystem, which includes one or more GPUs, DACs, and video memory.
-      
-
 
 ## -inheritance
 
@@ -79,12 +77,9 @@ Gets a DXGI 1.2 description of an adapter or video card. This description includ
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A display subsystem is often referred to as a video card; however, on some computers, the display subsystem is part of the motherboard.
         
@@ -96,22 +91,12 @@ To get an interface to the adapter for a particular device, use <a href="https:/
         
 
 To create a software adapter, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createsoftwareadapter">IDXGIFactory::CreateSoftwareAdapter</a>.
-        
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1">IDXGIAdapter1</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 80d6efdd-c3ce-4c6b-9bc2-7ad34c1dfb5e
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_StartingSectorsPerSecond method, IWriteEngine2.put_StartingSectorsPerSecond, IWriteEngine2::put_StartingSectorsPerSecond, imapi.iwriteengine2_put_startingsectorspersecond, imapi2/IWriteEngine2::put_StartingSectorsPerSecond, put_StartingSectorsPerSecond, put_StartingSectorsPerSecond method [IMAPI], put_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface
-f1_keywords:
-- imapi2/IWriteEngine2.put_StartingSectorsPerSecond
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.put_StartingSectorsPerSecond
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::put_StartingSectorsPerSecond
+ - imapi2/IWriteEngine2::put_StartingSectorsPerSecond
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.put_StartingSectorsPerSecond
 ---
 
 # IWriteEngine2::put_StartingSectorsPerSecond
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
 Approximate number of sectors per second that the recording device can write to the media at the start of the writing process. The default is -1 for maximum speed.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -101,24 +94,12 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This is used to optimize sleep time in the write engine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
@@ -141,7 +122,4 @@ This is used to optimize sleep time in the write engine.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_endingsectorspersecond">IWriteEngine2::put_EndingSectorsPerSecond</a>
- 
-
- 
 

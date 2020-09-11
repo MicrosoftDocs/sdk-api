@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], IFsrmQuotaManager interface [File Server Resource Manager],described, fs.ifsrmquotamanager, fsrm.ifsrmquotamanager, fsrmquota/IFsrmQuotaManager
-f1_keywords:
-- fsrmquota/IFsrmQuotaManager
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaManager
+ - fsrmquota/IFsrmQuotaManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaManager
 ---
 
 # IFsrmQuotaManager interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -61,7 +61,6 @@ To get this interface, call the
     <b>CLSID_FsrmQuotaManager</b> as the class identifier and 
     <code>__uuidof(IFsrmQuotaManager)</code> as the interface identifier. For 
     an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-quota">Defining a Quota</a>.
-
 
 ## -inheritance
 
@@ -210,12 +209,9 @@ Retrieves a  list of macros that you can specify in action property values.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A directory quota restricts the size of a specific directory to a configurable quota limit. In addition to 
     the limit, a directory quota may be configured with one or more directory quota thresholds which define a set of 
@@ -232,13 +228,7 @@ Note that if the directory is renamed, the quota applies to the renamed director
 To create this object from a script, use the program identifier, 
     "Fsrm.FsrmQuotaManager".
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -253,7 +243,4 @@ To create this object from a script, use the program identifier,
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

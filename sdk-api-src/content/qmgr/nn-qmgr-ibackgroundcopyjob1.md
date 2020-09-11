@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgroundCopyJob1 interface [BITS],described, bits.ibackgroundcopyjob1, qmgr/IBackgroundCopyJob1
-f1_keywords:
-- qmgr/IBackgroundCopyJob1
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob1
-- IBackgroundCopyJob1.CancelJob
-- IBackgroundCopyJob1.SwitchToForeground
-- IBackgroundCopyJob1.GetTimes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob1
+ - qmgr/IBackgroundCopyJob1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob1
+ - IBackgroundCopyJob1.CancelJob
+ - IBackgroundCopyJob1.SwitchToForeground
+ - IBackgroundCopyJob1.GetTimes
 ---
 
 # IBackgroundCopyJob1 interface
@@ -52,11 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>IBackgroundCopyJob1</b> interface to add files to the job and retrieve the job's status.
-
 
 ## -inheritance
 
@@ -139,5 +138,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

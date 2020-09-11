@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 8845fd4d-a1a8-40cf-9359-5a2900432f32
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMDone method, IComCRMEvents.OnCRMDone, IComCRMEvents::OnCRMDone, OnCRMDone, OnCRMDone method [COM+], OnCRMDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMDone, comsvcs/IComCRMEvents::OnCRMDone, cos.icomcrmevents_oncrmdone
-f1_keywords:
-- comsvcs/IComCRMEvents.OnCRMDone
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComCRMEvents.OnCRMDone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComCRMEvents::OnCRMDone
+ - comsvcs/IComCRMEvents::OnCRMDone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComCRMEvents.OnCRMDone
 ---
 
 # IComCRMEvents::OnCRMDone
@@ -49,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when CRM clerk is done processing transaction outcome notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param pInfo [in]
 
 A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
-
 ### -param guidClerkCLSID [in]
 
 The identifier of the CRM clerk.
 
-
 ## -returns
-
-
 
 The user verifies the return values from this method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomcrmevents">IComCRMEvents</a>
- 
-
- 
 

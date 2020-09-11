@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
-f1_keywords:
-- uianimation/IUIAnimationVariableCurveChangeHandler2
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationVariableCurveChangeHandler2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationVariableCurveChangeHandler2
+ - uianimation/IUIAnimationVariableCurveChangeHandler2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationVariableCurveChangeHandler2
 ---
 
 # IUIAnimationVariableCurveChangeHandler2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines a method for handling animation curve update events. 
-
+Defines a method for handling animation curve update events.
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Handles events that occur when the animation curve of an animation variable chan
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurve">IUIAnimationVariable2::GetCurve</a>
 
@@ -102,7 +97,4 @@ Handles events that occur when the animation curve of an animation variable chan
 
 
 <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
- 
-
- 
 

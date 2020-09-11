@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8c93036c-0b93-40d4-b0e3-ba1f2fc72db1
 ms.date: 12/05/2018
 ms.keywords: CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_DISABLE_AUTH_ROOT_AUTO_UPDATE, CERT_CHAIN_DISABLE_MY_PEER_TRUST, CERT_CHAIN_DISABLE_PASS1_QUALITY_FILTERING, CERT_CHAIN_ENABLE_PEER_TRUST, CERT_CHAIN_OPT_IN_WEAK_SIGNATURE, CERT_CHAIN_RETURN_LOWER_QUALITY_CONTEXTS, CERT_CHAIN_REVOCATION_ACCUMULATIVE_TIMEOUT, CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY, CERT_CHAIN_REVOCATION_CHECK_CHAIN, CERT_CHAIN_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, CERT_CHAIN_REVOCATION_CHECK_END_CERT, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_CHAIN_TIMESTAMP_TIME, CertGetCertificateChain, CertGetCertificateChain function [Security], _crypto2_certgetcertificatechain, security.certgetcertificatechain, wincrypt/CertGetCertificateChain
-f1_keywords:
-- wincrypt/CertGetCertificateChain
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetCertificateChain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetCertificateChain
+ - wincrypt/CertGetCertificateChain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetCertificateChain
 ---
 
 # CertGetCertificateChain function
@@ -49,41 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertGetCertificateChain</b> function builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificate</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hChainEngine [in, optional]
 
 A handle of the chain engine (namespace and cache) to be used. If <i>hChainEngine</i> is <b>NULL</b>, the default chain engine, HCCE_CURRENT_USER, is used. This parameter can be set to HCCE_LOCAL_MACHINE.
-
 
 ### -param pCertContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the end certificate, the certificate for which a chain is being built. This certificate context will be the zero-index element in the first simple chain.
 
-
 ### -param pTime [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> variable that indicates the time for which the chain is to be validated. Note that the time does not affect trust list, revocation, or root store checking. The current system time is used if <b>NULL</b> is passed to this parameter. Trust in a particular certificate being a trusted root is based on the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the root store and not the state of the root store at a time passed in by this parameter. For revocation, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), itself, must be valid at the current time. The value of this parameter is used to determine whether a certificate listed in a CRL has been revoked.
 
-
 ### -param hAdditionalStore [in]
 
-A handle to any additional store to search for supporting certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). This parameter can be <b>NULL</b> if no additional store is to be searched. 
-
+A handle to any additional store to search for supporting certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). This parameter can be <b>NULL</b> if no additional store is to be searched.
 
 ### -param pChainPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure that includes chain-building parameters.
-
 
 ### -param dwFlags [in]
 
@@ -300,34 +291,23 @@ Revocation checking is done on all certificates in all of the chains except the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param ppChainContext [out]
 
 The address of a pointer to the chain context created. When you have finished using the chain context, release the chain by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns  zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 When an application requests a certificate chain, the structure returned is in the form of a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>. This context contains an array of 
@@ -361,12 +341,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a>
 
@@ -381,7 +356,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
- 
-
- 
 

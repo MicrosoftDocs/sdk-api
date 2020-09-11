@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a6fdfa00-626d-425d-b00e-c174b19ea4b9
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx
-f1_keywords:
-- fileapi/SetFilePointerEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFilePointerEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFilePointerEx
+ - fileapi/SetFilePointerEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFilePointerEx
 ---
 
 # SetFilePointerEx function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the file pointer of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -72,18 +68,15 @@ A handle to the file. The file handle must have been created with the
       information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param liDistanceToMove [in]
 
 The number of bytes to move the file pointer. A positive value moves the pointer forward in the file and a 
       negative value moves the file pointer backward.
 
-
 ### -param lpNewFilePointer [out, optional]
 
 A pointer to a variable to receive the new file pointer. If this parameter is 
       <b>NULL</b>, the new file pointer is not returned.
-
 
 ### -param dwMoveMethod [in]
 
@@ -129,24 +122,15 @@ The starting point is the current end-of-file position.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The file pointer returned by this function is not used for overlapped read and write operations. To specify 
     the offset for overlapped operations, use the <b>Offset</b> and 
@@ -249,15 +233,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -284,7 +261,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

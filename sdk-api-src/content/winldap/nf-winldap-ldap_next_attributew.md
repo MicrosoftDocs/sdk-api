@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 4df50d80-0d01-4d7f-b542-865b84bac2a5
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_next_attribute, ldap.ldap__next__attribute, ldap.ldap_next_attribute, ldap_next_attribute, ldap_next_attribute function [LDAP], ldap_next_attributeA, ldap_next_attributeW, winldap/ldap_next_attribute, winldap/ldap_next_attributeA, winldap/ldap_next_attributeW
-f1_keywords:
-- winldap/ldap_next_attribute
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_next_attribute
-- ldap_next_attributeA
-- ldap_next_attributeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_next_attributeW
+ - winldap/ldap_next_attributeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_next_attribute
+ - ldap_next_attributeA
+ - ldap_next_attributeW
 ---
 
 # ldap_next_attributeW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 For a given entry, the <b>ldap_next_attribute</b> function returns the next attribute.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
-
 
 ### -param entry [in]
 
@@ -71,26 +66,17 @@ The entry whose attributes are to be stepped through, as returned by
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_entry">ldap_first_entry</a> or 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>.
 
-
 ### -param ptr [in, out]
 
 The address of a pointer used internally to track the current position in the entry.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a pointer to a null-terminated string that contains the current attribute name. If there are no more attributes to step through, it returns <b>NULL</b>. The session error parameter in the LDAP data structure is set to 0 in either case.
 
 If the function fails, it returns <b>NULL</b> and sets the session error parameter in the LDAP data structure to the LDAP error code.
 
-
-
-
 ## -remarks
-
-
 
 Use 
 <b>ldap_next_attribute</b> in conjunction with 
@@ -117,9 +103,6 @@ The
 > The winldap.h header defines ldap_next_attribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
@@ -154,7 +137,4 @@ The
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
- 
-
- 
 

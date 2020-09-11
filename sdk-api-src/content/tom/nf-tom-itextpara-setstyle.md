@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetstyle.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetStyle method, ITextPara.SetStyle, ITextPara::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextPara interface, _win32_ITextPara_SetStyle, _win32_ITextPara_SetStyle_cpp, controls.ITextPara_SetStyle, controls._win32_ITextPara_SetStyle, tom/ITextPara::SetStyle
-f1_keywords:
-- tom/ITextPara.SetStyle
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetStyle
+ - tom/ITextPara::SetStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetStyle
 ---
 
 # ITextPara::SetStyle
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the paragraph style for the paragraphs in a range. 
-
+Sets the paragraph style for the paragraphs in a range.
 
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-New paragraph style handle. For a list of styles, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getstyle">ITextPara::GetStyle</a>. 
-
+New paragraph style handle. For a list of styles, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getstyle">ITextPara::GetStyle</a>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -134,15 +127,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -161,7 +147,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

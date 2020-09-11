@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 15a2e042-cfd5-443e-a3b8-822f48eb9654
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_REQUIRED_PRIVILEGES_INFOW, LPSERVICE_REQUIRED_PRIVILEGES_INFO, LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer, SERVICE_REQUIRED_PRIVILEGES_INFO, SERVICE_REQUIRED_PRIVILEGES_INFO structure, SERVICE_REQUIRED_PRIVILEGES_INFOA, SERVICE_REQUIRED_PRIVILEGES_INFOW, base.service_required_privileges_info, winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW'
-f1_keywords:
-- winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_REQUIRED_PRIVILEGES_INFO
-- SERVICE_REQUIRED_PRIVILEGES_INFOA
-- SERVICE_REQUIRED_PRIVILEGES_INFOW
 targetos: Windows
 req.typenames: SERVICE_REQUIRED_PRIVILEGES_INFOW, *LPSERVICE_REQUIRED_PRIVILEGES_INFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_REQUIRED_PRIVILEGES_INFOW
+ - winsvc/_SERVICE_REQUIRED_PRIVILEGES_INFOW
+ - LPSERVICE_REQUIRED_PRIVILEGES_INFOW
+ - winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFOW
+ - SERVICE_REQUIRED_PRIVILEGES_INFOW
+ - winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_REQUIRED_PRIVILEGES_INFO
+ - SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - SERVICE_REQUIRED_PRIVILEGES_INFOW
 ---
 
 # SERVICE_REQUIRED_PRIVILEGES_INFOW structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the required privileges for a service.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pmszRequiredPrivileges
 
@@ -66,10 +66,7 @@ A multi-string that specifies the privileges. For a list of possible values, see
 
 A multi-string is a sequence of null-terminated strings, terminated by an empty string (\0). The following is an example: <code>String1\0String2\0String3\0LastString\0\0</code>.
 
-
 ## -remarks
-
-
 
 The change in required privileges takes effect the next time the service is started. The SCM determines whether the service can support the specified privileges when it attempts to start the service.
 
@@ -88,15 +85,9 @@ For compatibility, the SeChangeNotifyPrivilege privilege is never removed from a
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
- 
-
- 
 

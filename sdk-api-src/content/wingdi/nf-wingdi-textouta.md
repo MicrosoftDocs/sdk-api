@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6
 ms.date: 12/05/2018
 ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32_TextOut, gdi.textout, wingdi/TextOut, wingdi/TextOutA, wingdi/TextOutW
-f1_keywords:
-- wingdi/TextOut
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- TextOut
-- TextOutA
-- TextOutW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TextOutA
+ - wingdi/TextOutA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - TextOut
+ - TextOutA
+ - TextOutW
 ---
 
 # TextOutA function
@@ -56,54 +57,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TextOut</b> function writes a character string at the specified location, using the currently selected font, background color, and text color.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param x [in]
 
 The x-coordinate, in logical coordinates, of the reference point that the system uses to align the string.
-
 
 ### -param y [in]
 
 The y-coordinate, in logical coordinates, of the reference point that the system uses to align the string.
 
-
 ### -param lpString [in]
 
 A pointer to the string to be drawn. The string does not need to be zero-terminated, because <i>cchString</i> specifies the length of the string.
-
 
 ### -param c [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>, in characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The interpretation of the reference point depends on the current text-alignment mode. An application can retrieve this mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function; an application can alter this mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. You can use the following values for text alignment. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
 
@@ -258,9 +242,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enum
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
@@ -290,7 +271,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enum
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut</a>
- 
-
- 
 

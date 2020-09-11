@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1qud.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRoutingMethod interface [Fax Service],ImageName property, IFaxRoutingMethod.ImageName, IFaxRoutingMethod.get_ImageName, IFaxRoutingMethod::ImageName, IFaxRoutingMethod::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],IFaxRoutingMethod interface, _mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_imagename_cpp, faxcom/IFaxRoutingMethod::ImageName, faxcom/IFaxRoutingMethod::get_ImageName, get_ImageName
-f1_keywords:
-- faxcom/IFaxRoutingMethod.ImageName
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxRoutingMethod.ImageName
-- IFaxRoutingMethod.get_ImageName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxRoutingMethod::get_ImageName
+ - faxcom/IFaxRoutingMethod::get_ImageName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxRoutingMethod.ImageName
+ - IFaxRoutingMethod.get_ImageName
 ---
 
 # IFaxRoutingMethod::get_ImageName
@@ -50,30 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxRoutingMethod::get_ImageName</b> property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A fax client application can use the <b>IFaxRoutingMethod::get_ImageName</b> property to uniquely identify the fax routing extension DLL that exports a fax routing method. Note that it is possible for multiple routing extensions to have the same user-friendly name.
 
 <b>IFaxRoutingMethod::get_ImageName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -92,7 +82,4 @@ A fax client application can use the <b>IFaxRoutingMethod::get_ImageName</b> pro
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
- 
-
- 
 

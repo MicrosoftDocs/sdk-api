@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 2b22927d-a857-4bcb-9d89-6ca156b04ea9
 ms.date: 12/05/2018
 ms.keywords: RtmGetChangedDests, RtmGetChangedDests function [RAS], _rtmv2ref_rtmgetchangeddests, rras.rtmgetchangeddests, rtmv2/RtmGetChangedDests
-f1_keywords:
-- rtmv2/RtmGetChangedDests
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetChangedDests
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetChangedDests
+ - rtmv2/RtmGetChangedDests
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetChangedDests
 ---
 
 # RtmGetChangedDests function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetChangedDests</b> function returns a set of destinations with changed information.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param NotifyHandle [in]
 
 Handle to a change notification obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
-
 
 ### -param NumDests [in, out]
 
@@ -79,7 +73,6 @@ On input, <i>NumDests</i> is a pointer to a <b>UINT</b> value that specifies the
 
 
 On output, <i>NumDests</i> receives the actual number of destinations received by <i>ChangedDests</i>.
-
 
 ### -param ChangedDests [out]
 
@@ -91,10 +84,7 @@ On input, <i>ChangedDests</i> is a pointer to an array of
 
 On output, <i>ChangedDests</i> is filled with the changed destination information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -133,13 +123,7 @@ No more changed destinations to retrieve.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 A client is notified of changes by an 
 <a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>. The 
@@ -154,13 +138,7 @@ When a client no longer needs the handles in <i>ChangedDests</i>, the client mus
 For sample code using this function, see 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/use-the-event-notification-callback">Use the Event Notification Callback</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a>
 
@@ -187,7 +165,4 @@ For sample code using this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasechangeddests">RtmReleaseChangedDests</a>
- 
-
- 
 

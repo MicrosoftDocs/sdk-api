@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
 ms.date: 12/05/2018
 ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, GUID_NULL, _AMMediaType, dshow.am_media_type, strmif/AM_MEDIA_TYPE
-f1_keywords:
-- strmif/AM_MEDIA_TYPE
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- AM_MEDIA_TYPE
 targetos: Windows
 req.typenames: AM_MEDIA_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AMMediaType
+ - strmif/_AMMediaType
+ - AM_MEDIA_TYPE
+ - strmif/AM_MEDIA_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - AM_MEDIA_TYPE
 ---
 
 # AM_MEDIA_TYPE structure
@@ -49,40 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AM_MEDIA_TYPE</b> structure describes the format of a media sample.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field majortype
 
 Globally unique identifier (GUID) that specifies the major type of the media sample. For a list of possible major types, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>.
 
-
 ### -field subtype
 
 GUID that specifies the subtype of the media sample. For a list of possible subtypes, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>. For some formats, the value might be MEDIASUBTYPE_None, which means the format does not require a subtype.
-
 
 ### -field bFixedSizeSamples
 
 If <b>TRUE</b>, samples are of a fixed size. This field is informational only. For audio, it is generally set to <b>TRUE</b>. For video, it is usually <b>TRUE</b> for uncompressed video and <b>FALSE</b> for compressed video.
 
-
 ### -field bTemporalCompression
 
 If <b>TRUE</b>, samples are compressed using temporal (interframe) compression. A value of <b>TRUE</b> indicates that not all frames are key frames. This field is informational only.
 
-
 ### -field lSampleSize
 
 Size of the sample in bytes. For compressed data, the value can be zero.
-
 
 ### -field formattype
 
@@ -198,20 +190,14 @@ None
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pUnk
 
 Not used. Set to <b>NULL</b>.
-          
-
 
 ### -field cbFormat
 
 Size of the format block, in bytes.
-          
-
 
 ### -field pbFormat
 
@@ -220,10 +206,7 @@ Pointer to the format block. The structure type is specified by the <b>formattyp
 
 The <b>pbFormat</b> buffer must be allocated by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. To release the format block, call <a href="https://docs.microsoft.com/windows/desktop/DirectShow/freemediatype">FreeMediaType</a>.
 
-
 ## -remarks
-
-
 
 When two pins connect, they negotiate a media type, which is defined by an <b>AM_MEDIA_TYPE</b> structure. The media type describes the format of the data that the filters will exchange. If the filters do not agree on a media type, they cannot connect.
 
@@ -256,13 +239,7 @@ In some situations, you can set the format block to <b>NULL</b> and the format t
 
 To obtain detailed information about a specified media type for debugging purposes, use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/displaytype">DisplayType</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/about-media-types">About Media Types</a>
 
@@ -277,7 +254,4 @@ To obtain detailed information about a specified media type for debugging purpos
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],Submit method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, CR_IN_CHALLENGERESPONSE, CR_IN_CLIENTIDNONE, CR_IN_CMC, CR_IN_CONNECTONLY, CR_IN_CRLS, CR_IN_ENCODEANY, CR_IN_FORMATANY, CR_IN_FULLRESPONSE, CR_IN_KEYGEN, CR_IN_MACHINE, CR_IN_PKCS10, CR_IN_PKCS7, CR_IN_RETURNCHALLENGE, CR_IN_ROBO, CR_IN_RPC, ICertRequest interface [Security],Submit method, ICertRequest.Submit, ICertRequest2 interface [Security],Submit method, ICertRequest2::Submit, ICertRequest3 interface [Security],Submit method, ICertRequest3::Submit, ICertRequest::Submit, Submit, Submit method [Security], Submit method [Security],CCertRequest object, Submit method [Security],ICertRequest interface, Submit method [Security],ICertRequest2 interface, Submit method [Security],ICertRequest3 interface, certcli/ICertRequest2::Submit, certcli/ICertRequest3::Submit, certcli/ICertRequest::Submit, security.icertrequest2_submit
-f1_keywords:
-- certcli/ICertRequest3.Submit
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.Submit
-- ICertRequest2.Submit
-- ICertRequest.Submit
-- CCertRequest.Submit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest::Submit
+ - certcli/ICertRequest::Submit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.Submit
+ - ICertRequest2.Submit
+ - ICertRequest.Submit
+ - CCertRequest.Submit
 ---
 
 # ICertRequest::Submit
@@ -52,17 +53,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Submit</b> method submits a request to the Certificate Services server.
 
 If the resulting disposition status is CR_DISP_ISSUED, you can retrieve the issued certificate by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getcertificate">ICertRequest3::GetCertificate</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -291,13 +287,10 @@ Specifies that the DCOM connection with the server is established, but the reque
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strRequest [in]
 
 A pointer to the string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. If CR_IN_BASE64 or CR_IN_BASE64HEADER was specified in <i>Flags</i>, <i>strRequest</i> must be a Unicode string.
-
 
 ### -param strAttributes [in]
 
@@ -321,7 +314,6 @@ A pointer to the string that contains optional extra <a href="https://docs.micro
 </table>
 When Certificate Services server parses attribute names, it ignores spaces, hyphens (minus signs), and case. For example, "AttributeName1", "Attribute Name1", and "Attribute-name1" are all equivalent. For attribute values, Certificate Services server ignores leading and trailing white space.
 
-
 ### -param strConfig [in]
 
 Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
@@ -329,15 +321,11 @@ Represents a valid configuration string for the Certificate Services server. The
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
-
 ### -param pDisposition [out, retval]
 
 A pointer to the request's disposition value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -421,14 +409,8 @@ Request taken under submission
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you read a BASE64 format request from a file, ensure that the file is in Unicode, or convert it from ASCII to Unicode before submitting the request with this method.
 
@@ -526,14 +508,7 @@ error:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
@@ -556,7 +531,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
- 
-
- 
 

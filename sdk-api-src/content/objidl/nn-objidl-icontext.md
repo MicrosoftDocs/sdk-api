@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
 ms.date: 12/05/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
-f1_keywords:
-- objidl/IContext
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContext
+ - objidl/IContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IContext
 ---
 
 # IContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Supports setting COM+ context properties.
-
 
 ## -inheritance
 
@@ -104,14 +103,9 @@ Adds the specified context property to the object context.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
  An instance of this interface for the current context can be obtained using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>.
-
-
 

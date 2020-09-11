@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: D2906CD0-7529-459E-A0E9-66D29A5DD1B0
 ms.date: 12/05/2018
 ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Windows Runtime], winrt.windowsgetstringrawbuffer, winstring/WindowsGetStringRawBuffer
-f1_keywords:
-- winstring/WindowsGetStringRawBuffer
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsGetStringRawBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsGetStringRawBuffer
+ - winstring/WindowsGetStringRawBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsGetStringRawBuffer
 ---
 
 ## -description
@@ -76,3 +77,4 @@ A pointer to the buffer that provides the backing store for <i>string</i>, or th
 Use the <b>WindowsGetStringRawBuffer</b> function to obtain a pointer to the backing buffer of an[**HSTRING**](/windows/win32/winrt/hstring).
 
 Don't change the contents of the buffer&mdash;an [**HSTRING**](/windows/win32/winrt/hstring) is required to be immutable.
+

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5
 ms.date: 12/05/2018
 ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType, GetSupportedProtocolType method [Media Foundation], GetSupportedProtocolType method [Media Foundation],IMFNetSchemeHandlerConfig interface, IMFNetSchemeHandlerConfig interface [Media Foundation],GetSupportedProtocolType method, IMFNetSchemeHandlerConfig.GetSupportedProtocolType, IMFNetSchemeHandlerConfig::GetSupportedProtocolType, mf.imfnetschemehandlerconfig_getsupportedprotocoltype, mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
-f1_keywords:
-- mfidl/IMFNetSchemeHandlerConfig.GetSupportedProtocolType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetSchemeHandlerConfig.GetSupportedProtocolType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+ - mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetSchemeHandlerConfig.GetSupportedProtocolType
 ---
 
 # IMFNetSchemeHandlerConfig::GetSupportedProtocolType
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a supported protocol by index
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nProtocolIndex [in]
 
 Zero-based index of the protocol to retrieve. To get the number of supported protocols, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols">IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols</a>.
 
-
 ### -param pnProtocolType [out]
 
 Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -106,18 +95,8 @@ The value passed in the <i>nProtocolIndex</i> parameter was greater than the tot
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetschemehandlerconfig">IMFNetSchemeHandlerConfig</a>
- 
-
- 
 

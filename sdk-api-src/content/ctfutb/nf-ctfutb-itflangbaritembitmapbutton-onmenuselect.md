@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 693f68ce-e557-4c66-9a6d-ba76e4fde426
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemBitmapButton.OnMenuSelect, ITfLangBarItemBitmapButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onmenuselect_ref, ctfutb/ITfLangBarItemBitmapButton::OnMenuSelect, tsf.itflangbaritembitmapbutton_onmenuselect
-f1_keywords:
-- ctfutb/ITfLangBarItemBitmapButton.OnMenuSelect
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemBitmapButton.OnMenuSelect
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemBitmapButton::OnMenuSelect
+ - ctfutb/ITfLangBarItemBitmapButton::OnMenuSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemBitmapButton.OnMenuSelect
 ---
 
 # ITfLangBarItemBitmapButton::OnMenuSelect
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
 
-
 ## -parameters
-
-
-
 
 ### -param wID [in]
 
 Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,15 +90,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembitmapbutton">ITfLangBarItemBitmapButton</a>
 
@@ -113,7 +99,4 @@ An unspecified error occurred.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem
       </a>
- 
-
- 
 

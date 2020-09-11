@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: a4407816-a4c5-4734-9686-46d5a8133c2f
 ms.date: 12/05/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, GetNotifyFlags, GetNotifyFlags method [BITS], GetNotifyFlags method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyFlags method, IBackgroundCopyJob.GetNotifyFlags, IBackgroundCopyJob::GetNotifyFlags, _drz_ibackgroundcopyjob_getnotifyflags, bits.ibackgroundcopyjob_getnotifyflags, bits/IBackgroundCopyJob::GetNotifyFlags
-f1_keywords:
-- bits/IBackgroundCopyJob.GetNotifyFlags
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.GetNotifyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::GetNotifyFlags
+ - bits/IBackgroundCopyJob::GetNotifyFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.GetNotifyFlags
 ---
 
 # IBackgroundCopyJob::GetNotifyFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the event notification flags for the job.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
@@ -110,12 +106,8 @@ The job has been modified.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -147,15 +139,8 @@ Must pass the address of <i>pNotifyFlags</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
@@ -166,7 +151,4 @@ Must pass the address of <i>pNotifyFlags</i>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
- 
-
- 
 

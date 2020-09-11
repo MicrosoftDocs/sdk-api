@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a314dfac-fe17-4e33-b528-491a2622e80c
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeDecode method, IX509ExtensionAlternativeNames.InitializeDecode, IX509ExtensionAlternativeNames::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeDecode, security.ix509extensionalternativenames_initializedecode_method
-f1_keywords:
-- certenroll/IX509ExtensionAlternativeNames.InitializeDecode
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionAlternativeNames.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionAlternativeNames::InitializeDecode
+ - certenroll/IX509ExtensionAlternativeNames::InitializeDecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionAlternativeNames.InitializeDecode
 ---
 
 # IX509ExtensionAlternativeNames::InitializeDecode
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeDecode</b> method initializes the  extension from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array that contains the extension value. The encoded byte array is represented by a Unicode encoded string.
 
-
 ## -parameters
-
-
-
 
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the <i>strEncodedData</i> value.
 
-
 ### -param strEncodedData [in]
 
 A <b>BSTR</b> variable that contains the DER-encoded extension.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -94,14 +86,8 @@ The object is already initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  You can use this method if you have a DER-encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) object that contains an <b>AlternativeNames</b> extension. You must supply the DER-encoded object in a Unicode encoded string. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ibinaryconverter">IBinaryConverter</a> interface.
 
@@ -113,17 +99,7 @@ You can retrieve the following properties for this extension:<ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionalternativenames-get_alternativenames">AlternativeNames</a> property retrieves the collection of names (the raw extension data).</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionalternativenames">IX509ExtensionAlternativeNames</a>
- 
-
- 
 

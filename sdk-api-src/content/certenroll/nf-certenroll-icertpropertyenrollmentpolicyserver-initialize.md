@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5d54ffb2-4a81-4d52-80db-b8526a52bb53
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security],Initialize method, ICertPropertyEnrollmentPolicyServer.Initialize, ICertPropertyEnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollmentPolicyServer interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::Initialize, security.icertpropertyenrollmentpolicyserver_initialize
-f1_keywords:
-- certenroll/ICertPropertyEnrollmentPolicyServer.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- ICertPropertyEnrollmentPolicyServer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyEnrollmentPolicyServer::Initialize
+ - certenroll/ICertPropertyEnrollmentPolicyServer::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - ICertPropertyEnrollmentPolicyServer.Initialize
 ---
 
 # ICertPropertyEnrollmentPolicyServer::Initialize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param PropertyFlags [in]
 
@@ -88,8 +84,6 @@ The policy server URL returned by <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AuthFlags [in]
 
@@ -143,13 +137,10 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EnrollmentServerAuthFlags [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CES. See the <i>AuthFlags</i> parameter for the possible values of the enumeration type. For Windows 7, only <b>X509AuthCertificate</b> can be specified.
-
 
 ### -param UrlFlags [in]
 
@@ -223,32 +214,24 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strRequestId [in]
 
  A <b>BSTR</b> variable that contains a unique string identifier for the certificate request to be sent to the certification authority during enrollment. The string can contain any information that uniquely identifies the request.
 
-
 ### -param strUrl [in]
 
  A <b>BSTR</b> variable that contains the URL for the certificate enrollment policy (CEP) server.
-
 
 ### -param strId [in]
 
 A <b>BSTR</b> variable that contains the ID of the CEP server.
 
-
 ### -param strEnrollmentServerUrl [in]
 
 A <b>BSTR</b> variable that contains the URL for the certificate enrollment server.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -271,18 +254,8 @@ There was insufficient memory available to a string value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
- 
-
- 
 

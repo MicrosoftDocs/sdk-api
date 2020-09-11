@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c093719f-7176-4ba4-ae75-399e8beeebf0
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete2, IAutoComplete2 interface [Windows Shell], IAutoComplete2 interface [Windows Shell],described, _win32_IAutoComplete2, shell.IAutoComplete2, shldisp/IAutoComplete2
-f1_keywords:
-- shldisp/IAutoComplete2
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IAutoComplete2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutoComplete2
+ - shldisp/IAutoComplete2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IAutoComplete2
 ---
 
 # IAutoComplete2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Sets the current autocomplete options.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a> interface from which it inherits.
 
@@ -100,6 +96,4 @@ This interface is not usually implemented by applications. It is exposed by the 
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Use this interface when you need to retrieve or set autocomplete options. The list of available options is given in the method references.
-
-
 

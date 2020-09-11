@@ -8,10 +8,6 @@ tech.root: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
 ms.date: 12/05/2018
 ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
-f1_keywords:
-- ddpbackup/IDedupBackupSupport
-dev_langs:
-- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: DdpBackup.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DdpBackup.dll
-api_name:
-- IDedupBackupSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDedupBackupSupport
+ - ddpbackup/IDedupBackupSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DdpBackup.dll
+api_name:
+ - IDedupBackupSupport
 ---
 
 # IDedupBackupSupport interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method for restoring a file from a backup store containing copies of Data Deduplication 
      reparse points, metadata, and container files.
-
 
 ## -inheritance
 
@@ -79,12 +78,9 @@ Reconstructs a set of files from a backup store that contains the fully optimize
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
  A backup application uses the 
      <b>IDedupBackupSupport</b> interface to drive the restore 
@@ -97,16 +93,7 @@ Applications that use the <b>IDedupBackupSupport</b>
      interface must also implement the 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a> interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
- 
-
- 
 

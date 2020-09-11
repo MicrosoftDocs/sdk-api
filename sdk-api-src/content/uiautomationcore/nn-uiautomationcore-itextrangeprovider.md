@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: dd14e608-1d21-4527-8b82-dba64ed04fda
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ITextRangeProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextRangeProvider, uiauto_ITextRangeProvider, uiautomationcore/ITextRangeProvider, winauto.uiauto_ITextRangeProvider
-f1_keywords:
-- uiautomationcore/ITextRangeProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ITextRangeProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRangeProvider
+ - uiautomationcore/ITextRangeProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ITextRangeProvider
 ---
 
 # ITextRangeProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to 
         a span of continuous text in a text container that implements <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2">ITextProvider2</a>.
-
 
 ## -inheritance
 
@@ -241,23 +240,13 @@ Selects the span of text that corresponds to this text range, and removes any pr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A range can represent an insertion point, a portion of text, or all of the text in a container.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -272,7 +261,4 @@ A range can represent an insertion point, a portion of text, or all of the text 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

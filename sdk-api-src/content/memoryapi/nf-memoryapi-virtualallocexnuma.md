@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: dcafd557-834e-4fdf-9cb2-aad76109ad92
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAllocExNuma, VirtualAllocExNuma function, base.virtualallocexnuma, winbase/VirtualAllocExNuma
-f1_keywords:
-- memoryapi/VirtualAllocExNuma
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualAllocExNuma
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualAllocExNuma
+ - memoryapi/VirtualAllocExNuma
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualAllocExNuma
 ---
 
 # VirtualAllocExNuma function
@@ -54,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserves, commits, or changes the state  of a region of memory within the virtual address space of the specified process, and 
     specifies the NUMA node for the physical memory.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -71,7 +67,6 @@ The handle to a process. The function allocates memory within the virtual addres
 The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, 
        see 
        <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
 
 ### -param lpAddress [in, optional]
 
@@ -87,7 +82,6 @@ If you are committing memory that is already reserved, the function rounds this 
 If <i>lpAddress</i> is <b>NULL</b>, the function determines where to 
        allocate the region.
 
-
 ### -param dwSize [in]
 
 The size of the region of memory to be allocated, in bytes.
@@ -99,7 +93,6 @@ If <i>lpAddress</i> is not <b>NULL</b>, the function allocates all
        pages that contain one or more bytes in the range from <i>lpAddress</i> to 
        <code>(lpAddress+dwSize)</code>. This means, for example, that a 2-byte 
        range that straddles a page boundary causes the function to allocate both pages.
-
 
 ### -param flAllocationType [in]
 
@@ -257,8 +250,6 @@ Allocates memory at the highest possible address.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param flProtect [in]
 
@@ -269,7 +260,6 @@ The memory protection for the region of pages to be allocated. If the pages are 
 Protection attributes specified when protecting a page cannot conflict with those specified when allocating 
        a page.
 
-
 ### -param nndPreferred [in]
 
 The NUMA node where the physical memory should reside.
@@ -277,22 +267,14 @@ The NUMA node where the physical memory should reside.
 Used only when allocating a new VA region (either committed or reserved). Otherwise this parameter is ignored 
        when the API is used to commit pages in a region that already exists
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">page state</a>. The 
      <b>VirtualAllocExNuma</b> function can perform the 
@@ -357,12 +339,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
@@ -393,7 +370,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4e4a746d-460a-478e-9ca5-be5f63b03d17
 ms.date: 12/05/2018
 ms.keywords: ActivateMe, ActivateMe method [COM], ActivateMe method [COM],IOleDocumentSite interface, IOleDocumentSite interface [COM],ActivateMe method, IOleDocumentSite.ActivateMe, IOleDocumentSite::ActivateMe, _ole_ioledocumentsite_activateme, com.ioledocumentsite_activateme, docobj/IOleDocumentSite::ActivateMe
-f1_keywords:
-- docobj/IOleDocumentSite.ActivateMe
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentSite.ActivateMe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentSite::ActivateMe
+ - docobj/IOleDocumentSite::ActivateMe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentSite.ActivateMe
 ---
 
 # IOleDocumentSite::ActivateMe
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Asks a document site to activate the document making the call as a document object rather than an in-place-active object and, optionally, specifies which view of the object document to activate.
 
-
 ## -parameters
-
-
-
 
 ### -param pViewToActivate [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> interface pointer that represents the document view to be used in activating the document object. This parameter can be <b>NULL</b>, in which case the container should call <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">IOleDocument::CreateView</a> to obtain a document view pointer.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success.
 
-
-
-
 ## -remarks
-
-
 
 When a container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a> to activate a document, a document object bypasses the usual in-place activation sequence by calling <b>IOleDocumentSite::ActivateMe</b>.
 
@@ -98,13 +86,7 @@ If a document object passes an <a href="https://docs.microsoft.com/windows/deskt
 
 If <i>pViewToActivate</i> is <b>NULL</b>, the container can obtain a pointer to a document view by querying the document for <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>, then calling <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">IOleDocument::CreateView</a> and passing its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
@@ -127,7 +109,4 @@ If <i>pViewToActivate</i> is <b>NULL</b>, the container can obtain a pointer to 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>
- 
-
- 
 

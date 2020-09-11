@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 5ef78fb9-704e-4c1d-ada8-c257a0944c94
 ms.date: 12/05/2018
 ms.keywords: INodeProperties, INodeProperties interface [MMC], INodeProperties interface [MMC],described, _slate_inodeproperties, mmc.inodeproperties, mmc/INodeProperties
-f1_keywords:
-- mmc/INodeProperties
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- INodeProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INodeProperties
+ - mmc/INodeProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - INodeProperties
 ---
 
 # INodeProperties interface
 
 
 ## -description
-
 
 The 
 <b>INodeProperties</b> interface retrieves text-only properties for a node. This interface is implemented by snap-ins and its methods are called by the 
@@ -66,7 +66,6 @@ The
 The Extended View extension queries two properties, CCF_DESCRIPTION and CCF_HTML_DETAILS. Instead of implementing 
 <b>INodeProperties</b>, a snap-in can return values for these properties through data-object clipboard formats. The 
 <b>INodeProperties</b> interface is available to snap-in developers whose data objects may not readily provide the property values.
-
 
 ## -inheritance
 
@@ -93,13 +92,9 @@ Retrieves text-only properties for a node. Text-only properties are exposed in t
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION clipboard format</a>
 
@@ -122,7 +117,4 @@ Retrieves text-only properties for a node. Text-only properties are exposed in t
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>
- 
-
- 
 

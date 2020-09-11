@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 244f93cb-0976-4a31-958c-ae0ed81c1dcf
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSizeA, StrFormatByteSizeA function [Windows Shell], _win32_StrFormatByteSizeA, shell.StrFormatByteSizeA, shlwapi/StrFormatByteSizeA
-f1_keywords:
-- shlwapi/StrFormatByteSizeA
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- StrFormatByteSizeA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StrFormatByteSizeA
+ - shlwapi/StrFormatByteSizeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - StrFormatByteSizeA
 ---
 
 # StrFormatByteSizeA function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> in one parameter type.
 
-
 ## -parameters
-
-
-
 
 ### -param dw
 
@@ -64,13 +60,11 @@ Type: <b>DWORD</b>
 
 The numeric value to be converted.
 
-
 ### -param pszBuf [out]
 
 Type: <b>PSTR</b>
 
 A pointer to a buffer that receives the converted string.
-
 
 ### -param cchBuf
 
@@ -78,21 +72,13 @@ Type: <b>UINT</b>
 
 The size of the buffer pointed to by <i>pszBuf</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>PSTR</b>
 
 Returns a pointer to the converted string, or <b>NULL</b> if the conversion fails.
 
-
-
-
 ## -remarks
-
-
 
 The first parameter of this function has a different type for the ANSI and Unicode versions. If your numeric value is a <b>DWORD</b>, you can use <b>StrFormatByteSize</b> with text macros for both cases. The compiler will cast the numerical value to a <b>LONGLONG</b> for the Unicode case. If your numerical value is a <b>LONGLONG</b>, you should use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> explicitly.
 
@@ -137,9 +123,6 @@ The following table illustrates how this function converts a numeric value into 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
 
 
@@ -149,7 +132,4 @@ The following table illustrates how this function converts a numeric value into 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemstate.htm
 ms.date: 12/05/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ListView_SetItemState, ListView_SetItemState macro [Windows Controls], _win32_ListView_SetItemState, _win32_ListView_SetItemState_cpp, commctrl/ListView_SetItemState, controls.ListView_SetItemState, controls._win32_ListView_SetItemState
-f1_keywords:
-- commctrl/ListView_SetItemState
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetItemState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetItemState
+ - commctrl/ListView_SetItemState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetItemState
 ---
 
 # ListView_SetItemState macro
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Changes the state of an item in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemstate">LVM_SETITEMSTATE</a> message explicitly. 
-
+Changes the state of an item in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitemstate">LVM_SETITEMSTATE</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwndLV
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param i
 
 Type: <b>int</b>
 
-The index of the list-view item. If this parameter is -1, then the state change is applied to all items. 
-
+The index of the list-view item. If this parameter is -1, then the state change is applied to all items.
 
 ### -param data
 
@@ -124,20 +118,15 @@ The item is selected. The appearance of a selected item depends on whether it ha
 </td>
 </tr>
 </table>
- 
-
 
 ### -param mask
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Bits of the 
-					<i>state</i> parameter that you want to set or clear. You can use <b>ListView_SetItemState</b> both to set and to clear bits. To set an item's overlay image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_OVERLAYMASK</a> bits. To set an item's state image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_STATEIMAGEMASK</a> bits. 
-
+					<i>state</i> parameter that you want to set or clear. You can use <b>ListView_SetItemState</b> both to set and to clear bits. To set an item's overlay image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_OVERLAYMASK</a> bits. To set an item's state image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_STATEIMAGEMASK</a> bits.
 
 ## -remarks
-
-
 
 An item's state value includes a set of bit flags that indicate the item's state. The state value can also include image list indexes that indicate the item's state image and overlay image. 
 
@@ -149,17 +138,7 @@ Bits 8 through 11 of the <i>state</i> parameter specify the one-based index of a
 
 Bits 12 through 15 of the <i>state</i> parameter specify the one-based index of an image in the control's state image list. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_STATEIMAGEMASK</a> mask. To specify a state image index, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextostateimagemask">INDEXTOSTATEIMAGEMASK</a> macro.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getitemstate">ListView_GetItemState</a>
- 
-
- 
 

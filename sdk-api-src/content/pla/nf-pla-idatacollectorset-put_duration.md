@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: afa8f8f2-52a7-481f-ba7e-19f9b757aeb8
 ms.date: 12/05/2018
 ms.keywords: Duration property [PLA], Duration property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Duration property, IDataCollectorSet.Duration, IDataCollectorSet.put_Duration, IDataCollectorSet::Duration, IDataCollectorSet::get_Duration, IDataCollectorSet::put_Duration, base.idatacollectorset_get_duration, pla.idatacollectorset_get_duration, pla/IDataCollectorSet::Duration, pla/IDataCollectorSet::get_Duration, pla/IDataCollectorSet::put_Duration, put_Duration
-f1_keywords:
-- pla/IDataCollectorSet.Duration
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.Duration
-- IDataCollectorSet.get_Duration
-- IDataCollectorSet.put_Duration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::put_Duration
+ - pla/IDataCollectorSet::put_Duration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.Duration
+ - IDataCollectorSet.get_Duration
+ - IDataCollectorSet.put_Duration
 ---
 
 # IDataCollectorSet::put_Duration
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves and sets the duration that the data collector set runs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
@@ -74,7 +69,4 @@ This property is read/write.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_enddate">ISchedule::EndDate</a>
- 
-
- 
 

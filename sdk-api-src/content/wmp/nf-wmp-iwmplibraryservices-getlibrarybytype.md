@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f
 ms.date: 12/05/2018
 ms.keywords: IWMPLibraryServices interface [Windows Media Player],getLibraryByType method, IWMPLibraryServices.getLibraryByType, IWMPLibraryServices::getLibraryByType, IWMPLibraryServicesgetLibraryByType, getLibraryByType, getLibraryByType method [Windows Media Player], getLibraryByType method [Windows Media Player],IWMPLibraryServices interface, wmp.iwmplibraryservices_getlibrarybytype, wmp/IWMPLibraryServices::getLibraryByType
-f1_keywords:
-- wmp/IWMPLibraryServices.getLibraryByType
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPLibraryServices.getLibraryByType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPLibraryServices::getLibraryByType
+ - wmp/IWMPLibraryServices::getLibraryByType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPLibraryServices.getLibraryByType
 ---
 
 # IWMPLibraryServices::getLibraryByType
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getLibraryByType</b> method retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the library that has the specified type and index.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wmplt [in]
 
 <b>WMPLibraryType</b> enumeration value that specifies the type of library to retrieve.
 
-
 ### -param lIndex [in]
 
 A <b>long</b> containing the index of the library to retrieve.
-
 
 ### -param ppIWMPLibrary [out]
 
 Address of a variable that receives a pointer to the retrieved <b>IWMPLibrary</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,26 +87,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 There is only one local library and disc libraries are available only on data CDs and DVDs that contain media content.
 
 <b>Windows Media Player 10 Mobile:</b> This method is not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
 
@@ -129,7 +105,4 @@ There is only one local library and disc libraries are available only on data CD
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>
- 
-
- 
 

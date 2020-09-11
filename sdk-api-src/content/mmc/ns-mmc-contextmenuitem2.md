@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 5ed4429c-e147-4097-8d52-11f5319dce2a
 ms.date: 12/05/2018
 ms.keywords: '*LPCONTEXTMENUITEM2, 0 (zero), CCM_COMMANDID_MASK_RESERVED, CCM_INSERTIONPOINTID_3RDPARTY_NEW, CCM_INSERTIONPOINTID_3RDPARTY_TASK, CCM_INSERTIONPOINTID_MASK_ADD_3RDPARTY, CCM_INSERTIONPOINTID_MASK_ADD_PRIMARY, CCM_INSERTIONPOINTID_MASK_CREATE_PRIMARY, CCM_INSERTIONPOINTID_MASK_RESERVED, CCM_INSERTIONPOINTID_MASK_SHARED, CCM_INSERTIONPOINTID_MASK_SPECIAL, CCM_INSERTIONPOINTID_PRIMARY_NEW, CCM_INSERTIONPOINTID_PRIMARY_TASK, CCM_INSERTIONPOINTID_PRIMARY_TOP, CCM_INSERTIONPOINTID_PRIMARY_VIEW, CCM_INSERTIONPOINTID_ROOT_MENU, CCM_SPECIAL_DEFAULT_ITEM, CCM_SPECIAL_INSERTION_POINT, CCM_SPECIAL_SEPARATOR, CCM_SPECIAL_SUBMENU, CCM_SPECIAL_TESTONLY = 0x0010, CONTEXTMENUITEM2, CONTEXTMENUITEM2 structure [MMC], LPCONTEXTMENUITEM2, LPCONTEXTMENUITEM2 structure pointer [MMC], MF_BITMAP, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_UNCHECKED, _slate_contextmenuitem2, mmc.contextmenuitem2, mmc/CONTEXTMENUITEM2, mmc/LPCONTEXTMENUITEM2'
-f1_keywords:
-- mmc/CONTEXTMENUITEM2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- CONTEXTMENUITEM2
 targetos: Windows
 req.typenames: CONTEXTMENUITEM2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CONTEXTMENUITEM2
+ - mmc/_CONTEXTMENUITEM2
+ - CONTEXTMENUITEM2
+ - mmc/CONTEXTMENUITEM2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - CONTEXTMENUITEM2
 ---
 
 # CONTEXTMENUITEM2 structure
 
 
 ## -description
-
 
 The <b>CONTEXTMENUITEM2</b> structure is introduced in MMC 
     2.0.
@@ -65,23 +67,17 @@ The <b>CONTEXTMENUITEM2</b> structure is passed to the
     <b>CONTEXTMENUITEM2</b> are in 
     <b>CONTEXTMENUITEM</b>).
 
-
 ## -struct-fields
-
-
-
 
 ### -field strName
 
 A pointer to a null-terminated string that contains the name of the menu item or of the submenu. This 
       member cannot be <b>NULL</b> except for a separator or insertion point.
 
-
 ### -field strStatusBarText
 
 A pointer to a null-terminated string that contains the text that is displayed on the status bar when this 
       item is highlighted. This member can be <b>NULL</b>.
-
 
 ### -field lCommandID
 
@@ -158,7 +154,6 @@ Allows extension snap-ins to add items to a shared insertion point or submenu.
 
 Insertion points or submenus cannot be added with this value set.
 
-
 ### -field lInsertionPointID
 
 A value that specifies where in the context menu the new item should be added. Snap-ins can only add items 
@@ -231,7 +226,6 @@ Extension snap-ins can use this insertion point to add items to the bottom of th
 
 Neither primary extensions nor third-party extensions can add items to the root menu except through 
          insertion points added by <i>IContextMenuProvider</i>.
-
 
 ### -field fFlags
 
@@ -374,7 +368,6 @@ Ignore all other parameters except <i>lCommandID</i> and
 Validate the item parameters, but do not add the menu item. Returns a result code that indicates whether 
         an Add operation would have been successful.
 
-
 ### -field strLanguageIndependentName
 
 The language-independent name of the menu item. Retrieve this value in 
@@ -386,11 +379,7 @@ The language-independent name of the menu item. Retrieve this value in
       the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> method 
       will fail with <b>E_INVALIDARG</b> as the return value.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback2">IContextMenuCallback2</a>
 
@@ -405,7 +394,4 @@ The language-independent name of the menu item. Retrieve this value in
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
- 
-
- 
 

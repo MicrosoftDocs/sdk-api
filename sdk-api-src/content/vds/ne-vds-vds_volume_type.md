@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 07a44bbf-0726-4094-9b5f-2d26b0030796
 ms.date: 12/05/2018
 ms.keywords: VDS_VOLUME_TYPE, VDS_VOLUME_TYPE enumeration [VDS], VDS_VT_MIRROR, VDS_VT_PARITY, VDS_VT_SIMPLE, VDS_VT_SPAN, VDS_VT_STRIPE, VDS_VT_UNKNOWN, base.vds_volume_type, vds/VDS_VOLUME_TYPE, vds/VDS_VT_MIRROR, vds/VDS_VT_PARITY, vds/VDS_VT_SIMPLE, vds/VDS_VT_SPAN, vds/VDS_VT_STRIPE, vds/VDS_VT_UNKNOWN
-f1_keywords:
-- vds/VDS_VOLUME_TYPE
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- VDS_VOLUME_TYPE
 targetos: Windows
 req.typenames: VDS_VOLUME_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_VOLUME_TYPE
+ - vds/_VDS_VOLUME_TYPE
+ - VDS_VOLUME_TYPE
+ - vds/VDS_VOLUME_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - VDS_VOLUME_TYPE
 ---
 
 # VDS_VOLUME_TYPE enumeration
@@ -49,62 +52,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid types for a volume object.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VDS_VT_UNKNOWN
 
 The volume type is unknown.
 
-
 ### -field VDS_VT_SIMPLE
 
 The volume type is simple—it is composed of extents from exactly one disk.
-
 
 ### -field VDS_VT_SPAN
 
 The volume type is spanned—it is composed of extents from more than one disk.
 
-
 ### -field VDS_VT_STRIPE
 
 The volume type is striped, which is equivalent to RAID 0.
-
 
 ### -field VDS_VT_MIRROR
 
 The volume type is mirrored, which is equivalent to RAID 1.
 
-
 ### -field VDS_VT_PARITY
 
 The volume type is striped with parity, which accounts for RAID levels 3, 4, 5, and 6.
 
-
 ## -remarks
-
-
 
 The  <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::CreateVolume</a>method passes a <b>VDS_VOLUME_TYPE</b> value as an argument to set a new volume type, and the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>structure includes a <b>VDS_VOLUME_TYPE</b> value as a member to indicate  the existing volume type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_TYPE</b> enumeration constant.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::CreateVolume</a>
 
@@ -115,7 +100,4 @@ The  <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
 ms.date: 12/05/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
-f1_keywords:
-- comsvcs/IObjectContextTip
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectContextTip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectContextTip
+ - comsvcs/IObjectContextTip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectContextTip
 ---
 
 # IObjectContextTip interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves properties describing the Transaction Internet Protocol (TIP) transaction context.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves the URL of the TIP context.
 
 </td>
 </tr>
-</table> 
+</table>
 

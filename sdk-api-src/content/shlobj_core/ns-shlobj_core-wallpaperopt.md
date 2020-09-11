@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5fafbc3a-606c-4175-ac3a-132a1bfded07
 ms.date: 12/05/2018
 ms.keywords: '*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT'
-f1_keywords:
-- shlobj_core/WALLPAPEROPT
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- WALLPAPEROPT
 targetos: Windows
 req.typenames: WALLPAPEROPT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tagWALLPAPEROPT
+ - shlobj_core/_tagWALLPAPEROPT
+ - WALLPAPEROPT
+ - shlobj_core/WALLPAPEROPT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - WALLPAPEROPT
 ---
 
 # WALLPAPEROPT structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the wallpaper display options. Used with members of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Type: <b>DWORD</b>
 
 The size of this <b>WALLPAPEROPT</b> structure.
-
 
 ### -field dwStyle
 

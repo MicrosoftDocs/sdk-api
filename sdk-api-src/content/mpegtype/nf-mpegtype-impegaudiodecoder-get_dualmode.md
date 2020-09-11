@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 3b536e8c-91eb-4c32-955f-b343f2c8e16f
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DualMode method, IMpegAudioDecoder.get_DualMode, IMpegAudioDecoder::get_DualMode, IMpegAudioDecodergetDualMode, dshow.impegaudiodecoder_get_dualmode, get_DualMode, get_DualMode method [DirectShow], get_DualMode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DualMode
-f1_keywords:
-- mpegtype/IMpegAudioDecoder.get_DualMode
-dev_langs:
-- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMpegAudioDecoder.get_DualMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpegAudioDecoder::get_DualMode
+ - mpegtype/IMpegAudioDecoder::get_DualMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMpegAudioDecoder.get_DualMode
 ---
 
 # IMpegAudioDecoder::get_DualMode
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns which channel is currently being decoded.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIntDecode [out]
 
 Indicates the channel(s) to be decoded.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pIntDecode</i> parameter can have one of the values in the following table.
 
@@ -124,18 +108,8 @@ The <i>pIntDecode</i> parameter can have one of the values in the following tabl
 <td>The right channel is decoded.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
- 
-
- 
 

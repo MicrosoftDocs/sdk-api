@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: a4ae0874-4ee6-46a1-9811-8cd4be26859c
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], IDataCollectorSet interface [PLA],described, base.idatacollectorset, pla.idatacollectorset, pla/IDataCollectorSet
-f1_keywords:
-- pla/IDataCollectorSet
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet
+ - pla/IDataCollectorSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet
 ---
 
 # IDataCollectorSet interface
 
 
 ## -description
-
 
 Manages the configuration information that is common to all data collector objects in the set; adds and 
     removes data collectors from the set; and starts data collection. This is the primary PLA interface that you 
@@ -58,7 +58,6 @@ To get this interface, call the <a href="https://docs.microsoft.com/windows/desk
     function, passing <code>__uuidof(DataCollectorSet)</code> as the class 
     identifier and <code>__uuidof(IDataCollectorSet)</code> as the interface 
     identifier.
-
 
 ## -inheritance
 
@@ -550,12 +549,9 @@ Retrieves an XML string that describes the values of the data collector set prop
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To create the object from a script, use the "Pla.DataCollectorSet" program identifier.
 
@@ -685,16 +681,7 @@ You can specify only the elements for the properties that you want to set. If yo
     collector interface). However, the schedule and folder action elements are not included if they are not defined 
     for the set.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
- 
-
- 
 

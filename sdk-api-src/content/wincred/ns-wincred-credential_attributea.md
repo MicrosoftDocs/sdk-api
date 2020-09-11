@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
 ms.date: 12/05/2018
 ms.keywords: '*PCREDENTIAL_ATTRIBUTEA, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEA, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE'
-f1_keywords:
-- wincred/CREDENTIAL_ATTRIBUTE
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinCred.h
-api_name:
-- CREDENTIAL_ATTRIBUTE
 targetos: Windows
 req.typenames: CREDENTIAL_ATTRIBUTEA, *PCREDENTIAL_ATTRIBUTEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREDENTIAL_ATTRIBUTEA
+ - wincred/_CREDENTIAL_ATTRIBUTEA
+ - PCREDENTIAL_ATTRIBUTEA
+ - wincred/PCREDENTIAL_ATTRIBUTEA
+ - CREDENTIAL_ATTRIBUTEA
+ - wincred/CREDENTIAL_ATTRIBUTEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinCred.h
+api_name:
+ - CREDENTIAL_ATTRIBUTE
 ---
 
 # CREDENTIAL_ATTRIBUTEA structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CREDENTIAL_ATTRIBUTE</b> structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Keyword
 
@@ -67,16 +67,13 @@ Name of the application-specific attribute. Names should be of the form &lt;Comp
 
 This member cannot be longer than CRED_MAX_STRING_LENGTH (256) characters.
 
-
 ### -field Flags
 
 Identifies characteristics of the credential attribute. This member is reserved and should be originally initialized as zero and not otherwise altered to permit future enhancement.
 
-
 ### -field ValueSize
 
 Length of <b>Value</b> in bytes. This member cannot be larger than CRED_MAX_VALUE_SIZE (256).
-
 
 ### -field Value
 

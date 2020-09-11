@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: f0975845-d609-4f7a-a663-6481334c983d
 ms.date: 12/05/2018
 ms.keywords: DRMAttest, DRMAttest function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAttest, rm.drmattest
-f1_keywords:
-- msdrm/DRMAttest
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMAttest
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMAttest
+ - msdrm/DRMAttest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMAttest
 ---
 
 # DRMAttest function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -62,51 +62,35 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 For Rights Management Services 1.0, the <b>DRMAttest</b> function signs arbitrary data.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnablingPrincipal [in]
 
 A handle to an enabling principal object created by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingprincipal">DRMCreateEnablingPrincipal</a>.
 
-
 ### -param wszData [in]
 
 The data to encode.
-
 
 ### -param eType [in]
 
 An enumeration that determines whether to include full environment data or only a hash.
 
-
 ### -param pcAttestedBlob [in, out]
 
 Length, in characters, of the string being returned, plus one for a terminating null character.
-
 
 ### -param wszAttestedBlob [out]
 
 The signed data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function can be used with challenge/response protocols by including the challenge in the data buffer. An output string may contain the principal's certificates, in addition to the signature.
 
@@ -116,16 +100,7 @@ To return a value, first call this function with <b>NULL</b> passed into the <i>
 
 Data signed by using <b>DRMAttest</b> can be verified by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmverify">DRMVerify</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
- 
-
- 
 

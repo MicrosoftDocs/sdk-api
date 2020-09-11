@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 99b58da2-0398-4dc1-8c9e-0eefaf03bf91
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassPropertyEx, SetupDiSetClassPropertyEx function [Device and Driver Installation], SetupDiSetClassPropertyExW, devinst.setupdisetclasspropertyex, di-rtns_1366f35d-3801-4b88-b8e3-9ea25292558e.xml, setupapi/SetupDiSetClassPropertyEx
-f1_keywords:
-- setupapi/SetupDiSetClassPropertyEx
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiSetClassPropertyEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiSetClassPropertyExW
+ - setupapi/SetupDiSetClassPropertyExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiSetClassPropertyEx
 ---
 
 # SetupDiSetClassPropertyExW function
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiSetClassPropertyEx</b> function sets a device property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> on a local or remote computer.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in]
 
 A pointer to a GUID that identifies the device setup class or device interface class for which to set a device property. For information about how to specify the class type, see the <i>Flags</i> parameter.
 
-
 ### -param PropertyKey [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
-
 
 ### -param PropertyType [in]
 
 A <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
-
 ### -param PropertyBuffer [in, optional]
 
 A pointer to a buffer that contains the class property value. If either the property or the property value is being deleted, this pointer must be set to <b>NULL</b>, and <i>PropertyBufferSize</i> must be set to zero. For more information about property value requirements, see the <b>Remarks</b> section later in this topic.
 
-
 ### -param PropertyBufferSize [in]
 
 The size, in bytes, of the <i>PropertyBuffer</i> buffer. The property buffer size must be consistent with the property-data-type identifier that is supplied by <i>PropertyType</i>. If <i>PropertyBuffer </i>is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
-
 
 ### -param Flags [in]
 
@@ -102,20 +93,15 @@ One of the following values, which specifies whether the class is a device setup
 
 <i>ClassGuid</i> specifies a device interface class. This flag cannot be used with DICLASSPROP_INSTALLER.
 
-
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated Unicode string that contains the UNC name, including the "\\" prefix, of a computer. This pointer can be set to <b>NULL</b>. If the pointer is <b>NULL</b>, <b>SetupDiSetClassPropertyEx</b> sets the class property for a class that is installed on the local computer.
-
 
 ### -param Reserved
 
 This parameter must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>SetupDiSetClassPropertyEx</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
@@ -260,14 +246,8 @@ The caller does not have Administrator privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SetupDiSetClassPropertyEx</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
 
@@ -283,13 +263,7 @@ To retrieve a device class property on a local computer, call <a href="https://d
 
 To set a device class property on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyw">SetupDiSetClassProperty</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>
 
@@ -304,7 +278,4 @@ To set a device class property on a local computer, call <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyw">SetupDiSetClassProperty</a>
- 
-
- 
 

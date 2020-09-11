@@ -8,10 +8,6 @@ tech.root: EAP
 ms.assetid: 23b64f95-1f21-4e81-a094-081a95057aef
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeCredentialsUI method, IEAPProviderConfig.RouterInvokeCredentialsUI, IEAPProviderConfig::RouterInvokeCredentialsUI, RouterInvokeCredentialsUI, RouterInvokeCredentialsUI method [EAP], RouterInvokeCredentialsUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_routerinvokecredentialsui, eap.ieapproviderconfig_routerinvokecredentialsui, rrascfg/IEAPProviderConfig::RouterInvokeCredentialsUI
-f1_keywords:
-- rrascfg/IEAPProviderConfig.RouterInvokeCredentialsUI
-dev_langs:
-- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rrascfg.h
-api_name:
-- IEAPProviderConfig.RouterInvokeCredentialsUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEAPProviderConfig::RouterInvokeCredentialsUI
+ - rrascfg/IEAPProviderConfig::RouterInvokeCredentialsUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rrascfg.h
+api_name:
+ - IEAPProviderConfig.RouterInvokeCredentialsUI
 ---
 
 # IEAPProviderConfig::RouterInvokeCredentialsUI
@@ -49,68 +50,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 The system calls the <b>RouterInvokeCredentialsUI</b> method to invoke the credentials user interface for EAP authentication between two routers.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEapTypeId
 
 Specifies the EAP for which to invoke the configuration user interface.
 
-
 ### -param uConnectionParam
 
 Specifies the configuration session for which to invoke the user interface.
-
 
 ### -param hwndParent
 
 Handle to the parent window for the configuration user interface.
 
-
 ### -param dwFlags
 
 Specifies the RAS_EAP_FLAG_ROUTER flag. This is the only valid flag for this parameter. It indicates that authentication is between two routers. This parameter always includes this flag.
-
 
 ### -param pConnectionDataIn
 
 Pointer to the current configuration data for the interface.
 
-
 ### -param dwSizeOfConnectionDataIn
 
 Specifies the size of the current configuration data pointed to by the <i>pConnectionDataIn</i> parameter.
-
 
 ### -param pUserDataIn
 
 Pointer to the current credential data for the interface.
 
-
 ### -param dwSizeOfUserDataIn
 
 Specifies the size of the current credentials data.
-
 
 ### -param ppUserDataOut
 
 Pointer to a pointer to a buffer to receive the new credentials data for the interface.
 
-
 ### -param pdwSizeOfUserDataOut
 
 Pointer to a <b>DWORD</b> variable to receive the size of the new credentials data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value should be <b>S_OK</b>.
 
@@ -166,15 +150,8 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 [EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
@@ -201,7 +178,4 @@ An unexpected error occurred.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">IEAPProviderConfig::Uninitialize</a>
- 
-
- 
 

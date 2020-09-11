@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 83608d38-e352-483a-b284-2f9cb444e64f
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPTABLE, MIB_UDPTABLE, MIB_UDPTABLE structure [MIB], PMIB_UDPTABLE, PMIB_UDPTABLE structure pointer [MIB], _mpr_mib_udptable, iprtrmib/MIB_UDPTABLE, iprtrmib/PMIB_UDPTABLE, mib.mib_udptable, rras.mib_udptable, udpmib/MIB_UDPTABLE, udpmib/PMIB_UDPTABLE'
-f1_keywords:
-- udpmib/MIB_UDPTABLE
-dev_langs:
-- c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Udpmib.h
-- Iprtrmib.h
-api_name:
-- MIB_UDPTABLE
 targetos: Windows
 req.typenames: MIB_UDPTABLE, *PMIB_UDPTABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_UDPTABLE
+ - udpmib/_MIB_UDPTABLE
+ - PMIB_UDPTABLE
+ - udpmib/PMIB_UDPTABLE
+ - MIB_UDPTABLE
+ - udpmib/MIB_UDPTABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Udpmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_UDPTABLE
 ---
 
 # MIB_UDPTABLE structure
@@ -50,30 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MIB_UDPTABLE</b> structure contains the User Datagram Protocol (UDP)  listener table for IPv4 on the local computer. 
-
+<b>MIB_UDPTABLE</b> structure contains the User Datagram Protocol (UDP)  listener table for IPv4 on the local computer.
 
 ## -struct-fields
-
-
-
 
 ### -field dwNumEntries
 
 The number of entries in the table.
-
 
 ### -field table
 
 A pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udprow">MIB_UDPROW</a> structures.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a> function enumerates the table of UDP  endpoints for IPv4 that have been bound to an address on the local computer and returns this information in a <b>MIB_UDPTABLE</b> structure. 
 
@@ -90,13 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Udpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Udpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Udpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
 
@@ -155,7 +145,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
- 
-
- 
 

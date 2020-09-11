@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae
 ms.date: 12/05/2018
 ms.keywords: IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], IMFAsyncCallbackLogging interface [Media Foundation],described, mf.imfasynccallbacklogging, mfobjects/IMFAsyncCallbackLogging
-f1_keywords:
-- mfobjects/IMFAsyncCallbackLogging
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfobjects.h
-api_name:
-- IMFAsyncCallbackLogging
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAsyncCallbackLogging
+ - mfobjects/IMFAsyncCallbackLogging
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfobjects.h
+api_name:
+ - IMFAsyncCallbackLogging
 ---
 
 # IMFAsyncCallbackLogging interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides logging information about the parent object the async callback is associated with.
-
 
 ## -inheritance
 
@@ -86,25 +85,13 @@ Gets the tag of the parent object the async callback is associated object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IMFAsyncCallbackLogging</b> is primarily used for async callbacks to return an ID of the parent object that they are associated with.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

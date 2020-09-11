@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: C4F49401-C863-4D3B-80EE-D36F714E7D90
 ms.date: 12/05/2018
 ms.keywords: IDataTransferManagerInterop, IDataTransferManagerInterop interface [Windows Shell], IDataTransferManagerInterop interface [Windows Shell],described, shell.idatatransfermanagerinterop, shobjidl_core/IDataTransferManagerInterop
-f1_keywords:
-- shobjidl_core/IDataTransferManagerInterop
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDataTransferManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataTransferManagerInterop
+ - shobjidl_core/IDataTransferManagerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDataTransferManagerInterop
 ---
 
 # IDataTransferManagerInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables access to <a href="https://docs.microsoft.com/uwp/api/windows.applicationmodel.datatransfer.datatransfermanager">DataTransferManager</a> methods in a Windows Store app that manages multiple windows.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Displays the UI for sharing content for the specified window.
 
 </td>
 </tr>
-</table> 
+</table>
 

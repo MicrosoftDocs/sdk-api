@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 7d0399c8-2161-4d6e-8c14-7fd5bc2757b8
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCompleted method, ITsSbProvisioningPluginNotifySink.OnJobCompleted, ITsSbProvisioningPluginNotifySink::OnJobCompleted, OnJobCompleted, OnJobCompleted method [Remote Desktop Services], OnJobCompleted method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCompleted, termserv.itssbprovisioningpluginnotifysink_onjobcompleted
-f1_keywords:
-- sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCompleted
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbProvisioningPluginNotifySink.OnJobCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbProvisioningPluginNotifySink::OnJobCompleted
+ - sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbProvisioningPluginNotifySink.OnJobCompleted
 ---
 
 # ITsSbProvisioningPluginNotifySink::OnJobCompleted
@@ -49,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is complete.
 
-
 ## -parameters
-
-
-
 
 ### -param ResultCode [in]
 
 The <b>HRESULT</b> returned by the job.
 
-
 ### -param ResultDescription [in]
 
 A text description of the <i>ResultCode</i>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovisioningpluginnotifysink">ITsSbProvisioningPluginNotifySink</a>
- 
-
- 
 

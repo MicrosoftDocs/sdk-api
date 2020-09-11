@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupSetControl, ClusterGroupSetControl function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL function [Failover Cluster], clusapi/ClusterGroupSetControl, clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, mscs.clustergroupcollectioncontrol
-f1_keywords:
-- clusapi/ClusterGroupSetControl
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterGroupSetControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterGroupSetControl
+ - clusapi/ClusterGroupSetControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterGroupSetControl
 ---
 
 # ClusterGroupSetControl function
@@ -49,30 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates an operation affecting a groupset.
 
 The 
     operation performed depends on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroupSet [in]
 
 Handle to the groupset to be affected.
-
 
 ### -param hHostNode [in, optional]
 
 If non-<b>NULL</b>, handle to the node to perform the operation represented by the control 
        code. If <b>NULL</b>, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that owns the 
        groupset performs the operation. Specifying <i>hHostNode</i> is optional.
-
 
 ### -param dwControlCode [in]
 
@@ -113,32 +107,25 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/col
 Pointer to an input buffer containing information needed for the operation, or <b>NULL</b> 
        if no information is needed.
 
-
 ### -param cbInBufferSize [in]
 
 The allocated size (in bytes) of the input buffer.
-
 
 ### -param lpOutBuffer [out, optional]
 
 Pointer to an output buffer to receive the data resulting from the operation, or 
        <b>NULL</b> if no data will be returned.
 
-
 ### -param cbOutBufferSize [in]
 
 The allocated size (in bytes) of the output buffer.
-
 
 ### -param lpBytesReturned [out, optional]
 
 Returns the actual size (in bytes) of the data resulting from the operation. If this information is not 
        needed, pass <b>NULL</b> for <i>lpBytesReturned</i>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -191,7 +178,4 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
- 
-
-
 

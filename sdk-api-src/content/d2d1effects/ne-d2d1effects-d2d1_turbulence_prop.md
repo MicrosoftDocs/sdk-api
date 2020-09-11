@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: C045CA4D-C6B0-47CD-A479-DC3FDFF8D697
 ms.date: 12/05/2018
 ms.keywords: D2D1_TURBULENCE_PROP, D2D1_TURBULENCE_PROP enumeration [Direct2D], D2D1_TURBULENCE_PROP_BASE_FREQUENCY, D2D1_TURBULENCE_PROP_NOISE, D2D1_TURBULENCE_PROP_NUM_OCTAVES, D2D1_TURBULENCE_PROP_OFFSET, D2D1_TURBULENCE_PROP_SEED, D2D1_TURBULENCE_PROP_SIZE, D2D1_TURBULENCE_PROP_STITCHABLE, d2d1effects/D2D1_TURBULENCE_PROP, d2d1effects/D2D1_TURBULENCE_PROP_BASE_FREQUENCY, d2d1effects/D2D1_TURBULENCE_PROP_NOISE, d2d1effects/D2D1_TURBULENCE_PROP_NUM_OCTAVES, d2d1effects/D2D1_TURBULENCE_PROP_OFFSET, d2d1effects/D2D1_TURBULENCE_PROP_SEED, d2d1effects/D2D1_TURBULENCE_PROP_SIZE, d2d1effects/D2D1_TURBULENCE_PROP_STITCHABLE, direct2d.d2d1_turbulence_prop
-f1_keywords:
-- d2d1effects/D2D1_TURBULENCE_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_TURBULENCE_PROP
 targetos: Windows
 req.typenames: D2D1_TURBULENCE_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_TURBULENCE_PROP
+ - d2d1effects/D2D1_TURBULENCE_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_TURBULENCE_PROP
 ---
 
 # D2D1_TURBULENCE_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/turbulence">Turbulence effect</a>.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_TURBULENCE_PROP_OFFSET
 
@@ -75,9 +70,7 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is {0.0f, 0.0f}.
 
-
 ### -field D2D1_TURBULENCE_PROP_SIZE
-
 
 ### -field D2D1_TURBULENCE_PROP_BASE_FREQUENCY
 
@@ -93,7 +86,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is {0.01f, 0.01f}.
 
-
 ### -field D2D1_TURBULENCE_PROP_NUM_OCTAVES
 
 The number of octaves for the noise function. This property is a UINT32 and must be greater than 0.
@@ -102,7 +94,6 @@ The number of octaves for the noise function. This property is a UINT32 and must
 The type is UINT32.
 
 The default value is 1.
-
 
 ### -field D2D1_TURBULENCE_PROP_SEED
 
@@ -113,7 +104,6 @@ The type is UINT32.
 
 The default value is 0.
 
-
 ### -field D2D1_TURBULENCE_PROP_NOISE
 
 The turbulence noise mode. This property can be either fractal sum or turbulence. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. 
@@ -123,7 +113,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/
             
 
 The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.
-
 
 ### -field D2D1_TURBULENCE_PROP_STITCHABLE
 
@@ -138,8 +127,5 @@ The type is BOOL.
 
 The default value is FALSE.
 
-
 ### -field D2D1_TURBULENCE_PROP_FORCE_DWORD
-
-
 

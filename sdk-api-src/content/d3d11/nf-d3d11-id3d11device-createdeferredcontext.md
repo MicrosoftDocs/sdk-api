@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: fbf01844-eaf1-4360-833e-c95ba686fff5
 ms.date: 12/05/2018
 ms.keywords: CreateDeferredContext, CreateDeferredContext method [Direct3D 11], CreateDeferredContext method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDeferredContext method, ID3D11Device.CreateDeferredContext, ID3D11Device::CreateDeferredContext, ad59e9e8-de25-e887-81b2-63e050b34473, d3d11/ID3D11Device::CreateDeferredContext, direct3d11.id3d11device_createdeferredcontext
-f1_keywords:
-- d3d11/ID3D11Device.CreateDeferredContext
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.lib
-- d3d11.dll
-api_name:
-- ID3D11Device.CreateDeferredContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::CreateDeferredContext
+ - d3d11/ID3D11Device::CreateDeferredContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.lib
+ - d3d11.dll
+api_name:
+ - ID3D11Device.CreateDeferredContext
 ---
 
 # ID3D11Device::CreateDeferredContext
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a deferred context, which can record command lists.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextFlags
 
@@ -65,20 +61,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Reserved for future use.
             Pass 0.
-          
-
 
 ### -param ppDeferredContext [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>**</b>
 
 Upon completion of the method, the passed pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a> interface pointer is initialized.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -98,11 +88,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
               </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 A deferred context is a thread-safe context that you can use to record graphics commands on a thread other than the main rendering thread.
           Using a deferred context, you can record graphics commands into a command list that is encapsulated by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11commandlist">ID3D11CommandList</a> interface.
@@ -121,15 +107,8 @@ For more information about deferred contexts, see <a href="https://docs.microsof
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
 
@@ -144,7 +123,4 @@ For more information about deferred contexts, see <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createdeferredcontext3">ID3D11Device3::CreateDeferredContext3</a>
- 
-
- 
 

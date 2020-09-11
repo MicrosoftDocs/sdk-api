@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 107ED0F7-8DDD-4C18-8C34-3A67F771FA62
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInstall, NetRequestProvisioningPackageInstall function [Network Management], lmjoin/NetRequestProvisioningPackageInstall, netmgmt.netrequestprovisioningpackageinstall
-f1_keywords:
-- lmjoin/NetRequestProvisioningPackageInstall
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetRequestProvisioningPackageInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetRequestProvisioningPackageInstall
+ - lmjoin/NetRequestProvisioningPackageInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetRequestProvisioningPackageInstall
 ---
 
 # NetRequestProvisioningPackageInstall function
@@ -49,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
-				<b>NetRequestProvisioningPackageInstall</b> function executes locally on a machine to modify a Windows operating system image mounted on a volume. The registry is loaded from the image and provisioning package data is written where it can be retrieved during the completion phase of an offline domain join operation. 
-
+				<b>NetRequestProvisioningPackageInstall</b> function executes locally on a machine to modify a Windows operating system image mounted on a volume. The registry is loaded from the image and provisioning package data is written where it can be retrieved during the completion phase of an offline domain join operation.
 
 ## -parameters
-
-
-
 
 ### -param pPackageBinData [in]
 
 A pointer to a buffer required to initialize the registry of a Windows operating system image to process the final local state change during the completion phase of the offline domain join operation. 
 
-The opaque binary blob of serialized metadata passed in the <i>pPackageBinData</i> parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetCreateProvisioningPackage</a> function.  
-
+The opaque binary blob of serialized metadata passed in the <i>pPackageBinData</i> parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetCreateProvisioningPackage</a> function.
 
 ### -param dwPackageBinDataSize [in]
 
 The size, in bytes, of the buffer pointed to by the <i>pPackageBinData</i> parameter. 
 
 This parameter must not be <b>NULL</b>.
-
 
 ### -param dwProvisionOptions [in]
 
@@ -96,8 +90,6 @@ This flag is required if the <i>lpWindowsPath</i> parameter references the curre
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpWindowsPath [in]
 
@@ -106,15 +98,11 @@ A pointer to a <b>NULL</b>-terminated character string that specifies the path t
 This path could
                      be a UNC path on a remote server.
 
-
 ### -param pvReserved
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -247,14 +235,8 @@ Computer account provisioning blob version is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrequestofflinedomainjoin">NetRequestProvisioningPackageInstall</a> function is supported on Windows 8 for offline domain join operations.  For  Windows 7, use <b>NetRequestOfflineDomainJoin</b>.
 
@@ -273,13 +255,7 @@ The package returned in the  <i>pPackageBinData</i> parameter by the <a href="ht
 
 All phases of the provisioning process append to a  <i>NetSetup.log</i> file on the local computer. The provisoning process can include up to three different computers: the computer where the provisioning package is created,  the computer that requests the installation of the package,  and the computer where the  package is installed. There will be <i>NetSetup.log</i> file information stored on all three computers according to  the operation performed. Reviewing the contents of these files is the most common means of troubleshooting online and offline provisioning errors. Provisioning operations undertaken by admins are logged to the <i>NetSetup.log</i> file in the <i>%WINDIR%\Debug</i>. Provisioning operations performed by non-admins are logged to the <i>NetSetup.log</i> file  in the <i>%USERPROFILE%\Debug</i> folder.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-netsetup_provisioning_params">NETSETUP_PROVISIONING_PARAMS</a>
 
@@ -316,7 +292,4 @@ All phases of the provisioning process append to a  <i>NetSetup.log</i> file on 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

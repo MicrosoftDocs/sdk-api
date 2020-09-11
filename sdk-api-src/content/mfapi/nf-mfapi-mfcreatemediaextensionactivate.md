@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3F9538F2-DB7A-4841-B61D-C59BC02718B1
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate function [Media Foundation], mf.mfcreatemediaextensionactivate, mf.mfcreatewinrtactivate, mfapi/MFCreateMediaExtensionActivate
-f1_keywords:
-- mfapi/MFCreateMediaExtensionActivate
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFCreateMediaExtensionActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateMediaExtensionActivate
+ - mfapi/MFCreateMediaExtensionActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFCreateMediaExtensionActivate
 ---
 
 # MFCreateMediaExtensionActivate function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an activation object for a Windows Runtime class.
 
-
 ## -parameters
-
-
-
 
 ### -param szActivatableClassId [in]
 
 The class identifier that is associated with the activatable runtime class.
 
-
 ### -param pConfiguration [in]
 
 A pointer to an optional <a href="https://docs.microsoft.com/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> object, which is used to configure the Windows Runtime class. This parameter can be <b>NULL</b>.
-
 
 ### -param riid [in]
 
@@ -88,32 +82,15 @@ The interface identifier (IID) of the interface being requested. The activation 
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To create the Windows Runtime object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

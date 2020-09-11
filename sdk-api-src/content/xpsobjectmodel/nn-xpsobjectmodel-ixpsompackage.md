@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackage
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackage
+ - xpsobjectmodel/IXpsOMPackage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackage
 ---
 
 # IXpsOMPackage interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the top-level entry into the XPS object model tree.
 
  Although this interface does not correspond to any XPS markup, it does correspond to the XPS document, and it is required to save the components of an XPS object model tree as an XPS document.
-
 
 ## -inheritance
 
@@ -165,12 +164,9 @@ Writes the XPS package to a specified stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -212,13 +208,7 @@ else
 
 For information about using this interface in a program, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316970(v=vs.85)">Create a Blank XPS OM</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316970(v=vs.85)">Create a Blank XPS OM</a>
 
@@ -241,7 +231,4 @@ For information about using this interface in a program, see <a href="https://do
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

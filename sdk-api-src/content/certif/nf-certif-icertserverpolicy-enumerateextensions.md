@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 565ff4d5-0d22-466d-8458-f98b992a1868
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerPolicy object, EnumerateExtensions method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensions method, ICertServerPolicy.EnumerateExtensions, ICertServerPolicy::EnumerateExtensions, _certsrv_icertserverpolicy_enumerateextensions, certif/ICertServerPolicy::EnumerateExtensions, security.icertserverpolicy_enumerateextensions
-f1_keywords:
-- certif/ICertServerPolicy.EnumerateExtensions
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.EnumerateExtensions
-- CCertServerPolicy.EnumerateExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::EnumerateExtensions
+ - certif/ICertServerPolicy::EnumerateExtensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.EnumerateExtensions
+ - CCertServerPolicy.EnumerateExtensions
 ---
 
 # ICertServerPolicy::EnumerateExtensions
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumerateExtensions</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the current extension and moves the internal enumeration pointer to the next  extension.
 
-
 ## -parameters
-
-
-
 
 ### -param pstrExtensionName [out]
 
 A pointer to a <b>BSTR</b> that contains the OID of the current extension.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pstrExtensionName</i> parameter contains the OID  of the current extension. A value of S_FALSE is returned if the last extension was already enumerated.
@@ -80,12 +73,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  Returns a string that contains the OID of the extension, or an empty string if the last extension was already enumerated.
 
-
-
-
 ## -remarks
-
-
 
 This method enumerates certificate extensions recorded in the database, even those that are disabled and do not appear in the certificate. To determine whether an extension is disabled, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateextensionflags">GetCertificateExtensionFlags</a> to test the extension's EXTENSION_DISABLE_FLAG bit.
@@ -143,12 +131,7 @@ if (NULL != bstrExt)
     VariantClear(&amp;varExt);
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensionsclose">EnumerateExtensionsClose</a>
 
@@ -167,7 +150,4 @@ if (NULL != bstrExt)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
- 
-
- 
 

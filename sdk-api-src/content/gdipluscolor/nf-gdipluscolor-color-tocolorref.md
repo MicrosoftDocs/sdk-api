@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\tocolorref.htm
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],ToCOLORREF method, Color.ToCOLORREF, Color::ToCOLORREF, ToCOLORREF, ToCOLORREF method [GDI+], ToCOLORREF method [GDI+],Color class, _gdiplus_CLASS_Color_ToCOLORREF_, gdiplus._gdiplus_CLASS_Color_ToCOLORREF_
-f1_keywords:
-- gdipluscolor/Color.ToCOLORREF
-dev_langs:
-- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Color.ToCOLORREF
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Color::ToCOLORREF
+ - gdipluscolor/Color::ToCOLORREF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Color.ToCOLORREF
 ---
 
 # Color::ToCOLORREF
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Color::ToCOLORREF</b> method converts this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value to a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>COLORREF</b>
 
 This method returns a GDI<b>COLORREF</b> value that has the same red, green, and blue components as this color's <b>ARGB</b> value.
 
-
-
-
 ## -remarks
-
-
 
 When the <b>ARGB</b> value is converted to a <b>COLORREF</b> value, the alpha component of the <b>ARGB</b> value is ignored.
 
@@ -107,21 +94,11 @@ VOID Example_ToCOLORREF(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
- 
-
- 
 

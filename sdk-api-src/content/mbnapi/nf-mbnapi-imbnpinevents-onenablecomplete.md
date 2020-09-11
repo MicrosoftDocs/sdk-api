@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 577ba161-dbde-4541-8098-72ab682e548b
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_FAILURE, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnEnableComplete method, IMbnPinEvents.OnEnableComplete, IMbnPinEvents::OnEnableComplete, OnEnableComplete, OnEnableComplete method [Microsoft Broadband Networks], OnEnableComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onenablecomplete, mbnapi/IMbnPinEvents::OnEnableComplete
-f1_keywords:
-- mbnapi/IMbnPinEvents.OnEnableComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnPinEvents.OnEnableComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnPinEvents::OnEnableComplete
+ - mbnapi/IMbnPinEvents::OnEnableComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnPinEvents.OnEnableComplete
 ---
 
 # IMbnPinEvents::OnEnableComplete
@@ -54,26 +55,19 @@ ms.custom: 19H1
 
 Notification method called by the Mobile Broadband service to indicate that a PIN enable operation has completed.
 
-
 ## -parameters
-
-
-
 
 ### -param pin [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a> interface that represents  the PIN type.
 
-
 ### -param pinInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info">MBN_PIN_INFO</a> structure that contains information on remaining attempts, in case of failure operations.  The contents of <i>pinInfo</i> are meaningful only when <i>status</i> is <b>E_MBN_FAILURE</b>.
 
-
 ### -param requestID [in]
 
 A request ID set by the Mobile Broadband service to identify the PIN enable request.
-
 
 ### -param status [in]
 
@@ -157,21 +151,12 @@ There is a failed attempt to use the PIN.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>OnEnableComplete</b> method is called by the Mobile Broadband service to report the completion status of a PIN enable operation initialized by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-enable">Enable</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a>.
 
@@ -181,16 +166,7 @@ The contents of <i>pinInfo</i> are meaningful only when <i>status</i> is <b>E_MB
 For example, if the PIN passed to change a PIN type is incorrect then the operation will fail with a status code of <b>E_MBN_FAILURE</b>. In this case, <b>pinInfo.attemptsRemaining</b> specifies the number of attempts remaining to retry this operation.
 If repeated attempts with the wrong PIN causes <b>attemptsRemaining</b> to become 0 then the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnpinmanager-getpinstate">GetPinState</a> method of  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a> to get the type of PIN required.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents">IMbnPinEvents</a>
- 
-
- 
 

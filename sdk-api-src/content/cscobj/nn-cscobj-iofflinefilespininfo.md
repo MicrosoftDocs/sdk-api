@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IOfflineFilesPinInfo interface [Offline Files],described, cscobj/IOfflineFilesPinInfo, of.iofflinefilespininfo
-f1_keywords:
-- cscobj/IOfflineFilesPinInfo
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesPinInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesPinInfo
+ - cscobj/IOfflineFilesPinInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesPinInfo
 ---
 
 # IOfflineFilesPinInfo interface
 
 
 ## -description
-
 
 Represents the pinned status of an item in the Offline Files cache.
 
@@ -78,7 +78,6 @@ When an item is pinned into the Offline Files cache by using the <a href="https:
 </table> 
 
 Each of the various <i>IsPinnedForUserXxxxxx</i> methods expresses one of these reasons.
-
 
 ## -inheritance
 
@@ -140,16 +139,9 @@ Determines whether the item was pinned for users by Group Policy.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

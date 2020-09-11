@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canpaste.htm
 ms.date: 12/05/2018
 ms.keywords: CanPaste, CanPaste method [Windows Controls], CanPaste method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanPaste method, ITextRange.CanPaste, ITextRange::CanPaste, _win32_ITextRange_CanPaste, _win32_ITextRange_CanPaste_cpp, controls.ITextRange_CanPaste, controls._win32_ITextRange_CanPaste, tom/ITextRange::CanPaste
-f1_keywords:
-- tom/ITextRange.CanPaste
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.CanPaste
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::CanPaste
+ - tom/ITextRange::CanPaste
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.CanPaste
 ---
 
 # ITextRange::CanPaste
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines if a data object can be pasted, using a specified format, into the current range. 
-
+Determines if a data object can be pasted, using a specified format, into the current range.
 
 ## -parameters
-
-
-
 
 ### -param pVar
 
@@ -78,20 +74,16 @@ The
 
 Type: <b>long</b>
 
-Clipboard format that is used. Zero represents the best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. 
-
+Clipboard format that is used. Zero represents the best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero.
 
 ### -param pValue
 
 Type: <b>long*</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that is <b>tomTrue</b> only if the data object identified by 
-					<i>pVar</i> can be pasted, using the specified format, into the range. This parameter can null. 
-
+					<i>pVar</i> can be pasted, using the specified format, into the range. This parameter can null.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -125,15 +117,8 @@ The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -152,7 +137,4 @@ The clipboard contents or <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

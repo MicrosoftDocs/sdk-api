@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 5baccb69-7872-4d67-ad74-70cdd7459f8d
 ms.date: 12/05/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
-f1_keywords:
-- fci/FNFCIGETOPENINFO
-dev_langs:
-- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fci.h
-api_name:
-- FNFCIGETOPENINFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FNFCIGETOPENINFO
+ - fci/FNFCIGETOPENINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fci.h
+api_name:
+ - FNFCIGETOPENINFO
 ---
 
 # FNFCIGETOPENINFO macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-defined callback function to open a file and retrieve file date, time, and attribute.
 
-
 ## -parameters
-
-
-
 
 ### -param fn [in]
 
@@ -127,10 +123,7 @@ The MS-DOS time. The time is a packed value with the following format:
 
 Pointer to an application-defined value.
 
-
 ## -remarks
-
-
 
 The function should open the file using the file open function compatible with those passed into <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>.
 
@@ -168,17 +161,7 @@ FNFCIGETOPENINFO(fnGetOpenInfo)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
- 
-
- 
 

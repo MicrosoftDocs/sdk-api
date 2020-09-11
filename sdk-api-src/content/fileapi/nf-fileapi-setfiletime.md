@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 75d988e4-22a3-4084-a5f8-1fca73ccd542
 ms.date: 12/05/2018
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime
-f1_keywords:
-- fileapi/SetFileTime
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileTime
+ - fileapi/SetFileTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFileTime
 ---
 
 # SetFileTime function
@@ -56,15 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the date and time that the specified file or directory was created, last accessed, or last 
     modified.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -73,13 +69,11 @@ A handle to the file or directory. The handle must have been created using the
       <b>FILE_WRITE_ATTRIBUTES</b> access right. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param lpCreationTime [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the 
       new creation date and time for the file or directory. If 
       the application does not need to change this information, set this parameter either to <b>NULL</b> or to a pointer to a <b>FILETIME</b> structure that has both the <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 0.
-
 
 ### -param lpLastAccessTime [in, optional]
 
@@ -95,7 +89,6 @@ To prevent file operations using the given handle from modifying the last access
        <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 
        0xFFFFFFFF.
 
-
 ### -param lpLastWriteTime [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
@@ -107,22 +100,14 @@ To prevent file operations using the given handle from modifying the last access
        <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 
        0xFFFFFFFF.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Not all file systems can record creation and last access times and not all file systems record them in the 
     same manner. For example, on  FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 
@@ -139,12 +124,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -171,7 +151,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
- 
-
- 
 

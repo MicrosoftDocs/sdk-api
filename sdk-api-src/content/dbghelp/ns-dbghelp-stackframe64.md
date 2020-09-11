@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 2809e3f1-c64a-4753-9fca-f78e89a878b2
 ms.date: 12/05/2018
 ms.keywords: '*LPSTACKFRAME64, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64'
-f1_keywords:
-- dbghelp/STACKFRAME64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgHelp.h
-api_name:
-- STACKFRAME64
-- STACKFRAME
 targetos: Windows
 req.typenames: STACKFRAME64, *LPSTACKFRAME64
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _tagSTACKFRAME64
+ - dbghelp/_tagSTACKFRAME64
+ - LPSTACKFRAME64
+ - dbghelp/LPSTACKFRAME64
+ - STACKFRAME64
+ - dbghelp/STACKFRAME64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - STACKFRAME64
+ - STACKFRAME
 ---
 
 # STACKFRAME64 structure
@@ -50,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a stack frame.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AddrPC
 
@@ -73,12 +73,10 @@ An
 
 <b>x64:  </b>The program counter is RIP.
 
-
 ### -field AddrReturn
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the return address.
-
 
 ### -field AddrFrame
 
@@ -94,7 +92,6 @@ An
 
 <b>x64:  </b>The frame pointer is RBP or RDI. This value is not always used.
 
-
 ### -field AddrStack
 
 An 
@@ -109,49 +106,39 @@ An
 
 <b>x64:  </b>The stack pointer is RSP.
 
-
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a> structure that specifies the backing store (RsBSP).
-
 
 ### -field FuncTableEntry
 
 On x86 computers, this member is an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
-
 ### -field Params
 
 The possible arguments to the function.
-
 
 ### -field Far
 
 This member is <b>TRUE</b> if this is a WOW far call.
 
-
 ### -field Virtual
 
 This member is <b>TRUE</b> if this is a virtual frame.
-
 
 ### -field Reserved
 
 This member is used internally by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function.
 
-
 ### -field KdHelp
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
 
-
 ## -remarks
-
-
 
 This structure supersedes the <b>STACKFRAME</b> structure. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>STACKFRAME</b> is defined as follows in Dbghelp.h. 
@@ -178,14 +165,7 @@ typedef struct _tagSTACKFRAME {
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-address">ADDRESS64</a>
 
@@ -204,7 +184,4 @@ typedef struct _tagSTACKFRAME {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
- 
-
- 
 

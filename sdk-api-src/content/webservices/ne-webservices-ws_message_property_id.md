@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 7398225c-afbd-45c6-9a32-8b8892f0ff8a
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_PROPERTY_ADDRESSING_VERSION, WS_MESSAGE_PROPERTY_BODY_READER, WS_MESSAGE_PROPERTY_BODY_WRITER, WS_MESSAGE_PROPERTY_ENCODED_CERT, WS_MESSAGE_PROPERTY_ENVELOPE_VERSION, WS_MESSAGE_PROPERTY_HEADER_BUFFER, WS_MESSAGE_PROPERTY_HEADER_POSITION, WS_MESSAGE_PROPERTY_HEAP, WS_MESSAGE_PROPERTY_HEAP_PROPERTIES, WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_ID, WS_MESSAGE_PROPERTY_ID enumeration [Web Services for Windows], WS_MESSAGE_PROPERTY_IS_ADDRESSED, WS_MESSAGE_PROPERTY_IS_FAULT, WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS, WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_PROTECTION_LEVEL, WS_MESSAGE_PROPERTY_SAML_ASSERTION, WS_MESSAGE_PROPERTY_SECURITY_CONTEXT, WS_MESSAGE_PROPERTY_STATE, WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN, WS_MESSAGE_PROPERTY_USERNAME, WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES, WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_ADDRESSING_VERSION, webservices/WS_MESSAGE_PROPERTY_BODY_READER, webservices/WS_MESSAGE_PROPERTY_BODY_WRITER, webservices/WS_MESSAGE_PROPERTY_ENCODED_CERT, webservices/WS_MESSAGE_PROPERTY_ENVELOPE_VERSION, webservices/WS_MESSAGE_PROPERTY_HEADER_BUFFER, webservices/WS_MESSAGE_PROPERTY_HEADER_POSITION, webservices/WS_MESSAGE_PROPERTY_HEAP, webservices/WS_MESSAGE_PROPERTY_HEAP_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_ID, webservices/WS_MESSAGE_PROPERTY_IS_ADDRESSED, webservices/WS_MESSAGE_PROPERTY_IS_FAULT, webservices/WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS, webservices/WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_PROTECTION_LEVEL, webservices/WS_MESSAGE_PROPERTY_SAML_ASSERTION, webservices/WS_MESSAGE_PROPERTY_SECURITY_CONTEXT, webservices/WS_MESSAGE_PROPERTY_STATE, webservices/WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN, webservices/WS_MESSAGE_PROPERTY_USERNAME, webservices/WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES, webservices/WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES, wsw.ws_message_property_id
-f1_keywords:
-- webservices/WS_MESSAGE_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_MESSAGE_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_MESSAGE_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_MESSAGE_PROPERTY_ID
+ - webservices/WS_MESSAGE_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_MESSAGE_PROPERTY_ID
 ---
 
 # WS_MESSAGE_PROPERTY_ID enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Each message property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a>, is identified by an ID, and has an associated
                 value.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_MESSAGE_PROPERTY_STATE
 
@@ -68,8 +63,6 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> of the message.
 
 This property is available in all message states.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_HEAP
 
@@ -91,8 +84,6 @@ The message object will not use the heap object unless one of
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>. 
                     Using the heap of an empty message will result in undefined behavior.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_ENVELOPE_VERSION
 
@@ -112,8 +103,6 @@ This property may be specified when message properties are specified using
                 
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_ADDRESSING_VERSION
 
@@ -133,8 +122,6 @@ This property may be specified when message properties are specified using
                 
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_HEADER_BUFFER
 
@@ -149,8 +136,6 @@ This buffer is valid until the message is reset/freed.
                 
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_HEADER_POSITION
 
@@ -181,8 +166,6 @@ This property is available in all message states except <a href="https://docs.mi
                 
 
 The header position is valid until the message is reset or freed.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_BODY_READER
 
@@ -199,8 +182,6 @@ The reader is owned by the message object, and is valid only
 
 This property is only available when the message is 
                     in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_READING</a> state.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_BODY_WRITER
 
@@ -217,8 +198,6 @@ This property is only available when the message is in
 
 The writer is owned by the message object, and is valid only
                     until either <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> are called.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_IS_ADDRESSED
 
@@ -242,8 +221,6 @@ This property is available in all message states except <a href="https://docs.mi
                 
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddressmessage">WsAddressMessage</a> for more information.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_HEAP_PROPERTIES
 
@@ -386,8 +363,6 @@ When a message is initialized using <a href="https://docs.microsoft.com/windows/
                 
 
 This property is available in all message states except <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS
 
@@ -408,8 +383,6 @@ Since an application can directly modify the contents of the header buffer,
                 
 
 The default value is 64.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_USERNAME
 
@@ -430,8 +403,6 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_ENCODED_CERT
 
@@ -453,8 +424,6 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_TRANSPORT_SECURITY_WINDOWS_TOKEN
 
@@ -487,8 +456,6 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_HTTP_HEADER_AUTH_WINDOWS_TOKEN
 
@@ -510,8 +477,6 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN
 
@@ -533,8 +498,6 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_SAML_ASSERTION
 
@@ -556,8 +519,6 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_SECURITY_CONTEXT
 
@@ -568,8 +529,6 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_property">WS_MESSAGE_PROPERTY</a> structure is a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-context">WS_SECURITY_CONTEXT</a>.
 
 The returned value is good until the message is freed or reset.
-                
-
 
 ### -field WS_MESSAGE_PROPERTY_PROTECTION_LEVEL
 
@@ -591,5 +550,4 @@ A custom channel can use <a href="https://docs.microsoft.com/windows/desktop/api
 
 This property is available in all message states except
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-            
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 394B6509-849C-4B4C-9A46-AF5011A03585
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE structure pointer, PROCESS_POWER_THROTTLING_CURRENT_VERSION, PROCESS_POWER_THROTTLING_EXECUTION_SPEED, PROCESS_POWER_THROTTLING_STATE, PROCESS_POWER_THROTTLING_STATE structure, base.process_power_throttling_state, processthreadsapi/PPROCESS_POWER_THROTTLING_STATE, processthreadsapi/PROCESS_POWER_THROTTLING_STATE'
-f1_keywords:
-- processthreadsapi/PROCESS_POWER_THROTTLING_STATE
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- processthreadsapi.h
-api_name:
-- PROCESS_POWER_THROTTLING_STATE
 targetos: Windows
 req.typenames: PROCESS_POWER_THROTTLING_STATE, *PPROCESS_POWER_THROTTLING_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROCESS_POWER_THROTTLING_STATE
+ - processthreadsapi/_PROCESS_POWER_THROTTLING_STATE
+ - PPROCESS_POWER_THROTTLING_STATE
+ - processthreadsapi/PPROCESS_POWER_THROTTLING_STATE
+ - PROCESS_POWER_THROTTLING_STATE
+ - processthreadsapi/PROCESS_POWER_THROTTLING_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - processthreadsapi.h
+api_name:
+ - PROCESS_POWER_THROTTLING_STATE
 ---
 
 # PROCESS_POWER_THROTTLING_STATE structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the throttling policies and how to apply them to a target process when that process is subject to power management. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -79,8 +79,6 @@ The current version.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ControlMask
 
@@ -103,8 +101,6 @@ Manages the execution speed of the process.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field StateMask
 
@@ -127,5 +123,4 @@ Manages the execution speed of the process.
 </td>
 </tr>
 </table>
- 
 

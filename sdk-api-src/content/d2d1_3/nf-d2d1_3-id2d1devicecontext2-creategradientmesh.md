@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 7c471ba3-fb0f-b735-d10b-9d0a56b32863
 ms.date: 12/05/2018
 ms.keywords: CreateGradientMesh, CreateGradientMesh method [Direct2D], CreateGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateGradientMesh method, ID2D1DeviceContext2.CreateGradientMesh, ID2D1DeviceContext2::CreateGradientMesh, d2d1_3/ID2D1DeviceContext2::CreateGradientMesh, direct2d.id2d1devicecontext2_creategradientmesh
-f1_keywords:
-- d2d1_3/ID2D1DeviceContext2.CreateGradientMesh
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext2.CreateGradientMesh
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext2::CreateGradientMesh
+ - d2d1_3/ID2D1DeviceContext2::CreateGradientMesh
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext2.CreateGradientMesh
 ---
 
 # ID2D1DeviceContext2::CreateGradientMesh
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a> instance using the given array of patches.
 
-
 ## -parameters
-
-
-
 
 ### -param patches [in]
 
@@ -64,13 +60,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns
 
 A pointer to the array containing the patches to be used in this mesh.
 
-
 ### -param patchesCount
 
 Type: <b>UINT32</b>
 
 The number of patches in the patches argument to read.
-
 
 ### -param gradientMesh [out]
 
@@ -78,25 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_
 
 When this method returns, contains the address of a pointer to the new gradient mesh.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
- 
-
- 
 

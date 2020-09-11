@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: df75567e-150f-4f88-b6ae-938b451a7b7d
 ms.date: 12/05/2018
 ms.keywords: '*PEMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES structure [Windows GDI], PEMRSETPALETTEENTRIES, PEMRSETPALETTEENTRIES structure pointer [Windows GDI], _win32_EMRSETPALETTEENTRIES_str, gdi.emrsetpaletteentries, wingdi/EMRSETPALETTEENTRIES, wingdi/PEMRSETPALETTEENTRIES'
-f1_keywords:
-- wingdi/EMRSETPALETTEENTRIES
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMRSETPALETTEENTRIES
 targetos: Windows
 req.typenames: EMRSETPALETTEENTRIES, *PEMRSETPALETTEENTRIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMRSETPALETTEENTRIES
+ - wingdi/tagEMRSETPALETTEENTRIES
+ - PEMRSETPALETTEENTRIES
+ - wingdi/PEMRSETPALETTEENTRIES
+ - EMRSETPALETTEENTRIES
+ - wingdi/EMRSETPALETTEENTRIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMRSETPALETTEENTRIES
 ---
 
 # EMRSETPALETTEENTRIES structure
@@ -49,47 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMRSETPALETTEENTRIES</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpaletteentries">SetPaletteEntries</a> enhanced metafile record.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 The base structure for all record types.
 
-
 ### -field ihPal
 
 Palette handle index.
-
 
 ### -field iStart
 
 Index of first entry to set.
 
-
 ### -field cEntries
 
 Number of entries.
-
 
 ### -field aPalEntries
 
 Array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures. Note that <b>peFlags</b> members in the structures do not contain any flags.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
@@ -104,7 +93,4 @@ Array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpaletteentries">SetPaletteEntries</a>
- 
-
- 
 

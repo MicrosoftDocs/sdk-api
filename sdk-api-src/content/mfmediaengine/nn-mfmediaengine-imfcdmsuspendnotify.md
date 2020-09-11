@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: b2671b66-fa9e-46a4-887e-d3ba9dd9025b
 ms.date: 12/05/2018
 ms.keywords: IMFCdmSuspendNotify, IMFCdmSuspendNotify interface [Media Foundation], IMFCdmSuspendNotify interface [Media Foundation],described, mf.imfcdmsuspendnotify, mfmediaengine/IMFCdmSuspendNotify
-f1_keywords:
-- mfmediaengine/IMFCdmSuspendNotify
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFCdmSuspendNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCdmSuspendNotify
+ - mfmediaengine/IMFCdmSuspendNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFCdmSuspendNotify
 ---
 
 # IMFCdmSuspendNotify interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to enable the client to notify the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
-
-
 
 ## -inheritance
 
@@ -87,16 +85,9 @@ The actual suspend is about to occur and no more calls will be made into the Con
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

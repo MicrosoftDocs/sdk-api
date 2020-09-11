@@ -1,17 +1,13 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-sub-assign
 title: WBEMTime::operator-sub-assign (wbemtime.h)
-description: The WBEMTime class subtract-and-assign (–=) operator has been overloaded to decrement an object's time by a time span.
+description: The WBEMTime class subtract-and-assign (ï¿½=) operator has been overloaded to decrement an object's time by a time span.
 helpviewer_keywords: ["WBEMTime interface [Windows Management Instrumentation]","operator-= method","WBEMTime.operator-=","WBEMTime.operator-sub-assign","WBEMTime::operator-=","WBEMTime::operator-sub-assign","_hmm_wbemtime_operator_minus_equal","operator-=","operator-= method [Windows Management Instrumentation]","operator-= method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator-=","wmi.wbemtime_operator_minus_equal"]
 old-location: wmi\wbemtime_operator_minus_equal.htm
 tech.root: wmi
 ms.assetid: 842cfddd-f137-46ba-9744-e3a71dd82f01
 ms.date: 12/05/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator-= method, WBEMTime.operator-=, WBEMTime.operator-sub-assign, WBEMTime::operator-=, WBEMTime::operator-sub-assign, _hmm_wbemtime_operator_minus_equal, operator-=, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-=, wmi.wbemtime_operator_minus_equal
-f1_keywords:
-- wbemtime/WBEMTime.operator-=
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTime.operator-=
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTime::operator-=
+ - wbemtime/WBEMTime::operator-=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTime.operator-=
 ---
 
 # WBEMTime::operator-sub-assign
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,22 +59,13 @@ ms.custom: 19H1
 
 The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class subtract-and-assign (â€“=) operator has been overloaded to decrement an object's time by a time span.
 
-
 ## -parameters
-
-
-
 
 ### -param sub [ref]
 
 Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object, whose time span is subtracted from the specified object.
 
-
 ## -remarks
 
-
-
 The return value is a new <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object with a value equal to the "this" object after it has been decremented.
-
-
 

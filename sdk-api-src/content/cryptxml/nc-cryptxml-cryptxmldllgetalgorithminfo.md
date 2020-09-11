@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 36af2809-0dbb-4024-926c-7054b734e97c
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllGetAlgorithmInfo, CryptXmlDllGetAlgorithmInfo callback, CryptXmlDllGetAlgorithmInfo callback function [Security], cryptxml/CryptXmlDllGetAlgorithmInfo, security.cryptxmldllgetalgorithminfo
-f1_keywords:
-- cryptxml/CryptXmlDllGetAlgorithmInfo
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cryptxml.h
-api_name:
-- CryptXmlDllGetAlgorithmInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlDllGetAlgorithmInfo
+ - cryptxml/CryptXmlDllGetAlgorithmInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cryptxml.h
+api_name:
+ - CryptXmlDllGetAlgorithmInfo
 ---
 
 ## -description
@@ -67,3 +68,4 @@ When you have finished using the memory pointed to by the <i>ppAlgInfo</i> param
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
+

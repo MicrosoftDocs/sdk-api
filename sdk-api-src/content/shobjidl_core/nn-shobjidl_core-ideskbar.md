@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 78b9666b-f913-4745-975e-f8dd6e9f89b4
 ms.date: 12/05/2018
 ms.keywords: IDeskBar, IDeskBar interface [Windows Shell], IDeskBar interface [Windows Shell],described, _win32_IDeskBar, shell.IDeskBar, shobjidl_core/IDeskBar
-f1_keywords:
-- shobjidl_core/IDeskBar
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDeskBar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBar
+ - shobjidl_core/IDeskBar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDeskBar
 ---
 
 # IDeskBar interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is supported through Windows XPService Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.]
 
 Exposes methods that enable desk bar manipulation.
-
 
 ## -inheritance
 
@@ -97,5 +96,5 @@ Sets the client specified by <i>punkClient</i>.
 
 </td>
 </tr>
-</table> 
+</table>
 

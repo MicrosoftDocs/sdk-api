@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
-f1_keywords:
-- propidl/IEnumSTATPROPSTG
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IEnumSTATPROPSTG
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATPROPSTG
+ - propidl/IEnumSTATPROPSTG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IEnumSTATPROPSTG
 ---
 
 # IEnumSTATPROPSTG interface
 
 
 ## -description
-
 
 The 
 <b>IEnumSTATPROPSTG</b> interface iterates through an array of 
@@ -61,7 +61,6 @@ The implementation defines the order in which the properties in the set are enum
 <a href="https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers">Reserved property identifiers</a>, properties with a property ID of 0 (dictionary), 1 (code page indicator), or greater than or equal to 0x80000000 are not enumerated.
 
 Enumeration of a nonsimple property does not necessarily indicate that the property can be read successfully through a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">IPropertyStorage::ReadMultiple</a>. This is because the performance overhead of checking existence of the indirect stream or storage is prohibitive during property enumeration.
-
 
 ## -inheritance
 
@@ -114,20 +113,13 @@ Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">IPropertyStorage::Enum</a>
- 
-
- 
 

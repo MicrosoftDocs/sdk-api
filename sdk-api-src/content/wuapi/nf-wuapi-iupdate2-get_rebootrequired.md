@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 7e665fd1-20f9-47a0-b78f-e60b51cdac5f
 ms.date: 12/05/2018
 ms.keywords: IUpdate2 interface [Windows Update Agent],RebootRequired property, IUpdate2.RebootRequired, IUpdate2.get_RebootRequired, IUpdate2::RebootRequired, IUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdate2 interface, get_RebootRequired, wua.iupdate2_rebootrequired, wuapi/IUpdate2::RebootRequired, wuapi/IUpdate2::get_RebootRequired
-f1_keywords:
-- wuapi/IUpdate2.RebootRequired
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate2.RebootRequired
-- IUpdate2.get_RebootRequired
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate2::get_RebootRequired
+ - wuapi/IUpdate2::get_RebootRequired
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate2.RebootRequired
+ - IUpdate2.get_RebootRequired
 ---
 
 # IUpdate2::get_RebootRequired
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
- 
-
- 
 

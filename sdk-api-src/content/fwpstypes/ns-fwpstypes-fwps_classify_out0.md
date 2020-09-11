@@ -8,10 +8,6 @@ tech.root: NetVista
 ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
 ms.date: 12/05/2018
 ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_CLASSIFY_OUT0, netvista.fwps_classify_out0, wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml
-f1_keywords:
-- fwpstypes/FWPS_CLASSIFY_OUT0
-dev_langs:
-- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpstypes.h
-api_name:
-- FWPS_CLASSIFY_OUT0
 targetos: Windows
 req.typenames: FWPS_CLASSIFY_OUT0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPS_CLASSIFY_OUT0_
+ - fwpstypes/FWPS_CLASSIFY_OUT0_
+ - FWPS_CLASSIFY_OUT0
+ - fwpstypes/FWPS_CLASSIFY_OUT0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpstypes.h
+api_name:
+ - FWPS_CLASSIFY_OUT0
 ---
 
 # FWPS_CLASSIFY_OUT0 structure
@@ -49,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPS_CLASSIFY_OUT0</b> structure defines the data that is returned to the caller of a callout's 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function.
 <div class="alert"><b>Note</b>  <b>FWPS_CLASSIFY_OUT0</b> is a specific version of <b>FWPS_CLASSIFY_OUT</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field actionType
 
@@ -107,16 +106,13 @@ Write access to this member is controlled by the <b>FWPS_RIGHT_ACTION_WRITE</b> 
      higher weight filter in the filter engine. In such a situation, a callout driver sets this member to
      <b>FWP_ACTION_BLOCK</b>.
 
-
 ### -field outContext
 
 Reserved for system use. Callout drivers must not use this member.
 
-
 ### -field filterId
 
 Reserved for system use. Callout drivers must not use this member.
-
 
 ### -field rights
 
@@ -135,7 +131,6 @@ If this flag is set, a callout driver can write to the
        the 
        <b>actionType</b> member of this structure if it is vetoing an <b>FWP_ACTION_PERMIT</b> action that was
        previously returned by a higher weight filter in the filter engine.
-
 
 ### -field flags
 
@@ -212,27 +207,17 @@ This flag is only applicable at the stream layers.
 
 Stream data was requested after the stream had been disconnected.
 
-
 ### -field reserved
 
 Reserved for system use. Callout drivers must not use this member.
 
-
 ## -remarks
-
-
 
 The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to a callout's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function. A callout driver
     uses this structure to return data to the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
@@ -243,7 +228,4 @@ The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
- 
-
- 
 

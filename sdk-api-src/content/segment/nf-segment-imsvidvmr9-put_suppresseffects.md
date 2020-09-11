@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
-f1_keywords:
-- segment/IMSVidVMR9.put_SuppressEffects
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVMR9.put_SuppressEffects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVMR9::put_SuppressEffects
+ - segment/IMSVidVMR9::put_SuppressEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVMR9.put_SuppressEffects
 ---
 
 # IMSVidVMR9::put_SuppressEffects
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -58,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>put_SuppressEffects</b> method specifies whether the Video Control configures the system for optimal video playback.
 
-
 ## -parameters
-
-
-
 
 ### -param bSuppress [in]
 
 Specifies a Boolean value. See Remarks for more information.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -92,14 +84,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>bSuppress</i> equals VARIANT_TRUE, the Video Control configures several system parameters during video playback:
 
@@ -116,16 +102,7 @@ If <i>bSuppress</i> equals VARIANT_FALSE, the Video Control does not modify any 
 
 The default value for this property is VARIANT_TRUE. Set this property to VARIANT_FALSE if your application wants to control all of the system settings; for example, if you are providing a custom allocator-presenter (see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-setallocator">IMSVidVMR9::SetAllocator</a>).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
- 
-
- 
 

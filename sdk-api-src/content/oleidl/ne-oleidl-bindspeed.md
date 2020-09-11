@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d39f662b-60ef-4e84-ae62-14e360a57b4f
 ms.date: 12/05/2018
 ms.keywords: BINDSPEED, BINDSPEED enumeration [COM], BINDSPEED_IMMEDIATE, BINDSPEED_INDEFINITE, BINDSPEED_MODERATE, _com_BINDSPEED, com.bindspeed, oleidl/BINDSPEED, oleidl/BINDSPEED_IMMEDIATE, oleidl/BINDSPEED_INDEFINITE, oleidl/BINDSPEED_MODERATE
-f1_keywords:
-- oleidl/BINDSPEED
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Oleidl.h
-api_name:
-- BINDSPEED
 targetos: Windows
 req.typenames: BINDSPEED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBINDSPEED
+ - oleidl/tagBINDSPEED
+ - BINDSPEED
+ - oleidl/BINDSPEED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Oleidl.h
+api_name:
+ - BINDSPEED
 ---
 
 # BINDSPEED enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates approximately how long the caller will wait to bind to an object.
-
 
 ## -enum-fields
 
-
-
-
 ### -field BINDSPEED_INDEFINITE
 
-There is no time limit on the binding operation. 
-
+There is no time limit on the binding operation.
 
 ### -field BINDSPEED_MODERATE
 
@@ -81,11 +78,7 @@ If this flag is specified, the implementation of <a href="https://docs.microsoft
 
 The caller will wait only a short time. In this case, the binding operation should return MK_E_EXCEEEDEDDEADLINE unless the object is already in the running state or is a pseudo-object.
 
-
-
 ## -remarks
-
-
 
 The system-supplied item moniker implementation is the primary caller of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a>. The <b>BINDSPEED</b> value that it specifies depends on the deadline specified by the caller of the moniker operation. 
 
@@ -95,14 +88,7 @@ The deadline is stored in the <b>dwTickCountDeadline</b> field of the <a href="h
 
 Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">GetObject</a> can use the <b>BINDSPEED</b> value as a shortcut approximation of the binding deadline, or they can use the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> instance parameter to determine the exact deadline.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
 
@@ -113,7 +99,4 @@ Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/oleid
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a>
- 
-
- 
 

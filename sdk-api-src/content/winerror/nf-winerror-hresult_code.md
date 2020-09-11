@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 20f3b51d-38b6-4989-b9c2-5b08012a7352
 ms.date: 12/05/2018
 ms.keywords: HRESULT_CODE, HRESULT_CODE macro [COM], _com_HRESULT_CODE, com.hresult_code, com.hresult_code_macro, winerror/HRESULT_CODE
-f1_keywords:
-- winerror/HRESULT_CODE
-dev_langs:
-- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winerror.h
-api_name:
-- HRESULT_CODE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HRESULT_CODE
+ - winerror/HRESULT_CODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winerror.h
+api_name:
+ - HRESULT_CODE
 ---
 
 # HRESULT_CODE macro
@@ -49,37 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts the code portion of the specified <b>HRESULT</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param hr
 
 The <b>HRESULT</b> value.
 
-
 ## -remarks
-
-
 
 This macro is defined as follows:
 
 <pre class="syntax" xml:space="preserve"><code>#define HRESULT_CODE(hr)    ((hr) &amp; 0xFFFF)</code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
- 
-
- 
 

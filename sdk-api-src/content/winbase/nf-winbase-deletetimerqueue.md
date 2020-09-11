@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
-f1_keywords:
-- winbase/DeleteTimerQueue
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- DeleteTimerQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteTimerQueue
+ - winbase/DeleteTimerQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - DeleteTimerQueue
 ---
 
 # DeleteTimerQueue function
@@ -49,37 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 <div class="alert"><b>Note</b>  This function is obsolete and has been replaced by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param TimerQueue [in]
 
 A handle to the timer queue. This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>DeleteTimerQueue</b> does not wait for all callback functions associated with the timer to complete.
 
@@ -95,12 +84,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
@@ -123,7 +107,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
- 
-
- 
 

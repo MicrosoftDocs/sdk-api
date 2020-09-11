@@ -7,9 +7,13 @@ ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3d12
+f1_keywords:
+ - windows.graphics.holographic.interop
+ - windows.graphics.holographic.interop/windows.graphics.holographic.interop
 ---
 
 # Windows.Graphics.Holographic.Interop.h header
+
 
 ## -description
 
@@ -20,3 +24,4 @@ Sample code for this API set is included in the [Windows Mixed Reality Direct3D 
 This header is used by Direct3D 12 Graphics. For more information, see:
 
 - [Direct3D 12 Graphics](../_direct3d12/index.md)
+

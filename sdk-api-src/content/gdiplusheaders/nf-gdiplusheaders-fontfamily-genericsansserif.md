@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericsansserif.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GenericSansSerif method, FontFamily.GenericSansSerif, FontFamily::GenericSansSerif, GenericSansSerif, GenericSansSerif method [GDI+], GenericSansSerif method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericSansSerif_, gdiplus._gdiplus_CLASS_FontFamily_GenericSansSerif_
-f1_keywords:
-- gdiplusheaders/FontFamily.GenericSansSerif
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- FontFamily.GenericSansSerif
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - FontFamily::GenericSansSerif
+ - gdiplusheaders/FontFamily::GenericSansSerif
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - FontFamily.GenericSansSerif
 ---
 
 # FontFamily::GenericSansSerif
@@ -50,32 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FontFamily::GenericSansSerif</b> method gets a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object that specifies a generic sans serif typeface.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>*</b>
 
 This method returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object that specifies a generic sans serif typeface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
@@ -86,7 +72,4 @@ This method returns a pointer to a <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
- 
-
- 
 

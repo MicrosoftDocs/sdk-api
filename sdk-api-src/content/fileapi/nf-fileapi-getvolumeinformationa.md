@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c80a38e1-319e-4f15-8c8a-9d29075e1709
 ms.date: 12/05/2018
 ms.keywords: FILE_CASE_PRESERVED_NAMES, FILE_CASE_SENSITIVE_SEARCH, FILE_DAX_VOLUME, FILE_FILE_COMPRESSION, FILE_NAMED_STREAMS, FILE_PERSISTENT_ACLS, FILE_READ_ONLY_VOLUME, FILE_SEQUENTIAL_WRITE_ONCE, FILE_SUPPORTS_ENCRYPTION, FILE_SUPPORTS_EXTENDED_ATTRIBUTES, FILE_SUPPORTS_HARD_LINKS, FILE_SUPPORTS_OBJECT_IDS, FILE_SUPPORTS_OPEN_BY_FILE_ID, FILE_SUPPORTS_REPARSE_POINTS, FILE_SUPPORTS_SPARSE_FILES, FILE_SUPPORTS_TRANSACTIONS, FILE_SUPPORTS_USN_JOURNAL, FILE_UNICODE_ON_DISK, FILE_VOLUME_IS_COMPRESSED, FILE_VOLUME_QUOTAS, GetVolumeInformation, GetVolumeInformation function [Files], GetVolumeInformationA, GetVolumeInformationW, _win32_getvolumeinformation, base.getvolumeinformation, fileapi/GetVolumeInformation, fileapi/GetVolumeInformationA, fileapi/GetVolumeInformationW, fs.getvolumeinformation, winbase/GetVolumeInformation, winbase/GetVolumeInformationA, winbase/GetVolumeInformationW
-f1_keywords:
-- fileapi/GetVolumeInformation
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetVolumeInformation
-- GetVolumeInformationA
-- GetVolumeInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetVolumeInformationA
+ - fileapi/GetVolumeInformationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetVolumeInformation
+ - GetVolumeInformationA
+ - GetVolumeInformationW
 ---
 
 # GetVolumeInformationA function
 
 
 ## -description
-
 
 Retrieves information about the file system and volume associated with the specified root 
     directory.
@@ -68,11 +68,7 @@ To specify a handle when retrieving this information, use the
 To retrieve the current compression state of a file or directory, use 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression">FSCTL_GET_COMPRESSION</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpRootPathName [in, optional]
 
@@ -83,12 +79,10 @@ If this parameter is <b>NULL</b>, the root of the current directory is used. A t
        "\\\\MyServer\\MyShare\\", or the C drive as 
        "C:\\".
 
-
 ### -param lpVolumeNameBuffer [out, optional]
 
 A pointer to a buffer that receives the name of a specified volume. The buffer size is specified by the 
        <i>nVolumeNameSize</i> parameter.
-
 
 ### -param nVolumeNameSize [in]
 
@@ -96,7 +90,6 @@ The length of a volume name buffer, in <b>TCHARs</b>. The maximum buffer size is
        <b>MAX_PATH</b>+1.
 
 This parameter is ignored if the volume name buffer is not supplied.
-
 
 ### -param lpVolumeSerialNumber [out, optional]
 
@@ -110,7 +103,6 @@ This function returns the volume serial number that the operating system assigns
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia">Win32_PhysicalMedia</a>  property 
        <b>SerialNumber</b>.
 
-
 ### -param lpMaximumComponentLength [out, optional]
 
 A pointer to a variable that receives the maximum length, in <b>TCHARs</b>, of a file 
@@ -122,7 +114,6 @@ The value that is stored in the variable  that  *<i>lpMaximumComponentLength</i>
        is used to indicate that a specified file system supports long names. For example, for a FAT file system that 
        supports long names, the function stores the value 255, rather than the previous 8.3 indicator. Long names can 
        also be supported on systems that use the NTFS file system.
-
 
 ### -param lpFileSystemFlags [out, optional]
 
@@ -380,14 +371,11 @@ The specified volume supports disk quotas.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpFileSystemNameBuffer [out, optional]
 
 A pointer to a buffer that receives the name of the file system, for example, the FAT file system or the NTFS 
        file system. The buffer size is specified by the <i>nFileSystemNameSize</i> parameter.
-
 
 ### -param nFileSystemNameSize [in]
 
@@ -396,22 +384,14 @@ The length of the file system name buffer, in <b>TCHARs</b>. The maximum buffer 
 
 This parameter is ignored if the file system name buffer is not supplied.
 
-
 ## -returns
-
-
 
 If all the requested information is retrieved, the return value is nonzero.
 
 If not all the requested information is retrieved, the return value is zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 When a user attempts to get information about a floppy drive that does not have a floppy disk, or a CD-ROM 
      drive that does not have a compact disc, the system displays a message box for the user to insert a floppy disk 
@@ -516,9 +496,6 @@ If the volume supports file system transactions, the function returns
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>
 
 
@@ -548,7 +525,4 @@ If the volume supports file system transactions, the function returns
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
 

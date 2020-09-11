@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 820869aa-ca93-4bb5-831a-3afb52da5389
 ms.date: 12/05/2018
 ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], ITravelLog interface [Windows Shell],described, shdeprecated/ITravelLog, shell.ITravelLog, zone_ITravelLog
-f1_keywords:
-- shdeprecated/ITravelLog
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- ITravelLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - ITravelLog
+ - shdeprecated/ITravelLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - ITravelLog
 ---
 
 # ITravelLog interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravelentry">ITravelEntry</a> may not be supported in versions of Windows later than Windows XP.]
 
 Deprecated. Exposes methods that maintain and manipulate a record of travel in the browser.
-
 
 ## -inheritance
 
@@ -170,5 +169,5 @@ Deprecated. Updates an entry that originated out of the current procedure throug
 
 </td>
 </tr>
-</table> 
+</table>
 

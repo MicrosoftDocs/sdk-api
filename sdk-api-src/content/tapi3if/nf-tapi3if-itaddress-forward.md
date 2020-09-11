@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 4f070b50-db9a-49e8-a0f3-e448c5dee144
 ms.date: 12/05/2018
 ms.keywords: Forward, Forward method [TAPI 2.2], Forward method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],Forward method, ITAddress.Forward, ITAddress::Forward, _tapi3_itaddress_forward, tapi3.itaddress_forward, tapi3if/ITAddress::Forward
-f1_keywords:
-- tapi3if/ITAddress.Forward
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddress.Forward
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddress::Forward
+ - tapi3if/ITAddress::Forward
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddress.Forward
 ---
 
 # ITAddress::Forward
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 Forward method forwards calls destined for the address according to the forwarding instructions contained in 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>. If <i>pForwardInfo</i> is set to <b>NULL</b>, forwarding is canceled.
 
-
 ## -parameters
-
-
-
 
 ### -param pForwardInfo [in]
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> interface, or set to <b>NULL</b> to cancel forwarding.
 
-
 ### -param pCall [in]
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface for the consultation call, if required by the telephony environment. May be <b>NULL</b> if not required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -151,14 +143,8 @@ See
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The information in <i>pForwardInfo</i> overrides any previous forwarding instructions.
 
@@ -174,13 +160,7 @@ The
 Forward method is, in part, a COM wrapper for the TAPI 2.1 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">LineForward</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
@@ -207,7 +187,4 @@ Forward method is, in part, a COM wrapper for the TAPI 2.1
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">LineForward</a>
- 
-
- 
 

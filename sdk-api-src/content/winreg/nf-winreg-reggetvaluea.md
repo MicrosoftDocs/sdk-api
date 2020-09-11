@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
 ms.date: 12/05/2018
 ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BINARY, RRF_RT_REG_DWORD, RRF_RT_REG_EXPAND_SZ, RRF_RT_REG_MULTI_SZ, RRF_RT_REG_NONE, RRF_RT_REG_QWORD, RRF_RT_REG_SZ, RRF_SUBKEY_WOW6432KEY, RRF_SUBKEY_WOW6464KEY, RRF_ZEROONFAILURE, RegGetValue, RegGetValue function, RegGetValueA, RegGetValueW, base.reggetvalue, winreg/RegGetValue, winreg/RegGetValueA, winreg/RegGetValueW
-f1_keywords:
-- winreg/RegGetValue
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegGetValue
-- RegGetValueA
-- RegGetValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegGetValueA
+ - winreg/RegGetValueA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegGetValue
+ - RegGetValueA
+ - RegGetValueW
 ---
 
 # RegGetValueA function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type and data for the specified registry value.
 
-
 ## -parameters
-
-
-
 
 ### -param hkey [in]
 
@@ -89,8 +85,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpSubKey [in, optional]
 
 The path of a registry key relative to the key specified by the *hkey* parameter. The registry value will be retrieved from this subkey.
@@ -98,7 +92,6 @@ The path of a registry key relative to the key specified by the *hkey* parameter
 The path is not case sensitive.
 
 If this parameter is **NULL** or an empty string, "", the value will be read from the key specified by *hkey* itself.
-
 
 ### -param lpValue [in, optional]
 
@@ -108,7 +101,6 @@ If this parameter is **NULL** or an empty string, "", the function retrieves the
 Keys do not automatically have an unnamed or default value, and unnamed values can be of any type.
 
 For more information, see [Registry Element Size Limits](/windows/win32/sysinfo/registry-element-size-limits).
-
 
 ### -param dwFlags [in, optional]
 
@@ -293,21 +285,17 @@ You cannot specify <b>RRF_SUBKEY_WOW6432KEY</b> in combination with  <b>RRF_SUBK
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwType [out, optional]
 
 A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. This parameter can be <b>NULL</b> if the type is not required.
 
-
 ### -param pvData [out, optional]
 
 A pointer to a buffer that receives the value's data. This parameter can be <b>NULL</b> if the data is not required.
 
 If the data is a string, the function checks for a terminating <b>null</b> character. If one is not found, the string is stored with a <b>null</b> terminator if the buffer is large enough to accommodate the extra character. Otherwise, the function fails and returns ERROR_MORE_DATA.
-
 
 ### -param pcbData [in, out, optional]
 
@@ -328,10 +316,7 @@ If <i>hKey</i> specifies <b>HKEY_PERFORMANCE_DATA</b> and the <i>pvData</i> buff
 the function returns ERROR_MORE_DATA and the value returned through the <i>pcbData</i> parameter is undefined. This is because the size of the performance data can change from one call to the next. In this case, you must increase the buffer size and call 
 <b>RegGetValue</b> again passing the updated buffer size in the <i>pcbData</i> parameter. Repeat this until the function succeeds. You need to maintain a separate variable to keep track of the buffer size, because the value returned by <i>pcbData</i> is unpredictable.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -342,12 +327,7 @@ If the <i>pvData</i> buffer is too small to receive the value, the function retu
 
 If <i>dwFlags</i> specifies a combination of both <b>RRF_SUBKEY_WOW6464KEY</b> and  <b>RRF_SUBKEY_WOW6432KEY</b>, the function returns ERROR_INVALID_PARAMETER.
 
-
-
-
 ## -remarks
-
-
 
 An application typically calls <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a> to determine the value names and then <b>RegGetValue</b> to retrieve the data for the names.
 
@@ -368,9 +348,6 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 > The winreg.h header defines RegGetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
@@ -397,7 +374,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

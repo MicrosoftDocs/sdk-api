@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: F632DC0B-01EF-4421-ADF3-2CD5AD363CC0
 ms.date: 12/05/2018
 ms.keywords: ISuspensionDependencyManager, ISuspensionDependencyManager interface [Windows Shell], ISuspensionDependencyManager interface [Windows Shell],described, shell.ISuspensionDependencyManager, shobjidl_core/ISuspensionDependencyManager
-f1_keywords:
-- shobjidl_core/ISuspensionDependencyManager
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ISuspensionDependencyManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISuspensionDependencyManager
+ - shobjidl_core/ISuspensionDependencyManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ISuspensionDependencyManager
 ---
 
 # ISuspensionDependencyManager interface
@@ -50,8 +51,6 @@ ms.custom: 19H1
 ## -description
 
 Exposes methods to manage dependencies in process suspension scenarios. This interface is no longer supported on Windows 10, version 1809, and later versions.
-
-
 
 ## -inheritance
 
@@ -86,7 +85,5 @@ The <b>ISuspensionDependencyManager</b> interface has these methods.
 </td>
 <td align="left" width="63%">Ungroups the specified child process from the parent process.</td>
 </tr>
-</table> 
-
-
+</table>
 

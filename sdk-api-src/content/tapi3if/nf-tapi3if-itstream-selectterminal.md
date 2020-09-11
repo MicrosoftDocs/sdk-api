@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: ecc4c7eb-c278-457a-b54e-5f1e582e22bf
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],SelectTerminal method, ITStream.SelectTerminal, ITStream::SelectTerminal, SelectTerminal, SelectTerminal method [TAPI 2.2], SelectTerminal method [TAPI 2.2],ITStream interface, _tapi3_itstream_selectterminal, tapi3.itstream_selectterminal, tapi3if/ITStream::SelectTerminal
-f1_keywords:
-- tapi3if/ITStream.SelectTerminal
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITStream.SelectTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITStream::SelectTerminal
+ - tapi3if/ITStream::SelectTerminal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITStream.SelectTerminal
 ---
 
 # ITStream::SelectTerminal
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SelectTerminal</b> method selects an 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> object onto the stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pTerminal [in]
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface of selected terminal.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -133,14 +126,8 @@ The terminal selected is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Terminals can be selected at any time, irrespective of whether the transport is in a state that allows it to stream media. If the transport is in a state that allows it to stream media, and the application has not successfully invoked 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-pausestream">ITStream::PauseStream</a> or 
@@ -163,20 +150,11 @@ Some MSPs may not allow more than a certain number of terminals, typically one, 
 
 A given terminal can be selected onto only one stream.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

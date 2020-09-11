@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 07956d74-0e22-484b-9bf1-e0184a2ff32f
 ms.date: 12/05/2018
 ms.keywords: CryptGetKeyParam, CryptGetKeyParam function [Security], KP_ALGID, KP_BLOCKLEN, KP_CERTIFICATE, KP_EFFECTIVE_KEYLEN, KP_G, KP_GET_USE_COUNT, KP_IV, KP_KEYLEN, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_Q, KP_SALT, KP_VERIFY_PARAMS, _crypto2_cryptgetkeyparam, security.cryptgetkeyparam, wincrypt/CryptGetKeyParam
-f1_keywords:
-- wincrypt/CryptGetKeyParam
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGetKeyParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetKeyParam
+ - wincrypt/CryptGetKeyParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGetKeyParam
 ---
 
 # CryptGetKeyParam function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetKeyParam</b> function retrieves data that governs the operations of a key. If the 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-cryptographic-service-providers">Microsoft Cryptographic Service Provider</a> is used, the base symmetric keying material is not obtainable by this or any other function.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 The handle of the key being queried.
-
 
 ### -param dwParam [in]
 
@@ -438,8 +433,6 @@ This function returns a nonzero value if the key parameters are valid or zero ot
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbData [out]
 
@@ -447,7 +440,6 @@ A pointer to a buffer that receives the data. The form of this data depends on t
 
 If the size of  this buffer is not known, the required size can be retrieved at run time by passing <b>NULL</b> for this parameter and setting the value pointed to by <i>pdwDataLen</i> to zero. This function will place the required size of the buffer, in bytes, in the value pointed to by <i>pdwDataLen</i>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pdwDataLen [in, out]
 
@@ -460,10 +452,7 @@ A pointer to a <b>DWORD</b> value that, on entry, contains the size, in bytes, o
 
 This parameter is reserved for future use and must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
@@ -555,22 +544,12 @@ The CSP <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cont
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00
 ms.date: 12/05/2018
 ms.keywords: GetClusterResourceState, GetClusterResourceState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE function [Failover Cluster], _wolf_getclusterresourcestate, clusapi/GetClusterResourceState, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, mscs.getclusterresourcestate
-f1_keywords:
-- clusapi/GetClusterResourceState
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- GetClusterResourceState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterResourceState
+ - clusapi/GetClusterResourceState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - GetClusterResourceState
 ---
 
 # GetClusterResourceState function
@@ -53,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns 
     the current state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_STATE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle specifying the resource for which state information should be returned.
-
 
 ### -param lpszNodeName [out, optional]
 
 Pointer to a buffer that receives the name of the specified resource's current owner node as a 
        <b>NULL</b>-terminated Unicode string. Pass <b>NULL</b> if the node name 
        is not required.
-
 
 ### -param lpcchNodeName [in, out, optional]
 
@@ -83,13 +77,11 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
        including the terminating <b>NULL</b>. On output, specifies the number of characters in the 
        resulting name, excluding the terminating <b>NULL</b>.
 
-
 ### -param lpszGroupName [out, optional]
 
 Pointer to a buffer that receives the name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> that 
        contains the specified resource. The name is returned as a <b>NULL</b>-terminated Unicode 
        string. Pass <b>NULL</b> if the group name is not required.
-
 
 ### -param lpcchGroupName [in, out, optional]
 
@@ -99,10 +91,7 @@ Pointer to the size of the <i>lpszGroupName</i> buffer as a count of characters.
        including the terminating <b>NULL</b>. On output, specifies the number of characters in the 
        resulting name, excluding the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>GetClusterResourceState</b> returns the 
        current state of the resource enumerated from the 
@@ -216,14 +205,8 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not call <b>GetClusterResourceState</b> from 
      any resource DLL entry point function. 
@@ -238,12 +221,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/g
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
 
@@ -266,7 +244,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/g
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
- 
-
- 
 

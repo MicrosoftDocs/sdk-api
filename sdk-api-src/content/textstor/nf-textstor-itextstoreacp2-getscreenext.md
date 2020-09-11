@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: fdc258ab-b692-495c-be76-0b41d75625e2
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetScreenExt method, ITextStoreACP2.GetScreenExt, ITextStoreACP2::GetScreenExt, textstor/ITextStoreACP2::GetScreenExt, tsf.itextstoreacp2_getscreenext
-f1_keywords:
-- textstor/ITextStoreACP2.GetScreenExt
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP2.GetScreenExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::GetScreenExt
+ - textstor/ITextStoreACP2::GetScreenExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP2.GetScreenExt
 ---
 
 # ITextStoreACP2::GetScreenExt
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the bounding box screen coordinates of the display surface where the text stream is rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param vcView [in]
 
 Specifies the context view.
 
-
 ### -param prc [out]
 
 Receives the bounding box screen coordinates of the display surface of the document.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,24 +94,12 @@ The specified <i>vcView</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the text is not currently displayed, for example, if the document window is minimized, the <i>prc</i> parameter is set to { 0, 0, 0, 0 }.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
@@ -137,7 +117,4 @@ If the text is not currently displayed, for example, if the document window is m
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
 

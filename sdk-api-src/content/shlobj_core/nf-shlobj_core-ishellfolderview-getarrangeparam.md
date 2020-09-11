@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 15eda2f2-6956-47c1-be08-3ca2f292578e
 ms.date: 12/05/2018
 ms.keywords: GetArrangeParam, GetArrangeParam method [Windows Shell], GetArrangeParam method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetArrangeParam method, IShellFolderView.GetArrangeParam, IShellFolderView::GetArrangeParam, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_GetArrangeParam, shell.IShellFolderView_GetArrangeParam, shlobj_core/IShellFolderView::GetArrangeParam
-f1_keywords:
-- shlobj_core/IShellFolderView.GetArrangeParam
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shlobj_core.h
-api_name:
-- IShellFolderView.GetArrangeParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderView::GetArrangeParam
+ - shlobj_core/IShellFolderView::GetArrangeParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shlobj_core.h
+api_name:
+ - IShellFolderView.GetArrangeParam
 ---
 
 # IShellFolderView::GetArrangeParam
@@ -49,16 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the arrangement parameter of the view, which is how the view has been sorted.
         
             
 <div class="alert"><b>Note</b>  This method is deprecated as of Windows Vista. It might be altered or unavailable in subsequent versions of Windows. We recommend that you use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getsortcolumns">IFolderView2::GetSortColumns</a> instead.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param plParamSort [out]
 
@@ -86,14 +83,9 @@ The upper sixteen bits of <i>plParamSort</i> are used for flags that modify the 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. When arranging by name, arrange the system names but not the display names. When this flag is passed, the two items are arranged by whatever criteria the Shell folder determines most efficient, as long as it implements a consistent sort function. This flag cannot be combined with other flags.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

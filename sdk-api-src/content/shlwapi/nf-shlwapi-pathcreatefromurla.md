@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f4136c80-a309-4551-be73-f2f24ecd4675
 ms.date: 12/05/2018
 ms.keywords: PathCreateFromUrl, PathCreateFromUrl function [Windows Shell], PathCreateFromUrlA, PathCreateFromUrlW, _win32_PathCreateFromUrl, shell.PathCreateFromUrl, shlwapi/PathCreateFromUrl, shlwapi/PathCreateFromUrlA, shlwapi/PathCreateFromUrlW
-f1_keywords:
-- shlwapi/PathCreateFromUrl
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathCreateFromUrl
-- PathCreateFromUrlA
-- PathCreateFromUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCreateFromUrlA
+ - shlwapi/PathCreateFromUrlA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathCreateFromUrl
+ - PathCreateFromUrlA
+ - PathCreateFromUrlW
 ---
 
 # PathCreateFromUrlA function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a file URL to a Microsoft MS-DOS path.
 
-
 ## -parameters
-
-
-
 
 ### -param pszUrl [in]
 
@@ -70,13 +66,11 @@ Type: <b>PCTSTR</b>
 
 A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
 
-
 ### -param pszPath [out]
 
 Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the MS-DOS path. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
-
 
 ### -param pcchPath [in, out]
 
@@ -84,23 +78,17 @@ Type: <b>DWORD*</b>
 
 The number of characters in the <i>pszPath</i> buffer.
 
-
 ### -param dwFlags
 
 Type: <b>DWORD</b>
 
 Reserved. Set this parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 
 ## -remarks
 

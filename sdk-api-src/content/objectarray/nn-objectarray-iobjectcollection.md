@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
 ms.date: 12/05/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
-f1_keywords:
-- objectarray/IObjectCollection
-dev_langs:
-- c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objectarray.h
-api_name:
-- IObjectCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectCollection
+ - objectarray/IObjectCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objectarray.h
+api_name:
+ - IObjectCollection
 ---
 
 # IObjectCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> interface by providing methods that enable clients to add and remove objects that support <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in a collection.
-
 
 ## -inheritance
 
@@ -104,15 +103,10 @@ Removes a single, specified object from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Use this interface to interact with a collection of generic objects.
-
-
 

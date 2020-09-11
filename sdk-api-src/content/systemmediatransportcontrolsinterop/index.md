@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mediatransport
 archived: true
+f1_keywords:
+ - systemmediatransportcontrolsinterop
+ - systemmediatransportcontrolsinterop/systemmediatransportcontrolsinterop
 ---
 
 # Systemmediatransportcontrolsinterop.h header
 
 
 ## -description
-
 
 This header is used by Media Transport Controls. For more information, see:
 

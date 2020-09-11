@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 5f839bfe-bf67-49eb-8743-57713e1be7c5
 ms.date: 12/05/2018
 ms.keywords: IWMPCore2, IWMPCore2 interface [Windows Media Player], IWMPCore2 interface [Windows Media Player],described, IWMPCore2Interface, wmp.iwmpcore2, wmp/IWMPCore2
-f1_keywords:
-- wmp/IWMPCore2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPCore2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCore2
+ - wmp/IWMPCore2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPCore2
 ---
 
 # IWMPCore2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPCore2</b> interface provides a method that supplements the <b>IWMPCore</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -80,13 +76,9 @@ Retrieves a pointer to an <b>IWMPDVD</b> interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
@@ -101,7 +93,4 @@ Retrieves a pointer to an <b>IWMPDVD</b> interface.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

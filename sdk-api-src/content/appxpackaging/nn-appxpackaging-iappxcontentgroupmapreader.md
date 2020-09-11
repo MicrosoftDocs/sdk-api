@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
-f1_keywords:
-- appxpackaging/IAppxContentGroupMapReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxContentGroupMapReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxContentGroupMapReader
+ - appxpackaging/IAppxContentGroupMapReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxContentGroupMapReader
 ---
 
 # IAppxContentGroupMapReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about a content group map.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the required content group from the content group map.
 
 </td>
 </tr>
-</table> 
+</table>
 

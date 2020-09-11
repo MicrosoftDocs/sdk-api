@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 341966d4-f9cf-457d-97ef-8e6107544283
 ms.date: 12/05/2018
 ms.keywords: ITransferSource, ITransferSource interface [Windows Shell], ITransferSource interface [Windows Shell],described, _shell_ITransferSource, shell.ITransferSource, shobjidl_core/ITransferSource
-f1_keywords:
-- shobjidl_core/ITransferSource
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource
+ - shobjidl_core/ITransferSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource
 ---
 
 # ITransferSource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Exposes methods to manipulate <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>, including copy, move, recycle, and others. This interface is offered to provide more control over file operations by providing an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise">ITransferSource::Advise</a> method.
-
 
 ## -inheritance
 
@@ -186,5 +185,5 @@ Terminates an advisory connection.
 
 </td>
 </tr>
-</table> 
+</table>
 

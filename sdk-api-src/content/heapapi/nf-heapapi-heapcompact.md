@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 792ec16f-d6b0-4afd-a832-29fe12b25058
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapCompact, HeapCompact function, _win32_heapcompact, base.heapcompact, heapapi/HeapCompact, winbase/HeapCompact
-f1_keywords:
-- heapapi/HeapCompact
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- HeapCompact
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HeapCompact
+ - heapapi/HeapCompact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - HeapCompact
 ---
 
 # HeapCompact function
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns  the size of the largest committed free block in the specified heap.   If the <a href="https://msdn.microsoft.com/library/cc265897.aspx">Disable heap coalesce on free</a> global flag is set, this function also coalesces adjacent free blocks of memory in the heap.
 
-
 ## -parameters
-
-
-
 
 ### -param hHeap [in]
 
 A handle to the heap. This handle is returned by either the 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
-
 
 ### -param dwFlags [in]
 
@@ -100,12 +95,8 @@ Do not specify this value when accessing the process heap. The system may create
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the size of the largest committed free block in the heap, in bytes.
 
@@ -114,12 +105,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 In the unlikely case that there is absolutely no space available in the heap, the function return value is zero, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the value NO_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 The <b>HeapCompact</b> function is primarily useful for debugging. Ordinarily, the system compacts the heap whenever the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function is called, and the <b>HeapCompact</b> function returns the size of the largest free block in the heap but does not compact the heap any further. If the <a href="https://msdn.microsoft.com/library/cc265897.aspx">Disable heap coalesce on free</a> global flag is set during debugging, the system does not compact the heap and calling the <b>HeapCompact</b> function does compact the heap.  For more information about global flags, see the <a href="https://msdn.microsoft.com/library/cc265942.aspx">GFlags</a> documentation.
 
@@ -134,12 +120,7 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 <li>The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
@@ -155,7 +136,4 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
-f1_keywords:
-- winbio_adapter/SensorAdapterFinishCapture
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterFinishCapture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_FINISH_CAPTURE_FN
+ - winbio_adapter/PIBIO_SENSOR_FINISH_CAPTURE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterFinishCapture
 ---
 
 # PIBIO_SENSOR_FINISH_CAPTURE_FN callback function
@@ -49,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to wait for the completion of a capture operation initiated by the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
-
 
 ### -param RejectDetail [out]
 
@@ -82,8 +76,6 @@ Pointer to a <b>WINBIO_REJECT_DETAIL</b> value that receives additional informat
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. The following values will be recognized by the Windows Biometric Framework.
 
@@ -137,14 +129,8 @@ The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Windows Biometric Framework calls this function after it successfully calls <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a> or it calls <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_cancel_fn">SensorAdapterCancel</a>. It does not call this function if the call to <i>SensorAdapterStartCapture</i> fails.
 
@@ -300,14 +286,7 @@ SensorAdapterFinishCapture(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
@@ -326,7 +305,4 @@ SensorAdapterFinishCapture(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a>
- 
-
- 
 

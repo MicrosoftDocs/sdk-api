@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: b9ad9e41-d5b4-446f-ac99-a51808344f77
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_105, *PDFS_INFO_105, DFS_INFO_105, DFS_INFO_105 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, Default, LPDFS_INFO_105, LPDFS_INFO_105 structure pointer [Distributed File System], PDFS_INFO_105, PDFS_INFO_105 structure pointer [Distributed File System], dfs.dfs_info_105, fs.dfs_info_105, lmdfs/DFS_INFO_105, lmdfs/LPDFS_INFO_105, lmdfs/PDFS_INFO_105, netmgmt.dfs_info_105'
-f1_keywords:
-- lmdfs/DFS_INFO_105
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_105
 targetos: Windows
 req.typenames: DFS_INFO_105, *PDFS_INFO_105, *LPDFS_INFO_105
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_105
+ - lmdfs/_DFS_INFO_105
+ - PDFS_INFO_105
+ - lmdfs/PDFS_INFO_105
+ - DFS_INFO_105
+ - lmdfs/DFS_INFO_105
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_105
 ---
 
 # DFS_INFO_105 structure
@@ -49,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a DFS root or link, including comment, state, time-out, and DFS behaviors 
     specified by property flags. This structure is only for use with the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Comment
 
 Pointer to a null-terminated Unicode string that contains a comment associated with the DFS root or 
       link.
-
 
 ### -field State
 
@@ -98,17 +97,14 @@ The specified DFS root or link is offline or unavailable.
 
 The specified DFS root or link is available.
 
-
 ### -field Timeout
 
 Specifies the time-out, in seconds, of the DFS root or link.
-
 
 ### -field PropertyFlagMask
 
 Specifies a mask value that indicates which flags are valid for evaluation in the 
       <b>PropertyFlags</b> field.
-
 
 ### -field PropertyFlags
 
@@ -188,11 +184,7 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
          DFS link.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
@@ -211,7 +203,4 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

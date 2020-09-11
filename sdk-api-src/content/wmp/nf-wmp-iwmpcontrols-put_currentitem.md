@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 190cec53-5cd9-4bd0-b8d9-23c5389fe231
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentItem method, IWMPControls.put_currentItem, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
-f1_keywords:
-- wmp/IWMPControls.put_currentItem
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.put_currentItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::put_currentItem
+ - wmp/IWMPControls::put_currentItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.put_currentItem
 ---
 
 # IWMPControls::put_currentItem
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_currentItem</b> method specifies the current media item.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIWMPMedia [in]
 
 Pointer to an <b>IWMPMedia</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,24 +79,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method works only with items in the playlist. Calling <b>put_currentItem</b> with a reference to a saved media item is not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
@@ -121,7 +99,4 @@ This method works only with items in the playlist. Calling <b>put_currentItem</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
- 
-
- 
 

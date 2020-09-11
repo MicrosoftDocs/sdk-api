@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9
 ms.date: 12/05/2018
 ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathAppendW, _win32_PathAppend, shell.PathAppend, shlwapi/PathAppend, shlwapi/PathAppendA, shlwapi/PathAppendW
-f1_keywords:
-- shlwapi/PathAppend
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathAppend
-- PathAppendA
-- PathAppendW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathAppendA
+ - shlwapi/PathAppendA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathAppend
+ - PathAppendA
+ - PathAppendW
 ---
 
 # PathAppendA function
 
 
 ## -description
-
 
 Appends one path to the end of another.
         
@@ -63,15 +63,11 @@ Appends one path to the end of another.
 
 ## -parameters
 
-
-
-
 ### -param pszPath [in, out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string to which the path specified in <i>pszMore</i> is appended. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
-
 
 ### -param pszMore [in]
 
@@ -79,21 +75,13 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be appended.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function automatically inserts a backslash between the two strings, if one is not already present.
 

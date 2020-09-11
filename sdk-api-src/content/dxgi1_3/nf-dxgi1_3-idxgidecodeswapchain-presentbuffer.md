@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: EFBBE24E-9BA5-40CB-B090-EE0ADA1AF07D
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],PresentBuffer method, IDXGIDecodeSwapChain.PresentBuffer, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
-f1_keywords:
-- dxgi1_3/IDXGIDecodeSwapChain.PresentBuffer
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIDecodeSwapChain.PresentBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDecodeSwapChain::PresentBuffer
+ - dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIDecodeSwapChain.PresentBuffer
 ---
 
 # IDXGIDecodeSwapChain::PresentBuffer
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Presents a frame on the output adapter. The frame is a subresource of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> object that was used to create the decode swap chain.
 
-
 ## -parameters
-
-
-
 
 ### -param BufferToPresent
 
 An index indicating which member of the subresource array to present.
-
 
 ### -param SyncInterval
 
@@ -89,10 +84,7 @@ An integer value that contains swap-chain presentation options. These options ar
 
 The <b>DXGI_PRESENT_USE_DURATION</b> flag must be set if a custom present duration (custom refresh rate) is being used.
 
-
 ## -returns
-
-
 
 This method returns <b>S_OK</b> on success, or it returns one of the following error codes:
 
@@ -103,15 +95,7 @@ This method returns <b>S_OK</b> on success, or it returns one of the following e
 <li><b>E_OUTOFMEMORY</b></li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>
- 
-
- 
 

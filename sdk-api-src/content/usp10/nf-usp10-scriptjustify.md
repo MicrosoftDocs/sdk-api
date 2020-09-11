@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
 ms.date: 12/05/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
-f1_keywords:
-- usp10/ScriptJustify
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptJustify
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptJustify
+ - usp10/ScriptJustify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptJustify
 ---
 
 # ScriptJustify function
@@ -52,57 +53,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an advance widths table to allow text justification when passed to the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param psva [in]
 
 Pointer to an array, of length indicated by <i>cGlyphs</i>, containing <a href="/windows/win32/api/usp10/ns-usp10-script_visattr">SCRIPT_VISATTR</a> structures. Each structure contains visual attributes for a glyph in the line to process.
 
-
 ### -param piAdvance [in]
 
 Pointer to an advance widths array, of length indicated by <i>cGlyphs</i>, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
-
 
 ### -param cGlyphs [in]
 
 Count of glyphs for the arrays indicated by <i>psva</i> and <i>piAdvance</i>. This parameter also indicates the count of glyphs for the output parameter <i>piJustify</i>.
 
-
 ### -param iDx [in]
 
 Width, in pixels, of the desired change, either an increase of decrease.
-
 
 ### -param iMinKashida [in]
 
 Minimum width of a kashida glyph to generate.
 
-
 ### -param piJustify [out]
 
 Pointer to a buffer in which this function retrieves an array, of length indicated by <i>cGlyphs</i>, containing justified advance widths. The justified widths are sometimes called "cell widths" to distinguish them from unjustified advance widths.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
-
-
-
 ## -remarks
-
-
 
 See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
@@ -121,12 +104,7 @@ Sometimes the application tries to handle glyphs that cannot be justified, in wh
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -153,7 +131,4 @@ Sometimes the application tries to handle glyphs that cannot be justified, in wh
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

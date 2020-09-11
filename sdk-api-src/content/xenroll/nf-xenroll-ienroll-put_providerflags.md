@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 57e6f86e-fbd3-4fd7-acdd-146a67045ff8
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderFlags property, IEnroll.ProviderFlags, IEnroll.put_ProviderFlags, IEnroll::ProviderFlags, IEnroll::get_ProviderFlags, IEnroll::put_ProviderFlags, ProviderFlags property [Security], ProviderFlags property [Security],IEnroll interface, put_ProviderFlags, security.ienroll4_providerflags, xenroll/IEnroll::ProviderFlags, xenroll/IEnroll::get_ProviderFlags, xenroll/IEnroll::put_ProviderFlags
-f1_keywords:
-- xenroll/IEnroll.ProviderFlags
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.ProviderFlags
-- IEnroll.get_ProviderFlags
-- IEnroll.put_ProviderFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_ProviderFlags
+ - xenroll/IEnroll::put_ProviderFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.ProviderFlags
+ - IEnroll.get_ProviderFlags
+ - IEnroll.put_ProviderFlags
 ---
 
 # IEnroll::put_ProviderFlags
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -63,13 +63,9 @@ The default value for this property is zero. This property was first defined in 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For  more information about   valid <b>ProviderFlags</b> values for the Microsoft Base Cryptographic Provider, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> CryptoAPI function.
@@ -90,17 +86,7 @@ The <b>ProviderFlags</b> property affects the behavior of the following methods:
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

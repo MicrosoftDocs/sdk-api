@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 62925515-a6f3-4b5f-bf97-edb968af19a3
 ms.date: 12/05/2018
 ms.keywords: LsaQueryTrustedDomainInfo, LsaQueryTrustedDomainInfo function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsaquerytrusteddomaininfo, ntsecapi/LsaQueryTrustedDomainInfo, security.lsaquerytrusteddomaininfo
-f1_keywords:
-- ntsecapi/LsaQueryTrustedDomainInfo
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LsaQueryTrustedDomainInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaQueryTrustedDomainInfo
+ - ntsecapi/LsaQueryTrustedDomainInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LsaQueryTrustedDomainInfo
 ---
 
 # LsaQueryTrustedDomainInfo function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaQueryTrustedDomainInfo</b> function retrieves information about a trusted domain.
 
-
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object of a domain controller that has a trust relationship with the domain identified by the <i>TrustedDomainSid</i> parameter. The handle must have the POLICY_VIEW_LOCAL_INFORMATION access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
-
 ### -param TrustedDomainSid [in]
 
 Pointer to the SID of the trusted domain to query.
-
 
 ### -param InformationClass [in]
 
@@ -151,8 +145,6 @@ Retrieves complete information for the trusted domain. This information includes
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [out]
 
@@ -164,10 +156,7 @@ A pointer to a buffer that receives a pointer to a structure that contains the r
 When you have finished using the information, free the returned pointer by passing it to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns STATUS_SUCCESS.
 
@@ -177,13 +166,7 @@ If the function fails, it returns an <b>NTSTATUS</b> value that indicates the er
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> value to a Windows error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininformation">LsaSetTrustedDomainInformation</a>
 
@@ -214,7 +197,4 @@ You can use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
- 
-
- 
 

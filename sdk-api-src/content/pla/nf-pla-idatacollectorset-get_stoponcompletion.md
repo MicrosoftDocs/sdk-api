@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: bb7e18c6-e809-455e-9bee-c4bb6cf07c26
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],StopOnCompletion property, IDataCollectorSet.StopOnCompletion, IDataCollectorSet.get_StopOnCompletion, IDataCollectorSet::StopOnCompletion, IDataCollectorSet::get_StopOnCompletion, IDataCollectorSet::put_StopOnCompletion, StopOnCompletion property [PLA], StopOnCompletion property [PLA],IDataCollectorSet interface, get_StopOnCompletion, pla.idatacollectorset_stoponcompletion, pla/IDataCollectorSet::StopOnCompletion, pla/IDataCollectorSet::get_StopOnCompletion, pla/IDataCollectorSet::put_StopOnCompletion
-f1_keywords:
-- pla/IDataCollectorSet.StopOnCompletion
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.StopOnCompletion
-- IDataCollectorSet.get_StopOnCompletion
-- IDataCollectorSet.put_StopOnCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::get_StopOnCompletion
+ - pla/IDataCollectorSet::get_StopOnCompletion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.StopOnCompletion
+ - IDataCollectorSet.get_StopOnCompletion
+ - IDataCollectorSet.put_StopOnCompletion
 ---
 
 # IDataCollectorSet::get_StopOnCompletion
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A data collector set stops only after all the data collectors in the set are complete. The following table identifies when each data collector is complete.
 
@@ -86,15 +82,8 @@ A data collector set stops only after all the data collectors in the set are com
 <td>Immediately. </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
@@ -105,7 +94,4 @@ A data collector set stops only after all the data collectors in the set are com
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-stop">IDataCollectorSet::Stop</a>
- 
-
- 
 

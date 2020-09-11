@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 18727dee-392d-4f88-b1de-35da8a5887b6
 ms.date: 12/05/2018
 ms.keywords: ISurrogate interface [COM],LoadDllServer method, ISurrogate.LoadDllServer, ISurrogate::LoadDllServer, LoadDllServer, LoadDllServer method [COM], LoadDllServer method [COM],ISurrogate interface, _com_isurrogate_loaddllserver, com.isurrogate_loaddllserver, objidlbase/ISurrogate::LoadDllServer
-f1_keywords:
-- objidlbase/ISurrogate.LoadDllServer
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ISurrogate.LoadDllServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurrogate::LoadDllServer
+ - objidlbase/ISurrogate::LoadDllServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ISurrogate.LoadDllServer
 ---
 
 # ISurrogate::LoadDllServer
@@ -49,34 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as <a href="https://docs.microsoft.com/windows/desktop/com/dllsurrogate">DllSurrogate</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Clsid [in]
 
 The CLSID of the DLL server to be loaded.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 Upon receiving a load request through <b>LoadDllServer</b>, the surrogate must perform the following steps:
 
@@ -86,13 +72,7 @@ Upon receiving a load request through <b>LoadDllServer</b>, the surrogate must p
 </ol>
 This class factory's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a> will create an instance of the requested CLSID method by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> to get the class factory which creates an actual object for the given CLSID.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate">CoRegisterSurrogate</a>
 
@@ -107,7 +87,4 @@ This class factory's implementation of <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
-f1_keywords:
-- il21dec/IAMLine21Decoder
-dev_langs:
-- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMLine21Decoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMLine21Decoder
+ - il21dec/IAMLine21Decoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMLine21Decoder
 ---
 
 # IAMLine21Decoder interface
 
 
 ## -description
-
-
 
 The <code>IAMLine21Decoder</code> interface sets and retrieves information about closed captions.
 
@@ -59,9 +58,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decod
 Closed-captioned information is transmitted on line 21 of field 1 in the vertical blanking interval (VBI) of television signals. Video cassette recorders record this information on video tape, and you can use the Line21 Decoder and other DirectShow filters to capture the line 21 data and save it on disk in a media file format such as Audio-Video Interleaved (AVI). The closed-captioned information appears as a separate stream within the media file.
 
 Closed-captioned text is used in television programming and DVD movies. DVD movies contain line 21 data as part of the user data section of each Group of Pictures (GOP) in the video stream. Television receiver cards with Windows Driver Model (WDM) drivers provide line 21 data.
-
-
-
 
 ## -inheritance
 
@@ -195,5 +191,5 @@ Enables or disables closed captions.
 
 </td>
 </tr>
-</table> 
+</table>
 

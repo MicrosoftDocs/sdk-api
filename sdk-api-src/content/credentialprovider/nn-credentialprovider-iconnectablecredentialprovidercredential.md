@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fe5f3145-b428-42c9-ab1d-1c0e63c4454b
 ms.date: 12/05/2018
 ms.keywords: IConnectableCredentialProviderCredential, IConnectableCredentialProviderCredential interface [Windows Shell], IConnectableCredentialProviderCredential interface [Windows Shell],described, _shell_IConnectableCredentialProviderCredential, credentialprovider/IConnectableCredentialProviderCredential, shell.IConnectableCredentialProviderCredential
-f1_keywords:
-- credentialprovider/IConnectableCredentialProviderCredential
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- IConnectableCredentialProviderCredential
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnectableCredentialProviderCredential
+ - credentialprovider/IConnectableCredentialProviderCredential
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - IConnectableCredentialProviderCredential
 ---
 
 # IConnectableCredentialProviderCredential interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for connecting and disconnecting <b>IConnectableCredentialProviderCredential</b> objects.
-
 
 ## -inheritance
 
@@ -86,18 +85,13 @@ Disconnects an <b>IConnectableCredentialProviderCredential</b> object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is required for any credential provider that wants to connect to the network.
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a> interface, from which it inherits.
 
 All tasks that might take an extended period of time, such as connecting to a network, should be handled with the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">Connect</a> method.
-
-
 

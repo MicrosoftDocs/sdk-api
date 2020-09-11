@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5b1e6204-6cc0-4d94-8e54-fa963f83ae39
 ms.date: 12/05/2018
 ms.keywords: IVdsLunIscsi, IVdsLunIscsi interface [VDS], IVdsLunIscsi interface [VDS],described, base.ivdsluniscsi, vds/IVdsLunIscsi, vdshwprv/IVdsLunIscsi
-f1_keywords:
-- vdshwprv/IVdsLunIscsi
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- IVdsLunIscsi
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLunIscsi
+ - vdshwprv/IVdsLunIscsi
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - IVdsLunIscsi
 ---
 
 # IVdsLunIscsi interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing query and configuration operations on an iSCSI LUN.
-
 
 ## -inheritance
 
@@ -87,16 +86,9 @@ Associates LUNs with subsystem iSCSI targets.</p> (Inherited from <b>IVdsLunIscs
 Returns an enumeration of currently associated iSCSI targets—the targets 
    through which the LUN is accessible.</p> (Inherited from <b>IVdsLunIscsi</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
- 
-
- 
 

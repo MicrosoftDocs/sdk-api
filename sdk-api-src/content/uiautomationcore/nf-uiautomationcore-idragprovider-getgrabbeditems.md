@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: B56F5975-279C-48C7-84C9-35BBBE222F6A
 ms.date: 12/05/2018
 ms.keywords: GetGrabbedItems, GetGrabbedItems method [Windows Accessibility], GetGrabbedItems method [Windows Accessibility],IDragProvider interface, IDragProvider interface [Windows Accessibility],GetGrabbedItems method, IDragProvider.GetGrabbedItems, IDragProvider::GetGrabbedItems, uiautomationcore/IDragProvider::GetGrabbedItems, winauto.uiauto_idragprovider_getgrabbeditems
-f1_keywords:
-- uiautomationcore/IDragProvider.GetGrabbedItems
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IDragProvider.GetGrabbedItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDragProvider::GetGrabbedItems
+ - uiautomationcore/IDragProvider::GetGrabbedItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IDragProvider.GetGrabbedItems
 ---
 
 # IDragProvider::GetGrabbedItems
@@ -49,46 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the collection of elements that are being dragged as part of a drag operation.  
-
+Retrieves the collection of elements that are being dragged as part of a drag operation.
 
 ## -parameters
-
-
-
 
 ### -param pRetVal [out, retval, optional]
 
 An array of VT_UNKNOWN pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interfaces
-				of the elements that are being dragged. This parameter is <b>NULL</b> if only a single item is being dragged. 
-
+				of the elements that are being dragged. This parameter is <b>NULL</b> if only a single item is being dragged.
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
-If the user is dragging multiple items, the items are represented by a single master element with an associated set of grabbed elements.  The master element raises the appropriate events, to avoid having a large set of duplicate events.  The client can call <b>GetGrabbedItems</b> to retrieve the full list of grabbed items.  The provider should allocate a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of appropriate length and add the Component Object Model (COM) pointers of the elements that are part of the drag operation.  
-
-
-
+If the user is dragging multiple items, the items are represented by a single master element with an associated set of grabbed elements.  The master element raises the appropriate events, to avoid having a large set of duplicate events.  The client can call <b>GetGrabbedItems</b> to retrieve the full list of grabbed items.  The provider should allocate a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of appropriate length and add the Component Object Model (COM) pointers of the elements that are part of the drag operation.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>
- 
-
- 
 

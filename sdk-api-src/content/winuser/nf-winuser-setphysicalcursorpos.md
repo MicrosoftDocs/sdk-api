@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setphysicalcursorpos.htm
 ms.date: 12/05/2018
 ms.keywords: SetPhysicalCursorPos, SetPhysicalCursorPos function [Menus and Other Resources], _win32_SetPhysicalCursorPos, _win32_setphysicalcursorpos_cpp, menurc.setphysicalcursorpos, winui._win32_setphysicalcursorpos, winuser/SetPhysicalCursorPos
-f1_keywords:
-- winuser/SetPhysicalCursorPos
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
-api_name:
-- SetPhysicalCursorPos
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetPhysicalCursorPos
+ - winuser/SetPhysicalCursorPos
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+ - SetPhysicalCursorPos
 ---
 
 # SetPhysicalCursorPos function
@@ -53,56 +54,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the position of the cursor in physical coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param X [in]
 
 Type: <b>int</b>
 
-The new x-coordinate of the cursor, in physical coordinates. 
-
+The new x-coordinate of the cursor, in physical coordinates.
 
 ### -param Y [in]
 
 Type: <b>int</b>
 
-The new y-coordinate of the cursor, in physical coordinates. 
-
+The new y-coordinate of the cursor, in physical coordinates.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if successful; otherwise <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 For a description of the difference between logicial coordinates and physical coordinates, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-physicaltologicalpoint">PhysicalToLogicalPoint</a>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be called to get more information about any error that is generated.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
@@ -141,7 +122,4 @@ For a description of the difference between logicial coordinates and physical co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
- 
-
- 
 

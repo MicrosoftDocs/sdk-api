@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ba73527a-7762-45c0-8c69-87f03e55e5c6
 ms.date: 12/05/2018
 ms.keywords: IDeskBand2, IDeskBand2 interface [Windows Shell], IDeskBand2 interface [Windows Shell],described, _shell_IDeskBand2, shell.IDeskBand2, shobjidl/IDeskBand2
-f1_keywords:
-- shobjidl/IDeskBand2
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDeskBand2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBand2
+ - shobjidl/IDeskBand2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDeskBand2
 ---
 
 # IDeskBand2 interface
 
 
 ## -description
-
 
 Exposes methods to enable and query translucency effects in a deskband object.
 <div class="alert"><b>Important</b>  You should use <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
@@ -95,12 +95,9 @@ Sets the composition state.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a> interfaces, from which it inherits.
 
@@ -116,5 +113,4 @@ A deskband can implement <b>IDeskBand2</b> as a communication conduit between it
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-getcompositionstate">IDeskBand2::GetCompositionState</a> is the counterpart of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-setcompositionstate">IDeskBand2::SetCompositionState</a>.</li>
 </ul>
-
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3a4d6f1d-72c2-4bd0-ad44-1c42a5bf9cb6
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistrationUI, IApplicationAssociationRegistrationUI interface [Windows Shell], IApplicationAssociationRegistrationUI interface [Windows Shell],described, _shell_IApplicationAssociationRegistrationUI, shell.IApplicationAssociationRegistrationUI, shobjidl/IApplicationAssociationRegistrationUI
-f1_keywords:
-- shobjidl/IApplicationAssociationRegistrationUI
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IApplicationAssociationRegistrationUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationAssociationRegistrationUI
+ - shobjidl/IApplicationAssociationRegistrationUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IApplicationAssociationRegistrationUI
 ---
 
 # IApplicationAssociationRegistrationUI interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that launches an advanced association dialog box through which the user can customize their associations.
-
 
 ## -inheritance
 
@@ -77,25 +76,13 @@ Launches an advanced association dialog box through which the user can customize
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Because <b>IApplicationAssociationRegistrationUI</b> is only supported for Windows Vista and later, applications that support earlier operating systems must use their preexisting code when running under those operating systems. Those applications should include a check for the operating system version to account for this.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
- 
-
- 
 

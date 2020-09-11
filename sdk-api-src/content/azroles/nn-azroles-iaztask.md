@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 90eb19c9-1490-43f4-ab4b-393e825aeb2f
 ms.date: 12/05/2018
 ms.keywords: IAzTask, IAzTask interface [Security], IAzTask interface [Security],described, azroles/IAzTask, security.iaztask
-f1_keywords:
-- azroles/IAzTask
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzTask
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzTask
+ - azroles/IAzTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzTask
 ---
 
 # IAzTask interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzTask</b> interface describes a set of operations.
-
 
 ## -inheritance
 
@@ -318,5 +317,5 @@ Retrieves a value that indicates whether the task can be modified by the user co
 
 </td>
 </tr>
-</table> 
+</table>
 

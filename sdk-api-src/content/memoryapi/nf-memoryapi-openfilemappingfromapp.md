@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
 ms.date: 12/05/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
-f1_keywords:
-- memoryapi/OpenFileMappingFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- KernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- OpenFileMappingFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenFileMappingFromApp
+ - memoryapi/OpenFileMappingFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - OpenFileMappingFromApp
 ---
 
 # OpenFileMappingFromApp function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a named file mapping object.
 
-
 ## -parameters
-
-
-
 
 ### -param DesiredAccess [in]
 
@@ -67,13 +63,11 @@ The access to the file mapping object. This access is checked against any securi
       file mapping object. For a list of values, see 
       <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>. You can only open the file mapping object for <b>FILE_MAP_EXECUTE</b> access if your app has the <b>codeGeneration</b> capability.
 
-
 ### -param InheritHandle [in]
 
 If this parameter is <b>TRUE</b>, a process created by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit the handle; 
       otherwise, the handle cannot be inherited.
-
 
 ### -param Name [in]
 
@@ -88,22 +82,14 @@ The name of the file mapping object to be opened. If there is an open handle to 
       user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal 
       Services so that applications can support multiple users.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file mapping object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>OpenFileMappingFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities. <b>OpenFileMappingFromApp</b> lets Windows Store apps use the <a href="https://docs.microsoft.com/dotnet/api/system.io.memorymappedfiles.memorymappedfile?redirectedfrom=MSDN">MemoryMappedFile</a> class in the .NET Framework.
 
@@ -118,13 +104,7 @@ When it is no longer needed, the caller should call release the handle returned 
      <b>OpenFileMappingFromApp</b> with a call to 
      <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
@@ -143,7 +123,4 @@ Memory Management Functions
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/sharing-files-and-memory">Sharing Files and Memory</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.date: 12/05/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
-f1_keywords:
-- oleidl/IParseDisplayName
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IParseDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IParseDisplayName
+ - oleidl/IParseDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IParseDisplayName
 ---
 
 # IParseDisplayName interface
 
 
 ## -description
-
 
 Parses a displayable name string to convert it into a moniker for custom moniker implementations.
 
@@ -58,7 +58,6 @@ Display name parsing is necessary when the end user inputs a string to identify 
 <li>A compound document application that supports linked components typically supports the <b>Edit:Links...</b> dialog box. Through this dialog box, the end user can enter a display name to specify a new link source for a specified linked component. The compound document needs to have this input string converted into a moniker.</li>
 <li>A script language such as the macro language of a spreadsheet can allow textual references to a component. The language's interpreter needs to have such a reference converted into a moniker in order to execute the macro.</li>
 </ul>This interface is not supported for use across machine boundaries.
-
 
 ## -inheritance
 
@@ -84,13 +83,9 @@ Parses the specified display name and creates a corresponding moniker.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-parsedisplayname">IMoniker::ParseDisplayName</a>
 
@@ -105,7 +100,4 @@ Parses the specified display name and creates a corresponding moniker.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>
- 
-
- 
 

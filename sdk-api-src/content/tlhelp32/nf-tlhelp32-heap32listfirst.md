@@ -8,10 +8,6 @@ tech.root: ToolHelp
 ms.assetid: b9a2992b-0dc1-41c3-aa23-796def674831
 ms.date: 12/05/2018
 ms.keywords: Heap32ListFirst, Heap32ListFirst function [ToolHelp], _win32_heap32listfirst, base.heap32listfirst, tlhelp32/Heap32ListFirst, toolhelp.heap32listfirst
-f1_keywords:
-- tlhelp32/Heap32ListFirst
-dev_langs:
-- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ToolHelp-L1-1-1.dll
-- Kernel32Legacy.dll
-api_name:
-- Heap32ListFirst
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Heap32ListFirst
+ - tlhelp32/Heap32ListFirst
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+ - Kernel32Legacy.dll
+api_name:
+ - Heap32ListFirst
 ---
 
 # Heap32ListFirst function
@@ -51,40 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the first heap that has been allocated by a specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hSnapshot [in]
 
 A handle to the snapshot returned from a previous call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
-
 ### -param lphl [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a> structure.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the first entry of the heap list has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function when no heap list exists or the snapshot does not contain heap list information.
 
-
-
-
 ## -remarks
-
-
 
 The calling application must set the <b>dwSize</b> member of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPLIST32</a> to the size, in bytes, of the structure. 
@@ -101,12 +88,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
@@ -125,7 +107,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
- 
-
- 
 

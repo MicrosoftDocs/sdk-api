@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 dev_langs:
  - c++
@@ -43,7 +44,7 @@ Describes a video extension command parameter.
 
 ### -field Name
 
-A pointer to a wide string containing the name of the command. 
+A pointer to a wide string containing the name of the command.
 
 ### -field Type
 

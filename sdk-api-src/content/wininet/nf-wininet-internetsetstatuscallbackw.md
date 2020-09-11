@@ -3,10 +3,6 @@ UID: NF:wininet.InternetSetStatusCallbackW
 title: InternetSetStatusCallbackW
 ms.date: 4/26/2019
 ms.keywords: InternetSetStatusCallbackW
-f1_keywords:
-- InternetSetStatusCallbackW
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - InternetSetStatusCallbackW
+ - wininet/InternetSetStatusCallbackW
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- Wininet.dll
+ - Wininet.dll
 api_name:
-- InternetSetStatusCallbackW
+ - InternetSetStatusCallbackW
 ---
 
 ## -description
@@ -54,16 +55,9 @@ A pointer to the callback function to call when progress is made, or  <b>NULL</b
 
 ## -returns
 
-
-
 Returns the previously defined status callback function if successful, <b>NULL</b> if there was no previously defined status callback function, or INTERNET_INVALID_STATUS_CALLBACK if the callback function is not valid.
 
-
-
-
 ## -remarks
-
-
 
 Both synchronous and asynchronous functions use the callback function to indicate the progress of the request, such as resolving a name, connecting to a server, and so on. The callback function is required for an asynchronous operation. The asynchronous request will call back to the application with INTERNET_STATUS_REQUEST_COMPLETE to indicate the request has been completed.
 
@@ -92,9 +86,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 > The wininet.h header defines InternetSetStatusCallback as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 

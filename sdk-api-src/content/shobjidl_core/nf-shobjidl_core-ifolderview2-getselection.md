@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d8ff0c8f-9678-455b-b7ec-9b651df769bc
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Windows Shell], GetSelection method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelection method, IFolderView2.GetSelection, IFolderView2::GetSelection, _shell_IFolderView2_GetSelection, shell.IFolderView2_GetSelection, shobjidl_core/IFolderView2::GetSelection
-f1_keywords:
-- shobjidl_core/IFolderView2.GetSelection
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFolderView2.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView2::GetSelection
+ - shobjidl_core/IFolderView2::GetSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFolderView2.GetSelection
 ---
 
 # IFolderView2::GetSelection
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current selection as an IShellItemArray.
 
-
 ## -parameters
-
-
-
 
 ### -param fNoneImpliesFolder [in]
 
@@ -64,17 +60,13 @@ Type: <b>BOOL</b>
 
 If <b>TRUE</b>, this method returns an IShellItemArray containing the parent folder when there is no current selection.
 
-
 ### -param ppsia [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
 The address of a pointer to an IShellItemArray.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -108,7 +100,4 @@ The IShellItemArray returned has zero items.
 </td>
 </tr>
 </table>
- 
-
-
 

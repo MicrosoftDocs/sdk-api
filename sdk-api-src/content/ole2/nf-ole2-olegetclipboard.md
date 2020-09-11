@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c5e7badb-339b-48d5-8c9a-3950e2ffe6bf
 ms.date: 12/05/2018
 ms.keywords: OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard
-f1_keywords:
-- ole2/OleGetClipboard
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
-- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
-api_name:
-- OleGetClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleGetClipboard
+ - ole2/OleGetClipboard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+ - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+api_name:
+ - OleGetClipboard
 ---
 
 # OleGetClipboard function
@@ -53,25 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a data object that you can use to access the contents of the clipboard.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppDataObj [out]
 
 Address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer variable that receives the interface pointer to the clipboard data object.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -103,14 +94,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Caution</b>  Clipboard data is not trusted. Parse the data carefully before using it in your application.</div>
 <div> </div>
@@ -143,16 +128,7 @@ Note that the tymed member of the <a href="https://docs.microsoft.com/windows/de
 
 If you call the <b>OleGetClipboard</b> function, you should only hold on to the returned <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> for a very short time. It consumes resources in the application that offered it.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>
- 
-
- 
 

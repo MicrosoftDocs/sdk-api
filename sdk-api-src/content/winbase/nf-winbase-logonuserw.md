@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
 ms.date: 12/05/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUser, LogonUser function [Security], LogonUserA, LogonUserW, _win32_logonuser, security.logonuser, winbase/LogonUser, winbase/LogonUserA, winbase/LogonUserW
-f1_keywords:
-- winbase/LogonUser
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-Security-Logon-L1-1-1.dll
-api_name:
-- LogonUser
-- LogonUserA
-- LogonUserW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LogonUserW
+ - winbase/LogonUserW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-Security-Logon-L1-1-1.dll
+api_name:
+ - LogonUser
+ - LogonUserA
+ - LogonUserW
 ---
 
 # LogonUserW function
@@ -53,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LogonUser</b> function attempts to log a user on to the local computer. The local computer is the computer from which <b>LogonUser</b> was called. You cannot use <b>LogonUser</b> to log on to a remote computer. You specify the user with a user name and domain and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authenticate</a> the user with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> password. If the function succeeds, you receive a handle to a token that represents the logged-on user. You can then use this token handle to impersonate the specified user or, in most cases, to create a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> that runs in the context of the specified user.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUsername [in]
 
 A pointer to a null-terminated string that specifies the name of the user. This is the name of the user account to log on to. If you use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) format, <i>User</i><b>@</b><i>DNSDomainName</i>, the <i>lpszDomain</i> parameter must be <b>NULL</b>.
-     
-
 
 ### -param lpszDomain [in, optional]
 
 A pointer to a null-terminated string that specifies the name of the domain or server whose account database contains the <i>lpszUsername</i> account. If this parameter is <b>NULL</b>, the user name must be specified in UPN format. If this parameter is ".", the function validates the account by using only the local account database.
 
-
 ### -param lpszPassword [in, optional]
 
 A pointer to a null-terminated string that specifies the plaintext password for the user account specified by <i>lpszUsername</i>.  When you have finished using the password, clear the password from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
-
 
 ### -param dwLogonType [in]
 
@@ -162,8 +154,6 @@ GINAs are no longer supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwLogonProvider [in]
 
@@ -206,8 +196,6 @@ Use the NTLM logon provider.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phToken [out]
 
@@ -222,23 +210,14 @@ In most cases, the returned handle is a <a href="https://docs.microsoft.com/wind
 When you no longer need this handle, close it by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
-
 
 The LOGON32_LOGON_NETWORK logon type is fastest, but it has the following limitations:
 
@@ -281,9 +260,6 @@ LogonUser(L"LocalService", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control</a>
 
 
@@ -305,7 +281,4 @@ LogonUser(L"LocalService", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser">ImpersonateLoggedOnUser</a>
- 
-
- 
 

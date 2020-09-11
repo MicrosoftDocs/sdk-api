@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 37187f6f-388e-47d6-83a8-92c2f69f71d9
 ms.date: 12/05/2018
 ms.keywords: MprAdminServerSetInfo, MprAdminServerSetInfo function [RAS], mprapi/MprAdminServerSetInfo, rras.mpradminserversetinfo
-f1_keywords:
-- mprapi/MprAdminServerSetInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminServerSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminServerSetInfo
+ - mprapi/MprAdminServerSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminServerSetInfo
 ---
 
 # MprAdminServerSetInfo function
@@ -49,21 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MprAdminServerSetInfo</b> function is used to set the number of ports for L2TP, PPTP, and SSTP  devices when the RRAS service is running. 
-
-
+<b>MprAdminServerSetInfo</b> function is used to set the number of ports for L2TP, PPTP, and SSTP  devices when the RRAS service is running.
 
 ## -parameters
 
-
-
-
 ### -param hMprServer [in]
 
-Handle to the router to query. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>. 
-
+Handle to the router to query. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param dwLevel [in]
 
@@ -85,8 +79,6 @@ A DWORD value that describes the format in which the information is structured i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpbBuffer [in]
 
@@ -94,10 +86,7 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>  
 or   <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -192,14 +181,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is used to set the port count for L2TP, PPTP, and SSTP ports and enable or disable RRAS when the service is running. These values are persistent, meaning that you do not have to follow this call with a call to <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a>. Note that this function is asynchronous, so you might not see the affect of the changes immediately.
 
@@ -210,12 +193,7 @@ The topic <a href="https://docs.microsoft.com/windows/desktop/RRAS/setting-l2tp-
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
 
@@ -242,7 +220,4 @@ The topic <a href="https://docs.microsoft.com/windows/desktop/RRAS/setting-l2tp-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

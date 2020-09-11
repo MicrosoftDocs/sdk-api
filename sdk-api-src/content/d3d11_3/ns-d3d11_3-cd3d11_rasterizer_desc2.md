@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
-f1_keywords:
-- d3d11_3/D3D11_RASTERIZER_DESC2
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_RASTERIZER_DESC2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D11_RASTERIZER_DESC2
+ - d3d11_3/CD3D11_RASTERIZER_DESC2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_RASTERIZER_DESC2
 ---
 
 # CD3D11_RASTERIZER_DESC2 structure
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes rasterizer state.
-
 
 ## -struct-fields
 
-
-
-
 ### -field CD3D11_RASTERIZER_DESC2
 
-TBD 
-
+TBD
 
 ### -field ~CD3D11_RASTERIZER_DESC2
 
-TBD 
-
+TBD
 
 ### -field operator const D3D11_RASTERIZER_DESC2&
 
-TBD 
-
+TBD
 
 ### -field D3D11_RASTERIZER_DESC2
 
@@ -161,10 +154,7 @@ Specifies whether to enable scissor-rectangle culling. All pixels outside an act
 
 Scalar on a given pixel's slope. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
 
-
 ## -remarks
-
-
 
 Rasterizer state defines the behavior of the rasterizer stage. To create a rasterizer-state object, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createrasterizerstate2">ID3D11Device3::CreateRasterizerState2</a>. To set rasterizer state, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-rssetstate">ID3D11DeviceContext::RSSetState</a>.
 
@@ -262,16 +252,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
- 
-
- 
 

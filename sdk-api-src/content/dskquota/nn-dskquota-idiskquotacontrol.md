@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: fc9add5a-c9ef-462d-8125-128d48018717
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl, IDiskQuotaControl interface [Files], IDiskQuotaControl interface [Files],described, _win32_idiskquotacontrol, base.idiskquotacontrol, dskquota/IDiskQuotaControl, fs.idiskquotacontrol
-f1_keywords:
-- dskquota/IDiskQuotaControl
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl
+ - dskquota/IDiskQuotaControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl
 ---
 
 # IDiskQuotaControl interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the disk quota facilities of a single NTFS file system volume. The client can query and set volume-specific quota attributes through 
 <b>IDiskQuotaControl</b>. The client can also enumerate all per-user quota entries on the volume. A client instantiates this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function using the class identifier CLSID_DiskQuotaControl.
-
 
 ## -inheritance
 
@@ -258,20 +257,13 @@ The SID-to-name resolver translates user security identifiers (SID) to user name
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
- 
-
- 
 

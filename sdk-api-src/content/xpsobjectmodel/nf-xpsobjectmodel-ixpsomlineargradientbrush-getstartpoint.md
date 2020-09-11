@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 03e9884b-6249-4ccb-a6ee-d360655c5f75
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMLinearGradientBrush.GetStartPoint, IXpsOMLinearGradientBrush::GetStartPoint, xps.ixpsomlineargradientbrush_getstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint
-f1_keywords:
-- xpsobjectmodel/IXpsOMLinearGradientBrush.GetStartPoint
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMLinearGradientBrush.GetStartPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMLinearGradientBrush::GetStartPoint
+ - xpsobjectmodel/IXpsOMLinearGradientBrush::GetStartPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMLinearGradientBrush.GetStartPoint
 ---
 
 # IXpsOMLinearGradientBrush::GetStartPoint
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the start point of the gradient.
 
-
 ## -parameters
-
-
-
 
 ### -param startPoint [out, retval]
 
 The x and y coordinates of the start point.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,24 +90,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The coordinates are relative to the page and are expressed in the units of the transform that is in effect.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomlineargradientbrush">IXpsOMLinearGradientBrush</a>
 
@@ -129,7 +110,4 @@ The coordinates are relative to the page and are expressed in the units of the t
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
- 
-
- 
 

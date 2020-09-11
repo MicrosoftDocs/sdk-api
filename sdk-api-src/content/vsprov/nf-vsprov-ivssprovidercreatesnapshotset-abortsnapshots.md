@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982
 ms.date: 12/05/2018
 ms.keywords: AbortSnapshots, AbortSnapshots method [VSS], AbortSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],AbortSnapshots method, IVssProviderCreateSnapshotSet.AbortSnapshots, IVssProviderCreateSnapshotSet::AbortSnapshots, base.ivssprovidercreatesnapshotset_abortsnapshots, vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.AbortSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.AbortSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::AbortSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.AbortSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::AbortSnapshots
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AbortSnapshots</b> 
    method aborts prepared shadow copies in this provider. This includes all non-committed shadow 
    copies and pre-committed ones.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> that identifies the shadow copy set.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -138,14 +131,8 @@ An unexpected provider error occurred. The provider must log a message in the ap
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 VSS will only call 
     <b>AbortSnapshots</b> after the 
@@ -160,16 +147,7 @@ VSS will only call
     call at any point. This out-of-sequence call represents the start of a new shadow copy creation sequence and will 
     have a new shadow copy set ID.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
 

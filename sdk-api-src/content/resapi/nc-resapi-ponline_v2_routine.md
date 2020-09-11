@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 0462CDFD-6499-4FF8-8B5C-4DC15AC30169
 ms.date: 12/05/2018
 ms.keywords: CLUS_RESDLL_ONLINE_IGNORE_NETWORK_CONNECTIVITY, CLUS_RESDLL_ONLINE_IGNORE_RESOURCE_STATUS, CLUS_RESDLL_ONLINE_RECOVER_MONITOR_STATE, CLUS_RESDLL_ONLINE_RESTORE_ONLINE_STATE, CLUS_RESDLL_ONLINE_RETURN_TO_SOURCE_NODE_ON_ERROR, OnlineV2, OnlineV2 callback, OnlineV2 callback function [Failover Cluster], PONLINE_V2_ROUTINE, PONLINE_V2_ROUTINE callback function [Failover Cluster], mscs.onlinev2, resapi/OnlineV2, resapi/PONLINE_V2_ROUTINE
-f1_keywords:
-- resapi/OnlineV2
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- OnlineV2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PONLINE_V2_ROUTINE
+ - resapi/PONLINE_V2_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - OnlineV2
 ---
 
 # PONLINE_V2_ROUTINE callback function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as available for use. The 
     <b>PONLINE_V2_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 A resource identifier for the resource to be made available.
-
 
 ### -param EventHandle [out]
 
@@ -74,7 +69,6 @@ On input, <i>EventHandle</i> is <b>NULL</b>. On output,
        a resource failure to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a>. 
        <i>EventHandle</i> can also be set to <b>NULL</b> on output, which indicates 
        that the resource does not support asynchronous event notifications.
-
 
 ### -param OnlineFlags [in]
 
@@ -110,25 +104,19 @@ Set the status of the resource to online.
 
 Perform the operation even if there is network error.
 
-
 ### -param InBuffer [in, optional]
 
 A pointer to a buffer that contains  data for the operation; otherwise <b>NULL</b> if the operation does not require data.
-
 
 ### -param InBufferSize [in]
 
 The size of the <i>InBuffer</i> parameter, in bytes.
 
-
 ### -param Reserved [in]
 
 Reserved.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -180,16 +168,7 @@ If the operation was not successful for other reasons,
        a 
        system error code is returned.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

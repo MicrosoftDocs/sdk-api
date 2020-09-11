@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
 ms.topic: function
-f1_keywords: 
- - "synchapi/EnterCriticalSection"
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - EnterCriticalSection
+ - synchapi/EnterCriticalSection
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,11 +51,6 @@ api_location:
  - vertdll.dll
 api_name:
  - EnterCriticalSection
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # EnterCriticalSection function
@@ -57,34 +58,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
 
-
 ## -parameters
-
-
-
 
 ### -param lpCriticalSection [in, out]
 
 A pointer to the critical section object.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
 This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>&#92;<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
 
-
-
-
 ## -remarks
-
-
 
 The threads of a single process can use a critical section object for mutual-exclusion synchronization. The process is responsible for allocating the memory used by a critical section object, which it can do by declaring a variable of type <b>CRITICAL_SECTION</b>. Before using a critical section, some thread of the process must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsection">InitializeCriticalSection</a> or 
@@ -120,12 +108,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a>
 
@@ -152,7 +135,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
- 
-
- 
 

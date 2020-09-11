@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: efa1c6ed-bea5-4c25-89c2-1b6fcdad3834
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_FullScreenMode method, IVideoWindow.put_FullScreenMode, IVideoWindow::put_FullScreenMode, IVideoWindowput_FullScreenMode, control/IVideoWindow::put_FullScreenMode, dshow.ivideowindow_put_fullscreenmode, put_FullScreenMode, put_FullScreenMode method [DirectShow], put_FullScreenMode method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_FullScreenMode
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_FullScreenMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_FullScreenMode
+ - control/IVideoWindow::put_FullScreenMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_FullScreenMode
 ---
 
 # IVideoWindow::put_FullScreenMode
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_FullScreenMode</code> method enables or disables full-screen video rendering.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param FullScreenMode [in]
 
@@ -84,12 +77,8 @@ Boolean value that specifies whether to enable or disable full-screen mode. Must
 <td>Disable full-screen mode. (Default.)</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -143,14 +132,8 @@ Could not find any filter that supports full-screen mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Depending on the video renderer, the switch to full-screen mode may not be visible until the application runs or pauses the graph. In full-screen mode, if the user switches away from the application (for example, using ALT + TAB), the Filter Graph Manager sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-fullscreen-lost">EC_FULLSCREEN_LOST</a> event.
 
@@ -172,13 +155,7 @@ For the second option, the Filter Graph Manager calls <a href="https://docs.micr
 <div> </div>
 Except on older hardware, the second option will generally succeed. The third option is to use the Full Screen Renderer filter, adding it to the graph if necessary. The fourth option is simply to find the first renderer in the graph that supports <b>IVideoWindow</b>, and stretch the video regardless of performance.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -189,7 +166,4 @@ Except on older hardware, the second option will generally succeed. The third op
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_fullscreenmode">IVideoWindow::get_FullScreenMode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c13bdc3a-e623-49df-bba0-34c4c178dc3b
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetResultColumn method, ICertView interface [Security],SetResultColumn method, ICertView.SetResultColumn, ICertView2 interface [Security],SetResultColumn method, ICertView2::SetResultColumn, ICertView::SetResultColumn, SetResultColumn, SetResultColumn method [Security], SetResultColumn method [Security],CCertView object, SetResultColumn method [Security],ICertView interface, SetResultColumn method [Security],ICertView2 interface, certview/ICertView2::SetResultColumn, certview/ICertView::SetResultColumn, security.icertview2_setresultcolumn
-f1_keywords:
-- certview/ICertView2.SetResultColumn
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView2.SetResultColumn
-- ICertView.SetResultColumn
-- CCertView.SetResultColumn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView::SetResultColumn
+ - certview/ICertView::SetResultColumn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView2.SetResultColumn
+ - ICertView.SetResultColumn
+ - CCertView.SetResultColumn
 ---
 
 # ICertView::SetResultColumn
@@ -51,35 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetResultColumn</b> method specifies a column for the result set of a customized view of the Certificate Services database.
 
-
 ## -parameters
-
-
-
 
 ### -param ColumnIndex [in]
 
 A zero-based index of a column to include in the result set.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Before calling the <b>SetResultColumn</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a> method must be called to specify how many columns will be in the result set. Calls to the <b>SetResultColumn</b> method will fail under the following conditions:
 
@@ -141,14 +129,7 @@ error:
 	}
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
@@ -167,7 +148,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">ICertView::SetResultColumnCount</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 36eb55f1-06de-49ad-8a8d-91693ca92e99
 ms.date: 12/05/2018
 ms.keywords: CoLockObjectExternal, CoLockObjectExternal function [COM], _com_CoLockObjectExternal, com.colockobjectexternal, combaseapi/CoLockObjectExternal
-f1_keywords:
-- combaseapi/CoLockObjectExternal
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoLockObjectExternal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoLockObjectExternal
+ - combaseapi/CoLockObjectExternal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoLockObjectExternal
 ---
 
 # CoLockObjectExternal function
@@ -53,45 +54,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called either to lock an object to ensure that it stays in memory, or to release such a lock. 
-
+Called either to lock an object to ensure that it stays in memory, or to release such a lock.
 
 ## -parameters
-
-
-
 
 ### -param pUnk [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object to be locked or unlocked.
 
-
 ### -param fLock [in]
 
 Indicates whether the object is to be locked or released. If this parameter is <b>TRUE</b>, the object is kept in memory, independent of <b>AddRef</b>/<b>Release</b> operations, registrations, or revocations. If this parameter is <b>FALSE</b>, the lock previously set with a call to this function is released.
-
 
 ### -param fLastUnlockReleases [in]
 
 If the lock is the last reference that is supposed to keep an object alive, specify <b>TRUE</b> to release all pointers to the object (there may be other references that are not supposed to keep it alive).
 Otherwise, specify <b>FALSE</b>.
 
-If <i>fLock</i> is <b>TRUE</b>, this parameter is ignored. 
-
+If <i>fLock</i> is <b>TRUE</b>, this parameter is ignored.
 
 ## -returns
 
-
-
 This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CoLockObjectExternal</b> function must be called in the process in which the object actually resides (the EXE process, not the process in which handlers may be loaded). 
 
@@ -142,20 +128,11 @@ A pseudo-object is created and destroyed.
 </ul>
 For debugging purposes, it may be useful to keep a count of the number of external locks (and unlocks) set on the application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-lockcontainer">IOleContainer::LockContainer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetcontainedobject">OleSetContainedObject</a>
- 
-
- 
 

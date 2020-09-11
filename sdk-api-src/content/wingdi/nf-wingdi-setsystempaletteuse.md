@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 6ff245d3-1bcc-4778-a595-c1eb16531ad3
 ms.date: 12/05/2018
 ms.keywords: SYSPAL_NOSTATIC, SYSPAL_NOSTATIC256, SYSPAL_STATIC, SetSystemPaletteUse, SetSystemPaletteUse function [Windows GDI], _win32_SetSystemPaletteUse, gdi.setsystempaletteuse, wingdi/SetSystemPaletteUse
-f1_keywords:
-- wingdi/SetSystemPaletteUse
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetSystemPaletteUse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetSystemPaletteUse
+ - wingdi/SetSystemPaletteUse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetSystemPaletteUse
 ---
 
 # SetSystemPaletteUse function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetSystemPaletteUse</b> function allows an application to specify whether the system palette contains 2 or 20 static colors. The default system palette contains 20 static colors. (Static colors cannot be changed when an application realizes a logical palette.)
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context. This device context must refer to a device that supports color palettes.
-
 
 ### -param use [in]
 
@@ -105,23 +100,14 @@ The system palette contains static colors that will not change when an applicati
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the previous system palette. It can be either SYSPAL_NOSTATIC, SYSPAL_NOSTATIC256, or SYSPAL_STATIC.
 
 If the function fails, the return value is SYSPAL_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
@@ -150,12 +136,7 @@ When the application's window loses focus or closes, the application must perfor
 <li>Send the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
@@ -178,7 +159,4 @@ When the application's window loses focus or closes, the application must perfor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>
- 
-
- 
 

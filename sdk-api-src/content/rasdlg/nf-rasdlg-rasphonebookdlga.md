@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
 ms.date: 12/05/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
-f1_keywords:
-- rasdlg/RasPhonebookDlg
-dev_langs:
-- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasdlg.dll
-api_name:
-- RasPhonebookDlg
-- RasPhonebookDlgA
-- RasPhonebookDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasPhonebookDlgA
+ - rasdlg/RasPhonebookDlgA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasdlg.dll
+api_name:
+ - RasPhonebookDlg
+ - RasPhonebookDlgA
+ - RasPhonebookDlgW
 ---
 
 # RasPhonebookDlgA function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasPhonebookDlg</b> function displays the main <b>Dial-Up Networking</b> dialog box. From this modal dialog box, the user can dial, edit, or delete a selected phone-book entry, create a new phone-book entry, or specify user preferences. The 
 <b>RasPhonebookDlg</b> function returns when the dialog box closes.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszPhonebook [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-
 ### -param lpszEntry [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of the phone-book entry to highlight initially. If this parameter is <b>NULL</b>, or if the specified entry does not exist, the dialog box highlights the first entry in the alphabetic list.
-
 
 ### -param lpInfo [in, out]
 
@@ -85,10 +79,7 @@ On input, the <b>dwSize</b> member of this structure must specify the sizeof(
 
 If an error occurs, the <b>dwError</b> member of the structure receives, on output, an error code; otherwise, it receives zero.
 
-
 ## -returns
-
-
 
 If the user selects the <b>Connect</b> button and the function establishes a connection, the return value is <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>.
 
@@ -139,14 +130,7 @@ int main (){
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>
 
@@ -157,9 +141,6 @@ int main (){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 
 ## -remarks
 

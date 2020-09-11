@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 7ae1328d-cda7-4522-9bcf-2c4b16fd6984
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Imaging Component], GetValue method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValue method, IWICMetadataReader.GetValue, IWICMetadataReader::GetValue, _wic_codec_iwicmetadatareader_getvalue, wic._wic_codec_iwicmetadatareader_getvalue, wincodecsdk/IWICMetadataReader::GetValue
-f1_keywords:
-- wincodecsdk/IWICMetadataReader.GetValue
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataReader.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataReader::GetValue
+ - wincodecsdk/IWICMetadataReader::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataReader.GetValue
 ---
 
 # IWICMetadataReader::GetValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the metadata item value.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarSchema [in]
 
@@ -64,13 +60,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/n
 
 Pointer to the metadata item's schema property.
 
-
 ### -param pvarId [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata item's id.
-
 
 ### -param pvarValue [in, out]
 
@@ -78,14 +72,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-prop
 
 Pointer that receives the metadata value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: cb6cb9da-8f7f-47e9-980a-aa77fe04c80c
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPCOREINFO, *PBITMAPCOREINFO, BITMAPCOREINFO, BITMAPCOREINFO structure [Windows GDI], PBITMAPCOREINFO, PBITMAPCOREINFO structure pointer [Windows GDI], _win32_BITMAPCOREINFO_str, gdi.bitmapcoreinfo, wingdi/BITMAPCOREINFO, wingdi/PBITMAPCOREINFO'
-f1_keywords:
-- wingdi/BITMAPCOREINFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BITMAPCOREINFO
 targetos: Windows
 req.typenames: BITMAPCOREINFO, *LPBITMAPCOREINFO, *PBITMAPCOREINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBITMAPCOREINFO
+ - wingdi/tagBITMAPCOREINFO
+ - LPBITMAPCOREINFO
+ - wingdi/LPBITMAPCOREINFO
+ - BITMAPCOREINFO
+ - wingdi/BITMAPCOREINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BITMAPCOREINFO
 ---
 
 # BITMAPCOREINFO structure
@@ -49,31 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BITMAPCOREINFO</b> structure defines the dimensions and color information for a DIB.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bmciHeader
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a> structure that contains information about the dimensions and color format of a DIB.
 
-
 ### -field bmciColors
 
 Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a> structures that define the colors in the bitmap.
 
-
 ## -remarks
-
-
 
 A DIB consists of two parts: a <b>BITMAPCOREINFO</b> structure describing the dimensions and colors of the bitmap, and an array of bytes defining the pixels of the bitmap. The bits in the array are packed together, but each scan line must be padded with zeros to end on a <b>LONG</b> boundary. The origin of the bitmap is the lower-left corner.
 
@@ -112,12 +105,7 @@ Alternatively, for functions that use DIBs, the <b>bmciColors</b> member can be 
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a>
 
@@ -144,7 +132,4 @@ Alternatively, for functions that use DIBs, the <b>bmciColors</b> member can be 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a>
- 
-
- 
 

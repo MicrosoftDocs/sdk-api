@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d270b441-d0d5-4dd5-995b-6ca5738747c5
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SaveViewState method, IOleDocumentView.SaveViewState, IOleDocumentView::SaveViewState, SaveViewState, SaveViewState method [COM], SaveViewState method [COM],IOleDocumentView interface, _ole_ioledocumentview_saveviewstate, com.ioledocumentview_saveviewstate, docobj/IOleDocumentView::SaveViewState
-f1_keywords:
-- docobj/IOleDocumentView.SaveViewState
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.SaveViewState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::SaveViewState
+ - docobj/IOleDocumentView::SaveViewState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.SaveViewState
 ---
 
 # IOleDocumentView::SaveViewState
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves the view state into the specified stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pstm [in]
 
  A pointer to the stream in which the view is to save its state data.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -97,26 +90,14 @@ This view has no meaningful state to save. This error should be rare because mos
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The view's state includes properties such as the view type, zoom factor, and location of insertion point. The container typically calls this function before deactivating the view. The stream can then later be used to reinitialize a view of the same document to this saved state through <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-applyviewstate">IOleDocumentView::ApplyViewState</a>.
 
 According to the rules governing <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>, a view must write its CLSID as the first element in the stream. Any cross-platform file format compatibility issues that apply to the document's storage representation also apply to this context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
@@ -127,7 +108,4 @@ According to the rules governing <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
- 
-
- 
 

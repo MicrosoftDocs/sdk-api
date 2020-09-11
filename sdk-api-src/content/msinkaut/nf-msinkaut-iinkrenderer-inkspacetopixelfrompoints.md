@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e2b46752-fd9d-4e28-8f53-f16d7573ec89
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer interface [Tablet PC],InkSpaceToPixelFromPoints method, IInkRenderer.InkSpaceToPixelFromPoints, IInkRenderer::InkSpaceToPixelFromPoints, InkSpaceToPixelFromPoints, InkSpaceToPixelFromPoints method [Tablet PC], InkSpaceToPixelFromPoints method [Tablet PC],IInkRenderer interface, e2b46752-fd9d-4e28-8f53-f16d7573ec89, msinkaut/IInkRenderer::InkSpaceToPixelFromPoints, tablet.inkrenderer_inkspacetopixelfrompoints
-f1_keywords:
-- msinkaut/IInkRenderer.InkSpaceToPixelFromPoints
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRenderer.InkSpaceToPixelFromPoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRenderer::InkSpaceToPixelFromPoints
+ - msinkaut/IInkRenderer::InkSpaceToPixelFromPoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRenderer.InkSpaceToPixelFromPoints
 ---
 
 # IInkRenderer::InkSpaceToPixelFromPoints
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Converts an array of points in ink space coordinates to an array of points in pixel space.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hDC [in]
 
 The handle of the device context on which to draw.
-
 
 ### -param Points [in, out]
 
@@ -73,10 +65,7 @@ The array of points in ink space coordinates to convert into pixel locations. Th
 
 For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -128,24 +117,12 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>InkSpaceToPixelFromPoints</b> applies the object transform, applies the view transform of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> object, and then converts from inkspace to pixel units (1 ink unit = .01mm).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
@@ -164,7 +141,4 @@ An exception occurred inside the method.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>
- 
-
- 
 

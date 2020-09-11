@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4
 ms.date: 12/05/2018
 ms.keywords: CancelIo, CancelIo function [Files], _win32_cancelio, base.cancelio, fs.cancelio, ioapiset/CancelIo, winbase/CancelIo
-f1_keywords:
-- ioapiset/CancelIo
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- CancelIo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CancelIo
+ - ioapiset/CancelIo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - CancelIo
 ---
 
 # CancelIo function
@@ -53,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file. The function does not cancel I/O operations that other threads issue for a file handle.
 
 To cancel I/O operations from another thread, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -70,22 +66,14 @@ A handle to the file.
 
 The function cancels all pending I/O operations for this file handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations issued by the calling thread for the specified file handle was successfully requested. The thread can use the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function to determine when the I/O operations themselves have been completed.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
 the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 If there are any pending I/O operations in progress for the specified file handle, and they are issued by the calling thread, the <b>CancelIo</b> function cancels them. <b>CancelIo</b> cancels only outstanding I/O on the handle, it does not change the state of the handle; this means that you cannot rely on the state of the handle because you cannot know whether the operation was completed successfully or canceled.
 
@@ -153,15 +141,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>
 
@@ -208,7 +189,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

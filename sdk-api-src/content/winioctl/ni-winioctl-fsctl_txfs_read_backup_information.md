@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 41c5df47-b815-47ef-bf37-d0b8030c5bfc
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_READ_BACKUP_INFORMATION, FSCTL_TXFS_READ_BACKUP_INFORMATION control, FSCTL_TXFS_READ_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_read_backup_information, winioctl/FSCTL_TXFS_READ_BACKUP_INFORMATION
-f1_keywords:
-- winioctl/FSCTL_TXFS_READ_BACKUP_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_READ_BACKUP_INFORMATION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_READ_BACKUP_INFORMATION
+ - winioctl/FSCTL_TXFS_READ_BACKUP_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_READ_BACKUP_INFORMATION
 ---
 
 # FSCTL_TXFS_READ_BACKUP_INFORMATION IOCTL
+
 
 ## -description
 
@@ -67,26 +69,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -96,7 +91,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 **FSCTL_TXFS_READ_BACKUP_INFORMATION** is a synchronous operation.
@@ -105,9 +99,9 @@ This control code can be used by backup functions and applications, such as Win3
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_READ_BACKUP_INFORMATION_OUT](ns-winioctl-txfs_read_backup_information_out.md)
 * [Volume Shadow Copy Service](https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service)
+

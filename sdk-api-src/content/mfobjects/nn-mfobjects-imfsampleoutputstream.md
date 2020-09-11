@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: BA293BB7-9191-4123-96DB-FF6386ABB3AE
 ms.date: 12/05/2018
 ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], IMFSampleOutputStream interface [Media Foundation],described, mf.imfsampleoutputstream, mfobjects/IMFSampleOutputStream
-f1_keywords:
-- mfobjects/IMFSampleOutputStream
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFSampleOutputStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSampleOutputStream
+ - mfobjects/IMFSampleOutputStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFSampleOutputStream
 ---
 
 # IMFSampleOutputStream interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes media samples to a byte stream.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Completes an asynchronous request to write a media sample to the stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A writeable byte stream can optionally implement this interface. 
 
@@ -109,19 +105,7 @@ Any implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mf
 <li>Writing a sample using <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsampleoutputstream-beginwritesample">BeginWriteSample</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsampleoutputstream-endwritesample">EndWriteSample</a> shall serialize the sample by writing the data from all the buffers in the sample, in the order in which the buffers are stored in the sample.  (Use <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbufferbyindex">IMFSample::GetBufferByIndex</a> to get the individual buffers by index value.) The total bytes copied shall be the number of bytes written from all the buffers. </li>
 </ul>
 
-
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

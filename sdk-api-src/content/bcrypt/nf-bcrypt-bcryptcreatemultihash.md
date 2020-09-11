@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: AAF91460-AEFB-4E16-91EA-4A60272B3839
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
-f1_keywords:
-- bcrypt/BCryptCreateMultiHash
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptCreateMultiHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptCreateMultiHash
+ - bcrypt/BCryptCreateMultiHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptCreateMultiHash
 ---
 
 # BCryptCreateMultiHash function
@@ -50,33 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptCreateMultiHash</b> function creates a multi-hash state that allows for the parallel computation of multiple hash operations. This multi-hash state is used by the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a> function. The multi-hash state can be thought of as an array of hash objects, each of which is equivalent to one created by <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatehash">BCryptCreateHash</a>.
 
  Parallel computations can greatly increase overall throughput, at the expense of increased latency for individual computations.
 
  Parallel hash computations are currently only implemented for SHA-256, SHA-384, and SHA-512. Other hash algorithms can be used with the parallel computation API but they run at the throughput of the sequential hash operations. The set of hash algorithms that can benefit from parallel computations might change in future updates.
 
-
 ## -parameters
-
-
-
 
 ### -param hAlgorithm [in, out]
 
-The algorithm handle used for all of the hash states in the multi-hash array. The algorithm handle must have been opened with the <b>BCYRPT_MULTI_FLAG</b> passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function. Alternatively, the caller can use the pseudo-handles. 
-
+The algorithm handle used for all of the hash states in the multi-hash array. The algorithm handle must have been opened with the <b>BCYRPT_MULTI_FLAG</b> passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function. Alternatively, the caller can use the pseudo-handles.
 
 ### -param phHash [out]
 
 A pointer to a <b>BCRYPT_HASH_HANDLE</b> value that receives a handle that represents the multi-hash state. This handle is used in subsequent operations such as <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroyhash">BCryptDestroyHash</a> function.
 
-
 ### -param nHashes [in]
 
 The number of elements in the array. The multi-hash state that this function creates is able to perform parallel computations on <i>nHashes</i> different hash states.
-
 
 ### -param pbHashObject [out]
 
@@ -86,11 +79,9 @@ The size can be calculated from the <b>cbPerObject</b>  and <b>cbPerElement</b> 
 
 If <i>pbHashObject</i> is <b>NULL</b> and <i>cbHashObject</i> has a value of zero (0), the object buffer is automatically allocated.
 
-
 ### -param cbHashObject [in]
 
 The size of the <i>pbHashObject</i> buffer, or zero if <i>pbHashObject</i> is <b>NULL</b>.
-
 
 ### -param pbSecret [in]
 
@@ -98,11 +89,9 @@ A pointer to a buffer that contains the key to use for the hash or MAC. The <i>c
 
 The same key is used for all elements of the array.
 
-
 ### -param cbSecret [in]
 
 The size, in bytes, of the <i>pbSecret</i> buffer. If no key is used, set this parameter to zero.
-
 
 ### -param dwFlags [in]
 
@@ -124,12 +113,8 @@ Creates a reusable hashing object. The object can be used for a new hashing oper
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
  Internally, parallel hash computations are done using single-instruction multiple-data (SIMD) instructions with up to 8 parallel computations at a time, depending on the hash algorithm and the CPU features available. To maximize performance, we recommend that the caller provide at least eight computations that can be processed in parallel. 
 
@@ -137,13 +122,7 @@ For computations of unequal length, providing more computations in parallel allo
 
 Multi-hashing is not supported for HMAC-MD2, HMAC-MD4, and GMAC.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_multi_object_length_struct">BCRYPT_MULTI_OBJECT_LENGTH</a>
 
@@ -174,7 +153,4 @@ Multi-hashing is not supported for HMAC-MD2, HMAC-MD4, and GMAC.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>
- 
-
- 
 

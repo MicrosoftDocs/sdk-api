@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: f29df35f-48c2-4837-9809-46bd04f08bfb
 ms.date: 12/05/2018
 ms.keywords: GetReplyData, GetReplyData method [BITS], GetReplyData method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyData method, IBackgroundCopyJob2.GetReplyData, IBackgroundCopyJob2::GetReplyData, _drz_ibackgroundcopyjob2_getreplydata, bits.ibackgroundcopyjob2_getreplydata, bits1_5/IBackgroundCopyJob2::GetReplyData
-f1_keywords:
-- bits1_5/IBackgroundCopyJob2.GetReplyData
-dev_langs:
-- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx2.dll
-api_name:
-- IBackgroundCopyJob2.GetReplyData
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob2::GetReplyData
+ - bits1_5/IBackgroundCopyJob2::GetReplyData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx2.dll
+api_name:
+ - IBackgroundCopyJob2.GetReplyData
 ---
 
 # IBackgroundCopyJob2::GetReplyData
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an in-memory copy of the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY and its state is BG_JOB_STATE_TRANSFERRED.
 
-
 ## -parameters
-
-
-
 
 ### -param ppBuffer [in, out]
 
 Buffer to contain the reply data. The method sets <i>ppBuffer</i> to <b>NULL</b> if the server application did not return a reply. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppBuffer</i> when done.
 
-
 ### -param pLength [out]
 
 Size, in bytes, of the reply data in <i>ppBuffer</i>.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -125,14 +117,8 @@ This method is not implemented for jobs of type <b>BG_JOB_TYPE_DOWNLOAD</b> or <
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>GetReplyData</b> method lets you read the reply data before or after you call the 
@@ -153,19 +139,11 @@ For an example that uses the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename">IBackgroundCopyJob2::GetReplyFileName</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a>
- 
-
- 
 

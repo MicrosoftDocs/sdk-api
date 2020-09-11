@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9
 ms.date: 12/05/2018
 ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffer interface [COM],described, _com_ipsfactorybuffer, com.ipsfactorybuffer, objidlbase/IPSFactoryBuffer
-f1_keywords:
-- objidl/IPSFactoryBuffer
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IPSFactoryBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSFactoryBuffer
+ - objidl/IPSFactoryBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IPSFactoryBuffer
 ---
 
 # IPSFactoryBuffer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides custom methods for the creation of COM object proxies and stubs. This interface is not marshalable.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Creates a stub for the remote use of the specified interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
@@ -103,7 +98,4 @@ Creates a stub for the remote use of the specified interface.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/stub">Stub</a>
- 
-
- 
 

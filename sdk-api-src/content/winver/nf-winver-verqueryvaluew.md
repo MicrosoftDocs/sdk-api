@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verqueryvalue.htm
 ms.date: 12/05/2018
 ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], VerQueryValueA, VerQueryValueW, _win32_VerQueryValue, _win32_verqueryvalue_cpp, menurc.verqueryvalue, winui._win32_verqueryvalue, winver/VerQueryValue, winver/VerQueryValueA, winver/VerQueryValueW
-f1_keywords:
-- winver/VerQueryValue
-dev_langs:
-- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-version-l1-1-0.dll
-- API-MS-Win-Core-version-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-versionansi-l1-1-0.dll
-- API-MS-Win-DownLevel-version-l1-1-0.dll
-- API-MS-Win-Core-Versionansi-L1-1-1.dll
-- API-MS-Win-Core-Version-L1-1-1.dll
-- version.dll
-api_name:
-- VerQueryValue
-- VerQueryValueA
-- VerQueryValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerQueryValueW
+ - winver/VerQueryValueW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-version-l1-1-0.dll
+ - API-MS-Win-Core-version-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-versionansi-l1-1-0.dll
+ - API-MS-Win-DownLevel-version-l1-1-0.dll
+ - API-MS-Win-Core-Versionansi-L1-1-1.dll
+ - API-MS-Win-Core-Version-L1-1-1.dll
+ - version.dll
+api_name:
+ - VerQueryValue
+ - VerQueryValueA
+ - VerQueryValueW
 ---
 
 # VerQueryValueW function
@@ -58,21 +59,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves specified version information from the specified version-information resource. To retrieve the appropriate resource, before you call <b>VerQueryValue</b>, you must first call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function, and then the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function. 
-
+Retrieves specified version information from the specified version-information resource. To retrieve the appropriate resource, before you call <b>VerQueryValue</b>, you must first call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function, and then the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function.
 
 ## -parameters
-
-
-
 
 ### -param pBlock [in]
 
 Type: <b>LPCVOID</b>
 
-The version-information resource returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function. 
-
+The version-information resource returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function.
 
 ### -param lpSubBlock [in]
 
@@ -98,15 +93,13 @@ The translation array in a <a href="https://docs.microsoft.com/windows/desktop/m
 
 #### \StringFileInfo\lang-codepage\string-name
 
-A value in a language-specific <a href="https://docs.microsoft.com/windows/desktop/menurc/stringtable">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated. 
-
+A value in a language-specific <a href="https://docs.microsoft.com/windows/desktop/menurc/stringtable">StringTable</a> structure. The <i>lang-codepage</i> name is a concatenation of a language and code page identifier pair found as a <b>DWORD</b> in the translation array for the resource. Here the <i>lang-codepage</i> name must be specified as a hexadecimal string. The <i>string-name</i> name must be one of the predefined strings described in the following Remarks section. The function retrieves a string value specific to the language and code page indicated.
 
 ### -param lplpBuffer [out]
 
 Type: <b>LPVOID*</b>
 
-When this method returns, contains the address of a pointer to the requested version information in the buffer pointed to by <i>pBlock</i>. The memory pointed to by <i>lplpBuffer</i> is freed when the associated <i>pBlock</i> memory is freed. 
-
+When this method returns, contains the address of a pointer to the requested version information in the buffer pointed to by <i>pBlock</i>. The memory pointed to by <i>lplpBuffer</i> is freed when the associated <i>pBlock</i> memory is freed.
 
 ### -param puLen [out]
 
@@ -129,10 +122,7 @@ A value in a language-specific <a href="https://docs.microsoft.com/windows/deskt
 
 The translation array in a <a href="https://docs.microsoft.com/windows/desktop/menurc/var-str">Var</a> variable information structure—the <b>Value</b> member of this structure. The function retrieves a pointer to this array of language and code page identifiers. An application can use these identifiers to access a language-specific <a href="https://docs.microsoft.com/windows/desktop/menurc/stringtable">StringTable</a> structure (using the <b>szKey</b> member) in the version-information resource.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -140,12 +130,7 @@ If the specified version-information structure exists, and version information i
 
 If the specified name does not exist or the specified resource is not valid, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
  This function works on 16-, 32-, and 64-bit file images.
 
@@ -231,9 +216,6 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -279,7 +261,4 @@ for( i=0; i < (cbTranslate/sizeof(struct LANGANDCODEPAGE)); i++ )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
- 
-
- 
 

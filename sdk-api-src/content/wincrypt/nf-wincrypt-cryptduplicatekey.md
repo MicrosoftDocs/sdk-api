@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.date: 12/05/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
-f1_keywords:
-- wincrypt/CryptDuplicateKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptDuplicateKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDuplicateKey
+ - wincrypt/CryptDuplicateKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptDuplicateKey
 ---
 
 # CryptDuplicateKey function
@@ -51,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptDuplicateKey</b> function makes an exact copy of a key and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 A handle to the key to be duplicated.
 
-
 ### -param pdwReserved [in]
 
 Reserved for future use and must be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
 Reserved for future use and must be zero.
 
-
 ### -param phKey [out]
 
 Address of the handle to the duplicated key. When you have finished using the key, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -130,14 +120,8 @@ A handle to the original key is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CryptDuplicateKey</b> makes a copy of a key and the exact <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the key. One scenario when this function can be used is when an application needs to encrypt two separate messages with the same key but with different <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">salt values</a>. The original key is generated and then a duplicate key is made by using the <b>CryptDuplicateKey</b> function. The different salt values are then set on the original and duplicate keys with separate calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> function.
@@ -188,14 +172,7 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a>
 
@@ -206,7 +183,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
 

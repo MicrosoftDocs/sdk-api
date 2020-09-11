@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollrange.htm
 ms.date: 12/05/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollRange, SetScrollRange function [Windows Controls], _win32_SetScrollRange, _win32_SetScrollRange_cpp, controls.SetScrollRange, controls._win32_SetScrollRange, winuser/SetScrollRange
-f1_keywords:
-- winuser/SetScrollRange
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- SetScrollRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetScrollRange
+ - winuser/SetScrollRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - SetScrollRange
 ---
 
 # SetScrollRange function
 
 
 ## -description
-
 
 The <b>SetScrollRange</b> function sets the minimum and maximum scroll box positions for the specified scroll bar. 
 
@@ -63,16 +63,12 @@ The <b>SetScrollRange</b> function sets the minimum and maximum scroll box posit
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the 
-					<i>nBar</i> parameter. 
-
+					<i>nBar</i> parameter.
 
 ### -param nBar [in]
 
@@ -117,46 +113,34 @@ Sets the range of a window's standard vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param nMinPos [in]
 
 Type: <b>int</b>
 
-Specifies the minimum scrolling position. 
-
+Specifies the minimum scrolling position.
 
 ### -param nMaxPos [in]
 
 Type: <b>int</b>
 
-Specifies the maximum scrolling position. 
-
+Specifies the maximum scrolling position.
 
 ### -param bRedraw [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Specifies whether the scroll bar should be redrawn to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn. If it is <b>FALSE</b>, the scroll bar is not redrawn. 
-
+Specifies whether the scroll bar should be redrawn to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn. If it is <b>FALSE</b>, the scroll bar is not redrawn.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 You can use <b>SetScrollRange</b> to hide the scroll bar by setting 
 				<i>nMinPos</i> and 
@@ -191,12 +175,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
@@ -223,7 +202,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showscrollbar">ShowScrollBar</a>
- 
-
- 
 

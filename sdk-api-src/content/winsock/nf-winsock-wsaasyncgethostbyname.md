@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
-f1_keywords:
-- winsock/WSAAsyncGetHostByName
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAsyncGetHostByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAsyncGetHostByName
+ - winsock/WSAAsyncGetHostByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAsyncGetHostByName
 ---
 
 # WSAAsyncGetHostByName function
 
 
 ## -description
-
 
 The 
 <b>WSAAsyncGetHostByName</b> function asynchronously retrieves host information that corresponds to a host name.
@@ -59,28 +59,21 @@ The
 
 ## -parameters
 
-
-
-
 ### -param hWnd
 
 TBD
-
 
 ### -param wMsg
 
 TBD
 
-
 ### -param name
 
 TBD
 
-
 ### -param buf
 
 TBD
-
 
 ### -param buflen
 
@@ -117,10 +110,7 @@ Pointer to the data area to receive the
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 
-
 ## -returns
-
-
 
 The return value specifies whether or not the asynchronous operation was successfully initiated. It does not imply success or failure of the operation itself.
 
@@ -244,14 +234,8 @@ The following errors can occur at the time of the function call, and indicate th
 <td>The asynchronous operation cannot be scheduled at this time due to resource or other constraints within the Windows Sockets implementation.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAAsyncGetHostByName</b> function is an asynchronous version of 
@@ -289,13 +273,7 @@ The use of these macros will maximize the portability of the source code for the
 <b>WSAAsyncGetHostByName</b> is guaranteed to resolve the string returned by a successful call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacancelasyncrequest">WSACancelAsyncRequest</a>
 
@@ -322,7 +300,4 @@ The use of these macros will maximize the portability of the source code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a>
- 
-
- 
 

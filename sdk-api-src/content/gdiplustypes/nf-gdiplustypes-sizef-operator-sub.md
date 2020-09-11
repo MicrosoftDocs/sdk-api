@@ -34,6 +34,7 @@ api_location:
 api_name:
  - SizeF::operator-
 f1_keywords:
+ - SizeF::operator-
  - gdiplustypes/SizeF::operator-
 dev_langs:
  - c++
@@ -60,3 +61,4 @@ The resulting **SizeF** value.
 ## -remarks
 
 ## -see-also
+

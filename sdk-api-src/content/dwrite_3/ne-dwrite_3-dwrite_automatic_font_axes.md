@@ -6,10 +6,6 @@ helpviewer_keywords: ["DWRITE_AUTOMATIC_FONT_AXES","DWRITE_AUTOMATIC_FONT_AXES e
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_AUTOMATIC_FONT_AXES, DWRITE_AUTOMATIC_FONT_AXES enumeration [Direct Write], directwrite.dwrite_automatic_font_axes, dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
-f1_keywords:
-- dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_AUTOMATIC_FONT_AXES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_AUTOMATIC_FONT_AXES
+ - dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_AUTOMATIC_FONT_AXES
 ---
 
 ## -description
@@ -63,3 +64,4 @@ Specifies that&mdash;when no value is specified via <a href="/windows/win32/api/
 [DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
 
 [IDWriteTextFormat3::SetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues)
+

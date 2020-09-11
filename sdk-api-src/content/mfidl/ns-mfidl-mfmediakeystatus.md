@@ -30,6 +30,7 @@ api_location:
 api_name:
  - MFMediaKeyStatus
 f1_keywords:
+ - MFMediaKeyStatus
  - mfidl/MFMediaKeyStatus
 dev_langs:
  - c++

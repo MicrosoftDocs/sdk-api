@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: E76A4CD7-A6A9-4B3F-9E81-3C1BAEB32657
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder interface,RecordDispatch method, IDMLCommandRecorder.RecordDispatch, IDMLCommandRecorder::RecordDispatch, RecordDispatch, RecordDispatch method, RecordDispatch method,IDMLCommandRecorder interface, direct3d12.idmlcommandrecorder_recorddispatch, directml/IDMLCommandRecorder::RecordDispatch
-f1_keywords:
-- directml/IDMLCommandRecorder.RecordDispatch
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,31 +25,30 @@ req.type-library:
 req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.dll
-api_name:
-- IDMLCommandRecorder.RecordDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLCommandRecorder::RecordDispatch
+ - directml/IDMLCommandRecorder::RecordDispatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.dll
+api_name:
+ - IDMLCommandRecorder.RecordDispatch
 ---
 
 # IDMLCommandRecorder::RecordDispatch
 
 
 ## -description
-
-
-
-
-
-
 
 Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command
        list.
@@ -92,11 +87,7 @@ This method doesn't hold references to any of the interfaces passed in. It is yo
         ensure that the [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable) object is not released until all dispatches using it have completed execution
         on the GPU.
 
-
 ## -parameters
-
-
-
 
 ### -param commandList
 
@@ -105,13 +96,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist">ID3D12CommandList</a> interface representing the command list to record the execution into. The command list must be open and must have type
           <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_DIRECT</a> or <b>D3D12_COMMAND_LIST_TYPE_COMPUTE</b>.
 
-
 ### -param dispatchable
 
 Type: <b>[IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)*</b>
 
 A pointer to an [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable) interface representing the object (an operator initializer, or a compiled operator) whose execution will be recorded into the command list.
-
 
 ### -param bindings
 
@@ -120,18 +109,11 @@ Type: <b>[IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindin
 A pointer to an [IDMLBindingTable](/windows/desktop/api/directml/nn-directml-idmlbindingtable) interface representing the bindings to use for executing the dispatchable object. If the [DML_EXECUTION_FLAG_DESCRIPTORS_VOLATILE](/windows/desktop/api/directml/ne-directml-dml_execution_flags)
           flag was not set, then you must fill out all required bindings, otherwise an error will result.
 
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
 
 
 [IDMLCommandRecorder](/windows/desktop/api/directml/nn-directml-idmlcommandrecorder)
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b14e9be4-f292-4a71-b541-4fda2640591d
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilterGraph method, IAMMediaStream.JoinFilterGraph, IAMMediaStream::JoinFilterGraph, IAMMediaStreamJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilterGraph, dshow.iammediastream_joinfiltergraph
-f1_keywords:
-- amstream/IAMMediaStream.JoinFilterGraph
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaStream.JoinFilterGraph
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaStream::JoinFilterGraph
+ - amstream/IAMMediaStream::JoinFilterGraph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaStream.JoinFilterGraph
 ---
 
 # IAMMediaStream::JoinFilterGraph
@@ -49,52 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>JoinFilterGraph</code> method connects a media stream filter to a filter graph.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pFilterGraph [in]
 
 Pointer to the current media stream filter to add to the specified filter graph.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful or E_POINTER if <i>pGraph</i> is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Don't increment the reference count of the specified filter graph.
 
 Applications should not call this method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
- 
-
- 
 

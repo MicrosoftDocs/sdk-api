@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 762d021f-4bf1-4f90-bf41-065b8810de47
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],SetSourceDisplayName method, IOleLink.SetSourceDisplayName, IOleLink::SetSourceDisplayName, SetSourceDisplayName, SetSourceDisplayName method [COM], SetSourceDisplayName method [COM],IOleLink interface, _ole_iolelink_setsourcedisplayname, com.iolelink_setsourcedisplayname, oleidl/IOleLink::SetSourceDisplayName
-f1_keywords:
-- oleidl/IOleLink.SetSourceDisplayName
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleLink.SetSourceDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleLink::SetSourceDisplayName
+ - oleidl/IOleLink::SetSourceDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleLink.SetSourceDisplayName
 ---
 
 # IOleLink::SetSourceDisplayName
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the display name for the link source.
 
-
 ## -parameters
-
-
-
 
 ### -param pszStatusText [in]
 
 A pointer to the display name of the new link source. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success.
 
 Values from <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> may also be returned here.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Your container application can call <b>IOleLink::SetSourceDisplayName</b> when the end user changes the source of a link or breaks a link. Note that this requires the linked object to create a moniker out of the display name. If you'd rather parse the display name into a moniker yourself, your container can call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcemoniker">IOleLink::SetSourceMoniker</a> instead of <b>IOleLink::SetSourceDisplayName</b>.
@@ -92,13 +80,7 @@ If the linked object is bound to the current link source, the implementation of 
 
 For more information on how the linked object stores and uses the moniker to the link source, see <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setsourcemoniker">IOleLink::SetSourceMoniker</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>
 
@@ -117,7 +99,4 @@ For more information on how the linked object stores and uses the moniker to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
- 
-
- 
 

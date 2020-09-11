@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent
-f1_keywords:
-- tapi3if/ITDigitDetectionEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITDigitDetectionEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDigitDetectionEvent
+ - tapi3if/ITDigitDetectionEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITDigitDetectionEvent
 ---
 
 # ITDigitDetectionEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITDigitDetectionEvent</b> interface contains methods that retrieve the description of DTMF digit events. When the application's implementation of the 
@@ -121,13 +121,9 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a>
 
@@ -147,7 +143,4 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code
 		  snippet</a>
- 
-
- 
 

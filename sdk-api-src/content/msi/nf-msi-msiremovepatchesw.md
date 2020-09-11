@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c1d73e52-fd58-4895-822e-3ebc8fe12db7
 ms.date: 12/05/2018
 ms.keywords: INSTALLTYPE_SINGLE_INSTANCE, MsiRemovePatches, MsiRemovePatches function, MsiRemovePatchesA, MsiRemovePatchesW, msi/MsiRemovePatches, msi/MsiRemovePatchesA, msi/MsiRemovePatchesW, setup.msiremovepatches, setup.msiuninstallpatch
-f1_keywords:
-- msi/MsiRemovePatches
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiRemovePatches
-- MsiRemovePatchesA
-- MsiRemovePatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiRemovePatchesW
+ - msi/MsiRemovePatchesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiRemovePatches
+ - MsiRemovePatchesA
+ - MsiRemovePatchesW
 ---
 
 # MsiRemovePatchesW function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiRemovePatches</b> function removes  one or more patches from a single product. To remove a patch from multiple products, <b>MsiRemovePatches</b> must be called for each product.
 
-
 ## -parameters
-
-
-
 
 ### -param szPatchList [in]
 
 A null-terminated string that represents the list of patches to remove.  Each patch can be specified by the GUID of the patch or the full path to the patch package. The patches in the list are delimited by semicolons.
 
-
 ### -param szProductCode [in]
 
 A null-terminated string that is the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> (GUID) of the product from which the patches are removed.  This parameter cannot be <b>NULL</b>.
-
 
 ### -param eUninstallType [in]
 
@@ -91,8 +85,6 @@ The patch is uninstalled for only the product specified by <i>szProduct</i>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szPropertyList [in, optional]
 
@@ -100,10 +92,7 @@ A null-terminated string that specifies command-line property settings. For more
 <a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The <b>MsiRemovePatches</b> function returns the following values.
 
@@ -223,14 +212,8 @@ Patch removal was disallowed by policy.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 See  <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a> for an example that demonstrates how an application can remove a patch from all products that are available to the user. 
 
@@ -242,9 +225,6 @@ See  <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patche
 > The msi.h header defines MsiRemovePatches as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a>
 
@@ -275,7 +255,4 @@ See  <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patche
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a>
- 
-
- 
 

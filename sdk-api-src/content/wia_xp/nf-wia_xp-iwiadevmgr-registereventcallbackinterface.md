@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackinterface.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackInterface method, IWiaDevMgr.RegisterEventCallbackInterface, IWiaDevMgr::RegisterEventCallbackInterface, RegisterEventCallbackInterface, RegisterEventCallbackInterface method [WIA], RegisterEventCallbackInterface method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackInterface, wia._wia_IWiaDevMgr_RegisterEventCallbackInterface, wia_xp/IWiaDevMgr::RegisterEventCallbackInterface
-f1_keywords:
-- wia_xp/IWiaDevMgr.RegisterEventCallbackInterface
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaDevMgr.RegisterEventCallbackInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDevMgr::RegisterEventCallbackInterface
+ - wia_xp/IWiaDevMgr::RegisterEventCallbackInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaDevMgr.RegisterEventCallbackInterface
 ---
 
 # IWiaDevMgr::RegisterEventCallbackInterface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaDevMgr::RegisterEventCallbackInterface</b> method registers a running application Windows Image Acquisition (WIA) event notification.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
@@ -64,13 +60,11 @@ Type: <b>LONG</b>
 
 Currently unused. Should be set to zero.
 
-
 ### -param bstrDeviceID [in]
 
 Type: <b>BSTR</b>
 
 Specifies a device identifier. Pass <b>NULL</b> to register for the event on all WIA devices.
-
 
 ### -param pEventGUID [in]
 
@@ -78,13 +72,11 @@ Type: <b>const GUID*</b>
 
 Specifies the event for which the application is registering. For a list of standard events, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wia-event-identifiers">WIA Event Identifiers</a>.
 
-
 ### -param pIWiaEventCallback [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a>*</b>
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaeventcallback">IWiaEventCallback</a> interface that the WIA system used to send the event notification.
-
 
 ### -param pEventObject [out]
 
@@ -92,21 +84,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Warning</b>  Using the <b>IWiaDevMgr::RegisterEventCallbackInterface</b>, <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiadevmgr2-registereventcallbackinterface">IWiaDevMgr2::RegisterEventCallbackInterface</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-idevicemanager-registerevent">DeviceManager.RegisterEvent</a> methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.</div>
 <div> </div>
@@ -120,5 +104,4 @@ Applications can unregister for events by using the <a href="https://docs.micros
 
 <div class="alert"><b>Note</b>  In a multi-threaded application, there is no guarantee that the event notification callback will come in on the same thread that registered the callback.</div>
 <div> </div>
-
 

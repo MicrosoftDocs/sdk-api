@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.date: 12/05/2018
 ms.keywords: CreateFileMapping, CreateFileMapping function, CreateFileMappingA, CreateFileMappingW, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, _win32_createfilemapping, base.createfilemapping, fs.createfilemapping, winbase/CreateFileMapping, winbase/CreateFileMappingA, winbase/CreateFileMappingW
-f1_keywords:
-- winbase/CreateFileMapping
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,37 +25,42 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- CreateFileMapping
-- CreateFileMappingA
-- CreateFileMappingW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateFileMappingA
+ - winbase/CreateFileMappingA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - CreateFileMapping
+ - CreateFileMappingA
+ - CreateFileMappingW
 ---
 
 # CreateFileMappingA function
@@ -67,17 +68,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed file mapping object for a specified file.
 
 To specify the NUMA node for the physical memory, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappingnumaa">CreateFileMappingNuma</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -94,7 +90,6 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
        <b>CreateFileMapping</b> creates a file mapping object 
        of a specified size  that is backed by the system paging file instead of by a file in the file system.
 
-
 ### -param lpFileMappingAttributes [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
@@ -108,7 +103,6 @@ If <i>lpFileMappingAttributes</i> is <b>NULL</b>, the handle cannot be inherited
       security descriptor for a file mapping object come from the primary or impersonation token of the creator. For 
       more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
-
 
 ### -param flProtect [in]
 
@@ -391,13 +385,10 @@ Applications should not use this attribute except when
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwMaximumSizeHigh [in]
 
 The high-order <b>DWORD</b> of the maximum size of the file mapping object.
-
 
 ### -param dwMaximumSizeLow [in]
 
@@ -409,7 +400,6 @@ If this parameter and <i>dwMaximumSizeHigh</i> are 0 (zero), the maximum size of
 An attempt to map a file with a length of 0 (zero) fails with an error code of 
        <b>ERROR_FILE_INVALID</b>. Applications should test for files with a length of 0 (zero) and 
        reject those files.
-
 
 ### -param lpName [in, optional]
 
@@ -437,10 +427,7 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
        0 (zero), the next user to log on uses session 1 (one), and so on. Kernel object names must follow the 
        guidelines that are outlined for Terminal Services so that applications can support multiple users.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
@@ -450,12 +437,7 @@ If the object exists before the function call, the function returns a handle to 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 After a file mapping object is created, the size of the file must not exceed the size of the file mapping 
     object; if it does, not all of the file contents are available for sharing.
@@ -604,12 +586,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -664,7 +641,4 @@ File Mapping Functions
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

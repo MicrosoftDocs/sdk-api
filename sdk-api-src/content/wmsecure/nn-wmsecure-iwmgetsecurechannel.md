@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a
 ms.date: 12/05/2018
 ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], IWMGetSecureChannel interface [windows Media Format],described, wmformat.iwmgetsecurechannel, wmsecure/IWMGetSecureChannel
-f1_keywords:
-- wmsecure/IWMGetSecureChannel
-dev_langs:
-- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsecure.h
-api_name:
-- IWMGetSecureChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMGetSecureChannel
+ - wmsecure/IWMGetSecureChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsecure.h
+api_name:
+ - IWMGetSecureChannel
 ---
 
 # IWMGetSecureChannel interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWMGetSecureChannel</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 The <b>IWMGetSecureChannel</b> interface is used by one communication party to get the
  other party's <a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a> interface.
-
 
 ## -inheritance
 
@@ -81,5 +80,5 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wms
 
 </td>
 </tr>
-</table> 
+</table>
 

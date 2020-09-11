@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8C52920A-25CC-4AD6-85E0-22D6A498D65A
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, mf.d3d11_authenticated_query_crypto_session_output
-f1_keywords:
-- d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11.h
-api_name:
-- D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
+ - d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11.h
+api_name:
+ - D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 ---
 
 ## -description
@@ -69,3 +70,4 @@ A handle to the Direct3D device that is associated with the decoder device.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+

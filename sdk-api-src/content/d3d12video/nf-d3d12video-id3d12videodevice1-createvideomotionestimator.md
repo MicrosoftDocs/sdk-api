@@ -5,10 +5,6 @@ description: Creates an ID3D12VideoMotionEstimator, which maintains context for 
 tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: ID3D12VideoDevice1::CreateVideoMotionEstimator
-f1_keywords:
-- ID3D12VideoDevice1::CreateVideoMotionEstimator
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,14 +25,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoDevice1::CreateVideoMotionEstimator
+ - d3d12video/ID3D12VideoDevice1::CreateVideoMotionEstimator
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12.dll
+ - d3d12.dll
 api_name:
-- ID3D12VideoDevice1::CreateVideoMotionEstimator
+ - ID3D12VideoDevice1::CreateVideoMotionEstimator
 ---
 
 ## -description

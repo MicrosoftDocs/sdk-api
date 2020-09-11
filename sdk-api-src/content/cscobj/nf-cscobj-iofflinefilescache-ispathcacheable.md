@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 4d9a2fda-baad-4ada-8a07-f39c9cfafdfa
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],IsPathCacheable method, IOfflineFilesCache.IsPathCacheable, IOfflineFilesCache::IsPathCacheable, IsPathCacheable, IsPathCacheable method [Offline Files], IsPathCacheable method [Offline Files],IOfflineFilesCache interface, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesCache::IsPathCacheable, of.iofflinefilescache_ispathcacheable
-f1_keywords:
-- cscobj/IOfflineFilesCache.IsPathCacheable
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesCache.IsPathCacheable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesCache::IsPathCacheable
+ - cscobj/IOfflineFilesCache::IsPathCacheable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesCache.IsPathCacheable
 ---
 
 # IOfflineFilesCache::IsPathCacheable
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a specified UNC path is in the Offline Files cache.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
 The UNC path of the item.
 
-
 ### -param pbCacheable [out]
 
 Receives <b>TRUE</b> if the item is in the Offline Files cache, <b>FALSE</b> if not.
-
 
 ### -param pShareCachingMode [out]
 
@@ -103,19 +97,11 @@ The shared folder is configured to allow automatic caching of documents.
 
 The shared folder is configured to allow automatic caching of programs and documents.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The caching mode value returned is equivalent to the <b>CSC_MASK</b> value associated with <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> returned by <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>.  The value mapping is as follows:
 
@@ -147,13 +133,7 @@ The caching mode value returned is equivalent to the <b>CSC_MASK</b> value assoc
 
 These settings are configured as attributes of the shared folder on the server by clicking the Caching button on the shared folder's Sharing property page or by using the <code>net share /cache</code> command.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
 
@@ -164,7 +144,4 @@ These settings are configured as attributes of the shared folder on the server b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_caching_mode">OFFLINEFILES_CACHING_MODE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getasynckeystate.htm
 ms.date: 12/05/2018
 ms.keywords: GetAsyncKeyState, GetAsyncKeyState function [Keyboard and Mouse Input], _win32_GetAsyncKeyState, _win32_getasynckeystate_cpp, inputdev.getasynckeystate, winui._win32_getasynckeystate, winuser/GetAsyncKeyState
-f1_keywords:
-- winuser/GetAsyncKeyState
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
-- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-keyboard-l1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- GetAsyncKeyState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAsyncKeyState
+ - winuser/GetAsyncKeyState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+ - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - GetAsyncKeyState
 ---
 
 # GetAsyncKeyState function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a key is up or down at the time the function is called, and whether the key was pressed after a previous call to <b>GetAsyncKeyState</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param vKey [in]
 
@@ -74,10 +70,7 @@ The virtual-key code. For more information, see <a href="https://docs.microsoft.
 
 You can use left- and right-distinguishing constants to specify certain keys. See the Remarks section for further information.
 
-
 ## -returns
-
-
 
 Type: <b>SHORT</b>
 
@@ -90,11 +83,7 @@ The return value is zero for the following cases:
 <li>The foreground thread belongs to another process and the desktop does not allow the hook or the journal record.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The <b>GetAsyncKeyState</b> function works with mouse buttons. However, it checks on the state of the physical mouse buttons, not on the logical mouse buttons that the physical buttons are mapped to. For example, the call <b>GetAsyncKeyState</b>(VK_LBUTTON) always returns the state of the left physical mouse button, regardless of whether it is mapped to the left or right logical mouse button. You can determine the system's current mapping of physical mouse buttons to logical mouse buttons by calling <code>GetSystemMetrics(SM_SWAPBUTTON)</code>.
 
@@ -160,13 +149,7 @@ Right-menu key.
 
 These left- and right-distinguishing constants are only available when you call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardstate">GetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <b>GetAsyncKeyState</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a> functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -201,7 +184,4 @@ These left- and right-distinguishing constants are only available when you call 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
- 
-
- 
 

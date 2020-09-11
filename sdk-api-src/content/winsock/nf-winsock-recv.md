@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73
 ms.date: 12/05/2018
 ms.keywords: _win32_recv_2, recv, recv function [Winsock], winsock.recv_2, winsock/recv
-f1_keywords:
-- winsock/recv
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- recv
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - recv
+ - winsock/recv
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - recv
 ---
 
 # recv function
@@ -49,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>recv</b> function receives data from a connected socket or a bound connectionless socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 The descriptor that identifies a connected socket.
 
-
 ### -param buf [out]
 
 A pointer to the buffer to receive the incoming data.
-
 
 ### -param len [in]
 
 The length, in bytes, of the buffer pointed to by the <i>buf</i> parameter.
 
-
 ### -param flags [in]
 
 A set of flags that influences the behavior of this function. See remarks below. See the Remarks section for details on the possible value for this parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>recv</b> returns the number of bytes received and the buffer pointed to by the <i>buf</i> parameter will contain this data received. If the connection has been gracefully closed, the return value is zero.
@@ -275,14 +265,8 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>recv</b> function is used to read incoming data on connection-oriented sockets, or connectionless sockets. When using a connection-oriented protocol, the sockets must be connected before calling 
@@ -472,13 +456,7 @@ For more information, and another example of the <b>recv</b> function, see <a hr
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -513,7 +491,4 @@ For more information, and another example of the <b>recv</b> function, see <a hr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

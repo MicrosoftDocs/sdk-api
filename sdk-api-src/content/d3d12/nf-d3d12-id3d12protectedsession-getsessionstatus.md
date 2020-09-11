@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 9069D567-80BB-469D-A079-917D619F4F46
 ms.date: 12/05/2018
 ms.keywords: GetSessionStatus, GetSessionStatus method, GetSessionStatus method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetSessionStatus method, ID3D12ProtectedSession.GetSessionStatus, ID3D12ProtectedSession::GetSessionStatus, d3d12/ID3D12ProtectedSession::GetSessionStatus, direct3d12.id3d12protectedsession_getsessionstatus
-f1_keywords:
-- d3d12/ID3D12ProtectedSession.GetSessionStatus
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12ProtectedSession.GetSessionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12ProtectedSession::GetSessionStatus
+ - d3d12/ID3D12ProtectedSession::GetSessionStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12ProtectedSession.GetSessionStatus
 ---
 
 # ID3D12ProtectedSession::GetSessionStatus
+
 
 ## -description
 
@@ -61,3 +63,4 @@ The status of the protected session. If the returned value is [D3D12_PROTECTED_S
 ## -see-also
 
 [ID3D12ProtectedSession](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession)
+

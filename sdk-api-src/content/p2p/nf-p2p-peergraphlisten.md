@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
-f1_keywords:
-- p2p/PeerGraphListen
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphListen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphListen
+ - p2p/PeerGraphListen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphListen
 ---
 
 # PeerGraphListen function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphListen</b> function indicates that  a peer graph should  start listening for incoming connections.
 
 ## -parameters
 
-
-
-
 ### -param hGraph [in]
 
 Specifies the peer graph to  listen  on.
-
 
 ### -param dwScope [in]
 
@@ -102,8 +98,6 @@ Scope is restricted to a local subnet.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwScopeId [in]
 
@@ -116,10 +110,7 @@ Specifies the IPv6 scope ID to listen on. Specify zero (0) to listen on all inte
 
 Specifies the port  to listen on. Specify zero (0) to use a dynamic port. If zero (0) is specified, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a> to retrieve data.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if the operation succeeds. Otherwise, the function returns one of the  values identified in the following table.
 
@@ -184,14 +175,8 @@ The graph must be initialized with a call to <a href="https://docs.microsoft.com
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To be able to accept direct connections, a node must  subscribe to the  <b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b> event.  
 
@@ -224,14 +209,7 @@ The following code snippet shows how to use the <b>PeerGraphListen</b> function.
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
 
@@ -246,7 +224,4 @@ The following code snippet shows how to use the <b>PeerGraphListen</b> function.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 4f2138fb-1f80-4345-a3cb-9c11023457b1
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _stg_stgopenstorageex, coml2api/StgOpenStorageEx, stg.stgopenstorageex
-f1_keywords:
-- coml2api/StgOpenStorageEx
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- StgOpenStorageEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StgOpenStorageEx
+ - coml2api/StgOpenStorageEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - StgOpenStorageEx
 ---
 
 # StgOpenStorageEx function
 
 
 ## -description
-
 
 The <b>StgOpenStorageEx</b> function opens an existing root storage object in the file system. Use this function to open <a href="https://docs.microsoft.com/windows/desktop/Stg/compound-files">Compound Files</a> and regular files. To create a new file, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a> function.
@@ -64,15 +64,11 @@ The <b>StgOpenStorageEx</b> function opens an existing root storage object in th
 
 ## -parameters
 
-
-
-
 ### -param pwcsName [in]
 
 A pointer to the path of the null-terminated Unicode string file that contains the storage object. This string size cannot exceed <b>MAX_PATH</b> characters.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, the <b>MAX_PATH</b> limit cannot be exceeded by using the "\\?\" prefix.
-
 
 ### -param grfMode [in]
 
@@ -83,12 +79,10 @@ If the storage object is opened in direct mode (<b>STGM_DIRECT</b>) with access 
 The mode in which a file is opened can affect implementation performance. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/structured-storage-interfaces">Compound File Implementation Limits</a>.
 
-
 ### -param stgfmt [in]
 
 A value that specifies the storage file format. For more information, see the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa380330(v=vs.85)">STGFMT</a> enumeration.
-
 
 ### -param grfAttrs [in]
 
@@ -96,18 +90,15 @@ A value that depends upon the value of the <i>stgfmt</i> parameter.
 
 <b>STGFMT_DOCFILE</b> must be zero (0) or <b>FILE_FLAG_NO_BUFFERING</b>. For more information about this value, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>. If the sector size of the file, specified in <i>pStgOptions</i>, is not an integer multiple of the physical sector size of the underlying disk, then this operation will fail. All other values of <i>stgfmt</i> must be zero.
 
-
 ### -param pStgOptions [in, out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/ns-coml2api-stgoptions">STGOPTIONS</a> structure that contains data about the storage object opened. The <i>pStgOptions</i> parameter is valid only if the <i>stgfmt</i> parameter is set to <b>STGFMT_DOCFILE</b>. The <b>usVersion</b> member must be set before calling 
 <b>StgOpenStorageEx</b>. For more information, see the <b>STGOPTIONS</b> structure.
 
-
 ### -param pSecurityDescriptor [in]
 
 Reserved; must be zero.
-
 
 ### -param riid [in]
 
@@ -115,25 +106,16 @@ A value that specifies the GUID of the interface pointer to return. Can also be 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface or for <b>IID_IPropertySetStorage</b> to obtain the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
 
-
 ### -param ppObjectOpen [out]
 
 The address of an interface pointer variable that receives a pointer for an interface on the storage object opened; contains <b>NULL</b> if operation failed.
 
-
 ## -returns
-
-
 
 This function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>StgOpenStorageEx</b> is a superset of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a> function, and should be used by new code. Future enhancements to  structured storage will be exposed through this function. For more information about supported platforms, see the Requirements section.
@@ -174,12 +156,7 @@ For more information about simple mode and single-writer/multiple-reader modes, 
 <b>StgOpenStorageEx</b> call must create a snapshot copy of the entire storage object.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/compound-files">Compound Files</a>
 
@@ -210,7 +187,4 @@ For more information about simple mode and single-writer/multiple-reader modes, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>
- 
-
- 
 

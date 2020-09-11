@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F
 ms.date: 12/05/2018
 ms.keywords: CopyResource, CopyResource method, CopyResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyResource method, ID3D12GraphicsCommandList.CopyResource, ID3D12GraphicsCommandList::CopyResource, d3d12/ID3D12GraphicsCommandList::CopyResource, direct3d12.id3d12graphicscommandlist_copyresource
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.CopyResource
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.CopyResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::CopyResource
+ - d3d12/ID3D12GraphicsCommandList::CopyResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.CopyResource
 ---
 
 # ID3D12GraphicsCommandList::CopyResource
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies the entire contents of the source resource to the destination resource.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param pDstResource [in]
 
 Type: <b>ID3D12Resource*</b>
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>interface that represents the destination resource.
-          
-
 
 ### -param pSrcResource [in]
 
 Type: <b>ID3D12Resource*</b>
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>interface that represents the source resource.
-          
-
 
 ## -remarks
-
-
 
 <b>CopyResource</b> operations are performed on the GPU and do not incur a significant CPU workload linearly dependent on the size of the data to copy.
         
@@ -166,15 +155,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-sampl
 	} 
 </code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

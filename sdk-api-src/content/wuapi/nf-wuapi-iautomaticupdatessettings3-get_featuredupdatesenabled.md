@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 43f17feb-1a3b-4399-a26f-1a2d99442169
 ms.date: 12/05/2018
 ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpdatesEnabled property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, IAutomaticUpdatesSettings3 interface [Windows Update Agent],FeaturedUpdatesEnabled property, IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled, get_FeaturedUpdatesEnabled, wua.iautomaticupdatessettings3_featuredupdatesenabled, wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
-f1_keywords:
-- wuapi/IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled
-- IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled
-- IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled
+ - wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled
+ - IAutomaticUpdatesSettings3.get_FeaturedUpdatesEnabled
+ - IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
 ---
 
 # IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>
- 
-
- 
 

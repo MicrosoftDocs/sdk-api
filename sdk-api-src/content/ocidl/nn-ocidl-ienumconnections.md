@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 464966c1-e4e9-4b58-9e41-48de408f572f
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections, IEnumConnections interface [COM], IEnumConnections interface [COM],described, _com_ienumconnections, com.ienumconnections, ocidl/IEnumConnections
-f1_keywords:
-- ocidl/IEnumConnections
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ocidl.h
-api_name:
-- IEnumConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumConnections
+ - ocidl/IEnumConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ocidl.h
+api_name:
+ - IEnumConnections
 ---
 
 # IEnumConnections interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the current connections for a connectable object.
-
 
 ## -inheritance
 
@@ -104,12 +103,9 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Connectable objects support the following features: 
 
@@ -126,12 +122,7 @@ Connectable objects support the following features:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
 
@@ -142,7 +133,4 @@ Connectable objects support the following features:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a>
- 
-
- 
 

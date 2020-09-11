@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c3530534-c502-4168-8039-b5ce4f0a5816
 ms.date: 12/05/2018
 ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _zaw_releasentmscleanerslot, base.releasentmscleanerslot, fs.releasentmscleanerslot, ntmsapi/ReleaseNtmsCleanerSlot
-f1_keywords:
-- ntmsapi/ReleaseNtmsCleanerSlot
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- ReleaseNtmsCleanerSlot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReleaseNtmsCleanerSlot
+ - ntmsapi/ReleaseNtmsCleanerSlot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - ReleaseNtmsCleanerSlot
 ---
 
 # ReleaseNtmsCleanerSlot function
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>ReleaseNtmsCleanerSlot</b> function removes an existing slot reservation for a cleaning cartridge. The slot can then be used for data cartridges.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
-
 ### -param lpLibrary [in]
 
 Unique identifier of the library to release the cleaner slot.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -173,25 +165,13 @@ The function was queued successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For the 
 <b>ReleaseNtmsCleanerSlot</b> function to succeed, the slot must be present and empty. The library must also have a slot reserved for cleaning.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-cleanntmsdrive">CleanNtmsDrive</a>
 
@@ -210,7 +190,4 @@ For the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-reserventmscleanerslot">ReserveNtmsCleanerSlot</a>
- 
-
- 
 

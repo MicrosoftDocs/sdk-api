@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: aa260ff7-d55b-4fda-88e2-2f1d68cc41e1
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509Enrollment2 interface [Security],InitializeFromTemplate method, IX509Enrollment2.InitializeFromTemplate, IX509Enrollment2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::InitializeFromTemplate, security.ix509enrollment2_initializefromtemplate
-f1_keywords:
-- certenroll/IX509Enrollment2.InitializeFromTemplate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509Enrollment2.InitializeFromTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Enrollment2::InitializeFromTemplate
+ - certenroll/IX509Enrollment2::InitializeFromTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509Enrollment2.InitializeFromTemplate
 ---
 
 # IX509Enrollment2::InitializeFromTemplate
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromTemplate</b> method initializes the enrollment object by using a template.
 
-
 ## -parameters
-
-
-
 
 ### -param context [in]
 
@@ -101,22 +97,16 @@ The certificate is being requested by an administrator acting on the behalf of a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pPolicyServer [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
 
-
 ### -param pTemplate [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object that represents the template to use during initialization.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -151,14 +141,8 @@ The enrollment object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>InitializeFromTemplate</b> method:
 
@@ -181,15 +165,7 @@ The <b>InitializeFromTemplate</b> method:
 <li>Retrieves the signature count, issuance policies, and application policies from the template.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
- 
-
- 
 

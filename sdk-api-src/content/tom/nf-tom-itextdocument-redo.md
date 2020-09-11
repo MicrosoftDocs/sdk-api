@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\redo.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Redo method, ITextDocument.Redo, ITextDocument::Redo, Redo, Redo method [Windows Controls], Redo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Redo, _win32_ITextDocument_Redo_cpp, controls.ITextDocument_Redo, controls._win32_ITextDocument_Redo, tom/ITextDocument::Redo
-f1_keywords:
-- tom/ITextDocument.Redo
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.Redo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::Redo
+ - tom/ITextDocument::Redo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.Redo
 ---
 
 # ITextDocument::Redo
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Performs a specified number of redo operations. 
-
+Performs a specified number of redo operations.
 
 ## -parameters
-
-
-
 
 ### -param Count
 
 Type: <b>long</b>
 
-The number of redo operations specified. 
-
+The number of redo operations specified.
 
 ### -param pCount
 
 Type: <b>long*</b>
 
-The actual count of redo operations performed. This parameter can be <b>NULL</b>. 
-
+The actual count of redo operations performed. This parameter can be <b>NULL</b>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,15 +89,8 @@ Less than <i>Count</i> redo operations were performed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -124,7 +109,4 @@ Less than <i>Count</i> redo operations were performed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-undo">Undo</a>
- 
-
- 
 

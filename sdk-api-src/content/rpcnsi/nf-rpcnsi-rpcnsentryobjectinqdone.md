@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone
-f1_keywords:
-- rpcnsi/RpcNsEntryObjectInqDone
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsEntryObjectInqDone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsEntryObjectInqDone
+ - rpcnsi/RpcNsEntryObjectInqDone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsEntryObjectInqDone
 ---
 
 # RpcNsEntryObjectInqDone function
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsEntryObjectInqDone</b> function deletes the inquiry context for a name-service database entry's objects.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param InquiryContext
 
@@ -69,10 +66,7 @@ Pointer to a name-service handle specifying the object UUIDs exported to the <i>
 
 An argument value of <b>NULL</b> is returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -97,11 +91,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsEntryObjectInqDone</b> function frees an inquiry context created by calling the 
@@ -111,20 +101,11 @@ An application calls
 <b>RpcNsEntryObjectInqDone</b> after viewing exported object UUIDs using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqnext">RpcNsEntryObjectInqNext</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqnext">RpcNsEntryObjectInqNext</a>
- 
-
- 
 

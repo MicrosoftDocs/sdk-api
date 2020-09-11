@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e54d8385-ec67-4825-ad7c-431807a4fcb4
 ms.date: 12/05/2018
 ms.keywords: IShellItem2, IShellItem2 interface [Windows Shell], IShellItem2 interface [Windows Shell],described, _shell_IShellItem2, shell.IShellItem2, shobjidl_core/IShellItem2
-f1_keywords:
-- shobjidl_core/IShellItem2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellItem2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItem2
+ - shobjidl_core/IShellItem2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellItem2
 ---
 
 # IShellItem2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> with methods that retrieve various property values of the item. <b>IShellItem</b> and <b>IShellItem2</b> are the preferred representations of items in any new code.
-
 
 ## -inheritance
 
@@ -185,5 +184,5 @@ Ensures that any cached information in this item is updated.
 
 </td>
 </tr>
-</table> 
+</table>
 

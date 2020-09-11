@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: d222defe-2ef9-4622-b2e1-462a91cb1b0a
 ms.date: 12/05/2018
 ms.keywords: ExtSelectClipRgn, ExtSelectClipRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_ExtSelectClipRgn, gdi.extselectcliprgn, wingdi/ExtSelectClipRgn
-f1_keywords:
-- wingdi/ExtSelectClipRgn
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-api_name:
-- ExtSelectClipRgn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtSelectClipRgn
+ - wingdi/ExtSelectClipRgn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+api_name:
+ - ExtSelectClipRgn
 ---
 
 # ExtSelectClipRgn function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ExtSelectClipRgn</b> function combines the specified region with the current clipping region using the specified mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param hrgn [in]
 
 A handle to the region to be selected. This handle must not be <b>NULL</b> unless the RGN_COPY mode is specified.
-
 
 ### -param mode [in]
 
@@ -129,12 +123,8 @@ The new clipping region combines the current clipping region and the region iden
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The return value specifies the new clipping region's complexity; it can be one of the following values.
 
@@ -188,14 +178,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If an error occurs when this function is called, the previous clipping region for the specified device context is not affected.
 
@@ -203,13 +187,7 @@ The <b>ExtSelectClipRgn</b> function assumes that the coordinates for the specif
 
 Only a copy of the region identified by the <i>hrgn</i> parameter is used. The region itself can be reused after this call or it can be deleted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
@@ -220,7 +198,4 @@ Only a copy of the region identified by the <i>hrgn</i> parameter is used. The r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_chain_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 04b5d6e7-f014-9f92-ee14-6dd943b40ce5, DXGI_SWAP_CHAIN_DESC, DXGI_SWAP_CHAIN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_desc, dxgi/DXGI_SWAP_CHAIN_DESC
-f1_keywords:
-- dxgi/DXGI_SWAP_CHAIN_DESC
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DXGI.h
-api_name:
-- DXGI_SWAP_CHAIN_DESC
 targetos: Windows
 req.typenames: DXGI_SWAP_CHAIN_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_SWAP_CHAIN_DESC
+ - dxgi/DXGI_SWAP_CHAIN_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DXGI.h
+api_name:
+ - DXGI_SWAP_CHAIN_DESC
 ---
 
 # DXGI_SWAP_CHAIN_DESC structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a swap chain.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BufferDesc
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a> structure that describes the backbuffer display mode.
 
-
 ### -field SampleDesc
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a></b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a> structure that describes multi-sampling parameters.
-
 
 ### -field BufferUsage
 
@@ -79,20 +73,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-u
 A member of the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-usage">DXGI_USAGE</a> enumerated type that describes the surface usage and CPU access options for the back buffer. The back buffer can 
         be used for shader input or render-target output.
 
-
 ### -field BufferCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value that describes the number of buffers in the swap chain. When you call  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain">IDXGIFactory::CreateSwapChain</a> to create a full-screen swap chain, you typically include the front buffer in this value. For more information about swap-chain buffers, see Remarks.
 
-
 ### -field OutputWindow
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 An <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> handle to the output window. This member must not be <b>NULL</b>.
-
 
 ### -field Windowed
 
@@ -104,7 +95,6 @@ We recommend that you create a windowed swap chain and allow the end user to cha
 
 For more information about choosing windowed verses full screen, see <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain">IDXGIFactory::CreateSwapChain</a>.
 
-
 ### -field SwapEffect
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT</a></b>
@@ -112,17 +102,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dx
 A member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_effect">DXGI_SWAP_EFFECT</a> enumerated type that describes options for handling the contents of the presentation buffer after 
         presenting a surface.
 
-
 ### -field Flags
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG</a> enumerated type that describes options for swap-chain behavior.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getdesc">GetDesc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-createswapchain">CreateSwapChain</a> methods.
 
@@ -134,13 +120,7 @@ If you create a swap chain with one buffer, specifying <b>DXGI_SWAP_EFFECT_SEQUE
 For performance information about flipping swap-chain buffers in full-screen application, 
       see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi">Full-Screen Application Performance Hints</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
 
@@ -151,7 +131,4 @@ For performance information about flipping swap-chain buffers in full-screen app
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
- 
-
- 
 

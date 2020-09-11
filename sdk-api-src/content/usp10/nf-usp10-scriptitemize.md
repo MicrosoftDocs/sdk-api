@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 1491d9c5-e86b-45cc-bb47-85c8619eab69
 ms.date: 12/05/2018
 ms.keywords: ScriptItemize, ScriptItemize function [Internationalization for Windows Applications], _win32_ScriptItemize, intl.scriptitemize, usp10/ScriptItemize
-f1_keywords:
-- usp10/ScriptItemize
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-usp10-l1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptItemize
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptItemize
+ - usp10/ScriptItemize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-usp10-l1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptItemize
 ---
 
 # ScriptItemize function
@@ -52,29 +53,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Breaks a Unicode string into individually shapeable items.
 
-
 ## -parameters
-
-
-
 
 ### -param pwcInChars [in]
 
 Pointer to a Unicode string to itemize.
 
-
 ### -param cInChars [in]
 
 Number of characters in <i>pwcInChars</i> to itemize.
 
-
 ### -param cMaxItems [in]
 
 Maximum number of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures defining items to process.
-
 
 ### -param psControl [in, optional]
 
@@ -82,13 +75,11 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_C
 
 Alternatively, the application can set this parameter to <b>NULL</b> if no <a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> properties are needed. For more information, see the Remarks section.
 
-
 ### -param psState [in, optional]
 
 Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure indicating the initial bidirectional algorithm state.
 
 Alternatively, the application can set this parameter to <b>NULL</b> if the script state is not needed. For more information, see the Remarks section.
-
 
 ### -param pItems [out]
 
@@ -96,15 +87,11 @@ Pointer to a buffer in which the function retrieves <a href="/windows/win32/api/
 
 <code>pItems[i+1].iCharPos - pItems[i].iCharPos;</code>
 
-
 ### -param pcItems [out]
 
 Pointer to the number of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures processed.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed.
 
@@ -112,12 +99,7 @@ The function returns E_INVALIDARG if <i>pwcInChars</i> is set to <b>NULL</b>, <i
 
 The function returns E_OUTOFMEMORY if the value of <i>cMaxItems</i> is insufficient. As in all error cases, no items are fully processed and no part of the output array contains defined values. If the function returns E_OUTOFMEMORY, the application can call it again with a larger <i>pItems</i> buffer.
 
-
-
-
 ## -remarks
-
-
 
 See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
@@ -213,12 +195,7 @@ The <b>fArabicNumContext</b> member of <a href="/windows/win32/api/usp10/ns-usp1
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -257,7 +234,4 @@ The <b>fArabicNumContext</b> member of <a href="/windows/win32/api/usp10/ns-usp1
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

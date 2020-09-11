@@ -35,6 +35,7 @@ api_location:
 api_name:
  - WlxDisconnectNotify
 f1_keywords:
+ - WlxDisconnectNotify
  - winwlx/WlxDisconnectNotify
 dev_langs:
  - c++

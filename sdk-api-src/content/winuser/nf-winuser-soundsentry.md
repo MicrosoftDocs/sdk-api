@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\soundsentry.htm
 ms.date: 12/05/2018
 ms.keywords: SoundSentry, SoundSentry function [Windows and Messages], _win32_SoundSentry, _win32_soundsentry_cpp, winmsg.soundsentry, winui._win32_soundsentry, winuser/SoundSentry
-f1_keywords:
-- winuser/SoundSentry
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SoundSentry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SoundSentry
+ - winuser/SoundSentry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SoundSentry
 ---
 
 # SoundSentry function
@@ -54,20 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Triggers a visual signal to indicate that a sound is playing. 
-
+Triggers a visual signal to indicate that a sound is playing.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -101,24 +93,12 @@ An error prevented the signal from being displayed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Set the notification behavior by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSOUNDSENTRY</b> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -129,7 +109,4 @@ Set the notification behavior by calling <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd373647(v=vs.85)">SoundSentryProc</a>
- 
-
- 
 

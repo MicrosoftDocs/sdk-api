@@ -7,10 +7,6 @@ helpviewer_keywords: ["Region::Intersect"]
 ms.assetid: 875832ae-7dca-4830-bfdb-6d36fb33f717
 ms.date: 05/20/2019
 ms.keywords: Region::Intersect
-f1_keywords:
-- gdiplusheaders/Region::Intersect
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Region::Intersect
+ - gdiplusheaders/Region::Intersect
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Region::Intersect
+ - Region::Intersect
 ---
 
 # Region::Intersect(Rect&)
+
 
 ## -description
 
@@ -103,3 +105,4 @@ VOID Example_IntersectRect(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

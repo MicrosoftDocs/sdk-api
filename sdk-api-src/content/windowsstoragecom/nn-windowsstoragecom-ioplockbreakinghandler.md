@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 76466E25-C3F1-4170-921E-8BE6B36B6BA3
 ms.date: 12/05/2018
 ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], IOplockBreakingHandler interface [Windows Runtime],described, windowsstoragecom/IOplockBreakingHandler, winrt.ioplockbreakinghandler
-f1_keywords:
-- windowsstoragecom/IOplockBreakingHandler
-dev_langs:
-- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.storage.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.storage.dll
-api_name:
-- IOplockBreakingHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOplockBreakingHandler
+ - windowsstoragecom/IOplockBreakingHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.storage.dll
+api_name:
+ - IOplockBreakingHandler
 ---
 
 # IOplockBreakingHandler interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 This interface is not currently implemented.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ This method is not currently implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

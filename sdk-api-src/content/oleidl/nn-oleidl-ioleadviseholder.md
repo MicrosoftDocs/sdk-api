@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
-f1_keywords:
-- oleidl/IOleAdviseHolder
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleAdviseHolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleAdviseHolder
+ - oleidl/IOleAdviseHolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleAdviseHolder
 ---
 
 # IOleAdviseHolder interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages advisory connections and compound document notifications in an object server. Its methods are intended to be used to implement the advisory methods of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>. <b>IOleAdviseHolder</b> is implemented on an advise holder object. Its methods establish and delete advisory connections from the object managed by the server to the object's container, which must contain an advise sink (support the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface). The advise holder object must also keep track of which advise sinks are interested in which notifications and pass along the notifications as appropriate.
-
-
-
 
 ## -inheritance
 
@@ -124,13 +121,9 @@ Deletes a previously established advisory connection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createoleadviseholder">CreateOleAdviseHolder</a>
 
@@ -145,7 +138,4 @@ Deletes a previously established advisory connection.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
- 
-
- 
 

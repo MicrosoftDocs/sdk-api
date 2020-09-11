@@ -8,10 +8,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm
 ms.date: 12/05/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service],described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
-f1_keywords:
-- cmdtree/IQuery
-dev_langs:
-- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cmdtree.h
-api_name:
-- IQuery
-- IQuery.AddPostProcessing
-- IQuery.GetCardinalityEstimate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQuery
+ - cmdtree/IQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cmdtree.h
+api_name:
+ - IQuery
+ - IQuery.AddPostProcessing
+ - IQuery.GetCardinalityEstimate
 ---
 
 # IQuery interface
@@ -51,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 The <b>IQuery</b> interface is reserved for future use.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Reserved for future use.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
- 
-
- 
 

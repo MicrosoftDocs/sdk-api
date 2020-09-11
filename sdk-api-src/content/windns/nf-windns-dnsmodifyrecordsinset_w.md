@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73
 ms.date: 12/05/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
-f1_keywords:
-- windns/DnsModifyRecordsInSet
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsModifyRecordsInSet
-- DnsModifyRecordsInSet_A
-- DnsModifyRecordsInSet_W
-- DnsModifyRecordsInSet_UTF8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsModifyRecordsInSet_W
+ - windns/DnsModifyRecordsInSet_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsModifyRecordsInSet
+ - DnsModifyRecordsInSet_A
+ - DnsModifyRecordsInSet_W
+ - DnsModifyRecordsInSet_UTF8
 ---
 
 # DnsModifyRecordsInSet_W function
 
 
 ## -description
-
 
 The 
 <b>DnsModifyRecordsInSet</b>function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
@@ -66,53 +66,37 @@ Like many DNS functions, the
 
 ## -parameters
 
-
-
-
 ### -param pAddRecords [in, optional]
 
 A pointer to the 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RRs to be added to the RR set.
-
 
 ### -param pDeleteRecords [in, optional]
 
 A pointer to the 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RRs to be deleted from the RR set.
 
-
 ### -param Options [in]
 
 A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Update  Options</a>. Options can be combined and all options override <b>DNS_UPDATE_SECURITY_USE_DEFAULT</b>.
-
 
 ### -param hCredentials [in, optional]
 
 A handle to the credentials of a specific account. Used when secure dynamic update is required. This parameter is optional.
 
-
 ### -param pExtraList [in, out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param pReserved [in, out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns success confirmation upon successful completion. Otherwise, it returns the appropriate DNS-specific error code as defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>DnsModifyRecordsInSet</b> function type executes in the following steps.
@@ -125,13 +109,7 @@ To add a new record, provide no records in <i>pDeleteRecords</i>, and provide th
 
 If no server list is specified, the default name server is queried.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
@@ -142,7 +120,4 @@ If no server list is specified, the default name server is queried.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsreplacerecordseta">DnsReplaceRecordSet</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], IWMSInternalAdminNetSource2 interface [windows Media Format],described, IWMSInternalAdminNetSource2Interface, wmformat.iwmsinternaladminnetsource2, wmsinternaladminnetsource/IWMSInternalAdminNetSource2
-f1_keywords:
-- wmsinternaladminnetsource/IWMSInternalAdminNetSource2
-dev_langs:
-- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsinternaladminnetsource.h
-api_name:
-- IWMSInternalAdminNetSource2
-- IWMSInternalAdminNetSource2.FindProxyForURLEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSInternalAdminNetSource2
+ - wmsinternaladminnetsource/IWMSInternalAdminNetSource2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsinternaladminnetsource.h
+api_name:
+ - IWMSInternalAdminNetSource2
+ - IWMSInternalAdminNetSource2.FindProxyForURLEx
 ---
 
 # IWMSInternalAdminNetSource2 interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMSInternalAdminNetSource2</b> interface provides improved methods for password caching. These methods should be used in preference to their counterparts in <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource</a> because the older methods are vulnerable to spoofing and are therefore not secure.
 
 To obtain a pointer to an instance of this interface, call the <b>QueryInterface</b> method of the <b>IDispatch</b> method retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface">INSNetSourceCreator::GetNetSourceAdminInterface</a>.
-
-
-
 
 ## -inheritance
 
@@ -180,13 +176,9 @@ Releases internally allocated resources used in finding proxy servers.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
 
@@ -197,7 +189,4 @@ Releases internally allocated resources used in finding proxy servers.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

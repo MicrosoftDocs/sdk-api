@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 23618FBC-2404-4AB7-9842-7FD439F677B1
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Instancing method, IExeServerRegistration.get_Instancing, IExeServerRegistration::get_Instancing, activationregistration/IExeServerRegistration::get_Instancing, get_Instancing, get_Instancing method [Windows Runtime], get_Instancing method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_instancing
-f1_keywords:
-- activationregistration/IExeServerRegistration.get_Instancing
-dev_langs:
-- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- activationregistration.h
-api_name:
-- IExeServerRegistration.get_Instancing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExeServerRegistration::get_Instancing
+ - activationregistration/IExeServerRegistration::get_Instancing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - activationregistration.h
+api_name:
+ - IExeServerRegistration.get_Instancing
 ---
 
 # IExeServerRegistration::get_Instancing
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the instancing behavior for the out-of-process server.
 
-
 ## -parameters
-
-
-
 
 ### -param instanceType [out, retval]
 
 The instancing behavior for the out-of-process server.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration">IExeServerActivatableClassRegistration</a>
 
@@ -86,7 +73,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-instancingtype">InstancingType</a>
- 
-
- 
 

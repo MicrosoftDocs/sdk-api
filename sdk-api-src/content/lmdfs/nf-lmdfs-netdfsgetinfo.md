@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: bbb2f24d-1c49-4016-a16b-60fde4a78193
 ms.date: 12/05/2018
 ms.keywords: 1, 100, 150, 2, 3, 4, 5, 50, 6, 7, 8, 9, NetDfsGetInfo, NetDfsGetInfo function [Distributed File System], _win32_netdfsgetinfo, dfs.netdfsgetinfo, fs.netdfsgetinfo, lmdfs/NetDfsGetInfo, netmgmt.netdfsgetinfo
-f1_keywords:
-- lmdfs/NetDfsGetInfo
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetDfsGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetDfsGetInfo
+ - lmdfs/NetDfsGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetDfsGetInfo
 ---
 
 # NetDfsGetInfo function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a specified Distributed File System (DFS) root or link in a DFS namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param DfsEntryPath [in]
 
@@ -90,16 +86,13 @@ where the values of the names are the same as those described previously.
 
 This parameter is required.
 
-
 ### -param ServerName [in, optional]
 
 This parameter is currently ignored and should be <b>NULL</b>.
 
-
 ### -param ShareName [in, optional]
 
 This parameter is currently ignored and should be <b>NULL</b>.
-
 
 ### -param Level [in]
 
@@ -213,22 +206,14 @@ Pointer to the address of a buffer that receives the requested information struc
       and 
       <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 No special group membership is required for using the 
     <b>NetDfsGetInfo</b> function.
@@ -314,14 +299,7 @@ void wmain(int argc, wchar_t *argv[ ])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_1">DFS_INFO_1</a>
 
@@ -368,7 +346,4 @@ void wmain(int argc, wchar_t *argv[ ])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
- 
-
- 
 

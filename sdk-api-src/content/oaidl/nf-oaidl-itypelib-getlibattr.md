@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: edc35364-99dc-438b-81de-4f129c0cf50f
 ms.date: 12/05/2018
 ms.keywords: GetLibAttr, GetLibAttr method [Automation], GetLibAttr method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetLibAttr method, ITypeLib.GetLibAttr, ITypeLib::GetLibAttr, _oa96_ITypeLib_GetLibAttr, automat.itypelib_getlibattr, oaidl/ITypeLib::GetLibAttr
-f1_keywords:
-- oaidl/ITypeLib.GetLibAttr
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeLib.GetLibAttr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeLib::GetLibAttr
+ - oaidl/ITypeLib::GetLibAttr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeLib.GetLibAttr
 ---
 
 # ITypeLib::GetLibAttr
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the structure that contains the library's attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param ppTLibAttr [out]
 
  The library's attributes.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,28 +104,12 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-releasetlibattr">ITypeLib::ReleaseTLibAttr</a> to free the memory occupied by the TLIBATTR structure.
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
- 
-
- 
 

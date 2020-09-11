@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: e90c5aa0-3126-489b-af44-bf86cb45a6d1
 ms.date: 12/05/2018
 ms.keywords: GetTcpTable, GetTcpTable function [IP Helper], _iphlp_gettcptable, iphlp.gettcptable, iphlpapi/GetTcpTable
-f1_keywords:
-- iphlpapi/GetTcpTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTcpTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTcpTable
+ - iphlpapi/GetTcpTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTcpTable
 ---
 
 # GetTcpTable function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTcpTable</b> function retrieves the IPv4 TCP connection table.
 
-
 ## -parameters
-
-
-
 
 ### -param TcpTable [out]
 
 A pointer to a buffer that receives the TCP connection table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a> structure.
-
 
 ### -param SizePointer [in, out]
 
@@ -71,8 +66,7 @@ On input, specifies the size in  bytes  of the buffer pointed to by the <i>pTcpT
 
 On output, if the buffer is not large enough to hold the returned connection table, the function sets this parameter equal to the required buffer size in bytes.
 
-On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>. 
-
+On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>.
 
 ### -param Order [in]
 
@@ -86,11 +80,7 @@ A Boolean value that specifies whether the TCP connection table should be sorted
 <li>Remote port</li>
 </ol>
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -161,14 +151,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On the Windows SDK released for Windows Vista and later, the return value from the <b>GetTcpTable</b> function is changed to a data type of <b>ULONG</b> which is equivalent to a <b>DWORD</b>. 
 
@@ -303,14 +287,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
 
@@ -365,7 +342,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a>
- 
-
- 
 

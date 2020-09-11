@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8iwe.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSetConfiguration, FaxSetConfiguration function [Fax Service], FaxSetConfigurationA, FaxSetConfigurationW, _mfax_faxsetconfiguration, fax._mfax_faxsetconfiguration, winfax/FaxSetConfiguration, winfax/FaxSetConfigurationA, winfax/FaxSetConfigurationW
-f1_keywords:
-- winfax/FaxSetConfiguration
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxSetConfiguration
-- FaxSetConfigurationA
-- FaxSetConfigurationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxSetConfigurationW
+ - winfax/FaxSetConfigurationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxSetConfiguration
+ - FaxSetConfigurationA
+ - FaxSetConfigurationW
 ---
 
 # FaxSetConfigurationW function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxSetConfiguration</b> function to change the global configuration settings for the fax server to which the client has connected. The configuration data can include, among other items, retransmission, branding, archive and cover page settings; discount rate periods; and the status of the fax server queue.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -67,17 +63,13 @@ Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
-
 ### -param FaxConfig [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a> structure. The structure contains data to modify the current fax server configuration settings.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -124,14 +116,8 @@ The <i>FaxConfig</i> parameter is <b>NULL</b>, or the <b>SizeOfStruct</b> member
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A fax administration application typically calls the <b>FaxSetConfiguration</b> function to administer the global configuration settings for a fax server. To query the settings, an application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a> function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-server-configuration-management">Fax Server Configuration Management</a>.
 
@@ -143,9 +129,6 @@ A fax administration application typically calls the <b>FaxSetConfiguration</b> 
 > The winfax.h header defines FaxSetConfiguration as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>
 
@@ -164,7 +147,4 @@ A fax administration application typically calls the <b>FaxSetConfiguration</b> 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a>
- 
-
- 
 

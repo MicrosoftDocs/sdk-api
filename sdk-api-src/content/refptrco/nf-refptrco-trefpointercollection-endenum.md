@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 86dcfc2e-fc73-4030-a63f-5284c2123a21
 ms.date: 12/05/2018
 ms.keywords: EndEnum, EndEnum method [Windows Management Instrumentation], EndEnum method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],EndEnum method, TRefPointerCollection.EndEnum, TRefPointerCollection::EndEnum, _hmm_trefpointercollection_endenum, refptrco/TRefPointerCollection::EndEnum, wmi.trefpointercollection_endenum
-f1_keywords:
-- refptrco/TRefPointerCollection.EndEnum
-dev_langs:
-- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- TRefPointerCollection.EndEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TRefPointerCollection::EndEnum
+ - refptrco/TRefPointerCollection::EndEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - TRefPointerCollection.EndEnum
 ---
 
 # TRefPointerCollection::EndEnum
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,25 +59,13 @@ ms.custom: 19H1
 
 The <b>EndEnum</b> method ends the enumeration of the collection.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-beginenum">TRefPointerCollection::BeginEnum</a>
- 
-
- 
 

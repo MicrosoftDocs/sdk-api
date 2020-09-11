@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2d6bae28-7c26-47c4-8633-9ecc60293dc6
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsDisabled method, IAMPluginControl.IsDisabled, IAMPluginControl::IsDisabled, IsDisabled, IsDisabled method [DirectShow], IsDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_isdisabled, strmif/IAMPluginControl::IsDisabled
-f1_keywords:
-- strmif/IAMPluginControl.IsDisabled
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMPluginControl.IsDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPluginControl::IsDisabled
+ - strmif/IAMPluginControl::IsDisabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMPluginControl.IsDisabled
 ---
 
 # IAMPluginControl::IsDisabled
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether a class identifier (CLSID) appears in the blocked list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
 The CLSID to search for.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,22 +92,12 @@ The specified CLSID is not in the blocked list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
- 
-
- 
 

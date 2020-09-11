@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 5ce7a7b4-e1c0-4e76-98c2-41462ec4ea17
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPO, IGPMStarterGPO interface [GPMC], IGPMStarterGPO interface [GPMC],described, gpmc.igpmstartergpo, gpmgmt/IGPMStarterGPO
-f1_keywords:
-- gpmgmt/IGPMStarterGPO
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMStarterGPO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMStarterGPO
+ - gpmgmt/IGPMStarterGPO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMStarterGPO
 ---
 
 # IGPMStarterGPO interface
 
 
 ## -description
-
 
 The 
 <b>IGPMStarterGPO</b> interface supports methods that enable you to manage Starter Group Policy Objects (GPOs) in the directory service.
@@ -59,7 +59,6 @@ You can instantiate a <b>GPMStarterGPO</b> object by creating a new one with a c
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-createstartergpo">IGPMDomain2::CreateStarterGPO</a>, retrieving an existing one with a call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-getstartergpo">IGPMDomain2::GetStarterGPO</a>, or by searching for one with a call to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain2-searchstartergpos">IGPMDomain2::SearchStarterGPOs</a>. After creating the object, you can query the GPO and set properties related to the GPO.
-
 
 ## -inheritance
 
@@ -333,12 +332,9 @@ Version number of the user configuration portion of the Starter GPO.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>GPMStarterGPO</b> object is analogous to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">GPMGPO2</a> object. The <b>GPMStarterGPO</b> object represents a single instance of a Starter Group Policy object (GPO).
 
@@ -353,13 +349,7 @@ The <b>IGPMStarterGPO</b> interface has three properties that do not have a coun
 </ul>
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpo-save">Save</a> method has no corresponding method in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo2">IGPMGPO2</a> interface.  The <b>Save</b> method will generate a CAB file containing all the contents of a single Starter GPO.  The objective of this method is to allow a user to save a Starter GPO in a form that can be easily redistributed. There is no way to create a CAB file containing multiple Starter GPOs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -378,7 +368,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gp
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpocollection">IGPMStarterGPOCollection</a>
- 
-
- 
 

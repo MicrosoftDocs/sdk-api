@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9f0f7102-c839-4e92-a798-5ea31ceba013
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl interface [Media Foundation],StopBackgroundTransfer method, IMFByteStreamCacheControl.StopBackgroundTransfer, IMFByteStreamCacheControl::StopBackgroundTransfer, StopBackgroundTransfer, StopBackgroundTransfer method [Media Foundation], StopBackgroundTransfer method [Media Foundation],IMFByteStreamCacheControl interface, mf.imfbytestreamcachecontrol_stopbackgroundtransfer, mfidl/IMFByteStreamCacheControl::StopBackgroundTransfer
-f1_keywords:
-- mfidl/IMFByteStreamCacheControl.StopBackgroundTransfer
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamCacheControl.StopBackgroundTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamCacheControl::StopBackgroundTransfer
+ - mfidl/IMFByteStreamCacheControl::StopBackgroundTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamCacheControl.StopBackgroundTransfer
 ---
 
 # IMFByteStreamCacheControl::StopBackgroundTransfer
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops the background transfer of data to the local cache.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The byte stream resumes transferring data to the cache if the application does one of the following:
 
@@ -80,15 +67,7 @@ The byte stream resumes transferring data to the cache if the application does o
 <li>Calls the byte stream's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-enablebuffering">IMFByteStreamBuffering::EnableBuffering</a> method.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>
- 
-
- 
 

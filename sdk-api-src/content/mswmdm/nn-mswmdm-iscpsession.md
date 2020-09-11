@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 4efd8e5a-490b-435b-b34d-7099198891b1
 ms.date: 12/05/2018
 ms.keywords: ISCPSession, ISCPSession interface [windows Media Device Manager], ISCPSession interface [windows Media Device Manager],described, ISCPSessionInterface, mswmdm/ISCPSession, wmdm.iscpsession
-f1_keywords:
-- mswmdm/ISCPSession
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- ISCPSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSession
+ - mswmdm/ISCPSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - ISCPSession
 ---
 
 # ISCPSession interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ISCPSession</b> interface provides efficient common state management for multiple operations.
 
 A secure content provider (SCP) session is useful when transferring multiple files. In that case, the session can help SCP do some of the operations only once instead of once for every file transfer. This results in better transfer performance.
-
-
-
 
 ## -inheritance
 
@@ -100,16 +96,9 @@ Obtains a secure query object for to the session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
- 
-
- 
 

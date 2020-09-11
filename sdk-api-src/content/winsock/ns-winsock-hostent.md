@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: f194b9d5-dfaf-4a02-95c6-6d06015aad1d
 ms.date: 12/05/2018
 ms.keywords: '*LPHOSTENT, *PHOSTENT, FAR *LPHOSTENT, FAR *LPHOSTENT structure [Winsock], HOSTENT, HOSTENT structure [Winsock], PHOSTENT, PHOSTENT structure pointer [Winsock], _win32_hostent_2, hostent, hostent structure [Winsock], winsock.hostent_2, winsock/FAR *LPHOSTENT, winsock/PHOSTENT, winsock/hostent'
-f1_keywords:
-- winsock/HOSTENT
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsock.h
-api_name:
-- HOSTENT
 targetos: Windows
 req.typenames: HOSTENT, *PHOSTENT, *LPHOSTENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - hostent
+ - winsock/hostent
+ - PHOSTENT
+ - winsock/PHOSTENT
+ - HOSTENT
+ - winsock/HOSTENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsock.h
+api_name:
+ - HOSTENT
 ---
 
 # HOSTENT structure
@@ -49,45 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>hostent</b> structure is used by functions to store information about a given host, such as host name, IPv4 address, and so forth. An application should never attempt to modify this structure or to free any of its components. Furthermore, only one copy of the 
 <b>hostent</b> structure is allocated per thread, and an application should therefore copy any information that it needs before issuing any other Windows Sockets API calls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field h_name
 
 The official name of the host (PC). If using the DNS or similar resolution system, it is the Fully Qualified Domain Name (FQDN) that caused the server to return a reply. If using a local hosts file, it is the first entry after the IPv4 address.
 
-
 ### -field h_aliases
 
 A <b>NULL</b>-terminated array of alternate names.
-
 
 ### -field h_addrtype
 
 The type of address being returned.
 
-
 ### -field h_length
 
 The length, in bytes, of each address.
-
 
 ### -field h_addr_list
 
 A <b>NULL</b>-terminated list of addresses for the host. Addresses are returned in network byte order. The macro <b>h_addr</b> is defined to be <code>h_addr_list[0]</code> for compatibility with older software.
 
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a> functions returns a pointer to a 
@@ -217,14 +210,7 @@ int main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
@@ -251,7 +237,4 @@ int main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a>
- 
-
- 
 

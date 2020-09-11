@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 490f0958-125b-4c09-8ca4-07532ed8d4d4
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSimpleProgress, IOfflineFilesSimpleProgress interface [Offline Files], IOfflineFilesSimpleProgress interface [Offline Files],described, cscobj/IOfflineFilesSimpleProgress, of.iofflinefilessimpleprogress
-f1_keywords:
-- cscobj/IOfflineFilesSimpleProgress
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesSimpleProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesSimpleProgress
+ - cscobj/IOfflineFilesSimpleProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesSimpleProgress
 ---
 
 # IOfflineFilesSimpleProgress interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to report progress back to callers of lengthy Offline Files operations.
-
 
 ## -inheritance
 
@@ -87,20 +86,13 @@ Reports that an item has been processed during the operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

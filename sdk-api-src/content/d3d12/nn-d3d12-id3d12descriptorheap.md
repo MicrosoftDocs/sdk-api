@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: B6FF011B-3FED-425B-B9D5-A823E6915FD5
 ms.date: 12/05/2018
 ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
-f1_keywords:
-- d3d12/ID3D12DescriptorHeap
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12DescriptorHeap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12DescriptorHeap
+ - d3d12/ID3D12DescriptorHeap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12DescriptorHeap
 ---
 
 # ID3D12DescriptorHeap interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor. Descriptor heaps contain many object types that are not part of a Pipeline State Object (PSO), such as Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs), and Samplers.
-
 
 ## -inheritance
 
@@ -96,13 +95,9 @@ Gets the GPU descriptor handle that represents the start of the heap.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
@@ -117,7 +112,4 @@ Gets the GPU descriptor handle that represents the start of the heap.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
- 
-
- 
 

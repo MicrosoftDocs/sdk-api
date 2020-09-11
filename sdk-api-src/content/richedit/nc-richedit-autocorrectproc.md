@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
 ms.date: 12/05/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
-f1_keywords:
-- richedit/AutoCorrectProc
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Richedit.h
-api_name:
-- AutoCorrectProc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AutoCorrectProc
+ - richedit/AutoCorrectProc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Richedit.h
+api_name:
+ - AutoCorrectProc
 ---
 
 # AutoCorrectProc callback function
 
 
 ## -description
-
 
 The <i>AutoCorrectProc</i> function is an 
     application-defined  callback function that is used with the 
@@ -58,43 +58,31 @@ The <i>AutoCorrectProc</i> function is an
     application-defined function name. It provides application-defined automatic error correction for text entered 
     into a rich edit control.
 
-
 ## -parameters
-
-
-
 
 ### -param langid
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
 
-Language ID that identifies the autocorrect file to use for automatic correcting. 
-
-
+Language ID that identifies the autocorrect file to use for automatic correcting.
 
 ### -param *pszBefore
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
-Autocorrect candidate string. 
-
-
+Autocorrect candidate string.
 
 ### -param *pszAfter
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
-Resulting autocorrect string, if the return value is not <b>ATP_NOCHANGE</b>. 
-
-
+Resulting autocorrect string, if the return value is not <b>ATP_NOCHANGE</b>.
 
 ### -param cchAfter
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Count of characters in <i>pszAfter</i>. 
-
-
+Count of characters in <i>pszAfter</i>.
 
 ### -param *pcchReplaced
 
@@ -102,10 +90,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Count of trailing characters in <i>pszBefore</i> to replace with <i>pszAfter</i>.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -166,15 +151,8 @@ Replace trailing characters even if they are not changed (uses the same formatti
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/em-callautocorrectproc">EM_CALLAUTOCORRECTPROC</a>
 
@@ -185,7 +163,4 @@ Replace trailing characters even if they are not changed (uses the same formatti
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setautocorrectproc">EM_SETAUTOCORRECTPROC</a>
- 
-
- 
 

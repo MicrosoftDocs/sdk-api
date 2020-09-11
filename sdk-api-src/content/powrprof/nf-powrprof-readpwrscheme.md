@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a8d93820-b652-4358-8039-8987fac95dca
 ms.date: 12/05/2018
 ms.keywords: ReadPwrScheme, ReadPwrScheme function, _win32_readpwrscheme, base.readpwrscheme, powrprof/ReadPwrScheme
-f1_keywords:
-- powrprof/ReadPwrScheme
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- ReadPwrScheme
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadPwrScheme
+ - powrprof/ReadPwrScheme
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - ReadPwrScheme
 ---
 
 # ReadPwrScheme function
@@ -49,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>ReadPwrScheme</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. See Remarks.]
 
 Retrieves the power policy settings that are unique to the specified power scheme.
 
-
 ## -parameters
-
-
-
 
 ### -param uiID [in]
 
 The index of the power scheme to be read.
-
 
 ### -param pPowerPolicy [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure that receives the power policy settings.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the power scheme specified does not exist, the function returns <b>FALSE</b>.
 
@@ -97,13 +84,7 @@ Starting with Windows Vista, use the <a href="https://docs.microsoft.com/window
 
 For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-getactivepwrscheme">GetActivePwrScheme</a>
 
@@ -122,7 +103,4 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>
- 
-
- 
 

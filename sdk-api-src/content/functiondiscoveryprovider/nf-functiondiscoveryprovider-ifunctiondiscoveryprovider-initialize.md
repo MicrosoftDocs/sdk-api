@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 084d6d91-4637-4325-887b-e9f46ecaaee4
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Initialize method, IFunctionDiscoveryProvider.Initialize, IFunctionDiscoveryProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize, ncd.ifunctiondiscoveryprovider_initialize_method
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryProvider.Initialize
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryProvider.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryProvider::Initialize
+ - functiondiscoveryprovider/IFunctionDiscoveryProvider::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryProvider.Initialize
 ---
 
 # IFunctionDiscoveryProvider::Initialize
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Initializes the Function Discovery provider object.  This method is intended to be called immediately after the object is created.
 
-
 ## -parameters
-
-
-
 
 ### -param pIFunctionDiscoveryProviderFactory [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a> interface. The provider should use this interface to create new Function Discovery objects.
 
-
 ### -param pIFunctionDiscoveryNotification [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface. The provider should use this interface to send <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">OnUpdate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onevent">OnEvent</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a> notifications to the Function Discovery notification queue. Queued notifications are sent to client programs by Function Discovery.
 
-
 ### -param lcidUserDefault [in]
 
-The locale identifier of the caller. The provider should use <i>lcidUserDefault</i> to return localized strings for the resource enumerated by the provider. 
-
+The locale identifier of the caller. The provider should use <i>lcidUserDefault</i> to return localized strings for the resource enumerated by the provider.
 
 ### -param pdwStgAccessCapabilities [out]
 
@@ -103,10 +96,7 @@ The following modes are supported:
 
 #### STGM_WRITE
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -138,27 +128,12 @@ One of the parameters contains an invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If your provider is going to create Function Discovery objects, queue notifications, or enumerate resources with localized strings, you must call <b>AddRef</b> on and cache  the initialized <i>pIFunctionDiscoveryProviderFactory</i>, <i>pIFunctionDiscoveryNotification</i>, and <i>lcidUserDefault</i> parameters for later use when you implement the <b>Initialize</b> method.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
- 
-
- 
 

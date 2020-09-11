@@ -8,10 +8,6 @@ tech.root: hyperv
 ms.assetid: D8945F17-8982-4694-BDD9-DD67963626D1
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
-f1_keywords:
-- vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
-dev_langs:
-- c++
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vmgenerationcounter.h
-api_name:
-- IOCTL_VMGENCOUNTER_READ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_VMGENCOUNTER_READ
+ - vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vmgenerationcounter.h
+api_name:
+ - IOCTL_VMGENCOUNTER_READ
 ---
 
 # IOCTL_VMGENCOUNTER_READ IOCTL
@@ -49,54 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IOCTL_VMGENCOUNTER_READ</b> 
-   control code retrieves a virtual machine generation identifier. 
-
+   control code retrieves a virtual machine generation identifier.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to <b>NULL</b>.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
-
 
 ### -output-buffer
 
   A pointer to a buffer that receives a 
 <a href="/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a> data structure.
 
-
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -108,10 +90,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -261,20 +240,11 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 
 For info about the virtual machine generation identifier, see <a href="https://docs.microsoft.com/windows/desktop/HyperV_v2/virtual-machine-generation-identifier">Virtual machine generation identifier</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
 <a href="/windows/win32/api/vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter">VM_GENCOUNTER</a>
- 
-
- 
 

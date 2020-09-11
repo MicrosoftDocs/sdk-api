@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 8f894963-7075-46f4-8809-82d1aa7e13e7
 ms.date: 12/05/2018
 ms.keywords: 8f894963-7075-46f4-8809-82d1aa7e13e7, GetFormat, GetFormat method [Tablet PC], GetFormat method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetFormat method, IInkLineInfo.GetFormat, IInkLineInfo::GetFormat, msinkaut/IInkLineInfo::GetFormat, tablet.iinklineinfo_getformat
-f1_keywords:
-- msinkaut/IInkLineInfo.GetFormat
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkLineInfo.GetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkLineInfo::GetFormat
+ - msinkaut/IInkLineInfo::GetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkLineInfo.GetFormat
 ---
 
 # IInkLineInfo::GetFormat
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns the display properties currently set on the text ink object (tInk).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pim [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure that stores the display properties of the text ink object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,15 +91,8 @@ The <i>pim</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
 
@@ -124,7 +107,4 @@ The <i>pim</i> parameter is <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
- 
-
- 
 

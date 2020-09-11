@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: e06e109a-3f9d-4b08-bde9-888cb795287c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSTG interface, IEnumSTATPROPSTG interface [Structured Storage],Clone method, IEnumSTATPROPSTG.Clone, IEnumSTATPROPSTG::Clone, propidlbase/IEnumSTATPROPSTG::Clone, stg.ienumstatpropstg_clone
-f1_keywords:
-- propidlbase/IEnumSTATPROPSTG.Clone
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IEnumSTATPROPSTG.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATPROPSTG::Clone
+ - propidlbase/IEnumSTATPROPSTG::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IEnumSTATPROPSTG.Clone
 ---
 
 # IEnumSTATPROPSTG::Clone
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Clone</b> method creates an enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point later. The new enumerator supports the same <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropstg">IEnumSTATPROPSTG</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param ppenum [out]
 
@@ -64,10 +60,7 @@ The <b>Clone</b> method creates an enumerator that contains the same enumeration
 
 If the method is unsuccessful, the value of the <i>ppenum</i> parameter is undefined.
 
-
 ## -returns
-
-
 
 This method supports the following return values.
 
@@ -110,7 +103,4 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
 

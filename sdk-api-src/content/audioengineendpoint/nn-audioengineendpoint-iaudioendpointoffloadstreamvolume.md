@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 73FD2289-8414-4A63-A518-634D6F2DF48D
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], IAudioEndpointOffloadStreamVolume interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamVolume, coreaudio.iaudioendpointoffloadstreamvolume
-f1_keywords:
-- audioengineendpoint/IAudioEndpointOffloadStreamVolume
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioengineendpoint.h
-api_name:
-- IAudioEndpointOffloadStreamVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointOffloadStreamVolume
+ - audioengineendpoint/IAudioEndpointOffloadStreamVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioengineendpoint.h
+api_name:
+ - IAudioEndpointOffloadStreamVolume
 ---
 
 # IAudioEndpointOffloadStreamVolume interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioEndpointOffloadStreamVolume</b> interface allows the client application to manipulate the volume level of the offloaded audio stream.
-
 
 ## -inheritance
 
@@ -95,16 +94,9 @@ Sets the volume levels for the various audio channels in the offloaded stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
- 
-
- 
 

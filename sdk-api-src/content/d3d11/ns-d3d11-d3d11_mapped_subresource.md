@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe
 ms.date: 12/05/2018
 ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
-f1_keywords:
-- d3d11/D3D11_MAPPED_SUBRESOURCE
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_MAPPED_SUBRESOURCE
 targetos: Windows
 req.typenames: D3D11_MAPPED_SUBRESOURCE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_MAPPED_SUBRESOURCE
+ - d3d11/D3D11_MAPPED_SUBRESOURCE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_MAPPED_SUBRESOURCE
 ---
 
 # D3D11_MAPPED_SUBRESOURCE structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to subresource data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pData
 
@@ -75,17 +71,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The row pitch, or width, or physical size (in bytes) of the data.
 
-
 ### -field DepthPitch
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The depth pitch, or width, or physical size (in bytes)of the data.
 
-
 ## -remarks
-
-
 
 This structure is used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">ID3D11DeviceContext::Map</a>.
 
@@ -105,15 +97,7 @@ When <b>RowPitch</b> and <b>DepthPitch</b> are not appropriate for the resource 
 <div class="alert"><b>Note</b>  The runtime might assign values to <b>RowPitch</b> and <b>DepthPitch</b> that are larger than anticipated because there might be padding between rows and depth.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
 

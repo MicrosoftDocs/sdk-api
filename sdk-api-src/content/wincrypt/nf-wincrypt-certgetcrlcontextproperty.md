@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 16c2cc06-28fd-42d9-a377-0df2eaeeae56
 ms.date: 12/05/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID, CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID, CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CERT_SIGN_HASH_CNG_ALG_PROP_ID, CertGetCRLContextProperty, CertGetCRLContextProperty function [Security], _crypto2_certgetcrlcontextproperty, security.certgetcrlcontextproperty, wincrypt/CertGetCRLContextProperty
-f1_keywords:
-- wincrypt/CertGetCRLContextProperty
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetCRLContextProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetCRLContextProperty
+ - wincrypt/CertGetCRLContextProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetCRLContextProperty
 ---
 
 # CertGetCRLContextProperty function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertGetCRLContextProperty</b> function gets an extended property for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context.
 
-
 ## -parameters
-
-
-
 
 ### -param pCrlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
-
 
 ### -param dwPropId [in]
 
@@ -418,7 +413,6 @@ For many property identifiers, <i>pvData</i> points to an array of bytes and not
 For more information about each property identifier, see the documentation on the <i>dwPropId</i> parameter in 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
 
-
 ### -param pvData [out]
 
 A pointer to a buffer to receive the data as determined by <i>dwPropId</i>. Structures pointed to by members of a structure returned are also returned following the base structure. Therefore, the size contained in <i>pcbData</i> often exceed the size of the base structure. 
@@ -428,7 +422,6 @@ A pointer to a buffer to receive the data as determined by <i>dwPropId</i>. Stru
 
 This parameter can be <b>NULL</b> to set the size of the information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbData [in, out]
 
@@ -441,8 +434,6 @@ A pointer to a <b>DWORD</b> value specifying the size, in bytes, of the buffer p
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -480,15 +471,8 @@ If the buffer specified by the <i>pvData</i> parameter is not large enough to ho
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlcontextproperties">CertEnumCRLContextProperties</a>
 
@@ -503,7 +487,4 @@ If the buffer specified by the <i>pvData</i> parameter is not large enough to ho
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
- 
-
- 
 

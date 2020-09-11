@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 4e419b50-b9c2-48e4-a484-f0fcf5c9cb7f
 ms.date: 12/05/2018
 ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], IDvbLinkageDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLinkageDescriptor, mstv.idvblinkagedescriptor
-f1_keywords:
-- dvbsiparser/IDvbLinkageDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbLinkageDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbLinkageDescriptor
+ - dvbsiparser/IDvbLinkageDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbLinkageDescriptor
 ---
 
 # IDvbLinkageDescriptor interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods that get data from a Digital Video Broadcast (DVB) linkage descriptor. The linkage descriptor appears as part of the DVB service information in the network information table (NIT), bouquet association table (BAT), service description table (SDT), event information table (EIT), or service information table (SIT). 
 
 The linkage descriptor identifies a service that can be presented if the consumer requests additional
 information related to a service. The table that contains the linkage descriptor  indicates the entity for which additional information is available. For example, a linkage descriptor in the
 NIT points to a service that provides additional information on the network, while a linkage descriptor in the BAT links to a service that provides information  about the bouquet.
-
 
 ## -inheritance
 
@@ -144,5 +143,5 @@ Gets the identifier of the  transport stream that contains the information servi
 
 </td>
 </tr>
-</table> 
+</table>
 

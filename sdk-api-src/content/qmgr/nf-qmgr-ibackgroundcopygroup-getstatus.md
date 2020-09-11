@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 9ac76e50-a2cf-4dfb-af7e-803ee483f0f9
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetStatus method, IBackgroundCopyGroup.GetStatus, IBackgroundCopyGroup::GetStatus, QM_STATUS_GROUP_ERROR, QM_STATUS_GROUP_FOREGROUND, QM_STATUS_GROUP_INCOMPLETE, QM_STATUS_GROUP_SUSPENDED, bits.ibackgroundcopygroup_getstatus, qmgr/IBackgroundCopyGroup::GetStatus
-f1_keywords:
-- qmgr/IBackgroundCopyGroup.GetStatus
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyGroup.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyGroup::GetStatus
+ - qmgr/IBackgroundCopyGroup::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyGroup.GetStatus
 ---
 
 # IBackgroundCopyGroup::GetStatus
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>GetStatus</b> method to retrieve the state of the group.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwStatus [out]
 
@@ -110,17 +106,12 @@ An error occurred while processing the group.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwJobIndex
 
 Current job in progress. The index is always 0 (groups can only contain one job).
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -141,18 +132,8 @@ Successfully retrieved the state of the group.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
- 
-
- 
 

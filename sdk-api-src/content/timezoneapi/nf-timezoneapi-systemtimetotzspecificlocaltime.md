@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: f3a87ec2-67a0-418f-af6e-6c0b5547cffb
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToTzSpecificLocalTime, SystemTimeToTzSpecificLocalTime function, _win32_systemtimetotzspecificlocaltime, base.systemtimetotzspecificlocaltime, timezoneapi/SystemTimeToTzSpecificLocalTime
-f1_keywords:
-- timezoneapi/SystemTimeToTzSpecificLocalTime
-dev_langs:
-- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-TimeZone-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SystemTimeToTzSpecificLocalTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SystemTimeToTzSpecificLocalTime
+ - timezoneapi/SystemTimeToTzSpecificLocalTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-TimeZone-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SystemTimeToTzSpecificLocalTime
 ---
 
 # SystemTimeToTzSpecificLocalTime function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a time in Coordinated Universal Time (UTC) to a specified time zone's corresponding local time.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTimeZoneInformation [in, optional]
 
@@ -73,22 +69,17 @@ A pointer to a
 
 If <i>lpTimeZone</i> is <b>NULL</b>, the function uses the currently active time zone.
 
-
 ### -param lpUniversalTime [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that specifies the UTC time to be converted. The function converts this universal time to the specified time zone's corresponding local time.
-
 
 ### -param lpLocalTime [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that receives the local time.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero, and the function sets the members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure pointed to by <i>lpLocalTime</i> to the appropriate local time values.
@@ -96,12 +87,7 @@ If the function succeeds, the return value is nonzero, and the function sets the
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SystemTimeToTzSpecificLocalTime</b> function takes into account whether daylight saving time (DST) is in effect for the local time to which the system time is to be converted.
 
@@ -118,12 +104,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
 
@@ -150,7 +131,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-tzspecificlocaltimetosystemtime">TzSpecificLocalTimeToSystemTime</a>
- 
-
- 
 

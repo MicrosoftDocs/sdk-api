@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 269c133c-6950-40e0-8de9-e38bfa06995e
 ms.date: 12/05/2018
 ms.keywords: 269c133c-6950-40e0-8de9-e38bfa06995e, ChildRealTimeStylusPlugin property [Tablet PC], ChildRealTimeStylusPlugin property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ChildRealTimeStylusPlugin property, IRealTimeStylus.ChildRealTimeStylusPlugin, IRealTimeStylus.get_ChildRealTimeStylusPlugin, IRealTimeStylus.put_ChildRealTimeStylusPlugin, IRealTimeStylus::ChildRealTimeStylusPlugin, IRealTimeStylus::get_ChildRealTimeStylusPlugin, IRealTimeStylus::put_ChildRealTimeStylusPlugin, get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::put_ChildRealTimeStylusPlugin, tablet.irealtimestylus_childrealtimestylusplugin
-f1_keywords:
-- rtscom/IRealTimeStylus.ChildRealTimeStylusPlugin
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.ChildRealTimeStylusPlugin
-- IRealTimeStylus.get_ChildRealTimeStylusPlugin
-- IRealTimeStylus.put_ChildRealTimeStylusPlugin
-- IRealTimeStylus.get_ChildRealTimeStylusPlugin
-- IRealTimeStylus.put_ChildRealTimeStylusPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::get_ChildRealTimeStylusPlugin
+ - rtscom/IRealTimeStylus::get_ChildRealTimeStylusPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.ChildRealTimeStylusPlugin
+ - IRealTimeStylus.get_ChildRealTimeStylusPlugin
+ - IRealTimeStylus.put_ChildRealTimeStylusPlugin
+ - IRealTimeStylus.get_ChildRealTimeStylusPlugin
+ - IRealTimeStylus.put_ChildRealTimeStylusPlugin
 ---
 
 # IRealTimeStylus::get_ChildRealTimeStylusPlugin
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object as an asynchronous plug-in of the current <b>RealTimeStylus</b> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If there is no child RTS, getting the property returns S_OK with the <i>ppiRTS</i> parameter set to <b>NULL</b>. Setting the child RTS property to <b>NULL</b> breaks the cascade.
 
@@ -81,13 +76,7 @@ If a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-c
 
 With the exception of <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getstylusasyncplugincount">IRealTimeStylus::GetStylusAsyncPluginCount Method</a>, the asynchronous plug-in methods, such as <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylusasyncplugin">IRealTimeStylus::AddStylusAsyncPlugin Method</a>, return E_INVALIDOPERATION when called on a parent <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -110,7 +99,4 @@ With the exception of <a href="https://docs.microsoft.com/windows/desktop/api/rt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
- 
-
- 
 

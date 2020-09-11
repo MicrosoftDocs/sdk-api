@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreState method, IVssBackupComponents.SetRestoreState, IVssBackupComponents::SetRestoreState, SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetRestoreState
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetRestoreState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetRestoreState
+ - vsbackup/IVssBackupComponents::SetRestoreState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetRestoreState
 ---
 
 # IVssBackupComponents::SetRestoreState
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetRestoreState</b> method defines an overall configuration for a restore operation.
 
-
 ## -parameters
-
-
-
 
 ### -param restoreType [in]
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a> enumeration value indicating the type of restore to be performed.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -148,14 +141,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Typically, most restore operations will not need to override the default restore type (VSS_RTYPE_UNDEFINED). Writers should treat this restore type as if it were VSS_RTYPE_BY_COPY.
 
@@ -166,13 +153,7 @@ If applications need to call
 If 
 <b>SetRestoreState</b> is not called prior to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>, the default restore state () is used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -187,7 +168,4 @@ If
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a>
- 
-
- 
 

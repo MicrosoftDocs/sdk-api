@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 78457461-11ef-44ec-aa60-1adf4a48db8c
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassRegistryProperty, SetupDiSetClassRegistryProperty function [Device and Driver Installation], SetupDiSetClassRegistryPropertyA, SetupDiSetClassRegistryPropertyW, devinst.setupdisetclassregistryproperty, di-rtns_77b5fc07-42ec-4515-b20c-87cf1c8e4b86.xml, setupapi/SetupDiSetClassRegistryProperty
-f1_keywords:
-- setupapi/SetupDiSetClassRegistryProperty
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiSetClassRegistryProperty - SetupDiSetClassRegistryPropertyA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiSetClassRegistryPropertyA
+ - setupapi/SetupDiSetClassRegistryPropertyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiSetClassRegistryProperty - SetupDiSetClassRegistryPropertyA
 ---
 
 # SetupDiSetClassRegistryPropertyA function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiSetClassRegistryProperty</b> function sets a specified device class property in the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in]
 
 A pointer to the GUID that identifies the device class for which a property is to be set.
-
 
 ### -param Property [in]
 
@@ -110,41 +105,29 @@ The caller supplies the device's security descriptor as a text string. For infor
 
 #### SPCRP_UPPERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
-
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>.
 
 ### -param PropertyBuffer [in, optional]
 
 A pointer to a buffer that supplies the specified property. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param PropertyBufferSize [in]
 
 The size, in bytes, of the <i>PropertyBuffer </i>buffer.
-
 
 ### -param MachineName [in, optional]
 
 A pointer to a NULL-terminated string that contains the name of a remote system on which to set the specified device class property. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the property is set on the name of the local system.
 
-
 ### -param Reserved
 
 Reserved, must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The caller of this function must be a member of the Administrators group.
 
@@ -159,9 +142,6 @@ To determine the data type for a device class property, call <a href="https://do
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
 
 
@@ -171,7 +151,4 @@ To determine the data type for a device class property, call <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
- 
-
- 
 

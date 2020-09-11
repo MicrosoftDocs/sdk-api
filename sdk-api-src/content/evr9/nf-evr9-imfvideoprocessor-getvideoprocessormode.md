@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: df45c379-f525-4018-b2c2-88a52b13dff5
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorMode, GetVideoProcessorMode method [Media Foundation], GetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetVideoProcessorMode method, IMFVideoProcessor.GetVideoProcessorMode, IMFVideoProcessor::GetVideoProcessorMode, df45c379-f525-4018-b2c2-88a52b13dff5, evr9/IMFVideoProcessor::GetVideoProcessorMode, mf.imfvideoprocessor_getvideoprocessormode
-f1_keywords:
-- evr9/IMFVideoProcessor.GetVideoProcessorMode
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoProcessor.GetVideoProcessorMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoProcessor::GetVideoProcessorMode
+ - evr9/IMFVideoProcessor::GetVideoProcessorMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoProcessor.GetVideoProcessorMode
 ---
 
 # IMFVideoProcessor::GetVideoProcessorMode
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the application's preferred video processor mode. To set the preferred mode, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setvideoprocessormode">IMFVideoProcessor::SetVideoProcessorMode</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpMode [out]
 
 Receives a GUID that identifies the preferred video processor mode.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,22 +102,12 @@ The application has not specified a preferred video processor mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: dbb830bf-db46-4981-8a96-ae33b1de3883
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator2, IATSCLocator2 interface [Microsoft TV Technologies], IATSCLocator2 interface [Microsoft TV Technologies],described, IATSCLocator2Interface, mstv.iatsclocator2, tuner/IATSCLocator2
-f1_keywords:
-- tuner/IATSCLocator2
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IATSCLocator2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSCLocator2
+ - tuner/IATSCLocator2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IATSCLocator2
 ---
 
 # IATSCLocator2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IATASCLocator2</b> interface enables the network provider to determine the physical channel, transport stream ID, and program number of an ATSC transmission.
-
-
-
 
 ## -inheritance
 
@@ -89,29 +85,17 @@ Specifies the program number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IATSCLocator2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

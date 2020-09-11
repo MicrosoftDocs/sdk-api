@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
 ms.date: 12/05/2018
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
-f1_keywords:
-- tapi/lineOpen
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineOpen
-- lineOpenA
-- lineOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineOpenA
+ - tapi/lineOpenA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineOpen
+ - lineOpenA
+ - lineOpenW
 ---
 
 # lineOpenA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineOpen</b> function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
 
-
 ## -parameters
-
-
-
 
 ### -param hLineApp
 
 Handle to the application's registration with TAPI.
-
 
 ### -param dwDeviceID
 
@@ -87,30 +82,24 @@ This value is used to open a line device in the system that supports the propert
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lphLine
 
 Pointer to an HLINE handle that is then loaded with the handle representing the opened line device. Use this handle to identify the device when invoking other functions on the open line device.
-
 
 ### -param dwAPIVersion
 
 API version number under which the application and Telephony API have agreed to operate. This number is obtained with 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>.
 
-
 ### -param dwExtVersion
 
 Extension version number under which the application and the service provider agree to operate. This number is zero if the application does not use any extensions. This number is obtained with 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>.
 
-
 ### -param dwCallbackInstance
 
 User-instance data passed back to the application with each message associated with this line or with addresses or calls on this line. This parameter is not interpreted by the Telephony API.
-
 
 ### -param dwPrivileges
 
@@ -146,33 +135,23 @@ To stop handling requests on the line, the application simply calls
 
 Other flag combinations return the LINEERR_INVALPRIVSELECT error.
 
-
 ### -param dwMediaModes
 
 The media type or modes of interest to the application. This parameter is used to register the application as a potential target for incoming call and call handoff for the specified media type. This parameter is meaningful only if the bit LINECALLPRIVILEGE_OWNER in <i>dwPrivileges</i> is set (and ignored otherwise). This parameter uses one or more of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
-
 
 ### -param lpCallParams
 
 Pointer to a structure of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>. This pointer is only used if LINEMAPPER or LINEOPENOPTION_PROXY is used; otherwise <i>lpCallParams</i> is ignored. It describes the call parameter that the line device should be able to provide.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_ALLOCATED, LINEERR_LINEMAPPERFAILED, LINEERR_BADDEVICEID, LINEERR_NODRIVER, LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INCOMPATIBLEEXTVERSION, LINEERR_OPERATIONFAILED, LINEERR_INVALAPPHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALMEDIAMODE, LINEERR_STRUCTURETOOSMALL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED, LINEERR_INVALPRIVSELECT, LINEERR_REINIT, LINEERR_NODEVICE, LINEERR_OPERATIONUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 If LINEERR_ALLOCATED is returned, the line cannot be opened due to a "persistent" condition, such as that of a serial port being exclusively opened by another process. If LINEERR_RESOURCEUNAVAIL is returned, the line cannot be opened due to a dynamic resource overcommitment such as in DSP processor cycles or memory. This overcommitment can be transitory, caused by monitoring of media type or tones, and changes in these activities by other applications can make it possible to reopen the line within a short time period. If LINEERR_REINIT is returned and TAPI reinitialization has been requested (for example, as a result of adding or removing a telephony service provider), then 
 <b>lineOpen</b> requests are rejected with this error until the last application shuts down its usage of the API (using 
@@ -221,9 +200,6 @@ LINEMAPPER allows an application to select a line indirectly—by means of the s
 > The tapi.h header defines lineOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -310,7 +286,4 @@ LINEMAPPER allows an application to select a line indirectly—by means of the s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
- 
-
- 
 

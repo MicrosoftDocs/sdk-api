@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
-f1_keywords:
-- tuner/ILocator.get_OuterFEC
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ILocator.get_OuterFEC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocator::get_OuterFEC
+ - tuner/ILocator::get_OuterFEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ILocator.get_OuterFEC
 ---
 
 # ILocator::get_OuterFEC
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_OuterFEC</b> method gets the type of outer FEC that is used.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param FEC [out]
 
 Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/fecmethod">FECMethod</a> that receives the type of outer FEC.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
@@ -93,7 +77,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>
- 
-
- 
 

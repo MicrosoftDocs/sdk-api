@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 30a0cecf-0ed1-4c03-bd5e-da07b1828c75
 ms.date: 12/05/2018
 ms.keywords: SetThreadUILanguage, SetThreadUILanguage function [Internationalization for Windows Applications], _win32_SetThreadUILanguage, intl.setthreaduilanguage, winnls/SetThreadUILanguage
-f1_keywords:
-- winnls/SetThreadUILanguage
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- SetThreadUILanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadUILanguage
+ - winnls/SetThreadUILanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - SetThreadUILanguage
 ---
 
 # SetThreadUILanguage function
@@ -55,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the user interface language for the current thread.
 
 <b>Windows Vista and later:</b> This function cannot clear the thread preferred UI languages list. Your MUI application should call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a> to clear the language list.
 
 <b>Windows XP:</b> This function is limited to allowing the operating system to identify and set a value that is safe to use on the Windows console.
 
-
 ## -parameters
 
-
-
-
 ### -param LangId [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language identifier</a> for the user interface language for the thread.
 
@@ -77,21 +72,13 @@ Sets the user interface language for the current thread.
 
 <b>Windows XP:</b> The application can only set this parameter to 0. This setting causes the function to select the language that best supports the console display. For more information, see the Remarks section.
 
-
 ## -returns
-
-
 
 Returns the input language identifier if successful. If the input identifier is nonzero, the function returns that value. If the language identifier is 0, the function always succeeds and returns the identifier of the language that best supports the Windows console. See the Remarks section.
 
 If the input language identifier is nonzero and the function fails, the return value differs from the input language identifier. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 When a thread is created, the thread user interface language setting is empty and the user interface for the thread is displayed in the user-selected language. This function enables the application to change the user interface language for the current running thread.
 
@@ -127,14 +114,7 @@ When a thread is created, the thread user interface language setting is empty an
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage">GetThreadUILanguage</a>
 
@@ -149,7 +129,4 @@ When a thread is created, the thread user interface language setting is empty an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a>
- 
-
- 
 

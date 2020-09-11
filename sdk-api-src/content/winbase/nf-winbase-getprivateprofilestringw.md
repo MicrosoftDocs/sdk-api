@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 684bae93-3cd8-49a4-8f16-9316df41d6f2
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileString, GetPrivateProfileString function, GetPrivateProfileStringA, GetPrivateProfileStringW, _win32_getprivateprofilestring, base.getprivateprofilestring, winbase/GetPrivateProfileString, winbase/GetPrivateProfileStringA, winbase/GetPrivateProfileStringW
-f1_keywords:
-- winbase/GetPrivateProfileString
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetPrivateProfileString
-- GetPrivateProfileStringA
-- GetPrivateProfileStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPrivateProfileStringW
+ - winbase/GetPrivateProfileStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetPrivateProfileString
+ - GetPrivateProfileStringA
+ - GetPrivateProfileStringW
 ---
 
 # GetPrivateProfileStringW function
@@ -55,25 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a string from the specified section in an initialization file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpAppName [in]
 
 The name of the section containing the key name. If this parameter is <b>NULL</b>, the 
 <b>GetPrivateProfileString</b> function copies all section names in the file to the supplied buffer.
 
-
 ### -param lpKeyName [in]
 
 The name of the key whose associated string is to be retrieved. If this parameter is <b>NULL</b>, all key names in the section specified by the <i>lpAppName</i> parameter are copied to the buffer specified by the <i>lpReturnedString</i> parameter.
-
 
 ### -param lpDefault [in]
 
@@ -85,29 +80,19 @@ If this parameter is <b>NULL</b>, the default is an empty string, "".
 
 Avoid specifying a default string with trailing blank characters. The function inserts a <b>null</b> character in the <i>lpReturnedString</i> buffer to strip any trailing blanks.
 
-
 ### -param lpReturnedString [out]
 
-A pointer to the buffer that receives the retrieved string. 
-
-
-
-					
-
+A pointer to the buffer that receives the retrieved string.
 
 ### -param nSize [in]
 
 The size of the buffer pointed to by the <i>lpReturnedString</i> parameter, in characters.
 
-
 ### -param lpFileName [in]
 
 The name of the initialization file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.
 
-
 ## -returns
-
-
 
 The return value is the number of characters copied to the buffer, not including the terminating <b>null</b> character.
 
@@ -117,12 +102,7 @@ If either <i>lpAppName</i> or <i>lpKeyName</i> is <b>NULL</b> and the supplied d
 
 In the event the initialization file specified by <i>lpFileName</i> is not found, or contains invalid values, this function will set <b>errorno</b> with a value of '0x2' (File Not Found). To retrieve extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>GetPrivateProfileString</b> function searches the specified initialization file for a key that matches the name specified by the <i>lpKeyName</i> parameter under the section heading specified by the <i>lpAppName</i> parameter. If it finds the key, the function copies the corresponding string to the buffer. If the key does not exist, the function copies the default character string specified by the <i>lpDefault</i> parameter. A section in the initialization file must have the following form:
@@ -181,15 +161,9 @@ When looking at values in the registry that specify other registry locations, th
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilestringa">GetProfileString</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
- 
-
- 
 

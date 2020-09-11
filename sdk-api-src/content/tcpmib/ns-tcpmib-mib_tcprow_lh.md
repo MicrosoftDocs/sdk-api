@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 36364854-caa8-4652-be8e-f741b36d9fd7
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPROW, *PMIB_TCPROW_LH, MIB_TCPROW, MIB_TCPROW structure [MIB], MIB_TCPROW_LH, MIB_TCPROW_W2K, MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW, PMIB_TCPROW structure pointer [MIB], _mpr_mib_tcprow, iprtrmib/MIB_TCPROW, iprtrmib/PMIB_TCPROW, mib.mib_tcprow, rras.mib_tcprow, tcpmib/MIB_TCPROW, tcpmib/PMIB_TCPROW'
-f1_keywords:
-- tcpmib/MIB_TCPROW
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-- Iprtrmib.h
-api_name:
-- MIB_TCPROW
 targetos: Windows
 req.typenames: MIB_TCPROW_LH, *PMIB_TCPROW_LH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCPROW_LH
+ - tcpmib/_MIB_TCPROW_LH
+ - PMIB_TCPROW_LH
+ - tcpmib/PMIB_TCPROW_LH
+ - MIB_TCPROW_LH
+ - tcpmib/MIB_TCPROW_LH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_TCPROW
 ---
 
 # MIB_TCPROW_LH structure
@@ -50,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_TCPROW</b> structure contains information that descibes an IPv4 TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwState
 
@@ -223,13 +223,8 @@ The TCP connection is in the delete TCB state that represents the deletion of th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field State
-
- 
-
 
 ### -field dwLocalAddr
 
@@ -237,22 +232,19 @@ Type: <b>DWORD</b>
 
 The local IPv4 address for the TCP connection on the local computer. A value of zero indicates the listener  can accept a connection on any interface.
 
-
 ### -field dwLocalPort
 
 Type: <b>DWORD</b>
 
 The local port number in network byte order for the TCP connection on the local computer.
 
- The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data. 
-
+ The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data.
 
 ### -field dwRemoteAddr
 
 Type: <b>DWORD</b>
 
 The IPv4 address for the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this value has no meaning.
-
 
 ### -field dwRemotePort
 
@@ -262,10 +254,7 @@ The remote port number in network byte order for the TCP connection on the remot
 
 The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a> structure. 
 
@@ -453,14 +442,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
@@ -531,7 +513,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
 

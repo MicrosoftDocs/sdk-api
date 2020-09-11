@@ -1,17 +1,13 @@
 ---
 UID: NF:winstring.WindowsInspectString
 title: WindowsInspectString function (winstring.h)
-description: Provides a way to for debuggers to display the value of an Windows Runtime�HSTRING in another address space, remotely, or from a dump.
+description: Provides a way to for debuggers to display the value of an Windows Runtime�HSTRING in another address space, remotely, or from a dump.
 helpviewer_keywords: ["WindowsInspectString","WindowsInspectString function [Windows Runtime]","winrt.windowsinspectstring","winstring/WindowsInspectString"]
 old-location: winrt\windowsinspectstring.htm
 tech.root: WinRT
 ms.assetid: DB1A35D3-D7DF-439F-B4C2-9510FC1977E9
 ms.date: 12/05/2018
 ms.keywords: WindowsInspectString, WindowsInspectString function [Windows Runtime], winrt.windowsinspectstring, winstring/WindowsInspectString
-f1_keywords:
-- winstring/WindowsInspectString
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsInspectString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsInspectString
+ - winstring/WindowsInspectString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsInspectString
 ---
 
 ## -description
 
-Provides a way to for debuggers to display the value of an Windows Runtime [**HSTRING**](/windows/win32/winrt/hstring) in another address space, remotely, or from a dump. 
+Provides a way to for debuggers to display the value of an Windows Runtime [**HSTRING**](/windows/win32/winrt/hstring) in another address space, remotely, or from a dump.
 
 ## -parameters
 
@@ -120,3 +121,4 @@ This function can return one of these values.
 <a href="/windows/desktop/api/winstring/nc-winstring-pinspect_hstring_callback">PINSPECT_HSTRING_CALLBACK</a>
 
 <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a>
+

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 0a5711fa-700a-44ae-beed-aec421365b4c
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],RegisterControlChangeNotify method, IAudioEndpointVolume.RegisterControlChangeNotify, IAudioEndpointVolume::RegisterControlChangeNotify, IAudioEndpointVolumeRegisterControlChangeNotify, RegisterControlChangeNotify, RegisterControlChangeNotify method [Core Audio], RegisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_registercontrolchangenotify, endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
-f1_keywords:
-- endpointvolume/IAudioEndpointVolume.RegisterControlChangeNotify
-dev_langs:
-- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Endpointvolume.h
-api_name:
-- IAudioEndpointVolume.RegisterControlChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointVolume::RegisterControlChangeNotify
+ - endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Endpointvolume.h
+api_name:
+ - IAudioEndpointVolume.RegisterControlChangeNotify
 ---
 
 # IAudioEndpointVolume::RegisterControlChangeNotify
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RegisterControlChangeNotify</b> method registers a client's notification callback interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pNotify [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback</a> interface that the client is registering for notification callbacks. If the <b>RegisterControlChangeNotify</b> method succeeds, it calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the client's <b>IAudioEndpointVolumeCallback</b> interface.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -89,14 +79,8 @@ Parameter <i>pNotify</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method registers an <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback</a> interface to be called by the system when the volume level or muting state of an endpoint changes. The caller implements the <b>IAudioEndpointVolumeCallback</b> interface.
 
@@ -108,13 +92,7 @@ In addition, the client should call <a href="https://docs.microsoft.com/windows/
 
 For a code example that calls <b>RegisterControlChangeNotify</b>, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-volume-controls">Endpoint Volume Controls</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
 
@@ -125,7 +103,4 @@ For a code example that calls <b>RegisterControlChangeNotify</b>, see <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback Interface</a>
- 
-
- 
 

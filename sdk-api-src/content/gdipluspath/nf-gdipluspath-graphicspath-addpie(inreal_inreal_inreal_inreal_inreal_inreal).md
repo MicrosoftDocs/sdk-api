@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpiemethods\addpie_62realx_realy_realwidth_realheight_reals.htm
 ms.date: 12/05/2018
 ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPie method, GraphicsPath.AddPie, GraphicsPath.AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddPie(REAL,REAL,REAL,REAL,REAL,REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn
-f1_keywords:
-- gdipluspath/GraphicsPath.AddPie
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPath.AddPie
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPath::AddPie
+ - gdipluspath/GraphicsPath::AddPie
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPath.AddPie
 ---
 
 # GraphicsPath::AddPie(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
@@ -50,60 +51,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPath::AddPie</b> method adds a pie to this path. An arc is a portion of an ellipse, and a pie is a portion of the area enclosed by an ellipse. A pie is bounded by an arc and two lines (edges) that go from the center of the ellipse to the endpoints of the arc.
 
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the x-coordinate of the upper-left corner of the rectangle that bounds the ellipse that bounds the pie. 
-
+Real number that specifies the x-coordinate of the upper-left corner of the rectangle that bounds the ellipse that bounds the pie.
 
 ### -param y [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the y-coordinate of the upper-left corner of the rectangle that bounds the ellipse that bounds the pie. 
-
+Real number that specifies the y-coordinate of the upper-left corner of the rectangle that bounds the ellipse that bounds the pie.
 
 ### -param width [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the width of the rectangle that bounds the ellipse that bounds the pie. 
-
+Real number that specifies the width of the rectangle that bounds the ellipse that bounds the pie.
 
 ### -param height [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the height of the rectangle that bounds the ellipse that bounds the pie. 
-
+Real number that specifies the height of the rectangle that bounds the ellipse that bounds the pie.
 
 ### -param startAngle [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the clockwise angle, in degrees, between the horizontal axis of the ellipse and the starting point of the arc that defines the pie. 
-
+Real number that specifies the clockwise angle, in degrees, between the horizontal axis of the ellipse and the starting point of the arc that defines the pie.
 
 ### -param sweepAngle [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the clockwise angle, in degrees, between the starting and ending points of the arc that defines the pie. 
-
+Real number that specifies the clockwise angle, in degrees, between the starting and ending points of the arc that defines the pie.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -111,13 +99,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-addarc(inconstrect__inreal_inreal)">AddArc Methods</a>
 
@@ -160,7 +142,4 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
- 
-
- 
 

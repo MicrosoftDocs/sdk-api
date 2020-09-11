@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
 ms.date: 12/05/2018
 ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Security], QueryCredentialsAttributesA, QueryCredentialsAttributesW, _ssp_querycredentialsattributes, security.querycredentialsattributes, sspi/QueryCredentialsAttributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW
-f1_keywords:
-- sspi/QueryCredentialsAttributes
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- QueryCredentialsAttributes
-- QueryCredentialsAttributesA
-- QueryCredentialsAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryCredentialsAttributesW
+ - sspi/QueryCredentialsAttributesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - QueryCredentialsAttributes
+ - QueryCredentialsAttributesA
+ - QueryCredentialsAttributesW
 ---
 
 # QueryCredentialsAttributesW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credential</a>, such as the name associated with the credential. The information is valid for any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> created with the specified credential.
 
-
 ## -parameters
-
-
-
 
 ### -param phCredential [in]
 
 A handle of the credentials to be queried.
-
 
 ### -param ulAttribute [in]
 
@@ -147,17 +142,12 @@ This attribute is supported only by Schannel.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
 A pointer to a buffer that receives the requested attribute. The type of structure returned depends on the value of <i>ulAttribute</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SEC_E_OK.
 
@@ -202,14 +192,8 @@ The memory that is available is not sufficient to complete the request.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>QueryCredentialsAttributes</b> function allows an application to determine several characteristics of a credential, including the name associated with the specified credentials.
 
@@ -237,9 +221,6 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 > The sspi.h header defines QueryCredentialsAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a>
 
@@ -270,7 +251,4 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
- 
-
- 
 

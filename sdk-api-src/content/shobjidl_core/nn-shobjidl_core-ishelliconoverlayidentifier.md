@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
-f1_keywords:
-- shobjidl_core/IShellIconOverlayIdentifier
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellIconOverlayIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellIconOverlayIdentifier
+ - shobjidl_core/IShellIconOverlayIdentifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellIconOverlayIdentifier
 ---
 
 # IShellIconOverlayIdentifier interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that handle all communication between icon overlay handlers and the Shell.
-
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ Specifies whether an icon overlay should be added to a Shell object's icon.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Icon overlays are small images placed at the lower-left corner of the icon that represents a Shell object in Windows Explorer or on the desktop. They are used to add some extra information to the object's normal icon. A commonly used icon overlay is the small arrow that indicates that a file or folder is actually a link. You can specify custom icon overlays for Shell objects by implementing and registering an icon overlay handler.
 
@@ -109,6 +105,4 @@ Icon overlay handlers are Component Object Model (COM) objects that are associat
 This interface must be implemented by all icon overlay handlers.
 
 This interface is not typically called by applications.
-
-
 

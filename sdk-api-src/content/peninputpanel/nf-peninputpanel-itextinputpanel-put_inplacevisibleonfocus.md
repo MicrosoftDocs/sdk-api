@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 487ffcee-9df6-48db-8c84-e7e073b8a643
 ms.date: 12/05/2018
 ms.keywords: 487ffcee-9df6-48db-8c84-e7e073b8a643, ITextInputPanel interface [Tablet PC],InPlaceVisibleOnFocus property, ITextInputPanel.InPlaceVisibleOnFocus, ITextInputPanel.get_InPlaceVisibleOnFocus, ITextInputPanel.put_InPlaceVisibleOnFocus, ITextInputPanel::InPlaceVisibleOnFocus, ITextInputPanel::get_InPlaceVisibleOnFocus, ITextInputPanel::put_InPlaceVisibleOnFocus, InPlaceVisibleOnFocus property [Tablet PC], InPlaceVisibleOnFocus property [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus, put_InPlaceVisibleOnFocus, tablet.itextinputpanel_inplacevisibleonfocus
-f1_keywords:
-- peninputpanel/ITextInputPanel.InPlaceVisibleOnFocus
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.InPlaceVisibleOnFocus
-- ITextInputPanel.get_InPlaceVisibleOnFocus
-- ITextInputPanel.put_InPlaceVisibleOnFocus
-- ITextInputPanel.get_InPlaceVisibleOnFocus
-- ITextInputPanel.put_InPlaceVisibleOnFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::put_InPlaceVisibleOnFocus
+ - peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.InPlaceVisibleOnFocus
+ - ITextInputPanel.get_InPlaceVisibleOnFocus
+ - ITextInputPanel.put_InPlaceVisibleOnFocus
+ - ITextInputPanel.get_InPlaceVisibleOnFocus
+ - ITextInputPanel.put_InPlaceVisibleOnFocus
 ---
 
 # ITextInputPanel::put_InPlaceVisibleOnFocus
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -65,13 +65,9 @@ Gets or sets a value that indicates whether the Tablet PC Input Panel is display
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> is set to <b>TRUE</b> for a control, then when the control gains focus, the Tablet PC Input Panel automatically shows in the default <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a> provided it is a legal operation.
 
@@ -130,17 +126,7 @@ if (SUCCEEDED(CoInitialize(NULL)))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_resetex.htm
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],ResetEx method, IDirect3DDevice9Ex.ResetEx, IDirect3DDevice9Ex::ResetEx, ResetEx, ResetEx method [Direct3D 9], ResetEx method [Direct3D 9],IDirect3DDevice9Ex interface, a1ff1bc9-55df-22e8-e64e-5ba6de2759f4, d3d9/IDirect3DDevice9Ex::ResetEx, direct3d9.idirect3ddevice9ex_resetex
-f1_keywords:
-- d3d9/IDirect3DDevice9Ex.ResetEx
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9Ex.ResetEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9Ex::ResetEx
+ - d3d9/IDirect3DDevice9Ex::ResetEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9Ex.ResetEx
 ---
 
 # IDirect3DDevice9Ex::ResetEx
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the type, size, and format of the swap chain with all other surfaces persistent.
 
-
 ## -parameters
-
-
-
 
 ### -param pPresentationParameters [in, out]
 
@@ -81,12 +77,8 @@ When this method returns:
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a> structure that describes the properties of the desired display mode. This value must be provided for fullscreen applications, but can be <b>NULL</b> for windowed applications.
-		
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -96,12 +88,7 @@ The method can return: D3D_OK, D3DERR_DEVICELOST or D3DERR_DEVICEHUNG (see <a hr
 
 If this method returns D3DERR_DEVICELOST or D3DERR_DEVICEHUNG then the application can only call <b>IDirect3DDevice9Ex::ResetEx</b>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">IDirect3DDevice9Ex::CheckDeviceState</a> or release the interface pointer; any other API call will cause an exception.
 
-
-
-
 ## -remarks
-
-
 
 If a call to <b>IDirect3DDevice9Ex::ResetEx</b> fails, the device will be placed in the lost state (as indicated by a return value of D3DERR_DEVICELOST from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">IDirect3DDevice9Ex::CheckDeviceState</a>). Refer to <b>IDirect3DDevice9Ex::CheckDeviceState</b> and <a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9lh">Lost Device Behavior Changes</a> for further information concerning the use of <b>IDirect3DDevice9Ex::ResetEx</b> in the context of lost devices.
 
@@ -121,16 +108,7 @@ When trying to reset more than one display adapter in a group, set pPresentation
 
 If a multihead device was created with <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcreate">D3DCREATE_ADAPTERGROUP_DEVICE</a>, <b>IDirect3DDevice9Ex::ResetEx</b> requires an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpresent-parameters">D3DPRESENT_PARAMETERS</a> structures wherein each structure must specify a full-screen display. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
- 
-
- 
 

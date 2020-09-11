@@ -7,10 +7,6 @@ helpviewer_keywords: ["Bitmap::Clone"]
 ms.assetid: 68c03673-ad3c-43b7-a21d-23192de7ad19
 ms.date: 05/20/2019
 ms.keywords: Bitmap::Clone
-f1_keywords:
-- gdiplusheaders/Bitmap::Clone
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Bitmap::Clone
+ - gdiplusheaders/Bitmap::Clone
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Bitmap::Clone
+ - Bitmap::Clone
 ---
 
 # Bitmap::Clone(Rect&,PixelFormat)
+
 
 ## -description
 
@@ -104,3 +106,4 @@ VOID Example_Clone(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
+

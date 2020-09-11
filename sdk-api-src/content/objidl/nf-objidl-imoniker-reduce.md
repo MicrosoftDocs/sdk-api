@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],Reduce method, IMoniker.Reduce, IMoniker::Reduce, Reduce, Reduce method [COM], Reduce method [COM],IMoniker interface, _com_imoniker_reduce, com.imoniker_reduce, objidl/IMoniker::Reduce
-f1_keywords:
-- objidl/IMoniker.Reduce
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.Reduce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::Reduce
+ - objidl/IMoniker::Reduce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.Reduce
 ---
 
 # IMoniker::Reduce
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reduces a moniker to its simplest form.
-
 
 ## -parameters
 
-
-
-
 ### -param pbc [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
 
 ### -param dwReduceHowFar [in]
 
 Specifies how far this moniker should be reduced. This parameter must be one of the values from the <a href="/windows/win32/api/objidl/ne-objidl-mkrreduce">MKRREDUCE</a> enumeration.
-
 
 ### -param ppmkToLeft [in, out]
 
@@ -74,15 +68,11 @@ On entry, a pointer to an <a href="https://docs.microsoft.com/windows/desktop/ap
 
 On return, *<i>ppmkToLeft</i> is usually set to <b>NULL</b>, indicating no change in the original moniker to the left. In rare situations, *<i>ppmkToLeft</i> indicates a moniker, indicating that the previous moniker to the left should be disregarded and the moniker returned through *<i>ppmkToLeft</i> is the replacement. In such a situation, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the old moniker to the left of this moniker and must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new returned moniker; the caller must release it later. If an error occurs, the implementation can either leave the interface pointer unchanged or set it to <b>NULL</b>.
 
-
 ### -param ppmkReduced [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the reduced form of this moniker, which can be <b>NULL</b> if an error occurs or if this moniker is reduced to nothing. If this moniker cannot be reduced, *<i>ppmkReduced</i> is simply set to this moniker and the return value is MK_S_REDUCED_TO_SELF. If *<i>ppmkReduced</i> is non-<b>NULL</b>, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. (This is true even if *<i>ppmkReduced</i> is set to this moniker.)
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -125,14 +115,8 @@ The operation could not be completed within the time limit specified by the bind
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is intended for the following uses:
 
@@ -201,18 +185,8 @@ If the current moniker can be reduced, your implementation must not reduce the m
 <td>This method returns MK_S_REDUCED_TO_SELF and passes back the same moniker.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

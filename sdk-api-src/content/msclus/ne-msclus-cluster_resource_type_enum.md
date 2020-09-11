@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: f8356cb3-303c-4294-a634-d91d5141004a
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM, CLUSTER_RESOURCE_TYPE_ENUM enumeration [Failover Cluster], CLUSTER_RESOURCE_TYPE_ENUM_ALL, CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, _CLUSTER_RESOURCE_TYPE_ENUM, _CLUSTER_RESOURCE_TYPE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_TYPE_ENUM, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_ALL, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_NODES, clusapi/CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, clusapi/_CLUSTER_RESOURCE_TYPE_ENUM, msclus/CLUSTER_RESOURCE_TYPE_ENUM, msclus/CLUSTER_RESOURCE_TYPE_ENUM_ALL, msclus/CLUSTER_RESOURCE_TYPE_ENUM_NODES, msclus/CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, msclus/_CLUSTER_RESOURCE_TYPE_ENUM, mscs.cluster_resource_type_enum
-f1_keywords:
-- msclus/CLUSTER_RESOURCE_TYPE_ENUM
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_RESOURCE_TYPE_ENUM
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_TYPE_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_RESOURCE_TYPE_ENUM
+ - msclus/CLUSTER_RESOURCE_TYPE_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_RESOURCE_TYPE_ENUM
 ---
 
 # CLUSTER_RESOURCE_TYPE_ENUM enumeration
@@ -50,22 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the type of cluster object being enumerated by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a> 
     functions.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CLUSTER_RESOURCE_TYPE_ENUM_NODES
 
 The object is a node that can be a possible owner of the resource type.
-
 
 ### -field CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES
 
@@ -79,7 +74,6 @@ The object is a resource that is an instance of the resource type.
        section of the <b>ResUtilResourceTypesEqual</b> 
        function.
 
-
 ### -field CLUSTER_RESOURCE_TYPE_ENUM_ALL
 
 All cluster objects identified by the 
@@ -87,11 +81,7 @@ All cluster objects identified by the
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a> 
        functions.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a>
 
@@ -102,7 +92,4 @@ All cluster objects identified by the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
 

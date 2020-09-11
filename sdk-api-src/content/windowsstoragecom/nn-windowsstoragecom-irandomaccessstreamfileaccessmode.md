@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251
 ms.date: 12/05/2018
 ms.keywords: IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], IRandomAccessStreamFileAccessMode interface [Windows Runtime],described, windowsstoragecom/IRandomAccessStreamFileAccessMode, winrt.irandomaccessstreamfileaccessmode
-f1_keywords:
-- windowsstoragecom/IRandomAccessStreamFileAccessMode
-dev_langs:
-- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.storage.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.storage.dll
-api_name:
-- IRandomAccessStreamFileAccessMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRandomAccessStreamFileAccessMode
+ - windowsstoragecom/IRandomAccessStreamFileAccessMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.storage.dll
+api_name:
+ - IRandomAccessStreamFileAccessMode
 ---
 
 # IRandomAccessStreamFileAccessMode interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the file access mode that was used when the <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a> method was called to open the random-access byte stream.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Retrieves the file access mode that was used when the <a href="https://docs.micr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.storage.storagefile.openasync">StorageFile.OpenAsync</a>
- 
-
- 
 

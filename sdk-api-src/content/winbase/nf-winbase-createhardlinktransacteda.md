@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
 ms.date: 12/05/2018
 ms.keywords: CreateHardLinkTransacted, CreateHardLinkTransacted function [Files], CreateHardLinkTransactedA, CreateHardLinkTransactedW, fs.createhardlinktransacted, winbase/CreateHardLinkTransacted, winbase/CreateHardLinkTransactedA, winbase/CreateHardLinkTransactedW
-f1_keywords:
-- winbase/CreateHardLinkTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- CreateHardLinkTransacted
-- CreateHardLinkTransactedA
-- CreateHardLinkTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateHardLinkTransactedA
+ - winbase/CreateHardLinkTransactedA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - CreateHardLinkTransacted
+ - CreateHardLinkTransactedA
+ - CreateHardLinkTransactedW
 ---
 
 # CreateHardLinkTransactedA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -65,11 +65,7 @@ ms.custom: 19H1
 Establishes a hard link between an existing file and a new file as a transacted operation. 
     This function is only supported on the NTFS file system, and only for files, not directories.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -77,28 +73,22 @@ The name of the new file.
 
 This parameter cannot specify the name of a directory.
 
-
 ### -param lpExistingFileName [in]
 
 The name of the existing file.
 
 This parameter cannot specify the name of a directory.
 
-
 ### -param lpSecurityAttributes
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -112,12 +102,7 @@ The files must reside on the local computer; otherwise,
        the function fails and the last error code is set to 
        <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Any directory entry for a file that is created with 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> or 
@@ -227,9 +212,6 @@ Note that SMB 3.0 does not support TxF.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
 
 
@@ -251,7 +233,4 @@ Note that SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

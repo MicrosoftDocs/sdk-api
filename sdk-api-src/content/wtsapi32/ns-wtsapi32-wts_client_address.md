@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS, PWTS_CLIENT_ADDRESS structure pointer [Remote Desktop Services], WTS_CLIENT_ADDRESS, WTS_CLIENT_ADDRESS structure [Remote Desktop Services], _win32_wts_client_address_str, termserv.wts_client_address_str, wtsapi32/PWTS_CLIENT_ADDRESS, wtsapi32/WTS_CLIENT_ADDRESS'
-f1_keywords:
-- wtsapi32/WTS_CLIENT_ADDRESS
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsapi32.h
-api_name:
-- WTS_CLIENT_ADDRESS
 targetos: Windows
 req.typenames: WTS_CLIENT_ADDRESS, *PWTS_CLIENT_ADDRESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WTS_CLIENT_ADDRESS
+ - wtsapi32/_WTS_CLIENT_ADDRESS
+ - PWTS_CLIENT_ADDRESS
+ - wtsapi32/PWTS_CLIENT_ADDRESS
+ - WTS_CLIENT_ADDRESS
+ - wtsapi32/WTS_CLIENT_ADDRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsapi32.h
+api_name:
+ - WTS_CLIENT_ADDRESS
 ---
 
 # WTS_CLIENT_ADDRESS structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains 
     the client network address of a Remote Desktop Services session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AddressFamily
 
 Address family. This member can be <b>AF_INET</b>, <b>AF_INET6</b>, <b>AF_IPX</b>, <b>AF_NETBIOS</b>, or <b>AF_UNSPEC</b>.
-
 
 ### -field Address
 
@@ -73,10 +72,7 @@ For an address family <b>AF_INET</b>: <b>Address </b> contains the IPV4 address 
 
 For an family <b>AF_INET6</b>: <b>Address </b> contains the IPV6 address of the client as raw byte values. (For example, the address "FFFF::1" would be represented as the following series of byte values: "0xFF 0xFF 0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x00  0x00 0x01")
 
-
 ## -remarks
-
-
 
 The client network address is reported by the RDP client itself when it connects to the server. This could be 
     different than the address that actually connected to the server. For example, suppose there is a NAT between the 
@@ -86,16 +82,7 @@ The client network address is reported by the RDP client itself when it connects
     Because the address may not be the actual network address, it should not be used as a form of client 
     authentication.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
- 
-
- 
 

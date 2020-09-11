@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(const LinearGradientBrush &), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &), _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.LinearGradientBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusbrush.h
-api_name:
-- LinearGradientBrush.LinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::LinearGradientBrush
+ - gdiplusbrush/LinearGradientBrush::LinearGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusbrush.h
+api_name:
+ - LinearGradientBrush.LinearGradientBrush
 ---
 
 # LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> class. For a complete class listing, see <b>LinearGradientBrush Class</b>. 

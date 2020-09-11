@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: c8521aed-0762-4412-b117-c911fc77049b
 ms.date: 12/05/2018
 ms.keywords: 0, NetServerTransportAdd, NetServerTransportAdd function [Network Management], _win32_netservertransportadd, lmserver/NetServerTransportAdd, netmgmt.netservertransportadd
-f1_keywords:
-- lmserver/NetServerTransportAdd
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetServerTransportAdd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetServerTransportAdd
+ - lmserver/NetServerTransportAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetServerTransportAdd
 ---
 
 # NetServerTransportAdd function
 
 
 ## -description
-
 
 The 
 				<b>NetServerTransportAdd</b> function binds the server to the transport protocol.
@@ -59,19 +59,11 @@ The extended function
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_2">SERVER_TRANSPORT_INFO_2</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_3">SERVER_TRANSPORT_INFO_3</a> information levels.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-A pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-
+A pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param level [in]
 
@@ -96,8 +88,6 @@ Specifies information about the transport protocol, including name, address, and
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [in]
 
@@ -106,10 +96,7 @@ A pointer to the buffer that contains the data.
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -191,14 +178,8 @@ Insufficient memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetServerTransportAdd</b> function.
@@ -206,13 +187,7 @@ Only members of the Administrators or Server Operators local group can successfu
 If you add a transport protocol to a server using a call to the 
 <b>NetServerTransportAdd</b> function, the connection will not remain after the server reboots or restarts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernameadd">NetServerComputerNameAdd</a>
 
@@ -261,7 +236,4 @@ If you add a transport protocol to a server using a call to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
-f1_keywords:
-- mbnapi/IMbnInterface.InEmergencyMode
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.InEmergencyMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::InEmergencyMode
+ - mbnapi/IMbnInterface::InEmergencyMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.InEmergencyMode
 ---
 
 # IMbnInterface::InEmergencyMode
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Determines whether the device is in emergency mode.
 
-
 ## -parameters
-
-
-
 
 ### -param emergencyMode [out]
 
 Points to VARIANT_TRUE if the device is in emergency mode, and VARIANT_FALSE if it is not.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,27 +93,12 @@ The information is not available.  The Mobile Broadband  service is currently pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a device cannot register on the network for any reason, then the device may automatically register onto a network in emergency mode. For example, a device cannot register on the network if the SIM is not inserted, user subscription validity expired, or roaming is not enabled for user.  In emergency mode, device can be used in limited mode for voice calls to emergency numbers.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
 

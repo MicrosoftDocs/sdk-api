@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9e75141d-b54a-4fe8-9209-40aa7f484d24
 ms.date: 12/05/2018
 ms.keywords: IIdentityName, IIdentityName interface [Windows Shell], IIdentityName interface [Windows Shell],described, _shell_IIdentityName, shell.IIdentityName, shobjidl_core/IIdentityName
-f1_keywords:
-- shobjidl_core/IIdentityName
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IIdentityName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIdentityName
+ - shobjidl_core/IIdentityName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IIdentityName
 ---
 
 # IIdentityName interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to compare two items to see if they are the same.
 
-
 ## -remarks
-
-
 
 This interface provides only the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.
 
@@ -72,5 +69,4 @@ This interface is helpful with aliased ID lists (type <a href="https://docs.micr
 </ol>
 <div class="alert"><b>Note</b>  To get an instance of this handler use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> with <code>IID_IIdentityItem</code> or use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler">IShellItem::BindToHandler</a> with <code>BHID_SFObject</code>.</div>
 <div> </div>
-
 

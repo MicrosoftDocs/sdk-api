@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 210650a6-70b9-4d4f-b99a-106afd3fe615
 ms.date: 12/05/2018
 ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsFreeNameResultA, DsFreeNameResultW, _glines_dsfreenameresult, ad.dsfreenameresult, ntdsapi/DsFreeNameResult, ntdsapi/DsFreeNameResultA, ntdsapi/DsFreeNameResultW
-f1_keywords:
-- ntdsapi/DsFreeNameResult
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
-- KernelBase.dll
-- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
-api_name:
-- DsFreeNameResult
-- DsFreeNameResultA
-- DsFreeNameResultW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsFreeNameResultW
+ - ntdsapi/DsFreeNameResultW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+ - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+api_name:
+ - DsFreeNameResult
+ - DsFreeNameResultA
+ - DsFreeNameResultW
 ---
 
 # DsFreeNameResultW function
@@ -54,26 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsFreeNameResult</b> function frees the memory held by a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a> structure. Use this function to free the memory allocated by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pResult
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a> structure to be freed.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta">DS_NAME_RESULT</a>
 
@@ -84,9 +76,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
- 
-
- 
 
 ## -remarks
 

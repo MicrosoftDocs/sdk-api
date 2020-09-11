@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: c64e5ce3-78f6-4f51-8ae1-c871c4716d26
 ms.date: 12/05/2018
 ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], INATNumberOfEntriesCallback interface [ICS/ICF],described, _ics_inatnumberofentriescallback, ics.inatnumberofentriescallback, natupnp/INATNumberOfEntriesCallback
-f1_keywords:
-- natupnp/INATNumberOfEntriesCallback
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INATNumberOfEntriesCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INATNumberOfEntriesCallback
+ - natupnp/INATNumberOfEntriesCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INATNumberOfEntriesCallback
 ---
 
 # INATNumberOfEntriesCallback interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>INATNumberOfEntriesCallback</b> interface provides a method that the system calls if the number of port mappings changes.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Notifies the application when the number of port mappings has changed.
 
 </td>
 </tr>
-</table> 
+</table>
 

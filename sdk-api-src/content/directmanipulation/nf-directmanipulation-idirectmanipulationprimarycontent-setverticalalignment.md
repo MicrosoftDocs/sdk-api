@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 111f0358-0955-4ebb-b273-c17d3fb84d75
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetVerticalAlignment method, IDirectManipulationPrimaryContent.SetVerticalAlignment, IDirectManipulationPrimaryContent::SetVerticalAlignment, SetVerticalAlignment, SetVerticalAlignment method [Direct Manipulation], SetVerticalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setverticalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetVerticalAlignment
-f1_keywords:
-- directmanipulation/IDirectManipulationPrimaryContent.SetVerticalAlignment
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationPrimaryContent.SetVerticalAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationPrimaryContent::SetVerticalAlignment
+ - directmanipulation/IDirectManipulationPrimaryContent::SetVerticalAlignment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationPrimaryContent.SetVerticalAlignment
 ---
 
 # IDirectManipulationPrimaryContent::SetVerticalAlignment
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the vertical alignment of the primary content in the viewport.
 
-
 ## -parameters
-
-
-
 
 ### -param alignment [in]
 
@@ -67,16 +63,9 @@ One or more values from <a href="https://docs.microsoft.com/previous-versions/wi
 
 ## -returns
 
-
-
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If you have activated a configuration consisting only of zoom or zoom inertia, specify <b>DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER</b> to respect the zoom center point.
 
@@ -91,17 +80,7 @@ HRESULT hr = pContent->SetVerticalAlignment(
     DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER| DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER);
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
- 
-
- 
 

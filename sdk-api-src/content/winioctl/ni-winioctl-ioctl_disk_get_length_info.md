@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8d4bd6e3-f0f3-40d6-b0ba-75155282f64a
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
-f1_keywords:
-- winioctl/IOCTL_DISK_GET_LENGTH_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_GET_LENGTH_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_GET_LENGTH_INFO
+ - winioctl/IOCTL_DISK_GET_LENGTH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_GET_LENGTH_INFO
 ---
 
 # IOCTL_DISK_GET_LENGTH_INFO IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,16 +88,15 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 Volume handles do not have access to the full volume. To read or write to the last few sectors of a volume, you must call [FSCTL_ALLOW_EXTENDED_DASD_IO](ni-winioctl-fsctl_allow_extended_dasd_io.md), which instructs the file system to not perform any boundary checks.
 
 This operation should be used instead of [IOCTL_DISK_GET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_get_partition_info_ex.md) for volumes that do not have partition info—such as partition type or number of hidden sectors.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
 * [GET_LENGTH_INFORMATION](ns-winioctl-get_length_information.md)
+

@@ -8,10 +8,6 @@ tech.root: xblidp
 ms.assetid: BD421B26-241F-46C4-9B77-ADCFFBEA24B0
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManager interface,described, xblidp.ixblidpauthmanager, xblidpauthmanager/IXblIdpAuthManager
-f1_keywords:
-- xblidpauthmanager/IXblIdpAuthManager
-dev_langs:
-- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XblIdpAuthManager.h
-api_name:
-- IXblIdpAuthManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXblIdpAuthManager
+ - xblidpauthmanager/IXblIdpAuthManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XblIdpAuthManager.h
+api_name:
+ - IXblIdpAuthManager
 ---
 
 # IXblIdpAuthManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserved for Microsoft use.
-
 
 ## -inheritance
 
@@ -122,5 +121,5 @@ Reserved for Microsoft use.
 
 </td>
 </tr>
-</table> 
+</table>
 

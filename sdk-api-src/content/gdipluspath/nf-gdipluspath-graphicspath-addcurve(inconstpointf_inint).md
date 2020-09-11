@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPath::AddCurve"]
 ms.assetid: bcd96b35-e6f5-42c6-8e08-185aad503453
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddCurve
-f1_keywords:
-- gdipluspath/GraphicsPath::AddCurve
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPath::AddCurve
+ - gdipluspath/GraphicsPath::AddCurve
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPath::AddCurve
+ - GraphicsPath::AddCurve
 ---
 
 # GraphicsPath::AddCurve
+
 
 ## -description
 
@@ -115,3 +117,4 @@ VOID AddCurveExample(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+

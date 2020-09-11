@@ -28,18 +28,19 @@ api_location:
 api_name:
  - IMFRelativePanelWatcher
 f1_keywords:
+ - IMFRelativePanelWatcher
  - mfidl/IMFRelativePanelWatcher
 dev_langs:
  - c++
 ---
 
-## -inheritance
-
-IMFShutdown
-
 ## -description
 
 Monitors the panel associated with a display, so that the app receives notifications when the relative location of the panel changes.
+
+## -inheritance
+
+IMFShutdown
 
 ## -remarks
 

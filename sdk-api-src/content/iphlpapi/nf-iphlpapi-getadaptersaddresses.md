@@ -7,10 +7,6 @@ tech.root: IpHlp
 ms.assetid: 7b34138f-7263-4b73-95df-9e854fd81135
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GAA_FLAG_INCLUDE_ALL_COMPARTMENTS, GAA_FLAG_INCLUDE_ALL_INTERFACES, GAA_FLAG_INCLUDE_GATEWAYS, GAA_FLAG_INCLUDE_PREFIX, GAA_FLAG_INCLUDE_TUNNEL_BINDINGORDER, GAA_FLAG_INCLUDE_WINS_INFO, GAA_FLAG_SKIP_ANYCAST, GAA_FLAG_SKIP_DNS_SERVER, GAA_FLAG_SKIP_FRIENDLY_NAME, GAA_FLAG_SKIP_MULTICAST, GAA_FLAG_SKIP_UNICAST, GetAdaptersAddresses, GetAdaptersAddresses function [IP Helper], _iphlp_getadaptersaddresses, iphlp.getadaptersaddresses, iphlpapi/GetAdaptersAddresses
-f1_keywords:
-- iphlpapi/GetAdaptersAddresses
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetAdaptersAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAdaptersAddresses
+ - iphlpapi/GetAdaptersAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetAdaptersAddresses
 ---
 
 # GetAdaptersAddresses function
@@ -48,15 +49,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAdaptersAddresses</b> function retrieves the addresses associated with the adapters on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -101,8 +97,6 @@ Return only IPv6 addresses associated with adapters with IPv6 enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -247,29 +241,20 @@ Return the adapter addresses sorted in tunnel binding order. This flag is suppor
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
-This parameter is not currently used, but is reserved for future system use. The calling application should pass <b>NULL</b> for this parameter.  
-					
-
+This parameter is not currently used, but is reserved for future system use. The calling application should pass <b>NULL</b> for this parameter.
 
 ### -param AdapterAddresses [in, out]
 
-A pointer to a buffer that contains a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures on successful return. 
-					
-
+A pointer to a buffer that contains a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures on successful return.
 
 ### -param SizePointer [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by <i>AdapterAddresses</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (defined to the same value as <b>NO_ERROR</b>).
 
@@ -348,14 +333,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>GetAdaptersAddresses</b> function can retrieve information for IPv4 and IPv6 addresses. 
@@ -594,14 +573,7 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
 
@@ -636,7 +608,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2">Windows Sockets</a>
- 
-
- 
 

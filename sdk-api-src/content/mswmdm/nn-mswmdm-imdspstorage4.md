@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: c1236acc-1f11-4501-9374-2486f7d61db3
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], IMDSPStorage4 interface [windows Media Device Manager],described, IMDSPStorage4Interface, mswmdm/IMDSPStorage4, wmdm.imdspstorage4
-f1_keywords:
-- mswmdm/IMDSPStorage4
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPStorage4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorage4
+ - mswmdm/IMDSPStorage4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPStorage4
 ---
 
 # IMDSPStorage4 interface
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMDSPStorage4</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3</a> for supporting virtual storages (such as playlists and albums) and metadata.
 
 <div class="alert"><b>Note</b>  Unless the service provider has added the device parameter <b>UseExtendedWmdm</b> with a value of 1, Windows Media Device Manager will not call this interface. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/device-parameters">Device Parameters</a> for more information about this.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -127,13 +124,9 @@ Sets references of an association object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
@@ -148,7 +141,4 @@ Sets references of an association object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

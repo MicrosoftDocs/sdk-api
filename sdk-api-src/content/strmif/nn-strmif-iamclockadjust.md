@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e24105a5-711a-498a-a07c-842307602613
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], IAMClockAdjust interface [DirectShow],described, IAMClockAdjustInterface, dshow.iamclockadjust, strmif/IAMClockAdjust
-f1_keywords:
-- strmif/IAMClockAdjust
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMClockAdjust
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMClockAdjust
+ - strmif/IAMClockAdjust
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMClockAdjust
 ---
 
 # IAMClockAdjust interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMClockAdjust</code> interface adjusts the reference clock. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a> exposes this interface.
-
-
-
 
 ## -inheritance
 
@@ -81,16 +77,9 @@ Adjusts the clock time.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

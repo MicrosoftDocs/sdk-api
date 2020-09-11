@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: 854C7024-D582-405D-8A5F-C152DE8BE0BE
 ms.date: 12/05/2018
 ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation interface [Media Streaming API], IMediaRendererActionInformation interface [Media Streaming API],described, mediastreaming.imediarendereractioninformation, windows/IMediaRendererActionInformation
-f1_keywords:
-- windows.media.streaming/IMediaRendererActionInformation
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IMediaRendererActionInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaRendererActionInformation
+ - windows.media.streaming/IMediaRendererActionInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IMediaRendererActionInformation
 ---
 
 # IMediaRendererActionInformation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods needed to provide information about what methods can currently be invoked on the DMR.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Retrieves the complete list of <a href="https://docs.microsoft.com/previous-vers
 
 </td>
 </tr>
-</table> 
+</table>
 

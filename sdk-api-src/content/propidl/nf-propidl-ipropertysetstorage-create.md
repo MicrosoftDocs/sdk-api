@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Structured Storage], Create method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Create method, IPropertySetStorage.Create, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
-f1_keywords:
-- propidl/IPropertySetStorage.Create
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertySetStorage.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySetStorage::Create
+ - propidl/IPropertySetStorage::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertySetStorage.Create
 ---
 
 # IPropertySetStorage::Create
@@ -49,54 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Create</b> method 
 			creates and opens a new property set in the property set storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param rfmtid [in]
 
 The FMTID of the property set to be created. For information about FMTIDs that are well-known and predefined in the Platform SDK, see 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/predefined-property-set-format-identifiers">Predefined Property Set Format Identifiers</a>.
 
-
 ### -param pclsid [in]
 
 A pointer to the initial class identifier CLSID for this property set. May be <b>NULL</b>, in which case it is set to all zeroes. The CLSID is the CLSID of a class that displays and/or provides programmatic access to the property values. If there is no such class, it is recommended that the FMTID be used.
-
 
 ### -param grfFlags [in]
 
 The values from <a href="https://docs.microsoft.com/windows/desktop/Stg/propsetflag-constants">PROPSETFLAG Constants</a>.
 
-
 ### -param grfMode [in]
 
 An access mode in which the newly created property set is to be opened, taken from certain values of <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM_Constants</a>, as described in the following Remarks section.
-
 
 ### -param ppprstg [out]
 
 A pointer to the output variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface pointer.
 
-
 ## -returns
-
-
 
 This method supports the standard return value E_UNEXPECTED, as well as the following:
 
-
-
-
 ## -remarks
-
-
 
 <b>IPropertySetStorage::Create</b> creates and opens a new property set subobject (supporting the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface) contained in this property set storage object. The property set automatically contains code page and locale ID properties. These are set to the Unicode and the current user default, respectively.
@@ -130,13 +114,7 @@ This method is subject to the constraints of the underlying <a href="https://doc
 <a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>, <b>IPropertySetStorage::Create</b> is subject to constraints that apply to the caller-specified 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
@@ -159,7 +137,4 @@ This method is subject to the constraints of the underlying <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
- 
-
- 
 

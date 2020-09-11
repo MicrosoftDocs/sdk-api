@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: dc58cc75-7e01-4f47-a572-8e3ca1bc43b4
 ms.date: 12/05/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessOutput method, IMFTransform.ProcessOutput, IMFTransform::ProcessOutput, ProcessOutput, ProcessOutput method [Media Foundation], ProcessOutput method [Media Foundation],IMFTransform interface, dc58cc75-7e01-4f47-a572-8e3ca1bc43b4, mf.imftransform_processoutput, mftransform/IMFTransform::ProcessOutput
-f1_keywords:
-- mftransform/IMFTransform.ProcessOutput
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.ProcessOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::ProcessOutput
+ - mftransform/IMFTransform::ProcessOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.ProcessOutput
 ---
 
 # IMFTransform::ProcessOutput
@@ -50,43 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates output from the current input data.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
-          
-
 
 ### -param cOutputBufferCount [in]
 
 Number of elements in the <i>pOutputSamples</i> array. The value must be at least 1.
-          
-
 
 ### -param pOutputSamples [in, out]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
-          
-
 
 ### -param pdwStatus [out]
 
 Receives a bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -173,11 +158,7 @@ You must set the media type on one or more streams of the MFT.
 <div class="alert"><b>Note</b>  If you are converting a DirectX Media Object (DMO) to an MFT, be aware that <b>S_FALSE</b> is not a valid return code for <b>IMFTransform::ProcessOutput</b>, unlike the <b>IMediaObject::ProcessOutput</b> method.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The size of the <i>pOutputSamples</i> array must be equal to or greater than the number of <i>selected</i> output streams. The number of selected output streams equals the total number of output streams minus the number of <i>deselected</i> streams. A stream is deselected if it has the <b>MFT_OUTPUT_STREAM_OPTIONAL</b> flag and the caller does not set a media type (or sets the media type to <b>NULL</b>). For more information, see <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_output_stream_info_flags">_MFT_OUTPUT_STREAM_INFO_FLAGS</a> enumeration.
       
@@ -285,20 +266,11 @@ For a list of sample attributes, see <a href="https://docs.microsoft.com/windows
 <h3><a id="Asynchronous_Processing"></a><a id="asynchronous_processing"></a><a id="ASYNCHRONOUS_PROCESSING"></a>Asynchronous Processing</h3>
 The previous remarks describe the <i>synchronous</i> processing model. To support asynchronous processing, see <a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-mfts">Asynchronous MFTs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

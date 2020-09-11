@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 6C428A75-755D-4171-A714-83FC65A9D972
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2 interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler2 interface, uianimation.iuianimationstoryboardeventhandler2_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
-f1_keywords:
-- uianimation/IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
+ - uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
 ---
 
 # IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles storyboard status change events.
 
-
 ## -parameters
-
-
-
 
 ### -param storyboard [in]
 
 The storyboard for which the status has changed.
 
-
 ### -param newStatus [in]
 
 The new status.
-
 
 ### -param previousStatus [in]
 
 The previous status.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 By default, a call made in a callback method to any other animation method results in the call failing and returning <b>UI_E_ILLEGAL_REENTRANCY</b>. However, there are exceptions to this default. The following methods can be successfully called from <b>OnStoryboardStatusChanged</b>:
 
@@ -187,12 +173,7 @@ By default, a call made in a callback method to any other animation method resul
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
 
@@ -207,7 +188,4 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
- 
-
- 
 

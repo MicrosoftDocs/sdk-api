@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: F403D730-CBD4-4AE0-86F6-8CE122E82CB4
 ms.date: 12/05/2018
 ms.keywords: D3D12CreateDevice, D3D12CreateDevice function, d3d12/D3D12CreateDevice, direct3d12.d3d12createdevice
-f1_keywords:
-- d3d12/D3D12CreateDevice
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D12.dll
-api_name:
-- D3D12CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12CreateDevice
+ - d3d12/D3D12CreateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D12.dll
+api_name:
+ - D3D12CreateDevice
 ---
 
 # D3D12CreateDevice function
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a device that represents the display adapter.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pAdapter [in, optional]
 
@@ -77,8 +72,6 @@ A pointer to the video adapter to use when creating a <a href="https://docs.micr
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a></b>
 
 The minimum <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a> required for successful device creation.
-            
-
 
 ### -param riid [in]
 
@@ -88,18 +81,13 @@ The globally unique identifier (<b>GUID</b>) for the device interface.
             This parameter, and <i>ppDevice</i>, can be addressed with the single macro
           <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a>.
 
-
 ### -param ppDevice [out, optional]
 
 Type: <b><b>void</b>**</b>
 
 A pointer to a memory block that receives a pointer to the device. Pass **NULL** to test if device creation would succeed, but to not actually create the device. If **NULL** is passed and device creation would succeed, **S_FALSE** is returned.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -109,8 +97,6 @@ This method can return one of the <a href="https://docs.microsoft.com/windows/de
 Possible return values include those documented for <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1">CreateDXGIFactory1</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgifactory-enumadapters">IDXGIFactory::EnumAdapters</a>.
           
 If **ppDevice** is **NULL** and the function succeeds, **S_FALSE** is returned, rather than **S_OK**.
-
-
 
 ## -remarks
 
@@ -189,19 +175,11 @@ Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/note
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-functions">Core Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">Working Samples</a>
- 
-
- 
 

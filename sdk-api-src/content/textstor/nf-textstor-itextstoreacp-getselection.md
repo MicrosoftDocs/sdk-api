@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: e2052daf-4168-4266-ae8d-a09ecbfeb422
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetSelection method, ITextStoreACP.GetSelection, ITextStoreACP::GetSelection, _tsf_itextstoreacp_getselection_ref, textstor/ITextStoreACP::GetSelection, tsf.itextstoreacp_getselection
-f1_keywords:
-- textstor/ITextStoreACP.GetSelection
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP::GetSelection
+ - textstor/ITextStoreACP::GetSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP.GetSelection
 ---
 
 # ITextStoreACP::GetSelection
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreACP::GetSelection</b> method returns the character position of a text selection in a document. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.
 
-
 ## -parameters
-
-
-
 
 ### -param ulIndex [in]
 
 Specifies the text selections that start the process. If the <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_DEFAULT_SELECTION</a> constant is specified for this parameter, the input selection starts the process.
 
-
 ### -param ulCount [in]
 
 Specifies the maximum number of selections to return.
-
 
 ### -param pSelection [out]
 
 Receives the style, start, and end character positions of the selected text. These values are put into the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP</a> structure.
 
-
 ### -param pcFetched [out]
 
 Receives the number of <i>pSelection</i> structures returned.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,15 +113,8 @@ The document has no selection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/edit-contexts">Edit Contexts</a>
 
@@ -152,7 +135,4 @@ The document has no selection.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
- 
-
- 
 

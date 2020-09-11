@@ -8,10 +8,6 @@ tech.root: magapi
 ms.assetid: F6CE5453-E427-46E4-81E8-6E96BA28C05C
 ms.date: 12/05/2018
 ms.keywords: MagSetFullscreenColorEffect, MagSetFullscreenColorEffect function [Magnification API], magapi.magapi_magsetfullscreencoloreffect, magnification/MagSetFullscreenColorEffect
-f1_keywords:
-- magnification/MagSetFullscreenColorEffect
-dev_langs:
-- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Magnification.dll
-api_name:
-- MagSetFullscreenColorEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MagSetFullscreenColorEffect
+ - magnification/MagSetFullscreenColorEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Magnification.dll
+api_name:
+ - MagSetFullscreenColorEffect
 ---
 
 # MagSetFullscreenColorEffect function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the color transformation matrix  associated with the full-screen magnifier.
 
-
 ## -parameters
-
-
-
 
 ### -param pEffect [in]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/n
 
 The new color transformation matrix. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The full-screen magnifier uses the color transformation matrix to apply a color effect to the entire desktop. If the function is called multiple times, the most recent color transform is used. 
 
@@ -115,17 +103,7 @@ BOOL SetColorGrayscale(__in BOOL fGrayscaleOn)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetfullscreencoloreffect">MagGetFullscreenColorEffect</a>
- 
-
- 
 

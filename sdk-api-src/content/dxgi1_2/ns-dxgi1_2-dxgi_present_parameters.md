@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: C2C69457-5415-4CAA-901B-A3A8591C6CB0
 ms.date: 12/05/2018
 ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], direct3ddxgi.dxgi_present_parameters, dxgi1_2/DXGI_PRESENT_PARAMETERS
-f1_keywords:
-- dxgi1_2/DXGI_PRESENT_PARAMETERS
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DXGI1_2.h
-api_name:
-- DXGI_PRESENT_PARAMETERS
 targetos: Windows
 req.typenames: DXGI_PRESENT_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_PRESENT_PARAMETERS
+ - dxgi1_2/DXGI_PRESENT_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DXGI1_2.h
+api_name:
+ - DXGI_PRESENT_PARAMETERS
 ---
 
 # DXGI_PRESENT_PARAMETERS structure
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes information about present that helps the operating system optimize presentation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DirtyRectsCount
 
 The number of updated rectangles that you update in the back buffer for the presented frame. The operating system uses this information to optimize presentation. You can set this member to 0 to indicate that you update the whole frame.
 
-
 ### -field pDirtyRects
 
 A list of updated rectangles that you update in the back buffer for the presented frame. An application must update every single pixel in each rectangle that it reports to the runtime; the application cannot assume that the pixels are saved from the previous frame. For more information about updating dirty rectangles, see Remarks. You can set this member to <b>NULL</b> if <b>DirtyRectsCount</b> is 0. An application must not update any pixel outside of the dirty rectangles.
-
 
 ### -field pScrollRect
 
@@ -74,15 +68,11 @@ A list of updated rectangles that you update in the back buffer for the presente
 
 The scrolled rectangle also describes the destination rectangle, that is, the region on the current frame that is filled with scrolled content. You can set this member to <b>NULL</b> to indicate that no content is scrolled from the previous frame.
 
-
 ### -field pScrollOffset
 
 A pointer to the offset of the scrolled area that goes from the source rectangle (of previous frame) to the destination rectangle (of current frame). You can set this member to <b>NULL</b> to indicate no offset.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">Present1</a> method.
 
@@ -109,16 +99,7 @@ The actual implementation of composition and necessary bitblts is different for 
 
 For more info about the flip-model swap chain and optimizing presentation, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-2-presentation-improvements">Enhancing presentation with the flip model, dirty rectangles, and scrolled areas</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
- 
-
- 
 

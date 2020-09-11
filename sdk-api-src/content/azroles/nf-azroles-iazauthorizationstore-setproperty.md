@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c71a022f-8244-4263-8ff6-6c2d9562fcd1
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_AZSTORE_DOMAIN_TIMEOUT, AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES, AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AzAuthorizationStore object [Security],SetProperty method, IAzAuthorizationStore interface [Security],SetProperty method, IAzAuthorizationStore.SetProperty, IAzAuthorizationStore::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzAuthorizationStore object, SetProperty method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::SetProperty, security.azauthorizationstore_setproperty
-f1_keywords:
-- azroles/AzAuthorizationStore.SetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- AzAuthorizationStore.SetProperty
-- IAzAuthorizationStore.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::SetProperty
+ - azroles/IAzAuthorizationStore::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - AzAuthorizationStore.SetProperty
+ - IAzAuthorizationStore.SetProperty
 ---
 
 # IAzAuthorizationStore::SetProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object property  with the specified property ID.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -139,8 +135,6 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
@@ -229,30 +223,18 @@ Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
  If the method succeeds, the method returns <b>S_OK</b>.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
 
-
-
-
 ## -remarks
 
-
-
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
-
-
 

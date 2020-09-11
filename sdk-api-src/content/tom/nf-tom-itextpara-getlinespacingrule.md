@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacingrule.htm
 ms.date: 12/05/2018
 ms.keywords: GetLineSpacingRule, GetLineSpacingRule method [Windows Controls], GetLineSpacingRule method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLineSpacingRule method, ITextPara.GetLineSpacingRule, ITextPara::GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule_cpp, controls.ITextPara_GetLineSpacingRule, controls._win32_ITextPara_GetLineSpacingRule, tom/ITextPara::GetLineSpacingRule, tomLineSpace1pt5, tomLineSpaceAtLeast, tomLineSpaceDouble, tomLineSpaceExactly, tomLineSpaceMultiple, tomLineSpacePercent, tomLineSpaceSingle
-f1_keywords:
-- tom/ITextPara.GetLineSpacingRule
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetLineSpacingRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetLineSpacingRule
+ - tom/ITextPara::GetLineSpacingRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetLineSpacingRule
 ---
 
 # ITextPara::GetLineSpacingRule
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the line-spacing rule for the text range.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -114,10 +110,7 @@ A variable that is one of the following values to indicate the line-spacing rule
 
 #### tomLineSpacePercent
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -162,15 +155,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -193,7 +179,4 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

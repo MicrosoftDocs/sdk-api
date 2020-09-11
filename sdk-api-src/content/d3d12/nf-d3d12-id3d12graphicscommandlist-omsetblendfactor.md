@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetBlendFactor method, ID3D12GraphicsCommandList.OMSetBlendFactor, ID3D12GraphicsCommandList::OMSetBlendFactor, OMSetBlendFactor, OMSetBlendFactor method, OMSetBlendFactor method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor, direct3d12.id3d12graphicscommandlist_omsetblendfactor
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.OMSetBlendFactor
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.OMSetBlendFactor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::OMSetBlendFactor
+ - d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.OMSetBlendFactor
 ---
 
 # ID3D12GraphicsCommandList::OMSetBlendFactor
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the blend factor that modulate values for a pixel shader, render target, or both.
 
-
 ## -parameters
-
-
-
 
 ### -param BlendFactor [in, optional]
 
 Type: <b>const FLOAT[4]</b>
 
 Array of blend factors, one for each RGBA component.
-          
-
 
 ## -remarks
 
@@ -74,11 +68,5 @@ If you pass NULL, then the runtime uses or stores a blend factor equal to `{ 1, 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

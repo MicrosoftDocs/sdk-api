@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 0328B52E-F9C7-4DA4-85C6-109E3AD3E1A7
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NOTIFICATIONS_V1, CLUSTER_NOTIFICATIONS_V2, CLUSTER_NOTIFICATIONS_VERSION, CLUSTER_NOTIFICATIONS_VERSION enumeration [Failover Cluster], clusapi/CLUSTER_NOTIFICATIONS_V1, clusapi/CLUSTER_NOTIFICATIONS_V2, clusapi/CLUSTER_NOTIFICATIONS_VERSION, msclus/CLUSTER_NOTIFICATIONS_V1, msclus/CLUSTER_NOTIFICATIONS_V2, msclus/CLUSTER_NOTIFICATIONS_VERSION, mscs.cluster_notifications_version
-f1_keywords:
-- clusapi/CLUSTER_NOTIFICATIONS_VERSION
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusApi.h
-- MsClus.h
-api_name:
-- CLUSTER_NOTIFICATIONS_VERSION
 targetos: Windows
 req.typenames: CLUSTER_NOTIFICATIONS_VERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_NOTIFICATIONS_VERSION
+ - clusapi/CLUSTER_NOTIFICATIONS_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusApi.h
+ - MsClus.h
+api_name:
+ - CLUSTER_NOTIFICATIONS_VERSION
 ---
 
 # CLUSTER_NOTIFICATIONS_VERSION enumeration
@@ -50,32 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the various versions of cluster notification enumerations.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CLUSTER_NOTIFICATIONS_V1
 
 Version 1 of the cluster notification enumeration.
 
-
 ### -field CLUSTER_NOTIFICATIONS_V2
 
 Version 2 of the cluster notification enumeration.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
 

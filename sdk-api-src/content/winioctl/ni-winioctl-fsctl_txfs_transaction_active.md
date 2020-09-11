@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c55802b7-9c56-48ee-9d0b-777f06fbeff1
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_TRANSACTION_ACTIVE, FSCTL_TXFS_TRANSACTION_ACTIVE control, FSCTL_TXFS_TRANSACTION_ACTIVE control code [Files], fs.fsctl_txfs_transaction_active, winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
-f1_keywords:
-- winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_TRANSACTION_ACTIVE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_TRANSACTION_ACTIVE
+ - winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_TRANSACTION_ACTIVE
 ---
 
 # FSCTL_TXFS_TRANSACTION_ACTIVE IOCTL
+
 
 ## -description
 
@@ -65,26 +67,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -94,7 +89,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 **FSCTL_TXFS_TRANSACTION_ACTIVE** is a synchronous operation.
@@ -103,9 +97,9 @@ If the **TransactionsActiveAtSnapshot** member of the [TXFS_TRANSACTION_ACTIVE_I
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [TXFS_TRANSACTION_ACTIVE_INFO](ns-winioctl-txfs_transaction_active_info.md)
+

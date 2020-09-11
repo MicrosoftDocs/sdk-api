@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 62f51b6e-3db1-48cd-8853-0dbe522c5e82
 ms.date: 12/05/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
-f1_keywords:
-- wlanapi/WlanGetNetworkBssList
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wlanapi.dll
-api_name:
-- WlanGetNetworkBssList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanGetNetworkBssList
+ - wlanapi/WlanGetNetworkBssList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wlanapi.dll
+api_name:
+ - WlanGetNetworkBssList
 ---
 
 # WlanGetNetworkBssList function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanGetNetworkBssList</b> function retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
 
 ### -param pInterfaceGuid [in]
 
@@ -69,13 +64,11 @@ A pointer to the GUID of the wireless LAN interface to be queried.
 
  The GUID of each wireless LAN interface enabled on a local computer can be determined using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function.
 
-
 ### -param pDot11Ssid [optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that specifies the SSID of the network from which the BSS list is requested.  This parameter is optional. When set to <b>NULL</b>, the returned list contains all of available BSS entries on a wireless LAN interface.
 
 If a pointer to a <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure is specified, the SSID length specified in the <b>uSSIDLength</b> member of <b>DOT11_SSID</b> structure must be less than or equal to <b>DOT11_SSID_MAX_LENGTH</b> defined in the <i>Wlantypes.h</i> header file. In addition, the <i>dot11BssType</i> parameter must be set to either <b>dot11_BSS_type_infrastructure</b> or <b>dot11_BSS_type_independent</b> and the <i>bSecurityEnabled</i> parameter must be specified.
-
 
 ### -param dot11BssType [in]
 
@@ -119,18 +112,14 @@ Any BSS network.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bSecurityEnabled [in]
 
 A value that indicates whether security is enabled on the network.  This parameter is only valid when the SSID of the network for the BSS list is specified (the <i>pDot11Ssid</i> parameter is not <b>NULL</b>).
 
-
 ### -param pReserved
 
 Reserved for future use.  This parameter must be set to <b>NULL</b>.
-
 
 ### -param ppWlanBssList [out]
 
@@ -138,10 +127,7 @@ A pointer to storage for a pointer to receive the returned list of of BSS entrie
 
 The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> returned is allocated by the <b>WlanGetNetworkBssList</b> function if the call succeeds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -241,14 +227,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanGetNetworkBssList</b> function retrieves the basic service set list for each wireless network or networks accessible on a given interface. The list of information returned for each wireless network also contains a list of information elements returned by each access point for an infrastructure BSS network or a network peer for an independent BSS network (ad hoc network). The information is returned as a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure in the <i>ppWlanBssList</i> parameter.  The <b>WLAN_BSS_LIST</b> structure contains an item count followed by an array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a> structure entries.  
 
@@ -264,14 +244,7 @@ The <b>WlanGetNetworkBssList</b>  function returns ERROR_SUCCESS when an empty B
 
 The <b>WlanGetNetworkBssList</b> function allocates memory for the basic service set list that is returned in a buffer pointed to by the <i>ppWlanBssList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppWlanBssList</i> parameter should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
@@ -302,7 +275,4 @@ The <b>WlanGetNetworkBssList</b> function allocates memory for the basic service
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
- 
-
- 
 

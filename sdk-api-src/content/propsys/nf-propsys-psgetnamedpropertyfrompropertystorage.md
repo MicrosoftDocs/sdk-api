@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: bb4eedc0-9ef5-46f2-83e5-340b77b3d876
 ms.date: 12/05/2018
 ms.keywords: PSGetNamedPropertyFromPropertyStorage, PSGetNamedPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetNamedPropertyFromPropertyStorage, properties.PSGetNamedPropertyFromPropertyStorage, propsys/PSGetNamedPropertyFromPropertyStorage, shell.PSGetNamedPropertyFromPropertyStorage
-f1_keywords:
-- propsys/PSGetNamedPropertyFromPropertyStorage
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSGetNamedPropertyFromPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSGetNamedPropertyFromPropertyStorage
+ - propsys/PSGetNamedPropertyFromPropertyStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSGetNamedPropertyFromPropertyStorage
 ---
 
 # PSGetNamedPropertyFromPropertyStorage function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value from serialized property storage by property name.
 
-
 ## -parameters
-
-
-
 
 ### -param psps [in]
 
@@ -64,13 +60,11 @@ Type: <b>PCUSERIALIZEDPROPSTORAGE</b>
 
 A pointer to an allocated buffer that contains the serialized properties. Call <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-getpropertystorage">IPersistSerializedPropStorage::GetPropertyStorage</a> to obtain the buffer.
 
-
 ### -param cb [in]
 
 Type: <b>DWORD</b>
 
 The size, in bytes, of the USERIALIZESPROPSTORAGE buffer pointed to by <i>psps</i>.
-
 
 ### -param pszName [in]
 
@@ -78,28 +72,19 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated, Unicode string that contains the name of the property.
 
-
 ### -param ppropvar [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 When this function returns, contains the requested value.
 
-
 ## -returns
-
-
 
 Type: <b>PSSTDAPI</b>
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function is intended to be called if the calling application already has a serialized property storage and needs no more than a few properties from storage. If many properties need to be retrieved, performance can be enhanced by creating a memory property store by calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>, initializing the property store by calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setpropertystorage">IPersistSerializedPropStorage::SetPropertyStorage</a>, and using <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-inamedpropertystore">INamedPropertyStore</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> to retrieve the properties.
 
@@ -129,17 +114,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertyfrompropertystorage">PSGetPropertyFromPropertyStorage</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: c1730b6b-f399-4e1f-91d4-5d5e40835a74
 ms.date: 12/05/2018
 ms.keywords: AddAutomationEvent, AddAutomationEvent method [Windows Accessibility], AddAutomationEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddAutomationEvent method, IProxyProviderWinEventSink.AddAutomationEvent, IProxyProviderWinEventSink::AddAutomationEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent
-f1_keywords:
-- uiautomationcore/IProxyProviderWinEventSink.AddAutomationEvent
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IProxyProviderWinEventSink.AddAutomationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProxyProviderWinEventSink::AddAutomationEvent
+ - uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IProxyProviderWinEventSink.AddAutomationEvent
 ---
 
 # IProxyProviderWinEventSink::AddAutomationEvent
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Raises a Microsoft UI Automation event.
 
-
 ## -parameters
-
-
-
 
 ### -param pProvider [in]
 
@@ -64,33 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 
 A pointer to the provider for the element that will raise the event.
 
-
 ### -param id [in]
 
 Type: <b>EVENTID</b>
 
 The identifier of the event that will be raised. For a list of event identifiers, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>
 
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>
- 
-
- 
 

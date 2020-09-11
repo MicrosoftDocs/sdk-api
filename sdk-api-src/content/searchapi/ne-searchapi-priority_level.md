@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\priority_level.htm
 ms.date: 12/05/2018
 ms.keywords: PRIORITY_LEVEL, PRIORITY_LEVEL enumeration [search], PRIORITY_LEVEL_DEFAULT, PRIORITY_LEVEL_FOREGROUND, PRIORITY_LEVEL_HIGH, PRIORITY_LEVEL_LOW, _search_PRIORITY_LEVEL, search._search_PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL_DEFAULT, searchapi/PRIORITY_LEVEL_FOREGROUND, searchapi/PRIORITY_LEVEL_HIGH, searchapi/PRIORITY_LEVEL_LOW
-f1_keywords:
-- searchapi/PRIORITY_LEVEL
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Searchapi.h
-api_name:
-- PRIORITY_LEVEL
 targetos: Windows
 req.typenames: PRIORITY_LEVEL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_searchapi_0000_0022_0001
+ - searchapi/__MIDL___MIDL_itf_searchapi_0000_0022_0001
+ - PRIORITY_LEVEL
+ - searchapi/PRIORITY_LEVEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Searchapi.h
+api_name:
+ - PRIORITY_LEVEL
 ---
 
 # PRIORITY_LEVEL enumeration
@@ -49,43 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a> interface to set or retrieve the current indexer prioritization level for the scope specified by a query.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PRIORITY_LEVEL_FOREGROUND
 
 Indicates that the indexer should process items as fast as the machine allows.
 
-
 ### -field PRIORITY_LEVEL_HIGH
 
 Indicates that the indexer should process items in this scope first, and as quickly as possible.
-
 
 ### -field PRIORITY_LEVEL_LOW
 
 Indicates that the indexer should process items in this scope before those at the normal rate, but after any other prioritization requests.
 
-
 ### -field PRIORITY_LEVEL_DEFAULT
 
 Indicates that the indexer should  process items at the normal indexer rate.
-
 
 ## -remarks
 
 Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -116,7 +107,4 @@ Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
-f1_keywords:
-- setupapi/SetupDiGetClassDevs
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: SetupAPI.h
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: SetupAPI.lib
 req.dll: SetupAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- SetupAPI.dll
-- ext-ms-win-setupapi-classinstallers-l1-1-0.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDiGetClassDevs
-- SetupDiGetClassDevsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetClassDevsW
+ - setupapi/SetupDiGetClassDevsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - SetupAPI.dll
+ - ext-ms-win-setupapi-classinstallers-l1-1-0.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDiGetClassDevs
+ - SetupDiGetClassDevsW
 ---
 
 # SetupDiGetClassDevsW function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains requested device information elements for a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in, optional]
 
 A pointer to the GUID for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
-
 
 ### -param Enumerator [in, optional]
 
@@ -85,11 +80,9 @@ This pointer is optional and can be <b>NULL</b>. If an <i>enumeration</i> value 
 
 For more information about how to set the <i>Enumerator</i> value, see the following <b>Remarks</b> section.
 
-
 ### -param hwndParent [in, optional]
 
 A handle to the top-level window to be used for a user interface that is associated with installing a device instance in the device information set. This handle is optional and can be <b>NULL</b>.
-
 
 ### -param Flags [in]
 
@@ -127,19 +120,11 @@ Return only devices that are currently present in a system.
 
 Return only devices that are a part of the current hardware profile.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>.
 
@@ -309,9 +294,6 @@ if (DeviceInfoSet) {
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">Device Information Set</a>
 
 
@@ -333,7 +315,4 @@ if (DeviceInfoSet) {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsexa">SetupDiGetClassDevsEx</a>
- 
-
- 
 

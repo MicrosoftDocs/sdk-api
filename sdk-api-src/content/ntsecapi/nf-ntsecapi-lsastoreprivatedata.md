@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 95d6cf30-fd08-473e-b0b3-3f7ca5e85357
 ms.date: 12/05/2018
 ms.keywords: LsaStorePrivateData, LsaStorePrivateData function [Security], _lsa_lsastoreprivatedata, ntsecapi/LsaStorePrivateData, security.lsastoreprivatedata
-f1_keywords:
-- ntsecapi/LsaStorePrivateData
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-lsapolicy-l1-1-0.dll
-- sechost.dll
-- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
-api_name:
-- LsaStorePrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaStorePrivateData
+ - ntsecapi/LsaStorePrivateData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-lsapolicy-l1-1-0.dll
+ - sechost.dll
+ - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+api_name:
+ - LsaStorePrivateData
 ---
 
 # LsaStorePrivateData function
@@ -52,26 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use the LSA private data functions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata">CryptUnprotectData</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The handle must have the POLICY_CREATE_SECRET access right if this is the first time data is being stored under the key specified by the <i>KeyName</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
-
 ### -param KeyName [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure containing the name of the key under which the private data is stored.
-
 
 ### -param PrivateData [in]
 
@@ -79,10 +73,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/
 
 If this parameter is <b>NULL</b>, the function deletes any private data stored under the key and deletes the key. Subsequent attempts to retrieve data from the key will return the STATUS_OBJECT_NAME_NOT_FOUND error code.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -92,12 +83,7 @@ If the function fails, the return value is an NTSTATUS code. For more informatio
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>LsaStorePrivateData</b> function can be used by server applications to store client and machine passwords.
 
@@ -113,20 +99,11 @@ The data stored by the <b>LsaStorePrivateData</b> function is not absolutely pro
 Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaretrieveprivatedata">LsaRetrievePrivateData</a> function to retrieve the value stored by <b>LsaStorePrivateData</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaretrieveprivatedata">LsaRetrievePrivateData</a>
- 
-
- 
 

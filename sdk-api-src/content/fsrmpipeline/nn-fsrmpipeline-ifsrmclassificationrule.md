@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: d76e4b07-66d6-426f-853d-f52ea08d9b81
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], IFsrmClassificationRule interface [File Server Resource Manager],described, fs.ifsrmclassificationrule, fsrm.ifsrmclassificationrule, fsrm/IFsrmClassificationRule
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationRule
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationRule
+ - fsrmpipeline/IFsrmClassificationRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationRule
 ---
 
 # IFsrmClassificationRule interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -74,26 +74,15 @@ The following methods can return this interface:
 
 ## -remarks
 
-
-
 The rule runs when you call the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-runclassification">IFsrmClassificationManager::RunClassification</a> 
     method. You can also schedule the classification process to run on a specified schedule.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationrule">MSFT_FSRMClassificationRule</a>
- 
-
- 
 

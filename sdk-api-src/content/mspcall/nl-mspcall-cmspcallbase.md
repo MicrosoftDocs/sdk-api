@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 77b53b66-38fa-4823-9051-e857da8a7dd7
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase, CMSPCallBase class [TAPI 2.2], CMSPCallBase class [TAPI 2.2],described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
-f1_keywords:
-- mspcall/CMSPCallBase
-dev_langs:
-- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mspcall.h
-api_name:
-- CMSPCallBase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CMSPCallBase
+ - mspcall/CMSPCallBase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mspcall.h
+api_name:
+ - CMSPCallBase
 ---
 
 # CMSPCallBase class
 
 
 ## -description
-
 
 The 
 <b>CMSPCallBase</b> class provides a generic implementation of the call object. It supports the 

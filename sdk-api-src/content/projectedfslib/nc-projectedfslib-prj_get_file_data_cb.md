@@ -8,10 +8,6 @@ tech.root: ProjFS
 ms.assetid: 8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_FILE_DATA_CB, PRJ_GET_FILE_DATA_CB callback, PRJ_GET_FILE_DATA_CB callback function, ProjFS.prj_get_file_data_cb, projectedfslib/PRJ_GET_FILE_DATA_CB
-f1_keywords:
-- projectedfslib/PRJ_GET_FILE_DATA_CB
-dev_langs:
-- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- projectedfslib.h
-api_name:
-- PRJ_GET_FILE_DATA_CB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - PRJ_GET_FILE_DATA_CB
+ - projectedfslib/PRJ_GET_FILE_DATA_CB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - projectedfslib.h
+api_name:
+ - PRJ_GET_FILE_DATA_CB
 ---
 
 # PRJ_GET_FILE_DATA_CB callback function
@@ -49,14 +50,9 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
 Requests the contents of a file's primary data stream.
 
-
 ## -parameters
-
-
-
 
 ### -param callbackData [in]
 
@@ -73,22 +69,17 @@ Information about the operation. The following <i>callbackData</i> members are n
 </dl>
 
 
-The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it. 
-
+The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it.
 
 ### -param byteOffset [in]
 
 Offset of the requested data, in bytes, from the beginning of the file. The provider must return file data starting at or before this offset
 
-
 ### -param length [in]
 
 Number of bytes of file data requested. The provider must return at least this many bytes of file data beginning with byteOffset.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -123,17 +114,10 @@ The provider wishes to complete the operation at a later time.
 
 An appropriate HRESULT error code if the provider fails the operation.
 
-
-
-
 ## -remarks
-
-
 
 When ProjFS receives the data it will write it to the file to convert it into a hydrated placeholder. 
 
 
-To handle this callback, the provider issues one or more calls to <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a> to give ProjFS the requested contents of the file's primary data stream. Then the provider completes the callback. 
-
-
+To handle this callback, the provider issues one or more calls to <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwritefiledata">PrjWriteFileData</a> to give ProjFS the requested contents of the file's primary data stream. Then the provider completes the callback.
 

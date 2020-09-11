@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: EF14E963-26DF-4E72-9BDF-3AE99D0B7273
 ms.date: 12/05/2018
 ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],described, intl.iimeplugindictdictionarylist, msimeapi/IImePlugInDictDictionaryList
-f1_keywords:
-- msimeapi/IImePlugInDictDictionaryList
-dev_langs:
-- c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msimeapi.h
-api_name:
-- IImePlugInDictDictionaryList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImePlugInDictDictionaryList
+ - msimeapi/IImePlugInDictDictionaryList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msimeapi.h
+api_name:
+ - IImePlugInDictDictionaryList
 ---
 
 # IImePlugInDictDictionaryList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the list of IME plug-in dictionaries.
-
 
 ## -inheritance
 
@@ -86,14 +85,9 @@ Obtains the list of Dictionay IDs (<b>GUID</b>) of the IME plug-in dictionaries 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is implemented in classes of ProgID="ImePlugInDictDictionaryList1041" for Microsoft Japanese IME and ProgID="ImePlugInDictDictionaryList2052" for Microsoft Simplified Chinese IME.
-
-
 

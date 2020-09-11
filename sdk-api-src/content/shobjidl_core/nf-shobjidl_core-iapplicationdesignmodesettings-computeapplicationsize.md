@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501
 ms.date: 12/05/2018
 ms.keywords: ComputeApplicationSize, ComputeApplicationSize method [Windows Shell], ComputeApplicationSize method [Windows Shell],IApplicationDesignModeSettings interface, IApplicationDesignModeSettings interface [Windows Shell],ComputeApplicationSize method, IApplicationDesignModeSettings.ComputeApplicationSize, IApplicationDesignModeSettings::ComputeApplicationSize, shell.IApplicationDesignModeSettings_ComputeApplicationSize, shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
-f1_keywords:
-- shobjidl_core/IApplicationDesignModeSettings.ComputeApplicationSize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Twinapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Twinapi.dll
-api_name:
-- IApplicationDesignModeSettings.ComputeApplicationSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationDesignModeSettings::ComputeApplicationSize
+ - shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Twinapi.dll
+api_name:
+ - IApplicationDesignModeSettings.ComputeApplicationSize
 ---
 
 # IApplicationDesignModeSettings::ComputeApplicationSize
 
 
 ## -description
-
 
 Gets the size of the Windows Store app, based on the current set of spoofed settings.
 
@@ -68,21 +68,13 @@ In addition, each of these methods must be called before calling <b>ComputeAppli
 </li>
 </ul>
 
-
-
 ## -parameters
-
-
-
 
 ### -param applicationSizePixels [out]
 
 When this method returns successfully, receives a pointer to the size that the Windows Store app should occupy, based on the current set of spoofed settings.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code, including the following:
 
@@ -104,18 +96,8 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
- 
-
- 
 

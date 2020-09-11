@@ -8,10 +8,6 @@ tech.root: InputMsg
 ms.assetid: 6b7f450d-6ab1-4991-b2f9-a1db3f065711
 ms.date: 12/05/2018
 ms.keywords: GetPointerFrameInfo, GetPointerFrameInfo function [Input Messages and Notifications], inputmsg.getpointerframeinfo, winuser/GetPointerFrameInfo
-f1_keywords:
-- winuser/GetPointerFrameInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
-- MinUser.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
-- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
-api_name:
-- GetPointerFrameInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPointerFrameInfo
+ - winuser/GetPointerFrameInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-WMPointer-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+ - MinUser.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+api_name:
+ - GetPointerFrameInfo
 ---
 
 # GetPointerFrameInfo function
@@ -56,44 +57,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the entire frame of information for the specified pointers associated with the current message. 
-
+Gets the entire frame of information for the specified pointers associated with the current message.
 
 ## -parameters
-
-
-
 
 ### -param pointerId [in]
 
 An identifier of the pointer for which to retrieve frame information.
 
-
 ### -param pointerCount [in, out]
 
 A pointer to a variable that specifies the count of structures in the buffer to which pointerInfo points. If <b>GetPointerFrameInfo</b> succeeds, <i>pointerCount</i> is updated with the total count of pointers in the frame.
-
 
 ### -param pointerInfo [out]
 
 Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structures to receive the pointer information. This parameter can be <b>NULL</b> if <i>*pointerCount</i> is zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Parallel-mode devices may report pointer input in frames, that is, they may report the state and position of all pointers from that device in a single input report to the system. Ideally, applications should view the entire frame as a single input unless the application-specific requirements dictate otherwise. 
 
@@ -128,12 +114,7 @@ We recommend the following if you want to filter data from the input frame:
 <li>For each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UP</a>, use the tracking info to determine whether the input is client or non-client and then clear this pointer from the tracking data.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
@@ -148,7 +129,4 @@ We recommend the following if you want to filter data from the input frame:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>
- 
-
- 
 

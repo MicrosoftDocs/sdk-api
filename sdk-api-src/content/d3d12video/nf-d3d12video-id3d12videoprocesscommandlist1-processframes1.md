@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessCommandList1::ProcessFrames1","ProcessF
 tech.root: mf
 ms.assetid: a0310ab9-bf11-4a40-a463-6ad6cf7fd3eb
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList1::ProcessFrames1
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList1::ProcessFrames1, ProcessFrames1, ID3D12VideoProcessCommandList1.ProcessFrames1, ID3D12VideoProcessCommandList1::ProcessFrames1, ID3D12VideoProcessCommandList1.ProcessFrames1
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList1::ProcessFrames1
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList1::ProcessFrames1
+ - d3d12video/ID3D12VideoProcessCommandList1::ProcessFrames1
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList1::ProcessFrames1
 ---
 
 # ID3D12VideoProcessCommandList1::ProcessFrames1
@@ -51,7 +52,7 @@ Records a video processing operation to the command list, operating on one or mo
 
 ### -param pVideoProcessor
 
-A pointer to an [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) interface representing a video processor instance. 
+A pointer to an [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor.md) interface representing a video processor instance.
 
 ### -param pOutputArguments
 

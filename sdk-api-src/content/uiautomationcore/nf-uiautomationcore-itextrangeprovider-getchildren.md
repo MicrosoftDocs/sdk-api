@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 2b68a7eb-8ff5-4e8c-830b-e180b2c08be4
 ms.date: 12/05/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetChildren method, ITextRangeProvider.GetChildren, ITextRangeProvider::GetChildren, uiauto.uiauto_ITextRangeProvider_GetChildren, uiauto_ITextRangeProvider_GetChildren, uiautomationcore/ITextRangeProvider::GetChildren, winauto.uiauto_ITextRangeProvider_GetChildren
-f1_keywords:
-- uiautomationcore/ITextRangeProvider.GetChildren
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ITextRangeProvider.GetChildren
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRangeProvider::GetChildren
+ - uiautomationcore/ITextRangeProvider::GetChildren
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ITextRangeProvider.GetChildren
 ---
 
 # ITextRangeProvider::GetChildren
+
 
 ## -description
 
@@ -118,3 +120,4 @@ Each element retrieved with [ITextRangeProvider::GetChildren](/windows/win32/api
 ## -see-also
 
 [ITextProvider](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider](nn-uiautomationcore-itextrangeprovider.md), [GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md), [ITextProvider::RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md), [UI Automation Providers Overview](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview), [Best Practices for Using Safe Arrays](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays)
+

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowdisplayaffinity.htm
 ms.date: 12/05/2018
 ms.keywords: SetWindowDisplayAffinity, SetWindowDisplayAffinity function [Windows and Messages], _win32_SetWindowDisplayAffinity, _win32_setwindowdisplayaffinity_cpp, winmsg.setwindowdisplayaffinity, winui._win32_setwindowdisplayaffinity, winuser/SetWindowDisplayAffinity
-f1_keywords:
-- winuser/SetWindowDisplayAffinity
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,36 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetWindowDisplayAffinity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowDisplayAffinity
+ - winuser/SetWindowDisplayAffinity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetWindowDisplayAffinity
 ---
 
 # SetWindowDisplayAffinity function
 
+
 ## -description
 
-Stores the display affinity setting in kernel mode on the hWnd associated with the window. 
+Stores the display affinity setting in kernel mode on the hWnd associated with the window.
 
 ## -parameters
 
@@ -60,7 +62,7 @@ Stores the display affinity setting in kernel mode on the hWnd associated with t
 
 Type: <b>HWND</b>
 
-A handle to the window. 
+A handle to the window.
 
 ### -param dwAffinity [in]
 
@@ -78,7 +80,7 @@ Set this value to WDA_EXCLUDEFROMCAPTURE to display the content only on a monito
 
 Type: <b>BOOL</b>
 
-If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> when, for example,  the function call is made on a non top-level window. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -91,8 +93,4 @@ Starting in Windows 10 Version 2004, WDA_EXCLUDEFROMCAPTURE is a supported value
 ## -see-also
 
 [SetWindowDisplayAffinity](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowdisplayaffinity), [Windows](https://docs.microsoft.com/windows/desktop/winmsg/windows)
-
- 
-
- 
 

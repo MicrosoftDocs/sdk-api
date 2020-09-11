@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff
 ms.date: 12/05/2018
 ms.keywords: GetCodecFormat, GetCodecFormat method [windows Media Format], GetCodecFormat method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormat method, IWMCodecInfo.GetCodecFormat, IWMCodecInfo::GetCodecFormat, IWMCodecInfoGetCodecFormat, wmformat.iwmcodecinfo_getcodecformat, wmsdkidl/IWMCodecInfo::GetCodecFormat
-f1_keywords:
-- wmsdkidl/IWMCodecInfo.GetCodecFormat
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMCodecInfo.GetCodecFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecInfo::GetCodecFormat
+ - wmsdkidl/IWMCodecInfo::GetCodecFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMCodecInfo.GetCodecFormat
 ---
 
 # IWMCodecInfo::GetCodecFormat
@@ -52,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCodecFormat</b> method retrieves one format supported by a specified codec. This method retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of a stream configuration object containing the stream settings for the supported format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidType [in]
 
@@ -84,27 +77,20 @@ The <b>GetCodecFormat</b> method retrieves one format supported by a specified c
 <td>Specifies an audio codec.</td>
 </tr>
 </table>
- 
-
 
 ### -param dwCodecIndex [in]
 
 <b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
-
 ### -param dwFormatIndex [in]
 
 <b>DWORD</b> containing the format index ranging from zero to one less than the number of supported formats. To retrieve the number of individual formats supported by a codec, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount">IWMCodecInfo::GetCodecFormatCount</a> method.
-
 
 ### -param ppIStreamConfig [out]
 
 Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface of a stream configuration object containing the settings of the specified format.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -136,14 +122,8 @@ An invalid or null value has been passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method along with <b>GetCodecFormatCount</b> to enumerate the formats supported by the codec.
 
@@ -153,13 +133,7 @@ The Windows Media Format SDK provides codecs only for audio and video. If you sp
 
 The Windows Media Video codecs all support a single format that you must complete with your desired settings. When obtaining a video format, you can always use format index 1. For more information see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-video-streams">Configuring Video Streams</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
 
@@ -170,7 +144,4 @@ The Windows Media Video codecs all support a single format that you must complet
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
- 
-
- 
 

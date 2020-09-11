@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b4098876-6c11-4cc6-8b6d-16edc02316f3
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudioMediaStream interface [DirectShow],described, IAudioMediaStreamInterface, austream/IAudioMediaStream, dshow.iaudiomediastream
-f1_keywords:
-- austream/IAudioMediaStream
-dev_langs:
-- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- austream.h
-api_name:
-- IAudioMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioMediaStream
+ - austream/IAudioMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - austream.h
+api_name:
+ - IAudioMediaStream
 ---
 
 # IAudioMediaStream interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
@@ -62,9 +61,6 @@ For sample code that implements the audio streaming interfaces, see <a href="htt
 Like video, audio is contained in a self-describing container object. Implement this interface when an object needs to control streaming audio.
 
 Use this interface when you want to generate audio in your application.
-
-
-
 
 ## -inheritance
 
@@ -108,16 +104,9 @@ Sets the format for the stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>
- 
-
- 
 

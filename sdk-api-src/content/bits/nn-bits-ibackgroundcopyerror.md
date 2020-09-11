@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: a0b9e887-84d5-4f67-a65c-6a807c50dafd
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyError, IBackgroundCopyError interface [BITS], IBackgroundCopyError interface [BITS],described, _drz_ibackgroundcopyerror, bits.ibackgroundcopyerror, bits/IBackgroundCopyError
-f1_keywords:
-- bits/IBackgroundCopyError
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyError
+ - bits/IBackgroundCopyError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyError
 ---
 
 # IBackgroundCopyError interface
 
 
 ## -description
-
 
 Use the  
 <b>IBackgroundCopyError</b> interface to determine the cause of 	an  error and if the transfer process can proceed.
@@ -58,7 +58,6 @@ BITS creates an error object only when the state of the job is BG_JOB_STATE_ERRO
 To get an 
 <b>IBackgroundCopyError</b> object, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a> method.
-
 
 ## -inheritance
 
@@ -120,13 +119,9 @@ Retrieves the protocol used to transfer the file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/bits/ne-bits-bg_job_state">BG_JOB_STATE</a>
 
@@ -145,7 +140,4 @@ Retrieves the protocol used to transfer the file.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a>
- 
-
- 
 

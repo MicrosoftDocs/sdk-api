@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0
 ms.date: 12/05/2018
 ms.keywords: CreateUnicastIpAddressEntry, CreateUnicastIpAddressEntry function [IP Helper], iphlp.createunicastipaddressentry, netioapi/CreateUnicastIpAddressEntry
-f1_keywords:
-- netioapi/CreateUnicastIpAddressEntry
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- CreateUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateUnicastIpAddressEntry
+ - netioapi/CreateUnicastIpAddressEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - CreateUnicastIpAddressEntry
 ---
 
 # CreateUnicastIpAddressEntry function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>CreateUnicastIpAddressEntry</b> function  adds a new unicast IP address entry on the local computer. 
-
+<b>CreateUnicastIpAddressEntry</b> function  adds a new unicast IP address entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry for a unicast IP address entry.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -148,14 +141,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreateUnicastIpAddressEntry</b> function is defined on Windows Vista and later. 
 
@@ -392,14 +379,7 @@ void CALLBACK CallCompleted(PVOID callerContext, PMIB_UNICASTIPADDRESS_ROW row, 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry">DeleteUnicastIpAddressEntry</a>
 
@@ -446,7 +426,4 @@ void CALLBACK CallCompleted(PVOID callerContext, PMIB_UNICASTIPADDRESS_ROW row, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
- 
-
- 
 

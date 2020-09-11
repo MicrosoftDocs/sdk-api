@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 3c4a0d8b-75a5-4729-8c64-476c36d01a90
 ms.date: 12/05/2018
 ms.keywords: CloseEnhMetaFile, CloseEnhMetaFile function [Windows GDI], _win32_CloseEnhMetaFile, gdi.closeenhmetafile, wingdi/CloseEnhMetaFile
-f1_keywords:
-- wingdi/CloseEnhMetaFile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-metafile-l1-1-2.dll
-- GDI32Full.dll
-api_name:
-- CloseEnhMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CloseEnhMetaFile
+ - wingdi/CloseEnhMetaFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-metafile-l1-1-2.dll
+ - GDI32Full.dll
+api_name:
+ - CloseEnhMetaFile
 ---
 
 # CloseEnhMetaFile function
@@ -51,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CloseEnhMetaFile</b> function closes an enhanced-metafile device context and returns a handle that identifies an enhanced-format metafile.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to an enhanced-metafile device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to an enhanced metafile.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 An application can use the enhanced-metafile handle returned by the <b>CloseEnhMetaFile</b> function to perform the following tasks:
 
@@ -94,13 +82,7 @@ An application can use the enhanced-metafile handle returned by the <b>CloseEnhM
 </ul>
 When the application no longer needs the enhanced metafile handle, it should release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-copyenhmetafilea">CopyEnhMetaFile</a>
 
@@ -135,7 +117,4 @@ When the application no longer needs the enhanced metafile handle, it should rel
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playenhmetafile">PlayEnhMetaFile</a>
- 
-
- 
 

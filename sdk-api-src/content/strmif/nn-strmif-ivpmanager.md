@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
 ms.date: 12/05/2018
 ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
-f1_keywords:
-- strmif/IVPManager
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVPManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPManager
+ - strmif/IVPManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVPManager
 ---
 
 # IVPManager interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVPManager</code> interface is implemented on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-port-manager">Video Port Manager</a> (VPM). The interface provides methods for applications to specify and retrieve indexes for ports when there are multiple video ports on a system, and to specify and retrieve the rectangle used by the video port. Currently, only the two index-related methods are implemented.
-
-
-
 
 ## -inheritance
 
@@ -90,5 +86,5 @@ Instructs the Video Port Manager to connect to the specified video port.
 
 </td>
 </tr>
-</table> 
+</table>
 

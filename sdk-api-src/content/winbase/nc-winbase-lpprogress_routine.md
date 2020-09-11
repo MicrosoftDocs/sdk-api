@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
 ms.date: 12/05/2018
 ms.keywords: CALLBACK_CHUNK_FINISHED, CALLBACK_STREAM_SWITCH, CopyProgressRoutine, CopyProgressRoutine callback, CopyProgressRoutine callback function [Files], LPPROGRESS_ROUTINE, LPPROGRESS_ROUTINE callback function [Files], _win32_copyprogressroutine, base.copyprogressroutine, fs.copyprogressroutine, winbase/CopyProgressRoutine, winbase/LPPROGRESS_ROUTINE
-f1_keywords:
-- winbase/CopyProgressRoutine
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinBase.h
-api_name:
-- CopyProgressRoutine
-- LPPROGRESS_ROUTINE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPPROGRESS_ROUTINE
+ - winbase/LPPROGRESS_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinBase.h
+api_name:
+ - CopyProgressRoutine
+ - LPPROGRESS_ROUTINE
 ---
 
 # LPPROGRESS_ROUTINE callback function
 
 
 ## -description
-
 
 An application-defined callback function used with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>, 
@@ -60,40 +60,31 @@ An application-defined callback function used with the
     <b>CopyProgressRoutine</b> is a placeholder for the 
     application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param TotalFileSize [in]
 
 The total size of the file, in bytes.
-
 
 ### -param TotalBytesTransferred [in]
 
 The total number of bytes transferred from the source file to the destination file since the copy operation 
       began.
 
-
 ### -param StreamSize [in]
 
 The total size of the current file stream, in bytes.
-
 
 ### -param StreamBytesTransferred [in]
 
 The total number of bytes in the current stream that have been transferred from the source file to the 
       destination file since the copy operation began.
 
-
 ### -param dwStreamNumber [in]
 
 A handle to the current stream. The first time 
       <b>CopyProgressRoutine</b> is called, the stream number 
       is 1.
-
 
 ### -param dwCallbackReason [in]
 
@@ -129,18 +120,14 @@ Another stream was created and is about to be copied. This is the callback reaso
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hSourceFile [in]
 
 A handle to the source file.
 
-
 ### -param hDestinationFile [in]
 
 A handle to the destination file
-
 
 ### -param lpData [in, optional]
 
@@ -149,10 +136,7 @@ Argument passed to <b>CopyProgressRoutine</b> by
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>, or 
       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>.
 
-
 ## -returns
-
-
 
 The <b>CopyProgressRoutine</b> function should return 
        one of the following values.
@@ -212,25 +196,13 @@ Stop the copy operation. It can be restarted at a later time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application can use this information to display a progress bar that shows the total number of bytes copied 
     as a percent of the total file size.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>
 
@@ -245,7 +217,4 @@ An application can use this information to display a progress bar that shows the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
- 
-
- 
 

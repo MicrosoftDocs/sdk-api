@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: ccc650dc-1759-4438-85d5-539c71d21a74
 ms.date: 12/05/2018
 ms.keywords: UnlockUrlCacheEntryFile, UnlockUrlCacheEntryFile function [WinINet], UnlockUrlCacheEntryFileA, UnlockUrlCacheEntryFileW, _inet_unlockurlcacheentryfile_function, wininet.unlockurlcacheentryfile, wininet/UnlockUrlCacheEntryFile, wininet/UnlockUrlCacheEntryFileA, wininet/UnlockUrlCacheEntryFileW
-f1_keywords:
-- wininet/UnlockUrlCacheEntryFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- UnlockUrlCacheEntryFile
-- UnlockUrlCacheEntryFileA
-- UnlockUrlCacheEntryFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnlockUrlCacheEntryFileW
+ - wininet/UnlockUrlCacheEntryFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - UnlockUrlCacheEntryFile
+ - UnlockUrlCacheEntryFileA
+ - UnlockUrlCacheEntryFileW
 ---
 
 # UnlockUrlCacheEntryFileW function
@@ -51,38 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unlocks the cache entry that was locked while the file was retrieved for use from the cache.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrlName [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the source name of the cache entry that is being unlocked. The name string should not contain any escape characters.
 
-
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. ERROR_FILE_NOT_FOUND indicates that the cache entry specified by the source name is not found in the cache storage.
 
-
-
-
 ## -remarks
-
-
 
 The application should not access the file after calling this function.
 
@@ -101,15 +88,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

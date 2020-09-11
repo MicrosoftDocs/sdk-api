@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c21c5611-f376-4899-9914-c14a18af3810
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], IVMRWindowlessControl interface [DirectShow],described, IVMRWindowlessControlInterface, dshow.ivmrwindowlesscontrol, strmif/IVMRWindowlessControl
-f1_keywords:
-- strmif/IVMRWindowlessControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRWindowlessControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRWindowlessControl
+ - strmif/IVMRWindowlessControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRWindowlessControl
 ---
 
 # IVMRWindowlessControl interface
@@ -50,12 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IVMRWindowlessControl</code> interface controls how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) renders a video stream within a container window. Applications must first put the VMR-7 into windowless mode before using this interface.
 
 For the VMR-9, use the IVMRWindowlessControl9 interface.
-
 
 ## -inheritance
 
@@ -207,16 +205,9 @@ Sets the source and destination rectangles for the video.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.date: 04/30/2018
 ms.keywords: '*POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, ntdef/OBJECT_ATTRIBUTES, ntdef/POBJECT_ATTRIBUTES'
-f1_keywords:
-- ntdef/- OBJECT_ATTRIBUTES
-dev_langs:
-- c++
 req.header: ntdef.h
 req.include-header: D3dkmthk.h, Ntdef.h, Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -29,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdef.h
-api_name:
-- OBJECT_ATTRIBUTES
 targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
+f1_keywords:
+ - _OBJECT_ATTRIBUTES
+ - ntdef/_OBJECT_ATTRIBUTES
+ - OBJECT_ATTRIBUTES
+ - ntdef/OBJECT_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdef.h
+api_name:
+ - OBJECT_ATTRIBUTES
 ---
 
 # _OBJECT_ATTRIBUTES structure
@@ -47,29 +50,21 @@ req.typenames: OBJECT_ATTRIBUTES
 
 ## -description
 
-
 The <b>OBJECT_ATTRIBUTES</b> structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 The number of bytes of data contained in this structure. The [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
 
-
 ### -field RootDirectory
 
 Optional handle to the root object directory for the path name specified by the <b>ObjectName</b> member. If <b>RootDirectory</b> is <b>NULL</b>, <b>ObjectName</b> must point to a fully qualified object name that includes the full path to the target object. If <b>RootDirectory</b> is non-<b>NULL</b>, <b>ObjectName</b> specifies an object name relative to the <b>RootDirectory</b> directory. The <b>RootDirectory</b> handle can refer to a file system directory or an object directory in the object manager namespace.
 
-
 ### -field ObjectName
 
 Pointer to a [Unicode string](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
-
 
 ### -field Attributes
 
@@ -193,20 +188,15 @@ Reserved.
 </tr>
 </table>
 
-
 ### -field SecurityDescriptor
 
 Specifies a security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
-
 
 ### -field SecurityQualityOfService
 
 Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro sets this member to <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 Use the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
 
@@ -216,13 +206,7 @@ All members of this structure are read-only. If a member of this structure is a 
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag for the <b>Attributes</b> member (by using the <b>InitializeObjectAttributes</b> macro). This restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
@@ -261,10 +245,11 @@ Driver routines that run in a process context other than that of the system proc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
- 
+ï¿½
 
- 
+ï¿½
 
 
 f1_keywords: 
  - "ntdef/ANSI_STRING"
+

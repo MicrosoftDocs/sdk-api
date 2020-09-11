@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
 ms.date: 12/05/2018
 ms.keywords: '*PTRUSTEEW, *PTRUSTEE_W, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEW, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee'
-f1_keywords:
-- accctrl/TRUSTEE
-dev_langs:
-- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- AccCtrl.h
-api_name:
-- TRUSTEE
-- TRUSTEE_A
-- TRUSTEE_W
 targetos: Windows
 req.typenames: TRUSTEE_W, *PTRUSTEE_W, TRUSTEEW, *PTRUSTEEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TRUSTEE_W
+ - accctrl/_TRUSTEE_W
+ - PTRUSTEE_W
+ - accctrl/PTRUSTEE_W
+ - TRUSTEE_W
+ - accctrl/TRUSTEE_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - AccCtrl.h
+api_name:
+ - TRUSTEE
+ - TRUSTEE_A
+ - TRUSTEE_W
 ---
 
 # TRUSTEE_W structure
@@ -51,106 +56,58 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TRUSTEE</b> structure identifies the user account, group account, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> to which an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) applies. The structure can use a name or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to identify the trustee.
 
 Access control functions, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>, use this structure to identify the logon account associated with the access control or audit control information in an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pMultipleTrustee
 
 A pointer to a <b>TRUSTEE</b> structure that identifies a server account that can impersonate the user identified by the <b>ptstrName</b> member. This member is not currently supported and must be <b>NULL</b>.
-
 
 ### -field MultipleTrusteeOperation
 
 A value of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a> enumeration type. Currently, this member must be NO_MULTIPLE_TRUSTEE.
 
-
 ### -field TrusteeForm
 
 A value from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_form">TRUSTEE_FORM</a> enumeration type that indicates the type of data pointed to by the <b>ptstrName</b> member.
-
 
 ### -field TrusteeType
 
 A value from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
 
-
 ### -field ptstrName.case
-
- 
-
 
 ### -field ptstrName.case.TRUSTEE_IS_NAME
 
- 
-
-
 ### -field pSid
-
- 
-
 
 ### -field pSid.case
 
- 
-
-
 ### -field pSid.case.TRUSTEE_IS_SID
-
- 
-
 
 ### -field pObjectsAndSid
 
- 
-
-
 ### -field pObjectsAndSid.case
-
- 
-
 
 ### -field pObjectsAndSid.case.TRUSTEE_IS_OBJECTS_AND_SID
 
- 
-
-
 ### -field pObjectsAndName
-
- 
-
 
 ### -field pObjectsAndName.case
 
- 
-
-
 ### -field pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME
-
- 
-
 
 ### -field switch_is
 
- 
-
-
 ### -field switch_is.TrusteeForm
-
- 
-
 
 ### -field ptstrName
 
@@ -209,12 +166,8 @@ A pointer to an
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 A trustee name can have any of the following formats:
 
@@ -256,9 +209,6 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
@@ -296,7 +246,4 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a>
- 
-
- 
 

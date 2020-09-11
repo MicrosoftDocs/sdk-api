@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
-f1_keywords:
-- p2p/PeerCollabEnumEndpoints
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabEnumEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabEnumEndpoints
+ - p2p/PeerCollabEnumEndpoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabEnumEndpoints
 ---
 
 # PeerCollabEnumEndpoints function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabEnumEndpoints</b> function returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.
 
-
 ## -parameters
-
-
-
 
 ### -param pcContact [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contains the contact information for a specific peer. This parameter must not be <b>NULL</b>.
 
-
 ### -param phPeerEnum [out]
 
 Pointer to a handle for the enumerated set of endpoints that are associated with the supplied peer contact. Pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to obtain each item in the enumerated set.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -124,14 +116,8 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 It is recommended that a contact record is updated using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabupdatecontact">PeerCollabUpdateContact</a> prior to calling <b>PeerCollabEnumEndpoints</b>. Failure to do so can result in a return of E_INVALIDARG.
 
@@ -141,20 +127,11 @@ To obtain the individual peer endpoints, pass the returned handle to <a href="ht
 
 The limit for connections to a single contact is 50.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
 

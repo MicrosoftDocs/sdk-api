@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mstv
 archived: true
+f1_keywords:
+ - encdec
+ - encdec/encdec
 ---
 
 # Encdec.h header
 
 
 ## -description
-
 
 This header is used by Microsoft TV Technologies. For more information, see:
 

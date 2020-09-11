@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 4ab42348-0fd2-418f-a2e6-db478d3a3e33
 ms.date: 12/05/2018
 ms.keywords: ACMFORMATTAGENUMCB, ACMFORMATTAGENUMCB callback, ACMFORMATTAGENUMCB callback function [Windows Multimedia], ACMFORMATTAGENUMCBA, ACMFORMATTAGENUMCBW, _win32_acmFormatTagEnumCallback, acmFormatTagEnumCallback, msacm/ACMFORMATTAGENUMCB, msacm/ACMFORMATTAGENUMCBA, msacm/ACMFORMATTAGENUMCBW, multimedia.acmformattagenumcallback
-f1_keywords:
-- msacm/ACMFORMATTAGENUMCB
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Msacm.h
-api_name:
-- ACMFORMATTAGENUMCB
-- ACMFORMATTAGENUMCBA
-- ACMFORMATTAGENUMCBW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ACMFORMATTAGENUMCBA
+ - msacm/ACMFORMATTAGENUMCBA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFORMATTAGENUMCB
+ - ACMFORMATTAGENUMCBA
+ - ACMFORMATTAGENUMCBW
 ---
 
 # ACMFORMATTAGENUMCBA callback function
@@ -51,32 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmFormatTagEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function. The <b>acmFormatTagEnumCallback</b> name is a placeholder for an application-defined function name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hadid
 
 Handle to the ACM driver identifier.
 
-
 ### -param paftd
 
 Pointer to an [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure that contains the enumerated format tag details.
 
-
 ### -param dwInstance
 
 Application-defined value specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function.
-
 
 ### -param fdwSupport
 
@@ -110,21 +100,12 @@ Driver-support flags specific to the format tag. These flags are identical to th
 <td>Driver supports hardware input, output, or both of the specified format tag through a waveform-audio device. An application should use <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The callback function must return <b>TRUE</b> to continue enumeration or <b>FALSE</b> to stop enumeration.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function will return MMSYSERR_NOERROR (zero) if no format tags are to be enumerated. Moreover, the callback function will not be called.
 
@@ -139,15 +120,9 @@ The following functions should not be called from within the callback function: 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
 

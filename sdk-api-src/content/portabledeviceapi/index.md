@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wpdsdk
+f1_keywords:
+ - portabledeviceapi
+ - portabledeviceapi/portabledeviceapi
 ---
 
 # Portabledeviceapi.h header
 
 
 ## -description
-
 
 This header is used by WPD Application Programming Interface. For more information, see:
 

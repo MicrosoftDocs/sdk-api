@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenu.htm
 ms.date: 12/05/2018
 ms.keywords: InsertMenu, InsertMenu function [Menus and Other Resources], InsertMenuA, InsertMenuW, MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _win32_InsertMenu, _win32_insertmenu_cpp, menurc.insertmenu, winui._win32_insertmenu, winuser/InsertMenu, winuser/InsertMenuA, winuser/InsertMenuW
-f1_keywords:
-- winuser/InsertMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- InsertMenu
-- InsertMenuA
-- InsertMenuW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InsertMenuW
+ - winuser/InsertMenuW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - InsertMenu
+ - InsertMenuA
+ - InsertMenuW
 ---
 
 # InsertMenuW function
@@ -55,29 +56,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts a new menu item into a menu, moving other items down the menu. 
 <div class="alert"><b>Note</b>  The <b>InsertMenu</b> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a> function. You can still use <b>InsertMenu</b>, however, if you do not need any of the extended features of <b>InsertMenuItem</b>.
 </div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu to be changed. 
-
+A handle to the menu to be changed.
 
 ### -param uPosition [in]
 
 Type: <b>UINT</b>
 
-The menu item before which the new menu item is to be inserted, as determined by the <i>uFlags</i> parameter. 
-
+The menu item before which the new menu item is to be inserted, as determined by the <i>uFlags</i> parameter.
 
 ### -param uFlags [in]
 
@@ -257,15 +252,12 @@ Does not place a check mark next to the menu item (default). If the application 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uIDNewItem [in]
 
 Type: <b>UINT_PTR</b>
 
-The identifier of the new menu item or, if the <i>uFlags</i> parameter has the <b>MF_POPUP</b> flag set, a handle to the drop-down menu or submenu. 
-
+The identifier of the new menu item or, if the <i>uFlags</i> parameter has the <b>MF_POPUP</b> flag set, a handle to the drop-down menu or submenu.
 
 ### -param lpNewItem [in, optional]
 
@@ -312,25 +304,16 @@ Contains a pointer to a null-terminated string (the default).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
@@ -351,9 +334,6 @@ The following groups of flags cannot be used together:
 > The winuser.h header defines InsertMenu as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>
 
@@ -404,7 +384,4 @@ The following groups of flags cannot be used together:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
- 
-
- 
 

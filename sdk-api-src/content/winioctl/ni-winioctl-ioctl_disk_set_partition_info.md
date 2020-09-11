@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 868cad92-fa88-4a5a-98bb-92e73c115a22
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control, IOCTL_DISK_SET_PARTITION_INFO control code [Files], _win32_ioctl_disk_set_partition_info, base.ioctl_disk_set_partition_info, fs.ioctl_disk_set_partition_info, winioctl/IOCTL_DISK_SET_PARTITION_INFO
-f1_keywords:
-- winioctl/IOCTL_DISK_SET_PARTITION_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_SET_PARTITION_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_SET_PARTITION_INFO
+ - winioctl/IOCTL_DISK_SET_PARTITION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_SET_PARTITION_INFO
 ---
 
 # IOCTL_DISK_SET_PARTITION_INFO IOCTL
+
 
 ## -description
 
@@ -67,26 +69,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -96,11 +91,9 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of [IOCTL_DISK_SET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_set_drive_layout.md).
-
 
 ## -see-also
 
@@ -109,3 +102,4 @@ If the partition is on a disk formatted as type master boot record (MBR), partit
 * [IOCTL_DISK_GET_PARTITION_INFO](ni-winioctl-ioctl_disk_get_partition_info.md)
 * [IOCTL_DISK_SET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_set_partition_info_ex.md)
 * [SET_PARTITION_INFORMATION](ns-winioctl-set_partition_information.md)
+

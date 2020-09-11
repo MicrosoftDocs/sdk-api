@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
-f1_keywords:
-- certenroll/IObjectId.GetAlgorithmName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IObjectId.GetAlgorithmName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectId::GetAlgorithmName
+ - certenroll/IObjectId::GetAlgorithmName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IObjectId.GetAlgorithmName
 ---
 
 # IObjectId::GetAlgorithmName
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAlgorithmName</b> method retrieves the display name associated with an algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
-
 ## -parameters
-
-
-
 
 ### -param GroupId [in]
 
@@ -86,15 +82,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenr
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG</b></li>
 </ul>You can use either of the last two values to disambiguate among algorithms such as RSA that can be used to both encrypt and sign messages. You must also specify <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b> in the <i>GroupId</i> parameter. Specify <b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b> if you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b>.
 
-
 ### -param pstrAlgorithmName [out]
 
 Pointer to a <b>BSTR</b> variable that contains the name.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -130,29 +122,14 @@ The algorithm name could not be found. You must call <a href="https://docs.micro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use the <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> constant to create a <i>GroupId</i> parameter value that takes account of the key size for algorithms that can be identified by a variable bit length. For example, to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-OR combination on the shifted bit length and <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b>.
 
 If you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b>, specify <b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b> for the <i>KeyFlags</i> parameter.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
- 
-
- 
 

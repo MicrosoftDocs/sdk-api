@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetConnectInfo, DdVideoPortGetConnectInfo callback function [Display Devices], PDD_VPORTCB_GETVPORTCONNECT, PDD_VPORTCB_GETVPORTCONNECT callback, ddfncs_10f9e183-b3f5-42c4-b97a-c44f8b5ea791.xml, ddrawint/DdVideoPortGetConnectInfo, display.ddvideoportgetconnectinfo
-f1_keywords:
-- ddrawint/DdVideoPortGetConnectInfo
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdVideoPortGetConnectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_VPORTCB_GETVPORTCONNECT
+ - ddrawint/PDD_VPORTCB_GETVPORTCONNECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdVideoPortGetConnectInfo
 ---
 
 # PDD_VPORTCB_GETVPORTCONNECT callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>DdVideoPortGetConnectInfo</i> callback function returns the connections supported by the specified VPE object.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpGetConnect
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a> structure that contains the information required for the driver to return the VPE object connection data.
 
-
 ## -returns
-
-
 
 <i>DdVideoPortGetConnectInfo</i> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <i>DdVideoPortGetConnectInfo</i> must be implemented in DirectDraw drivers that support VPE.
 
@@ -100,19 +81,11 @@ In the second call, <b>lpConnect</b> points to the array of allocated <a href="h
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddvideoportconnect">DDVIDEOPORTCONNECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a>
- 
-
- 
 

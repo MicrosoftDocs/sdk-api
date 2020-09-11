@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SaveAsXML method, IVssBackupComponents.SaveAsXML, IVssBackupComponents::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_saveasxml, base.ivssbackupcomponents_saveasxml, vsbackup/IVssBackupComponents::SaveAsXML
-f1_keywords:
-- vsbackup/IVssBackupComponents.SaveAsXML
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SaveAsXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SaveAsXML
+ - vsbackup/IVssBackupComponents::SaveAsXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SaveAsXML
 ---
 
 # IVssBackupComponents::SaveAsXML
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SaveAsXML</b> method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrXML [in]
 
 Pointer to a string to be used to store the Backup Components Document containing a requester's state information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -135,14 +128,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a typical backup operation, 
 <b>SaveAsXML</b> should not be called until after both writers and the requester are finished modifying the Backup Components Document.
@@ -163,13 +150,7 @@ However,
 <b>SaveAsXML</b> should never be called prior to 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>, because the Backup Components Document will not have been filled by the requester and the writers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -188,7 +169,4 @@ However,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
- 
-
- 
 

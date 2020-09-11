@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e67ccaa7-a735-4695-8385-28f57b41821c
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Files], PDRIVE_LAYOUT_INFORMATION, PDRIVE_LAYOUT_INFORMATION structure pointer [Files], _win32_drive_layout_information_str, base.drive_layout_information_str, fs.drive_layout_information_str, winioctl/DRIVE_LAYOUT_INFORMATION, winioctl/PDRIVE_LAYOUT_INFORMATION'
-f1_keywords:
-- winioctl/DRIVE_LAYOUT_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DRIVE_LAYOUT_INFORMATION
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION, *PDRIVE_LAYOUT_INFORMATION
 req.redist: 
+f1_keywords:
+ - _DRIVE_LAYOUT_INFORMATION
+ - winioctl/_DRIVE_LAYOUT_INFORMATION
+ - PDRIVE_LAYOUT_INFORMATION
+ - winioctl/PDRIVE_LAYOUT_INFORMATION
+ - DRIVE_LAYOUT_INFORMATION
+ - winioctl/DRIVE_LAYOUT_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DRIVE_LAYOUT_INFORMATION
 ---
 
 # DRIVE_LAYOUT_INFORMATION structure
+
 
 ## -description
 
@@ -71,3 +77,4 @@ A variable-sized array of [**PARTITION_INFORMATION**](ns-winioctl-partition_info
 ## -see-also
 
 [DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md), [IOCTL_DISK_GET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_get_drive_layout.md), [IOCTL_DISK_SET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_set_drive_layout.md)
+

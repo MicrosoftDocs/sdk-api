@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPSHEETHEADERA_V2, LPPROPSHEETHEADER, LPPROPSHEETHEADER structure pointer [Windows Controls], PROPSHEETHEADER, PROPSHEETHEADER structure [Windows Controls], PROPSHEETHEADERA, PROPSHEETHEADERA_V2, PROPSHEETHEADERW, PSH_AEROWIZARD, PSH_DEFAULT, PSH_HASHELP, PSH_HEADER, PSH_HEADERBITMAP, PSH_MODELESS, PSH_NOAPPLYNOW, PSH_NOCONTEXTHELP, PSH_NOMARGIN, PSH_PROPSHEETPAGE, PSH_PROPTITLE, PSH_RESIZABLE, PSH_RTLREADING, PSH_STRETCHWATERMARK, PSH_USECALLBACK, PSH_USEHBMHEADER, PSH_USEHBMWATERMARK, PSH_USEHICON, PSH_USEHPLWATERMARK, PSH_USEICONID, PSH_USEPAGELANG, PSH_USEPSTARTPAGE, PSH_WATERMARK, PSH_WIZARD, PSH_WIZARD97, PSH_WIZARDCONTEXTHELP, PSH_WIZARDHASFINISH, PSH_WIZARD_LITE, _win32_PROPSHEETHEADER, _win32_PROPSHEETHEADER_cpp, controls.PROPSHEETHEADER, controls._win32_PROPSHEETHEADER, prsht/LPPROPSHEETHEADER, prsht/PROPSHEETHEADER, prsht/PROPSHEETHEADERA, prsht/PROPSHEETHEADERW'
-f1_keywords:
-- prsht/PROPSHEETHEADER
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PROPSHEETHEADER
-- PROPSHEETHEADERA
-- PROPSHEETHEADERW
 targetos: Windows
 req.typenames: PROPSHEETHEADERA_V2, *LPPROPSHEETHEADERA_V2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROPSHEETHEADERA_V2
+ - prsht/_PROPSHEETHEADERA_V2
+ - LPPROPSHEETHEADERA_V2
+ - prsht/LPPROPSHEETHEADERA_V2
+ - PROPSHEETHEADERA_V2
+ - prsht/PROPSHEETHEADERA_V2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PROPSHEETHEADER
+ - PROPSHEETHEADERA
+ - PROPSHEETHEADERW
 ---
 
 # PROPSHEETHEADERA_V2 structure
@@ -51,19 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the frame and pages of a property sheet.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME4
-
- 
-
 
 ### -field DUMMYUNIONNAME4.hbmWatermark
 
@@ -72,14 +69,12 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Handle to the watermark bitmap. If the <b>dwFlags</b> member does not include PSH_USEHBMWATERMARK, this member is ignored.
 
-
 ### -field DUMMYUNIONNAME4.pszbmWatermark
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Bitmap resource to use as the watermark. This member can specify either the identifier of the bitmap resource or the address of the string that specifies the name of the bitmap resource. If the <b>dwFlags</b> member includes PSH_USEHBMWATERMARK, this member is ignored.
-
 
 ### -field hplWatermark
 
@@ -88,11 +83,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. <b>HPALETTE</b> structure used for drawing the watermark bitmap and/or header bitmap. If the <b>dwFlags</b> member does not include PSH_USEHPLWATERMARK, this member is ignored.
 
-
 ### -field DUMMYUNIONNAME5
-
- 
-
 
 ### -field DUMMYUNIONNAME5.hbmHeader
 
@@ -100,7 +91,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80</a> or later. Handle to the header bitmap. If the <b>dwFlags</b> member does not include PSH_USEHBMHEADER, this member is ignored.
-
 
 ### -field DUMMYUNIONNAME5.pszbmHeader
 
@@ -532,10 +522,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Icon resource to use as the small icon in the title bar of the property sheet dialog box. This member can specify either the identifier of the icon resource or the address of the string that specifies the name of the icon resource. If the <b>dwFlags</b> member does not include PSH_USEICONID, this member is ignored. This member is declared as a union with <b>hIcon</b>.
 
-
 ## -remarks
-
-
 
 If the user chooses a setting such as Large Fonts, which enlarges the dialog box, the watermark that is painted on the start and finish pages will be enlarged as well. The size and position of the original bitmap will remain the same. The additional area will be filled with the color of the pixel in the upper-left corner of the bitmap.
 
@@ -561,6 +548,4 @@ to initialize the <b>dwSize</b> member. For earlier versions, the size of the pr
 <code>psh.dwSize = PROPSHEETHEADER_V1_SIZE;</code>
 
 The PSH_WIZARD, PSH_WIZARD97, and PSH_WIZARD_LITE styles are mutually incompatible. Only one of these style flags should be set. PSH_AEROWIZARD should be combined with PSH_WIZARD.
-
-
 

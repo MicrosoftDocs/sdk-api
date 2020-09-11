@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: c5d68459-f4ba-4df1-a00c-be86e24ce29f
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnPDeviceControl interface [UPnP APIs],described, _upnp_iupnpdevicecontrol, upnp.iupnpdevicecontrol, upnphost/IUPnPDeviceControl
-f1_keywords:
-- upnphost/IUPnPDeviceControl
-dev_langs:
-- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnphost.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnphost.dll
-api_name:
-- IUPnPDeviceControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDeviceControl
+ - upnphost/IUPnPDeviceControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnphost.dll
+api_name:
+ - IUPnPDeviceControl
 ---
 
 # IUPnPDeviceControl interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPDeviceControl</b> interface is the central point of management for a device and its service objects.
-
 
 ## -inheritance
 
@@ -87,5 +86,5 @@ Method that initializes the device control object with the device description an
 
 </td>
 </tr>
-</table> 
+</table>
 

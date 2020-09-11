@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 82b773e3-7d47-4c85-a6b3-c8ef3e67630a
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId, IX509AttributeClientId interface [Security], IX509AttributeClientId interface [Security],described, certenroll/IX509AttributeClientId, security.ix509attributeclientid
-f1_keywords:
-- certenroll/IX509AttributeClientId
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509AttributeClientId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509AttributeClientId
+ - certenroll/IX509AttributeClientId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509AttributeClientId
 ---
 
 # IX509AttributeClientId interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509AttributeClientId</b> interface represents an attribute that can be used to identify the client that generated a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This can be used for post-mortem request analysis.
-
 
 ## -inheritance
 
@@ -142,20 +141,13 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
- 
-
- 
 

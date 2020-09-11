@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ImageAbort
 f1_keywords:
+ - ImageAbort
  - gdiplustypes/ImageAbort
 dev_langs:
  - c++
@@ -66,3 +67,4 @@ Return **TRUE** to abort; otherwise **FALSE**.
 [Image::GetThumbnailImage method](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-getthumbnailimage)
 
 [Graphics::DrawImage method](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(inimage_inconstpointf_inint_inreal_inreal_inreal_inreal_inunit_inconstimageattributes_indrawimageabort_invoid))
+

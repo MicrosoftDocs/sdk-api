@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: EE72AEEF-DBAB-4838-AB91-138EB532BD81
 ms.date: 12/05/2018
 ms.keywords: CreateTexture3D1, CreateTexture3D1 method [Direct3D 11], CreateTexture3D1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateTexture3D1 method, ID3D11Device3.CreateTexture3D1, ID3D11Device3::CreateTexture3D1, d3d11_3/ID3D11Device3::CreateTexture3D1, direct3d11.id3d11device3_createtexture3d1
-f1_keywords:
-- d3d11_3/ID3D11Device3.CreateTexture3D1
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device3.CreateTexture3D1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device3::CreateTexture3D1
+ - d3d11_3/ID3D11Device3::CreateTexture3D1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device3.CreateTexture3D1
 ---
 
 # ID3D11Device3::CreateTexture3D1
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-intro">3D texture</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pDesc1 [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_texture3d_desc1">D3D11_TEXTURE3D_DESC1</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_texture3d_desc1">D3D11_TEXTURE3D_DESC1</a> structure that describes a 3D texture resource. To create a typeless resource that can be interpreted at runtime into different, compatible formats, specify a typeless format in the texture description. To generate mipmap levels automatically, set the number of mipmap levels to 0.
-
 
 ### -param pInitialData [in, optional]
 
@@ -78,28 +73,19 @@ You can determine the size of this array from the value in the <b>MipLevels</b> 
 
 For more information about this array size, see Remarks.
 
-
 ### -param ppTexture3D [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11texture3d1">ID3D11Texture3D1</a>**</b>
 
 A pointer to a memory block that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11texture3d1">ID3D11Texture3D1</a> interface for the created texture. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return code is <b>S_OK</b>. See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for failing error codes.
 
-
-
-
 ## -remarks
-
-
 
 <b>CreateTexture3D1</b> creates a 3D texture resource, which can contain a number of 3D subresources. The number of textures is specified in the texture description. All textures in a resource must have the same format, size, and number of mipmap levels.
 
@@ -119,15 +105,7 @@ with 1 slice</li>
 with 1 slice</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
- 
-
- 
 

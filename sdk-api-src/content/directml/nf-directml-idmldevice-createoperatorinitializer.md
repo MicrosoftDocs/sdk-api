@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: B7047026-F176-494E-90A5-2C6085A5D027
 ms.date: 12/5/2018
 ms.keywords: CreateOperatorInitializer, CreateOperatorInitializer method, CreateOperatorInitializer method,IDMLDevice interface, IDMLDevice interface,CreateOperatorInitializer method, IDMLDevice.CreateOperatorInitializer, IDMLDevice::CreateOperatorInitializer, direct3d12.idmldevice_createoperatorinitializer, directml/IDMLDevice::CreateOperatorInitializer
-f1_keywords:
-- directml/IDMLDevice.CreateOperatorInitializer
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,30 @@ req.type-library:
 req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.dll
-api_name:
-- IDMLDevice.CreateOperatorInitializer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLDevice::CreateOperatorInitializer
+ - directml/IDMLDevice::CreateOperatorInitializer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.dll
+api_name:
+ - IDMLDevice.CreateOperatorInitializer
 ---
 
 # IDMLDevice::CreateOperatorInitializer
 
 
 ## -description
-
-
-
-
-
 
 Creates an object that can be used to initialize compiled operators.
 
@@ -72,18 +68,13 @@ An operator initializer can be created with no target operators. Executing such 
         up-front, but don't yet know which operators it will be used to initialize. [IDMLOperatorInitializer::Reset](/windows/desktop/api/directml/nf-directml-idmloperatorinitializer-reset) can be used to reset which
         operators to target.
 
-
 ## -parameters
-
-
-
 
 ### -param operatorCount
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 This parameter determines the number of elements in the array passed in the  <i>operators</i> parameter.
-
 
 ### -param operators [in, optional]
 
@@ -93,13 +84,11 @@ An optional pointer to a constant array of [IDMLCompiledOperator](/windows/deskt
           operators become initialized. This array may be null or empty, indicating that the initializer has no target
           operators.
 
-
 ### -param riid
 
 Type: <b>REFIID</b>
 
 A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>. This is expected to be the GUID of [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer).
-
 
 ### -param ppv [out]
 
@@ -107,25 +96,13 @@ Type: <b>void**</b>
 
 A pointer to a memory block that receives a pointer to the operator initializer. This is the address of a pointer to an [IDMLOperatorInitializer](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer), representing  the operator initializer created.
 
-
 ## -returns
-
-
 
 Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-
-
-
 ## -see-also
 
-
-
-
 [IDMLDevice](/windows/desktop/api/directml/nn-directml-idmldevice)
- 
-
- 
 

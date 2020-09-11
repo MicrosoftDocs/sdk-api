@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
-f1_keywords:
-- processthreadsapi/CreateThread
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- CreateThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateThread
+ - processthreadsapi/CreateThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - CreateThread
 ---
 
 # CreateThread function
@@ -56,17 +57,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a thread to execute within the virtual address space of the calling process.
 
 To create a thread that runs in the virtual address space of another process, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethread">CreateRemoteThread</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpThreadAttributes [in, optional]
 
@@ -76,23 +72,19 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new thread. If <i>lpThreadAttributes</i> is NULL, the thread gets a default security descriptor. The ACLs in the default security descriptor for a thread come from the primary token of the creator.
 
-
 ### -param dwStackSize [in]
 
 The initial size of the stack, in bytes. The system rounds this value to the nearest page. If this parameter is zero, the new thread uses the default size for the executable. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
-
 
 ### -param lpStartAddress [in]
 
 A pointer to the application-defined function to be executed by the thread. This pointer represents the starting address of the thread. For more information on the thread function, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
-
 ### -param lpParameter [in, optional]
 
 A pointer to a variable to be passed to the thread.
-
 
 ### -param dwCreationFlags [in]
 
@@ -138,19 +130,13 @@ The <i>dwStackSize</i> parameter specifies the initial reserve size of the stack
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpThreadId [out, optional]
 
 A pointer to a variable that receives the  thread identifier. If this parameter is 
       <b>NULL</b>, the thread identifier is not returned.
-     
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the new thread.
 
@@ -164,12 +150,7 @@ Note that <b>CreateThread</b> may succeed even if
        asynchronous nature of <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>, where the 
        process is created even if it refers to invalid or missing dynamic-link libraries (DLLs).
 
-
-
-
 ## -remarks
-
-
 
 The number of threads a process can create is limited by the available virtual memory. By default, every thread has one megabyte of stack space. Therefore, you can create at most 2,048 threads. If you reduce the default stack size, you can create more threads. However, your application will have better performance if you create one thread per processor and build queues of requests for which the application maintains the context information. A thread would process all requests in a queue before processing requests in the next queue.
 
@@ -223,12 +204,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -283,7 +259,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
- 
-
- 
 

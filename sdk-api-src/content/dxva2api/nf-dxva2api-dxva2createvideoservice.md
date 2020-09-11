@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
 ms.date: 12/05/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
-f1_keywords:
-- dxva2api/DXVA2CreateVideoService
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dxva2.dll
-api_name:
-- DXVA2CreateVideoService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXVA2CreateVideoService
+ - dxva2api/DXVA2CreateVideoService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dxva2.dll
+api_name:
+ - DXVA2CreateVideoService
 ---
 
 # DXVA2CreateVideoService function
@@ -49,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a DirectX Video Acceleration (DXVA) services object. Call this function if your application uses DXVA directly, without using DirectShow or Media Foundation.
-        
-      
-
 
 ## -parameters
-
-
-
 
 ### -param pDD
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface of a Direct3D device.
-          
-
 
 ### -param riid
 
@@ -86,29 +78,16 @@ The interface identifier (IID) of the requested interface. Any of the following 
 ### -param ppService
 
 Receives a pointer to the interface. The caller must release the interface.
-          
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: e8402662-7e14-4be7-bc2d-45338bf2a226
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],Notify method, IWMPContentPartnerCallback.Notify, IWMPContentPartnerCallback::Notify, IWMPContentPartnerCallbackNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::Notify, wmp.iwmpcontentpartnercallback_notify
-f1_keywords:
-- contentpartner/IWMPContentPartnerCallback.Notify
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartnerCallback.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartnerCallback::Notify
+ - contentpartner/IWMPContentPartnerCallback::Notify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartnerCallback.Notify
 ---
 
 # IWMPContentPartnerCallback::Notify
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>Notify</b> method provides notifications from the content partner plug-in to Windows Media Player.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
 The type of notification being made, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmpcallbacknotification">WMPCallbackNotification</a> enumeration.
 
-
 ### -param pContext [in]
 
 Context-specific data for the notification. See Remarks.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,14 +85,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following list gives the possible values for the <i>type</i> parameter and the corresponding values of the <i>pContext</i> parameter.
 
@@ -139,16 +122,7 @@ As Windows Media Player plays an ASX file that it obtained from a type 1 online 
 
 Windows Media Player notifies the online store that a track has been skipped by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-stationevent">IWMPContentPartner::StationEvent</a>, passing g_szStationEvent_Skipped in the <i>bstrStationEventType</i> parameter.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
- 
-
- 
 

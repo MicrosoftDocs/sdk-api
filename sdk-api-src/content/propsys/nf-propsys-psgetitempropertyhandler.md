@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
-f1_keywords:
-- propsys/PSGetItemPropertyHandler
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSGetItemPropertyHandler
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSGetItemPropertyHandler
+ - propsys/PSGetItemPropertyHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSGetItemPropertyHandler
 ---
 
 # PSGetItemPropertyHandler function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a property handler for a Shell item.
 
-
 ## -parameters
-
-
-
 
 ### -param punkItem [in]
 
@@ -70,13 +66,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 <b>Windows Vista:</b> Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromidlist">SHCreateItemFromIDList</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname">SHCreateItemFromParsingName</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromrelativename">SHCreateItemFromRelativeName</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateiteminknownfolder">SHCreateItemInKnownFolder</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateitemwithparent">SHCreateItemWithParent</a> to create the Shell item.
 
-
 ### -param fReadWrite [in]
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> to retrieve a read/write property handler. <b>FALSE</b> to retrieve a read-only property handler.
-
 
 ### -param riid [in]
 
@@ -84,28 +78,19 @@ Type: <b>REFIID</b>
 
 Reference to the IID of the interface the handler object should return. This should be <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this function returns, contains the interface pointer requested in <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>PSSTDAPI</b>
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function is supported in Windows XP and Windows Vista. For applications supported only on Windows Vista or later, it is recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetitempropertyhandler">PSGetItemPropertyHandler</a>. That method provides a richer set of properties in the property store that is returned.
 
@@ -134,7 +119,4 @@ if (SUCCEEDED(hr))
     pStore->Release();
 }
 ```
-
-
-
 

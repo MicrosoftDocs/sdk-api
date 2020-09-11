@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 33e0fb8e-3ece-427f-b3ef-43a0f5cf0cc8
 ms.date: 12/05/2018
 ms.keywords: WSARecvDisconnect, WSARecvDisconnect function [Winsock], _win32_wsarecvdisconnect_2, winsock.wsarecvdisconnect_2, winsock2/WSARecvDisconnect
-f1_keywords:
-- winsock2/WSARecvDisconnect
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSARecvDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSARecvDisconnect
+ - winsock2/WSARecvDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSARecvDisconnect
 ---
 
 # WSARecvDisconnect function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSARecvDisconnect</b> function terminates reception on a socket, and retrieves the disconnect data if the socket is connection oriented.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param lpInboundDisconnectData [out]
 
 A pointer to the incoming disconnect data.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSARecvDisconnect</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -161,14 +153,8 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSARecvDisconnect</b> function is used on connection-oriented sockets to disable reception and retrieve any incoming disconnect data from the remote party. This is equivalent to a shutdown (SD_RECEIVE), except that 
@@ -202,12 +188,7 @@ An application should not rely on being able to reuse a socket after it has been
 <div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <b>WSARecvDisconnect</b>,  Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
 
@@ -246,7 +227,4 @@ An application should not rely on being able to reuse a socket after it has been
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

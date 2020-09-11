@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 054fa4aa-70be-4618-a635-3941c830ea4e
 ms.date: 12/05/2018
 ms.keywords: IAzOperation, IAzOperation interface [Security], IAzOperation interface [Security],described, azroles/IAzOperation, security.iazoperation
-f1_keywords:
-- azroles/IAzOperation
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzOperation
+ - azroles/IAzOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzOperation
 ---
 
 # IAzOperation interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzOperation</b> interface defines a low-level operation supported by an application.
-
 
 ## -inheritance
 
@@ -184,5 +183,5 @@ Retrieves a value that indicates whether the operation can be modified by the  u
 
 </td>
 </tr>
-</table> 
+</table>
 

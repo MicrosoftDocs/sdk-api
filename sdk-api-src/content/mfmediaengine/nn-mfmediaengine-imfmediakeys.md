@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0689d938-e0be-46d7-bfed-add431331a90
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys, IMFMediaKeys interface [Media Foundation], IMFMediaKeys interface [Media Foundation],described, mf.imfmediakeys, mfmediaengine/IMFMediaKeys
-f1_keywords:
-- mfmediaengine/IMFMediaKeys
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaKeys
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaKeys
+ - mfmediaengine/IMFMediaKeys
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaKeys
 ---
 
 # IMFMediaKeys interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a media keys used for decrypting media data using a Digital Rights Management (DRM) key system. 
-
+Represents a media keys used for decrypting media data using a Digital Rights Management (DRM) key system.
 
 ## -inheritance
 
@@ -106,16 +105,9 @@ Gets the suspend notify interface of the Content Decryption Module (CDM).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

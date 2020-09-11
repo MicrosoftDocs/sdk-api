@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6cb3da5d-8e4c-45de-b9cf-0f6abf3f1932
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUserBatch, IDiskQuotaUserBatch interface [Files], IDiskQuotaUserBatch interface [Files],described, _win32_idiskquotauserbatch, base.idiskquotauserbatch, dskquota/IDiskQuotaUserBatch, fs.idiskquotauserbatch
-f1_keywords:
-- dskquota/IDiskQuotaUserBatch
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUserBatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUserBatch
+ - dskquota/IDiskQuotaUserBatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUserBatch
 ---
 
 # IDiskQuotaUserBatch interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds multiple quota user objects to a container that is then submitted for update in a single call. This reduces the number of calls to the underlying file system, improving update efficiency when a large number of user objects must be updated. This interface is instantiated by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createuserbatch">IDiskQuotaControl::CreateUserBatch</a> method.
-
 
 ## -inheritance
 
@@ -105,20 +104,13 @@ Removes all <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
- 
-
- 
 

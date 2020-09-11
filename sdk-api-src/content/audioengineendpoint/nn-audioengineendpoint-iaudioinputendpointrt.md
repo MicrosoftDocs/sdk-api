@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: f9638dea-f61d-45f6-b91d-72e4fc1b4a92
 ms.date: 12/05/2018
 ms.keywords: IAudioInputEndpointRT, IAudioInputEndpointRT interface [Remote Desktop Services], IAudioInputEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioInputEndpointRT, termserv.iaudioinputendpointrt
-f1_keywords:
-- audioengineendpoint/IAudioInputEndpointRT
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioengineendpoint.h
-api_name:
-- IAudioInputEndpointRT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioInputEndpointRT
+ - audioengineendpoint/IAudioInputEndpointRT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioengineendpoint.h
+api_name:
+ - IAudioInputEndpointRT
 ---
 
 # IAudioInputEndpointRT interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the input buffer for each processing pass.The 
     <b>IAudioInputEndpointRT</b> interface is used by the 
     audio engine.
-
 
 ## -inheritance
 
@@ -97,12 +96,9 @@ Releases the acquired data pointer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IAudioInputEndpointRT</b> methods can be called 
      from a real-time processing thread. The implementation of the methods of this interface must not block, access 
@@ -110,6 +106,4 @@ Releases the acquired data pointer.
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client 
     applications.
-
-
 

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::GenerateRequest
 f1_keywords:
+ - IMFContentDecryptionModuleSession::GenerateRequest
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::GenerateRequest
 dev_langs:
  - c++

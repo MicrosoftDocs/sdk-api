@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: dd1bc6c7-4d4e-4f66-ac5a-7004b85ec023
 ms.date: 12/05/2018
 ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], ITQueue interface [TAPI 2.2],described, _tapi3_itqueue, tapi3.itqueue, tapi3cc/ITQueue
-f1_keywords:
-- tapi3/ITQueue
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueue
+ - tapi3/ITQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueue
 ---
 
 # ITQueue interface
 
 
 ## -description
-
 
 Gets and sets information concerning a queue. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-ienumqueue-next">IEnumQueue::Next</a> and 
@@ -57,7 +57,6 @@ Gets and sets information concerning a queue. The
 
 See 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
-
 
 ## -inheritance
 
@@ -182,5 +181,5 @@ Sets period (in seconds) for which the switch and/or implementation stores and c
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7b254276-dc6f-4d20-8f44-fce8e01b237f
 ms.date: 12/05/2018
 ms.keywords: AddUserTasks, AddUserTasks method [Windows Shell], AddUserTasks method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AddUserTasks method, ICustomDestinationList.AddUserTasks, ICustomDestinationList::AddUserTasks, _shell_ICustomDestinationList_AddUserTasks, shell.ICustomDestinationList_AddUserTasks, shobjidl_core/ICustomDestinationList::AddUserTasks
-f1_keywords:
-- shobjidl_core/ICustomDestinationList.AddUserTasks
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICustomDestinationList.AddUserTasks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICustomDestinationList::AddUserTasks
+ - shobjidl_core/ICustomDestinationList::AddUserTasks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICustomDestinationList.AddUserTasks
 ---
 
 # ICustomDestinationList::AddUserTasks
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies items to include in the <b>Tasks</b> category of a custom Jump List.
 
-
 ## -parameters
-
-
-
 
 ### -param poa [in]
 
@@ -71,18 +67,11 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objectar
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-beginlist">ICustomDestinationList::BeginList</a> before you call this method.
 
@@ -110,13 +99,7 @@ Optionally, the description field (<a href="https://docs.microsoft.com/windows/d
 
 A task list can also include separators. These are created by including a blank <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> (this is the single exception to the argument list requirement), and setting its <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-appusermodel-isdestlistseparator">System.AppUserModel.IsDestListSeparator</a> property to <b>TRUE</b> through the <b>IShellLink</b> object's <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface. Any other values in the <b>IShellLink</b> will be ignored. Separators do not take up a full space in the list and are not counted in the number of items in the list. If two separators are provided with no items between them, one of the separators will not be shown. Separators at the beginning or end of the list are also ignored.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist">ICustomDestinationList</a>
 
@@ -131,7 +114,4 @@ A task list can also include separators. These are created by including a blank 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
 

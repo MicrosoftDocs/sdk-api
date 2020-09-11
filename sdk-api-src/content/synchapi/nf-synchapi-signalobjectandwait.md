@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
 ms.date: 12/05/2018
 ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobjectandwait, base.signalobjectandwait, synchapi/SignalObjectAndWait
-f1_keywords:
-- synchapi/SignalObjectAndWait
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SignalObjectAndWait
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SignalObjectAndWait
+ - synchapi/SignalObjectAndWait
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SignalObjectAndWait
 ---
 
 # SignalObjectAndWait function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Signals one object and waits on another object as a single operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hObjectToSignal [in]
 
@@ -70,19 +66,16 @@ A handle to the object to be signaled. This object can be a semaphore, a mutex, 
 
 
 
-If the handle is a semaphore, the <b>SEMAPHORE_MODIFY_STATE</b> access right is required. If the handle is an event, the <b>EVENT_MODIFY_STATE</b> access right is required. If the handle is a mutex and the caller does not own the mutex, the function fails with <b>ERROR_NOT_OWNER</b>. 
-
+If the handle is a semaphore, the <b>SEMAPHORE_MODIFY_STATE</b> access right is required. If the handle is an event, the <b>EVENT_MODIFY_STATE</b> access right is required. If the handle is a mutex and the caller does not own the mutex, the function fails with <b>ERROR_NOT_OWNER</b>.
 
 ### -param hObjectToWaitOn [in]
 
 A handle to the object to wait on. The <b>SYNCHRONIZE</b> access right is required; for more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>. For a list of the object types whose handles you can specify, see the Remarks section.
 
-
 ### -param dwMilliseconds [in]
 
 The time-out interval, in milliseconds. The function returns if the interval elapses, even if the object's state is nonsignaled and no completion or asynchronous procedure call (APC) objects are queued. If <i>dwMilliseconds</i> is zero, the function tests the object's state, checks for queued completion routines or APCs, and returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function's time-out interval never elapses.
-
 
 ### -param bAlertable [in]
 
@@ -94,10 +87,7 @@ If this parameter is <b>TRUE</b>, the function returns when the system queues an
 A completion routine is queued when the 
 function call that queued the APC has completed. This function returns and the completion routine is called only if <i>bAlertable</i> is <b>TRUE</b>, and the calling thread is the thread that queued the APC.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value indicates the event that caused the function to return. It can be one of the following values.
 
@@ -171,14 +161,8 @@ The function has failed. To get extended error information, call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SignalObjectAndWait</b> function  provides a more efficient way to signal one object and then wait on another compared to separate function calls such as  <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> followed by <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>. 
 
@@ -223,13 +207,7 @@ Use caution when using the wait functions and code that directly or indirectly c
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a>
 
@@ -244,7 +222,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
- 
-
- 
 

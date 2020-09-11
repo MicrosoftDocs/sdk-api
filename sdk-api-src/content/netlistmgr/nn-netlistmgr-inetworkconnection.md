@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff
 ms.date: 12/05/2018
 ms.keywords: INetworkConnection, INetworkConnection interface [Network Awareness], INetworkConnection interface [Network Awareness],described, netlistmgr/INetworkConnection, nla.inetworkconnection
-f1_keywords:
-- netlistmgr/INetworkConnection
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkConnection
+ - netlistmgr/INetworkConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkConnection
 ---
 
 # INetworkConnection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>INetworkConnection</b> interface represents a single network connection. 
-
+The <b>INetworkConnection</b> interface represents a single network connection.
 
 ## -inheritance
 
@@ -154,5 +153,5 @@ Specifies if the associated network has any internet connectivity.
 
 </td>
 </tr>
-</table> 
+</table>
 

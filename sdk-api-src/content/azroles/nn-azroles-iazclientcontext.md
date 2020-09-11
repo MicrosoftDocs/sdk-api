@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e24184d2-a77b-4a8b-b2f3-78f1e0b902f9
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext, IAzClientContext interface [Security], IAzClientContext interface [Security],described, azroles/IAzClientContext, security.iazclientcontext
-f1_keywords:
-- azroles/IAzClientContext
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzClientContext
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzClientContext
+ - azroles/IAzClientContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzClientContext
 ---
 
 # IAzClientContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzClientContext</b> interface maintains the state that describes a particular client.
-
 
 ## -inheritance
 
@@ -241,5 +240,5 @@ Retrieves the name of the current client in user principal name (UPN) format.
 
 </td>
 </tr>
-</table> 
+</table>
 

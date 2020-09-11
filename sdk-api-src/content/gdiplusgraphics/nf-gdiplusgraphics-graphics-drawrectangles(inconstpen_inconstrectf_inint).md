@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawRectangles"]
 ms.assetid: d8a6725b-6382-48a4-b83b-0a61614af6c9
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangles
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawRectangles
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawRectangles
+ - gdiplusgraphics/Graphics::DrawRectangles
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawRectangles
+ - Graphics::DrawRectangles
 ---
 
 # DrawRectangles(Pen*,RectF*,INT)
+
 
 ## -description
 
@@ -106,3 +108,4 @@ VOID Example_DrawRectangles2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
+

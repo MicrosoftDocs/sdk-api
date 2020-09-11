@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: fadf7114-b9e4-4f61-816b-10725b83169a
 ms.date: 12/05/2018
 ms.keywords: IDvbFrequencyListDescriptor, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies], IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],described, IDvbFrequencyListDescriptorInterface, dvbsiparser/IDvbFrequencyListDescriptor, mstv.idvbfrequencylistdescriptor
-f1_keywords:
-- dvbsiparser/IDvbFrequencyListDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbFrequencyListDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbFrequencyListDescriptor
+ - dvbsiparser/IDvbFrequencyListDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbFrequencyListDescriptor
 ---
 
 # IDvbFrequencyListDescriptor interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IDvbFrequencyListDescriptor</b> interface enables the client to get a frequency list descriptor from a DVB stream. The frequency list descriptor may be present in the network information table (NIT). For more information, refer to ETSI EN 300 468.
-
-
-
 
 ## -inheritance
 
@@ -119,12 +115,9 @@ Returns the descriptor tag.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain a pointer to this interface, do the following:
 
@@ -134,15 +127,7 @@ To obtain a pointer to this interface, do the following:
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>IDvbFrequencyListDescriptor</b> interface.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

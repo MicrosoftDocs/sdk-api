@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 82a90bd1-7bcf-4849-bad1-bae425169a2f
 ms.date: 12/05/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
-f1_keywords:
-- uianimation/IUIAnimationPriorityComparison.HasPriority
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationPriorityComparison.HasPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationPriorityComparison::HasPriority
+ - uianimation/IUIAnimationPriorityComparison::HasPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationPriorityComparison.HasPriority
 ---
 
 # IUIAnimationPriorityComparison::HasPriority
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a new storyboard has priority over a scheduled storyboard.
 
-
 ## -parameters
-
-
-
 
 ### -param scheduledStoryboard [in]
 
 The currently scheduled storyboard.
 
-
 ### -param newStoryboard [in]
 
 The new storyboard that is interrupting the scheduled storyboard specified in <i>scheduledStoryboard</i>.
-
 
 ### -param priorityEffect [in]
 
  
 					The potential effect on <i>newStoryboard</i> if <i>scheduledStoryboard</i> has a higher priority.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,14 +99,8 @@ This method can return one of these values.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A single animation variable can be included in multiple storyboards, 
          but multiple storyboards cannot animate the same variable at the same time.
@@ -164,13 +149,7 @@ The <i>priorityEffect</i> parameter describes the possible effect on the new sto
 
 When <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT_DELAY</a> is passed to <b>HasPriority</b>, the animation manager has already determined that it can schedule the new storyboard such that it will begin before its longest acceptable delay has elapsed, but it is in effect asking the application if the storyboard should begin even earlier.  In some scenarios, it might be best to reduce the latency of an animation by returning S_OK.  In others, it might be preferable to let scheduled animations complete whenever possible, in which case S_FALSE should be returned.  <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b> is only passed to <b>HasPriority</b> when the animation manager is considering canceling or trimming a storyboard.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-setcancelprioritycomparison">IUIAnimationManager::SetCancelPriorityComparison</a>
 
@@ -193,7 +172,4 @@ When <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priorit
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT</a>
- 
-
- 
 

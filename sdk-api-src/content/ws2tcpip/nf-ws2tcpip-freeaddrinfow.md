@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 0a2a226c-2068-4538-b499-04cfbfd65b8a
 ms.date: 12/05/2018
 ms.keywords: FreeAddrInfoW, FreeAddrInfoW function [Winsock], winsock.freeaddrinfow, ws2tcpip/FreeAddrInfoW
-f1_keywords:
-- ws2tcpip/FreeAddrInfoW
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- FreeAddrInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FreeAddrInfoW
+ - ws2tcpip/FreeAddrInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - FreeAddrInfoW
 ---
 
 # FreeAddrInfoW function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FreeAddrInfoW</b> function frees address information that the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function dynamically allocates in <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structures.
 
-
 ## -parameters
-
-
-
 
 ### -param pAddrInfo [in]
 
@@ -67,19 +63,11 @@ A pointer to the
 <b>addrinfoW</b> structures to be freed. All dynamic storage pointed to within the 
 <b>addrinfoW</b> structure or structures is also freed.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>FreeAddrInfoW</b> function frees <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structures dynamically allocated by the Unicode <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> function. The <b>FreeAddrInfoW</b> function frees the initial 
@@ -99,9 +87,6 @@ Macros in the Winsock header file define a mixed-case function name of <b>FreeAd
 > The ws2tcpip.h header defines FreeAddrInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
@@ -124,7 +109,4 @@ Macros in the Winsock header file define a mixed-case function name of <b>FreeAd
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
- 
-
- 
 

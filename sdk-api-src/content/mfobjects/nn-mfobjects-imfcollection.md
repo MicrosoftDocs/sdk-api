@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: fec6aa17-2770-4f53-b36d-b94236093d23
 ms.date: 12/05/2018
 ms.keywords: IMFCollection, IMFCollection interface [Media Foundation], IMFCollection interface [Media Foundation],described, fec6aa17-2770-4f53-b36d-b94236093d23, mf.imfcollection, mfobjects/IMFCollection
-f1_keywords:
-- mfobjects/IMFCollection
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCollection
+ - mfobjects/IMFCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFCollection
 ---
 
 # IMFCollection interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a generic collection of <b>IUnknown</b> pointers.
-        
-
 
 ## -inheritance
 
@@ -124,25 +122,13 @@ Removes an object from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create an empty collection object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatecollection">MFCreateCollection</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

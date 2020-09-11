@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 5bd478f1-0c01-4d7f-9ed1-af84e5bbe773
 ms.date: 12/05/2018
 ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c295-42b1-96f0-966ce103cc2e.xml, display.drvplgblt, winddi/DrvPlgBlt
-f1_keywords:
-- winddi/DrvPlgBlt
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvPlgBlt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvPlgBlt
+ - winddi/DrvPlgBlt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvPlgBlt
 ---
 
 # DrvPlgBlt function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvPlgBlt</b> function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
 
-
 ## -parameters
-
-
-
 
 ### -param psoTrg [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
-
 ### -param psoSrc [in, out]
 
 Pointer to a SURFOBJ structure that describes the source for the bit-block transfer operation.
-
 
 ### -param psoMsk [in, optional]
 
@@ -78,13 +72,11 @@ If this parameter is <b>NULL</b>, <i>rop4</i> is implicitly 0xCCCC, which means 
 
 The mask is always large enough to contain the relevant source; tiling is unnecessary.
 
-
 ### -param pco [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that limits the area of the destination to be modified. GDI functions enumerate the <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a> as a set of rectangles.
 
 Whenever possible, GDI simplifies the clipping involved. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> function, <b>DrvPlgBlt</b> can be called with a single clipping rectangle. This prevents rounding errors in clipping the output.
-
 
 ### -param pxlo [in, optional]
 
@@ -92,16 +84,13 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-w
 
 A high quality rotate bit-block transfer is needed to interpolate colors.
 
-
 ### -param pca [in, optional]
 
 Pointer to a COLORADJUSTMENT structure that defines the color adjustment values to be applied to the source bitmap before stretching the bits. For more information about this structure, see the Microsoft Windows SDK documentation.
 
-
 ### -param pptlBrushOrg [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that indicates the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
-
 
 ### -param pptfx [in]
 
@@ -115,16 +104,13 @@ Pointer to three POINTFIX structures that define a parallelogram in the destinat
 
 <b>DrvPlgBlt</b> is never called with A, B, and C collinear.
 
-
 ### -param prcl [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the area to be copied, in the coordinate system of the source surface. The points of the source rectangle are well ordered. <b>DrvPlgBlt</b> will never be given an empty source rectangle.
 
-
 ### -param pptl [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that specifies which pixel in the given mask corresponds to the upper-left pixel in the source rectangle. Ignore this parameter if no <i>psoMsk</i> is specified.
-
 
 ### -param iMode [in]
 
@@ -180,19 +166,11 @@ On a shrinking bit-block transfer, pixels should be combined with an OR operatio
 
 The methods WHITEONBLACK, BLACKONWHITE, and COLORONCOLOR provide compatibility for old applications, but do not produce the best results for color surfaces.
 
-
 ## -returns
-
-
 
 <b>DrvPlgBlt</b> returns <b>TRUE</b> upon success. Otherwise, it reports an error and returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Similar to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstretchblt">DrvStretchBlt</a>, <b>DrvPlgBlt</b> enables a device driver to write to GDI bitmaps, especially when the driver can do halftoning.
 
@@ -212,13 +190,7 @@ Note that a stretch blt can be expressed exactly as a parallelogram blt, but the
 
 <b>DrvPlgBlt</b> is optional for graphics drivers. It is provided only for certain types of rotation. The driver should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engplgblt">EngPlgBlt</a> if <b>DrvPlgBlt</b> is called to perform operations it does not support.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvalphablend">DrvAlphaBlend</a>
 
@@ -261,7 +233,4 @@ Note that a stretch blt can be expressed exactly as a parallelogram blt, but the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engtransparentblt">EngTransparentBlt</a>
- 
-
- 
 

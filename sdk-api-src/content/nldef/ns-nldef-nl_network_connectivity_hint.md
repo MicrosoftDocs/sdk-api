@@ -8,10 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/21/2019
 ms.keywords: _NL_NETWORK_CONNECTIVITY_HINT, NL_NETWORK_CONNECTIVITY_HINT
 ms.topic: struct
-f1_keywords: 
- - "nldef/NL_NETWORK_CONNECTIVITY_HINT"
-dev_langs:
- - c++
 req.header: nldef.h
 req.include-header: iphlpapi.h
 req.target-type: Windows
@@ -29,6 +25,16 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: NL_NETWORK_CONNECTIVITY_HINT
+req.redist: 
+f1_keywords:
+ - _NL_NETWORK_CONNECTIVITY_HINT
+ - nldef/_NL_NETWORK_CONNECTIVITY_HINT
+ - NL_NETWORK_CONNECTIVITY_HINT
+ - nldef/NL_NETWORK_CONNECTIVITY_HINT
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -39,12 +45,10 @@ api_location:
 api_name:
  - _NL_NETWORK_CONNECTIVITY_HINT
  - NL_NETWORK_CONNECTIVITY_HINT
-targetos: Windows
-req.typenames: NL_NETWORK_CONNECTIVITY_HINT
-req.redist: 
 ---
 
 ## -description
+
 Describes a level of network connectivity, the usage charge for a network connection, and other members reflecting cost factors.
 
 The last four members of **NL_NETWORK_CONNECTIVITY_HINT** collectively work together to allow you to resolve the cost of using a connection. See the guidelines in 
@@ -53,26 +57,31 @@ The last four members of **NL_NETWORK_CONNECTIVITY_HINT** collectively work toge
 ## -struct-fields
 
 ### -field ConnectivityLevel
+
 Type: **[NL_NETWORK_CONNECTIVITY_LEVEL_HINT](/windows/win32/api/nldef/ne-nldef-nl_network_connectivity_level_hint)**
 
 The level of network connectivity.
 
 ### -field ConnectivityCost
+
 Type: **[NL_NETWORK_CONNECTIVITY_COST_HINT](/windows/win32/api/nldef/ne-nldef-nl_network_connectivity_cost_hint)**
 
 The usage charge for the network connection.
 
 ### -field ApproachingDataLimit
+
 Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)**
 
 `TRUE` if the connection is approaching its data limit, otherwise `FALSE`.
 
 ### -field OverDataLimit
+
 Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)**
 
 `TRUE` if the connection has exceeded its data limit, otherwise `FALSE`.
 
 ### -field Roaming
+
 Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)**
 
 `TRUE` if the connection is roaming, otherwise `FALSE`.
@@ -80,4 +89,6 @@ Type: **[BOOLEAN](/windows/win32/winprog/windows-data-types)**
 ## -remarks
 
 ## -see-also
+
 [How to manage metered network cost constraints](/previous-versions/windows/apps/jj835821(v=win.10))
+

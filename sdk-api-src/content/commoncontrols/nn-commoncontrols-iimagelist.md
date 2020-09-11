@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\iimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], IImageList interface [Windows Controls],described, comctl_IImageList, comctl_IImageList_cpp, commoncontrols/IImageList, controls.IImageList, controls.comctl_IImageList
-f1_keywords:
-- commoncontrols/IImageList
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comctl32.dll
-api_name:
-- IImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList
+ - commoncontrols/IImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comctl32.dll
+api_name:
+ - IImageList
 ---
 
 # IImageList interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that manipulate and interact with image lists.
 
             
         
 
 To use <b>IImageList</b>, specify Comctl32.dll version 6 in the manifest. If you do not do this, Comctl32.dll version 5 will be used by default, with which <b>IImageList</b> could display unpredictable behavior. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
 
 ## -inheritance
 
@@ -360,16 +359,9 @@ Adds a specified image to the list of images used as overlay masks. An image lis
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Controls/image-lists">Image Lists</a>
- 
-
- 
 

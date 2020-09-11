@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6852f376-35ab-4628-9068-51a2ca2ea31f
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRatedDelay method, IDTFilter.get_BlockUnRatedDelay, IDTFilter::get_BlockUnRatedDelay, IDTFilterget_BlockUnRatedDelay, encdec/IDTFilter::get_BlockUnRatedDelay, get_BlockUnRatedDelay, get_BlockUnRatedDelay method [Microsoft TV Technologies], get_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrateddelay
-f1_keywords:
-- encdec/IDTFilter.get_BlockUnRatedDelay
-dev_langs:
-- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EncDec.h
-api_name:
-- IDTFilter.get_BlockUnRatedDelay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDTFilter::get_BlockUnRatedDelay
+ - encdec/IDTFilter::get_BlockUnRatedDelay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EncDec.h
+api_name:
+ - IDTFilter.get_BlockUnRatedDelay
 ---
 
 # IDTFilter::get_BlockUnRatedDelay
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_BlockUnRatedDelay</b> method retrieves that length of time the filter waits before it blocks unrated content.
 
-
 ## -parameters
-
-
-
 
 ### -param pmsecsDelayBeforeBlock [out, retval]
 
 Receives the delay, in milliseconds.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -97,31 +90,16 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Regardless of the value of this property, the filter does not block unrated content unless the <b>BlockUnRated</b> property is <b>TRUE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrated">IDTFilter::get_BlockUnRated</a>
- 
-
- 
 

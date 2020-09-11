@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: E30500A0-D77D-4783-A5D5-418770DA1376
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, direct3d11.d3d11_feature_data_d3d9_shadow_support
-f1_keywords:
-- d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
+ - d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
 ---
 
 # D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT structure
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Note</b>  This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.</div><div> </div>Describes Direct3D 9 shadow support in the current graphics driver. 
-
+<div class="alert"><b>Note</b>  This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.</div><div> </div>Describes Direct3D 9 shadow support in the current graphics driver.
 
 ## -struct-fields
 
-
-
-
 ### -field SupportsDepthAsTextureWithLessEqualComparisonFilter
 
-Specifies whether the driver supports the shadowing feature with the comparison-filtering mode set to less than or equal to. The runtime sets this member to <b>TRUE</b> for hardware at Direct3D 10 and higher <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a>.  For hardware at Direct3D 9.3 and lower feature levels, the runtime sets this member to <b>TRUE</b> only if the hardware and driver support the shadowing feature; otherwise <b>FALSE</b>. 
-
+Specifies whether the driver supports the shadowing feature with the comparison-filtering mode set to less than or equal to. The runtime sets this member to <b>TRUE</b> for hardware at Direct3D 10 and higher <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a>.  For hardware at Direct3D 9.3 and lower feature levels, the runtime sets this member to <b>TRUE</b> only if the hardware and driver support the shadowing feature; otherwise <b>FALSE</b>.
 
 ## -remarks
-
-
 
 Shadows are an important element in realistic 3D scenes.  You can use the shadow buffer technique to render shadows.  The basic principle of the technique is to use a depth buffer to store the scene depth info from the perspective of the light source, and then compare each point rendered in the scene with that buffer to determine if it is in shadow.
 
@@ -78,19 +71,11 @@ You can control the shadow filter quality by the Mag and Min filter settings in 
 But these intrinsic functions are present in shader models for feature levels higher than 9.x.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature">D3D11_FEATURE</a>
- 
-
- 
 

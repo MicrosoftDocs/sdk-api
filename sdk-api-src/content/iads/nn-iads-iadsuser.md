@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf
 ms.date: 12/05/2018
 ms.keywords: IADsUser, IADsUser interface [ADSI], IADsUser interface [ADSI],described, _ds_iadsuser, adsi.iadsuser, iads/IADsUser
-f1_keywords:
-- iads/IADsUser
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsUser
+ - iads/IADsUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsUser
 ---
 
 # IADsUser interface
 
 
 ## -description
-
 
 The <b>IADsUser</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent and manage an end-user account on a network. Call the methods of this interface to access and manipulate end-user account data. Such data includes names of the user, telephone numbers, job title, and so on. This interface supports features for determining the group association of the user, and for setting or changing the password.
    
@@ -72,7 +72,6 @@ GetObject("LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=Com")
 ```
 
 However, local accounts reside in the local SAM database and the LDAP provider does not communicate with the local database. Thus, to bind to a local user, you must go through a WinNT provider as described in the second code example.
-
 
 ## -inheritance
 
@@ -1036,12 +1035,9 @@ Gets and sets the user's title within the organization.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 As with any other ADSI object, the container object creates a Windows user account object. First, bind to a container object. Then, call the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create">IADsContainer::Create</a> method and specify mandatory or optional attributes.
 
@@ -1192,13 +1188,7 @@ Cleanup:
 
 The newly created local user will have the same default properties as the domain user. The group membership, however, will be "users", instead of "domain user".
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -1214,7 +1204,4 @@ The newly created local user will have the same default properties as the domain
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

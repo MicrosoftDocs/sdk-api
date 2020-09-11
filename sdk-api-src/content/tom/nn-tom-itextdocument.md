@@ -1,17 +1,13 @@
 ---
 UID: NN:tom.ITextDocument
 title: ITextDocument (tom.h)
-description: The ITextDocument interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document�whether active or not.
+description: The ITextDocument interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document�whether active or not.
 helpviewer_keywords: ["ITextDocument","ITextDocument interface [Windows Controls]","ITextDocument interface [Windows Controls]","described","_win32_ITextDocument","_win32_ITextDocument_cpp","controls.ITextDocument","controls._win32_ITextDocument","tom/ITextDocument"]
 old-location: controls\ITextDocument.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], ITextDocument interface [Windows Controls],described, _win32_ITextDocument, _win32_ITextDocument_cpp, controls.ITextDocument, controls._win32_ITextDocument, tom/ITextDocument
-f1_keywords:
-- tom/ITextDocument
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument
+ - tom/ITextDocument
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument
 ---
 
 # ITextDocument interface
 
 
 ## -description
-
 
 The <b>ITextDocument</b> interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document—whether active or not. It enables the application to: 
         
@@ -64,7 +64,6 @@ Applications typically do not implement the <b>ITextDocument</b> interface. Micr
 <b>When to Use</b>
 
 Applications can retrieve an <b>ITextDocument</b> pointer from a rich edit control. To do this, send an <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getoleinterface">EM_GETOLEINTERFACE</a> message to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a> object from a rich edit control. Then, call the object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to retrieve an <b>ITextDocument</b> pointer.
-
 
 ## -inheritance
 
@@ -253,13 +252,9 @@ Decrements the freeze count.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -270,7 +265,4 @@ Decrements the freeze count.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>
- 
-
- 
 

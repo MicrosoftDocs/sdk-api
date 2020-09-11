@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 5a24d819-1498-448a-9360-c14d382059cb
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA structure [Display Devices], ddrawint/DD_GETVPORTBANDWIDTHDATA, ddstrcts_3f17b83b-7530-4d17-b6c8-435d9ee45848.xml, display.dd_getvportbandwidthdata'
-f1_keywords:
-- ddrawint/DD_GETVPORTBANDWIDTHDATA
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_GETVPORTBANDWIDTHDATA
 targetos: Windows
 req.typenames: '*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_GETVPORTBANDWIDTHDATA
+ - ddrawint/_DD_GETVPORTBANDWIDTHDATA
+ - PDD_GETVPORTBANDWIDTHDATA
+ - ddrawint/PDD_GETVPORTBANDWIDTHDATA
+ - DD_GETVPORTBANDWIDTHDATA
+ - ddrawint/DD_GETVPORTBANDWIDTHDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_GETVPORTBANDWIDTHDATA
 ---
 
 # DD_GETVPORTBANDWIDTHDATA structure
@@ -49,37 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for any specified format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lpDD
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
-
 ### -field lpVideoPort
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
-
 
 ### -field lpddpfFormat
 
 Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that describes the output pixel format for which the driver should return bandwidth information.
 
-
 ### -field dwWidth
-
 
 ### -field dwHeight
 
 Specify the dimensions of the source overlay or of the video data in pixels depending on the value of <b>dwFlags</b>. These values are calculated by the client based on the VPE object's capabilities returned in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>.
-
 
 ### -field dwFlags
 
@@ -121,35 +116,24 @@ The <b>dwWidth</b> and <b>dwHeight</b> members specify the prescale size of the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpBandwidth
 
 Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a> structure in which the driver should write the bandwidth parameters.
 
-
 ### -field ddRVal
 
 Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
-
 
 ### -field GetVideoPortBandwidth
 
 Used by the DirectDraw API and should not be filled in by the driver.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getbandwidth">DdVideoPortGetBandwidth</a>
- 
-
- 
 

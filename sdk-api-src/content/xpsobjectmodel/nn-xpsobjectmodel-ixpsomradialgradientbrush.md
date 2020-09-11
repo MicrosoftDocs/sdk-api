@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2f5b7b99-64a0-4156-8963-cfceb0d73503
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomradialgradientbrush, xpsobjectmodel/IXpsOMRadialGradientBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMRadialGradientBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMRadialGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRadialGradientBrush
+ - xpsobjectmodel/IXpsOMRadialGradientBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMRadialGradientBrush
 ---
 
 # IXpsOMRadialGradientBrush interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a radial gradient.
-
 
 ## -inheritance
 
@@ -131,12 +130,9 @@ Sets the sizes of the radii that define ellipse of the radial gradient region.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
   As shown in the figure that follows, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path (not shown) is a radial line that is drawn between the gradient origin and the ellipse that bounds the gradient region.
 
@@ -189,14 +185,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
@@ -215,7 +204,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

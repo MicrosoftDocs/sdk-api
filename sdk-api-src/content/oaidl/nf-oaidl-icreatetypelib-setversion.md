@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 1c71bf8f-998a-4a9a-a4a8-981f51334cbe
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetVersion method, ICreateTypeLib.SetVersion, ICreateTypeLib::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
-f1_keywords:
-- oaidl/ICreateTypeLib.SetVersion
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib.SetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib::SetVersion
+ - oaidl/ICreateTypeLib::SetVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib.SetVersion
 ---
 
 # ICreateTypeLib::SetVersion
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the major and minor version numbers of the type library.
 
-
 ## -parameters
-
-
-
 
 ### -param wMajorVerNum [in]
 
 The major version number for the library.
 
-
 ### -param wMinorVerNum [in]
 
 The minor version number for the library.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,18 +94,8 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
- 
-
- 
 

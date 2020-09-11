@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
 ms.date: 12/05/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
-f1_keywords:
-- wininet/InternetAttemptConnect
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetAttemptConnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetAttemptConnect
+ - wininet/InternetAttemptConnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetAttemptConnect
 ---
 
 # InternetAttemptConnect function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to make a connection to the Internet.
 
-
 ## -parameters
-
-
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful, or a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function allows an application to first attempt to connect before issuing any requests. A client program can use this to evoke the dial-up dialog box. If the attempt fails, the application should enter offline mode.
 
@@ -83,19 +71,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

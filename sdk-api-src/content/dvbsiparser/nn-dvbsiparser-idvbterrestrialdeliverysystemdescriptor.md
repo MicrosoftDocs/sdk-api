@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7000f937-2f58-43c1-b0e1-60d3171485b0
 ms.date: 12/05/2018
 ms.keywords: IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbTerrestrialDeliverySystemDescriptorInterface, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor, mstv.idvbterrestrialdeliverysystemdescriptor
-f1_keywords:
-- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbTerrestrialDeliverySystemDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbTerrestrialDeliverySystemDescriptor
+ - dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbTerrestrialDeliverySystemDescriptor
 ---
 
 # IDvbTerrestrialDeliverySystemDescriptor interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IDvbTerrestrialDeliverySystemDescriptor</b> interface enables the client to get a terrestrial delivery system descriptor from a DVB stream. The terrestrial delivery system descriptor may be present in the network information table (NIT). For more information, refer to ETSI EN 300 468.
-
-
-
 
 ## -inheritance
 
@@ -173,12 +169,9 @@ Returns the transmission mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain a pointer to this interface, do the following:
 
@@ -188,15 +181,7 @@ To obtain a pointer to this interface, do the following:
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>IDvbTerrestrialDeliverySystemDescriptor</b> interface.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

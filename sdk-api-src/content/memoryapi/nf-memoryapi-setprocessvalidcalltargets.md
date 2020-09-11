@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
 ms.date: 12/05/2018
 ms.keywords: SetProcessValidCallTargets, SetProcessValidCallTargets function, base.setprocessvalidcalltargets, winbase/SetProcessValidCallTargets
-f1_keywords:
-- memoryapi/SetProcessValidCallTargets
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Kernelbase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernelbase.dll
-- API-MS-Win-Core-Memory-L1-1-3.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- SetProcessValidCallTargets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessValidCallTargets
+ - memoryapi/SetProcessValidCallTargets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernelbase.dll
+ - API-MS-Win-Core-Memory-L1-1-3.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - SetProcessValidCallTargets
 ---
 
 # SetProcessValidCallTargets function
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not. The valid call target information is provided as a list of offsets relative to a virtual memory range (start and size of the range). The call targets specified should be 16-byte aligned and in ascending order.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 The handle to the target process.
 
-
 ### -param VirtualAddress [in]
 
 The start of the virtual memory region whose call targets are being marked valid. The memory region must be allocated using one of the executable [memory protection constants](/windows/desktop/Memory/memory-protection-constants).
-
 
 ### -param RegionSize [in]
 
@@ -88,3 +83,4 @@ A list of offsets and flags relative to the virtual memory ranges.
 ## -remarks
 
 This function does not succeed if Control Flow Guard is not enabled for the target process. This can be checked using [GetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy).
+

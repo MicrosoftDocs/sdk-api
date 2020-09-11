@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 78c202dd-9f8c-43c1-a7be-48030bc34a9c
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Synchronize method, ISyncMgrSynchronize.Synchronize, ISyncMgrSynchronize::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Synchronize, shell.syncmgr_isyncmgrsynchronize_synchronize, syncmgr.isyncmgrsynchronize_synchronize
-f1_keywords:
-- mobsync/ISyncMgrSynchronize.Synchronize
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronize.Synchronize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronize::Synchronize
+ - mobsync/ISyncMgrSynchronize::Synchronize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronize.Synchronize
 ---
 
 # ISyncMgrSynchronize::Synchronize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.
 
-
 ## -parameters
-
-
-
 
 ### -param hWndParent [in]
 
@@ -64,10 +60,7 @@ Type: <b>HWND</b>
 
 A handle to the parent <b>HWND</b> the registered application should use for any user interface elements that it displays. This value may be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -101,14 +94,8 @@ Synchronization failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the user does not select any item choices for the registered application, the <b>ISyncMgrSynchronize::Synchronize</b> method is not called and the interface is released. If this method is called, the application must synchronize the items that were specified in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">ISyncMgrSynchronize::PrepareForSync</a> method.
 
@@ -125,13 +112,7 @@ Applications should try not to show user interface elements from within the
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a> methods can be called on any thread in your application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
@@ -154,7 +135,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a>
- 
-
- 
 

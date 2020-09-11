@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 299020eb-0afd-41c8-9551-1275eff45fa1
 ms.date: 12/05/2018
 ms.keywords: GetTargetLuns, GetTargetLuns method [VSS], GetTargetLuns method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],GetTargetLuns method, IVssHardwareSnapshotProvider.GetTargetLuns, IVssHardwareSnapshotProvider::GetTargetLuns, base.ivsshardwaresnapshotprovider_gettargetluns, vsprov/IVssHardwareSnapshotProvider::GetTargetLuns
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider.GetTargetLuns
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider.GetTargetLuns
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider::GetTargetLuns
+ - vsprov/IVssHardwareSnapshotProvider::GetTargetLuns
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider.GetTargetLuns
 ---
 
 # IVssHardwareSnapshotProvider::GetTargetLuns
 
 
 ## -description
-
 
 The <b>GetTargetLuns</b> method prompts the hardware provider to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures for the newly created shadow copy LUNs. The <b>GetTargetLuns</b> method 
     is called after 
@@ -59,25 +59,19 @@ The <b>GetTargetLuns</b> method prompts the hardware provider to initialize the 
 
 ## -parameters
 
-
-
-
 ### -param lLunCount [in]
 
 Count of LUNs that contribute to the original volume.
-
 
 ### -param rgDeviceNames [in]
 
 Pointer to an array of <i>lLunCount</i> pointers to strings. Each string contains 
       the name of an original LUN to be shadow copied.
 
-
 ### -param rgSourceLuns [in]
 
 Pointer to an array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
       that contributes to the original volume.
-
 
 ### -param rgDestinationLuns [in, out]
 
@@ -85,10 +79,7 @@ Pointer to an array of <i>lLunCount</i><a href="https://docs.microsoft.com/windo
       shadow copy LUN created during shadow copy processing. There should be a one-to-one correspondence between the elements of 
       the <i>rgSourceLuns</i> and <i>rgDestinationLuns</i> arrays.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -147,14 +138,8 @@ An unexpected provider error occurred. The provider must report an event in the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In the <i>rgDestinationLuns</i> parameter, VSS supplies an empty <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
     structure for each newly created shadow copy LUN. The shadow copy LUNs are not surfaced or visible to the system. 
@@ -183,20 +168,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds
     will be passed to the provider in the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">IVssHardwareSnapshotProvider::LocateLuns</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
- 
-
- 
 

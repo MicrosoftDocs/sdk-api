@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetTime method, WBEMTimeSpan.GetTime, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime
-f1_keywords:
-- wbemtime/WBEMTimeSpan.GetTime
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTimeSpan.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTimeSpan::GetTime
+ - wbemtime/WBEMTimeSpan::GetTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTimeSpan.GetTime
 ---
 
 # WBEMTimeSpan::GetTime
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,28 +59,13 @@ ms.custom: 19H1
 
 The <b>GetTime</b> method returns the time span as a 64-bit integer.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This method returns <b>ULONGLONG</b>.
-
-
-
 
 ## -remarks
 
-
-
 The method is provided to assist users in debugging.
-
-
 

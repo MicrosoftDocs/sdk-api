@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrlen.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Menus and Other Resources], lstrlenA, lstrlenW, menurc.lstrlen, winbase/lstrlen, winbase/lstrlenA, winbase/lstrlenW, winui._win32_lstrlen
-f1_keywords:
-- winbase/lstrlen
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- lstrlen
-- lstrlenA
-- lstrlenW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lstrlenW
+ - winbase/lstrlenW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - lstrlen
+ - lstrlenA
+ - lstrlenW
 ---
 
 # lstrlenW function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the length of the specified string (not including the terminating null character).
 
-
 ## -parameters
-
-
-
 
 ### -param lpString [in]
 
@@ -73,22 +69,13 @@ Type: <b>LPCTSTR</b>
 
 The null-terminated string to be checked.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
 The function returns the length of the string, in characters. If <i>lpString</i> is <b>NULL</b>, the function returns 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -123,9 +110,6 @@ The function returns the length of the string, in characters. If <i>lpString</i>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
- 
-
- 
 
 ## -remarks
 

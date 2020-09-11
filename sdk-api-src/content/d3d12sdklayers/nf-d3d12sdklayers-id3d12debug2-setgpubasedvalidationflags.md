@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: EA774CC4-7675-46AA-9CDF-56C8B9507702
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug2 interface,SetGPUBasedValidationFlags method, ID3D12Debug2.SetGPUBasedValidationFlags, ID3D12Debug2::SetGPUBasedValidationFlags, SetGPUBasedValidationFlags, SetGPUBasedValidationFlags method, SetGPUBasedValidationFlags method,ID3D12Debug2 interface, d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags, direct3d12.id3d12debug2_setgpubasedvalidationflags
-f1_keywords:
-- d3d12sdklayers/ID3D12Debug2.SetGPUBasedValidationFlags
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12Debug2.SetGPUBasedValidationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Debug2::SetGPUBasedValidationFlags
+ - d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12Debug2.SetGPUBasedValidationFlags
 ---
 
 ## -description
@@ -63,3 +64,4 @@ This method overrides the default behavior of GPU-based validation so it must be
 ## -see-also
 
 <a href="/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug2">ID3D12Debug2</a>
+

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: f98a71e4-47fb-47a4-b37e-e4cc801a8f98
 ms.date: 12/05/2018
 ms.keywords: WSAEventSelect, WSAEventSelect function [Winsock], _win32_wsaeventselect_2, winsock.wsaeventselect_2, winsock2/WSAEventSelect
-f1_keywords:
-- winsock2/WSAEventSelect
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAEventSelect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAEventSelect
+ - winsock2/WSAEventSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAEventSelect
 ---
 
 # WSAEventSelect function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAEventSelect</b> function specifies an event object to be associated with the specified set of FD_XXX network events.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying the socket.
 
-
 ### -param hEventObject [in]
 
 A handle identifying the event object to be associated with the specified set of FD_XXX network events.
-
 
 ### -param lNetworkEvents [in]
 
 A bitmask that specifies the combination of FD_XXX network events in which the application has interest.
 
-
 ## -returns
-
-
 
 The return value is zero if the application's specification of the network events and the associated event object was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -320,14 +311,8 @@ The FD_ADDRESS_LIST_CHANGE network event is recorded when the list of addresses 
 <td>The descriptor is not a socket.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAEventSelect</b> function is used to specify an event object, <i>hEventObject</i>, to be associated with the selected FD_XXX network events, <i>lNetworkEvents</i>. The socket for which an event object is specified is identified by the <i>s</i> parameter. The event object is set when any of the nominated network events occur.
@@ -498,13 +483,7 @@ printf("Listening on socket...\n");
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -535,7 +514,4 @@ printf("Listening on socket...\n");
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a>
- 
-
- 
 

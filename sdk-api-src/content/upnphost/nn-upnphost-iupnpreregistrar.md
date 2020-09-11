@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: e01f325b-8fbd-43f2-a835-41cd3232f62e
 ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar, IUPnPReregistrar interface [UPnP APIs], IUPnPReregistrar interface [UPnP APIs],described, _upnp_iupnpreregistrar, upnp.iupnpreregistrar, upnphost/IUPnPReregistrar
-f1_keywords:
-- upnphost/IUPnPReregistrar
-dev_langs:
-- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnphost.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnphost.dll
-api_name:
-- IUPnPReregistrar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPReregistrar
+ - upnphost/IUPnPReregistrar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnphost.dll
+api_name:
+ - IUPnPReregistrar
 ---
 
 # IUPnPReregistrar interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPReregistrar</b> interface allows the application to re-register a UPnP-based device with the device host.
-
 
 ## -inheritance
 
@@ -87,5 +86,5 @@ Method that re-registers a running device by using the original UDN.
 
 </td>
 </tr>
-</table> 
+</table>
 

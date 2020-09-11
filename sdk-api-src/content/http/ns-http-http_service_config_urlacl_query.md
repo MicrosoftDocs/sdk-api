@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 298edd6c-c036-4e45-88f3-84917c8a76ea
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_URLACL_QUERY, HTTP_SERVICE_CONFIG_URLACL_QUERY, HTTP_SERVICE_CONFIG_URLACL_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_QUERY, PHTTP_SERVICE_CONFIG_URLACL_QUERY structure pointer [HTTP], _http_http_service_config_urlacl_query, http.http_service_config_urlacl_query, http/HTTP_SERVICE_CONFIG_URLACL_QUERY, http/PHTTP_SERVICE_CONFIG_URLACL_QUERY'
-f1_keywords:
-- http/HTTP_SERVICE_CONFIG_URLACL_QUERY
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_SERVICE_CONFIG_URLACL_QUERY
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_URLACL_QUERY, *PHTTP_SERVICE_CONFIG_URLACL_QUERY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_SERVICE_CONFIG_URLACL_QUERY
+ - http/_HTTP_SERVICE_CONFIG_URLACL_QUERY
+ - PHTTP_SERVICE_CONFIG_URLACL_QUERY
+ - http/PHTTP_SERVICE_CONFIG_URLACL_QUERY
+ - HTTP_SERVICE_CONFIG_URLACL_QUERY
+ - http/HTTP_SERVICE_CONFIG_URLACL_QUERY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_SERVICE_CONFIG_URLACL_QUERY
 ---
 
 # HTTP_SERVICE_CONFIG_URLACL_QUERY structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_QUERY</b> structure is used to specify a particular reservation record to query in the URL namespace reservation store. It is passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is equal to <b>HttpServiceConfigUrlAclInfo</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field QueryDesc
 
@@ -80,7 +80,6 @@ Returns a single record.
 
 Returns a sequence of records in a sequence of calls, controlled by the <i>dwToken</i> parameter.
 
-
 ### -field KeyDesc
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>, then <i>KeyDesc</i> should contain an 
@@ -90,7 +89,6 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryNext</b>, <i>KeyDesc</i> is ignored.
-
 
 ### -field dwToken
 
@@ -103,11 +101,7 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryNext</b>,
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>, then <i>dwToken</i> is ignored.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
 
@@ -122,7 +116,4 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
- 
-
- 
 

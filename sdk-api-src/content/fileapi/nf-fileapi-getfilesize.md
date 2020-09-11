@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize function [Files], _win32_getfilesize, base.getfilesize, fileapi/GetFileSize, fs.getfilesize, winbase/GetFileSize
-f1_keywords:
-- fileapi/GetFileSize
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileSize
+ - fileapi/GetFileSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileSize
 ---
 
 # GetFileSize function
@@ -56,31 +57,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of the specified file, in bytes.
 
 It is recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file.
-
 
 ### -param lpFileSizeHigh [out, optional]
 
 A pointer to the variable where the high-order doubleword of the file size is returned. This parameter can 
       be <b>NULL</b> if the application does not require the high-order doubleword.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the low-order doubleword of the file size, and, if 
        <i>lpFileSizeHigh</i> is non-<b>NULL</b>, the function puts the 
@@ -98,12 +90,7 @@ If the function fails and <i>lpFileSizeHigh</i> is non-<b>NULL</b>, the
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return a value other than 
        <b>NO_ERROR</b>.
 
-
-
-
 ## -remarks
-
-
 
 You cannot use the <b>GetFileSize</b> function with a handle of 
     a nonseeking device such as a pipe or a communications device. To determine the file type for 
@@ -193,12 +180,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -213,7 +195,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a>
- 
-
- 
 

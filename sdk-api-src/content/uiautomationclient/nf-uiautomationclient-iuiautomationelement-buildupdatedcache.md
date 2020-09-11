@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: b2499b3c-433f-4e2f-937c-78da66c16203
 ms.date: 12/05/2018
 ms.keywords: BuildUpdatedCache, BuildUpdatedCache method [Windows Accessibility], BuildUpdatedCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],BuildUpdatedCache method, IUIAutomationElement.BuildUpdatedCache, IUIAutomationElement::BuildUpdatedCache, uiauto.uiauto_IUIAutomationElement_BuildUpdatedCache, uiauto_IUIAutomationElement_BuildUpdatedCache, uiautomationclient/IUIAutomationElement::BuildUpdatedCache, winauto.uiauto_IUIAutomationElement_BuildUpdatedCache
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.BuildUpdatedCache
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.BuildUpdatedCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::BuildUpdatedCache
+ - uiautomationclient/IUIAutomationElement::BuildUpdatedCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.BuildUpdatedCache
 ---
 
 # IUIAutomationElement::BuildUpdatedCache
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a new UI Automation element with an updated cache.
 
-
 ## -parameters
-
-
-
 
 ### -param cacheRequest [in]
 
@@ -64,40 +60,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
 
-
 ### -param updatedElement [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>**</b>
 
 Receives a pointer to the new UI Automation element.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The original UI Automation element is unchanged. The new <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> interface refers to the same element and has the same runtime identifier.
 
-			
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cachingforclients">Caching UI Automation Properties and Control Patterns</a>
 
@@ -112,7 +91,4 @@ The original UI Automation element is unchanged. The new <a href="https://docs.m
 
 
 <b>Reference</b>
- 
-
- 
 

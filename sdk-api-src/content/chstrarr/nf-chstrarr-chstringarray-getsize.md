@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5db50c38-a9c7-4711-925e-291cebf2b6f1
 ms.date: 12/05/2018
 ms.keywords: ?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize
-f1_keywords:
-- chstrarr/CHStringArray.GetSize
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.GetSize
-- ?GetSize@CHStringArray@@QEBAHXZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::GetSize
+ - chstrarr/CHStringArray::GetSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.GetSize
+ - ?GetSize@CHStringArray@@QEBAHXZ
 ---
 
 # CHStringArray::GetSize
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -60,27 +60,13 @@ ms.custom: 19H1
 
 The <b>GetSize</b> method gets the size of the array. Because indexes are zero-based, the size is one greater than the largest index.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If the <b>GetSize</b> method is successful, it returns the number of elements in the array.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
@@ -95,7 +81,4 @@ If the <b>GetSize</b> method is successful, it returns the number of elements in
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setsize">CHStringArray::SetSize</a>
- 
-
- 
 

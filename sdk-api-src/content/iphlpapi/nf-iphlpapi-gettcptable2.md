@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 942e8cb6-545f-45ab-919a-246e3b2d4c6a
 ms.date: 12/05/2018
 ms.keywords: GetTcpTable2, GetTcpTable2 function [IP Helper], iphlp.gettcptable2, iphlpapi/GetTcpTable2
-f1_keywords:
-- iphlpapi/GetTcpTable2
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTcpTable2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTcpTable2
+ - iphlpapi/GetTcpTable2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTcpTable2
 ---
 
 # GetTcpTable2 function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTcpTable2</b> function retrieves the IPv4 TCP connection table.
 
-
 ## -parameters
-
-
-
 
 ### -param TcpTable [out]
 
 A pointer to a buffer that receives the TCP connection table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a> structure.
-
 
 ### -param SizePointer [in, out]
 
@@ -73,7 +68,6 @@ On input, specifies the size of the buffer pointed to by the <i>TcpTable</i> par
 
 
 On output, if the buffer is not large enough to hold the returned connection table, the function sets this parameter equal to the required buffer size.
-
 
 ### -param Order [in]
 
@@ -90,8 +84,6 @@ A value that specifies whether the TCP connection table should be sorted. If thi
 </ol>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -151,14 +143,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetTcpTable2</b> function is defined on Windows Vista and later. 
 
@@ -315,14 +301,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
 
@@ -401,7 +380,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a>
- 
-
- 
 

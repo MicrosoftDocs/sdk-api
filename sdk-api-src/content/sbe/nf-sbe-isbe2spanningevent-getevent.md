@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: f1fc2b7c-3f60-4d03-9c75-9b9d9450ceef
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Microsoft TV Technologies], GetEvent method [Microsoft TV Technologies],ISBE2SpanningEvent interface, ISBE2SpanningEvent interface [Microsoft TV Technologies],GetEvent method, ISBE2SpanningEvent.GetEvent, ISBE2SpanningEvent::GetEvent, mstv.isbe2spanningevent_getevent, sbe/ISBE2SpanningEvent::GetEvent
-f1_keywords:
-- sbe/ISBE2SpanningEvent.GetEvent
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2SpanningEvent.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2SpanningEvent::GetEvent
+ - sbe/ISBE2SpanningEvent::GetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2SpanningEvent.GetEvent
 ---
 
 # ISBE2SpanningEvent::GetEvent
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an in-band spanning event and  event data from the Stream Buffer Engine, version 2 (SBE2). An <i>in-band spanning event</i> is an event that exists until it is replaced or erased, and is part of the state for events that appear later in the same stream.
 
-
 ## -parameters
-
-
-
 
 ### -param idEvt [in]
 
 GUID identifying the spanning event type.
 
-
 ### -param streamId [in]
 
 Identifies the stream containing the spanning event.
-
 
 ### -param pcb [in, out]
 
 Pointer to a value that gets the size of the event data buffer. If the <i>pb</i> parameter is <b>NULL</b>, this parameter returns the required buffer size.
 
-
 ### -param pb [out]
 
 Pointer to a buffer that gets the event data. If this parameter is <b>NULL</b>, the <i>pcb</i> parameter returns the required buffer size. The structure of the event data depends on the event type.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The following types of in-band spanning events are defined.
 
@@ -193,22 +178,12 @@ The following types of in-band spanning events are defined.
 <td>Signals a tuning failure.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2spanningevent">ISBE2SpanningEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2spanningevent-getevent">ISBE2SpanningEvent::GetEvent</a>
- 
-
- 
 

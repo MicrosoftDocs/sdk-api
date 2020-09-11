@@ -8,10 +8,6 @@ tech.root: swdevice
 ms.assetid: C5E659CD-203A-4021-AB3F-3AFEE2B31E7C
 ms.date: 12/05/2018
 ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swdevice/SwDeviceClose
-f1_keywords:
-- swdevice/SwDeviceClose
-dev_langs:
-- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-- API-MS-Win-devices-swdevice-l1-1-0.dll
-- API-MS-Win-devices-swdevice-l1-1-1.dll
-api_name:
-- SwDeviceClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SwDeviceClose
+ - swdevice/SwDeviceClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+ - API-MS-Win-devices-swdevice-l1-1-0.dll
+ - API-MS-Win-devices-swdevice-l1-1-1.dll
+api_name:
+ - SwDeviceClose
 ---
 
 # SwDeviceClose function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the software device handle.  When the handle is closed, PnP will initiate the process of removing the device.
 
-
 ## -parameters
-
-
-
 
 ### -param hSwDevice [in]
 
 The <b>HSWDEVICE</b> handle to close.
 
-
 ## -remarks
-
-
 
 After <b>SwDeviceClose</b> returns, the operating system is guaranteed to not call the <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function, and any calls to Software Device API functions that were in progress are  guaranteed to have completed.
 
@@ -79,16 +72,7 @@ By calling <b>SwDeviceClose</b>, you initiate the process of removing a device f
 
 PnP removal makes the device "Not present." PnP removal of a device is the same us unplugging a USB device.  All the persisted property state for the device remains in memory.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8b253715-a294-4e95-b730-e6efe7f895af
 ms.date: 12/05/2018
 ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow],described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
-f1_keywords:
-- austream/IAudioData
-dev_langs:
-- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- austream.h
-api_name:
-- IAudioData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioData
+ - austream/IAudioData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - austream.h
+api_name:
+ - IAudioData
 ---
 
 # IAudioData interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
@@ -58,9 +57,6 @@ The <code>IAudioData</code> interface provides methods that enable applications 
 Implement this interface on underlying audio data objects that audio stream sample objects will access.
 
 Applications use this interface to set and retrieve information on underlying data objects that an audio stream will reference.
-
-
-
 
 ## -inheritance
 
@@ -95,16 +91,9 @@ Sets the current data format.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData</a>
- 
-
- 
 

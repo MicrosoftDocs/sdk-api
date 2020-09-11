@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: fc98dfb3-7e10-421d-b722-223bd8a65330
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], IBackgroundCopyManager interface [BITS],described, _drz_ibackgroundcopymanager, bits.ibackgroundcopymanager, bits/IBackgroundCopyManager
-f1_keywords:
-- bits/IBackgroundCopyManager
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyManager
+ - bits/IBackgroundCopyManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyManager
 ---
 
 # IBackgroundCopyManager interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates transfer jobs, retrieves an enumerator object that contains the jobs in the queue, and retrieves individual jobs from the queue.
 
 For information on how to create an instance of this interface, see 
 <a href="https://docs.microsoft.com/windows/desktop/Bits/connecting-to-the-bits-service">Connecting to the BITS Service</a>.
-
 
 ## -inheritance
 
@@ -107,29 +106,17 @@ Retrieves a specified job from the queue.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>Windows Vista and later:  </b>When an ActiveX control tries to instantiate this interface from an Internet Explorer process, the call will fail with access denied. This is because COM does not allow lower-integrity clients to bind to class instances at higher integrity levels. For details, see <a href="https://msdn.microsoft.com/library/Bb250462.aspx">Understanding and Working in Protected Mode Internet Explorer</a> and <a href="https://msdn.microsoft.com/library/bb625962.aspx">How the Integrity Mechanism Is Implemented in Windows Vista</a>. A user can workaround the issue by adding the website to the Trusted site zone.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
- 
-
- 
 

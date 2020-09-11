@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: magapi
+f1_keywords:
+ - magnification
+ - magnification/magnification
 ---
 
 # Magnification.h header
 
 
 ## -description
-
 
 This header is used by Magnification API. For more information, see:
 

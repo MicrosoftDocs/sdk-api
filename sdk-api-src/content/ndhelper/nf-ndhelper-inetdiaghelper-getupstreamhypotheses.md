@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: e683a2eb-8dec-47e2-ae3d-6c12a9b2773d
 ms.date: 12/05/2018
 ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetUpStreamHypotheses method, INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
-f1_keywords:
-- ndhelper/INetDiagHelper.GetUpStreamHypotheses
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper.GetUpStreamHypotheses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper::GetUpStreamHypotheses
+ - ndhelper/INetDiagHelper::GetUpStreamHypotheses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper.GetUpStreamHypotheses
 ---
 
 # INetDiagHelper::GetUpStreamHypotheses
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetUpStreamHypotheses</b> method asks the Helper Class Extension to generate hypotheses for possible causes of high utilization in the upstream network components that depend on it.
 
-
 ## -parameters
-
-
-
 
 ### -param pcelt [out]
 
 A pointer to a count of elements in the <b>HYPOTHESIS</b> array.
 
-
 ### -param pprgHypotheses [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a> array.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -148,25 +140,11 @@ The diagnosis or repair operation has been canceled.
 
 Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
 
-
-
-
 ## -remarks
-
-
 
 This method is not required when building a Helper Class Extension.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
 

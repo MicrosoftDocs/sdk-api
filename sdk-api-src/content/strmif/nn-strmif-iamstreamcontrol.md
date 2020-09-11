@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
-f1_keywords:
-- strmif/IAMStreamControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStreamControl
+ - strmif/IAMStreamControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStreamControl
 ---
 
 # IAMStreamControl interface
 
 
 ## -description
-
-
 
 The <code>IAMStreamControl</code> interface controls individual streams on a filter. Pins on some filters expose this interface. For example, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux Filter</a> supports this interface on its input pins, and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> support it on their output pins.
 
@@ -68,9 +67,6 @@ When you use this interface, be aware of the following limitations:
 Depending on the application, you might find the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-controlstream">ICaptureGraphBuilder2::ControlStream</a> method more convenient, because it supports stream control at the graph level, so that you do not have to enumerate individual filters and pins.
 
 <b>Filter developers</b>: The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasestreamcontrol">CBaseStreamControl</a> base class implements this interface.
-
-
-
 
 ## -inheritance
 
@@ -114,20 +110,13 @@ Informs the pin when to suspend processing and supplying data.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasestreamcontrol">CBaseStreamControl Class</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
- 
-
- 
 

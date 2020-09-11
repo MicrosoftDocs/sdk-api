@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e5f1a184-195a-4a0e-849a-ed629a6c9049
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_TIMEOUT, PWLX_SET_TIMEOUT callback, WlxSetTimeout, WlxSetTimeout callback function [Security], _gina_wlxsettimeout, security.wlxsettimeout, winwlx/WlxSetTimeout
-f1_keywords:
-- winwlx/WlxSetTimeout
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxSetTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_SET_TIMEOUT
+ - winwlx/PWLX_SET_TIMEOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxSetTimeout
 ---
 
 # PWLX_SET_TIMEOUT callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxSetTimeout function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,23 +57,16 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 
 ## -parameters
 
-
-
-
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
-
 ### -param Timeout [in]
 
 Requested time-out, in seconds.
 
-
 ## -returns
-
-
 
 The <b>WlxSetTimeout</b> function returns one of the following values.
 
@@ -105,18 +98,8 @@ The new time-out was not accepted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
- 
-
- 
 

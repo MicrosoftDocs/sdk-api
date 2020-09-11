@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 4baf7193-aab3-4bd0-bc0a-60fd9277fc72
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMaskEx, GetNumaNodeProcessorMaskEx function, base.getnumanodeprocessormaskex, systemtopologyapi/GetNumaNodeProcessorMaskEx, winbase/GetNumaNodeProcessorMaskEx
-f1_keywords:
-- systemtopologyapi/GetNumaNodeProcessorMaskEx
-dev_langs:
-- c++
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-systemtopology-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-MS-Win-Core-Systemtopology-L1-1-1.dll
-api_name:
-- GetNumaNodeProcessorMaskEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNumaNodeProcessorMaskEx
+ - systemtopologyapi/GetNumaNodeProcessorMaskEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-systemtopology-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-MS-Win-Core-Systemtopology-L1-1-1.dll
+api_name:
+ - GetNumaNodeProcessorMaskEx
 ---
 
 # GetNumaNodeProcessorMaskEx function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the processor mask for a node regardless of the processor group the node belongs to.
 
-
 ## -parameters
-
-
-
 
 ### -param Node [in]
 
 The node number.
-
 
 ### -param ProcessorMask [out]
 
@@ -73,21 +68,13 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 
 If the specified node has no processors configured, the <b>Mask</b> member is zero and the <b>Group</b> member is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetNumaNodeProcessorMaskEx</b> function differs from <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a> in that it can retrieve the processor mask for a node regardless of the group the node belongs to. That is, the node does not have to be in the same group as the calling thread. The <b>GetNumaNodeProcessorMask</b> function can retrieve the processor mask only for nodes that are in the same group as the calling thread.
 
@@ -99,13 +86,7 @@ To ensure that all threads for your process run on the same node, use the
 
 To compile an application that uses this function, set <b>_WIN32_WINNT</b> &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
 
@@ -120,7 +101,4 @@ To compile an application that uses this function, set <b>_WIN32_WINNT</b> &gt;=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
- 
-
- 
 

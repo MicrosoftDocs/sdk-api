@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
 ms.date: 12/05/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
-f1_keywords:
-- fileapi/GetFullPathName
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFullPathName
-- GetFullPathNameA
-- GetFullPathNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFullPathNameA
+ - fileapi/GetFullPathNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFullPathName
+ - GetFullPathNameA
+ - GetFullPathNameW
 ---
 
 # GetFullPathNameA function
 
 
 ## -description
-
 
 Retrieves the full path and file name of the specified file.
 
@@ -70,9 +70,6 @@ For more information about file and path names, see
     multithreaded applications or shared library code. For more information, see the Remarks section.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -92,14 +89,11 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 ### -param nBufferLength [in]
 
 The size of the buffer to receive the null-terminated string for the drive and path, in 
-      <b>TCHARs</b>. 
-     
-
+      <b>TCHARs</b>.
 
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the null-terminated string for the  drive and path.
-
 
 ### -param lpFilePart [out]
 
@@ -111,10 +105,7 @@ This parameter can be  <b>NULL</b>.
 If <i>lpBuffer</i> 
       refers to a directory and not a file, <i>lpFilePart</i> receives zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the 
        string copied to <i>lpBuffer</i>, not including the terminating null character.
@@ -126,12 +117,7 @@ If the <i>lpBuffer</i> buffer is too small to contain the path, the return value
 If the function fails for any other reason, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetFullPathName</b> merges the name of the current drive 
     and directory with a specified file name to determine the full path and file name of a specified file. It also 
@@ -365,9 +351,6 @@ void _tmain(int argc, TCHAR *argv[])
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -389,7 +372,4 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
- 
-
- 
 

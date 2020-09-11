@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 79386854-8b6b-4836-b8f3-d70657f6162c
 ms.date: 12/05/2018
 ms.keywords: SetupWriteTextLogInfLine, SetupWriteTextLogInfLine function [Device and Driver Installation], devinst.setupwritetextloginfline, setupapi/SetupWriteTextLogInfLine, setupapilog-ref_f6f9d000-dcfd-4dda-8a2c-bac81274a836.xml
-f1_keywords:
-- setupapi/SetupWriteTextLogInfLine
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupWriteTextLogInfLine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupWriteTextLogInfLine
+ - setupapi/SetupWriteTextLogInfLine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupWriteTextLogInfLine
 ---
 
 # SetupWriteTextLogInfLine function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupWriteTextLogInfLine</b> function writes a log entry in a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-text-logs">SetupAPI text log</a> that contains the text of a specified INF file line.
 
-
 ## -parameters
-
-
-
 
 ### -param LogToken [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>.
-
 
 ### -param Flags [in]
 
@@ -86,24 +81,15 @@ The change, if any, to the indentation depth of the section and the current log 
 
 A handle to the INF file that includes the line of text to be written to the text log. A handle to an INF file is obtained by calling <b>SetupOpenInfFile</b>, which is documented in the Platform SDK.
 
-
 ### -param Context [in]
 
-A pointer to an INF file context that specifies the  line of text to be written to the text log. An INF file context for a line is obtained by calling the <b>SetupFind</b><i>Xxx</i><b>Line</b> functions. For information about INF files and an INF file context, see the information that is provided in the Platform SDK about using INF files, obtaining an INF file context, and the INFCONTEXT structure. 
-
+A pointer to an INF file context that specifies the  line of text to be written to the text log. An INF file context for a line is obtained by calling the <b>SetupFind</b><i>Xxx</i><b>Line</b> functions. For information about INF files and an INF file context, see the information that is provided in the Platform SDK about using INF files, obtaining an INF file context, and the INFCONTEXT structure.
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupWriteTextLogInfLine</b> writes a log entry in the following format:
 
@@ -139,13 +125,7 @@ For more information about the various types of log tokens, see <a href="https:/
 
 For more information about using log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>
 
@@ -156,7 +136,4 @@ For more information about using log tokens, see <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlogerror">SetupWriteTextLogError</a>
- 
-
- 
 

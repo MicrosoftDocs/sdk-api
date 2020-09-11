@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 53bcb237-939e-4e10-bc83-83a5dcdeab70
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],_NewEnum property, ITaskNamedValueCollection._NewEnum, ITaskNamedValueCollection.get__NewEnum, ITaskNamedValueCollection::_NewEnum, ITaskNamedValueCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITaskNamedValueCollection interface, get__NewEnum, taskschd.itasknamedvaluecollection__newenum, taskschd/ITaskNamedValueCollection::_NewEnum, taskschd/ITaskNamedValueCollection::get__NewEnum
-f1_keywords:
-- taskschd/ITaskNamedValueCollection._NewEnum
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskNamedValueCollection._NewEnum
-- ITaskNamedValueCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskNamedValueCollection::get__NewEnum
+ - taskschd/ITaskNamedValueCollection::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskNamedValueCollection._NewEnum
+ - ITaskNamedValueCollection.get__NewEnum
 ---
 
 # ITaskNamedValueCollection::get__NewEnum
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the collection enumerator for the name-value pair collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection">ITaskNamedValueCollection</a>
- 
-
- 
 

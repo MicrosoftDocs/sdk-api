@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9fdfd3b1-23fb-4172-a3e4-2142a29c21e3
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],PauseTimer method, IOperationsProgressDialog.PauseTimer, IOperationsProgressDialog::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_PauseTimer, shell.IOperationsProgressDialog_PauseTimer, shobjidl_core/IOperationsProgressDialog::PauseTimer
-f1_keywords:
-- shobjidl_core/IOperationsProgressDialog.PauseTimer
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IOperationsProgressDialog.PauseTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOperationsProgressDialog::PauseTimer
+ - shobjidl_core/IOperationsProgressDialog::PauseTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IOperationsProgressDialog.PauseTimer
 ---
 
 # IOperationsProgressDialog::PauseTimer
@@ -49,24 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Pauses progress dialog timer.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

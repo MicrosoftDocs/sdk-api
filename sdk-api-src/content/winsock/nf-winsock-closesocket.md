@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 2f357aa8-389b-4c92-8a9f-289e048cc41c
 ms.date: 12/05/2018
 ms.keywords: _win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket
-f1_keywords:
-- winsock/closesocket
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- closesocket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - closesocket
+ - winsock/closesocket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - closesocket
 ---
 
 # closesocket function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>closesocket</b> function closes an existing socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying the socket to close.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>closesocket</b> returns zero. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
@@ -147,14 +140,8 @@ The socket is marked as nonblocking, but the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>closesocket</b> function closes a socket. Use it to release the socket descriptor passed in the <i>s</i> parameter. Note that the socket descriptor passed in the <i>s</i>  parameter may immediately be reused by the system as soon as <b>closesocket</b> function is issued. As a result, it is not reliable to expect further references to the socket descriptor passed in the <i>s</i> parameter to fail with the error <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a>. A Winsock client must never issue <b>closesocket</b> on <i>s</i> concurrently with another Winsock function call.
 
@@ -323,13 +310,7 @@ The following are important issues associated with connection teardown when usin
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/graceful-shutdown-linger-options-and-socket-closure-2">Graceful Shutdown, Linger Options, and Socket Closure</a>
 
@@ -376,7 +357,4 @@ The following are important issues associated with connection teardown when usin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: c7668d06-8533-4dd1-a4f6-fb38c97219db
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetById0, FwpmLayerGetById0 function [Filtering], fwp.fwpmlayergetbyid0_func, fwpmu/FwpmLayerGetById0
-f1_keywords:
-- fwpmu/FwpmLayerGetById0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmLayerGetById0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmLayerGetById0
+ - fwpmu/FwpmLayerGetById0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmLayerGetById0
 ---
 
 # FwpmLayerGetById0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmLayerGetById0</b> function retrieves a layer object.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param id [in]
 
 Type: <b>UINT16</b>
 
  Identifier of the desired layer. For a list of possible values, see <a href="https://msdn.microsoft.com/library/ff570731(VS.85).aspx">Run-time Filtering Layer Identifiers</a>  in the WDK documentation for Windows Filtering Platform.
-
 
 ### -param layer [out]
 
@@ -78,10 +72,7 @@ Type: [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-
 
 The layer information.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -127,14 +118,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must free the returned object by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
@@ -142,20 +127,11 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 <b>FwpmLayerGetById0</b> is a specific implementation of FwpmLayerGetById. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_LAYER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer0)
 
 
 
 <a href="https://msdn.microsoft.com/library/ff570731(VS.85).aspx">Run-time Filtering Layer Identifiers</a>
- 
-
- 
 

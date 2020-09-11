@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 717f51e0-80cb-4762-b05d-30e30d065d0c
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],SetClipList method, IDirectDrawClipper.SetClipList, IDirectDrawClipper::SetClipList, SetClipList, SetClipList method [DirectDraw], SetClipList method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetClipList, directdraw.idirectdrawclipper_setcliplist
-f1_keywords:
-- ddraw/IDirectDrawClipper.SetClipList
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawClipper.SetClipList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawClipper::SetClipList
+ - ddraw/IDirectDrawClipper::SetClipList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawClipper.SetClipList
 ---
 
 # IDirectDrawClipper::SetClipList
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or deletes the clip list that is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> methods on surfaces to which the parent DirectDrawClipper object is attached.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure for the clip list to set or NULL. If there is an existing clip list that is associated with the DirectDrawClipper object and this value is NULL, the clip list is deleted.
 
-
 ### -param arg2 [in]
 
 Currently not used and must be set to 0.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -86,11 +78,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_OUTOFMEMORY</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You cannot set the clip list if a window handle is already associated with the DirectDrawClipper object. 
 
@@ -98,16 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idire
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetClipList</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a>
- 
-
- 
 

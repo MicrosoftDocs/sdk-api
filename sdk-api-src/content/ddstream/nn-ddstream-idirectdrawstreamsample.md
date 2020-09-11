@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: afc8ac84-4629-4c5d-b4b2-59c1eb1af35d
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawStreamSample, IDirectDrawStreamSample interface [DirectShow], IDirectDrawStreamSample interface [DirectShow],described, IDirectDrawStreamSampleInterface, ddstream/IDirectDrawStreamSample, dshow.idirectdrawstreamsample
-f1_keywords:
-- ddstream/IDirectDrawStreamSample
-dev_langs:
-- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ddstream.h
-api_name:
-- IDirectDrawStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawStreamSample
+ - ddstream/IDirectDrawStreamSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ddstream.h
+api_name:
+ - IDirectDrawStreamSample
 ---
 
 # IDirectDrawStreamSample interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
@@ -58,9 +57,6 @@ The <code>IDirectDrawStreamSample</code> interface provides methods that set and
 This interface isn't intended for implementation by application developers. It is exposed by sample objects created by the DirectDraw stream.
 
 Use this interface when applications need to set clipping rectangles and retrieve the rendering surface for DirectDraw stream samples.
-
-
-
 
 ## -inheritance
 
@@ -95,16 +91,9 @@ Changes the clipping rectangle for a sample.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>
- 
-
- 
 

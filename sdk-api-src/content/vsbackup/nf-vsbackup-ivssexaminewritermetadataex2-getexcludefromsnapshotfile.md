@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3df57749-9a26-4187-b1fc-aeb68a4d1d06
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFromSnapshotFile, GetExcludeFromSnapshotFile method, GetExcludeFromSnapshotFile method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotFile method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile, base.ivssexaminewritermetadataex2_getexcludefromsnapshotfile, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
+ - vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile
 ---
 
 # IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains information about <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
 
-
 ## -parameters
-
-
-
 
 ### -param iFile [in]
 
@@ -65,16 +61,12 @@ An index for an excluded <a href="https://docs.microsoft.com/windows/desktop/VSS
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of <i>file sets</i> explicitly excluded from a given shadow copy. The value of <i>n</i> is returned by 
 the <b>IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</b> method.
 
-
 ### -param ppFiledesc [out]
 
 A doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the file element information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -132,27 +124,15 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
 The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
 
@@ -163,7 +143,4 @@ The <b>GetExcludeFromSnapshotFile</b> method is intended to report information a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
- 
-
- 
 

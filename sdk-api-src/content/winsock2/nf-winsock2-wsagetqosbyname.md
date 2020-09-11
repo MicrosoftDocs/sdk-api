@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 9b586856-5441-414b-8b91-298c952c351b
 ms.date: 12/05/2018
 ms.keywords: WSAGetQOSByName, WSAGetQOSByName function [Winsock], _win32_wsagetqosbyname_2, winsock.wsagetqosbyname_2, winsock2/WSAGetQOSByName
-f1_keywords:
-- winsock2/WSAGetQOSByName
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAGetQOSByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAGetQOSByName
+ - winsock2/WSAGetQOSByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAGetQOSByName
 ---
 
 # WSAGetQOSByName function
@@ -49,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAGetQOSByName</b> function initializes a 
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param lpQOSName [in, out]
 
 A pointer to a specific quality of service template.
-
 
 ### -param lpQOS [out]
 
 A pointer to the 
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a> structure to be filled.
 
-
 ## -returns
-
-
 
 If 
 <b>WSAGetQOSByName</b> succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call 
@@ -135,14 +126,8 @@ The <i>lpQOSName</i> or <i>lpQOS</i> parameter are not a valid part of the user 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAGetQOSByName</b> function is used by applications to initialize a 
@@ -154,13 +139,7 @@ Alternatively, the client may use this function to retrieve an enumeration of av
 <b>WSABUF</b> indicated by <i>lpQOSName</i>. The list of names itself is terminated by a zero-length name. When the 
 <b>WSAGetQOSByName</b> function is used to retrieve template names, the <i>lpQOS</i> parameter is ignored.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsock2/ns-winsock2-qos">QOS</a>
 
@@ -183,7 +162,4 @@ Alternatively, the client may use this function to retrieve an enumeration of av
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
- 
-
- 
 

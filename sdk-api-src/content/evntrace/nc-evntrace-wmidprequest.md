@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: e9f70ae6-906f-4e55-bca7-4355f1ca6091
 ms.date: 12/05/2018
 ms.keywords: ControlCallback, ControlCallback callback function [ETW], WMIDPREQUEST, WMIDPREQUEST callback, WMI_DISABLE_EVENTS, WMI_ENABLE_EVENTS, _evt_controlcallback, base.controlcallback, etw.controlcallback, evntrace/ControlCallback
-f1_keywords:
-- evntrace/ControlCallback
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Evntrace.h
-api_name:
-- ControlCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMIDPREQUEST
+ - evntrace/WMIDPREQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Evntrace.h
+api_name:
+ - ControlCallback
 ---
 
 # WMIDPREQUEST callback function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Providers implement this function to receive enable or disable notification requests from controllers. 
 			
 
 The <b>WMIDPREQUEST</b> type defines a pointer to this callback function. <b>ControlCallback</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestCode [in]
 
@@ -93,14 +89,10 @@ Disables the provider.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param RequestContext
 
-
 ### -param *BufferSize
-
 
 ### -param Buffer [in]
 
@@ -118,20 +110,11 @@ Provider-defined context. The provider uses the <i>RequestContext</i> parameter 
 
 Reserved for internal use.
 
-
 ## -returns
 
-
-
 You should return ERROR_SUCCESS if the callback succeeds. Note that ETW ignores the return value for this function except when a controller calls <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> to enable a provider and the provider has not yet called <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>. When this occurs, <b>RegisterTraceGuids</b> will return the return value of this callback if the registration was successful.
-					
-
-
-
 
 ## -remarks
-
-
 
 This function is specified using the 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function. When the controller calls the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> function to enable, disable, or change the enable flags or level, ETW calls this callback. The provider enables or disables itself based the <i>RequestCode</i> value. Typically, the provider uses this value to set a global flag to indicate its enabled state.
@@ -154,12 +137,7 @@ For an example implementation of a
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
@@ -182,7 +160,4 @@ For an example implementation of a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
- 
-
- 
 

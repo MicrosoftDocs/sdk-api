@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 60342e8f-1947-4949-b25e-01db473712ac
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Tasks property, IAzRole interface [Security],Tasks property, IAzRole.Tasks, IAzRole.get_Tasks, IAzRole::Tasks, IAzRole::get_Tasks, Tasks property [Security], Tasks property [Security],AzRole object, Tasks property [Security],IAzRole interface, azroles/IAzRole::Tasks, azroles/IAzRole::get_Tasks, get_Tasks, security.iazrole_tasks
-f1_keywords:
-- azroles/IAzRole.Tasks
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzRole.Tasks
-- IAzRole.get_Tasks
-- AzRole.Tasks
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzRole::get_Tasks
+ - azroles/IAzRole::get_Tasks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzRole.Tasks
+ - IAzRole.get_Tasks
+ - AzRole.Tasks
 ---
 
 # IAzRole::get_Tasks
@@ -51,20 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Tasks</b> property retrieves the tasks associated with the role.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. 
-
-
+In JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object.
 

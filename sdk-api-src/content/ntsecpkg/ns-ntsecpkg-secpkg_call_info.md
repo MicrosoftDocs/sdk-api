@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ac25ef88-7c64-42dd-8daa-fad039453043
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_CALL_INFO, PSECPKG_CALL_INFO, PSECPKG_CALL_INFO structure pointer [Security], SECPKG_CALL_ANSI, SECPKG_CALL_ASYNC_UPDATE, SECPKG_CALL_BUFFER_MARSHALL, SECPKG_CALL_CLEANUP, SECPKG_CALL_INFO, SECPKG_CALL_INFO structure [Security], SECPKG_CALL_IN_PROC, SECPKG_CALL_IS_TCB, SECPKG_CALL_KERNEL_MODE, SECPKG_CALL_NEGO, SECPKG_CALL_NEGO_EXTENDER, SECPKG_CALL_NETWORK_ONLY, SECPKG_CALL_PROCESS_TERM, SECPKG_CALL_RECURSIVE, SECPKG_CALL_SYSTEM_PROC, SECPKG_CALL_THREAD_TERM, SECPKG_CALL_URGENT, SECPKG_CALL_WINLOGON, SECPKG_CALL_WOWCLIENT, _ssp_secpkg_call_info, ntsecpkg/PSECPKG_CALL_INFO, ntsecpkg/SECPKG_CALL_INFO, security.secpkg_call_info'
-f1_keywords:
-- ntsecpkg/SECPKG_CALL_INFO
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecpkg.h
-api_name:
-- SECPKG_CALL_INFO
 targetos: Windows
 req.typenames: SECPKG_CALL_INFO, *PSECPKG_CALL_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECPKG_CALL_INFO
+ - ntsecpkg/_SECPKG_CALL_INFO
+ - PSECPKG_CALL_INFO
+ - ntsecpkg/PSECPKG_CALL_INFO
+ - SECPKG_CALL_INFO
+ - ntsecpkg/SECPKG_CALL_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SECPKG_CALL_INFO
 ---
 
 # SECPKG_CALL_INFO structure
@@ -49,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SECPKG_CALL_INFO</b> structure contains information about a currently executing call. This structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_call_info">GetCallInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProcessId
 
 The process identifier of the call.
 
-
 ### -field ThreadId
 
 The thread identifier of the call.
-
 
 ### -field Attributes
 
@@ -271,17 +269,10 @@ The buffer passed is marshaled by RPC.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CallCount
 
 The call count.
 
-
 ### -field MechOid
-
- 
-
-
 

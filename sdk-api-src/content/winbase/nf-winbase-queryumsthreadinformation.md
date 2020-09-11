@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.date: 12/05/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
-f1_keywords:
-- winbase/QueryUmsThreadInformation
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-ums-l1-1-0.dll
-api_name:
-- QueryUmsThreadInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryUmsThreadInformation
+ - winbase/QueryUmsThreadInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-ums-l1-1-0.dll
+api_name:
+ - QueryUmsThreadInformation
 ---
 
 # QueryUmsThreadInformation function
@@ -50,23 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified user-mode scheduling (UMS) worker thread.
-
 
 ## -parameters
 
-
-
-
 ### -param UmsThread [in]
 
-A pointer to a UMS thread context. 
-
+A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A UMS_THREAD_INFO_CLASS value that specifies the kind of information to retrieve. 
+A UMS_THREAD_INFO_CLASS value that specifies the kind of information to retrieve.
 
 ### -param UmsThreadInformation [out]
 
@@ -76,20 +71,15 @@ If the information class is <b>UmsThreadContext</b> or <b>UmsThreadTeb</b>, the 
 
 If the information class is <b>UmsThreadIsSuspended</b> or <b>UmsThreadIsTerminated</b>, the buffer must be <code>sizeof(BOOLEAN)</code>.
 
-
 ### -param UmsThreadInformationLength [in]
 
-The size of the <i>UmsThreadInformation</i> buffer, in bytes. 
-
+The size of the <i>UmsThreadInformation</i> buffer, in bytes.
 
 ### -param ReturnLength [out, optional]
 
 A pointer to a ULONG variable. On output, this parameter receives the number of bytes written to the <i>UmsThreadInformation</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a nonzero value.
 
@@ -123,27 +113,18 @@ The specified information class is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
 
 The <b>QueryUmsThreadInformation</b> function retrieves information about the specified UMS worker thread such as its application-defined context, its thread execution block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>), and whether the thread is suspended or terminated. 
 
 The underlying structures for UMS worker threads are managed by the system. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
 
-
-
-
 ## -see-also
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
- 
+

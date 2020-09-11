@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 46ce8282-a434-4b0b-b66e-40810052b34b
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PrepareForBackup method, IVssBackupComponents.PrepareForBackup, IVssBackupComponents::PrepareForBackup, PrepareForBackup, PrepareForBackup method [VSS], PrepareForBackup method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prepareforbackup, base.ivssbackupcomponents_prepareforbackup, vsbackup/IVssBackupComponents::PrepareForBackup
-f1_keywords:
-- vsbackup/IVssBackupComponents.PrepareForBackup
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.PrepareForBackup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::PrepareForBackup
+ - vsbackup/IVssBackupComponents::PrepareForBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.PrepareForBackup
 ---
 
 # IVssBackupComponents::PrepareForBackup
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PrepareForBackup</b> method will cause VSS to generate a 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
 Doubly indirect pointer to an instance of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface that is used to determine when the asynchronous operation is complete.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -139,14 +132,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>PrepareForBackup</b> generates a 
 PrepareForBackup event, which is handled by each instance of each writer through the 
@@ -163,13 +150,7 @@ The Backup Components Document can still be modified by writers in their
 The caller is responsible for releasing the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
@@ -192,7 +173,4 @@ The caller is responsible for releasing the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
 

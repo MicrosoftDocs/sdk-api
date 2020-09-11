@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
 ms.date: 12/05/2018
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
-f1_keywords:
-- vsbackup/CreateVssBackupComponents
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VssApi.dll
-- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
-api_name:
-- CreateVssBackupComponents
-- CreateVssBackupComponentsInternal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateVssBackupComponents
+ - vsbackup/CreateVssBackupComponents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VssApi.dll
+ - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+api_name:
+ - CreateVssBackupComponents
+ - CreateVssBackupComponentsInternal
 ---
 
 # CreateVssBackupComponents function
 
 
 ## -description
-
 
 The <b>CreateVssBackupComponents</b> function 
     creates an <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> 
@@ -59,18 +59,12 @@ The <b>CreateVssBackupComponents</b> function
 
 ## -parameters
 
-
-
-
 ### -param ppBackup [out]
 
 Doubly indirect pointer to the created 
       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface object.
 
-
 ## -returns
-
-
 
 The return values listed here are in addition to the normal COM <b>HRESULT</b>s that may be returned at any time 
        from the function.
@@ -141,30 +135,15 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the 
     resources held by the returned 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> when it is no 
     longer needed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
- 
-
- 
 

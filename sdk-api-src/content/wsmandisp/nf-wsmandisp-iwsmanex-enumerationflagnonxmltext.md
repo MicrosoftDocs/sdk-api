@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: f94dc9cc-a4c5-44b8-9ace-63b80b1087d2
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagNonXmlText, EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagNonXmlText method, IWSManEx.EnumerationFlagNonXmlText, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
-f1_keywords:
-- wsmandisp/IWSManEx.EnumerationFlagNonXmlText
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEx.EnumerationFlagNonXmlText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEx::EnumerationFlagNonXmlText
+ - wsmandisp/IWSManEx::EnumerationFlagNonXmlText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEx.EnumerationFlagNonXmlText
 ---
 
 # IWSManEx::EnumerationFlagNonXmlText
 
 
 ## -description
-
 
 The 
     <b>IWSManEx::EnumerationFlagNonXmlText</b> 
@@ -60,37 +60,21 @@ The
     <b>__WSManEnumFlags</b> enumeration. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [out]
 
 The value of the constant.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
- 
-
- 
 

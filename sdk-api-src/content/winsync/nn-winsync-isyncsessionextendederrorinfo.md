@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync],described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
-f1_keywords:
-- winsync/ISyncSessionExtendedErrorInfo
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncSessionExtendedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionExtendedErrorInfo
+ - winsync/ISyncSessionExtendedErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncSessionExtendedErrorInfo
 ---
 
 # ISyncSessionExtendedErrorInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information about which provider caused synchronization to fail.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods.htm
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate methods [GDI+], RectF.Inflate, RectF::Inflate, _gdiplus_CLASS_RectF_Inflate_Methods, gdiplus._gdiplus_CLASS_RectF_Inflate_Methods, gdiplustypes/Inflate
-f1_keywords:
-- gdiplustypes/RectF.Inflate
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplustypes.h
-api_name:
-- RectF.Inflate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RectF::Inflate
+ - gdiplustypes/RectF::Inflate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplustypes.h
+api_name:
+ - RectF.Inflate
 ---
 
 # RectF::Inflate
 
 
 ## -description
-
 
 <span>This topic lists the 
 			Inflate methods of the 

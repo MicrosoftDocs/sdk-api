@@ -6,6 +6,9 @@ ms.date: 04/24/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: bits
+f1_keywords:
+ - bits10_3
+ - bits10_3/bits10_3
 ---
 
 # Bits10_3.h header
@@ -13,7 +16,7 @@ tech.root: bits
 
 ## -description
 
-
 This header is used by Background Intelligent Transfer Service. For more information, see:
 
 - [Background Intelligent Transfer Service](../_bits/index.md)
+

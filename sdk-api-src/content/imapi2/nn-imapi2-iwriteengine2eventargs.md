@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 1922410a-5871-477f-b778-36b12ad95168
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], IWriteEngine2EventArgs interface [IMAPI],described, imapi.iwriteengine2eventargs, imapi2/IWriteEngine2EventArgs
-f1_keywords:
-- imapi2/IWriteEngine2EventArgs
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2EventArgs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2EventArgs
+ - imapi2/IWriteEngine2EventArgs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2EventArgs
 ---
 
 # IWriteEngine2EventArgs interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to retrieve information about the current write operation. This interface is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-dwriteengine2events-update">DWriteEngine2Events::Update</a> method that you implement.
-
 
 ## -inheritance
 
@@ -131,16 +130,9 @@ Retrieves the number of used bytes in the internal data buffer that is used for 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
- 
-
- 
 

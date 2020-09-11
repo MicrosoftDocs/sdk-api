@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB
 ms.date: 12/05/2018
 ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector interface [Tablet PC],described, msinkaut/IInkCollector, tablet.iinkcollector
-f1_keywords:
-- msinkaut/IInkCollector
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkCollector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector
+ - msinkaut/IInkCollector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkCollector
 ---
 
 # IInkCollector interface
+
 
 ## -description
 
@@ -583,7 +585,7 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -remarks
 
@@ -592,3 +594,4 @@ Creating the InkCollector control behind a transparent control (such as a GroupB
 ## -see-also
 
 [InkCollector class](/windows/win32/tablet/inkcollector-class)
+

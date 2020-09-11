@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: dd69c2f9-dabf-4bba-bb3b-75ec3208c189
 ms.date: 12/05/2018
 ms.keywords: IMFASFSplitter interface [Media Foundation],Initialize method, IMFASFSplitter.Initialize, IMFASFSplitter::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFSplitter interface, dd69c2f9-dabf-4bba-bb3b-75ec3208c189, mf.imfasfsplitter_initialize, wmcontainer/IMFASFSplitter::Initialize
-f1_keywords:
-- wmcontainer/IMFASFSplitter.Initialize
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFSplitter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFSplitter::Initialize
+ - wmcontainer/IMFASFSplitter::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFSplitter.Initialize
 ---
 
 # IMFASFSplitter::Initialize
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Resets the Advanced Systems Format (ASF) splitter and configures it to parse data from an ASF data section.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIContentInfo [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of a ContentInfo object that describes the data to be parsed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,22 +91,12 @@ The <i>pIContentInfo</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
- 
-
- 
 

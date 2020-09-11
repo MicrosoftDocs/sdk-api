@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendnotifymessage.htm
 ms.date: 12/05/2018
 ms.keywords: SendNotifyMessage, SendNotifyMessage function [Windows and Messages], SendNotifyMessageA, SendNotifyMessageW, _win32_SendNotifyMessage, _win32_sendnotifymessage_cpp, winmsg.sendnotifymessage, winui._win32_sendnotifymessage, winuser/SendNotifyMessage, winuser/SendNotifyMessageA, winuser/SendNotifyMessageW
-f1_keywords:
-- winuser/SendNotifyMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-message-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- SendNotifyMessage
-- SendNotifyMessageA
-- SendNotifyMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SendNotifyMessageA
+ - winuser/SendNotifyMessageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - SendNotifyMessage
+ - SendNotifyMessageA
+ - SendNotifyMessageW
 ---
 
 # SendNotifyMessageA function
@@ -59,21 +60,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends the specified message to a window or windows. If the window was created by the calling thread, <b>SendNotifyMessage</b> calls the window procedure for the window and does not return until the window procedure has processed the message. If the window was created by a different thread, <b>SendNotifyMessage</b> passes the message to the window procedure and returns immediately; it does not wait for the window procedure to finish processing the message.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window whose window procedure will receive the message. If this parameter is <b>HWND_BROADCAST</b> ((HWND)0xffff), the message is sent to all top-level windows in the system, including disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows.
-
 
 ### -param Msg [in]
 
@@ -83,13 +78,11 @@ The message to be sent.
 
 For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
-
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
 Additional message-specific information.
-
 
 ### -param lParam [in]
 
@@ -97,10 +90,7 @@ Type: <b>LPARAM</b>
 
 Additional message-specific information.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -108,12 +98,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If you send a message in the range below <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a> to the asynchronous message functions (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>, <b>SendNotifyMessage</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>), its message parameters cannot include pointers. Otherwise, the operation will fail. The functions will return before the receiving thread has had a chance to process the message and the sender will free the memory before it is used.
 
@@ -129,9 +114,6 @@ The system only does marshalling for system messages (those in the range 0 to (<
 > The winuser.h header defines SendNotifyMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -166,7 +148,4 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
- 
-
- 
 

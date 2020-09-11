@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 834149e1-50b7-42f6-8fee-a357ed4bc8b8
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalPresent method, IBDA_SignalStatistics.get_SignalPresent, IBDA_SignalStatistics::get_SignalPresent, IBDA_SignalStatisticsget_SignalPresent, bdaiface/IBDA_SignalStatistics::get_SignalPresent, get_SignalPresent, get_SignalPresent method [Microsoft TV Technologies], get_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalpresent
-f1_keywords:
-- bdaiface/IBDA_SignalStatistics.get_SignalPresent
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_SignalStatistics.get_SignalPresent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_SignalStatistics::get_SignalPresent
+ - bdaiface/IBDA_SignalStatistics::get_SignalPresent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_SignalStatistics.get_SignalPresent
 ---
 
 # IBDA_SignalStatistics::get_SignalPresent
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_SignalPresent</b> method retrieves a Boolean value indicating whether a signal is present.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfPresent [out]
 
 Pointer to a flag indicating whether a signal is present.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -89,7 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signalpresent">IBDA_SignalStatistics::put_SignalPresent</a>
- 
-
- 
 

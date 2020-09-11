@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: e0e9a22f-da8b-4c87-bbdb-dedc22336503
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutGetErrorText, midiOutGetErrorText, midiOutGetErrorText function [Windows Multimedia], midiOutGetErrorTextA, midiOutGetErrorTextW, mmeapi/midiOutGetErrorText, mmeapi/midiOutGetErrorTextA, mmeapi/midiOutGetErrorTextW, multimedia.midioutgeterrortext
-f1_keywords:
-- mmeapi/midiOutGetErrorText
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiOutGetErrorText
-- midiOutGetErrorTextA
-- midiOutGetErrorTextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiOutGetErrorTextW
+ - mmeapi/midiOutGetErrorTextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiOutGetErrorText
+ - midiOutGetErrorTextA
+ - midiOutGetErrorTextW
 ---
 
 # midiOutGetErrorTextW function
@@ -53,36 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiOutGetErrorText</b> function retrieves a textual description for an error identified by the specified error code.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param mmrError
 
 Error code.
 
-
 ### -param pszText
 
 Pointer to a buffer to be filled with the textual error description.
-
 
 ### -param cchText
 
 Length, in characters, of the buffer pointed to by <i>lpText</i>.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -114,14 +102,8 @@ The specified pointer or structure is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the textual error description is longer than the specified buffer, the description is truncated. The returned error string is always null-terminated. If <i>cchText</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR. All error descriptions are less than MAXERRORLENGTH characters long.
 
@@ -134,11 +116,5 @@ If the textual error description is longer than the specified buffer, the descri
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
 

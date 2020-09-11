@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPath::AddPolygon"]
 ms.assetid: f342c271-baba-4a21-97c0-592114cd996a
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddPolygon
-f1_keywords:
-- gdipluspath/GraphicsPath::AddPolygon
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPath::AddPolygon
+ - gdipluspath/GraphicsPath::AddPolygon
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPath::AddPolygon
+ - GraphicsPath::AddPolygon
 ---
 
 # GraphicsPath::AddPolygon
+
 
 ## -description
 
@@ -110,3 +112,4 @@ VOID Example_AddPolygon(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-polygons-about">Polygons</a>
+

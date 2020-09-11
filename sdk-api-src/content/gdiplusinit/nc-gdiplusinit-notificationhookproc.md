@@ -34,6 +34,7 @@ api_location:
 api_name:
  - NotificationHookProc
 f1_keywords:
+ - NotificationHookProc
  - gdiplusinit/NotificationHookProc
 dev_langs:
  - c++
@@ -54,3 +55,4 @@ A pointer to the **ULONG** that contains the token.
 ## -remarks
 
 ## -see-also
+

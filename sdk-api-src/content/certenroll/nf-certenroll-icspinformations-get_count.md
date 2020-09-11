@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7221e564-07c4-47ab-bb32-c1e94406eab9
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICspInformations interface, ICspInformations interface [Security],Count property, ICspInformations.Count, ICspInformations.get_Count, ICspInformations::Count, ICspInformations::get_Count, certenroll/ICspInformations::Count, certenroll/ICspInformations::get_Count, get_Count, security.icspinformations_count_property
-f1_keywords:
-- certenroll/ICspInformations.Count
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformations.Count
-- ICspInformations.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformations::get_Count
+ - certenroll/ICspInformations::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformations.Count
+ - ICspInformations.get_Count
 ---
 
 # ICspInformations::get_Count
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> objects in the collection. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
- 
-
- 
 

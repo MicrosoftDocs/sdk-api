@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetFailure, IVssComponentEx2::SetFailure, S_OK, SetFailure, SetFailure method, SetFailure method,IVssComponentEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.ivsscomponentex2_setfailure, vswriter/IVssComponentEx2::SetFailure
-f1_keywords:
-- vswriter/IVssComponentEx2.SetFailure
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- vswriter.h
-api_name:
-- IVssComponentEx2.SetFailure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx2::SetFailure
+ - vswriter/IVssComponentEx2::SetFailure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - vswriter.h
+api_name:
+ - IVssComponentEx2.SetFailure
 ---
 
 # IVssComponentEx2::SetFailure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 VSS writers call this method to report errors at the component level.
 
-
 ## -parameters
-
-
-
 
 ### -param hr [in]
 
@@ -138,51 +134,30 @@ The writer operation failed because of an error that might recur if another shad
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hrApplication [in]
 
 An additional error code to be returned to the requester. This parameter is optional.
 
-
 ### -param wszApplicationMessage [in]
 
 A string containing an error message for the requester  to display to the end user. The writer is responsible for localizing this string if necessary before using it in this method. This parameter is optional and can be <b>NULL</b> or an empty string.
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved for future use and should be set to zero.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 In addition to calling this method,  use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method to report that a partial writer failure has occurred.
 
 This method cannot be called from <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex2">IVssComponentEx2</a>
- 
-
- 
 

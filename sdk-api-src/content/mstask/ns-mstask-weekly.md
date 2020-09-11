@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: e2c14738-846c-485e-a564-d8e738ca61a2
 ms.date: 12/05/2018
 ms.keywords: TASK_FRIDAY, TASK_MONDAY, TASK_SATURDAY, TASK_SUNDAY, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, WEEKLY, WEEKLY structure [Task Scheduler], _msb_weekly, mstask/WEEKLY, taskschd.weekly, triggers [Task Scheduler],structures,WEEKLY
-f1_keywords:
-- mstask/WEEKLY
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstask.h
-api_name:
-- WEEKLY
 targetos: Windows
 req.typenames: WEEKLY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WEEKLY
+ - mstask/_WEEKLY
+ - WEEKLY
+ - mstask/WEEKLY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstask.h
+api_name:
+ - WEEKLY
 ---
 
 # WEEKLY structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the interval, in weeks, between invocations of a task.
 
-
 ## -struct-fields
-
-
-
 
 ### -field WeeksInterval
 
 Number of weeks between invocations of a task.
-
 
 ### -field rgfDaysOfTheWeek
 
@@ -145,12 +142,8 @@ The task will run on Saturday.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
  The 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
@@ -165,14 +158,7 @@ example.WeeksInterval = 2;
 example.rgfDaysOfTheWeek = TASK_SUNDAY | TASK_WEDNESDAY | TASK_FRIDAY;
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
 
@@ -187,7 +173,4 @@ example.rgfDaysOfTheWeek = TASK_SUNDAY | TASK_WEDNESDAY | TASK_FRIDAY;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval">WeeksInterval</a>
- 
-
- 
 

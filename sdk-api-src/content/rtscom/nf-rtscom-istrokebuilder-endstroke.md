@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: a535cd20-d24a-4044-a757-fb2b593650b9
 ms.date: 12/05/2018
 ms.keywords: EndStroke, EndStroke method [Tablet PC], EndStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],EndStroke method, IStrokeBuilder.EndStroke, IStrokeBuilder::EndStroke, a535cd20-d24a-4044-a757-fb2b593650b9, rtscom/IStrokeBuilder::EndStroke, tablet.istrokebuilder_endstroke
-f1_keywords:
-- rtscom/IStrokeBuilder.EndStroke
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStrokeBuilder.EndStroke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStrokeBuilder::EndStroke
+ - rtscom/IStrokeBuilder::EndStroke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStrokeBuilder.EndStroke
 ---
 
 # IStrokeBuilder::EndStroke
@@ -49,50 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Ends a stroke and returns the stroke object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param tcid [in]
 
 The tablet context identifier.
 
-
 ### -param sid [in]
 
 The stylus identifier.
-
 
 ### -param ppIInkStroke [in, out]
 
 A pointer to the new stroke. This value can be <b>NULL</b>.
 
-
 ### -param pDirtyRect [in, out]
 
 The dirty, or changed, rectangle of the tablet. This value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>..
 
-
-
-
 ## -remarks
-
-
 
 A dirty region describes a tablet range which has been changed.
 
@@ -116,14 +98,7 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusUp(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istrokebuilder">IStrokeBuilder</a>
 
@@ -146,7 +121,4 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusUp(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
- 
-
- 
 

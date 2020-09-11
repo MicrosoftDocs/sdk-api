@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 3a911436-a679-4a86-93f9-e9c57ca762c5
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],NotifyEndOfStream method, IPinConnection.NotifyEndOfStream, IPinConnection::NotifyEndOfStream, IPinConnectionNotifyEndOfStream, NotifyEndOfStream, NotifyEndOfStream method [DirectShow], NotifyEndOfStream method [DirectShow],IPinConnection interface, dshow.ipinconnection_notifyendofstream, strmif/IPinConnection::NotifyEndOfStream
-f1_keywords:
-- strmif/IPinConnection.NotifyEndOfStream
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPinConnection.NotifyEndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPinConnection::NotifyEndOfStream
+ - strmif/IPinConnection::NotifyEndOfStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPinConnection.NotifyEndOfStream
 ---
 
 # IPinConnection::NotifyEndOfStream
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>NotifyEndOfStream</code> method requests notification from the pin when the next end-of-stream condition occurs.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hNotifyEvent [in]
 
 Handle to an event object that the pin will signal.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -101,14 +91,8 @@ Event handle was set. (If event handle was <b>NULL</b>, event notification was c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables the caller to push data through a portion of the filter graph ending with this pin.
 
@@ -127,13 +111,7 @@ It is the caller's responsibility to cancel notification by calling this method 
 
 The filter graph calls this method inside the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. If an application or filter does any specialized dynamic reconfiguration to the graph (using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a> method), it might call this method first in order to push data through the portion of the graph that is being reconfigured.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
@@ -144,7 +122,4 @@ The filter graph calls this method inside the <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
- 
-
- 
 

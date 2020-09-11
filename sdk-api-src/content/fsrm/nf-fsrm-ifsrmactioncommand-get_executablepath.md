@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: c15b09e3-a8b6-4c73-82d7-8de7c2635f77
 ms.date: 12/05/2018
 ms.keywords: ExecutablePath property [File Server Resource Manager], ExecutablePath property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],ExecutablePath property, IFsrmActionCommand.ExecutablePath, IFsrmActionCommand.get_ExecutablePath, IFsrmActionCommand::ExecutablePath, IFsrmActionCommand::get_ExecutablePath, IFsrmActionCommand::put_ExecutablePath, fs.ifsrmactioncommand_executablepath, fsrm.ifsrmactioncommand_executablepath, fsrm/IFsrmActionCommand::ExecutablePath, fsrm/IFsrmActionCommand::get_ExecutablePath, fsrm/IFsrmActionCommand::put_ExecutablePath, get_ExecutablePath
-f1_keywords:
-- fsrm/IFsrmActionCommand.ExecutablePath
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmActionCommand.ExecutablePath
-- IFsrmActionCommand.get_ExecutablePath
-- IFsrmActionCommand.put_ExecutablePath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmActionCommand::get_ExecutablePath
+ - fsrm/IFsrmActionCommand::get_ExecutablePath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmActionCommand.ExecutablePath
+ - IFsrmActionCommand.get_ExecutablePath
+ - IFsrmActionCommand.put_ExecutablePath
 ---
 
 # IFsrmActionCommand::get_ExecutablePath
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -63,13 +63,9 @@ Retrieves or sets the full path to the executable program or script to run.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The path must exist at the time you set the property and when the command executes. If the path does not exist 
     when the command executes, FSRM writes an event to the Application log.
@@ -81,13 +77,7 @@ Only administrators can have write access to all folders in the path at the time
     the command executes. If others have write access when the command executes, FSRM does not execute the command and 
     writes an event to the Application log.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a>
 
@@ -102,7 +92,4 @@ Only administrators can have write access to all folders in the path at the time
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
- 
-
- 
 

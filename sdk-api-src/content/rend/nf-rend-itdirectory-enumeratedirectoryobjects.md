@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 4d7e0fd5-b85b-41e0-9603-132243a9a265
 ms.date: 12/05/2018
 ms.keywords: EnumerateDirectoryObjects, EnumerateDirectoryObjects method [TAPI 2.2], EnumerateDirectoryObjects method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnumerateDirectoryObjects method, ITDirectory.EnumerateDirectoryObjects, ITDirectory::EnumerateDirectoryObjects, _tapi3_itdirectory_enumeratedirectoryobjects, rend/ITDirectory::EnumerateDirectoryObjects, tapi3.itdirectory_enumeratedirectoryobjects
-f1_keywords:
-- rend/ITDirectory.EnumerateDirectoryObjects
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectory.EnumerateDirectoryObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectory::EnumerateDirectoryObjects
+ - rend/ITDirectory::EnumerateDirectoryObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectory.EnumerateDirectoryObjects
 ---
 
 # ITDirectory::EnumerateDirectoryObjects
@@ -49,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>EnumerateDirectoryObjects</b> method creates an enumeration of directory objects of a given type and name.
 
-
 ## -parameters
-
-
-
 
 ### -param DirectoryObjectType [in]
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a> criteria for object desired.
 
-
 ### -param pName [in]
 
 Pointer to a <b>BSTR</b> containing the full or partial name of the object. The "*" wildcard is supported.
-
 
 ### -param ppEnumObject [out]
 
 Pointer to receive 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectoryobject">IEnumDirectoryObject</a> interface pointer for the enumerator of matching objects.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,14 +116,8 @@ This method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application must use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
@@ -142,13 +127,7 @@ TAPI calls the <b>AddRef</b> method on the
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectoryobject">IEnumDirectoryObject</a> interface returned by <b>ITDirectory::EnumerateDirectoryObjects</b>. The application must call <b>Release</b> on the 
 <b>IEnumDirectoryObject</b> interface to free resources associated with it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
 
@@ -159,7 +138,4 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
- 
-
- 
 

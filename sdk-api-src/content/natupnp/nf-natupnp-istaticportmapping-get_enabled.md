@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: a4a787ac-0ab2-413e-8738-23296e969477
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Enabled method, IStaticPortMapping.get_Enabled, IStaticPortMapping::get_Enabled, _ics_istaticportmapping_get_enabled, get_Enabled, get_Enabled method [ICS/ICF], get_Enabled method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_enabled, natupnp/IStaticPortMapping::get_Enabled
-f1_keywords:
-- natupnp/IStaticPortMapping.get_Enabled
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping.get_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping::get_Enabled
+ - natupnp/IStaticPortMapping::get_Enabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping.get_Enabled
 ---
 
 # IStaticPortMapping::get_Enabled
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Enabled</b> method retrieves whether the port mapping is enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that receives a value that indicates whether the port mapping is enabled. The value is VARIANT_TRUE if the port mapping is enabled, VARIANT_FALSE otherwise.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -166,15 +159,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
@@ -189,7 +175,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
 

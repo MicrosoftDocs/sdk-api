@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc
 ms.date: 12/05/2018
 ms.keywords: EAP_PEER_METHOD_ROUTINES, EAP_PEER_METHOD_ROUTINES structure [EAPHost], eaphost.eap_peer_method_routines, eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
-f1_keywords:
-- eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
-dev_langs:
-- c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- eapmethodpeerapis.h
-api_name:
-- EAP_PEER_METHOD_ROUTINES
 targetos: Windows
 req.typenames: EAP_PEER_METHOD_ROUTINES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EAP_PEER_METHOD_ROUTINES
+ - eapmethodpeerapis/_EAP_PEER_METHOD_ROUTINES
+ - EAP_PEER_METHOD_ROUTINES
+ - eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - eapmethodpeerapis.h
+api_name:
+ - EAP_PEER_METHOD_ROUTINES
 ---
 
 # EAP_PEER_METHOD_ROUTINES structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a set of function pointers to the EAPHost Peer Method APIs.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
@@ -69,7 +67,6 @@ The implementer-defined structure version.
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_type">EAP_TYPE</a> structure that contains the vendor information on the implementer of the APIs pointed to by the members of this structure.
 
-
 ### -field EapPeerInitialize
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinitialize">EapPeerInitialize</a>.
@@ -79,7 +76,6 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 #### pEapError
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
-
 
 ### -field EapPeerGetIdentity
 
@@ -153,7 +149,6 @@ A pointer to a pointer to the returned user data. The data is passed to <a href=
 
 A pointer to the pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerBeginSession
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a>.
@@ -219,7 +214,6 @@ Pointer to a  <b>EAP_SESSION_HANDLE</b> structure that contains the unique ID fo
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerSetCredentials
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials">EapPeerSetCredentials</a>.
@@ -247,7 +241,6 @@ A pointer that contains the clear text password for the user identity.
 #### ppEapError
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
-
 
 ### -field EapPeerProcessRequestPacket
 
@@ -283,7 +276,6 @@ Pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapaut
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerGetResponsePacket
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponsepacket">EapPeerGetResponsePacket</a>.
@@ -311,7 +303,6 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eapmethodt
 #### ppEapError
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
-
 
 ### -field EapPeerGetResult
 
@@ -341,7 +332,6 @@ Pointer to a <b>EapHostPeerMethodResult</b> structure that contains the authenti
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerGetUIContext
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetuicontext">EapPeerGetUIContext</a>.
@@ -369,7 +359,6 @@ Pointer to an address that contains a byte buffer with the supplicant user inter
 #### ppEapError
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
-
 
 ### -field EapPeerSetUIContext
 
@@ -405,7 +394,6 @@ Pointer to an address that contains a byte buffer with the new supplicant UI con
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerGetResponseAttributes
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes">EapPeerGetResponseAttributes</a>.
@@ -427,7 +415,6 @@ Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api
 #### ppEapError
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
-
 
 ### -field EapPeerSetResponseAttributes
 
@@ -457,7 +444,6 @@ A pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefine/ns-eapa
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerEndSession
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession">EapPeerEndSession</a>.
@@ -474,7 +460,6 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapPeerShutdown
 
 A function pointer for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeershutdown">EapPeerShutdown</a>.
@@ -485,10 +470,7 @@ A function pointer for <a href="https://docs.microsoft.com/previous-versions/win
 
 Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ## -remarks
-
-
 
 Each EAP method DLL must implement the following APIs:
 
@@ -535,20 +517,11 @@ These APIs correspond to calls made by a supplicant, and serve as a proxy betwee
 
 The other functions in the EAP Peer Method API set are called by a peer-based EAPHost without a corresponding supplicant call, and are used for connection validation or user interface raising operations.
 
-
-
-
 ## -see-also
-
-
-
 
 [EAPHost Peer Method Structures](/windows/win32/eaphost/eap-host-peer-method-structures)
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo">EapPeerGetInfo</a>
- 
-
- 
 

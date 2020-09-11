@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a55a8952-2b64-4082-9422-31484c7e777f
 ms.date: 12/05/2018
 ms.keywords: CreateNtmsMediaPool, CreateNtmsMediaPool function [Files], CreateNtmsMediaPoolA, CreateNtmsMediaPoolW, NTMS_CREATE_NEW, NTMS_OPEN_ALWAYS, NTMS_OPEN_EXISTING, _zaw_createntmsmediapool, base.createntmsmediapool, fs.createntmsmediapool, ntmsapi/CreateNtmsMediaPool, ntmsapi/CreateNtmsMediaPoolA, ntmsapi/CreateNtmsMediaPoolW
-f1_keywords:
-- ntmsapi/CreateNtmsMediaPool
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- CreateNtmsMediaPool
-- CreateNtmsMediaPoolA
-- CreateNtmsMediaPoolW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateNtmsMediaPool
+ - ntmsapi/CreateNtmsMediaPool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - CreateNtmsMediaPool
+ - CreateNtmsMediaPoolA
+ - CreateNtmsMediaPoolW
 ---
 
 # CreateNtmsMediaPool function
@@ -51,34 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>CreateNtmsMediaPool</b> function creates a new application media pool.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
-
 ### -param lpPoolName [in]
 
 Name of the new media pool. Media pool names must be unique within the scope of a single RSM database.
-
 
 ### -param lpMediaType [in]
 
 Identifier for the type of media in this media pool. Use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a> function to get a list of available media types and their attributes. The application can pass a <b>NULL</b> pointer to create a media pool that contains only other media pools.
-
 
 ### -param dwAction [in]
 
@@ -122,22 +115,16 @@ Creates a new media pool. Returns ERROR_ALREADY_EXISTS if the pool exists.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSecurityAttributes [in]
 
 Optional security descriptor used to restrict access to the pool.
 
-
 ### -param lpPoolId [out]
 
 Pointer to a variable that receives the unique identifier of the media pool after the media pool is successfully created or opened.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -259,14 +246,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Free, Unrecognized, and Import media pools are created by RSM and cannot be created with the 
 <b>CreateNtmsMediaPool</b> function.
@@ -277,13 +258,7 @@ Application-specific media pools are created by applications. Applications creat
 
 <b>Windows Server 2003:  </b>To create a media pool, you must have NTMS_CONTROL_ACCESS to the root pool and parent pool. If a security descriptor is not provided, the pool inherits the ACEs of its parent pool (if the parent pool is not the root pool). In addition, the creator and local system accounts have full access to the pool. If the parent pool is the root pool, its ACEs are not inherited; the only ACEs in the DACL are full access for the creator and local system accounts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
 
@@ -302,7 +277,4 @@ Application-specific media pools are created by applications. Applications creat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>
- 
-
- 
 

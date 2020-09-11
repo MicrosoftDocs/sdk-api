@@ -8,10 +8,6 @@ tech.root: winstation
 ms.assetid: 64f7361d-1a94-4d5b-86f1-a2a21737668a
 ms.date: 12/05/2018
 ms.keywords: GetUserObjectInformation, GetUserObjectInformation function [Windows Stations and Desktops], GetUserObjectInformationA, GetUserObjectInformationW, UOI_FLAGS, UOI_HEAPSIZE, UOI_IO, UOI_NAME, UOI_TYPE, UOI_USER_SID, _win32_getuserobjectinformation, base.getuserobjectinformation, winstation.getuserobjectinformation, winuser/GetUserObjectInformation, winuser/GetUserObjectInformationA, winuser/GetUserObjectInformationW
-f1_keywords:
-- winuser/GetUserObjectInformation
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
-- Ext-Ms-Win-NTUser-Windowstation-Ansi-L1-1-0.dll
-- Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
-- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
-- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
-- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
-api_name:
-- GetUserObjectInformation
-- GetUserObjectInformationA
-- GetUserObjectInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUserObjectInformationW
+ - winuser/GetUserObjectInformationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
+ - Ext-Ms-Win-NTUser-Windowstation-Ansi-L1-1-0.dll
+ - Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
+ - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+ - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+api_name:
+ - GetUserObjectInformation
+ - GetUserObjectInformationA
+ - GetUserObjectInformationW
 ---
 
 # GetUserObjectInformationW function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified window station or desktop object.
 
-
 ## -parameters
-
-
-
 
 ### -param hObj [in]
 
@@ -73,7 +69,6 @@ A handle to the window station or desktop object. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a> function.
-
 
 ### -param nIndex [in]
 
@@ -158,40 +153,27 @@ The
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvInfo [out, optional]
 
 A pointer to a buffer to receive the object information.
 
-
 ### -param nLength [in]
 
 The size of the buffer pointed to by the <i>pvInfo</i> parameter, in bytes.
-
 
 ### -param lpnLengthNeeded [out, optional]
 
 A pointer to a variable receiving the number of bytes required to store the requested information. If this variable's value is greater than the value of the <i>nLength</i> parameter when the function returns, the function returns FALSE, and none of the information is copied to the <i>pvInfo</i> buffer. If the value of the variable pointed to by <i>lpnLengthNeeded</i> is less than or equal to the value of <i>nLength</i>, the entire information block is copied.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
@@ -230,9 +212,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
- 
-
- 
 
 ## -remarks
 

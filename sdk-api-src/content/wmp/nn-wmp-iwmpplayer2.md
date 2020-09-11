@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: bf51d54d-d0aa-42ad-8180-d1f6487baac8
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], IWMPPlayer2 interface [Windows Media Player],described, IWMPPlayer2Interface, wmp.iwmpplayer2, wmp/IWMPPlayer2
-f1_keywords:
-- wmp/IWMPPlayer2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayer2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer2
+ - wmp/IWMPPlayer2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayer2
 ---
 
 # IWMPPlayer2 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlayer2</b> interface provides additional methods for modifying the basic behavior of the Windows Media Player control user interface. These methods also supplement the <b>IWMPCore</b> interface.
 
 The <b>IWMPPlayer2</b> interface duplicates the methods of <b>IWMPPlayer</b>, inherits the methods of <b>IWMPCore</b>, and exposes the following additional methods.
-
-
-
 
 ## -inheritance
 
@@ -113,13 +109,7 @@ Specifies whether the Windows Media Player control renders video in windowless m
 
 Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 
-	
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
@@ -146,7 +136,4 @@ Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>Q
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

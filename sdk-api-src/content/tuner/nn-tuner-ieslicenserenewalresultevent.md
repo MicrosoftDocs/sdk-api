@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
 ms.date: 12/05/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
-f1_keywords:
-- tuner/IESLicenseRenewalResultEvent
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESLicenseRenewalResultEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESLicenseRenewalResultEvent
+ - tuner/IESLicenseRenewalResultEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESLicenseRenewalResultEvent
 ---
 
 # IESLicenseRenewalResultEvent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get information from a  <b>LicenseRenewalResult</b> event. This event contains the results of an attempt to renew a license for protected content. If the attempt succeeds, the results contain the license; if the attempt fails, the results contain error information.
-
 
 ## -inheritance
 
@@ -178,14 +177,9 @@ Gets a flag that indicates whether the license renewal is successful.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESLicenseRenewalResultEvent)</code>.
-
-
 

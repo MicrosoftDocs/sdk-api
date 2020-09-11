@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d5b746e0-91bd-45bd-9a67-ddc8868cee56
 ms.date: 12/05/2018
 ms.keywords: ICEnroll, ICEnroll interface [Security], ICEnroll interface [Security],described, _xen_icenroll, security.icenroll, xenroll/ICEnroll
-f1_keywords:
-- xenroll/ICEnroll
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll
+ - xenroll/ICEnroll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll
 ---
 
 # ICEnroll interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>ICEnroll</b> interface is one of several interfaces that represent the Certificate Enrollment Control. It is primarily of interest if you are not using Automation. If, on the other hand, you are programming in Visual Basic or another Automation language, see the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a> object.
-
 
 ## -inheritance
 
@@ -814,13 +813,9 @@ Read/write
 <td align="left" width="63%">
 Sets or retrieves a Boolean value that indicates whether a certificate should be written to the CSP.</p> (Inherited from <b>ICEnroll</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
 
@@ -835,7 +830,4 @@ Sets or retrieves a Boolean value that indicates whether a certificate should be
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

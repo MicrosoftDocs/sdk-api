@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: EF56EA6C-00DB-4231-B67D-B99811F51246
 ms.date: 12/05/2018
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView method, ClearDepthStencilView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearDepthStencilView method, ID3D12GraphicsCommandList.ClearDepthStencilView, ID3D12GraphicsCommandList::ClearDepthStencilView, d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView, direct3d12.id3d12graphicscommandlist_cleardepthstencilview
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ClearDepthStencilView
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ClearDepthStencilView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ClearDepthStencilView
+ - d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ClearDepthStencilView
 ---
 
 # ID3D12GraphicsCommandList::ClearDepthStencilView
@@ -49,66 +50,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears the depth-stencil resource.
 
-
 ## -parameters
-
-
-
 
 ### -param DepthStencilView [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the start of the heap for the depth stencil to be cleared.
-          
-
 
 ### -param ClearFlags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_clear_flags">D3D12_CLEAR_FLAGS</a></b>
 
 A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_clear_flags">D3D12_CLEAR_FLAGS</a> values that are combined by using a bitwise OR operation. The resulting value identifies the type of data to clear (depth buffer, stencil buffer, or both).
-          
-
 
 ### -param Depth [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 A value to clear the depth buffer with. This value will be clamped between 0 and 1.
-          
-
 
 ### -param Stencil [in]
 
 Type: <b>UINT8</b>
 
 A value to clear the stencil buffer with.
-          
-
 
 ### -param NumRects [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of rectangles in the array that the <i>pRects</i> parameter specifies.
-          
-
 
 ### -param pRects [in]
 
 Type: <b>const <b>D3D12_RECT</b>*</b>
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearDepthStencilView</b> clears the entire resource view.
-          
-
 
 ## -remarks
-
-
 
 <b>ClearDepthStencilView</b> may be used to initialize resources which alias the same heap memory. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
@@ -279,15 +261,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

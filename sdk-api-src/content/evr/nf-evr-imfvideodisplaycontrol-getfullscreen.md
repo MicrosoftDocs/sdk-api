@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
 ms.date: 12/05/2018
 ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
-f1_keywords:
-- evr/IMFVideoDisplayControl.GetFullscreen
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.GetFullscreen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::GetFullscreen
+ - evr/IMFVideoDisplayControl::GetFullscreen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.GetFullscreen
 ---
 
 # IMFVideoDisplayControl::GetFullscreen
@@ -50,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pfFullscreen [out]
 
 Receives a Boolean value. If <b>TRUE</b>, the EVR is in full-screen mode. If <b>FALSE</b>, the EVR will display the video inside the application-provided clipping window.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,15 +91,8 @@ The EVR is currently switching between full-screen and windowed mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
@@ -118,7 +103,4 @@ The EVR is currently switching between full-screen and windowed mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
 

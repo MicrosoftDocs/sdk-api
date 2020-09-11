@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424
 ms.date: 12/05/2018
 ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], IMFTopologyNode interface [Media Foundation],described, mf.imftopologynode, mfidl/IMFTopologyNode
-f1_keywords:
-- mfidl/IMFTopologyNode
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode
+ - mfidl/IMFTopologyNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode
 ---
 
 # IMFTopologyNode interface
 
 
 ## -description
-
 
 Represents a node in a topology. The following node types are supported:
 <ul>
@@ -62,7 +62,6 @@ Represents a node in a topology. The following node types are supported:
 <li>Tee node. Delivers a media stream to two or more nodes.
             </li>
 </ul>To create a new node, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a> function.
-
 
 ## -inheritance
 
@@ -241,13 +240,9 @@ Sets the identifier for the node.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
@@ -262,7 +257,4 @@ Sets the identifier for the node.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/topology-node-attributes">Topology Node Attributes</a>
- 
-
- 
 

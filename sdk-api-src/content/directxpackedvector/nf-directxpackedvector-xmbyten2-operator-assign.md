@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: f693bab9-9d65-420d-a079-ad7a8f51c6a3
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMBYTEN2.operator =, DirectX::PackedVector::XMBYTEN2::operator =, XMBYTEN2 structure [DirectX Math Support APIs],operator = method, XMBYTEN2.operator =, XMBYTEN2.operator-assign, XMBYTEN2.operator=, XMBYTEN2::operator-assign, XMBYTEN2::operator=, dxmath.xmbyten2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMBYTEN2 structure, operator=
-f1_keywords:
-- directxpackedvector/XMBYTEN2.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMBYTEN2.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMBYTEN2::operator=
+ - directxpackedvector/XMBYTEN2::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMBYTEN2.operator =
 ---
 
 # XMBYTEN2::operator-assign
+
 
 ## -description
 
@@ -69,3 +71,4 @@ The current instance of <code>XMBYTEN2</code> whose vector component data has be
 <a href="https://msdn.microsoft.com/87cadfb8-6b3c-4c66-88c1-c3751edeb3f2">XMBYTEN2</a>
 
 <a href="https://msdn.microsoft.com/451a45f6-d77e-4860-84b1-362ea1f00578">XMBYTEN2 Operators</a>
+

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fb0b3fa9-c6e5-49a4-bec7-1e4e7d07ba46
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectParentalCountry method, IDvdControl2.SelectParentalCountry, IDvdControl2::SelectParentalCountry, IDvdControl2SelectParentalCountry, SelectParentalCountry, SelectParentalCountry method [DirectShow], SelectParentalCountry method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectparentalcountry, strmif/IDvdControl2::SelectParentalCountry
-f1_keywords:
-- strmif/IDvdControl2.SelectParentalCountry
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectParentalCountry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectParentalCountry
+ - strmif/IDvdControl2::SelectParentalCountry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectParentalCountry
 ---
 
 # IDvdControl2::SelectParentalCountry
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectParentalCountry</code> method sets the country/region for interpreting parental access levels and setting default languages.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bCountry [in]
 
 Array of bytes that specifies the current country/region according to ISO 3166.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -112,14 +102,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The parental country/region determines the meaning of the eight generic parental levels as well as the default language for the soundtrack and menus. For details, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enforcing-parental-management-levels">Enforcing Parental Management Levels</a>.
 
@@ -137,15 +121,8 @@ The following table shows the Annex J command name to which this method name cor
 <td>DVD_DOMAIN_Stop</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -156,7 +133,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
 

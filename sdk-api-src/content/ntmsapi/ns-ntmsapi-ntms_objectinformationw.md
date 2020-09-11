@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 56e3380b-47c7-4861-bb2b-31d67ac10fe1
 ms.date: 12/05/2018
 ms.keywords: '*LPNTMS_OBJECTINFORMATIONW, LPNTMS_OBJECTINFORMATION, LPNTMS_OBJECTINFORMATION structure pointer [Files], NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_NEEDS_SERVICE, NTMS_NOT_PRESENT, NTMS_OBJECTINFORMATION, NTMS_OBJECTINFORMATION structure [Files], NTMS_OBJECTINFORMATIONA, NTMS_OBJECTINFORMATIONW, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_READY, NTMS_STORAGESLOT, _NTMS_OBJECTINFORMATIONA, _NTMS_OBJECTINFORMATIONW, _zaw_ntms_objectinformation, base.ntms_objectinformation, fs.ntms_objectinformation, ntmsapi/LPNTMS_OBJECTINFORMATION, ntmsapi/NTMS_OBJECTINFORMATION'
-f1_keywords:
-- ntmsapi/NTMS_OBJECTINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_OBJECTINFORMATION
-- NTMS_OBJECTINFORMATIONA
-- NTMS_OBJECTINFORMATIONW
 targetos: Windows
 req.typenames: NTMS_OBJECTINFORMATIONW, *LPNTMS_OBJECTINFORMATIONW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_OBJECTINFORMATIONW
+ - ntmsapi/_NTMS_OBJECTINFORMATIONW
+ - LPNTMS_OBJECTINFORMATIONW
+ - ntmsapi/LPNTMS_OBJECTINFORMATIONW
+ - NTMS_OBJECTINFORMATIONW
+ - ntmsapi/NTMS_OBJECTINFORMATIONW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_OBJECTINFORMATION
+ - NTMS_OBJECTINFORMATIONA
+ - NTMS_OBJECTINFORMATIONW
 ---
 
 # NTMS_OBJECTINFORMATIONW structure
@@ -51,17 +56,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_OBJECTINFORMATION</b> structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
@@ -70,7 +70,6 @@ Type: <b>DWORD</b>
 Size of the information structure, in bytes. This member must be set to the correct size of the structure prior to using either the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>function or the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function.
-
 
 ### -field dwType
 
@@ -261,8 +260,6 @@ A storage slot object represents one of the slots that can hold the specified me
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Created
 
@@ -270,13 +267,11 @@ Type: <b>SYSTEMTIME</b>
 
 Date/time stamp when the object was created.
 
-
 ### -field Modified
 
 Type: <b>SYSTEMTIME</b>
 
 Date/time stamp when the object was modified.
-
 
 ### -field ObjectGuid
 
@@ -284,13 +279,11 @@ Type: <b>NTMS_GUID</b>
 
 GUID of the object.
 
-
 ### -field Enabled
 
 Type: <b>BOOL</b>
 
 Indicates whether the device or system control object is enabled.
-
 
 ### -field dwOperationalState
 
@@ -336,8 +329,6 @@ This device or object has failed and needs service.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szName
 
@@ -346,7 +337,6 @@ Type: <b>TCHAR[NTMS_OBJECTNAME_LENGTH]</b>
 Name of the media, device, or system control object. Media pool and logical media names can be changed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. All other object names are read-only.
 
-
 ### -field szDescription
 
 Type: <b>TCHAR[NTMS_DESCRIPTION_LENGTH]</b>
@@ -354,181 +344,77 @@ Type: <b>TCHAR[NTMS_DESCRIPTION_LENGTH]</b>
 Description of the device or system control object. The description of device and system control objects can be changed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. (Writable for all objects)
 
-
 ### -field Info.Drive.case
-
- 
-
 
 ### -field Info.Drive.case.NTMS_DRIVE
 
- 
-
-
 ### -field Info.DriveType.case
-
- 
-
 
 ### -field Info.DriveType.case.NTMS_DRIVE_TYPE
 
- 
-
-
 ### -field Info.Library.case
-
- 
-
 
 ### -field Info.Library.case.NTMS_LIBRARY
 
- 
-
-
 ### -field Info.Changer.case
-
- 
-
 
 ### -field Info.Changer.case.NTMS_CHANGER
 
- 
-
-
 ### -field Info.ChangerType.case
-
- 
-
 
 ### -field Info.ChangerType.case.NTMS_CHANGER_TYPE
 
- 
-
-
 ### -field Info.StorageSlot.case
-
- 
-
 
 ### -field Info.StorageSlot.case.NTMS_STORAGESLOT
 
- 
-
-
 ### -field Info.IEDoor.case
-
- 
-
 
 ### -field Info.IEDoor.case.NTMS_IEDOOR
 
- 
-
-
 ### -field Info.IEPort.case
-
- 
-
 
 ### -field Info.IEPort.case.NTMS_IEPORT
 
- 
-
-
 ### -field Info.PhysicalMedia.case
-
- 
-
 
 ### -field Info.PhysicalMedia.case.NTMS_PHYSICAL_MEDIA
 
- 
-
-
 ### -field Info.LogicalMedia.case
-
- 
-
 
 ### -field Info.LogicalMedia.case.NTMS_LOGICAL_MEDIA
 
- 
-
-
 ### -field Info.Partition.case
-
- 
-
 
 ### -field Info.Partition.case.NTMS_PARTITION
 
- 
-
-
 ### -field Info.MediaPool.case
-
- 
-
 
 ### -field Info.MediaPool.case.NTMS_MEDIA_POOL
 
- 
-
-
 ### -field Info.MediaType.case
-
- 
-
 
 ### -field Info.MediaType.case.NTMS_MEDIA_TYPE
 
- 
-
-
 ### -field Info.LibRequest.case
-
- 
-
 
 ### -field Info.LibRequest.case.NTMS_LIBREQUEST
 
- 
-
-
 ### -field Info.OpRequest.case
-
- 
-
 
 ### -field Info.OpRequest.case.NTMS_OPREQUEST
 
- 
-
-
 ### -field Info.Computer.case
-
- 
-
 
 ### -field Info.Computer.case.NTMS_COMPUTER
 
- 
-
-
 ### -field Info.switch_is
 
- 
-
-
 ### -field Info.switch_is.dwType
-
- 
-
 
 ### -field Info
 
 Device or system control object-specific information. The format of this information depends on the <b>dwType</b> member.
-
 
 ### -field Info.Drive
 
@@ -536,13 +422,11 @@ Device or system control object-specific information. The format of this informa
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
 
-
 ### -field Info.DriveType
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_drivetypeinformationa">NTMS_DRIVETYPEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
-
 
 ### -field Info.Library
 
@@ -550,13 +434,11 @@ This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
 
-
 ### -field Info.Changer
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_changerinformationa">NTMS_CHANGERINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
-
 
 ### -field Info.ChangerType
 
@@ -564,13 +446,11 @@ This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
 
-
 ### -field Info.StorageSlot
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_storageslotinformation">NTMS_STORAGESLOTINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
-
 
 ### -field Info.IEDoor
 
@@ -578,13 +458,11 @@ This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
 
-
 ### -field Info.IEPort
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_ieportinformation">NTMS_IEPORTINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
-
 
 ### -field Info.PhysicalMedia
 
@@ -592,13 +470,11 @@ This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_PHYSICAL_MEDIA</b>.
 
-
 ### -field Info.LogicalMedia
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_lmidinformation">NTMS_LMIDINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
-
 
 ### -field Info.Partition
 
@@ -606,13 +482,11 @@ This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
 
-
 ### -field Info.MediaPool
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediapoolinformation">NTMS_MEDIAPOOLINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
-
 
 ### -field Info.MediaType
 
@@ -620,13 +494,11 @@ This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
 
-
 ### -field Info.LibRequest
 
 <b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_librequestinformationa">NTMS_LIBREQUESTINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
-
 
 ### -field Info.OpRequest
 
@@ -634,17 +506,9 @@ This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_OPREQUEST</b>.
 
-
 ### -field Info.Computer
 
- 
-
-
-
-
 ## -remarks
-
-
 
 All members of the 
 <b>NTMS_OBJECTINFORMATION</b> structure are read-only at the RSM function-level unless specified as WRITABLE in the definition of the member.
@@ -658,15 +522,9 @@ All members of the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
- 
-
- 
 

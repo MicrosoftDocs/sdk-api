@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
 ms.date: 12/05/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
-f1_keywords:
-- netioapi/NotifyTeredoPortChange
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- NotifyTeredoPortChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyTeredoPortChange
+ - netioapi/NotifyTeredoPortChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - NotifyTeredoPortChange
 ---
 
 # NotifyTeredoPortChange function
@@ -49,42 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NotifyTeredoPortChange</b> function  registers to be notified for changes to the UDP port number used by the Teredo client for the Teredo service port on  a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Callback [in]
 
 A pointer to the function to call when a Teredo client port change occurs. This function will be invoked
         when a Teredo port change notification is received.
 
-
 ### -param CallerContext [in]
 
 A user context passed to the callback function specified in the <i>Callback</i> parameter when a Teredo port change  notification is received.
-
 
 ### -param InitialNotification [in]
 
 A value that indicates whether the callback should be invoked
         immediately after registration for change notification completes. This initial notification does not indicate a change occurred to the Teredo client port. The purpose of this parameter to provide confirmation that the callback is registered.
 
-
 ### -param NotificationHandle [in, out]
 
 A pointer used to return a handle that can be later used to
         deregister the change notification. On success, a notification handle is returned in this parameter. If an error occurs, <b>NULL</b> is returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -141,14 +131,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NotifyTeredoPortChange</b> function is defined on Windows Vista and later. 
 
@@ -214,13 +198,7 @@ The <b>NotifyTeredoPortChange</b> function is used primarily by firewall applica
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a> function is used primarily by applications that use the Teredo client.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
 
@@ -231,7 +209,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
- 
-
- 
 

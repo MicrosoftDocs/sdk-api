@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: gpmc
+f1_keywords:
+ - gpmgmt
+ - gpmgmt/gpmgmt
 ---
 
 # Gpmgmt.h header
 
 
 ## -description
-
 
 This header is used by Group Policy Management Console. For more information, see:
 

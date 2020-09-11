@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.date: 12/05/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
-f1_keywords:
-- wincrypt/CryptGetOIDFunctionValue
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptGetOIDFunctionValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetOIDFunctionValue
+ - wincrypt/CryptGetOIDFunctionValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptGetOIDFunctionValue
 ---
 
 # CryptGetOIDFunctionValue function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptGetOIDFunctionValue</b> function queries a value associated with an OID. The query is made for a specific named value associated with an OID, function name, and encoding type. The function can return the type of queried value, the value, itself, or both.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEncodingType [in]
 
 Specifies the encoding type to be matched. Currently, only X509_ASN_ENCODING and PKCS_7_ASN_ENCODING are being used; however, additional encoding types may be added in the future. To match both current encoding types, use    X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
 
-
 ### -param pszFuncName [in]
 
 A pointer to the null-terminated string that contains the name of the OID function set.
-
 
 ### -param pszOID [in]
 
 If the high-order word of the OID is nonzero, <i>pszOID</i> is a pointer to either a  null-terminated OID string such as "2.5.29.1" or a null-terminated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string such as "file." If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
 
-
 ### -param pwszValueName [in]
 
 A pointer to a null-terminated Unicode string that contains the name of the value to be queried.
-
 
 ### -param pdwValueType [out]
 
@@ -132,14 +124,12 @@ A Unicode string. Applications should ensure that the string has a terminating n
 
 The <i>pdwValueType</i> parameter can be <b>NULL</b> if a returned type is not required.
 
-
 ### -param pbValueData [out]
 
 A pointer to a buffer to receive the value associated with the <i>pwszValueName</i> parameter. The buffer must be big enough to contain the terminating <b>NULL</b> character. This parameter can be <b>NULL</b> if returned data is not required.
 
 This parameter can also be <b>NULL</b> to find the size of the buffer for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbValueData [in, out]
 
@@ -151,8 +141,6 @@ In most cases the value returned in *<i>pcbValueData</i> includes the size of th
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -178,18 +166,8 @@ If the buffer specified by the <i>pbValueData</i> parameter is not large enough 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
- 
-
- 
 

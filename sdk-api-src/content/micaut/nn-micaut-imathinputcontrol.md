@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 3d6a6289-7be5-4cf0-8cb7-9095c4ee7149
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl, IMathInputControl interface [Tablet PC], IMathInputControl interface [Tablet PC],described, micaut/IMathInputControl, tablet.imathinputcontrol
-f1_keywords:
-- micaut/IMathInputControl
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- IMathInputControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMathInputControl
+ - micaut/IMathInputControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - IMathInputControl
 ---
 
 # IMathInputControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMathInputControl</b> interface exposes methods that turn ink input into interpreted math output.
-
 
 ## -inheritance
 
@@ -221,5 +220,5 @@ Shows the control.
 
 </td>
 </tr>
-</table> 
+</table>
 

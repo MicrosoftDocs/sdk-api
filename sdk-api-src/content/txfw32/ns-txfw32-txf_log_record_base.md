@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: b891f763-13dd-4b40-aff3-3fccb693d76a
 ms.date: 12/05/2018
 ms.keywords: '*PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE structure pointer [Files], TXF_LOG_RECORD_BASE, TXF_LOG_RECORD_BASE structure [Files], TXF_LOG_RECORD_TYPE_AFFECTED_FILE, TXF_LOG_RECORD_TYPE_TRUNCATE, TXF_LOG_RECORD_TYPE_WRITE, fs.txf_log_record_base, txfw32/PTXF_LOG_RECORD_BASE, txfw32/TXF_LOG_RECORD_BASE'
-f1_keywords:
-- txfw32/TXF_LOG_RECORD_BASE
-dev_langs:
-- c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- TxfW32.h
-api_name:
-- TXF_LOG_RECORD_BASE
 targetos: Windows
 req.typenames: TXF_LOG_RECORD_BASE, *PTXF_LOG_RECORD_BASE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TXF_LOG_RECORD_BASE
+ - txfw32/_TXF_LOG_RECORD_BASE
+ - PTXF_LOG_RECORD_BASE
+ - txfw32/PTXF_LOG_RECORD_BASE
+ - TXF_LOG_RECORD_BASE
+ - txfw32/TXF_LOG_RECORD_BASE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - TxfW32.h
+api_name:
+ - TXF_LOG_RECORD_BASE
 ---
 
 # TXF_LOG_RECORD_BASE structure
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -58,16 +62,11 @@ ms.custom: 19H1
 
 Contains the basic record information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version identifier for the replication record.
-
 
 ### -field RecordType
 
@@ -112,18 +111,12 @@ The record is a <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/n
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RecordLength
 
 The length of this record, in bytes.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_affected_file">TXF_LOG_RECORD_AFFECTED_FILE</a>
 
@@ -138,7 +131,4 @@ The length of this record, in bytes.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/nf-txfw32-txflogreadrecords">TxfLogReadRecords</a>
- 
-
- 
 

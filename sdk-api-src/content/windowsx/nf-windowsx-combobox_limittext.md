@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_limittext.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_LimitText, ComboBox_LimitText macro [Windows Controls], _win32_ComboBox_LimitText, _win32_ComboBox_LimitText_cpp, controls.ComboBox_LimitText, controls._win32_ComboBox_LimitText, windowsx/ComboBox_LimitText
-f1_keywords:
-- windowsx/ComboBox_LimitText
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ComboBox_LimitText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComboBox_LimitText
+ - windowsx/ComboBox_LimitText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ComboBox_LimitText
 ---
 
 # ComboBox_LimitText macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-limittext">CB_LIMITTEXT</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
@@ -64,19 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the control.
 
-
 ### -param cchLimit
 
 Type: <b>int</b>
 
 The maximum number of characters.
 
-
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-limittext">CB_LIMITTEXT</a>.
-
-
 

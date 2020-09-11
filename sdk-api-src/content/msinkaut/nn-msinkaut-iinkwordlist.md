@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 4E872C5A-1223-48EB-9B7D-04B3ADB84B2B
 ms.date: 12/05/2018
 ms.keywords: IInkWordList, IInkWordList interface [Tablet PC], IInkWordList interface [Tablet PC],described, msinkaut/IInkWordList, tablet.iinkwordlist
-f1_keywords:
-- msinkaut/IInkWordList
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkWordList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkWordList
+ - msinkaut/IInkWordList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkWordList
 ---
 
 # IInkWordList interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-
-
 
 ## -inheritance
 
@@ -97,5 +94,5 @@ Removes a single word from an <a href="https://docs.microsoft.com/windows/deskto
 
 </td>
 </tr>
-</table> 
+</table>
 

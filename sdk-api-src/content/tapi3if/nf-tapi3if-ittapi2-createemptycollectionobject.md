@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0114c0d2-4582-4b44-8fb6-74e468828797
 ms.date: 12/05/2018
 ms.keywords: CreateEmptyCollectionObject, CreateEmptyCollectionObject method [TAPI 2.2], CreateEmptyCollectionObject method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],CreateEmptyCollectionObject method, ITTAPI2.CreateEmptyCollectionObject, ITTAPI2::CreateEmptyCollectionObject, _tapi3_ittapi2_createemptycollectionobject, tapi3.ittapi2_createemptycollectionobject, tapi3if/ITTAPI2::CreateEmptyCollectionObject
-f1_keywords:
-- tapi3if/ITTAPI2.CreateEmptyCollectionObject
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPI2.CreateEmptyCollectionObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPI2::CreateEmptyCollectionObject
+ - tapi3if/ITTAPI2::CreateEmptyCollectionObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPI2.CreateEmptyCollectionObject
 ---
 
 # ITTAPI2::CreateEmptyCollectionObject
 
 
 ## -description
-
 
 The 
 <b>CreateEmptyCollectionObject</b> method creates an empty collection object. The collection can be filled with 
@@ -59,21 +59,14 @@ The
 
 This method is intended for Visual Basic and scripting applications.
 
-
 ## -parameters
-
-
-
 
 ### -param ppCollection [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a> interface on the new collection object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,15 +109,8 @@ There is not enough memory to allocate the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
 
@@ -139,7 +125,4 @@ There is not enough memory to allocate the object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 82dad1d4-2368-4cb0-a45c-0de894b016b7
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], IDirectDrawPalette interface [DirectDraw],described, ddraw/IDirectDrawPalette, directdraw.idirectdrawpalette
-f1_keywords:
-- ddraw/IDirectDrawPalette
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawPalette
+ - ddraw/IDirectDrawPalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawPalette
 ---
 
 # IDirectDrawPalette interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Applications use the methods of the <b>IDirectDrawPalette</b> interface to create DirectDrawPalette objects and work with system-level variables. This section is a reference to the methods of this interface. 
-
+Applications use the methods of the <b>IDirectDrawPalette</b> interface to create DirectDrawPalette objects and work with system-level variables. This section is a reference to the methods of this interface.
 
 ## -inheritance
 
@@ -105,12 +104,9 @@ Changes entries in a DirectDrawPalette object immediately.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The methods of the <b>IDirectDrawPalette</b> interface can be organized into the following groups:<table>
 <tr>
@@ -150,7 +146,4 @@ You can use the LPDIRECTDRAWPALETTE data type to declare a variable that contain
 typedef struct IDirectDrawPalette    FAR *LPDIRECTDRAWPALETTE;
 
 ```
-
-
-
 

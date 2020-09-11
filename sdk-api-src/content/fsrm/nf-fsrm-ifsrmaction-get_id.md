@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 7add9be2-75ae-4da7-a6b1-8d39a8ff374c
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],Id property, IFsrmAction.Id, IFsrmAction.get_Id, IFsrmAction::Id, IFsrmAction::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_id, fsrm.ifsrmaction_id, fsrm/IFsrmAction::Id, fsrm/IFsrmAction::get_Id, get_Id
-f1_keywords:
-- fsrm/IFsrmAction.Id
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmAction.Id
-- IFsrmAction.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmAction::get_Id
+ - fsrm/IFsrmAction::get_Id
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmAction.Id
+ - IFsrmAction.get_Id
 ---
 
 # IFsrmAction::get_Id
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -62,17 +62,9 @@ Retrieves the identifier of the action.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 9b0155ce-f313-43fa-8605-650aa8f38587
 ms.date: 12/05/2018
 ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IADsComputerOperations interface [ADSI],described, _ds_iadscomputeroperations, adsi.iadscomputeroperations, iads/IADsComputerOperations
-f1_keywords:
-- iads/IADsComputerOperations
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsComputerOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsComputerOperations
+ - iads/IADsComputerOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsComputerOperations
 ---
 
 # IADsComputerOperations interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsComputerOperations</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It exposes methods for retrieving the status of a computer over a network and to enable remote shutdown. Directory service providers may choose to implement this interface to support basic system administration over a network through ADSI.
-
 
 ## -inheritance
 
@@ -254,13 +253,9 @@ Gets the ADsPath string to the schema class object for this object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -271,7 +266,4 @@ Gets the ADsPath string to the schema class object for this object.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

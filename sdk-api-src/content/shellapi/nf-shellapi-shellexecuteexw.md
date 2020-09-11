@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
 ms.date: 12/05/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
-f1_keywords:
-- shellapi/ShellExecuteEx
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 3.51 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- Ext-MS-Win-shell-shell32-l1-2-0.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-- windows.storage.dll
-api_name:
-- ShellExecuteEx
-- ShellExecuteExA
-- ShellExecuteExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ShellExecuteExW
+ - shellapi/ShellExecuteExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - Ext-MS-Win-shell-shell32-l1-2-0.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - windows.storage.dll
+api_name:
+ - ShellExecuteEx
+ - ShellExecuteExA
+ - ShellExecuteExW
 ---
 
 # ShellExecuteExW function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an operation on a specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param pExecInfo [in, out]
 
@@ -70,21 +66,13 @@ Type: <b>SHELLEXECUTEINFO*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure that contains and receives information about the application being executed.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
-
-
-
 ## -remarks
-
-
 
 Because <b>ShellExecuteEx</b> can delegate execution to Shell extensions (data sources, context menu handlers, verb implementations) that are activated using Component Object Model (COM), COM should be initialized before <b>ShellExecuteEx</b> is called. Some Shell extensions require the COM single-threaded apartment (STA) type. In that case, COM should be initialized as shown here:
 
@@ -158,9 +146,6 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="https:/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
@@ -174,7 +159,4 @@ The SE_ERR_XXX error values are provided for compatibility with <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>
- 
-
- 
 

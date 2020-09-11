@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66
 ms.date: 12/05/2018
 ms.keywords: GetLocaleID, GetLocaleID method [COM], GetLocaleID method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetLocaleID method, IPropertyPageSite.GetLocaleID, IPropertyPageSite::GetLocaleID, _ctrl_ipropertypagesite_getlocaleid, com.ipropertypagesite_getlocaleid, ocidl/IPropertyPageSite::GetLocaleID
-f1_keywords:
-- ocidl/IPropertyPageSite.GetLocaleID
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPropertyPageSite.GetLocaleID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyPageSite::GetLocaleID
+ - ocidl/IPropertyPageSite::GetLocaleID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPropertyPageSite.GetLocaleID
 ---
 
 # IPropertyPageSite::GetLocaleID
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.
 
-
 ## -parameters
-
-
-
 
 ### -param pLocaleID [out]
 
 A pointer to a variable that receives the locale identifier. See <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -97,15 +90,8 @@ The address in <i>pLocaleID</i> is not valid. For example, it may be <b>NULL</b>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
 
@@ -116,7 +102,4 @@ The address in <i>pLocaleID</i> is not valid. For example, it may be <b>NULL</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
- 
-
- 
 

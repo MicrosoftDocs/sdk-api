@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::TranslateClip"]
 ms.assetid: 323bc752-60d5-44f5-88dd-6bf0c4c0c926
 ms.date: 05/13/2019
 ms.keywords: Graphics::TranslateClip
-f1_keywords:
-- gdiplusgraphics/Graphics::TranslateClip
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::TranslateClip
+ - gdiplusgraphics/Graphics::TranslateClip
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::TranslateClip
+ - Graphics::TranslateClip
 ---
 
 # TranslateClip(REAL,REAL)
+
 
 ## -description
 
@@ -105,3 +107,4 @@ VOID Example_TranslateClipReal(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-intersectclip(inconstrect_)">IntersectClip Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstgraphicspath_incombinemode)">SetClip Methods</a>
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
 ms.date: 12/05/2018
 ms.keywords: SECPKG_ATTR_APP_DATA, SECPKG_ATTR_DTLS_MTU, SECPKG_ATTR_EAP_PRF_INFO, SECPKG_ATTR_EARLY_START, SECPKG_ATTR_KEYING_MATERIAL_INFO, SetContextAttributes, SetContextAttributes function [Security], SetContextAttributesA, SetContextAttributesW, security.setcontextattributes, sspi/SetContextAttributes, sspi/SetContextAttributesA, sspi/SetContextAttributesW
-f1_keywords:
-- sspi/SetContextAttributes
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SetContextAttributes
-- SetContextAttributesA
-- SetContextAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetContextAttributesA
+ - sspi/SetContextAttributesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SetContextAttributes
+ - SetContextAttributesA
+ - SetContextAttributesW
 ---
 
 # SetContextAttributesA function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a transport application to set  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. This function is supported only by the Schannel security package.
 
-
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A handle to the security context to be set.
-
 
 ### -param ulAttribute [in]
 
@@ -147,22 +142,16 @@ This attribute is supported only by the Schannel security package in Windows 10
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [in]
 
 A pointer to a structure that contains  values to set  the attributes to. The type of structure pointed to depends on the value specified in the <i>ulAttribute</i> parameter.
 
-
 ### -param cbBuffer [in]
 
 The size, in bytes, of the <i>pBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns SEC_E_OK.
 
@@ -185,9 +174,6 @@ This value is returned by Schannel kernel mode to indicate that this function is
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

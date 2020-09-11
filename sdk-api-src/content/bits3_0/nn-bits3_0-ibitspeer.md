@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 617b88d4-6c3e-4c33-9bfa-6d9f6f629866
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer, IBitsPeer interface [BITS], IBitsPeer interface [BITS],described, bits.ibitspeer, bits3_0/IBitsPeer
-f1_keywords:
-- bits3_0/IBitsPeer
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeer
+ - bits3_0/IBitsPeer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeer
 ---
 
 # IBitsPeer interface
 
 
 ## -description
-
 
 Use <b>IBitsPeer</b> to get information about a peer in the neighborhood. 
 
@@ -98,20 +98,13 @@ Determines whether the peer is available (online) to serve content.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>
- 
-
- 
 

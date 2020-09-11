@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
 ms.date: 12/05/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
-f1_keywords:
-- iphlpapi/GetUdpTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetUdpTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUdpTable
+ - iphlpapi/GetUdpTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetUdpTable
 ---
 
 # GetUdpTable function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetUdpTable</b> function retrieves the IPv4 User Datagram Protocol (UDP) listener table.
 
-
 ## -parameters
-
-
-
 
 ### -param UdpTable [out]
 
 A pointer to a buffer that receives the IPv4 UDP listener table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a> structure.
-
 
 ### -param SizePointer [in, out]
 
@@ -74,8 +69,7 @@ On input, specifies the size in bytes of the buffer pointed to by the <i>UdpTabl
 
 On output, if the buffer is not large enough to hold the returned listener table, the function sets this parameter equal to the required buffer size in bytes.
 
-On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>. 
-
+On the Windows SDK released for Windows Vista and later, the data type for this parameter is changed to a <b>PULONG</b> which is equivalent to a <b>PDWORD</b>.
 
 ### -param Order [in]
 
@@ -87,11 +81,7 @@ A Boolean value that specifies whether the returned UDP listener table should be
 <li>Local port</li>
 </ol>
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -151,24 +141,12 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-On the Windows SDK released for Windows Vista and later, the return value from the <b>GetUdpTable</b> function is changed to a data type of <b>ULONG</b> which is equivalent to a <b>DWORD</b>. 
-
-
-
+On the Windows SDK released for Windows Vista and later, the return value from the <b>GetUdpTable</b> function is changed to a data type of <b>ULONG</b> which is equivalent to a <b>DWORD</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
 
@@ -215,7 +193,4 @@ On the Windows SDK released for Windows Vista and later, the return value from 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a>
- 
-
- 
 

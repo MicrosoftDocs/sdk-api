@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 3831b727-7fdc-4d05-a7b3-86ca5b5c3b17
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], IWMRegisterCallback interface [windows Media Format],described, IWMRegisterCallbackInterface, wmformat.iwmregistercallback, wmsdkidl/IWMRegisterCallback
-f1_keywords:
-- wmsdkidl/IWMRegisterCallback
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMRegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisterCallback
+ - wmsdkidl/IWMRegisterCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMRegisterCallback
 ---
 
 # IWMRegisterCallback interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMRegisterCallback</b> interface enables the application to get status messages from a sink object.
 
 By default, the writer object does not send the application any status messages from the sink object. To get status messages from a sink object, the application must query the sink object for the <b>IWMRegisterCallback</b> interface and call the <b>Advise</b> method.
 
 The file sink object, the network sink object, and the push sink object all expose this interface. To obtain a pointer to this interface for a sink, call <b>QueryInterface</b> on any of these sink objects.
-
-
-
 
 ## -inheritance
 
@@ -93,13 +89,9 @@ Unregisters the application's callback interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
@@ -110,7 +102,4 @@ Unregisters the application's callback interface.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
- 
-
- 
 

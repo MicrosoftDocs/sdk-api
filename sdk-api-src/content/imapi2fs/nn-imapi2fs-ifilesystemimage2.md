@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: c38995b7-6f32-4489-bb6c-0e3561b11f81
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage2, IFileSystemImage2 interface [IMAPI], IFileSystemImage2 interface [IMAPI],described, imapi.ifilesystemimage2, imapi2fs/IFileSystemImage2
-f1_keywords:
-- imapi2fs/IFileSystemImage2
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage2
+ - imapi2fs/IFileSystemImage2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage2
 ---
 
 # IFileSystemImage2 interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
  Use this interface to write multiple boot entries or boot images  required for the EFI/UEFI support. For example, boot media with boot straps for both Windows XP and Windows Vista.<div class="alert"><b>Note</b>  The <b>IFileSystemImage2</b> interface is currently only available with  Windows Vista with Service Pack 1 (SP1) and  Windows Server 2008.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -88,28 +86,15 @@ Sets the boot option array that will be utilized to generate the file system ima
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
  Boot entries are limited by the interface to 32 per disc.	The boot image must be supplied to IMAPIv2FS by outside applications who invoke IMAPIv2FS to build the bootable disc.
 
 Section Entry Extension is not supported by IMAPIv2FS at this time.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
- 
-
- 
 

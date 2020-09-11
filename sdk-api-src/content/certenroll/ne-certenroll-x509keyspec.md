@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d677d46c-3b36-4081-a6db-123ac1cef84b
 ms.date: 12/05/2018
 ms.keywords: X509KeySpec, X509KeySpec enumeration [Security], XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/X509KeySpec, certenroll/XCN_AT_KEYEXCHANGE, certenroll/XCN_AT_NONE, certenroll/XCN_AT_SIGNATURE, security.x509keyspec_enum
-f1_keywords:
-- certenroll/X509KeySpec
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- X509KeySpec
 targetos: Windows
 req.typenames: X509KeySpec
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X509KeySpec
+ - certenroll/X509KeySpec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - X509KeySpec
 ---
 
 # X509KeySpec enumeration
 
 
 ## -description
-
 
 The <b>X509KeySpec</b> enumeration type specifies the intended use of a key for a legacy <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). Legacy CSPs can support at most one signature algorithm (XCN_AT_SIGNATURE) and one encryption algorithm (XCN_AT_KEYEXCHANGE). This enumeration is used by the following interfaces:<ul>
 <li>
@@ -68,17 +68,11 @@ The <b>X509KeySpec</b> enumeration type specifies the intended use of a key for 
 </li>
 </ul>
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field XCN_AT_NONE
 
-The intended use is not identified. This value is set if the provider that supports the key is a  Cryptography API: Next Generation (CNG) key storage provider (KSP). 
-
+The intended use is not identified. This value is set if the provider that supports the key is a  Cryptography API: Next Generation (CNG) key storage provider (KSP).
 
 ### -field XCN_AT_KEYEXCHANGE
 
@@ -91,11 +85,7 @@ The key can be used to encrypt (including key exchange) or sign depending on the
 
 The key can be used for signing.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
@@ -106,7 +96,4 @@ The key can be used for signing.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
 

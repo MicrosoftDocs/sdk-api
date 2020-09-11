@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 0e99483c-8cd7-402a-8bf6-1e0118764dd3
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferFree, NetApiBufferFree function [Network Management], _win32_netapibufferfree, lmapibuf/NetApiBufferFree, netmgmt.netapibufferfree
-f1_keywords:
-- lmapibuf/NetApiBufferFree
-dev_langs:
-- c++
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-- Netutils.dll
-api_name:
-- NetApiBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetApiBufferFree
+ - lmapibuf/NetApiBufferFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+ - Netutils.dll
+api_name:
+ - NetApiBufferFree
 ---
 
 # NetApiBufferFree function
@@ -50,37 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetApiBufferFree</b> function frees the memory that the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function allocates. Applications should also call <b>NetApiBufferFree</b> to free the memory that other network management functions use internally to return information.
 
-
 ## -parameters
-
-
-
 
 ### -param Buffer [in]
 
 A pointer to a buffer returned previously by another network management function or memory allocated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferallocate">NetApiBufferAllocate</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The
 				<b>NetApiBufferFree</b> function is used to free memory used by network management functions. This function is used in two cases:
@@ -102,13 +90,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf
 For a code sample that demonstrates how to use of the <b>NetApiBufferFree</b> function to free memory internally allocated by a network management function to return information, see 
 the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">Api Buffer
 		  Functions</a>
@@ -142,7 +124,4 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>
- 
-
- 
 

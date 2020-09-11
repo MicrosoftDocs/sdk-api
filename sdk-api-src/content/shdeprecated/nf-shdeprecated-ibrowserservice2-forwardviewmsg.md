@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8db9fbf9-9132-47a4-a788-93c303598ba0
 ms.date: 12/05/2018
 ms.keywords: ForwardViewMsg, ForwardViewMsg method [Windows Shell], ForwardViewMsg method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ForwardViewMsg method, IBrowserService2.ForwardViewMsg, IBrowserService2::ForwardViewMsg, shdeprecated/IBrowserService2::ForwardViewMsg, shell.IBrowserService2_ForwardViewMsg, zone_IBrowserService2_ForwardViewMsg
-f1_keywords:
-- shdeprecated/IBrowserService2.ForwardViewMsg
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.ForwardViewMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::ForwardViewMsg
+ - shdeprecated/IBrowserService2::ForwardViewMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.ForwardViewMsg
 ---
 
 # IBrowserService2::ForwardViewMsg
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure as the <b>SendMessage</b> <i>hWnd</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param uMsg [in]
 
@@ -65,13 +61,11 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
 Additional message-specific information.
-
 
 ### -param lParam [in]
 
@@ -79,14 +73,9 @@ Type: <b>LPARAM</b>
 
 Additional message-specific information.
 
-
 ## -returns
-
-
 
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the message processing; it depends on the message sent.
-
-
 

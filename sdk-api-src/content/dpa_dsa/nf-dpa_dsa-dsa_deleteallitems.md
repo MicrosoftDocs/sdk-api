@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteallitems.htm
 ms.date: 12/05/2018
 ms.keywords: DSA_DeleteAllItems, DSA_DeleteAllItems function [Windows Controls], _shell_DSA_DeleteAllItems, _shell_DSA_DeleteAllItems_cpp, controls.DSA_DeleteAllItems, controls._shell_DSA_DeleteAllItems, dpa_dsa/DSA_DeleteAllItems
-f1_keywords:
-- dpa_dsa/DSA_DeleteAllItems
-dev_langs:
-- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- DSA_DeleteAllItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DSA_DeleteAllItems
+ - dpa_dsa/DSA_DeleteAllItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - DSA_DeleteAllItems
 ---
 
 # DSA_DeleteAllItems function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes all items from a dynamic structure array (DSA).
 
-
 ## -parameters
-
-
-
 
 ### -param hdsa [in]
 
@@ -64,14 +60,9 @@ Type: <b>HDSA</b>
 
 A handle to an existing DSA.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the items were successfully deleted; otherwise, <b>FALSE</b>.
-
-
 

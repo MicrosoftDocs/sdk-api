@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 946ac279-d30a-4a6c-a76d-d93597121427
 ms.date: 1/14/2020
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_PREPROMPTING, CREDUIWIN_SECURE_PROMPT, CredUIPromptForWindowsCredentials, CredUIPromptForWindowsCredentials function [Security], CredUIPromptForWindowsCredentialsA, CredUIPromptForWindowsCredentialsW, security.creduipromptforwindowscredentials, wincred/CredUIPromptForWindowsCredentials, wincred/CredUIPromptForWindowsCredentialsA, wincred/CredUIPromptForWindowsCredentialsW
-f1_keywords:
-- wincred/CredUIPromptForWindowsCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-0.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- CredUIPromptForWindowsCredentials
-- CredUIPromptForWindowsCredentialsA
-- CredUIPromptForWindowsCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredUIPromptForWindowsCredentialsW
+ - wincred/CredUIPromptForWindowsCredentialsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - CredUIPromptForWindowsCredentials
+ - CredUIPromptForWindowsCredentialsA
+ - CredUIPromptForWindowsCredentialsW
 ---
 
 # CredUIPromptForWindowsCredentialsW function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredUIPromptForWindowsCredentials</b> function creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pUiInfo [in, optional]
 
@@ -73,13 +69,11 @@ If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windo
 
 If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
 
-This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure. 
-
+This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure.
 
 ### -param dwAuthError [in]
 
 A Windows error code, defined in Winerror.h, that is displayed in the dialog box. If credentials previously collected were not valid, the caller uses this parameter to pass the error message from the API that collected the credentials (for example, Winlogon) to this function. The corresponding error message is formatted and displayed in the dialog box. Set the  value of this parameter to zero to display no error message.
-
 
 ### -param pulAuthPackage [in, out]
 
@@ -91,16 +85,13 @@ To get the appropriate value to use for this parameter on input, call the <a hre
 
 On output, this parameter specifies the authentication package for which the credentials in the <i>ppvOutAuthBuffer</i> buffer are serialized.
 
-
 ### -param pvInAuthBuffer [in, optional]
 
 A pointer to a credential BLOB that is used to populate the credential fields in the dialog box. Set the value of this parameter to <b>NULL</b> to leave the credential fields empty.
 
-
 ### -param ulInAuthBufferSize [in]
 
 The size, in bytes, of the <i>pvInAuthBuffer</i> buffer.
-
 
 ### -param ppvOutAuthBuffer [out]
 
@@ -108,18 +99,15 @@ The address of a pointer that, on output, specifies the credential BLOB. For Ker
 
 When you have finished using the credential BLOB, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function, and free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
-
 ### -param pulOutAuthBufferSize [out]
 
 The size, in bytes, of the <i>ppvOutAuthBuffer</i> buffer.
-
 
 ### -param pfSave [in, out, optional]
 
 A pointer to a Boolean value that, on input, specifies whether the <b>Save</b> check box is selected in the dialog box that this function displays. On output, the value of this parameter specifies whether the <b>Save</b> check box was selected when the user clicks the <b>Submit</b> button in the dialog box. Set this parameter to <b>NULL</b> to ignore the <b>Save</b> check box.
 
 This parameter is ignored if the <b>CREDUIWIN_CHECKBOX</b> flag is not set in the <i>dwFlags</i> parameter.
-
 
 ### -param dwFlags [in]
 
@@ -268,21 +256,12 @@ Windows Hello credentials will be packed in a smart card auth buffer. This only 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>ERROR_SUCCESS</b>. If the function is canceled by the user, it returns <b>ERROR_CANCELLED</b>. Any other return value indicates that the function failed to load.
 
-
-
-
 ## -remarks
-
-
 
 This function does not save credentials.
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 30AA5730-566C-4B02-A904-5A38237EE8E3
 ms.date: 12/05/2018
 ms.keywords: AddScopedPolicyIDAce, AddScopedPolicyIDAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addscopedpolicyidace, securitybaseapi/AddScopedPolicyIDAce
-f1_keywords:
-- securitybaseapi/AddScopedPolicyIDAce
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddScopedPolicyIDAce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddScopedPolicyIDAce
+ - securitybaseapi/AddScopedPolicyIDAce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddScopedPolicyIDAce
 ---
 
 # AddScopedPolicyIDAce function
@@ -53,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddScopedPolicyIDAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_SCOPED_POLICY_ID_ACE</b> structure specifies a central access policy (CAP) to be associated with the resource and can be  used during access checks. The set of standard access rights are defined in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in, out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>.
 
-
 ### -param dwAceRevision [in]
 
 Specifies the revision level of the ACL being modified. This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the ACL contains object-specific ACEs.
-
 
 ### -param AceFlags [in]
 
@@ -144,38 +138,23 @@ The ACE is inherited by non-container objects.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AccessMask [in]
 
 Must be zero for Windows 8 and Windows Server 2012.
 
-
 ### -param pSid [in]
 
 A pointer to the SID (S-1-17-*) that identifies the Central Access Policy to be associated with the resource.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
- 
-
- 
 

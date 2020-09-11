@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
 ms.date: 12/05/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
-f1_keywords:
-- iads/IADsAccessControlList.get__NewEnum
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsAccessControlList.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsAccessControlList::get__NewEnum
+ - iads/IADsAccessControlList::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsAccessControlList.get__NewEnum
 ---
 
 # IADsAccessControlList::get__NewEnum
@@ -49,33 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enumerator object for the ACL to enumerate ACEs.
 
-
 ## -parameters
-
-
-
 
 ### -param retval [out]
 
 Pointer to pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface used to retrieve
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an enumerator object for the ACL.
 
-
 ## -returns
-
-
 
 This method returns the standard return values, including <b>S_OK</b> and <b>E_FAIL</b>. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 Be aware  that there are two underscores in <b>get__NewEnum</b>.
 
@@ -172,14 +160,7 @@ HRESULT ListTrustees(IADsAccessControlList *pACL)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
@@ -194,7 +175,4 @@ HRESULT ListTrustees(IADsAccessControlList *pACL)
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
- 
-
- 
 

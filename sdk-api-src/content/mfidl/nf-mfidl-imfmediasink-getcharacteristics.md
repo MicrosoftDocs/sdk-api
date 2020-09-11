@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a7e8e2af-8b10-47f5-8b09-a7147ace5ba1
 ms.date: 12/05/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics
-f1_keywords:
-- mfidl/IMFMediaSink.GetCharacteristics
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSink.GetCharacteristics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSink::GetCharacteristics
+ - mfidl/IMFMediaSink::GetCharacteristics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSink.GetCharacteristics
 ---
 
 # IMFMediaSink::GetCharacteristics
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the characteristics of the media sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwCharacteristics [out]
 
@@ -151,12 +144,8 @@ The first stream sink (index 0) is a reference stream. The reference stream must
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -190,32 +179,16 @@ The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The characteristics of a media sink are fixed throughout the life time of the sink.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
- 
-
- 
 

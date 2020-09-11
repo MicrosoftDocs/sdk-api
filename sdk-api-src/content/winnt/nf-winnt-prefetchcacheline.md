@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
 ms.date: 12/05/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
-f1_keywords:
-- winnt/PreFetchCacheLine
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- PreFetchCacheLine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PreFetchCacheLine
+ - winnt/PreFetchCacheLine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - PreFetchCacheLine
 ---
 
 # PreFetchCacheLine macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates to the processor that a cache line will be needed in the near future.
 
-
 ## -parameters
-
-
-
 
 ### -param l
 
@@ -88,17 +84,12 @@ The cache line is not likely to be needed again after the first reference.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param a
 
 The address of the cache line to be loaded. This address is not required to be on a cache line boundary.
 
-
 ## -remarks
-
-
 
 This macro can be called on all processor platforms where Windows is supported, but it  has no effect on some platforms.  The definition varies from platform to platform.  The following are some definitions of this macro in Winnt.h:
 
@@ -108,5 +99,4 @@ This macro can be called on all processor platforms where Windows is supported, 
 
 #define PreFetchCacheLine  __lfetch
 </code></pre>
-
 

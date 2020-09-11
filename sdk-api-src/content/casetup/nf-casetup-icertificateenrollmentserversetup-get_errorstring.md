@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: D4322BE8-1CED-47D0-98C2-D5D7C151DEAB
 ms.date: 12/05/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],ErrorString property, ICertificateEnrollmentServerSetup.ErrorString, ICertificateEnrollmentServerSetup.get_ErrorString, ICertificateEnrollmentServerSetup::ErrorString, ICertificateEnrollmentServerSetup::get_ErrorString, casetup/ICertificateEnrollmentServerSetup::ErrorString, casetup/ICertificateEnrollmentServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentserversetup_errorstring
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup.ErrorString
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup.ErrorString
-- ICertificateEnrollmentServerSetup.get_ErrorString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup::get_ErrorString
+ - casetup/ICertificateEnrollmentServerSetup::get_ErrorString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup.ErrorString
+ - ICertificateEnrollmentServerSetup.get_ErrorString
 ---
 
 # ICertificateEnrollmentServerSetup::get_ErrorString
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ErrorString</b> property retrieves a string that contains additional information about Certificate Enrollment Web Service (CES) setup failure.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Calling any method on the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> interface resets this property value to an empty error string.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
- 
-
- 
 

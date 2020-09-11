@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuidsEx, EnumerateTraceGuidsEx function [ETW], base.enumeratetraceguidsex, etw.enumeratetraceguidsex, evntrace/EnumerateTraceGuidsEx
-f1_keywords:
-- evntrace/EnumerateTraceGuidsEx
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-eventing-controller-l1-1-0.dll
-- kernelbase.dll
-api_name:
-- EnumerateTraceGuidsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumerateTraceGuidsEx
+ - evntrace/EnumerateTraceGuidsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-eventing-controller-l1-1-0.dll
+ - kernelbase.dll
+api_name:
+ - EnumerateTraceGuidsEx
 ---
 
 # EnumerateTraceGuidsEx function
@@ -53,48 +54,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this function to retrieve information about trace providers that are registered on the computer.
 
-
 ## -parameters
-
-
-
 
 ### -param TraceQueryInfoClass [in]
 
 Determines the type of information to include with the list of registered providers. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a> enumeration.
 
-
 ### -param InBuffer [in]
 
 GUID of the provider or provider group whose information you want to retrieve. Specify the GUID only if <i>TraceQueryInfoClass</i> is <b>TraceGuidQueryInfo</b> or <b>TraceGroupQueryInfo</b>.
-
 
 ### -param InBufferSize [in]
 
 Size, in bytes, of the data <i>InBuffer</i>.
 
-
 ### -param OutBuffer [out]
 
 Application-allocated buffer that contains the enumerated information. The format of the information depends on the value of <i>TraceQueryInfoClass</i>. For details, see Remarks.
-
 
 ### -param OutBufferSize [in]
 
 Size, in bytes, of the <i>OutBuffer</i> buffer. If the function succeeds, the <i>ReturnLength</i> parameter receives the size of the buffer used. If the buffer is too small, the function returns ERROR_INSUFFICIENT_BUFFER and the <i>ReturnLength</i> parameter receives the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and the <i>ReturnLength</i> parameter receives the required buffer size.
 
-
 ### -param ReturnLength [out]
 
 Actual size of the data in <i>OutBuffer</i>, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 						
@@ -135,14 +123,8 @@ The <i>OutBuffer</i> buffer is too small to receive information for all register
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -366,17 +348,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a>
- 
-
- 
 

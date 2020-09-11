@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cd390487-2bba-4d57-a779-579ffbd16acb
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM structure [Security], PCRYPT_PSOURCE_ALGORITHM, PCRYPT_PSOURCE_ALGORITHM structure pointer [Security], security.crypt_psource_algorithm, szOID_RSA_PSPECIFIED, wincrypt/CRYPT_PSOURCE_ALGORITHM, wincrypt/PCRYPT_PSOURCE_ALGORITHM'
-f1_keywords:
-- wincrypt/CRYPT_PSOURCE_ALGORITHM
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_PSOURCE_ALGORITHM
 targetos: Windows
 req.typenames: CRYPT_PSOURCE_ALGORITHM, *PCRYPT_PSOURCE_ALGORITHM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_PSOURCE_ALGORITHM
+ - wincrypt/_CRYPT_PSOURCE_ALGORITHM
+ - PCRYPT_PSOURCE_ALGORITHM
+ - wincrypt/PCRYPT_PSOURCE_ALGORITHM
+ - CRYPT_PSOURCE_ALGORITHM
+ - wincrypt/CRYPT_PSOURCE_ALGORITHM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_PSOURCE_ALGORITHM
 ---
 
 # CRYPT_PSOURCE_ALGORITHM structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_PSOURCE_ALGORITHM</b> structure identifies the algorithm and (optionally) the value of the label for an RSAES-OAEP key encryption.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszObjId
 
@@ -79,21 +79,12 @@ The RSAES-OAEP label function.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EncodingParameters
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains the label. This member is optional and may contain an empty BLOB.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsaes_oaep_parameters">CRYPT_RSAES_OAEP_PARAMETERS</a>
- 
-
- 
 

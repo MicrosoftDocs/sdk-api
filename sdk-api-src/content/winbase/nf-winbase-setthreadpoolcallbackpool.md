@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 022d83de-ff6c-4bc8-8213-42f403a323e8
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPool, SetThreadpoolCallbackPool function, base.setthreadpoolcallbackpool, winbase/SetThreadpoolCallbackPool
-f1_keywords:
-- winbase/SetThreadpoolCallbackPool
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- SetThreadpoolCallbackPool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadpoolCallbackPool
+ - winbase/SetThreadpoolCallbackPool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - SetThreadpoolCallbackPool
 ---
 
 # SetThreadpoolCallbackPool function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the thread pool to be used when generating callbacks.
 
-
 ## -parameters
-
-
-
 
 ### -param pcbe [in, out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
 
-
 ### -param ptpp [in]
 
 A <b>TP_POOL</b> structure that defines the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this structure.
 
-
 ## -remarks
-
-
 
 If you do not specify a thread pool, the global thread pool is used.
 
@@ -85,12 +77,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-destroythreadpoolenvironment">DestroyThreadpoolEnvironment</a>
 
@@ -117,7 +104,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
- 
-
- 
 

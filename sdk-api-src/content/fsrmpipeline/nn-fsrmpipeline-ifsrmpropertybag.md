@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 237f024d-2b1d-45d5-a63d-c530426278e6
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], IFsrmPropertyBag interface [File Server Resource Manager],described, fs.ifsrmpropertybag, fsrm.ifsrmpropertybag, fsrm/IFsrmPropertyBag
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyBag
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyBag
+ - fsrmpipeline/IFsrmPropertyBag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyBag
 ---
 
 # IFsrmPropertyBag interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the classification properties for a file.
 
 FSRM passes this interface to your 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a> 
     implementation. For more information, see the Remarks section.
-
 
 ## -inheritance
 
@@ -389,12 +388,9 @@ The name of the volume on which the file exists.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A property bag contains an in-memory copy of all the properties for a file. The list of properties in the 
     property bag may include additional properties not defined in FSRM. These properties can be the result of other 
@@ -410,13 +406,7 @@ This interface can be sent to
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-saveproperties">IFsrmStorageModuleImplementation::SaveProperties</a> 
     if a storage module is implemented.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
 
@@ -427,7 +417,4 @@ This interface can be sent to
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
- 
-
- 
 

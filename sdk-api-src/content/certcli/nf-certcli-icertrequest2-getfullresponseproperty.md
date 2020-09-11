@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1ee979b7-2d2a-4140-8eef-5e3a5e0c132c
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetFullResponseProperty method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, FR_PROP_ATTESTATIONCHALLENGE, FR_PROP_ATTESTATIONPROVIDERNAME, FR_PROP_BODYPARTSTRING, FR_PROP_CAEXCHANGECERTIFICATE, FR_PROP_CAEXCHANGECERTIFICATECHAIN, FR_PROP_CAEXCHANGECERTIFICATECRLCHAIN, FR_PROP_CAEXCHANGECERTIFICATEHASH, FR_PROP_ENCRYPTEDKEYHASH, FR_PROP_FAILINFO, FR_PROP_FULLRESPONSE, FR_PROP_FULLRESPONSENOPKCS7, FR_PROP_ISSUEDCERTIFICATE, FR_PROP_ISSUEDCERTIFICATECHAIN, FR_PROP_ISSUEDCERTIFICATECRLCHAIN, FR_PROP_ISSUEDCERTIFICATEHASH, FR_PROP_NONE, FR_PROP_OTHERINFOCHOICE, FR_PROP_PENDINFOTIME, FR_PROP_PENDINFOTOKEN, FR_PROP_STATUS, FR_PROP_STATUSINFOCOUNT, FR_PROP_STATUSSTRING, GetFullResponseProperty, GetFullResponseProperty method [Security], GetFullResponseProperty method [Security],CCertRequest object, GetFullResponseProperty method [Security],ICertRequest interface, GetFullResponseProperty method [Security],ICertRequest2 interface, GetFullResponseProperty method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetFullResponseProperty method, ICertRequest2 interface [Security],GetFullResponseProperty method, ICertRequest2.GetFullResponseProperty, ICertRequest2::GetFullResponseProperty, ICertRequest3 interface [Security],GetFullResponseProperty method, ICertRequest3::GetFullResponseProperty, ICertRequest::GetFullResponseProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getfullresponseproperty, certcli/ICertRequest2::GetFullResponseProperty, certcli/ICertRequest3::GetFullResponseProperty, certcli/ICertRequest::GetFullResponseProperty, security.icertrequest2_getfullresponseproperty
-f1_keywords:
-- certcli/ICertRequest3.GetFullResponseProperty
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.GetFullResponseProperty
-- ICertRequest2.GetFullResponseProperty
-- ICertRequest.GetFullResponseProperty
-- CCertRequest.GetFullResponseProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest2::GetFullResponseProperty
+ - certcli/ICertRequest2::GetFullResponseProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.GetFullResponseProperty
+ - ICertRequest2.GetFullResponseProperty
+ - ICertRequest.GetFullResponseProperty
+ - CCertRequest.GetFullResponseProperty
 ---
 
 # ICertRequest2::GetFullResponseProperty
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetFullResponseProperty</b> method retrieves the cached response data returned by the server.
 
-
 ## -parameters
-
-
-
 
 ### -param PropId [in]
 
@@ -319,13 +315,10 @@ The name of the key storage provider for key attestation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropIndex [in]
 
 The zero-based index when <i>PropId</i> is an indexed property. If <i>PropId</i> is not an indexed property, then <i>PropIndex</i> must be zero.
-
 
 ### -param PropType [in]
 
@@ -385,8 +378,6 @@ String data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -436,17 +427,12 @@ Binary format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
 The data returned.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and  <i>pvarPropertyValue</i> contains the returned data.
@@ -456,12 +442,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
 The return value is a <b>Variant</b> that contains the returned data.
 
-
-
-
 ## -remarks
-
-
 
 The following <i>PropId</i> values return binary data, which means that the <i>Flags</i> parameter must set to CR_OUT_BINARY:
 
@@ -484,5 +465,4 @@ After the <b>ICertRequest3::GetFullResponseProperty</b> method returns its data,
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll4-getcertfromresponse">ICEnroll4::GetCertFromResponse</a> can be called to parse the certificate from the response.</li>
 </ul>
-
 

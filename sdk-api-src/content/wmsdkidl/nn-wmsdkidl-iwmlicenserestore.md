@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 29444445-7104-4900-a00d-dabd2766d1d7
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], IWMLicenseRestore interface [windows Media Format],described, IWMLicenseRestoreInterface, wmformat.iwmlicenserestore, wmsdkidl/IWMLicenseRestore
-f1_keywords:
-- wmsdkidl/IWMLicenseRestore
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMLicenseRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMLicenseRestore
+ - wmsdkidl/IWMLicenseRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMLicenseRestore
 ---
 
 # IWMLicenseRestore interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IWMLicenseRestore</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
@@ -57,9 +57,6 @@ ms.custom: 19H1
 The <b>IWMLicenseRestore</b> interface manages the restoring of licenses.
 
 This interface is obtained from another interface on the backup restorer object.
-
-
-
 
 ## -inheritance
 
@@ -114,13 +111,9 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </td>
 <td>IID_IWMLicenseBackup</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/backing-up-and-restoring-licenses">Backing Up and Restoring Licenses</a>
 
@@ -139,7 +132,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

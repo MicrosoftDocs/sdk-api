@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 908BCB65-A7C6-473D-81AB-CCCA029AB6F9
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_DESC, D3D12_RESOURCE_DESC structure, d3d12/D3D12_RESOURCE_DESC, direct3d12.d3d12_resource_desc
-f1_keywords:
-- d3d12/D3D12_RESOURCE_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_RESOURCE_DESC
 targetos: Windows
 req.typenames: D3D12_RESOURCE_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RESOURCE_DESC
+ - d3d12/D3D12_RESOURCE_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_RESOURCE_DESC
 ---
 
 # D3D12_RESOURCE_DESC structure
@@ -49,80 +50,52 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a resource, such as a texture.
           This structure is used extensively.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field Dimension
 
 One member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a>, specifying the dimensions of the resource (for example, D3D12_RESOURCE_DIMENSION_TEXTURE1D), or whether it is a buffer ((D3D12_RESOURCE_DIMENSION_BUFFER).
-          
-
 
 ### -field Alignment
 
 Specifies the alignment.
-          
-
 
 ### -field Width
 
 Specifies the width of the resource.
-          
-
 
 ### -field Height
 
 Specifies the height of the resource.
-          
-
 
 ### -field DepthOrArraySize
 
 Specifies the depth of the resource, if it is 3D, or the array size if it is an array of 1D or 2D resources.
-          
-
 
 ### -field MipLevels
 
 Specifies the number of MIP levels.
-          
-
 
 ### -field Format
 
 Specifies one member of  <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>.
-          
-
 
 ### -field SampleDesc
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a> structure.
-          
-
 
 ### -field Layout
 
 Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_texture_layout">D3D12_TEXTURE_LAYOUT</a>.
-          
-
 
 ### -field Flags
 
 Bitwise-OR'd flags, as <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAGS</a> enumeration constants.
-          
-
 
 ## -remarks
-
-
 
 Use this structure with:<ul>
 <li>
@@ -229,15 +202,8 @@ A <i>SampleDesc.Count</i> greater than 1 and/ or non-zero <i>Quality</i> are onl
 <li>D3D12_HEAP_FLAG_ALLOW_DISPLAY</li>
 </ul>
 See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_multisample_quality_levels">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> for determining valid <i>Count</i> and <i>Quality</i> values.
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
 
@@ -248,7 +214,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>
- 
-
- 
 

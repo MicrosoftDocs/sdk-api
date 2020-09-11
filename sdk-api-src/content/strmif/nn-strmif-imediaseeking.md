@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 32adad53-d1ac-495f-9347-7bdd4ae4b78d
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IMediaSeeking interface [DirectShow],described, IMediaSeekingInterface, dshow.imediaseeking, strmif/IMediaSeeking
-f1_keywords:
-- strmif/IMediaSeeking
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking
+ - strmif/IMediaSeeking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking
 ---
 
 # IMediaSeeking interface
 
 
 ## -description
-
-
 
 The <code>IMediaSeeking</code> interface contains methods for seeking to a position within a stream, and for setting the playback rate. The Filter Graph Manager exposes this interface, and so do individual filters or pins. Applications should query the Filter Graph Manager for the interface.
 
@@ -59,9 +58,6 @@ The Filter Graph Manager distributes any <code>IMediaSeeking</code> call to each
 An application can seek the graph while the graph is in any state (running, paused or stopped). If the graph is running, the Filter Graph Manager pauses the graph before it issues the seek command. Then it runs the graph again. All seeking operations are independent of the current playback rate. Seeking operations cause any pending media data to be flushed from the graph.
 
 For all <code>IMediaSeeking</code> parameters that specify time, the unit of time depends on the current time format. To set the time format, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a> method. Time formats are globally unique identifiers (GUIDs) defined in uuids.h. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
-
-
-
 
 ## -inheritance
 
@@ -231,16 +227,9 @@ Sets the time format for subsequent seek operations.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/seeking-the-filter-graph">Seeking the Filter Graph</a>
- 
-
- 
 

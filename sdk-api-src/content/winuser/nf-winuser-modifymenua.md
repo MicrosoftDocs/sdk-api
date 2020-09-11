@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\modifymenu.htm
 ms.date: 12/05/2018
 ms.keywords: MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, ModifyMenu, ModifyMenu function [Menus and Other Resources], ModifyMenuA, ModifyMenuW, _win32_ModifyMenu, _win32_modifymenu_cpp, menurc.modifymenu, winui._win32_modifymenu, winuser/ModifyMenu, winuser/ModifyMenuA, winuser/ModifyMenuW
-f1_keywords:
-- winuser/ModifyMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- ModifyMenu
-- ModifyMenuA
-- ModifyMenuW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ModifyMenuA
+ - winuser/ModifyMenuA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - ModifyMenu
+ - ModifyMenuA
+ - ModifyMenuW
 ---
 
 # ModifyMenuA function
@@ -51,28 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes an existing menu item. This function is used to specify the content, appearance, and behavior of the menu item. 
 <div class="alert"><b>Note</b>  The <b>ModifyMenu</b> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> function. You can still use <b>ModifyMenu</b>, however, if you do not need any of the extended features of <b>SetMenuItemInfo</b>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hMnu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu to be changed. 
-
+A handle to the menu to be changed.
 
 ### -param uPosition [in]
 
 Type: <b>UINT</b>
 
-The menu item to be changed, as determined by the <i>uFlags</i> parameter. 
-
+The menu item to be changed, as determined by the <i>uFlags</i> parameter.
 
 ### -param uFlags [in]
 
@@ -250,15 +245,12 @@ Does not place a check mark next to the item (the default). If your application 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uIDNewItem [in]
 
 Type: <b>UINT_PTR</b>
 
-The identifier of the modified menu item or, if the <i>uFlags</i> parameter has the <b>MF_POPUP</b> flag set, a handle to the drop-down menu or submenu. 
-
+The identifier of the modified menu item or, if the <i>uFlags</i> parameter has the <b>MF_POPUP</b> flag set, a handle to the drop-down menu or submenu.
 
 ### -param lpNewItem [in, optional]
 
@@ -305,12 +297,8 @@ A pointer to a null-terminated string (the default).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -319,12 +307,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <b>ModifyMenu</b> replaces a menu item that opens a drop-down menu or submenu, the function destroys the old drop-down menu or submenu and frees the memory used by it. 
 
@@ -357,9 +340,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 > The winuser.h header defines ModifyMenu as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>
 
@@ -394,7 +374,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
- 
-
- 
 

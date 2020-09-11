@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 82AAB2C4-46A9-4545-95E1-887841735815
 ms.date: 12/05/2018
 ms.keywords: EndQueryStateVariable, EndQueryStateVariable method [UPnP APIs], EndQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndQueryStateVariable method, IUPnPServiceAsync.EndQueryStateVariable, IUPnPServiceAsync::EndQueryStateVariable, upnp.iupnpserviceasync_endquerystatevariable, upnp/IUPnPServiceAsync::EndQueryStateVariable
-f1_keywords:
-- upnp/IUPnPServiceAsync.EndQueryStateVariable
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceAsync.EndQueryStateVariable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceAsync::EndQueryStateVariable
+ - upnp/IUPnPServiceAsync::EndQueryStateVariable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceAsync.EndQueryStateVariable
 ---
 
 # IUPnPServiceAsync::EndQueryStateVariable
@@ -49,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EndQueryStateVariable</b> method retrieves the results of  a previous  <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a> operation and retrieves the resultant service-specific state variable value.
 
-
-
 ## -parameters
-
-
-
 
 ### -param ullRequestID [in]
 
 Pointer to a 64-bit <b>ULONG</b> value that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a> operation initiated prior to this call.
-
 
 ### -param pValue [out, retval]
 
@@ -72,8 +66,6 @@ On input, contains an empty array. On output,  receives a reference to the value
 <div> </div>
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success. Otherwise, the method returns a COM error code defined in <b>WinError.h</b> or one of the following values:
 
@@ -165,12 +157,7 @@ The state variable is evented, but the UPnP software cannot return a value becau
 <div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
 
@@ -181,7 +168,4 @@ The state variable is evented, but the UPnP software cannot return a value becau
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endquerystatevariable">IUPnPServiceAsync::EndQueryStateVariable</a>
- 
-
- 
 

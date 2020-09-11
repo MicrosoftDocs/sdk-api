@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11
 ms.date: 12/05/2018
 ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
-f1_keywords:
-- fhcfg/IFhConfigMgr
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhConfigMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhConfigMgr
+ - fhcfg/IFhConfigMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhConfigMgr
 ---
 
 # IFhConfigMgr interface
 
 
 ## -description
-
 
 The <b>IFhConfigMgr</b> interface allows client applications to read and modify the File History configuration for the user account under which the methods of this interface are called.
 
@@ -196,5 +196,5 @@ Changes the numeric parameter value of a local policy in an <a href="https://doc
 
 </td>
 </tr>
-</table> 
+</table>
 

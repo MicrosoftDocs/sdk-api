@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 1c65a5d0-cc1b-456e-9d88-a24da57ee30a
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],WriteSample method, IMFSinkWriter.WriteSample, IMFSinkWriter::WriteSample, WriteSample, WriteSample method [Media Foundation], WriteSample method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_writesample, mfreadwrite/IMFSinkWriter::WriteSample
-f1_keywords:
-- mfreadwrite/IMFSinkWriter.WriteSample
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSinkWriter.WriteSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSinkWriter::WriteSample
+ - mfreadwrite/IMFSinkWriter::WriteSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSinkWriter.WriteSample
 ---
 
 # IMFSinkWriter::WriteSample
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Delivers a sample to the sink writer.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
 The zero-based index of the stream for this sample.
 
-
 ### -param pSample [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the sample.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,14 +94,8 @@ The request is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-beginwriting">IMFSinkWriter::BeginWriting</a> before calling this method. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>.
 
@@ -117,20 +103,11 @@ By default, the sink writer limits the rate of incoming data by blocking the cal
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
- 
-
- 
 

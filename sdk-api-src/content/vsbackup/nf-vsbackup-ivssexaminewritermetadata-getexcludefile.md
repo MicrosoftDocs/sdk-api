@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFile, GetExcludeFile method [VSS], GetExcludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetExcludeFile method, IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata.GetExcludeFile
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata.GetExcludeFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata::GetExcludeFile
+ - vsbackup/IVssExamineWriterMetadata::GetExcludeFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata.GetExcludeFile
 ---
 
 # IVssExamineWriterMetadata::GetExcludeFile
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetExcludeFile</b> method obtains information about files that have been explicitly excluded from backup for a given writer.
 
-
 ## -parameters
-
-
-
 
 ### -param iFile [in]
 
@@ -66,16 +62,12 @@ Index for an excluded file set. The value of this parameter is an integer from 0
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of file sets explicitly excluded from the components of a given writer. The value of <i>n</i> is returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts">IVssExamineWriterMetadata::GetFileCounts</a>.
 
-
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the file element information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -156,14 +148,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information on excluding files, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-metadata-document-contents">Exclude File List Specification</a>.
@@ -171,20 +157,11 @@ For more information on excluding files, see
 The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts">IVssExamineWriterMetadata::GetFileCounts</a>
- 
-
- 
 

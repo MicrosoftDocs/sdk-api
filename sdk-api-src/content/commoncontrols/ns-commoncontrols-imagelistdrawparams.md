@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPIMAGELISTDRAWPARAMS, BLACKNESS, CLR_DEFAULT, CLR_NONE, DSTINVERT, IMAGELISTDRAWPARAMS, IMAGELISTDRAWPARAMS structure [Windows Controls], MERGECOPY, MERGEPAINT, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS_cpp, commoncontrols/IMAGELISTDRAWPARAMS, controls.IMAGELISTDRAWPARAMS, controls._win32_IMAGELISTDRAWPARAMS'
-f1_keywords:
-- commoncontrols/IMAGELISTDRAWPARAMS
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- commoncontrols.h
-api_name:
-- IMAGELISTDRAWPARAMS
 targetos: Windows
 req.typenames: IMAGELISTDRAWPARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMAGELISTDRAWPARAMS
+ - commoncontrols/_IMAGELISTDRAWPARAMS
+ - IMAGELISTDRAWPARAMS
+ - commoncontrols/IMAGELISTDRAWPARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - commoncontrols.h
+api_name:
+ - IMAGELISTDRAWPARAMS
 ---
 
 # IMAGELISTDRAWPARAMS structure
@@ -49,84 +52,69 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about an image list draw operation and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">IImageList::Draw</a> function. 
-
+Contains information about an image list draw operation and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">IImageList::Draw</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The size of this structure, in bytes. 
-
+The size of this structure, in bytes.
 
 ### -field himl
 
 Type: <b>HIMAGELIST</b>
 
-A handle to the image list that contains the image to be drawn. 
-
+A handle to the image list that contains the image to be drawn.
 
 ### -field i
 
 Type: <b>int</b>
 
-The zero-based index of the image to be drawn. 
-
+The zero-based index of the image to be drawn.
 
 ### -field hdcDst
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-A handle to the destination device context. 
-
+A handle to the destination device context.
 
 ### -field x
 
 Type: <b>int</b>
 
-The x-coordinate that specifies where the image is drawn. 
-
+The x-coordinate that specifies where the image is drawn.
 
 ### -field y
 
 Type: <b>int</b>
 
-The y-coordinate that specifies where the image is drawn.  
-
+The y-coordinate that specifies where the image is drawn.
 
 ### -field cx
 
 Type: <b>int</b>
 
-A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid. 
-
+A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.
 
 ### -field cy
 
 Type: <b>int</b>
 
-A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.  
-
+A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-draw">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.
 
 ### -field xBitmap
 
 Type: <b>int</b>
 
-The x-coordinate that specifies the upper-left corner of the drawing operation in reference to the image itself. Pixels of the image that are to the left of <b>xBitmap</b> and above <b>yBitmap</b> do not appear.  
-
+The x-coordinate that specifies the upper-left corner of the drawing operation in reference to the image itself. Pixels of the image that are to the left of <b>xBitmap</b> and above <b>yBitmap</b> do not appear.
 
 ### -field yBitmap
 
 Type: <b>int</b>
 
-The y-coordinate that specifies the upper-left corner of the drawing operation in reference to the image itself. Pixels of the image that are to the left of <b>xBitmap</b> and above <b>yBitmap</b> do not appear.  
-
+The y-coordinate that specifies the upper-left corner of the drawing operation in reference to the image itself. Pixels of the image that are to the left of <b>xBitmap</b> and above <b>yBitmap</b> do not appear.
 
 ### -field rgbBk
 
@@ -160,8 +148,6 @@ No background color. The image is drawn transparently.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rgbFg
 
@@ -195,15 +181,12 @@ No blend color. The image is blended with the color of the destination device co
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fStyle
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A flag specifying the drawing style and, optionally, the overlay image. See the comments section at the end of this topic for information on the overlay image. This member can contain one or more <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">image list drawing flags</a>. 
-
+A flag specifying the drawing style and, optionally, the overlay image. See the comments section at the end of this topic for information on the overlay image. This member can contain one or more <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">image list drawing flags</a>.
 
 ### -field dwRop
 
@@ -367,15 +350,12 @@ Fills the destination rectangle using the color associated with index one in the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fState
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A flag that specifies the drawing state. This member can contain one or more <a href="https://docs.microsoft.com/windows/desktop/Controls/imageliststateflags">image list state flags</a>. You must use comctl32.dll version 6 to use this member. See the Remarks.
-
 
 ### -field Frame
 
@@ -386,25 +366,18 @@ Used with the <b>alpha blending</b> effect.
 When used with <a href="https://docs.microsoft.com/windows/desktop/Controls/imageliststateflags">ILS_ALPHA</a>, this member holds the value for the alpha channel. This value can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque. 
 
 You must use comctl32.dll version 6 to use this member. See the Remarks.
- 
-
 
 ### -field crEffect
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A color used for the <b>glow</b> and <b>shadow</b> effects. You must use comctl32.dll version 6 to use this member. See the Remarks. 
-
+A color used for the <b>glow</b> and <b>shadow</b> effects. You must use comctl32.dll version 6 to use this member. See the Remarks.
 
 ## -remarks
-
-
 
 An overlay image is an image that is drawn on top of the primary image specified in the <b>i</b> member of this structure. To specify an overlay image, use the bitwise <b>OR</b> operator to combine <b>fStyle</b> with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro, passing the one-based index of the overlay image in the macro. This image must have been previously specified as an overlay image using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> API. 
 
 To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="https://docs.microsoft.com/windows/desktop/Controls/imagelistdrawflags">ILD_OVERLAYMASK</a> value. 
 
-Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
+Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 

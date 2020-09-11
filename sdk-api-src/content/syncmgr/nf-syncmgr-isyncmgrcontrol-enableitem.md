@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2e88fb21-201c-47b9-b341-1a8d9358a455
 ms.date: 12/05/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
-f1_keywords:
-- syncmgr/ISyncMgrControl.EnableItem
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrControl.EnableItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrControl::EnableItem
+ - syncmgr/ISyncMgrControl::EnableItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrControl.EnableItem
 ---
 
 # ISyncMgrControl::EnableItem
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables a sync item managed by a specified handler.
 
-
 ## -parameters
-
-
-
 
 ### -param fEnable [in]
 
@@ -64,13 +60,11 @@ Type: <b>BOOL</b>
 
 <b>TRUE</b> to enable; <b>FALSE</b> to disable.
 
-
 ### -param pszHandlerID [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a buffer containing the unique ID of the handler. This string is of maximum length MAX_SYNCMGR_ID including the terminating <b>null</b> character.
-
 
 ### -param pszItemID [in]
 
@@ -78,13 +72,11 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a buffer containing the unique ID of the item. This string is of maximum length MAX_SYNCMGR_ID including the terminating <b>null</b> character.
 
-
 ### -param hwndOwner [in]
 
 Type: <b>HWND</b>
 
 A handle to a window that can be used by the item to display any necessary UI. This value can be <b>NULL</b>.
-
 
 ### -param nControlFlags [in]
 
@@ -92,21 +84,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-sync
 
 A value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the enabling or disabling of the item should be performed synchronously or asynchronously.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 An <i>enabled</i> item is an item that can be synchronized.
 
@@ -149,7 +133,4 @@ void MiscProc(...)
 }
 
 ```
-
-
-
 

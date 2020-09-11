@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 068913fb-f9ca-4e03-93d7-3484ba43472e
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupNext, RpcNsBindingLookupNext function [RPC], _rpc_rpcnsbindinglookupnext, rpc.rpcnsbindinglookupnext, rpcnsi/RpcNsBindingLookupNext
-f1_keywords:
-- rpcnsi/RpcNsBindingLookupNext
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingLookupNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingLookupNext
+ - rpcnsi/RpcNsBindingLookupNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingLookupNext
 ---
 
 # RpcNsBindingLookupNext function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingLookupNext</b> function returns a list of compatible binding handles for a specified interface and optionally an object.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param LookupContext
 
 Name-service handle returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a> function.
 
-
 ### -param BindingVec
 
 Returns the address of a pointer to a vector of client-compatible server binding handles.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -119,11 +112,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsBindingLookupNext</b> function returns a vector of client-compatible server binding handles for a server offering the interface and object UUID specified by the <i>IfSpec</i> and <i>ObjUuid</i> parameters in the 
@@ -188,13 +177,7 @@ The
 The client is responsible for calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a> function to delete the lookup context, or if you want the application to start a new search for compatible servers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a>
 
@@ -217,7 +200,4 @@ The client is responsible for calling the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: e44f83de-eaf6-4b16-a70e-64f4daffc6b3
 ms.date: 12/05/2018
 ms.keywords: AddRequestHeaders, AddRequestHeaders method [UPnP APIs], AddRequestHeaders method [UPnP APIs],IUPnPHttpHeaderControl interface, IUPnPHttpHeaderControl interface [UPnP APIs],AddRequestHeaders method, IUPnPHttpHeaderControl.AddRequestHeaders, IUPnPHttpHeaderControl::AddRequestHeaders, upnp.iupnphttpheadercontrol_addrequestheaders, upnp/IUPnPHttpHeaderControl::AddRequestHeaders
-f1_keywords:
-- upnp/IUPnPHttpHeaderControl.AddRequestHeaders
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPHttpHeaderControl.AddRequestHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPHttpHeaderControl::AddRequestHeaders
+ - upnp/IUPnPHttpHeaderControl::AddRequestHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPHttpHeaderControl.AddRequestHeaders
 ---
 
 # IUPnPHttpHeaderControl::AddRequestHeaders
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>::<b>AddRequestHeaders</b> method adds the supplied HTTP header to an HTTP request.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrHttpHeaders [in]
 
@@ -66,24 +62,11 @@ String value that contains the HTTP header to attach to the request. For example
 <div class="alert"><b>Note</b>  For Windows 7 and Windows Server 2008 R2, only the User Agent HTTP header is supported.</div>
 <div> </div>
 
-
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnphttpheadercontrol">IUPnPHttpHeaderControl</a>
- 
-
- 
 

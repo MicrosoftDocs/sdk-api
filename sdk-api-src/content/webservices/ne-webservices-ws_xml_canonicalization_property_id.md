@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9
 ms.date: 12/05/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, WS_XML_CANONICALIZATION_PROPERTY_ID, WS_XML_CANONICALIZATION_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, webservices/WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, webservices/WS_XML_CANONICALIZATION_PROPERTY_ID, webservices/WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, webservices/WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, webservices/WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, wsw.ws_xml_canonicalization_property_id
-f1_keywords:
-- webservices/WS_XML_CANONICALIZATION_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_CANONICALIZATION_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_XML_CANONICALIZATION_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_XML_CANONICALIZATION_PROPERTY_ID
+ - webservices/WS_XML_CANONICALIZATION_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_CANONICALIZATION_PROPERTY_ID
 ---
 
 # WS_XML_CANONICALIZATION_PROPERTY_ID enumeration
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies each XML canonicalization property and its associated
         value.  This enumeration is used within the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
           the <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
-        
-
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES
 
 A <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_inclusive_prefixes">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
           the exclusive canonicalization algorithm.  If this is not specified,
           no prefix is treated as an inclusive prefix.
-        
-
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT
 
@@ -84,8 +76,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
           that is embedded within the XML content being canonicalized and
           signed.  If this is not specified, no element is omitted from the
           output.
-        
-
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE
 

@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 20da1494-4264-4d0d-b789-25e2be6a8dd4
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE'
-f1_keywords:
-- wlanapi/WLAN_PHY_RADIO_STATE
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_PHY_RADIO_STATE
 targetos: Windows
 req.typenames: WLAN_PHY_RADIO_STATE, *PWLAN_PHY_RADIO_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_PHY_RADIO_STATE
+ - wlanapi/_WLAN_PHY_RADIO_STATE
+ - PWLAN_PHY_RADIO_STATE
+ - wlanapi/PWLAN_PHY_RADIO_STATE
+ - WLAN_PHY_RADIO_STATE
+ - wlanapi/WLAN_PHY_RADIO_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_PHY_RADIO_STATE
 ---
 
 # WLAN_PHY_RADIO_STATE structure
@@ -49,33 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_PHY_RADIO_STATE</b> structure specifies the radio state on a specific physical layer (PHY) type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwPhyIndex
 
 The index of the PHY type on which the radio state is being set or queried. The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetinterfacecapability">WlanGetInterfaceCapability</a> function returns a list of valid PHY types.
 
-
 ### -field dot11SoftwareRadioState
 
 A <a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a> value that indicates the software radio state.
-
 
 ### -field dot11HardwareRadioState
 
 A <a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a> value that indicates the hardware radio state.
 
-
 ## -remarks
-
-
 
 The <b>WLAN_PHY_RADIO_STATE</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a> function when the <i>OpCode</i> parameter is set to <b>wlan_intf_opcode_radio_state</b>. 
 
@@ -89,15 +84,9 @@ The software radio state can be changed by calling the <a href="https://docs.mic
 
 Changing the software radio state of a physical network interface could cause related changes in the state of the wireless Hosted Network or virtual wireless adapter radio states. The PHYs of every virtual wireless adapter are linked. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wireless-hosted-network">About the Wireless Hosted Network</a>.
 
-The radio state of a PHY is off if either the software radio state (<b>dot11SoftwareRadioState</b> member) or the hardware radio state (<b>dot11HardwareRadioState</b> member) is off.   
-
-
-
+The radio state of a PHY is off if either the software radio state (<b>dot11SoftwareRadioState</b> member) or the hardware radio state (<b>dot11HardwareRadioState</b> member) is off.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wireless-hosted-network">About the Wireless Hosted Network</a>
 
@@ -124,7 +113,4 @@ The radio state of a PHY is off if either the software radio state (<b>dot11Soft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
- 
-
- 
 

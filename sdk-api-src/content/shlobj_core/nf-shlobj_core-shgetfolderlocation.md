@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6fcac066-1ab0-443a-9994-b68ead3bbc20
 ms.date: 12/05/2018
 ms.keywords: SHGetFolderLocation, SHGetFolderLocation function [Windows Shell], _win32_SHGetFolderLocation, shell.SHGetFolderLocation, shlobj_core/SHGetFolderLocation
-f1_keywords:
-- shlobj_core/SHGetFolderLocation
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-shell-shellfolders-l1-1-0.dll
-- KernelBase.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
-- Windows.Storage.dll
-api_name:
-- SHGetFolderLocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetFolderLocation
+ - shlobj_core/SHGetFolderLocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Windows.Storage.dll
+api_name:
+ - SHGetFolderLocation
 ---
 
 # SHGetFolderLocation function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Retrieves the path of a folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -69,13 +65,11 @@ Type: <b>HWND</b>
 
 Reserved.
 
-
 ### -param csidl [in]
 
 Type: <b>int</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder to be located. The folders associated with the CSIDLs might not exist on a particular system.
-
 
 ### -param hToken [in]
 
@@ -87,11 +81,9 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">a
 
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This allows clients of <b>SHGetFolderLocation</b> to find folder locations (such as the Desktop folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as <b>My Documents</b> and <b>Desktop</b>. Any items added to the Default User folder also appear in any new user account.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
-
 
 ### -param ppidl [out]
 
@@ -99,10 +91,7 @@ Type: <b>PIDLIST_ABSOLUTE*</b>
 
 The address of a pointer to an item identifier list structure that specifies the folder's location relative to the root of the namespace (the desktop). The <i>ppidl</i> parameter is set to <b>NULL</b> on failure. The calling application is responsible for freeing this resource by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -136,14 +125,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  As of Windows Vista, this function is merely a wrapper for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderidlist">SHGetKnownFolderIDList</a>. The CSIDL value is translated to its associated <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> and <b>SHGetKnownFolderIDList</b> is called. New applications should use the known folder system rather than the older CSIDL system, which is supported only for backward compatibility.</div>
 <div> </div>
@@ -151,16 +134,7 @@ The <b>SHGetFolderLocation</b>, <a href="https://docs.microsoft.com/windows/desk
 
 This function is a superset of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation">SHGetSpecialFolderLocation</a>, included with earlier versions of the Shell.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist">IKnownFolder::GetIDList</a>
- 
-
- 
 

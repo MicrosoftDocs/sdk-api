@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: a1ae9920-3e6f-4611-abce-905df7a516f5
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_SD_MODE, LPQOS_SD_MODE, LPQOS_SD_MODE structure pointer [QOS], QOS_SD_MODE, QOS_SD_MODE structure [QOS], TC_NONCONF_BORROW, TC_NONCONF_DISCARD, TC_NONCONF_SHAPE, _gqos_qos_sd_mode, qos.qos_sd_mode, qos/LPQOS_SD_MODE, qos/QOS_SD_MODE'
-f1_keywords:
-- qos/QOS_SD_MODE
-dev_langs:
-- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qos.h
-api_name:
-- QOS_SD_MODE
 targetos: Windows
 req.typenames: QOS_SD_MODE, *LPQOS_SD_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_SD_MODE
+ - qos/_QOS_SD_MODE
+ - LPQOS_SD_MODE
+ - qos/LPQOS_SD_MODE
+ - QOS_SD_MODE
+ - qos/QOS_SD_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qos.h
+api_name:
+ - QOS_SD_MODE
 ---
 
 # QOS_SD_MODE structure
@@ -49,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The QOS object 
 <b>QOS_SD_MODE</b> defines the behavior of the traffic control-packet shaper component.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ObjectHdr
 
 The QOS object 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
 <b>QOS_SD_MODE</b>.
-
 
 ### -field ShapeDiscardMode
 
@@ -116,20 +115,12 @@ Instructs the packet shaper to discard all nonconforming packets. TC_NONCONF_DIS
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
- 
-
- 
 

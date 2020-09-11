@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 5ca25e1d-d0aa-490e-a591-57b25a77b1da
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpExtensionQuery, SnmpExtensionQuery callback, SnmpExtensionQuery callback function [SNMP], _snmp_snmpextensionquery, snmp.snmpextensionquery, snmp/SnmpExtensionQuery
-f1_keywords:
-- snmp/SnmpExtensionQuery
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Snmp.h
-api_name:
-- SnmpExtensionQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpExtensionQuery
+ - snmp/SnmpExtensionQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Snmp.h
+api_name:
+ - SnmpExtensionQuery
 ---
 
 # SnmpExtensionQuery function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -58,9 +58,6 @@ The Microsoft SNMP service calls the
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionqueryex">SnmpExtensionQueryEx</a> function, which supports SNMP version 2C (SNMPv2C) data types and multiphase SNMP SET operations.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param bPduType [in]
 
@@ -109,11 +106,9 @@ Write a value within a specific variable.
 Note that PDU request types have been renamed. For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-variable-types-and-request-pdu-types">SNMP Variable Types and Request PDU Types</a>.
 
-
 ### -param pVarBindList [in, out]
 
 Pointer to the variable bindings list.
-
 
 ### -param pErrorStatus [out]
 
@@ -187,28 +182,18 @@ An error other than one of those listed here occurred during the requested opera
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pErrorIndex [out]
 
 Pointer to a variable in which the error index result will be returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 When the SNMP service receives an SNMP PDU request, it calls the 
 <b>SnmpExtensionQuery</b> function to process the request. The extension agent must follow the rules in RFC 1157 to either resolve the variable bindings or generate an error.
@@ -224,13 +209,7 @@ In order to avoid heap corruption and memory leaks, both the SNMP service and th
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function to allocate memory that it passes to the SNMP service. It must use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a> function to release the memory the service passes back to the extension agent. These functions are located in the utility dynamic-link library SNMPAPI.DLL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
@@ -253,7 +232,4 @@ In order to avoid heap corruption and memory leaks, both the SNMP service and th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a>
- 
-
- 
 

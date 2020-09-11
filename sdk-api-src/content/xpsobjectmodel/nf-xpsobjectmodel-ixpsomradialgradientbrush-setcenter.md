@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 7f1fd304-8495-40b3-b11f-7af9924150eb
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetCenter method, IXpsOMRadialGradientBrush.SetCenter, IXpsOMRadialGradientBrush::SetCenter, SetCenter, SetCenter method [XPS Documents and Packaging], SetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter
-f1_keywords:
-- xpsobjectmodel/IXpsOMRadialGradientBrush.SetCenter
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMRadialGradientBrush.SetCenter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRadialGradientBrush::SetCenter
+ - xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMRadialGradientBrush.SetCenter
 ---
 
 # IXpsOMRadialGradientBrush::SetCenter
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the center point of the radial gradient region ellipse.
 
-
 ## -parameters
-
-
-
 
 ### -param center [in]
 
 The x and y coordinates to be set for the center point of the radial gradient ellipse.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -108,14 +101,8 @@ The point described by <i>center</i> is not valid. The <a href="/windows/win32/a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The x and y coordinates that are specified in <i>center</i>  are relative to the page and are expressed in units of the  transform that is in effect.
 
@@ -123,12 +110,7 @@ The following illustration shows the parts of a radial gradient. <i>center</i> s
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
 
@@ -143,7 +125,4 @@ The following illustration shows the parts of a radial gradient. <i>center</i> s
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
- 
-
- 
 

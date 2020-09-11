@@ -26,6 +26,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE
 dev_langs:
  - c++
@@ -51,11 +52,11 @@ The parameter stage is in video extension command execution.
 
 ### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CAPS_INPUT
 
-The parameter stage is input parameters passed to capabilities queries. 
+The parameter stage is input parameters passed to capabilities queries.
 
 ### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_CAPS_OUTPUT
 
-The parameter stage is output parameters passed to capabilities queries. 
+The parameter stage is output parameters passed to capabilities queries.
 
 ### -field D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_DEVICE_EXECUTE_INPUT
 

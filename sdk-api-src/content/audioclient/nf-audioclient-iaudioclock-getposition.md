@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 2271bd73-8cb6-4048-a16c-f765d0fae6bd
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Core Audio], GetPosition method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetPosition method, IAudioClock.GetPosition, IAudioClock::GetPosition, IAudioClockGetPosition, audioclient/IAudioClock::GetPosition, coreaudio.iaudioclock_getposition
-f1_keywords:
-- audioclient/IAudioClock.GetPosition
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClock.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClock::GetPosition
+ - audioclient/IAudioClock::GetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClock.GetPosition
 ---
 
 # IAudioClock::GetPosition
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPosition</b> method gets the current device position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pu64Position [out]
 
 Pointer to a <b>UINT64</b> variable into which the method writes the device position. The device position is the offset from the start of the stream to the current position in the stream. However, the units in which this offset is expressed are undefined—the device position value has meaning only in relation to the frequency reported by the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a> method. For more information, see Remarks.
 
-
 ### -param pu64QPCPosition [out]
 
 Pointer to a <b>UINT64</b> variable into which the method writes the value of the performance counter at the time that the audio endpoint device read the device position (<i>*pu64Position</i>) in response to the <b>GetPosition</b> call. The method converts the counter value to 100-nanosecond time units before writing it to <i>*pu64QPCPosition</i>. This parameter can be <b>NULL</b> if the client does not require the performance counter value.
 
-
 ## -returns
-
-
 
 If the method succeeds and obtains an accurate reading of the position, it returns S_OK. If the method succeeds but the duration of the call is long enough to detract from the accuracy of the position reading, the method returns S_FALSE. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -116,14 +105,8 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Rendering or capture clients that need to expose a clock based on the stream's current playback or record position can use this method to derive that clock.
 
@@ -155,13 +138,7 @@ The <i>pu64Position</i> parameter must be a valid, non-<b>NULL</b> pointer or th
 
 Position measurements might occasionally be delayed by intermittent, high-priority events. These events might be unrelated to audio. In the case of an exclusive-mode stream, the method can return S_FALSE instead of S_OK if the method succeeds but the duration of the call is long enough to detract from the accuracy of the reported position. When this occurs, the caller has the option of calling the method again to attempt to retrieve a more accurate position (as indicated by return value S_OK). However, the caller should avoid performing this test in an infinite loop in the event that the method consistently returns S_FALSE.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>
 
@@ -180,7 +157,4 @@ Position measurements might occasionally be delayed by intermittent, high-priori
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getfrequency">IAudioClock::GetFrequency</a>
- 
-
- 
 

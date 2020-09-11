@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 61429956-8996-450e-af24-0c91ea974865
 ms.date: 12/05/2018
 ms.keywords: GetEndACP, GetEndACP method [Text Services Framework], GetEndACP method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetEndACP method, ITextStoreACP2.GetEndACP, ITextStoreACP2::GetEndACP, textstor/ITextStoreACP2::GetEndACP, tsf.itextstoreacp2_getendacp
-f1_keywords:
-- textstor/ITextStoreACP2.GetEndACP
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP2.GetEndACP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::GetEndACP
+ - textstor/ITextStoreACP2::GetEndACP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP2.GetEndACP
 ---
 
 # ITextStoreACP2::GetEndACP
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of characters in a document.
 
-
 ## -parameters
-
-
-
 
 ### -param pacp [out]
 
 Receives the character position of the last character in the document plus one.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,22 +101,12 @@ The caller does not have a read-only lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp2-gettext">GetText</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
- 
-
- 
 

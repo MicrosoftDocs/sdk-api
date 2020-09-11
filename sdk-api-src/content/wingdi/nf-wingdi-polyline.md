@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
 ms.date: 12/05/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
-f1_keywords:
-- wingdi/Polyline
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- Polyline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Polyline
+ - wingdi/Polyline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - Polyline
 ---
 
 # Polyline function
@@ -53,54 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Polyline</b> function draws a series of line segments by connecting the points in the specified array.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a device context.
 
-
 ### -param apt [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures, in logical units.
-
 
 ### -param cpt [in]
 
 The number of points in the array. This number must be greater than or equal to two.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The lines are drawn from the first point through subsequent points by using the current pen. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a> functions, the <b>Polyline</b> function neither uses nor updates the current position.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
@@ -127,7 +107,4 @@ The lines are drawn from the first point through subsequent points by using the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a>
- 
-
- 
 

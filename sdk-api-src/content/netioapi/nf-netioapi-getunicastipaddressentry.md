@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c
 ms.date: 12/05/2018
 ms.keywords: GetUnicastIpAddressEntry, GetUnicastIpAddressEntry function [IP Helper], iphlp.getunicastipaddressentry, netioapi/GetUnicastIpAddressEntry
-f1_keywords:
-- netioapi/GetUnicastIpAddressEntry
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUnicastIpAddressEntry
+ - netioapi/GetUnicastIpAddressEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetUnicastIpAddressEntry
 ---
 
 # GetUnicastIpAddressEntry function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>GetUnicastIpAddressEntry</b> function  retrieves information for an existing unicast IP address entry on the local computer. 
-
+<b>GetUnicastIpAddressEntry</b> function  retrieves information for an existing unicast IP address entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [in, out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure entry for a unicast IP address entry. On successful return, this structure will be updated with the properties for an existing unicast IP address.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,14 +128,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetUnicastIpAddressEntry</b> function is defined on Windows Vista and later. 
 
@@ -414,14 +401,7 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
 
@@ -456,7 +436,4 @@ void PrintUnicastIpAddress(PMIB_UNICASTIPADDRESS_ROW pipRow)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
- 
-
- 
 

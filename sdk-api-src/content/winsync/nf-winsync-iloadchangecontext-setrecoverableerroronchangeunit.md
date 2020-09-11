@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 0489a26c-5760-4e41-84c9-45868d27b67c
 ms.date: 12/05/2018
 ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnChangeUnit method, ILoadChangeContext.SetRecoverableErrorOnChangeUnit, ILoadChangeContext::SetRecoverableErrorOnChangeUnit, SetRecoverableErrorOnChangeUnit, SetRecoverableErrorOnChangeUnit method [Windows Sync], SetRecoverableErrorOnChangeUnit method [Windows Sync],ILoadChangeContext interface, winsync.iloadchangecontext_setrecoverableerroronchangeunit, winsync/ILoadChangeContext::SetRecoverableErrorOnChangeUnit
-f1_keywords:
-- winsync/ILoadChangeContext.SetRecoverableErrorOnChangeUnit
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ILoadChangeContext.SetRecoverableErrorOnChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILoadChangeContext::SetRecoverableErrorOnChangeUnit
+ - winsync/ILoadChangeContext::SetRecoverableErrorOnChangeUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ILoadChangeContext.SetRecoverableErrorOnChangeUnit
 ---
 
 # ILoadChangeContext::SetRecoverableErrorOnChangeUnit
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that a recoverable error occurred when data for the specified change unit was loaded from the item store.
 
-
 ## -parameters
-
-
-
 
 ### -param hrError [in]
 
 The error code that is associated with the error that prevented the change unit data from being loaded.
 
-
 ### -param pChangeUnit [in]
 
 The change unit change that caused the error.
-
 
 ### -param pErrorData [in]
 
 Additional information about the error.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -140,32 +131,16 @@ The change that contains this change unit refers to an item creation. In this ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When this method is called, an <b>IChangeUnitException</b> object is added to the learned knowledge; and the change unit change will not be enumerated again for the duration of the synchronization session.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>
- 
-
- 
 

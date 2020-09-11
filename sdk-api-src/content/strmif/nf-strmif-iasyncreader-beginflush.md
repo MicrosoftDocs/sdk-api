@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 29153592-dbc1-42b4-bd4e-2f1aef8d4c19
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],BeginFlush method, IAsyncReader.BeginFlush, IAsyncReader::BeginFlush, IAsyncReaderBeginFlush, dshow.iasyncreader_beginflush, strmif/IAsyncReader::BeginFlush
-f1_keywords:
-- strmif/IAsyncReader.BeginFlush
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAsyncReader.BeginFlush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAsyncReader::BeginFlush
+ - strmif/IAsyncReader::BeginFlush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAsyncReader.BeginFlush
 ---
 
 # IAsyncReader::BeginFlush
@@ -50,32 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>BeginFlush</code> method begins a flush operation.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns S_OK if successful, or S_FALSE otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This method interrupts all pending read requests. While the pin is flushing, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a> method fails and the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method returns immediately, possibly with the return code VFW_E_TIMEOUT.
 
@@ -113,19 +97,11 @@ m_pReader-&gt;EndFlush();
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
- 
-
- 
 

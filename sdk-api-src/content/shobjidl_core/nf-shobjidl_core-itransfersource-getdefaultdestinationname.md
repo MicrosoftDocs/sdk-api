@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a99d9622-b205-4a8a-9840-879f655463a5
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDestinationName, GetDefaultDestinationName method [Windows Shell], GetDefaultDestinationName method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],GetDefaultDestinationName method, ITransferSource.GetDefaultDestinationName, ITransferSource::GetDefaultDestinationName, _shell_ITransferSource_GetDefaultDestinationName, shell.ITransferSource_GetDefaultDestinationName, shobjidl_core/ITransferSource::GetDefaultDestinationName
-f1_keywords:
-- shobjidl_core/ITransferSource.GetDefaultDestinationName
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource.GetDefaultDestinationName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource::GetDefaultDestinationName
+ - shobjidl_core/ITransferSource::GetDefaultDestinationName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource.GetDefaultDestinationName
 ---
 
 # ITransferSource::GetDefaultDestinationName
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the default name for a Shell item.
 
-
 ## -parameters
-
-
-
 
 ### -param psiSource [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
-
 ### -param psiParentDest [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the parent <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> of the destination target of the file operation.
-
 
 ### -param ppszDestinationName [out]
 
@@ -78,23 +72,13 @@ Type: <b>LPWSTR*</b>
 
 When the method returns, contains a pointer to a null-terminated, Unicode string containing the default name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 Gets the default name for a Shell item, if different than the item's parsing name.
-
-
 

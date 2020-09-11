@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: efca41df-0aae-469e-8b56-77798eb8af19
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], IBrowserService3 interface [Windows Shell],described, shdeprecated/IBrowserService3, shell.IBrowserService3, zone_IBrowserService3
-f1_keywords:
-- shdeprecated/IBrowserService3
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService3
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 6.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService3
+ - shdeprecated/IBrowserService3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService3
 ---
 
 # IBrowserService3 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. The methods exposed by this interface are analogous to virtual protected methods in normal C++ inheritance. The inheritance hierarchy of the objects spans multiple  DLLs. The hierarchy is made up of a base class and several derived classes that correspond to controls, including CLSID_WebBrowser and the user's desktop. Objects not in the hierarchy should not implement this interface, nor use most of its methods.
-
 
 ## -inheritance
 
@@ -87,14 +86,9 @@ Deprecated. Parses a URL into a PIDL.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a> interfaces, from which it inherits.
-
-
 

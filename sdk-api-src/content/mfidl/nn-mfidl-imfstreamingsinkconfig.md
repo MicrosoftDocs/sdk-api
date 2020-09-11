@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
 ms.date: 12/05/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
-f1_keywords:
-- mfidl/IMFStreamingSinkConfig
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFStreamingSinkConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFStreamingSinkConfig
+ - mfidl/IMFStreamingSinkConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFStreamingSinkConfig
 ---
 
 # IMFStreamingSinkConfig interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Passes configuration information to the media sinks that are used for streaming the content.  Optionally, this interface is supported by media sinks. The built-in ASF streaming media sink and the MP3 media sink implement this interface.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Called by the streaming media client before the Media Session starts streaming t
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

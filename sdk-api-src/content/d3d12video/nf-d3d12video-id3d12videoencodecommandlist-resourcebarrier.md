@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::ResourceBarrier
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::ResourceBarrier
  - d3d12video/ID3D12VideoEncodeCommandList::ResourceBarrier
 dev_langs:
  - c++

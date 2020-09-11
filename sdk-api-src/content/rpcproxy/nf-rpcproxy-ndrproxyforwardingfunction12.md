@@ -30,11 +30,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
-- rpcproxy.dll
-- api-ms-win-core-com-midlproxystub-l1-1-0.dll
+ - rpcproxy.dll
+ - api-ms-win-core-com-midlproxystub-l1-1-0.dll
 api_name:
  - NdrProxyForwardingFunction12
 f1_keywords:
+ - NdrProxyForwardingFunction12
  - rpcproxy/NdrProxyForwardingFunction12
 dev_langs:
  - c++
@@ -51,3 +52,4 @@ As part of the implementation of COM proxies, the MIDL compiler generates code t
 ## -see-also
 
 [Building and registering a proxy DLL](/windows/win32/com/building-and-registering-a-proxy-dll)
+

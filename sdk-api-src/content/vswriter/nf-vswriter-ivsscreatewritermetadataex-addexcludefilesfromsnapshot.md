@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86
 ms.date: 12/05/2018
 ms.keywords: AddExcludeFilesFromSnapshot, AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method,IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
-f1_keywords:
-- vswriter/IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
+ - vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 ---
 
 # IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reports any <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
 
 Calling this method does not cause the files to be excluded. The writer is responsible for deleting the files from the shadow copy in its <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param wszPath [in]
 
@@ -76,7 +72,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check whether the path ends with a backslash.
 
-
 ### -param wszFilespec [in]
 
 A pointer to a null-terminated wide character string containing the file specification of the files to be excluded. 
@@ -85,7 +80,6 @@ A pointer to a null-terminated wide character string containing the file specifi
 
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -97,10 +91,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 For information on traversing over mounted folders, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -185,14 +176,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
@@ -203,13 +188,7 @@ This method is not a substitute for the <a href="https://docs.microsoft.com/wind
 The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a>
 
@@ -224,7 +203,4 @@ The caller is responsible for calling the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
- 
-
- 
 

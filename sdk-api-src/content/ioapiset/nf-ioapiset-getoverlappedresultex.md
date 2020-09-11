@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 2f77f7fe-bdde-4c52-8571-fe0ab533aa7f
 ms.date: 12/05/2018
 ms.keywords: GetOverlappedResultEx, GetOverlappedResultEx function, base.getoverlappedresultex, ioapiset/GetOverlappedResultEx
-f1_keywords:
-- ioapiset/GetOverlappedResultEx
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- GetOverlappedResultEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetOverlappedResultEx
+ - ioapiset/GetOverlappedResultEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - GetOverlappedResultEx
 ---
 
 # GetOverlappedResultEx function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device within the  specified time-out interval.  The calling thread can perform an alertable wait.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -71,12 +67,10 @@ A handle to the file, named pipe, or communications device. This is the same han
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> function.
 
-
 ### -param lpOverlapped [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
-
 
 ### -param lpNumberOfBytesTransferred [out]
 
@@ -85,7 +79,6 @@ A pointer to a variable that receives the number of bytes that were actually tra
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> operation, this is the number of bytes of output data returned by the device driver. For a 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> operation, this value is undefined.
-
 
 ### -param dwMilliseconds [in]
 
@@ -97,9 +90,6 @@ If <i>dwMilliseconds</i> is nonzero and the operation is still in progress, the 
 
 If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function returns only when the object is signaled or an I/O completion routine or APC is queued.
 
-
-
-
 ### -param bAlertable [in]
 
 If this parameter is <b>TRUE</b> and the calling thread is in the waiting state, the function returns when the system queues an I/O completion routine or APC. The calling thread then runs the routine or function. Otherwise, the function does not return, and the completion routine or APC function is not executed.
@@ -108,12 +98,7 @@ If this parameter is <b>TRUE</b> and the calling thread is in the waiting state,
 
 A completion routine is queued when the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function in which it was specified has completed. The function returns and the completion routine is called only if <i>bAlertable</i> is <b>TRUE</b>, and the calling thread is the thread that initiated the read or write operation. An APC is queued when you call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>.
 
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -126,11 +111,7 @@ If the function fails, the return value is zero. To get extended error informati
 <li>If <i>dwMilliseconds</i> is nonzero and the specified timeout interval elapses, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>WAIT_TIMEOUT</b>. </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The <b>GetOverlappedResultEx</b> function differs from <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> in the following ways: The <i>dwMilliseconds</i> parameter can specify a timeout interval for the operation, and the <i>bAlertable</i> parameter can specify that the calling thread should perform an alertable wait. 
 
@@ -147,13 +128,7 @@ Specify a manual-reset event object in the
 If the <b>hEvent</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is <b>NULL</b>, the system uses the state of the <i>hFile</i> handle to signal when the operation has been completed. Use of file, named pipe, or communications-device handles for this purpose is discouraged. It is safer to use an event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -204,7 +179,4 @@ If the <b>hEvent</b> member of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

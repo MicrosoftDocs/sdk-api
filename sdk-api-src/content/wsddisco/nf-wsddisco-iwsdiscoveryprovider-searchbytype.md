@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: bb1f2822-4d5d-4156-99e3-5a4528474953
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByType method, IWSDiscoveryProvider.SearchByType, IWSDiscoveryProvider::SearchByType, SearchByType, SearchByType method, SearchByType method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbytype_method, wsddisco/IWSDiscoveryProvider::SearchByType
-f1_keywords:
-- wsddisco/IWSDiscoveryProvider.SearchByType
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryProvider.SearchByType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProvider::SearchByType
+ - wsddisco/IWSDiscoveryProvider::SearchByType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryProvider.SearchByType
 ---
 
 # IWSDiscoveryProvider::SearchByType
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a search for <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery</a> hosts by device type.
 
-
 ## -parameters
-
-
-
 
 ### -param pTypesList [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of discovery provider types to search for. May be <b>NULL</b>.
 
-
 ### -param pScopesList [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of discovery provider scopes to search for. May be <b>NULL</b>.
-
 
 ### -param pszMatchBy [in, optional]
 
 Matching rule used for scopes. May be <b>NULL</b>.
 
-
 ### -param pszTag [in, optional]
 
 Optional identifier tag for this search.  May be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -134,14 +124,8 @@ Not enough memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SearchByType</b> initiates a WS-Discovery <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe</a> in an attempt to locate discovery hosts matching the provided criteria. This method allows matching by types, scopes, some combination of the two, or matching all discovery capable devices (when no scopes or types are provided). 
 
@@ -151,16 +135,7 @@ Not enough memory exists to perform the operation.
 
 For information about troubleshooting applications calling this method, see <a href="https://docs.microsoft.com/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
- 
-
- 
 

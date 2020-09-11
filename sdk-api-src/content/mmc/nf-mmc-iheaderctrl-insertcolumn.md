@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: F5499550-9460-4BF9-AF99-F4BDC7F32EBC
 ms.date: 12/05/2018
 ms.keywords: HIDE_COLUMN, IHeaderCtrl interface [MMC],InsertColumn method, IHeaderCtrl.InsertColumn, IHeaderCtrl::InsertColumn, InsertColumn, InsertColumn method [MMC], InsertColumn method [MMC],IHeaderCtrl interface, LVCFMT_CENTER, LVCFMT_LEFT, LVCFMT_RIGHT, MMCLV_AUTO, mmc.iheaderctrl_insertcolumn, mmc/IHeaderCtrl::InsertColumn
-f1_keywords:
-- mmc/IHeaderCtrl.InsertColumn
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IHeaderCtrl.InsertColumn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHeaderCtrl::InsertColumn
+ - mmc/IHeaderCtrl::InsertColumn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IHeaderCtrl.InsertColumn
 ---
 
 # IHeaderCtrl::InsertColumn
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a column to a default result pane.
 
-
 ## -parameters
-
-
-
 
 ### -param nCol [in]
 
 A zero-based index of the column being inserted.
 
-
 ### -param title [in]
 
 A value that specifies the string that represents the title of the column being inserted. This string can have  a maximum length of <b>MAX_PATH</b> characters.
-
 
 ### -param nFormat [in]
 
@@ -112,19 +106,11 @@ Introduced in MMC 1.2. The column is inserted, but it is hidden. Be aware that t
 
 For snap-ins built with the MMC 1.2 SDK, but which are loaded in an older version of MMC, <b>HIDE_COLUMN</b> is interpreted as a zero width. The user can widen the column by dragging it with the mouse.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 MMC does not persist in memory any changes made to a column set due to the action of <b>IHeaderCtrl::InsertColumn</b>, so snap-ins must update persisted column configuration data after inserting columns into a column set. See 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a> for more information.
@@ -133,20 +119,11 @@ MMC does not persist in memory any changes made to a column set due to the actio
 Calls to 
 <b>InsertColumn</b> fail if any items have already been inserted into the result view.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a>
- 
-
- 
 

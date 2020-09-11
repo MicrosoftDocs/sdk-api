@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5a600fd8-87d8-446d-93da-5b22fd575a11
 ms.date: 12/05/2018
 ms.keywords: GetCallStatus, GetCallStatus method [Windows Management Instrumentation], GetCallStatus method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetCallStatus method, IWbemCallResult.GetCallStatus, IWbemCallResult::GetCallStatus, _hmm_iwbemcallresult_getcallstatus, wbemcli/IWbemCallResult::GetCallStatus, wmi.iwbemcallresult_getcallstatus
-f1_keywords:
-- wbemcli/IWbemCallResult.GetCallStatus
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemcli.h
-api_name:
-- IWbemCallResult.GetCallStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemCallResult::GetCallStatus
+ - wbemcli/IWbemCallResult::GetCallStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemcli.h
+api_name:
+ - IWbemCallResult.GetCallStatus
 ---
 
 # IWbemCallResult::GetCallStatus
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemCallResult::GetCallStatus</b> method returns to the user the status of the current outstanding semisynchronous call. When this call returns <b>WBEM_S_NO_ERROR</b>, the original call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> method is complete.
 
-
 ## -parameters
-
-
-
 
 ### -param lTimeout [in]
 
 Specifies the maximum time in milliseconds that this call blocks before it returns. If you use the constant <b>WBEM_INFINITE</b> (0xFFFFFFFF), the call blocks until the original semisynchronous call to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> method is complete. If you use 0 (zero), the call immediately returns the call status.
-
 
 ### -param plStatus [out]
 
@@ -78,19 +73,11 @@ If <b>WBEM_S_NO_ERROR</b> returns in the HRESULT to this method, this parameter 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">DeleteClass</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">ExecMethod</a>. On error, the value pointed to by <i>plStatus</i> will not be used.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 On error, you can call the COM function <b>GetErrorInfo</b> to obtain more error information. COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
 
@@ -120,12 +107,7 @@ After invoking an
 <b>GetCallStatus</b> method is the only call that returns information regarding these operations.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcallresult">IWbemCallResult</a>
 
@@ -152,7 +134,4 @@ After invoking an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>
- 
-
- 
 

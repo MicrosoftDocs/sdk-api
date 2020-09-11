@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 62e1a5f6-9777-4acf-a531-b3554eaf89a6
 ms.date: 12/05/2018
 ms.keywords: DxTransfer, DxTransfer callback function [Display Devices], PDX_TRANSFER, PDX_TRANSFER callback, VideoMiniPort_DxApiFunctions_f6a3f689-7e04-4dec-850c-fa47b5ac1543.xml, display.dxtransfer, dxmini/DxTransfer
-f1_keywords:
-- dxmini/DxTransfer
-dev_langs:
-- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dxmini.h
-api_name:
-- DxTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDX_TRANSFER
+ - dxmini/PDX_TRANSFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dxmini.h
+api_name:
+ - DxTransfer
 ---
 
 # PDX_TRANSFER callback function
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The<i> DxTransfer</i> callback function informs the driver to bus master data from a surface to the buffer specified in the memory descriptor list (MDL).
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 ### -param Arg2
 
-
 ### -param Arg3
-
-
-
-
-
-
-
 
 #### - HwDeviceExtension
 
@@ -87,19 +74,11 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dx
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
 
-
 ## -returns
-
-
 
 <i>DxTransfer</i> returns DX_OK if it succeeds; otherwise, it returns one of the following error values:
 
-
-
-
 ## -remarks
-
-
 
 The MDL is defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/">WDM</a> documentation.
 
@@ -142,13 +121,7 @@ See the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-b
 
 In addition, the driver should not fail the call just because the hardware is currently busy. Instead, the driver should maintain an internal queue.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
 
@@ -171,7 +144,4 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
- 
-
- 
 

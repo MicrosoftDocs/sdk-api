@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.date: 12/05/2018
 ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
-f1_keywords:
-- fhcfg/IFhConfigMgr.AddRemoveExcludeRule
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhConfigMgr.AddRemoveExcludeRule
-- FhConfigMgr.AddRemoveExcludeRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhConfigMgr::AddRemoveExcludeRule
+ - fhcfg/IFhConfigMgr::AddRemoveExcludeRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhConfigMgr.AddRemoveExcludeRule
+ - FhConfigMgr.AddRemoveExcludeRule
 ---
 
 # IFhConfigMgr::AddRemoveExcludeRule
 
 
 ## -description
-
 
 Adds an exclusion rule to the exclusion list or removes a  rule from the list.
 
@@ -58,37 +58,24 @@ Adds an exclusion rule to the exclusion list or removes a  rule from the list.
 
 ## -parameters
 
-
-
-
 ### -param Add [in]
 
 If this parameter is <b>TRUE</b>, a new exclusion rule is added.
 If it is set to <b>FALSE</b>, an existing exclusion rule is removed.
 
-
 ### -param Category [in]
 
 Specifies the type of the exclusion rule. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
-
 
 ### -param Item [in]
 
 The folder path or library name or GUID of the item that the exclusion rule applies to.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> on success, or an unsuccessful <b>HRESULT</b> value on failure. Possible unsuccessful <b>HRESULT</b> values include values defined in the FhErrors.h header file.
 
-
-
-
 ## -remarks
-
-
 
 The File History protection scope is the set of files that are backed up by the File History feature.  It contains inclusion rules and exclusion rules. Inclusion rules specify the files and folders that are included. Exclusion rules specify the files and folders that are excluded.
 
@@ -106,13 +93,7 @@ Standard folders and libraries are specified by a GUID, prefixed with an asteris
 
 Custom libraries are specified by name. Folders are specified by their full path (for example, C:\Users\Public\Videos).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
 
@@ -127,7 +108,4 @@ Custom libraries are specified by name. Folders are specified by their full path
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>
- 
-
- 
 

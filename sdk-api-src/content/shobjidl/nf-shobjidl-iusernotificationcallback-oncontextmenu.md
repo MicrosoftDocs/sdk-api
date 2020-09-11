@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: eb0b1de0-a42c-4789-aac0-885a574f89f6
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnContextMenu method, IUserNotificationCallback.OnContextMenu, IUserNotificationCallback::OnContextMenu, OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
-f1_keywords:
-- shobjidl/IUserNotificationCallback.OnContextMenu
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IUserNotificationCallback.OnContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserNotificationCallback::OnContextMenu
+ - shobjidl/IUserNotificationCallback::OnContextMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IUserNotificationCallback.OnContextMenu
 ---
 
 # IUserNotificationCallback::OnContextMenu
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the user right-clicks (or presses SHIFT+F10) the icon in the notification area. The application should show its context menu in response.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pt [in]
 
@@ -67,14 +62,9 @@ When returned by the method, takes a pointer to the <a href="https://docs.micros
 
 In the case where user presses SHIFT+F10, the pointer points to the center of the icon in the screen space.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

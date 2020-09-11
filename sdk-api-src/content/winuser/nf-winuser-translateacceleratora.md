@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
 ms.date: 12/05/2018
 ms.keywords: TranslateAccelerator, TranslateAccelerator function [Menus and Other Resources], TranslateAcceleratorA, TranslateAcceleratorW, _win32_TranslateAccelerator, _win32_translateaccelerator_cpp, menurc.translateaccelerator, winui._win32_translateaccelerator, winuser/TranslateAccelerator, winuser/TranslateAcceleratorA, winuser/TranslateAcceleratorW
-f1_keywords:
-- winuser/TranslateAccelerator
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
-- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-keyboard-l1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- TranslateAccelerator
-- TranslateAcceleratorA
-- TranslateAcceleratorW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TranslateAcceleratorA
+ - winuser/TranslateAcceleratorA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+ - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - TranslateAccelerator
+ - TranslateAcceleratorA
+ - TranslateAcceleratorW
 ---
 
 # TranslateAcceleratorA function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Processes accelerator keys for menu commands. The function translates a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a> message to a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> message (if there is an entry for the key in the specified accelerator table) and then sends the <b>WM_COMMAND</b> or <b>WM_SYSCOMMAND</b> message directly to the specified window procedure. <b>TranslateAccelerator</b> does not return until the window procedure has processed the message.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -74,13 +70,11 @@ Type: <b>HWND</b>
 
 A handle to the window whose messages are to be translated.
 
-
 ### -param hAccTable [in]
 
 Type: <b>HACCEL</b>
 
 A handle to the accelerator table. The accelerator table must have been loaded by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a> function or created by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a> function.
-
 
 ### -param lpMsg [in]
 
@@ -88,10 +82,7 @@ Type: <b>LPMSG</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains message information retrieved from the calling thread's message queue using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -99,12 +90,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To differentiate the message that this function sends from messages sent by menus or controls, the high-order word of the
         <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> message contains the value 1.
@@ -144,9 +130,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 > The winuser.h header defines TranslateAccelerator as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -209,7 +192,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
- 
-
- 
 

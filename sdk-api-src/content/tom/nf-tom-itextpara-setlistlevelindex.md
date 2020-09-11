@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistlevelindex.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListLevelIndex method, ITextPara.SetListLevelIndex, ITextPara::SetListLevelIndex, SetListLevelIndex, SetListLevelIndex method [Windows Controls], SetListLevelIndex method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListLevelIndex, _win32_ITextPara_SetListLevelIndex_cpp, controls.ITextPara_SetListLevelIndex, controls._win32_ITextPara_SetListLevelIndex, tom/ITextPara::SetListLevelIndex
-f1_keywords:
-- tom/ITextPara.SetListLevelIndex
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetListLevelIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetListLevelIndex
+ - tom/ITextPara::SetListLevelIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetListLevelIndex
 ---
 
 # ITextPara::SetListLevelIndex
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the list level index used for paragraphs. 
-
+Sets the list level index used for paragraphs.
 
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-New list level index value. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlistlevelindex">ITextPara::GetListLevelIndex</a>. 
-
+New list level index value. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlistlevelindex">ITextPara::GetListLevelIndex</a>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -134,24 +127,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Setting the list level index does not automatically change a list's indentation and other paragraph properties.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -170,7 +151,4 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

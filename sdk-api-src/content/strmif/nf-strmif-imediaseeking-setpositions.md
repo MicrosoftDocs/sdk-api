@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSeeking.SetPositions, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
-f1_keywords:
-- strmif/IMediaSeeking.SetPositions
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.SetPositions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::SetPositions
+ - strmif/IMediaSeeking::SetPositions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.SetPositions
 ---
 
 # IMediaSeeking::SetPositions
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetPositions</code> method sets the current position and the stop position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCurrent [in, out]
 
 [in,out] Pointer to a variable that specifies the current position, in units of the current time format.
 
-
 ### -param dwCurrentFlags [in]
 
 Bitwise combination of flags. See Remarks.
-
 
 ### -param pStop [in, out]
 
 [in,out] Pointer to a variable that specifies the stop time, in units of the current time format.
 
-
 ### -param dwStopFlags [in]
 
 Bitwise combination of flags. See Remarks.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -149,14 +136,8 @@ Method is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>dwCurrentFlags</i> and <i>dwStopFlags</i> parameters define the type of seek. The following flags are defined.
 
@@ -252,20 +233,11 @@ else if (dwCurrentPos == AM_SEEKING_RelativePositioning)
 </table></span></div>
 For more information, see the source code for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/csourceseeking-setpositions">CSourceSeeking::SetPositions</a> method in the base class library.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
- 
 

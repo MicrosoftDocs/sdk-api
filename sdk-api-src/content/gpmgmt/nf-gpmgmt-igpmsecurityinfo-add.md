@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: d180a4ed-7c7d-4df9-a2a4-7aab46446283
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMSecurityInfo class, Add method [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Add method, IGPMSecurityInfo interface [GPMC],Add method, IGPMSecurityInfo.Add, IGPMSecurityInfo::Add, _win32_igpmsecurityinfo_add, gpmc.igpmsecurityinfo_add, gpmgmt/IGPMSecurityInfo::Add
-f1_keywords:
-- gpmgmt/IGPMSecurityInfo.Add
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSecurityInfo.Add
-- GPMSecurityInfo.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSecurityInfo::Add
+ - gpmgmt/IGPMSecurityInfo::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSecurityInfo.Add
+ - GPMSecurityInfo.Add
 ---
 
 # IGPMSecurityInfo::Add
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the permission specified in a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> object to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
 
-
 ## -parameters
-
-
-
 
 ### -param pPerm [in]
 
@@ -70,10 +66,7 @@ Pointer to the <b>GPMPermission</b> object to add to the collection.
 
 <b>GPMPermission</b> object to add.
 
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -81,12 +74,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -remarks
-
-
 
 A trustee is a user, computer, or security group that can be granted permissions on a GPO, SOM, or WMI filter.
 
@@ -121,13 +109,7 @@ When adding permissions on a GPO, the value of the Inheritable property is ignor
 For more information about security groups, see 
 <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
@@ -138,7 +120,4 @@ For more information about security groups, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
- 
-
- 
 

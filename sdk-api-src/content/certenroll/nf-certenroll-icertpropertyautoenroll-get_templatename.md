@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bec4be81-ff39-4517-be17-e5ca6f0b08e9
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],TemplateName property, ICertPropertyAutoEnroll.TemplateName, ICertPropertyAutoEnroll.get_TemplateName, ICertPropertyAutoEnroll::TemplateName, ICertPropertyAutoEnroll::get_TemplateName, TemplateName property [Security], TemplateName property [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::TemplateName, certenroll/ICertPropertyAutoEnroll::get_TemplateName, get_TemplateName, security.icertpropertyautoenroll_templatename_property
-f1_keywords:
-- certenroll/ICertPropertyAutoEnroll.TemplateName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyAutoEnroll.TemplateName
-- ICertPropertyAutoEnroll.get_TemplateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyAutoEnroll::get_TemplateName
+ - certenroll/ICertPropertyAutoEnroll::get_TemplateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyAutoEnroll.TemplateName
+ - ICertPropertyAutoEnroll.get_TemplateName
 ---
 
 # ICertPropertyAutoEnroll::get_TemplateName
@@ -50,35 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TemplateName</b> property retrieves a string that contains the name of the template that the certificate can use for autoenrollment.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyautoenroll-initialize">Initialize</a> method to specify the property value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a>
- 
-
- 
 

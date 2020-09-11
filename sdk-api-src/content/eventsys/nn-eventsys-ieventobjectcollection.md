@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7bb00b80-a48f-49c8-983d-9ff0ea424e4d
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], IEventObjectCollection interface [COM+],described, _cos_IEventObjectCollection, cos.ieventobjectcollection, eventsys/IEventObjectCollection
-f1_keywords:
-- eventsys/IEventObjectCollection
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Eventsys.h
-api_name:
-- IEventObjectCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventObjectCollection
+ - eventsys/IEventObjectCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Eventsys.h
+api_name:
+ - IEventObjectCollection
 ---
 
 # IEventObjectCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages objects in an event objects collection.
-
 
 ## -inheritance
 
@@ -159,16 +158,9 @@ An enumeration object that implements <a href="https://docs.microsoft.com/window
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
- 
-
- 
 

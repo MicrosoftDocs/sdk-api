@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: f58a9efb-bb0d-477c-946f-5bef6c5635d8
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Reset method, IEnumNetSharingPublicConnection.Reset, IEnumNetSharingPublicConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_reset, ics.ienumnetsharingpublicconnection_reset, netcon/IEnumNetSharingPublicConnection::Reset
-f1_keywords:
-- netcon/IEnumNetSharingPublicConnection.Reset
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IEnumNetSharingPublicConnection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetSharingPublicConnection::Reset
+ - netcon/IEnumNetSharingPublicConnection::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IEnumNetSharingPublicConnection.Reset
 ---
 
 # IEnumNetSharingPublicConnection::Reset
@@ -49,23 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Reset</b> method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -165,15 +157,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingpublicconnection">IEnumNetSharingPublicConnection</a>
 
@@ -184,7 +169,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

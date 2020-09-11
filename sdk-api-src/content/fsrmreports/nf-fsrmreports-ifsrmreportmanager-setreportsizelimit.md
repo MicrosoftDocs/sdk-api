@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 7d5a73ab-eccb-42e5-8796-d2986deccd34
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetReportSizeLimit method, IFsrmReportManager interface [File Server Resource Manager],SetReportSizeLimit method, IFsrmReportManager.SetReportSizeLimit, IFsrmReportManager::SetReportSizeLimit, SetReportSizeLimit, SetReportSizeLimit method [File Server Resource Manager], SetReportSizeLimit method [File Server Resource Manager],FsrmReportManager class, SetReportSizeLimit method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setreportsizelimit, fsrm.ifsrmreportmanager_setreportsizelimit, fsrmreports/IFsrmReportManager::SetReportSizeLimit
-f1_keywords:
-- fsrmreports/IFsrmReportManager.SetReportSizeLimit
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportManager.SetReportSizeLimit
-- FsrmReportManager.SetReportSizeLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportManager::SetReportSizeLimit
+ - fsrmreports/IFsrmReportManager::SetReportSizeLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportManager.SetReportSizeLimit
+ - FsrmReportManager.SetReportSizeLimit
 ---
 
 # IFsrmReportManager::SetReportSizeLimit
@@ -50,20 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current value of the specified report size limit.
 
-
 ## -parameters
-
-
-
 
 ### -param limit [in]
 
 Identifies the limit which is used to limit the files listed in a report. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportlimit">FsrmReportLimit</a> enumeration.
-
 
 ### -param limitValue [in]
 
@@ -73,19 +68,11 @@ The limit. Must be greater than zero. You can specify the variant as a short, in
       <b>VT_I4</b> and then set the <b>lVal</b> member of the variant to the 
       limit value.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 The following list lists the default limits for the 
      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportlimit">FsrmReportLimit</a> enumeration values used for 
@@ -145,22 +132,12 @@ The following list lists the default limits for the
 <td>1,000 folders</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
- 
-
- 
 

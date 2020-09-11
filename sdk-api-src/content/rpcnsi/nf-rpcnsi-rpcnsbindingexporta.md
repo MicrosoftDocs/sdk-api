@@ -1,17 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportA
 title: RpcNsBindingExportA function (rpcnsi.h)
-description: The RpcNsBindingExport function establishes a name service�database entry with multiple binding handles and multiple objects for a server.
+description: The RpcNsBindingExport function establishes a name service�database entry with multiple binding handles and multiple objects for a server.
 helpviewer_keywords: ["RpcNsBindingExport","RpcNsBindingExport function [RPC]","RpcNsBindingExportA","RpcNsBindingExportW","_rpc_rpcnsbindingexport","rpc.rpcnsbindingexport","rpcnsi/RpcNsBindingExport","rpcnsi/RpcNsBindingExportA","rpcnsi/RpcNsBindingExportW"]
 old-location: rpc\rpcnsbindingexport.htm
 tech.root: Rpc
 ms.assetid: c89d04d7-f607-48cc-8cb6-b6aebab41671
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingExport, RpcNsBindingExport function [RPC], RpcNsBindingExportA, RpcNsBindingExportW, _rpc_rpcnsbindingexport, rpc.rpcnsbindingexport, rpcnsi/RpcNsBindingExport, rpcnsi/RpcNsBindingExportA, rpcnsi/RpcNsBindingExportW
-f1_keywords:
-- rpcnsi/RpcNsBindingExport
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingExport
-- RpcNsBindingExportA
-- RpcNsBindingExportW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingExportA
+ - rpcnsi/RpcNsBindingExportA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingExport
+ - RpcNsBindingExportA
+ - RpcNsBindingExportW
 ---
 
 # RpcNsBindingExportA function
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingExport</b> function establishes a name service–database entry with multiple binding handles and multiple objects for a server.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -70,30 +67,23 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the entry name to which binding handles and object UUIDs are exported. You cannot provide a null or empty string. The client and the server must both use the same entry name.
-
 
 ### -param IfSpec
 
 Stub-generated data structure specifying the interface to export. A null value indicates there are no binding handles to export (only object UUIDs are to be exported) and <i>BindingVec</i> is ignored.
 
-
 ### -param BindingVec
 
 Pointer to server bindings to export. A null value indicates there are no binding handles to export (only object UUIDs are to be exported).
-
 
 ### -param ObjectUuidVec
 
 Pointer to a vector of object UUIDs offered by the server. The server application constructs this vector. A null value indicates there are no object UUIDs to export (only binding handles are to be exported).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -206,11 +196,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsBindingExport</b> function allows a server application to publicly offer an interface in the name-service database for use by any client application.
@@ -288,9 +274,6 @@ A server entry must have at least one binding handle to exist. As a result, expo
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
@@ -328,7 +311,4 @@ A server entry must have at least one binding handle to exist. As a result, expo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
- 
-
- 
 

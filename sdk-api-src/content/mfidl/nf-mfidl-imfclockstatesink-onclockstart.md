@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128
 ms.date: 12/05/2018
 ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink interface [Media Foundation],OnClockStart method, IMFClockStateSink.OnClockStart, IMFClockStateSink::OnClockStart, OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
-f1_keywords:
-- mfidl/IMFClockStateSink.OnClockStart
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFClockStateSink.OnClockStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFClockStateSink::OnClockStart
+ - mfidl/IMFClockStateSink::OnClockStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFClockStateSink.OnClockStart
 ---
 
 # IMFClockStateSink::OnClockStart
@@ -50,40 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the presentation clock starts.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param hnsSystemTime [in]
 
 The system time when the clock started, in 100-nanosecond units.
-          
-
 
 ### -param llClockStartOffset [in]
 
 The new starting time for the clock, in 100-nanosecond units. This parameter can also equal <b>PRESENTATION_CURRENT_POSITION</b>, indicating the clock has started or restarted from its current position.
-          
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is called whe the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method is called, with the following exception: If the clock is paused and <b>Start</b> is called with the value <b>PRESENTATION_CURRENT_POSITION</b>, <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">IMFClockStateSink::OnClockRestart</a> is called instead of <b>OnClockStart</b>.
 
@@ -93,13 +77,7 @@ For any object that is not the presentation time source, the <b>OnClockStart</b>
 
 The value given in <i>llClockStartOffset</i> is the presentation time when the clock starts, so it is relative to the start of the presentation. Media sinks should not render any data with a presentation time earlier than <i>llClockStartOffSet</i>. If a sample straddles the offset—that is, if the offset falls between the sample's start and stop times—the sink should either trim the sample so that only data after <i>llClockStartOffset</i> is rendered, or else simply drop the sample.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
@@ -110,7 +88,4 @@ The value given in <i>llClockStartOffset</i> is the presentation time when the c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
 

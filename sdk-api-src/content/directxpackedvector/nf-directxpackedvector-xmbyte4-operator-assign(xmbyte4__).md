@@ -7,10 +7,6 @@ helpviewer_keywords: ["XMBYTE4::operator="]
 ms.assetid: 24a7bc33-4bca-476b-9541-c4c2ac03fb7a
 ms.date: 05/20/2019
 ms.keywords: XMBYTE4::operator=
-f1_keywords:
-- directxpackedvector/XMBYTE4::operator=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMBYTE4::operator=
+ - directxpackedvector/XMBYTE4::operator=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxpackedvector.h
+ - directxpackedvector.h
 api_name:
-- XMBYTE4::operator=
+ - XMBYTE4::operator=
 ---
 
-# XMBYTE4::operator = 
+# XMBYTE4::operator =
+
 
 ## -description
 
@@ -66,3 +68,4 @@ The current instance of **XMBYTE4** whose vector component data has been updated
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4">XMBYTE4</a>
+

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
 ms.date: 12/05/2018
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
-f1_keywords:
-- rpcdce/RpcBindingFromStringBinding
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingFromStringBinding
-- RpcBindingFromStringBindingA
-- RpcBindingFromStringBindingW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingFromStringBindingW
+ - rpcdce/RpcBindingFromStringBindingW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingFromStringBinding
+ - RpcBindingFromStringBindingA
+ - RpcBindingFromStringBindingW
 ---
 
 # RpcBindingFromStringBindingW function
@@ -51,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingFromStringBinding</b> function returns a binding handle from a string representation of a binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param StringBinding
 
 Pointer to a string representation of a binding handle.
 
-
 ### -param Binding
 
 Returns a pointer to the server binding handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -186,11 +178,7 @@ The network address family identifier is not valid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcBindingFromStringBinding</b> function creates a server binding handle from a string representation of a binding handle. The <i>StringBinding</i> parameter does not have to contain an object 
@@ -211,9 +199,6 @@ When an application is finished using the <i>Binding</i> parameter, the applicat
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcopy">RpcBindingCopy</a>
 
 
@@ -227,7 +212,4 @@ When an application is finished using the <i>Binding</i> parameter, the applicat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a>
- 
-
- 
 

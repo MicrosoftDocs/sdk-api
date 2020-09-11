@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: BBC11C4A-AECF-4D6D-8275-3E852E309908
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], IXMLHTTPRequest2 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2, msxml6/IXMLHTTPRequest2
-f1_keywords:
-- msxml6/IXMLHTTPRequest2
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2
+ - msxml6/IXMLHTTPRequest2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2
 ---
 
 # IXMLHTTPRequest2 interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods and properties needed to configure and send HTTP requests and use  callbacks  to receive notifications  during HTTP response processing. <div class="alert"><b>Note</b>  This interface is supported on Windows Phone 8.1. </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -160,12 +158,9 @@ Specifies the name of an HTTP header to be sent to the server along with the def
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IXMLHTTPRequest2</b> interface is extended by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface. The <b>IXMLHTTPRequest3</b> inherits all the methods and properties of the <b>IXMLHTTPRequest2</b> interface.
 
@@ -185,13 +180,7 @@ The <b>IXMLHTTPRequest2</b> interface supports the following features:
 
 <b>IXMLHTTPRequest2</b> implements a callback model for event handling. Because <b>IXMLHTTPRequest2</b> methods allow only asynchronous method calls, to receive completion callbacks an application must pass a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a> object when it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">IXMLHTTPRequest2::Open</a> method to create an HTTP request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
 
@@ -213,7 +202,4 @@ The <b>IXMLHTTPRequest2</b> interface supports the following features:
 
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/XmlHttpRequest2PostRequest">XML HTTP Request 2 POST sample</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
 ms.date: 12/05/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
-f1_keywords:
-- audioclient/IAudioCaptureClient
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioCaptureClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioCaptureClient
+ - audioclient/IAudioCaptureClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioCaptureClient
 ---
 
 # IAudioCaptureClient interface
 
 
 ## -description
-
-
 
 The <b>IAudioCaptureClient</b> interface enables a client to read input data from a capture endpoint buffer. The client obtains a reference to the <b>IAudioCaptureClient</b> interface on a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioCaptureClient.
 
@@ -58,9 +57,6 @@ The methods in this interface manage the movement of data packets that contain c
 When releasing an <b>IAudioCaptureClient</b> interface instance, the client must call the <b>Release</b> method of the instance from the same thread as the call to <b>IAudioClient::GetService</b> that created the object.
 
 For a code example that uses the <b>IAudioCaptureClient</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
-
-
-
 
 ## -inheritance
 
@@ -104,13 +100,9 @@ Releases the buffer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -125,7 +117,4 @@ Releases the buffer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: VStor
 ms.assetid: 834d7384-09fe-493e-8402-135c453a1ecf
 ms.date: 12/05/2018
 ms.keywords: '*PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS structure pointer [VHD], VIRTUAL_DISK_PROGRESS, VIRTUAL_DISK_PROGRESS structure [VHD], _VIRTUAL_DISK_PROGRESS, vdssys/PVIRTUAL_DISK_PROGRESS, vdssys/VIRTUAL_DISK_PROGRESS, vhd.virtual_disk_progress, virtdisk/PVIRTUAL_DISK_PROGRESS, virtdisk/VIRTUAL_DISK_PROGRESS'
-f1_keywords:
-- virtdisk/VIRTUAL_DISK_PROGRESS
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VirtDisk.h
-- vdssys.h
-api_name:
-- VIRTUAL_DISK_PROGRESS
 targetos: Windows
 req.typenames: VIRTUAL_DISK_PROGRESS, *PVIRTUAL_DISK_PROGRESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VIRTUAL_DISK_PROGRESS
+ - virtdisk/_VIRTUAL_DISK_PROGRESS
+ - PVIRTUAL_DISK_PROGRESS
+ - virtdisk/PVIRTUAL_DISK_PROGRESS
+ - VIRTUAL_DISK_PROGRESS
+ - virtdisk/VIRTUAL_DISK_PROGRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VirtDisk.h
+ - vdssys.h
+api_name:
+ - VIRTUAL_DISK_PROGRESS
 ---
 
 # VIRTUAL_DISK_PROGRESS structure
@@ -50,23 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the 
     <a href="/windows/win32/api/virtdisk/nf-virtdisk-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OperationStatus
 
 A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> status value, this member will 
      be <b>ERROR_IO_PENDING</b> if the operation is still in progress; otherwise, the value is the 
      result code of the completed operation.
-
 
 ### -field CurrentValue
 
@@ -76,7 +75,6 @@ The current progress of the operation, used in conjunction with the
 This value is meaningful only if 
      <b>OperationStatus</b> is <b>ERROR_IO_PENDING</b>.
 
-
 ### -field CompletionValue
 
 The value that the <b>CurrentValue</b> member would be if the operation were complete.
@@ -84,10 +82,7 @@ The value that the <b>CurrentValue</b> member would be if the operation were com
 This value is meaningful only if <b>OperationStatus</b> is 
       <b>ERROR_IO_PENDING</b>.
 
-
 ## -remarks
-
-
 
 The <b>CurrentValue</b> and <b>CompletionValue</b> members are 
     intended to be used for calculating a percentage value, and the specific numeric values of each are not 
@@ -112,13 +107,7 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
     calculation described previously. As long as this data member is returning with an 
     <b>ERROR_IO_PENDING</b> status code, the I/O operation is not yet complete.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
@@ -129,7 +118,4 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
 

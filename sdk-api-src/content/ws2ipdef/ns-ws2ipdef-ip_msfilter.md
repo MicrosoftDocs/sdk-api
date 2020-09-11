@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
 ms.date: 12/05/2018
 ms.keywords: '*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter'
-f1_keywords:
-- ws2ipdef/IP_MSFILTER
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-- Ws2tcpip.h
-api_name:
-- IP_MSFILTER
 targetos: Windows
 req.typenames: IP_MSFILTER, *PIP_MSFILTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ip_msfilter
+ - ws2ipdef/ip_msfilter
+ - PIP_MSFILTER
+ - ws2ipdef/PIP_MSFILTER
+ - IP_MSFILTER
+ - ws2ipdef/IP_MSFILTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+ - Ws2tcpip.h
+api_name:
+ - IP_MSFILTER
 ---
 
 # IP_MSFILTER structure
@@ -50,26 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ip_msfilter</b> structure provides multicast filtering parameters for IPv4 addresses.
 
-
 ## -struct-fields
-
-
-
 
 ### -field imsf_multiaddr
 
 The IPv4 address of the multicast group.
 
-
 ### -field imsf_interface
 
 The local IPv4 address of the interface  or the interface index on which the multicast group should be filtered. This value is in network byte order. If this member specifies an IPv4 address of 0.0.0.0, the default IPv4 multicast interface is used.
 
- To use an interface index of 1 would be the same as an IP address of  0.0.0.1.  
-
+ To use an interface index of 1 would be the same as an IP address of  0.0.0.1.
 
 ### -field imsf_fmode
 
@@ -79,20 +77,15 @@ On Windows Server 2003 and Windows XP, these values are defined in the <i>Ws2t
 
 On Windows Vistaand later, these values are defined as enumeration values in the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a> enumeration defined in the <i>Ws2ipdef.h</i> header file.
 
-
 ### -field imsf_numsrc
 
 The number of sources in the <b>imsf_slist</b> member.
-
 
 ### -field imsf_slist
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structures that specify the IPv4 multicast source addresses to include or exclude.
 
-
 ## -remarks
-
-
 
 The <b>ip_msfilter</b> structure is used with IPv4 addresses. The <b>ip_msfilter</b> structure is passed as an argument  for the <b>SIO_GET_MULTICAST_FILTER</b> and <b>SIO_SET_MULTICAST_FILTER</b> IOCTLs. 
 
@@ -119,12 +112,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 <div class="alert"><b>Note</b>  The <b>IP_MSFILTER</b> and <b>PIP_MSFILTER</b> derived structures are only defined on the Windows SDK released with Windows Vista and later. The <b>ip_msfilter</b> structure should be used on earlier versions of the Windows SDK. </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/final-state-based-multicast-programming">Final-State-Based Multicast Programming</a>
 
@@ -171,7 +159,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ip_mreq_source">ip_mreq_source</a>
- 
-
- 
 

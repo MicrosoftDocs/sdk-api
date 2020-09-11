@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 7d3401bb-521f-4ab0-8833-e5caf712d0c9
 ms.date: 12/05/2018
 ms.keywords: 4643b8d4-3b6b-6d21-52bd-96e849a3eba7, Dispatch, Dispatch method [Direct3D 11], Dispatch method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Dispatch method, ID3D11DeviceContext.Dispatch, ID3D11DeviceContext::Dispatch, d3d11/ID3D11DeviceContext::Dispatch, direct3d11.id3d11devicecontext_dispatch
-f1_keywords:
-- d3d11/ID3D11DeviceContext.Dispatch
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.Dispatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::Dispatch
+ - d3d11/ID3D11DeviceContext::Dispatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.Dispatch
 ---
 
 # ID3D11DeviceContext::Dispatch
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Execute a command list from a thread group.
 
-
 ## -parameters
-
-
-
 
 ### -param ThreadGroupCountX [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The number of groups dispatched in the x direction. <i>ThreadGroupCountX</i> must be less than or equal to D3D11_CS_DISPATCH_MAX_THREAD_GROUPS_PER_DIMENSION (65535).
 
-
 ### -param ThreadGroupCountY [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of groups dispatched in the y direction. <i>ThreadGroupCountY</i> must be less than or equal to D3D11_CS_DISPATCH_MAX_THREAD_GROUPS_PER_DIMENSION (65535).
-
 
 ### -param ThreadGroupCountZ [in]
 
@@ -80,10 +74,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 The number of groups dispatched in the z direction.  <i>ThreadGroupCountZ</i> must be less than or equal to D3D11_CS_DISPATCH_MAX_THREAD_GROUPS_PER_DIMENSION (65535). 
         In feature level 10 the value for <i>ThreadGroupCountZ</i> must be 1.
 
-
 ## -remarks
-
-
 
 You call the <b>Dispatch</b> method to execute commands in a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-compute-shader">compute shader</a>. A compute shader can be run on many threads in parallel, within a thread group. Index a particular thread, within a thread group using a 3D vector 
       given by (x,y,z).
@@ -98,16 +89,7 @@ The following illustration shows the relationship between the parameters passed 
 
 <img alt="Illustration of the relationship between Dispatch, thread groups, and threads" src="./images/ThreadGroupIDs.png"/>
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

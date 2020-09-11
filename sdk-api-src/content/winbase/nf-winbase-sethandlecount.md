@@ -3,10 +3,6 @@ UID: NF:winbase.SetHandleCount
 title: SetHandleCount
 ms.date: 4/26/2019
 ms.keywords: SetHandleCount
-f1_keywords:
-- winbase/SetHandleCount
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - SetHandleCount
+ - winbase/SetHandleCount
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- kernel32.dll
+ - kernel32.dll
 api_name:
-- SetHandleCount
+ - SetHandleCount
 ---
 
 ## -description
@@ -49,10 +50,12 @@ The requested number of available file handles.
 
 ## -returns
 
-The number of available file handles. 
+The number of available file handles.
 
 ## -remarks
 
 ## -see-also
+
 f1_keywords: 
  - "winbase/SetFirmwareEnvironmentVariable"
+

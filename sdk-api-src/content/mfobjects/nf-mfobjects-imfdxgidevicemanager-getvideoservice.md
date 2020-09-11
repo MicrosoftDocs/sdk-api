@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: B0C7C31B-39AF-48B6-8D86-F4DFCC546CDE
 ms.date: 12/05/2018
 ms.keywords: GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],GetVideoService method, IMFDXGIDeviceManager.GetVideoService, IMFDXGIDeviceManager::GetVideoService, mf.imfdxgidevicemanager_getvideoservice, mfobjects/IMFDXGIDeviceManager::GetVideoService
-f1_keywords:
-- mfobjects/IMFDXGIDeviceManager.GetVideoService
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFDXGIDeviceManager.GetVideoService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDXGIDeviceManager::GetVideoService
+ - mfobjects/IMFDXGIDeviceManager::GetVideoService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFDXGIDeviceManager.GetVideoService
 ---
 
 # IMFDXGIDeviceManager::GetVideoService
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the Microsoft Direct3D device for an interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 A handle to the Direct3D device. To get the device handle, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a>.
-
 
 ### -param riid [in]
 
@@ -78,10 +73,7 @@ The interface identifier (IID) of the requested interface. The Direct3D device s
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -147,29 +139,14 @@ If a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the method returns <b>MF_E_DXGI_NEW_VIDEO_DEVICE</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-closedevicehandle">IMFDXGIDeviceManager::CloseDeviceHandle</a> to close the handle and then call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-resetdevice">IMFDXGIDeviceManager::ResetDevice</a> method invalidates all open device handles.
 
 For more info see, <a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-direct3d-11-video-decoding-in-media-foundation">Supporting Direct3D 11 Video Decoding in Media Foundation</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
- 
-
- 
 

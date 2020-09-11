@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: a4a082c2-8cf3-41eb-87c0-a6c453821f8b
 ms.date: 12/05/2018
 ms.keywords: RegDeleteKeyValue, RegDeleteKeyValue function, RegDeleteKeyValueA, RegDeleteKeyValueW, base.regdeletekeyvalue, winreg/RegDeleteKeyValue, winreg/RegDeleteKeyValueA, winreg/RegDeleteKeyValueW
-f1_keywords:
-- winreg/RegDeleteKeyValue
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- RegDeleteKeyValue
-- RegDeleteKeyValueA
-- RegDeleteKeyValueW
-- kernel32.dll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegDeleteKeyValueW
+ - winreg/RegDeleteKeyValueW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - RegDeleteKeyValue
+ - RegDeleteKeyValueA
+ - RegDeleteKeyValueW
+ - kernel32.dll
 ---
 
 # RegDeleteKeyValueW function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the specified  value from the specified registry key and subkey.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -87,33 +83,22 @@ This handle is returned by the
    <b>HKEY_LOCAL_MACHINE</b>
    <b>HKEY_USERS</b></pre>
 
-
-
 ### -param lpSubKey [in, optional]
 
 The name of the registry key. This key must be a subkey of the key identified by the <i>hKey</i> parameter.
-
 
 ### -param lpValueName [in, optional]
 
 The registry value to be removed from the key.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
@@ -128,15 +113,9 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValue</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
- 
-
- 
 

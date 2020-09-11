@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.date: 12/05/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
-f1_keywords:
-- winreg/RegQueryInfoKey
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-- kernel32.dll
-api_name:
-- RegQueryInfoKey
-- RegQueryInfoKeyA
-- RegQueryInfoKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegQueryInfoKeyA
+ - winreg/RegQueryInfoKeyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+ - kernel32.dll
+api_name:
+ - RegQueryInfoKey
+ - RegQueryInfoKeyA
+ - RegQueryInfoKeyW
 ---
 
 # RegQueryInfoKeyA function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified registry key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -87,12 +83,9 @@ This handle is returned by the
    <b>HKEY_PERFORMANCE_DATA</b>
    <b>HKEY_USERS</b></pre>
 
-
-
 ### -param lpClass [out, optional]
 
 A pointer to a buffer that receives the user-defined class of the key. This parameter can be <b>NULL</b>.
-
 
 ### -param lpcchClass [in, out, optional]
 
@@ -104,50 +97,37 @@ If <i>lpClass</i> is <b>NULL</b>, <i>lpcClass</i> can be <b>NULL</b>.
 
 If the <i>lpClass</i> parameter is a valid address, but the <i>lpcClass</i> parameter is not, for example, it is <b>NULL</b>, then the  function returns ERROR_INVALID_PARAMETER.
 
-
 ### -param lpReserved
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param lpcSubKeys [out, optional]
 
 A pointer to a variable that receives the number of subkeys that are contained by the specified key. This parameter can be <b>NULL</b>.
 
-
 ### -param lpcbMaxSubKeyLen [out, optional]
 
-A pointer to a variable that receives the size of the key's subkey with the longest name, in Unicode characters, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b>. 
-
-
-
-					
-
+A pointer to a variable that receives the size of the key's subkey with the longest name, in Unicode characters, not including the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
 ### -param lpcbMaxClassLen [out, optional]
 
 A pointer to a variable that receives the size of the longest string that specifies a subkey class, in Unicode characters. The count returned does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
-
 ### -param lpcValues [out, optional]
 
 A pointer to a variable that receives the number of values that are associated with the key. This parameter can be <b>NULL</b>.
-
 
 ### -param lpcbMaxValueNameLen [out, optional]
 
 A pointer to a variable that receives the size of the key's longest value name, in Unicode characters. The size does not include the terminating <b>null</b> character. This parameter can be <b>NULL</b>.
 
-
 ### -param lpcbMaxValueLen [out, optional]
 
 A pointer to a variable that receives the size of the longest data component among the key's values, in bytes. This parameter can be <b>NULL</b>.
 
-
 ### -param lpcbSecurityDescriptor [out, optional]
 
 A pointer to a variable that receives the size of the key's security descriptor, in bytes. This parameter can be <b>NULL</b>.
-
 
 ### -param lpftLastWriteTime [out, optional]
 
@@ -160,10 +140,7 @@ A pointer to a
 The function sets the members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to indicate the last time that the key or any of its value entries is modified.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -178,9 +155,6 @@ If the <i>lpClass</i> buffer is too small to receive the name of the class, the 
 > On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -207,12 +181,4 @@ If the <i>lpClass</i> buffer is too small to receive the name of the class, the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
-
-## -remarks
-
-> [!NOTE]
-> The winreg.h header defines RegQueryInfoKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 82af2ea1-8415-45f7-ab05-805a66689482
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher.UnRegisterScopeMatchingRule, IWSDiscoveryPublisher::UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule method, UnRegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
-f1_keywords:
-- wsddisco/IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
+ - wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 ---
 
 # IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes support for a custom scope matching rule.
 
-
 ## -parameters
-
-
-
 
 ### -param pScopeMatchingRule [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdscopematchingrule">IWSDScopeMatchingRule</a> object that represents a custom scope matching rule.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -97,27 +90,12 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>UnRegisterScopeMatchingRule</b> removes a previously associated custom scope matching rule.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
- 
-
- 
 

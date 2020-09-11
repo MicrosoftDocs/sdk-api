@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 09927c61-ce64-4d8a-a5b3-542748bfd256
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTipTransactionEx, ICreateWithTipTransactionEx interface [COM+], ICreateWithTipTransactionEx interface [COM+],described, _dtc_ICreateWithTipTransactionEx_Interface, comsvcs/ICreateWithTipTransactionEx, cos.icreatewithtiptransactionex
-f1_keywords:
-- comsvcs/ICreateWithTipTransactionEx
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICreateWithTipTransactionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateWithTipTransactionEx
+ - comsvcs/ICreateWithTipTransactionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICreateWithTipTransactionEx
 ---
 
 # ICreateWithTipTransactionEx interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="https://msdn2.microsoft.com/library/ms730266.aspx">Transactions</a>.]
 
 Creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
-
-
 
 ## -inheritance
 
@@ -80,16 +78,9 @@ Creates a COM+ object that executes within the scope of the manual transaction s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtransactionex">ICreateWithTransactionEx</a>
- 
-
- 
 

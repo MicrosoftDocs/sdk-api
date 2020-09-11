@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetImageList, TabCtrl_GetImageList macro [Windows Controls], _win32_TabCtrl_GetImageList, _win32_TabCtrl_GetImageList_cpp, commctrl/TabCtrl_GetImageList, controls.TabCtrl_GetImageList, controls._win32_TabCtrl_GetImageList
-f1_keywords:
-- commctrl/TabCtrl_GetImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TabCtrl_GetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TabCtrl_GetImageList
+ - commctrl/TabCtrl_GetImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TabCtrl_GetImageList
 ---
 
 # TabCtrl_GetImageList macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the image list associated with a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getimagelist">TCM_GETIMAGELIST</a> message explicitly. 
-
+Retrieves the image list associated with a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getimagelist">TCM_GETIMAGELIST</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwnd
 

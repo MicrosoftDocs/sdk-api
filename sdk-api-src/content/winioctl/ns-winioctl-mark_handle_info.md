@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6f736b31-279d-4118-a5e3-ad3c2bea2250
 ms.date: 12/05/2018
 ms.keywords: '*PMARK_HANDLE_INFO, MARK_HANDLE_INFO, MARK_HANDLE_INFO structure [Files], MARK_HANDLE_NOT_READ_COPY, MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_READ_COPY, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO, PMARK_HANDLE_INFO structure pointer [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, _win32_mark_handle_info_str, base.mark_handle_info_str, fs.mark_handle_info_str, winioctl/MARK_HANDLE_INFO, winioctl/PMARK_HANDLE_INFO'
-f1_keywords:
-- winioctl/MARK_HANDLE_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- MARK_HANDLE_INFO
 targetos: Windows
 req.typenames: MARK_HANDLE_INFO, *PMARK_HANDLE_INFO
 req.redist: 
+f1_keywords:
+ - PMARK_HANDLE_INFO
+ - winioctl/PMARK_HANDLE_INFO
+ - MARK_HANDLE_INFO
+ - winioctl/MARK_HANDLE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - MARK_HANDLE_INFO
 ---
 
 # MARK_HANDLE_INFO structure
@@ -48,21 +51,13 @@ req.redist:
 
 ## -description
 
-
 Contains information that is used to mark a specified file or directory, and its update sequence 
     number (USN) change journal record with data about changes. It is used by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> control code.
 
-
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field UsnSourceInfo
 
@@ -146,8 +141,6 @@ Replication is being performed on client systems either from the cloud or server
 </tr>
 
 </table>
- 
-
 
 ### -field CopyNumber
 
@@ -155,7 +148,6 @@ The zero-based copy number to use for subsequent reads. This is for use on  on S
         NTFS and ReFS and non-integrity streams on ReFS (streams with integrity on ReFS handle this automatically.)
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not supported before Windows 8 and Windows Server 2012.
-
 
 ### -field VolumeHandle
 
@@ -166,7 +158,6 @@ This handle is required to check the privileges for this operation.
 
 The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>.
-
 
 ### -field HandleInfo
 
@@ -360,12 +351,8 @@ This flag is not supported until Windows 10.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 To retrieve a handle to a volume, call 
      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
@@ -376,20 +363,11 @@ To retrieve a handle to a volume, call
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
      appears.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
- 
-
- 
 

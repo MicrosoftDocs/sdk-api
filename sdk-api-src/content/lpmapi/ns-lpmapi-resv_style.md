@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: facc4217-1e6f-44af-bc04-84993f2dfeec
 ms.date: 12/05/2018
 ms.keywords: RESV_STYLE, RESV_STYLE structure [QOS], STYLE_FF, STYLE_SE, STYLE_WF, lpmapi/RESV_STYLE, qos.resv_style
-f1_keywords:
-- lpmapi/RESV_STYLE
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- RESV_STYLE
 targetos: Windows
 req.typenames: RESV_STYLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RESV_STYLE
+ - lpmapi/RESV_STYLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - RESV_STYLE
 ---
 
 # RESV_STYLE structure
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RESV_STYLE</b> structure contains information about RSVP RESV style.
 
-
 ## -struct-fields
-
-
-
 
 ### -field style_header
 
 RSVP object header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
-
 
 ### -field style_word
 
@@ -86,14 +81,7 @@ RSVP RESV style. Must be one of the following values:
 
 #### STYLE_WF
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
- 
-
- 
 

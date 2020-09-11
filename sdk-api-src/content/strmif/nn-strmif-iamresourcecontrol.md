@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9b0b6b46-bf61-44c2-981a-44df4d7c6dfb
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMResourceControl interface [DirectShow],described, IAMResourceControlInterface, dshow.iamresourcecontrol, strmif/IAMResourceControl
-f1_keywords:
-- strmif/IAMResourceControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMResourceControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMResourceControl
+ - strmif/IAMResourceControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMResourceControl
 ---
 
 # IAMResourceControl interface
 
 
 ## -description
-
-
 
 The <code>IAMResourceControl</code> interface opens and holds an audio device resource before the device is actually needed, so that playback can be guaranteed or the application can learn in advance that a device is not available.
 
@@ -64,8 +63,6 @@ The following filters implement this interface:
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -91,5 +88,5 @@ Reserves or unreserves a device resource.
 
 </td>
 </tr>
-</table> 
+</table>
 

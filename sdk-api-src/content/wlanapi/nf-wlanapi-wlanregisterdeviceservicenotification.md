@@ -28,12 +28,13 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- wlanapi.dll
+ - wlanapi.dll
 api_name:
  - WlanRegisterDeviceServiceNotification
 f1_keywords:
+ - WlanRegisterDeviceServiceNotification
  - wlanapi/WlanRegisterDeviceServiceNotification
 dev_langs:
  - c++
@@ -63,7 +64,7 @@ To unregister, set *pDevSvcGuidList* to `nullptr`, or pass a pointer to a **WLAN
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-If the function succeeds, the return value is **ERROR_SUCCESS**. If the function fails with **ERROR_ACCESS_DENIED**, then the caller doesn't have sufficient permissions to perform this operation. The caller needs to either have admin privilege, or needs to be a UMDF driver. 
+If the function succeeds, the return value is **ERROR_SUCCESS**. If the function fails with **ERROR_ACCESS_DENIED**, then the caller doesn't have sufficient permissions to perform this operation. The caller needs to either have admin privilege, or needs to be a UMDF driver.
 
 ## -remarks
 
@@ -83,3 +84,4 @@ The *NotificationSource* member of the [WLAN_NOTIFICATION_DATA](/previous-versio
 > The WLAN service, or the OS, will not check to see whether the device service **GUID**s that the client registers for are actually supported by the IHV driver. It is up to the client to query for supported device services using [WlanGetSupportedDeviceServices](/windows/win32/api/wlanapi/nf-wlanapi-wlangetsupporteddeviceservices) API if they need to.
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\registeredevents.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccount interface [Fax Service],RegisteredEvents property, IFaxAccount.RegisteredEvents, IFaxAccount.get_RegisteredEvents, IFaxAccount::RegisteredEvents, IFaxAccount::get_RegisteredEvents, RegisteredEvents property [Fax Service], RegisteredEvents property [Fax Service],IFaxAccount interface, _mfax_faxaccount.registeredevents, fax._mfax_faxaccount_cpp_mfax_faxaccount_registeredevents_cpp, fax._mfax_faxaccount_registeredevents, faxcomex/IFaxAccount::RegisteredEvents, faxcomex/IFaxAccount::get_RegisteredEvents, get_RegisteredEvents
-f1_keywords:
-- faxcomex/IFaxAccount.RegisteredEvents
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxAccount.RegisteredEvents
-- IFaxAccount.get_RegisteredEvents
-- IFaxAccount.get_RegisteredEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxAccount::get_RegisteredEvents
+ - faxcomex/IFaxAccount::get_RegisteredEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxAccount.RegisteredEvents
+ - IFaxAccount.get_RegisteredEvents
+ - IFaxAccount.get_RegisteredEvents
 ---
 
 # IFaxAccount::get_RegisteredEvents
@@ -51,26 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 A set of flags indicating the type of events for which the account is listening.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccount">IFaxAccount</a>
- 
-
- 
 

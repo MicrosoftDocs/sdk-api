@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 9606A611-6C55-4548-B9C4-688580338F08
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerAddAndRegister0, IPsecKeyManagerAddAndRegister0 function [Filtering], fwp.ipseckeymanageraddandregister0, fwpmu/IPsecKeyManagerAddAndRegister0
-f1_keywords:
-- fwpmu/IPsecKeyManagerAddAndRegister0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IPsecKeyManagerAddAndRegister0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPsecKeyManagerAddAndRegister0
+ - fwpmu/IPsecKeyManagerAddAndRegister0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IPsecKeyManagerAddAndRegister0
 ---
 
 # IPsecKeyManagerAddAndRegister0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPsecKeyManagerAddAndRegister0</b> function registers a Trusted Intermediary Agent (TIA) with IPsec.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 A handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param keyManager [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>*</b>
 
 The set of key management callbacks which IPsec will invoke.
-
 
 ### -param keyManagerCallbacks [in]
 
@@ -78,17 +72,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-
 
 The set of callbacks which should be invoked by IPsec at various stages of SA negotiation.
 
-
 ### -param keyMgmtHandle [out]
 
 Type: <b>HANDLE*</b>
 
 Address of the newly created registration.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -170,27 +160,15 @@ The TIA was not registered successfully because the binary image has not set the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <b>IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY</b> flag is set for <b>keyManager</b>, all three callback members of <b>keyManagerCallbacks</b> must be specified; otherwise, only the <b>keyNotify</b> callback should be specified
 
 This function cannot be called from within a transaction. It will fail
 with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0">IPSEC_KEY_MANAGER0</a>
 
@@ -201,7 +179,4 @@ with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
- 
-
- 
 

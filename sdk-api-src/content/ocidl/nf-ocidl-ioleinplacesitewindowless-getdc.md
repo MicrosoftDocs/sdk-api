@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 232587a8-ed88-4339-9e28-6e34be263a51
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC method [COM], GetDC method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetDC method, IOleInPlaceSiteWindowless.GetDC, IOleInPlaceSiteWindowless::GetDC, _ole_ioleinplacesitewindowless_getdc, com.ioleinplacesitewindowless_getdc, ocidl/IOleInPlaceSiteWindowless::GetDC
-f1_keywords:
-- ocidl/IOleInPlaceSiteWindowless.GetDC
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteWindowless.GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteWindowless::GetDC
+ - ocidl/IOleInPlaceSiteWindowless::GetDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteWindowless.GetDC
 ---
 
 # IOleInPlaceSiteWindowless::GetDC
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides an object with a handle to a device context for a screen or compatible device from its container.
 
-
 ## -parameters
-
-
-
 
 ### -param pRect [in]
 
 A pointer to the rectangle that the object wants to redraw, in client coordinates of the containing window. If this parameter is <b>NULL</b>, the object's full extent is redrawn.
 
-
 ### -param grfFlags [in]
 
 A combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-oledcflags">OLEDCFLAGS</a> enumeration.
-
 
 ### -param phDC [out]
 
 A pointer to a returned device context.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -96,14 +87,8 @@ The container is already in the middle of a paint session. That is, this method 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A device context obtained by this method should be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleinplacesitewindowless-releasedc">IOleInPlaceSiteWindowless::ReleaseDC</a>.
 
@@ -175,13 +160,7 @@ On-screen, Two Pass Drawing
 </ol>
 When this method returns, the clipping region in the device context should be set so that the object can't paint in any area it is not supposed to. If the object is not opaque, the background should have been painted. If the device context is a screen, any overlapping opaque areas should be clipped out.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
@@ -192,7 +171,4 @@ When this method returns, the clipping region in the device context should be se
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-oledcflags">OLEDCFLAGS</a>
- 
-
- 
 

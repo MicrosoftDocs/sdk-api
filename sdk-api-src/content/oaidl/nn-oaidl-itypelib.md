@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: c1e5d71f-6a4e-45f3-811d-f57024f81a55
 ms.date: 12/05/2018
 ms.keywords: ITypeLib, ITypeLib interface [Automation], ITypeLib interface [Automation],described, _oa96_ITypeLib_Interface, automat.itypelib, oaidl/ITypeLib
-f1_keywords:
-- oaidl/ITypeLib
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeLib
+ - oaidl/ITypeLib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeLib
 ---
 
 # ITypeLib interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a type library, the data that describes a set of objects. A type library can be a stand-alone binary file (.TLB), a resource in a dynamic link library or executable file (.DLL, .OLB, or .EXE).
-
 
 ## -inheritance
 
@@ -158,12 +157,9 @@ Releases the TLIBATTR originally obtained from <a href="https://docs.microsoft.c
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The system registry contains a list of all the installed type libraries. Type library organization is illustrated in the following figure:
 
@@ -185,15 +181,7 @@ General information, including a user-readable name for the library and help for
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
- 
-
- 
 

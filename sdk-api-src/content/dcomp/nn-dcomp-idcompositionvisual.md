@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 462dfc20-ad5a-425c-94b5-f21ab05f5af8
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual, IDCompositionVisual interface [DirectComposition], IDCompositionVisual interface [DirectComposition],described, dcomp/IDCompositionVisual, directcomp.idcompositionvisual
-f1_keywords:
-- dcomp/IDCompositionVisual
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionVisual
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionVisual
+ - dcomp/IDCompositionVisual
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionVisual
 ---
 
 # IDCompositionVisual interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a Microsoft DirectComposition visual. 
-
+Represents a Microsoft DirectComposition visual.
 
 ## -inheritance
 
@@ -183,16 +182,9 @@ Sets the TransformParent property of this visual. The TransformParent property e
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createvisual">IDCompositionDevice::CreateVisual</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: a54ef18d-ee3f-4483-ac4a-99d758f0960a
 ms.date: 12/05/2018
 ms.keywords: ISupportErrorInfo interface [Automation],InterfaceSupportsErrorInfo method, ISupportErrorInfo.InterfaceSupportsErrorInfo, ISupportErrorInfo::InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo, InterfaceSupportsErrorInfo method [Automation], InterfaceSupportsErrorInfo method [Automation],ISupportErrorInfo interface, _oa96_ISupportErrorInfo_InterfaceSupportsErrorInfo, automat.isupporterrorinfo_interfacesupportserrorinfo, oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
-f1_keywords:
-- oaidl/ISupportErrorInfo.InterfaceSupportsErrorInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ISupportErrorInfo.InterfaceSupportsErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISupportErrorInfo::InterfaceSupportsErrorInfo
+ - oaidl/ISupportErrorInfo::InterfaceSupportsErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ISupportErrorInfo.InterfaceSupportsErrorInfo
 ---
 
 # ISupportErrorInfo::InterfaceSupportsErrorInfo
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether an interface supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 An interface identifier (IID).
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,14 +90,8 @@ The interface does not support <a href="https://docs.microsoft.com/previous-vers
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Objects that support the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a> interface must also implement this interface.
 
@@ -120,16 +107,7 @@ If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oai
 
 For an example that demonstrates implementing <b>InterfaceSupportsErrorInfo</b>, see the ErrorInfo.cpp file in the COM Fundamentals Lines sample.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo">ISupportErrorInfo</a>
- 
-
- 
 

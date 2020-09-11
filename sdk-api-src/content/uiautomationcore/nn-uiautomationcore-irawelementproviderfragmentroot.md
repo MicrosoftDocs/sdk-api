@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 16e51962-915e-40ea-a7a1-6f5a5809ba05
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragmentRoot, IRawElementProviderFragmentRoot interface [Windows Accessibility], IRawElementProviderFragmentRoot interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderFragmentRoot, uiauto_IRawElementProviderFragmentRoot, uiautomationcore/IRawElementProviderFragmentRoot, winauto.uiauto_IRawElementProviderFragmentRoot
-f1_keywords:
-- uiautomationcore/IRawElementProviderFragmentRoot
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IRawElementProviderFragmentRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderFragmentRoot
+ - uiautomationcore/IRawElementProviderFragmentRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IRawElementProviderFragmentRoot
 ---
 
 # IRawElementProviderFragmentRoot interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods and properties on the root element in a fragment.
-
 
 ## -inheritance
 
@@ -86,23 +85,14 @@ Retrieves the element in this fragment that has the input focus.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is implemented by a root element within a framework; for example, a list box within a window. 
 			Other elements in the same fragment, such as list items, implement the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
 
@@ -113,7 +103,4 @@ This interface is implemented by a root element within a framework; for example,
 
 
 <b>Reference</b>
- 
-
- 
 

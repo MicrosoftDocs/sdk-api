@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c5de70da-2a08-4142-8f21-53a98e28fd42
 ms.date: 12/05/2018
 ms.keywords: AddWizard97Page, AddWizard97Page method [Failover Cluster], AddWizard97Page method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],AddWizard97Page method, IWCWizard97Callback.AddWizard97Page, IWCWizard97Callback::AddWizard97Page, _wolf_iwcwizard97callback_addwizard97page, cluadmex/IWCWizard97Callback::AddWizard97Page, mscs.iwcwizard97callback_addwizard97page
-f1_keywords:
-- cluadmex/IWCWizard97Callback.AddWizard97Page
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCWizard97Callback.AddWizard97Page
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCWizard97Callback::AddWizard97Page
+ - cluadmex/IWCWizard97Callback::AddWizard97Page
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCWizard97Callback.AddWizard97Page
 ---
 
 # IWCWizard97Callback::AddWizard97Page
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
 Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
 
-
 ## -parameters
-
-
-
 
 ### -param hpage [in]
 
 Handle to the property page to be added.
 
-
 ## -returns
-
-
 
 If <b>AddWizard97Page</b> is not 
        successful, it can return other <b>HRESULT</b> values.
@@ -103,15 +96,8 @@ The <i>hpage</i> parameter represents an unknown page.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extensions call the 
      <b>AddWizard97Page</b> method from their 
@@ -124,13 +110,7 @@ The <i>hpage</i> parameter represents an unknown page.
 To add non-Wizard97 pages, use 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iwcwizardcallback-addwizardpage">IWCWizardCallback::AddWizardPage</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizard97callback">IWCWizard97Callback</a>
 
@@ -141,7 +121,4 @@ To add non-Wizard97 pages, use
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a>
- 
-
- 
 

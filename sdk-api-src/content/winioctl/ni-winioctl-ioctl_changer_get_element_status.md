@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b5266a22-1f7b-423d-b3c1-7e455d87dd2b
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control, IOCTL_CHANGER_GET_ELEMENT_STATUS control code, _win32_ioctl_changer_get_element_status, base.ioctl_changer_get_element_status, winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
-f1_keywords:
-- winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_CHANGER_GET_ELEMENT_STATUS
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_CHANGER_GET_ELEMENT_STATUS
+ - winioctl/IOCTL_CHANGER_GET_ELEMENT_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_CHANGER_GET_ELEMENT_STATUS
 ---
 
 # IOCTL_CHANGER_GET_ELEMENT_STATUS IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,7 +88,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -see-also
 
 * [CHANGER_ELEMENT_STATUS](ns-winioctl-changer_element_status.md)
@@ -101,3 +95,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 * [CHANGER_READ_ELEMENT_STATUS](ns-winioctl-changer_read_element_status.md)
 * [Device Management Control Codes](https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

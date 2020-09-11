@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 9f13ffe1-1a60-4d9a-942d-63312ca9bc5b
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassDevsEx, SetupDiGetClassDevsEx function [Device and Driver Installation], SetupDiGetClassDevsExA, SetupDiGetClassDevsExW, devinst.setupdigetclassdevsex, di-rtns_61e59e92-0451-4398-88af-0a14347aa74e.xml, setupapi/SetupDiGetClassDevsEx
-f1_keywords:
-- setupapi/SetupDiGetClassDevsEx
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetClassDevsEx
-- SetupDiGetClassDevsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetClassDevsExW
+ - setupapi/SetupDiGetClassDevsExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetClassDevsEx
+ - SetupDiGetClassDevsExW
 ---
 
 # SetupDiGetClassDevsExW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiGetClassDevsEx</b> function returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains requested device information elements for a local or a remote computer. 
-
+The <b>SetupDiGetClassDevsEx</b> function returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains requested device information elements for a local or a remote computer.
 
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in, optional]
 
 A pointer to the GUID for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. If a GUID value is not used to select devices, set <i>ClassGuid</i> to <b>NULL</b>. For more information about how to use <i>ClassGuid</i>, see the following <b>Remarks</b> section.
-
 
 ### -param Enumerator [in, optional]
 
@@ -83,11 +78,9 @@ This pointer is optional and can be <b>NULL</b>. If an <i>Enumerator</i> value i
 
 For more information about how to set the <i>Enumerator</i> value, see the following <b>Remarks</b> section.
 
-
 ### -param hwndParent [in, optional]
 
 A handle to the top-level window to be used for a user interface that is associated with installing a device instance in the device information set. This handle is optional and can be <b>NULL</b>.
-
 
 ### -param Flags [in]
 
@@ -123,18 +116,15 @@ Return only devices that are currently present.
 
 #### DIGCF_PROFILE
 
-Return only devices that are a part of the current hardware profile. 
-
+Return only devices that are a part of the current hardware profile.
 
 ### -param DeviceInfoSet [in, optional]
 
-The handle to an existing <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> to which <b>SetupDiGetClassDevsEx</b> adds the requested device information elements. This parameter is optional and can be set to <b>NULL</b>. For more information about using this parameter, see the following <b>Remarks</b> section. 
-
+The handle to an existing <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> to which <b>SetupDiGetClassDevsEx</b> adds the requested device information elements. This parameter is optional and can be set to <b>NULL</b>. For more information about using this parameter, see the following <b>Remarks</b> section.
 
 ### -param MachineName [in, optional]
 
 A pointer to a constant string that contains the name of a remote computer on which the devices reside. A value of <b>NULL</b> for <i>MachineName</i> specifies that the device is installed on the local computer.
-
 
 ### -param Reserved
 
@@ -163,21 +153,13 @@ Return only devices that are currently present.
 
 ##### - Flags.DIGCF_PROFILE
 
-Return only devices that are a part of the current hardware profile. 
-
+Return only devices that are a part of the current hardware profile.
 
 ## -returns
 
-
-
 If the operation succeeds, <b>SetupDiGetClassDevsEx</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The caller of <b>SetupDiGetClassDevsEx</b> must delete the returned device information set when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>. 
 
@@ -282,9 +264,6 @@ In an operation of this type, <b>SetupDiGetClassDevsEx</b> returns a device if t
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">Device Information Set</a>
 
 
@@ -306,7 +285,4 @@ In an operation of this type, <b>SetupDiGetClassDevsEx</b> returns a device if t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
- 
-
- 
 

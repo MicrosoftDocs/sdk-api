@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced.WriteStreamSample
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterAdvanced.WriteStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced::WriteStreamSample
+ - wmsdkidl/IWMWriterAdvanced::WriteStreamSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterAdvanced.WriteStreamSample
 ---
 
 # IWMWriterAdvanced::WriteStreamSample
@@ -52,37 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF file, bypassing the normal compression procedures. Use this method when writing a compressed stream if you already have the compressed samples. The most common use of <b>WriteStreamSample</b> is in copying streams from one file to another.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number. Stream numbers are in the range of 1 through 63.
 
-
 ### -param cnsSampleTime [in]
 
 <b>QWORD</b> containing the sample time, in 100-nanosecond units.
-
 
 ### -param msSampleSendTime [in]
 
 <b>DWORD</b> containing the sample send time, in milliseconds. This parameter is not used.
 
-
 ### -param cnsSampleDuration [in]
 
 <b>QWORD</b> containing the sample duration, in 100-nanosecond units. This parameter is not used.
-
 
 ### -param dwFlags [in]
 
@@ -112,17 +101,12 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 <td>This flag is not used by the writer object.</td>
 </tr>
 </table>
- 
-
 
 ### -param pSample [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -165,14 +149,8 @@ The sample is not valid. This can occur when an input script stream contains a s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must manually set the WM_SF_CLEANPOINT flag for every video key frame. If you do not specify the key frames, it will not be readable. The first video sample delivered by the reading object is the first sample marked as a clean point.
 
@@ -184,13 +162,7 @@ If the output stream has a time code data unit extension and there is no time co
 
 You can use both <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
@@ -201,7 +173,4 @@ You can use both <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkid
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-compressed-samples">Writing Compressed Samples</a>
- 
-
- 
 

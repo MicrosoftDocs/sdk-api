@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7
 ms.date: 12/05/2018
 ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], IFsrmObject interface [File Server Resource Manager],described, fs.ifsrmobject, fsrm.ifsrmobject, fsrm/IFsrmObject
-f1_keywords:
-- fsrm/IFsrmObject
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmObject
+ - fsrm/IFsrmObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmObject
 ---
 
 # IFsrmObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Base class for all FSRM objects.
-
 
 ## -inheritance
 
@@ -127,5 +126,5 @@ Retrieves the identifier of the object.
 
 </td>
 </tr>
-</table> 
+</table>
 

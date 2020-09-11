@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: E25C933F-0DB3-4BC4-9755-9361B2B9B9CB
 ms.date: 12/05/2018
 ms.keywords: DXGI_COLOR_SPACE_CUSTOM, DXGI_COLOR_SPACE_RESERVED, DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709, DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020, DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020, DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020, DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709, DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020, DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709, DXGI_COLOR_SPACE_TYPE, DXGI_COLOR_SPACE_TYPE enumeration [DXGI], DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601, DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709, DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601, DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709, DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709, DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020, DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020, direct3ddxgi.dxgi_color_space_type, dxgicommon/DXGI_COLOR_SPACE_CUSTOM, dxgicommon/DXGI_COLOR_SPACE_RESERVED, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020, dxgicommon/DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709, dxgicommon/DXGI_COLOR_SPACE_TYPE, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601, dxgicommon/DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020, dxgicommon/DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020
-f1_keywords:
-- dxgicommon/DXGI_COLOR_SPACE_TYPE
-dev_langs:
-- c++
 req.header: dxgicommon.h
 req.include-header: DXGIType.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxgicommon.h
-api_name:
-- DXGI_COLOR_SPACE_TYPE
 targetos: Windows
 req.typenames: DXGI_COLOR_SPACE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_COLOR_SPACE_TYPE
+ - dxgicommon/DXGI_COLOR_SPACE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxgicommon.h
+api_name:
+ - DXGI_COLOR_SPACE_TYPE
 ---
 
 # DXGI_COLOR_SPACE_TYPE enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies color space types.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
 
@@ -93,8 +89,6 @@ This is the standard definition for sRGB.
 	  Note that this is often implemented with a linear segment, but in that case the exponent is corrected to stay aligned with a gamma 2.2 curve. 
 
 	  This is usually used with 8 or 10 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709
 
@@ -126,9 +120,7 @@ This is the standard definition for sRGB.
 </table>
  
 
-This is the standard definition for scRGB, and is usually used with 16 bit integer, 16 bit floating point, or 32 bit floating point color channels. 
-	  
-
+This is the standard definition for scRGB, and is usually used with 16 bit integer, 16 bit floating point, or 32 bit floating point color channels.
 
 ### -field DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P709
 
@@ -163,8 +155,6 @@ This is the standard definition for scRGB, and is usually used with 16 bit integ
 This is the standard definition for ITU-R Recommendation BT.709. Note that due to the inclusion of a linear segment, the transfer curve looks similar to a pure exponential gamma of 1.9. 
 
 	  This is usually used with 8 or 10 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_RGB_STUDIO_G22_NONE_P2020
 
@@ -197,13 +187,10 @@ This is the standard definition for ITU-R Recommendation BT.709. Note that due t
  
 
 This is usually used with 10 or 12 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_RESERVED
 
 Reserved.
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_NONE_P709_X601
 
@@ -240,8 +227,6 @@ Reserved.
  
 
 This definition is commonly used for JPG, and is usually used with 8, 10, or 12 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P601
 
@@ -274,8 +259,6 @@ This definition is commonly used for JPG, and is usually used with 8, 10, or 12 
  
 
 This definition is commonly used for MPEG2, and  is usually used with 8, 10, or 12 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P601
 
@@ -307,9 +290,7 @@ This definition is commonly used for MPEG2, and  is usually used with 8, 10, or 
 </table>
  
 
-This is sometimes used for H.264 camera capture, and is usually used with 8, 10, or 12 bit color channels. 
-	  
-
+This is sometimes used for H.264 camera capture, and is usually used with 8, 10, or 12 bit color channels.
 
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P709
 
@@ -342,8 +323,6 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
  
 
 This definition is commonly used for H.264 and HEVC, and is usually used with 8, 10, or 12 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P709
 
@@ -375,9 +354,7 @@ This definition is commonly used for H.264 and HEVC, and is usually used with 8,
 </table>
  
 
-This is sometimes used for H.264 camera capture, and is usually used with 8, 10, or 12 bit color channels. 
-	  
-
+This is sometimes used for H.264 camera capture, and is usually used with 8, 10, or 12 bit color channels.
 
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_LEFT_P2020
 
@@ -410,8 +387,6 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
  
 
 This definition may be used by HEVC, and is usually used with 10 or 12 bit color channels.
-	  
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_FULL_G22_LEFT_P2020
 
@@ -445,7 +420,6 @@ This definition may be used by HEVC, and is usually used with 10 or 12 bit color
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020
 
 <table>
@@ -477,7 +451,6 @@ This is usually used with 10 or 12 bit color channels.
  
 
 This is usually used with 10 or 12 bit color channels.
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_LEFT_P2020
 
@@ -511,7 +484,6 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_RGB_STUDIO_G2084_NONE_P2020
 
 <table>
@@ -543,7 +515,6 @@ This is usually used with 10 or 12 bit color channels.
  
 
 This is usually used with 10 or 12 bit color channels.
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G22_TOPLEFT_P2020
 
@@ -577,7 +548,6 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G2084_TOPLEFT_P2020
 
 <table>
@@ -609,7 +579,6 @@ This is usually used with 10 or 12 bit color channels.
  
 
 This is usually used with 10 or 12 bit color channels.
-
 
 ### -field DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P2020
 
@@ -643,7 +612,6 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_GHLG_TOPLEFT_P2020
 
 <table>
@@ -675,7 +643,6 @@ This is usually used with 10 or 12 bit color channels.
  
 
 This is usually used with 10 or 12 bit color channels.
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_FULL_GHLG_TOPLEFT_P2020
 
@@ -709,7 +676,6 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P709
 
 <table>
@@ -741,7 +707,6 @@ This is usually used with 10 or 12 bit color channels.
  
 
 This is usually used with 8, 10, or 12 bit color channels.
-
 
 ### -field DXGI_COLOR_SPACE_RGB_STUDIO_G24_NONE_P2020
 
@@ -775,7 +740,6 @@ This is usually used with 8, 10, or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P709
 
 <table>
@@ -807,7 +771,6 @@ This is usually used with 10 or 12 bit color channels.
  
 
 This is usually used with 8, 10, or 12 bit color channels.
-
 
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_LEFT_P2020
 
@@ -841,7 +804,6 @@ This is usually used with 8, 10, or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_YCBCR_STUDIO_G24_TOPLEFT_P2020
 
 <table>
@@ -874,15 +836,11 @@ This is usually used with 10 or 12 bit color channels.
 
 This is usually used with 10 or 12 bit color channels.
 
-
 ### -field DXGI_COLOR_SPACE_CUSTOM
 
-A custom color definition is used. 
-
+A custom color definition is used.
 
 ## -remarks
-
-
 
 This enum is used within DXGI in  the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-checkcolorspacesupport">CheckColorSpaceSupport</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiswapchain3-setcolorspace1">SetColorSpace1</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgioutput4-checkoverlaycolorspacesupport">CheckOverlayColorSpaceSupport</a> methods. It is also referenced in D3D11 video methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videocontext1-videoprocessorsetoutputcolorspace1">ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1</a>, and D2D methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">ID2D1DeviceContext2::CreateImageSourceFromDxgi</a>.
 
@@ -1062,16 +1020,7 @@ In most cases, the transfer matrix can be determined from the primaries. For som
 
 Subsampling and the layout of the color channels are inferred from the surface format.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
- 
-
- 
 

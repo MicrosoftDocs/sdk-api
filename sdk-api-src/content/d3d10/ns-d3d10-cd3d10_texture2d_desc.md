@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture2d_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 53736d47-a636-d91b-ae36-38e32953d08c, CD3D10_TEXTURE2D_DESC, D3D10_TEXTURE2D_DESC, D3D10_TEXTURE2D_DESC structure [Direct3D 10], d3d10/D3D10_TEXTURE2D_DESC, direct3d10.d3d10_texture2d_desc
-f1_keywords:
-- d3d10/D3D10_TEXTURE2D_DESC
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D10.h
-api_name:
-- D3D10_TEXTURE2D_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D10_TEXTURE2D_DESC
+ - d3d10/CD3D10_TEXTURE2D_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D10.h
+api_name:
+ - D3D10_TEXTURE2D_DESC
 ---
 
 ## -description
@@ -99,3 +100,4 @@ The device places some size restrictions (must be multiples of a minimum size) f
 ## -see-also
 
 <a href="/windows/win32/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
+

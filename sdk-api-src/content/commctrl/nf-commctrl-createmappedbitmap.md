@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.date: 12/05/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
-f1_keywords:
-- commctrl/CreateMappedBitmap
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
-api_name:
-- CreateMappedBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateMappedBitmap
+ - commctrl/CreateMappedBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+ - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+api_name:
+ - CreateMappedBitmap
 ---
 
 # CreateMappedBitmap function
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a bitmap for use in a toolbar. 
-
+Creates a bitmap for use in a toolbar.
 
 ## -parameters
-
-
-
 
 ### -param hInstance
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
-Handle to the module instance with the executable file that contains the bitmap resource. 
-
+Handle to the module instance with the executable file that contains the bitmap resource.
 
 ### -param idBitmap
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT_PTR</a></b>
 
-Resource identifier of the bitmap resource. 
-
+Resource identifier of the bitmap resource.
 
 ### -param wFlags
 
@@ -95,15 +89,12 @@ Uses a bitmap as a mask.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpColorMap [in]
 
 Type: <b>LPCOLORMAP</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-colormap">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-colormap">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map.
 
 ### -param iNumMaps
 
@@ -112,21 +103,13 @@ Type: <b>int</b>
 Number of color maps pointed to by 
 					<i>lpColorMap</i>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 Returns the handle to the bitmap if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The function creates a new bitmap using the bitmap data and colors specified by the bitmap resource and the color mapping information. 
 
@@ -145,7 +128,4 @@ colorMap.from = RGB(0, 0, 0);
 colorMap.to = backgroundColor;
 HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &colorMap, 1);
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslong.htm
 ms.date: 12/05/2018
 ms.keywords: GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_HBRBACKGROUND, GCL_HCURSOR, GCL_HICON, GCL_HICONSM, GCL_HMODULE, GCL_MENUNAME, GCL_STYLE, GCL_WNDPROC, GCW_ATOM, GetClassLong, GetClassLong function [Windows and Messages], GetClassLongA, GetClassLongW, _win32_GetClassLong, _win32_getclasslong_cpp, winmsg.getclasslong, winui._win32_getclasslong, winuser/GetClassLong, winuser/GetClassLongA, winuser/GetClassLongW
-f1_keywords:
-- winuser/GetClassLong
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
-- ext-ms-win-ntuser-windowclass-l1-1-2.dll
-api_name:
-- GetClassLong
-- GetClassLongA
-- GetClassLongW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClassLongW
+ - winuser/GetClassLongW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+api_name:
+ - GetClassLong
+ - GetClassLongA
+ - GetClassLongW
 ---
 
 # GetClassLongW function
@@ -53,21 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified 32-bit (<b>DWORD</b>) value from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure associated with the specified window.
 <div class="alert"><b>Note</b>  If you are retrieving a pointer or a handle, this function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclasslongptra">GetClassLongPtr</a> function. (Pointers and handles are 32 bits on 32-bit Windows and 64 bits on 64-bit Windows.)</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window and, indirectly, the class to which the window belongs. 
-
+A handle to the window and, indirectly, the class to which the window belongs.
 
 ### -param nIndex [in]
 
@@ -203,25 +199,16 @@ Retrieves the address of the window procedure, or a handle representing the addr
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
 If the function succeeds, the return value is the requested value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Reserve extra class memory by specifying a nonzero value in the 
 				<b>cbClsExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
@@ -234,9 +221,6 @@ Reserve extra class memory by specifying a nonzero value in the
 > The winuser.h header defines GetClassLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -267,7 +251,4 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
- 
-
- 
 

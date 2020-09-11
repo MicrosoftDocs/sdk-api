@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem
-f1_keywords:
-- shlobj_core/SHGetKnownFolderItem
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- Ext-MS-Win-shell-shell32-l1-2-0.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
-- Windows.Storage.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- SHGetKnownFolderItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetKnownFolderItem
+ - shlobj_core/SHGetKnownFolderItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - Ext-MS-Win-shell-shell32-l1-2-0.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+ - Windows.Storage.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - SHGetKnownFolderItem
 ---
 
 # SHGetKnownFolderItem function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents a known folder.
 
-
 ## -parameters
-
-
-
 
 ### -param rfid [in]
 
@@ -69,13 +65,11 @@ Type: <b>REFKNOWNFOLDERID</b>
 
 A reference to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>, a <b>GUID</b> that identifies the folder that contains the item.
 
-
 ### -param flags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KNOWN_FOLDER_FLAG</a></b>
 
 Flags that specify special options used in the retrieval of the known folder <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. This value can be <b>KF_FLAG_DEFAULT</b>; otherwise, one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KNOWN_FOLDER_FLAG</a> values.
-
 
 ### -param hToken [in]
 
@@ -89,13 +83,11 @@ The calling application is responsible for correct impersonation when <i>hToken<
 
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This allows clients of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a> to set folder locations (such as the <b>Desktop</b> folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as <b>Documents</b> and <b>Desktop</b>. Any items added to the Default User folder also appear in any new user account. Note that access to the Default User folders requires administrator privileges.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 A reference to the IID of the interface that represents the item, usually IID_IShellItem or IID_IShellItem2.
-
 
 ### -param ppv [out]
 
@@ -103,10 +95,7 @@ Type: <b>void**</b>
 
 When this method returns, contains the interface pointer requested in <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -129,14 +118,8 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller of this function must have Administrator privileges. To call this function on public known folders, the caller must have Administrator privileges. For per-user known folders the caller only requires User privileges.
 
@@ -146,13 +129,7 @@ This function cannot be called on folders of type <a href="https://docs.microsof
 
 To call this function on a folder of type <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_COMMON</a>, the calling application must be running with elevated privileges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
 
@@ -175,7 +152,4 @@ To call this function on a folder of type <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>
- 
-
- 
 

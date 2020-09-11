@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 59369959-3347-44d0-8b08-5c38ac58fdb0
 ms.date: 12/05/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileFromApp, MapViewOfFileFromApp function, base.mapviewoffilefromapp, memoryapi/MapViewOfFileFromApp
-f1_keywords:
-- memoryapi/MapViewOfFileFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- MapViewOfFileFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapViewOfFileFromApp
+ - memoryapi/MapViewOfFileFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - MapViewOfFileFromApp
 ---
 
 # MapViewOfFileFromApp function
@@ -55,22 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a view of a file mapping into the address space of a calling 
     Windows Store app.
 
-
 ## -parameters
-
-
-
 
 ### -param hFileMappingObject [in]
 
 A handle to a file mapping object. The 
        <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp">CreateFileMappingFromApp</a>  function returns 
        this handle.
-
 
 ### -param DesiredAccess [in]
 
@@ -189,7 +184,6 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
 For more information  about access to file mapping objects, see 
        <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
-
 ### -param FileOffset [in]
 
 The file offset where the view is to begin. The offset must specify an offset within the file mapping. They 
@@ -198,29 +192,20 @@ The file offset where the view is to begin. The offset must specify an offset wi
        <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
        a <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
 
-
 ### -param NumberOfBytesToMap [in]
 
 The number of bytes of a file mapping to map to the view. All bytes must be within the maximum size specified 
        by <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp">CreateFileMappingFromApp</a>. If this 
        parameter is 0 (zero), the mapping extends from the specified offset to the end of the file mapping.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the starting address of the mapped view.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 With one important exception, file views derived from any file mapping object that is backed by the same file 
     are coherent or identical at a specific time. Coherency is guaranteed for views within a process and for views 
@@ -234,13 +219,7 @@ The exception is related to remote files. Although
 
  You can only successfully request executable protection if your app has the <b>codeGeneration</b> capability.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
@@ -279,7 +258,4 @@ The exception is related to remote files. Although
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
- 
-
- 
 

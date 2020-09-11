@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 79711b24-e092-4a36-810a-6acad279eb90
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONDITION_ALE_APP_ID, FWPM_CONDITION_ALE_USER_ID, FWPM_CONDITION_IP_LOCAL_ADDRESS, FWPM_CONDITION_IP_LOCAL_PORT, FWPM_CONDITION_IP_PROTOCOL, FWPM_CONDITION_IP_REMOTE_ADDRESS, FWPM_CONDITION_IP_REMOTE_PORT, FWPM_CONDITION_SCOPE_ID, FWPM_NET_EVENT_ENUM_TEMPLATE0, FWPM_NET_EVENT_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_net_event_enum_template0, fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
-f1_keywords:
-- fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_NET_EVENT_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_ENUM_TEMPLATE0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_NET_EVENT_ENUM_TEMPLATE0_
+ - fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0_
+ - FWPM_NET_EVENT_ENUM_TEMPLATE0
+ - fwpmtypes/FWPM_NET_EVENT_ENUM_TEMPLATE0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_NET_EVENT_ENUM_TEMPLATE0
 ---
 
 # FWPM_NET_EVENT_ENUM_TEMPLATE0 structure
@@ -49,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_NET_EVENT_ENUM_TEMPLATE0</b> structure is used for enumerating net events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field startTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the start time of the period to be checked for net events.
 
-
 ### -field endTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the end time of the period to be checked for net events. It must be greater than or equal to <b>startTime</b>.
 
-
 ### -field numFilterConditions
 
 Indicates the number of filter conditions in the <b>filterCondition</b> member.  If this field is 0, all events will be returned.
-
 
 ### -field filterCondition
 
@@ -170,22 +165,12 @@ The identification of the local user.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 <b>FWPM_NET_EVENT_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_NET_EVENT_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
@@ -196,7 +181,4 @@ The identification of the local user.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
 

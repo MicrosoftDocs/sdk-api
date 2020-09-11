@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 720b37dd-a957-4da9-8b94-4642e515bc22
 ms.date: 12/05/2018
 ms.keywords: SpQueryContextAttributes, SpQueryContextAttributes callback function [Security], SpQueryContextAttributesFn, SpQueryContextAttributesFn callback, _ssp_spquerycontextattributes, ntsecpkg/SpQueryContextAttributes, security.spquerycontextattributes
-f1_keywords:
-- ntsecpkg/SpQueryContextAttributes
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpQueryContextAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpQueryContextAttributesFn
+ - ntsecpkg/SpQueryContextAttributesFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpQueryContextAttributes
 ---
 
 # SpQueryContextAttributesFn callback function
@@ -49,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SpQueryContextAttributes</b> function retrieves the attributes of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
 
 The <b>SpQueryContextAttributes</b> function is the dispatch function for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextHandle [in]
 
 A handle to the security context.
 
-
 ### -param ContextAttribute [in]
 
 Context attribute to query. For a list of valid values, see the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
-
 
 ### -param Buffer [out]
 
@@ -80,10 +74,7 @@ Pointer that receives the address of a buffer containing the requested attribute
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_dll_functions">SECPKG_DLL_FUNCTIONS</a> function table in user-mode. In <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) mode, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
@@ -106,14 +97,8 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SSP/APs must implement the <b>SpQueryContextAttributes</b> function; however, the actual name given to the implementation is up to the developer.
 
@@ -125,20 +110,11 @@ A pointer to the user-mode implementation of the <b>SpQueryContextAttributes</b>
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
- 
-
- 
 

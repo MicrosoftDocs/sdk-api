@@ -8,10 +8,6 @@ tech.root: VStor
 ms.assetid: 7817863a-38ca-4686-9d66-71700dba852f
 ms.date: 12/05/2018
 ms.keywords: EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata
-f1_keywords:
-- virtdisk/EnumerateVirtualDiskMetadata
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VirtDisk.dll
-api_name:
-- EnumerateVirtualDiskMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumerateVirtualDiskMetadata
+ - virtdisk/EnumerateVirtualDiskMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VirtDisk.dll
+api_name:
+ - EnumerateVirtualDiskMetadata
 ---
 
 # EnumerateVirtualDiskMetadata function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the metadata associated with a virtual disk.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualDiskHandle [in]
 
 Handle to an open virtual disk.
-
 
 ### -param NumberOfItems [in, out]
 
@@ -71,17 +66,13 @@ Address of a <b>ULONG</b>. On input, the value indicates the number of elements 
       <b>ERROR_INSUFFICIENT_BUFFER</b> and the <b>ULONG</b> will contain the 
       required buffer size.
 
-
 ### -param Items [out]
 
 Address of a buffer to be filled with the <b>GUID</b>s representing the metadata. The 
       <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-getvirtualdiskmetadata">GetVirtualDiskMetadata</a> function can be used 
       to retrieve the data represented by each <b>GUID</b>.
 
-
 ## -returns
-
-
 
 Status of the request.
 
@@ -93,16 +84,7 @@ If the buffer pointed to by the <i>Items</i> parameter was too small, the return
 If the function fails, the return value is an error code. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bdc583ef-a5b6-4665-949c-50f79ace39dc
 ms.date: 12/05/2018
 ms.keywords: SHGetAttributesFromDataObject, SHGetAttributesFromDataObject function [Windows Shell], _win32_SHGetAttributesFromDataObject, shell.SHGetAttributesFromDataObject, shlobj_core/SHGetAttributesFromDataObject
-f1_keywords:
-- shlobj_core/SHGetAttributesFromDataObject
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHGetAttributesFromDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetAttributesFromDataObject
+ - shlobj_core/SHGetAttributesFromDataObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHGetAttributesFromDataObject
 ---
 
 # SHGetAttributesFromDataObject function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHGetAttributesFromDataObject</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Retrieves specified pieces of information from a system data object.
 
-
 ## -parameters
-
-
-
 
 ### -param pdo [in, optional]
 
@@ -66,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objid
 
 The data object from which to retrieve the information.
 
-
 ### -param dwAttributeMask
 
 Type: <b>DWORD</b>
 
 One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO</a> flags that indicate which pieces of information the calling application wants to retrieve.
-
 
 ### -param pdwAttributes [out, optional]
 
@@ -80,17 +74,13 @@ Type: <b>DWORD*</b>
 
 A pointer to a <b>DWORD</b> value that, when this function returns successfully, receives one or more <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO</a> flags that indicate the attributes, among those requested, that are common to all items in <i>pdo</i>. This pointer can be <b>NULL</b> if this information is not needed.
 
-
 ### -param pcItems [out, optional]
 
 Type: <b>UINT*</b>
 
 A pointer to a <b>UINT</b> that, when this function returns successfully, receives the number of PIDLs in the data object pointed to by <i>pdo</i>. This pointer can be <b>NULL</b> if this information is not needed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -124,7 +114,4 @@ The object is not a system data object. In this case, <i>pdwAttributes</i> is se
 </td>
 </tr>
 </table>
- 
-
-
 

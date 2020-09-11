@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfo method, IWMPMedia.getItemInfo, IWMPMedia2 interface [Windows Media Player],getItemInfo method, IWMPMedia2::getItemInfo, IWMPMedia3 interface [Windows Media Player],getItemInfo method, IWMPMedia3::getItemInfo, IWMPMedia::getItemInfo, IWMPMediagetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPMedia interface, getItemInfo method [Windows Media Player],IWMPMedia2 interface, getItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfo, wmp/IWMPMedia2::getItemInfo, wmp/IWMPMedia3::getItemInfo, wmp/IWMPMedia::getItemInfo
-f1_keywords:
-- wmp/IWMPMedia.getItemInfo
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPMedia.getItemInfo
-- IWMPMedia2.getItemInfo
-- IWMPMedia3.getItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMedia::getItemInfo
+ - wmp/IWMPMedia::getItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPMedia.getItemInfo
+ - IWMPMedia2.getItemInfo
+ - IWMPMedia3.getItemInfo
 ---
 
 # IWMPMedia::getItemInfo
@@ -51,31 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getItemInfo</b> method retrieves the value of the specified attribute for the media item.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItemName [in]
 
 <b>BSTR</b> containing the item name.
 
-
 ### -param pbstrVal [out]
 
 Pointer to a <b>BSTR</b> containing the returned value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,14 +85,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves the metadata for an individual media item or a media item that is part of a playlist.
 
@@ -160,13 +143,7 @@ attribute, as shown in the following table:<table>
 </ul>
 <b>Windows Media Player 10 Mobile:</b> Attributes for a media item are available only during playback unless they are retrieved from the item through the media collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/attribute-reference">Attribute Reference</a>
 
@@ -189,7 +166,4 @@ attribute, as shown in the following table:<table>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-setiteminfo">IWMPMedia::setItemInfo</a>
- 
-
- 
 

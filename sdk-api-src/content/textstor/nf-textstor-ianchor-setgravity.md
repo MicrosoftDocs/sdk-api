@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c532abcf-9ae0-4566-80f7-0bb4ae908fce
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetGravity method, IAnchor.SetGravity, IAnchor::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetGravity, tsf.ianchor_setgravity
-f1_keywords:
-- textstor/IAnchor.SetGravity
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.SetGravity
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::SetGravity
+ - textstor/IAnchor::SetGravity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.SetGravity
 ---
 
 # IAnchor::SetGravity
@@ -53,17 +54,11 @@ Sets the gravity of the anchor.
 
 ## -parameters
 
-
-
-
 ### -param gravity [in]
 
 Contains a value from the <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a> enumeration that specifies a new forward or backward gravity for the anchor.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -84,15 +79,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
@@ -107,7 +95,4 @@ The method was successful.
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
- 
-
- 
 

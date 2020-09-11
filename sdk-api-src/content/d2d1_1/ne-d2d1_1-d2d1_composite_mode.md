@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 4f01e805-aed7-4bfc-9793-42a9fdde3473
 ms.date: 12/05/2018
 ms.keywords: D2D1_COMPOSITE_MODE, D2D1_COMPOSITE_MODE enumeration [Direct2D], D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY, D2D1_COMPOSITE_MODE_DESTINATION_ATOP, D2D1_COMPOSITE_MODE_DESTINATION_IN, D2D1_COMPOSITE_MODE_DESTINATION_OUT, D2D1_COMPOSITE_MODE_DESTINATION_OVER, D2D1_COMPOSITE_MODE_MASK_INVERT, D2D1_COMPOSITE_MODE_PLUS, D2D1_COMPOSITE_MODE_SOURCE_ATOP, D2D1_COMPOSITE_MODE_SOURCE_COPY, D2D1_COMPOSITE_MODE_SOURCE_IN, D2D1_COMPOSITE_MODE_SOURCE_OUT, D2D1_COMPOSITE_MODE_SOURCE_OVER, D2D1_COMPOSITE_MODE_XOR, d2d1_1/D2D1_COMPOSITE_MODE, d2d1_1/D2D1_COMPOSITE_MODE_BOUNDED_SOURCE_COPY, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_ATOP, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_IN, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_OUT, d2d1_1/D2D1_COMPOSITE_MODE_DESTINATION_OVER, d2d1_1/D2D1_COMPOSITE_MODE_MASK_INVERT, d2d1_1/D2D1_COMPOSITE_MODE_PLUS, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_ATOP, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_COPY, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_IN, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_OUT, d2d1_1/D2D1_COMPOSITE_MODE_SOURCE_OVER, d2d1_1/D2D1_COMPOSITE_MODE_XOR, direct2d.__d2d1_composite_mode
-f1_keywords:
-- d2d1_1/D2D1_COMPOSITE_MODE
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D2d1_1.h
-api_name:
-- D2D1_COMPOSITE_MODE
 targetos: Windows
 req.typenames: D2D1_COMPOSITE_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_COMPOSITE_MODE
+ - d2d1_1/D2D1_COMPOSITE_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D2d1_1.h
+api_name:
+ - D2D1_COMPOSITE_MODE
 ---
 
 ## -description
@@ -127,3 +128,4 @@ For an example that uses composite modes, download the <a href="https://github.c
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-drawimage(id2d1effect_constd2d1_point_2f_constd2d1_rect_f_d2d1_interpolation_mode_d2d1_composite_mode)">ID2D1DeviceContext::DrawImage</a>
+

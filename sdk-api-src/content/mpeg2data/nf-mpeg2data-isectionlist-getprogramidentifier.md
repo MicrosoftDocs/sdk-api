@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 25a4bd3c-ef02-4685-8c83-06025ce4410c
 ms.date: 12/05/2018
 ms.keywords: GetProgramIdentifier, GetProgramIdentifier method [Microsoft TV Technologies], GetProgramIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetProgramIdentifier method, ISectionList.GetProgramIdentifier, ISectionList::GetProgramIdentifier, ISectionListGetProgramIdentifier, mpeg2data/ISectionList::GetProgramIdentifier, mstv.isectionlist_getprogramidentifier
-f1_keywords:
-- mpeg2data/ISectionList.GetProgramIdentifier
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- ISectionList.GetProgramIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISectionList::GetProgramIdentifier
+ - mpeg2data/ISectionList::GetProgramIdentifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - ISectionList.GetProgramIdentifier
 ---
 
 # ISectionList::GetProgramIdentifier
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetProgramIdentifier</b> method retrieves the program identifier (PID) of the packets that this object is receiving.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPid
 
 Receives the PID.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -100,27 +90,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The PID value is set when the object is first initialized.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 894bde77-5e76-452b-acf5-c73fcaf1fa31
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerExit object, GetRequestAttribute method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestAttribute method, ICertServerExit.GetRequestAttribute, ICertServerExit::GetRequestAttribute, _certsrv_icertserverexit_getrequestattribute, certif/ICertServerExit::GetRequestAttribute, security.icertserverexit_getrequestattribute
-f1_keywords:
-- certif/ICertServerExit.GetRequestAttribute
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerExit.GetRequestAttribute
-- CCertServerExit.GetRequestAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerExit::GetRequestAttribute
+ - certif/ICertServerExit::GetRequestAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerExit.GetRequestAttribute
+ - CCertServerExit.GetRequestAttribute
 ---
 
 # ICertServerExit::GetRequestAttribute
@@ -50,31 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetRequestAttribute</b> method returns a named <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> value from a request.
 
 Prior to calling this method, it is necessary to call 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param strAttributeName [in]
 
 The name of the attribute to retrieve.
 
-
 ### -param pstrAttributeValue [out]
 
 A pointer to a <b>BSTR</b> value that will contain the attribute value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 If the method succeeds, the method returns S_OK, and *<i>pstrAttributeValue</i> is set to the <b>BSTR</b> that contains the attribute value.
@@ -88,12 +80,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a string that represents the attribute value.
 
-
-
-
 ## -remarks
-
-
 
 You must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
@@ -151,21 +138,11 @@ if (NULL != bstrAttribValue)
     SysFreeString(bstrAttribValue);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
- 
-
- 
 

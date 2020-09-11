@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: a7f5689d-4849-4363-bc61-3fed63f4287b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupJoin, PeerGroupJoin function [Peer Networking], p2p.peergroupjoin, p2p/PeerGroupJoin
-f1_keywords:
-- p2p/PeerGroupJoin
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerGroupJoin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGroupJoin
+ - p2p/PeerGroupJoin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerGroupJoin
 ---
 
 # PeerGroupJoin function
@@ -49,39 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGroupJoin</b> function prepares a peer with an invitation to join an existing peer group prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnectbyaddress">PeerGroupConnectByAddress</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzIdentity [in]
 
 Pointer to a Unicode string that contains the identity opening the specified peer group. If this parameter is <b>NULL</b>, the implementation uses the identity obtained from <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetdefault">PeerIdentityGetDefault</a>.
 
-
-
 ### -param pwzInvitation [in]
 
 Pointer to a Unicode string that contains the XML invitation granted by another peer. An invitation is created when the inviting peer calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupissuecredentials">PeerGroupIssueCredentials</a>. Specific details regarding this invitation can be obtained as a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a> structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>. This parameter is required.
-
 
 ### -param pwzCloud [in]
 
 Pointer to a Unicode string that contains the name of the PNRP cloud where a group is located.  The default value is <b>NULL</b>, which indicates that the cloud specified in the invitation must be used.
 
-
 ### -param phGroup [out]
 
 Pointer to the handle of the peer group. To start communication with a group, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>. This parameter is required.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b>  if the operation succeeds. Otherwise, the function returns one of the following values.
 
@@ -195,13 +184,7 @@ Access to the peer identity or peer group keys is denied. Typically,  this is  c
 
 Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_info">PEER_INVITATION_INFO</a>
 
@@ -224,7 +207,4 @@ Cryptography-specific errors can be returned from the <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>
- 
-
- 
 

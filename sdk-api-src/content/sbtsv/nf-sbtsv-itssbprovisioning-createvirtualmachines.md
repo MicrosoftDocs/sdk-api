@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualMachines, CreateVirtualMachines method [Remote Desktop Services], CreateVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CreateVirtualMachines method, ITsSbProvisioning.CreateVirtualMachines, ITsSbProvisioning::CreateVirtualMachines, sbtsv/ITsSbProvisioning::CreateVirtualMachines, termserv.itssbprovisioning_createvirtualmachines
-f1_keywords:
-- sbtsv/ITsSbProvisioning.CreateVirtualMachines
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbProvisioning.CreateVirtualMachines
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbProvisioning::CreateVirtualMachines
+ - sbtsv/ITsSbProvisioning::CreateVirtualMachines
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbProvisioning.CreateVirtualMachines
 ---
 
 # ITsSbProvisioning::CreateVirtualMachines
@@ -49,50 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a virtual machine asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param JobXmlString [in]
 
 Defines the job.
 
-
 ### -param JobGuid [in]
 
 A <b>GUID</b> that identifies the job.
-
 
 ### -param pSink [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovisioningpluginnotifysink">ITsSbProvisioningPluginNotifySink</a> object that notifies the RD Connection Broker about the job.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovisioning-canceljob">CancelJob</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovisioning">ITsSbProvisioning</a>
- 
-
- 
 

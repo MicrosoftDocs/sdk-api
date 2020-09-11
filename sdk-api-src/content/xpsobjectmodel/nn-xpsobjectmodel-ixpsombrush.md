@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 43cb56db-e09e-47cb-b50b-7827131659fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], IXpsOMBrush interface [XPS Documents and Packaging],described, xps.ixpsombrush, xpsobjectmodel/IXpsOMBrush
-f1_keywords:
-- xpsobjectmodel/IXpsOMBrush
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMBrush
+ - xpsobjectmodel/IXpsOMBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMBrush
 ---
 
 # IXpsOMBrush interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines objects that are used to paint graphical objects. Classes that derive from <b>IXpsOMBrush</b> describe how the area is painted. 
-
+Defines objects that are used to paint graphical objects. Classes that derive from <b>IXpsOMBrush</b> describe how the area is painted.
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Sets the opacity of the brush.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
@@ -115,7 +110,4 @@ Sets the opacity of the brush.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

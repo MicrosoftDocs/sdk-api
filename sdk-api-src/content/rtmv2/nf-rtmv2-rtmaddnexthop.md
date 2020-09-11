@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 7c11397b-f5c9-4a3e-88d8-2f1736f5da13
 ms.date: 12/05/2018
 ms.keywords: RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RtmAddNextHop, RtmAddNextHop function [RAS], _rtmv2ref_rtmaddnexthop, rras.rtmaddnexthop, rtmv2/RtmAddNextHop
-f1_keywords:
-- rtmv2/RtmAddNextHop
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmAddNextHop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmAddNextHop
+ - rtmv2/RtmAddNextHop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmAddNextHop
 ---
 
 # RtmAddNextHop function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmAddNextHop</b> function adds a new next-hop entry or updates an existing next-hop entry to a client's next-hop list. If a next hop already exists, the routing table manager returns a handle to the next hop. This handle can then be used to specify a next hop to a destination when adding or updating a route.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
 
 ### -param NextHopInfo [in]
 
@@ -97,8 +92,6 @@ This flag is reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NextHopHandle [in, out]
 
@@ -111,7 +104,6 @@ If the client does not have a handle and a handle must be returned (client is ad
 
 If a handle does not need to be returned (client is adding or updating a next hop): On input, <i>NextHopHandle</i> is <b>NULL</b>. The values in <i>NextHopInfo</i> are used to identify the next hop to update.
 
-
 ### -param ChangeFlags [out]
 
 On input, <i>ChangeFlags</i> is a pointer to an <b>RTM_NEXTHOP_CHANGE_FLAGS</b> data type. 
@@ -121,10 +113,7 @@ On input, <i>ChangeFlags</i> is a pointer to an <b>RTM_NEXTHOP_CHANGE_FLAGS</b> 
 
 On output, <i>ChangeFlags</i> receives a flag indicating whether a next hop was added or updated. If <i>ChangeFlags</i> is zero, a next hop was updated; if <i>ChangeFlags</i> is <b>RTM_NEXTHOP_CHANGE_NEW</b>, a next hop was added.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -163,26 +152,14 @@ There is not enough memory to complete this operation.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 If <i>NextHopHandle</i> points to a non-<b>NULL</b> handle, the next hop specified by the handle is updated. Otherwise, a search is made for the address specified by <i>NextHopInfo</i>. If a next hop is found, it is updated. If no match is found, a new next hop is added.
 
 If a handle was returned, release the handle when it is no longer required by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/next-hop-flags">Next Hop Flags</a>
 
@@ -209,7 +186,4 @@ If a handle was returned, release the handle when it is no longer required by ca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>
- 
-
- 
 

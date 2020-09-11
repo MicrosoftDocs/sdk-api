@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 17456440-c655-48ab-8d1e-ee770330f164
 ms.date: 12/05/2018
 ms.keywords: CreateRectRgn, CreateRectRgn function [Windows GDI], _win32_CreateRectRgn, gdi.createrectrgn, wingdi/CreateRectRgn
-f1_keywords:
-- wingdi/CreateRectRgn
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-rgn-l1-1-0.dll
-- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
-- api-ms-win-gdi-ie-rgn-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
-- GDI32Full.dll
-api_name:
-- CreateRectRgn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateRectRgn
+ - wingdi/CreateRectRgn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-rgn-l1-1-0.dll
+ - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+ - api-ms-win-gdi-ie-rgn-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+ - GDI32Full.dll
+api_name:
+ - CreateRectRgn
 ---
 
 # CreateRectRgn function
@@ -55,49 +56,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateRectRgn</b> function creates a rectangular region.
 
-
 ## -parameters
-
-
-
 
 ### -param x1 [in]
 
 Specifies the x-coordinate of the upper-left corner of the region in logical units.
 
-
 ### -param y1 [in]
 
 Specifies the y-coordinate of the upper-left corner of the region in logical units.
-
 
 ### -param x2 [in]
 
 Specifies the x-coordinate of the lower-right corner of the region in logical units.
 
-
 ### -param y2 [in]
 
 Specifies the y-coordinate of the lower-right corner of the region in logical units.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the handle to the region.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 When you no longer need the <b>HRGN</b> object, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
@@ -113,12 +98,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
 
@@ -157,7 +137,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
 

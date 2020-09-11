@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataCopier interface [Core Audio],Open method, ISpatialAudioMetadataCopier.Open, ISpatialAudioMetadataCopier::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataCopier interface, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataCopier.Open
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialAudioMetadata.h
-api_name:
-- ISpatialAudioMetadataCopier.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataCopier::Open
+ - spatialaudiometadata/ISpatialAudioMetadataCopier::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialAudioMetadata.h
+api_name:
+ - ISpatialAudioMetadataCopier.Open
 ---
 
 # ISpatialAudioMetadataCopier::Open
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object for copying.
 
-
 ## -parameters
-
-
-
 
 ### -param metadataItems [in]
 
 A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object to be opened for copying
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -97,22 +90,12 @@ The provided pointer is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatacopier">ISpatialAudioMetadataCopier</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>
- 
-
- 
 

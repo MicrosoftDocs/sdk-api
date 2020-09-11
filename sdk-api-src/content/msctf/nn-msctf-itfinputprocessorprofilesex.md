@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c3d811df-dfa4-4de1-abb9-ff0291258c8c
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework], ITfInputProcessorProfilesEx interface [Text Services Framework],described, msctf/ITfInputProcessorProfilesEx, tsf.itfinputprocessorprofilesex
-f1_keywords:
-- msctf/ITfInputProcessorProfilesEx
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfInputProcessorProfilesEx
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfilesEx
+ - msctf/ITfInputProcessorProfilesEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfInputProcessorProfilesEx
 ---
 
 # ITfInputProcessorProfilesEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This  interface is implemented by the TSF manager and used by a text service or application to set the display description of the language profile. To obtain an instance of this interface, call <b>ITfInputProcessorProfiles::QueryInterface</b> with <b>IID_ITfInputProcessorProfilesEx</b>.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Sets the display text  for  an existing language profile from a string resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

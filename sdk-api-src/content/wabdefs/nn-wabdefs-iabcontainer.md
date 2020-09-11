@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iabcontainer\iabcontainer.htm
 ms.date: 12/05/2018
 ms.keywords: IABContainer, IABContainer interface [Windows Address Book], IABContainer interface [Windows Address Book],described, _wab_IABContainer, wab._wab_IABContainer, wabdefs/IABContainer
-f1_keywords:
-- wabdefs/IABContainer
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IABContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IABContainer
+ - wabdefs/IABContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IABContainer
 ---
 
 # IABContainer interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface provides access to address book containers. Applications call the methods of the interface to perform name resolution and to create, copy, and delete recipients.
-
 
 ## -inheritance
 
@@ -249,5 +248,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

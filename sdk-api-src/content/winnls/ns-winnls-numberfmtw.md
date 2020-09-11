@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e
 ms.date: 12/05/2018
 ms.keywords: '*LPNUMBERFMTW, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTW, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT'
-f1_keywords:
-- winnls/NUMBERFMT
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnls.h
-api_name:
-- NUMBERFMT
 targetos: Windows
 req.typenames: NUMBERFMTW, *LPNUMBERFMTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _numberfmtW
+ - winnls/_numberfmtW
+ - LPNUMBERFMTW
+ - winnls/LPNUMBERFMTW
+ - NUMBERFMTW
+ - winnls/NUMBERFMTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnls.h
+api_name:
+ - NUMBERFMT
 ---
 
 # NUMBERFMTW structure
@@ -49,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information that defines the format of a number string. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a> function uses this information to customize a number string for a specified locale.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field NumDigits
 
 Number of fractional digits. This value is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-idigits">LOCALE_IDIGITS</a>.
 
-
 ### -field LeadingZero
 
 A value indicating if leading zeros should be used in decimal fields. This value is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
-
 
 ### -field Grouping
 
@@ -82,30 +77,21 @@ Number of digits in each group of numbers to the left of the decimal separator s
 
 Pointer to a null-terminated decimal separator string.
 
-
 ### -field lpThousandSep
 
 Pointer to a null-terminated thousand separator string.
-
 
 ### -field NegativeOrder
 
 Negative number mode. This mode is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGNUMBER</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
- 
-
- 
 
 ## -remarks
 

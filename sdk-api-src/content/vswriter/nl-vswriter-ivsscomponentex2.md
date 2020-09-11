@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: f40705bf-46a9-464d-a545-1d68d89876c2
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx2, IVssComponentEx2 interface, IVssComponentEx2 interface,described, base.ivsscomponentex2, vswriter/IVssComponentEx2
-f1_keywords:
-- vswriter/IVssComponentEx2
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponentEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx2
+ - vswriter/IVssComponentEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponentEx2
 ---
 
 # IVssComponentEx2 class
 
 
 ## -description
-
 
 Defines additional methods for reporting and retrieving component-level writer errors.
 
@@ -59,7 +59,6 @@ To obtain an instance of the <b>IVssComponentEx2</b>
    interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface and pass 
    the <b>IID_IVssComponentEx2</b> constant as the interface identifier (IID) parameter.
-
 
 ## -inheritance
 
@@ -94,20 +93,13 @@ VSS writers call this method to report errors at the component level.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex">IVssComponentEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Controls], GDT_NONE, GDT_VALID, _win32_DateTime_SetSystemtime, _win32_DateTime_SetSystemtime_cpp, commctrl/DateTime_SetSystemtime, controls.DateTime_SetSystemtime, controls._win32_DateTime_SetSystemtime
-f1_keywords:
-- commctrl/DateTime_SetSystemtime
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_SetSystemtime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_SetSystemtime
+ - commctrl/DateTime_SetSystemtime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_SetSystemtime
 ---
 
 # DateTime_SetSystemtime macro
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setsystemtime">DTM_SETSYSTEMTIME</a> message explicitly. 
-
+Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setsystemtime">DTM_SETSYSTEMTIME</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hdp
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a DTP control. 
-
+A handle to a DTP control.
 
 ### -param gd
 
@@ -98,12 +93,10 @@ Set the DTP control to "no date" and clear its check box. When this flag is spec
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pst
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the system time information by which to set the DTP control. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the system time information by which to set the DTP control.
 

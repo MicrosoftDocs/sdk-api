@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a6328be9-accd-4f11-82ee-49d3b18f9fd6
 ms.date: 12/05/2018
 ms.keywords: GetValidCharacters, GetValidCharacters method [Windows Shell], GetValidCharacters method [Windows Shell],IItemNameLimits interface, IItemNameLimits interface [Windows Shell],GetValidCharacters method, IItemNameLimits.GetValidCharacters, IItemNameLimits::GetValidCharacters, _shell_IItemNameLimits_GetValidCharacters, shell.IItemNameLimits_GetValidCharacters, shobjidl_core/IItemNameLimits::GetValidCharacters
-f1_keywords:
-- shobjidl_core/IItemNameLimits.GetValidCharacters
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IItemNameLimits.GetValidCharacters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IItemNameLimits::GetValidCharacters
+ - shobjidl_core/IItemNameLimits::GetValidCharacters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IItemNameLimits.GetValidCharacters
 ---
 
 # IItemNameLimits::GetValidCharacters
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads a string that contains each of the characters that are valid or invalid in the namespace under which it is called.
 
-
 ## -parameters
-
-
-
 
 ### -param ppwszValidChars [out]
 
@@ -64,28 +60,19 @@ Type: <b>LPWSTR*</b>
 
 A pointer to a string that contains all valid characters in the namespace. If the namespace provides <i>any</i> invalid characters in <i>ppwszInvalidChars</i>, then this value returns <b>NULL</b>. See Remarks for more details.
 
-
 ### -param ppwszInvalidChars [out]
 
 Type: <b>LPWSTR*</b>
 
 A pointer to a string that contains all invalid characters in the namespace.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 As an example, the standard file system returns the string "\/:*?"&lt;&gt;|" in <i>ppwszInvalidChars</i> and <b>NULL</b> in <i>ppwszValidChars</i>. 
 
@@ -95,9 +82,4 @@ in <i>ppwszInvalidChars</i>. It is assumed that when there are specified invalid
 			
 
 If the method returns a success code, the allocated string must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
-
-			
-
-
 

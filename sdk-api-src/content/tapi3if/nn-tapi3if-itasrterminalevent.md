@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 6bf8b1b7-698f-443f-9ddf-0d50551cebab
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent, ITASRTerminalEvent interface [TAPI 2.2], ITASRTerminalEvent interface [TAPI 2.2],described, _tapi3_itasrterminalevent, tapi3.itasrterminalevent, tapi3if/ITASRTerminalEvent
-f1_keywords:
-- tapi3if/ITASRTerminalEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITASRTerminalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITASRTerminalEvent
+ - tapi3if/ITASRTerminalEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITASRTerminalEvent
 ---
 
 # ITASRTerminalEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITASRTerminalEvent</b> interface contains methods that retrieve the description of Automatic Speech Recognition terminal events that have occurred. When the application's implementation of the 
@@ -104,13 +104,9 @@ Returns a pointer to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -133,7 +129,4 @@ Returns a pointer to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

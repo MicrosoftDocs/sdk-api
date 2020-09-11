@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
-f1_keywords:
-- oleacc/AccessibleObjectFromWindow
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Oleacc.dll
-- Ext-MS-Win-oleacc-l1-1-0.dll
-- ext-ms-win-oleacc-l1-1-1.dll
-api_name:
-- AccessibleObjectFromWindow
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - AccessibleObjectFromWindow
+ - oleacc/AccessibleObjectFromWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Oleacc.dll
+ - Ext-MS-Win-oleacc-l1-1-0.dll
+ - ext-ms-win-oleacc-l1-1-1.dll
+api_name:
+ - AccessibleObjectFromWindow
 ---
 
 # AccessibleObjectFromWindow function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the address of the specified interface for the object associated with the specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -66,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies the handle of a window for which an object is to be retrieved. To retrieve an interface pointer to the cursor or caret object, specify <b>NULL</b> and use the appropriate object ID in <i>dwObjectID</i>.
 
-
 ### -param dwId [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the object ID. This value is one of the standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">object identifier</a> constants or a custom object ID such as <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-identifiers">OBJID_NATIVEOM</a>, which is the object ID for the Office native object model. For more information about <b>OBJID_NATIVEOM</b>, see the Remarks section in this topic.
-
 
 ### -param riid [in]
 
@@ -80,17 +74,13 @@ Type: <b>REFIID</b>
 
 Specifies the reference identifier of the requested interface. This value is either IID_IAccessible or IID_IDispatch, but it can also be IID_IUnknown, or the IID of any interface that the object is expected to support.
 
-
 ### -param ppvObject [out]
 
 Type: <b>void**</b>
 
 Address of a pointer variable that receives the address of the specified interface.
 
-
 ## -returns
-
-
 
 Type: <b>STDAPI</b>
 
@@ -126,14 +116,8 @@ The requested interface is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Clients call this function to retrieve the address of an object's <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>, <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>, <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or other supported interface pointer.
 
@@ -174,13 +158,7 @@ To obtain an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispat
 
 Note that the above window classes correspond to the innermost document window or pane window. For more information about the Office object model, see the <a href="https://msdn.microsoft.com/library/aa141393%28office.10%29.aspx">Microsoft Office 2000/Visual Basic Programmer's Guide</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromevent">AccessibleObjectFromEvent</a>
 
@@ -195,7 +173,4 @@ Note that the above window classes correspond to the innermost document window o
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
- 
-
- 
 

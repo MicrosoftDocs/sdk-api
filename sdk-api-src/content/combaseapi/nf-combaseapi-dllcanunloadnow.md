@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a47df9eb-97cb-4875-a121-1dabe7bc9db6
 ms.date: 12/05/2018
 ms.keywords: DllCanUnloadNow, DllCanUnloadNow function [COM], _com_DllCanUnloadNow, com.dllcanunloadnow, combaseapi/DllCanUnloadNow
-f1_keywords:
-- combaseapi/DllCanUnloadNow
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- combaseapi.h
-api_name:
-- DllCanUnloadNow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DllCanUnloadNow
+ - combaseapi/DllCanUnloadNow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - combaseapi.h
+api_name:
+ - DllCanUnloadNow
 ---
 
 # DllCanUnloadNow function
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the DLL that implements this function is in use. If not, the caller can unload the DLL from memory.
 
 OLE does not provide this function. DLLs that support the OLE Component Object Model (COM) should implement and export <b>DllCanUnloadNow</b>.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If the function succeeds, the return value is S_OK. Otherwise, it is S_FALSE.
 
-
-
-
 ## -remarks
-
-
 
 A call to <b>DllCanUnloadNow</b> determines whether the DLL from which it is exported is still in use. A DLL is no longer in use when it is not managing any existing objects (the reference count on all of its objects is 0). 
 
@@ -91,16 +78,7 @@ If a DLL loaded through a call to <a href="https://docs.microsoft.com/windows/de
 
 <b>DllCanUnloadNow</b> should return S_FALSE if there are any existing references to objects that the DLL manages.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject">DllGetClassObject</a>
- 
-
- 
 

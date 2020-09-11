@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
 ms.date: 12/05/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
-f1_keywords:
-- webservices/WsStartWriterCanonicalization
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsStartWriterCanonicalization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsStartWriterCanonicalization
+ - webservices/WsStartWriterCanonicalization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsStartWriterCanonicalization
 ---
 
 # WsStartWriterCanonicalization function
@@ -49,56 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts canonicalization on the specified XML writer.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param writer [in]
 
 The XML writer on which canonicalization should be started.
-        
-
 
 ### -param writeCallback [in]
 
 The callback that to be invoked to write the canonical bytes as they are generated.
           This callback will always be invoked synchronously.
-        
-
 
 ### -param writeCallbackState [in]
 
 Caller-defined state that should be passed when invoking the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_write_callback">WS_WRITE_CALLBACK</a>.
-        
-
 
 ### -param properties
 
 An array of optional properties controlling how canonicalization is to be performed.  See <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a>.
-        
-
 
 ### -param propertyCount [in]
 
 The number of properties.
-        
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-        
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -141,14 +122,8 @@ The input data was not in the expected format or did not have the expected value
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The usage pattern for canonicalization is to:
 
@@ -192,7 +167,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webse
         <b>WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM</b> algorithms can only be used with
         entire xml documents.  The writer must positioned at <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a> when
         <b>WsStartWriterCanonicalization</b> is called with these algorithms.
-      
-
-
 

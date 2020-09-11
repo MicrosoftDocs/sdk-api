@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: BBC64078-FCA8-4868-B9CD-3E6F3C86BFC5
 ms.date: 12/05/2018
 ms.keywords: ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], ID3D11ModuleInstance interface [Direct3D 11],described, d3d11shader/ID3D11ModuleInstance, direct3d11.id3d11moduleinstance
-f1_keywords:
-- d3d11shader/ID3D11ModuleInstance
-dev_langs:
-- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler_47.dll
-api_name:
-- ID3D11ModuleInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11ModuleInstance
+ - d3d11shader/ID3D11ModuleInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler_47.dll
+api_name:
+ - ID3D11ModuleInstance
 ---
 
 # ID3D11ModuleInstance interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A module-instance interface is used for resource rebinding. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -161,12 +159,9 @@ Rebinds an unordered access view (UAV) by name to destination slots.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a module-instance interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11module-createinstance">ID3D11Module::CreateInstance</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-createmoduleinstance">ID3D11FunctionLinkingGraph::CreateModuleInstance</a>.
       
@@ -175,19 +170,11 @@ To get a module-instance interface, call <a href="https://docs.microsoft.com/win
       </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

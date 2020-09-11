@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 76b6bc3a-f5d1-4780-8071-9b221a6fd7d8
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpcasynccompletecall, rpc.rpcasynccompletecall, rpcasync/RpcAsyncCompleteCall
-f1_keywords:
-- rpcasync/RpcAsyncCompleteCall
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcAsyncCompleteCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcAsyncCompleteCall
+ - rpcasync/RpcAsyncCompleteCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcAsyncCompleteCall
 ---
 
 # RpcAsyncCompleteCall function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The client and the server call the 
 <b>RpcAsyncCompleteCall</b> function to complete an asynchronous remote procedure call.
 
-
 ## -parameters
-
-
-
 
 ### -param pAsync
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a> structure that contains asynchronous call information.
 
-
 ### -param Reply
 
 Pointer to a buffer containing the return value of the remote procedure call.
 
-
 ## -returns
-
-
 
 In addition to the following values, 
 <b>RpcAsyncCompleteCall</b> can also return any general RPC or application-specific error. 
@@ -133,11 +125,7 @@ The call was canceled.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Completes the asynchronous RPC call. Both client and server call this function.
 
@@ -158,13 +146,7 @@ Any <a href="https://docs.microsoft.com/windows/desktop/Midl/out-idl">[out]</a> 
 				<a href="https://msdn.microsoft.com/">[fault_status]</a> parameters, are only valid if the return value of 
 <b>RpcAsyncCompleteCall</b> is RPC_S_OK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
@@ -199,7 +181,4 @@ Any <a href="https://docs.microsoft.com/windows/desktop/Midl/out-idl">[out]</a> 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
- 
-
- 
 

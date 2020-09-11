@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 46f95ae3-efd2-4545-b31d-df04112aa737
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreTypeWStr property, IEnroll.MyStoreTypeWStr, IEnroll.get_MyStoreTypeWStr, IEnroll::MyStoreTypeWStr, IEnroll::get_MyStoreTypeWStr, IEnroll::put_MyStoreTypeWStr, MyStoreTypeWStr property [Security], MyStoreTypeWStr property [Security],IEnroll interface, get_MyStoreTypeWStr, security.ienroll4_mystoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::MyStoreTypeWStr, xenroll/IEnroll::get_MyStoreTypeWStr, xenroll/IEnroll::put_MyStoreTypeWStr
-f1_keywords:
-- xenroll/IEnroll.MyStoreTypeWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.MyStoreTypeWStr
-- IEnroll.get_MyStoreTypeWStr
-- IEnroll.put_MyStoreTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_MyStoreTypeWStr
+ - xenroll/IEnroll::get_MyStoreTypeWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.MyStoreTypeWStr
+ - IEnroll.get_MyStoreTypeWStr
+ - IEnroll.put_MyStoreTypeWStr
 ---
 
 # IEnroll::get_MyStoreTypeWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -61,14 +61,9 @@ The default value for this property is sz_CERT_STORE_PROV_SYSTEM. Only system st
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>MyStoreTypeWStr</b> property affects the behavior of the following methods:
 
@@ -81,17 +76,7 @@ The <b>MyStoreTypeWStr</b> property affects the behavior of the following method
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

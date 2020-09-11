@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 18b33455-b499-4aa9-9fec-41ec2c03a638
 ms.date: 12/05/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
-f1_keywords:
-- dvdmedia/AM_SimpleRateChange
-dev_langs:
-- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dvdmedia.h
-api_name:
-- AM_SimpleRateChange
 targetos: Windows
 req.typenames: AM_SimpleRateChange
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AM_SimpleRateChange
+ - dvdmedia/AM_SimpleRateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dvdmedia.h
+api_name:
+ - AM_SimpleRateChange
 ---
 
 # AM_SimpleRateChange structure
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AM_SimpleRateChange</b> structure is used to change the playback rate for an MPEG-2 stream.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field StartTime
 
 Specifies the time stamp on the input sample when the new rate takes effect. The new rate applies to all samples with a time stamp &gt;= <b>StartTime</b> and less than the start time on the next queued rate segment.
-          
-
 
 ### -field Rate
 
 Specifies the new rate x 10000. Rate is the inverse of speed. For example, if the playback speed is 2x, the rate is 1/2, so the <b>Rate</b> member is set to 5000.
-          
-
 
 ## -remarks
-
-
 
 <h3><a id="Version_1.1_Semantics"></a><a id="version_1.1_semantics"></a><a id="VERSION_1.1_SEMANTICS"></a>Version 1.1 Semantics</h3>
 For version 1.1 of this property set, the <b>StartTime</b> member can be -1. This value indicates that the rate change applies to the decoder's <i>most forward</i> sample, defined as the sample at the head of the decoder's outgoing queue.  To get the actual start time of the rate change, query the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/am-rate-querylastratesegpts-property">AM_RATE_QueryLastRateSegPTS</a> property.
@@ -235,21 +224,11 @@ HRESULT SetRate(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/am-rate-simpleratechange-property">AM_RATE_SimpleRateChange Property</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
- 
-
- 
 

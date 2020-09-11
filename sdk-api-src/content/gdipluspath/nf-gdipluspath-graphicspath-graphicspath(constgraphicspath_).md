@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath constructors [GDI+], GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(const GraphicsPath &), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(const GraphicsPath &), _gdiplus_CLASS_GraphicsPath_Constructors, gdiplus._gdiplus_CLASS_GraphicsPath_Constructors, gdipluspath/GraphicsPath
-f1_keywords:
-- gdipluspath/GraphicsPath.GraphicsPath
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdipluspath.h
-api_name:
-- GraphicsPath.GraphicsPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPath::GraphicsPath
+ - gdipluspath/GraphicsPath::GraphicsPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdipluspath.h
+api_name:
+ - GraphicsPath.GraphicsPath
 ---
 
 # GraphicsPath::GraphicsPath(const GraphicsPath &)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> class. For a complete class listing, see <b>GraphicsPath Class</b>. 

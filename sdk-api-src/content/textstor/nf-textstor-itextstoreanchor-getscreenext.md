@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5e1b446e-935f-492a-b168-8d1b60868d72
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetScreenExt method, ITextStoreAnchor.GetScreenExt, ITextStoreAnchor::GetScreenExt, textstor/ITextStoreAnchor::GetScreenExt, tsf.itextstoreanchor_getscreenext
-f1_keywords:
-- textstor/ITextStoreAnchor.GetScreenExt
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.GetScreenExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::GetScreenExt
+ - textstor/ITextStoreAnchor::GetScreenExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.GetScreenExt
 ---
 
 # ITextStoreAnchor::GetScreenExt
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreAnchor::GetScreenExt</b> method returns the bounding box screen coordinates of the display surface where the text stream is rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param vcView [in]
 
 Specifies the context view.
 
-
 ### -param prc [out]
 
 Receives the bounding box screen coordinates of the display surface of the document.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,24 +94,12 @@ The specified <i>vcView</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the text is not currently displayed, for example, if the document window is minimized, the <i>prc</i> parameter is set to { 0, 0, 0, 0 }.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
@@ -137,7 +117,4 @@ If the text is not currently displayed, for example, if the document window is m
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: a63240fb-8724-4cd2-b845-f48075f4cb57
 ms.date: 12/05/2018
 ms.keywords: IWorkspace3, IWorkspace3 interface [Remote Desktop Services], IWorkspace3 interface [Remote Desktop Services],described, termserv.iworkspace3, workspaceruntime/IWorkspace3
-f1_keywords:
-- workspaceruntime/IWorkspace3
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- workspaceruntime.h
-api_name:
-- IWorkspace3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspace3
+ - workspaceruntime/IWorkspace3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - workspaceruntime.h
+api_name:
+ - IWorkspace3
 ---
 
 # IWorkspace3 interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a connection in RemoteApp and Desktop Connection, and adds 
    the ability to retrieve or set a claims token.
-
 
 ## -inheritance
 
@@ -87,20 +86,13 @@ Retrieves the claims token.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-runtime-interfaces">RemoteApp and Desktop Connection Runtime interfaces</a>
- 
-
- 
 

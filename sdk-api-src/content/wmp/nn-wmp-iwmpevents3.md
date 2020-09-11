@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 654b7d78-97d4-4770-9729-dd1fed0431d9
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], IWMPEvents3 interface [Windows Media Player],described, IWMPEvents3Interface, wmp.iwmpevents3, wmp/IWMPEvents3
-f1_keywords:
-- wmp/IWMPEvents3
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPEvents3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents3
+ - wmp/IWMPEvents3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPEvents3
 ---
 
 # IWMPEvents3 interface
 
 
 ## -description
-
-
 
 The <b>IWMPEvents3</b> interface provides access to events originating from the Windows Media Player 11 control so that an application that has this control embedded in it can respond to these events. The events exposed by <b>IWMPEvents3</b> are also exposed by the <a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents</a> interface.
 
@@ -158,5 +157,5 @@ In addition to the methods inherited from <a href="https://docs.microsoft.com/wi
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnerror">Next</a>
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
 ms.date: 12/05/2018
 ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
-f1_keywords:
-- wmsdkidl/IWMStreamPrioritization.GetPriorityRecords
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamPrioritization.GetPriorityRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamPrioritization::GetPriorityRecords
+ - wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamPrioritization.GetPriorityRecords
 ---
 
 # IWMStreamPrioritization::GetPriorityRecords
@@ -52,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPriorityRecords</b> method retrieves the list of streams and their priorities from the profile.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pRecordArray [out]
 
 Pointer to an array of <b>WM_STREAM_PRIORITY_RECORD</b> structures. This array will receive the current stream priority data.
 
-
 ### -param pcRecords [in, out]
 
 Pointer to a <b>WORD</b> that receives the count of records.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,14 +108,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should make two calls to <b>GetPriorityRecords</b>. On the first call, pass <b>NULL</b> as <i>pRecordArray</i>. On return, the value of <i>pcRecords</i> is set to the number of prioritization records in the stream priority object. Then you can allocate the required amount of memory for the array and pass a pointer to it as <i>pRecordArray</i> in the second call.
 
@@ -134,13 +117,7 @@ If you pass an array as <i>pRecordArray</i> that does not have enough elements a
 
 Records in a stream prioritization object are given in order of decreasing priority
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization Interface</a>
 
@@ -151,7 +128,4 @@ Records in a stream prioritization object are given in order of decreasing prior
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a>
- 
-
- 
 

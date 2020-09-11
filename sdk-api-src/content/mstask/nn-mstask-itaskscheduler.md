@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskScheduler interface [Task Scheduler],described, _msb_itaskscheduler, mstask/ITaskScheduler, taskschd.itaskscheduler
-f1_keywords:
-- mstask/ITaskScheduler
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITaskScheduler
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITaskScheduler
+ - mstask/ITaskScheduler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITaskScheduler
 ---
 
 # ITaskScheduler interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Provides the methods for scheduling tasks.
 
 It is the primary interface of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
-
 
 ## -inheritance
 
@@ -146,5 +145,5 @@ Selects the computer that the
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
-f1_keywords:
-- d3dcommon/ID3DInclude
-dev_langs:
-- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCompiler_47.dll
-api_name:
-- ID3DInclude
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3DInclude
+ - d3dcommon/ID3DInclude
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCompiler_47.dll
+api_name:
+ - ID3DInclude
 ---
 
 # ID3DInclude interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>ID3DInclude</b> is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader #include files.
-      
-
 
 ## -inheritance
 
@@ -87,26 +85,13 @@ A user-implemented method for opening and reading the contents of a shader #incl
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To use this interface, create an interface that inherits from <b>ID3DInclude</b> and implement custom behavior for the methods.
-        
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: ad004f49-89a6-486c-80ec-5b85ab4b8db9
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_ASYNC_STATE, PRPC_ASYNC_STATE, PRPC_ASYNC_STATE structure pointer [RPC], RPC_ASYNC_STATE, RPC_ASYNC_STATE structure [RPC], RPC_C_NOTIFY_ON_SEND_COMPLETE, RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _rpc_rpc_async_state, rpc.rpc_async_state, rpcasync/PRPC_ASYNC_STATE, rpcasync/RPC_ASYNC_STATE'
-f1_keywords:
-- rpcasync/RPC_ASYNC_STATE
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcasync.h
-api_name:
-- RPC_ASYNC_STATE
 targetos: Windows
 req.typenames: RPC_ASYNC_STATE, *PRPC_ASYNC_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_ASYNC_STATE
+ - rpcasync/_RPC_ASYNC_STATE
+ - PRPC_ASYNC_STATE
+ - rpcasync/PRPC_ASYNC_STATE
+ - RPC_ASYNC_STATE
+ - rpcasync/RPC_ASYNC_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcasync.h
+api_name:
+ - RPC_ASYNC_STATE
 ---
 
 # RPC_ASYNC_STATE structure
@@ -49,33 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_ASYNC_STATE</b> structure holds the state of an asynchronous remote procedure call. <b>RPC_ASYNC_STATE</b> is a handle to this structure, used to wait for, query, reply to, or cancel asynchronous calls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of this structure, in bytes. The environment sets this member when 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a> is called. Do not modify this member.
 
-
 ### -field Signature
 
 The run-time environment sets this member when 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a> is called. Do not modify this member.
 
-
 ### -field Lock
 
 The run-time environment sets this member when 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a> is called. Do not modify this member.
-
 
 ### -field Flags
 
@@ -104,27 +101,22 @@ Posts a notification message when the asynchronous operation is complete.
 These flags are used with DCE pipes, which allow applications to send or receive data in multiple blocks. Programs can either send a continuous stream of data or wait for each block to be transmitted before it sends the next block. If it does not wait, the RPC run-time library will buffer the output until it can be sent. When the data transmission is complete, the RPC library sends the application a notification. If an application specifies the RPC_C_NOTIFY_ON_SEND_COMPLETE flag, the RPC library sends it a member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_notification_types">RPC_NOTIFICATION_TYPES</a> enumeration after it completes each send operation.
 
-
 ### -field StubInfo
 
 Reserved for use by the stubs. Do not use this member.
-
 
 ### -field UserInfo
 
 Use this member for any application-specific information that you want to keep track of in this structure.
 
-
 ### -field RuntimeInfo
 
 Reserved for use by the RPC run-time environment. Do not use this member.
-
 
 ### -field Event
 
 Type of event that occurred. The RPC run-time environment sets this field to a member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-rpc_async_event">RPC_ASYNC_EVENT</a> enumeration.
-
 
 ### -field NotificationType
 
@@ -198,8 +190,6 @@ The notification mechanism is a function callback.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field u
 
@@ -212,22 +202,13 @@ Contains asynchronous notification information formatted for the mechanism type 
 
 Reserved for compatibility with future versions, if any. Do not use this member.
 
-
 ## -remarks
-
-
 
 The client allocates space for the 
 <b>RPC_ASYNC_STATE</b> structure and an associated handle, and calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a> to initialize the structure. After the run-time environment has successfully initialized the structure, the client initializes the <b>NotificationType</b>, and exactly one of the following structures in the <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_notification_info">RPC_ASYNC_NOTIFICATION_INFO</a> union: <b>APC</b> for a Windows asynchronous procedure call, <b>IOC</b> for an I/O completion port, <b>HWND</b> for a Windows system message, or <b>hEvent</b> for a Windows event. If the chosen notification method is <b>RpcNotificationTypeNone</b>, no field of the union needs to be initialized. The RPC client may optionally initialize the <b>UserInfo</b> field as well.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
@@ -258,7 +239,4 @@ The client allocates space for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcservertestcancel">RpcServerTestCancel</a>
- 
-
- 
 

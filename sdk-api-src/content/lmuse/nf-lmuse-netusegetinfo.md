@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 257875db-5ed9-4569-8dbb-5dcc7a6af95c
 ms.date: 12/05/2018
 ms.keywords: NetUseGetInfo, NetUseGetInfo function [Network Management], _win32_netusegetinfo, lmuse/NetUseGetInfo, netmgmt.netusegetinfo
-f1_keywords:
-- lmuse/NetUseGetInfo
-dev_langs:
-- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUseGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUseGetInfo
+ - lmuse/NetUseGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUseGetInfo
 ---
 
 # NetUseGetInfo function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUseGetInfo</b> function retrieves information about a connection to a shared resource.
 
 You can also use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a> function to retrieve the name of a network resource associated with a local device.
 
-
 ## -parameters
-
-
-
 
 ### -param UncServerName [in]
 
@@ -68,13 +64,11 @@ The UNC name of computer on which to execute this function. If this is parameter
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -param UseName [in]
 
 A pointer to a string that specifies the name of the connection for which to return information.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
-
 
 ### -param LevelFlags [in]
 
@@ -124,8 +118,6 @@ Specifies information about the connection between a local device and a shared r
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -134,22 +126,14 @@ A pointer to the buffer that receives the data. The format of this data depends 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 No special group membership is required to call the 
 <b>NetUseGetInfo</b> function. This function cannot be executed on a remote server except in cases of downlevel compatibility.
@@ -159,15 +143,7 @@ To list all current connections between the local computer and resources on remo
 
 This function applies only to the Server Message Block (LAN Manager Workstation) client. The <b>NetUseGetInfo</b> function does not support Distributed File System (DFS) shares. To retrieve information for a share using a different network provider (WebDAV or a DFS share, for example), use the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a> function.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
@@ -200,7 +176,4 @@ This function applies only to the Server Message Block (LAN Manager Workstation)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: ff8d2dd0-adbb-40de-a074-3228d803f4c8
 ms.date: 12/05/2018
 ms.keywords: IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],described, termserv.iwrdsremotefxgraphicsconnection, wtsprotocol/IWRdsRemoteFXGraphicsConnection
-f1_keywords:
-- wtsprotocol/IWRdsRemoteFXGraphicsConnection
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsRemoteFXGraphicsConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsRemoteFXGraphicsConnection
+ - wtsprotocol/IWRdsRemoteFXGraphicsConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsRemoteFXGraphicsConnection
 ---
 
 # IWRdsRemoteFXGraphicsConnection interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The IWRdsRemoteFXGraphicsConnection interface is deprecated and should not be used.
 ]
 
 Exposes methods relating to the manipulation and understanding of graphics on the client connection.
-
 
 ## -inheritance
 
@@ -89,5 +88,5 @@ Retrieves the virtual channel transport object.
 
 </td>
 </tr>
-</table> 
+</table>
 

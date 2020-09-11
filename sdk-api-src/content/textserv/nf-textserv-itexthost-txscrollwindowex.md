@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscrollwindowex.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxScrollWindowEx method, ITextHost.TxScrollWindowEx, ITextHost::TxScrollWindowEx, SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, TxScrollWindowEx, TxScrollWindowEx method [Windows Controls], TxScrollWindowEx method [Windows Controls],ITextHost interface, _win32_ITextHost_TxScrollWindowEx, _win32_ITextHost_TxScrollWindowEx_cpp, controls.ITextHost_TxScrollWindowEx, controls._win32_ITextHost_TxScrollWindowEx, textserv/ITextHost::TxScrollWindowEx
-f1_keywords:
-- textserv/ITextHost.TxScrollWindowEx
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxScrollWindowEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxScrollWindowEx
+ - textserv/ITextHost::TxScrollWindowEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxScrollWindowEx
 ---
 
 # ITextHost::TxScrollWindowEx
@@ -49,56 +50,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests the text host to scroll the content of the specified client area.
 
-
 ## -parameters
-
-
-
 
 ### -param dx [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-Amount of horizontal scrolling. 
-
+Amount of horizontal scrolling.
 
 ### -param dy [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-Amount of vertical scrolling. 
-
+Amount of vertical scrolling.
 
 ### -param lprcScroll [in]
 
 Type: <b>LPCRECT</b>
 
-The coordinates for the scroll rectangle. 
-
+The coordinates for the scroll rectangle.
 
 ### -param lprcClip [in]
 
 Type: <b>LPCRECT</b>
 
-The coordinates for the clip rectangle. 
-
+The coordinates for the clip rectangle.
 
 ### -param hrgnUpdate [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
 
-Handle to the update region. 
-
+Handle to the update region.
 
 ### -param lprcUpdate [in]
 
 Type: <b>LPRECT</b>
 
-The coordinates for the update rectangle. 
-
+The coordinates for the update rectangle.
 
 ### -param fuScroll [in]
 
@@ -161,22 +151,12 @@ Scrolls using smooth scrolling. Use the
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 This method is only valid when the control is in-place active; calls while the control is inactive may fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -195,7 +175,4 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

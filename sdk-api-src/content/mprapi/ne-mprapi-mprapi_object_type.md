@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 93d5bf41-e0ec-4dcf-b784-bbd9746f8134
 ms.date: 12/05/2018
 ms.keywords: '*PMPRAPI_OBJECT_TYPE, MPRAPI_OBJECT_TYPE, MPRAPI_OBJECT_TYPE enumeration [RAS], MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT, MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT, MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT, MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT, MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT, mprapi/MPRAPI_OBJECT_TYPE, mprapi/MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT, mprapi/MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT, mprapi/MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT, mprapi/MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT, mprapi/MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT, rras.mprapi_object_type'
-f1_keywords:
-- mprapi/MPRAPI_OBJECT_TYPE
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- MPRAPI_OBJECT_TYPE
 targetos: Windows
 req.typenames: MPRAPI_OBJECT_TYPE, *PMPRAPI_OBJECT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPRAPI_OBJECT_TYPE
+ - mprapi/_MPRAPI_OBJECT_TYPE
+ - PMPRAPI_OBJECT_TYPE
+ - mprapi/PMPRAPI_OBJECT_TYPE
+ - MPRAPI_OBJECT_TYPE
+ - mprapi/MPRAPI_OBJECT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - MPRAPI_OBJECT_TYPE
 ---
 
 # MPRAPI_OBJECT_TYPE enumeration
@@ -49,49 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MPRAPI_OBJECT_TYPE</b> enumeration specifies the structure type in  a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT
 
 The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure.
 
-
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT
 
 The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure.
-
 
 ### -field MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT
 
 The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure.
 
-
 ### -field MPRAPI_OBJECT_TYPE_AUTH_VALIDATION_OBJECT
 
 The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structure.
-
 
 ### -field MPRAPI_OBJECT_TYPE_UPDATE_CONNECTION_OBJECT
 
 The structure is a [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection) structure.
 
-
 ### -field MPRAPI_OBJECT_TYPE_IF_CUSTOM_CONFIG_OBJECT
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a>
 
@@ -102,7 +91,4 @@ The structure is a [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/de
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

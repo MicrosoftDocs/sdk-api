@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 025d2278-c973-410a-bccf-da8d1a59b6ac
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],SetupPrefix property, IUpdateService.SetupPrefix, IUpdateService.get_SetupPrefix, IUpdateService::SetupPrefix, IUpdateService::get_SetupPrefix, SetupPrefix property [Windows Update Agent], SetupPrefix property [Windows Update Agent],IUpdateService interface, get_SetupPrefix, wua.iupdateservice_setupprefix, wuapi/IUpdateService::SetupPrefix, wuapi/IUpdateService::get_SetupPrefix
-f1_keywords:
-- wuapi/IUpdateService.SetupPrefix
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.SetupPrefix
-- IUpdateService.get_SetupPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_SetupPrefix
+ - wuapi/IUpdateService::get_SetupPrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.SetupPrefix
+ - IUpdateService.get_SetupPrefix
 ---
 
 # IUpdateService::get_SetupPrefix
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupPrefix</b> property identifies the prefix for the setup files.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
 

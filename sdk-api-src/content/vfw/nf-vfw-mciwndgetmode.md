@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: d5b5d200-459c-4437-9685-1c95e8acc52f
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetMode, MCIWndGetMode macro [Windows Multimedia], _win32_MCIWndGetMode, multimedia.mciwndgetmode, vfw/MCIWndGetMode
-f1_keywords:
-- vfw/MCIWndGetMode
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndGetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndGetMode
+ - vfw/MCIWndGetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndGetMode
 ---
 
 # MCIWndGetMode macro
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndGetMode</b> macro retrieves the current operating mode of an MCI device. MCI devices have several operating modes, which are designated by constants. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ### -param lp
 
-Pointer to the application-defined buffer used to return the mode. 
-
+Pointer to the application-defined buffer used to return the mode.
 
 ### -param len
 
-Size, in bytes, of the buffer. 
-
+Size, in bytes, of the buffer.
 
 ## -remarks
-
-
 
 If the null-terminated string describing the mode is longer than the buffer, it is truncated.
 
@@ -120,18 +108,8 @@ Not all devices can operate in every mode. For example, the MCIAVI device is a p
 <td>MCI_MODE_STOP</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getmode">MCIWNDM_GETMODE</a>
- 
-
- 
 

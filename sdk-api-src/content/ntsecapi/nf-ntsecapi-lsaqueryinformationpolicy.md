@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2d543500-f639-4ef7-91f4-cdc5060dd567
 ms.date: 12/05/2018
 ms.keywords: LsaQueryInformationPolicy, LsaQueryInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyModificationInformation, PolicyPrimaryDomainInformation, _lsa_lsaqueryinformationpolicy, ntsecapi/LsaQueryInformationPolicy, security.lsaqueryinformationpolicy
-f1_keywords:
-- ntsecapi/LsaQueryInformationPolicy
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-lsapolicy-l1-1-0.dll
-- sechost.dll
-- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
-api_name:
-- LsaQueryInformationPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaQueryInformationPolicy
+ - ntsecapi/LsaQueryInformationPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-lsapolicy-l1-1-0.dll
+ - sechost.dll
+ - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+api_name:
+ - LsaQueryInformationPolicy
 ---
 
 # LsaQueryInformationPolicy function
@@ -52,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaQueryInformationPolicy</b> function retrieves information about a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The required access rights for this handle depend on the value of the <i>InformationClass</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
-
 
 ### -param InformationClass [in]
 
@@ -148,8 +143,6 @@ Retrieves the Domain Name System (DNS) information about the primary domain asso
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [out]
 
@@ -161,10 +154,7 @@ Pointer to a variable that receives a pointer to a structure containing the requ
 When you no longer need the information, pass the returned pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>.
 
-
 ## -returns
-
-
 
 If the <b>LsaQueryInformationPolicy</b> function succeeds, the return value is STATUS_SUCCESS.
 
@@ -174,23 +164,12 @@ If the function fails, the return value is an NTSTATUS code. For more informatio
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 For an example that demonstrates calling this function see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/managing-policy-information">Managing Policy Information</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>
 
@@ -225,7 +204,4 @@ For an example that demonstrates calling this function see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_primary_domain_info">POLICY_PRIMARY_DOMAIN_INFO</a>
- 
-
- 
 

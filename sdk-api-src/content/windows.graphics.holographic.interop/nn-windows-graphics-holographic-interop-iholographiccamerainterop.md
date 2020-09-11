@@ -29,12 +29,14 @@ api_name:
  - interop::IHolographicCameraInterop
  - IHolographicCameraInterop
 f1_keywords:
- - windows/interop::IHolographicCameraInterop
+ - IHolographicCameraInterop
+ - windows.graphics.holographic.interop/IHolographicCameraInterop
 dev_langs:
  - c++
 ---
 
 ## -description
+
 The **IHolographicCameraInterop** interface is a nano-COM interface, used to create Direct3D 12 back buffer resources for a [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) Windows Runtime object. This is an initialization step for using Direct3D 12 with Windows Mixed Reality. This interface also allows your application to acquire ownership of content buffers for rendering, prior to committing them with the [HolographicCameraRenderingParametersInterop](/windows/win32/api/windows.graphics.holographic.interop/nn-windows-graphics-holographic-interop-iholographiccamerarenderingparametersinterop) interface.
 
 Your application can use this interface to initialize holographic rendering using Direct3D 12. Nano-COM allows pointers to Direct3D 12 objects to be passed directly as parameters for API calls, instead of using a Windows Runtime container object.
@@ -44,9 +46,11 @@ Your application manages its own pool of holographic buffer resources for use as
 A buffer created by a [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) object can be used only with that object. It should be released when the **HolographicCamera** is released, or when the Direct3D 12 device needs to be recreated&mdash;whichever happens first. The buffer must not be in the GPU pipeline when it is released&mdash;Direct3D 12 fences should be used to ensure that this condition is met prior to releasing the buffer object.
 
 ## -inheritance
+
 The **IHolographicCameraInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
 
 ## -remarks
+
 To use this interface in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), **QueryInterface** for the **IHolographicCameraInterop** interface from the [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) object.
 
 ```cppwinrt
@@ -89,3 +93,4 @@ winrt::check_hresult(
 ```
 
 ## -see-also
+

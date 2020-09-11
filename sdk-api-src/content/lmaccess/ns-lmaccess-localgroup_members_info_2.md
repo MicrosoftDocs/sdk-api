@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: f5cd6e84-1111-4558-bec4-26af13f21b61
 ms.date: 12/05/2018
 ms.keywords: '*LPLOCALGROUP_MEMBERS_INFO_2, *PLOCALGROUP_MEMBERS_INFO_2, LOCALGROUP_MEMBERS_INFO_2, LOCALGROUP_MEMBERS_INFO_2 structure [Network Management], LPLOCALGROUP_MEMBERS_INFO_2, LPLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management], PLOCALGROUP_MEMBERS_INFO_2, PLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management], SidTypeDeletedAccount, SidTypeGroup, SidTypeUnknown, SidTypeUser, SidTypeWellKnownGroup, _win32_localgroup_members_info_2_str, lmaccess/LOCALGROUP_MEMBERS_INFO_2, lmaccess/LPLOCALGROUP_MEMBERS_INFO_2, lmaccess/PLOCALGROUP_MEMBERS_INFO_2, netmgmt.localgroup_members_info_2_str'
-f1_keywords:
-- lmaccess/LOCALGROUP_MEMBERS_INFO_2
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- LOCALGROUP_MEMBERS_INFO_2
 targetos: Windows
 req.typenames: LOCALGROUP_MEMBERS_INFO_2, *PLOCALGROUP_MEMBERS_INFO_2, *LPLOCALGROUP_MEMBERS_INFO_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _LOCALGROUP_MEMBERS_INFO_2
+ - lmaccess/_LOCALGROUP_MEMBERS_INFO_2
+ - PLOCALGROUP_MEMBERS_INFO_2
+ - lmaccess/PLOCALGROUP_MEMBERS_INFO_2
+ - LOCALGROUP_MEMBERS_INFO_2
+ - lmaccess/LOCALGROUP_MEMBERS_INFO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - LOCALGROUP_MEMBERS_INFO_2
 ---
 
 # LOCALGROUP_MEMBERS_INFO_2 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 				<b>LOCALGROUP_MEMBERS_INFO_2</b> structure contains the security identifier (SID) and account information associated with a local group member.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lgrmi2_sid
 
@@ -65,7 +65,6 @@ Type: <b>PSID</b>
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) of a local group member. The local group member can be a user account or a global group account.
-
 
 ### -field lgrmi2_sidusage
 
@@ -132,8 +131,6 @@ The account type cannot be determined.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lgrmi2_domainandname
 
@@ -149,17 +146,9 @@ A pointer to the account name of the local group member identified by <b>lgrmi2_
 
 ## -remarks
 
-
-
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
 
@@ -187,7 +176,4 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

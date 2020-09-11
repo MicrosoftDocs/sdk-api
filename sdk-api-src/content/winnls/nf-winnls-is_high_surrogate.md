@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: d491dfd9-e0f4-47cf-96ef-83dc22a1af81
 ms.date: 12/05/2018
 ms.keywords: IS_HIGH_SURROGATE, IS_HIGH_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_HIGH_SURROGATE, intl.is_high_surrogate, winnls/IS_HIGH_SURROGATE
-f1_keywords:
-- winnls/IS_HIGH_SURROGATE
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnls.h
-api_name:
-- IS_HIGH_SURROGATE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IS_HIGH_SURROGATE
+ - winnls/IS_HIGH_SURROGATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnls.h
+api_name:
+ - IS_HIGH_SURROGATE
 ---
 
 # IS_HIGH_SURROGATE macro
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if a character is a UTF-16 high <a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> code point, ranging from 0xd800 to 0xdbff, inclusive.
 
-
 ## -parameters
-
-
-
 
 ### -param wch
 
 Character to test.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-is_low_surrogate">IS_LOW_SURROGATE</a>
 
@@ -85,7 +77,4 @@ Character to test.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">Surrogates and Supplementary Characters</a>
- 
-
- 
 

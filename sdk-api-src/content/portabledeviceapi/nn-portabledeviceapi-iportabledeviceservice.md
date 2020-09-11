@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: f57344d5-c978-4c27-b8a9-b42492bd9312
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], IPortableDeviceService interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceService, wpdsdk.iportabledeviceservice
-f1_keywords:
-- portabledeviceapi/IPortableDeviceService
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceService
+ - portabledeviceapi/IPortableDeviceService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceService
 ---
 
 # IPortableDeviceService interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPortableDeviceService</b> interface provides access to a service.
-
 
 ## -inheritance
 
@@ -167,5 +166,5 @@ Unregisters a service callback method.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
-f1_keywords:
-- mbnapi/IMbnMultiCarrier.GetPreferredProviders
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnMultiCarrier.GetPreferredProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnMultiCarrier::GetPreferredProviders
+ - mbnapi/IMbnMultiCarrier::GetPreferredProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnMultiCarrier.GetPreferredProviders
 ---
 
 # IMbnMultiCarrier::GetPreferredProviders
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.
 
-
 ## -parameters
-
-
-
 
 ### -param preferredMulticarrierProviders [out, retval]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider2">MBN_PROVIDER2</a> structures that contain the list of preferred providers. If this method returns any value other than <b>S_OK</b>, <i>preferredMultiCarrierProviders</i> is <b>NULL</b>. When <b>GetPreferredProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -165,14 +159,8 @@ The operation is not supported by the device. This may be returned by devices wh
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetPreferredProviders</b> returns the list of providers that are stored in the interface's preferred provider list.
 
@@ -188,16 +176,7 @@ A preferred list of providers is available if the user has multiple subscription
 
 Provisioning can also result in a new home provider being added to the existing preferred list on a multi-carrier device. This is accomplished using <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-sethomeprovider">SetHomeProvider</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
- 
-
- 
 

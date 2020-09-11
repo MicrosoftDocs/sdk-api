@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_INFOA, *PSERVICE_INFOA, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2'
-f1_keywords:
-- nspapi/SERVICE_INFO
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nspapi.h
-api_name:
-- SERVICE_INFO
-- SERVICE_INFOA
-- SERVICE_INFOW
 targetos: Windows
 req.typenames: SERVICE_INFOA, *PSERVICE_INFOA, *LPSERVICE_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_INFOA
+ - nspapi/_SERVICE_INFOA
+ - PSERVICE_INFOA
+ - nspapi/PSERVICE_INFOA
+ - SERVICE_INFOA
+ - nspapi/SERVICE_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nspapi.h
+api_name:
+ - SERVICE_INFO
+ - SERVICE_INFOA
+ - SERVICE_INFOW
 ---
 
 # SERVICE_INFOA structure
@@ -51,22 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SERVICE_INFO</b> structure contains information about a network service or a network service type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lpServiceType
 
 Type: <b>LPGUID</b>
 
 A pointer to a GUID that is the type of the network service.
-
 
 ### -field lpServiceName
 
@@ -83,20 +82,17 @@ If you are calling the
 If you are calling the 
 <b>SetService</b> function with the <i>dwNameSpace</i> parameter set to a specific service name, the network service name can be a common name or a distinguished name. A distinguished name distinguishes the service to a unique location with a directory service. An example of a distinguished name for a network service is "MS\\SYS\\NT\\DEV\\My SQL Server".
 
-
 ### -field lpComment
 
 Type: <b>LPTSTR</b>
 
 A pointer to a <b>NULL</b>-terminated string that is a comment or description for the network service. For example, "Used for development upgrades."
 
-
 ### -field lpLocale
 
 Type: <b>LPTSTR</b>
 
 A pointer to a <b>NULL</b>-terminated string that contains locale information.
-
 
 ### -field dwDisplayHint
 
@@ -182,8 +178,6 @@ Display the network service as a tree.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwVersion
 
@@ -191,20 +185,17 @@ Type: <b>DWORD</b>
 
 The version for the network service. The high word of this value specifies a major version number. The low word of this value specifies a minor version number.
 
-
 ### -field dwTime
 
 Type: <b>DWORD</b>
 
 Reserved for future use. Must be zero.
 
-
 ### -field lpMachineName
 
 Type: <b>LPTSTR</b>
 
 A pointer to a <b>NULL</b>-terminated string that is the name of the computer on which the network service is running.
-
 
 ### -field lpServiceAddress
 
@@ -220,7 +211,6 @@ A pointer to a
 
 A network service can call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function to determine the local address of the system.
-
 
 ### -field ServiceSpecificInfo
 
@@ -240,9 +230,6 @@ A
 <div> </div>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-blob">BLOB</a>
 
@@ -273,9 +260,6 @@ A
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
- 
-
- 
 
 ## -remarks
 

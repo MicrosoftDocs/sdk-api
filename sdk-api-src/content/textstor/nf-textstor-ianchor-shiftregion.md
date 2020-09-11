@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f24f0155-fab6-46fb-9bff-598cd25e17ea
 ms.date: 12/05/2018
 ms.keywords: FALSE, IAnchor interface [Text Services Framework],ShiftRegion method, IAnchor.ShiftRegion, IAnchor::ShiftRegion, ShiftRegion, ShiftRegion method [Text Services Framework], ShiftRegion method [Text Services Framework],IAnchor interface, TRUE, TS_SD_BACKWARD, TS_SD_FORWARD, TS_SHIFT_COUNT_HIDDEN, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::ShiftRegion, tsf.ianchor_shiftregion
-f1_keywords:
-- textstor/IAnchor.ShiftRegion
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.ShiftRegion
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::ShiftRegion
+ - textstor/IAnchor::ShiftRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.ShiftRegion
 ---
 
 # IAnchor::ShiftRegion
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Shifts the anchor into an adjacent region in the text stream.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -86,8 +84,6 @@ The anchor is not shifted.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dir [in]
 
@@ -119,8 +115,6 @@ Specifies that the anchor will be moved to the region immediately following a ra
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pfNoRegion [out]
 
@@ -152,12 +146,8 @@ The shift succeeded.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -200,15 +190,8 @@ An input parameter value is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
@@ -226,7 +209,4 @@ An input parameter value is invalid.
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsshiftdir">TsShiftDir
       </a>
- 
-
- 
 

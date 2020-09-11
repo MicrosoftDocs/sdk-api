@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: e2b90a98-5777-42c2-95dd-4623e738c4da
 ms.date: 12/05/2018
 ms.keywords: IADsComputer, IADsComputer interface [ADSI], IADsComputer interface [ADSI],described, _ds_iadscomputer, adsi.iadscomputer, iads/IADsComputer
-f1_keywords:
-- iads/IADsComputer
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsComputer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsComputer
+ - iads/IADsComputer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsComputer
 ---
 
 # IADsComputer interface
 
 
 ## -description
-
 
 The <b>IADsComputer</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent and manage a computer, such as a server, client, workstation, and so on, on a network. You can manipulate the properties of this interface to access data about a computer. The data includes the operating system, the make and model, processor, computer identifier, its network addresses, and so on.
   
@@ -509,13 +509,9 @@ Gets and sets, in MB, the size of the hard disk drive.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -527,7 +523,4 @@ Gets and sets, in MB, the size of the hard disk drive.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

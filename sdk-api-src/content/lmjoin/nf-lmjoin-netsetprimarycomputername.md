@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568
 ms.date: 12/05/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
-f1_keywords:
-- lmjoin/NetSetPrimaryComputerName
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetSetPrimaryComputerName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetSetPrimaryComputerName
+ - lmjoin/NetSetPrimaryComputerName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetSetPrimaryComputerName
 ---
 
 # NetSetPrimaryComputerName function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetSetPrimaryComputerName</b> function sets the primary computer name for the specified computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Server [in, optional]
 
 A pointer to a constant string that specifies the name of the computer on which to execute this function. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param PrimaryName [in]
 
 A pointer to a constant string that specifies the primary name to set. This name must be in the form of a fully qualified DNS name.
-
 
 ### -param DomainAccount [in, optional]
 
@@ -75,8 +69,7 @@ A pointer to a constant string that specifies the domain account to use for acce
         machine account object for the computer specified in the <i>Server</i> parameter in Active Directory. If this parameter is <b>NULL</b>, then the credentials of the user executing
         this routine are used. 
 
-This parameter is not used if the server to execute this function is not joined to a domain. 
-
+This parameter is not used if the server to execute this function is not joined to a domain.
 
 ### -param DomainAccountPassword [in, optional]
 
@@ -84,17 +77,13 @@ A pointer to a constant string that specifies the password matching the domain a
         If this parameter is <b>NULL</b>, then the credentials of the user executing
         this routine are used. 
 
-This parameter is ignored if the <i>DomainAccount</i> parameter is <b>NULL</b>. This parameter is not used if the server to execute this function is not joined to a domain. 
-
+This parameter is ignored if the <i>DomainAccount</i> parameter is <b>NULL</b>. This parameter is not used if the server to execute this function is not joined to a domain.
 
 ### -param Reserved [in]
 
 Reserved for future use.   This parameter should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -195,14 +184,8 @@ The remote procedure call protocol sequence is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NetSetPrimaryComputerName</b> function is supported on Windows XP and later.  
 
@@ -210,13 +193,7 @@ The <b>NetSetPrimaryComputerName</b> function is used as part of computer rename
 
 The <b>NetSetPrimaryComputerName</b> function requires that the caller is a member of the Administrators local group on the target computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
@@ -243,7 +220,4 @@ The <b>NetSetPrimaryComputerName</b> function requires that the caller is a memb
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
- 
-
- 
 

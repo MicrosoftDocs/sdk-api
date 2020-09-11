@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f1ef5f5d-822d-466d-997e-e9c1a09abcbe
 ms.date: 12/05/2018
 ms.keywords: ITLegacyWaveSupport, ITLegacyWaveSupport interface [TAPI 2.2], ITLegacyWaveSupport interface [TAPI 2.2],described, _tapi3_itlegacywavesupport, tapi3.itlegacywavesupport, tapi3if/ITLegacyWaveSupport
-f1_keywords:
-- tapi3if/ITLegacyWaveSupport
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyWaveSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyWaveSupport
+ - tapi3if/ITLegacyWaveSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyWaveSupport
 ---
 
 # ITLegacyWaveSupport interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITLegacyWaveSupport</b> interface allows an application to discover whether a terminal created by a legacy TSP (pre-TAPI 3) can be controlled using the  Wave API.
-
 
 ## -inheritance
 
@@ -78,16 +77,9 @@ Gets indicator of whether address supports wave devices.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-fullduplex_support">FULLDUPLEX_SUPPORT</a>
- 
-
- 
 

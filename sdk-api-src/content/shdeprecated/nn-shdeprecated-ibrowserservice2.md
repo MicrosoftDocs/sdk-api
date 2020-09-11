@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5c100b60-ef2e-4044-9f06-c1d01bcd88d2
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], IBrowserService2 interface [Windows Shell],described, shdeprecated/IBrowserService2, shell.IBrowserService2, zone_IBrowserService2
-f1_keywords:
-- shdeprecated/IBrowserService2
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2
+ - shdeprecated/IBrowserService2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2
 ---
 
 # IBrowserService2 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. <b>IBrowserService2</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>. The methods exposed by this interface are analogous to virtual protected methods in normal C++ inheritance. The objects' inheritance hierarchy spans multiple  DLLs. The hierarchy is made up of a base class and several derived classes that correspond to controls including CLSID_WebBrowser and the user's desktop. Objects not in the hierarchy should not implement this interface or use most of its methods.
-
 
 ## -inheritance
 
@@ -629,14 +628,9 @@ Deprecated. Allows a derived class to call the <b>WinProc</b> function of the ba
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a> interface, from which it inherits.
-
-
 

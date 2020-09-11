@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: ccd01d38-2d8e-4509-b44f-fef6ff718558
 ms.date: 12/05/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
-f1_keywords:
-- olectl/OleCreatePropertyFrameIndirect
-dev_langs:
-- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- OleCreatePropertyFrameIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleCreatePropertyFrameIndirect
+ - olectl/OleCreatePropertyFrameIndirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - OleCreatePropertyFrameIndirect
 ---
 
 # OleCreatePropertyFrameIndirect function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a property frame, that is, a property sheet dialog box, based on a structure (<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-ocpfiparams">OCPFIPARAMS</a>) that contains the parameters, rather than specifying separate parameters as when calling <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpParams [in]
 
 Pointer to the caller-allocated structure containing the creation parameters for the dialog box.
 
-
 ## -returns
-
-
 
 This function supports the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following: 
 
@@ -97,14 +90,8 @@ The address in <i>lpParams</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Besides <b>cbStructSize</b> (the size of the structure) and <b>dispIDInitialProperty</b>, all of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-ocpfiparams">OCPFIPARAMS</a> structure have the same semantics as the parameters for <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>. When <i>dispIDInitialProperty</i> is DISPID_UNKNOWN, the behavior of the two functions is identical.
 
@@ -120,19 +107,11 @@ Working in conjunction with <a href="https://docs.microsoft.com/windows/desktop/
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-ocpfiparams">OCPFIPARAMS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframe">OleCreatePropertyFrame</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 00f28d6b-d27d-4268-960e-c8ea25e5359e
 ms.date: 12/05/2018
 ms.keywords: IWMProfile, IWMProfile interface [windows Media Format], IWMProfile interface [windows Media Format],described, IWMProfileInterface, wmformat.iwmprofile, wmsdkidl/IWMProfile
-f1_keywords:
-- wmsdkidl/IWMProfile
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile
+ - wmsdkidl/IWMProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMProfile
 ---
 
 # IWMProfile interface
 
 
 ## -description
-
-
 
 The <b>IWMProfile</b> interface is the primary interface for a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">profile</a> object. A profile object is used to configure custom profiles. You can use <b>IWMProfile</b> to create, delete, or modify stream configuration objects and mutual exclusion objects. You can also set and retrieve general information about the profile. To access all the features of the profile object, you should use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>, which inherits from <b>IWMProfile</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>.
 
@@ -58,9 +57,6 @@ The <b>IWMProfile</b> interface is the primary interface for a <a href="https://
 The profile information obtained through the reader or synchronous reader does not come from a .prx file. The reader uses the information in the ASF file to assemble the stream configurations. Thus certain profile information, like the name and description, are not available through the reader.
 
 There are several ways to obtain a pointer to an <b>IWMProfile</b> interface. The profile manager has methods to create a new profile and to access existing profiles. All of these methods set an <b>IWMProfile</b> pointer. When reading a file, a pointer to <b>IWMProfile</b> can be obtained by calling the <b>QueryInterface</b> method of any reader interface. Likewise, any interface of the synchronous reader object can obtain a pointer with a call to <b>QueryInterface</b><a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>.
-
-
-
 
 ## -inheritance
 
@@ -243,12 +239,7 @@ Specifies the name of the profile.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
 
@@ -271,7 +262,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/working-with-profiles">Working with Profiles</a>
- 
-
- 
 

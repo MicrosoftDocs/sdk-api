@@ -8,10 +8,6 @@ tech.root: medfound
 ms.assetid: 72b9141c-2e61-42be-a4a1-910b607ab5f1
 ms.date: 12/05/2018
 ms.keywords: ITocEntryList interface [Media Foundation],RemoveEntryByIndex method, ITocEntryList.RemoveEntryByIndex, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocEntryList interface, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
-f1_keywords:
-- wmcodecdsp/ITocEntryList.RemoveEntryByIndex
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntryList.RemoveEntryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntryList::RemoveEntryByIndex
+ - wmcodecdsp/ITocEntryList::RemoveEntryByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntryList.RemoveEntryByIndex
 ---
 
 # ITocEntryList::RemoveEntryByIndex
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveEntryByIndex</b> method removes an entry, specified by an index, from the list.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEntryIndex [in]
 
 The index of the entry to be removed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,22 +79,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>
- 
-
- 
 

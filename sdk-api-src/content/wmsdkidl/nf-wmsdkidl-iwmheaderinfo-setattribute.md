@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 174969a2-4fe2-477b-9990-051d23bf8a29
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],SetAttribute method, IWMHeaderInfo.SetAttribute, IWMHeaderInfo2 interface [windows Media Format],SetAttribute method, IWMHeaderInfo2::SetAttribute, IWMHeaderInfo3 interface [windows Media Format],SetAttribute method, IWMHeaderInfo3::SetAttribute, IWMHeaderInfo::SetAttribute, IWMHeaderInfoSetAttribute, SetAttribute, SetAttribute method [windows Media Format], SetAttribute method [windows Media Format],IWMHeaderInfo interface, SetAttribute method [windows Media Format],IWMHeaderInfo2 interface, SetAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_setattribute, wmsdkidl/IWMHeaderInfo2::SetAttribute, wmsdkidl/IWMHeaderInfo3::SetAttribute, wmsdkidl/IWMHeaderInfo::SetAttribute
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo.SetAttribute
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMHeaderInfo.SetAttribute
-- IWMHeaderInfo2.SetAttribute
-- IWMHeaderInfo3.SetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo::SetAttribute
+ - wmsdkidl/IWMHeaderInfo::SetAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMHeaderInfo.SetAttribute
+ - IWMHeaderInfo2.SetAttribute
+ - IWMHeaderInfo3.SetAttribute
 ---
 
 # IWMHeaderInfo::SetAttribute
@@ -55,46 +56,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetAttribute</b> method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute">IWMHeaderInfo3::AddAttribute</a>, and should not be used.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number. To set a file-level attribute, pass zero.
 
-
 ### -param pszName [in]
 
 Pointer to a wide-character null-terminated string containing the name of the attribute. Attribute names are limited to 1024 wide characters.
-
 
 ### -param Type [in]
 
 A value from the <b>WMT_ATTR_DATATYPE</b> enumeration type.
 
-
 ### -param pValue [in]
 
 Pointer to a byte array containing the value of the attribute.
-
 
 ### -param cbLength [in]
 
 The size of <i>pValue</i>, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -159,14 +145,8 @@ The object is not in a configurable state, or no profile has been set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Refer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section for a list of predefined attributes. For predefined attributes, the <i>Type</i> parameter must match the data type defined for that attribute. For custom attributes, you can specify any type except WMT_TYPE_GUID, but the buffer size (given by <i>cbLength</i>) must match the type. See <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> for more information.
 
@@ -182,13 +162,7 @@ Before you can use this method through the <b>IWMHeaderInfo</b> interface of a w
 
 The objects of the Windows Media Format SDK perform type checking on some supported metadata attributes, but not all of them. You should ensure that any attributes you use are set using the data type specified in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a> section of this documentation. Likewise, you cannot assume that an attribute set by another application will use the correct data type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
@@ -219,7 +193,4 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
- 
-
- 
 

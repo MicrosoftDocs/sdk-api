@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: f31a93aa-e3de-4254-af3f-338576350815
 ms.date: 12/05/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DefaultDrawingAttributes property, IInkCollector.DefaultDrawingAttributes, IInkCollector.get_DefaultDrawingAttributes, IInkCollector.put_DefaultDrawingAttributes, IInkCollector.putref_DefaultDrawingAttributes, IInkCollector::DefaultDrawingAttributes, IInkCollector::get_DefaultDrawingAttributes, IInkCollector::put_DefaultDrawingAttributes, IInkCollector::putref_DefaultDrawingAttributes, InkCollector.get_DefaultDrawingAttributes, InkCollector.put_DefaultDrawingAttributes, f31a93aa-e3de-4254-af3f-338576350815, get_DefaultDrawingAttributes, msinkaut/IInkCollector::DefaultDrawingAttributes, msinkaut/IInkCollector::get_DefaultDrawingAttributes, msinkaut/IInkCollector::put_DefaultDrawingAttributes, msinkaut/IInkCollector::putref_DefaultDrawingAttributes, put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkcollector_defaultdrawingattributes
-f1_keywords:
-- msinkaut/IInkCollector.DefaultDrawingAttributes
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.DefaultDrawingAttributes
-- IInkCollector.get_DefaultDrawingAttributes
-- IInkCollector.put_DefaultDrawingAttributes
-- get_DefaultDrawingAttributes
-- IInkCollector.get_DefaultDrawingAttributes
-- putref_DefaultDrawingAttributes
-- IInkCollector.putref_DefaultDrawingAttributes
-- IInkCollector.put_DefaultDrawingAttributes
-- InkCollector.get_DefaultDrawingAttributes
-- InkCollector.put_DefaultDrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::putref_DefaultDrawingAttributes
+ - msinkaut/IInkCollector::putref_DefaultDrawingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.DefaultDrawingAttributes
+ - IInkCollector.get_DefaultDrawingAttributes
+ - IInkCollector.put_DefaultDrawingAttributes
+ - get_DefaultDrawingAttributes
+ - IInkCollector.get_DefaultDrawingAttributes
+ - putref_DefaultDrawingAttributes
+ - IInkCollector.putref_DefaultDrawingAttributes
+ - IInkCollector.put_DefaultDrawingAttributes
+ - InkCollector.get_DefaultDrawingAttributes
+ - InkCollector.put_DefaultDrawingAttributes
 ---
 
 # IInkCollector::putref_DefaultDrawingAttributes
@@ -59,21 +60,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the default drawing attributes to use when drawing and displaying ink.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The drawing attributes specified with this property are the attributes that are assigned to a new cursor.
 
@@ -113,12 +108,7 @@ To change the drawing attributes of a single stroke, use the <a href="https://do
 <div class="alert"><b>Note</b>  The <b>DefaultDrawingAttributes</b> property contains the drawing attributes that all cursors use unless they set their own <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes">DrawingAttributes</a> property. For example, a new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object uses <b>DefaultDrawingAttributes</b>, and an old <b>IInkCursor</b> object on which the <b>DrawingAttributes</b> is set to <b>NULL</b> also uses <b>DefaultDrawingAttributes</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_drawingattributes">DrawingAttributes Property</a>
 
@@ -149,7 +139,4 @@ To change the drawing attributes of a single stroke, use the <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes Method</a>
- 
-
- 
 

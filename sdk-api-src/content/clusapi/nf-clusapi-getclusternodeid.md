@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeId, GetClusterNodeId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID function [Failover Cluster], _wolf_getclusternodeid, clusapi/GetClusterNodeId, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
-f1_keywords:
-- clusapi/GetClusterNodeId
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- GetClusterNodeId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterNodeId
+ - clusapi/GetClusterNodeId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - GetClusterNodeId
 ---
 
 # GetClusterNodeId function
@@ -52,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the unique identifier of a cluster 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_ID</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNode [in, optional]
 
@@ -68,12 +64,10 @@ Handle to the node with the identifier to be returned or <b>NULL</b>. If
        <i>hNode</i> is set to <b>NULL</b>, the node identifier for the node on 
        which the application is running is returned in the content of <i>lpszNodeId</i>.
 
-
 ### -param lpszNodeId [out]
 
 This parameter points to a buffer that receives the unique ID of <i>hNode</i>, including 
        the terminating <b>NULL</b> character.
-
 
 ### -param lpcchName [in, out]
 
@@ -82,10 +76,7 @@ On input, pointer to the count of characters in the buffer pointed to by the
        output, pointer to the count of characters stored in the buffer excluding the <b>NULL</b> 
        terminator.
 
-
 ## -returns
-
-
 
 This function returns a 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are the 
@@ -124,14 +115,8 @@ More data is available. This value is returned if the buffer pointed to by
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>PCLUSAPI_GET_CLUSTER_NODE_ID</b> type defines a pointer to this function.
 
@@ -150,13 +135,7 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
      that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
      buffers, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-getcurrentclusternodeid">GetCurrentClusterNodeId</a>
 
@@ -167,7 +146,4 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
- 
-
- 
 

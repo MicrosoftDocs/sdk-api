@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.date: 12/05/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
-f1_keywords:
-- fileapi/WriteFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- WriteFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WriteFile
+ - fileapi/WriteFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - WriteFile
 ---
 
 # WriteFile function
@@ -56,17 +57,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes data to the specified file or input/output (I/O) device.
 
 This function is designed for both synchronous and asynchronous operation. For a similar function designed 
     solely for asynchronous operation, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -84,14 +80,12 @@ For asynchronous write operations, <i>hFile</i> can be any handle opened with th
        <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
        <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> function.
 
-
 ### -param lpBuffer [in]
 
 A pointer to the buffer containing the data to be written to the file or device.
 
 This buffer must remain valid for the duration of the write operation. The caller must not use this buffer 
         until the write operation is completed.
-
 
 ### -param nNumberOfBytesToWrite [in]
 
@@ -104,7 +98,6 @@ A value of zero specifies a null write operation. The behavior of a null write o
          For x86 platforms it's 63.97 MB. For x64 platforms it's 31.97 MB. For Itanium it's 63.95 MB. For more 
          information regarding pipes, see the Remarks section.
 
-
 ### -param lpNumberOfBytesWritten [out, optional]
 
 A pointer to the variable that receives the number of bytes written when using a synchronous 
@@ -116,7 +109,6 @@ This parameter can be <b>NULL</b> only when the <i>lpOverlapped</i>
         parameter is not <b>NULL</b>.
 
 For more information, see the Remarks section.
-
 
 ### -param lpOverlapped [in, out, optional]
 
@@ -143,10 +135,7 @@ For more information about different combinations of <i>lpOverlapped</i> and
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
        <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -159,11 +148,7 @@ If the function fails, or is completing asynchronously, the return value is zero
        completion asynchronously. For more information, see Remarks.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The <b>WriteFile</b> function returns when one of the following 
      conditions occur:
@@ -496,14 +481,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -550,7 +528,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

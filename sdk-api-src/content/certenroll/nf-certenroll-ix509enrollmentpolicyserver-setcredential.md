@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 64ea6d9e-8eca-4a1b-95a0-ecc5c0d37df3
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],SetCredential method, IX509EnrollmentPolicyServer.SetCredential, IX509EnrollmentPolicyServer::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::SetCredential, security.ix509enrollmentpolicyserver_setcredential
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.SetCredential
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.SetCredential
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::SetCredential
+ - certenroll/IX509EnrollmentPolicyServer::SetCredential
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.SetCredential
 ---
 
 # IX509EnrollmentPolicyServer::SetCredential
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetCredential</b> method sets the credential used to contact the certificate enrollment policy (CEP) server.
 
-
 ## -parameters
-
-
-
 
 ### -param hWndParent [in]
 
 Parent window handle.
-
 
 ### -param flag [in]
 
@@ -113,22 +108,16 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strCredential [in]
 
 A <b>BSTR</b> variable that contains the credential.
 
-
 ### -param strPassword [in]
 
 A <b>BSTR</b> variable that contains the password.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -151,14 +140,8 @@ The <i>flag</i> parameter is not a supported value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>strCredential</i> and <i>strPassword</i> arguments will change depending on the value specified in the <i>flag</i> argument as shown in the following table.
 
@@ -189,18 +172,8 @@ The <i>strCredential</i> and <i>strPassword</i> arguments will change depending 
 <td><b>NULL</b></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

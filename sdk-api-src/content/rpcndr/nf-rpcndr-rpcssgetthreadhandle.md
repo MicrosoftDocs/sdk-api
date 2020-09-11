@@ -1,17 +1,13 @@
 ---
 UID: NF:rpcndr.RpcSsGetThreadHandle
 title: RpcSsGetThreadHandle function (rpcndr.h)
-description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory�management environment.
+description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory�management environment.
 helpviewer_keywords: ["RpcSsGetThreadHandle","RpcSsGetThreadHandle function [RPC]","_rpc_rpcssgetthreadhandle","rpc.rpcssgetthreadhandle","rpcndr/RpcSsGetThreadHandle"]
 old-location: rpc\rpcssgetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: f3b10f9c-7383-4665-96e3-1518f554f23e
 ms.date: 12/05/2018
 ms.keywords: RpcSsGetThreadHandle, RpcSsGetThreadHandle function [RPC], _rpc_rpcssgetthreadhandle, rpc.rpcssgetthreadhandle, rpcndr/RpcSsGetThreadHandle
-f1_keywords:
-- rpcndr/RpcSsGetThreadHandle
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSsGetThreadHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSsGetThreadHandle
+ - rpcndr/RpcSsGetThreadHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSsGetThreadHandle
 ---
 
 # RpcSsGetThreadHandle function
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSsGetThreadHandle</b> function returns a thread handle for the stub memory–management environment.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -88,11 +80,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls 
 <b>RpcSsGetThreadHandle</b> to obtain a thread handle for the stub memory–management environment. A thread used to manage memory for the stub memory–management environment uses 
@@ -117,12 +105,7 @@ A thread can also call
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a> returns the error code.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a>
 
@@ -137,7 +120,4 @@ A thread can also call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>
- 
-
- 
 

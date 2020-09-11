@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
 ms.topic: function
-f1_keywords:
-- winsock/TransmitFile
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -29,20 +27,23 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- TransmitFile
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TransmitFile
+ - winsock/TransmitFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - TransmitFile
 ---
 
 # TransmitFile function
@@ -50,23 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TransmitFile</b> function transmits file data over a connected socket handle. This function uses the operating system's cache manager to retrieve the file data, and provides high-performance file data transfer over sockets.<div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hSocket
 
 A handle to a connected socket. The 
-<b>TransmitFile</b> function will transmit the file data over this socket. The socket specified by the <i>hSocket</i> parameter must be a connection-oriented socket of type <b>SOCK_STREAM</b>, <b>SOCK_SEQPACKET</b>, or <b>SOCK_RDM</b>. 
-
+<b>TransmitFile</b> function will transmit the file data over this socket. The socket specified by the <i>hSocket</i> parameter must be a connection-oriented socket of type <b>SOCK_STREAM</b>, <b>SOCK_SEQPACKET</b>, or <b>SOCK_RDM</b>.
 
 ### -param hFile
 
@@ -74,7 +68,6 @@ A handle to the open file that the
 <b>TransmitFile</b> function transmits. Since the operating system reads the file data sequentially, you can improve caching performance by opening the handle with FILE_FLAG_SEQUENTIAL_SCAN. 
 
 The <i>hFile</i> parameter is optional. If the <i>hFile</i> parameter is <b>NULL</b>, only data in the header and/or the tail buffer is transmitted. Any additional action, such as socket disconnect or reuse, is performed as specified by the <i>dwFlags</i> parameter.
-
 
 ### -param nNumberOfBytesToWrite
 
@@ -86,13 +79,11 @@ The number of bytes in the file to transmit. The
 
 Set this parameter to zero in order to transmit the entire file.
 
-
 ### -param nNumberOfBytesPerSend
 
 The size, in bytes, of each block of data sent in each send operation. This parameter is used by Windows' sockets layer to determine the block size for send operations. To select the default send size, set this parameter to zero.
 
 The <i>nNumberOfBytesPerSend</i> parameter is useful for protocols that have limitations on the size of individual send requests.
-
 
 ### -param lpOverlapped
 
@@ -108,12 +99,10 @@ When the <i>lpOverlapped</i> is not <b>NULL</b>, the overlapped I/O might not fi
 <b>TransmitFile</b> returns. In that case, the 
 <b>TransmitFile</b> function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> returns ERROR_IO_PENDING or <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a>. This enables the caller to continue processing while the file transmission operation completes. Windows will set the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or the socket specified by <i>hSocket</i>, to the signaled state upon completion of the data transmission request.
 
-
 ### -param lpTransmitBuffers
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a> data structure that contains pointers to data to send before and after the file data is sent. This parameter should be set to a <b>NULL</b> pointer if you want to transmit only the file data.
-
 
 ### -param dwReserved
 
@@ -206,12 +195,8 @@ Complete the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the 
 <b>TransmitFile</b> function succeeds, the return value is <b>TRUE</b>. Otherwise, the return value is <b>FALSE</b>. To get extended error information, call 
@@ -373,14 +358,8 @@ The I/O operation has been aborted because of either a thread exit or an applica
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>TransmitFile</b> function uses the operating system's cache manager to retrieve the file data, and provide high-performance file data transfer over sockets.
 
@@ -433,13 +412,7 @@ The
 <b>TransmitFile</b> function allows the setting of two flags, TF_DISCONNECT or TF_REUSE_SOCKET, that return the socket to a "disconnected, reusable" state after the file has been transmitted. These flags should not be used on a socket where quality of service has been requested, since the service provider may immediately delete any quality of service associated with the socket before the file transfer has completed. The best approach for a QoS-enabled socket is to simply call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function when the file transfer has completed, rather than relying on these flags.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
@@ -462,7 +435,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
- 
-
- 
 

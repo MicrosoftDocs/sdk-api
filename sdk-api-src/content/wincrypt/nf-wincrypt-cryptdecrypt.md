@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7c3d2838-6fd1-4f6c-9586-8b94b459a31a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, CryptDecrypt function [Security], _crypto2_cryptdecrypt, security.cryptdecrypt, wincrypt/CryptDecrypt
-f1_keywords:
-- wincrypt/CryptDecrypt
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptDecrypt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDecrypt
+ - wincrypt/CryptDecrypt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptDecrypt
 ---
 
 # CryptDecrypt function
@@ -51,19 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptDecrypt</b> function decrypts data previously encrypted by using 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt">CryptEncrypt</a> function.
 
 Important changes to support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability have been made to CryptoAPI that affect the handling of enveloped messages. For more information, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -75,7 +69,6 @@ A handle to the key to use for the decryption. An application obtains this handl
 
 
 This key specifies the decryption algorithm to be used.
-
 
 ### -param hHash [in]
 
@@ -92,11 +85,9 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
 
 If no hash is to be done, this parameter must be zero.
 
-
 ### -param Final [in]
 
 A Boolean value that specifies whether this is the last section in a series being decrypted. This value is <b>TRUE</b> if this is the last or only block. If this is not the last block, this value is <b>FALSE</b>. For more information, see  Remarks.
-
 
 ### -param dwFlags [in]
 
@@ -130,8 +121,6 @@ Perform the decryption on the <a href="https://docs.microsoft.com/windows/deskto
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbData [in, out]
 
@@ -142,7 +131,6 @@ A pointer to a buffer that contains the data to be decrypted. After the decrypti
 
 The number of encrypted bytes in this buffer is specified by <i>pdwDataLen</i>.
 
-
 ### -param pdwDataLen [in, out]
 
 A pointer to a <b>DWORD</b> value that indicates the length of the <i>pbData</i> buffer. Before calling this function, the calling application sets the <b>DWORD</b> value to the number of bytes to be decrypted. Upon return, the <b>DWORD</b> value contains the number of bytes of the decrypted plaintext. 
@@ -152,10 +140,7 @@ A pointer to a <b>DWORD</b> value that indicates the length of the <i>pbData</i>
 
 When a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> is used, this data length must be a multiple of the block size unless this is the final section of data to be decrypted and the <i>Final</i> parameter is <b>TRUE</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 						
@@ -292,15 +277,8 @@ The function failed in some unexpected way.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 If a large amount of data is to be decrypted, it can be done in sections by calling <b>CryptDecrypt</b> repeatedly. The <i>Final</i> parameter must be set to <b>TRUE</b> only on the last call to <b>CryptDecrypt</b>, so that the decryption engine can properly finish the decryption process. The following extra actions are performed when <i>Final</i> is <b>TRUE</b>:
 
@@ -344,12 +322,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
@@ -388,7 +361,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Encryption/Decryption Functions</a>
- 
-
- 
 

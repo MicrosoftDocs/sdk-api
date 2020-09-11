@@ -8,10 +8,6 @@ tech.root: ProjFS
 ms.assetid: D01BF7C5-1EAC-446A-BCE5-A6EF46A5443D
 ms.date: 12/05/2018
 ms.keywords: PrjStopVirtualizing, PrjStopVirtualizing function, ProjFS.prjstopvirtualizing, projectedfslib/PrjStopVirtualizing
-f1_keywords:
-- projectedfslib/PrjStopVirtualizing
-dev_langs:
-- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- projectedfslib.h
-api_name:
-- PrjStopVirtualizing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - PrjStopVirtualizing
+ - projectedfslib/PrjStopVirtualizing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - projectedfslib.h
+api_name:
+ - PrjStopVirtualizing
 ---
 
 # PrjStopVirtualizing function
@@ -49,25 +50,15 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
 Stops a running ProjFS virtualization instance, making it unavailable to service I/O or involve callbacks on the provider.
 
-
 ## -parameters
-
-
-
 
 ### -param namespaceVirtualizationContext [in]
 
 An opaque handle for the virtualization instance.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

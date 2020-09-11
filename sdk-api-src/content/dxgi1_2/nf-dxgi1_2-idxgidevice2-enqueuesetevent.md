@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: CECF3ED6-A025-48C4-A7E2-971B86A262F0
 ms.date: 12/05/2018
 ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent method [DXGI],IDXGIDevice2 interface, IDXGIDevice2 interface [DXGI],EnqueueSetEvent method, IDXGIDevice2.EnqueueSetEvent, IDXGIDevice2::EnqueueSetEvent, direct3ddxgi.idxgidevice2_enqueuesetevent, dxgi1_2/IDXGIDevice2::EnqueueSetEvent
-f1_keywords:
-- dxgi1_2/IDXGIDevice2.EnqueueSetEvent
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIDevice2.EnqueueSetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDevice2::EnqueueSetEvent
+ - dxgi1_2/IDXGIDevice2::EnqueueSetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIDevice2.EnqueueSetEvent
 ---
 
 # IDXGIDevice2::EnqueueSetEvent
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flushes any outstanding rendering commands and sets the specified event object to the signaled state after all previously submitted rendering commands complete.
 
-
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
@@ -65,10 +61,7 @@ A handle to the event object. The <a href="https://docs.microsoft.com/windows/de
 
 The handle must have the EVENT_MODIFY_STATE access right. For more information about access rights, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful; otherwise, returns one of the following values:
 
@@ -76,14 +69,9 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the following value
 <li><b>E_OUTOFMEMORY</b> if insufficient memory is available to complete the operation.</li>
 <li><b>E_INVALIDARG</b> if the parameter was validated and determined to be incorrect.</li>
 </ul>
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>EnqueueSetEvent</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
-
-
-
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>EnqueueSetEvent</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
 
 ## -remarks
-
-
 
 <b>EnqueueSetEvent</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function on the event object after all previously submitted rendering commands complete or the device is removed.
 
@@ -138,17 +126,7 @@ void BlockingFinish( IDXGIDevice2* pDevice )
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidevice2">IDXGIDevice2</a>
- 
-
- 
 

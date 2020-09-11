@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 7b99f440-72fa-4cf4-9267-98f436e99a50
 ms.date: 12/05/2018
 ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplaceRecordSetA, DnsReplaceRecordSetUTF8, DnsReplaceRecordSetW, _dns_dnsreplacerecordset, dns.dnsreplacerecordset, windns/DnsReplaceRecordSet, windns/DnsReplaceRecordSetA, windns/DnsReplaceRecordSetUTF8, windns/DnsReplaceRecordSetW
-f1_keywords:
-- windns/DnsReplaceRecordSet
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsReplaceRecordSet
-- DnsReplaceRecordSetW
-- DnsReplaceRecordSetA
-- DnsReplaceRecordSetUTF8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsReplaceRecordSetA
+ - windns/DnsReplaceRecordSetA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsReplaceRecordSet
+ - DnsReplaceRecordSetW
+ - DnsReplaceRecordSetA
+ - DnsReplaceRecordSetUTF8
 ---
 
 # DnsReplaceRecordSetA function
 
 
 ## -description
-
 
 The 
 <b>DnsReplaceRecordSet</b> function type replaces an existing resource record (RR) set. Like many DNS functions, the 
@@ -66,60 +66,40 @@ The
 Be aware of the lack of an underscore between the function type name and its suffix. If the 
 <b>DnsReplaceRecordSet</b> function type is called without its suffix (A, W, or UTF8), a compiler error will occur.
 
-
 ## -parameters
-
-
-
 
 ### -param pReplaceSet [in]
 
 A pointer to a 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the RR set that replaces the existing set. The specified RR set is replaced with the contents of <i>pNewSet</i>. To delete a RR set, specify the set in <i>pNewSet</i>, but set <i>RDATA</i> to <b>NULL</b>.
 
-
 ### -param Options [in]
 
 A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Update  Options</a>. Options can be combined and all options override <b>DNS_UPDATE_SECURITY_USE_DEFAULT</b>.
-
 
 ### -param hContext [in, optional]
 
 The handle to the credentials of a specific account. Used when secure dynamic update is required. This parameter is optional.
 
-
 ### -param pExtraInfo [in, out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param pReserved [in, out, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsmodifyrecordsinset_a">DnsModifyRecordsInSet</a>
- 
-
- 
 
 ## -remarks
 

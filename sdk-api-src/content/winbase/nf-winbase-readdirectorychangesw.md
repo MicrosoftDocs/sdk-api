@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 14dfc93d-557e-43d0-be45-8414cfd92c29
 ms.date: 12/05/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesW, ReadDirectoryChangesW function [Files], _win32_readdirectorychangesw, base.readdirectorychangesw, fs.readdirectorychangesw, winbase/ReadDirectoryChangesW
-f1_keywords:
-- winbase/ReadDirectoryChangesW
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-api_name:
-- ReadDirectoryChangesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadDirectoryChangesW
+ - winbase/ReadDirectoryChangesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - ReadDirectoryChangesW
 ---
 
 # ReadDirectoryChangesW function
@@ -54,24 +55,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information that describes the changes within the specified directory. The 
     function does not report changes to the specified directory itself.
 
 To track changes on a volume, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">change journals</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hDirectory [in]
 
 A handle to the directory to be monitored. This directory must be opened with the 
       <b>FILE_LIST_DIRECTORY</b> access right, or an access right such as <b>GENERIC_READ</b> that includes the <b>FILE_LIST_DIRECTORY</b> access right.
-
 
 ### -param lpBuffer [out]
 
@@ -82,19 +77,16 @@ A pointer to the <b>DWORD</b>-aligned formatted buffer in which the read results
       is given to the <i>lpOverlapped</i> parameter. For more information, see the Remarks 
       section.
 
-
 ### -param nBufferLength [in]
 
 The size of the buffer that is pointed to by the <i>lpBuffer</i> parameter, in 
       bytes.
-
 
 ### -param bWatchSubtree [in]
 
 If this parameter is <b>TRUE</b>, the function monitors the directory tree rooted at the 
       specified directory. If this parameter is <b>FALSE</b>, the function monitors only the 
       directory specified by the <i>hDirectory</i> parameter.
-
 
 ### -param dwNotifyFilter [in]
 
@@ -207,15 +199,12 @@ Any security-descriptor change in the watched directory or subtree causes a chan
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBytesReturned [out, optional]
 
 For synchronous calls, this parameter receives the number of bytes transferred into the 
       <i>lpBuffer</i> parameter. For asynchronous calls, this parameter is undefined. You must use 
       an asynchronous notification technique to retrieve the number of bytes transferred.
-
 
 ### -param lpOverlapped [in, out, optional]
 
@@ -224,17 +213,13 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
       <b>Offset</b> and <b>OffsetHigh</b> members of this structure are not 
       used.
 
-
 ### -param lpCompletionRoutine [in, optional]
 
 A pointer to a completion routine to be called when the operation has been completed or canceled and the 
       calling thread is in an alertable wait state. For more information about this completion routine, see 
       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. For synchronous calls, this means that the operation 
        succeeded. For asynchronous calls, this indicates that the operation was successfully queued.
@@ -245,12 +230,7 @@ If the function fails, the return value is zero. To get extended error informati
 If the network redirector or the target file system does not support this operation, the function fails with 
        <b>ERROR_INVALID_FUNCTION</b>.
 
-
-
-
 ## -remarks
-
-
 
 To obtain a handle to a directory, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> 
     function with the <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag.
@@ -371,13 +351,7 @@ Yes
 If there is a transaction bound to the directory handle, then the notifications follow the appropriate 
       transaction isolation rules.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -408,7 +382,4 @@ If there is a transaction bound to the directory handle, then the notifications 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

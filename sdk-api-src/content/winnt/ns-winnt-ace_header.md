@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d23f15d6-0453-4aaf-a2db-7528b551a992
 ms.date: 12/05/2018
 ms.keywords: '*PACE_HEADER, ACCESS_ALLOWED_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE_TYPE, ACCESS_ALLOWED_COMPOUND_ACE_TYPE, ACCESS_ALLOWED_OBJECT_ACE_TYPE, ACCESS_DENIED_ACE_TYPE, ACCESS_DENIED_CALLBACK_ACE_TYPE, ACCESS_DENIED_CALLBACK_OBJECT_ACE_TYPE, ACCESS_DENIED_OBJECT_ACE_TYPE, ACCESS_MAX_MS_ACE_TYPE, ACCESS_MAX_MS_OBJECT_ACE_TYPE, ACCESS_MAX_MS_V2_ACE_TYPE, ACCESS_MAX_MS_V3_ACE_TYPE, ACCESS_MAX_MS_V4_ACE_TYPE, ACCESS_MIN_MS_ACE_TYPE, ACCESS_MIN_MS_OBJECT_ACE_TYPE, ACE_HEADER, ACE_HEADER structure [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PACE_HEADER, PACE_HEADER structure pointer [Security], SUCCESSFUL_ACCESS_ACE_FLAG, SYSTEM_ALARM_ACE_TYPE, SYSTEM_ALARM_CALLBACK_ACE_TYPE, SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE, SYSTEM_ALARM_OBJECT_ACE_TYPE, SYSTEM_AUDIT_ACE_TYPE, SYSTEM_AUDIT_CALLBACK_ACE_TYPE, SYSTEM_AUDIT_CALLBACK_OBJECT_ACE_TYPE, SYSTEM_AUDIT_OBJECT_ACE_TYPE, SYSTEM_MANDATORY_LABEL_ACE_TYPE, _ACE_HEADER, _win32_ace_header_str, security.ace_header, winnt/ACE_HEADER, winnt/PACE_HEADER'
-f1_keywords:
-- winnt/ACE_HEADER
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- ACE_HEADER
 targetos: Windows
 req.typenames: ACE_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ACE_HEADER
+ - winnt/_ACE_HEADER
+ - ACE_HEADER
+ - winnt/ACE_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - ACE_HEADER
 ---
 
 # ACE_HEADER structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ACE_HEADER</b> structure defines the type and size of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
-
 ## -struct-fields
-
-
-
 
 ### -field AceType
 
@@ -336,8 +334,6 @@ Mandatory label ACE that uses the <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AceFlags
 
@@ -434,29 +430,18 @@ Used with system-audit ACEs in a SACL to generate audit messages for successful 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AceSize
 
 Specifies the size, in bytes, of the ACE.
 
-
 ## -remarks
-
-
 
 The <b>ACE_HEADER</b> structure is the first member of the various types of ACE structures, such as <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>.
 
 System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE or SYSTEM_ALARM_OBJECT_ACE_TYPE values. Do not use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_ace">SYSTEM_ALARM_ACE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_ALARM_OBJECT_ACE</a> structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -483,7 +468,4 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a>
- 
-
- 
 

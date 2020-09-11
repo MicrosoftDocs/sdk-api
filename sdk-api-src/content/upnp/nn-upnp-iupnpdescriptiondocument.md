@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 25bd3abd-b270-4609-93bb-a786ccaa95dd
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], IUPnPDescriptionDocument interface [UPnP APIs],described, _upnp_iupnpdescriptiondocument, upnp.iupnpdescriptiondocument, upnp/IUPnPDescriptionDocument
-f1_keywords:
-- upnp/IUPnPDescriptionDocument
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPDescriptionDocument
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDescriptionDocument
+ - upnp/IUPnPDescriptionDocument
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDescriptionDocument
 ---
 
 # IUPnPDescriptionDocument interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPDescriptionDocument</b> interface enables an application to load a device description.
-
 
 ## -inheritance
 
@@ -146,5 +145,5 @@ Status of the document load operation.
 
 </td>
 </tr>
-</table> 
+</table>
 

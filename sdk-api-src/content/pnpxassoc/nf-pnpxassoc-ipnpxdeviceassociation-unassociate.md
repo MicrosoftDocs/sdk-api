@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
-f1_keywords:
-- pnpxassoc/IPNPXDeviceAssociation.Unassociate
-dev_langs:
-- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- pnpxassoc.h
-api_name:
-- IPNPXDeviceAssociation.Unassociate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPNPXDeviceAssociation::Unassociate
+ - pnpxassoc/IPNPXDeviceAssociation::Unassociate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - pnpxassoc.h
+api_name:
+ - IPNPXDeviceAssociation.Unassociate
 ---
 
 # IPNPXDeviceAssociation::Unassociate
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Marks an association database entry as unassociated and sends an appropriate notification.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSubCategory [in, optional]
 
 The subcategory of the association database in which the entry is stored.  This parameter can be <b>NULL</b>.
 
-
 ### -param pIFunctionDiscoveryNotification [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> object that is registered for notifications with Function Discovery.  
-
+An <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> object that is registered for notifications with Function Discovery.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -104,14 +96,8 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method modifies the association database entry corresponding to the function instance from which the <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a> interface was obtained. 
 
@@ -124,20 +110,11 @@ The following logic is used to determine the callback method used for notificati
 </ul>
 This method does not remove the entry from the association database. To remove an entry from the association database, call <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-delete">IPNPXAssociation::Delete</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: f180f597-680b-47ce-b437-3395069a8c77
 ms.date: 12/05/2018
 ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
-f1_keywords:
-- natupnp/INATExternalIPAddressCallback
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INATExternalIPAddressCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INATExternalIPAddressCallback
+ - natupnp/INATExternalIPAddressCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INATExternalIPAddressCallback
 ---
 
 # INATExternalIPAddressCallback interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>INATExternalIPAddressCallback</b> interface is implemented by the NAT application with UPnP technology. It provides a method that the system calls if the external IP address of the NAT computer changes.
-
 
 ## -inheritance
 
@@ -76,13 +75,9 @@ The <b>INATExternalIPAddressCallback</b> interface has these methods.
 <td align="left" width="63%">
 Notifies application when the NAT external address has changed.</p> (Inherited from <b>INATExternalIPAddressCallback</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a>
 
@@ -97,7 +92,4 @@ Notifies application when the NAT external address has changed.</p> (Inherited f
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
 

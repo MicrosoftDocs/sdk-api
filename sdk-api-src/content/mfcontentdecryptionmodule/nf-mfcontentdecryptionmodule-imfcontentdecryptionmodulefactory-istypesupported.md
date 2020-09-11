@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleFactory::IsTypeSupported
 f1_keywords:
+ - IMFContentDecryptionModuleFactory::IsTypeSupported
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleFactory::IsTypeSupported
 dev_langs:
  - c++

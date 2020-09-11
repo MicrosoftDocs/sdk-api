@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: B53325C9-DC89-4411-82D9-247C28AFB177
 ms.date: 12/05/2018
 ms.keywords: ILaunchSourceAppUserModelId, ILaunchSourceAppUserModelId interface [Windows Shell], ILaunchSourceAppUserModelId interface [Windows Shell],described, shell.ILaunchSourceAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId
-f1_keywords:
-- shobjidl_core/ILaunchSourceAppUserModelId
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ILaunchSourceAppUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILaunchSourceAppUserModelId
+ - shobjidl_core/ILaunchSourceAppUserModelId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ILaunchSourceAppUserModelId
 ---
 
 # ILaunchSourceAppUserModelId interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method for retrieving an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">AppUserModelId</a>.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/shell/appids">A
 
 </td>
 </tr>
-</table> 
+</table>
 

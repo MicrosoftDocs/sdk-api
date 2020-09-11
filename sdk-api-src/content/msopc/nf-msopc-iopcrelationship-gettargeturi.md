@@ -1,17 +1,13 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetUri
 title: IOpcRelationship::GetTargetUri (msopc.h)
-description: Gets the URI of the relationship�target.
+description: Gets the URI of the relationship�target.
 helpviewer_keywords: ["GetTargetUri","GetTargetUri method [Open Packaging Conventions]","GetTargetUri method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetTargetUri method","IOpcRelationship.GetTargetUri","IOpcRelationship::GetTargetUri","msopc/IOpcRelationship::GetTargetUri","opc.iopcrelationship_gettargeturi"]
 old-location: opc\iopcrelationship_gettargeturi.htm
 tech.root: OPC
 ms.assetid: 65b04931-dc4e-4eb5-b542-a7b46c3164de
 ms.date: 12/05/2018
 ms.keywords: GetTargetUri, GetTargetUri method [Open Packaging Conventions], GetTargetUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetTargetUri method, IOpcRelationship.GetTargetUri, IOpcRelationship::GetTargetUri, msopc/IOpcRelationship::GetTargetUri, opc.iopcrelationship_gettargeturi
-f1_keywords:
-- msopc/IOpcRelationship.GetTargetUri
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationship.GetTargetUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationship::GetTargetUri
+ - msopc/IOpcRelationship::GetTargetUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationship.GetTargetUri
 ---
 
 # IOpcRelationship::GetTargetUri
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the URI of the relationship target.
 
-
 ## -parameters
-
-
-
 
 ### -param targetUri [out, retval]
 
@@ -64,10 +60,7 @@ A pointer to the <a href="https://msdn2.microsoft.com/library/ms775038.aspx">IUr
 
 If the relationship target is internal, the  target is a part and the URI of the target is relative to the URI of the source part.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,14 +92,8 @@ The <i>targetUri</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The definitive way to find a part of interest is by using a relationship type.
 
@@ -129,13 +116,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
@@ -182,7 +163,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\writeproperties.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],WriteProperties method, ISearchQueryHelper.WriteProperties, ISearchQueryHelper::WriteProperties, WriteProperties, WriteProperties method [search], WriteProperties method [search],ISearchQueryHelper interface, _search_ISearchQueryHelper_WriteProperties, search._search_ISearchQueryHelper_WriteProperties, searchapi/ISearchQueryHelper::WriteProperties
-f1_keywords:
-- searchapi/ISearchQueryHelper.WriteProperties
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- searchapi.h
-api_name:
-- ISearchQueryHelper.WriteProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchQueryHelper::WriteProperties
+ - searchapi/ISearchQueryHelper::WriteProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - searchapi.h
+api_name:
+ - ISearchQueryHelper.WriteProperties
 ---
 
 # ISearchQueryHelper::WriteProperties
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param itemID [in]
 
@@ -64,13 +60,11 @@ Type: <b>int</b>
 
 The ItemID that is to be affected. The ItemID is used to store the items unique identifier, such as a DocID.
 
-
 ### -param dwNumberOfColumns [in]
 
 Type: <b>DWORD</b>
 
 The number of properties being written.
-
 
 ### -param pColumns [in]
 
@@ -79,13 +73,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtype
  
                 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that represent the properties.
 
-
 ### -param pValues [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_column_properties">SEARCH_COLUMN_PROPERTIES</a>*</b>
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_column_properties">SEARCH_COLUMN_PROPERTIES</a> structures that hold the property values.
-
 
 ### -param pftGatherModifiedTime [in]
 
@@ -93,22 +85,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-m
 
 A pointer to the last modified time for the item being written. This time stamp is used later to see if an item has been changed and requires updating.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
@@ -127,7 +110,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://msdn.microsoft.com/library/ff518152(v=VS.85).aspx">System Properties</a>
- 
-
- 
 

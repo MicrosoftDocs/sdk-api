@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
-f1_keywords:
-- vsbackup/IVssBackupComponents.AddComponent
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AddComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AddComponent
+ - vsbackup/IVssBackupComponents::AddComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AddComponent
 ---
 
 # IVssBackupComponents::AddComponent
 
 
 ## -description
-
 
 The <b>AddComponent</b> method is 
     used to explicitly add to the backup set in the Backup Components Document all required 
@@ -58,27 +58,20 @@ The <b>AddComponent</b> method is
     with a selectable for backup ancestor) are implicitly included in the backup set, but are not explicitly added to 
     the Backup Components Document.
 
-
 ## -parameters
-
-
-
 
 ### -param instanceId [in]
 
 Identifies a specific instance of a writer.
 
-
 ### -param writerId [in]
 
 Writer class identifier.
-
 
 ### -param ct [in]
 
 Identifies the type of the component. Refer to the documentation for 
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for permitted input values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -90,7 +83,6 @@ A logical path is not required when adding a component. Therefore, the value of 
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the selectable for backup component.
@@ -100,10 +92,7 @@ The value of this parameter cannot be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -197,10 +186,6 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
@@ -243,13 +228,7 @@ Before it calls <b>AddComponent</b>, a
 
 The requester must call <b>AddComponent</b> to add the required components to the shadow copy before calling <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> to create the shadow copy. See <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-the-backup-discovery-phase">Overview of the Backup Discovery Phase</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
 
@@ -268,7 +247,4 @@ The requester must call <b>AddComponent</b> to add the required components to th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

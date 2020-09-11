@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
 ms.date: 12/05/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
-f1_keywords:
-- adshlp/ADsEncodeBinaryData
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll; AdsLdpc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-- AdsLdpc.dll
-api_name:
-- ADsEncodeBinaryData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ADsEncodeBinaryData
+ - adshlp/ADsEncodeBinaryData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+ - AdsLdpc.dll
+api_name:
+ - ADsEncodeBinaryData
 ---
 
 # ADsEncodeBinaryData function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADsEncodeBinaryData</b> function converts a binary large object (BLOB) to the Unicode format suitable to be embedded in a search filter.
 
-
 ## -parameters
-
-
-
 
 ### -param pbSrcData [in]
 
@@ -65,13 +61,11 @@ Type: <b>PBYTE</b>
 
 BLOB to be converted.
 
-
 ### -param dwSrcLen [in]
 
 Type: <b>DWORD</b>
 
 Size, in bytes, of the BLOB.
-
 
 ### -param ppszDestData [out]
 
@@ -79,21 +73,13 @@ Type: <b>LPWSTR*</b>
 
 Pointer to a null-terminated Unicode string that receives the converted data.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method supports the standard return values, as well as the following.
 
-
-
-
 ## -remarks
-
-
 
 In ADSI, search filters must be Unicode strings. Sometimes, a filter contains data that is normally represented by an opaque BLOB of data. For example, you may want to include an object security identifier in a search filter, which is of binary data. In this case, you must first call the <b>ADsEncodeBinaryData</b> function to convert the binary data to the Unicode string format. When the data is no longer required, call the  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> function to free the converted Unicode string; that is, <i>ppszDestData</i>.
 
@@ -146,14 +132,7 @@ else
 FreeADsMem( pszDest );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -164,7 +143,4 @@ FreeADsMem( pszDest );
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
- 
-
- 
 

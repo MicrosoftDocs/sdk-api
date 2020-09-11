@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ae4eeeaa-1c73-4e3a-82b1-a073d9c7d667
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplayEnable method, IAMTimecodeDisplay.SetTCDisplayEnable, IAMTimecodeDisplay::SetTCDisplayEnable, IAMTimecodeDisplaySetTCDisplayEnable, SetTCDisplayEnable, SetTCDisplayEnable method [DirectShow], SetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplayenable, strmif/IAMTimecodeDisplay::SetTCDisplayEnable
-f1_keywords:
-- strmif/IAMTimecodeDisplay.SetTCDisplayEnable
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeDisplay.SetTCDisplayEnable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeDisplay::SetTCDisplayEnable
+ - strmif/IAMTimecodeDisplay::SetTCDisplayEnable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeDisplay.SetTCDisplayEnable
 ---
 
 # IAMTimecodeDisplay::SetTCDisplayEnable
@@ -50,45 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTCDisplayEnable</code> method enables or disables an external device's timecode character output generator.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param State [in]
 
 Value specifying whether to enable or disable the timecode character output generator. Specify OATRUE to enable or OAFALSE to disable.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
 
-
-
-
 ## -remarks
-
-
 
 This method is not intended for rendering characters inside a filter graph, it is purely intended for hardware displays. Ensure that your external timecode reader or generator has display capability before trying to use this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -99,7 +78,4 @@ This method is not intended for rendering characters inside a filter graph, it i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">IAMTimecodeDisplay::GetTCDisplayEnable</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5c49cc52-bd51-41d8-92c6-74021b1cb652
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetValuesForProp method, CFrameworkQuery.GetValuesForProp, CFrameworkQuery.GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp, CFrameworkQuery::GetValuesForProp(LPCWSTR,std, CFrameworkQuery::GetValuesForProp(LPCWSTR,std::vector<_bstr_t>&), GetValuesForProp, GetValuesForProp method [Windows Management Instrumentation], GetValuesForProp method [Windows Management Instrumentation],CFrameworkQuery interface, frquery/CFrameworkQuery::GetValuesForProp, wmi.cframeworkquery_getvaluesforprop_lpcwstr_std__vector__bstr_t__
-f1_keywords:
-- frquery/CFrameworkQuery.GetValuesForProp
-dev_langs:
-- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CFrameworkQuery.GetValuesForProp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CFrameworkQuery::GetValuesForProp
+ - frquery/CFrameworkQuery::GetValuesForProp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CFrameworkQuery.GetValuesForProp
 ---
 
 # CFrameworkQuery::GetValuesForProp(LPCWSTR,std
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -63,34 +63,21 @@ For example, a call to <a href="https://docs.microsoft.com/windows/desktop/api/f
 
 If the constraints on "Name" are not sufficiently limiting, an empty <i>sa</i> array is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param wszPropName
 
 Name of the target property.
 
-
 ### -param vectorNames
 
 Array of values for the property specified by <i>wszPropName</i>.
 
-
 ## -returns
-
-
 
 This method returns <b>WBEM_S_NO_ERROR</b> on success, and <b>WBEM_E_FAILED</b>, or any other <b>HRESULT</b> error code, on failure.
 
-
-
-
 ## -remarks
-
-
 
 Given a property name, this method returns all of the result values in a <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> or vector container. The vector container holds <b>_bstr_t</b> objects that contain the result values.
 
@@ -169,21 +156,11 @@ The following query, followed by a call to <a href="https://docs.microsoft.com/w
 SELECT * FROM Test WHERE PropInt = 32 AND PropStr = "a"
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>
- 
-
- 
 

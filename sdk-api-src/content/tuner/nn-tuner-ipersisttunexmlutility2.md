@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d909d505-2ae9-4488-b4c1-42ca32661bf3
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXmlUtility2, IPersistTuneXmlUtility2 interface [Microsoft TV Technologies], IPersistTuneXmlUtility2 interface [Microsoft TV Technologies],described, mstv.ipersisttunexmlutility2, tuner/IPersistTuneXmlUtility2
-f1_keywords:
-- tuner/IPersistTuneXmlUtility2
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IPersistTuneXmlUtility2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistTuneXmlUtility2
+ - tuner/IPersistTuneXmlUtility2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IPersistTuneXmlUtility2
 ---
 
 # IPersistTuneXmlUtility2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines utility methods for serializing tuning requests (objects that implement the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface) to XML tuning request strings.
-
 
 ## -inheritance
 
@@ -79,29 +78,17 @@ Constructs and returns an object that serializes a tuning request to an XML node
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IPersistTuneXmlUtility2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexmlutility">IPersistTuneXmlUtility</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

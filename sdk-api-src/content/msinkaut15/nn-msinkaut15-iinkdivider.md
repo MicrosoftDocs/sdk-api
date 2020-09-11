@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9
 ms.date: 12/05/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
-f1_keywords:
-- msinkaut15/IInkDivider
-dev_langs:
-- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut15.h
-api_name:
-- IInkDivider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDivider
+ - msinkaut15/IInkDivider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut15.h
+api_name:
+ - IInkDivider
 ---
 
 # IInkDivider interface
@@ -132,5 +133,5 @@ Gets or sets the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 </td>
 </tr>
-</table> 
+</table>
 

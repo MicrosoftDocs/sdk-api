@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerSetInfoEx, MprConfigServerSetInfoEx function [RAS], mprapi/MprConfigServerSetInfoEx, rras.mprconfigserversetinfoex
-f1_keywords:
-- mprapi/MprConfigServerSetInfoEx
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigServerSetInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigServerSetInfoEx
+ - mprapi/MprConfigServerSetInfoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigServerSetInfoEx
 ---
 
 # MprConfigServerSetInfoEx function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigServerSetInfoEx</b> function sets port information on a specified  RRAS server.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
-A handle to the router configuration. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>. 
-
+A handle to the router configuration. Obtain this handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param pSetServerConfig [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure that contains the port information being set on the server in <i>hMprServer</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -129,24 +121,12 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 These changes to a server configuration are persistent, but have no affect on a RRAS server until it is restarted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
@@ -165,7 +145,4 @@ These changes to a server configuration are persistent, but have no affect on a 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

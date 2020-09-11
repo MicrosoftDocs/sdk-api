@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 5ca1e67a-11f5-44bb-afe8-c934837d711b
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, wsw.ws_xml_token_message_security_binding
-f1_keywords:
-- webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+ - webservices/_WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+ - WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+ - webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 ---
 
 # WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure
 
 
 ## -description
-
 
 The security binding subtype for specifying the use of a security
 token that is already available to the application in XML form.  The
@@ -92,19 +94,12 @@ a narrow time duration.
             
 
 With this security binding, no security binding properties may be specified:
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field binding
 
 The base type from which this security binding subtype and all other security binding subtypes derive.
-                
-
 
 ### -field bindingUsage
 
@@ -117,8 +112,6 @@ authentication, but not message protection (such as signing,
 encryption, replay detection).  Thus, this binding must be used
 together with another security binding such as the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
 channel.
-                
-
 
 ### -field xmlToken
 
@@ -128,5 +121,4 @@ used for creating a channel, a copy of the supplied token is made and
 kept for internal use -- the application continues to own the supplied
 token and is responsible for deleting it with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a> any time after the channel creation call
 returns.
-                
 

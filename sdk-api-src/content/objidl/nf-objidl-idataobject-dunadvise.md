@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: bb9ae4c5-8655-4553-9a1c-ce52c6c86299
 ms.date: 12/05/2018
 ms.keywords: DUnadvise, DUnadvise method [COM], DUnadvise method [COM],IDataObject interface, IDataObject interface [COM],DUnadvise method, IDataObject.DUnadvise, IDataObject::DUnadvise, _ole_idataobject_dunadvise, com.idataobject_dunadvise, objidl/IDataObject::DUnadvise
-f1_keywords:
-- objidl/IDataObject.DUnadvise
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IDataObject.DUnadvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataObject::DUnadvise
+ - objidl/IDataObject::DUnadvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IDataObject.DUnadvise
 ---
 
 # IDataObject::DUnadvise
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys a notification connection that had been previously set up.
 
-
 ## -parameters
-
-
-
 
 ### -param dwConnection [in]
 
 A token that specifies the connection to be removed. Use the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> when the connection was originally established.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -97,29 +90,14 @@ This <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-id
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This methods destroys a notification created with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> method.
 
 If the advisory connection being deleted was initially set up by delegating the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>, you must delegate this call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a> to delete it.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
 ms.date: 12/05/2018
 ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIdentity method, IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata.GetIdentity
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata.GetIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata::GetIdentity
+ - vsbackup/IVssExamineWriterMetadata::GetIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata.GetIdentity
 ---
 
 # IVssExamineWriterMetadata::GetIdentity
@@ -50,46 +51,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIdentity</b> method obtains basic information about a specific writer instance.
 
-
 ## -parameters
-
-
-
 
 ### -param pidInstance [out]
 
 The address of a caller-allocated variable that receives the instance identifier of the writer.
 
-
 ### -param pidWriter [out]
 
 The address of a caller-allocated variable that receives the class identifier of the writer.
 
-
 ### -param pbstrWriterName [out]
 
 The address of a caller-allocated variable that receives a string that contains the name of the writer.
-
 
 ### -param pUsage [out]
 
 The address of a caller-allocated variable that receives a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a> enumeration value that specifies how the data managed by the writer is used on the host system.
 
-
 ### -param pSource [out]
 
 The address of a caller-allocated variable that receives a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a> enumeration value that specifies the type of data managed by the writer.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -158,14 +147,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
@@ -178,12 +161,7 @@ An
 <li>If <i>pidWriter</i> does not match the writer class of any live writer, a requester should not use that writer's components.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-createvssexaminewritermetadata">CreateVssExamineWriterMetadata</a>
 
@@ -198,7 +176,4 @@ An
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
- 
-
- 
 

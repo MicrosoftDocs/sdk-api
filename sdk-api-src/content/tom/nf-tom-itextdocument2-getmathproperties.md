@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 7686d0d6-5f49-4ab6-8a9e-1e53447ffe27
 ms.date: 12/05/2018
 ms.keywords: GetMathProperties, GetMathProperties method [Windows Controls], GetMathProperties method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetMathProperties method, ITextDocument2.GetMathProperties, ITextDocument2::GetMathProperties, controls.itextdocument2_getmathproperties, tom/ITextDocument2::GetMathProperties, tomMathBrkBinAfter, tomMathBrkBinBefore, tomMathBrkBinDup, tomMathBrkBinMask, tomMathBrkBinSubMM, tomMathBrkBinSubMP, tomMathBrkBinSubMask, tomMathBrkBinSubPM, tomMathDispAlignCenter, tomMathDispAlignLeft, tomMathDispAlignMask, tomMathDispAlignRight, tomMathDispDef, tomMathDispFracTeX, tomMathDispIntUnderOver, tomMathDispNaryGrow, tomMathDispNarySubSup, tomMathDocDiffItalic, tomMathDocDiffMask, tomMathDocDiffOpenItalic, tomMathDocDiffUpright, tomMathDocEmptyArgAlways, tomMathDocEmptyArgAuto, tomMathDocEmptyArgMask, tomMathDocEmptyArgNever, tomMathDocSbSpOpUnchanged, tomMathEnableRtl
-f1_keywords:
-- tom/ITextDocument2.GetMathProperties
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument2.GetMathProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument2::GetMathProperties
+ - tom/ITextDocument2::GetMathProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument2.GetMathProperties
 ---
 
 # ITextDocument2::GetMathProperties
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the math properties for the document.
 
-
 ## -parameters
-
-
-
 
 ### -param pOptions [out]
 
@@ -340,24 +336,14 @@ Duplicate mask for minus operator.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
@@ -368,7 +354,4 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setmathproperties">  ITextDocument2::SetMathProperties</a>
- 
-
- 
 

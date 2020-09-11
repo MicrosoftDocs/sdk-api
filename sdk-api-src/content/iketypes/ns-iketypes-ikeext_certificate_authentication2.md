@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 39332187-6562-4f58-9284-e2aaccf1489b
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_AUTHENTICATION2, IKEEXT_CERTIFICATE_AUTHENTICATION2 structure [Filtering], IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP, IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION, IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG, IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK, IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY, IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE, fwp.ikeext_certificate_authentication2, iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION2
-f1_keywords:
-- iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION2
-dev_langs:
-- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iketypes.h
-api_name:
-- IKEEXT_CERTIFICATE_AUTHENTICATION2
 targetos: Windows
 req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKEEXT_CERTIFICATE_AUTHENTICATION2_
+ - iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION2_
+ - IKEEXT_CERTIFICATE_AUTHENTICATION2
+ - iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iketypes.h
+api_name:
+ - IKEEXT_CERTIFICATE_AUTHENTICATION2
 ---
 
 # IKEEXT_CERTIFICATE_AUTHENTICATION2 structure
@@ -49,21 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IKEEXT_CERTIFICATE_AUTHENTICATION2</b> structure is used to specify various parameters for authentication with certificates.
 [IKEEXT_CERTIFICATE_AUTHENTICATION0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_authentication0)  is available.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field inboundConfigType
 
 Type: [IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type)</b>
 
 Certificate configuration type for inbound peer certificate verification.
-
 
 ### -field inboundRootArraySize
 
@@ -73,7 +71,6 @@ Number of elements in the <b>inboundRootCriteria</b> member.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
 
-
 ### -field inboundRootCriteria
 
 Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)*</b>
@@ -81,7 +78,6 @@ Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/
 List of certificate criteria containing explicit trusted authorities that should be used to verify the peer certificate chain.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
-
 
 ### -field inboundEnterpriseStoreArraySize
 
@@ -91,7 +87,6 @@ Number of elements in the <b>inboundEnterpriseStoreCriteria</b> member.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
 
-
 ### -field inboundEnterpriseStoreCriteria
 
 Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)*</b>
@@ -99,7 +94,6 @@ Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/
 List of enterprise store criteria that should be used to verify the peer certificate chain.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
-
 
 ### -field inboundRootStoreArraySize
 
@@ -109,7 +103,6 @@ Number of elements in the <b>inboundTrustedRootStoreCriteria</b> member.
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
 
-
 ### -field inboundTrustedRootStoreCriteria
 
 Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)*</b>
@@ -118,13 +111,11 @@ List of trusted root store criteria that should be used to verify the peer certi
 
 Available when <b>inboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
 
-
 ### -field outboundConfigType
 
 Type: [IKEEXT_CERT_CONFIG_TYPE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_config_type)</b>
 
 Certificate configuration type for outbound local certificate verification.
-
 
 ### -field outboundRootArraySize
 
@@ -134,7 +125,6 @@ Number of elements in the <b>outboundRootCriteria</b> member.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
 
-
 ### -field outboundRootCriteria
 
 Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)*</b>
@@ -142,7 +132,6 @@ Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/
 List of certificate criteria containing explicit trusted authorities that should be used to select the certificate chain that will be sent to the peer.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST</b>.
-
 
 ### -field outboundEnterpriseStoreArraySize
 
@@ -152,7 +141,6 @@ Number of elements in the <b>outboundEnterpriseStoreCriteria</b> member.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
 
-
 ### -field outboundEnterpriseStoreCriteria
 
 Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)*</b>
@@ -160,7 +148,6 @@ Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/
 List of enterprise store criteria that should be used to select the certificate chain that will be sent to the peer.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_ENTERPRISE_STORE</b>.
-
 
 ### -field outboundRootStoreArraySize
 
@@ -170,7 +157,6 @@ Number of elements in the <b>outboundRootStoreArraySize</b> member.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
 
-
 ### -field outboundTrustedRootStoreCriteria
 
 Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)*</b>
@@ -178,7 +164,6 @@ Type: [IKEEXT_CERTIFICATE_CRITERIA0](https://docs.microsoft.com/windows/desktop/
 List of trusted root store criteria that should be used to select the certificate chain that will be sent to the peer.
 
 Available when <b>outboundConfigType</b> is <b>IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE</b>.
-
 
 ### -field flags
 
@@ -267,8 +252,6 @@ Applicable only to IKEv2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field localCertLocationUrl
 
@@ -279,14 +262,7 @@ HTTP URL pointing to an encoded certificate or certificate-bundle, that
 
 Applicable only to IKEv2.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
 

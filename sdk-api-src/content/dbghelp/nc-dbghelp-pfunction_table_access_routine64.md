@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 387c20b0-ed16-463c-8b11-3ac9a43548a1
 ms.date: 12/05/2018
 ms.keywords: FunctionTableAccessProc64, FunctionTableAccessProc64 callback, FunctionTableAccessProc64 callback function, PFUNCTION_TABLE_ACCESS_ROUTINE, PFUNCTION_TABLE_ACCESS_ROUTINE64, _win32_functiontableaccessproc64, base.functiontableaccessproc64, dbghelp/FunctionTableAccessProc64
-f1_keywords:
-- dbghelp/FunctionTableAccessProc64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- DbgHelp.h
-api_name:
-- FunctionTableAccessProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - PFUNCTION_TABLE_ACCESS_ROUTINE64
+ - dbghelp/PFUNCTION_TABLE_ACCESS_ROUTINE64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - DbgHelp.h
+api_name:
+ - FunctionTableAccessProc64
 ---
 
 ## -description
@@ -52,11 +53,7 @@ An application-defined callback function used with the
 The <b>PFUNCTION_TABLE_ACCESS_ROUTINE64</b> type defines a pointer to this callback function. 
 <b>FunctionTableAccessProc64</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param ahProcess [in]
 
@@ -66,21 +63,13 @@ A handle to the process for which the stack trace is generated.
 
 The address of the instruction to be located.
 
-
 ## -returns
-
-
 
 The function returns a pointer to the run-time function table. On an x86 computer, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. On an Alpha computer, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a> structure.
 
-
-
-
 ## -remarks
-
-
 
 This callback function supersedes the <i>PFUNCTION_TABLE_ACCESS_ROUTINE</i> callback function.  <i>PFUNCTION_TABLE_ACCESS_ROUTINE</i> is defined as follows in DbgHelp.h. 
 
@@ -98,14 +87,7 @@ PVOID
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -120,7 +102,4 @@ PVOID
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 48fa3396-f3ec-411a-9ea7-d7e82d606f14
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerGetLineControls, mixerGetLineControls, mixerGetLineControls function [Windows Multimedia], mixerGetLineControlsA, mixerGetLineControlsW, mmeapi/mixerGetLineControls, mmeapi/mixerGetLineControlsA, mmeapi/mixerGetLineControlsW, multimedia.mixergetlinecontrols
-f1_keywords:
-- mmeapi/mixerGetLineControls
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- mixerGetLineControls
-- mixerGetLineControlsA
-- mixerGetLineControlsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mixerGetLineControlsW
+ - mmeapi/mixerGetLineControlsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - mixerGetLineControls
+ - mixerGetLineControlsA
+ - mixerGetLineControlsW
 ---
 
 # mixerGetLineControlsW function
@@ -53,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mixerGetLineControls</b> function retrieves one or more controls associated with an audio line.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmxobj
 
 Handle to the mixer device object that is being queried.
 
-
 ### -param pmxlc
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa">MIXERLINECONTROLS</a> structure. This structure is used to reference one or more <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structures to be filled with information about the controls associated with an audio line. The <b>cbStruct</b> member of the <b>MIXERLINECONTROLS</b> structure must always be initialized to be the size, in bytes, of the <b>MIXERLINECONTROLS</b> structure.
-
 
 ### -param fdwControls
 
@@ -145,12 +136,8 @@ Flags for retrieving information about one or more controls associated with an a
 <td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -237,24 +224,14 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
- 
-
- 
 
 ## -remarks
 

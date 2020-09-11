@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 4ddd02ff-9e7f-4962-8954-0032f23959cd
 ms.date: 12/05/2018
 ms.keywords: AddOverlayDirtyRect, AddOverlayDirtyRect method [DirectDraw], AddOverlayDirtyRect method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],AddOverlayDirtyRect method, IDirectDrawSurface7.AddOverlayDirtyRect, IDirectDrawSurface7::AddOverlayDirtyRect, ddraw/IDirectDrawSurface7::AddOverlayDirtyRect, directdraw.idirectdrawsurface7_addoverlaydirtyrect
-f1_keywords:
-- ddraw/IDirectDrawSurface7.AddOverlayDirtyRect
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.AddOverlayDirtyRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::AddOverlayDirtyRect
+ - ddraw/IDirectDrawSurface7::AddOverlayDirtyRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.AddOverlayDirtyRect
 ---
 
 # IDirectDrawSurface7::AddOverlayDirtyRect
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectDrawSurface7::AddOverlayDirtyRect</b> method is not currently implemented.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - lpRect [in]
 
 A pointer to a <b>RECT</b> structure for the rectangle to update.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -82,24 +73,11 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>AddOverlayDirtyRect</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

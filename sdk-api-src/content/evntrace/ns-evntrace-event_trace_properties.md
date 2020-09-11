@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 0c967971-8df1-4679-a8a9-a783f5b35860
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_TRACE_PROPERTIES, EVENT_TRACE_FLAG_ALPC, EVENT_TRACE_FLAG_CSWITCH, EVENT_TRACE_FLAG_DBGPRINT, EVENT_TRACE_FLAG_DISK_FILE_IO, EVENT_TRACE_FLAG_DISK_IO, EVENT_TRACE_FLAG_DISK_IO_INIT, EVENT_TRACE_FLAG_DISPATCHER, EVENT_TRACE_FLAG_DPC, EVENT_TRACE_FLAG_DRIVER, EVENT_TRACE_FLAG_FILE_IO, EVENT_TRACE_FLAG_FILE_IO_INIT, EVENT_TRACE_FLAG_IMAGE_LOAD, EVENT_TRACE_FLAG_INTERRUPT, EVENT_TRACE_FLAG_JOB, EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS, EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS, EVENT_TRACE_FLAG_NETWORK_TCPIP, EVENT_TRACE_FLAG_NO_SYSCONFIG, EVENT_TRACE_FLAG_PROCESS, EVENT_TRACE_FLAG_PROCESS_COUNTERS, EVENT_TRACE_FLAG_PROFILE, EVENT_TRACE_FLAG_REGISTRY, EVENT_TRACE_FLAG_SPLIT_IO, EVENT_TRACE_FLAG_SYSTEMCALL, EVENT_TRACE_FLAG_THREAD, EVENT_TRACE_FLAG_VAMAP, EVENT_TRACE_FLAG_VIRTUAL_ALLOC, EVENT_TRACE_PROPERTIES, EVENT_TRACE_PROPERTIES structure [ETW], PEVENT_TRACE_PROPERTIES, PEVENT_TRACE_PROPERTIES structure pointer [ETW], _EVENT_TRACE_PROPERTIES, _evt_event_trace_properties, base.event_trace_properties, etw.event_trace_properties, etw.event_trace_properties_str, evntrace/EVENT_TRACE_PROPERTIES, evntrace/PEVENT_TRACE_PROPERTIES'
-f1_keywords:
-- evntrace/EVENT_TRACE_PROPERTIES
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntrace.h
-api_name:
-- EVENT_TRACE_PROPERTIES
 targetos: Windows
 req.typenames: EVENT_TRACE_PROPERTIES, *PEVENT_TRACE_PROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_TRACE_PROPERTIES
+ - evntrace/_EVENT_TRACE_PROPERTIES
+ - PEVENT_TRACE_PROPERTIES
+ - evntrace/PEVENT_TRACE_PROPERTIES
+ - EVENT_TRACE_PROPERTIES
+ - evntrace/EVENT_TRACE_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntrace.h
+api_name:
+ - EVENT_TRACE_PROPERTIES
 ---
 
 # EVENT_TRACE_PROPERTIES structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EVENT_TRACE_PROPERTIES</b> structure contains information about an event tracing session. You use this structure when you define a session, change the properties of a session, or query for the properties of a session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Wnode
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure. You must specify the <b>BufferSize</b>, <b>Flags</b>, and <b>Guid</b> members, and optionally the  <b>ClientContext</b> member.
-
 
 ### -field BufferSize
 
@@ -71,25 +70,21 @@ Amount of memory allocated for each event tracing session buffer, in kilobytes. 
 
 If an application expects a relatively low event rate, the buffer size should be set to the memory page size. If the event rate is expected to be relatively high, the application should specify a larger buffer size, and should increase the maximum number of buffers. 
 
-The buffer size affects the rate at which buffers fill and must be flushed. Although a small buffer size requires less memory, it increases the rate at which buffers must be flushed. 
-
+The buffer size affects the rate at which buffers fill and must be flushed. Although a small buffer size requires less memory, it increases the rate at which buffers must be flushed.
 
 ### -field MinimumBuffers
 
 Minimum number of buffers allocated for the event tracing session's buffer pool. The minimum number of buffers that you can specify is two buffers per processor. For example, on a single processor computer, the minimum number of buffers is two. Note that if you use the EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING logging mode, the number of processors is assumed to be 1.
 
-
 ### -field MaximumBuffers
 
 Maximum number of buffers allocated for the event tracing session's buffer pool. Typically, this value is the minimum number of buffers plus twenty. ETW uses the buffer size and the size of physical memory to calculate this value. This value must be greater than or equal to the value for <b>MinimumBuffers</b>. Note that  you do not need to set this value if <b>LogFileMode</b> contains <b>EVENT_TRACE_BUFFERING_MODE</b>; instead, the total memory buffer size is instead the product of  <b>MinimumBuffers</b> and <b>BufferSize</b>.
-
 
 ### -field MaximumFileSize
 
 Maximum size of the file used to log events, in megabytes. Typically, you use this member to limit the size of a circular log file when you set <b>LogFileMode</b> to <b>EVENT_TRACE_FILE_MODE_CIRCULAR</b>. This member must be specified if <b>LogFileMode</b> contains <b>EVENT_TRACE_FILE_MODE_PREALLOCATE</b>, <b>EVENT_TRACE_FILE_MODE_CIRCULAR</b> or <b>EVENT_TRACE_FILE_MODE_NEWFILE</b>
 
-If you are using the system drive (the drive that contains the operating system) for logging, ETW checks for an additional 200MB of disk space, regardless of whether you are using the maximum file size parameter. Therefore, if you specify 100MB as the maximum file size for the trace file in the system drive, you need to have 300MB of free space on the drive. 
-
+If you are using the system drive (the drive that contains the operating system) for logging, ETW checks for an additional 200MB of disk space, regardless of whether you are using the maximum file size parameter. Therefore, if you specify 100MB as the maximum file size for the trace file in the system drive, you need to have 300MB of free space on the drive.
 
 ### -field LogFileMode
 
@@ -97,7 +92,6 @@ Logging modes for the event tracing session. You use this member to specify that
 <a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">Logging Mode Constants</a>.
 
 Do not specify real-time logging unless there are real-time consumers ready to consume the events. If there are no real-time consumers, ETW writes the events to a playback file. However, the size of the playback file is limited. If the limit is reached, no new events are logged (to the log file or playback file) and the logging functions fail with STATUS_LOG_FILE_FULL.<b>Prior to Windows Vista:  </b>If there was no real-time consumer, the events were discarded and logging continues.</p>If a consumer begins processing real-time events, the events in the playback file are consumed first. After all events in the playback file are consumed, the session will begin logging new events.
-
 
 ### -field FlushTimer
 
@@ -111,7 +105,6 @@ If zero, ETW flushes buffers as soon as they become full. If nonzero, ETW flushe
 If the consumer is consuming events in real time, you may want to set this member to a nonzero value if the event rate is low to force events to be delivered before the buffer is full.
 
 For the case of a realtime logger,  a value of zero (the default value) means that the flush time will be set to 1 second. A realtime logger is when <b>LogFileMode</b> is set to <b>EVENT_TRACE_REAL_TIME_MODE</b>.
-
 
 ### -field EnableFlags
 
@@ -581,13 +574,8 @@ This value is supported on Windows 7,  Windows Server 2008 R2, and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.AgeLimit
 
@@ -595,46 +583,35 @@ This value is supported on Windows 7,  Windows Server 2008 R2, and later.
 
 <b>Windows 2000:  </b>Time delay before unused buffers are freed, in minutes. The default is 15 minutes.
 
-
 ### -field DUMMYUNIONNAME.FlushThreshold
-
- 
-
 
 ### -field NumberOfBuffers
 
 On output, the number of buffers allocated for the event tracing session's buffer pool.
 
-
 ### -field FreeBuffers
 
 On output, the number of buffers that are allocated but unused in the event tracing session's buffer pool.
-
 
 ### -field EventsLost
 
 On output, the number of events that were not recorded.
 
-
 ### -field BuffersWritten
 
 On output, the number of buffers written.
-
 
 ### -field LogBuffersLost
 
 On output, the number of buffers that could not be written to the log file.
 
-
 ### -field RealTimeBuffersLost
 
 On output, the number of buffers that could not be delivered in real-time to the consumer.
 
-
 ### -field LoggerThreadId
 
 On output, the thread identifier for the event tracing session.
-
 
 ### -field LogFileNameOffset
 
@@ -652,7 +629,6 @@ If you want to log events to a log file, you must allocate enough memory for thi
 
 Trace files are created using the default security descriptor, meaning that the log file will have the same ACL as the parent directory. If you want access to the files restricted, create a parent directory with the appropriate ACLs.
 
-
 ### -field LoggerNameOffset
 
 Offset from the start of the structure's allocated memory to beginning of the null-terminated string that contains the session name. 
@@ -663,10 +639,7 @@ The session name is limited to 1,024 characters. The session name is case-insens
 
 When you allocate the memory for this structure, you must allocate enough memory to include the session name and log file name following the structure. The session name must come before the log file name in memory. You must copy the log file name to the offset but you do not copy the session name to the offset—the <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function copies the name for you.
 
-
 ## -remarks
-
-
 
 Be sure to initialize the memory for this structure to zero before setting any members.
 
@@ -682,13 +655,7 @@ Typically, you should not set these values and instead let ETW determine the siz
 
 To view session statistics, such as <b>EventsLost</b> while the session is running, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function and set the <i>ControlCode</i> parameter to EVENT_TRACE_CONTROL_QUERY.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
@@ -699,7 +666,4 @@ To view session statistics, such as <b>EventsLost</b> while the session is runni
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
- 
-
- 
 

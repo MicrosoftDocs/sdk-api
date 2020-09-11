@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: aa400731-3127-4ea7-a4ac-f31b6af8db98
 ms.date: 12/05/2018
 ms.keywords: GetNamespace, GetNamespace method [Windows Management Instrumentation], GetNamespace method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetNamespace method, Provider.GetNamespace, Provider::GetNamespace, _hmm_provider_getnamespace, provider/Provider::GetNamespace, wmi.provider_getnamespace
-f1_keywords:
-- provider/Provider.GetNamespace
-dev_langs:
-- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- Provider.GetNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Provider::GetNamespace
+ - provider/Provider::GetNamespace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - Provider.GetNamespace
 ---
 
 # Provider::GetNamespace
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,19 +59,9 @@ ms.custom: 19H1
 
 The <b>GetNamespace</b> method returns a constant reference to the namespace name in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> format. The name returned is the second parameter originally given to the provider constructor.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 Returns a constant reference to the namespace.
-
-
 

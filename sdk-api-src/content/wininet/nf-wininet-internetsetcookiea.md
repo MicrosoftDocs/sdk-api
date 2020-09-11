@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933
 ms.date: 12/05/2018
 ms.keywords: InternetSetCookie, InternetSetCookie function [WinINet], InternetSetCookieA, InternetSetCookieW, _win32_internetsetcookie, wininet.internetsetcookie, wininet/InternetSetCookie, wininet/InternetSetCookieA, wininet/InternetSetCookieW
-f1_keywords:
-- wininet/InternetSetCookie
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetSetCookie
-- InternetSetCookieA
-- InternetSetCookieW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetSetCookieA
+ - wininet/InternetSetCookieA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetSetCookie
+ - InternetSetCookieA
+ - InternetSetCookieW
 ---
 
 # InternetSetCookieA function
@@ -51,43 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a cookie associated with the specified URL.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrl [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the URL for which the cookie should be set.
 
-
 ### -param lpszCookieName [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name to be associated with the cookie data. If this parameter is <b>NULL</b>, no name is associated with the cookie.
-
 
 ### -param lpszCookieData [in]
 
 Pointer to the actual data to be associated with the URL.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Cookies created by 
 <b>InternetSetCookie</b> without an expiration date are stored in memory and are available only in the same process that created them. Cookies that include an expiration date are stored in the windows\cookies directory.
@@ -116,9 +102,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
@@ -140,7 +123,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

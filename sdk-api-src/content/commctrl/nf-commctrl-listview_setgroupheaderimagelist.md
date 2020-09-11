@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupheaderimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupHeaderImageList, ListView_SetGroupHeaderImageList macro [Windows Controls], _shell_ListView_SetGroupHeaderImageList, _shell_ListView_SetGroupHeaderImageList_cpp, commctrl/ListView_SetGroupHeaderImageList, controls.ListView_SetGroupHeaderImageList, controls._shell_ListView_SetGroupHeaderImageList
-f1_keywords:
-- commctrl/ListView_SetGroupHeaderImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetGroupHeaderImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetGroupHeaderImageList
+ - commctrl/ListView_SetGroupHeaderImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetGroupHeaderImageList
 ---
 
 # ListView_SetGroupHeaderImageList macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns an image list to the group header of a list-view control.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,19 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the list-view control.
 
-
 ### -param himl [in]
 
 Type: <b>HIML</b>
 
 A handle to the image list.
 
-
 ## -remarks
 
-
-
 The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
-
-
 

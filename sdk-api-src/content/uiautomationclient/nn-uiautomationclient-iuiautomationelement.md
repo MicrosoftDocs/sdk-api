@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 9e1f87b1-a204-4ca9-acf2-a40277012207
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], IUIAutomationElement interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElement, uiauto_IUIAutomationElement, uiautomationclient/IUIAutomationElement, winauto.uiauto_IUIAutomationElement
-f1_keywords:
-- uiautomationclient/IUIAutomationElement
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement
+ - uiautomationclient/IUIAutomationElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationElement
 ---
 
 # IUIAutomationElement interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods and properties for a UI Automation element, which represents a UI item. 
-
+Exposes methods and properties for a UI Automation element, which represents a UI item.
 
 ## -inheritance
 
@@ -1263,16 +1262,9 @@ Retrieves a description of the provider for this element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
- 
-
- 
 

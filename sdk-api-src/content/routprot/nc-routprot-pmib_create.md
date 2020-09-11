@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: b3e8eca6-6d8d-4385-8c94-7269878810c0
 ms.date: 12/05/2018
 ms.keywords: MibCreate, MibCreate callback function [RAS], PMIB_CREATE, PMIB_CREATE callback, _mpr_mibcreate, routprot/MibCreate, rras.mibcreate
-f1_keywords:
-- routprot/MibCreate
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- MibCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMIB_CREATE
+ - routprot/PMIB_CREATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - MibCreate
 ---
 
 # PMIB_CREATE callback function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MibCreate</b> function passes an SNMP MIB-style Create Request to the routing protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param InputDataSize [in]
 
 Specifies the size of the data for the Create Request.
 
-
 ### -param InputData [in]
 
 Pointer to a buffer that specifies the data for the Create Request.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -110,14 +102,7 @@ Specifies the size or content of the data is inappropriate for the request.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_delete">MibDelete</a>
 
@@ -128,7 +113,4 @@ Specifies the size or content of the data is inappropriate for the request.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
- 
-
- 
 

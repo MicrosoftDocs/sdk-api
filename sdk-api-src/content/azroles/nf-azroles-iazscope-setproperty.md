@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4df2d9ca-a77f-4b32-a4e2-56ecd2059b49
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AzScope object [Security],SetProperty method, IAzScope interface [Security],SetProperty method, IAzScope.SetProperty, IAzScope::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzScope object, SetProperty method [Security],IAzScope interface, azroles/IAzScope::SetProperty, security.iazscope_setproperty
-f1_keywords:
-- azroles/IAzScope.SetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScope.SetProperty
-- AzScope.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScope::SetProperty
+ - azroles/IAzScope::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScope.SetProperty
+ - AzScope.SetProperty
 ---
 
 # IAzScope::SetProperty
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object property  with the specified property ID.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -99,8 +95,6 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
@@ -145,28 +139,16 @@ Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
 
-
-
-
 ## -remarks
 
-
-
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
-
-
 

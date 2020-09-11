@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
 ms.date: 12/05/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
-f1_keywords:
-- oledlg/OleUIPromptUser
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIPromptUser
-- OleUIPromptUserA
-- OleUIPromptUserW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIPromptUserW
+ - oledlg/OleUIPromptUserW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIPromptUser
+ - OleUIPromptUserA
+ - OleUIPromptUserW
 ---
 
 # OleUIPromptUserW function
@@ -51,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered. 
-
-
-
+Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
 
 ## -parameters
-
-
-
 
 ### -param nTemplate [in]
 
 The resource number of the dialog box to be displayed. See Remarks.
 
-
 ### -param hwndParent [in]
 
 The handle to the parent window of the dialog box.
-
 
 ### -param arg3 [in]
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -373,14 +361,8 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following dialog box templates are defined in Windows Interface Guidelines--A Guide for Designing Software. The nTemplate parameter must be a currently defined resource, however, additional templates can be added to prompt.dlg.
 

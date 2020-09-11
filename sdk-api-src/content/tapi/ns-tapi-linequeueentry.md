@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: b05eb100-2a43-421f-826b-c37d05e4ef14
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEQUEUEENTRY, LINEQUEUEENTRY, LINEQUEUEENTRY structure [TAPI 2.2], LPLINEQUEUEENTRY, LPLINEQUEUEENTRY structure pointer [TAPI 2.2], _tapi2_linequeueentry, tapi/LINEQUEUEENTRY, tapi/LPLINEQUEUEENTRY, tapi2.linequeueentry'
-f1_keywords:
-- tapi/LINEQUEUEENTRY
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tapi.h
-api_name:
-- LINEQUEUEENTRY
 targetos: Windows
 req.typenames: LINEQUEUEENTRY, *LPLINEQUEUEENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - linequeueentry_tag
+ - tapi/linequeueentry_tag
+ - LPLINEQUEUEENTRY
+ - tapi/LPLINEQUEUEENTRY
+ - LINEQUEUEENTRY
+ - tapi/LINEQUEUEENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tapi.h
+api_name:
+ - LINEQUEUEENTRY
 ---
 
 # LINEQUEUEENTRY structure
@@ -49,37 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LINEQUEUEENTRY</b> structure provides the information for a single queue entry. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linequeuelist">LINEQUEUELIST</a> structure can contain an array of 
 <b>LINEQUEUEENTRY</b> structures. This structure requires TAPI 3.0 version negotiation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwQueueID
 
 Unique identifier for a queue. It is the responsibility of the agent handler to generate and maintain uniqueness of this identifier.
 
-
 ### -field dwNameSize
 
 Size of the queue name string including the <b>null</b> terminator, in bytes.
-
 
 ### -field dwNameOffset
 
 Offset from the beginning of the structure to a <b>null</b>-terminated string that specifies the name of the queue. The size of the string is specified by <b>dwNameSize</b>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
@@ -90,7 +84,4 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueuelista">lineGetQueueList</a>
- 
-
- 
 

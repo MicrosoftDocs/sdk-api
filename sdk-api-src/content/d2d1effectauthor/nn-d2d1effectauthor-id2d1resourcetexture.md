@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD
 ms.date: 12/05/2018
 ms.keywords: ID2D1ResourceTexture, ID2D1ResourceTexture interface [Direct2D], ID2D1ResourceTexture interface [Direct2D],described, d2d1effectauthor/ID2D1ResourceTexture, direct2d.id2d1resourcetexture
-f1_keywords:
-- d2d1effectauthor/ID2D1ResourceTexture
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1ResourceTexture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1ResourceTexture
+ - d2d1effectauthor/ID2D1ResourceTexture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1ResourceTexture
 ---
 
 # ID2D1ResourceTexture interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tracks a transform-created resource texture.
-
 
 ## -inheritance
 
@@ -78,16 +77,9 @@ Updates the specific resource texture inside the specific range or box using the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

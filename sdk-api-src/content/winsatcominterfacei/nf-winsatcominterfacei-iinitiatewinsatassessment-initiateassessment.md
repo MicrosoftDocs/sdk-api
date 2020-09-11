@@ -8,10 +8,6 @@ tech.root: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
-f1_keywords:
-- winsatcominterfacei/IInitiateWinSATAssessment.InitiateAssessment
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IInitiateWinSATAssessment.InitiateAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitiateWinSATAssessment::InitiateAssessment
+ - winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IInitiateWinSATAssessment.InitiateAssessment
 ---
 
 # IInitiateWinSATAssessment::InitiateAssessment
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IInitiateWinSATAssessment::InitiateAssessment may be altered or unavailable for releases after Windows 8.1.]
 
 Initiates an ad hoc assessment.
 
-
 ## -parameters
-
-
-
 
 ### -param cmdLine [in]
 
 Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="https://technet.microsoft.com/library/11b0e51f-fe58-4553-9e7c-a562e5385fbb.aspx">WinSAT Command Reference</a> on Microsoft TechNet.
 
-
 ### -param pCallbacks [in, optional]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a> interface that you implement to receive notification when the assessment finishes or makes progress. Can be <b>NULL</b> if you do not want to receive notifications.
-
 
 ### -param callerHwnd [in, optional]
 
 The window handle of your client. The handle is used to center the WinSAT dialog boxes. If <b>NULL</b>, the dialog boxes are centered on the desktop.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -141,14 +132,8 @@ Could not find the WinSAT program where expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You typically run an ad hoc assessment to assess one subcomponent of the computer, whereas a formal assessment assesses all subcomponents of the computer. To run a formal assessment, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a> method.
 
@@ -359,14 +344,7 @@ BOOL IsKeyEvent(HANDLE hStdIn)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
@@ -377,7 +355,4 @@ BOOL IsKeyEvent(HANDLE hStdIn)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
- 
-
- 
 

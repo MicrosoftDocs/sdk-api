@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 33240552-7caa-4114-aad6-7341551b1fbe
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16Vector, PropVariantToInt16Vector function [Windows Properties], _shell_PropVariantToInt16Vector, properties.PropVariantToInt16Vector, propvarutil/PropVariantToInt16Vector, shell.PropVariantToInt16Vector
-f1_keywords:
-- propvarutil/PropVariantToInt16Vector
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToInt16Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToInt16Vector
+ - propvarutil/PropVariantToInt16Vector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToInt16Vector
 ---
 
 # PropVariantToInt16Vector function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a vector of <b>Int16</b> values from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param prgn [out]
 
 Type: <b>SHORT*</b>
 
  Points to a buffer containing <i>crgn</i> SHORT values. When this function returns, the buffer has been initialized with <i>pcElem</i> SHORT elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
 
 ### -param crgn [in]
 
@@ -78,17 +72,13 @@ Type: <b>ULONG</b>
 
 Size of the buffer pointed to by <i>prgn</i> in elements.
 
-
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
 When this function returns, contains the count of <b>Int16</b> elements extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -133,14 +123,8 @@ The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an <b>Int16</b> vector value with a fixed number of elements.
 
@@ -169,14 +153,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint16vector">InitPropVariantFromInt16Vector</a>
 
@@ -195,7 +172,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint16array">VariantToInt16Array</a>
- 
-
- 
 

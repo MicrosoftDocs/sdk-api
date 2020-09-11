@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 95f0387f-24e8-4382-b78e-e59bcec0f2ed
 ms.date: 12/05/2018
 ms.keywords: UnenableRouter, UnenableRouter function [IP Helper], _iphlp_unenablerouter, iphlp.unenablerouter, iphlpapi/UnenableRouter
-f1_keywords:
-- iphlpapi/UnenableRouter
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- UnenableRouter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnenableRouter
+ - iphlpapi/UnenableRouter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - UnenableRouter
 ---
 
 # UnenableRouter function
@@ -49,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>UnenableRouter</b> function decrements the reference count that tracks the number of requests to enable IPv4 forwarding. When this reference count reaches zero, 
 <b>UnenableRouter</b> turns off IPv4 forwarding on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pOverlapped
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. This structure should be the same as the one used in the call to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter">EnableRouter</a> function.
 
-
 ### -param lpdwEnableCount [out, optional]
 
 An optional pointer to a <b>DWORD</b> variable. This variable receives the number of references remaining.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
-
-
-
 ## -remarks
-
-
 
 The <b>UnenableRouter</b> function is specific to IPv4 forwarding. Each call that a process makes to 
 <b>UnenableRouter</b> must correspond to a previous call to 
@@ -106,13 +93,7 @@ After calling the
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> call to close the handle to the event object in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -131,7 +112,4 @@ After calling the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

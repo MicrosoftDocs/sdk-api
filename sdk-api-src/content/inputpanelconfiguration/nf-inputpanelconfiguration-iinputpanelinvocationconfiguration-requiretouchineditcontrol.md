@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: FAFF0DC8-DD18-47A2-B3BD-24A69B75A100
 ms.date: 12/05/2018
 ms.keywords: IInputPanelInvocationConfiguration interface [Windows Shell],RequireTouchInEditControl method, IInputPanelInvocationConfiguration.RequireTouchInEditControl, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell],IInputPanelInvocationConfiguration interface, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
-f1_keywords:
-- inputpanelconfiguration/IInputPanelInvocationConfiguration.RequireTouchInEditControl
-dev_langs:
-- c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- inputpanelconfiguration.h
-api_name:
-- IInputPanelInvocationConfiguration.RequireTouchInEditControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInputPanelInvocationConfiguration::RequireTouchInEditControl
+ - inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - inputpanelconfiguration.h
+api_name:
+ - IInputPanelInvocationConfiguration.RequireTouchInEditControl
 ---
 
 # IInputPanelInvocationConfiguration::RequireTouchInEditControl
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requires an explicit user tap in an edit field before the touch keyboard invokes.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The <b>RequireTouchInEditControl</b> method always returns <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 When the <b>RequireTouchInEditControl</b> method is called, all future focus changes require an explicit user tap in an edit field before the touch keyboard invokes. You can call the <b>RequireTouchInEditControl</b> method multiple times, but there's no way to undo the setting. 
 
@@ -131,17 +118,7 @@ UIAutomationPropertyInfo customPropertyInfo =
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration">IInputPanelInvocationConfiguration</a>
- 
-
- 
 

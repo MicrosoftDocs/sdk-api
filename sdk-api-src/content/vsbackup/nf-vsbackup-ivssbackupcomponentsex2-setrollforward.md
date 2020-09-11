@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9529284f-2150-4d32-af6c-178ba8681945
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRollForward method, IVssBackupComponentsEx2.SetRollForward, IVssBackupComponentsEx2::SetRollForward, SetRollForward, SetRollForward method, SetRollForward method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrollforward, vsbackup/IVssBackupComponentsEx2::SetRollForward
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.SetRollForward
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponentsEx2.SetRollForward
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::SetRollForward
+ - vsbackup/IVssBackupComponentsEx2::SetRollForward
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponentsEx2.SetRollForward
 ---
 
 # IVssBackupComponentsEx2::SetRollForward
@@ -50,25 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the roll-forward operation type for a component and specifies the restore point for a partial roll-forward operation.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 The globally unique identifier (GUID) of the writer class.
 
-
 ### -param ct [in]
 
 The type of the component. See the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       enumeration for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -82,7 +76,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 A <b>null</b>-terminated wide character string containing the name of the component. 
@@ -92,11 +85,9 @@ The string cannot be <b>NULL</b> and should contain the same component name as t
       to the backup set using 
       the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> method.
 
-
 ### -param rollType [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_rollforward_type">VSS_ROLLFORWARD_TYPE</a> enumeration value indicating the type of roll-forward operation to be performed.
-
 
 ### -param wszRollForwardPoint [in]
 
@@ -104,10 +95,7 @@ A <b>null</b>-terminated wide character string specifying the roll-forward resto
 
 The format of this string is defined by the writer, and can be a timestamp, a log sequence number (LSN), or any marker defined by the writer.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -186,14 +174,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetRollForward</b> method can only be called during a restore operation.
 
@@ -203,13 +185,7 @@ For more
       information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>
 
@@ -224,7 +200,4 @@ For more
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_rollforward_type">VSS_ROLLFORWARD_TYPE</a>
- 
-
- 
 

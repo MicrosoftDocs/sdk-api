@@ -33,19 +33,25 @@ api_location:
  - cimfs.h
 api_name:
  - CimCloseImage
+f1_keywords:
+ - CimCloseImage
+ - cimfs/CimCloseImage
 ---
 
 ## -description
+
 Frees resources associated with the image handle.
 
 ## -parameters
 
 ### -param cimImageHandle
+
 Type: **CIMFS_IMAGE_HANDLE**
 
 An opaque handle that represents a writer for the image. This handle is created using CimCreateImage.
 
 ## -remarks
+
 If the image handle is closed before it is committed, any modifications performed on the image using the image handle are discarded. If a stream handle exists for the image, the image resources will not be freed until the stream handle is closed.
 
 ## -see-also

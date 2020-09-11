@@ -8,10 +8,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticoniclivepreviewbitmap.htm
 ms.date: 12/05/2018
 ms.keywords: DWM_SIT_DISPLAYFRAME, DwmSetIconicLivePreviewBitmap, DwmSetIconicLivePreviewBitmap function [Desktop Window Manager], _udwm_dwmseticoniclivepreviewbitmap, _udwm_dwmseticoniclivepreviewbitmap_cpp, dwm.dwmseticoniclivepreviewbitmap, dwmapi/DwmSetIconicLivePreviewBitmap, winui._udwm_dwmseticoniclivepreviewbitmap
-f1_keywords:
-- dwmapi/DwmSetIconicLivePreviewBitmap
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll; Uxtheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- uxtheme.dll
-- ext-ms-win-dwmapi-ext-l1-1-0.dll
-- ext-ms-win-dwmapi-ext-l1-1-1.dll
-- ext-ms-win-dwmapi-ext-l1-1-2.dll
-api_name:
-- DwmSetIconicLivePreviewBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmSetIconicLivePreviewBitmap
+ - dwmapi/DwmSetIconicLivePreviewBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - uxtheme.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+api_name:
+ - DwmSetIconicLivePreviewBitmap
 ---
 
 # DwmSetIconicLivePreviewBitmap function
@@ -53,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a static, iconic bitmap to display a <i>live preview</i> (also known as a <i>Peek preview</i>) of a window or tab. The taskbar can use this bitmap to show a full-sized preview of a window or tab.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 A handle to the window. This window must belong to the calling process.
 
-
 ### -param hbmp
 
 A handle to the bitmap to represent the window that <i>hwnd</i> specifies.
 
-
 ### -param pptClient [in, optional]
 
 The offset of a tab window's <i>client region</i> (the content area inside the client window frame) from the host window's frame. This offset enables the tab window's contents to be drawn correctly in a live preview  when it is drawn without its frame.
-
 
 ### -param dwSITFlags
 
@@ -87,19 +80,11 @@ The display options for the live preview. This parameter can be 0 or the followi
 
 0x00000001. Displays a frame around the provided bitmap.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if the function succeeds, or an error value otherwise. Note that because this bitmap is not cached, if the window is not being previewed when an application calls this function, the function returns a success code but the bitmap is discarded and not used.
 
-
-
-
 ## -remarks
-
-
 
 A <i>live preview</i> (also known as a <i>Peek preview</i>) of a window appears when a user moves the mouse pointer over the window's thumbnail in the taskbar or gives the thumbnail focus in the ALT+TAB window. This view is a full-sized view of the window and can be a snapshot or an iconic representation.
 
@@ -162,6 +147,4 @@ Then, the application calls <b>DwmSetIconicLivePreviewBitmap</b>  to respond to 
 
 
 For the complete example, see the  <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-sample-customizethumbnail">Customize an Iconic Thumbnail and a Live Preview Bitmap</a> sample.
-
-
 

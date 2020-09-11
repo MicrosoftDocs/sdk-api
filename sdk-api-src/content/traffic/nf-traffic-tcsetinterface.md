@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
 ms.date: 12/05/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
-f1_keywords:
-- traffic/TcSetInterface
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcSetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcSetInterface
+ - traffic/TcSetInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcSetInterface
 ---
 
 # TcSetInterface function
@@ -49,41 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TcSetInterface</b> function sets individual parameters for a given interface.
 
-
 ## -parameters
-
-
-
 
 ### -param IfcHandle [in]
 
 Handle associated with the interface to be set. This handle is obtained by a previous call to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
-
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
-
 ### -param BufferSize [in]
 
 Size of the client-provided buffer, in bytes.
-
 
 ### -param Buffer [in]
 
 Pointer to a client-provided buffer. <i>Buffer</i> must contain the value to which the traffic control parameter provided in <i>pGuidParam</i> should be set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -157,33 +147,19 @@ The device did not register for this GUID.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcSetInterface</b> function requires administrative privilege. The list of GUIDs that can be set is explained in 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
- 
-
- 
 

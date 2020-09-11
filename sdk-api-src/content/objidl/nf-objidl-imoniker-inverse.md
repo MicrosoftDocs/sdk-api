@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 351d5da3-043b-426a-99e9-9f882f552239
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],Inverse method, IMoniker.Inverse, IMoniker::Inverse, Inverse, Inverse method [COM], Inverse method [COM],IMoniker interface, _com_imoniker_inverse, com.imoniker_inverse, objidl/IMoniker::Inverse
-f1_keywords:
-- objidl/IMoniker.Inverse
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.Inverse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::Inverse
+ - objidl/IMoniker::Inverse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.Inverse
 ---
 
 # IMoniker::Inverse
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a moniker that is the inverse of this moniker. When composed to the right of this moniker or one of similar structure, the moniker will compose to nothing.
 
-
 ## -parameters
-
-
-
 
 ### -param ppmk [out]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to a moniker that is the inverse of this moniker. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new inverse moniker. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation should set *<i>ppmk</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY, as well as the following values.
 
@@ -97,14 +90,8 @@ The moniker class does not have an inverse.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The inverse of a moniker is analogous to the ".." directory in MS-DOS file systems; the ".." directory acts as the inverse to any other directory name, because appending ".." to a directory name results in an empty path. In the same way, the inverse of a moniker typically is also the inverse of all monikers in the same class. However, it is not necessarily the inverse of a moniker of a different class.
 
@@ -163,22 +150,12 @@ If your monikers have no internal structure, you can call the <a href="https://d
 <td>This method returns MK_E_NOINVERSE and sets *<i>ppmk</i> to <b>NULL</b>.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

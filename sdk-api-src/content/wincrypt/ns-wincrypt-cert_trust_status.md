@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: af1e1db2-7b53-4491-8317-4abf3568fb03
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_TRUST_STATUS, CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID, CERT_TRUST_CTL_IS_NOT_TIME_VALID, CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE, CERT_TRUST_HAS_CRL_VALIDITY_EXTENDED, CERT_TRUST_HAS_EXACT_MATCH_ISSUER, CERT_TRUST_HAS_EXCLUDED_NAME_CONSTRAINT, CERT_TRUST_HAS_ISSUANCE_CHAIN_POLICY, CERT_TRUST_HAS_KEY_MATCH_ISSUER, CERT_TRUST_HAS_NAME_MATCH_ISSUER, CERT_TRUST_HAS_NOT_DEFINED_NAME_CONSTRAINT, CERT_TRUST_HAS_NOT_PERMITTED_NAME_CONSTRAINT, CERT_TRUST_HAS_NOT_SUPPORTED_CRITICAL_EXT, CERT_TRUST_HAS_NOT_SUPPORTED_NAME_CONSTRAINT, CERT_TRUST_HAS_PREFERRED_ISSUER, CERT_TRUST_HAS_VALID_NAME_CONSTRAINTS, CERT_TRUST_HAS_WEAK_SIGNATURE, CERT_TRUST_INVALID_BASIC_CONSTRAINTS, CERT_TRUST_INVALID_EXTENSION, CERT_TRUST_INVALID_NAME_CONSTRAINTS, CERT_TRUST_INVALID_POLICY_CONSTRAINTS, CERT_TRUST_IS_CA_TRUSTED, CERT_TRUST_IS_COMPLEX_CHAIN, CERT_TRUST_IS_CYCLIC, CERT_TRUST_IS_EXPLICIT_DISTRUST, CERT_TRUST_IS_FROM_EXCLUSIVE_TRUST_STORE, CERT_TRUST_IS_NOT_SIGNATURE_VALID, CERT_TRUST_IS_NOT_TIME_VALID, CERT_TRUST_IS_NOT_VALID_FOR_USAGE, CERT_TRUST_IS_OFFLINE_REVOCATION, CERT_TRUST_IS_PARTIAL_CHAIN, CERT_TRUST_IS_PEER_TRUSTED, CERT_TRUST_IS_REVOKED, CERT_TRUST_IS_SELF_SIGNED, CERT_TRUST_IS_UNTRUSTED_ROOT, CERT_TRUST_NO_ERROR, CERT_TRUST_NO_ISSUANCE_CHAIN_POLICY, CERT_TRUST_REVOCATION_STATUS_UNKNOWN, CERT_TRUST_STATUS, CERT_TRUST_STATUS structure [Security], PCERT_TRUST_STATUS, PCERT_TRUST_STATUS structure pointer [Security], _crypto2_cert_trust_status, security.cert_trust_status, wincrypt/CERT_TRUST_STATUS, wincrypt/PCERT_TRUST_STATUS'
-f1_keywords:
-- wincrypt/CERT_TRUST_STATUS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_TRUST_STATUS
 targetos: Windows
 req.typenames: CERT_TRUST_STATUS, *PCERT_TRUST_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_TRUST_STATUS
+ - wincrypt/_CERT_TRUST_STATUS
+ - PCERT_TRUST_STATUS
+ - wincrypt/PCERT_TRUST_STATUS
+ - CERT_TRUST_STATUS
+ - wincrypt/CERT_TRUST_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_TRUST_STATUS
 ---
 
 # CERT_TRUST_STATUS structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_TRUST_STATUS</b> structure contains trust information about a certificate in a certificate chain, summary trust information about a simple chain of certificates, or summary information about an array of simple chains.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwErrorStatus
 
@@ -373,11 +373,8 @@ A CTL used to create this chain is not valid for this usage.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwInfoStatus
-
 
 The following information status codes are defined.
 
@@ -531,13 +528,8 @@ If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a>
 
@@ -548,7 +540,4 @@ If this flag is set, the <b>CERT_TRUST_IS_SELF_SIGNED</b> and the <b>CERT_TRUST_
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6014780b-3b8a-48d6-ae30-b48127a2c274
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FEATURE_CAPS, DXVAHD_FEATURE_CAPS enumeration [Media Foundation], DXVAHD_FEATURE_CAPS_ALPHA_FILL, DXVAHD_FEATURE_CAPS_ALPHA_PALETTE, DXVAHD_FEATURE_CAPS_CONSTRICTION, DXVAHD_FEATURE_CAPS_LUMA_KEY, dxvahd/DXVAHD_FEATURE_CAPS, dxvahd/DXVAHD_FEATURE_CAPS_ALPHA_FILL, dxvahd/DXVAHD_FEATURE_CAPS_ALPHA_PALETTE, dxvahd/DXVAHD_FEATURE_CAPS_CONSTRICTION, dxvahd/DXVAHD_FEATURE_CAPS_LUMA_KEY, mf.dxvahd_feature_caps
-f1_keywords:
-- dxvahd/DXVAHD_FEATURE_CAPS
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_FEATURE_CAPS
 targetos: Windows
 req.typenames: DXVAHD_FEATURE_CAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_FEATURE_CAPS
+ - dxvahd/_DXVAHD_FEATURE_CAPS
+ - DXVAHD_FEATURE_CAPS
+ - dxvahd/DXVAHD_FEATURE_CAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_FEATURE_CAPS
 ---
 
 # DXVAHD_FEATURE_CAPS enumeration
@@ -49,39 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines features that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device can support.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXVAHD_FEATURE_CAPS_ALPHA_FILL
 
 The device can set the alpha values on the video output. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>.
 
-
 ### -field DXVAHD_FEATURE_CAPS_CONSTRICTION
 
 The device can downsample the video output. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a>.
-
 
 ### -field DXVAHD_FEATURE_CAPS_LUMA_KEY
 
 The device can perform luma keying. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_luma_key_data">DXVAHD_STREAM_STATE_LUMA_KEY_DATA</a>.
 
-
 ### -field DXVAHD_FEATURE_CAPS_ALPHA_PALETTE
 
 The device can apply alpha values from color palette entries. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_state_alpha_data">DXVAHD_STREAM_STATE_ALPHA_DATA</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -92,7 +83,4 @@ The device can apply alpha values from color palette entries. See <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
 

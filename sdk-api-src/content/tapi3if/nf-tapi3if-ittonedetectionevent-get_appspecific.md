@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 5c6c4890-7e65-4b4a-bc2f-ea3c11e5e85a
 ms.date: 12/05/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_AppSpecific method, ITToneDetectionEvent.get_AppSpecific, ITToneDetectionEvent::get_AppSpecific, _tapi3_ittonedetectionevent_get_appspecific, get_AppSpecific, get_AppSpecific method [TAPI 2.2], get_AppSpecific method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_appspecific, tapi3if/ITToneDetectionEvent::get_AppSpecific
-f1_keywords:
-- tapi3if/ITToneDetectionEvent.get_AppSpecific
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITToneDetectionEvent.get_AppSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITToneDetectionEvent::get_AppSpecific
+ - tapi3if/ITToneDetectionEvent::get_AppSpecific
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITToneDetectionEvent.get_AppSpecific
 ---
 
 # ITToneDetectionEvent::get_AppSpecific
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_AppSpecific</b> method gets the application-defined tag that identifies the tone associated with the tone detection event.
 
-
 ## -parameters
-
-
-
 
 ### -param plAppSpecific [out]
 
@@ -65,10 +61,7 @@ Pointer to a value to receive the application-specific identifier for the tone, 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a> object or in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a> structure.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,22 +93,12 @@ The <i>plAppSpecific</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittonedetectionevent">ITToneDetectionEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>
- 
-
- 
 

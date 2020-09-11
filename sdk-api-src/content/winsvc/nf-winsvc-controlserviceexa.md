@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: de249903-7545-4fb6-925a-aa647f862f93
 ms.date: 12/05/2018
 ms.keywords: ControlServiceEx, ControlServiceEx function, ControlServiceExA, ControlServiceExW, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_STOP, base.controlserviceex, winsvc/ControlServiceEx, winsvc/ControlServiceExA, winsvc/ControlServiceExW
-f1_keywords:
-- winsvc/ControlServiceEx
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- ControlServiceEx
-- ControlServiceExA
-- ControlServiceExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ControlServiceExA
+ - winsvc/ControlServiceExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - ControlServiceEx
+ - ControlServiceExA
+ - ControlServiceExW
 ---
 
 # ControlServiceExA function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a control code to a service.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -71,7 +67,6 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">access rights</a> required for this handle depend on the <i>dwControl</i> code requested.
-
 
 ### -param dwControl [in]
 
@@ -207,22 +202,16 @@ The service defines the action associated with the control code. The <i>hService
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwInfoLevel [in]
 
 The information level for the service control parameters. This parameter must be set to SERVICE_CONTROL_STATUS_REASON_INFO (1).
 
-
 ### -param pControlParams [in, out]
 
 A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="/windows/win32/api/winsvc/ns-winsvc-service_control_status_reason_paramsa">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -340,14 +329,8 @@ The system is shutting down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>ControlServiceEx</b> function asks the Service Control Manager (SCM) to send the requested control code to the service. The SCM sends the code  if the service has specified that it will accept the code, and is in a state in which a control code can be sent to it.
@@ -420,9 +403,6 @@ The following table shows the action of the SCM  in each of the possible service
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
@@ -456,7 +436,4 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
- 
-
- 
 

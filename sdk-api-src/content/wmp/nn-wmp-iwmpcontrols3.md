@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: ee902912-4f09-4f61-9b81-f4bd50ace892
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], IWMPControls3 interface [Windows Media Player],described, IWMPControls3Interface, wmp.iwmpcontrols3, wmp/IWMPControls3
-f1_keywords:
-- wmp/IWMPControls3
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPControls3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls3
+ - wmp/IWMPControls3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPControls3
 ---
 
 # IWMPControls3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPControls3</b> interface provides methods that supplement the <b>IWMPControls2</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -164,13 +160,8 @@ Specifies the current position in the current media using SMPTE time code format
 </table> 
 
 Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls</a> interface.
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
@@ -181,7 +172,4 @@ Retrieve a pointer to an <b>IWMPControls3</b> interface by calling the <b>QueryI
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

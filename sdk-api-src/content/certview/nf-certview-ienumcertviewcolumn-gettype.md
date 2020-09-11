@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetType method, IEnumCERTVIEWCOLUMN.GetType, IEnumCERTVIEWCOLUMN::GetType, _certsrv_ienumcertviewcolumn_gettype, certview/IEnumCERTVIEWCOLUMN::GetType, security.ienumcertviewcolumn_gettype
-f1_keywords:
-- certview/IEnumCERTVIEWCOLUMN.GetType
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWCOLUMN.GetType
-- IEnumCERTVIEWCOLUMN.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWCOLUMN::GetType
+ - certview/IEnumCERTVIEWCOLUMN::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWCOLUMN.GetType
+ - IEnumCERTVIEWCOLUMN.GetType
 ---
 
 # IEnumCERTVIEWCOLUMN::GetType
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetType</b> method retrieves the data type of the current column in the column-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param pType [out]
 
 A pointer to a variable of <b>LONG</b> type that denotes the data type of the column referenced by the column-enumeration sequence.  For a table of the valid data types, see Remarks. This method  fails if the <i>pType</i> parameter is set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -76,12 +69,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value represents the data type of the column. For a table of the valid data types, see Remarks.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to determine the data type of the  column currently referenced by the 
 column-enumeration sequence. The valid data types are listed in the following table.
@@ -153,14 +141,7 @@ if (S_OK == hr)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
 
@@ -175,7 +156,4 @@ if (S_OK == hr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
- 
-
- 
 

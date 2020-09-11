@@ -8,10 +8,6 @@ tech.root: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW
-f1_keywords:
-- wingdi/wglUseFontOutlines
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- opengl32.dll
-api_name:
-- wglUseFontOutlines
-- wglUseFontOutlinesA
-- wglUseFontOutlinesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - wglUseFontOutlinesA
+ - wingdi/wglUseFontOutlinesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - opengl32.dll
+api_name:
+ - wglUseFontOutlines
+ - wglUseFontOutlinesA
+ - wglUseFontOutlinesW
 ---
 
 # wglUseFontOutlinesA function
@@ -51,73 +52,53 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>wglUseFontOutlines</b> function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context. The display lists are used to draw 3-D characters of TrueType fonts. Each display list describes a glyph outline in floating-point coordinates.
 
 The run of glyphs begins with thefirstglyph of the font of the specified device context. The em square size of the font, the notional grid size of the original font outline from which the font is fitted, is mapped to 1.0 in the x- and y-coordinates in the display lists. The extrusion parameter sets how much depth the font has in the z direction.
 
 Thelpgmfparameter returns a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structure that contains information about the placement and orientation of each glyph in a character cell.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1
 
 Specifies the device context with the desired outline font. The outline font of <i>hdc</i> is used to create the display lists in the current rendering context.
 
-
 ### -param arg2
 
 Specifies the first of the set of glyphs that form the font outline display lists.
-
 
 ### -param arg3
 
 Specifies the number of glyphs in the set of glyphs used to form the font outline display lists. The <b>wglUseFontOutlines</b> function creates <i>count</i> display lists, one display list for each glyph in a set of glyphs.
 
-
 ### -param arg4
 
 Specifies a starting display list.
-
 
 ### -param arg5
 
 Specifies the maximum chordal deviation from the original outlines. When deviation is zero, the chordal deviation is equivalent to one design unit of the original font. The value of <i>deviation</i> must be equal to or greater than 0.
 
-
 ### -param arg6
 
 Specifies how much a font is extruded in the negative <i>z</i> direction. The value must be equal to or greater than 0. When <i>extrusion</i> is 0, the display lists are not extruded.
-
 
 ### -param arg7
 
 Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the display lists. When <i>format</i> is WGL_FONT_LINES, the <b>wglUseFontOutlines</b> function creates fonts with line segments. When <i>format</i> is WGL_FONT_POLYGONS, <b>wglUseFontOutlines</b> creates fonts with polygons.
 
-
 ### -param arg8
 
 Points to an array of <i>count</i><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
 
-
 ## -returns
-
-
 
 When the function succeeds, the return value is <b>TRUE</b>.
 
 When the function fails, the return value is <b>FALSE</b> and no display lists are generated. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>wglUseFontOutlines</b> function defines the glyphs of an outline font with display lists in the current rendering context. The <b>wglUseFontOutlines</b> function works with TrueType fonts only; stroke and raster fonts are not supported.
 
@@ -177,9 +158,6 @@ glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
 
 
@@ -205,7 +183,4 @@ glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa">wglUseFontBitmaps</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 33bd1b61-b9ed-479f-a128-fb7ddbb5e9af
 ms.date: 12/05/2018
 ms.keywords: DS_REPADD_ASYNCHRONOUS_OPERATION, DS_REPADD_ASYNCHRONOUS_REPLICA, DS_REPADD_DISABLE_NOTIFICATION, DS_REPADD_DISABLE_PERIODIC, DS_REPADD_INITIAL, DS_REPADD_INTERSITE_MESSAGING, DS_REPADD_NEVER_NOTIFY, DS_REPADD_PERIODIC, DS_REPADD_USE_COMPRESSION, DS_REPADD_WRITEABLE, DsReplicaAdd, DsReplicaAdd function [Active Directory], DsReplicaAddA, DsReplicaAddW, _glines_dsreplicaadd, ad.dsreplicaadd, ntdsapi/DsReplicaAdd, ntdsapi/DsReplicaAddA, ntdsapi/DsReplicaAddW
-f1_keywords:
-- ntdsapi/DsReplicaAdd
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsReplicaAdd
-- DsReplicaAddA
-- DsReplicaAddW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsReplicaAddW
+ - ntdsapi/DsReplicaAddW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsReplicaAdd
+ - DsReplicaAddA
+ - DsReplicaAddW
 ---
 
 # DsReplicaAddW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsReplicaAdd</b> function adds a replication source reference to a destination naming context.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
@@ -66,31 +62,25 @@ Contains a directory service handle obtained from either the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
 
-
 ### -param NameContext [in]
 
 The null-terminated string that specifies the distinguished name (DN) of the destination naming context (NC)  for which to add the replica. The destination NC record must exist locally as either an object, instantiated or not, or a reference phantom, for example, a phantom with a GUID.
-
 
 ### -param SourceDsaDn [in]
 
 The null-terminated string that specifies the DN of the <b>NTDS-DSA</b> object for the source directory system agent. This parameter is required if <i>Options</i> includes <b>DS_REPADD_ASYNCHRONOUS_REPLICA</b>; otherwise, it is ignored.
 
-
 ### -param TransportDn [in]
 
 The null-terminated string that specifies the DN of the <b>interSiteTransport</b> object that represents the transport used for communication with the source server. This parameter is required if <i>Options</i> includes <b>DS_REPADD_INTERSITE_MESSAGING</b>; otherwise, it is ignored.
-
 
 ### -param SourceDsaAddress [in]
 
 The null-terminated string that specifies the transport-specific address of the source DSA. This source server is identified by a string name, not by its UUID. A string name appropriate for <i>SourceDsaAddress</i> is usually a DNS name based on a GUID, where the GUID part of the name is the GUID of the <b>NTDS-DSA</b> object for the source server.
 
-
 ### -param pSchedule [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used.
-
 
 ### -param Options [in]
 
@@ -210,22 +200,13 @@ Uses compression when replicating. This saves network bandwidth at the expense o
 
 Creates a writable replica; otherwise, the replica is read-only.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value can be one of the following.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
@@ -248,9 +229,6 @@ If the function fails, the return value can be one of the following.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
- 
-
- 
 
 ## -remarks
 

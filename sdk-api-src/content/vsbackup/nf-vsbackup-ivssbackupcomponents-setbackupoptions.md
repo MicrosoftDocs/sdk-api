@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2b9a64b2-2bc9-441b-97f7-a72fd7579126
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupOptions method, IVssBackupComponents.SetBackupOptions, IVssBackupComponents::SetBackupOptions, SetBackupOptions, SetBackupOptions method [VSS], SetBackupOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupoptions, base.ivssbackupcomponents_setbackupoptions, vsbackup/IVssBackupComponents::SetBackupOptions
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetBackupOptions
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetBackupOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetBackupOptions
+ - vsbackup/IVssBackupComponents::SetBackupOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetBackupOptions
 ---
 
 # IVssBackupComponents::SetBackupOptions
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetBackupOptions</b> method sets a string of private, or writer-dependent, backup parameters for a component.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Writer identifier.
 
-
 ### -param ct [in]
 
 Type of the component. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -85,7 +79,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component. 
@@ -96,15 +89,11 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 The string containing the name cannot be <b>NULL</b> and should contain the same component name as was used when the component was added to the backup set using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
 ### -param wszBackupOptions [in]
 
 <b>Null</b>-terminated wide character string containing the backup parameters to be set.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -195,14 +184,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The exact syntax and content of the backup options set by the <i>wszBackupOptions</i> parameter of the 
 <b>SetBackupOptions</b> method will depend on the specific writer being contacted.
@@ -210,13 +193,7 @@ The exact syntax and content of the backup options set by the <i>wszBackupOption
 This method must be called before 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -231,7 +208,4 @@ This method must be called before
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

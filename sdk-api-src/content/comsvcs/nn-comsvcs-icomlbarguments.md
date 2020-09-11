@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 1eb1c464-9371-420e-afc0-4b18c11a70d4
 ms.date: 12/05/2018
 ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], ICOMLBArguments interface [COM+],described, _cos_icomlbarguments, comsvcs/ICOMLBArguments, cos.icomlbarguments
-f1_keywords:
-- comsvcs/ICOMLBArguments
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICOMLBArguments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMLBArguments
+ - comsvcs/ICOMLBArguments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICOMLBArguments
 ---
 
 # ICOMLBArguments interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to activate the COM+ component load balancing service.
-
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Sets the computer name for the load balancing server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iselectcomlbserver">ISelectCOMLBServer</a>
- 
-
- 
 

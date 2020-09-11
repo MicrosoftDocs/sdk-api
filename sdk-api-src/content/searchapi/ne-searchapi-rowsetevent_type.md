@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
 ms.date: 12/05/2018
 ms.keywords: ROWSETEVENT_TYPE, ROWSETEVENT_TYPE enumeration [search], ROWSETEVENT_TYPE_DATAEXPIRED, ROWSETEVENT_TYPE_FOREGROUNDLOST, ROWSETEVENT_TYPE_SCOPESTATISTICS, _search_ROWSETEVENT_TYPE, search._search_ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE_DATAEXPIRED, searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST, searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS
-f1_keywords:
-- searchapi/ROWSETEVENT_TYPE
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Searchapi.h
-api_name:
-- ROWSETEVENT_TYPE
 targetos: Windows
 req.typenames: ROWSETEVENT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_searchapi_0000_0023_0002
+ - searchapi/__MIDL___MIDL_itf_searchapi_0000_0023_0002
+ - ROWSETEVENT_TYPE
+ - searchapi/ROWSETEVENT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Searchapi.h
+api_name:
+ - ROWSETEVENT_TYPE
 ---
 
 # ROWSETEVENT_TYPE enumeration
@@ -49,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the type of change to the rowset's data.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ROWSETEVENT_TYPE_DATAEXPIRED
 
 Indicates that data backing the rowset has expired, and that a new rowset should be requested.
-            
-
 
 ### -field ROWSETEVENT_TYPE_FOREGROUNDLOST
 
 Indicates that an item that did have foreground priority in the prioritization stack has been demoted, because someone else prioritized themselves ahead of this query.
-            
-
 
 ### -field ROWSETEVENT_TYPE_SCOPESTATISTICS
 
 Indicates that the scope statistics are to be optained.
-            
-
 
 ## -remarks
-
-
 
 This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onrowsetevent">IRowsetEvents::OnRowsetEvent</a> method to describe the type of event that affects a rowset.
 
@@ -93,9 +83,6 @@ The <b>ROWSETEVENT_TYPE_SCOPESTATISTICS</b> event gives you the same information
 Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -130,7 +117,4 @@ Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
- 
-
- 
 

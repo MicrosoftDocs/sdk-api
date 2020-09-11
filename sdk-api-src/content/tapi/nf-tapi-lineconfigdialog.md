@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog
-f1_keywords:
-- tapi/lineConfigDialog
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineConfigDialog
-- lineConfigDialogA
-- lineConfigDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineConfigDialog
+ - tapi/lineConfigDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineConfigDialog
+ - lineConfigDialogA
+ - lineConfigDialogW
 ---
 
 # lineConfigDialog function
@@ -51,45 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineConfigDialog</b> function causes the provider of the specified line device to display a dialog box (attached to <i>hwndOwner</i> of the application) to allow the user to configure parameters related to the line device.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDeviceID
 
 Identifier of the line device to be configured.
 
-
 ### -param hwndOwner
 
 Handle to a window to which the dialog box is to be attached. Can be <b>NULL</b> to indicate that any window created during the function should have no owner window.
-
 
 ### -param lpszDeviceClass
 
 Pointer to a <b>null</b>-terminated string that identifies a device class name. This device class allows the application to select a specific subscreen of configuration information applicable to that device class. This parameter is optional and can be left <b>NULL</b> or empty, in which case the highest level configuration is selected.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_BADDEVICEID, LINEERR_NOMEM, LINEERR_INUSE, LINEERR_OPERATIONFAILED, LINEERR_INVALDEVICECLASS, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPARAM, LINEERR_UNINITIALIZED, LINEERR_INVALPOINTER, LINEERR_OPERATIONUNAVAIL, LINEERR_NODEVICE.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>lineConfigDialog</b> function causes the service provider to display a modal dialog box (attached to <i>hwndOwner</i> of the application) to allow the user to configure parameters related to the line specified by <i>dwDeviceID</i>. The <i>lpszDeviceClass</i> parameter allows the application to select a specific subscreen of configuration information applicable to the device class in which the user is interested; the permitted strings are the same as for 
@@ -97,13 +83,7 @@ The
 
 The <i>lpszDeviceClass</i> parameter would be "tapi/line" , "", or <b>NULL</b> to cause the provider to display the highest level configuration for the line.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
@@ -114,7 +94,4 @@ The <i>lpszDeviceClass</i> parameter would be "tapi/line" , "", or <b>NULL</b> t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
- 
-
- 
 

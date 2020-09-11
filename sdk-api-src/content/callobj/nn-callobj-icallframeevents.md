@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
 ms.date: 12/05/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
-f1_keywords:
-- callobj/ICallFrameEvents
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallFrameEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallFrameEvents
+ - callobj/ICallFrameEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallFrameEvents
 ---
 
 # ICallFrameEvents interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Delivers method call notifications.
-
-
 
 ## -inheritance
 
@@ -78,5 +76,5 @@ Informs the event sink if it receives a method call on the interceptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

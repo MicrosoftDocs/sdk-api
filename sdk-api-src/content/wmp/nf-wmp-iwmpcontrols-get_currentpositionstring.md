@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 8843852b-f98a-469f-8541-44b3c51ebd6c
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPositionString method, IWMPControls.get_currentPositionString, IWMPControls::get_currentPositionString, IWMPControlsget_currentPositionString, get_currentPositionString, get_currentPositionString method [Windows Media Player], get_currentPositionString method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentpositionstring, wmp/IWMPControls::get_currentPositionString
-f1_keywords:
-- wmp/IWMPControls.get_currentPositionString
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.get_currentPositionString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::get_currentPositionString
+ - wmp/IWMPControls::get_currentPositionString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.get_currentPositionString
 ---
 
 # IWMPControls::get_currentPositionString
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_currentPositionString</b> method retrieves the current position in the media item as a <b>BSTR</b> formatted as HH:MM:SS (hours, minutes, and seconds).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrCurrentPosition [out]
 
 Pointer to a <b>BSTR</b> containing the current position.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,31 +79,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the media item is less than an hour long, the current position is formatted as MM:SS (minutes and seconds).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentposition">IWMPControls::get_currentPosition</a>
- 
-
- 
 

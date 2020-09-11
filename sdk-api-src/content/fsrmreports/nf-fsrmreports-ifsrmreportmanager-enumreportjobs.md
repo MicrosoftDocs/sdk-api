@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: af66beb6-e82c-47e6-8658-da9702041053
 ms.date: 12/05/2018
 ms.keywords: EnumReportJobs, EnumReportJobs method [File Server Resource Manager], EnumReportJobs method [File Server Resource Manager],FsrmReportManager class, EnumReportJobs method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager interface [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager.EnumReportJobs, IFsrmReportManager::EnumReportJobs, fs.ifsrmreportmanager_enumreportjobs, fsrm.ifsrmreportmanager_enumreportjobs, fsrmreports/IFsrmReportManager::EnumReportJobs
-f1_keywords:
-- fsrmreports/IFsrmReportManager.EnumReportJobs
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportManager.EnumReportJobs
-- FsrmReportManager.EnumReportJobs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportManager::EnumReportJobs
+ - fsrmreports/IFsrmReportManager::EnumReportJobs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportManager.EnumReportJobs
+ - FsrmReportManager.EnumReportJobs
 ---
 
 # IFsrmReportManager::EnumReportJobs
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the report jobs.
 
-
 ## -parameters
-
-
-
 
 ### -param options [in]
 
@@ -82,27 +78,15 @@ The collection can contain committed and uncommitted report jobs. For an uncommi
        <b>FsrmReportRunningStatus_Queued</b> or 
        <b>FsrmReportRunningStatus_Running</b>.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
- 
-
- 
 

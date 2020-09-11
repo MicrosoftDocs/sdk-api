@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 5791e330-3877-4d3a-b27f-f14b97d1a435
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo3, IWMHeaderInfo3 interface [windows Media Format], IWMHeaderInfo3 interface [windows Media Format],described, IWMHeaderInfo3Interface, wmformat.iwmheaderinfo3, wmsdkidl/IWMHeaderInfo3
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo3
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMHeaderInfo3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo3
+ - wmsdkidl/IWMHeaderInfo3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMHeaderInfo3
 ---
 
 # IWMHeaderInfo3 interface
 
 
 ## -description
-
-
 
 The <b>IWMHeaderInfo3</b> interface supports the following new metadata features:
 
@@ -61,9 +60,6 @@ The <b>IWMHeaderInfo3</b> interface supports the following new metadata features
 Because the attributes created using this interface can have duplicate names, the methods of this interface use index values to identify attributes.
 
 The <b>IWMHeaderInfo3</b> interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object. To obtain a pointer to an instance, call the <b>QueryInterface</b> method of any other interface in the desired object.
-
-
-
 
 ## -inheritance
 
@@ -147,21 +143,11 @@ Changes the settings of an existing attribute.
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -remarks
-
-
 
 For information about using the writer for metadata editing, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/to-edit-metadata-with-the-writer">To Edit Metadata with the Writer</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
@@ -188,7 +174,4 @@ For information about using the writer for metadata editing, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
- 
-
- 
 

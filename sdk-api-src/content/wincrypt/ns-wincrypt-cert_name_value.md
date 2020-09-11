@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Security], PCERT_NAME_VALUE, PCERT_NAME_VALUE structure pointer [Security], _crypto2_cert_name_value, security.cert_name_value, wincrypt/CERT_NAME_VALUE, wincrypt/PCERT_NAME_VALUE'
-f1_keywords:
-- wincrypt/CERT_NAME_VALUE
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_NAME_VALUE
 targetos: Windows
 req.typenames: CERT_NAME_VALUE, *PCERT_NAME_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_NAME_VALUE
+ - wincrypt/_CERT_NAME_VALUE
+ - PCERT_NAME_VALUE
+ - wincrypt/PCERT_NAME_VALUE
+ - CERT_NAME_VALUE
+ - wincrypt/CERT_NAME_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_NAME_VALUE
 ---
 
 # CERT_NAME_VALUE structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_NAME_VALUE</b> structure contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) attribute value. It is like the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure, except that it does not include the object identifier member that is a member of <b>CERT_RDN_ATTR</b>. As in <b>CERT_RDN_ATTR</b>, the interpretation of the <b>Value</b> member depends on <b>dwValueType</b>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwValueType
 
 Indicates the interpretation of the <b>Value</b> member. For documentation on possible values of <b>dwValueType</b>, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a>.
 
-
 ### -field Value
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the RDN attribute. The <b>cbData</b> member of <b>Value</b> is the length, in bytes, of the <b>pbData</b> member. It is not the number of elements in the <b>pbData</b> string. 
 
@@ -77,11 +75,7 @@ For example, a <b>DWORD</b> is 32 bits or 4 bytes long. If the <b>pbData</b> mem
 
 The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit or 16-bit characters or a fixed-length array of elements. If <b>dwValueType</b> is set to CERT_RDN_ENCODED_BLOB, <b>pbData</b> is encoded.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
 
@@ -96,7 +90,4 @@ The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra">CertRDNValueToStr</a>
- 
-
- 
 

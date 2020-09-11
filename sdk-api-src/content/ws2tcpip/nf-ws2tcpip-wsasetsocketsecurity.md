@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 9efee804-9763-4456-97a3-6eb9a8e30f49
 ms.date: 12/05/2018
 ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], winsock.wsasetsocketsecurity, ws2tcpip/WSASetSocketSecurity
-f1_keywords:
-- ws2tcpip/WSASetSocketSecurity
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- WSASetSocketSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASetSocketSecurity
+ - ws2tcpip/WSASetSocketSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - WSASetSocketSecurity
 ---
 
 # WSASetSocketSecurity function
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WSASetSocketSecurity</b> function enables and applies security for a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param Socket [in]
 
 A descriptor that identifies a socket on which security settings are being applied.
 
-
 ### -param SecuritySettings [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-socket_security_settings">SOCKET_SECURITY_SETTINGS</a> structure that specifies the security settings to be applied to the socket's traffic. If this parameter is <b>NULL</b>, default settings will be applied to the socket.
-
 
 ### -param SecuritySettingsLen [in]
 
 The size, in bytes, of the <i>SecuritySettings</i> parameter.
 
-
 ### -param Overlapped [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
-
 
 ### -param CompletionRoutine [in, optional]
 
 A pointer to the completion routine called when the operation has been completed.  This parameter is ignored for non-overlapped sockets.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is zero.  Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -153,14 +142,8 @@ The descriptor passed in the <i>Socket</i> parameter is not a valid socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The primary purpose of the <b>WSASetSocketSecurity</b> function is to turn on security for a socket if it is not already enabled by administrative policy. For IPsec, this means  that appropriate IPsec filters and policies will be instantiated that will be used to secure this socket. the <b>WSASetSocketSecurity</b> function can also be used to set specific security requirements for the socket.
 
@@ -266,12 +249,7 @@ Authip QM policy =
 }
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.microsoft.com/technet/community/columns/cableguy/cg0806.mspx">AuthIP in Windows Vista</a>
 
@@ -334,7 +312,4 @@ Authip QM policy =
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
- 
-
- 
 

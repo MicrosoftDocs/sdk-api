@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5a7d6e06-712b-4b18-baad-f4166163c50f
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyBag, INamedPropertyBag interface [Windows Shell], INamedPropertyBag interface [Windows Shell],described, _shell_INamedPropertyBag, shell.INamedPropertyBag, shlobj_core/INamedPropertyBag
-f1_keywords:
-- shlobj_core/INamedPropertyBag
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INamedPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INamedPropertyBag
+ - shlobj_core/INamedPropertyBag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INamedPropertyBag
 ---
 
 # INamedPropertyBag interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide an object with a specified property bag in which the object can save its properties.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Saves a property to the named property bag.
 
 </td>
 </tr>
-</table> 
+</table>
 

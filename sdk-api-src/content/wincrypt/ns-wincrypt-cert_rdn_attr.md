@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4729e824-761c-4115-8b7b-76ffdab8ea62
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_RDN_ATTR, CERT_RDN_ANY_TYPE, CERT_RDN_ATTR, CERT_RDN_ATTR structure [Security], CERT_RDN_BMP_STRING, CERT_RDN_DISABLE_CHECK_TYPE_FLAG, CERT_RDN_DISABLE_IE4_UTF8_FLAG, CERT_RDN_ENABLE_PUNYCODE_FLAG, CERT_RDN_ENABLE_T61_UNICODE_FLAG, CERT_RDN_ENABLE_UTF8_UNICODE_FLAG, CERT_RDN_ENCODED_BLOB, CERT_RDN_FORCE_UTF8_UNICODE_FLAG, CERT_RDN_GENERAL_STRING, CERT_RDN_GRAPHIC_STRING, CERT_RDN_IA5_STRING, CERT_RDN_INT4_STRING, CERT_RDN_ISO646_STRING, CERT_RDN_NUMERIC_STRING, CERT_RDN_OCTET_STRING, CERT_RDN_PRINTABLE_STRING, CERT_RDN_T61_STRING, CERT_RDN_TELETEX_STRING, CERT_RDN_UNICODE_STRING, CERT_RDN_UNIVERSAL_STRING, CERT_RDN_UTF8_STRING, CERT_RDN_VIDEOTEX_STRING, CERT_RDN_VISIBLE_STRING, PCERT_RDN_ATTR, PCERT_RDN_ATTR structure pointer [Security], _crypto2_cert_rdn_attr, security.cert_rdn_attr, szOID_AUTHORITY_REVOCATION_LIST, szOID_BUSINESS_CATEGORY, szOID_CA_CERTIFICATE, szOID_CERTIFICATE_REVOCATION_LIST, szOID_COMMON_NAME, szOID_COUNTRY_NAME, szOID_CROSS_CERTIFICATE_PAIR, szOID_DESCRIPTION, szOID_DESTINATION_INDICATOR, szOID_DEVICE_SERIAL_NUMBER, szOID_DOMAIN_COMPONENT, szOID_FACSIMILE_TELEPHONE_NUMBER, szOID_GIVEN_NAME, szOID_INITIALS, szOID_INTERNATIONAL_ISDN_NUMBER, szOID_LOCALITY_NAME, szOID_MEMBER, szOID_ORGANIZATIONAL_UNIT_NAME, szOID_ORGANIZATION_NAME, szOID_OWNER, szOID_PHYSICAL_DELIVERY_OFFICE_NAME, szOID_PKCS_12_FRIENDLY_NAME_ATTR, szOID_PKCS_12_LOCAL_KEY_ID, szOID_POSTAL_ADDRESS, szOID_POSTAL_CODE, szOID_POST_OFFICE_BOX, szOID_PREFERRED_DELIVERY_METHOD, szOID_PRESENTATION_ADDRESS, szOID_REGISTERED_ADDRESS, szOID_ROLE_OCCUPANT, szOID_RSA_emailAddr, szOID_SEARCH_GUIDE, szOID_SEE_ALSO, szOID_STATE_OR_PROVINCE_NAME, szOID_STREET_ADDRESS, szOID_SUPPORTED_APPLICATION_CONTEXT, szOID_SUR_NAME, szOID_TELEPHONE_NUMBER, szOID_TELETEXT_TERMINAL_IDENTIFIER, szOID_TELEX_NUMBER, szOID_TITLE, szOID_USER_CERTIFICATE, szOID_USER_PASSWORD, szOID_X21_ADDRESS, wincrypt/CERT_RDN_ATTR, wincrypt/PCERT_RDN_ATTR'
-f1_keywords:
-- wincrypt/CERT_RDN_ATTR
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_RDN_ATTR
 targetos: Windows
 req.typenames: CERT_RDN_ATTR, *PCERT_RDN_ATTR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_RDN_ATTR
+ - wincrypt/_CERT_RDN_ATTR
+ - PCERT_RDN_ATTR
+ - wincrypt/PCERT_RDN_ATTR
+ - CERT_RDN_ATTR
+ - wincrypt/CERT_RDN_ATTR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_RDN_ATTR
 ---
 
 # CERT_RDN_ATTR structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_RDN_ATTR</b> structure contains a single attribute of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN). A whole RDN is expressed in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure that contains an array of <b>CERT_RDN_ATTR</b> structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszObjId
 
@@ -528,8 +528,6 @@ Telecommunications addressing attribute.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwValueType
 
@@ -811,8 +809,6 @@ the RDN string value is converted to its Unicode equivalent.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
@@ -825,11 +821,7 @@ For example, a <b>DWORD</b> is 32 bits or 4 bytes long. If <b>pbData</b> is a <b
 
 The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit or 16-bit characters or a fixed-length array of elements. If <b>dwValueType</b> is set to CERT_RDN_ENCODED_BLOB, <b>pbData</b> is encoded.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a>
 
@@ -840,7 +832,4 @@ The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisrdnattrsincertificatename">CertIsRDNAttrsInCertificateName</a>
- 
-
- 
 

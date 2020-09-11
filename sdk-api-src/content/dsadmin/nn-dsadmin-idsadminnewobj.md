@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
-f1_keywords:
-- dsadmin/IDsAdminNewObj
-dev_langs:
-- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DSAdmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DSAdmin.dll
-api_name:
-- IDsAdminNewObj
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsAdminNewObj
+ - dsadmin/IDsAdminNewObj
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DSAdmin.dll
+api_name:
+ - IDsAdminNewObj
 ---
 
 # IDsAdminNewObj interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDsAdminNewObj</b> interface is used by a primary or secondary  object creation wizard extension to obtain page count data and to control the command buttons in the wizard. An instance of this interface is passed to the extension in the <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a> method.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Enables or disables the "Next" command button in the wizard for a specific page.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
 
@@ -111,7 +106,4 @@ Enables or disables the "Next" command button in the wizard for a specific page.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
- 
-
- 
 

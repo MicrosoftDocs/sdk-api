@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ed4790ee-97ce-482e-834e-4081a310f4bb
 ms.date: 12/05/2018
 ms.keywords: GetRecordElementaryPid, GetRecordElementaryPid method [Microsoft TV Technologies], GetRecordElementaryPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordElementaryPid method, IPMT.GetRecordElementaryPid, IPMT::GetRecordElementaryPid, IPMTGetRecordElementaryPid, mpeg2psiparser/IPMT::GetRecordElementaryPid, mstv.ipmt_getrecordelementarypid
-f1_keywords:
-- mpeg2psiparser/IPMT.GetRecordElementaryPid
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPMT.GetRecordElementaryPid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPMT::GetRecordElementaryPid
+ - mpeg2psiparser/IPMT::GetRecordElementaryPid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPMT.GetRecordElementaryPid
 ---
 
 # IPMT::GetRecordElementaryPid
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetRecordElementaryPid</b> method returns the packet identifier (PID) for a given elementary stream in the program.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountofrecords">IPMT::GetCountOfRecords</a> method to get the number of records in the PMT.
 
-
 ### -param pPidVal [out]
 
 Receives the elementary_PID field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -116,18 +105,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: a6000966-886b-4b9e-8df2-fee79d494f2e
 ms.date: 12/05/2018
 ms.keywords: '*LPSOUNDSENTRYW, LPSOUNDSENTRY, LPSOUNDSENTRY structure pointer [Windows Accessibility], SOUNDSENTRY, SOUNDSENTRY structure [Windows Accessibility], SOUNDSENTRYW, SSF_AVAILABLE, SSF_INDICATOR, SSF_SOUNDSENTRYON, SSGF_DISPLAY, SSGF_NONE, SSTF_BORDER, SSTF_CHARS, SSTF_DISPLAY, SSTF_NONE, SSWF_CUSTOM, SSWF_DISPLAY, SSWF_NONE, SSWF_TITLE, SSWF_WINDOW, _win32_SOUNDSENTRY_str, msaa.soundsentry, tagSOUNDSENTRYA, tagSOUNDSENTRYW, winauto.soundsentry, winuser/LPSOUNDSENTRY, winuser/SOUNDSENTRY'
-f1_keywords:
-- winuser/SOUNDSENTRY
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- SOUNDSENTRY
 targetos: Windows
 req.typenames: SOUNDSENTRYW, *LPSOUNDSENTRYW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSOUNDSENTRYW
+ - winuser/tagSOUNDSENTRYW
+ - LPSOUNDSENTRYW
+ - winuser/LPSOUNDSENTRYW
+ - SOUNDSENTRYW
+ - winuser/SOUNDSENTRYW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - SOUNDSENTRY
 ---
 
 # SOUNDSENTRYW structure
 
 
 ## -description
-
 
 Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
 
@@ -60,18 +64,13 @@ Contains information about the SoundSentry accessibility feature. When the Sound
         when a sound is generated through either the multimedia
         sound services or through the computer's speaker.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure.
-
 
 ### -field dwFlags
 
@@ -121,8 +120,6 @@ If this flag is set, the SoundSentry feature is on.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iFSTextEffect
 
@@ -187,7 +184,6 @@ No visual signal
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSTextEffectMSec
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
@@ -196,7 +192,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSTextEffectColorBits
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
@@ -204,7 +199,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 <b>Windows 95/98:</b> Specifies the RGB value of the color to be used when displaying the visual signal shown when a full-screen, text-mode application generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
-
 
 ### -field iFSGrafEffect
 
@@ -247,7 +241,6 @@ No visual signal.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSGrafEffectMSec
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
@@ -256,7 +249,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSGrafEffectColor
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
@@ -264,7 +256,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 <b>Windows 95/98:</b> Specifies the RGB value of the color to be used when displaying the visual signal shown when a full-screen, graphics-mode application generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
-
 
 ### -field iWindowsEffect
 
@@ -336,8 +327,6 @@ Flash the active window.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iWindowsEffectMSec
 
@@ -347,13 +336,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field lpszWindowsEffectDLL
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 This member is reserved for future use. It should be set to <b>NULL</b>.
-
 
 ### -field iWindowsEffectOrdinal
 
@@ -361,10 +348,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 This member is reserved for future use. It must be set to zero.
 
-
 ## -remarks
-
-
 
 An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSOUNDSENTRY</b> or <b>SPI_SETSOUNDSENTRY</b>. When using <b>SPI_GETSOUNDSENTRY</b>, an application must specify the <b>cbSize</b> member of the <b>SOUNDSENTRY</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify the <b>cbSize</b>, <b>dwFlags</b>, and <b>iWindowsEffect</b> members when using the <b>SPI_SETSOUNDSENTRY</b> value.
 
@@ -377,9 +361,6 @@ An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="htt
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
@@ -389,7 +370,4 @@ An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 47a167fb-4714-4353-b924-a161f367673c
 ms.date: 12/05/2018
 ms.keywords: WaitForMultipleObjectsEx, WaitForMultipleObjectsEx function, _win32_waitformultipleobjectsex, base.waitformultipleobjectsex, synchapi/WaitForMultipleObjectsEx, winbase/WaitForMultipleObjectsEx
-f1_keywords:
-- synchapi/WaitForMultipleObjectsEx
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- WaitForMultipleObjectsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WaitForMultipleObjectsEx
+ - synchapi/WaitForMultipleObjectsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - WaitForMultipleObjectsEx
 ---
 
 # WaitForMultipleObjectsEx function
@@ -55,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
 
-
 ## -parameters
-
-
-
 
 ### -param nCount [in]
 
 The number of object handles to wait for in the array pointed to by <i>lpHandles</i>. The maximum number of object handles is <b>MAXIMUM_WAIT_OBJECTS</b>. This parameter cannot be zero.
-
 
 ### -param lpHandles [in]
 
@@ -81,11 +76,9 @@ If one of these handles is closed while the wait is still pending, the function'
 The handles must have the <b>SYNCHRONIZE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
-
 ### -param bWaitAll [in]
 
 If this parameter is <b>TRUE</b>, the function returns when the state of all objects in the <i>lpHandles</i> array is set to signaled. If <b>FALSE</b>, the function returns when the state of any one of the objects is set to signaled. In the latter case, the return value indicates the object whose state caused the function to return.
-
 
 ### -param dwMilliseconds [in]
 
@@ -104,10 +97,7 @@ A completion routine is queued when the
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function in which it was specified has completed. The wait function returns and the completion routine is called only if <i>bAlertable</i> is <b>TRUE</b> and the calling thread is the thread that initiated the read or write operation. An APC is queued when you call 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value indicates the event that caused the function to return. It can be one of the following values. (Note that <b>WAIT_OBJECT_0</b> is defined as 0 and <b>WAIT_ABANDONED_0</b> is defined as 0x00000080L.)
 
@@ -189,14 +179,8 @@ The function has failed. To get extended error information, call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WaitForMultipleObjectsEx</b> function determines whether the wait criteria have been met. If the criteria have not been met, the calling thread enters the wait state until the conditions of the wait criteria have been met or the time-out interval elapses.
@@ -232,20 +216,11 @@ Use caution when calling the wait functions and code that directly or indirectly
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>, rather than 
 <b>WaitForMultipleObjectsEx</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
- 
-
- 
 

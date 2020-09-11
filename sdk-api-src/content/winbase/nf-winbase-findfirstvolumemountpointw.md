@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
-f1_keywords:
-- winbase/FindFirstVolumeMountPoint
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- FindFirstVolumeMountPoint
-- FindFirstVolumeMountPointA
-- FindFirstVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstVolumeMountPointW
+ - winbase/FindFirstVolumeMountPointW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - FindFirstVolumeMountPoint
+ - FindFirstVolumeMountPointA
+ - FindFirstVolumeMountPointW
 ---
 
 # FindFirstVolumeMountPointW function
@@ -58,35 +59,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of a mounted folder on the specified volume. <b>FindFirstVolumeMountPoint</b> is used to begin scanning the mounted folders on a 
     volume.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszRootPathName [in]
 
 A volume GUID path for the volume to scan for mounted folders. A trailing backslash is required.
 
-
 ### -param lpszVolumeMountPoint [out]
 
 A pointer to a buffer that receives the name of the first mounted folder that is found.
-
 
 ### -param cchBufferLength [in]
 
 The length of the buffer that receives the path to the mounted folder, in 
       <b>TCHAR</b>s.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a search handle used in a subsequent call to the 
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> and 
@@ -96,12 +87,7 @@ If the function fails to find a mounted folder on the volume, the return value i
        <b>INVALID_HANDLE_VALUE</b> error code. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FindFirstVolumeMountPoint</b> function 
     opens a mounted folder search handle and returns information about the first mounted folder that is found on the 
@@ -193,9 +179,6 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>
 
 
@@ -209,7 +192,4 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
 

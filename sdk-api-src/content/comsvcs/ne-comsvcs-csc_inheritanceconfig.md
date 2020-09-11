@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 9bc8c4f3-d13e-46b6-9187-904b05f66f66
 ms.date: 12/05/2018
 ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConfig enumeration [COM+], _cos_csc_inheritanceconfig, comsvcs/CSC_Ignore, comsvcs/CSC_Inherit, comsvcs/CSC_InheritanceConfig, cos.csc_inheritanceconfig
-f1_keywords:
-- comsvcs/CSC_InheritanceConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ComSvcs.h
-api_name:
-- CSC_InheritanceConfig
 targetos: Windows
 req.typenames: CSC_InheritanceConfig
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCSC_InheritanceConfig
+ - comsvcs/tagCSC_InheritanceConfig
+ - CSC_InheritanceConfig
+ - comsvcs/CSC_InheritanceConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ComSvcs.h
+api_name:
+ - CSC_InheritanceConfig
 ---
 
 # CSC_InheritanceConfig enumeration
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CSC_Inherit
 
 The new context is created from the existing context.
 
-
 ### -field CSC_Ignore
 
 The new context is created from the default context.
 
-
 ## -remarks
-
-
 
 The different values of this enumeration can be used to establish the default configurations for the various services provided through <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>. The default inheritance configuration for <b>CServiceConfig</b> is CSC_Ignore. It is often useful to use CSC_Ignore when calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>, while CSC_Inherit is useful when augmenting an existing context, such as when calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
 
@@ -176,15 +170,8 @@ Calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsv
 <td>CSC_NoTransaction</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
@@ -199,7 +186,4 @@ Calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsv
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iserviceinheritanceconfig-containingcontexttreatment">IServiceInheritanceConfig::ContainingContextTreatment</a>
- 
-
- 
 

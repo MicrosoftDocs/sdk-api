@@ -4,7 +4,7 @@ title: IMFSampleAllocatorControl::SetDefaultAllocator
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Sets the default sample allocator to use for the specified output stream. 
+description: Sets the default sample allocator to use for the specified output stream.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -35,6 +35,7 @@ api_location:
 api_name:
  - IMFSampleAllocatorControl::SetDefaultAllocator
 f1_keywords:
+ - IMFSampleAllocatorControl::SetDefaultAllocator
  - mfidl/IMFSampleAllocatorControl::SetDefaultAllocator
 dev_langs:
  - c++
@@ -42,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Sets the default sample allocator to use for the specified output stream. 
+Sets the default sample allocator to use for the specified output stream.
 
 ## -parameters
 
@@ -54,7 +55,6 @@ The ID of the output stream that the *pAllocator* parameter applies to.
 
 Receives a pointer to a sample allocator to use for the specified output stream. The
 allocator supports one of the MF allocator interfaces, such as [IMFVideoCaptureSampleAllocator](nn-mfidl-imfvideocapturesampleallocator.md) or [IMFVideoSampleAllocatorEx](nn-mfidl-imfvideosampleallocatorex.md).
-
 
 ## -returns
 

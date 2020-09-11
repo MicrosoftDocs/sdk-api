@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 54caec4d-1393-487b-94ee-78563b2b4645
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],SetCurrentMediaType method, IMFSourceReader.SetCurrentMediaType, IMFSourceReader::SetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_setcurrentmediatype, mfreadwrite/IMFSourceReader::SetCurrentMediaType
-f1_keywords:
-- mfreadwrite/IMFSourceReader.SetCurrentMediaType
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReader.SetCurrentMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReader::SetCurrentMediaType
+ - mfreadwrite/IMFSourceReader::SetCurrentMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReader.SetCurrentMediaType
 ---
 
 # IMFSourceReader::SetCurrentMediaType
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the media type for a stream.
 
 This media type defines that format that the <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> produces as output. It can differ from the native format provided by the media source. See Remarks for more information.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -103,22 +99,16 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwReserved [in, out]
 
 Reserved. Set to <b>NULL</b>.
 
-
 ### -param pMediaType [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -183,14 +173,8 @@ Could not find a decoder for the native stream type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For each stream, you can set the media type to any of the following:
 
@@ -204,20 +188,11 @@ If you set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-s
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
 

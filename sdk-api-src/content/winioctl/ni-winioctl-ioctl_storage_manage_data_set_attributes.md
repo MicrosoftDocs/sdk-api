@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 48e797ec-dad2-4a9e-9ccd-aaa65ece8da4
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code, base.ioctl_storage_manage_data_set_attributes, winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-f1_keywords:
-- winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
 # IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -92,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -111,8 +105,8 @@ Value | Parameters structure | Output block structure
 **DeviceDsmAction_Scrub** | None | None
 **DeviceDsmAction_Resiliency** | None | None
 
-
 ## -see-also
 
 * [DEVICE_MANAGE_DATA_SET_ATTRIBUTES](ns-winioctl-device_manage_data_set_attributes.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+

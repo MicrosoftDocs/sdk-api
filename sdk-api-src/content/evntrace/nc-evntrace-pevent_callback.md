@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
 ms.date: 12/05/2018
 ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
-f1_keywords:
-- evntrace/EventCallback
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Evntrace.h
-api_name:
-- EventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PEVENT_CALLBACK
+ - evntrace/PEVENT_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Evntrace.h
+api_name:
+ - EventCallback
 ---
 
 # PEVENT_CALLBACK callback function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Consumers implement this function to receive events from a session. 
 
 The <b>PEVENT_CALLBACK</b> type defines a pointer to this callback function. <b>EventCallback</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param pEvent [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structure that contains the event information.
 
-
 ## -remarks
-
-
 
 To specify the function that ETW calls to deliver the events, set the 
 <b>EventCallback</b> member of the 
@@ -91,12 +84,7 @@ For an example implementation of an
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
@@ -111,7 +99,4 @@ For an example implementation of an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
- 
-
- 
 

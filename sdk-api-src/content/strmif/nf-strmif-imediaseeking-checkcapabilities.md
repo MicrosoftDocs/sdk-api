@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
 ms.date: 12/05/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
-f1_keywords:
-- strmif/IMediaSeeking.CheckCapabilities
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.CheckCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::CheckCapabilities
+ - strmif/IMediaSeeking::CheckCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.CheckCapabilities
 ---
 
 # IMediaSeeking::CheckCapabilities
@@ -50,22 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CheckCapabilities</b> method queries whether a stream has specified seeking capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param pCapabilities [in, out]
 
 On input, a pointer to a variable that contains a bitwise <b>OR</b> of one or more <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
           
@@ -120,10 +114,6 @@ No capabilities in <i>pCapabilities</i> are present.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
@@ -175,14 +165,11 @@ else if (hr == S_FALSE) // The stream has some of the capabilities.
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
 
 <a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
+

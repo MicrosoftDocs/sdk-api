@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
-f1_keywords:
-- certenroll/IX509Enrollment.InitializeFromRequest
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Enrollment.InitializeFromRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Enrollment::InitializeFromRequest
+ - certenroll/IX509Enrollment::InitializeFromRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Enrollment.InitializeFromRequest
 ---
 
 # IX509Enrollment::InitializeFromRequest
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromRequest</b> method initializes the enrollment object from an existing <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> object. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param pRequest [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -89,14 +82,8 @@ The enrollment object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>InitializeFromRequest</b>  method:
 
@@ -109,12 +96,7 @@ The <b>InitializeFromRequest</b>  method:
 <li>Retrieves the renewal certificate if one exists.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
@@ -133,7 +115,4 @@ The <b>InitializeFromRequest</b>  method:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
- 
-
- 
 

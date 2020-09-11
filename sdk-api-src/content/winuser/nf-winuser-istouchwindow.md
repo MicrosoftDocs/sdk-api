@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
 ms.date: 12/05/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
-f1_keywords:
-- winuser/IsTouchWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- IsTouchWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsTouchWindow
+ - winuser/IsTouchWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - IsTouchWindow
 ---
 
 # IsTouchWindow function
@@ -55,37 +56,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks whether a specified window is touch-capable and, optionally, retrieves the modifier flags set for the window's touch capability.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 The handle of the window. The function fails with <b>ERROR_ACCESS_DENIED</b> if the calling thread is not on the same desktop as the specified window.
 
-
 ### -param pulFlags [out, optional]
 
 The address of the <b>ULONG</b> variable to receive the modifier flags for the specified window's touch capability.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the window supports Windows Touch; returns <b>FALSE</b> if the window does not support Windows Touch.
 
-
-
-
 ## -remarks
-
-
 
 The following table lists the values for the <i>pulFlags</i> output parameter.
 		
@@ -113,18 +100,8 @@ Setting this flag enables palm detection and will prevent some <a href="https://
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/mtfunctions">Functions</a>
- 
-
- 
 

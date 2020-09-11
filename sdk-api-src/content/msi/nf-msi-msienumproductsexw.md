@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumProductsEx, MsiEnumProductsEx function, MsiEnumProductsExA, MsiEnumProductsExW, NULL, User SID, msi/MsiEnumProductsEx, msi/MsiEnumProductsExA, msi/MsiEnumProductsExW, s-1-1-0, setup.msienumproductsex
-f1_keywords:
-- msi/MsiEnumProductsEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumProductsEx
-- MsiEnumProductsExA
-- MsiEnumProductsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumProductsExW
+ - msi/MsiEnumProductsExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumProductsEx
+ - MsiEnumProductsExA
+ - MsiEnumProductsExW
 ---
 
 # MsiEnumProductsExW function
@@ -51,21 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiEnumProductsEx</b> function enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts. This function supersedes <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsa">MsiEnumProducts</a>.
-		
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCode [in, optional]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product  to be enumerated.  Only instances of products within the scope of the context specified by the <i>szUserSid</i> and <i>dwContext</i> parameters are enumerated. This parameter can be set to <b>NULL</b> to enumerate all products in the specified context.
-
 
 ### -param szUserSid [in]
 
@@ -153,23 +146,18 @@ Enumeration extended to all per-machine installations. When <i>dwInstallContext<
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
  Specifies the index of the product to retrieve. This parameter must be zero for the first call to the <b>MsiEnumProductsEx</b> function and then incremented for subsequent calls. The index should be incremented, only if the previous call has returned ERROR_SUCCESS. Because products are not ordered, any new product has an arbitrary index. This means that the function can return products in any order.
 
-
 ### -param szInstalledProductCode [out, optional]
 
 Null-terminated string of <b>TCHAR</b> that gives the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance being enumerated. This parameter can be <b>NULL</b>.
 
-
 ### -param pdwInstalledContext [out, optional]
 
 Returns the context of the product instance  being enumerated. The output value can be MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, or MSIINSTALLCONTEXT_MACHINE. This parameter can be <b>NULL</b>.
-
 
 ### -param szSid [out, optional]
 
@@ -183,17 +171,13 @@ If <i>szSid</i> is set to <b>NULL</b> and <i>pcchSid</i> is set to a valid point
 
 If <i>szSid</i> and <i>pcchSid</i> are both set to <b>NULL</b>, the function returns ERROR_SUCCESS if the value exists, without  retrieving the value.
 
-
 ### -param pcchSid [in, out, optional]
 
 When calling the function, this parameter should be a pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szSid</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character. 
 
 This parameter can be set to <b>NULL</b> only if <i>szSid</i> is also <b>NULL</b>, otherwise the function returns ERROR_INVALID_PARAMETER.
 
-
 ## -returns
-
-
 
 The <b>MsiEnumProductsEx</b> function returns one of the following values.
 
@@ -291,14 +275,8 @@ An unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To enumerate products, an application must initially call the <b>MsiEnumProductsEx</b> function with the <i>iIndex</i> parameter set to zero. The application must then increment the <i>iProductIndex</i> parameter and call <b>MsiEnumProductsEx</b> until it returns <b>ERROR_NO_MORE_ITEMS</b> and there are no more products to enumerate.
 
@@ -317,9 +295,6 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetpro
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsa">MsiEnumProducts</a>
 
 
@@ -333,7 +308,4 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetpro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/removing-patches">Removing Patches</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 9af022a6-19b4-41b7-b951-0acad6aab4a2
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress, IWMDMProgress interface [windows Media Device Manager], IWMDMProgress interface [windows Media Device Manager],described, IWMDMProgressInterface, mswmdm/IWMDMProgress, wmdm.iwmdmprogress
-f1_keywords:
-- mswmdm/IWMDMProgress
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IWMDMProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMProgress
+ - mswmdm/IWMDMProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IWMDMProgress
 ---
 
 # IWMDMProgress interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The optional, application-implemented <b>IWMDMProgress</b> allows an application to track the progress of operations, such as formatting media or file transfers. This interface is submitted to, and called by, the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl</a> interfaces.
 
 These methods do not provide a way for the application to know which operation is being tracked. However, the <b>IWMDMProgress3</b> methods do provide a means to identify the operation; if possible, you should implement that interface instead.
-
-
-
 
 ## -inheritance
 
@@ -100,13 +96,9 @@ Indicates that an operation is still in progress.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
@@ -129,7 +121,4 @@ Indicates that an operation is still in progress.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
- 
-
- 
 

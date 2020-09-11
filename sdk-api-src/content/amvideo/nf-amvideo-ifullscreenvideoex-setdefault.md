@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 1821703c-0da1-4b3e-a921-a66770b8ee0d
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetDefault method, IFullScreenVideoEx.SetDefault, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
-f1_keywords:
-- amvideo/IFullScreenVideoEx.SetDefault
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.SetDefault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::SetDefault
+ - amvideo/IFullScreenVideoEx::SetDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.SetDefault
 ---
 
 # IFullScreenVideoEx::SetDefault
@@ -50,32 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetDefault</code> method saves the current settings.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 Normally, the properties set through this interface apply only to the current instance of the Full Screen Renderer. Calling this method saves the current values as the global default. This method persists the following information:
 
@@ -85,13 +69,7 @@ Normally, the properties set through this interface apply only to the current in
 </ul>
 It does not persist the caption or the hide-when-deactivated flag.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -114,7 +92,4 @@ It does not persist the caption or the hide-when-deactivated flag.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a>
- 
-
- 
 

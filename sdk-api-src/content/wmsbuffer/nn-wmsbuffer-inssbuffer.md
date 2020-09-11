@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: c47c016a-e7eb-4a2c-b365-5537749db5bc
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer, INSSBuffer interface [windows Media Format], INSSBuffer interface [windows Media Format],described, INSSBufferInterface, wmformat.inssbuffer, wmsbuffer/INSSBuffer
-f1_keywords:
-- wmsbuffer/INSSBuffer
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsbuffer.h
-api_name:
-- INSSBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSSBuffer
+ - wmsbuffer/INSSBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsbuffer.h
+api_name:
+ - INSSBuffer
 ---
 
 # INSSBuffer interface
 
 
 ## -description
-
-
 
 The <b>INSSBuffer</b> interface is the basic interface of a buffer object. A buffer object is a wrapper around a memory buffer. The methods exposed by this interface are used to manipulate the buffer.
 
@@ -87,10 +86,6 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_INSSBuffer4</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -152,13 +147,9 @@ Specifies the size of the used portion of the buffer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/buffer-object">Buffer Object</a>
 
@@ -173,7 +164,4 @@ Specifies the size of the used portion of the buffer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>
- 
-
- 
 

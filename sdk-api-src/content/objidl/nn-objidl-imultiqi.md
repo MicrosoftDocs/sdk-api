@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
 ms.date: 12/05/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
-f1_keywords:
-- objidl/IMultiQI
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMultiQI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiQI
+ - objidl/IMultiQI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMultiQI
 ---
 
 # IMultiQI interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call. By using this interface, instead of relying on separate calls to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>, clients can reduce the number of RPC calls that have to cross thread, process, or machine boundaries and, therefore, the amount of time required to obtain the requested interface pointers.
-
-
 
 ## -inheritance
 
@@ -78,5 +76,5 @@ Retrieves pointers to multiple supported interfaces on an object.
 
 </td>
 </tr>
-</table> 
+</table>
 

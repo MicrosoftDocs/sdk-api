@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 4b99d227-39e8-4986-93ed-6df73a3a3e08
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar, IWMPMediaPluginRegistrar interface [Windows Media Player], IWMPMediaPluginRegistrar interface [Windows Media Player],described, wmp.iwmpmediapluginregistrar, wmpservices/IWMPMediaPluginRegistrar
-f1_keywords:
-- wmpservices/IWMPMediaPluginRegistrar
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpservices.h
-api_name:
-- IWMPMediaPluginRegistrar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMediaPluginRegistrar
+ - wmpservices/IWMPMediaPluginRegistrar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpservices.h
+api_name:
+ - IWMPMediaPluginRegistrar
 ---
 
 # IWMPMediaPluginRegistrar interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPMediaPluginRegistrar</b> interface manages plug-in registration.
-
-
-
 
 ## -inheritance
 
@@ -89,16 +85,9 @@ Removes information from the registry about a Windows Media Player plug-in.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>
- 
-
- 
 

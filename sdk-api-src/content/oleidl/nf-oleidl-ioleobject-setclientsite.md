@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 6690b5a3-bada-496c-89cb-a9ae1fc9dfb0
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetClientSite method, IOleObject.SetClientSite, IOleObject::SetClientSite, SetClientSite, SetClientSite method [COM], SetClientSite method [COM],IOleObject interface, _ole_ioleobject_setclientsite, com.ioleobject_setclientsite, oleidl/IOleObject::SetClientSite
-f1_keywords:
-- oleidl/IOleObject.SetClientSite
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.SetClientSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::SetClientSite
+ - oleidl/IOleObject::SetClientSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.SetClientSite
 ---
 
 # IOleObject::SetClientSite
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Informs an embedded object of its display location, called a "client site," within its container.
 
-
 ## -parameters
-
-
-
 
 ### -param pClientSite [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a> interface on the container application's client-site.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -86,14 +79,8 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Within a compound document, each embedded object has its own client site - the place where it is displayed and through which it receives information about its storage, user interface, and other resources. <b>IOleObject::SetClientSite</b> is the only method enabling an embedded object to obtain a pointer to its client site.
 
@@ -107,13 +94,7 @@ Passing a client-site pointer informs the object handler that the client site is
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Implementation consists simply of incrementing the reference count on, and storing, the pointer to the client site.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
@@ -140,3 +121,4 @@ Implementation consists simply of incrementing the reference count on, and stori
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
+

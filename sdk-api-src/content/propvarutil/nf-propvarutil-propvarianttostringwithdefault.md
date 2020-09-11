@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: a5f50a32-033f-4bda-87db-c0a8515b6451
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringWithDefault, PropVariantToStringWithDefault function [Windows Properties], _shell_PropVariantToStringWithDefault, properties.PropVariantToStringWithDefault, propvarutil/PropVariantToStringWithDefault, shell.PropVariantToStringWithDefault
-f1_keywords:
-- propvarutil/PropVariantToStringWithDefault
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToStringWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToStringWithDefault
+ - propvarutil/PropVariantToStringWithDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToStringWithDefault
 ---
 
 # PropVariantToStringWithDefault function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts the string property value of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value exists, then the specified default value is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param propvarIn [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param pszDefault [in]
 
 Type: <b>LPCWSTR</b>
 
 Pointer to a default Unicode string value, for use where no value currently exists. May be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>PCWSTR</b>
 
 Returns string value or default, or the default.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a string value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the string value for string properties.
 
@@ -127,14 +114,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
 
@@ -153,7 +133,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>
- 
-
- 
 

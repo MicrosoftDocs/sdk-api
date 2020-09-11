@@ -26,6 +26,7 @@ api_location:
 api_name:
  - MF_MEDIAKEYSESSION_MESSAGETYPE
 f1_keywords:
+ - MF_MEDIAKEYSESSION_MESSAGETYPE
  - mfidl/MF_MEDIAKEYSESSION_MESSAGETYPE
 dev_langs:
  - c++
@@ -60,5 +61,6 @@ This value is used by the [IMFContentDecryptionModuleSessionCallbacks::KeyMessag
 **MF_MEDIAKEYSESSION_MESSAGETYPE** is based on the Encrypted Media Extension specification's [MediaKeyStatus](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeymessagetype) enumeration.
 
 ## -see-also
+
 [IMFContentDecryptionModuleSessionCallbacks::KeyMessage](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage)
 

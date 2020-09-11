@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5e275b83-9e59-4730-b8e2-e45f78077891
 ms.date: 12/05/2018
 ms.keywords: 5e275b83-9e59-4730-b8e2-e45f78077891, GetMutualExclusionCount, GetMutualExclusionCount method [Media Foundation], GetMutualExclusionCount method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetMutualExclusionCount method, IMFASFProfile.GetMutualExclusionCount, IMFASFProfile::GetMutualExclusionCount, mf.imfasfprofile_getmutualexclusioncount, wmcontainer/IMFASFProfile::GetMutualExclusionCount
-f1_keywords:
-- wmcontainer/IMFASFProfile.GetMutualExclusionCount
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFProfile.GetMutualExclusionCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFProfile::GetMutualExclusionCount
+ - wmcontainer/IMFASFProfile::GetMutualExclusionCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFProfile.GetMutualExclusionCount
 ---
 
 # IMFASFProfile::GetMutualExclusionCount
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the number of Advanced Systems Format (ASF) mutual exclusion objects that are associated with the profile.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcMutexs [out]
 
 Receives the number of mutual exclusion objects.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,24 +80,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Multiple mutual exclusion objects may be required for streams that are mutually exclusive in more than one way. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
@@ -118,7 +96,4 @@ Multiple mutual exclusion objects may be required for streams that are mutually 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">IMFASFProfile::GetMutualExclusion</a>
- 
-
- 
 

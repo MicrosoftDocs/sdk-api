@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: windowsribbon
+f1_keywords:
+ - uiribbon
+ - uiribbon/uiribbon
 ---
 
 # Uiribbon.h header
 
 
 ## -description
-
 
 This header is used by Windows Ribbon Framework. For more information, see:
 

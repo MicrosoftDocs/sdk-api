@@ -8,10 +8,6 @@ tech.root: EDP
 ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
-f1_keywords:
-- efswrtinterop/IProtectionPolicyManagerInterop
-dev_langs:
-- c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- efswrtinterop.h
-api_name:
-- IProtectionPolicyManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProtectionPolicyManagerInterop
+ - efswrtinterop/IProtectionPolicyManagerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - efswrtinterop.h
+api_name:
+ - IProtectionPolicyManagerInterop
 ---
 
 # IProtectionPolicyManagerInterop interface
@@ -49,12 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
 <div> </div>Manages enterprise protection policy on protected content.
-
-
 
 ## -inheritance
 
@@ -89,5 +86,5 @@ Request access to enterprise protected content for an identity.
 
 </td>
 </tr>
-</table> 
+</table>
 

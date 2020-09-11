@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 93c76649-dc48-4ccf-b1c5-2fb223c93513
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLookup method, IXpsOMVisual.SetOpacityMaskBrushLookup, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLookup
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.SetOpacityMaskBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::SetOpacityMaskBrushLookup
+ - xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.SetOpacityMaskBrushLookup
 ---
 
 # IXpsOMVisual::SetOpacityMaskBrushLookup
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the lookup key name of a shared opacity mask brush in a resource dictionary.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
 The lookup key name of the opacity mask brush in the dictionary.  A <b>NULL</b> pointer clears the previously assigned key name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -119,14 +112,8 @@ No object could be found with a key name that matched the value passed in <i>key
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After you call <b>SetOpacityMaskBrushLookup</b>, the local opacity mask brush is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlocal">GetOpacityMaskBrushLocal</a> returns a <b>NULL</b> pointer in the <i>opacityMaskBrush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
@@ -198,15 +185,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
@@ -217,7 +197,4 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

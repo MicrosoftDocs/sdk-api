@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
 ms.date: 12/05/2018
 ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
-f1_keywords:
-- vsbackup/IVssBackupComponents.AddRestoreSubcomponent
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AddRestoreSubcomponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AddRestoreSubcomponent
+ - vsbackup/IVssBackupComponents::AddRestoreSubcomponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AddRestoreSubcomponent
 ---
 
 # IVssBackupComponents::AddRestoreSubcomponent
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddRestoreSubcomponent</b> 
     method indicates that a subcomponent member of a component set, which had been marked as nonselectable 
     for backup but is marked selectable for restore, is to be restored irrespective of whether any other 
     member of the component set will be restored.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Writer class identifier.
 
-
 ### -param componentType [in]
 
 Identifies the type of the component. Refer to the documentation for 
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for possible return values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -83,7 +77,6 @@ The value of this parameter can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the logical path of the component in the backup document 
@@ -93,7 +86,6 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 The value of this parameter cannot be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> component name.
-
 
 ### -param wszSubComponentLogicalPath [in]
 
@@ -106,7 +98,6 @@ A logical path is required when adding a subcomponent. Therefore, the value of t
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszSubComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the logical name of the subcomponent to be added for 
@@ -117,15 +108,11 @@ The value of this parameter cannot be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> component name.
 
-
 ### -param bRepair [in]
 
 This parameter is reserved for future use. This parameter should always be set to <b>false</b>
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -218,14 +205,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling 
     <b>AddRestoreSubcomponent</b>, the 
@@ -250,13 +231,7 @@ To participate in such a restore, a subcomponent must have the
 See <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
     Selectability for Restore and Subcomponents</a> for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -267,7 +242,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selecta
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

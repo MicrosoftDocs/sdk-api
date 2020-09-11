@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 064acc6a-ba2f-4394-a3bf-a9b70e30e07e
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback, IAMFilterGraphCallback interface [DirectShow], IAMFilterGraphCallback interface [DirectShow],described, IAMFilterGraphCallbackInterface, dshow.iamfiltergraphcallback, strmif/IAMFilterGraphCallback
-f1_keywords:
-- strmif/IAMFilterGraphCallback
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMFilterGraphCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMFilterGraphCallback
+ - strmif/IAMFilterGraphCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMFilterGraphCallback
 ---
 
 # IAMFilterGraphCallback interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMFilterGraphCallback</code> interface provides a callback mechanism during graph building.
 
 To use this interface, implement the interface in your application or client object. Query the Filter Graph Manager for the <b>IObjectWithSite</b> interface and call the <b>IObjectWithSite::SetSite</b> method with a pointer to your implementation of the interface. During graph building, if the Filter Graph Manager fails to render a pin, it calls the <b>UnabletoRender</b> method. The client can then take appropriate action, such as providing an error message for the user or registering a new filter.
-
-
-
 
 ## -inheritance
 
@@ -83,16 +79,9 @@ Informs the client that no combination of filters could be found to render the s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphbuildercallback">IAMGraphBuilderCallback Interface</a>
- 
-
- 
 

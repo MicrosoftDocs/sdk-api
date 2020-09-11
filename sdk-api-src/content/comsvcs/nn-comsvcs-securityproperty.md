@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: e4eb8e83-3510-4c2c-8b9c-563bfcbf48b3
 ms.date: 12/05/2018
 ms.keywords: SecurityProperty, SecurityProperty interface [COM+], SecurityProperty interface [COM+],described, _cos_SecurityProperty, comsvcs/SecurityProperty, cos.securityproperty
-f1_keywords:
-- comsvcs/SecurityProperty
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- SecurityProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SecurityProperty
+ - comsvcs/SecurityProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - SecurityProperty
 ---
 
 # SecurityProperty interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the current object's original caller and direct caller.
 
 The preferred way to obtain information about an object's callers is to use the <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class instead of the <b>SecurityProperty</b> interface.
 
 <b>SecurityProperty</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a> provide the same functionality, but unlike <b>ISecurityProperty</b>, <b>SecurityProperty</b> is compatible with Automation.
-
 
 ## -inheritance
 
@@ -109,13 +108,9 @@ Retrieves the user name associated with the original base process that initiated
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
 
@@ -126,7 +121,4 @@ Retrieves the user name associated with the original base process that initiated
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
- 
-
- 
 

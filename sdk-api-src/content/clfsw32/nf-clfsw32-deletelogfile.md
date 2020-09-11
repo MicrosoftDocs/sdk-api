@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a7dd8efc-b572-4591-9e46-1cd5105d4ca2
 ms.date: 12/05/2018
 ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFile, fs.deletelogfile
-f1_keywords:
-- clfsw32/DeleteLogFile
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- DeleteLogFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteLogFile
+ - clfsw32/DeleteLogFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - DeleteLogFile
 ---
 
 # DeleteLogFile function
@@ -49,18 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks a log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed.  If the log is a physical log, its underlying containers are deleted.
 
 When a log is marked for deletion, requests to open new client log streams fail. <div class="alert"><b>Note</b>  A closely related function is <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-deletelogbyhandle">DeleteLogByHandle</a>, which deletes a log when given the handle of the file.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param pszLogFileName [in]
 
@@ -76,15 +71,11 @@ This  name is specified when creating the log  by using  <a href="https://docs.m
 
   For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
 
-
 ### -param pvReserved [in, optional]
 
 This parameter is reserved and should be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -92,13 +83,7 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero (0). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
@@ -113,7 +98,4 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
- 
-
- 
 

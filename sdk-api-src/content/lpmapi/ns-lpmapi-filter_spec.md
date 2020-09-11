@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
 ms.date: 12/05/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
-f1_keywords:
-- lpmapi/FILTER_SPEC
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- FILTER_SPEC
 targetos: Windows
 req.typenames: FILTER_SPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FILTER_SPEC
+ - lpmapi/FILTER_SPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - FILTER_SPEC
 ---
 
 # FILTER_SPEC structure
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FILTER_SPEC</b> structure stores information about an RSVP FILTERSPEC.
 
-
 ## -struct-fields
-
-
-
 
 ### -field filt_header
 
 RSVP Object Header for the FILTERSPEC, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
-
 ### -field filt_u
-
-
 
 #### filt_ipv4
 
@@ -78,23 +71,11 @@ FILTERSPEC, in the form of a <a href="https://docs.microsoft.com/previous-versio
 
 FILTERSPEC GPI information, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4gpi">Filter_Spec_IPv4GPI</a> header.
 
-
 ### -field filt_ipv4
-
- 
-
 
 ### -field filt_ipv4gpi
 
- 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec_ipv4">Filter_Spec_IPv4</a>
 
@@ -105,7 +86,4 @@ FILTERSPEC GPI information, in the form of a <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
- 
-
- 
 

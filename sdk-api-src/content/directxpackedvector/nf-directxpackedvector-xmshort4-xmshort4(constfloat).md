@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: fc8e1211-9a6d-4407-8c08-a35895eb1af5
 ms.date: 05/06/2019
 ms.keywords: XMSHORT4, XMSHORT4 constructor [DirectX Math Support APIs], XMSHORT4 constructor [DirectX Math Support APIs],XMSHORT4 structure, XMSHORT4 structure [DirectX Math Support APIs],XMSHORT4 constructor, XMSHORT4.XMSHORT4, XMSHORT4.XMSHORT4(), XMSHORT4.XMSHORT4(const float), XMSHORT4::XMSHORT4, XMSHORT4::XMSHORT4(const float), dxmath.xmshort4_ctor_1
-f1_keywords:
-- directxpackedvector/XMSHORT4.XMSHORT4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMSHORT4.XMSHORT4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMSHORT4::XMSHORT4
+ - directxpackedvector/XMSHORT4::XMSHORT4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMSHORT4.XMSHORT4
 ---
 
 # XMSHORT4::XMSHORT4(const float)
+
 
 ## -description
 
@@ -80,3 +82,4 @@ instance.w = (int16_t)min( max( pArray[3] -32767.0 ), 32767.0 );
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshort4-ctor">XMSHORT4 Constructors</a>
+

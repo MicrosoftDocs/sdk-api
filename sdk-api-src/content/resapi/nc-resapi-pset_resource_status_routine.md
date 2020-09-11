@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 8ddb4578-f8c4-462e-af04-8c537d585e8b
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE, PSET_RESOURCE_STATUS_ROUTINE callback function [Failover Cluster], SetResourceStatus, SetResourceStatus callback, SetResourceStatus callback function [Failover Cluster], _wolf_setresourcestatus, mscs.setresourcestatus, resapi/PSET_RESOURCE_STATUS_ROUTINE, resapi/SetResourceStatus
-f1_keywords:
-- resapi/SetResourceStatus
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- SetResourceStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSET_RESOURCE_STATUS_ROUTINE
+ - resapi/PSET_RESOURCE_STATUS_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - SetResourceStatus
 ---
 
 # PSET_RESOURCE_STATUS_ROUTINE callback function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called to update the status of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. 
     The <b>PSET_RESOURCE_STATUS_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceHandle [in]
 
@@ -65,16 +61,12 @@ Handle identifying the resource to be updated. The <i>ResourceHandle</i> paramet
        contain the same handle used for the <i>ResourceHandle</i> parameter in the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point for this resource.
 
-
 ### -param ResourceStatus [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status">RESOURCE_STATUS</a> structure that 
        contains information about the resource's state.
 
-
 ## -returns
-
-
 
 <i>SetResourceStatus</i> returns one of 
        the following values enumerated from the 
@@ -115,15 +107,8 @@ The resource has been terminated. Callers should end
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">Resource DLLs</a> call the 
      <i>SetResourceStatus</i> callback function to update the 
@@ -162,13 +147,7 @@ There is no need to call
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> returns 
      <b>ERROR_IO_PENDING</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
 
@@ -207,7 +186,4 @@ There is no need to call
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
- 
-
- 
 

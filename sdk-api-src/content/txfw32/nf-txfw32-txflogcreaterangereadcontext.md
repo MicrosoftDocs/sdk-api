@@ -6,10 +6,6 @@ tech.root: fs
 helpviewer_keywords: ["TxfLogCreateRangeReadContext"]
 ms.date: 4/26/2019
 ms.keywords: TxfLogCreateRangeReadContext
-f1_keywords:
-- TxfLogCreateRangeReadContext
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,15 +26,20 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - TxfLogCreateRangeReadContext
+ - txfw32/TxfLogCreateRangeReadContext
+dev_langs:
+ - c++
 topic_type:
-- apiref
-- kbSyntax
+ - apiref
+ - kbSyntax
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- TxfW32.dll
+ - TxfW32.dll
 api_name:
-- TxfLogCreateRangeReadContext
+ - TxfLogCreateRangeReadContext
 ---
 
 ## -description

@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 9a76ebbe-69c5-46a4-b620-220957220e53
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],put_FullErase method, IDiscFormat2Erase.put_FullErase, IDiscFormat2Erase::put_FullErase, imapi.idiscformat2erase_put_fullerase, imapi2/IDiscFormat2Erase::put_FullErase, put_FullErase, put_FullErase method [IMAPI], put_FullErase method [IMAPI],IDiscFormat2Erase interface
-f1_keywords:
-- imapi2/IDiscFormat2Erase.put_FullErase
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Erase.put_FullErase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Erase::put_FullErase
+ - imapi2/IDiscFormat2Erase::put_FullErase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Erase.put_FullErase
 ---
 
 # IDiscFormat2Erase::put_FullErase
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the quality of the disc erasure.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -66,20 +62,11 @@ Set to VARIANT_FALSE to overwrite the directory tracks, but not the entire disc.
 
 The default is VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
@@ -90,7 +77,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">IDiscFormat2Erase::get_FullErase</a>
- 
-
- 
 

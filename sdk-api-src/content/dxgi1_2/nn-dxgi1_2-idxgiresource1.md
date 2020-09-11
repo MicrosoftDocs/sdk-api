@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A
 ms.date: 12/05/2018
 ms.keywords: IDXGIResource1, IDXGIResource1 interface [DXGI], IDXGIResource1 interface [DXGI],described, direct3ddxgi.idxgiresource1, dxgi1_2/IDXGIResource1
-f1_keywords:
-- dxgi1_2/IDXGIResource1
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIResource1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIResource1
+ - dxgi1_2/IDXGIResource1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIResource1
 ---
 
 # IDXGIResource1 interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An <b>IDXGIResource1</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interface by adding support for creating a subresource surface object and for creating a handle to a shared resource.
-      
-
 
 ## -inheritance
 
@@ -90,12 +88,9 @@ Creates a subresource surface object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To determine the type of memory a resource is currently located in, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-queryresourceresidency">IDXGIDevice::QueryResourceResidency</a>. 
           To share resources between processes, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device1::OpenSharedResource1</a>. 
@@ -114,22 +109,12 @@ hr = g_pd3dTexture2D->QueryInterface(__uuidof(IDXGIResource1), (void **)&pDXGIRe
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
- 
-
- 
 

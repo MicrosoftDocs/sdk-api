@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvasyncdraw.htm
 ms.date: 12/05/2018
 ms.keywords: ADRF_DRAWIMAGE, ADRF_DRAWNOTHING, ADRF_DRAWSYNC, NMTVASYNCDRAW, NMTVASYNCDRAW structure [Windows Controls], _shell_NMTVASYNCDRAW, _shell_NMTVASYNCDRAW_cpp, commctrl/NMTVASYNCDRAW, controls.NMTVASYNCDRAW, controls._shell_NMTVASYNCDRAW
-f1_keywords:
-- commctrl/NMTVASYNCDRAW
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTVASYNCDRAW
 targetos: Windows
 req.typenames: NMTVASYNCDRAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMTVASYNCDRAW
+ - commctrl/tagNMTVASYNCDRAW
+ - NMTVASYNCDRAW
+ - commctrl/NMTVASYNCDRAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTVASYNCDRAW
 ---
 
 # NMTVASYNCDRAW structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains an explanation of why the draw of an icon or overlay tree item failed. This structure is sent on a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-asyncdraw">TVN_ASYNCDRAW</a> notification. Set the <b>dwRetFlags</b> member to indicate what action the control should take. Note that a draw can fail if there is no image; in other words, when the icon image has not been extracted.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
@@ -65,7 +63,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-ric
 
 <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure.
 
-
 ### -field pimldp
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a>*</b>
@@ -73,13 +70,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-imagelistdrawparams">IMAGELISTDRAWPARAMS</a> structure describing the image that failed to draw.
 
-
 ### -field hr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Result code indicating why the draw failed, either ILDRF_IMAGELOWQUALITY, ILDRF_OVERLAYLOWQUALITY, E_PENDING, or S_OK. A code of S_OK indicates that the image is present but not at the required image quality.
-
 
 ### -field hItem
 
@@ -87,14 +82,11 @@ Type: <b>HTREEITEM</b>
 
 Handle of the tree item that failed to draw.
 
-
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Data for <b>hItem</b>. This is the same data for the item that is retrieved with the message <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getitem">TVM_GETITEM</a> using the appropriate <b>mask</b> in structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a>. This data is parent specific; the parent can store information that helps it identify the tree item or other information. Data is provided in <b>lParam</b> for convenience, so that the parent does not need to send message <b>TVM_GETITEM</b>.
-
-
 
 ### -field dwRetFlags
 
@@ -138,8 +130,6 @@ Do not draw an image.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iRetImageIndex
 

@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 85ddd2d3-cb4b-48ae-8ad4-230be5420abd
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_ALL, MANIPULATION_NONE, MANIPULATION_PROCESSOR_MANIPULATIONS, MANIPULATION_PROCESSOR_MANIPULATIONS enumeration [Windows Touch], MANIPULATION_ROTATE, MANIPULATION_SCALE, MANIPULATION_TRANSLATE_X, MANIPULATION_TRANSLATE_Y, manipulations/MANIPULATION_ALL, manipulations/MANIPULATION_NONE, manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS, manipulations/MANIPULATION_ROTATE, manipulations/MANIPULATION_SCALE, manipulations/MANIPULATION_TRANSLATE_X, manipulations/MANIPULATION_TRANSLATE_Y, wintouch.manipulation_processor_manipulations
-f1_keywords:
-- manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- manipulations.h
-api_name:
-- MANIPULATION_PROCESSOR_MANIPULATIONS
 targetos: Windows
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MANIPULATION_PROCESSOR_MANIPULATIONS
+ - manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - manipulations.h
+api_name:
+ - MANIPULATION_PROCESSOR_MANIPULATIONS
 ---
 
 # MANIPULATION_PROCESSOR_MANIPULATIONS enumeration
@@ -49,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MANIPULATION_PROCESSOR_MANIPULATIONS</b> enumeration different kinds of manipulation which can be applied on a target object.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MANIPULATION_NONE
 
 Indicates that no manipulations are performed.
 
-
 ### -field MANIPULATION_TRANSLATE_X
 
 Indicates manipulation by moving the target across the horizontal axis.
-
 
 ### -field MANIPULATION_TRANSLATE_Y
 
 Indicates manipulation by moving the target across the vertical axis.
 
-
 ### -field MANIPULATION_SCALE
 
 Indicates manipulation by making the target larger or smaller.
-
 
 ### -field MANIPULATION_ROTATE
 
 Indicates manipulation by rotating the target.
 
-
 ### -field MANIPULATION_ALL
 
 Indicates all manipulations are enabled.
 
-
 ## -remarks
-
-
 
 Use this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations">SupportedManipulations</a> property to get and 
 		  set the kind of manipulation data you want to receive from the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interface. 
@@ -111,17 +99,7 @@ Use this enumeration with the <a href="https://docs.microsoft.com/windows/deskto
         
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/rts-functions">Enumerations</a>
- 
-
- 
 

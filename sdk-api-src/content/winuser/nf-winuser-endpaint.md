@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: b07cfed9-21c4-4459-855a-eaf4d1d34ab8
 ms.date: 12/05/2018
 ms.keywords: EndPaint, EndPaint function [Windows GDI], _win32_EndPaint, gdi.endpaint, winuser/EndPaint
-f1_keywords:
-- winuser/EndPaint
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- EndPaint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EndPaint
+ - winuser/EndPaint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - EndPaint
 ---
 
 # EndPaint function
@@ -52,37 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EndPaint</b> function marks the end of painting in the specified window. This function is required for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function, but only after painting is complete.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle to the window that has been repainted.
 
-
 ### -param lpPaint [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that contains the painting information retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>.
 
-
 ## -returns
-
-
 
 The return value is always nonzero.
 
-
-
-
 ## -remarks
-
-
 
 If the caret was hidden by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>, <b>EndPaint</b> restores the caret to the screen.
 
@@ -95,12 +82,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
@@ -115,7 +97,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 80ef93ee-21a4-4766-82d2-d2ddef3ef5bb
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_VOLUME_BITMAP, FSCTL_GET_VOLUME_BITMAP control, FSCTL_GET_VOLUME_BITMAP control code [Files], _win32_fsctl_get_volume_bitmap, base.fsctl_get_volume_bitmap, fs.fsctl_get_volume_bitmap, winioctl/FSCTL_GET_VOLUME_BITMAP
-f1_keywords:
-- winioctl/FSCTL_GET_VOLUME_BITMAP
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_GET_VOLUME_BITMAP
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_GET_VOLUME_BITMAP
+ - winioctl/FSCTL_GET_VOLUME_BITMAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_GET_VOLUME_BITMAP
 ---
 
 # FSCTL_GET_VOLUME_BITMAP IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -120,7 +115,6 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -134,3 +128,4 @@ Cluster Shared Volume File System (CsvFS) | Yes
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [STARTING_LCN_INPUT_BUFFER](ns-winioctl-starting_lcn_input_buffer.md)
 * [VOLUME_BITMAP_BUFFER](ns-winioctl-volume_bitmap_buffer.md)
+

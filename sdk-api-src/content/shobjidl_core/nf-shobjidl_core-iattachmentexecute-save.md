@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 25661942-f38b-42d6-981b-4a3f4d083f6c
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Save method, IAttachmentExecute.Save, IAttachmentExecute::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Save, shell.IAttachmentExecute_Save, shobjidl_core/IAttachmentExecute::Save
-f1_keywords:
-- shobjidl_core/IAttachmentExecute.Save
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IAttachmentExecute.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttachmentExecute::Save
+ - shobjidl_core/IAttachmentExecute::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IAttachmentExecute.Save
 ---
 
 # IAttachmentExecute::Save
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves the attachment.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Before calling <b>IAttachmentExecute::Save</b>, you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> with a valid path. The file should be copied to that local path before <b>IAttachmentExecute::Save</b> is called.
 
@@ -83,20 +70,11 @@ Before calling <b>IAttachmentExecute::Save</b>, you must call <a href="https://d
 
 <b>IAttachmentExecute::Save</b> may attach <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-checkpolicy">evidence</a> to the local path in its NTFS alternate data stream (ADS).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-savewithui">IAttachmentExecute::SaveWithUI</a>
- 
-
- 
 

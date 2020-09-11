@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4407d673-286a-4221-ae35-09b9865161f8
 ms.date: 12/05/2018
 ms.keywords: IOleParentUndoUnit, IOleParentUndoUnit interface [COM], IOleParentUndoUnit interface [COM],described, _ole_ioleparentundounit, com.ioleparentundounit, ocidl/IOleParentUndoUnit
-f1_keywords:
-- ocidl/IOleParentUndoUnit
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleParentUndoUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleParentUndoUnit
+ - ocidl/IOleParentUndoUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleParentUndoUnit
 ---
 
 # IOleParentUndoUnit interface
 
 
 ## -description
-
 
 Enables undo units to contain child undo units. For example, a complex action can be presented to the end user as a single undo action even though a number of separate actions are involved. All the subordinate undo actions are contained within the top-level, parent undo unit.
 
@@ -70,7 +70,6 @@ If an object needs to create a parent unit, there are several cases to consider:
 </ul>In the event that both the UAS_NOPARENTENABLE and UAS_BLOCKED flags are set, the flag that is most relevant to the caller should be used with UAS_NOPARENTENABLE taking precedence. For example, if an object is creating a simple undo unit, it should pay attention to the UAS_NOPARENTENABLE flag and clear the undo stack. If it is creating an enabling parent unit, then it should pay attention to the UAS_BLOCKED flag and skip the creation.
 
 When the parent undo unit is marked blocked, it discards any undo units it receives.
-
 
 ## -inheritance
 
@@ -132,20 +131,13 @@ Opens a new parent undo unit, which becomes part of the containing unit's undo s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
- 
-
- 
 

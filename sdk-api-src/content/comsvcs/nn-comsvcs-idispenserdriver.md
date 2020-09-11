@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: dba9c616-031d-48a7-b3e3-eb28b95a573a
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], IDispenserDriver interface [COM+],described, _dtc_IDispenserDriver_Interface, comsvcs/IDispenserDriver, cos.idispenserdriver
-f1_keywords:
-- comsvcs/IDispenserDriver
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IDispenserDriver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispenserDriver
+ - comsvcs/IDispenserDriver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IDispenserDriver
 ---
 
 # IDispenserDriver interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Is called by the holder of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--resource-dispenser-service">COM+ Resource Dispenser</a> to create, enlist, evaluate, prepare, and destroy a resource.
-
 
 ## -inheritance
 
@@ -122,16 +121,9 @@ Prepares the resource to be put back into general or enlisted inventory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
- 
-
- 
 

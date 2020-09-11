@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 98816ea0-7651-42ef-8893-13c568ed859a
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],OperationType property, IFsrmFileManagementJob.OperationType, IFsrmFileManagementJob.get_OperationType, IFsrmFileManagementJob::OperationType, IFsrmFileManagementJob::get_OperationType, IFsrmFileManagementJob::put_OperationType, OperationType property [File Server Resource Manager], OperationType property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_operationtype, fsrm.ifsrmfilemanagementjob_operationtype, fsrmreports/IFsrmFileManagementJob::OperationType, fsrmreports/IFsrmFileManagementJob::get_OperationType, fsrmreports/IFsrmFileManagementJob::put_OperationType, get_OperationType
-f1_keywords:
-- fsrmreports/IFsrmFileManagementJob.OperationType
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileManagementJob.OperationType
-- IFsrmFileManagementJob.get_OperationType
-- IFsrmFileManagementJob.put_OperationType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileManagementJob::get_OperationType
+ - fsrmreports/IFsrmFileManagementJob::get_OperationType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileManagementJob.OperationType
+ - IFsrmFileManagementJob.get_OperationType
+ - IFsrmFileManagementJob.put_OperationType
 ---
 
 # IFsrmFileManagementJob::get_OperationType
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -61,13 +61,9 @@ The type of file management job. The type determines the operation to perform on
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the type is <b>FsrmFileManagementType_Expiration</b>, FSRM moves the files that meet 
     all the file management job's conditions to the path specified by the 
@@ -79,20 +75,11 @@ If the type is <b>FsrmFileManagementType_Custom</b>, FSRM executes the custom ac
     property for every file that meets all the file management job's conditions when the file management job is 
     run.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 385a4d15-08b5-40c6-8444-a22bec86a981
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper3, IFilterMapper3 interface [DirectShow], IFilterMapper3 interface [DirectShow],described, IFilterMapper3Interface, dshow.ifiltermapper3, strmif/IFilterMapper3
-f1_keywords:
-- strmif/IFilterMapper3
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFilterMapper3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterMapper3
+ - strmif/IFilterMapper3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterMapper3
 ---
 
 # IFilterMapper3 interface
@@ -50,14 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IFilterMapper3</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-mapper">Filter Mapper</a> object implements this interface.
 
 <div class="alert"><b>Note</b>  This interface is deprecated.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -83,5 +80,5 @@ Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api
 
 </td>
 </tr>
-</table> 
+</table>
 

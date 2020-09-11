@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0f7190c4-c696-4749-82f2-20fdbc8651f4
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo, ITPluggableTerminalClassInfo interface [TAPI 2.2], ITPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassinfo, tapi3.itpluggableterminalclassinfo, tapi3if/ITPluggableTerminalClassInfo
-f1_keywords:
-- tapi3if/ITPluggableTerminalClassInfo
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalClassInfo
+ - tapi3if/ITPluggableTerminalClassInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalClassInfo
 ---
 
 # ITPluggableTerminalClassInfo interface
 
 
 ## -description
-
 
 The 
 <b>ITPluggableTerminalClassInfo</b> interface exposes methods that allow the application to retrieve information concerning a pluggable terminal.
@@ -57,7 +57,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-next">IEnumPluggableTerminalClassInfo::Next</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-get_pluggableterminalclasses">ITTerminalSupport2::get_PluggableTerminalClasses</a> methods create the 
 <b>ITPluggableTerminalClassInfo</b> interface.
-
 
 ## -inheritance
 
@@ -137,5 +136,5 @@ Gets the terminal version.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2
 ms.date: 12/05/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
-f1_keywords:
-- shlobj_core/SHARDAPPIDINFOLINK
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- SHARDAPPIDINFOLINK
 targetos: Windows
 req.typenames: SHARDAPPIDINFOLINK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHARDAPPIDINFOLINK
+ - shlobj_core/SHARDAPPIDINFOLINK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - SHARDAPPIDINFOLINK
 ---
 
 # SHARDAPPIDINFOLINK structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains data used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> to identify both an item, in this case through an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>, and the process that it is associated with.
 
-
 ## -struct-fields
-
-
-
 
 ### -field psl
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> instance that, when launched, opens the item. The shortcut is not added by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> to the user's <b>Recent</b> folder (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_RECENT</a>, <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Recent</a>), but it is added to the <b>Recent</b> category in the specified application's Jump List.
 
-
 ### -field pszAppID
 
 Type: <b>PCWSTR</b>
 
 The application-defined AppUserModelID associated with the item.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> instance pointed to by <b>psl</b> must provide the following:
 
@@ -89,13 +81,7 @@ The display name must be set through the item's <a href="https://docs.microsoft.
 
 Optionally, the description field (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">IShellLink::SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
 
@@ -110,7 +96,4 @@ Optionally, the description field (<a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>
- 
-
- 
 

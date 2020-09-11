@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 97ab8896-3794-4de2-a1af-41025d2b6b17
 ms.date: 12/05/2018
 ms.keywords: TSPI_linePickup, TSPI_linePickup function [TAPI 2.2], _tspi_tspi_linepickup, tspi.tspi_linepickup, tspi/TSPI_linePickup
-f1_keywords:
-- tspi/TSPI_linePickup
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_linePickup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_linePickup
+ - tspi/TSPI_linePickup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_linePickup
 ---
 
 # TSPI_linePickup function
@@ -49,47 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_linePickup</b> function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call. If invoked with <b>NULL</b> for the <i>lpszDestAddress</i> parameter, a group pickup is performed. If required by the device capabilities, <i>lpszGroupID</i> specifies the group identifier to which the alerting station belongs.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdLine
 
 The handle to the line on which a call is to be picked up.
 
-
 ### -param dwAddressID
 
 The address on <i>hdLine</i> at which the pickup is to be originated. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param htCall
 
 The TAPI handle to the new call. The service provider must save this and use it in all subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure reporting events on the call.
 
-
 ### -param lphdCall
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVCALL</a> representing the service provider's identifier for the call. The service provider must fill this location with its handle for the call before this procedure returns. This handle is ignored by TAPI if the function results in an error.
 
-
 ### -param lpszDestAddress
 
 A pointer to a <b>null</b>-terminated Unicode string that contains the address whose call is to be picked up. The address is standard link format.
-
 
 ### -param lpszGroupID
 
@@ -103,19 +93,12 @@ A pointer to a <b>null</b>-terminated Unicode string containing the group identi
 
 ## -returns
 
-
-
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_NOMEM, LINEERR_INVALADDRESSID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESS, LINEERR_OPERATIONFAILED, LINEERR_INVALGROUPID, LINEERR_RESOURCEUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 When a call has been picked up successfully, the service provider notifies TAPI with the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> message about call state changes. The 
@@ -139,13 +122,7 @@ This function differs from the corresponding TAPI function in that it follows th
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> message reports success. In other words, it must not issue any 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> messages for the new call or include it in call counts in messages or status data structures for the line.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
@@ -192,7 +169,4 @@ This function differs from the corresponding TAPI function in that it follows th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineswaphold">TSPI_lineSwapHold</a>
- 
-
- 
 

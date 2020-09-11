@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 5645429B-110E-4AEC-9A2E-87D0942FA993
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformedImageSource, ID2D1TransformedImageSource interface [Direct2D], ID2D1TransformedImageSource interface [Direct2D],described, d2d1_3/ID2D1TransformedImageSource, direct2d.id2d1transformedimagesource
-f1_keywords:
-- d2d1_3/ID2D1TransformedImageSource
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2D1.lib
 req.dll: D2D1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2D1.dll
-api_name:
-- ID2D1TransformedImageSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TransformedImageSource
+ - d2d1_3/ID2D1TransformedImageSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2D1.dll
+api_name:
+ - ID2D1TransformedImageSource
 ---
 
 # ID2D1TransformedImageSource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an image source which shares resources with an original image source.
-
 
 ## -inheritance
 
@@ -88,16 +87,9 @@ Retrieves the source image used to create the transformed image source.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
- 
-
- 
 

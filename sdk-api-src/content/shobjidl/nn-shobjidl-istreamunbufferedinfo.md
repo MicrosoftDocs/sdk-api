@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 51c28816-91a2-47cf-86b9-327a538ebca1
 ms.date: 12/05/2018
 ms.keywords: IStreamUnbufferedInfo, IStreamUnbufferedInfo interface [Windows Shell], IStreamUnbufferedInfo interface [Windows Shell],described, _shell_IStreamUnbufferedInfo, shell.IStreamUnbufferedInfo, shobjidl/IStreamUnbufferedInfo
-f1_keywords:
-- shobjidl/IStreamUnbufferedInfo
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IStreamUnbufferedInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamUnbufferedInfo
+ - shobjidl/IStreamUnbufferedInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IStreamUnbufferedInfo
 ---
 
 # IStreamUnbufferedInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that determines the sector size as an aid to byte alignment.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves the number of bytes per sector on the disk currently being used.  When
 
 </td>
 </tr>
-</table> 
+</table>
 

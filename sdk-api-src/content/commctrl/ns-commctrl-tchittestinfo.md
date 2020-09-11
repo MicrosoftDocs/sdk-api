@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tchittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure pointer [Windows Controls], TCHITTESTINFO, TCHITTESTINFO structure [Windows Controls], TCHT_NOWHERE, TCHT_ONITEM, TCHT_ONITEMICON, TCHT_ONITEMLABEL, _win32_TCHITTESTINFO, _win32_TCHITTESTINFO_cpp, commctrl/LPTCHITTESTINFO, commctrl/TCHITTESTINFO, controls.TCHITTESTINFO, controls._win32_TCHITTESTINFO'
-f1_keywords:
-- commctrl/TCHITTESTINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TCHITTESTINFO
 targetos: Windows
 req.typenames: TCHITTESTINFO, *LPTCHITTESTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTCHITTESTINFO
+ - commctrl/tagTCHITTESTINFO
+ - LPTCHITTESTINFO
+ - commctrl/LPTCHITTESTINFO
+ - TCHITTESTINFO
+ - commctrl/TCHITTESTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TCHITTESTINFO
 ---
 
 # TCHITTESTINFO structure
@@ -49,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a hit test. This structure supersedes the
-		<b>TC_HITTESTINFO</b> structure. 
-
+		<b>TC_HITTESTINFO</b> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field pt
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-Position to hit test, in client coordinates. 
-
+Position to hit test, in client coordinates.
 
 ### -field flags
 
@@ -128,16 +127,8 @@ TCHT_ONITEM is a bitwise-OR operation on TCHT_ONITEMICON and TCHT_ONITEMLABEL.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-hittest">TCM_HITTEST</a>
- 
-
- 
 

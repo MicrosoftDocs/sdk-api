@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
 ms.date: 12/05/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
-f1_keywords:
-- ras/RasDialFunc
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RasDialFunc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RASDIALFUNC
+ - ras/RASDIALFUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RasDialFunc
 ---
 
 # RASDIALFUNC callback function
@@ -49,31 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasDialFunc</b> callback function is called by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function  when a change of state occurs during a RAS connection process.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
 ### -param Arg2
 
-
 ### -param Arg3
-
-
-
-
-
-
-
 
 #### - dwError [in]
 
@@ -99,10 +86,7 @@ Specifies the
 
 Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
-
 ## -remarks
-
-
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> connection operation is suspended during a call to a 
@@ -132,12 +116,7 @@ Do not call the
 <div class="alert"><b>Note</b>  <b>RasDialFunc</b> is a placeholder for the application-defined or library-defined function name.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a>
 
@@ -180,7 +159,4 @@ Do not call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

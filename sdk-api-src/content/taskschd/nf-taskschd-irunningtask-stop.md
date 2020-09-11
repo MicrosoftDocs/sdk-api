@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 2fdf325f-5652-42b0-99e3-3950dba1ef11
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Stop method, IRunningTask.Stop, IRunningTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_stop, taskschd/IRunningTask::Stop
-f1_keywords:
-- taskschd/IRunningTask.Stop
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRunningTask.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunningTask::Stop
+ - taskschd/IRunningTask::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRunningTask.Stop
 ---
 
 # IRunningTask::Stop
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops this instance of the task.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,22 +86,12 @@ The user does not have permission to stop the task, the task is disabled, or the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

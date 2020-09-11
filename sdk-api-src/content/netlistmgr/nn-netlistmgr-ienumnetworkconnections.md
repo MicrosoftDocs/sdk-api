@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: f7e69ede-c567-4285-a017-096c94fb3fe4
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], IEnumNetworkConnections interface [Network Awareness],described, netlistmgr/IEnumNetworkConnections, nla.ienumnetworkconnections
-f1_keywords:
-- netlistmgr/IEnumNetworkConnections
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- IEnumNetworkConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetworkConnections
+ - netlistmgr/IEnumNetworkConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - IEnumNetworkConnections
 ---
 
 # IEnumNetworkConnections interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The IEnumNetworkConnections interface provides  a standard enumerator for network connections. It enumerates active, disconnected, or all network connections within a network. This interface can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface.
-
 
 ## -inheritance
 
@@ -129,16 +128,9 @@ Returns an automation enumerator object that you can use to iterate through the 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
- 
-
- 
 

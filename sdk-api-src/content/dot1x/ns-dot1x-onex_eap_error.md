@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 20126b9a-732e-460d-bb10-4d7485b25eb9
 ms.date: 12/05/2018
 ms.keywords: '*PONEX_EAP_ERROR, EAP_E_AUTHENTICATION_FAILED, EAP_E_CERT_STORE_INACCESSIBLE, EAP_E_EAPHOST_EAPQEC_INACCESSIBLE, EAP_E_EAPHOST_IDENTITY_UNKNOWN, EAP_E_EAPHOST_METHOD_INVALID_PACKET, EAP_E_EAPHOST_METHOD_NOT_INSTALLED, EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED, EAP_E_EAPHOST_REMOTE_INVALID_PACKET, EAP_E_EAPHOST_XML_MALFORMED, EAP_E_METHOD_CONFIG_DOES_NOT_SUPPORT_SSO, EAP_E_NO_SMART_CARD_READER, EAP_E_SERVER_CERT_EXPIRED, EAP_E_SERVER_CERT_INVALID, EAP_E_SERVER_CERT_OTHER_ERROR, EAP_E_SERVER_CERT_REVOKED, EAP_E_SERVER_ROOT_CERT_NOT_FOUND, EAP_E_USER_CERT_EXPIRED, EAP_E_USER_CERT_INVALID, EAP_E_USER_CERT_NOT_FOUND, EAP_E_USER_CERT_OTHER_ERROR, EAP_E_USER_CERT_REJECTED, EAP_E_USER_CERT_REVOKED, EAP_E_USER_CREDENTIALS_REJECTED, EAP_E_USER_NAME_PASSWORD_REJECTED, EAP_E_USER_ROOT_CERT_EXPIRED, EAP_E_USER_ROOT_CERT_INVALID, EAP_E_USER_ROOT_CERT_NOT_FOUND, EAP_I_EAPHOST_EAP_NEGOTIATION_FAILED, EAP_I_USER_ACCOUNT_OTHER_ERROR, ERROR_BAD_ARGUMENTS, ERROR_CANTOPEN, ERROR_DATATYPE_MISMATCH, ERROR_INVALID_DATA, ERROR_INVALID_PARAMETER, ERROR_PATH_NOT_FOUND, E_UNEXPECTED, GUID_EapHost_Cause_CertStoreInaccessible, GUID_EapHost_Cause_EapNegotiationFailed, GUID_EapHost_Cause_EapQecInaccessible, GUID_EapHost_Cause_Generic_AuthFailure, GUID_EapHost_Cause_IdentityUnknown, GUID_EapHost_Cause_MethodDLLNotFound, GUID_EapHost_Cause_MethodDoesNotSupportOperation, GUID_EapHost_Cause_Method_Config_Does_Not_Support_Sso, GUID_EapHost_Cause_No_SmartCardReader_Found, GUID_EapHost_Cause_Server_CertExpired, GUID_EapHost_Cause_Server_CertInvalid, GUID_EapHost_Cause_Server_CertNotFound, GUID_EapHost_Cause_Server_CertOtherError, GUID_EapHost_Cause_Server_CertRevoked, GUID_EapHost_Cause_Server_Root_CertNameRequired, GUID_EapHost_Cause_Server_Root_CertNotFound, GUID_EapHost_Cause_ThirdPartyMethod_Host_Reset, GUID_EapHost_Cause_User_Account_OtherProblem, GUID_EapHost_Cause_User_CertExpired, GUID_EapHost_Cause_User_CertInvalid, GUID_EapHost_Cause_User_CertNotFound, GUID_EapHost_Cause_User_CertOtherError, GUID_EapHost_Cause_User_CertRejected, GUID_EapHost_Cause_User_CertRevoked, GUID_EapHost_Cause_User_CredsRejected, GUID_EapHost_Cause_User_Root_CertExpired, GUID_EapHost_Cause_User_Root_CertInvalid, GUID_EapHost_Cause_User_Root_CertNotFound, GUID_EapHost_Cause_XmlMalformed, GUID_EapHost_Default, GUID_EapHost_Help_EapConfigureTypes, GUID_EapHost_Help_FailedAuth, GUID_EapHost_Help_ObtainingCerts, GUID_EapHost_Help_SelectingCerts, GUID_EapHost_Help_SetupEapServer, GUID_EapHost_Help_Troubleshooting, GUID_EapHost_Repair_ContactAdmin_AuthFailure, GUID_EapHost_Repair_ContactAdmin_CertNameAbsent, GUID_EapHost_Repair_ContactAdmin_CertStoreInaccessible, GUID_EapHost_Repair_ContactAdmin_IdentityUnknown, GUID_EapHost_Repair_ContactAdmin_InvalidUserAccount, GUID_EapHost_Repair_ContactAdmin_InvalidUserCert, GUID_EapHost_Repair_ContactAdmin_MethodNotFound, GUID_EapHost_Repair_ContactAdmin_NegotiationFailed, GUID_EapHost_Repair_ContactAdmin_NoSmartCardReader, GUID_EapHost_Repair_ContactAdmin_RootCertInvalid, GUID_EapHost_Repair_ContactAdmin_RootCertNotFound, GUID_EapHost_Repair_ContactAdmin_RootExpired, GUID_EapHost_Repair_ContactSysadmin, GUID_EapHost_Repair_Method_Not_Support_Sso, GUID_EapHost_Repair_RestartNap, GUID_EapHost_Repair_Retry_Authentication, GUID_EapHost_Repair_Server_ClientSelectServerCert, GUID_EapHost_Repair_User_AuthFailure, GUID_EapHost_Repair_User_GetNewCert, GUID_EapHost_Repair_User_SelectValidCert, ONEX_EAP_ERROR, ONEX_EAP_ERROR structure [NativeWIFI], Other, PONEX_EAP_ERROR, PONEX_EAP_ERROR structure pointer [NativeWIFI], dot1x/ONEX_EAP_ERROR, dot1x/PONEX_EAP_ERROR, nwifi.onex_eap_error'
-f1_keywords:
-- dot1x/ONEX_EAP_ERROR
-dev_langs:
-- c++
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dot1x.h
-api_name:
-- ONEX_EAP_ERROR
 targetos: Windows
 req.typenames: ONEX_EAP_ERROR, *PONEX_EAP_ERROR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ONEX_EAP_ERROR
+ - dot1x/_ONEX_EAP_ERROR
+ - PONEX_EAP_ERROR
+ - dot1x/PONEX_EAP_ERROR
+ - ONEX_EAP_ERROR
+ - dot1x/ONEX_EAP_ERROR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dot1x.h
+api_name:
+ - ONEX_EAP_ERROR
 ---
 
 # ONEX_EAP_ERROR structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ONEX_EAP_ERROR</b> structure contains 802.1X EAP error when an error occurs with 802.1X authentication.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwWinError
 
@@ -466,13 +466,10 @@ The EAPHost could not find a root certificate in the trusted root certificate st
 </td>
 </tr>
 </table>
- 
-
 
 ### -field type
 
 The EAP method type that raised the error during 802.1X authentication. The <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure is defined in the <i>Eaptypes.h</i> header file.
-
 
 ### -field dwReasonCode
 
@@ -537,8 +534,6 @@ Use
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rootCauseGuid
 
@@ -888,8 +883,6 @@ This GUID is supported on   Windows Server 2008 R2 with the Wireless LAN Servi
 </td>
 </tr>
 </table>
- 
-
 
 ### -field repairGuid
 
@@ -1150,8 +1143,6 @@ The user should try to connect to the network again.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field helpLinkGuid
 
@@ -1246,33 +1237,25 @@ The URL for the page with more information about getting EAP certificates.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fRootCauseString
 
 Indicates if the <b>ONEX_EAP_ERROR</b> structure contains a root cause string in the <b>RootCauseString</b> member.
 
-
 ### -field fRepairString
 
 Indicates if the <b>ONEX_EAP_ERROR</b> structure contains a repair string in the <b>RepairString</b> member.
 
-
 ### -field RootCauseString
 
 A localized and readable string that describes the root cause of the error. This member contains a NULL-terminated Unicode string starting at the <b>dwOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> if the <b>fRootCauseString</b> bitfield member is set.
-
 
 ### -field RepairString
 
 A localized and readable string that describes the possible repair action.
 This member contains a NULL-terminated Unicode string starting at the <b>dwOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> if the <b>fRepairString</b> bitfield member is set.
 
-
 ## -remarks
-
-
 
 The <b>ONEX_EAP_ERROR</b> structure is used by the 802.1X module, a new wireless configuration component supported on Windows Vista and  later.  
 
@@ -1280,15 +1263,9 @@ Many members of the <b>ONEX_EAP_ERROR</b> structure correspond with similar memb
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> contains information on a status change to 802.1X authentication. The <b>ONEX_RESULT_UPDATE_DATA</b> structure is returned  when  the <b>NotificationSource</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure is <b>WLAN_NOTIFICATION_SOURCE_ONEX</b>  and the <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure for received notification  is <b>OneXNotificationTypeResultUpdate</b>. For this notification, the <b>pData</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure points to an  <b>ONEX_RESULT_UPDATE_DATA</b> structure that contains information on the 802.1X authentication status change. 
 
-If the <b>fEapError</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure is set, then the  <b>eapError</b> member of the <b>ONEX_RESULT_UPDATE_DATA</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> structure with an <b>ONEX_EAP_ERROR</b> structure embedded starting at the <b>dwOffset</b> member of the  <b>ONEX_VARIABLE_BLOB</b>. 
-
-
-
+If the <b>fEapError</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_result_update_data">ONEX_RESULT_UPDATE_DATA</a> structure is set, then the  <b>eapError</b> member of the <b>ONEX_RESULT_UPDATE_DATA</b> structure contains an <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ns-dot1x-onex_variable_blob">ONEX_VARIABLE_BLOB</a> structure with an <b>ONEX_EAP_ERROR</b> structure embedded starting at the <b>dwOffset</b> member of the  <b>ONEX_VARIABLE_BLOB</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
 
@@ -1323,7 +1300,4 @@ If the <b>fEapError</b> member in the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
 

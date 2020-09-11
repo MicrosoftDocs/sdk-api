@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9f40cd7d-04b5-4880-831f-5fb5cd52a2eb
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetShowCmd method, IShellLink::SetShowCmd, IShellLinkA interface [Windows Shell],SetShowCmd method, IShellLinkA::SetShowCmd, IShellLinkW interface [Windows Shell],SetShowCmd method, IShellLinkW.SetShowCmd, IShellLinkW::SetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNORMAL, SetShowCmd, SetShowCmd method [Windows Shell], SetShowCmd method [Windows Shell],IShellLink interface, SetShowCmd method [Windows Shell],IShellLinkA interface, SetShowCmd method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetShowCmd, shell.IShellLink_SetShowCmd, shobjidl_core/IShellLink::SetShowCmd, shobjidl_core/IShellLinkA::SetShowCmd, shobjidl_core/IShellLinkW::SetShowCmd
-f1_keywords:
-- shobjidl_core/IShellLink.SetShowCmd
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellLink.SetShowCmd
-- IShellLinkA.SetShowCmd
-- IShellLinkW.SetShowCmd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLinkW::SetShowCmd
+ - shobjidl_core/IShellLinkW::SetShowCmd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.SetShowCmd
+ - IShellLinkA.SetShowCmd
+ - IShellLinkW.SetShowCmd
 ---
 
 # IShellLinkW::SetShowCmd
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the show command for a Shell link object. The show command sets the initial show state of the window.
 
-
 ## -parameters
-
-
-
 
 ### -param iShowCmd
 
@@ -99,22 +95,13 @@ Displays the window in its minimized state, leaving the currently active window 
 
 Activates and displays a window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when displaying the window for the first time.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
@@ -129,7 +116,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>IShellLinkW</b>
- 
-
- 
 

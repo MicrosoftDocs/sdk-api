@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
 ms.date: 12/05/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2],described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
-f1_keywords:
-- tapi3/IEnumAgent
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgent
+ - tapi3/IEnumAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgent
 ---
 
 # IEnumAgent interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerator interface for 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>.
-
 
 ## -inheritance
 
@@ -105,16 +104,9 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 845d00d5-3698-4cf5-bae4-abb9529c3f88
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAudioStream method, IDvdControl2.SelectAudioStream, IDvdControl2::SelectAudioStream, IDvdControl2SelectAudioStream, SelectAudioStream, SelectAudioStream method [DirectShow], SelectAudioStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectaudiostream, strmif/IDvdControl2::SelectAudioStream
-f1_keywords:
-- strmif/IDvdControl2.SelectAudioStream
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectAudioStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectAudioStream
+ - strmif/IDvdControl2::SelectAudioStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectAudioStream
 ---
 
 # IDvdControl2::SelectAudioStream
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectAudioStream</code> method selects the audio stream to play.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulAudio [in]
 
 Value that specifies the audio stream. Valid stream numbers are 0 through 7, or <b>DVD_DEFAULT_AUDIO_STREAM</b> to specify the default stream.
 
-
 ### -param dwFlags [in]
 
 Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command. This parameter is currently ignored; use DVD_CMD_FLAG_None.
-
 
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -155,14 +143,8 @@ The specified stream is disabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method affects the audio of the current Video Title Set (VTS). When called from within a menu, this method sets the audio stream of the title from which the menu was called.
 
@@ -187,15 +169,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -206,7 +181,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
 

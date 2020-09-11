@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::GetSuspendNotify
 f1_keywords:
+ - IMFContentDecryptionModule::GetSuspendNotify
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::GetSuspendNotify
 dev_langs:
  - c++

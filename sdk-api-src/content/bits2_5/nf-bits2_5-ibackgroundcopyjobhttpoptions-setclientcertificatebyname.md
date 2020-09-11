@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 8262b360-ab05-42a3-b5e7-178dc9f23fc6
 ms.date: 12/05/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByName method, IBackgroundCopyJobHttpOptions.SetClientCertificateByName, IBackgroundCopyJobHttpOptions::SetClientCertificateByName, MY, ROOT, SPC, SetClientCertificateByName, SetClientCertificateByName method [BITS], SetClientCertificateByName method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyname, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByName
-f1_keywords:
-- bits2_5/IBackgroundCopyJobHttpOptions.SetClientCertificateByName
-dev_langs:
-- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJobHttpOptions.SetClientCertificateByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions::SetClientCertificateByName
+ - bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions.SetClientCertificateByName
 ---
 
 # IBackgroundCopyJobHttpOptions::SetClientCertificateByName
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request.
 
-
 ## -parameters
-
-
-
 
 ### -param StoreLocation [in]
 
 Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
-
 
 ### -param StoreName [in]
 
@@ -114,19 +109,14 @@ Software Publisher Certificate
 </td>
 </tr>
 </table>
- 
-
 
 ### -param SubjectName [in]
 
 Null-terminated string that contains the simple subject name of the certificate. If the subject name contains multiple relative distinguished names (RDNs), you can specify one or more adjacent RDNs. If you specify more than one RDN, the list is comma-delimited. The string is limited to 256 characters, including the null terminator. You cannot specify an empty subject name. 
 
-Do not include the object identifier in the name. You must specify the RDNs in the reverse order from what the certificate displays. For example, if the subject name in the certificate is "CN=name1, OU=name2, O=name3", specify the subject name as "name3, name2, name1". 
-
+Do not include the object identifier in the name. You must specify the RDNs in the reverse order from what the certificate displays. For example, if the subject name in the certificate is "CN=name1, OU=name2, O=name3", specify the subject name as "name3, name2, name1".
 
 ## -returns
-
-
 
 The following table lists some of the possible return values.
 
@@ -224,14 +214,8 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only the job owner can specify the client certificate. If the job changes ownership, BITS removes the certificate from the job.
 
@@ -285,14 +269,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
@@ -307,7 +284,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
- 
-
- 
 

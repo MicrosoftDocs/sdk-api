@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f7b440c0-8f91-4f32-adc6-82fa658125d0
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultSourcePosition method, IBasicVideo.SetDefaultSourcePosition, IBasicVideo::SetDefaultSourcePosition, IBasicVideoSetDefaultSourcePosition, SetDefaultSourcePosition, SetDefaultSourcePosition method [DirectShow], SetDefaultSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultSourcePosition, dshow.ibasicvideo_setdefaultsourceposition
-f1_keywords:
-- control/IBasicVideo.SetDefaultSourcePosition
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo.SetDefaultSourcePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo::SetDefaultSourcePosition
+ - control/IBasicVideo::SetDefaultSourcePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo.SetDefaultSourcePosition
 ---
 
 # IBasicVideo::SetDefaultSourcePosition
@@ -50,40 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetDefaultSourcePosition</code> method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
- 
-
- 
 

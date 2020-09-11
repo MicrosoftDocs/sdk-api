@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: A514833B-BC60-4D87-B2C6-849003E4EA63
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], IUIManagerEventSink interface [Text Services Framework],described, ctffunc/IUIManagerEventSink, tsf.iuimanagereventsink
-f1_keywords:
-- ctffunc/IUIManagerEventSink
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- IUIManagerEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIManagerEventSink
+ - ctffunc/IUIManagerEventSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - IUIManagerEventSink
 ---
 
 # IUIManagerEventSink interface
 
 
 ## -description
-
 
 The <b>IUIManagerEventSink</b> interface is implemented by an app supporting IME UI integration to receive notifications of IME UI appearance. This enables the app to rearrange its UI layout to avoid having the app's UI elements overlapped by the IME UI.
 
@@ -130,5 +130,5 @@ UI.
 
 </td>
 </tr>
-</table> 
+</table>
 

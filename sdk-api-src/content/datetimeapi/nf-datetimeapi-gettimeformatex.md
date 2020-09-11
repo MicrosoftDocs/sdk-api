@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 4d63888e-4496-4315-ac87-bf60c54daa37
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormatEx, GetTimeFormatEx function [Internationalization for Windows Applications], TIME_FORCE24HOURFORMAT, TIME_NOMINUTESORSECONDS, TIME_NOSECONDS, TIME_NOTIMEMARKER, _win32_GetTimeFormatEx, datetimeapi/GetTimeFormatEx, intl.gettimeformatex
-f1_keywords:
-- datetimeapi/GetTimeFormatEx
-dev_langs:
-- c++
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-datetime-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-DateTime-L1-1-2.dll
-api_name:
-- GetTimeFormatEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTimeFormatEx
+ - datetimeapi/GetTimeFormatEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-datetime-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-DateTime-L1-1-2.dll
+api_name:
+ - GetTimeFormatEx
 ---
 
 # GetTimeFormatEx function
@@ -54,18 +55,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats time as a time string for a locale specified by name. The function formats either a specified time or the local system time.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -135,32 +130,24 @@ Always use a 24-hour time format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpTime [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the time information to format. The application can set this parameter to <b>NULL</b> if the function is to use the current local system time.
 
-
 ### -param lpFormat [in, optional]
 
 Pointer to a format picture to use to format the time string. If the application sets this parameter to <b>NULL</b>, the function formats the string according to the time format of the specified locale. If the application does not set the parameter to <b>NULL</b>, the function uses the locale only for information not specified in the format picture string, for example, the locale-specific time markers. For information about the format picture string, see the Remarks section.
-
 
 ### -param lpTimeStr [out, optional]
 
 Pointer to a buffer in which this function retrieves the formatted time string.
 
-
 ### -param cchTime [in]
 
 Size, in characters, for the time string buffer indicated by <i>lpTimeStr</i>. Alternatively, the application can set this parameter to 0. In this case, the function returns the required size for the time string buffer, and does not use the <i>lpTimeStr</i> parameter.
 
-
 ## -returns
-
-
 
 Returns the number of characters retrieved in the buffer indicated by <i>lpTimeStr</i>. If the <i>cchTime</i> parameter is set to 0, the function returns the size of the buffer required to hold the formatted time string, including a terminating null character.
 
@@ -173,11 +160,7 @@ This function returns 0 if it does not succeed. To get extended error informatio
 <li>ERROR_OUTOFMEMORY. Not enough storage was available to complete this operation.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 If a time marker exists and the TIME_NOTIMEMARKER flag is not set, the function localizes the time marker based on the specified locale identifier. Examples of time markers are "AM" and "PM" for English (United States).
 
@@ -259,13 +242,7 @@ This function can retrieve data from <a href="https://docs.microsoft.com/windows
 
 <b>Beginning in Windows 8: </b><b>GetTimeFormatEx</b>  is declared in Datetimeapi.h. Before Windows 8, it was declared in Winnls.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex">GetDateFormatEx</a>
 
@@ -284,7 +261,4 @@ This function can retrieve data from <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

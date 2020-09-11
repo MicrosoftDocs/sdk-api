@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: FB1484D0-BF83-431B-A90B-B5F1757C4928
 ms.date: 12/05/2018
 ms.keywords: CachedOptimizeForVisualContent property [Windows Accessibility], CachedOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedOptimizeForVisualContent property, IUIAutomationElement2.CachedOptimizeForVisualContent, IUIAutomationElement2.get_CachedOptimizeForVisualContent, IUIAutomationElement2::CachedOptimizeForVisualContent, IUIAutomationElement2::get_CachedOptimizeForVisualContent, get_CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CachedOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CachedOptimizeForVisualContent
-f1_keywords:
-- uiautomationclient/IUIAutomationElement2.CachedOptimizeForVisualContent
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement2.CachedOptimizeForVisualContent
-- IUIAutomationElement2.get_CachedOptimizeForVisualContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement2::get_CachedOptimizeForVisualContent
+ - uiautomationclient/IUIAutomationElement2::get_CachedOptimizeForVisualContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement2.CachedOptimizeForVisualContent
+ - IUIAutomationElement2.get_CachedOptimizeForVisualContent
 ---
 
 # IUIAutomationElement2::get_CachedOptimizeForVisualContent
@@ -50,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a cached value that indicates whether the provider exposes only elements that are visible.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 A value of TRUE indicates that the provider optimizes for visual content, while FALSE indicates that the provider optimizes for virtual content. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithvirtualizeditems">Working with Virtualized Items</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
@@ -86,7 +76,4 @@ A value of TRUE indicates that the provider optimizes for visual content, while 
 
 
 <b>Reference</b>
- 
-
- 
 

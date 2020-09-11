@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdc.htm
 ms.date: 12/05/2018
 ms.keywords: 945f6e77-19f2-e9bf-18a4-09747a9990f3, GetDC, GetDC method [Direct3D 9], GetDC method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDC method, IDirect3DSurface9.GetDC, IDirect3DSurface9::GetDC, d3d9helper/IDirect3DSurface9::GetDC, direct3d9.idirect3dsurface9__getdc
-f1_keywords:
-- d3d9helper/IDirect3DSurface9.GetDC
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DSurface9.GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DSurface9::GetDC
+ - d3d9helper/IDirect3DSurface9::GetDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DSurface9.GetDC
 ---
 
 # IDirect3DSurface9::GetDC
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a device context.
 
-
 ## -parameters
-
-
-
 
 ### -param phdc [out]
 
@@ -65,21 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Pointer to the device context for the surface.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the argument is invalid.
 
-
-
-
 ## -remarks
-
-
 
 The following restrictions apply.
 
@@ -152,13 +140,7 @@ It is valid to call <b>IDirect3DSurface9::GetDC</b>/<a href="https://docs.micros
 
 The hdc provides access to Win32 and GDI functionality.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL</a>
 
@@ -177,7 +159,4 @@ The hdc provides access to Win32 and GDI functionality.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-releasedc">IDirect3DSurface9::ReleaseDC</a>
- 
-
- 
 

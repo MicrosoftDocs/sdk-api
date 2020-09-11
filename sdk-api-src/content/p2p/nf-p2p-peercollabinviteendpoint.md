@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: c77eee5b-6fee-4eaa-ac0e-94a0fd3df92e
 ms.date: 12/05/2018
 ms.keywords: PeerCollabInviteEndpoint, PeerCollabInviteEndpoint function [Peer Networking], p2p.peercollabinviteendpoint, p2p/PeerCollabInviteEndpoint
-f1_keywords:
-- p2p/PeerCollabInviteEndpoint
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabInviteEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabInviteEndpoint
+ - p2p/PeerCollabInviteEndpoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabInviteEndpoint
 ---
 
 # PeerCollabInviteEndpoint function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabInviteEndpoint</b> function sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. This call is synchronous and, if successful, obtains a response from the peer endpoint.
 
-
 ## -parameters
-
-
-
 
 ### -param pcEndpoint [in]
 
@@ -64,11 +60,9 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-
 
 This parameter must not be set to <b>NULL</b>.
 
-
 ### -param pcInvitation [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint  specified in <i>pcEndpoint</i>. This parameter must not be set to <b>NULL</b>.
-
 
 ### -param ppResponse [out]
 
@@ -78,10 +72,7 @@ If this call fails with an error, on output this parameter will be <b>NULL</b>.
 
 Free the memory associated with this structure by pass it to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -124,14 +115,8 @@ The recipient of the invitation has not responded within 5 minutes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This API sends an invitation to the endpoint specified as input. It does not guarantee that the recipient of the invite is the specific contact that the user  intended to send the invite to. To ensure that the invitation is sent to the correct contact, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabinvitecontact">PeerCollabInviteContact</a>.
 
@@ -143,13 +128,7 @@ To successfully receive the invitation, the application must be registered on th
 
 The recipient of the invitation must respond within 5 minutes to avoid timeout.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
@@ -168,7 +147,4 @@ The recipient of the invitation must respond within 5 minutes to avoid timeout.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetapplaunchinfo">PeerCollabGetAppLaunchInfo</a>
- 
-
- 
 

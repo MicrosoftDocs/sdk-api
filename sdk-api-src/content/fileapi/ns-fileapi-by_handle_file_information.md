@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a6fc5cf0-d3b0-4a76-af8b-6a13ab32157d
 ms.date: 12/05/2018
 ms.keywords: '*LPBY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION, BY_HANDLE_FILE_INFORMATION structure [Files], LPBY_HANDLE_FILE_INFORMATION, LPBY_HANDLE_FILE_INFORMATION structure pointer [Files], PBY_HANDLE_FILE_INFORMATION, PBY_HANDLE_FILE_INFORMATION structure pointer [Files], _win32_by_handle_file_information_str, base.by_handle_file_information_str, fileapi/BY_HANDLE_FILE_INFORMATION, fileapi/LPBY_HANDLE_FILE_INFORMATION, fileapi/PBY_HANDLE_FILE_INFORMATION, fs.by_handle_file_information_str, winbase/BY_HANDLE_FILE_INFORMATION, winbase/LPBY_HANDLE_FILE_INFORMATION, winbase/PBY_HANDLE_FILE_INFORMATION'
-f1_keywords:
-- fileapi/BY_HANDLE_FILE_INFORMATION
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FileAPI.h
-- WinBase.h
-api_name:
-- BY_HANDLE_FILE_INFORMATION
 targetos: Windows
 req.typenames: BY_HANDLE_FILE_INFORMATION, *PBY_HANDLE_FILE_INFORMATION, *LPBY_HANDLE_FILE_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BY_HANDLE_FILE_INFORMATION
+ - fileapi/_BY_HANDLE_FILE_INFORMATION
+ - PBY_HANDLE_FILE_INFORMATION
+ - fileapi/PBY_HANDLE_FILE_INFORMATION
+ - BY_HANDLE_FILE_INFORMATION
+ - fileapi/BY_HANDLE_FILE_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FileAPI.h
+ - WinBase.h
+api_name:
+ - BY_HANDLE_FILE_INFORMATION
 ---
 
 # BY_HANDLE_FILE_INFORMATION structure
@@ -50,29 +55,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information that the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function 
     retrieves.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFileAttributes
 
 The file attributes. For possible values and their descriptions, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
-
 ### -field ftCreationTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies when a file or 
       directory is created. If the underlying file system does not support creation time, this member is 
       zero (0).
-
 
 ### -field ftLastAccessTime
 
@@ -82,40 +80,33 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinba
      always set to midnight. If the underlying file system does not support the last access time, this member is 
      zero (0).
 
-
 ### -field ftLastWriteTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. For a file, the structure 
       specifies the last time that a file is written to. For a directory, the structure specifies when the directory 
       is created. If the underlying file system does not support the last write time, this member is zero (0).
 
-
 ### -field dwVolumeSerialNumber
 
 The serial number of the volume that contains a file.
-
 
 ### -field nFileSizeHigh
 
 The high-order part of the file size.
 
-
 ### -field nFileSizeLow
 
 The low-order part of the file size.
-
 
 ### -field nNumberOfLinks
 
 The number of links to this file. For the FAT file system this member is always 1. For the NTFS file 
       system, it can be more than 1.
 
-
 ### -field nFileIndexHigh
 
 The high-order part of a unique identifier that is associated with a file. For more information, see 
       <b>nFileIndexLow</b>.
-
 
 ### -field nFileIndexLow
 
@@ -132,10 +123,7 @@ The ReFS file system, introduced with Windows Server 2012, includes 128-bit fil
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_info">FILE_ID_INFO</a> structure. The 64-bit identifier in this 
        structure is not guaranteed to be unique on ReFS.
 
-
 ## -remarks
-
-
 
 The identifier that is stored in the <b>nFileIndexHigh</b> and 
     <b>nFileIndexLow</b> members is called the file ID. Support for file IDs is file 
@@ -158,13 +146,7 @@ Not all file systems can record creation and last access time, and not all file 
     system, access time has a resolution of 1 hour. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -183,7 +165,4 @@ Not all file systems can record creation and last access time, and not all file 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
- 
-
- 
 

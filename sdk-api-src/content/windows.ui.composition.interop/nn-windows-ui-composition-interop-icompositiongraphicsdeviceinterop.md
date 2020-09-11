@@ -8,10 +8,6 @@ tech.root: winrt
 ms.assetid: E8585E49-DB1E-44CA-AE75-138E87FD2D30
 ms.date: 12/05/2018
 ms.keywords: ICompositionGraphicsDeviceInterop, ICompositionGraphicsDeviceInterop interface, ICompositionGraphicsDeviceInterop interface,described, w_ui_comp.icompositiongraphicsdeviceinterop, windows/ICompositionGraphicsDeviceInterop
-f1_keywords:
-- windows.ui.composition.interop/ICompositionGraphicsDeviceInterop
-dev_langs:
-- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.ui.composition.interop.h
-api_name:
-- ICompositionGraphicsDeviceInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICompositionGraphicsDeviceInterop
+ - windows.ui.composition.interop/ICompositionGraphicsDeviceInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.ui.composition.interop.h
+api_name:
+ - ICompositionGraphicsDeviceInterop
 ---
 
 # ICompositionGraphicsDeviceInterop interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 A native interoperation  interface that allows getting and setting the graphics device.
           This is interface is available in C++ only.
-        
-
 
 ## -inheritance
 
@@ -88,29 +86,17 @@ Sets the rendering device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop">ICompositionDrawingSurfaceInterop</a> for usage examples.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/uwp/composition/composition-native-interop">Composition Native Interoperation Overview</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 11c96c79-9884-4bac-828b-53ac4de65182
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceActivateEx method, IOleInPlaceSiteEx.OnInPlaceActivateEx, IOleInPlaceSiteEx::OnInPlaceActivateEx, OnInPlaceActivateEx, OnInPlaceActivateEx method [COM], OnInPlaceActivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplaceactivateex, com.ioleinplacesiteex_oninplaceactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
-f1_keywords:
-- ocidl/IOleInPlaceSiteEx.OnInPlaceActivateEx
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteEx.OnInPlaceActivateEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteEx::OnInPlaceActivateEx
+ - ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteEx.OnInPlaceActivateEx
 ---
 
 # IOleInPlaceSiteEx::OnInPlaceActivateEx
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the embedded object to determine whether it needs to redraw itself upon activation.
 
-
 ## -parameters
-
-
-
 
 ### -param pfNoRedraw [out]
 
 A pointer to a variable that receives the current redraw status. The status is <b>TRUE</b> if the object need not redraw itself upon activation and <b>FALSE</b> otherwise. Windowless objects usually do not need the value returned by this parameter and may pass a <b>NULL</b> pointer to save the container the burden of computing this value.
 
-
 ### -param dwFlags [in]
 
 Indicates whether the object is activated as a windowless object. This parameter takes values from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a> enumeration. See <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> for more information on windowless objects.
 
-
 ## -returns
-
-
 
 This method returns S_OK if the container allows the in-place activation.
 Other possible return values include the following.
@@ -92,14 +84,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>. If the older method is used, the object must always redraw itself on activation.
 
@@ -110,13 +96,7 @@ The container should carefully check the invalidation status of the object, its 
 
 A container can cache the value of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a> enumeration instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">GetWindow</a> method in the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless</a> interface repeatedly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-activateflags">ACTIVATEFLAGS</a>
 
@@ -135,7 +115,4 @@ A container can cache the value of the <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
 ms.date: 12/05/2018
 ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
-f1_keywords:
-- objidl/IForegroundTransfer
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IForegroundTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IForegroundTransfer
+ - objidl/IForegroundTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IForegroundTransfer
 ---
 
 # IForegroundTransfer interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Transfers the foreground window to the process hosting the COM server. 
-
-
-
+Transfers the foreground window to the process hosting the COM server.
 
 ## -inheritance
 
@@ -79,5 +76,5 @@ Yields the foreground window to the COM server process.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Sens
 ms.assetid: 4d9e8de9-a329-4f8c-883b-e4baab04729b
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow interface [SENS],OnACPower method, ISensOnNow.OnACPower, ISensOnNow::OnACPower, OnACPower, OnACPower method [SENS], OnACPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onacpower, sens.isensonnow_onacpower, sensevts/ISensOnNow::OnACPower, syncmgr.isensonnow_onacpower
-f1_keywords:
-- sensevts/ISensOnNow.OnACPower
-dev_langs:
-- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Sensevts.tlb
 req.lib: 
 req.dll: Sens.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sens.dll
-api_name:
-- ISensOnNow.OnACPower
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensOnNow::OnACPower
+ - sensevts/ISensOnNow::OnACPower
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sens.dll
+api_name:
+ - ISensOnNow.OnACPower
 ---
 
 # ISensOnNow::OnACPower
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 SENS calls the 
 <b>OnACPower</b> method to notify your application that the computer is using AC power.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -84,24 +76,12 @@ Method returned successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 SENS calls this method to notify your application that AC power has been activated.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
@@ -120,7 +100,4 @@ SENS calls this method to notify your application that AC power has been activat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onbatterypower">ISensOnNow::OnBatteryPower</a>
- 
-
- 
 

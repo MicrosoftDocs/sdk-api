@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtEpEltInqNext, RpcMgmtEpEltInqNext function [RPC], RpcMgmtEpEltInqNextA, RpcMgmtEpEltInqNextW, _rpc_rpcmgmtepeltinqnext, rpc.rpcmgmtepeltinqnext, rpcdce/RpcMgmtEpEltInqNext, rpcdce/RpcMgmtEpEltInqNextA, rpcdce/RpcMgmtEpEltInqNextW
-f1_keywords:
-- rpcdce/RpcMgmtEpEltInqNext
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtEpEltInqNext
-- RpcMgmtEpEltInqNextA
-- RpcMgmtEpEltInqNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtEpEltInqNext
+ - rpcdce/RpcMgmtEpEltInqNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtEpEltInqNext
+ - RpcMgmtEpEltInqNextA
+ - RpcMgmtEpEltInqNextW
 ---
 
 # RpcMgmtEpEltInqNext function
@@ -51,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtEpEltInqNext</b> function returns one element from an endpoint map.
 
-
 ## -parameters
-
-
-
 
 ### -param InquiryContext
 
 Specifies an inquiry context. The inquiry context is returned from 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin">RpcMgmtEpEltInqBegin</a>.
 
-
 ### -param IfId
 
 Returns the interface identifier of the endpoint-map element.
 
-
 ### -param Binding
 
 Optional. Returns the binding handle from the endpoint-map element.
-
 
 ### -param Annotation
 
@@ -86,10 +79,7 @@ Optional. Returns the annotation string for the endpoint-map element. When there
 
 Optional. Returns the object UUID from the endpoint-map element.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -114,11 +104,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcMgmtEpEltInqNext</b> function returns one element from the endpoint map. Elements selected depend on the inquiry context. The selection criteria are determined by <i>InquiryType</i> of the 
@@ -134,13 +120,7 @@ When the respective arguments are non-NULL, the RPC run-time function library al
 After viewing the endpoint-map elements, the application must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a> to delete the inquiry context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
@@ -151,7 +131,4 @@ After viewing the endpoint-map elements, the application must call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a>
- 
-
- 
 

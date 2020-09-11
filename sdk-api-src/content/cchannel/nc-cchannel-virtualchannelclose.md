@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelClose, VirtualChannelClose callback, VirtualChannelClose callback function [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
-f1_keywords:
-- cchannel/VirtualChannelClose
-dev_langs:
-- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cchannel.h
-api_name:
-- VirtualChannelClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VIRTUALCHANNELCLOSE
+ - cchannel/VIRTUALCHANNELCLOSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cchannel.h
+api_name:
+ - VirtualChannelClose
 ---
 
 # VIRTUALCHANNELCLOSE callback function
 
 
 ## -description
-
 
 Closes the client end of a virtual channel.
 
@@ -57,36 +57,20 @@ Remote Desktop Services provides a pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to your 
 <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
 
-
 ## -parameters
-
-
-
 
 ### -param openHandle [in]
 
 Handle to the virtual channel. This is the handle returned in the <i>pOpenHandle</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is CHANNEL_RC_OK.
 
 If an error occurs, the function returns one of the following values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
- 
-
- 
 

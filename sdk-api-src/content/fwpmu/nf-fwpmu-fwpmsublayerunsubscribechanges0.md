@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: e4a2ea1b-6d84-44de-bf3a-d1f449a91fa5
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerUnsubscribeChanges0, FwpmSubLayerUnsubscribeChanges0 function [Filtering], fwp.fwpmsublayerunsubscribechanges0_func, fwpmu/FwpmSubLayerUnsubscribeChanges0
-f1_keywords:
-- fwpmu/FwpmSubLayerUnsubscribeChanges0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmSubLayerUnsubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmSubLayerUnsubscribeChanges0
+ - fwpmu/FwpmSubLayerUnsubscribeChanges0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmSubLayerUnsubscribeChanges0
 ---
 
 # FwpmSubLayerUnsubscribeChanges0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmSubLayerUnsubscribeChanges0</b> function is used to cancel a sublayer change subscription and stop receiving change notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,17 +60,13 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param changeHandle [in]
 
 Type: <b>HANDLE</b>
 
 Handle of the subscribed change notification. This is the returned handle from the call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0">FwpmSubLayerSubscribeChanges0</a>.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -120,14 +112,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the callback is currently being invoked, this function will not return until it completes. Thus, when calling this function, you must not hold any locks that the callback may also try to acquire lest you deadlock. 
 
@@ -138,16 +124,7 @@ with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windo
 
 <b>FwpmSubLayerUnsubscribeChanges0</b> is a specific implementation of FwpmSubLayerUnsubscribeChanges. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0">FwpmSubLayerSubscribeChanges0</a>
- 
-
- 
 

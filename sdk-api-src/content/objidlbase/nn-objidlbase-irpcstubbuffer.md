@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
-f1_keywords:
-- objidlbase/IRpcStubBuffer
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IRpcStubBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRpcStubBuffer
+ - objidlbase/IRpcStubBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IRpcStubBuffer
 ---
 
 # IRpcStubBuffer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the RPC stub used to marshal data between COM components.
-
 
 ## -inheritance
 
@@ -131,13 +130,9 @@ Determines whether a stub is designed to handle the unmarshaling of a particular
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
@@ -148,7 +143,4 @@ Determines whether a stub is designed to handle the unmarshaling of a particular
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
- 
-
- 
 

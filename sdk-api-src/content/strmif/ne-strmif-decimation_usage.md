@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 4c39f7f9-2d9c-4db5-9a2b-cf221ddedf80
 ms.date: 12/05/2018
 ms.keywords: DECIMATION_DEFAULT, DECIMATION_LEGACY, DECIMATION_USAGE, DECIMATION_USAGE , DECIMATION_USAGE enumeration [DirectShow], DECIMATION_USAGEEnumeration, DECIMATION_USE_DECODER_ONLY, DECIMATION_USE_OVERLAY_ONLY, DECIMATION_USE_VIDEOPORT_ONLY, dshow.decimation_usage, strmif/DECIMATION_DEFAULT, strmif/DECIMATION_LEGACY, strmif/DECIMATION_USAGE, strmif/DECIMATION_USE_DECODER_ONLY, strmif/DECIMATION_USE_OVERLAY_ONLY, strmif/DECIMATION_USE_VIDEOPORT_ONLY
-f1_keywords:
-- strmif/DECIMATION_USAGE
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- DECIMATION_USAGE
 targetos: Windows
 req.typenames: DECIMATION_USAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DECIMATION_USAGE
+ - strmif/_DECIMATION_USAGE
+ - DECIMATION_USAGE
+ - strmif/DECIMATION_USAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - DECIMATION_USAGE
 ---
 
 # DECIMATION_USAGE enumeration
@@ -49,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Describes the strategy that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer Filter</a> filter uses to scale the video image down to a smaller size.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field DECIMATION_LEGACY
 
@@ -75,16 +70,13 @@ Decimate the video by taking the following steps, in the order listed, until one
 
 Decimate using the scaler on the video decoder. If that fails, crop the video image.
 
-
 ### -field DECIMATION_USE_VIDEOPORT_ONLY
 
 Decimate using the scaler on the video port. If that fails, crop the video image.
 
-
 ### -field DECIMATION_USE_OVERLAY_ONLY
 
 Decimate using the overlay scaler on the VGA chip. If that fails, crop the video image.
-
 
 ### -field DECIMATION_DEFAULT
 
@@ -98,18 +90,11 @@ Decimate the video by taking the following steps, in the order listed, until one
 </ol>
 This mode is the default decimation strategy.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties</a>
- 
-
- 
 

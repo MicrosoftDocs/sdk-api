@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e733d6fb-0ce6-4fd2-a8e2-54aa44602828
 ms.date: 12/05/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DATAGRAM, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_PROMPT_FOR_CREDS, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_DCE_STYLE, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, SpInitLsaModeContext, SpInitLsaModeContext callback function [Security], SpInitLsaModeContextFn, SpInitLsaModeContextFn callback, _ssp_spinitlsamodecontext, ntsecpkg/SpInitLsaModeContext, security.spinitlsamodecontext
-f1_keywords:
-- ntsecpkg/SpInitLsaModeContext
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpInitLsaModeContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpInitLsaModeContextFn
+ - ntsecpkg/SpInitLsaModeContextFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpInitLsaModeContext
 ---
 
 # SpInitLsaModeContextFn callback function
@@ -49,34 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SpInitLsaModeContext</b> function is the client dispatch function used to establish a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">security context</a> between a server and client.
 
 The <b>SpInitLsaModeContext</b> function is called when the client calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param CredentialHandle [in]
 
 Optional. Handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> to use for the context. <i>CredentialHandle</i> can be <b>NULL</b> if the <i>ContextHandle</i> parameter is not <b>NULL</b>.
 
-
 ### -param ContextHandle [in]
 
 Optional. Handle to the context to use as the basis for this context. <i>ContextHandle</i> can be <b>NULL</b> if the <i>CredentialHandle</i> parameter is not <b>NULL</b>.
-
 
 ### -param TargetName [in]
 
 Optional. Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target of the context. The content of <i>TargetName</i> is package-specific and is not interpreted by the LSA.
-
 
 ### -param ContextRequirements [in]
 
@@ -237,47 +230,38 @@ Buffer integrity is verified; however, replayed and out-of-sequence messages wil
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TargetDataRep [in]
 
 Flag indicating the data representation, such as byte ordering, on the target. Contains SECURITY_NATIVE_DREP or SECURITY_NETWORK_DREP.
-
 
 ### -param InputBuffers [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing the previous reply message from the server. The first time this function is called the <i>InputBuffers</i> parameter is <b>NULL</b>.
 
-
 ### -param NewContextHandle [out]
 
 Pointer that receives a handle to the new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. When you have finished using the security context, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspdeletecontextfn">SpDeleteContext</a> function.
-
 
 ### -param OutputBuffers [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure containing the security token to pass back to the server.
 
-
 ### -param ContextAttributes [out]
 
 Pointer to flags specifying the attributes of the new context. The client requests a set of attributes using the <i>ContextRequirements</i> parameter. If the <i>ContextRequirements</i> flags do not match the <i>ContextAttributes</i> flags, the client must decide whether to continue or terminate. For a complete list of the valid flags, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/context-requirements">Context Requirements</a>.
-
 
 ### -param ExpirationTime [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the expiration time for the new context.
 
-
 ### -param MappedContext [out]
 
 Pointer to a Boolean value. Set <i>MappedContext</i> to <b>TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> implements the user-mode SSP/AP functions.
-
 
 ### -param ContextData [out]
 
@@ -285,10 +269,7 @@ Pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the data to copy when creating a user-mode security context. Allocate memory for <i>ContextData</i> using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a> function. The LSA will free the memory.
 
-
 ## -returns
-
-
 
 If the function succeeds and no more processing is required, return STATUS_SUCCESS. If processing is not complete, the function should return SEC_I_CONTINUE_NEEDED. When this value is returned, the caller must call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function again.
@@ -296,12 +277,7 @@ If the function succeeds and no more processing is required, return STATUS_SUCCE
 
 If the function fails to create the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> for any other reason, it should return an NTSTATUS code indicating the reason it failed.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptlsamodecontextfn">SpAcceptLsaModeContext</a> function is the server-side function for creating a context.
@@ -312,13 +288,7 @@ A pointer to the <b>SpInitLsaModeContext</b> function is available in the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a>
 
@@ -341,7 +311,4 @@ A pointer to the <b>SpInitLsaModeContext</b> function is available in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a>
- 
-
- 
 

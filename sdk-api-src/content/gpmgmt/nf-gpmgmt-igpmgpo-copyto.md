@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],GPMGPO object, CopyTo method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],CopyTo method, IGPMGPO interface [GPMC],CopyTo method, IGPMGPO.CopyTo, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
-f1_keywords:
-- gpmgmt/IGPMGPO.CopyTo
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMGPO.CopyTo
-- GPMGPO.CopyTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMGPO::CopyTo
+ - gpmgmt/IGPMGPO::CopyTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMGPO.CopyTo
+ - GPMGPO.CopyTo
 ---
 
 # IGPMGPO::CopyTo
 
 
 ## -description
-
 
 Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of 
     the GPO. This method copies the policy settings from the current GPO to the new GPO. The new GPO has a new GPO ID. 
@@ -58,11 +58,7 @@ Copies the current Group Policy object (GPO) to the specified domain and then re
     source GPO. The ACL that the new GPO gets depends on the value of the <i>lFlags</i> parameter. 
     This method does not link any scopes of management (SOMs) to the new GPO.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
@@ -91,33 +87,27 @@ Map the security principals and the UNC paths by using the information specified
 
 Copy the specified permissions (DACLs) on the GPO.
 
-
 ### -param pIGPMDomain [in]
 
 Domain to which the GPO is copied.
-
 
 ### -param pvarNewDisplayName [in, optional]
 
 Display name for the copied GPO. A display name is assigned if the <b>VARIANT</b> structure does not contain a <b>BSTR</b> or if the <i>pvarNewDisplayName</i> parameter is <b>NULL</b>.
 
-
 ### -param pvarMigrationTable [in, optional]
 
 Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmigrationtable">IGPMMigrationTable</a> interface to use for mapping. This parameter can be <b>NULL</b>.
-
 
 ### -param pvarGPMProgress [in, optional]
 
 Specifies a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasyncprogress">IGPMAsyncProgress</a> interface. This interface allows the client to receive status notifications about the progress of the copy operation. This parameter must be <b>NULL</b> if the client does not receive asynchronous notifications.
 
-
 ### -param pvarGPMCancel [out, optional]
 
 Receives a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasynccancel">IGPMAsyncCancel</a> interface that the client can use to cancel the copy operation. This parameter is not returned if <i>pvarGPMProgress</i> is <b>NULL</b>.
-
 
 ### -param ppIGPMResult [out]
 
@@ -142,10 +132,7 @@ Display name to be put on the copied GPO.
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">GPMDomain</a> object of the domain to which the GPO is copied.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -156,12 +143,7 @@ Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/w
 <h3>VB</h3>
 Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmresult">GPMResult</a> object.
 
-
-
-
 ## -remarks
-
-
 
 The new GPO that is created by using this method is unlinked because a copy operation does not transfer links.
 
@@ -176,13 +158,7 @@ An import operation is similar to a copy operation, except that in an import ope
 For more information about security groups, see 
 <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
@@ -201,7 +177,4 @@ For more information about security groups, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
- 
-
- 
 

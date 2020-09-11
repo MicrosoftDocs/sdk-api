@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imapitable\imapitable.htm
 ms.date: 12/05/2018
 ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable interface [Windows Address Book],described, _wab_IMAPITable, wab._wab_IMAPITable, wabdefs/IMAPITable
-f1_keywords:
-- wabdefs/IMAPITable
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IMAPITable
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IMAPITable
+ - wabdefs/IMAPITable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IMAPITable
 ---
 
 # IMAPITable interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface is used for content tables of Windows Address Book (WAB) containers and distribution lists.
-
 
 ## -inheritance
 
@@ -283,5 +282,5 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
+</table>
 

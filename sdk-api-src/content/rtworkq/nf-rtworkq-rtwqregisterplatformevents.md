@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 7BD7E83B-29E1-4FF5-B527-71C2F80D6521
 ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformEvents, RtwqRegisterPlatformEvents function, base.rtwqregisterplatformevents, rtworkq/RtwqRegisterPlatformEvents
-f1_keywords:
-- rtworkq/RtwqRegisterPlatformEvents
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqRegisterPlatformEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqRegisterPlatformEvents
+ - rtworkq/RtwqRegisterPlatformEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqRegisterPlatformEvents
 ---
 
 # RtwqRegisterPlatformEvents function
+
 
 ## -description
 
@@ -59,3 +61,4 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/n
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+

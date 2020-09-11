@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: eb3732fd-1197-4e1c-b5b5-9a34aaa0951e
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ATTRIBUTES_TYPE, WS_BOOL_TYPE, WS_BYTES_TYPE, WS_BYTE_ARRAY_TYPE, WS_CHAR_ARRAY_TYPE, WS_CUSTOM_TYPE, WS_DATETIME_TYPE, WS_DECIMAL_TYPE, WS_DESCRIPTION_TYPE, WS_DOUBLE_TYPE, WS_DURATION_TYPE, WS_ENDPOINT_ADDRESS_TYPE, WS_ENUM_TYPE, WS_FAULT_TYPE, WS_FLOAT_TYPE, WS_GUID_TYPE, WS_INT16_TYPE, WS_INT32_TYPE, WS_INT64_TYPE, WS_INT8_TYPE, WS_STRING_TYPE, WS_STRUCT_TYPE, WS_TIMESPAN_TYPE, WS_TYPE, WS_TYPE enumeration [Web Services for Windows], WS_UINT16_TYPE, WS_UINT32_TYPE, WS_UINT64_TYPE, WS_UINT8_TYPE, WS_UNION_TYPE, WS_UNIQUE_ID_TYPE, WS_UTF8_ARRAY_TYPE, WS_VOID_TYPE, WS_WSZ_TYPE, WS_XML_BUFFER_TYPE, WS_XML_QNAME_TYPE, WS_XML_STRING_TYPE, webservices/WS_ANY_ATTRIBUTES_TYPE, webservices/WS_BOOL_TYPE, webservices/WS_BYTES_TYPE, webservices/WS_BYTE_ARRAY_TYPE, webservices/WS_CHAR_ARRAY_TYPE, webservices/WS_CUSTOM_TYPE, webservices/WS_DATETIME_TYPE, webservices/WS_DECIMAL_TYPE, webservices/WS_DESCRIPTION_TYPE, webservices/WS_DOUBLE_TYPE, webservices/WS_DURATION_TYPE, webservices/WS_ENDPOINT_ADDRESS_TYPE, webservices/WS_ENUM_TYPE, webservices/WS_FAULT_TYPE, webservices/WS_FLOAT_TYPE, webservices/WS_GUID_TYPE, webservices/WS_INT16_TYPE, webservices/WS_INT32_TYPE, webservices/WS_INT64_TYPE, webservices/WS_INT8_TYPE, webservices/WS_STRING_TYPE, webservices/WS_STRUCT_TYPE, webservices/WS_TIMESPAN_TYPE, webservices/WS_TYPE, webservices/WS_UINT16_TYPE, webservices/WS_UINT32_TYPE, webservices/WS_UINT64_TYPE, webservices/WS_UINT8_TYPE, webservices/WS_UNION_TYPE, webservices/WS_UNIQUE_ID_TYPE, webservices/WS_UTF8_ARRAY_TYPE, webservices/WS_VOID_TYPE, webservices/WS_WSZ_TYPE, webservices/WS_XML_BUFFER_TYPE, webservices/WS_XML_QNAME_TYPE, webservices/WS_XML_STRING_TYPE, wsw.ws_type
-f1_keywords:
-- webservices/WS_TYPE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_TYPE
 targetos: Windows
 req.typenames: WS_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_TYPE
+ - webservices/WS_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_TYPE
 ---
 
 # WS_TYPE enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The types supported for serialization.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_BOOL_TYPE
 
@@ -130,8 +125,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-               
-
 
 ### -field WS_INT8_TYPE
 
@@ -204,8 +197,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_INT16_TYPE
 
@@ -278,8 +269,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_INT32_TYPE
 
@@ -352,8 +341,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_INT64_TYPE
 
@@ -426,8 +413,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_UINT8_TYPE
 
@@ -500,8 +485,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_UINT16_TYPE
 
@@ -574,8 +557,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_UINT32_TYPE
 
@@ -648,8 +629,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_UINT64_TYPE
 
@@ -722,8 +701,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_FLOAT_TYPE
 
@@ -796,8 +773,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_DOUBLE_TYPE
 
@@ -870,8 +845,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_DECIMAL_TYPE
 
@@ -944,8 +917,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_DATETIME_TYPE
 
@@ -1018,8 +989,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_TIMESPAN_TYPE
 
@@ -1092,8 +1061,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_GUID_TYPE
 
@@ -1166,8 +1133,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_UNIQUE_ID_TYPE
 
@@ -1240,8 +1205,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_STRING_TYPE
 
@@ -1321,8 +1284,6 @@ A nil value is represented by setting the chars field to <b>NULL</b> and specify
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_WSZ_TYPE
 
@@ -1406,8 +1367,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
                     which field mapping values allow a default value to be specified.
                     The default value should point to the address of a WCHAR*, and 
                     the size should be sizeof(WCHAR*).
-                
-
 
 ### -field WS_BYTES_TYPE
 
@@ -1484,8 +1443,6 @@ A nil value is represented by setting the bytes field to <b>NULL</b> and specify
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_XML_STRING_TYPE
 
@@ -1565,8 +1522,6 @@ A nil value is represented by setting the bytes field to <b>NULL</b> and specify
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_XML_QNAME_TYPE
 
@@ -1640,8 +1595,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_XML_BUFFER_TYPE
 
@@ -1871,8 +1824,6 @@ A nil string is represented by setting the chars field to <b>NULL</b> and specif
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ### -field WS_UTF8_ARRAY_TYPE
 
@@ -1946,8 +1897,6 @@ A nil string is represented by setting the bytes field to <b>NULL</b> and specif
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ### -field WS_BYTE_ARRAY_TYPE
 
@@ -2018,8 +1967,6 @@ A nil array is represented by setting the array pointer field to <b>NULL</b> and
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ### -field WS_DESCRIPTION_TYPE
 
@@ -2152,8 +2099,6 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ### -field WS_CUSTOM_TYPE
 
@@ -2239,8 +2184,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_ENDPOINT_ADDRESS_TYPE
 
@@ -2299,8 +2242,6 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ### -field WS_FAULT_TYPE
 
@@ -2359,8 +2300,6 @@ A nil value is represented using a <b>NULL</b> pointer.
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ### -field WS_VOID_TYPE
 
@@ -2500,8 +2439,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_DURATION_TYPE
 
@@ -2574,8 +2511,6 @@ A nil value is represented using a <b>NULL</b> pointer.
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
                     See the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_FIELD_MAPPING</a> to see
                     which field mapping values allow a default value to be specified.
-                
-
 
 ### -field WS_UNION_TYPE
 
@@ -2639,8 +2574,6 @@ This type does not support nil values.
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                     When used with <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a>, the default value in the 
                     union is specified using the nonEnumValue of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
-                
-
 
 ### -field WS_ANY_ATTRIBUTES_TYPE
 
@@ -2676,12 +2609,8 @@ This type does not support nil values.
                 
 
 This type does not support specifying a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
-                
-
 
 ## -remarks
-
-
 
 Many of the <b>WS_TYPE</b>s have a corresponding type description structure
                 which allows for additional information used to serialize or deserialize the
@@ -2700,7 +2629,4 @@ Another example is the <b>WS_STRUCT_TYPE</b>, which allows for the specification
 Type description pointers accompany <b>WS_TYPE</b> in the various APIs and structures 
                 that are based on serialization.  This should be <b>NULL</b> or non-<b>NULL</b> based on whether or not
                 the type description is not defined, optional or required.
-            
-
-
 

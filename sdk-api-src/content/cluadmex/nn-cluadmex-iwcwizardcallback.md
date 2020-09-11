@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 0d5f45c4-6091-4ea4-875a-69be7f1258db
 ms.date: 12/05/2018
 ms.keywords: IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], IWCWizardCallback interface [Failover Cluster],described, _wolf_iwcwizardcallback, cluadmex/IWCWizardCallback, mscs.iwcwizardcallback
-f1_keywords:
-- cluadmex/IWCWizardCallback
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCWizardCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCWizardCallback
+ - cluadmex/IWCWizardCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCWizardCallback
 ---
 
 # IWCWizardCallback interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IWCWizardCallback</b> interface is called by a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension to add a 
     property page to a Failover Cluster Administrator Wizard and to manage navigation.
-
 
 ## -inheritance
 
@@ -92,12 +91,9 @@ Enables or disables the <b>Next</b> or <b>Finish</b> button on a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the <i>piCallback</i> pointer that you receive when Failover Cluster Administrator calls 
      your 
@@ -107,13 +103,7 @@ Use the <i>piCallback</i> pointer that you receive when Failover Cluster Adminis
 
 Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcwizard97callback">IWCWizard97Callback</a> to add Wizard97 pages.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-callback-interfaces">Failover Cluster Administrator Callback Interfaces</a>
 
@@ -124,7 +114,4 @@ Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cl
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard-createwizardpages">IWEExtendWizard::CreateWizardPages</a>
- 
-
- 
 

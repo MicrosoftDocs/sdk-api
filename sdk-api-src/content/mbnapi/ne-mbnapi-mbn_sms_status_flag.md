@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 835cfdfa-face-4779-8bbf-e35076b85521
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_FLAG_MESSAGE_STORE_FULL, MBN_SMS_FLAG_NEW_MESSAGE, MBN_SMS_FLAG_NONE, MBN_SMS_STATUS_FLAG, MBN_SMS_STATUS_FLAG enumeration [Microsoft Broadband Networks], mbn.mbn_sms_status_flag, mbnapi/MBN_SMS_FLAG_MESSAGE_STORE_FULL, mbnapi/MBN_SMS_FLAG_NEW_MESSAGE, mbnapi/MBN_SMS_FLAG_NONE, mbnapi/MBN_SMS_STATUS_FLAG
-f1_keywords:
-- mbnapi/MBN_SMS_STATUS_FLAG
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mbnapi.h
-api_name:
-- MBN_SMS_STATUS_FLAG
 targetos: Windows
 req.typenames: MBN_SMS_STATUS_FLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MBN_SMS_STATUS_FLAG
+ - mbnapi/MBN_SMS_STATUS_FLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mbnapi.h
+api_name:
+ - MBN_SMS_STATUS_FLAG
 ---
 
 # MBN_SMS_STATUS_FLAG enumeration
@@ -56,21 +57,15 @@ The <b>MBN_SMS_STATUS_FLAG</b> enumerated type indicates the status of  a device
 
 These enumerated values are used in a bitfield by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_status_info">MBN_SMS_STATUS_INFO</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MBN_SMS_FLAG_NONE
 
 There is no SMS status information to report.
 
-
 ### -field MBN_SMS_FLAG_MESSAGE_STORE_FULL
 
 The message store is full.
-
 
 ### -field MBN_SMS_FLAG_NEW_MESSAGE
 

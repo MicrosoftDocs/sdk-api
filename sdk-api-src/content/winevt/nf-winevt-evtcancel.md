@@ -8,10 +8,6 @@ tech.root: wes
 ms.assetid: c8770139-93de-4da2-b797-f82775f4c553
 ms.date: 12/05/2018
 ms.keywords: EvtCancel, EvtCancel function [EventLog], wes.evtcancel, winevt/EvtCancel
-f1_keywords:
-- winevt/EvtCancel
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-api_name:
-- EvtCancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtCancel
+ - winevt/EvtCancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+api_name:
+ - EvtCancel
 ---
 
 # EvtCancel function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels all pending operations on a handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Object
 
@@ -89,10 +85,7 @@ To cancel the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-
        handle. To specify the default session (local session), set this parameter to 
        <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -125,14 +118,8 @@ The function failed. To get the error code, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this function to cancel long-running operations. For example, calling the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a> function could theoretically take a long time due to 
@@ -161,6 +148,4 @@ The following procedure describes how to cancel a long-running operation.
       the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function.</li>
 </ol>
 The operation being stopped will return with an error code of ERROR_CANCELLED.
-
-
 

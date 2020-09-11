@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 6792ccc0-7bbd-479c-9f24-a283ce03c7fe
 ms.date: 12/05/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],ForceLoadProperty method, ITextStoreACPServices.ForceLoadProperty, ITextStoreACPServices::ForceLoadProperty, _tsf_itextstoreacpservices_forceloadproperty_ref, msctf/ITextStoreACPServices::ForceLoadProperty, tsf.itextstoreacpservices_forceloadproperty
-f1_keywords:
-- msctf/ITextStoreACPServices.ForceLoadProperty
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPServices.ForceLoadProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPServices::ForceLoadProperty
+ - msctf/ITextStoreACPServices::ForceLoadProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPServices.ForceLoadProperty
 ---
 
 # ITextStoreACPServices::ForceLoadProperty
+
 
 ## -description
 
@@ -99,7 +101,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
 
 When calling this method, the application must be able to grant a synchronous read-only lock.
@@ -107,3 +109,4 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Unserialize](nf-msctf-itextstoreacpservices-unserialize.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [ITfProperty interface](nn-msctf-itfproperty.md)
+

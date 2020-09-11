@@ -4,10 +4,6 @@ title: DML_ELEMENT_WISE_ERF_OPERATOR_DESC
 description: Describes a DirectML math operator that performs the element-wise natural exponential function f(x) = exp(x * scale + bias), where the scale and bias terms are optional.
 tech.root: directml
 ms.date: 01/30/2020
-f1_keywords:
-- directml/DML_ELEMENT_WISE_ERF_OPERATOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -25,18 +21,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
- - DML_ELEMENT_WISE_ERF_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DML_ELEMENT_WISE_ERF_OPERATOR_DESC
+ - directml/DML_ELEMENT_WISE_ERF_OPERATOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_ELEMENT_WISE_ERF_OPERATOR_DESC
 ---
 
 ## -description

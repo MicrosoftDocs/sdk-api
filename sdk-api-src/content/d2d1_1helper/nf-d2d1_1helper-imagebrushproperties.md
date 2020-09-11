@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77
 ms.date: 12/05/2018
 ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d1_1helper/ImageBrushProperties, direct2d.imagebrushproperties
-f1_keywords:
-- d2d1_1helper/ImageBrushProperties
-dev_langs:
-- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ImageBrushProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageBrushProperties
+ - d2d1_1helper/ImageBrushProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ImageBrushProperties
 ---
 
 # ImageBrushProperties function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param sourceRectangle
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-
 
 The source rectangle in the image space from which the image will be tiled or interpolated.
 
-
 ### -param extendModeX
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 The extend mode in the image x-axis.
-
 
 ### -param extendModeY
 
@@ -78,21 +72,15 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2
 
 The extend mode in the image y-axis.
 
-
 ### -param interpolationMode
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode to use when scaling the image brush.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_image_brush_properties">D2D1_IMAGE_BRUSH_PROPERTIES</a></b>
 
 The struct that describes the image brush.
-
-
 

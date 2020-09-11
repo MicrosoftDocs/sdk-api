@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [VSS], Cancel method [VSS],IVssAsync interface, IVssAsync interface [VSS],Cancel method, IVssAsync.Cancel, IVssAsync::Cancel, _win32_ivssasync_cancel, base.ivssasync_cancel, vss/IVssAsync::Cancel
-f1_keywords:
-- vss/IVssAsync.Cancel
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssAsync.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAsync::Cancel
+ - vss/IVssAsync::Cancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssAsync.Cancel
 ---
 
 # IVssAsync::Cancel
@@ -50,21 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Cancel</b> method cancels an incomplete asynchronous operation.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 All calls to 
 <b>Cancel</b> for all 
@@ -132,20 +124,11 @@ If an operation has completed unsuccessfully before
 To obtain a complete list of return values for a specific <b>IVssAsync::Cancel</b>, see the error codes of the method that returned the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
- 
-
- 
 

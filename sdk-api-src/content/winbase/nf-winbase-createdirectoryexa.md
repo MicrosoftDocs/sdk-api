@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryEx, CreateDirectoryEx function [Files], CreateDirectoryExA, CreateDirectoryExW, _win32_createdirectoryex, base.createdirectoryex, fs.createdirectoryex, winbase/CreateDirectoryEx, winbase/CreateDirectoryExA, winbase/CreateDirectoryExW
-f1_keywords:
-- winbase/CreateDirectoryEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CreateDirectoryEx
-- CreateDirectoryExA
-- CreateDirectoryExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDirectoryExA
+ - winbase/CreateDirectoryExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CreateDirectoryEx
+ - CreateDirectoryExA
+ - CreateDirectoryExW
 ---
 
 # CreateDirectoryExA function
 
 
 ## -description
-
 
 Creates a new directory with the attributes of a specified template directory. If the 
     underlying file system supports security on files and directories, the function applies a specified security 
@@ -67,11 +67,7 @@ Creates a new directory with the attributes of a specified template directory. I
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectorytransacteda">CreateDirectoryTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTemplateDirectory [in]
 
@@ -111,10 +107,7 @@ The target file system must support security on files and directories for this p
        This is indicated when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> 
        returns <b>FS_PERSISTENT_ACLS</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -152,14 +145,8 @@ One or more intermediate directories do not exist. This function only creates th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreateDirectoryEx</b> function allows you to 
     create directories that inherit stream information from other directories. This function is useful, for example, 
@@ -248,9 +235,6 @@ Yes
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
 
 
@@ -276,7 +260,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
- 
-
- 
 

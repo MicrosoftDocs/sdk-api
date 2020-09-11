@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
 ms.date: 12/05/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
-f1_keywords:
-- oledlg/OleUIConvert
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIConvert
-- OleUIConvertA
-- OleUIConvertW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIConvertW
+ - oledlg/OleUIConvertW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIConvert
+ - OleUIConvertA
+ - OleUIConvertW
 ---
 
 # OleUIConvertW function
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Convert</b> dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -405,14 +397,8 @@ A string value (for example, <b>lpszUserType</b> or <b>lpszDefLabel</b>) was inv
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OleUIConvert</b> populates the <b>Convert</b> dialog box's list box with object classes by traversing the registry and looking for entries in the Readable and ReadWritable keys. Every class that includes the original class' default file format in its Readable key is added to the Convert list, and every class that includes the original class' default file format in its ReadWritable key is added to the Activate As list. The Convert list is shown in the dialog box's list box when the <b>Convert</b> radio button is selected (the default selection), and the Activate As list is shown when <b>Activate As</b> is selected.
 
@@ -432,15 +418,9 @@ The convert command, which invokes this function, should only be made available 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>
- 
-
- 
 

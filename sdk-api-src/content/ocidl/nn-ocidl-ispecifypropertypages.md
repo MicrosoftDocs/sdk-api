@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410
 ms.date: 12/05/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
-f1_keywords:
-- ocidl/ISpecifyPropertyPages
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- ISpecifyPropertyPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpecifyPropertyPages
+ - ocidl/ISpecifyPropertyPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - ISpecifyPropertyPages
 ---
 
 # ISpecifyPropertyPages interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that an object supports property pages. OLE property pages enable an object to display its properties in a tabbed dialog box known as a <i>property sheet</i>. An end user can then view and change the object's properties. An object can display its property pages independent of its client, or the client can manage the display of property pages from a number of contained objects in a single property sheet. Property pages also provide a means for notifying a client of changes in an object's properties.
-
 
 ## -inheritance
 
@@ -77,24 +76,15 @@ Retrieves a list of property pages that can be displayed in this object's proper
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
  A property page object manages a particular page within a property sheet. A property page implements at least <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> and can optionally implement <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage2">IPropertyPage2</a> if selection of a specific property is supported.
 
 An object specifies its support for property pages by implementing <b>ISpecifyPropertyPages</b>. Through this interface the caller can obtain a list of CLSIDs identifying the specific property pages that the object supports. If the object specifies a property page CLSID, the object must be able to receive property changes from the property page.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
@@ -105,7 +95,4 @@ An object specifies its support for property pages by implementing <b>ISpecifyPr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
- 
-
- 
 

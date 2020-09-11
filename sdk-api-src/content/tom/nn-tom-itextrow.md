@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 49f5ffc1-d615-4d07-9f41-1c5f0dd9045b
 ms.date: 12/05/2018
 ms.keywords: ITextRow, ITextRow interface [Windows Controls], ITextRow interface [Windows Controls],described, controls.itextrow, tom/ITextRow
-f1_keywords:
-- tom/ITextRow
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRow
+ - tom/ITextRow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRow
 ---
 
 # ITextRow interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITextRow</b> interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-insert">ITextRow::Insert</a> for each different row configuration. 
-
+The <b>ITextRow</b> interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-insert">ITextRow::Insert</a> for each different row configuration.
 
 ## -inheritance
 
@@ -482,12 +481,9 @@ Sets whether this row has right-to-left orientation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To select a table, a row, or a cell, use <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-expand">ITextRange::Expand</a>, with the <i>Unit</i> parameter set to <b>tomTable</b>, <b>tomRow</b>, or <b>tomCell</b>, respectively. These units can also be used with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a> methods to navigate and select multiple rows or cells.
 
@@ -507,8 +503,5 @@ On the other hand, no formal table description is stored anywhere. Information s
 For example, the count of rows in a table can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">ITextRange::StartOf</a> (<b>tomTable</b>, <b>tomFalse</b>, <b>NULL</b>) to move to the start of the current table and then calling <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a> (<b>tomRow</b>, <b>tomForward</b>, <i>&amp;dcRow</i>). The quantity <i>&amp;dcRow</i> + 1 then contains the count of rows in the table, because moving by <b>tomRow</b> increments doesn't move beyond the last table row.
 
 
-For additional information about the rich edit control's support for tables, see <a href="https://blogs.msdn.com/b/murrays/archive/2008/09/15/richedit-s-nested-table-facility.aspx">RichEdit's Nested Table Facility</a>. 
-
-
-
+For additional information about the rich edit control's support for tables, see <a href="https://blogs.msdn.com/b/murrays/archive/2008/09/15/richedit-s-nested-table-facility.aspx">RichEdit's Nested Table Facility</a>.
 

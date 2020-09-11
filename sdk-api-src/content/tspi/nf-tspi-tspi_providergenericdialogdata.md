@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f48d1995-c775-4ae6-9af8-5f5f5c4f4ebe
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerGenericDialogData, TSPI_providerGenericDialogData function [TAPI 2.2], _tspi_tspi_providergenericdialogdata, tspi.tspi_providergenericdialogdata, tspi/TSPI_providerGenericDialogData
-f1_keywords:
-- tspi/TSPI_providerGenericDialogData
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_providerGenericDialogData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_providerGenericDialogData
+ - tspi/TSPI_providerGenericDialogData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_providerGenericDialogData
 ---
 
 # TSPI_providerGenericDialogData function
 
 
 ## -description
-
 
 The 
 <b>TSPI_providerGenericDialogData</b> function delivers to the service provider data that was sent from the UI DLL running in an application context through the 
@@ -57,16 +57,11 @@ The
 Implementation is mandatory if the UI DLL associated with the service provider calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwObjectID
 
 An object identifier of the type specified by <i>dwObjectType</i>.
-
 
 ### -param dwObjectType
 
@@ -100,39 +95,25 @@ One of the
 <i>dwObjectID</i> is an HDRVDIALOGINSTANCE, as returned to the service provider when it sent a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a> message.
 
-
 ### -param lpParams
 
 Pointer to a memory area used to hold a parameter block. The contents of this parameter block are specific to the service provider and its associated UI DLL.
-
 
 ### -param dwSize
 
 The size in bytes of the parameter block. If the <i>lpParams</i> parameter is a pointer to a string, the size must include the <b>null</b> terminator.
 
-
 ## -returns
-
-
 
 Returns zero if successful, or one of these negative error values:
 
 LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>
- 
-
- 
 

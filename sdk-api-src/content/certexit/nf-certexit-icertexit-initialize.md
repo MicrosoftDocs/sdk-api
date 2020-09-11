@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.date: 12/05/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
-f1_keywords:
-- certexit/ICertExit2.Initialize
-dev_langs:
-- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certexit.h
-api_name:
-- ICertExit2.Initialize
-- ICertExit.Initialize
-- CCertExit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertExit::Initialize
+ - certexit/ICertExit::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certexit.h
+api_name:
+ - ICertExit2.Initialize
+ - ICertExit.Initialize
+ - CCertExit.Initialize
 ---
 
 # ICertExit::Initialize
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method is called by the server engine when it initializes itself.
 
  The call to the exit module's <b>Initialize</b> method allows the exit module to perform initialization and inform the server engine which kinds of events it would like to be notified of.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
 Represents the name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>.
-
 
 ### -param pEventMask [out, retval]
 
@@ -149,12 +144,8 @@ Certificate Services shutdown.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and *<i>pEventMask</i> is set to a combination of the flags in the table below (or EXITEVENT_INVALID if the exit module does not want to be notified of any events).
@@ -270,14 +261,8 @@ Certificate Services shutdown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you write a custom exit module, implement this method.
 
@@ -326,14 +311,7 @@ STDMETHODIMP CCertExit::Initialize(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a>
 
@@ -344,7 +322,4 @@ STDMETHODIMP CCertExit::Initialize(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>
- 
-
- 
 

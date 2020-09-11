@@ -28,6 +28,7 @@ api_location:
 api_name:
  - ID3D12VideoMotionVectorHeap
 f1_keywords:
+ - ID3D12VideoMotionVectorHeap
  - d3d12video/ID3D12VideoMotionVectorHeap
 dev_langs:
  - c++

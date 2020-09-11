@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
-f1_keywords:
-- shobjidl/IAccessibilityDockingService.UndockWindow
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl.h
-api_name:
-- IAccessibilityDockingService.UndockWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibilityDockingService::UndockWindow
+ - shobjidl/IAccessibilityDockingService::UndockWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl.h
+api_name:
+ - IAccessibilityDockingService.UndockWindow
 ---
 
 # IAccessibilityDockingService::UndockWindow
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Undocks the specified window handle if it is currently docked.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 TBD
 
-
-
-
 ### -param hWnd [in]
 
 Specifies the window that will be undocked.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -115,14 +105,8 @@ The window is not docked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can only be used to undock windows that belong to the calling process.
 
@@ -147,17 +131,7 @@ class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallb
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice">IAccessibilityDockingService</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5139d31b-65f1-41ba-852a-91eab1dc366e
 ms.date: 12/05/2018
 ms.keywords: QueryServiceLockStatus, QueryServiceLockStatus function, QueryServiceLockStatusA, QueryServiceLockStatusW, _win32_queryservicelockstatus, base.queryservicelockstatus, winsvc/QueryServiceLockStatus, winsvc/QueryServiceLockStatusA, winsvc/QueryServiceLockStatusW
-f1_keywords:
-- winsvc/QueryServiceLockStatus
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- QueryServiceLockStatus
-- QueryServiceLockStatusA
-- QueryServiceLockStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryServiceLockStatusW
+ - winsvc/QueryServiceLockStatusW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - QueryServiceLockStatus
+ - QueryServiceLockStatusA
+ - QueryServiceLockStatusW
 ---
 
 # QueryServiceLockStatusW function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function has  no effect as of Windows Vista.]
 
 Retrieves the lock status of the specified service control manager database.
 
-
 ## -parameters
-
-
-
 
 ### -param hSCManager [in]
 
@@ -68,26 +64,20 @@ A handle to the service control manager database. The
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function returns this handle, which must have the SC_MANAGER_QUERY_LOCK_STATUS access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ### -param lpLockStatus [out, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-query_service_lock_statusa">QUERY_SERVICE_LOCK_STATUS</a> structure that receives the lock status of the specified database is returned, plus the strings to which its members point.
 
-
 ### -param cbBufSize [in]
 
 The size of the buffer pointed to by the <i>lpLockStatus</i> parameter, in bytes.
-
 
 ### -param pcbBytesNeeded [out]
 
 A pointer to a variable that receives the number of bytes needed to return all the lock status information, if the function fails.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -135,14 +125,8 @@ The specified handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>QueryServiceLockStatus</b> function returns a 
@@ -160,9 +144,6 @@ A process calls the
 > The winsvc.h header defines QueryServiceLockStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a>
 
@@ -185,7 +166,4 @@ A process calls the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-unlockservicedatabase">UnlockServiceDatabase</a>
- 
-
- 
 

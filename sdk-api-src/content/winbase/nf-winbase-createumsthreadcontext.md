@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: b27ce81a-8463-46af-8acf-2de091f625df
 ms.date: 12/05/2018
 ms.keywords: CreateUmsThreadContext, CreateUmsThreadContext function, base.createumsthreadcontext, winbase/CreateUmsThreadContext
-f1_keywords:
-- winbase/CreateUmsThreadContext
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-ums-l1-1-0.dll
-api_name:
-- CreateUmsThreadContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateUmsThreadContext
+ - winbase/CreateUmsThreadContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-ums-l1-1-0.dll
+api_name:
+ - CreateUmsThreadContext
 ---
 
 # CreateUmsThreadContext function
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a user-mode scheduling (UMS) thread context to represent a UMS worker thread.
 
-
 ## -parameters
-
-
-
 
 ### -param lpUmsThread [out]
 
 A PUMS_CONTEXT variable. On output, this parameter receives a pointer to a UMS thread context.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a nonzero value.
 
@@ -89,14 +82,8 @@ Not enough memory is available to create the UMS thread context.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A UMS thread context represents the state of a UMS worker thread. Thread contexts are used to specify UMS worker threads in function calls. 
 
@@ -104,15 +91,9 @@ A UMS worker thread is created by calling the <a href="https://docs.microsoft.co
 
 The underlying structures for a UMS thread context are managed by the system and should not be modified directly. To get and set information about a UMS worker thread, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a> functions.
 
-After a UMS worker thread terminates, its thread context should be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteumsthreadcontext">DeleteUmsThreadContext</a>. 
-
-
-
+After a UMS worker thread terminates, its thread context should be released by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deleteumsthreadcontext">DeleteUmsThreadContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createremotethreadex">CreateRemoteThreadEx</a>
 
@@ -135,7 +116,4 @@ After a UMS worker thread terminates, its thread context should be released by c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>
- 
-
- 
 

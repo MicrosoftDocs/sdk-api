@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: edbb87a7-1b99-46bd-8797-c806861ec73a
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_EXCEPTION, EXCEPTION_ACCESS_VIOLATION, EXCEPTION_ARRAY_BOUNDS_EXCEEDED, EXCEPTION_BREAKPOINT, EXCEPTION_DATATYPE_MISALIGNMENT, EXCEPTION_FLT_DENORMAL_OPERAND, EXCEPTION_FLT_DIVIDE_BY_ZERO, EXCEPTION_FLT_INEXACT_RESULT, EXCEPTION_FLT_INVALID_OPERATION, EXCEPTION_FLT_OVERFLOW, EXCEPTION_FLT_STACK_CHECK, EXCEPTION_FLT_UNDERFLOW, EXCEPTION_ILLEGAL_INSTRUCTION, EXCEPTION_INT_DIVIDE_BY_ZERO, EXCEPTION_INT_OVERFLOW, EXCEPTION_INVALID_DISPOSITION, EXCEPTION_IN_PAGE_ERROR, EXCEPTION_NONCONTINUABLE_EXCEPTION, EXCEPTION_PRIV_INSTRUCTION, EXCEPTION_SINGLE_STEP, EXCEPTION_STACK_OVERFLOW, MINIDUMP_EXCEPTION, MINIDUMP_EXCEPTION structure, PMINIDUMP_EXCEPTION, PMINIDUMP_EXCEPTION structure pointer, _MINIDUMP_EXCEPTION, _win32_minidump_exception_str, base.minidump_exception_str, minidumpapiset/MINIDUMP_EXCEPTION, minidumpapiset/PMINIDUMP_EXCEPTION'
-f1_keywords:
-- minidumpapiset/MINIDUMP_EXCEPTION
-dev_langs:
-- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minidumpapiset.h
-api_name:
-- MINIDUMP_EXCEPTION
 targetos: Windows
 req.typenames: MINIDUMP_EXCEPTION, *PMINIDUMP_EXCEPTION
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _MINIDUMP_EXCEPTION
+ - minidumpapiset/_MINIDUMP_EXCEPTION
+ - PMINIDUMP_EXCEPTION
+ - minidumpapiset/PMINIDUMP_EXCEPTION
+ - MINIDUMP_EXCEPTION
+ - minidumpapiset/MINIDUMP_EXCEPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minidumpapiset.h
+api_name:
+ - MINIDUMP_EXCEPTION
 ---
 
 # MINIDUMP_EXCEPTION structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains exception information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ExceptionCode
 
@@ -275,32 +275,26 @@ The thread used up its stack.
 
 Another exception code is likely to occur when debugging console processes. It does not arise because of a programming error. The DBG_CONTROL_C exception code occurs when CTRL+C is input to a console process that handles CTRL+C signals and is being debugged. This exception code is not meant to be handled by applications. It is raised only for the benefit of the debugger, and is raised only when a debugger is attached to the console process.
 
-
 ### -field ExceptionFlags
 
 This member can be either zero, indicating a continuable exception, or EXCEPTION_NONCONTINUABLE, indicating a noncontinuable exception. Any attempt to continue execution after a noncontinuable exception causes the EXCEPTION_NONCONTINUABLE_EXCEPTION exception.
-
 
 ### -field ExceptionRecord
 
 A pointer to an associated 
 <b>MINIDUMP_EXCEPTION</b> structure. Exception records can be chained together to provide additional information when nested exceptions occur.
 
-
 ### -field ExceptionAddress
 
 The address where the exception occurred.
-
 
 ### -field NumberParameters
 
 The number of parameters associated with the exception. This is the number of defined elements in the <b>ExceptionInformation</b> array.
 
-
 ### -field __unusedAlignment
 
 Reserved for cross-platform structure member alignment. Do not set.
-
 
 ### -field ExceptionInformation
 
@@ -330,20 +324,12 @@ The second array element specifies the virtual address of the inaccessible data.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_stream">MINIDUMP_EXCEPTION_STREAM</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-raiseexception">RaiseException</a>
- 
-
- 
 

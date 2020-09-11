@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1a1266dc-a223-48bd-be30-80c8b50c5b21
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_COMMAND_NONE, CLUSREG_CONDITION_EXISTS, CLUSREG_CONDITION_IS_EQUAL, CLUSREG_CONDITION_IS_GREATER_THAN, CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, CLUSREG_CONDITION_IS_LESS_THAN, CLUSREG_CONDITION_IS_NOT_EQUAL, CLUSREG_CONDITION_KEY_EXISTS, CLUSREG_CONDITION_NOT_EXISTS, CLUSREG_CONTROL_COMMAND, CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_LAST_COMMAND, CLUSREG_READ_ERROR, CLUSREG_READ_VALUE, CLUSREG_SET_KEY_SECURITY, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_REG_COMMAND, CLUSTER_REG_COMMAND enumeration [Failover Cluster], _CLUSTER_REG_COMMAND, _CLUSTER_REG_COMMAND enumeration [Failover Cluster], clusapi/CLUSREG_COMMAND_NONE, clusapi/CLUSREG_CONDITION_EXISTS, clusapi/CLUSREG_CONDITION_IS_EQUAL, clusapi/CLUSREG_CONDITION_IS_GREATER_THAN, clusapi/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, clusapi/CLUSREG_CONDITION_IS_LESS_THAN, clusapi/CLUSREG_CONDITION_IS_NOT_EQUAL, clusapi/CLUSREG_CONDITION_KEY_EXISTS, clusapi/CLUSREG_CONDITION_NOT_EXISTS, clusapi/CLUSREG_CONTROL_COMMAND, clusapi/CLUSREG_CREATE_KEY, clusapi/CLUSREG_DELETE_KEY, clusapi/CLUSREG_DELETE_VALUE, clusapi/CLUSREG_LAST_COMMAND, clusapi/CLUSREG_READ_ERROR, clusapi/CLUSREG_READ_VALUE, clusapi/CLUSREG_SET_KEY_SECURITY, clusapi/CLUSREG_SET_VALUE, clusapi/CLUSREG_VALUE_DELETED, clusapi/CLUSTER_REG_COMMAND, clusapi/_CLUSTER_REG_COMMAND, msclus/CLUSREG_COMMAND_NONE, msclus/CLUSREG_CONDITION_EXISTS, msclus/CLUSREG_CONDITION_IS_EQUAL, msclus/CLUSREG_CONDITION_IS_GREATER_THAN, msclus/CLUSREG_CONDITION_IS_KEY_NOT_EXISTS, msclus/CLUSREG_CONDITION_IS_LESS_THAN, msclus/CLUSREG_CONDITION_IS_NOT_EQUAL, msclus/CLUSREG_CONDITION_KEY_EXISTS, msclus/CLUSREG_CONDITION_NOT_EXISTS, msclus/CLUSREG_CONTROL_COMMAND, msclus/CLUSREG_CREATE_KEY, msclus/CLUSREG_DELETE_KEY, msclus/CLUSREG_DELETE_VALUE, msclus/CLUSREG_LAST_COMMAND, msclus/CLUSREG_READ_ERROR, msclus/CLUSREG_READ_VALUE, msclus/CLUSREG_SET_KEY_SECURITY, msclus/CLUSREG_SET_VALUE, msclus/CLUSREG_VALUE_DELETED, msclus/CLUSTER_REG_COMMAND, msclus/_CLUSTER_REG_COMMAND, mscs.cluster_reg_command
-f1_keywords:
-- clusapi/CLUSTER_REG_COMMAND
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_REG_COMMAND
 targetos: Windows
 req.typenames: CLUSTER_REG_COMMAND
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_REG_COMMAND
+ - clusapi/_CLUSTER_REG_COMMAND
+ - CLUSTER_REG_COMMAND
+ - clusapi/CLUSTER_REG_COMMAND
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_REG_COMMAND
 ---
 
 ## -description
@@ -166,3 +169,4 @@ The <b>CLUSREG_VALUE_DELETED</b> command precedes every <b>CLUSREG_SET_VALUE</b>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+

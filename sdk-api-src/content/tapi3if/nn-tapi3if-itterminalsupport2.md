@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 58611991-746c-4626-a1b1-535a2134ee27
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport2, ITTerminalSupport2 interface [TAPI 2.2], ITTerminalSupport2 interface [TAPI 2.2],described, _tapi3_itterminalsupport2, tapi3.itterminalsupport2, tapi3if/ITTerminalSupport2
-f1_keywords:
-- tapi3if/ITTerminalSupport2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITTerminalSupport2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTerminalSupport2
+ - tapi3if/ITTerminalSupport2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITTerminalSupport2
 ---
 
 # ITTerminalSupport2 interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITTerminalSupport2</b> interface is derived from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a> interface. 
 <b>ITTerminalSupport2</b> supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.
-
 
 ## -inheritance
 
@@ -111,13 +110,9 @@ Gets a collection of
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -140,7 +135,4 @@ Gets a collection of
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport">ITTerminalSupport</a>
- 
-
- 
 

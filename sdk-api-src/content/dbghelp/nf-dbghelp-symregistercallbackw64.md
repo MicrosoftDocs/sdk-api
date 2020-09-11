@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 91d123cd-f68f-4120-b98d-7e3f94b7b1ec
 ms.date: 12/05/2018
 ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallback64, SymRegisterCallback64 function, SymRegisterCallbackW64, _win32_symregistercallback64, base.symregistercallback64, dbghelp/SymRegisterCallback, dbghelp/SymRegisterCallback64, dbghelp/SymRegisterCallbackW64
-f1_keywords:
-- dbghelp/SymRegisterCallback64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymRegisterCallback64
-- SymRegisterCallback64
-- SymRegisterCallbackW64
-- SymRegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymRegisterCallbackW64
+ - dbghelp/SymRegisterCallbackW64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymRegisterCallback64
+ - SymRegisterCallback64
+ - SymRegisterCallbackW64
+ - SymRegisterCallback
 ---
 
 # SymRegisterCallbackW64 function
@@ -52,46 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a callback function for use by the symbol handler.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param CallbackFunction [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function.
-
 
 ### -param UserContext [in]
 
 A user-defined value or <b>NULL</b>. This value is simply passed to the callback function. Normally, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SymRegisterCallback64</b> function lets an application register a callback function for use by the symbol handler. The symbol handler calls the registered callback function when there is status or progress information for the application.
@@ -137,13 +123,7 @@ SymRegisterCallback(
 
 For a more extensive example, read <a href="https://docs.microsoft.com/windows/desktop/Debug/getting-notifications">Getting Notifications</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -158,7 +138,4 @@ For a more extensive example, read <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
- 
-
- 
 

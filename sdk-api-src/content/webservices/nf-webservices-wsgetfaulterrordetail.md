@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
 ms.date: 12/05/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
-f1_keywords:
-- webservices/WsGetFaultErrorDetail
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsGetFaultErrorDetail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsGetFaultErrorDetail
+ - webservices/WsGetFaultErrorDetail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsGetFaultErrorDetail
 ---
 
 # WsGetFaultErrorDetail function
@@ -49,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Read the fault detail stored in a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param error [in]
 
 The error object that contains the fault information.
-                
-
 
 ### -param faultDetailDescription [in]
 
@@ -81,37 +74,25 @@ The action value of the fault detail description is used as a filter
 
 The element description of the fault detail description is used to
                     describe the format of the element in the fault detail.
-                
-
 
 ### -param readOption [in]
 
 Whether the element is required, and how to allocate the value.
                     See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
-                
-
 
 ### -param heap [in, optional]
 
 The heap to store the deserialized values in.
-                
-
 
 ### -param value
 
 The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
-                
-
 
 ### -param valueSize [in]
 
 The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -166,14 +147,8 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This API deserializes the value from the detail field of
                 the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> stored in the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
@@ -207,5 +182,4 @@ Since different faults with different detail formats may be expected
 
 </li>
 </ul>
-
 

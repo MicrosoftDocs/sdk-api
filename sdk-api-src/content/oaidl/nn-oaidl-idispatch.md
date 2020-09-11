@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: ebbff4bc-36b2-4861-9efa-ffa45e013eb5
 ms.date: 12/05/2018
 ms.keywords: IDispatch, IDispatch interface [Automation], IDispatch interface [Automation],described, _oa96_IDispatch_Interface, automat.idispatch, oaidl/IDispatch
-f1_keywords:
-- oaidl/IDispatch
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispatch
+ - oaidl/IDispatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IDispatch
 ---
 
 # IDispatch interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes objects, methods and properties to programming tools and other applications that support Automation. COM components implement the <b>IDispatch</b> interface to enable access by Automation clients, such as Visual Basic. 
-
+Exposes objects, methods and properties to programming tools and other applications that support Automation. COM components implement the <b>IDispatch</b> interface to enable access by Automation clients, such as Visual Basic.
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Provides access to properties and methods exposed by an object.
 
 </td>
 </tr>
-</table> 
+</table>
 

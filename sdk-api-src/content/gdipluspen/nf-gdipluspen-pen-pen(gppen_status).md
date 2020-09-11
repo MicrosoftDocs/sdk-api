@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(GpPen,Status), Pen::Pen, Pen::Pen(GpPen,Status), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
-f1_keywords:
-- gdipluspen/Pen.Pen
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdipluspen.h
-api_name:
-- Pen.Pen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Pen::Pen
+ - gdipluspen/Pen::Pen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdipluspen.h
+api_name:
+ - Pen.Pen
 ---
 
 # Pen::Pen(GpPen,Status)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> class. For a complete class listing, see <b>Pen Class</b>. 

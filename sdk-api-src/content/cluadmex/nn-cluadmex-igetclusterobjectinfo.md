@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: a88ba05c-b64b-4d6d-b005-f2f867093355
 ms.date: 12/05/2018
 ms.keywords: IGetClusterObjectInfo, IGetClusterObjectInfo interface [Failover Cluster], IGetClusterObjectInfo interface [Failover Cluster],described, _wolf_igetclusterobjectinfo, cluadmex/IGetClusterObjectInfo, mscs.igetclusterobjectinfo
-f1_keywords:
-- cluadmex/IGetClusterObjectInfo
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IGetClusterObjectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetClusterObjectInfo
+ - cluadmex/IGetClusterObjectInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IGetClusterObjectInfo
 ---
 
 # IGetClusterObjectInfo interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
@@ -57,7 +57,6 @@ The <b>IGetClusterObjectInfo</b> interface is
     called by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> 
     extension to retrieve information about a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>.
-
 
 ## -inheritance
 
@@ -88,12 +87,9 @@ Returns the name of a cluster object.</p> (Inherited from <b>IGetClusterObjectIn
 <td align="left" width="63%">
 Returns the type of a cluster object.</p> (Inherited from <b>IGetClusterObjectInfo</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You can use the <b>IGetClusterObjectInfo</b> interface 
      when Failover Cluster Administrator calls your implementations of the following methods:
@@ -128,13 +124,7 @@ Do not obtain other information interfaces, such as
      and the result is an interface that represents no real cluster object. For an illustration, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterresourceinfo">IGetClusterResourceInfo</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-information-interfaces">Failover Cluster Administrator Information Interfaces</a>
 
@@ -157,7 +147,4 @@ Do not obtain other information interfaces, such as
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
- 
-
- 
 

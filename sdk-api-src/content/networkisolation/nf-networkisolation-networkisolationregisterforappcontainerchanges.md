@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 2affb2a8-224c-4d2d-86e2-f194d3990dbe
 ms.date: 12/05/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, NetworkIsolationRegisterForAppContainerChanges, NetworkIsolationRegisterForAppContainerChanges function [ICS/ICF], ics.networkisolationregisterforappcontainerchanges, networkisolation/NetworkIsolationRegisterForAppContainerChanges
-f1_keywords:
-- networkisolation/NetworkIsolationRegisterForAppContainerChanges
-dev_langs:
-- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: Firewallapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- firewallapi.dll
-- API-MS-Win-Net-Isolation-l1-1-0.dll
-- API-MS-Win-Net-Isolation-l1-1-1.dll
-- wfapihost.dll
-api_name:
-- NetworkIsolationRegisterForAppContainerChanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetworkIsolationRegisterForAppContainerChanges
+ - networkisolation/NetworkIsolationRegisterForAppContainerChanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - firewallapi.dll
+ - API-MS-Win-Net-Isolation-l1-1-0.dll
+ - API-MS-Win-Net-Isolation-l1-1-1.dll
+ - wfapihost.dll
+api_name:
+ - NetworkIsolationRegisterForAppContainerChanges
 ---
 
 # NetworkIsolationRegisterForAppContainerChanges function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NetworkIsolationRegisterForAppContainerChanges</b> function is used to register for the delivery of notifications regarding changes to an app container.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -117,8 +113,6 @@ Maximum value for testing purposes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param callback [in]
 
@@ -126,13 +120,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolatio
 
 Function pointer that will be invoked when a notification is ready for delivery.
 
-
 ### -param context [in, optional]
 
 Type: <b>PVOID</b>
 
-Optional context pointer. This pointer is passed to the <i>callback</i> function along with details of the change. 
-
+Optional context pointer. This pointer is passed to the <i>callback</i> function along with details of the change.
 
 ### -param registrationObject [out]
 
@@ -140,29 +132,17 @@ Type: <b>HANDLE*</b>
 
 Handle to the newly created registration.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
-Returns ERROR_SUCCESS if successful, or an error value otherwise. 
-
-
-
+Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationunregisterforappcontainerchanges">NetworkIsolationUnregisterForAppContainerChanges</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn">PAC_CHANGES_CALLBACK_FN</a>
- 
-
- 
 

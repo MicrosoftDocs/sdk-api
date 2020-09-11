@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\iurlaccessor4.htm
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], IUrlAccessor4 interface [search],described, _search_IUrlAccessor4, search._search_IUrlAccessor4, searchapi/IUrlAccessor4
-f1_keywords:
-- searchapi/IUrlAccessor4
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IUrlAccessor4
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IUrlAccessor4
+ - searchapi/IUrlAccessor4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IUrlAccessor4
 ---
 
 # IUrlAccessor4 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a> interface with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">IUrlAccessor4::ShouldIndexItemContent</a> method that identifies whether the content of the item should be indexed. 
-
+Extends the functionality of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a> interface with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent">IUrlAccessor4::ShouldIndexItemContent</a> method that identifies whether the content of the item should be indexed.
 
 ## -inheritance
 
@@ -126,13 +125,9 @@ Identifies whether a property should be indexed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -155,7 +150,4 @@ Identifies whether a property should be indexed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
- 
-
- 
 

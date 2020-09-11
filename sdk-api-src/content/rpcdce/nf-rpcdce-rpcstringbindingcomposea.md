@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
-f1_keywords:
-- rpcdce/RpcStringBindingCompose
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcStringBindingCompose
-- RpcStringBindingComposeA
-- RpcStringBindingComposeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcStringBindingComposeA
+ - rpcdce/RpcStringBindingComposeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcStringBindingCompose
+ - RpcStringBindingComposeA
+ - RpcStringBindingComposeW
 ---
 
 # RpcStringBindingComposeA function
@@ -51,41 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcStringBindingCompose</b> function creates a string binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param ObjUuid
 
 Pointer to a <b>null</b>-terminated string representation of an object 
 <a href="https://msdn.microsoft.com/">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
 
-
 ### -param ProtSeq
 
 Pointer to a <b>null</b>-terminated string representation of a protocol sequence. See Note.
-
 
 ### -param NetworkAddr
 
 Pointer to a <b>null</b>-terminated string representation of a network address. The network-address format is associated with the protocol sequence. See Note.
 
-
 ### -param Endpoint
 
 Pointer to a <b>null</b>-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <b>ncacn_np</b> is a pipe name in the format \pipe\pipename. See Note.
 
-
 ### -param Options
 
 Pointer to a <b>null</b>-terminated string representation of network options. The option string is associated with the protocol sequence. See Note.
-
 
 ### -param StringBinding
 
@@ -103,8 +94,6 @@ Specify a <b>NULL</b> value to prevent
 <div> </div>
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -140,11 +129,7 @@ The string representation of the UUID is not valid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls 
 <b>RpcStringBindingCompose</b> routine to combine an object UUID, a protocol sequence, a network address, an endpoint and other network options into a string representation of a binding handle.
@@ -165,9 +150,6 @@ Literal backslash characters within C-language strings must be quoted. The actua
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
@@ -181,7 +163,4 @@ Literal backslash characters within C-language strings must be quoted. The actua
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
- 
-
- 
 

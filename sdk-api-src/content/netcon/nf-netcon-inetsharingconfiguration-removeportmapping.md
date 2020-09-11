@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 2790aced-a3a9-425d-9e0f-fe8df4fcb934
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],RemovePortMapping method, INetSharingConfiguration.RemovePortMapping, INetSharingConfiguration::RemovePortMapping, RemovePortMapping, RemovePortMapping method [ICS/ICF], RemovePortMapping method [ICS/ICF],INetSharingConfiguration interface, _ics_inetsharingconfiguration_removeportmapping, ics.inetsharingconfiguration_removeportmapping, netcon/INetSharingConfiguration::RemovePortMapping
-f1_keywords:
-- netcon/INetSharingConfiguration.RemovePortMapping
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingConfiguration.RemovePortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingConfiguration::RemovePortMapping
+ - netcon/INetSharingConfiguration::RemovePortMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingConfiguration.RemovePortMapping
 ---
 
 # INetSharingConfiguration::RemovePortMapping
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>RemovePortMapping</b> method removes a service port mapping from the list of mappings for this connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pMapping [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmapping">INetSharingPortMapping</a> interface for the port mapping to remove.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -169,14 +162,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method also removes the name of this port mapping from the list of mappings in the ICS/ICF user interface.
 
@@ -184,13 +171,7 @@ Use the
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a particular connection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a>
 
@@ -209,7 +190,4 @@ Use the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

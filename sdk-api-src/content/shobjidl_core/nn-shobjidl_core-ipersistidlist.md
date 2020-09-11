@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81
 ms.date: 12/05/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
-f1_keywords:
-- shobjidl_core/IPersistIDList
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IPersistIDList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistIDList
+ - shobjidl_core/IPersistIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IPersistIDList
 ---
 
 # IPersistIDList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that are used to persist item identifier lists.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Sets a persisted item identifier list.
 
 </td>
 </tr>
-</table> 
+</table>
 

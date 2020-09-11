@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
 ms.date: 12/05/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
-f1_keywords:
-- bits/IBackgroundCopyFile.GetLocalName
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyFile.GetLocalName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile::GetLocalName
+ - bits/IBackgroundCopyFile::GetLocalName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyFile.GetLocalName
 ---
 
 # IBackgroundCopyFile::GetLocalName
@@ -49,33 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the local name of the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Null-terminated string that contains the name of the file on the client. The name is fully qualified. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppName</i> when done.
 
-
 ## -returns
-
-
 
 This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT</b> values on error.
 
-
-
-
 ## -remarks
-
-
 
 The local file name is set when you call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a> or 
@@ -123,14 +111,7 @@ if (pszRemoteFileName)
   CoTaskMemFree(pszRemoteFileName);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
@@ -145,7 +126,4 @@ if (pszRemoteFileName)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
- 
-
- 
 

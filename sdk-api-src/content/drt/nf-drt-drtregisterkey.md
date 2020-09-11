@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
 ms.date: 12/05/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
-f1_keywords:
-- drt/DrtRegisterKey
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtRegisterKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtRegisterKey
+ - drt/DrtRegisterKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtRegisterKey
 ---
 
 # DrtRegisterKey function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrtRegisterKey</b> function registers a key in the DRT. 
-
+The <b>DrtRegisterKey</b> function registers a key in the DRT.
 
 ## -parameters
-
-
-
 
 ### -param hDrt [in]
 
 A pointer to a handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> function.
 
-
 ### -param pRegistration [in]
 
 A pointer to a handle to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a> structure.
-
 
 ### -param pvKeyContext [in, optional]
 
 Pointer to the context data associated with the key in the DRT. This data is passed to the key-specific functions of the security provider.
 
-
 ### -param phKeyRegistration [out]
 
 Pointer to a handle for a key that has been registered.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -290,23 +280,13 @@ An unexpected fatal error has occurred.
 <div class="alert"><b>Note</b>  <b>DrtRegisterKey</b> may also surface errors from underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore">CertAddCertificateContextToStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcontextaddref">CryptContextAddRef</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore">CertSaveStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2">CryptImportPublicKeyInfoEx2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatesinstore">CertEnumCertificatesInStore</a>, <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a>, <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgenrandom">BCryptGenRandom</a>, <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratesymmetrickey">BCryptGenerateSymmetricKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
  A node can register keys while in the <b>DRT_ACTIVE</b>, <b>DRT_ALONE</b>, or <b>DRT_NO_NETWORK</b> state.   However, keys registered in <b>DRT_ALONE</b> and <b>DRT_NO_NETWORK</b> states can only be recognized by other DRTs after the local node has transitioned to <b>DRT_ACTIVE</b>.
 
  To update an existing key, an application must first deregister the key with <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtunregisterkey">DrtUnregisterKey</a> before calling <b>DrtRegisterKey</b> to register the updated key.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a>
 
@@ -317,7 +297,4 @@ An unexpected fatal error has occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtunregisterkey">DrtUnregisterKey</a>
- 
-
- 
 

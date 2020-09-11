@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 67fc3b59-ad82-47a4-9fc6-2d980b9e26fe
 ms.date: 12/05/2018
 ms.keywords: ContainsChangeUnit, ContainsChangeUnit method [Windows Sync], ContainsChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChangeUnit method, ISyncKnowledge.ContainsChangeUnit, ISyncKnowledge::ContainsChangeUnit, winsync.isyncknowledge_containschangeunit, winsync/ISyncKnowledge::ContainsChangeUnit
-f1_keywords:
-- winsync/ISyncKnowledge.ContainsChangeUnit
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.ContainsChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::ContainsChangeUnit
+ - winsync/ISyncKnowledge::ContainsChangeUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.ContainsChangeUnit
 ---
 
 # ISyncKnowledge::ContainsChangeUnit
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the specified change unit change is known by this knowledge.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVersionOwnerReplicaId [in]
 
 The ID of the replica that originated the change unit change.
 
-
 ### -param pbItemId [in]
 
 The ID of the item that contains the change unit to look up.
-
 
 ### -param pbChangeUnitId [in]
 
  The ID of the change unit to look up.
 
-
 ### -param pSyncVersion [in]
 
 The version of the change unit change to look up.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,22 +110,12 @@ The specified change unit change is not contained in the knowledge.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
- 
-
- 
 

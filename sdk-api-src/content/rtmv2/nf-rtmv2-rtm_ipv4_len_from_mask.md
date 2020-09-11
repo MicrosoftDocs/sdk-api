@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: fdbc2030-3917-4920-848e-76b5d1dfcfef
 ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_LEN_FROM_MASK, RTM_IPV4_LEN_FROM_MASK macro [RAS], _rtmv2ref_rtm_ipv4_len_from_mask, rras.rtm_ipv4_len_from_mask, rtmv2/RTM_IPV4_LEN_FROM_MASK
-f1_keywords:
-- rtmv2/RTM_IPV4_LEN_FROM_MASK
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rtmv2.h
-api_name:
-- RTM_IPV4_LEN_FROM_MASK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RTM_IPV4_LEN_FROM_MASK
+ - rtmv2/RTM_IPV4_LEN_FROM_MASK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rtmv2.h
+api_name:
+ - RTM_IPV4_LEN_FROM_MASK
 ---
 
 # RTM_IPV4_LEN_FROM_MASK macro
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RTM_IPV4_LEN_FROM_MASK</b> macro converts an IPv4 mask to a generic route length.
 
-
 ## -parameters
-
-
-
 
 ### -param Len
 
 Receives the converted length
 
-
 ### -param Mask
 
 Specifies the mask to convert.
 
-
 ## -remarks
-
-
 
 For example, if a client supplies the <i>Mask</i> 255.255.255.255, the <i>Len</i> 24 is returned.
 
@@ -102,14 +94,7 @@ The macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtm_ipv4_get_addr_and_len">RTM_IPV4_GET_ADDR_AND_LEN</a>
 
@@ -136,7 +121,4 @@ The macro is defined as follows:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
- 
-
- 
 

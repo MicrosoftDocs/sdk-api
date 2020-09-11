@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollinfo.htm
 ms.date: 12/05/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SetScrollInfo, SetScrollInfo function [Windows Controls], _win32_SetScrollInfo, _win32_SetScrollInfo_cpp, controls.SetScrollInfo, controls._win32_SetScrollInfo, winuser/SetScrollInfo
-f1_keywords:
-- winuser/SetScrollInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- SetScrollInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetScrollInfo
+ - winuser/SetScrollInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - SetScrollInfo
 ---
 
 # SetScrollInfo function
@@ -55,22 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetScrollInfo</b> function sets the parameters of a scroll bar, including the minimum and maximum scrolling positions, the page size, and the position of the scroll box (thumb). The function also redraws the scroll bar, if requested.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the 
-					<i>fnBar</i> parameter. 
-
+					<i>fnBar</i> parameter.
 
 ### -param nBar [in]
 
@@ -115,8 +110,6 @@ Sets the parameters of the window's standard vertical scroll bar.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpsi [in]
 
@@ -182,30 +175,20 @@ Sets the scroll range to the value specified in the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param redraw [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Specifies whether the scroll bar is redrawn to reflect the changes to the scroll bar. If this parameter is <b>TRUE</b>, the scroll bar is redrawn, otherwise, it is not redrawn. 
-
+Specifies whether the scroll bar is redrawn to reflect the changes to the scroll bar. If this parameter is <b>TRUE</b>, the scroll bar is redrawn, otherwise, it is not redrawn.
 
 ## -returns
 
-
-
 Type: <b>int</b>
 
-The return value is the current position of the scroll box. 
-
-
-
+The return value is the current position of the scroll box.
 
 ## -remarks
-
-
 
 The <b>SetScrollInfo</b> function performs range checking on the values specified by the 
 				<b>nPage</b> and 
@@ -223,13 +206,7 @@ If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd<
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-scroll-bars">Scrolling Text with the WM_PAINT Message</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
@@ -240,7 +217,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-scrollinfo">SCROLLINFO</a>
- 
-
- 
 

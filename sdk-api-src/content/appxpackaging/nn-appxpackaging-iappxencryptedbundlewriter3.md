@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 20394DB5-F8E3-43E0-B222-BC14E9D6C1CB
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter3, IAppxEncryptedBundleWriter3 interface [App packaging and management], IAppxEncryptedBundleWriter3 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter3, appxpkg.iappxencryptedbundlewriter3
-f1_keywords:
-- appxpackaging/IAppxEncryptedBundleWriter3
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptedBundleWriter3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptedBundleWriter3
+ - appxpackaging/IAppxEncryptedBundleWriter3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptedBundleWriter3
 ---
 
 # IAppxEncryptedBundleWriter3 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for encrypted bundle packages.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Encrypts a new payload package to the bundle.
 
 </td>
 </tr>
-</table> 
+</table>
 

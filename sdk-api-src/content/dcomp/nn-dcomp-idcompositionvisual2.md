@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: D4D04A43-BF00-482A-9CDD-A476BD1CB953
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2, IDCompositionVisual2 interface [DirectComposition], IDCompositionVisual2 interface [DirectComposition],described, dcomp/IDCompositionVisual2, directcomp.idcompositionvisual2
-f1_keywords:
-- dcomp/IDCompositionVisual2
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionVisual2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionVisual2
+ - dcomp/IDCompositionVisual2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionVisual2
 ---
 
 # IDCompositionVisual2 interface
+
 
 ## -description
 
@@ -83,7 +85,7 @@ Sets the opacity mode for this visual.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
@@ -92,3 +94,4 @@ Sets the opacity mode for this visual.
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createvisual">IDCompositionDevice2::CreateVisual</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
+

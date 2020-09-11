@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog
-f1_keywords:
-- pdh/PdhUpdateLogFileCatalog
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhUpdateLogFileCatalog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhUpdateLogFileCatalog
+ - pdh/PdhUpdateLogFileCatalog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhUpdateLogFileCatalog
 ---
 
 # PdhUpdateLogFileCatalog function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Synchronizes the information in the log file catalog with the performance data in the log file.
 		
 <div class="alert"><b>Note</b>  This function is obsolete.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hLog [in]
 
 Handle to the log file containing the file catalog to update. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -115,14 +109,8 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The log file catalog serves as an index to the performance data records in the log file, providing for faster searches for individual records in the file.
 
@@ -130,20 +118,11 @@ Catalogs should be updated when the data collection process is complete and the 
 
 Perfmon, CSV, and TSV log files do not have catalogs. Specifying a handle to these log file types will result in a return value of PDH_NOT_IMPLEMENTED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a>
- 
-
- 
 

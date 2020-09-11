@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
-f1_keywords:
-- iphlpapi/GetIpStatisticsEx
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpStatisticsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpStatisticsEx
+ - iphlpapi/GetIpStatisticsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpStatisticsEx
 ---
 
 # GetIpStatisticsEx function
@@ -49,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpStatisticsEx</b> function retrieves the Internet Protocol (IP) statistics for the current computer. The 
 <b>GetIpStatisticsEx</b> function differs from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function in that 
 <b>GetIpStatisticsEx</b> also supports the Internet Protocol version 6 (IPv6) protocol family.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.
-
 
 ### -param Family [in]
 
@@ -100,12 +95,8 @@ Internet Protocol version 6 (IPv6).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -151,27 +142,15 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpStatisticsEx</b> can be used to obtain the IP statistics for either IPv4 or IPv6 on the local computer. 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function returns the statistics for only IPv4 on the local computer.     
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function returns the statistics for only IPv4 on the local computer.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a>
 
@@ -194,7 +173,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a>
- 
-
- 
 

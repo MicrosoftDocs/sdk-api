@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 4c14143b-3b5f-401d-9df7-f17374abcd99
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], IDirectManipulationViewport interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport, directmanipulation/IDirectManipulationViewport
-f1_keywords:
-- directmanipulation/IDirectManipulationViewport
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationViewport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationViewport
+ - directmanipulation/IDirectManipulationViewport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationViewport
 ---
 
 # IDirectManipulationViewport interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines a region within a window (referred to as a viewport) that is able to receive and process input from user interactions.  The viewport contains content that moves in response to a user interaction. 
-
+Defines a region within a window (referred to as a viewport) that is able to receive and process input from user interactions.  The viewport contains content that moves in response to a user interaction.
 
 ## -inheritance
 
@@ -322,16 +321,9 @@ Moves the viewport to a specific area of the primary content and specifies wheth
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
- 
-
- 
 

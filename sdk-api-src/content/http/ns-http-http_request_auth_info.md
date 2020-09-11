@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 07008290-5277-4ef4-ae55-d335fdb2ba90
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO structure [HTTP], HTTP_REQUEST_AUTH_FLAG_TOKEN_FOR_CACHED_CRED, HTTP_REQUEST_AUTH_INFO, HTTP_REQUEST_AUTH_INFO structure [HTTP], http.http_request_auth_info, http/*PHTTP_REQUEST_AUTH_INFO, http/HTTP_REQUEST_AUTH_INFO'
-f1_keywords:
-- http/HTTP_REQUEST_AUTH_INFO
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_REQUEST_AUTH_INFO
 targetos: Windows
 req.typenames: HTTP_REQUEST_AUTH_INFO, *PHTTP_REQUEST_AUTH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_REQUEST_AUTH_INFO
+ - http/_HTTP_REQUEST_AUTH_INFO
+ - PHTTP_REQUEST_AUTH_INFO
+ - http/PHTTP_REQUEST_AUTH_INFO
+ - HTTP_REQUEST_AUTH_INFO
+ - http/HTTP_REQUEST_AUTH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_REQUEST_AUTH_INFO
 ---
 
 # HTTP_REQUEST_AUTH_INFO structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HTTP_REQUEST_AUTH_INFO</b> structure contains the authentication status of the request with a handle to the  client token that the receiving process can use to impersonate the authenticated client.
 
 This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AuthStatus
 
@@ -66,11 +66,9 @@ A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-
 
 If the authentication status is not <b>HttpAuthStatusSuccess</b>, applications should disregard members of this structure except <b>AuthStatus</b>, <b>SecStatus</b>, and <b>AuthType</b>.
 
-
 ### -field SecStatus
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">SECURITY_STATUS</a> value that indicates the security failure status when the <b>AuthStatus</b> member   is <b>HttpAuthStatusFailure</b>.
-
 
 ### -field Flags
 
@@ -92,13 +90,10 @@ The provided token is for  NTLM and is based on a cached credential of a Keep Al
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthType
 
 A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_request_auth_type">HTTP_REQUEST_AUTH_TYPE</a> enumeration that indicates the authentication scheme attempted or established  for the request.
-
 
 ### -field AccessToken
 
@@ -106,21 +101,17 @@ A  handle to the client token that the receiving process can use to impersonate 
 
 The handle to the token should be closed by calling <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> when it is no longer required. This token is valid only for the lifetime of the request. Applications can regenerate the initial 401 challenge to reauthenticate when the token expires.
 
-
 ### -field ContextAttributes
 
 The client context attributes for the access token.
-
 
 ### -field PackedContextLength
 
 The length, in bytes, of the <b>PackedContext</b>.
 
-
 ### -field PackedContextType
 
 The type of context in the <b>PackedContext</b> member.
-
 
 ### -field PackedContext
 
@@ -130,32 +121,19 @@ Applications can query the attributes of the packed context by calling the SSPI 
 
 Application should call the SSPI <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> API to free the serialized context when it is no longer required.
 
-
 ### -field MutualAuthDataLength
 
 The length, in bytes, of the <b>pMutualAuthData</b> member.
-
 
 ### -field pMutualAuthData
 
 The Base64 encoded mutual authentication data used in  the WWW-Authenticate header.
 
-
 ### -field PackageNameLength
-
- 
-
 
 ### -field pPackageName
 
- 
-
-
-
-
 ## -remarks
-
-
 
 Starting with HTTP version 2.0, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure  contains an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure. The <b>pVoid</b> member of the <b>HTTP_REQUEST_INFO</b> structure points to the <b>HTTP_REQUEST_AUTH_INFO</b> when the request information type is <b>HttpRequestInfoTypeAuth</b>.
 
@@ -175,13 +153,7 @@ However, applications can receive the mutual authentication data and send it wit
 
 The mutual authentication data provided in the <b>pMutualAuthData</b> member contains the exact value of WWW-Authenticate header without the header name. For example, <b>pMutualAuthData</b> points to "Negotiate ade02938481eca". The application builds the WWW-Authenticate header by appending the provided <b>pMutualAuthData</b> as a response header value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
@@ -192,7 +164,4 @@ The mutual authentication data provided in the <b>pMutualAuthData</b> member con
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
- 
-
- 
 

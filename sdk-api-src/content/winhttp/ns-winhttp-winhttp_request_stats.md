@@ -3,45 +3,50 @@ UID: NS:winhttp._WINHTTP_REQUEST_STATS
 title: WINHTTP_REQUEST_STATS (winhttp.h)
 description: The WINHTTP_REQUEST_STATS structure contains a variety of statistics for a request.
 helpviewer_keywords: ["*PWINHTTP_REQUEST_STATS","WINHTTP_REQUEST_STATS","WINHTTP_REQUEST_STATS structure [HTTP]","http.winhttp_request_stats","winhttp/WINHTTP_REQUEST_STATS","WINHTTP_OPTION_REQUEST_STATS"]
-old-location:
+old-location: 
 tech.root: http
 ms.assetid: 7c65777e-24eb-4713-a7b8-7263a217e8ba
 ms.date: 02/25/2020
 ms.keywords: '*PWINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS, WINHTTP_REQUEST_STATS structure [HTTP], http.winhttp_request_stats, winhttp/WINHTTP_REQUEST_STATS, WINHTTP_OPTION_REQUEST_STATS'
-f1_keywords:
-- winhttp/WINHTTP_REQUEST_STATS
-dev_langs:
-- c++
 req.header: winhttp.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1903 [desktop apps only]
 req.target-min-winversvr: Windows Server 2019 [desktop apps only]
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winhttp.h
-api_name:
-- WINHTTP_REQUEST_STATS
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: WINHTTP_REQUEST_STATS, *PWINHTTP_REQUEST_STATS
-req.redist:
+req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WINHTTP_REQUEST_STATS
+ - winhttp/_WINHTTP_REQUEST_STATS
+ - PWINHTTP_REQUEST_STATS
+ - winhttp/PWINHTTP_REQUEST_STATS
+ - WINHTTP_REQUEST_STATS
+ - winhttp/WINHTTP_REQUEST_STATS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winhttp.h
+api_name:
+ - WINHTTP_REQUEST_STATS
 ---
 
 ## -description
@@ -82,3 +87,4 @@ This structure is used with [WinHttpQueryOption](/windows/desktop/api/winhttp/nf
 ## -see-also
 
 [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption)
+

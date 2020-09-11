@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.date: 12/05/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
-f1_keywords:
-- wincrypt/CryptGetDefaultProvider
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGetDefaultProvider
-- CryptGetDefaultProviderA
-- CryptGetDefaultProviderW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetDefaultProviderW
+ - wincrypt/CryptGetDefaultProviderW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGetDefaultProvider
+ - CryptGetDefaultProviderA
+ - CryptGetDefaultProviderW
 ---
 
 # CryptGetDefaultProviderW function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetDefaultProvider</b> function finds the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user. The name of the default CSP for the provider type specified in the <i>dwProvType</i> parameter is returned in the <i>pszProvName</i> buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProvType [in]
 
@@ -102,7 +98,6 @@ Defined provider types are  as follows:
 
 This parameter is reserved for future use and must be <b>NULL</b>.
 
-
 ### -param dwFlags [in]
 
 The following flag values are defined.
@@ -135,8 +130,6 @@ Returns the computer default CSP of the specified type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszProvName [out]
 
@@ -144,7 +137,6 @@ A pointer to a null-terminated character string buffer to receive the name of th
 
 To find the size of the buffer for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbProvName [in, out]
 
@@ -154,8 +146,6 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buff
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 						
@@ -215,14 +205,8 @@ The <i>dwFlags</i> parameter has an unrecognized value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function determines which installed CSP is currently set as the default for the local computer or current user. This information is often displayed to the user.
 
@@ -299,9 +283,6 @@ void main()
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera">CryptSetProvider</a>
 
 
@@ -311,7 +292,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
- 
-
- 
 

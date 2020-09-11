@@ -8,10 +8,6 @@ tech.root: wes
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
 ms.date: 12/05/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
-f1_keywords:
-- winevt/EvtOpenEventMetadataEnum
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-api_name:
-- EvtOpenEventMetadataEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtOpenEventMetadataEnum
+ - winevt/EvtOpenEventMetadataEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+api_name:
+ - EvtOpenEventMetadataEnum
 ---
 
 # EvtOpenEventMetadataEnum function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a handle that you use to enumerate the list of events that the provider defines.
 
-
 ## -parameters
-
-
-
 
 ### -param PublisherMetadata [in]
 
 A handle to the provider's metadata that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenpublishermetadata">EvtOpenPublisherMetadata</a> function returns.
 
-
 ### -param Flags [in]
 
 Reserved. Must be zero.
 
-
 ## -returns
-
-
 
 If successful, the function returns a handle to the list of events that the  provider defines; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
-
-
-
 ## -remarks
-
-
 
 To enumerate the events, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnexteventmetadata">EvtNextEventMetadata</a> function in a loop.
 
@@ -92,19 +79,11 @@ For an example that shows how to use this function, see <a href="https://docs.mi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnexteventmetadata">EvtNextEventMetadata</a>
- 
-
- 
 

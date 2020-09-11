@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.date: 12/05/2018
 ms.keywords: ??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring
-f1_keywords:
-- chstring/CHString
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString
-- ??1CHString@@QAE@XZ
-- ??1CHString@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString
+ - chstring/CHString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString
+ - ??1CHString@@QAE@XZ
+ - ??1CHString@@QEAA@XZ
 ---
 
 # CHString class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CHString</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -549,14 +549,9 @@ Directly accesses characters stored in a <b>CHString</b> string as a C-style str
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for the class is <b>CHString::~CHString</b>.
-
-
 

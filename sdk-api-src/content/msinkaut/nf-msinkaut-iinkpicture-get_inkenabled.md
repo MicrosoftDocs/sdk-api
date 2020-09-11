@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 3af59de9-0239-47ab-b3b3-1f1baecb169f
 ms.date: 12/05/2018
 ms.keywords: 3af59de9-0239-47ab-b3b3-1f1baecb169f, IInkPicture interface [Tablet PC],InkEnabled property, IInkPicture.InkEnabled, IInkPicture.get_InkEnabled, IInkPicture::InkEnabled, IInkPicture::get_InkEnabled, IInkPicture::put_InkEnabled, InkEnabled property [Tablet PC], InkEnabled property [Tablet PC],IInkPicture interface, InkPicture.get_InkEnabled, InkPicture.put_InkEnabled, get_InkEnabled, msinkaut/IInkPicture::InkEnabled, msinkaut/IInkPicture::get_InkEnabled, msinkaut/IInkPicture::put_InkEnabled, put_InkEnabled, tablet.inkpicture_inkenabled
-f1_keywords:
-- msinkaut/IInkPicture.InkEnabled
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkPicture.InkEnabled
-- IInkPicture.get_InkEnabled
-- IInkPicture.put_InkEnabled
-- InkPicture.get_InkEnabled
-- InkPicture.put_InkEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture::get_InkEnabled
+ - msinkaut/IInkPicture::get_InkEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkPicture.InkEnabled
+ - IInkPicture.get_InkEnabled
+ - IInkPicture.put_InkEnabled
+ - InkPicture.get_InkEnabled
+ - InkPicture.put_InkEnabled
 ---
 
 # IInkPicture::get_InkEnabled
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control collects pen input (in-air packets, cursor in range events, and so on).
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture</a> control collects ink in Windows Vista, Microsoft Windows XP Tablet PC Edition or any edition of Windows 2000, Windows Server 2003, or Windows XP on which the Windows XP Tablet PC Edition Software Development Kit (SDK) is installed. However, handwriting recognition occurs only if Windows Vista, Windows XP Tablet PC Edition, or the Recognizer Pack is installed.
 
@@ -112,12 +107,7 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode">CollectionMode Property [InkPicture Control]</a>
 
@@ -160,7 +150,4 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle Method</a>
- 
-
- 
 

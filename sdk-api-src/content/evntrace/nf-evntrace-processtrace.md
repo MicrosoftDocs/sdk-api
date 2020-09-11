@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: aea25a95-f435-4068-9b15-7473f31ebf16
 ms.date: 12/05/2018
 ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.processtrace, etw.processtrace, evntrace/ProcessTrace
-f1_keywords:
-- evntrace/ProcessTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- ProcessTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ProcessTrace
+ - evntrace/ProcessTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - ProcessTrace
 ---
 
 # ProcessTrace function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ProcessTrace</b> function delivers events from one or 
    more event tracing sessions to the consumer.
 
-
 ## -parameters
-
-
-
 
 ### -param HandleArray [in]
 
@@ -71,18 +67,15 @@ Pointer to an array of trace handles obtained from earlier calls to the
 
 The array can contain the handles to multiple log files, but only one real-time trace session.
 
-
 ### -param HandleCount [in]
 
 Number of elements in <i>HandleArray</i>.
-
 
 ### -param StartTime [in]
 
 Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
       specifies the beginning time period for which you want to receive events. The function does not deliver events 
       recorded prior to <i>StartTime</i>.
-
 
 ### -param EndTime [in]
 
@@ -92,10 +85,7 @@ Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 <b>Windows Server 2003:  </b>This value is ignored for real-time event delivery.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -201,14 +191,8 @@ The <i>HandleArray</i> parameter contains the handle to more than one real-time
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Consumers call this function.
 
@@ -247,12 +231,7 @@ For an example that uses <b>ProcessTrace</b>, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
@@ -271,7 +250,4 @@ For an example that uses <b>ProcessTrace</b>, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a>
- 
-
- 
 

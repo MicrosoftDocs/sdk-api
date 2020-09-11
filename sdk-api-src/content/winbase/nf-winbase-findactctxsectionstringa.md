@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: d3f0b057-44ec-47ec-a0aa-69f3540b8900
 ms.date: 12/05/2018
 ms.keywords: FIND_ACTCTX_SECTION_KEY_RETURN_HACTCTX, FindActCtxSectionString, FindActCtxSectionString function [Side-by-side Assemblies], FindActCtxSectionStringA, FindActCtxSectionStringW, _win32_findactctxsectionstring, setup.findactctxsectionstring, winbase/FindActCtxSectionString, winbase/FindActCtxSectionStringA, winbase/FindActCtxSectionStringW
-f1_keywords:
-- winbase/FindActCtxSectionString
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-sidebyside-l1-1-0.dll
-- KernelBase.dll
-- API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- FindActCtxSectionString
-- FindActCtxSectionStringA
-- FindActCtxSectionStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindActCtxSectionStringA
+ - winbase/FindActCtxSectionStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-sidebyside-l1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - FindActCtxSectionString
+ - FindActCtxSectionStringA
+ - FindActCtxSectionStringW
 ---
 
 # FindActCtxSectionStringA function
@@ -55,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FindActCtxSectionString</b> function retrieves information on a specific string in the current activation context and returns a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -90,13 +86,10 @@ This function returns the activation context handle where the redirection data w
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpExtensionGuid [in]
 
 Reserved; must be null.
-
 
 ### -param ulSectionId [in]
 
@@ -118,16 +111,12 @@ The following are valid string section identifiers:
 
 Pointer to a null-terminated string to be used as the search criteria.
 
-
 ### -param ReturnedData [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure to be filled out with the requested string information.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
@@ -136,12 +125,7 @@ This function sets errors that can be retrieved by calling
 <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function should only be called by the Side-by-side API functions or COM methods. Applications should not directly call this function.
 
@@ -154,15 +138,9 @@ This function should only be called by the Side-by-side API functions or COM met
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionguid">FindActCtxSectionGuid</a>
- 
-
- 
 

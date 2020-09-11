@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 174a8bde-0795-4d4d-a294-7708c7d1823a
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject interface [COM],InPlaceDeactivate method, IOleInPlaceObject.InPlaceDeactivate, IOleInPlaceObject::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [COM], InPlaceDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_inplacedeactivate, com.ioleinplaceobject_inplacedeactivate, oleidl/IOleInPlaceObject::InPlaceDeactivate
-f1_keywords:
-- oleidl/IOleInPlaceObject.InPlaceDeactivate
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceObject.InPlaceDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceObject::InPlaceDeactivate
+ - oleidl/IOleInPlaceObject::InPlaceDeactivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceObject.InPlaceDeactivate
 ---
 
 # IOleInPlaceObject::InPlaceDeactivate
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deactivates an active in-place object and discards the object's undo state.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -83,14 +75,8 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 This method is called by an active object's immediate container to deactivate the active object and discard its undo state.
@@ -105,13 +91,7 @@ If the in-place user interface is still visible during the call to <b>IOleInPlac
 
 During the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>, the object should check to see whether it is still active in place. If so, it should call <b>IOleInPlaceObject::InPlaceDeactivate</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
 
@@ -126,7 +106,4 @@ During the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleid
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.date: 12/05/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
-f1_keywords:
-- vsbackup/IVssBackupComponents.DoSnapshotSet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.DoSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::DoSnapshotSet
+ - vsbackup/IVssBackupComponents::DoSnapshotSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.DoSnapshotSet
 ---
 
 # IVssBackupComponents::DoSnapshotSet
@@ -50,16 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Commits all 
     shadow copies in this set simultaneously.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
@@ -67,10 +62,7 @@ A
       doubly indirect pointer to the required <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> asynchronous 
       interface. This is used to query the method execution state and to retrieve the final error code.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method. These error codes may be returned from this method, or 
       from the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
@@ -285,14 +277,8 @@ The provider returned an unexpected error code. This can be a transient problem.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for releasing the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
@@ -310,15 +296,8 @@ For information on how to use
     For information on how the method is used under different VSS contexts, see 
     <a href="https://docs.microsoft.com/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
     Creating Shadow Copies</a>.
-   
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
@@ -341,7 +320,4 @@ For information on how to use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
- 
-
- 
 

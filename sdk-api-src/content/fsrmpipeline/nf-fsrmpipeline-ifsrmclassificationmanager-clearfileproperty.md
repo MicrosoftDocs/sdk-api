@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: bac42416-0757-462f-8869-339655f48587
 ms.date: 12/05/2018
 ms.keywords: ClearFileProperty, ClearFileProperty method [File Server Resource Manager], ClearFileProperty method [File Server Resource Manager],FsrmClassificationManager class, ClearFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, ClearFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager interface [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager.ClearFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager2::ClearFileProperty, IFsrmClassificationManager::ClearFileProperty, fs.ifsrmclassificationmanager_clearfileproperty, fsrm.ifsrmclassificationmanager_clearfileproperty, fsrmpipeline/IFsrmClassificationManager2::ClearFileProperty, fsrmpipeline/IFsrmClassificationManager::ClearFileProperty
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.ClearFileProperty
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.ClearFileProperty
-- IFsrmClassificationManager2.ClearFileProperty
-- FsrmClassificationManager.ClearFileProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::ClearFileProperty
+ - fsrmpipeline/IFsrmClassificationManager::ClearFileProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.ClearFileProperty
+ - IFsrmClassificationManager2.ClearFileProperty
+ - FsrmClassificationManager.ClearFileProperty
 ---
 
 # IFsrmClassificationManager::ClearFileProperty
@@ -51,40 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to remove the specified property from the file or folder.
 
 <b>Windows Server 2008 R2:  </b>Only files are supported until Windows Server 2012.
 
-
 ## -parameters
-
-
-
 
 ### -param filePath [in]
 
 The file that contains the property that you want to remove. You must specify an absolute path to the file. 
       You cannot specify a file share.
 
-
 ### -param property [in]
 
 The name of the property to remove from the file.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 The property is removed from the file if the storage module is able to remove the property; otherwise, the 
      property's value is cleared using the values in the following list.
@@ -131,15 +118,8 @@ The property is removed from the file if the storage module is able to remove th
 <td>Empty string</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
@@ -162,7 +142,4 @@ The property is removed from the file if the storage module is able to remove th
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

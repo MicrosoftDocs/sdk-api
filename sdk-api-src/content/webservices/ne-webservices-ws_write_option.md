@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e
 ms.date: 12/05/2018
 ms.keywords: WS_WRITE_NILLABLE_POINTER, WS_WRITE_NILLABLE_VALUE, WS_WRITE_OPTION, WS_WRITE_OPTION enumeration [Web Services for Windows], WS_WRITE_REQUIRED_POINTER, WS_WRITE_REQUIRED_VALUE, webservices/WS_WRITE_NILLABLE_POINTER, webservices/WS_WRITE_NILLABLE_VALUE, webservices/WS_WRITE_OPTION, webservices/WS_WRITE_REQUIRED_POINTER, webservices/WS_WRITE_REQUIRED_VALUE, wsw.ws_write_option
-f1_keywords:
-- webservices/WS_WRITE_OPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_WRITE_OPTION
 targetos: Windows
 req.typenames: WS_WRITE_OPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_WRITE_OPTION
+ - webservices/WS_WRITE_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_WRITE_OPTION
 ---
 
 # WS_WRITE_OPTION enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether a storage specified contains the value, or a pointer to the value,
                 and whether the value can be represented as nil in the XML content.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_WRITE_REQUIRED_VALUE
 
@@ -76,8 +71,6 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 This option is not supported for pointer types
                     (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
                     The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
-                
-
 
 ### -field WS_WRITE_REQUIRED_POINTER
 
@@ -96,7 +89,6 @@ Api(..., &amp;valuePointer, sizeof(valuePointer), ...);</code></pre>
 If the pointer to the value specified in the storage is <b>NULL</b>, 
                     <b>E_INVALIDARG</b> is returned.
                 (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
 
 ### -field WS_WRITE_NILLABLE_VALUE
 
@@ -131,8 +123,6 @@ This option is only supported for the following types, listed below,
 </li>
 </ul>
 
-
-
 ### -field WS_WRITE_NILLABLE_POINTER
 
 For all types, the storage specified contains a pointer to the value.  The
@@ -152,3 +142,4 @@ Api(..., &amp;valuePointer, sizeof(valuePointer), ...);
 
 // if value is NULL
 &lt;element xsi:nil='true'/&gt;</code></pre>
+

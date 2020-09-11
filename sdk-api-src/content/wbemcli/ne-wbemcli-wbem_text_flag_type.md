@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 6E4F87D1-9952-4D85-9A32-3D7068831087
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_NO_FLAVORS, WBEM_TEXT_FLAG_TYPE, WBEM_TEXT_FLAG_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_NO_FLAVORS, wbemcli/WBEM_TEXT_FLAG_TYPE, wmi.wbem_text_flag_type
-f1_keywords:
-- wbemcli/WBEM_TEXT_FLAG_TYPE
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wbemcli.h
-api_name:
-- WBEM_TEXT_FLAG_TYPE
 targetos: Windows
 req.typenames: WBEM_TEXT_FLAG_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tag_WBEM_TEXT_FLAG_TYPE
+ - wbemcli/tag_WBEM_TEXT_FLAG_TYPE
+ - WBEM_TEXT_FLAG_TYPE
+ - wbemcli/WBEM_TEXT_FLAG_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wbemcli.h
+api_name:
+ - WBEM_TEXT_FLAG_TYPE
 ---
 
 # WBEM_TEXT_FLAG_TYPE enumeration
@@ -49,27 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains flags to control the execution of the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">IWbemClassObject::GetObjectText</a> method.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WBEM_FLAG_NO_FLAVORS
 
 Present qualifiers without propagation or flavor information.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">IWbemClassObject::GetObjectText</a>
- 
-
- 
 

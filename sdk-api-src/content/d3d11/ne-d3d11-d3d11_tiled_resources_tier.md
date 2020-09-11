@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: F2E58CDC-4E65-4166-976A-E58B6DC7B1E8
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILED_RESOURCES_NOT_SUPPORTED, D3D11_TILED_RESOURCES_TIER, D3D11_TILED_RESOURCES_TIER enumeration [Direct3D 11], D3D11_TILED_RESOURCES_TIER_1, D3D11_TILED_RESOURCES_TIER_2, D3D11_TILED_RESOURCES_TIER_3, d3d11/D3D11_TILED_RESOURCES_NOT_SUPPORTED, d3d11/D3D11_TILED_RESOURCES_TIER, d3d11/D3D11_TILED_RESOURCES_TIER_1, d3d11/D3D11_TILED_RESOURCES_TIER_2, d3d11/D3D11_TILED_RESOURCES_TIER_3, direct3d11.d3d11_tiled_resources_tier
-f1_keywords:
-- d3d11/D3D11_TILED_RESOURCES_TIER
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_TILED_RESOURCES_TIER
 targetos: Windows
 req.typenames: D3D11_TILED_RESOURCES_TIER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TILED_RESOURCES_TIER
+ - d3d11/D3D11_TILED_RESOURCES_TIER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_TILED_RESOURCES_TIER
 ---
 
 # D3D11_TILED_RESOURCES_TIER enumeration
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the tier level at which tiled resources are supported.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_TILED_RESOURCES_NOT_SUPPORTED
 
 Tiled resources are not supported.
-
 
 ### -field D3D11_TILED_RESOURCES_TIER_1
 
@@ -74,8 +69,6 @@ The device supports calls to <a href="https://docs.microsoft.com/windows/desktop
             
 
 If you access tiles (read or write) that are <b>NULL</b>-mapped, you get undefined behavior, which includes device-removed.  Apps can map all tiles to a single "default" tile to avoid this condition.
-            
-
 
 ### -field D3D11_TILED_RESOURCES_TIER_2
 
@@ -102,18 +95,11 @@ Tier_3 tiled resources are supported.
 
 Superset of Tier_2 functionality, Tier 3 is essentially Tier 2 but with the additional support of Texture3D for Tiled Resources.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options1">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
 ms.date: 12/05/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
-f1_keywords:
-- iads/IADsResource
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsResource
+ - iads/IADsResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsResource
 ---
 
 # IADsResource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsResource</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to manage an open resource for a file service across a network.
-
 
 ## -inheritance
 
@@ -300,12 +299,9 @@ Gets the ADsPath of the user object for the user who opened the resource.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 When a remote user opens a folder or a subfolder on a public share point on the target computer, ADSI considers this folder to be an open resource and represents it with a resource object that implements this interface.
 
@@ -331,7 +327,4 @@ Cleanup:
     Set rs = Nothing
 
 ```
-
-
-
 

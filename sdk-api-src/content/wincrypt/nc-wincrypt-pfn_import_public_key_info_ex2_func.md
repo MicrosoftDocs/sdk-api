@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b8d26a54-1549-4d2b-9cd6-c551407d795d
 ms.date: 12/05/2018
 ms.keywords: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security], X509_ASN_ENCODING, security.pfn_import_public_key_info_ex2_func, wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
-f1_keywords:
-- wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
+ - wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
 ---
 
 # PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC</b> callback function is called by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2">CryptImportPublicKeyInfoEx2</a> to decode the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a> identifier, load the algorithm provider, and import the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pair</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -84,44 +80,31 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to import into the provider.
 
-
 ### -param dwFlags [in]
 
 A set of flags that modify the behavior of this function. This can be zero.
-
 
 ### -param *pvAuxInfo [in]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param *phKey [out]
 
 A pointer to a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the imported key.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
@@ -135,7 +118,4 @@ You can use <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/crypto
 <td>"CryptDllImportPublicKeyInfoEx2"</td>
 </tr>
 </table>
- 
-
-
 

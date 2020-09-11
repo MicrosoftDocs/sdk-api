@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: d3d31087-770e-4434-8ee0-6183102a9a6b
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_103, *PDFS_INFO_103, DFS_INFO_103, DFS_INFO_103 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, LPDFS_INFO_103, LPDFS_INFO_103 structure pointer [Distributed File System], PDFS_INFO_103, PDFS_INFO_103 structure pointer [Distributed File System], dfs.dfs_info_103, fs.dfs_info_103, lmdfs/DFS_INFO_103, lmdfs/LPDFS_INFO_103, lmdfs/PDFS_INFO_103, netmgmt.dfs_info_103'
-f1_keywords:
-- lmdfs/DFS_INFO_103
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_103
 targetos: Windows
 req.typenames: DFS_INFO_103, *PDFS_INFO_103, *LPDFS_INFO_103
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_103
+ - lmdfs/_DFS_INFO_103
+ - PDFS_INFO_103
+ - lmdfs/PDFS_INFO_103
+ - DFS_INFO_103
+ - lmdfs/DFS_INFO_103
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_103
 ---
 
 # DFS_INFO_103 structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains properties that set specific behaviors for a DFS root or link. This structure can 
     only be used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PropertyFlagMask
 
 Specifies a mask value that indicates which flags are valid for evaluation in the 
       <b>PropertyFlags</b> field.
-
 
 ### -field PropertyFlags
 
@@ -141,11 +140,7 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
          DFS link.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
@@ -164,7 +159,4 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

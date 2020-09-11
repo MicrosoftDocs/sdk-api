@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 4455e891-7846-47b5-9283-549c3451b70e
 ms.date: 12/05/2018
 ms.keywords: RPC_C_NS_SYNTAX_DCE, RPC_C_NS_SYNTAX_DEFAULT, RpcNsGroupDelete, RpcNsGroupDelete function [RPC], RpcNsGroupDeleteA, RpcNsGroupDeleteW, _rpc_rpcnsgroupdelete, rpc.rpcnsgroupdelete, rpcnsi/RpcNsGroupDelete, rpcnsi/RpcNsGroupDeleteA, rpcnsi/RpcNsGroupDeleteW
-f1_keywords:
-- rpcnsi/RpcNsGroupDelete
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsGroupDelete
-- RpcNsGroupDeleteA
-- RpcNsGroupDeleteW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsGroupDeleteW
+ - rpcnsi/RpcNsGroupDeleteW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsGroupDelete
+ - RpcNsGroupDeleteA
+ - RpcNsGroupDeleteW
 ---
 
 # RpcNsGroupDeleteW function
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsGroupDelete</b> function deletes a group attribute.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param GroupNameSyntax
 
@@ -97,17 +94,12 @@ Use DCE syntax.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param GroupName
 
 Pointer to the name of the name-service group to delete.
 
-
 ## -returns
-
-
 
 This function returns one of the following values:
 
@@ -189,11 +181,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsGroupDelete</b> function deletes the group attribute from the specified name service–database entry.
@@ -211,15 +199,9 @@ Neither the specified name service–database entry nor the group members are de
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea">RpcNsGroupMbrRemove</a>
- 
-
- 
 

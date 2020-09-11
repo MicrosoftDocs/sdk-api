@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: ae395eb8-8019-432c-bf96-b602c8e34f12
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportEnum, MprConfigInterfaceTransportEnum function [RAS], _mpr_mprconfiginterfacetransportenum, mprapi/MprConfigInterfaceTransportEnum, rras.mprconfiginterfacetransportenum
-f1_keywords:
-- mprapi/MprConfigInterfaceTransportEnum
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigInterfaceTransportEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigInterfaceTransportEnum
+ - mprapi/MprConfigInterfaceTransportEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigInterfaceTransportEnum
 ---
 
 # MprConfigInterfaceTransportEnum function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigInterfaceTransportEnum</b> function enumerates the transports configured on the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
 
 ### -param hRouterInterface [in]
 
@@ -71,11 +66,9 @@ Handle to the interface configuration from which to enumerate the transports. Ob
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacecreate">MprConfigInterfaceCreate</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>.
 
-
 ### -param dwLevel [in]
 
 A <b>DWORD</b> value that describes the format in which the information is returned in the <i>lplpBuffer</i> parameter. Must be zero.
-
 
 ### -param lplpBuffer [in, out]
 
@@ -87,21 +80,17 @@ On input, a non-<b>NULL</b> pointer.
 On successful completion, a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_transport_0">MPR_IFTRANSPORT_0</a> structures. Free this memory buffer by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
 
-
 ### -param dwPrefMaxLen [in]
 
 Specifies the preferred maximum length of returned data (in 8-bit bytes). If this parameter is -1, the buffer returned is large enough to hold all available information.
-
 
 ### -param lpdwEntriesRead [out]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the total number of entries that were enumerated from the current resume position.
 
-
 ### -param lpdwTotalEntries [out]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the total number of entries that could have been enumerated from the current resume position.
-
 
 ### -param lpdwResumeHandle [in, out, optional]
 
@@ -118,10 +107,7 @@ If an error occurs in the enumeration, this handle is invalid.
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not return a resume handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -191,15 +177,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -230,7 +209,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

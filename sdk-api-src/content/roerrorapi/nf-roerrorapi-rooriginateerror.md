@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: ED647880-5A18-4F75-B7E5-3B9BF36229D3
 ms.date: 12/5/2018
 ms.keywords: RoOriginateError, RoOriginateError function [Windows Runtime], WinRTOriginateError, roerrorapi/RoOriginateError, roerrorapi/WinRTOriginateError, winrt.rooriginateerror, winrt.winrtoriginateerror
-f1_keywords:
-- roerrorapi/RoOriginateError
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RuntimeObject.lib
-- RuntimeObject.dll
-- API-MS-Win-Core-WinRT-error-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoOriginateError
-- WinRTOriginateError
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoOriginateError
+ - roerrorapi/RoOriginateError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RuntimeObject.lib
+ - RuntimeObject.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoOriginateError
+ - WinRTOriginateError
 ---
 
 # RoOriginateError function
@@ -53,21 +54,15 @@ req.redist:
 
 ## -description
 
-
 Reports an error and an informative string to an attached debugger.
 
-
 ## -parameters
-
-
-
 
 ### -param error [in]
 
 Type: <b>HRESULT</b>
 
 The error code associated with the error condition. If <i>error</i> is a success code, such as <b>S_OK</b>, the function has no effect and returns <b>FALSE</b>. This behavior enables calling the function when no error has occurred without causing an unwanted error message.
-
 
 ### -param message [in]
 
@@ -83,10 +78,7 @@ This function does not support embedded <b>NUL</b> characters, so only the chara
 
 The <i>message</i> string should be localized.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -118,14 +110,8 @@ The  error message was reported successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <b>RoOriginateError</b> function  to report an error condition and a corresponding message to a debugger. This function does not perform logging or event tracing.
 
@@ -135,13 +121,7 @@ Depending on the current configuration of the debugger, the <b>RoOriginateError<
 
  If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
@@ -160,7 +140,4 @@ Depending on the current configuration of the debugger, the <b>RoOriginateError<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
- 
-
- 
 

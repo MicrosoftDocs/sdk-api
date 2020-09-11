@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: B43C8A68-4D39-4275-891C-2DFE97DC4D64
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_ENROLL_CAPTURE_CALLBACK, PWINBIO_ENROLL_CAPTURE_CALLBACK function, PWINBIO_ENROLL_CAPTURE_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_enroll_capture_callback, winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
-f1_keywords:
-- winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio.h
-api_name:
-- PWINBIO_ENROLL_CAPTURE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWINBIO_ENROLL_CAPTURE_CALLBACK
+ - winbio/PWINBIO_ENROLL_CAPTURE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio.h
+api_name:
+ - PWINBIO_ENROLL_CAPTURE_CALLBACK
 ---
 
 # PWINBIO_ENROLL_CAPTURE_CALLBACK callback function
 
 
 ## -description
-
 
 The <b>PWINBIO_ENROLL_CAPTURE_CALLBACK</b> function is called by the Windows Biometric Framework to return results from the   asynchronous  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapturewithcallback">WinBioEnrollCaptureWithCallback</a> function. The client application must implement this function.
 
@@ -62,31 +62,21 @@ The <b>PWINBIO_ENROLL_CAPTURE_CALLBACK</b> function is called by the Windows Bio
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param EnrollCallbackContext [in, optional]
 
 Pointer to a buffer defined by the application and passed to the <i>EnrollCallback</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapturewithcallback">WinBioEnrollCaptureWithCallback</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
-
 ### -param OperationStatus [in]
 
 Error code returned by the capture operation.
-
 
 ### -param RejectDetail [in]
 
 Additional information about the failure, if any, to perform the operation. For more information,  see Remarks.
 
-
 ## -remarks
-
-
 
 Currently, the Windows Biometric Framework supports only fingerprint readers. Therefore, if an operation fails and returns additional information in a <b>WINBIO_REJECT_DETAIL</b> constant, it will be one of the following values:<ul>
 <li>WINBIO_FP_TOO_HIGH</li>
@@ -370,7 +360,4 @@ e_Exit:
 
 
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 773de760-5fde-4975-ba8d-d20b3affb4a7
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress, IDownloadProgress interface [Windows Update Agent], IDownloadProgress interface [Windows Update Agent],described, wua.idownloadprogress, wuapi/IDownloadProgress
-f1_keywords:
-- wuapi/IDownloadProgress
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadProgress
+ - wuapi/IDownloadProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadProgress
 ---
 
 # IDownloadProgress interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the progress of an asynchronous download operation.
-
 
 ## -inheritance
 
@@ -214,5 +213,5 @@ Gets a string that represents the estimate of the total amount of data that will
 
 </td>
 </tr>
-</table> 
+</table>
 

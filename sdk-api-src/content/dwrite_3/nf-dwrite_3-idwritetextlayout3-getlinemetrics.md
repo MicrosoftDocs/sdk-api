@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 352ca3e3-7b08-823c-0881-0b051d4ce574
 ms.date: 12/05/2018
 ms.keywords: GetLineMetrics, GetLineMetrics method [Direct Write], GetLineMetrics method [Direct Write],IDWriteTextLayout3 interface, IDWriteTextLayout3 interface [Direct Write],GetLineMetrics method, IDWriteTextLayout3.GetLineMetrics, IDWriteTextLayout3::GetLineMetrics, directwrite.idwritetextlayout3_getlinemetrics, dwrite_3/IDWriteTextLayout3::GetLineMetrics
-f1_keywords:
-- dwrite_3/IDWriteTextLayout3.GetLineMetrics
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout3.GetLineMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout3::GetLineMetrics
+ - dwrite_3/IDWriteTextLayout3::GetLineMetrics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout3.GetLineMetrics
 ---
 
 # IDWriteTextLayout3::GetLineMetrics
@@ -49,59 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves properties of each line.
 
-
 ## -parameters
-
-
-
 
 ### -param lineMetrics [out]
 
 The array to fill with line information.
 
-
 ### -param maxLineCount
 
 The maximum size of the lineMetrics array.
-
 
 ### -param actualLineCount [out]
 
 The actual size of the lineMetrics    
      array that is needed.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
  If maxLineCount is not large enough E_NOT_SUFFICIENT_BUFFER,   
      which is equivalent to HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER),  
      is returned and actualLineCount is set to the number of lines   
      needed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritetextlayout3">IDWriteTextLayout3</a>
- 
-
- 
 

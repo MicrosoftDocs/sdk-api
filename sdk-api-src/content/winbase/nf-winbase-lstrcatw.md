@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcat.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_lstrcat, _win32_lstrcat_cpp, lstrcat, lstrcat function [Menus and Other Resources], lstrcatA, lstrcatW, menurc.lstrcat, winbase/lstrcat, winbase/lstrcatA, winbase/lstrcatW, winui._win32_lstrcat
-f1_keywords:
-- winbase/lstrcat
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- lstrcat
-- lstrcatA
-- lstrcatW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lstrcatW
+ - winbase/lstrcatW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - lstrcat
+ - lstrcatA
+ - lstrcatW
 ---
 
 # lstrcatW function
@@ -55,14 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Appends one string to another.
 <div class="alert"><b>Warning</b>  Do not use. Consider using <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a> instead. See Security Considerations. </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpString1 [in, out]
 
@@ -71,7 +68,6 @@ Type: <b>LPTSTR</b>
 The first null-terminated string. This buffer must be large enough 
 				to contain both strings.
 
-
 ### -param lpString2 [in]
 
 Type: <b>LPTSTR</b>
@@ -79,10 +75,7 @@ Type: <b>LPTSTR</b>
 The null-terminated string to be appended to the string 
 				specified in the <i>lpString1</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>LPTSTR</b>
 
@@ -91,13 +84,7 @@ If the function succeeds, the return value is a pointer to the buffer.
 If the function fails, the return value is <b>NULL</b> 
                     and <i>lpString1</i> may not be null-terminated.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -152,9 +139,6 @@ If the function fails, the return value is <b>NULL</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
- 
-
- 
 
 ## -remarks
 

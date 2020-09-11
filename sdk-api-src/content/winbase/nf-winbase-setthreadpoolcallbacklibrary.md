@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
-f1_keywords:
-- winbase/SetThreadpoolCallbackLibrary
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- SetThreadpoolCallbackLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadpoolCallbackLibrary
+ - winbase/SetThreadpoolCallbackLibrary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - SetThreadpoolCallbackLibrary
 ---
 
 # SetThreadpoolCallbackLibrary function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 
-
 ## -parameters
-
-
-
 
 ### -param pcbe [in, out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
 
-
 ### -param mod [in]
 
 A handle to the DLL.
 
-
 ## -remarks
-
-
 
 You should call this function if a callback might acquire the loader lock. This prevents a deadlock from occurring when one thread in DllMain is waiting for the callback to end, and another thread that is executing the callback attempts to acquire the loader lock.
 
@@ -84,13 +76,7 @@ This function is implemented as an inline function.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-destroythreadpoolenvironment">DestroyThreadpoolEnvironment</a>
 
@@ -121,7 +107,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
- 
-
- 
 

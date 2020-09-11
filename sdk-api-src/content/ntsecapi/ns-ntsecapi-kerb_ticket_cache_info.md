@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e9ac70f0-65dc-4c5a-b41f-7c4659680333
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO structure [Security], KERB_TICKET_FLAGS_forwardable, KERB_TICKET_FLAGS_forwarded, KERB_TICKET_FLAGS_hw_authent, KERB_TICKET_FLAGS_initial, KERB_TICKET_FLAGS_invalid, KERB_TICKET_FLAGS_may_postdate, KERB_TICKET_FLAGS_ok_as_delegate, KERB_TICKET_FLAGS_postdated, KERB_TICKET_FLAGS_pre_authent, KERB_TICKET_FLAGS_proxiable, KERB_TICKET_FLAGS_proxy, KERB_TICKET_FLAGS_renewable, KERB_TICKET_FLAGS_reserved, KERB_TICKET_FLAGS_reserved1, PKERB_TICKET_CACHE_INFO, PKERB_TICKET_CACHE_INFO structure pointer [Security], _lsa_kerb_ticket_cache_info, ntsecapi/KERB_TICKET_CACHE_INFO, ntsecapi/PKERB_TICKET_CACHE_INFO, security.kerb_ticket_cache_info'
-f1_keywords:
-- ntsecapi/KERB_TICKET_CACHE_INFO
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_TICKET_CACHE_INFO
 targetos: Windows
 req.typenames: KERB_TICKET_CACHE_INFO, *PKERB_TICKET_CACHE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_TICKET_CACHE_INFO
+ - ntsecapi/_KERB_TICKET_CACHE_INFO
+ - PKERB_TICKET_CACHE_INFO
+ - ntsecapi/PKERB_TICKET_CACHE_INFO
+ - KERB_TICKET_CACHE_INFO
+ - ntsecapi/KERB_TICKET_CACHE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_TICKET_CACHE_INFO
 ---
 
 # KERB_TICKET_CACHE_INFO structure
@@ -49,48 +54,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>KERB_TICKET_CACHE_INFO</b> structure contains information about a cached <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>.
 
 It can be used both for retrieving tickets and querying the ticket cache. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_query_tkt_cache_response">KERB_QUERY_TKT_CACHE_RESPONSE</a> structure uses this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ServerName
 
 A
 						<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the server the ticket applies to. This name is combined with the <b>RealmName</b> value to create the full name <b>ServerName</b>@<b>RealmName</b>.
 
-
 ### -field RealmName
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that contains the name of the realm the ticket applies to.
-
 
 ### -field StartTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the ticket becomes valid. If the <b>starttime</b> member of the ticket is not set, this value defaults to the time when the ticket was initially authenticated, <b>authtime</b>. The <b>starttime</b> member of a ticket is optional.
 
-
 ### -field EndTime
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time when the ticket expires.
-
 
 ### -field RenewTime
 
 If KERB_TICKET_FLAGS_renewable is set in <b>TicketFlags</b>, this member is a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time beyond which the ticket cannot be renewed.
 
-
 ### -field EncryptionType
 
 The type of encryption used in the ticket.
-
 
 ### -field TicketFlags
 
@@ -260,5 +254,4 @@ Reserved.
 </td>
 </tr>
 </table>
- 
 

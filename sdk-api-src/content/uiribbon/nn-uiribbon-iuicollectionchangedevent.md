@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\iuicollectionchangedevent.htm
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Windows Ribbon], IUICollectionChangedEvent interface [Windows Ribbon],described, scenicintent_IUICollectionChangedEvent, uiribbon/IUICollectionChangedEvent, windowsribbon.windowsribbon_iuicollectionchangedevent
-f1_keywords:
-- uiribbon/IUICollectionChangedEvent
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUICollectionChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUICollectionChangedEvent
+ - uiribbon/IUICollectionChangedEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUICollectionChangedEvent
 ---
 
 # IUICollectionChangedEvent interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUICollectionChangedEvent</b> interface is 
 		implemented by the application and defines the method required to handle changes 
 		to a collection at run time.
-
 
 ## -inheritance
 
@@ -79,12 +78,9 @@ Called when an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The Windows Ribbon framework incorporates the standard Component Object Model (COM)  client-server mechanism of <a href="https://msdn.microsoft.com/library/ms694379.aspx">connectable objects</a> to listen for and handle collection changed events at run time.
 
@@ -96,13 +92,7 @@ In addition to defining the incoming and outgoing interfaces, the Ribbon must al
 <div> </div>
 In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing interface defined by the framework and implemented by the application. The Ribbon triggers the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollectionchangedevent-onchanged">IUICollectionChangedEvent::OnChanged</a> event in the client by sending an outgoing notification when a collection changes, for example, adding a Command to the Quick Access Toolbar (QAT).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/ms694379.aspx">Events in COM and Connectable Objects</a>
 
@@ -113,7 +103,4 @@ In the case of the Ribbon,  <b>IUICollectionChangedEvent</b> is the outgoing int
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>
- 
-
- 
 

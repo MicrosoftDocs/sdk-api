@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: db12b0b7-698e-4c74-b547-6c95d0c5fdb7
 ms.date: 12/05/2018
 ms.keywords: WsShutdownSessionChannel, WsShutdownSessionChannel function [Web Services for Windows], webservices/WsShutdownSessionChannel, wsw.wsshutdownsessionchannel
-f1_keywords:
-- webservices/WsShutdownSessionChannel
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsShutdownSessionChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsShutdownSessionChannel
+ - webservices/WsShutdownSessionChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsShutdownSessionChannel
 ---
 
 # WsShutdownSessionChannel function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to signal the end of messages for a session channel.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The session channel to shut down.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
-                
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -101,14 +88,8 @@ This is returned if the channel is not in the <a href="https://docs.microsoft.co
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function will indicate to the remote party that all
                 messages have been sent for the channel.
@@ -151,7 +132,4 @@ Once a session channel has been shut down, attempting
 Calling this function is optional.  When a session channel is closed using 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> when in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a>,
                 then the channel is automatically shut down as part of the close process.
-            
-
-
 

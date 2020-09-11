@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
 ms.date: 12/05/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
-f1_keywords:
-- unknwn/IClassFactory
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- unknwnbase.h
-api_name:
-- IClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClassFactory
+ - unknwn/IClassFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - unknwnbase.h
+api_name:
+ - IClassFactory
 ---
 
 ## -description
@@ -81,7 +82,7 @@ Locks an object application open in memory.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
@@ -90,3 +91,4 @@ Locks an object application open in memory.
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>
+

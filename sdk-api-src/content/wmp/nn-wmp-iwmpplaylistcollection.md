@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: b6861651-f0c3-4b99-8c81-a8a8f8b47692
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], IWMPPlaylistCollection interface [Windows Media Player],described, IWMPPlaylistCollectionInterface, wmp.iwmpplaylistcollection, wmp/IWMPPlaylistCollection
-f1_keywords:
-- wmp/IWMPPlaylistCollection
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlaylistCollection
-- IWMPPlaylistCollection.setDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylistCollection
+ - wmp/IWMPPlaylistCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlaylistCollection
+ - IWMPPlaylistCollection.setDeleted
 ---
 
 # IWMPPlaylistCollection interface
@@ -50,12 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlaylistCollection</b> interface provides methods for manipulating the <b>IWMPPlaylist</b> and <b>IWMPPlaylistArray</b> interfaces.
-
-
-
 
 ## -inheritance
 
@@ -133,13 +129,9 @@ No longer supported.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
@@ -150,7 +142,4 @@ No longer supported.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9e2bf33f-b139-4455-ad49-c75e52f31083
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_ModulationType method, IBDA_DigitalDemodulator.put_ModulationType, IBDA_DigitalDemodulator::put_ModulationType, IBDA_DigitalDemodulatorput_ModulationType, bdaiface/IBDA_DigitalDemodulator::put_ModulationType, mstv.ibda_digitaldemodulator_put_modulationtype, put_ModulationType, put_ModulationType method [Microsoft TV Technologies], put_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
-f1_keywords:
-- bdaiface/IBDA_DigitalDemodulator.put_ModulationType
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_DigitalDemodulator.put_ModulationType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_DigitalDemodulator::put_ModulationType
+ - bdaiface/IBDA_DigitalDemodulator::put_ModulationType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_DigitalDemodulator.put_ModulationType
 ---
 
 # IBDA_DigitalDemodulator::put_ModulationType
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_ModulationType</b> method specifies the modulation type for the signal.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pModulationType [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">ModulationType</a> variable that specifies the modulation type.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -89,7 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">IBDA_DigitalDemodulator::get_ModulationType</a>
- 
-
- 
 

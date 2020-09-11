@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
 ms.date: 12/05/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
-f1_keywords:
-- aclapi/SetNamedSecurityInfo
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-Provider-l1-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
-- ntmarta.dll
-- API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
-api_name:
-- SetNamedSecurityInfo
-- SetNamedSecurityInfoA
-- SetNamedSecurityInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNamedSecurityInfoA
+ - aclapi/SetNamedSecurityInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-Provider-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+ - ntmarta.dll
+ - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
+api_name:
+ - SetNamedSecurityInfo
+ - SetNamedSecurityInfoA
+ - SetNamedSecurityInfoW
 ---
 
 # SetNamedSecurityInfoA function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetNamedSecurityInfo</b> function sets specified security information in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a specified object. The caller identifies the object by name.
 
-
 ## -parameters
-
-
-
 
 ### -param pObjectName [in]
 
@@ -75,32 +71,26 @@ A pointer to a <b>null</b>-terminated string that specifies the name of the obje
 For descriptions of the string formats for the different object types, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>.
 
-
 ### -param ObjectType [in]
 
 A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object named by the <i>pObjectName</i> parameter.
-
 
 ### -param SecurityInfo [in]
 
 A set of 
 bit flags that indicate the type of security information to set. This parameter can be a combination of the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
-
 ### -param psidOwner [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the owner of the object. If the caller does not have the <b>SeRestorePrivilege</b> constant (see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>), this <b>SID</b> must be contained in the caller's token, and must have the <b>SE_GROUP_OWNER</b> permission enabled. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to the object or have the SE_TAKE_OWNERSHIP_NAME privilege enabled. If you are not setting the owner <b>SID</b>, this parameter can be <b>NULL</b>.
-
 
 ### -param psidGroup [in, optional]
 
 A pointer to a SID that identifies the primary group of the object. The <i>SecurityInfo</i> parameter must include the GROUP_SECURITY_INFORMATION flag. If you are not setting the primary group SID, this parameter can be <b>NULL</b>.
 
-
 ### -param pDacl [in, optional]
 
 A pointer to the new DACL for the object. The <i>SecurityInfo</i> parameter must include the DACL_SECURITY_INFORMATION flag. The caller must have WRITE_DAC access to the object or be the owner of the object. If you are not setting the DACL, this parameter can be <b>NULL</b>.
-
 
 ### -param pSacl [in, optional]
 
@@ -110,21 +100,13 @@ A pointer to the new SACL for the object. The <i>SecurityInfo</i> parameter must
 
 If setting SACL_SECURITY_INFORMATION or SCOPE_SECURITY_INFORMATION, the caller must have the SE_SECURITY_NAME privilege enabled. If you are not setting the SACL, this parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
  If you are setting the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) or any elements in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of an object, the system automatically propagates any inheritable <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to existing child objects, according to the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-inheritance-rules">rules of inheritance</a>.
@@ -161,9 +143,6 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 > The aclapi.h header defines SetNamedSecurityInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
@@ -202,7 +181,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
- 
-
- 
 

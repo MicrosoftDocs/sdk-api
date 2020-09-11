@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532
 ms.date: 12/05/2018
 ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Installation], devinst.diinstalldevice, di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml, newdev/DiInstallDevice
-f1_keywords:
-- newdev/DiInstallDevice
-dev_langs:
-- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Newdev.dll
-- Ext-MS-Win-Newdev-Config-L1-1-1.dll
-api_name:
-- DiInstallDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DiInstallDevice
+ - newdev/DiInstallDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Newdev.dll
+ - Ext-MS-Win-Newdev-Config-L1-1-1.dll
+api_name:
+ - DiInstallDevice
 ---
 
 # DiInstallDevice function
@@ -50,34 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DiInstallDevice</b> function installs a specified driver that is preinstalled in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a> on a specified device that is present in the system.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in, optional]
 
 A handle to the top-level window that <b>DiInstallDevice</b> uses to display any user interface component that is associated with installing the device. This parameter is optional and can be set to <b>NULL</b>.
 
-
 ### -param DeviceInfoSet [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the specified device.
-
 
 ### -param DeviceInfoData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specified device in the specified device information set.
 
-
 ### -param DriverInfoData [in, optional]
 
 An pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_data_v1_a">SP_DRVINFO_DATA</a> structure that specifies the driver to install on the specified device. This parameter is optional and can be set to <b>NULL</b>. If this parameter is <b>NULL</b>, <b>DiInstallDevice</b> searches the drivers preinstalled in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a> for the driver that is the best match to the specified device, and, if one is found, installs the driver on the specified device.
-
 
 ### -param Flags [in]
 
@@ -109,15 +101,11 @@ If the caller does not specify a driver (<i>DriverInfoData</i> is set to <b>NULL
 
 Any additional INF file specified via a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-copyinf-directive">CopyINF</a> directive will be installed on any device it is applicable to.  Any failure in installing an additional INF will not cause the primary INF's installation to fail.
 
-
 ### -param NeedReboot [out, optional]
 
 A pointer to a value of type <b>BOOL</b> that <b>DiInstallDevice</b> sets to indicate whether a system restart is required to complete the installation. This parameter is optional and can be set to <b>NULL</b>. If this parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDevice</b> sets the value to <b>TRUE</b>. In this case, the caller is responsible for restarting the system. If this parameter is supplied and a system restart is not required, <b>DiInstallDevice</b> sets this parameter to <b>FALSE</b>. If this parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDevice</b> displays a system restart dialog box.
 
-
 ## -returns
-
-
 
 <b>DiInstallDevice</b> returns <b>TRUE</b> if the function successfully installed the specified driver on the specified device. Otherwise, <b>DiInstallDevice</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
@@ -160,14 +148,8 @@ The calling application is a 32-bit application that is attempting to execute in
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only call <b>DiInstallDevice</b> if it is necessary to install a specific driver on a specific device. Otherwise, use <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> to install a driver for a device. For more information about which of these functions to call to install a driver on a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-functions-that-simplify-driver-installation">SetupAPI Functions that Simplify Driver Installation</a>. 
 
@@ -206,12 +188,7 @@ The application is a class installer, in which case, the class installer should 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
 
@@ -246,7 +223,4 @@ The application is a class installer, in which case, the class installer should 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>
- 
-
- 
 

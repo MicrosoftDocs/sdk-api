@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b918bf3b-b91b-40fb-abb8-4115a4f254bb
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo, IDirectDrawVideo interface [DirectShow], IDirectDrawVideo interface [DirectShow],described, IDirectDrawVideoInterface, amvideo/IDirectDrawVideo, dshow.idirectdrawvideo
-f1_keywords:
-- amvideo/IDirectDrawVideo
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDirectDrawVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawVideo
+ - amvideo/IDirectDrawVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDirectDrawVideo
 ---
 
 # IDirectDrawVideo interface
 
 
 ## -description
-
-
 
 The <code>IDirectDrawVideo</code> interface queries the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.
 
@@ -61,9 +60,6 @@ Applications can use this interface to control what DirectDraw features the Vide
 There is some duplication in this interface with the <b>IDirectDraw</b> interface; however, this interface enables simple access to that information without calling the DirectDraw provider directly.
 
 The Video Renderer does not load DirectDraw until it is connected, and likewise DirectDraw is unloaded only when the renderer is disconnected. When the renderer has allocated the DirectDraw surfaces it will use for video playback, an application can obtain a <b>DDSURFACEDESC</b> structure describing it. By passing in a pointer to a <b>DDSURFACEDESC</b> structure, the renderer will fill in the structure with the details of the current surface. If DirectDraw has not been loaded, the renderer will return E_FAIL. If the renderer is using DCI (the predecessor to DirectDraw), the <b>DDSURFACEDESC</b> structure is not filled in but the call will return S_FALSE. The only type of DCI surfaces the renderer uses are primary surfaces.
-
-
-
 
 ## -inheritance
 
@@ -224,5 +220,5 @@ Determines whether DirectShow will change display mode when going to full-screen
 
 </td>
 </tr>
-</table> 
+</table>
 

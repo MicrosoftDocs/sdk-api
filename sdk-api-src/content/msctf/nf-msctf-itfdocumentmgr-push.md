@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
 ms.date: 12/05/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
-f1_keywords:
-- msctf/ITfDocumentMgr.Push
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfDocumentMgr.Push
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfDocumentMgr::Push
+ - msctf/ITfDocumentMgr::Push
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfDocumentMgr.Push
 ---
 
 # ITfDocumentMgr::Push
@@ -53,17 +54,11 @@ Adds a context to the top of the context stack.
 
 ## -parameters
 
-
-
-
 ### -param pic [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object to be added to the stack. This object is obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,14 +112,8 @@ This method was called during an <a href="https://docs.microsoft.com/windows/des
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The first context added to the stack becomes the main document context.
 
@@ -135,13 +124,7 @@ This method causes the <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a> must be called to remove this context from the context stack.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
@@ -169,7 +152,4 @@ This method causes the <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onpushcontext">ITfThreadMgrEventSink::OnPushContext
       </a>
- 
-
- 
 

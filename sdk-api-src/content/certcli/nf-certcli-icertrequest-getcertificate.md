@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ba8fc725-c376-4e66-8417-777ce13f2954
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetCertificate method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, CR_OUT_CHAIN, CR_OUT_CRLS, GetCertificate, GetCertificate method [Security], GetCertificate method [Security],CCertRequest object, GetCertificate method [Security],ICertRequest interface, GetCertificate method [Security],ICertRequest2 interface, GetCertificate method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCertificate method, ICertRequest.GetCertificate, ICertRequest2 interface [Security],GetCertificate method, ICertRequest2::GetCertificate, ICertRequest3 interface [Security],GetCertificate method, ICertRequest3::GetCertificate, ICertRequest::GetCertificate, certcli/ICertRequest2::GetCertificate, certcli/ICertRequest3::GetCertificate, certcli/ICertRequest::GetCertificate, security.icertrequest2_getcertificate
-f1_keywords:
-- certcli/ICertRequest3.GetCertificate
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.GetCertificate
-- ICertRequest2.GetCertificate
-- ICertRequest.GetCertificate
-- CCertRequest.GetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest::GetCertificate
+ - certcli/ICertRequest::GetCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.GetCertificate
+ - ICertRequest2.GetCertificate
+ - ICertRequest.GetCertificate
+ - CCertRequest.GetCertificate
 ---
 
 # ICertRequest::GetCertificate
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCertificate</b> method returns the certificate issued for the request as an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate, or optionally packaged in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">Public Key Cryptography Standards</a> (PKCS) #7 message that contains the complete certificate chain for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -155,21 +151,13 @@ A pointer to the <b>BSTR</b> that contains the certificate, in the specified for
 
 When using this method, create a variable of <b>BSTR</b> type, set the variable equal to <b>NULL</b>, and then pass the address of this variable as <i>pstrCertificate</i>. When you have finished using the certificate pointed to by <i>pstrCertificate</i>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-
 ## -returns
-
-
 
 If the method sets *<i>pstrCertificate</i>  to the <b>BSTR</b> that contains the certificate for the request, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 An application would call this method to retrieve the certificate issued by means of an earlier call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest3::Submit</a> or 
@@ -264,14 +252,7 @@ error:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
@@ -286,7 +267,4 @@ error:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
- 
-
- 
 

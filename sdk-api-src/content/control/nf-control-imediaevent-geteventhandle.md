@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
 ms.date: 12/05/2018
 ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle
-f1_keywords:
-- control/IMediaEvent.GetEventHandle
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaEvent.GetEventHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaEvent::GetEventHandle
+ - control/IMediaEvent::GetEventHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaEvent.GetEventHandle
 ---
 
 # IMediaEvent::GetEventHandle
@@ -50,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetEventHandle</code> method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hEvent [out]
 
 Pointer to a variable that receives the event handle.
 
-
 ## -returns
-
-
 
 Returns S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains event notifications, the manual-reset event is signaled. If the queue is empty, the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method resets the event.
 
@@ -99,20 +84,11 @@ GetEventHandle( (OAEVENT*) &hEvent );
 
 Another way for applications to monitor the event queue is by calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaeventex-setnotifywindow">IMediaEventEx::SetNotifyWindow</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
- 
-
- 
 

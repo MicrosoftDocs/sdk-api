@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6
 ms.date: 12/05/2018
 ms.keywords: CreateHeap, CreateHeap method, CreateHeap method,ID3D12Device interface, ID3D12Device interface,CreateHeap method, ID3D12Device.CreateHeap, ID3D12Device::CreateHeap, d3d12/ID3D12Device::CreateHeap, direct3d12.id3d12device_createheap
-f1_keywords:
-- d3d12/ID3D12Device.CreateHeap
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.CreateHeap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::CreateHeap
+ - d3d12/ID3D12Device::CreateHeap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.CreateHeap
 ---
 
 ## -description
@@ -97,3 +98,4 @@ A placed resource object holds a reference on the heap it is created on; but a r
 [ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)
 
 [Shared heaps](/windows/win32/direct3d12/shared-heaps)
+

@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: f3807e80-82ea-437e-ab30-bd00bc0fc6ad
 ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IMDServiceProvider3.SetDeviceEnumPreference, IMDServiceProvider3::SetDeviceEnumPreference, IMDServiceProvider3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IMDServiceProvider3 interface, mswmdm/IMDServiceProvider3::SetDeviceEnumPreference, wmdm.imdserviceprovider3_setdeviceenumpreference
-f1_keywords:
-- mswmdm/IMDServiceProvider3.SetDeviceEnumPreference
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDServiceProvider3.SetDeviceEnumPreference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDServiceProvider3::SetDeviceEnumPreference
+ - mswmdm/IMDServiceProvider3::SetDeviceEnumPreference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDServiceProvider3.SetDeviceEnumPreference
 ---
 
 # IMDServiceProvider3::SetDeviceEnumPreference
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetDeviceEnumPreference</b> method sets the device enumeration preferences.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwEnumPref [in]
 
@@ -82,12 +75,8 @@ Contains a bitwise <b>OR</b> combination of one or more of the following bit val
 <td>By default, the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a> callback mechanism provides applications with device arrival and removal events. When this bit is set, the service provider is free to notify the application by a separate mechanism, such as by using a window message. This behavior is in addition to the Windows Media Device Manager notifications. This flag does not suppress Windows Media Device Manager notifications.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -130,14 +119,8 @@ The method was called after an enumeration operation. It must be called before t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This API provides clients the ability to override the default device enumeration behavior of Windows Media Device Manager.
 
@@ -147,16 +130,7 @@ After a preference flag is set, it cannot be changed for the lifetime of the app
 
 The DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES flag has to be honored by the service provider to take effect. It is possible that, despite this flag, some devices are enumerated as a device-per-storage.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider3">IMDServiceProvider3 Interface</a>
- 
-
- 
 

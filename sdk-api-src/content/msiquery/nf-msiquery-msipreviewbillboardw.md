@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 7404ea12-bb38-4b7d-986e-2dff2fc36346
 ms.date: 12/05/2018
 ms.keywords: MsiPreviewBillboard, MsiPreviewBillboard function, MsiPreviewBillboardA, MsiPreviewBillboardW, _msi_msipreviewbillboard, msiquery/MsiPreviewBillboard, msiquery/MsiPreviewBillboardA, msiquery/MsiPreviewBillboardW, setup.msipreviewbillboard
-f1_keywords:
-- msiquery/MsiPreviewBillboard
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiPreviewBillboard
-- MsiPreviewBillboardA
-- MsiPreviewBillboardW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiPreviewBillboardW
+ - msiquery/MsiPreviewBillboardW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiPreviewBillboard
+ - MsiPreviewBillboardA
+ - MsiPreviewBillboardW
 ---
 
 # MsiPreviewBillboardW function
@@ -51,43 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiPreviewBillboard</b> function displays a billboard with the host control in the displayed dialog box.
 
-
 ## -parameters
-
-
-
 
 ### -param hPreview [in]
 
 Handle to the preview.
 
-
 ### -param szControlName [in]
 
 Specifies the name of the host control.
-
 
 ### -param szBillboard [in]
 
 Specifies the name of the billboard to display.
 
-
 ## -returns
-
-
 
 This function returns UINT.
 
-
-
-
 ## -remarks
-
-
 
 Supplying a null billboard name in the 
 <b>MsiPreviewBillboard</b> function removes any billboard displayed.
@@ -101,11 +87,5 @@ Supplying a null billboard name in the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">User Interface Functions</a>
- 
-
- 
 

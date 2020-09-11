@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: indexsrv
+f1_keywords:
+ - ntquery
+ - ntquery/ntquery
 ---
 
 # Ntquery.h header
 
 
 ## -description
-
 
 This header is used by Indexing Service. For more information, see:
 

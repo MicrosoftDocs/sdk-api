@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 2e6f6b81-b01c-4d46-9b7b-3265580f112a
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [GPMC], AddEntry method [GPMC],GPMMigrationTable class, AddEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],AddEntry method, IGPMMigrationTable interface [GPMC],AddEntry method, IGPMMigrationTable.AddEntry, IGPMMigrationTable::AddEntry, gpmc.igpmmigrationtable_addentry, gpmgmt/IGPMMigrationTable::AddEntry, typeComputer, typeGlobalGroup, typeLocalGroup, typeUNCPath, typeUniversalGroup, typeUnknown, typeUser
-f1_keywords:
-- gpmgmt/IGPMMigrationTable.AddEntry
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMMigrationTable.AddEntry
-- GPMMigrationTable.AddEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMMigrationTable::AddEntry
+ - gpmgmt/IGPMMigrationTable::AddEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMMigrationTable.AddEntry
+ - GPMMigrationTable.AddEntry
 ---
 
 # IGPMMigrationTable::AddEntry
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an entry in the migration table. The method  updates an existing entry.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrSource [in]
 
 Source field of the entry. This parameter cannot be null.
-
 
 ### -param gpmEntryType [in]
 
@@ -110,11 +105,9 @@ Creates an entry for a UNCPath.
 
 Creates an entry for an unknown.
 
-
 ### -param pvarDestination [in, optional]
 
 A pointer to a <b>VARIANT</b> structure.  You can  use the <b>DestinationOptions</b>: <b>opDestinationSameAsSource</b>, <b>opDestinationNone</b>, or <b>opDestinationByRelativeName</b> by passing  in a <i>pvarDestination</i> with a <b>vt</b> member of VT_I4. To explicitly pass in the destination,  pass in a <i>pvarDestination</i> with a <b>vt</b> member of VT_BSTR, and this  sets the <b>DestinationOptions</b> to <b>opDestinationSet</b>. If you pass in null, <b>AddEntry</b> uses the default value for the destination option, <b>opDestinationSameAsSource</b>.
-
 
 ### -param ppEntry [out]
 
@@ -125,10 +118,7 @@ The new entry.
 
 This parameter specifies the destination  as a string or as a destination option. Passing a string for the destination implicitly sets the entry's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSet</a> equal to the <b>DestinationOptionSet</b> property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">GPMConstants</a> object.  The destination can also be specified by passing the <b>DestinationSameAsSource</b>, <b>DestinationNone</b>, or <b>DestinationByRelativeName</b> properties of the <b>GPMConstants</b> object.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -139,16 +129,7 @@ Returns a reference to a <b>GPMMapEntry</b> object.
 <h3>VB</h3>
 Returns a reference to a <b>GPMMapEntry</b> object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
- 
-
- 
 

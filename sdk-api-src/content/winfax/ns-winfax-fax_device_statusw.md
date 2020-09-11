@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6vle.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_DEVICE_STATUSW, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS'
-f1_keywords:
-- winfax/FAX_DEVICE_STATUS
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winfax.h
-api_name:
-- FAX_DEVICE_STATUS
-- FAX_DEVICE_STATUSA
-- FAX_DEVICE_STATUSW
 targetos: Windows
 req.typenames: FAX_DEVICE_STATUSW, *PFAX_DEVICE_STATUSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FAX_DEVICE_STATUSW
+ - winfax/_FAX_DEVICE_STATUSW
+ - PFAX_DEVICE_STATUSW
+ - winfax/PFAX_DEVICE_STATUSW
+ - FAX_DEVICE_STATUSW
+ - winfax/FAX_DEVICE_STATUSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winfax.h
+api_name:
+ - FAX_DEVICE_STATUS
+ - FAX_DEVICE_STATUSA
+ - FAX_DEVICE_STATUSW
 ---
 
 # FAX_DEVICE_STATUSW structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FAX_DEVICE_STATUS</b> structure contains information about the current status of a fax device. In addition to the status, the structure also includes data on whether the device is currently sending or receiving a fax transmission, device and station identifiers, sender and recipient names, and routing information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
@@ -66,13 +66,11 @@ Type: <b>DWORD</b>
 
 Specifies the size, in bytes, of the <b>FAX_DEVICE_STATUS</b> structure. The fax service sets this member to <b>sizeof(FAX_DEVICE_STATUS)</b>.
 
-
 ### -field CallerId
 
 Type: <b>LPCTSTR</b>
 
 If the <b>JobType</b> member is equal to the <b>JT_RECEIVE</b> job type, <b>CallerId</b> is a pointer to a null-terminated character string that identifies the calling device that sent the active fax document. This string can include the telephone number of the calling device.
-
 
 ### -field Csid
 
@@ -80,13 +78,11 @@ Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the called station identifier of the device.
 
-
 ### -field CurrentPage
 
 Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that indicates the number of the page in the fax transmission that the fax device is currently sending or receiving. The page count is relative to one.
-
 
 ### -field DeviceId
 
@@ -94,20 +90,17 @@ Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that indicates the permanent line identifier for the fax device of interest.
 
-
 ### -field DeviceName
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the name of the fax device of interest.
 
-
 ### -field DocumentName
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string to associate with the fax document that the device is currently sending or receiving. This is the user-friendly name that appears in the print spooler.
-
 
 ### -field JobType
 
@@ -133,13 +126,11 @@ The fax device is receiving a fax document.
 
 The fax device is in an unknown or idle state.
 
-
 ### -field PhoneNumber
 
 Type: <b>LPCTSTR</b>
 
 If the <b>JobType</b> member is equal to the <b>JT_SEND</b> job type, <b>PhoneNumber</b> is a pointer to a constant null-terminated character string that is the fax number dialed for the outgoing fax transmission.
-
 
 ### -field RoutingString
 
@@ -153,13 +144,11 @@ If the <b>JobType</b> member is equal to the <b>JT_RECEIVE</b> job type, <b>Rout
 
 where <code>Canonical-Phone-Number</code> is defined in the <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
 
-
 ### -field SenderName
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the name of the sender who initiated the fax transmission.
-
 
 ### -field RecipientName
 
@@ -167,20 +156,17 @@ Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the name of the recipient of the fax transmission.
 
-
 ### -field Size
 
 Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that indicates the size, in bytes, of the active fax document.
 
-
 ### -field StartTime
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the starting time of the current fax job expressed in UTC.
-
 
 ### -field Status
 
@@ -320,13 +306,11 @@ The device answered a new call.
 
 The fax service processed the outbound fax document; the fax service provider will transmit the document.
 
-
 ### -field StatusString
 
 Type: <b>LPCTSTR</b>
 
 This member must be <b>NULL</b>.
-
 
 ### -field SubmittedTime
 
@@ -334,20 +318,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-m
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the client submitted the fax document for transmission to the fax job queue. The time is expressed in UTC.
 
-
 ### -field TotalPages
 
 Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that indicates the total number of pages in the fax transmission.
 
-
 ### -field Tsid
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the transmitting station identifier (TSID). This identifier is usually a telephone number.
-
 
 ### -field UserName
 
@@ -480,10 +461,7 @@ The device is sending a fax document.
 
 The device is not available because it is in use by another application.
 
-
 ## -remarks
-
-
 
 The fax client application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
 
@@ -498,9 +476,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
@@ -514,7 +489,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a>
- 
-
- 
 

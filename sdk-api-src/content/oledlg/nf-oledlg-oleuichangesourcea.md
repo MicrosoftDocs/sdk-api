@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSourceA, OleUIChangeSourceW, _ole_OleUIChangeSource, com.oleuichangesource, oledlg/OleUIChangeSource, oledlg/OleUIChangeSourceA, oledlg/OleUIChangeSourceW
-f1_keywords:
-- oledlg/OleUIChangeSource
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIChangeSource
-- OleUIChangeSourceA
-- OleUIChangeSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIChangeSourceA
+ - oledlg/OleUIChangeSourceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIChangeSource
+ - OleUIChangeSourceA
+ - OleUIChangeSourceW
 ---
 
 # OleUIChangeSourceA function
@@ -51,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Invokes the <b>Change Source</b> dialog box, allowing the user to change the source of a link. 
-
-
-
+Invokes the <b>Change Source</b> dialog box, allowing the user to change the source of a link.
 
 ## -parameters
-
-
-
 
 ### -param Arg1 [in]
 
 Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -429,14 +419,8 @@ The <i>nFilename</i> value is wrong.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The link source is not changed by the <b>Change Source</b> dialog box itself. Instead, it is up to the caller to change the link source using the returned file and item strings. The <b>Edit Links</b> dialog box typically does this for the caller. 
 
@@ -450,9 +434,6 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
@@ -462,7 +443,4 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
- 
-
- 
 

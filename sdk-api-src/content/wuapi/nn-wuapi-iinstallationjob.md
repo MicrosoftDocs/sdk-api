@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 1a83a44e-cd3b-43b0-8741-a73fe9954063
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], IInstallationJob interface [Windows Update Agent],described, wua.iinstallationjob, wuapi/IInstallationJob
-f1_keywords:
-- wuapi/IInstallationJob
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationJob
+ - wuapi/IInstallationJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationJob
 ---
 
 # IInstallationJob interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IInstallationJob</b> interface contains properties and methods that are available to an installation or uninstallation operation.
-
 
 ## -inheritance
 
@@ -152,5 +151,5 @@ Gets an interface that contains a read-only collection of the updates that are s
 
 </td>
 </tr>
-</table> 
+</table>
 

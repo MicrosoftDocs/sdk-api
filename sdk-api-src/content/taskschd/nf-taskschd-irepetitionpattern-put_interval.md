@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 3ba8e4b8-c0f9-4b73-8351-b1c1b32a1e39
 ms.date: 12/05/2018
 ms.keywords: IRepetitionPattern interface [Task Scheduler],Interval property, IRepetitionPattern.Interval, IRepetitionPattern.put_Interval, IRepetitionPattern::Interval, IRepetitionPattern::get_Interval, IRepetitionPattern::put_Interval, Interval property [Task Scheduler], Interval property [Task Scheduler],IRepetitionPattern interface, put_Interval, taskschd.irepetitionpattern_interval, taskschd/IRepetitionPattern::Interval, taskschd/IRepetitionPattern::get_Interval, taskschd/IRepetitionPattern::put_Interval
-f1_keywords:
-- taskschd/IRepetitionPattern.Interval
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRepetitionPattern.Interval
-- IRepetitionPattern.get_Interval
-- IRepetitionPattern.put_Interval
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRepetitionPattern::put_Interval
+ - taskschd/IRepetitionPattern::put_Interval
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRepetitionPattern.Interval
+ - IRepetitionPattern.get_Interval
+ - IRepetitionPattern.put_Interval
 ---
 
 # IRepetitionPattern::put_Interval
@@ -51,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the amount of time between each restart of the task.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If you specify a repetition duration for a task, you must also specify the repetition interval.
 
 When reading or writing XML for a task, the repetition interval is specified in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-interval-repetitiontype-element">Interval</a> element of the Task Scheduler schema.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern">IRepetitionPattern</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

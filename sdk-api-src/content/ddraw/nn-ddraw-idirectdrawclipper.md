@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
-f1_keywords:
-- ddraw/IDirectDrawClipper
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawClipper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawClipper
+ - ddraw/IDirectDrawClipper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawClipper
 ---
 
 # IDirectDrawClipper interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the <b>IDirectDrawClipper</b> interface to manage clip lists. This section is a reference to the methods of this interface.
-
 
 ## -inheritance
 
@@ -125,12 +124,9 @@ Sets the window handle that the clipper object uses to obtain clipping informati
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The methods of the <b>IDirectDrawClipper</b> interface can be organized into the following groups:<table>
 <tr>
@@ -170,7 +166,4 @@ You can use the LPDIRECTDRAWCLIPPER data type to declare a variable that contain
 typedef struct IDirectDrawClipper    FAR *LPDIRECTDRAWCLIPPER;
 
 ```
-
-
-
 

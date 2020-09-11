@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 5d3579f0-0258-423b-8f25-ce3c6917713e
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_SECURITY_QOS_V4_W, 0, PRPC_SECURITY_QOS_V4, PRPC_SECURITY_QOS_V4 structure pointer [RPC], RPC_C_AUTHN_INFO_TYPE_HTTP, RPC_C_IMP_LEVEL_ANONYMOUS, RPC_C_IMP_LEVEL_DEFAULT, RPC_C_IMP_LEVEL_DELEGATE, RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, RPC_C_QOS_CAPABILITIES_ANY_AUTHORITY, RPC_C_QOS_CAPABILITIES_DEFAULT, RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE, RPC_C_QOS_CAPABILITIES_LOCAL_MA_HINT, RPC_C_QOS_CAPABILITIES_MAKE_FULLSIC, RPC_C_QOS_CAPABILITIES_MUTUAL_AUTH, RPC_C_QOS_IDENTITY_DYNAMIC, RPC_C_QOS_IDENTITY_STATIC, RPC_SECURITY_QOS_V4, RPC_SECURITY_QOS_V4 structure [RPC], RPC_SECURITY_QOS_V4_A, RPC_SECURITY_QOS_V4_W, _RPC_SECURITY_QOS_V4_A, _RPC_SECURITY_QOS_V4_W, rpc.rpc_security_qos_v4, rpcdce/, rpcdce/PRPC_SECURITY_QOS_V4, rpcdce/RPC_SECURITY_QOS_V4, structure [RPC]'
-f1_keywords:
-- rpcdce/RPC_SECURITY_QOS_V4
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_SECURITY_QOS_V4
-- RPC_SECURITY_QOS_V4_A
-- RPC_SECURITY_QOS_V4_W
 targetos: Windows
 req.typenames: RPC_SECURITY_QOS_V4_W, *PRPC_SECURITY_QOS_V4_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_SECURITY_QOS_V4_W
+ - rpcdce/_RPC_SECURITY_QOS_V4_W
+ - PRPC_SECURITY_QOS_V4_W
+ - rpcdce/PRPC_SECURITY_QOS_V4_W
+ - RPC_SECURITY_QOS_V4_W
+ - rpcdce/RPC_SECURITY_QOS_V4_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_SECURITY_QOS_V4
+ - RPC_SECURITY_QOS_V4_A
+ - RPC_SECURITY_QOS_V4_W
 ---
 
 # RPC_SECURITY_QOS_V4_W structure
@@ -51,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RPC_SECURITY_QOS_V4</b> structure defines version 4  security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Version of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure being used. This topic documents version 4 of the <b>RPC_SECURITY_QOS</b> structure. See <b>RPC_SECURITY_QOS</b>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v5_a">RPC_SECURITY_QOS_V5</a> for other versions.
-
 
 ### -field Capabilities
 
@@ -141,8 +140,6 @@ The server is local to the machine making the RPC call. In this situation RPC in
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IdentityTracking
 
@@ -176,8 +173,6 @@ The Security context is revised whenever the ModifiedId in the client's token is
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ImpersonationType
 
@@ -243,8 +238,6 @@ The server can impersonate the client's security context while acting on behalf 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AdditionalSecurityInfoType
 
@@ -276,30 +269,22 @@ The <b>HttpCredentials</b> member of the <b>u</b> union points to a <a href="htt
 </td>
 </tr>
 </table>
- 
-
 
 ### -field u
-
 
 ### -field u.HttpCredentials
 
 Additional set of credentials to pass to RPC, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> structure. Used when the  <b>AdditionalSecurityInfoType</b> member is set to RPC_C_AUTHN_INFO_TYPE_HTTP.
 
-
 ### -field Sid
 
 Pointer to a security identifier (SID). The SID is an alternative to the <b>ServerPrincName</b> member, and only one can be specified. The <b>Sid</b> member cannot be set to non-<b>NULL</b> if the security provider is the SCHANNEL SSP. Some protocol sequences use  <b>Sid</b> internally for security, and some use a <b>ServerPrincName</b>. For example, <a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a> uses a <b>Sid</b> internally, and if the caller knows both the SID and the <b>ServerPrincName</b>, a call using <b>ncalrpc</b> can complete much faster in some cases if the SID is passed. In contrast, the <b>ncacn_*</b> and <b>ncadg_*</b> protocol sequences use a <b>ServerPrincName</b> internally, and therefore can execute calls faster when provided the <b>ServerPrincName</b>.
-
 
 ### -field EffectiveOnly
 
 If set, only enabled privileges are seen by the server.
 
-
 ## -remarks
-
-
 
 The following listing defines the availability of QOS versions on various Windows operating systems:
 
@@ -324,12 +309,7 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 <div class="alert"><b>Note</b>  Some security providers, such as Kerberos, support delegation-impersonation type. On Windows editions that support delegation-impersonation type, if the client has asked for delegation but the security provider is unable to provide it, the call fails with PRC_S_SEC_PKG_ERROR unless the RPC_C_QOS_CAPABILITIES_IGNORE_DELEGATE_FAILURE flag is specified.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY_V1</a>
 
@@ -360,7 +340,4 @@ This flag is designed to prevent a Denial of Service Attack. Using this flag for
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
- 
-
- 
 

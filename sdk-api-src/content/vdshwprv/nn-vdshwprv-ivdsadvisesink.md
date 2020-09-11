@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8e9b7c95-0b59-4268-a274-5d16812075a6
 ms.date: 12/05/2018
 ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink interface [VDS],described, base.ivdsadvisesink, vds/IVdsAdviseSink, vdshwprv/IVdsAdviseSink
-f1_keywords:
-- vdshwprv/IVdsAdviseSink
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsAdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsAdviseSink
+ - vdshwprv/IVdsAdviseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsAdviseSink
 ---
 
 # IVdsAdviseSink interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Receives VDS 
    notifications.
-
 
 ## -inheritance
 
@@ -81,12 +80,9 @@ Passes notifications from providers to VDS and from VDS to applications.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 VDS registers an <b>IVdsAdviseSink</b> interface with 
     providers by calling the 
@@ -103,13 +99,7 @@ After implementing the <b>IVdsAdviseSink</b>
 You do not specify a notification type or an object type when you register an application for notifications. 
      Rather, you register to receive all VDS notifications of all types and from all providers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-onload">IVdsProviderPrivate::OnLoad</a>
 
@@ -124,7 +114,4 @@ You do not specify a notification type or an object type when you register an ap
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-notification-model">VDS Notifications</a>
- 
-
- 
 

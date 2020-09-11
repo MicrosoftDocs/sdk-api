@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: cba9a9e8-2397-4c78-925f-ee5d817d1ee4
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformationEx, PeerDistServerOpenContentInformationEx function [Peer Networking], p2p.peerdistserveropencontentinformationex, peerdist/PeerDistServerOpenContentInformationEx
-f1_keywords:
-- peerdist/PeerDistServerOpenContentInformationEx
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- peerdist.h
-api_name:
-- PeerDistServerOpenContentInformationEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerDistServerOpenContentInformationEx
+ - peerdist/PeerDistServerOpenContentInformationEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - peerdist.h
+api_name:
+ - PeerDistServerOpenContentInformationEx
 ---
 
 # PeerDistServerOpenContentInformationEx function
@@ -49,72 +50,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerDistServerOpenContentInformationEx</b> function opens a <b>PEERDIST_CONTENTINFO_HANDLE</b>. The client uses the handle to retrieve content information.
 
-
 ## -parameters
-
-
-
 
 ### -param hPeerDist [in]
 
 A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
-
 ### -param cbContentIdentifier [in]
 
 The length, in bytes, of the content identifier.
-
 
 ### -param pContentIdentifier [in]
 
 Pointer to a buffer that contains the content identifier.
 
-
 ### -param ullContentOffset
 
 An offset from the beginning of the published content for which the content information handle is requested.
-
 
 ### -param cbContentLength
 
 The length, in bytes, of the content (starting from the ullContentOffset) for which the content information is requested.
 
-
 ### -param pRetrievalOptions [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options">PEER_RETRIEVAL_OPTIONS</a> structure specifying additional options for retrieving content information.
-
 
 ### -param hCompletionPort [in, optional]
 
 A handle to the completion port used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
-
 ### -param ulCompletionKey [in, optional]
 
 Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="https://msdn.microsoft.com/library/aa364986.aspx">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
-
 
 ### -param phContentInfo [out]
 
 A handle  used to retrieve the content information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -remarks
-
-
 
 If function succeeds, the handle received by <i>phContentInfo</i> can be passed to the  
  <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a> function to retrieve content information.
@@ -125,13 +105,7 @@ If <i>ullContentOffset</i> and <i>cbContentLength</i> are both zero, then the co
 
 The <i>pRetrievalOptions</i> parameter can be used to specify the range of content information versions that the requesting client is configured to process. This enables the client to retrieve an applicable version of the content information structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
@@ -150,7 +124,4 @@ The <i>pRetrievalOptions</i> parameter can be used to specify the range of conte
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
- 
-
- 
 

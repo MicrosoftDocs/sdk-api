@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3e37daf1-5529-4042-ab6e-89a7f77d5e15
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_COLOR_YCbCrA, DXVAHD_COLOR_YCbCrA structure [Media Foundation], dxvahd/DXVAHD_COLOR_YCbCrA, mf.dxvahd_color_ycbcra
-f1_keywords:
-- dxvahd/DXVAHD_COLOR_YCbCrA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_COLOR_YCbCrA
 targetos: Windows
 req.typenames: DXVAHD_COLOR_YCbCrA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_COLOR_YCbCrA
+ - dxvahd/_DXVAHD_COLOR_YCbCrA
+ - DXVAHD_COLOR_YCbCrA
+ - dxvahd/DXVAHD_COLOR_YCbCrA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_COLOR_YCbCrA
 ---
 
 # DXVAHD_COLOR_YCbCrA structure
@@ -49,39 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a YCbCr color value.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Y
 
 The Y (luma) value.
 
-
 ### -field Cb
 
 The Cb chroma value.
-
 
 ### -field Cr
 
 The Cr chroma value.
 
-
 ### -field A
 
 The alpha value. Values range from 0 (transparent) to 1 (opaque).
 
-
-
 ## -remarks
-
-
 
 Values have a nominal range of [0...1]. Given a format with  <i>n</i> bits per channel, the value of each color component is calculated as follows:
 
@@ -91,13 +82,7 @@ For example, for 8-bit YUV formats, <code>val = BYTE(f * 255.0)</code>.
 
 Reference black is (0.0625, 0.5, 0.5), which corresponds to (16, 128, 128) in an 8-bit representation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -108,7 +93,4 @@ Reference black is (0.0625, 0.5, 0.5), which corresponds to (16, 128, 128) in an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

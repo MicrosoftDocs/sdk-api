@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr_mpradminportdisconnect, mprapi/MprAdminPortDisconnect, rras.mpradminportdisconnect
-f1_keywords:
-- mprapi/MprAdminPortDisconnect
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminPortDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminPortDisconnect
+ - mprapi/MprAdminPortDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminPortDisconnect
 ---
 
 # MprAdminPortDisconnect function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminPortDisconnect</b> function disconnects a connection on a specific port.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasServer [in]
 
 Handle to the RAS server on which to disconnect the port. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
-
 ### -param hPort [in]
 
 Handle to the port to disconnect. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -134,13 +126,7 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This function is available on Windows NT Server 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as 
 <b>RasAdminPortDisconnect</b> rather than 
@@ -148,13 +134,7 @@ This function is available on Windows NT Server 4.0 if the RRAS redistributabl
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>
 
@@ -169,7 +149,4 @@ This function is available on Windows NT Server 4.0 if the RRAS redistributabl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 684c5dd5-edf0-4b7d-888c-c01eb9670846
 ms.date: 12/05/2018
 ms.keywords: DrvQueryDeviceSupport, DrvQueryDeviceSupport function [Display Devices], ddifncs_21186d04-cf17-4707-88b4-bd72d5f78b23.xml, display.drvquerydevicesupport, winddi/DrvQueryDeviceSupport
-f1_keywords:
-- winddi/DrvQueryDeviceSupport
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryDeviceSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryDeviceSupport
+ - winddi/DrvQueryDeviceSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryDeviceSupport
 ---
 
 # DrvQueryDeviceSupport function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvQueryDeviceSupport</b> function returns requested device-specific information.
 
-
 ## -parameters
-
-
-
 
 ### -param pso
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
 
-
 ### -param pxlo
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure.
 
-
 ### -param pxo
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure.
-
 
 ### -param iType
 
@@ -103,41 +96,28 @@ The buffer pointed to by <i>pvIn</i> contains a PNG-compressed image. The functi
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cjIn
 
 Caller-supplied size of the buffer pointed to by <i>pvIn</i>.
 
-
 ### -param pvIn [in]
 
 Caller-supplied pointer to an input buffer.
-
 
 ### -param cjOut
 
 Caller-supplied size of the buffer pointed to by <i>pvOut</i>.
 
-
 ### -param pvOut [out]
 
 Caller-supplied pointer to an output buffer.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>; otherwise it should return <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the QDS_CHECKJPEGFORMAT or QDS_CHECKPNGFORMAT flag is set in <i>iType</i>, the following rules apply:
 
@@ -153,13 +133,7 @@ The <i>pxlo</i> parameter is valid but the only information of interest is the <
 </ul>
 For more information about supporting JPEG and PNG compressed images, see the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
@@ -170,7 +144,4 @@ For more information about supporting JPEG and PNG compressed images, see the Re
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
- 
-
- 
 

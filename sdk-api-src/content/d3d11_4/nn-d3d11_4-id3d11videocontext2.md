@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: E3FB5478-31CD-4AE3-BEA0-18823C4A4D3E
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2, ID3D11VideoContext2 interface [Media Foundation], ID3D11VideoContext2 interface [Media Foundation],described, d3d11_4/ID3D11VideoContext2, mf.id3d11videocontext2, mf.id3dvideocontext2
-f1_keywords:
-- d3d11_4/ID3D11VideoContext2
-dev_langs:
-- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11_4.h
-api_name:
-- ID3D11VideoContext2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoContext2
+ - d3d11_4/ID3D11VideoContext2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11_4.h
+api_name:
+ - ID3D11VideoContext2
 ---
 
 # ID3D11VideoContext2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides the video functionality of a Microsoft Direct3D 11 device. 
-
+Provides the video functionality of a Microsoft Direct3D 11 device.
 
 ## -inheritance
 
@@ -104,16 +103,9 @@ Sets the HDR metadata associated with the video stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
- 
-
- 
 

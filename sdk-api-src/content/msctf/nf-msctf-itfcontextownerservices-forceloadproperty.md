@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7f77d82f-e048-463f-bf0d-15bf1daaddb6
 ms.date: 12/05/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],ForceLoadProperty method, ITfContextOwnerServices.ForceLoadProperty, ITfContextOwnerServices::ForceLoadProperty, _tsf_itfcontextownerservices_forceloadproperty_ref, msctf/ITfContextOwnerServices::ForceLoadProperty, tsf.itfcontextownerservices_forceloadproperty
-f1_keywords:
-- msctf/ITfContextOwnerServices.ForceLoadProperty
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContextOwnerServices.ForceLoadProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwnerServices::ForceLoadProperty
+ - msctf/ITfContextOwnerServices::ForceLoadProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContextOwnerServices.ForceLoadProperty
 ---
 
 # ITfContextOwnerServices::ForceLoadProperty
@@ -53,17 +54,11 @@ Forces a property load.
 
 ## -parameters
 
-
-
-
 ### -param pProp [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,20 +101,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must be able to grant a synchronous read-only lock before calling this method.
-
-
-
 
 ## -see-also
 
 [ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Unserialize](nf-msctf-itfcontextownerservices-unserialize.md), [ITfProperty interface](nn-msctf-itfproperty.md)
+

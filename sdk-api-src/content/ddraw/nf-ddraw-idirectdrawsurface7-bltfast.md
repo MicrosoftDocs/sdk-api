@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: ac882b48-87b2-4b65-99b0-ac9065b5f47f
 ms.date: 12/05/2018
 ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],IDirectDrawSurface7 interface, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7 interface [DirectDraw],BltFast method, IDirectDrawSurface7.BltFast, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
-f1_keywords:
-- ddraw/IDirectDrawSurface7.BltFast
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.BltFast
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::BltFast
+ - ddraw/IDirectDrawSurface7::BltFast
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.BltFast
 ---
 
 # IDirectDrawSurface7::BltFast
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a source copy bitblt or transparent bitblt by using a source color key or destination color key.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 The x-coordinate to bitblt to on the destination surface.
 
-
 ### -param arg2 [in]
 
 The y-coordinate to bitblt to on the destination surface.
-
 
 ### -param arg3 [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDrawSurface object that is the source of the bitblt.
 
-
 ### -param arg4 [in]
 
 A pointer to a <b>RECT</b> structure that defines the upper-left and lower-right points of the rectangle to bitblt from on the source surface.
-
 
 ### -param arg5 [in]
 
@@ -106,10 +98,7 @@ A transparent bitblt that uses the source color key.
 
 Postpones the DDERR_WASSTILLDRAWING message if the bitbltter is busy, and returns as soon as the bitblt can be set up or another error occurs.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -130,11 +119,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <b>BltFast</b> always attempts an asynchronous blit if it is supported by the hardware.
 
@@ -146,16 +131,7 @@ Typically, <b>IDirectDrawSurface7::BltFast</b> returns immediately with an error
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>BltFast</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

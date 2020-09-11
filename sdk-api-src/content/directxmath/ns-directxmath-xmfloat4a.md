@@ -7,10 +7,6 @@ helpviewer_keywords: ["XMFLOAT4A"]
 ms.assetid: 1cb0c521-3494-4bad-b6c4-3fbe029034f3
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT4A
-f1_keywords:
-- directxmath/XMFLOAT4A
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -27,17 +23,23 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMFLOAT4A
+ - directxmath/XMFLOAT4A
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- XMFLOAT4A
+ - XMFLOAT4A
 ---
 
 # XMFLOAT4A structure
+
 
 ## -description
 
@@ -64,3 +66,4 @@ Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLO
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a>
+

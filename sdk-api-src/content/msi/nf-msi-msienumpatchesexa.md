@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 32edcc56-190a-465f-b341-56dc60ab0589
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSIPATCHSTATE_ALL, MSIPATCHSTATE_APPLIED, MSIPATCHSTATE_OBSOLETED, MSIPATCHSTATE_REGISTERED, MSIPATCHSTATE_SUPERSEDED, MsiEnumPatchesEx, MsiEnumPatchesEx function, MsiEnumPatchesExA, MsiEnumPatchesExW, NULL, User SID, msi/MsiEnumPatchesEx, msi/MsiEnumPatchesExA, msi/MsiEnumPatchesExW, s-1-1-0, setup.msienumpatchesex
-f1_keywords:
-- msi/MsiEnumPatchesEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiEnumPatchesEx
-- MsiEnumPatchesExA
-- MsiEnumPatchesExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumPatchesExA
+ - msi/MsiEnumPatchesExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiEnumPatchesEx
+ - MsiEnumPatchesExA
+ - MsiEnumPatchesExW
 ---
 
 # MsiEnumPatchesExA function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiEnumPatchesEx</b> function enumerates all patches in a specific context or across all contexts. Patches already applied to products are enumerated. Patches that have been registered but not yet applied to products are also enumerated.
 
-
 ## -parameters
-
-
-
 
 ### -param szProductCode [in, optional]
 
 A null-terminated string that specifies the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product whose patches are enumerated. If non-<b>NULL</b>, patch enumeration is restricted to instances of this product under the user and context specified by <i>szUserSid</i> and <i>dwContext</i>. If <b>NULL</b>, the patches for all products under the specified context are enumerated.
-
 
 ### -param szUserSid [in, optional]
 
@@ -151,8 +146,6 @@ An enumeration that is  extended to all per-machine installations. When <i>dwCon
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFilter [in]
 
@@ -221,28 +214,22 @@ The enumeration includes all applied, obsolete, superseded, and registered patch
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
 The index of the patch to retrieve. This parameter must be zero for the first call to the <b>MsiEnumPatchesEx</b> function and then incremented for subsequent calls. The <i>dwIndex</i> parameter should be incremented only if the previous call returned ERROR_SUCCESS.
 
-
 ### -param szPatchCode [out, optional]
 
 An output buffer to contain the GUID of the patch being enumerated. The buffer should be large enough to hold the GUID. This parameter can be <b>NULL</b>.
-
 
 ### -param szTargetProductCode [out, optional]
 
 An output buffer to contain the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product that receives this patch. The buffer should be large enough to hold the GUID. This parameter can be <b>NULL</b>.
 
-
 ### -param pdwTargetProductContext [out, optional]
 
 Returns the context of the patch being enumerated. The output value can be  <b>MSIINSTALLCONTEXT_USERMANAGED</b>,  <b>MSIINSTALLCONTEXT_USERUNMANAGED</b>, or <b>MSIINSTALLCONTEXT_MACHINE</b>. This parameter can be <b>NULL</b>.
-
 
 ### -param szTargetUserSid [out, optional]
 
@@ -254,17 +241,13 @@ If the <i>szTargetUserSid</i> is set to <b>NULL</b> and <i>pcchTargetUserSid</i>
 
 If <i>szTargetUserSid</i> and <i>pcchTargetUserSid</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the value exists, without  retrieving the value.
 
-
 ### -param pcchTargetUserSid [in, out, optional]
 
 A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szTargetUserSid</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>szTargetUserSid</i> is also <b>NULL</b>, otherwise the function returns ERROR_INVALID_PARAMETER.
 
-
 ## -returns
-
-
 
 The <b>MsiEnumPatchesEx</b> function returns one of the following values.
 
@@ -351,14 +334,8 @@ This is returned when <i>pcchTargetUserSid</i> points to a buffer size less than
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Non-administrators can  enumerate patches within  their visibility only. Administrators can enumerate patches for other user contexts.
 
@@ -370,9 +347,6 @@ Non-administrators can  enumerate patches within  their visibility only. Adminis
 > The msi.h header defines MsiEnumPatchesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
 
@@ -387,7 +361,4 @@ Non-administrators can  enumerate patches within  their visibility only. Adminis
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontverticalposition.htm
 ms.date: 12/05/2018
 ms.keywords: UI_FONTVERTICALPOSITION, UI_FONTVERTICALPOSITION enumeration [Windows Ribbon], UI_FONTVERTICALPOSITION_NOTAVAILABLE, UI_FONTVERTICALPOSITION_NOTSET, UI_FONTVERTICALPOSITION_SUBSCRIPT, UI_FONTVERTICALPOSITION_SUPERSCRIPT, scenicintent_UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION_NOTAVAILABLE, uiribbon/UI_FONTVERTICALPOSITION_NOTSET, uiribbon/UI_FONTVERTICALPOSITION_SUBSCRIPT, uiribbon/UI_FONTVERTICALPOSITION_SUPERSCRIPT, windowsribbon.windowsribbon_ui_fontverticalposition
-f1_keywords:
-- uiribbon/UI_FONTVERTICALPOSITION
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_FONTVERTICALPOSITION
 targetos: Windows
 req.typenames: UI_FONTVERTICALPOSITION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_FONTVERTICALPOSITION
+ - uiribbon/UI_FONTVERTICALPOSITION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_FONTVERTICALPOSITION
 ---
 
 # UI_FONTVERTICALPOSITION enumeration
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies values that identify the vertical-alignment state of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UI_FONTVERTICALPOSITION_NOTAVAILABLE
 
 Vertical positioning is not enabled.
 
-
 ### -field UI_FONTVERTICALPOSITION_NOTSET
 
 Vertical positioning is enabled but not toggled.
-
 
 ### -field UI_FONTVERTICALPOSITION_SUPERSCRIPT
 
 Vertical positioning is enabled and toggled for superscript.
 
-
 ### -field UI_FONTVERTICALPOSITION_SUBSCRIPT
 
 Vertical positioning is enabled and toggled for subscript.
 
-
 ## -remarks
-
-
 
 <b>UI_FONTVERTICALPOSITION</b> is associated with the <b>Subscript</b> and <b>Superscript</b> toggle buttons of the <i>RichFont</i> <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> as shown in the following screen shot.
 
@@ -89,20 +79,11 @@ The <b>Subscript</b> and <b>Superscript</b> toggle buttons  are displayed by def
 
 The <b>Subscript</b> and <b>Superscript</b> buttons are toggled based on the <b>UI_FONTVERTICALPOSITION</b> value in <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning">UI_PKEY_FontProperties_VerticalPositioning</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning">UI_PKEY_FontProperties_VerticalPositioning</a>
- 
-
- 
 

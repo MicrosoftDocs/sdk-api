@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
 ms.date: 12/05/2018
 ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
-f1_keywords:
-- winhttp/WinHttpCreateUrl
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpCreateUrl
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpCreateUrl
+ - winhttp/WinHttpCreateUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpCreateUrl
 ---
 
 # WinHttpCreateUrl function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpCreateUrl</b> function creates a URL from component parts such as the host name and path.
 
-
 ## -parameters
-
-
-
 
 ### -param lpUrlComponents [in]
 
 Pointer to a 
 <a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
-
 
 ### -param dwFlags [in]
 
@@ -98,13 +93,10 @@ Rejects URLs as input that contains either a username, or a password, or both. I
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszUrl [out]
 
 Pointer to a character buffer that receives the URL as a wide character (Unicode) string.
-
 
 ### -param pdwUrlLength [in, out]
 
@@ -112,10 +104,7 @@ Pointer to a variable of type unsigned long integer that receives the length of 
 <i>pwszUrl</i> buffer in wide (Unicode) characters. When the function returns, this parameter receives the length of the URL string wide in characters, minus 1 for the terminating character. If 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter receives the number of wide characters required to hold the created URL.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error data, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -148,14 +137,8 @@ Insufficient memory available to complete the requested operation. (Windows erro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>, this function operates synchronously. The return value indicates success or failure.  To get extended error data, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -217,14 +200,7 @@ The following  example shows how to decompile, or crack, a URL into its subcompo
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -239,7 +215,4 @@ The following  example shows how to decompile, or crack, a URL into its subcompo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcrackurl">WinHttpCrackUrl</a>
- 
-
- 
 

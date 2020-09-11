@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_FEATURE_VIDEO","D3D12_FEATURE_VIDEO",""]
 tech.root: mf
 ms.assetid: 19381358-07c5-4244-a28b-52b568da3b7c
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_FEATURE_VIDEO
-dev_langs:
-- c++
 ms.keywords: D3D12_FEATURE_VIDEO, D3D12_FEATURE_VIDEO,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,28 +18,34 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_FEATURE_VIDEO
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_FEATURE_VIDEO
 targetos: Windows
+f1_keywords:
+ - D3D12_FEATURE_VIDEO
+ - d3d12video/D3D12_FEATURE_VIDEO
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_FEATURE_VIDEO
 ---
+
 # D3D12_FEATURE_VIDEO enumeration
+
 
 ## -description
 
 Specifies a Direct3D 12 video feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md).
 
-
 ## -enum-fields
 
 ### -field D3D12_FEATURE_VIDEO_DECODE_SUPPORT 
 
-Check if a decode profile, bitstream encryption, resolution, and format are supported.  The result is a <a href="ne-d3d12video-d3d12_video_decode_tier.md">D3D12_VIDEO_DECODE_TIER</a> indicating the level of support.  The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_decode_support.md">D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT</a>. 
+Check if a decode profile, bitstream encryption, resolution, and format are supported.  The result is a <a href="ne-d3d12video-d3d12_video_decode_tier.md">D3D12_VIDEO_DECODE_TIER</a> indicating the level of support.  The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_decode_support.md">D3D12_FEATURE_DATA_VIDEO_DECODE_SUPPORT</a>.
 
 ### -field D3D12_FEATURE_VIDEO_DECODE_PROFILES 
 
@@ -63,7 +65,7 @@ Retrieves the video processor capabilities.  The associated data structure is <a
 
 ### -field D3D12_FEATURE_VIDEO_PROCESS_MAX_INPUT_STREAMS 
 
-Retrieves the maximum number of streams that can be enabled at the same time.  The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_process_max_input_streams.md">D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS</a>.    
+Retrieves the maximum number of streams that can be enabled at the same time.  The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_process_max_input_streams.md">D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS</a>.
 
 ### -field D3D12_FEATURE_VIDEO_PROCESS_REFERENCE_INFO 
 
@@ -76,7 +78,6 @@ Checks the allocation size of a video decoder heap. The associated data structur
 ### -field D3D12_FEATURE_VIDEO_PROCESSOR_SIZE 
 
 Checks the allocation size of a video processor heap. The associated data structure is <a href="ns-d3d12video-d3d12_feature_data_video_processor_size.md">D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE</a>. For information on residency budgeting for heaps, see [Residency](/windows/win32/direct3d12/residency).
-
 
 ### -field D3D12_FEATURE_VIDEO_DECODE_PROFILE_COUNT 
 
@@ -133,3 +134,4 @@ Checks support for motion estimation with protected resources. The associated da
 ## -remarks
 
 ## -see-also
+

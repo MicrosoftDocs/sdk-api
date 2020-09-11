@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 8b8e4ec9-3d85-4d64-98dc-86e5fd093e93
 ms.date: 12/05/2018
 ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpcloseurlgroup, http/HttpCloseUrlGroup
-f1_keywords:
-- http/HttpCloseUrlGroup
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpCloseUrlGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpCloseUrlGroup
+ - http/HttpCloseUrlGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpCloseUrlGroup
 ---
 
 # HttpCloseUrlGroup function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpCloseUrlGroup</b> function closes the URL Group identified by the URL Group ID. This call also removes all of the URLs that are associated with the URL Group.
 
-
 ## -parameters
-
-
-
 
 ### -param UrlGroupId [in]
 
 The ID of the URL Group that is deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
@@ -90,24 +83,12 @@ The application does not have permission to close the URL Group. Only the applic
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Applications must call <b>HttpCloseUrlGroup</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a> to close the all URL Groups associated with the server session.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -130,7 +111,4 @@ Applications must call <b>HttpCloseUrlGroup</b> before calling <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3179fe78-a969-4ee2-a50b-5f4f7d4dad71
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathAllocCanonicalize, PathAllocCanonicalize function [Windows Shell], pathcch/PathAllocCanonicalize, shell.PathAllocCanonicalize
-f1_keywords:
-- pathcch/PathAllocCanonicalize
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathAllocCanonicalize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathAllocCanonicalize
+ - pathcch/PathAllocCanonicalize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathAllocCanonicalize
 ---
 
 # PathAllocCanonicalize function
+
 
 ## -description
 
@@ -167,3 +169,4 @@ This function supports these alternate path forms:
 </ul>
 
 This function does not convert forward slashes (`/`) into back slashes (`\`). With untrusted input, this function by itself, cannot be used to convert paths into a form that can be compared with other paths for sub-path or identity. Callers that need that ability should convert forward to back slashes before using this function.
+

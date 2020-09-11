@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.date: 12/05/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
-f1_keywords:
-- newdev/DiInstallDriver
-dev_langs:
-- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Newdev.lib
-- Newdev.dll
-api_name:
-- DiInstallDriver
-- DiInstallDriverA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DiInstallDriverA
+ - newdev/DiInstallDriverA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Newdev.lib
+ - Newdev.dll
+api_name:
+ - DiInstallDriver
+ - DiInstallDriverA
 ---
 
 # DiInstallDriverA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DiInstallDriver</b> function preinstalls a driver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a> and then installs the driver on devices present in the system that the driver supports.
-
 
 ## -parameters
 
-
-
-
 ### -param hwndParent [in, optional]
 
-A handle to the top-level window that <b>DiInstallDriver</b> uses to display any user interface component that is associated with installing the device. This parameter is optional and can be set to <b>NULL</b>. 
-
+A handle to the top-level window that <b>DiInstallDriver</b> uses to display any user interface component that is associated with installing the device. This parameter is optional and can be set to <b>NULL</b>.
 
 ### -param InfPath [in]
 
 A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
-
 
 ### -param Flags [in]
 
@@ -80,15 +74,11 @@ If this flag is zero, <b>DiInstallDriver</b> only installs the specified driver 
 <div> </div>
 For information about how Windows selects a driver for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
-
 ### -param NeedReboot [out, optional]
 
-A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system is restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section. 
-
+A pointer to a value of type BOOL that <b>DiInstallDriver</b> sets to indicate whether a system is restart is required to complete the installation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the installation, <b>DiInstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the installation, <b>DiInstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
 
 ## -returns
-
-
 
 <b>DiInstallDriver</b> returns <b>TRUE</b> if the function successfully preinstalled the specified <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. <b>DiInstallDriver</b> also returns <b>TRUE</b> if the function successfully installed the driver on one or more devices in the system. If the driver package is not successfully installed in the driver store, <b>DiInstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
@@ -142,14 +132,8 @@ The calling application is a 32-bit application that is attempting to execute in
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>DiInstallDriver</b> performs the following operations:
 
@@ -198,11 +182,5 @@ To install a selected driver on a selected device, call <a href="https://docs.mi
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiInstallDevice</a>
- 
-
- 
 

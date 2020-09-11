@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: ad361e78-42e8-4945-9395-fab983e396df
 ms.date: 12/05/2018
 ms.keywords: DCB_ACCUMULATE, DCB_DISABLE, DCB_ENABLE, DCB_RESET, SetBoundsRect, SetBoundsRect function [Windows GDI], _win32_SetBoundsRect, gdi.setboundsrect, wingdi/SetBoundsRect
-f1_keywords:
-- wingdi/SetBoundsRect
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetBoundsRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetBoundsRect
+ - wingdi/SetBoundsRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetBoundsRect
 ---
 
 # SetBoundsRect function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetBoundsRect</b> function controls the accumulation of bounding rectangle information for the specified device context. The system can maintain a bounding rectangle for all drawing operations. An application can examine and set this rectangle. The drawing boundaries are useful for invalidating bitmap caches.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context for which to accumulate bounding rectangles.
 
-
 ### -param lprect [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure used to set the bounding rectangle. Rectangle dimensions are in logical coordinates. This parameter can be <b>NULL</b>.
-
 
 ### -param flags [in]
 
@@ -120,12 +114,8 @@ Clears the bounding rectangle.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the previous state of the bounding rectangle. This state can be a combination of the following values.
 
@@ -155,22 +145,11 @@ If the function succeeds, the return value specifies the previous state of the b
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The DCB_SET value is a combination of the bit values DCB_ACCUMULATE and DCB_RESET. Applications that check the DCB_RESET bit to determine whether the bounding rectangle is empty must also check the DCB_ACCUMULATE bit. The bounding rectangle is empty only if the DCB_RESET bit is 1 and the DCB_ACCUMULATE bit is 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getboundsrect">GetBoundsRect</a>
 
@@ -185,7 +164,4 @@ The DCB_SET value is a combination of the bit values DCB_ACCUMULATE and DCB_RESE
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
- 
-
- 
 

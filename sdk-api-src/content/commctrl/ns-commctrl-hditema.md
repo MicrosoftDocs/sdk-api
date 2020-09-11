@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hditem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPHDITEMA, Combining Flags:, Display:, HDFT_HASNOVALUE, HDFT_ISDATE, HDFT_ISNUMBER, HDFT_ISSTRING, HDF_BITMAP, HDF_BITMAP_ON_RIGHT, HDF_CENTER, HDF_CHECKBOX, HDF_CHECKED, HDF_FIXEDWIDTH, HDF_IMAGE, HDF_JUSTIFYMASK, HDF_LEFT, HDF_OWNERDRAW, HDF_RIGHT, HDF_RTLREADING, HDF_SORTDOWN, HDF_SORTUP, HDF_SPLITBUTTON, HDF_STRING, HDITEM, HDITEM structure [Windows Controls], HDITEMA, HDITEMW, HDI_BITMAP, HDI_DI_SETITEM, HDI_FILTER, HDI_FORMAT, HDI_HEIGHT, HDI_IMAGE, HDI_LPARAM, HDI_ORDER, HDI_STATE, HDI_TEXT, HDI_WIDTH, LPHDITEM, LPHDITEM structure pointer [Windows Controls], Text Justification:, _win32_HDITEM, _win32_HDITEM_cpp, commctrl/HDITEM, commctrl/HDITEMA, commctrl/HDITEMW, commctrl/LPHDITEM, controls.HDITEM, controls._win32_HDITEM'
-f1_keywords:
-- commctrl/HDITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- HDITEM
-- HDITEMA
-- HDITEMW
 targetos: Windows
 req.typenames: HDITEMA, *LPHDITEMA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HD_ITEMA
+ - commctrl/_HD_ITEMA
+ - LPHDITEMA
+ - commctrl/LPHDITEMA
+ - HDITEMA
+ - commctrl/HDITEMA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - HDITEM
+ - HDITEMA
+ - HDITEMW
 ---
 
 # HDITEMA structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about an item in a header control. This structure supersedes the <b>HD_ITEM</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -184,15 +184,12 @@ The <b>cxy</b> member is valid and specifies the item's width.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cxy
 
 Type: <b>int</b>
 
-The width or height of the item. 
-
+The width or height of the item.
 
 ### -field pszText
 
@@ -200,20 +197,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A pointer to an item string. If the text is being retrieved from the control, this member must be initialized to point to a character buffer. If this member is set to LPSTR_TEXTCALLBACK, the control will request text information for this item by sending an <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification code. Note that although the header control allows a string of any length to be stored as item text, only the first 260 <b>TCHAR</b><b>s</b> are displayed.
 
-
 ### -field hbm
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
-A handle to the item bitmap. 
-
+A handle to the item bitmap.
 
 ### -field cchTextMax
 
 Type: <b>int</b>
 
-The length of the item string, in <b>TCHAR</b><b>s</b>. If the text is being retrieved from the control, this member must contain the number of <b>TCHAR</b><b>s</b> at the address specified by <b>pszText</b>. 
-
+The length of the item string, in <b>TCHAR</b><b>s</b>. If the text is being retrieved from the control, this member must contain the number of <b>TCHAR</b><b>s</b> at the address specified by <b>pszText</b>.
 
 ### -field fmt
 
@@ -429,15 +423,12 @@ Typically, windows displays text left-to-right (LTR). Windows can be <i>mirrored
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Application-defined item data. 
-
+Application-defined item data.
 
 ### -field iImage
 
@@ -445,13 +436,11 @@ Type: <b>int</b>
 
 The zero-based index of an image within the image list. The specified image will be displayed in the header item in addition to any image specified in the <b>hbm</b>  field. If <b>iImage</b> is set to I_IMAGECALLBACK, the control requests text information for this item by using an <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-getdispinfo">HDN_GETDISPINFO</a> notification code. To clear the image, set this value to I_IMAGENONE.
 
-
 ### -field iOrder
 
 Type: <b>int</b>
 
-The order in which the item appears within the header control, from left to right. That is, the value for the far left item is 0. The value for the next item to the right is 1, and so on. 
-
+The order in which the item appears within the header control, from left to right. That is, the value for the far left item is 0. The value for the next item to the right is 1, and so on.
 
 ### -field type
 
@@ -507,15 +496,12 @@ Ignore <b>pvFilter</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pvFilter
 
 Type: <b>void*</b>
 
 The address of an application-defined data item. The data filter type is determined by setting the flag value of the  member. Use the HDFT_ISSTRING flag to indicate a string and HDFT_ISNUMBER to indicate an integer. When the HDFT_ISSTRING flag is used <b>pvFilter</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-hd_textfiltera">HDTEXTFILTER</a> structure.
-
 
 ### -field state
 
@@ -540,12 +526,8 @@ The item has keyboard focus.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3b6f7e6e-f1ea-4c90-9d26-fcbe5e104e2c
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots, PostFinalCommitSnapshots, PostFinalCommitSnapshots method [VSS], PostFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postfinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.PostFinalCommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
    <b>PostFinalCommitSnapshots</b> 
    method supports 
    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> shadow 
    copies. VSS calls this method to notify the provider that the volume will now be read-only until a requester calls <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">IVssBackupComponents::BreakSnapshotSet</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> that identifies the shadow copy set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -131,12 +124,7 @@ An unexpected provider error occurred. If this is returned, the error must be de
 If any other value is returned, VSS will write an event to the event log and convert the error to 
       <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
 
-
-
-
 ## -remarks
-
-
 
 This method was added in Windows Server 2003 to enable binary compatibility when the 
     <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> feature was 
@@ -156,17 +144,7 @@ HRESULT PostFinalCommitSnapshots(
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
 

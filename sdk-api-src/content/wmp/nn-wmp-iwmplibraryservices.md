@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55
 ms.date: 12/05/2018
 ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player],described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
-f1_keywords:
-- wmp/IWMPLibraryServices
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPLibraryServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPLibraryServices
+ - wmp/IWMPLibraryServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPLibraryServices
 ---
 
 # IWMPLibraryServices interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPLibraryServices</b> interface provides methods to enumerate libraries.
-
-
-
 
 ## -inheritance
 
@@ -92,14 +88,8 @@ Retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the libra
 </table> 
 
 Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b> through <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> from a local or remoted Windows Media Player ActiveX control.
-	
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
 
@@ -110,7 +100,4 @@ Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

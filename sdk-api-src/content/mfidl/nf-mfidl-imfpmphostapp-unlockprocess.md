@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4cb26f53-7d2a-417b-9bb8-0268920cf2a7
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHostApp interface [Media Foundation],UnlockProcess method, IMFPMPHostApp.UnlockProcess, IMFPMPHostApp::UnlockProcess, UnlockProcess, UnlockProcess method [Media Foundation], UnlockProcess method [Media Foundation],IMFPMPHostApp interface, mf.imfpmphostapp_unlockprocess, mfidl/IMFPMPHostApp::UnlockProcess
-f1_keywords:
-- mfidl/IMFPMPHostApp.UnlockProcess
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfidl.h
-api_name:
-- IMFPMPHostApp.UnlockProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMPHostApp::UnlockProcess
+ - mfidl/IMFPMPHostApp::UnlockProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfidl.h
+api_name:
+ - IMFPMPHostApp.UnlockProcess
 ---
 
 # IMFPMPHostApp::UnlockProcess
@@ -49,31 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphostapp-lockprocess">IMFPMPHostApp::LockProcess</a>.
-        
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a>
 
@@ -84,7 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
- 
-
- 
 

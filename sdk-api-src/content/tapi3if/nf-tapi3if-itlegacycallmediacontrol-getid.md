@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GetID method, ITLegacyCallMediaControl.GetID, ITLegacyCallMediaControl::GetID, _tapi3_itlegacycallmediacontrol_getid, tapi3.itlegacycallmediacontrol_getid, tapi3if/ITLegacyCallMediaControl::GetID
-f1_keywords:
-- tapi3if/ITLegacyCallMediaControl.GetID
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyCallMediaControl.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyCallMediaControl::GetID
+ - tapi3if/ITLegacyCallMediaControl::GetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyCallMediaControl.GetID
 ---
 
 # ITLegacyCallMediaControl::GetID
@@ -49,38 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetID</b> method gets the identifier for the device associated with the current call.
 
 This method is intended for C/C++ applications.  Visual Basic and scripting applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-getidasvariant">ITLegacyCallMediaControl2::GetIDAsVariant</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pDeviceClass [in]
 
 Pointer to <b>BSTR</b> representing the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">TAPI device class</a>.
 
-
 ### -param pdwSize [out]
 
 Size in bytes of device identifier.
-
 
 ### -param ppDeviceID [out]
 
 Device identifier.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,14 +114,8 @@ The <i>pdwSize</i> or <i>ppDeviceID</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a> prior to calling this method.
@@ -142,13 +127,7 @@ The application must use
 The application must call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory allocated for the <i>ppDeviceID</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
 
@@ -159,7 +138,4 @@ The application must call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-getidasvariant">ITLegacyCallMediaControl2::GetIDAsVariant</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a8f272d8-4024-46bf-a0e6-77d870615fc0
 ms.date: 12/05/2018
 ms.keywords: GetBackupStamp, GetBackupStamp method [VSS], GetBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupStamp method, IVssComponent.GetBackupStamp, IVssComponent::GetBackupStamp, _win32_ivsscomponent_getbackupstamp, base.ivsscomponent_getbackupstamp, vswriter/IVssComponent::GetBackupStamp
-f1_keywords:
-- vswriter/IVssComponent.GetBackupStamp
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetBackupStamp
+ - vswriter/IVssComponent::GetBackupStamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetBackupStamp
 ---
 
 # IVssComponent::GetBackupStamp
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetBackupStamp</b> method returns the backup stamp string stored by a writer for a given component.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrBackupStamp [out]
 
 The address of a caller-allocated variable that receives a string containing the backup stamp indicating the time at which the component was backed up.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -135,14 +128,8 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If no backup time stamp has been set, 
 <b>GetBackupStamp</b> returns S_FALSE.
@@ -158,13 +145,7 @@ The backup stamp retrieved by
 
 Requesters merely store the backup stamps in the Backup Components Document; they do not make direct use of the backup stamp, know how to generate it, or understand its format.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
 
@@ -175,7 +156,4 @@ Requesters merely store the backup stamps in the Backup Components Document; the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a>
- 
-
- 
 

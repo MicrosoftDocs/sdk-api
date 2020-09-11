@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 8fa40b60-0e93-493b-aee1-cea6cf595707
 ms.date: 12/05/2018
 ms.keywords: _win32_gethostname_2, gethostname, gethostname function [Winsock], winsock.gethostname_2, winsock/gethostname
-f1_keywords:
-- winsock/gethostname
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- gethostname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - gethostname
+ - winsock/gethostname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - gethostname
 ---
 
 # gethostname function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>gethostname</b> function retrieves the standard host name for the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param name [out]
 
 A pointer to a buffer that receives the local host name.
 
-
 ### -param namelen [in]
 
 The length, in bytes, of the buffer pointed to by the <i>name</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>gethostname</b> returns zero. Otherwise, it returns SOCKET_ERROR and a specific error code can be retrieved by calling 
@@ -128,14 +120,8 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>gethostname</b> function returns the name of the local host into the buffer specified by the <i>name</i> parameter. The host name is returned as a <b>null</b>-terminated string. The form of the host name is dependent on the Windows Sockets provider—it can be a simple host name, or it can be a fully qualified domain name. However, it is guaranteed that the name returned will be successfully parsed by 
@@ -166,13 +152,7 @@ The maximum length, in bytes, of the string returned in the buffer pointed to by
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
@@ -191,7 +171,4 @@ The maximum length, in bytes, of the string returned in the buffer pointed to by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a>
- 
-
- 
 

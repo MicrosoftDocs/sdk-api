@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: d8e44c64-dd58-4d36-8add-0a0b2e2af5a4
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter, IWICMetadataBlockWriter interface [Windows Imaging Component], IWICMetadataBlockWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockwriter, wic._wic_codec_iwicmetadatablockwriter, wincodecsdk/IWICMetadataBlockWriter
-f1_keywords:
-- wincodecsdk/IWICMetadataBlockWriter
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataBlockWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataBlockWriter
+ - wincodecsdk/IWICMetadataBlockWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataBlockWriter
 ---
 
 # IWICMetadataBlockWriter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enable the encoding of metadata. This interface is implemented by the decoder and its image frames.
-
 
 ## -inheritance
 
@@ -113,24 +112,14 @@ Replaces the metadata writer at the specified index location.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 When the encoder is told to commit, it goes through each metadata writer and serializes the metadata content into the encoding stream.
             If the metadata block contains metadata important to the integrity of the file, such as the image width or height or other intrinsic information about the image, the encoder must set the critical metadata items prior to serializing the metadata.
-         
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -157,7 +146,4 @@ When the encoder is told to commit, it goes through each metadata writer and ser
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

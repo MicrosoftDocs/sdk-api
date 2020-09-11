@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: afe5dbd1-96e1-4abe-b843-ec6130fa02d0
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4, IWMPPlayer4 interface [Windows Media Player], IWMPPlayer4 interface [Windows Media Player],described, IWMPPlayer4Interface, wmp.iwmpplayer4, wmp/IWMPPlayer4
-f1_keywords:
-- wmp/IWMPPlayer4
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPPlayer4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer4
+ - wmp/IWMPPlayer4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPPlayer4
 ---
 
 # IWMPPlayer4 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPlayer4</b> interface provides methods for modifying the basic behavior of the Windows Media Player control user interface. These methods supplement the <b>IWMPCore3</b> interface.
 
 The <b>IWMPPlayer4</b> interface duplicates the methods of <b>IWMPPlayer</b>, <b>IWMPPlayer2</b>, and <b>IWMPPlayer3</b>, inherits the methods of <b>IWMPCore3</b>, and exposes the following additional methods.
-
-
-
 
 ## -inheritance
 
@@ -104,13 +100,7 @@ Opens Windows Media Player using the specified URL.
 
 Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 
-	
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
@@ -141,7 +131,4 @@ Retrieve a pointer to an <b>IWMPPlayer4</b> interface either by calling the <b>Q
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

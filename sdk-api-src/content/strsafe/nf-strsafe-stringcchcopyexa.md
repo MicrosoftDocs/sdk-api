@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyEx, StringCchCopyEx function [Menus and Other Resources], StringCchCopyExA, StringCchCopyExW, _shell_StringCchCopyEx, _shell_stringcchcopyex_cpp, menurc.stringcchcopyex, strsafe/StringCchCopyEx, strsafe/StringCchCopyExA, strsafe/StringCchCopyExW, winui._shell_stringcchcopyex
-f1_keywords:
-- strsafe/StringCchCopyEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchCopyEx
-- StringCchCopyExA
-- StringCchCopyExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchCopyExA
+ - strsafe/StringCchCopyExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchCopyEx
+ - StringCchCopyExA
+ - StringCchCopyExW
 ---
 
 # StringCchCopyExA function
 
 
 ## -description
-
 
 Copies one string to another. The size of the destination buffer is provided to the function to ensure that it does not write past the end of the buffer.
 
@@ -69,15 +69,11 @@ Copies one string to another. The size of the destination buffer is provided to 
 
 ## -parameters
 
-
-
-
 ### -param pszDest [out]
 
 Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the copied string.
-
 
 ### -param cchDest [in]
 
@@ -85,13 +81,11 @@ Type: <b>size_t</b>
 
 The size of the destination buffer, in characters. This value must equal the length of <i>pszSrc</i> plus 1 to account for the copied source string and the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
 
-
 ### -param pszSrc [in]
 
 Type: <b>LPCTSTR</b>
 
 The source string. This string must be null-terminated.
-
 
 ### -param ppszDestEnd [out, optional]
 
@@ -99,13 +93,11 @@ Type: <b>LPTSTR*</b>
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcchRemaining [out, optional]
 
 Type: <b>size_t*</b>
 
 The number of unused characters in <i>pszDest</i>, including the terminating null character. If <i>pcchRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -174,12 +166,8 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -228,12 +216,7 @@ The copy operation failed due to insufficient buffer space. Depending on the val
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 Compared to  the functions it replaces, <b>StringCchCopyEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
@@ -276,9 +259,6 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 ## -see-also
 
-
-
-
 <b>Reference</b>
 
 
@@ -288,7 +268,4 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
- 
-
- 
 

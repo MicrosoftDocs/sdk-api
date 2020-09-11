@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 42d10cb5-dea9-4fdb-a588-7bc647e0b95b
 ms.date: 12/05/2018
 ms.keywords: IDvbDefaultAuthorityDescriptor, IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies], IDvbDefaultAuthorityDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbDefaultAuthorityDescriptor, mstv.idvbdefaultauthoritydescriptor
-f1_keywords:
-- dvbsiparser/IDvbDefaultAuthorityDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbDefaultAuthorityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbDefaultAuthorityDescriptor
+ - dvbsiparser/IDvbDefaultAuthorityDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbDefaultAuthorityDescriptor
 ---
 
 # IDvbDefaultAuthorityDescriptor interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from the default authority descriptor for a content reference identifier (CRID). 
 The default authority descriptor is the first part of the CRID and identifies the body that created the CRID.
-
 
 ## -inheritance
 
@@ -96,5 +95,5 @@ Gets the tag that identifies a DVB  default authority descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

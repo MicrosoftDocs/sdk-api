@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
 ms.date: 12/05/2018
 ms.keywords: D2D1_FACTORY_TYPE, D2D1_FACTORY_TYPE enumeration [Direct2D], D2D1_FACTORY_TYPE_MULTI_THREADED, D2D1_FACTORY_TYPE_SINGLE_THREADED, d2d1/D2D1_FACTORY_TYPE, d2d1/D2D1_FACTORY_TYPE_MULTI_THREADED, d2d1/D2D1_FACTORY_TYPE_SINGLE_THREADED, direct2d.D2D1_FACTORY_TYPE
-f1_keywords:
-- d2d1/D2D1_FACTORY_TYPE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_FACTORY_TYPE
 targetos: Windows
 req.typenames: D2D1_FACTORY_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_FACTORY_TYPE
+ - d2d1/D2D1_FACTORY_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_FACTORY_TYPE
 ---
 
 # D2D1_FACTORY_TYPE enumeration
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies whether Direct2D provides synchronization for an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> and the resources it creates, so that they may be safely accessed from multiple threads. 
-
+Specifies whether Direct2D provides synchronization for an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a> and the resources it creates, so that they may be safely accessed from multiple threads.
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_FACTORY_TYPE_SINGLE_THREADED
 
 No synchronization is provided for accessing or writing to the factory or the objects it creates. If the factory or the objects are called from multiple threads, it is up to the application to provide access locking.
 
-
 ### -field D2D1_FACTORY_TYPE_MULTI_THREADED
 
 Direct2D provides synchronization for accessing and writing to the factory and the objects it creates, enabling safe access from multiple threads.
 
-
 ### -field D2D1_FACTORY_TYPE_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 When you create a factory, you can specify whether it is multithreaded or singlethreaded. A singlethreaded factory provides no serialization against any other single threaded instance within Direct2D, so this mechanism provides a very large degree of scaling on the CPU.
 
@@ -110,14 +99,7 @@ ID2D1Factory* m_pDirect2dFactory;
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory">CreateFactory</a>
 
@@ -128,7 +110,4 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 <a href="/windows/win32/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 4c398e10-3822-4042-8a43-1d7889ae6cac
 ms.date: 12/05/2018
 ms.keywords: IWSManEx2, IWSManEx2 interface [Windows Remote Management], IWSManEx2 interface [Windows Remote Management],described, winrm.iwsmanex2, wsmandisp/IWSManEx2
-f1_keywords:
-- wsmandisp/IWSManEx2
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEx2
+ - wsmandisp/IWSManEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEx2
 ---
 
 # IWSManEx2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the methods and properties of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a> interface to include a method that returns a session flag value related to authentication using client certificates.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Returns the value of the authentication flag <b>WSManFlagUseClientCertificate</b
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
- 
-
- 
 

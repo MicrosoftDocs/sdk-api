@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup, IMenuPopup interface [Windows Shell], IMenuPopup interface [Windows Shell],described, _win32_IMenuPopup, shell.IMenuPopup, shobjidl_core/IMenuPopup
-f1_keywords:
-- shobjidl_core/IMenuPopup
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IMenuPopup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMenuPopup
+ - shobjidl_core/IMenuPopup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IMenuPopup
 ---
 
 # IMenuPopup interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IMenuPopup</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Exposes methods to navigate through a shortcut menu.
-
 
 ## -inheritance
 
@@ -97,5 +96,5 @@ Sets the given menu bar interface to be the submenu of the calling application o
 
 </td>
 </tr>
-</table> 
+</table>
 

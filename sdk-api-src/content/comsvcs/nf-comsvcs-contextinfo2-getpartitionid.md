@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: b4cda75d-a4f3-404e-965a-9c1487946ee1
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2 interface [COM+],GetPartitionId method, ContextInfo2.GetPartitionId, ContextInfo2::GetPartitionId, GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetPartitionId, comsvcs/ContextInfo2::GetPartitionId, cos.contextinfo2_getpartitionid
-f1_keywords:
-- comsvcs/ContextInfo2.GetPartitionId
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ContextInfo2.GetPartitionId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ContextInfo2::GetPartitionId
+ - comsvcs/ContextInfo2::GetPartitionId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ContextInfo2.GetPartitionId
 ---
 
 # ContextInfo2::GetPartitionId
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the GUID of the COM+ partition of the current object context.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__ContextInfo20000 [out]
 
 A reference to the partition identifier.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -97,22 +90,12 @@ COM+ partitions are not enabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--partitions">COM+ Partitions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a>
- 
-
- 
 

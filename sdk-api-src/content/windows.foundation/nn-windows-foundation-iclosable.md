@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 856C7D91-15AB-4101-BC5F-232004AD6DF4
 ms.date: 12/05/2018
 ms.keywords: IClosable, IClosable interface [Windows Runtime], IClosable interface [Windows Runtime],described, windows/IClosable, winrt.iclosable
-f1_keywords:
-- windows.foundation/IClosable
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IClosable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClosable
+ - windows.foundation/IClosable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IClosable
 ---
 
 # IClosable interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a method to release allocated resources.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the <b>IClosable</b> interface to manage the lifetime of system resources, like file handles and network sockets, that are used by a Windows Runtime object. 
 
@@ -108,6 +104,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/n
 
 
 If your closeable Windows Runtime object exposes an exclusive-use resource to other objects, it must provide a way to affect the ownership semantics of any closeable objects that it holds.  For example, the <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.idatareader">DataReader</a> class provides a <a href="https://docs.microsoft.com/uwp/api/windows.storage.streams.idatareader.detachstream">DetachStream</a> method that returns the <a href="https://docs.microsoft.com/previous-versions/hh438387(v=vs.85)">IInputStream</a> that it received when it was created. When <b>DetachStream</b> is called, the <b>DataReader</b> is no longer the owner of the  <b>IInputStream</b>, so the <b>DataReader</b> doesn't call <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-iclosable-close">Close</a> on the <b>IInputStream</b>.
-
-
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 658729C0-2963-45F0-B616-01372A7144D1
 ms.date: 01/30/19
 ms.keywords: LPFN_RIODEQUEUECOMPLETION
-f1_keywords:
-- mswsock/LPFN_RIODEQUEUECOMPLETION
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,20 +28,24 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIODEQUEUECOMPLETION
+ - mswsock/LPFN_RIODEQUEUECOMPLETION
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIODEQUEUECOMPLETION
+ - LPFN_RIODEQUEUECOMPLETION
 ---
 
 ## -description
 
 The **RIODequeueCompletion** function removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.
-
 
 ## -parameters
 

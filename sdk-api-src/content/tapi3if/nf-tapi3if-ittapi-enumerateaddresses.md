@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: b40a2071-24bf-470c-bfba-de23317e8652
 ms.date: 12/05/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumerateAddresses method, ITTAPI.EnumerateAddresses, ITTAPI::EnumerateAddresses, _tapi3_ittapi_enumerateaddresses, tapi3.ittapi_enumerateaddresses, tapi3if/ITTAPI::EnumerateAddresses
-f1_keywords:
-- tapi3if/ITTAPI.EnumerateAddresses
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPI.EnumerateAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPI::EnumerateAddresses
+ - tapi3if/ITTAPI::EnumerateAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPI.EnumerateAddresses
 ---
 
 # ITTAPI::EnumerateAddresses
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumerateAddresses</b> method enumerates the addresses that are currently available. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnumAddress [out]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a> interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,14 +115,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application typically uses this enumeration to check the capabilities of each address and determine which are useful for current purposes.
 
@@ -145,13 +132,7 @@ If an address is created or removed during a TAPI session, the application will 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapiobject_event">TAPIOBJECT_EVENT</a> enum. If an address is removed, <b>ITTAPIEventNotification::Event</b> returns <b>TE_ADDRESSREMOVE</b>. Calling 
 <b>EnumerateAddresses</b> after these events will reflect the current addresses.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress">IEnumAddress</a>
 
@@ -174,7 +155,4 @@ If an address is created or removed during a TAPI session, the application will 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_addresses">get_Addresses</a>
- 
-
- 
 

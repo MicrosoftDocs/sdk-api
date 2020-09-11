@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: d383d040-55f7-4ed7-b5b8-8e963b6cb16a
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACInit method, CSecureChannelClient.MACInit, CSecureChannelClient::MACInit, CSecureChannelClientMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACInit, wmdm.csecurechannelclient_macinit
-f1_keywords:
-- scclient/CSecureChannelClient.MACInit
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.MACInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::MACInit
+ - scclient/CSecureChannelClient::MACInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.MACInit
 ---
 
 # CSecureChannelClient::MACInit
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MACInit</b> method acquires a message authentication code (MAC) channel.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phMAC [out]
 
 Pointer to the MAC handle for the parameter data. The handle is acquired by <b>MACInit</b> to be used for subsequent <a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">MACUpdate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">MACFinal</a> calls. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -100,14 +90,8 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>MACInit</b> begins a message authentication code (MAC) session. For example, <b>MACInit</b> should be called before content is transferred when writing to a storage device to verify the MAC returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getrights">IMDSPStorage::GetRights</a> call on the service provider.
 
@@ -140,14 +124,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
@@ -162,7 +139,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
- 
-
- 
 

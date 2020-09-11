@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 32231145-241a-46ff-9c49-94f5bf7cc532
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetTaskFlags method, ITask.SetTaskFlags, ITask::SetTaskFlags, SetTaskFlags, SetTaskFlags method [Task Scheduler], SetTaskFlags method [Task Scheduler],ITask interface, _msb_itask_settaskflags, mstask/ITask::SetTaskFlags, taskschd.itask_settaskflags
-f1_keywords:
-- mstask/ITask.SetTaskFlags
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITask.SetTaskFlags
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITask::SetTaskFlags
+ - mstask/ITask::SetTaskFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITask.SetTaskFlags
 ---
 
 # ITask::SetTaskFlags
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 This method sets the flags that modify the behavior of a scheduled <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Currently, there are no flags defined for scheduled tasks.
 
-
 ## -returns
-
-
 
 The 
 <b>SetTaskFlags</b> method returns one of the following values.
@@ -111,14 +104,8 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Applications must call the <b>IPersistFile::Save</b> method after calling 
 <b>SetTaskFlags</b> to update the task flags.
@@ -126,13 +113,7 @@ Applications must call the <b>IPersistFile::Save</b> method after calling
 This method is designed to set the flags that only apply to scheduled tasks. In contrast, 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a> is used to set the flags that apply to all types of scheduled work items.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">GetTaskFlags</a>
 
@@ -143,7 +124,4 @@ This method is designed to set the flags that only apply to scheduled tasks. In 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
- 
-
- 
 

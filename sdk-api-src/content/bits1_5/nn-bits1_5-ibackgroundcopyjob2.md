@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 9fd422ba-a68c-40e3-8b21-3077b271e58e
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2, IBackgroundCopyJob2 interface [BITS], IBackgroundCopyJob2 interface [BITS],described, _drz_ibackgroundcopyjob2, bits.ibackgroundcopyjob2, bits1_5/IBackgroundCopyJob2
-f1_keywords:
-- bits1_5/IBackgroundCopyJob2
-dev_langs:
-- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx2.dll
-api_name:
-- IBackgroundCopyJob2
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob2
+ - bits1_5/IBackgroundCopyJob2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx2.dll
+api_name:
+ - IBackgroundCopyJob2
 ---
 
 # IBackgroundCopyJob2 interface
 
 
 ## -description
-
 
 Use the 
 <b>IBackgroundCopyJob2</b> interface to retrieve reply data from an upload-reply job, determine the progress of the reply data transfer to the client, request command line execution, and provide credentials for proxy and remote server authentication requests.
@@ -62,7 +62,6 @@ To get an
 <b>IBackgroundCopyJob2</b> interface pointer to call both the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> and 
 <b>IBackgroundCopyJob2</b> methods.
-
 
 ## -inheritance
 
@@ -152,16 +151,9 @@ Specifies the name of the file to contain the reply data of an upload-reply job.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
- 
-
- 
 

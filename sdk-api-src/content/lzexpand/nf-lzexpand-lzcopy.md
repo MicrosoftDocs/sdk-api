@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
 ms.date: 12/05/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
-f1_keywords:
-- lzexpand/LZCopy
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- LZCopy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LZCopy
+ - lzexpand/LZCopy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - LZCopy
 ---
 
 # LZCopy function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies a source file to a destination file. If the source file has been compressed by the Lempel-Ziv algorithm, this function creates a decompressed destination file. If the source file is not compressed, this function duplicates the original file.
 
-
 ## -parameters
-
-
-
 
 ### -param hfSource [in]
 
 A handle to the source file.
 
-
 ### -param hfDest [in]
 
 A handle to the destination file.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the size, in bytes, of the destination file.
 
@@ -147,12 +139,7 @@ The source file format is not valid.
 
 There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The handles identifying the source and destination files must be retrieved by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> or 
@@ -222,14 +209,7 @@ Yes
 
 CsvFs will do redirected IO for compressed files.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
@@ -244,7 +224,4 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
- 
-
- 
 

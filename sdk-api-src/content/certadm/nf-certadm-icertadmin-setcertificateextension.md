@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d26061da-acc3-45d8-93de-f2d431d350a6
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertAdmin interface [Security],SetCertificateExtension method, ICertAdmin.SetCertificateExtension, ICertAdmin2 interface [Security],SetCertificateExtension method, ICertAdmin2::SetCertificateExtension, ICertAdmin::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertAdmin interface, SetCertificateExtension method [Security],ICertAdmin interface, SetCertificateExtension method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCertificateExtension, certadm/ICertAdmin::SetCertificateExtension, security.icertadmin2_setcertificateextension
-f1_keywords:
-- certadm/ICertAdmin2.SetCertificateExtension
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.SetCertificateExtension
-- ICertAdmin.SetCertificateExtension
-- CCertAdmin.SetCertificateExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin::SetCertificateExtension
+ - certadm/ICertAdmin::SetCertificateExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.SetCertificateExtension
+ - ICertAdmin.SetCertificateExtension
+ - CCertAdmin.SetCertificateExtension
 ---
 
 # ICertAdmin::SetCertificateExtension
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetCertificateExtension</b> method adds a new extension to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> issued in response to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This method was first defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 For this method to succeed, the certificate request must be pending.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -74,11 +70,9 @@ Represents a valid configuration string for the <a href="https://docs.microsoft.
 
 Specifies the ID of the certificate request.
 
-
 ### -param strExtensionName [in]
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the extension to set. The string must be 31 or fewer non-NULL characters in length.
-
 
 ### -param Type [in]
 
@@ -134,8 +128,6 @@ The extension value will be ASN.1 encoded as an IA5 string before it is placed i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -174,39 +166,23 @@ The extension will not be used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarValue [in]
 
 Specifies the value associated with the extension.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Administration tasks use DCOM. Code that calls this interface method as defined in an earlier version of Certadm.h will run on Windows-based servers as long as the client and the server are both running the same Windows operating system.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
@@ -221,7 +197,4 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
- 
-
- 
 

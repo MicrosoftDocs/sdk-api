@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 5e9390c4-12d4-4087-b4c8-5f58c2522a93
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Level property, ITraceDataProvider.Level, ITraceDataProvider.get_Level, ITraceDataProvider::Level, ITraceDataProvider::get_Level, Level property [PLA], Level property [PLA],ITraceDataProvider interface, base.itracedataprovider_level, get_Level, pla.itracedataprovider_level, pla/ITraceDataProvider::Level, pla/ITraceDataProvider::get_Level
-f1_keywords:
-- pla/ITraceDataProvider.Level
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ITraceDataProvider.Level
-- ITraceDataProvider.get_Level
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceDataProvider::get_Level
+ - pla/ITraceDataProvider::get_Level
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ITraceDataProvider.Level
+ - ITraceDataProvider.get_Level
 ---
 
 # ITraceDataProvider::get_Level
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the level of information used to enable the provider.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <i>ppLevel</i> parameter is a provider-defined value that specifies the level of information that the event generates. For example, you can use this value to indicate the severity level of the events (informational, warning, error) that you want the provider to generate.
 
@@ -73,16 +69,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pl
 
 If you use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a> to set the level and the value map collection contains one or more items, PLA searches the collection for a matching value and enables it and disables the others. If the value does not exist in the list, PLA adds the level (the item is not named).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: fb08bdb5-4d2e-4a2e-9e23-bbff4cedc6e2
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],hWnd property, IInkOverlay.hWnd, IInkOverlay.put_hWnd, IInkOverlay::get_hWnd, IInkOverlay::hWnd, IInkOverlay::put_hWnd, InkOverlay.get_hWnd, InkOverlay.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::get_hWnd, msinkaut/IInkOverlay::hWnd, msinkaut/IInkOverlay::put_hWnd, put_hWnd, tablet.inkoverlay_hwnd
-f1_keywords:
-- msinkaut/IInkOverlay.hWnd
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.hWnd
-- IInkOverlay.get_hWnd
-- IInkOverlay.put_hWnd
-- InkOverlay.get_hWnd
-- InkOverlay.put_hWnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::put_hWnd
+ - msinkaut/IInkOverlay::put_hWnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.hWnd
+ - IInkOverlay.get_hWnd
+ - IInkOverlay.put_hWnd
+ - InkOverlay.get_hWnd
+ - InkOverlay.put_hWnd
 ---
 
 # IInkOverlay::put_hWnd
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the handle value of the window on which ink is drawn.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If two or more windows exist, this property allows you to specify which window collects ink.
 
@@ -76,13 +71,7 @@ If two or more windows exist, this property allows you to specify which window c
 <div> </div>
 In Automation, this property is called <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd Property</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
@@ -97,7 +86,4 @@ In Automation, this property is called <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
- 
-
- 
 

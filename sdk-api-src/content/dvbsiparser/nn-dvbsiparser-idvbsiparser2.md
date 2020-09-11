@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 085808e7-b067-470e-9edd-8795f4881485
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser2, IDvbSiParser2 interface [Microsoft TV Technologies], IDvbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSiParser2, mstv.idvbsiparser2
-f1_keywords:
-- dvbsiparser/IDvbSiParser2
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser2
+ - dvbsiparser/IDvbSiParser2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser2
 ---
 
 # IDvbSiParser2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IDvbSiParser2</b> interface retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
-
-
-
 
 ## -inheritance
 
@@ -80,12 +76,9 @@ Gets the event information table (EIT).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the following CLSID:
 
@@ -97,20 +90,11 @@ F6B96EDA-1A94-4476-A85F-4D3DC7B39C3F
 
 This CLSID is not is not published in an SDK header; define a new GUID constant in your application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointf.htm
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+], PointF class [GDI+],described, _gdiplus_CLASS_PointF_Class, gdiplus._gdiplus_CLASS_PointF_Class, gdiplustypes/PointF
-f1_keywords:
-- gdiplustypes/PointF
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplustypes.h
-api_name:
-- PointF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PointF
+ - gdiplustypes/PointF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplustypes.h
+api_name:
+ - PointF
 ---
 
 # PointF class
 
 
 ## -description
-
 
 The <b>PointF</b> class encapsulates a point in a 2-D coordinate system.
 
@@ -142,5 +142,5 @@ The <a href="https://docs.microsoft.com/previous-versions/ms534997(v=vs.85)">Poi
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceUninstallDisk interface,UninstallDisks method, IVdsServiceUninstallDisk.UninstallDisks, IVdsServiceUninstallDisk::UninstallDisks, UninstallDisks, UninstallDisks method, UninstallDisks method,IVdsServiceUninstallDisk interface, base.ivdsserviceuninstalldisk_uninstalldisks, vds/IVdsServiceUninstallDisk::UninstallDisks
-f1_keywords:
-- vds/IVdsServiceUninstallDisk.UninstallDisks
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsServiceUninstallDisk.UninstallDisks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsServiceUninstallDisk::UninstallDisks
+ - vds/IVdsServiceUninstallDisk::UninstallDisks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsServiceUninstallDisk.UninstallDisks
 ---
 
 # IVdsServiceUninstallDisk::UninstallDisks
@@ -50,40 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Uninstalls a set of disks.
 
-
 ## -parameters
-
-
-
 
 ### -param pDiskIdArray [in]
 
 Address of a buffer containing an array of VDS object IDs, one for each disk to be uninstalled. Each ID in 
       the array must be unique.
 
-
 ### -param ulCount [in]
 
 Number of VDS object IDs in the buffer that the <i>pDiskIdArray</i> parameter points 
       to.
-
 
 ### -param bForce [in]
 
 If <b>TRUE</b>, VDS uninstalls the disks even if the volumes cannot be locked or 
       dismounted.
 
-
 ### -param pbReboot [out]
 
 Address of a <b>BOOLEAN</b> variable that receives <b>TRUE</b> if 
       the user must restart the computer to complete the uninstall process.
-
 
 ### -param pResults [out]
 
@@ -92,10 +84,7 @@ The address of a caller-allocated array of <b>HRESULT</b> values. The number of 
       first element in the <i>pDiskIdArray</i>, and so on. If any of the disks fails to initialize 
       properly, the specific error code for the failure is returned in the corresponding element of this array.
 
-
 ## -returns
-
-
 
 This method can return standard <b>HRESULT</b> values, such as 
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
@@ -232,14 +221,8 @@ The provider's cache is not in sync with the driver cache.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 VDS implements this method.
 
@@ -257,16 +240,7 @@ For instructions on how to uninstall a disk on Windows Server 2003 releases whe
     method is not supported, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-setmask">IVdsLun::SetMask</a> 
     method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsserviceuninstalldisk">IVdsServiceUninstallDisk</a>
- 
-
- 
 

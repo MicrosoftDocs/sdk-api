@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: ea85f3a7-0081-4ce2-bf2e-c47e6e7c4cbb
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_OverallCallRate method, ITAgent.get_OverallCallRate, ITAgent::get_OverallCallRate, _tapi3_itagent_get_overallcallrate, get_OverallCallRate, get_OverallCallRate method [TAPI 2.2], get_OverallCallRate method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_overallcallrate, tapi3cc/ITAgent::get_OverallCallRate
-f1_keywords:
-- tapi3/ITAgent.get_OverallCallRate
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgent.get_OverallCallRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgent::get_OverallCallRate
+ - tapi3/ITAgent::get_OverallCallRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgent.get_OverallCallRate
 ---
 
 # ITAgent::get_OverallCallRate
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_OverallCallRate</b> method gets an agent's call rate across all sessions. 10 *Calls per agent hour (where agent hour represents the time that an agent was active in one or more agent sessions).
 
 The measurement period over which this information is calculated is switch- and/or implementation-specific. (See 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
-
 ## -parameters
-
-
-
 
 ### -param pcyCallrate [out]
 
 Call rate.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,27 +116,12 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>CURRENCY</b> type is used here instead of <b>FLOAT</b> for Visual Basic and Java compatibility.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: a126f1ea-35ef-492d-8184-fb288a74f7f6
 ms.date: 12/05/2018
 ms.keywords: '*PEMRTEXT, EMRTEXT, EMRTEXT structure [Windows GDI], PEMRTEXT, PEMRTEXT structure pointer [Windows GDI], _win32_EMRTEXT_str, gdi.emrtext, wingdi/EMRTEXT, wingdi/PEMRTEXT'
-f1_keywords:
-- wingdi/EMRTEXT
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMRTEXT
 targetos: Windows
 req.typenames: EMRTEXT, *PEMRTEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMRTEXT
+ - wingdi/tagEMRTEXT
+ - PEMRTEXT
+ - wingdi/PEMRTEXT
+ - EMRTEXT
+ - wingdi/EMRTEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMRTEXT
 ---
 
 # EMRTEXT structure
@@ -49,61 +54,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMRTEXT</b> structure contains members for text output.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ptlReference
 
 The logical coordinates of the reference point used to position the string.
 
-
 ### -field nChars
 
 The number of characters in the string.
-
 
 ### -field offString
 
 The offset to the string.
 
-
 ### -field fOptions
 
 A value that indicates how to use the application-defined rectangle. This member can be a combination of the ETO_CLIPPED and ETO_OPAQUE values.
-
 
 ### -field rcl
 
 An optional clipping and/or opaquing rectangle, in logical units.
 
-
 ### -field offDx
 
 The offset to the intercharacter spacing array.
 
-
 ## -remarks
-
-
 
 The <b>EMRTEXT</b> structure is used as a member in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrexttextouta">EMREXTTEXTOUT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrpolytextouta">EMRPOLYTEXTOUT</a> structures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
@@ -122,7 +105,4 @@ The <b>EMRTEXT</b> structure is used as a member in the <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>
- 
-
- 
 

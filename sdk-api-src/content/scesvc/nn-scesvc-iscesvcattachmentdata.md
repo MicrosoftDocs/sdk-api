@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
-f1_keywords:
-- scesvc/ISceSvcAttachmentData
-dev_langs:
-- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsecedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsecedit.dll
-api_name:
-- ISceSvcAttachmentData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISceSvcAttachmentData
+ - scesvc/ISceSvcAttachmentData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsecedit.dll
+api_name:
+ - ISceSvcAttachmentData
 ---
 
 # ISceSvcAttachmentData interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISceSvcAttachmentData</b> interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Retrieves data from the Security Configuration snap-in.</p> (Inherited from <b>I
 <td align="left" width="63%">
 Initializes a connection to the Security Configuration snap-in.</p> (Inherited from <b>IsceSvcAttachmentData</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
- 
-
- 
 

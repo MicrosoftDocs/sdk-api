@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 03032a3f-e10f-4f40-837e-01b7b113b29e
 ms.date: 12/05/2018
 ms.keywords: DecryptionBlt, DecryptionBlt method [Media Foundation], DecryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],DecryptionBlt method, IDirect3DCryptoSession9.DecryptionBlt, IDirect3DCryptoSession9::DecryptionBlt, d3d9/IDirect3DCryptoSession9::DecryptionBlt, mf.idirect3dcryptosession9_decryptionblt
-f1_keywords:
-- d3d9/IDirect3DCryptoSession9.DecryptionBlt
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.h
-api_name:
-- IDirect3DCryptoSession9.DecryptionBlt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DCryptoSession9::DecryptionBlt
+ - d3d9/IDirect3DCryptoSession9::DecryptionBlt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.h
+api_name:
+ - IDirect3DCryptoSession9.DecryptionBlt
 ---
 
 # IDirect3DCryptoSession9::DecryptionBlt
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes encrypted data to a protected surface.
 
-
 ## -parameters
-
-
-
 
 ### -param pSrcSurface
 
 A pointer to the surface that contains the source data.
 
-
 ### -param pDstSurface
 
 A pointer to the protected surface where the encrypted data is written.
 
-
 ### -param SrcSurfaceSize
 
 The size of the surface memory that <i>pSrcSurface</i> points to, in bytes. The size must be aligned to the value of <b>BlockAlignmentSize</b> in the driver capabilities structure; see Remarks.
-
 
 ### -param pEncryptedBlockInfo
 
@@ -81,13 +74,11 @@ If the driver supports partially encrypted buffers,  <i>pEncryptedBlockInfo</i> 
 
 To check whether the driver supports partially encrypted buffers, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> and check for the <b>D3DCPCAPS_PARTIALDECRYPTION</b> capabilities flag. If the driver does not support partially encrypted buffers, set this parameter to <b>NULL</b>.
 
-
 ### -param pContentKey
 
 A pointer to a buffer that contains a content encryption key, or <b>NULL</b>. To query whether the driver supports the use of content keys, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> and check for the <b>D3DCPCAPS_CONTENTKEY</b> capabilities flag. 
 
 If the driver supports content keys, use the content key to encrypt the surface. Encrypt the content key using the session key, and place the  resulting cipher text in <i>pContentKey</i>. If the driver does not support content keys, use the session key to encrypt the surface and set <i>pContentKey</i> to <b>NULL</b>.
-
 
 ### -param pIV
 
@@ -97,19 +88,11 @@ If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the buffer is a <a hr
 
 For other encryption types, a different structure might be used, or the encryption might not use an IV.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Not all hardware or drivers support this functionality for all cryptographic types.
 
@@ -130,20 +113,11 @@ If you lock the surface, the stride reported in the <a href="https://docs.micros
 
 This method does not support writing to subrectangles of the surface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
- 
-
- 
 

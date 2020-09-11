@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: e75f5ba6-7a1c-4069-8810-05aa38a47e9c
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqAuthInfoEx, RpcBindingInqAuthInfoEx function [RPC], RpcBindingInqAuthInfoExA, RpcBindingInqAuthInfoExW, _rpc_rpcbindinginqauthinfoex, rpc.rpcbindinginqauthinfoex, rpcdce/RpcBindingInqAuthInfoEx, rpcdce/RpcBindingInqAuthInfoExA, rpcdce/RpcBindingInqAuthInfoExW
-f1_keywords:
-- rpcdce/RpcBindingInqAuthInfoEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingInqAuthInfoEx
-- RpcBindingInqAuthInfoExA
-- RpcBindingInqAuthInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingInqAuthInfoExA
+ - rpcdce/RpcBindingInqAuthInfoExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingInqAuthInfoEx
+ - RpcBindingInqAuthInfoExA
+ - RpcBindingInqAuthInfoExW
 ---
 
 # RpcBindingInqAuthInfoExA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingInqAuthInfoEx</b> function returns authentication, authorization, and security quality-of-service information from a binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Server binding handle from which authentication and authorization information is returned.
-
 
 ### -param ServerPrincName
 
@@ -74,7 +69,6 @@ Specify a null value to prevent
 <b>RpcBindingInqAuthInfoEx</b> from returning the <i>ServerPrincName</i> parameter. In this case, the application does not call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
-
 ### -param AuthnLevel
 
 Returns a pointer set to the level of authentication used for remote procedure calls made using <i>Binding</i>. For a list of the RPC-supported authentication levels, see 
@@ -82,7 +76,6 @@ Returns a pointer set to the level of authentication used for remote procedure c
 
 The level returned in the <i>AuthnLevel</i> parameter may be different from the level specified when the client called the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function. This discrepancy happens when the RPC run-time library does not support the authentication level specified by the client and automatically upgrades to the next higher authentication level.
-
 
 ### -param AuthnSvc
 
@@ -92,14 +85,12 @@ Returns a pointer set to the authentication service specified for remote procedu
 Specify a null value to prevent 
 <b>RpcBindingInqAuthInfoEx</b> from returning the <i>AuthnSvc</i> parameter.
 
-
 ### -param AuthIdentity
 
 Returns a pointer to a handle to the data structure that contains the client's authentication and authorization credentials specified for remote procedure calls made using <i>Binding</i>.
 
 Specify a null value to prevent 
 <b>RpcBindingInqAuthInfoEx</b> from returning the <i>AuthIdentity</i> parameter.
-
 
 ### -param AuthzSvc
 
@@ -109,21 +100,16 @@ Returns a pointer set to the authorization service requested by the client appli
 Specify a null value to prevent 
 <b>RpcBindingInqAuthInfoEx</b> from returning the <i>AuthzSvc</i> parameter.
 
-
 ### -param RpcQosVersion
 
 Passes value of current version (needed for forward compatibility if extensions are made to this function). Always set this parameter to RPC_C_SECURITY_QOS_VERSION.
-
 
 ### -param SecurityQOS
 
 Returns pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure, which defines quality-of-service settings.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -181,11 +167,7 @@ Binding has no authentication information.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A client application calls the 
 <b>RpcBindingInqAuthInfoEx</b> function to view the authentication and authorization information associated with a server binding handle. This function provides the ability to inquire about the security quality of service on the binding handle. It is otherwise identical to 
@@ -203,9 +185,6 @@ The RPC run-time library allocates memory for the returned <i>ServerPrincName</i
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
@@ -215,7 +194,4 @@ The RPC run-time library allocates memory for the returned <i>ServerPrincName</i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
- 
-
- 
 

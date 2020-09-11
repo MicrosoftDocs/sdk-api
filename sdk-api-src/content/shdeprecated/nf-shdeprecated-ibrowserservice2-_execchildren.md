@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d66274b5-36ca-474c-b0e2-49b34394b19b
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ExecChildren method, IBrowserService2._ExecChildren, IBrowserService2::_ExecChildren, _ExecChildren, _ExecChildren method [Windows Shell], _ExecChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ExecChildren, shell.IBrowserService2__ExecChildren, zone_IBrowserService2__ExecChildren
-f1_keywords:
-- shdeprecated/IBrowserService2._ExecChildren
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._ExecChildren
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_ExecChildren
+ - shdeprecated/IBrowserService2::_ExecChildren
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._ExecChildren
 ---
 
 # IBrowserService2::_ExecChildren
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Enables the derived class to issue a command through the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method directly, instead of relying on the base class.
 
-
 ## -parameters
-
-
-
 
 ### -param punkBar [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a> interface.
 
-
 ### -param fBroadcast [in]
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> to broadcast the command; <b>FALSE</b> otherwise.
-
 
 ### -param pguidCmdGroup [in]
 
@@ -79,13 +73,11 @@ Type: <b>const GUID*</b>
 
 A pointer to the unique identifier of the command group; can be <b>NULL</b> to specify the standard group.
 
-
 ### -param nCmdID [in]
 
 Type: <b>DWORD</b>
 
 The command to be executed. This command must belong to the group specified with <i>pguidCmdGroup</i>.
-
 
 ### -param nCmdexecopt [in]
 
@@ -93,13 +85,11 @@ Type: <b>DWORD</b>
 
 The values taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdexecopt">OLECMDEXECOPT</a> enumeration, which describe how the object should execute the command.
 
-
 ### -param pvarargIn [in]
 
 Type: <b>VARIANTARG*</b>
 
 A pointer to a <b>VARIANTARG</b> structure containing input arguments. Can be <b>NULL</b>.
-
 
 ### -param pvarargOut [in, out]
 
@@ -107,23 +97,13 @@ Type: <b>VARIANTARG*</b>
 
 A pointer to a <b>VARIANTARG</b> structure to receive command output. Can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 For further information, see <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
-
-
 

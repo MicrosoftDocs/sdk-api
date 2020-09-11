@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: be5ce51b-6568-49c8-954d-7b0d4bcb8611
 ms.date: 12/05/2018
 ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePasswordPolicy, NetValidatePasswordPolicy function [Network Management], NetValidatePasswordReset, lmaccess/NetValidatePasswordPolicy, netmgmt.netvalidatepasswordpolicy
-f1_keywords:
-- lmaccess/NetValidatePasswordPolicy
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-- samcli.dll
-api_name:
-- NetValidatePasswordPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetValidatePasswordPolicy
+ - lmaccess/NetValidatePasswordPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+ - samcli.dll
+api_name:
+ - NetValidatePasswordPolicy
 ---
 
 # NetValidatePasswordPolicy function
@@ -50,25 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>NetValidatePasswordPolicy</b> function allows an application to check password compliance against an application-provided account database and verify that passwords meet the complexity, aging, minimum length, and history reuse requirements of a password policy. 
-
+The <b>NetValidatePasswordPolicy</b> function allows an application to check password compliance against an application-provided account database and verify that passwords meet the complexity, aging, minimum length, and history reuse requirements of a password policy.
 
 ## -parameters
-
-
-
 
 ### -param ServerName [in]
 
 A pointer to a constant Unicode string specifying the name of the remote server on which the function is to execute. This string must
         begin with \\ followed by the remote server name. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param Qualifier [in]
 
 Reserved for future use. This parameter must be <b>NULL</b>.
-
 
 ### -param ValidationType [in]
 
@@ -128,13 +122,10 @@ The application is requesting password validation during a password reset operat
 </td>
 </tr>
 </table>
- 
-
 
 ### -param InputArg [in]
 
 A pointer to a structure that depends on the type of password validation to perform. The type of structure depends on the value of the <i>ValidationType</i> parameter. For more information, see the description of the <i>ValidationType</i> parameter.
-
 
 ### -param OutputArg [out]
 
@@ -150,10 +141,7 @@ If the <b>NetValidatePasswordPolicy</b> function fails (the return value is nonz
 
 For more information, see the Return Values and Remarks sections.
 
-
 ## -returns
-
-
 
 If the function succeeds, and the password is authenticated, changed, or reset, the return value is NERR_Success and the function allocates an <i>OutputArg</i> parameter.
 
@@ -188,14 +176,8 @@ Not enough memory is available to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NetValidatePasswordPolicy</b> function is designed to allow applications to validate passwords for users that are in an account database provided by the application. This function can also be used to verify that passwords meet the complexity, aging, minimum length, and history reuse requirements of a password policy. This function also provides the means for an application to implement an account-lockout mechanism.
 
@@ -226,13 +208,7 @@ If the return value from the <b>NetValidatePasswordPolicy</b> function is nonzer
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicyfree">NetValidatePasswordPolicyFree</a> function should be called after calling  <b>NetValidatePasswordPolicy</b> to free the memory allocated for the <i>OutputArg</i> parameter that is returned by the call to the <b>NetValidatePasswordPolicy</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
 
@@ -269,7 +245,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupEnum, ClusterGroupEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM, PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster], _wolf_clustergroupenum, clusapi/ClusterGroupEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM, mscs.clustergroupenum
-f1_keywords:
-- clusapi/ClusterGroupEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterGroupEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterGroupEnum
+ - clusapi/ClusterGroupEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterGroupEnum
 ---
 
 # ClusterGroupEnum function
@@ -49,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> in a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> that 
     are the preferred owners of a group, returning the name of the resource or node with each call. The <b>PCLUSAPI_CLUSTER_GROUP_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroupEnum [in]
 
 A group enumeration handle returned by the 
        <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a> function.
 
-
 ### -param dwIndex [in]
 
 The index of the resource or node to return. This parameter should be zero for the first call to 
        <b>ClusterGroupEnum</b> and then incremented for 
        subsequent calls.
-
 
 ### -param lpdwType [out]
 
@@ -91,11 +85,9 @@ The object is one of the resources in the group.
 
 The object is one of the nodes in the preferred owners list of the group.
 
-
 ### -param lpszResourceName [out]
 
 A pointer to a null-terminated Unicode string containing the name of the returned resource or node.
-
 
 ### -param lpcchName [in, out]
 
@@ -104,10 +96,7 @@ A pointer to the size of the <i>lpszResourceName</i> buffer as a count of charac
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function can returns one of the following values.
 
@@ -164,12 +153,7 @@ If the operation was not successful due to a problem other than those described 
        <b>ClusterGroupEnum</b> returns a 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
@@ -188,12 +172,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupcloseenum">ClusterGroupCloseEnum</a>
 
@@ -204,7 +183,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
- 
-
- 
 

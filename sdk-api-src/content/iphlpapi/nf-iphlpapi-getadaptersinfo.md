@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
 ms.date: 12/05/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
-f1_keywords:
-- iphlpapi/GetAdaptersInfo
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetAdaptersInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAdaptersInfo
+ - iphlpapi/GetAdaptersInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetAdaptersInfo
 ---
 
 # GetAdaptersInfo function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAdaptersInfo</b> function retrieves adapter information for the local computer.
 
 <b>On Windows XP and later:  </b>Use the  
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function instead of <b>GetAdaptersInfo</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param AdapterInfo [out]
 
 A pointer to a buffer that receives a linked list of 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a> structures.
 
-
 ### -param SizePointer [in, out]
 
 A pointer to a <b>ULONG</b> variable that specifies the size of the buffer pointed to by the <i>pAdapterInfo</i> parameter. If this size is insufficient to hold the adapter information, 
 <b>GetAdaptersInfo</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (defined to the same value as <b>NO_ERROR</b>).
 
@@ -155,14 +147,8 @@ If the function fails, use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>GetAdaptersInfo</b> function can retrieve information only for IPv4 addresses. 
@@ -344,14 +330,7 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
@@ -382,7 +361,4 @@ int __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a>
- 
-
- 
 

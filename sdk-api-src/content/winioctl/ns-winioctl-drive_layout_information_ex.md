@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files], _win32_drive_layout_information_ex_str, base.drive_layout_information_ex_str, fs.drive_layout_information_ex_str, winioctl/DRIVE_LAYOUT_INFORMATION_EX, winioctl/PDRIVE_LAYOUT_INFORMATION_EX'
-f1_keywords:
-- winioctl/DRIVE_LAYOUT_INFORMATION_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DRIVE_LAYOUT_INFORMATION_EX
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX
 req.redist: 
+f1_keywords:
+ - _DRIVE_LAYOUT_INFORMATION_EX
+ - winioctl/_DRIVE_LAYOUT_INFORMATION_EX
+ - PDRIVE_LAYOUT_INFORMATION_EX
+ - winioctl/PDRIVE_LAYOUT_INFORMATION_EX
+ - DRIVE_LAYOUT_INFORMATION_EX
+ - winioctl/DRIVE_LAYOUT_INFORMATION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DRIVE_LAYOUT_INFORMATION_EX
 ---
 
 # DRIVE_LAYOUT_INFORMATION_EX structure
+
 
 ## -description
 
@@ -82,3 +88,4 @@ A variable-sized array of [**PARTITION_INFORMATION_EX**](ns-winioctl-partition_i
 ## -see-also
 
 [DRIVE_LAYOUT_INFORMATION_GPT](ns-winioctl-drive_layout_information_gpt.md), [DRIVE_LAYOUT_INFORMATION_MBR](ns-winioctl-drive_layout_information_mbr.md), [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md), [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout.md), [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md), [PARTITION_INFORMATION](ns-winioctl-partition_information.md)
+

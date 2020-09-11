@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 814a1105-0edc-4d1e-9f94-1c13152c0925
 ms.date: 12/05/2018
 ms.keywords: '*PEMROFFSETCLIPRGN, EMROFFSETCLIPRGN, EMROFFSETCLIPRGN structure [Windows GDI], PEMROFFSETCLIPRGN, PEMROFFSETCLIPRGN structure pointer [Windows GDI], _win32_EMROFFSETCLIPRGN_str, gdi.emroffsetcliprgn, wingdi/EMROFFSETCLIPRGN, wingdi/PEMROFFSETCLIPRGN'
-f1_keywords:
-- wingdi/EMROFFSETCLIPRGN
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMROFFSETCLIPRGN
 targetos: Windows
 req.typenames: EMROFFSETCLIPRGN, *PEMROFFSETCLIPRGN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMROFFSETCLIPRGN
+ - wingdi/tagEMROFFSETCLIPRGN
+ - PEMROFFSETCLIPRGN
+ - wingdi/PEMROFFSETCLIPRGN
+ - EMROFFSETCLIPRGN
+ - wingdi/EMROFFSETCLIPRGN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMROFFSETCLIPRGN
 ---
 
 # EMROFFSETCLIPRGN structure
@@ -49,32 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMROFFSETCLIPRGN</b> structure contains members for the <b>OffsetClipRgn</b> enhanced metafile record.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 The base structure for all record types.
 
-
 ### -field ptlOffset
 
 The logical coordinates of offset.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
@@ -85,7 +77,4 @@ The logical coordinates of offset.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-offsetcliprgn">OffsetClipRgn</a>
- 
-
- 
 

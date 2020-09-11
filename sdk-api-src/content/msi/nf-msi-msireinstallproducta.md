@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
 ms.date: 12/05/2018
 ms.keywords: MsiReinstallProduct, MsiReinstallProduct function, MsiReinstallProductA, MsiReinstallProductW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallproduct, msi/MsiReinstallProduct, msi/MsiReinstallProductA, msi/MsiReinstallProductW, setup.msireinstallproduct
-f1_keywords:
-- msi/MsiReinstallProduct
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiReinstallProduct
-- MsiReinstallProductA
-- MsiReinstallProductW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiReinstallProductA
+ - msi/MsiReinstallProductA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiReinstallProduct
+ - MsiReinstallProductA
+ - MsiReinstallProductW
 ---
 
 # MsiReinstallProductA function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiReinstallProduct</b> function reinstalls products.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product to be reinstalled.
-
 
 ### -param szReinstallMode [in]
 
@@ -190,12 +185,8 @@ Use to run from the source package and re-cache the local package. Do not use fo
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -284,15 +275,8 @@ The product code does not identify a known product.
 
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
-					
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
@@ -303,9 +287,6 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/reinstallmode">REINSTALLMODE Property</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 3599f68f-5b7c-4bf9-9c42-452047c0731f
 ms.date: 12/05/2018
 ms.keywords: SetCalendarInfo, SetCalendarInfo function [Internationalization for Windows Applications], SetCalendarInfoA, SetCalendarInfoW, _win32_SetCalendarInfo, intl.setcalendarinfo, winnls/SetCalendarInfo, winnls/SetCalendarInfoA, winnls/SetCalendarInfoW
-f1_keywords:
-- winnls/SetCalendarInfo
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- SetCalendarInfo
-- SetCalendarInfoA
-- SetCalendarInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCalendarInfoA
+ - winnls/SetCalendarInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - SetCalendarInfo
+ - SetCalendarInfoA
+ - SetCalendarInfoW
 ---
 
 # SetCalendarInfoA function
@@ -60,17 +61,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an item of locale information for a calendar. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/date-and-calendar">Date and Calendar</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values.
 
@@ -101,9 +96,7 @@ The following custom locale identifiers are also supported.
 
 ### -param Calendar [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers">Calendar identifier</a> for the calendar for which to set information.
-
 
 ### -param CalType [in]
 
@@ -115,15 +108,11 @@ Type of calendar information to set. Only the following CALTYPE values are valid
 </ul>
 The application can specify only one calendar identifier per call to this function. An exception can be made if the application uses the binary OR operator to combine CAL_USE_CP_ACP with any valid CALTYPE value defined in <a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-type-information">Calendar Type Information</a>.
 
-
 ### -param lpCalData [in]
 
 Pointer to a null-terminated calendar information string. The information must be in the format of the specified calendar type.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -133,11 +122,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function only affects the user override portion of the calendar settings. It does not set the system defaults.
 
@@ -156,9 +141,6 @@ CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumcalendarinfoa">EnumCalendarInfo</a>
 
 
@@ -172,7 +154,4 @@ CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

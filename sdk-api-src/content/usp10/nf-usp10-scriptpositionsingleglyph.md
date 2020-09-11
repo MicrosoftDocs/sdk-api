@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
 ms.date: 12/05/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
-f1_keywords:
-- usp10/ScriptPositionSingleGlyph
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptPositionSingleGlyph
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - ScriptPositionSingleGlyph
+ - usp10/ScriptPositionSingleGlyph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptPositionSingleGlyph
 ---
 
 # ScriptPositionSingleGlyph function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Positions a single glyph with a single adjustment using a specified feature provided in the font for OpenType processing. Most often, applications use this function to align a glyph optically at the beginning or end of a line.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in, optional]
 
 Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param psa [in, optional]
 
@@ -77,64 +71,47 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
-
 ### -param tagScript [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the script tag for shaping.
-
 
 ### -param tagLangSys [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the language tag for shaping.
 
-
 ### -param tagFeature [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the feature tag to use for shaping the alternate glyph.
-
 
 ### -param lParameter [in]
 
 A flag specifying if single substitution should be applied to the identifier specified in <i>wGlyphId</i>. The application sets this parameter to 1 to apply the single substitution feature to the identifier. The application sets the parameter to 0 if the function should not apply the feature.
 
-
 ### -param wGlyphId [in]
 
 The identifier of the original glyph being shaped.
-
 
 ### -param iAdvance [in]
 
 The original glyph advance width.
 
-
 ### -param GOffset [in]
 
 The original glyph offset. Typically, this value is an output of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a> or <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
-
 
 ### -param piOutAdvance [out]
 
 Pointer to the location in which this function retrieves the new advance width adjusted for the alternate glyph.
 
-
 ### -param pOutGoffset [out]
 
 Pointer to the location in which this function retrieves the new glyph offset adjusted for the alternate glyph.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
-
-
-
 ## -remarks
-
-
 
 This function positions an individual glyph by adjusting the advance width and/or the offset of the given glyph. The function assumes that the font requires only one adjustment.
 
@@ -146,12 +123,7 @@ The following examples demonstrate this effect. The first example shows strict a
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>
 
@@ -178,7 +150,4 @@ The following examples demonstrate this effect. The first example shows strict a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

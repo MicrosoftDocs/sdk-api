@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 6b5d069a-044f-4bd4-b661-6100a2607107
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat, ITScriptableAudioFormat interface [TAPI 2.2], ITScriptableAudioFormat interface [TAPI 2.2],described, _tapi3_itscriptableaudioformat, tapi3.itscriptableaudioformat, tapi3if/ITScriptableAudioFormat
-f1_keywords:
-- tapi3if/ITScriptableAudioFormat
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITScriptableAudioFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITScriptableAudioFormat
+ - tapi3if/ITScriptableAudioFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITScriptableAudioFormat
 ---
 
 # ITScriptableAudioFormat interface
 
 
 ## -description
-
 
 The 
 <b>ITScriptableAudioFormat</b> interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the 
@@ -58,7 +58,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfiletrack-get_audioformatforscripting">ITFileTrack::get_AudioFormatForScripting</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itfiletrack-get_emptyaudioformatforscripting">ITFileTrack::get_EmptyAudioFormatForScripting</a> methods create the 
 <b>ITScriptableAudioFormat</b> interface.
-
 
 ## -inheritance
 
@@ -184,5 +183,5 @@ Sets the value of the <b>nSamplesPerSec</b> member in the <b>WAVEFORMATEX</b> st
 
 </td>
 </tr>
-</table> 
+</table>
 

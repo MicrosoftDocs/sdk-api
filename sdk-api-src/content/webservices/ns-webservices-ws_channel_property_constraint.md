@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 548dcba5-dc78-402e-a930-a58fb462c08a
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTY_CONSTRAINT, WS_CHANNEL_PROPERTY_CONSTRAINT structure [Web Services for Windows], webservices/WS_CHANNEL_PROPERTY_CONSTRAINT, wsw.ws_channel_property_constraint
-f1_keywords:
-- webservices/WS_CHANNEL_PROPERTY_CONSTRAINT
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_CHANNEL_PROPERTY_CONSTRAINT
 targetos: Windows
 req.typenames: WS_CHANNEL_PROPERTY_CONSTRAINT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_CHANNEL_PROPERTY_CONSTRAINT
+ - webservices/_WS_CHANNEL_PROPERTY_CONSTRAINT
+ - WS_CHANNEL_PROPERTY_CONSTRAINT
+ - webservices/WS_CHANNEL_PROPERTY_CONSTRAINT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CHANNEL_PROPERTY_CONSTRAINT
 ---
 
 # WS_CHANNEL_PROPERTY_CONSTRAINT structure
@@ -49,17 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies constraints
                 for a particular channel property.Any property constraints that are not specified will use
                 the default constraints.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field id
 
@@ -104,27 +101,17 @@ An array of acceptable values.  The type of
                     of the channel property.  See the documentation for
                     a particular channel property to determine the type of the
                     property.
-                
-
 
 ### -field allowedValuesSize
 
 The total size of the <b>allowedValues</b> array, in bytes.  This
                     size must be a multiple of the size of the type of the value
                     of the property.
-                
-
 
 ### -field out
 
 When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
-                
-
 
 ### -field out.channelProperty
-
- 
-
-
 

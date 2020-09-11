@@ -8,10 +8,6 @@ tech.root: Monitor
 ms.assetid: 57cf0004-58cf-46d9-b5be-22edda2ce5a9
 ms.date: 12/05/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
-f1_keywords:
-- highlevelmonitorconfigurationapi/GetMonitorCapabilities
-dev_langs:
-- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,68 +25,56 @@ req.type-library:
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dxva2.dll
-api_name:
-- GetMonitorCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMonitorCapabilities
+ - highlevelmonitorconfigurationapi/GetMonitorCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dxva2.dll
+api_name:
+ - GetMonitorCapabilities
 ---
 
 # GetMonitorCapabilities function
 
 [!INCLUDE [MCCS Warning](../includes/mccs-warning.md)]
 
+
 ## -description
 
 Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 
-
 ## -parameters
-
-
-
 
 ### -param hMonitor [in]
 
 Handle to a physical monitor. To get the monitor handle, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
-          
-
 
 ### -param pdwMonitorCapabilities [out]
 
 Receives a bitwise <b>OR</b> of capabilities flags. See Remarks.
-          
-
 
 ### -param pdwSupportedColorTemperatures [out]
 
 Receives a bitwise <b>OR</b> of color temperature flags. See Remarks.
-          
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <b>GetLastError</b>.
 
 The function fails if the monitor does not support DDC/CI.
-          
-
-
-
 
 ## -remarks
-
-
 
 The capabilities flags returned in <i>pdwMonitorCapabilities</i> specify which high-level monitor configuration functions are supported by the monitor. They also specify how certain functions behave. The following capabilities flags are defined.
 
@@ -201,18 +185,8 @@ The color temperature flags returned in <i>pdwSupportedColorTemperatures</i> spe
 <td>The monitor supports 11,500 K color temperature.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
- 
-
- 
 

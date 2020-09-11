@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_RESOURCE_COORDINATE
 f1_keywords:
+ - D3D12_RESOURCE_COORDINATE
  - d3d12video/D3D12_RESOURCE_COORDINATE
 dev_langs:
  - c++

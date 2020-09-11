@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 3a74f763-a9f5-4e93-94fb-7ef2a116c82b
 ms.date: 12/05/2018
 ms.keywords: CreateGPOFromStarterGPO, CreateGPOFromStarterGPO method [GPMC], CreateGPOFromStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateGPOFromStarterGPO method, IGPMDomain2.CreateGPOFromStarterGPO, IGPMDomain2::CreateGPOFromStarterGPO, gpmc.igpmdomain2_creategpofromstartergpo, gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
-f1_keywords:
-- gpmgmt/IGPMDomain2.CreateGPOFromStarterGPO
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gpmgmt.dll
-api_name:
-- IGPMDomain2.CreateGPOFromStarterGPO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMDomain2::CreateGPOFromStarterGPO
+ - gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gpmgmt.dll
+api_name:
+ - IGPMDomain2.CreateGPOFromStarterGPO
 ---
 
 # IGPMDomain2::CreateGPOFromStarterGPO
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and retrieves a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object. This method creates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object. Then, this method copies the contents of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object into the <b>GPMGPO</b> object. Finally, this method updates the appropriate attributes of the <b>GPMGPO</b> object to reflect the configured data.
 
-
 ## -parameters
-
-
-
 
 ### -param pGPOTemplate [in]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object from which the new Group Policy object (GPO) will be created.
-
 
 ### -param ppnewGPO [out]
 
@@ -73,10 +68,7 @@ Address of a pointer to an <a href="https://docs.microsoft.com/previous-versions
 
 A reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object from which the new GPO will be created.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -87,16 +79,7 @@ Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/w
 <h3>VB</h3>
 Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a>  object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
- 
-
- 
 

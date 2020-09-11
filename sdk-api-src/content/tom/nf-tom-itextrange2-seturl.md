@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: f8e62056-5177-4c88-99d8-32ca30bc71e5
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetURL method, ITextRange2.SetURL, ITextRange2::SetURL, SetURL, SetURL method [Windows Controls], SetURL method [Windows Controls],ITextRange2 interface, controls.itextrange2_seturl, tom/ITextRange2::SetURL
-f1_keywords:
-- tom/ITextRange2.SetURL
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange2.SetURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange2::SetURL
+ - tom/ITextRange2::SetURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange2.SetURL
 ---
 
 # ITextRange2::SetURL
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the text in this range to that of the specified URL.
 
-
 ## -parameters
-
-
-
 
 ### -param bstr [in]
 
@@ -64,10 +60,7 @@ Type: <b>BSTR</b>
 
 The text to use as a URL for the selected friendly name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,14 +105,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The URL string is not validated. The text it contains must be enclosed in quotes, optionally preceded by the sentinel character 0xFDDF. For example: "http://www.msn.com" or 0xFDDF"http://www.msn.com". The range must be nondegenerate. 
 
@@ -135,21 +122,11 @@ The following actions are possible:
 </li>
 </ul>The text range be adjusted to different character positions after calling <b>SetURL</b>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-geturl">ITextRange2::GetURL</a>
- 
-
- 
 

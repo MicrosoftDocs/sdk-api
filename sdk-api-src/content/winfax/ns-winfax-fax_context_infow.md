@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7v5e.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_CONTEXT_INFOW, FAX_CONTEXT_INFO, FAX_CONTEXT_INFO structure [Fax Service], FAX_CONTEXT_INFOA, FAX_CONTEXT_INFOW, PFAX_CONTEXT_INFO, PFAX_CONTEXT_INFO structure pointer [Fax Service], _mfax_fax_context_info_str, fax._mfax_fax_context_info_str, winfax/FAX_CONTEXT_INFO, winfax/FAX_CONTEXT_INFOA, winfax/FAX_CONTEXT_INFOW, winfax/PFAX_CONTEXT_INFO'
-f1_keywords:
-- winfax/FAX_CONTEXT_INFO
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winfax.h
-api_name:
-- FAX_CONTEXT_INFO
-- FAX_CONTEXT_INFOA
-- FAX_CONTEXT_INFOW
 targetos: Windows
 req.typenames: FAX_CONTEXT_INFOW, *PFAX_CONTEXT_INFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FAX_CONTEXT_INFOW
+ - winfax/_FAX_CONTEXT_INFOW
+ - PFAX_CONTEXT_INFOW
+ - winfax/PFAX_CONTEXT_INFOW
+ - FAX_CONTEXT_INFOW
+ - winfax/FAX_CONTEXT_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winfax.h
+api_name:
+ - FAX_CONTEXT_INFO
+ - FAX_CONTEXT_INFOA
+ - FAX_CONTEXT_INFOW
 ---
 
 # FAX_CONTEXT_INFOW structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FAX_CONTEXT_INFO</b> structure contains information about a fax printer device context. The <b>SizeOfStruct</b> member is required. Information for the other members is supplied by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
@@ -66,13 +66,11 @@ Type: <b>DWORD</b>
 
 Specifies the size, in bytes, of the <b>FAX_CONTEXT_INFO</b> structure. The calling application must set this member to <b>sizeof(FAX_CONTEXT_INFO)</b> before it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function.
 
-
 ### -field hDC
 
 Type: <b>HDC</b>
 
 Handle to a fax printer device context. A call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function supplies the data for this member.
-
 
 ### -field ServerName
 
@@ -80,10 +78,7 @@ Type: <b>TCHAR[MAX_COMPUTERNAME_LENGTH+1]</b>
 
 Specifies a variable that contains a null-terminated string that is the fax server name of interest. A call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function supplies the data for this member. If the fax server is on the local computer, this member will be empty. The client application does not need to fill in this member.
 
-
 ## -remarks
-
-
 
 A fax client application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a> function to retrieve the handle to a fax printer device context. The function returns the handle in a <b>FAX_CONTEXT_INFO</b> structure. The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-printing-a-fax-to-a-device-context">Printing a Fax to a Device Context</a>.
 
@@ -95,9 +90,6 @@ A fax client application can call the <a href="https://docs.microsoft.com/previo
 > The winfax.h header defines FAX_CONTEXT_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>
 
@@ -120,7 +112,4 @@ A fax client application can call the <a href="https://docs.microsoft.com/previo
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
- 
-
- 
 

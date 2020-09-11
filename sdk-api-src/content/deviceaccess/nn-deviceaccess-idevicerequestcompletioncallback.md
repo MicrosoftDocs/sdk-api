@@ -8,10 +8,6 @@ tech.root: deviceaccess
 ms.assetid: 88746199-fc42-4f1d-9f97-ebd573e9cb3c
 ms.date: 12/05/2018
 ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback interface [Device Access Broker API], IDeviceRequestCompletionCallback interface [Device Access Broker API],described, deviceaccess.idevicerequestcompletioncallback, deviceaccess/IDeviceRequestCompletionCallback
-f1_keywords:
-- deviceaccess/IDeviceRequestCompletionCallback
-dev_langs:
-- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Deviceaccess.lib
-- Deviceaccess.dll
-api_name:
-- IDeviceRequestCompletionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceRequestCompletionCallback
+ - deviceaccess/IDeviceRequestCompletionCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Deviceaccess.lib
+ - Deviceaccess.dll
+api_name:
+ - IDeviceRequestCompletionCallback
 ---
 
 # IDeviceRequestCompletionCallback interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a method to handle the completion of calls to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a>method.
-
 
 ## -inheritance
 
@@ -78,14 +77,9 @@ Implements the <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Callers that want  to use asynchronous operations on an instance that's created by CreateDeviceAccessInstance should implement the <b>IDeviceRequestCompletionCallback</b> interface.
-
-
 

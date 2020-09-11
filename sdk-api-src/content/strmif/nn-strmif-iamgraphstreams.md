@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
-f1_keywords:
-- strmif/IAMGraphStreams
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMGraphStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMGraphStreams
+ - strmif/IAMGraphStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMGraphStreams
 ---
 
 # IAMGraphStreams interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMGraphStreams</code> interface controls a filter graph that renders a live source. A live source is one that streams data in real time, such as a capture device or a network broadcast. The Filter Graph Manager implements this interface.
 
 Applications can use this interface to specify how the graph handles latency and synchronization when it renders a live source. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/live-sources">Live Sources</a>.
-
-
-
 
 ## -inheritance
 
@@ -101,5 +97,5 @@ Enables or disables synchronization using time-stamp offsets.
 
 </td>
 </tr>
-</table> 
+</table>
 

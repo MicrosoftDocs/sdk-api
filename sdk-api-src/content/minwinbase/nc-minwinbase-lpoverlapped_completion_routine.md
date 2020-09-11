@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 574eccda-03eb-4e8a-9d74-cfaecc7312ce
 ms.date: 12/05/2018
 ms.keywords: FileIOCompletionRoutine, FileIOCompletionRoutine callback, FileIOCompletionRoutine callback function [Files], LPOVERLAPPED_COMPLETION_ROUTINE, LPOVERLAPPED_COMPLETION_ROUTINE callback function [Files], _win32_fileiocompletionroutine, base.fileiocompletionroutine, fs.fileiocompletionroutine, minwinbase/FileIOCompletionRoutine, minwinbase/LPOVERLAPPED_COMPLETION_ROUTINE
-f1_keywords:
-- minwinbase/FileIOCompletionRoutine
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- minwinbase.h
-api_name:
-- FileIOCompletionRoutine
-- LPOVERLAPPED_COMPLETION_ROUTINE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPOVERLAPPED_COMPLETION_ROUTINE
+ - minwinbase/LPOVERLAPPED_COMPLETION_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - minwinbase.h
+api_name:
+ - FileIOCompletionRoutine
+ - LPOVERLAPPED_COMPLETION_ROUTINE
 ---
 
 # LPOVERLAPPED_COMPLETION_ROUTINE callback function
 
 
 ## -description
-
 
 An application-defined callback function used with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a> and 
@@ -65,22 +65,16 @@ The <b>LPOVERLAPPED_COMPLETION_ROUTINE</b> type defines a pointer to this callba
     function. <b>FileIOCompletionRoutine</b> is a 
     placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param dwErrorCode [in]
 
 The I/O completion status. This parameter can be one of the 
       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
 ### -param dwNumberOfBytesTransfered [in]
 
 The number of bytes transferred. If an error occurs, this parameter is zero.
-
 
 ### -param lpOverlapped [in, out]
 
@@ -91,10 +85,7 @@ The system does not use the <a href="https://docs.microsoft.com/windows/desktop/
        after the completion routine is called, so the completion routine can deallocate the memory used by the 
        overlapped structure.
 
-
 ## -remarks
-
-
 
 The return value for an asynchronous operation is 0 (<b>ERROR_SUCCESS</b>) if the operation 
     completed successfully or if the operation completed with a warning. To determine whether an I/O operation was 
@@ -126,12 +117,7 @@ For  example code, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-bindiocompletioncallback">BindIoCompletionCallback</a>
 
@@ -166,7 +152,4 @@ For  example code, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

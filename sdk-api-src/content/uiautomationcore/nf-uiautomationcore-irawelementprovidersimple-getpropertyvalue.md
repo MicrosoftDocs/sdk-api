@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 029ea063-009d-4b54-978a-4183454b2d66
 ms.date: 12/05/2018
 ms.keywords: GetPropertyValue, GetPropertyValue method [Windows Accessibility], GetPropertyValue method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPropertyValue method, IRawElementProviderSimple.GetPropertyValue, IRawElementProviderSimple::GetPropertyValue, uiauto.uiauto_IRawElementProviderSimple_GetPropertyValue, uiauto_IRawElementProviderSimple_GetPropertyValue, uiautomationcore/IRawElementProviderSimple::GetPropertyValue, winauto.uiauto_IRawElementProviderSimple_GetPropertyValue
-f1_keywords:
-- uiautomationcore/IRawElementProviderSimple.GetPropertyValue
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IRawElementProviderSimple.GetPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderSimple::GetPropertyValue
+ - uiautomationcore/IRawElementProviderSimple::GetPropertyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IRawElementProviderSimple.GetPropertyValue
 ---
 
 # IRawElementProviderSimple::GetPropertyValue
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of a property supported by the Microsoft UI Automation provider.
 
-
 ## -parameters
-
-
-
 
 ### -param propertyId [in]
 
 Type: <b>PROPERTYID</b>
 
 The property identifier. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
-
 
 ### -param pRetVal [out, retval]
 
@@ -72,24 +67,15 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-str
 Receives the property value, or <b>VT_EMPTY</b> if the property is not supported by this
 				provider. This parameter is passed uninitialized. See Remarks.
 
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an  <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code.
 
-If the provider does not support the <i>propertyId</i> property, the provider should set <i>pRetVal-&gt;vt</i> to <b>VT_EMPTY</b> and return <b>S_OK</b>. 
-
-
-
+If the provider does not support the <i>propertyId</i> property, the provider should set <i>pRetVal-&gt;vt</i> to <b>VT_EMPTY</b> and return <b>S_OK</b>.
 
 ## -remarks
-
-
 
 If a provider is explicitly hiding the property value (that is, the provider does not supply the property, and the request is not to be passed through to other providers), it should return a pointer obtained by using the             <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservednotsupportedvalue">UiaGetReservedNotSupportedValue</a> function. For example: 
             
@@ -158,17 +144,7 @@ HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId,
             
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
- 
-
- 
 

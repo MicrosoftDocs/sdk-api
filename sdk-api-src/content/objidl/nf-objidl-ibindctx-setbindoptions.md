@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9dcce48e-567e-42b4-8df2-2bc861cb5fcb
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],SetBindOptions method, IBindCtx.SetBindOptions, IBindCtx::SetBindOptions, SetBindOptions, SetBindOptions method [COM], SetBindOptions method [COM],IBindCtx interface, _com_ibindctx_setbindoptions, com.ibindctx_setbindoptions, objidl/IBindCtx::SetBindOptions
-f1_keywords:
-- objidl/IBindCtx.SetBindOptions
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IBindCtx.SetBindOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBindCtx::SetBindOptions
+ - objidl/IBindCtx::SetBindOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IBindCtx.SetBindOptions
 ---
 
 # IBindCtx::SetBindOptions
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets new values for the binding parameters stored in the bind context.
 
-
 ## -parameters
-
-
-
 
 ### -param pbindopts [in]
 
 A pointer to a [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3~r1) structure containing the binding parameters.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 A bind context contains a block of parameters that are common to most <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> operations. These parameters do not change as the operation moves from piece to piece of a composite moniker.
 
@@ -94,13 +82,7 @@ You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values be
 
 <b>SetBindOptions</b> copies the members of the specified structure, but not the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a> structure and the pointers it contains. Callers may not free these pointers until the bind context is released.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a>
 
@@ -115,7 +97,4 @@ You can use the <b>IBindCtx::SetBindOptions</b> method to modify these values be
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
- 
-
- 
 

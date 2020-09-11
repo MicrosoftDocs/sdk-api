@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
 ms.date: 12/05/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
-f1_keywords:
-- mfidl/IMFContentProtectionDevice
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.dll
-api_name:
-- IMFContentProtectionDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFContentProtectionDevice
+ - mfidl/IMFContentProtectionDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.dll
+api_name:
+ - IMFContentProtectionDevice
 ---
 
 # IMFContentProtectionDevice interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system. 
-
+Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system.
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Calls into the implementation of the protection system in the security processor
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

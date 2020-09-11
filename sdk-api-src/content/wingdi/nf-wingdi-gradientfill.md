@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 2f3e23e4-0105-4dcf-89ea-702ec2cf9e21
 ms.date: 12/05/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GradientFill, GradientFill function [Windows GDI], _win32_GradientFill, gdi.gradientfill, wingdi/GradientFill
-f1_keywords:
-- wingdi/GradientFill
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Msimg32.lib
 req.dll: Msimg32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msimg32.dll
-- ext-ms-win-msimg-draw-l1-1-0.dll
-api_name:
-- GradientFill
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GradientFill
+ - wingdi/GradientFill
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msimg32.dll
+ - ext-ms-win-msimg-draw-l1-1-0.dll
+api_name:
+ - GradientFill
 ---
 
 # GradientFill function
@@ -50,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GradientFill</b> function fills rectangle and triangle structures.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the destination device context.
 
-
 ### -param pVertex [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures that each define a vertex.
-
 
 ### -param nVertex [in]
 
 The number of vertices in <i>pVertex</i>.
 
-
 ### -param pMesh [in]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures in triangle mode, or an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures in rectangle mode.
 
-
 ### -param nMesh [in]
 
 The number of elements (triangles or rectangles) in <i>pMesh</i>.
-
 
 ### -param ulMode [in]
 
@@ -124,23 +115,14 @@ In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 To add smooth shading to a triangle, call the <b>GradientFill</b> function with the three triangle endpoints. GDI will linearly interpolate and fill the triangle. Here is the drawing output of a shaded triangle.
 
@@ -159,13 +141,7 @@ Note that GradientFill does not use the Alpha member of the <a href="https://doc
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/smooth-shading">Smooth Shading</a>, <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-triangle">Drawing a Shaded Triangle</a>, and <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-rectangle">Drawing a Shaded Rectangle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -188,7 +164,4 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/gd
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
- 
-
- 
 

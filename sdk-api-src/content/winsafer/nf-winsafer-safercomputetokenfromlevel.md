@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.date: 12/05/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel
-f1_keywords:
-- winsafer/SaferComputeTokenFromLevel
-dev_langs:
-- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
-api_name:
-- SaferComputeTokenFromLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaferComputeTokenFromLevel
+ - winsafer/SaferComputeTokenFromLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+api_name:
+ - SaferComputeTokenFromLevel
 ---
 
 # SaferComputeTokenFromLevel function
@@ -50,29 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaferComputeTokenFromLevel</b> function restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 
-
 ## -parameters
-
-
-
 
 ### -param LevelHandle [in]
 
 <b>SAFER_LEVEL_HANDLE</b> that contains the restrictions to place on the input token. Do not pass handles with a LevelId of <b>SAFER_LEVELID_FULLYTRUSTED</b> or <b>SAFER_LEVELID_DISALLOWED</b> to this function. This is because <b>SAFER_LEVELID_FULLYTRUSTED</b> is unrestricted and <b>SAFER_LEVELID_DISALLOWED</b> does not contain a token.
 
-
 ### -param InAccessToken [in, optional]
 
-Token to be restricted. If this parameter is <b>NULL</b>, the token of the current thread will be used. If the current thread does not contain a token, the token of the current process is used.  
-
+Token to be restricted. If this parameter is <b>NULL</b>, the token of the current thread will be used. If the current thread does not contain a token, the token of the current process is used.
 
 ### -param OutAccessToken [out]
 
 The resulting restricted token.
-
 
 ### -param dwFlags [in]
 
@@ -136,8 +129,6 @@ On output, the value of the <i>lpReserved</i> parameter specifies the set of fla
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpReserved [in, out, optional]
 
@@ -145,12 +136,7 @@ If the <b>SAFER_TOKEN_COMPARE_ONLY</b>  flag is set, this parameter, on output, 
 
 If the <b>SAFER_TOKEN_WANT_FLAGS</b> flag is set, and the <b>SAFER_TOKEN_COMPARE_ONLY</b> flag is not set, this parameter is an <b>LPDWORD</b> value that specifies the flags used to create the restricted token.
 
-
 ## -returns
 
-
-
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
 

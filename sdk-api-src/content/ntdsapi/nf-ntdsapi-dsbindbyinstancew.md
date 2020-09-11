@@ -8,10 +8,6 @@ tech.root: ADAM
 ms.assetid: 65302ddc-2bc0-4d80-b028-e268859be227
 ms.date: 12/05/2018
 ms.keywords: DsBindByInstance, DsBindByInstance function [ADAM], DsBindByInstanceA, DsBindByInstanceW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FORCE_KERBEROS, adam.dsbindbyinstance, ntdsapi/DsBindByInstance, ntdsapi/DsBindByInstanceA, ntdsapi/DsBindByInstanceW
-f1_keywords:
-- ntdsapi/DsBindByInstance
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsBindByInstance
-- DsBindByInstanceA
-- DsBindByInstanceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: ADAM
 ms.custom: 19H1
+f1_keywords:
+ - DsBindByInstanceW
+ - ntdsapi/DsBindByInstanceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsBindByInstance
+ - DsBindByInstanceA
+ - DsBindByInstanceW
 ---
 
 # DsBindByInstanceW function
@@ -52,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsBindByInstance</b> function 
    explicitly binds to any AD LDS or Active Directory instance.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in]
 
@@ -69,7 +65,6 @@ Pointer to a null-terminated string that specifies the name of the instance. Thi
       Directory instance, then the <i>DnsDomainName</i> parameter must contain a value. If this 
       parameter and the <i>DnsDomainName</i> parameter are both <b>NULL</b>, the 
       function fails with the return value <b>ERROR_INVALID_PARAMETER</b> (87).
-
 
 ### -param Annotation [in]
 
@@ -82,7 +77,6 @@ If this parameter is <b>NULL</b> when binding by domain to an Active Directory i
        <b>NULL</b> when binding to an AD LDS instance, then the 
        <i>InstanceGuid</i> parameter must be specified.
 
-
 ### -param InstanceGuid [in]
 
 Pointer to a <b>GUID</b> value that contains the <b>GUID</b> of the AD LDS instance. The <b>GUID</b> value is the 
@@ -90,13 +84,11 @@ Pointer to a <b>GUID</b> value that contains the <b>GUID</b> of the AD LDS insta
       instance. If this parameter is <b>NULL</b> when binding to an AD LDS instance, the 
       <i>Annotation</i> parameter must be specified.
 
-
 ### -param DnsDomainName [in]
 
 Pointer to a null-terminated string that specifies the DNS name of the domain when binding to an Active 
       Directory instance by domain. Set this parameter to <b>NULL</b> to bind to an Active 
       Directory instance by server or to an AD LDS instance.
-
 
 ### -param AuthIdentity [in, optional]
 
@@ -104,13 +96,11 @@ Handle to the credentials used to start the RPC session. Use the
       <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function to create 
       a structure suitable for <i>AuthIdentity</i>.
 
-
 ### -param ServicePrincipalName [in, optional]
 
 Pointer to a null-terminated string that specifies the Service Principal Name to assign to the client. 
       Passing <b>NULL</b> in <i>ServicePrincipalName</i> is equivalent to a call 
       to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a> function.
-
 
 ### -param BindFlags [in, optional]
 
@@ -143,7 +133,6 @@ Most operations do not require the delegate impersonation level; this flag shoul
           <b>DsBindWithSpnEx</b> will not attempt to authenticate 
           with any other mechanism.
 
-
 ### -param phDS [out]
 
 Address of a <b>HANDLE</b> value that receives the bind handle. To close this handle, 
@@ -173,20 +162,12 @@ Most operations do not require the delegate impersonation level; this flag shoul
           <b>DsBindWithSpnEx</b> will not attempt to authenticate 
           with any other mechanism.
 
-
 ## -returns
-
-
 
 Returns <b>NO_ERROR</b> if successful or an RPC or Win32 error otherwise. Possible error codes include those 
       listed in the  following list.
 
-
-
-
 ## -remarks
-
-
 
 The following list lists the required parameter values for binding to an instance.
 

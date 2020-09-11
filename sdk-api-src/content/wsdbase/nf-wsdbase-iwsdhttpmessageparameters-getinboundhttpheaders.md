@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 99b30444-1059-45c3-ac72-a0f98d722365
 ms.date: 12/05/2018
 ms.keywords: GetInboundHttpHeaders, GetInboundHttpHeaders method, GetInboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetInboundHttpHeaders method, IWSDHttpMessageParameters.GetInboundHttpHeaders, IWSDHttpMessageParameters::GetInboundHttpHeaders, ncd.iwsdhttpmessageparameters_getinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.GetInboundHttpHeaders
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.GetInboundHttpHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::GetInboundHttpHeaders
+ - wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.GetInboundHttpHeaders
 ---
 
 # IWSDHttpMessageParameters::GetInboundHttpHeaders
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current HTTP headers used for inbound SOAP-over-HTTP transmissions.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszHeaders [out]
 
 Pointer used to receive the current HTTP headers in use. Do not deallocate this pointer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,18 +106,8 @@ There are no headers available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
 

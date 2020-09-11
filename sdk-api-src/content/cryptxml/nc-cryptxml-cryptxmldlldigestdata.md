@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b18a6e96-f5ed-4e48-af8c-4599c1864bf4
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllDigestData, CryptXmlDllDigestData callback, CryptXmlDllDigestData callback function [Security], cryptxml/CryptXmlDllDigestData, security.cryptxmldlldigestdata
-f1_keywords:
-- cryptxml/CryptXmlDllDigestData
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cryptxml.h
-api_name:
-- CryptXmlDllDigestData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlDllDigestData
+ - cryptxml/CryptXmlDllDigestData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cryptxml.h
+api_name:
+ - CryptXmlDllDigestData
 ---
 
 ## -description
@@ -69,3 +70,4 @@ The size, in bytes, of the block of data pointed to by the <i>pbData</i> paramet
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
+

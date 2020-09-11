@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 65d21f0c-b6f1-4506-975c-6d0308b3fc2f
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnDisplayNameChanged method, IAudioSessionEvents.OnDisplayNameChanged, IAudioSessionEvents::OnDisplayNameChanged, IAudioSessionEventsOnDisplayNameChanged, OnDisplayNameChanged, OnDisplayNameChanged method [Core Audio], OnDisplayNameChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnDisplayNameChanged, coreaudio.iaudiosessionevents_ondisplaynamechanged
-f1_keywords:
-- audiopolicy/IAudioSessionEvents.OnDisplayNameChanged
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionEvents.OnDisplayNameChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionEvents::OnDisplayNameChanged
+ - audiopolicy/IAudioSessionEvents::OnDisplayNameChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionEvents.OnDisplayNameChanged
 ---
 
 # IAudioSessionEvents::OnDisplayNameChanged
@@ -49,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>OnDisplayNameChanged</b> method notifies the client that the display name for the session has changed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param NewDisplayName [in]
 
 The new display name for the session. This parameter points to a null-terminated, wide-character string containing the new display name. The string remains valid for the duration of the call.
 
-
 ### -param EventContext [in]
 
 The event context value. This is the same value that the caller passed to <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname">IAudioSessionControl::SetDisplayName</a> in the call that changed the display name for the session. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The session manager calls this method each time a call to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname">IAudioSessionControl::SetDisplayName</a> method changes the display name of the session. The Sndvol program uses a session's display name to label the volume slider for the session.
 
@@ -90,20 +74,11 @@ The <i>EventContext</i> parameter provides a means for a client to distinguish b
 
 For a code example that implements the methods in the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents</a> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname">IAudioSessionControl::SetDisplayName</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
- 
-
- 
 

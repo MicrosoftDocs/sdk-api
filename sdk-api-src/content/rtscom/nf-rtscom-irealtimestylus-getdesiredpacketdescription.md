@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 8799eb17-8ad0-49c1-a278-40b3bff9d281
 ms.date: 12/05/2018
 ms.keywords: 8799eb17-8ad0-49c1-a278-40b3bff9d281, GetDesiredPacketDescription, GetDesiredPacketDescription method [Tablet PC], GetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetDesiredPacketDescription method, IRealTimeStylus.GetDesiredPacketDescription, IRealTimeStylus::GetDesiredPacketDescription, rtscom/IRealTimeStylus::GetDesiredPacketDescription, tablet.irealtimestylus_getdesiredpacketdescription
-f1_keywords:
-- rtscom/IRealTimeStylus.GetDesiredPacketDescription
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.GetDesiredPacketDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::GetDesiredPacketDescription
+ - rtscom/IRealTimeStylus::GetDesiredPacketDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.GetDesiredPacketDescription
 ---
 
 # IRealTimeStylus::GetDesiredPacketDescription
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the list of properties that have been requested to be included in the packet stream.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pcProperties [in, out]
 
 The size, in bytes, of the <i>ppPropertyGUIDS</i> buffer.
 
-
 ### -param ppPropertyGuids [out]
 
  A pointer to a list of GUIDs specifying which properties, such as X, Y, and NormalPressure, are present in the packet data. For a list of predefined properties, see <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>.
 
-
 ## -returns
-
-
 
 For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -remarks
-
-
 
 Use this method to get the array of packet properties to which the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a> object has subscribed by calling <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>. The packet properties are represented by an array of globally unique identifiers (GUIDs). For a complete list of properties for which you can retrieve metrics, see the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>.
 
@@ -135,14 +121,7 @@ if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGu
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -153,7 +132,4 @@ if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGu
 
 
 <b>RealTimeStylus Class</b>
- 
-
- 
 

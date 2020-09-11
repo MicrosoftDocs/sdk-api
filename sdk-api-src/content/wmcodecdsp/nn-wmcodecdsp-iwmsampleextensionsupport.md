@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
-f1_keywords:
-- wmcodecdsp/IWMSampleExtensionSupport
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMSampleExtensionSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSampleExtensionSupport
+ - wmcodecdsp/IWMSampleExtensionSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMSampleExtensionSupport
 ---
 
 # IWMSampleExtensionSupport interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures codec support for sample extensions.
-
-
-
 
 ## -inheritance
 
@@ -79,16 +76,9 @@ Configures whether the codec supports sample extensions.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

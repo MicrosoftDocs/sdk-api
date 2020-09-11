@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c461d50a-c785-4b32-b331-fe3a1693f4de
 ms.date: 12/05/2018
 ms.keywords: AZ_AZSTORE_FLAG_AUDIT_IS_CRITICAL, AZ_AZSTORE_FLAG_BATCH_UPDATE, AZ_AZSTORE_FLAG_CREATE, AZ_AZSTORE_FLAG_MANAGE_STORE_ONLY, AzAuthorizationStore object [Security],Initialize method, IAzAuthorizationStore interface [Security],Initialize method, IAzAuthorizationStore.Initialize, IAzAuthorizationStore::Initialize, Initialize, Initialize method [Security], Initialize method [Security],AzAuthorizationStore object, Initialize method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::Initialize, security.azauthorizationstore_initialize
-f1_keywords:
-- azroles/AzAuthorizationStore.Initialize
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- AzAuthorizationStore.Initialize
-- IAzAuthorizationStore.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::Initialize
+ - azroles/IAzAuthorizationStore::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - AzAuthorizationStore.Initialize
+ - IAzAuthorizationStore.Initialize
 ---
 
 # IAzAuthorizationStore::Initialize
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes the authorization manager.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
@@ -136,7 +132,6 @@ If the AZ_AZSTORE_FLAG_CREATE flag is specified:
 </ul>
 If the AZ_AZSTORE_FLAG_CREATE flag is not specified, the system expects the underlying policy store to exist. If the store does not exist, the <b>Initialize</b> method will fail with ERROR_FILE_NOT_FOUND.
 
-
 ### -param bstrPolicyURL [in]
 
 Location of the persistent copy of the authorization policy database.
@@ -179,22 +174,13 @@ Reserved for future use. This parameter can be one of the following values:
 
 ## -returns
 
-
-
  If the method succeeds, the method returns S_OK.
 
 If the <i>bstrPolicyURL</i> parameter is not valid, the method returns HRESULT_FROM_WIN32(ERROR_INVALID_NAME).
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
 
-
-
 Active Directory supports Application Partitions, which are also known as Non-Domain Naming Contexts. These partitions are used as a location for programs to store application data. An Authorization Manager policy store cannot be created or kept in the Application Partition; instead, use the Program Data container as the container for Active Directory Authorization Manager policy stores.
-
-
 

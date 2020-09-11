@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: e1a6349e-9c3f-49e5-8e50-b51bf260e9be
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardUpdated method, IUIAnimationStoryboardEventHandler.OnStoryboardUpdated, IUIAnimationStoryboardEventHandler::OnStoryboardUpdated, OnStoryboardUpdated, OnStoryboardUpdated method [Windows Animation], OnStoryboardUpdated method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardupdated, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
-f1_keywords:
-- uianimation/IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
+ - uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboardEventHandler.OnStoryboardUpdated
 ---
 
 # IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles events that occur when a storyboard is updated.
 
-
 ## -parameters
-
-
-
 
 ### -param storyboard [in]
 
 The storyboard that has been updated.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 This method is called when the value of at least one of the variables that a storyboard is animating has changed since the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-update">IUIAnimationManager::Update</a> method.
 
@@ -116,12 +104,7 @@ By default, a call made in a callback method to any other animation method resul
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-update">IUIAnimationManager::Update</a>
 
@@ -137,7 +120,4 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler">IUIAnimationStoryboardEventHandler</a>
- 
-
- 
 

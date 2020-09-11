@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY'
-f1_keywords:
-- wabdefs/Gender
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wabdefs.h
-api_name:
-- Gender
 targetos: Windows
 req.typenames: ADRENTRY, *LPADRENTRY
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - _ADRENTRY
+ - wabdefs/_ADRENTRY
+ - LPADRENTRY
+ - wabdefs/LPADRENTRY
+ - ADRENTRY
+ - wabdefs/ADRENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wabdefs.h
+api_name:
+ - Gender
 ---
 
 # ADRENTRY structure
@@ -50,26 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. Describes zero or more properties belonging to one or more recipients.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulReserved1
 
 Type: <b>ULONG</b>
-
 
 ### -field cValues
 
 Type: <b>ULONG</b>
 
 Variable of type <b>ULONG</b> that specifies the count of properties in the property value array to which the <b>rgPropVals</b> member points. The <b>cValues</b> member can be zero.
-
 
 ### -field rgPropVals
 

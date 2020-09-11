@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
 ms.date: 12/05/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
-f1_keywords:
-- iphlpapi/LookupPersistentTcpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- LookupPersistentTcpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LookupPersistentTcpPortReservation
+ - iphlpapi/LookupPersistentTcpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - LookupPersistentTcpPortReservation
 ---
 
 # LookupPersistentTcpPortReservation function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LookupPersistentTcpPortReservation</b> function looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting TCP port number in network byte order. 
-
+The starting TCP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of TCP port numbers  that were reserved.
 
-
 ### -param Token [out]
 
 A pointer to a port reservation token that is returned if the function succeeds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -122,14 +113,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>LookupPersistentTcpPortReservation</b>  function is defined on Windows Vista and later. 
 
@@ -294,14 +279,7 @@ int wmain(int argc, WCHAR **argv)  {
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
@@ -324,7 +302,4 @@ int wmain(int argc, WCHAR **argv)  {
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ac0beefe-0afd-45da-b1bb-1bd960b4b0f0
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetSnapshotDeviceName method, CVssWriter.GetSnapshotDeviceName, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS],CVssWriter interface, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
-f1_keywords:
-- vswriter/CVssWriter.GetSnapshotDeviceName
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.GetSnapshotDeviceName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::GetSnapshotDeviceName
+ - vswriter/CVssWriter::GetSnapshotDeviceName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.GetSnapshotDeviceName
 ---
 
 # CVssWriter::GetSnapshotDeviceName
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSnapshotDeviceName</b> method 
    returns the name of the device that hosts the shadow copy of the specified volume or file share. This method allows writers to support 
    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> shadow copies, and 
    can only be called during the processing of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">OnPostSnapshot</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param wszOriginalVolume [in]
 
@@ -82,10 +78,7 @@ Name of the original volume or the UNC path of the original file share that cont
 The address of a <b>LPCWSTR</b> that will receive a pointer to the device name of the 
       shadow copy.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -141,18 +134,10 @@ The <i>wszOriginalVolume</i> parameter is not one of the volumes or file shares 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
 To get the name of the original volume for the <i>wszOriginalVolume</i> parameter, first call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumecount">CVssWriter::GetCurrentVolumeCount</a> method to query the number of volumes in the shadow copy set. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a> method to enumerate the original names of the volumes in the shadow copy set.
-
-
 

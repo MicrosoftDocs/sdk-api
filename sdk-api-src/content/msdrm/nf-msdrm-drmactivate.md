@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: d3f4ac2c-95d9-4273-a679-81670dd62d28
 ms.date: 12/05/2018
 ms.keywords: DRMActivate, DRMActivate function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_CANCEL, DRM_ACTIVATE_DELAYED, DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, DRM_ACTIVATE_SHARED_GROUPIDENTITY, DRM_ACTIVATE_SILENT, DRM_ACTIVATE_TEMPORARY, msdrm/DRMActivate, rm.drmactivate
-f1_keywords:
-- msdrm/DRMActivate
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client v1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMActivate
+ - msdrm/DRMActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMActivate
 ---
 
 # DRMActivate function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -59,18 +59,13 @@ unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRMActivate</b> function obtains a lockbox and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/m-gly">machine certificate</a> for a machine or a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> for a user. 
-
+The <b>DRMActivate</b> function obtains a lockbox and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/m-gly">machine certificate</a> for a machine or a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> for a user.
 
 ## -parameters
-
-
-
 
 ### -param hClient [in]
 
 A handle to a client session, created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a>.
-
 
 ### -param uFlags [in]
 
@@ -128,41 +123,29 @@ This flag is not used.
 
 Delayed machine activation. In normal silent activation, the client receives a CAB file that contains activation files that are expanded and run automatically. With this flag, the files are saved to a location that is passed to the <i>pvParam</i> parameter of the callback function, where a client can check them for viruses before expanding and running them.
 
-
 ### -param uLangID [in]
 
 The language ID used by the application. If this parameter is set to zero, the default language ID for the logged-on user is used.
-
 
 ### -param pActServInfo [in]
 
 Optional server information. If the client has not been configured to use Active Directory Federation Services (ADFS) with AD RMS, you can pass <b>NULL</b> to use the Windows Live ID service for service discovery. If the client has been configured to use ADFS, you must pass the Windows Live certification URL. <!-- Currently, the Windows Live ID certification service URL is https://certification.isv.drm.microsoft.com/certification/certification.asmx.--> For more information about service discovery, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a>.
 
-
 ### -param pvContext [in]
 
 A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
-
 
 ### -param hParentWnd [in]
 
 Parent window handle used in nonsilent Windows Live ID activation (user activation only). In nonsilent activation, a Windows Live ID window opens to request user information. This parameter allows the application to assign an arbitrary window as the window's parent. If this parameter is <b>NULL</b>, the active window is used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 If an application attempts to activate a user on a computer that has not yet been activated, the function will fail. We recommend that an application call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmisactivated">DRMIsActivated</a> before calling this function to determine the activation status of the computer. Activating a machine that is already activated will overwrite the existing lockbox and machine certificate. Activating a user a second time will add an additional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> to the computer. A user needs to activate a particular computer only once, although updates in the lockbox architecture may require downloading and activating a new lockbox.
 
@@ -221,13 +204,7 @@ The following list describes what happens with combinations of these options.<ta
 
 During execution, <b>DRMActivate</b> calls into the user-defined callback function and sets the <i>msg</i> parameter to <b>DRM_MSG_ACTIVATE_MACHINE</b> or <b>DRM_MSG_ACTIVATE_GROUPIDENTITY</b>. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
@@ -246,7 +223,4 @@ During execution, <b>DRMActivate</b> calls into the user-defined callback functi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmisactivated">DRMIsActivated</a>
- 
-
- 
 

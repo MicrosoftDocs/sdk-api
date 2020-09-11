@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_resetcontent.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_ResetContent, ComboBox_ResetContent macro [Windows Controls], _win32_ComboBox_ResetContent, _win32_ComboBox_ResetContent_cpp, controls.ComboBox_ResetContent, controls._win32_ComboBox_ResetContent, windowsx/ComboBox_ResetContent
-f1_keywords:
-- windowsx/ComboBox_ResetContent
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ComboBox_ResetContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComboBox_ResetContent
+ - windowsx/ComboBox_ResetContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ComboBox_ResetContent
 ---
 
 # ComboBox_ResetContent macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all items from the list box and edit control of a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-resetcontent">CB_RESETCONTENT</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 

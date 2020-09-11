@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 42e069cb-3d9a-4592-bbb8-0113f14ed28c
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],IsVolumeSupported method, IVssBackupComponents.IsVolumeSupported, IVssBackupComponents::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method [VSS], IsVolumeSupported method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_isvolumesupported, base.ivssbackupcomponents_isvolumesupported, vsbackup/IVssBackupComponents::IsVolumeSupported
-f1_keywords:
-- vsbackup/IVssBackupComponents.IsVolumeSupported
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.IsVolumeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::IsVolumeSupported
+ - vsbackup/IVssBackupComponents::IsVolumeSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.IsVolumeSupported
 ---
 
 # IVssBackupComponents::IsVolumeSupported
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IsVolumeSupported</b> method determines whether the specified provider supports shadow copies on the specified volume or remote file share.
 
-
 ## -parameters
-
-
-
 
 ### -param ProviderId [in]
 
 Provider identifier. If the value is GUID_NULL, 
 <b>IsVolumeSupported</b> checks whether any provider supports the volume or remote file share.
-
 
 ### -param pwszVolumeName [in]
 
@@ -84,10 +79,7 @@ Volume name or UNC path of remote file share. The name or UNC path must be in on
 
 Address of a caller-allocated variable that receives <b>TRUE</b> if shadow copies are supported on the specified volume or remote file share, or <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -179,14 +171,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
@@ -200,20 +186,11 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>VHDs are not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
- 
-
- 
 

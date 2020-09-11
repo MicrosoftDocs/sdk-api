@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 8db3657c-f64f-4e38-832e-5808557f479d
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectMessage method, IWTSProtocolLogonErrorRedirector.RedirectMessage, IWTSProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage
-f1_keywords:
-- wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectMessage
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolLogonErrorRedirector.RedirectMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolLogonErrorRedirector::RedirectMessage
+ - wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolLogonErrorRedirector.RedirectMessage
 ---
 
 # IWTSProtocolLogonErrorRedirector::RedirectMessage
@@ -49,53 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector::RedirectMessage</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectmessage">IWRdsProtocolLogonErrorRedirector::RedirectMessage</a>.]
 
 Queries the protocol regarding how to redirect the logon message.
 
-
 ## -parameters
-
-
-
 
 ### -param pszCaption [in]
 
 A pointer to a string that contains the message box caption.
 
-
 ### -param pszMessage [in]
 
 A pointer to a string that contains the logon message.
-
 
 ### -param uType [in]
 
 An integer that contains the message box type. For more information, see the <b>MessageBox</b> function.
 
-
 ### -param pResponse [out]
 
 A pointer to a <a href="/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response for redirecting the logon message.
 
-
 ## -returns
-
-
 
 When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogonerrorredirector">IWTSProtocolLogonErrorRedirector</a>
- 
-
- 
 

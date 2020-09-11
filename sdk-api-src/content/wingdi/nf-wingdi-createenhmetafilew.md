@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607
 ms.date: 12/05/2018
 ms.keywords: CreateEnhMetaFile, CreateEnhMetaFile function [Windows GDI], CreateEnhMetaFileA, CreateEnhMetaFileW, _win32_CreateEnhMetaFile, gdi.createenhmetafile, wingdi/CreateEnhMetaFile, wingdi/CreateEnhMetaFileA, wingdi/CreateEnhMetaFileW
-f1_keywords:
-- wingdi/CreateEnhMetaFile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-metafile-l1-1-2.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- CreateEnhMetaFile
-- CreateEnhMetaFileA
-- CreateEnhMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateEnhMetaFileW
+ - wingdi/CreateEnhMetaFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-metafile-l1-1-2.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - CreateEnhMetaFile
+ - CreateEnhMetaFileA
+ - CreateEnhMetaFileW
 ---
 
 # CreateEnhMetaFileW function
@@ -54,49 +55,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateEnhMetaFile</b> function creates a device context for an enhanced-format metafile. This device context can be used to store a device-independent picture.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a reference device for the enhanced metafile. This parameter can be <b>NULL</b>; for more information, see Remarks.
 
-
 ### -param lpFilename [in]
 
 A pointer to the file name for the enhanced metafile to be created. If this parameter is <b>NULL</b>, the enhanced metafile is memory based and its contents are lost when it is deleted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteenhmetafile">DeleteEnhMetaFile</a> function.
-
 
 ### -param lprc [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the dimensions (in .01-millimeter units) of the picture to be stored in the enhanced metafile.
 
-
 ### -param lpDesc [in]
 
 A pointer to a string that specifies the name of the application that created the picture, as well as the picture's title. This parameter can be <b>NULL</b>; for more information, see Remarks.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the device context for the enhanced metafile.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Where text arguments must use Unicode characters, use the <b>CreateEnhMetaFile</b> function as a wide-character function. Where text arguments must use characters from the Windows character set, use this function as an ANSI function.
 
@@ -131,9 +116,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/crea
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-closeenhmetafile">CloseEnhMetaFile</a>
 
 
@@ -167,7 +149,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/crea
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
- 
-
- 
 

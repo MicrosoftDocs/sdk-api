@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c
 ms.date: 12/05/2018
 ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],EnumConnections method, IConnectionPoint.EnumConnections, IConnectionPoint::EnumConnections, _com_iconnectionpoint_enumconnections, com.iconnectionpoint_enumconnections, ocidl/IConnectionPoint::EnumConnections
-f1_keywords:
-- ocidl/IConnectionPoint.EnumConnections
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IConnectionPoint.EnumConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnectionPoint::EnumConnections
+ - ocidl/IConnectionPoint::EnumConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IConnectionPoint.EnumConnections
 ---
 
 # IConnectionPoint::EnumConnections
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an enumerator object to iterate through the current connections for this connection point.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a> interface pointer that receives the newly created enumerator.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -108,31 +101,16 @@ The connection point does not support enumeration.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the enumerator is no longer needed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
- 
-
- 
 

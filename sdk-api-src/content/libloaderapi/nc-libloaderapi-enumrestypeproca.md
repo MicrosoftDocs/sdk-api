@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumrestypeproc.htm
 ms.date: 12/05/2018
 ms.keywords: EnumResTypeProc, EnumResTypeProc callback, EnumResTypeProc callback function [Menus and Other Resources], EnumResTypeProcA, EnumResTypeProcW, _win32_EnumResTypeProc, _win32_enumrestypeproc_cpp, libloaderapi/EnumResTypeProc, libloaderapi/EnumResTypeProcA, libloaderapi/EnumResTypeProcW, menurc.enumrestypeproc, winui._win32_enumrestypeproc
-f1_keywords:
-- libloaderapi/EnumResTypeProc
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- libloaderapi.h
-api_name:
-- EnumResTypeProc
-- EnumResTypeProcA
-- EnumResTypeProcW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ENUMRESTYPEPROCA
+ - libloaderapi/ENUMRESTYPEPROCA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - libloaderapi.h
+api_name:
+ - EnumResTypeProc
+ - EnumResTypeProcA
+ - EnumResTypeProcW
 ---
 
 # ENUMRESTYPEPROCA callback function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-An application-defined callback function used with the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> and <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> functions. It receives resource types. The <b>ENUMRESTYPEPROC</b> type defines a pointer to this callback function. <i>EnumResTypeProc</i> is a placeholder for the application-defined function name. 
-
+An application-defined callback function used with the <a href="https://msdn.microsoft.com/51a22bbf-e834-434e-8a2f-9d172d02b228">EnumResourceTypes</a> and <a href="https://msdn.microsoft.com/212ee064-b5d1-4309-9ee0-72340dd69328">EnumResourceTypesEx</a> functions. It receives resource types. The <b>ENUMRESTYPEPROC</b> type defines a pointer to this callback function. <i>EnumResTypeProc</i> is a placeholder for the application-defined function name.
 
 ## -parameters
-
-
-
 
 ### -param hModule [in, optional]
 
 Type: <b>HMODULE</b>
 
-A handle to the module whose executable file contains the resources for which the types are to be enumerated. If this parameter is <b>NULL</b>, the function enumerates the resource types in the module used to create the current process. 
-
+A handle to the module whose executable file contains the resources for which the types are to be enumerated. If this parameter is <b>NULL</b>, the function enumerates the resource types in the module used to create the current process.
 
 ### -param lpType
-
 
 ### -param lParam [in]
 
@@ -87,21 +81,13 @@ Alternately, rather than a pointer, this parameter can be <a href="https://msdn.
 
 below.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> to stop enumeration.
 
-
-
-
 ## -remarks
-
-
 
 If <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a>(<i>lpszType</i>) is <b>TRUE</b>, then <i>lpszType</i> specifies the integer identifier of the given resource type. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource type. For example, the string "#258" represents the identifier 258.
 
@@ -117,9 +103,6 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 > The libloaderapi.h header defines ENUMRESTYPEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -142,7 +125,4 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
- 
-
- 
 

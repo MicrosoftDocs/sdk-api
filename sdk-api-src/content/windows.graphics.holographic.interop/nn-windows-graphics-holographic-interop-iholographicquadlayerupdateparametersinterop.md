@@ -29,20 +29,24 @@ api_name:
  - interop::IHolographicQuadLayerUpdateParametersInterop
  - IHolographicQuadLayerUpdateParametersInterop
 f1_keywords:
- - windows/interop::IHolographicQuadLayerUpdateParametersInterop
+ - IHolographicQuadLayerUpdateParametersInterop
+ - windows.graphics.holographic.interop/IHolographicQuadLayerUpdateParametersInterop
 dev_langs:
  - c++
 ---
 
 ## -description
+
 The **IHolographicQuadLayerUpdateParametersInterop** interface is a nano-COM interface, used to commit Direct3D 12 buffer resources for quad layer rendering in the corresponding [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe).
 
 The interface allows COM interop with the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) class for applications that use Direct3D 12 for holographic rendering. Nano-COM allows Direct3D 12 objects to be used directly as parameters for API calls, rather than going through a container object.
 
 ## -inheritance
+
 The **IHolographicQuadLayerUpdateParametersInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
 
 ## -remarks
+
 To use this interface in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), retrieve the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) object from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe), and then QueryInterface for the **IHolographicQuadLayerUpdateParametersInterop** interface.
 
 ```cppwinrt
@@ -63,3 +67,4 @@ Microsoft::WRL::ComPtr<IHolographicQuadLayerUpdateParametersInterop> quadLayerPa
 ```
 
 ## -see-also
+

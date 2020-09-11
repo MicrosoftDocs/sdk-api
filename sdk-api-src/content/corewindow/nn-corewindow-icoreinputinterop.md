@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
 ms.date: 12/05/2018
 ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], ICoreInputInterop interface [Windows Runtime],described, corewindow/ICoreInputInterop, winrt.icoreinputinterop
-f1_keywords:
-- corewindow/ICoreInputInterop
-dev_langs:
-- c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- corewindow.h
-api_name:
-- ICoreInputInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICoreInputInterop
+ - corewindow/ICoreInputInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - corewindow.h
+api_name:
+ - ICoreInputInterop
 ---
 
 # ICoreInputInterop interface
+
 
 ## -description
 
@@ -98,7 +100,7 @@ Sets whether or not the message to the <a href="https://msdn.microsoft.com/60b1c
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -remarks
 
@@ -109,3 +111,4 @@ The <a href="https://docs.microsoft.com/dotnet/api/microsoft.toolkit.win32.ui.co
 <a href="https://docs.microsoft.com/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
 
 <a href="https://docs.microsoft.com/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a>
+

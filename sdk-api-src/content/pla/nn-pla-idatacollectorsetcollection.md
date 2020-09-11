@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 5f4cc411-1efb-4f70-a677-3c20d95f0c53
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], IDataCollectorSetCollection interface [PLA],described, base.idatacollectorsetcollection, pla.idatacollectorsetcollection, pla/IDataCollectorSetCollection
-f1_keywords:
-- pla/IDataCollectorSetCollection
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSetCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSetCollection
+ - pla/IDataCollectorSetCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSetCollection
 ---
 
 # IDataCollectorSetCollection interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">DataCollectorSet</a> objects.
 
 To get this interface, call the <b>CoCreateInstance</b> function, passing __uuidof(DataCollectorSetCollection) as the class identifier and __uuidof(<b>IDataCollectorSetCollection</b>) as the interface identifier.
 
 Then, to populate the collection, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorsetcollection-getdatacollectorsets">IDataCollectorSetCollection::GetDataCollectorSets</a> method.
-
 
 ## -inheritance
 
@@ -161,14 +160,9 @@ Retrieves the requested data collector set from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create the object from a script, use the Pla.DataCollectorSetCollection program identifier.
-
-
 

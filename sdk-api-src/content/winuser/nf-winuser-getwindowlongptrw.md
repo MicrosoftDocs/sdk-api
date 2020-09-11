@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlongptr.htm
 ms.date: 12/05/2018
 ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_HWNDPARENT, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, GetWindowLongPtr, GetWindowLongPtr function [Windows and Messages], GetWindowLongPtrA, GetWindowLongPtrW, _win32_GetWindowLongPtr, _win32_getwindowlongptr_cpp, winmsg.getwindowlongptr, winui._win32_getwindowlongptr, winuser/GetWindowLongPtr, winuser/GetWindowLongPtrA, winuser/GetWindowLongPtrW
-f1_keywords:
-- winuser/GetWindowLongPtr
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-windowclass-l1-1-2.dll
-api_name:
-- GetWindowLongPtr
-- GetWindowLongPtrA
-- GetWindowLongPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetWindowLongPtrW
+ - winuser/GetWindowLongPtrW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+api_name:
+ - GetWindowLongPtr
+ - GetWindowLongPtrA
+ - GetWindowLongPtrW
 ---
 
 # GetWindowLongPtrW function
@@ -59,21 +60,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory. 
 <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>GetWindowLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window and, indirectly, the class to which the window belongs.
-
 
 ### -param nIndex [in]
 
@@ -210,12 +206,8 @@ Retrieves extra information private to the application, such as handles or point
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>LONG_PTR</b>
 
@@ -225,12 +217,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra">SetWindowLongPtr</a> has not been called previously, <b>GetWindowLongPtr</b> returns zero for values in the extra window or class memory.
 
-
-
-
 ## -remarks
-
-
 
 Reserve extra window memory by specifying a nonzero value in the 
 				<b>cbWndExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
@@ -243,9 +230,6 @@ Reserve extra window memory by specifying a nonzero value in the
 > The winuser.h header defines GetWindowLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
@@ -276,7 +260,4 @@ Reserve extra window memory by specifying a nonzero value in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
- 
-
- 
 

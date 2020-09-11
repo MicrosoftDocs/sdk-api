@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
 ms.date: 12/05/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasSetAutodialParam, RasSetAutodialParam function [RAS], RasSetAutodialParamA, RasSetAutodialParamW, _ras_rassetautodialparam, ras/RasSetAutodialParam, ras/RasSetAutodialParamA, ras/RasSetAutodialParamW, rras.rassetautodialparam
-f1_keywords:
-- ras/RasSetAutodialParam
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasSetAutodialParam
-- RasSetAutodialParamA
-- RasSetAutodialParamW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSetAutodialParamW
+ - ras/RasSetAutodialParamW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasSetAutodialParam
+ - RasSetAutodialParamA
+ - RasSetAutodialParamW
 ---
 
 # RasSetAutodialParamW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasSetAutodialParam</b> function sets the value of an AutoDial parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -124,22 +120,16 @@ The <i>lpvValue</i> parameter points to a <b>DWORD</b> value that indicates a ti
 </td>
 </tr>
 </table>
- 
-
 
 ### -param arg2 [out]
 
 Pointer to a buffer that contains the new value for the specified parameter.
 
-
 ### -param arg3 [in]
 
 Specifies the size, in bytes, of the value in the <i>lpvValue</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -173,15 +163,8 @@ The size specified by the <i>dwcbValue</i> is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetautodialparama">RasGetAutodialParam</a>
 
@@ -196,9 +179,6 @@ The size specified by the <i>dwcbValue</i> is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.date: 12/05/2018
 ms.keywords: CreateEvent, CreateEvent function, CreateEventA, CreateEventW, _win32_createevent, base.createevent, synchapi/CreateEvent, synchapi/CreateEventA, synchapi/CreateEventW, winbase/CreateEvent, winbase/CreateEventA, winbase/CreateEventW
-f1_keywords:
-- synchapi/CreateEvent
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CreateEvent
-- CreateEventA
-- CreateEventW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateEventW
+ - synchapi/CreateEventW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateEvent
+ - CreateEventA
+ - CreateEventW
 ---
 
 # CreateEventW function
@@ -57,16 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed event object.
 
 To specify an access mask for the object, use the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventexa">CreateEventEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpEventAttributes [in, optional]
 
@@ -79,7 +75,6 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
        event. If <i>lpEventAttributes</i> is <b>NULL</b>, the event gets a default security descriptor. 
        The ACLs in the default security descriptor for an event come from the primary or impersonation token of the creator.
 
-
 ### -param bManualReset [in]
 
 If this parameter is <b>TRUE</b>, the function creates a manual-reset event object, which requires the use of the 
@@ -87,11 +82,9 @@ If this parameter is <b>TRUE</b>, the function creates a manual-reset event obje
       this parameter is <b>FALSE</b>, the function creates an auto-reset event object, and system automatically resets the 
       event state to nonsignaled after a single waiting thread has been released.
 
-
 ### -param bInitialState [in]
 
 If this parameter is <b>TRUE</b>, the initial state of the event object is signaled; otherwise, it is nonsignaled.
-
 
 ### -param lpName [in, optional]
 
@@ -120,10 +113,7 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the event object. If the named event object existed 
        before the function call, the function returns a handle to the existing object and 
@@ -133,12 +123,7 @@ If the function succeeds, the return value is a handle to the event object. If t
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The handle returned by <b>CreateEvent</b> has the 
     <b>EVENT_ALL_ACCESS</b> access right; it can be used in any function that requires a handle to 
@@ -199,9 +184,6 @@ For an example that uses <b>CreateEvent</b>, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -243,7 +225,4 @@ For an example that uses <b>CreateEvent</b>, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

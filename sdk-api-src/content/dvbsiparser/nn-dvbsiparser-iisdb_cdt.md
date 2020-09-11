@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6e0ceabb-4d67-46c1-9e7d-e00d5ad82280
 ms.date: 12/05/2018
 ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], IISDB_CDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_CDT, mstv.iisdb_cdt
-f1_keywords:
-- dvbsiparser/IISDB_CDT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_CDT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_CDT
+ - dvbsiparser/IISDB_CDT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_CDT
 ---
 
 # IISDB_CDT interface
 
 
 ## -description
-
 
 Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB)  common data table (CDT). A CDT contains data, such as company logos, that is needed for receivers and stored in
   nonvolatile memory.
@@ -61,8 +61,6 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
-
-
 
 ## -inheritance
 
@@ -189,5 +187,5 @@ Initializes an object that implements this interface.
 
 </td>
 </tr>
-</table> 
+</table>
 

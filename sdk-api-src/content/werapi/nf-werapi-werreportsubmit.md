@@ -8,10 +8,6 @@ tech.root: wer
 ms.assetid: 1433862e-5cf6-4d31-9fd9-137b7b86ec57
 ms.date: 12/05/2018
 ms.keywords: WER_SUBMIT_ADD_REGISTERED_DATA, WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY, WER_SUBMIT_BYPASS_DATA_THROTTLING, WER_SUBMIT_HONOR_RECOVERY, WER_SUBMIT_HONOR_RESTART, WER_SUBMIT_NO_ARCHIVE, WER_SUBMIT_NO_CLOSE_UI, WER_SUBMIT_NO_QUEUE, WER_SUBMIT_OUTOFPROCESS, WER_SUBMIT_OUTOFPROCESS_ASYNC, WER_SUBMIT_QUEUE, WER_SUBMIT_REPORT_MACHINE_ID, WER_SUBMIT_SHOW_DEBUG, WER_SUBMIT_START_MINIMIZED, WerConsentAlwaysPrompt, WerConsentApproved, WerConsentDenied, WerConsentMax, WerConsentNotAsked, WerCustomAction, WerDisabled, WerDisabledQueue, WerReportAsync, WerReportCancelled, WerReportDebug, WerReportFailed, WerReportQueued, WerReportSubmit, WerReportSubmit function [Windows Error Reporting], WerReportUploaded, base.werreportsubmit, wer.werreportsubmit, werapi/WerReportSubmit
-f1_keywords:
-- werapi/WerReportSubmit
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-- Ext-MS-Win-wer-reporting-l1-1-0.dll
-- errorhandlingext.dll
-- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
-api_name:
-- WerReportSubmit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportSubmit
+ - werapi/WerReportSubmit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+ - WerReportSubmit
 ---
 
 # WerReportSubmit function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Submits the specified report.
 
-
 ## -parameters
-
-
-
 
 ### -param hReportHandle [in]
 
 A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
-
 
 ### -param consent [in]
 
@@ -131,8 +126,6 @@ The user was not asked for consent.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -307,8 +300,6 @@ Always send the unique, 128-bit computer identifier with the report, regardless 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pSubmitResult [out, optional]
 
@@ -419,21 +410,12 @@ The report was uploaded.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This function returns <b>S_OK</b> on success or an error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 After the application calls this function, WER collects the specified data. If the <i>consent</i> parameter is WerConsentApproved, it submits the report to Microsoft. If <i>consent</i> is WerConsentNotAsked, WER displays the consent dialog box. To determine the submission status, check the <i>pSubmitResult</i> parameter.
 
@@ -447,13 +429,7 @@ The computer identifier is sent with the report when
 </ul>
 To view the reports submitted by your application, go to Windows Quality Online Services.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>
 
@@ -468,7 +444,4 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0sz8.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW
-f1_keywords:
-- winfax/FaxSendDocumentForBroadcast
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxSendDocumentForBroadcast
-- FaxSendDocumentForBroadcastA
-- FaxSendDocumentForBroadcastW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxSendDocumentForBroadcastW
+ - winfax/FaxSendDocumentForBroadcastW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxSendDocumentForBroadcast
+ - FaxSendDocumentForBroadcastA
+ - FaxSendDocumentForBroadcastW
 ---
 
 # FaxSendDocumentForBroadcastW function
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxSendDocumentForBroadcast</b> function to queue several fax jobs that will transmit the same outgoing fax transmission to several recipients.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
-
 
 ### -param FileName [in]
 
@@ -79,8 +74,6 @@ Pointer to a constant null-terminated character string that contains the fully q
 
 
 This parameter can contain any valid local file name. The file must be a properly registered file type, and the fax server must be able to access the file.
-                
-
 
 ### -param FaxJobId [out]
 
@@ -88,13 +81,11 @@ Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the unique number that identifies the queued job that will send the fax transmission.
 
-
 ### -param FaxRecipientCallback [in]
 
 Type: <b>PFAX_RECIPIENT_CALLBACK</b>
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfax_recipient_callbacka">FAX_RECIPIENT_CALLBACK</a> function that retrieves user-specific information for each designated recipient of the fax transmission. The <b>FaxSendDocumentForBroadcast</b> function calls the <b>FAX_RECIPIENT_CALLBACK</b> function once for each fax recipient until it returns a value of zero, indicating that all outbound transmissions have been queued.
-
 
 ### -param Context [in]
 
@@ -102,10 +93,7 @@ Type: <b>LPVOID</b>
 
 Pointer to a variable that contains application-specific context information or an application-defined value. <b>FaxSendDocumentForBroadcast</b> passes this data to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfax_recipient_callbacka">FAX_RECIPIENT_CALLBACK</a> function.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -163,14 +151,8 @@ Access is denied. <a href="https://docs.microsoft.com/previous-versions/windows/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The function calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfax_recipient_callbacka">FAX_RECIPIENT_CALLBACK</a> function once for each designated fax recipient.
 
@@ -197,9 +179,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfax_recipient_callbacka">FAX_RECIPIENT_CALLBACK</a>
 
 
@@ -217,7 +196,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumenta">FaxSendDocument</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 961f8c52-9922-4e43-905a-a22a80aba63b
 ms.date: 12/05/2018
 ms.keywords: WS_USERNAME_CREDENTIAL, WS_USERNAME_CREDENTIAL structure [Web Services for Windows], webservices/WS_USERNAME_CREDENTIAL, wsw.ws_username_credential
-f1_keywords:
-- webservices/WS_USERNAME_CREDENTIAL
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_USERNAME_CREDENTIAL
 targetos: Windows
 req.typenames: WS_USERNAME_CREDENTIAL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_USERNAME_CREDENTIAL
+ - webservices/_WS_USERNAME_CREDENTIAL
+ - WS_USERNAME_CREDENTIAL
+ - webservices/WS_USERNAME_CREDENTIAL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_USERNAME_CREDENTIAL
 ---
 
 # WS_USERNAME_CREDENTIAL structure
 
 
 ## -description
-
 
 The abstract base type for all username/password credentials.
             
@@ -65,16 +67,10 @@ username/password validator specified by the application.
 In contrast, the <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> and
 its concrete subtypes are used for Windows Integrated Authentication
 and the security bindings that use it.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field credentialType
 
 The selector for the type of the username credential.
-                
 

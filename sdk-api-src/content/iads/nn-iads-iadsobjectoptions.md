@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 1884efe5-86f5-4579-a25e-2ff9c9a6ec2a
 ms.date: 12/05/2018
 ms.keywords: IADsObjectOptions, IADsObjectOptions interface [ADSI], IADsObjectOptions interface [ADSI],described, _ds_iadsobjectoptions, adsi.iadsobjectoptions, iads/IADsObjectOptions
-f1_keywords:
-- iads/IADsObjectOptions
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsObjectOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsObjectOptions
+ - iads/IADsObjectOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsObjectOptions
 ---
 
 # IADsObjectOptions interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsObjectOptions</b> interface provides a direct mechanism to specify and obtain provider-specific options for manipulating an ADSI object. Typically, the options apply to search operations of the underlying directory store. The supported options are provider-specific.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Sets a provider-specific option for manipulating a directory object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iads/ne-iads-ads_option_enum">ADS_OPTION_ENUM</a>
 
@@ -111,7 +106,4 @@ Sets a provider-specific option for manipulating a directory object.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

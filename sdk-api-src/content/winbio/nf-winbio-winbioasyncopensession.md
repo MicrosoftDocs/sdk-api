@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 711EDE14-A2EE-415D-8FB6-562D71D68146
 ms.date: 12/05/2018
 ms.keywords: WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MESSAGE, WINBIO_DB_BOOTSTRAP, WINBIO_DB_DEFAULT, WINBIO_DB_ONCHIP, WINBIO_FLAG_ADVANCED, WINBIO_FLAG_BASIC, WINBIO_FLAG_DEFAULT, WINBIO_FLAG_MAINTENANCE, WINBIO_FLAG_RAW, WINBIO_POOL_PRIVATE, WINBIO_POOL_SYSTEM, WinBioAsyncOpenSession, WinBioAsyncOpenSession function [Windows Biometric Framework API], secbiomet.winbioasyncopensession, winbio/WinBioAsyncOpenSession
-f1_keywords:
-- winbio/WinBioAsyncOpenSession
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioAsyncOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioAsyncOpenSession
+ - winbio/WinBioAsyncOpenSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioAsyncOpenSession
 ---
 
 # WinBioAsyncOpenSession function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Asynchronously connects to a biometric service provider and one or more biometric units. Starting with Windows 10, build 1607, this  function is available to use with a mobile image. If successful, the function returns a biometric session handle. Every operation performed by using this handle will be completed asynchronously, including <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>, and the results will be returned to the client application by using the method specified in the <i>NotificationMethod</i> parameter.
 
 For a synchronous version of this function, see <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param Factor [in]
 
 A bitmask of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
-
 
 ### -param PoolType [in]
 
@@ -97,8 +92,6 @@ The session connects to a collection of biometric units that are managed by the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -170,18 +163,14 @@ The client performs vendor-defined control operations on a biometric unit by cal
 </td>
 </tr>
 </table>
- 
-
 
 ### -param UnitArray [in, optional]
 
 Pointer to an array of biometric unit identifiers to be included in the session. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a> to enumerate the biometric units. Set this value to <b>NULL</b> if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
 
-
 ### -param UnitCount [in, optional]
 
 A value that specifies the number of elements in the array pointed to by the <i>UnitArray</i> parameter. Set this value to zero if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
-
 
 ### -param DatabaseId [in, optional]
 
@@ -223,8 +212,6 @@ The database is on the sensor chip and is available for enrollment and matching.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NotificationMethod [in]
 
@@ -256,13 +243,10 @@ The session posts a window message to the application's message queue.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TargetWindow [in, optional]
 
 Handle  of the window that will receive the completion notices. This value is ignored unless the <i>NotificationMethod</i> parameter is set to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>.
-
 
 ### -param MessageCode [in, optional]
 
@@ -270,16 +254,13 @@ Window message code the framework must send to signify completion notices. This 
 
 The Windows Biometric Framework sets the <b>LPARAM</b> value of the message to the address of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure that contains the results of the operation. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the structure after you have finished using it.
 
-
 ### -param CallbackRoutine [in, optional]
 
 Address of callback routine to be invoked when the operation started by using the session handle completes. This value is ignored unless the  <i>NotificationMethod</i> parameter is set to <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b>.
 
-
 ### -param UserData [in, optional]
 
 Address of a buffer supplied by the caller. The buffer is not modified by the framework or the biometric unit. It is returned in the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure. Your application can use the data to help it determine what actions to perform upon receipt of the completion notice or to maintain additional information about the requested operation.
-
 
 ### -param AsynchronousOpen [in]
 
@@ -289,7 +270,6 @@ If you specify <b>FALSE</b> to open the framework session synchronously, success
 
 If you specify <b>TRUE</b> to open the framework session asynchronously, the first asynchronous completion notice received will be for opening the framework. If the <i>NotificationMethod</i> parameter is set to <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b>, operation results are delivered to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure in the callback function specified by the <i>CallbackRoutine</i> parameter. If the <i>NotificationMethod</i> parameter is set to <b>WINBIO_ASYNC_NOTIFY_MESSAGE</b>, operation results are delivered to the <b>WINBIO_ASYNC_RESULT</b> structure pointed to by the LPARAM field of the window message.
 
-
 ### -param SessionHandle [out, optional]
 
 If the function does not succeed, this parameter will be <b>NULL</b>.
@@ -298,10 +278,7 @@ If the session is opened synchronously and successfully, this parameter will con
 
 If you specify that the session be opened asynchronously, this method returns immediately, the session handle will be <b>NULL</b>, and you must examine the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure to determine whether the session was successfully opened.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -401,14 +378,8 @@ Current administrative policy prohibits use of the Windows Biometric Framework A
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The session handle returned by the <b>WinBioAsyncOpenSession</b> function can be used to generate asynchronous completion notifications for any of the following functions:
 
@@ -499,13 +470,7 @@ The <i>AsynchronousOpen</i> parameter determines only whether the open operation
 
 If you set the  <i>AsynchronousOpen</i> parameter to <b>TRUE</b>, this function will return <b>S_OK</b> as soon as it has performed an initial validation of the arguments. Any errors detected beyond that point will be reported to the caller using the method specified by the <i>NotificationMethod</i> parameter. That is, a successful return value indicates only that the <b>WinBioAsyncOpenSession</b> parameters were fine and not that the open operation succeeded. To determine whether the open operation succeeded, you must examine the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopenframework">WinBioAsyncOpenFramework</a>
 
@@ -516,7 +481,4 @@ If you set the  <i>AsynchronousOpen</i> parameter to <b>TRUE</b>, this function 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>
- 
-
- 
 

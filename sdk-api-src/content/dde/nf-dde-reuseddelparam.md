@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\reuseddelparam.htm
 ms.date: 12/05/2018
 ms.keywords: ReuseDDElParam, ReuseDDElParam function [Data Exchange], _win32_ReuseDDElParam, _win32_reuseddelparam_cpp, dataxchg.reuseddelparam, dde/ReuseDDElParam, winui._win32_reuseddelparam
-f1_keywords:
-- dde/ReuseDDElParam
-dev_langs:
-- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- ReuseDDElParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReuseDDElParam
+ - dde/ReuseDDElParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - ReuseDDElParam
 ---
 
 # ReuseDDElParam function
@@ -49,70 +50,53 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an application to reuse a packed Dynamic Data Exchange (DDE) <i>lParam</i> parameter, rather than allocating a new packed 
-			<i>lParam</i>. Using this function reduces reallocations for applications that pass packed DDE messages. 
-
+			<i>lParam</i>. Using this function reduces reallocations for applications that pass packed DDE messages.
 
 ## -parameters
-
-
-
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
 The 
-					<i>lParam</i> parameter of the posted DDE message being reused. 
-
+					<i>lParam</i> parameter of the posted DDE message being reused.
 
 ### -param msgIn [in]
 
 Type: <b>UINT</b>
 
-The identifier of the received DDE message. 
-
+The identifier of the received DDE message.
 
 ### -param msgOut [in]
 
 Type: <b>UINT</b>
 
 The identifier of the DDE message to be posted. The DDE message will reuse the packed 
-					<i>lParam</i> parameter. 
-
+					<i>lParam</i> parameter.
 
 ### -param uiLo [in]
 
 Type: <b>UINT_PTR</b>
 
 The value to be packed into the low-order word of the reused 
-					<i>lParam</i> parameter. 
-
+					<i>lParam</i> parameter.
 
 ### -param uiHi [in]
 
 Type: <b>UINT_PTR</b>
 
 The value to be packed into the high-order word of the reused 
-					<i>lParam</i> parameter. 
-
+					<i>lParam</i> parameter.
 
 ## -returns
-
-
 
 Type: <b>LPARAM</b>
 
 The return value is the new 
-						<i>lParam</i> value. 
-
-
-
+						<i>lParam</i> value.
 
 ## -remarks
-
-
 
 The return value must be posted as the 
 				<i>lParam</i> parameter of a DDE message; it must not be used for any other purpose. Once the return value is posted, the posting application need not perform any action to dispose of the 
@@ -123,15 +107,9 @@ Use <b>ReuseDDElParam</b> instead of <a href="https://docs.microsoft.com/windows
 				<i>lParam</i> appropriate for reuse. 
 
 This function allocates or frees 
-				<i>lParam</i> parameters as needed, depending on the packing requirements of the incoming and outgoing messages. This reduces reallocations in passing DDE messages. 
-
-
-
+				<i>lParam</i> parameters as needed, depending on the packing requirements of the incoming and outgoing messages. This reduces reallocations in passing DDE messages.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
@@ -154,7 +132,4 @@ This function allocates or frees
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7f3996b6-7c99-42c5-a39f-8c67ff19a580
 ms.date: 12/05/2018
 ms.keywords: WLX_LOGON_OPT_NO_PROFILE, WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOutSAS, WlxLoggedOutSAS function [Security], _gina_wlxloggedoutsas, security.wlxloggedoutsas, winwlx/WlxLoggedOutSAS
-f1_keywords:
-- winwlx/WlxLoggedOutSAS
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxLoggedOutSAS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxLoggedOutSAS
+ - winwlx/WlxLoggedOutSAS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxLoggedOutSAS
 ---
 
 # WlxLoggedOutSAS function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxLoggedOutSAS function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,14 +57,10 @@ The <b>WlxLoggedOutSAS</b> function must be implemented by a replacement <a href
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
 
 ### -param dwSasType [in]
 
@@ -118,20 +114,16 @@ Indicates that no user input was received within the specified time-out period.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pAuthenticationId [out]
 
 Specifies the authentication identifier associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. You can get this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function.
-
 
 ### -param pLogonSid [in, out]
 
 On input, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that is unique to the current logon session. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> uses this SID to change the protection on the window station and application desktop so that the new logged-on user can access them.
 
 On output, Winlogon provides a SID. You can also get the SID by using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. To do this, search the array returned in the <b>TOKEN_GROUPS</b> structure for the group with the SE_GROUP_LOGON_ID attribute.
-
 
 ### -param pdwOptions [out]
 
@@ -154,8 +146,6 @@ Indicates that Winlogon must not load a profile for the logged-on user. Either t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phToken [out]
 
@@ -163,7 +153,6 @@ A pointer to a handle variable. When the logon operation succeeds, set this hand
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function.
 
 If you need this handle after calling the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function, make a duplicate of the handle before returning it to Winlogon.
-
 
 ### -param pNprNotifyInfo [out]
 
@@ -176,17 +165,13 @@ The GINA should provide domain, user, and password values for  complete Session 
 
 For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-
 ### -param pProfile [out]
 
 On return from a successful authentication, the <i>pProfile</i> parameter points to either a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a> or a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v2_0">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is. Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure when it no longer needs it.
 
-
 ## -returns
-
-
 
 If the function fails, the function returns zero.
 
@@ -231,34 +216,19 @@ Indicates the user requested that the system be shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling <b>WlxLoggedOutSAS</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 Do not activate the user shell program in <b>WlxLoggedOutSAS</b>. The user shell program should always be activated in 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
- 
-
- 
 

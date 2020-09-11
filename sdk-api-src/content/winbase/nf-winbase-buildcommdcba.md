@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
-f1_keywords:
-- winbase/BuildCommDCB
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- BuildCommDCB
-- BuildCommDCBA
-- BuildCommDCBW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BuildCommDCBA
+ - winbase/BuildCommDCBA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - BuildCommDCB
+ - BuildCommDCBA
+ - BuildCommDCBW
 ---
 
 # BuildCommDCBA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Fills a specified 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure with values specified in a device-control string. The device-control string uses the syntax of the <b>mode</b> command.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDef [in]
 
@@ -79,28 +75,19 @@ For example, the following string specifies a baud rate of 1200, no parity, 8 da
 
 <code>baud=1200 parity=N data=8 stop=1</code>
 
-
 ### -param lpDCB [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that receives the information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>BuildCommDCB</b> function adjusts only those members of the 
@@ -165,9 +152,6 @@ The newer form of the <b>mode</b> syntax lets you explicitly set the values of t
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
@@ -181,7 +165,4 @@ The newer form of the <b>mode</b> syntax lets you explicitly set the values of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
- 
-
- 
 

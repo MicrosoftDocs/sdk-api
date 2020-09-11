@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl, ICameraUIControl interface [Windows API], ICameraUIControl interface [Windows API],described, camerauicontrol/ICameraUIControl, winprog.icamerauicontrol
-f1_keywords:
-- camerauicontrol/ICameraUIControl
-dev_langs:
-- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- camerauicontrol.h
-api_name:
-- ICameraUIControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICameraUIControl
+ - camerauicontrol/ICameraUIControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - camerauicontrol.h
+api_name:
+ - ICameraUIControl
 ---
 
 # ICameraUIControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a user interface control for a camera device..
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Simulates suspend of the user interface control.
 
 </td>
 </tr>
-</table> 
+</table>
 

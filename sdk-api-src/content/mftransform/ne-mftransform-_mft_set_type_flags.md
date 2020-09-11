@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63
 ms.date: 12/05/2018
 ms.keywords: MFT_SET_TYPE_TEST_ONLY, _MFT_SET_TYPE_FLAGS, _MFT_SET_TYPE_FLAGS enumeration [Media Foundation], dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63, mf._mft_set_type_flags, mftransform/MFT_SET_TYPE_TEST_ONLY, mftransform/_MFT_SET_TYPE_FLAGS
-f1_keywords:
-- mftransform/_MFT_SET_TYPE_FLAGS
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mftransform.h
-api_name:
-- _MFT_SET_TYPE_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFT_SET_TYPE_FLAGS
+ - mftransform/_MFT_SET_TYPE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mftransform.h
+api_name:
+ - _MFT_SET_TYPE_FLAGS
 ---
 
 # _MFT_SET_TYPE_FLAGS enumeration
@@ -49,27 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines flags for the setting or testing the media type on a Media Foundation transform (MFT).
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field MFT_SET_TYPE_TEST_ONLY
 
 Test the proposed media type, but do not set it.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype">IMFTransform::SetInputType</a>
 
@@ -84,7 +73,4 @@ Test the proposed media type, but do not set it.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

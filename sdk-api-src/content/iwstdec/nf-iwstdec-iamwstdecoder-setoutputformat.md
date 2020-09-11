@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetOutputFormat method, IAMWstDecoder.SetOutputFormat, IAMWstDecoder::SetOutputFormat, IAMWstDecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setoutputformat, iwstdec/IAMWstDecoder::SetOutputFormat
-f1_keywords:
-- iwstdec/IAMWstDecoder.SetOutputFormat
-dev_langs:
-- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMWstDecoder.SetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMWstDecoder::SetOutputFormat
+ - iwstdec/IAMWstDecoder::SetOutputFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMWstDecoder.SetOutputFormat
 ---
 
 # IAMWstDecoder::SetOutputFormat
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Downstream filters use the <code>SetOutputFormat</code> method to define an output video format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpbmi [in]
 
 A pointer to a  <b>BITMAPINFO</b> structure that describes the output video format, such as size, bit depth, and other properties.
 
-
 ## -returns
-
-
 
 When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -101,22 +91,12 @@ Downstream filters have already defined an output format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
- 
-
- 
 

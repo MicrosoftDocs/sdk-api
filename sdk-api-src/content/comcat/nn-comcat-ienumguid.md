@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
-f1_keywords:
-- comcat/IEnumGUID
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- IEnumGUID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumGUID
+ - comcat/IEnumGUID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - IEnumGUID
 ---
 
 # IEnumGUID interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables clients to enumerate through a collection of class IDs for COM classes.
-
-
 
 ## -inheritance
 
@@ -105,14 +103,9 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Alternate names for this interface are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd542667(v=vs.85)">IEnumCLSID</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd542661(v=vs.85)">IEnumCATID</a>.
-
-
 

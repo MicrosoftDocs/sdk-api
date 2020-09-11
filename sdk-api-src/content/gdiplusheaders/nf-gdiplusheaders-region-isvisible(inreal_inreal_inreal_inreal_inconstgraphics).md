@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods\isvisible_88realx_realy_realwidth_realheight_graph.htm
 ms.date: 12/05/2018
 ms.keywords: IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Region class, Region class [GDI+],IsVisible method, Region.IsVisible, Region.IsVisible(IN REAL,IN REAL,IN REAL,IN REAL,IN const Graphics), Region.IsVisible(REAL,REAL,REAL,REAL,const Graphics*), Region::IsVisible, Region::IsVisible(IN REAL,IN REAL,IN REAL,IN REAL,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_Graphics_g_, gdiplus._gdiplus_CLASS_Region_IsVisible_REAL_x_REAL_y_REAL_width_REAL_height_Graphics_g_
-f1_keywords:
-- gdiplusheaders/Region.IsVisible
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.IsVisible
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::IsVisible
+ - gdiplusheaders/Region::IsVisible
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.IsVisible
 ---
 
 # Region::IsVisible(IN REAL,IN REAL,IN REAL,IN REAL,IN const Graphics)
@@ -50,74 +51,52 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Region::IsVisible</b> method determines whether a rectangle intersects this region.
 
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the x-coordinate of the upper-left corner of the rectangle to test. 
-
+Real number that specifies the x-coordinate of the upper-left corner of the rectangle to test.
 
 ### -param y [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the y-coordinate of the upper-left corner of the rectangle to test. 
-
+Real number that specifies the y-coordinate of the upper-left corner of the rectangle to test.
 
 ### -param width [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the width of the rectangle to test. 
-
+Real number that specifies the width of the rectangle to test.
 
 ### -param height [in]
 
 Type: <b>REAL</b>
 
-Real number that specifies the height of the rectangle to test. 
-
+Real number that specifies the height of the rectangle to test.
 
 ### -param g [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
 
-Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>. 
-
+Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the rectangle intersects this region, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  A region contains its border.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
@@ -128,7 +107,4 @@ If the rectangle intersects this region, this method returns <b>TRUE</b>; otherw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
- 
-
- 
 

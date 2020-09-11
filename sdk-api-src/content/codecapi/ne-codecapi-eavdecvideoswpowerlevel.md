@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality
-f1_keywords:
-- codecapi/eAVDecVideoSWPowerLevel
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVDecVideoSWPowerLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVDecVideoSWPowerLevel
+ - codecapi/eAVDecVideoSWPowerLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVDecVideoSWPowerLevel
 ---
 
 # eAVDecVideoSWPowerLevel enumeration
@@ -49,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the power-saving level of a video decoder. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideoswpowerlevel-property">AVDecVideoSWPowerLevel</a> property.
 
-
 ## -enum-fields
-
-
-
 
 ### -field eAVDecVideoSWPowerLevel_BatteryLife
 
 Optimize for battery life.
 
-
 ### -field eAVDecVideoSWPowerLevel_Balanced
 
 Balanced power-saving profile.
-
 
 ### -field eAVDecVideoSWPowerLevel_VideoQuality
 
 Optimize for video quality.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
 

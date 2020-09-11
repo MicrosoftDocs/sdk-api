@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 558b4902-596a-45f9-ad95-f8e868ba4a30
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceMode method, IVMRDeinterlaceControl.GetDeinterlaceMode, IVMRDeinterlaceControl::GetDeinterlaceMode, IVMRDeinterlaceControlGetDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getdeinterlacemode, strmif/IVMRDeinterlaceControl::GetDeinterlaceMode
-f1_keywords:
-- strmif/IVMRDeinterlaceControl.GetDeinterlaceMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRDeinterlaceControl.GetDeinterlaceMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRDeinterlaceControl::GetDeinterlaceMode
+ - strmif/IVMRDeinterlaceControl::GetDeinterlaceMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRDeinterlaceControl.GetDeinterlaceMode
 ---
 
 # IVMRDeinterlaceControl::GetDeinterlaceMode
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDeinterlaceMode</b> method retrieves the deinterlacing mode for the specified video stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Index of the video stream to check.
 
-
 ### -param lpDeinterlaceMode [out]
 
 Pointer to a variable that receives a GUID. The GUID identifies the deinterlacing mode currently in use. If no deinterlacing mode was set, the value is GUID_NULL.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -136,24 +128,12 @@ The VMR is not in mixer mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The VMR may not be able to use the requested mode, in which case it falls back to another deinterlace mode, as specified in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-setdeinterlaceprefs">IVMRDeinterlaceControl::SetDeinterlacePrefs</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -168,7 +148,4 @@ The VMR may not be able to use the requested mode, in which case it falls back t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

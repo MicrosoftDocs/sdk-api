@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: f1b44fca-6c33-4883-911c-7b18fc3084c2
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_LIST_PARMSW, MCI_DGV_LIST_PARMS, MCI_DGV_LIST_PARMS structure [Windows Multimedia], MCI_DGV_LIST_PARMSW, _win32_MCI_DGV_LIST_PARMS_str, digitalv/MCI_DGV_LIST_PARMS, multimedia.mci_dgv_list_parms'
-f1_keywords:
-- digitalv/MCI_DGV_LIST_PARMS
-dev_langs:
-- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Digitalv.h
-api_name:
-- MCI_DGV_LIST_PARMS
-- MCI_DGV_LIST_PARMSW
 targetos: Windows
 req.typenames: MCI_DGV_LIST_PARMSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCI_DGV_LIST_PARMSW
+ - digitalv/MCI_DGV_LIST_PARMSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Digitalv.h
+api_name:
+ - MCI_DGV_LIST_PARMS
+ - MCI_DGV_LIST_PARMSW
 ---
 
 # MCI_DGV_LIST_PARMSW structure
@@ -50,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCI_DGV_LIST_PARMS</b> structure contains the information for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-list">MCI_LIST</a> command for digital-video devices.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwCallback
 
 The low-order word specifies a window handle used for the MCI_NOTIFY flag.
 
-
 ### -field lpstrReturn
 
 Buffer for return string.
-
 
 ### -field dwLength
 
 Length, in bytes, of buffer.
 
-
 ### -field dwNumber
 
 Index of item in list.
-
 
 ### -field dwItem
 
 Type of list item.
 
-
 ### -field lpstrAlgorithm
 
 String containing algorithm name.
 
-
 ## -remarks
-
-
 
 When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
@@ -106,9 +91,6 @@ When assigning data to the members of this structure, set the corresponding flag
 > The digitalv.h header defines MCI_DGV_LIST_PARMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
@@ -123,7 +105,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
- 
-
- 
 

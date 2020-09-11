@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2ba2c504-e96c-4b56-b2f2-196c0b74c9eb
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],RemoveFolder method, IShellLibrary.RemoveFolder, IShellLibrary::RemoveFolder, RemoveFolder, RemoveFolder method [Windows Shell], RemoveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_RemoveFolder, shell.IShellLibrary_RemoveFolder, shobjidl_core/IShellLibrary::RemoveFolder
-f1_keywords:
-- shobjidl_core/IShellLibrary.RemoveFolder
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellLibrary.RemoveFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLibrary::RemoveFolder
+ - shobjidl_core/IShellLibrary::RemoveFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellLibrary.RemoveFolder
 ---
 
 # IShellLibrary::RemoveFolder
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a folder from the library.
 
-
 ## -parameters
-
-
-
 
 ### -param psiLocation [in]
 
@@ -64,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the folder to remove.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 For convenience, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shremovefolderpathfromlibrary">SHRemoveFolderPathFromLibrary</a> can be used in place of this method.
 
@@ -118,14 +106,7 @@ __inline HRESULT SHRemoveFolderPathFromLibrary(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
@@ -164,7 +145,4 @@ __inline HRESULT SHRemoveFolderPathFromLibrary(
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
- 
-
- 
 

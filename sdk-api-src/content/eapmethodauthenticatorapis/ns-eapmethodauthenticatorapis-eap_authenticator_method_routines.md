@@ -8,10 +8,6 @@ tech.root: eaphost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.date: 12/05/2018
 ms.keywords: '*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES'
-f1_keywords:
-- eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES
-dev_langs:
-- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- eapmethodauthenticatorapis.h
-api_name:
-- EAP_AUTHENTICATOR_METHOD_ROUTINES
 targetos: Windows
 req.typenames: EAP_AUTHENTICATOR_METHOD_ROUTINES, *PEAP_AUTHENTICATOR_METHOD_ROUTINES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EAP_AUTHENTICATOR_METHOD_ROUTINES
+ - eapmethodauthenticatorapis/_EAP_AUTHENTICATOR_METHOD_ROUTINES
+ - PEAP_AUTHENTICATOR_METHOD_ROUTINES
+ - eapmethodauthenticatorapis/PEAP_AUTHENTICATOR_METHOD_ROUTINES
+ - EAP_AUTHENTICATOR_METHOD_ROUTINES
+ - eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - eapmethodauthenticatorapis.h
+api_name:
+ - EAP_AUTHENTICATOR_METHOD_ROUTINES
 ---
 
 # EAP_AUTHENTICATOR_METHOD_ROUTINES structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a set of function pointers to the EAPHost Authenticator Method APIs.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSizeInBytes
 
@@ -68,7 +68,6 @@ The implementer defined structure version.
 ### -field pEapType
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains the vendor information on the implementor of the APIs pointed to by this structure's members.
-
 
 ### -field EapMethodAuthenticatorInitialize
 
@@ -86,7 +85,6 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 #### ppEapError
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
-
 
 ### -field EapMethodAuthenticatorBeginSession
 
@@ -140,7 +138,6 @@ Receives a pointer to an  <b>EAP_SESSION_HANDLE</b> structure that contains the 
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
-
 ### -field EapMethodAuthenticatorUpdateInnerMethodParams
 
 Function pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams">EapMethodAuthenticatorUpdateInnerMethodParams</a>.
@@ -176,7 +173,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
 
-
 ### -field EapMethodAuthenticatorReceivePacket
 
 Function pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorreceivepacket">EapMethodAuthenticatorReceivePacket</a>.
@@ -211,7 +207,6 @@ Receives a pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefin
 #### ppEapError
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
-
 
 ### -field EapMethodAuthenticatorSendPacket
 
@@ -254,8 +249,6 @@ Receives a pointer to an <a href="/windows/win32/api/eapauthenticatortypes/ne-ea
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>
 
-
-
 ### -field EapMethodAuthenticatorGetAttributes
 
 Function pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetattributes">EapMethodAuthenticatorGetAttributes</a>.
@@ -278,8 +271,6 @@ Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api
 #### ppEapError
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>
-
-
 
 ### -field EapMethodAuthenticatorSetAttributes
 
@@ -310,7 +301,6 @@ Receives a pointer to an <a href="/windows/win32/api/eapauthenticatoractiondefin
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
 
-
 ### -field EapMethodAuthenticatorGetResult
 
 Function pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetresult">EapMethodAuthenticatorGetResult</a>.
@@ -334,7 +324,6 @@ Receives a pointer to a <a href="/windows/win32/api/eapauthenticatoractiondefine
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
 
-
 ### -field EapMethodAuthenticatorEndSession
 
 Function pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorendsession">EapMethodAuthenticatorEndSession</a>.
@@ -350,7 +339,6 @@ Function pointer to <a href="https://docs.microsoft.com/previous-versions/window
 #### ppEapError
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
-
 
 ### -field EapMethodAuthenticatorShutdown
 
@@ -368,10 +356,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
 
-
 ## -remarks
-
-
 
 Every EAP authenticator method DLL must have public implementations of the following APIs on it.
 
@@ -409,20 +394,11 @@ Every EAP authenticator method DLL must have public implementations of the follo
 </ul>
 These APIs are called on an EAP authenticator method when an authenticator (server) EAPHost receives a specific corresponding remote procedure call from  a peer (client) EAP method.  Note that a complete one-to-one correspondence does not exist between EAP peer methods and EAP authenticator methods; the specific EAP authenticator method API calls must be made based on the requirements of your implementation of the EAP authenticator method API calls.
 
-
-
-
 ## -see-also
-
-
-
 
 [EAPHost Authenticator Method Structures](/windows/win32/eaphost/eap-host-authenticator-method-structures)
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetinfo">EapMethodAuthenticatorGetInfo</a>
- 
-
- 
 

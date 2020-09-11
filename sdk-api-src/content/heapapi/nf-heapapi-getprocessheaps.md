@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
 ms.date: 12/05/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
-f1_keywords:
-- heapapi/GetProcessHeaps
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetProcessHeaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProcessHeaps
+ - heapapi/GetProcessHeaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetProcessHeaps
 ---
 
 # GetProcessHeaps function
@@ -54,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param NumberOfHeaps [in]
 
 The maximum number of heap handles that can be stored into the buffer pointed to by <i>ProcessHeaps</i>.
 
-
 ### -param ProcessHeaps [out]
 
 A pointer to a buffer that receives an array of heap handles.
 
-
 ## -returns
-
-
 
 The return value is the number of handles to heaps that are active for the calling process.
 
@@ -86,12 +78,7 @@ If the return value is greater than <i>NumberOfHeaps</i>, the buffer pointed to 
 If the return value is zero, the function has failed because every process has at least one active heap, the default heap for the  process. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>GetProcessHeaps</b> function obtains a handle to the default heap of the calling process, plus handles to any additional private heaps  created by calling the 
@@ -109,12 +96,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/g
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
 
@@ -130,7 +112,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/g
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
- 
-
- 
 

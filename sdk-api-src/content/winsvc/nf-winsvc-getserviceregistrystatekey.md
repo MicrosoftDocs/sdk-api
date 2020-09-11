@@ -35,6 +35,9 @@ api_location:
  - sechost.dll
 api_name:
  - GetServiceRegistryStateKey
+f1_keywords:
+ - GetServiceRegistryStateKey
+ - winsvc/GetServiceRegistryStateKey
 ---
 
 ## -description

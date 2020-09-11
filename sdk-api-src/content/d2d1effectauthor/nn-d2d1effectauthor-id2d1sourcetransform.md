@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: A2B3E8E1-8F7F-4AFA-B1CE-5E8A5FCD9B70
 ms.date: 12/05/2018
 ms.keywords: ID2D1SourceTransform, ID2D1SourceTransform interface [Direct2D], ID2D1SourceTransform interface [Direct2D],described, d2d1effectauthor/ID2D1SourceTransform, direct2d.id2d1sourcetransform
-f1_keywords:
-- d2d1effectauthor/ID2D1SourceTransform
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1SourceTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1SourceTransform
+ - d2d1effectauthor/ID2D1SourceTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1SourceTransform
 ---
 
 # ID2D1SourceTransform interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a CPU-based rasterization stage in the transform  pipeline graph.
-
 
 ## -inheritance
 
@@ -87,25 +86,13 @@ Sets the render information for the transform.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>ID2D1SourceTransform</b> specializes an implementation of the Shantzis calculations to a transform implemented as the source of an effect graph with the data being provided from sytem memory.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform">ID2D1Transform</a>
- 
-
- 
 

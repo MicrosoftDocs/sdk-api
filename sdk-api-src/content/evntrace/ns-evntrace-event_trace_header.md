@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 33c2de6b-afc2-4323-8d81-2970e66edf5e
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_TRACE_HEADER, EVENT_TRACE_HEADER, EVENT_TRACE_HEADER structure [ETW], EVENT_TRACE_TYPE_CHECKPOINT, EVENT_TRACE_TYPE_DC_END, EVENT_TRACE_TYPE_DC_START, EVENT_TRACE_TYPE_DEQUEUE, EVENT_TRACE_TYPE_END, EVENT_TRACE_TYPE_EXTENSION, EVENT_TRACE_TYPE_INFO, EVENT_TRACE_TYPE_REPLY, EVENT_TRACE_TYPE_START, PEVENT_TRACE_HEADER, PEVENT_TRACE_HEADER structure pointer [ETW], TRACE_LEVEL_ERROR, TRACE_LEVEL_FATAL, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, WNODE_FLAG_USE_GUID_PTR, WNODE_FLAG_USE_MOF_PTR, _EVENT_TRACE_HEADER, _evt_event_trace_header, base.event_trace_header, etw.event_trace_header, evntrace/EVENT_TRACE_HEADER, evntrace/PEVENT_TRACE_HEADER'
-f1_keywords:
-- evntrace/EVENT_TRACE_HEADER
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntrace.h
-api_name:
-- EVENT_TRACE_HEADER
 targetos: Windows
 req.typenames: EVENT_TRACE_HEADER, *PEVENT_TRACE_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_TRACE_HEADER
+ - evntrace/_EVENT_TRACE_HEADER
+ - PEVENT_TRACE_HEADER
+ - evntrace/PEVENT_TRACE_HEADER
+ - EVENT_TRACE_HEADER
+ - evntrace/EVENT_TRACE_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntrace.h
+api_name:
+ - EVENT_TRACE_HEADER
 ---
 
 # EVENT_TRACE_HEADER structure
@@ -49,16 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EVENT_TRACE_HEADER</b> structure contains standard event tracing information common to all events.
-		
-
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
@@ -69,45 +68,29 @@ On input, the size must be less than the size of the event tracing session's buf
 
 On output, do not use this number in calculations.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.FieldTypeFlags
 
  Reserved.
-						
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.HeaderType
 
 Reserved.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MarkerFlags
 
 Reserved.
 
-
 ### -field DUMMYUNIONNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME2.Version
 
 This is a roll-up of the members of <b>Class</b>. The low-order byte contains the Type, the next byte contains the Level, and the last two bytes contain the version.
 
-
 ### -field DUMMYUNIONNAME2.Class
-
 
 ### -field DUMMYUNIONNAME2.Class.Type
 
@@ -212,8 +195,6 @@ Start event. Use to trace the initial state of a multi-step event.
  
 
 If you define your own event types, you should use numbers starting from 10. However, there is nothing to prevent you from using any numbers that you wish to use.  If your event trace class GUID supports multiple event types, consumers will use the event type to determine the event and how to interpret its contents.
-							
-
 
 ### -field DUMMYUNIONNAME2.Class.Level
 
@@ -282,13 +263,10 @@ Detailed trace events.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME2.Class.Version
 
 Indicates the version of the event trace class that you are using to log the event. Specify zero if there is only one version of your event trace class. The version tells the consumer which MOF class to use to decipher the event data.
-
 
 ### -field ThreadId
 
@@ -299,23 +277,17 @@ On output, identifies the thread that generated the event.
 
 Note that on Windows 2000, <b>ThreadId</b> was a <b>ULONGLONG</b> value.
 
-
 ### -field ProcessId
 
  On output, identifies  the process that generated the event.
 
 <b>Windows 2000:  </b>This member is not supported.
 
-
 ### -field TimeStamp
 
 On output, contains the time that the event occurred. The resolution is system time unless the <b>ProcessTraceMode</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> contains the PROCESS_TRACE_MODE_RAW_TIMESTAMP flag, in which case the resolution depends on the value of the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> at the time the controller created the session.
 
-
 ### -field DUMMYUNIONNAME3
-
- 
-
 
 ### -field DUMMYUNIONNAME3.Guid
 
@@ -329,7 +301,6 @@ Alternatively, you can use the <b>GuidPtr</b> member to specify the class GUID.
 <b>Windows XP and Windows 2000:  </b>The class GUID must have been registered previously using the 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function.
 
-
 ### -field DUMMYUNIONNAME3.GuidPtr
 
 Pointer to an event trace class GUID. Alternatively, you can use the <b>Guid</b> member to specify the class GUID. 
@@ -339,41 +310,27 @@ When the event is written, ETW uses the pointer to copy the GUID to the event (t
 
 If you use this member, the <b>Flags</b> member must also contain WNODE_FLAG_USE_GUID_PTR.
 
-
 ### -field DUMMYUNIONNAME4
 
- 
-
-
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.KernelTime
 
 Elapsed execution time for kernel-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead.  For more information, see Remarks.
 
-
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME.UserTime
 
 Elapsed execution time for user-mode instructions, in CPU time units. If you are using a private session, use the value in the <b>ProcessorTime</b> member instead. For more information, see Remarks.
-
 
 ### -field DUMMYUNIONNAME4.ProcessorTime
 
 For private sessions, the elapsed execution time for user-mode instructions, in CPU ticks.
 
-
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.ClientContext
 
-Reserved. 
-
+Reserved.
 
 ### -field DUMMYUNIONNAME4.DUMMYSTRUCTNAME2.Flags
 
@@ -410,12 +367,8 @@ Specify if an array of
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Be sure to initialize the memory for this structure to zero before setting any members.
 
@@ -425,13 +378,7 @@ The <b>TimerResolution</b> of the <a href="https://docs.microsoft.com/windows/de
 
 Note, however, that the CPU usage timer resolution is typically very low (around 10 or more milliseconds). Therefore, CPU usage numbers cannot be used to account for CPU time usage among threads with high accuracy. Rather, they are suitable for long term, statistical type of analysis.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a>
 
@@ -446,7 +393,4 @@ Note, however, that the CPU usage timer resolution is typically very low (around
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a>
- 
-
- 
 

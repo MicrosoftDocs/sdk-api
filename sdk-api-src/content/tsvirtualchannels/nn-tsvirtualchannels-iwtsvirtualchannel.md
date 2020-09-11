@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 8a5b093f-5756-400f-9442-b95d6010ee46
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannel, IWTSVirtualChannel interface [Remote Desktop Services], IWTSVirtualChannel interface [Remote Desktop Services],described, termserv.iwtsvirtualchannel, tsvirtualchannels/IWTSVirtualChannel
-f1_keywords:
-- tsvirtualchannels/IWTSVirtualChannel
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TsVirtualChannels.h
-api_name:
-- IWTSVirtualChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSVirtualChannel
+ - tsvirtualchannels/IWTSVirtualChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TsVirtualChannels.h
+api_name:
+ - IWTSVirtualChannel
 ---
 
 # IWTSVirtualChannel interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to control the channel state, and writes on the channel. This interface is implemented by the framework.
 
 Methods of this interface can be called from any thread.
-
 
 ## -inheritance
 
@@ -88,5 +87,5 @@ Starts a write request on the channel.
 
 </td>
 </tr>
-</table> 
+</table>
 

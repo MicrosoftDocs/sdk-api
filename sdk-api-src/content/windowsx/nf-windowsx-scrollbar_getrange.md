@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getrange.htm
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_GetRange, ScrollBar_GetRange macro [Windows Controls], _win32_ScrollBar_GetRange, _win32_ScrollBar_GetRange_cpp, controls.ScrollBar_GetRange, controls._win32_ScrollBar_GetRange, windowsx/ScrollBar_GetRange
-f1_keywords:
-- windowsx/ScrollBar_GetRange
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ScrollBar_GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScrollBar_GetRange
+ - windowsx/ScrollBar_GetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ScrollBar_GetRange
 ---
 
 # ScrollBar_GetRange macro
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the range of a scroll bar.
         
 <div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a> function, which is deprecated. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
@@ -65,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the control.
 
-
 ### -param lpposMin
 
 Type: <b>int*</b>
 
 Address of a variable that receives the minimum value of the scroll bar.
-
 
 ### -param lpposMax
 
@@ -79,12 +74,7 @@ Type: <b>int*</b>
 
 Address of a variable that receives the maximum value of the scroll bar.
 
-
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a>.
-
-
 

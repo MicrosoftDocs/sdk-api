@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_LOCALPACKAGE, MsiGetPatchInfo, MsiGetPatchInfo function, MsiGetPatchInfoA, MsiGetPatchInfoW, _msi_msigetpatchinfo, msi/MsiGetPatchInfo, msi/MsiGetPatchInfoA, msi/MsiGetPatchInfoW, setup.msigetpatchinfo
-f1_keywords:
-- msi/MsiGetPatchInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetPatchInfo
-- MsiGetPatchInfoA
-- MsiGetPatchInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetPatchInfoW
+ - msi/MsiGetPatchInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetPatchInfo
+ - MsiGetPatchInfoA
+ - MsiGetPatchInfoW
 ---
 
 # MsiGetPatchInfoW function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetPatchInfo</b> function returns information about a patch.
 
-
 ## -parameters
-
-
-
 
 ### -param szPatch [in]
 
 Specifies the patch code for the patch package.
-
 
 ### -param szAttribute [in]
 
@@ -88,13 +83,10 @@ Local cached package.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpValueBuf [out]
 
 Pointer to a buffer that receives the property value. This parameter can be null.
-
 
 ### -param pcchValueBuf [in, out]
 
@@ -105,10 +97,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpValueBuf</i> is null, <i>pcchValueBuf</i> can be null.
 
-
 ## -returns
-
-
 
 The <b>MsiGetPatchInfo</b> function returns the following values.
 
@@ -189,13 +178,7 @@ The property is unrecognized.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 When the 
 <b>MsiGetPatchInfo</b> function returns, the <i>pcchValueBuf</i> parameter contains the length of the class string stored in the buffer. The count returned does not include the terminating null character.
@@ -212,11 +195,5 @@ If the buffer is too small to hold the requested data,
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
- 
-
- 
 

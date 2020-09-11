@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
-f1_keywords:
-- azroles/IAzObjectPicker
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzObjectPicker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzObjectPicker
+ - azroles/IAzObjectPicker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzObjectPicker
 ---
 
 # IAzObjectPicker interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzObjectPicker</b> interface displays a dialog box that allows users to select one or more principals from a list.
-
 
 ## -inheritance
 
@@ -97,14 +96,9 @@ Gets the name of the <b>IAzObjectPicker</b> object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Implement this interface when you need a custom dialog box that allows users to choose principals.
-
-
 

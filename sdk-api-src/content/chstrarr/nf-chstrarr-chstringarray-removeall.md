@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: be9df3fd-afa5-4f07-99cd-ddccdeaa3fd3
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],RemoveAll method, CHStringArray.RemoveAll, CHStringArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_removeall, chstrarr/CHStringArray::RemoveAll, wmi.chstringarray_removeall
-f1_keywords:
-- chstrarr/CHStringArray.RemoveAll
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.RemoveAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::RemoveAll
+ - chstrarr/CHStringArray::RemoveAll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.RemoveAll
 ---
 
 # CHStringArray::RemoveAll
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,17 +59,9 @@ ms.custom: 19H1
 
 The <b>RemoveAll</b> method removes all the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> members from this array.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>RemoveAll</b> method works on empty arrays.
 
@@ -89,21 +81,11 @@ array.RemoveAll();
 assert( array.GetSize() == 0 );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-freeextra">CHStringArray::FreeExtra</a>
- 
-
- 
 

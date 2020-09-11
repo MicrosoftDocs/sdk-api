@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 082cd277-157d-42a4-bf37-e47d16f90c7a
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], IWMWriterAdvanced interface [windows Media Format],described, IWMWriterAdvancedInterface, wmformat.iwmwriteradvanced, wmsdkidl/IWMWriterAdvanced
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMWriterAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced
+ - wmsdkidl/IWMWriterAdvanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMWriterAdvanced
 ---
 
 # IWMWriterAdvanced interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMWriterAdvanced</b> interface provides advanced writing functionality.
 
 This interface exists for every instance of the writer object. To obtain a pointer to this interface, call <b>QueryInterface</b> on the writer object.
-
-
-
 
 ## -inheritance
 
@@ -176,12 +172,7 @@ Writes a stream sample directly into an ASF file, bypassing the normal compressi
 
 For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
@@ -200,7 +191,4 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>
- 
-
- 
 

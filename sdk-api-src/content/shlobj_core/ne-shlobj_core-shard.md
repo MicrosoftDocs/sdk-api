@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: efc9e018-41bb-44ef-9ca8-85d9e34c9899
 ms.date: 12/05/2018
 ms.keywords: SHARD, SHARD enumeration [Windows Shell], SHARD_APPIDINFO, SHARD_APPIDINFOIDLIST, SHARD_APPIDINFOLINK, SHARD_LINK, SHARD_PATHA, SHARD_PATHW, SHARD_PIDL, SHARD_SHELLITEM, _shell_SHARD, shell.SHARD, shlobj_core/SHARD, shlobj_core/SHARD_APPIDINFO, shlobj_core/SHARD_APPIDINFOIDLIST, shlobj_core/SHARD_APPIDINFOLINK, shlobj_core/SHARD_LINK, shlobj_core/SHARD_PATHA, shlobj_core/SHARD_PATHW, shlobj_core/SHARD_PIDL, shlobj_core/SHARD_SHELLITEM
-f1_keywords:
-- shlobj_core/SHARD
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- SHARD
 targetos: Windows
 req.typenames: SHARD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHARD
+ - shlobj_core/SHARD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - SHARD
 ---
 
 # SHARD enumeration
@@ -49,58 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the interpretation of the data passed by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> in its <i>pv</i> parameter to identify the item whose usage statistics are being tracked.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SHARD_PIDL
 
 The <i>pv</i> parameter points to a PIDL that identifies the document's file object. PIDLs that identify non-file objects are not accepted.
 
-
 ### -field SHARD_PATHA
 
 The <i>pv</i> parameter points to a null-terminated ANSI string with the path and file name of the object.
-
 
 ### -field SHARD_PATHW
 
 The <i>pv</i> parameter points to a null-terminated Unicode string with the path and file name of the object.
 
-
 ### -field SHARD_APPIDINFO
 
 <b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfo">SHARDAPPIDINFO</a> structure that pairs an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that identifies the item with an AppUserModelID that associates it with a particular process or application.
-
 
 ### -field SHARD_APPIDINFOIDLIST
 
 <b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfoidlist">SHARDAPPIDINFOIDLIST</a> structure that pairs an absolute PIDL that identifies the item with an AppUserModelID that associates it with a particular process or application.
 
-
 ### -field SHARD_LINK
 
 <b>Windows 7 and later</b>. The <i>pv</i> parameter is an interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> object.
-
 
 ### -field SHARD_APPIDINFOLINK
 
 <b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfolink">SHARDAPPIDINFOLINK</a> structure that pairs an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> that identifies the item with an AppUserModelID that associates it with a particular process or application.
 
-
 ### -field SHARD_SHELLITEM
 
 <b>Windows 7 and later</b>. The <i>pv</i> parameter is an interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
 
-
 ## -remarks
-
-
 
 Before Windows 7, SHARD_PIDL, SHARD_PATHA, and SHARD_PATHW were defined as individual constants, not as enumeration members.
 
@@ -117,16 +103,7 @@ The display name must be set through the item's <a href="https://docs.microsoft.
 
 Optionally, the description field (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">IShellLink::SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 6b47fb9d-6ca4-4e6b-b117-027ef1e963ac
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorCollection, IDataCollectorCollection interface [PLA], IDataCollectorCollection interface [PLA],described, base.idatacollectorcollection, pla.idatacollectorcollection, pla/IDataCollectorCollection
-f1_keywords:
-- pla/IDataCollectorCollection
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorCollection
+ - pla/IDataCollectorCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorCollection
 ---
 
 # IDataCollectorCollection interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">DataCollector</a> objects.
 
 To get this interface, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_datacollectors">IDataCollectorSet::DataCollectors</a> property.
-
 
 ## -inheritance
 
@@ -168,5 +167,5 @@ Retrieves the requested data collector from the collection.
 
 </td>
 </tr>
-</table> 
+</table>
 

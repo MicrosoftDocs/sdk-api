@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: c292a509-f202-4136-bbf7-b4e82ef2b936
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], IPortableDeviceCapabilities interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceCapabilities, wpdsdk.iportabledevicecapabilities
-f1_keywords:
-- portabledeviceapi/IPortableDeviceCapabilities
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portabledeviceapi.h
-api_name:
-- IPortableDeviceCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceCapabilities
+ - portabledeviceapi/IPortableDeviceCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portabledeviceapi.h
+api_name:
+ - IPortableDeviceCapabilities
 ---
 
 # IPortableDeviceCapabilities interface
@@ -49,13 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IPortableDeviceCapabilities</b> interface a variety of device capabilities, including supported formats, commands, and functional objects. You can retrieve this interface from a device by calling <b>IPortableDevice::Capabilities</b>.
-
-
-
-
 
 ## -inheritance
 
@@ -172,16 +167,9 @@ Retrieves the supported formats for a specified object type on the device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
- 
-
- 
 

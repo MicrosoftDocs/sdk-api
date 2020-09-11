@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 0ece6120-bd5d-4e3d-b71f-7aa9a51a1568
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IOfflineFilesChangeInfo interface [Offline Files],described, cscobj/IOfflineFilesChangeInfo, of.iofflinefileschangeinfo
-f1_keywords:
-- cscobj/IOfflineFilesChangeInfo
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesChangeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesChangeInfo
+ - cscobj/IOfflineFilesChangeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesChangeInfo
 ---
 
 # IOfflineFilesChangeInfo interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the information associated with local changes made to an item while working offline.
-
 
 ## -inheritance
 
@@ -123,16 +122,9 @@ Determines whether one or more of an item's time values were modified while work
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 467200e7-9b08-4372-9a01-660e56a15bfe
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriterInfo, IWICMetadataWriterInfo interface [Windows Imaging Component], IWICMetadataWriterInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatawriterinfo, wic._wic_codec_iwicmetadatawriterinfo, wincodecsdk/IWICMetadataWriterInfo
-f1_keywords:
-- wincodecsdk/IWICMetadataWriterInfo
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataWriterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataWriterInfo
+ - wincodecsdk/IWICMetadataWriterInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataWriterInfo
 ---
 
 # IWICMetadataWriterInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide basic information about the registered metadata writer.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the metadata header for the metadata writer.
 
 </td>
 </tr>
-</table> 
+</table>
 

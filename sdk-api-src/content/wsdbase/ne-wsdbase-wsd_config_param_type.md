@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 46189d61-79d0-4ec9-82eb-ac1331201490
 ms.date: 12/05/2018
 ms.keywords: WSD_CONFIG_DEVICE_ADDRESSES, WSD_CONFIG_HOSTING_ADDRESSES, WSD_CONFIG_MAX_INBOUND_MESSAGE_SIZE, WSD_CONFIG_MAX_OUTBOUND_MESSAGE_SIZE, WSD_CONFIG_PARAM_TYPE, WSD_CONFIG_PARAM_TYPE enumeration, WSD_SECURITY_COMPACTSIG_SIGNING_CERT, WSD_SECURITY_COMPACTSIG_VALIDATION, WSD_SECURITY_REQUIRE_CLIENT_CERT_OR_HTTP_CLIENT_AUTH, WSD_SECURITY_REQUIRE_HTTP_CLIENT_AUTH, WSD_SECURITY_SSL_CERT_FOR_CLIENT_AUTH, WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION, WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT, WSD_SECURITY_SSL_SERVER_CERT_VALIDATION, WSD_SECURITY_USE_HTTP_CLIENT_AUTH, ncd.wsd_config_param_type, wsdbase/WSD_CONFIG_DEVICE_ADDRESSES, wsdbase/WSD_CONFIG_HOSTING_ADDRESSES, wsdbase/WSD_CONFIG_MAX_INBOUND_MESSAGE_SIZE, wsdbase/WSD_CONFIG_MAX_OUTBOUND_MESSAGE_SIZE, wsdbase/WSD_CONFIG_PARAM_TYPE, wsdbase/WSD_SECURITY_COMPACTSIG_SIGNING_CERT, wsdbase/WSD_SECURITY_COMPACTSIG_VALIDATION, wsdbase/WSD_SECURITY_REQUIRE_CLIENT_CERT_OR_HTTP_CLIENT_AUTH, wsdbase/WSD_SECURITY_REQUIRE_HTTP_CLIENT_AUTH, wsdbase/WSD_SECURITY_SSL_CERT_FOR_CLIENT_AUTH, wsdbase/WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION, wsdbase/WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT, wsdbase/WSD_SECURITY_SSL_SERVER_CERT_VALIDATION, wsdbase/WSD_SECURITY_USE_HTTP_CLIENT_AUTH
-f1_keywords:
-- wsdbase/WSD_CONFIG_PARAM_TYPE
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wsdbase.h
-api_name:
-- WSD_CONFIG_PARAM_TYPE
 targetos: Windows
 req.typenames: WSD_CONFIG_PARAM_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_wsdbase_0000_0000_0001
+ - wsdbase/__MIDL___MIDL_itf_wsdbase_0000_0000_0001
+ - WSD_CONFIG_PARAM_TYPE
+ - wsdbase/WSD_CONFIG_PARAM_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wsdbase.h
+api_name:
+ - WSD_CONFIG_PARAM_TYPE
 ---
 
 # WSD_CONFIG_PARAM_TYPE enumeration
@@ -49,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the kind of data stored in a 
     <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WSD_CONFIG_MAX_INBOUND_MESSAGE_SIZE
 
@@ -65,13 +63,11 @@ The <i>pConfigData</i> member is a pointer to a <b>DWORD</b> that specifies the 
 
 The <i>dwConfigDataSize</i> member is 4.
 
-
 ### -field WSD_CONFIG_MAX_OUTBOUND_MESSAGE_SIZE
 
 The <i>pConfigData</i> member is a pointer to a <b>DWORD</b> that specifies the maximum size, in octets, of an outbound message.
 
 The <i>dwConfigDataSize</i> member is 4.
-
 
 ### -field WSD_SECURITY_SSL_CERT_FOR_CLIENT_AUTH
 
@@ -81,7 +77,6 @@ The <i>pConfigData</i> member is a pointer to a  <a href="https://docs.microsoft
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
-
 ### -field WSD_SECURITY_SSL_SERVER_CERT_VALIDATION
 
 Used to pass in the SSL server certificate validation information into WSDAPI.  When establishing the SSL connection, WSDAPI will accept only a server certificate that matches the criteria specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
@@ -89,7 +84,6 @@ Used to pass in the SSL server certificate validation information into WSDAPI.  
 The <i>pConfigData</i> member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
-
 
 ### -field WSD_SECURITY_SSL_CLIENT_CERT_VALIDATION
 
@@ -99,7 +93,6 @@ The <i>pConfigData</i> member is a pointer to a <a href="https://docs.microsoft.
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_cert_validation">WSD_SECURITY_CERT_VALIDATION</a> structure.
 
-
 ### -field WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT
 
 Specifies that on incoming SSL connections, WSDAPI  will request a client certificate from the SSL client if one is not already made available by the client.  If the remote entity cannot provide a client certificate, the connection will be rejected.  Note that the SSL record that is created for that port must expclicitly allow for client certificate negotiation.
@@ -107,7 +100,6 @@ Specifies that on incoming SSL connections, WSDAPI  will request a client certif
 The <i>pConfigData</i> member is <b>NULL</b>.
 
 The <i>dwConfigDataSize</i> member is 0.
-
 
 ### -field WSD_SECURITY_COMPACTSIG_SIGNING_CERT
 
@@ -117,7 +109,6 @@ The <i>pConfigData</i> member is a                                            po
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
-
 ### -field WSD_SECURITY_COMPACTSIG_VALIDATION
 
 This is used to specify the parameters used to verify inbound signed WS_Discovery UDP message.
@@ -125,7 +116,6 @@ This is used to specify the parameters used to verify inbound signed WS_Discover
 The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_security_signature_validation">WSD_SECURITY_SIGNATURE_VALIDATION</a> structure.
-
 
 ### -field WSD_CONFIG_HOSTING_ADDRESSES
 
@@ -135,7 +125,6 @@ The <i>pConfigData</i> member is a                                            po
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.
 
-
 ### -field WSD_CONFIG_DEVICE_ADDRESSES
 
 This applies only to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy2">WSDCreateDeviceProxy2</a> function.  It is used to specify an address for the device for which the proxy is created.  The equivalent is functionality provided through the <i>deviceConfig</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxyadvanced">WSDCreateDeviceProxyAdvanced</a> function.
@@ -143,7 +132,6 @@ This applies only to the <a href="https://docs.microsoft.com/windows/desktop/api
 The <i>pConfigData</i> member is a                                            pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.  The <b>addresses</b> member of this structure points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> objects, each of which is an address of the device to which the proxy is created.  Currently only one such address is allowed.
 
 The <i>dwConfigDataSize</i> member is the size of the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_addresses">WSD_CONFIG_ADDRESSES</a> structure.
-
 
 ### -field WSD_SECURITY_REQUIRE_HTTP_CLIENT_AUTH
 
@@ -187,3 +175,4 @@ If this value is expressed in conjunction with WSD_SECURITY_SSL_CERT_FOR_CLIENT_
 
 </li>
 </ul>
+

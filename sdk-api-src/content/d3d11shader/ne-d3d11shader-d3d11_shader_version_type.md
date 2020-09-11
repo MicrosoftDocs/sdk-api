@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: c99a108d-1d5c-4ba6-a417-375ad247a16d
 ms.date: 12/05/2018
 ms.keywords: 7f45df8f-0b5b-32e5-034b-617be140be7c, D3D11_SHADER_VERSION_TYPE, D3D11_SHADER_VERSION_TYPE enumeration [Direct3D 11], D3D11_SHVER_COMPUTE_SHADER, D3D11_SHVER_DOMAIN_SHADER, D3D11_SHVER_GEOMETRY_SHADER, D3D11_SHVER_HULL_SHADER, D3D11_SHVER_PIXEL_SHADER, D3D11_SHVER_RESERVED0, D3D11_SHVER_VERTEX_SHADER, d3d11shader/D3D11_SHADER_VERSION_TYPE, d3d11shader/D3D11_SHVER_COMPUTE_SHADER, d3d11shader/D3D11_SHVER_DOMAIN_SHADER, d3d11shader/D3D11_SHVER_GEOMETRY_SHADER, d3d11shader/D3D11_SHVER_HULL_SHADER, d3d11shader/D3D11_SHVER_PIXEL_SHADER, d3d11shader/D3D11_SHVER_RESERVED0, d3d11shader/D3D11_SHVER_VERTEX_SHADER, direct3d11.d3d11_shader_version_type
-f1_keywords:
-- d3d11shader/D3D11_SHADER_VERSION_TYPE
-dev_langs:
-- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11shader.h
-api_name:
-- D3D11_SHADER_VERSION_TYPE
 targetos: Windows
 req.typenames: D3D11_SHADER_VERSION_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_SHADER_VERSION_TYPE
+ - d3d11shader/D3D11_SHADER_VERSION_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11shader.h
+api_name:
+ - D3D11_SHADER_VERSION_TYPE
 ---
 
 # D3D11_SHADER_VERSION_TYPE enumeration
@@ -49,57 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates shader type.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_SHVER_PIXEL_SHADER
 
 Pixel shader.
 
-
 ### -field D3D11_SHVER_VERTEX_SHADER
 
 Vertex shader.
-
 
 ### -field D3D11_SHVER_GEOMETRY_SHADER
 
 Geometry shader.
 
-
 ### -field D3D11_SHVER_HULL_SHADER
 
 Hull shader.
-
 
 ### -field D3D11_SHVER_DOMAIN_SHADER
 
 Domain shader.
 
-
 ### -field D3D11_SHVER_COMPUTE_SHADER
 
 Compute shader.
-
 
 ### -field D3D11_SHVER_RESERVED0
 
 Indicates the end of the enumeration constants.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
- 
-
- 
 

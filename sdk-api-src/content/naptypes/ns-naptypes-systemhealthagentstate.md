@@ -8,10 +8,6 @@ tech.root: NAP
 ms.assetid: c5a5bc72-363d-4c2d-8b91-fda64fac281e
 ms.date: 12/05/2018
 ms.keywords: SystemHealthAgentState, SystemHealthAgentState structure [NAP], nap.systemhealthagentstate_struct, naptypes/SystemHealthAgentState
-f1_keywords:
-- naptypes/SystemHealthAgentState
-dev_langs:
-- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NapTypes.h
-api_name:
-- SystemHealthAgentState
 targetos: Windows
 req.typenames: SystemHealthAgentState
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSystemHealthAgentState
+ - naptypes/tagSystemHealthAgentState
+ - SystemHealthAgentState
+ - naptypes/SystemHealthAgentState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NapTypes.h
+api_name:
+ - SystemHealthAgentState
 ---
 
 # SystemHealthAgentState structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>SystemHealthAgentState</b> structure stores the dynamic state of the SHA.
 
-
 ## -struct-fields
-
-
-
 
 ### -field id
 
 A unique <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">SystemHealthEntityId</a> value that identifies the System Health Agent (SHA).
-
 
 ### -field shaResultCodes
 
@@ -81,18 +78,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-f
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-fixupinfo">FixupInfo</a> structure that contains information about the fix-up state of the SHA.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
- 
-
- 
 

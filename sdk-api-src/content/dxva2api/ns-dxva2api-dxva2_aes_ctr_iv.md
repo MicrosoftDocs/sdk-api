@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: acde4bbb-2a14-4237-b426-a157a9781f40
 ms.date: 12/05/2018
 ms.keywords: DXVA2_AES_CTR_IV, DXVA2_AES_CTR_IV structure [Media Foundation], dxva2api/DXVA2_AES_CTR_IV, mf.dxva2_aes_ctr_iv
-f1_keywords:
-- dxva2api/DXVA2_AES_CTR_IV
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_AES_CTR_IV
 targetos: Windows
 req.typenames: DXVA2_AES_CTR_IV
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_AES_CTR_IV
+ - dxva2api/_DXVA2_AES_CTR_IV
+ - DXVA2_AES_CTR_IV
+ - dxva2api/DXVA2_AES_CTR_IV
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_AES_CTR_IV
 ---
 
 # DXVA2_AES_CTR_IV structure
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IV
 
 The IV, in big-endian format.
 
-
 ### -field Count
 
 The block count, in big-endian format.
 
-
 ## -remarks
-
-
 
 For AES-CTR encyption, the <b>pvPVPState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
 
@@ -83,20 +77,11 @@ Example: Suppose the software decoder submits three buffers for a single frame, 
 
 When the <b>D3DCPCAPS_SEQUENTIAL_CTR_IV</b> capability is present, it is recommended to submit data in 128-bit blocks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

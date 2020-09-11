@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: e82dfa58-9b36-4e42-9275-c09bad7bc730
 ms.date: 12/05/2018
 ms.keywords: IAccPropServer, IAccPropServer interface [Windows Accessibility], IAccPropServer interface [Windows Accessibility],described, msaa.iaccpropserver, oleacc/IAccPropServer, winauto.iaccpropserver
-f1_keywords:
-- oleacc/IAccPropServer
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oleacc.h
-api_name:
-- IAccPropServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccPropServer
+ - oleacc/IAccPropServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oleacc.h
+api_name:
+ - IAccPropServer
 ---
 
 # IAccPropServer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that retrieves a property value for an accessible element.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves a property value.
 
 </td>
 </tr>
-</table> 
+</table>
 

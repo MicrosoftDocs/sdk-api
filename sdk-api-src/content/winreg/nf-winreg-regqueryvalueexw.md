@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.date: 12/05/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
-f1_keywords:
-- winreg/RegQueryValueEx
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-- kernel32.dll
-api_name:
-- RegQueryValueEx
-- RegQueryValueExA
-- RegQueryValueExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegQueryValueExW
+ - winreg/RegQueryValueExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+ - kernel32.dll
+api_name:
+ - RegQueryValueEx
+ - RegQueryValueExA
+ - RegQueryValueExW
 ---
 
 # RegQueryValueExW function
@@ -59,16 +60,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type and data for the specified value name associated with an open registry key.
 
 To ensure that any string values (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) returned are <b>null</b>-terminated, use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -92,8 +88,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpValueName [in, optional]
 
 The name of the registry value. 
@@ -108,22 +102,18 @@ If <i>lpValueName</i> specifies a value that is not in the registry, the functio
 Keys do not automatically have an unnamed or default value. Unnamed values can be of any type. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ### -param lpReserved
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param lpType [out, optional]
 
 A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. The <i>lpType</i> parameter can be <b>NULL</b> if the type code is not required.
 
-
 ### -param lpData [out, optional]
 
 A pointer to a buffer that receives the value's data. This parameter can be <b>NULL</b> if the data is not required.
-
 
 ### -param lpcbData [in, out, optional]
 
@@ -146,10 +136,7 @@ If <i>hKey</i> specifies <b>HKEY_PERFORMANCE_DATA</b> and the <i>lpData</i> buff
 
 If the <i>lpValueName</i> registry value does not exist, <b>RegQueryValueEx</b> returns ERROR_FILE_NOT_FOUND and the value returned through the <i>lpcbData</i> parameter is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -160,12 +147,7 @@ If the <i>lpData</i> buffer is too small to receive the data, the function retur
 
 If the <i>lpValueName</i> registry value does not exist, the function returns ERROR_FILE_NOT_FOUND.
 
-
-
-
 ## -remarks
-
-
 
 An application typically calls <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a> to determine the value names and then <b>RegQueryValueEx</b> to retrieve the data for the names.
 
@@ -243,9 +225,6 @@ void main()
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>
 
 
@@ -279,7 +258,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

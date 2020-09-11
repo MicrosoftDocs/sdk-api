@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c08e22d0-7eb3-4fad-82a6-e9d4f50c4e73
 ms.date: 12/05/2018
 ms.keywords: SetupFindNextMatchLine, SetupFindNextMatchLine function [Setup API], SetupFindNextMatchLineA, SetupFindNextMatchLineW, _setupapi_setupfindnextmatchline, setup.setupfindnextmatchline, setupapi/SetupFindNextMatchLine, setupapi/SetupFindNextMatchLineA, setupapi/SetupFindNextMatchLineW
-f1_keywords:
-- setupapi/SetupFindNextMatchLine
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupFindNextMatchLine
-- SetupFindNextMatchLineA
-- SetupFindNextMatchLineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupFindNextMatchLineA
+ - setupapi/SetupFindNextMatchLineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupFindNextMatchLine
+ - SetupFindNextMatchLineA
+ - SetupFindNextMatchLineW
 ---
 
 # SetupFindNextMatchLineA function
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupFindNextMatchLine</b> function returns the location of the next line in an INF file relative to <i>ContextIn.Line</i> that matches a specified key.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextIn [in]
 
 Pointer to an INF file context, as retrieved by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a> function.
-
 
 ### -param Key [in]
 
@@ -75,25 +70,16 @@ If this optional parameter is specified, it supplies a key to match. This parame
 <b>SetupFindNextMatchLine</b> function is equivalent to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a> function.
 
-
 ### -param ContextOut [in, out]
 
 Pointer to a variable in which this function returns the context of the found line. <i>ContextOut</i> can point to <i>ContextIn</i> if the caller wishes.
 
-
 ## -returns
-
-
 
 The function returns a nonzero value if it finds a matching line. Otherwise, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <i>ContextIn.Inf</i> references multiple INF files that have been appended together using 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, the 
@@ -107,9 +93,6 @@ If <i>ContextIn.Inf</i> references multiple INF files that have been appended to
 > The setupapi.h header defines SetupFindNextMatchLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -128,7 +111,4 @@ If <i>ContextIn.Inf</i> references multiple INF files that have been appended to
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetlinebyindexa">SetupGetLineByIndex</a>
- 
-
- 
 

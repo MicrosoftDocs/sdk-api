@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 42c58096-429c-4278-b9ab-8c5a91361af8
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAcquireAdvisories, rm.drmacquireadvisories
-f1_keywords:
-- msdrm/DRMAcquireAdvisories
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMAcquireAdvisories
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMAcquireAdvisories
+ - msdrm/DRMAcquireAdvisories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMAcquireAdvisories
 ---
 
 # DRMAcquireAdvisories function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,46 +61,31 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMAcquireAdvisories</b> function retrieves revocation lists required by a submitted license. Retrieved revocation lists are added to the user's permanent license store. A revocation list is a signed XrML document that specifies principals that have been revoked because they are no longer considered trustworthy or valid. These principals can include <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificates</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/m-gly">machine certificates</a>, code-signing certificates, manifests, and server licensor certificates, among other things.
 
-
 ## -parameters
-
-
-
 
 ### -param hLicenseStorage [in]
 
 A handle to a license storage session created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function.
 
-
 ### -param wszLicense [in]
 
 A pointer to a null-terminated Unicode string that contains the license that requires a revocation list. This can be any license or certificate (or certificate chain or concatenated licenses) that supports revocation lists, including <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user licenses</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificates</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/c-gly">client licensor certificates</a>.
-
 
 ### -param wszURL [in, optional]
 
 A pointer to a null-terminated Unicode string that contains an additional URL to query for advisories. This will be checked in addition to any URLs mentioned in the license passed in. This parameter can be set to <b>NULL</b>.
 
-
 ### -param pvContext [in]
 
 A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function retrieves advisory lists asynchronously. The URL where the revocation list is posted is stored in the license that is passed in, but it can be overridden by <i>wszURL</i>.
 
@@ -114,13 +99,7 @@ For more information about revocation lists and how to create them, see the Acti
 
 The application callback function specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-advisory">DRM_MSG_ACQUIRE_ADVISORY</a> message to provide status feedback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
@@ -131,7 +110,4 @@ The application callback function specified in the <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/revoking-a-certificate">Revoking a Certificate</a>
- 
-
- 
 

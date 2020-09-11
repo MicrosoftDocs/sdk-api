@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
 ms.date: 12/05/2018
 ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
-f1_keywords:
-- vswriter/IVssComponent.GetBackupMetadata
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetBackupMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetBackupMetadata
+ - vswriter/IVssComponent::GetBackupMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetBackupMetadata
 ---
 
 # IVssComponent::GetBackupMetadata
 
 
 ## -description
-
 
 The <b>GetBackupMetadata</b> method retrieves 
     private, writer-specific backup metadata that might have been set during a 
@@ -60,22 +60,14 @@ The <b>GetBackupMetadata</b> method retrieves
 
 Only a writer can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrData [out]
 
 The address of a caller-allocated variable that receives a string containing the backup metadata that was added during an 
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">OnPrepareBackup</a> event.
-     
-
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -143,14 +135,8 @@ The XML document is not valid. Check the event log for details. For more
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called at any time depending on the logic of a given writer.
 
@@ -160,20 +146,11 @@ If no backup metadata has been set,
 
 If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>
- 
-
- 
 

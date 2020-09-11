@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, mf.d3d11_video_decoder_begin_frame_crypto_session
-f1_keywords:
-- d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11_1.h
-api_name:
-- D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+ - d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11_1.h
+api_name:
+ - D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 ---
 
 ## -description
@@ -81,3 +82,4 @@ This structure is passed in the <i>pContentKey</i> parameter of the <a href="htt
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+

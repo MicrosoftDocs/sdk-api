@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 075faaed-4678-4676-8780-e5b595541488
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Reset method, IEnumPluggableTerminalClassInfo.Reset, IEnumPluggableTerminalClassInfo::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_reset, tapi3.ienumpluggableterminalclassinfo_reset, tapi3if/IEnumPluggableTerminalClassInfo::Reset
-f1_keywords:
-- tapi3if/IEnumPluggableTerminalClassInfo.Reset
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumPluggableTerminalClassInfo.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPluggableTerminalClassInfo::Reset
+ - tapi3if/IEnumPluggableTerminalClassInfo::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumPluggableTerminalClassInfo.Reset
 ---
 
 # IEnumPluggableTerminalClassInfo::Reset
@@ -49,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,22 +87,12 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggableterminalclassinfo">IEnumPluggableTerminalClassInfo</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">Terminal Class</a>
- 
-
- 
 

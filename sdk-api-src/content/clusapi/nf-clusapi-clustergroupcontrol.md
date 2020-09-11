@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
-f1_keywords:
-- clusapi/ClusterGroupControl
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- ClusterGroupControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterGroupControl
+ - clusapi/ClusterGroupControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - ClusterGroupControl
 ---
 
 # ClusterGroupControl function
@@ -53,29 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates an 
     operation that affects a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>. The operation performed depends on 
     the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the group to be affected.
-
 
 ### -param hHostNode [in, optional]
 
 If non-<b>NULL</b>, handle to the node to perform the operation represented by the control 
        code. If <b>NULL</b>, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that owns the 
        group performs the operation. Specifying <i>hHostNode</i> is optional.
-
 
 ### -param dwControlCode [in]
 
@@ -142,39 +136,30 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/gro
 </li>
 </ul>
 
-
-
 ### -param lpInBuffer [in, optional]
 
 Pointer to an input buffer containing information needed for the operation, or <b>NULL</b> 
        if no information is needed.
 
-
 ### -param nInBufferSize [in]
 
 The allocated size (in bytes) of the input buffer.
-
 
 ### -param lpOutBuffer [out, optional]
 
 Pointer to an output buffer to receive the data resulting from the operation, or 
        <b>NULL</b> if no data will be returned.
 
-
 ### -param nOutBufferSize [in]
 
 The allocated size (in bytes) of the output buffer.
-
 
 ### -param lpBytesReturned [out, optional]
 
 Returns the actual size (in bytes) of the data resulting from the operation. If this information is not 
        needed, pass <b>NULL</b> for <i>lpBytesReturned</i>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -227,14 +212,8 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <b>ClusterGroupControl</b> returns 
      <b>ERROR_MORE_DATA</b>, set <i>nOutBufferSize</i> to the number of bytes 
@@ -295,19 +274,11 @@ if ( dwResult != ERROR_SUCCESS )
   // Respond to error.
 }</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-control-codes">Group Control Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
- 
-
- 
 

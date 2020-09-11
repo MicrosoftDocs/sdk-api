@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7d34507f-8a16-43b4-8225-010798abc546
 ms.date: 12/05/2018
 ms.keywords: IPersistFile, IPersistFile interface [COM], IPersistFile interface [COM],described, _com_ipersistfile, com.ipersistfile, objidl/IPersistFile
-f1_keywords:
-- objidl/IPersistFile
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistFile
+ - objidl/IPersistFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistFile
 ---
 
 # IPersistFile interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream. Because the information needed to open a file varies greatly from one application to another, the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load">IPersistFile::Load</a> on the object must also open its disk file.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Notifies the object that it can write to its file.
 
 </td>
 </tr>
-</table> 
+</table>
 

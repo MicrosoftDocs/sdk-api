@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 03daab81-11cf-4100-ab5e-3442a5972912
 ms.date: 12/05/2018
 ms.keywords: EnumDiscRecorders, EnumDiscRecorders method [IMAPI], EnumDiscRecorders method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],EnumDiscRecorders method, IDiscMaster.EnumDiscRecorders, IDiscMaster::EnumDiscRecorders, _win32_idiscmaster_enumdiscrecorders, base.idiscmaster_enumdiscrecorders, imapi.idiscmaster_enumdiscrecorders, imapi/IDiscMaster::EnumDiscRecorders
-f1_keywords:
-- imapi/IDiscMaster.EnumDiscRecorders
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscMaster.EnumDiscRecorders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscMaster::EnumDiscRecorders
+ - imapi/IDiscMaster::EnumDiscRecorders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscMaster.EnumDiscRecorders
 ---
 
 # IDiscMaster::EnumDiscRecorders
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an enumerator for all disc recorders supported by the active disc master format.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Address of a pointer to the <b>IEnumDiscRecorders</b> enumerator.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
-
-
-
 ## -remarks
-
-
 
 <b>IEnumDiscRecorders</b> is a standard COM enumerator, as documented in 
 <b>IEnumXXXX</b>. Each call to <b>Next</b> returns an array of pointers to 
@@ -90,16 +78,7 @@ When a device is removed, its pointer and
 
 The <b>MaxWriteSpeed</b> property is updated when this method is called. The default setting is the highest available write speed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
- 
-
- 
 

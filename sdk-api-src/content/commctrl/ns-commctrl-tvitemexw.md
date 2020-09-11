@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitemex.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTVITEMEXW, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEMEX, LPTVITEMEX structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_EXPANDEDIMAGE, TVIF_HANDLE, TVIF_IMAGE, TVIF_INTEGRAL, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_STATEEX, TVIF_TEXT, TVIS_EX_DISABLED, TVIS_EX_FLAT, TVIS_EX_HWND, TVITEMEX, TVITEMEX structure [Windows Controls], TVITEMEXA, TVITEMEXW, _win32_TVITEMEX, _win32_TVITEMEX_cpp, commctrl/LPTVITEMEX, commctrl/TVITEMEX, commctrl/TVITEMEXA, commctrl/TVITEMEXW, controls.TVITEMEX, controls._win32_TVITEMEX, one, zero'
-f1_keywords:
-- commctrl/TVITEMEX
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TVITEMEX
-- TVITEMEXA
-- TVITEMEXW
 targetos: Windows
 req.typenames: TVITEMEXW, *LPTVITEMEXW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVITEMEXW
+ - commctrl/tagTVITEMEXW
+ - LPTVITEMEXW
+ - commctrl/LPTVITEMEXW
+ - TVITEMEXW
+ - commctrl/TVITEMEXW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TVITEMEX
+ - TVITEMEXA
+ - TVITEMEXW
 ---
 
 # TVITEMEXW structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies or receives attributes of a tree-view item. This structure is an enhancement to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure. New applications should use this structure where appropriate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -184,15 +184,12 @@ The <b>pszText</b> and <b>cchTextMax</b> members are valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hItem
 
 Type: <b>HTREEITEM</b>
 
 Handle to the item.
-
 
 ### -field state
 
@@ -212,13 +209,11 @@ A state image is displayed next to an item's icon to indicate an application-def
 
 To set the state image index, use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextostateimagemask">INDEXTOSTATEIMAGEMASK</a>. This macro takes an index and sets bits 12 through 15 appropriately. To indicate that the item has no state image, set the index to zero. This convention means that image zero in the state image list cannot be used as a state image. To isolate bits 12 through 15 of The <b>state</b> member, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> mask.
 
-
 ### -field stateMask
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Bits of the <b>state</b> member that are valid. If you are retrieving an item's state, set the bits of the <b>stateMask</b> member to indicate the bits to be returned in the <b>state</b> member. If you are setting an item's state, set the bits of the <b>stateMask</b> member to indicate the bits of the <b>state</b> member that you want to set. To set or retrieve an item's overlay image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_OVERLAYMASK</a> bits. To set or retrieve an item's state image index, set the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-item-states">TVIS_STATEIMAGEMASK</a> bits.
-
 
 ### -field pszText
 
@@ -226,13 +221,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Pointer to a null-terminated string that contains the item text if the structure specifies item attributes. If this member is the LPSTR_TEXTCALLBACK value, the parent window is responsible for storing the name. In this case, the tree-view control sends the parent window a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification code when it needs the item text for displaying, sorting, or editing and a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-setdispinfo">TVN_SETDISPINFO</a> notification code when the item text changes. If the structure is receiving item attributes, this member is the address of the buffer that receives the item text. Note that although the tree-view control allows any length string to be stored as item text, only the first 260 characters are displayed.
 
-
 ### -field cchTextMax
 
 Type: <b>int</b>
 
 Size of the buffer pointed to by the <b>pszText</b> member, in characters. If this structure is being used to set item attributes, this member is ignored.
-
 
 ### -field iImage
 
@@ -240,13 +233,11 @@ Type: <b>int</b>
 
 Index in the tree-view control's image list of the icon image to use when the item is in the nonselected state. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the tree-view control sends the parent a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
 
-
 ### -field iSelectedImage
 
 Type: <b>int</b>
 
 Index in the tree-view control's image list of the icon image to use when the item is in the selected state. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the tree-view control sends the parent a <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-getdispinfo">TVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
-
 
 ### -field cChildren
 
@@ -311,8 +302,6 @@ The parent window keeps track of whether the item has child items. In this case,
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lParam
 
@@ -320,13 +309,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A value to associate with the item.
 
-
 ### -field iIntegral
 
 Type: <b>int</b>
 
 Height of the item, in multiples of the standard item height (see <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setitemheight">TVM_SETITEMHEIGHT</a>). For example, setting this member to 2 will give the item twice the standard height. The tree-view control does not draw in the extra area, which appears below the item content, but this space can be used by the application for drawing when using <a href="https://docs.microsoft.com/windows/desktop/Controls/custom-draw">custom draw</a>. Applications that are not using custom draw should set this value to 1, as otherwise the behavior is undefined.
-
 
 ### -field uStateEx
 
@@ -370,8 +357,6 @@ Creates a separate HWND for the item. This state is valid only when adding an it
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hwnd
 
@@ -379,13 +364,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <b>Internet Explorer 6 and later</b>. Not used; must be <b>NULL</b>.
 
-
 ### -field iExpandedImage
 
 Type: <b>int</b>
 
 <b>Internet Explorer 6 and later</b>. Index of the image in the control's image list to display when the item is in the expanded state.
-
 
 ### -field iReserved
 
@@ -393,16 +376,9 @@ Type: <b>int</b>
 
 Reserved member. Do not use.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Controls/using-treeview">Adding Tree-View Items</a>
- 
-
- 
 
 ## -remarks
 

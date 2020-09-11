@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: d79a5469-2248-466b-a5ca-32a568b135d2
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linemonitormedia, lineMonitorMedia, lineMonitorMedia function [TAPI 2.2], tapi/lineMonitorMedia, tapi2.linemonitormedia
-f1_keywords:
-- tapi/lineMonitorMedia
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineMonitorMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineMonitorMedia
+ - tapi/lineMonitorMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineMonitorMedia
 ---
 
 # lineMonitorMedia function
@@ -49,42 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineMonitorMedia</b> function enables and disables the detection of media types (modes) on the specified call. When a media type is detected, a message is sent to the application. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-monitormedia">ITLegacyCallMediaControl::MonitorMedia</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call. The call state of <i>hCall</i> can be any state except idle.
-
 
 ### -param dwMediaModes
 
 Media types to be monitored. If this parameter is zero, it cancels all media type detection. This parameter uses one or more of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_INVALMEDIAMODE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 The media types specified with 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a> relate only to enabling the detection of these media types by the service provider for the purpose of handing off new incoming calls to the proper application. They do not impact any of the media-mode notification messages that are expected because of a previous invocation of 
@@ -107,13 +94,7 @@ Because media-mode detection enabled by
 
 Monitoring of media on a conference call applies only to the <i>hConfCall</i> parameter, not to the individual participating calls.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
@@ -128,7 +109,4 @@ Monitoring of media on a conference call applies only to the <i>hConfCall</i> pa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>
- 
-
- 
 

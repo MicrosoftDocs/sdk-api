@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 02b19558-d7cb-4c77-977b-9810468ff145
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_CurrentCountryCode method, ITAddressTranslationInfo.get_CurrentCountryCode, ITAddressTranslationInfo::get_CurrentCountryCode, _tapi3_itaddresstranslationinfo_get_currentcountrycode, get_CurrentCountryCode, get_CurrentCountryCode method [TAPI 2.2], get_CurrentCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_currentcountrycode, tapi3if/ITAddressTranslationInfo::get_CurrentCountryCode
-f1_keywords:
-- tapi3if/ITAddressTranslationInfo.get_CurrentCountryCode
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressTranslationInfo.get_CurrentCountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressTranslationInfo::get_CurrentCountryCode
+ - tapi3if/ITAddressTranslationInfo::get_CurrentCountryCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressTranslationInfo.get_CurrentCountryCode
 ---
 
 # ITAddressTranslationInfo::get_CurrentCountryCode
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_CurrentCountryCode</b> method gets the current country/region code.
 
-
 ## -parameters
-
-
-
 
 ### -param CountryCode [out]
 
 Pointer to the country/region code.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,32 +102,17 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Corresponds to the <b>dwCurrentCountry</b> member of the TAPI 2 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
- 
-
- 
 

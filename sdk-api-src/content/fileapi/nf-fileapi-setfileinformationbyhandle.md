@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
 ms.date: 12/05/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
-f1_keywords:
-- fileapi/SetFileInformationByHandle
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFileInformationByHandle
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - SetFileInformationByHandle
+ - fileapi/SetFileInformationByHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFileInformationByHandle
 ---
 
 # SetFileInformationByHandle function
@@ -56,18 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the file information for the specified file.
 
 To retrieve file information using a file handle, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> or 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -78,14 +74,12 @@ This handle must be opened with the appropriate permissions for the requested ch
 
 This handle should not be a pipe handle.
 
-
 ### -param FileInformationClass [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a> enumeration 
        value that specifies the type of information to be changed.
 
 For a table of valid values, see the Remarks section.
-
 
 ### -param lpFileInformation [in]
 
@@ -95,27 +89,18 @@ A pointer to the buffer that contains the information to change  for the specifi
 
 For a table of valid structure types, see the Remarks section.
 
-
 ### -param dwBufferSize [in]
 
 The size of <i>lpFileInformation</i>, in bytes.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Certain file information classes behave slightly differently on different operating system releases. These 
     classes are supported by the underlying drivers, and any information they return is subject to change between 
@@ -353,14 +338,7 @@ The following C++ example shows how to create a file and mark it for deletion wh
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -383,7 +361,4 @@ The following C++ example shows how to create a file and mark it for deletion wh
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
- 
-
- 
 

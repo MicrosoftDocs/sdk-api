@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7
 ms.date: 12/05/2018
 ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, TranslateURL, TranslateURL function [Windows Shell], TranslateURLA, TranslateURLW, _win32_TranslateURL, intshcut/TranslateURL, intshcut/TranslateURLA, intshcut/TranslateURLW, shell.TranslateURL
-f1_keywords:
-- intshcut/TranslateURL
-dev_langs:
-- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Url.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Url.dll
-api_name:
-- TranslateURL
-- TranslateURLA
-- TranslateURLW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TranslateURLW
+ - intshcut/TranslateURLW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Url.dll
+api_name:
+ - TranslateURL
+ - TranslateURLA
+ - TranslateURLW
 ---
 
 # TranslateURLW function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applies common translations to a given URL string, creating a new URL string.
 
-
 ## -parameters
-
-
-
 
 ### -param pcszURL
 
 Type: <b>PCTSTR</b>
 
 The address of the URL string to be translated.
-
 
 ### -param dwInFlags
 
@@ -86,7 +81,6 @@ If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <b>Tr
 If the protocol scheme is not specified in the <i>pcszURL</i> parameter to 
         						<b>TranslateURL</b>, the system adds the default protocol to the URL.
 
-
 ### -param ppszTranslatedURL [out]
 
 Type: <b>PTSTR*</b>
@@ -104,10 +98,7 @@ If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <b>Tr
 If the protocol scheme is not specified in the <i>pcszURL</i> parameter to 
         						<b>TranslateURL</b>, the system adds the default protocol to the URL.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -152,14 +143,8 @@ One of the input pointers is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function does not validate the input URL string. A successful return value does not indicate that the URL strings are valid URLs.
 

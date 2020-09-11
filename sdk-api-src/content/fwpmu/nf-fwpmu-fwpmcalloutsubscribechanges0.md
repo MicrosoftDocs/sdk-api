@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscribeChanges0, FwpmCalloutSubscribeChanges0 function [Filtering], fwp.fwpmcalloutsubscribechanges0_func, fwpmu/FwpmCalloutSubscribeChanges0
-f1_keywords:
-- fwpmu/FwpmCalloutSubscribeChanges0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmCalloutSubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmCalloutSubscribeChanges0
+ - fwpmu/FwpmCalloutSubscribeChanges0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmCalloutSubscribeChanges0
 ---
 
 # FwpmCalloutSubscribeChanges0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmCalloutSubscribeChanges0</b> function  is used to request the delivery of notifications regarding changes in a particular callout.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param subscription [in]
 
 Type: [FWPM_CALLOUT_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0)*</b>
 
 The notifications which will be delivered.
-
 
 ### -param callback [in]
 
@@ -78,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-
 
 Function pointer that will be invoked when a notification is ready for delivery.
 
-
 ### -param context [in, optional]
 
 Type: <b>void*</b>
 
-Optional context pointer. This pointer is passed to the <i>callback</i> function along with details of the change. 
-
+Optional context pointer. This pointer is passed to the <i>callback</i> function along with details of the change.
 
 ### -param changeHandle [out]
 
@@ -92,10 +84,7 @@ Type: <b>HANDLE*</b>
 
 Handle to the newly created subscription.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -141,14 +130,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Subscribers do not receive notifications for changes made with the same session handle used to subscribe. This is because subscribers only need  to see changes made by others since they already know which changes they made themselves.
 
@@ -161,13 +144,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 <b>FwpmCalloutSubscribeChanges0</b> is a specific implementation of FwpmCalloutSubscribeChanges. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_callout_change_callback0">FWPM_CALLOUT_CHANGE_CALLBACK0</a>
 
@@ -178,7 +155,4 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutunsubscribechanges0">FwpmCalloutUnsubscribeChanges0</a>
- 
-
- 
 

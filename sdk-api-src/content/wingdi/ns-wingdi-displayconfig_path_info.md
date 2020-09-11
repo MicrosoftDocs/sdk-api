@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: e218c36d-60d5-42c8-9443-419a388a2b8d
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_2953f0bc-d985-40e0-894d-9fe2593061ed.xml, DISPLAYCONFIG_PATH_INFO, DISPLAYCONFIG_PATH_INFO structure [Display Devices], display.displayconfig_path_info, wingdi/DISPLAYCONFIG_PATH_INFO
-f1_keywords:
-- wingdi/DISPLAYCONFIG_PATH_INFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wingdi.h
-api_name:
-- DISPLAYCONFIG_PATH_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PATH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DISPLAYCONFIG_PATH_INFO
+ - wingdi/DISPLAYCONFIG_PATH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wingdi.h
+api_name:
+ - DISPLAYCONFIG_PATH_INFO
 ---
 
 # DISPLAYCONFIG_PATH_INFO structure
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DISPLAYCONFIG_PATH_INFO structure is used to describe a single path from a target to a source.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sourceInfo
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a> structure that contains the source information for the path.
 
-
 ### -field targetInfo
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a> structure that contains the target information for the path.
-
 
 ### -field flags
 
@@ -86,11 +80,7 @@ Set by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuse
 
 Set by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path supports the virtual mode. Supported starting in Windows 10.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
 
@@ -105,7 +95,4 @@ Set by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuse
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdisplayconfig">SetDisplayConfig</a>
- 
-
- 
 

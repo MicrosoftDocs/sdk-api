@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 309ac107-175b-489e-b428-b87bc4204f34
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_ATR_STRING, SCARD_ATTR_CHANNEL_ID, SCARD_ATTR_CHARACTERISTICS, SCARD_ATTR_CURRENT_BWT, SCARD_ATTR_CURRENT_CLK, SCARD_ATTR_CURRENT_CWT, SCARD_ATTR_CURRENT_D, SCARD_ATTR_CURRENT_EBC_ENCODING, SCARD_ATTR_CURRENT_F, SCARD_ATTR_CURRENT_IFSC, SCARD_ATTR_CURRENT_IFSD, SCARD_ATTR_CURRENT_N, SCARD_ATTR_CURRENT_PROTOCOL_TYPE, SCARD_ATTR_CURRENT_W, SCARD_ATTR_DEFAULT_CLK, SCARD_ATTR_DEFAULT_DATA_RATE, SCARD_ATTR_DEVICE_FRIENDLY_NAME, SCARD_ATTR_DEVICE_IN_USE, SCARD_ATTR_DEVICE_SYSTEM_NAME, SCARD_ATTR_DEVICE_UNIT, SCARD_ATTR_ICC_INTERFACE_STATUS, SCARD_ATTR_ICC_PRESENCE, SCARD_ATTR_ICC_TYPE_PER_ATR, SCARD_ATTR_MAX_CLK, SCARD_ATTR_MAX_DATA_RATE, SCARD_ATTR_MAX_IFSD, SCARD_ATTR_POWER_MGMT_SUPPORT, SCARD_ATTR_PROTOCOL_TYPES, SCARD_ATTR_VENDOR_IFD_SERIAL_NO, SCARD_ATTR_VENDOR_IFD_TYPE, SCARD_ATTR_VENDOR_IFD_VERSION, SCARD_ATTR_VENDOR_NAME, SCardGetAttrib, SCardGetAttrib function [Security], _smart_scardgetattrib, security.scardgetattrib, winscard/SCardGetAttrib
-f1_keywords:
-- winscard/SCardGetAttrib
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardGetAttrib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardGetAttrib
+ - winscard/SCardGetAttrib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardGetAttrib
 ---
 
 # SCardGetAttrib function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardGetAttrib</b> function retrieves the current reader attributes for the given handle. It does not affect the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>, driver, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">card</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCard [in]
 
 Reference value returned from <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
-
 
 ### -param dwAttrId [in]
 
@@ -450,23 +445,17 @@ Vendor name.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbAttr [out]
 
 Pointer to a buffer that receives the attribute whose ID is supplied in <i>dwAttrId</i>. If this value is <b>NULL</b>, <b>SCardGetAttrib</b> ignores the buffer length supplied in <i>pcbAttrLen</i>, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>pcbAttrLen</i>, and returns a success code.
-
 
 ### -param pcbAttrLen [in, out]
 
 Length of the <i>pbAttr</i> buffer in bytes, and receives the actual length of the received attribute If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>pbAttr</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory containing the attribute. This block of memory must be deallocated with 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>.
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -510,14 +499,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SCardGetAttrib</b> function is a direct card access function. For more information on other direct access functions, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
@@ -563,14 +546,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
@@ -581,7 +557,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardsetattrib">SCardSetAttrib</a>
- 
-
- 
 

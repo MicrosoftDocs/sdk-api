@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 46af5ba7-c362-4cfd-ae6d-b698c6403a65
 ms.date: 12/05/2018
 ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], IMFRemoteProxy interface [Media Foundation],described, mf.imfremoteproxy, mfidl/IMFRemoteProxy
-f1_keywords:
-- mfidl/IMFRemoteProxy
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFRemoteProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRemoteProxy
+ - mfidl/IMFRemoteProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFRemoteProxy
 ---
 
 # IMFRemoteProxy interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposed by objects that act as a proxy for a remote object. To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MF_REMOTE_PROXY.
-
 
 ## -inheritance
 
@@ -87,20 +86,13 @@ Retrieves a pointer to the remote object for which this object is a proxy.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
- 
-
- 
 

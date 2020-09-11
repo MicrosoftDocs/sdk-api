@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 4df914ab-59b0-4110-bc81-59e5f6722b8d
 ms.date: 12/05/2018
 ms.keywords: '*PADDRINFOA, ADDRINFOA, ADDRINFOA structure [Winsock], AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, PADDRINFOA, PADDRINFOA structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_addrinfo_2, addrinfo, addrinfo structure [Winsock], winsock.addrinfo_2, ws2def/PADDRINFOA, ws2def/addrinfo, ws2tcpip/PADDRINFOA, ws2tcpip/addrinfo, wspiapi/PADDRINFOA, wspiapi/addrinfo'
-f1_keywords:
-- ws2def/ADDRINFOA
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2tcpip.h
-- ws2def.h
-- Wspiapi.h
-api_name:
-- ADDRINFOA
 targetos: Windows
 req.typenames: ADDRINFOA, *PADDRINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - addrinfo
+ - ws2def/addrinfo
+ - PADDRINFOA
+ - ws2def/PADDRINFOA
+ - ADDRINFOA
+ - ws2def/ADDRINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2tcpip.h
+ - ws2def.h
+ - Wspiapi.h
+api_name:
+ - ADDRINFOA
 ---
 
 # ADDRINFOA structure
@@ -51,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>addrinfo</b> structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function to hold host address information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ai_flags
 
@@ -222,8 +222,6 @@ This option is supported on Windows 7, Windows Server 2008 R2,  and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ai_family
 
@@ -310,8 +308,6 @@ The Bluetooth address family. This address family is only supported if a Bluetoo
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ai_socktype
 
@@ -389,7 +385,6 @@ In Windows Sockets 2, new socket types were introduced. An application can dynam
 
 In Windows Sockets 1.1, the only possible socket types are  <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>.
 
-
 ### -field ai_protocol
 
 Type: <b>int</b>
@@ -446,20 +441,17 @@ The PGM protocol for reliable multicast. This is a possible value when the <b>ai
 
 If the <b>ai_family</b> member is <b>AF_IRDA</b>, then the <b>ai_protocol</b> must be 0.
 
-
 ### -field ai_addrlen
 
 Type: <b>size_t</b>
 
 The length, in bytes, of the buffer pointed to by the <b>ai_addr</b> member.
 
-
 ### -field ai_canonname
 
 Type: <b>char*</b>
 
 The canonical name for the host.
-
 
 ### -field ai_addr
 
@@ -468,7 +460,6 @@ Type: <b>struct sockaddr*</b>
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfo</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfo</b> structure is specified in the <b>ai_addrlen</b> member.
 
-
 ### -field ai_next
 
 Type: <b>struct addrinfo*</b>
@@ -476,10 +467,7 @@ Type: <b>struct addrinfo*</b>
 A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
 <b>addrinfo</b> structure of a linked list.
 
-
 ## -remarks
-
-
 
 The 
 <b>addrinfo</b> structure is used by the 
@@ -685,14 +673,7 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
@@ -715,7 +696,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

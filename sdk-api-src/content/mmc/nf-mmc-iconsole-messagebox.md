@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 37F5BF57-A2F6-41BB-822D-298BBCF28B45
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],MessageBox method, IConsole.MessageBox, IConsole::MessageBox, MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONEXCLAMATION,MB_ICONWARNING, MB_ICONINFORMATION,MB_ICONASTERISK, MB_ICONQUESTION, MB_ICONSTOP,MB_ICONERROR,MB_ICONHAND, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SERVICE_NOTIFICATION_NT3x, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox method [MMC], MessageBox method [MMC],IConsole interface, mmc.iconsole_messagebox, mmc/IConsole::MessageBox
-f1_keywords:
-- mmc/IConsole.MessageBox
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole.MessageBox
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole::MessageBox
+ - mmc/IConsole::MessageBox
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole.MessageBox
 ---
 
 # IConsole::MessageBox
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a message box.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszText [in]
 
 A pointer to a null-terminated string that contains the message to be displayed.
 
-
 ### -param lpszTitle [in]
 
 A pointer to a null-terminated string used for the message box title. If this parameter is <b>NULL</b>, the default title "Error" is used.
-
 
 ### -param fuStyle [in]
 
@@ -242,24 +236,15 @@ For more information about using this flag, see the <a href="https://docs.micros
 
 This value corresponds to the value defined for <b>MB_SERVICE_NOTIFICATION</b> for earlier versions of Windows.
 
-
 ### -param piRetval [out]
 
 A pointer to the return value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 <b>MessageBox</b> should not be used for that displays errors that occur when the snap-in does not have the focus. Generally, 
 
@@ -268,16 +253,7 @@ This method can return one of these values.
 In most cases, the MMC message OCX control is a more appropriate way of that displays error messages. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
- 
-
- 
 

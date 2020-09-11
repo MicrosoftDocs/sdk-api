@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 4675eebf-80d7-4412-b3f1-ec54b977db31
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player],described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
-f1_keywords:
-- wmp/IWMPErrorItem
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPErrorItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPErrorItem
+ - wmp/IWMPErrorItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPErrorItem
 ---
 
 # IWMPErrorItem interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPErrorItem</b> interface provides a way to access error information.
-
-
-
 
 ## -inheritance
 
@@ -133,20 +129,13 @@ Retrieve a pointer to an <b>IWMPErrorItem</b> interface with the following metho
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item">get_item</a>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem2">IWMPErrorItem2 Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

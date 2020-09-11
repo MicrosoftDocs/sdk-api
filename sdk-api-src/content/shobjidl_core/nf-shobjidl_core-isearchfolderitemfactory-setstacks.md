@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d2f3d975-b968-4491-868f-90eccb40e8e4
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetStacks method, ISearchFolderItemFactory.SetStacks, ISearchFolderItemFactory::SetStacks, SetStacks, SetStacks method [Windows Shell], SetStacks method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetStacks, shell.ISearchFolderItemFactory_SetStacks, shobjidl_core/ISearchFolderItemFactory::SetStacks
-f1_keywords:
-- shobjidl_core/ISearchFolderItemFactory.SetStacks
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ISearchFolderItemFactory.SetStacks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchFolderItemFactory::SetStacks
+ - shobjidl_core/ISearchFolderItemFactory::SetStacks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ISearchFolderItemFactory.SetStacks
 ---
 
 # ISearchFolderItemFactory::SetStacks
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a list of stack keys, as specified. If this method is not called, by default the folder will not be stacked.
 
-
 ## -parameters
-
-
-
 
 ### -param cStackKeys [in]
 
@@ -64,21 +60,15 @@ Type: <b>UINT</b>
 
 The number of stacks keys.
 
-
 ### -param rgStackKeys [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures containing stack key information.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-
-
 

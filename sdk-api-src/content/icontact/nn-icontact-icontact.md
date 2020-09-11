@@ -8,10 +8,6 @@ tech.root: wincontacts
 ms.assetid: 9dc97b84-ede9-4ec1-939a-2b13e0d68486
 ms.date: 12/05/2018
 ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
-f1_keywords:
-- icontact/IContact
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContact
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContact
+ - icontact/IContact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContact
 ---
 
 # IContact interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Do not use. Defines methods for reading and writing properties for a single contact. 
-
+Do not use. Defines methods for reading and writing properties for a single contact.
 
 ## -inheritance
 
@@ -95,12 +94,9 @@ Retrieves the file system path used to load this contact.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Classes that implement this interface often also implement these interfaces:
             
@@ -123,5 +119,4 @@ Classes that implement this interface often also implement these interfaces:
 <li>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactproperties">IContactProperties</a>: Enables manipulation of contact properties.</li>
 </ul>
-
 

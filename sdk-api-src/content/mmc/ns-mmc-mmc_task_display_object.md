@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad
 ms.date: 12/05/2018
 ms.keywords: MMC_TASK_DISPLAY_OBJECT, MMC_TASK_DISPLAY_OBJECT structure [MMC], _slate_mmc_task_display_object, mmc.mmc_task_display_object, mmc/MMC_TASK_DISPLAY_OBJECT
-f1_keywords:
-- mmc/MMC_TASK_DISPLAY_OBJECT
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- MMC_TASK_DISPLAY_OBJECT
 targetos: Windows
 req.typenames: MMC_TASK_DISPLAY_OBJECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MMC_TASK_DISPLAY_OBJECT
+ - mmc/_MMC_TASK_DISPLAY_OBJECT
+ - MMC_TASK_DISPLAY_OBJECT
+ - mmc/MMC_TASK_DISPLAY_OBJECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - MMC_TASK_DISPLAY_OBJECT
 ---
 
 # MMC_TASK_DISPLAY_OBJECT structure
 
 
 ## -description
-
 
 The 
 <b>MMC_TASK_DISPLAY_OBJECT</b> structure is introduced in MMC 1.1.
@@ -65,20 +67,14 @@ For that which displays the background image, the
 <b>MMC_TASK_DISPLAY_OBJECT</b> structure is filled in by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">IExtendTaskPad::GetBackground</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field eDisplayType
 
 Value of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a> that specifies the type of image displayed as the background. The image can be one of three types: symbol, GIF, or bitmap.
 
-
 ### -field uBitmap
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_bitmap">MMC_TASK_DISPLAY_BITMAP</a> structure that contains the resource paths to the image files of the image type specified by <b>eDisplayType</b>. 
 <b>MMC_TASK_DISPLAY_BITMAP</b> contains the paths to the two images used when the user moves the mouse over a task and when the task is deselected.
@@ -97,16 +93,11 @@ The <b>MMC_TASK_DISPLAY_TYPE_BITMAP</b> value indicates that a non-transparent i
 
 ### -field uSymbol
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a> structure that contains the font name, EOT (embedded OpenType) resource path, and characters to display as the image.
 
 The <b>uSymbol</b> is used only if <b>eDisplayType</b> is <b>MMC_TASK_DISPLAY_TYPE_SYMBOL</b>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a>
 
@@ -129,7 +120,4 @@ The <b>uSymbol</b> is used only if <b>eDisplayType</b> is <b>MMC_TASK_DISPLAY_TY
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 28ca98e5-911b-436d-a592-781b832ca6cc
 ms.date: 12/05/2018
 ms.keywords: WsCheckMustUnderstandHeaders, WsCheckMustUnderstandHeaders function [Web Services for Windows], webservices/WsCheckMustUnderstandHeaders, wsw.wscheckmustunderstandheaders
-f1_keywords:
-- webservices/WsCheckMustUnderstandHeaders
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCheckMustUnderstandHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCheckMustUnderstandHeaders
+ - webservices/WsCheckMustUnderstandHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCheckMustUnderstandHeaders
 ---
 
 # WsCheckMustUnderstandHeaders function
@@ -49,37 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Verifies that the specified headers were understood by the receiver. 
             <div class="alert"><b>Note</b>  This function should be called after all headers have been read for a received
                 message.  </div>
 <div> </div>
 
-
-
-
-
 ## -parameters
-
-
-
 
 ### -param message [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure containing the headers to be understood.
-            
-
 
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  where additional error information is stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -146,14 +132,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because the set of headers is extensible, it is necessary to determine whether a message has  been sufficiently understood to be processed. Therefore, the sender can use this function to indicate which headers must be understood, which headers can be treated as optional or informational.
 
@@ -171,9 +151,5 @@ The function will fail if any of the specified headers were not understood. If a
 
 
 
-The message must be in the WS_MESSAGE_STATE_READING state. 
-
-
-
-
+The message must be in the WS_MESSAGE_STATE_READING state.
 

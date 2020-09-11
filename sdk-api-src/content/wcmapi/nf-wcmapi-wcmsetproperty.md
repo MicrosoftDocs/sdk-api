@@ -8,10 +8,6 @@ tech.root: wcm
 ms.assetid: 79985d5e-a6a1-447c-b12e-11c6022c19a6
 ms.date: 12/05/2018
 ms.keywords: WcmSetProperty, WcmSetProperty function [Windows Connection Manager], wcm.wcmsetproperty, wcmapi/WcmSetProperty
-f1_keywords:
-- wcmapi/WcmSetProperty
-dev_langs:
-- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wcmapi.lib
 req.dll: Wcmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wcmapi.dll
-- Ext-MS-Win-networking-wcmapi-l1-1-0.dll
-api_name:
-- WcmSetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WcmSetProperty
+ - wcmapi/WcmSetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wcmapi.dll
+ - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+api_name:
+ - WcmSetProperty
 ---
 
 # WcmSetProperty function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WcmSetProperty</b> function sets the value of a WCM property.
 
-
 ## -parameters
-
-
-
 
 ### -param pInterface [in, optional]
 
@@ -65,13 +61,11 @@ Type: <b>const GUID*</b>
 
 The interface to set. For global properties, this parameter is NULL.
 
-
 ### -param strProfileName [in, optional]
 
 Type: <b>LPCWSTR</b>
 
 The profile name.
-
 
 ### -param Property [in]
 
@@ -79,13 +73,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmap
 
 The WCM property to set.
 
-
 ### -param pReserved
 
 Type: <b>PVOID</b>
 
 Reserved.
-
 
 ### -param dwDataSize [in]
 
@@ -93,28 +85,19 @@ Type: <b>DWORD</b>
 
 The size of the new property value.
 
-
 ### -param pbData [in, optional]
 
 Type: <b>const BYTE*</b>
 
 The new property value.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
 Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The type of data stored in the <i>pbData</i> parameter will vary, depending on which property is being set. This table shows the data type of each property.
 
@@ -164,22 +147,12 @@ The type of data stored in the <i>pbData</i> parameter will vary, depending on w
 <td>Variable-length XML string. See the <a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/hotspotprofile/schema-root">HotSpotProfile schema</a> for more information.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/hotspotprofile/schema-root">HotSpotProfile schema</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_property">WCM_PROPERTY</a>
- 
-
- 
 

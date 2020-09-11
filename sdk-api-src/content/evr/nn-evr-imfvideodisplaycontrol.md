@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: db9b4663-9240-484f-8c47-cb1f5daa238d
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], IMFVideoDisplayControl interface [Media Foundation],described, db9b4663-9240-484f-8c47-cb1f5daa238d, evr/IMFVideoDisplayControl, mf.imfvideodisplaycontrol
-f1_keywords:
-- evr/IMFVideoDisplayControl
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl
+ - evr/IMFVideoDisplayControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl
 ---
 
 # IMFVideoDisplayControl interface
 
 
 ## -description
-
 
 Controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) displays video.
 
@@ -64,7 +64,6 @@ The EVR presenter implements this interface. To get a pointer to the interface, 
 <li>The EVR presenter.
             </li>
 </ul>If you implement a custom presenter for the EVR, the presenter can optionally expose this interface as a service.
-
 
 ## -inheritance
 
@@ -241,13 +240,9 @@ Sets the clipping window for the video.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
@@ -262,7 +257,4 @@ Sets the clipping window for the video.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
 

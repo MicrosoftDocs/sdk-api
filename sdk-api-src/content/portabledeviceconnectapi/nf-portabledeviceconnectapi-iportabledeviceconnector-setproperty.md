@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 045268e1-3e91-41a9-a14e-eb20b8a707e4
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceConnector interface [Windows Portable Devices SDK],SetProperty method, IPortableDeviceConnector.SetProperty, IPortableDeviceConnector::SetProperty, SetProperty, SetProperty method [Windows Portable Devices SDK], SetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, devpkey/IPortableDeviceConnector::SetProperty, portabledeviceconnectapi/IPortableDeviceConnector::SetProperty, wpdsdk.iportabledeviceconnector_setproperty
-f1_keywords:
-- portabledeviceconnectapi/IPortableDeviceConnector.SetProperty
-dev_langs:
-- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGuids.lib
-- PortableDeviceGuids.dll
-api_name:
-- IPortableDeviceConnector.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceConnector::SetProperty
+ - portabledeviceconnectapi/IPortableDeviceConnector::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGuids.lib
+ - PortableDeviceGuids.dll
+api_name:
+ - IPortableDeviceConnector.SetProperty
 ---
 
 # IPortableDeviceConnector::SetProperty
@@ -50,38 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProperty</b> method sets the given property on the MTP/Bluetooth Bus Enumerator device.
 
-
 ## -parameters
-
-
-
 
 ### -param pPropertyKey [in]
 
 A pointer to a property key for the given property.
 
-
 ### -param PropertyType [in]
 
 The property type.
-
 
 ### -param pData [in]
 
 A pointer to the property data.
 
-
 ### -param cbData [in]
 
 The size (in bytes) of the property data.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,27 +103,12 @@ The specified property key is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Before calling this method, an application must verify that it has Administrator user rights.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
- 
-
- 
 

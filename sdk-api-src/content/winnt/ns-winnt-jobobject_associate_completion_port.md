@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 18120d81-5480-4e0d-8422-0366a6811319
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer, _JOBOBJECT_ASSOCIATE_COMPLETION_PORT, _win32_jobobject_associate_completion_port_str, base.jobobject_associate_completion_port_str, winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT, winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT'
-f1_keywords:
-- winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- JOBOBJECT_ASSOCIATE_COMPLETION_PORT
 targetos: Windows
 req.typenames: JOBOBJECT_ASSOCIATE_COMPLETION_PORT, *PJOBOBJECT_ASSOCIATE_COMPLETION_PORT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JOBOBJECT_ASSOCIATE_COMPLETION_PORT
+ - winnt/_JOBOBJECT_ASSOCIATE_COMPLETION_PORT
+ - PJOBOBJECT_ASSOCIATE_COMPLETION_PORT
+ - winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT
+ - JOBOBJECT_ASSOCIATE_COMPLETION_PORT
+ - winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - JOBOBJECT_ASSOCIATE_COMPLETION_PORT
 ---
 
 # JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used to associate a completion port with a job. You can associate one completion port with a job. 
-
+Contains information used to associate a completion port with a job. You can associate one completion port with a job.
 
 ## -struct-fields
-
-
-
 
 ### -field CompletionKey
 
 The value to use in the <i>dwCompletionKey</i> parameter of 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> when messages are sent on behalf of the job.
-
 
 ### -field CompletionPort
 
@@ -70,10 +69,7 @@ The completion port to use in the <i>CompletionPort</i> parameter of the <a href
 
 <b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>Specify <b>NULL</b> to remove the association between the current completion port and the job.
 
-
 ## -remarks
-
-
 
 The system sends messages to the I/O completion port associated with a job when certain events occur. If the job is nested, the message is sent to every I/O completion port associated with any job in the parent job chain of the job that triggered the message. All messages are sent directly from the job as if the job had called the 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. 
@@ -234,13 +230,7 @@ The following exit codes indicate an abnormal exit:
 
 You must be cautious when using the JOB_OBJECT_MSG_NEW_PROCESS and JOB_OBJECT_MSG_EXIT_PROCESS messages, as race conditions may occur. For instance, if processes are actively starting and exiting within a job, and you are in the process of assigning a completion port to the job, you may miss messages for processes whose states change during the association of the completion port. For this reason, it is best to associate a completion port with a job when the job is inactive.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
@@ -251,7 +241,4 @@ You must be cautious when using the JOB_OBJECT_MSG_NEW_PROCESS and JOB_OBJECT_MS
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
 

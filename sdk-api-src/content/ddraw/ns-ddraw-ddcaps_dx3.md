@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 4ddda0a7-c0db-47cf-a908-959aabb530c6
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCAPS, *LPDDCAPS_DX3, DDCAPS, DDCAPS structure [DirectDraw], DDCAPS2_AUTOFLIPOVERLAY, DDCAPS2_CANBOBHARDWARE, DDCAPS2_CANBOBINTERLEAVED, DDCAPS2_CANBOBNONINTERLEAVED, DDCAPS2_CANCALIBRATEGAMMA, DDCAPS2_CANDROPZ16BIT, DDCAPS2_CANFLIPODDEVEN, DDCAPS2_CANMANAGETEXTURE, DDCAPS2_CANRENDERWINDOWED, DDCAPS2_CERTIFIED, DDCAPS2_COLORCONTROLOVERLAY, DDCAPS2_COLORCONTROLPRIMARY, DDCAPS2_COPYFOURCC, DDCAPS2_FLIPINTERVAL, DDCAPS2_FLIPNOVSYNC, DDCAPS2_NO2DDURING3DSCENE, DDCAPS2_NONLOCALVIDMEM, DDCAPS2_NONLOCALVIDMEMCAPS, DDCAPS2_NOPAGELOCKREQUIRED, DDCAPS2_PRIMARYGAMMA, DDCAPS2_STEREO, DDCAPS2_TEXMANINNONLOCALVIDMEM, DDCAPS2_VIDEOPORT, DDCAPS2_WIDESURFACES, DDCAPS_3D, DDCAPS_ALIGNBOUNDARYDEST, DDCAPS_ALIGNBOUNDARYSRC, DDCAPS_ALIGNSIZEDEST, DDCAPS_ALIGNSIZESRC, DDCAPS_ALIGNSTRIDE, DDCAPS_ALPHA, DDCAPS_BANKSWITCHED, DDCAPS_BLT, DDCAPS_BLTCOLORFILL, DDCAPS_BLTDEPTHFILL, DDCAPS_BLTFOURCC, DDCAPS_BLTQUEUE, DDCAPS_BLTSTRETCH, DDCAPS_CANBLTSYSMEM, DDCAPS_CANCLIP, DDCAPS_CANCLIPSTRETCHED, DDCAPS_COLORKEY, DDCAPS_COLORKEYHWASSIST, DDCAPS_DX3, DDCAPS_GDI, DDCAPS_NOHARDWARE, DDCAPS_OVERLAY, DDCAPS_OVERLAYCANTCLIP, DDCAPS_OVERLAYFOURCC, DDCAPS_OVERLAYSTRETCH, DDCAPS_PALETTE, DDCAPS_PALETTEVSYNC, DDCAPS_READSCANLINE, DDCAPS_VBI, DDCAPS_ZBLTS, DDCAPS_ZOVERLAYS, DDCKEYCAPS_DESTBLT, DDCKEYCAPS_DESTBLTCLRSPACE, DDCKEYCAPS_DESTBLTCLRSPACEYUV, DDCKEYCAPS_DESTBLTYUV, DDCKEYCAPS_DESTOVERLAY, DDCKEYCAPS_DESTOVERLAYCLRSPACE, DDCKEYCAPS_DESTOVERLAYCLRSPACEYUV, DDCKEYCAPS_DESTOVERLAYONEACTIVE, DDCKEYCAPS_DESTOVERLAYYUV, DDCKEYCAPS_NOCOSTOVERLAY, DDCKEYCAPS_SRCBLT, DDCKEYCAPS_SRCBLTCLRSPACE, DDCKEYCAPS_SRCBLTCLRSPACEYUV, DDCKEYCAPS_SRCBLTYUV, DDCKEYCAPS_SRCOVERLAY, DDCKEYCAPS_SRCOVERLAYCLRSPACE, DDCKEYCAPS_SRCOVERLAYCLRSPACEYUV, DDCKEYCAPS_SRCOVERLAYONEACTIVE, DDCKEYCAPS_SRCOVERLAYYUV, DDFXALPHACAPS_BLTALPHAEDGEBLEND, DDFXALPHACAPS_BLTALPHAPIXELS, DDFXALPHACAPS_BLTALPHAPIXELSNEG, DDFXALPHACAPS_BLTALPHASURFACES, DDFXALPHACAPS_BLTALPHASURFACESNEG, DDFXALPHACAPS_OVERLAYALPHAEDGEBLEND, DDFXALPHACAPS_OVERLAYALPHAPIXELS, DDFXALPHACAPS_OVERLAYALPHAPIXELSNEG, DDFXALPHACAPS_OVERLAYALPHASURFACES, DDFXALPHACAPS_OVERLAYALPHASURFACESNEG, DDFXCAPS_BLTALPHA, DDFXCAPS_BLTARITHSTRETCHY, DDFXCAPS_BLTARITHSTRETCHYN, DDFXCAPS_BLTFILTER, DDFXCAPS_BLTMIRRORLEFTRIGHT, DDFXCAPS_BLTMIRRORUPDOWN, DDFXCAPS_BLTROTATION, DDFXCAPS_BLTROTATION90, DDFXCAPS_BLTSHRINKX, DDFXCAPS_BLTSHRINKXN, DDFXCAPS_BLTSHRINKY, DDFXCAPS_BLTSHRINKYN, DDFXCAPS_BLTSTRETCHX, DDFXCAPS_BLTSTRETCHXN, DDFXCAPS_BLTSTRETCHY, DDFXCAPS_BLTSTRETCHYN, DDFXCAPS_BLTTRANSFORM, DDFXCAPS_OVERLAYALPHA, DDFXCAPS_OVERLAYARITHSTRETCHY, DDFXCAPS_OVERLAYARITHSTRETCHYN, DDFXCAPS_OVERLAYFILTER, DDFXCAPS_OVERLAYMIRRORLEFTRIGHT, DDFXCAPS_OVERLAYMIRRORUPDOWN, DDFXCAPS_OVERLAYSHRINKX, DDFXCAPS_OVERLAYSHRINKXN, DDFXCAPS_OVERLAYSHRINKY, DDFXCAPS_OVERLAYSHRINKYN, DDFXCAPS_OVERLAYSTRETCHX, DDFXCAPS_OVERLAYSTRETCHXN, DDFXCAPS_OVERLAYSTRETCHY, DDFXCAPS_OVERLAYSTRETCHYN, DDFXCAPS_OVERLAYTRANSFORM, DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, DDSVCAPS_RESERVED1,DDSVCAPS_RESERVED2,DDSVCAPS_RESERVED3,DDSVCAPS_RESERVED4, DDSVCAPS_STEREOSEQUENTIAL, LPDDCAPS, LPDDCAPS structure pointer [DirectDraw], ddraw/DDCAPS, ddraw/LPDDCAPS, directdraw.ddcaps'
-f1_keywords:
-- ddraw/DDCAPS
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ddraw.h
-api_name:
-- DDCAPS
 targetos: Windows
 req.typenames: DDCAPS_DX3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDCAPS_DX3
+ - ddraw/_DDCAPS_DX3
+ - DDCAPS_DX3
+ - ddraw/DDCAPS_DX3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ddraw.h
+api_name:
+ - DDCAPS
 ---
 
 # DDCAPS_DX3 structure
@@ -49,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DDCAPS structure represents the capabilities of the hardware exposed through the DirectDraw object. This structure contains a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure used in this context to describe what kinds of DirectDrawSurface objects can be created. It might not be possible to create all the surfaces described by these capabilities simultaneously. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> method.
 
 
 
 The Ddraw.h header file contains multiple versions of this structure (for example, DDCAPS_DX7). For more information about how to determine which version to use, see Remarks.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
-
 
 ### -field dwCaps
 
@@ -259,7 +256,6 @@ Supports the use of z-buffers with bitblt operations.
 
 Supports the use of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder">IDirectDrawSurface7::UpdateOverlayZOrder</a> method as a z-value for overlays to control their layering.
 
-
 ### -field dwCaps2
 
 This value consists of one or more of the following flags that specify more hardware and driver capabilities:
@@ -409,7 +405,6 @@ Display hardware supports live video.
 
 The display surface supports surfaces wider than the primary surface.
 
-
 ### -field dwCKeyCaps
 
 This value consists of one or more of the following flags that specify color-key capabilities:
@@ -527,7 +522,6 @@ Supports only one active source color key value for visible overlay surfaces.
 #### DDCKEYCAPS_SRCOVERLAYYUV
 
 Supports overlaying, using the color key for the source with this overlay surface for YUV colors.
-
 
 ### -field dwFXCaps
 
@@ -725,7 +719,6 @@ Supports integer stretching (×1, ×2, and so on) of a surface along the y-axis 
 
 Supports geometric transformations (or warps) for overlay sprites. Transformations are not currently supported for explicitly displayed overlay surfaces (those displayed with calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a>).
 
-
 ### -field dwFXAlphaCaps
 
 This value consists of one or more of the following flags that specify driver alpha capabilities:
@@ -789,7 +782,6 @@ Supports alpha-only surfaces. The bit depth of an alpha-only surface can be 1, 2
 #### DDFXALPHACAPS_OVERLAYALPHASURFACESNEG
 
 Indicates that the alpha channel becomes more transparent as the alpha value increases. The depth of the alpha-channel data can be 1, 2, 4, or 8. Regardless of the depth of the alpha information, 0 is always the fully opaque value. This flag can be used only if DDCAPS_ALPHA has been set. Used for overlays.
-
 
 ### -field dwPalCaps
 
@@ -855,7 +847,6 @@ The palette is attached to the primary surface on the left. Changing the palette
 
 The palette can be modified synchronously with the monitor's refresh rate.
 
-
 ### -field dwSVCaps
 
 This value consists of one or more of the following flags that specify stereo-vision capabilities:
@@ -872,218 +863,169 @@ Reserved flags.
 
 New for DirectX 7.0. The driver can do stereo in at least one mode other than the current mode. The application can use <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdisplaymode">IDirectDraw7::GetDisplayMode</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> to get per-mode stereo information.
 
-
 ### -field dwAlphaBltConstBitDepths
 
 DDBD_2, DDBD_4, or DDBD_8. (Indicate 2, 4, or 8 bits per pixel.)
-
 
 ### -field dwAlphaBltPixelBitDepths
 
 DDBD_1, DDBD_2, DDBD_4, or DDBD_8. (Indicate 1, 2, 4, or 8 bits per pixel.)
 
-
 ### -field dwAlphaBltSurfaceBitDepths
 
 DDBD_1, DDBD_2, DDBD_4, or DDBD_8. (Indicate 1, 2, 4, or 8 bits per pixel.)
-
 
 ### -field dwAlphaOverlayConstBitDepths
 
 DDBD_2, DDBD_4, or DDBD_8. (Indicate 2, 4, or 8 bits per pixel.)
 
-
 ### -field dwAlphaOverlayPixelBitDepths
 
 DDBD_1, DDBD_2, DDBD_4, or DDBD_8. (Indicate 1, 2, 4, or 8 bits per pixel.)
-
 
 ### -field dwAlphaOverlaySurfaceBitDepths
 
 DDBD_1, DDBD_2, DDBD_4, or DDBD_8. (Indicate 1, 2, 4, or 8 bits per pixel.)
 
-
 ### -field dwZBufferBitDepths
 
 DDBD_8, DDBD_16, DDBD_24, or DDBD_32. (Indicate 8, 16, 24, or 32 bits per pixel.) This member is obsolete for DirectX 6.0 and later. Use the <b>IDirect3D7::EnumZBufferFormats</b> to retrieve information about supported depth buffer formats.
 
-
 ### -field dwVidMemTotal
 
-Total amount of display memory on the device, in bytes, minus memory reserved for the primary surface and any private data structures reserved by the driver. (This value is the same as the total video memory reported by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method.) 
-
-
+Total amount of display memory on the device, in bytes, minus memory reserved for the primary surface and any private data structures reserved by the driver. (This value is the same as the total video memory reported by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method.)
 
 ### -field dwVidMemFree
 
 Free display memory. This value equals the value in <b>dwVidMemTotal</b>, minus any memory currently allocated by the application for surfaces. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getavailablevidmem">IDirectDraw7::GetAvailableVidMem</a> method, which reports the memory available for a particular type of surface (such as a texture), this value reflects the memory available for any type of surface.
 
-
 ### -field dwMaxVisibleOverlays
 
 Maximum number of visible overlays or overlay sprites.
-
 
 ### -field dwCurrVisibleOverlays
 
 Current number of visible overlays or overlay sprites.
 
-
 ### -field dwNumFourCCCodes
 
 Number of FourCC codes.
-
 
 ### -field dwAlignBoundarySrc
 
 Source-rectangle alignment for an overlay surface, in pixels.
 
-
 ### -field dwAlignSizeSrc
 
 Source-rectangle size alignment for an overlay surface, in pixels. Overlay source rectangles must have a pixel width that is a multiple of this value.
-
 
 ### -field dwAlignBoundaryDest
 
 Destination-rectangle alignment for an overlay surface, in pixels.
 
-
 ### -field dwAlignSizeDest
 
 Destination-rectangle size alignment for an overlay surface, in pixels. Overlay destination rectangles must have a pixel width that is a multiple of this value.
-
 
 ### -field dwAlignStrideAlign
 
 Stride alignment.
 
-
 ### -field dwRops
 
 Raster operations supported.
-
 
 ### -field ddsCaps
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure that contains general surface capabilities.
 
-
 ### -field dwMinOverlayStretch
 
 Minimum overlay stretch factor, multiplied by 1000. For example, 1.3 = 1300.
-
 
 ### -field dwMaxOverlayStretch
 
 Maximum overlay stretch factor, multiplied by 1000. For example, 1.3 = 1300.
 
-
 ### -field dwMinLiveVideoStretch
 
 Obsolete; do not use.
-
 
 ### -field dwMaxLiveVideoStretch
 
 Obsolete; do not use.
 
-
 ### -field dwMinHwCodecStretch
 
 Obsolete; do not use.
-
 
 ### -field dwMaxHwCodecStretch
 
 Obsolete; do not use.
 
-
 ### -field dwReserved1
 
 Reserved
-
 
 ### -field dwReserved2
 
 Reserved
 
-
 ### -field dwReserved3
 
 Reserved
-
 
 ### -field dwSVBCaps
 
 Driver-specific capabilities for bitblts from system memory to display memory. Valid flags are identical to the bitblt-related flags that are used with the <b>dwCaps</b> member.
 
-
 ### -field dwSVBCKeyCaps
 
-Driver color-key capabilities for bitblts from system memory to display memory. Valid flags are identical to the bitblt-related flags that are used with the <b>dwCKeyCaps</b> member. 
-
-
+Driver color-key capabilities for bitblts from system memory to display memory. Valid flags are identical to the bitblt-related flags that are used with the <b>dwCKeyCaps</b> member.
 
 ### -field dwSVBFXCaps
 
 Driver FX capabilities for bitblts from system memory to display memory. Valid flags are identical to the bitblt-related flags that are used with the <b>dwFXCaps</b> member.
 
-
 ### -field dwSVBRops
 
 Raster operations supported for bitblts from system memory to display memory.
-
 
 ### -field dwVSBCaps
 
 Driver-specific capabilities for bitblts from display memory to system memory. Valid flags are identical to the bitblt-related flags that are used with the <b>dwCaps</b> member.
 
-
 ### -field dwVSBCKeyCaps
 
 Driver color-key capabilities for bitblts from display memory to system memory. Valid flags are identical to the bitblt-related flags that are used with the <b>dwCKeyCaps</b> member.
-
 
 ### -field dwVSBFXCaps
 
 Driver FX capabilities for bitblts from display memory to system memory. Valid flags are identical to the bitblt-related flags used with the <b>dwFXCaps</b> member.
 
-
 ### -field dwVSBRops
 
 Raster operations supported for bitblts from display memory to system memory.
-
 
 ### -field dwSSBCaps
 
 Driver-specific capabilities for bitblts from system memory to system memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps</b> member.
 
-
 ### -field dwSSBCKeyCaps
 
 Driver color-key capabilities for bitblts from system memory to system memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCKeyCaps</b> member.
-
 
 ### -field dwSSBFXCaps
 
 Driver FX capabilities for bitblts from system memory to system memory. Valid flags are identical to the bitblt-related flags used with the <b>dwFXCaps</b> member.
 
-
 ### -field dwSSBRops
 
 Raster operations supported for bitblts from system memory to system memory.
 
-
 ### -field dwReserved4
 
- 
-
-
 ### -field dwReserved5
-
- 
-
 
 ### -field dwReserved6
 
@@ -1136,12 +1078,7 @@ Raster operations supported for bitblts from nonlocal to local video memory.
 
 More driver-specific capabilities for bitblts from system memory to video memory. Valid flags are identical to the bitblt-related flags used with the <b>dwCaps2</b> member.
 
-
 ## -remarks
 
-
-
 For backward compatibility, the Ddraw.h header file contains multiple definitions of the DDCAPS structure. The version that passes the preprocessor is determined by the value of the DIRECTDRAW_VERSION constant.
-
-
 

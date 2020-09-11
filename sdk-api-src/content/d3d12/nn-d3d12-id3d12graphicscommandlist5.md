@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12GraphicsCommandList5"]
 tech.root: direct3d12
 ms.date: 05/20/2019
 ms.keywords: ID3D12GraphicsCommandList5
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList5
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -24,14 +20,19 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12GraphicsCommandList5
+ - d3d12/ID3D12GraphicsCommandList5
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- ID3D12GraphicsCommandList5
+ - ID3D12GraphicsCommandList5
 ---
 
 ## -description
@@ -56,3 +57,4 @@ The **ID3D12GraphicsCommandList5** interface has these methods.
 ## -see-also
 
 [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs)
+

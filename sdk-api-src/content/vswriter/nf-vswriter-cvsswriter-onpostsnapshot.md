@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d97d4246-882e-49c3-a214-d8d3887c1508
 ms.date: 12/05/2018
 ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnapshot, CVssWriter::OnPostSnapshot, OnPostSnapshot, OnPostSnapshot method [VSS], OnPostSnapshot method [VSS],CVssWriter class, _win32_cvsswriter_onpostsnapshot, base.cvsswriter_onpostsnapshot, vswriter/CVssWriter::OnPostSnapshot
-f1_keywords:
-- vswriter/CVssWriter.OnPostSnapshot
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnPostSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnPostSnapshot
+ - vswriter/CVssWriter::OnPostSnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnPostSnapshot
 ---
 
 # CVssWriter::OnPostSnapshot
 
 
 ## -description
-
 
 The <b>OnPostSnapshot</b> method is called by a 
     writer following a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> 
@@ -59,11 +59,7 @@ The <b>OnPostSnapshot</b> method is called by a
     implemented by the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class but can be 
     overridden by derived classes.
 
-
 ## -parameters
-
-
-
 
 ### -param pComponent [in]
 
@@ -73,10 +69,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-arecomponentsselected">CVssWriter::AreComponentsSelected</a> 
       returns <b>false</b>).
 
-
 ## -returns
-
-
 
 As implemented by the base class, 
        <b>OnPostSnapshot</b> always returns <b>true</b>.
@@ -86,12 +79,7 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, the method should write an event to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The default implementation of this method by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class returns <b>true</b> without 
@@ -126,13 +114,7 @@ To retrieve the volume name of the shadow copy of a volume, perform the followin
 If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -159,7 +141,4 @@ If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: aa0ab004-3813-4339-90bb-afd9acf200c8
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list
-f1_keywords:
-- cfgmgr32/CM_Get_Device_ID_List
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CfgMgr32.dll
-- API-MS-Win-Devices-Config-L1-1-0.dll
-- API-MS-Win-Devices-Config-L1-1-1.dll
-api_name:
-- CM_Get_Device_ID_List
-- CM_Get_Device_ID_ListA
-- CM_Get_Device_ID_ListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Get_Device_ID_ListW
+ - cfgmgr32/CM_Get_Device_ID_ListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CfgMgr32.dll
+ - API-MS-Win-Devices-Config-L1-1-0.dll
+ - API-MS-Win-Devices-Config-L1-1-1.dll
+api_name:
+ - CM_Get_Device_ID_List
+ - CM_Get_Device_ID_ListA
+ - CM_Get_Device_ID_ListW
 ---
 
 # CM_Get_Device_ID_ListW function
@@ -53,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CM_Get_Device_ID_List</b> function retrieves a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance IDs</a> for the local computer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instances</a>.
-
 
 ## -parameters
 
-
-
-
 ### -param pszFilter [in, optional]
 
-Caller-supplied pointer to a character string that is either set to a subset of the computer's device instance identifiers (IDs), or to <b>NULL</b>. See the following description of <i>ulFlags</i>. 
-
+Caller-supplied pointer to a character string that is either set to a subset of the computer's device instance identifiers (IDs), or to <b>NULL</b>. See the following description of <i>ulFlags</i>.
 
 ### -param Buffer [out]
 
-Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a>. 
-
+Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a>.
 
 ### -param BufferLen [in]
 
 Caller-supplied length, in characters, of the buffer specified by <i>Buffer</i>.
-
 
 ### -param ulFlags [in]
 
@@ -230,19 +223,11 @@ The function returns the device instance identifiers of the devnodes that repres
 
 For more information about composite devnodes and transport relations, see the following <b>Remarks</b> section.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i>device and is represented by a <i>composite </i><a href="https://docs.microsoft.com/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
 
@@ -265,11 +250,5 @@ For more information about device instance IDs, see <a href="https://docs.micros
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: D2E20195-D81F-4717-83D2-BF8DC1D1779B
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetProperty method, ICertificateEnrollmentServerSetup.SetProperty, ICertificateEnrollmentServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetProperty, security.icertificateenrollmentserversetup_setproperty
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup.SetProperty
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup::SetProperty
+ - casetup/ICertificateEnrollmentServerSetup::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup.SetProperty
 ---
 
 # ICertificateEnrollmentServerSetup::SetProperty
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProperty</b> method specifies a <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param propertyId [in]
 
 A <a href="/windows/win32/api/casetup/ne-casetup-cessetupproperty">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
 
-
 ### -param pPropertyValue [in]
 
-A pointer to a <b>VARIANT</b> variable that contains the property value. 
-
+A pointer to a <b>VARIANT</b> variable that contains the property value.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -131,14 +123,8 @@ If you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, the <b>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must call  <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-initializeinstalldefaults">InitializeInstallDefaults</a> before calling <b>SetProperty</b>.
 
@@ -157,16 +143,7 @@ You cannot set the ENUM_CESSETUPPROP_CACONFIG property if the target server is a
 
 .
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
- 
-
- 
 

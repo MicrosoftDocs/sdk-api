@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: fc8c235c-92ec-448f-bbea-c93192d36beb
 ms.date: 12/05/2018
 ms.keywords: IEnumLocation, IEnumLocation interface [TAPI 2.2], IEnumLocation interface [TAPI 2.2],described, _tapi3_ienumlocation, tapi3.ienumlocation, tapi3if/IEnumLocation
-f1_keywords:
-- tapi3if/IEnumLocation
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumLocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumLocation
+ - tapi3if/IEnumLocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumLocation
 ---
 
 # IEnumLocation interface
 
 
 ## -description
-
 
 The 
 <b>IEnumLocation</b> interface provides COM-standard enumeration methods for the 
@@ -58,7 +58,6 @@ The
 
 The 
 <b>IEnumLocation</b> interface is hidden from Visual Basic and scripting languages.
-
 
 ## -inheritance
 
@@ -111,5 +110,5 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 1666bc0a-72bf-40da-b054-c10b477c4367
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterIfEx, RpcServerRegisterIfEx function [RPC], _rpc_rpcserverregisterifex, rpc.rpcserverregisterifex, rpcdce/RpcServerRegisterIfEx
-f1_keywords:
-- rpcdce/RpcServerRegisterIfEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerRegisterIfEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerRegisterIfEx
+ - rpcdce/RpcServerRegisterIfEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerRegisterIfEx
 ---
 
 # RpcServerRegisterIfEx function
@@ -49,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerRegisterIfEx</b> function registers an interface with the RPC run-time library.
 
-
 ## -parameters
-
-
-
 
 ### -param IfSpec
 
 MIDL-generated structure indicating the interface to register.
 
-
 ### -param MgrTypeUuid
 
 Pointer to a type UUID to associate with the <i>MgrEpv</i> parameter. Specifying a <b>null</b> parameter value (or a nil UUID) registers <i>IfSpec</i> with a nil-type UUID.
-
 
 ### -param MgrEpv
 
 Manager routines' entry-point vector (EPV). To use the MIDL-generated default EPV, specify a <b>null</b> value. For more information, please see <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-mgr-epv">RPC_MGR_EPV</a>.
 
-
 ### -param Flags
 
 Flags. For a list of flag values, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/interface-registration-flags">Interface Registration Flags</a>.
-
 
 ### -param MaxCalls
 
@@ -92,15 +84,11 @@ Calls on other interfaces are governed by the value of the process-wide <i>MaxCa
 
 If the number of concurrent calls is not a concern, you can achieve slightly better server-side performance by specifying the default value using RPC_C_LISTEN_MAX_CALLS_DEFAULT. Doing so relieves the RPC run-time environment from enforcing an unnecessary restriction.
 
-
 ### -param IfCallback
 
 Security-callback function, or <b>NULL</b> for no callback. Each registered interface can have a different callback function. See Remarks for more details.
 
-
 ## -returns
-
-
 
 Returns RPC_S_OK upon success.
 
@@ -108,11 +96,7 @@ Returns RPC_S_OK upon success.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The parameters and effects of 
 <b>RpcServerRegisterIfEx</b> subsume those of 
@@ -159,13 +143,7 @@ The callback function should return RPC_S_OK if the client is allowed to call me
 
 In some cases, the RPC run time may call the security-callback function more than once per client–per interface. Be sure your callback function can handle this possibility.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces">Registering Interfaces</a>
 
@@ -216,7 +194,4 @@ In some cases, the RPC run time may call the security-callback function more tha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterifex">RpcServerUnregisterIfEx</a>
- 
-
- 
 

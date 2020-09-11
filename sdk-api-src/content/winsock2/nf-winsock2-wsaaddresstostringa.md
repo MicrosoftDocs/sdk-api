@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
 ms.date: 12/05/2018
 ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddressToStringA, WSAAddressToStringW, _win32_wsaaddresstostring_2, winsock.wsaaddresstostring_2, winsock2/WSAAddressToString, winsock2/WSAAddressToStringA, winsock2/WSAAddressToStringW
-f1_keywords:
-- winsock2/WSAAddressToString
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAddressToString
-- WSAAddressToStringA
-- WSAAddressToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAddressToStringA
+ - winsock2/WSAAddressToStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAddressToString
+ - WSAAddressToStringA
+ - WSAAddressToStringW
 ---
 
 # WSAAddressToStringA function
 
 
 ## -description
-
 
 The 
 <b>WSAAddressToString</b> function converts all components of a 
@@ -59,43 +59,32 @@ The
 This is intended to be used mainly for display purposes. If the caller requires that the translation to be performed by a particular provider, it should supply the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure in the <i>lpProtocolInfo</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param lpsaAddress [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure to translate into a string.
 
-
 ### -param dwAddressLength [in]
 
 The length, in bytes, of the address in the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>lpsaAddress</i> parameter. The <i>dwAddressLength</i> parameter may vary in size with different protocols.
-
 
 ### -param lpProtocolInfo [in, optional]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure for a particular provider. If this is parameter is <b>NULL</b>, the call is routed to the provider of the first protocol supporting the address family indicated in the <i>lpsaAddress</i> parameter.
 
-
 ### -param lpszAddressString [in, out]
 
 A pointer to the buffer that receives the human-readable address string.
-
 
 ### -param lpdwAddressStringLength [in, out]
 
 On input, this parameter specifies the length of the buffer pointed to by the <i>lpszAddressString</i> parameter. The length is represented in bytes for ANSI strings, and in WCHARs for Unicode strings. On output, this parameter returns the length of the string including the <b>NULL</b> terminator actually copied into the buffer pointed to by the <i>lpszAddressString</i> parameter. If the specified buffer is not large enough, the function fails with a specific error of 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a> and this parameter is updated with the required size.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAAddressToString</b> returns a value of zero. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
@@ -152,14 +141,8 @@ The Winsock 2 DLL has not been initialized. The application must first call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAAddressToString</b> function provides a protocol-independent address-to-string translation. The 
@@ -186,9 +169,6 @@ Support for IPv6 addresses using the <b>WSAAddressToString</b> function was adde
 > The winsock2.h header defines WSAAddressToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
@@ -251,7 +231,4 @@ Support for IPv6 addresses using the <b>WSAAddressToString</b> function was adde
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

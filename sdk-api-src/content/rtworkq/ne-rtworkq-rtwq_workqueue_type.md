@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 4aab85f3-855e-4fbf-9d25-209214bdd73b
 ms.date: 12/05/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RTWQ_WORKQUEUE_TYPE, RTWQ_WORKQUEUE_TYPE enumeration, base.rtwq_workqueue_type, rtworkq/RTWQ_MULTITHREADED_WORKQUEUE, rtworkq/RTWQ_STANDARD_WORKQUEUE, rtworkq/RTWQ_WINDOW_WORKQUEUE, rtworkq/RTWQ_WORKQUEUE_TYPE
-f1_keywords:
-- rtworkq/RTWQ_WORKQUEUE_TYPE
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- RTWorkQ.h
-api_name:
-- RTWQ_WORKQUEUE_TYPE
 targetos: Windows
 req.typenames: RTWQ_WORKQUEUE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RTWQ_WORKQUEUE_TYPE
+ - rtworkq/RTWQ_WORKQUEUE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - RTWorkQ.h
+api_name:
+ - RTWQ_WORKQUEUE_TYPE
 ---
 
 # RTWQ_WORKQUEUE_TYPE enumeration
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the type of work queue for the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function to create.
 
-
 ## -enum-fields
-
-
-
 
 ### -field RTWQ_STANDARD_WORKQUEUE
 
 Create a work queue without a message loop.
 
-
 ### -field RTWQ_WINDOW_WORKQUEUE
 
 Create a work queue with a message loop.
-
 
 ### -field RTWQ_MULTITHREADED_WORKQUEUE
 

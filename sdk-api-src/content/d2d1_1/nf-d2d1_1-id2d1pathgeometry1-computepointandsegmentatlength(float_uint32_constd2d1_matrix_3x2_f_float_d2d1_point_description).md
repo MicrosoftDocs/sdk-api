@@ -7,10 +7,6 @@ tech.root: Direct2D
 ms.assetid: 4a47d928-7482-413a-ad9d-e887b309e367
 ms.date: 12/05/2018
 ms.keywords: ComputePointAndSegmentAtLength, ComputePointAndSegmentAtLength method [Direct2D], ComputePointAndSegmentAtLength method [Direct2D],ID2D1PathGeometry1 interface, ID2D1PathGeometry1 interface [Direct2D],ComputePointAndSegmentAtLength method, ID2D1PathGeometry1.ComputePointAndSegmentAtLength, ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_POINT_DESCRIPTION), ID2D1PathGeometry1::ComputePointAndSegmentAtLength, ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_POINT_DESCRIPTION), d2d1_1/ID2D1PathGeometry1::ComputePointAndSegmentAtLength, direct2d.id2d1pathgeometry1_computepointandsegmentatlength
-f1_keywords:
-- d2d1_1/ID2D1PathGeometry1.ComputePointAndSegmentAtLength
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1PathGeometry1::ComputePointAndSegmentAtLength
+ - d2d1_1/ID2D1PathGeometry1::ComputePointAndSegmentAtLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 ---
 
 # ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_POINT_DESCRIPTION)
@@ -48,38 +49,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes the point that exists at a given distance along the path geometry along with the index of the segment 
       the point is on and the directional vector at that point.
 
-
 ## -parameters
-
-
-
 
 ### -param length
 
 Type: <b>FLOAT</b>
 
 The distance to walk along the path.
-          
-
 
 ### -param startSegment
 
 Type: <b>UINT</b>
 
 The index of the segment at which to begin walking. Note: This index is global to the entire path, not just a particular figure.
-          
-
 
 ### -param worldTransform [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the path prior to walking.
-
 
 ### -param flatteningTolerance
 
@@ -89,17 +80,13 @@ The flattening tolerance to use when walking along an arc or Bezier segment. The
             error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge 
             from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution.
 
-
 ### -param pointDescription [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION</a>*</b>
 
 When this method returns, contains a description of the point that can be found at the given location.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -123,14 +110,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>One of the inputs was in an invalid range.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A <i>length</i> that is less than 0 or is not a number is treated as if it were 0.
 
@@ -195,12 +176,7 @@ You call ComputePointAndSegmentAtLength(= L3-length(AB)-length(BD), startSegment
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>
 
@@ -219,7 +195,4 @@ You call ComputePointAndSegmentAtLength(= L3-length(AB)-length(BD), startSegment
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a>
- 
-
- 
 

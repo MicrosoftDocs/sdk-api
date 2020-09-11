@@ -6,10 +6,6 @@ helpviewer_keywords: ["- IDVBCLocator"]
 tech.root: mstv
 ms.assetid: 8e26394f-6534-45d3-8918-01b4c0408f9a
 ms.date: 11/14/2019
-f1_keywords:
-- tuner/IDVBCLocator
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.redist: 
@@ -24,27 +20,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IDVBCLocator
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - IDVBCLocator
+ - tuner/IDVBCLocator
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IDVBCLocator
 ---
 
 # IDVBCLocator interface
+
 
 ## -description
 
 The <b>IDVBCLocator</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbclocator-object">DVBCLocator</a> objects, which contain tuning information for DVB-C networks.
 
-
 ## -inheritance
-IDVBCLocator interits from . 
+
+IDVBCLocator interits from .
+
 ## -members
 
 	The IDVBCLocator has no additional methods.
@@ -60,3 +63,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
+

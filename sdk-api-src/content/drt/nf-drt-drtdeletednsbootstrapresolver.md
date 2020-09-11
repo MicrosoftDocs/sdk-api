@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: fc3d0b6a-1bf3-41f9-82b6-965c285bc6c7
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteDnsBootstrapResolver, DrtDeleteDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtDeleteDnsBootstrapResolver, p2p.drtdeletednsbootstrapresolver
-f1_keywords:
-- drt/DrtDeleteDnsBootstrapResolver
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtDeleteDnsBootstrapResolver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtDeleteDnsBootstrapResolver
+ - drt/DrtDeleteDnsBootstrapResolver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtDeleteDnsBootstrapResolver
 ---
 
 # DrtDeleteDnsBootstrapResolver function
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtDeleteDnsBootstrapResolver</b> function deletes a DNS Bootstrap Provider instance.
 
-
 ## -parameters
-
-
-
 
 ### -param pResolver [in]
 
 Pointer to a DRT_BOOTSTRAP_PROVIDER instance specifying the security provider to delte.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatednsbootstrapresolver">DrtCreateDnsBootstrapResolver</a>
- 
-
- 
 

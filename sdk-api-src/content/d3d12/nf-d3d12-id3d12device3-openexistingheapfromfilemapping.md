@@ -5,10 +5,6 @@ description: Creates a special-purpose diagnostic heap in system memory from a f
 helpviewer_keywords: ["ID3D12Device3::OpenExistingHeapFromFileMapping"]
 tech.root: direct3d12
 ms.date: 02/27/2020
-f1_keywords:
- - d3d12/ID3D12Device3::OpenExistingHeapFromFileMapping
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -26,18 +22,23 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
- - ID3D12Device3::OpenExistingHeapFromFileMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device3::OpenExistingHeapFromFileMapping
+ - d3d12/ID3D12Device3::OpenExistingHeapFromFileMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12Device3::OpenExistingHeapFromFileMapping
 ---
 
 ## -description
@@ -83,3 +84,4 @@ Heaps can be used for placed and reserved resources, as orthogonally as other he
 ## -see-also
 
 [ID3D12Device3 interface](/windows/win32/api/d3d12/nn-d3d12-id3d12device3)
+

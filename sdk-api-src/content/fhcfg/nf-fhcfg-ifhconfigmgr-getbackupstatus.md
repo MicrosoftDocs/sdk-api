@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 0AC8F205-B593-4117-9059-0DDA5BBE3124
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],GetBackupStatus method, GetBackupStatus, GetBackupStatus method [Windows API], GetBackupStatus method [Windows API],FhConfigMgr class, GetBackupStatus method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetBackupStatus method, IFhConfigMgr.GetBackupStatus, IFhConfigMgr::GetBackupStatus, fhcfg/IFhConfigMgr::GetBackupStatus, winprog.ifhconfigmgr_getbackupstatus
-f1_keywords:
-- fhcfg/IFhConfigMgr.GetBackupStatus
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhConfigMgr.GetBackupStatus
-- FhConfigMgr.GetBackupStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhConfigMgr::GetBackupStatus
+ - fhcfg/IFhConfigMgr::GetBackupStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhConfigMgr.GetBackupStatus
+ - FhConfigMgr.GetBackupStatus
 ---
 
 # IFhConfigMgr::GetBackupStatus
 
 
 ## -description
-
 
 Retrieves the backup status value for an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
@@ -58,27 +58,15 @@ Retrieves the backup status value for an <a href="https://docs.microsoft.com/win
 
 ## -parameters
 
-
-
-
 ### -param BackupStatus [out]
 
 Receives the backup status value. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a> enumeration for the list of possible backup status values.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> on success, or an unsuccessful <b>HRESULT</b> value on failure. Possible unsuccessful <b>HRESULT</b> values include values defined in the FhErrors.h header file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a>
 
@@ -93,7 +81,4 @@ Receives the backup status value. See the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a>
- 
-
- 
 

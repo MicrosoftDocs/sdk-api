@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a684b373-6de4-4b4a-bbae-85e1c5a7e04a
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
-f1_keywords:
-- shobjidl_core/ISearchFolderItemFactory
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ISearchFolderItemFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchFolderItemFactory
+ - shobjidl_core/ISearchFolderItemFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ISearchFolderItemFactory
 ---
 
 # ISearchFolderItemFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes methods that create and modify search folders. The Set methods are called first to set up the parameters of the search.  When not called, default values will be used instead.  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist">ISearchFolderItemFactory::GetIDList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getshellitem">ISearchFolderItemFactory::GetShellItem</a> return the two forms of the search specified by these parameters.  
-
+Exposes methods that create and modify search folders. The Set methods are called first to set up the parameters of the search.  When not called, default values will be used instead.  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist">ISearchFolderItemFactory::GetIDList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getshellitem">ISearchFolderItemFactory::GetShellItem</a> return the two forms of the search specified by these parameters.
 
 ## -inheritance
 
@@ -177,14 +176,9 @@ Creates a new column list whose columns are all visible, given an array of <a hr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To implement this interface use class ID <b>CLSID_SearchFolderItemFactory</b>.
-
-
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e82c73e6-d32e-4875-9f9d-124a1c6ce504
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
-f1_keywords:
-- videoacc/IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
+ - videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
 ---
 
 # IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
@@ -50,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetUncompSurfacesInfo</b> method notifies the decoder of how many uncompressed surfaces were created.
 
-
 ## -parameters
-
-
-
 
 ### -param dwActualUncompSurfacesAllocated [in]
 
 The number of surfaces allocated.
-          
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. <b>HRESULT</b> can include one of the following standard constants, or other values not listed.
 
@@ -132,24 +124,12 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The video renderer calls this method after it allocates uncompressed surfaces for video decoding.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-reference">DirectShow Reference</a>
 
@@ -164,7 +144,4 @@ The video renderer calls this method after it allocates uncompressed surfaces fo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify Interface</a>
- 
-
- 
 

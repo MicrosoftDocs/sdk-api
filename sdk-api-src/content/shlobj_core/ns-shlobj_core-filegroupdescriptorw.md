@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9357ab73-086c-44db-8f89-e14240647e89
 ms.date: 12/05/2018
 ms.keywords: '*LPFILEGROUPDESCRIPTORW, FILEGROUPDESCRIPTOR, FILEGROUPDESCRIPTOR structure [Windows Shell], FILEGROUPDESCRIPTORA, FILEGROUPDESCRIPTORW, LPFILEGROUPDESCRIPTOR, LPFILEGROUPDESCRIPTOR structure pointer [Windows Shell], _FILEGROUPDESCRIPTORA, _FILEGROUPDESCRIPTORW, _win32_FILEGROUPDESCRIPTOR, shell.FILEGROUPDESCRIPTOR, shlobj_core/FILEGROUPDESCRIPTOR, shlobj_core/LPFILEGROUPDESCRIPTOR'
-f1_keywords:
-- shlobj_core/FILEGROUPDESCRIPTOR
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj_core.h
-api_name:
-- FILEGROUPDESCRIPTOR
-- FILEGROUPDESCRIPTORA
-- FILEGROUPDESCRIPTORW
 targetos: Windows
 req.typenames: FILEGROUPDESCRIPTORW, *LPFILEGROUPDESCRIPTORW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILEGROUPDESCRIPTORW
+ - shlobj_core/_FILEGROUPDESCRIPTORW
+ - LPFILEGROUPDESCRIPTORW
+ - shlobj_core/LPFILEGROUPDESCRIPTORW
+ - FILEGROUPDESCRIPTORW
+ - shlobj_core/FILEGROUPDESCRIPTORW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj_core.h
+api_name:
+ - FILEGROUPDESCRIPTOR
+ - FILEGROUPDESCRIPTORA
+ - FILEGROUPDESCRIPTORW
 ---
 
 # FILEGROUPDESCRIPTORW structure
@@ -51,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the CF_FILEGROUPDESCRIPTOR clipboard format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cItems
 
 Type: <b>UINT</b>
 
 The number of elements in <b>fgd</b>.
-
 
 ### -field fgd
 

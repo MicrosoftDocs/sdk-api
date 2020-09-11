@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 09a17e57-7224-43bc-93c7-16ab95ca2517
 ms.date: 12/05/2018
 ms.keywords: ObjectContext, ObjectContext interface [COM+], ObjectContext interface [COM+],described, _cos_ObjectContext, comsvcs/ObjectContext, cos.objectcontext
-f1_keywords:
-- comsvcs/ObjectContext
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ObjectContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectContext
+ - comsvcs/ObjectContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ObjectContext
 ---
 
 # ObjectContext interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
 
 <b>ObjectContext</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a> provide the same functionality, but unlike <b>IObjectContext</b>, <b>ObjectContext</b> is compatible with Automation.
-
 
 ## -inheritance
 
@@ -187,16 +186,9 @@ Declares that the transaction in which the object is executing can be committed 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
- 
-
- 
 

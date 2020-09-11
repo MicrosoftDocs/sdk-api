@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 7bd4be80-7459-4c3d-9da4-0580995e6db6
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], IPropertyDescriptionSearchInfo interface [Windows Properties],described, _shell_IPropertyDescriptionSearchInfo, properties.IPropertyDescriptionSearchInfo, propsys/IPropertyDescriptionSearchInfo, shell.IPropertyDescriptionSearchInfo
-f1_keywords:
-- propsys/IPropertyDescriptionSearchInfo
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescriptionSearchInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescriptionSearchInfo
+ - propsys/IPropertyDescriptionSearchInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescriptionSearchInfo
 ---
 
 # IPropertyDescriptionSearchInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes search-related information for a property. The information provided by this interface comes from the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-propertydescription">propertyDescription</a> schema, <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element for a given property. This information is used by the Windows Search Indexer. Most calling applications will not need to call this interface.
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-prop
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-propertydescription">propertyDescription</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a>
- 
-
- 
 

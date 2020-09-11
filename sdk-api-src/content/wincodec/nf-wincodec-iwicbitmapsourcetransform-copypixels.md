@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: c4c36750-bf30-4e58-aca6-bbb49c7cde4b
 ms.date: 12/05/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
-f1_keywords:
-- wincodec/IWICBitmapSourceTransform.CopyPixels
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICBitmapSourceTransform.CopyPixels
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapSourceTransform::CopyPixels
+ - wincodec/IWICBitmapSourceTransform::CopyPixels
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapSourceTransform.CopyPixels
 ---
 
 # IWICBitmapSourceTransform::CopyPixels
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies pixel data using the supplied input parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param prc [in]
 
@@ -65,20 +61,17 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/
 
 The rectangle of pixels to copy.
 
-
 ### -param uiWidth [in]
 
 Type: <b>UINT</b>
 
 The width to scale the source bitmap. This parameter must equal the value obtainable through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize">IWICBitmapSourceTransform::GetClosestSize</a>.
 
-
 ### -param uiHeight [in]
 
 Type: <b>UINT</b>
 
 The height to scale the source bitmap. This parameter must equal the value obtainable through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize">IWICBitmapSourceTransform::GetClosestSize</a>.
-
 
 ### -param pguidDstFormat [in]
 
@@ -88,7 +81,6 @@ The GUID of desired pixel format in which the pixels should be returned.
                
 
 This GUID must be a format obtained through an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat">GetClosestPixelFormat</a> call.
-
 
 ### -param dstTransform [in]
 
@@ -101,13 +93,11 @@ The transform must be an operation supported by an <a href="https://docs.microso
 
 If a <i>dstTransform</i> is specified, <i>nStride</i> is the <i>transformed stride</i> and is based on the <i>pguidDstFormat</i> pixel format, not the original source's pixel format.
 
-
 ### -param nStride [in]
 
 Type: <b>UINT</b>
 
 The <a href="https://docs.microsoft.com/">stride</a> of the destination buffer.
-
 
 ### -param cbBufferSize [in]
 
@@ -115,28 +105,19 @@ Type: <b>UINT</b>
 
 The size of the destination buffer.
 
-
 ### -param pbBuffer [out]
 
 Type: <b>BYTE*</b>
 
 The output buffer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Codec_Developer_Remarks"></a><a id="codec_developer_remarks"></a><a id="CODEC_DEVELOPER_REMARKS"></a>Codec Developer Remarks</h3>
 If NULL is passed in for <i>prc</i>, the entire image is copied.
@@ -160,16 +141,9 @@ The first parameter, <i>prc</i> is used to specify the region of interest for cl
                By convention, scaling is performed before clipping so, if the image is to be scaled as well as clipped, the region of interest should be determined after the image has been scaled.
             
 
-If a <i>dstTransform</i> is specified, the stride is the transformed stride, and is based on the pixelFormat specified in the <b>CopyPixels</b> call, not the original frame's pixel format.            
-            
-
-
-
+If a <i>dstTransform</i> is specified, the stride is the transformed stride, and is based on the pixelFormat specified in the <b>CopyPixels</b> call, not the original frame's pixel format.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -192,7 +166,4 @@ If a <i>dstTransform</i> is specified, the stride is the transformed stride, and
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-samples">Samples and Code Examples</a>
- 
-
- 
 

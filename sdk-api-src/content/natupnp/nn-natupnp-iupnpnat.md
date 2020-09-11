@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: bfd93967-a514-4301-9b1e-0fee8794d929
 ms.date: 12/05/2018
 ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], IUPnPNAT interface [ICS/ICF],described, _ics_iupnpnat, ics.iupnpnat, natupnp/IUPnPNAT
-f1_keywords:
-- natupnp/IUPnPNAT
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IUPnPNAT
-- IUPnPNAT.get_DynamicPortMappingCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPNAT
+ - natupnp/IUPnPNAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IUPnPNAT
+ - IUPnPNAT.get_DynamicPortMappingCollection
 ---
 
 # IUPnPNAT interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPNAT</b> interface is the primary interface for managing Network Address Translation (NAT) with UPnP. The 
 <b>IUPnPNAT</b> interface provides access directly or indirectly to all the other interfaces in the NAT API with UPnP technology.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Retrieves the static port mappings collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f5916b17-66ed-46d4-87f1-5ee2ef57c1a1
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDiskQuotaUsers interface [Files],described, _win32_ienumdiskquotausers, base.ienumdiskquotausers, dskquota/IEnumDiskQuotaUsers, fs.ienumdiskquotausers
-f1_keywords:
-- dskquota/IEnumDiskQuotaUsers
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IEnumDiskQuotaUsers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDiskQuotaUsers
+ - dskquota/IEnumDiskQuotaUsers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IEnumDiskQuotaUsers
 ---
 
 # IEnumDiskQuotaUsers interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates user quota entries on the volume. This interface is instantiated by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createenumusers">IDiskQuotaControl::CreateEnumUsers</a> method.
-
 
 ## -inheritance
 
@@ -105,20 +104,13 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
- 
-
- 
 

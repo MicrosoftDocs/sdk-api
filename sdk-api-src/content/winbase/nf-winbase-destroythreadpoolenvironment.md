@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: b6a635f3-a603-4c2f-9aa9-1baa51922394
 ms.date: 12/05/2018
 ms.keywords: DestroyThreadpoolEnvironment, DestroyThreadpoolEnvironment function, base.destroythreadpoolenvironment, winbase/DestroyThreadpoolEnvironment
-f1_keywords:
-- winbase/DestroyThreadpoolEnvironment
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- DestroyThreadpoolEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DestroyThreadpoolEnvironment
+ - winbase/DestroyThreadpoolEnvironment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - DestroyThreadpoolEnvironment
 ---
 
 # DestroyThreadpoolEnvironment function
@@ -49,35 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified callback environment. Call this function when the callback environment is no longer needed for creating new thread pool objects.
 
-
 ## -parameters
-
-
-
 
 ### -param pcbe [in, out]
 
 A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
 
-
 ## -remarks
-
-
 
 This function is implemented as an inline function.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a>
 
@@ -104,7 +91,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
- 
-
- 
 

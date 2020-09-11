@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: dc71d1bf-b068-42c0-a87d-ae8fac279a58
 ms.date: 12/05/2018
 ms.keywords: EraseMedia, EraseMedia method [IMAPI], EraseMedia method [IMAPI],IDiscFormat2Erase interface, IDiscFormat2Erase interface [IMAPI],EraseMedia method, IDiscFormat2Erase.EraseMedia, IDiscFormat2Erase::EraseMedia, imapi.idiscformat2erase_erasemedia, imapi2/IDiscFormat2Erase::EraseMedia
-f1_keywords:
-- imapi2/IDiscFormat2Erase.EraseMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Erase.EraseMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Erase::EraseMedia
+ - imapi2/IDiscFormat2Erase::EraseMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Erase.EraseMedia
 ---
 
 # IDiscFormat2Erase::EraseMedia
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Erases the media in the active disc recorder.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -373,14 +365,8 @@ Value: 0x80AA0906
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Synchronously erases the media.  Progress can be reported by calling into registered events of type <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2eraseevents">DDiscFormat2EraseEvents</a>.
 
@@ -400,13 +386,7 @@ This method is synchronous. To determine the progress of the erase operation, yo
 
 Currently, the E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR value is returned if an attempt to perform an erase on CD-RW or DVD-RW media via the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a> interface fails as a result of the media being bad or a drive failure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
@@ -417,7 +397,4 @@ Currently, the E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR value is returned if an a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">IDiscFormat2Erase::put_FullErase</a>
- 
-
- 
 

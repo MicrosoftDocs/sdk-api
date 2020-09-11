@@ -8,10 +8,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0coi.htm
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idxs_DBCONTENTVECTOR, cmdtree/DBCONTENTVECTOR, indexsrv.dbcontentvector, tagDBCONTENTVECTOR
-f1_keywords:
-- cmdtree/DBCONTENTVECTOR
-dev_langs:
-- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- cmdtree.h
-api_name:
-- DBCONTENTVECTOR
 targetos: Windows
 req.typenames: DBCONTENTVECTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagDBCONTENTVECTOR
+ - cmdtree/tagDBCONTENTVECTOR
+ - DBCONTENTVECTOR
+ - cmdtree/DBCONTENTVECTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - cmdtree.h
+api_name:
+ - DBCONTENTVECTOR
 ---
 
 ## -description
@@ -65,3 +68,4 @@ Jaccard, dice, and so on.
 For valid values of the <b>dwRankingMethod</b> member, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/vector-rank-constants">Vector Rank Constants</a>.
 
 For more information on the DBOP_content_vector operator, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/content-search-operators">Content Search Operators</a>.
+

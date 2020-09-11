@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 6069f9d3-061a-48ba-8161-86d6152d68f0
 ms.date: 12/05/2018
 ms.keywords: 6069f9d3-061a-48ba-8161-86d6152d68f0, IInkDrawingAttributes interface [Tablet PC],Width property, IInkDrawingAttributes.Width, IInkDrawingAttributes.put_Width, IInkDrawingAttributes::Width, IInkDrawingAttributes::get_Width, IInkDrawingAttributes::put_Width, InkDrawingAttributes.get_Width, InkDrawingAttributes.put_Width, Width property [Tablet PC], Width property [Tablet PC],IInkDrawingAttributes interface, get_Width, msinkaut/IInkDrawingAttributes::Width, msinkaut/IInkDrawingAttributes::get_Width, msinkaut/IInkDrawingAttributes::put_Width, put_Width, tablet.inkdrawingattributes_width
-f1_keywords:
-- msinkaut/IInkDrawingAttributes.Width
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDrawingAttributes.Width
-- IInkDrawingAttributes.get_Width
-- IInkDrawingAttributes.put_Width
-- InkDrawingAttributes.get_Width
-- InkDrawingAttributes.put_Width
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDrawingAttributes::put_Width
+ - msinkaut/IInkDrawingAttributes::put_Width
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDrawingAttributes.Width
+ - IInkDrawingAttributes.get_Width
+ - IInkDrawingAttributes.put_Width
+ - InkDrawingAttributes.get_Width
+ - InkDrawingAttributes.put_Width
 ---
 
 # IInkDrawingAttributes::put_Width
@@ -54,33 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the tablet reports pen pressure (if the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_ignorepressure">IgnorePressure</a> property is false), the actual width of the ink varies depending on the amount of pressure applied to the drawing surface. When maximum pressure is applied, the width is 150% of the value of the <code>Width</code> property. When minimum pressure is applied, the width is 50% of the value of the <code>Width</code> property. By default, this property is set to true, so that pressure from the pen is reported. To specify that pressure should not be reported (that the width of ink does not change), set the <b>IgnorePressure</b> property to true.
 
 Precision is limited to one one-thousandth of a HIMETRIC unit (three digits to the right of the decimal point). For example, if you specify a value of 2.0006, the most precise measurement is 2.001.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height">Height Property [InkDrawingAttributes Class]</a>
 
@@ -99,7 +88,4 @@ Precision is limited to one one-thousandth of a HIMETRIC unit (three digits to t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip">PenTip Property</a>
- 
-
- 
 

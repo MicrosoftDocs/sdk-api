@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
 ms.date: 12/05/2018
 ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
-f1_keywords:
-- msdrm/DRMSetApplicationSpecificData
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMSetApplicationSpecificData
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMSetApplicationSpecificData
+ - msdrm/DRMSetApplicationSpecificData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMSetApplicationSpecificData
 ---
 
 # DRMSetApplicationSpecificData function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,46 +61,31 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMSetApplicationSpecificData</b> function allows an issuance license to store arbitrary name-value pairs for use by the content-consuming application.
 
-
 ## -parameters
-
-
-
 
 ### -param hIssuanceLicense [in]
 
 A handle to an issuance license.
 
-
 ### -param fDelete [in]
 
 A flag that indicates whether to add or delete this name-value pair.   <b>FALSE</b> indicates add; <b>TRUE</b> indicates delete.
-
 
 ### -param wszName [in]
 
 The name of the data.
 
-
 ### -param wszValue [in]
 
 The value of the data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The values stored can be used to pass information to a consuming application, such as the version and name of the publishing application, contact information, or any other arbitrary information. Information is stored in a zero-based array and is retrieved by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetapplicationspecificdata">DRMGetApplicationSpecificData</a> function. This function is used both to store a value or delete a stored value, depending on the flag passed in.
 
@@ -108,20 +93,11 @@ One data pair that is processed by an Active Directory Rights Management Service
 
 To prevent republishing, remove this name-value pair or do not include it (do not add the data item with the value "False").
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetapplicationspecificdata">DRMGetApplicationSpecificData</a>
- 
-
- 
 

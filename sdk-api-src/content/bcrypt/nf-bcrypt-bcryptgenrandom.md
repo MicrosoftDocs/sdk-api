@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func
-f1_keywords:
-- bcrypt/BCryptGenRandom
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptGenRandom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptGenRandom
+ - bcrypt/BCryptGenRandom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptGenRandom
 ---
 
 # BCryptGenRandom function
@@ -50,29 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptGenRandom</b> function generates a random number.
 
-
 ## -parameters
-
-
-
 
 ### -param hAlgorithm [in, out]
 
 The handle of an algorithm provider created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function. The algorithm that was specified when the provider was created must support the random number generator interface.
 
-
 ### -param pbBuffer [in, out]
 
 The address of a buffer that receives the random number. The size of this buffer is specified by the <i>cbBuffer</i> parameter.
 
-
 ### -param cbBuffer [in]
 
 The size, in bytes, of the <i>pbBuffer</i> buffer.
-
 
 ### -param dwFlags [in]
 
@@ -112,12 +105,8 @@ BCRYPT_USE_SYSTEM_PREFERRED_RNG is only supported at <b>PASSIVE_LEVEL</b> <a hre
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -165,14 +154,8 @@ One or more parameters are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The default random number provider implements an algorithm for generating random numbers that complies with the NIST SP800-90 standard, specifically the  CTR_DRBG portion of that standard.
 
@@ -183,8 +166,4 @@ Depending on what processor modes a provider supports, <b>BCryptGenRandom</b> ca
 
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
-
-
-
-
 

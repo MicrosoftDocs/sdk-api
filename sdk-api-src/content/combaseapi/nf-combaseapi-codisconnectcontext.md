@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
-f1_keywords:
-- combaseapi/CoDisconnectContext
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoDisconnectContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoDisconnectContext
+ - combaseapi/CoDisconnectContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoDisconnectContext
 ---
 
 # CoDisconnectContext function
@@ -53,26 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
 
 This function blocks connections until all objects are successfully disconnected or the time-out expires. Only the context that actually manages the objects should call <b>CoDisconnectContext</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeout [in]
 
 The time in milliseconds after which <b>CoDisconnectContext</b> returns even if the proxy connections for all objects have not been disconnected. INFINITE is an acceptable value for this parameter.
 
-
-
 ## -returns
-
-
 
 This function can return the standard return values E_FAIL, E_INVALIDARG, and E_OUTOFMEMORY, as well as the following values.
 
@@ -127,14 +119,8 @@ An object tried to call <a href="https://docs.microsoft.com/windows/desktop/api/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoDisconnectContext</b> function is used to support unloading services in shared service hosts where you must unload your service's binaries without affecting other COM servers that are running in the same process. If you control the process lifetime and you do not unload until the process exits, the COM infrastructure will perform the necessary cleanup automatically and you do not have to call this function.
 
@@ -194,21 +180,11 @@ HRESULT __stdcall DisconnectCallback(ComCallData *pv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: c72f3f22-a403-45b0-9ccb-6339ae001024
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], ITSGAuthenticationEngine interface [Remote Desktop Services],described, termserv.itsgauthenticationengine, tsgauthenticationengine/ITSGAuthenticationEngine
-f1_keywords:
-- tsgauthenticationengine/ITSGAuthenticationEngine
-dev_langs:
-- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TSGAuthenticationEngine.h
-api_name:
-- ITSGAuthenticationEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSGAuthenticationEngine
+ - tsgauthenticationengine/ITSGAuthenticationEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TSGAuthenticationEngine.h
+api_name:
+ - ITSGAuthenticationEngine
 ---
 
 # ITSGAuthenticationEngine interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that authenticate users for Remote Desktop Gateway (RD Gateway). Implement this interface when you want to override the default authentication process in RD Gateway.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Cancels an existing authentication request.
 
 </td>
 </tr>
-</table> 
+</table>
 

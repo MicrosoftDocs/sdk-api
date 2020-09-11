@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON structure [Security], KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_CERTIFICATE_S4U_LOGON_FLAG_IDENTIFY, KERB_CERTIFICATE_S4U_LOGON_FLAG_IF_NT_AUTH_POLICY_REQUIRED, PKERB_CERTIFICATE_S4U_LOGON, PKERB_CERTIFICATE_S4U_LOGON structure pointer [Security], ntsecapi/KERB_CERTIFICATE_S4U_LOGON, ntsecapi/PKERB_CERTIFICATE_S4U_LOGON, security.kerb_certificate_s4u_logon'
-f1_keywords:
-- ntsecapi/KERB_CERTIFICATE_S4U_LOGON
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_CERTIFICATE_S4U_LOGON
 targetos: Windows
 req.typenames: KERB_CERTIFICATE_S4U_LOGON, *PKERB_CERTIFICATE_S4U_LOGON
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_CERTIFICATE_S4U_LOGON
+ - ntsecapi/_KERB_CERTIFICATE_S4U_LOGON
+ - PKERB_CERTIFICATE_S4U_LOGON
+ - ntsecapi/PKERB_CERTIFICATE_S4U_LOGON
+ - KERB_CERTIFICATE_S4U_LOGON
+ - ntsecapi/KERB_CERTIFICATE_S4U_LOGON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_CERTIFICATE_S4U_LOGON
 ---
 
 # KERB_CERTIFICATE_S4U_LOGON structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>KERB_CERTIFICATE_S4U_LOGON</b> structure contains information about the certificate for a service for user (S4U) logon.
-
 
 ## -struct-fields
 
-
-
-
 ### -field MessageType
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that identifies the type of logon request being made. This member must be set to <b>KerbCertificateS4ULogon</b>. 
-
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_logon_submit_type">KERB_LOGON_SUBMIT_TYPE</a> enumeration that identifies the type of logon request being made. This member must be set to <b>KerbCertificateS4ULogon</b>.
 
 ### -field Flags
 
@@ -119,23 +118,18 @@ The KDC checks for identity only tokens instead of impersonation tokens. The req
 </td>
 </tr>
 </table>
- 
-
 
 ### -field UserPrincipalName
 
 The user principal name of the client to authenticate. The value of this member can be <b>NULL</b>.   If the value is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function uses the value to locate the user name.
 
-
 ### -field DomainName
 
 The domain name of the user to authenticate. The value of this member can be <b>NULL</b>. If the value is not <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function uses the value to locate the KDC. If the value is <b>NULL</b>, the <b>LsaLogonUser</b> function attempts to authenticate against the domain to which the computer is joined.
 
-
 ### -field CertificateLength
 
 The length, in bytes, of the client certificate.
-
 
 ### -field Certificate
 

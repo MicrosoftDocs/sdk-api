@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 16a0a595-ed4f-4871-a1a3-268c6bed0305
 ms.date: 12/05/2018
 ms.keywords: RPC_BINDING_VECTOR, RPC_BINDING_VECTOR structure [RPC], _rpc_rpc_binding_vector, rpc.rpc_binding_vector, rpcdce/RPC_BINDING_VECTOR
-f1_keywords:
-- rpcdce/RPC_BINDING_VECTOR
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_BINDING_VECTOR
 targetos: Windows
 req.typenames: RPC_BINDING_VECTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_BINDING_VECTOR
+ - rpcdce/_RPC_BINDING_VECTOR
+ - RPC_BINDING_VECTOR
+ - rpcdce/RPC_BINDING_VECTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_BINDING_VECTOR
 ---
 
 # RPC_BINDING_VECTOR structure
@@ -49,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_BINDING_VECTOR</b> structure contains a list of binding handles over which a server application can receive remote procedure calls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Count
 
 Number of binding handles present in the binding-handle array <b>BindingH</b>.
 
-
 ### -field BindingH
 
 Array of binding handles that contains <b>Count</b> elements.
 
-
 ## -remarks
-
-
 
 The binding vector contains a count member (<b>Count</b>), followed by an array of binding-handle (<b>BindingH</b>) elements.
 
@@ -93,13 +87,7 @@ To remove an individual binding handle from the vector, the application must set
 Calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> allows an application to free all binding handles in the vector.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a>
 
@@ -130,7 +118,4 @@ Calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinqbindings">RpcServerInqBindings</a>
- 
-
- 
 

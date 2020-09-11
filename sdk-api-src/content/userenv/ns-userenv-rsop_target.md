@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
 ms.date: 12/05/2018
 ms.keywords: '*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET'
-f1_keywords:
-- userenv/RSOP_TARGET
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Userenv.h
-api_name:
-- RSOP_TARGET
 targetos: Windows
 req.typenames: RSOP_TARGET, *PRSOP_TARGET
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RSOP_TARGET
+ - userenv/_RSOP_TARGET
+ - PRSOP_TARGET
+ - userenv/PRSOP_TARGET
+ - RSOP_TARGET
+ - userenv/RSOP_TARGET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Userenv.h
+api_name:
+ - RSOP_TARGET
 ---
 
 # RSOP_TARGET structure
@@ -49,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>RSOP_TARGET</b> structure contains computer and user information required by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfngenerategrouppolicy">GenerateGroupPolicy</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pwszAccountName
 
 Pointer to the account name of the computer or the user.
 
-
 ### -field pwszNewSOM
 
 Pointer to the new domain or organizational unit that is the location for the account identified by the <b>pwszAccountName</b> member. This member can be <b>NULL</b>.
-
 
 ### -field psaSecurityGroups
 
@@ -76,29 +74,22 @@ Pointer to a <b>SAFEARRAY</b> that contains a proposed list of new security grou
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/filtering-the-scope-of-a-gpo">Filtering the Scope of a GPO</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a>.
 
-
 ### -field pRsopToken
 
 Pointer to an <b>RSOPTOKEN</b> to use with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopaccesscheckbytype">RSoPAccessCheckByType</a> and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopfileaccesscheck">RSoPFileAccessCheck</a> functions.
 
-
 ### -field pGPOList
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a> structure containing a linked list of GPOs.
 
-
 ### -field pWbemServices
 
 Specifies the WMI services pointer to the namespace to which the planning mode policy data should be written.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
@@ -121,7 +112,4 @@ Specifies the WMI services pointer to the namespace to which the planning mode p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopfileaccesscheck">RSoPFileAccessCheck</a>
- 
-
- 
 

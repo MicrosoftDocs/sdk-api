@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 5e3e7ffc-8822-4b1b-b9af-206ec1e767e2
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], IAudioEndpointVolume interface [Core Audio],described, coreaudio.iaudioendpointvolume, endpointvolume/IAudioEndpointVolume
-f1_keywords:
-- endpointvolume/IAudioEndpointVolume
-dev_langs:
-- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Endpointvolume.h
-api_name:
-- IAudioEndpointVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointVolume
+ - endpointvolume/IAudioEndpointVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Endpointvolume.h
+api_name:
+ - IAudioEndpointVolume
 ---
 
 # IAudioEndpointVolume interface
 
 
 ## -description
-
-
 
 The <b>IAudioEndpointVolume</b> interface represents the volume controls on the audio stream to or from an audio endpoint device. A client obtains a reference to the <b>IAudioEndpointVolume</b> interface of an endpoint device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioEndpointVolume.
 
@@ -81,9 +80,6 @@ The methods of the <b>IAudioEndpointVolume</b> interface enable the client to ex
 In addition, to conveniently support volume sliders in user interfaces, the <b>IAudioEndpointVolume</b> interface enables clients to set and get volume levels that are expressed as discrete values or "steps". The steps are uniformly distributed over a nonlinear, audio-tapered curve. If the range contains <i>n</i> steps, the steps are numbered from 0 to <i>n</i>– 1, where step 0 represents the minimum volume level and step <i>n</i>– 1 represents the maximum.
 
 For a code example that uses the <b>IAudioEndpointVolume</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-volume-controls">Endpoint Volume Controls</a>.
-
-
-
 
 ## -inheritance
 
@@ -262,13 +258,9 @@ Increases the volume level by one step.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -283,7 +275,4 @@ Increases the volume level by one step.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
- 
-
- 
 

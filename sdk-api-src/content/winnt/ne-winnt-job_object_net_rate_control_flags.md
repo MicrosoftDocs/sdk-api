@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: D1AD3722-1A15-4BCA-8F0A-6E32A078959A
 ms.date: 12/05/2018
 ms.keywords: JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, JOB_OBJECT_NET_RATE_CONTROL_ENABLE, JOB_OBJECT_NET_RATE_CONTROL_FLAGS, JOB_OBJECT_NET_RATE_CONTROL_FLAGS enumeration, JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS, base.job_object_net_rate_control_flags, winnt/JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, winnt/JOB_OBJECT_NET_RATE_CONTROL_ENABLE, winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS, winnt/JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, winnt/JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
-f1_keywords:
-- winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 targetos: Windows
 req.typenames: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+ - winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 ---
 
 # JOB_OBJECT_NET_RATE_CONTROL_FLAGS enumeration
@@ -49,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies types of scheduling policies for network rate control.
 
-
 ## -enum-fields
-
-
-
 
 ### -field JOB_OBJECT_NET_RATE_CONTROL_ENABLE
 
 Turns on the control of the network traffic. You must set this value if you also set either <b>JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWIDTH</b> or <b>JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG</b>.
 
-
 ### -field JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWIDTH
-
 
 ### -field JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG
 
 Sets the DSCP field in the packet header to the value of the <b>DscpTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure. For information about DSCP, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/differentiated-services">Differentiated Services</a>.
-
 
 ### -field JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
 
@@ -80,14 +73,7 @@ The combination of all of the valid flags for the <a href="https://docs.microsof
 
 Uses the value of the <b>MaxBandwidth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> structure to set the maximum bandwidth for outgoing network traffic for the job, in bytes.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a>
- 
-
- 
 

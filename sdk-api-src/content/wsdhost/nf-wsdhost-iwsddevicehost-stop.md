@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
-f1_keywords:
-- wsdhost/IWSDDeviceHost.Stop
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::Stop
+ - wsdhost/IWSDDeviceHost::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.Stop
 ---
 
 # IWSDDeviceHost::Stop
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a WS-Discovery <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> message and stops the host. After a host has been successfully stopped, it must be terminated with <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-terminate">IWSDDeviceHost::Terminate</a> before being released.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -105,30 +97,14 @@ The host is not initialized or the host is not started.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a device host is stopped using this method, all services remain attached but no inbound messages are processed or otherwise handled. 
 
 Calling <b>Stop</b> is not necessary if the host has not been started.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
 

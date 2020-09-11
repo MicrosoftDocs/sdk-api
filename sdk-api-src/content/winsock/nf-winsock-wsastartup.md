@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.date: 12/05/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
-f1_keywords:
-- winsock/WSAStartup
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- bcrypt.dll
-- wsock32.dll
-api_name:
-- WSAStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAStartup
+ - winsock/WSAStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - bcrypt.dll
+ - wsock32.dll
+api_name:
+ - WSAStartup
 ---
 
 # WSAStartup function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAStartup</b> function initiates use of the Winsock DLL by a process.
 
-
 ## -parameters
-
-
-
 
 ### -param wVersionRequired
 
 TBD
-
 
 ### -param lpWSAData [out]
 
@@ -76,10 +71,7 @@ A pointer to the
 
 The highest version of Windows Sockets specification that the caller can use. The high-order byte specifies the minor version number; the low-order byte specifies the major version number.
 
-
 ## -returns
-
-
 
 If successful, the 
 <b>WSAStartup</b> function returns zero. Otherwise, it returns one of the error codes listed below. 
@@ -148,14 +140,8 @@ The <i>lpWSAData</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAStartup</b> function must be the first Windows Sockets function called by an application or DLL. It allows an application or DLL to specify the version of Windows Sockets required and retrieve details of the specific Windows Sockets implementation. The application or DLL can only issue further Windows Sockets functions after successfully calling 
@@ -399,14 +385,7 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632663(v=vs.85)">MAKEWORD</a>
 
@@ -433,7 +412,4 @@ int __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
- 
-
- 
 

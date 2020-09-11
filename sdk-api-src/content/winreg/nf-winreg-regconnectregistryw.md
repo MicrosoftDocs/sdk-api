@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: d7fb41cc-4855-4ad7-879c-b1ac85ac5803
 ms.date: 12/05/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
-f1_keywords:
-- winreg/RegConnectRegistry
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegConnectRegistry
-- RegConnectRegistryA
-- RegConnectRegistryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegConnectRegistryW
+ - winreg/RegConnectRegistryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegConnectRegistry
+ - RegConnectRegistryA
+ - RegConnectRegistryW
 ---
 
 # RegConnectRegistryW function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes a connection to a predefined registry key on another computer.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMachineName [in, optional]
 
@@ -75,7 +71,6 @@ The name of the remote computer. The string has the following form:
 The caller must have access to the remote computer or the function fails.
 
 If this parameter is <b>NULL</b>, the local computer name is used.
-
 
 ### -param hKey [in]
 
@@ -93,22 +88,14 @@ A predefined registry handle. This parameter can be one of the following
 
 A pointer to a variable that receives a key handle identifying the predefined handle on the remote computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 <b>RegConnectRegistry</b> requires the Remote Registry service to be running on the remote computer. By default, this service is configured to be started manually. To configure the Remote Registry service to start automatically, run Services.msc and change the Startup Type of the service to Automatic.
 
@@ -135,9 +122,6 @@ If the current user does not have proper access to the remote computer, the call
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
@@ -147,7 +131,4 @@ If the current user does not have proper access to the remote computer, the call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f
 ms.date: 12/05/2018
 ms.keywords: MAKEDLLVERULL, MAKEDLLVERULL macro [Windows Shell], _win32_MAKEDLLVERULL, shell.MAKEDLLVERULL, shlwapi/MAKEDLLVERULL
-f1_keywords:
-- shlwapi/MAKEDLLVERULL
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlwapi.h
-api_name:
-- MAKEDLLVERULL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAKEDLLVERULL
+ - shlwapi/MAKEDLLVERULL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlwapi.h
+api_name:
+ - MAKEDLLVERULL
 ---
 
 # MAKEDLLVERULL macro
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to pack DLL version information into a ULONGLONG value.
 
-
 ## -parameters
-
-
-
 
 ### -param major
 
 The major version number.
 
-
 ### -param minor
 
 The minor version number.
-
 
 ### -param build
 
 The build number.
 
-
 ### -param qfe
 
 The hotfix number that identifies the service pack.
 
-
 ## -remarks
-
-
 
 This macro is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a> to pack version information into a form that can easily be compared to the <b>ullVersion</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-dllversioninfo2">DLLVERSIONINFO2</a> structure. It is defined as follows.
 
@@ -109,7 +99,4 @@ if(VersionInfo.ullVersion >= MAKEDLLVERULL(4, 71, 0, 0))
 }
 
 ```
-
-
-
 

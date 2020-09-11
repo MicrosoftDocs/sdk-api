@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: d77244bc-b9d4-4b7d-b718-4ee38de46614
 ms.date: 12/05/2018
 ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], IWICProgressiveLevelControl interface [Windows Imaging Component],described, _wic_codec_iwicprogressivelevelcontrol, wic._wic_codec_iwicprogressivelevelcontrol, wincodec/IWICProgressiveLevelControl
-f1_keywords:
-- wincodec/IWICProgressiveLevelControl
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICProgressiveLevelControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICProgressiveLevelControl
+ - wincodec/IWICProgressiveLevelControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICProgressiveLevelControl
 ---
 
 # IWICProgressiveLevelControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for obtaining information about and controlling progressive decoding.
-
 
 ## -inheritance
 
@@ -95,24 +94,15 @@ Specifies the level to retrieve on the next call to <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Images can only be progressively decoded if they were progressively encoded. Progressive images automatically start at the highest (best quality) progressive level. The caller must manually set the decoder to a lower progressive level.
 
 E_NOTIMPL is returned if the codec does not support progressive level decoding.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -123,7 +113,4 @@ E_NOTIMPL is returned if the codec does not support progressive level decoding.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-sample-progressive-decoding">WIC Progressive Decoding Sample</a>
- 
-
- 
 

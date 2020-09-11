@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: c6114bbc-31d8-45eb-9bf8-745b3138dd50
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], IMFQualityAdvise2 interface [Media Foundation],described, mf.imfqualityadvise2, mfidl/IMFQualityAdvise2
-f1_keywords:
-- mfidl/IMFQualityAdvise2
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFQualityAdvise2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFQualityAdvise2
+ - mfidl/IMFQualityAdvise2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFQualityAdvise2
 ---
 
 # IMFQualityAdvise2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a pipeline object to adjust its own audio or video quality, in response to quality messages.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Forwards an <a href="https://docs.microsoft.com/windows/desktop/medfound/mequali
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface enables a pipeline object to respond to quality messages from the media sink. Currently, it is supported only for video decoders.
 
@@ -94,20 +90,11 @@ The preceding remarks apply to the default implementation of the quality manager
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

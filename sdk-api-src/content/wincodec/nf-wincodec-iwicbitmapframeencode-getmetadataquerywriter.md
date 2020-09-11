@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 0ff79820-5f44-4262-b97f-df783829e44b
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICBitmapFrameEncode.GetMetadataQueryWriter, IWICBitmapFrameEncode::GetMetadataQueryWriter, _wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wic._wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter
-f1_keywords:
-- wincodec/IWICBitmapFrameEncode.GetMetadataQueryWriter
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapFrameEncode.GetMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapFrameEncode::GetMetadataQueryWriter
+ - wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapFrameEncode.GetMetadataQueryWriter
 ---
 
 # IWICBitmapFrameEncode::GetMetadataQueryWriter
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the metadata query writer for the encoder frame.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIMetadataQueryWriter [out]
 
@@ -64,31 +60,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-win
 
 When this method returns, contains a pointer to metadata query writer for the encoder frame.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If you are setting metadata on the frame, you must do this before you use <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writepixels">IWICBitmapFrameEncode::WritePixels</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">IWICBitmapFrameEncode::WriteSource</a> to write any image pixels to the frame
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -111,7 +93,4 @@ If you are setting metadata on the frame, you must do this before you use <a hre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
 

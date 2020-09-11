@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b990a7bd-7840-4c10-baf8-68b3862147f4
 ms.date: 12/05/2018
 ms.keywords: InitializeAcl, InitializeAcl function [Security], _win32_initializeacl, security.initializeacl, securitybaseapi/InitializeAcl
-f1_keywords:
-- securitybaseapi/InitializeAcl
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- InitializeAcl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeAcl
+ - securitybaseapi/InitializeAcl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - InitializeAcl
 ---
 
 # InitializeAcl function
@@ -56,25 +57,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeAcl</b> function initializes a new <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure  to be initialized by this function. Allocate memory for <i>pAcl</i> before calling this function.
 
-
 ### -param nAclLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pAcl</i> parameter. This value must be large enough to contain the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> header and all of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to be stored in the <b>ACL</b>. In addition, this value must be <b>DWORD</b>-aligned. For more information about calculating the size of an <b>ACL</b>, see Remarks.
-
 
 ### -param dwAclRevision [in]
 
@@ -83,10 +77,7 @@ The revision level of the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) supports object-specific ACEs.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
       
@@ -94,12 +85,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>InitializeAcl</b> function creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure; the <b>ACL</b> contains no <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACEs</a>. Applying an empty <b>ACL</b> to an object denies all access to that object.
 
@@ -173,14 +159,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -239,7 +218,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
- 
-
- 
 

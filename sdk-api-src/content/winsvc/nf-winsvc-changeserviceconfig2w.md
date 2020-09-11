@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6e5b79ed-52e1-460e-b076-01afbd08775c
 ms.date: 12/05/2018
 ms.keywords: ChangeServiceConfig2, ChangeServiceConfig2 function, ChangeServiceConfig2A, ChangeServiceConfig2W, SERVICE_CONFIG_DELAYED_AUTO_START_INFO, SERVICE_CONFIG_DESCRIPTION, SERVICE_CONFIG_FAILURE_ACTIONS, SERVICE_CONFIG_FAILURE_ACTIONS_FLAG, SERVICE_CONFIG_LAUNCH_PROTECTED, SERVICE_CONFIG_PREFERRED_NODE, SERVICE_CONFIG_PRESHUTDOWN_INFO, SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO, SERVICE_CONFIG_SERVICE_SID_INFO, SERVICE_CONFIG_TRIGGER_INFO, _win32_changeserviceconfig2, base.changeserviceconfig2, winsvc/ChangeServiceConfig2, winsvc/ChangeServiceConfig2A, winsvc/ChangeServiceConfig2W
-f1_keywords:
-- winsvc/ChangeServiceConfig2
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l2-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- ChangeServiceConfig2
-- ChangeServiceConfig2A
-- ChangeServiceConfig2W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeServiceConfig2W
+ - winsvc/ChangeServiceConfig2W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l2-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - ChangeServiceConfig2
+ - ChangeServiceConfig2A
+ - ChangeServiceConfig2W
 ---
 
 # ChangeServiceConfig2W function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the optional configuration parameters of a service.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -76,7 +72,6 @@ A handle to the service. This handle is returned by the
 
 
 If the service controller handles the <b>SC_ACTION_RESTART</b> action, <i>hService</i> must have the <b>SERVICE_START</b> access right.
-
 
 ### -param dwInfoLevel [in]
 
@@ -217,29 +212,19 @@ The <i>lpInfo</i> parameter is a pointer a <a href="https://docs.microsoft.com/w
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpInfo [in, optional]
 
 A pointer to the new value to be set for the configuration information. The format of this data depends on the value of the <i>dwInfoLevel</i> parameter. If this value is <b>NULL</b>, the information remains unchanged.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>ChangeServiceConfig2</b> function changes the optional configuration information for the specified service in the service control manager database. You can obtain the current optional configuration information by using the 
@@ -292,9 +277,6 @@ For an example, see
 > The winsvc.h header defines ChangeServiceConfig2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
@@ -353,7 +335,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
- 
-
- 
 

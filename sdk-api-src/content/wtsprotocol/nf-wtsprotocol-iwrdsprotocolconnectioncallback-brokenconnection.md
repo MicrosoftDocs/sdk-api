@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: bc317e10-e09c-423b-8016-eb1cf49eba43
 ms.date: 12/05/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWRdsProtocolConnectionCallback.BrokenConnection, IWRdsProtocolConnectionCallback::BrokenConnection, termserv.iwrdsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
-f1_keywords:
-- wtsprotocol/IWRdsProtocolConnectionCallback.BrokenConnection
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolConnectionCallback.BrokenConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolConnectionCallback::BrokenConnection
+ - wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolConnectionCallback.BrokenConnection
 ---
 
 # IWRdsProtocolConnectionCallback::BrokenConnection
@@ -49,43 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Informs the Remote Desktop Services service that the client connection has been lost.
 
-
 ## -parameters
-
-
-
 
 ### -param Reason [in]
 
 This parameter is not used.
 
-
 ### -param Source [in]
 
 This parameter is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 0C3400BB-FC9A-43C3-92B4-055DE0A17717
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxSetForegroundWindow method, ITextHost2.TxSetForegroundWindow, ITextHost2::TxSetForegroundWindow, TxSetForegroundWindow, TxSetForegroundWindow method [Windows Controls], TxSetForegroundWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txsetforegroundwindow, textserv/ITextHost2::TxSetForegroundWindow
-f1_keywords:
-- textserv/ITextHost2.TxSetForegroundWindow
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost2.TxSetForegroundWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost2::TxSetForegroundWindow
+ - textserv/ITextHost2::TxSetForegroundWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost2.TxSetForegroundWindow
 ---
 
 # ITextHost2::TxSetForegroundWindow
@@ -49,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the rich edit control's host window as the foreground window.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
- 
-
- 
 

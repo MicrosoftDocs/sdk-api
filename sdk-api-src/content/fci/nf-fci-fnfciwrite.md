@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
 ms.date: 12/05/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
-f1_keywords:
-- fci/FNFCIWRITE
-dev_langs:
-- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fci.h
-api_name:
-- FNFCIWRITE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FNFCIWRITE
+ - fci/FNFCIWRITE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fci.h
+api_name:
+ - FNFCIWRITE
 ---
 
 # FNFCIWRITE macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FNFCIWRITE</b> macro provides the declaration for the application-defined callback function to write data to a file in an FCI context.
 
-
 ## -parameters
-
-
-
 
 ### -param fn
 
@@ -82,10 +78,7 @@ Pointer to the buffer containing the data to be written.
 
 Pointer to an application-defined value.
 
-
 ## -remarks
-
-
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/1570wh78(VS.80).aspx">_write</a>.
 
@@ -111,17 +104,7 @@ FNFCIWRITE(fnFileWrite)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
- 
-
- 
 

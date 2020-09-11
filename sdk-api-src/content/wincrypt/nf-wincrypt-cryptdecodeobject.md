@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7d5ed4f4-9d76-4a16-9059-27b0edd83459
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObject, CryptDecodeObject function [Security], _crypto2_cryptdecodeobject, security.cryptdecodeobject, wincrypt/CryptDecodeObject
-f1_keywords:
-- wincrypt/CryptDecodeObject
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptDecodeObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDecodeObject
+ - wincrypt/CryptDecodeObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptDecodeObject
 ---
 
 # CryptDecodeObject function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptDecodeObject</b> function decodes a structure of the type indicated by the <i>lpszStructType</i> parameter. The use of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a> is recommended as an API that performs the same function with significant performance improvements.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -81,16 +77,13 @@ A pointer to an OID defining the structure type. If the high-order word of the <
 For more information about object identifier strings, their predefined constants and corresponding structures, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
-
 ### -param pbEncoded [in]
 
 A pointer to the encoded structure to be decoded.
 
-
 ### -param cbEncoded [in]
 
 Number of bytes pointed to by <i>pbEncoded</i>.
-
 
 ### -param dwFlags [in]
 
@@ -152,8 +145,6 @@ By default, the signature bytes are reversed. If this flag is set, this byte rev
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvStructInfo [out]
 
@@ -161,7 +152,6 @@ A pointer to a buffer to receive the decoded structure. When the buffer that is 
 
 This parameter can be <b>NULL</b> to retrieve the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbStructInfo [in, out]
 
@@ -174,8 +164,6 @@ A pointer to a <b>DWORD</b> value specifying the size, in bytes, of the buffer p
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -226,12 +214,7 @@ If the buffer specified by the <i>pvStructInfo</i> parameter is not large enough
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 When encoding a cryptographic object using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a> function, the terminating <b>NULL</b> character is not retained.
 
@@ -243,12 +226,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a>
 
@@ -259,7 +237,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Object Encoding and Decoding Functions</a>
- 
-
- 
 

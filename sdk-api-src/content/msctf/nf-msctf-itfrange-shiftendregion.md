@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: cda2282f-3d3c-4763-9892-b889b29963a6
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEndRegion method, ITfRange.ShiftEndRegion, ITfRange::ShiftEndRegion, ShiftEndRegion, ShiftEndRegion method [Text Services Framework], ShiftEndRegion method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftendregion_ref, msctf/ITfRange::ShiftEndRegion, tsf.itfrange_shiftendregion
-f1_keywords:
-- msctf/ITfRange.ShiftEndRegion
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.ShiftEndRegion
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::ShiftEndRegion
+ - msctf/ITfRange::ShiftEndRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.ShiftEndRegion
 ---
 
 # ITfRange::ShiftEndRegion
@@ -53,27 +54,19 @@ Moves the end anchor into an adjacent region.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
 Contains an edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
 
 ### -param dir [in]
 
 Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir</a> values that specify which adjacent region the end anchor is moved to.
 
-
 ### -param pfNoRegion [out]
 
 Pointer to a <b>BOOL</b> value that receives a flag that indicates if the anchor is positioned adjacent to another region. Receives a nonzero value if the anchor is not adjacent to another region or zero otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,26 +109,14 @@ The edit context identified by <i>ec</i> does not have a read-only lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The start and end positions of a range are known as anchors.
 
 The anchor must be positioned adjacent to the desired region prior to calling this method. If it is not, then <i>pfNoRegion</i> receives a nonzero value and the anchor is not moved. If the anchor is adjacent to the desired region, <i>pfNoRegion</i> receives zero and the anchor is moved into the region.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
@@ -168,7 +149,4 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
       </a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: edea8317-5cdf-4d1e-9e6d-fcf17b91adb7
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME, LSA_TRANSLATED_NAME structure [Security], PLSA_TRANSLATED_NAME, PLSA_TRANSLATED_NAME structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, SidTypeWellKnownGroup, _lsa_lsa_translated_name, lsalookup/LSA_TRANSLATED_NAME, lsalookup/PLSA_TRANSLATED_NAME, security.lsa_translated_name'
-f1_keywords:
-- lsalookup/LSA_TRANSLATED_NAME
-dev_langs:
-- c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LsaLookup.h
-api_name:
-- LSA_TRANSLATED_NAME
 targetos: Windows
 req.typenames: LSA_TRANSLATED_NAME, *PLSA_TRANSLATED_NAME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _LSA_TRANSLATED_NAME
+ - lsalookup/_LSA_TRANSLATED_NAME
+ - PLSA_TRANSLATED_NAME
+ - lsalookup/PLSA_TRANSLATED_NAME
+ - LSA_TRANSLATED_NAME
+ - lsalookup/LSA_TRANSLATED_NAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LsaLookup.h
+api_name:
+ - LSA_TRANSLATED_NAME
 ---
 
 # LSA_TRANSLATED_NAME structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LSA_TRANSLATED_NAME</b> structure is used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> function to return information about the account identified by a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Use
 
@@ -115,14 +115,11 @@ The <b>Name</b> member is valid, but the <b>DomainIndex</b> member is not valid 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Name
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the isolated name of the translated SID. An isolated name is a user, group, or local group account name without the domain name (for example, user_name, rather than Acctg\user_name).
-
 
 ### -field DomainIndex
 
@@ -135,11 +132,7 @@ Specifies the zero-based index of an entry in the
 
 If there is no corresponding domain for an account, this member contains a negative value.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
 
@@ -154,7 +147,4 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
- 
-
- 
 

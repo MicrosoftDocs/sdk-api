@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_1008, *PUSER_INFO_1008, LPUSER_INFO_1008, LPUSER_INFO_1008 structure pointer [Network Management], PUSER_INFO_1008, PUSER_INFO_1008 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_1008, USER_INFO_1008 structure [Network Management], _win32_user_info_1008_str, lmaccess/LPUSER_INFO_1008, lmaccess/PUSER_INFO_1008, lmaccess/USER_INFO_1008, netmgmt.user_info_1008_str'
-f1_keywords:
-- lmaccess/USER_INFO_1008
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_1008
 targetos: Windows
 req.typenames: USER_INFO_1008, *PUSER_INFO_1008, *LPUSER_INFO_1008
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_1008
+ - lmaccess/_USER_INFO_1008
+ - PUSER_INFO_1008
+ - lmaccess/PUSER_INFO_1008
+ - USER_INFO_1008
+ - lmaccess/USER_INFO_1008
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_1008
 ---
 
 # USER_INFO_1008 structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USER_INFO_1008</b> structure contains a set of bit flags defining several user network account parameters. This information level is valid only when you call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field usri1008_flags
 
@@ -289,13 +289,8 @@ This is a permit to trust account for a domain that trusts other domains.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
@@ -310,7 +305,4 @@ This is a permit to trust account for a domain that trusts other domains.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

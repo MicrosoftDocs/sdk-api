@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D
 ms.date: 12/05/2018
 ms.keywords: D3D12_QUERY_TYPE, D3D12_QUERY_TYPE enumeration, D3D12_QUERY_TYPE_BINARY_OCCLUSION, D3D12_QUERY_TYPE_OCCLUSION, D3D12_QUERY_TYPE_PIPELINE_STATISTICS, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3, D3D12_QUERY_TYPE_TIMESTAMP, D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS, d3d12/D3D12_QUERY_TYPE, d3d12/D3D12_QUERY_TYPE_BINARY_OCCLUSION, d3d12/D3D12_QUERY_TYPE_OCCLUSION, d3d12/D3D12_QUERY_TYPE_PIPELINE_STATISTICS, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3, d3d12/D3D12_QUERY_TYPE_TIMESTAMP, d3d12/D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS, direct3d12.d3d12_query_type
-f1_keywords:
-- d3d12/D3D12_QUERY_TYPE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_QUERY_TYPE
 targetos: Windows
 req.typenames: D3D12_QUERY_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_QUERY_TYPE
+ - d3d12/D3D12_QUERY_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_QUERY_TYPE
 ---
 
 # D3D12_QUERY_TYPE enumeration
+
 
 ## -description
 
@@ -103,3 +105,4 @@ This enum is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+

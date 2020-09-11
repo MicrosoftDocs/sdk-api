@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6
 ms.date: 12/05/2018
 ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+],described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
-f1_keywords:
-- comsvcs/IServiceSysTxnConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceSysTxnConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceSysTxnConfig
+ - comsvcs/IServiceSysTxnConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceSysTxnConfig
 ---
 
 # IServiceSysTxnConfig interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables you to run a set of code in the scope of an existing transaction that you specify with a transaction proxy.
-
-
 
 ## -inheritance
 
@@ -78,16 +76,9 @@ Enables you to run the enclosed code in the scope of an existing transaction tha
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>
- 
-
- 
 

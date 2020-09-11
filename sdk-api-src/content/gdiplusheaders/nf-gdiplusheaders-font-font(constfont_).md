@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(const Font &), Font::Font, Font::Font(const Font &), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
-f1_keywords:
-- gdiplusheaders/Font.Font
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusheaders.h
-api_name:
-- Font.Font
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Font::Font
+ - gdiplusheaders/Font::Font
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusheaders.h
+api_name:
+ - Font.Font
 ---
 
 # Font::Font(const Font &)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> class. For a complete class listing, see <b>Font Class</b>. 

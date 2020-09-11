@@ -6,10 +6,6 @@ helpviewer_keywords: ["- ID3D12VideoProcessCommandList"]
 tech.root: mf
 ms.assetid: 6dab346e-f838-4881-b758-80cad037511b
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList
-dev_langs:
-- c++
 req.header: d3d12video.h
 req.include-header: 
 req.redist: 
@@ -24,26 +20,33 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12video.h
-api_name:
-- ID3D12VideoProcessCommandList
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList
+ - d3d12video/ID3D12VideoProcessCommandList
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12video.h
+api_name:
+ - ID3D12VideoProcessCommandList
 ---
 
 # ID3D12VideoProcessCommandList interface
+
 
 ## -description
 
 Encapsulates a list of graphics commands for video processing. This interface is inherited by [ID3D12VideoProcessCommandList1](nn-d3d12video-id3d12videoprocesscommandlist1.md).
 
-
 ## -inheritance
-ID3D12VideoProcessCommandList interits from ID3D12CommandList. 
+
+ID3D12VideoProcessCommandList interits from ID3D12CommandList.
+
 ## -members
 
 <p>ID3D12VideoProcessCommandList has these methods.</p>
@@ -115,3 +118,4 @@ ID3D12VideoProcessCommandList interits from ID3D12CommandList.
 ## -see-also
 
 [ID3D12VideoProcessCommandList1](nn-d3d12video-id3d12videoprocesscommandlist1.md)
+

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09
 ms.date: 12/05/2018
 ms.keywords: GetPostSnapshotFailureMsg, GetPostSnapshotFailureMsg method, GetPostSnapshotFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPostSnapshotFailureMsg method, IVssComponentEx.GetPostSnapshotFailureMsg, IVssComponentEx::GetPostSnapshotFailureMsg, base.ivsscomponentex_getpostsnapshotfailuremsg, vswriter/IVssComponentEx::GetPostSnapshotFailureMsg
-f1_keywords:
-- vswriter/IVssComponentEx.GetPostSnapshotFailureMsg
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponentEx.GetPostSnapshotFailureMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx::GetPostSnapshotFailureMsg
+ - vswriter/IVssComponentEx::GetPostSnapshotFailureMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponentEx.GetPostSnapshotFailureMsg
 ---
 
 # IVssComponentEx::GetPostSnapshotFailureMsg
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message string that a writer has  set for a given component.
 
 Both writers and requesters can call this method. Writers should call this method after the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> asynchronous operation has completed.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrFailureMsg [out]
 
@@ -67,10 +63,7 @@ A pointer to a null-terminated wide character string containing the failure mess
       while processing a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> 
       event.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -124,24 +117,12 @@ The caller is out of memory or other system resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>
 
@@ -152,7 +133,4 @@ The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg">IVssComponentEx::SetPostSnapshotFailureMsg</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 6a493a58-3dab-4032-90de-be9f903ae489
 ms.date: 12/05/2018
 ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], winsync.sync_version, winsync/SYNC_VERSION
-f1_keywords:
-- winsync/SYNC_VERSION
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsync.h
-api_name:
-- SYNC_VERSION
 targetos: Windows
 req.typenames: SYNC_VERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYNC_VERSION
+ - winsync/_SYNC_VERSION
+ - SYNC_VERSION
+ - winsync/SYNC_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsync.h
+api_name:
+ - SYNC_VERSION
 ---
 
 # SYNC_VERSION structure
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a version for an item or a change unit.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLastUpdatingReplicaKey
 
 The replica key that is associated with the version.
 
-
 ### -field ullTickCount
 
 The tick count that is associated with the version.
 
-
 ## -remarks
-
-
 
 A change that is made directly to a replica, such as a change that is made by a local application, will not have a version for the change in the synchronization metadata. A version that is created for such a change must contain the following elements:
 
@@ -79,12 +73,7 @@ A change that is made directly to a replica, such as a change that is made by a 
 <li>The current value of the tick count of the local replica.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-next">IEnumClockVector::Next Method</a>
 
@@ -127,7 +116,4 @@ A change that is made directly to a replica, such as a change that is made by a 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
- 
-
- 
 

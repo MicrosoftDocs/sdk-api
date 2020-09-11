@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 1a1164fe-00c2-4469-8346-f86f7f48781e
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], IDirectDraw7 interface [DirectDraw],described, ddraw/IDirectDraw7, directdraw.idirectdraw7
-f1_keywords:
-- ddraw/IDirectDraw7
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7
+ - ddraw/IDirectDraw7
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7
 ---
 
 # IDirectDraw7 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications use the methods of the <b>IDirectDraw7</b> interface to create DirectDraw objects and work with system-level variables. This section is a reference to the methods of the <b>IDirectDraw7</b> interface.
-
 
 ## -inheritance
 
@@ -325,12 +324,9 @@ Helps the application synchronize itself with the vertical-blank interval.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The methods of the <b>IDirectDraw7</b> interface can be organized into the following groups:<table>
 <tr>
@@ -418,7 +414,4 @@ typedef struct IDirectDraw4    FAR *LPDIRECTDRAW4;
 typedef struct IDirectDraw7    FAR *LPDIRECTDRAW7;
 
 ```
-
-
-
 

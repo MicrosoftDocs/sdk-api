@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: D5F4A318-4572-4563-85B0-7F3532833DE4
 ms.date: 12/05/2018
 ms.keywords: ImportPFXToProvider, (FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)
-f1_keywords:
-- certenroll/(FNIMPORTPFXTOPROVIDER)
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- certenroll.h
-- wincrypt.h
-api_name:
-- (FNIMPORTPFXTOPROVIDER)
-- ImportPFXToProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImportPFXToProvider
+ - certenroll/ImportPFXToProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - certenroll.h
+ - wincrypt.h
+api_name:
+ - (FNIMPORTPFXTOPROVIDER)
+ - ImportPFXToProvider
 ---
 
 ## -description
@@ -99,3 +100,4 @@ Pointer to DWORD that receives  the number of certificates successfully imported
 ### -param prgpCertOut [out, optional]
 
 Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
+

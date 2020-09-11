@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::GetVisibleClipBounds"]
 ms.assetid: dda12bab-2ffc-4fca-9280-3bc88798fac2
 ms.date: 05/13/2019
 ms.keywords: Graphics::GetVisibleClipBounds
-f1_keywords:
-- gdiplusgraphics/Graphics::GetVisibleClipBounds
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::GetVisibleClipBounds
+ - gdiplusgraphics/Graphics::GetVisibleClipBounds
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::GetVisibleClipBounds
+ - Graphics::GetVisibleClipBounds
 ---
 
 # GetVisibleClipBounds(RectF*)
+
 
 ## -description
 
@@ -52,7 +54,7 @@ The visible clipping region is the intersection of the clipping region of this *
 
 ### -param rect
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the rectangle that encloses the visible clipping region. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the rectangle that encloses the visible clipping region.
 
 ## -returns
 
@@ -95,3 +97,4 @@ VOID Example_GetVisibleClipBounds2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisible(inconstpointf_)">IsVisible Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+

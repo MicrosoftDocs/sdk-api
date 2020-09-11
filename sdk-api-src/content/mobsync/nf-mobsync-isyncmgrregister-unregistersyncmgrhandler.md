@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: cd823d73-a07a-4c75-a29c-6c48ad2c23dc
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],UnregisterSyncMgrHandler method, ISyncMgrRegister.UnregisterSyncMgrHandler, ISyncMgrRegister::UnregisterSyncMgrHandler, UnregisterSyncMgrHandler, UnregisterSyncMgrHandler method [Windows Shell], UnregisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_unregistersyncmgrhandler, syncmgr.isyncmgrregister_unregistersyncmgrhandler
-f1_keywords:
-- mobsync/ISyncMgrRegister.UnregisterSyncMgrHandler
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrRegister.UnregisterSyncMgrHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrRegister::UnregisterSyncMgrHandler
+ - mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrRegister.UnregisterSyncMgrHandler
 ---
 
 # ISyncMgrRegister::UnregisterSyncMgrHandler
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a handler's class identifier (CLSID) from the registration. A handler should call this when it no longer has any items to synchronize.
 
-
 ## -parameters
-
-
-
 
 ### -param clsidHandler [in]
 
@@ -64,15 +60,11 @@ Type: <b>REFCLSID</b>
 
 The CLSID of the handler that should be unregistered.
 
-
 ### -param dwReserved [in]
 
 Type: <b>DWORD</b>
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -95,18 +87,8 @@ The handler was successfully removed from the registry with SyncMgr.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
- 
-
- 
 

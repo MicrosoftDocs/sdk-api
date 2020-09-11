@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 348253ed-46ac-4643-bbf8-2d286ae97f07
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescriptionListFromString, PSGetPropertyDescriptionListFromString function [Windows Properties], properties.PSGetPropertyDescriptionListFromString, propsys/PSGetPropertyDescriptionListFromString, shell.PSGetPropertyDescriptionListFromString, shell_PSGetPropertyDescriptionListFromString
-f1_keywords:
-- propsys/PSGetPropertyDescriptionListFromString
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSGetPropertyDescriptionListFromString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSGetPropertyDescriptionListFromString
+ - propsys/PSGetPropertyDescriptionListFromString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSGetPropertyDescriptionListFromString
 ---
 
 # PSGetPropertyDescriptionListFromString function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an instance of a property description list interface for a specified property list.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPropList [in]
 
@@ -64,13 +60,11 @@ Type: <b>LPCWSTR</b>
 
 Pointer to a null-terminated, Unicode string that identifies the property list. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring">IPropertySystem::GetPropertyDescriptionListFromString</a> for more information about the format of this parameter.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 Reference to the interface ID of the requested interface.
-
 
 ### -param ppv [out]
 
@@ -78,10 +72,7 @@ Type: <b>void**</b>
 
 When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>.
 
-
 ## -returns
-
-
 
 Type: <b>PSSTDAPI</b>
 
@@ -115,14 +106,8 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function calls the property subsystem implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring">IPropertySystem::GetPropertyDescriptionListFromString</a> to obtain a collection of properties provided as a semicolon-delimited property list string.
 
@@ -149,7 +134,4 @@ if (SUCCEEDED(hr))
     pList->Release();
 }
 ```
-
-
-
 

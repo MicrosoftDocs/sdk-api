@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 54b9e75c-6316-44d3-b725-2039f39eeda5
 ms.date: 12/05/2018
 ms.keywords: Matrix3x2F, Matrix3x2F class [Direct2D], Matrix3x2F class [Direct2D],described, d2d1/Matrix3x2F, direct2d.matrix3x2f
-f1_keywords:
-- d2d1helper/Matrix3x2F
-dev_langs:
-- c++
 req.header: d2d1helper.h
 req.include-header: D2d1helper.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- Matrix3x2F
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Matrix3x2F
+ - d2d1helper/Matrix3x2F
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - Matrix3x2F
 ---
 
 # Matrix3x2F class
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Matrix3x2F</b> class represents a 3-by-2 matrix and provides convenience methods for creating matrices.
-
 
 ## -inheritance
 
@@ -246,12 +245,9 @@ Multiplies this matrix with the specified matrix and returns the result.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>Matrix3x2F</b> class 
 	  provides many static methods to create 
@@ -345,19 +341,11 @@ Code has been omitted from this example. For more information about transforms, 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
- 
-
- 
 

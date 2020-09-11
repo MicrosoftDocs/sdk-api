@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 59f6fd26-1d96-4b04-858d-bfd3e4d25d01
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, ClusterNetworkOpenEnum, ClusterNetworkOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM function [Failover Cluster], _wolf_clusternetworkopenenum, clusapi/ClusterNetworkOpenEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, mscs.clusternetworkopenenum
-f1_keywords:
-- clusapi/ClusterNetworkOpenEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterNetworkOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterNetworkOpenEnum
+ - clusapi/ClusterNetworkOpenEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterNetworkOpenEnum
 ---
 
 # ClusterNetworkOpenEnum function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an enumerator for iterating through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">objects</a> on a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNetwork [in]
 
 A handle to a network.
-
 
 ### -param dwType [in]
 
@@ -75,10 +70,7 @@ A bitmask that describes the type of objects to be enumerated. One or more of th
 
 Enumerates the network interface objects on the network.
 
-
 ## -returns
-
-
 
 If the operation was successful, 
        <b>ClusterNetworkOpenEnum</b> returns a handle to a 
@@ -88,12 +80,7 @@ If the operation fails, the function returns <b>NULL</b>. For
         more information about the error, call the function 
         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Applications call the <b>ClusterNetworkOpenEnum</b> 
      function to create a particular type of enumerator. 
@@ -112,12 +99,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-management-functions">Cluster Network Management Functions</a>
 
@@ -132,7 +114,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
- 
-
- 
 

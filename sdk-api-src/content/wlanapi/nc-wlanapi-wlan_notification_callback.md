@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: df721e77-3285-442b-aabd-2dccae85fda5
 ms.date: 12/05/2018
 ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK callback, WLAN_NOTIFICATION_CALLBACK callback function [NativeWIFI], nwifi.notif_callback, wlanapi/WLAN_NOTIFICATION_CALLBACK
-f1_keywords:
-- wlanapi/WLAN_NOTIFICATION_CALLBACK
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_NOTIFICATION_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WLAN_NOTIFICATION_CALLBACK
+ - wlanapi/WLAN_NOTIFICATION_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_NOTIFICATION_CALLBACK
 ---
 
 ## -description
@@ -98,3 +99,4 @@ If the <b>NotificationSource</b> member of the  <a href="https://docs.microsoft.
 <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
+

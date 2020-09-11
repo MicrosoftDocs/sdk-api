@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 52C34D08-8ACD-4E3A-80F4-4FA823E11D9C
 ms.date: 12/05/2018
 ms.keywords: GetMeterChannelCount, GetMeterChannelCount method [Core Audio], GetMeterChannelCount method [Core Audio],IAudioEndpointOffloadStreamMeter interface, IAudioEndpointOffloadStreamMeter interface [Core Audio],GetMeterChannelCount method, IAudioEndpointOffloadStreamMeter.GetMeterChannelCount, IAudioEndpointOffloadStreamMeter::GetMeterChannelCount, audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeterChannelCount, coreaudio.iaudioendpointoffloadstreammeter_getmeterchannelcount
-f1_keywords:
-- audioengineendpoint/IAudioEndpointOffloadStreamMeter.GetMeterChannelCount
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioengineendpoint.h
-api_name:
-- IAudioEndpointOffloadStreamMeter.GetMeterChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointOffloadStreamMeter::GetMeterChannelCount
+ - audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeterChannelCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioengineendpoint.h
+api_name:
+ - IAudioEndpointOffloadStreamMeter.GetMeterChannelCount
 ---
 
 # IAudioEndpointOffloadStreamMeter::GetMeterChannelCount
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of available audio channels in the offloaded stream that can be metered.
 
-
 ## -parameters
-
-
-
 
 ### -param pu32ChannelCount [out]
 
 A Pointer to a variable that indicates the number of available audio channels in the offloaded stream that can be metered.
 
-
 ## -returns
-
-
 
 The <b>GetMeterChannelCount</b> method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter">IAudioEndpointOffloadStreamMeter</a>
- 
-
- 
 

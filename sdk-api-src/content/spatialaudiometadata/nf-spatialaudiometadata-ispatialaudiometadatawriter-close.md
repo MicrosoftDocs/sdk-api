@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 2417E624-6535-49E2-9CF4-F927F731BE41
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataWriter interface, ISpatialAudioMetadataWriter interface [Core Audio],Close method, ISpatialAudioMetadataWriter.Close, ISpatialAudioMetadataWriter::Close, coreaudio.ispatialaudiometadatawriter_close, spatialaudiometadata/ISpatialAudioMetadataWriter::Close
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataWriter.Close
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudiometadata.h
-api_name:
-- ISpatialAudioMetadataWriter.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataWriter::Close
+ - spatialaudiometadata/ISpatialAudioMetadataWriter::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudiometadata.h
+api_name:
+ - ISpatialAudioMetadataWriter.Close
 ---
 
 # ISpatialAudioMetadataWriter::Close
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Completes any needed operations on the metadata buffer and releases the specified <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> object.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -105,18 +97,8 @@ No metadata commands have been written to the supplied <a href="https://docs.mic
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a>
- 
-
- 
 

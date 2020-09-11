@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1378f1ad-1e01-4f09-869c-f450b9b2f454
 ms.date: 12/05/2018
 ms.keywords: CA_ACCESS_ADMIN, CA_ACCESS_AUDITOR, CA_ACCESS_ENROLL, CA_ACCESS_OFFICER, CA_ACCESS_OPERATOR, CA_ACCESS_READ, GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetMyRoles method, ICertAdmin2.GetMyRoles, ICertAdmin2::GetMyRoles, certadm/ICertAdmin2::GetMyRoles, security.icertadmin2_getmyroles
-f1_keywords:
-- certadm/ICertAdmin2.GetMyRoles
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.GetMyRoles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::GetMyRoles
+ - certadm/ICertAdmin2::GetMyRoles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.GetMyRoles
 ---
 
 # ICertAdmin2::GetMyRoles
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetMyRoles</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) roles of the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -142,12 +138,8 @@ Caller has CA read access.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>C++</h3>
 If the function is successful, the return value is S_OK.
@@ -236,18 +228,8 @@ Caller has read access.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
- 
-
- 
 

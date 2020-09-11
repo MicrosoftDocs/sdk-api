@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawPie"]
 ms.assetid: 603dcdca-09bb-4a1a-a04a-6a47be08bfc0
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawPie
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawPie
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawPie
+ - gdiplusgraphics/Graphics::DrawPie
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawPie
+ - Graphics::DrawPie
 ---
 
 # DrawPie(Pen*,RectF&,REAL,REAL)
+
 
 ## -description
 
@@ -104,3 +106,4 @@ VOID Example_DrawPie2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-open-and-closed-curves-about">Open and Closed Curves</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+

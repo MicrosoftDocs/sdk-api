@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8c366f19-b10f-46cd-b5dc-cc3c77c5a008
 ms.date: 12/05/2018
 ms.keywords: BreakSnapshotSet, BreakSnapshotSet method [VSS], BreakSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BreakSnapshotSet method, IVssBackupComponents.BreakSnapshotSet, IVssBackupComponents::BreakSnapshotSet, _win32_ivssbackupcomponents_breaksnapshotset, base.ivssbackupcomponents_breaksnapshotset, vsbackup/IVssBackupComponents::BreakSnapshotSet
-f1_keywords:
-- vsbackup/IVssBackupComponents.BreakSnapshotSet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.BreakSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::BreakSnapshotSet
+ - vsbackup/IVssBackupComponents::BreakSnapshotSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.BreakSnapshotSet
 ---
 
 # IVssBackupComponents::BreakSnapshotSet
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>BreakSnapshotSet</b> method causes the existence of a shadow copy set to be "forgotten" by VSS.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 Shadow copy set identifier.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -157,14 +150,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>BreakSnapshotSet</b> can be used only for shadow copies created by a hardware shadow copy provider. This method makes these shadow copies regular volumes.
 
@@ -175,20 +162,11 @@ Shadow copies of volumes "broken" with
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex">IVssBackupComponentsEx2::BreakSnapshotSetEx</a> is similar to the <b>BreakSnapshotSet</b> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>
- 
-
- 
 

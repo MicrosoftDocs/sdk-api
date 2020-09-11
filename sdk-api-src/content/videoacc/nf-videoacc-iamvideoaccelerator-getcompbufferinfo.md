@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c32fb94d-396f-460a-9e69-1baaf14eff6e
 ms.date: 12/05/2018
 ms.keywords: GetCompBufferInfo, GetCompBufferInfo method [DirectShow], GetCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetCompBufferInfo method, IAMVideoAccelerator.GetCompBufferInfo, IAMVideoAccelerator::GetCompBufferInfo, IAMVideoAcceleratorGetCompBufferInfo, dshow.iamvideoaccelerator_getcompbufferinfo, videoacc/IAMVideoAccelerator::GetCompBufferInfo
-f1_keywords:
-- videoacc/IAMVideoAccelerator.GetCompBufferInfo
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator.GetCompBufferInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator::GetCompBufferInfo
+ - videoacc/IAMVideoAccelerator::GetCompBufferInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator.GetCompBufferInfo
 ---
 
 # IAMVideoAccelerator::GetCompBufferInfo
@@ -50,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetCompBufferInfo</b> method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding. 
-
-
-
+The <b>GetCompBufferInfo</b> method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.
 
 ## -parameters
-
-
-
 
 ### -param pGuid [in]
 
 Pointer to a GUID that specifies the DXVA profile in use.
 
-
 ### -param pamvaUncompDataInfo [in]
 
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvauncompdatainfo">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
-
 
 ### -param pdwNumTypesCompBuffers [in, out]
 
@@ -78,7 +69,6 @@ On input, specifies the number of elements in the <i>pamvaCompBufferInfo</i> arr
             If <i>pamvaCompBufferInfo</i> is <b>NULL</b>, the value of <code>*pdwNumTypesCompBuffers</code> must be zero.
 
 On output, if <i>pamvaCompBufferInfo</i> is <b>NULL</b>, <i>pdwNumTypesCompBuffers</i> receives the size of array to allocate. Otherwise, <i>pdwNumTypesCompBuffers</i> receives the actual number of elements copied to the <i>pamvaCompBufferInfo</i> array.
-
 
 ### -param pamvaCompBufferInfo [out]
 
@@ -88,10 +78,7 @@ Set all of the array elements to zero before calling this method.
 
 Each array index corresponds to one of the DXVA surface types defined in dxva.h. The video accelerator will return a list of up to <b>DXVA_NUM_TYPES_COMP_BUFFERS</b>array entries. For details, refer to the <a href="https://msdn.microsoft.com/library/windows/hardware/gg463516">DXVA 1.0 specification</a>, section 3.4, "Buffer Description List." If a particular buffer type is not used by the DXVA profile in question, the entry at that index contains zeroes for all values.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. <b>HRESULT</b> can include one of the following standard constants, or other values not listed.
 
@@ -156,27 +143,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The decoder can use this method to get compressed buffer information during the pin connection 
       process. After the pins are connected, the decoder can call <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a> to get this information.
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo</a> structure contains information that is needed for the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">IAMVideoAccelerator::GetBuffer</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo Structure</a>
 
@@ -191,7 +166,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/am
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
- 
-
- 
 

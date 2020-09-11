@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setmodes.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],SetModes method, IUIFramework.SetModes, IUIFramework::SetModes, SetModes, SetModes method [Windows Ribbon], SetModes method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetModes, uiribbon/IUIFramework::SetModes, windowsribbon.windowsribbon_iuiframework_setmodes
-f1_keywords:
-- uiribbon/IUIFramework.SetModes
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIFramework.SetModes
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework::SetModes
+ - uiribbon/IUIFramework::SetModes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIFramework.SetModes
 ---
 
 # IUIFramework::SetModes
@@ -50,38 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the application modes to enable. 
-		
-
+Specifies the application modes to enable.
 
 ## -parameters
-
-
-
 
 ### -param iModes
 
 Type: <b>INT32</b>
 
-A bit mask that identifies the modes. 
-				
-
+A bit mask that identifies the modes.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A mode indicates the functionality required and, therefore, which elements should be displayed (or 
 				hidden) at run time, depending on the state or context of an application. For example, network connectivity 
@@ -100,12 +86,7 @@ Modes can be applied to a Ribbon <a href="https://docs.microsoft.com/windows/des
 				</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
@@ -120,7 +101,4 @@ Modes can be applied to a Ribbon <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
 

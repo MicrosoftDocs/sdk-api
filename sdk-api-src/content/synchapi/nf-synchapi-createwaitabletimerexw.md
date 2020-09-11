@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.date: 12/05/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, synchapi/CreateWaitableTimerEx, synchapi/CreateWaitableTimerExA, synchapi/CreateWaitableTimerExW
-f1_keywords:
-- synchapi/CreateWaitableTimerEx
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CreateWaitableTimerEx
-- CreateWaitableTimerExA
-- CreateWaitableTimerExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateWaitableTimerExW
+ - synchapi/CreateWaitableTimerExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CreateWaitableTimerEx
+ - CreateWaitableTimerExA
+ - CreateWaitableTimerExW
 ---
 
 # CreateWaitableTimerExW function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a waitable timer object and returns a handle to the object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTimerAttributes [in, optional]
 
@@ -74,7 +70,6 @@ A pointer to a
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure. If this parameter is <b>NULL</b>, the timer handle cannot be inherited by child processes. 
 
 If <i>lpTimerAttributes</i> is <b>NULL</b>, the timer object gets a default security descriptor and the handle cannot be inherited. The ACLs in the default security descriptor for a timer come from the primary or impersonation token of the creator.
-
 
 ### -param lpTimerName [in, optional]
 
@@ -92,7 +87,6 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
-
 
 ### -param dwFlags [in]
 
@@ -115,30 +109,20 @@ The timer must be manually reset. Otherwise, the system automatically resets the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwDesiredAccess [in]
 
 The access mask for the timer object. For a list of access rights, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the timer object. If the named timer object exists before the function call, the function returns a handle to the existing object and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Any thread of the calling process can specify the timer object handle in a call to one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>.
@@ -158,13 +142,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 To associate a timer with a window, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -175,7 +153,4 @@ To associate a timer with a window, use the <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
- 
-
- 
 

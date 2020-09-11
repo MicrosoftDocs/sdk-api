@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 801dc601-9d1d-4f7d-acf0-b36ea2314d70
 ms.date: 12/05/2018
 ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW
-f1_keywords:
-- wininet/GopherFindFirstFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- GopherFindFirstFile
-- GopherFindFirstFileA
-- GopherFindFirstFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GopherFindFirstFileA
+ - wininet/GopherFindFirstFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - GopherFindFirstFile
+ - GopherFindFirstFileA
+ - GopherFindFirstFileW
 ---
 
 # GopherFindFirstFileA function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>GopherFindFirstFile</b> function is available for use in the operating systems specified in the Requirements section.]
 
 Uses a Gopher locator and search criteria to create a session with the server and locate the requested documents, binary files, index servers, or directory trees.
 
-
 ## -parameters
-
-
-
 
 ### -param hConnect [in]
 
 Handle to a Gopher session returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
-
 
 ### -param lpszLocator [in]
 
@@ -85,12 +80,10 @@ Pointer to a <b>null</b>-terminated string that contains the name of the item to
 
 Pointer to a buffer that contains the strings to search, if this request is to an index server. Otherwise, this parameter should be <b>NULL</b>.
 
-
 ### -param lpFindData [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-gopher_find_dataa">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
-
 
 ### -param dwFlags [in]
 
@@ -157,28 +150,18 @@ Reloads HTTP resources if the resource has been modified since the last time it 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
 Pointer to a variable that contains the application-defined value that associates this search with any application data.
 
-
 ## -returns
-
-
 
 Returns a valid search handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>GopherFindFirstFile</b> closely resembles the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> function. It creates a connection with a Gopher server, and then returns a single structure containing information about the first Gopher object referenced by the locator string.
 
@@ -204,11 +187,5 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

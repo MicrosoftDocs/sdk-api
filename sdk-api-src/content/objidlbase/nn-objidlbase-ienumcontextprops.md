@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 64591e45-5478-4360-8c1f-08b09b5aef8e
 ms.date: 12/05/2018
 ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], IEnumContextProps interface [COM],described, _com_ienumcontextprops, com.ienumcontextprops, objidlbase/IEnumContextProps
-f1_keywords:
-- objidlbase/IEnumContextProps
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IEnumContextProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumContextProps
+ - objidlbase/IEnumContextProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IEnumContextProps
 ---
 
 # IEnumContextProps interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a mechanism for enumerating the context properties associated with a COM+ object context.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

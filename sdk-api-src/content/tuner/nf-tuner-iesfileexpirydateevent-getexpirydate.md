@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4
 ms.date: 12/05/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetExpiryDate method, IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
-f1_keywords:
-- tuner/IESFileExpiryDateEvent.GetExpiryDate
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESFileExpiryDateEvent.GetExpiryDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESFileExpiryDateEvent::GetExpiryDate
+ - tuner/IESFileExpiryDateEvent::GetExpiryDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESFileExpiryDateEvent.GetExpiryDate
 ---
 
 # IESFileExpiryDateEvent::GetExpiryDate
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the date from a <b>FileExpiryDate</b> event that indicates when a license for protected content expires.
 
-
 ## -parameters
-
-
-
 
 ### -param pqwExpiryDate [out, retval]
 
 Receives the expiry date from the event.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesfileexpirydateevent">IESFileExpiryDateEvent</a>
- 
-
- 
 

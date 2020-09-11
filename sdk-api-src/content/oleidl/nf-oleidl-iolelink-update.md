@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::Update, Update, Update method [COM], Update method [COM],IOleLink interface, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
-f1_keywords:
-- oleidl/IOleLink.Update
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleLink.Update
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleLink::Update
+ - oleidl/IOleLink::Update
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleLink.Update
 ---
 
 # IOleLink::Update
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
 
-
 ## -parameters
-
-
-
 
 ### -param pbc [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in binding the link source. This parameter can be <b>NULL</b>. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the binding implementation should retrieve information about its environment. For more information, see <b>IBindCtx</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -108,14 +101,8 @@ Unable to bind to the link source.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Your container application should call <b>Update</b> if the end user updates the cached data for a linked object.
@@ -131,13 +118,7 @@ If <i>pbc</i> is non-<b>NULL</b>, the linked object's implementation of <b>Updat
 
 The current caches are left intact if the link source cannot be bound.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">IBindCtx::RegisterObjectBound</a>
 
@@ -160,3 +141,4 @@ The current caches are left intact if the link source cannot be bound.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
+

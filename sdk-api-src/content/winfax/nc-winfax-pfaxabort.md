@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_03jo.htm
 ms.date: 12/05/2018
 ms.keywords: FaxAbortA, FaxAbortW, PFAXABORT, PFAXABORT callback, PFAXABORT callback function [Fax Service], _mfax_faxabort, fax._mfax_faxabort, winfax/FaxAbortA, winfax/FaxAbortW, winfax/PFAXABORT
-f1_keywords:
-- winfax/PFAXABORT
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winfax.h
-api_name:
-- PFAXABORT
-- FaxAbortA
-- FaxAbortW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFAXABORT
+ - winfax/PFAXABORT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winfax.h
+api_name:
+ - PFAXABORT
+ - FaxAbortA
+ - FaxAbortW
 ---
 
 # PFAXABORT callback function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxAbort</b> function to terminate a fax job.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -66,17 +62,13 @@ Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
-
 ### -param JobId [in]
 
 Type: <b>DWORD</b>
 
 Specifies a unique number that identifies the fax job to terminate.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -123,14 +115,8 @@ The <i>JobId</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application typically calls the <b>FaxAbort</b> function to terminate a fax transmission that is in progress. To manage a queued fax job, an application typically calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function. <b>FaxSetJob</b> can cancel an active job; the function can also pause, resume, cancel, or restart a queued fax job.
 
@@ -138,13 +124,7 @@ Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-modifying-a-fax-job">Modifying a Fax Job</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-terminating-a-fax-job">Terminating a Fax Job</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
@@ -171,7 +151,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
- 
-
- 
 

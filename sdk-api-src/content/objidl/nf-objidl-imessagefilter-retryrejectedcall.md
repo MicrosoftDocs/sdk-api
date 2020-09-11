@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFilter.RetryRejectedCall, IMessageFilter::RetryRejectedCall, RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM],IMessageFilter interface, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
-f1_keywords:
-- objidl/IMessageFilter.RetryRejectedCall
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMessageFilter.RetryRejectedCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMessageFilter::RetryRejectedCall
+ - objidl/IMessageFilter::RetryRejectedCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMessageFilter.RetryRejectedCall
 ---
 
 # IMessageFilter::RetryRejectedCall
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides applications with an opportunity to display a dialog box offering retry, cancel, or task-switching options.
 
-
 ## -parameters
-
-
-
 
 ### -param htaskCallee [in]
 
 The thread id of the called application.
 
-
 ### -param dwTickCount [in]
 
 The number of elapsed ticks since the call was made.
-
 
 ### -param dwRejectType [in]
 
 Specifies either SERVERCALL_REJECTED or SERVERCALL_RETRYLATER, as returned by the object application.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -118,14 +109,8 @@ COM will wait for this many milliseconds and then retry the call.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 COM calls <b>RetryRejectedCall</b> on the caller's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface immediately after receiving SERVERCALL_RETRYLATER or SERVERCALL_REJECTED from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a> method on the callee's <b>IMessageFilter</b> interface.
 
@@ -140,15 +125,7 @@ If a client implements <a href="https://docs.microsoft.com/windows/desktop/api/o
 <div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
- 
-
- 
 

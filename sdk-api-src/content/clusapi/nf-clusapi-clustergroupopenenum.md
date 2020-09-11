@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: d8f9eff0-1784-4b55-8603-c262d5c23f6c
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupOpenEnum, ClusterGroupOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM function [Failover Cluster], _wolf_clustergroupopenenum, clusapi/ClusterGroupOpenEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, mscs.clustergroupopenenum
-f1_keywords:
-- clusapi/ClusterGroupOpenEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterGroupOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterGroupOpenEnum
+ - clusapi/ClusterGroupOpenEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterGroupOpenEnum
 ---
 
 # ClusterGroupOpenEnum function
@@ -49,23 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
     Opens an enumerator for iterating through a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group's</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> 
     and/or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> that are included in its list of preferred 
     owners. The <b>PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 A handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> to be enumerated.
-
 
 ### -param dwType [in]
 
@@ -91,10 +85,7 @@ Enumerates the nodes in the preferred owners list of the group.
 
 Enumerates the resources in the group and the preferred owners of the group.
 
-
 ## -returns
-
-
 
 If the operation succeeds, 
        <b>ClusterGroupOpenEnum</b> returns a handle to an 
@@ -104,12 +95,7 @@ If the operation succeeds,
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
        error, call the function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Do not call <b>ClusterGroupOpenEnum</b> from any 
      resource DLL entry point function. 
@@ -124,12 +110,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupcloseenum">ClusterGroupCloseEnum</a>
 
@@ -144,7 +125,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
- 
-
- 
 

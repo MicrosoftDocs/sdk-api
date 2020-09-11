@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5073c909-d3bc-480e-97fb-d096e60787e5
 ms.date: 12/05/2018
 ms.keywords: Hash, Hash method [COM], Hash method [COM],IMoniker interface, IMoniker interface [COM],Hash method, IMoniker.Hash, IMoniker::Hash, _com_imoniker_hash, com.imoniker_hash, objidl/IMoniker::Hash
-f1_keywords:
-- objidl/IMoniker.Hash
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.Hash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::Hash
+ - objidl/IMoniker::Hash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.Hash
 ---
 
 # IMoniker::Hash
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a hash value using the internal state of the moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwHash [out]
 
 A pointer to a variable that receives the hash value.
 
-
 ## -returns
-
-
 
 This method returns S_OK to indicate that the hash value was retrieved successfully.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 You can use the value returned by this method to maintain a hash table of monikers. The hash value determines a hash bucket in the table. To search such a table for a specified moniker, calculate its hash value and then compare it to the monikers in that hash bucket using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-isequal">IMoniker::IsEqual</a>.
@@ -123,18 +111,8 @@ Marshaling and then unmarshaling a moniker should have no effect on its hash val
 <td>Creates a hash value based on the URL string of the moniker. This hash value is identical when URL strings are identical, although it may also be identical for different URL strings. This method is used to speed up comparisons by reducing the amount of time that it is necessary to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-isequal">IMoniker::IsEqual</a>.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

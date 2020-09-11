@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2e870191-5a34-490e-9f3a-cb646fe3f470
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],IObjectContext interface, IObjectContext interface [COM+],CreateInstance method, IObjectContext.CreateInstance, IObjectContext::CreateInstance, _cos_IObjectContext_CreateInstance, comsvcs/IObjectContext::CreateInstance, cos.iobjectcontext_createinstance
-f1_keywords:
-- comsvcs/IObjectContext.CreateInstance
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectContext.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectContext::CreateInstance
+ - comsvcs/IObjectContext::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectContext.CreateInstance
 ---
 
 # IObjectContext::CreateInstance
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an object using current object's context.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 The CLSID of the type of object to instantiate.
 
-
 ### -param riid [in]
 
 Any interface that's implemented by the object you want to instantiate.
-
 
 ### -param ppv [out]
 
 A reference to the requested interface on the new object. If instantiation fails, this parameter is set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -141,14 +132,8 @@ An unexpected error occurred. This can happen if one object passes its <a href="
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>CreateInstance</b> creates a COM object. However, the object will have context only if its component is registered with COM+.
 
@@ -158,16 +143,7 @@ If the component's transaction attribute setting either requires a transaction o
 
 <b>CreateInstance</b> always returns the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the newly instantiated object. You should immediately cast the returned value to the interface through which you want to communicate with the new object. The interface ID you pass in the <i>riid</i> parameter does not need to be the same interface as the one to which you cast the returned value, but it must be an interface that is implemented by the object you are instantiating.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
- 
-
- 
 

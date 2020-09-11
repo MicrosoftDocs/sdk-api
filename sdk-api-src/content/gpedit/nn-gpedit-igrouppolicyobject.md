@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: b3cd31a1-c238-4eb2-8164-9c4891e6227b
 ms.date: 12/05/2018
 ms.keywords: IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], IGroupPolicyObject interface [Group Policy],described, _win32_igrouppolicyobject, gpedit/IGroupPolicyObject, policy.igrouppolicyobject
-f1_keywords:
-- gpedit/IGroupPolicyObject
-dev_langs:
-- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Gpedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpedit.dll
-api_name:
-- IGroupPolicyObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGroupPolicyObject
+ - gpedit/IGroupPolicyObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpedit.dll
+api_name:
+ - IGroupPolicyObject
 ---
 
 # IGroupPolicyObject interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>IGroupPolicyObject</b> interface provides methods to create and modify a GPO directly, without using the Group Policy Object Editor.
 
 Note that this interface does not support multithreaded object concurrency.
-
 
 ## -inheritance
 
@@ -233,30 +232,18 @@ Sets the options for the GPO.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 For methods that Microsoft Management Console (MMC) extension snap-ins can use to communicate with the Group Policy Object Editor, see the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
- 
-
- 
 

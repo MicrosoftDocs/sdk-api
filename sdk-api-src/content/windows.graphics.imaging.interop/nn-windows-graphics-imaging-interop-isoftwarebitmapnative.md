@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 9EB9C74E-A056-4A40-AFAD-0056E139BA28
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNative, ISoftwareBitmapNative interface [Windows Runtime], ISoftwareBitmapNative interface [Windows Runtime],described, windows/ISoftwareBitmapNative, winrt.isoftwarebitmapnative
-f1_keywords:
-- windows.graphics.imaging.interop/ISoftwareBitmapNative
-dev_langs:
-- c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.graphics.imaging.interop.h
-api_name:
-- ISoftwareBitmapNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISoftwareBitmapNative
+ - windows.graphics.imaging.interop/ISoftwareBitmapNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.graphics.imaging.interop.h
+api_name:
+ - ISoftwareBitmapNative
 ---
 
 # ISoftwareBitmapNative interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a software bitmap.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ This method returns an interface that provides access to the software bitmap dat
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

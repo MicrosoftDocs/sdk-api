@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: f32e78c9-a567-448d-947d-d7ea996bba5e
 ms.date: 12/05/2018
 ms.keywords: IMFMetadataProvider, IMFMetadataProvider interface [Media Foundation], IMFMetadataProvider interface [Media Foundation],described, f32e78c9-a567-448d-947d-d7ea996bba5e, mf.imfmetadataprovider, mfidl/IMFMetadataProvider
-f1_keywords:
-- mfidl/IMFMetadataProvider
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMetadataProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMetadataProvider
+ - mfidl/IMFMetadataProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMetadataProvider
 ---
 
 # IMFMetadataProvider interface
@@ -50,13 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets metadata from a media source or other object.
 
 If a media source supports this interface, it must expose the interface as a service. To get a pointer to this interface from a media source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is <b>MF_METADATA_PROVIDER_SERVICE</b>. Other types of object can expose this interface through <b>QueryInterface</b>.
 
 Use this interface to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface.
-
 
 ## -inheritance
 
@@ -82,13 +81,9 @@ Gets a collection of metadata, either for an entire presentation, or for one str
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
@@ -103,7 +98,4 @@ Gets a collection of metadata, either for an entire presentation, or for one str
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
- 
-
- 
 

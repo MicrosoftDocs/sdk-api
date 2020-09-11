@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings, ITaskSettings interface [Task Scheduler], ITaskSettings interface [Task Scheduler],described, taskschd.itasksettings, taskschd/ITaskSettings
-f1_keywords:
-- taskschd/ITaskSettings
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskSettings
+ - taskschd/ITaskSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskSettings
 ---
 
 # ITaskSettings interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Provides the settings that the Task Scheduler service uses to perform the task.
 
-
 ## -remarks
-
-
 
 By default, a task will be stopped 72 hours after it starts to run.  You can change this by changing the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_executiontimelimit">ExecutionTimeLimit</a> setting.
 
@@ -77,12 +74,7 @@ For more information and a code example for this interface, see <a href="https:/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a>
 
@@ -93,7 +85,4 @@ For more information and a code example for this interface, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
- 
-
- 
 

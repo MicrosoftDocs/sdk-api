@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 4a9dd105-ea68-40ce-b1cb-6126ca932095
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Synchronize method, IOfflineFilesCache.Synchronize, IOfflineFilesCache::Synchronize, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLATEST, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLOCAL, OFFLINEFILES_SYNC_CONTROL_CR_KEEPREMOTE, OFFLINEFILES_SYNC_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_SYNC_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_SYNC_CONTROL_FLAG_CONSOLE, OFFLINEFILES_SYNC_CONTROL_FLAG_FILLSPARSE, OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_SYNC_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_SYNC_CONTROL_FLAG_NONEWFILESOUT, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORALL, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORREDIR, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER_POLICY, OFFLINEFILES_SYNC_CONTROL_FLAG_PINNEWFILES, OFFLINEFILES_SYNC_CONTROL_FLAG_SKIPSUSPENDEDDIRS, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCIN, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT, OFFLINEFILES_SYNC_CONTROL_PINLINKTARGETS, Synchronize, Synchronize method [Offline Files], Synchronize method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Synchronize, of.iofflinefilescache_synchronize
-f1_keywords:
-- cscobj/IOfflineFilesCache.Synchronize
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesCache.Synchronize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesCache::Synchronize
+ - cscobj/IOfflineFilesCache::Synchronize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesCache.Synchronize
 ---
 
 # IOfflineFilesCache::Synchronize
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Synchronizes files and directories in the Offline Files cache with their corresponding copies in the 
     applicable network shared folders.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
@@ -66,16 +62,13 @@ Identifies the parent window for any user interface elements displayed. This par
      <b>OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE</b> flag is not set in the <i>dwSyncControl</i> 
      parameter.
 
-
 ### -param rgpszPaths [in]
 
 Array of pointers, each to a fully qualified UNC path of a file or directory to be synchronized.
 
-
 ### -param cPaths [in]
 
 Number of paths in the <i>rgpszPaths</i> array.
-
 
 ### -param bAsync [in]
 
@@ -83,7 +76,6 @@ Indicates if the operation is to be performed asynchronously. If this parameter 
       <b>TRUE</b>, the operation is placed on a separate thread in the system thread pool and the 
       function returns immediately.  If this parameter is <b>FALSE</b>, the function returns when 
       the operation is complete.
-
 
 ### -param dwSyncControl [in]
 
@@ -243,7 +235,6 @@ Synchronize the remote copy to the local cache.
 
 Keep the copy with the latest last-change time. This resolution is sometimes called "last writer wins."
 
-
 ### -param pISyncConflictHandler [in]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncconflicthandler">IOfflineFilesSyncConflictHandler</a> 
@@ -254,11 +245,9 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/csc
      the default action is taken in the Offline Files service. Normally this results in the conflict being recorded in 
      the user's sync conflict store for later presentation in Sync Center.
 
-
 ### -param pIProgress [in]
 
 Interface to an event sink that will receive progress events during the operation.  This parameter is optional and can  be <b>NULL</b>.
-
 
 ### -param pSyncId [in]
 
@@ -266,10 +255,7 @@ A unique ID applied to this sync operation.  This ID will be included with all p
      (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>) related to this operation. This 
      parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
@@ -278,12 +264,7 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code> if the operation is can
 Monitor <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a> events to 
        detect failures associated with individual files.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>bAsync</i> parameter is <b>TRUE</b>, the caller is required to provide an event interface through the <i>pIProgress</i> parameter.  The <b>Synchronize</b> method will increment the reference count on the event interface at the start of the operation and decrement the reference count when the operation has completed.  It is therefore recommended that the event sink implementation increment the reference count of its hosting module so that the module remains in memory throughout the operation.
 
@@ -350,13 +331,7 @@ If the calling code also listens for published sync events, the Sync ID may be s
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">SyncFileResult</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">SyncEnd</a> published events 
     (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>) generated from this operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
 
@@ -371,7 +346,4 @@ If the calling code also listens for published sync events, the Sync ID may be s
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfileitem-issparse">IOfflineFilesFileItem::IsSparse</a>
- 
-
- 
 

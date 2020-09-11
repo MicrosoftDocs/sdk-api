@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fdf9642b-ac90-4ffc-a813-4a5b22a973dd
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChaptersAutoStop method, IDvdControl2.PlayChaptersAutoStop, IDvdControl2::PlayChaptersAutoStop, IDvdControl2PlayChaptersAutoStop, PlayChaptersAutoStop, PlayChaptersAutoStop method [DirectShow], PlayChaptersAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchaptersautostop, strmif/IDvdControl2::PlayChaptersAutoStop
-f1_keywords:
-- strmif/IDvdControl2.PlayChaptersAutoStop
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.PlayChaptersAutoStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::PlayChaptersAutoStop
+ - strmif/IDvdControl2::PlayChaptersAutoStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.PlayChaptersAutoStop
 ---
 
 # IDvdControl2::PlayChaptersAutoStop
@@ -50,46 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>PlayChaptersAutoStop</code> method plays the number of chapters specified, starting at the specified chapter within the specified title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulTitle [in]
 
 Value that specifies the title in which the chapter is located; this value must be from 1 through 99.
 
-
 ### -param ulChapter [in]
 
 Value that specifies the chapter in the specified title where the DVD Navigator will start playback; this value must be from 1 through 999.
-
 
 ### -param ulChaptersToPlay [in]
 
 Number of chapters to play from the start chapter.
 
-
 ### -param dwFlags [in]
 
 Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
-
 
 ### -param ppCmd [out]
 
 Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -143,14 +129,8 @@ The graph is not in a running state.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method works only on One_Sequential_PGC_Titles. When the specified number of chapters have been played, the DVD Navigator sends the application an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-chapter-autostop">EC_DVD_CHAPTER_AUTOSTOP</a> event notification.
 
@@ -168,15 +148,8 @@ The following table shows the Annex J command name to which this method name cor
 <td>All.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -191,7 +164,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
- 
-
- 
 

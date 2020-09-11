@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.StringFormat, StringFormat.StringFormat(IN const StringFormat), StringFormat::StringFormat, StringFormat::StringFormat(IN const StringFormat), _gdiplus_CLASS_StringFormat_Constructors, gdiplus._gdiplus_CLASS_StringFormat_Constructors, gdiplusstringformat/StringFormat
-f1_keywords:
-- gdiplusstringformat/StringFormat.StringFormat
-dev_langs:
-- c++
 req.header: gdiplusstringformat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusstringformat.h
-api_name:
-- StringFormat.StringFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringFormat::StringFormat
+ - gdiplusstringformat/StringFormat::StringFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusstringformat.h
+api_name:
+ - StringFormat.StringFormat
 ---
 
 # StringFormat::StringFormat(IN const StringFormat)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> class. For a complete class listing, see <b>StringFormat Class</b>. 

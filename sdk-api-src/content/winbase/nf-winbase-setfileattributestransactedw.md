@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, SetFileAttributesTransacted, SetFileAttributesTransacted function [Files], SetFileAttributesTransactedA, SetFileAttributesTransactedW, fs.setfileattributestransacted, winbase/SetFileAttributesTransacted, winbase/SetFileAttributesTransactedA, winbase/SetFileAttributesTransactedW
-f1_keywords:
-- winbase/SetFileAttributesTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- SetFileAttributesTransacted
-- SetFileAttributesTransactedA
-- SetFileAttributesTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileAttributesTransactedW
+ - winbase/SetFileAttributesTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - SetFileAttributesTransacted
+ - SetFileAttributesTransactedA
+ - SetFileAttributesTransactedW
 ---
 
 # SetFileAttributesTransactedW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -64,11 +64,7 @@ ms.custom: 19H1
 
 Sets the attributes for a file or directory as a transacted operation.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -82,7 +78,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to 
       <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
-
 
 ### -param dwFileAttributes [in]
 
@@ -129,7 +124,6 @@ The following is a list of supported attribute values.
 
 #### FILE_ATTRIBUTE_TEMPORARY (256 (0x100))
 
-
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
@@ -159,22 +153,14 @@ A handle to the transaction. This handle is returned by the
 
 ##### - dwFileAttributes.FILE_ATTRIBUTE_TEMPORARY (256 (0x100))
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following table describes how to set the attributes that cannot be set using 
     <b>SetFileAttributesTransacted</b>. Note that these 
@@ -341,9 +327,6 @@ If a file is open for modification in a transaction, no other thread can open th
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
@@ -361,7 +344,4 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 9fdb3918-9fc7-491f-9abb-4c2f13528817
 ms.date: 12/05/2018
 ms.keywords: DeltaCompressedContentPreferred property [Windows Update Agent], DeltaCompressedContentPreferred property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentPreferred property, IUpdate.DeltaCompressedContentPreferred, IUpdate.get_DeltaCompressedContentPreferred, IUpdate::DeltaCompressedContentPreferred, IUpdate::get_DeltaCompressedContentPreferred, get_DeltaCompressedContentPreferred, wua.iupdate_deltacompressedcontentpreferred, wuapi/IUpdate::DeltaCompressedContentPreferred, wuapi/IUpdate::get_DeltaCompressedContentPreferred
-f1_keywords:
-- wuapi/IUpdate.DeltaCompressedContentPreferred
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.DeltaCompressedContentPreferred
-- IUpdate.get_DeltaCompressedContentPreferred
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_DeltaCompressedContentPreferred
+ - wuapi/IUpdate::get_DeltaCompressedContentPreferred
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.DeltaCompressedContentPreferred
+ - IUpdate.get_DeltaCompressedContentPreferred
 ---
 
 # IUpdate::get_DeltaCompressedContentPreferred
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets a Boolean value that indicates whether to prefer delta-compressed content during the download and install or uninstall of the update if delta-compressed content is available.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
 

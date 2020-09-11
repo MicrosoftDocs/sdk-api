@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 1E152D80-2673-43C6-B242-F89C890EE688
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method [Windows Runtime], EndDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],EndDraw method, ISurfaceImageSourceNativeWithD2D.EndDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::EndDraw, ISurfaceImageSourceNativeWithD2D::xaml, windows/ISurfaceImageSourceNativeWithD2D::EndDraw, winrt.isurfaceimagesourcenativewithd2d_enddraw
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D.EndDraw
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- ISurfaceImageSourceNativeWithD2D.EndDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurfaceImageSourceNativeWithD2D::EndDraw
+ - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D::EndDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - ISurfaceImageSourceNativeWithD2D.EndDraw
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml
@@ -49,39 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the surface draw operation.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-Always call the <b>EndDraw</b> method on the UI thread in order to synchronize updating the Microsoft DirectX content with the current XAML UI thread frame.  
-
-
-
+Always call the <b>EndDraw</b> method on the UI thread in order to synchronize updating the Microsoft DirectX content with the current XAML UI thread frame.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
@@ -96,7 +77,4 @@ Always call the <b>EndDraw</b> method on the UI thread in order to synchronize u
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
- 
-
- 
 

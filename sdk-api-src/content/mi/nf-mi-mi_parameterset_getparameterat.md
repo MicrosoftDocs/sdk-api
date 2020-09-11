@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: fcfd7104-dd63-4a48-9a20-dcec0dc33242
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet_GetParameterAt, MI_ParameterSet_GetParameterAt function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterAt, wmi_v2.mi_parameterset_getparameterat
-f1_keywords:
-- mi/MI_ParameterSet_GetParameterAt
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_ParameterSet_GetParameterAt
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_ParameterSet_GetParameterAt
+ - mi/MI_ParameterSet_GetParameterAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_ParameterSet_GetParameterAt
 ---
 
 # MI_ParameterSet_GetParameterAt function
@@ -49,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a method's parameter information at the specified index.
-
 
 ## -parameters
 
-
-
-
 ### -param self [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterset">MI_ParameterSet</a> structure.
-
 
 ### -param index
 
 Zero-based index of the parameter.
 
-
 ### -param name
 
 Returned parameter name.
-
 
 ### -param parameterType [out]
 
 Returned parameter type.
 
-
 ### -param referenceClass
 
 Returned reference class.
-
 
 ### -param qualifierSet [out]
 
 Returned qualifier set of the parameter.
 
-
 ## -returns
 
-
-
 This function returns MI_INLINE MI_Result.
-
-
 

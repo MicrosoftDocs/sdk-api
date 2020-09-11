@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessor::GetNumInputStreamDescs","GetNumInpu
 tech.root: mf
 ms.assetid: 3e749d39-ade5-4d52-9d91-4a98ca5650b6
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessor::GetNumInputStreamDescs
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessor::GetNumInputStreamDescs, GetNumInputStreamDescs, ID3D12VideoProcessor.GetNumInputStreamDescs, ID3D12VideoProcessor::GetNumInputStreamDescs, ID3D12VideoProcessor.GetNumInputStreamDescs
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessor::GetNumInputStreamDescs
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessor::GetNumInputStreamDescs
+ - d3d12video/ID3D12VideoProcessor::GetNumInputStreamDescs
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessor::GetNumInputStreamDescs
 ---
 
 # ID3D12VideoProcessor::GetNumInputStreamDescs
@@ -49,13 +50,11 @@ Gets the number of input stream descriptions provided when the video processor w
 
 ## -parameters
 
-
 ## -returns
 
 This method returns UINT. Use this value to determine the correct size of the array you pass in the *pInputStreamDescs* parameter to [ID3D12VideoProcessor::GetInputStreamDescs](nf-d3d12video-id3d12videoprocessor-getinputstreamdescs.md).
 
-
-
 ## -remarks
 
 ## -see-also
+

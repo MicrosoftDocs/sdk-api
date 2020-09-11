@@ -25,6 +25,7 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+ms.custom: 20H1
 topic_type:
  - apiref
 api_type:
@@ -34,13 +35,14 @@ api_location:
 api_name:
  - PrjFillDirEntryBuffer2
 f1_keywords:
+ - PrjFillDirEntryBuffer2
  - projectedfslib/PrjFillDirEntryBuffer2
 dev_langs:
  - c++
-ms.custom: 20H1
 ---
 
 # PrjFillDirEntryBuffer2 function
+
 
 ## -description
 
@@ -89,3 +91,4 @@ To specify that this directory entry is for a symbolic link, the provider format
 * `extendedInfo.Symlink.TargetName = <path to the target of the symbolic link>`
 
 ## -see-also
+

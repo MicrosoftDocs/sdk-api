@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 36080d53-9004-40f7-9d92-c6deaac8299f
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_WRITE_BACKUP_INFORMATION, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control, FSCTL_TXFS_WRITE_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_write_backup_information, winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
-f1_keywords:
-- winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_WRITE_BACKUP_INFORMATION
+ - winioctl/FSCTL_TXFS_WRITE_BACKUP_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_WRITE_BACKUP_INFORMATION
 ---
 
 # FSCTL_TXFS_WRITE_BACKUP_INFORMATION IOCTL
+
 
 ## -description
 
@@ -65,26 +67,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -94,7 +89,6 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 **FSCTL_TXFS_WRITE_BACKUP_INFORMATION** is a synchronous operation.
@@ -103,10 +97,10 @@ This control code can be used by backup functions and applications, such as Win3
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FSCTL_TXFS_READ_BACKUP_INFORMATION](ni-winioctl-fsctl_txfs_read_backup_information.md)
 * [TXFS_WRITE_BACKUP_INFORMATION](ns-winioctl-txfs_write_backup_information.md)
 * [Volume Shadow Copy Service](https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service)
+

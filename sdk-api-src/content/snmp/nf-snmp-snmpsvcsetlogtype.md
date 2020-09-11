@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 244a8359-9002-4ece-b340-20602d566a2c
 ms.date: 12/05/2018
 ms.keywords: SNMP_OUTPUT_TO_CONSOLE, SNMP_OUTPUT_TO_DEBUGGER, SNMP_OUTPUT_TO_LOGFILE, SnmpSvcSetLogType, SnmpSvcSetLogType function [SNMP], _snmp_snmpsvcsetlogtype, snmp.snmpsvcsetlogtype, snmp/SnmpSvcSetLogType
-f1_keywords:
-- snmp/SnmpSvcSetLogType
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Snmpapi.dll
-api_name:
-- SnmpSvcSetLogType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpSvcSetLogType
+ - snmp/SnmpSvcSetLogType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Snmpapi.dll
+api_name:
+ - SnmpSvcSetLogType
 ---
 
 # SnmpSvcSetLogType function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpSvcSetLogType</b> function adjusts the destination for the debug output from the SNMP service and from SNMP extension agents using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputildbgprint">SnmpUtilDbgPrint</a> function. This function is an element of the SNMP Utility API.
 
-
 ## -parameters
-
-
-
 
 ### -param nLogType [in]
 
@@ -105,33 +101,18 @@ The destination for the debug output is a debugger utility.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 Extension agents are encouraged to use the 
 <b>SnmpSvcSetLogType</b> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpsvcsetloglevel">SnmpSvcSetLogLevel</a> functions during development to adjust the output of debugging information. Extension agents can integrate the information with the debug output from the SNMP service.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
@@ -146,7 +127,4 @@ Extension agents are encouraged to use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputildbgprint">SnmpUtilDbgPrint</a>
- 
-
- 
 

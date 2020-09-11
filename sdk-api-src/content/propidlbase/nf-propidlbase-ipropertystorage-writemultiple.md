@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],WriteMultiple, IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
-f1_keywords:
-- propidlbase/IPropertyStorage.WriteMultiple
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertyStorage.WriteMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyStorage::WriteMultiple
+ - propidlbase/IPropertyStorage::WriteMultiple
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertyStorage.WriteMultiple
 ---
 
 # IPropertyStorage::WriteMultiple
@@ -49,53 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WriteMultiple</b> method 
 			writes a specified group of properties to the current property set. If a property with a specified name or property identifier already exists, it is replaced, even when the old and new types for the property value are different. If a property of a given name or property ID does not exist, it is created.
 
-
 ## -parameters
-
-
-
 
 ### -param cpspec [in]
 
 The number of properties set. The value of this parameter can be set to zero; however, this defeats the purpose of the method as no properties are then written.
 
-
 ### -param rgpspec [in]
 
 An array of the property IDs (<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propspec">PROPSPEC</a>) to which properties are set. These need not be in any particular order, and may contain duplicates, however the last specified property ID is the one that takes effect. A mixture of property IDs and string names is permitted.
-
 
 ### -param rgpropvar [in]
 
 An array (of size <i>cpspec</i>) of 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures that contain the property values to be written. The array must be the size specified by <i>cpspec</i>.
 
-
 ### -param propidNameFirst [in]
 
 The minimum value for the property IDs that the method must assign if the <i>rgpspec</i> parameter specifies string-named properties for which no property IDs currently exist. If all string-named properties specified already exist in this set, and thus already have property IDs, this value is ignored. When not ignored, this value must be greater than, or equal to, two and less than 0x80000000. Property IDs 0 and 1 and greater than 0x80000000 are reserved for special use.
 
-
 ## -returns
-
-
 
 This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a>.
 
-
-
-
 ## -remarks
-
-
 
 If a specified property already exists, its value is replaced with the one specified in <i>rgpspec</i>, even when the old and new types for the property value are different. If the specified property does not already exist, that property is created. The changes are not persisted to the underlying storage until <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">IPropertyStorage::Commit</a> has been called.
 
@@ -120,13 +105,7 @@ Unless PROPSETFLAG_CASE_SENSITIVE is passed to <a href="https://docs.microsoft.c
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/property-storage-considerations">Property Storage Considerations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>
 
@@ -157,7 +136,4 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
- 
-
- 
 

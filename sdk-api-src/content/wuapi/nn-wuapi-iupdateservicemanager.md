@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 99b451b8-9831-475c-a4b0-7809f78d91b8
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], IUpdateServiceManager interface [Windows Update Agent],described, wua.iupdateservicemanager, wuapi/IUpdateServiceManager
-f1_keywords:
-- wuapi/IUpdateServiceManager
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager
+ - wuapi/IUpdateServiceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager
 ---
 
 # IUpdateServiceManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
-
 
 ## -inheritance
 
@@ -147,14 +146,9 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-i
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the UpdateServiceManager coclass. Use the Microsoft.Update.ServiceManager program identifier to create the object.
-
-
 

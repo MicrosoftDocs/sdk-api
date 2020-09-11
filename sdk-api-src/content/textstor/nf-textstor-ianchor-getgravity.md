@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: c56a4c25-ac43-4fd3-8d6b-943eb0233ed4
 ms.date: 12/05/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetGravity method, IAnchor.GetGravity, IAnchor::GetGravity, textstor/IAnchor::GetGravity, tsf.ianchor_getgravity
-f1_keywords:
-- textstor/IAnchor.GetGravity
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.GetGravity
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::GetGravity
+ - textstor/IAnchor::GetGravity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.GetGravity
 ---
 
 # IAnchor::GetGravity
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAnchor::GetGravity</b> method retrieves the gravity of the anchor in an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pgravity [out]
 
 Pointer that receives a <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a> value that specifies the anchor gravity.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,15 +90,8 @@ The <i>pgravity</i> pointer is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
@@ -120,7 +106,4 @@ The <i>pgravity</i> pointer is invalid.
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 99bd9bd7-d8d1-433a-bc5a-4b9761de5048
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReader interface [Media Foundation],ReadSample method, IMFSourceReader.ReadSample, IMFSourceReader::ReadSample, MF_SOURCE_READER_ANY_STREAM, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, ReadSample, ReadSample method [Media Foundation], ReadSample method [Media Foundation],IMFSourceReader interface, mf.imfsourcereader_readsample, mfreadwrite/IMFSourceReader::ReadSample
-f1_keywords:
-- mfreadwrite/IMFSourceReader.ReadSample
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReader.ReadSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReader::ReadSample
+ - mfreadwrite/IMFSourceReader::ReadSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReader.ReadSample
 ---
 
 # IMFSourceReader::ReadSample
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads the next sample from the media source.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -112,37 +108,28 @@ Get the next available sample, regardless of which stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwControlFlags [in]
 
 A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_control_flag">MF_SOURCE_READER_CONTROL_FLAG</a> enumeration.
 
-
 ### -param pdwActualStreamIndex [out]
 
 Receives the zero-based index of the stream.
-
 
 ### -param pdwStreamFlags [out]
 
 Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag">MF_SOURCE_READER_FLAG</a> enumeration.
 
-
 ### -param pllTimestamp [out]
 
 Receives the time stamp of the sample, or the time of the stream event indicated in <i>pdwStreamFlags</i>. The time is given in 100-nanosecond units.
-
 
 ### -param ppSample [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface or the value <b>NULL</b> (see Remarks). If this parameter receives a non-<b>NULL</b> pointer, the caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -207,14 +194,8 @@ Invalid argument. See Remarks.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the requested stream is not selected, the return code is <b>MF_E_INVALIDREQUEST</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setstreamselection">IMFSourceReader::SetStreamSelection</a>.
 
@@ -245,20 +226,11 @@ If there is a gap in the stream, <i>pdwStreamFlags</i> receives the MF_SOURCE_RE
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
 

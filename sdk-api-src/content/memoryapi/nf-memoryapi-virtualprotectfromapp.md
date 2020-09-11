@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
-f1_keywords:
-- memoryapi/VirtualProtectFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- KernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualProtectFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualProtectFromApp
+ - memoryapi/VirtualProtectFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualProtectFromApp
 ---
 
 # VirtualProtectFromApp function
@@ -52,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the protection on a region of committed pages in the virtual address space of the calling 
     process.
 
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
@@ -75,7 +71,6 @@ All pages in the specified region must be within the same reserved region alloca
        <b>VirtualAllocEx</b> using 
        <b>MEM_RESERVE</b>.
 
-
 ### -param Size [in]
 
 The size of the region whose access protection attributes are to be changed, in bytes. The region of 
@@ -83,7 +78,6 @@ The size of the region whose access protection attributes are to be changed, in 
       <i>Address</i> parameter to 
       <code>(Address+Size)</code>. This means that a 2-byte range 
       straddling a page boundary causes the protection attributes of both pages to be changed.
-
 
 ### -param NewProtection [in]
 
@@ -114,22 +108,14 @@ A pointer to a variable that receives the previous access protection value of th
       specified region of pages. If this parameter is <b>NULL</b> or does not point to a valid 
       variable, the function fails.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>VirtualProtectFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities.
 
@@ -155,13 +141,7 @@ When protecting a region that will be executable, the calling program bears resp
    in place.  Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
    results.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
@@ -180,7 +160,4 @@ When protecting a region that will be executable, the calling program bears resp
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a>
- 
-
- 
 

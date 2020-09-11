@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
 ms.date: 12/05/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
-f1_keywords:
-- winhttp/WinHttpCrackUrl
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpCrackUrl
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpCrackUrl
+ - winhttp/WinHttpCrackUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpCrackUrl
 ---
 
 # WinHttpCrackUrl function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpCrackUrl</b> function separates a URL into its component parts such as host name and path.
-
 
 ## -parameters
 
-
-
-
 ### -param pwszUrl [in]
 
-Pointer to a string that contains the canonical URL to separate. <b>WinHttpCrackUrl</b> does not check this URL for validity or correct format before attempting to crack it. 
-
+Pointer to a string that contains the canonical URL to separate. <b>WinHttpCrackUrl</b> does not check this URL for validity or correct format before attempting to crack it.
 
 ### -param dwUrlLength [in]
 
@@ -70,8 +65,7 @@ The length of the
 <i>dwUrlLength</i> is set to zero, 
 <b>WinHttpCrackUrl</b> assumes that the 
 <i>pwszUrl</i> string is <b>null</b> terminated and  determines the length of the 
-<i>pwszUrl</i> string based on that assumption. 
-
+<i>pwszUrl</i> string based on that assumption.
 
 ### -param dwFlags [in]
 
@@ -116,16 +110,12 @@ Rejects URLs as input that contain embedded credentials (either a username, a pa
 </tr>
 </table>
 
-
 ### -param lpUrlComponents [in, out]
 
 Pointer to a 
-<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that receives the URL components. 
-
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that receives the URL components.
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -180,14 +170,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -269,14 +253,7 @@ This example shows how to break a URL into its components, update a component, t
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -291,7 +268,4 @@ This example shows how to break a URL into its components, update a component, t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateurl">WinHttpCreateUrl</a>
- 
-
- 
 

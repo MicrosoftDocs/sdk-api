@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: cb8f21f4-fa03-4006-8563-2026e70d5f43
 ms.date: 12/05/2018
 ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPMT method, IDvbSiParser.GetPMT, IDvbSiParser::GetPMT, IDvbSiParserGetPMT, dvbsiparser/IDvbSiParser::GetPMT, mstv.idvbsiparser_getpmt
-f1_keywords:
-- dvbsiparser/IDvbSiParser.GetPMT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser.GetPMT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser::GetPMT
+ - dvbsiparser/IDvbSiParser::GetPMT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser.GetPMT
 ---
 
 # IDvbSiParser::GetPMT
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,30 +57,21 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetPMT</b> method retrieves the program map table (PMT) for a specified packet identifier (PID).
 
-
 ## -parameters
-
-
-
 
 ### -param pid [in]
 
 Specifies the PID for the requested PMT.
 
-
 ### -param pwProgramNumber [in]
 
 Optional pointer to a variable that contains a table program number. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
-
 
 ### -param ppPMT [out]
 
 Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT</a> interface pointer. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -124,27 +114,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The method fails if the filter does not receive a matching table within a predetermined length of time.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
- 
-
- 
 

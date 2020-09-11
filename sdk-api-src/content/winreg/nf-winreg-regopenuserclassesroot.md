@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: bd068826-cf88-4fc7-a7d6-96cc03e923c7
 ms.date: 12/05/2018
 ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_regopenuserclassesroot, base.regopenuserclassesroot, winreg/RegOpenUserClassesRoot
-f1_keywords:
-- winreg/RegOpenUserClassesRoot
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegOpenUserClassesRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegOpenUserClassesRoot
+ - winreg/RegOpenUserClassesRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegOpenUserClassesRoot
 ---
 
 # RegOpenUserClassesRoot function
@@ -56,15 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a handle to the <b>HKEY_CLASSES_ROOT</b> key for a specified user. The user is identified by an access token. The returned key has a view of the registry that merges the contents of the <b>HKEY_LOCAL_MACHINE</b>\Software\Classes key with the contents of the Software\Classes keys in the user's registry hive. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/hkey-classes-root-key">HKEY_CLASSES_ROOT Key</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hToken [in]
 
@@ -82,39 +78,28 @@ A handle to a primary or impersonation access token that identifies the user of 
 The handle must have TOKEN_QUERY access. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
 
-
 ### -param dwOptions
 
 This parameter is reserved and must be zero.
-
 
 ### -param samDesired [in]
 
 A mask that specifies the desired access rights to the key. The function fails if the security descriptor of the key does not permit the requested access for the calling process. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
-
 ### -param phkResult [out]
 
 A pointer to a variable that receives a handle to the opened key. When you no longer need the returned handle, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close it.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>RegOpenUserClassesRoot</b> function enables you to retrieve the merged <b>HKEY_CLASSES_ROOT</b> information for users other than the interactive user. For example, the server component of a client/server application could use 
@@ -127,13 +112,7 @@ Applications running in the security context of the interactively logged-on user
 <b>RegOpenUserClassesRoot</b>. These applications can call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function to retrieve a merged view of the <b>HKEY_CLASSES_ROOT</b> key for the interactive user.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-loaduserprofilea">LoadUserProfile</a>
 
@@ -152,7 +131,4 @@ Applications running in the security context of the interactively logged-on user
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

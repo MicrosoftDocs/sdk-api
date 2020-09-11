@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoDecodeCommandList::EndEvent","EndEvent","ID3D1
 tech.root: mf
 ms.assetid: 726e14bf-a98a-4554-8ad9-3bd931bc9fd9
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoDecodeCommandList::EndEvent
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoDecodeCommandList::EndEvent, EndEvent, ID3D12VideoDecodeCommandList.EndEvent, ID3D12VideoDecodeCommandList::EndEvent, ID3D12VideoDecodeCommandList.EndEvent
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoDecodeCommandList::EndEvent
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::EndEvent
+ - d3d12video/ID3D12VideoDecodeCommandList::EndEvent
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoDecodeCommandList::EndEvent
 ---
 
 # ID3D12VideoDecodeCommandList::EndEvent
@@ -45,12 +46,11 @@ targetos: Windows
 
 ## -description
 
-
 For internal use only. Not intended to be called directly.
 
 ## -parameters
 
-
 ## -remarks
 
 ## -see-also
+

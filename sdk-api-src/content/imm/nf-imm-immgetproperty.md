@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
 ms.date: 12/05/2018
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
-f1_keywords:
-- imm/ImmGetProperty
-dev_langs:
-- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-- Ext-MS-Win-imm-l1-1-0.dll
-- ext-ms-win-imm-l1-1-1.dll
-api_name:
-- ImmGetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmGetProperty
+ - imm/ImmGetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+ - Ext-MS-Win-imm-l1-1-0.dll
+ - ext-ms-win-imm-l1-1-1.dll
+api_name:
+ - ImmGetProperty
 ---
 
 # ImmGetProperty function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the property and capabilities of the IME associated with the specified input locale.
 
-
 ## -parameters
-
-
-
 
 ### -param HKL [in]
 
 Input locale identifier.
-
 
 ### -param DWORD [in]
 
@@ -145,12 +140,8 @@ User interface capabilities.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns the property or capability value, depending on the value of the <i>dwIndex</i> parameter. If <i>dwIndex</i> is set to IGP_PROPERTY, the function returns one or more of the following values:
 
@@ -264,15 +255,8 @@ If <i>dwIndex</i> is set to IGP_GETIMEVERSION, the function returns one or more 
 <td>The IME was created for Windows Me/98/95.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
 
@@ -283,7 +267,4 @@ If <i>dwIndex</i> is set to IGP_GETIMEVERSION, the function returns one or more 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlongptr.htm
 ms.date: 12/05/2018
 ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, SetWindowLongPtr, SetWindowLongPtr function [Windows and Messages], SetWindowLongPtrA, SetWindowLongPtrW, _win32_SetWindowLongPtr, _win32_setwindowlongptr_cpp, winmsg.setwindowlongptr, winui._win32_setwindowlongptr, winuser/SetWindowLongPtr, winuser/SetWindowLongPtrA, winuser/SetWindowLongPtrW
-f1_keywords:
-- winuser/SetWindowLongPtr
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-windowclass-l1-1-2.dll
-api_name:
-- SetWindowLongPtr
-- SetWindowLongPtrA
-- SetWindowLongPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowLongPtrW
+ - winuser/SetWindowLongPtrW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+api_name:
+ - SetWindowLongPtr
+ - SetWindowLongPtrA
+ - SetWindowLongPtrW
 ---
 
 # SetWindowLongPtrW function
@@ -59,16 +60,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes an attribute of the specified window. The function also sets a value at the specified offset in the extra window memory. <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>SetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>SetWindowLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> function.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -77,7 +72,6 @@ Type: <b>HWND</b>
 A handle to the window and, indirectly, the class to which the window belongs. The <b>SetWindowLongPtr</b> function fails if the process that owns the window specified by the <i>hWnd</i> parameter is at a higher process privilege in the UIPI hierarchy than the process the calling thread resides in.
 
 <b>Windows XP/2000:  </b> The <b>SetWindowLongPtr</b> function fails if the window specified by the <i>hWnd</i> parameter does not belong to the same process as the calling thread.
-
 
 ### -param nIndex [in]
 
@@ -203,19 +197,14 @@ Sets new extra information that is private to the application, such as handles o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwNewLong [in]
 
 Type: <b>LONG_PTR</b>
 
-The replacement value. 
-
+The replacement value.
 
 ## -returns
-
-
 
 Type: <b>LONG_PTR</b>
 
@@ -225,12 +214,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the previous value is zero and the function succeeds, the return value is zero, but the function does not clear the last error information. To determine success or failure, clear the last error information by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with 0, then call <b>SetWindowLongPtr</b>. Function failure will be indicated by a return value of zero and a <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> result that is nonzero.
 
-
-
-
 ## -remarks
-
-
 
 Certain window data is cached, so changes you make using <b>SetWindowLongPtr</b> will not take effect until you call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
@@ -257,9 +241,6 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 > The winuser.h header defines SetWindowLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
@@ -294,7 +275,4 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
- 
-
- 
 

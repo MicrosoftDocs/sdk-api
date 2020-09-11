@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 22503D7B-A359-4877-A437-6A97D8835BC7
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect, IDCompositionBrightnessEffect interface [DirectComposition], IDCompositionBrightnessEffect interface [DirectComposition],described, dcomp/IDCompositionBrightnessEffect, directcomp.idcompositionbrightnesseffect
-f1_keywords:
-- dcomp/IDCompositionBrightnessEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionBrightnessEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionBrightnessEffect
+ - dcomp/IDCompositionBrightnessEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionBrightnessEffect
 ---
 
 # IDCompositionBrightnessEffect interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The brightness effect controls the brightness of the image.
-
 
 ## -inheritance
 
@@ -118,16 +117,9 @@ Sets the upper portion of the brightness transfer curve.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
 

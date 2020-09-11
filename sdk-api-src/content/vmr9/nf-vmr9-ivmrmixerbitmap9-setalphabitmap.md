@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 22aadb5b-8dc8-48ec-bff1-1bac498f3984
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap9.SetAlphaBitmap, IVMRMixerBitmap9::SetAlphaBitmap, IVMRMixerBitmap9SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_setalphabitmap, vmr9/IVMRMixerBitmap9::SetAlphaBitmap
-f1_keywords:
-- vmr9/IVMRMixerBitmap9.SetAlphaBitmap
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerBitmap9.SetAlphaBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerBitmap9::SetAlphaBitmap
+ - vmr9/IVMRMixerBitmap9::SetAlphaBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerBitmap9.SetAlphaBitmap
 ---
 
 # IVMRMixerBitmap9::SetAlphaBitmap
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetAlphaBitmap</code> method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pBmpParms [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9alphabitmap">VMR9AlphaBitmap</a> structure that contains information about the bitmap.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -134,14 +124,8 @@ BitBlt to bitmap surface failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To remove the bitmap, set the VMR9AlphaBitmap_Disable flag in the <b>VMR9AlphaBitmap</b> structure and call <code>SetAlphaBitmap</code> again.
 
@@ -161,13 +145,7 @@ If the method returns E_INVALIDARG, possible reasons include the following:
 </ul>
 Include DShow.h and D3d9.h before Vmr9.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-getalphabitmapparameters">GetAlphaBitmapParameters</a>
 
@@ -178,7 +156,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

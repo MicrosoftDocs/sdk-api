@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toasciiex.htm
 ms.date: 12/05/2018
 ms.keywords: ToAsciiEx, ToAsciiEx function [Keyboard and Mouse Input], _win32_ToAsciiEx, _win32_toasciiex_cpp, inputdev.toasciiex, winui._win32_toasciiex, winuser/ToAsciiEx
-f1_keywords:
-- winuser/ToAsciiEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- ToAsciiEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ToAsciiEx
+ - winuser/ToAsciiEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - ToAsciiEx
 ---
 
 # ToAsciiEx function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param uVirtKey [in]
 
@@ -68,13 +64,11 @@ Type: <b>UINT</b>
 
 The virtual-key code to be translated. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual-Key Codes</a>.
 
-
 ### -param uScanCode [in]
 
 Type: <b>UINT</b>
 
 The hardware scan code of the key to be translated. The high-order bit of this value is set if the key is up (not pressed).
-
 
 ### -param lpKeyState [in, optional]
 
@@ -84,13 +78,11 @@ A pointer to a 256-byte array that contains the current keyboard state. Each ele
 
 The low bit, if set, indicates that the key is toggled on. In this function, only the toggle bit of the CAPS LOCK key is relevant. The toggle state of the NUM LOCK and SCOLL LOCK keys is ignored.
 
-
 ### -param lpChar [out]
 
 Type: <b>LPWORD</b>
 
 A pointer to the buffer that receives the translated character or characters.
-
 
 ### -param uFlags [in]
 
@@ -98,17 +90,13 @@ Type: <b>UINT</b>
 
 This parameter must be 1 if a menu is active, zero otherwise.
 
-
 ### -param dwhkl [in, optional]
 
 Type: <b>HKL</b>
 
 Input locale identifier to use to translate the code. This parameter can be any input locale identifier previously returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -153,14 +141,8 @@ Two characters were copied to the buffer. This usually happens when a dead-key c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input.
 
@@ -173,13 +155,7 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
     <i>lpKeyState</i> (<b>VK_NUMLOCK</b>) because the 
     <i>uVirtKey</i> parameter alone is sufficient to distinguish the cursor movement keys (<b>VK_HOME</b>, <b>VK_INSERT</b>, and so on) from the numeric keys (<b>VK_DECIMAL</b>, <b>VK_NUMPAD0</b> - <b>VK_NUMPAD9</b>).
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -206,7 +182,4 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAsciiEx</
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: ad883ab5-6374-499e-9144-e5b85feaa471
 ms.date: 12/05/2018
 ms.keywords: WNDOBJ_bEnum, WNDOBJ_bEnum function [Display Devices], display.wndobj_benum, gdifncs_73e625c4-af7b-4e0e-aace-b930ca192444.xml, winddi/WNDOBJ_bEnum
-f1_keywords:
-- winddi/WNDOBJ_bEnum
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- WNDOBJ_bEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNDOBJ_bEnum
+ - winddi/WNDOBJ_bEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - WNDOBJ_bEnum
 ---
 
 # WNDOBJ_bEnum function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WNDOBJ_bEnum</b> function obtains a batch of rectangles from the visible region of a window.
 
-
 ## -parameters
-
-
-
 
 ### -param pwo
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
 
-
 ### -param cj
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pul</i>. GDI will not write beyond this limit.
-
 
 ### -param pul
 
@@ -80,20 +74,11 @@ typedef struct _ENUMRECTS{
 } ENUMRECTS;
 ```
 
-
-
 ## -returns
-
-
 
 The return value is <b>TRUE</b> if there is more data to be enumerated and the driver should repeat the call. It is <b>FALSE</b> if the enumeration is complete.
 
-
-
-
 ## -remarks
-
-
 
 The order of enumeration is determined by the call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-wndobj_cenumstart">WNDOBJ_cEnumStart</a>.
 
@@ -112,13 +97,7 @@ do {
 
 <b>WNDOBJ_bEnum</b> should be called only by the callback function provided to GDI by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a> function, or by the graphics DDI functions that are given a WNDOBJ.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
@@ -129,7 +108,4 @@ do {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-wndobj_cenumstart">WNDOBJ_cEnumStart</a>
- 
-
- 
 

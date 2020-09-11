@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method, GetPath method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetPath method, IWSDHttpAddress.GetPath, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
-f1_keywords:
-- wsdbase/IWSDHttpAddress.GetPath
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpAddress.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpAddress::GetPath
+ - wsdbase/IWSDHttpAddress::GetPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpAddress.GetPath
 ---
 
 # IWSDHttpAddress::GetPath
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the URI path for this address.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszPath [out]
 
 Pointer to the URI path for this address. Do not release this object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,18 +95,8 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: b3efdd31-44e6-47ff-bd0e-d31451c32818
 ms.date: 12/05/2018
 ms.keywords: PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectItems, PdhEnumObjectItems function [Perf], PdhEnumObjectItemsA, PdhEnumObjectItemsW, _win32_pdhenumobjectitems, base.pdhenumobjectitems, pdh/PdhEnumObjectItems, pdh/PdhEnumObjectItemsA, pdh/PdhEnumObjectItemsW, perf.pdhenumobjectitems
-f1_keywords:
-- pdh/PdhEnumObjectItems
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhEnumObjectItems
-- PdhEnumObjectItemsA
-- PdhEnumObjectItemsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhEnumObjectItemsA
+ - pdh/PdhEnumObjectItemsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhEnumObjectItems
+ - PdhEnumObjectItemsA
+ - PdhEnumObjectItemsW
 ---
 
 # PdhEnumObjectItemsA function
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file.
 			
 
 To use handles to data sources, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param szDataSource [in]
 
@@ -70,8 +66,6 @@ To use handles to data sources, use the
 
 
 the <i>szMachineName</i> parameter to enumerate the names.
-					
-
 
 ### -param szMachineName [in]
 
@@ -81,36 +75,28 @@ the <i>szMachineName</i> parameter to enumerate the names.
 Include the leading slashes in the computer name, for example, \\computername.
 
 If the <i>szDataSource</i> parameter is <b>NULL</b>, you can set <i>szMachineName</i> to <b>NULL</b> to specify the local computer.
-					
-
 
 ### -param szObjectName [in]
 
 <b>Null</b>-terminated string that specifies the name of the object whose counter and instance names you want to enumerate.
 
-
 ### -param mszCounterList [out]
 
 Caller-allocated buffer that receives a list of <b>null</b>-terminated counter names provided by the specified object. The list contains unique counter names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if the <i>pcchCounterListLength</i>parameter is zero.
-
 
 ### -param pcchCounterListLength [in, out]
 
 Size of the <i>mszCounterList</i> buffer, in <b>TCHARs</b>. If zero on input and the object exists, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
-
 ### -param mszInstanceList [out]
 
 Caller-allocated buffer that receives a list of <b>null</b>-terminated instance names provided by the specified object. The list contains unique instance names. The list is terminated by two <b>NULL</b> characters. Set to <b>NULL</b> if <i>pcchInstanceListLength</i> is zero.
-
 
 ### -param pcchInstanceListLength [in, out]
 
 Size of the <i>mszInstanceList</i> buffer, in <b>TCHARs</b>. If zero on input and the object exists, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
 If the specified object does not support variable instances, then the returned value will be zero. If the specified object does support variable instances, but does not currently have any instances, then the value returned is 2, which is the size of an empty MULTI_SZ list string.
-					
-
 
 ### -param dwDetailLevel [in]
 
@@ -164,17 +150,12 @@ System designer level of detail.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
 This parameter must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -244,14 +225,8 @@ The specified object could not be found on the specified computer or in the spec
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set the buffers to <b>NULL</b> and the sizes to 0), and the second time to get the data.
 
@@ -279,15 +254,9 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a>
- 
-
- 
 

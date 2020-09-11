@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: da8592a9-7727-433f-ac92-abf22a735eb2
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore, IInitializeWithPropertyStore interface [Windows Shell], IInitializeWithPropertyStore interface [Windows Shell],described, _shell_IInitializeWithPropertyStore, shell.IInitializeWithPropertyStore, shobjidl_core/IInitializeWithPropertyStore
-f1_keywords:
-- shobjidl_core/IInitializeWithPropertyStore
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IInitializeWithPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeWithPropertyStore
+ - shobjidl_core/IInitializeWithPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IInitializeWithPropertyStore
 ---
 
 # IInitializeWithPropertyStore interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a property store.
-
 
 ## -inheritance
 
@@ -77,30 +76,18 @@ Initializes a handler with an <a href="https://docs.microsoft.com/windows/deskto
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Use this interface when initializing a handler for OpenSearch result sets, which are returned as RSS or Atom feeds.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore">IInitializeWithPropertyStore</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5a0abafa-d770-4529-90e4-0c597729d525
 ms.date: 12/05/2018
 ms.keywords: ExposeSnapshot, ExposeSnapshot method [VSS], ExposeSnapshot method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],ExposeSnapshot method, IVssBackupComponents.ExposeSnapshot, IVssBackupComponents::ExposeSnapshot, _win32_ivssbackupcomponents_exposesnapshot, base.ivssbackupcomponents_exposesnapshot, vsbackup/IVssBackupComponents::ExposeSnapshot
-f1_keywords:
-- vsbackup/IVssBackupComponents.ExposeSnapshot
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.ExposeSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::ExposeSnapshot
+ - vsbackup/IVssBackupComponents::ExposeSnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.ExposeSnapshot
 ---
 
 # IVssBackupComponents::ExposeSnapshot
@@ -50,21 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ExposeSnapshot</b> method exposes a 
     shadow copy as a drive letter, mounted folder, or file share.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param SnapshotId [in]
 
 Shadow copy identifier.
-
 
 ### -param wszPathFromRoot [in]
 
@@ -76,8 +70,6 @@ The path cannot contain environment variables (for example, %MyEnv%) or wildcard
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that
        retrieve this information to check.
-      
-
 
 ### -param lAttributes [in]
 
@@ -85,8 +77,6 @@ Attributes of the exposed shadow copy indicating whether it is exposed locally o
       either the <b>VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY</b> or the 
       <b>VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY</b> value of 
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
-     
-
 
 ### -param wszExpose [in]
 
@@ -95,8 +85,6 @@ When a shadow copy is exposed as a file share, the value of this parameter is th
       example, "X:" or a mounted folder path (for example, "Y:\MountX"). If the value of this parameter is <b>NULL</b>, then VSS
       determines the share name or drive letter if the <i>lAttributes</i> parameter is 
       <b>VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY</b>.
-     
-
 
 ### -param pwszExposed [out]
 
@@ -105,10 +93,7 @@ The exposed name of the shadow copy. This is either a share name, a drive letter
       <b>ExposeSnapshot</b> failed.
      VSS allocates the memory for this string.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -226,14 +211,8 @@ Unexpected provider error. The error code is logged in the error log. For more i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for freeing the string that  the <i>pwszExposed</i> parameter points to by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
@@ -254,15 +233,8 @@ When exposed as a file share, subsets (indicated by <i>wszPathFromRoot</i>) of t
 For more information on how to expose shadow copies, see 
     <a href="https://docs.microsoft.com/windows/desktop/VSS/exposing-and-surfacing-shadow-copied-volumes">Exposing and Surfacing Shadow Copied
     Volumes</a>.
-   
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -281,7 +253,4 @@ For more information on how to expose shadow copies, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
- 
-
- 
 

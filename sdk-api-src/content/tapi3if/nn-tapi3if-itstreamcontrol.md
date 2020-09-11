@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 12b9457a-7afb-4348-93a2-28728c673929
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl, ITStreamControl interface [TAPI 2.2], ITStreamControl interface [TAPI 2.2],described, _tapi3_itstreamcontrol, tapi3.itstreamcontrol, tapi3if/ITStreamControl
-f1_keywords:
-- tapi3if/ITStreamControl
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3if.h
-api_name:
-- ITStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITStreamControl
+ - tapi3if/ITStreamControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3if.h
+api_name:
+ - ITStreamControl
 ---
 
 # ITStreamControl interface
 
 
 ## -description
-
 
 The 
 <b>ITStreamControl</b> interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
@@ -58,7 +58,6 @@ If this interface exists, a TAPI application acquires a pointer to this interfac
 
 Internal to the TAPI DLL, this interface is implemented by the MSP's call object, which is created in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">ITMSPAddress::CreateMSPCall</a> method. TAPI then aggregates this interface onto the TAPI call object and exposes it to TAPI applications.
-
 
 ## -inheritance
 
@@ -111,13 +110,9 @@ Removes a media stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
@@ -132,7 +127,4 @@ Removes a media stream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

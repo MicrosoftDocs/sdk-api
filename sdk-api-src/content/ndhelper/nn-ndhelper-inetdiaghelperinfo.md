@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 815e2338-0055-4078-a9a5-197db449c33d
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperInfo, INetDiagHelperInfo interface [NDF], INetDiagHelperInfo interface [NDF],described, ndf.inetdiaghelperinfo, ndhelper/INetDiagHelperInfo
-f1_keywords:
-- ndhelper/INetDiagHelperInfo
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelperInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelperInfo
+ - ndhelper/INetDiagHelperInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelperInfo
 ---
 
 # INetDiagHelperInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetDiagHelperInfo</b> interface provides a method that is called by the Network Diagnostics Framework (NDF) when it needs to validate that it has the necessary information for a helper class and that it has chosen the correct helper class.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves the list of key parameters required by the Helper Class Extension.
 
 </td>
 </tr>
-</table> 
+</table>
 

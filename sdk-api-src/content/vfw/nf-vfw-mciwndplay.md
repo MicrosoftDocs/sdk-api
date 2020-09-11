@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: bfa88925-2f2a-4bbb-bd89-479515f759ac
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPlay, multimedia.mciwndplay, vfw/MCIWndPlay
-f1_keywords:
-- vfw/MCIWndPlay
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndPlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndPlay
+ - vfw/MCIWndPlay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndPlay
 ---
 
 # MCIWndPlay macro
@@ -49,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndPlay</b> macro sends a command to an MCI device to start playing from the current position in the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-play">MCI_PLAY</a> command.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
+Handle of the MCIWnd window.
 

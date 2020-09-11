@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 788b5f5f-b300-4c86-afbd-416b938f21c1
 ms.date: 12/05/2018
 ms.keywords: ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z, ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceByPath method, CWbemProviderGlue.GetInstanceByPath, CWbemProviderGlue.GetInstanceByPath(LPCWSTR,CInstance,MethodContext), CWbemProviderGlue::GetInstanceByPath, CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext), GetInstanceByPath, GetInstanceByPath method [Windows Management Instrumentation], GetInstanceByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancebypath, wbemglue/CWbemProviderGlue::GetInstanceByPath, wmi.cwbemproviderglue_getinstancebypath
-f1_keywords:
-- wbemglue/CWbemProviderGlue.GetInstanceByPath
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue.GetInstanceByPath
-- ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z
-- ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue::GetInstanceByPath
+ - wbemglue/CWbemProviderGlue::GetInstanceByPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue.GetInstanceByPath
+ - ?GetInstanceByPath@CWbemProviderGlue@@SAJPEBGPEAPEAVCInstance@@PEAVMethodContext@@@Z
+ - ?GetInstanceByPath@CWbemProviderGlue@@SGJPBGPAPAVCInstance@@PAVMethodContext@@@Z
 ---
 
 # CWbemProviderGlue::GetInstanceByPath(LPCWSTR,CInstance,MethodContext)
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -63,22 +63,16 @@ The <b>GetInstanceByPath</b> method
     retrieves the instance identified by a particular object path by calling the provider 
     <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)">GetObject</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pszObjectPath
 
 An object path to the instance to be returned.
 
-
 ### -param ppInstance
 
 A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> instance used to 
       store the new instance. The framework provider that performs the request must release this pointer.
-
 
 ### -param pMethodContext
 
@@ -89,21 +83,13 @@ A pointer to the current context. A context must be provided to prevent deadlock
       instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. 
       This parameter must not be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, 
        <b>WBEM_E_OUT_OF_MEMORY</b> if the operation failed due to lack of memory, or any other 
        <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetInstanceByPath</b> method 
     allows framework providers to access data from another provider without requiring a WMI API call. Framework 
@@ -120,6 +106,4 @@ Although <i>pMethodContext</i> has a default value of <b>NULL</b>, a
     <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the 
     instance using 
     <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>.
-
-
 

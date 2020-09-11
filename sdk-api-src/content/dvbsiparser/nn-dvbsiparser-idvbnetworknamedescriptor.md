@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1b80892d-05e6-4776-932a-a9e2bf985984
 ms.date: 12/05/2018
 ms.keywords: IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/ IDvbNetworkNameDescriptor, mstv.idvbnetworknamedescriptor
-f1_keywords:
-- dvbsiparser/IDvbNetworkNameDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbNetworkNameDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbNetworkNameDescriptor
+ - dvbsiparser/IDvbNetworkNameDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbNetworkNameDescriptor
 ---
 
 # IDvbNetworkNameDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) network name descriptor. The network name descriptor gets text format information about the network that originated the broadcast.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Gets the tag that identifies a DVB network name descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c
 ms.date: 12/05/2018
 ms.keywords: 92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext
-f1_keywords:
-- recapis/ResetContext
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- ResetContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResetContext
+ - recapis/ResetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - ResetContext
 ---
 
 # ResetContext function
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Deletes the current ink and recognition results from the context.
 
 The current settings of the recognizer context are preserved. The settings can include the recognition guide, character Autocomplete mode, and any recognition hints that improve recognition results. An example of a recognition hint may include whether a factoid is set indicating that the ink is a phone number, a name, or a URL. The TextContext and Wordlists are preserved in the context.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -113,18 +103,8 @@ An invalid argument was received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-clonecontext">CloneContext Function</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c38bfcc0-c696-41cc-9531-7c8f15c0b512
 ms.date: 12/05/2018
 ms.keywords: ID2D1Properties, ID2D1Properties interface [Direct2D], ID2D1Properties interface [Direct2D],described, d2d1_1/ID2D1Properties, direct2d.id2d1properties
-f1_keywords:
-- d2d1_1/ID2D1Properties
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Properties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Properties
+ - d2d1_1/ID2D1Properties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Properties
 ---
 
 # ID2D1Properties interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a set of run-time bindable and discoverable properties that allow a data-driven application to modify the state of a Direct2D effect.
-
 
 ## -inheritance
 
@@ -167,12 +166,9 @@ Sets the named property to the given value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface supports access through either indices or property names. In addition to top-level properties, each property in an <b>ID2D1Properties</b> object may contain an <b>ID2D1Properties</b> object, which stores metadata describing the parent property. 
 
@@ -403,22 +399,12 @@ The above example makes use of the following sub-properties. Please see the <a h
 <td>The index which corresponds to the <i>N</i>th enumeration value.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

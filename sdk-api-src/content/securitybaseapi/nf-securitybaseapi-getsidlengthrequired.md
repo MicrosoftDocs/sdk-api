@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a481fb4f-20bd-4f44-a3d5-d8b8d6228339
 ms.date: 12/05/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired
-f1_keywords:
-- securitybaseapi/GetSidLengthRequired
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- GetSidLengthRequired
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSidLengthRequired
+ - securitybaseapi/GetSidLengthRequired
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - GetSidLengthRequired
 ---
 
 # GetSidLengthRequired function
@@ -56,44 +57,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSidLengthRequired</b> function returns the length, in bytes, of the buffer required to store a SID with a specified number of subauthorities.
 
-
 ## -parameters
-
-
-
 
 ### -param nSubAuthorityCount [in]
 
 Specifies the number of subauthorities to be stored in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure.
 
-
 ## -returns
-
-
 
 The return value is the length, in bytes, of the buffer required to store the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure. This function cannot fail.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure specified in <i>nSubAuthorityCount</i> uses a 32-bit RID value. For applications that require longer RID values, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createwellknownsid">CreateWellKnownSid</a> and related functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -136,7 +118,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
- 
-
- 
 

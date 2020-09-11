@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
 ms.date: 12/05/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata.AddFilesToFileGroup
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata.AddFilesToFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata::AddFilesToFileGroup
+ - vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata.AddFilesToFileGroup
 ---
 
 # IVssCreateWriterMetadata::AddFilesToFileGroup
@@ -50,25 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AddFilesToFileGroup</b> method adds a file set (a specified file or files) to a specified file group component.
 
-
 ## -parameters
-
-
-
 
 ### -param wszLogicalPath [in]
 
 Pointer to a <b>null</b>-terminated wide character string containing the logical path (which may be <b>NULL</b>) of the component to which to add the files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
-
 ### -param wszGroupName [in]
 
 Pointer to a <b>null</b>-terminated wide character string containing the name of the file group component. The type of this component must be VSS_CT_FILEGROUP; otherwise, the method will return an error.
-
 
 ### -param wszPath [in]
 
@@ -85,7 +79,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
 
-
 ### -param wszFilespec [in]
 
 Pointer to a <b>null</b>-terminated wide character string containing the file specification of the files to be included. 
@@ -94,7 +87,6 @@ Pointer to a <b>null</b>-terminated wide character string containing the file sp
 
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -105,7 +97,6 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 
 For information on traversing over mounted folders, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
-
 
 ### -param wszAlternateLocation [in]
 
@@ -119,7 +110,6 @@ Specifying an alternate path is optional; if no alternate path is needed, <i>wsz
 
 An alternate path should not be confused with an alternate location mapping.
 
-
 ### -param dwBackupTypeMask [in]
 
 A bitmask of 
@@ -130,10 +120,7 @@ A bitmask of
 
 The default value for this argument is (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -230,14 +217,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012. Writers support only local resources—sets of files whose absolute path starts with a valid local volume specification and cannot be a mapped network drive. Therefore, path inputs (<i>wszPath</i> and <i>wszAlternatePath</i>) to 
 <b>AddFilesToFileGroup</b> (after the resolution of any environment variables) must be in this format.
@@ -261,20 +242,11 @@ Note the following when using path information provided by
 For more information on backup and restore file locations under VSS, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a>
- 
-
- 
 

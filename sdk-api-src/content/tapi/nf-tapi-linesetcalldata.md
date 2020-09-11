@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f428f952-f8ff-4b55-a957-58fdb35a8c0e
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetcalldata, lineSetCallData, lineSetCallData function [TAPI 2.2], tapi/lineSetCallData, tapi2.linesetcalldata
-f1_keywords:
-- tapi/lineSetCallData
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineSetCallData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineSetCallData
+ - tapi/lineSetCallData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineSetCallData
 ---
 
 # lineSetCallData function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineSetCallData</b> function sets the <b>CallData</b> member in 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>. Depending on the service provider implementation, the <b>CallData</b> member can be propagated to all applications having handles to the call, including those on other machines (through the server), and can travel with the call when it is transferred.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call. The application must have OWNER privilege.
-
 
 ### -param lpCallData
 
 Address of the data to be copied to the <b>CallData</b> member in 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>, replacing any existing data. For more information, see the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-data-ovr">call data</a> topic.
-
 
 ### -param dwSize
 
@@ -84,19 +78,11 @@ Number of bytes of data to be copied. A value of 0 causes any existing data to b
 
 ## -returns
 
-
-
 Returns a positive request identifier if the asynchronous operation starts; otherwise, the function returns one of these negative error values:
 
 LINEERR_INVALCALLHANDLE, LINEERR_INVALCALLSTATE, LINEERR_INVALPARAM, LINEERR_INVALPOINTER, LINEERR_NOMEM, LINEERR_NOTOWNER, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL, LINEERR_RESOURCEUNAVAIL, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
@@ -107,7 +93,4 @@ LINEERR_INVALCALLHANDLE, LINEERR_INVALCALLSTATE, LINEERR_INVALPARAM, LINEERR_INV
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
- 
-
- 
 

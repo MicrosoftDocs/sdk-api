@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 76d3cd52-30bd-48b0-8adc-c23991a60d1b
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], IMMNotificationClient interface [Core Audio],described, coreaudio.immnotificationclient, mmdeviceapi/IMMNotificationClient
-f1_keywords:
-- mmdeviceapi/IMMNotificationClient
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMNotificationClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMNotificationClient
+ - mmdeviceapi/IMMNotificationClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMNotificationClient
 ---
 
 # IMMNotificationClient interface
 
 
 ## -description
-
-
 
 The <b>IMMNotificationClient</b> interface provides notifications when an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a> is added or removed, when the state or properties of an endpoint device change, or when there is a change in the default role assigned to an endpoint device. Unlike the other interfaces in this section, which are implemented by the MMDevice API system component, an MMDevice API client implements the <b>IMMNotificationClient</b> interface. To receive notifications, the client passes a pointer to its <b>IMMNotificationClient</b> interface instance as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">IMMDeviceEnumerator::RegisterEndpointNotificationCallback</a> method.
 
@@ -71,9 +70,6 @@ In implementing the <b>IMMNotificationClient</b> interface, the client should ob
 <li>The client should never release the final reference on an MMDevice API object during an event callback.</li>
 </ul>
 For a code example that implements the <b>IMMNotificationClient</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>.
-
-
-
 
 ## -inheritance
 
@@ -135,13 +131,9 @@ Indicates that the value of a property belonging to an audio endpoint device has
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -164,7 +156,4 @@ Indicates that the value of a property belonging to an audio endpoint device has
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>
- 
-
- 
 

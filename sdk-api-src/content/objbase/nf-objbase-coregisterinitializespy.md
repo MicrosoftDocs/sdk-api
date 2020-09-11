@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1fd5606e-0a15-429a-b656-4620b873bec5
 ms.date: 12/05/2018
 ms.keywords: CoRegisterInitializeSpy, CoRegisterInitializeSpy function [COM], _com_CoRegisterInitializeSpy, com.coregisterinitializespy, objbase/CoRegisterInitializeSpy
-f1_keywords:
-- objbase/CoRegisterInitializeSpy
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-private-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-- API-MS-Win-Core-COM-Private-l1-1-1.dll
-api_name:
-- CoRegisterInitializeSpy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoRegisterInitializeSpy
+ - objbase/CoRegisterInitializeSpy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-private-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+ - API-MS-Win-Core-COM-Private-l1-1-1.dll
+api_name:
+ - CoRegisterInitializeSpy
 ---
 
 # CoRegisterInitializeSpy function
@@ -54,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface. The <b>IInitializeSpy</b> interface is defied to allow developers to perform initialization and cleanup on COM apartments.
 
-
 ## -parameters
-
-
-
 
 ### -param pSpy [in]
 
 A pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> implementation.
 
-
 ### -param puliCookie [out]
 
 The address at which to store a cookie that identifies this registration.
 
-
 ## -returns
-
-
 
 This function can return the standard return value E_INVALIDARG, as well as the following values.
 
@@ -107,14 +99,8 @@ The object does not support <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoRegisterInitializeSpy</b> function registers an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface, which defines methods to be called when <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>) or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> is invoked.
 
@@ -135,20 +121,11 @@ Notification methods must not cause the failure of <a href="https://docs.microso
 
 It is unpredictable whether a call to <b>CoRegisterInitializeSpy</b> from within an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> method call will be effective during the current top-level (non-nested) call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>. A registered implementation of <b>IInitializeSpy</b> will always be effective for future top-level calls to <b>CoInitializeEx</b> or <b>CoUninitialize</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokeinitializespy">CoRevokeInitializeSpy</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
- 
-
- 
 

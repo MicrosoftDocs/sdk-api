@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: b7c686f8-ed6a-44d6-ab76-f6d6c7d154a0
 ms.date: 12/05/2018
 ms.keywords: IValidate, IValidate interface, IValidate interface,described, evalcom2/IValidate, setup.ivalidate
-f1_keywords:
-- evalcom2/IValidate
-dev_langs:
-- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Evalcom2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Evalcom2.dll
-api_name:
-- IValidate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IValidate
+ - evalcom2/IValidate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Evalcom2.dll
+api_name:
+ - IValidate
 ---
 
 # IValidate interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IValidate</b> interface enables authoring tools to validate a Windows Installer package against a set of <a href="https://docs.microsoft.com/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluators</a>.
-
 
 ## -inheritance
 
@@ -131,13 +130,9 @@ Validates the current installation package or merge module against the internal 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
@@ -148,7 +143,4 @@ Validates the current installation package or merge module against the internal 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
- 
-
- 
 

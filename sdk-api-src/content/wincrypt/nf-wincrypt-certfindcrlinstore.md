@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3e481912-204a-4d86-ab67-81f8ae4d1aaa
 ms.date: 12/05/2018
 ms.keywords: CRL_FIND_ANY, CRL_FIND_EXISTING, CRL_FIND_ISSUED_BY, CRL_FIND_ISSUED_BY_AKI_FLAG, CRL_FIND_ISSUED_BY_BASE_FLAG, CRL_FIND_ISSUED_BY_DELTA_FLAG, CRL_FIND_ISSUED_BY_SIGNATURE_FLAG, CRL_FIND_ISSUED_FOR, CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG, CertFindCRLInStore, CertFindCRLInStore function [Security], _crypto2_certfindcrlinstore, security.certfindcrlinstore, wincrypt/CertFindCRLInStore
-f1_keywords:
-- wincrypt/CertFindCRLInStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertFindCRLInStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertFindCRLInStore
+ - wincrypt/CertFindCRLInStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertFindCRLInStore
 ---
 
 # CertFindCRLInStore function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertFindCRLInStore</b> function finds the first or next <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that matches a search criterion established by the <i>dwFindType</i> parameter and the associated <i>pvFindPara</i> parameter. This function can be used in a loop to find all of the CRL contexts in a certificate store that match the specified find criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 A handle of the certificate store to be searched.
 
-
 ### -param dwCertEncodingType [in]
 
 This parameter is not currently used. It must be set to zero.
-
 
 ### -param dwFindFlags [in]
 
@@ -136,8 +130,6 @@ The signature is checked for strength after successful verification. This flag a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFindType [in]
 
@@ -202,13 +194,10 @@ If no CRL is found, searches for the next CRL in the store that matches the issu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvFindPara [in]
 
 This parameter is determined by the value of <i>dwFindType</i>. For details, see the table earlier in this topic.
-
 
 ### -param pPrevCrlContext [in]
 
@@ -216,10 +205,7 @@ A pointer to the last
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> returned by this function. Must be <b>NULL</b> to get the first CRL in the store meeting the search criteria. Successive CRLs meeting the search criteria can be found by setting <i>pPrevCrlContext</i> to the <b>PCCRL_CONTEXT</b> pointer returned by a previous call to the function. The search process skips any CRLs that do not match the search criteria or that have been previously deleted from the store by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecrlfromstore">CertDeleteCRLFromStore</a>. This function frees the <b>CRL_CONTEXT</b> referenced by values of this parameter that are not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a pointer to a read-only CRL context. When you have finished using the returned CRL context, free it by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a> function or implicitly free it by passing it as the <i>pPrevCrlContext</i> parameter on a subsequent call to the <b>CertFindCRLInStore</b> function.
@@ -257,14 +243,8 @@ No CRLs are in the store, no CRL was found that matched the search criteria, or 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The returned pointer is freed when passed as the <i>pPrevCrlContext</i> parameter on a subsequent call to the function. Otherwise, the pointer must be explicitly freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>. A <i>pPrevCrlContext</i> that is not <b>NULL</b> is always freed by <b>CertFindCRLInStore</b> using a call to <b>CertFreeCRLContext</b>, even if there is an error in the function.
@@ -274,13 +254,7 @@ The returned pointer is freed when passed as the <i>pPrevCrlContext</i> paramete
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore">CertAddCRLContextToStore</a>, or a link to that CRL context can be added to a noncollection store by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrllinktostore">CertAddCRLLinkToStore</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
@@ -307,7 +281,4 @@ The returned pointer is freed when passed as the <i>pPrevCrlContext</i> paramete
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: e03816a4-0b86-4e0b-a45e-8148c8ba5472
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpPathTable, GetIpPathTable function [IP Helper], iphlp.getippathtable, netioapi/GetIpPathTable
-f1_keywords:
-- netioapi/GetIpPathTable
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpPathTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpPathTable
+ - netioapi/GetIpPathTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpPathTable
 ---
 
 # GetIpPathTable function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpPathTable</b> function retrieves the IP path table on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -108,18 +104,13 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Table [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_table">MIB_IPPATH_TABLE</a> structure that contains a table of IP path entries on the local computer. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_table">MIB_IPPATH_TABLE</a> structure that contains a table of IP path entries on the local computer.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -187,14 +178,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpPathTable</b> function is defined on Windows Vista and later. 
 
@@ -205,17 +190,9 @@ The IP path entries are returned in a <a href="https://docs.microsoft.com/window
 
 The <i>Family</i> parameter must be initialized to either <b>AF_INET</b>,  <b>AF_INET6</b>, or <b>AF_UNSPEC</b>. 
 
-Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_table">MIB_IPPATH_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_IPPATH_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_IPPATH_ROW</b> array entries. Any access to a <b>MIB_IPPATH_ROW</b> array entry should assume  padding may exist. 
-
-
-
-
-
+Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_table">MIB_IPPATH_TABLE</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> array entry in the <b>Table</b> member of the <b>MIB_IPPATH_TABLE</b> structure. Padding for alignment may also be present between the <b>MIB_IPPATH_ROW</b> array entries. Any access to a <b>MIB_IPPATH_ROW</b> array entry should assume  padding may exist.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-flushippathtable">FlushIpPathTable</a>
 
@@ -234,7 +211,4 @@ Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_table">MIB_IPPATH_TABLE</a>
- 
-
- 
 

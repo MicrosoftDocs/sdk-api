@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
 ms.date: 12/05/2018
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
-f1_keywords:
-- winineti/InternetGoOnline
-dev_langs:
-- c++
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetGoOnline
-- InternetGoOnlineA
-- InternetGoOnlineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetGoOnlineA
+ - winineti/InternetGoOnlineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetGoOnline
+ - InternetGoOnlineA
+ - InternetGoOnlineW
 ---
 
 # InternetGoOnlineA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Prompts the user for permission to initiate connection to a URL.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszURL [in]
 
 Pointer to a null-terminated string that specifies the URL of the website for the connection.
 
-
 ### -param hwndParent [in]
 
 Handle to the parent window.
-
 
 ### -param dwFlags [in]
 
@@ -90,12 +84,8 @@ This flag is not used.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
@@ -123,14 +113,8 @@ The <i>dwFlags</i> parameter contains a value other than zero or <b>INTERNET_GOO
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
@@ -143,15 +127,9 @@ The <i>dwFlags</i> parameter contains a value other than zero or <b>INTERNET_GOO
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/establishing-a-dial-up-connection-to-the-internet">Establishing a Dial-Up Connection to the Internet</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

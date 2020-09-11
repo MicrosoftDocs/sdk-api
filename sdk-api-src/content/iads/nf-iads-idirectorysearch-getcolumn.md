@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetColumn method, IDirectorySearch.GetColumn, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
-f1_keywords:
-- iads/IDirectorySearch.GetColumn
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-- Adsldp.dll
-- Adsldpc.dll
-api_name:
-- IDirectorySearch.GetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectorySearch::GetColumn
+ - iads/IDirectorySearch::GetColumn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+ - Adsldp.dll
+ - Adsldpc.dll
+api_name:
+ - IDirectorySearch.GetColumn
 ---
 
 # IDirectorySearch::GetColumn
@@ -51,44 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectorySearch::GetColumn</b> method gets data from a named column of the search result.
 
-
 ## -parameters
-
-
-
 
 ### -param hSearchResult [in]
 
 Provides a handle to the search context.
 
-
 ### -param szColumnName [in]
 
 Provides the name of the column for which data is requested.
-
 
 ### -param pSearchColumn [out]
 
 Provides the address of a method-allocated  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure that contains the column from the current row of the search result.
 
-
 ## -returns
-
-
 
 This method returns the standard return values, as well as the following.
 
 For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The method allocates the memory for the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure to hold the data of the column. But the caller must free the memory by calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">IDirectorySearch::FreeColumn</a>.
 
@@ -130,14 +116,7 @@ while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
 m_pSearch->CloseSearchHandle( hSearch );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -152,7 +131,4 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">IDirectorySearch::FreeColumn</a>
- 
-
- 
 

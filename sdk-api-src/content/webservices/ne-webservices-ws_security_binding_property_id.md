@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 6c8b3277-3f49-469b-9783-c552a4c44558
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS, WS_SECURITY_BINDING_PROPERTY_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE, WS_SECURITY_BINDING_PROPERTY_DISABLE_CERT_REVOCATION_CHECK, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET, WS_SECURITY_BINDING_PROPERTY_ID, WS_SECURITY_BINDING_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_BINDING_PROPERTY_MESSAGE_PROPERTIES, WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, WS_SECURITY_BINDING_PROPERTY_REQUIRE_SSL_CLIENT_CERT, WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_SIZE, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_ACTIVE_CONTEXTS, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_PENDING_CONTEXTS, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_RENEWAL_INTERVAL, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_ROLLOVER_INTERVAL, WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_SUPPORT_RENEW, WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE, webservices/WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL, webservices/WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS, webservices/WS_SECURITY_BINDING_PROPERTY_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT, webservices/WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE, webservices/WS_SECURITY_BINDING_PROPERTY_DISABLE_CERT_REVOCATION_CHECK, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME, webservices/WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET, webservices/WS_SECURITY_BINDING_PROPERTY_ID, webservices/WS_SECURITY_BINDING_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, webservices/WS_SECURITY_BINDING_PROPERTY_REQUIRE_SSL_CLIENT_CERT, webservices/WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_SIZE, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_ACTIVE_CONTEXTS, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_PENDING_CONTEXTS, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_RENEWAL_INTERVAL, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_ROLLOVER_INTERVAL, webservices/WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_SUPPORT_RENEW, webservices/WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE, wsw.ws_security_binding_property_id
-f1_keywords:
-- webservices/WS_SECURITY_BINDING_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SECURITY_BINDING_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_SECURITY_BINDING_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_SECURITY_BINDING_PROPERTY_ID
+ - webservices/WS_SECURITY_BINDING_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SECURITY_BINDING_PROPERTY_ID
 ---
 
 # WS_SECURITY_BINDING_PROPERTY_ID enumeration
 
 
 ## -description
-
 
 Identifies the properties used to specify security
               binding settings.  Security binding settings are present 
@@ -63,13 +63,8 @@ settings at channel / listener creation time to influence how a
 security token is created and used, whereas <b>WS_SECURITY_TOKEN_PROPERTY_ID</b>enables extracting fields out of a security token -- typically a
 security token from a received message when the channel and security
 are 'live'.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_REQUIRE_SSL_CLIENT_CERT
 
@@ -79,8 +74,6 @@ default is <b>FALSE</b>.
 
 This setting may be specified in the security binding properties of a
 server-side <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE
 
@@ -89,8 +82,6 @@ when performing Windows Integrated Authentication.  The default is <b>WS_WINDOWS
                 
 
 This setting may be specified in the security binding properties of <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH
 
@@ -110,8 +101,6 @@ to be allowed, this property must be set to
 
 This setting may be specified only in the security binding properties
 of a client-side <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS
 
@@ -123,8 +112,6 @@ is <b>FALSE</b>.
 
 This setting may be specified only in the security binding properties
 of a server-side <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL
 
@@ -134,8 +121,6 @@ Integrated Authentication to communicate with a service.  The default impersonat
 
 This setting may be specified in the security binding properties
 of <a href="/windows/win32/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>,   <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_namedpipe_sspi_transport_security_binding">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME
 
@@ -191,8 +176,6 @@ Note: Using "localhost", "127.0.0.1" or similar ways to refer to the local machi
 
 This setting may be specified in the security binding properties of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>. 
                     The default is <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_node_type">WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_TARGET
 
@@ -202,8 +185,6 @@ is for the target server or the proxy server. Default value is <b>WS_HTTP_HEADER
                 
 
 This setting may be specified in the security binding properties of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_BASIC_REALM
 
@@ -213,8 +194,6 @@ authentication scheme.
 
 This setting may be specified in the security binding properties of a
 server side <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_REALM
 
@@ -224,8 +203,6 @@ header authentication scheme.
 
 This setting may be specified in the security binding properties of a
 server side <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN
 
@@ -235,23 +212,17 @@ HTTP header authentication scheme.
 
 This setting may be specified in the security binding properties of a
 server side <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_SIZE
 
 A <b>ULONG</b> that specifies the key size (in bits) of the security token to be requested from an
 issuer.  If unspecified, the issuer decides the size. May be used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_KEY_ENTROPY_MODE
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_key_entropy_mode">WS_SECURITY_KEY_ENTROPY_MODE</a> value that specifies how entropy contributes to the key in issued symmetric key
 tokens.  The default is <b>WS_SECURITY_KEY_ENTROPY_MODE_COMBINED</b>. 
 This setting may be specified in the security binding properties of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_MESSAGE_PROPERTIES
 
@@ -260,30 +231,22 @@ The set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/n
             be used for the security token obtaining exchange.  If this property
             is not specified, the request and reply messages are created with the
             default message properties. This setting may be specified in the security binding properties of the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-          
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_PENDING_CONTEXTS
 
 A <b>ULONG</b> that specifies the maximum number of pending security contexts on the service that
                   have not been accepted by the application (or service model) as
                   channels. The default is 100. The setting may be specified in the security binding properties of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_MAX_ACTIVE_CONTEXTS
 
 A <b>ULONG</b> that specifies the maximum number of active security contexts on the service. The default is 1000. 
             The setting may be specified in the security binding properties of  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-          
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURE_CONVERSATION_VERSION
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_secure_conversation_version">WS_SECURE_CONVERSATION_VERSION</a> value that specifies the version of WS-SecureConversation to use. The default is <b>WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005</b>.
             This setting may be specified in the security binding properties of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-          
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_SUPPORT_RENEW
 
@@ -293,8 +256,6 @@ A <b>BOOL</b> that specifies
             will be established. On the server, all incoming renew messages will be 
             rejected. The default is <b>TRUE</b>.
             This setting may be specified in the security binding properties of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-          
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_RENEWAL_INTERVAL
 
@@ -303,8 +264,6 @@ A 	<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webser
             and denotes context lifetime. A server context must be renewed before that limit is reached.
             This setting may be specified in the security binding properties of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-          
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_SECURITY_CONTEXT_ROLLOVER_INTERVAL
 
@@ -312,8 +271,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
             This tolerance interval is provided to smoothly handle application messages during session renewal.
             This setting may be specified in the security binding properties of the 
  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_context_message_security_binding">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a> structure.
-          
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_CERT_FAILURES_TO_IGNORE
 
@@ -326,8 +283,6 @@ A <b>ULONG</b> that specifies a set of certificate verification failures that ar
 
 Ignoring certificate verification failures can expose the application to potential security vulnerabilities. 
                     The use of this property should be carefully evaluated.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_DISABLE_CERT_REVOCATION_CHECK
 
@@ -338,11 +293,8 @@ A <b>BOOL</b> that specifies the state of certificate revocation checking.  When
 
 Disabling certificate revocation checking can expose the application to potential security vulnerabilities. 
                     The use of this property should be carefully evaluated.
-                
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_DISALLOWED_SECURE_PROTOCOLS
-
 
 ### -field WS_SECURITY_BINDING_PROPERTY_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
 

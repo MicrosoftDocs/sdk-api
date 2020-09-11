@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 264c67b6-848d-48ef-9bfa-4990bfa2fbf5
 ms.date: 12/05/2018
 ms.keywords: CompareStringEx, CompareStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_CompareStringEx, _win32_CompareStringEx_cpp, intl.comparestringex, stringapiset/CompareStringEx, winui._win32_CompareStringEx
-f1_keywords:
-- stringapiset/CompareStringEx
-dev_langs:
-- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CompareStringEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CompareStringEx
+ - stringapiset/CompareStringEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CompareStringEx
 ---
 
 # CompareStringEx function
@@ -53,14 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two Unicode (wide character) strings, for a <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">locale</a> specified by name.
 <div class="alert"><b>Caution</b>  Using <b>CompareStringEx</b> incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them, and provide error handlers. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div><div> </div><div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> if designed to run only on Windows Vista and later.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -198,28 +195,22 @@ Treat punctuation the same as symbols.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpString1 [in]
 
 Pointer to the first string to compare.
 
-
 ### -param cchCount1 [in]
 
 Length of the string indicated by <i>lpString1</i>, excluding the terminating null character. The application can supply a negative value if the string is null-terminated. In this case, the function determines the length automatically.
-
 
 ### -param lpString2 [in]
 
 Pointer to the second string to compare.
 
-
 ### -param cchCount2 [in]
 
 Length of the string indicated by <i>lpString2</i>, excluding the terminating null character. The application can supply a negative value if the string is null-terminated. In this case, the function determines the length automatically.
-
 
 ### -param lpVersionInformation [in, optional]
 
@@ -227,20 +218,15 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-
 
 <b>Windows Vista, Windows 7:</b> Reserved; must set to <b>NULL</b>.
 
-
 ### -param lpReserved [in, optional]
 
 Reserved; must set to <b>NULL</b>.
-
 
 ### -param lParam [in, optional]
 
 Reserved; must be set to 0.
 
-
 ## -returns
-
-
 
 Returns one of the following values if successful. To maintain the C runtime convention of comparing strings, the value 2 can be subtracted from a nonzero return value. Then, the meaning of &lt;0, ==0, and &gt;0 is consistent with the C runtime.
 
@@ -256,11 +242,7 @@ The function returns 0 if it does not succeed. To get extended error information
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid. </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 Both <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> are optimized to run at the highest speed when <i>dwCmpFlags</i> is set to 0 or NORM_IGNORECASE, <i>cchCount1</i> and <i>cchCount2</i> are set to -1, and the locale does not support any linguistic compressions, as when traditional Spanish sorting treats "ch" as a single character.
 
@@ -285,12 +267,7 @@ An example showing the use of this function can be found in <a href="https://doc
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
@@ -317,7 +294,4 @@ An example showing the use of this function can be found in <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
- 
-
- 
 

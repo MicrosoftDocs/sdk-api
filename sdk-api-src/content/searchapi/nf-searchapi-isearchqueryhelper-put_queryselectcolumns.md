@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_queryselectcolumns.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySelectColumns method, ISearchQueryHelper.put_QuerySelectColumns, ISearchQueryHelper::put_QuerySelectColumns, _search_ISearchQueryHelper_put_QuerySelectColumns, put_QuerySelectColumns, put_QuerySelectColumns method [search], put_QuerySelectColumns method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySelectColumns, searchapi/ISearchQueryHelper::put_QuerySelectColumns
-f1_keywords:
-- searchapi/ISearchQueryHelper.put_QuerySelectColumns
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchQueryHelper.put_QuerySelectColumns
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchQueryHelper::put_QuerySelectColumns
+ - searchapi/ISearchQueryHelper::put_QuerySelectColumns
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchQueryHelper.put_QuerySelectColumns
 ---
 
 # ISearchQueryHelper::put_QuerySelectColumns
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the columns (or properties) requested in the select statement.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSelectColumns [in]
 
@@ -64,17 +60,11 @@ Type: <b>LPCWSTR</b>
 
 Pointer to a comma-delimited, null-terminated Unicode string that specifies one or more columns in the property store. Separate multiple column specifiers with commas: "System.Document.Author,System.Document.Title".
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
@@ -82,11 +72,7 @@ No defined and fixed set of properties applies to all documents. For this reason
 
 Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
@@ -105,7 +91,4 @@ Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sa
 
 
 <a href="https://msdn.microsoft.com/library/ff518152(v=VS.85).aspx">System Properties</a>
- 
-
- 
 

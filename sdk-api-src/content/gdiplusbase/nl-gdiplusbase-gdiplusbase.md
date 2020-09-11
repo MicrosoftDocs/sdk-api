@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbase.htm
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],described, _gdiplus_CLASS_GdiplusBase_Class, gdiplus._gdiplus_CLASS_GdiplusBase_Class, gdiplusbase/GdiplusBase
-f1_keywords:
-- gdiplusbase/GdiplusBase
-dev_langs:
-- c++
 req.header: gdiplusbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplusbase.h
-api_name:
-- GdiplusBase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GdiplusBase
+ - gdiplusbase/GdiplusBase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplusbase.h
+api_name:
+ - GdiplusBase
 ---
 
 # GdiplusBase class
 
 
 ## -description
-
 
 The <b>GdiplusBase</b> class provides memory allocation and deallocation for GDI+ objects. <b>GdiplusBase</b> serves as a base class for all other GDI+ classes, so you never need to create an instance of <b>GdiplusBase</b>.
 
@@ -100,5 +100,5 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdipl
 
 </td>
 </tr>
-</table> 
+</table>
 

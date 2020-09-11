@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ab59d2fe-d951-42f3-b270-844eaeb6ff90
 ms.date: 12/05/2018
 ms.keywords: ReadLogRestartArea, ReadLogRestartArea function [Files], clfsw32/ReadLogRestartArea, fs.readlogrestartarea
-f1_keywords:
-- clfsw32/ReadLogRestartArea
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- ReadLogRestartArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadLogRestartArea
+ - clfsw32/ReadLogRestartArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - ReadLogRestartArea
 ---
 
 # ReadLogRestartArea function
@@ -49,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
     Returns the last restart area that is  written successfully  to the log associated with the marshaling area of  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-writelogrestartarea">WriteLogRestartArea</a>. The function also returns a read context that allows the caller to cursor backward or forward through a log from the restart record.
 
 This read context is   useful when scanning through previous restart areas prior to the current one by invoking <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readpreviouslogrestartarea">ReadPreviousLogRestartArea</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pvMarshal [in]
 
 A pointer to a   marshaling context that is  allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
-
 ### -param ppvRestartBuffer [out]
 
 A pointer to a variable that receives a pointer to the restart data in the log I/O block.
-
 
 ### -param pcbRestartBuffer [out]
 
 A pointer to a variable that receives the amount of restart data.
 
-
 ### -param plsn [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the log sequence  number (LSN) of the restart area.
-
 
 ### -param ppvContext [out]
 
@@ -97,10 +89,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 
 This parameter can be <b>NULL</b> if an asynchronous operation is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -110,12 +99,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The following list identifies the  possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
 
@@ -136,12 +120,7 @@ To obtain a valid pointer, the client must call <a href="https://docs.microsoft.
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
@@ -168,7 +147,4 @@ To obtain a valid pointer, the client must call <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-writelogrestartarea">WriteLogRestartArea</a>
- 
-
- 
 

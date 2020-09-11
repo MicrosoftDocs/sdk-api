@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportGetInfo, MprConfigInterfaceTransportGetInfo function [RAS], _mpr_mprconfiginterfacetransportgetinfo, mprapi/MprConfigInterfaceTransportGetInfo, rras.mprconfiginterfacetransportgetinfo
-f1_keywords:
-- mprapi/MprConfigInterfaceTransportGetInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigInterfaceTransportGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigInterfaceTransportGetInfo
+ - mprapi/MprConfigInterfaceTransportGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigInterfaceTransportGetInfo
 ---
 
 # MprConfigInterfaceTransportGetInfo function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigInterfaceTransportGetInfo</b> function retrieves the configuration information for the specified client on the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
 
 ### -param hRouterInterface [in]
 
@@ -72,14 +67,12 @@ Handle to the interface configuration from which to retrieve the specified clien
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegethandle">MprConfigInterfaceGetHandle</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>.
 
-
 ### -param hRouterIfTransport [in]
 
 Handle to the transport configuration from which to retrieve the specified client information. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportadd">MprConfigInterfaceTransportAdd</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportgethandle">MprConfigInterfaceTransportGetHandle</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportenum">MprConfigInterfaceTransportEnum</a>. Supported transport protocol types are listed on <a href="https://docs.microsoft.com/windows/desktop/RRAS/transport-identifiers">Transport Identifiers</a>.
-
 
 ### -param ppInterfaceInfo [in, out, optional]
 
@@ -94,7 +87,6 @@ On output, this pointer variable points to an information header that contains c
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not return the configuration information.
 
-
 ### -param lpdwInterfaceInfoSize [out, optional]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, of the data pointed to by <i>ppInterfaceInfo</i>. 
@@ -104,10 +96,7 @@ Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, o
 
 This parameter is optional; the calling application may specify <b>NULL</b> for this parameter. However, if <i>ppInterfaceInfo</i> is not <b>NULL</b>, this parameter cannot be <b>NULL</b>. For more information, see the Remarks section later in this topic.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR. For more information, see the Remarks section later in this topic.
 
@@ -178,24 +167,12 @@ Use
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 If the <i>ppInterfaceInfo</i> parameter is <b>NULL</b>, 
 <b>MprConfigInterfaceTransportGetInfo</b> does nothing and returns immediately with a value of NO_ERROR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -238,7 +215,4 @@ If the <i>ppInterfaceInfo</i> parameter is <b>NULL</b>,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

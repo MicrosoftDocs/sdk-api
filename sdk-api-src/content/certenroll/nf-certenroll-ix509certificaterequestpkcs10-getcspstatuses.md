@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 50dc8cc5-21ee-4347-a12a-0d6e62901fbb
 ms.date: 12/05/2018
 ms.keywords: GetCspStatuses, GetCspStatuses method [Security], GetCspStatuses method [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],GetCspStatuses method, IX509CertificateRequestPkcs10.GetCspStatuses, IX509CertificateRequestPkcs10::GetCspStatuses, XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/IX509CertificateRequestPkcs10::GetCspStatuses, security.ix509certificaterequestpkcs10_getcspstatuses_method
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.GetCspStatuses
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.GetCspStatuses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::GetCspStatuses
+ - certenroll/IX509CertificateRequestPkcs10::GetCspStatuses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.GetCspStatuses
 ---
 
 # IX509CertificateRequestPkcs10::GetCspStatuses
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCspStatuses</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection that contains all provider/algorithm pairs consistent with the intended use of the private key as specified by the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param KeySpec [in]
 
@@ -101,17 +97,12 @@ Only CryptoAPI CSPs with signature algorithms are selected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppCspStatuses [out]
 
 Address of a variable that receives a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> interface that represents the collection.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -145,14 +136,8 @@ The object is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> objects. Each object represents a single provider/algorithm pair. If you specify a template when initializing the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> request object, template attributes  such as the  <b>pKIDefaultCSPs</b> and <b>pKIDefaultKeySpec</b> affect which pairs are initially enabled. You can call the following properties on each <b>ICspStatus</b> object to retrieve information about a pair:<ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspstatus-get_cspinformation">CspInformation</a> property retrieves provider information.</li>
@@ -196,17 +181,7 @@ The <b>GetCspStatuses</b> method differs from the <a href="https://docs.microsof
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
 

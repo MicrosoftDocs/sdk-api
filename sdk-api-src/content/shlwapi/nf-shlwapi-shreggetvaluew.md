@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5650eb4c-40fd-47d7-af76-2688d62d9bca
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegGetValue, SHRegGetValue function [Windows Shell], SHRegGetValueA, SHRegGetValueW, _shell_SHRegGetValue, shell.SHRegGetValue, shlwapi/SHRegGetValue, shlwapi/SHRegGetValueA, shlwapi/SHRegGetValueW
-f1_keywords:
-- shlwapi/SHRegGetValue
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-IE-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
-- ShCore.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
-- API-MS-Win-ShCore-Registry-l1-1-0.dll
-- API-MS-Win-ShCore-Registry-l1-1-1.dll
-api_name:
-- SHRegGetValue
-- SHRegGetValueA
-- SHRegGetValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHRegGetValueW
+ - shlwapi/SHRegGetValueW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-IE-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+ - ShCore.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - API-MS-Win-ShCore-Registry-l1-1-0.dll
+ - API-MS-Win-ShCore-Registry-l1-1-1.dll
+api_name:
+ - SHRegGetValue
+ - SHRegGetValueA
+ - SHRegGetValueW
 ---
 
 # SHRegGetValueW function
@@ -57,16 +58,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHRegGetValue</b> may be altered or unavailable in subsequent versions of the operating system or product. Use <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> in its place.]
 
 Retrieves a registry value.
 
-
 ## -parameters
-
-
-
 
 ### -param hkey [in]
 
@@ -110,13 +106,11 @@ A handle to the currently open key, or any of the following predefined values.
 
 #### HKEY_USERS
 
-
 ### -param pszSubKey [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a <b>null</b>-terminated string that specifies the relative path from <i>hkey</i> to the subkey to retrieve the value from. This parameter can be <b>NULL</b> or an empty string, in which case the data is retrieved from the <i>hkey</i> location.
-
 
 ### -param pszValue [in]
 
@@ -124,13 +118,11 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a <b>null</b>-terminated string that contains the name of the value. This parameter can be <b>NULL</b> or an empty string, in which case the data is retrieved from the Default value.
 
-
 ### -param srrfFlags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/srrf">SRRF</a></b>
 
 One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/srrf">SRRF</a> flags that restricts the data to be retrieved. At least one type restriction (SRRF_RT) value must be specified.
-
 
 ### -param pdwType [in, out]
 
@@ -138,13 +130,11 @@ Type: <b>LPDWORD</b>
 
 A pointer to a <b>DWORD</b> that receives the type of data stored in the retrieved value. When using default values, the input <i>pdwType</i> is the type of the default value. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/shell/schemas">Registry Data Types</a>. If the SRRF_NOEXPAND flag is not set, REG_EXPAND_SZ types are automatically expanded and returned as REG_SZ. If type information is not required, this parameter can be <b>NULL</b>.
 
-
 ### -param pvData [out]
 
 Type: <b>LPVOID</b>
 
 A pointer to a buffer that receives the value's data. This parameter can be <b>NULL</b> if the data is not needed. For example, if you were testing only for a value's existence, the specific value data would be superfluous.
-
 
 ### -param pcbData [in, out]
 
@@ -205,21 +195,13 @@ A pointer to a <b>DWORD</b> that, on entry, contains the size of the destination
 
 ##### - hkey.HKEY_USERS
 
-
 ## -returns
-
-
 
 Type: <b>LSTATUS</b>
 
 Returns <b>ERROR_SUCCESS</b> if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to retrieve a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 <b>SHRegGetValue</b> provides data type checking, boot mode checking, auto-expansion of REG_EXPAND_SZ data, and guaranteed <b>null</b>-termination of REG_SZ, REG_EXPAND_SZ, and REG_MULTI_SZ data.
 
@@ -248,11 +230,5 @@ The potential for an additional call to the registry to read or re-read the data
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a>
- 
-
- 
 

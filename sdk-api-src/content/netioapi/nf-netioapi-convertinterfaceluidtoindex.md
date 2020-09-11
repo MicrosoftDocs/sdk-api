@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 904cd94c-dd46-42ac-aef2-ffed4b3e5899
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceLuidToIndex, ConvertInterfaceLuidToIndex function [IP Helper], iphlp.convertinterfaceluidtoindex, netioapi/ConvertInterfaceLuidToIndex
-f1_keywords:
-- netioapi/ConvertInterfaceLuidToIndex
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- ConvertInterfaceLuidToIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ConvertInterfaceLuidToIndex
+ - netioapi/ConvertInterfaceLuidToIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - ConvertInterfaceLuidToIndex
 ---
 
 # ConvertInterfaceLuidToIndex function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ConvertInterfaceLuidToIndex</b> function converts a locally unique identifier (LUID) for a network interface to the local index  for the interface.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceLuid [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> for a network interface.
 
-
 ### -param InterfaceIndex [out]
 
 The local index  value for the interface.
 
-
 ## -returns
-
-
 
 On success, 
 <b>ConvertInterfaceLuidToIndex</b> returns NO_ERROR. Any nonzero return value indicates failure and a <b>NET_IFINDEX_UNSPECIFIED</b> is returned in the <i>InterfaceIndex</i> parameter. 
@@ -93,26 +85,14 @@ One of the parameters was invalid. This error is returned if either the <i>Inter
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ConvertInterfaceLuidToIndex</b> function is available on Windows Vistaand later.
 
 The <b>ConvertInterfaceLuidToIndex</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacealiastoluid">ConvertInterfaceAliasToLuid</a>
 
@@ -159,7 +139,4 @@ The <b>ConvertInterfaceLuidToIndex</b> function is protocol independent and work
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-if_nametoindex">if_nametoindex</a>
- 
-
- 
 

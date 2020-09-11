@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvdispinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLVDISPINFOA, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO'
-f1_keywords:
-- commctrl/NMLVDISPINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMLVDISPINFO
-- NMLVDISPINFOA
-- NMLVDISPINFOW
 targetos: Windows
 req.typenames: NMLVDISPINFOA, *LPNMLVDISPINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVDISPINFO
+ - commctrl/tagLVDISPINFO
+ - LPNMLVDISPINFOA
+ - commctrl/LPNMLVDISPINFOA
+ - NMLVDISPINFOA
+ - commctrl/NMLVDISPINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMLVDISPINFO
+ - NMLVDISPINFOA
+ - NMLVDISPINFOW
 ---
 
 # NMLVDISPINFOA structure
@@ -51,22 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-setdispinfo">LVN_SETDISPINFO</a> notification code. This structure is the same as the <b>LV_DISPINFO</b> structure, but has been renamed to fit standard naming conventions. 
-
+Contains information about an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-setdispinfo">LVN_SETDISPINFO</a> notification code. This structure is the same as the <b>LV_DISPINFO</b> structure, but has been renamed to fit standard naming conventions.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 ### -field item
 
@@ -76,10 +75,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-com
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure that identifies the item or subitem. The structure either contains or receives information about the item. The <b>mask</b> member contains a set of bit flags that specify which item attributes are relevant.
 For more information on the available bit flags, see <b>LVITEM</b>.
 
-
 ## -remarks
-
-
 
 If the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure is receiving item text, the <b>pszText</b> and <b>cchTextMax</b> members specify the address and size of a buffer. You can either copy text to the buffer or assign the address of a string to the <b>pszText</b> member. In the latter case, you must not change or delete the string until the corresponding item text is deleted or two additional <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> messages have been sent. 
 

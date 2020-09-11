@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: C579B4D9-0CD6-45D7-BE6D-54FDFB3E7753
 ms.date: 12/05/2018
 ms.keywords: IStorageFolderHandleAccess, IStorageFolderHandleAccess interface [Windows Runtime], IStorageFolderHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageFolderHandleAccess, winrt.istoragefolderhandleaccess
-f1_keywords:
-- windowsstoragecom/IStorageFolderHandleAccess
-dev_langs:
-- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.storage.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.storage.dll
-api_name:
-- IStorageFolderHandleAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStorageFolderHandleAccess
+ - windowsstoragecom/IStorageFolderHandleAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.storage.dll
+api_name:
+ - IStorageFolderHandleAccess
 ---
 
 # IStorageFolderHandleAccess interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to the operating system handle of a storage folder.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Creates a handle to a storage folder.
 
 </td>
 </tr>
-</table> 
+</table>
 

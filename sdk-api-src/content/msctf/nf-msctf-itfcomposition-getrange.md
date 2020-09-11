@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 14a726c3-6531-4d49-9f22-20460be02b81
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],GetRange method, ITfComposition.GetRange, ITfComposition::GetRange, _tsf_itfcomposition_getrange_ref, msctf/ITfComposition::GetRange, tsf.itfcomposition_getrange
-f1_keywords:
-- msctf/ITfComposition.GetRange
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfComposition.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfComposition::GetRange
+ - msctf/ITfComposition::GetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfComposition.GetRange
 ---
 
 # ITfComposition::GetRange
+
 
 ## -description
 
@@ -125,3 +127,4 @@ The composition has already terminated.
 ## -see-also
 
 [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfRange interface](nn-msctf-itfrange.md)
+

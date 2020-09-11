@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9114c54d-3905-4d40-9162-b3ea605f6fcb
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 502, 503, NetShareEnum, NetShareEnum function [Files], _win32_netshareenum, fs.netshareenum, lmshare/NetShareEnum, netmgmt.netshareenum
-f1_keywords:
-- lmshare/NetShareEnum
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetShareEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetShareEnum
+ - lmshare/NetShareEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetShareEnum
 ---
 
 # NetShareEnum function
@@ -49,23 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about each shared resource on a server.
 
 You can also use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function to retrieve resource information. However, <b>WNetEnumResource</b> does not enumerate hidden shares or users connected to a share.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
-
 
 ### -param level [in]
 
@@ -139,8 +133,6 @@ Return information about shared resources, including the name of the resource, t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -152,44 +144,32 @@ Pointer to the buffer that receives the data. The format of this data depends on
 This buffer is allocated by the system and must be freed using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
 
-
 ### -param prefmaxlen [in]
 
 Specifies the preferred maximum length of returned data, in bytes. If you specify <b>MAX_PREFERRED_LENGTH</b>, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns <b>ERROR_MORE_DATA</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ### -param entriesread [out]
 
 Pointer to a value that receives the count of elements actually enumerated.
-
 
 ### -param totalentries [out]
 
 Pointer to a value that receives the total number of entries that could have been enumerated. Note that applications should consider this value only as a hint.
 
-
 ### -param resume_handle [in, out]
 
 Pointer to a value that contains a resume handle which is used to continue an existing share search. The handle should be zero on the first call and left unchanged for subsequent calls. If <i>resume_handle</i> is <b>NULL</b>, then no resume handle is stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
 
@@ -292,14 +272,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
@@ -332,7 +305,4 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a>
- 
-
- 
 

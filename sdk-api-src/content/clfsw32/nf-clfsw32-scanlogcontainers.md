@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a3a374ab-e5e9-47c0-9a62-d880823035b5
 ms.date: 12/05/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, ScanLogContainers, ScanLogContainers function [Files], clfsw32/ScanLogContainers, fs.scanlogcontainers
-f1_keywords:
-- clfsw32/ScanLogContainers
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- ScanLogContainers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ScanLogContainers
+ - clfsw32/ScanLogContainers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - ScanLogContainers
 ---
 
 # ScanLogContainers function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates log containers. Call this function repeatedly to iterate over all log containers.
-
 
 ## -parameters
 
-
-
-
 ### -param pcxScan [in, out]
 
-A pointer to a client-allocated <a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes. 
-
+A pointer to a client-allocated <a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a> structure  that  the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogcontainerscancontext">CreateLogContainerScanContext</a> function initializes.
 
 ### -param eScanMode [in]
 
@@ -121,17 +116,12 @@ Cannot be used if <b>CLFS_SCAN_FORWARD</b> is specified.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved [in, out, optional]
 
-Reserved.  Set <i>pReserved</i> to <b>NULL</b>. 
-
+Reserved.  Set <i>pReserved</i> to <b>NULL</b>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -141,12 +131,7 @@ If the function fails, the return value is zero. To get extended error informati
 
  The following  list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 The ID of a log container is  returned in: <b>pcxScan-&gt;pinfoContainer-&gt;LogicalContainerId</b>.
 
@@ -159,12 +144,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/clfs/ns-clfs-cls_scan_context~r1">CLFS_SCAN_CONTEXT</a>
 
@@ -187,7 +167,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

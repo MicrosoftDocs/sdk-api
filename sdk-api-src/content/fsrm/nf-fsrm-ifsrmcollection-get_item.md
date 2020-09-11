@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 95d35117-b9fb-46ae-b392-aa0c12717359
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],Item property, IFsrmCollection.Item, IFsrmCollection.get_Item, IFsrmCollection::Item, IFsrmCollection::get_Item, Item property [File Server Resource Manager], Item property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_item, fsrm.ifsrmcollection_item, fsrm/IFsrmCollection::Item, fsrm/IFsrmCollection::get_Item, get_Item
-f1_keywords:
-- fsrm/IFsrmCollection.Item
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmCollection.Item
-- IFsrmCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmCollection::get_Item
+ - fsrm/IFsrmCollection::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmCollection.Item
+ - IFsrmCollection.get_Item
 ---
 
 # IFsrmCollection::get_Item
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the requested item from the collection.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the item is an interface, the variant type is <b>VT_DISPATCH</b>. Call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on the 
@@ -80,15 +76,7 @@ For examples, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
- 
-
- 
 

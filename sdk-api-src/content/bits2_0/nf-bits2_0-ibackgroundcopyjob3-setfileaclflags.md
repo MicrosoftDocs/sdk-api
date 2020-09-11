@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47
 ms.date: 12/05/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, IBackgroundCopyJob3 interface [BITS],SetFileACLFlags method, IBackgroundCopyJob3.SetFileACLFlags, IBackgroundCopyJob3::SetFileACLFlags, SetFileACLFlags, SetFileACLFlags method [BITS], SetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_setfileaclflags, bits2_0/IBackgroundCopyJob3::SetFileACLFlags
-f1_keywords:
-- bits2_0/IBackgroundCopyJob3.SetFileACLFlags
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyJob3.SetFileACLFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob3::SetFileACLFlags
+ - bits2_0/IBackgroundCopyJob3::SetFileACLFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyJob3.SetFileACLFlags
 ---
 
 # IBackgroundCopyJob3::SetFileACLFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -126,12 +122,8 @@ If set, BITS copies the owner and ACL information. This is the same as setting a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -174,14 +166,8 @@ The <i>Flags</i> parameter contains a flag that is not in the list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 These flags apply to remote file names that specify the SMB protocol. BITS ignores the flags for HTTP transfers.
 
@@ -234,21 +220,11 @@ The following example shows how to call the <b>SetFileACLFlags</b> method to spe
      }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-getfileaclflags">IBackgroundCopyJob3::GetFileACLFlags</a>
- 
-
- 
 

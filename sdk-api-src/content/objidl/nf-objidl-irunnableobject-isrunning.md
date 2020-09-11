@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],IsRunning method, IRunnableObject.IsRunning, IRunnableObject::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IRunnableObject interface, _com_irunnableobject_isrunning, com.irunnableobject_isrunning, objidl/IRunnableObject::IsRunning
-f1_keywords:
-- objidl/IRunnableObject.IsRunning
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IRunnableObject.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunnableObject::IsRunning
+ - objidl/IRunnableObject::IsRunning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IRunnableObject.IsRunning
 ---
 
 # IRunnableObject::IsRunning
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether an object is currently in the running state.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the object is in the running state, the return value is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 A container application could call <b>IRunnableObject::IsRunning</b> when it needs to know if the server is immediately available. For example, a container's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a> method would return an error if the server is not running and the bindspeed parameter specifies BINDSPEED_IMMEDIATE.
 
@@ -80,20 +67,11 @@ An object handler could call <b>IRunnableObject::IsRunning</b> when it wants to 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleisrunning">OleIsRunning</a> is a helper function that conveniently repackages the functionality offered by <b>IRunnableObject::IsRunning</b>. With the release of OLE 2.01, the implementation of <b>OleIsRunning</b> was changed so that it calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>, asks for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>, and then calls <b>IRunnableObject::IsRunning</b>. In other words, you can use the interface and the helper function interchangeably.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleisrunning">OleIsRunning</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\createpropertysheetpage.htm
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheetPage, CreatePropertySheetPage function [Windows Controls], CreatePropertySheetPageA, CreatePropertySheetPageW, _win32_CreatePropertySheetPage, _win32_CreatePropertySheetPage_cpp, controls.CreatePropertySheetPage, controls._win32_CreatePropertySheetPage, prsht/CreatePropertySheetPage, prsht/CreatePropertySheetPageA, prsht/CreatePropertySheetPageW
-f1_keywords:
-- prsht/CreatePropertySheetPage
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-- ext-ms-win-shell-comctl32-window-l1-1-0.dll
-api_name:
-- CreatePropertySheetPage
-- CreatePropertySheetPageA
-- CreatePropertySheetPageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePropertySheetPageA
+ - prsht/CreatePropertySheetPageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+ - ext-ms-win-shell-comctl32-window-l1-1-0.dll
+api_name:
+ - CreatePropertySheetPage
+ - CreatePropertySheetPageA
+ - CreatePropertySheetPageW
 ---
 
 # CreatePropertySheetPageA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new page for a property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param constPropSheetPagePointer
 
@@ -67,21 +63,13 @@ Type: <b>LPCPROPSHEETPAGE</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines a page to be included in a property sheet.
 
-
 ## -returns
-
-
 
 Type: <b>HPROPSHEETPAGE</b>
 
 Returns the handle to the new property page if successful, or <b>NULL</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Before common controls version 7.0, this function did not support visual styles.</div>
 <div> </div>

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 87660b16-06a8-4a71-8669-24521f1399e4
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable, IX509CertificateTemplateWritable interface [Security], IX509CertificateTemplateWritable interface [Security],described, certenroll/IX509CertificateTemplateWritable, security.ix509certificatetemplatewritable
-f1_keywords:
-- certenroll/IX509CertificateTemplateWritable
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: CertEnroll.dll
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateTemplateWritable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateTemplateWritable
+ - certenroll/IX509CertificateTemplateWritable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateTemplateWritable
 ---
 
 # IX509CertificateTemplateWritable interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IX509CertificateTemplateWritable</b> interface enables you to add a template to or delete it from a template store. Currently, Active Directory is the only available store.
-
-
 
 ## -inheritance
 
@@ -128,5 +126,5 @@ Retrieves a copy of the template used to initialize the <b>IX509CertificateTempl
 
 </td>
 </tr>
-</table> 
+</table>
 

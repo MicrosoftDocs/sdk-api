@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 977030f8-264f-4fa2-8941-e419cd28c569
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],KeysOnly method, CFrameworkQuery.KeysOnly, CFrameworkQuery::KeysOnly, KeysOnly, KeysOnly method [Windows Management Instrumentation], KeysOnly method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_keysonly, frquery/CFrameworkQuery::KeysOnly, wmi.cframeworkquery_keysonly
-f1_keywords:
-- frquery/CFrameworkQuery.KeysOnly
-dev_langs:
-- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CFrameworkQuery.KeysOnly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CFrameworkQuery::KeysOnly
+ - frquery/CFrameworkQuery::KeysOnly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CFrameworkQuery.KeysOnly
 ---
 
 # CFrameworkQuery::KeysOnly
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,19 +59,9 @@ ms.custom: 19H1
 
 The <b>KeysOnly</b> method indicates whether only the key properties are required.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if only the key properties are required and <b>FALSE</b> if non-key properties are required.
-
-
 

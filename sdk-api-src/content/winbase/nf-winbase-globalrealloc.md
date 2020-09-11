@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2439b16a-f27d-4e95-bc9e-6f1e563933c9
 ms.date: 12/05/2018
 ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function, _win32_globalrealloc, base.globalrealloc, winbase/GlobalReAlloc
-f1_keywords:
-- winbase/GlobalReAlloc
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GlobalReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalReAlloc
+ - winbase/GlobalReAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GlobalReAlloc
 ---
 
 # GlobalReAlloc function
@@ -52,15 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the size or attributes of a specified global memory object. The size can increase or decrease.
 <div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hMem [in]
 
@@ -68,11 +65,9 @@ A handle to the global memory object to be reallocated. This handle is returned 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <b>GlobalReAlloc</b> function.
 
-
 ### -param dwBytes [in]
 
 The new size of the memory block, in bytes. If <i>uFlags</i> specifies <b>GMEM_MODIFY</b>, this parameter is ignored.
-
 
 ### -param uFlags [in]
 
@@ -120,24 +115,15 @@ Causes the additional memory contents to be initialized to zero if the memory ob
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the reallocated memory object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If 
 <b>GlobalReAlloc</b> reallocates a movable object, the return value is a handle to the memory object. To convert the handle to a pointer, use the 
@@ -149,13 +135,7 @@ If
 If 
 <b>GlobalReAlloc</b> fails, the original memory is not freed, and the original handle and pointer are still valid.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -175,7 +155,4 @@ If
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

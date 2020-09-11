@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
 ms.date: 12/05/2018
 ms.keywords: ID3DDestructionNotifier, ID3DDestructionNotifier interface [Direct3D], ID3DDestructionNotifier interface [Direct3D],described, d3dcommon/ID3DDestructionNotifier, direct3d.id3ddestructionnotifier
-f1_keywords:
-- d3dcommon/ID3DDestructionNotifier
-dev_langs:
-- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -27,26 +23,30 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3DCommon.h
-api_name:
-- ID3DDestructionNotifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3DDestructionNotifier
+ - d3dcommon/ID3DDestructionNotifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3DCommon.h
+api_name:
+ - ID3DDestructionNotifier
 ---
 
 # ID3DDestructionNotifier interface
 
 
 ## -description
-
 
 <b>ID3DDestructionNotifier</b> is an interface that can be used to register for callbacks when a D3D Nano-COM object is destroyed.
 To acquire an instance of this interface, call <a href="windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)"></a> on a D3D object with the **IID** of **ID3DDestructionNotifier**.
@@ -89,13 +89,11 @@ Unregisters a user-defined callback that was previously registered.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
 The <b>ID3DDestructionNotifier</b> can be used to track resources which are being unexpectedly released early, or providing a log of object disposal.
-
 
 ## -see-also
 
@@ -107,6 +105,4 @@ The <b>ID3DDestructionNotifier</b> can be used to track resources which are bein
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>
- 
 
- 

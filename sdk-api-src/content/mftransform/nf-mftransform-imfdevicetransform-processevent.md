@@ -8,10 +8,6 @@ tech.root: stream
 ms.assetid: 6E8B208C-A492-41C8-9A86-34B11375053B
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessEvent method, IMFDeviceTransform.ProcessEvent, IMFDeviceTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Streaming Media Devices], ProcessEvent method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessEvent, stream.imfdevicetransform_processevent
-f1_keywords:
-- mftransform/IMFDeviceTransform.ProcessEvent
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mftransform.h
-api_name:
-- IMFDeviceTransform.ProcessEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDeviceTransform::ProcessEvent
+ - mftransform/IMFDeviceTransform::ProcessEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mftransform.h
+api_name:
+ - IMFDeviceTransform.ProcessEvent
 ---
 
 # IMFDeviceTransform::ProcessEvent
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ProcessEvent</b> method sends an event to an input stream on this Media Foundation transform (MFT).
 
-
 ## -parameters
-
-
-
 
 ### -param dwInputStreamID [in]
 
 Stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">IMFDeviceTransform::GetStreamIDs</a>.
 
-
 ### -param pEvent [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of an event object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include but not limited to values given in the following table.
 
@@ -124,14 +116,8 @@ The function is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An MFT can handle sending the event downstream, or it can let the DTM do this, as indicated by the return value:
 
@@ -146,16 +132,7 @@ Events must be serialized with the samples that come before and after them. Atta
 
 If an MFT does not hold back samples and does not need to examine any events, it can return <b>E_NOTIMPL</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c2f19423-4410-44dd-83f1-5b858852051d
 ms.date: 12/05/2018
 ms.keywords: GetFontLanguageInfo, GetFontLanguageInfo function [Windows GDI], _win32_GetFontLanguageInfo, gdi.getfontlanguageinfo, wingdi/GetFontLanguageInfo
-f1_keywords:
-- wingdi/GetFontLanguageInfo
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetFontLanguageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFontLanguageInfo
+ - wingdi/GetFontLanguageInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetFontLanguageInfo
 ---
 
 # GetFontLanguageInfo function
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetFontLanguageInfo</b> function returns information about the currently selected font for the specified display context. Applications typically use this information and the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function to prepare a character string for display.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to a display device context.
 
-
 ## -returns
-
-
 
 The return value identifies characteristics of the currently selected font. The function returns 0 if the font is "normalized" and can be treated as a simple Latin font; it returns GCP_ERROR if an error occurs. Otherwise, the function returns a combination of the following values.
 
@@ -113,13 +106,7 @@ The return value identifies characteristics of the currently selected font. The 
 
 The return value, when masked with FLI_MASK, can be passed directly to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
@@ -134,7 +121,4 @@ The return value, when masked with FLI_MASK, can be passed directly to the <a hr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9050845d-1e70-4e85-8d2f-c8bbb382abe5
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithStream, IInitializeWithStream interface [Windows Shell], IInitializeWithStream interface [Windows Shell],described, propsys/IInitializeWithStream, shell.IInitializeWithStream, shell_IInitializeWithStream
-f1_keywords:
-- propsys/IInitializeWithStream
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IInitializeWithStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeWithStream
+ - propsys/IInitializeWithStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IInitializeWithStream
 ---
 
 # IInitializeWithStream interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a stream.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Initializes a handler with a stream.
 
 </td>
 </tr>
-</table> 
+</table>
 

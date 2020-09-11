@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4q3y.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRegisterRoutingExtension, FaxRegisterRoutingExtension function [Fax Service], FaxRegisterRoutingExtensionW, _mfax_faxregisterroutingextension, fax._mfax_faxregisterroutingextension, winfax/FaxRegisterRoutingExtension
-f1_keywords:
-- winfax/FaxRegisterRoutingExtension
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxRegisterRoutingExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxRegisterRoutingExtensionW
+ - winfax/FaxRegisterRoutingExtensionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxRegisterRoutingExtension
 ---
 
 # FaxRegisterRoutingExtensionW function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxRegisterRoutingExtension</b> function registers a fax routing extension DLL with the fax service. The function configures the fax service registry to use the new routing extension DLL.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
@@ -65,13 +61,11 @@ Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
 
-
 ### -param ExtensionName [in]
 
 Type: <b>LPCWSTR</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
-
 
 ### -param FriendlyName [in]
 
@@ -79,13 +73,11 @@ Type: <b>LPCWSTR</b>
 
 Pointer to a constant null-terminated Unicode character string to associate with the fax routing extension DLL. This is the routing extension's user-friendly name, suitable for display.
 
-
 ### -param ImageName [in]
 
 Type: <b>LPCWSTR</b>
 
 Pointer to a constant null-terminated Unicode character string that specifies the full path and file name for the fax routing extension DLL. The path can include valid environment variables, for example, %SYSTEMDRIVE% and %SYSTEMROOT%.
-
 
 ### -param CallBack [in]
 
@@ -93,17 +85,13 @@ Type: <b>PFAX_ROUTING_INSTALLATION_CALLBACK</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/nc-winfax-pfax_routing_installation_callbackw">FaxRoutingInstallationCallback</a> function that installs a fax routing method for the specified fax routing extension DLL. The <b>FaxRegisterRoutingExtension</b> function calls the <b>FaxRoutingInstallationCallback</b> function multiple times, until it returns a value of zero, indicating that all routing methods in the fax routing extension DLL have been registered.
 
-
 ### -param Context [in]
 
 Type: <b>LPVOID</b>
 
 Pointer to a variable that contains application-specific context information or an application-defined value. <b>FaxRegisterRoutingExtension</b> passes this data to the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/nc-winfax-pfax_routing_installation_callbackw">FaxRoutingInstallationCallback</a> function.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -139,14 +127,8 @@ The <i>FaxHandle</i> specifies a remote fax server connection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FaxRegisterRoutingExtension</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/nc-winfax-pfax_routing_installation_callbackw">FaxRoutingInstallationCallback</a> function once for each fax routing method in the fax routing extension DLL.
 
@@ -160,13 +142,7 @@ You must restart the fax service to use a fax routing method exported by a fax r
 
 For more information about the steps required to register with the fax service, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registration-of-a-fax-routing-extension">Registration of a Fax Routing Extension</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
@@ -181,7 +157,4 @@ For more information about the steps required to register with the fax service, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/nc-winfax-pfax_routing_installation_callbackw">FaxRoutingInstallationCallback</a>
- 
-
- 
 

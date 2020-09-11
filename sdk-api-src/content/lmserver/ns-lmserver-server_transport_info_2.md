@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: b422eb71-1f93-432d-8283-81432edfe568
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_TRANSPORT_INFO_2, *PSERVER_TRANSPORT_INFO_2, LPSERVER_TRANSPORT_INFO_2, LPSERVER_TRANSPORT_INFO_2 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_2, PSERVER_TRANSPORT_INFO_2 structure pointer [Network Management], SERVER_TRANSPORT_INFO_2, SERVER_TRANSPORT_INFO_2 structure [Network Management], SVTI2_REMAP_PIPE_NAMES, SVTI2_SCOPED_NAME, _win32_server_transport_info_2_str, lmserver/LPSERVER_TRANSPORT_INFO_2, lmserver/PSERVER_TRANSPORT_INFO_2, lmserver/SERVER_TRANSPORT_INFO_2, netmgmt.server_transport_info_2_str'
-f1_keywords:
-- lmserver/SERVER_TRANSPORT_INFO_2
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_TRANSPORT_INFO_2
 targetos: Windows
 req.typenames: SERVER_TRANSPORT_INFO_2, *PSERVER_TRANSPORT_INFO_2, *LPSERVER_TRANSPORT_INFO_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_TRANSPORT_INFO_2
+ - lmserver/_SERVER_TRANSPORT_INFO_2
+ - PSERVER_TRANSPORT_INFO_2
+ - lmserver/PSERVER_TRANSPORT_INFO_2
+ - SERVER_TRANSPORT_INFO_2
+ - lmserver/SERVER_TRANSPORT_INFO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_TRANSPORT_INFO_2
 ---
 
 # SERVER_TRANSPORT_INFO_2 structure
@@ -49,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 				<b>SERVER_TRANSPORT_INFO_2</b> structure contains information about the specified transport protocol, including the transport name and address. This information level is valid only for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field svti2_numberofvcs
 
 Type: <b>DWORD</b>
 
 The number of clients connected to the server that are using the transport protocol specified by the <b>svti2_transportname</b> member.
-
 
 ### -field svti2_transportname
 
@@ -77,7 +76,6 @@ A pointer to a NULL-terminated character string that contains the name of a tran
 </code></pre>
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field svti2_transportaddress
 
 Type: <b>LPBYTE</b>
@@ -86,23 +84,15 @@ A pointer to a variable that contains the address the server is using on the tra
 
 This member is usually the NetBIOS name that the server is using. In these instances, the name must be 16 characters long, and the last character must be a blank character (0x20).
 
-
 ### -field svti2_transportaddress.size_is
 
- 
-
-
 ### -field svti2_transportaddress.size_is.svti2_transportaddresslength
-
- 
-
 
 ### -field svti2_transportaddresslength
 
 Type: <b>DWORD</b>
 
 The length, in bytes, of the <b>svti2_transportaddress</b> member. For NetBIOS names, the value of this member is 16 (decimal).
-
 
 ### -field svti2_networkaddress
 
@@ -117,7 +107,6 @@ You can retrieve this value only with a call to the
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field svti2_domain
 
 Type: <b>LMSTR</b>
@@ -126,7 +115,6 @@ A pointer to a NULL-terminated character string that contains the name of the do
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportenum">NetServerTransportEnum</a>, this member is the name of the domain to which the server is announcing its presence.)
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
-
 
 ### -field svti2_flags
 
@@ -170,12 +158,8 @@ This value is defined on Windows Server 2008  and Windows Vista with SP1.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The 
 				<b>SERVER_TRANSPORT_INFO_2</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function to bind the specified server to the transport protocol.
@@ -194,13 +178,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-n
 
 Scoped endpoints are generally used by the cluster namespace.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservercomputernameadd">NetServerComputerNameAdd</a>
 
@@ -267,7 +245,4 @@ Scoped endpoints are generally used by the cluster namespace.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
- 
-
- 
 

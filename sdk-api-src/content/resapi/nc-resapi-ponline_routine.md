@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
 ms.date: 12/05/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
-f1_keywords:
-- resapi/Online
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Online
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PONLINE_ROUTINE
+ - resapi/PONLINE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Online
 ---
 
 # PONLINE_ROUTINE callback function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as available for use. The 
     <b>PONLINE_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 Resource identifier for the resource to be made available.
-
 
 ### -param EventHandle [in, out]
 
@@ -75,10 +70,7 @@ On input, <i>EventHandle</i> is <b>NULL</b>. On output,
        <i>EventHandle</i> can also be set to <b>NULL</b> on output, indicating 
        that the resource does not support asynchronous event notification.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -131,12 +123,7 @@ If the operation was not successful for other reasons,
        <i>Online</i> should return one of the 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <b>Online</b> entry-point function returns an error code 
      other than <b>ERROR_IO_PENDING</b>, the Resource Monitor logs an event and calls 
@@ -161,19 +148,11 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

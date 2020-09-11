@@ -8,10 +8,6 @@ tech.root: buses
 ms.assetid: 1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetAssociatedInterface, WinUsb_GetAssociatedInterface function [Buses], buses.winusb_getassociatedinterface, winusb/WinUsb_GetAssociatedInterface, winusbfunc_22b6f592-12ca-433e-b7a1-885eebf60386.xml
-f1_keywords:
-- winusb/WinUsb_GetAssociatedInterface
-dev_langs:
-- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winusb.dll
-api_name:
-- WinUsb_GetAssociatedInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinUsb_GetAssociatedInterface
+ - winusb/WinUsb_GetAssociatedInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winusb.dll
+api_name:
+ - WinUsb_GetAssociatedInterface
 ---
 
 # WinUsb_GetAssociatedInterface function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinUsb_GetAssociatedInterface</b> function retrieves a handle for an associated interface. This is a synchronous operation.
-
 
 ## -parameters
 
-
-
-
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first (default) interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
-
+An opaque handle to the first (default) interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
 
 ### -param AssociatedInterfaceIndex [in]
 
 An index that specifies the associated interface to retrieve. A value of 0 indicates the first associated interface, a value of 1 indicates the second associated interface, and so on.
 
-
 ### -param AssociatedInterfaceHandle [out]
 
 A handle for the associated interface. Callers must pass this interface handle to <a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a> exposed by Winusb.dll. To close this handle, call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>.
 
-
 ## -returns
-
-
 
 <b>WinUsb_GetAssociatedInterface</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, this routine returns <b>FALSE</b>, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
 
@@ -141,14 +132,8 @@ Indicates that there is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WinUsb_GetAssociatedInterface</b> routine retrieves an opaque handle.
 
@@ -158,13 +143,7 @@ The handle that <b>WinUsb_GetAssociatedInterface</b> returns must be released by
 
 Callers of <b>WinUsb_GetAssociatedInterface</b>can retrieve only one handle for each interface. If a caller attempts to retrieve more than one handle for the same interface, the routine will fail with an error of ERROR_ALREADY_EXISTS.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
@@ -175,7 +154,4 @@ Callers of <b>WinUsb_GetAssociatedInterface</b>can retrieve only one handle for 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
- 
-
- 
 

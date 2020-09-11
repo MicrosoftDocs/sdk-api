@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a4407c6f-6bb5-4274-920b-8bf7d76268bc
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin
-f1_keywords:
-- strmif/IMemInputPin
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMemInputPin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemInputPin
+ - strmif/IMemInputPin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMemInputPin
 ---
 
 # IMemInputPin interface
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IMemInputPin</code> interface delivers media data to an input pin. Input pins expose this interface if they use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface to allocate buffers. When an output pin connects to an input pin, the output pin uses this interface to negotiate allocator requirements and deliver samples to the input pin.
 
 Applications typically do not use this interface.
 
 <b>Filter developers: </b>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbaseinputpin">CBaseInputPin</a> class implements this interface.
-
-
-
 
 ## -inheritance
 
@@ -130,5 +126,5 @@ Receives multiple samples in the stream.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 90e85f5d-54b4-48a5-bb5b-e46eb14781bb
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CHANGE_CLUSTER_PROPERTY, CLUSTER_CHANGE_CLUSTER_RECONNECT, CLUSTER_CHANGE_CLUSTER_STATE, CLUSTER_CHANGE_GROUP_ADDED, CLUSTER_CHANGE_GROUP_DELETED, CLUSTER_CHANGE_GROUP_PROPERTY, CLUSTER_CHANGE_GROUP_STATE, CLUSTER_CHANGE_HANDLE_CLOSE, CLUSTER_CHANGE_NETINTERFACE_ADDED, CLUSTER_CHANGE_NETINTERFACE_DELETED, CLUSTER_CHANGE_NETINTERFACE_PROPERTY, CLUSTER_CHANGE_NETINTERFACE_STATE, CLUSTER_CHANGE_NETWORK_ADDED, CLUSTER_CHANGE_NETWORK_DELETED, CLUSTER_CHANGE_NETWORK_PROPERTY, CLUSTER_CHANGE_NETWORK_STATE, CLUSTER_CHANGE_NODE_ADDED, CLUSTER_CHANGE_NODE_DELETED, CLUSTER_CHANGE_NODE_PROPERTY, CLUSTER_CHANGE_NODE_STATE, CLUSTER_CHANGE_QUORUM_STATE, CLUSTER_CHANGE_REGISTRY_ATTRIBUTES, CLUSTER_CHANGE_REGISTRY_NAME, CLUSTER_CHANGE_REGISTRY_SUBTREE, CLUSTER_CHANGE_REGISTRY_VALUE, CLUSTER_CHANGE_RESOURCE_ADDED, CLUSTER_CHANGE_RESOURCE_DELETED, CLUSTER_CHANGE_RESOURCE_PROPERTY, CLUSTER_CHANGE_RESOURCE_STATE, CLUSTER_CHANGE_RESOURCE_TYPE_ADDED, CLUSTER_CHANGE_RESOURCE_TYPE_DELETED, CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY, CreateClusterNotifyPort, CreateClusterNotifyPort function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT function [Failover Cluster], _wolf_createclusternotifyport, clusapi/CreateClusterNotifyPort, clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT, mscs.createclusternotifyport
-f1_keywords:
-- clusapi/CreateClusterNotifyPort
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- CreateClusterNotifyPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateClusterNotifyPort
+ - clusapi/CreateClusterNotifyPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - CreateClusterNotifyPort
 ---
 
 # CreateClusterNotifyPort function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates 
     or modifies a notification port. For information on notification ports, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/receiving-cluster-events">Receiving Cluster Events</a>. The <b>PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hChange [in]
 
 Handle to a notification port or <b>INVALID_HANDLE_VALUE</b>, indicating that a new handle 
        should be created. If <i>hChange</i> is an existing handle, the events specified in 
        <i>dwFilter</i> are added to the notification port.
-
 
 ### -param hCluster [in]
 
@@ -75,7 +70,6 @@ Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desk
        with a cluster. If <i>hChange</i> is not set to 
        <b>INVALID_HANDLE_VALUE</b>, <i>hCluster</i> cannot be set to 
        <b>INVALID_HANDLE_VALUE</b>.
-
 
 ### -param dwFilter [in]
 
@@ -315,7 +309,6 @@ The queue receives a notification when the
          <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a> of a resource type 
          change.
 
-
 ### -param dwNotifyKey [in]
 
 A user-specified value to be associated with retrieving notifications from the notification port. The 
@@ -323,10 +316,7 @@ A user-specified value to be associated with retrieving notifications from the n
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a> when an event of one of the types 
        specified in <i>dwFilter</i> occurs.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns a notification port handle.
 
@@ -334,12 +324,7 @@ If the operation fails, the
        function returns <b>NULL</b>. For more information about the error, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information on using the 
      <b>CreateClusterNotifyPort</b>, 
@@ -354,12 +339,7 @@ See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_change">CLUSTER_CHANGE</a>
 
@@ -398,7 +378,4 @@ See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>
- 
-
- 
 

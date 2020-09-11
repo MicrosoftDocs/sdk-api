@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123
 ms.date: 12/05/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
-f1_keywords:
-- mgm/MgmGetNextMfe
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmGetNextMfe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmGetNextMfe
+ - mgm/MgmGetNextMfe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmGetNextMfe
 ---
 
 # MgmGetNextMfe function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmGetNextMfe</b> function retrieves one or more MFEs. The routing table manager starts retrieving MFEs starting with the MFE that follows the specified MFE. The function can retrieve zero, one, or more MFEs. The number of MFEs returned depends on the size of the MFEs and the size of the buffer supplied by the client when the function is called.
 
 The data returned in the buffer is ordered first by group, and then by the sources within a group.
 
-
 ## -parameters
-
-
-
 
 ### -param pimmStart [in]
 
@@ -69,7 +65,6 @@ Pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfe">MgmGetFirstMfe</a> or 
 <b>MgmGetNextMfe</b>.
 
-
 ### -param pdwBufferSize [in, out]
 
 On input, <i>pdwBufferSize</i> is a pointer to a <b>DWORD</b>-sized memory location containing the size, in bytes, of <i>pbBuffer</i>. 
@@ -78,7 +73,6 @@ On input, <i>pdwBufferSize</i> is a pointer to a <b>DWORD</b>-sized memory locat
 
 
 On output, if the return value is ERROR_INSUFFICIENT_BUFFER, <i>pdwBufferSize</i> receives the minimum size <i>pbBuffer</i> must be to hold the MFE; otherwise, the value of <i>pdwBufferSize</i> remains unchanged.
-
 
 ### -param pbBuffer [in, out]
 
@@ -90,7 +84,6 @@ On input, the client must supply a pointer to a buffer.
 On output, <i>pbBuffer</i> contains one or more MFEs. Each MFE is a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure.
 
-
 ### -param pdwNumEntries [in, out]
 
 On input, the client must supply a pointer to a <b>DWORD</b>-sized memory location. 
@@ -100,10 +93,7 @@ On input, the client must supply a pointer to a <b>DWORD</b>-sized memory locati
 
 On output, <i>pdwNumEntries</i> receives the number of MFEs contained in <i>pbBuffer</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -159,14 +149,8 @@ No more MFEs are available. Zero or more MFEs were returned; check the value of 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is used to continue the sequential retrieval of MFEs; use 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfe">MgmGetFirstMfe</a> to start the retrieval process.
@@ -182,12 +166,7 @@ In general, to retrieve MFEs, first call
 sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>) macro to determine the size of each MFE returned in the buffer.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
 
@@ -198,7 +177,4 @@ sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetmfe">MgmGetMfe</a>
- 
-
- 
 

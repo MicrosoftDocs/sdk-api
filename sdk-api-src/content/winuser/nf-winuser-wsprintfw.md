@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_wsprintf, _win32_wsprintf_cpp, menurc.wsprintf, winui._win32_wsprintf, winuser/wsprintf, winuser/wsprintfA, winuser/wsprintfW, wsprintf, wsprintf function [Menus and Other Resources], wsprintfA, wsprintfW
-f1_keywords:
-- winuser/wsprintf
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- wsprintf
-- wsprintfA
-- wsprintfW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - wsprintfW
+ - winuser/wsprintfW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - wsprintf
+ - wsprintfA
+ - wsprintfW
 ---
 
 # wsprintfW function
@@ -51,14 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes formatted data to the specified buffer. Any arguments are converted and copied to the output buffer according to the corresponding format specification in the format string. The function appends a terminating null character to the characters it writes, but the return value does not include the terminating null character in its character count. 
 <div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param arg1 [out]
 
@@ -66,22 +63,17 @@ Type: <b>LPTSTR</b>
 
 The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
 
-
 ### -param arg2 [in]
 
 Type: <b>LPCTSTR</b>
 
 The format-control specifications. In addition to ordinary ASCII characters, a format specification for each argument appears in this string. For more information about the format specification, see the Remarks section.
 
-
 ### -param arg3 [in]
 
 One or more optional arguments. The number and type of argument parameters depend on the corresponding format-control specifications in the <i>lpFmt</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -89,12 +81,7 @@ If the function succeeds, the return value is the number of characters stored in
 
 If the function fails, the return value is less than the length of the expected output. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The format-control string contains format specifications that determine the output format for the arguments following the <i>lpFmt</i> parameter. Format specifications, discussed below, always begin with a percent sign (%). If a percent sign is followed by a character that has no meaning as a format field, the character is not formatted (for example, %% produces a single percent-sign character).
 
@@ -277,9 +264,6 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -325,7 +309,4 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
- 
-
- 
 

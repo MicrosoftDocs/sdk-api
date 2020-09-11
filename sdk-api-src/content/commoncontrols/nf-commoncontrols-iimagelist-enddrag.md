@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\enddrag.htm
 ms.date: 12/05/2018
 ms.keywords: EndDrag, EndDrag method [Windows Controls], EndDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],EndDrag method, IImageList.EndDrag, IImageList::EndDrag, comctl_IImageList_EndDrag, comctl_IImageList_EndDrag_cpp, commoncontrols/IImageList::EndDrag, controls.IImageList_EndDrag, controls.comctl_IImageList_EndDrag
-f1_keywords:
-- commoncontrols/IImageList.EndDrag
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comctl32.dll
-api_name:
-- IImageList.EndDrag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList::EndDrag
+ - commoncontrols/IImageList::EndDrag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comctl32.dll
+api_name:
+ - IImageList.EndDrag
 ---
 
 # IImageList::EndDrag
@@ -49,34 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Ends a drag operation. 
-		
-
+Ends a drag operation.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-To use <b>IImageList::EndDrag</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
+To use <b>IImageList::EndDrag</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 

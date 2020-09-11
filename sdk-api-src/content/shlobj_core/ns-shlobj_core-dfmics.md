@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2dbee891-6d5f-4ae1-8411-5d51cbab4457
 ms.date: 12/05/2018
 ms.keywords: '*PDFMICS, CMIC_MASK_ASYNCOK, CMIC_MASK_CONTROL_DOWN, CMIC_MASK_FLAG_LOG_USAGE, CMIC_MASK_FLAG_NO_UI, CMIC_MASK_FLAG_SEP_VDM, CMIC_MASK_HOTKEY, CMIC_MASK_ICON, CMIC_MASK_NOASYNC, CMIC_MASK_NOZONECHECKS, CMIC_MASK_NO_CONSOLE, CMIC_MASK_PTINVOKE, CMIC_MASK_SHIFT_DOWN, CMIC_MASK_UNICODE, DFMICS, DFMICS structure [Windows Shell], PDFMICS, PDFMICS structure pointer [Windows Shell], _shell_DFMICS, shell.DFMICS, shlobj_core/DFMICS, shlobj_core/PDFMICS'
-f1_keywords:
-- shlobj_core/DFMICS
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- DFMICS
 targetos: Windows
 req.typenames: DFMICS, *PDFMICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDFMICS
+ - shlobj_core/PDFMICS
+ - DFMICS
+ - shlobj_core/DFMICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - DFMICS
 ---
 
 # DFMICS structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains additional arguments used by <a href="https://docs.microsoft.com/windows/desktop/shell/prophand-content-view">DFM_INVOKECOMMANDEX</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
 The size of this structure, in bytes.
-
 
 ### -field fMask
 
@@ -150,13 +147,11 @@ Do not perform a zone check. This flag allows <a href="https://docs.microsoft.co
 
 Used only when <b>pici</b> points to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. The <b>ptInvoke</b> member is valid.
 
-
 ### -field lParam
 
 Type: <b>LPARAM</b>
 
 A pointer to a null-terminated string that contains additional arguments to the selected menu command. This member can be <b>NULL</b>.
-
 
 ### -field idCmdFirst
 
@@ -164,20 +159,17 @@ Type: <b>UINT</b>
 
 The minimum value that the handler can specify for a menu item identifier.
 
-
 ### -field idDefMax
 
 Type: <b>UINT</b>
 
 The maximum value that the handler can specify for a menu item identifier.
 
-
 ### -field pici
 
 Type: <b>LPCMINVOKECOMMANDINFO</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> or <b>CMINVOKECOMMANDINFO</b> structure.
-
 
 ### -field punkSite
 

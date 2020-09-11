@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 7DDBEDEC-55F4-4DEA-8FFD-EA128FAA1A9B
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_MITIGATION_FONT_DISABLE_POLICY, PPROCESS_MITIGATION_FONT_DISABLE_POLICY, PPROCESS_MITIGATION_FONT_DISABLE_POLICY structure pointer, PROCESS_MITIGATION_FONT_DISABLE_POLICY, PROCESS_MITIGATION_FONT_DISABLE_POLICY structure, base.process_mitigation_font_disable_policy, winnt/PPROCESS_MITIGATION_FONT_DISABLE_POLICY, winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY'
-f1_keywords:
-- winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- PROCESS_MITIGATION_FONT_DISABLE_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_FONT_DISABLE_POLICY, *PPROCESS_MITIGATION_FONT_DISABLE_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROCESS_MITIGATION_FONT_DISABLE_POLICY
+ - winnt/_PROCESS_MITIGATION_FONT_DISABLE_POLICY
+ - PPROCESS_MITIGATION_FONT_DISABLE_POLICY
+ - winnt/PPROCESS_MITIGATION_FONT_DISABLE_POLICY
+ - PROCESS_MITIGATION_FONT_DISABLE_POLICY
+ - winnt/PROCESS_MITIGATION_FONT_DISABLE_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - PROCESS_MITIGATION_FONT_DISABLE_POLICY
 ---
 
 # PROCESS_MITIGATION_FONT_DISABLE_POLICY structure
@@ -49,56 +54,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains process mitigation policy settings for the loading of non-system fonts.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.Flags
 
 Reserved for system use.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DisableNonSystemFonts
 
 Set (0x1) to prevent the process from loading non-system fonts;  otherwise leave unset (0x0).
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AuditNonSystemFontLoading
 
 Set (0x1) to indicate that an Event Tracing for Windows (ETW) event should be logged when the process attempts to load a non-system font; leave unset (0x0) to indicate that an ETW event should not be logged.
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 Reserved for system use.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>
- 
-
- 
 

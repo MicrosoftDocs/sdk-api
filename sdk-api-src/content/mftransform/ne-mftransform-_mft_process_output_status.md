@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 80804b33-1dac-41f8-8446-8f929bf9b931
 ms.date: 12/05/2018
 ms.keywords: 80804b33-1dac-41f8-8446-8f929bf9b931, MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS, _MFT_PROCESS_OUTPUT_STATUS, _MFT_PROCESS_OUTPUT_STATUS enumeration [Media Foundation], mf._mft_process_output_status, mftransform/MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS, mftransform/_MFT_PROCESS_OUTPUT_STATUS
-f1_keywords:
-- mftransform/_MFT_PROCESS_OUTPUT_STATUS
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mftransform.h
-api_name:
-- _MFT_PROCESS_OUTPUT_STATUS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFT_PROCESS_OUTPUT_STATUS
+ - mftransform/_MFT_PROCESS_OUTPUT_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mftransform.h
+api_name:
+ - _MFT_PROCESS_OUTPUT_STATUS
 ---
 
 # _MFT_PROCESS_OUTPUT_STATUS enumeration
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Indicates the status of a call to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field MFT_PROCESS_OUTPUT_STATUS_NEW_STREAMS
 
 The Media Foundation transform (MFT) has created one or more new output streams.
 
-
 ## -remarks
-
-
 
 If the MFT sets this flag, the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> method returns MF_E_TRANSFORM_STREAM_CHANGE and no output data is produced. The client should respond as follows:
 
@@ -88,13 +78,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftr
 </ol>
 Until these steps are completed, all further calls to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> return MF_E_TRANSFORM_STREAM_CHANGE.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>
 
@@ -105,7 +89,4 @@ Until these steps are completed, all further calls to <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
 

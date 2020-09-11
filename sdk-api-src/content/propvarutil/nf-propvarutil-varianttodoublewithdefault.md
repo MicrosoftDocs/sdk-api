@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: a3e32a30-363d-487e-bdd5-ac2616d6de14
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleWithDefault, VariantToDoubleWithDefault function [Windows Properties], _shell_VariantToDoubleWithDefault, properties.VariantToDoubleWithDefault, propvarutil/VariantToDoubleWithDefault, shell.VariantToDoubleWithDefault
-f1_keywords:
-- propvarutil/VariantToDoubleWithDefault
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- VariantToDoubleWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - VariantToDoubleWithDefault
+ - propvarutil/VariantToDoubleWithDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - VariantToDoubleWithDefault
 ---
 
 # VariantToDoubleWithDefault function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts a <b>DOUBLE</b> value from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure. If no value exists, then the specified default value is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param varIn [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
-
 ### -param dblDefault [in]
 
 Type: <b>DOUBLE</b>
 
 The default value for use where no extractable value exists.
 
-
 ## -returns
-
-
 
 Type: <b>DOUBLE</b>
 
 Returns the extracted <b>double</b> value; otherwise, the default value specified in <i>dblDefault</i>.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a <b>DOUBLE</b> value and wants to use a default value if it does not.
 
@@ -112,14 +99,7 @@ DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 // dblValue is now valid.
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdouble">InitVariantFromDouble</a>
 
@@ -134,7 +114,4 @@ DOUBLE dblValue = VariantToDoubleWithDefault(var, 3.1415);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a>
- 
-
- 
 

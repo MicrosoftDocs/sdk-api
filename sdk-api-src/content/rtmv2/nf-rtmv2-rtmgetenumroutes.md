@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: fb3977ef-9edd-4653-b65c-b6d0fb66a785
 ms.date: 12/05/2018
 ms.keywords: RtmGetEnumRoutes, RtmGetEnumRoutes function [RAS], _rtmv2ref_rtmgetenumroutes, rras.rtmgetenumroutes, rtmv2/RtmGetEnumRoutes
-f1_keywords:
-- rtmv2/RtmGetEnumRoutes
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetEnumRoutes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetEnumRoutes
+ - rtmv2/RtmGetEnumRoutes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetEnumRoutes
 ---
 
 # RtmGetEnumRoutes function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetEnumRoutes</b> function retrieves the next set of routes in the specified enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param EnumHandle [in]
 
 Handle to the route enumeration.
-
 
 ### -param NumRoutes [in, out]
 
@@ -78,7 +72,6 @@ On input, <i>NumRoutes</i> is a pointer to a <b>UINT</b> value that specifies th
 
 
 On output, <i>NumRoutes</i> receives the actual number of routes received by <i>RouteHandles</i>.
-
 
 ### -param RouteHandles [out]
 
@@ -90,10 +83,7 @@ On input, <i>RouteHandles</i> is a pointer to an
 
 On output, <i>RouteHandles</i> receives an array of handles to routes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -144,13 +134,7 @@ There is not enough memory to complete this operation.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 When the routes are no longer required, release them by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseroutes">RtmReleaseRoutes</a>.
@@ -158,13 +142,7 @@ When the routes are no longer required, release them by calling
 For sample code using this function, see 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/enumerate-all-routes">Enumerate All Routes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
 
@@ -175,7 +153,4 @@ For sample code using this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseroutes">RtmReleaseRoutes</a>
- 
-
- 
 

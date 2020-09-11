@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: e2bdaa4c-5474-41a0-bcea-927570c8402c
 ms.date: 12/05/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
-f1_keywords:
-- dbghelp/StackWalk64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- DbgHelp.dll
-api_name:
-- StackWalk64
-- StackWalk
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - StackWalk
+ - dbghelp/StackWalk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - DbgHelp.dll
+api_name:
+ - StackWalk64
+ - StackWalk
 ---
 
 # StackWalk function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains a stack trace.
 
-
 ## -parameters
-
-
-
 
 ### -param MachineType [in]
 
@@ -103,8 +99,6 @@ x64 (AMD64 or EM64T)
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hProcess [in]
 
@@ -115,7 +109,6 @@ A handle to the process for which the stack trace is generated. If the caller su
       <b>StackWalk64</b>, use the same process handles for the calls 
       to each function.
 
-
 ### -param hThread [in]
 
 A handle to the thread for which the stack trace is generated. If the caller supplies a valid callback 
@@ -123,12 +116,10 @@ A handle to the thread for which the stack trace is generated. If the caller sup
      valid thread handle. It can be a token that is unique and consistently the same for all calls to the 
      <b>StackWalk64</b> function.
 
-
 ### -param StackFrame [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a> structure. This 
       structure receives information for the next frame, if the function call succeeds.
-
 
 ### -param ContextRecord [in, out]
 
@@ -139,7 +130,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
        a greater variety of situations.
 
 This context may be modified, so do not pass a context record that should not be modified.
-
 
 ### -param ReadMemoryRoutine [in, optional]
 
@@ -156,7 +146,6 @@ If this parameter is not
        <b>NULL</b>, the application should implement and register a symbol handler callback 
        function that handles <b>CBA_READ_MEMORY</b>.
 
-
 ### -param FunctionTableAccessRoutine [in, optional]
 
 A callback routine that provides access to the run-time function table for the process. This parameter is 
@@ -168,7 +157,6 @@ The symbol handler provides functions that load and access the run-time table. I
        then <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> can be 
        passed as a valid parameter.
 
-
 ### -param GetModuleBaseRoutine [in, optional]
 
 A callback routine that provides a module base for any given virtual address. This parameter is required. For 
@@ -178,7 +166,6 @@ The symbol handler provides functions that load and maintain module information.
        then <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmodulebase">SymGetModuleBase64</a> can be passed as a valid 
        parameter.
 
-
 ### -param TranslateAddress [in, optional]
 
 A callback routine that provides address translation for 16-bit addresses. For more information, see 
@@ -187,10 +174,7 @@ A callback routine that provides address translation for 16-bit addresses. For m
 Most callers of <b>StackWalk64</b> can safely pass 
        <b>NULL</b> for this parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -198,12 +182,7 @@ If the function fails, the return value is <b>FALSE</b>. Note that
        <b>StackWalk64</b> generally does not set the last error 
        code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>StackWalk64</b> function provides a portable method 
     for obtaining a stack trace. Using the <b>StackWalk64</b> 
@@ -248,14 +227,7 @@ StackWalk(
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -282,7 +254,4 @@ StackWalk(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>
- 
-
- 
 

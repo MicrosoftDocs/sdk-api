@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 06993217-2867-43f2-aa76-04b500bf8c17
 ms.date: 12/05/2018
 ms.keywords: IColumnProvider, IColumnProvider interface [Windows Shell], IColumnProvider interface [Windows Shell],described, _win32_IColumnProvider, shell.IColumnProvider, shlobj/IColumnProvider
-f1_keywords:
-- shlobj/IColumnProvider
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IColumnProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IColumnProvider
+ - shlobj/IColumnProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IColumnProvider
 ---
 
 # IColumnProvider interface
 
 
 ## -description
-
 
 Exposes methods that enable the addition of custom columns in the Windows Explorer Details view.
             
@@ -97,12 +97,9 @@ Initializes an <b>IColumnProvider</b> interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The Windows Explorer Details view typically displays several standard columns. Each column lists information, such as the file size or type, for each file in the current folder. There can also be a number of columns that the user can choose to display. When the user right-clicks one of the column headers, a list of the available columns is displayed in a dialog box. By creating a column provider object that exports the <b>IColumnProvider</b> interface, you can add custom columns to that dialog box for display by Windows Explorer. For example, a collection of files that contain music could use a column provider to display columns listing the artist and piece contained by each file.
 
@@ -130,6 +127,4 @@ In addition to normal Component Object Model (COM) registration, the column prov
 
 
 This interface is called by Windows Explorer. It is not typically used by applications.
-
-
 

@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
 ms.date: 12/05/2018
 ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
-f1_keywords:
-- devicetopology/DataFlow
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Devicetopology.h
-api_name:
-- DataFlow
 targetos: Windows
 req.typenames: DataFlow
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_devicetopology_0000_0000_0011
+ - devicetopology/__MIDL___MIDL_itf_devicetopology_0000_0000_0011
+ - DataFlow
+ - devicetopology/DataFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Devicetopology.h
+api_name:
+ - DataFlow
 ---
 
 # DataFlow enumeration
@@ -49,31 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DataFlow</b> enumeration indicates the data-flow direction of an audio stream through a connector.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field In
 
 Input stream. The audio stream flows into the device through the connector.
 
-
 ### -field Out
 
 Output stream. The audio stream flows out of the device through the connector.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-getdataflow">IConnector::GetDataFlow</a> method uses the constants defined in the <b>DataFlow</b> enumeration.
 
@@ -85,13 +76,7 @@ The topology of a capture endpoint device (for example, a microphone) has a sing
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
 
@@ -102,7 +87,4 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/Co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-getdataflow">IConnector::GetDataFlow</a>
- 
-
- 
 

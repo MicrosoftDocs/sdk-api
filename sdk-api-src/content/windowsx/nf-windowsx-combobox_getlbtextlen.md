@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtextlen.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetLBTextLen, ComboBox_GetLBTextLen macro [Windows Controls], _win32_ComboBox_GetLBTextLen, _win32_ComboBox_GetLBTextLen_cpp, controls.ComboBox_GetLBTextLen, controls._win32_ComboBox_GetLBTextLen, windowsx/ComboBox_GetLBTextLen
-f1_keywords:
-- windowsx/ComboBox_GetLBTextLen
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ComboBox_GetLBTextLen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComboBox_GetLBTextLen
+ - windowsx/ComboBox_GetLBTextLen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ComboBox_GetLBTextLen
 ---
 
 # ComboBox_GetLBTextLen macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the length of a string in the list in a combo box.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtextlen">CB_GETLBTEXTLEN</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
@@ -64,20 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the control.
 
-
 ### -param index
 
 Type: <b>int</b>
 
 The zero-based index of the item.
 
-
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtextlen">CB_GETLBTEXTLEN</a>.
-	
-
-
 

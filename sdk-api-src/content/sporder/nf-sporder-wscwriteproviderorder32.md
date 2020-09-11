@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 03ce09b4-d80e-480d-9219-d226df055f18
 ms.date: 12/05/2018
 ms.keywords: WSCWriteProviderOrder32, WSCWriteProviderOrder32 function [Winsock], sporder/WSCWriteProviderOrder32, winsock.wscwriteproviderorder32
-f1_keywords:
-- sporder/WSCWriteProviderOrder32
-dev_langs:
-- c++
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCWriteProviderOrder32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCWriteProviderOrder32
+ - sporder/WSCWriteProviderOrder32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCWriteProviderOrder32
 ---
 
 # WSCWriteProviderOrder32 function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSCWriteProviderOrder32</b> function is used to reorder the available 32-bit transport providers. The order of the protocols determines the priority of a protocol when being enumerated or selected for use.
 <div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwriteproviderorder">WSCWriteProviderOrder</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to modify the 32-bit catalogs.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpwdCatalogEntryId [in]
 
 A pointer to an array of <b>CatalogEntryId</b> elements found in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure. The order of the <b>CatalogEntryId</b> elements is the new priority ordering for the protocols.
 
-
 ### -param dwNumberOfEntries [in]
 
 The number of elements in the <i>lpwdCatalogEntryId</i> array.
 
-
 ## -returns
-
-
 
 The function returns <b>ERROR_SUCCESS</b> (zero) if the routine is successful. Otherwise, it returns a specific error code.
 
@@ -126,14 +119,8 @@ The routine may return any registry error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSCWriteProviderOrder32</b> function is a strictly 32-bit version of the <a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwriteproviderorder">WSCWriteProviderOrder</a> function. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -162,13 +149,7 @@ The <b>WSCWriteProviderOrder32</b> function can only be called by a user logged 
 								<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a> is returned. 
  For computers running on Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to <b>requireAdministrator</b>. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (<b>RunAs administrator</b>) for this function to succeed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
@@ -183,7 +164,4 @@ The <b>WSCWriteProviderOrder32</b> function can only be called by a user logged 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
- 
-
- 
 

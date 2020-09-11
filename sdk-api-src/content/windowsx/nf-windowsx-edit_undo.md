@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_undo.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_Undo, Edit_Undo macro [Windows Controls], _win32_Edit_Undo, _win32_Edit_Undo_cpp, controls.Edit_Undo, controls._win32_Edit_Undo, windowsx/Edit_Undo
-f1_keywords:
-- windowsx/Edit_Undo
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Edit_Undo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_Undo
+ - windowsx/Edit_Undo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Edit_Undo
 ---
 
 # Edit_Undo macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Undoes the last operation in the undo queue of an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-undo">EM_UNDO</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
@@ -64,12 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the control.
 
-
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-undo">EM_UNDO</a>.
-
-
 

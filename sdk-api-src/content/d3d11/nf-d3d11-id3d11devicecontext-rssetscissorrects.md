@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 80bee89d-1743-475c-a284-8137cfacdac2
 ms.date: 12/05/2018
 ms.keywords: 28026545-0d38-beff-91cf-a929caef1657, ID3D11DeviceContext interface [Direct3D 11],RSSetScissorRects method, ID3D11DeviceContext.RSSetScissorRects, ID3D11DeviceContext::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 11], RSSetScissorRects method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSSetScissorRects, direct3d11.id3d11devicecontext_rssetscissorrects
-f1_keywords:
-- d3d11/ID3D11DeviceContext.RSSetScissorRects
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.RSSetScissorRects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::RSSetScissorRects
+ - d3d11/ID3D11DeviceContext::RSSetScissorRects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.RSSetScissorRects
 ---
 
 # ID3D11DeviceContext::RSSetScissorRects
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Bind an array of scissor rectangles to the rasterizer stage.
 
-
 ## -parameters
-
-
-
 
 ### -param NumRects [in]
 
@@ -65,18 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of scissor rectangles to bind.
 
-
 ### -param pRects [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-rect">D3D11_RECT</a>*</b>
 
 An array of scissor rectangles (see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-rect">D3D11_RECT</a>).
-          
-
 
 ## -remarks
-
-
 
 All scissor rects must be set atomically as one operation. Any scissor rects not defined by the call are disabled.
 
@@ -90,18 +81,8 @@ Each scissor rectangle in the array corresponds to a viewport in an array of vie
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

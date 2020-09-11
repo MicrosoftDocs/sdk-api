@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 8084adc3-792f-4a6c-b407-51e0e435e629
 ms.date: 12/05/2018
 ms.keywords: '*LPAVICOMPRESSOPTIONS, AVICOMPRESSF_DATARATE, AVICOMPRESSF_INTERLEAVE, AVICOMPRESSF_KEYFRAMES, AVICOMPRESSF_VALID, AVICOMPRESSOPTIONS, AVICOMPRESSOPTIONS structure [Windows Multimedia], _win32_AVICOMPRESSOPTIONS_str, multimedia.avicompressoptions, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVICOMPRESSOPTIONS'
-f1_keywords:
-- vfw/AVICOMPRESSOPTIONS
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVICOMPRESSOPTIONS
 targetos: Windows
 req.typenames: AVICOMPRESSOPTIONS, *LPAVICOMPRESSOPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPAVICOMPRESSOPTIONS
+ - vfw/LPAVICOMPRESSOPTIONS
+ - AVICOMPRESSOPTIONS
+ - vfw/AVICOMPRESSOPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVICOMPRESSOPTIONS
 ---
 
 # AVICOMPRESSOPTIONS structure
@@ -49,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVICOMPRESSOPTIONS</b> structure contains information about a stream and how it is compressed and saved. This structure passes data to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avimakecompressedstream">AVIMakeCompressedStream</a> function (or the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisavea">AVISave</a> function, which uses <b>AVIMakeCompressedStream</b>).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field fccType
 
@@ -111,28 +106,22 @@ Indicates a video stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fccHandler
 
 Four-character code for the compressor handler that will compress this video stream when it is saved (for example, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a> ('M','S','V','C')). This member is not used for audio streams.
 
-
 ### -field dwKeyFrameEvery
 
 Maximum period between video key frames. This member is used only if the AVICOMPRESSF_KEYFRAMES flag is set; otherwise every video frame is a key frame.
-
 
 ### -field dwQuality
 
 Quality value passed to a video compressor. This member is not used for an audio compressor.
 
-
 ### -field dwBytesPerSecond
 
 Video compressor data rate. This member is used only if the AVICOMPRESSF_DATARATE flag is set.
-
 
 ### -field dwFlags
 
@@ -184,38 +173,28 @@ Uses the data in this structure to set the default compression values for <a hre
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpFormat
 
 Pointer to a structure defining the data format. For an audio stream, this is an <b>LPWAVEFORMAT</b> structure.
 
-
 ### -field cbFormat
 
 Size, in bytes, of the data referenced by <b>lpFormat</b>.
-
 
 ### -field lpParms
 
 Video-compressor-specific data; used internally.
 
-
 ### -field cbParms
 
 Size, in bytes, of the data referenced by <b>lpParms</b>
-
 
 ### -field dwInterleaveEvery
 
 Interleave factor for interspersing stream data with data from the first stream. Used only if the AVICOMPRESSF_INTERLEAVE flag is set.
 
-
 ## -see-also
-
-
-
 
 AVIFile Functions and Macros
 
@@ -238,7 +217,4 @@ AVIFile Functions and Macros
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a>
- 
-
- 
 

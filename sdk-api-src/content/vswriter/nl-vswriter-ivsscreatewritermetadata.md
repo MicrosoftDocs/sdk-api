@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], IVssCreateWriterMetadata interface [VSS],described, _win32_ivsscreatewritermetadata, base.ivsscreatewritermetadata, vswriter/IVssCreateWriterMetadata
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata
+ - vswriter/IVssCreateWriterMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata
 ---
 
 # IVssCreateWriterMetadata class
 
 
 ## -description
-
 
 The 
 <b>IVssCreateWriterMetadata</b> interface is a C++ (not COM) interface containing methods to construct the Writer Metadata Document in response to an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event. It is used only in 
@@ -137,18 +137,8 @@ After it is constructed, the Writer Metadata Document is a read-only object that
 <td>Indicates how writer data is to be restored.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
- 
-
- 
 

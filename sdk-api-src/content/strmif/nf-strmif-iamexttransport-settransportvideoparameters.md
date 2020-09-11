@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 8a63f921-0abb-417b-89c0-9dfb30ebbe57
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportVideoParameters method, IAMExtTransport.SetTransportVideoParameters, IAMExtTransport::SetTransportVideoParameters, IAMExtTransportSetTransportVideoParameters, SetTransportVideoParameters, SetTransportVideoParameters method [DirectShow], SetTransportVideoParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportvideoparameters, strmif/IAMExtTransport::SetTransportVideoParameters
-f1_keywords:
-- strmif/IAMExtTransport.SetTransportVideoParameters
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.SetTransportVideoParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::SetTransportVideoParameters
+ - strmif/IAMExtTransport::SetTransportVideoParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.SetTransportVideoParameters
 ---
 
 # IAMExtTransport::SetTransportVideoParameters
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTransportVideoParameters</code> method assigns video parameters for external transport.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
@@ -84,26 +79,16 @@ Specifies the video parameter to set. Must be one of the following values.
 <td>Sets the input pin.</td>
 </tr>
 </table>
- 
-
 
 ### -param Value [in]
 
 Specifies the value of the video parameter. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If <i>Param</i> equals ED_TRANSVIDEO_SET_OUTPUT, <i>Value</i> must be one of the following constants.
 
@@ -135,13 +120,7 @@ If <i>Param</i> equals ED_TRANSVIDEO_SET_SOURCE, <i>Value</i> specifies the inde
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -152,7 +131,4 @@ If <i>Param</i> equals ED_TRANSVIDEO_SET_SOURCE, <i>Value</i> specifies the inde
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-gettransportvideoparameters">IAMExtTransport::GetTransportVideoParameters</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: cb480110-0cf4-4b46-af06-f6c42907a184
 ms.date: 12/05/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IDVB_EIT.GetRecordDuration, IDVB_EIT::GetRecordDuration, IDVB_EITGetRecordDuration, dvbsiparser/IDVB_EIT::GetRecordDuration, mstv.idvb_eit_getrecordduration
-f1_keywords:
-- dvbsiparser/IDVB_EIT.GetRecordDuration
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_EIT.GetRecordDuration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_EIT::GetRecordDuration
+ - dvbsiparser/IDVB_EIT::GetRecordDuration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_EIT.GetRecordDuration
 ---
 
 # IDVB_EIT::GetRecordDuration
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordDuration</b> method returns the event duration for a record in the EIT.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-getcountofrecords">IDVB_EIT::GetCountOfRecords</a> to get the number of records in the EIT.
 
-
 ### -param pmdVal [out]
 
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd390732(v=vs.85)">MPEG_DURATION</a> structure allocated by the caller. The method fills the structure with the event duration.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -119,18 +110,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
- 
-
- 
 

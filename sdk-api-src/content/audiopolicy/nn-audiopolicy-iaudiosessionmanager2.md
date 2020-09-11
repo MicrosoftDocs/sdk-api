@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
-f1_keywords:
-- audiopolicy/IAudioSessionManager2
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audiopolicy.h
-api_name:
-- IAudioSessionManager2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionManager2
+ - audiopolicy/IAudioSessionManager2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audiopolicy.h
+api_name:
+ - IAudioSessionManager2
 ---
 
 # IAudioSessionManager2 interface
 
 
 ## -description
-
 
 The <b>IAudioSessionManager2</b> interface enables an application to manage submixes for the audio device.
 
@@ -62,9 +62,6 @@ To a get a reference to an <b>IAudioSessionManager2</b> interface, the applicati
 When the application wants to release the <b>IAudioSessionManager2</b> interface instance, the application must call the interface's <b>Release</b> method.
 
 The application thread that uses this interface must be initialized for COM. For more information about COM initialization, see the description of the <b>CoInitializeEx</b> function in the Windows SDK documentation.
-
-
-
 
 ## -inheritance
 
@@ -126,13 +123,9 @@ Deletes the registration to  receive a notification when a session is created.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
-
 
 An application can use this interface to perform the following tasks:
 
@@ -195,21 +188,11 @@ done:
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
 ms.date: 12/05/2018
 ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, CRYPT_UPDATE_KEY, CryptDeriveKey, CryptDeriveKey function [Security], _crypto2_cryptderivekey, security.cryptderivekey, wincrypt/CryptDeriveKey
-f1_keywords:
-- wincrypt/CryptDeriveKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptDeriveKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDeriveKey
+ - wincrypt/CryptDeriveKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptDeriveKey
 ---
 
 # CryptDeriveKey function
 
 
 ## -description
-
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptDeriveKey</b> function generates cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a> derived from a base data value. This function guarantees that when the same <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and algorithms are used, the keys generated from the same base data are identical. The base data can be a password or any other user data.
 
@@ -59,17 +59,12 @@ This function is the same as
 
 A handle to the session key is returned in the <i>phKey</i> parameter. This handle can be used with any CryptoAPI function that requires a key handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle of a CSP created by a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
 
 ### -param Algid [in]
 
@@ -81,7 +76,6 @@ For more information about <a href="https://docs.microsoft.com/windows/desktop/S
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/base-provider-algorithms">Base Provider Algorithms</a>. For more information about <b>ALG_ID</b> values to use with the Microsoft Strong Cryptographic Provider or the Microsoft Enhanced Cryptographic Provider, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/enhanced-provider-algorithms">Enhanced Provider Algorithms</a>.
 
-
 ### -param hBaseData [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a> that has been fed the exact base data.
@@ -90,7 +84,6 @@ To obtain this handle, an application must first create a hash object with
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> and then add the base data to the hash object with 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>. This process is described in detail in 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hashes-and-digital-signatures">Hashes and Digital Signatures</a>.
-
 
 ### -param dwFlags [in]
 
@@ -175,17 +168,12 @@ This flag is used only with <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phKey [in, out]
 
 A pointer to  a <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptkey">HCRYPTKEY</a> variable to receive the address of the handle of the newly generated key. When you have finished using the key, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -299,14 +287,8 @@ The provider could not perform the action because the context was acquired as si
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When keys are generated for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block ciphers</a>, the key by default is set up in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher block chaining</a> (CBC) mode with an initialization vector of zero. This <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher mode</a> provides a good default method for bulk-encrypting data. To change these parameters, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> function.
@@ -481,12 +463,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -529,7 +506,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
 

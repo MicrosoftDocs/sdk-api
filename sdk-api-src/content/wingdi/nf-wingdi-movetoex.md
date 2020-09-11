@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: af11eeb7-4036-4a90-8685-9b5719f79e01
 ms.date: 12/05/2018
 ms.keywords: MoveToEx, MoveToEx function [Windows GDI], _win32_MoveToEx, gdi.movetoex, wingdi/MoveToEx
-f1_keywords:
-- wingdi/MoveToEx
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- MoveToEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MoveToEx
+ - wingdi/MoveToEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - MoveToEx
 ---
 
 # MoveToEx function
@@ -54,49 +55,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MoveToEx</b> function updates the current position to the specified point and optionally returns the previous position.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to a device context.
 
-
 ### -param x [in]
 
 Specifies the x-coordinate, in logical units, of the new position, in logical units.
-
 
 ### -param y [in]
 
 Specifies the y-coordinate, in logical units, of the new position, in logical units.
 
-
 ### -param lppt [out]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous current position. If this parameter is a <b>NULL</b> pointer, the previous position is not returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>MoveToEx</b> function affects all drawing functions.
 
@@ -107,12 +92,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc</a>
 
@@ -139,7 +119,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo</a>
- 
-
- 
 

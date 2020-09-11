@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 793078a2-bddd-469b-9043-f07830499353
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_LocalControl method, IAMExtTransport.get_LocalControl, IAMExtTransport::get_LocalControl, IAMExtTransportget_LocalControl, dshow.iamexttransport_get_localcontrol, get_LocalControl, get_LocalControl method [DirectShow], get_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_LocalControl
-f1_keywords:
-- strmif/IAMExtTransport.get_LocalControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.get_LocalControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::get_LocalControl
+ - strmif/IAMExtTransport::get_LocalControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.get_LocalControl
 ---
 
 # IAMExtTransport::get_LocalControl
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_LocalControl</code> method determines whether the transport is under local control or remote control.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param pState [out]
 
@@ -84,21 +79,12 @@ Pointer to a <b>long</b> integer that receives one of the following values:
 <td>Remote control.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To control an external device from an application, the device must be in remote mode.
 
@@ -106,13 +92,7 @@ To control an external device from an application, the device must be in remote 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -123,7 +103,4 @@ To control an external device from an application, the device must be in remote 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_localcontrol">IAMExtTransport::put_LocalControl</a>
- 
-
- 
 

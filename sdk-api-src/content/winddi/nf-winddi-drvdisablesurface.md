@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 18714107-7287-4d50-a2f9-b5d72f111f8b
 ms.date: 12/05/2018
 ms.keywords: DrvDisableSurface, DrvDisableSurface function [Display Devices], ddifncs_1b5543ca-2860-4383-a2a7-a73adc5cf2a4.xml, display.drvdisablesurface, winddi/DrvDisableSurface
-f1_keywords:
-- winddi/DrvDisableSurface
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvDisableSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvDisableSurface
+ - winddi/DrvDisableSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvDisableSurface
 ---
 
 # DrvDisableSurface function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvDisableSurface</b> function is used by GDI to notify a driver that the surface created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> for the current device is no longer needed.
 
-
 ## -parameters
-
-
-
 
 ### -param dhpdev
 
 Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. This is the handle to the device whose surface is to be released.
 
-
 ## -remarks
-
-
 
 The driver should free any memory and resources used by the surface associated with the PDEV as soon as the physical device is disabled.
 
@@ -75,13 +68,7 @@ If the physical device has an enabled surface, GDI calls <b>DrvDisableSurface</b
 
 <b>DrvDisableSurface</b> is required for graphics drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
@@ -96,7 +83,4 @@ If the physical device has an enabled surface, GDI calls <b>DrvDisableSurface</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
- 
-
- 
 

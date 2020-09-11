@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
-f1_keywords:
-- wuapi/IDownloadResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadResult
+ - wuapi/IDownloadResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadResult
 ---
 
 # IDownloadResult interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDownloadResult</b> interface represents the result of a download operation.
-
 
 ## -inheritance
 
@@ -118,5 +117,5 @@ Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-o
 
 </td>
 </tr>
-</table> 
+</table>
 

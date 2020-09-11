@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 3d3be6f8-acdc-4cef-a0bc-6572a5b315d8
 ms.date: 12/05/2018
 ms.keywords: IUpdateLockdown interface [Windows Update Agent],Lockdown method, IUpdateLockdown.LockDown, IUpdateLockdown::LockDown, IUpdateLockdown::Lockdown, LockDown, Lockdown method [Windows Update Agent], Lockdown method [Windows Update Agent],IUpdateLockdown interface, wua.iupdatelockdown_lockdown, wuapi/IUpdateLockdown::Lockdown
-f1_keywords:
-- wuapi/IUpdateLockdown.Lockdown
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateLockdown.Lockdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateLockdown::LockDown
+ - wuapi/IUpdateLockdown::LockDown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateLockdown.Lockdown
 ---
 
 # IUpdateLockdown::LockDown
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Restricts access to the methods and properties of the object that implements this method.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -66,19 +62,11 @@ Setting this parameter to  <b>uloForWebsiteAccess</b> or to 1 (one) restricts ac
 
 For a list of the methods and properties that the WUA interfaces restrict when this value is specified, see the "Remarks" section.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The following table identifies the interfaces that implement the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a> interface.
 
@@ -222,18 +210,8 @@ The following table identifies the interfaces that implement the <a href="https:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a>
- 
-
- 
 

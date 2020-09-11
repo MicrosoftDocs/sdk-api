@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 80d6f1f0-10c9-4e60-9bb7-556e340730a8
 ms.date: 12/05/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player],described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
-f1_keywords:
-- wmpservices/IWMPGraphCreation
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpservices.h
-api_name:
-- IWMPGraphCreation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPGraphCreation
+ - wmpservices/IWMPGraphCreation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpservices.h
+api_name:
+ - IWMPGraphCreation
 ---
 
 # IWMPGraphCreation interface
@@ -49,18 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
 The <b>IWMPGraphCreation</b> interface provides methods that Windows Media Player calls to enable you to manage the DirectShow filter graph. It can be implemented by an application that embeds the Windows Media Player control.
 
 The Windows Media Player control retrieves a pointer to this interface by calling <b>IServiceProvider::QueryService</b>. When you implement <b>IWMPGraphCreation</b>, you must also implement <b>IServiceProvider</b> and return the correct pointer when <b>QueryService</b> is called with IID_IWMPGraphCreation as the value for the second parameter.
 
 This interface is not supported when remoting the Windows Media Player control.
-
-
-
 
 ## -inheritance
 
@@ -104,16 +98,9 @@ Called by Windows Media Player before a file has been rendered.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

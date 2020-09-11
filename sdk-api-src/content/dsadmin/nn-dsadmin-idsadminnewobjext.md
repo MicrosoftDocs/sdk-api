@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], IDsAdminNewObjExt interface [Active Directory],described, _glines_idsadminnewobjext, ad.idsadminnewobjext, dsadmin/IDsAdminNewObjExt
-f1_keywords:
-- dsadmin/IDsAdminNewObjExt
-dev_langs:
-- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DSAdmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DSAdmin.dll
-api_name:
-- IDsAdminNewObjExt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsAdminNewObjExt
+ - dsadmin/IDsAdminNewObjExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DSAdmin.dll
+api_name:
+ - IDsAdminNewObjExt
 ---
 
 # IDsAdminNewObjExt interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDsAdminNewObjExt</b> interface is implemented by an object creation wizard extension. This interface is used by the Active Directory administrative MMC snap-ins to control the object creation extension. The snap-in creates an instance of this object by using the CLSID of the extension.
-
 
 ## -inheritance
 
@@ -122,13 +121,9 @@ Enables the object creation wizard extension to write its data into the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
 
@@ -143,7 +138,4 @@ Enables the object creation wizard extension to write its data into the object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
- 
-
- 
 

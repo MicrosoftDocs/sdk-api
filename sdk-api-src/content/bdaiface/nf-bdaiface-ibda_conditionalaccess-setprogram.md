@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
-f1_keywords:
-- bdaiface/IBDA_ConditionalAccess.SetProgram
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdaiface.h
-api_name:
-- IBDA_ConditionalAccess.SetProgram
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_ConditionalAccess::SetProgram
+ - bdaiface/IBDA_ConditionalAccess::SetProgram
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdaiface.h
+api_name:
+ - IBDA_ConditionalAccess.SetProgram
 ---
 
 # IBDA_ConditionalAccess::SetProgram
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProgram</b> method sets the program number.
 
-
 ## -parameters
-
-
-
 
 ### -param usProgramNumber [in]
 
 Specifies the program number.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-addprogram">AddProgram</a>
 
@@ -86,7 +73,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-removeprogram">RemoveProgram</a>
- 
-
- 
 

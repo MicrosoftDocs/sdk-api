@@ -8,10 +8,6 @@ tech.root: Madcap
 ms.assetid: 1993e3bc-b6bd-4e13-aa71-7e33bf7ef540
 ms.date: 12/05/2018
 ms.keywords: '*PMCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE, MCAST_LEASE_RESPONSE structure [MADCAP], PMCAST_LEASE_RESPONSE, PMCAST_LEASE_RESPONSE structure pointer [MADCAP], _mdhcp_mcast_lease_response, madcap.mcast_lease_response, madcapcl/MCAST_LEASE_RESPONSE, madcapcl/PMCAST_LEASE_RESPONSE'
-f1_keywords:
-- madcapcl/MCAST_LEASE_RESPONSE
-dev_langs:
-- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Madcapcl.h
-api_name:
-- MCAST_LEASE_RESPONSE
 targetos: Windows
 req.typenames: MCAST_LEASE_RESPONSE, *PMCAST_LEASE_RESPONSE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MCAST_LEASE_RESPONSE
+ - madcapcl/_MCAST_LEASE_RESPONSE
+ - PMCAST_LEASE_RESPONSE
+ - madcapcl/PMCAST_LEASE_RESPONSE
+ - MCAST_LEASE_RESPONSE
+ - madcapcl/MCAST_LEASE_RESPONSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Madcapcl.h
+api_name:
+ - MCAST_LEASE_RESPONSE
 ---
 
 # MCAST_LEASE_RESPONSE structure
@@ -49,46 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MCAST_LEASE_RESPONSE</b> structure is used to respond to multicast lease requests.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LeaseStartTime
 
 Start time, in seconds, for the multicast scope lease elapsed since midnight of January 1, 1970, coordinated universal time.
 
-
 ### -field LeaseEndTime
 
 Expiration time, in seconds of the multicast scope lease elapsed since midnight of January 1, 1970, coordinated universal time.
-
 
 ### -field ServerAddress
 
 Internet Protocol (IP) address of the server on which the lease request has been granted or renewed, in the form of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a> structure.
 
-
 ### -field AddrCount
 
 Number of IP addresses that are granted or renewed with the lease. Note that the value of this member dictates the size of <b>pAddrBuf</b>.
-
 
 ### -field pAddrBuf
 
 Pointer to a buffer containing the granted IP addresses. For IPv4 addresses, the <b>pAddrBuf</b> member points to 4-byte addresses; for IPv6 addresses, the <b>pAddrBuf</b> member points to 16-byte addresses.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
@@ -127,7 +119,4 @@ Pointer to a buffer containing the granted IP addresses. For IPv4 addresses, the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
- 
-
- 
 

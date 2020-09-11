@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 130a58a8-7964-40cb-87e8-4765178bd1ff
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Driver Installation], devinst.setupdiinstalldevice, di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml, setupapi/SetupDiInstallDevice
-f1_keywords:
-- setupapi/SetupDiInstallDevice
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiInstallDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiInstallDevice
+ - setupapi/SetupDiInstallDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiInstallDevice
 ---
 
 # SetupDiInstallDevice function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiInstallDevice</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevice">DIF_INSTALLDEVICE</a> installation request. 
-
+The <b>SetupDiInstallDevice</b> function is the default handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevice">DIF_INSTALLDEVICE</a> installation request.
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local system that contains a device information element that represents the device to install. 
-
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for the local system that contains a device information element that represents the device to install.
 
 ### -param DeviceInfoData [in, out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This is an IN-OUT parameter because <i>DeviceInfoData.</i><b>DevInst</b> might be updated with a new handle value upon return.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetupDiInstallDevice</b> installs a driver from the INF file. SetupAPI's definition of the "<i>driver</i>" is really a "<a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node</a>." Therefore, when this function installs a driver, it also installs the items in the following list:
 
@@ -155,13 +142,7 @@ If the DI_FLAGSEX_SETFAILEDINSTALL flag is set in the <a href="https://docs.micr
 <div> </div>
 The caller of <b>SetupDiInstallDevice</b> must be a member of the Administrators group.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevice">DIF_INSTALLDEVICE</a>
 
@@ -172,7 +153,4 @@ The caller of <b>SetupDiInstallDevice</b> must be a member of the Administrators
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldriverfiles">SetupDiInstallDriverFiles</a>
- 
-
- 
 

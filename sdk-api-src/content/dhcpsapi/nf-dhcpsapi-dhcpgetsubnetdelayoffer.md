@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: fce1b0e8-d41c-45f7-99df-4233e76b2597
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetDelayOffer, DhcpGetSubnetDelayOffer function [DHCP], dhcp.dhcpgetsubnetdelayoffer, dhcpsapi/DhcpGetSubnetDelayOffer
-f1_keywords:
-- dhcpsapi/DhcpGetSubnetDelayOffer
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetSubnetDelayOffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetSubnetDelayOffer
+ - dhcpsapi/DhcpGetSubnetDelayOffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetSubnetDelayOffer
 ---
 
 # DhcpGetSubnetDelayOffer function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetSubnetDelayOffer</b> function obtains the delay period for DHCP OFFER messages after a DISCOVER message is received.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param SubnetAddress [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the IP address of the subnet gateway.
-
 
 ### -param TimeDelayInMilliseconds [out]
 
@@ -79,8 +72,6 @@ Unsigned 16-bit integer value that receive the time to delay an OFFER message af
 <div> </div>
 
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
@@ -123,18 +114,8 @@ One of the parameters provides an invalid value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetsubnetdelayoffer">DhcpSetSubnetDelayOffer</a>
- 
-
- 
 

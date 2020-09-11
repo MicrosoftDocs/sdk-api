@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 63539ba9-7f13-48cf-9c8a-74c03d31e2ab
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragment, IRawElementProviderFragment interface [Windows Accessibility], IRawElementProviderFragment interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderFragment, uiauto_IRawElementProviderFragment, uiautomationcore/IRawElementProviderFragment, winauto.uiauto_IRawElementProviderFragment
-f1_keywords:
-- uiautomationcore/IRawElementProviderFragment
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IRawElementProviderFragment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderFragment
+ - uiautomationcore/IRawElementProviderFragment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IRawElementProviderFragment
 ---
 
 # IRawElementProviderFragment interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods and properties on UI elements that are part of a structure more than one level deep, 
 		such as a list box or list item. Implemented by Microsoft UI Automation provider.
-
 
 ## -inheritance
 
@@ -146,22 +145,13 @@ Specifies the root node of the fragment.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The root node of the fragment must also support the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>
 
@@ -172,7 +162,4 @@ The root node of the fragment must also support the <a href="https://docs.micros
 
 
 <b>Reference</b>
- 
-
- 
 

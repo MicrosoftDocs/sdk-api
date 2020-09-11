@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\enumpropsex.htm
 ms.date: 12/05/2018
 ms.keywords: EnumPropsEx, EnumPropsEx function [Windows and Messages], EnumPropsExA, EnumPropsExW, _win32_EnumPropsEx, _win32_enumpropsex_cpp, winmsg.enumpropsex, winui._win32_enumpropsex, winuser/EnumPropsEx, winuser/EnumPropsExA, winuser/EnumPropsExW
-f1_keywords:
-- winuser/EnumPropsEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-api_name:
-- EnumPropsEx
-- EnumPropsExA
-- EnumPropsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumPropsExA
+ - winuser/EnumPropsExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+api_name:
+ - EnumPropsEx
+ - EnumPropsExA
+ - EnumPropsExW
 ---
 
 # EnumPropsExA function
@@ -54,50 +55,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. <b>EnumPropsEx</b> continues until the last entry is enumerated or the callback function returns <b>FALSE</b>. 
-
+Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. <b>EnumPropsEx</b> continues until the last entry is enumerated or the callback function returns <b>FALSE</b>.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window whose property list is to be enumerated. 
-
+A handle to the window whose property list is to be enumerated.
 
 ### -param lpEnumFunc [in]
 
 Type: <b>PROPENUMPROCEX</b>
 
-A pointer to the callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumprocexa">PropEnumProcEx</a> function. 
-
+A pointer to the callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-propenumprocexa">PropEnumProcEx</a> function.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-Application-defined data to be passed to the callback function. 
-
+Application-defined data to be passed to the callback function.
 
 ## -returns
 
-
-
 Type: <b>int</b>
 
-The return value specifies the last value returned by the callback function. It is -1 if the function did not find a property for enumeration. 
-
-
-
+The return value specifies the last value returned by the callback function. It is -1 if the function did not find a property for enumeration.
 
 ## -remarks
-
-
 
 An application can remove only those properties it has added. It must not remove properties added by other applications or by the system itself. 
 
@@ -116,9 +102,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
 
@@ -132,7 +115,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
- 
-
- 
 

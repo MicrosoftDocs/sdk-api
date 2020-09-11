@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 7f2c007c-4d24-44d7-be30-0fa7c5fbce4a
 ms.date: 12/05/2018
 ms.keywords: DeleteProfile, DeleteProfile method [NativeWIFI], DeleteProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],DeleteProfile method, IDot11AdHocNetwork.DeleteProfile, IDot11AdHocNetwork::DeleteProfile, adhoc/IDot11AdHocNetwork::DeleteProfile, nwifi.idot11adhocnetwork_deleteprofile
-f1_keywords:
-- adhoc/IDot11AdHocNetwork.DeleteProfile
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetwork.DeleteProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetwork::DeleteProfile
+ - adhoc/IDot11AdHocNetwork::DeleteProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetwork.DeleteProfile
 ---
 
 # IDot11AdHocNetwork::DeleteProfile
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes any profile associated with the network.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -105,22 +97,12 @@ The method could not allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>
- 
-
- 
 

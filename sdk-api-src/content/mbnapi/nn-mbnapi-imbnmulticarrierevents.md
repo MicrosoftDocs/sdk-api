@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: F7CAF21B-F487-4F35-806B-312B5246C1B2
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrierevents, mbnapi/IMbnMultiCarrierEvents
-f1_keywords:
-- mbnapi/IMbnMultiCarrierEvents
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnMultiCarrierEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnMultiCarrierEvents
+ - mbnapi/IMbnMultiCarrierEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnMultiCarrierEvents
 ---
 
 # IMbnMultiCarrierEvents interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 This interface is a notification interface used to handle asynchronous <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> method calls.
-
 
 ## -inheritance
 
@@ -115,5 +115,5 @@ This notification method is called by the Mobile Broadband service to indicate t
 
 </td>
 </tr>
-</table> 
+</table>
 

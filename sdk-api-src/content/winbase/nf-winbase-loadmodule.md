@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 80571b80-851a-4272-bfa6-d26e217e714a
 ms.date: 12/05/2018
 ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, base.loadmodule, winbase/LoadModule
-f1_keywords:
-- winbase/LoadModule
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- LoadModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadModule
+ - winbase/LoadModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - LoadModule
 ---
 
 # LoadModule function
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads and executes an application or creates a new instance of an existing application.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpModuleName [in]
 
@@ -87,10 +84,7 @@ A pointer to an application-defined <b>LOADPARMS32</b> structure that defines th
 
 Set all unused members to NULL, except for <b>lpCmdLine</b>, which must point to a null-terminated string if it is not used. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is greater than 31.
 
@@ -149,14 +143,8 @@ The specified path was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>LOADPARMS32</b> structure has the following form:
 						
@@ -251,15 +239,8 @@ Applications should use the
 <td>The handle is immediately closed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
@@ -274,7 +255,4 @@ Applications should use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
- 
-
- 
 

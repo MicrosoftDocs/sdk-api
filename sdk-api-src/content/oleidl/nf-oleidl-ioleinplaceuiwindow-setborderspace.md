@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7c806a02-db6d-444e-a049-22c4ae2b19b0
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetBorderSpace method, IOleInPlaceUIWindow.SetBorderSpace, IOleInPlaceUIWindow::SetBorderSpace, SetBorderSpace, SetBorderSpace method [COM], SetBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setborderspace, com.ioleinplaceuiwindow_setborderspace, oleidl/IOleInPlaceUIWindow::SetBorderSpace
-f1_keywords:
-- oleidl/IOleInPlaceUIWindow.SetBorderSpace
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceUIWindow.SetBorderSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceUIWindow::SetBorderSpace
+ - oleidl/IOleInPlaceUIWindow::SetBorderSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceUIWindow.SetBorderSpace
 ---
 
 # IOleInPlaceUIWindow::SetBorderSpace
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates space for the border requested in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pborderwidths [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)">BORDERWIDTHS</a> structure containing the requested width of the tools, in pixels. It can be <b>NULL</b>, indicating the object does not need any space.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -86,14 +79,8 @@ The rectangle does not lie within the specifications returned by <a href="https:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The object must call <b>IOleInPlaceUIWindow::SetBorderSpace</b>. It can do any one of the following:
 
@@ -109,12 +96,7 @@ If an object must renegotiate space on the border, it can call <b>IOleInPlaceUIW
 <div class="alert"><b>Note</b>  While executing <b>IOleInPlaceUIWindow::SetBorderSpace</b>, do not make calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceUIWindow::SetBorderSpace</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
@@ -125,7 +107,4 @@ If an object must renegotiate space on the border, it can call <b>IOleInPlaceUIW
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>
- 
-
- 
 

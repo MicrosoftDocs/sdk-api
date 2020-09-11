@@ -3,10 +3,6 @@ UID: NF:traceloggingprovider.TraceLoggingProviderId
 title: TraceLoggingProviderId
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderId
-f1_keywords:
-- TraceLoggingProviderId
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - TraceLoggingProviderId
+ - traceloggingprovider/TraceLoggingProviderId
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- traceloggingprovider.h
+ - traceloggingprovider.h
 api_name:
-- TraceLoggingProviderId
+ - TraceLoggingProviderId
 ---
 
 ## -description
@@ -54,3 +55,4 @@ The GUID of the provider ID specified in [**TRACELOGGING\_DEFINE\_PROVIDER**](/w
 ## -remarks
 
 ## -see-also
+

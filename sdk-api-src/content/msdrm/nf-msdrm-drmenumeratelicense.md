@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 7a7797f2-d219-4a17-ac3d-96134cd14a55
 ms.date: 12/05/2018
 ms.keywords: DRMEnumerateLicense, DRMEnumerateLicense function [Active Directory Rights Management Services SDK 1.0], DRM_EL_CLIENTLICENSOR, DRM_EL_CLIENTLICENSOR_LID, DRM_EL_EUL, DRM_EL_EUL_LID, DRM_EL_EXPIRED, DRM_EL_GROUPIDENTITY, DRM_EL_GROUPIDENTITY_LID, DRM_EL_GROUPIDENTITY_NAME, DRM_EL_ISSUANCELICENSE_TEMPLATE, DRM_EL_ISSUANCELICENSE_TEMPLATE_LID, DRM_EL_ISSUERNAME, DRM_EL_MACHINE, DRM_EL_REVOCATIONLIST, DRM_EL_REVOCATIONLIST_LID, DRM_EL_SPECIFIED_CLIENTLICENSOR, DRM_EL_SPECIFIED_GROUPIDENTITY, msdrm/DRMEnumerateLicense, rm.drmenumeratelicense
-f1_keywords:
-- msdrm/DRMEnumerateLicense
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMEnumerateLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMEnumerateLicense
+ - msdrm/DRMEnumerateLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMEnumerateLicense
 ---
 
 # DRMEnumerateLicense function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,16 +61,11 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMEnumerateLicense</b> function enumerates valid licenses, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/m-gly">machine certificates</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificates</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">revocation lists</a> for the current user, or issuance license templates.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 A handle to a client or license storage session. The type of session passed into <i>hSession</i> depends on the type of item to enumerate. To enumerate <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user licenses</a>, use a license storage session created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function. To enumerate <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/m-gly">machine certificates</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificates</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/c-gly">client licensor certificates</a>, or issuance license templates, use a client session created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function. Use either type of handle to enumerate <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">revocation lists</a>.
-
 
 ### -param uFlags [in]
 
@@ -232,23 +227,19 @@ Enumerate issuance license templates. This flag is available beginning with Wind
 
 Enumerate issuance license template identifiers (GUIDs). This flag is available beginning with Windows Vista with SP1 and Windows Server 2008.
 
-
 ### -param uIndex [in]
 
 The index number of the certificate or license to retrieve. To begin an enumeration, pass in zero for this parameter. To obtain subsequent licenses, increment this value until the function returns <b>E_DRM_NO_MORE_DATA</b>. For more information, see Remarks.
 
-
 ### -param pfSharedFlag [in, out]
 
 A pointer to a <b>BOOL</b> value that receives one (1) if the retrieved license is shared or zero (0) if the retrieved license is not shared.
-
 
 ### -param puCertificateDataLen [in, out]
 
 A pointer to a UINT value that, on entry, contains the size of the <i>wszCertificateData</i> buffer. This size includes the terminating null character. After the function returns, this value contains the number of characters copied to the buffer, including the terminating null character.
 
 To obtain the necessary size of the buffer, pass <b>NULL</b> for <i>wszCertificateData</i>. The required number of characters, including the terminating null character, will be placed in this value.
-
 
 ### -param wszCertificateData [out]
 
@@ -257,21 +248,13 @@ set.
 
 To obtain the necessary size of this buffer, pass <b>NULL</b> for <i>wszCertificateData</i>. The required number of characters, including the terminating null character, will be placed in <i>puCertificateDataLen</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 By default, this function enumerates only unexpired licenses as determined by comparing the <b>VALIDITYTIME</b> element in each license with the creation time of the session object. To include expired licenses in the enumeration, combine the <i>uFlags</i> parameter with <b>DRM_EL_EXPIRED</b>.
 
@@ -403,21 +386,11 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/offlinesigning-getcertificate-cpp">OfflineSigning_GetCertificate.cpp</a>
- 
-
- 
 

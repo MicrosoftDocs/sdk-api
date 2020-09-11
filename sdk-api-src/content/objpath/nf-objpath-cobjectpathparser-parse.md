@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: c39dbef5-9050-487a-8e06-17087753330d
 ms.date: 12/05/2018
 ms.keywords: ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z, CObjectPathParser interface [Windows Management Instrumentation],Parse method, CObjectPathParser.Parse, CObjectPathParser::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Parse, wmi.cobjectpathparser_parse
-f1_keywords:
-- objpath/CObjectPathParser.Parse
-dev_langs:
-- c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CObjectPathParser.Parse
-- ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
-- ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CObjectPathParser::Parse
+ - objpath/CObjectPathParser::Parse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CObjectPathParser.Parse
+ - ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
+ - ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
 ---
 
 # CObjectPathParser::Parse
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,29 +61,17 @@ ms.custom: 19H1
 
 Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others. Use of  this object is not recommended. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> COM interface.
 
-
 ## -parameters
-
-
-
 
 ### -param RawPath [in]
 
 The raw path data.
 
-
 ### -param pOutput [out]
 
 A structure that contains the parsed path parts.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
- 
-
- 
 

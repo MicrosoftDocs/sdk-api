@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
-f1_keywords:
-- lmjoin/NetRequestOfflineDomainJoin
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetRequestOfflineDomainJoin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetRequestOfflineDomainJoin
+ - lmjoin/NetRequestOfflineDomainJoin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetRequestOfflineDomainJoin
 ---
 
 # NetRequestOfflineDomainJoin function
@@ -49,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
-				<b>NetRequestOfflineDomainJoin</b> function executes locally on a machine to modify a Windows operating system image mounted on a volume. The registry is loaded from the image and provisioning blob data is written where it can be retrieved during the completion phase of an offline domain join operation. 
-
+				<b>NetRequestOfflineDomainJoin</b> function executes locally on a machine to modify a Windows operating system image mounted on a volume. The registry is loaded from the image and provisioning blob data is written where it can be retrieved during the completion phase of an offline domain join operation.
 
 ## -parameters
-
-
-
 
 ### -param pProvisionBinData [in]
 
 A pointer to a buffer required to initialize the registry of a Windows operating system image to process the final local state change during the completion phase of the offline domain join operation. 
 
-The opaque binary blob of serialized metadata passed in the <i>pProvisionBinData</i> parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a> function.  
-
+The opaque binary blob of serialized metadata passed in the <i>pProvisionBinData</i> parameter is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netprovisioncomputeraccount">NetProvisionComputerAccount</a> function.
 
 ### -param cbProvisionBinDataSize [in]
 
 The size, in bytes, of the buffer pointed to by the <i>pProvisionBinData</i> parameter. 
 
 This parameter must not be <b>NULL</b>.
-
 
 ### -param dwOptions [in]
 
@@ -96,8 +90,6 @@ This flag is required if the <i>lpWindowsPath</i> parameter references the curre
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpWindowsPath [in]
 
@@ -106,10 +98,7 @@ A pointer to a constant null-terminated character string that specifies the path
 This path could
                      be a UNC path on a remote server.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -177,14 +166,8 @@ The Workstation service has not been started.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NetRequestOfflineDomainJoin</b> function is supported on Windows 7 for offline domain join operations.  
 
@@ -203,13 +186,7 @@ The opaque blob returned in the  <i>pProvisionBinData</i> parameter by the <a hr
 
 For more information on offline domain join operations, see the <a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netcreateprovisioningpackage">NetCreateProvisioningPackage</a>
 
@@ -246,7 +223,4 @@ For more information on offline domain join operations, see the <a href="https:/
 
 
 <a href="https://technet.microsoft.com/library/dd392267.aspx">Offline Domain Join Step-by-Step Guide</a>
- 
-
- 
 

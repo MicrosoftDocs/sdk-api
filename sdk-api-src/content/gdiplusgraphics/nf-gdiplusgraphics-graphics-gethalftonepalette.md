@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethalftonepalette.htm
 ms.date: 12/05/2018
 ms.keywords: GetHalftonePalette, GetHalftonePalette method [GDI+], GetHalftonePalette method [GDI+],Graphics class, Graphics class [GDI+],GetHalftonePalette method, Graphics.GetHalftonePalette, Graphics::GetHalftonePalette, _gdiplus_CLASS_Graphics_GetHalftonePalette_, gdiplus._gdiplus_CLASS_Graphics_GetHalftonePalette_
-f1_keywords:
-- gdiplusgraphics/Graphics.GetHalftonePalette
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.GetHalftonePalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::GetHalftonePalette
+ - gdiplusgraphics/Graphics::GetHalftonePalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.GetHalftonePalette
 ---
 
 # Graphics::GetHalftonePalette
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::GetHalftonePalette</b> method gets a Windows halftone palette.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>static</b>
 
 This method returns a handle to a Windows halftone palette.
 
-
-
-
 ## -remarks
-
-
 
 The purpose of the <b>Graphics::GetHalftonePalette</b> method is to enable GDI+ to produce a better quality halftone when the display uses 8 bits per pixel. To display an image using the halftone palette, use the following procedure: 
 
@@ -118,14 +105,7 @@ VOID Example_GetHalftonePalette(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette">GetPalette</a>
 
@@ -140,7 +120,4 @@ VOID Example_GetHalftonePalette(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpalette"> SetPalette</a>
- 
-
- 
 

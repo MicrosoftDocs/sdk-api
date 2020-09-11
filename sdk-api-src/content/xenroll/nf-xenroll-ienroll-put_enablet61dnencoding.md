@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7ed181d1-b06f-40f4-892a-80edf327bf40
 ms.date: 12/05/2018
 ms.keywords: EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],IEnroll interface, IEnroll interface [Security],EnableT61DNEncoding property, IEnroll.EnableT61DNEncoding, IEnroll.put_EnableT61DNEncoding, IEnroll::EnableT61DNEncoding, IEnroll::get_EnableT61DNEncoding, IEnroll::put_EnableT61DNEncoding, put_EnableT61DNEncoding, security.ienroll4_enablet61dnencoding, xenroll/IEnroll::EnableT61DNEncoding, xenroll/IEnroll::get_EnableT61DNEncoding, xenroll/IEnroll::put_EnableT61DNEncoding
-f1_keywords:
-- xenroll/IEnroll.EnableT61DNEncoding
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.EnableT61DNEncoding
-- IEnroll.get_EnableT61DNEncoding
-- IEnroll.put_EnableT61DNEncoding
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_EnableT61DNEncoding
+ - xenroll/IEnroll::put_EnableT61DNEncoding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.EnableT61DNEncoding
+ - IEnroll.get_EnableT61DNEncoding
+ - IEnroll.put_EnableT61DNEncoding
 ---
 
 # IEnroll::put_EnableT61DNEncoding
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,14 +60,9 @@ The <b>EnableT61DNEncoding</b> property sets or retrieves a Boolean value that d
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>EnableT61DNEncoding</b> property affects the behavior of the following methods:
 
@@ -80,17 +75,7 @@ The <b>EnableT61DNEncoding</b> property affects the behavior of the following me
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

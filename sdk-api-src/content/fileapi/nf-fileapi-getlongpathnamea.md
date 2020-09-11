@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
 ms.date: 12/05/2018
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
-f1_keywords:
-- fileapi/GetLongPathName
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetLongPathName
-- GetLongPathNameA
-- GetLongPathNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLongPathNameA
+ - fileapi/GetLongPathNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetLongPathName
+ - GetLongPathNameA
+ - GetLongPathNameW
 ---
 
 # GetLongPathNameA function
 
 
 ## -description
-
 
 Converts the specified path to its long form.
 
@@ -67,11 +67,7 @@ To perform this operation as a transacted operation, use the
 For more information about file and path names, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszShortPath [in]
 
@@ -93,16 +89,12 @@ A pointer to the buffer to receive the long path.
 
 You can use the same buffer you used for the <i>lpszShortPath</i> parameter.
 
-
 ### -param cchBuffer [in]
 
 The size of the buffer <i>lpszLongPath</i> points to, in 
       <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the 
        string copied to <i>lpszLongPath</i>, not including the terminating null character.
@@ -115,12 +107,7 @@ If the function fails for any other reason, such as if the file does not
        exist, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 On many file systems, a short file name contains a tilde (~) character. However, not all file systems follow 
     this convention. Therefore, do not assume that you can skip calling 
@@ -223,9 +210,6 @@ For an example that uses <b>GetLongPathName</b>, see the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -243,7 +227,4 @@ For an example that uses <b>GetLongPathName</b>, see the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
- 
-
- 
 

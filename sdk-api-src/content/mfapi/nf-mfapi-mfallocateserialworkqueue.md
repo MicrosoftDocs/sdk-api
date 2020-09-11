@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350
 ms.date: 12/05/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
-f1_keywords:
-- mfapi/MFAllocateSerialWorkQueue
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFAllocateSerialWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFAllocateSerialWorkQueue
+ - mfapi/MFAllocateSerialWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFAllocateSerialWorkQueue
 ---
 
 # MFAllocateSerialWorkQueue function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a work queue that is guaranteed to serialize work items. The serial work queue wraps an existing multithreaded work queue. The serial work queue enforces a first-in, first-out (FIFO) execution order.
 
-
 ## -parameters
-
-
-
 
 ### -param dwWorkQueue [in]
 
@@ -73,10 +69,7 @@ The identifier of an existing work queue. This must be either a multithreaded qu
 
 Receives an identifier for the new serial work queue. Use this identifier when queuing work items.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -122,14 +115,8 @@ The application did not call <a href="https://docs.microsoft.com/windows/desktop
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
 
@@ -161,21 +148,11 @@ HRESULT CCallback::GetParameters(DWORD *pdwFlags, DWORD *pdwQueue)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
- 
-
- 
 

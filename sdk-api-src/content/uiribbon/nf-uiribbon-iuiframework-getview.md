@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getview.htm
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Windows Ribbon], GetView method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetView method, IUIFramework.GetView, IUIFramework::GetView, scenicintent_IUIFramework_GetView, uiribbon/IUIFramework::GetView, windowsribbon.windowsribbon_iuiframework_getview
-f1_keywords:
-- uiribbon/IUIFramework.GetView
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIFramework.GetView
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework::GetView
+ - uiribbon/IUIFramework::GetView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIFramework.GetView
 ---
 
 # IUIFramework::GetView
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
 			or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param viewId [in]
 
 Type: <b>UINT32</b>
 
 The ID for the View. 
-				A value of 0 for a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> or the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command-id">Command.Id</a> of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>. 
-
+				A value of 0 for a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> or the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command-id">Command.Id</a> of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 ### -param riid [in]
 
@@ -75,21 +69,15 @@ Type: <b>REFIID</b>
 
 The interface ID for <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
 					or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
-				
-
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
-					or an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a> object. 
-					
-
+					or an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a> object.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -111,14 +99,8 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 <td>The operation failed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Ribbon framework UI functionality is differentiated by Views, which are essentially built-in core frameworks, 
 				such as the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
@@ -175,21 +157,11 @@ void GetDisplayLocation(POINT &pt, HWND hWnd)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
 

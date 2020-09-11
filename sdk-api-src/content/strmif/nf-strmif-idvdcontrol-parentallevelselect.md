@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ca572d89-b188-442d-884f-0cffa71c2892
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],ParentalLevelSelect method, IDvdControl.ParentalLevelSelect, IDvdControl::ParentalLevelSelect, IDvdControlParentalLevelSelect, ParentalLevelSelect, ParentalLevelSelect method [DirectShow], ParentalLevelSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_parentallevelselect, strmif/IDvdControl::ParentalLevelSelect
-f1_keywords:
-- strmif/IDvdControl.ParentalLevelSelect
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Quartz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Quartz.dll
-api_name:
-- IDvdControl.ParentalLevelSelect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl::ParentalLevelSelect
+ - strmif/IDvdControl::ParentalLevelSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Quartz.dll
+api_name:
+ - IDvdControl.ParentalLevelSelect
 ---
 
 # IDvdControl::ParentalLevelSelect
@@ -49,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  The <b>IDvdControl</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> instread.</div>
 <div> </div>
 Sets the parental access level for the current media file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulParentalLevel
 
@@ -95,21 +88,12 @@ Value that specifies the current media file parental access level. Should be a v
 <td>The rating is NC-17.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
@@ -119,13 +103,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 
 To disable parental management, pass 0xffffffff for <i>ulParentalLevel</i>. If parental management is disabled, then the player will play the first program chain (PGC) in a parental block regardless of parental IDs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -136,7 +114,4 @@ To disable parental management, pass 0xffffffff for <i>ulParentalLevel</i>. If p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentalcountryselect">IDvdControl::ParentalCountrySelect</a>
- 
-
- 
 

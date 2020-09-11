@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia.getItemInfoByAtom, IWMPMedia2 interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia2::getItemInfoByAtom, IWMPMedia3 interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia3::getItemInfoByAtom, IWMPMedia::getItemInfoByAtom, IWMPMediagetItemInfoByAtom, getItemInfoByAtom, getItemInfoByAtom method [Windows Media Player], getItemInfoByAtom method [Windows Media Player],IWMPMedia interface, getItemInfoByAtom method [Windows Media Player],IWMPMedia2 interface, getItemInfoByAtom method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfobyatom, wmp/IWMPMedia2::getItemInfoByAtom, wmp/IWMPMedia3::getItemInfoByAtom, wmp/IWMPMedia::getItemInfoByAtom
-f1_keywords:
-- wmp/IWMPMedia.getItemInfoByAtom
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPMedia.getItemInfoByAtom
-- IWMPMedia2.getItemInfoByAtom
-- IWMPMedia3.getItemInfoByAtom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMedia::getItemInfoByAtom
+ - wmp/IWMPMedia::getItemInfoByAtom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPMedia.getItemInfoByAtom
+ - IWMPMedia2.getItemInfoByAtom
+ - IWMPMedia3.getItemInfoByAtom
 ---
 
 # IWMPMedia::getItemInfoByAtom
@@ -51,31 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getItemInfoByAtom</b> method retrieves the value of the attribute with the specified index number.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lAtom [in]
 
 <b>long</b> specifying the index at which a given attribute resides within the set of available attributes.
 
-
 ### -param pbstrVal [out]
 
 Pointer to a <b>BSTR</b> containing the returned value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,14 +85,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be used to retrieve metadata for a specific media item by using an attribute index number. The <b>get_attributeCount</b> method can be used to determine the number of attributes available for the media item.
 
@@ -113,13 +96,7 @@ Before calling this method, you must have read access to the library. For more i
 
 <b>Windows Media Player 10 Mobile:</b> Attributes for a media item are available only during playback unless they are retrieved from the item through the media collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
@@ -142,7 +119,4 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getmediaatom">IWMPMediaCollection::getMediaAtom</a>
- 
-
- 
 

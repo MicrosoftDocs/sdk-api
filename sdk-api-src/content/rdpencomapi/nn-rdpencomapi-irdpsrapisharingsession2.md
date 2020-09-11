@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
-f1_keywords:
-- rdpencomapi/IRDPSRAPISharingSession2
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPISharingSession2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPISharingSession2
+ - rdpencomapi/IRDPSRAPISharingSession2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPISharingSession2
 ---
 
 # IRDPSRAPISharingSession2 interface
 
 
 ## -description
-
 
 The main object that an application must create  to start a collaboration session. The 
     session object is hosted in-process by RdpEncom.dll. Even though session object is hosted in-process, 
@@ -63,7 +63,6 @@ This interface uses the  single-threaded apartment (STA) threading model. The ob
 This interface extends the 
     <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a> interface and contains the 
     following members.
-
 
 ## -inheritance
 
@@ -282,16 +281,9 @@ An object implementing the <a href="https://docs.microsoft.com/windows/desktop/a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>
- 
-
- 
 

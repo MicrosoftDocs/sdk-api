@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
 ms.date: 12/05/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
-f1_keywords:
-- contentpartner/IWMPContentPartner.GetItemInfo
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.GetItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::GetItemInfo
+ - contentpartner/IWMPContentPartner::GetItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.GetItemInfo
 ---
 
 # IWMPContentPartner::GetItemInfo
@@ -49,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetItemInfo</b> method retrieves information (for example, a URL or a caption) related to an item owned by an online store.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrInfoName [in]
 
 <b>BSTR</b> specifying the item for which information will be retrieved. See Remarks for possible values.
 
-
 ### -param pContext [in]
 
 Pointer to a <b>VARIANT</b> that supplies contextual information for the requested information.
-
 
 ### -param pData [out]
 
 Pointer to a <b>VARIANT</b> that receives the information.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,14 +89,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following list gives possible values for the <i>bstrInfoName</i> parameter and corresponding values for the <i>pContext</i> and <i>pData</i> parameters.
 
@@ -234,16 +216,7 @@ The <i>pContext</i> parameter supplies a <b>VT_UI4</b> that is the ID of a subge
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art that Windows Media Player will display for the subgenre.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
 

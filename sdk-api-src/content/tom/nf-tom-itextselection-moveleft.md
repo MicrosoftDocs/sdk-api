@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveleft.htm
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveLeft method, ITextSelection.MoveLeft, ITextSelection::MoveLeft, MoveLeft, MoveLeft method [Windows Controls], MoveLeft method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveLeft, _win32_ITextSelection_MoveLeft_cpp, controls.ITextSelection_MoveLeft, controls._win32_ITextSelection_MoveLeft, tom/ITextSelection::MoveLeft
-f1_keywords:
-- tom/ITextSelection.MoveLeft
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.MoveLeft
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::MoveLeft
+ - tom/ITextSelection::MoveLeft
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.MoveLeft
 ---
 
 # ITextSelection::MoveLeft
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Generalizes the functionality of the Left Arrow key. 
-
+Generalizes the functionality of the Left Arrow key.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
@@ -85,8 +81,7 @@ Unit to use. It can be one of the following.
  
 
 Note: If 
-					<i>Count</i> is less than zero, movement is to the right. 
-
+					<i>Count</i> is less than zero, movement is to the right.
 
 ### -param Count
 
@@ -94,7 +89,6 @@ Type: <b>long</b>
 
 Number of Units to move past. The default value is 1. If 
 					<i>Count</i> is less than zero, movement is to the right.
-
 
 ### -param Extend
 
@@ -104,20 +98,16 @@ Flag that indicates how to change the selection. If
 					<i>Extend</i> is zero (or <b>tomMove</b>), the method collapses the selection to an insertion point at the active end and then moves it. If 
 					<i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero. A nonzero 
 					<i>Extend</i> value corresponds to the Shift key being pressed in addition to the key combination described in 
-					<i>Unit</i>. 
-
+					<i>Unit</i>.
 
 ### -param pDelta
 
 Type: <b>long*</b>
 
 The actual count of units the insertion point or active end is moved left. This parameter can be null. Collapsing the selection, when 
-					<i>Extend</i> is 0, counts as one unit. 
-
+					<i>Extend</i> is 0, counts as one unit.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -152,14 +142,8 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The WordBasic move methods like 
 				<b>CharRight</b>, 
@@ -218,13 +202,7 @@ When
 				<b>MoveLeft</b> and 
 				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a> are related to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -247,7 +225,4 @@ When
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

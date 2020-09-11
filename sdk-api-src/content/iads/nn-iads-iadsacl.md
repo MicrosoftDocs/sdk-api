@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 71aebf28-f906-4a86-8bdb-ecb0626a350f
 ms.date: 12/05/2018
 ms.keywords: IADsAcl, IADsAcl interface [ADSI], IADsAcl interface [ADSI],described, _ds_iadsacl, adsi.iadsacl, iads/IADsAcl
-f1_keywords:
-- iads/IADsAcl
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsAcl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsAcl
+ - iads/IADsAcl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsAcl
 ---
 
 # IADsAcl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsAcl</b> interface provides methods for an ADSI client to access and manipulate the <b>ACL</b> or <b>Inherited ACL</b> attribute values. This interface manipulates the attributes.
-
 
 ## -inheritance
 
@@ -134,20 +133,13 @@ Gets and sets the name of a subject.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsacl-property-methods">IADsAcl Property Methods</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

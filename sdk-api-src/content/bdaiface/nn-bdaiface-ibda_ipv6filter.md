@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: b506d382-c56d-4c5b-ad57-e186173ea9a8
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], IBDA_IPV6Filter interface [Microsoft TV Technologies],described, IBDA_IPV6FilterInterface, bdaiface/IBDA_IPV6Filter, mstv.ibda_ipv6filter
-f1_keywords:
-- bdaiface/IBDA_IPV6Filter
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_IPV6Filter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_IPV6Filter
+ - bdaiface/IBDA_IPV6Filter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_IPV6Filter
 ---
 
 # IBDA_IPV6Filter interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This interface is not supported.
-
-
-
 
 ## -inheritance
 
@@ -116,25 +112,13 @@ Specifies the mode(s) of the multicast.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_IPV6Filter)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

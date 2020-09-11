@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4c24c924-f466-42d1-a3e0-e86446750040
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, _crypto2_authenticode_ts_extra_cert_chain_policy_para, security.authenticode_ts_extra_cert_chain_policy_para, wincrypt/AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA'
-f1_keywords:
-- wincrypt/AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 targetos: Windows
 req.typenames: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, *PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+ - wincrypt/_AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+ - PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+ - wincrypt/PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+ - AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+ - wincrypt/AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 ---
 
 # AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure contains time stamp policy information that can be used in certificate chain verification of files.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwRegPolicySettings
 
@@ -183,8 +182,6 @@ Allow only items in personal trust database.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCommercial
 

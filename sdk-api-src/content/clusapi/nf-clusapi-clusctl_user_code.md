@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b21a565a-df43-486c-a474-2dc6d2f45197
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
-f1_keywords:
-- clusapi/CLUSCTL_USER_CODE
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSCTL_USER_CODE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSCTL_USER_CODE
+ - clusapi/CLUSCTL_USER_CODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSCTL_USER_CODE
 ---
 
 # CLUSCTL_USER_CODE macro
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a correctly 
     formatted user-defined control code. For more information on the bit layout of control codes, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param Function
 
@@ -84,7 +80,6 @@ Use of the control code requires read access.
 
 Use of the control code requires write access.
 
-
 ### -param Object
 
 An 8-bit value that specifies the object code (bits 24–31) of the resulting control 
@@ -92,10 +87,7 @@ An 8-bit value that specifies the object code (bits 24–31) of the resulting co
       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>. The 
       object code can be set to any value greater than <b>CLUS_OBJECT_USER</b> (128).
 
-
 ## -remarks
-
-
 
 Do not pass bit-shifted values for <i>Function</i> or <i>Object</i>. The 
     macro performs the required bit shifts.
@@ -111,12 +103,7 @@ See the example under
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_access_mode">CLUSCTL_GET_ACCESS_MODE</a>
 
@@ -127,7 +114,4 @@ See the example under
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_control_object">CLUSCTL_GET_CONTROL_OBJECT</a>
- 
-
- 
 

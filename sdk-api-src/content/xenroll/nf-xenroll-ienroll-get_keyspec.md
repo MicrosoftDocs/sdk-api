@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b05851a0-6228-44e4-9bd7-354c862596e2
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],KeySpec property, IEnroll.KeySpec, IEnroll.get_KeySpec, IEnroll::KeySpec, IEnroll::get_KeySpec, IEnroll::put_KeySpec, KeySpec property [Security], KeySpec property [Security],IEnroll interface, get_KeySpec, security.ienroll4_keyspec, xenroll/IEnroll::KeySpec, xenroll/IEnroll::get_KeySpec, xenroll/IEnroll::put_KeySpec
-f1_keywords:
-- xenroll/IEnroll.KeySpec
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.KeySpec
-- IEnroll.get_KeySpec
-- IEnroll.put_KeySpec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_KeySpec
+ - xenroll/IEnroll::get_KeySpec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.KeySpec
+ - IEnroll.get_KeySpec
+ - IEnroll.put_KeySpec
 ---
 
 # IEnroll::get_KeySpec
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,13 +60,9 @@ The <b>KeySpec</b> property sets or retrieves the  type of key generated.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For the Microsoft Base Cryptographic Provider, the <b>KeySpec</b> property has a value of AT_KEYEXCHANGE for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange keys</a>, or AT_SIGNATURE for signature keys. The default is AT_SIGNATURE.
 
@@ -87,17 +83,7 @@ The <b>KeySpec</b> property affects the behavior of the following methods:
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

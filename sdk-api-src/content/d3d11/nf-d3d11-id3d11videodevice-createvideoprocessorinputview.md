@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView method [Media Foundation], CreateVideoProcessorInputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorInputView method, ID3D11VideoDevice.CreateVideoProcessorInputView, ID3D11VideoDevice::CreateVideoProcessorInputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView, mf.id3d11videodevice_createvideoprocessorinputview
-f1_keywords:
-- d3d11/ID3D11VideoDevice.CreateVideoProcessorInputView
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11VideoDevice.CreateVideoProcessorInputView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoDevice::CreateVideoProcessorInputView
+ - d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11VideoDevice.CreateVideoProcessorInputView
 ---
 
 # ID3D11VideoDevice::CreateVideoProcessorInputView
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a resource view for a video processor, describing the input sample for the video processing operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pResource [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a> interface of the input surface.
 
-
 ### -param pEnum [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorenumerator">ID3D11VideoProcessorEnumerator</a> interface that specifies the video processor. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorenumerator">ID3D11VideoDevice::CreateVideoProcessorEnumerator</a>.
-
 
 ### -param pDesc [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_input_view_desc">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure that describes the view.
 
-
 ### -param ppVPIView [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorinputview">ID3D11VideoProcessorInputView</a> interface. The caller must release the resource. If this parameter is <b>NULL</b>, the method checks whether the view is supported, but does not create the view. 
-
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorinputview">ID3D11VideoProcessorInputView</a> interface. The caller must release the resource. If this parameter is <b>NULL</b>, the method checks whether the view is supported, but does not create the view.
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Set the <i>ppVPIView</i> parameter to <b>NULL</b> to test whether a view is supported.
 
@@ -107,15 +92,7 @@ Resources used for video processor input views must use the following bind flag 
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
- 
-
- 
 

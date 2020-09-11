@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
 ms.date: 12/05/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
-f1_keywords:
-- shobjidl_core/IShellItem.BindToHandler
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellItem.BindToHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItem::BindToHandler
+ - shobjidl_core/IShellItem::BindToHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellItem.BindToHandler
 ---
 
 # IShellItem::BindToHandler
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Binds to a handler for an item as specified by the handler ID value (BHID).
 
-
 ## -parameters
-
-
-
 
 ### -param pbc
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object. Used to pass optional parameters to the handler. The contents of the bind context are handler-specific. For example, when binding to <b>BHID_Stream</b>, the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> flags in the bind context indicate the mode of access desired (read or read/write).
-
 
 ### -param bhid
 
@@ -173,13 +168,11 @@ If the item is a folder, gets an <a href="https://docs.microsoft.com/windows/des
 
 <b>Introduced in Windows 8.1</b>: Gets an object used to provide placeholder file functionality.
 
-
 ### -param riid
 
 Type: <b>REFIID</b>
 
 IID of the object type to retrieve.
-
 
 ### -param ppv
 
@@ -187,29 +180,17 @@ Type: <b>void**</b>
 
 When this method returns, contains a pointer of type <i>riid</i> that is returned by the handler specified by <i>rbhid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
- 
-
- 
 

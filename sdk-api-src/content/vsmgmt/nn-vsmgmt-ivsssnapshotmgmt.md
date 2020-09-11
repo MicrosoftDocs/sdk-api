@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5e5694a1-7c17-4d8a-b094-09dcf28a636f
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt, IVssSnapshotMgmt interface [Files], IVssSnapshotMgmt interface [Files],described, base.ivsssnapshotmgmt, vsmgmt/IVssSnapshotMgmt
-f1_keywords:
-- vsmgmt/IVssSnapshotMgmt
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssSnapshotMgmt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSnapshotMgmt
+ - vsmgmt/IVssSnapshotMgmt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssSnapshotMgmt
 ---
 
 # IVssSnapshotMgmt interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssSnapshotMgmt</b> interface provides a 
     method that returns an interface to further configure a shadow copy provider.
-
 
 ## -inheritance
 
@@ -90,12 +89,9 @@ Reserved for system use.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
 <td align="left" width="63%">
 Reserved for system use.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IVssSnapshotMgmt</b> interface can be invoked 
     remotely using DCOM. The caller must be a member of the local administrators group on the remote machine.
@@ -146,21 +142,11 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
- 
-
- 
 

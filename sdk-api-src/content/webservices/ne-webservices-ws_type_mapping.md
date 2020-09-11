@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
 ms.date: 12/05/2018
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
-f1_keywords:
-- webservices/WS_TYPE_MAPPING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_TYPE_MAPPING
 targetos: Windows
 req.typenames: WS_TYPE_MAPPING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_TYPE_MAPPING
+ - webservices/WS_TYPE_MAPPING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_TYPE_MAPPING
 ---
 
 # WS_TYPE_MAPPING enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 How a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> maps to or from XML when serialized
                 or deserialized.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_ELEMENT_TYPE_MAPPING
 
@@ -160,11 +155,6 @@ WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
 
 ## -remarks
 
-
-
 See the documentation for each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> 
                 for which <b>WS_TYPE_MAPPING</b> values are supported.
-            
-
-
 

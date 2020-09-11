@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 374dd139-d3e7-45d0-a7d3-1187b928ef57
 ms.date: 12/05/2018
 ms.keywords: 374dd139-d3e7-45d0-a7d3-1187b928ef57, GetParameters, GetParameters method [Media Foundation], GetParameters method [Media Foundation],IMFAsyncCallback interface, IMFAsyncCallback interface [Media Foundation],GetParameters method, IMFAsyncCallback.GetParameters, IMFAsyncCallback::GetParameters, MFASYNC_BLOCKING_CALLBACK, MFASYNC_FAST_IO_PROCESSING_CALLBACK, MFASYNC_REPLY_CALLBACK, MFASYNC_SIGNAL_CALLBACK, Zero, mf.imfasynccallback_getparameters, mfobjects/IMFAsyncCallback::GetParameters
-f1_keywords:
-- mfobjects/IMFAsyncCallback.GetParameters
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAsyncCallback.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAsyncCallback::GetParameters
+ - mfobjects/IMFAsyncCallback::GetParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAsyncCallback.GetParameters
 ---
 
 # IMFAsyncCallback::GetParameters
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Provides configuration information to the dispatching thread for a callback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
@@ -134,8 +127,6 @@ Reply callback.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwQueue [out]
 
@@ -146,10 +137,7 @@ This value can specify one of the standard Media Foundation work queues, or a wo
 
 If the work queue is not compatible with the value returned in <i>pdwFlags</i>, the Media Foundation platform returns <b>MF_E_INVALID_WORKQUEUE</b> when it tries to dispatch the callback. (See <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem">MFPutWorkItem</a>.)
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -183,14 +171,8 @@ Not implemented. Assume the default behavior.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetParameters</b> method returns information about the callback so that the dispatching thread can optimize the process that it uses to invoke the callback.
       
@@ -206,12 +188,7 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
@@ -222,7 +199,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
 

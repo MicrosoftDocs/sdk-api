@@ -7,10 +7,6 @@ helpviewer_keywords: ["SetupDiGetClassDevsA"]
 ms.date: 4/26/2019
 ms.keywords: SetupDiGetClassDevsA
 targetos: Windows
-f1_keywords:
-- setupapi/SetupDiGetClassDevs
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: SetupAPI.h
 req.target-type: DesktopFor universal, call CM_Get_Device_ID_ListFor universal, call CM_Get_Device_Interface_List
@@ -28,22 +24,27 @@ req.type-library:
 req.lib: SetupAPI.lib
 req.dll: SetupAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- SetupAPI.dll
-- ext-ms-win-setupapi-classinstallers-l1-1-0.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDiGetClassDevs
-- SetupDiGetClassDevsA
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetClassDevsA
+ - setupapi/SetupDiGetClassDevsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - SetupAPI.dll
+ - ext-ms-win-setupapi-classinstallers-l1-1-0.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDiGetClassDevs
+ - SetupDiGetClassDevsA
 ---
 
 ## -description
@@ -80,7 +81,6 @@ A handle to the top-level window to be used for a user interface that is associa
 
 ### -param Flags
 
-
 A variable of type DWORD that specifies control options that filter the device information elements that are added to the device information set. This parameter can be a bitwise OR of zero or more of the following flags. For more information about combining these flags, see the following <b>Remarks</b> section. 
 
 #### DIGCF_ALLCLASSES
@@ -111,16 +111,11 @@ Return only devices that are currently present in a system.
 
 Return only devices that are a part of the current hardware profile.
 
-
-
 ## -returns
-
 
 If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
 ## -remarks
-
-
 
 The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>.
 
@@ -290,9 +285,6 @@ if (DeviceInfoSet) {
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">Device Information Set</a>
 
 
@@ -314,7 +306,4 @@ if (DeviceInfoSet) {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsexa">SetupDiGetClassDevsEx</a>
- 
-
- 
 

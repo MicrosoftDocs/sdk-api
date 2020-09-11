@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 91cfef29-3e0a-4dd0-be1a-215827c23143
 ms.date: 12/05/2018
 ms.keywords: BFFCALLBACK, BFFCALLBACK callback function [Active Directory], BFFCallBack, BFFCallBack callback, BFFCallBack callback function [Active Directory], BFFM_ENABLEOK, BFFM_INITIALIZED, BFFM_SELCHANGED, BFFM_SETSELECTION, DSBM_CHANGEIMAGESTATE, DSBM_CONTEXTMENU, DSBM_HELP, DSBM_QUERYINSERT, _glines_bffcallback, ad.bffcallback, shlobj_core/BFFCallBack
-f1_keywords:
-- shlobj_core/BFFCALLBACK
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- shlobj_core.h
-api_name:
-- BFFCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BFFCALLBACK
+ - shlobj_core/BFFCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - shlobj_core.h
+api_name:
+ - BFFCALLBACK
 ---
 
 # BFFCALLBACK callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BFFCallBack</b> function is an application-defined callback function that receives event notifications from the Active Directory Domain Services container browser dialog box. A pointer to this function is supplied to the container browser dialog box in the <b>pfnCallback</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsbrowseinfoa">DSBROWSEINFO</a> structure when the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function is called. <b>BFFCallBack</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -86,7 +82,6 @@ This message selects an item in the dialog box.
 The <i>lParam</i> of this message is a pointer to a <b>TCHAR</b> string that contains the ADsPath of the item to be selected. Even though there are ANSI and Unicode versions of this message, both versions take a pointer to a Unicode string.
 
 The return value for this message is not used.
-
 
 ### -param uMsg [in]
 
@@ -155,25 +150,15 @@ Return a nonzero value from this notification if data  in the <a href="https://d
 
 The value and meaning of this parameter is determined by the notification received. For more information, see the notification message descriptions under the <i>uMsg</i> parameter.
 
-
 ### -param lpData [in]
 
 Contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsbrowseinfoa">DSBROWSEINFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function. This is true for all notification messages.
 
-
 ## -remarks
-
-
 
 The <b>DSBM_*</b> message values are defined in Dsclient.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsbitema">DSBITEM</a>
 
@@ -196,7 +181,4 @@ The <b>DSBM_*</b> message values are defined in Dsclient.h.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/wm-help">WM_HELP</a>
- 
-
- 
 

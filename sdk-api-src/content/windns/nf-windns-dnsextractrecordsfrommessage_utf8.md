@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 0179bf3e-9243-4dd7-a2ab-e2f6f4bf4b82
 ms.date: 12/05/2018
 ms.keywords: DnsExtractRecordsFromMessage, DnsExtractRecordsFromMessage_UTF8, DnsExtractRecordsFromMessage_W, DnsExtractRecordsFromMessage_W function [DNS], _dns_dnsextractrecordsfrommessage, dns.dnsextractrecordsfrommessage, windns/DnsExtractRecordsFromMessage_UTF8, windns/DnsExtractRecordsFromMessage_W
-f1_keywords:
-- windns/DnsExtractRecordsFromMessage_W
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsExtractRecordsFromMessage_W
-- DnsExtractRecordsFromMessage_UTF8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsExtractRecordsFromMessage_UTF8
+ - windns/DnsExtractRecordsFromMessage_UTF8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsExtractRecordsFromMessage_W
+ - DnsExtractRecordsFromMessage_UTF8
 ---
 
 # DnsExtractRecordsFromMessage_UTF8 function
 
 
 ## -description
-
 
 The 
 <b>DnsExtractRecordsFromMessage</b> function type extracts resource records (RR) from a DNS message, and stores those records in a 
@@ -67,41 +67,27 @@ The
 </ul>If the 
 <b>DnsExtractRecordsFromMessage</b> function type is used without its suffix (either _W or _UTF8), a compiler error will occur.
 
-
 ## -parameters
-
-
-
 
 ### -param pDnsBuffer [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a> structure that contains the DNS response message.
-
 
 ### -param wMessageLength [in]
 
 The size, in bytes, of the message in 
 <i>pDnsBuffer</i>.
 
-
 ### -param ppRecord [out]
 
 A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of extracted RRs. To free these records, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordlistfree">DnsRecordListFree</a> function.
 
-
 ## -returns
-
-
 
 Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 The <b>DnsExtractRecordsFromMessage</b> function is designed to operate on messages in host byte order. As such, received messages should be converted from network byte order to host byte order before extraction, or before retransmission onto the network. Use the DNS_BYTE_FLIP_HEADER_COUNTS macro to change  byte ordering.
 
@@ -116,12 +102,7 @@ DnsExtractRecordsFromMessage_UTF8(
     );
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_message_buffer">DNS_MESSAGE_BUFFER</a>
 
@@ -140,7 +121,4 @@ DnsExtractRecordsFromMessage_UTF8(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a>
- 
-
- 
 

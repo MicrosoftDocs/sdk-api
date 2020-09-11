@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
-f1_keywords:
-- wuapi/IDownloadJob
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadJob
+ - wuapi/IDownloadJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadJob
 ---
 
 # IDownloadJob interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains properties and methods that are available to a download operation.  This interface is returned by the   <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader.BeginDownload</a> method.
-
 
 ## -inheritance
 
@@ -152,5 +151,5 @@ Gets an interface that contains a read-only collection of the updates that are s
 
 </td>
 </tr>
-</table> 
+</table>
 

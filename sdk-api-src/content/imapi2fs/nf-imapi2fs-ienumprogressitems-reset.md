@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 9cb652f6-1507-46e3-ab44-582ce060a775
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Reset method, IEnumProgressItems.Reset, IEnumProgressItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_reset, imapi2fs/IEnumProgressItems::Reset
-f1_keywords:
-- imapi2fs/IEnumProgressItems.Reset
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IEnumProgressItems.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumProgressItems::Reset
+ - imapi2fs/IEnumProgressItems::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IEnumProgressItems.Reset
 ---
 
 # IEnumProgressItems::Reset
@@ -49,33 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumeration sequence to the beginning.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
- 
-
- 
 

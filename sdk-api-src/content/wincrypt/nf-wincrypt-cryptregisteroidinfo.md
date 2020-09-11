@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo
-f1_keywords:
-- wincrypt/CryptRegisterOIDInfo
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptRegisterOIDInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptRegisterOIDInfo
+ - wincrypt/CryptRegisterOIDInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptRegisterOIDInfo
 ---
 
 # CryptRegisterOIDInfo function
 
 
 ## -description
-
 
 The <b>CryptRegisterOIDInfo</b> function registers the OID information specified in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_oid_info">CRYPT_OID_INFO</a> structure, persisting it to the registry.
@@ -58,11 +58,7 @@ Crypt32.dll contains predefined information for the commonly known OIDs. This fu
 
 When expanding the tables using <b>CryptRegisterOIDInfo</b>, the new entries can be placed either before or after predefined entries, controlled by <i>dwFlags</i>. The placement of registered OID information affects the result of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> because the tables are searched in order. First registered entries placed before the predefined entries are checked, then the predefined entries are checked, and finally, registered entries placed after the predefined entries are checked. The first match found is returned. A newly registered entry placed before the predefined entries can override one of the predefined entries.
 
-
 ## -parameters
-
-
-
 
 ### -param pInfo [in]
 
@@ -78,31 +74,17 @@ A pointer to a
 
 By default, the registered OID information is installed after Crypt32.dll's OID entries. If CRYPT_INSTALL_OID_INFO_BEFORE_FLAG is set, new OID information is install before Crypt32.dll's entries.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE).
 
-
-
-
 ## -remarks
-
-
 
 When you have finished using the OID information, unregister it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>  function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
@@ -129,7 +111,4 @@ When you have finished using the OID information, unregister it by calling the <
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
- 
-
- 
 

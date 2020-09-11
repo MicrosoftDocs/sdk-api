@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPSHEETPAGEA_V4, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_LATEST, PROPSHEETPAGEA_V4, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW'
-f1_keywords:
-- prsht/PROPSHEETPAGE
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PROPSHEETPAGE
-- PROPSHEETPAGEA
-- PROPSHEETPAGEW
 targetos: Windows
 req.typenames: PROPSHEETPAGEA_V4, *LPPROPSHEETPAGEA_V4
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROPSHEETPAGEA_V4
+ - prsht/_PROPSHEETPAGEA_V4
+ - LPPROPSHEETPAGEA_V4
+ - prsht/LPPROPSHEETPAGEA_V4
+ - PROPSHEETPAGEA_V4
+ - prsht/PROPSHEETPAGEA_V4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PROPSHEETPAGE
+ - PROPSHEETPAGEA
+ - PROPSHEETPAGEW
 ---
 
 # PROPSHEETPAGEA_V4 structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a page in a property sheet.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszHeaderTitle
 
@@ -99,16 +99,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0</a> or later. An activation context handle. Set this member to the handle that is returned when you create the activation context with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a>. The system will activate this context before creating the dialog box. You do not need to use this member if you use a global manifest. See the Remarks.
 
-
 ### -field DUMMYUNIONNAME3
 
- 
-
-
 ### -field DUMMYUNIONNAME3.hbmHeader
-
- 
-
 
 ### -field DUMMYUNIONNAME3.pszbmHeader
 
@@ -357,12 +350,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Title of the property sheet dialog box. This title overrides the title specified in the dialog box template. This member can specify either the identifier of a string resource or the address of a string that specifies the title. To use this member, you must set the PSP_USETITLE flag in the <b>dwFlags</b> member.
 
-
 ## -remarks
 
-
-
 Comctl32.dll version 6 and later are not redistributable. To use Comctl32.dll version 6 or later, specify the .dll file in a manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
-
 

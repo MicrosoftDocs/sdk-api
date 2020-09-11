@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
-f1_keywords:
-- drt/DrtCreateDerivedKey
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtCreateDerivedKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtCreateDerivedKey
+ - drt/DrtCreateDerivedKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtCreateDerivedKey
 ---
 
 # DrtCreateDerivedKey function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the DRT is using a derived key security provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pLocalCert [in]
 
 Pointer to the certificate that is the "local" portion of the chain.  The root of this chain must match the root specified by <i>pRootCert</i> in <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>. This certificate is used to generate a key that is used to register and prove "key ownership" with the DRT.
-
 
 ### -param pKey [out]
 
@@ -72,10 +67,7 @@ Pointer to the created key.
 
 Pointer to the certificate that is the "root" portion of the chain. The local cert must be signed by a chain of certificates including the root cert.  This root cert will be used to verify certificates presented by other members of the mesh.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -114,15 +106,8 @@ This function returns S_OK on success. Other possible values include:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>
 
@@ -133,7 +118,4 @@ This function returns S_OK on success. Other possible values include:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
- 
-
- 
 

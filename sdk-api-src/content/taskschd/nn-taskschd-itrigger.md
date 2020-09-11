@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 165297c1-704b-4ab3-a9e3-4aa3f10e07b1
 ms.date: 12/05/2018
 ms.keywords: ITrigger, ITrigger interface [Task Scheduler], ITrigger interface [Task Scheduler],described, taskschd.itrigger, taskschd/ITrigger, triggers [Task Scheduler],trigger interface
-f1_keywords:
-- taskschd/ITrigger
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITrigger
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITrigger
+ - taskschd/ITrigger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITrigger
 ---
 
 # ITrigger interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the common properties that are inherited by all trigger objects.
 
-
 ## -remarks
-
-
-
 
 Task Scheduler provides the following individual interfaces for the different triggers that a task can use: 
 
@@ -106,12 +102,7 @@ For more information and example code for this interface, see <a href="https://d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
 
@@ -122,7 +113,4 @@ For more information and example code for this interface, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

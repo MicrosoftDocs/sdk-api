@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: a622d83c-bb18-4482-be8d-fdd96382a5e1
 ms.date: 12/05/2018
 ms.keywords: DhcpV4QueryPolicyEnforcement, DhcpV4QueryPolicyEnforcement function [DHCP], dhcp.dhcpv4querypolicyenforcement, dhcpsapi/DhcpV4QueryPolicyEnforcement
-f1_keywords:
-- dhcpsapi/DhcpV4QueryPolicyEnforcement
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV4QueryPolicyEnforcement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV4QueryPolicyEnforcement
+ - dhcpsapi/DhcpV4QueryPolicyEnforcement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV4QueryPolicyEnforcement
 ---
 
 # DhcpV4QueryPolicyEnforcement function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpV4QueryPolicyEnforcement</b> function  retrieves the policy enforcement state on the server or the specified IPv4 subnet from the DHCP Server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
-
 ### -param fGlobalPolicy [in]
 
 If <b>TRUE</b> the policy enforcement state of the server is retrieved. Otherwise, the policy enforcement state of specified Ipv4 scope is retrieved.
 
-
 ### -param SubnetAddress [in]
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IPv4 subnet address of the policy enforcement state to retrieve.
-
 
 ### -param Enabled [out]
 
@@ -84,8 +76,6 @@ Pointer to a <b>BOOL</b> that indicates the state of policy enforcement. If  <b>
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -119,15 +109,8 @@ The specified IPv4 subnet does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4addpolicyrange">DhcpV4AddPolicyRange</a>
 
@@ -158,7 +141,4 @@ The specified IPv4 subnet does not exist.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setpolicyenforcement">DhcpV4SetPolicyEnforcement</a>
- 
-
- 
 

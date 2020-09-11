@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 09014adb-e65e-4e9c-9f29-4bdbe61ea695
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPBATCH_ACK_CLOSE_PENDING, FSCTL_OPBATCH_ACK_CLOSE_PENDING control, FSCTL_OPBATCH_ACK_CLOSE_PENDING control code [Files], _win32_fsctl_opbatch_ack_close_pending, base.fsctl_opbatch_ack_close_pending, fs.fsctl_opbatch_ack_close_pending, winioctl/FSCTL_OPBATCH_ACK_CLOSE_PENDING
-f1_keywords:
-- winioctl/FSCTL_OPBATCH_ACK_CLOSE_PENDING
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_OPBATCH_ACK_CLOSE_PENDING
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_OPBATCH_ACK_CLOSE_PENDING
+ - winioctl/FSCTL_OPBATCH_ACK_CLOSE_PENDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_OPBATCH_ACK_CLOSE_PENDING
 ---
 
 # FSCTL_OPBATCH_ACK_CLOSE_PENDING IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -115,7 +110,6 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -126,3 +120,4 @@ Resilient File System (ReFS) | Yes
 * [HasOverlappedIoCompleted](../winbase/nf-winbase-hasoverlappediocompleted.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+

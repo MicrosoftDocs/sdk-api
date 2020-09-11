@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
 ms.date: 12/05/2018
 ms.keywords: '*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTA, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST'
-f1_keywords:
-- winuser/HIGHCONTRAST
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- HIGHCONTRAST
 targetos: Windows
 req.typenames: HIGHCONTRASTA, *LPHIGHCONTRASTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHIGHCONTRASTA
+ - winuser/tagHIGHCONTRASTA
+ - LPHIGHCONTRASTA
+ - winuser/LPHIGHCONTRASTA
+ - HIGHCONTRASTA
+ - winuser/HIGHCONTRASTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - HIGHCONTRAST
 ---
 
 # HIGHCONTRASTA structure
+
 
 ## -description
 
@@ -187,3 +193,4 @@ An application uses this structure when calling the[SystemParametersInfoA functi
 ## -see-also
 
 [SystemParametersInfoA function](nf-winuser-systemparametersinfoa.md), [HIGHCONTRASTW structure](ns-winuser-highcontrastw.md), <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

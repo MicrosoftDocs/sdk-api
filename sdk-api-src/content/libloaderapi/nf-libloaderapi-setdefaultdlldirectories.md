@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 66884797-b1c8-4e50-aef1-e88944766d50
 ms.date: 12/05/2018
 ms.keywords: LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, SetDefaultDllDirectories, SetDefaultDllDirectories function, base.setdefaultdlldirectories, libloaderapi/SetDefaultDllDirectories
-f1_keywords:
-- libloaderapi/SetDefaultDllDirectories
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- SetDefaultDllDirectories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDefaultDllDirectories
+ - libloaderapi/SetDefaultDllDirectories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - SetDefaultDllDirectories
 ---
 
 # SetDefaultDllDirectories function
@@ -56,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a default set of directories to search when the calling process loads a DLL. This search 
     path is used when <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> is called with no 
     <b>LOAD_LIBRARY_SEARCH</b> flags.
 
-
 ## -parameters
-
-
-
 
 ### -param DirectoryFlags [in]
 
@@ -129,24 +125,15 @@ If this value is used, any path explicitly added using the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The DLL search path is the set of directories that are searched for a DLL when a full path is not specified in 
     a <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> or 
@@ -196,13 +183,7 @@ It is not possible to revert to the standard DLL search path or remove any direc
       <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> must be 
       installed on the target platform.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-adddlldirectory">AddDllDirectory</a>
 
@@ -225,7 +206,4 @@ It is not possible to revert to the standard DLL search path or remove any direc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-removedlldirectory">RemoveDllDirectory</a>
- 
-
- 
 

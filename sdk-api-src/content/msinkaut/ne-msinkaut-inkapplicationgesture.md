@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b429ec96-691f-4761-92bf-ef500cf0e1be
 ms.date: 12/05/2018
 ms.keywords: IAG_AllGestures, IAG_ArrowDown, IAG_ArrowLeft, IAG_ArrowRight, IAG_ArrowUp, IAG_Check, IAG_ChevronDown, IAG_ChevronLeft, IAG_ChevronRight, IAG_ChevronUp, IAG_Circle, IAG_Curlicue, IAG_DoubleCircle, IAG_DoubleCurlicue, IAG_DoubleTap, IAG_Down, IAG_DownLeft, IAG_DownLeftLong, IAG_DownRight, IAG_DownRightLong, IAG_DownUp, IAG_Exclamation, IAG_Left, IAG_LeftDown, IAG_LeftRight, IAG_LeftUp, IAG_NoGesture, IAG_Right, IAG_RightDown, IAG_RightLeft, IAG_RightUp, IAG_Scratchout, IAG_SemiCircleLeft, IAG_SemiCircleRight, IAG_Square, IAG_Star, IAG_Tap, IAG_Triangle, IAG_Up, IAG_UpDown, IAG_UpLeft, IAG_UpLeftLong, IAG_UpRight, IAG_UpRightLong, InkApplicationGesture, InkApplicationGesture enumeration [Tablet PC], b429ec96-691f-4761-92bf-ef500cf0e1be, msinkaut/IAG_AllGestures, msinkaut/IAG_ArrowDown, msinkaut/IAG_ArrowLeft, msinkaut/IAG_ArrowRight, msinkaut/IAG_ArrowUp, msinkaut/IAG_Check, msinkaut/IAG_ChevronDown, msinkaut/IAG_ChevronLeft, msinkaut/IAG_ChevronRight, msinkaut/IAG_ChevronUp, msinkaut/IAG_Circle, msinkaut/IAG_Curlicue, msinkaut/IAG_DoubleCircle, msinkaut/IAG_DoubleCurlicue, msinkaut/IAG_DoubleTap, msinkaut/IAG_Down, msinkaut/IAG_DownLeft, msinkaut/IAG_DownLeftLong, msinkaut/IAG_DownRight, msinkaut/IAG_DownRightLong, msinkaut/IAG_DownUp, msinkaut/IAG_Exclamation, msinkaut/IAG_Left, msinkaut/IAG_LeftDown, msinkaut/IAG_LeftRight, msinkaut/IAG_LeftUp, msinkaut/IAG_NoGesture, msinkaut/IAG_Right, msinkaut/IAG_RightDown, msinkaut/IAG_RightLeft, msinkaut/IAG_RightUp, msinkaut/IAG_Scratchout, msinkaut/IAG_SemiCircleLeft, msinkaut/IAG_SemiCircleRight, msinkaut/IAG_Square, msinkaut/IAG_Star, msinkaut/IAG_Tap, msinkaut/IAG_Triangle, msinkaut/IAG_Up, msinkaut/IAG_UpDown, msinkaut/IAG_UpLeft, msinkaut/IAG_UpLeftLong, msinkaut/IAG_UpRight, msinkaut/IAG_UpRightLong, msinkaut/InkApplicationGesture, tablet.inkapplicationgesture
-f1_keywords:
-- msinkaut/InkApplicationGesture
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkApplicationGesture
 targetos: Windows
 req.typenames: InkApplicationGesture
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkApplicationGesture
+ - msinkaut/InkApplicationGesture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkApplicationGesture
 ---
 
 # InkApplicationGesture enumeration
 
 
 ## -description
-
-
 
 Defines values that set the interest in a set of application-specific gesture.
 
@@ -61,18 +60,11 @@ In addition to the following list of gestures, Microsoft intends to support many
 
 For more information about application gestures and system gestures, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/pen-input--ink--and-recognition">Pen Input, Ink, and Recognition</a>.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IAG_AllGestures
 
  All application-specific gestures.
-
 
 ### -field IAG_NoGesture
 
@@ -80,101 +72,81 @@ For more information about application gestures and system gestures, see <a href
 
 This is the default value.
 
-
 ### -field IAG_Scratchout
 
 This gesture must be drawn as a single stroke that has at least three back-and-forth motions.
-
 
 ### -field IAG_Triangle
 
 The triangle must be drawn in a single stroke, without lifting the pen.
 
-
 ### -field IAG_Square
 
 The square can be drawn in one or two strokes. In one stroke, draw the entire square without lifting the pen. In two strokes, draw three sides of the square and use another stroke to draw the remaining side. Do not use more than two strokes to draw the square.
-
 
 ### -field IAG_Star
 
 The star must have exactly five points and be drawn in a single stroke without lifting the pen.
 
-
 ### -field IAG_Check
 
 The upward stroke must be twice as long as the smaller downward stroke.
-
 
 ### -field IAG_Curlicue
 
 Start the curlicue on the ink on which you intend to take action.
 
-
 ### -field IAG_DoubleCurlicue
 
 Start the double-curlicue on the ink on which you intend to take action.
-
 
 ### -field IAG_Circle
 
 The circle must be drawn in a single stroke without lifting the pen.
 
-
 ### -field IAG_DoubleCircle
 
 The two circles must overlap each other and be drawn in a single stroke without lifting the pen.
-
 
 ### -field IAG_SemiCircleLeft
 
 The semicircle must be drawn from left to right. Horizontally, the two ends of the semicircle should be as even as possible.
 
-
 ### -field IAG_SemiCircleRight
 
 The semicircle must be drawn from right to left. Horizontally, the two ends of the semicircle should be as even as possible.
-
 
 ### -field IAG_ChevronUp
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
 
-
 ### -field IAG_ChevronDown
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
-
 
 ### -field IAG_ChevronLeft
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
 
-
 ### -field IAG_ChevronRight
 
 Both sides of the chevron must be drawn as equal as possible. The angle must be sharp and end in a point.
-
 
 ### -field IAG_ArrowUp
 
 The arrow can be drawn in single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
 
-
 ### -field IAG_ArrowDown
 
 The arrow can be drawn in a single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
-
 
 ### -field IAG_ArrowLeft
 
 The arrow can be drawn in a single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
 
-
 ### -field IAG_ArrowRight
 
 The arrow can be drawn in a single stroke or in two strokes in which one stroke is the line and the other is the arrow head. Do not use more than two strokes to draw the arrow.
-
 
 ### -field IAG_Up
 
@@ -182,13 +154,11 @@ This gesture must be drawn as a single fast flick in the upward direction.
 
 This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-
 ### -field IAG_Down
 
 This gesture must be drawn as a single fast flick in the downward direction.
 
 This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
-
 
 ### -field IAG_Left
 
@@ -196,98 +166,79 @@ This gesture must be drawn as a single fast flick to the left.
 
 This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-
 ### -field IAG_Right
 
 This gesture must be drawn as a single fast flick to the right.
 
 This gesture is used by <a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-gestures">Flicks Gestures</a>.
 
-
 ### -field IAG_UpDown
 
 This gesture must be drawn in a single stroke starting with the up stroke. The two strokes must be as close to each other as possible.
-
 
 ### -field IAG_DownUp
 
 This gesture must be drawn in a single stroke starting with the down stroke. The two strokes must be as close to each other as possible.
 
-
 ### -field IAG_LeftRight
 
 This gesture must be drawn in a single stroke starting with the left stroke. The two strokes must be as close to each other as possible.
-
 
 ### -field IAG_RightLeft
 
 This gesture must be drawn in a single stroke starting with the right stroke. The two strokes must be as close to each other as possible.
 
-
 ### -field IAG_UpLeftLong
 
 This gesture must be drawn in a single stroke starting with the up stroke. The left stroke must be about twice as long as the up stroke, and the two strokes must be at a right angle.
-
 
 ### -field IAG_UpRightLong
 
 This gesture must be drawn in a single stroke starting with the up stroke. The right stroke must be about twice as long as the up stroke, and the two strokes must be at a right angle.
 
-
 ### -field IAG_DownLeftLong
 
 This gesture must be drawn in a single stroke starting with the down stroke. The left stroke is about twice as long as the up stroke, and the two strokes must be at a right angle.
-
 
 ### -field IAG_DownRightLong
 
 This gesture must be drawn in a single stroke starting with the down stroke. The right stroke must be about twice as long as the up stroke, and the two strokes must be at a right angle.
 
-
 ### -field IAG_UpLeft
 
 This gesture must be drawn in a single stroke starting with the up stroke. The two sides must be as equal in length as possible and at a right angle.
-
 
 ### -field IAG_UpRight
 
 This gesture must be drawn in a single stroke starting with the up stroke. The two sides must be as equal in length as possible and at a right angle.
 
-
 ### -field IAG_DownLeft
 
 This gesture must be drawn in a single stroke starting with the down stroke. The two sides must be as equal in length as possible and at a right angle.
-
 
 ### -field IAG_DownRight
 
 This gesture must be drawn in a single stroke starting with the down stroke. The two sides must be as equal in length as possible and at a right angle.
 
-
 ### -field IAG_LeftUp
 
 This gesture must be drawn in a single stroke starting with the left stroke. The two sides must be as equal in length as possible and at a right angle.
-
 
 ### -field IAG_LeftDown
 
 This gesture must be drawn in a single stroke starting with the left stroke. The two sides are as equal in length as possible and at a right angle.
 
-
 ### -field IAG_RightUp
 
 This gesture must be drawn in a single stroke starting with the right stroke. The two sides must be as equal in length as possible and at a right angle.
-
 
 ### -field IAG_RightDown
 
 This gesture must be drawn in a single stroke starting with the right stroke. The two sides must be as equal in length as possible and at a right angle.
 
-
 ### -field IAG_Exclamation
 
 The line must be drawn first and then the dot drawn quickly and as close to the line as possible.
-
 
 ### -field IAG_Tap
 
@@ -295,17 +246,13 @@ The line must be drawn first and then the dot drawn quickly and as close to the 
 
 For the least amount of slipping across the digitizer surface, tap quickly.
 
-
 ### -field IAG_DoubleTap
 
 A mouse double-click.
 
 Tap quickly and in as close to the same place for best results.
 
-
 ## -remarks
-
-
 
 The default value is <b>NoGesture</b>, which is actually a cutoff line that represents the Microsoft gesture recognizer minimum suggested confidence. It does not actually represent a gesture or lack of gesture, just the point at which the gesture recognizer lacks enough confidence in the result accuracy to recommend anything following that point.
 
@@ -315,13 +262,7 @@ The confidence level at which the gesture recognizer returns <b>NoGesture</b> ca
 
 If <b>NoGesture</b> is the first element in the array (which means that every recognized gesture is below the suggested confidence threshold), then the platform alters the default value of the <i>Cancel</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture</a> event handler from <b>FALSE</b> to <b>TRUE</b>. This causes the ink to be considered a stroke and not be deleted from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object by default.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode">CollectionMode Property [InkPicture Class]</a>
 
@@ -356,7 +297,4 @@ If <b>NoGesture</b> is the first element in the array (which means that every re
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: D69C8040-AAC4-4149-ACDA-948FDBACAB48
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
-f1_keywords:
-- shobjidl/IAccessibilityDockingServiceCallback
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl.h
-api_name:
-- IAccessibilityDockingServiceCallback
-- IAccessibilityDockingServiceCallback.Undocked
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibilityDockingServiceCallback
+ - shobjidl/IAccessibilityDockingServiceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl.h
+api_name:
+ - IAccessibilityDockingServiceCallback
+ - IAccessibilityDockingServiceCallback.Undocked
 ---
 
 # IAccessibilityDockingServiceCallback interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives Acessibility Window Docking events.
-
 
 ## -inheritance
 
@@ -76,5 +75,5 @@ Undocks the accessibility window so that it will not be automatically moved to i
 
 </td>
 </tr>
-</table> 
+</table>
 

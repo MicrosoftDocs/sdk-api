@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 5067bb03-d8d5-41ce-b187-04d7dd22a028
 ms.date: 12/05/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotification, WTSRegisterSessionNotification function [Remote Desktop Services], _win32_wtsregistersessionnotification, termserv.wtsregistersessionnotification, wtsapi32/WTSRegisterSessionNotification
-f1_keywords:
-- wtsapi32/WTSRegisterSessionNotification
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
-api_name:
-- WTSRegisterSessionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSRegisterSessionNotification
+ - wtsapi32/WTSRegisterSessionNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+ - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+api_name:
+ - WTSRegisterSessionNotification
 ---
 
 # WTSRegisterSessionNotification function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the specified window to receive session change notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle of the window to receive session change notifications.
-
 
 ### -param dwFlags [in]
 
@@ -82,21 +77,13 @@ Only session notifications involving the session attached to by the window ident
 
 All session notifications are to be received.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>. Otherwise, it is 
        <b>FALSE</b>. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If this function is called before the dependent services of Remote Desktop Services have started, an 
     <b>RPC_S_INVALID_BINDING</b> error code may be returned. When the Global\\TermSrvReadyEvent 
@@ -116,13 +103,7 @@ If the window handle passed in this function is already registered, the value of
 To receive session change notifications from a service, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
@@ -145,7 +126,4 @@ To receive session change notifications from a service, use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotification">WTSUnRegisterSessionNotification</a>
- 
-
- 
 

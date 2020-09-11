@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 814EDDA6-EFEA-4281-BE06-9FF8822B4927
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], IDXGIDecodeSwapChain interface [DXGI],described, direct3ddxgi.idxgidecodeswapchain, dxgi1_3/IDXGIDecodeSwapChain
-f1_keywords:
-- dxgi1_3/IDXGIDecodeSwapChain
-dev_langs:
-- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIDecodeSwapChain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDecodeSwapChain
+ - dxgi1_3/IDXGIDecodeSwapChain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIDecodeSwapChain
 ---
 
 # IDXGIDecodeSwapChain interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a swap chain that is used by desktop media apps to decode video data and show it on a <a href="https://docs.microsoft.com/windows/desktop/directcomp/reference">DirectComposition</a> surface.
-        
-
 
 ## -inheritance
 
@@ -151,12 +149,9 @@ Sets the rectangle that defines the target region for the video processing blit 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Decode swap chains are intended for use primarily with YUV surface formats. When using decode buffers created with an RGB surface format, the <i>TargetRect</i> and <i>DestSize</i> must be set equal to the buffer dimensions. <i>SourceRect</i> cannot exceed the buffer dimensions.
       
@@ -165,15 +160,8 @@ In clone mode, the decode swap chain is only guaranteed to be shown on the prima
       
 
 Decode swap chains cannot be used with dirty rects.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
@@ -184,7 +172,4 @@ Decode swap chains cannot be used with dirty rects.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

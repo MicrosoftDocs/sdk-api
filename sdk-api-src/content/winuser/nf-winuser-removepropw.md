@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\removeprop.htm
 ms.date: 12/05/2018
 ms.keywords: RemoveProp, RemoveProp function [Windows and Messages], RemovePropA, RemovePropW, _win32_RemoveProp, _win32_removeprop_cpp, winmsg.removeprop, winui._win32_removeprop, winuser/RemoveProp, winuser/RemovePropA, winuser/RemovePropW
-f1_keywords:
-- winuser/RemoveProp
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,36 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- RemoveProp
-- RemovePropA
-- RemovePropW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemovePropW
+ - winuser/RemovePropW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - RemoveProp
+ - RemovePropA
+ - RemovePropW
 ---
 
 # RemovePropW function
@@ -61,14 +62,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -76,28 +72,19 @@ Type: <b>HWND</b>
 
 A handle to the window whose property list is to be changed.
 
-
 ### -param lpString [in]
 
 Type: <b>LPCTSTR</b>
 
 A null-terminated character string or an atom that identifies a string. If this parameter is an atom, it must have been created using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a> function. The atom, a 16-bit value, must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero.
 
-
 ## -returns
-
-
 
 Type: <b>HANDLE</b>
 
 The return value identifies the specified data. If the data cannot be found in the specified property list, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The return value is the <i>hData</i> value that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>; it is an application-defined value. Note, this function only destroys the association between the data and the window. If appropriate, the application must free the data handles associated with entries removed from a property list. The application can remove only those properties it has added. It must not remove properties added by other applications or by the system itself.
 
@@ -120,9 +107,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addatomw">AddAtom</a>
 
 
@@ -144,7 +128,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
- 
-
- 
 

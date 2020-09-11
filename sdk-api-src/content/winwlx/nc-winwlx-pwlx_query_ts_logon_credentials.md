@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1365b798-682e-4cdb-b8f5-9e7c65366154
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_TS_LOGON_CREDENTIALS, PWLX_QUERY_TS_LOGON_CREDENTIALS callback, WlxQueryTsLogonCredentials, WlxQueryTsLogonCredentials callback function [Security], security.wlxquerytslogoncredentials, winwlx/WlxQueryTsLogonCredentials
-f1_keywords:
-- winwlx/WlxQueryTsLogonCredentials
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxQueryTsLogonCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_QUERY_TS_LOGON_CREDENTIALS
+ - winwlx/PWLX_QUERY_TS_LOGON_CREDENTIALS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxQueryTsLogonCredentials
 ---
 
 # PWLX_QUERY_TS_LOGON_CREDENTIALS callback function
 
 
 ## -description
-
 
 Called by a replacement 
 				<a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL to retrieve <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> information if Terminal Services is enabled.
@@ -57,17 +57,11 @@ Called by a replacement
 
 ## -parameters
 
-
-
-
 ### -param pCred [out]
 
 When the return value is <b>TRUE</b>, <i>pCred</i> specifies a pointer to a <a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a> structure that contains the credentials to use for auto logon.
 
-
 ## -returns
-
-
 
 The <b>WlxQueryTsLogonCredentials</b> function returns one of the following values.
 
@@ -99,14 +93,8 @@ The credentials information was not retrieved.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function supersedes the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_client_credentials">WlxQueryClientCredentials</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ic_credentials">WlxQueryInetConnectorCredentials</a> functions.
 
@@ -118,13 +106,7 @@ Other Winlogon support functions that may be called when Terminal Services is en
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a>, and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate">WlxWin31Migrate</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winwlx/ns-winwlx-wlx_client_credentials_info_v2_0">WLX_CLIENT_CREDENTIALS_INFO_V2_0</a>
 
@@ -143,7 +125,4 @@ Other Winlogon support functions that may be called when Terminal Services is en
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate">WlxWin31Migrate</a>
- 
-
- 
 

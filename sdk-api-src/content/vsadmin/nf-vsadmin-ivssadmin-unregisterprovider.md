@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],UnregisterProvider method, IVssAdmin.UnregisterProvider, IVssAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VSS], UnregisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_unregisterprovider, vsadmin/IVssAdmin::UnregisterProvider
-f1_keywords:
-- vsadmin/IVssAdmin.UnregisterProvider
-dev_langs:
-- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsAdmin.h
-api_name:
-- IVssAdmin.UnregisterProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAdmin::UnregisterProvider
+ - vsadmin/IVssAdmin::UnregisterProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsAdmin.h
+api_name:
+ - IVssAdmin.UnregisterProvider
 ---
 
 # IVssAdmin::UnregisterProvider
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>UnregisterProvider</b> 
    method unregisters an existing provider.
 
-
 ## -parameters
-
-
-
 
 ### -param ProviderId [in]
 
-The <b>VSS_ID</b> of the provider. 
-
+The <b>VSS_ID</b> of the provider.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,22 +127,12 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-registerprovider">RegisterProvider</a>
- 
-
- 
 

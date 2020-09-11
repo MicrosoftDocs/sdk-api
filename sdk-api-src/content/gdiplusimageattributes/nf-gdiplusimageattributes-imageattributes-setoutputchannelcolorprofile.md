@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setoutputchannelcolorprofile.htm
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetOutputChannelColorProfile method, ImageAttributes.SetOutputChannelColorProfile, ImageAttributes::SetOutputChannelColorProfile, SetOutputChannelColorProfile, SetOutputChannelColorProfile method [GDI+], SetOutputChannelColorProfile method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_
-f1_keywords:
-- gdiplusimageattributes/ImageAttributes.SetOutputChannelColorProfile
-dev_langs:
-- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- ImageAttributes.SetOutputChannelColorProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - ImageAttributes::SetOutputChannelColorProfile
+ - gdiplusimageattributes/ImageAttributes::SetOutputChannelColorProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - ImageAttributes.SetOutputChannelColorProfile
 ---
 
 # ImageAttributes::SetOutputChannelColorProfile
@@ -50,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImageAttributes::SetOutputChannelColorProfile</b> method sets the output channel color-profile file for a specified category.
 
-
 ## -parameters
-
-
-
 
 ### -param colorProfileFilename [in]
 
 Type: <b>const WCHAR*</b>
 
-Path name of a color-profile file. If the color-profile file is in the %SystemRoot%\System32\Spool\Drivers\Color directory, then this parameter can be the file name. Otherwise, this parameter must be the fully qualified path name. 
-
+Path name of a color-profile file. If the color-profile file is in the %SystemRoot%\System32\Spool\Drivers\Color directory, then this parameter can be the file name. Otherwise, this parameter must be the fully qualified path name.
 
 ### -param type [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a></b>
 
-Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a> enumeration that specifies the category for which the output channel color-profile file is set. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustTypeDefault</a>. 
-
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a> enumeration that specifies the category for which the output channel color-profile file is set. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustTypeDefault</a>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -83,12 +75,7 @@ If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/d
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 You can use the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannel">ImageAttributes::SetOutputChannel</a> and <b>ImageAttributes::SetOutputChannelColorProfile</b> methods to convert an image to a cyan-magenta-yellow-black (CMYK) color space and examine the intensities of one of the CMYK color channels. For example, suppose you write code that performs the following steps: 
 
@@ -183,12 +170,7 @@ The preceding code, along with the files Mosaic2.bmp and Tekph600.icm, produced 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype">ColorAdjustType</a>
 
@@ -211,7 +193,4 @@ The preceding code, along with the files Mosaic2.bmp and Tekph600.icm, produced 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannel">ImageAttributes::SetOutputChannel</a>
- 
-
- 
 

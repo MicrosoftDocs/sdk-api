@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.date: 12/05/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
-f1_keywords:
-- wincrypt/CryptSetProvider
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptSetProvider
-- CryptSetProviderA
-- CryptSetProviderW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSetProviderW
+ - wincrypt/CryptSetProviderW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptSetProvider
+ - CryptSetProviderA
+ - CryptSetProviderW
 ---
 
 # CryptSetProviderW function
 
 
 ## -description
-
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSetProvider</b> function specifies the current user's default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
@@ -65,23 +65,16 @@ An enhanced version of this function,
 
 ## -parameters
 
-
-
-
 ### -param pszProvName [in]
 
 Name of the new default CSP. The named CSP must be installed on the computer. For a list of available cryptographic providers, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>.
 
-
 ### -param dwProvType [in]
 
 Provider type of the CSP specified by <i>pszProvName</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -131,12 +124,7 @@ The operating system ran out of memory during the operation.
 
 Errors can also be propagated from internal calls to <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>.
 
-
-
-
 ## -remarks
-
-
 
 Typical applications do not specify a CSP name when calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>; however, an application does have the option of selecting a specific CSP. This gives a user the freedom to select a CSP with an appropriate level of security.
@@ -151,9 +139,6 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 > The wincrypt.h header defines CryptSetProvider as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
@@ -172,7 +157,4 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
- 
-
- 
 

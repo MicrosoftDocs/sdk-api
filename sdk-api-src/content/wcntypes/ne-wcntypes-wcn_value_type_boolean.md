@@ -8,10 +8,6 @@ tech.root: wcn
 ms.assetid: d11a7aef-1a18-44bf-90fa-7e0980739740
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_FALSE, WCN_VALUE_TRUE, WCN_VALUE_TYPE_BOOLEAN, WCN_VALUE_TYPE_BOOLEAN enumeration [Windows Connect Now], wcn.wcn_value_type_boolean, wcntypes/WCN_VALUE_FALSE, wcntypes/WCN_VALUE_TRUE, wcntypes/WCN_VALUE_TYPE_BOOLEAN
-f1_keywords:
-- wcntypes/WCN_VALUE_TYPE_BOOLEAN
-dev_langs:
-- c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wcntypes.h
-api_name:
-- WCN_VALUE_TYPE_BOOLEAN
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_BOOLEAN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWCN_VALUE_TYPE_BOOLEAN
+ - wcntypes/tagWCN_VALUE_TYPE_BOOLEAN
+ - WCN_VALUE_TYPE_BOOLEAN
+ - wcntypes/WCN_VALUE_TYPE_BOOLEAN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wcntypes.h
+api_name:
+ - WCN_VALUE_TYPE_BOOLEAN
 ---
 
 # WCN_VALUE_TYPE_BOOLEAN enumeration
@@ -49,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WCN_VALUE_TYPE_BOOLEAN</b> enumeration defines values used to represent true/false conditions encountered during device setup and association.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WCN_VALUE_FALSE
 
 The argument is false.
 
-
 ### -field WCN_VALUE_TRUE
 
 The argument is true.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
- 
-
- 
 

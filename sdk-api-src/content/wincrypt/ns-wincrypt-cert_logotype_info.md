@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7ce801bf-38fd-4490-8465-40ed5078bbff
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_LOGOTYPE_INFO, CERT_LOGOTYPE_DIRECT_INFO_CHOICE, CERT_LOGOTYPE_INDIRECT_INFO_CHOICE, CERT_LOGOTYPE_INFO, CERT_LOGOTYPE_INFO structure [Security], PCERT_LOGOTYPE_INFO, PCERT_LOGOTYPE_INFO structure pointer [Security], security.cert_logotype_info, wincrypt/CERT_LOGOTYPE_INFO, wincrypt/PCERT_LOGOTYPE_INFO'
-f1_keywords:
-- wincrypt/CERT_LOGOTYPE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_LOGOTYPE_INFO
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_INFO, *PCERT_LOGOTYPE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_LOGOTYPE_INFO
+ - wincrypt/_CERT_LOGOTYPE_INFO
+ - PCERT_LOGOTYPE_INFO
+ - wincrypt/PCERT_LOGOTYPE_INFO
+ - CERT_LOGOTYPE_INFO
+ - wincrypt/CERT_LOGOTYPE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_LOGOTYPE_INFO
 ---
 
 # CERT_LOGOTYPE_INFO structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_LOGOTYPE_INFO</b> structure contains information about logotype data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLogotypeInfoChoice
 
@@ -88,31 +88,18 @@ The logotype data is available through a reference. The <b>pLogotypeIndirectInfo
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.pLogotypeDirectInfo
 
 The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
 
-
 ### -field DUMMYUNIONNAME.pLogotypeIndirectInfo
 
 The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_reference">CERT_LOGOTYPE_REFERENCE</a> structure that contains references to the logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_INDIRECT_INFO_CHOICE</b>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_ext_info">CERT_LOGOTYPE_EXT_INFO</a>
- 
-
- 
 

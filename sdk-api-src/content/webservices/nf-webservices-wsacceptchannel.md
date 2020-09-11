@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: e18e0005-89bd-435e-9a12-6602c3c638b7
 ms.date: 12/05/2018
 ms.keywords: WsAcceptChannel, WsAcceptChannel function [Web Services for Windows], webservices/WsAcceptChannel, wsw.wsacceptchannel
-f1_keywords:
-- webservices/WsAcceptChannel
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsAcceptChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsAcceptChannel
+ - webservices/WsAcceptChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsAcceptChannel
 ---
 
 # WsAcceptChannel function
@@ -49,49 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Accepts the next incoming message from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/listener">listener</a>.
-            
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param listener [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener.
                 This is the listener passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>when the channel was created.
-                
-
-
-
 
 ### -param channel [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> structure representing the channel to accept.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information for invoking the function asynchronously.  Pass a <b>NULL</b> 
                  value for a synchronous operation.
 
-
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -254,14 +235,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Once you accept a channel, you must close it  when you no longer need it and free the resources by calling the  
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> function, and then calling either the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetchannel">WsResetChannel</a>.
@@ -273,6 +248,4 @@ If a listener is in the <b>WS_LISTENER_STATE_FAULTED</b> state,
                 <b>WsAcceptChannel</b> immediately returns the <b>WS_E_OBJECT_FAULTED</b> error code. If an
                 application is calling <b>WsAcceptChannel</b> in a loop, the application must check for this
                 error, so it can end the loop.
-
-
 

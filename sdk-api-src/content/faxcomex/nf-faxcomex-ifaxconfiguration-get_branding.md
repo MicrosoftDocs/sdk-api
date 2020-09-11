@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding.htm
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],Branding property, IFaxConfiguration.Branding, IFaxConfiguration.get_Branding, IFaxConfiguration::Branding, IFaxConfiguration::get_Branding, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_IFaxConfiguration_Branding, faxcomex/IFaxConfiguration::Branding, faxcomex/IFaxConfiguration::get_Branding, faxcomex/IFaxConfiguration::put_Branding, get_Branding
-f1_keywords:
-- faxcomex/IFaxConfiguration.Branding
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxConfiguration.Branding
-- IFaxConfiguration.get_Branding
-- IFaxConfiguration.put_Branding
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxConfiguration::get_Branding
+ - faxcomex/IFaxConfiguration::get_Branding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxConfiguration.Branding
+ - IFaxConfiguration.get_Branding
+ - IFaxConfiguration.put_Branding
 ---
 
 # IFaxConfiguration::get_Branding
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
- 
-
- 
 

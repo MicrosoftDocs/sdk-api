@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8a0667c8-b182-4851-af8e-411d95da0e3b
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files], _win32_ioctl_disk_get_drive_geometry_ex, base.ioctl_disk_get_drive_geometry_ex, fs.ioctl_disk_get_drive_geometry_ex, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-f1_keywords:
-- winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
+ - winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 ---
 
 # IOCTL_DISK_GET_DRIVE_GEOMETRY_EX IOCTL
+
 
 ## -description
 
@@ -117,3 +119,4 @@ If the operation fails, or is pending, the return value is zero. To get extended
 * [DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
+

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 74caff9e-6882-4585-ad51-e83e4afb8454
 ms.date: 12/05/2018
 ms.keywords: '*PEMRROUNDRECT, EMRROUNDRECT, EMRROUNDRECT structure [Windows GDI], PEMRROUNDRECT, PEMRROUNDRECT structure pointer [Windows GDI], _win32_EMRROUNDRECT_str, gdi.emrroundrect, wingdi/EMRROUNDRECT, wingdi/PEMRROUNDRECT'
-f1_keywords:
-- wingdi/EMRROUNDRECT
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMRROUNDRECT
 targetos: Windows
 req.typenames: EMRROUNDRECT, *PEMRROUNDRECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMRROUNDRECT
+ - wingdi/tagEMRROUNDRECT
+ - PEMRROUNDRECT
+ - wingdi/PEMRROUNDRECT
+ - EMRROUNDRECT
+ - wingdi/EMRROUNDRECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMRROUNDRECT
 ---
 
 # EMRROUNDRECT structure
@@ -49,37 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMRROUNDRECT</b> structure contains members for the <b>RoundRect</b> enhanced metafile record.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 The base structure for all record types.
 
-
 ### -field rclBox
 
 Bounding rectangle, in logical units.
-
 
 ### -field szlCorner
 
 Width and height, in logical units, of the ellipse used to draw rounded corners.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
@@ -90,7 +81,4 @@ Width and height, in logical units, of the ellipse used to draw rounded corners.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect</a>
- 
-
- 
 

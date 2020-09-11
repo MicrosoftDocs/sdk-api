@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: c4bbb949-5573-42cd-bb03-e308ac40d569
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE structure [MIB], PMIB_IPINTERFACE_TABLE, PMIB_IPINTERFACE_TABLE structure pointer [MIB], _MIB_IPINTERFACE_TABLE, mib.mib_ipinterface_table, netioapi/MIB_IPINTERFACE_TABLE, netioapi/PMIB_IPINTERFACE_TABLE'
-f1_keywords:
-- netioapi/MIB_IPINTERFACE_TABLE
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_IPINTERFACE_TABLE
 targetos: Windows
 req.typenames: MIB_IPINTERFACE_TABLE, *PMIB_IPINTERFACE_TABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPINTERFACE_TABLE
+ - netioapi/_MIB_IPINTERFACE_TABLE
+ - PMIB_IPINTERFACE_TABLE
+ - netioapi/PMIB_IPINTERFACE_TABLE
+ - MIB_IPINTERFACE_TABLE
+ - netioapi/MIB_IPINTERFACE_TABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_IPINTERFACE_TABLE
 ---
 
 # MIB_IPINTERFACE_TABLE structure
@@ -49,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IPINTERFACE_TABLE</b> structure contains a table of IP interface entries.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumEntries
 
 The number of IP interface entries in the array.
-
 
 ### -field Table
 
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structures that contain IP interface entries.
 
-
 ## -remarks
-
-
 
 The <b>MIB_IPINTERFACE_TABLE</b> structure is defined on Windows Vista and later. 
 
@@ -93,19 +89,11 @@ To view an example that retrieves the <b>MIB_IPINTERFACE_TABLE</b> structure and
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
- 
-
- 
 

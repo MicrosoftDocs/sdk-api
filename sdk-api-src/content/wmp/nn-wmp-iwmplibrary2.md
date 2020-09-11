@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 028250e7-7415-4643-b798-af0112c1ea93
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary2, IWMPLibrary2 interface [Windows Media Player], IWMPLibrary2 interface [Windows Media Player],described, wmp.iwmplibrary2, wmp/IWMPLibrary2
-f1_keywords:
-- wmp/IWMPLibrary2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPLibrary2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPLibrary2
+ - wmp/IWMPLibrary2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPLibrary2
 ---
 
 # IWMPLibrary2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWMPLibrary2</b> interface represents a media library.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Retrieves the value of the <b>LibraryID</b> attribute.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 8230d356-0d5a-4859-ae03-c25d078684b3
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_DISK_NUMBER, *PCLUSPROP_DISK_SIGNATURE, *PCLUSPROP_DWORD, CLUSPROP_DISK_NUMBER, CLUSPROP_DISK_NUMBER structure [Failover Cluster], CLUSPROP_DISK_SIGNATURE, CLUSPROP_DWORD, PCLUSPROP_DISK_NUMBER, PCLUSPROP_DISK_NUMBER structure pointer [Failover Cluster], _wolf_clusprop_disk_number, clusapi/CLUSPROP_DISK_NUMBER, clusapi/PCLUSPROP_DISK_NUMBER, mscs.clusprop_disk_number'
-f1_keywords:
-- clusapi/CLUSPROP_DISK_NUMBER
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_DISK_NUMBER
 targetos: Windows
 req.typenames: CLUSPROP_DWORD, *PCLUSPROP_DWORD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_DWORD
+ - clusapi/CLUSPROP_DWORD
+ - PCLUSPROP_DWORD
+ - clusapi/PCLUSPROP_DWORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_DISK_NUMBER
 ---
 
 ## -description
@@ -69,3 +72,4 @@ Numeric value identifying the physical drive of the disk. Valid values begin at 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

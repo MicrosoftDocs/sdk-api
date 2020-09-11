@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ba5e8e7b-5b0e-4807-a459-75bd5727d1e2
 ms.date: 12/05/2018
 ms.keywords: IMFSequencerSource, IMFSequencerSource interface [Media Foundation], IMFSequencerSource interface [Media Foundation],described, ba5e8e7b-5b0e-4807-a459-75bd5727d1e2, mf.imfsequencersource, mfidl/IMFSequencerSource
-f1_keywords:
-- mfidl/IMFSequencerSource
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSequencerSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSequencerSource
+ - mfidl/IMFSequencerSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSequencerSource
 ---
 
 # IMFSequencerSource interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by the <a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>. The sequencer source enables an application to create a sequence of topologies. To create the sequencer source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesequencersource">MFCreateSequencerSource</a>. For step-by-step instructions about how to create a playlist, see <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-create-a-playlist">How to Create a Playlist</a>.
-
 
 ## -inheritance
 
@@ -114,20 +113,13 @@ Updates the flags for a topology in the queue.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
- 
-
- 
 

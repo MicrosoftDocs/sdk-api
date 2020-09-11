@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: wmlss
 archived: true
+f1_keywords:
+ - wmlss
+ - wmlss/wmlss
 ---
 
 # Wmlss.h header
 
 
 ## -description
-
 
 This header is used by Windows Media Library Sharing Services. For more information, see:
 

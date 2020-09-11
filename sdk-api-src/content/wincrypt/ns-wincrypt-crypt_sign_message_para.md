@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1601d860-6054-4650-a033-ea088655b7e4
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA, CRYPT_SIGN_MESSAGE_PARA structure [Security], PCRYPT_SIGN_MESSAGE_PARA, PCRYPT_SIGN_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_sign_message_para, security.crypt_sign_message_para, wincrypt/CRYPT_SIGN_MESSAGE_PARA, wincrypt/PCRYPT_SIGN_MESSAGE_PARA'
-f1_keywords:
-- wincrypt/CRYPT_SIGN_MESSAGE_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_SIGN_MESSAGE_PARA
 targetos: Windows
 req.typenames: CRYPT_SIGN_MESSAGE_PARA, *PCRYPT_SIGN_MESSAGE_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_SIGN_MESSAGE_PARA
+ - wincrypt/_CRYPT_SIGN_MESSAGE_PARA
+ - PCRYPT_SIGN_MESSAGE_PARA
+ - wincrypt/PCRYPT_SIGN_MESSAGE_PARA
+ - CRYPT_SIGN_MESSAGE_PARA
+ - wincrypt/CRYPT_SIGN_MESSAGE_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_SIGN_MESSAGE_PARA
 ---
 
 # CRYPT_SIGN_MESSAGE_PARA structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_SIGN_MESSAGE_PARA</b> structure contains information for signing messages using a specified signing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size of this structure in bytes.
-
 
 ### -field dwMsgEncodingType
 
@@ -83,60 +82,49 @@ A pointer to the
 
 Either the CERT_KEY_PROV_INFO_PROP_ID, or CERT_KEY_CONTEXT_PROP_ID property must be set for the context to provide access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private signature key</a>.
 
-
 ### -field HashAlgorithm
 
 CRYPT_ALGORITHM_IDENTIFIER containing the hashing algorithm used to hash the data to be signed.
 
-
 ### -field pvHashAuxInfo
 
 Not currently used, and must be set to <b>NULL</b>.
-
 
 ### -field cMsgCert
 
 Number of elements in the <b>rgpMsgCert</b> array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures. If set to zero no certificates are included in the signed message.
 
-
 ### -field rgpMsgCert
 
 Array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures to be included in the signed message. If the <b>pSigningCert</b> is to be included, a pointer to it must be in the <b>rgpMsgCert</b> array.
-
 
 ### -field cMsgCrl
 
 Number of elements in the <b>rgpMsgCrl</b> array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structures. If set to zero, no <b>CRL_CONTEXT</b> structures are included in the signed message.
 
-
 ### -field rgpMsgCrl
 
 Array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structures to be included in the signed message.
 
-
 ### -field cAuthAttr
 
 Number of elements in the <b>rgAuthAttr</b> array. If no authenticated attributes are present in <b>rgAuthAttr</b>, this member is set to zero.
-
 
 ### -field rgAuthAttr
 
 Array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding authenticated attribute information. If there are authenticated attributes present, the PKCS #9 standard dictates that there must be at least two attributes present, the content type <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), and the hash of the message itself. These attributes are automatically added by the system.
 
-
 ### -field cUnauthAttr
 
 Number of elements in the <b>rgUnauthAttr</b> array. If no unauthenticated attributes are present in <b>rgUnauthAttr</b>, this member is zero.
-
 
 ### -field rgUnauthAttr
 
 Array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures each holding an unauthenticated attribute information. Unauthenticated attributes can be used to contain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignatures</a>, among other uses.
-
 
 ### -field dwFlags
 
@@ -150,36 +138,24 @@ CRYPT_MESSAGE_ENCAPSULATED_CONTENT_OUT_FLAG can be set to encapsulate non-data <
 CRYPT_MESSAGE_SILENT_KEYSET_FLAG can be set to suppress any UI by the CSP. For more information about the CRYPT_SILENT flag, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
-
 ### -field dwInnerContentType
 
 Normally zero. Set to the encoding type of the input message if that input to be signed is the encoded output of another cryptographic message.
-
 
 ### -field HashEncryptionAlgorithm
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>. If present and not <b>NULL</b>, it is used instead of the signer's certificate <b>PublicKeyInfo.Algorithm</b> member. Note that for RSA, the hash encryption algorithm is normally the same as the public key algorithm. For DSA, the hash encryption algorithm is normally a DSS signature algorithm. This member can only be used if CRYPT_SIGN_MESSAGE_PARA_HAS_CMS_FIELDS is defined.
 
-
 ### -field pvHashEncryptionAuxInfo
 
 Currently not used and must be set to <b>NULL</b>. This member can only be used if CRYPT_SIGN_MESSAGE_PARA_HAS_CMS_FIELDS is defined.
 
-
 ## -remarks
-
-
 
 The <b>HashEncryptionAlgorithm</b> and <b>pvHashEncryptionAuxInfo</b> members can only be used if CRYPT_SIGN_MESSAGE_PARA_HAS_CMS_FIELDS is defined.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -202,7 +178,4 @@ The <b>HashEncryptionAlgorithm</b> and <b>pvHashEncryptionAuxInfo</b> members ca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
- 
-
- 
 

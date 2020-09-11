@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
 ms.date: 12/05/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
-f1_keywords:
-- wincrypt/CertSetStoreProperty
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertSetStoreProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSetStoreProperty
+ - wincrypt/CertSetStoreProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertSetStoreProperty
 ---
 
 # CertSetStoreProperty function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSetStoreProperty</b> function sets a store property.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-					
-
 
 ### -param dwPropId [in]
 
 Indicates one of a range of store properties. Values for user-defined properties must be outside the current range of predefined context property values. Currently, user-defined <i>dwPropId</i> values begin at 4,096. There is one predefined store property, CERT_STORE_LOCALIZED_NAME_PROP_ID, the localized name of the store.
 
-
 ### -param dwFlags [in]
 
 Reserved for future use and must be zero.
-
 
 ### -param pvData [in]
 
@@ -88,21 +80,13 @@ If a value already exists for the selected property, the old value is replaced.
 
 Calling this function with <i>pvData</i> set to <b>NULL</b> deletes a property.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Store property identifiers are properties applicable to an entire store. They are not properties for an individual <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> context. Currently, no store properties are persisted.
 
@@ -177,19 +161,11 @@ For another  example that uses this function, see <a href="https://docs.microsof
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetstoreproperty">CertGetStoreProperty</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
 

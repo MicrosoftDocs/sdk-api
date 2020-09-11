@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
 ms.date: 12/05/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
-f1_keywords:
-- wininet/FindFirstUrlCacheEntryEx
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- FindFirstUrlCacheEntryEx
-- FindFirstUrlCacheEntryExA
-- FindFirstUrlCacheEntryExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstUrlCacheEntryExA
+ - wininet/FindFirstUrlCacheEntryExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - FindFirstUrlCacheEntryEx
+ - FindFirstUrlCacheEntryExA
+ - FindFirstUrlCacheEntryExW
 ---
 
 # FindFirstUrlCacheEntryExA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a filtered enumeration of the Internet cache.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrlSearchPattern [in]
 
 A pointer to a string that contains the source name pattern to search for. This parameter can only be set to "cookie:", "visited:", or NULL. Set this parameter to "cookie:" to enumerate the cookies or "visited:" to enumerate the URL History entries in the cache. If this parameter is NULL, <b>FindFirstUrlCacheEntryEx</b> returns all content entries in the cache.
 
-
 ### -param dwFlags [in]
 
 Controls the enumeration. No flags are currently implemented; this parameter must be set to zero.
-
 
 ### -param dwFilter [in]
 
@@ -170,55 +164,40 @@ Visited link cache entry.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param GroupId [in]
 
 ID of the cache group to be enumerated. Set this parameter to zero to enumerate all entries that are not grouped.
-
 
 ### -param lpFirstCacheEntryInfo [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure to receive the cache entry information.
 
-
 ### -param lpcbCacheEntryInfo [in, out]
 
 Pointer to variable that indicates the size of 
 the structure referenced by the <i>lpFirstCacheEntryInfo</i> parameter, in bytes.
 
-
 ### -param lpGroupAttributes [out]
 
 This parameter is reserved and must be NULL.
-
 
 ### -param lpcbGroupAttributes [in, out]
 
 This parameter is reserved and must be NULL.
 
-
 ### -param lpReserved [in]
 
 This parameter is reserved and must be NULL.
 
-
 ## -returns
-
-
 
 Returns a valid handle if successful, or NULL otherwise. To get specific error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the function finds no matching files, 
 <b>GetLastError</b> returns ERROR_NO_MORE_FILES.
 
-
-
-
 ## -remarks
-
-
 
 The handle returned from <b>FindFirstUrlCacheEntryEx</b> is used in all subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>. At the end of the enumeration, the application should call 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findcloseurlcache">FindCloseUrlCache</a>.
@@ -236,15 +215,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

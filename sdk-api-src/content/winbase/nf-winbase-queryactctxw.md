@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 7d45f63f-0baf-4236-b245-d36f9eb32e8c
 ms.date: 12/05/2018
 ms.keywords: ActivationContextBasicInformation, ActivationContextDetailedInformation, AssemblyDetailedInformationInActivationContext, CompatibilityInformationInActivationContext, FileInformationInAssemblyOfAssemblyInActivationContext, QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS, QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE, QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX, QueryActCtxW, QueryActCtxW function [Side-by-side Assemblies], RunlevelInformationInActivationContext, _win32_queryactctxw, setup.queryactctxw, winbase/QueryActCtxW
-f1_keywords:
-- winbase/QueryActCtxW
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-sidebyside-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- QueryActCtxW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryActCtxW
+ - winbase/QueryActCtxW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-sidebyside-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - QueryActCtxW
 ---
 
 # QueryActCtxW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>QueryActCtxW</b> function queries the activation context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -116,13 +112,10 @@ When a DLL or EXE is loaded, the loader checks for a manifest stored in a resour
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hActCtx [in]
 
 Handle to the activation context that is being queried.
-
 
 ### -param pvSubInstance [in, optional]
 
@@ -160,8 +153,6 @@ Pointer to an
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulInfoClass [in]
 
@@ -256,28 +247,21 @@ If
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvBuffer [out]
 
 Pointer to a buffer that holds the returned information. This parameter is optional. If <i>pvBuffer</i> is <b>null</b>, then <i>cbBuffer</i> must be zero. If the size of the buffer pointed to by <i>pvBuffer</i> is too small, 
 <b>QueryActCtxW</b> returns ERROR_INSUFFICIENT_BUFFER and no data is written into the buffer. See the Remarks section for the method you can use to determine the required size of the buffer.
 
-
 ### -param cbBuffer [in, optional]
 
 Size of the buffer in bytes pointed to by <i>pvBuffer</i>. This parameter is optional.
-
 
 ### -param pcbWrittenOrRequired [out, optional]
 
 Number of bytes written or required. The parameter <i>pcbWrittenOrRequired</i> can only be <b>NULL</b> when <i>pvBuffer</i> is <b>NULL</b>. If <i>pcbWrittenOrRequired</i> is non-<b>NULL</b>, it is filled with the number of bytes required to store the returned buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
@@ -286,12 +270,7 @@ This function sets errors that can be retrieved by calling
 <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The parameter <i>cbBuffer</i> specifies the size in bytes of the buffer pointed to by <i>pvBuffer</i>. If <i>pvBuffer</i> is <b>NULL</b>, then <i>cbBuffer</i> must be 0. The parameter <i>pcbWrittenOrRequired</i> can only be <b>NULL</b> if <i>pvBuffer</i> is <b>NULL</b>. If <i>pcbWrittenOrRequired</i> is non-<b>NULL</b> on return, it is filled with the number of bytes required to store the returned information. When the information data returned is larger than the provided buffer, 
 <b>QueryActCtxW</b> returns ERROR_INSUFFICIENT_BUFFER and no data is written to the buffer pointed to by <i>pvBuffer</i>.
@@ -319,5 +298,4 @@ if (!QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired) &amp;&amp; (GetLast
     HeapFree(GetProcessHeap(), 0, pvData);
     pvData = NULL;
 }</code></pre>
-
 

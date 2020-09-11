@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_create_device_flag.htm
 ms.date: 12/05/2018
 ms.keywords: 3a55fe0a-90a0-6ccb-7720-5039c4fbf12b, D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP, D3D10_CREATE_DEVICE_BGRA_SUPPORT, D3D10_CREATE_DEVICE_DEBUG, D3D10_CREATE_DEVICE_DEBUGGABLE, D3D10_CREATE_DEVICE_FLAG, D3D10_CREATE_DEVICE_FLAG enumeration [Direct3D 10], D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, D3D10_CREATE_DEVICE_SINGLETHREADED, D3D10_CREATE_DEVICE_STRICT_VALIDATION, D3D10_CREATE_DEVICE_SWITCH_TO_REF, d3d10/D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP, d3d10/D3D10_CREATE_DEVICE_BGRA_SUPPORT, d3d10/D3D10_CREATE_DEVICE_DEBUG, d3d10/D3D10_CREATE_DEVICE_DEBUGGABLE, d3d10/D3D10_CREATE_DEVICE_FLAG, d3d10/D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, d3d10/D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, d3d10/D3D10_CREATE_DEVICE_SINGLETHREADED, d3d10/D3D10_CREATE_DEVICE_STRICT_VALIDATION, d3d10/D3D10_CREATE_DEVICE_SWITCH_TO_REF, direct3d10.d3d10_create_device_flag
-f1_keywords:
-- d3d10/D3D10_CREATE_DEVICE_FLAG
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D10.h
-api_name:
-- D3D10_CREATE_DEVICE_FLAG
 targetos: Windows
 req.typenames: D3D10_CREATE_DEVICE_FLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D10_CREATE_DEVICE_FLAG
+ - d3d10/D3D10_CREATE_DEVICE_FLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D10.h
+api_name:
+ - D3D10_CREATE_DEVICE_FLAG
 ---
 
 # D3D10_CREATE_DEVICE_FLAG enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Device creation flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D10_CREATE_DEVICE_SINGLETHREADED
 
@@ -64,29 +60,24 @@ Use this flag if an application will only be calling D3D10 from a single thread.
         is to enter a lock during each API call to prevent multiple threads altering internal state. By using this flag no locks will be taken which can 
         slightly increase performance, but could result in undefine behavior if D3D10 is called from multiple threads.
 
-
 ### -field D3D10_CREATE_DEVICE_DEBUG
 
 Create a device that supports the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>.
-
 
 ### -field D3D10_CREATE_DEVICE_SWITCH_TO_REF
 
 Create both a software (REF) and hardware (HAL) version of the device simultaneously, which allows an application to switch to a 
         reference device to enable debugging. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10switchtoref">ID3D10SwitchToRef Interface</a> for more information.
 
-
 ### -field D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS
 
 Prevents multiple threads from being created. When this flag is used with a WARP device, no additional threads will be created by WARP and all
-        rasterization will occur on the calling thread. This flag is not recommended for general use. See remarks. 
-
+        rasterization will occur on the calling thread. This flag is not recommended for general use. See remarks.
 
 ### -field D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP
 
 Return a <b>NULL</b> pointer instead of triggering an exception on memory exhaustion during invocations to Map.  
         Without this flag an exception will be raised on memory exhaustion.  Only valid on Winodws 7.
-
 
 ### -field D3D10_CREATE_DEVICE_BGRA_SUPPORT
 
@@ -111,7 +102,6 @@ Note that BGRA support may be present even if the application didn't specify D3D
 
 D3D10_CREATE_DEVICE_BGRA_SUPPORT is only valid on Windows 7, Windows Server 2008 R2, and updated Windows Vista (KB971644) systems.
 
-
 ### -field D3D10_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY
 
 Causes the Direct3D runtime to ignore registry settings that turn on the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-api-features-layers">debug layer</a>. You can turn on the debug layer by using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> that was included as part of the DirectX SDK. We shipped the last version of the DirectX SDK in June 2010; you can download it from the <a href="https://www.microsoft.com/download/en/details.aspx?id=6812">Microsoft Download Center</a>. You can set this flag in your app, typically in release builds only, to prevent end users from using the <a href="https://docs.microsoft.com/previous-versions/bb219725(v=vs.85)">DirectX Control Panel</a> to monitor how the app uses Direct3D.
@@ -122,11 +112,9 @@ Causes the Direct3D runtime to ignore registry settings that turn on the <a href
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-
 ### -field D3D10_CREATE_DEVICE_STRICT_VALIDATION
 
 Reserved. This flag is currently not supported. Do not use.
-
 
 ### -field D3D10_CREATE_DEVICE_DEBUGGABLE
 
@@ -134,10 +122,7 @@ Causes the device and driver to keep information that you can use for shader deb
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-
 ## -remarks
-
-
 
 Device creation flags are used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain">D3D10CreateDeviceAndSwapChain</a>.
 
@@ -146,16 +131,7 @@ An application might dynamically create (and destroy) threads to improve perform
       debugging, profile code or develop a tool for instance. For these cases, use D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS to request 
       that the runtime and video driver not create any additional threads that might interfere with the application.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
- 
-
- 
 

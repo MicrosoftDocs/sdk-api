@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: adc0052d-e2dd-4c55-996c-6af8f5987d79
 ms.date: 12/05/2018
 ms.keywords: AdministratorPowerPolicy, CallNtPowerInformation, CallNtPowerInformation function, LastSleepTime, LastWakeTime, ProcessorInformation, ProcessorPowerPolicyAc, ProcessorPowerPolicyCurrent, ProcessorPowerPolicyDc, SystemBatteryState, SystemExecutionState, SystemPowerCapabilities, SystemPowerInformation, SystemPowerPolicyAc, SystemPowerPolicyCurrent, SystemPowerPolicyDc, SystemReserveHiberFile, VerifyProcessorPowerPolicyAc, VerifyProcessorPowerPolicyDc, VerifySystemPolicyAc, VerifySystemPolicyDc, _win32_callntpowerinformation, base.callntpowerinformation, powerbase/CallNtPowerInformation, powrprof/CallNtPowerInformation
-f1_keywords:
-- powerbase/CallNtPowerInformation
-dev_langs:
-- c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-- API-MS-Win-power-base-l1-1-0.dll
-api_name:
-- CallNtPowerInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CallNtPowerInformation
+ - powerbase/CallNtPowerInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+ - API-MS-Win-power-base-l1-1-0.dll
+api_name:
+ - CallNtPowerInformation
 ---
 
 # CallNtPowerInformation function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves power information.
 
-
 ## -parameters
-
-
-
 
 ### -param InformationLevel [in]
 
@@ -372,19 +368,15 @@ This information level is not supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param InputBuffer [in]
 
 A pointer to an optional input buffer. The data type of this buffer depends on the information level 
       requested in the <i>InformationLevel</i> parameter.
 
-
 ### -param InputBufferLength [in]
 
 The size of the input buffer, in bytes.
-
 
 ### -param OutputBuffer [out]
 
@@ -392,16 +384,12 @@ A pointer to an optional output buffer. The data type of this buffer depends on 
       requested in the <i>InformationLevel</i> parameter. If the buffer is too small to contain the 
       information, the function returns STATUS_BUFFER_TOO_SMALL.
 
-
 ### -param OutputBufferLength [in]
 
 The size of the output buffer, in bytes. Depending on the information level requested, this may be a 
       variably sized buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
 
@@ -435,14 +423,8 @@ The caller had insufficient access rights to perform the requested action.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Changes made to the current system power policy using 
     <b>CallNtPowerInformation</b> are immediate, but they 
@@ -456,13 +438,7 @@ Changes made to the current system power policy using
 For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power 
     Schemes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-administrator_power_policy">ADMINISTRATOR_POWER_POLICY</a>
 
@@ -493,7 +469,4 @@ For more information on using PowrProf.h, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_policy">SYSTEM_POWER_POLICY</a>
- 
-
- 
 

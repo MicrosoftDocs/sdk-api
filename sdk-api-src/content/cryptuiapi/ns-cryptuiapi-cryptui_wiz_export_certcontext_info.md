@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6be86c4f-0ac7-43c2-81fb-9767279ebeaf
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure [Security], CRYPTUI_WIZ_EXPORT_FORMAT_BASE64, CRYPTUI_WIZ_EXPORT_FORMAT_CRL, CRYPTUI_WIZ_EXPORT_FORMAT_CTL, CRYPTUI_WIZ_EXPORT_FORMAT_DER, CRYPTUI_WIZ_EXPORT_FORMAT_PFX, CRYPTUI_WIZ_EXPORT_FORMAT_PKCS7, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, security.cryptui_wiz_export_certcontext_info'
-f1_keywords:
-- cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
-dev_langs:
-- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptuiapi.h
-api_name:
-- CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, *PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+ - cryptuiapi/_CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+ - PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+ - cryptuiapi/PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+ - CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+ - cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptuiapi.h
+api_name:
+ - CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 ---
 
 # CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</b> structure contains information that controls the operation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a> function when a certificate is the object being exported.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwExportFormat
 
@@ -135,23 +134,18 @@ Export in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">ce
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fExportChain
 
 Indicates whether the certificate chain should be exported in addition to the certificate. Contains nonzero to export the chain or zero to not export the chain.
 
-
 ### -field fExportPrivateKeys
 
 Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> should be exported in addition to the certificate. Contains nonzero to export the private key or zero to not export the private key.
 
-
 ### -field pwszPassword
 
 A pointer to a null-terminated Unicode string that contains the password used to access the private key.  This is required if <b>fExportPrivateKeys</b> is nonzero and is otherwise ignored.
-
 
 ### -field fStrongEncryption
 
@@ -159,18 +153,11 @@ Indicates whether strong encryption should be used in the export process. Contai
 
 <b>Note</b>  We recommend that you set this to nonzero; otherwise, a substantially weaker encryption algorithm is used in the export process.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_export_info">CRYPTUI_WIZ_EXPORT_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
- 
-
- 
 

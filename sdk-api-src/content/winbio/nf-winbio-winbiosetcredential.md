@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: c35dd874-c545-418a-b08c-82f9e13e93fb
 ms.date: 12/05/2018
 ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PROTECTED, WinBioSetCredential, WinBioSetCredential function [Windows Biometric Framework API], secbiomet.winbiosetcredential, winbio/WinBioSetCredential
-f1_keywords:
-- winbio/WinBioSetCredential
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioSetCredential
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioSetCredential
+ - winbio/WinBioSetCredential
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioSetCredential
 ---
 
 # WinBioSetCredential function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves a biometric logon credential for the current user. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param Type [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. Currently, this can be WINBIO_CREDENTIAL_PASSWORD.
 
-
 ### -param Credential [in]
 
 A pointer to a variable length array of bytes that contains the credential. The format depends on the <i>Type</i> and <i>Format</i> parameters.
 
-
 ### -param CredentialSize [in]
 
 Size, in bytes, of the value specified by the <i>Credential</i> parameter.
-
 
 ### -param Format [in]
 
@@ -115,12 +108,8 @@ The password credential was wrapped with <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -174,14 +163,8 @@ Current administrative policy prohibits use of the credential provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the current user has an existing logon credential of the specified type, <b>WinBioSetCredential</b> will overwrite it.
 The function verifies both the user credential and interactive logon privileges and fails if verification fails. An event related to the logon attempt is placed in the event log.  Credentials for domain accounts can be saved only if permitted by Group Policy.
@@ -488,14 +471,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremoveallcredentials">WinBioRemoveAllCredentials</a>
 
@@ -506,7 +482,4 @@ e_Exit:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovecredential">WinBioRemoveCredential</a>
- 
-
- 
 

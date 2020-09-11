@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image~r3, Image::Image, Image::Image~r3, _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
-f1_keywords:
-- gdiplusheaders/Image.Image
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusheaders.h
-api_name:
-- Image.Image
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Image::Image
+ - gdiplusheaders/Image::Image
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusheaders.h
+api_name:
+ - Image.Image
 ---
 
 # Image::Image~r3
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> class. For a complete class listing, see <b>Image Class</b>. 

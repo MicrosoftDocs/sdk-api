@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4c8def77-d536-486e-a830-9df3848fbccb
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_USER, LSA_AP_LOGON_USER callback, LsaApLogonUser, LsaApLogonUser callback function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuser, ntsecpkg/LsaApLogonUser, security.lsaaplogonuser
-f1_keywords:
-- ntsecpkg/LsaApLogonUser
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- LsaApLogonUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_AP_LOGON_USER
+ - ntsecpkg/LSA_AP_LOGON_USER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - LsaApLogonUser
 ---
 
 # LSA_AP_LOGON_USER callback function
 
 
 ## -description
-
 
 Authenticates a user's logon credentials.
 
@@ -57,11 +57,7 @@ This function is called only for a user's initial logon. Subsequent authenticati
 
 If <b>LsaApLogonUser</b> succeeds, it creates a logon session. It also returns information used to build the token representing the newly logged-on user.
 
-
 ## -parameters
-
-
-
 
 ### -param ClientRequest [in]
 
@@ -70,28 +66,23 @@ Pointer to an opaque
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_client_buffer">AllocateClientBuffer</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_free_client_buffer">FreeClientBuffer</a> in order to identify the client process in which memory should be allocated or freed.
 
-
 ### -param LogonType [in]
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value identifying the type of logon requested.
-
 
 ### -param AuthenticationInformation [in]
 
 Supplies the authentication information specific to the authentication package. The LSA will free this buffer. This is the same input buffer passed into 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 
-
 ### -param ClientAuthenticationBase [in]
 
 Provides the address of the authentication information within the client process. This may be necessary to remap any pointers within the <i>AuthenticationInformation</i> buffer.
 
-
 ### -param AuthenticationInformationLength [in]
 
 Indicates the length, in bytes, of the <i>AuthenticationInformation</i> buffer.
-
 
 ### -param *ProfileBuffer [out]
 
@@ -104,17 +95,14 @@ Pointer that receives the address of the profile buffer in the client process. T
 The contents of this buffer are determined by the authentication package. The LSA does not alter this buffer; it simply returns the value to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.
 
-
 ### -param ProfileBufferLength [out]
 
 Pointer to a <b>ULONG</b> that receives the length of the <i>ProfileBuffer</i> buffer, in bytes.
-
 
 ### -param LogonId [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> that receives the new logon ID that uniquely identifies this logon session. The authentication package is responsible for allocating this <b>LUID</b>, and creating the logon session for this logon.
-
 
 ### -param SubStatus [out]
 
@@ -178,23 +166,19 @@ More information about NTSTATUS codes can be found in the Subauth.h header file 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
-
 ### -param TokenInformationType [out]
 
 Pointer that receives the address of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-lsa_token_information_type">LSA_TOKEN_INFORMATION_TYPE</a> value that indicates the type of information returned for inclusion in the token to be created. The information is returned in the <i>TokenInformation</i> buffer.
 
-
 ### -param *TokenInformation [out]
 
 Pointer that receives information to be included in the token. The format and content of the <i>TokenInformation</i> buffer are indicated by the <i>TokenInformationType</i> parameter. Your authentication package is responsible for allocating the memory used by <i>TokenInformation</i>; however, this memory will be freed by the LSA.
-
 
 ### -param *AccountName [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that receives the name of the user account. <i>AccountName</i> must always be returned regardless of the success or failure of the call; its string is included in the audit record for an authentication attempt. Your authentication package is responsible for allocating the memory used by <i>AccountName</i>; however, this memory will be freed by the LSA.
-
 
 ### -param *AuthenticatingAuthority [out]
 
@@ -206,10 +190,7 @@ Optional. Pointer to an
 
 The MSV1_0 authentication package returns the domain name of the domain validating the account. The Kerberos authentication package returns the NetBIOS domain name.
 
-
 ## -returns
-
-
 
 If the function succeeds, it should return STATUS_SUCCESS.
 
@@ -282,24 +263,13 @@ The authentication information provided is not recognized by the specified authe
 Calling applications can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 Authentication packages must implement one of the following functions: <b>LsaApLogonUser</b>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex">LsaApLogonUserEx</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex2">LsaApLogonUserEx2</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/plsa-client-request">LSA_CLIENT_REQUEST</a>
 
@@ -322,7 +292,4 @@ Authentication packages must implement one of the following functions: <b>LsaApL
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
- 
-
- 
 

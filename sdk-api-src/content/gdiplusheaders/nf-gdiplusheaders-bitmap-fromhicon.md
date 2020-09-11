@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromhicon.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromHICON method, Bitmap.FromHICON, Bitmap::FromHICON, FromHICON, FromHICON method [GDI+], FromHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_FromHICON_hicon_
-f1_keywords:
-- gdiplusheaders/Bitmap.FromHICON
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Bitmap.FromHICON
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Bitmap::FromHICON
+ - gdiplusheaders/Bitmap::FromHICON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Bitmap.FromHICON
 ---
 
 # Bitmap::FromHICON
@@ -50,39 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Bitmap::FromHICON</b> method creates a 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object based on a handle to an icon.
 
-
 ## -parameters
-
-
-
 
 ### -param hicon [in]
 
 Type: <b>HICON</b>
 
-Handle to a GDI icon. 
-
+Handle to a GDI icon.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>*</b>
 
 This method returns a pointer to the new 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
@@ -101,7 +88,4 @@ This method returns a pointer to the new
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
- 
-
- 
 

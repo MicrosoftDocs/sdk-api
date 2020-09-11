@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
-f1_keywords:
-- pdh/PdhValidatePathEx
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhValidatePathEx
-- PdhValidatePathExA
-- PdhValidatePathExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhValidatePathExW
+ - pdh/PdhValidatePathExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhValidatePathEx
+ - PdhValidatePathExA
+ - PdhValidatePathExW
 ---
 
 # PdhValidatePathExW function
@@ -51,15 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates that the specified counter is present on the computer or in the log file.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hDataSource [in, optional]
 
@@ -67,15 +62,11 @@ Handle to the data source. The <a href="https://docs.microsoft.com/windows/deskt
 
 To validate that the counter is present on the local computer, specify <b>NULL</b> (this is the same as calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>).
 
-
 ### -param szFullPathBuffer [in]
 
 <b>Null</b>-terminated string that specifies the counter path to validate. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -156,24 +147,14 @@ The function is unable to allocate a required temporary buffer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>
- 
-
- 
 
 ## -remarks
 

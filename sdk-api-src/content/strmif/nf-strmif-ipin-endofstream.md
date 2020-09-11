@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b0cca250-9603-4d58-8af5-5b272730e5fa
 ms.date: 12/05/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IPin interface, IPin interface [DirectShow],EndOfStream method, IPin.EndOfStream, IPin::EndOfStream, IPinEndOfStream, dshow.ipin_endofstream, strmif/IPin::EndOfStream
-f1_keywords:
-- strmif/IPin.EndOfStream
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.EndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::EndOfStream
+ - strmif/IPin::EndOfStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.EndOfStream
 ---
 
 # IPin::EndOfStream
@@ -50,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>EndOfStream</code> method notifies the pin that no additional data is expected, until a new run command is issued to the filter.
 
 
 
 Applications should not call this method. This method is called by other filters to signal the end of the stream.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,26 +91,14 @@ The pin is an output pin.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this method only on input pins. Output pins return E_UNEXPECTED.
 
 This method sends an end-of-stream notification to the pin. The pin delivers the notification downstream. It must serialize end-of-stream notifications with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a> calls. If the pin queues media samples for delivery, it should queue end-of-stream notifications as well. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-beginflush">IPin::BeginFlush</a> method flushes any queued end-of-stream notifications.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
@@ -130,7 +109,4 @@ This method sends an end-of-stream notification to the pin. The pin delivers the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
 

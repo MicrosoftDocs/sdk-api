@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5d87609d-bcbf-4a4f-a97e-017ee8a9879e
 ms.date: 12/05/2018
 ms.keywords: SHGDNF, SHGDNF enumeration [Windows Shell], SHGDN_FORADDRESSBAR, SHGDN_FOREDITING, SHGDN_FORPARSING, SHGDN_INFOLDER, SHGDN_NORMAL, _SHGDNF, _win32_SHGNO, shell.SHGNO, shobjidl_core/SHGDNF, shobjidl_core/SHGDN_FORADDRESSBAR, shobjidl_core/SHGDN_FOREDITING, shobjidl_core/SHGDN_FORPARSING, shobjidl_core/SHGDN_INFOLDER, shobjidl_core/SHGDN_NORMAL
-f1_keywords:
-- shobjidl_core/SHGDNF
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- SHGDNF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHGDNF
+ - shobjidl_core/_SHGDNF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - SHGDNF
 ---
 
 # _SHGDNF enumeration
 
 
 ## -description
-
 
 Defines the values used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-setnameof">IShellFolder::SetNameOf</a> methods to specify the type of file or folder names used by those methods.
 
@@ -57,13 +57,9 @@ Defines the values used with the <a href="https://docs.microsoft.com/windows/des
 
 ## -enum-fields
 
-
-
-
 ### -field SHGDN_NORMAL
 
 When not combined with another flag, return the parent-relative name that identifies the item, suitable for displaying to the user. This name often does not include extra information such as the file name extension and does not need to be unique. This name might include information that identifies the folder that contains the item. For instance, this flag could cause <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to return the string "<b>username</b> (on <b>Machine</b>)" for a particular user's folder.
-
 
 ### -field SHGDN_INFOLDER
 
@@ -71,25 +67,19 @@ The name is relative to the folder from which the request was made. This is the 
 
 Use this flag in combinations with <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> and <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FOREDITING</a>.
 
-
 ### -field SHGDN_FOREDITING
 
 The name is used for in-place editing when the user renames the item.
-
 
 ### -field SHGDN_FORADDRESSBAR
 
 The name is displayed in an address bar combo box.
 
-
 ### -field SHGDN_FORPARSING
 
 The name is used for parsing. That is, it can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname">IShellFolder::ParseDisplayName</a> to recover the object's PIDL. The form this name takes depends on the particular object. When SHGDN_FORPARSING is used alone, the name is relative to the desktop. When combined with SHGDN_INFOLDER, the name is relative to the folder from which the request was made.
 
-
 ## -remarks
-
-
 
 The <b>SHGDNF</b> type is defined in Shobjidl.h as shown here.
 
@@ -221,6 +211,4 @@ The following table describes the display names as they would be returned.
 <li>C3: File.txt presents only its base name for editing instead of its full name.</li>
 </ul>
 For further discussion of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface, see <a href="https://docs.microsoft.com/windows/desktop/shell/folder-info">Getting Information About the Contents of a Folder</a>.
-
-
 

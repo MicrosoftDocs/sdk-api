@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 00b38cd8-1cfb-408e-88da-6e61563d9d8e
 ms.date: 12/05/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
-f1_keywords:
-- winuser/PrintWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- PrintWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PrintWindow
+ - winuser/PrintWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - PrintWindow
 ---
 
 # PrintWindow function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PrintWindow</b> function copies a visual window into the specified device context (DC), typically a printer DC.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 A handle to the window that will be copied.
 
-
 ### -param hdcBlt
 
 A handle to the device context.
-
 
 ### -param nFlags
 
@@ -89,37 +83,21 @@ Only the client area of the window is copied to <i>hdcBlt</i>. By default, the e
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns a nonzero value.
 
 If the function fails, it returns zero.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
 The application that owns the window referenced by hWnd processes the <b>PrintWindow</b> call and renders the image in the device context that is referenced by <i>hdcBlt</i>. The application  receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a> message or, if the <b>PW_PRINTCLIENT</b> flag is specified, a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> message.
 For more information, see <b>WM_PRINT</b> and <b>WM_PRINTCLIENT</b>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-messages">Painting and Drawing Messages</a>
 
@@ -134,7 +112,4 @@ For more information, see <b>WM_PRINT</b> and <b>WM_PRINTCLIENT</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>
- 
-
- 
 

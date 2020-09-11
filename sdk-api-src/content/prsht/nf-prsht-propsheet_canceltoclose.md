@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_canceltoclose.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_CancelToClose, PropSheet_CancelToClose macro [Windows Controls], _win32_PropSheet_CancelToClose, _win32_PropSheet_CancelToClose_cpp, controls.PropSheet_CancelToClose, controls._win32_PropSheet_CancelToClose, prsht/PropSheet_CancelToClose
-f1_keywords:
-- prsht/PropSheet_CancelToClose
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_CancelToClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_CancelToClose
+ - prsht/PropSheet_CancelToClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_CancelToClose
 ---
 
 # PropSheet_CancelToClose macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used when changes made since the most recent <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-apply">PSN_APPLY</a> notification cannot be canceled. You can also send a <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-canceltoclose">PSM_CANCELTOCLOSE</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg
 
@@ -64,11 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the property sheet.
 
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-canceltoclose">PSM_CANCELTOCLOSE</a> disables the <b>Cancel</b> button and changes the text of the <b>OK</b> button to "Close". You can use this macro or send the <b>PSM_CANCELTOCLOSE</b> message explicitly.
 
@@ -83,5 +75,4 @@ For the third option, applications should send a <a href="https://docs.microsoft
 
 <div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
-
 

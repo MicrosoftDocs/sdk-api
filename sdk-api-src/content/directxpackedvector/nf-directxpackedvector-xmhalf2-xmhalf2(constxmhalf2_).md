@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor
 ms.date: 05/06/2019
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const XMHALF2 &), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const XMHALF2 &), dxmath.xmhalf2_ctor_1
-f1_keywords:
-- directxpackedvector/XMHALF2.XMHALF2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMHALF2.XMHALF2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMHALF2::XMHALF2
+ - directxpackedvector/XMHALF2::XMHALF2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMHALF2.XMHALF2
 ---
 
 # XMHALF2::XMHALF2(const XMHALF2 &)
+
 
 ## -description
 
@@ -67,3 +69,4 @@ A value.
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmhalf2-ctor">XMHALF2 Constructors</a>
+

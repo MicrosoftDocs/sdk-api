@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 26470906-1cba-41fc-96f3-078208ab3d51
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], ISdoCollection interface [Network Policy Server],described, _sdo_isdocollection, nps.SDO_isdocollection, sdo.isdocollection, sdoias/ISdoCollection
-f1_keywords:
-- sdoias/ISdoCollection
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoCollection
+ - sdoias/ISdoCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoCollection
 ---
 
 # ISdoCollection interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>ISdoCollection</b> interface to manipulate a collection of SDO objects.
-
 
 ## -inheritance
 
@@ -141,24 +140,15 @@ Removes all items from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To obtain a collection, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">ISdo::GetProperty</a>, specifying a collection's property. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-collection">Retrieving a Collection</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-collections">Collections</a>
 
@@ -173,7 +163,4 @@ To obtain a collection, call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>
- 
-
- 
 

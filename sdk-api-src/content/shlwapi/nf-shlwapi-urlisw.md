@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374
 ms.date: 12/05/2018
 ms.keywords: URLIS_APPLIABLE, URLIS_DIRECTORY, URLIS_FILEURL, URLIS_HASQUERY, URLIS_NOHISTORY, URLIS_OPAQUE, URLIS_URL, UrlIs, UrlIs function [Windows Shell], UrlIsA, UrlIsW, _win32_UrlIs, shell.UrlIs, shlwapi/UrlIs, shlwapi/UrlIsA, shlwapi/UrlIsW
-f1_keywords:
-- shlwapi/UrlIs
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- UrlIs
-- UrlIsA
-- UrlIsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlIsW
+ - shlwapi/UrlIsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - UrlIs
+ - UrlIsA
+ - UrlIsW
 ---
 
 # UrlIsW function
@@ -55,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tests whether a URL is a specified type.
 
-
 ## -parameters
-
-
-
 
 ### -param pszUrl [in]
 
 Type: <b>PCTSTR</b>
 
 A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
-
 
 ### -param UrlIs
 
@@ -154,10 +149,7 @@ Is the URL <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-sh
 
 Is the URL valid?
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -167,13 +159,7 @@ For all but one of the URL types, <b>UrlIs</b> returns <b>TRUE</b> if the URL is
 
 If <i>UrlIs</i> is set to <b>URLIS_APPLIABLE</b>, <b>UrlIs</b> will attempt to determine the URL scheme. If the function is able to determine a scheme, it returns <b>TRUE</b>, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisfileurla">UrlIsFileUrl</a>
 
@@ -184,9 +170,6 @@ If <i>UrlIs</i> is set to <b>URLIS_APPLIABLE</b>, <b>UrlIs</b> will attempt to d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">UrlIsOpaque</a>
- 
-
- 
 
 ## -remarks
 

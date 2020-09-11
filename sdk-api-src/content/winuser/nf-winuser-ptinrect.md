@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 8a47a238-082c-44b8-a270-5ebb4d3d9fc8
 ms.date: 12/05/2018
 ms.keywords: PtInRect, PtInRect function [Windows GDI], _win32_PtInRect, gdi.ptinrect, winuser/PtInRect
-f1_keywords:
-- winuser/PtInRect
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
-api_name:
-- PtInRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PtInRect
+ - winuser/PtInRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+api_name:
+ - PtInRect
 ---
 
 # PtInRect function
@@ -52,39 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PtInRect</b> function determines whether the specified point lies within the specified rectangle. A point is within a rectangle if it lies on the left or top side or is within all four sides. A point on the right or bottom side is considered outside the rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param lprc [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the specified rectangle.
 
-
 ### -param pt [in]
 
 A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
 
-
 ## -returns
-
-
 
 If the specified point lies within the rectangle, the return value is nonzero.
 
 If the specified point does not lie within the rectangle, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The rectangle must be normalized before <b>PtInRect</b> is called. That is, lprc.right must be greater than lprc.left and lprc.bottom must be greater than lprc.top. If the rectangle is not normalized, a point is never considered inside of the rectangle.
 
@@ -97,12 +84,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-equalrect">EqualRect</a>
 
@@ -125,7 +107,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
- 
-
- 
 

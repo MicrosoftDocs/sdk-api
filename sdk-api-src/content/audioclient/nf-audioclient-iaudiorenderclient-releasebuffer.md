@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 19d89b5e-2e73-4693-b970-7ebf452ef9a1
 ms.date: 12/05/2018
 ms.keywords: IAudioRenderClient interface [Core Audio],ReleaseBuffer method, IAudioRenderClient.ReleaseBuffer, IAudioRenderClient::ReleaseBuffer, IAudioRenderClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioRenderClient interface, audioclient/IAudioRenderClient::ReleaseBuffer, coreaudio.iaudiorenderclient_releasebuffer
-f1_keywords:
-- audioclient/IAudioRenderClient.ReleaseBuffer
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioRenderClient.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioRenderClient::ReleaseBuffer
+ - audioclient/IAudioRenderClient::ReleaseBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioRenderClient.ReleaseBuffer
 ---
 
 # IAudioRenderClient::ReleaseBuffer
@@ -49,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ReleaseBuffer</b> method releases the buffer space acquired in the previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param NumFramesWritten [in]
 
 The number of audio frames written by the client to the data packet. The value of this parameter must be less than or equal to the size of the data packet, as specified in the <i>NumFramesRequested</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a> method.
-
 
 ### -param dwFlags [in]
 
@@ -74,10 +66,7 @@ AUDCLNT_BUFFERFLAGS_SILENT
 
 If this flag bit is set, the audio engine treats the data packet as though it contains silence regardless of the data values contained in the packet. This flag eliminates the need for the client to explicitly write silence data to the rendering buffer.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -153,14 +142,8 @@ Parameter <i>dwFlags</i> is not a valid value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client must release the same number of frames that it requested in the preceding call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a> method. The single exception to this rule is that the client can always call <b>ReleaseBuffer</b> to release 0 frames (unless the stream is exclusive mode and uses event-driven buffering).
 
@@ -181,12 +164,7 @@ For code examples that call the <b>ReleaseBuffer</b> method, see the following t
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
@@ -197,7 +175,4 @@ For code examples that call the <b>ReleaseBuffer</b> method, see the following t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
- 
-
- 
 

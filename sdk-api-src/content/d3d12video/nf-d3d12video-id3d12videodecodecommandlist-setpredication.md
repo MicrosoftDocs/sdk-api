@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoDecodeCommandList::SetPredication","SetPredica
 tech.root: mf
 ms.assetid: b0cf433f-b0d2-463d-b960-8964807b0012
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoDecodeCommandList::SetPredication
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoDecodeCommandList::SetPredication, SetPredication, ID3D12VideoDecodeCommandList.SetPredication, ID3D12VideoDecodeCommandList::SetPredication, ID3D12VideoDecodeCommandList.SetPredication
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoDecodeCommandList::SetPredication
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoDecodeCommandList::SetPredication
+ - d3d12video/ID3D12VideoDecodeCommandList::SetPredication
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoDecodeCommandList::SetPredication
 ---
 
 # ID3D12VideoDecodeCommandList::SetPredication
@@ -61,7 +62,7 @@ The UINT64-aligned buffer offset.
 
 A member of the [D3D12_PREDICATION_OP](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op) enumeration specifying the predicate operation.
 
-
 ## -remarks
 
 ## -see-also
+

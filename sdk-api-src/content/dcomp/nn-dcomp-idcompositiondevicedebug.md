@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDeviceDebug, IDCompositionDeviceDebug interface [DirectComposition], IDCompositionDeviceDebug interface [DirectComposition],described, dcomp/IDCompositionDeviceDebug, directcomp.idcompositiondevicedebug
-f1_keywords:
-- dcomp/IDCompositionDeviceDebug
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dcomp.h
-api_name:
-- IDCompositionDeviceDebug
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionDeviceDebug
+ - dcomp/IDCompositionDeviceDebug
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dcomp.h
+api_name:
+ - IDCompositionDeviceDebug
 ---
 
 # IDCompositionDeviceDebug interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to rendering features that help with application debugging and performance tuning. This interface can be queried from the DirectComposition device interface.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Enables display of performance debugging counters.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondesktopdevice">IDCompositionDesktopDevice</a>
 
@@ -103,7 +98,4 @@ Enables display of performance debugging counters.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisualdebug">IDCompositionVisualDebug</a>
- 
-
- 
 

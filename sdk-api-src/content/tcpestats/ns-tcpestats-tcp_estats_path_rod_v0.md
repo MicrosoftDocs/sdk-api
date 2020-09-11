@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 35ed2a10-caac-4004-80ac-f62c3880f5de
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_PATH_ROD_v0, PTCP_ESTATS_PATH_ROD_v0, PTCP_ESTATS_PATH_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_PATH_ROD_v0, TCP_ESTATS_PATH_ROD_v0 structure [IP Helper], iphlp.tcp_estats_path_rod_v0, tcpestats/PTCP_ESTATS_PATH_ROD_v0, tcpestats/TCP_ESTATS_PATH_ROD_v0'
-f1_keywords:
-- tcpestats/TCP_ESTATS_PATH_ROD_v0
-dev_langs:
-- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpestats.h
-api_name:
-- TCP_ESTATS_PATH_ROD_v0
 targetos: Windows
 req.typenames: TCP_ESTATS_PATH_ROD_v0, *PTCP_ESTATS_PATH_ROD_v0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TCP_ESTATS_PATH_ROD_v0
+ - tcpestats/_TCP_ESTATS_PATH_ROD_v0
+ - PTCP_ESTATS_PATH_ROD_v0
+ - tcpestats/PTCP_ESTATS_PATH_ROD_v0
+ - TCP_ESTATS_PATH_ROD_v0
+ - tcpestats/TCP_ESTATS_PATH_ROD_v0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpestats.h
+api_name:
+ - TCP_ESTATS_PATH_ROD_v0
 ---
 
 # TCP_ESTATS_PATH_ROD_v0 structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TCP_ESTATS_PATH_ROD_v0</b> structure contains read-only dynamic information for extended TCP statistics on network path measurement for a TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FastRetran
 
 Type: <b>ULONG</b>
 
 The number of invocations of the Fast Retransmit algorithm.
-
 
 ### -field Timeouts
 
@@ -72,7 +71,6 @@ Type: <b>ULONG</b>
 The number of times the retransmit timeout has expired when
            the retransmission timer backoff multiplier is equal to one.
 
-
 ### -field SubsequentTimeouts
 
 Type: <b>ULONG</b>
@@ -80,8 +78,7 @@ Type: <b>ULONG</b>
 The number of times the retransmit timeout has expired after
            the retransmission timer has been doubled. 
 
-For more information, see section 5.5 of RFC 2988 discussed in the Remarks below. 
-
+For more information, see section 5.5 of RFC 2988 discussed in the Remarks below.
 
 ### -field CurTimeoutCount
 
@@ -94,7 +91,6 @@ The current number of times the retransmit timeout has
 The <b>CurTimeoutCount</b> member is reset to zero when new
            data is acknowledged and incremented for each invocation of
            Section 5.5 of RFC 2988.
-
 
 ### -field AbruptTimeouts
 
@@ -110,7 +106,6 @@ Timeouts that are preceded by duplicate acknowledgments or
            abrupt, and might have been avoided by a more sophisticated
            Fast Retransmit algorithm.
 
-
 ### -field PktsRetrans
 
 Type: <b>ULONG</b>
@@ -118,13 +113,11 @@ Type: <b>ULONG</b>
 The number of segments transmitted containing at least some
            retransmitted data.
 
-
 ### -field BytesRetrans
 
 Type: <b>ULONG</b>
 
 The number of bytes retransmitted.
-
 
 ### -field DupAcksIn
 
@@ -132,20 +125,17 @@ Type: <b>ULONG</b>
 
 The number of duplicate ACKs received.
 
-
 ### -field SacksRcvd
 
 Type: <b>ULONG</b>
 
 The number of Selective Acknowledgement (SACK)  options received.
 
-
 ### -field SackBlocksRcvd
 
 Type: <b>ULONG</b>
 
 The number of SACK blocks received (within SACK options).
-
 
 ### -field CongSignals
 
@@ -168,7 +158,6 @@ Note that retransmission timeouts multiplicatively reduce
            segments, the <b>CongSignals</b> member is incremented in
            association with the Fast Retransmit algorithm.
 
-
 ### -field PreCongSumCwnd
 
 Type: <b>ULONG</b>
@@ -183,7 +172,6 @@ This
            the <b>CongSignals</b> member is the average window (over some
            interval) just prior to a congestion signal.
 
-
 ### -field PreCongSumRtt
 
 Type: <b>ULONG</b>
@@ -195,7 +183,6 @@ The <b>PreCongSumRtt</b> member
            such that the change in the <b>PreCongSumRtt</b>  divided by
            the change in the <b>CongSignals</b> member is the average RTT
            (over some interval) just prior to a congestion signal.
-
 
 ### -field PostCongSumRtt
 
@@ -209,7 +196,6 @@ The change in
            the <b>PostCongCountRtt</b> member is the average RTT (over some
            interval) just after a congestion signal.
 
-
 ### -field PostCongCountRtt
 
 Type: <b>ULONG</b>
@@ -221,7 +207,6 @@ The change in
            the <b>PostCongSumRtt</b> member divided by the change in
            the <b>PostCongCountRtt</b> member is the average RTT (over some
            interval) just after a congestion signal.
-
 
 ### -field EcnSignals
 
@@ -239,14 +224,12 @@ Experienced (ECE) bits, but
            also includes segments failing the ECN nonce check or
            other explicit congestion signals.
 
-
 ### -field EceRcvd
 
 Type: <b>ULONG</b>
 
 The number of segments received with IP headers bearing
            Congestion Experienced (CE) markings.
-
 
 ### -field SendStall
 
@@ -256,13 +239,11 @@ The number of interface stalls or other sender local
            resource limitations that are treated as congestion
            signals.
 
-
 ### -field QuenchRcvd
 
 Type: <b>ULONG</b>
 
 Reserved for future use. This member is always set to zero.
-
 
 ### -field RetranThresh
 
@@ -274,7 +255,6 @@ The number of duplicate acknowledgments required to trigger
 Note that although this is constant in
            traditional Reno TCP implementations, it is adaptive in
            many newer TCP implementations.
-
 
 ### -field SndDupAckEpisodes
 
@@ -288,7 +268,6 @@ This is an indication of the number of data segments lost
            or reordered on the path from the remote TCP endpoint to
            the near TCP endpoint.
 
-
 ### -field SumBytesReordered
 
 Type: <b>ULONG</b>
@@ -301,7 +280,6 @@ Note the change in the <b>SumBytesReordered</b> member divided
            by the change in the <b>NonRecovDaEpisodes</b> member is an
            estimate of the average reordering distance, over some
            interval.
-
 
 ### -field NonRecovDa
 
@@ -318,7 +296,6 @@ Note that the change in the <b>NonRecovDa</b> member divided by
            estimate of the average reordering distance in segments
            over some interval.
 
-
 ### -field NonRecovDaEpisodes
 
 Type: <b>ULONG</b>
@@ -326,15 +303,13 @@ Type: <b>ULONG</b>
 The number of duplicate acknowledgment episodes that did
            not trigger a Fast Retransmit because ACK advanced prior to
            the number of duplicate acknowledgments reaching
-           the <b>RetranThresh</b>. 
-
+           the <b>RetranThresh</b>.
 
 ### -field AckAfterFr
 
 Type: <b>ULONG</b>
 
 Reserved for future use. This member is always set to zero.
-
 
 ### -field DsackDups
 
@@ -343,14 +318,12 @@ Type: <b>ULONG</b>
 The number of duplicate segments reported to the local host
            by D-SACK blocks.
 
-
 ### -field SampleRtt
 
 Type: <b>ULONG</b>
 
 The most recent raw network round trip time measurement, in milliseconds, used in
            calculation of the retransmission timer (RTO).
-
 
 ### -field SmoothedRtt
 
@@ -359,7 +332,6 @@ Type: <b>ULONG</b>
 The smoothed round trip time, in milliseconds, used in calculation of the
            RTO.
 
-
 ### -field RttVar
 
 Type: <b>ULONG</b>
@@ -367,20 +339,17 @@ Type: <b>ULONG</b>
 The round trip time variation, in milliseconds, used in calculation of the
            RTO.
 
-
 ### -field MaxRtt
 
 Type: <b>ULONG</b>
 
 The maximum sampled round trip time in milliseconds.
 
-
 ### -field MinRtt
 
 Type: <b>ULONG</b>
 
 The minimum sampled round trip time in milliseconds.
-
 
 ### -field SumRtt
 
@@ -392,7 +361,6 @@ Note that the change in the <b>SumRtt</b> member divided by the
            change in the <b>CountRtt</b> member is the mean RTT, uniformly
            averaged over an enter interval.
 
-
 ### -field CountRtt
 
 Type: <b>ULONG</b>
@@ -400,13 +368,11 @@ Type: <b>ULONG</b>
 The number of round trip time samples included in
            the <b>SumRtt</b> member.
 
-
 ### -field CurRto
 
 Type: <b>ULONG</b>
 
 The current value, in milliseconds, of the retransmit timer.
-
 
 ### -field MaxRto
 
@@ -414,13 +380,11 @@ Type: <b>ULONG</b>
 
 The maximum value, in milliseconds, of the retransmit timer.
 
-
 ### -field MinRto
 
 Type: <b>ULONG</b>
 
 The minimum value, in milliseconds, of the retransmit timer.
-
 
 ### -field CurMss
 
@@ -428,20 +392,17 @@ Type: <b>ULONG</b>
 
 The current maximum segment size (MSS), in bytes.
 
-
 ### -field MaxMss
 
 Type: <b>ULONG</b>
 
 The maximum MSS, in bytes.
 
-
 ### -field MinMss
 
 Type: <b>ULONG</b>
 
 The minimum MSS, in bytes.
-
 
 ### -field SpuriousRtoDetections
 
@@ -450,10 +411,7 @@ Type: <b>ULONG</b>
 The number of acknowledgments reporting segments that have
            already been retransmitted due to a Retransmission Timeout.
 
-
 ## -remarks
-
-
 
 The <b>TCP_ESTATS_PATH_ROD_v0</b> structure is used as part of the TCP extended statistics feature available on Windows Vista and later. 
 
@@ -896,13 +854,7 @@ tcpEStatsStackSpuriousRtoDetected
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_fine_rtt_rod_v0">TCP_ESTATS_FINE_RTT_ROD_v0</a> structure has members that provide similar data to the <b>RttVar</b>, <b>MaxRtt</b>, <b>MinRtt</b>, and <b>SumRtt</b> members of the <b>TCP_ESTATS_PATH_ROD_v0</b> structure. However, the time is reported in microseconds for the similar members of the <b>TCP_ESTATS_FINE_RTT_ROD_v0</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
@@ -917,7 +869,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpesta
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
- 
-
- 
 

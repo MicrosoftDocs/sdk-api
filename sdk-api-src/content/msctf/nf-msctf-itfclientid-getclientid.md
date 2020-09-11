@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 422cff3c-1be5-4b86-bc64-cded6ab64da4
 ms.date: 12/05/2018
 ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClientId method [Text Services Framework],ITfClientId interface, ITfClientId interface [Text Services Framework],GetClientId method, ITfClientId.GetClientId, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
-f1_keywords:
-- msctf/ITfClientId.GetClientId
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfClientId.GetClientId
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfClientId::GetClientId
+ - msctf/ITfClientId::GetClientId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfClientId.GetClientId
 ---
 
 # ITfClientId::GetClientId
+
 
 ## -description
 
@@ -61,7 +63,6 @@ CLSID to obtain the client identifier for.
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives the client identifier.
 
 ## -returns
-
 
 This method can return one of these values.
 
@@ -90,3 +91,4 @@ An application obtains its client identifier by calling <a href="https://docs.mi
 ## -see-also
 
 [ITfClientId interface](nn-msctf-itfclientid.md), [ITfTextInputProcessor::Activate](nf-msctf-itftextinputprocessor-activate.md), [ITfThreadMgr::Activate](nf-msctf-itfthreadmgr-activate.md), [TfClientId](/windows/desktop/TSF/tfclientid)
+

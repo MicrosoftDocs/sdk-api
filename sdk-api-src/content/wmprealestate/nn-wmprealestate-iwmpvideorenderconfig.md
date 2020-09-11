@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 60318e68-89dd-4505-a703-3de4d5442236
 ms.date: 12/05/2018
 ms.keywords: IWMPVideoRenderConfig, IWMPVideoRenderConfig interface [Windows Media Player], IWMPVideoRenderConfig interface [Windows Media Player],described, IWMPVideoRenderConfigInterface, wmp.iwmpvideorenderconfig, wmprealestate/IWMPVideoRenderConfig
-f1_keywords:
-- wmprealestate/IWMPVideoRenderConfig
-dev_langs:
-- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmprealestate.h
-api_name:
-- IWMPVideoRenderConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPVideoRenderConfig
+ - wmprealestate/IWMPVideoRenderConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmprealestate.h
+api_name:
+ - IWMPVideoRenderConfig
 ---
 
 # IWMPVideoRenderConfig interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPVideoRenderConfig</b> interface provides a method that configures the enhanced video renderer (EVR) used by Windows Media Player.
-
-
-
 
 ## -inheritance
 
@@ -89,14 +85,7 @@ Typically, the EVR is not installed on a computer running Microsoft Windows XP. 
 
 An application running on Windows XP without the EVR installed cannot use the <b>IWMPVideoRenderConfig</b> interface.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

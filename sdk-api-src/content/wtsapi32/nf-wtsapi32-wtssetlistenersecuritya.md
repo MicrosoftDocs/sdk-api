@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: bc90d526-e252-4506-b781-66da5bd66ced
 ms.date: 12/05/2018
 ms.keywords: WTSSetListenerSecurity, WTSSetListenerSecurity function [Remote Desktop Services], WTSSetListenerSecurityA, WTSSetListenerSecurityW, WTS_SECURITY_ALL_ACCESS, WTS_SECURITY_CONNECT, WTS_SECURITY_CURRENT_GUEST_ACCESS, WTS_SECURITY_CURRENT_USER_ACCESS, WTS_SECURITY_DISCONNECT, WTS_SECURITY_GUEST_ACCESS, WTS_SECURITY_LOGOFF, WTS_SECURITY_LOGON, WTS_SECURITY_MESSAGE, WTS_SECURITY_QUERY_INFORMATION, WTS_SECURITY_REMOTE_CONTROL, WTS_SECURITY_RESET, WTS_SECURITY_SET_INFORMATION, WTS_SECURITY_USER_ACCESS, WTS_SECURITY_VIRTUAL_CHANNELS, termserv.wtssetlistenersecurity, wtsapi32/WTSSetListenerSecurity, wtsapi32/WTSSetListenerSecurityA, wtsapi32/WTSSetListenerSecurityW
-f1_keywords:
-- wtsapi32/WTSSetListenerSecurity
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSSetListenerSecurity
-- WTSSetListenerSecurityA
-- WTSSetListenerSecurityW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSSetListenerSecurityA
+ - wtsapi32/WTSSetListenerSecurityA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSSetListenerSecurity
+ - WTSSetListenerSecurityA
+ - WTSSetListenerSecurityW
 ---
 
 # WTSSetListenerSecurityA function
@@ -51,41 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the security descriptor of a Remote Desktop Services listener.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Always set this  parameter to <b>WTS_CURRENT_SERVER_HANDLE</b>.
 
-
 ### -param pReserved [in]
 
 This parameter is reserved. Always set this parameter to <b>NULL</b>.
-
 
 ### -param Reserved [in]
 
 This parameter is reserved. Always set this parameter to zero.
 
-
 ### -param pListenerName [in]
 
 A pointer to a null-terminated string that contains the name of the listener.
-
 
 ### -param SecurityInformation [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the security information  to set. Always enable the  <b>DACL_SECURITY_INFORMATION</b> and <b>SACL_SECURITY_INFORMATION</b> flags.
 
 For more information about possible values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>.
-
 
 ### -param pSecurityDescriptor [in]
 
@@ -214,32 +205,20 @@ Combines these values:
 
 The right to use virtual channels.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
- 
-
- 
 
 ## -remarks
 

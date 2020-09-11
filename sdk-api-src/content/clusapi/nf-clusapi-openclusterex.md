@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.date: 12/05/2018
 ms.keywords: OpenClusterEx, OpenClusterEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX function [Failover Cluster], clusapi/OpenClusterEx, clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
-f1_keywords:
-- clusapi/OpenClusterEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OpenClusterEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterEx
+ - clusapi/OpenClusterEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OpenClusterEx
 ---
 
 # OpenClusterEx function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a connection to a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to it.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszClusterName [in, optional]
 
@@ -79,7 +75,6 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
       <b>GENERIC_ALL</b> is the same as calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-
 ### -param GrantedAccess [out, optional]
 
 Optional parameter that contains the address of a <b>DWORD</b> that will receive the 
@@ -87,10 +82,7 @@ Optional parameter that contains the address of a <b>DWORD</b> that will receive
       <b>MAXIMUM_ALLOWED</b> (0x02000000) then the <b>DWORD</b> pointed to by 
       this parameter will contain the maximum privileges granted to this user.
 
-
 ## -returns
-
-
 
 If the operation was successful, <b>OpenClusterEx</b> returns 
        a cluster handle.
@@ -118,14 +110,8 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A cluster handle is a pointer to an internally defined structure which stores information about the RPC or LPC 
      connection to the cluster. Any object handles obtained from the cluster handle will be associated with the RPC or 
@@ -136,6 +122,4 @@ A cluster handle is a pointer to an internally defined structure which stores in
 When finished with a cluster handle, it is important to call 
      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a> to ensure that all memory is freed and the 
      connection is shut down cleanly.
-
-
 

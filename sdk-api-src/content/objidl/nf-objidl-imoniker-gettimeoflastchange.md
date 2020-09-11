@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
 ms.date: 12/05/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
-f1_keywords:
-- objidl/IMoniker.GetTimeOfLastChange
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.GetTimeOfLastChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::GetTimeOfLastChange
+ - objidl/IMoniker::GetTimeOfLastChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.GetTimeOfLastChange
 ---
 
 # IMoniker::GetTimeOfLastChange
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the time at which the object identified by this moniker was last changed.
 
-
 ## -parameters
-
-
-
 
 ### -param pbc [in]
 
 A pointer to the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>.
 
-
 ### -param pmkToLeft [in]
 
 If the moniker is part of a composite moniker, pointer to the moniker to the left of this moniker. This parameter is primarily used by moniker implementers to enable cooperation between the various components of a composite moniker. Moniker clients should pass <b>NULL</b>.
-
 
 ### -param pFileTime [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the time of last change. A value of {0xFFFFFFFF,0x7FFFFFFF} indicates an error (for example, exceeded time limit, information not available).
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY, as well as the following values.
 
@@ -129,14 +120,8 @@ The time of the change is unavailable and will not be available regardless of th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To be precise, the time returned is the earliest time COM can identify after which no change has occurred, so this time may be later than the time of the last change to the object.
 
@@ -207,22 +192,12 @@ You can get the storage associated with this moniker (or the <i>pmkToLeft</i> mo
 <td>This method returns the time of last change of an object that is registered in the ROT.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">IRunningObjectTable::GetTimeOfLastChange</a>
- 
-
- 
 

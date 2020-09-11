@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8fb68f44-6f69-4eac-90de-02689e3e86cf
 ms.date: 12/05/2018
 ms.keywords: '*PWINTRUST_DATA, PWINTRUST_DATA, PWINTRUST_DATA structure pointer [Security], WINTRUST_DATA, WINTRUST_DATA structure [Security], WTD_CACHE_ONLY_URL_RETRIEVAL, WTD_CHOICE_BLOB, WTD_CHOICE_CATALOG, WTD_CHOICE_CERT, WTD_CHOICE_FILE, WTD_CHOICE_SIGNER, WTD_DISABLE_MD2_MD4, WTD_HASH_ONLY_FLAG, WTD_LIFETIME_SIGNING_FLAG, WTD_MOTW, WTD_NO_IE4_CHAIN_FLAG, WTD_NO_POLICY_USAGE_FLAG, WTD_REVOCATION_CHECK_CHAIN, WTD_REVOCATION_CHECK_CHAIN_EXCLUDE_ROOT, WTD_REVOCATION_CHECK_END_CERT, WTD_REVOCATION_CHECK_NONE, WTD_REVOKE_NONE, WTD_REVOKE_WHOLECHAIN, WTD_SAFER_FLAG, WTD_STATEACTION_AUTO_CACHE, WTD_STATEACTION_AUTO_CACHE_FLUSH, WTD_STATEACTION_CLOSE, WTD_STATEACTION_IGNORE, WTD_STATEACTION_VERIFY, WTD_UICONTEXT_EXECUTE, WTD_UICONTEXT_INSTALL, WTD_UI_ALL, WTD_UI_NOBAD, WTD_UI_NOGOOD, WTD_UI_NONE, WTD_USE_DEFAULT_OSVER_CHECK, WTD_USE_IE4_TRUST_FLAG, _win32_wintrust_data, security.wintrust_data, wintrust/PWINTRUST_DATA, wintrust/WINTRUST_DATA'
-f1_keywords:
-- wintrust/WINTRUST_DATA
-dev_langs:
-- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wintrust.h
-api_name:
-- WINTRUST_DATA
 targetos: Windows
 req.typenames: WINTRUST_DATA, *PWINTRUST_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WINTRUST_DATA
+ - wintrust/_WINTRUST_DATA
+ - PWINTRUST_DATA
+ - wintrust/PWINTRUST_DATA
+ - WINTRUST_DATA
+ - wintrust/WINTRUST_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wintrust.h
+api_name:
+ - WINTRUST_DATA
 ---
 
 # WINTRUST_DATA structure
@@ -49,32 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>WINTRUST_DATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>WINTRUST_DATA</b> structure is used when calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to pass necessary information into the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust providers</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 The size, in bytes, of this structure.
 
-
 ### -field pPolicyCallbackData
 
 A pointer to a data buffer used to pass policy-specific data to a policy provider. This member can be <b>NULL</b>.
 
-
 ### -field pSIPClientData
 
 A pointer to a data buffer used to pass <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP)-specific data to a SIP provider. This member can be <b>NULL</b>.
-
 
 ### -field dwUIChoice
 
@@ -130,8 +127,6 @@ Do not display any positive UI.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fdwRevocationChecks
 
@@ -165,8 +160,6 @@ Revocation checking will be done on the whole chain.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwUnionChoice
 
@@ -233,38 +226,31 @@ Use the certificate pointed to by <b>pCert</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pFile
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_file_info_">WINTRUST_FILE_INFO</a> structure.
 
-
 ### -field pCatalog
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_catalog_info_">WINTRUST_CATALOG_INFO</a> structure.
-
 
 ### -field pBlob
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info_">WINTRUST_BLOB_INFO</a> structure.
 
-
 ### -field pSgnr
 
 A pointer to a 
 [WINTRUST_SGNR_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info) structure.
 
-
 ### -field pCert
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_cert_info_">WINTRUST_CERT_INFO</a> structure.
-
 
 ### -field dwStateAction
 
@@ -331,18 +317,14 @@ Flush any cached catalog data. This action only applies when the <b>dwUnionChoic
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hWVTStateData
 
 A handle to the state data. The contents of this member depends on the value of the <b>dwStateAction</b> member.
 
-
 ### -field pwszURLReference
 
 Reserved for future use. Set to <b>NULL</b>.
-
 
 ### -field dwProvFlags
 
@@ -515,8 +497,6 @@ If this flag is specified it is assumed that the file being verified has been do
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwUIContext
 
@@ -550,8 +530,6 @@ Use when calling <a href="https://docs.microsoft.com/windows/desktop/api/wintrus
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pSignatureSettings
 

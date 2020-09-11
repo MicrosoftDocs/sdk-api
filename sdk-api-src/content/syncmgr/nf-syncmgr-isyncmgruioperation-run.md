@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrUIOperation interface [Windows Shell],Run method, ISyncMgrUIOperation.Run, ISyncMgrUIOperation::Run, Run, Run method [Windows Shell], Run method [Windows Shell],ISyncMgrUIOperation interface, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
-f1_keywords:
-- syncmgr/ISyncMgrUIOperation.Run
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrUIOperation.Run
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrUIOperation::Run
+ - syncmgr/ISyncMgrUIOperation::Run
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrUIOperation.Run
 ---
 
 # ISyncMgrUIOperation::Run
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs the actual display of UI for a handler or sync item when requested to do so by Sync Center.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in]
 
@@ -64,21 +60,13 @@ Type: <b>HWND</b>
 
 A handle to the window used to display the UI.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. Returns S_FALSE or another error code if this method is called to confirm an operation, such as activating a handler or disabling a sync item, but that operation should not be executed.
 
-
-
-
 ## -remarks
-
-
 
 The handler itself, not the UI, is expected to use the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> interface to notify Sync Center of changes to its state that come about through choices made by the user in the UI.
 
@@ -101,7 +89,4 @@ STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
 }
 
 ```
-
-
-
 

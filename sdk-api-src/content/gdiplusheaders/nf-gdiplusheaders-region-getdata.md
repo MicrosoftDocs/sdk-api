@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdata.htm
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [GDI+], GetData method [GDI+],Region class, Region class [GDI+],GetData method, Region.GetData, Region::GetData, _gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_, gdiplus._gdiplus_CLASS_Region_GetData_buffer_bufferSize_sizeFilled_
-f1_keywords:
-- gdiplusheaders/Region.GetData
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::GetData
+ - gdiplusheaders/Region::GetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.GetData
 ---
 
 # Region::GetData
@@ -50,22 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Region::GetData</b> method gets data that describes this region. 
-
+The <b>Region::GetData</b> method gets data that describes this region.
 
 ## -parameters
-
-
-
 
 ### -param buffer [out]
 
 Type: <b>BYTE*</b>
 
 Pointer to an array of 
-					<b>BYTE</b> values that receives the region data. 
-
+					<b>BYTE</b> values that receives the region data.
 
 ### -param bufferSize [in]
 
@@ -74,8 +69,7 @@ Type: <b>UINT</b>
 Integer that specifies the size, in bytes, of the 
 					<i>buffer</i> array. The size of the 
 					<i>buffer</i> array can be greater than or equal to the number of bytes required to store the region data. The exact number of bytes required can be determined by calling the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method. 
-
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method.
 
 ### -param sizeFilled [out]
 
@@ -83,12 +77,9 @@ Type: <b>UINT*</b>
 
 Optional. Pointer to an 
 					<b>INT</b> that receives the number of bytes of data actually received by the 
-					<i>buffer</i> array. The default value is <b>NULL</b>. 
-
+					<i>buffer</i> array. The default value is <b>NULL</b>.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -98,12 +89,7 @@ If the method succeeds, it returns <a href="https://docs.microsoft.com/windows/d
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 The 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a> method can be used before the <b>Region::GetData</b> method to determine the number of bytes needed to store the region data. Then, you can allocate a buffer that is the correct size to store the region data and set the 
@@ -149,7 +135,4 @@ VOID Example_GetData(HDC)
    delete pData;
 }
 ```
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 ms.date: 12/05/2018
 ms.keywords: ASC_REQ_ALLOCATE_MEMORY, ASC_REQ_CONNECTION, ASC_REQ_DELEGATE, ASC_REQ_EXTENDED_ERROR, ASC_REQ_REPLAY_DETECT, ASC_REQ_SEQUENCE_DETECT, ASC_REQ_STREAM, AcceptSecurityContext, AcceptSecurityContext (CredSSP), AcceptSecurityContext function [Security], security.acceptsecuritycontext__credssp_, sspi/AcceptSecurityContext
-f1_keywords:
-- sspi/AcceptSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- AcceptSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AcceptSecurityContext
+ - sspi/AcceptSecurityContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - AcceptSecurityContext
 ---
 
 # AcceptSecurityContext function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AcceptSecurityContext (CredSSP)</b> function lets the server component of a transport application establish a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> between the server and a remote client. The remote client calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> function to start the process of establishing a security context. The server can require one or more reply tokens from the remote client to complete establishing the security context.
 
-
 ## -parameters
-
-
-
 
 ### -param phCredential [in, optional]
 
 A handle to the server credentials. To retrieve this handle, the server calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (CredSSP)</a> function with either the SECPKG_CRED_INBOUND or SECPKG_CRED_BOTH flag set.
 
-
 ### -param phContext [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CtxtHandle</a> structure. On the first call to <b>AcceptSecurityContext (CredSSP)</b>, this pointer is <b>NULL</b>. On subsequent calls, <i>phContext</i> specifies the partially formed context returned in the <i>phNewContext</i> parameter by the first call.
-
 
 ### -param pInput [in, optional]
 
@@ -78,7 +72,6 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a>. The structure contains the input buffer descriptor.
 
 The first buffer must be of type <b>SECBUFFER_TOKEN</b> and contain the security token received from the client. The second buffer should be of type <b>SECBUFFER_EMPTY</b>.
-
 
 ### -param fContextReq [in]
 
@@ -167,16 +160,13 @@ Support a stream-oriented connection.
 
 The requested attributes may not be supported by the client. For more information, see the <i>pfContextAttr</i> parameter.
 
-
 ### -param TargetDataRep [in]
 
 The data representation, such as byte ordering, on the target. This parameter can be either <b>SECURITY_NATIVE_DREP</b> or <b>SECURITY_NETWORK_DREP</b>.
 
-
 ### -param phNewContext [in, out, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CtxtHandle</a> structure. On the first call to <b>AcceptSecurityContext (CredSSP)</b>, this pointer receives the new context handle. On subsequent calls, <i>phNewContext</i> can be the same as the handle specified in the <i>phContext</i> parameter.
-
 
 ### -param pOutput [in, out, optional]
 
@@ -185,14 +175,12 @@ A pointer to a
 
 On output, this buffer receives a token for the security context. The token must be sent to the client. The function can also return a buffer of type SECBUFFER_EXTRA.
 
-
 ### -param pfContextAttr [out]
 
 A pointer to a set of bit flags that indicate the attributes of the established context. For a description of the various attributes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/context-requirements">Context Requirements</a>. Flags used for this parameter are prefixed with ASC_RET, for example, ASC_RET_DELEGATE.
 
 Do not check for security-related attributes until the final function call returns successfully. Attribute flags not related to security, such as the ASC_RET_ALLOCATED_MEMORY flag, can be checked before the final return.
-
 
 ### -param ptsExpiry [out, optional]
 
@@ -202,8 +190,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/time
 <div> </div>
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -376,14 +362,8 @@ The function succeeded. The server must send the output token to the client and 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>AcceptSecurityContext (CredSSP)</b> function is the server counterpart to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (CredSSP)</a> function.
@@ -399,13 +379,7 @@ The caller is responsible for determining whether the final context attributes a
 
 After the security context has been established, the server application can use the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritycontexttoken">QuerySecurityContextToken</a> function to retrieve a handle to the user account to which the client certificate was mapped. Also, the server can use the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function to impersonate the user.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a>
 
@@ -416,7 +390,4 @@ After the security context has been established, the server application can use 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
- 
-
- 
 

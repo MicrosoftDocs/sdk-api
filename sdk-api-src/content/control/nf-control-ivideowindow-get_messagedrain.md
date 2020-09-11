@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9a1a3070-5b68-4dd2-bc10-97a8331cc262
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_MessageDrain method, IVideoWindow.get_MessageDrain, IVideoWindow::get_MessageDrain, IVideoWindowget_MessageDrain, control/IVideoWindow::get_MessageDrain, dshow.ivideowindow_get_messagedrain, get_MessageDrain, get_MessageDrain method [DirectShow], get_MessageDrain method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_MessageDrain
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_MessageDrain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_MessageDrain
+ - control/IVideoWindow::get_MessageDrain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_MessageDrain
 ---
 
 # IVideoWindow::get_MessageDrain
@@ -50,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_MessageDrain</code> method retrieves the window that receives mouse and keyboard messages from the video window, if any.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Drain [in]
 
 Receives a handle to the window, as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oahwnd">OAHWND</a> type. If no message drain was set, this parameter receives the value <b>NULL</b>.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -113,15 +102,8 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -132,7 +114,4 @@ The video renderer filter is not connected.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_messagedrain">IVideoWindow::put_MessageDrain</a>
- 
-
- 
 

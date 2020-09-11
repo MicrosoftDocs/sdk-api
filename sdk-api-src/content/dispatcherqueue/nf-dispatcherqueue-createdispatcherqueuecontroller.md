@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
 ms.date: 12/05/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
-f1_keywords:
-- dispatcherqueue/CreateDispatcherQueueController
-dev_langs:
-- c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: CoreMessaging.lib
 req.dll: CoreMessaging.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CoreMessaging.dll
-api_name:
-- CreateDispatcherQueueController
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDispatcherQueueController
+ - dispatcherqueue/CreateDispatcherQueueController
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CoreMessaging.dll
+api_name:
+ - CreateDispatcherQueueController
 ---
 
 # CreateDispatcherQueueController function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> on the caller's thread. Use the created <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> to create and manage the lifetime of a <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a> to run queued tasks in priority order on the Dispatcher queue's thread.
 
-
 ## -parameters
-
-
-
 
 ### -param options [in]
 
 The threading affinity and type of COM apartment for the created <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>. See remarks for details.
-
 
 ### -param dispatcherQueueController [out]
 
@@ -72,16 +67,9 @@ The created dispatcher queue controller.
 
 ## -returns
 
-
-
 <b>S_OK</b> for success; otherwise a failure code.
 
-
-
-
 ## -remarks
-
-
 
 Introduced in Windows 10, version 1709.
 
@@ -98,19 +86,11 @@ This call does not return until the new thread and <a href="https://docs.microso
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>, and its associated <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a>, are WinRT objects. See their documentation for usage details.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueue">DispatcherQueue</a>
 
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a>
- 
-
- 
 

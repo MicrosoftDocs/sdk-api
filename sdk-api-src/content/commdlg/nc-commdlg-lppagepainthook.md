@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\pagepainthook.htm
 ms.date: 12/05/2018
 ms.keywords: LPPAGEPAINTHOOK, LPPAGEPAINTHOOK callback, LPPAGEPAINTHOOK callback function [Dialog Boxes], _win32_PagePaintHook, _win32_pagepainthook_cpp, commdlg/LPPAGEPAINTHOOK, dlgbox.pagepainthook, winui._win32_pagepainthook
-f1_keywords:
-- commdlg/LPPAGEPAINTHOOK
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Commdlg.h
-api_name:
-- LPPAGEPAINTHOOK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPPAGEPAINTHOOK
+ - commdlg/LPPAGEPAINTHOOK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Commdlg.h
+api_name:
+ - LPPAGEPAINTHOOK
 ---
 
 ## -description
@@ -130,15 +131,8 @@ Whenever the dialog box is about to draw the contents of the sample page, the ho
 <td>The dialog box is about to draw the return address portion of an envelope sample page. This message is sent for envelopes and other paper sizes.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
@@ -157,7 +151,4 @@ Whenever the dialog box is about to draw the contents of the sample page, the ho
 
 
 <b>Reference</b>
- 
-
- 
 

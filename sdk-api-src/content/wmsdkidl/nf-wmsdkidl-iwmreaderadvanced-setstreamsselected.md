@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 921ab9fe-757f-4856-9fbc-b615bf92d90f
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetStreamsSelected method, IWMReaderAdvanced.SetStreamsSelected, IWMReaderAdvanced::SetStreamsSelected, IWMReaderAdvancedSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setstreamsselected, wmsdkidl/IWMReaderAdvanced::SetStreamsSelected
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced.SetStreamsSelected
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced.SetStreamsSelected
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced::SetStreamsSelected
+ - wmsdkidl/IWMReaderAdvanced::SetStreamsSelected
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced.SetStreamsSelected
 ---
 
 # IWMReaderAdvanced::SetStreamsSelected
@@ -52,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetStreamsSelected</b> method specifies which streams are selected when manual stream selection is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cStreamCount [in]
 
 <b>WORD</b> containing the count of stream numbers in the <i>pwStreamNumbers</i> array.
 
-
 ### -param pwStreamNumbers [in]
 
 Pointer to an array containing the stream numbers. Stream numbers are in the range of 1 through 63.
-
 
 ### -param pSelections [in]
 
 Pointer to an array, of equal length to <i>pwStreamNumbers</i>, with each entry containing one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,14 +101,8 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables the selected state of multiple streams to be changed simultaneously. Multiple streams can then be turned on or off at the exact time required. For this reason, the parameters of this method and the <b>GetStreamSelected</b> method are not identical.
 
@@ -128,13 +110,7 @@ When selecting streams manually, you should select only one stream at a time fro
 
 To deliver samples by stream number, you must receive uncompressed stream samples. You can receive stream samples for a specific stream by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples">IWMReaderAdvanced::SetReceiveStreamSamples</a>. You must also implement <b>IWMReaderCallbackAdvanced::OnStreamSample</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
@@ -145,7 +121,4 @@ To deliver samples by stream number, you must receive uncompressed stream sample
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/to-use-manual-stream-selection">To Use Manual Stream Selection</a>
- 
-
- 
 

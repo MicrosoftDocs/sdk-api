@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 7dfc1673-6242-4beb-978f-85f2000fab8e
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeFlags method, ICreateTypeInfo.SetTypeFlags, ICreateTypeInfo::SetTypeFlags, SetTypeFlags, SetTypeFlags method [Automation], SetTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeFlags, automat.icreatetypeinfo_settypeflags, oaidl/ICreateTypeInfo::SetTypeFlags
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetTypeFlags
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetTypeFlags
+ - oaidl/ICreateTypeInfo::SetTypeFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetTypeFlags
 ---
 
 # ICreateTypeInfo::SetTypeFlags
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets type flags of the type description being created.
-
 
 ## -parameters
 
-
-
-
 ### -param uTypeFlags [in]
 
-The settings for the type flags. For details, see TYPEFLAGS. 
-
+The settings for the type flags. For details, see TYPEFLAGS.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -147,18 +140,8 @@ Type mismatch.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
 

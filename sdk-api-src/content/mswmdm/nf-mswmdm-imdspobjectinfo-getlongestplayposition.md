@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: f83ff62c-63e3-4b15-9c5f-0ef39eaa3e0c
 ms.date: 12/05/2018
 ms.keywords: GetLongestPlayPosition, GetLongestPlayPosition method [windows Media Device Manager], GetLongestPlayPosition method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetLongestPlayPosition method, IMDSPObjectInfo.GetLongestPlayPosition, IMDSPObjectInfo::GetLongestPlayPosition, IMDSPObjectInfoGetLongestPlayPosition, mswmdm/IMDSPObjectInfo::GetLongestPlayPosition, wmdm.imdspobjectinfo_getlongestplayposition
-f1_keywords:
-- mswmdm/IMDSPObjectInfo.GetLongestPlayPosition
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPObjectInfo.GetLongestPlayPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPObjectInfo::GetLongestPlayPosition
+ - mswmdm/IMDSPObjectInfo::GetLongestPlayPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPObjectInfo.GetLongestPlayPosition
 ---
 
 # IMDSPObjectInfo::GetLongestPlayPosition
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetLongestPlayPosition</b> method retrieves the longest play position of the object. The object must be a music file on the media device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwLongestPos [out]
 
 Pointer to a <b>DWORD</b> containing the longest play position of the object, in milliseconds.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -80,27 +70,13 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The object must be an audio data file. For all other object types, this function returns E_INVALIDTYPE.
 
 The last play position changes when either the user starts playing a file on the media device, or when an application invokes the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">IMDSPDeviceControl::Play</a> method and that play exceeds the position of the last longest play position.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
- 
-
- 
 

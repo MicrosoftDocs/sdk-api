@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method, AddComponent method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponent method, IVssCreateExpressWriterMetadata.AddComponent, IVssCreateExpressWriterMetadata::AddComponent, base.ivsscreateexpresswritermetadata_addcomponent, vswriter/IVssCreateExpressWriterMetadata::AddComponent
-f1_keywords:
-- vswriter/IVssCreateExpressWriterMetadata.AddComponent
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateExpressWriterMetadata.AddComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateExpressWriterMetadata::AddComponent
+ - vswriter/IVssCreateExpressWriterMetadata::AddComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateExpressWriterMetadata.AddComponent
 ---
 
 # IVssCreateExpressWriterMetadata::AddComponent
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a 
     file group to an express writer's set of components to be backed up.
 
-
 ## -parameters
-
-
-
 
 ### -param ct [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration value that specifies 
       the type of the component. Only <b>VSS_CT_FILEGROUP</b> is supported for this parameter.
-
 
 ### -param wszLogicalPath [in]
 
@@ -73,7 +68,6 @@ A pointer to a <b>null</b>-terminated wide character string containing the logic
 
 This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param wszComponentName [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing the name of the component. This string is not localized. 
@@ -81,14 +75,12 @@ A pointer to a <b>null</b>-terminated wide character string containing the name 
 
 This parameter is required and cannot be <b>NULL</b>. The string cannot contain backslashes.
 
-
 ### -param wszCaption [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing a description (also called a "friendly name") for the component. 
       This string might be localized, and therefore requesters must assume that it is localized. 
 
 This parameter is optional and can be <b>NULL</b>. The string can contain backslashes.
-
 
 ### -param pbIcon [in]
 
@@ -98,23 +90,19 @@ A pointer to a bitmap of the icon representing the database, to be displayed in 
 
 This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param cbIcon [in]
 
 The size, in bytes, of the buffer. If 
      the <i>pbIcon</i> parameter is <b>NULL</b>, 
      <i>cbIcon</i> must be zero.
 
-
 ### -param bRestoreMetadata [in]
 
 This parameter is reserved for future use and should always be set to <b>false</b>.
 
-
 ### -param bNotifyOnBackupComplete [in]
 
 This parameter is reserved for future use and should always be set to <b>false</b>.
-
 
 ### -param bSelectable [in]
 
@@ -122,7 +110,6 @@ A Boolean value that indicates whether the component can be optionally backed up
       from the backup) or is always backed up when any of the writer's components is backed up. This parameter should be set to  
       <b>true</b> if the component can be selectively backed up, or <b>false</b> if the component is backed up when any of the components 
       is backed up.
-
 
 ### -param bSelectableForRestore [in]
 
@@ -141,7 +128,6 @@ When this parameter is <b>true</b>, the component can be restored by itself; whe
 
 The default value for this parameter is <b>false</b>.
 
-
 ### -param dwComponentFlags [in]
 
 A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a> enumeration values indicating the features that this component supports. 
@@ -149,10 +135,7 @@ A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne
 
 The default value for this parameter is zero.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -233,14 +216,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called multiple times to add several components to an express writer's metadata.
 
@@ -255,18 +232,8 @@ The combination of logical path and name for each component of a specified insta
     files that can be restored individually. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
     Selectability for Restore and Subcomponents</a>.
-   
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
- 
-
- 
 

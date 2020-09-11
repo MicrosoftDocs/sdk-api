@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment
-f1_keywords:
-- certenroll/IX509Enrollment
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Enrollment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Enrollment
+ - certenroll/IX509Enrollment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Enrollment
 ---
 
 # IX509Enrollment interface
 
 
 ## -description
-
 
 The <b>IX509Enrollment</b> interface represents the top level object and enables you to enroll in a certificate hierarchy and install a certificate response. The enrollment process supports the following three scenarios:<dl>
 <dd>
@@ -77,8 +77,6 @@ Out-of-band enrollment
 </ol>
 </dd>
 </dl>
-
-
 
 ## -inheritance
 
@@ -322,13 +320,9 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
@@ -339,7 +333,4 @@ Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
-f1_keywords:
-- wlanapi/WlanSetProfile
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanSetProfile
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanSetProfile
+ - wlanapi/WlanSetProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanSetProfile
 ---
 
 # WlanSetProfile function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanSetProfile</b> function sets the content of a specific profile.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param pInterfaceGuid [in]
 
 The GUID of the interface.
-
 
 ### -param dwFlags [in]
 
@@ -114,15 +108,12 @@ The profile is a per-user profile.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strProfileXml [in]
 
 Contains the XML representation of the profile. The <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-wlanprofile-element">WLANProfile</a> element is the root profile element. To view sample profiles, see <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wireless-profile-samples">Wireless Profile Samples</a>. There is no predefined maximum string length.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied profile must meet the compatibility criteria described in <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wireless-profile-compatibility">Wireless Profile Compatibility</a>.
-
 
 ### -param strAllUserProfileSecurity [in, optional]
 
@@ -138,25 +129,19 @@ If this parameter is not <b>NULL</b> for an all-user profile, the security descr
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
 
-
 ### -param bOverwrite [in]
 
 Specifies whether this profile is overwriting an existing profile.  If this parameter is <b>FALSE</b> and the profile already exists, the existing profile will not be overwritten and an error will be returned.
-
 
 ### -param pReserved [in]
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param pdwReasonCode [out]
 
 A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value that indicates why the profile is not valid.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -246,14 +231,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanSetProfile</b> function can be used to add a new wireless LAN profile or replace an existing wireless LAN profile. 
 
@@ -294,15 +273,9 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanSetProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
-
-
-
+The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
 
@@ -349,7 +322,4 @@ The <b>netsh wlan add profile</b> command provides similar functionality at the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata">WlanSetProfileEapXmlUserData</a>
- 
-
- 
 

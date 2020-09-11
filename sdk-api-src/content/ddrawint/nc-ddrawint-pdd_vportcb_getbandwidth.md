@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 4b9cfec1-a599-47a5-878e-2cde6b3b780a
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetBandwidth, DdVideoPortGetBandwidth callback function [Display Devices], PDD_VPORTCB_GETBANDWIDTH, PDD_VPORTCB_GETBANDWIDTH callback, ddfncs_e47d95f4-8b95-4344-a1d0-f036007ac802.xml, ddrawint/DdVideoPortGetBandwidth, display.ddvideoportgetbandwidth
-f1_keywords:
-- ddrawint/DdVideoPortGetBandwidth
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdVideoPortGetBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_VPORTCB_GETBANDWIDTH
+ - ddrawint/PDD_VPORTCB_GETBANDWIDTH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdVideoPortGetBandwidth
 ---
 
 # PDD_VPORTCB_GETBANDWIDTH callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DdVideoPortGetBandwidth</b> callback function reports the bandwidth limitations of the device's frame buffer memory based the specified VPE object output format.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpGetVideoPortBandwidth
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure that contains the information required for the driver to return the bandwidth data.
 
-
 ## -returns
-
-
 
 <b>DdVideoPortGetBandwidth</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <b>DdVideoPortGetBandwidth</b> must be implemented in DirectDraw drivers that support VPE.
 
@@ -116,12 +97,7 @@ The DDVPB_OVERLAY flag assumes that the device is best described using the DDVPB
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a>
 
@@ -136,7 +112,4 @@ The DDVPB_OVERLAY flag assumes that the device is best described using the DDVPB
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_createvideoport">DdVideoPortCreate</a>
- 
-
- 
 

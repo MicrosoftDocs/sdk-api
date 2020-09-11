@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5d95945f-f11b-42af-b302-8d924917b9ab
 ms.date: 12/05/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
-f1_keywords:
-- winsvc/QueryServiceObjectSecurity
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l2-1-0.dll
-api_name:
-- QueryServiceObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryServiceObjectSecurity
+ - winsvc/QueryServiceObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l2-1-0.dll
+api_name:
+ - QueryServiceObjectSecurity
 ---
 
 # QueryServiceObjectSecurity function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryServiceObjectSecurity</b> function retrieves a copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> associated with a service object. You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a> function to retrieve a security descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -68,33 +64,26 @@ A handle to the service control manager or the service. Handles to the service c
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The handle must have the READ_CONTROL access right.
 
-
 ### -param dwSecurityInformation [in]
 
 A set of 
 bit flags that indicate the type of security information to retrieve. This parameter can be a combination of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags, with the exception that this function does not support the <b>LABEL_SECURITY_INFORMATION</b> value.
 
-
 ### -param lpSecurityDescriptor [out, optional]
 
 A pointer to a buffer that receives a copy of the security descriptor of the specified service object. The calling process must have the appropriate access to view the specified aspects of the  security descriptor of the object. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> format.
 
-
 ### -param cbBufSize [in]
 
 The size of the buffer pointed to by the <i>lpSecurityDescriptor</i> parameter, in bytes. The largest size allowed is 8 kilobytes.
-
 
 ### -param pcbBytesNeeded [out]
 
 A pointer to a variable that receives the number of bytes needed to return the requested security descriptor information, if the function fails.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -153,14 +142,8 @@ The specified security information is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a service is created, the service control manager assigns a default security descriptor to the service object. To retrieve a copy of the security descriptor for a service object, call the <b>QueryServiceObjectSecurity</b> function. To change the security descriptor, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a> function. For a description of the default security descriptor for a service object, see 
@@ -170,13 +153,7 @@ To read the owner, group, or DACL from the security descriptor of the service ob
 
 To read the SACL from the security descriptor, the calling process must have been granted ACCESS_SYSTEM_SECURITY access when the handle was opened. The correct way to get this access is to enable the SE_SECURITY_NAME privilege in the caller's current token, open the handle for ACCESS_SYSTEM_SECURITY access, and then disable the privilege.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
@@ -203,7 +180,4 @@ To read the SACL from the security descriptor, the calling process must have bee
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
- 
-
- 
 

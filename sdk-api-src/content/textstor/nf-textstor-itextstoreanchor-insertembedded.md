@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 414842cc-7c3e-4f5c-93ac-3bd0eda5293e
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbedded method, ITextStoreAnchor.InsertEmbedded, ITextStoreAnchor::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::InsertEmbedded, tsf.itextstoreanchor_insertembedded
-f1_keywords:
-- textstor/ITextStoreAnchor.InsertEmbedded
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.InsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::InsertEmbedded
+ - textstor/ITextStoreAnchor::InsertEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.InsertEmbedded
 ---
 
 # ITextStoreAnchor::InsertEmbedded
@@ -53,32 +54,23 @@ Inserts an IDataObject data object into a text stream.
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
 Must be TS_IE_CORRECTION.
-
 
 ### -param paStart [in]
 
 Pointer to the anchor at the start of the object to be inserted.
 
-
 ### -param paEnd [in]
 
 Pointer to the anchor at the end of the object to be inserted.
-
 
 ### -param pDataObject [in]
 
 Pointer to an <b>IDataObject</b> data object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -165,15 +157,8 @@ The caller does not have a read/write lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
@@ -200,7 +185,4 @@ The caller does not have a read/write lock.
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-ie--constants">TS_IE_* Constants
       </a>
- 
-
- 
 

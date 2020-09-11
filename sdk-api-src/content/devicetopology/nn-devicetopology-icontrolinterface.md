@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: fdd91f65-e45c-4f14-a55c-a44be1661950
 ms.date: 12/05/2018
 ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IControlInterface interface [Core Audio],described, coreaudio.icontrolinterface, devicetopology/IControlInterface
-f1_keywords:
-- devicetopology/IControlInterface
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IControlInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IControlInterface
+ - devicetopology/IControlInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IControlInterface
 ---
 
 # IControlInterface interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IControlInterface</b> interface represents a control interface on a part (connector or subunit) in a <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">device topology</a>. The client obtains a reference to a part's <b>IControlInterface</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getcontrolinterface">IPart::GetControlInterface</a> method.
-
-
-
 
 ## -inheritance
 
@@ -89,13 +85,9 @@ Gets the friendly name for the audio function that the control interface encapsu
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -106,7 +98,4 @@ Gets the friendly name for the audio function that the control interface encapsu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getcontrolinterface">IPart::GetControlInterface</a>
- 
-
- 
 

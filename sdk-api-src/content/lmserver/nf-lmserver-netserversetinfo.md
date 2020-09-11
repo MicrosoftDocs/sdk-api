@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 1a04a43d-34f9-4a08-ac66-750120792af0
 ms.date: 12/05/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
-f1_keywords:
-- lmserver/NetServerSetInfo
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetServerSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetServerSetInfo
+ - lmserver/NetServerSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetServerSetInfo
 ---
 
 # NetServerSetInfo function
@@ -49,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetServerSetInfo</b> function sets a server's operating parameters; it can set them individually or collectively. The information is stored in a way that allows it to remain in effect after the system has been reinitialized.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-Pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a string that specifies the name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param level [in]
 
@@ -128,21 +119,16 @@ Specifies detailed information about the server. The <i>buf</i> parameter points
 
 In addition, levels 1001-1006, 1009-1011, 1016-1018, 1021, 1022, 1028, 1029, 1037, and 1043 are valid based on the restrictions for LAN Manager systems.
 
-
 ### -param buf [in]
 
 Pointer to a buffer that receives the server information. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param ParmError [out]
 
 Pointer to a value that receives the index of the first member of the server information structure that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -198,14 +184,8 @@ Insufficient memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetServerSetInfo</b> function.
@@ -449,14 +429,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
@@ -490,7 +463,4 @@ int wmain(int argc, wchar_t *argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
- 
-
- 
 

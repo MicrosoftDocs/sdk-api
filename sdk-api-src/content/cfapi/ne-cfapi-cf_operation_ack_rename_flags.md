@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: 2EAABBAE-8737-4399-8C39-7D63B45C52B3
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_ACK_RENAME_FLAGS, CF_OPERATION_ACK_RENAME_FLAGS enumeration, CF_OPERATION_ACK_RENAME_FLAG_NONE, cfapi/CF_OPERATION_ACK_RENAME_FLAGS, cfapi/CF_OPERATION_ACK_RENAME_FLAG_NONE, cloudApi.cf_operation_ack_rename_flags
-f1_keywords:
-- cfapi/CF_OPERATION_ACK_RENAME_FLAGS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_OPERATION_ACK_RENAME_FLAGS
 targetos: Windows
 req.typenames: CF_OPERATION_ACK_RENAME_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_OPERATION_ACK_RENAME_FLAGS
+ - cfapi/CF_OPERATION_ACK_RENAME_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_OPERATION_ACK_RENAME_FLAGS
 ---
 
 # CF_OPERATION_ACK_RENAME_FLAGS enumeration
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flags for acknowledging placeholder file or directory renaming.
-
 
 ## -enum-fields
 
-
-
-
 ### -field CF_OPERATION_ACK_RENAME_FLAG_NONE
 
-No acknowledgment of placeholder renaming. 
+No acknowledgment of placeholder renaming.
 

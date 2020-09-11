@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::MeasureString"]
 ms.assetid: 95fe1f97-1978-4356-8707-f539adad3853
 ms.date: 05/13/2019
 ms.keywords: Graphics::MeasureString
-f1_keywords:
-- gdiplusgraphics/Graphics::MeasureString
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::MeasureString
+ - gdiplusgraphics/Graphics::MeasureString
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::MeasureString
+ - Graphics::MeasureString
 ---
 
 # MeasureString(WCHAR*,INT,Font*,RectF&,StringFormat*,RectF*,INT*,INT*)
+
 
 ## -description
 
@@ -74,7 +76,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstri
 
 ### -param boundingBox
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the rectangle that bounds the string. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the rectangle that bounds the string.
 
 ### -param codepointsFitted
 
@@ -128,3 +130,4 @@ VOID Example_MeasureString2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
+

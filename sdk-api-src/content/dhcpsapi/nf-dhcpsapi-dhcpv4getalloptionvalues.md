@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 3c2fff2f-3d79-4e0d-8a31-9917088b1413
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4GetAllOptionValues, DhcpV4GetAllOptionValues function [DHCP], dhcp.dhcpv4getalloptionvalues, dhcpsapi/DhcpV4GetAllOptionValues
-f1_keywords:
-- dhcpsapi/DhcpV4GetAllOptionValues
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV4GetAllOptionValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV4GetAllOptionValues
+ - dhcpsapi/DhcpV4GetAllOptionValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV4GetAllOptionValues
 ---
 
 # DhcpV4GetAllOptionValues function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DhcpV4GetAllOptionValues</b> function retrieves an array of DHCP option values (the option code and associated data) for a particular scope. 
-
+The <b>DhcpV4GetAllOptionValues</b> function retrieves an array of DHCP option values (the option code and associated data) for a particular scope.
 
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -95,13 +90,10 @@ The option values are retrieved for specific vendors.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ScopeInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a> structure that contains information on the scope of the option values to retrieve.
-
 
 ### -param Values [out]
 
@@ -109,10 +101,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns
 
 There is one option value in the array for each vendor/policy pair defined on the DHCP server.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -135,24 +124,12 @@ One or more of the parameters were invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>Values</i> should be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getoptionvalue">DhcpV4GetOptionValue</a>
 
@@ -167,7 +144,4 @@ One or more of the parameters were invalid.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4setoptionvalues">DhcpV4SetOptionValues</a>
- 
-
- 
 

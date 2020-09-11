@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], IWorkspaceResTypeRegistry interface [Remote Desktop Services],described, termserv.iworkspacerestyperegistry, workspaceax/IWorkspaceResTypeRegistry
-f1_keywords:
-- workspaceax/IWorkspaceResTypeRegistry
-dev_langs:
-- c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tsworkspace.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tsworkspace.dll
-api_name:
-- IWorkspaceResTypeRegistry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceResTypeRegistry
+ - workspaceax/IWorkspaceResTypeRegistry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tsworkspace.dll
+api_name:
+ - IWorkspaceResTypeRegistry
 ---
 
 # IWorkspaceResTypeRegistry interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime. This interface is implemented by the Remote Desktop Services workspace runtime. These methods are called by custom clients.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Modifies a third-party file name extension that is registered with the RemoteApp
 
 </td>
 </tr>
-</table> 
+</table>
 

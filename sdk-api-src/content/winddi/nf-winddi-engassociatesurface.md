@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 8cb6d4bf-67bd-4bfb-9605-eeb954fc590c
 ms.date: 12/05/2018
 ms.keywords: EngAssociateSurface, EngAssociateSurface function [Display Devices], display.engassociatesurface, gdifncs_6be89779-b79a-4620-b740-d702945464c5.xml, winddi/EngAssociateSurface
-f1_keywords:
-- winddi/EngAssociateSurface
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngAssociateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngAssociateSurface
+ - winddi/EngAssociateSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngAssociateSurface
 ---
 
 # EngAssociateSurface function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngAssociateSurface</b> function marks a given surface as belonging to a specified device.
 
-
 ## -parameters
-
-
-
 
 ### -param hsurf
 
 Handle to the surface or bitmap to be associated with <i>hdev</i>. This handle was returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatebitmap">EngCreateBitmap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicebitmap">EngCreateDeviceBitmap</a>.
 
-
 ### -param hdev
 
 Handle to the device with which the surface is to be associated. This is the GDI-created handle that was passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
-
 
 ### -param flHooks
 
@@ -275,21 +269,12 @@ HOOK_TRANSPARENTBLT
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The return value is <b>TRUE</b> if the function is successful. Otherwise, the driver should send the information to the GDI function it is implementing, and return GDI's return value.
 
-
-
-
 ## -remarks
-
-
 
 <b>EngAssociateSurface</b> can be used by printer drivers to implement "rules" or device fonts, or by display drivers to make use of special blt hardware.
 
@@ -301,13 +286,7 @@ By default, when a driver supports device bitmaps by implementing <a href="https
 
 After <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> returns a handle to a primary surface, do not call <b>EngAssociateSurface</b> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="https://support.microsoft.com/?kbid&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
 
@@ -366,7 +345,4 @@ After <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a>
- 
-
- 
 

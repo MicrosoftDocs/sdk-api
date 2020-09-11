@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: ec0fe8b6-e968-4bcb-b468-bbf72ffce675
 ms.date: 12/05/2018
 ms.keywords: CreateDigitalSignatureManager, CreateDigitalSignatureManager method [Open Packaging Conventions], CreateDigitalSignatureManager method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateDigitalSignatureManager method, IOpcFactory.CreateDigitalSignatureManager, IOpcFactory::CreateDigitalSignatureManager, msopc/IOpcFactory::CreateDigitalSignatureManager, opc.iopcfactory_createdigitalsignaturemanager
-f1_keywords:
-- msopc/IOpcFactory.CreateDigitalSignatureManager
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcFactory.CreateDigitalSignatureManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcFactory::CreateDigitalSignatureManager
+ - msopc/IOpcFactory::CreateDigitalSignatureManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcFactory.CreateDigitalSignatureManager
 ---
 
 # IOpcFactory::CreateDigitalSignatureManager
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a digital signature manager object for a package object.
 
-
 ## -parameters
-
-
-
 
 ### -param package [in]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpackage">IOpcPackage</a> interface of the package object to associate with the digital signature manager object.
-
 
 ### -param signatureManager [out, retval]
 
@@ -69,10 +64,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 A digital signature manager object provides access to the Packaging API's digital signature interfaces and methods. These can be used to sign the package represented by the package object or to validate the signatures in a package that has already been signed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -146,14 +138,8 @@ For more information about this relationship type, see the <i>OPC</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a package is modified while <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a> are being used to sign the package, signing may fail or result in an inconsistent signature or package.
 
@@ -167,13 +153,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/digital-signatures-overview">Digital Signatures Overview</a>
 
@@ -224,7 +204,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

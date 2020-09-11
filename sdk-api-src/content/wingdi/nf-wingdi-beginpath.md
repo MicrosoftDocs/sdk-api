@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 88be3405-a420-4eb1-935b-099dc3067530
 ms.date: 12/05/2018
 ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.beginpath, wingdi/BeginPath
-f1_keywords:
-- wingdi/BeginPath
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Path-l1-1-0.dll
-- GDI32Full.dll
-api_name:
-- BeginPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BeginPath
+ - wingdi/BeginPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Path-l1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - BeginPath
 ---
 
 # BeginPath function
@@ -51,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BeginPath</b> function opens a path bracket in the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 After a path bracket is open, an application can begin calling GDI drawing functions to define the points that lie in the path. An application can close an open path bracket by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a> function.
 
@@ -156,12 +144,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
 
@@ -196,7 +179,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-widenpath">WidenPath</a>
- 
-
- 
 

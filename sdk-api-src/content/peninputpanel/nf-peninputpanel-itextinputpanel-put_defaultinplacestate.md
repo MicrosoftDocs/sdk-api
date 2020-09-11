@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
 ms.date: 12/05/2018
 ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
-f1_keywords:
-- peninputpanel/ITextInputPanel.DefaultInPlaceState
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.DefaultInPlaceState
-- ITextInputPanel.get_DefaultInPlaceState
-- ITextInputPanel.put_DefaultInPlaceState
-- ITextInputPanel.get_DefaultInPlaceState
-- ITextInputPanel.put_DefaultInPlaceState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::put_DefaultInPlaceState
+ - peninputpanel/ITextInputPanel::put_DefaultInPlaceState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.DefaultInPlaceState
+ - ITextInputPanel.get_DefaultInPlaceState
+ - ITextInputPanel.put_DefaultInPlaceState
+ - ITextInputPanel.get_DefaultInPlaceState
+ - ITextInputPanel.put_DefaultInPlaceState
 ---
 
 # ITextInputPanel::put_DefaultInPlaceState
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -65,13 +65,9 @@ Gets or sets the default in-place state as specified by the <a href="/windows/wi
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Set this property to <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState_Expanded</a> to have the Input Panel open without requiring the user to tap the hover target. Setting the default state to <b>InPlaceState_HoverTarget</b> overrides the Input Panel's heuristics for remaining expanded. When switching between fields, setting the default forces Input Panel to the collapsed or hover state, after a focus change. The system default is <b>InPlaceState_Auto</b>.
 
@@ -124,17 +120,7 @@ if (SUCCEEDED(CoInitialize(NULL)))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
- 
-
- 
 

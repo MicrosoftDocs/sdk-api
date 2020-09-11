@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: d6a181e4-b6cf-44b7-bf47-4900272d6d72
 ms.date: 12/05/2018
 ms.keywords: BLACKNESS, BitBlt, BitBlt function [Windows GDI], CAPTUREBLT, DSTINVERT, MERGECOPY, MERGEPAINT, NOMIRRORBITMAP, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_BitBlt, gdi.bitblt, wingdi/BitBlt
-f1_keywords:
-- wingdi/BitBlt
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- BitBlt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BitBlt
+ - wingdi/BitBlt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - BitBlt
 ---
 
 # BitBlt function
@@ -54,54 +55,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BitBlt</b> function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the destination device context.
 
-
 ### -param x [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
 
 ### -param y [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
-
 ### -param cx [in]
 
 The width, in logical units, of the source and destination rectangles.
-
 
 ### -param cy [in]
 
 The height, in logical units, of the source and the destination rectangles.
 
-
 ### -param hdcSrc [in]
 
 A handle to the source device context.
-
 
 ### -param x1 [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
 
-
 ### -param y1 [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
-
 
 ### -param rop [in]
 
@@ -285,23 +273,14 @@ Fills the destination rectangle using the color associated with index 1 in the p
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>BitBlt</b> only does clipping on the destination DC.
 
@@ -324,12 +303,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -364,7 +338,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
- 
-
- 
 

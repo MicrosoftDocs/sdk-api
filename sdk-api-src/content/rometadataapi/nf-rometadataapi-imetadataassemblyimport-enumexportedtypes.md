@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 8274d8e3-bcfb-4560-b925-2fede03be4cd
 ms.date: 12/05/2018
 ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumExportedTypes method, IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
-f1_keywords:
-- rometadataapi/IMetaDataAssemblyImport.EnumExportedTypes
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataAssemblyImport.EnumExportedTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataAssemblyImport::EnumExportedTypes
+ - rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataAssemblyImport.EnumExportedTypes
 ---
 
 # IMetaDataAssemblyImport::EnumExportedTypes
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the exported types referenced in the assembly manifest in the current metadata scope.
 
-
 ## -parameters
-
-
-
 
 ### -param phEnum [in, out]
 
  A pointer to the enumerator. This must be a null value when the <b>EnumExportedTypes</b> method is called for the first time.
 
-
 ### -param rExportedTypes [out]
 
 The enumeration of <b>mdExportedType</b> metadata tokens.
-
 
 ### -param cMax [in]
 
 The maximum number of <b>mdExportedType</b> tokens that can be placed in the <i>rExportedTypes</i> array.
 
-
-
-
 ### -param pcTokens [out]
 
 The number of <b>mdExportedType</b> tokens actually placed in <i>rExportedTypes</i>.
 
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -103,18 +89,8 @@ The number of <b>mdExportedType</b> tokens actually placed in <i>rExportedTypes<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
- 
-
- 
 

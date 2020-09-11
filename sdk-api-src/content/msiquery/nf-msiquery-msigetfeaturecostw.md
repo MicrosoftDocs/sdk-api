@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MSICOSTTREE_CHILDREN, MSICOSTTREE_PARENTS, MSICOSTTREE_SELFONLY, MsiGetFeatureCost, MsiGetFeatureCost function, MsiGetFeatureCostA, MsiGetFeatureCostW, _msi_msigetfeaturecost, msiquery/MsiGetFeatureCost, msiquery/MsiGetFeatureCostA, msiquery/MsiGetFeatureCostW, setup.msigetfeaturecost
-f1_keywords:
-- msiquery/MsiGetFeatureCost
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFeatureCost
-- MsiGetFeatureCostA
-- MsiGetFeatureCostW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFeatureCostW
+ - msiquery/MsiGetFeatureCostW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFeatureCost
+ - MsiGetFeatureCostA
+ - MsiGetFeatureCostW
 ---
 
 # MsiGetFeatureCostW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFeatureCost</b> function returns the disk space required by a feature and its selected children and parent features.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
-
 ### -param szFeature [in]
 
 Specifies the name of the feature.
-
 
 ### -param iCostTree [in]
 
@@ -113,8 +107,6 @@ The feature only is included in the cost.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iState [in]
 
@@ -178,28 +170,17 @@ The product or feature will be installed to use the default location: local or s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param piCost [out]
 
 Receives the disk space requirements in units of 512 bytes. This parameter must not be null.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiGetFeatureCost</b> function returns the following values:
-					
-
-
-
 
 ## -remarks
-
-
 
 See 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
@@ -248,15 +229,9 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
 

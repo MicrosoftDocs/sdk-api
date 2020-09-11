@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 16E6E61C-0A3D-4B15-901B-E1302EBF1D1C
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter class, TraceLoggingThreadActivityIdSetter class,described, tracelogging.traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter
-f1_keywords:
-- traceloggingactivity/TraceLoggingThreadActivityIdSetter
-dev_langs:
-- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- traceloggingactivity.h
-api_name:
-- TraceLoggingThreadActivityIdSetter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingThreadActivityIdSetter
+ - traceloggingactivity/TraceLoggingThreadActivityIdSetter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - traceloggingactivity.h
+api_name:
+ - TraceLoggingThreadActivityIdSetter
 ---
 
 # TraceLoggingThreadActivityIdSetter class
 
 
 ## -description
-
 
 Tags a thread with an activity id so ETW marks all events in that thread with the activity id.
 
@@ -88,12 +88,9 @@ Restores the original activity ID to the thread.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 All activity that occurs in a thread will be tagged with the associated activity id for the life of this object or until a new activity is nested in the thread. That new nested id will take precedence over the <b>TraceLoggingThreadActivityIdSetter</b> object.
          
@@ -102,5 +99,4 @@ All activity that occurs in a thread will be tagged with the associated activity
 
 </div>
 <div> </div>
-
 

@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: c8619fd1-2764-4f20-a258-fb4368e448b7
 ms.date: 12/05/2018
 ms.keywords: GetConnectionId, GetConnectionId method [Network Awareness], GetConnectionId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetConnectionId method, INetworkConnection.GetConnectionId, INetworkConnection::GetConnectionId, netlistmgr/INetworkConnection::GetConnectionId, nla.inetworkconnection_getconnectionid
-f1_keywords:
-- netlistmgr/INetworkConnection.GetConnectionId
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkConnection.GetConnectionId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkConnection::GetConnectionId
+ - netlistmgr/INetworkConnection::GetConnectionId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkConnection.GetConnectionId
 ---
 
 # INetworkConnection::GetConnectionId
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid">GetConnectionID</a> method returns the Connection ID associated with this network connection.
-
 
 ## -parameters
 
-
-
-
 ### -param pgdConnectionId [out]
 
-Pointer to a <b>GUID</b> that specifies the Connection ID associated with this network connection. 
-
+Pointer to a <b>GUID</b> that specifies the Connection ID associated with this network connection.
 
 ## -returns
 
-
-
 Returns S_OK if the method succeeds.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
- 
-
- 
 

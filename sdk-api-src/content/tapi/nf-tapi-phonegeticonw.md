@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegeticon, phoneGetIcon, phoneGetIcon function [TAPI 2.2], phoneGetIconA, phoneGetIconW, tapi/phoneGetIcon, tapi/phoneGetIconA, tapi/phoneGetIconW, tapi2.phonegeticon
-f1_keywords:
-- tapi/phoneGetIcon
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- phoneGetIcon
-- phoneGetIconA
-- phoneGetIconW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - phoneGetIconW
+ - tapi/phoneGetIconW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - phoneGetIcon
+ - phoneGetIconA
+ - phoneGetIconW
 ---
 
 # phoneGetIconW function
@@ -51,45 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>phoneGetIcon</b> function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDeviceID
 
 Identifier of the phone device whose icon is requested.
 
-
 ### -param lpszDeviceClass
 
 Pointer to a <b>null</b>-terminated string that identifies a device class name. This device class allows the application to select a specific sub-icon applicable to that device class. This parameter is optional and can be left <b>NULL</b> or empty, in which case the highest-level icon associated with the phone device rather than a specified media stream device would be selected.
-
 
 ### -param lphIcon
 
 Pointer to a memory location in which the handle to the icon is returned.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 PHONEERR_BADDEVICEID, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPOINTER, PHONEERR_OPERATIONFAILED, PHONEERR_INVALDEVICECLASS, PHONEERR_UNINITIALIZED, PHONEERR_NOMEM, PHONEERR_NODEVICE.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>phoneGetIcon</b> function causes the provider to return a handle (in <i>lphIcon</i>) to an icon resource (obtained from 
@@ -111,9 +97,6 @@ For applications using a TAPI version earlier than 2.0, if the provider does not
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
@@ -123,7 +106,4 @@ For applications using a TAPI version earlier than 2.0, if the provider does not
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a>
- 
-
- 
 

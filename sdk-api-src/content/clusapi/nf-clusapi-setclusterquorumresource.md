@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.date: 12/05/2018
 ms.keywords: CLUS_HYBRID_QUORUM, CLUS_LEGACY_QUORUM, CLUS_NODE_MAJORITY_QUORUM, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], SetClusterQuorumResource, SetClusterQuorumResource function [Failover Cluster], _wolf_setclusterquorumresource, clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, clusapi/SetClusterQuorumResource, mscs.setclusterquorumresource
-f1_keywords:
-- clusapi/SetClusterQuorumResource
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- SetClusterQuorumResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetClusterQuorumResource
+ - clusapi/SetClusterQuorumResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - SetClusterQuorumResource
 ---
 
 # SetClusterQuorumResource function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> for a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The <b>PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
@@ -66,7 +62,6 @@ Handle to the new quorum resource; or the existing
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> when 
        <i>dwMaxQuoLogSize</i> is 
        <b>CLUS_NODE_MAJORITY_QUORUM</b>.
-
 
 ### -param lpszDeviceName [in, optional]
 
@@ -89,7 +84,6 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c
 For the default path name, the Cluster service uses the previous path name if one exists; otherwise it uses 
        "MSCS".
 
-
 ### -param dwMaxQuoLogSize [in]
 
 The quorum type value. Specify one of the three constants listed. When you specify <b>CLUS_NODE_MAJORITY_QUORUM</b>, <i> hResource</i> must refer to the existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
@@ -106,10 +100,7 @@ The quorum type value. Specify one of the three constants listed. When you speci
 
 #### CLUS_LEGACY_QUORUM (4194304 (0x400000))
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
@@ -135,29 +126,14 @@ The quorum resource is not online.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not call <b>SetClusterQuorumResource</b> from 
      a resource DLL. For more information, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterquorumresource">GetClusterQuorumResource</a>
- 
-
- 
 

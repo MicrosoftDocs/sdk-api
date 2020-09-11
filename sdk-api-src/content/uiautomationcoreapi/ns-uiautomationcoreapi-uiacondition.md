@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 82b5db01-08c9-4518-9d33-15d7813d0c80
 ms.date: 12/05/2018
 ms.keywords: UiaCondition, UiaCondition structure [Windows Accessibility], uiauto.uiauto_UiaConditionStruct, uiauto_UiaConditionStruct, uiautomationcoreapi/UiaCondition, winauto.uiauto_UiaConditionStruct
-f1_keywords:
-- uiautomationcoreapi/UiaCondition
-dev_langs:
-- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCoreApi.h
-api_name:
-- UiaCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaCondition
+ - uiautomationcoreapi/UiaCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCoreApi.h
+api_name:
+ - UiaCondition
 ---
 
 # UiaCondition structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This structure is deprecated.</div><div> </div>  Contains information about a condition.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ConditionType
 

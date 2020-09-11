@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
 ms.date: 12/05/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
-f1_keywords:
-- winbase/SetVolumeMountPoint
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- SetVolumeMountPoint
-- SetVolumeMountPointA
-- SetVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetVolumeMountPointW
+ - winbase/SetVolumeMountPointW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - SetVolumeMountPoint
+ - SetVolumeMountPointA
+ - SetVolumeMountPointW
 ---
 
 # SetVolumeMountPointW function
@@ -58,20 +59,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates a volume with a drive letter or a directory on another volume.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszVolumeMountPoint [in]
 
 The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\") or a directory 
       on another volume (for example, "Y:\MountX\"). The string must end with a trailing backslash ('\').
-
 
 ### -param lpszVolumeName [in]
 
@@ -80,10 +75,7 @@ A volume <b>GUID</b> path for the volume. This string must be of the form
       the volume. The "\\\\?\\" turns off path parsing and is ignored as part of the path, as discussed in 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -92,12 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
 
-
-
-
 ## -remarks
-
-
 
 When this function is used to associate a volume with a directory on another volume, the associated directory is called a <i>mounted folder</i>.
 
@@ -187,9 +174,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
@@ -207,7 +191,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
 

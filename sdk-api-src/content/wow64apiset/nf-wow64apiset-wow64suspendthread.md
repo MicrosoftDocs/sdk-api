@@ -34,6 +34,7 @@ api_location:
 api_name:
  - Wow64SuspendThread
 f1_keywords:
+ - Wow64SuspendThread
  - wow64apiset/Wow64SuspendThread
 dev_langs:
  - c++
@@ -70,5 +71,4 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
 ## -see-also
 
 [ResumeThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread)
-
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 7aeaf549-3c60-4dd8-9e46-6bab357f4960
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], IWMPStringCollection2 interface [Windows Media Player],described, IWMPStringCollection2Interface, wmp.iwmpstringcollection2, wmp/IWMPStringCollection2
-f1_keywords:
-- wmp/IWMPStringCollection2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPStringCollection2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPStringCollection2
+ - wmp/IWMPStringCollection2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPStringCollection2
 ---
 
 # IWMPStringCollection2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPStringCollection2</b> interface provides methods that supplement the <b>IWMPStringCollection</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -107,20 +103,13 @@ Retrieves a value indicating whether the supplied object is the same as the curr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER'
-f1_keywords:
-- winioctl/STORAGE_DESCRIPTOR_HEADER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_DESCRIPTOR_HEADER
 targetos: Windows
 req.typenames: STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER
 req.redist: 
+f1_keywords:
+ - _STORAGE_DESCRIPTOR_HEADER
+ - winioctl/_STORAGE_DESCRIPTOR_HEADER
+ - PSTORAGE_DESCRIPTOR_HEADER
+ - winioctl/PSTORAGE_DESCRIPTOR_HEADER
+ - STORAGE_DESCRIPTOR_HEADER
+ - winioctl/STORAGE_DESCRIPTOR_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_DESCRIPTOR_HEADER
 ---
 
 # STORAGE_DESCRIPTOR_HEADER structure
@@ -48,44 +53,29 @@ req.redist:
 
 ## -description
 
-
 Used in conjunction with the 
    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to 
    retrieve the properties of a storage device or adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure.
 
-
 ### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
 
-
 ## -remarks
-
-
 
 The data retrieved by 
      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> is reported in 
      the buffer immediately following this structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_seek_penalty_descriptor">DEVICE_SEEK_PENALTY_DESCRIPTOR</a>
 
@@ -128,7 +118,4 @@ The data retrieved by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_write_cache_property">STORAGE_WRITE_CACHE_PROPERTY</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 464b05e3-06da-44b9-b4a6-c64452fcdb6d
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], ISelectionItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionItemProvider, uiauto_ISelectionItemProvider, uiautomationcore/ISelectionItemProvider, winauto.uiauto_ISelectionItemProvider
-f1_keywords:
-- uiautomationcore/ISelectionItemProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ISelectionItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISelectionItemProvider
+ - uiautomationcore/ISelectionItemProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ISelectionItemProvider
 ---
 
 # ISelectionItemProvider interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides 
         access to individual, selectable child controls of containers that implement 
         <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a>.
-        
-
 
 ## -inheritance
 
@@ -141,26 +139,14 @@ Specifies the provider that implements <a href="https://docs.microsoft.com/windo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implemented on a Microsoft UI Automation provider that 
             must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingselectionitem">SelectionItem</a> control pattern.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

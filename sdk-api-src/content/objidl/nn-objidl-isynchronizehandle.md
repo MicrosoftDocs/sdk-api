@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 93b2e682-78da-4a61-a045-8d71b3834e1d
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM],described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
-f1_keywords:
-- objidl/ISynchronizeHandle
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ISynchronizeHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISynchronizeHandle
+ - objidl/ISynchronizeHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ISynchronizeHandle
 ---
 
 # ISynchronizeHandle interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a handle associated with a synchronization object. 
-
-
+Retrieves a handle associated with a synchronization object.
 
 ## -inheritance
 
@@ -78,16 +76,9 @@ Retrieves a handle to the synchronization object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizeevent">ISynchronizeEvent</a>
- 
-
- 
 

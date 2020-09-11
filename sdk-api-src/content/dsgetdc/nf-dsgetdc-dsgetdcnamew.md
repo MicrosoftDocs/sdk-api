@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: da8b2983-5e45-40b0-b552-c9b3a1d8ae94
 ms.date: 12/05/2018
 ms.keywords: DS_AVOID_SELF, DS_BACKGROUND_ONLY, DS_DIRECTORY_SERVICE_6_REQUIRED, DS_DIRECTORY_SERVICE_8_REQUIRED, DS_DIRECTORY_SERVICE_PREFERRED, DS_DIRECTORY_SERVICE_REQUIRED, DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_GOOD_TIMESERV_PREFERRED, DS_IP_REQUIRED, DS_IS_DNS_NAME, DS_IS_FLAT_NAME, DS_KDC_REQUIRED, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DS_RETURN_DNS_NAME, DS_RETURN_FLAT_NAME, DS_TIMESERV_REQUIRED, DS_TRY_NEXTCLOSEST_SITE, DS_WEB_SERVICE_REQUIRED, DS_WRITABLE_REQUIRED, DsGetDcName, DsGetDcName function [Active Directory], DsGetDcNameA, DsGetDcNameW, _glines_dsgetdcname, ad.dsgetdcname, dsgetdc/DsGetDcName, dsgetdc/DsGetDcNameA, dsgetdc/DsGetDcNameW
-f1_keywords:
-- dsgetdc/DsGetDcName
-dev_langs:
-- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: NetApi32.lib
 req.dll: NetApi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NetApi32.dll
-api_name:
-- DsGetDcName
-- DsGetDcNameA
-- DsGetDcNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsGetDcNameW
+ - dsgetdc/DsGetDcNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NetApi32.dll
+api_name:
+ - DsGetDcName
+ - DsGetDcNameA
+ - DsGetDcNameW
 ---
 
 # DsGetDcNameW function
@@ -51,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsGetDcName</b> function returns the name of a 
    domain controller in a specified domain. This function accepts additional domain controller selection 
    criteria to indicate preference for a domain controller with particular characteristics.
 
-
 ## -parameters
-
-
-
 
 ### -param ComputerName [in]
 
 Pointer to a null-terminated string that specifies the name of the server to process this function. 
       Typically, this parameter is <b>NULL</b>, which indicates that the local computer is 
       used.
-
 
 ### -param DomainName [in]
 
@@ -91,7 +86,6 @@ If <i>DomainName</i> is <b>NULL</b> and the
        flag, <i>ComputerName</i> is set to the default domain name of the primary domain of the 
        computer identified by <i>ComputerName</i>.
 
-
 ### -param DomainGuid [in]
 
 Pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that specifies the 
@@ -101,7 +95,6 @@ Pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> struc
   <b>DsGetDcName</b> attempts to locate a domain controller in the 
       domain having the GUID specified by <i>DomainGuid</i>.
 
-
 ### -param SiteName [in]
 
 Pointer to a null-terminated string that specifies the name of the site where the returned domain 
@@ -109,7 +102,6 @@ Pointer to a null-terminated string that specifies the name of the site where th
       <b>DsGetDcName</b> attempts to return a domain controller in the 
       site closest to the site of the computer specified by <i>ComputerName</i>. This parameter 
       should be <b>NULL</b>, by default.
-
 
 ### -param Flags [in]
 
@@ -332,7 +324,6 @@ Requires that the returned domain controller be writable; that is, host a writab
 
 Requires that the returned domain controller be currently running the Active Directory web service.
 
-
 ### -param DomainControllerInfo [out]
 
 Pointer to a <b>PDOMAIN_CONTROLLER_INFO</b> value that receives a pointer to a 
@@ -537,22 +528,14 @@ Requires that the returned domain controller be currently running the Active Dir
 Requires that the returned domain controller be writable; that is, host a writable copy of the directory 
         service.
 
-
 ## -returns
-
-
 
 If the function returns domain controller data, the return value is 
        <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value can be one of the following error codes.
 
-
-
-
 ## -remarks
-
-
 
 The <b>DsGetDcName</b> function is sent to the Netlogon service 
     on the remote computer specified by <i>ComputerName</i>. If 
@@ -841,9 +824,6 @@ Run the following command to stop the trace session:
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/ns-dsgetdc-domain_controller_infoa">DOMAIN_CONTROLLER_INFO</a>
 
 
@@ -869,7 +849,4 @@ Run the following command to stop the trace session:
 
 
 <a href="https://technet.microsoft.com/library/cc773061(v=ws.10).aspx">Windows Time Service</a>
- 
-
- 
 

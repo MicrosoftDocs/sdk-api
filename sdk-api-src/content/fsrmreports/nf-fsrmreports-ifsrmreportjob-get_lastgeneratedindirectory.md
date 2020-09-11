@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: b72ce871-41e0-4321-8c9c-0ae77a02c7ff
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastGeneratedInDirectory property, IFsrmReportJob.LastGeneratedInDirectory, IFsrmReportJob.get_LastGeneratedInDirectory, IFsrmReportJob::LastGeneratedInDirectory, IFsrmReportJob::get_LastGeneratedInDirectory, LastGeneratedInDirectory property [File Server Resource Manager], LastGeneratedInDirectory property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastgeneratedindirectory, fsrm.ifsrmreportjob_lastgeneratedindirectory, fsrmreports/IFsrmReportJob::LastGeneratedInDirectory, fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory, get_LastGeneratedInDirectory
-f1_keywords:
-- fsrmreports/IFsrmReportJob.LastGeneratedInDirectory
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportJob.LastGeneratedInDirectory
-- IFsrmReportJob.get_LastGeneratedInDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportJob::get_LastGeneratedInDirectory
+ - fsrmreports/IFsrmReportJob::get_LastGeneratedInDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportJob.LastGeneratedInDirectory
+ - IFsrmReportJob.get_LastGeneratedInDirectory
 ---
 
 # IFsrmReportJob::get_LastGeneratedInDirectory
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the local directory path where the reports were stored the last time the reports were run.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the reports failed, this is the path where the reports would have been stored. The directory may contain reports that completed successfully before the failure occurred.
 
@@ -72,19 +68,11 @@ For an example, see <a href="https://docs.microsoft.com/previous-versions/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: ddec8602-5a94-49ec-a2b6-37f4b77d2e9b
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION, WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION, wsw.ws_tcp_sspi_username_policy_description
-f1_keywords:
-- webservices/WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
 targetos: Windows
 req.typenames: WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
+ - webservices/_WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
+ - WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
+ - webservices/WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION
 ---
 
 # WS_TCP_SSPI_USERNAME_POLICY_DESCRIPTION structure
@@ -49,37 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the policy specifying TCP channel binding with windows SSPI transport 
         security and username/password message security.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field channelProperties
 
 Template description for the channel properties specified in policy.
-        
-
 
 ### -field securityProperties
 
 Template description for the security properties specified in policy.
-        
-
 
 ### -field sspiTransportSecurityBinding
 
 Windows SSPI security binding description.
-        
-
 
 ### -field usernameMessageSecurityBinding
 
 Username/password message security binding description.
-        
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 7a1570a9-b43f-4603-a5ed-6d078a5bbb7c
 ms.date: 12/05/2018
 ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdminReleaseIpAddress callback function [RAS], _mpr_mpradminreleaseipaddress, mprapi/MprAdminReleaseIpAddress, rras.mpradminreleaseipaddress
-f1_keywords:
-- mprapi/MprAdminReleaseIpAddress
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mprapi.h
-api_name:
-- MprAdminReleaseIpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminReleaseIpAddress
+ - mprapi/MprAdminReleaseIpAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mprapi.h
+api_name:
+ - MprAdminReleaseIpAddress
 ---
 
 # MprAdminReleaseIpAddress function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminReleaseIpAddress</b> function is called when a user disconnects and the user's IP address is about to be released.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUserName [in]
 
 Pointer to a Unicode string that specifies the name of the user that requires an IP address.
 
-
 ### -param lpszPortName [in]
 
 Pointer to a Unicode string that specifies the name of the port on which the user is attempting to connect.
-
 
 ### -param lpdwIpAddress [in]
 
 Pointer to a <b>DWORD</b> variable. This variable specifies the IP address to be released.
 
-
 ## -remarks
-
-
 
 An administration DLL need not implement the 
 <b>MprAdminReleaseIpAddress</b> function. However, if the DLL implements 
@@ -95,13 +86,7 @@ Do not call any of the
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-user-administration-functions">RAS User Administration Functions</a> from inside 
 <b>MprAdminReleaseIpAddress</b>. Calls to these functions do not return when made from within a callout function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotification">MprAdminConnectionHangupNotification</a>
 
@@ -120,7 +105,4 @@ Do not call any of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
 

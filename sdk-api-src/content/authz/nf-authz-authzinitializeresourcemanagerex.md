@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: CDB78606-1B53-4516-90E6-1FF096B3D7D9
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES, AuthzInitializeResourceManagerEx, AuthzInitializeResourceManagerEx function [Security], authz/AuthzInitializeResourceManagerEx, security.authzinitializeresourcemanagerex
-f1_keywords:
-- authz/AuthzInitializeResourceManagerEx
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzInitializeResourceManagerEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuthzInitializeResourceManagerEx
+ - authz/AuthzInitializeResourceManagerEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzInitializeResourceManagerEx
 ---
 
 # AuthzInitializeResourceManagerEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzInitializeResourceManagerEx</b> function initializes an Authz resource manager and returns a handle to it. Use this function rather than <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeresourcemanager">AuthzInitializeResourceManager</a> when you want the resource manager to manage Central Access Policies (CAPs).
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in, optional]
 
@@ -112,33 +108,22 @@ The central access policy IDs are ignored. Do not evaluate central access polici
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pAuthzInitInfo [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_init_info">AUTHZ_INIT_INFO</a> structure that contains the authorization resource manager initialization information.
 
-
 ### -param phAuthzResourceManager [out]
 
 A pointer to the returned resource manager handle. When you have finished using the handle, free it by using the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreeresourcemanager">AuthzFreeResourceManager</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a value of <b>TRUE</b>. 
 
 If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES flag is specified, then <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> and <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> ignore CAPID (Central Access Policie ID) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a> and will not evaluate CAPs.
 
@@ -150,17 +135,7 @@ The LSA and the central access policy callback can indicate that CAPs are not su
 
 The LSA and the central access policy callback may fail to return a CAP that corresponds to a particular CAPID, in which case <b>AuthzAccessCheck</b> and <b>AuthzCachedAccessCheck</b> use the same default CAP as the kernel AccessCheck.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/nf-ntlsa-lsagetappliedcapids">LsaGetAppliedCAPIDs</a>
- 
-
- 
 

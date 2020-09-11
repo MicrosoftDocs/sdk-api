@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 2a324055-21b0-4dad-a8e0-781905329dc2
 ms.date: 12/05/2018
 ms.keywords: 47ca3aa9-52f4-d1e0-6da2-56bc4682c9ee, D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, D3D11_RESOURCE_MISC_BUFFER_STRUCTURED, D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS, D3D11_RESOURCE_MISC_FLAG, D3D11_RESOURCE_MISC_FLAG enumeration [Direct3D 11], D3D11_RESOURCE_MISC_GDI_COMPATIBLE, D3D11_RESOURCE_MISC_GENERATE_MIPS, D3D11_RESOURCE_MISC_GUARDED, D3D11_RESOURCE_MISC_HW_PROTECTED, D3D11_RESOURCE_MISC_RESOURCE_CLAMP, D3D11_RESOURCE_MISC_RESTRICTED_CONTENT, D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE, D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, D3D11_RESOURCE_MISC_SHARED, D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX, D3D11_RESOURCE_MISC_SHARED_NTHANDLE, D3D11_RESOURCE_MISC_TEXTURECUBE, D3D11_RESOURCE_MISC_TILED, D3D11_RESOURCE_MISC_TILE_POOL, d3d11/D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS, d3d11/D3D11_RESOURCE_MISC_BUFFER_STRUCTURED, d3d11/D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS, d3d11/D3D11_RESOURCE_MISC_FLAG, d3d11/D3D11_RESOURCE_MISC_GDI_COMPATIBLE, d3d11/D3D11_RESOURCE_MISC_GENERATE_MIPS, d3d11/D3D11_RESOURCE_MISC_GUARDED, d3d11/D3D11_RESOURCE_MISC_HW_PROTECTED, d3d11/D3D11_RESOURCE_MISC_RESOURCE_CLAMP, d3d11/D3D11_RESOURCE_MISC_RESTRICTED_CONTENT, d3d11/D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE, d3d11/D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER, d3d11/D3D11_RESOURCE_MISC_SHARED, d3d11/D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX, d3d11/D3D11_RESOURCE_MISC_SHARED_NTHANDLE, d3d11/D3D11_RESOURCE_MISC_TEXTURECUBE, d3d11/D3D11_RESOURCE_MISC_TILED, d3d11/D3D11_RESOURCE_MISC_TILE_POOL, direct3d11.d3d11_resource_misc_flag
-f1_keywords:
-- d3d11/D3D11_RESOURCE_MISC_FLAG
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_RESOURCE_MISC_FLAG
 targetos: Windows
 req.typenames: D3D11_RESOURCE_MISC_FLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_RESOURCE_MISC_FLAG
+ - d3d11/D3D11_RESOURCE_MISC_FLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_RESOURCE_MISC_FLAG
 ---
 
 # D3D11_RESOURCE_MISC_FLAG enumeration
@@ -49,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies options for resources.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_RESOURCE_MISC_GENERATE_MIPS
 
 Enables MIP map generation by using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-generatemips">ID3D11DeviceContext::GenerateMips</a> on a texture resource. The resource must be created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">bind flags</a> that specify that the resource is a render target and a shader resource.
-          
-
 
 ### -field D3D11_RESOURCE_MISC_SHARED
 
@@ -86,31 +80,22 @@ Enables resource data sharing between two or more Direct3D devices. The only res
 ### -field D3D11_RESOURCE_MISC_TEXTURECUBE
 
 Sets a resource to be a cube texture created from a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2darray">Texture2DArray</a> that contains 6 textures.
-          
-
 
 ### -field D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS
 
 Enables instancing of GPU-generated content.
 
-
 ### -field D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS
 
 Enables a resource as a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">byte address buffer</a>.
-          
-
 
 ### -field D3D11_RESOURCE_MISC_BUFFER_STRUCTURED
 
 Enables a resource as a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-cs-resources">structured buffer</a>.
-          
-
 
 ### -field D3D11_RESOURCE_MISC_RESOURCE_CLAMP
 
 Enables a resource with MIP map clamping for use with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-setresourceminlod">ID3D11DeviceContext::SetResourceMinLOD</a>.
-          
-
 
 ### -field D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX
 
@@ -186,13 +171,11 @@ Without this flag set, the runtime does not strictly validate shared resource pa
 
 <b>Direct3D 11 and earlier:  </b>This value is not supported until Direct3D 11.1.
 
-
 ### -field D3D11_RESOURCE_MISC_RESTRICTED_CONTENT
 
 Set this flag to indicate that the resource might contain protected content; therefore, the operating system should  use the resource only when the driver and hardware support content protection.  If the driver and hardware do not support content protection and you try to create a resource with this flag, the resource creation fails.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
-
 
 ### -field D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE
 
@@ -200,13 +183,11 @@ Set this flag to indicate that the operating system  restricts access to the sha
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-
 ### -field D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE_DRIVER
 
 Set this flag to indicate that the driver  restricts access to the shared surface. You can use this flag in conjunction with the D3D11_RESOURCE_MISC_RESTRICT_SHARED_RESOURCE flag and only when you create a shared surface. The process that creates the shared resource can always open the shared resource.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
-
 
 ### -field D3D11_RESOURCE_MISC_GUARDED
 
@@ -221,20 +202,17 @@ A guarded resource automatically restricts all writes to the region that is rela
 </ul>
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
-
 ### -field D3D11_RESOURCE_MISC_TILE_POOL
 
 Set this flag to indicate that the resource is a tile pool.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
-
 ### -field D3D11_RESOURCE_MISC_TILED
 
 Set this flag to indicate that the resource is a tiled resource.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
-
 
 ### -field D3D11_RESOURCE_MISC_HW_PROTECTED
 
@@ -260,12 +238,8 @@ This flag has the following restrictions:
 </div>
 <div> </div>
 <b>Note</b>  This enumeration value is supported starting with Windows 10.
-              
-
 
 ## -remarks
-
-
 
 This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture2d_desc">D3D11_TEXTURE2D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture3d_desc">D3D11_TEXTURE3D_DESC</a>. 
 
@@ -274,16 +248,7 @@ These flags can be combined by bitwise OR.
 
 The <b>D3D11_RESOURCE_MISC_FLAG</b> cannot be used when creating resources with <b>D3D11_CPU_ACCESS</b> flags.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
- 
-
- 
 

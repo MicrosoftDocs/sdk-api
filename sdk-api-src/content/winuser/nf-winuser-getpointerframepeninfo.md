@@ -8,10 +8,6 @@ tech.root: InputMsg
 ms.assetid: 52db9b96-7f9e-41d7-88f7-b9c7691a6511
 ms.date: 12/05/2018
 ms.keywords: GetPointerFramePenInfo, GetPointerFramePenInfo function [Input Messages and Notifications], inputmsg.getpointerframepeninfo, winuser/GetPointerFramePenInfo
-f1_keywords:
-- winuser/GetPointerFramePenInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
-- MinUser.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
-- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
-api_name:
-- GetPointerFramePenInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPointerFramePenInfo
+ - winuser/GetPointerFramePenInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+ - MinUser.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+api_name:
+ - GetPointerFramePenInfo
 ---
 
 # GetPointerFramePenInfo function
@@ -54,44 +55,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the entire frame of pen-based information for the specified pointers (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message. 
-
+Gets the entire frame of pen-based information for the specified pointers (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message.
 
 ## -parameters
-
-
-
 
 ### -param pointerId [in]
 
 An identifier of the pointer for which to retrieve frame information.
 
-
 ### -param pointerCount [in, out]
 
 A pointer to a variable that specifies the count of structures in the buffer to which penInfo points. If <b>GetPointerFramePenInfo</b> succeeds, <i>pointerCount</i>  is updated with the total count of pointers in the frame.
-
 
 ### -param penInfo [out]
 
 Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_pen_info">POINTER_PEN_INFO</a> structures to receive the pointer information. This parameter can be NULL if <i>*pointerCount</i> is zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Parallel-mode devices may report pointer input in frames, that is, they may report the state and position of all pointers from that device in a single input report to the system. Ideally, applications should view the entire frame as a single input unless the application-specific requirements dictate otherwise.
 
@@ -130,12 +116,7 @@ We recommend the following if you want to filter data from the input frame:
 <li>For each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">POINTER_FLAG_UP</a>, use the tracking info to determine whether the input is client or non-client and then clear this pointer from the tracking data.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
@@ -150,7 +131,4 @@ We recommend the following if you want to filter data from the input frame:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerpeninfohistory">GetPointerPenInfoHistory</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevice.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPRAWINPUTDEVICE, *PRAWINPUTDEVICE, LPRAWINPUTDEVICE, LPRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input], PRAWINPUTDEVICE, PRAWINPUTDEVICE structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICE, RAWINPUTDEVICE structure [Keyboard and Mouse Input], RIDEV_APPKEYS, RIDEV_CAPTUREMOUSE, RIDEV_DEVNOTIFY, RIDEV_EXCLUDE, RIDEV_EXINPUTSINK, RIDEV_INPUTSINK, RIDEV_NOHOTKEYS, RIDEV_NOLEGACY, RIDEV_PAGEONLY, RIDEV_REMOVE, _win32_RAWINPUTDEVICE_str, _win32_rawinputdevice_str_cpp, inputdev.rawinputdevice, winui._win32_rawinputdevice_str, winuser/LPRAWINPUTDEVICE, winuser/PRAWINPUTDEVICE, winuser/RAWINPUTDEVICE'
-f1_keywords:
-- winuser/RAWINPUTDEVICE
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- RAWINPUTDEVICE
 targetos: Windows
 req.typenames: RAWINPUTDEVICE, *PRAWINPUTDEVICE, *LPRAWINPUTDEVICE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRAWINPUTDEVICE
+ - winuser/tagRAWINPUTDEVICE
+ - PRAWINPUTDEVICE
+ - winuser/PRAWINPUTDEVICE
+ - RAWINPUTDEVICE
+ - winuser/RAWINPUTDEVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - RAWINPUTDEVICE
 ---
 
 # RAWINPUTDEVICE structure
 
+
 ## -description
 
-Defines information for the raw input devices. 
+Defines information for the raw input devices.
 
 ## -struct-fields
 
@@ -208,3 +214,4 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 <b>Reference</b>
 
 [RegisterRawInputDevices](nf-winuser-registerrawinputdevices.md)
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
-f1_keywords:
-- shobjidl/IAccessibleObject
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IAccessibleObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibleObject
+ - shobjidl/IAccessibleObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IAccessibleObject
 ---
 
 # IAccessibleObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that can be used by an accessibility application.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Sets text that is retrieved by <a href="https://docs.microsoft.com/windows/deskt
 
 </td>
 </tr>
-</table> 
+</table>
 

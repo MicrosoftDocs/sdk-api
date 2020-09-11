@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 0eb489d2-2644-4d34-83a7-132d28a7b871
 ms.date: 12/05/2018
 ms.keywords: EnumerateProperties, EnumerateProperties method [Remote Desktop Services], EnumerateProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],EnumerateProperties method, ITsSbFilterPluginStore.EnumerateProperties, ITsSbFilterPluginStore::EnumerateProperties, sbtsv/ITsSbFilterPluginStore::EnumerateProperties, termserv.itssbfilterpluginstore_enumerateproperties
-f1_keywords:
-- sbtsv/ITsSbFilterPluginStore.EnumerateProperties
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbFilterPluginStore.EnumerateProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbFilterPluginStore::EnumerateProperties
+ - sbtsv/ITsSbFilterPluginStore::EnumerateProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbFilterPluginStore.EnumerateProperties
 ---
 
 # ITsSbFilterPluginStore::EnumerateProperties
@@ -49,34 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates a property set.
-
 
 ## -parameters
 
-
-
-
 ### -param ppPropertySet [out, retval]
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">ITsSbFilterPluginStore</a>
- 
-
- 
 

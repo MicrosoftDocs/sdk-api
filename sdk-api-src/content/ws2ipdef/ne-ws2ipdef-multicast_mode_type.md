@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0
 ms.date: 12/05/2018
 ms.keywords: MCAST_EXCLUDE, MCAST_INCLUDE, MULTICAST_MODE_TYPE, MULTICAST_MODE_TYPE enumeration [Winsock], winsock.multicast_mode_type, ws2ipdef/MCAST_EXCLUDE, ws2ipdef/MCAST_INCLUDE, ws2ipdef/MULTICAST_MODE_TYPE
-f1_keywords:
-- ws2ipdef/MULTICAST_MODE_TYPE
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-api_name:
-- MULTICAST_MODE_TYPE
 targetos: Windows
 req.typenames: MULTICAST_MODE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MULTICAST_MODE_TYPE
+ - ws2ipdef/MULTICAST_MODE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+api_name:
+ - MULTICAST_MODE_TYPE
 ---
 
 # MULTICAST_MODE_TYPE enumeration
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MULTICAST_MODE_TYPE</b> enumeration specifies the filter mode for multicast group addresses.
-
 
 ## -enum-fields
 
-
-
-
 ### -field MCAST_INCLUDE
 
-The filter contains a list of IP addresses to include. 
-
+The filter contains a list of IP addresses to include.
 
 ### -field MCAST_EXCLUDE
 
-The filter contains a list of IP addresses to exclude. 
-
+The filter contains a list of IP addresses to exclude.
 
 ## -remarks
-
-
 
 This enumeration is supported on Windows Vistaand later.
 
@@ -78,13 +70,7 @@ The <b>MULTICAST_MODE_TYPE</b> enumeration is used in the <b>gf_fmode</b> member
 
 The <b>MULTICAST_MODE_TYPE</b> enumeration is defined in the <i>Ws2ipdef.h</i> header file which is automatically included in the <i>Ws2tcpip.h</i> header file. The <i>Ws2ipdef.h</i>  header files should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-group_req">GROUP_REQ</a>
 
@@ -111,7 +97,4 @@ The <b>MULTICAST_MODE_TYPE</b> enumeration is defined in the <i>Ws2ipdef.h</i> h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-ipv6_mreq">ipv6_mreq</a>
- 
-
- 
 

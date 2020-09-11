@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 741deebd-9dce-4cd9-883e-4586c10a4609
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], IXpsOMPage interface [XPS Documents and Packaging],described, xps.ixpsompage, xpsobjectmodel/IXpsOMPage
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage
+ - xpsobjectmodel/IXpsOMPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage
 ---
 
 # IXpsOMPage interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the root node of a tree of objects that hold the contents of  a single page. 
 
 The <b>IXpsOMPage</b> interface corresponds to the <b>FixedPage</b> element in XPS document markup.
-
 
 ## -inheritance
 
@@ -279,12 +278,9 @@ Writes the page to the specified stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -339,13 +335,7 @@ else
 
 For information about using this interface in a program, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316970(v=vs.85)">Create a Blank XPS OM</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372917(v=vs.85)">Navigate the XPS OM</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316970(v=vs.85)">Create a Blank XPS OM</a>
 
@@ -372,7 +362,4 @@ For information about using this interface in a program, see <a href="https://do
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

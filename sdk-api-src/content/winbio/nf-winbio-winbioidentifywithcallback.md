@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: df96b444-4a94-4d12-9d7a-2543d96f89ea
 ms.date: 12/05/2018
 ms.keywords: WinBioIdentifyWithCallback, WinBioIdentifyWithCallback function [Windows Biometric Framework API], secbiomet.winbioidentifywithcallback, winbio/WinBioIdentifyWithCallback
-f1_keywords:
-- winbio/WinBioIdentifyWithCallback
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- WinBioExt.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioIdentifyWithCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioIdentifyWithCallback
+ - winbio/WinBioIdentifyWithCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - WinBioExt.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioIdentifyWithCallback
 ---
 
 # WinBioIdentifyWithCallback function
 
 
 ## -description
-
 
 Asynchronously captures a biometric sample and determines whether it matches an existing biometric template. The function returns immediately to the caller, performs capture and identification on a separate thread, and calls into an application-defined callback function to update operation status.
 
@@ -67,31 +67,21 @@ Asynchronously captures a biometric sample and determines whether it matches an 
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.
 
-
 ### -param IdentifyCallback [in]
 
 Address of a callback function that will be called by the <b>WinBioIdentifyWithCallback</b> function when identification succeeds or fails. You must create the callback.
-
 
 ### -param IdentifyCallbackContext [in, optional]
 
 Pointer to  an application-defined data structure that is passed to the callback function in its <i>IdentifyCallbackContext</i> parameter. This structure can contain any data that the custom callback function is designed to handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -123,14 +113,8 @@ The <i>SessionHandle</i> and <i>IdentifyCallback</i> parameters cannot be <b>NUL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The callback routine must have the following signature:
 
@@ -335,17 +319,7 @@ VOID CALLBACK IdentifyCallback(
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a>
- 
-
- 
 

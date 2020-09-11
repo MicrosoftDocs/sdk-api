@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1e5ef26f-d8e7-4fa6-bfc4-19dace35314d
 ms.date: 12/05/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [COM], HandsOffStorage method [COM],IPersistStorage interface, IPersistStorage interface [COM],HandsOffStorage method, IPersistStorage.HandsOffStorage, IPersistStorage::HandsOffStorage, _com_ipersiststorage_handsoffstorage, com.ipersiststorage_handsoffstorage, objidl/IPersistStorage::HandsOffStorage
-f1_keywords:
-- objidl/IPersistStorage.HandsOffStorage
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistStorage.HandsOffStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStorage::HandsOffStorage
+ - objidl/IPersistStorage::HandsOffStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistStorage.HandsOffStorage
 ---
 
 # IPersistStorage::HandsOffStorage
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns S_OK to indicate that the object has entered HandsOff mode successfully.
 
-
-
-
 ## -remarks
-
-
 
 This method causes an object to release any storage objects that it is holding and to enter the HandsOff mode until a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> call. In HandsOff mode, the object cannot do anything and the only operation that works is a close operation.
 
@@ -84,20 +71,11 @@ While the component object is in either HandsOffAfterSave or HandsOffFromNormal 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 This method must release all pointers to the current storage object, including pointers to any nested streams and storages. If the object contains nested objects, the container application must recursively call this method for any nested objects that are loaded or running.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
- 
-
- 
 

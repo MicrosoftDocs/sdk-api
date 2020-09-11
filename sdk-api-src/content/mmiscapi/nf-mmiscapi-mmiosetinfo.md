@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 3b46ebd6-15e0-4b16-b967-0271946390db
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioSetInfo, mmioSetInfo, mmioSetInfo function [Windows Multimedia], mmsystem/mmioSetInfo, multimedia.mmiosetinfo
-f1_keywords:
-- mmiscapi/mmioSetInfo
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-misc-l1-1-0.dll
-- winmmbase.dll
-- API-MS-Win-mm-misc-l1-1-1.dll
-api_name:
-- mmioSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mmioSetInfo
+ - mmiscapi/mmioSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-misc-l1-1-0.dll
+ - winmmbase.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+api_name:
+ - mmioSetInfo
 ---
 
 # mmioSetInfo function
@@ -52,50 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mmioSetInfo</b> function updates the information retrieved by the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function about a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. Use this function to terminate direct buffer access of a file opened for buffered I/O.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmmio
 
 File handle of the file.
 
-
 ### -param pmmioinfo
 
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure filled with information by the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function.
-
 
 ### -param fuInfo
 
 Reserved; must be zero.
 
-
-
-
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise.
 
-
-
-
 ## -remarks
 
-
-
 If you have written to the file I/O buffer, set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure before calling <b>mmioSetInfo</b> to terminate direct buffer access. Otherwise, the buffer will not get flushed to disk.
-
-
 

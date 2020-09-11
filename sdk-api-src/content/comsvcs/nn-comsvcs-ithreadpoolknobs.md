@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
-f1_keywords:
-- comsvcs/IThreadPoolKnobs
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IThreadPoolKnobs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThreadPoolKnobs
+ - comsvcs/IThreadPoolKnobs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IThreadPoolKnobs
 ---
 
 # IThreadPoolKnobs interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to control the behavior of thread pools.
-
 
 ## -inheritance
 
@@ -158,5 +157,5 @@ Sets the threshold number of execution requests above which a new thread is adde
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 0CF8236B-7630-4A38-8A8F-51E69D3461B0
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions2 interface [BITS],SetHttpMethod method, IBackgroundCopyJobHttpOptions2.SetHttpMethod, IBackgroundCopyJobHttpOptions2::SetHttpMethod, SetHttpMethod, SetHttpMethod method [BITS], SetHttpMethod method [BITS],IBackgroundCopyJobHttpOptions2 interface, bits.ibackgroundcopyjobhttpoptions2_sethttpmethod, bits10_2/IBackgroundCopyJobHttpOptions2::SetHttpMethod
-f1_keywords:
-- bits10_2/IBackgroundCopyJobHttpOptions2.SetHttpMethod
-dev_langs:
-- c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJobHttpOptions2.SetHttpMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions2::SetHttpMethod
+ - bits10_2/IBackgroundCopyJobHttpOptions2::SetHttpMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions2.SetHttpMethod
 ---
 
 # IBackgroundCopyJobHttpOptions2::SetHttpMethod
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Overrides the default HTTP method used for a BITS transfer.
 
-
 ## -parameters
-
-
-
 
 ### -param method [in]
 
@@ -65,21 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A pointer to a constant null-terminated string of wide characters containing the HTTP method name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 BITS allows you, as the developer, to choose an HTTP method other than the default method. This increases BITS' ability to interact with servers that don't adhere to the normal BITS requirements for HTTP servers. Bear the following in mind when you choose a different HTTP method from the default one.
 
@@ -90,16 +78,7 @@ BITS allows you, as the developer, to choose an HTTP method other than the defau
 </ul>
 <b>SetHttpMethod</b> does nothing if the method name that you pass matches the default HTTP method for the transfer type. For example, if you set a download job method to "GET" (the default), then the job priority won't be changed. The HTTP method must be set before the first call to <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a> that starts the job.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/6E8A32CF-99F6-4C4D-A6EE-A05A1E601793">IBackgroundCopyJobHttpOptions2</a>
- 
-
- 
 

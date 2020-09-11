@@ -8,10 +8,6 @@ tech.root: WebSock
 ms.assetid: 4009b56c-a92c-43fe-9e7b-2c38048aa748
 ms.date: 12/05/2018
 ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake function [Websocket Protocol Component API], websock.websocketbeginserverhandshake, websocket/WebSocketBeginServerHandshake
-f1_keywords:
-- websocket/WebSocketBeginServerHandshake
-dev_langs:
-- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- websocket.dll
-api_name:
-- WebSocketBeginServerHandshake
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WebSocketBeginServerHandshake
+ - websocket/WebSocketBeginServerHandshake
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - websocket.dll
+api_name:
+ - WebSocketBeginServerHandshake
 ---
 
 # WebSocketBeginServerHandshake function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WebSocketBeginServerHandshake</b> function  begins the server-side handshake.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-
 
  WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
 
-
 ### -param pszSubprotocolSelected [in, optional]
 
 Type: <b>PCSTR</b>
 
 A pointer to a sub-protocol value chosen by the application. Must contain one subprotocol.
-
 
 ### -param pszExtensionSelected [in, optional]
 
@@ -78,13 +72,11 @@ Type: <b>PCSTR*</b>
 
 A pointer to a list of extensions chosen by the application. Must contain one extension per entry.
 
-
 ### -param ulExtensionSelectedCount [in]
 
 Type: <b>ULONG</b>
 
 Number of extensions in <i>pszExtensionSelected</i>.
-
 
 ### -param pRequestHeaders [in]
 
@@ -92,13 +84,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the request headers received by the application.
 
-
 ### -param ulRequestHeaderCount [in]
 
 Type: <b>ULONG</b>
 
 Number of request headers in <i>pRequestHeaders</i>.
-
 
 ### -param pResponseHeaders [out]
 
@@ -106,17 +96,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-we
 
 On successful output, a pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers to be sent by the application.
 
-
 ### -param pulResponseHeaderCount [out]
 
 Type: <b>ULONG*</b>
 
 On successful output, number of response headers in <i>pResponseHeaders</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -141,24 +127,12 @@ Protocol data had an invalid format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To complete the server-side handshake, applications must call <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a> or any of the session functions. Once the client-server handshake is complete, the application may use the session functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
 
@@ -173,7 +147,4 @@ To complete the server-side handshake, applications must call <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a>
- 
-
- 
 

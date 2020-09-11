@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 20213874-ed28-4e0a-83af-044570b2c7e3
 ms.date: 12/05/2018
 ms.keywords: ActivateButton, ActivateButton method [DirectShow], ActivateButton method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateButton method, IDvdControl2.ActivateButton, IDvdControl2::ActivateButton, IDvdControl2ActivateButton, dshow.idvdcontrol2_activatebutton, strmif/IDvdControl2::ActivateButton
-f1_keywords:
-- strmif/IDvdControl2.ActivateButton
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.ActivateButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::ActivateButton
+ - strmif/IDvdControl2::ActivateButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.ActivateButton
 ---
 
 # IDvdControl2::ActivateButton
@@ -50,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ActivateButton</code> method activates the currently selected menu button.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -120,14 +109,8 @@ No button is selected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application might or might not have four relative buttons on the side of the video display to represent the buttons on a physical remote control. These enable a user to select menu buttons but not activate them. A fifth button is required to activate the selected button. Call <code>ActivateButton</code> in response to a mouse click on the fifth button.
 
@@ -151,15 +134,8 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -174,7 +150,4 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
- 
-
- 
 

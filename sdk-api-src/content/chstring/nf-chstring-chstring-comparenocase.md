@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 72ad2532-ece8-43e2-b768-7dec6a378c98
 ms.date: 12/05/2018
 ms.keywords: ?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],CompareNoCase method, CHString.CompareNoCase, CHString::CompareNoCase, CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation],CHString interface, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase
-f1_keywords:
-- chstring/CHString.CompareNoCase
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.CompareNoCase
-- ?CompareNoCase@CHString@@QBEHPBG@Z
-- ?CompareNoCase@CHString@@QEBAHPEBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::CompareNoCase
+ - chstring/CHString::CompareNoCase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.CompareNoCase
+ - ?CompareNoCase@CHString@@QBEHPBG@Z
+ - ?CompareNoCase@CHString@@QEBAHPEBG@Z
 ---
 
 # CHString::CompareNoCase
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,29 +61,17 @@ ms.custom: 19H1
 
 The <b>CompareNoCase</b> method uses the _wcsicmp function to compare a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string with another string.
 
-
 ## -parameters
-
-
-
 
 ### -param lpsz
 
 The other string used for comparison.
 
-
 ## -returns
-
-
 
 The <b>CompareNoCase</b> method returns the following values.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CompareNoCase</b> method, which performs a case-insensitive comparison of the strings, is not affected by locale.
 
@@ -103,14 +91,7 @@ assert( s1.CompareNoCase( s2 ) == 0 );
 assert( s1.CompareNoCase( L"ABE" ) < 0 );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
@@ -121,7 +102,4 @@ assert( s1.CompareNoCase( L"ABE" ) < 0 );
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-compare">CHString::Compare</a>
- 
-
- 
 

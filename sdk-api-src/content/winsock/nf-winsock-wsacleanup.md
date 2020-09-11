@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
 ms.date: 12/05/2018
 ms.keywords: WSACleanup, WSACleanup function [Winsock], _win32_wsacleanup_2, winsock.wsacleanup_2, winsock/WSACleanup
-f1_keywords:
-- winsock/WSACleanup
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- bcrypt.dll
-- wsock32.dll
-api_name:
-- WSACleanup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSACleanup
+ - winsock/WSACleanup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - bcrypt.dll
+ - wsock32.dll
+api_name:
+ - WSACleanup
 ---
 
 # WSACleanup function
@@ -51,21 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSACleanup</b> function terminates use of the Winsock 2 DLL (<i>Ws2_32.dll</i>).
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -113,14 +105,8 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application or DLL is required to perform a successful 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call before it can use Windows Sockets services. When it has completed the use of Windows Sockets, the application or DLL must call 
@@ -157,13 +143,7 @@ The
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-namespace-provider-api">PNRP Namespace Provider API</a>
 
@@ -186,7 +166,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a>
- 
-
- 
 

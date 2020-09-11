@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, mf.dxvahd_blt_state_output_color_space_data
-f1_keywords:
-- dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ - dxvahd/_DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ - DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ - dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 ---
 
 # DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the output color space for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Usage
 
@@ -90,8 +88,6 @@ Video processing.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RGB_Range
 
@@ -125,8 +121,6 @@ Limited range (16-235).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field YCbCr_Matrix
 
@@ -160,8 +154,6 @@ ITU-R BT.709.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field YCbCr_xvYCC
 
@@ -195,24 +187,12 @@ Extended YCbCr (xvYCC).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
- 
-
-
 ### -field Value
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>RGB_Range</b> member applies to RGB output, while the <b>YCbCr_Matrix</b> and <b>YCbCr_xvYCC</b> members apply to YCbCr (YUV) output. If the device performs color-space conversion on the background color, it uses the values that apply to  both color spaces.
 
@@ -254,14 +234,7 @@ HRESULT DXVAHD_SetOutputColorSpace(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -280,7 +253,4 @@ HRESULT DXVAHD_SetOutputColorSpace(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: rstmgr
 ms.assetid: cdbc3bb7-0b3c-4fbc-8023-45a309c65bae
 ms.date: 12/05/2018
 ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown
-f1_keywords:
-- restartmanager/RmShutdown
-dev_langs:
-- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rstrtmgr.dll
-api_name:
-- RmShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RmShutdown
+ - restartmanager/RmShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rstrtmgr.dll
+api_name:
+ - RmShutdown
 ---
 
 # RmShutdown function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates the shutdown of applications.  This function can only be called from the installer that started the Restart Manager session using the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSessionHandle [in]
 
 A handle to an existing Restart Manager session.
-
 
 ### -param lActionFlags [in]
 
@@ -95,17 +90,12 @@ Shut down applications if and only if all the applications have been registered 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fnStatus [in, optional]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback">RM_WRITE_STATUS_CALLBACK</a> function that is used to communicate detailed status while this function is executing. If <b>NULL</b>, no status is provided.
 
-
 ## -returns
-
-
 
 This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
@@ -223,14 +213,8 @@ No Restart Manager session exists for the handle supplied.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RmShutdown</b> function  calls <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> and updates the list of processes currently using registered resources before attempting to shut down any processes. The  <b>RmShutdown</b> function then attempts to shut down the processes using registered resources in the most current list. The  <b>RmShutdown</b> function updates the <b>AppStatus</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures that are returned by the <b>RmGetList</b> function with detailed status information.
 
@@ -238,13 +222,7 @@ The Restart Manager respects the privileges that separate different user or term
 
 Installers should always restart application and services using the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a> function even when the <b>RmShutdown</b> function returns an error indicating that not all applications and services could be shut down.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>
 
@@ -255,7 +233,4 @@ Installers should always restart application and services using the <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a>
- 
-
- 
 

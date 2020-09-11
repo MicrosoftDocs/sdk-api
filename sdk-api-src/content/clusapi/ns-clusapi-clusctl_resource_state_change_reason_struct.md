@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 5effbb81-eec4-4e5a-b079-b404df8fd801
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, CLUSCTL_RESOURCE_STATE_CHANGE_REASON, CLUSCTL_RESOURCE_STATE_CHANGE_REASON structure [Failover Cluster], CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure [Failover Cluster], PCLUSCTL_RESOURCE_STATE_CHANGE_REASON, PCLUSCTL_RESOURCE_STATE_CHANGE_REASON structure pointer [Failover Cluster], _wolf_clusctl_resource_state_change_reason_struct, clusapi/CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, clusapi/PCLUSCTL_RESOURCE_STATE_CHANGE_REASON, eResourceStateChangeReasonFailedMove, eResourceStateChangeReasonFailover, eResourceStateChangeReasonMove, eResourceStateChangeReasonRundown, eResourceStateChangeReasonShutdown, eResourceStateChangeReasonUnknown, mscs.clusctl_resource_state_change_reason_struct'
-f1_keywords:
-- clusapi/CLUSCTL_RESOURCE_STATE_CHANGE_REASON
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSCTL_RESOURCE_STATE_CHANGE_REASON
 targetos: Windows
 req.typenames: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT, *PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+ - clusapi/_CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+ - PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+ - clusapi/PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+ - CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+ - clusapi/CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSCTL_RESOURCE_STATE_CHANGE_REASON
 ---
 
 # CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure
@@ -49,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sent with the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
     control code to provide the reason for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> state 
     change.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size of the structure in bytes.
 
-
 ### -field dwVersion
 
 The version of the structure. Set to 
        <b>CLUSCTL_RESOURCE_STATE_CHANGE_REASON_VERSION_1</b> (1).
-
 
 ### -field eReason
 
@@ -132,18 +130,11 @@ This reason code is never sent by the cluster.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a> is about to be called because the Cluster 
          service has stopped unexpectedly.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state_change_reason">CLUSTER_RESOURCE_STATE_CHANGE_REASON</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 16c85322-5127-40aa-8393-df7684cd1c92
 ms.date: 12/05/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetLogicalPath method, IVssComponent.GetLogicalPath, IVssComponent::GetLogicalPath, _win32_ivsscomponent_getlogicalpath, base.ivsscomponent_getlogicalpath, vswriter/IVssComponent::GetLogicalPath
-f1_keywords:
-- vswriter/IVssComponent.GetLogicalPath
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetLogicalPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetLogicalPath
+ - vswriter/IVssComponent::GetLogicalPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetLogicalPath
 ---
 
 # IVssComponent::GetLogicalPath
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetLogicalPath</b> method returns the logical path of this component.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrPath [out]
 
 Pointer to a string containing the logical path of the component.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -135,29 +128,14 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller should free the memory held by the <i>pbstrPath</i> parameter by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 Logical paths are not required of components. A component without a logical path will return S_FALSE.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
 

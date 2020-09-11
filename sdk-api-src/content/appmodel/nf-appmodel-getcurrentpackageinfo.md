@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: A1887D61-0FAD-4BE8-850F-F104CC074798
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo
-f1_keywords:
-- appmodel/GetCurrentPackageInfo
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-current-l1-1-0.dll
-- modernapiexthost.dll
-- kernel.appcore.dll
-- API-MS-Win-AppModel-Runtime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetCurrentPackageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentPackageInfo
+ - appmodel/GetCurrentPackageInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-current-l1-1-0.dll
+ - modernapiexthost.dll
+ - kernel.appcore.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetCurrentPackageInfo
 ---
 
 # GetCurrentPackageInfo function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package information for the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -73,13 +69,11 @@ Type: <b>const UINT32</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. The <b>PACKAGE_FILTER_*</b> flags are supported.
 
-
 ### -param bufferLength [in, out]
 
 Type: <b>UINT32*</b>
 
 On input, the size of <i>buffer</i>, in bytes. On output, the size of the array of structures returned, in bytes.
-
 
 ### -param buffer [out, optional]
 
@@ -87,17 +81,13 @@ Type: <b>BYTE*</b>
 
 The package information, represented as an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
 
-
 ### -param count [out, optional]
 
 Type: <b>UINT32*</b>
 
 The number of structures in the buffer.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -131,13 +121,8 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
 
 [GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
 
@@ -160,7 +145,4 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>
- 
-
- 
 

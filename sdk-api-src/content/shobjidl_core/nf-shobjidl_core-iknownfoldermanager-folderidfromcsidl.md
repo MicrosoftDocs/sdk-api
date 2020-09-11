@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8c819558-8cbd-4576-98e6-99efa39ca5a6
 ms.date: 12/05/2018
 ms.keywords: FolderIdFromCsidl, FolderIdFromCsidl method [Windows Shell], FolderIdFromCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdFromCsidl method, IKnownFolderManager.FolderIdFromCsidl, IKnownFolderManager::FolderIdFromCsidl, _shell_IKnownFolderManager_FolderIdFromCsidl, shell.IKnownFolderManager_FolderIdFromCsidl, shobjidl_core/IKnownFolderManager::FolderIdFromCsidl
-f1_keywords:
-- shobjidl_core/IKnownFolderManager.FolderIdFromCsidl
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IKnownFolderManager.FolderIdFromCsidl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnownFolderManager::FolderIdFromCsidl
+ - shobjidl_core/IKnownFolderManager::FolderIdFromCsidl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IKnownFolderManager.FolderIdFromCsidl
 ---
 
 # IKnownFolderManager::FolderIdFromCsidl
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is the equivalent of a legacy <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
 
-
 ## -parameters
-
-
-
 
 ### -param nCsidl [in]
 
@@ -64,38 +60,23 @@ Type: <b>int</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
 
-
 ### -param pfid [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>*</b>
 
 When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>. This pointer is passed uninitialized.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To call this method, the caller must have at least User privileges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
@@ -106,7 +87,4 @@ To call this method, the caller must have at least User privileges.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
- 
-
- 
 

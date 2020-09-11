@@ -4,10 +4,6 @@ title: XMLoadFloat3x4A
 ms.date: 04/23/2020
 description: Loads an [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) into an [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
 tech.root: dxmath
-f1_keywords:
-- directxmath/XMLoadFloat3x4A
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -19,24 +15,29 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace:
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMLoadFloat3x4A
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - XMLoadFloat3x4A
+ - directxmath/XMLoadFloat3x4A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMLoadFloat3x4A
 ---
 
 ## -description
@@ -64,4 +65,6 @@ This function performs a partial load of the returned **XMMATRIX**. For more inf
 [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) is a row-major form of the matrix. **XMLoadFloat3x4A** could be used to read column-major data, but that would then need to be transposed with [XMMatrixTranspose](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose) before use in other [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) functions.
 
 ## -see-also
+
 [DirectXMath Library vector load functions](/windows/desktop/dxmath/ovw-xnamath-reference-functions-load)
+

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 740a6366-6ab1-4a20-82df-1efdd62211eb
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM],described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
-f1_keywords:
-- objidl/IDataAdviseHolder
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IDataAdviseHolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataAdviseHolder
+ - objidl/IDataAdviseHolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IDataAdviseHolder
 ---
 
 # IDataAdviseHolder interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and manages advisory connections between a data object and one or more advise sinks. Its methods are intended to be used to implement the advisory methods of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>. <b>IDataAdviseHolder</b> is implemented on an advise holder object. Its methods establish and delete data advisory connections and send notification of change in data from a data object to an object that requires this notification, such as an OLE container, which must contain an advise sink.
 
 Advise sinks are objects that require notification of change in the data the object contains and implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface. Advise sinks are also usually associated with OLE compound document containers.
-
 
 ## -inheritance
 
@@ -106,20 +105,13 @@ Destroys a notification connection previously set up with the <a href="https://d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
- 
-
- 
 

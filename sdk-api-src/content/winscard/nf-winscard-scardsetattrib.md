@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
-f1_keywords:
-- winscard/SCardSetAttrib
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardSetAttrib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardSetAttrib
+ - winscard/SCardSetAttrib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardSetAttrib
 ---
 
 # SCardSetAttrib function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardSetAttrib</b> function sets the given <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> attribute for the given handle. It does not affect the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader driver</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>. Not all attributes are supported by all readers (nor can they be set at all times) as many of the attributes are under direct control of the transport protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param hCard [in]
 
 Reference value returned from 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
-
 
 ### -param dwAttrId [in]
 
@@ -89,22 +84,16 @@ Suppress sending of <a href="https://docs.microsoft.com/windows/desktop/SecGloss
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbAttr [in]
 
 Pointer to a buffer that supplies the attribute whose ID is supplied in <i>dwAttrId</i>.
 
-
 ### -param cbAttrLen [in]
 
 Length (in bytes) of the attribute value in the <i>pbAttr</i> buffer.
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -137,14 +126,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SCardSetAttrib</b> function is a direct card access function. For information about other direct access functions, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
@@ -170,21 +153,11 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetattrib">SCardGetAttrib</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 3f9a5945-9b34-41fe-9c91-c782eb7eb739
 ms.date: 12/05/2018
 ms.keywords: IContextMenuProvider, IContextMenuProvider interface [MMC], IContextMenuProvider interface [MMC],described, _slate_icontextmenuprovider, mmc.icontextmenuprovider, mmc/IContextMenuProvider
-f1_keywords:
-- mmc/IContextMenuProvider
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IContextMenuProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuProvider
+ - mmc/IContextMenuProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IContextMenuProvider
 ---
 
 # IContextMenuProvider interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IContextMenuProvider</b> interface implements methods that create new context menus, for the purpose of adding items to those menus, to enable extensions to extend those menus, and to display the resulting context menus.
-
 
 ## -inheritance
 
@@ -116,5 +115,5 @@ Displays the context menu.
 
 </td>
 </tr>
-</table> 
+</table>
 

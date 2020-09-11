@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 706f4532-4073-4d5c-ae2d-e33aea9163e9
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBits, SetDIBits function [Windows GDI], _win32_SetDIBits, gdi.setdibits, wingdi/SetDIBits
-f1_keywords:
-- wingdi/SetDIBits
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- SetDIBits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDIBits
+ - wingdi/SetDIBits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - SetDIBits
 ---
 
 # SetDIBits function
@@ -54,44 +55,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetDIBits</b> function sets the pixels in a compatible bitmap (DDB) using the color data found in the specified DIB.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a device context.
 
-
 ### -param hbm [in]
 
 A handle to the compatible bitmap (DDB) that is to be altered using the color data from the specified DIB.
-
 
 ### -param start [in]
 
 The starting scan line for the device-independent color data in the array pointed to by the <i>lpvBits</i> parameter.
 
-
 ### -param cLines [in]
 
 The number of scan lines found in the array containing device-independent color data.
-
 
 ### -param lpBits [in]
 
 A pointer to the DIB color data, stored as an array of bytes. The format of the bitmap values depends on the <b>biBitCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by the <i>lpbmi</i> parameter.
 
-
 ### -param lpbmi [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
-
 
 ### -param ColorUse [in]
 
@@ -123,12 +113,8 @@ The color table is provided and contains literal RGB values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of scan lines copied.
 
@@ -153,14 +139,8 @@ One or more of the input parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Optimal bitmap drawing speed is obtained when the bitmap bits are indexes into the system palette.
 
@@ -176,13 +156,7 @@ The origin for bottom-up DIBs is the lower-left corner of the bitmap; the origin
 
 <b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -201,7 +175,4 @@ The origin for bottom-up DIBs is the lower-left corner of the bitmap; the origin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a>
- 
-
- 
 

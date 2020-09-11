@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08
 ms.date: 12/05/2018
 ms.keywords: WSASendMsg, WSASendMsg function [Winsock], winsock.wsasendmsg, winsock2/WSASendMsg
-f1_keywords:
-- winsock2/WSASendMsg
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASendMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASendMsg
+ - winsock2/WSASendMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASendMsg
 ---
 
 # WSASendMsg function
@@ -49,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WSASendMsg</b> function sends data and optional control information from connected and unconnected sockets. <div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param Handle [in]
 
 A descriptor identifying the  socket.
 
-
 ### -param lpMsg [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure storing the Posix.1g <b>msghdr</b> structure.
 
-
 ### -param dwFlags [in]
 
 The flags used to modify the behavior of the <b>WSASendMsg</b> function call. For more information, see Using <i>dwFlags</i> in the Remarks section.
-
 
 ### -param lpNumberOfBytesSent [out]
 
@@ -81,21 +73,16 @@ A pointer to the number, in bytes, sent by this call if the I/O operation comple
 
 Use <b>NULL</b> for this parameter if the <i>lpOverlapped</i> parameter is not <b>NULL</b> to avoid potentially erroneous results. This parameter can be <b>NULL</b> only  if the <i>lpOverlapped</i> parameter is not <b>NULL</b>.
 
-
 ### -param lpOverlapped [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure. Ignored for non-overlapped sockets.
 
-
 ### -param lpCompletionRoutine [in]
 
 A pointer to the completion routine called when the send operation completes. Ignored for non-overlapped sockets.
 
-
 ## -returns
-
-
 
 Returns zero when successful and immediate completion occurs. When zero is returned, the specified completion routine is called when the calling thread is in the alertable state.
 
@@ -335,14 +322,8 @@ The overlapped operation has been canceled  due to the closure of the socket or 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  The <b>WSASendMsg</b> function can be used in place of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> functions. The <b>WSASendMsg</b> function can only be used with datagrams  and raw sockets. The socket descriptor in the <i>s</i> parameter must be opened with the socket type set to <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>.
 
@@ -457,13 +438,7 @@ Returning from this function allows invocation of another pending completion rou
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
@@ -550,7 +525,4 @@ Returning from this function allows invocation of another pending completion rou
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a>
- 
-
- 
 

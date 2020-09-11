@@ -8,10 +8,6 @@ tech.root: cmpapi
 ms.assetid: a30b3ebe-24ef-4615-a555-a0383b46cd15
 ms.date: 12/05/2018
 ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateDecompressor, CreateDecompressor function [Compression API], cmpapi.createdecompressor, compressapi/CreateDecompressor
-f1_keywords:
-- compressapi/CreateDecompressor
-dev_langs:
-- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- cabinet.dll
-api_name:
-- CreateDecompressor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDecompressor
+ - compressapi/CreateDecompressor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - cabinet.dll
+api_name:
+ - CreateDecompressor
 ---
 
 # CreateDecompressor function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a new <b>DECOMPRESSOR_HANDLE</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param Algorithm [in]
 
@@ -117,48 +113,28 @@ LZMS compression algorithm
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AllocationRoutines [in, optional]
 
 Optional memory allocation and deallocation routines in a <a href="/windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a> structure.
 
-
 ### -param DecompressorHandle [out]
 
 If the function succeeds, the handle to the specified decompressor.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
 
-
-
-If the compression algorithm fails for some internal reason, the error from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.  If the system can find no compression algorithm matching the specified name and version, the error  can be <b>ERROR_NOT_SUPPORTED</b>. 
-
-
-
+If the compression algorithm fails for some internal reason, the error from <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be <b>ERROR_FUNCTION_FAILED</b>.  If the system can find no compression algorithm matching the specified name and version, the error  can be <b>ERROR_NOT_SUPPORTED</b>.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines">COMPRESS_ALLOCATION_ROUTINES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cmpapi/compression-api-functions">Compression API Functions</a>
- 
-
- 
 

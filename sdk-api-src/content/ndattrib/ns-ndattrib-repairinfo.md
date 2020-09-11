@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 07639ac5-e586-4ab1-96e8-502c378de940
 ms.date: 12/05/2018
 ms.keywords: '*PRepairInfo, PRepairInfo, PRepairInfo structure pointer [NDF], RF_CONTACT_ADMIN, RF_INFORMATION_ONLY, RF_REPRO, RF_RESERVED, RF_RESERVED_CA, RF_RESERVED_LNI, RF_USER_ACTION, RF_USER_CONFIRMATION, RF_VALIDATE_HELPTOPIC, RF_WORKAROUND, RepairInfo, RepairInfo structure [NDF], ndattrib/PRepairInfo, ndattrib/RepairInfo, ndf.repairinfo'
-f1_keywords:
-- ndattrib/RepairInfo
-dev_langs:
-- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndattrib.h
-api_name:
-- RepairInfo
 targetos: Windows
 req.typenames: RepairInfo, *PRepairInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRepairInfo
+ - ndattrib/tagRepairInfo
+ - PRepairInfo
+ - ndattrib/PRepairInfo
+ - RepairInfo
+ - ndattrib/RepairInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndattrib.h
+api_name:
+ - RepairInfo
 ---
 
 # RepairInfo structure
@@ -49,39 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RepairInfo</b> structure contains data required for a particular repair option.
 
-
 ## -struct-fields
-
-
-
 
 ### -field guid
 
 A unique GUID for this repair.
 
-
 ### -field pwszClassName
 
 A pointer to a null-terminated  string that contains the helper class name in a user-friendly way.
-
 
 ### -field pwszDescription
 
 A pointer to a null-terminated string that describes the repair in a user friendly way.
 
-
 ### -field sidType
 
 One of the WELL_KNOWN_SID_TYPE if the repair requires certain user contexts or privileges.
 
-
 ### -field cost
 
 The number of seconds required to perform the repair.
-
 
 ### -field flags
 
@@ -205,35 +200,22 @@ Reserved for system use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field scope
 
 Reserved for future use.
 
-
 ### -field risk
 
 Reserved for future use.
-
 
 ### -field UiInfo
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a> structure.
 
-
 ### -field rootCauseIndex
 
- 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/NDF/copyrepairinfo">CopyRepairInfo</a>
 
@@ -244,7 +226,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(GpFontFamily,Status), FontFamily::FontFamily, FontFamily::FontFamily(GpFontFamily,Status), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
-f1_keywords:
-- gdiplusheaders/FontFamily.FontFamily
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gdiplusheaders.h
-api_name:
-- FontFamily.FontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FontFamily::FontFamily
+ - gdiplusheaders/FontFamily::FontFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gdiplusheaders.h
+api_name:
+ - FontFamily.FontFamily
 ---
 
 # FontFamily::FontFamily(GpFontFamily,Status)
 
 
 ## -description
-
 
 <span>This topic lists the constructors of the 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> class. For a complete class listing, see <b>FontFamilyClass</b>. 

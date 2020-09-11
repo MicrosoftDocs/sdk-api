@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969
 ms.date: 12/05/2018
 ms.keywords: FormatForDisplayAlloc, FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplayAlloc method, IPropertySystem.FormatForDisplayAlloc, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
-f1_keywords:
-- propsys/IPropertySystem.FormatForDisplayAlloc
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertySystem.FormatForDisplayAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySystem::FormatForDisplayAlloc
+ - propsys/IPropertySystem::FormatForDisplayAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertySystem.FormatForDisplayAlloc
 ---
 
 # IPropertySystem::FormatForDisplayAlloc
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a string representation of a property value to an allocated memory buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPERTYKEY</b>
 
 A reference to the desired <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
-
 ### -param propvar [in]
 
 Type: <b>REFPROPVARIANT</b>
 
 A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
-
 
 ### -param pdff [in]
 
@@ -78,17 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-prop
 
 The format of the property string. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>.
 
-
 ### -param ppszDisplay [out]
 
 Type: <b>LPWSTR*</b>
 
 When this method returns, contains a pointer to the formatted value as a null-terminated, Unicode string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -133,14 +123,8 @@ Indicates allocation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must initialize Component Object Model (COM) with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplayalloc">IPropertySystem::FormatForDisplayAlloc</a>.
 
@@ -271,22 +255,12 @@ If the property key does not correspond to a property description in any of the 
 <td>Semicolon separated values—a semicolon is used regardless of locale.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
 

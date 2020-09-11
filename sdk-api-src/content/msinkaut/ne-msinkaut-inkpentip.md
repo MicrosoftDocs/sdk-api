@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1e68f701-f012-40bb-8ee4-a47da80cb8d6
 ms.date: 12/05/2018
 ms.keywords: 1e68f701-f012-40bb-8ee4-a47da80cb8d6, IPT_Ball, IPT_Rectangle, InkPenTip, InkPenTip enumeration [Tablet PC], msinkaut/IPT_Ball, msinkaut/IPT_Rectangle, msinkaut/InkPenTip, tablet.inkpentip
-f1_keywords:
-- msinkaut/InkPenTip
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkPenTip
 targetos: Windows
 req.typenames: InkPenTip
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkPenTip
+ - msinkaut/InkPenTip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkPenTip
 ---
 
 # InkPenTip enumeration
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the pen-tip shape.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IPT_Ball
 
 The pen tip is round. This is the default pen tip.
 
-
 ### -field IPT_Rectangle
 
 The pen tip is rectangular.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_height">Height Property [InkDrawingAttributes Class]</a>
 
@@ -89,7 +77,4 @@ The pen tip is rectangular.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width Property [InkDrawingAttributes Class]</a>
- 
-
- 
 

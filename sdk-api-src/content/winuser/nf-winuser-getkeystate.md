@@ -1,17 +1,13 @@
 ---
 UID: NF:winuser.GetKeyState
 title: GetKeyState function (winuser.h)
-description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off�alternating each time the key is pressed).
+description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off�alternating each time the key is pressed).
 helpviewer_keywords: ["GetKeyState","GetKeyState function [Keyboard and Mouse Input]","_win32_GetKeyState","_win32_getkeystate_cpp","inputdev.getkeystate","winui._win32_getkeystate","winuser/GetKeyState"]
 old-location: inputdev\getkeystate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeystate.htm
 ms.date: 12/05/2018
 ms.keywords: GetKeyState, GetKeyState function [Keyboard and Mouse Input], _win32_GetKeyState, _win32_getkeystate_cpp, inputdev.getkeystate, winui._win32_getkeystate, winuser/GetKeyState
-f1_keywords:
-- winuser/GetKeyState
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
-- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-keyboard-l1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- GetKeyState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetKeyState
+ - winuser/GetKeyState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+ - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - GetKeyState
 ---
 
 # GetKeyState function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off—alternating each time the key is pressed).
 
-
 ## -parameters
-
-
-
 
 ### -param nVirtKey [in]
 
@@ -75,10 +71,7 @@ A virtual key. If the desired virtual key is a letter or digit (A through Z, a t
 
 If a non-English keyboard layout is used, virtual keys with values in the range ASCII A through Z and 0 through 9 are used to specify most of the character keys. For example, for the German keyboard layout, the virtual key of value ASCII O (0x4F) refers to the "o" key, whereas VK_OEM_1 refers to the "o with umlaut" key.
 
-
 ## -returns
-
-
 
 Type: <b>SHORT</b>
 
@@ -89,11 +82,7 @@ The return value specifies the status of the specified virtual key, as follows:
 <li>If the low-order bit is 1, the key is toggled. A key, such as the CAPS LOCK key, is toggled if it is turned on. The key is off and untoggled if the low-order bit is 0. A toggle key's indicator light (if any) on the keyboard will be on when the key is toggled, and off when the key is untoggled.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The key status returned from this function changes as a thread reads key messages from its message queue. The status does not reflect the interrupt-level state associated with the hardware. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a> function to retrieve that information.
 
@@ -120,12 +109,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -152,7 +136,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
- 
-
- 
 

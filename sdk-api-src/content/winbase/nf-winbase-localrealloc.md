@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a
 ms.date: 12/05/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
-f1_keywords:
-- winbase/LocalReAlloc
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-Heap-L2-1-0.dll
-api_name:
-- LocalReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LocalReAlloc
+ - winbase/LocalReAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-Heap-L2-1-0.dll
+api_name:
+ - LocalReAlloc
 ---
 
 # LocalReAlloc function
@@ -56,14 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the size or the attributes of a specified local memory object. The size can increase or decrease.
 <div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hMem [in]
 
@@ -71,11 +68,9 @@ A handle to the local memory object to be reallocated. This handle is returned b
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
 <b>LocalReAlloc</b> function.
 
-
 ### -param uBytes [in]
 
 The new size of the memory block, in bytes. If <i>uFlags</i> specifies <b>LMEM_MODIFY</b>, this parameter is ignored.
-
 
 ### -param uFlags [in]
 
@@ -126,23 +121,14 @@ Causes the additional memory contents to be initialized to zero if the memory ob
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the reallocated memory object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If 
 <b>LocalReAlloc</b> fails, the original memory is not freed, and the original handle and pointer are still valid.
@@ -150,13 +136,7 @@ If
 If 
 <b>LocalReAlloc</b> reallocates a fixed object, the value of the handle returned is the address of the first byte of the memory block. To access the memory, a process can simply cast the return value to a pointer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -176,7 +156,4 @@ If
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 412f1d03-f40c-4451-9c99-1134c69c9989
 ms.date: 12/05/2018
 ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.QueryMultipleInterfaces, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM],IMultiQI interface, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
-f1_keywords:
-- objidl/IMultiQI.QueryMultipleInterfaces
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMultiQI.QueryMultipleInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiQI::QueryMultipleInterfaces
+ - objidl/IMultiQI::QueryMultipleInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMultiQI.QueryMultipleInterfaces
 ---
 
 # IMultiQI::QueryMultipleInterfaces
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves pointers to multiple supported interfaces on an object.
 
 Calling this method is equivalent to issuing a series of separate <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls except that you do not incur the overhead of a corresponding number of RPC calls. In multithreaded applications and distributed environments, keeping RPC calls to a minimum is essential for optimal performance.
 
-
 ## -parameters
-
-
-
 
 ### -param cMQIs [in]
 
 The number of elements in the <i>pMQIs</i> array.
 
-
 ### -param pMQIs [in, out]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -115,14 +107,8 @@ The method retrieved pointers to none of the requested interfaces.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>QueryMultipleInterfaces</b> method takes as input an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-multi_qi">MULTI_QI</a> structures. Each structure specifies an interface IID and contains two additional members for receiving an interface pointer and return value.
 
@@ -146,16 +132,7 @@ On return, the caller should check the <b>hr</b> member of each <a href="https:/
 
 The client is responsible for releasing each of the acquired interfaces by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: d42269dc-57b5-4303-94d9-02f6ee16a96f
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceRegistryProperty, SetupDiGetDeviceRegistryProperty function [Device and Driver Installation], SetupDiGetDeviceRegistryPropertyA, SetupDiGetDeviceRegistryPropertyW, devinst.setupdigetdeviceregistryproperty, di-rtns_a60fa017-1c15-45bf-a178-37516bc0aea1.xml, setupapi/SetupDiGetDeviceRegistryProperty
-f1_keywords:
-- setupapi/SetupDiGetDeviceRegistryProperty
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Get_DevNode_Registry_Property
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetDeviceRegistryProperty - SetupDiGetDeviceRegistryPropertyA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetDeviceRegistryPropertyA
+ - setupapi/SetupDiGetDeviceRegistryPropertyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetDeviceRegistryProperty - SetupDiGetDeviceRegistryPropertyA
 ---
 
 # SetupDiGetDeviceRegistryPropertyA function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetDeviceRegistryProperty</b> function retrieves a specified Plug and Play device property.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to retrieve a Plug and Play property.
 
-
 ### -param DeviceInfoData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
-
 
 ### -param Property [in]
 
@@ -381,40 +375,27 @@ The function retrieves a format string (REG_SZ) used to display the <b>UINumber<
 
 The function retrieves a REG_MULTI_SZ string that contains the names of a device's upper filter drivers.
 
-
 ### -param PropertyRegDataType [out, optional]
 
 A pointer to a variable that receives the data type of the property that is being retrieved. This is one of the standard registry data types. This parameter is optional and can be <b>NULL</b>.
-
 
 ### -param PropertyBuffer [out, optional]
 
 A pointer to a buffer that receives the property that is being retrieved. If this parameter is set to <b>NULL</b>, and <i>PropertyBufferSize</i> is also set to zero, the function returns the required size for the buffer in <i>RequiredSize</i>.
 
-
 ### -param PropertyBufferSize [in]
 
 The size, in bytes, of the <i>PropertyBuffer </i>buffer.
-
 
 ### -param RequiredSize [out, optional]
 
 A pointer to a variable of type DWORD that receives the required size, in bytes, of the <i>PropertyBuffer</i> buffer that is required to hold the data for the requested property. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>SetupDiGetDeviceRegistryProperty</b> returns <b>TRUE</b> if the call was successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>. <b>SetupDiGetDeviceRegistryProperty</b> returns the ERROR_INVALID_DATA error code if the requested property does not exist for a device or if the property data is not valid.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>
 
@@ -429,9 +410,6 @@ A pointer to a variable of type DWORD that receives the required size, in bytes,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
- 
-
- 
 
 ## -remarks
 

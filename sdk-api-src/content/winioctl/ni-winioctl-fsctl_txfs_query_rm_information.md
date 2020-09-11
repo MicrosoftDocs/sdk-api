@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 24e80fdb-9243-455a-a2bf-7bf9b0a61efb
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_QUERY_RM_INFORMATION, FSCTL_TXFS_QUERY_RM_INFORMATION control, FSCTL_TXFS_QUERY_RM_INFORMATION control code [Files], base.fsctl_txfs_query_rm_information, fs.fsctl_txfs_query_rm_information, winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
-f1_keywords:
-- winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_QUERY_RM_INFORMATION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_QUERY_RM_INFORMATION
+ - winioctl/FSCTL_TXFS_QUERY_RM_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_QUERY_RM_INFORMATION
 ---
 
 # FSCTL_TXFS_QUERY_RM_INFORMATION IOCTL
+
 
 ## -description
 
@@ -67,26 +69,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -95,7 +90,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -109,9 +103,9 @@ The  resource manager may be queried regardless of its state; if the RM is not s
 
 **ReFS:**  This code is not supported.
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [Secondary Resource Managers for TxF Volumes](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-reference)
 * [TXFS_QUERY_RM_INFORMATION](ns-winioctl-txfs_query_rm_information.md)
+

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c23211f2-d4ba-45ff-b443-3425c3a3e72f
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], IDMOQualityControl interface [DirectShow],described, IDMOQualityControlInterface, dshow.idmoqualitycontrol, mediaobj/IDMOQualityControl
-f1_keywords:
-- mediaobj/IDMOQualityControl
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmoguids.lib
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mediaobj.h
-api_name:
-- IDMOQualityControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMOQualityControl
+ - mediaobj/IDMOQualityControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mediaobj.h
+api_name:
+ - IDMOQualityControl
 ---
 
 # IDMOQualityControl interface
 
 
 ## -description
-
-
 
 The <code>IDMOQualityControl</code> interface supports quality control on a Microsoft DirectX Media Object (DMO).
 
@@ -64,7 +63,6 @@ To use quality control, perform the following steps:
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setnow">IDMOQualityControl::SetNow</a> method with the reference time of the earliest sample to be processed.</li>
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">IDMOQualityControl::SetStatus</a> method with the DMO_QUALITY_STATUS_ENABLED flag.</li>
 </ol>To disable quality control, call <b>SetStatus</b> with no flag.
-
 
 ## -inheritance
 
@@ -108,5 +106,5 @@ Enables or disables quality control.
 
 </td>
 </tr>
-</table> 
+</table>
 

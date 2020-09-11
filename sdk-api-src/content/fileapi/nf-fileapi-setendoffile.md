@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2a579609-144a-4b77-8605-87aecf1f0957
 ms.date: 12/05/2018
 ms.keywords: SetEndOfFile, SetEndOfFile function [Files], _win32_setendoffile, base.setendoffile, fileapi/SetEndOfFile, fs.setendoffile, winbase/SetEndOfFile
-f1_keywords:
-- fileapi/SetEndOfFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetEndOfFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetEndOfFile
+ - fileapi/SetEndOfFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetEndOfFile
 ---
 
 # SetEndOfFile function
@@ -56,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the physical file size for the specified file to the current position of the file pointer.
 
 The physical file size is also referred to as the end of the file. The <b>SetEndOfFile</b> function can be used to truncate or extend a file. To set the logical end of a file, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilevaliddata">SetFileValidData</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -74,22 +70,14 @@ A handle to the file to be extended or truncated.
  The file handle must be created with the <b>GENERIC_WRITE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetEndOfFile</b> function can be used to truncate or extend a file. If the file is extended, the contents of the file between the old end of the file  and the new  end of the file are not defined.
 
@@ -168,15 +156,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -203,7 +184,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
- 
-
- 
 

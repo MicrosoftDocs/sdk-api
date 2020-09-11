@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.date: 12/05/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
-f1_keywords:
-- certadm/IOCSPAdmin.GetSigningCertificates
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPAdmin.GetSigningCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPAdmin::GetSigningCertificates
+ - certadm/IOCSPAdmin::GetSigningCertificates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPAdmin.GetSigningCertificates
 ---
 
 # IOCSPAdmin::GetSigningCertificates
@@ -49,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSigningCertificates</b> method  gets the signing certificates that are available on a responder server for a given <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate. This method only returns signing certificates from the <b>CERT_SYSTEM_STORE_LOCAL_MACHINE</b> system store for the specified server.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrServerName [in]
 
 A string that contains the responder-server name.
 
-
 ### -param pCACertVar [in]
 
 The CA certificate for which to retrieve signing certificates.
 
-
 ### -param pVal [out]
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, it returns <b>S_OK</b>.
@@ -83,11 +74,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
 The available signing certificates.
 
-
-
 ## -remarks
-
-
 
 Each signing certificate has the following properties:
 
@@ -98,15 +85,7 @@ Each signing certificate has the following properties:
 <li>Responder server can access the certificate private key</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
- 
-
- 
 

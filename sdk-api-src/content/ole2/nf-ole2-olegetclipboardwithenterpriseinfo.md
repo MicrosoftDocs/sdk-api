@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1DAD2A9A-EDA2-49D2-90F7-2A9022988177
 ms.date: 12/05/2018
 ms.keywords: OleGetClipboardWithEnterpriseInfo, OleGetClipboardWithEnterpriseInfo function [COM], com.olegetclipboardwithenterpriseinfo, ole2/OleGetClipboardWithEnterpriseInfo
-f1_keywords:
-- ole2/OleGetClipboardWithEnterpriseInfo
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
-- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
-api_name:
-- OleGetClipboardWithEnterpriseInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleGetClipboardWithEnterpriseInfo
+ - ole2/OleGetClipboardWithEnterpriseInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+ - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+api_name:
+ - OleGetClipboardWithEnterpriseInfo
 ---
 
 # OleGetClipboardWithEnterpriseInfo function
 
 
 ## -description
-
 
 Enables Windows Information Protection enlightened  
 applications to retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> from the OLE Clipboard  
@@ -67,45 +67,32 @@ enterprise data into a personal context.
 If the calling application is not enlightened, or is  
 configured as "unallowed" to access enterprise data,  
 then this call behaves exactly like <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleGetClipboard</a> - applying policy before deciding what <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to return,  
-and supplying empty strings as output.  
-
-
+and supplying empty strings as output.
 
 ## -parameters
-
-
-
 
 ### -param dataObject [out]
 
 Address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer variable that receives the interface pointer to the clipboard data object.
 
-
 ### -param dataEnterpriseId [out]
 
 The enterprise id of the application that set the clipboard data. 
-If the data is personal, this will be an empty string. 
-
+If the data is personal, this will be an empty string.
 
 ### -param sourceDescription [out]
 
- The description of the application that set the clipboard. 
-
-
+ The description of the application that set the clipboard.
 
 ### -param targetDescription [out]
 
 The         description of the caller's application to be used in auditing.
 
-
 ### -param dataDescription [out]
 
 The description of the data object to be used in auditing.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -137,14 +124,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Caution</b>  Clipboard data is not trusted. Parse the data carefully before using it in your application.</div>
 <div> </div>
@@ -177,20 +158,11 @@ Note that the tymed member of the <a href="https://docs.microsoft.com/windows/de
 
 If you call the <b>OleGetClipboardWithEnterpriseInfo</b> function, you should only hold on to the returned <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> for a very short time. It consumes resources in the application that offered it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleGetClipboard</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>
- 
-
- 
 

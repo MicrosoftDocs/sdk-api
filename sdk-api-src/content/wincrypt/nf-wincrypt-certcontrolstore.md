@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 04cd9349-50c1-44b4-b080-631a24a80d70
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CTRL_AUTO_RESYNC, CERT_STORE_CTRL_CANCEL_NOTIFY, CERT_STORE_CTRL_COMMIT, CERT_STORE_CTRL_COMMIT_CLEAR_FLAG, CERT_STORE_CTRL_COMMIT_FORCE_FLAG, CERT_STORE_CTRL_INHIBIT_DUPLICATE_HANDLE_FLAG, CERT_STORE_CTRL_NOTIFY_CHANGE, CERT_STORE_CTRL_RESYNC, CertControlStore, CertControlStore function [Security], _crypto2_certcontrolstore, security.certcontrolstore, wincrypt/CertControlStore
-f1_keywords:
-- wincrypt/CertControlStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertControlStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertControlStore
+ - wincrypt/CertControlStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertControlStore
 ---
 
 # CertControlStore function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertControlStore</b> function allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage. Differences can occur as another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> makes a change that affects the store as it is persisted.
 
 The <b>CertControlStore</b> function can be used to synchronize a cached store, if necessary, and provides a means to commit changes made in the cached store to persisted storage.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-
 
 ### -param dwFlags [in]
 
@@ -108,7 +103,6 @@ Inhibits a duplicate handle of the event HANDLE. If this flag is set, <b>CertCon
  
 
 If <i>dwCtrlType</i> is set to CERT_STORE_CTRL_NOTIFY_CHANGE or CERT_STORE_CTRL_RESYNC, the <i>dwFlags</i> parameter is not used and must be set to zero.
-
 
 ### -param dwCtrlType [in]
 
@@ -173,8 +167,6 @@ Cancels notification signaling of the event HANDLE passed in a previous CERT_STO
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvCtrlPara [in]
 
@@ -187,10 +179,7 @@ If <i>dwCtrlType</i> is CERT_STORE_CTRL_RESYNC, set <i>pvCtrlPara</i> to the add
 
 If <i>dwCtrlType</i> CERT_STORE_CTRL_COMMIT, <i>pvCtrlPara</i> is not used and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
@@ -205,12 +194,7 @@ If <i>dwCtrlType</i> is CERT_STORE_CTRL_COMMIT, the function returns nonzero to 
 
 Some providers might not support specific control types. In these cases, <b>CertControlStore</b> returns zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is set to the ERROR_NOT_SUPPORTED code.
 
-
-
-
 ## -remarks
-
-
 
 Resynchronization of a store can be done at any time. It need not follow a signaled notification change event.
 
@@ -343,14 +327,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
 
@@ -361,7 +338,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>
- 
-
- 
 

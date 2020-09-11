@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 42dd534d-9786-4276-b227-fee2d58806b7
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], ITfFnLangProfileUtil interface [Text Services Framework],described, _tsf_itffnlangprofileutil_ref, ctffunc/ITfFnLangProfileUtil, tsf.itffnlangprofileutil
-f1_keywords:
-- ctffunc/ITfFnLangProfileUtil
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfFnLangProfileUtil
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnLangProfileUtil
+ - ctffunc/ITfFnLangProfileUtil
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfFnLangProfileUtil
 ---
 
 # ITfFnLangProfileUtil interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfFnLangProfileUtil</b> interface is implemented by the speech text service and used to provide utility methods for the speech text service. A text service can create an instance of this interface by calling CoCreateInstance with CLSID_SapiLayr and IID_ITfFnLangProfileUtil.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Causes the speech text service to register its active profiles.
 
 </td>
 </tr>
-</table> 
+</table>
 

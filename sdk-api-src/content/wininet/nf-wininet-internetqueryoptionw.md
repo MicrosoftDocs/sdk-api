@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: b0bafd3d-8f54-429e-b423-dae3d61b0030
 ms.date: 12/05/2018
 ms.keywords: InternetQueryOption, InternetQueryOption function [WinINet], InternetQueryOptionA, InternetQueryOptionW, _inet_internetqueryoption_function, wininet.internetqueryoption, wininet/InternetQueryOption, wininet/InternetQueryOptionA, wininet/InternetQueryOptionW
-f1_keywords:
-- wininet/InternetQueryOption
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetQueryOption
-- InternetQueryOptionA
-- InternetQueryOptionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetQueryOptionW
+ - wininet/InternetQueryOptionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetQueryOption
+ - InternetQueryOptionA
+ - InternetQueryOptionW
 ---
 
 # InternetQueryOptionW function
@@ -51,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries an Internet option on the specified handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 Handle on which to query information.
-
 
 ### -param dwOption [in]
 
 Internet option to be queried. This can be one of the 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/option-flags">Option Flags</a> values.
 
-
 ### -param lpBuffer [out]
 
 Pointer to a buffer that receives the option setting. Strings returned by 
 <b>InternetQueryOption</b> are globally allocated, so the calling application must  free them when it  is finished using them.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -86,21 +79,12 @@ Pointer to a variable that contains the size of
 <i>lpBuffer</i>. If 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER, this parameter points to the number of bytes required to hold the requested information.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return the <b>ERROR_INVALID_PARAMETER</b> if an option flag that is invalid for the specified handle type is passed to the 
 <i>dwOption</i> parameter.
@@ -120,9 +104,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 > The wininet.h header defines InternetQueryOption as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
@@ -149,7 +130,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

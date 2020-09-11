@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 7ffc228f-c4f2-4451-9b23-ec78bf6c8318
 ms.date: 12/05/2018
 ms.keywords: IFeedClockVectorElement, IFeedClockVectorElement interface [Windows Sync], IFeedClockVectorElement interface [Windows Sync],described, winsync.ifeedclockvectorelement, winsync/IFeedClockVectorElement
-f1_keywords:
-- winsync/IFeedClockVectorElement
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IFeedClockVectorElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFeedClockVectorElement
+ - winsync/IFeedClockVectorElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IFeedClockVectorElement
 ---
 
 # IFeedClockVectorElement interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a clock vector element that contains FeedSync information.
-
-
 
 ## -inheritance
 
@@ -89,13 +87,9 @@ Gets a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsyn
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>IClockVectorElement</b>
 
@@ -106,7 +100,4 @@ Gets a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsyn
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

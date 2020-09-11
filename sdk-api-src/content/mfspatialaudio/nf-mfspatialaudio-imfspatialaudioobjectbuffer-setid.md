@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 01979492-2CA1-4DAA-8B03-720B521C2D9A
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetID method, IMFSpatialAudioObjectBuffer.SetID, IMFSpatialAudioObjectBuffer::SetID, SetID, SetID method [Media Foundation], SetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, mf.imfspatialaudioobjectbuffer_setid, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetID
-f1_keywords:
-- mfspatialaudio/IMFSpatialAudioObjectBuffer.SetID
-dev_langs:
-- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.lib
-- mfobjects.dll
-api_name:
-- IMFSpatialAudioObjectBuffer.SetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSpatialAudioObjectBuffer::SetID
+ - mfspatialaudio/IMFSpatialAudioObjectBuffer::SetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.lib
+ - mfobjects.dll
+api_name:
+ - IMFSpatialAudioObjectBuffer.SetID
 ---
 
 # IMFSpatialAudioObjectBuffer::SetID
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the ID of the spatial audio object represented by the buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param u32ID
 
 A 32-bit unsigned unique ID of the audio object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,29 +80,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The object ID must be unique for each spatial audio sample.  Subsequent samples can 
     contain spatial audio objects with the same IDs to represent moving dynamic objects or constant
     static objects.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
- 
-
- 
 

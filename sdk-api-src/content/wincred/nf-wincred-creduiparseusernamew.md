@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.date: 12/05/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
-f1_keywords:
-- wincred/CredUIParseUserName
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- CredUIParseUserName
-- CredUIParseUserNameA
-- CredUIParseUserNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredUIParseUserNameW
+ - wincred/CredUIParseUserNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - CredUIParseUserName
+ - CredUIParseUserNameA
+ - CredUIParseUserNameW
 ---
 
 # CredUIParseUserNameW function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredUIParseUserName</b> function extracts the domain and user account name from a fully qualified user name.
 
-
 ## -parameters
-
-
-
 
 ### -param UserName [in]
 
@@ -68,11 +64,9 @@ Pointer to a <b>null</b>-terminated string that contains the user name to be par
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsw">CredUIPromptForCredentials</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsw">CredUICmdLinePromptForCredentials</a>.
 
-
 ### -param user [out]
 
 Pointer to a <b>null</b>-terminated string that receives the user account name.
-
 
 ### -param userBufferSize [in]
 
@@ -87,7 +81,6 @@ Maximum number of characters to write to the <i>pszUser</i> string including the
 ### -param domain [out]
 
 Pointer to a <b>null</b>-terminated string that receives the domain name. If <i>pszUserName</i> specifies a certificate, <i>pszDomain</i> will be <b>NULL</b>.
-
 
 ### -param domainBufferSize [in]
 
@@ -105,10 +98,7 @@ Pointer to a <b>null</b>-terminated string that contains the user name to be par
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduicmdlinepromptforcredentialsa">CredUICmdLinePromptForCredentials</a>.
 
-
 ## -returns
-
-
 
 This function returns the following:
 
@@ -141,11 +131,7 @@ One of the buffers is too small.
 </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function parses the user name information returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a> and 
@@ -183,9 +169,6 @@ The entire string is returned in the <i>User</i> parameter. The <i>Domain</i> pa
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credismarshaledcredentiala">CredIsMarshaledCredential</a>
 
 
@@ -199,7 +182,4 @@ The entire string is returned in the <i>User</i> parameter. The <i>Domain</i> pa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
- 
-
- 
 

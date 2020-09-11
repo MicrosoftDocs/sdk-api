@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
-f1_keywords:
-- bits/IBackgroundCopyError.GetError
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyError.GetError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyError::GetError
+ - bits/IBackgroundCopyError::GetError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyError.GetError
 ---
 
 # IBackgroundCopyError::GetError
@@ -49,39 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the error code and identify the context in which the error occurred.
 
-
 ## -parameters
-
-
-
 
 ### -param pContext [out]
 
 Context in which the error occurred. For a list of context values, see the 
 [BG_ERROR_CONTEXT](/windows/win32/api/bits/ne-bits-bg_error_context) enumeration.
 
-
 ### -param pCode [out]
 
 Error code of the error that occurred.
 
-
 ## -returns
-
-
 
 This method returns <b>S_OK</b> on success or one of the standard COM HRESULT values on error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
 
@@ -92,7 +78,4 @@ This method returns <b>S_OK</b> on success or one of the standard COM HRESULT va
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
- 
-
- 
 

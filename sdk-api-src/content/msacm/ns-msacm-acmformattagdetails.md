@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 134cccb1-4065-407f-a02b-7bd340b4a8cf
 ms.date: 12/05/2018
 ms.keywords: '*LPACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATTAGDETAILS, ACMFORMATTAGDETAILS structure [Windows Multimedia], msacm/ACMFORMATTAGDETAILS, multimedia.acmformattagdetails_COLLISION956, multimedia.acmformattagdetails_struct'
-f1_keywords:
-- msacm/ACMFORMATTAGDETAILS
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msacm.h
-api_name:
-- ACMFORMATTAGDETAILS
 targetos: Windows
 req.typenames: ACMFORMATTAGDETAILS, *PACMFORMATTAGDETAILS, *LPACMFORMATTAGDETAILS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tACMFORMATTAGDETAILS
+ - msacm/tACMFORMATTAGDETAILS
+ - PACMFORMATTAGDETAILS
+ - msacm/PACMFORMATTAGDETAILS
+ - ACMFORMATTAGDETAILS
+ - msacm/ACMFORMATTAGDETAILS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFORMATTAGDETAILS
 ---
 
 # ACMFORMATTAGDETAILS structure
@@ -49,37 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ACMFORMATTAGDETAILS</b> structure details a waveform-audio format tag for an ACM driver.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Size, in bytes, of the <b>ACMFORMATTAGDETAILS</b> structure. This member must be initialized before an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function. The size specified by this member must be large enough to contain the base <b>ACMFORMATTAGDETAILS</b> structure. When the <b>acmFormatTagDetails</b> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
 
-
 ### -field dwFormatTagIndex
 
 Index of the format tag for which details will be retrieved. The index ranges from zero to one less than the number of format tags supported by an ACM driver. The number of format tags supported by a driver is contained in the [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. The <b>dwFormatTagIndex</b> member is used only when querying format tag details on a driver by index; otherwise, this member should be zero.
-
 
 ### -field dwFormatTag
 
 Waveform-audio format tag that the <b>ACMFORMATTAGDETAILS</b> structure describes. This member is used for input for the ACM_FORMATTAGDETAILSF_FORMATTAG and ACM_FORMATTAGDETAILSF_LARGESTSIZE query flags. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function is successful, this member is always returned. This member should be set to WAVE_FORMAT_UNKNOWN for all other query flags.
 
-
 ### -field cbFormatSize
 
 Largest total size, in bytes, of a waveform-audio format of the <b>dwFormatTag</b> type. For example, this member will be 16 for WAVE_FORMAT_PCM and 50 for WAVE_FORMAT_ADPCM.
-
 
 ### -field fdwSupport
 
@@ -141,23 +134,16 @@ Driver supports hardware input, output, or both of the specified format tag thro
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cStandardFormats
 
 Number of standard formats of the <b>dwFormatTag</b> type; that is, the combination of all sample rates, bits per sample, channels, and so on. This value can specify all formats supported by the driver, but not necessarily.
 
-
 ### -field szFormatTag
 
 String that describes the <b>dwFormatTag</b> type. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function is successful, this string is always returned.
 
-
 ## -see-also
-
-
-
 
 [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)
 
@@ -180,7 +166,4 @@ String that describes the <b>dwFormatTag</b> type. If the <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
- 
-
- 
 

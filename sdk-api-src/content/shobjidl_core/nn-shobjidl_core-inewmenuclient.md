@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient, INewMenuClient interface [Windows Shell], INewMenuClient interface [Windows Shell],described, _shell_INewMenuClient, shell.INewMenuClient, shobjidl_core/INewMenuClient
-f1_keywords:
-- shobjidl_core/INewMenuClient
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INewMenuClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INewMenuClient
+ - shobjidl_core/INewMenuClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INewMenuClient
 ---
 
 # INewMenuClient interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that allow manipulation of items in a Windows 7 menu.
-
 
 ## -inheritance
 
@@ -83,5 +82,5 @@ Allows the view to filter the items shown in the menu.
 </td>
 <td align="left" width="63%">Selects or edits the specified item in the menu.</td>
 </tr>
-</table> 
+</table>
 

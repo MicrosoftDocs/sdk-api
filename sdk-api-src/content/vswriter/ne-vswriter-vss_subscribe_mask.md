@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4aa3afe4-98da-4376-b795-75bf404aaed9
 ms.date: 12/05/2018
 ms.keywords: VSS_SM_ALL_FLAGS, VSS_SM_BACKUP_EVENTS_FLAG, VSS_SM_IO_THROTTLING_FLAG, VSS_SM_POST_SNAPSHOT_FLAG, VSS_SM_RESTORE_EVENTS_FLAG, VSS_SUBSCRIBE_MASK, VSS_SUBSCRIBE_MASK enumeration [VSS], _win32_vss_subscribe_mask, base.vss_subscribe_mask, enumeration [VSS], vswriter/VSS_SM_ALL_FLAGS, vswriter/VSS_SM_BACKUP_EVENTS_FLAG, vswriter/VSS_SM_IO_THROTTLING_FLAG, vswriter/VSS_SM_POST_SNAPSHOT_FLAG, vswriter/VSS_SM_RESTORE_EVENTS_FLAG, vswriter/VSS_SUBSCRIBE_MASK
-f1_keywords:
-- vswriter/VSS_SUBSCRIBE_MASK
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VsWriter.h
-api_name:
-- VSS_SUBSCRIBE_MASK
 targetos: Windows
 req.typenames: VSS_SUBSCRIBE_MASK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VSS_SUBSCRIBE_MASK
+ - vswriter/VSS_SUBSCRIBE_MASK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VsWriter.h
+api_name:
+ - VSS_SUBSCRIBE_MASK
 ---
 
 # VSS_SUBSCRIBE_MASK enumeration
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VSS_SUBSCRIBE_MASK</b> enumeration is used by a 
     writer when subscribing to the VSS service. It indicates the events that the writer is willing to 
     receive.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_SM_POST_SNAPSHOT_FLAG
 
@@ -68,7 +64,6 @@ This enumeration value is reserved for future use.
 Specifies that the writer expects to be notified after the shadow copy it is participating in has completed. 
        It will then call 
        <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
-
 
 ### -field VSS_SM_BACKUP_EVENTS_FLAG
 
@@ -112,7 +107,6 @@ Specifies that the writer can expect to receive the following events:
 
 This enumeration value is reserved for future use.
 
-
 ### -field VSS_SM_ALL_FLAGS
 
 This enumeration value is reserved for future use. 
@@ -120,10 +114,7 @@ This enumeration value is reserved for future use.
 
 Specifies that the writer expects to be notified for all events.
 
-
 ## -remarks
-
-
 
 A bit mask (or bitwise OR) of <b>VSS_SUBSCRIBE_MASK</b> 
     values is used as an argument only to 
@@ -133,13 +124,7 @@ Currently, the only supported <b>VSS_SUBSCRIBE_MASK</b>
     bit mask is ( <b>VSS_SM_BACKUP_EVENTS_FLAG</b> | 
     <b>VSS_SM_RESTORE_EVENTS_FLAG</b>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackoffioonvolume">CVssWriter::OnBackOffIOOnVolume</a>
 
@@ -170,7 +155,4 @@ Currently, the only supported <b>VSS_SUBSCRIBE_MASK</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-subscribe">CVssWriter::Subscribe</a>
- 
-
- 
 

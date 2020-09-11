@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: a838a44a-243c-4d0d-bda3-eec9a626cb53
 ms.date: 12/05/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
-f1_keywords:
-- winddi/DrvEnableSurface
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvEnableSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvEnableSurface
+ - winddi/DrvEnableSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvEnableSurface
 ---
 
 # DrvEnableSurface function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvEnableSurface</b> function sets up a surface to be drawn on and associates it with a given physical device.
 
-
 ## -parameters
-
-
-
 
 ### -param dhpdev
 
 Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. This is the return value of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>. The PDEV describes the physical device for which a surface is to be created.
 
-
 ## -returns
-
-
 
 The return value is a handle that identifies the newly created surface. Otherwise, it is zero, and an error code is logged.
 
-
-
-
 ## -remarks
-
-
 
 There are two methods for preparing a surface for use. 
 
@@ -98,13 +86,7 @@ After <b>DrvEnableSurface</b> returns a handle to a primary surface, do not call
 
 <b>DrvEnableSurface</b> is required for graphics drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisablesurface">DrvDisableSurface</a>
 
@@ -119,7 +101,4 @@ After <b>DrvEnableSurface</b> returns a handle to a primary surface, do not call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicesurface">EngCreateDeviceSurface</a>
- 
-
- 
 

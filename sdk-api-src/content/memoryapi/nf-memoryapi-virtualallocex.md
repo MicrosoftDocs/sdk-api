@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ff0b6b79-40f5-499c-b797-b66797654164
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAllocEx, VirtualAllocEx function, _win32_virtualallocex, base.virtualallocex, winbase/VirtualAllocEx
-f1_keywords:
-- memoryapi/VirtualAllocEx
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualAllocEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualAllocEx
+ - memoryapi/VirtualAllocEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualAllocEx
 ---
 
 # VirtualAllocEx function
@@ -57,18 +58,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserves, commits, or changes the state  of a region of memory within the virtual address space of a specified process. The 
     function initializes the memory it allocates to zero.
 
 To specify the NUMA node for the physical memory, see 
     <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocexnuma">VirtualAllocExNuma</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -77,7 +73,6 @@ The handle to a process. The function allocates memory within the virtual addres
 The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, 
        see 
        <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
 
 ### -param lpAddress [in, optional]
 
@@ -97,7 +92,6 @@ If this address is within an enclave that you have not initialized by calling <a
 
 If the address in within an enclave that you initialized, then the allocation operation fails with the <b>ERROR_INVALID_ADDRESS</b> error.
 
-
 ### -param dwSize [in]
 
 The size of the region of memory to allocate, in bytes.
@@ -109,7 +103,6 @@ If <i>lpAddress</i> is not <b>NULL</b>, the function allocates all
        pages that contain one or more bytes in the range from <i>lpAddress</i> to 
        <i>lpAddress</i>+<i>dwSize</i>. This means, for example, that a 2-byte 
        range that straddles a page boundary causes the function to allocate both pages.
-
 
 ### -param flAllocationType [in]
 
@@ -275,8 +268,6 @@ Allocates memory at the highest possible address. This can be slower than regula
 </td>
 </tr>
 </table>
- 
-
 
 ### -param flProtect [in]
 
@@ -295,19 +286,12 @@ If <i>lpAddress</i> specifies an address within an enclave, <i>flProtect</i> can
 
 ## -returns
 
-
-
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">page state</a>. The 
      <b>VirtualAllocEx</b> function can perform the following 
@@ -357,13 +341,7 @@ When creating a region that will be executable, the calling program bears respon
     in place. Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
     results.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
@@ -398,7 +376,4 @@ When creating a region that will be executable, the calling program bears respon
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory">WriteProcessMemory</a>
- 
-
- 
 

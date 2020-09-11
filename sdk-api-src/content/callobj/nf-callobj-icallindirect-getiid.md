@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 096bd49e-2fad-4558-98c7-c95e0dc43a65
 ms.date: 12/05/2018
 ms.keywords: GetIID, GetIID method [COM], GetIID method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetIID method, ICallIndirect.GetIID, ICallIndirect::GetIID, _com_icallindirect_getiid, callobj/ICallIndirect::GetIID, com.icallindirect_getiid
-f1_keywords:
-- callobj/ICallIndirect.GetIID
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallIndirect.GetIID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallIndirect::GetIID
+ - callobj/ICallIndirect::GetIID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallIndirect.GetIID
 ---
 
 # ICallIndirect::GetIID
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the interface id supported by this <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a> implementation.
 
-
 ## -parameters
-
-
-
 
 ### -param piid [out]
 
 A pointer to the interface. This parameter is optional.
 
-
 ### -param pfDerivesFromIDispatch [out]
 
 Indicates whether the interface is derived from <b>IDispatch</b>. This parameter is optional.
-
 
 ### -param pcMethod [out]
 
 Receives the number of methods in the inferface.
 
-
 ### -param pwszInterface [out]
 
 Receives the interface name if it is available.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,18 +102,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
- 
-
- 
 

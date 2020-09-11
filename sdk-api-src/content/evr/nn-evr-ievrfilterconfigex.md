@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: bbe85dc1-af9c-4be7-9064-d61bba160942
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx, IEVRFilterConfigEx interface [Media Foundation], IEVRFilterConfigEx interface [Media Foundation],described, evr/IEVRFilterConfigEx, mf.ievrfilterconfigex
-f1_keywords:
-- evr/IEVRFilterConfigEx
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- evr.h
-api_name:
-- IEVRFilterConfigEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEVRFilterConfigEx
+ - evr/IEVRFilterConfigEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - evr.h
+api_name:
+ - IEVRFilterConfigEx
 ---
 
 # IEVRFilterConfigEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter.  To get a pointer to this interface, call <b>QueryInterface</b> on the  EVR filter.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Sets the configuration parameters for the DirectShow EVR filter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer Filter</a>
 
@@ -107,7 +102,4 @@ Sets the configuration parameters for the DirectShow EVR filter.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
- 
-
- 
 

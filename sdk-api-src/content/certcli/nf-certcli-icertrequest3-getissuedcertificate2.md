@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c311acaf-983b-4d61-a674-0fc6b475d212
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate2 method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate2, GetIssuedCertificate2 method [Security], GetIssuedCertificate2 method [Security],CCertRequest object, GetIssuedCertificate2 method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetIssuedCertificate2 method, ICertRequest3.GetIssuedCertificate2, ICertRequest3::GetIssuedCertificate2, certcli/ICertRequest3::GetIssuedCertificate2, security.icertrequest3_getissuedcertificate2
-f1_keywords:
-- certcli/ICertRequest3.GetIssuedCertificate2
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.GetIssuedCertificate2
-- CCertRequest.GetIssuedCertificate2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest3::GetIssuedCertificate2
+ - certcli/ICertRequest3::GetIssuedCertificate2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.GetIssuedCertificate2
+ - CCertRequest.GetIssuedCertificate2
 ---
 
 # ICertRequest3::GetIssuedCertificate2
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetIssuedCertificate2</b> method retrieves a certificate's disposition by specifying either the request ID string or the certificate serial number.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -67,20 +63,17 @@ Represents a valid configuration string for the <a href="https://docs.microsoft.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
-
 ### -param strRequestId [in]
 
 A <b>BSTR</b> value that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> ID in the Certificates Services database. Set this parameter to <b>NULL</b> if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
 
 Use the  <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest3-getrequestidstring">ICertRequest3::GetRequestIdString</a> method to obtain the request ID string.
 
-
 ### -param strSerialNumber [in]
 
 A <b>BSTR</b> value that represents the certificate serial number, as issued by the CA. The string must specify the serial number as an even number of hexadecimal digits. If necessary, a zero can be prefixed to the number to produce an even number of digits. However, no more than one leading zero may be used.
 
 The <i>strSerialNumber</i> value is only used when the <i>strRequestId</i> is set to <b>NULL</b>.
-
 
 ### -param pDisposition [out, retval]
 
@@ -157,12 +150,8 @@ Request taken under submission.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns <b>S_OK</b>.
@@ -172,20 +161,11 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
 The return value is a <b>Long</b> that represents the certificate's disposition.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
- 
-
- 
 

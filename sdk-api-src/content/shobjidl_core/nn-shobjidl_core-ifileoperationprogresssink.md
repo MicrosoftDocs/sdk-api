@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink, IFileOperationProgressSink interface [Windows Shell], IFileOperationProgressSink interface [Windows Shell],described, _shell_IFileOperationProgressSink, shell.IFileOperationProgressSink, shobjidl_core/IFileOperationProgressSink
-f1_keywords:
-- shobjidl_core/IFileOperationProgressSink
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileOperationProgressSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileOperationProgressSink
+ - shobjidl_core/IFileOperationProgressSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileOperationProgressSink
 ---
 
 # IFileOperationProgressSink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide a rich notification system used by callers of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> to monitor the details of the operations they are performing through that interface.
-
 
 ## -inheritance
 
@@ -212,12 +211,9 @@ Provides an estimate of the total amount of work currently done in relation to t
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Applications must implement <b>IFileOperationProgressSink</b> themselves. Windows does not provide a default implementation.
@@ -274,17 +270,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
- 
-
- 
 

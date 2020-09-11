@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: FEDA0802-45A6-4ED5-9683-5278BD60B7A4
 ms.date: 12/05/2018
 ms.keywords: ID3D12RootSignatureDeserializer, ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,described, d3d12/ID3D12RootSignatureDeserializer, direct3d12.id3d12rootsignaturedeserializer
-f1_keywords:
-- d3d12/ID3D12RootSignatureDeserializer
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12RootSignatureDeserializer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12RootSignatureDeserializer
+ - d3d12/ID3D12RootSignatureDeserializer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12RootSignatureDeserializer
 ---
 
 # ID3D12RootSignatureDeserializer interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a method to  return the deserialized 
           <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> 
           data structure, of a serialized root signature version 1.0.
-        
-
 
 ## -inheritance
 
@@ -81,22 +79,13 @@ Gets the layout of the root signature.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface has been superceded by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer">ID3D12VersionedRootSignatureDeserializer</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
@@ -107,7 +96,4 @@ This interface has been superceded by <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signatures">Root Signatures</a>
- 
-
- 
 

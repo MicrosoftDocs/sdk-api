@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 65c6cdb5-33af-435c-9444-42f8689e13a8
 ms.date: 12/05/2018
 ms.keywords: PeerCollabInviteContact, PeerCollabInviteContact function [Peer Networking], p2p.peercollabinvitecontact, p2p/PeerCollabInviteContact
-f1_keywords:
-- p2p/PeerCollabInviteContact
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabInviteContact
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabInviteContact
+ - p2p/PeerCollabInviteContact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabInviteContact
 ---
 
 # PeerCollabInviteContact function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabInviteContact</b> function sends an invitation to join a peer collaboration activity to a trusted contact. This call is synchronous and, if successful, obtains a response from the contact.
 
-
 ## -parameters
-
-
-
 
 ### -param pcContact [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contains the contact information associated with the invitee.
 
-
 ### -param pcEndpoint [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains information about the invited peer. This peer is sent an invitation when this API is called.
 
-
 ### -param pcInvitation [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a> structure that contains the invitation request to send to the endpoint(s)  specified in <i>pcEndpoint</i>. This parameter must not be set to <b>NULL</b>.
-
 
 ### -param ppResponse [out]
 
@@ -81,10 +74,7 @@ If this call fails with an error, this parameter will be <b>NULL</b>.
 
 Free the memory returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -127,14 +117,8 @@ The recipient of the invitation has not responded within 5 minutes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This API ensures the peer that receives the invitation is the contact specified as input. The connection will fail if the specific contact is not present on the endpoint specified.  The use of <b>PeerCollabInviteContact</b> is recommended  in place of the less secure <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabinviteendpoint">PeerCollabInviteEndpoint</a>.
 
@@ -149,13 +133,7 @@ If the recipient is accepting invitations only from trusted contacts, then the s
 
 The recipient of the invitation must respond within 5 minutes to avoid timeout.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
@@ -174,7 +152,4 @@ The recipient of the invitation must respond within 5 minutes to avoid timeout.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetapplaunchinfo">PeerCollabGetAppLaunchInfo</a>
- 
-
- 
 

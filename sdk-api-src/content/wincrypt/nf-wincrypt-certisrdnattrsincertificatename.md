@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
 ms.date: 12/05/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
-f1_keywords:
-- wincrypt/CertIsRDNAttrsInCertificateName
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertIsRDNAttrsInCertificateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertIsRDNAttrsInCertificateName
+ - wincrypt/CertIsRDNAttrsInCertificateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertIsRDNAttrsInCertificateName
 ---
 
 # CertIsRDNAttrsInCertificateName function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertIsRDNAttrsInCertificateName</b> function compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate name</a> with the specified 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> to determine whether all attributes are included there. The comparison iterates through the <b>CERT_RDN</b> and looks for an attribute match in any of the <b>CERT_RDN</b>s of the certificate name.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -79,12 +75,10 @@ CERT_UNICODE_IS_RDN_ATTRS_FLAG must be set if the <i>pRDN</i> was initialized wi
 
 CERT_CASE_INSENSITIVE_IS_RDN_ATTRS_FLAG is set to do a case insensitive match. Otherwise, an exact, case sensitive match is done.
 
-
 ### -param pCertName [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> that contains the encoded subject or issuer name.
-
 
 ### -param pRDN [in]
 
@@ -99,8 +93,6 @@ Array of
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds and all of the RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> are in the certificate name, the return value is nonzero (<b>TRUE</b>).
 
@@ -142,29 +134,15 @@ Invalid certificate encoding type. Currently only X509_ASN_ENCODING is supported
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Currently, only an exact, case-sensitive match is supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

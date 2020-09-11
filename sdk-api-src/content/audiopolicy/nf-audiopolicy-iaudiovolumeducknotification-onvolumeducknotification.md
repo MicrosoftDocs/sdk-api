@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 1bc28f44-1595-4d45-872f-2473bffd33aa
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeDuckNotification method, IAudioVolumeDuckNotification.OnVolumeDuckNotification, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
-f1_keywords:
-- audiopolicy/IAudioVolumeDuckNotification.OnVolumeDuckNotification
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AudioPolicy.h
-api_name:
-- IAudioVolumeDuckNotification.OnVolumeDuckNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioVolumeDuckNotification::OnVolumeDuckNotification
+ - audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AudioPolicy.h
+api_name:
+ - IAudioVolumeDuckNotification.OnVolumeDuckNotification
 ---
 
 ## -description
@@ -60,7 +61,7 @@ The number of active communications sessions. If there are n sessions, the sessi
 
 ## -returns
 
-If the method succeeds, it returns S_OK. 
+If the method succeeds, it returns S_OK.
 
 ## -remarks
 
@@ -71,3 +72,4 @@ After the application registers its implementation  of the <a href="https://docs
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
+

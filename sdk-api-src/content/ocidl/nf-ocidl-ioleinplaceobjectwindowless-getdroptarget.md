@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0dfed2c7-d513-4c29-8182-af1bd6f26834
 ms.date: 12/05/2018
 ms.keywords: GetDropTarget, GetDropTarget method [COM], GetDropTarget method [COM],IOleInPlaceObjectWindowless interface, IOleInPlaceObjectWindowless interface [COM],GetDropTarget method, IOleInPlaceObjectWindowless.GetDropTarget, IOleInPlaceObjectWindowless::GetDropTarget, _ole_ioleinplaceobjectwindowless_getdroptarget, com.ioleinplaceobjectwindowless_getdroptarget, ocidl/IOleInPlaceObjectWindowless::GetDropTarget
-f1_keywords:
-- ocidl/IOleInPlaceObjectWindowless.GetDropTarget
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceObjectWindowless.GetDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceObjectWindowless::GetDropTarget
+ - ocidl/IOleInPlaceObjectWindowless::GetDropTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceObjectWindowless.GetDropTarget
 ---
 
 # IOleInPlaceObjectWindowless::GetDropTarget
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface for an in-place active, windowless object that supports drag and drop.
 
-
 ## -parameters
-
-
-
 
 ### -param ppDropTarget [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> pointer variable that receives the interface pointer to the windowless object.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -86,14 +79,8 @@ The windowless object does not support drag and drop.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A windowed object registers its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> function and supplying its window handle as a parameter. Registering its <b>IDropTarget</b> interface enables the object to participate in drag and drop operations. Because it does not have a window when active, a windowless object cannot register its <b>IDropTarget</b> interface. Therefore, it cannot directly participate in drag and drop operations without support from its container.
 
@@ -115,14 +102,7 @@ An object that returns S_FALSE from <a href="https://docs.microsoft.com/windows/
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 A container can cache the pointer to the object's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface for later use.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
@@ -137,7 +117,4 @@ A container can cache the pointer to the object's <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 75168197-FA76-4B57-AF24-C92DF2602985
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusX, IDCompositionRectangleClip::SetTopLeftRadiusX, SetTopLeftRadiusX, SetTopLeftRadiusX methods [DirectComposition], dcomp/SetTopLeftRadiusX, directcomp.idcompositionrectangleclip_settopleftradiusx
-f1_keywords:
-- dcomp/IDCompositionRectangleClip::SetTopLeftRadiusX
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionRectangleClip::SetTopLeftRadiusX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionRectangleClip::SetTopLeftRadiusX
+ - dcomp/IDCompositionRectangleClip::SetTopLeftRadiusX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionRectangleClip::SetTopLeftRadiusX
 ---
 
 # IDCompositionRectangleClip::SetTopLeftRadiusX
 
 
 ## -description
-
 
 <span>Changes or animates the value of the TopLeftRadiusX property of this clip. The TopLeftRadiusX property  specifies the x radius of the ellipse that rounds the top-left corner of the clip.
 </span><h3>Overload list</h3><table>
@@ -78,14 +78,7 @@ Animates the value of the TopLeftRadiusX property of this clip.
 
 ## -parameters
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
- 
-
- 
 

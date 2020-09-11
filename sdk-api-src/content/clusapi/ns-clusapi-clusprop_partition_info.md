@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: cda1e334-dba8-4fe9-b035-4e475245869c
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_PARTITION_INFO, CLUSPROP_PARTITION_INFO, CLUSPROP_PARTITION_INFO structure [Failover Cluster], PCLUSPROP_PARTITION_INFO, PCLUSPROP_PARTITION_INFO structure pointer [Failover Cluster], _wolf_clusprop_partition_info, clusapi/CLUSPROP_PARTITION_INFO, clusapi/PCLUSPROP_PARTITION_INFO, mscs.clusprop_partition_info'
-f1_keywords:
-- clusapi/CLUSPROP_PARTITION_INFO
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_PARTITION_INFO
 targetos: Windows
 req.typenames: CLUSPROP_PARTITION_INFO, *PCLUSPROP_PARTITION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_PARTITION_INFO
+ - clusapi/CLUSPROP_PARTITION_INFO
+ - PCLUSPROP_PARTITION_INFO
+ - clusapi/PCLUSPROP_PARTITION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_PARTITION_INFO
 ---
 
 ## -description
@@ -69,3 +72,4 @@ Contains
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a>
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
+

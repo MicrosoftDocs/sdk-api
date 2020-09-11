@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
 ms.date: 12/05/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
-f1_keywords:
-- shobjidl/IWizardSite
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IWizardSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWizardSite
+ - shobjidl/IWizardSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IWizardSite
 ---
 
 # IWizardSite interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods used by a wizard extension to navigate the borders between itself and the rest of the wizard.
-
 
 ## -inheritance
 
@@ -95,14 +94,9 @@ Called when the user navigates backward out of the wizard extension. Gets the ha
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 When the user backs out or cancels the extension, or when the extension finishes displaying its pages, the extension then communicates to the wizard that it must navigate in and out of the stack of pages.
-
-
 

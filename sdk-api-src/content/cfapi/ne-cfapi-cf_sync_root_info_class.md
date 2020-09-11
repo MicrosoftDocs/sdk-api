@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: 4415E075-048E-4B9F-B293-5F7A63CAE3A4
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_INFO_BASIC, CF_SYNC_ROOT_INFO_CLASS, CF_SYNC_ROOT_INFO_CLASS enumeration, CF_SYNC_ROOT_INFO_PROVIDER, CF_SYNC_ROOT_INFO_STANDARD, cfapi/CF_SYNC_ROOT_INFO_BASIC, cfapi/CF_SYNC_ROOT_INFO_CLASS, cfapi/CF_SYNC_ROOT_INFO_PROVIDER, cfapi/CF_SYNC_ROOT_INFO_STANDARD, cloudApi.cf_sync_root_info_class
-f1_keywords:
-- cfapi/CF_SYNC_ROOT_INFO_CLASS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_SYNC_ROOT_INFO_CLASS
 targetos: Windows
 req.typenames: CF_SYNC_ROOT_INFO_CLASS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_SYNC_ROOT_INFO_CLASS
+ - cfapi/CF_SYNC_ROOT_INFO_CLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_SYNC_ROOT_INFO_CLASS
 ---
 
 # CF_SYNC_ROOT_INFO_CLASS enumeration
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Types of sync root information.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_SYNC_ROOT_INFO_BASIC
 
 Basic sync root information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_basic_info">CF_SYNC_ROOT_BASIC_INFO</a>.
 
-
 ### -field CF_SYNC_ROOT_INFO_STANDARD
 
 Standard sync root information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_root_standard_info">CF_SYNC_ROOT_STANDARD_INFO</a>.
-
 
 ### -field CF_SYNC_ROOT_INFO_PROVIDER
 

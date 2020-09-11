@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetBuffer method, IAudioCaptureClient.GetBuffer, IAudioCaptureClient::GetBuffer, IAudioCaptureClientGetBuffer, audioclient/IAudioCaptureClient::GetBuffer, coreaudio.iaudiocaptureclient_getbuffer
-f1_keywords:
-- audioclient/IAudioCaptureClient.GetBuffer
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioCaptureClient.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioCaptureClient::GetBuffer
+ - audioclient/IAudioCaptureClient::GetBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioCaptureClient.GetBuffer
 ---
 
 # IAudioCaptureClient::GetBuffer
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param ppData [out]
 
 Pointer to a pointer variable into which the method writes the starting address of the next data packet that is available for the client to read.
 
-
 ### -param pNumFramesToRead [out]
 
 Pointer to a <b>UINT32</b> variable into which the method writes the frame count (the number of audio frames available in the data packet). The client should either read the entire data packet or none of it.
-
 
 ### -param pdwFlags [out]
 
@@ -88,15 +81,11 @@ AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR
 
 Pointer to a <b>UINT64</b> variable into which the method writes the device position of the first audio frame in the data packet. The device position is expressed as the number of audio frames from the start of the stream. This parameter can be <b>NULL</b> if the client does not require the device position. For more information, see Remarks.
 
-
 ### -param pu64QPCPosition [out]
 
 Pointer to a <b>UINT64</b> variable into which the method writes the value of the performance counter at the time that the audio endpoint device recorded the device position of the first audio frame in the data packet. The method converts the counter value to 100-nanosecond units before writing it to <i>*pu64QPCPosition.</i> This parameter can be <b>NULL</b> if the client does not require the performance counter value. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 Possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -194,14 +183,8 @@ Parameter ppData, pNumFramesToRead, or pdwFlags is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves the next data packet from the capture endpoint buffer. At a particular time, the buffer might contain zero, one, or more packets that are ready to read. Typically, a buffer-processing thread that reads data from a capture endpoint buffer reads all of the available packets each time the thread executes.
 
@@ -242,12 +225,7 @@ For a code example that calls the <b>GetBuffer</b> method, see <a href="https://
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
@@ -262,7 +240,4 @@ For a code example that calls the <b>GetBuffer</b> method, see <a href="https://
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">IAudioClock::GetPosition</a>
- 
-
- 
 

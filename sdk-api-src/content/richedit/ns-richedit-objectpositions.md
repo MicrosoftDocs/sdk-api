@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\objectpositions.htm
 ms.date: 12/05/2018
 ms.keywords: OBJECTPOSITIONS, OBJECTPOSITIONS structure [Windows Controls], _win32_OBJECTPOSITIONS_str, _win32_OBJECTPOSITIONS_str_cpp, controls.OBJECTPOSITIONS, controls._win32_OBJECTPOSITIONS_str, richedit/OBJECTPOSITIONS
-f1_keywords:
-- richedit/OBJECTPOSITIONS
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- OBJECTPOSITIONS
 targetos: Windows
 req.typenames: OBJECTPOSITIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _objectpositions
+ - richedit/_objectpositions
+ - OBJECTPOSITIONS
+ - richedit/OBJECTPOSITIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - OBJECTPOSITIONS
 ---
 
 # OBJECTPOSITIONS structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains object position information. 
-
+Contains object position information.
 
 ## -struct-fields
-
-
-
 
 ### -field nmhdr
 
 Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-The <b>code</b> member of this structure identifies the notification code being sent. 
-
+The <b>code</b> member of this structure identifies the notification code being sent.
 
 ### -field cObjectCount
 
@@ -71,27 +68,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of object positions.
 
-
 ### -field pcpPositions
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
-The object positions. 
-
+The object positions.
 
 ## -remarks
 
-
-
-This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a> notification. 
-
-
-
+This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a> notification.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-af8b9b30f6b0">EN_OBJECTPOSITIONS</a>
 
@@ -102,7 +89,4 @@ This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-
 
 
 <b>Reference</b>
- 
-
- 
 

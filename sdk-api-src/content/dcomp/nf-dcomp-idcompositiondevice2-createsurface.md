@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 1CBE92B6-AC48-47F1-B50A-B78030D356D8
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionDevice2 interface, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_UNSPECIFIED, IDCompositionDevice2 interface [DirectComposition],CreateSurface method, IDCompositionDevice2.CreateSurface, IDCompositionDevice2::CreateSurface, dcomp/IDCompositionDevice2::CreateSurface, directcomp.idcompositiondevice2_createsurface
-f1_keywords:
-- dcomp/IDCompositionDevice2.CreateSurface
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionDevice2.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionDevice2::CreateSurface
+ - dcomp/IDCompositionDevice2::CreateSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionDevice2.CreateSurface
 ---
 
 # IDCompositionDevice2::CreateSurface
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an updateable surface object that can be associated with one or more visuals for composition.
 
-
 ## -parameters
-
-
-
 
 ### -param width [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The width of the surface, in pixels. Constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> of the rendering device that was passed in at the time the DirectComposition device was created. 
-
+The width of the surface, in pixels. Constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> of the rendering device that was passed in at the time the DirectComposition device was created.
 
 ### -param height [in]
 
@@ -71,13 +66,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The height of the surface, in pixels. Constrained by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> of the rendering device that was passed in at the time the DirectComposition device was created.
 
-
 ### -param pixelFormat [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
 The pixel format of the surface.
-
 
 ### -param alphaMode [in]
 
@@ -122,8 +115,6 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param surface [out]
 
@@ -131,21 +122,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-
 
 The newly created surface object. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 A Microsoft DirectComposition surface is a rectangular array of pixels that can be associated with a visual for composition. 
 
@@ -165,19 +148,11 @@ DirectComposition surfaces support the following pixel formats:
 <li><b>DXGI_FORMAT_R16G16B16A16_FLOAT</b></li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createvirtualsurface">IDCompositionDevice2::CreateVirtualSurface</a>
- 
-
- 
 

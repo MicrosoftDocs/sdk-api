@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ebe5cfa7-6bfd-4454-9272-64e3b1bf0ae2
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetLastStatus method, GetLastStatus, GetLastStatus method [Security], GetLastStatus method [Security],CCertRequest object, GetLastStatus method [Security],ICertRequest interface, GetLastStatus method [Security],ICertRequest2 interface, GetLastStatus method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetLastStatus method, ICertRequest.GetLastStatus, ICertRequest2 interface [Security],GetLastStatus method, ICertRequest2::GetLastStatus, ICertRequest3 interface [Security],GetLastStatus method, ICertRequest3::GetLastStatus, ICertRequest::GetLastStatus, certcli/ICertRequest2::GetLastStatus, certcli/ICertRequest3::GetLastStatus, certcli/ICertRequest::GetLastStatus, security.icertrequest2_getlaststatus
-f1_keywords:
-- certcli/ICertRequest3.GetLastStatus
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.GetLastStatus
-- ICertRequest2.GetLastStatus
-- ICertRequest.GetLastStatus
-- CCertRequest.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest::GetLastStatus
+ - certcli/ICertRequest::GetLastStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.GetLastStatus
+ - ICertRequest2.GetLastStatus
+ - ICertRequest.GetLastStatus
+ - CCertRequest.GetLastStatus
 ---
 
 # ICertRequest::GetLastStatus
@@ -52,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetLastStatus</b> method gets the last return code for this request. This returns the error code information, rather than the disposition of the request.
 
-
 ## -parameters
-
-
-
 
 ### -param pStatus [out]
 
 A pointer to the request's status code.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -80,12 +73,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the result code of the latest call to <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">CCertRequest3.Submit</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">CCertRequest3.RetrievePending</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getcacertificate">CCertRequest3.GetCACertificate</a>.
 
-
-
-
 ## -remarks
-
-
 
 The value retrieved by <b>GetLastStatus</b> depends on the most recent call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest3::Submit</a>, 
@@ -115,14 +103,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
@@ -137,7 +118,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
- 
-
- 
 

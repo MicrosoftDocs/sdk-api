@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: d100d32a-6559-4a7c-a0ae-780bc9d82611
 ms.date: 12/05/2018
 ms.keywords: OleConvertIStorageToOLESTREAM, OleConvertIStorageToOLESTREAM function [Structured Storage], _stg_oleconvertistoragetoolestream, ole2/OleConvertIStorageToOLESTREAM, stg.oleconvertistoragetoolestream
-f1_keywords:
-- ole2/OleConvertIStorageToOLESTREAM
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- OleConvertIStorageToOLESTREAM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleConvertIStorageToOLESTREAM
+ - ole2/OleConvertIStorageToOLESTREAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - OleConvertIStorageToOLESTREAM
 ---
 
 # OleConvertIStorageToOLESTREAM function
@@ -49,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OleConvertIStorageToOLESTREAM</b> function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model but does not include the presentation data. This is one of several compatibility functions.
 
-
 ## -parameters
-
-
-
 
 ### -param pstg [in]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
 
-
 ### -param lpolestream [out]
 
 Pointer to an OLE 1 stream structure where the persistent representation of the object is saved using the OLE 1 storage model.
 
-
 ## -returns
-
-
 
 This function supports the standard return value E_INVALIDARG, in addition to the following:
 
-
-
-
 ## -remarks
-
-
 
 This function converts an OLE 2 storage object to OLE 1 format. The <b>OLESTREAM</b> structure code implemented for OLE 1 must be available.
 
@@ -93,12 +80,7 @@ On entry, the stream to which <i>lpolestm</i> points should be created and posit
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestreamex">OleConvertIStorageToOLESTREAMEx</a> function instead.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
 
@@ -113,7 +95,4 @@ On entry, the stream to which <i>lpolestm</i> points should be created and posit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>
- 
-
- 
 

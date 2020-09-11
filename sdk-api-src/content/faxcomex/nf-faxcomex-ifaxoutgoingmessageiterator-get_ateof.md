@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6e.htm
 ms.date: 12/05/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxOutgoingMessageIterator interface, IFaxOutgoingMessageIterator interface [Fax Service],AtEOF property, IFaxOutgoingMessageIterator.AtEOF, IFaxOutgoingMessageIterator.get_AtEOF, IFaxOutgoingMessageIterator::AtEOF, IFaxOutgoingMessageIterator::get_AtEOF, _mfax_faxoutgoingmessageiterator.ateof, fax._mfax_faxoutgoingmessageiterator_ateof, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_ateof_cpp, faxcomex/IFaxOutgoingMessageIterator::AtEOF, faxcomex/IFaxOutgoingMessageIterator::get_AtEOF, get_AtEOF
-f1_keywords:
-- faxcomex/IFaxOutgoingMessageIterator.AtEOF
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutgoingMessageIterator.AtEOF
-- IFaxOutgoingMessageIterator.get_AtEOF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutgoingMessageIterator::get_AtEOF
+ - faxcomex/IFaxOutgoingMessageIterator::get_AtEOF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutgoingMessageIterator.AtEOF
+ - IFaxOutgoingMessageIterator.get_AtEOF
 ---
 
 # IFaxOutgoingMessageIterator::get_AtEOF
@@ -50,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The AtEOF property is the end-of-file marker for the archive of outbound fax messages.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond the last fax message in the archive. If this property is equal to <b>FALSE</b>, the archive cursor has not reached the end of the archive.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessageiterator">FaxOutgoingMessageIterator</a>
 
@@ -82,7 +72,4 @@ If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond th
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
- 
-
- 
 

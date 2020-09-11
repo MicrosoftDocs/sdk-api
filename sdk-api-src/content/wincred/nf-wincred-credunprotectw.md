@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
 ms.date: 12/05/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
-f1_keywords:
-- wincred/CredUnprotect
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredUnprotect
-- CredUnprotectA
-- CredUnprotectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredUnprotectW
+ - wincred/CredUnprotectW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredUnprotect
+ - CredUnprotectA
+ - CredUnprotectW
 ---
 
 # CredUnprotectW function
@@ -54,43 +55,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredUnprotect</b> function decrypts credentials that were previously encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function. The credentials must have been encrypted in the same security context in which <b>CredUnprotect</b> is called.
 
-
 ## -parameters
-
-
-
 
 ### -param fAsSelf [in]
 
 Set to <b>TRUE</b> to specify that the credentials were encrypted in the security context of the current process. Set to <b>FALSE</b> to specify that credentials were encrypted in the security context of the calling thread security context.
 
-
 ### -param pszProtectedCredentials [in]
 
 A pointer to a string that specifies the encrypted credentials.
-
 
 ### -param cchProtectedCredentials [in]
 
 The size, in characters, of the <i>pszProtectedCredentials</i> buffer.
 
-
 ### -param pszCredentials [out]
 
 A pointer to a string that, on output, receives the decrypted credentials.
-
 
 ### -param pcchMaxChars [in, out]
 
 The size, in characters of the <i>pszCredentials</i> buffer. On output, if the <i>pszCredentials</i> is not of sufficient size to receive the encrypted credentials, this parameter specifies the required size, in characters, of the <i>pszCredentials</i> buffer.
 
-
 ## -returns
-
-
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
@@ -127,9 +116,6 @@ The <i>pszCredentials</i> buffer was of insufficient size.
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

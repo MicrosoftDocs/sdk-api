@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment
-f1_keywords:
-- wsdattachment/IWSDInboundAttachment
-dev_langs:
-- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDInboundAttachment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDInboundAttachment
+ - wsdattachment/IWSDInboundAttachment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDInboundAttachment
 ---
 
 # IWSDInboundAttachment interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows applications to read MIME-encoded attachment data from an incoming message.
-
 
 ## -inheritance
 
@@ -86,25 +85,13 @@ Reads attachment data from a message sent by a remote host.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 WSDAPI will provide an object implementing this interface when an attachment stream is received as part of a message.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>
- 
-
- 
 

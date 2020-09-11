@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_DESCRIPTOR, EVENT_DESCRIPTOR, EVENT_DESCRIPTOR structure [ETW], PCEVENT_DESCRIPTOR, PCEVENT_DESCRIPTOR structure pointer [ETW], PEVENT_DESCRIPTOR, PEVENT_DESCRIPTOR structure pointer [ETW], _EVENT_DESCRIPTOR, base.event_descriptor, etw.event_descriptor, relogger/EVENT_DESCRIPTOR, relogger/PCEVENT_DESCRIPTOR, relogger/PEVENT_DESCRIPTOR'
-f1_keywords:
-- relogger/EVENT_DESCRIPTOR
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: Evntprov.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- relogger.h
-api_name:
-- EVENT_DESCRIPTOR
 targetos: Windows
 req.typenames: EVENT_DESCRIPTOR, *PEVENT_DESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVENT_DESCRIPTOR
+ - relogger/_EVENT_DESCRIPTOR
+ - PEVENT_DESCRIPTOR
+ - relogger/PEVENT_DESCRIPTOR
+ - EVENT_DESCRIPTOR
+ - relogger/EVENT_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - relogger.h
+api_name:
+ - EVENT_DESCRIPTOR
 ---
 
 # EVENT_DESCRIPTOR structure
@@ -49,53 +54,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EVENT_DESCRIPTOR</b> structure contains metadata that defines the event.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Id
 
-The event identifier. 
-
+The event identifier.
 
 ### -field Version
 
 The version of the event. The version indicates a revision to the event definition. You can use this member and the Id member to uniquely identify the event within the scope of a provider.
 
-
 ### -field Channel
 
-The audience for the event (for example, administrator or developer). 
-
+The audience for the event (for example, administrator or developer).
 
 ### -field Level
 
-The severity or level of detail included in the event (for example, informational or fatal). 
-
+The severity or level of detail included in the event (for example, informational or fatal).
 
 ### -field Opcode
 
 A step in a sequence of operations being performed within the Task.
 
-
 ### -field Task
 
 A larger unit of work within an application or component (is broader than the Opcode).
-
 
 ### -field Keyword
 
 A bitmask that specifies a logical group of related events. Each bit corresponds to one group. An event may belong to one or more groups. The keyword can contain one or more provider-defined keywords, standard keywords, or both.
 
-
 ## -remarks
-
-
 
 This structure represents an event defined in the manifest. You do not declare and populate this structure, instead you use the <a href="https://docs.microsoft.com/windows/desktop/WES/message-compiler--mc-exe-">Message Compiler (MC.exe)</a> to generate a header file that declares and populates this structure for each event in the manifest. For details on writing the manifest and generating the header file, see <a href="https://docs.microsoft.com/windows/desktop/WES/writing-an-instrumentation-manifest">Writing an Instrumentation Manifest</a> and <a href="https://docs.microsoft.com/windows/desktop/WES/compiling-an-instrumentation-manifest">Compiling an Instrumentation Manifest</a>.
 
@@ -105,13 +96,7 @@ For details on the members of this structure, see the attributes of the <a href=
 
 This structure is also included in the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> structure that is returned with the event record when you consume events using the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For MOF-defined events, the <b>Opcode</b> member contains the event type value. The <b>Version</b> and <b>Level</b> members contain the expected information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a>
 
@@ -206,7 +191,4 @@ This structure is also included in the <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation">TdhGetManifestEventInformation</a>
- 
-
- 
 

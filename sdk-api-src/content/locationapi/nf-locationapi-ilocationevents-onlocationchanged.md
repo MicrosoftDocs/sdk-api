@@ -8,10 +8,6 @@ tech.root: winlocation
 ms.assetid: 14353c8e-15f5-493b-9b49-139924f2397e
 ms.date: 12/05/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnLocationChanged method, ILocationEvents.OnLocationChanged, ILocationEvents::OnLocationChanged, OnLocationChanged, OnLocationChanged method [WinLocation], OnLocationChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onlocationchanged, locationapi/ILocationEvents::OnLocationChanged
-f1_keywords:
-- locationapi/ILocationEvents.OnLocationChanged
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILocationEvents.OnLocationChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocationEvents::OnLocationChanged
+ - locationapi/ILocationEvents::OnLocationChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILocationEvents.OnLocationChanged
 ---
 
 # ILocationEvents::OnLocationChanged
@@ -49,41 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Called when a new location report is available.
 
-
 ## -parameters
-
-
-
 
 ### -param reportType [in]
 
 <b>REFIID</b> that contains the interface ID of the report type contained in <i>pLocationReport</i>.
 
-
 ### -param pLocationReport [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> instance that contains the new location report.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface of specific location report types. The actual interface that the caller receives for <i>pLocationReport</i> will match the type specified by <i>reportType</i>.
 
@@ -193,7 +179,4 @@ STDMETHODIMP CLocationEvents::OnLocationChanged(REFIID reportType, ILocationRepo
 }
 
 ```
-
-
-
 

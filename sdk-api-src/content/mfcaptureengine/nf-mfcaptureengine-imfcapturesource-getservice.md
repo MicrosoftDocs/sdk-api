@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 67A77196-A499-4C28-8A35-CFB130B85D79
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetService method, IMFCaptureSource.GetService, IMFCaptureSource::GetService, mf.imfcapturesource_getservice, mfcaptureengine/IMFCaptureSource::GetService
-f1_keywords:
-- mfcaptureengine/IMFCaptureSource.GetService
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSource.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSource::GetService
+ - mfcaptureengine/IMFCaptureSource::GetService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSource.GetService
 ---
 
 # IMFCaptureSource::GetService
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the underlying <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param rguidService [in]
 
 A service identifier GUID. Currently the value must be <b>IID_IMFSourceReader</b> or <b>GUID_NULL</b>.
 
-
 ### -param riid [in]
 
 The interface identifier (IID) of the interface being requested. The value must be <b>IID_IMFSourceReader</b>. If the value is not set to <b>IID_IMFSourceReader</b>, the call  will fail and return <b>E_INVALIDARG</b>.
-
 
 ### -param ppUnknown [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
 
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,18 +109,8 @@ The capture source was not initialized. Possibly there is no capture device on t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
- 
-
- 
 

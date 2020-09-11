@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.date: 12/05/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
-f1_keywords:
-- wincrypt/CryptDestroyHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptDestroyHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptDestroyHash
+ - wincrypt/CryptDestroyHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptDestroyHash
 ---
 
 # CryptDestroyHash function
@@ -51,25 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptDestroyHash</b> function destroys the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a> referenced by the <i>hHash</i> parameter. After a hash object has been destroyed, it can no longer be used.
 
 To help ensure security, we recommend that hash objects be destroyed after they have been used.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 The handle of the hash object to be destroyed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -150,14 +143,8 @@ The CSP context that was specified when the hash object was created cannot be fo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a hash object is destroyed, many CSPs overwrite the memory in the CSP where the hash object was held. The CSP memory is then freed.
 
@@ -173,12 +160,7 @@ For an example that uses the <b>CryptDestroyHash</b> function, see <a href="http
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
@@ -193,7 +175,4 @@ For an example that uses the <b>CryptDestroyHash</b> function, see <a href="http
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

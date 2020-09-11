@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7162bf80-3730-46d7-a603-2a55b969c9ba
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY structure [Security], AUTHZ_GENERATE_FAILURE_AUDIT, AUTHZ_GENERATE_SUCCESS_AUDIT, ERROR_ACCESS_DENIED, ERROR_PRIVILEGE_NOT_HELD, ERROR_SUCCESS, PAUTHZ_ACCESS_REPLY, PAUTHZ_ACCESS_REPLY structure pointer [Security], _win32_authz_access_reply, authz/AUTHZ_ACCESS_REPLY, authz/PAUTHZ_ACCESS_REPLY, security.authz_access_reply'
-f1_keywords:
-- authz/AUTHZ_ACCESS_REPLY
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Authz.h
-api_name:
-- AUTHZ_ACCESS_REPLY
 targetos: Windows
 req.typenames: AUTHZ_ACCESS_REPLY, *PAUTHZ_ACCESS_REPLY
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - _AUTHZ_ACCESS_REPLY
+ - authz/_AUTHZ_ACCESS_REPLY
+ - PAUTHZ_ACCESS_REPLY
+ - authz/PAUTHZ_ACCESS_REPLY
+ - AUTHZ_ACCESS_REPLY
+ - authz/AUTHZ_ACCESS_REPLY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Authz.h
+api_name:
+ - AUTHZ_ACCESS_REPLY
 ---
 
 # AUTHZ_ACCESS_REPLY structure
@@ -49,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AUTHZ_ACCESS_REPLY</b> structure defines an access check reply.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ResultListLength
 
 The number of elements in the <b>GrantedAccessMask</b>, <b>SaclEvaluationResults</b>, and <b>Error</b> arrays. This number matches the number of entries in the object type list structure used in the access check.
 						 If no object type is used to represent the object, then set <b>ResultListLength</b> to one.
 
-
 ### -field GrantedAccessMask
 
 An array of granted access masks. Memory for this array is allocated by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>.
-
 
 ### -field SaclEvaluationResults
 
@@ -101,8 +99,6 @@ An audit message that indicates failure was generated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Error
 
@@ -157,16 +153,8 @@ Includes each of the following:
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
- 
-
- 
 

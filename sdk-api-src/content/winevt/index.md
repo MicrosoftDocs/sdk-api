@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wes
+f1_keywords:
+ - winevt
+ - winevt/winevt
 ---
 
 # Winevt.h header
 
 
 ## -description
-
 
 This header is used by Windows Event Log. For more information, see:
 

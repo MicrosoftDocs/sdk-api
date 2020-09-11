@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: ef76d0e5-2999-4a21-8522-c698013e3816
 ms.date: 12/05/2018
 ms.keywords: NormalizeString, NormalizeString function [Internationalization for Windows Applications], _win32_NormalizeString, intl.normalizestring, winnls/NormalizeString
-f1_keywords:
-- winnls/NormalizeString
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Normaliz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Normaliz.dll
-- API-MS-Win-Core-normalization-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- NormalizeString
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1
 ms.custom: 19H1
+f1_keywords:
+ - NormalizeString
+ - winnls/NormalizeString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Normaliz.dll
+ - API-MS-Win-Core-normalization-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - NormalizeString
 ---
 
 # NormalizeString function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param NormForm [in]
 
 Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
 
-
 ### -param lpSrcString [in]
 
 Pointer to the non-normalized source string.
 
-
 ### -param cwSrcLength [in]
 
 Length, in characters, of the buffer containing the source string. The application can set this parameter to -1 if the function should assume the string to be null-terminated and calculate the length automatically.
-
 
 ### -param lpDstString [out, optional]
 
@@ -86,10 +79,7 @@ Pointer to a buffer in which the function retrieves the destination string. Alte
 
 Length, in characters, of the buffer containing the destination string. Alternatively, the application can set this parameter to 0 to request the function to return the required size for the destination buffer.
 
-
 ## -returns
-
-
 
 Returns the length of the normalized string in the destination buffer. If <i>cwDstLength</i> is set to 0, the function returns the estimated buffer length required to do the actual conversion.
 
@@ -104,11 +94,7 @@ The function returns a value that is less than or equal to 0 if it does not succ
 <li>ERROR_SUCCESS. The action completed successfully but yielded no results.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 Some Unicode characters have multiple equivalent binary representations consisting of sets of combining and/or composite Unicode characters. The Unicode standard defines a process called normalization that returns one binary representation when given any of the equivalent binary representations of a character. Normalization can be performed with several algorithms, called normalization forms, that obey different rules, as described in <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>. The Win32 and the .NET Framework currently support normalization forms C, D, KC, and KD, as defined in <a href="https://www.unicode.org/reports/tr15">Unicode Standard Annex #15: Unicode Normalization Forms</a>. Normalized strings are typically evaluated with an ordinal comparison.
 
@@ -155,12 +141,7 @@ An example showing the use of this function can be found in <a href="https://doc
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnormalizedstring">IsNormalizedString</a>
 
@@ -179,7 +160,4 @@ An example showing the use of this function can be found in <a href="https://doc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f3884dbf-c75c-45f7-953c-bfdc14734820
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectShow], GetSurfaceDesc method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceDesc method, IDirectDrawVideo.GetSurfaceDesc, IDirectDrawVideo::GetSurfaceDesc, IDirectDrawVideoGetSurfaceDesc, amvideo/IDirectDrawVideo::GetSurfaceDesc, dshow.idirectdrawvideo_getsurfacedesc
-f1_keywords:
-- amvideo/IDirectDrawVideo.GetSurfaceDesc
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDirectDrawVideo.GetSurfaceDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawVideo::GetSurfaceDesc
+ - amvideo/IDirectDrawVideo::GetSurfaceDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDirectDrawVideo.GetSurfaceDesc
 ---
 
 # IDirectDrawVideo::GetSurfaceDesc
@@ -50,52 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetSurfaceDesc</code> method retrieves a <b>DDSURFACEDESC</b> structure describing the current DirectDraw surface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSurfaceDesc
 
 Pointer to a <b>DDSURFACEDESC</b> structure describing the current DirectDraw surface.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. If no surface has been allocated, this method will return E_FAIL. If a DCI primary surface is in use, the <b>DDSURFACEDESC</b> structure will not be filled in and the call will return S_FALSE.
 
-
-
-
 ## -remarks
-
-
 
 Surfaces are allocated only when the renderer is paused. After the renderer has been paused, it cannot release the surfaces when stopped.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7fd0290c-8fd6-4af6-b510-7a87bc7937de
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], IAMVideoAcceleratorNotify interface [DirectShow],described, IAMVideoAcceleratorNotifyInterface, dshow.iamvideoacceleratornotify, videoacc/IAMVideoAcceleratorNotify
-f1_keywords:
-- videoacc/IAMVideoAcceleratorNotify
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAcceleratorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAcceleratorNotify
+ - videoacc/IAMVideoAcceleratorNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAcceleratorNotify
 ---
 
 # IAMVideoAcceleratorNotify interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAMVideoAcceleratorNotify</b> interface is a callback interface used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator</a> interface. It enables the video renderer filter to communicate with the video decoder when configuring 
         
       DirectX Video Acceleration (DXVA) decoding.
-
 
 ## -inheritance
 
@@ -98,20 +97,13 @@ Notifies the decoder of how many uncompressed surfaces were created.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-reference">DirectShow Reference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
- 
-
- 
 

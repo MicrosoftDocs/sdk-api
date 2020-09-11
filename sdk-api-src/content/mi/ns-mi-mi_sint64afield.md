@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 5004d3e3-43bf-4a83-b2db-f916e8fed816
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64AField, MI_Sint64AField structure [Windows Management Infrastructure (MI)], mi/MI_Sint64AField, wmi._mi_sint64afield, wmi_v2.mi_sint64afield
-f1_keywords:
-- mi/MI_Sint64AField
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Sint64AField
 targetos: Windows
 req.typenames: MI_Sint64AField
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_Sint64AField
+ - mi/_MI_Sint64AField
+ - MI_Sint64AField
+ - mi/MI_Sint64AField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Sint64AField
 ---
 
 # MI_Sint64AField structure
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field value
 
 A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_sint64a">MI_Sint64A</a>.
 
-
 ### -field exists
 
 Indicates whether the field is non-null. Can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 

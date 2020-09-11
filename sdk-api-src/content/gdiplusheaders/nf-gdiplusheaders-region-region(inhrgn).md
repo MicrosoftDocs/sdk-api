@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_79hrgn.htm
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(HRGN), Region.Region(IN HRGN), Region::Region, Region::Region(IN HRGN), _gdiplus_CLASS_Region_Region_hRgn_, gdiplus._gdiplus_CLASS_Region_Region_hRgn_
-f1_keywords:
-- gdiplusheaders/Region.Region
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.Region
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::Region
+ - gdiplusheaders/Region::Region
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.Region
 ---
 
 # Region::Region(IN HRGN)
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a region that is identical to the region that is specified by a handle to a Windows Graphics Device Interface (GDI) region.
 
-
 ## -parameters
-
-
-
 
 ### -param hRgn [in]
 
 Type: <b>HRGN</b>
 
-Handle to an existing GDI region. 
+Handle to an existing GDI region.
 

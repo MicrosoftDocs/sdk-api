@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: sysmon
+f1_keywords:
+ - isysmon
+ - isysmon/isysmon
 ---
 
 # Isysmon.h header
 
 
 ## -description
-
 
 This header is used by System Monitor. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: ifsk
 ms.assetid: d5124ac2-dd1e-46b2-b25c-e965768eaf9e
 ms.date: 12/05/2018
 ms.keywords: FilterGetInformation, FilterGetInformation function [Installable File System Drivers], FltWin32ApiRef_244d89a8-3a31-44bd-bc08-b3ea8bb4dbba.xml, fltuser/FilterGetInformation, ifsk.filtergetinformation
-f1_keywords:
-- fltuser/FilterGetInformation
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterGetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterGetInformation
+ - fltuser/FilterGetInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterGetInformation
 ---
 
 # FilterGetInformation function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FilterGetInformation</b> function returns various kinds of information about a minifilter.
 
-
 ## -parameters
-
-
-
 
 ### -param hFilter [in]
 
 Handle returned by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a> function.
-
 
 ### -param dwInformationClass [in]
 
@@ -103,27 +98,20 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conten
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
-Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>dwInformationClass</i> parameter. 
-
+Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>dwInformationClass</i> parameter.
 
 ### -param dwBufferSize [in]
 
-Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The caller should set this parameter according to the given <i>dwInformationClass</i>. 
-
+Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The caller should set this parameter according to the given <i>dwInformationClass</i>.
 
 ### -param lpBytesReturned [out]
 
-Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterGetInformation</b> succeeds. This parameter is required and cannot be <b>NULL</b>. 
-
+Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterGetInformation</b> succeeds. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FilterGetInformation</b> returns S_OK if successful. Otherwise, it returns an HRESULT error value, such as one of the following:
 
@@ -156,24 +144,12 @@ An invalid value was specified for the <i>dwInformationClass</i> parameter.  For
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>FilterGetInformation</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>. 
-
-
-
+<b>FilterGetInformation</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
@@ -192,7 +168,4 @@ An invalid value was specified for the <i>dwInformationClass</i> parameter.  For
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>
- 
-
- 
 

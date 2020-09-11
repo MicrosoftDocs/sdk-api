@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 5eb92c58-150a-4e52-897f-e2a2da36743d
 ms.date: 12/05/2018
 ms.keywords: SetupDiRemoveDeviceInterface, SetupDiRemoveDeviceInterface function [Device and Driver Installation], devinst.setupdiremovedeviceinterface, di-rtns_8401d04f-f4a5-4214-88fe-2c1309978af9.xml, setupapi/SetupDiRemoveDeviceInterface
-f1_keywords:
-- setupapi/SetupDiRemoveDeviceInterface
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiRemoveDeviceInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiRemoveDeviceInterface
+ - setupapi/SetupDiRemoveDeviceInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiRemoveDeviceInterface
 ---
 
 # SetupDiRemoveDeviceInterface function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiRemoveDeviceInterface</b> function removes a registered device interface from the system.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>.
 
 ### -param DeviceInterfaceData [in, out]
 
@@ -69,19 +64,11 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 After the interface is removed, this function sets the SPINT_REMOVED flag in <i>DeviceInterfaceData</i><b>.Flags</b>. It also clears the SPINT_ACTIVE flag, but be aware that this flag should have already been cleared before this function was called.
 
-
 ## -returns
-
-
 
 <b>SetupDiRemoveDeviceInterface</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, it returns <b>FALSE</b> and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The caller of this function must be a member of the Administrators group.
 
@@ -89,15 +76,9 @@ The caller of this function must be a member of the Administrators group.
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a> to delete the interface from a device information list.
 
-A device interface must be disabled to be removed. If the interface is enabled, this function fails and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_DEVICE_INTERFACE_ACTIVE. Disable an interface by using whatever interface-specific mechanism is provided (for example, an IOCTL). If the caller has no way to disable an interface and the interface must be removed, the caller must stop the underlying device by using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>. Stopping the device disables all the interfaces exposed by the device. 
-
-
-
+A device interface must be disabled to be removed. If the interface is enabled, this function fails and <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_DEVICE_INTERFACE_ACTIVE. Disable an interface by using whatever interface-specific mechanism is provided (for example, an IOCTL). If the caller has no way to disable an interface and the interface must be removed, the caller must stop the underlying device by using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>. Stopping the device disables all the interfaces exposed by the device.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>
 
@@ -116,7 +97,4 @@ A device interface must be disabled to be removed. If the interface is enabled, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
- 
-
- 
 

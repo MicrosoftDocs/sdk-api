@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 3729D985-9040-43AD-A8B0-045509FE2F20
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], ISpatialAudioObjectRenderStreamNotify interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamnotify, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
-f1_keywords:
-- spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- ISpatialAudioObjectRenderStreamNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectRenderStreamNotify
+ - spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - ISpatialAudioObjectRenderStreamNotify
 ---
 
 # ISpatialAudioObjectRenderStreamNotify interface
 
 
 ## -description
-
-
 
 Provides notifications for spatial audio clients to respond to changes in the state of an  <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>. 
 
@@ -58,7 +57,6 @@ You register the object that implements this interface by assigning it to the <i
 
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
-
 
 ## -inheritance
 
@@ -84,5 +82,5 @@ Notifies the spatial audio client when the rendering capacity for an <a href="ht
 
 </td>
 </tr>
-</table> 
+</table>
 

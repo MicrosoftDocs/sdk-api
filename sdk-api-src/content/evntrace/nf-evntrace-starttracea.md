@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
 ms.date: 12/05/2018
 ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW
-f1_keywords:
-- evntrace/StartTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- StartTrace
-- StartTraceA
-- StartTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StartTraceA
+ - evntrace/StartTraceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - StartTrace
+ - StartTraceA
+ - StartTraceW
 ---
 
 # StartTraceA function
@@ -57,15 +58,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StartTrace</b> function registers and starts an event 
    tracing session.
 
-
 ## -parameters
-
-
-
 
 ### -param TraceHandle [out]
 
@@ -73,7 +69,6 @@ Handle to the event tracing session.
 
 Do not use this handle if the function fails. Do not compare the session handle to INVALID_HANDLE_VALUE; the 
        session handle is 0 if the handle is not valid.
-
 
 ### -param InstanceName [in]
 
@@ -85,7 +80,6 @@ Null-terminated string that contains the name of the event tracing session. The 
 
 This function copies the session name that you provide to the offset that the 
        <b>LoggerNameOffset</b> member of <i>Properties</i> points to.
-
 
 ### -param Properties [in, out]
 
@@ -105,10 +99,7 @@ Depending on the type of log file you choose to create, you may also need to spe
 
 <b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StartTrace</b> when starting system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
       
@@ -244,14 +235,8 @@ Prior to Windows 10, version 1709, this is a fixed cap of 64 loggers for non-pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -315,15 +300,9 @@ For an example that uses <b>StartTrace</b>, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
- 
-
- 
 

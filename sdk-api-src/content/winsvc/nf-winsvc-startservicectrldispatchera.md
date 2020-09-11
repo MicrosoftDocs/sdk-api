@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad
 ms.date: 12/05/2018
 ms.keywords: StartServiceCtrlDispatcher, StartServiceCtrlDispatcher function, StartServiceCtrlDispatcherA, StartServiceCtrlDispatcherW, _win32_startservicectrldispatcher, base.startservicectrldispatcher, winsvc/StartServiceCtrlDispatcher, winsvc/StartServiceCtrlDispatcherA, winsvc/StartServiceCtrlDispatcherW
-f1_keywords:
-- winsvc/StartServiceCtrlDispatcher
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-Core-l1-1-0.dll
-- API-MS-Win-Service-Core-l1-1-1.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-- API-Ms-Win-Service-Core-L1-1-2.dll
-api_name:
-- StartServiceCtrlDispatcher
-- StartServiceCtrlDispatcherA
-- StartServiceCtrlDispatcherW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StartServiceCtrlDispatcherA
+ - winsvc/StartServiceCtrlDispatcherA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-Core-l1-1-0.dll
+ - API-MS-Win-Service-Core-l1-1-1.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+ - API-Ms-Win-Service-Core-L1-1-2.dll
+api_name:
+ - StartServiceCtrlDispatcher
+ - StartServiceCtrlDispatcherA
+ - StartServiceCtrlDispatcherW
 ---
 
 # StartServiceCtrlDispatcherA function
@@ -58,24 +59,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param lpServiceStartTable [in]
 
 A pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_table_entrya">SERVICE_TABLE_ENTRY</a> structures containing one entry for each service that can execute in the calling process. The members of the last entry in the table must have NULL values to designate the end of the table.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -128,14 +121,8 @@ The specified dispatch table contains entries that are not in the proper format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the service control manager starts a service process, it waits for the process to call the 
 <b>StartServiceCtrlDispatcher</b> function. The main thread of a service process should make this call as soon as possible after it starts up (within 30 seconds). If 
@@ -174,9 +161,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
@@ -198,7 +182,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
- 
-
- 
 

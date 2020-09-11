@@ -8,10 +8,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 8D4EAB0A-1976-4A40-932C-AAE67F524B94
 ms.date: 12/05/2018
 ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
-f1_keywords:
-- xamlom/IBitmapData.GetStride
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xamlom.h
-api_name:
-- IBitmapData.GetStride
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitmapData::GetStride
+ - xamlom/IBitmapData::GetStride
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xamlom.h
+api_name:
+ - IBitmapData.GetStride
 ---
 
 # IBitmapData::GetStride
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the stride of the data. This is the length in bytes of each row of the bitmap. 
-
+Gets the stride of the data. This is the length in bytes of each row of the bitmap.
 
 ## -parameters
-
-
-
 
 ### -param pStride [out]
 
 The length in bytes of each row of the bitmap.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>
- 
-
- 
 

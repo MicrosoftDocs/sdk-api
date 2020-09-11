@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 083B9B3C-B4B8-4336-8614-61899FBC5E47
 ms.date: 12/05/2018
 ms.keywords: CachedDropTargetEffect property [Windows Accessibility], CachedDropTargetEffect property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffect property, IUIAutomationDropTargetPattern.CachedDropTargetEffect, IUIAutomationDropTargetPattern.get_CachedDropTargetEffect, IUIAutomationDropTargetPattern::CachedDropTargetEffect, IUIAutomationDropTargetPattern::get_CachedDropTargetEffect, get_CachedDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffect, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffect, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffect
-f1_keywords:
-- uiautomationclient/IUIAutomationDropTargetPattern.CachedDropTargetEffect
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationDropTargetPattern.CachedDropTargetEffect
-- IUIAutomationDropTargetPattern.get_CachedDropTargetEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationDropTargetPattern::get_CachedDropTargetEffect
+ - uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationDropTargetPattern.CachedDropTargetEffect
+ - IUIAutomationDropTargetPattern.get_CachedDropTargetEffect
 ---
 
 # IUIAutomationDropTargetPattern::get_CachedDropTargetEffect
@@ -50,31 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a cached localized string that describes what happens when the user drops the grabbed element on this drop target.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property describes the default effect that happens when the user drops a grabbed element on a target, such as moving or copying the element.  This property can be a short string such as "move", or a longer one such as "insert into Main group".  The string is always localized.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdroptargetpattern">IUIAutomationDropTargetPattern</a>
- 
-
- 
 

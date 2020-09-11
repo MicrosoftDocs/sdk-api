@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_FLAG_ASYNC, WinHttpOpen, WinHttpOpen function [WinHTTP], http.winhttpopen, winhttp.winhttpopen_function, winhttp/WinHttpOpen
-f1_keywords:
-- winhttp/WinHttpOpen
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpOpen
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpOpen
+ - winhttp/WinHttpOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpOpen
 ---
 
 # WinHttpOpen function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpOpen</b> function initializes, for an application, the use of WinHTTP functions and returns a WinHTTP-session handle.
 
-
 ## -parameters
-
-
-
 
 ### -param pszAgentW [in, optional]
 
 A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/glossary">user agent</a> in the HTTP protocol.
-
 
 ### -param dwAccessType [in]
 
@@ -124,8 +119,6 @@ Uses system and per-user proxy settings (including the Internet Explorer proxy c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszProxyW [in]
 
@@ -135,7 +128,6 @@ A pointer to a string variable that contains the name of the proxy server to use
 <i>dwAccessType</i> is not set to 
 <b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_NAME</b>.
 
-
 ### -param pszProxyBypassW [in]
 
 A pointer to a string variable that contains an optional semicolon delimited list of host names or IP addresses, or both, that should not be routed through the proxy when 
@@ -144,7 +136,6 @@ A pointer to a string variable that contains an optional semicolon delimited lis
 <b>WinHttpOpen</b> function uses it as the proxy bypass list. If this parameter specifies the "&lt;local&gt;" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If 
 <i>dwAccessType</i> is not set to 
 <b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_BYPASS</b>.
-
 
 ### -param dwFlags [in]
 
@@ -167,12 +158,8 @@ Use the WinHTTP functions asynchronously. By default, all WinHTTP functions that
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a valid session handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -205,14 +192,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 We strongly recommend that you use WinHTTP in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <b>WinHttpOpen</b>, so that usage of the returned <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> become asynchronous). The return value indicates success or failure. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -276,14 +257,7 @@ The following example code shows how to retrieve the default connection time-out
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -294,7 +268,4 @@ The following example code shows how to retrieve the default connection time-out
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
- 
-
- 
 

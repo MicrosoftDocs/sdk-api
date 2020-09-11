@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 940381BB-E8E6-416D-8F36-CC3591E70702
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS1, D3D11_FEATURE_DATA_D3D11_OPTIONS1 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS1, direct3d11.d3d11_feature_data_d3d11_options1
-f1_keywords:
-- d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS1
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_FEATURE_DATA_D3D11_OPTIONS1
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_FEATURE_DATA_D3D11_OPTIONS1
+ - d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_FEATURE_DATA_D3D11_OPTIONS1
 ---
 
 ## -description
@@ -93,3 +94,4 @@ On non-unified memory architecture systems (discrete GPUs), apps should not use 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature">D3D11_FEATURE</a>
+

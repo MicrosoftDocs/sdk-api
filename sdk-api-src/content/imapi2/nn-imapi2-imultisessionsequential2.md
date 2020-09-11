@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], IMultisessionSequential2 interface [IMAPI],described, imapi.imultisessionsequential2, imapi2/IMultisessionSequential2
-f1_keywords:
-- imapi2/IMultisessionSequential2
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionSequential2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionSequential2
+ - imapi2/IMultisessionSequential2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionSequential2
 ---
 
 # IMultisessionSequential2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to retrieve information about the size of a writeable unit on sequentially recorded media.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Retrieves the size of a writeable unit on the media.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>
- 
-
- 
 

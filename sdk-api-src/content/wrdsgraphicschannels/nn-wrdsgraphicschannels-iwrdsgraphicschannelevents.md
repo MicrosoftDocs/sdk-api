@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 59802a2d-bdb0-4792-b667-5095d4a02b06
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], IWRdsGraphicsChannelEvents interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelevents, wrdsgraphicschannels/IWRdsGraphicsChannelEvents
-f1_keywords:
-- wrdsgraphicschannels/IWRdsGraphicsChannelEvents
-dev_langs:
-- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wrdsgraphicschannels.h
-api_name:
-- IWRdsGraphicsChannelEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsGraphicsChannelEvents
+ - wrdsgraphicschannels/IWRdsGraphicsChannelEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wrdsgraphicschannels.h
+api_name:
+ - IWRdsGraphicsChannelEvents
 ---
 
 # IWRdsGraphicsChannelEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface receives notifications that relate to a graphics virtual channel. This interface is implemented by the RemoteFX graphics services and a pointer to this interface is provided to the graphics virtual channel in the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a> method.
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Called to notify the RemoteFX graphics services that network conditions have cha
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannel-open">IWRdsGraphicsChannel::Open</a>
- 
-
- 
 

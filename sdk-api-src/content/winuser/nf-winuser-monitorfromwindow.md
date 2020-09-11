@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: fe6505c9-b481-4fec-ae9d-995943234a3a
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromWindow, MonitorFromWindow function [Windows GDI], _win32_MonitorFromWindow, gdi.monitorfromwindow, winuser/MonitorFromWindow
-f1_keywords:
-- winuser/MonitorFromWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-api_name:
-- MonitorFromWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonitorFromWindow
+ - winuser/MonitorFromWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+api_name:
+ - MonitorFromWindow
 ---
 
 # MonitorFromWindow function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MonitorFromWindow</b> function retrieves a handle to the display monitor that has the largest area of intersection with the bounding rectangle of a specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to the window of interest.
-
 
 ### -param dwFlags [in]
 
@@ -107,33 +102,18 @@ Returns a handle to the primary display monitor.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the window intersects one or more display monitor rectangles, the return value is an <b>HMONITOR</b> handle to the display monitor that has the largest area of intersection with the window.
 
 If the window does not intersect a display monitor, the return value depends on the value of <i>dwFlags</i>.
 
-
-
-
 ## -remarks
-
-
 
 If the window is currently minimized, <b>MonitorFromWindow</b> uses the rectangle of the window before it was minimized.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfrompoint">MonitorFromPoint</a>
 
@@ -148,7 +128,4 @@ If the window is currently minimized, <b>MonitorFromWindow</b> uses the rectangl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
- 
-
- 
 

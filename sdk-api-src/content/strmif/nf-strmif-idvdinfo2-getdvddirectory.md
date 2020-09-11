@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fad4dd0a-4831-4460-9631-ed06b6647f2d
 ms.date: 12/05/2018
 ms.keywords: GetDVDDirectory, GetDVDDirectory method [DirectShow], GetDVDDirectory method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDDirectory method, IDvdInfo2.GetDVDDirectory, IDvdInfo2::GetDVDDirectory, IDvdInfo2GetDVDDirectory, dshow.idvdinfo2_getdvddirectory, strmif/IDvdInfo2::GetDVDDirectory
-f1_keywords:
-- strmif/IDvdInfo2.GetDVDDirectory
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDVDDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDVDDirectory
+ - strmif/IDvdInfo2::GetDVDDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDVDDirectory
 ---
 
 # IDvdInfo2::GetDVDDirectory
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDVDDirectory</code> method retrieves the root directory that is set in the DVD Navigator.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszwPath [out]
 
 Pointer to a buffer that receives the path string.
 
-
 ### -param ulMaxSize [in]
 
 Size of the buffer, in WCHARs.
-
 
 ### -param pulActualSize [out]
 
 Pointer to a variable that receives the size of actual data returned, in WCHARs.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -122,24 +110,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is demonstrated in the DVDSample application in <b>CDvdCore::GetDriveLetter</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -150,7 +126,4 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::GetDriv
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
 

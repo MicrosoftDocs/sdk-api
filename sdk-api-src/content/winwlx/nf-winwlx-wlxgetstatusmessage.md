@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.date: 12/05/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
-f1_keywords:
-- winwlx/WlxGetStatusMessage
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxGetStatusMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxGetStatusMessage
+ - winwlx/WlxGetStatusMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxGetStatusMessage
 ---
 
 # WlxGetStatusMessage function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxGetStatusMessage function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,33 +57,24 @@ The <b>WlxGetStatusMessage</b> function must be implemented by a replacement <a 
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
-
 ### -param pdwOptions [out]
 
 Pointer to a <b>DWORD</b> that will hold the display options for the current status message.
-
 
 ### -param pMessage [out]
 
 Returns the current status message text.
 
-
 ### -param dwBufferSize [in]
 
 Size of the <i>pMessage</i> buffer.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -113,15 +104,8 @@ Returns <b>FALSE</b> if the message was not retrieved.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxdisplaystatusmessage">WlxDisplayStatusMessage</a>
 
@@ -132,7 +116,4 @@ Returns <b>FALSE</b> if the message was not retrieved.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxremovestatusmessage">WlxRemoveStatusMessage</a>
- 
-
- 
 

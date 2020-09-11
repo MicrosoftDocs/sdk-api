@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5
 ms.date: 12/05/2018
 ms.keywords: IInkTransform, IInkTransform interface [Tablet PC], IInkTransform interface [Tablet PC],described, msinkaut/IInkTransform, tablet.iinktransform
-f1_keywords:
-- msinkaut/IInkTransform
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTransform
+ - msinkaut/IInkTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkTransform
 ---
 
 # IInkTransform interface
@@ -259,8 +260,9 @@ Gets or sets the element in the second row, second column of the affine transfor
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [InkTransform class](/windows/win32/tablet/inktransform-class)
+

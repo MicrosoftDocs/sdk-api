@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::FillPolygon"]
 ms.assetid: d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPolygon
-f1_keywords:
-- gdiplusgraphics/Graphics::FillPolygon
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::FillPolygon
+ - gdiplusgraphics/Graphics::FillPolygon
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::FillPolygon
+ - Graphics::FillPolygon
 ---
 
 # FillPolygon(Brush*,PointF*,INT)
+
 
 ## -description
 
@@ -102,3 +104,4 @@ VOID Example_FillPolygon3(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
+

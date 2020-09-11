@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 593aaa1f-b0eb-43a0-bf73-e90225c07cdf
 ms.date: 12/05/2018
 ms.keywords: BeginPreprocessingPass, BeginPreprocessingPass method [windows Media Format], BeginPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],BeginPreprocessingPass method, IWMWriterPreprocess.BeginPreprocessingPass, IWMWriterPreprocess::BeginPreprocessingPass, IWMWriterPreprocessBeginPreprocessingPass, wmformat.iwmwriterpreprocess_beginpreprocessingpass, wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
-f1_keywords:
-- wmsdkidl/IWMWriterPreprocess.BeginPreprocessingPass
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPreprocess.BeginPreprocessingPass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPreprocess::BeginPreprocessingPass
+ - wmsdkidl/IWMWriterPreprocess::BeginPreprocessingPass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPreprocess.BeginPreprocessingPass
 ---
 
 # IWMWriterPreprocess::BeginPreprocessingPass
@@ -52,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BeginPreprocessingPass</b> method prepares the writer to begin preprocessing samples for the specified input stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNum [in]
 
 <b>DWORD</b> containing the input number that you want to preprocess.
 
-
 ### -param dwFlags [in]
 
 Reserved. Set to zero.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -131,29 +120,14 @@ The input specified is not supported for preprocessing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To successfully call <b>BeginPreprocessingPass</b>, the preprocessor must be set to make at least one preprocessing pass with a call to <b>SetNumPreprocessingPasses</b>.
 
 The writer must be activated by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> before you can call this method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
- 
-
- 
 

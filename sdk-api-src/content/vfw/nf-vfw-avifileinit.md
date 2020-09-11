@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 3246a7d2-4b17-413d-b0d5-82146c993f26
 ms.date: 12/05/2018
 ms.keywords: AVIFileInit, AVIFileInit function [Windows Multimedia], _win32_AVIFileInit, multimedia.avifileinit, vfw/AVIFileInit
-f1_keywords:
-- vfw/AVIFileInit
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avifil32.dll
-- Ext-MS-Win-Media-Avi-L1-1-0.dll
-api_name:
-- AVIFileInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIFileInit
+ - vfw/AVIFileInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avifil32.dll
+ - Ext-MS-Win-Media-Avi-L1-1-0.dll
+api_name:
+ - AVIFileInit
 ---
 
 # AVIFileInit function
 
 
 ## -description
-
-
 
 The <b>AVIFileInit</b> function initializes the AVIFile library.
 
@@ -60,25 +59,13 @@ The AVIFile library maintains a count of the number of times it is initialized, 
 
 This function supersedes the obsolete <b>AVIStreamInit</b> function.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
- 
-
- 
 

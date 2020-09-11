@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/02/2019
 ms.keywords: WSAGetIcmpErrorInfo, WSAGetIcmpErrorInfo function [Winsock], winsock.wsageticmperrorinfo, ws2tcpip/WSAGetIcmpErrorInfo
 ms.topic: function
-f1_keywords:
-- ws2tcpip/WSAGetIcmpErrorInfo
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +25,21 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAGetIcmpErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - WSAGetIcmpErrorInfo
+ - ws2tcpip/WSAGetIcmpErrorInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAGetIcmpErrorInfo
 ---
 
 ## -description
@@ -66,3 +67,4 @@ On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/window
 If no ICMP error has been received since the last connect call, then [**WSANO_DATA**](/windows/win32/winsock/windows-sockets-error-codes-2) is returned. This functionality is supported through the [**TCP_ICMP_ERROR_INFO**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. **WSAGetIcmpErrorInfo** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](/windows/win32/api/winsock/nf-winsock-getsockopt).
 
 ## -see-also
+

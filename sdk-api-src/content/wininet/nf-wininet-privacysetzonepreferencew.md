@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 29c8dbc0-052e-40f4-a036-cb647d920055
 ms.date: 12/05/2018
 ms.keywords: PrivacySetZonePreferenceW, PrivacySetZonePreferenceW function [WinINet], wininet.privacysetzonepreferencew, winineti/PrivacySetZonePreferenceW
-f1_keywords:
-- wininet/PrivacySetZonePreferenceW
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- PrivacySetZonePreferenceW
-- PrivacySetZonePreferenceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PrivacySetZonePreferenceW
+ - wininet/PrivacySetZonePreferenceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - PrivacySetZonePreferenceW
+ - PrivacySetZonePreferenceW
 ---
 
 # PrivacySetZonePreferenceW function
@@ -50,47 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the privacy settings for a given <a href="https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwZone [in]
 
 Value of type <b>DWORD</b> that specifies the <a href="https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a>for which privacy settings are being set.
 
-
 ### -param dwType [in]
 
 Value of type <b>DWORD</b> that specifies the <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyType</a> for which privacy settings are being set.
-
 
 ### -param dwTemplate [in]
 
 Value of type <b>DWORD</b> that specifies which of the <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-templates">privacy templates</a> is to be used to set the privacy settings.
 
-
 ### -param pszPreference [in, optional]
 
 If <i>dwTemplate</i> is set to <b>PRIVACY_TEMPLATE_CUSTOM</b>, this parameter is the string representation of the custom preferences. Otherwise, it should be set to <b>NULL</b>. A description of this string representation is included in the Remarks section.
 
-
 ## -returns
-
-
 
 Returns zero if successful. Otherwise, one of the errors defined in winerr.h is returned.
 
-
-
-
 ## -remarks
-
-
 
 These privacy settings for the Internet zone are found on the <b>Privacy</b> tab of the <b>Internet Options</b> dialog box.
 
@@ -156,12 +141,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclearallpersitecookiedecisions">InternetClearAllPerSiteCookieDecisions</a>
 
@@ -180,7 +160,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-privacygetzonepreferencew">PrivacyGetZonePreferenceW</a>
- 
-
- 
 

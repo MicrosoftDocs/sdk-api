@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c804cd64-7bb5-4dd1-aca2-94455cc99a15
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumComponentsEx, MsiEnumComponentsEx function [Setup API], MsiEnumComponentsExA, MsiEnumComponentsExW, NULL, User SID, msi/MsiEnumComponentsEx, msi/MsiEnumComponentsExA, msi/MsiEnumComponentsExW, s-1-1-0, setup.msienumcomponentsex
-f1_keywords:
-- msi/MsiEnumComponentsEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumComponentsEx
-- MsiEnumComponentsExA
-- MsiEnumComponentsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumComponentsExW
+ - msi/MsiEnumComponentsExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumComponentsEx
+ - MsiEnumComponentsExA
+ - MsiEnumComponentsExW
 ---
 
 # MsiEnumComponentsExW function
@@ -51,19 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiEnumComponentsEx</b> function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language. 
 
 
 <b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param szUserSid [in, optional]
 
@@ -157,21 +151,15 @@ Include products that exist in the per-machine installation context. When <i>dwI
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
 Specifies the index of the component to retrieve.  This parameter must be zero (0) for the first call to <b>MsiEnumComponentsEx</b> function.  For each subsequent call, the index must be incremented by 1.  The index should only be incremented if the previous call to the function returns ERROR_SUCCESS.
 Components are not ordered and can be returned by the function in any order.
 
-
-
 ### -param szInstalledComponentCode [out, optional]
 
-An output buffer that receives the component code GUID for the installed component. The length of the buffer should be large enough to hold a  null-terminated string value containing the component code. The first 38 <b>TCHAR</b> characters receives the GUID for the component, and the 39th character receives a terminating  NULL character.  
-
-
+An output buffer that receives the component code GUID for the installed component. The length of the buffer should be large enough to hold a  null-terminated string value containing the component code. The first 38 <b>TCHAR</b> characters receives the GUID for the component, and the 39th character receives a terminating  NULL character.
 
 ### -param pdwInstalledContext [out, optional]
 
@@ -217,8 +205,6 @@ The application is installed  in the per-machine installation installation conte
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szSid [out, optional]
 
@@ -257,8 +243,6 @@ The SID for the user in the system that installed the application.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcchSid [in, out]
 
@@ -268,12 +252,7 @@ Receives the number of <b>TCHAR</b> in the SID, not including the terminating nu
 
 This parameter can be set to <b>NULL</b> only if <i>szSid</i> is also <b>NULL</b>, otherwise the function returns <b>ERROR_INVALID_PARAMETER</b>. If <i>szSid</i> and <i>pcchSid</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the SID exists, without retrieving the SID value.
 
-
-
-
 ## -returns
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsexa">MsiEnumProductsEx</a> function returns one of the following values.
 
@@ -360,9 +339,6 @@ The function failed.
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

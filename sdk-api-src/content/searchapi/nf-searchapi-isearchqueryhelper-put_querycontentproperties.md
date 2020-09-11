@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentproperties.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentProperties method, ISearchQueryHelper.put_QueryContentProperties, ISearchQueryHelper::put_QueryContentProperties, _search_ISearchQueryHelper_put_QueryContentProperties, put_QueryContentProperties, put_QueryContentProperties method [search], put_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentProperties, searchapi/ISearchQueryHelper::put_QueryContentProperties
-f1_keywords:
-- searchapi/ISearchQueryHelper.put_QueryContentProperties
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchQueryHelper.put_QueryContentProperties
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchQueryHelper::put_QueryContentProperties
+ - searchapi/ISearchQueryHelper::put_QueryContentProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchQueryHelper.put_QueryContentProperties
 ---
 
 # ISearchQueryHelper::put_QueryContentProperties
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the properties to include in the query if search terms do not explicitly specify properties. 
-
+Sets the properties to include in the query if search terms do not explicitly specify properties.
 
 ## -parameters
-
-
-
 
 ### -param pszContentProperties [in]
 
@@ -67,17 +63,11 @@ Pointer to a comma-delimited, null-terminated Unicode string of one or more prop
 
 Set <i>ppszContentProperties</i> to <b>NULL</b> to use all properties.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
@@ -86,9 +76,6 @@ Search terms may or may not be explicitly prefixed by a property ("author:Irina"
 Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
@@ -107,7 +94,4 @@ Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sa
 
 
 <a href="https://msdn.microsoft.com/library/ff518152(v=VS.85).aspx">System Properties</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
 ms.date: 12/05/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
-f1_keywords:
-- bits1_5/IBackgroundCopyJob2.GetReplyFileName
-dev_langs:
-- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx2.dll
-api_name:
-- IBackgroundCopyJob2.GetReplyFileName
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob2::GetReplyFileName
+ - bits1_5/IBackgroundCopyJob2::GetReplyFileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx2.dll
+api_name:
+ - IBackgroundCopyJob2.GetReplyFileName
 ---
 
 # IBackgroundCopyJob2::GetReplyFileName
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
 
-
 ## -parameters
-
-
-
 
 ### -param pReplyFileName [out]
 
 Null-terminated string that contains the full path to the reply file. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>pReplyFileName</i> when done.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -98,14 +91,8 @@ This method is not implemented for jobs of type <b>BG_JOB_TYPE_DOWNLOAD</b> or <
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To specify a reply file name, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a> method. If you did not specify a name, the 
@@ -126,19 +113,11 @@ For an example that uses the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata">IBackgroundCopyJob2::GetReplyData</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a>
- 
-
- 
 

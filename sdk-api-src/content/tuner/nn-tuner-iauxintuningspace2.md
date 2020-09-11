@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7
 ms.date: 12/05/2018
 ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies],described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
-f1_keywords:
-- tuner/IAuxInTuningSpace2
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IAuxInTuningSpace2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAuxInTuningSpace2
+ - tuner/IAuxInTuningSpace2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IAuxInTuningSpace2
 ---
 
 # IAuxInTuningSpace2 interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Windows XP Media Center Edition 2004 and later.
         
 
 The <b>IAuxInTuningSpace2</b> interface is implemented on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/auxintuningspace-object">AuxInTuningSpace</a> objects, which represent auxiliary video inputs such as S-video or composite video on a hardware device that is connected to the computer.
-
-
-
 
 ## -inheritance
 
@@ -92,29 +88,17 @@ Sets the country/region code of the tuning space (based on TAPI country/region c
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IAuxInTuningSpace2)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace~r1">IAuxInTuningSpace</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm
 ms.date: 12/05/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
-f1_keywords:
-- winuser/GetDlgItemInt
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
-api_name:
-- GetDlgItemInt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDlgItemInt
+ - winuser/GetDlgItemInt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+ - GetDlgItemInt
 ---
 
 # GetDlgItemInt function
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Translates the text of a specified control in a dialog box into an integer value. 
-
+Translates the text of a specified control in a dialog box into an integer value.
 
 ## -parameters
-
-
-
 
 ### -param hDlg [in]
 
 Type: <b>HWND</b>
 
-A handle to the dialog box that contains the control of interest. 
-
+A handle to the dialog box that contains the control of interest.
 
 ### -param nIDDlgItem [in]
 
 Type: <b>int</b>
 
-The identifier of the control whose text is to be translated. 
-
+The identifier of the control whose text is to be translated.
 
 ### -param lpTranslated [out, optional]
 
@@ -81,17 +75,13 @@ Indicates success or failure (<b>TRUE</b> indicates success, <b>FALSE</b> indica
 
 If this parameter is <b>NULL</b>, the function returns no information about success or failure.
 
-
 ### -param bSigned [in]
 
 Type: <b>BOOL</b>
 
-Indicates whether the function should examine the text for a minus sign at the beginning and return a signed integer value if it finds one (<b>TRUE</b> specifies this should be done, <b>FALSE</b> that it should not). 
-
+Indicates whether the function should examine the text for a minus sign at the beginning and return a signed integer value if it finds one (<b>TRUE</b> specifies this should be done, <b>FALSE</b> that it should not).
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -105,12 +95,7 @@ Note that, if the <i>bSigned</i> parameter is <b>TRUE</b> and there is a minus s
 
 To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
 
@@ -123,12 +108,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -155,7 +135,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
- 
-
- 
 

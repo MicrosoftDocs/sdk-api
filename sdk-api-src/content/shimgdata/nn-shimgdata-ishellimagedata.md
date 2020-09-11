@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
 ms.date: 12/05/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
-f1_keywords:
-- shimgdata/IShellImageData
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData
+ - shimgdata/IShellImageData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData
 ---
 
 # IShellImageData interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface will eventually be unsupported. It is recommended that Windows GDI+ APIs be used in place of <b>IShellImageData</b> methods.]
 
 Exposes methods and properties that display, manipulate, and describe image data.
-
 
 ## -inheritance
 
@@ -340,14 +339,9 @@ Sets encoder parameters.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface was not included in a public header file prior to Windows Vista.
-
-
 

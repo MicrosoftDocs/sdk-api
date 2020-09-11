@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: c4882a3b-7773-4ab0-ad83-bdde512b5fb4
 ms.date: 12/05/2018
 ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64
-f1_keywords:
-- dbghelp/SymGetSymFromAddr64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,28 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymGetSymFromAddr64
-- SymGetSymFromAddr
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymGetSymFromAddr64
+ - dbghelp/SymGetSymFromAddr64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymGetSymFromAddr64
+ - SymGetSymFromAddr
 ---
 
 ## -description
-
 
 Locates the symbol for the specified address.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility. Applications should use 
@@ -54,48 +54,32 @@ Locates the symbol for the specified address.
 
 ## -parameters
 
-
-
-
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param qwAddr [in]
 
 The address for which a symbol is to be located. The address does not have to be on a symbol boundary. If the address comes after the beginning of a symbol and before the end of the symbol (the beginning of the symbol plus the symbol size), the symbol is found.
 
-
-
 ### -param pdwDisplacement [out, optional]
 
 The displacement from the beginning of the symbol, or zero.
-
 
 ### -param Symbol [in, out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure.
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SymGetSymFromAddr64</b> function locates the symbol for a specified address. The modules are searched for the one the address belongs to. When the module is found, its symbol table is searched for a match. When the symbol is found, the symbol information is copied into the <i>Symbol</i> buffer provided by the caller. The caller must allocate the <i>Symbol</i> buffer properly and fill in the required parameters in the 
@@ -123,14 +107,7 @@ SymGetSymFromAddr(
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -145,7 +122,4 @@ SymGetSymFromAddr(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
- 
-
- 
 

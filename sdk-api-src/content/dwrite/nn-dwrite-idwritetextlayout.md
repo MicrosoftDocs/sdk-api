@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 0d687337-8623-4014-967c-f533072e31cc
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout, IDWriteTextLayout interface [Direct Write], IDWriteTextLayout interface [Direct Write],described, directwrite.IDWriteTextLayout, dwrite/IDWriteTextLayout
-f1_keywords:
-- dwrite/IDWriteTextLayout
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout
+ - dwrite/IDWriteTextLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout
 ---
 
 # IDWriteTextLayout interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDWriteTextLayout</b> interface represents a block of text after it has been fully analyzed and formatted.
-
 
 ## -inheritance
 
@@ -448,12 +447,9 @@ Sets underlining for text within a specified text range.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a reference to the <b>IDWriteTextLayout</b> interface, the application must call the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">IDWriteFactory::CreateTextLayout</a> method, as shown in the following code.  
 
@@ -529,16 +525,7 @@ hr = pTextLayout_->Draw(
 
 Using a custom text renderer also enables you to render using another technology, such as GDI.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
- 
-
- 
 

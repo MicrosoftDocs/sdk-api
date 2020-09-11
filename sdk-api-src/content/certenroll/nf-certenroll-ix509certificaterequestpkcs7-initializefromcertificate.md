@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7500b714-4608-4da6-85ad-20cea30853cc
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs7.InitializeFromCertificate, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs7.InitializeFromCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs7.InitializeFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs7::InitializeFromCertificate
+ - certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs7.InitializeFromCertificate
 ---
 
 # IX509CertificateRequestPkcs7::InitializeFromCertificate
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
 
-
 ### -param RenewalRequest [in]
 
 A <b>VARIANT_BOOL</b> that indicates whether the end entity is requesting that the certificate identified by the  <i>strCertificate</i> parameter be renewed.
-
 
 ### -param strCertificate [in]
 
@@ -86,7 +80,6 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
-
 
 ### -param InheritOptions [in]
 
@@ -243,11 +236,7 @@ If you set the <i>InheritOptions</i> parameter to zero (0) or specify <b>Inherit
 <li><b>InheritRenewalCertificateFlag</b> (if the client is renewing a  certificate)</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -270,14 +259,8 @@ The certificate request object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>InitializeFromCertificate</b> method validates the options specified in the <i>InheritOptions</i> parameter and initializes a new PKCS #7  request object by performing the following actions:<ul>
 <li>Creates a PKCS #10 request object from the certificate, enrollment context, and inherit options specified on input. The PKCS #10 object inherits:<ul>
@@ -292,17 +275,7 @@ The <b>InitializeFromCertificate</b> method validates the options specified in t
 <li>Sets the PKCS #10 request  as the inner request object.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
- 
-
- 
 

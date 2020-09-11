@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 131fa170-4c19-4a7b-82e0-e9677b7f767a
 ms.date: 12/05/2018
 ms.keywords: IWSDXMLContext, IWSDXMLContext interface, IWSDXMLContext interface,described, ncd.iwsdxmlcontext, wsdxml/IWSDXMLContext
-f1_keywords:
-- wsdxml/IWSDXMLContext
-dev_langs:
-- c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDXMLContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDXMLContext
+ - wsdxml/IWSDXMLContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDXMLContext
 ---
 
 # IWSDXMLContext interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Is a collection of namespaces and types used in a WSDAPI stack.
-
 
 ## -inheritance
 
@@ -104,14 +103,9 @@ Associates custom message types with the XML context object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface is used by the XML parser and generator to store and access namespaces, names, and message schema information. Applications can call <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnamespace">AddNamespace</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-addnametonamespace">AddNameToNamespace</a> directly to add and access names in new or existing namespaces. Additionally, <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a> will call <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-setnamespaces">SetNamespaces</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nf-wsdxml-iwsdxmlcontext-settypes">SetTypes</a> to ensure service layer data is properly set up in the XML context.
-
-
 

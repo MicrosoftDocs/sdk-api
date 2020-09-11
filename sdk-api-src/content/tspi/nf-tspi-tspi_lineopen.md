@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 97cde843-65bc-46ae-a6ae-724f2c9c5217
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineOpen, TSPI_lineOpen function [TAPI 2.2], _tspi_tspi_lineopen, tspi.tspi_lineopen, tspi/TSPI_lineOpen
-f1_keywords:
-- tspi/TSPI_lineOpen
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineOpen
+ - tspi/TSPI_lineOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineOpen
 ---
 
 # TSPI_lineOpen function
@@ -49,59 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineOpen</b> function opens the line device whose device identifier is given, returning the service provider's handle for the device. The service provider must retain the TAPI handle for the device for use in subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDeviceID
 
 Identifies the line device to be opened.
-
 
 ### -param htLine
 
 The TAPI handle for the line device to be used in subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure to identify the device.
 
-
 ### -param lphdLine
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/hdrvline">HDRVLINE</a> where the service provider fills in its handle for the line device.
 
-
 ### -param dwTSPIVersion
 
 The TSPI version.
-
 
 ### -param lpfnEventProc
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> callback procedure supplied by TAPI that the service provider calls to report subsequent events on the line.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_ALLOCATED, LINEERR_OPERATIONUNAVAIL, LINEERR_NODRIVER, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 The service provider should reserve any non-sharable resources that are required to manage the line. However, any actions that can be postponed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> should be. It is a design assumption in TAPI that 
@@ -113,13 +97,7 @@ This procedure does not correspond directly to any procedure at the TAPI level, 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconditionalmediadetection">TSPI_lineConditionalMediaDetection</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
 
@@ -146,7 +124,4 @@ This procedure does not correspond directly to any procedure at the TAPI level, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdefaultmediadetection">TSPI_lineSetDefaultMediaDetection</a>
- 
-
- 
 

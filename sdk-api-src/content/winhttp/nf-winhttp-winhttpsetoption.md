@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: bcf1da09-5787-4d2a-82ae-6965e27fa477
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption
-f1_keywords:
-- winhttp/WinHttpSetOption
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpSetOption
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpSetOption
+ - winhttp/WinHttpSetOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpSetOption
 ---
 
 # WinHttpSetOption function
@@ -49,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpSetOption</b> function sets an Internet option.
 
-
 ## -parameters
-
-
-
 
 ### -param hInternet [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle on which to set data. Be aware  that this can be either a Session handle or a Request handle, depending on what option is being set. For more information about how to determine which handle is appropriate to use in setting a particular option, see the  <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">Option Flags</a>.
-
 
 ### -param dwOption [in]
 
 An unsigned long integer value that contains the Internet option to set. This can be one of the 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">Option Flags</a> values.
 
-
 ### -param lpBuffer [in]
 
 A pointer to a buffer that contains the option setting.
-
 
 ### -param dwBufferLength [in]
 
 Unsigned long integer value that contains the length of the 
 <i>lpBuffer</i> buffer. The length of the buffer is specified in characters for the following options; for all other options, the length is specified in bytes.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following:
@@ -187,14 +177,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Credentials passed to <b>WinHttpSetOption</b> could be unexpectedly sent in plaintext. It is  strongly recommended that you  use <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryauthschemes">WinHttpQueryAuthSchemes</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetcredentials">WinHttpSetCredentials</a> instead of <b>WinHttpSetOption</b> for setting credentials.
 
@@ -211,12 +195,7 @@ For more information and code examples that show the use of <b>WinHttpSetOption<
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/authentication-in-winhttp">Authentication in WinHTTP</a>
 
@@ -239,7 +218,4 @@ For more information and code examples that show the use of <b>WinHttpSetOption<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption">WinHttpQueryOption</a>
- 
-
- 
 

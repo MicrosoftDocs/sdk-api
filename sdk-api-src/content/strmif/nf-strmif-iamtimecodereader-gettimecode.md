@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c4ed646f-677e-4703-8197-036636f20561
 ms.date: 12/05/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTimecode method, IAMTimecodeReader.GetTimecode, IAMTimecodeReader::GetTimecode, IAMTimecodeReaderGetTimecode, dshow.iamtimecodereader_gettimecode, strmif/IAMTimecodeReader::GetTimecode
-f1_keywords:
-- strmif/IAMTimecodeReader.GetTimecode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeReader.GetTimecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeReader::GetTimecode
+ - strmif/IAMTimecodeReader::GetTimecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeReader.GetTimecode
 ---
 
 # IAMTimecodeReader::GetTimecode
@@ -50,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTimecode</code> method retrieves the most recent timecode, userbit, and flag values available in the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pTimecodeSample [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
 
-
-
-
 ## -remarks
-
-
 
 Use this method to monitor the timecode and to parse duplicates and discontinuities.
 
@@ -151,15 +136,8 @@ Also, the <b>dwUser</b> member receives the <i>blank flag</i> bit from the devic
 <td>Discontinuity. </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -170,7 +148,4 @@ Also, the <b>dwUser</b> member receives the <i>blank flag</i> bit from the devic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
- 
-
- 
 

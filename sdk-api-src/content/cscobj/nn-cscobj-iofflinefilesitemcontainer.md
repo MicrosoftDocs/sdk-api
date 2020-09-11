@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 328ad076-cafd-461e-8085-7fca65063fa0
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesItemContainer, IOfflineFilesItemContainer interface [Offline Files], IOfflineFilesItemContainer interface [Offline Files],described, cscobj/IOfflineFilesItemContainer, of.iofflinefilesitemcontainer
-f1_keywords:
-- cscobj/IOfflineFilesItemContainer
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesItemContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesItemContainer
+ - cscobj/IOfflineFilesItemContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesItemContainer
 ---
 
 # IOfflineFilesItemContainer interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to access item enumeration functionality in the Offline Files cache.
-
 
 ## -inheritance
 
@@ -87,16 +86,9 @@ Returns an enumerator of child items for the cache item implementing this method
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

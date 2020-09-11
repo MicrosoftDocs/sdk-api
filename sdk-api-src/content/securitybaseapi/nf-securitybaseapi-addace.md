@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f472d864-a273-49b5-b5e2-98772989971e
 ms.date: 12/05/2018
 ms.keywords: AddAce, AddAce function [Security], _win32_addace, security.addace, securitybaseapi/AddAce
-f1_keywords:
-- securitybaseapi/AddAce
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddAce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddAce
+ - securitybaseapi/AddAce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddAce
 ---
 
 # AddAce function
@@ -56,20 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddAce</b> function adds one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) to a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in, out]
 
 A pointer to an 
 ACL. This function adds an ACE to this ACL.
-
 
 ### -param dwAceRevision [in]
 
@@ -79,25 +74,19 @@ Specifies the revision level of the ACL being modified.
 This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the ACL contains object-specific ACEs. This value must be compatible with the <b>AceType</b> field of all ACEs in <i>pAceList</i>. 
  Otherwise, the function will fail and set the last error to ERROR_INVALID_PARAMETER.
 
-
 ### -param dwStartingAceIndex [in]
 
 Specifies the position in the ACL's list of ACEs at which to add new ACEs. A value of zero inserts the ACEs at the beginning of the list. A value of MAXDWORD appends the ACEs to the end of the list.
-
 
 ### -param pAceList [in]
 
 A pointer to a list of one or more ACEs to be added to the specified ACL. The ACEs in the list must be stored contiguously.
 
-
 ### -param nAceListLength [in]
 
 Specifies the size, in bytes, of the input buffer pointed to by the <i>pAceList</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -143,14 +132,8 @@ The ACE was successfully added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Applications frequently use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-findfirstfreeace">FindFirstFreeAce</a> and 
@@ -165,12 +148,7 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_size_information">ACL_SIZE_INFORMATION</a>
 
@@ -209,7 +187,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
- 
-
- 
 

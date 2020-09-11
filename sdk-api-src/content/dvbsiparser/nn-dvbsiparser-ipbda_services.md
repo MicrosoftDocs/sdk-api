@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 8d2d62cd-9f62-45d3-8b98-74bb8863c6d6
 ms.date: 12/05/2018
 ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], IPBDA_Services interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_Services, mstv.ipbda_services
-f1_keywords:
-- dvbsiparser/IPBDA_Services
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IPBDA_Services
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPBDA_Services
+ - dvbsiparser/IPBDA_Services
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IPBDA_Services
 ---
 
 # IPBDA_Services interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Implements methods that initialize or retrieve Protected Broadcast Driver Architecture (PBDA) service records from a  Program and System Information Protocol (PSIP) table in a Protected Broadcast  Device Architecture (PBDA) transport stream. 
-
+Implements methods that initialize or retrieve Protected Broadcast Driver Architecture (PBDA) service records from a  Program and System Information Protocol (PSIP) table in a Protected Broadcast  Device Architecture (PBDA) transport stream.
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Initializes a PBDA service record.
 
 </td>
 </tr>
-</table> 
+</table>
 

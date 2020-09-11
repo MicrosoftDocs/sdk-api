@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 53a93aea-4435-4e04-9bd1-6356446aaefc
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],LegacyCsp property, IX509PrivateKey.LegacyCsp, IX509PrivateKey.put_LegacyCsp, IX509PrivateKey::LegacyCsp, IX509PrivateKey::get_LegacyCsp, IX509PrivateKey::put_LegacyCsp, LegacyCsp property [Security], LegacyCsp property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::LegacyCsp, certenroll/IX509PrivateKey::get_LegacyCsp, certenroll/IX509PrivateKey::put_LegacyCsp, put_LegacyCsp, security.ix509privatekey_legacycsp
-f1_keywords:
-- certenroll/IX509PrivateKey.LegacyCsp
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.LegacyCsp
-- IX509PrivateKey.get_LegacyCsp
-- IX509PrivateKey.put_LegacyCsp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::put_LegacyCsp
+ - certenroll/IX509PrivateKey::put_LegacyCsp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.LegacyCsp
+ - IX509PrivateKey.get_LegacyCsp
+ - IX509PrivateKey.put_LegacyCsp
 ---
 
 # IX509PrivateKey::put_LegacyCsp
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LegacyCsp</b> property specifies  or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This property is web enabled for both input and output.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Setting this property automatically sets the following properties to be consistent with the specified <b>LegacyCsp</b> value:
 
@@ -90,16 +86,7 @@ These properties are set in the following manner:
 </ul>
 Because  a previously specified <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a> is not affected by setting the <b>LegacyCsp</b> property, setting a <b>LegacyCsp</b> that is inconsistent with the <b>ProviderName</b> property will result in undefined behavior, likely a failure when creating or opening a private key.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
 

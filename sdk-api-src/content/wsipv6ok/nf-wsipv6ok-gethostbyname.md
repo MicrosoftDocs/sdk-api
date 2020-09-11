@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.date: 12/05/2018
 ms.keywords: _win32_gethostbyname_2, gethostbyname, gethostbyname function [Winsock], winsock.gethostbyname_2, wsipv6ok/gethostbyname
-f1_keywords:
-- wsipv6ok/gethostbyname
-dev_langs:
-- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- gethostbyname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - gethostbyname
+ - wsipv6ok/gethostbyname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - gethostbyname
 ---
 
 # gethostbyname macro
 
 
 ## -description
-
 
 The 
 <b>gethostbyname</b> function retrieves host information corresponding to a host name from a host database.
@@ -61,21 +61,13 @@ The
 <b>gethostbyname</b>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param a [in]
 
 A pointer to the <b>null</b>-terminated name of the host to resolve.
 
-
 ## -remarks
-
-
 
 The 
 <b>gethostbyname</b> function returns a pointer to a 
@@ -214,13 +206,7 @@ int main(int argc, char **argv)
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
@@ -267,7 +253,4 @@ int main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
- 
-
- 
 

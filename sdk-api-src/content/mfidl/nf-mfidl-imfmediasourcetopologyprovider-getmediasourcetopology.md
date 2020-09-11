@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3889768a-27bb-422e-912b-80546b6017fb
 ms.date: 12/05/2018
 ms.keywords: 3889768a-27bb-422e-912b-80546b6017fb, GetMediaSourceTopology, GetMediaSourceTopology method [Media Foundation], GetMediaSourceTopology method [Media Foundation],IMFMediaSourceTopologyProvider interface, IMFMediaSourceTopologyProvider interface [Media Foundation],GetMediaSourceTopology method, IMFMediaSourceTopologyProvider.GetMediaSourceTopology, IMFMediaSourceTopologyProvider::GetMediaSourceTopology, mf.imfmediasourcetopologyprovider_getmediasourcetopology, mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
-f1_keywords:
-- mfidl/IMFMediaSourceTopologyProvider.GetMediaSourceTopology
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceTopologyProvider::GetMediaSourceTopology
+ - mfidl/IMFMediaSourceTopologyProvider::GetMediaSourceTopology
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 ---
 
 # IMFMediaSourceTopologyProvider::GetMediaSourceTopology
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns a topology for a media source that builds an internal topology.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPresentationDescriptor [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get this pointer, either call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a> on the media source, or get the pointer from the <a href="https://docs.microsoft.com/windows/desktop/medfound/menewpresentation">MENewPresentation</a> event.
 
-
 ### -param ppTopology [out]
 
 Receives a pointer to the topology's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -106,22 +95,12 @@ Invalid argument. For example, a <b>NULL</b> input parameter, or the presentatio
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcetopologyprovider">IMFMediaSourceTopologyProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
-f1_keywords:
-- setupapi/SetupGetInfInformation
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupGetInfInformation
-- SetupGetInfInformationA
-- SetupGetInfInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupGetInfInformationW
+ - setupapi/SetupGetInfInformationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupGetInfInformation
+ - SetupGetInfInformationA
+ - SetupGetInfInformationW
 ---
 
 # SetupGetInfInformationW function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The <b>SetUpGetInfInformation</b> function returns the 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure for the specified INF file to a buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param InfSpec [in]
 
 Handle or a file name for an INF file, depending on the value of <i>SearchControl</i>.
-
 
 ### -param SearchControl [in]
 
@@ -106,18 +101,15 @@ Same as INFINFO_DEFAULT_SEARCH, except the default locations are searched in rev
 
 Search for the INF in each of the directories listed in the <i>DevicePath</i> value entry under the following:<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</b>
 
-
 ### -param ReturnBuffer [in, out]
 
 If not <b>NULL</b>, points to a buffer in which this function returns the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure. 
 
 You can call the function one time to get the required buffer size, allocate the necessary memory, and then call the function a second time to retrieve the data. Using this technique, you can avoid errors due to an insufficient buffer size. For more information, see the Remarks section of this topic.
 
-
 ### -param ReturnBufferSize [in]
 
 Size of  <i>ReturnBuffer</i>, in bytes.
-
 
 ### -param RequiredSize [in, out]
 
@@ -151,10 +143,7 @@ Search for the INF in each of the directories listed in the <i>DevicePath</i> va
 
 Same as INFINFO_DEFAULT_SEARCH, except the default locations are searched in reverse order.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
@@ -164,12 +153,7 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 If the INF file cannot be located, the function returns <b>FALSE</b> and a subsequent call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_FILE_NOT_FOUND.
 
-
-
-
 ## -remarks
-
-
 
 If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBufferSize of 0 (zero), the function puts the buffer size needed to hold the specified data into the variable pointed to by RequiredSize. If the function succeeds, the return value is a nonzero value. Otherwise, the return value is 0 (zero), and extended error information can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -181,9 +165,6 @@ If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBuffer
 > The setupapi.h header defines SetupGetInfInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -198,7 +179,4 @@ If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBuffer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinfversioninformationa">SetupQueryInfVersionInformation</a>
- 
-
- 
 

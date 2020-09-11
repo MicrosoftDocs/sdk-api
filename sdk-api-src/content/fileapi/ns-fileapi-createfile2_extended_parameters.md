@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: efe68dfc-f13d-47de-9443-30404977e26f
 ms.date: 12/05/2018
 ms.keywords: '*LPCREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, CREATEFILE2_EXTENDED_PARAMETERS, CREATEFILE2_EXTENDED_PARAMETERS structure [Files], FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_INTEGRITY_STREAM, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OPEN_REQUIRING_OPLOCK, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_SESSION_AWARE, FILE_FLAG_WRITE_THROUGH, LPCREATEFILE2_EXTENDED_PARAMETERS, LPCREATEFILE2_EXTENDED_PARAMETERS structure pointer [Files], PCREATEFILE2_EXTENDED_PARAMETERS, PCREATEFILE2_EXTENDED_PARAMETERS structure pointer [Files], SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, fileapi/CREATEFILE2_EXTENDED_PARAMETERS, fileapi/LPCREATEFILE2_EXTENDED_PARAMETERS, fileapi/PCREATEFILE2_EXTENDED_PARAMETERS, fs.createfile2_extended_parameters'
-f1_keywords:
-- fileapi/CREATEFILE2_EXTENDED_PARAMETERS
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FileAPI.h
-api_name:
-- CREATEFILE2_EXTENDED_PARAMETERS
 targetos: Windows
 req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREATEFILE2_EXTENDED_PARAMETERS
+ - fileapi/_CREATEFILE2_EXTENDED_PARAMETERS
+ - PCREATEFILE2_EXTENDED_PARAMETERS
+ - fileapi/PCREATEFILE2_EXTENDED_PARAMETERS
+ - CREATEFILE2_EXTENDED_PARAMETERS
+ - fileapi/CREATEFILE2_EXTENDED_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FileAPI.h
+api_name:
+ - CREATEFILE2_EXTENDED_PARAMETERS
 ---
 
 # CREATEFILE2_EXTENDED_PARAMETERS structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains optional extended parameters for 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Contains the size of this structure, 
       <code>sizeof(CREATEFILE2_EXTENDED_PARAMETERS)</code>.
-
 
 ### -field dwFileAttributes
 
@@ -212,8 +211,6 @@ For more information, see the <a href="https://docs.microsoft.com/">Caching Beha
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFileFlags
 
@@ -433,8 +430,6 @@ For additional information, see the <a href="https://docs.microsoft.com/">Cachin
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwSecurityQosFlags
 
@@ -514,8 +509,6 @@ Impersonate a client at the impersonation level. This is the default behavior if
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpSecurityAttributes
 
@@ -546,7 +539,6 @@ The <b>bInheritHandle</b>member of the structure specifies whether the returned 
 For more information, see the Remarks section of the 
        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a> topic.
 
-
 ### -field hTemplateFile
 
 A valid handle to a template file with the <b>GENERIC_READ</b> access right. The template 
@@ -561,10 +553,7 @@ When opening a new encrypted file, the file inherits the discretionary access co
        directory. For additional information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
-
 ## -remarks
-
-
 
 To compile an application that uses the 
     <b>CREATEFILE2_EXTENDED_PARAMETERS</b> structure, 
@@ -649,20 +638,11 @@ Specifying the <b>FILE_ATTRIBUTE_TEMPORARY</b> attribute causes file systems to 
       potential pitfalls when using asynchronous I/O; for more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfile2">CreateFile2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
- 
-
- 
 

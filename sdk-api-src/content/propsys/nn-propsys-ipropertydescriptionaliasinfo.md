@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: fc9bc0d2-3c9b-4fbc-b098-462d7d253286
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], IPropertyDescriptionAliasInfo interface [Windows Properties],described, _shell_IPropertyDescriptionAliasInfo, properties.IPropertyDescriptionAliasInfo, propsys/IPropertyDescriptionAliasInfo, shell.IPropertyDescriptionAliasInfo
-f1_keywords:
-- propsys/IPropertyDescriptionAliasInfo
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescriptionAliasInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescriptionAliasInfo
+ - propsys/IPropertyDescriptionAliasInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescriptionAliasInfo
 ---
 
 # IPropertyDescriptionAliasInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to get the "sort by" columns properties for an item. This interface is used by UI objects that want to retrieve the primary or secondary sort columns for a given property.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the address of a pointer to the <a href="https://docs.microsoft.com/windows
 
 </td>
 </tr>
-</table> 
+</table>
 

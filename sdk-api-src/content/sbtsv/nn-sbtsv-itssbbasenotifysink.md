@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae
 ms.date: 12/05/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], ITsSbBaseNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbBaseNotifySink, termserv.itssbbasenotifysink
-f1_keywords:
-- sbtsv/ITsSbBaseNotifySink
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbBaseNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbBaseNotifySink
+ - sbtsv/ITsSbBaseNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbBaseNotifySink
 ---
 
 # ITsSbBaseNotifySink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that report status and error messages to Remote Desktop Connection Broker (RD Connection Broker).
-
 
 ## -inheritance
 
@@ -87,25 +86,16 @@ Sends status messages to the Remote Desktop Connection (RDC) client regarding th
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Plug-ins can use this interface to report status and error messages to RD Connection Broker.
 
 The RD Connection Broker server and the Remote Desktop Session Host (RD Session Host) server (the redirector) must 
     be running Windows Server 2008 R2, and clients must use RDC 7.0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
 
@@ -128,7 +118,4 @@ The RD Connection Broker server and the Remote Desktop Session Host (RD Sessio
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

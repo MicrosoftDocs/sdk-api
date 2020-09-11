@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
 ms.date: 12/05/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
-f1_keywords:
-- pdh/PdhRemoveCounter
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhRemoveCounter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhRemoveCounter
+ - pdh/PdhRemoveCounter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhRemoveCounter
 ---
 
 # PdhRemoveCounter function
@@ -49,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a counter from a query.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hCounter [in]
 
 Handle of the counter to remove from its query. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -98,14 +90,8 @@ The counter handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not use the counter handle after removing the counter from the query.
 
@@ -116,21 +102,11 @@ The following shows the syntax if calling this function from Visual Basic.
 )
 as Long</code></pre>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
- 
-
- 
 

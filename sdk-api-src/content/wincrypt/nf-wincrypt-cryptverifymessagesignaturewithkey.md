@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6fe0f9ee-1838-4eb7-8254-05b878eb8f56
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageSignatureWithKey, CryptVerifyMessageSignatureWithKey function [Security], security.cryptverifymessagesignaturewithkey, wincrypt/CryptVerifyMessageSignatureWithKey
-f1_keywords:
-- wincrypt/CryptVerifyMessageSignatureWithKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyMessageSignatureWithKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyMessageSignatureWithKey
+ - wincrypt/CryptVerifyMessageSignatureWithKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyMessageSignatureWithKey
 ---
 
 # CryptVerifyMessageSignatureWithKey function
@@ -49,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptVerifyMessageSignatureWithKey</b> function verifies a signed message's signature by using specified public key information.
 
-
 ## -parameters
-
-
-
 
 ### -param pVerifyPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_verify_message_para">CRYPT_KEY_VERIFY_MESSAGE_PARA</a> structure that contains verification parameters.
 
-
 ### -param pPublicKeyInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key that is used to verify the signed
 message. If <b>NULL</b>, the signature is not verified.
 
-
-
 ### -param pbSignedBlob [in]
 
 A pointer to a buffer that contains the signed message.
 
-
 ### -param cbSignedBlob [in]
 
 The size, in bytes, of the signed message buffer.
-
 
 ### -param pbDecoded [out]
 
@@ -90,7 +81,6 @@ A pointer to a buffer to receive the decoded message.
 
 This parameter can be <b>NULL</b> if the decoded message is not needed for additional processing or to set the size of the message for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbDecoded [in, out]
 
@@ -103,8 +93,6 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
@@ -186,7 +174,4 @@ The message's signature was not verified.
 </td>
 </tr>
 </table>
- 
-
-
 

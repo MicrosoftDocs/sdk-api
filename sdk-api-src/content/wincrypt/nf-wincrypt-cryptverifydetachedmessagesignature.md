@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
-f1_keywords:
-- wincrypt/CryptVerifyDetachedMessageSignature
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyDetachedMessageSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyDetachedMessageSignature
+ - wincrypt/CryptVerifyDetachedMessageSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyDetachedMessageSignature
 ---
 
 # CryptVerifyDetachedMessageSignature function
@@ -49,60 +50,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptVerifyDetachedMessageSignature</b> function verifies a signed message containing a detached signature or signatures.
 
-
 ## -parameters
-
-
-
 
 ### -param pVerifyPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure containing the verification parameters.
 
-
 ### -param dwSignerIndex [in]
 
 Index of the signature to be verified. A message might have several signers and this function can be called repeatedly, changing <i>dwSignerIndex</i> to verify other signatures. If the function returns FALSE, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns CRYPT_E_NO_SIGNER, the previous call received the last signer of the message.
-
 
 ### -param pbDetachedSignBlob [in]
 
 A pointer to a BLOB containing the encoded message signatures.
 
-
 ### -param cbDetachedSignBlob [in]
 
 The size, in bytes, of the detached signature.
-
 
 ### -param cToBeSigned [in]
 
 Number of array elements in <i>rgpbToBeSigned</i> and <i>rgcbToBeSigned</i>.
 
-
 ### -param rgpbToBeSigned [in]
 
 Array of pointers to buffers containing the contents to be <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a>.
 
-
 ### -param rgcbToBeSigned [in]
 
 Array of sizes, in bytes, for the content buffers pointed to in <i>rgpbToBeSigned</i>.
-
 
 ### -param ppSignerCert [out, optional]
 
 A pointer to a 
 pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure of a signer certificate. When you have finished using the certificate context, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. A pointer to a <b>CERT_CONTEXT</b> structure will not be returned if this parameter is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -187,19 +173,11 @@ The message's signature was not verified.
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: a431f0c6-6551-4983-8638-0a76cada822d
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_Path method, IMsmError.get_Path, IMsmError::get_Path, _msi_get_path_function, get_Path, get_Path method, get_Path method,IMsmError interface, mergemod/IMsmError::get_Path, setup.imsmerror_get_path
-f1_keywords:
-- mergemod/IMsmError.get_Path
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmError.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmError::get_Path
+ - mergemod/IMsmError::get_Path
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmError.get_Path
 ---
 
 # IMsmError::get_Path
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Path</b> method retrieves the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-path">Path</a> property of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param ErrorPath [out]
 
 A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,30 +104,15 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
 In Windows Installer versions 1.0 and 1.1 
 <b>get_Path</b> always returns the empty string. Future versions of the class may use this function to return the path to the file or directory that could not be created. This value is only valid for errors of type msmErrorFileCreate or msmErrorDirCreate. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

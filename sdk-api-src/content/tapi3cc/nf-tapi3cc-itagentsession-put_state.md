@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 4d35bacd-c4e4-4c31-b946-ad76ffb250ed
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],put_State method, ITAgentSession.put_State, ITAgentSession::put_State, _tapi3_itagentsession_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_put_state, tapi3cc/ITAgentSession::put_State
-f1_keywords:
-- tapi3cc/ITAgentSession.put_State
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentSession.put_State
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentSession::put_State
+ - tapi3cc/ITAgentSession::put_State
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentSession.put_State
 ---
 
 # ITAgentSession::put_State
@@ -49,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>put_State</b> method sets the state of the agent session.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionState [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_state">AGENT_SESSION_STATE</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -133,25 +125,13 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method wraps the TAPI 2.1 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentstate">lineSetAgentSessionState</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_state">AGENT_SESSION_STATE</a>
 
@@ -166,7 +146,4 @@ This method wraps the TAPI 2.1
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentstate">lineSetAgentSessionState</a>
- 
-
- 
 

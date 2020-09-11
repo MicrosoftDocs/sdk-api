@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e202be43-48c7-4fa4-b049-efdda3ef2ada
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],WindowInputRectangle property, IRealTimeStylus.WindowInputRectangle, IRealTimeStylus.get_WindowInputRectangle, IRealTimeStylus.put_WindowInputRectangle, IRealTimeStylus::WindowInputRectangle, IRealTimeStylus::get_WindowInputRectangle, IRealTimeStylus::put_WindowInputRectangle, WindowInputRectangle property [Tablet PC], WindowInputRectangle property [Tablet PC],IRealTimeStylus interface, e202be43-48c7-4fa4-b049-efdda3ef2ada, get_WindowInputRectangle, rtscom/IRealTimeStylus::WindowInputRectangle, rtscom/IRealTimeStylus::get_WindowInputRectangle, rtscom/IRealTimeStylus::put_WindowInputRectangle, tablet.irealtimestylus_windowinputrectangle
-f1_keywords:
-- rtscom/IRealTimeStylus.WindowInputRectangle
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.WindowInputRectangle
-- IRealTimeStylus.get_WindowInputRectangle
-- IRealTimeStylus.put_WindowInputRectangle
-- IRealTimeStylus.get_WindowInputRectangle
-- IRealTimeStylus.put_WindowInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::get_WindowInputRectangle
+ - rtscom/IRealTimeStylus::get_WindowInputRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.WindowInputRectangle
+ - IRealTimeStylus.get_WindowInputRectangle
+ - IRealTimeStylus.put_WindowInputRectangle
+ - IRealTimeStylus.get_WindowInputRectangle
+ - IRealTimeStylus.put_WindowInputRectangle
 ---
 
 # IRealTimeStylus::get_WindowInputRectangle
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the window input rectangle for the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Each <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object receives tablet pen data for specific section of a window based on the defined window input rectangle for that <b>RealTimeStylus Class</b> object.
 
@@ -79,13 +74,7 @@ Use either an attached <a href="https://docs.microsoft.com/windows/desktop/api/r
 
 The E_INVALIDOPERATION HRESULT is returned when you attempt to set this property on a child <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -96,7 +85,4 @@ The E_INVALIDOPERATION HRESULT is returned when you attempt to set this property
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
- 
-
- 
 

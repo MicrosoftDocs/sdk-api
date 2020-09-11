@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\keybd_event.htm
 ms.date: 12/05/2018
 ms.keywords: KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, _win32_keybd_event, _win32_keybd_event_cpp, inputdev.keybd_event, keybd_event, keybd_event function [Keyboard and Mouse Input], winui._win32_keybd_event, winuser/keybd_event
-f1_keywords:
-- winuser/keybd_event
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- keybd_event
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - keybd_event
+ - winuser/keybd_event
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - keybd_event
 ---
 
 # keybd_event function
@@ -49,28 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message. The keyboard driver's interrupt handler calls the <b>keybd_event</b> function.
 <div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param bVk [in]
 
 Type: <b>BYTE</b>
 
-A virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>. 
-
+A virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>.
 
 ### -param bScan [in]
 
 Type: <b>BYTE</b>
 
 A hardware scan code for the key.
-
 
 ### -param dwFlags [in]
 
@@ -106,19 +101,14 @@ If specified, the key is being released. If not specified, the key is being depr
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwExtraInfo [in]
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the key stroke. 
-
+An additional value associated with the key stroke.
 
 ## -remarks
-
-
 
 An application can simulate a press of the PRINTSCRN key in order to obtain a screen snapshot and save it to the clipboard. To do this, call <b>keybd_event</b> with the 
 				<i>bVk</i> parameter set to <b>VK_SNAPSHOT</b>. 
@@ -162,14 +152,7 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -200,7 +183,4 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>
- 
-
- 
 

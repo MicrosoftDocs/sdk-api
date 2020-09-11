@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 13fbe834-1ef8-4944-b2e4-9f5c413c65c8
 ms.date: 12/05/2018
 ms.keywords: IDropTarget, IDropTarget interface [COM], IDropTarget interface [COM],described, _ole_idroptarget, com.idroptarget, oleidl/IDropTarget
-f1_keywords:
-- oleidl/IDropTarget
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDropTarget
+ - oleidl/IDropTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IDropTarget
 ---
 
 # IDropTarget interface
 
 
 ## -description
-
 
 The <b>IDropTarget</b> interface is one of the interfaces you implement to provide drag-and-drop operations in your application. It contains methods used in any application that can be a target for data during a drag-and-drop operation. A drop-target application is responsible for:
 <ul>
@@ -58,7 +58,6 @@ The <b>IDropTarget</b> interface is one of the interfaces you implement to provi
 <li>Implementing drag scrolling.</li>
 <li>Registering and revoking its application windows as drop targets.</li>
 </ul>The <b>IDropTarget</b> interface contains methods that handle all these responsibilities except registering and revoking the application window as a drop target, for which you must call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a> functions.
-
 
 ## -inheritance
 
@@ -111,13 +110,9 @@ Drops the data into the target window.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
@@ -136,7 +131,4 @@ Drops the data into the target window.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
- 
-
- 
 

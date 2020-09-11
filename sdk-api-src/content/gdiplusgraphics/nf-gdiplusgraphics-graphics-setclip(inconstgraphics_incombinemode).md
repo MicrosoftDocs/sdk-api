@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::SetClip"]
 ms.assetid: 77ca4449-3bd3-4476-9502-6b05638ecf7f
 ms.date: 05/13/2019
 ms.keywords: Graphics::SetClip
-f1_keywords:
-- gdiplusgraphics/Graphics::SetClip
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::SetClip
+ - gdiplusgraphics/Graphics::SetClip
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::SetClip
+ - Graphics::SetClip
 ---
 
 # SetClip(Graphics*,CombineMode)
+
 
 ## -description
 
@@ -87,3 +89,4 @@ If the method fails, it returns one of the other elements of the **Status** enum
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-intersectclip(inconstrect_)">IntersectClip Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint)">TranslateClip Methods</a>
+

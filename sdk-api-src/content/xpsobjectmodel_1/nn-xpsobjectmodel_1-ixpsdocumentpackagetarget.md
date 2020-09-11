@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: B8B43CE5-2222-428B-8E78-C7049D027EE1
 ms.date: 12/05/2018
 ms.keywords: IXpsDocumentPackageTarget, IXpsDocumentPackageTarget interface [XPS Documents and Packaging], IXpsDocumentPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget, xpsobjectmodel_1/IXpsDocumentPackageTarget
-f1_keywords:
-- xpsobjectmodel_1/IXpsDocumentPackageTarget
-dev_langs:
-- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xpsobjectmodel_1.h
-api_name:
-- IXpsDocumentPackageTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsDocumentPackageTarget
+ - xpsobjectmodel_1/IXpsDocumentPackageTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xpsobjectmodel_1.h
+api_name:
+ - IXpsDocumentPackageTarget
 ---
 
 # IXpsDocumentPackageTarget interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IXpsDocumentPackageTarget</b> interface contains the elements needed for printing XPS content in the Document Printing model.
-
 
 ## -inheritance
 
@@ -95,20 +94,13 @@ Gets the <a href="/windows/win32/api/xpsobjectmodel_1/ne-xpsobjectmodel_1-xps_do
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetargetfactory">IPrintDocumentPackageTargetFactory</a>
 
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.graphics.printing.printmanager">Windows.Graphics.Printing.PrintManager</a>
- 
-
- 
 

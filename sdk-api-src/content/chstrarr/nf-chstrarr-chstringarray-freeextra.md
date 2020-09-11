@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5ed54cc4-284b-4cd7-80c1-e9c5ff27c4bf
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],FreeExtra method, CHStringArray.FreeExtra, CHStringArray::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_freeextra, chstrarr/CHStringArray::FreeExtra, wmi.chstringarray_freeextra
-f1_keywords:
-- chstrarr/CHStringArray.FreeExtra
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.FreeExtra
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::FreeExtra
+ - chstrarr/CHStringArray::FreeExtra
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.FreeExtra
 ---
 
 # CHStringArray::FreeExtra
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,34 +59,17 @@ ms.custom: 19H1
 
 The <b>FreeExtra</b> method frees any extra memory allocated while the array increased. This method has no effect on the size or upper bound of the array.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This method does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeall">CHStringArray::RemoveAll</a>
- 
-
- 
 

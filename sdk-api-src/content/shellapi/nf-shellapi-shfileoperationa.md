@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
 ms.date: 12/05/2018
 ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOperationA, SHFileOperationW, _win32_SHFileOperation, shell.SHFileOperation, shellapi/SHFileOperation, shellapi/SHFileOperationA, shellapi/SHFileOperationW
-f1_keywords:
-- shellapi/SHFileOperation
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- SHFileOperation
-- SHFileOperationA
-- SHFileOperationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHFileOperationA
+ - shellapi/SHFileOperationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - SHFileOperation
+ - SHFileOperationA
+ - SHFileOperationW
 ---
 
 # SHFileOperationA function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileOp [in, out]
 
@@ -68,10 +64,7 @@ Type: <b>LPSHFILEOPSTRUCT</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -224,14 +217,8 @@ To examine the nonzero values for troubleshooting purposes, they largely map to 
 <td>Destination is a root directory and cannot be renamed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should use fully qualified path names with this function. Using it with relative path names is not thread safe.
 

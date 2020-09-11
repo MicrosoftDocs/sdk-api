@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c381b7d3-cc60-45cf-a7f0-eebf44557bcf
 ms.date: 12/05/2018
 ms.keywords: BackupClusterDatabase, BackupClusterDatabase function [Failover Cluster], _wolf_backupclusterdatabase, clusapi/BackupClusterDatabase, mscs.backupclusterdatabase
-f1_keywords:
-- clusapi/BackupClusterDatabase
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- BackupClusterDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BackupClusterDatabase
+ - clusapi/BackupClusterDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - BackupClusterDatabase
 ---
 
 # BackupClusterDatabase function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements 
     section. Support for this function was removed in Windows Server 2008 and this function does nothing and returns 
@@ -57,16 +57,11 @@ ms.custom: 19H1
 Creates a backup of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and 
     all registry <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">checkpoints</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to the cluster to be backed up.
-
 
 ### -param lpszPathName [in]
 
@@ -75,22 +70,14 @@ Null-terminated Unicode string specifying the path to where the backup should be
       example, this data can be protected by using an access control list to restrict access to the location where the 
       data is stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 Ideally, the specified path should be a path visible to all cluster 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a>, such as a UNC path. At minimum, the path must be visible to 
@@ -218,21 +205,11 @@ int main( void )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a>
- 
-
- 
 

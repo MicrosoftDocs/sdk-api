@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 141a650f-a829-47b1-abf9-427302d98444
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback, IContextMenuCallback interface [MMC], IContextMenuCallback interface [MMC],described, _slate_icontextmenucallback, mmc.icontextmenucallback, mmc/IContextMenuCallback
-f1_keywords:
-- mmc/IContextMenuCallback
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IContextMenuCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuCallback
+ - mmc/IContextMenuCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IContextMenuCallback
 ---
 
 # IContextMenuCallback interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IContextMenuCallback</b> interface is used to add menu items to a context menu.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Adds one item to the context menu.
 
 </td>
 </tr>
-</table> 
+</table>
 

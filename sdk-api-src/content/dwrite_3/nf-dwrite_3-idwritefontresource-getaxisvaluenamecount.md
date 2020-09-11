@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisVal
 tech.root: DirectWrite
 ms.date: 09/15/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNameCount method, IDWriteFontResource.GetAxisValueNameCount, IDWriteFontResource::GetAxisValueNameCount, GetAxisValueNameCount, GetAxisValueNameCount method [Direct Write], GetAxisValueNameCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenamecount, dwrite_3/IDWriteFontResource::GetAxisValueNameCount
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetAxisValueNameCount
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetAxisValueNameCount
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetAxisValueNameCount
+ - dwrite_3/IDWriteFontResource::GetAxisValueNameCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetAxisValueNameCount
 ---
 
 ## -description
@@ -64,3 +65,4 @@ The number of named values for the axis specified by *axisIndex*.
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 81d34dff-3842-407b-8fd8-3b0a5a5f38f1
 ms.date: 12/05/2018
 ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PSAM_PASSWORD_NOTIFICATION_ROUTINE callback, PasswordChangeNotify, PasswordChangeNotify callback function [Security], _pswd_passwordchangenotify, ntsecapi/PasswordChangeNotify, security.passwordchangenotify
-f1_keywords:
-- ntsecapi/PasswordChangeNotify
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecapi.h
-api_name:
-- PasswordChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSAM_PASSWORD_NOTIFICATION_ROUTINE
+ - ntsecapi/PSAM_PASSWORD_NOTIFICATION_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecapi.h
+api_name:
+ - PasswordChangeNotify
 ---
 
 # PSAM_PASSWORD_NOTIFICATION_ROUTINE callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PasswordChangeNotify</b> function is implemented by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">password filter</a> DLL. It notifies the DLL that a password was changed.
 
-
 ## -parameters
-
-
-
 
 ### -param UserName [in]
 
@@ -64,11 +60,9 @@ The account name of the user whose password changed.
 
 If the values of this parameter and the <i>NewPassword</i> parameter are <b>NULL</b>, this function should return <b>STATUS_SUCCESS</b>.
 
-
 ### -param RelativeId [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative identifier</a> (RID) of the user specified in <i>UserName</i>.
-
 
 ### -param NewPassword [in]
 
@@ -76,10 +70,7 @@ A new plaintext password for the user specified in <i>UserName</i>. When you hav
 
 If the values of this parameter and the <i>UserName</i> parameter are <b>NULL</b>, this function should return <b>STATUS_SUCCESS</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,14 +89,8 @@ Indicates the password of the user was changed, or that the values of both the <
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>PasswordChangeNotify</b> function is called after the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_filter_routine">PasswordFilter</a> function has been called successfully and the new password has been stored.
 
@@ -141,22 +126,12 @@ Any process exception that is not handled within this function may cause securit
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_init_notification_routine">InitializeChangeNotify</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_filter_routine">PasswordFilter</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
-f1_keywords:
-- coml2api/StgCreateDocfile
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-COM-OLE32-l1-1-0.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- StgCreateDocfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StgCreateDocfile
+ - coml2api/StgCreateDocfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-0.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - StgCreateDocfile
 ---
 
 # StgCreateDocfile function
 
 
 ## -description
-
 
 The <b>StgCreateDocfile</b> function creates a new compound file storage object using the COM-provided <a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">compound file implementation</a> for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface.
@@ -66,44 +66,30 @@ The <b>StgCreateDocfile</b> function creates a new compound file storage object 
 
 ## -parameters
 
-
-
-
 ### -param pwcsName [in]
 
 A pointer to a null-terminated Unicode string name for the compound file being created. It is passed uninterpreted to the file system. This can be a relative name or <b>NULL</b>. If <b>NULL</b>, a temporary compound file is allocated with a unique name.
-
 
 ### -param grfMode [in]
 
 Specifies the access mode to use when opening the new storage object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>. If the caller specifies transacted mode together with STGM_CREATE or STGM_CONVERT, the overwrite or conversion takes place when the commit operation is called for the root storage. If <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> is not called for the root storage object, previous contents of the file will be restored. STGM_CREATE and STGM_CONVERT cannot be combined with the STGM_NOSNAPSHOT flag, because a snapshot copy is required when a file is overwritten or converted in the transacted mode.
 
-
 ### -param reserved [in]
 
 Reserved for future use; must be zero.
-
 
 ### -param ppstgOpen [out]
 
 A pointer to the location of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the new storage object.
 
-
 ## -returns
-
-
 
 <b>StgCreateDocfile</b> can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>StgCreateDocfile</b> function creates a new storage object using the COM-provided, compound-file implementation for the 
@@ -121,13 +107,7 @@ If the <i>grfMode</i> parameter specifies STGM_TRANSACTED and no file yet exists
 
 <b>StgCreateDocfile</b> can be used to create a temporary compound file by passing a <b>NULL</b> value for the <i>pwcsName</i> parameter. However, these files are temporary only in the sense that they have a system-provided unique name — likely one that is meaningless to the user. The caller is responsible for deleting the temporary file when finished with it, unless STGM_DELETEONRELEASE was specified for the <i>grfMode</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>
 
@@ -138,7 +118,4 @@ If the <i>grfMode</i> parameter specifies STGM_TRANSACTED and no file yet exists
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: e23631b4-eb7f-4a75-ac23-25d3d974a3e3
 ms.date: 12/05/2018
 ms.keywords: SetupDiClassNameFromGuid, SetupDiClassNameFromGuid function [Device and Driver Installation], SetupDiClassNameFromGuidA, SetupDiClassNameFromGuidW, devinst.setupdiclassnamefromguid, di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml, setupapi/SetupDiClassNameFromGuid
-f1_keywords:
-- setupapi/SetupDiClassNameFromGuid
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiClassNameFromGuid
-- SetupDiClassNameFromGuidW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiClassNameFromGuidW
+ - setupapi/SetupDiClassNameFromGuidW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiClassNameFromGuid
+ - SetupDiClassNameFromGuidW
 ---
 
 # SetupDiClassNameFromGuidW function
@@ -51,47 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiClassNameFromGuid</b> function retrieves the class name associated with a class GUID.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in]
 
 A pointer to the class GUID for the class name to retrieve.
 
-
 ### -param ClassName [out]
 
 A pointer to a buffer that receives the NULL-terminated string that contains the name of the class that is specified by the pointer in the <i>ClassGuid</i> parameter.
-
 
 ### -param ClassNameSize [in]
 
 The size, in characters, of the buffer that is pointed to by the <i>ClassName</i> parameter. The maximum size, in characters, of a NULL-terminated class name is MAX_CLASS_NAME_LEN. For more information about the class name size, see the following <b>Remarks</b> section.
 
-
 ### -param RequiredSize [out, optional]
 
-A pointer to a variable that receives the number of characters that are required to store the requested NULL-terminated class name. This pointer is optional and can be <b>NULL</b>. 
-
+A pointer to a variable that receives the number of characters that are required to store the requested NULL-terminated class name. This pointer is optional and can be <b>NULL</b>.
 
 ## -returns
 
-
-
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a remote computer.
 
@@ -106,15 +91,9 @@ Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a rem
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>
- 
-
- 
 

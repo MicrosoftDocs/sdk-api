@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 2d8ef5a2-204a-434d-918a-104419050233
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],UpdateSubresource method, ID3D11DeviceContext.UpdateSubresource, ID3D11DeviceContext::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 11], UpdateSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::UpdateSubresource, direct3d11.id3d11devicecontext_updatesubresource, f9813ce8-3ca5-fd5e-fac2-bd93631ecbc8
-f1_keywords:
-- d3d11/ID3D11DeviceContext.UpdateSubresource
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.UpdateSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::UpdateSubresource
+ - d3d11/ID3D11DeviceContext::UpdateSubresource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.UpdateSubresource
 ---
 
 # ID3D11DeviceContext::UpdateSubresource
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The CPU copies data from memory to a subresource created in non-mappable memory.
 
-
 ## -parameters
-
-
-
 
 ### -param pDstResource [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to the destination resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>).
 
-
 ### -param DstSubresource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index, that identifies the destination subresource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11calcsubresource">D3D11CalcSubresource</a> for more details.
-
 
 ### -param pDstBox [in, optional]
 
@@ -81,13 +75,11 @@ A pointer to a box that defines the portion of the destination subresource to co
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>UpdateSubresource</b> doesn't perform an update operation.
 
-
 ### -param pSrcData [in]
 
 Type: <b>const void*</b>
 
 A pointer to the source data in memory.
-
 
 ### -param SrcRowPitch [in]
 
@@ -95,17 +87,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The size of one row of the source data.
 
-
 ### -param SrcDepthPitch [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of one depth slice of source data.
 
-
 ## -remarks
-
-
 
 For a shader-constant buffer; set <i>pDstBox</i> to <b>NULL</b>. It is not possible to use this method to partially update a shader-constant buffer.
 
@@ -252,21 +240,11 @@ HRESULT UpdateSubresource_Workaround(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilGetExpandSzValue, ResUtilGetExpandSzValue function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE, resapi/ResUtilGetExpandSzValue
-f1_keywords:
-- resapi/ResUtilGetExpandSzValue
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetExpandSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetExpandSzValue
+ - resapi/ResUtilGetExpandSzValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetExpandSzValue
 ---
 
 # ResUtilGetExpandSzValue function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2003. This function is not exported 
@@ -57,31 +57,22 @@ ms.custom: 19H1
 Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e-gly">expandable string</a> value from the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyClusterKey [in]
 
 Key identifying the location of the expandable string value in the cluster database.
 
-
 ### -param pszValueName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the value to retrieve.
-
 
 ### -param bExpand [in]
 
 If <b>TRUE</b>, the function expands the string before returning. If 
        <b>FALSE</b>, the string is returned in an expandable form.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns a null-terminated Unicode string containing a copy of the 
        specified value.
@@ -89,24 +80,13 @@ If the operations succeeds, the function returns a null-terminated Unicode strin
 If the operation fails, the function returns <b>NULL</b>. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 When you are finished with the memory allocated for the value returned by the 
      <b>ResUtilGetExpandSzValue</b> utility function, you 
      must call the function <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to release it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregqueryvalue">ClusterRegQueryValue</a>
 
@@ -125,7 +105,4 @@ When you are finished with the memory allocated for the value returned by the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetszvalue">ResUtilGetSzValue</a>
- 
-
- 
 

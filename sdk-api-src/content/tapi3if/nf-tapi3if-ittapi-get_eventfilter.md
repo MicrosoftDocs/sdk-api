@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_EventFilter method, ITTAPI.get_EventFilter, ITTAPI::get_EventFilter, _tapi3_ittapi_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_eventfilter, tapi3if/ITTAPI::get_EventFilter
-f1_keywords:
-- tapi3if/ITTAPI.get_EventFilter
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPI.get_EventFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPI::get_EventFilter
+ - tapi3if/ITTAPI::get_EventFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPI.get_EventFilter
 ---
 
 # ITTAPI::get_EventFilter
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_EventFilter</b> method gets the current event filter mask. The mask is a series of ORed members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param plFilterMask [out]
 
 Pointer to the event filter mask.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,15 +92,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events overview</a>
 
@@ -130,7 +116,4 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">put_EventFilter</a>
- 
-
- 
 

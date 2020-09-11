@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: b8ea2e96-2e7e-428c-a5cd-dfe9dd341063
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_BINDING_HANDLE_SECURITY_V1_A, RPC_BINDING_HANDLE_SECURITY, RPC_BINDING_HANDLE_SECURITY structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1, RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1_A, RPC_BINDING_HANDLE_SECURITY_V1_W, _RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_W, rpc.rpc_binding_handle_security_v1, rpcdce/RPC_BINDING_HANDLE_SECURITY, rpcdce/RPC_BINDING_HANDLE_SECURITY_V1'
-f1_keywords:
-- rpcdce/RPC_BINDING_HANDLE_SECURITY_V1
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_BINDING_HANDLE_SECURITY_V1
-- RPC_BINDING_HANDLE_SECURITY_V1_A
-- RPC_BINDING_HANDLE_SECURITY_V1_W
 targetos: Windows
 req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_A, *PRPC_BINDING_HANDLE_SECURITY_V1_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_BINDING_HANDLE_SECURITY_V1_A
+ - rpcdce/_RPC_BINDING_HANDLE_SECURITY_V1_A
+ - PRPC_BINDING_HANDLE_SECURITY_V1_A
+ - rpcdce/PRPC_BINDING_HANDLE_SECURITY_V1_A
+ - RPC_BINDING_HANDLE_SECURITY_V1_A
+ - rpcdce/RPC_BINDING_HANDLE_SECURITY_V1_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_BINDING_HANDLE_SECURITY_V1
+ - RPC_BINDING_HANDLE_SECURITY_V1_A
+ - RPC_BINDING_HANDLE_SECURITY_V1_W
 ---
 
 # RPC_BINDING_HANDLE_SECURITY_V1_A structure
@@ -51,24 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RPC_BINDING_HANDLE_SECURITY_V1</b> structure contains the basic security options with which to create an RPC binding handle.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. For <b>RPC_BINDING_HANDLE_SECURITY_V1</b> this must be set to 1.
 
-
 ### -field ServerPrincName
 
-Pointer to a string that contains the server principal name referenced by the binding handle. The content of the name and its syntax are defined by the authentication service in use. 
-
+Pointer to a string that contains the server principal name referenced by the binding handle. The content of the name and its syntax are defined by the authentication service in use.
 
 ### -field AuthnLevel
 
@@ -76,7 +74,6 @@ Level of authentication to be performed on remote procedure calls made using thi
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
 If <i>AuthnSvc</i> is set to RPC_C_AUTHN_NONE, this member must likewise be set to RPC_C_AUTHN_NONE.
-
 
 ### -field AuthnSvc
 
@@ -91,15 +88,11 @@ If RPC_C_AUTHN_DEFAULT is specified, the RPC run-time library uses the RPC_C_AUT
 
 If <i>AuthnLevel</i> is set to RPC_C_AUTHN_NONE, this member must likewise be set to RPC_C_AUTHN_NONE.
 
-
 ### -field AuthIdentity
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the client's authentication and authorization credentials appropriate for the selected authentication and authorization service.
 
-
 ### -field SecurityQos
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure that contains the security quality-of-service settings for the binding handle. 
 
@@ -111,8 +104,6 @@ If <i>AuthnLevel</i> is set to RPC_C_AUTHN_NONE, this member must likewise be se
 <div> </div>
 
 ## -remarks
-
-
 
 If this structure is not passed to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> -- that is, if the <i>Security</i> parameter of <b>RpcBindingCreate</b> is set to <b>NULL</b> -- then the following default security behaviors are assumed:
 
@@ -199,12 +190,7 @@ The following table summarizes the default security settings for the different p
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
 
@@ -215,7 +201,4 @@ The following table summarizes the default security settings for the different p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
- 
-
- 
 

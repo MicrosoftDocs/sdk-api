@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCONTROLDETAILS_UNSIGNED, *PMIXERCONTROLDETAILS_UNSIGNED, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
-f1_keywords:
-- mmeapi/MIXERCONTROLDETAILS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERCONTROLDETAILS
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_UNSIGNED, *PMIXERCONTROLDETAILS_UNSIGNED, *LPMIXERCONTROLDETAILS_UNSIGNED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tMIXERCONTROLDETAILS_UNSIGNED
+ - mmeapi/tMIXERCONTROLDETAILS_UNSIGNED
+ - PMIXERCONTROLDETAILS_UNSIGNED
+ - mmeapi/PMIXERCONTROLDETAILS_UNSIGNED
+ - MIXERCONTROLDETAILS_UNSIGNED
+ - mmeapi/MIXERCONTROLDETAILS_UNSIGNED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERCONTROLDETAILS
 ---
 
 # MIXERCONTROLDETAILS_UNSIGNED structure
@@ -51,20 +56,13 @@ ms.custom: 19H1
 
 The MIXERCONTROLDETAILS_UNSIGNED structure retrieves and sets unsigned type control properties for an audio mixer control.
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwValue
 
 Unsigned integer value for a single item or channel. This value must be inclusively within the bounds given in the Bounds structure member of the MIXERCONTROL structure for unsigned integer controls.
 
-### -remarks
+## -remarks
 
 The following standard control types use this structure for retrieving and setting properties:
 
@@ -96,12 +94,7 @@ MIXERCONTROL_CONTROLTYPE_MILLITIME
 
 MIXERCONTROL_CONTROLTYPE_PERCENT
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
@@ -120,7 +113,4 @@ MIXERCONTROL_CONTROLTYPE_PERCENT
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
- 
-
- 
 

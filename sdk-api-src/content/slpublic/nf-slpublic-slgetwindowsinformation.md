@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815
 ms.date: 12/05/2018
 ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
-f1_keywords:
-- slpublic/SLGetWindowsInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetWindowsInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetWindowsInformation
+ - slpublic/SLGetWindowsInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetWindowsInformation
 ---
 
 # SLGetWindowsInformation function
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value portion of a name-value pair from the licensing policy of a software component.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszValueName [in]
 
 A pointer to a null-terminated string that contains the name associated with the value to retrieve.
 
-
 ### -param peDataType [out, optional]
 
 A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
-
 ### -param pcbValue [out]
 
 A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
-
 
 ### -param ppbValue [out]
 
@@ -79,10 +72,7 @@ A pointer to an array of <b>BYTE</b> pointers that specifies the value associate
 
 When you have finished using this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ## -returns
-
-
 
  If the method succeeds, it returns <b>S_OK</b>.
 
@@ -120,7 +110,4 @@ The caller does not have the permissions necessary to call this function.
 </td>
 </tr>
 </table>
- 
-
-
 

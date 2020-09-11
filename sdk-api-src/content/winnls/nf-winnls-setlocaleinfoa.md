@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5
 ms.date: 12/05/2018
 ms.keywords: SetLocaleInfo, SetLocaleInfo function [Internationalization for Windows Applications], SetLocaleInfoA, SetLocaleInfoW, _win32_SetLocaleInfo, intl.setlocaleinfo, winnls/SetLocaleInfo, winnls/SetLocaleInfoA, winnls/SetLocaleInfoW
-f1_keywords:
-- winnls/SetLocaleInfo
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- SetLocaleInfo
-- SetLocaleInfoA
-- SetLocaleInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetLocaleInfoA
+ - winnls/SetLocaleInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - SetLocaleInfo
+ - SetLocaleInfoA
+ - SetLocaleInfoW
 ---
 
 # SetLocaleInfoA function
@@ -60,14 +61,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an item of information in the user override portion of the current locale. This function does not set the system defaults.
 <div class="alert"><b>Caution</b>  Because this function modifies values for all applications, it should only be called by the regional and language options functionality of Control Panel, or a similar utility. If making an international change to system parameters, the calling application must broadcast the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message to avoid causing instabilities in other applications.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param Locale [in]
 
@@ -102,18 +99,13 @@ The following custom locale identifiers are also supported.
 
 ### -param LCType [in]
 
-Type of locale information to set. For valid constants see "Constants Used in the LCType Parameter of GetLocaleInfo, GetLocaleInfoEx, and SetLocaleInfo" section of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-information-constants">Locale Information Constants</a>. The application can specify only one value per call, but it can use the binary OR operator to combine <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-use-cp-acp">LOCALE_USE_CP_ACP</a> with any other constant. 
-
-
+Type of locale information to set. For valid constants see "Constants Used in the LCType Parameter of GetLocaleInfo, GetLocaleInfoEx, and SetLocaleInfo" section of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-information-constants">Locale Information Constants</a>. The application can specify only one value per call, but it can use the binary OR operator to combine <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-use-cp-acp">LOCALE_USE_CP_ACP</a> with any other constant.
 
 ### -param lpLCData [in]
 
 Pointer to a null-terminated string containing the locale information to set. The information must be in the format specific to the specified constant. The application uses a Unicode string for the Unicode version of the function, and an ANSI string for the ANSI version.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -124,11 +116,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function writes to the registry, where it sets values that are associated with a particular user instead of a particular application. These registry values affect the behavior of other applications run by the user. As a rule, an application should call this function only when the user has explicitly requested the changes. The registry settings should not be changed for the convenience of a single application.
 
@@ -147,9 +135,6 @@ As of Windows Vista, the <a href="https://docs.microsoft.com/windows/desktop/In
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
 
 
@@ -159,7 +144,4 @@ As of Windows Vista, the <a href="https://docs.microsoft.com/windows/desktop/In
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

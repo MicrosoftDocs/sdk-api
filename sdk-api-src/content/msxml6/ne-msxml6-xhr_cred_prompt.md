@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: 01160bda-0d4c-46fc-92ba-82fe5808e665
 ms.date: 12/05/2018
 ms.keywords: XHR_CRED_PROMPT, XHR_CRED_PROMPT enumeration [XMLHttpRequest2], XHR_CRED_PROMPT_ALL, XHR_CRED_PROMPT_NONE, XHR_CRED_PROMPT_PROXY, ixhr2.xhr_cred_prompt, msxml6/XHR_CRED_PROMPT, msxml6/XHR_CRED_PROMPT_ALL, msxml6/XHR_CRED_PROMPT_NONE, msxml6/XHR_CRED_PROMPT_PROXY
-f1_keywords:
-- msxml6/XHR_CRED_PROMPT
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msxml6.h
-api_name:
-- XHR_CRED_PROMPT
 targetos: Windows
 req.typenames: XHR_CRED_PROMPT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _XHR_CRED_PROMPT
+ - msxml6/_XHR_CRED_PROMPT
+ - XHR_CRED_PROMPT
+ - msxml6/XHR_CRED_PROMPT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msxml6.h
+api_name:
+ - XHR_CRED_PROMPT
 ---
 
 # XHR_CRED_PROMPT enumeration
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies whether to allow credential prompts to the user for authentication. 
-
+Specifies whether to allow credential prompts to the user for authentication.
 
 ## -enum-fields
-
-
-
 
 ### -field XHR_CRED_PROMPT_ALL
 
@@ -64,11 +62,9 @@ Allow all credential prompts for authentication.
 
 This setting allows credential prompts in response to requests from the proxy or the server.
 
-
 ### -field XHR_CRED_PROMPT_NONE
 
 Disable all credential prompts for authentication. This setting disables any credential prompts in response to requests from the proxy or the server.
-
 
 ### -field XHR_CRED_PROMPT_PROXY
 
@@ -76,14 +72,7 @@ Allow credential prompts for authentication only in response to requests from th
 
 This setting disables any credential prompts in response to requests from the server.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
- 
-
- 
 

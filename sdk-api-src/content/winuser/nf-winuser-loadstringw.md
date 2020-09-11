@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
 ms.date: 12/05/2018
 ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadStringA, LoadStringW, _win32_LoadString, _win32_loadstring_cpp, menurc.loadstring, winui._win32_loadstring, winuser/LoadString, winuser/LoadStringA, winuser/LoadStringW
-f1_keywords:
-- winuser/LoadString
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,32 +25,37 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- API-MS-Win-Core-Stringloader-l1-1-0.dll
-- API-MS-Win-Core-Stringloader-l1-1-1.dll
-- API-MS-Win-DownLevel-user32-l1-1-1.dll
-- MinKernelBase.dll
-- kernel32.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- LoadString
-- LoadStringA
-- LoadStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadStringW
+ - winuser/LoadStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - API-MS-Win-Core-Stringloader-l1-1-0.dll
+ - API-MS-Win-Core-Stringloader-l1-1-1.dll
+ - API-MS-Win-DownLevel-user32-l1-1-1.dll
+ - MinKernelBase.dll
+ - kernel32.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - LoadString
+ - LoadStringA
+ - LoadStringW
 ---
 
 # LoadStringW function
@@ -62,14 +63,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads a string resource from the executable file associated with a specified module and either copies the string into a buffer with a terminating null character or returns a read-only pointer to the string resource itself.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstance [in, optional]
 
@@ -77,20 +73,17 @@ Type: <b>HINSTANCE</b>
 
 A handle to an instance of the module whose executable file contains the string resource. To get the handle to the application itself, call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> function with <b>NULL</b>.
 
-
 ### -param uID [in]
 
 Type: <b>UINT</b>
 
 The identifier of the string to be loaded.
 
-
 ### -param lpBuffer [out]
 
 Type: <b>LPTSTR</b>
 
-The buffer to receive the string (if *cchBufferMax* is non-zero) or a read-only pointer to the string resource itself (if *cchBufferMax* is zero). Must be of sufficient length to hold a pointer (8 bytes). 
-
+The buffer to receive the string (if *cchBufferMax* is non-zero) or a read-only pointer to the string resource itself (if *cchBufferMax* is zero). Must be of sufficient length to hold a pointer (8 bytes).
 
 ### -param cchBufferMax [in]
 
@@ -98,10 +91,7 @@ Type: <b>int</b>
 
 The size of the buffer, in characters. The string is truncated and null-terminated if it is longer than the number of characters specified. If this parameter is 0, then <i>lpBuffer</i> receives a read-only pointer to the string resource itself.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -112,7 +102,6 @@ If the function succeeds, the return value is one of the following:
 - Zero if the string resource does not exist. 
  
 To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
 
 ## -remarks
 
@@ -135,9 +124,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 > The winuser.h header defines LoadString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -180,7 +166,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
- 
-
- 
 

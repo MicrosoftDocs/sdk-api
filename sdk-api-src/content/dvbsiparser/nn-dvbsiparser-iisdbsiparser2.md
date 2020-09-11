@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d8dfc713-aaa4-46b1-8eca-2e132a9d705f
 ms.date: 12/05/2018
 ms.keywords: IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies], IIsdbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSiParser2, mstv.iisdbsiparser2
-f1_keywords:
-- dvbsiparser/IIsdbSiParser2
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbSiParser2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbSiParser2
+ - dvbsiparser/IIsdbSiParser2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbSiParser2
 ---
 
 # IIsdbSiParser2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that retrieve program specific information (PSI) tables and service information tables from an Integrated Services Digital Broadcast (ISDB) transport stream.
-
 
 ## -inheritance
 
@@ -135,5 +134,5 @@ Retrieves the  software download
 
 </td>
 </tr>
-</table> 
+</table>
 

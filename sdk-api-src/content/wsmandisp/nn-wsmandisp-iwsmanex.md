@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6
 ms.date: 12/05/2018
 ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], IWSManEx interface [Windows Remote Management],described, winrm.iwsmanex, wsmandisp/ IWSManEx
-f1_keywords:
-- wsmandisp/IWSManEx
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEx
+ - wsmandisp/IWSManEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEx
 ---
 
 # IWSManEx interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the methods and properties of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a> 
     interface to include creating 
     <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> objects, methods that return 
     enumeration and session flag values, and a method to get extended error information.
-
 
 ## -inheritance
 
@@ -306,13 +305,9 @@ Returns a formatted string containing the text of an error number.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
 
@@ -323,7 +318,4 @@ Returns a formatted string containing the text of an error number.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
- 
-
- 
 

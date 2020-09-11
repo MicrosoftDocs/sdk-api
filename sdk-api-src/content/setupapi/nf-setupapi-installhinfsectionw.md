@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
 ms.date: 12/05/2018
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
-f1_keywords:
-- setupapi/InstallHinfSection
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- InstallHinfSection
-- InstallHinfSectionA
-- InstallHinfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InstallHinfSectionW
+ - setupapi/InstallHinfSectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - InstallHinfSection
+ - InstallHinfSectionA
+ - InstallHinfSectionW
 ---
 
 # InstallHinfSectionW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -63,35 +63,25 @@ The prototype for the
 If a file is copied or modified, the caller of this function is required have privileges to write into the target directory. If there are any services being installed, the caller of this function is required have access to the 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param Window [in]
 
 The parent window handle. Typically <i>hwnd</i> is Null.
 
-
 ### -param ModuleHandle [in]
 
 Reserved and should be Null.
-
 
 ### -param CommandLine [in]
 
 Pointer to buffer containing the command line. You should use a null-terminated string.
 
-
 ### -param ShowCommand [in]
 
 Reserved and should be zero.
 
-
 ## -remarks
-
-
 
 Note that three exports exist: 
 <b>InstallHinfSection</b> (for RunDll32), <b>InstallHinfSectionA</b>, and <b>InstallHinfSectionW</b>. 

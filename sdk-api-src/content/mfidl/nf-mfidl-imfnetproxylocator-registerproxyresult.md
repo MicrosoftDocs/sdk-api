@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 2b1a55c6-7d78-47cc-9098-6504d11a4eef
 ms.date: 12/05/2018
 ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator interface [Media Foundation],RegisterProxyResult method, IMFNetProxyLocator.RegisterProxyResult, IMFNetProxyLocator::RegisterProxyResult, RegisterProxyResult, RegisterProxyResult method [Media Foundation], RegisterProxyResult method [Media Foundation],IMFNetProxyLocator interface, mf.imfnetproxylocator_registerproxyresult, mfidl/IMFNetProxyLocator::RegisterProxyResult
-f1_keywords:
-- mfidl/IMFNetProxyLocator.RegisterProxyResult
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetProxyLocator.RegisterProxyResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetProxyLocator::RegisterProxyResult
+ - mfidl/IMFNetProxyLocator::RegisterProxyResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetProxyLocator.RegisterProxyResult
 ---
 
 # IMFNetProxyLocator::RegisterProxyResult
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Keeps a record of the success or failure of using the current proxy.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrOp [in]
 
 <b>HRESULT</b> specifying the result of using the current proxy for connection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,18 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a>
- 
-
- 
 

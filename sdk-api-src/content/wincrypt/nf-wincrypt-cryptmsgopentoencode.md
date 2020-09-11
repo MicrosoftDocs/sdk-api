@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b0d2610b-05ba-4fb6-8f38-10f970a52091
 ms.date: 12/05/2018
 ms.keywords: CMSG_AUTHENTICATED_ATTRIBUTES_FLAG, CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToEncode, CryptMsgOpenToEncode function [Security], _crypto2_cryptmsgopentoencode, security.cryptmsgopentoencode, wincrypt/CryptMsgOpenToEncode
-f1_keywords:
-- wincrypt/CryptMsgOpenToEncode
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgOpenToEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgOpenToEncode
+ - wincrypt/CryptMsgOpenToEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgOpenToEncode
 ---
 
 # CryptMsgOpenToEncode function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgOpenToEncode</b> function opens a cryptographic message for encoding and returns a handle of the opened message. The message remains open until 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> is called.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMsgEncodingType [in]
 
@@ -146,8 +142,6 @@ If set, the <b>hCryptProv</b> that is passed to this function is released on the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwMsgType [in]
 
@@ -209,13 +203,10 @@ The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://docs.m
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvMsgEncodeInfo [in]
 
 The address of a structure that contains the encoding information. The type of data depends on the value of the <i>dwMsgType</i> parameter. For details, see <i>dwMsgType</i>.
-
 
 ### -param pszInnerContentObjID [in, optional]
 
@@ -251,10 +242,7 @@ Streaming is not used with the <b>CMSG_HASHED</b> message type. When dealing wit
 
 Consider the case of a signed message being enclosed in an enveloped message. The encoded output from the streamed encoding of the signed message feeds into another streaming encoding of the enveloped message. The callback for the streaming encoding calls <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a> to encode the enveloped message. The callback for the enveloped message receives the encoded bytes of the nested signed message.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the opened message. This handle must be closed when it is no longer needed by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.
 
@@ -339,12 +327,7 @@ If <i>dwMsgType</i> is CMSG_ENVELOPED, errors can be propagated from
 If <i>dwMsgType</i> is CMSG_HASHED, errors can be propagated from 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>.
 
-
-
-
 ## -remarks
-
-
 
 For functions that perform encryption, the encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric keys</a> are reversed from <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> format to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">big-endian</a> format after 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> is called internally. For functions that perform decryption, the encrypted symmetric keys are reversed from big-endian format to little-endian format before 
@@ -379,12 +362,7 @@ For examples that use this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a>
 
@@ -407,7 +385,4 @@ For examples that use this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

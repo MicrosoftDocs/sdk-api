@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
 ms.date: 12/05/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
-f1_keywords:
-- wmsdkidl/IWMIStreamProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMIStreamProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMIStreamProps
+ - wmsdkidl/IWMIStreamProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMIStreamProps
 ---
 
 # IWMIStreamProps interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMIStreamProps</b> interface provides access to the properties of an <b>IStream</b> object.
 
 To obtain a pointer to an <b>IWMIStreamProps</b> interface, call <b>IStream::QueryInterface</b>.
-
-
-
 
 ## -inheritance
 
@@ -82,16 +78,9 @@ Retrieves a named property from the <b>IStream</b>.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
 ms.date: 12/05/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
-f1_keywords:
-- iphlpapi/GetIpNetTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpNetTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpNetTable
+ - iphlpapi/GetIpNetTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpNetTable
 ---
 
 # GetIpNetTable function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpNetTable</b> function retrieves the IPv4 to physical address mapping table.
 
-
 ## -parameters
-
-
-
 
 ### -param IpNetTable [out]
 
 A pointer to a buffer that receives the IPv4 to physical address mapping table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a> structure.
-
 
 ### -param SizePointer [in, out]
 
@@ -71,15 +66,11 @@ On input, specifies the size in bytes of the buffer pointed to by the <i>pIpNetT
 
 On output, if the buffer is not large enough to hold the returned mapping table, the function sets this parameter equal to the required buffer size in bytes.
 
-
 ### -param Order [in]
 
 A Boolean value that specifies whether the returned mapping table should be sorted in ascending order by IP address. If this parameter is <b>TRUE</b>, the table is sorted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR or ERROR_NO_DATA.
 
@@ -148,14 +139,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>GetIpNetTable</b> function enumerates the Address Resolution Protocol (ARP) entries for IPv4 on a local system from the IPv4 to physical address mapping table and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a> structure. 
@@ -166,15 +151,9 @@ Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/i
 
 
 
- on Windows Vista and later, the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a> function can be used to retrieve the neighbor IP addresses for both IPv6 and IPv4. 
-
-
-
+ on Windows Vista and later, the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a> function can be used to retrieve the neighbor IP addresses for both IPv6 and IPv4.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
 
@@ -209,7 +188,4 @@ Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
- 
-
- 
 

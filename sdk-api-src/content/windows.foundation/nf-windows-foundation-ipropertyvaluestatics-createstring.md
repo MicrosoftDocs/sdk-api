@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 09622009-3E53-4ACD-99AE-83EA20FC55D9
 ms.date: 12/05/2018
 ms.keywords: CreateString, CreateString method [Windows Runtime], CreateString method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateString method, IPropertyValueStatics.CreateString, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateString, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateString, winrt.ipropertyvaluefactory_createstring, winrt.ipropertyvaluestatics_createstring
-f1_keywords:
-- windows.foundation/IPropertyValueStatics.CreateString
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValueStatics.CreateString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValueStatics::CreateString
+ - windows.foundation/IPropertyValueStatics::CreateString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValueStatics.CreateString
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified string value.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTR
 
 The string value to store.
 
-
 ### -param propertyValue [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -119,31 +111,16 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestring">CreateString</a> method to  store a value in an <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getstring">GetString</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getstring">IPropertyValue::GetString</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 3924230d-ff10-43ac-981c-81273bce6896
 ms.date: 12/05/2018
 ms.keywords: '*PIP_OPTION_INFORMATION32, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION32, IP_OPTION_INFORMATION32 structure [IP Helper], PIP_OPTION_INFORMATION32, PIP_OPTION_INFORMATION32 structure pointer [IP Helper], ipexport/IP_OPTION_INFORMATION32, ipexport/PIP_OPTION_INFORMATION32, iphlp.ip_option_information32'
-f1_keywords:
-- ipexport/IP_OPTION_INFORMATION32
-dev_langs:
-- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipexport.h
-api_name:
-- IP_OPTION_INFORMATION32
 targetos: Windows
 req.typenames: IP_OPTION_INFORMATION32, *PIP_OPTION_INFORMATION32
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ip_option_information32
+ - ipexport/ip_option_information32
+ - PIP_OPTION_INFORMATION32
+ - ipexport/PIP_OPTION_INFORMATION32
+ - IP_OPTION_INFORMATION32
+ - ipexport/IP_OPTION_INFORMATION32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipexport.h
+api_name:
+ - IP_OPTION_INFORMATION32
 ---
 
 # IP_OPTION_INFORMATION32 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IP_OPTION_INFORMATION32</b> structure describes the options to be included in the header of an IP packet on a 64-bit platform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Ttl
 
@@ -65,13 +65,11 @@ Type: <b>UCHAR</b>
 
 The Time to Live field in an IPv4 packet header. This is the Hop Limit field in an IPv6 header.
 
-
 ### -field Tos
 
 Type: <b>UCHAR</b>
 
 The type of service field in an IPv4 header. This member is currently silently ignored.
-
 
 ### -field Flags
 
@@ -113,26 +111,20 @@ This value indicates that the packet should not be fragmented.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field OptionsSize
 
 Type: <b>UCHAR</b>
 
-The size, in bytes, of IP options data. 
-
+The size, in bytes, of IP options data.
 
 ### -field OptionsData
 
 Type: <b>UCHAR * POINTER_32</b>
 
-A pointer to options data. 
-
+A pointer to options data.
 
 ## -remarks
-
-
 
 The <b>IP_OPTION_INFORMATION32</b> structure is used to describe the options to be included in the header of an IP packet on a 64-bit platform. The  <b>IP_OPTION_INFORMATION32</b> structure is only defined if _WIN64 is defined.
 
@@ -151,13 +143,7 @@ The <b>IP_OPTION_INFORMATION32</b> structure is a member of the <a href="https:/
 
 This structure is defined in the <i>Ipexport.h</i> header file which is automatically included in the <i>Iphlpapi.h</i> header file. The <i>Ipexport.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply32">ICMP_ECHO_REPLY32</a>
 
@@ -176,7 +162,4 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>
- 
-
- 
 

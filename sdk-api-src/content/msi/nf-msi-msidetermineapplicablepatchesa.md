@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
 ms.date: 12/05/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
-f1_keywords:
-- msi/MsiDetermineApplicablePatches
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDetermineApplicablePatches
-- MsiDetermineApplicablePatchesA
-- MsiDetermineApplicablePatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDetermineApplicablePatchesA
+ - msi/MsiDetermineApplicablePatchesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDetermineApplicablePatches
+ - MsiDetermineApplicablePatchesA
+ - MsiDetermineApplicablePatchesW
 ---
 
 # MsiDetermineApplicablePatchesA function
@@ -51,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>MsiDetermineApplicablePatches</b> function takes a set  of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer  package and in what sequence. The function can account for  superseded or obsolete patches. This function does not account for products or patches that are installed on the system that are not specified in the set.  
-
+The <b>MsiDetermineApplicablePatches</b> function takes a set  of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer  package and in what sequence. The function can account for  superseded or obsolete patches. This function does not account for products or patches that are installed on the system that are not specified in the set.
 
 ## -parameters
-
-
-
 
 ### -param szProductPackagePath [in]
 
 Full path to an .msi file. The function determines the patches that are applicable to this package and in what sequence.
 
-
 ### -param cPatchInfo [in]
 
 Number of patches in the array. Must be greater than zero.
 
-
 ### -param pPatchInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures. 
-
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures.
 
 ## -returns
-
-
 
 The 
 					<b>MsiDetermineApplicablePatches</b> function returns the following values.
@@ -187,14 +178,8 @@ This error can be returned if the function was called from a <a href="https://do
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If this function is called from a custom action it fails and returns ERROR_CALL_NOT_IMPLEMENTED.  The function requires MSXML version 3.0 to process XML and returns ERROR_CALL_NOT_IMPLEMENTED if MSXML 3.0 is not installed.
 
@@ -216,9 +201,6 @@ If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/a
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
 
 
@@ -228,7 +210,4 @@ If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
 

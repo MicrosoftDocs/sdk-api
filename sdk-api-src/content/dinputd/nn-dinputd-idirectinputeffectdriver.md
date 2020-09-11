@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], IDirectInputEffectDriver interface [Human Input Devices],described, di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml, dinputd/IDirectInputEffectDriver, hid.idirectinputeffectdriver
-f1_keywords:
-- dinputd/IDirectInputEffectDriver
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dinputd.h
-api_name:
-- IDirectInputEffectDriver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputEffectDriver
+ - dinputd/IDirectInputEffectDriver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dinputd.h
+api_name:
+ - IDirectInputEffectDriver
 ---
 
 # IDirectInputEffectDriver interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface. 
-
+These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.
 
 ## -inheritance
 
@@ -194,5 +193,5 @@ The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an 
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 603e00e8-0370-4ebf-b9d2-85e6e58c2b3a
 ms.date: 12/05/2018
 ms.keywords: CreateDispTypeInfo, CreateDispTypeInfo function [Automation], _oa96_CreateDispTypeInfo, automat.createdisptypeinfo, oleauto/CreateDispTypeInfo
-f1_keywords:
-- oleauto/CreateDispTypeInfo
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- CreateDispTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDispTypeInfo
+ - oleauto/CreateDispTypeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - CreateDispTypeInfo
 ---
 
 # CreateDispTypeInfo function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates simplified type information for use in an implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pidata
 
 The interface description that this type information describes.
 
-
-
-
 ### -param lcid
 
 The locale identifier for the names used in the type information.
-
-
-
 
 ### -param pptinfo
 
 On return, pointer to a type information implementation for use in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispinvoke">DispInvoke</a>.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -125,14 +112,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can construct type information at run time by using <b>CreateDispTypeInfo</b> and an INTERFACEDATA structure that describes the object being exposed.
 
@@ -215,21 +196,11 @@ LError0:;
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

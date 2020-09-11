@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 606a86fc-fede-43ea-84b2-386f23ca45b1
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_MONITOR_PARMS, MCI_DGV_METHOD_DIRECT, MCI_DGV_METHOD_POST, MCI_DGV_METHOD_PRE, MCI_DGV_MONITOR_FILE, MCI_DGV_MONITOR_INPUT, MCI_DGV_MONITOR_PARMS, MCI_DGV_MONITOR_PARMS structure [Windows Multimedia], _win32_MCI_DGV_MONITOR_PARMS_str, digitalv/MCI_DGV_MONITOR_PARMS, multimedia.mci_dgv_monitor_parms'
-f1_keywords:
-- digitalv/MCI_DGV_MONITOR_PARMS
-dev_langs:
-- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Digitalv.h
-api_name:
-- MCI_DGV_MONITOR_PARMS
 targetos: Windows
 req.typenames: MCI_DGV_MONITOR_PARMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCI_DGV_MONITOR_PARMS
+ - digitalv/MCI_DGV_MONITOR_PARMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Digitalv.h
+api_name:
+ - MCI_DGV_MONITOR_PARMS
 ---
 
 # MCI_DGV_MONITOR_PARMS structure
@@ -49,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCI_DGV_MONITOR_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-monitor">MCI_MONITOR</a> command.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwCallback
 
 The low-order word specifies a window handle used for the MCI_NOTIFY flag.
-
 
 ### -field dwSource
 
@@ -96,8 +88,6 @@ The external input is the presentation source. Playback is paused before the inp
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwMethod
 
@@ -139,22 +129,12 @@ The device should show the external input prior to compression.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
@@ -177,7 +157,4 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
- 
-
- 
 

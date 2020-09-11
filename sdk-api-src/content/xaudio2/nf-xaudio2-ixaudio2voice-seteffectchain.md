@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetEffectChain(const XAUDIO2_EFFECT_CHAIN)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetEffectChain method, IXAudio2Voice.SetEffectChain, IXAudio2Voice::SetEffectChain, SetEffectChain, SetEffectChain method [XAudio2 Audio Mixing APIs], SetEffectChain method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_seteffectchain, xaudio2/IXAudio2Voice::SetEffectChain
-f1_keywords:
-- xaudio2/IXAudio2Voice.SetEffectChain
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2Voice.SetEffectChain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2Voice::SetEffectChain
+ - xaudio2/IXAudio2Voice::SetEffectChain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2Voice.SetEffectChain
 ---
 
 # IXAudio2Voice::SetEffectChain
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the effect chain of the voice.
 
-
 ## -parameters
-
-
-
 
 ### -param pEffectChain [in, optional]
 
@@ -67,20 +63,13 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns
 
 ## -returns
 
-
-
 Returns S_OK if successful; otherwise, an error code. 
 
 
 
 See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
 
-
-
-
 ## -remarks
-
-
 
 The number of output channels allowed for a voice's effect chain is locked at creation of the voice. If you create the voice with an effect chain, any new effect chain passed to <b>SetEffectChain</b> must have the same number of input and output channels as the original effect chain. If you create the voice without an effect chain, the number of output channels allowed for the effect chain will default to the number of input channels for the voice. If any part of effect chain creation fails, none of it is applied.
 
@@ -99,13 +88,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-x
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
@@ -116,7 +99,4 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
- 
-
- 
 

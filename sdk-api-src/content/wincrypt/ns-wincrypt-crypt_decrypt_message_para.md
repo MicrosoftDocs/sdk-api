@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 67e136cd-12e3-4a31-9d8b-b53e1129e940
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA structure [Security], PCRYPT_DECRYPT_MESSAGE_PARA, PCRYPT_DECRYPT_MESSAGE_PARA structure pointer [Security], _crypto2_crypt_decrypt_message_para, security.crypt_decrypt_message_para, wincrypt/CRYPT_DECRYPT_MESSAGE_PARA, wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA'
-f1_keywords:
-- wincrypt/CRYPT_DECRYPT_MESSAGE_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_DECRYPT_MESSAGE_PARA
 targetos: Windows
 req.typenames: CRYPT_DECRYPT_MESSAGE_PARA, *PCRYPT_DECRYPT_MESSAGE_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_DECRYPT_MESSAGE_PARA
+ - wincrypt/_CRYPT_DECRYPT_MESSAGE_PARA
+ - PCRYPT_DECRYPT_MESSAGE_PARA
+ - wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA
+ - CRYPT_DECRYPT_MESSAGE_PARA
+ - wincrypt/CRYPT_DECRYPT_MESSAGE_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_DECRYPT_MESSAGE_PARA
 ---
 
 # CRYPT_DECRYPT_MESSAGE_PARA structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_DECRYPT_MESSAGE_PARA</b> structure contains information for decrypting messages.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size of this structure in bytes.
-
 
 ### -field dwMsgAndCertEncodingType
 
@@ -80,7 +79,6 @@ Currently defined encoding types are:
 
 Number of elements in the <b>rghCertStore</b> array.
 
-
 ### -field rghCertStore
 
 Array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> handles. 
@@ -96,24 +94,16 @@ Recipients can also be identified by their KeyId. Both Key Agreement (Diffie-Hel
 
 Only certificate contexts in the store with one of the following properties, CERT_KEY_PROV_INFO_PROP_ID, or CERT_KEY_CONTEXT_PROP_ID can be used. These properties specify the location of a needed private exchange key.
 
-
 ### -field dwFlags
 
 The CRYPT_MESSAGE_SILENT_KEYSET_FLAG can be set to suppress any UI by the CSP. For more information about the CRYPT_SILENT flag, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptmessage">CryptDecryptMessage</a>
- 
-
- 
 

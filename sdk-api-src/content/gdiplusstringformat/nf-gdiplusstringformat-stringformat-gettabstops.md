@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstops.htm
 ms.date: 12/05/2018
 ms.keywords: GetTabStops, GetTabStops method [GDI+], GetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStops method, StringFormat.GetTabStops, StringFormat::GetTabStops, _gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_
-f1_keywords:
-- gdiplusstringformat/StringFormat.GetTabStops
-dev_langs:
-- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- StringFormat.GetTabStops
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - StringFormat::GetTabStops
+ - gdiplusstringformat/StringFormat::GetTabStops
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - StringFormat.GetTabStops
 ---
 
 # StringFormat::GetTabStops
@@ -50,43 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StringFormat::GetTabStops</b> method gets the offsets of the tab stops in this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
 Integer that specifies the number of tab-stop offsets in the 
-					<i>tabStops</i>array. 
-
+					<i>tabStops</i>array.
 
 ### -param firstTabOffset [out]
 
 Type: <b>REAL*</b>
 
 Pointer to a 
-					<b>REAL</b> that receives the initial offset position. This initial offset position is relative to the string's origin and the offset of the first tab stop is relative to the initial offset position. 
-
+					<b>REAL</b> that receives the initial offset position. This initial offset position is relative to the string's origin and the offset of the first tab stop is relative to the initial offset position.
 
 ### -param tabStops [out]
 
 Type: <b>REAL*</b>
 
 Pointer to an array of type 
-					<b>REAL</b> that receives the tab-stop offsets. The offset of the first tab stop is the first value in the array, the offset of the second tab stop, the second value in the array, and so on. 
-
+					<b>REAL</b> that receives the tab-stop offsets. The offset of the first tab stop is the first value in the array, the offset of the second tab stop, the second value in the array, and so on.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -94,12 +85,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 Each tab-stop offset in the 
 				<i>tabStops</i> array, except the first one, is relative to the previous one. The first tab-stop offset is relative to the initial offset position indicated by 
@@ -155,14 +141,7 @@ VOID Example_GetTabStop(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-formatting-text-use">Formatting Text</a>
 
@@ -173,7 +152,4 @@ VOID Example_GetTabStop(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
- 
-
- 
 

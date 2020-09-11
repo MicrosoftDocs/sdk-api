@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
 ms.date: 12/05/2018
 ms.keywords: '*PCREDENTIALW, CREDENTIAL, CREDENTIAL structure [Security], CREDENTIALA, CREDENTIALW, CRED_FLAGS_PROMPT_NOW, CRED_FLAGS_USERNAME_TARGET, CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_SESSION, CRED_TYPE_DOMAIN_CERTIFICATE, CRED_TYPE_DOMAIN_EXTENDED, CRED_TYPE_DOMAIN_PASSWORD, CRED_TYPE_DOMAIN_VISIBLE_PASSWORD, CRED_TYPE_GENERIC, CRED_TYPE_GENERIC_CERTIFICATE, CRED_TYPE_MAXIMUM, CRED_TYPE_MAXIMUM_EX, PCREDENTIAL, PCREDENTIAL structure pointer [Security], _cred_credential, security.credential, wincred/CREDENTIAL, wincred/CREDENTIALA, wincred/CREDENTIALW, wincred/PCREDENTIAL'
-f1_keywords:
-- wincred/CREDENTIAL
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinCred.h
-api_name:
-- CREDENTIAL
-- CREDENTIALA
-- CREDENTIALW
 targetos: Windows
 req.typenames: CREDENTIALW, *PCREDENTIALW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREDENTIALW
+ - wincred/_CREDENTIALW
+ - PCREDENTIALW
+ - wincred/PCREDENTIALW
+ - CREDENTIALW
+ - wincred/CREDENTIALW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinCred.h
+api_name:
+ - CREDENTIAL
+ - CREDENTIALA
+ - CREDENTIALW
 ---
 
 # CREDENTIALW structure
@@ -51,17 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CREDENTIAL</b> structure contains an individual credential.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Flags
-
 
 A bit member that identifies characteristics of the credential. Undefined bits should be initialized as zero and not otherwise altered to permit future enhancement.
 
@@ -101,11 +100,8 @@ This bit can only be specified if <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Type
-
 
 The type of the credential. This member cannot be changed after the credential is created. The following values are valid.
 
@@ -217,23 +213,12 @@ The extended maximum number of supported credential types that now allow new app
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TargetName.string
 
- 
-
-
 ### -field TargetName.max_is
 
- 
-
-
 ### -field TargetName.max_is.CRED_MAX_GENERIC_TARGET_NAME_LENGTH-1
-
- 
-
 
 ### -field TargetName
 
@@ -262,51 +247,29 @@ If the <b>Type</b> is CRED_TYPE_GENERIC, this member should identify the service
 
 This member is case-insensitive.
 
-
 ### -field Comment.string
-
- 
-
 
 ### -field Comment.max_is
 
- 
-
-
 ### -field Comment.max_is.CRED_MAX_STRING_LENGTH-1
-
- 
-
 
 ### -field Comment
 
 A string comment from the user that describes this credential. This member cannot be longer than <b>CRED_MAX_STRING_LENGTH</b> (256) characters.
 
-
 ### -field LastWritten
 
 The time, in Coordinated Universal Time (Greenwich Mean Time), of the last modification of the credential. For write operations, the value of this member is ignored.
-
 
 ### -field CredentialBlobSize
 
 The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (512) bytes.
 
-
 ### -field CredentialBlobSize.range
-
- 
-
 
 ### -field CredentialBlobSize.range.0
 
- 
-
-
 ### -field CredentialBlobSize.range.CRED_MAX_CREDENTIAL_BLOB_SIZE
-
- 
-
 
 ### -field CredentialBlob
 
@@ -320,19 +283,11 @@ If the <b>Type</b> member is <b>CRED_TYPE_GENERIC</b>, this member is defined by
 
 Credentials are expected to be portable. Applications should ensure that the data in <b>CredentialBlob</b> is portable. The application defines the byte-endian and alignment of the data in <b>CredentialBlob</b>.
 
-
 ### -field CredentialBlob.size_is
-
- 
-
 
 ### -field CredentialBlob.size_is.CredentialBlobSize
 
- 
-
-
 ### -field Persist
-
 
 Defines the persistence of this credential. This member can be read and written.
 
@@ -383,58 +338,30 @@ This option can be implemented as locally persisted credential if the administra
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AttributeCount
 
 The number of application-defined attributes to be associated with the credential. This member can be read and written. Its value cannot be greater than <b>CRED_MAX_ATTRIBUTES</b> (64).
 
-
 ### -field AttributeCount.range
-
- 
-
 
 ### -field AttributeCount.range.0
 
- 
-
-
 ### -field AttributeCount.range.CRED_MAX_ATTRIBUTES
-
- 
-
 
 ### -field Attributes
 
 Application-defined attributes that are associated with the credential. This member can be read and written.
 
-
 ### -field Attributes.size_is
-
- 
-
 
 ### -field Attributes.size_is.AttributeCount
 
- 
-
-
 ### -field TargetAlias.string
-
- 
-
 
 ### -field TargetAlias.max_is
 
- 
-
-
 ### -field TargetAlias.max_is.CRED_MAX_STRING_LENGTH-1
-
- 
-
 
 ### -field TargetAlias
 
@@ -442,21 +369,11 @@ Alias for the <b>TargetName</b> member. This member can be read and written. It 
 
 If the credential <b>Type</b> is <b>CRED_TYPE_GENERIC</b>, this member can be non-<b>NULL</b>, but the credential manager ignores the member.
 
-
 ### -field UserName.string
-
- 
-
 
 ### -field UserName.max_is
 
- 
-
-
 ### -field UserName.max_is.CRED_MAX_USERNAME_LENGTH-1
-
- 
-
 
 ### -field UserName
 

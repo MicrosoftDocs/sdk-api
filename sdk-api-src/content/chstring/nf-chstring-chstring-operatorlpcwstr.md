@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f7b7575e-e442-487f-9123-c82c471fecdf
 ms.date: 12/05/2018
 ms.keywords: ??BCHString@@QBEPBGXZ, ??BCHString@@QEBAPEBGXZ, CHString interface [Windows Management Instrumentation],operator LPCWSTR method, CHString.operator LPCWSTR, CHString::operator LPCWSTR, chstring/CHString::operator LPCWSTR, operator LPCWSTR, operator LPCWSTR method [Windows Management Instrumentation], operator LPCWSTR method [Windows Management Instrumentation],CHString interface, wmi.chstring_operator_lpcwstr
-f1_keywords:
-- chstring/CHString.operator LPCWSTR
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.operator LPCWSTR
-- ??BCHString@@QBEPBGXZ
-- ??BCHString@@QEBAPEBGXZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::operator LPCWSTR
+ - chstring/CHString::operator LPCWSTR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.operator LPCWSTR
+ - ??BCHString@@QBEPBGXZ
+ - ??BCHString@@QEBAPEBGXZ
 ---
 
 # CHString::operator LPCWSTR
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,21 +61,9 @@ ms.custom: 19H1
 
 The <b>operator LPCWSTR</b> conversion operator provides an efficient method to access the <b>NULL</b>-terminated C string contained in a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
- 
-
- 
 

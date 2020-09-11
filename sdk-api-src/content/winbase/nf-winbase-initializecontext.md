@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
 ms.date: 12/05/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
-f1_keywords:
-- winbase/InitializeContext
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-xstate-l2-1-0.dll
-- KernelBase.dll
-api_name:
-- InitializeContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeContext
+ - winbase/InitializeContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-xstate-l2-1-0.dll
+ - KernelBase.dll
+api_name:
+ - InitializeContext
 ---
 
 # InitializeContext function
@@ -51,13 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure inside a buffer 
     with the necessary size and alignment.
 
-
 ## -parameters
-
 
 ### -param Buffer [out, optional]
 
@@ -65,7 +63,6 @@ A pointer to a buffer within which to initialize a
       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. This parameter can be 
        <b>NULL</b> to determine the buffer size required to hold a context record with the 
        specified <i>ContextFlags</i>.
-
 
 ### -param ContextFlags [in]
 
@@ -100,21 +97,13 @@ On input, specifies the length of the buffer pointed to by <i>Buffer</i>, in byt
       <b>ERROR_INSUFFICIENT_BUFFER</b>, the contents of 
       <i>ContextLength</i> are undefined.
 
-
 ## -returns
-
-
 
 This function returns <b>TRUE</b> if successful, otherwise 
       <b>FALSE</b>. To get extended error information, call 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <i>InitializeContext</i> can be used to initialize a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure within a buffer with the required size and 
@@ -146,11 +135,7 @@ First, call this function with the
        <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a> for 
        details.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -165,3 +150,4 @@ First, call this function with the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
+

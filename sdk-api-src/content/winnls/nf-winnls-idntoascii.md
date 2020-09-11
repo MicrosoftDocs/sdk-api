@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: e39aa5c2-3f76-40b2-9948-bbd795c6c525
 ms.date: 12/05/2018
 ms.keywords: IDN_ALLOW_UNASSIGNED, IDN_EMAIL_ADDRESS, IDN_RAW_PUNYCODE, IDN_USE_STD3_ASCII_RULES, IdnToAscii, IdnToAscii function [Internationalization for Windows Applications], intl.idntoascii, winnls/IdnToAscii
-f1_keywords:
-- winnls/IdnToAscii
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Normaliz.lib
 req.dll: Normaliz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Normaliz.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-normaliz-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- IdnToAscii
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later,Windows Server 2003 with SP1
 ms.custom: 19H1
+f1_keywords:
+ - IdnToAscii
+ - winnls/IdnToAscii
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Normaliz.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-normaliz-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - IdnToAscii
 ---
 
 # IdnToAscii function
@@ -55,17 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax. 
         <div class="alert"><b>Caution</b>  This function implements the <a href="http://www.faqs.org/rfcs/rfc3490.html">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithm for converting an IDN to Punycode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -127,32 +122,24 @@ An application can set this flag to enable Email Address Internationalization (E
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpUnicodeCharStr [in]
 
 Pointer to a Unicode string representing an IDN or another internationalized label.
 
-
 ### -param cchUnicodeChar [in]
 
 Count of characters in the input Unicode string indicated by <i>lpUnicodeCharStr</i>.
-
 
 ### -param lpASCIICharStr [out, optional]
 
 Pointer to a buffer that receives a Unicode string consisting only of characters in the ASCII character set. On return from this function, the buffer contains the ASCII string equivalent of the string provided in <i>lpUnicodeCharStr</i> under Punycode. Alternatively, the function can retrieve <b>NULL</b> for this parameter, if <i>cchASCIIChar</i> is set to 0. In this case, the function returns the size required for this buffer.
 
-
 ### -param cchASCIIChar [in]
 
 Size of the buffer indicated by <i>lpASCIICharStr</i>. The application can set the parameter to 0 to retrieve <b>NULL</b> in <i>lpASCIICharStr</i>.
 
-
 ## -returns
-
-
 
 Returns the number of characters retrieved in <i>lpASCIICharStr</i> if successful. The retrieved string is null-terminated only if the input Unicode string is null-terminated.
 
@@ -168,11 +155,7 @@ The function returns 0 if it does not succeed. To get extended error information
 <li>ERROR_NO_UNICODE_TRANSLATION. Invalid Unicode was found in a string.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 The function does not null-terminate an output string if the input string length is explicitly specified without a terminating null character. To null-terminate an output string for this function, the application should supply -1 for the <i>cchUnicodeChar</i> parameter or explicitly count the terminating null character for the input string.
 
@@ -182,15 +165,7 @@ Note that the function always fails if the input string contains control charact
 
 The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>
 
@@ -209,7 +184,4 @@ The required header file and DLL are part of the <a href="https://www.microsoft.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

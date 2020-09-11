@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 1d83325b-8deb-4731-9df4-6201da292cdc
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryData, PdhCollectQueryData function [Perf], _win32_pdhcollectquerydata, base.pdhcollectquerydata, pdh/PdhCollectQueryData, perf.pdhcollectquerydata
-f1_keywords:
-- pdh/PdhCollectQueryData
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhCollectQueryData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhCollectQueryData
+ - pdh/PdhCollectQueryData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhCollectQueryData
 ---
 
 # PdhCollectQueryData function
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hQuery [in, out]
 
 Handle of the query for which you want to collect data. The <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS. Otherwise, the function returns a 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
@@ -107,14 +99,8 @@ The query does not currently contain any counters. The query may not contain dat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this function when you want to collect counter data for the counters in the query. PDH stores the raw counter values for the current and previous collection. 
 
@@ -143,19 +129,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
- 
-
- 
 

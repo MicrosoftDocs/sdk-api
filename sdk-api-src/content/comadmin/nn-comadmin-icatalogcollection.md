@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7c24ead4-d69f-467d-b3d8-a81adbc49a7b
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
-f1_keywords:
-- comadmin/ICatalogCollection
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogCollection
+ - comadmin/ICatalogCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogCollection
 ---
 
 # ICatalogCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents any collection in the COM+ catalog. <b>ICatalogCollection</b> enables you to enumerate, add, remove, and retrieve items in a collection and to access related collections.
-
 
 ## -inheritance
 
@@ -277,16 +276,9 @@ Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/co
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/comadmincatalogcollection">COMAdminCatalogCollection</a>
- 
-
- 
 

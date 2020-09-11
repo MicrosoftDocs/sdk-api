@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: c95f6536-9377-4766-9eb6-004a41bcf6c5
 ms.date: 12/05/2018
 ms.keywords: SetICMProfile, SetICMProfile function [Windows Color System], SetICMProfileA, SetICMProfileW, _color_SetICMProfile, wcs.seticmprofile, wingdi/SetICMProfile, wingdi/SetICMProfileA, wingdi/SetICMProfileW
-f1_keywords:
-- wingdi/SetICMProfile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetICMProfile
-- SetICMProfileA
-- SetICMProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetICMProfileW
+ - wingdi/SetICMProfileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetICMProfile
+ - SetICMProfileA
+ - SetICMProfileW
 ---
 
 # SetICMProfileW function
@@ -53,39 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetICMProfile</b> function sets a specified color profile as the output profile for a specified device context (DC).
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Specifies a device context in which to set the color profile.
 
-
 ### -param lpFileName
 
 Specifies the path name of the color profile to be set.
 
-
 ## -returns
-
-
 
 If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetICMProfile</b> associates a color profile with a device context. It becomes the output profile for that device context. The color profile does not have to be associated with any particular device. Device-independent profiles such as sRGB can also be used. If the color profile is not associated with a hardware device, it will be returned by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>, but not by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>.
 
@@ -104,9 +91,6 @@ Note that under Windows 95 or later, the PostScript device driver for printers a
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
@@ -120,7 +104,4 @@ Note that under Windows 95 or later, the PostScript device driver for printers a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
- 
-
- 
 

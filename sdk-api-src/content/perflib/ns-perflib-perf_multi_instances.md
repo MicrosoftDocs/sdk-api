@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: 5EC34ECD-D240-4B44-A52B-C5518918400C
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_MULTI_INSTANCES, PERF_MULTI_INSTANCES, PERF_MULTI_INSTANCES structure [Perf], PPERF_MULTI_INSTANCES, PPERF_MULTI_INSTANCES structure pointer [Perf], perf.perf_multi_instances, perflib/PERF_MULTI_INSTANCES, perflib/PPERF_MULTI_INSTANCES'
-f1_keywords:
-- perflib/PERF_MULTI_INSTANCES
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Perflib.h
-api_name:
-- PERF_MULTI_INSTANCES
 targetos: Windows
 req.typenames: PERF_MULTI_INSTANCES, *PPERF_MULTI_INSTANCES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PERF_MULTI_INSTANCES
+ - perflib/_PERF_MULTI_INSTANCES
+ - PPERF_MULTI_INSTANCES
+ - perflib/PPERF_MULTI_INSTANCES
+ - PERF_MULTI_INSTANCES
+ - perflib/PERF_MULTI_INSTANCES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Perflib.h
+api_name:
+ - PERF_MULTI_INSTANCES
 ---
 
 # PERF_MULTI_INSTANCES structure
 
 
 ## -description
-
 
 Provides information about the <b>PERF_MULTI_INSTANCES</b> block that contains the structure. A <b>PERF_MULTI_INSTANCES</b> block indicates the number of instances for which results are provided as part of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> block in multiple-instance query. The <b>PERF_MULTI_INSTANCES</b> block consists of the following items in order:<ol>
 <li>A <b>PERF_MULTI_INSTANCES</b> structure</li>
@@ -70,37 +74,22 @@ the context:<ul>
 </li>
 </ol>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwTotalSize
 
 The total size of the <b>PERF_MULTI_INSTANCES</b> block, in bytes. This total size is the sum of the sizes of the <b>PERF_MULTI_INSTANCES</b> structure and the instance data blocks.
 
-
 ### -field dwInstances
 
 The number of instance data blocks in the <b>PERF_MULTI_INSTANCES</b> block.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a> function gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block that may
 contain <b>PERF_MULTI_INSTANCES</b> blocks within the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> block.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a>
 
@@ -111,7 +100,4 @@ contain <b>PERF_MULTI_INSTANCES</b> blocks within the <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
- 
-
- 
 

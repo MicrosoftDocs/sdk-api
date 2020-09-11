@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: dea82534-4b73-4c74-9cea-d17ba8aff2e7
 ms.date: 12/05/2018
 ms.keywords: IPsecSaEnum0, IPsecSaEnum0 function [Filtering], fwp.ipsecsaenum0_func, fwpmu/IPsecSaEnum0
-f1_keywords:
-- fwpmu/IPsecSaEnum0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IPsecSaEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPsecSaEnum0
+ - fwpmu/IPsecSaEnum0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IPsecSaEnum0
 ---
 
 # IPsecSaEnum0 function
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPsecSaEnum0</b> function returns the next page of results from the IPsec security association (SA) enumerator.
 <div class="alert"><b>Note</b>  <b>IPsecSaEnum0</b> is the specific implementation of IPsecSaEnum used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsaenum1">IPsecSaEnum1</a> is available.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +61,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
 Handle for an IPsec SA enumeration. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacreateenumhandle0">IPsecSaCreateEnumHandle0</a> to obtain an enumeration handle.
-
 
 ### -param numEntriesRequested [in]
 
@@ -78,13 +73,11 @@ Type: <b>UINT32</b>
 
 The number of enumeration entries requested.
 
-
 ### -param entries [out]
 
 Type: [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)***</b>
 
 Addresses of the enumeration entries.
-
 
 ### -param numEntriesReturned [out]
 
@@ -92,10 +85,7 @@ Type: <b>UINT32*</b>
 
 The number of enumeration entries returned.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -141,14 +131,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>numEntriesReturned</i> is less than the <i>numEntriesRequested</i>, the enumeration is exhausted. 
 
@@ -158,20 +142,11 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 <b>IPsecSaEnum0</b> works on a snapshot of the SAs taken at the time the enumeration handle was created.
 
-
-
-
 ## -see-also
-
-
-
 
 [IPSEC_SA_DETAILS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details0)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacreateenumhandle0">IPsecSaCreateEnumHandle0</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c78006ad-7355-49b6-8e79-a98dcdb0e54f
 ms.date: 12/05/2018
 ms.keywords: INSTALLTYPE_DEFAULT, INSTALLTYPE_NETWORK_IMAGE, INSTALLTYPE_SINGLE_INSTANCE, MsiApplyPatch, MsiApplyPatch function, MsiApplyPatchA, MsiApplyPatchW, _msi_msiapplypatch, msi/MsiApplyPatch, msi/MsiApplyPatchA, msi/MsiApplyPatchW, setup.msiapplypatch
-f1_keywords:
-- msi/MsiApplyPatch
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiApplyPatch
-- MsiApplyPatchA
-- MsiApplyPatchW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiApplyPatchA
+ - msi/MsiApplyPatchA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiApplyPatch
+ - MsiApplyPatchA
+ - MsiApplyPatchW
 ---
 
 # MsiApplyPatchA function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 For each product listed by the patch package as eligible to receive the patch, the 
 <b>MsiApplyPatch</b> function invokes an installation and sets the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/patch">PATCH</a> property to the path of the patch package.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szPatchPackage [in]
 
 A null-terminated string specifying the full path to the patch package.
-
 
 ### -param szInstallPackage [in]
 
 If <i>eInstallType</i> is set to INSTALLTYPE_NETWORK_IMAGE, this parameter is a null-terminated string that specifies a path to the product that is to be patched. The installer applies the patch to every eligible product listed in the patch package if <i>szInstallPackage</i> is set to null and <i>eInstallType</i> is set to INSTALLTYPE_DEFAULT.
 
 If <i>eInstallType</i> is INSTALLTYPE_SINGLE_INSTANCE, the installer applies the patch to the product specified by <i>szInstallPackage</i>. In this case, other eligible products listed in the patch package are ignored and the <i>szInstallPackage</i> parameter contains the null-terminated string representing the product code of the instance to patch. This type of installation requires the installer running Windows Server 2003 or Windows XP.
-
 
 ### -param eInstallType [in]
 
@@ -115,8 +108,6 @@ Patch the product specified by <i>szInstallPackage</i>. <i>szInstallPackage</i> 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szCommandLine [in]
 
@@ -124,10 +115,7 @@ A null-terminated string that specifies command line property settings. See Abou
 <a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">Properties</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/setting-public-property-values-on-the-command-line">Setting Public Property Values on the Command Line</a>. See the Remarks section.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -202,14 +190,8 @@ An initialization error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because the list delimiter for transforms, sources, and patches is a semicolon, this character should not be used for file names or paths.
 
@@ -226,9 +208,6 @@ Because the list delimiter for transforms, sources, and patches is a semicolon, 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
@@ -242,7 +221,4 @@ Because the list delimiter for transforms, sources, and patches is a semicolon, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c449bb2e-2ced-4cde-9111-d3c10db669e1
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISKPROMPT, INSTALLPROPERTY_LASTUSEDSOURCE, INSTALLPROPERTY_MEDIAPACKAGEPATH, INSTALLPROPERTY_PACKAGENAME, MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListSetInfo, MsiSourceListSetInfo function, MsiSourceListSetInfoA, MsiSourceListSetInfoW, NULL, User SID, msi/MsiSourceListSetInfo, msi/MsiSourceListSetInfoA, msi/MsiSourceListSetInfoW, setup.msisourcelistsetinfo
-f1_keywords:
-- msi/MsiSourceListSetInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiSourceListSetInfo
-- MsiSourceListSetInfoA
-- MsiSourceListSetInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListSetInfoA
+ - msi/MsiSourceListSetInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiSourceListSetInfo
+ - MsiSourceListSetInfoA
+ - MsiSourceListSetInfoW
 ---
 
 # MsiSourceListSetInfoA function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSourceListSetInfo</b> function sets information about the source list for a product or patch in a specific context.
 
-
 ## -parameters
-
-
-
 
 ### -param szProductCodeOrPatchCode [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
-
 
 ### -param szUserSid [in, optional]
 
@@ -143,8 +138,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -198,8 +191,6 @@ The source is a URL type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szProperty [in]
 
@@ -255,17 +246,12 @@ The name of the Windows Installer package or patch package on the source.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szValue [in]
 
 The new value of the property. No validation of the new value is performed. This value cannot be <b>NULL</b>. It can be an empty string.
 
-
 ## -returns
-
-
 
 The <b>MsiSourceListSetInfo</b> function returns the following values.
 
@@ -374,14 +360,8 @@ Unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
@@ -398,9 +378,6 @@ An exception to the above rule is setting "LastUsedSource" to one of the registe
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
@@ -414,7 +391,4 @@ An exception to the above rule is setting "LastUsedSource" to one of the registe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0
 ms.date: 12/05/2018
 ms.keywords: '*LPFILEDESCRIPTORA, FD_ACCESSTIME, FD_ATTRIBUTES, FD_CLSID, FD_CREATETIME, FD_FILESIZE, FD_LINKUI, FD_PROGRESSUI, FD_SIZEPOINT, FD_UNICODE, FD_WRITESTIME, FILEDESCRIPTOR, FILEDESCRIPTOR structure [Windows Shell], FILEDESCRIPTORA, FILEDESCRIPTORW, LPFILEDESCRIPTOR, LPFILEDESCRIPTOR structure pointer [Windows Shell], _FILEDESCRIPTORA, _FILEDESCRIPTORW, _win32_FILEDESCRIPTOR, shell.FILEDESCRIPTOR, shlobj_core/FILEDESCRIPTOR, shlobj_core/LPFILEDESCRIPTOR'
-f1_keywords:
-- shlobj_core/FILEDESCRIPTOR
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj_core.h
-api_name:
-- FILEDESCRIPTOR
-- FILEDESCRIPTORA
-- FILEDESCRIPTORW
 targetos: Windows
 req.typenames: FILEDESCRIPTORA, *LPFILEDESCRIPTORA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILEDESCRIPTORA
+ - shlobj_core/_FILEDESCRIPTORA
+ - LPFILEDESCRIPTORA
+ - shlobj_core/LPFILEDESCRIPTORA
+ - FILEDESCRIPTORA
+ - shlobj_core/FILEDESCRIPTORA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj_core.h
+api_name:
+ - FILEDESCRIPTOR
+ - FILEDESCRIPTORA
+ - FILEDESCRIPTORW
 ---
 
 # FILEDESCRIPTORA structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776905(v=vs.85)">drag-and-drop</a> operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -126,13 +126,11 @@ An array of flags that indicate which of the other structure members contain val
 
 (int)0x80000000. <b>Windows Vista and later</b>. The descriptor is Unicode.
 
-
 ### -field clsid
 
 Type: <b>CLSID</b>
 
 The file type identifier.
-
 
 ### -field sizel
 
@@ -140,13 +138,11 @@ Type: <b>SIZEL</b>
 
 The width and height of the file icon.
 
-
 ### -field pointl
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
 
 The screen coordinates of the file object.
-
 
 ### -field dwFileAttributes
 
@@ -154,13 +150,11 @@ Type: <b>DWORD</b>
 
 File attribute flags. This will be a combination of the FILE_ATTRIBUTE_ values described in <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>.
 
-
 ### -field ftCreationTime
 
 Type: <b>FILETIME</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of file creation.
-
 
 ### -field ftLastAccessTime
 
@@ -168,13 +162,11 @@ Type: <b>FILETIME</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that the file was last accessed.
 
-
 ### -field ftLastWriteTime
 
 Type: <b>FILETIME</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last write operation.
-
 
 ### -field nFileSizeHigh
 
@@ -182,13 +174,11 @@ Type: <b>DWORD</b>
 
 The high-order <b>DWORD</b> of the file size, in bytes.
 
-
 ### -field nFileSizeLow
 
 Type: <b>DWORD</b>
 
 The low-order <b>DWORD</b> of the file size, in bytes.
-
 
 ### -field cFileName
 
@@ -196,10 +186,7 @@ Type: <b>TCHAR[MAX_PATH]</b>
 
 The null-terminated string that contains the name of the file.
 
-
 ## -remarks
-
-
 
 If the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format that corresponds to this structure contains the file as a global memory object, <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> specify the size of the associated memory block. If they are set, they can also be used if a user-interface needs to be displayed. For example, if a file is about to be overwritten, you would typically use information from this structure to display a dialog box containing the size, data, and name of the file.
 

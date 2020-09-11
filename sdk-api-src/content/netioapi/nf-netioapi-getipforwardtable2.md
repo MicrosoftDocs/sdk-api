@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 14412ef1-d970-419d-abfa-389f6ceb638d
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpForwardTable2, GetIpForwardTable2 function [IP Helper], iphlp.getipforwardtable2, netioapi/GetIpForwardTable2
-f1_keywords:
-- netioapi/GetIpForwardTable2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpForwardTable2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpForwardTable2
+ - netioapi/GetIpForwardTable2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpForwardTable2
 ---
 
 # GetIpForwardTable2 function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpForwardTable2</b> function retrieves the IP route entries on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -108,18 +104,13 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Table [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a> structure that contains a table of IP route entries on the local computer. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a> structure that contains a table of IP route entries on the local computer.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -187,14 +178,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpForwardTable2</b> function is defined on Windows Vista and later. 
 
@@ -205,17 +190,9 @@ The IP route entries are returned in a <a href="https://docs.microsoft.com/windo
 
 The <i>Family</i> parameter must be initialized to either <b>AF_INET</b>,  <b>AF_INET6</b>, or <b>AF_UNSPEC</b>. 
 
-Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> array entry in the <b>Table</b> member of the <b>MIB_IPFORWARD_TABLE2</b> structure. Padding for alignment may also be present between the <b>MIB_IPFORWARD_ROW2</b> array entries. Any access to a <b>MIB_IPFORWARD_ROW2</b> array entry should assume  padding may exist. 
-
-
-
-
-
+Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a> structure pointed to by the <i>Table</i> parameter may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> array entry in the <b>Table</b> member of the <b>MIB_IPFORWARD_TABLE2</b> structure. Padding for alignment may also be present between the <b>MIB_IPFORWARD_ROW2</b> array entries. Any access to a <b>MIB_IPFORWARD_ROW2</b> array entry should assume  padding may exist.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
@@ -254,7 +231,4 @@ Note that the returned <a href="https://docs.microsoft.com/windows/desktop/api/n
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
- 
-
- 
 

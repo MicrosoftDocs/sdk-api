@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: f3ba952b-ecc5-4235-a806-00c82d40e611
 ms.date: 12/05/2018
 ms.keywords: CBA_DEBUG_INFO, CBA_DEFERRED_SYMBOL_LOAD_CANCEL, CBA_DEFERRED_SYMBOL_LOAD_COMPLETE, CBA_DEFERRED_SYMBOL_LOAD_FAILURE, CBA_DEFERRED_SYMBOL_LOAD_PARTIAL, CBA_DEFERRED_SYMBOL_LOAD_START, CBA_DUPLICATE_SYMBOL, CBA_EVENT, CBA_READ_MEMORY, CBA_SET_OPTIONS, CBA_SRCSRV_EVENT, CBA_SRCSRV_INFO, CBA_SYMBOLS_UNLOADED, PSYMBOL_REGISTERED_CALLBACK, PSYMBOL_REGISTERED_CALLBACK64, SymRegisterCallbackProc64, SymRegisterCallbackProc64 callback, SymRegisterCallbackProc64 callback function, _win32_symregistercallbackproc64, base.symregistercallbackproc64, dbghelp/SymRegisterCallbackProc64
-f1_keywords:
-- dbghelp/SymRegisterCallbackProc64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- DbgHelp.h
-api_name:
-- SymRegisterCallbackProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - PSYMBOL_REGISTERED_CALLBACK64
+ - dbghelp/PSYMBOL_REGISTERED_CALLBACK64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - DbgHelp.h
+api_name:
+ - SymRegisterCallbackProc64
 ---
 
 # PSYMBOL_REGISTERED_CALLBACK64 callback function
@@ -49,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function used with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symregistercallback">SymRegisterCallback64</a> function. It is called by the symbol handler.
 
 The <b>PSYMBOL_REGISTERED_CALLBACK64</b> type defines a pointer to this callback function. 
 <b>SymRegisterCallbackProc64</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
 
 ### -param ActionCode [in]
 
@@ -289,8 +284,6 @@ The <i>CallbackData</i> parameter should be ignored.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CallbackData [in, optional]
 
@@ -298,27 +291,18 @@ Data for the operation. The format of this data depends on the value of the <i>A
 
 If the callback function was registered with <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symregistercallback">SymRegisterCallbackW64</a>, the data is a Unicode string or data structure. Otherwise, the data uses ANSI format.
 
-
 ### -param UserContext [in, optional]
 
 User-defined value specified in 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symregistercallback">SymRegisterCallback64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some context.
 
-
 ## -returns
-
-
 
 To indicate success handling the code, return <b>TRUE</b>.
 
 To indicate failure handling the code, return <b>FALSE</b>. If your code does not handle a particular code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
 
-
-
-
 ## -remarks
-
-
 
 The calling application gets called through the registered callback function as a result of another call to one of the symbol handler functions. The calling application must be prepared for the possible side effects that this can cause. If the application has only one callback function that is being used by multiple threads, then care may be necessary to synchronize some types of data access while in the context of the callback function.
 
@@ -342,13 +326,7 @@ typedef BOOL
 
 For a more extensive example, read <a href="https://docs.microsoft.com/windows/desktop/Debug/getting-notifications">Getting Notifications</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -375,7 +353,4 @@ For a more extensive example, read <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symregistercallback">SymRegisterCallback64</a>
- 
-
- 
 

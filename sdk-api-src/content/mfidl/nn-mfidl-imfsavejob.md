@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0f38fa60-ed04-40c4-9bb0-b6e196cd9586
 ms.date: 12/05/2018
 ms.keywords: 0f38fa60-ed04-40c4-9bb0-b6e196cd9586, IMFSaveJob, IMFSaveJob interface [Media Foundation], IMFSaveJob interface [Media Foundation],described, mf.imfsavejob, mfidl/IMFSaveJob
-f1_keywords:
-- mfidl/IMFSaveJob
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSaveJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSaveJob
+ - mfidl/IMFSaveJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSaveJob
 ---
 
 # IMFSaveJob interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Persists media data from a source byte stream to an application-provided byte stream.
 
 The byte stream used for HTTP download implements this interface. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the byte stream, with the service identifier MFNET_SAVEJOB_SERVICE.
-
 
 ## -inheritance
 
@@ -107,16 +106,9 @@ Retrieves the percentage of content saved to the provided byte stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 837344de-d8dd-45a8-8d43-09d926f51ff9
 ms.date: 12/05/2018
 ms.keywords: ?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],Empty method, CHString.Empty, CHString::Empty, Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty
-f1_keywords:
-- chstring/CHString.Empty
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.Empty
-- ?Empty@CHString@@QAEXXZ
-- ?Empty@CHString@@QEAAXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::Empty
+ - chstring/CHString::Empty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.Empty
+ - ?Empty@CHString@@QAEXXZ
+ - ?Empty@CHString@@QEAAXXZ
 ---
 
 # CHString::Empty
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,25 +61,13 @@ ms.custom: 19H1
 
 The <b>Empty</b> method makes the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object an empty string and frees memory as appropriate.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-isempty">CHString::IsEmpty</a>
- 
-
- 
 

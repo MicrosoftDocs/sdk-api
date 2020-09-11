@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e1f4dbdb-34c0-4bf5-bb8b-a622a81c1617
 ms.date: 12/05/2018
 ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], IStartMenuPinnedList interface [Windows Shell],described, _shell_IStartMenuPinnedList, shell.IStartMenuPinnedList, shobjidl/IStartMenuPinnedList
-f1_keywords:
-- shobjidl/IStartMenuPinnedList
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IStartMenuPinnedList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStartMenuPinnedList
+ - shobjidl/IStartMenuPinnedList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IStartMenuPinnedList
 ---
 
 # IStartMenuPinnedList interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that unpins an application shortcut from the <b>Start</b> menu or the taskbar.
-
 
 ## -inheritance
 
@@ -81,12 +80,9 @@ The <b>IStartMenuPinnedList</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Windows provides an implementation of this interface as CLSID_StartMenuPin. Third parties do not provide their own implementation.
@@ -100,6 +96,4 @@ Note that <b>IStartMenuPinnedList</b> does not remove the shortcuts themselves, 
 
 <h3><a id="Compatibility"></a><a id="compatibility"></a><a id="COMPATIBILITY"></a>Compatibility</h3>
 In Windows 8, the Start screen replaces the legacy Start menu. CLSID_StartMenuPin and <b>IStartMenuPinnedList</b> are present in Windows 8 to provide backward compatibility with existing applications, but they do not affect <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh761490(v=win.10)">tiles</a> pinned to the Windows 8 Start screen. CLSID_StartMenuPin and <b>IStartMenuPinnedList</b> do continue to impact items pinned to the Windows 8 desktop taskbar.
-
-
 

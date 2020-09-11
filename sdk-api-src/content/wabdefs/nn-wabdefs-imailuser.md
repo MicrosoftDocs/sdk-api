@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imailuser\imailuser.htm
 ms.date: 12/05/2018
 ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser interface [Windows Address Book],described, _wab_IMailUser, wab._wab_IMailUser, wabdefs/IMailUser
-f1_keywords:
-- wabdefs/IMailUser
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IMailUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IMailUser
+ - wabdefs/IMailUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IMailUser
 ---
 
 # IMailUser interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This interface provides access to a mail user object.
-
 
 ## -inheritance
 
@@ -168,5 +167,5 @@ Sets property values on a mail user object.
 
 </td>
 </tr>
-</table> 
+</table>
 

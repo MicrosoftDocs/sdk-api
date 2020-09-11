@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\add.htm
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [search], Add method [search],INamedEntityCollector interface, INamedEntityCollector interface [search],Add method, INamedEntityCollector.Add, INamedEntityCollector::Add, _search_INamedEntityCollector_Add, search._search_INamedEntityCollector_Add, structuredquery/INamedEntityCollector::Add
-f1_keywords:
-- structuredquery/INamedEntityCollector.Add
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- INamedEntityCollector.Add
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - INamedEntityCollector::Add
+ - structuredquery/INamedEntityCollector::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - INamedEntityCollector.Add
 ---
 
 # INamedEntityCollector::Add
@@ -49,63 +50,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a single (potential) named entity to this <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-inamedentitycollector">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param beginSpan [in]
 
 Type: <b>ULONG</b>
 
 The beginning of the overall token span, including any leading quotation marks.
-            
-
 
 ### -param endSpan [in]
 
 Type: <b>ULONG</b>
 
 The end of the overall token span including any trailing quotation marks.
-            
-
 
 ### -param beginActual [in]
 
 Type: <b>ULONG</b>
 
 The beginning of the part of the token span that identifies the potential named entity.
-            
-
 
 ### -param endActual [in]
 
 Type: <b>ULONG</b>
 
 The end of the part of the token span that identifies the potential named entity.
-            
-
 
 ### -param pType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a>*</b>
 
 The semantic type of the named entity.
-            
-
 
 ### -param pszValue [in]
 
 Type: <b>LPCWSTR</b>
 
 The name of the entity as a string.
-            
-
 
 ### -param certainty [in]
 
@@ -132,23 +115,14 @@ One of the following values:
 <td>It almost certainly is this named entity; it should be okay to discard other possibilities.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
 
@@ -165,7 +139,4 @@ When a query parser parses an input string into condition nodes, the parser invo
           
 
 The following relationship must be maintained between the four first arguments: <i>beginSpan</i>  = <i>beginActual</i> &lt; <i>endActual</i> = <i>endSpan</i>.
-          
-
-
 

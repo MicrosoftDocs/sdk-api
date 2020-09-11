@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0d95f407-0e09-441d-b9e2-665995ea1362
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog, IOperationsProgressDialog interface [Windows Shell], IOperationsProgressDialog interface [Windows Shell],described, _shell_IOperationsProgressDialog, shell.IOperationsProgressDialog, shobjidl_core/IOperationsProgressDialog
-f1_keywords:
-- shobjidl_core/IOperationsProgressDialog
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IOperationsProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOperationsProgressDialog
+ - shobjidl_core/IOperationsProgressDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IOperationsProgressDialog
 ---
 
 # IOperationsProgressDialog interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to get, set, and query a progress dialog.
-
 
 ## -inheritance
 
@@ -167,5 +166,5 @@ Updates the current progress dialog, as specified.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
 ms.date: 12/05/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW
-f1_keywords:
-- winscard/SCardGetStatusChange
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-wlan-scard-l1-1-0.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardGetStatusChange
-- SCardGetStatusChangeA
-- SCardGetStatusChangeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardGetStatusChangeW
+ - winscard/SCardGetStatusChangeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-wlan-scard-l1-1-0.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardGetStatusChange
+ - SCardGetStatusChangeA
+ - SCardGetStatusChangeW
 ---
 
 # SCardGetStatusChangeW function
@@ -53,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardGetStatusChange</b> function blocks execution until the current availability of the cards in a specific set of readers changes.
 
 The caller supplies a list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">readers</a> to be monitored by an SCARD_READERSTATE array and the maximum amount of time (in milliseconds) that it is willing to wait for an action to occur on one of the listed readers. Note that <b>SCardGetStatusChange</b> uses the user-supplied value in the <b>dwCurrentState</b> members of the <i>rgReaderStates</i><a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a> array as the definition of the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the readers. The function returns when there is a change in availability, having filled in the <b>dwEventState</b> members of <i>rgReaderStates</i> appropriately.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
 
-
 ### -param dwTimeout [in]
 
 The maximum amount of time, in milliseconds, to wait for an action. A value of zero causes the function to return immediately. A value of INFINITE causes this function never to time out.
-
 
 ### -param rgReaderStates [in, out]
 
@@ -89,10 +83,7 @@ To be notified of the arrival of a new smart card reader, set the <b>szReader</b
 
 The number of elements in the <i>rgReaderStates</i> array.
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -125,14 +116,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SCardGetStatusChange</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> tracking function. For more information about other tracking functions, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-tracking-functions">Smart Card Tracking Functions</a>.
@@ -153,9 +138,6 @@ For information about how to call this function, see the  example in
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-scard_readerstatea">SCARD_READERSTATE</a>
 
 
@@ -169,7 +151,4 @@ For information about how to call this function, see the  example in
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>
- 
-
- 
 

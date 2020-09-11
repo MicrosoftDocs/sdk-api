@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
 ms.date: 12/05/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
-f1_keywords:
-- commctrl/LoadIconMetric
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- LoadIconMetric
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadIconMetric
+ - commctrl/LoadIconMetric
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - LoadIconMetric
 ---
 
 # LoadIconMetric function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads a specified icon resource with a client-specified system metric.
 
-
 ## -parameters
-
-
-
 
 ### -param hinst [in]
 
@@ -67,7 +63,6 @@ A handle to the module of either a DLL or executable (.exe) file that contains t
                     
 
 To load a predefined icon or a standalone icon file, set this parameter to <b>NULL</b>.
-
 
 ### -param pszName [in]
 
@@ -134,8 +129,6 @@ Corresponds to<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phico [out]
 
@@ -143,10 +136,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 When this function returns, contains a pointer to the handle of the loaded icon.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -169,14 +159,8 @@ The contents of the buffer pointed to by <i>pszName</i> do not fit any of the ex
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>LoadIconMetric</b> is similar to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>, but with the capability to specify the icon metric. It is used in place of <b>LoadIcon</b> when the calling application wants to ensure a high quality icon. This is particularly useful in high dots per inch (dpi) situations.
 
@@ -198,6 +182,4 @@ nidIconData.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
 
 HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);</code></pre>
 The application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> on the retrieved icon.
-
-
 

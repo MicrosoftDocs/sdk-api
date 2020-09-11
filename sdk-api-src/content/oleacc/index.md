@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winauto
+f1_keywords:
+ - oleacc
+ - oleacc/oleacc
 ---
 
 # Oleacc.h header
 
 
 ## -description
-
 
 This header is used by Windows Accessibility Features. For more information, see:
 

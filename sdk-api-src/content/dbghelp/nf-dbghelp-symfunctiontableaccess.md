@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: f79e6af9-9931-4bd7-ae12-29d890267a89
 ms.date: 12/05/2018
 ms.keywords: SymFunctionTableAccess, SymFunctionTableAccess function, SymFunctionTableAccess64, SymFunctionTableAccess64 function, _win32_symfunctiontableaccess64, base.symfunctiontableaccess64, dbghelp/SymFunctionTableAccess, dbghelp/SymFunctionTableAccess64
-f1_keywords:
-- dbghelp/SymFunctionTableAccess64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymFunctionTableAccess64
-- SymFunctionTableAccess
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymFunctionTableAccess
+ - dbghelp/SymFunctionTableAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymFunctionTableAccess64
+ - SymFunctionTableAccess
 ---
 
 # SymFunctionTableAccess function
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the function table entry for the specified address.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param AddrBase [in]
 
 The base address for which function table information is required.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the function table entry.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The type of pointer returned is specific to the image from which symbols are loaded. 
 
@@ -112,14 +99,7 @@ SymFunctionTableAccess(
 #endif
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -138,7 +118,4 @@ SymFunctionTableAccess(
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
- 
-
- 
 

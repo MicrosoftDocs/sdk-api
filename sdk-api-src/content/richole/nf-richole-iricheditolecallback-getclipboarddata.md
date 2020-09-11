@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetclipboarddata.htm
 ms.date: 12/05/2018
 ms.keywords: GetClipboardData, GetClipboardData method [Windows Controls], GetClipboardData method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetClipboardData method, IRichEditOleCallback.GetClipboardData, IRichEditOleCallback::GetClipboardData, RECO_COPY, RECO_CUT, _win32_IRichEditOleCallback_GetClipboardData, _win32_IRichEditOleCallback_GetClipboardData_cpp, controls.IRichEditOleCallback_GetClipboardData, controls._win32_IRichEditOleCallback_GetClipboardData, richole/IRichEditOleCallback::GetClipboardData
-f1_keywords:
-- richole/IRichEditOleCallback.GetClipboardData
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOleCallback.GetClipboardData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOleCallback::GetClipboardData
+ - richole/IRichEditOleCallback::GetClipboardData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOleCallback.GetClipboardData
 ---
 
 # IRichEditOleCallback::GetClipboardData
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows the client to supply its own clipboard object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpchrg
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
 
-The clipboard object range. 
-
+The clipboard object range.
 
 ### -param reco
 
@@ -98,8 +93,6 @@ Cut to the clipboard.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lplpdataobj
 
@@ -107,24 +100,15 @@ Type: <b>LPDATAOBJECT*</b>
 
 Pointer to the pointer variable that receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation representing the range specified in the 
 					<i>lpchrg</i> parameter. The value of 
-					<i>lplpdataobj</i> is ignored if an error is returned. 
-
+					<i>lplpdataobj</i> is ignored if an error is returned.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the rich edit control created its own clipboard object. If the return value is a failure other than <b>E_NOTIMPL</b>, the operation failed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
@@ -135,7 +119,4 @@ Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the ric
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
 ms.date: 12/05/2018
 ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LEAP_SECOND_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLeapSecondInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
-f1_keywords:
-- winternl/NtQuerySystemInformation
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- NtQuerySystemInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtQuerySystemInformation
+ - winternl/NtQuerySystemInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - NtQuerySystemInformation
 ---
 
 # NtQuerySystemInformation function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>NtQuerySystemInformation</b> may be altered or unavailable in future versions of Windows. Applications should use the alternate functions listed in this topic.]
 
 Retrieves the specified system information.
 
-
 ## -parameters
-
-
-
 
 ### -param SystemInformationClass [in]
 
@@ -275,7 +271,6 @@ Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following l
 Returns an opaque <b>SYSTEM_TIMEOFDAY_INFORMATION</b> structure that can be used
 to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
-
 
 ### -param SystemInformation [in, out]
 
@@ -903,11 +898,9 @@ use by the operating system.
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
-
 ### -param SystemInformationLength [in]
 
 The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
-
 
 ### -param ReturnLength [out, optional]
 
@@ -918,10 +911,7 @@ into the <i>SystemInformation</i> buffer; otherwise, it returns an NTSTATUS
 error code and returns in <i>ReturnLength</i> the size of
 buffer required to receive the requested information.
 
-
 ## -returns
-
-
 
 Returns an  NTSTATUS success or error code. 
 
@@ -929,12 +919,7 @@ The
 forms and significance of NTSTATUS error codes are listed in the
 Ntstatus.h header file available in the DDK, and are described in the DDK documentation.
 
-
-
-
 ## -remarks
-
-
 
 The <b>NtQuerySystemInformation</b> function and the structures
 that it returns are internal to the operating system and  subject to change from
@@ -950,13 +935,7 @@ detectable.
 
 This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>
 
@@ -975,7 +954,4 @@ This function has no associated import library. You must use the <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>
- 
-
- 
 

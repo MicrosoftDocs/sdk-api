@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8203ac16-99af-4962-bafc-12c0d238d062
 ms.date: 12/05/2018
 ms.keywords: Format, Format method [VDS], Format method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Format method, IVdsVolumeMF.Format, IVdsVolumeMF::Format, base.ivdsvolumemf_format, vds/IVdsVolumeMF::Format
-f1_keywords:
-- vds/IVdsVolumeMF.Format
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolumeMF.Format
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolumeMF::Format
+ - vds/IVdsVolumeMF::Format
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolumeMF.Format
 ---
 
 # IVdsVolumeMF::Format
@@ -50,51 +51,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Formats a file system on 
    the current volume.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a> enumeration value that specifies the file system to be used. Must be one of the following: VDS_FST_NTFS, VDS_FST_FAT, VDS_FST_FAT32, or VDS_FST_UDF.
 
-
 ### -param pwszLabel [in]
 
 A string representing the file system label.
-
 
 ### -param dwUnitAllocationSize [in]
 
 The size of the allocation unit for the file system in bytes, which is usually between 512 and 
       65536.
 
-
 ### -param bForce [in]
 
 If <b>TRUE</b>, the file system is formatted unconditionally even while in use; 
       otherwise, the operation fails.
-
 
 ### -param bQuickFormat [in]
 
 If <b>TRUE</b>, VDS performs a quick format (it does not verify each sector on the 
       volume).
 
-
 ### -param bEnableCompression [in]
 
 If <b>TRUE</b>, compression is enabled on the newly formatted file system. Compression 
       is a feature of NTFS, and is ignored for FAT and FAT32.
-
 
 ### -param ppAsync [out]
 
@@ -102,10 +92,7 @@ The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwp
       VDS initializes on return. Callers must release the interface. Use this pointer to cancel, wait for, or query 
       the status of the operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -354,14 +341,8 @@ BitLocker encryption could not be disabled for the volume.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To create a boot volume on a dynamic disk, you must call <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-setflags">IVdsVolume::SetFlags</a> to set the <b>VDS_VF_INSTALLABLE</b> flag before calling <b>Format</b> to format the volume.
 
@@ -371,13 +352,7 @@ If this method is called for a volume that is protected by BitLocker full-volume
 
 For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4">NTFS Technical Reference</a> and <a href="https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9">FAT Technical Reference</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -388,7 +363,4 @@ For more information about file system limits such as minimum and maximum alloca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
- 
-
- 
 

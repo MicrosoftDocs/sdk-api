@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.date: 12/05/2018
 ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
-f1_keywords:
-- vswriter/IVssComponentEx.GetRestoreName
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponentEx.GetRestoreName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx::GetRestoreName
+ - vswriter/IVssComponentEx::GetRestoreName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponentEx.GetRestoreName
 ---
 
 # IVssComponentEx::GetRestoreName
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the logical name assigned to a component that is being restored.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrName [out]
 
 The address of a caller-allocated variable that receives a null-terminated wide character string containing the restore name for the component.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -109,14 +102,8 @@ The caller is out of memory or other system resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">GetRestoreName</a> method can only be called during a restore operation.
 
@@ -128,13 +115,7 @@ For more
       information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrestorename">IVssBackupComponentsEx2::SetRestoreName</a>
 
@@ -145,7 +126,4 @@ For more
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
- 
-
- 
 

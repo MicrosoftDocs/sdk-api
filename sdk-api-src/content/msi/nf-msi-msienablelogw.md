@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGATTRIBUTES_APPEND, INSTALLLOGATTRIBUTES_FLUSHEACHLINE, INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_EXTRADEBUG, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_INFO, INSTALLLOGMODE_LOGONLYONERROR, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROPERTYDUMP, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_USER, INSTALLLOGMODE_VERBOSE, INSTALLLOGMODE_WARNING, MsiEnableLog, MsiEnableLog function, MsiEnableLogA, MsiEnableLogW, _msi_msienablelog, msi/MsiEnableLog, msi/MsiEnableLogA, msi/MsiEnableLogW, setup.msienablelog
-f1_keywords:
-- msi/MsiEnableLog
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnableLog
-- MsiEnableLogA
-- MsiEnableLogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnableLogW
+ - msi/MsiEnableLogW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnableLog
+ - MsiEnableLogA
+ - MsiEnableLogW
 ---
 
 # MsiEnableLogW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnableLog</b> function sets the log mode for all subsequent installations that are initiated in the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLogMode [in]
 
@@ -215,13 +211,10 @@ Logging information is collected but is is less frequently saved to the log file
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szLogFile [in]
 
 Specifies the string that holds the full path to the log file. Entering a null disables logging, in which case <i>dwlogmode</i> is ignored. If a path is supplied, then <i>dwlogmode</i> must not be zero.
-
 
 ### -param dwLogAttributes [in]
 
@@ -254,12 +247,8 @@ Forces the log buffer to be flushed after each line. If this value is not set, t
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -289,14 +278,8 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a description of the Logging policy, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/system-policy">System Policy</a>.
@@ -312,15 +295,9 @@ The path to the log file location must already exist when using this function. T
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/logging">Logging</a>
- 
-
- 
 

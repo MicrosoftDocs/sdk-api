@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f43cbd9d-d91b-4230-816f-693dec7056a4
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], IEnumOleUndoUnits interface [COM],described, _ole_ienumoleundounits, com.ienumoleundounits, ocidl/IEnumOleUndoUnits
-f1_keywords:
-- ocidl/IEnumOleUndoUnits
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IEnumOleUndoUnits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumOleUndoUnits
+ - ocidl/IEnumOleUndoUnits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IEnumOleUndoUnits
 ---
 
 # IEnumOleUndoUnits interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the undo units on the undo or redo stack.
-
 
 ## -inheritance
 
@@ -104,20 +103,13 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
- 
-
- 
 

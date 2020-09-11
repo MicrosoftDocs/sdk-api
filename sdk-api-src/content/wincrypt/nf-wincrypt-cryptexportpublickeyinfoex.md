@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
 ms.date: 12/05/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx
-f1_keywords:
-- wincrypt/CryptExportPublicKeyInfoEx
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptExportPublicKeyInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptExportPublicKeyInfoEx
+ - wincrypt/CryptExportPublicKeyInfoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptExportPublicKeyInfoEx
 ---
 
 # CryptExportPublicKeyInfoEx function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptExportPublicKeyInfoEx</b> function exports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information associated with the provider's corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. This function allows the application to specify the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>, overriding the default provided by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptProvOrNCryptKey [in]
 
 A handle of the CSP to use when exporting the public key information. This handle must be an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in the <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
 
-
 ### -param dwKeySpec [in]
 
 Identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to use from the provider's container. It can be AT_KEYEXCHANGE or AT_SIGNATURE. This parameter is ignored if an <b>NCRYPT_KEY_HANDLE</b> is used in the <i>hCryptProvOrNCryptKey</i> parameter.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -121,13 +115,10 @@ Skips public keys in the <b>CRYPT_PUBKEY_ALG_OID_GROUP_ID</b> group explicitly f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvAuxInfo [in]
 
 This parameter is reserved for future use and  must be set to <b>NULL</b>.
-
 
 ### -param pInfo [out]
 
@@ -137,7 +128,6 @@ A pointer to a
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ### -param pcbInfo [in, out]
 
 A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer pointed to by the <i>pInfo</i> parameter. When the function returns, the <b>DWORD</b> contains the number of bytes stored in the buffer.
@@ -146,8 +136,6 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -193,20 +181,11 @@ If the buffer specified by the <i>pInfo</i> parameter is not large enough to hol
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex">CryptImportPublicKeyInfoEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

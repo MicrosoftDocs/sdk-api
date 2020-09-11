@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::IntersectClip"]
 ms.assetid: 9aa49ff6-adce-4495-9af2-719ad029f751
 ms.date: 05/13/2019
 ms.keywords: Graphics::IntersectClip
-f1_keywords:
-- gdiplusgraphics/Graphics::IntersectClip
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::IntersectClip
+ - gdiplusgraphics/Graphics::IntersectClip
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::IntersectClip
+ - Graphics::IntersectClip
 ---
 
 # IntersectClip(RectF&)
+
 
 ## -description
 
@@ -109,3 +111,4 @@ VOID Example_IntersectClip2(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setclip(inconstgraphicspath_incombinemode)">SetClip Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+

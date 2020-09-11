@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 7df5a18e-5e65-4dd5-a59d-853a91ead710
 ms.date: 12/05/2018
 ms.keywords: SetGestureConfig, SetGestureConfig function [Windows Touch], wintouch.setgestureconfig, winuser/SetGestureConfig
-f1_keywords:
-- winuser/SetGestureConfig
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-api_name:
-- SetGestureConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetGestureConfig
+ - winuser/SetGestureConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+api_name:
+ - SetGestureConfig
 ---
 
 # SetGestureConfig function
@@ -49,44 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the messages that are sent from a window for Windows Touch gestures.
-  
-
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to the window to set the gesture configuration on.
 
-
 ### -param dwReserved [in]
 
 This value is reserved and must be set to 0.
-
 
 ### -param cIDs [in]
 
 A count of the gesture configuration structures that are being passed.
 
-
 ### -param pGestureConfig [in]
 
 An array of gesture configuration structures that specify the gesture configuration.
-
 
 ### -param cbSize [in]
 
 The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
      
@@ -95,12 +83,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 If you don't expect to change the gesture configuration, call <b>SetGestureConfig</b> at window creation time.
 	 If you want to dynamically change the gesture configuration, call <b>SetGestureConfig</b> in response to <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages.
@@ -428,14 +411,7 @@ if (!bResult){
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
@@ -454,7 +430,4 @@ if (!bResult){
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>
- 
-
- 
 

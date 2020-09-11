@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeappproperties.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeAppProperties, GetThemeAppProperties function [Windows Controls], controls.GetThemeAppProperties, controls.inet_GetThemeAppProperties, inet_GetThemeAppProperties, inet_GetThemeAppProperties_cpp, uxtheme/GetThemeAppProperties
-f1_keywords:
-- uxtheme/GetThemeAppProperties
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-- xamlpalwp.dll
-api_name:
-- GetThemeAppProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeAppProperties
+ - uxtheme/GetThemeAppProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+ - xamlpalwp.dll
+api_name:
+ - GetThemeAppProperties
 ---
 
 # GetThemeAppProperties function
@@ -51,20 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the property flags that control how visual styles are applied in the current application.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
@@ -109,14 +101,8 @@ Specifies that all web content displayed in an application is rendered using vis
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Individual flags can be extracted from the result by combining the result with the logical AND of the desired flag.
 
@@ -134,17 +120,7 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-setthemeappproperties">SetThemeAppProperties</a>
- 
-
- 
 

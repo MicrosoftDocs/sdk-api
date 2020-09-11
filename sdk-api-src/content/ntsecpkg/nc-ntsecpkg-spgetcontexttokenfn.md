@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d2e6b57d-751d-4f07-b05b-6d3aabd60650
 ms.date: 12/05/2018
 ms.keywords: SpGetContextToken, SpGetContextToken callback function [Security], SpGetContextTokenFn, SpGetContextTokenFn callback, _ssp_spgetcontexttoken, ntsecpkg/SpGetContextToken, security.spgetcontexttoken
-f1_keywords:
-- ntsecpkg/SpGetContextToken
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpGetContextToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpGetContextTokenFn
+ - ntsecpkg/SpGetContextTokenFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpGetContextToken
 ---
 
 # SpGetContextTokenFn callback function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the token to impersonate. The <b>SpGetContextToken</b> function is used by the SSPI 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function to obtain the token to impersonate.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextHandle [in]
 
 A handle to the context to impersonate.
 
-
 ### -param ImpersonationToken [out]
 
 Pointer that receives a handle to the token for the specified context. Return the handle to the token without first duplicating the handle or the token.
 
-
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
@@ -94,14 +86,8 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SSP/APs must implement the <b>SpGetContextToken</b> function; however, the actual name given to the implementation is up to the developer.
 
@@ -109,13 +95,7 @@ A pointer to the <b>SpGetContextToken</b> function is available in the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a>
 
@@ -126,7 +106,4 @@ A pointer to the <b>SpGetContextToken</b> function is available in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
- 
-
- 
 

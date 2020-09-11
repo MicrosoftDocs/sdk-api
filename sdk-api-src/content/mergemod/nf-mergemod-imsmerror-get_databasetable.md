@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: fee774b3-66ee-4ffd-b000-8032118e9a9d
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_DatabaseTable method, IMsmError.get_DatabaseTable, IMsmError::get_DatabaseTable, _msi_get_databasetable_function, get_DatabaseTable, get_DatabaseTable method, get_DatabaseTable method,IMsmError interface, mergemod/IMsmError::get_DatabaseTable, setup.imsmerror_get_databasetable
-f1_keywords:
-- mergemod/IMsmError.get_DatabaseTable
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmError.get_DatabaseTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmError::get_DatabaseTable
+ - mergemod/IMsmError::get_DatabaseTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmError.get_DatabaseTable
 ---
 
 # IMsmError::get_DatabaseTable
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_DatabaseTable</b> method retrieves the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasetable">DatabaseTable</a> property of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. The method returns the name of the table in the database that caused the error.
 
-
 ## -parameters
-
-
-
 
 ### -param ErrorTable [out]
 
 A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,29 +104,14 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
 The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

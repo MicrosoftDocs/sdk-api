@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 193854d7-3b7f-4f2b-b068-33b9c4d91e57
 ms.date: 12/05/2018
 ms.keywords: WsCreateFaultFromError, WsCreateFaultFromError function [Web Services for Windows], webservices/WsCreateFaultFromError, wsw.wscreatefaultfromerror
-f1_keywords:
-- webservices/WsCreateFaultFromError
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCreateFaultFromError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCreateFaultFromError
+ - webservices/WsCreateFaultFromError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCreateFaultFromError
 ---
 
 # WsCreateFaultFromError function
@@ -49,24 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Constructs a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a>  from a specified error object.
-            
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param error [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the error object from which to construct the fault.
-                
-
 
 ### -param faultErrorCode [in]
 
@@ -74,34 +64,24 @@ The HRESULT error code returned from the function that failed.
                     The HRESULT value cannot be a success code.
                 
 
-This error code is never included in the fault directly, but is used as a fallback mechanism for creating a fault string if the error object does not contain any error strings. 
-
+This error code is never included in the fault directly, but is used as a fallback mechanism for creating a fault string if the error object does not contain any error strings.
 
 ### -param faultDisclosure [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_disclosure">WS_FAULT_DISCLOSURE</a> enumeration that controls
                     what information is copied from
                     the error object to the fault object.
-                
-
 
 ### -param heap [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which to allocate memory for the returned fault object.
-                
-
 
 ### -param fault [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> structure representing the returned fault object.  The fields of the fault object are good until
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeheap">WsFreeHeap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetheap">WsResetHeap</a>is called to release the specified heap resources.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -144,14 +124,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the error object contains a fault (that is, the WS_FAULT_ERROR_PROPERTY_FAULT value of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ID</a>   is non-<b>NULL</b>), then that fault is selected to construct the returned fault.
 
@@ -175,7 +149,4 @@ By default, the
                 language of any language-dependent information in the error object is  the current 
                 user default UI language. However, you can change the language by setting 
                 the WS_ERROR_PROPERTY_LANGID property. See the the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.
-            
-
-
 

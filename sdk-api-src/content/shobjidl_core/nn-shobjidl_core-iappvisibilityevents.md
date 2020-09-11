@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: F6BABF7D-FA05-4A68-878F-A27A6990EC3F
 ms.date: 12/05/2018
 ms.keywords: IAppVisibilityEvents, IAppVisibilityEvents interface [Windows Shell], IAppVisibilityEvents interface [Windows Shell],described, shell.IAppVisibilityEvents, shobjidl_core/IAppVisibilityEvents
-f1_keywords:
-- shobjidl_core/IAppVisibilityEvents
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Twinapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- twinapi.lib
-- twinapi.dll
-api_name:
-- IAppVisibilityEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppVisibilityEvents
+ - shobjidl_core/IAppVisibilityEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - twinapi.lib
+ - twinapi.dll
+api_name:
+ - IAppVisibilityEvents
 ---
 
 # IAppVisibilityEvents interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables applications to receive notifications of state changes in a display and of changes in Start screen visibility.
-
 
 ## -inheritance
 
@@ -87,20 +86,13 @@ Notifies a client that visibility of the Start screen has changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

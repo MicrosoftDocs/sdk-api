@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 68a4ab3d-165e-4917-8915-77f15901dbad
 ms.date: 12/05/2018
 ms.keywords: IFileIsInUse, IFileIsInUse interface [Windows Shell], IFileIsInUse interface [Windows Shell],described, _shell_IFileIsInUse, shell.IFileIsInUse, shobjidl_core/IFileIsInUse
-f1_keywords:
-- shobjidl_core/IFileIsInUse
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileIsInUse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileIsInUse
+ - shobjidl_core/IFileIsInUse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileIsInUse
 ---
 
 # IFileIsInUse interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that can be called to get information on or close a file that is in use by another application. When an application attempts to access a file and finds that file already in use, it can use the methods of this interface to gather information to present to the user in a dialog box.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Gets a value that indicates how the file in use is being used.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 In versions of Windows before Windows Vista, when a user attempted to access a file that was open in another application, the user would simply receive a dialog box with a message stating that the file was already open. The message instructed that the user close the other application, but did not identify it. Other than that suggestion, the dialog box provided no user action to address the situation. This interface provides methods that can lead to a more informative dialog box from which the user can take direct action.
 
@@ -149,16 +145,7 @@ An application calls <b>IFileIsInUse</b> to communicate with other applications 
 <h3><a id="Sample"></a><a id="sample"></a><a id="SAMPLE"></a>Sample</h3>
 See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee330722(v=vs.85)">File Is in Use</a> sample, which demonstrates how to implement <b>IFileIsInUse</b> and register a file with the ROT. It then shows how to customize the <b>File In Use</b> dialog to display additional information and options for files currently opened in an application.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
- 
-
- 
 

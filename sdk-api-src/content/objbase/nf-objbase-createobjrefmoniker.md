@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 0a214a11-776c-4ef6-af68-a141398f853c
 ms.date: 12/05/2018
 ms.keywords: CreateObjrefMoniker, CreateObjrefMoniker function [COM], _com_CreateObjrefMoniker, com.createobjrefmoniker, objbase/CreateObjrefMoniker
-f1_keywords:
-- objbase/CreateObjrefMoniker
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- CreateObjrefMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateObjrefMoniker
+ - objbase/CreateObjrefMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - CreateObjrefMoniker
 ---
 
 # CreateObjrefMoniker function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an OBJREF moniker based on a pointer to an object.
 
-
 ## -parameters
-
-
-
 
 ### -param punk [in, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object that the moniker is to represent.
 
-
 ### -param ppmk [out]
 
 Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the OBJREF moniker that was created.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_OUTOFMEMORY, E_UNEXPECTED, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 Clients use OBJREF monikers to obtain a marshaled pointer to a running object in the servers address space.
 
@@ -101,17 +88,7 @@ For example, a server-side COM component contained in an Active Server Page can 
 
 The script engine internally makes the calls to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, and the script can then use objMyInstance to refer directly to the running object.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

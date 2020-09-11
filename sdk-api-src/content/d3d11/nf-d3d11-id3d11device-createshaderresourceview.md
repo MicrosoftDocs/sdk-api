@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8
 ms.date: 12/05/2018
 ms.keywords: 6f2fff53-b73d-3404-2005-37078d5f283b, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 11], CreateShaderResourceView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateShaderResourceView method, ID3D11Device.CreateShaderResourceView, ID3D11Device::CreateShaderResourceView, d3d11/ID3D11Device::CreateShaderResourceView, direct3d11.id3d11device_createshaderresourceview
-f1_keywords:
-- d3d11/ID3D11Device.CreateShaderResourceView
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device.CreateShaderResourceView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::CreateShaderResourceView
+ - d3d11/ID3D11Device::CreateShaderResourceView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device.CreateShaderResourceView
 ---
 
 # ID3D11Device::CreateShaderResourceView
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Create a shader-resource view for accessing data in a resource.
 
-
 ## -parameters
-
-
-
 
 ### -param pResource [in]
 
@@ -65,8 +61,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 Pointer to the resource that will serve as input to a shader. This resource must have been created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_SHADER_RESOURCE
             </a> flag.
-          
-
 
 ### -param pDesc [in, optional]
 
@@ -74,8 +68,6 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-
 
 Pointer to a shader-resource view description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_shader_resource_view_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a>). Set this parameter to <b>NULL</b> to create a
             view that accesses the entire resource (using the format the resource was created with).
-          
-
 
 ### -param ppSRView [out, optional]
 
@@ -83,24 +75,14 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11shaderresourceview">ID3D11ShaderResourceView</a>. Set this parameter to <b>NULL</b> to validate the
             other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
-          
-
-
-
 
 ## -remarks
-
-
 
 A resource is made up of one or more subresources; a view identifies which subresources to allow the pipeline to access. In addition, each resource is
           bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the shader stages using the following
@@ -122,18 +104,8 @@ The runtime read+write conflict prevention logic (which stops a resource from be
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

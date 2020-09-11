@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_MINFO_DATA, *PDNS_MINFO_DATAA, DNS_MINFO_DATA, DNS_MINFO_DATA structure [DNS], DNS_MINFO_DATAA, PDNS_MINFO_DATA, PDNS_MINFO_DATA structure pointer [DNS], _dns_dns_minfo_data, dns.dns_minfo_data, windns/DNS_MINFO_DATA, windns/PDNS_MINFO_DATA'
-f1_keywords:
-- windns/DNS_MINFO_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_MINFO_DATA
 targetos: Windows
 req.typenames: DNS_MINFO_DATAA, *PDNS_MINFO_DATAA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_MINFO_DATAA
+ - windns/PDNS_MINFO_DATAA
+ - DNS_MINFO_DATAA
+ - windns/DNS_MINFO_DATAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_MINFO_DATA
 ---
 
 # DNS_MINFO_DATAA structure
+
 
 ## -description
 
@@ -72,3 +76,4 @@ The <b>DNS_MINFO_DATA</b> structure is used in conjunction with the
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+

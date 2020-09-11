@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c9f04b38-18bc-4b52-8c56-d9475bc30202
 ms.date: 12/05/2018
 ms.keywords: ENHMFENUMPROC, ENHMFENUMPROC callback, ENHMFENUMPROC callback function [Windows GDI], _win32_EnhMetaFileProc, gdi.enhmetafileproc, wingdi/ENHMFENUMPROC
-f1_keywords:
-- wingdi/ENHMFENUMPROC
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wingdi.h
-api_name:
-- ENHMFENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ENHMFENUMPROC
+ - wingdi/ENHMFENUMPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wingdi.h
+api_name:
+ - ENHMFENUMPROC
 ---
 
 # ENHMFENUMPROC callback function
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnhMetaFileProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function. The <b>ENHMFENUMPROC</b> type defines a pointer to this callback function. <b>EnhMetaFileProc</b> is a placeholder for the application-defined function name.
-
 
 ## -parameters
 
-
-
-
 ### -param hdc
-
 
 ### -param *lpht
 
-
 ### -param *lpmr
-
 
 ### -param nHandles
 
-
 ### -param data
-
-
-
-
-
-
-
 
 ### -param hDC [in]
 
@@ -103,29 +88,15 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-w
 
 Specifies the number of objects with associated handles in the handle table.
 
-
 ## -returns
-
-
 
 This function must return a nonzero value to continue enumeration; to stop enumeration, it must return zero.
 
-
-
-
 ## -remarks
-
-
 
 An application must register the callback function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetarecord">ENHMETARECORD</a>
 
@@ -144,7 +115,4 @@ An application must register the callback function by passing its address to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
- 
-
- 
 

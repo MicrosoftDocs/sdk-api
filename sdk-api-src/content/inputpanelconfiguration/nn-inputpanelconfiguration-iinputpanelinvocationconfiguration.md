@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 452F46B6-3B71-4818-A528-B2A215EC9E87
 ms.date: 12/05/2018
 ms.keywords: IInputPanelInvocationConfiguration, IInputPanelInvocationConfiguration interface [Windows Shell], IInputPanelInvocationConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelInvocationConfiguration, shell.iinputpanelinvocationconfiguration
-f1_keywords:
-- inputpanelconfiguration/IInputPanelInvocationConfiguration
-dev_langs:
-- c++
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- inputpanelconfiguration.h
-api_name:
-- IInputPanelInvocationConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInputPanelInvocationConfiguration
+ - inputpanelconfiguration/IInputPanelInvocationConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - inputpanelconfiguration.h
+api_name:
+ - IInputPanelInvocationConfiguration
 ---
 
 # IInputPanelInvocationConfiguration interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables Windows Store apps to opt out of the automatic invocation behavior.
-
 
 ## -inheritance
 
@@ -77,29 +76,17 @@ Requires an explicit user tap in an edit field before the touch keyboard invokes
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Clients can request that the touch keyboard and handwriting input panel check to see that a user tapped in the edit control with focus before invoking.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

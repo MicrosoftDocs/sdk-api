@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: a7668c28-77c9-4373-ae1a-eab3cb98f866
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _win32_EnumDisplayMonitors, gdi.enumdisplaymonitors, winuser/EnumDisplayMonitors
-f1_keywords:
-- winuser/EnumDisplayMonitors
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-sysparams-l1-1-0.dll
-- Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
-api_name:
-- EnumDisplayMonitors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumDisplayMonitors
+ - winuser/EnumDisplayMonitors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-sysparams-l1-1-0.dll
+ - Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
+api_name:
+ - EnumDisplayMonitors
 ---
 
 # EnumDisplayMonitors function
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumDisplayMonitors</b> function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. <b>EnumDisplayMonitors</b> calls an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> callback function once for each monitor that is enumerated. Note that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_CMONITORS) counts only the display monitors.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a display device context that defines the visible region of interest.
 
 If this parameter is <b>NULL</b>, the <i>hdcMonitor</i> parameter passed to the callback function will be <b>NULL</b>, and the visible region of interest is the virtual screen that encompasses all the displays on the desktop.
-
 
 ### -param lprcClip [in]
 
@@ -77,31 +72,21 @@ If <i>hdc</i> is non-<b>NULL</b>, the coordinates of the clipping rectangle are 
 
 This parameter can be <b>NULL</b> if you don't want to clip the region specified by <i>hdc</i>.
 
-
 ### -param lpfnEnum [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> application-defined callback function.
-
 
 ### -param dwData [in]
 
 Application-defined data that <b>EnumDisplayMonitors</b> passes directly to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 There are two reasons to call the <b>EnumDisplayMonitors</b> function:
 
@@ -206,12 +191,7 @@ EnumDisplayMonitors(NULL, NULL, MyInfoEnumProc, 0);
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
@@ -226,7 +206,4 @@ EnumDisplayMonitors(NULL, NULL, MyInfoEnumProc, 0);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
- 
-
- 
 

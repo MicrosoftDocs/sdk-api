@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2e27b2b5-a2f5-471d-9f3d-95b13c07037b
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoObject, IComTrackingInfoObject interface [COM+], IComTrackingInfoObject interface [COM+],described, _dtc_IComTrackingInfoObject, comsvcs/IComTrackingInfoObject, cos.icomtrackinginfoobject
-f1_keywords:
-- comsvcs/IComTrackingInfoObject
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComTrackingInfoObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComTrackingInfoObject
+ - comsvcs/IComTrackingInfoObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComTrackingInfoObject
 ---
 
 # IComTrackingInfoObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the properties of a tracking information object.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Retrieves the value of the specified property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--instrumentation-concepts">COM+ Instrumentation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--tracking">COM+ Tracking</a>
- 
-
- 
 

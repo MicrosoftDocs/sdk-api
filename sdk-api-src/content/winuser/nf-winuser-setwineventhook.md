@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
 ms.date: 12/05/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
-f1_keywords:
-- winuser/SetWinEventHook
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
-- minuser.dll
-api_name:
-- SetWinEventHook
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - SetWinEventHook
+ - winuser/SetWinEventHook
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+ - minuser.dll
+api_name:
+ - SetWinEventHook
 ---
 
 # SetWinEventHook function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an event hook function for a range of events.
 
-
 ## -parameters
-
-
-
 
 ### -param eventMin [in]
 
@@ -66,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">event constant</a> for the lowest event value in the range of events that are handled by the hook function. This parameter can be set to <b>EVENT_MIN</b> to indicate the lowest possible event value.
 
-
 ### -param eventMax [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the event constant for the highest event value in the range of events that are handled by the hook function. This parameter can be  set to <a href="https://docs.microsoft.com/windows/desktop/WinAuto/event-constants">EVENT_MAX</a> to indicate the highest possible event value.
-
 
 ### -param hmodWinEventProc [in]
 
@@ -80,13 +74,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the DLL that contains the hook function at <i>lpfnWinEventProc</i>, if the WINEVENT_INCONTEXT flag is specified in the <i>dwFlags</i> parameter. If the hook function is not located in a DLL, or if the WINEVENT_OUTOFCONTEXT flag is specified, this parameter is <b>NULL</b>.
 
-
 ### -param pfnWinEventProc [in]
 
 Type: <b>WINEVENTPROC</b>
 
 Pointer to the event hook function. For more information about this function, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-wineventproc">WinEventProc</a>.
-
 
 ### -param idProcess [in]
 
@@ -94,13 +86,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies the ID of the process from which the hook function receives events. Specify zero (0) to receive events from all processes on the current desktop.
 
-
 ### -param idThread [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the ID of the thread from which the hook function receives events. If this parameter is zero, the hook function is associated with all existing threads on the current desktop.
-
 
 ### -param dwFlags [in]
 
@@ -172,10 +162,7 @@ Additionally, client applications can specify WINEVENT_INCONTEXT, or WINEVENT_OU
 
 See Remarks section for information on Windows Store app development.
 
-
 ## -returns
-
-
 
 Type: <b>HWINEVENTHOOK</b>
 
@@ -183,12 +170,7 @@ If successful, returns an <a href="https://docs.microsoft.com/windows/desktop/Wi
 
 If unsuccessful, returns zero.
 
-
-
-
 ## -remarks
-
-
 
 This function allows clients to specify which processes and threads they are interested in.
 
@@ -273,14 +255,7 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/registering-a-hook-function">Registering a Hook Function</a>
 
@@ -291,7 +266,4 @@ void CALLBACK HandleWinEvent(HWINEVENTHOOK hook, DWORD event, HWND hwnd,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-wineventproc">WinEventProc</a>
- 
-
- 
 

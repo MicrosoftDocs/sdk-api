@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
-f1_keywords:
-- wsdhost/IWSDServiceMessaging
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDServiceMessaging
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceMessaging
+ - wsdhost/IWSDServiceMessaging
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDServiceMessaging
 ---
 
 # IWSDServiceMessaging interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWSDServiceMessaging</b> interface is used by generated stub code to send faults or responses to incoming messages.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Sends a response message matching a given request context.
 
 </td>
 </tr>
-</table> 
+</table>
 

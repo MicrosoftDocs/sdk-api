@@ -3,16 +3,11 @@ UID: NS:winuser.tagHIGHCONTRASTW
 title: HIGHCONTRASTW (winuser.h)
 description: Contains information about the high contrast accessibility feature.
 helpviewer_keywords: ["*LPHIGHCONTRASTW","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTW","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
-
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
 ms.date: 12/05/2018
 ms.keywords: '*LPHIGHCONTRASTW, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTW, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST'
-f1_keywords:
-- winuser/HIGHCONTRAST
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -30,22 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- HIGHCONTRAST
 targetos: Windows
 req.typenames: HIGHCONTRASTW, *LPHIGHCONTRASTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHIGHCONTRASTW
+ - winuser/tagHIGHCONTRASTW
+ - LPHIGHCONTRASTW
+ - winuser/LPHIGHCONTRASTW
+ - HIGHCONTRASTW
+ - winuser/HIGHCONTRASTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - HIGHCONTRAST
 ---
 
 # HIGHCONTRASTW structure
+
 
 ## -description
 
@@ -188,3 +193,4 @@ An application uses this structure when calling one of the [SystemParametersInfo
 
 [SystemParametersInfoW function](nf-winuser-systemparametersinfow.md), [HIGHCONTRASTA structure](ns-winuser-highcontrasta.md), <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>,
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+

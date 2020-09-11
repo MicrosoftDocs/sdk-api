@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: cd7e4786-b20c-4dad-bae6-4e703e60f330
 ms.date: 12/05/2018
 ms.keywords: ADS_NAME_INITTYPE_DOMAIN, ADS_NAME_INITTYPE_ENUM, ADS_NAME_INITTYPE_ENUM enumeration [ADSI], ADS_NAME_INITTYPE_GC, ADS_NAME_INITTYPE_SERVER, _ds_ads_name_inittype_enum, adsi.ads__name__inittype__enum, adsi.ads_name_inittype_enum, iads/ADS_NAME_INITTYPE_DOMAIN, iads/ADS_NAME_INITTYPE_ENUM, iads/ADS_NAME_INITTYPE_GC, iads/ADS_NAME_INITTYPE_SERVER
-f1_keywords:
-- iads/ADS_NAME_INITTYPE_ENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_NAME_INITTYPE_ENUM
 targetos: Windows
 req.typenames: ADS_NAME_INITTYPE_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0001_0050_0002
+ - iads/__MIDL___MIDL_itf_ads_0001_0050_0002
+ - ADS_NAME_INITTYPE_ENUM
+ - iads/ADS_NAME_INITTYPE_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_NAME_INITTYPE_ENUM
 ---
 
 # ADS_NAME_INITTYPE_ENUM enumeration
@@ -49,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADS_NAME_INITTYPE_ENUM</b> enumeration specifies the types of initialization to perform on a <b>NameTranslate</b> object. It is used in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ADS_NAME_INITTYPE_DOMAIN
 
 Initializes a <b>NameTranslate</b> object by setting the domain that the object binds to.
 
-
 ### -field ADS_NAME_INITTYPE_SERVER
 
 Initializes a <b>NameTranslate</b> object by setting the server that the object binds to.
-
 
 ### -field ADS_NAME_INITTYPE_GC
 
 Initializes a <b>NameTranslate</b> object by locating the global catalog that the object binds to.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> method or <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a> method uses these options to initialize the <b>NameTranslate</b> object. When <b>ADS_NAME_INITTYPE_SERVER</b> is used, specify the machine name of a directory server. When <b>ADS_NAME_INITTYPE_DOMAIN</b> is set, supply the domain name within a directory forest. When <b>ADS_NAME_INITTYPE_GC</b> is issued, the second parameter in <b>IADsNameTranslate::Init</b> or <b>IADsNameTranslate::InitEx</b> is ignored. The Global Catalog server of the domain of the current computer is used to perform the name translate operations. The initialization fails if the host computer is not part of a domain because no global catalog will be found.
 
@@ -164,14 +157,7 @@ The following VBScript/ASP code example uses <a href="https://docs.microsoft.com
 </html>
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
@@ -179,7 +165,4 @@ The following VBScript/ASP code example uses <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
- 
-
- 
 

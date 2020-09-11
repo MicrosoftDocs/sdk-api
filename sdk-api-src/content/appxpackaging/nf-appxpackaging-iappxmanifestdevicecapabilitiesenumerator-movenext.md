@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 2FD0F98C-2B20-47B2-8F86-F59E3E9B9086
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestDeviceCapabilitiesEnumerator.MoveNext, IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext
-f1_keywords:
-- appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
+ - appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 ---
 
 # IAppxManifestDeviceCapabilitiesEnumerator::MoveNext
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Advances the position of the enumerator to the next device capability.
 
-
 ## -parameters
-
-
-
 
 ### -param hasNext [retval]
 
@@ -66,10 +62,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <b>FALSE</b> if the enumerator has passed the end of the collection.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -77,17 +70,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 
 Note that when the enumerator passes the end of the collection for the first time, <i>hasNext</i> = <b>FALSE</b>,  but the method succeeds and returns <b>S_OK</b>. However, the method returns <b>E_BOUNDS</b> if you subsequently call another MoveNext after you have already passed the end of the collection, and you have previously received  <i>hasNext</i> = <b>FALSE</b>.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestdevicecapabilitiesenumerator">IAppxManifestDeviceCapabilitiesEnumerator</a>
- 
-
- 
 

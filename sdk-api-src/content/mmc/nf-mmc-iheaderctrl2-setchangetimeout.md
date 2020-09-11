@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 26a6a9bc-6556-4576-a810-d7c07c07cfd1
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl2 interface [MMC],SetChangeTimeOut method, IHeaderCtrl2.SetChangeTimeOut, IHeaderCtrl2::SetChangeTimeOut, SetChangeTimeOut, SetChangeTimeOut method [MMC], SetChangeTimeOut method [MMC],IHeaderCtrl2 interface, _slate_iheaderctrl2_setchangetimeout, mmc.iheaderctrl2_setchangetimeout, mmc/IHeaderCtrl2::SetChangeTimeOut
-f1_keywords:
-- mmc/IHeaderCtrl2.SetChangeTimeOut
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IHeaderCtrl2.SetChangeTimeOut
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHeaderCtrl2::SetChangeTimeOut
+ - mmc/IHeaderCtrl2::SetChangeTimeOut
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IHeaderCtrl2.SetChangeTimeOut
 ---
 
 # IHeaderCtrl2::SetChangeTimeOut
@@ -49,42 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IHeaderCtrl2::SetChangeTimeOut</b> sets the time-out interval between the time a change takes place in the filter attributes and the posting of an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a> filter change notification, which is sent to the snap-in's 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param uTimeout [in]
 
 Filter change interval in milliseconds. The default is an implementation detail of the header control, and as a result MMC does not know about it.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
- 
-
- 
 

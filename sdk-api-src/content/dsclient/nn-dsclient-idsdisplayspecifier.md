@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: a6ac7006-73b8-4673-89d6-8285453481d3
 ms.date: 12/05/2018
 ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Directory], IDsDisplaySpecifier interface [Active Directory],described, _glines_idsdisplayspecifier, ad.idsdisplayspecifier, dsclient/IDsDisplaySpecifier
-f1_keywords:
-- dsclient/IDsDisplaySpecifier
-dev_langs:
-- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Dsadmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dsadmin.dll
-api_name:
-- IDsDisplaySpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsDisplaySpecifier
+ - dsclient/IDsDisplaySpecifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dsadmin.dll
+api_name:
+ - IDsDisplaySpecifier
 ---
 
 # IDsDisplaySpecifier interface
 
 
 ## -description
-
 
 The <b>IDsDisplaySpecifier</b> interface provides access to Active Directory Domain Service objects of the <b>displaySpecifier</b> class. Such objects are known as <i>display specifiers</i>. A display specifier stores data about how user interface elements, such as property pages or context menus, of an object in Active Directory Domain Services are to be displayed. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/AD/display-specifiers">Display Specifiers</a>.
@@ -83,8 +83,6 @@ if(SUCCEEDED(hr))
  
 CoUninitialize();
 ```
-
-
 
 ## -inheritance
 
@@ -200,13 +198,9 @@ Specifies the server from which display specifier data is obtained.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
@@ -229,7 +223,4 @@ Specifies the server from which display specifier data is obtained.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>
- 
-
- 
 

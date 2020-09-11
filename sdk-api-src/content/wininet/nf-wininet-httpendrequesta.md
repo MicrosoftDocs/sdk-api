@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
 ms.date: 12/05/2018
 ms.keywords: HttpEndRequest, HttpEndRequest function [WinINet], HttpEndRequestA, HttpEndRequestW, _win32_httpendrequest, wininet.httpendrequest, wininet/HttpEndRequest, wininet/HttpEndRequestA, wininet/HttpEndRequestW
-f1_keywords:
-- wininet/HttpEndRequest
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- HttpEndRequest
-- HttpEndRequestA
-- HttpEndRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpEndRequestA
+ - wininet/HttpEndRequestA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - HttpEndRequest
+ - HttpEndRequestA
+ - HttpEndRequestW
 ---
 
 # HttpEndRequestA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ends an HTTP request that was initiated by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
@@ -67,25 +63,19 @@ Handle returned by
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> and sent by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>.
 
-
 ### -param lpBuffersOut [out, optional]
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
 This parameter is reserved and must be set to 0.
 
-
 ### -param dwContext [in, optional]
 
 This parameter is reserved and must be set to 0.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -93,12 +83,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If 
 <i>lpBuffersOut</i> is not set to <b>NULL</b>, 
@@ -118,15 +103,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 217cb49d-7f5f-42c5-83db-546621f6a375
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], IAMAudioInputMixer interface [DirectShow],described, IAMAudioInputMixerInterface, dshow.iamaudioinputmixer, strmif/IAMAudioInputMixer
-f1_keywords:
-- strmif/IAMAudioInputMixer
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAudioInputMixer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAudioInputMixer
+ - strmif/IAMAudioInputMixer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAudioInputMixer
 ---
 
 # IAMAudioInputMixer interface
 
 
 ## -description
-
-
 
 The <code>IAMAudioInputMixer</code> interface controls audio capture properties, such as panning and loudness; and enables or disables specific audio inputs, such as the line in or the microphone.
 
@@ -64,9 +63,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture
 Some methods on this interface might fail, depening on the capabilities of the underlying hardware.
 
 <b>Filter Developers</b>: Implement this interface on each input pin of an audio capture filter. You can also implement this interface on the audio capture filter itself to control the overall audio settings after mixing.
-
-
-
 
 ## -inheritance
 
@@ -227,16 +223,9 @@ Sets the treble equalization.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

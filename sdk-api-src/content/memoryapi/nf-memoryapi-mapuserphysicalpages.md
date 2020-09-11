@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7e9804dd-717d-4658-aac8-228878e61e4b
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPages, MapUserPhysicalPages function, _win32_mapuserphysicalpages, base.mapuserphysicalpages, winbase/MapUserPhysicalPages
-f1_keywords:
-- memoryapi/MapUserPhysicalPages
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -29,32 +25,36 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- MapUserPhysicalPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapUserPhysicalPages
+ - memoryapi/MapUserPhysicalPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - MapUserPhysicalPages
 ---
 
 # MapUserPhysicalPages function
 
 
 ## -description
-
 
 Maps 
     previously allocated physical memory pages at a specified address in an 
@@ -67,11 +67,7 @@ To perform batch mapping and unmapping of multiple regions, use the
      <b>MapUserPhysicalPages</b> is not supported for 32-bit 
      applications.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualAddress [in]
 
@@ -81,7 +77,6 @@ The value of
       <i>lpAddress</i> must be within the address range that the 
       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function returns when the <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region is 
       allocated.
-
 
 ### -param NumberOfPages [in]
 
@@ -94,7 +89,6 @@ The
 The total number of pages cannot extend from the 
       starting address beyond the end of the range that is specified in 
       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>.
-
 
 ### -param PageArray [in]
 
@@ -113,10 +107,7 @@ If this parameter is <b>NULL</b>, the specified address range is unmapped.  Also
        freed, and you must call <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to 
        free them.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -124,12 +115,7 @@ If the function fails, the return value is <b>FALSE</b> and no mapping is done�
        To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The physical pages are unmapped but they are not freed. You must call 
     <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the 
@@ -166,12 +152,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/a
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
@@ -190,7 +171,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
- 
-
- 
 

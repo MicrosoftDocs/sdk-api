@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 29bb2f18-760d-4a38-8dce-85099da7f96c
 ms.date: 12/05/2018
 ms.keywords: GetLogFileInformation, GetLogFileInformation function [Files], clfsw32/GetLogFileInformation, fs.getlogfileinformation
-f1_keywords:
-- clfsw32/GetLogFileInformation
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- GetLogFileInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLogFileInformation
+ - clfsw32/GetLogFileInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - GetLogFileInformation
 ---
 
 # GetLogFileInformation function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure.
 
 Data that is obtained  reflects the state of the log only at the time when the call is made. Typically, a client can continue to cache and use fields from this structure until the next time that it appends records or writes its restart area. At that time, some of the information becomes stale.
 
-
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
@@ -66,11 +62,9 @@ A handle to an open log that is obtained from a successful call to <a href="http
 
 The log handle can refer to a dedicated or multiplexed log.
 
-
 ### -param pinfoBuffer [in, out]
 
 A pointer to a user-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure that receives the log metadata.
-
 
 ### -param cbBuffer [in, out]
 
@@ -78,10 +72,7 @@ A pointer to a variable that on input specifies the size, in bytes, of the metad
 
  On output, it specifies the number of bytes that are actually copied into <i>pinfoBuffer</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -91,13 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
  The following list identifies the possible error codes:
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a>
 
@@ -112,7 +97,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/obtaining-the-next-lsn">Obtaining the Next LSN</a>
- 
-
- 
 

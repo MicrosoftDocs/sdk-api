@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 4787ccb7-3a32-4d55-9a3b-183e2f70735a
 ms.date: 12/05/2018
 ms.keywords: DRV_CONFIGURE, DRV_INSTALL, DRV_QUERYCONFIGURE, DRV_REMOVE, ISendDriverMessage, SendDriverMessage, SendDriverMessage function [Windows Multimedia], _win32_SendDriverMessage, mmsystem/SendDriverMessage, multimedia.senddrivermessage
-f1_keywords:
-- mmiscapi/SendDriverMessage
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-misc-l1-1-0.dll
-- winmmbase.dll
-- API-MS-Win-mm-misc-l1-1-1.dll
-api_name:
-- SendDriverMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SendDriverMessage
+ - mmiscapi/SendDriverMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-misc-l1-1-0.dll
+ - winmmbase.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+api_name:
+ - SendDriverMessage
 ---
 
 # SendDriverMessage function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends the specified message to the installable driver.
 
-
 ## -parameters
-
-
-
 
 ### -param hDriver [in]
 
 Handle of the installable driver instance. The handle must been previously created by using the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
-
 
 ### -param message [in]
 
@@ -116,39 +111,24 @@ Notifies an installable driver that it is about to be removed from the system.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lParam1 [in, out]
 
 32-bit message-dependent information.
 
-
 ### -param lParam2 [in, out]
 
 32-bit message-dependent information.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
- 
-
- 
 

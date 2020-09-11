@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontproperties.htm
 ms.date: 12/05/2018
 ms.keywords: UI_FONTPROPERTIES, UI_FONTPROPERTIES enumeration [Windows Ribbon], UI_FONTPROPERTIES_NOTAVAILABLE, UI_FONTPROPERTIES_NOTSET, UI_FONTPROPERTIES_SET, scenicintent_UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES_NOTAVAILABLE, uiribbon/UI_FONTPROPERTIES_NOTSET, uiribbon/UI_FONTPROPERTIES_SET, windowsribbon.windowsribbon_ui_fontproperties
-f1_keywords:
-- uiribbon/UI_FONTPROPERTIES
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_FONTPROPERTIES
 targetos: Windows
 req.typenames: UI_FONTPROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_FONTPROPERTIES
+ - uiribbon/UI_FONTPROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_FONTPROPERTIES
 ---
 
 # UI_FONTPROPERTIES enumeration
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies values that identify the font property state of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a>, such as <b>Strikethrough</b>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UI_FONTPROPERTIES_NOTAVAILABLE
 
 The property is not available.
 
-
 ### -field UI_FONTPROPERTIES_NOTSET
 
 The property is not set.
-
 
 ### -field UI_FONTPROPERTIES_SET
 
 The property is set.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
- 
-
- 
 

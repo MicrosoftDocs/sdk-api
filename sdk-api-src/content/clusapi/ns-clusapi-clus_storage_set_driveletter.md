@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 71f3a009-c4af-4c7a-973d-4bd2eba25b94
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER, CLUS_STORAGE_SET_DRIVELETTER structure [Failover Cluster], PCLUS_STORAGE_SET_DRIVELETTER, PCLUS_STORAGE_SET_DRIVELETTER structure pointer [Failover Cluster], clusapi/CLUS_STORAGE_SET_DRIVELETTER, clusapi/PCLUS_STORAGE_SET_DRIVELETTER, mscs.clus_storage_set_driveletter'
-f1_keywords:
-- clusapi/CLUS_STORAGE_SET_DRIVELETTER
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUS_STORAGE_SET_DRIVELETTER
 targetos: Windows
 req.typenames: CLUS_STORAGE_SET_DRIVELETTER, *PCLUS_STORAGE_SET_DRIVELETTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUS_STORAGE_SET_DRIVELETTER
+ - clusapi/_CLUS_STORAGE_SET_DRIVELETTER
+ - PCLUS_STORAGE_SET_DRIVELETTER
+ - clusapi/PCLUS_STORAGE_SET_DRIVELETTER
+ - CLUS_STORAGE_SET_DRIVELETTER
+ - clusapi/CLUS_STORAGE_SET_DRIVELETTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUS_STORAGE_SET_DRIVELETTER
 ---
 
 # CLUS_STORAGE_SET_DRIVELETTER structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Supplies drive letter information for a disk partition associated with a storage class resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PartitionNumber
 
 A 32-bit integer that indicates a partition on the storage device.
-
 
 ### -field DriveLetterMask
 

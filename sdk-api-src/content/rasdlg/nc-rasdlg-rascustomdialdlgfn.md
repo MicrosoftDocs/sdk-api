@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d1f4715a-a31c-4346-ac0a-83f2c58e8cc1
 ms.date: 12/05/2018
 ms.keywords: RCD_Logon, RasCustomDialDlg, RasCustomDialDlg callback function [RAS], RasCustomDialDlgA, RasCustomDialDlgFn, RasCustomDialDlgFn callback, RasCustomDialDlgW, _ras_rascustomdialdlg, rasdlg/RasCustomDialDlg, rasdlg/RasCustomDialDlgA, rasdlg/RasCustomDialDlgW, rras.rascustomdialdlg
-f1_keywords:
-- rasdlg/RasCustomDialDlg
-dev_langs:
-- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Rasdlg.h
-api_name:
-- RasCustomDialDlg
-- RasCustomDialDlgA
-- RasCustomDialDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasCustomDialDlgFn
+ - rasdlg/RasCustomDialDlgFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Rasdlg.h
+api_name:
+ - RasCustomDialDlg
+ - RasCustomDialDlgA
+ - RasCustomDialDlgW
 ---
 
 # RasCustomDialDlgFn callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is not available as of Windows Server 2008.
 
@@ -59,16 +59,11 @@ ms.custom: 19H1
 The 
 <b>RasCustomDialDlg</b> function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom RAS connection dialog boxes.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstDll
 
 Handle to the instance of the custom-dialing DLL that was loaded.
-
 
 ### -param dwFlags
 
@@ -94,22 +89,18 @@ If this flag is set to one, the connection was dialed from a Windows Logon conte
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>This parameter is reserved and should not be used.
 
-
 ### -param lpszPhonebook
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
-
 
 ### -param lpszEntry
 
 Pointer to a <b>null</b>-terminated string that contains the name of the phone-book entry to dial.
 
-
 ### -param lpszPhoneNumber
 
 Pointer to a <b>null</b>-terminated string that contains a phone number that overrides the numbers stored in the phone-book entry. If this parameter is <b>NULL</b>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a> uses the numbers in the phone-book entry.
-
 
 ### -param lpInfo
 
@@ -117,15 +108,11 @@ Pointer to a
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure that contains additional input and output parameters. On input, the <b>dwSize</b> member of this structure must specify sizeof(
 <b>RASDIALDLG</b>). If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
 
-
 ### -param pvInfo
 
 Reserved for internal use. This parameter will always be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the user creates, copies, or edits a phone-book entry, the return value should be <b>TRUE</b>. Otherwise, the function should return <b>FALSE</b>.
 
@@ -133,12 +120,7 @@ If an error occurs,
 <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a> should set the <b>dwError</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure to a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 RAS calls this entry point from 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a>, if the <b>szCustomDialDll</b> member of the 
@@ -155,13 +137,7 @@ The custom-dial dialog must support
 If the custom-dial DLL does not support this entry point, RAS returns <b>ERROR_CANNOT_DO_CUSTOMDIAL</b> to the caller of 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasdialdlga">RasDialDlg</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
@@ -192,7 +168,4 @@ If the custom-dial DLL does not support this entry point, RAS returns <b>ERROR_C
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

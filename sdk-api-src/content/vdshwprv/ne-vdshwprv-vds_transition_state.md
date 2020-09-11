@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ef688d1f-136b-4bc8-8209-e30033e752e9
 ms.date: 12/05/2018
 ms.keywords: VDS_TRANSITION_STATE, VDS_TRANSITION_STATE enumeration, VDS_TS_EXTENDING, VDS_TS_RECONFIGING, VDS_TS_RESTRIPING, VDS_TS_SHRINKING, VDS_TS_STABLE, VDS_TS_UNKNOWN, base.vds_transition_state, vds/VDS_TRANSITION_STATE, vds/VDS_TS_EXTENDING, vds/VDS_TS_RECONFIGING, vds/VDS_TS_RESTRIPING, vds/VDS_TS_SHRINKING, vds/VDS_TS_STABLE, vds/VDS_TS_UNKNOWN, vdshwprv/VDS_TRANSITION_STATE, vdshwprv/VDS_TS_EXTENDING, vdshwprv/VDS_TS_RECONFIGING, vdshwprv/VDS_TS_RESTRIPING, vdshwprv/VDS_TS_SHRINKING, vdshwprv/VDS_TS_STABLE, vdshwprv/VDS_TS_UNKNOWN
-f1_keywords:
-- vdshwprv/VDS_TRANSITION_STATE
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_TRANSITION_STATE
 targetos: Windows
 req.typenames: VDS_TRANSITION_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_TRANSITION_STATE
+ - vdshwprv/_VDS_TRANSITION_STATE
+ - VDS_TRANSITION_STATE
+ - vdshwprv/VDS_TRANSITION_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_TRANSITION_STATE
 ---
 
 # VDS_TRANSITION_STATE enumeration
@@ -50,42 +53,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of the valid transition state values for a VDS object.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VDS_TS_UNKNOWN
 
 This value is reserved.
 
-
 ### -field VDS_TS_STABLE
 
 The object is stable. No configuration activity is currently in progress.
-
 
 ### -field VDS_TS_EXTENDING
 
 The object is being extended.
 
-
 ### -field VDS_TS_SHRINKING
 
 The object is being shrunk.
 
-
 ### -field VDS_TS_RECONFIGING
 
 The object is being automagically reconfigured.
-
 
 ### -field VDS_TS_RESTRIPING
 
@@ -93,10 +86,7 @@ The object is being restriped.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This value is not supported.
 
-
 ## -remarks
-
-
 
 Transition state enumeration values apply to the VDS objects as shown in the following table. Y indicates that the value 
     applies to the object, and N indicates that the value does not apply to the object. 
@@ -165,12 +155,7 @@ If your application encounters a <b>VDS_TRANSITION_STATE</b> value that it does 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_TRANSITION_STATE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_TRANSITION_STATE</b> enumeration constant.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
@@ -193,7 +178,4 @@ If your application encounters a <b>VDS_TRANSITION_STATE</b> value that it does 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_volume_prop2">VDS_VOLUME_PROP2</a>
- 
-
- 
 

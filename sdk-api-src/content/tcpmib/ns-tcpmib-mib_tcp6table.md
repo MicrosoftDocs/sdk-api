@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 62bb8544-0a0a-40b5-92cf-9631c9a9987c
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCP6TABLE, MIB_TCP6TABLE, MIB_TCP6TABLE structure [MIB], PMIB_TCP6TABLE, PMIB_TCP6TABLE structure pointer [MIB], mib.mib_tcp6table, tcpmib/MIB_TCP6TABLE, tcpmib/PMIB_TCP6TABLE'
-f1_keywords:
-- tcpmib/MIB_TCP6TABLE
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-api_name:
-- MIB_TCP6TABLE
 targetos: Windows
 req.typenames: MIB_TCP6TABLE, *PMIB_TCP6TABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCP6TABLE
+ - tcpmib/_MIB_TCP6TABLE
+ - PMIB_TCP6TABLE
+ - tcpmib/PMIB_TCP6TABLE
+ - MIB_TCP6TABLE
+ - tcpmib/MIB_TCP6TABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+api_name:
+ - MIB_TCP6TABLE
 ---
 
 # MIB_TCP6TABLE structure
@@ -49,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_TCP6TABLE</b> structure contains a table of TCP connections for IPv6 on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumEntries
 
 A value that specifies the number of TCP connections in the array.
-
 
 ### -field table
 
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a> structures containing TCP connection entries.
 
-
 ## -remarks
-
-
 
 The <b>MIB_TCP6TABLE</b> structure is defined on Windows Vista and later. 
 
@@ -219,14 +215,7 @@ int wmain()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
@@ -269,7 +258,4 @@ int wmain()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
- 
-
- 
 

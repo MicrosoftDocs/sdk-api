@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 55afebf4-8872-42a1-847f-ff0240c2be20
 ms.date: 12/05/2018
 ms.keywords: '*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Security], SCHANNEL_ALG, SCHANNEL_ALG structure [Security], SCHANNEL_ENC_KEY, SCHANNEL_MAC_KEY, _crypto2_schannel_alg, security.schannel_alg, wincrypt/PSCHANNEL_ALG, wincrypt/SCHANNEL_ALG'
-f1_keywords:
-- wincrypt/SCHANNEL_ALG
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- SCHANNEL_ALG
 targetos: Windows
 req.typenames: SCHANNEL_ALG, *PSCHANNEL_ALG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SCHANNEL_ALG
+ - wincrypt/_SCHANNEL_ALG
+ - PSCHANNEL_ALG
+ - wincrypt/PSCHANNEL_ALG
+ - SCHANNEL_ALG
+ - wincrypt/SCHANNEL_ALG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - SCHANNEL_ALG
 ---
 
 # SCHANNEL_ALG structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCHANNEL_ALG</b> structure contains algorithm and key size information. It is used as the structure passed as <i>pbData</i> in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a> when <i>dwParam</i> is set to KP_SCHANNEL_ALG.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwUse
 
@@ -93,8 +93,6 @@ Derive keys to encrypt or decrypt data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Algid
 
@@ -107,16 +105,13 @@ SCHANNEL_MAC_KEYs can be either MD5 or SHA.
 
 SCHANNEL_ENC_KEYs can be RC4, DES, 3DES, or RC2.
 
-
 ### -field cBits
 
 Size in bits of the derived keys.
 
-
 ### -field dwFlags
 
 This flag can be set to INTERNATIONAL_USAGE (0x00000001), indicating that derived keys must follow SSL export rules.
-
 
 ### -field dwReserved
 

@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: d505fc34-9b6d-417a-a53e-e74773dcc8a4
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Open method, IPortableDevice.Open, IPortableDevice::Open, IPortableDeviceOpen, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Open, wpdsdk.iportabledevice_open
-f1_keywords:
-- portabledeviceapi/IPortableDevice.Open
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevice.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDevice::Open
+ - portabledeviceapi/IPortableDevice::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevice.Open
 ---
 
 # IPortableDevice::Open
@@ -50,33 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Open</b> method opens a connection between the application and the device.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param pszPnPDeviceID [in]
 
 A pointer to a null-terminated string that contains the Plug and Play ID string for the device. You can get this string by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>.
-          
-
 
 ### -param pClientInfo [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that holds information that identifies the application to the device. This interface holds <b>PROPERTYKEY</b>/value pairs that try to identify an application uniquely. Although the presence of a CoCreated interface is required, the application is not required to send any key/value pairs. However, sending data might improve performance. Typical key/value pairs include the application name, major and minor version, and build number.
 
  See properties beginning with "WPD_CLIENT_" in the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/properties-and-attributes">Properties</a> section.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -120,14 +109,8 @@ At least one of the arguments was a NULL pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A device must be opened before you can call any methods on it. (Note that the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager</a> methods do not require you to open a device before calling any methods.) However, usually you do not need to call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">Close</a>.
 
@@ -274,14 +257,7 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/establishing-a-connection">Establishing a Connection</a>
 
@@ -292,7 +268,4 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-close">IPortableDevice::Close</a>
- 
-
- 
 

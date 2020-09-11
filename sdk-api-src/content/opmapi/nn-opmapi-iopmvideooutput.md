@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8bf43577-3535-4f62-ac81-bb7e3c329403
 ms.date: 12/05/2018
 ms.keywords: IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], IOPMVideoOutput interface [Media Foundation],described, mf.iopmvideooutput, opmapi/IOPMVideoOutput
-f1_keywords:
-- opmapi/IOPMVideoOutput
-dev_langs:
-- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- opmapi.h
-api_name:
-- IOPMVideoOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOPMVideoOutput
+ - opmapi/IOPMVideoOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - opmapi.h
+api_name:
+ - IOPMVideoOutput
 ---
 
 # IOPMVideoOutput interface
 
 
 ## -description
-
 
 Represents a video output for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) session.
 
@@ -126,13 +126,9 @@ Begins the initialization sequence for an OPM session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
@@ -143,7 +139,4 @@ Begins the initialization sequence for an OPM session.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 57a3b413-f658-4793-abad-358455b5b9f4
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue2, IADsPropertyValue2 interface [ADSI], IADsPropertyValue2 interface [ADSI],described, _ds_iadspropertyvalue2, adsi.iadspropertyvalue2, iads/IADsPropertyValue2
-f1_keywords:
-- iads/IADsPropertyValue2
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyValue2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyValue2
+ - iads/IADsPropertyValue2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyValue2
 ---
 
 # IADsPropertyValue2 interface
 
 
 ## -description
-
 
 The <b>IADsPropertyValue2</b> interface is 
     used to represent the value of an 
@@ -74,7 +74,6 @@ This interface is more versatile than the
     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> because this interface can be used to 
     obtain any data type. The <b>IADsPropertyValue</b> interface 
     can only be used to obtain a limited number of data types.
-
 
 ## -inheritance
 
@@ -109,12 +108,9 @@ Sets the value of an attribute.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following table lists the <i>lnADsType</i> parameter values in the 
      <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">GetObjectProperty</a> and 
@@ -417,15 +413,8 @@ Not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
 
@@ -440,7 +429,4 @@ Not available.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5
 ms.date: 12/05/2018
 ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmUnregisterWord, ImmUnregisterWord function [Internationalization for Windows Applications], ImmUnregisterWordA, ImmUnregisterWordW, _win32_ImmUnregisterWord, imm/ImmUnregisterWord, imm/ImmUnregisterWordA, imm/ImmUnregisterWordW, intl.immunregisterword
-f1_keywords:
-- immdev/ImmUnregisterWord
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmUnregisterWord
-- ImmUnregisterWordA
-- ImmUnregisterWordW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmUnregisterWordW
+ - immdev/ImmUnregisterWordW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmUnregisterWord
+ - ImmUnregisterWordA
+ - ImmUnregisterWordW
 ---
 
 # ImmUnregisterWordW function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a register string from the dictionary of the IME associated with the specified input locale.
 
-
 ## -parameters
-
-
-
 
 ### -param HKL [in]
 
 Input locale identifier.
 
-
 ### -param lpszReading [in]
 
 Pointer to a null-terminated reading string associated with the string to remove.
-
 
 ### -param DWORD [in]
 
@@ -100,36 +94,22 @@ The string is in a private style maintained by the specified IME.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszUnregister [in]
 
 Pointer to a null-terminated string specifying the register string to remove.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
 
 ## -remarks
 

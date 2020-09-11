@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 60165f0d-01d9-4ce8-a369-092d0c670b87
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryFeatureStateEx, MsiQueryFeatureStateEx function, MsiQueryFeatureStateExA, MsiQueryFeatureStateExW, NULL, User SID, msi/MsiQueryFeatureStateEx, msi/MsiQueryFeatureStateExA, msi/MsiQueryFeatureStateExW, setup.msiqueryfeaturestateex
-f1_keywords:
-- msi/MsiQueryFeatureStateEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiQueryFeatureStateEx
-- MsiQueryFeatureStateExA
-- MsiQueryFeatureStateExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiQueryFeatureStateExW
+ - msi/MsiQueryFeatureStateExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiQueryFeatureStateEx
+ - MsiQueryFeatureStateExA
+ - MsiQueryFeatureStateExW
 ---
 
 # MsiQueryFeatureStateExW function
@@ -52,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiQueryFeatureStateEx</b> function returns the installed state for a product feature. This function can be used to query any feature of an instance of a product installed under the machine account or any context under the current user account or the per-user-managed context under any user account other than the current user. A user must have administrative privileges to get information for a product installed for a user other than the current user.
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCode [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product that contains the feature of interest.
-
 
 ### -param szUserSid [in]
 
@@ -144,13 +138,10 @@ Retrieves the feature state for the per-machine instance of the product.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szFeature [in]
 
 Specifies the feature being queried. Identifier of the feature as found in the <b>Feature</b> column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a>.
-
 
 ### -param pdwState [out, optional]
 
@@ -192,12 +183,8 @@ The feature is installed to run from source.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>MsiQueryFeatureStateEx</b> function returns the following values.
 
@@ -289,12 +276,7 @@ An unexpected internal failure.
  For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiQueryFeatureStateEx</b> function does not validate that the feature is actually accessible. The <b>MsiQueryFeatureStateEx</b> function does not validate the  feature ID. <b>ERROR_UNKNOWN_FEATURE</b> is returned for any unknown feature ID. When the query is made on a product installed under the per-user-unmanaged context  for a user account other than the current user, the function fails.  In this case the function returns <b>ERROR_UNKNOWN_FEATURE</b>, or if the product is advertised only  (not installed),   <b>ERROR_UNKNOWN_PRODUCT</b> is returned.
@@ -307,9 +289,6 @@ The
 > The msi.h header defines MsiQueryFeatureStateEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
@@ -332,7 +311,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
 

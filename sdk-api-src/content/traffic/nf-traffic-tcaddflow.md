@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: 20b4f34b-a84e-4211-8d41-0efa0dbc6cd4
 ms.date: 12/05/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
-f1_keywords:
-- traffic/TcAddFlow
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcAddFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcAddFlow
+ - traffic/TcAddFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcAddFlow
 ---
 
 # TcAddFlow function
 
 
 ## -description
-
 
 The 
 <b>TcAddFlow</b> function adds a new flow on the specified interface. Note that the successful addition of a flow does not necessarily indicate a change in the way traffic is handled; traffic handling changes are effected by attaching a filter to the added flow, using the 
@@ -58,41 +58,30 @@ Traffic control clients that have registered an <b>AddFlowComplete</b> handler (
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a> callback function in order to alert clients of completed flow additions) can expect a return value of ERROR_SIGNAL_PENDING. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/traffic-control-objects">Traffic Control Objects</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param IfcHandle [in]
 
 Handle associated with the interface on which the flow is to be added. This handle is obtained by a previous call to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
-
 ### -param ClFlowCtx [in]
 
 Client provided–flow context handle. Used subsequently by traffic control when referring to the added flow.
-
 
 ### -param Flags [in]
 
 Reserved for future use. Must be set to zero.
 
-
 ### -param pGenericFlow [in]
 
 Pointer to a description of the flow being installed.
-
 
 ### -param pFlowHandle [out]
 
 Pointer to a location into which traffic control will return the flow handle. This flow handle should be used in subsequent calls to traffic control to refer to the installed flow.
 
-
 ## -returns
-
-
 
 There are many reasons why a request to add a flow might be rejected. Error codes returned by traffic control from calls to 
 <b>TcAddFlow</b> are provided to aid in determining the reason for rejection.
@@ -305,14 +294,8 @@ The network cable is not plugged into the adapter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the 
 <b>TcAddFlow</b> function returns ERROR_SIGNAL_PENDING, the 
@@ -328,12 +311,7 @@ Traffic control may delete a flow for various reasons, including the inability t
 <b>TcAddFlow</b> function requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a>
 
@@ -352,7 +330,4 @@ Traffic control may delete a flow for various reasons, including the inability t
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
- 
-
- 
 

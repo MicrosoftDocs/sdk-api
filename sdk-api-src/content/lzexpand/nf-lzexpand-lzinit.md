@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.date: 12/05/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
-f1_keywords:
-- lzexpand/LZInit
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- LZInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LZInit
+ - lzexpand/LZInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - LZInit
 ---
 
 # LZInit function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 
-
 ## -parameters
-
-
-
 
 ### -param hfSource [in]
 
 A handle to the file.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a new LZ file handle.
 
@@ -131,12 +124,7 @@ The file is compressed with an unrecognized compression algorithm.
 
 There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A maximum of 16 compressed files can be open at any given time. Similarly, a maximum of 16 uncompressed files can be open at any given time. An application should be careful to close the handle returned by 
 <b>LZInit</b> when it is done using the file; otherwise, the application can inadvertently hit the 16-file limit.
@@ -205,21 +193,11 @@ Yes
 
 CsvFs will do redirected IO for compressed files.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

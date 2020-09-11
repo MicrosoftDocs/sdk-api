@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 774dd1b0-e5ea-4fef-b3bc-743870793db5
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMsgCollection, IGPMStatusMsgCollection, IGPMStatusMsgCollection interface [GPMC], IGPMStatusMsgCollection interface [GPMC],described, _win32_igpmstatusmsgcollection, gpmc.igpmstatusmsgcollection, gpmgmt/IGPMStatusMsgCollection
-f1_keywords:
-- gpmgmt/IGPMStatusMsgCollection
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMStatusMsgCollection
-- IGPMStatusMsgCollection.Count
-- IGPMStatusMsgCollection.get_Count
-- IGPMStatusMsgCollection.Item
-- IGPMStatusMsgCollection.get_Item
-- GPMStatusMsgCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMStatusMsgCollection
+ - gpmgmt/IGPMStatusMsgCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMStatusMsgCollection
+ - IGPMStatusMsgCollection.Count
+ - IGPMStatusMsgCollection.get_Count
+ - IGPMStatusMsgCollection.Item
+ - IGPMStatusMsgCollection.get_Item
+ - GPMStatusMsgCollection
 ---
 
 # IGPMStatusMsgCollection interface
@@ -54,10 +55,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMStatusMsgCollection</b> interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.
-
 
 ## -inheritance
 
@@ -111,13 +110,9 @@ A specific message from the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -128,7 +123,4 @@ A specific message from the collection.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmessage">IGPMStatusMessage</a>
- 
-
- 
 

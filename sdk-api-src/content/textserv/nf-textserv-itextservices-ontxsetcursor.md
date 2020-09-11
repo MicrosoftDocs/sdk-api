@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxsetcursor.htm
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],OnTxSetCursor method, ITextServices.OnTxSetCursor, ITextServices::OnTxSetCursor, OnTxSetCursor, OnTxSetCursor method [Windows Controls], OnTxSetCursor method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxSetCursor, _win32_ITextServices_OnTxSetCursor_cpp, controls.ITextServices_OnTxSetCursor, controls._win32_ITextServices_OnTxSetCursor, textserv/ITextServices::OnTxSetCursor
-f1_keywords:
-- textserv/ITextServices.OnTxSetCursor
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.OnTxSetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::OnTxSetCursor
+ - textserv/ITextServices::OnTxSetCursor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.OnTxSetCursor
 ---
 
 # ITextServices::OnTxSetCursor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the text services object to set the cursor.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDrawAspect [in]
 
@@ -92,8 +88,6 @@ Renders the object to the <i>hdcDraw</i> device context as though it were printe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lindex
 
@@ -101,13 +95,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Not supported.
 
-
 ### -param pvAspect [in]
 
 Type: <b>void*</b>
 
-Information for drawing optimizations. 
-
+Information for drawing optimizations.
 
 ### -param ptd [in]
 
@@ -115,45 +107,37 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objid
 
 The target device.
 
-
 ### -param hdcDraw [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-Rendering device context. 
-
+Rendering device context.
 
 ### -param hicTargetDev [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-Target information context. 
-
+Target information context.
 
 ### -param lprcClient [in]
 
 Type: <b>LPCRECT</b>
 
-The control's client rectangle. The coordinates of the rectangle are in client coordinates of the containing window. <b>NULL</b> is a legal value. 
-
+The control's client rectangle. The coordinates of the rectangle are in client coordinates of the containing window. <b>NULL</b> is a legal value.
 
 ### -param x [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-x position of cursor, in the client coordinates of the containing window. 
-
+x position of cursor, in the client coordinates of the containing window.
 
 ### -param y [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-y position of cursor, in the client coordinates of the containing window. 
-
+y position of cursor, in the client coordinates of the containing window.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -178,14 +162,8 @@ One or more illegal parameters.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>.
 
@@ -195,13 +173,7 @@ This method should be called only for screen views of the control. Therefore the
 
 For more information, see the Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -236,7 +208,4 @@ For more information, see the Remarks in <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

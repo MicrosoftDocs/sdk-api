@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: dfcbea5c-e2b7-40e4-b1a2-3cc7446d8844
 ms.date: 12/05/2018
 ms.keywords: CreateTimerQueueTimer, CreateTimerQueueTimer function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTEINTIMERTHREAD, WT_EXECUTELONGFUNCTION, WT_EXECUTEONLYONCE, WT_TRANSFER_IMPERSONATION, _win32_createtimerqueuetimer, base.createtimerqueuetimer, threadpoollegacyapiset/CreateTimerQueueTimer, winbase/CreateTimerQueueTimer
-f1_keywords:
-- threadpoollegacyapiset/CreateTimerQueueTimer
-dev_langs:
-- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CreateTimerQueueTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateTimerQueueTimer
+ - threadpoollegacyapiset/CreateTimerQueueTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateTimerQueueTimer
 ---
 
 # CreateTimerQueueTimer function
@@ -54,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a timer-queue timer. This timer expires at the specified due time, then after every specified period. When the timer expires, the callback function is called.
 
-
 ## -parameters
-
-
-
 
 ### -param phNewTimer [out]
 
 A pointer to a buffer that receives a handle to the timer-queue timer on return. When this handle has expired and is no longer required, release it by calling <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>.
-
 
 ### -param TimerQueue [in, optional]
 
@@ -75,27 +70,22 @@ A handle to the timer queue. This handle is returned by the
 
 If this parameter is <b>NULL</b>, the timer is associated with the default timer queue.
 
-
 ### -param Callback [in]
 
 A pointer to the application-defined function of type <b>WAITORTIMERCALLBACK</b> to be executed when the timer expires. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
 
-
 ### -param Parameter [in, optional]
 
 A single parameter value that will be passed to the callback function.
 
-
 ### -param DueTime [in]
 
-The amount of time in milliseconds relative to the current time that must elapse before the timer is signaled for the first time. 
-
+The amount of time in milliseconds relative to the current time that must elapse before the timer is signaled for the first time.
 
 ### -param Period [in]
 
 The period of the timer, in milliseconds. If this parameter is zero, the timer is signaled once. If this parameter is greater than zero, the timer is periodic. A periodic timer automatically reactivates each time the period elapses, until the timer is canceled.
-
 
 ### -param Flags [in]
 
@@ -201,24 +191,15 @@ Callback functions will use the current access token, whether it is a process or
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>DueTime</i> and <i>Period</i> parameters are both nonzero, the timer will be signaled first at the due time, then periodically. The callback is called every time the period elapses, whether or not the previous callback has finished executing. Callback functions are queued to the thread pool. These threads are subject to scheduling delays, so the timing can vary depending on what else is happening in the application or the system.
 
@@ -248,12 +229,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
@@ -276,7 +252,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
- 
-
- 
 

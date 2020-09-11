@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
 ms.date: 12/05/2018
 ms.keywords: PVSSCOMPONENTINFO, PVSSCOMPONENTINFO structure pointer [VSS], VSS_COMPONENTINFO, VSS_COMPONENTINFO structure [VSS], _win32_vss_componentinfo, base.vss_componentinfo, vsbackup/PVSSCOMPONENTINFO, vsbackup/VSS_COMPONENTINFO
-f1_keywords:
-- vsbackup/VSS_COMPONENTINFO
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VsBackup.h
-api_name:
-- VSS_COMPONENTINFO
 targetos: Windows
 req.typenames: VSS_COMPONENTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_COMPONENTINFO
+ - vsbackup/_VSS_COMPONENTINFO
+ - VSS_COMPONENTINFO
+ - vsbackup/VSS_COMPONENTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VsBackup.h
+api_name:
+ - VSS_COMPONENTINFO
 ---
 
 # VSS_COMPONENTINFO structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VSS_COMPONENTINFO</b> structure contains 
     information about a given component, and is returned to requesters by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a> interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field type
 
 Component type. See <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>.
-
 
 ### -field bstrLogicalPath
 
@@ -74,16 +71,13 @@ A logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -field bstrComponentName
 
 A string containing the name of the component. A component name string cannot be <b>NULL</b>.
 
-
 ### -field bstrCaption
 
 A string containing the description of the component. A caption string can be <b>NULL</b>.
-
 
 ### -field pbIcon
 
@@ -95,13 +89,11 @@ Pointer to a buffer containing the binary data for a displayable icon representi
 If the writer that created the component did not choose to specify an icon, <b>pbIcon</b> 
        is <b>NULL</b>.
 
-
 ### -field cbIcon
 
 The size, in bytes, of the displayable icon (<b>pbIcon</b>) representing the component. 
       If <b>pbIcon</b> is <b>NULL</b>, <b>cbIcon</b> should 
       be zero.
-
 
 ### -field bRestoreMetadata
 
@@ -118,12 +110,10 @@ A writer indicates whether a component supports private metadata by setting this
        Requesters retrieve the information using 
        <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">IVssComponent::GetRestoreMetadata</a>.
 
-
 ### -field bNotifyOnBackupComplete
 
 Reserved for future use. The value of this parameter should always be set to 
       <b>false</b>.
-
 
 ### -field bSelectable
 
@@ -217,7 +207,6 @@ If a component is explicitly added to the backup document (see [explicit compone
 See <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability 
        and Logical Paths</a> for more information.
 
-
 ### -field dwComponentFlags
 
 A bit mask (or bitwise OR) of values of the 
@@ -226,24 +215,20 @@ A bit mask (or bitwise OR) of values of the
 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this member is reserved for system use.
 
-
 ### -field cFileCount
 
 If the component is a file group, the number of file descriptors for files in the group. Otherwise, this 
       value is zero.
-
 
 ### -field cDatabases
 
 If the component is a database, the number of database file descriptors. Otherwise, this value is 
       zero.
 
-
 ### -field cLogFiles
 
 If the component is a database, the number of database log file descriptors. Otherwise, the value of this 
       parameter is zero.
-
 
 ### -field cDependencies
 
@@ -252,10 +237,7 @@ The number of explicit writer-component dependencies of the current component. T
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponentdependency">IVssCreateWriterMetadata::AddComponentDependency</a> 
       is called by a writer.
 
-
 ## -remarks
-
-
 
 To obtain  <b>VSS_COMPONENTINFO</b> object for a given 
     component, a requester must first obtain the corresponding 
@@ -273,13 +255,7 @@ Because <b>VSS_COMPONENTINFO</b> is allocated and
     directly, but should use 
     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-freecomponentinfo">IVssWMComponent::FreeComponentInfo</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addcomponent">IVssCreateWriterMetadata::AddComponent</a>
 
@@ -306,7 +282,4 @@ Because <b>VSS_COMPONENTINFO</b> is allocated and
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

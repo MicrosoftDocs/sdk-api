@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 49112cff-9e61-4218-a013-5ae5eb58b534
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
-f1_keywords:
-- vswriter/IVssCreateExpressWriterMetadata
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateExpressWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateExpressWriterMetadata
+ - vswriter/IVssCreateExpressWriterMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateExpressWriterMetadata
 ---
 
 # IVssCreateExpressWriterMetadata class
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IVssCreateExpressWriterMetadata</b> interface is a COM interface containing methods to construct the Writer Metadata Document for an express writer.
 
 After it is constructed, the Writer Metadata Document is a read-only object that requesters query for information about a writer and its components.
-
 
 ## -inheritance
 
@@ -135,20 +134,13 @@ Specifies how an express writer's data is to be restored.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
- 
-
- 
 

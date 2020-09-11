@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_makewindowassociation.htm
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory interface [DXGI],MakeWindowAssociation method, IDXGIFactory.MakeWindowAssociation, IDXGIFactory::MakeWindowAssociation, MakeWindowAssociation, MakeWindowAssociation method [DXGI], MakeWindowAssociation method [DXGI],IDXGIFactory interface, cae30f32-d52e-b4d6-69fc-2b5a2a52afef, direct3ddxgi.idxgifactory_makewindowassociation, dxgi/IDXGIFactory::MakeWindowAssociation
-f1_keywords:
-- dxgi/IDXGIFactory.MakeWindowAssociation
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIFactory.MakeWindowAssociation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactory::MakeWindowAssociation
+ - dxgi/IDXGIFactory::MakeWindowAssociation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIFactory.MakeWindowAssociation
 ---
 
 # IDXGIFactory::MakeWindowAssociation
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows DXGI to monitor an application's message queue for the alt-enter key sequence (which causes the application to switch from windowed to full screen or vice versa).
 
-
 ## -parameters
-
-
-
 
 ### -param WindowHandle
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-The handle of the window that is to be monitored. This parameter can be <b>NULL</b>; but only if the flags are also 0. 
-
+The handle of the window that is to be monitored. This parameter can be <b>NULL</b>; but only if the flags are also 0.
 
 ### -param Flags
 
@@ -81,19 +76,12 @@ One or more of the following values:
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a> if <i>WindowHandle</i> is invalid, or E_OUTOFMEMORY.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  If you call this API in a Session 0 process, it returns <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a>.</div>
 <div> </div>
@@ -112,20 +100,11 @@ If a Windows Store app calls <b>MakeWindowAssociation</b>, it fails with <a href
 
 A Microsoft Win32 application can use <b>MakeWindowAssociation</b> to control full-screen transitions through the Alt+Enter key combination and print screen behavior for full screen.  For Windows Store apps, because DXGI can't perform full-screen transitions, a Windows Store app has no way to control full-screen transitions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
- 
-
- 
 

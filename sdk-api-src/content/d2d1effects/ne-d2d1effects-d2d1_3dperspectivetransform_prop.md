@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 12CD4038-7907-4E0E-8751-00E32EBA2A77
 ms.date: 12/05/2018
 ms.keywords: D2D1_3DPERSPECTIVETRANSFORM_PROP, D2D1_3DPERSPECTIVETRANSFORM_PROP enumeration [Direct2D], D2D1_3DPERSPECTIVETRANSFORM_PROP_BORDER_MODE, D2D1_3DPERSPECTIVETRANSFORM_PROP_DEPTH, D2D1_3DPERSPECTIVETRANSFORM_PROP_GLOBAL_OFFSET, D2D1_3DPERSPECTIVETRANSFORM_PROP_INTERPOLATION_MODE, D2D1_3DPERSPECTIVETRANSFORM_PROP_LOCAL_OFFSET, D2D1_3DPERSPECTIVETRANSFORM_PROP_PERSPECTIVE_ORIGIN, D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION, D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION_ORIGIN, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_BORDER_MODE, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_DEPTH, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_GLOBAL_OFFSET, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_LOCAL_OFFSET, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_PERSPECTIVE_ORIGIN, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION_ORIGIN, direct2d.d2d1_3dperspectivetransform_prop
-f1_keywords:
-- d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_3DPERSPECTIVETRANSFORM_PROP
 targetos: Windows
 req.typenames: D2D1_3DPERSPECTIVETRANSFORM_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_3DPERSPECTIVETRANSFORM_PROP
+ - d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_3DPERSPECTIVETRANSFORM_PROP
 ---
 
 # D2D1_3DPERSPECTIVETRANSFORM_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/3d-perspective-transform">3D perspective transform effect</a>.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_INTERPOLATION_MODE
 
@@ -68,7 +63,6 @@ Type is D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE.
 
 Default value is D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_LINEAR.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_BORDER_MODE
 
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
@@ -78,7 +72,6 @@ Type is D2D1_BORDER_MODE.
 
 Default value is D2D1_BORDER_MODE_SOFT.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_DEPTH
 
 The distance from the PerspectiveOrigin to the projection plane. The value specified in DIPs and must be greater than 0.
@@ -87,7 +80,6 @@ The distance from the PerspectiveOrigin to the projection plane. The value speci
 Type is FLOAT.
 
 Default value is 1000.0f.
-
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_PERSPECTIVE_ORIGIN
 
@@ -99,7 +91,6 @@ Type is D2D1_VECTOR_2F.
 
 Default value is {0.0f, 0.0f}.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_LOCAL_OFFSET
 
 A translation the effect performs before it rotates the projection plane. This property is a D2D1_VECTOR_3F defined as: (X, Y, Z). The units are in DIPs.
@@ -108,7 +99,6 @@ A translation the effect performs before it rotates the projection plane. This p
 Type is D2D1_VECTOR_3F.
 
 Default value is {0.0f, 0.0f, 0.0f}.
-
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_GLOBAL_OFFSET
 
@@ -119,7 +109,6 @@ Type is D2D1_VECTOR_3F.
 
 Default value is {0.0f, 0.0f, 0.0f}.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION_ORIGIN
 
 The center point of the rotation the effect performs. This property is a D2D1_VECTOR_3F defined as: (X, Y, Z). The units are in DIPs.
@@ -128,7 +117,6 @@ The center point of the rotation the effect performs. This property is a D2D1_VE
 Type is D2D1_VECTOR_3F.
 
 Default value is {0.0f, 0.0f, 0.0f}.
-
 
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION
 
@@ -139,8 +127,5 @@ Type is D2D1_VECTOR_3F.
 
 Default value is {0.0f, 0.0f, 0.0f}.
 
-
 ### -field D2D1_3DPERSPECTIVETRANSFORM_PROP_FORCE_DWORD
-
-
 

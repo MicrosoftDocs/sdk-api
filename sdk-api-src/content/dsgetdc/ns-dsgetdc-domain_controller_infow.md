@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 0c09fe26-ef53-48b1-8ac2-70ccb8f3e3e2
 ms.date: 12/05/2018
 ms.keywords: '*PDOMAIN_CONTROLLER_INFOW, DOMAIN_CONTROLLER_INFO, DOMAIN_CONTROLLER_INFO structure [Active Directory], DOMAIN_CONTROLLER_INFOA, DOMAIN_CONTROLLER_INFOW, DS_CLOSEST_FLAG, DS_DNS_CONTROLLER_FLAG, DS_DNS_DOMAIN_FLAG, DS_DNS_FOREST_FLAG, DS_DS_FLAG, DS_FULL_SECRET_DOMAIN_6_FLAG, DS_GC_FLAG, DS_GOOD_TIMESERV_FLAG, DS_INET_ADDRESS, DS_KDC_FLAG, DS_LDAP_FLAG, DS_NDNC_FLAG, DS_NETBIOS_ADDRESS, DS_PDC_FLAG, DS_SELECT_SECRET_DOMAIN_6_FLAG, DS_TIMESERV_FLAG, DS_WRITABLE_FLAG, PDOMAIN_CONTROLLER_INFO, PDOMAIN_CONTROLLER_INFO structure pointer [Active Directory], _glines_domain_controller_info, ad.domain__controller__info, ad.domain_controller_info, dsgetdc/DOMAIN_CONTROLLER_INFO, dsgetdc/DOMAIN_CONTROLLER_INFOA, dsgetdc/DOMAIN_CONTROLLER_INFOW, dsgetdc/PDOMAIN_CONTROLLER_INFO'
-f1_keywords:
-- dsgetdc/DOMAIN_CONTROLLER_INFO
-dev_langs:
-- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dsgetdc.h
-api_name:
-- DOMAIN_CONTROLLER_INFO
-- DOMAIN_CONTROLLER_INFOA
-- DOMAIN_CONTROLLER_INFOW
 targetos: Windows
 req.typenames: DOMAIN_CONTROLLER_INFOW, *PDOMAIN_CONTROLLER_INFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DOMAIN_CONTROLLER_INFOW
+ - dsgetdc/_DOMAIN_CONTROLLER_INFOW
+ - PDOMAIN_CONTROLLER_INFOW
+ - dsgetdc/PDOMAIN_CONTROLLER_INFOW
+ - DOMAIN_CONTROLLER_INFOW
+ - dsgetdc/DOMAIN_CONTROLLER_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dsgetdc.h
+api_name:
+ - DOMAIN_CONTROLLER_INFO
+ - DOMAIN_CONTROLLER_INFOA
+ - DOMAIN_CONTROLLER_INFOW
 ---
 
 # DOMAIN_CONTROLLER_INFOW structure
@@ -51,44 +56,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DOMAIN_CONTROLLER_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function to receive  data about a domain controller.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DomainControllerName.string
 
- 
-
-
 ### -field DomainControllerName.unique
-
- 
-
 
 ### -field DomainControllerName
 
 Pointer to a null-terminated string that specifies the computer name of the discovered domain controller. The returned computer name is prefixed with "\\". The DNS-style name, for example, "\\phoenix.fabrikam.com", is returned, if available. If the DNS-style name is not available, the flat-style name (for example, "\\phoenix") is returned. This example would apply if the domain is a Windows NT 4.0 domain or if the domain does not support the IP family of protocols.
 
-
 ### -field DomainControllerAddress.string
 
- 
-
-
 ### -field DomainControllerAddress.unique
-
- 
-
 
 ### -field DomainControllerAddress
 
 Pointer to a null-terminated string that specifies the address of the discovered domain controller. The address is prefixed with "\\". This string is one of the types defined by the <b>DomainControllerAddressType</b> member.
-
 
 ### -field DomainControllerAddressType
 
@@ -106,41 +92,25 @@ The address is a string IP address (for example, "\\157.55.94.74") of the domain
 
 The address is a NetBIOS name, for example, "\\phoenix", of the domain controller.
 
-
 ### -field DomainGuid
 
 The <b>GUID</b> of the domain. This member is zero if the domain controller does not have a Domain GUID; for example, the domain controller is not a Windows 2000 domain controller.
 
-
 ### -field DomainName.string
 
- 
-
-
 ### -field DomainName.unique
-
- 
-
 
 ### -field DomainName
 
 Pointer to a null-terminated string that specifies the name of the domain. The DNS-style name, for example, "fabrikam.com", is returned if available. Otherwise, the flat-style name, for example, "fabrikam", is returned. This name may be different than the requested domain name if the domain has been renamed.
 
-
 ### -field DnsForestName.string
 
- 
-
-
 ### -field DnsForestName.unique
-
- 
-
 
 ### -field DnsForestName
 
 Pointer to a null-terminated string that specifies the name of the domain at the root of the DS tree. The DNS-style name, for example, "fabrikam.com", is returned if available. Otherwise, the flat-style name, for example, "fabrikam" is returned.
-
 
 ### -field Flags
 
@@ -237,31 +207,17 @@ The domain controller is running the Windows Time Service for the domain.
 
 The domain controller hosts a writable directory service (or SAM).
 
-
 ### -field DcSiteName.string
 
- 
-
-
 ### -field DcSiteName.unique
-
- 
-
 
 ### -field DcSiteName
 
 Pointer to a null-terminated string that specifies the name of the site where the domain controller is located. This member may be <b>NULL</b> if the domain controller is not in a site; for example, the domain controller is a Windows NT 4.0 domain controller.
 
-
 ### -field ClientSiteName.string
 
- 
-
-
 ### -field ClientSiteName.unique
-
- 
-
 
 ### -field ClientSiteName
 
@@ -352,20 +308,13 @@ The domain controller is running the Windows Time Service for the domain.
 
 The domain controller hosts a writable directory service (or SAM).
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
- 
-
- 
 
 ## -remarks
 

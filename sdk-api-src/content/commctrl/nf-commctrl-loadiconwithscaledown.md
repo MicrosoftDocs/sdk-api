@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconwithscaledown.htm
 ms.date: 12/05/2018
 ms.keywords: IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO, LoadIconWithScaleDown, LoadIconWithScaleDown function [Windows Controls], _shell_LoadIconWithScaleDown, _shell_LoadIconWithScaleDown_cpp, commctrl/LoadIconWithScaleDown, controls.LoadIconWithScaleDown, controls._shell_LoadIconWithScaleDown
-f1_keywords:
-- commctrl/LoadIconWithScaleDown
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- LoadIconWithScaleDown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadIconWithScaleDown
+ - commctrl/LoadIconWithScaleDown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - LoadIconWithScaleDown
 ---
 
 # LoadIconWithScaleDown function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.
 
-
 ## -parameters
-
-
-
 
 ### -param hinst [in]
 
@@ -67,7 +63,6 @@ A handle to the module of either a DLL or executable (.exe) file that contains t
                     
 
 To load a predefined icon or a standalone icon file, set this parameter to <b>NULL</b>.
-
 
 ### -param pszName [in]
 
@@ -189,8 +184,6 @@ Security Shield icon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cx [in]
 
@@ -198,13 +191,11 @@ Type: <b>int</b>
 
 The desired width, in pixels, of the icon.
 
-
 ### -param cy [in]
 
 Type: <b>int</b>
 
 The desired height, in pixels, of the icon.
-
 
 ### -param phico [out]
 
@@ -212,10 +203,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 When this function returns, contains a pointer to the handle of the loaded icon.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -238,18 +226,10 @@ The contents of the buffer pointed to by <i>pszName</i> do not fit any of the ex
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function will first search the icon file for an icon having exactly the same size. If a match is not found, then unless both <i>cx</i> and <i>cy</i> match one of the standard icon sizes—16, 32, 48, or 256 pixels— the next largest icon is selected and then scaled down to the desired size. For example, if an icon with an x dimension of 40 pixels is requested by the callign application, the 48-pixel icon is used and scaled down to 40 pixels. In contrast, the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_loadimagea">LoadImage</a> function selects the 32-pixel icon and scales it up to 40 pixels.
 
 If the function is unable to locate a larger icon, it defaults to the standard behavior of finding the next smallest icon and scaling it up to the desired size.
-
-
 

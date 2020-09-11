@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a
 ms.date: 12/05/2018
 ms.keywords: ISharedProperty, ISharedProperty interface [COM+], ISharedProperty interface [COM+],described, _cos_ISharedProperty_Interface, comsvcs/ISharedProperty, cos.isharedproperty
-f1_keywords:
-- comsvcs/ISharedProperty
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISharedProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISharedProperty
+ - comsvcs/ISharedProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISharedProperty
 ---
 
 # ISharedProperty interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes property methods that you can use to set or retrieve the value of a shared property. A shared property can contain any data type that can be represented by a <b>Variant</b>.
-
-
 
 ## -inheritance
 
@@ -87,20 +85,13 @@ Sets the value of a shared property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>
- 
-
- 
 

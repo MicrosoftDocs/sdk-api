@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c4f958eb-b573-44e4-94e1-5ac422dd1a99
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],put_PlaybackSpeed method, IAMExtendedSeeking.put_PlaybackSpeed, IAMExtendedSeeking::put_PlaybackSpeed, IAMExtendedSeekingput_PlaybackSpeed, dshow.iamextendedseeking_put_playbackspeed, put_PlaybackSpeed, put_PlaybackSpeed method [DirectShow], put_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
-f1_keywords:
-- qnetwork/IAMExtendedSeeking.put_PlaybackSpeed
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMExtendedSeeking.put_PlaybackSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtendedSeeking::put_PlaybackSpeed
+ - qnetwork/IAMExtendedSeeking::put_PlaybackSpeed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMExtendedSeeking.put_PlaybackSpeed
 ---
 
 # IAMExtendedSeeking::put_PlaybackSpeed
@@ -49,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_PlaybackSpeed</code> method specifies the playback speed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Speed [in]
 
 Specifies the playback speed. The value may be positive or negative, but not zero.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_playbackspeed">IAMExtendedSeeking::get_PlaybackSpeed</a>
- 
-
- 
 

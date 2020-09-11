@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
 ms.date: 12/05/2018
 ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
-f1_keywords:
-- unknwn/IClassFactory.LockServer
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- unknwnbase.h
-api_name:
-- IClassFactory.LockServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClassFactory::LockServer
+ - unknwn/IClassFactory::LockServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - unknwnbase.h
+api_name:
+ - IClassFactory.LockServer
 ---
 
 ## -description
@@ -75,3 +76,4 @@ The process that locks the object application is responsible for unlocking it. A
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
+

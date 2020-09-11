@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: CB533913-95A7-45D5-B0D3-E931E4F73B2E
 ms.date: 12/05/2018
 ms.keywords: AccNotifyTouchInteraction, AccNotifyTouchInteraction function [Windows Accessibility], oleacc/AccNotifyTouchInteraction, winauto.accnotifytouchinteraction
-f1_keywords:
-- oleacc/AccNotifyTouchInteraction
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Oleacc.dll
-api_name:
-- AccNotifyTouchInteraction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AccNotifyTouchInteraction
+ - oleacc/AccNotifyTouchInteraction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Oleacc.dll
+api_name:
+ - AccNotifyTouchInteraction
 ---
 
 # AccNotifyTouchInteraction function
@@ -49,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows an assistive technology (AT) application to notify the system that it is interacting with UI through a Windows Automation API (such as Microsoft UI Automation) as a result of a touch gesture from the user. This allows the assistive technology to notify the target application and the system that the user is interacting with touch.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndApp [in]
 
 A window that belongs to the AT process that is calling <b>AccNotifyTouchInteraction</b>.
 
-
 ### -param hwndTarget [in]
 
 The nearest window of the automation element that the AT is targeting.
-
 
 ### -param ptTarget [in]
 
 The center point of the automation element (or a point in the bounding rectangle of the element).
 
-
 ## -returns
-
-
 
 If successful, returns S_OK.
 
 If not successful, returns a standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function requires the calling process to have UIAccess or higher privileges.  If the caller does not have the required privileges, the call to <b>AccNotifyTouchInteraction</b> fails and returns <b>E_ACCESSDENIED</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-securityoverview">Security Considerations for Assistive Technologies</a> and <a href="https://msdn.microsoft.com/library/bb384691.aspx">/MANIFESTUAC (Embeds UAC information in manifest)</a>.
 
@@ -139,14 +125,7 @@ HRESULT PerformTouchBasedInteraction(IUIAutomationElement *pTargetElement,
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accsetrunningutilitystate">AccSetRunningUtilityState</a>
 
@@ -157,7 +136,4 @@ HRESULT PerformTouchBasedInteraction(IUIAutomationElement *pTargetElement,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterpointerinputtarget">UnregisterPointerInputTarget</a>
- 
-
- 
 

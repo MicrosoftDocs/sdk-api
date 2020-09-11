@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 4a199ad3-621e-4594-a9f8-ad6cfd560cec
 ms.date: 12/05/2018
 ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor interface [Media Foundation],VideoProcessBlt method, IDirectXVideoProcessor.VideoProcessBlt, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation],IDirectXVideoProcessor interface, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
-f1_keywords:
-- dxva2api/IDirectXVideoProcessor.VideoProcessBlt
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoProcessor.VideoProcessBlt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoProcessor::VideoProcessBlt
+ - dxva2api/IDirectXVideoProcessor::VideoProcessBlt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoProcessor.VideoProcessBlt
 ---
 
 # IDirectXVideoProcessor::VideoProcessBlt
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a video process operation on one or more input samples and writes the result to a Direct3D9 surface.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pRenderTarget [in]
 
@@ -76,8 +71,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9hel
 ### -param pBltParams [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure that describes the video processing operation to perform.
-          
-
 
 ### -param pSamples [in]
 
@@ -85,22 +78,15 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 The maximum number of input samples is given by the constant <b>MAX_DEINTERLACE_SURFACES</b>, defined in the header file dxva2api.h.
 
-
 ### -param NumSamples [in]
 
 The number of elements in the <i>pSamples</i> array.
-          
-
 
 ### -param pHandleComplete [out]
 
 Reserved; set to <b>NULL</b>.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -144,14 +130,8 @@ Invalid arguments.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the method returns, the operation might not be complete.
       
@@ -179,12 +159,7 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 <li> For all rectangles (source, destination, and target),  the rectangle cannot be inverted (left &gt; right or top &gt; bottom) or have negative values.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
 
@@ -195,7 +170,4 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor">IDirectXVideoProcessor</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba
 ms.date: 12/05/2018
 ms.keywords: RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, _win32_regdeletekey, base.regdeletekey, winreg/RegDeleteKey, winreg/RegDeleteKeyA, winreg/RegDeleteKeyW
-f1_keywords:
-- winreg/RegDeleteKey
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Deprecated-apis-advapi-l1-1-0.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-- kernel32.dll
-api_name:
-- RegDeleteKey
-- RegDeleteKeyA
-- RegDeleteKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegDeleteKeyA
+ - winreg/RegDeleteKeyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Deprecated-apis-advapi-l1-1-0.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+ - kernel32.dll
+api_name:
+ - RegDeleteKey
+ - RegDeleteKeyA
+ - RegDeleteKeyW
 ---
 
 # RegDeleteKeyA function
@@ -56,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a subkey and its values. Note that key names are not case sensitive.
 
 <b>64-bit Windows:  </b>On WOW64, 32-bit applications view a registry tree that is separate from the registry tree that 64-bit applications view. To enable an application to delete an entry in the alternate registry view, use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeyexa">RegDeleteKeyEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -83,8 +79,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpSubKey [in]
 
 The name of the key to be deleted. It must be a subkey of the key that <i>hKey</i> identifies, but it cannot have subkeys. This parameter cannot be <b>NULL</b>.
@@ -96,22 +90,14 @@ Key names are not case sensitive.
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. To get a generic description of the error, you can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag.
 
-
-
-
 ## -remarks
-
-
 
 A deleted key is not removed until the last handle to it is closed.
 
@@ -133,9 +119,6 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 > The winreg.h header defines RegDeleteKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
@@ -166,7 +149,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shdeletekeya">SHDeleteKey</a>
- 
-
- 
 

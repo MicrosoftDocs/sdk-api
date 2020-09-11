@@ -8,10 +8,6 @@ tech.root: NAP
 ms.assetid: adcc7238-d1c1-4d8c-b496-d2925bed0123
 ms.date: 12/05/2018
 ms.keywords: NapComponentRegistrationInfo, NapComponentRegistrationInfo structure [NAP], nap.napcomponentregistrationinfo_struct, naptypes/NapComponentRegistrationInfo
-f1_keywords:
-- naptypes/NapComponentRegistrationInfo
-dev_langs:
-- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NapTypes.h
-api_name:
-- NapComponentRegistrationInfo
 targetos: Windows
 req.typenames: NapComponentRegistrationInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNapComponentRegistrationInfo
+ - naptypes/tagNapComponentRegistrationInfo
+ - NapComponentRegistrationInfo
+ - naptypes/NapComponentRegistrationInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NapTypes.h
+api_name:
+ - NapComponentRegistrationInfo
 ---
 
 # NapComponentRegistrationInfo structure
@@ -49,39 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>NapComponentRegistrationInfo</b> structure defines a registered NAP component such as a SHA, SHV, or enforcement client.
 
-
 ## -struct-fields
-
-
-
 
 ### -field id
 
 A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">NapComponentId</a> value that contains the unique identifier of the component.
 
-
 ### -field friendlyName
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the friendly (human-readable) name of the component.
-
 
 ### -field description
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains a description of the component.
 
-
 ### -field version
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the version of the component.
 
-
 ### -field vendorName
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a> structure that contains the vendor name for the component.
-
 
 ### -field infoClsid
 
@@ -93,7 +86,6 @@ The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a>of the C
 Currently, enforcement clients do not need to
    provide a valid <i>infoClsid</i>.
 
-
 ### -field configClsid
 
 The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a> of the COM object that implements
@@ -102,11 +94,9 @@ The <a href="https://msdn.microsoft.com/library/ms691424.aspx">CLSID</a> of the 
 Currently, SHAs and enforcement clients do not need to
    provide a valid <i>configClsid</i>.
 
-
 ### -field registrationDate
 
 A <a href="https://msdn.microsoft.com/library/ms724284.aspx">FILETIME</a> structure that contains the registration information date.
-
 
 ### -field componentType
 
@@ -116,10 +106,7 @@ For enforcement clients this value should be either  <a href="https://docs.micro
 
 Currently, <i>componentType</i> is ignored for SHAs and SHVs and should be set to 0x00000000.
 
-
 ## -remarks
-
-
 
 This registration information is not localized, it is provided in US-English only.
 
@@ -128,13 +115,7 @@ When NAP components are registered through the registration APIs, the <i>registr
 When information about registered NAP
    components is retrieved, if there is no valid <i>infoClsid</i>,  <i>configClsid</i>, or <i>registrationDate</i>, they are set to 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-countedstring">CountedString</a>
 
@@ -149,7 +130,4 @@ When information about registered NAP
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
- 
-
- 
 

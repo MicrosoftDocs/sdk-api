@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
-f1_keywords:
-- aclapi/GetEffectiveRightsFromAcl
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-security-trustee-l1-1-1.dll
-- advapi32legacy.dll
-api_name:
-- GetEffectiveRightsFromAcl
-- GetEffectiveRightsFromAclA
-- GetEffectiveRightsFromAclW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetEffectiveRightsFromAclA
+ - aclapi/GetEffectiveRightsFromAclA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-security-trustee-l1-1-1.dll
+ - advapi32legacy.dll
+api_name:
+ - GetEffectiveRightsFromAcl
+ - GetEffectiveRightsFromAclA
+ - GetEffectiveRightsFromAclW
 ---
 
 # GetEffectiveRightsFromAclA function
@@ -53,50 +54,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>GetEffectiveRightsFromAcl</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the method demonstrated in the example below.]
 
 The <b>GetEffectiveRightsFromAcl</b> function retrieves the effective access rights that an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure grants to a specified trustee. The trustee's effective access rights are the access rights that the <b>ACL</b> grants to the trustee or to any groups of which the trustee is a member.
 
-
 ## -parameters
-
-
-
 
 ### -param pacl [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure from which to get the trustee's effective access rights.
 
-
 ### -param pTrustee [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that identifies the trustee. A trustee can be a user, group, or program (such as a Windows service). You can use a name or a security identifier (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>) to identify a trustee.
-
 
 ### -param pAccessRights [out]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> variable that receives the effective access rights of the trustee.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetEffectiveRightsFromAcl</b> function checks all access-allowed and access-denied <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) to determine the effective rights for the trustee. For all ACEs that allow or deny rights to a group, <b>GetEffectiveRightsFromAcl</b> enumerates the members of the group to determine whether the trustee is a member. The function returns an error if it cannot enumerate the members of a group.
 
@@ -412,9 +398,6 @@ void wmain(int argc, wchar_t *argv[])
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
@@ -452,7 +435,4 @@ void wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
 

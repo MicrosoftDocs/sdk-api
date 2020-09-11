@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 807834cc-0f52-43f6-a3b3-06591ba68c15
 ms.date: 12/05/2018
 ms.keywords: IEnumEnhancedStorageACT, IEnumEnhancedStorageACT interface [Enhanced Storage], IEnumEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnumEnhancedStorageACT, enstor.ienumenhancedstorageact
-f1_keywords:
-- ehstorapi/IEnumEnhancedStorageACT
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnumEnhancedStorageACT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumEnhancedStorageACT
+ - ehstorapi/IEnumEnhancedStorageACT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnumEnhancedStorageACT
 ---
 
 # IEnumEnhancedStorageACT interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface as the top level enumerator for all IEEE 1667 Addressable Contact Targets (ACT).
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Returns the ACT associated with the volume specified via a string supplied by th
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 02d1e400-9959-4c68-ad8e-bc1700205179
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_AntiClogControl method, IAMExtTransport.put_AntiClogControl, IAMExtTransport::put_AntiClogControl, IAMExtTransportput_AntiClogControl, dshow.iamexttransport_put_anticlogcontrol, put_AntiClogControl, put_AntiClogControl method [DirectShow], put_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_AntiClogControl
-f1_keywords:
-- strmif/IAMExtTransport.put_AntiClogControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.put_AntiClogControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::put_AntiClogControl
+ - strmif/IAMExtTransport::put_AntiClogControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.put_AntiClogControl
 ---
 
 # IAMExtTransport::put_AntiClogControl
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_AntiClogControl</code> method enables or disables anti-headclog control on the transport.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param Enable [in]
 
@@ -84,21 +79,12 @@ Specifies whether to enable anti-headclog control.
 <td>Disable transport anti-headclog control.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Use this method to unclog video heads on VCRs that have an automatic head-cleaning feature.
 
@@ -106,13 +92,7 @@ Use this method to unclog video heads on VCRs that have an automatic head-cleani
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -123,7 +103,4 @@ Use this method to unclog video heads on VCRs that have an automatic head-cleani
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_anticlogcontrol">IAMExtTransport::get_AntiClogControl</a>
- 
-
- 
 

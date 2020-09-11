@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: aadac00b-47bb-42eb-8458-b23867f6b975
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkInfo, IOleUILinkInfo interface [COM], IOleUILinkInfo interface [COM],described, IOleUILinkInfoA, IOleUILinkInfoW, _ole_IOleUILinkInfo, com.ioleuilinkinfo, oledlg/IOleUILinkInfo
-f1_keywords:
-- oledlg/IOleUILinkInfo
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleDlg.h
-api_name:
-- IOleUILinkInfo
-- IOleUILinkInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUILinkInfoW
+ - oledlg/IOleUILinkInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleDlg.h
+api_name:
+ - IOleUILinkInfo
+ - IOleUILinkInfoW
 ---
 
 # IOleUILinkInfoW interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An extension of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface. It returns the time that an object was last updated, which is link information that <b>IOleUILinkContainer</b> does not provide.
-
 
 ## -inheritance
 
@@ -78,18 +77,11 @@ Determines the last time the object was updated.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
- 
-
- 
 
 ## -remarks
 

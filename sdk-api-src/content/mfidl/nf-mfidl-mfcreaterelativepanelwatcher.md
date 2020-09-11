@@ -34,6 +34,7 @@ api_location:
 api_name:
  - MFCreateRelativePanelWatcher
 f1_keywords:
+ - MFCreateRelativePanelWatcher
  - mfidl/MFCreateRelativePanelWatcher
 dev_langs:
  - c++
@@ -64,8 +65,6 @@ The function returns an **HRESULT**. Possible values include, but are not limite
 | Return code | Description |
 |--------------|------------------------|
 |S_OK | The function succeeded.|
-
-
 
 ## -remarks
 

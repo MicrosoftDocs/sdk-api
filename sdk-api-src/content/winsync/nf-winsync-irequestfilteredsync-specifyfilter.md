@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 653e953f-3f08-4d65-85d5-3c5466361ea5
 ms.date: 12/05/2018
 ms.keywords: IRequestFilteredSync interface [Windows Sync],SpecifyFilter method, IRequestFilteredSync.SpecifyFilter, IRequestFilteredSync::SpecifyFilter, SpecifyFilter, SpecifyFilter method [Windows Sync], SpecifyFilter method [Windows Sync],IRequestFilteredSync interface, winsync.irequestfilteredsync_specifyfilter, winsync/IRequestFilteredSync::SpecifyFilter
-f1_keywords:
-- winsync/IRequestFilteredSync.SpecifyFilter
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRequestFilteredSync.SpecifyFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRequestFilteredSync::SpecifyFilter
+ - winsync/IRequestFilteredSync::SpecifyFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRequestFilteredSync.SpecifyFilter
 ---
 
 # IRequestFilteredSync::SpecifyFilter
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 When implemented by a derived class, negotiates which filter is used by the source provider during change enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
 The callback interface that is used by the destination provider to request that a filter be used by the source provider during change enumeration.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -94,14 +87,8 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Filter negotiation is achieved by using the following steps:
 
@@ -119,12 +106,7 @@ When a filter has been successfully negotiated, the source provider uses it to d
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifilterrequestcallback">IFilterRequestCallback Interface</a>
 
@@ -135,7 +117,4 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportfilteredsync">ISupportFilteredSync Interface</a>
- 
-
- 
 

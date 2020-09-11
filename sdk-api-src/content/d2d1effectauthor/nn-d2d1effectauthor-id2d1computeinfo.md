@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 0560BB4B-B837-4DA8-AD68-545224152BA5
 ms.date: 12/05/2018
 ms.keywords: ID2D1ComputeInfo, ID2D1ComputeInfo interface [Direct2D], ID2D1ComputeInfo interface [Direct2D],described, d2d1effectauthor/ID2D1ComputeInfo, direct2d.id2d1computeinfo
-f1_keywords:
-- d2d1effectauthor/ID2D1ComputeInfo
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1ComputeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1ComputeInfo
+ - d2d1effectauthor/ID2D1ComputeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1ComputeInfo
 ---
 
 # ID2D1ComputeInfo interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables specification of information for a compute-shader rendering pass.
-
 
 ## -inheritance
 
@@ -96,14 +95,9 @@ Sets the resource texture corresponding to the given shader texture index to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The transform changes the state on this render information to specify the compute shader and its dependent resources.
-
-
 

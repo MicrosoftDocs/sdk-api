@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC],described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
-f1_keywords:
-- gpmgmt/IGPMSecurityInfo
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSecurityInfo
-- IGPMSecurityInfo.Item
-- IGPMSecurityInfo.get_Item
-- GPMSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSecurityInfo
+ - gpmgmt/IGPMSecurityInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSecurityInfo
+ - IGPMSecurityInfo.Item
+ - IGPMSecurityInfo.get_Item
+ - GPMSecurityInfo
 ---
 
 # IGPMSecurityInfo interface
@@ -52,12 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IGPMSecurityInfo</b> interface defines the methods of 
     the <b>GPMSecurityInfo</b> collection. This collection 
     represents a set of policy-related permissions that can be set on a particular object, such as a scope of 
     management (SOM), a GPO, or a WMI filter.
-
 
 ## -inheritance
 
@@ -162,12 +161,9 @@ Retrieves a specific <a href="https://docs.microsoft.com/previous-versions/windo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The interface divides the policy-related permissions into categories. The following table lists the categories, 
      permissions included in the categories, and the object to which they can be applied.
@@ -284,13 +280,7 @@ The <b>GPMSecurityInfo</b> collection represents a
 For more information about policy-related permissions, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -301,7 +291,4 @@ For more information about policy-related permissions, see
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 42e50e99-a5ef-40b7-b6ef-c86272d1cd0d
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RootStoreTypeWStr property, IEnroll.RootStoreTypeWStr, IEnroll.put_RootStoreTypeWStr, IEnroll::RootStoreTypeWStr, IEnroll::get_RootStoreTypeWStr, IEnroll::put_RootStoreTypeWStr, RootStoreTypeWStr property [Security], RootStoreTypeWStr property [Security],IEnroll interface, put_RootStoreTypeWStr, security.ienroll4_rootstoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::RootStoreTypeWStr, xenroll/IEnroll::get_RootStoreTypeWStr, xenroll/IEnroll::put_RootStoreTypeWStr
-f1_keywords:
-- xenroll/IEnroll.RootStoreTypeWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.RootStoreTypeWStr
-- IEnroll.get_RootStoreTypeWStr
-- IEnroll.put_RootStoreTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_RootStoreTypeWStr
+ - xenroll/IEnroll::put_RootStoreTypeWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.RootStoreTypeWStr
+ - IEnroll.get_RootStoreTypeWStr
+ - IEnroll.put_RootStoreTypeWStr
 ---
 
 # IEnroll::put_RootStoreTypeWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -61,14 +61,9 @@ The default value for this property is sz_CERT_STORE_PROV_SYSTEM. Only system st
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 <b>RootStoreTypeWStr</b> affects the behavior of the following methods:
 
@@ -81,17 +76,7 @@ This property is read/write.
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

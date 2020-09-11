@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 4fc2ccbe-1b01-4157-b3e7-2c61397d78f7
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqsEx, RpcServerUseAllProtseqsEx function [RPC], _rpc_rpcserveruseallprotseqsex, rpc.rpcserveruseallprotseqsex, rpcdce/RpcServerUseAllProtseqsEx
-f1_keywords:
-- rpcdce/RpcServerUseAllProtseqsEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseAllProtseqsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseAllProtseqsEx
+ - rpcdce/RpcServerUseAllProtseqsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseAllProtseqsEx
 ---
 
 # RpcServerUseAllProtseqsEx function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseAllProtseqsEx</b> function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param MaxCalls
 
 Backlog queue length for the <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
 
-
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the security subsystem. Used only for <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a> and <a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
-
 
 ### -param Policy
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which allows you to override the default policies for dynamic port allocation and binding to network interface cards (NICs) on multihomed computers (computers with multiple network cards).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -135,11 +126,7 @@ The security descriptor is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Listening on all supported protocol sequences is not recommended, because it causes the server to listen on all protocol sequences, including non-mainstream protocol sequences.  It is recommended that servers listen on <a href="https://docs.microsoft.com/windows/desktop/Rpc/use-mainstream-protocol-sequences">mainstream</a> protocol sequences only.</div>
 <div> </div>
@@ -200,13 +187,7 @@ To selectively register protocol sequences, a server calls
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex">RpcServerUseProtseqEpEx</a>. See 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a> for a description of the routines that a server will typically call after registering protocol sequences.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations
 		  and Selective Binding</a>
@@ -226,7 +207,4 @@ To selectively register protocol sequences, a server calls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
- 
-
- 
 

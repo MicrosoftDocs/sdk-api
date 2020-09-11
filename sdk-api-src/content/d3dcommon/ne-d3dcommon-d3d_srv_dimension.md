@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 6f3c2429-83be-44cd-89bb-b074bfa084e3
 ms.date: 12/05/2018
 ms.keywords: D3D10_1_SRV_DIMENSION_BUFFER, D3D10_1_SRV_DIMENSION_TEXTURE1D, D3D10_1_SRV_DIMENSION_TEXTURE1DARRAY, D3D10_1_SRV_DIMENSION_TEXTURE2D, D3D10_1_SRV_DIMENSION_TEXTURE2DARRAY, D3D10_1_SRV_DIMENSION_TEXTURE2DMS, D3D10_1_SRV_DIMENSION_TEXTURE2DMSARRAY, D3D10_1_SRV_DIMENSION_TEXTURE3D, D3D10_1_SRV_DIMENSION_TEXTURECUBE, D3D10_1_SRV_DIMENSION_TEXTURECUBEARRAY, D3D10_1_SRV_DIMENSION_UNKNOWN, D3D10_SRV_DIMENSION_BUFFER, D3D10_SRV_DIMENSION_TEXTURE1D, D3D10_SRV_DIMENSION_TEXTURE1DARRAY, D3D10_SRV_DIMENSION_TEXTURE2D, D3D10_SRV_DIMENSION_TEXTURE2DARRAY, D3D10_SRV_DIMENSION_TEXTURE2DMS, D3D10_SRV_DIMENSION_TEXTURE2DMSARRAY, D3D10_SRV_DIMENSION_TEXTURE3D, D3D10_SRV_DIMENSION_TEXTURECUBE, D3D10_SRV_DIMENSION_UNKNOWN, D3D11_SRV_DIMENSION_BUFFER, D3D11_SRV_DIMENSION_BUFFEREX, D3D11_SRV_DIMENSION_TEXTURE1D, D3D11_SRV_DIMENSION_TEXTURE1DARRAY, D3D11_SRV_DIMENSION_TEXTURE2D, D3D11_SRV_DIMENSION_TEXTURE2DARRAY, D3D11_SRV_DIMENSION_TEXTURE2DMS, D3D11_SRV_DIMENSION_TEXTURE2DMSARRAY, D3D11_SRV_DIMENSION_TEXTURE3D, D3D11_SRV_DIMENSION_TEXTURECUBE, D3D11_SRV_DIMENSION_TEXTURECUBEARRAY, D3D11_SRV_DIMENSION_UNKNOWN, D3D_SRV_DIMENSION, D3D_SRV_DIMENSION enumeration [Direct3D 11], D3D_SRV_DIMENSION_BUFFER, D3D_SRV_DIMENSION_BUFFEREX, D3D_SRV_DIMENSION_TEXTURE1D, D3D_SRV_DIMENSION_TEXTURE1DARRAY, D3D_SRV_DIMENSION_TEXTURE2D, D3D_SRV_DIMENSION_TEXTURE2DARRAY, D3D_SRV_DIMENSION_TEXTURE2DMS, D3D_SRV_DIMENSION_TEXTURE2DMSARRAY, D3D_SRV_DIMENSION_TEXTURE3D, D3D_SRV_DIMENSION_TEXTURECUBE, D3D_SRV_DIMENSION_TEXTURECUBEARRAY, D3D_SRV_DIMENSION_UNKNOWN, d3dcommon/D3D10_1_SRV_DIMENSION_BUFFER, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE1D, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE1DARRAY, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE2D, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE2DARRAY, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE2DMS, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE2DMSARRAY, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURE3D, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURECUBE, d3dcommon/D3D10_1_SRV_DIMENSION_TEXTURECUBEARRAY, d3dcommon/D3D10_1_SRV_DIMENSION_UNKNOWN, d3dcommon/D3D10_SRV_DIMENSION_BUFFER, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE1D, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE1DARRAY, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE2D, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE2DARRAY, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE2DMS, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE2DMSARRAY, d3dcommon/D3D10_SRV_DIMENSION_TEXTURE3D, d3dcommon/D3D10_SRV_DIMENSION_TEXTURECUBE, d3dcommon/D3D10_SRV_DIMENSION_UNKNOWN, d3dcommon/D3D11_SRV_DIMENSION_BUFFER, d3dcommon/D3D11_SRV_DIMENSION_BUFFEREX, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE1D, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE1DARRAY, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE2D, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE2DARRAY, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE2DMS, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE2DMSARRAY, d3dcommon/D3D11_SRV_DIMENSION_TEXTURE3D, d3dcommon/D3D11_SRV_DIMENSION_TEXTURECUBE, d3dcommon/D3D11_SRV_DIMENSION_TEXTURECUBEARRAY, d3dcommon/D3D11_SRV_DIMENSION_UNKNOWN, d3dcommon/D3D_SRV_DIMENSION, d3dcommon/D3D_SRV_DIMENSION_BUFFER, d3dcommon/D3D_SRV_DIMENSION_BUFFEREX, d3dcommon/D3D_SRV_DIMENSION_TEXTURE1D, d3dcommon/D3D_SRV_DIMENSION_TEXTURE1DARRAY, d3dcommon/D3D_SRV_DIMENSION_TEXTURE2D, d3dcommon/D3D_SRV_DIMENSION_TEXTURE2DARRAY, d3dcommon/D3D_SRV_DIMENSION_TEXTURE2DMS, d3dcommon/D3D_SRV_DIMENSION_TEXTURE2DMSARRAY, d3dcommon/D3D_SRV_DIMENSION_TEXTURE3D, d3dcommon/D3D_SRV_DIMENSION_TEXTURECUBE, d3dcommon/D3D_SRV_DIMENSION_TEXTURECUBEARRAY, d3dcommon/D3D_SRV_DIMENSION_UNKNOWN, direct3d11.d3d_srv_dimension
-f1_keywords:
-- d3dcommon/D3D_SRV_DIMENSION
-dev_langs:
-- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3DCommon.h
-api_name:
-- D3D_SRV_DIMENSION
 targetos: Windows
 req.typenames: D3D_SRV_DIMENSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D_SRV_DIMENSION
+ - d3dcommon/D3D_SRV_DIMENSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3DCommon.h
+api_name:
+ - D3D_SRV_DIMENSION
 ---
 
 ## -description
@@ -125,154 +126,119 @@ The resource is a 2D texture.
 
 The resource is an array of 2D textures.
 
-
 ### -field D3D10_SRV_DIMENSION_TEXTURE2DMS
 
 The resource is a multisampling 2D texture.
-
 
 ### -field D3D10_SRV_DIMENSION_TEXTURE2DMSARRAY
 
 The resource is an array of multisampling 2D textures.
 
-
 ### -field D3D10_SRV_DIMENSION_TEXTURE3D
 
 The resource is a 3D texture.
-
 
 ### -field D3D10_SRV_DIMENSION_TEXTURECUBE
 
 The resource is a cube texture.
 
-
 ### -field D3D10_1_SRV_DIMENSION_UNKNOWN
 
 The type is unknown.
-
 
 ### -field D3D10_1_SRV_DIMENSION_BUFFER
 
 The resource is a buffer.
 
-
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE1D
 
 The resource is a 1D texture.
-
 
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE1DARRAY
 
 The resource is an array of 1D textures.
 
-
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE2D
 
 The resource is a 2D texture.
-
 
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE2DARRAY
 
 The resource is an array of 2D textures.
 
-
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE2DMS
 
 The resource is a multisampling 2D texture.
-
 
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE2DMSARRAY
 
 The resource is an array of multisampling 2D textures.
 
-
 ### -field D3D10_1_SRV_DIMENSION_TEXTURE3D
 
 The resource is a 3D texture.
-
 
 ### -field D3D10_1_SRV_DIMENSION_TEXTURECUBE
 
 The resource is a cube texture.
 
-
 ### -field D3D10_1_SRV_DIMENSION_TEXTURECUBEARRAY
 
 The resource is an array of cube textures.
-
 
 ### -field D3D11_SRV_DIMENSION_UNKNOWN
 
 The type is unknown.
 
-
 ### -field D3D11_SRV_DIMENSION_BUFFER
 
 The resource is a buffer.
-
 
 ### -field D3D11_SRV_DIMENSION_TEXTURE1D
 
 The resource is a 1D texture.
 
-
 ### -field D3D11_SRV_DIMENSION_TEXTURE1DARRAY
 
 The resource is an array of 1D textures.
-
 
 ### -field D3D11_SRV_DIMENSION_TEXTURE2D
 
 The resource is a 2D texture.
 
-
 ### -field D3D11_SRV_DIMENSION_TEXTURE2DARRAY
 
 The resource is an array of 2D textures.
-
 
 ### -field D3D11_SRV_DIMENSION_TEXTURE2DMS
 
 The resource is a multisampling 2D texture.
 
-
 ### -field D3D11_SRV_DIMENSION_TEXTURE2DMSARRAY
 
 The resource is an array of multisampling 2D textures.
-
 
 ### -field D3D11_SRV_DIMENSION_TEXTURE3D
 
 The resource is a 3D texture.
 
-
 ### -field D3D11_SRV_DIMENSION_TEXTURECUBE
 
 The resource is a cube texture.
-
 
 ### -field D3D11_SRV_DIMENSION_TEXTURECUBEARRAY
 
 The resource is an array of cube textures.
 
-
 ### -field D3D11_SRV_DIMENSION_BUFFEREX
 
 The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
-
 ## -remarks
-
-
 
 A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> member of the <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure or the  <b>Dimension</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
+

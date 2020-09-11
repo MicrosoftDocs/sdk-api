@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 40695c7c-7381-44c0-b41f-7c838c9c83b5
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditPropertySet method, IAMExtTransport.SetEditPropertySet, IAMExtTransport::SetEditPropertySet, IAMExtTransportSetEditPropertySet, SetEditPropertySet, SetEditPropertySet method [DirectShow], SetEditPropertySet method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditpropertyset, strmif/IAMExtTransport::SetEditPropertySet
-f1_keywords:
-- strmif/IAMExtTransport.SetEditPropertySet
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.SetEditPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::SetEditPropertySet
+ - strmif/IAMExtTransport::SetEditPropertySet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.SetEditPropertySet
 ---
 
 # IAMExtTransport::SetEditPropertySet
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetEditPropertySet</code> method registers an edit property set that describes a group of edit properties.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param pEditID [in, out]
 
 Pointer to a <b>long</b> integer that specifies or receives an identifier for the edit property set.
-
 
 ### -param State [in]
 
@@ -101,19 +95,11 @@ Specifies the state of the edit property set.
 
 If the value is ED_REGISTER, the <i>pEditID</i> parameter receives an identifier for the edit property set. For the other flags, use the <i>pEditID</i> parameter to specify the identifier.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 An <i>edit event</i> is a set of parameters that define a recording sequence. For example, the parameters can specify editing modes, inpoints and outpoints, or seek positions. Each edit event consists of one or more parameters, called <i>edit properties</i>. The collection of properties is called an <i>edit property set</i>. Each edit property set is identified by a <b>long</b> integer, assigned by the device filter.
 
@@ -165,13 +151,7 @@ SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE);
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -182,7 +162,4 @@ SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditpropertyset">IAMExtTransport::GetEditPropertySet</a>
- 
-
- 
 

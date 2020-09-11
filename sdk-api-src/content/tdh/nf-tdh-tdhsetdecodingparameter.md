@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 00a286f4-cf0f-46d5-a797-bb7494a68034
 ms.date: 12/05/2018
 ms.keywords: TdhSetDecodingParameter, TdhSetDecodingParameter function [ETW], etw.tdhsetdecodingparameter, tdh/TdhSetDecodingParameter
-f1_keywords:
-- tdh/TdhSetDecodingParameter
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
-api_name:
-- TdhSetDecodingParameter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhSetDecodingParameter
+ - tdh/TdhSetDecodingParameter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+api_name:
+ - TdhSetDecodingParameter
 ---
 
 # TdhSetDecodingParameter function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value of a  decoding parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [in]
 
@@ -65,17 +61,13 @@ Type: <b>TDH_HANDLE</b>
 
 A valid decoding handle.
 
-
 ### -param TdhContext [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">PTDH_CONTEXT</a></b>
 
 Array of context values. The array must not contain duplicate context types.
 
-
 ## -returns
-
-
 
 Type: <b>ULONG</b>
 
@@ -109,22 +101,12 @@ Memory allocations failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhopendecodinghandle">TdhOpenDecodingHandle</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5b496028-57db-447e-8c5c-76b7ea0fa4ee
 ms.date: 12/05/2018
 ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.UnmarshalInterface, IMarshal::UnmarshalInterface, UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM],IMarshal interface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
-f1_keywords:
-- objidl/IMarshal.UnmarshalInterface
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMarshal.UnmarshalInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMarshal::UnmarshalInterface
+ - objidl/IMarshal::UnmarshalInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMarshal.UnmarshalInterface
 ---
 
 # IMarshal::UnmarshalInterface
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unmarshals an interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param pStm [in]
 
 A pointer to the stream from which the interface pointer is to be unmarshaled.
 
-
 ### -param riid [in]
 
 A reference to the identifier of the interface to be unmarshaled.
-
 
 ### -param ppv [out]
 
 The address of pointer variable that receives the interface pointer. Upon successful return, *<i>ppv</i> contains the requested interface pointer of the interface to be unmarshaled.
 
-
 ## -returns
-
-
 
 This method can return the standard return value E_FAIL, as well as the following values.
 
@@ -107,14 +98,8 @@ The specified interface is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The COM library in the process where unmarshaling is to occur calls the proxy's implementation of this method.
 
@@ -128,20 +113,11 @@ To return the appropriate interface pointer, the proxy implementation can simply
 
 Just before exiting, even if exiting with an error, your implementation should reposition the seek pointer in the stream immediately after the last byte of data read.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
- 
-
- 
 

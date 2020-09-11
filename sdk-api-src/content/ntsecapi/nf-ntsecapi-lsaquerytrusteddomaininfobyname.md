@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d33d6cee-bd8b-49f4-8e65-07cdc65bec7c
 ms.date: 12/05/2018
 ms.keywords: LsaQueryTrustedDomainInfoByName, LsaQueryTrustedDomainInfoByName function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixInformation, _lsa_lsaquerytrusteddomaininfobyname, ntsecapi/LsaQueryTrustedDomainInfoByName, security.lsaquerytrusteddomaininfobyname
-f1_keywords:
-- ntsecapi/LsaQueryTrustedDomainInfoByName
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LsaQueryTrustedDomainInfoByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaQueryTrustedDomainInfoByName
+ - ntsecapi/LsaQueryTrustedDomainInfoByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LsaQueryTrustedDomainInfoByName
 ---
 
 # LsaQueryTrustedDomainInfoByName function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaQueryTrustedDomainInfoByName</b> function returns information about a trusted domain.
 
-
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. This handle must have the POLICY_VIEW_LOCAL_INFORMATION access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
-
 ### -param TrustedDomainName [in]
 
 String that contains the name of the trusted domain. This can either be the domain name or the flat name.
-
 
 ### -param InformationClass [in]
 
@@ -140,8 +134,6 @@ Full information, including the Posix offset and the authentication information.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [out]
 
@@ -154,10 +146,7 @@ Receives a pointer to the returned buffer that contains the requested informatio
 
 When you have finished using the buffer, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns STATUS_SUCCESS.
 
@@ -198,13 +187,7 @@ Insufficient system resources, such as memory, to complete the call.
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> value to a Windows error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>
 
@@ -223,7 +206,4 @@ You can use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
- 
-
- 
 

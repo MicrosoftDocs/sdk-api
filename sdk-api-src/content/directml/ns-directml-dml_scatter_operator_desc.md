@@ -4,8 +4,6 @@ title: DML_SCATTER_OPERATOR_DESC
 description: Describes a DirectML operator that copies the whole input tensor to the output, then overwrites selected indices with corresponding values from the updates tensor.
 tech.root: directml
 ms.date: 01/31/2020
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -23,20 +21,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
- - DML_SCATTER_OPERATOR_DESC
-f1_keywords:
- - directml/DML_SCATTER_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_SCATTER_OPERATOR_DESC
+f1_keywords:
+ - DML_SCATTER_OPERATOR_DESC
+ - directml/DML_SCATTER_OPERATOR_DESC
 ---
 
 ## -description
@@ -82,3 +83,4 @@ The axis dimension to add to *OutputTensor*.
 ## -remarks
 
 ## -see-also
+

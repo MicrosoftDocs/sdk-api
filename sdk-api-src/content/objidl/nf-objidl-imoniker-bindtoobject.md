@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: b5ce39ff-3387-4f72-9aea-5a26eed3810c
 ms.date: 12/05/2018
 ms.keywords: BindToObject, BindToObject method [COM], BindToObject method [COM],IMoniker interface, IMoniker interface [COM],BindToObject method, IMoniker.BindToObject, IMoniker::BindToObject, _com_imoniker_bindtoobject, com.imoniker_bindtoobject, objidl/IMoniker::BindToObject
-f1_keywords:
-- objidl/IMoniker.BindToObject
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.BindToObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::BindToObject
+ - objidl/IMoniker::BindToObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.BindToObject
 ---
 
 # IMoniker::BindToObject
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Binds to the specified object. The binding process involves finding the object, putting it into the running state if necessary, and providing the caller with a pointer to a specified interface on the identified object.
 
-
 ## -parameters
-
-
-
 
 ### -param pbc [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context object, which is used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
 
-
 ### -param pmkToLeft [in]
 
 If the moniker is part of a composite moniker, pointer to the moniker to the left of this moniker. This parameter is primarily used by moniker implementers to enable cooperation between the various components of a composite moniker. Moniker clients should use <b>NULL</b>.
-
 
 ### -param riidResult [in]
 
 The IID of the interface the client wishes to use to communicate with the object that the moniker identifies.
 
-
 ### -param ppvResult [out]
 
 The address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvResult</i> contains the requested interface pointer to the object the moniker identifies. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, *<i>ppvResult</i> should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -160,12 +150,7 @@ Unable to access the storage object.
 
 This method can also return the errors associated with the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleitemcontainer-getobject">IOleItemContainer::GetObject</a> method.
 
-
-
-
 ## -remarks
-
-
 
 <b>BindToObject</b> implements the primary function of a moniker, which is to locate the object identified by the moniker and return a pointer to one of its interfaces.
 
@@ -364,19 +349,11 @@ When the object returns from one of the various <b>Load</b> calls described in t
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-bindmoniker">BindMoniker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

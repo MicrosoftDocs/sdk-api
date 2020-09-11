@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 3062688f-a612-4824-beae-b75687b4feed
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskArguments property, IAlertDataCollector.TaskArguments, IAlertDataCollector.get_TaskArguments, IAlertDataCollector::TaskArguments, IAlertDataCollector::get_TaskArguments, IAlertDataCollector::put_TaskArguments, TaskArguments property [PLA], TaskArguments property [PLA],IAlertDataCollector interface, base.ialertdatacollector_taskarguments, get_TaskArguments, pla.ialertdatacollector_taskarguments, pla/IAlertDataCollector::TaskArguments, pla/IAlertDataCollector::get_TaskArguments, pla/IAlertDataCollector::put_TaskArguments
-f1_keywords:
-- pla/IAlertDataCollector.TaskArguments
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IAlertDataCollector.TaskArguments
-- IAlertDataCollector.get_TaskArguments
-- IAlertDataCollector.put_TaskArguments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlertDataCollector::get_TaskArguments
+ - pla/IAlertDataCollector::get_TaskArguments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IAlertDataCollector.TaskArguments
+ - IAlertDataCollector.get_TaskArguments
+ - IAlertDataCollector.put_TaskArguments
 ---
 
 # IAlertDataCollector::get_TaskArguments
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a> property.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 If the task to run is a script, you must set the task arguments in the Task Scheduler to $(Arg0); otherwise, the arguments that you specify with this property will not be passed to the script.
 
@@ -102,16 +98,7 @@ PLA provides the following substitution variables that you can include in your a
 
 Typically, if you use the substitution variables, you specify them in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">TaskUserTextArguments</a>, where you do not have to escape the braces, and then specify {usertext} in this property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
- 
-
- 
 

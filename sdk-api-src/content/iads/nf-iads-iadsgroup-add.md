@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 7b660c3b-f395-407e-bc84-7ef7117298bb
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsGroup interface, IADsGroup interface [ADSI],Add method, IADsGroup.Add, IADsGroup::Add, _ds_iadsgroup_add, adsi.iadsgroup__add, adsi.iadsgroup_add, iads/IADsGroup::Add
-f1_keywords:
-- iads/IADsGroup.Add
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsGroup.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsGroup::Add
+ - iads/IADsGroup::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsGroup.Add
 ---
 
 # IADsGroup::Add
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsGroup::Add</b> method adds an ADSI object to an existing group.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrNewItem [in]
 
 Contains a <b>BSTR</b> that specifies the ADsPath of the object to add to the group. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 The following are the most common return values. For more information about return values, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the LDAP provider is used to bind to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a> object, the same form of ADsPath must be specified in the <i>bstrNewItem</i> parameter. For example, if the ADsPath used to bind to the <b>IADsGroup</b> object includes a server, the ADsPath in the <i>bstrNewItem</i> parameter must contain the same server prefix. Likewise, if a serverless path is used to bind to the <b>IADsGroup</b> object, the <i>bstrNewItem</i> parameter must also contain a serverless path. When using server prefix, delays may occur if the group and the new member are from different domains, as requests may be sent to the wrong domain controller and referred to a domain controller of the correct domain and retried there. An exception occurs when adding or removing a member using a GUID or security identifier (SID) ADsPath. In this case, a serverless path should always be used in <i>bstrNewItem</i>.
 
@@ -150,14 +138,7 @@ Cleanup:
     return hr;
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -176,7 +157,4 @@ Cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
- 
-
- 
 

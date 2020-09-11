@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2db0e129-a566-47ba-ab57-53c7db09e8e3
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, X509CertificateEnrollmentContext, X509CertificateEnrollmentContext enumeration [Security], certenroll/ContextAdministratorForceMachine, certenroll/ContextMachine, certenroll/ContextUser, certenroll/X509CertificateEnrollmentContext, security.x509certificateenrollmentcontext_enum
-f1_keywords:
-- certenroll/X509CertificateEnrollmentContext
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- X509CertificateEnrollmentContext
 targetos: Windows
 req.typenames: X509CertificateEnrollmentContext
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X509CertificateEnrollmentContext
+ - certenroll/X509CertificateEnrollmentContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - X509CertificateEnrollmentContext
 ---
 
 # X509CertificateEnrollmentContext enumeration
 
 
 ## -description
-
 
 The <b>X509CertificateEnrollmentContext</b> enumeration  specifies the nature of the end entity for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> is intended. This enumeration is used by the following interfaces:<ul>
 <li>
@@ -65,42 +65,27 @@ The <b>X509CertificateEnrollmentContext</b> enumeration  specifies the nature of
 </li>
 </ul>
 
-
-
 ## -enum-fields
 
-
-
-
 ### -field ContextNone
-
 
 ### -field ContextUser
 
 The certificate is intended for an end user.
 
-
 ### -field ContextMachine
 
 The certificate is intended for a computer.
-
 
 ### -field ContextAdministratorForceMachine
 
 The certificate is being requested by an administrator acting on the behalf of a computer.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
- 
-
- 
 

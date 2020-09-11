@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.date: 12/05/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
-f1_keywords:
-- aclapi/SetEntriesInAcl
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-Provider-l1-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
-- ntmarta.dll
-- API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
-api_name:
-- SetEntriesInAcl
-- SetEntriesInAclA
-- SetEntriesInAclW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetEntriesInAclA
+ - aclapi/SetEntriesInAclA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-Provider-l1-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-DownLevel-AdvApi32-l3-1-0.dll
+ - ntmarta.dll
+ - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
+api_name:
+ - SetEntriesInAcl
+ - SetEntriesInAclA
+ - SetEntriesInAclW
 ---
 
 # SetEntriesInAclA function
@@ -56,52 +57,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetEntriesInAcl</b> function creates a new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) by merging new access control or audit control information into an existing 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param cCountOfExplicitEntries [in]
 
 The number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures in the <i>pListOfExplicitEntries</i> array.
 
-
 ### -param pListOfExplicitEntries [in, optional]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the access control information to merge into the existing ACL.
 
-
 ### -param OldAcl [in, optional]
 
 A pointer to the existing ACL. This parameter can be <b>NULL</b>, in which case, the function creates a new ACL based on the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> entries.
-
 
 ### -param NewAcl [out]
 
 A pointer to a variable that receives a pointer to the new ACL. If the function succeeds, you must call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to free the returned buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns ERROR_SUCCESS.
 
 If the function fails, it returns a nonzero error code defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 Each entry in the array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures specifies access control or audit control information for a specified trustee. A trustee can be a user, group, or other <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) value, such as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a> or logon type (for instance, a Windows service or batch job). You can use a name or a SID to identify a trustee.
 
@@ -149,9 +134,6 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
@@ -181,7 +163,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
- 
-
- 
 

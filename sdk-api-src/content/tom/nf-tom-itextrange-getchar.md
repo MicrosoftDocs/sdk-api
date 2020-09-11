@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm
 ms.date: 12/05/2018
 ms.keywords: GetChar, GetChar method [Windows Controls], GetChar method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetChar method, ITextRange.GetChar, ITextRange::GetChar, _win32_ITextRange_GetChar, _win32_ITextRange_GetChar_cpp, controls.ITextRange_GetChar, controls._win32_ITextRange_GetChar, tom/ITextRange::GetChar
-f1_keywords:
-- tom/ITextRange.GetChar
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.GetChar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::GetChar
+ - tom/ITextRange::GetChar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.GetChar
 ---
 
 # ITextRange::GetChar
@@ -49,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the character at the start position of the range.
 
-
 ## -parameters
-
-
-
 
 ### -param pChar
 
 Type: <b>long*</b>
 
-The start character position of the range. 
-
+The start character position of the range.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If <i>pChar</i> is null, the method fails and it returns E_INVALIDARG.
 
-
-
-
 ## -remarks
-
-
 
 The following Microsoft Visual Basic example sets <i>ch</i> equal to the character at the start of the range.
 
@@ -96,13 +84,7 @@ The Char property, which can do most things that a characters collection can, ha
 </ul>
 Accordingly, the Text Object Model (TOM) does not support a characters collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -121,7 +103,4 @@ Accordingly, the Text Object Model (TOM) does not support a characters collectio
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

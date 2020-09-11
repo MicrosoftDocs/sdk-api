@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: a80b299a-c3f9-411b-9936-33d32fc71853
 ms.date: 12/05/2018
 ms.keywords: FillPath, FillPath function [Windows GDI], _win32_FillPath, gdi.fillpath, wingdi/FillPath
-f1_keywords:
-- wingdi/FillPath
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Path-l1-1-0.dll
-- GDI32Full.dll
-api_name:
-- FillPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FillPath
+ - wingdi/FillPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Path-l1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - FillPath
 ---
 
 # FillPath function
@@ -51,44 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FillPath</b> function closes any open figures in the current path and fills the path's interior by using the current brush and polygon-filling mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a device context that contains a valid path.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 After its interior is filled, the path is discarded from the DC identified by the <i>hdc</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
@@ -111,7 +93,4 @@ After its interior is filled, the path is discarded from the DC identified by th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokepath">StrokePath</a>
- 
-
- 
 

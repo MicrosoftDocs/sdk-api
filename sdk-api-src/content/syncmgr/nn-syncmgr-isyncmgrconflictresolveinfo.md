@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c47d533f-7307-4db3-a025-961f3419203e
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], ISyncMgrConflictResolveInfo interface [Windows Shell],described, _shell_ISyncMgrConflictResolveInfo, shell.ISyncMgrConflictResolveInfo, syncmgr/ISyncMgrConflictResolveInfo
-f1_keywords:
-- syncmgr/ISyncMgrConflictResolveInfo
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrConflictResolveInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrConflictResolveInfo
+ - syncmgr/ISyncMgrConflictResolveInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrConflictResolveInfo
 ---
 
 # ISyncMgrConflictResolveInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get and set information about sync manager conflict resolution.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Sets what the presenter wants to do as the next step in the sync manager conflic
 
 </td>
 </tr>
-</table> 
+</table>
 

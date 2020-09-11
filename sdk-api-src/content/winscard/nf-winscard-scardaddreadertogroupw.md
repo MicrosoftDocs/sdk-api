@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardAddReaderToGroup, SCardAddReaderToGroup function [Security], SCardAddReaderToGroupA, SCardAddReaderToGroupW, _smart_scardaddreadertogroup, security.scardaddreadertogroup, winscard/SCardAddReaderToGroup, winscard/SCardAddReaderToGroupA, winscard/SCardAddReaderToGroupW
-f1_keywords:
-- winscard/SCardAddReaderToGroup
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardAddReaderToGroup
-- SCardAddReaderToGroupA
-- SCardAddReaderToGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardAddReaderToGroupW
+ - winscard/SCardAddReaderToGroupW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardAddReaderToGroup
+ - SCardAddReaderToGroupA
+ - SCardAddReaderToGroupW
 ---
 
 # SCardAddReaderToGroupW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardAddReaderToGroup</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
-
 ### -param szReaderName [in]
 
 Display name of the reader that you are adding.
-
 
 ### -param szGroupName [in]
 
@@ -125,12 +119,8 @@ Unused legacy value. This is an internally managed group that cannot be modified
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -163,14 +153,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SCardAddReaderToGroup</b> automatically creates the reader group specified if it does not already exist. 
 
@@ -203,9 +187,6 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
@@ -219,7 +200,4 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardremovereaderfromgroupa">SCardRemoveReaderFromGroup</a>
- 
-
- 
 

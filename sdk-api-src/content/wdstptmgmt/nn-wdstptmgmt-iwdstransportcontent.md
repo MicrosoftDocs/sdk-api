@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
-f1_keywords:
-- wdstptmgmt/IWdsTransportContent
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportContent
+ - wdstptmgmt/IWdsTransportContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportContent
 ---
 
 # IWdsTransportContent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents content being transmitted under a namespace over one or more sessions.
-
 
 ## -inheritance
 
@@ -143,5 +142,5 @@ Receives a pointer to an object of an  <a href="https://docs.microsoft.com/windo
 
 </td>
 </tr>
-</table> 
+</table>
 

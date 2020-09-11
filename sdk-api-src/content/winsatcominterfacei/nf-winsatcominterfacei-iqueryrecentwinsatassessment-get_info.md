@@ -8,10 +8,6 @@ tech.root: WinSAT
 ms.assetid: 11697416-aa4d-4724-bd63-8d123e2b32cb
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],Info property, IQueryRecentWinSATAssessment.Info, IQueryRecentWinSATAssessment.get_Info, IQueryRecentWinSATAssessment::Info, IQueryRecentWinSATAssessment::get_Info, Info property [WinSAT], Info property [WinSAT],IQueryRecentWinSATAssessment interface, get_Info, winsat.iqueryrecentwinsatassessment_info, winsatcominterfacei/IQueryRecentWinSATAssessment::Info, winsatcominterfacei/IQueryRecentWinSATAssessment::get_Info
-f1_keywords:
-- winsatcominterfacei/IQueryRecentWinSATAssessment.Info
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IQueryRecentWinSATAssessment.Info
-- IQueryRecentWinSATAssessment.get_Info
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryRecentWinSATAssessment::get_Info
+ - winsatcominterfacei/IQueryRecentWinSATAssessment::get_Info
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IQueryRecentWinSATAssessment.Info
+ - IQueryRecentWinSATAssessment.get_Info
 ---
 
 # IQueryRecentWinSATAssessment::get_Info
@@ -50,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IQueryRecentWinSATAssessment::Info may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves an interface that provides information about the results of the most recent formal assessment, for example, the base score and the date that the assessment was run.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 To retrieve summary information for a subcomponent of the assessment, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
 
@@ -186,17 +182,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>
- 
-
- 
 

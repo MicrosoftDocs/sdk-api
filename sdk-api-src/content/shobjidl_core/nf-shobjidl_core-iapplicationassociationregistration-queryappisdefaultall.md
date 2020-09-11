@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 71073f30-51bc-4522-9bb2-7eb743bca159
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefaultAll method, IApplicationAssociationRegistration.QueryAppIsDefaultAll, IApplicationAssociationRegistration::QueryAppIsDefaultAll, QueryAppIsDefaultAll, QueryAppIsDefaultAll method [Windows Shell], QueryAppIsDefaultAll method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefaultAll, shell.IApplicationAssociationRegistration_QueryAppIsDefaultAll, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefaultAll
-f1_keywords:
-- shobjidl_core/IApplicationAssociationRegistration.QueryAppIsDefaultAll
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IApplicationAssociationRegistration.QueryAppIsDefaultAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationAssociationRegistration::QueryAppIsDefaultAll
+ - shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefaultAll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IApplicationAssociationRegistration.QueryAppIsDefaultAll
 ---
 
 # IApplicationAssociationRegistration::QueryAppIsDefaultAll
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether an application owns all of the registered default associations for a given application level. Not intended for use in Windows 8.
 
-
 ## -parameters
-
-
-
 
 ### -param alQueryLevel [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">ASSOCIATIONLEVEL</a> enumeration values that specifies the level of association, such as per-user or machine. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">AL_EFFECTIVE</a>.
 
-
 ### -param pszAppRegistryName [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a <b>null</b>-terminated Unicode string that specifies the registered name of the application.
-
 
 ### -param pfDefault [out]
 
@@ -79,29 +73,17 @@ Type: <b>BOOL*</b>
 When this method returns, contains <b>TRUE</b> if the application is the default for all <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"> association types</a> at the specified <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">ASSOCIATIONLEVEL</a>; 
 or <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>
- 
-
- 
 

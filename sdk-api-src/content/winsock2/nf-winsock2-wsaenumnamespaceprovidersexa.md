@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 34bc96aa-63f7-4ab8-9376-6f4b979225ca
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNameSpaceProvidersEx, WSAEnumNameSpaceProvidersEx function [Winsock], WSAEnumNameSpaceProvidersExA, WSAEnumNameSpaceProvidersExW, winsock.wsaenumnamespaceprovidersex, winsock2/WSAEnumNameSpaceProvidersEx, winsock2/WSAEnumNameSpaceProvidersExA, winsock2/WSAEnumNameSpaceProvidersExW
-f1_keywords:
-- winsock2/WSAEnumNameSpaceProvidersEx
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAEnumNameSpaceProvidersEx
-- WSAEnumNameSpaceProvidersExA
-- WSAEnumNameSpaceProvidersExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAEnumNameSpaceProvidersExA
+ - winsock2/WSAEnumNameSpaceProvidersExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAEnumNameSpaceProvidersEx
+ - WSAEnumNameSpaceProvidersExA
+ - WSAEnumNameSpaceProvidersExW
 ---
 
 # WSAEnumNameSpaceProvidersExA function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAEnumNameSpaceProvidersEx</b> function retrieves information on available namespace providers.
 
-
 ## -parameters
-
-
-
 
 ### -param lpdwBufferLength [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by <i>lpnspBuffer</i>. On output (if the function fails, and the error is 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>), the minimum number of bytes to allocate for the <i>lpnspBuffer</i> buffer to allow it to retrieve all the requested information. The buffer passed to <b>WSAEnumNameSpaceProvidersEx</b> must be sufficient to hold all of the namespace information.
-
 
 ### -param lpnspBuffer [out]
 
@@ -73,10 +68,7 @@ A buffer that is filled with
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infoexw">WSANAMESPACE_INFOEX</a> structures. The returned structures are located consecutively at the head of the buffer. Variable sized information referenced by pointers in the structures point to locations within the buffer located between the end of the fixed sized structures and the end of the buffer. The number of structures filled in is the return value of 
 <b>WSAEnumNameSpaceProvidersEx</b>.
 
-
 ## -returns
-
-
 
 The 
 <b>WSAEnumNameSpaceProvidersEx</b> function returns the number of 
@@ -124,14 +116,8 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSAEnumNameSpaceProvidersEx</b>  function is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function. The provider-specific data blob associated with the namespace entry
                      passed in the <i>lpProviderInfo</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a> function can be queried using <b>WSAEnumNameSpaceProvidersEx</b> function. 
@@ -153,9 +139,6 @@ When UNICODE or _UNICODE is not defined, <b>WSAEnumNameSpaceProvidersEx</b> is d
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
 
@@ -173,7 +156,4 @@ When UNICODE or _UNICODE is not defined, <b>WSAEnumNameSpaceProvidersEx</b> is d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx32</a>
- 
-
- 
 

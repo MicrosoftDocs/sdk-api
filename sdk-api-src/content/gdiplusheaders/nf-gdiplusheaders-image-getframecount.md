@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframecount.htm
 ms.date: 12/05/2018
 ms.keywords: GetFrameCount, GetFrameCount method [GDI+], GetFrameCount method [GDI+],Image class, Image class [GDI+],GetFrameCount method, Image.GetFrameCount, Image::GetFrameCount, _gdiplus_CLASS_Image_GetFrameCount_dimensionID_, gdiplus._gdiplus_CLASS_Image_GetFrameCount_dimensionID_
-f1_keywords:
-- gdiplusheaders/Image.GetFrameCount
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Image.GetFrameCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Image::GetFrameCount
+ - gdiplusheaders/Image::GetFrameCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Image.GetFrameCount
 ---
 
 # Image::GetFrameCount
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Image::GetFrameCount</b> method gets the number of frames in a specified dimension of this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param dimensionID [in]
 
@@ -66,25 +62,16 @@ Type: <b>const GUID*</b>
 
 Pointer to a 
 					GUID that specifies the dimension. 
-					GUIDs that identify various dimensions are defined in Gdiplusimaging.h. 
-
+					GUIDs that identify various dimensions are defined in Gdiplusimaging.h.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 This method returns the number of frames in the specified dimension of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-copying-individual-frames-from-a-multiple-frame-image-use">Copying Individual Frames from a Multiple-Frame Image</a>
 
@@ -111,7 +98,4 @@ This method returns the number of frames in the specified dimension of this
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)">Image::SaveAdd Methods</a>
- 
-
- 
 

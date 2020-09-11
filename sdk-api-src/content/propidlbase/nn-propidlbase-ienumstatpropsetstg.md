@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 8d5e658f-312c-4c91-8794-808b2e8dd182
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], IEnumSTATPROPSETSTG interface [Structured Storage],described, _stg_ienumstatpropsetstg, propidlbase/IEnumSTATPROPSETSTG, stg.ienumstatpropsetstg
-f1_keywords:
-- propidlbase/IEnumSTATPROPSETSTG
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IEnumSTATPROPSETSTG
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATPROPSETSTG
+ - propidlbase/IEnumSTATPROPSETSTG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IEnumSTATPROPSETSTG
 ---
 
 # IEnumSTATPROPSETSTG interface
 
 
 ## -description
-
 
 The 
 <b>IEnumSTATPROPSETSTG</b> interface iterates through an array of 
@@ -59,7 +59,6 @@ The implementation defines the order in which the property sets are enumerated. 
 
 For more information about how the COM compound document implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropsetstg-next">IEnumSTATPROPSETSTG::Next</a> supplies members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure, see <a href="https://docs.microsoft.com/windows/desktop/Stg/ienumstatpropsetstg-compound-file-implementation">IEnumSTATPROPSETSTG--Compound File Implementation</a>.
-
 
 ## -inheritance
 
@@ -112,16 +111,9 @@ Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">IPropertyStorage::Enum</a>
- 
-
- 
 

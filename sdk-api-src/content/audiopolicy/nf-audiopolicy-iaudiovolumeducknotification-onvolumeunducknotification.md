@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeUnduckNotification method, IAudioVolumeDuckNotification.OnVolumeUnduckNotification, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
-f1_keywords:
-- audiopolicy/IAudioVolumeDuckNotification.OnVolumeUnduckNotification
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AudioPolicy.h
-api_name:
-- IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioVolumeDuckNotification::OnVolumeUnduckNotification
+ - audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AudioPolicy.h
+api_name:
+ - IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 ---
 
 ## -description
@@ -56,7 +57,7 @@ A string containing the session instance identifier of the terminating communica
 
 ## -returns
 
-If the method succeeds, it returns S_OK. 
+If the method succeeds, it returns S_OK.
 
 ## -remarks
 
@@ -67,3 +68,4 @@ After the application registers its implementation  of the <a href="https://docs
 <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
+

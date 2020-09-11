@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: eb463c0d-8cb3-40b8-9c81-ce98c859068a
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetData method, CHString.GetData, CHString::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHString interface, chstring/CHString::GetData, wmi.chstring_getdata
-f1_keywords:
-- chstring/CHString.GetData
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::GetData
+ - chstring/CHString::GetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.GetData
 ---
 
 # CHString::GetData
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,30 +59,13 @@ ms.custom: 19H1
 
 The <b>GetData</b> method to get the data from the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If the <b>GetData</b> method is successful, it returns a pointer to the data in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object in the form of a <b>CHStringData</b> structure.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
- 
-
- 
 

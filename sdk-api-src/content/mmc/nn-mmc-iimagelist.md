@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: a957239b-6cb2-4101-adeb-e9ba4f876af4
 ms.date: 12/05/2018
 ms.keywords: IImageList, IImageList interface [MMC], IImageList interface [MMC],described, _slate_iimagelist, mmc.iimagelist, mmc/IImageList
-f1_keywords:
-- mmc/IImageList
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList
+ - mmc/IImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IImageList
 ---
 
 # IImageList interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IImageList</b> interface enables the user to insert images to be used as icons for items in the result or scope pane of the console. When an image is inserted, an index is passed in and associated with the image. Any time the image is to be used, the user can refer to it by the index that he or she assigned.
 
 Be aware that because the image list is shared among many components, the user-specified index is a "virtual" index that gets mapped internally to the actual index.
-
 
 ## -inheritance
 
@@ -89,5 +88,5 @@ Sets a strip of icons in the image list.
 
 </td>
 </tr>
-</table> 
+</table>
 

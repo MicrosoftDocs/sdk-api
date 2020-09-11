@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d
 ms.date: 12/05/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
-f1_keywords:
-- webservices/WsCreateChannel
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCreateChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCreateChannel
+ - webservices/WsCreateChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCreateChannel
 ---
 
 # WsCreateChannel function
@@ -49,30 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/channel">channel</a> for message exchange with an endpoint.  
-            
-
-
-
+Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/channel">channel</a> for message exchange with an endpoint.
 
 ## -parameters
-
-
-
 
 ### -param channelType [in]
 
 The type of the channel. For channel types, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration. This represents the message exchange pattern for the channel being created.
-        
-
 
 ### -param channelBinding [in]
 
 The channel <a href="https://docs.microsoft.com/windows/desktop/wsw/binding">binding</a>, indicating the protocol stack to use for the new channel.
                 For available channel bindings, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> enumeration.
-
 
 ### -param properties [in]
 
@@ -83,12 +72,9 @@ For information on which channel properties can be specified when you create a c
 
 For information on creating a custom channel, see the Remarks section.
 
-
 ### -param propertyCount [in]
 
 The number of properties in the <i>properties</i> array.
-                
-
 
 ### -param securityDescription [in, optional]
 
@@ -96,23 +82,16 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices
 
 If you are creating a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> enumeration), the security description must be <b>NULL</b>. See the Remarks section.
 
-
 ### -param channel
 
 Pointer that receives the address of the created channel.   
                     When the channel  is no longer needed, you must free  it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a>.
-                
-
 
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -155,14 +134,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> function to initiate  communication on the channel and to specify the endpoint.
             
@@ -177,6 +150,4 @@ When you create a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of t
 
 
 To pass security information to a custom channel implementation, use the WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS value of the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ID</a> enumeration.
-
-
 

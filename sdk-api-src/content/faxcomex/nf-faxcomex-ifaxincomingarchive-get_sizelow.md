@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0fuf.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],SizeLow property, IFaxIncomingArchive.SizeLow, IFaxIncomingArchive.get_SizeLow, IFaxIncomingArchive::SizeLow, IFaxIncomingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.sizelow, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizelow_cpp, fax._mfax_faxincomingarchive_sizelow, faxcomex/IFaxIncomingArchive::SizeLow, faxcomex/IFaxIncomingArchive::get_SizeLow, get_SizeLow
-f1_keywords:
-- faxcomex/IFaxIncomingArchive.SizeLow
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxIncomingArchive.SizeLow
-- IFaxIncomingArchive.get_SizeLow
-- IFaxIncomingArchive.get_SizeLow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxIncomingArchive::get_SizeLow
+ - faxcomex/IFaxIncomingArchive::get_SizeLow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxIncomingArchive.SizeLow
+ - IFaxIncomingArchive.get_SizeLow
+ - IFaxIncomingArchive.get_SizeLow
 ---
 
 # IFaxIncomingArchive::get_SizeLow
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SizeLow</b> property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows.</div>
 <div> </div>
@@ -72,13 +68,7 @@ If both the <b>SizeLow</b> and <a href="https://docs.microsoft.com/previous-vers
 
 To read this property, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive">FaxIncomingArchive</a>
 
@@ -89,7 +79,4 @@ To read this property, a user must have the <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-incoming-archive">Visual Basic Example</a>
- 
-
- 
 

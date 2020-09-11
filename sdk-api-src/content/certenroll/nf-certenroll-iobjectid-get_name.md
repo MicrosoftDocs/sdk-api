@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3d3842a9-73b6-4fb8-83cf-ac65c5a09acb
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],Name property, IObjectId.Name, IObjectId.get_Name, IObjectId::Name, IObjectId::get_Name, Name property [Security], Name property [Security],IObjectId interface, certenroll/IObjectId::Name, certenroll/IObjectId::get_Name, get_Name, security.iobjectid_name_property
-f1_keywords:
-- certenroll/IObjectId.Name
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IObjectId.Name
-- IObjectId.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectId::get_Name
+ - certenroll/IObjectId::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IObjectId.Name
+ - IObjectId.get_Name
 ---
 
 # IObjectId::get_Name
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_objectid">CERTENROLL_OBJECTID</a> value that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You must call any of the following methods before you can retrieve this property value:<ul>
 <li>
@@ -85,17 +81,7 @@ You can also retrieve the following property values:<ul>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>
- 
-
- 
 

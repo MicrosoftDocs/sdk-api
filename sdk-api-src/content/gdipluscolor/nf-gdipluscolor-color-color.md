@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_31.htm
 ms.date: 12/05/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(), Color::Color, _gdiplus_CLASS_Color_Color_, gdiplus._gdiplus_CLASS_Color_Color_
-f1_keywords:
-- gdipluscolor/Color.Color
-dev_langs:
-- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Color.Color
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Color::Color
+ - gdipluscolor/Color::Color
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Color.Color
 ---
 
 # Color::Color
@@ -50,28 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>Color::Color</b> object and initializes it to opaque black. This is the default constructor.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/ms536243(v=vs.85)">Color Constructors</a>
- 
-
- 
 

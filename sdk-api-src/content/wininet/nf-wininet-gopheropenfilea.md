@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6
 ms.date: 12/05/2018
 ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA, GopherOpenFileW, _inet_gopheropenfile_function, wininet.gopheropenfile, wininet/GopherOpenFile, wininet/GopherOpenFileA, wininet/GopherOpenFileW
-f1_keywords:
-- wininet/GopherOpenFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- GopherOpenFile
-- GopherOpenFileA
-- GopherOpenFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GopherOpenFileA
+ - wininet/GopherOpenFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - GopherOpenFile
+ - GopherOpenFileA
+ - GopherOpenFileW
 ---
 
 # GopherOpenFileA function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>GopherOpenFile</b> function is available for use in the operating systems specified in the Requirements section.]
 
 Begins reading a Gopher data file from a Gopher server.
 
-
 ## -parameters
-
-
-
 
 ### -param hConnect [in]
 
 Handle to a Gopher session returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
-
 
 ### -param lpszLocator [in]
 
@@ -74,12 +69,10 @@ Pointer to a <b>null</b>-terminated string that specifies the file to be opened.
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a>. Because the Gopher protocol has no concept of a current directory, the locator is always fully qualified.
 
-
 ### -param lpszView [in]
 
 Pointer to a <b>null</b>-terminated string that describes the view to open if several views of the file exist on the server. If 
 <i>lpszView</i> is <b>NULL</b>, the function uses the default file view.
-
 
 ### -param dwFlags [in]
 
@@ -146,28 +139,18 @@ Reloads HTTP resources if the resource has been modified since the last time it 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
 Pointer to a variable that contains an application-defined value that associates this operation with any application data.
 
-
 ## -returns
-
-
 
 Returns a handle if successful, or <b>NULL</b> if the file cannot be opened. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>GopherOpenFile</b> opens a file at a Gopher server. Because a file cannot actually be opened or locked at a server, this function simply associates location information with a handle that an application can use for file-based operations such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a> or 
@@ -191,11 +174,5 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 8DA29C25-3866-4BCA-8591-F8408A1C1401
 ms.date: 12/05/2018
 ms.keywords: GetCurrentCellularClass, GetCurrentCellularClass method [Microsoft Broadband Networks], GetCurrentCellularClass method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetCurrentCellularClass method, IMbnMultiCarrier.GetCurrentCellularClass, IMbnMultiCarrier::GetCurrentCellularClass, mbn.imbnmulticarrier_getcurrentcellularclass, mbnapi/IMbnMultiCarrier::GetCurrentCellularClass
-f1_keywords:
-- mbnapi/IMbnMultiCarrier.GetCurrentCellularClass
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnMultiCarrier.GetCurrentCellularClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnMultiCarrier::GetCurrentCellularClass
+ - mbnapi/IMbnMultiCarrier::GetCurrentCellularClass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnMultiCarrier.GetCurrentCellularClass
 ---
 
 # IMbnMultiCarrier::GetCurrentCellularClass
@@ -54,24 +55,16 @@ ms.custom: 19H1
 
 Gets the current cellular classes for a multi-carrier device.
 
-
 ## -parameters
 
-
-
-
 ### -param currentCellularClass [out, retval]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a>
 
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> enumeration that specifies the current cellular class. If this method returns any value other than <b>S_OK</b>, <i>currentCellularClass</i> is <b>NULL</b>. When <b>GetCurrentCellularClass</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -136,18 +129,8 @@ The operation is not supported by the device. This may be returned by devices wh
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
- 
-
- 
 

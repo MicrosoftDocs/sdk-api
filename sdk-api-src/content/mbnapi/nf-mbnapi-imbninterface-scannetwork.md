@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 72db3d85-b7f2-4dae-9637-b003df6e9cf5
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],ScanNetwork method, IMbnInterface.ScanNetwork, IMbnInterface::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_scannetwork, mbnapi/IMbnInterface::ScanNetwork
-f1_keywords:
-- mbnapi/IMbnInterface.ScanNetwork
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.ScanNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::ScanNetwork
+ - mbnapi/IMbnInterface::ScanNetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.ScanNetwork
 ---
 
 # IMbnInterface::ScanNetwork
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Asynchronously scans the network to get a list of visible providers.
 
-
 ## -parameters
-
-
-
 
 ### -param requestID [out]
 
 Pointer to the request ID set by the operating system for this request.  The asynchronous response will contain this same <i>requestID</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,14 +115,8 @@ The interface is invalid. Most likely because the Mobile Broadband device has be
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders">GetVisibleProviders</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> to get a list of visible networks.
 
@@ -138,16 +126,7 @@ This is an asynchronous operation and <b>ScanNetwork</b> will return immediately
 
 If the device is removed from the system before this operation is complete, there is no guarantee that the completion notification will be received by the application.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
 

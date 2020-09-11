@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
 ms.date: 12/05/2018
 ms.keywords: InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize
-f1_keywords:
-- synchapi/InitOnceInitialize
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- InitOnceInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitOnceInitialize
+ - synchapi/InitOnceInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - InitOnceInitialize
 ---
 
 # InitOnceInitialize function
@@ -54,23 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a one-time initialization structure.
 
-
 ## -parameters
-
-
-
 
 ### -param InitOnce [out]
 
 A pointer to the one-time initialization structure.
 
-
 ## -remarks
-
-
 
 The <b>InitOnceInitialize</b> function is used to initialize a one-time initialization structure dynamically. To initialize the structure statically, assign the constant <b>INIT_ONCE_STATIC_INIT</b> to the structure variable.
 
@@ -104,14 +97,7 @@ BOOL StartInitialization()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a>
 
@@ -122,7 +108,4 @@ BOOL StartInitialization()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

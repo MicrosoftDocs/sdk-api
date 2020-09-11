@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: ef01a531-ddb0-4eb4-894b-82f613016396
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF],described, ics.inetfwpolicy2, netfw/INetFwPolicy2
-f1_keywords:
-- netfw/INetFwPolicy2
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwPolicy2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwPolicy2
+ - netfw/INetFwPolicy2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwPolicy2
 ---
 
 # INetFwPolicy2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetFwPolicy2</b> interface allows an application or service to access the firewall policy.
-
 
 ## -inheritance
 
@@ -402,31 +401,19 @@ Access to the property that indicates whether unicast incoming responses to outg
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 All configuration changes take effect immediately.
 
 The Windows Firewall/Internet Connection Sharing  service must be running to access this interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

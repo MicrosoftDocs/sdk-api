@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 86f5490c-8401-4235-8ddd-313794bd5bf1
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCloseCall, TSPI_lineCloseCall function [TAPI 2.2], _tspi_tspi_lineclosecall, tspi.tspi_lineclosecall, tspi/TSPI_lineCloseCall
-f1_keywords:
-- tspi/TSPI_lineCloseCall
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineCloseCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineCloseCall
+ - tspi/TSPI_lineCloseCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineCloseCall
 ---
 
 # TSPI_lineCloseCall function
@@ -49,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineCloseCall</b> function deallocates the call after completing or aborting all outstanding asynchronous operations on the call.
 
-
 ## -parameters
-
-
-
 
 ### -param hdCall
 
 The service provider's handle to the call to be closed. After the call is successfully closed, this handle is no longer valid. The call state can be any state.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL, LINEERR_RESOURCEUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 The service provider must report completion for asynchronous operations. If 
 <b>TSPI_lineCloseCall</b> is called for a call on which there are outstanding asynchronous operations, the operations should be reported complete with an appropriate result or error code before this procedure returns. After this procedure returns, the service provider must report no further events on the call. The service provider's handles for the line and calls on the line become "invalid."
@@ -99,20 +87,11 @@ This function should always succeed except in extraordinary circumstances. Most 
 This function is called when the last application with a handle to this call executes 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>
- 
-
- 
 

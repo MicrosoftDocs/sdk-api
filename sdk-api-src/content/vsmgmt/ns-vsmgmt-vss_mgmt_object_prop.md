@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 86681207-969e-4b33-aff8-79454ab04829
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP'
-f1_keywords:
-- vsmgmt/VSS_MGMT_OBJECT_PROP
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VsMgmt.h
-api_name:
-- VSS_MGMT_OBJECT_PROP
 targetos: Windows
 req.typenames: VSS_MGMT_OBJECT_PROP, *PVSS_MGMT_OBJECT_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_MGMT_OBJECT_PROP
+ - vsmgmt/_VSS_MGMT_OBJECT_PROP
+ - PVSS_MGMT_OBJECT_PROP
+ - vsmgmt/PVSS_MGMT_OBJECT_PROP
+ - VSS_MGMT_OBJECT_PROP
+ - vsmgmt/VSS_MGMT_OBJECT_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VsMgmt.h
+api_name:
+ - VSS_MGMT_OBJECT_PROP
 ---
 
 # VSS_MGMT_OBJECT_PROP structure
@@ -49,22 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VSS_MGMT_OBJECT_PROP</b> structure 
     defines the properties of a volume, shadow copy storage volume, or a shadow copy storage 
     area.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
-
 Object type. For more information, see <a href="/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_mgmt_object_type">VSS_MGMT_OBJECT_TYPE</a>.
-
 
 ### -field Obj
 
@@ -78,9 +76,7 @@ Management object properties: a union of
 It contains information for an object of the type specified by the <b>Type</b> member. 
        Management objects can be volumes, shadow copy storage volumes, or shadow copy storage areas.
 
-
 ## -see-also
-
 
 <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-next">IVssEnumMgmtObject::Next</a>
 
@@ -107,3 +103,4 @@ It contains information for an object of the type specified by the <b>Type</b> m
 
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
+

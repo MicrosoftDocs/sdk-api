@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: fb4963f1-0ed4-483d-9f39-dcbac493bf1d
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInterfaceDetail, SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation], SetupDiGetDeviceInterfaceDetailA, SetupDiGetDeviceInterfaceDetailW, devinst.setupdigetdeviceinterfacedetail, di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml, setupapi/SetupDiGetDeviceInterfaceDetail
-f1_keywords:
-- setupapi/SetupDiGetDeviceInterfaceDetail
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetDeviceInterfaceDetail
-- SetupDiGetDeviceInterfaceDetailW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetDeviceInterfaceDetailW
+ - setupapi/SetupDiGetDeviceInterfaceDetailW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetDeviceInterfaceDetail
+ - SetupDiGetDeviceInterfaceDetailW
 ---
 
 # SetupDiGetDeviceInterfaceDetailW function
@@ -51,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetDeviceInterfaceDetail</b> function returns details about a device interface.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the interface for which to retrieve details. This handle is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>.
 
-
 ### -param DeviceInterfaceData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the interface in <i>DeviceInfoSet</i> for which to retrieve details. A pointer of this type is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
 
-
 ### -param DeviceInterfaceDetailData [out, optional]
 
 A pointer to an <a href="/windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a> structure to receive information about the specified interface. This parameter is optional and can be <b>NULL</b>. This parameter must be <b>NULL</b> if <i>DeviceInterfaceDetailSize</i> is zero. If this parameter is specified, the caller must set <i>DeviceInterfaceDetailData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DETAIL_DATA) before calling this function. The <b>cbSize</b> member always contains the size of the fixed part of the data structure, not a size reflecting the variable-length string at the end.
-
 
 ### -param DeviceInterfaceDetailDataSize [in]
 
@@ -81,29 +74,19 @@ The size of the <i>DeviceInterfaceDetailData</i> buffer. The buffer must be at l
 
 This parameter must be zero if <i>DeviceInterfaceDetailData</i> is <b>NULL</b>.
 
-
 ### -param RequiredSize [out, optional]
 
 A pointer to a variable of type DWORD that receives the required size of the <i>DeviceInterfaceDetailData</i> buffer. This size includes the size of the fixed part of the structure plus the number of bytes required for the variable-length device path string. This parameter is optional and can be <b>NULL</b>.
-
 
 ### -param DeviceInfoData [out, optional]
 
 A pointer to a buffer that receives information about the device that supports the requested interface. The caller must set <i>DeviceInfoData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>SetupDiGetDeviceInterfaceDetail</b> returns <b>TRUE</b> if the function completed without error. If the function completed with an error, <b>FALSE</b> is returned and the error code for the failure can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Using this function to get details about an interface is typically a two-step process:
 
@@ -130,15 +113,9 @@ The interface detail returned by this function consists of a device path that ca
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 169f971e-0cd2-44e7-81fc-059cc3cd357d
 ms.date: 12/05/2018
 ms.keywords: WsEndWriterCanonicalization, WsEndWriterCanonicalization function [Web Services for Windows], webservices/WsEndWriterCanonicalization, wsw.wsendwritercanonicalization
-f1_keywords:
-- webservices/WsEndWriterCanonicalization
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsEndWriterCanonicalization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsEndWriterCanonicalization
+ - webservices/WsEndWriterCanonicalization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsEndWriterCanonicalization
 ---
 
 # WsEndWriterCanonicalization function
@@ -49,30 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 This function stops XML canonicalization started by the preceding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> call.
       Remaining canonical bytes buffered by the writer are written to the callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param writer [in]
 
 A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object on which canonicalization should be stopped.
 
-
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -104,21 +95,12 @@ The operation is not allowed due to the current state of the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WsEndWriterCanonicalization</b> must be called at the same depth at
         which <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> was called.
       
 
 It is not necessary to call <b>WsEndWriterCanonicalization</b>in order to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.
-      
-
-
 

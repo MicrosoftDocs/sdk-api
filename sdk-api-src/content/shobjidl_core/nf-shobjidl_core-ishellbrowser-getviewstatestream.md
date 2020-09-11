@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 887ebe9f-8bde-46dd-a7a2-7b2ca66bf905
 ms.date: 12/05/2018
 ms.keywords: GetViewStateStream, GetViewStateStream method [Windows Shell], GetViewStateStream method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetViewStateStream method, IShellBrowser.GetViewStateStream, IShellBrowser::GetViewStateStream, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_IShellBrowser_GetViewStateStream, shell.IShellBrowser_GetViewStateStream, shobjidl_core/IShellBrowser::GetViewStateStream
-f1_keywords:
-- shobjidl_core/IShellBrowser.GetViewStateStream
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellBrowser.GetViewStateStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellBrowser::GetViewStateStream
+ - shobjidl_core/IShellBrowser::GetViewStateStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellBrowser.GetViewStateStream
 ---
 
 # IShellBrowser::GetViewStateStream
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an 
 			<b>IStream</b> interface that can be used for storage of view-specific state information.
 
-
 ## -parameters
-
-
-
 
 ### -param grfMode
 
@@ -83,28 +79,19 @@ Requests an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-ob
 
 Requests an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> suitable for reading and writing.
 
-
 ### -param ppStrm
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 The address that receives the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM-defined error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to save and restore the persistent state for a view (the icon positions, the column widths, and the current scroll position, for example).
 
@@ -115,7 +102,4 @@ Use <b>GetViewStateStream</b> when the view is being created to read in the save
 Each Shell view should have its own view stream. Windows Explorer implements a most recently used (MRU) list of view streams that are stored on a per-user basis in the registry.
 
 See also <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-
-
-
 

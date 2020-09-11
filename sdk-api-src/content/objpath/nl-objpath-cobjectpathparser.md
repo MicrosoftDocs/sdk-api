@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
 ms.date: 12/05/2018
 ms.keywords: ??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser
-f1_keywords:
-- objpath/CObjectPathParser
-dev_langs:
-- c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CObjectPathParser
-- ??1CObjectPathParser@@QAE@XZ
-- ??1CObjectPathParser@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CObjectPathParser
+ - objpath/CObjectPathParser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CObjectPathParser
+ - ??1CObjectPathParser@@QAE@XZ
+ - ??1CObjectPathParser@@QEAA@XZ
 ---
 
 # CObjectPathParser class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>CObjectPathParser</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -113,5 +113,5 @@ Converts a structure that contains the parsed path to a string.
 
 </td>
 </tr>
-</table> 
+</table>
 

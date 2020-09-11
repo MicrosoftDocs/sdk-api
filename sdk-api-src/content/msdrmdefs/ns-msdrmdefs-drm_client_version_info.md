@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 5f1fdd8a-dbe1-4b07-888b-b5af0f593fd3
 ms.date: 12/05/2018
 ms.keywords: DRM_CLIENT_VERSION_INFO, DRM_CLIENT_VERSION_INFO structure [Active Directory Rights Management Services SDK 1.0], dwVersion, msdrmdefs/DRM_CLIENT_VERSION_INFO, rm.drm_client_version_info
-f1_keywords:
-- msdrmdefs/DRM_CLIENT_VERSION_INFO
-dev_langs:
-- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msdrmdefs.h
-api_name:
-- DRM_CLIENT_VERSION_INFO
 targetos: Windows
 req.typenames: DRM_CLIENT_VERSION_INFO
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - _DRM_CLIENT_VERSION_INFO
+ - msdrmdefs/_DRM_CLIENT_VERSION_INFO
+ - DRM_CLIENT_VERSION_INFO
+ - msdrmdefs/DRM_CLIENT_VERSION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msdrmdefs.h
+api_name:
+ - DRM_CLIENT_VERSION_INFO
 ---
 
 # DRM_CLIENT_VERSION_INFO structure
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,16 +63,11 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRM_CLIENT_VERSION_INFO</b> structure receives information about the version of the Active Directory Rights Management Services (AD RMS) client and the hierarchy, such as Production or Pre-production. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field uStructVersion
 
 Version of this structure, for backward compatibility. In C, this value should be initialized to <b>DRMCLIENTSTRUCTVERSION</b>.
-
 
 ### -field dwVersion
 
@@ -100,45 +97,29 @@ The client build version number.
 
 The client private version number.
 
-
 ### -field wszHierarchy
 
 Array of type <b>WCHAR</b> that receives the hierarchy information, such as Production or Pre-production.
 
-
 ### -field wszProductId
-
- 
-
 
 ### -field wszProductDescription
 
 Array of type <b>WCHAR</b> that receives the product description. This member is not currently filled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
-
 ### -field _DRM_CLIENT_VERSION_INFO
 
-TBD 
-
-
-
+TBD
 
 ### -field wszProductID
 
 Array of type <b>WCHAR</b> that receives the product ID. This member  is not currently filled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-structures">AD RMS Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a>
- 
-
- 
 

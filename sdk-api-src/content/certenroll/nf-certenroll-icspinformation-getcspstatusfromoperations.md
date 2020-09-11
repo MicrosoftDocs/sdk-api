@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusFromOperations, GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security],ICspInformation interface, ICspInformation interface [Security],GetCspStatusFromOperations method, ICspInformation.GetCspStatusFromOperations, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
-f1_keywords:
-- certenroll/ICspInformation.GetCspStatusFromOperations
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformation.GetCspStatusFromOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformation::GetCspStatusFromOperations
+ - certenroll/ICspInformation::GetCspStatusFromOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformation.GetCspStatusFromOperations
 ---
 
 # ICspInformation::GetCspStatusFromOperations
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCspStatusFromOperations</b> method  creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher  operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pAlgorithm [in, optional]
 
@@ -94,16 +90,11 @@ If you set the XCN_NCRYPT_PREFER_SIGNATURE_ONLY_OPERATION or XCN_NCRYPT_PREFER_N
 <li>XCN_NCRYPT_HASH_OPERATION</li>
 </ul>
 
-
-
 ### -param ppValue [out]
 
 Address of a variable that receives a pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> interface.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -139,27 +130,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certen
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object contains status information about a cryptographic provider. Each object is initialized for a specific algorithm supported by the provider. If you do not specify an algorithm in the <i>pAlgorithm</i> parameter, the first supported algorithm that is consistent with the permitted operations is chosen to create the <b>ICspStatus</b> object.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
- 
-
- 
 

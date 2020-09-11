@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
 ms.date: 12/05/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
-f1_keywords:
-- thumbnailstreamcache/IThumbnailStreamCache
-dev_langs:
-- c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- thumbnailstreamcache.h
-api_name:
-- IThumbnailStreamCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailStreamCache
+ - thumbnailstreamcache/IThumbnailStreamCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - thumbnailstreamcache.h
+api_name:
+ - IThumbnailStreamCache
 ---
 
 # IThumbnailStreamCache interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Sets the thumbnail stream. This method is for internal use only and can only be 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

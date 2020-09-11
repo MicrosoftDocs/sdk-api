@@ -8,10 +8,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 1BCE3EC3-8B48-4F16-8E91-78776C07F309
 ms.date: 12/05/2018
 ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface,described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
-f1_keywords:
-- xamlom/IXamlDiagnostics
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xamlom.h
-api_name:
-- IXamlDiagnostics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXamlDiagnostics
+ - xamlom/IXamlDiagnostics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xamlom.h
+api_name:
+ - IXamlDiagnostics
 ---
 
 # IXamlDiagnostics interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a XAML Diagnostics session.
-
 
 ## -inheritance
 
@@ -143,16 +142,9 @@ Adds an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-i
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

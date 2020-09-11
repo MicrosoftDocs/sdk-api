@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: AFA9CC1B-847A-4237-9942-EC721FA86E4E
 ms.date: 12/05/2018
 ms.keywords: WICJpegIndexingOptions, WICJpegIndexingOptions enumeration [Windows Imaging Component], WICJpegIndexingOptionsGenerateOnDemand, WICJpegIndexingOptionsGenerateOnLoad, WICJpegIndexingOptions_FORCE_DWORD, wic.wicjpegindexingoptions, wincodec/WICJpegIndexingOptions, wincodec/WICJpegIndexingOptionsGenerateOnDemand, wincodec/WICJpegIndexingOptionsGenerateOnLoad, wincodec/WICJpegIndexingOptions_FORCE_DWORD
-f1_keywords:
-- wincodec/WICJpegIndexingOptions
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wincodec.h
-api_name:
-- WICJpegIndexingOptions
 targetos: Windows
 req.typenames: WICJpegIndexingOptions
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICJpegIndexingOptions
+ - wincodec/WICJpegIndexingOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wincodec.h
+api_name:
+ - WICJpegIndexingOptions
 ---
 
 # WICJpegIndexingOptions enumeration
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the options for indexing a JPEG image. 
-
+Specifies the options for indexing a JPEG image.
 
 ## -enum-fields
-
-
-
 
 ### -field WICJpegIndexingOptionsGenerateOnDemand
 
 Index generation is deferred until <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">IWICBitmapSource::CopyPixels</a> is called on the image.
 
-
 ### -field WICJpegIndexingOptionsGenerateOnLoad
 
 Index generation is performed when the when the image is initially loaded.
 
-
 ### -field WICJpegIndexingOptions_FORCE_DWORD
 
-Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used. 
-
+Forces this enumeration to compile to 32 bits in size. Without this value, some compilers would allow this enumeration to compile to a size other than 32 bits. This value is not used.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>
- 
-
- 
 

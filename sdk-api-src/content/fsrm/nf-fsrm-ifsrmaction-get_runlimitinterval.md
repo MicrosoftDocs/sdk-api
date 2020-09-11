@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 3d5be77f-282f-479d-aa34-a8cb1c771951
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],RunLimitInterval property, IFsrmAction.RunLimitInterval, IFsrmAction.get_RunLimitInterval, IFsrmAction::RunLimitInterval, IFsrmAction::get_RunLimitInterval, IFsrmAction::put_RunLimitInterval, RunLimitInterval property [File Server Resource Manager], RunLimitInterval property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_runlimitinterval, fsrm.ifsrmaction_runlimitinterval, fsrm/IFsrmAction::RunLimitInterval, fsrm/IFsrmAction::get_RunLimitInterval, fsrm/IFsrmAction::put_RunLimitInterval, get_RunLimitInterval
-f1_keywords:
-- fsrm/IFsrmAction.RunLimitInterval
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmAction.RunLimitInterval
-- IFsrmAction.get_RunLimitInterval
-- IFsrmAction.put_RunLimitInterval
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmAction::get_RunLimitInterval
+ - fsrm/IFsrmAction::get_RunLimitInterval
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmAction.RunLimitInterval
+ - IFsrmAction.get_RunLimitInterval
+ - IFsrmAction.put_RunLimitInterval
 ---
 
 # IFsrmAction::get_RunLimitInterval
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -63,13 +63,9 @@ Retrieves or sets the interval that must expire before the action is run again.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property specifies the interval that should occur before the action is run again. For example, if the 
     interval has expired since the action last ran, the server will run the action again in response to an event; 
@@ -116,18 +112,8 @@ If an event occurs during this interval, do not run the action again. The interv
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a>
- 
-
- 
 

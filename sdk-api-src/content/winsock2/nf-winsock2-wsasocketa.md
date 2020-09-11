@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: dcf2e543-de54-43d9-9e45-4cb935da3548
 ms.date: 12/05/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SG_CONSTRAINED_GROUP, SG_UNCONSTRAINED_GROUP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSASocket, WSASocket function [Winsock], WSASocketA, WSASocketW, WSA_FLAG_ACCESS_SYSTEM_SECURITY, WSA_FLAG_MULTIPOINT_C_LEAF, WSA_FLAG_MULTIPOINT_C_ROOT, WSA_FLAG_MULTIPOINT_D_LEAF, WSA_FLAG_MULTIPOINT_D_ROOT, WSA_FLAG_NO_HANDLE_INHERIT, WSA_FLAG_OVERLAPPED, _win32_wsasocket_2, winsock.wsasocket_2, winsock2/WSASocket, winsock2/WSASocketA, winsock2/WSASocketW
-f1_keywords:
-- winsock2/WSASocket
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASocket
-- WSASocketA
-- WSASocketW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASocketA
+ - winsock2/WSASocketA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASocket
+ - WSASocketA
+ - WSASocketW
 ---
 
 # WSASocketA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSASocket</b> function creates a socket that is bound to a specific transport-service provider.
 
-
 ## -parameters
-
-
-
 
 ### -param af [in]
 
@@ -182,8 +178,6 @@ This address family is supported on Windows XP with SP2 or later if the compute
 </td>
 </tr>
 </table>
- 
-
 
 ### -param type [in]
 
@@ -262,8 +256,7 @@ A socket type that provides a pseudo-stream packet based on datagrams.
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
-In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DGRAM</b> and <b>SOCK_STREAM</b>. 
-
+In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DGRAM</b> and <b>SOCK_STREAM</b>.
 
 ### -param protocol [in]
 
@@ -372,15 +365,12 @@ This <i>protocol</i> value is only supported if the Reliable Multicast Protocol 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpProtocolInfo [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure that defines the characteristics of the socket to be created. If this parameter is not <b>NULL</b>, the socket will be bound to the provider associated with the indicated 
-<b>WSAPROTOCOL_INFO</b> structure. 
-
+<b>WSAPROTOCOL_INFO</b> structure.
 
 ### -param g [in]
 
@@ -589,8 +579,6 @@ This flag is supported on Windows 7 with SP1,  Windows Server 2008 R2 with SP
 
 ## -returns
 
-
-
 If no error occurs, 
 <b>WSASocket</b> returns a descriptor referencing the new socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -769,14 +757,8 @@ The specified socket type is not supported in this address family.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSASocket</b> function causes a socket descriptor and any related resources to be allocated and associated with a transport-service provider. Most sockets should be created with the <b>WSA_FLAG_OVERLAPPED</b> attribute set in the <i>dwFlags</i> parameter. A socket created with this attribute supports the use of overlapped I/O operations which provide higher performance. By default, a socket created with the <b>WSASocket</b> function will not have this overlapped attribute set. In contrast, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function creates a socket that supports overlapped I/O operations as the default behavior.
@@ -1035,9 +1017,6 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
@@ -1111,7 +1090,4 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

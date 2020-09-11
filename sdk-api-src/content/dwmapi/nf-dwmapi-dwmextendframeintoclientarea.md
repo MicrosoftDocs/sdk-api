@@ -8,10 +8,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmextendframeintoclientarea.htm
 ms.date: 12/05/2018
 ms.keywords: DwmExtendFrameIntoClientArea, DwmExtendFrameIntoClientArea function [Desktop Window Manager], _udwm_dwmextendframeintoclientarea, _udwm_dwmextendframeintoclientarea_cpp, dwm.dwmextendframeintoclientarea, dwmapi/DwmExtendFrameIntoClientArea, winui._udwm_dwmextendframeintoclientarea
-f1_keywords:
-- dwmapi/DwmExtendFrameIntoClientArea
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- ext-ms-win-dwmapi-ext-l1-1-0.dll
-- ext-ms-win-dwmapi-ext-l1-1-1.dll
-- ext-ms-win-dwmapi-ext-l1-1-2.dll
-api_name:
-- DwmExtendFrameIntoClientArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmExtendFrameIntoClientArea
+ - dwmapi/DwmExtendFrameIntoClientArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+api_name:
+ - DwmExtendFrameIntoClientArea
 ---
 
 # DwmExtendFrameIntoClientArea function
@@ -52,37 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the window frame into the client area.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd
 
 The handle to the window in which the frame will be extended into the client area.
 
-
 ### -param pMarInset [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-margins">MARGINS</a> structure that describes the margins to use when extending the frame into the client area.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function must be called whenever Desktop Window Manager (DWM) composition is toggled. Handle the <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> message for composition change notification. 
 
@@ -136,17 +123,7 @@ HRESULT ExtendIntoClientAll(HWND hwnd)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/dwm/blur-ovw">DWM Blur Behind Overview</a>
- 
-
- 
 

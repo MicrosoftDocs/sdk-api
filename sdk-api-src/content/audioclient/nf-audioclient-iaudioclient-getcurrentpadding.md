@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 2a2c9ddf-f668-41ff-85f0-34de593c0fe2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPadding, GetCurrentPadding method [Core Audio], GetCurrentPadding method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetCurrentPadding method, IAudioClient.GetCurrentPadding, IAudioClient::GetCurrentPadding, IAudioClientGetCurrentPadding, audioclient/IAudioClient::GetCurrentPadding, coreaudio.iaudioclient_getcurrentpadding
-f1_keywords:
-- audioclient/IAudioClient.GetCurrentPadding
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.GetCurrentPadding
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::GetCurrentPadding
+ - audioclient/IAudioClient::GetCurrentPadding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.GetCurrentPadding
 ---
 
 # IAudioClient::GetCurrentPadding
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCurrentPadding</b> method retrieves the number of frames of padding in the endpoint buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pNumPaddingFrames [out]
 
 Pointer to a <b>UINT32</b> variable into which the method writes the frame count (the number of audio frames of padding in the buffer).
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -122,14 +112,8 @@ Parameter <i>pNumPaddingFrames</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
@@ -153,13 +137,7 @@ Second, for an exclusive-mode capture stream, the padding value reported by <b>G
 
 For a code example that calls the <b>GetCurrentPadding</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer">IAudioCaptureClient::GetBuffer</a>
 
@@ -178,7 +156,4 @@ For a code example that calls the <b>GetCurrentPadding</b> method, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
- 
-
- 
 

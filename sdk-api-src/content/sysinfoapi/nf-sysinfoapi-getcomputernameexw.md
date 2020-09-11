@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.date: 12/05/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
-f1_keywords:
-- sysinfoapi/GetComputerNameEx
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetComputerNameEx
-- GetComputerNameExA
-- GetComputerNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetComputerNameExW
+ - sysinfoapi/GetComputerNameExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetComputerNameEx
+ - GetComputerNameExA
+ - GetComputerNameExW
 ---
 
 # GetComputerNameExW function
@@ -59,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param NameType [in]
 
@@ -166,8 +162,6 @@ The NetBIOS name of the local computer. If the local computer is a node in a clu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
@@ -177,7 +171,6 @@ A pointer to a buffer that receives the computer name or the cluster virtual ser
 
 
 The length of the name may be greater than MAX_COMPUTERNAME_LENGTH characters because DNS allows longer names. To ensure that this buffer is large enough, set this parameter to <b>NULL</b> and use the required buffer size returned in the <i>lpnSize</i> parameter.
-
 
 ### -param nSize [in, out]
 
@@ -190,10 +183,7 @@ If the buffer is too small, the function fails and <a href="https://docs.microso
 
 If <i>lpBuffer</i> is <b>NULL</b>, this parameter must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
@@ -217,14 +207,8 @@ The <i>lpBuffer</i> buffer is too small. The <i>lpnSize</i> parameter contains t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If group policy is not set for the local machine, the 
 <b>GetComputerNameEx</b> function retrieves the NetBIOS or DNS names established at system startup. If  group policy is set, the function returns the primary domain name set by group policy. Name changes made by the 
@@ -291,9 +275,6 @@ void _tmain(void)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
 
 
@@ -328,7 +309,4 @@ void _tmain(void)
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
- 
-
- 
 

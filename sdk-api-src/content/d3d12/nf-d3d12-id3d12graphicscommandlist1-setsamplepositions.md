@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetSamplePositions method, ID3D12GraphicsCommandList1.SetSamplePositions, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions, SetSamplePositions method, SetSamplePositions method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList1.SetSamplePositions
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList1.SetSamplePositions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList1::SetSamplePositions
+ - d3d12/ID3D12GraphicsCommandList1::SetSamplePositions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList1.SetSamplePositions
 ---
 
 # ID3D12GraphicsCommandList1::SetSamplePositions
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
 
-
 ## -parameters
-
-
-
 
 ### -param NumSamplesPerPixel [in]
 
@@ -65,7 +61,6 @@ Type: <b>UINT</b>
 <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
 
 Specifies the number of samples to take, per pixel. This value can be 1, 2, 4, 8, or 16, otherwise the SetSamplePosition call is dropped. The number of samples must match the sample count configured in the PSO at draw time, otherwise the behavior is undefined.
-
 
 ### -param NumPixels [in]
 
@@ -77,7 +72,6 @@ Specifies the number of pixels that sample patterns are being specified for. Thi
 
 Note that the maximum number of combined samples can't exceed 16, otherwise the call is dropped. If NumPixels is set to 4, NumSamplesPerPixel can specify no more than 4 samples.
 
-
 ### -param pSamplePositions [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_sample_position">D3D12_SAMPLE_POSITION</a>*</b>
@@ -88,10 +82,7 @@ Specifies an array of D3D12_SAMPLE_POSITION elements. The size of the array is N
 
 If centroid interpolation is used during rendering, the order of positions for each pixel determines centroid-sampling prioritiy. That is, the first covered sample in the order specified is chosen as the centroid sample location.
 
-
 ## -remarks
-
-
 
 The operational semantics of sample positions are determined by the various draw, copy, resolve, and other operations that can occur.
 
@@ -141,16 +132,7 @@ If an application wants to minimize the decompressed area when only a portion ne
 
 If an application wants to minimize the decompressed area when only a portion needs to be used, or just to preserve compression, ResolveSubresourceRegion() can be called in DECOMPRESS mode with a rect specified.  This will decompress just the relevant area to a separate resource leaving the source intact on some hardware, though on other hardware even the source area is decompressed. The separate explicitly decompressed resource can then be transitioned to the desired state (such as SHADER_RESOURCE).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
- 
-
- 
 

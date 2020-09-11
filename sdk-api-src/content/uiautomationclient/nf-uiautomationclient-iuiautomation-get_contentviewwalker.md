@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: f34b7631-1d95-4c2e-b3fc-7600d5b24b15
 ms.date: 12/05/2018
 ms.keywords: ContentViewWalker property [Windows Accessibility], ContentViewWalker property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ContentViewWalker property, IUIAutomation.ContentViewWalker, IUIAutomation.get_ContentViewWalker, IUIAutomation::ContentViewWalker, IUIAutomation::get_ContentViewWalker, get_ContentViewWalker, uiauto.uiauto_IUIAutomation_ContentViewWalker, uiauto_IUIAutomation_ContentViewWalker, uiautomationclient/IUIAutomation::ContentViewWalker, uiautomationclient/IUIAutomation::get_ContentViewWalker, winauto.uiauto_IUIAutomation_ContentViewWalker
-f1_keywords:
-- uiautomationclient/IUIAutomation.ContentViewWalker
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.ContentViewWalker
-- IUIAutomation.get_ContentViewWalker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::get_ContentViewWalker
+ - uiautomationclient/IUIAutomation::get_ContentViewWalker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.ContentViewWalker
+ - IUIAutomation.get_ContentViewWalker
 ---
 
 # IUIAutomation::get_ContentViewWalker
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a> interface used to discover content elements.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_controlviewwalker">ControlViewWalker</a>
 
@@ -81,7 +76,4 @@ This property is read-only.
 
 
 <b>Reference</b>
- 
-
- 
 

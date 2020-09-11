@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: bc821e84-fd18-449c-89d0-a261f43f8971
 ms.date: 12/05/2018
 ms.keywords: OPC_COMPRESSION_FAST, OPC_COMPRESSION_MAXIMUM, OPC_COMPRESSION_NONE, OPC_COMPRESSION_NORMAL, OPC_COMPRESSION_OPTIONS, OPC_COMPRESSION_OPTIONS enumeration [Open Packaging Conventions], OPC_COMPRESSION_SUPERFAST, msopc/OPC_COMPRESSION_FAST, msopc/OPC_COMPRESSION_MAXIMUM, msopc/OPC_COMPRESSION_NONE, msopc/OPC_COMPRESSION_NORMAL, msopc/OPC_COMPRESSION_OPTIONS, msopc/OPC_COMPRESSION_SUPERFAST, opc.opc_compression_options
-f1_keywords:
-- msopc/OPC_COMPRESSION_OPTIONS
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msopc.h
-api_name:
-- OPC_COMPRESSION_OPTIONS
 targetos: Windows
 req.typenames: OPC_COMPRESSION_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msopc_0000_0002_0002
+ - msopc/__MIDL___MIDL_itf_msopc_0000_0002_0002
+ - OPC_COMPRESSION_OPTIONS
+ - msopc/OPC_COMPRESSION_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msopc.h
+api_name:
+ - OPC_COMPRESSION_OPTIONS
 ---
 
 # OPC_COMPRESSION_OPTIONS enumeration
@@ -49,44 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes ways to compress   part content.
 
-
 ## -enum-fields
-
-
-
 
 ### -field OPC_COMPRESSION_NONE
 
 Compression is turned off.
 
-
 ### -field OPC_COMPRESSION_NORMAL
 
 Compression is optimized for a balance between size and performance.
-
 
 ### -field OPC_COMPRESSION_MAXIMUM
 
 Compression is optimized for size.
 
-
 ### -field OPC_COMPRESSION_FAST
 
 Compression is optimized for performance.
-
 
 ### -field OPC_COMPRESSION_SUPERFAST
 
 Compression is optimized for high performance.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
@@ -121,7 +111,4 @@ Compression is optimized for high performance.
 
 
 <b>Reference</b>
- 
-
- 
 

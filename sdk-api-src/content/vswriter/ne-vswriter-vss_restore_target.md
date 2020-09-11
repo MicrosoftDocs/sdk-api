@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
 ms.date: 12/05/2018
 ms.keywords: VSS_RESTORE_TARGET, VSS_RESTORE_TARGET enumeration [VSS], VSS_RT_ALTERNATE, VSS_RT_DIRECTED, VSS_RT_ORIGINAL, VSS_RT_ORIGINAL_LOCATION, VSS_RT_UNDEFINED, _win32_vss_restore_target, base.vss_restore_target, enumeration [VSS], vswriter/VSS_RESTORE_TARGET, vswriter/VSS_RT_ALTERNATE, vswriter/VSS_RT_DIRECTED, vswriter/VSS_RT_ORIGINAL, vswriter/VSS_RT_ORIGINAL_LOCATION, vswriter/VSS_RT_UNDEFINED
-f1_keywords:
-- vswriter/VSS_RESTORE_TARGET
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VsWriter.h
-api_name:
-- VSS_RESTORE_TARGET
 targetos: Windows
 req.typenames: VSS_RESTORE_TARGET
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VSS_RESTORE_TARGET
+ - vswriter/VSS_RESTORE_TARGET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VsWriter.h
+api_name:
+ - VSS_RESTORE_TARGET
 ---
 
 # VSS_RESTORE_TARGET enumeration
 
 
 ## -description
-
 
 The <b>VSS_RESTORE_TARGET</b> enumeration is used 
     by a writer at restore time to indicate how all the files included in a selected component, and all the files in 
@@ -59,11 +59,7 @@ The <b>VSS_RESTORE_TARGET</b> enumeration is used
 Setting a restore target modifies or overrides the restore method set during backup (see 
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a>).
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_RT_UNDEFINED
 
@@ -74,7 +70,6 @@ This value indicates an error on the part of the writer.
 
 This value is not supported for express writers.
 
-
 ### -field VSS_RT_ORIGINAL
 
 This is the default restore target. 
@@ -83,7 +78,6 @@ This is the default restore target.
 This value indicates that the restoration of the files included in a selected component (or the component set 
        defined by that component) should proceed according to the original restore method specified at backup time by 
        a <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a> value.
-
 
 ### -field VSS_RT_ALTERNATE
 
@@ -94,7 +88,6 @@ The restore target should be set to <b>VSS_RT_ALTERNATE</b> only when alternate 
        mappings have been set for all the files managed by a selected component or component set.
 
 This value is not supported for express writers.
-
 
 ### -field VSS_RT_DIRECTED
 
@@ -107,7 +100,6 @@ Directed targeting allows a writer to control, on a file-by-file basis, how a fi
 
 This value is not supported for express writers.
 
-
 ### -field VSS_RT_ORIGINAL_LOCATION
 
 The files are restored to the location at which they were at backup time, even if the original 
@@ -119,10 +111,7 @@ The files are restored to the location at which they were at backup time, even i
 
 This value is not supported for express writers.
 
-
 ## -remarks
-
-
 
 A target of <b>VSS_RT_UNDEFINED</b> indicates an error state.
 
@@ -163,13 +152,7 @@ A restore target of <b>VSS_RT_ALTERNATE</b> without an alternate location mappin
 See <a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore 
     Locations</a> for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoretarget">IVssComponent::GetRestoreTarget</a>
 
@@ -180,7 +163,4 @@ See <a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a>
- 
-
- 
 

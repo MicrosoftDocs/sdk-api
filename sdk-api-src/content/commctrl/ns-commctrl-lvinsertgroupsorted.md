@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertgroupsorted.htm
 ms.date: 12/05/2018
 ms.keywords: '*PLVINSERTGROUPSORTED, LVINSERTGROUPSORTED, LVINSERTGROUPSORTED structure [Windows Controls], PLVINSERTGROUPSORTED, PLVINSERTGROUPSORTED structure pointer [Windows Controls], commctrl/LVINSERTGROUPSORTED, commctrl/PLVINSERTGROUPSORTED, controls.LVINSERTGROUPSORTED, controls.inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED_cpp'
-f1_keywords:
-- commctrl/LVINSERTGROUPSORTED
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVINSERTGROUPSORTED
 targetos: Windows
 req.typenames: LVINSERTGROUPSORTED, *PLVINSERTGROUPSORTED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVINSERTGROUPSORTED
+ - commctrl/tagLVINSERTGROUPSORTED
+ - PLVINSERTGROUPSORTED
+ - commctrl/PLVINSERTGROUPSORTED
+ - LVINSERTGROUPSORTED
+ - commctrl/LVINSERTGROUPSORTED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVINSERTGROUPSORTED
 ---
 
 # LVINSERTGROUPSORTED structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to sort groups. It is used with <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pfnGroupCompare
 
@@ -64,13 +64,11 @@ Type: <b>PFNLVGROUPCOMPARE</b>
 
 Pointer to application-defined function <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a> that is used to sort the groups.
 
-
 ### -field pvData
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPVOID</a>*</b>
 
 Data to sort; this is application-defined.
-
 
 ### -field lvGroup
 
@@ -78,11 +76,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-com
 
 Group to sort; this is application-defined.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a>
 
@@ -93,7 +87,4 @@ Group to sort; this is application-defined.
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
-f1_keywords:
-- p2p/PeerCollabGetInvitationResponse
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabGetInvitationResponse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabGetInvitationResponse
+ - p2p/PeerCollabGetInvitationResponse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabGetInvitationResponse
 ---
 
 # PeerCollabGetInvitationResponse function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabGetInvitationResponse</b> function obtains the response from  a peer previously invited to join a peer collaboration activity.
 
-
 ## -parameters
-
-
-
 
 ### -param hInvitation [in]
 
 Handle to an invitation to join a peer collaboration activity.
-
 
 ### -param ppInvitationResponse [out]
 
@@ -69,10 +64,7 @@ Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/
 
 Free the memory associated with this structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -148,24 +140,12 @@ A connection to the graph or group has failed, or a direct connection in a graph
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function must be called after <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinvitecontact">PeerCollabAsyncInviteContact</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinviteendpoint">PeerCollabAsyncInviteEndpoint</a> is called and the event handle provided to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabregisterevent">PeerCollabRegisterEvent</a> is signaled on the peer that sent the invitation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation_response">PEER_INVITATION_RESPONSE</a>
 
@@ -180,7 +160,4 @@ This function must be called after <a href="https://docs.microsoft.com/windows/d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabasyncinviteendpoint">PeerCollabAsyncInviteEndpoint</a>
- 
-
- 
 

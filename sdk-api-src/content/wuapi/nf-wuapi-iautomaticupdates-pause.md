@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
-f1_keywords:
-- wuapi/IAutomaticUpdates.Pause
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdates.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdates::Pause
+ - wuapi/IAutomaticUpdates::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdates.Pause
 ---
 
 # IAutomaticUpdates::Pause
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IAutomaticUpdates::Pause</b> is no longer supported. Starting with 
     Windows 10 calls to <b>Pause</b> always return 
@@ -57,19 +57,9 @@ ms.custom: 19H1
 
 Pauses automatic updates.
 
-
-
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code.
 
@@ -140,14 +130,8 @@ You cannot search for updates if the following conditions are true:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method requires administrator permissions.
 
@@ -162,20 +146,11 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 This method returns <b>WU_E_AU_NOSERVICE</b> if Automatic Updates is disabled, 
     initializing, uninitializing, or not configured.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">IAutomaticUpdates.Resume</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
-f1_keywords:
-- fsrmreports/IFsrmReportScheduler
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportScheduler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportScheduler
+ - fsrmreports/IFsrmReportScheduler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportScheduler
 ---
 
 # IFsrmReportScheduler interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[Starting with Windows Server 2012 this interface is not supported; use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmscheduledtask">MSFT_FSRMScheduledTask</a> WMI class to manage 
@@ -61,7 +61,6 @@ To get this interface, call the
     <b>CLSID_FsrmReportScheduler</b> as the class identifier and 
     <code>__uuidof(IFsrmReportScheduler)</code> as the interface identifier. 
     For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/scheduling-a-report-job">Scheduling a Report Job</a>.
-
 
 ## -inheritance
 
@@ -115,12 +114,9 @@ Verifies that the specified local directory paths that are used as the source fo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To enumerate the schedules for reports, call the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">IFsrmReportManager::EnumReportJobs</a> 
@@ -144,20 +140,11 @@ To enumerate the schedules for file management jobs, call the
 To create this object from a script, use the "Fsrm.FsrmReportScheduler" program 
     identifier.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportscheduler">FsrmReportScheduler</a>
- 
-
- 
 

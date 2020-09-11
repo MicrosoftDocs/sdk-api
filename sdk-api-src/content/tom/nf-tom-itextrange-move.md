@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Move method, ITextRange.Move, ITextRange::Move, Move, Move method [Windows Controls], Move method [Windows Controls],ITextRange interface, _win32_ITextRange_Move, _win32_ITextRange_Move_cpp, controls.ITextRange_Move, controls._win32_ITextRange_Move, tom/ITextRange::Move
-f1_keywords:
-- tom/ITextRange.Move
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.Move
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::Move
+ - tom/ITextRange::Move
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.Move
 ---
 
 # ITextRange::Move
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on <i>Count</i>, and then is moved. 
-
+Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on <i>Count</i>, and then is moved.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
 Type: <b>long</b>
 
-Unit to use. The default value is <b>tomCharacter</b>. For information on other values, see the discussion in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>. 
-
+Unit to use. The default value is <b>tomCharacter</b>. For information on other values, see the discussion in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
 
 ### -param Count
 
@@ -71,17 +66,13 @@ Type: <b>long</b>
 
 Number of <i>Unit</i>s to move past. The default value is 1. If <i>Count</i> is greater than zero, motion is forward—toward the end of the story—and if <i>Count</i> is less than zero, motion is backward—toward the beginning. If <i>Count</i> is zero, the range is unchanged.
 
-
 ### -param pDelta
 
 Type: <b>long*</b>
 
-The actual number of <i>Unit</i>s the insertion point moves past. The pointer can be <b>NULL</b>. For more information, see the Remarks section. 
-
+The actual number of <i>Unit</i>s the insertion point moves past. The pointer can be <b>NULL</b>. For more information, see the Remarks section.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,14 +106,8 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the range is degenerate (an insertion point), this method tries to move the insertion point <i>Count</i> <i>Unit</i>s. 
 
@@ -148,15 +133,9 @@ The direction of motion refers to the logical character ordering in the plain-te
 If <i>Unit</i> specifies characters (<b>tomCharacter</b>), the Text Object Model (TOM) uses the Unicode character set. To convert between Unicode and multibyte character sets the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions provide easy ways to convert between Unicode and multibyte character sets on import and export, respectively. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">Open</a>. In this connection, the use of a carriage return/line feed (CR/LF) to separate paragraphs is as problematic as double-byte character set (DBCS). The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> UI methods back up over a CR/LF as if it were a single character, but the <b>ITextRange::Move</b> methods count CR/LFs as two characters. It's clearly better to use a single character as a paragraph separator, which in TOM is represented by a character return, although the Unicode paragraph separator character, 0x2029, is accepted. In general, TOM engines should support CR/LF, carriage return (CR), line feed (LF), vertical tab, form feed, and 0x2029. Microsoft Rich Edit 2.0 also supports CR/CR/LF for backward compatibility.
 
 See also the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestart">ITextRange::MoveStart</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveend">ITextRange::MoveEnd</a> methods, which move the range Start or End position <i>Count</i> 
-				<i>Unit</i>s, respectively. 
-
-
-
+				<i>Unit</i>s, respectively.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -203,7 +182,4 @@ See also the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
- 
-
- 
 

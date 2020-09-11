@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: c4fc25f6-0157-406d-b523-8542183291ed
 ms.date: 12/05/2018
 ms.keywords: GetDisplaySpecifier, GetDisplaySpecifier method [Active Directory], GetDisplaySpecifier method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetDisplaySpecifier method, IDsDisplaySpecifier.GetDisplaySpecifier, IDsDisplaySpecifier::GetDisplaySpecifier, _glines_idsdisplayspecifier_getdisplayspecifier, ad.idsdisplayspecifier__getdisplayspecifier, ad.idsdisplayspecifier_getdisplayspecifier, dsclient/IDsDisplaySpecifier::GetDisplaySpecifier
-f1_keywords:
-- dsclient/IDsDisplaySpecifier.GetDisplaySpecifier
-dev_langs:
-- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dsadmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dsadmin.dll
-api_name:
-- IDsDisplaySpecifier.GetDisplaySpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsDisplaySpecifier::GetDisplaySpecifier
+ - dsclient/IDsDisplaySpecifier::GetDisplaySpecifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dsadmin.dll
+api_name:
+ - IDsDisplaySpecifier.GetDisplaySpecifier
 ---
 
 # IDsDisplaySpecifier::GetDisplaySpecifier
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDsDisplaySpecifier::GetDisplaySpecifier</b> method binds to the display specifier object for a given class in Active Directory Domain Services.
 
-
 ## -parameters
-
-
-
 
 ### -param pszObjectClass [in]
 
 Pointer to a null-terminated Unicode string that contains the name of the object class to retrieve the display specifier   for.
 
-
 ### -param riid [in]
 
 Contains the interface identifier of the desired interface.
-
 
 ### -param ppv [in, out]
 
 Pointer to an interface pointer that receives the display specifier of the object class.
 
-
 ## -returns
-
-
 
 Returns a standard <b>HRESULT</b> value including the following.
 
-
-
-
 ## -remarks
-
-
 
 This method uses the 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to the display specifier object of the given class. If that fails, it attempts to bind to the display specifier in the user locale. If this fails again, it binds to the display specifier in the default locale.
@@ -123,14 +109,7 @@ if(SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
@@ -145,7 +124,4 @@ if(SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver">IDsDisplaySpecifier::SetServer</a>
- 
-
- 
 

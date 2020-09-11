@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 2a851ec1-ccb9-42d3-bbb5-70cb9cf02cc7
 ms.date: 12/05/2018
 ms.keywords: SORTVERSIONFROMLCID, SORTVERSIONFROMLCID macro [Internationalization for Windows Applications], _win32_SORTVERSIONFROMLCID, intl.sortversionfromlcid, winnt/SORTVERSIONFROMLCID
-f1_keywords:
-- winnt/SORTVERSIONFROMLCID
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- SORTVERSIONFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SORTVERSIONFROMLCID
+ - winnt/SORTVERSIONFROMLCID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - SORTVERSIONFROMLCID
 ---
 
 # SORTVERSIONFROMLCID macro
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the sort version from a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lcid
 
@@ -89,17 +85,9 @@ Locale identifier. You can use the <a href="https://docs.microsoft.com/windows/d
 
 ## -remarks
 
-
-
 Note that this macro is entirely distinct from <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sortidfromlcid">SORTIDFROMLCID</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a>
 
@@ -114,7 +102,4 @@ Note that this macro is entirely distinct from <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sortidfromlcid">SORTIDFROMLCID</a>
- 
-
- 
 

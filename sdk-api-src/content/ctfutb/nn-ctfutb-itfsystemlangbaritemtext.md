@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f39ec024-1bdf-4451-9598-1953bffc9704
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemText, ITfSystemLangBarItemText interface [Text Services Framework], ITfSystemLangBarItemText interface [Text Services Framework],described, _tsf_itfsystemlangbaritemtext_ref, ctfutb/ITfSystemLangBarItemText, tsf.itfsystemlangbaritemtext
-f1_keywords:
-- ctfutb/ITfSystemLangBarItemText
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ctfutb.h
-api_name:
-- ITfSystemLangBarItemText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSystemLangBarItemText
+ - ctfutb/ITfSystemLangBarItemText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ctfutb.h
+api_name:
+ - ITfSystemLangBarItemText
 ---
 
 # ITfSystemLangBarItemText interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfSystemLangBarItemText</b> interface is implemented by a system language bar and is used by a system language bar extension to modify the description displayed for the menu. The extension can obtain an instance of this interface by calling the menu object QueryInterface method with IID_ITfSystemLangBarItem.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Modify the text displayed for the system language bar menu.
 
 </td>
 </tr>
-</table> 
+</table>
 

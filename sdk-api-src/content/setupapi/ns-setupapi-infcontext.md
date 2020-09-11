@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 5b3d32a8-e651-4017-aaa7-b532ec47da53
 ms.date: 12/05/2018
 ms.keywords: '*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCONTEXT, PINFCONTEXT structure pointer [Setup API], _setupapi_infcontext_str, setup.infcontext_str, setupapi/INFCONTEXT, setupapi/PINFCONTEXT'
-f1_keywords:
-- setupapi/INFCONTEXT
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Setupapi.h
-api_name:
-- INFCONTEXT
 targetos: Windows
 req.typenames: INFCONTEXT, *PINFCONTEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _INFCONTEXT
+ - setupapi/_INFCONTEXT
+ - PINFCONTEXT
+ - setupapi/PINFCONTEXT
+ - INFCONTEXT
+ - setupapi/INFCONTEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Setupapi.h
+api_name:
+ - INFCONTEXT
 ---
 
 # INFCONTEXT structure
@@ -49,33 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>INFCONTEXT</b> structure stores context information that functions such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetlinetexta">SetupGetLineText</a> use to navigate INF files.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Inf
 
 Handle to the INF file returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopeninffilea">SetupOpenInfFile</a>.
 
-
 ### -field CurrentInf
 
 Pointer to the current INF file. The <b>Inf</b> member may point to multiple files if they were appended to the open INF file using 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>.
 
-
 ### -field Section
 
 Section in the current INF file.
-
 
 ### -field Line
 
@@ -88,9 +85,6 @@ Line of the current section in the INF file.
 <div> </div>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
@@ -109,7 +103,4 @@ Line of the current section in the INF file.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
- 
-
- 
 

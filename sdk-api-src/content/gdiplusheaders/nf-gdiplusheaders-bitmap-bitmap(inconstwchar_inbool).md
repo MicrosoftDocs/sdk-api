@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_56filename_useicm.htm
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN const WCHAR,IN BOOL), Bitmap.Bitmap(const WCHAR*,BOOL), Bitmap::Bitmap, Bitmap::Bitmap(IN const WCHAR,IN BOOL), _gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_filename_useIcm_
-f1_keywords:
-- gdiplusheaders/Bitmap.Bitmap
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Bitmap.Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Bitmap::Bitmap
+ - gdiplusheaders/Bitmap::Bitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Bitmap.Bitmap
 ---
 
 # Bitmap::Bitmap(IN const WCHAR,IN BOOL)
@@ -50,33 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <b>Bitmap::Bitmap</b> object based on an image file.
 
-
 ## -parameters
-
-
-
 
 ### -param filename [in]
 
 Type: <b>const WCHAR*</b>
 
-Pointer to a null-terminated string that specifies the path name of the image file. The graphics file formats supported by GDI+ are BMP, GIF, JPEG, PNG, TIFF, Exif, WMF, and EMF. 
-
+Pointer to a null-terminated string that specifies the path name of the image file. The graphics file formats supported by GDI+ are BMP, GIF, JPEG, PNG, TIFF, Exif, WMF, and EMF.
 
 ### -param useEmbeddedColorManagement [in]
 
 Type: <b>BOOL</b>
 
-Optional. Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> object applies color correction according to color management information that is embedded in the image file. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>. 
-
+Optional. Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> object applies color correction according to color management information that is embedded in the image file. Embedded information can include International Color Consortium (ICC) profiles, gamma values, and chromaticity information. <b>TRUE</b> specifies that color correction is enabled, and <b>FALSE</b> specifies that color correction is not enabled. The default value is <b>FALSE</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
@@ -99,7 +90,4 @@ Optional. Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> obj
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
- 
-
- 
 

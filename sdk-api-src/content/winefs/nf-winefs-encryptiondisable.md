@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6ff93a90-c1cf-4782-862c-d3d7e294c4b0
 ms.date: 12/05/2018
 ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encryptiondisable, base.encryptiondisable, fs.encryptiondisable, winefs/EncryptionDisable
-f1_keywords:
-- winefs/EncryptionDisable
-dev_langs:
-- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- EncryptionDisable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EncryptionDisable
+ - winefs/EncryptionDisable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - EncryptionDisable
 ---
 
 # EncryptionDisable function
@@ -49,45 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disables or enables encryption of the specified directory and the files in it. It does not 
     affect encryption of subdirectories below the indicated directory.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param DirPath [in]
 
 The name of the directory for which to enable or 
       disable encryption.
 
-
 ### -param Disable [in]
 
 Indicates whether to disable encryption (<b>TRUE</b>) or enable it 
       (<b>FALSE</b>).
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-      
-
-
-
 
 ## -remarks
-
-
 
 Under normal circumstances, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will not encrypt 
     files and directories with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute set. It is possible to 
@@ -197,14 +182,7 @@ No
 
 SMB 3.0 does not support EFS on shares with continuous availability capability.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
 
@@ -231,7 +209,4 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
- 
-
- 
 

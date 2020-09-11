@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
 ms.date: 12/05/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
-f1_keywords:
-- npapi/NPLogonNotify
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPLogonNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPLogonNotify
+ - npapi/NPLogonNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPLogonNotify
 ---
 
 # NPLogonNotify function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script. The <b>NPLogonNotify</b> function is implemented by a credential manager DLL (see Remarks).
 
-
 ## -parameters
-
-
-
 
 ### -param lpLogonId [in]
 
 Pointer to the identifier of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session</a> that just logged on.
-
 
 ### -param lpAuthentInfoType [in]
 
@@ -87,7 +82,6 @@ When Microsoft is the primary authenticator (that is, when <i>lpAuthentifoType</
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
 
-
 ### -param lpPreviousAuthentInfoType [in]
 
 Pointer to a string that identifies the type of structure pointed to by <i>lpPreviousAuthentInfo</i>. If the pointer is <b>NULL</b>, there was no previous information. The values that are expected here are the same as those in <i>lpAuthentInfoType</i>. 
@@ -103,8 +97,6 @@ MSV1_0:Interactive
 
 ```
 
-
-
 ### -param lpPreviousAuthentInfo [in]
 
 Pointer to a structure that contains the credentials used before the authentication information change. Prior information is provided if the user was forced to change the password (or other authentication information) before logging on. If the user was not forced to change authentication information, this pointer is <b>NULL</b>. The values that are expected here are the same as those in <i>lpAuthentInfo</i>. 
@@ -115,7 +107,6 @@ Pointer to a structure that contains the credentials used before the authenticat
 When Microsoft is the primary authenticator, the structure used is 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
-
 
 ### -param lpStationName [in]
 
@@ -152,8 +143,6 @@ Indicates that this is a logon initiated by the Service controller. <i>StationHa
 </td>
 </tr>
 </table>
- 
-
 
 ### -param StationHandle [in]
 
@@ -185,8 +174,6 @@ Random data. Do not use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpLogonScript [out]
 
@@ -198,10 +185,7 @@ Pointer to a location where a pointer to a <b>null</b>-terminated string may be 
 After the function completes, this value may point to a <b>null</b>-terminated string that contains the name of a program to execute plus any parameters the program requires. 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> should be used to allocate the memory for the returned string. This memory will be freed by MPR when it is no longer needed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns WN_SUCCESS.
 
@@ -247,14 +231,8 @@ The credential manager is still initializing and is not ready to be called.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>NPLogonNotify</b> function is implemented by credential managers to receive notifications when authentication information changes.
 
@@ -265,13 +243,7 @@ If the string requires the command processor to process the string, as in the ca
 
 Logon scripts will be run in the user context when the user profile is available. However, environment variables that are set will not be global and will not be available to the initial shell (for example, Program Manager) or any other program run on behalf of the user.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
@@ -290,7 +262,4 @@ Logon scripts will be run in the user context when the user profile is available
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a>
- 
-
- 
 

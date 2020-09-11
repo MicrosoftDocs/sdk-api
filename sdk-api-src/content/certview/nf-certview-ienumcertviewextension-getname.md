@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7c56708c-ae25-46f5-94f3-d58eea8d08d4
 ms.date: 12/05/2018
 ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CEnumCERTVIEWEXTENSION object, GetName method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetName method, IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
-f1_keywords:
-- certview/IEnumCERTVIEWEXTENSION.GetName
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWEXTENSION.GetName
-- CEnumCERTVIEWEXTENSION.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWEXTENSION::GetName
+ - certview/IEnumCERTVIEWEXTENSION::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWEXTENSION.GetName
+ - CEnumCERTVIEWEXTENSION.GetName
 ---
 
 # IEnumCERTVIEWEXTENSION::GetName
@@ -50,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetName</b> method retrieves the name of the current extension in the extension-enumeration sequence.
 
  The returned extension name is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string, as in L"2.5.29.31".
 
-
 ## -parameters
-
-
-
 
 ### -param pstrOut [out]
 
 A pointer to a value of <b>BSTR</b> type that contains the name of the extension.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and tat the <i>pstrOut</i> parameter is set to the name of the extension.
@@ -80,12 +73,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a <b>String</b> that contains the name of the extension.
 
-
-
-
 ## -remarks
-
-
 
 This function is used to retrieve the name of the extension currently referenced by the 
 extension-enumeration sequence.
@@ -119,14 +107,7 @@ if (NULL != bstrExtName)
     SysFreeString(bstrExtName);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewextension">IEnumCERTVIEWEXTENSION</a>
 
@@ -149,7 +130,4 @@ if (NULL != bstrExtName)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">IEnumCERTVIEWEXTENSION::Skip</a>
- 
-
- 
 

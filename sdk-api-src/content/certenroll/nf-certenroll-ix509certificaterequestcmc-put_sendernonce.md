@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7f7ec18f-7b5b-445e-9033-12d86b3675f1
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SenderNonce property, IX509CertificateRequestCmc.SenderNonce, IX509CertificateRequestCmc.put_SenderNonce, IX509CertificateRequestCmc::SenderNonce, IX509CertificateRequestCmc::get_SenderNonce, IX509CertificateRequestCmc::put_SenderNonce, SenderNonce property [Security], SenderNonce property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SenderNonce, certenroll/IX509CertificateRequestCmc::get_SenderNonce, certenroll/IX509CertificateRequestCmc::put_SenderNonce, put_SenderNonce, security.ix509certificaterequestcmc_sendernonce_property
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc.SenderNonce
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCmc.SenderNonce
-- IX509CertificateRequestCmc.get_SenderNonce
-- IX509CertificateRequestCmc.put_SenderNonce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc::put_SenderNonce
+ - certenroll/IX509CertificateRequestCmc::put_SenderNonce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCmc.SenderNonce
+ - IX509CertificateRequestCmc.get_SenderNonce
+ - IX509CertificateRequestCmc.put_SenderNonce
 ---
 
 # IX509CertificateRequestCmc::put_SenderNonce
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SenderNonce</b> property specifies or retrieves a byte array that contains a nonce. The byte array is represented by a string that is either a pure binary sequence or is Unicode encoded.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A nonce is single use, random or pseudo-random byte array that can be included in a certificate request to help ensure that the request is not a repeat of a previous message.
 
@@ -87,17 +83,7 @@ You can set this property before calling the <a href="https://docs.microsoft.com
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
- 
-
- 
 

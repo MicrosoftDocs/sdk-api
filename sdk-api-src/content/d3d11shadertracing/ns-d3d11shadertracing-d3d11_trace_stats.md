@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: E4E44F7F-3760-490D-9BA3-677F63B93AA6
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_STATS, D3D11_TRACE_STATS structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STATS, direct3d11.d3d11_trace_stats
-f1_keywords:
-- d3d11shadertracing/D3D11_TRACE_STATS
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11ShaderTracing.h
-api_name:
-- D3D11_TRACE_STATS
 targetos: Windows
 req.typenames: D3D11_TRACE_STATS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TRACE_STATS
+ - d3d11shadertracing/D3D11_TRACE_STATS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11ShaderTracing.h
+api_name:
+ - D3D11_TRACE_STATS
 ---
 
 ## -description
@@ -72,7 +73,7 @@ The component trace mask for each input v# register. For information about D3D11
 
 For vertex shaders, geometry shaders, pixel shaders, hull shaders, and domain shaders, the valid range is [0..31]. For compute shaders, this member is not applicable. Also, inputs for geometry shaders are 2D-indexed. For example, consider v[vertex][attribute]. In this example, the range of [attribute] is [0..31]. The [vertex] axis is the same size for all inputs, which are determined by the <b>GSInputPrimitive</b> member.
 
-Similarly, inputs for hull shader and domain shader are 2D-indexed. For example, consider v[vertex][attribute]. In this example, the range of [attribute] is [0..15]. The [vertex] axis is the same size for all inputs. 
+Similarly, inputs for hull shader and domain shader are 2D-indexed. For example, consider v[vertex][attribute]. In this example, the range of [attribute] is [0..15]. The [vertex] axis is the same size for all inputs.
 
 ### -field OutputMask
 
@@ -178,3 +179,4 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-gettracestats">ID3D11ShaderTrace::GetTraceStats</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
+

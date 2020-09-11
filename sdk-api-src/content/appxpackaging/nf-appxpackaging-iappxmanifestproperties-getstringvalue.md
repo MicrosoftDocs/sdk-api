@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 3EF2D8A2-37B2-4E57-9FD3-DA05FA90749C
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetStringValue method, IAppxManifestProperties.GetStringValue, IAppxManifestProperties::GetStringValue, appxpackaging/IAppxManifestProperties::GetStringValue, appxpkg.iappxmanifestproperties_getstringvalue
-f1_keywords:
-- appxpackaging/IAppxManifestProperties.GetStringValue
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestProperties.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestProperties::GetStringValue
+ - appxpackaging/IAppxManifestProperties::GetStringValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestProperties.GetStringValue
 ---
 
 # IAppxManifestProperties::GetStringValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of the specified string element in the properties section.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
@@ -72,28 +68,19 @@ The name of the string element. Valid values include:
 
 <p class="indent">"PublisherDisplayName"
 
-
 ### -param value [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The value of the specified element.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If a valid string property with this name is not defined in the manifest, this method  returns <b>E_INVALIDARG</b> and  <i>value</i> receives a null string.
 
@@ -106,15 +93,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestproperties">IAppxManifestProperties</a>
- 
-
- 
 

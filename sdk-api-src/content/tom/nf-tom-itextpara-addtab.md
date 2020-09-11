@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\addtab.htm
 ms.date: 12/05/2018
 ms.keywords: AddTab, AddTab method [Windows Controls], AddTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],AddTab method, ITextPara.AddTab, ITextPara::AddTab, _win32_ITextPara_AddTab, _win32_ITextPara_AddTab_cpp, controls.ITextPara_AddTab, controls._win32_ITextPara_AddTab, tom/ITextPara::AddTab, tomAlignBar, tomAlignCenter, tomAlignDecimal, tomAlignLeft, tomAlignRight, tomDashes, tomDots, tomLines, tomSpaces
-f1_keywords:
-- tom/ITextPara.AddTab
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.AddTab
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::AddTab
+ - tom/ITextPara::AddTab
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.AddTab
 ---
 
 # ITextPara::AddTab
@@ -49,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a tab at the displacement 
 			<i>tbPos</i>, with type 
 			<i>tbAlign</i>, and leader style, 
-			<i>tbLeader</i>. 
-
+			<i>tbLeader</i>.
 
 ## -parameters
-
-
-
 
 ### -param tbPos [in]
 
 Type: <b>float</b>
 
-New tab displacement, in floating-point points. 
-
+New tab displacement, in floating-point points.
 
 ### -param tbAlign [in]
 
@@ -130,8 +125,6 @@ A vertical bar is positioned at the tab position. Text is not affected. Alignmen
 </td>
 </tr>
 </table>
- 
-
 
 ### -param tbLeader [in]
 
@@ -185,12 +178,8 @@ A solid line is used.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -246,24 +235,12 @@ The paragraph format object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-It is assumed that there is never a tab at position zero. If multiple paragraphs are described, the common subset of tabs will be returned with 0x8000 in the upper word of the tab type. 
-
-
-
+It is assumed that there is never a tab at position zero. If multiple paragraphs are described, the common subset of tabs will be returned with 0x8000 in the upper word of the tab type.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
@@ -302,7 +279,4 @@ It is assumed that there is never a tab at position zero. If multiple paragraphs
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

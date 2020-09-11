@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
 ms.date: 12/05/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies],described, mstv.isbe2streammap, sbe/ISBE2StreamMap
-f1_keywords:
-- sbe/ISBE2StreamMap
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2StreamMap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2StreamMap
+ - sbe/ISBE2StreamMap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2StreamMap
 ---
 
 # ISBE2StreamMap interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles the mapping between output pins and streams for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 This interface is implemented by the  output pins  of the Stream Buffer Source filter. To get a pointer to the interface, query the output pin.
-
 
 ## -inheritance
 
@@ -100,12 +99,9 @@ Removes the mapping between an SBE2 stream and an output pin.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 In version 1 of the Stream Buffer Engine (SBE), each output pin is mapped to a single stream for the lifetime of the filter. Starting in version 2 of SBE,   the application can change the mapping, as follows:
 
@@ -118,6 +114,4 @@ In version 1 of the Stream Buffer Engine (SBE), each output pin is mapped to a s
     For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter-enhancements-in-windows-7">Stream Buffer Source Filter Enhancements in Windows 7</a>.
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2StreamMap)</code>.
-
-
 

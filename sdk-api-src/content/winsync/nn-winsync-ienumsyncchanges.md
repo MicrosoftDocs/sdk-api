@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: c3f27c6d-4fc1-420c-afc1-0bd2bdbd6ab2
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges, IEnumSyncChanges interface [Windows Sync], IEnumSyncChanges interface [Windows Sync],described, winsync.ienumsyncchanges, winsync/IEnumSyncChanges
-f1_keywords:
-- winsync/IEnumSyncChanges
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumSyncChanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncChanges
+ - winsync/IEnumSyncChanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumSyncChanges
 ---
 
 # IEnumSyncChanges interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates a list of item changes.
-
-
 
 ## -inheritance
 
@@ -109,16 +107,9 @@ Not implemented.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

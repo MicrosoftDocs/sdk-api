@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 6FEC7A70-D12E-4DB9-91DC-A54D5CCF8B57
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioClientActivationParams, PSpatialAudioClientActivationParams structure pointer [Core Audio], SpatialAudioClientActivationParams, SpatialAudioClientActivationParams structure [Core Audio], coreaudio.spatialaudioclientactivationparams, spatialaudioclient/PSpatialAudioClientActivationParams, spatialaudioclient/SpatialAudioClientActivationParams
-f1_keywords:
-- spatialaudioclient/SpatialAudioClientActivationParams
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- spatialaudioclient.h
-api_name:
-- SpatialAudioClientActivationParams
 targetos: Windows
 req.typenames: SpatialAudioClientActivationParams
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpatialAudioClientActivationParams
+ - spatialaudioclient/SpatialAudioClientActivationParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - SpatialAudioClientActivationParams
 ---
 
 # SpatialAudioClientActivationParams structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents optional activation parameters for a spatial audio render stream. Pass this structure to <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> when activating an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field tracingContextId
 
 An app-defined context identifier, used for event logging.
-
 
 ### -field appId
 
@@ -91,32 +86,15 @@ The second minor version number of the client app, used for event logging.
 
 The third minor version number of the client app, used for event logging.
 
-
 ### -field majorVersion
-
- 
-
 
 ### -field minorVersion1
 
- 
-
-
 ### -field minorVersion2
-
- 
-
 
 ### -field minorVersion3
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The following example code shows how to initialize this structure.
 
@@ -140,6 +118,4 @@ ropVariantClear(&var);
 
 
 To access the <b>ActivateAudioIntefaceAsync</b>, you will need to link to mmdevapi.lib.
-
-
 

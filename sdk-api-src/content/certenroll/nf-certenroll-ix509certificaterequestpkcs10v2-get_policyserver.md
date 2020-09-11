@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6cb17dcc-81bf-4396-a368-c974b8136e64
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],PolicyServer property, IX509CertificateRequestPkcs10V2.PolicyServer, IX509CertificateRequestPkcs10V2.get_PolicyServer, IX509CertificateRequestPkcs10V2::PolicyServer, IX509CertificateRequestPkcs10V2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::PolicyServer, certenroll/IX509CertificateRequestPkcs10V2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestpkcs10v2_policyserver
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10V2.PolicyServer
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateRequestPkcs10V2.PolicyServer
-- IX509CertificateRequestPkcs10V2.get_PolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10V2::get_PolicyServer
+ - certenroll/IX509CertificateRequestPkcs10V2::get_PolicyServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateRequestPkcs10V2.PolicyServer
+ - IX509CertificateRequestPkcs10V2.get_PolicyServer
 ---
 
 # IX509CertificateRequestPkcs10V2::get_PolicyServer
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PolicyServer</b> property retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v2">IX509CertificateRequestPkcs10V2</a>
- 
-
- 
 

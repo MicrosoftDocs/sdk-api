@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 5e01c7ac-7090-4cde-b836-01fa9d3f27f5
 ms.date: 12/05/2018
 ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
-f1_keywords:
-- wbemcli/IMofCompiler
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Mofd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mofd.dll
-api_name:
-- IMofCompiler
-- MofCompiler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMofCompiler
+ - wbemcli/IMofCompiler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mofd.dll
+api_name:
+ - IMofCompiler
+ - MofCompiler
 ---
 
 # IMofCompiler interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IMofCompiler</b> interface, implemented by Mofd.dll, provides a COM interface that is used by the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-m">Managed Object Format</a> (MOF) compiler and any other applications that compile MOF files. Objects defined as classes in the MOF files can be obtained using the <b>CLSID_MofCompiler</b> CLSID value.
-
 
 ## -inheritance
 
@@ -114,12 +113,9 @@ Describes an error for the <b>IMofCompiler</b> interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>Windows 8:  </b>When installing a provider the <b>IMofCompiler</b> interface treats the [Key] and [Static] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.
 
@@ -139,14 +135,7 @@ CoCreateInstance(
     (LPVOID *) &pMof);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for
     WMI</a>
@@ -162,7 +151,4 @@ CoCreateInstance(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
- 
-
- 
 

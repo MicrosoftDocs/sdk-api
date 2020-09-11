@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: a19a82fd-f00c-4663-b305-2cdc3bc863bd
 ms.date: 12/05/2018
 ms.keywords: ClassificationReportEnabled property [File Server Resource Manager], ClassificationReportEnabled property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportEnabled property [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportEnabled property, IFsrmClassificationManager.ClassificationReportEnabled, IFsrmClassificationManager.get_ClassificationReportEnabled, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportEnabled property, IFsrmClassificationManager2.ClassificationReportEnabled, IFsrmClassificationManager2::get_ClassificationReportEnabled, IFsrmClassificationManager2::put_ClassificationReportEnabled, IFsrmClassificationManager::ClassificationReportEnabled, IFsrmClassificationManager::get_ClassificationReportEnabled, IFsrmClassificationManager::put_ClassificationReportEnabled, fs.ifsrmclassificationmanager_classificationreportenabled, fsrm.ifsrmclassificationmanager_classificationreportenabled, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportEnabled, get_ClassificationReportEnabled
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.ClassificationReportEnabled
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.ClassificationReportEnabled
-- IFsrmClassificationManager.get_ClassificationReportEnabled
-- IFsrmClassificationManager.put_ClassificationReportEnabled
-- IFsrmClassificationManager2.ClassificationReportEnabled
-- IFsrmClassificationManager2.get_ClassificationReportEnabled
-- IFsrmClassificationManager2.put_ClassificationReportEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::get_ClassificationReportEnabled
+ - fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.ClassificationReportEnabled
+ - IFsrmClassificationManager.get_ClassificationReportEnabled
+ - IFsrmClassificationManager.put_ClassificationReportEnabled
+ - IFsrmClassificationManager2.ClassificationReportEnabled
+ - IFsrmClassificationManager2.get_ClassificationReportEnabled
+ - IFsrmClassificationManager2.put_ClassificationReportEnabled
 ---
 
 # IFsrmClassificationManager::get_ClassificationReportEnabled
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -63,25 +63,15 @@ Determines whether classification reporting is enabled or not.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Controls reporting regardless of whether classification was scheduled (using the Task Scheduler) or run on 
     demand (using 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-runclassification">IFsrmClassificationManager::RunClassification</a>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
@@ -108,7 +98,4 @@ Controls reporting regardless of whether classification was scheduled (using the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
 

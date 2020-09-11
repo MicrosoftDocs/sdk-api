@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 83b082b4-5845-44b7-9456-f00b357e345a
 ms.date: 12/05/2018
 ms.keywords: GetConnectState, GetConnectState method [Offline Files], GetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, IOfflineFilesConnectionInfo interface [Offline Files],GetConnectState method, IOfflineFilesConnectionInfo.GetConnectState, IOfflineFilesConnectionInfo::GetConnectState, cscobj/IOfflineFilesConnectionInfo::GetConnectState, of.iofflinefilesconnectioninfo_getconnectstate
-f1_keywords:
-- cscobj/IOfflineFilesConnectionInfo.GetConnectState
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesConnectionInfo.GetConnectState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesConnectionInfo::GetConnectState
+ - cscobj/IOfflineFilesConnectionInfo::GetConnectState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesConnectionInfo.GetConnectState
 ---
 
 # IOfflineFilesConnectionInfo::GetConnectState
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether an item is online or offline and, if offline, why.
 
-
 ## -parameters
-
-
-
 
 ### -param pConnectState [out]
 
@@ -75,29 +71,13 @@ If the item is offline, this parameter receives an <a href="https://docs.microso
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful, or an error value otherwise.
-
-
-
 
 ## -remarks
 
-
-
 This method requires that the item have connection state information.  If that information is unavailable at the time of this method call, the method call will initiate the extra query of the cache item to obtain the current connection state.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesconnectioninfo">IOfflineFilesConnectionInfo</a>
- 
-
- 
 

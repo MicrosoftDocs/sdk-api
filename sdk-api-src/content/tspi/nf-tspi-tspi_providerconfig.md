@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: b0fa2a9e-bc8b-4364-9442-2091f2366107
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
-f1_keywords:
-- tspi/TSPI_providerConfig
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_providerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_providerConfig
+ - tspi/TSPI_providerConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_providerConfig
 ---
 
 # TSPI_providerConfig function
 
 
 ## -description
-
 
 The 
 <b>TSPI_providerConfig</b> function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement 
@@ -57,36 +57,23 @@ The
 The 
 <b>TSPI_providerConfig</b> function gathers configuration information from the user. It may use a dialog box, and this dialog box can include sub-dialog boxes associated with other APIs (such as Comm/datamodem) for the setup of specific devices.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner
 
 The handle of the parent window in which the function can create any dialog box windows required during the configuration.
 
-
 ### -param dwPermanentProviderID
 
 The service provider's permanent provider identifier.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_OPERATIONFAILED, LINEERR_NOMEM.
 
-
-
-
 ## -remarks
-
-
 
 This function may be called while the service provider is in use (that is, between calls of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> and 
@@ -101,13 +88,7 @@ There is no directly corresponding function at the TAPI level. In TAPI, applicat
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialog">lineConfigDialog</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneconfigdialog">phoneConfigDialog</a>, which allow configuration of parameters of a particular line or phone once it has been installed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialog">TSPI_lineConfigDialog</a>
 
@@ -126,7 +107,4 @@ There is no directly corresponding function at the TAPI level. In TAPI, applicat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
- 
-
- 
 

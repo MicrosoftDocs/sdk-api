@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
 ms.date: 12/05/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
-f1_keywords:
-- mfidl/MFIsContentProtectionDeviceSupported
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFIsContentProtectionDeviceSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFIsContentProtectionDeviceSupported
+ - mfidl/MFIsContentProtectionDeviceSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFIsContentProtectionDeviceSupported
 ---
 
 # MFIsContentProtectionDeviceSupported function
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks whether a hardware security processor is supported for the specified media protection system.
 
-
 ## -parameters
-
-
-
 
 ### -param ProtectionSystemId [in]
 
 The identifier of the protection system that you want to check.
 
-
 ### -param isSupported [out]
 
 <b>TRUE</b> if the hardware security processor is supported for the specified protection system; otherwise <b>FALSE</b>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

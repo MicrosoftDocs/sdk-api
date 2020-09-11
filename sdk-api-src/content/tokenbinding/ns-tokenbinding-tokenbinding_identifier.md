@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_IDENTIFIER, TOKENBINDING_IDENTIFIER structure [Security], TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256, TOKENBINDING_SIGNATURE_ALGORITHM_RSA, security.tokenbinding_identifier, tokenbinding/TOKENBINDING_IDENTIFIER
-f1_keywords:
-- tokenbinding/TOKENBINDING_IDENTIFIER
-dev_langs:
-- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- tokenbinding.h
-api_name:
-- TOKENBINDING_IDENTIFIER
 targetos: Windows
 req.typenames: TOKENBINDING_IDENTIFIER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TOKENBINDING_IDENTIFIER
+ - tokenbinding/TOKENBINDING_IDENTIFIER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - tokenbinding.h
+api_name:
+ - TOKENBINDING_IDENTIFIER
 ---
 
 # TOKENBINDING_IDENTIFIER structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the information for representing a token binding identifier that results from a token binding message exchange.
 
-
 ## -struct-fields
-
-
-
 
 ### -field keyType
 
@@ -87,14 +83,7 @@ The signature algorithm for the token binding. The following values are possible
 
 #### TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256 (3)
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_data">TOKENBINDING_RESULT_DATA</a>
- 
-
- 
 

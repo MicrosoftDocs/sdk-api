@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY function [Failover Cluster], ResUtilFindSzProperty, ResUtilFindSzProperty function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY, resapi/ResUtilFindSzProperty
-f1_keywords:
-- resapi/ResUtilFindSzProperty
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-- ext-ms-win-cluster-resutils-l1-1-0.dll
-- ext-ms-win-cluster-resutils-l1-1-1.dll
-api_name:
-- ResUtilFindSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilFindSzProperty
+ - resapi/ResUtilFindSzProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+ - ext-ms-win-cluster-resutils-l1-1-0.dll
+ - ext-ms-win-cluster-resutils-l1-1-1.dll
+api_name:
+ - ResUtilFindSzProperty
 ---
 
 # ResUtilFindSzProperty function
@@ -51,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates a string property in a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>. The <b>PRESUTIL_FIND_SZ_PROPERTY</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param pPropertyList [in]
 
 Pointer to the property list in which to locate the value.
 
-
 ### -param cbPropertyListSize [in]
 
 Size in bytes of the data included in <i>pPropertyList</i>.
-
 
 ### -param pszPropertyName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the value to locate.
 
-
 ### -param pszPropertyValue [out, optional]
 
 Pointer to a <b>WCHAR</b> pointer to a buffer (allocated by the function) containing a copy of the property value. You must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> (on *<i>pszPropertyValue</i>) to free the allocated memory. If no value is required, pass <b>NULL</b> for this parameter.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -128,24 +118,12 @@ The specified property could not be located in the property list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If  <b>ResUtilFindSzProperty</b> is successful, *<i>pszPropertyValue</i> points to a copy of the data stored in <i>pPropertyList</i>. Be sure to call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> on *<i>pszPropertyValue</i> to prevent memory leaks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindbinaryproperty">ResUtilFindBinaryProperty</a>
 
@@ -168,7 +146,4 @@ If  <b>ResUtilFindSzProperty</b> is successful, *<i>pszPropertyValue</i> points 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindmultiszproperty">ResUtilFindMultiSzProperty</a>
- 
-
- 
 

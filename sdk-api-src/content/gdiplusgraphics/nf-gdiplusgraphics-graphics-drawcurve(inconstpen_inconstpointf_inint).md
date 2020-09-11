@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawCurve"]
 ms.assetid: c42c3e85-d967-4b68-983b-fa96be63d1e8
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawCurve
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawCurve
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawCurve
+ - gdiplusgraphics/Graphics::DrawCurve
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawCurve
+ - Graphics::DrawCurve
 ---
 
 # DrawCurve(Pen*,PointF*,INT)
+
 
 ## -description
 
@@ -121,3 +123,4 @@ VOID Example_DrawCurve4(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

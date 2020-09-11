@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.date: 12/05/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
-f1_keywords:
-- newdev/DiInstallDriver
-dev_langs:
-- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Newdev.lib
-- Newdev.dll
-api_name:
-- DiInstallDriver
-- diuninstalldriverw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DiUninstallDriverW
+ - newdev/DiUninstallDriverW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Newdev.lib
+ - Newdev.dll
+api_name:
+ - DiInstallDriver
+ - diuninstalldriverw
 ---
 
 # DiUninstallDriverW function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DiUninstallDriver</b> function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available. Then the specified driver is removed from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store.</a> 
-
+The <b>DiUninstallDriver</b> function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available. Then the specified driver is removed from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store.</a>
 
 ## -parameters
 
-
-
-
 ### -param hwndParent [in, optional]
 
-A handle to the top-level window that <b>DiUninstallDriver</b> should use to display any user interface component that is associated with uninstalling the driver. This parameter is optional and can be set to <b>NULL</b>. 
-
+A handle to the top-level window that <b>DiUninstallDriver</b> should use to display any user interface component that is associated with uninstalling the driver. This parameter is optional and can be set to <b>NULL</b>.
 
 ### -param InfPath [in]
 
 A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-packages">driver package</a>.
-
 
 ### -param Flags [in]
 
@@ -80,15 +74,11 @@ If this flag is zero, <b>DiUninstallDriver</b> only uninstalls the specified dri
 <div> </div>
 For information about how Windows selects a driver for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Windows Selects Drivers</a>.
 
-
 ### -param NeedReboot [out, optional]
 
-A pointer to a value of type BOOL that <b>DiUninstallDriver</b> sets to indicate whether a system restart is required to complete the uninstallation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the uninstallation, <b>DiUninstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the uninstallation, <b>DiUninstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the uninstallation, <b>DiUninstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section. 
-
+A pointer to a value of type BOOL that <b>DiUninstallDriver</b> sets to indicate whether a system restart is required to complete the uninstallation. This parameter is optional and can be <b>NULL</b>. If the parameter is supplied and a system restart is required to complete the uninstallation, <b>DiUninstallDriver</b> sets the value to <b>TRUE</b>. In this case, the caller must prompt the user to restart the system. If this parameter is supplied and a system restart is not required to complete the uninstallation, <b>DiUninstallDriver</b> sets the value to <b>FALSE</b>. If the parameter is <b>NULL</b> and a system restart is required to complete the uninstallation, <b>DiUninstallDriver</b> displays a system restart dialog box. For more information about this parameter, see the following <b>Remarks</b> section.
 
 ## -returns
-
-
 
 <b>DiUninstallDriver</b> returns <b>TRUE</b> if the function successfully removes the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-packages">driver package</a> from any devices it is installed on and is successfully removed from the driver store of the system. If the driver package is not successfully uninstalled from the driver store, <b>DiUninstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
@@ -142,13 +132,8 @@ The calling application is a 32-bit application that is attempting to execute in
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
 
 In general, an uninstallation application should set <i>NeedReboot</i> to <b>NULL</b> to direct <b>DiUninstallDriver</b> to prompt the user to restart the system if a restart is required to complete the removal. An application should supply a <i>NeedReboot</i> pointer only in the following cases:
 
@@ -164,11 +149,7 @@ The application must perform required operations, other than calling <b>DiUninst
 
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiUninstallDevice</a>
+

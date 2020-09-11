@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
 ms.date: 12/05/2018
 ms.keywords: StopTrace, StopTrace function [ETW], StopTraceA, StopTraceW, _evt_stoptrace, base.stoptrace, etw.stoptrace, evntrace/StopTrace, evntrace/StopTraceA, evntrace/StopTraceW
-f1_keywords:
-- evntrace/StopTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,34 +25,38 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- StopTrace
-- StopTraceA
-- StopTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StopTrace
+ - evntrace/StopTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - StopTrace
+ - StopTraceA
+ - StopTraceW
 ---
 
 # StopTrace macro
 
 
 ## -description
-
 
 The 
 <b>StopTrace</b> function stops the specified event tracing session. 
@@ -65,11 +65,7 @@ The
 The 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
-
 ## -parameters
-
-
-
 
 ### -param a [in]
 
@@ -79,7 +75,6 @@ Handle to the event tracing session that you want to stop, or <b>NULL</b>. You m
       <b>NULL</b>. The handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
-
 ### -param b [in]
 
 Pointer to a null-terminated string that specifies the name of the event tracing session that you want to 
@@ -88,7 +83,6 @@ Pointer to a null-terminated string that specifies the name of the event tracing
 
 To specify the NT Kernel Logger session, set <i>SessionName</i> to 
       <b>KERNEL_LOGGER_NAME</b>.
-
 
 ### -param c [out]
 
@@ -104,10 +98,7 @@ If you are using a newly
 
 <b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StopTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
-
 ## -remarks
-
-
 
 Controllers call this function.
 
@@ -118,20 +109,11 @@ If <b>LogFileMode</b> contains <b>EVENT_TRACE_FILE_MODE_PREALLOCATE</b>,
 
 Note that it is not safe to stop a trace session from DllMain.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
- 
-
- 
 

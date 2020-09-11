@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: a462a03d-e2c8-403e-aab4-ae03fb96f06f
 ms.date: 12/05/2018
 ms.keywords: R2_BLACK, R2_COPYPEN, R2_MASKNOTPEN, R2_MASKPEN, R2_MASKPENNOT, R2_MERGENOTPEN, R2_MERGEPEN, R2_MERGEPENNOT, R2_NOP, R2_NOT, R2_NOTCOPYPEN, R2_NOTMASKPEN, R2_NOTMERGEPEN, R2_NOTXORPEN, R2_WHITE, R2_XORPEN, SetROP2, SetROP2 function [Windows GDI], _win32_SetROP2, gdi.setrop2, wingdi/SetROP2
-f1_keywords:
-- wingdi/SetROP2
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetROP2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetROP2
+ - wingdi/SetROP2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetROP2
 ---
 
 # SetROP2 function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetROP2</b> function sets the current foreground mix mode. GDI uses the foreground mix mode to combine pens and interiors of filled objects with the colors already on the screen. The foreground mix mode defines how colors from the brush or pen and the colors in the existing image are to be combined.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
-
 
 ### -param rop2 [in]
 
@@ -235,23 +230,14 @@ Pixel is a combination of the colors in the pen and in the screen, but not in bo
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the previous mix mode.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 Mix modes define how GDI combines source and destination colors when drawing with the current pen. The mix modes are binary raster operation codes, representing all possible Boolean functions of two variables, using the binary operations AND, OR, and XOR (exclusive OR), and the unary operation NOT. The mix mode is for raster devices only; it is not available for vector devices.
 
@@ -262,12 +248,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrop2">GetROP2</a>
 
@@ -278,7 +259,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
- 
-
- 
 

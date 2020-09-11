@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199
 ms.date: 12/05/2018
 ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::Wait, Wait, Wait method [VSS], Wait method [VSS],IVssAsync interface, _win32_ivssasync_wait, base.ivssasync_wait, vss/IVssAsync::Wait
-f1_keywords:
-- vss/IVssAsync.Wait
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssAsync.Wait
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAsync::Wait
+ - vss/IVssAsync::Wait
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssAsync.Wait
 ---
 
 # IVssAsync::Wait
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Wait</b> method waits until an incomplete asynchronous operation finishes.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMilliseconds [in]
 
@@ -73,10 +69,7 @@ The default value for this argument is INFINITE.
 
 <b>Windows XP:  </b>This method has no parameters.
 
-
 ## -returns
-
-
 
 All calls to 
 <b>Wait</b> for all 
@@ -133,29 +126,15 @@ If an operation fails while being waited on,
 To obtain a complete list of return values for a specific <b>Wait</b>, see the error codes of the method that returned the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
-
-
-
 ## -remarks
-
-
 
 This method can succeed even if the method that returns it failed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
- 
-
- 
 

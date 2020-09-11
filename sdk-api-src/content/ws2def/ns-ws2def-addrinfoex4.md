@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 96B19008-9F20-4F47-A0F1-AA695227725B
 ms.date: 12/05/2018
 ms.keywords: '*LPADDRINFOEX4, *PADDRINFOEX4, ADDRINFOEX4, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RESOLUTION_HANDLE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex4, LPaddrinfoex4 structure pointer [Winsock], Paddrinfoex4, Paddrinfoex4 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex4, addrinfoex4 structure [Winsock], addrinfoex4A, addrinfoex4W, winsock.addrinfoex4, ws2def/LPaddrinfoex4, ws2def/Paddrinfoex4, ws2def/addrinfoex4, ws2def/addrinfoex4A, ws2def/addrinfoex4W'
-f1_keywords:
-- ws2def/addrinfoex4
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2def.h
-api_name:
-- addrinfoex4
-- addrinfoex4A
-- addrinfoex4W
 targetos: Windows
 req.typenames: ADDRINFOEX4, *PADDRINFOEX4, *LPADDRINFOEX4
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - addrinfoex4
+ - ws2def/addrinfoex4
+ - PADDRINFOEX4
+ - ws2def/PADDRINFOEX4
+ - ADDRINFOEX4
+ - ws2def/ADDRINFOEX4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2def.h
+api_name:
+ - addrinfoex4
+ - addrinfoex4A
+ - addrinfoex4W
 ---
 
 # ADDRINFOEX4 structure
@@ -51,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>addrinfoex4</b> structure is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function to hold host address information when a specific network interface has been requested.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ai_flags
 
@@ -267,8 +267,6 @@ This option is supported on Windows 10, Windows Server 2016,   and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ai_family
 
@@ -353,8 +351,6 @@ The Bluetooth address family. This address family is only supported if a Bluetoo
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ai_socktype
 
@@ -428,8 +424,7 @@ Provides a pseudo-stream packet based on datagrams.
 In Windows Sockets 2, new socket types were introduced. An application can dynamically discover the attributes of each available transport protocol through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function. So an application can determine the possible socket type and protocol options for an address family  and use this information when specifying this parameter. Socket type definitions in the <i>Winsock2.h</i> and <i>Ws2def.h</i> header files will be periodically updated as new socket types, address families, and protocols are defined.
 
-In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>. 
-
+In Windows Sockets 1.1, the only possible socket types are <b>SOCK_DATAGRAM</b> and <b>SOCK_STREAM</b>.
 
 ### -field ai_protocol
 
@@ -485,67 +480,53 @@ The PGM protocol for reliable multicast. This is a possible value when the <b>ai
 
 If the <b>ai_family</b> member is <b>AF_IRDA</b>, then the <b>ai_protocol</b> must be 0.
 
-
 ### -field ai_addrlen
 
 The length, in bytes, of the  buffer pointed to by the <b>ai_addr</b> member.
 
-
 ### -field ai_canonname
 
 The canonical name for the host.
-
 
 ### -field ai_addr
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>ai_addr</b> member in each returned <b>addrinfoex4</b> structure points to a filled-in socket address structure. The length, in bytes, of each returned <b>addrinfoex4</b> structure is specified in the <b>ai_addrlen</b> member.
 
-
 ### -field ai_blob
 
 A pointer to data that is used to return provider-specific namespace information that is associated with the name beyond a list of addresses. The length, in bytes, of the buffer pointed to by <b>ai_blob</b> must be specified in the <b>ai_bloblen</b> member.
-
 
 ### -field ai_bloblen
 
 The length, in bytes, of the <b>ai_blob</b> member.
 
-
 ### -field ai_provider
 
 A pointer to the GUID of a specific namespace provider.
-
 
 ### -field ai_next
 
 A pointer to the next structure in a linked list. This parameter is set to <b>NULL</b> in the last 
 <b>addrinfoex4</b> structure of a linked list.
 
-
 ### -field ai_version
 
 The version number of this structure. The value currently used for this version of the structure is 4.
-
 
 ### -field ai_fqdn
 
 The fully qualified domain name for the host.
 
-
 ### -field ai_interfaceindex
 
-The interface index, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>.<i>IfIndex</i> property returned in <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>. 
-
+The interface index, as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>.<i>IfIndex</i> property returned in <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>.
 
 ### -field ai_resolutionhandle
 
 Handle pointing to the fully qualified domain name for the host.
 
-
 ## -remarks
-
-
 
 The 
 <b>addrinfoex4</b> structure is supported on Windows 10 and Windows Server 2016
@@ -702,14 +683,7 @@ Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
@@ -728,7 +702,4 @@ Exit:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoex3">addrinfoex3</a>
- 
-
- 
 

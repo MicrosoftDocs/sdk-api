@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 654dc003-25a6-4186-9c3b-7fe6f82b5481
 ms.date: 12/05/2018
 ms.keywords: GetOpacityMaskBrushLocal, GetOpacityMaskBrushLocal method [XPS Documents and Packaging], GetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLocal method, IXpsOMVisual.GetOpacityMaskBrushLocal, IXpsOMVisual::GetOpacityMaskBrushLocal, xps.ixpsomvisual_getopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLocal
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrushLocal
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.GetOpacityMaskBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::GetOpacityMaskBrushLocal
+ - xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.GetOpacityMaskBrushLocal
 ---
 
 # IXpsOMVisual::GetOpacityMaskBrushLocal
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the local, unshared opacity mask brush for the visual.
 
-
 ## -parameters
-
-
-
 
 ### -param opacityMaskBrush [out, retval]
 
@@ -102,12 +98,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -139,15 +131,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
@@ -162,7 +147,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

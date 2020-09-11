@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 24aff5ba-21e9-496c-a28d-7daeda26b670
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetResourceUri, MI_OperationOptions_GetResourceUri function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetResourceUri, wmi_v2.mi_operationoptions_getresourceuri
-f1_keywords:
-- mi/MI_OperationOptions_GetResourceUri
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mi.lib
 req.dll: Mi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mi.dll
-api_name:
-- MI_OperationOptions_GetResourceUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MI_OperationOptions_GetResourceUri
+ - mi/MI_OperationOptions_GetResourceUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mi.dll
+api_name:
+ - MI_OperationOptions_GetResourceUri
 ---
 
 # MI_OperationOptions_GetResourceUri function
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the resource URI being used for an operation.
 
-
 ## -parameters
-
-
-
 
 ### -param options [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure containing a set of operation options.
 
-
 ### -param rUri [out]
 
 Returned resource URI being used for the operation.
 
-
 ## -returns
 
-
-
 A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
-
 

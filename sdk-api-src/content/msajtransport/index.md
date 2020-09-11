@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: alljoyn
+f1_keywords:
+ - msajtransport
+ - msajtransport/msajtransport
 ---
 
 # Msajtransport.h header
 
 
 ## -description
-
 
 This header is used by AllJoyn API. For more information, see:
 

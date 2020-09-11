@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_ENTRY, PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_ENTRY, clusapi/PCLUS_NETNAME_IP_INFO_ENTRY, mscs.clus_netname_ip_info_entry'
-f1_keywords:
-- clusapi/CLUS_NETNAME_IP_INFO_ENTRY
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusApi.h
-api_name:
-- CLUS_NETNAME_IP_INFO_ENTRY
 targetos: Windows
 req.typenames: CLUS_NETNAME_IP_INFO_ENTRY, *PCLUS_NETNAME_IP_INFO_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUS_NETNAME_IP_INFO_ENTRY
+ - clusapi/CLUS_NETNAME_IP_INFO_ENTRY
+ - PCLUS_NETNAME_IP_INFO_ENTRY
+ - clusapi/PCLUS_NETNAME_IP_INFO_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusApi.h
+api_name:
+ - CLUS_NETNAME_IP_INFO_ENTRY
 ---
 
 # CLUS_NETNAME_IP_INFO_ENTRY structure
@@ -49,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents IP information for a NetName resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NodeId
 
 The ID of the node that hosts the NetName resource.
 
-
 ### -field AddressSize
 
 The size of the <i>BYTE</i> parameter, in bytes.
-
 
 ### -field Address
 
 A byte array that contains the address of the NetName.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 9932182f-8e62-41fe-9004-7fb0b591630f
 ms.date: 12/05/2018
 ms.keywords: 19831c51-f6c4-f65f-6ada-c90fa97f0a32, ID3D11DeviceContext interface [Direct3D 11],RSGetViewports method, ID3D11DeviceContext.RSGetViewports, ID3D11DeviceContext::RSGetViewports, RSGetViewports, RSGetViewports method [Direct3D 11], RSGetViewports method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSGetViewports, direct3d11.id3d11devicecontext_rsgetviewports
-f1_keywords:
-- d3d11/ID3D11DeviceContext.RSGetViewports
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.RSGetViewports
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::RSGetViewports
+ - d3d11/ID3D11DeviceContext::RSGetViewports
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.RSGetViewports
 ---
 
 # ID3D11DeviceContext::RSGetViewports
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the array of viewports bound to the rasterizer stage.
 
-
 ## -parameters
-
-
-
 
 ### -param pNumViewports [in, out]
 
@@ -79,27 +75,13 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d
             greater than the actual number of viewports currently bound, unused elements of the array contain 0.
             For info about how the viewport size depends on the device <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a>, which has changed between Direct3D 11
             and Direct3D 10, see <b>D3D11_VIEWPORT</b>.
-          
-
 
 ## -remarks
 
-
-
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

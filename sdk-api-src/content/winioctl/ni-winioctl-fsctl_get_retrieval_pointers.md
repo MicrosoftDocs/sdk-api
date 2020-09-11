@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 002f6703-8db3-4034-a79f-3fa9c4159115
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_RETRIEVAL_POINTERS, FSCTL_GET_RETRIEVAL_POINTERS control, FSCTL_GET_RETRIEVAL_POINTERS control code [Files], _win32_fsctl_get_retrieval_pointers, base.fsctl_get_retrieval_pointers, fs.fsctl_get_retrieval_pointers, winioctl/FSCTL_GET_RETRIEVAL_POINTERS
-f1_keywords:
-- winioctl/FSCTL_GET_RETRIEVAL_POINTERS
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_GET_RETRIEVAL_POINTERS
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_GET_RETRIEVAL_POINTERS
+ - winioctl/FSCTL_GET_RETRIEVAL_POINTERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_GET_RETRIEVAL_POINTERS
 ---
 
 # FSCTL_GET_RETRIEVAL_POINTERS IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -114,7 +109,6 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -128,3 +122,4 @@ Cluster Shared Volume File System (CsvFS) | Yes
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [RETRIEVAL_POINTERS_BUFFER](ns-winioctl-retrieval_pointers_buffer.md)
 * [STARTING_VCN_INPUT_BUFFER](ns-winioctl-starting_vcn_input_buffer.md)
+

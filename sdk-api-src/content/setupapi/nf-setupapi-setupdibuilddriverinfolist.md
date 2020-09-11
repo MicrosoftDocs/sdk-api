@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 9e377865-8029-41c1-85b9-fdb2cbc09346
 ms.date: 12/05/2018
 ms.keywords: SPDIT_CLASSDRIVER, SPDIT_COMPATDRIVER, SetupDiBuildDriverInfoList, SetupDiBuildDriverInfoList function [Device and Driver Installation], devinst.setupdibuilddriverinfolist, di-rtns_dd9aa1be-1a67-4cc6-8a06-5db71eecd322.xml, setupapi/SetupDiBuildDriverInfoList
-f1_keywords:
-- setupapi/SetupDiBuildDriverInfoList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDiBuildDriverInfoList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiBuildDriverInfoList
+ - setupapi/SetupDiBuildDriverInfoList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-l1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDiBuildDriverInfoList
 ---
 
 # SetupDiBuildDriverInfoList function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiBuildDriverInfoList</b> function builds a list of drivers that is associated with a specific device or with the global class driver list for a device information set. 
-
+The <b>SetupDiBuildDriverInfoList</b> function builds a list of drivers that is associated with a specific device or with the global class driver list for a device information set.
 
 ## -parameters
-
-
-
 
 ### -param DeviceInfoSet [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> to contain the driver list, either globally for all device information elements or specifically for a single device information element. The device information set must not contain remote device information elements.
-
 
 ### -param DeviceInfoData [in, out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device information element in <i>DeviceInfoSet</i> that represents the device for which to build a driver list. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, the list is associated with the specified device. If this parameter is <b>NULL</b>, the list is associated with the global class driver list for <i>DeviceInfoSet</i>. 
 
 If the class of this device is updated because of building a compatible driver list, <i>DeviceInfoData.</i><b>ClassGuid</b> is updated upon return.
-
 
 ### -param DriverType [in]
 
@@ -102,21 +96,12 @@ Build a list of compatible drivers. <i>DeviceInfoData</i> must not be <b>NULL</b
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The device information set should be for a local computer because <b>SetupDiBuildDriverInfoList</b> searches for drivers only on a local computer. If the device information set is for a remote computer, the function returns <b>TRUE</b> but does not actually update the existing driver list for the device information set or, if supplied, the driver list for the device information element.
 
@@ -134,13 +119,7 @@ Another thread can terminate the building of a driver list by a call to <a href=
 
 The <i>DeviceInfoSet</i> must only contain elements on the local computer. This function only searches for local drivers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicanceldriverinfosearch">SetupDiCancelDriverInfoSearch</a>
 
@@ -151,7 +130,4 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer. This 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdriverinfoa">SetupDiEnumDriverInfo</a>
- 
-
- 
 

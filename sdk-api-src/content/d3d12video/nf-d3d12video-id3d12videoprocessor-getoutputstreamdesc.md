@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessor::GetOutputStreamDesc","GetOutputStre
 tech.root: mf
 ms.assetid: 5047b341-d045-4210-b10f-026ee3a7a3ca
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessor::GetOutputStreamDesc
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessor::GetOutputStreamDesc, GetOutputStreamDesc, ID3D12VideoProcessor.GetOutputStreamDesc, ID3D12VideoProcessor::GetOutputStreamDesc, ID3D12VideoProcessor.GetOutputStreamDesc
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessor::GetOutputStreamDesc
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessor::GetOutputStreamDesc
+ - d3d12video/ID3D12VideoProcessor::GetOutputStreamDesc
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessor::GetOutputStreamDesc
 ---
 
 # ID3D12VideoProcessor::GetOutputStreamDesc
@@ -49,9 +50,11 @@ Gets the output stream description provided when the video processor was created
 
 ## -parameters
 
-
 ## -returns
+
 This method returns [D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_output_stream_desc.md).
+
 ## -remarks
 
 ## -see-also
+

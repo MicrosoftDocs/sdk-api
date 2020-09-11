@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
-f1_keywords:
-- shlobj_core/SHGetKnownFolderIDList
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
-- Windows.Storage.dll
-api_name:
-- SHGetKnownFolderIDList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetKnownFolderIDList
+ - shlobj_core/SHGetKnownFolderIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-Storage-Exports-Internal-L1-1-0.dll
+ - Windows.Storage.dll
+api_name:
+ - SHGetKnownFolderIDList
 ---
 
 # SHGetKnownFolderIDList function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the path of a known folder as an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param rfid [in]
 
@@ -66,13 +62,11 @@ Type: <b>REFKNOWNFOLDERID</b>
 
 A reference to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that identifies the folder. The folders associated with the known folder IDs might not exist on a particular system.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
 Flags that specify special retrieval options. This value can be 0; otherwise, it is one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KNOWN_FOLDER_FLAG</a> values.
-
 
 ### -param hToken [in]
 
@@ -84,17 +78,13 @@ The calling application is responsible for correct impersonation when <i>hToken<
 
 Assigning the <i>hToken</i> parameter a value of -1 indicates the Default User. This allows clients of <b>SHGetKnownFolderIDList</b> to find folder locations (such as the <b>Desktop</b> folder) for the Default User. The Default User user profile is duplicated when any new user account is created, and includes special folders such as <b>Documents</b> and <b>Desktop</b>. Any items added to the Default User folder also appear in any new user account. Note that access to the Default User folders requires administrator privileges.
 
-
 ### -param ppidl [out]
 
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
 When this method returns, contains a pointer to the PIDL of the folder. This parameter is passed uninitialized. The caller is responsible for freeing the returned PIDL when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -117,14 +107,8 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function replaces <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>. That older function is now simply a wrapper for <b>SHGetKnownFolderIDList</b>.
 
@@ -132,13 +116,7 @@ Callers using this function must have at least User privileges.
 
 Some known folders, for example, the <b>Documents</b> folder, are per-user. Each user has a different path for the <b>Documents</b> folder. If <i>hToken</i> is <b>NULL</b>, the API tries to access the current user's instance of the folder. If <i>hToken</i> is a valid user token, the API tries to impersonate the user using this token, and attempts to access that user's instance of the folder.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
 
@@ -153,7 +131,4 @@ Some known folders, for example, the <b>Documents</b> folder, are per-user. Each
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>
- 
-
- 
 

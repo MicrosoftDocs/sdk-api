@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 6571aadc-bf5a-48c3-817a-66ce444ef96a
 ms.date: 12/05/2018
 ms.keywords: EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],EnableCommit method, IObjectContext.EnableCommit, IObjectContext::EnableCommit, _cos_IObjectContext_EnableCommit, comsvcs/IObjectContext::EnableCommit, cos.iobjectcontext_enablecommit
-f1_keywords:
-- comsvcs/IObjectContext.EnableCommit
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectContext.EnableCommit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectContext::EnableCommit
+ - comsvcs/IObjectContext::EnableCommit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectContext.EnableCommit
 ---
 
 # IObjectContext::EnableCommit
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Declares that the object's work is not necessarily finished but that its transactional updates are in a consistent state and could be committed in their present form.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -94,29 +86,14 @@ An unexpected error occurred. This can happen if one object passes its <a href="
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an object calls <b>EnableCommit</b>, it allows the transaction in which it's participating to be committed but it maintains its internal state across calls from its clients until it calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setabort">SetAbort</a> or until the transaction completes.
 
 <b>EnableCommit</b> is the default state when an object is activated. Therefore, an object should always call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setabort">SetAbort</a> before returning from a method, unless you want the object to maintain its internal state for the next call from a client.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
- 
-
- 
 

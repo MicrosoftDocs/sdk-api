@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
 ms.date: 12/05/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink
-f1_keywords:
-- mfidl/IMFStreamSink
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFStreamSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFStreamSink
+ - mfidl/IMFStreamSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFStreamSink
 ---
 
 # IMFStreamSink interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a stream on a media sink object.
-
 
 ## -inheritance
 
@@ -123,13 +122,9 @@ Delivers a sample to the stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
@@ -140,7 +135,4 @@ Delivers a sample to the stream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
- 
-
- 
 

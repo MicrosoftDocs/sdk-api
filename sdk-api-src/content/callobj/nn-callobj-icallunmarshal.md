@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290
 ms.date: 12/05/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
-f1_keywords:
-- callobj/ICallUnmarshal
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallUnmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallUnmarshal
+ - callobj/ICallUnmarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallUnmarshal
 ---
 
 # ICallUnmarshal interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Is used on the server (receiving) side of a remote invocation. An appropriate instance of <b>ICallUnmarshal</b> can be used to transform back into an call frame a method invocation previously marshaled by a call to <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-marshal">ICallFrame::Marshal</a> on the client (sending) side. After such a reconstituted call frame is obtained, the call can be carried out on an actual object using <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-invoke">ICallFrame::Invoke</a>.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Turns a marshaled packet of data back into an activation record that can then be
 
 </td>
 </tr>
-</table> 
+</table>
 

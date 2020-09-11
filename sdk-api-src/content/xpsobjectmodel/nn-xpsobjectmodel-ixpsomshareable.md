@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2071292f-b898-4ec8-99f7-294c8d820965
 ms.date: 12/05/2018
 ms.keywords: IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], IXpsOMShareable interface [XPS Documents and Packaging],described, xps.ixpsomshareable, xpsobjectmodel/IXpsOMShareable
-f1_keywords:
-- xpsobjectmodel/IXpsOMShareable
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMShareable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMShareable
+ - xpsobjectmodel/IXpsOMShareable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMShareable
 ---
 
 # IXpsOMShareable interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The base interface for sharable interfaces.
-
 
 ## -inheritance
 
@@ -87,13 +86,9 @@ Gets the object type of the interface.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
@@ -116,7 +111,4 @@ Gets the object type of the interface.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

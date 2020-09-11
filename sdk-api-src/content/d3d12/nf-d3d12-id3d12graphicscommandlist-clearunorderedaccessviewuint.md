@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: A048BF0C-9141-4DDF-91F9-B53464033A44
 ms.date: 12/05/2018
 ms.keywords: ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method, ClearUnorderedAccessViewUint method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewUint method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint, ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewuint
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint
+ - d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 ---
 
 ## -description
@@ -70,7 +71,7 @@ A [D3D12_CPU_DESCRIPTOR_HANDLE](/windows/win32/api/d3d12/ns-d3d12-d3d12_cpu_desc
 Type: [in] **[ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource)\***
 
 A pointer to the [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) interface that represents the unordered-access-view (UAV) resource to clear.
-          
+
 ### -param Values
 
 Type: [in] **const UINT[4]**
@@ -88,7 +89,7 @@ The number of rectangles in the array that the *pRects* parameter specifies.
 Type: [in] **const [D3D12_RECT](/windows/win32/direct3d12/d3d12-rect)\***
 
 An array of **D3D12_RECT** structures for the rectangles in the resource view to clear. If **NULL**, **ClearUnorderedAccessViewUint** clears the entire resource view.
-          
+
 ## -remarks
 
 ### Runtime validation
@@ -104,3 +105,4 @@ The debug layer issues an error if the subresources referenced by the view aren'
 ## -see-also
 
 [ID3D12GraphicsCommandList interface](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist)
+

@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 5c38a9fc-b7d9-436d-92e6-8b0aec5e8628
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],RemoteAddresses property, INetFwOpenPort.RemoteAddresses, INetFwOpenPort.get_RemoteAddresses, INetFwOpenPort::RemoteAddresses, INetFwOpenPort::get_RemoteAddresses, INetFwOpenPort::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwOpenPort interface, get_RemoteAddresses, ics.inetfwopenport_remoteaddresses, netfw/INetFwOpenPort::RemoteAddresses, netfw/INetFwOpenPort::get_RemoteAddresses, netfw/INetFwOpenPort::put_RemoteAddresses
-f1_keywords:
-- netfw/INetFwOpenPort.RemoteAddresses
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwOpenPort.RemoteAddresses
-- INetFwOpenPort.get_RemoteAddresses
-- INetFwOpenPort.put_RemoteAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwOpenPort::get_RemoteAddresses
+ - netfw/INetFwOpenPort::get_RemoteAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwOpenPort.RemoteAddresses
+ - INetFwOpenPort.get_RemoteAddresses
+ - INetFwOpenPort.put_RemoteAddresses
 ---
 
 # INetFwOpenPort::get_RemoteAddresses
 
 
 ## -description
-
 
 <p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
@@ -60,13 +60,9 @@ Specifies a set of remote addresses from which the port can listen for
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <i>remoteAddrs</i> parameter consists of one or more comma-delimited tokens specifying the remote addresses from which the application can listen for traffic. The default value is "*". 
 
@@ -86,16 +82,7 @@ Valid tokens:
 </ul>
 For a predefined address range, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwopenport-get_scope">Scope</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
- 
-
- 
 

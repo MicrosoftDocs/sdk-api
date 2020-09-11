@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f5e79ac8-9a70-4e79-ae4f-e128bd8c84de
 ms.date: 12/05/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustGetRegPolicyFlags, WintrustGetRegPolicyFlags function [Security], security.wintrustgetregpolicyflags, wintrust/WintrustGetRegPolicyFlags
-f1_keywords:
-- wintrust/WintrustGetRegPolicyFlags
-dev_langs:
-- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- WintrustGetRegPolicyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WintrustGetRegPolicyFlags
+ - wintrust/WintrustGetRegPolicyFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - WintrustGetRegPolicyFlags
 ---
 
 # WintrustGetRegPolicyFlags function
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WintrustGetRegPolicyFlags</b> function retrieves policy flags for a policy provider.
 <div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pdwPolicyFlags [out]
 
@@ -178,16 +175,8 @@ Allow only items in personal trust database.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustsetregpolicyflags">WintrustSetRegPolicyFlags</a>
- 
-
- 
 

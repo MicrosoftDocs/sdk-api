@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: f9957c15-9a49-4b53-ae31-efd6a03417a6
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupGetInfo, NetGroupGetInfo function [Network Management], _win32_netgroupgetinfo, lmaccess/NetGroupGetInfo, netmgmt.netgroupgetinfo
-f1_keywords:
-- lmaccess/NetGroupGetInfo
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetGroupGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetGroupGetInfo
+ - lmaccess/NetGroupGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetGroupGetInfo
 ---
 
 # NetGroupGetInfo function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetGroupGetInfo</b> function retrieves information about a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param groupname [in]
 
 Pointer to a constant string that specifies the name of the global group for which to retrieve information. For more information, see the following Remarks section.
-
 
 ### -param level [in]
 
@@ -128,8 +122,6 @@ Return detailed information about the global group. The <i>bufptr</i> parameter 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -138,10 +130,7 @@ Pointer to the address of the buffer that receives the global group information 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -186,14 +175,8 @@ The global group name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management group functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>.
@@ -206,13 +189,7 @@ The security descriptor of the Group object is used to perform the access check 
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-group_info_0">GROUP_INFO_0</a>
 
@@ -245,7 +222,4 @@ User account names are limited to 20 characters and group names are limited to 2
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
 

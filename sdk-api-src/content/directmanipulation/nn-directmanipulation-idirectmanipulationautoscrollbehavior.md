@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 6E847EE2-231C-4B09-955A-F546CC790E3C
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior, IDirectManipulationAutoScrollBehavior interface [Direct Manipulation], IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationautoscrollbehavior, directmanipulation/IDirectManipulationAutoScrollBehavior
-f1_keywords:
-- directmanipulation/IDirectManipulationAutoScrollBehavior
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationAutoScrollBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationAutoScrollBehavior
+ - directmanipulation/IDirectManipulationAutoScrollBehavior
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationAutoScrollBehavior
 ---
 
 # IDirectManipulationAutoScrollBehavior interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents  the auto-scroll animation behavior of content as it approaches the boundary of a given axis or axes.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Performs the auto-scroll animation for the viewport this behavior is attached to
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
- 
-
- 
 

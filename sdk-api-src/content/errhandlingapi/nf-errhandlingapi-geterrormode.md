@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 7673e4ab-bfc8-4c47-b40a-0ae1b4ec5506
 ms.date: 12/05/2018
 ms.keywords: GetErrorMode, GetErrorMode function, base.geterrormode, errhandlingapi/GetErrorMode
-f1_keywords:
-- errhandlingapi/GetErrorMode
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-api_name:
-- GetErrorMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetErrorMode
+ - errhandlingapi/GetErrorMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+api_name:
+ - GetErrorMode
 ---
 
 # GetErrorMode function
@@ -56,20 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the error mode for the current process.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The process error mode. This function returns one of the following values.
 
@@ -132,14 +124,8 @@ The system does not display a message box when it fails to find a file. Instead,
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each process has an associated error mode that indicates to the system how the application is going to respond 
     to serious errors. A child process inherits the error mode of its parent process.
@@ -152,15 +138,7 @@ To change the error mode for the process, use the
       behavior of the system. <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode">GetThreadErrorMode</a> is the 
       call function that corresponds to <b>GetErrorMode</b>.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
@@ -175,7 +153,4 @@ To change the error mode for the process, use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
- 
-
- 
 

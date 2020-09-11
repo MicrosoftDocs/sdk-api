@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3dwi.htm
 ms.date: 12/05/2018
 ms.keywords: FaxStartPrintJob, FaxStartPrintJob function [Fax Service], FaxStartPrintJobA, FaxStartPrintJobW, _mfax_faxstartprintjob, fax._mfax_faxstartprintjob, winfax/FaxStartPrintJob, winfax/FaxStartPrintJobA, winfax/FaxStartPrintJobW
-f1_keywords:
-- winfax/FaxStartPrintJob
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxStartPrintJob
-- FaxStartPrintJobA
-- FaxStartPrintJobW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxStartPrintJobW
+ - winfax/FaxStartPrintJobW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxStartPrintJob
+ - FaxStartPrintJobA
+ - FaxStartPrintJobW
 ---
 
 # FaxStartPrintJobW function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxStartPrintJob</b> function to start printing an outbound fax transmission on the specified fax printer.
 
-
 ## -parameters
-
-
-
 
 ### -param PrinterName [in]
 
@@ -76,14 +72,11 @@ Pointer to a constant null-terminated character string that contains the name of
 <li><b>NULL</b> to specify the local fax printer</li>
 </ul>
 
-
-
 ### -param PrintInfo [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_print_infoa">FAX_PRINT_INFO</a> structure that contains the information necessary for the fax server to print the fax transmission. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and delivery report information. For more information, see the following Remarks section.
-
 
 ### -param FaxJobId [out]
 
@@ -91,17 +84,13 @@ Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the print spooler's unique ID for the fax print job. (This is not the same as the fax queue's ID for the job and it cannot be used as a parameter in any fax API that takes a fax ID parameter.) This parameter is required.
 
-
 ### -param FaxContextInfo [out]
 
 Type: <b>PFAX_CONTEXT_INFO</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_context_infoa">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts</a> and the <a href="https://docs.microsoft.com/previous-versions/ms535790(v=vs.85)">Printing and Print Spooler Reference</a>.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -171,14 +160,8 @@ An error occurred during memory allocation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The function returns a handle to a device context. The handle is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function, and by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-startpage">StartPage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpage">EndPage</a> and other Win32 Windows Graphics Device Interface (GDI) functions.
 
@@ -198,9 +181,6 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 > The winfax.h header defines FaxStartPrintJob as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-abortdoc">AbortDoc</a>
 
@@ -235,7 +215,4 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a>
- 
-
- 
 

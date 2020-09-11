@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: BCC2BCC2-9E98-413D-B173-37664A82140B
 ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],TraceReady method, ID3D11ShaderTrace.TraceReady, ID3D11ShaderTrace::TraceReady, TraceReady, TraceReady method [Direct3D 11], TraceReady method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::TraceReady, direct3d11.id3d11shadertrace_traceready
-f1_keywords:
-- d3d11shadertracing/ID3D11ShaderTrace.TraceReady
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11SDKLayers.dll
-- D3D11_1SDKLayers.dll
-- D3D11_2SDKLayers.dll
-api_name:
-- ID3D11ShaderTrace.TraceReady
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11ShaderTrace::TraceReady
+ - d3d11shadertracing/ID3D11ShaderTrace::TraceReady
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11SDKLayers.dll
+ - D3D11_1SDKLayers.dll
+ - D3D11_2SDKLayers.dll
+api_name:
+ - ID3D11ShaderTrace.TraceReady
 ---
 
 # ID3D11ShaderTrace::TraceReady
@@ -51,24 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies that the shader trace recorded and is ready to use.
 
-
 ## -parameters
-
-
-
 
 ### -param pTestCount [out, optional]
 
 An optional pointer to a variable that receives the number of times that a matching invocation for the trace occurred. If not used, set to NULL.
 For more information about this number, see Remarks.
 
-
 ## -returns
-
-
 
 <b>TraceReady</b> returns:
         <ul>
@@ -78,13 +71,7 @@ For more information about this number, see Remarks.
 <li>Possibly other error codes that are described in <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.</li>
 </ul>
 
-
-
-
-
 ## -remarks
-
-
 
 If a trace is meant to record invocation 3 but only two invocations have happened so far, <b>TraceReady</b> sets the variable to which <i>pTestCount</i> points to 2.  You can use this value to understand why a trace is not ready yet. Conversely, the variable to which <i>pTestCount</i> points might be larger than the requested invocation count for a trace that is ready.  You can use this value to determine the number of invocations that ran past the required trace invocation count.  For example, you might not know the number of overdraws that occur on a pixel for a given shader in a draw call.  If you can redraw the scene identically, you can set up the traces this next time based on the value that <b>TraceReady</b> returned at <i>pTestCount</i> on the first pass.
 
@@ -93,15 +80,7 @@ If the shader trace recorded, you can successfully call the <a href="https://doc
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertrace">ID3D11ShaderTrace</a>
- 
-
- 
 

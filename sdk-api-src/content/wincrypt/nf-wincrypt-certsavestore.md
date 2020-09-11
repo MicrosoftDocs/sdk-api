@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
-f1_keywords:
-- wincrypt/CertSaveStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertSaveStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSaveStore
+ - wincrypt/CertSaveStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertSaveStore
 ---
 
 # CertSaveStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSaveStore</b> function saves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to a file or to a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 The handle of the certificate store to be saved.
-
 
 ### -param dwEncodingType [in]
 
@@ -100,8 +95,6 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwSaveAs [in]
 
@@ -142,8 +135,6 @@ The certificate store can be saved as a serialized store containing properties i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwSaveTo [in]
 
@@ -215,22 +206,16 @@ The function saves the certificate store to a memory BLOB. The <i>pvSaveToPara</
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvSaveToPara [in, out]
 
 A pointer that represents where the store should be saved to. The contents of this parameter depends on the value of the <i>dwSaveTo</i> parameter.
 
-
 ### -param dwFlags [in]
 
 This parameter is reserved for future use and must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
@@ -239,13 +224,7 @@ If the function fails, it returns zero. For extended error information, call
 
 Note that <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
 
@@ -264,7 +243,4 @@ Note that <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fil
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

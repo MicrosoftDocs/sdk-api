@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 48135f9d-ee80-4dec-87dc-83f407c25777
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell],described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
-f1_keywords:
-- shldisp/IShellFolderViewDual
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shldisp.h
-api_name:
-- IShellFolderViewDual
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderViewDual
+ - shldisp/IShellFolderViewDual
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shldisp.h
+api_name:
+ - IShellFolderViewDual
 ---
 
 # IShellFolderViewDual interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that modify the view and select items in the current folder.
-		
-
 
 ## -inheritance
 
@@ -150,13 +148,9 @@ Sets the selection state of an item in the view.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -167,7 +161,4 @@ Sets the selection state of an item in the view.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: f13350cb-5064-405d-aeb6-25f684d0bdbb
 ms.date: 12/05/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], IBDA_NullTransform interface [Microsoft TV Technologies],described, IBDA_NullTransformInterface, bdaiface/IBDA_NullTransform, mstv.ibda_nulltransform
-f1_keywords:
-- bdaiface/IBDA_NullTransform
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_NullTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_NullTransform
+ - bdaiface/IBDA_NullTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_NullTransform
 ---
 
 # IBDA_NullTransform interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IBDA_NullTransform</b> interface is implemented on all BDA device filters. The Network Provider filter calls these methods to instruct the filter to either pass data through without modifying it, or else to perform its particular transformation on the data.
-
-
-
 
 ## -inheritance
 
@@ -89,25 +85,13 @@ Stops the transforms on data flowing through the control node.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_NullTransform)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

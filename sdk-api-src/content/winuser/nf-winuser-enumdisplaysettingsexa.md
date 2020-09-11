@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 99794fb1-7ba3-4864-bf6a-e3a514fa7917
 ms.date: 12/05/2018
 ms.keywords: EDS_RAWMODE, EDS_ROTATEDMODE, ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettingsEx, EnumDisplaySettingsEx function [Windows GDI], EnumDisplaySettingsExA, EnumDisplaySettingsExW, _win32_EnumDisplaySettingsEx, gdi.enumdisplaysettingsex, winuser/EnumDisplaySettingsEx, winuser/EnumDisplaySettingsExA, winuser/EnumDisplaySettingsExW
-f1_keywords:
-- winuser/EnumDisplaySettingsEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-sysparams-l1-1-0.dll
-api_name:
-- EnumDisplaySettingsEx
-- EnumDisplaySettingsExA
-- EnumDisplaySettingsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumDisplaySettingsExA
+ - winuser/EnumDisplaySettingsExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-sysparams-l1-1-0.dll
+api_name:
+ - EnumDisplaySettingsEx
+ - EnumDisplaySettingsExA
+ - EnumDisplaySettingsExW
 ---
 
 # EnumDisplaySettingsExA function
 
 
 ## -description
-
 
 The <b>EnumDisplaySettingsEx</b> function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
 
@@ -62,15 +62,11 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 ## -parameters
 
-
-
-
 ### -param lpszDeviceName [in]
 
 A pointer to a null-terminated string that specifies the display device about which graphics mode the function will obtain information.
 
 This parameter is either <b>NULL</b> or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>.<b>DeviceName</b> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer that the calling thread is running on.
-
 
 ### -param iModeNum [in]
 
@@ -107,7 +103,6 @@ Retrieve the settings for the display device that are currently stored in the re
 Graphics mode indexes start at zero. To obtain information for all of a display device's graphics modes, make a series of calls to <b>EnumDisplaySettingsEx</b>, as follows: Set <i>iModeNum</i> to zero for the first call, and increment <i>iModeNum</i> by one for each subsequent call. Continue calling the function until the return value is zero.
 
 When you call <b>EnumDisplaySettingsEx</b> with <i>iModeNum</i> set to zero, the operating system initializes and caches information about the display device. When you call <b>EnumDisplaySettingsEx</b> with <i>iModeNum</i> set to a nonzero value, the function returns the information that was cached the last time the function was called with <i>iModeNum</i> set to zero.
-
 
 ### -param lpDevMode [out]
 
@@ -155,25 +150,14 @@ If set, the function will return graphics modes in all orientations. Otherwise, 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The function fails if <i>iModeNum</i> is greater than the index of the display device's last graphics mode. As noted in the description of the <i>iModeNum</i> parameter, you can use this behavior to enumerate all of a display device's graphics modes.
 
@@ -188,9 +172,6 @@ This API does not participate in DPI virtualization. The output given is always 
 > The winuser.h header defines EnumDisplaySettingsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
 
@@ -229,7 +210,4 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
- 
-
- 
 

@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawString"]
 ms.assetid: ef1d9dc7-132f-4e0b-aba8-bc5a0c5d5d84
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawString
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawString
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawString
+ - gdiplusgraphics/Graphics::DrawString
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawString
+ - Graphics::DrawString
 ---
 
 # DrawString(WCHAR*,INT,Font*,RectF&,StringFormat*,Brush*)
+
 
 ## -description
 
@@ -120,7 +122,6 @@ VOID Example_DrawString(HDC hdc)
 }
 ```
 
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
@@ -132,3 +133,4 @@ VOID Example_DrawString(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
+

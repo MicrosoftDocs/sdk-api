@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: aa7e0c4d-9cb3-4473-a3b9-02ff9643f7de
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgress, IInstallationProgress interface [Windows Update Agent], IInstallationProgress interface [Windows Update Agent],described, wua.iinstallationprogress, wuapi/IInstallationProgress
-f1_keywords:
-- wuapi/IInstallationProgress
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationProgress
+ - wuapi/IInstallationProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationProgress
 ---
 
 # IInstallationProgress interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the progress of an asynchronous installation or uninstallation.
-
 
 ## -inheritance
 
@@ -134,5 +133,5 @@ Gets how far the overall installation or uninstallation process has progressed, 
 
 </td>
 </tr>
-</table> 
+</table>
 

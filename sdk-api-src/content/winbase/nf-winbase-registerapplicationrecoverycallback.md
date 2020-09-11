@@ -8,10 +8,6 @@ tech.root: Recovery
 ms.assetid: 4ff73c2c-a941-4626-ae40-cafbe6e50644
 ms.date: 12/05/2018
 ms.keywords: RegisterApplicationRecoveryCallback, RegisterApplicationRecoveryCallback function [Recovery], base.registerapplicationrecoverycallback, recovery.registerapplicationrecoverycallback, winbase/RegisterApplicationRecoveryCallback
-f1_keywords:
-- winbase/RegisterApplicationRecoveryCallback
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- RegisterApplicationRecoveryCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterApplicationRecoveryCallback
+ - winbase/RegisterApplicationRecoveryCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - RegisterApplicationRecoveryCallback
 ---
 
 # RegisterApplicationRecoveryCallback function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the active instance of an application for recovery.
 
-
 ## -parameters
-
-
-
 
 ### -param pRecoveyCallback [in]
 
 A pointer to the recovery callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373202(v=vs.85)">ApplicationRecoveryCallback</a>.
 
-
 ### -param pvParameter [in, optional]
 
 A pointer to a variable to be passed to the callback function. Can be <b>NULL</b>.
-
 
 ### -param dwPingInterval [in]
 
@@ -74,15 +68,11 @@ The recovery ping interval, in milliseconds. By default, the interval is 5 secon
 
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryinprogress">ApplicationRecoveryInProgress</a> function within the specified interval to indicate to ARR that you are still actively recovering; otherwise, WER terminates recovery. Typically, you perform recovery in a loop with each iteration lasting no longer than the ping interval. Each iteration performs a block of recovery work followed by a call to <b>ApplicationRecoveryInProgress</b>. Since you also use <b>ApplicationRecoveryInProgress</b> to determine if the user wants to cancel recovery, you should consider a smaller interval, so you do not perform a lot of work unnecessarily.
 
-
 ### -param dwFlags [in]
 
 Reserved for future use. Set to zero.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or one of the following error codes.
 
@@ -114,14 +104,8 @@ The ping interval cannot be more than five minutes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the  application encounters an unhandled exception or becomes unresponsive, Windows Error Reporting (WER) calls the specified recovery callback. You should use the callback to save data and state information. You can use the information if you also call  the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function to request that WER restart the application.
 
@@ -131,13 +115,7 @@ A console application that can be updated uses the CTRL_C_EVENT notification to 
 
 Applications should consider saving data and state information on a periodic bases to shorten the amount of time required for recovery.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373202(v=vs.85)">ApplicationRecoveryCallback</a>
 
@@ -152,7 +130,4 @@ Applications should consider saving data and state information on a periodic bas
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterapplicationrecoverycallback">UnregisterApplicationRecoveryCallback</a>
- 
-
- 
 

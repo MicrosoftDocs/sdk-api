@@ -36,22 +36,29 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqFreeDiagnosticReport
+f1_keywords:
+ - DdqFreeDiagnosticReport
+ - diagnosticdataquery/DdqFreeDiagnosticReport
 ---
 
 ## -description
+
 Frees memory allocated for error reports referenced by HDIAGNOSTIC_REPORT_DATA handle.
 
 ## -parameters
 
 ### -param hReport
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-The handle to the resource that contains the set of error reports to be freed. 
+The handle to the resource that contains the set of error reports to be freed.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
+
 For information the datatype DIAGNOSTIC_REPORT_DATA, see [**here**](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_data)
 
 ## -see-also

@@ -8,10 +8,6 @@ tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiPersistentTargetA, RemoveIscsiPersistentTarget, RemoveIscsiPersistentTarget function [iSCSI Discovery Library API], RemoveIscsiPersistentTargetA, RemoveIscsiPersistentTargetW, iscsidisc.removeiscsipersistenttarget, iscsidsc/RemoveIscsiPersistentTarget, iscsidsc/RemoveIscsiPersistentTargetA, iscsidsc/RemoveIscsiPersistentTargetW
-f1_keywords:
-- iscsidsc/RemoveIscsiPersistentTarget
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- RemoveIscsiPersistentTarget
-- RemoveIscsiPersistentTargetA
-- RemoveIscsiPersistentTargetW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveIScsiPersistentTargetA
+ - iscsidsc/RemoveIScsiPersistentTargetA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - RemoveIscsiPersistentTarget
+ - RemoveIscsiPersistentTargetA
+ - RemoveIscsiPersistentTargetW
 ---
 
 # RemoveIScsiPersistentTargetA function
@@ -51,50 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveIscsiPersistentTarget</b> function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
-
 
 ## -parameters
 
-
-
-
 ### -param InitiatorInstance [in]
 
-The name of the initiator that maintains the persistent login to remove. 
-
+The name of the initiator that maintains the persistent login to remove.
 
 ### -param InitiatorPortNumber [in, optional]
 
-The port number on which the initiator connects to <i>TargetName</i>. If <i>InitiatorPortNumber</i> is <b>ISCSI_ALL_INITIATOR_PORTS</b> the miniport driver for the initiator HBA removes the <i>TargetName</i> from the persistent login lists for all initiator ports. 
-
-
+The port number on which the initiator connects to <i>TargetName</i>. If <i>InitiatorPortNumber</i> is <b>ISCSI_ALL_INITIATOR_PORTS</b> the miniport driver for the initiator HBA removes the <i>TargetName</i> from the persistent login lists for all initiator ports.
 
 ### -param TargetName [in]
 
 The name of the target.
 
-
 ### -param Portal [in]
 
-The portal through which the initiator connects to the target. If <i>Portal</i> is <b>null</b> or contains no information, the miniport driver for the initiator HBA removes persistent logins for the target on all portals. 
-
+The portal through which the initiator connects to the target. If <i>Portal</i> is <b>null</b> or contains no information, the miniport driver for the initiator HBA removes persistent logins for the target on all portals.
 
 ## -returns
 
-
-
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appropriate Win32 or iSCSI error code.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addpersistentiscsidevicea">AddPersistentIscsiDevice</a>
 
@@ -117,9 +99,6 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setuppersistentiscsidevices">SetupPersistentIscsiDevices</a>
- 
-
- 
 
 ## -remarks
 

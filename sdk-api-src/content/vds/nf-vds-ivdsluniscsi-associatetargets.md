@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
 ms.date: 12/05/2018
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
-f1_keywords:
-- vds/IVdsLunIscsi.AssociateTargets
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- IVdsLunIscsi.AssociateTargets
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLunIscsi::AssociateTargets
+ - vds/IVdsLunIscsi::AssociateTargets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - IVdsLunIscsi.AssociateTargets
 ---
 
 # IVdsLunIscsi::AssociateTargets
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Associates LUNs with subsystem iSCSI targets.
 
-
 ## -parameters
-
-
-
 
 ### -param pTargetIdArray [in]
 
@@ -67,15 +63,11 @@ A pointer to an array of target <b>VDS_OBJECT_ID</b> data types. The provider
       associates these iSCSI targets with the LUN. This array includes targets already associated with the LUN that 
       are to remain so.
 
-
 ### -param lNumberOfTargets [in]
 
 The number of targets specified in the <i>pTargetArray</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -164,14 +156,8 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Most subsystems implement only one associated target per LUN, but some allow for multiple associated 
     targets.
@@ -182,20 +168,11 @@ Use the
     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-queryassociatedluns">IVdsIscsiTarget::QueryAssociatedLuns</a> 
     method to query the LUNs associated with a target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsluniscsi">IVdsLunIscsi</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-queryassociatedtargets">IVdsLunIscsi::QueryAssociatedTargets</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 8d69caeb-4c02-4a9f-9dd5-ac3c13561a57
 ms.date: 12/05/2018
 ms.keywords: ScriptTextOut, ScriptTextOut function [Internationalization for Windows Applications], _win32_ScriptTextOut, intl.scripttextout, usp10/ScriptTextOut
-f1_keywords:
-- usp10/ScriptTextOut
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Usp10.dll
-- Ext-MS-Win-usp10-l1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptTextOut
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - ScriptTextOut
+ - usp10/ScriptTextOut
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Usp10.dll
+ - Ext-MS-Win-usp10-l1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptTextOut
 ---
 
 # ScriptTextOut function
@@ -52,97 +53,71 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays text for the specified script shape and place information.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>. Note that, unlike some other related Uniscribe functions, this function defines the handle as mandatory.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param x [in]
 
 Value of the x coordinate of the first glyph.
 
-
 ### -param y [in]
 
 Value of the y coordinate of the first glyph.
-
 
 ### -param fuOptions [in]
 
 Options equivalent to the <i>fuOptions</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>. This parameter can be set to either ETO_CLIPPED or ETO_OPAQUE, to both values, or to neither value.
 
-
 ### -param lprc [in, optional]
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the rectangle used to clip the display. The application can set this parameter to <b>NULL</b>.
-
 
 ### -param psa [in]
 
 Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>.
 
-
 ### -param pwcReserved [in]
 
 Reserved; must be set to <b>NULL</b>.
-
 
 ### -param iReserved [in]
 
 Reserved; must be 0.
 
-
 ### -param pwGlyphs [in]
 
 Pointer to an array of glyphs obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
-
 
 ### -param cGlyphs [in]
 
 Count of the glyphs in the array indicated by <i>pwGlyphs</i>. The maximum number of glyphs is 65,536.
 
-
 ### -param piAdvance [in]
 
 Pointer to an array of advance widths obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
-
 
 ### -param piJustify [in, optional]
 
 Pointer to an array of justified advance widths (cell widths). The application can set this parameter to <b>NULL</b>.
 
-
 ### -param pGoffset [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a> structure containing the x and y offsets for the combining glyph.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
-
-
-
 ## -remarks
-
-
 
 This function calls the operating system <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function for text display. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>.
 
@@ -161,12 +136,7 @@ The application should not use <b>ScriptTextOut</b> to write to a metafile unles
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
@@ -205,7 +175,4 @@ The application should not use <b>ScriptTextOut</b> to write to a metafile unles
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

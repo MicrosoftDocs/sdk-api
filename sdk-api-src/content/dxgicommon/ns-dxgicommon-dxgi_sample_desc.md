@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_sample_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 3b41465a-e6b5-e6d1-981e-8fb841dbb6f4, DXGI_SAMPLE_DESC, DXGI_SAMPLE_DESC structure [DXGI], direct3ddxgi.dxgi_sample_desc, dxgicommon/DXGI_SAMPLE_DESC
-f1_keywords:
-- dxgicommon/DXGI_SAMPLE_DESC
-dev_langs:
-- c++
 req.header: dxgicommon.h
 req.include-header: DXGI.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxgicommon.h
-api_name:
-- DXGI_SAMPLE_DESC
 targetos: Windows
 req.typenames: DXGI_SAMPLE_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_SAMPLE_DESC
+ - dxgicommon/DXGI_SAMPLE_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxgicommon.h
+api_name:
+ - DXGI_SAMPLE_DESC
 ---
 
 # DXGI_SAMPLE_DESC structure
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes multi-sampling parameters for a resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Count
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of multisamples per pixel.
-
 
 ### -field Quality
 
@@ -74,10 +69,7 @@ The image quality level. The higher the quality, the lower the performance. The 
 
 For Direct3D 10.1 and Direct3D 11, you can use two special quality level values. For more information about these quality level values, see Remarks.
 
-
 ## -remarks
-
-
 
 This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a> structure.
 
@@ -99,18 +91,8 @@ Direct3D 11 has defined two standard quality levels:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
- 
-
- 
 

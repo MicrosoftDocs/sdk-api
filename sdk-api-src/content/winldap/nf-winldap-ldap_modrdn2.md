@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 7bf7370f-a5e6-474e-8fe9-e6895ef48ab5
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_modrdn2, ldap.ldap__modrdn2, ldap.ldap_modrdn2, ldap_modrdn2, ldap_modrdn2 function [LDAP], ldap_modrdn2A, ldap_modrdn2W, winldap/ldap_modrdn2, winldap/ldap_modrdn2A, winldap/ldap_modrdn2W
-f1_keywords:
-- winldap/ldap_modrdn2
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_modrdn2
-- ldap_modrdn2A
-- ldap_modrdn2W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_modrdn2
+ - winldap/ldap_modrdn2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_modrdn2
+ - ldap_modrdn2A
+ - ldap_modrdn2W
 ---
 
 # ldap_modrdn2 function
@@ -51,53 +52,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_modrdn2</b> function changes the relative distinguished name of an LDAP entry.
 
 This function is obsolete. For LDAP 3 or later, use the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext">ldap_rename_ext</a> or 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext_s">ldap_rename_ext_s</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param ExternalHandle [in]
 
 The session handle.
 
-
 ### -param DistinguishedName [in]
 
 A null-terminated string that contains the distinguished name to change.
-
 
 ### -param NewDistinguishedName [in]
 
 A null-terminated string that contains the new relative distinguished name to give the entry.
 
-
 ### -param DeleteOldRdn [in]
 
 <b>TRUE</b> if the old relative distinguished name should be deleted; <b>FALSE</b> if the old relative distinguished name should be retained.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns the message ID of the modify operation.
 
 If the function fails, it returns –1 and sets the session error parameters in the LDAP data structure.
 
-
-
-
 ## -remarks
-
-
 
 Use the <b>ldap_modrdn2</b> function, or its synchronous equivalent, 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modrdn2_s">ldap_modrdn2_s</a>, to change the name of an LDAP entry.
@@ -116,12 +101,7 @@ Multithreading: Calls to <b>ldap_modrdn2</b> are thread-safe, provided that
 <div class="alert"><b>Note</b>  When connecting to an LDAP 2 server, the application must perform a bind operation, by calling one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a> routines, before attempting other operations.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -148,7 +128,4 @@ Multithreading: Calls to <b>ldap_modrdn2</b> are thread-safe, provided that
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
- 
-
- 
 

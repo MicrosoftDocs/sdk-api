@@ -7,10 +7,6 @@ helpviewer_keywords: ["Image::SaveAdd"]
 ms.assetid: 03ebcd9f-83c9-4970-bc89-cfed876de44b
 ms.date: 05/20/2019
 ms.keywords: Image::SaveAdd
-f1_keywords:
-- gdiplusheaders/Image::SaveAdd
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Image::SaveAdd
+ - gdiplusheaders/Image::SaveAdd
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Image::SaveAdd
+ - Image::SaveAdd
 ---
 
 # Image::SaveAdd(EncoderParameters*)
+
 
 ## -description
 
@@ -138,3 +140,4 @@ VOID Example_SaveAdd(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)">Image::SaveAdd Methods</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
+

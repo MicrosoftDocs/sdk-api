@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 58cb5efa-74bc-4444-aa05-be41a6c63b3a
 ms.date: 12/05/2018
 ms.keywords: AcquireExclusiveAccess, AcquireExclusiveAccess method [IMAPI], AcquireExclusiveAccess method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],AcquireExclusiveAccess method, IDiscRecorder2.AcquireExclusiveAccess, IDiscRecorder2::AcquireExclusiveAccess, imapi.idiscrecorder2_acquireexclusiveaccess, imapi2/IDiscRecorder2::AcquireExclusiveAccess
-f1_keywords:
-- imapi2/IDiscRecorder2.AcquireExclusiveAccess
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.AcquireExclusiveAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::AcquireExclusiveAccess
+ - imapi2/IDiscRecorder2::AcquireExclusiveAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.AcquireExclusiveAccess
 ---
 
 # IDiscRecorder2::AcquireExclusiveAccess
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Acquires exclusive access to the device.
 
-
 ## -parameters
-
-
-
 
 ### -param force [in]
 
 Set to VARIANT_TRUE to gain exclusive access to the volume whether the file system volume can or cannot be dismounted. If VARIANT_FALSE, this method  gains exclusive access only when there is no file system mounted on the volume.
 
-
 ### -param __MIDL__IDiscRecorder20000 [in]
 
 String that contains the friendly name of the client application requesting exclusive access. Cannot be <b>NULL</b> or a zero-length string. The string must conform to the restrictions for the IOCTL_CDROM_EXCLUSIVE_ACCESS control code found in the DDK.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -184,14 +176,8 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should not have to call this method to acquire the lock yourself because the write operations, such as <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a>, acquires the lock for you.
 
@@ -203,13 +189,7 @@ An equal number of calls to the  <b>AcquireExclusiveAccess</b> and <a href="http
 
 If the device is already locked, you can call <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> to retrieve the name of the client application that currently has exclusive access.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
@@ -220,7 +200,4 @@ If the device is already locked, you can call <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 50a55a89-bae0-4a65-96ef-3e9903f45a0c
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortUpdate, DdVideoPortUpdate callback function [Display Devices], PDD_VPORTCB_UPDATE, PDD_VPORTCB_UPDATE callback, ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml, ddrawint/DdVideoPortUpdate, display.ddvideoportupdate
-f1_keywords:
-- ddrawint/DdVideoPortUpdate
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdVideoPortUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_VPORTCB_UPDATE
+ - ddrawint/PDD_VPORTCB_UPDATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdVideoPortUpdate
 ---
 
 # PDD_VPORTCB_UPDATE callback function
@@ -49,41 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DdVideoPortUpdate</b> callback function starts and stops the VPE object, and modifies the VPE object data stream.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - lpUpdate
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updatevportdata">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
 
-
 ## -returns
-
-
 
 <b>DdVideoPortUpdate</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 DirectDraw drivers that support VPE must implement <b>DdVideoPortUpdate</b>.
 
@@ -111,13 +92,7 @@ The number of surfaces in the video and <a href="https://docs.microsoft.com/wind
 
 When <b>dwFlags</b> is DDRAWI_VPORTSTOP, the driver should return immediately. The driver should not poll until the data stream stops.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a>
 
@@ -132,7 +107,4 @@ When <b>dwFlags</b> is DDRAWI_VPORTSTOP, the driver should return immediately. T
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
- 
-
- 
 

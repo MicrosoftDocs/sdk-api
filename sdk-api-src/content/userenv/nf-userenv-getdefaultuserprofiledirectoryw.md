@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 14ff99cb-838a-442b-9f51-414bd7c0a2ef
 ms.date: 12/05/2018
 ms.keywords: GetDefaultUserProfileDirectory, GetDefaultUserProfileDirectory function [Windows Shell], GetDefaultUserProfileDirectoryA, GetDefaultUserProfileDirectoryW, _shell_GetDefaultUserProfileDirectory, shell.GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectoryA, userenv/GetDefaultUserProfileDirectoryW
-f1_keywords:
-- userenv/GetDefaultUserProfileDirectory
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- GetDefaultUserProfileDirectory
-- GetDefaultUserProfileDirectoryA
-- GetDefaultUserProfileDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDefaultUserProfileDirectoryW
+ - userenv/GetDefaultUserProfileDirectoryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - GetDefaultUserProfileDirectory
+ - GetDefaultUserProfileDirectoryA
+ - GetDefaultUserProfileDirectoryW
 ---
 
 # GetDefaultUserProfileDirectoryW function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the path to the root of the default user's profile.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProfileDir [out, optional]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the path to the default user's profile directory. Set this value to <b>NULL</b> to determine the required size of the buffer.
-
 
 ### -param lpcchSize [in, out]
 
@@ -77,21 +72,13 @@ Specifies the size of the <i>lpProfileDir</i> buffer, in <b>TCHARs</b>.
 
 If the buffer specified by <i>lpProfileDir</i> is not large enough or <i>lpProfileDir</i> is <b>NULL</b>, the function fails and this parameter receives the necessary buffer size, including the terminating null character.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following is an example of the path returned by <b>GetDefaultUserProfileDirectory</b> in Windows XP:
 
@@ -110,9 +97,6 @@ To obtain the paths of subdirectories of this directory, use the <a href="https:
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getallusersprofiledirectorya">GetAllUsersProfileDirectory</a>
 
 
@@ -130,7 +114,4 @@ To obtain the paths of subdirectories of this directory, use the <a href="https:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizef.htm
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF class [GDI+], SizeF class [GDI+],described, _gdiplus_CLASS_SizeF_Class, gdiplus._gdiplus_CLASS_SizeF_Class, gdiplustypes/SizeF
-f1_keywords:
-- gdiplustypes/SizeF
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplustypes.h
-api_name:
-- SizeF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SizeF
+ - gdiplustypes/SizeF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplustypes.h
+api_name:
+ - SizeF
 ---
 
 # SizeF class
 
 
 ## -description
-
 
 The <b>SizeF</b> class encapsulates a 
 			<b>Width</b> and 
@@ -138,5 +138,5 @@ The <a href="https://docs.microsoft.com/previous-versions/ms534742(v=vs.85)">Siz
 
 </td>
 </tr>
-</table> 
+</table>
 

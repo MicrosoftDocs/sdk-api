@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60
 ms.date: 12/05/2018
 ms.keywords: LoadTypeLib, LoadTypeLib function [Automation], _oa96_LoadTypeLib, automat.loadtypelib, oleauto/LoadTypeLib
-f1_keywords:
-- oleauto/LoadTypeLib
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- LoadTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadTypeLib
+ - oleauto/LoadTypeLib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - LoadTypeLib
 ---
 
 # LoadTypeLib function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads and registers a type library.
 
-
 ## -parameters
-
-
-
 
 ### -param szFile
 
 The name of the file from which the method should attempt to load a type library.
 
-
 ### -param pptlib
 
 The loaded type library.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -192,14 +184,8 @@ The type library or DLL could not be loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The function <b>LoadTypeLib</b> loads a type library (usually created with MkTypLib) that is stored in the specified file. If <i>szFile</i> specifies only a file name without any path, <b>LoadTypeLib</b> searches for the file and proceeds as follows:
 
@@ -235,7 +221,4 @@ If the type library is already loaded, <b>LoadTypeLib</b> increments the type li
 
 
 For backward compatibility, <b>LoadTypeLib</b> will register the type library if the path is not specified in the <i>szFile</i> parameter. <b>LoadTypeLib</b> will not register the type library if the path of the type library is specified. It is recommended that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> be used to register a type library.
-
-
-
 

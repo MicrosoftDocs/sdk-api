@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: ab4f1830-b38d-4224-a6a9-6d4512245ad6
 ms.date: 12/05/2018
 ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_RES_SERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, WSALookupServiceNext, WSALookupServiceNext function [Winsock], WSALookupServiceNextA, WSALookupServiceNextW, _win32_wsalookupservicenext_2, winsock.wsalookupservicenext_2, winsock2/WSALookupServiceNext, winsock2/WSALookupServiceNextA, winsock2/WSALookupServiceNextW
-f1_keywords:
-- winsock2/WSALookupServiceNext
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSALookupServiceNext
-- WSALookupServiceNextA
-- WSALookupServiceNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSALookupServiceNextA
+ - winsock2/WSALookupServiceNextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSALookupServiceNext
+ - WSALookupServiceNextA
+ - WSALookupServiceNextW
 ---
 
 # WSALookupServiceNextA function
 
 
 ## -description
-
 
 The 
 <b>WSALookupServiceNext</b> function is called after obtaining a handle from a previous call to 
@@ -60,17 +60,12 @@ The provider will pass back a
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should continue to call this function until it returns WSA_E_NO_MORE, indicating that all of 
 <b>WSAQUERYSET</b> has been returned.
 
-
 ## -parameters
-
-
-
 
 ### -param hLookup [in]
 
 A handle returned from the previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
-
 
 ### -param dwControlFlags [in]
 
@@ -265,24 +260,18 @@ This indicates whether prime response is in the remote or local part of
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwBufferLength [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by <i>lpqsResults</i>. On output, if the function fails and the error is 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, then it contains the minimum number of bytes to pass for the <i>lpqsResults</i> to retrieve the record.
 
-
 ### -param lpqsResults [out]
 
 A pointer to a block of memory, which will contain one result set in a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure on return.
 
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -384,14 +373,8 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>dwControlFlags</i> parameter specified in this function and the ones specified at the time of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> are treated as restrictions for the purpose of combination. The restrictions are combined between the ones at 
@@ -505,9 +488,6 @@ The following table describes how the query results are represented in the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicenext">Bluetooth and WSALookupServiceNext</a>
 
 
@@ -529,7 +509,4 @@ The following table describes how the query results are represented in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

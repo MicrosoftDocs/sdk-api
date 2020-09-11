@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: f1649f70-8c8b-4eea-8ecb-7ea5a657eabe
 ms.date: 12/05/2018
 ms.keywords: CompareToKnowledgeCookie, CompareToKnowledgeCookie method [Windows Sync], CompareToKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],CompareToKnowledgeCookie method, ISyncKnowledge2.CompareToKnowledgeCookie, ISyncKnowledge2::CompareToKnowledgeCookie, winsync.isyncknowledge2_comparetoknowledgecookie, winsync/ISyncKnowledge2::CompareToKnowledgeCookie
-f1_keywords:
-- winsync/ISyncKnowledge2.CompareToKnowledgeCookie
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge2.CompareToKnowledgeCookie
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge2::CompareToKnowledgeCookie
+ - winsync/ISyncKnowledge2::CompareToKnowledgeCookie
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge2.CompareToKnowledgeCookie
 ---
 
 # ISyncKnowledge2::CompareToKnowledgeCookie
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a fast comparison between the specified knowledge cookie and this knowledge object.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pKnowledgeCookie [in]
 
 The knowledge cookie to compare against this object.
 
-
 ### -param pResult [out]
 
 The result of the comparison.
 
-
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -105,25 +95,12 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can be used when the performance of the knowledge comparison operation is especially important.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
@@ -134,7 +111,4 @@ This method can be used when the performance of the knowledge comparison operati
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-knowledge_cookie_comparison_result">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 856f15bb-f9a8-4114-9a18-5abc21bef534
 ms.date: 12/05/2018
 ms.keywords: GetReferent, GetReferent method [Windows Shell], GetReferent method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetReferent method, INewShortcutHook::GetReferent, INewShortcutHookA, INewShortcutHookA::GetReferent, INewShortcutHookW, INewShortcutHookW.GetReferent, INewShortcutHookW::GetReferent, _win32_INewShortcutHook_GetReferent, shell.INewShortcutHook_GetReferent, shlobj/INewShortcutHook::GetReferent
-f1_keywords:
-- shlobj/INewShortcutHook.GetReferent
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INewShortcutHook.GetReferent
-- INewShortcutHookA::GetReferent
-- INewShortcutHookW::GetReferent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INewShortcutHookW::GetReferent
+ - shlobj/INewShortcutHookW::GetReferent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INewShortcutHook.GetReferent
+ - INewShortcutHookA::GetReferent
+ - INewShortcutHookW::GetReferent
 ---
 
 # INewShortcutHookW::GetReferent
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the referent of the shortcut object.
 
-
 ## -parameters
-
-
-
 
 ### -param pszReferent
 
@@ -66,30 +62,19 @@ Type: <b>PTSTR</b>
 
 A pointer to a string that receives the referent.
 
-
 ### -param cchReferent
 
 Type: <b>int</b>
 
 The size of the buffer at <i>pszReferent</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 For Internet shortcut objects, this method is the same as <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dd565674(v=vs.85)">IUniformResourceLocator::GetURL</a>.
-
-
 

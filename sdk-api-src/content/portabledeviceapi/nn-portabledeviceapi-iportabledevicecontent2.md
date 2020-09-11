@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 73bf9a24-7fdc-4483-ad37-28d887d146d9
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent2, IPortableDeviceContent2 interface [Windows Portable Devices SDK], IPortableDeviceContent2 interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent2, wpdsdk.iportabledevicecontent2
-f1_keywords:
-- portabledeviceapi/IPortableDeviceContent2
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceContent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceContent2
+ - portabledeviceapi/IPortableDeviceContent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceContent2
 ---
 
 # IPortableDeviceContent2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPortableDeviceContent2</b> interface defines additional methods that provide access to content found on a device.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Updates an object with properties and data found on the device.
 
 </td>
 </tr>
-</table> 
+</table>
 

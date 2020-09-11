@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 52fcf0df-f532-4114-b1c9-96838f1a5e77
 ms.date: 12/05/2018
 ms.keywords: IFolderView2, IFolderView2 interface [Windows Shell], IFolderView2 interface [Windows Shell],described, _shell_IFolderView2, shell.IFolderView2, shobjidl_core/IFolderView2
-f1_keywords:
-- shobjidl_core/IFolderView2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFolderView2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView2
+ - shobjidl_core/IFolderView2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFolderView2
 ---
 
 # IFolderView2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
-
 
 ## -inheritance
 
@@ -296,14 +295,9 @@ Caches a property for an item in the view's property cache.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> interface, from which it inherits.
-
-
 

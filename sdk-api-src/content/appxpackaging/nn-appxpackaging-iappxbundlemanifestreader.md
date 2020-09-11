@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 2ABC7B5A-6489-4B52-B1C4-22D432EC9947
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestReader, IAppxBundleManifestReader interface [App packaging and management], IAppxBundleManifestReader interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader, appxpkg.iappxbundlemanifestreader
-f1_keywords:
-- appxpackaging/IAppxBundleManifestReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestReader
+ - appxpackaging/IAppxBundleManifestReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestReader
 ---
 
 # IAppxBundleManifestReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a read-only object model for manifests of bundle packages.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets the raw XML document without any preprocessing.
 
 </td>
 </tr>
-</table> 
+</table>
 

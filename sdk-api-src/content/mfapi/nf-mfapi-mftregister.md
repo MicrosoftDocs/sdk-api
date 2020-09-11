@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: fb3a2b67-d3e4-4d5f-960a-3979f4780904
 ms.date: 12/05/2018
 ms.keywords: MFTRegister, MFTRegister function [Media Foundation], MFT_CODEC_MERIT_Attribute, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE, MFT_ENUM_FLAG_HARDWARE, MFT_ENUM_FLAG_SYNCMFT, MFT_ENUM_FLAG_TRANSCODE_ONLY, fb3a2b67-d3e4-4d5f-960a-3979f4780904, mf.mftregister, mfapi/MFTRegister
-f1_keywords:
-- mfapi/MFTRegister
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFTRegister
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFTRegister
+ - mfapi/MFTRegister
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFTRegister
 ---
 
 # MFTRegister function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds information about a Media Foundation transform (MFT) to the registry.
         
 
 Applications can enumerate the MFT by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param clsidMFT [in]
 
 The CLSID of the MFT.
           The MFT must also be registered as a COM object using the same CLSID.
 
-
 ### -param guidCategory [in]
 
 GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
-          
-
 
 ### -param pszName [in]
 
 Wide-character string that contains the friendly name of the MFT.
-
 
 ### -param Flags [in]
 
@@ -154,12 +146,9 @@ Setting <i>Flags</i> to zero is  equivalent to setting the <b>MFT_ENUM_FLAG_SYNC
 
 Prior to Windows 7, the <i>Flags</i> parameter was reserved.
 
-
 ### -param cInputTypes [in]
 
 Number of elements in the <i>pInputTypes</i> array.
-          
-
 
 ### -param pInputTypes [in]
 
@@ -167,19 +156,15 @@ Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_re
 
 This parameter can be <b>NULL</b>. However, if the parameter is <b>NULL</b>, the MFT will be enumerated only when an application specifies <b>NULL</b> for the desired input type.
 
-
 ### -param cOutputTypes [in]
 
 Number of elements in the <i>pOutputTypes</i> array.
-          
-
 
 ### -param pOutputTypes [in]
 
 Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. 
 
 This parameter can be <b>NULL</b>. However, if the parameter is <b>NULL</b>, the MFT will be enumerated only when an application specifies <b>NULL</b> for the desired output type.
-
 
 ### -param pAttributes [in]
 
@@ -204,21 +189,12 @@ Contains the merit value of a hardware codec. See <a href="https://docs.microsof
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The registry entries created by this function are read by the following functions: 
 
@@ -261,13 +237,7 @@ It is recommended
 
 On 64-bit Windows, the 32-bit version of this function registers the MFT in the 32-bit node of the registry. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a>
 
@@ -282,7 +252,4 @@ On 64-bit Windows, the 32-bit version of this function registers the MFT in the 
 
 
 <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a>
- 
-
- 
 

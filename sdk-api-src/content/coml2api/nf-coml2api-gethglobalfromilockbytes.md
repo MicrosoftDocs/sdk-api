@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 084fcd1d-5b85-448c-862a-378353e1e2e6
 ms.date: 12/05/2018
 ms.keywords: GetHGlobalFromILockBytes, GetHGlobalFromILockBytes function [Structured Storage], _stg_gethglobalfromilockbytes, coml2api/GetHGlobalFromILockBytes, stg.gethglobalfromilockbytes
-f1_keywords:
-- coml2api/GetHGlobalFromILockBytes
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- GetHGlobalFromILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetHGlobalFromILockBytes
+ - coml2api/GetHGlobalFromILockBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - GetHGlobalFromILockBytes
 ---
 
 # GetHGlobalFromILockBytes function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetHGlobalFromILockBytes</b> function retrieves a global memory handle to a byte array object created using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal">CreateILockBytesOnHGlobal</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param plkbyt [in]
 
@@ -68,24 +64,15 @@ Pointer to the
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface on the byte-array object previously created by a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal">CreateILockBytesOnHGlobal</a> function.
 
-
 ### -param phglobal [out]
 
 Pointer to the current memory handle used by the specified byte-array object.
 
-
 ## -returns
-
-
 
 This function returns HRESULT.
 
-
-
-
 ## -remarks
-
-
 
 After a call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal">CreateILockBytesOnHGlobal</a>, which creates a byte array object on global memory, 
@@ -96,20 +83,11 @@ The contents of the returned memory handle can be written to a clean disk file, 
 
 This function only works within the same process from which the byte array was created.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal">CreateILockBytesOnHGlobal</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>
- 
-
- 
 

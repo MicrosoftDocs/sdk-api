@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e2c8880a-e140-4bb1-8f0d-2d665c98728c
 ms.date: 12/05/2018
 ms.keywords: GetRestorePosition, GetRestorePosition method [DirectShow], GetRestorePosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetRestorePosition method, IVideoWindow.GetRestorePosition, IVideoWindow::GetRestorePosition, IVideoWindowGetRestorePosition, control/IVideoWindow::GetRestorePosition, dshow.ivideowindow_getrestoreposition
-f1_keywords:
-- control/IVideoWindow.GetRestorePosition
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.GetRestorePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::GetRestorePosition
+ - control/IVideoWindow::GetRestorePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.GetRestorePosition
 ---
 
 # IVideoWindow::GetRestorePosition
@@ -50,45 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetRestorePosition</code> method retrieves the restored window position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pLeft [out]
 
 Receives the x-coordinate, in pixels.
-          
-
 
 ### -param pTop [out]
 
 Receives the y-coordinate, in pixels.
-          
-
 
 ### -param pWidth [out]
 
 Receives the width of the window, in pixels.
-          
-
 
 ### -param pHeight [out]
 
 Receives the height of the window, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -131,31 +114,16 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the video window is minimized or maximized, you can use this method to get the window's restored position.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
- 
-
- 
 

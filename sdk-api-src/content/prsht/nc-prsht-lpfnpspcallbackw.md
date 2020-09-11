@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetpageproc.htm
 ms.date: 12/05/2018
 ms.keywords: LPFNPSPCALLBACK, LPFNPSPCALLBACK callback, LPFNPSPCALLBACK callback function [Windows Controls], LPFNPSPCALLBACKA, LPFNPSPCALLBACKW, PSPCB_ADDREF, PSPCB_CREATE, PSPCB_RELEASE, _win32_PropSheetPageProc, _win32_PropSheetPageProc_cpp, controls.PropSheetPageProc, controls._win32_PropSheetPageProc, prsht/LPFNPSPCALLBACK
-f1_keywords:
-- prsht/LPFNPSPCALLBACK
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Prsht.h
-api_name:
-- LPFNPSPCALLBACK
-- LPFNPSPCALLBACK - LPFNPSPCALLBACKW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPFNPSPCALLBACKW
+ - prsht/LPFNPSPCALLBACKW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Prsht.h
+api_name:
+ - LPFNPSPCALLBACK
+ - LPFNPSPCALLBACK - LPFNPSPCALLBACKW
 ---
 
 # LPFNPSPCALLBACKW callback function
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param uMsg [in]
 
@@ -109,8 +104,6 @@ A page is being destroyed. The return value is ignored.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param *ppsp [in, out]
 
@@ -118,21 +111,13 @@ Type: <b>LPPROPSHEETPAGE</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The return value depends on the value of the <i>uMsg</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> function.
 

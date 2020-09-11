@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 743dae18-985a-405a-8025-ead54e06a4ea
 ms.date: 12/05/2018
 ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], IWMPAudioRenderConfig interface [Windows Media Player],described, wmp.iwmpaudiorenderconfig, wmprealestate/IWMPAudioRenderConfig
-f1_keywords:
-- wmprealestate/IWMPAudioRenderConfig
-dev_langs:
-- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmprealestate.h
-api_name:
-- IWMPAudioRenderConfig
-- IWMPAudioRenderConfig.get_audioOutputDevice
-- IWMPAudioRenderConfig.put_audioOutputDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPAudioRenderConfig
+ - wmprealestate/IWMPAudioRenderConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmprealestate.h
+api_name:
+ - IWMPAudioRenderConfig
+ - IWMPAudioRenderConfig.get_audioOutputDevice
+ - IWMPAudioRenderConfig.put_audioOutputDevice
 ---
 
 # IWMPAudioRenderConfig interface
@@ -51,9 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWMPAudioRenderConfig</b> interface provides methods for setting and retrieving the audio output device used by the Windows Media Player ActiveX control.
-
 
 ## -inheritance
 
@@ -84,16 +83,9 @@ Sets the current audio output device for the Windows Media Player ActiveX contro
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

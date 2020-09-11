@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
 ms.date: 12/05/2018
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
-f1_keywords:
-- amvideo/SIZE_MPEG1VIDEOINFO
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Amvideo.h
-api_name:
-- SIZE_MPEG1VIDEOINFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SIZE_MPEG1VIDEOINFO
+ - amvideo/SIZE_MPEG1VIDEOINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Amvideo.h
+api_name:
+ - SIZE_MPEG1VIDEOINFO
 ---
 
 # SIZE_MPEG1VIDEOINFO macro
@@ -49,30 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pv
 
 Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
-f1_keywords:
-- wmp/IWMPSettings.get_isAvailable
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.get_isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::get_isAvailable
+ - wmp/IWMPSettings::get_isAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.get_isAvailable
 ---
 
 # IWMPSettings::get_isAvailable
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_isAvailable</b> method indicates whether a specified action can be performed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItem [in]
 
@@ -121,17 +114,12 @@ The <b>get_isAvailable</b> method indicates whether a specified action can be pe
 <td>Determines whether the <b>put_volume</b> method can be used to specify the audio volume.</td>
 </tr>
 </table>
- 
-
 
 ### -param pIsAvailable [out]
 
 Pointer to a <b>VARIANT_BOOL</b> indicating whether the specified action can be performed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -152,15 +140,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
@@ -211,7 +192,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode">IWMPSettings::setMode</a>
- 
-
- 
 

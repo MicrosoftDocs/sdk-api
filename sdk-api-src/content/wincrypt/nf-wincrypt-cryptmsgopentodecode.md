@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b3df6312-c866-4faa-8b89-bda67c697631
 ms.date: 12/05/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToDecode, CryptMsgOpenToDecode function [Security], _crypto2_cryptmsgopentodecode, security.cryptmsgopentodecode, wincrypt/CryptMsgOpenToDecode
-f1_keywords:
-- wincrypt/CryptMsgOpenToDecode
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgOpenToDecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgOpenToDecode
+ - wincrypt/CryptMsgOpenToDecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgOpenToDecode
 ---
 
 # CryptMsgOpenToDecode function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgOpenToDecode</b> function opens a cryptographic message for decoding and returns a handle of the opened message. The message remains open until 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function is called.
 
 Important changes that affect the handling of enveloped messages have been made to CryptoAPI to support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability. For details, see the Remarks section of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMsgEncodingType [in]
 
@@ -75,8 +71,6 @@ Currently defined encoding types are:
 <li>X509_ASN_ENCODING</li>
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
-
-
 
 ### -param dwFlags [in]
 
@@ -108,8 +102,6 @@ If set, the <i>hCryptProv</i> passed to this function is released on the final <
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwMsgType [in]
 
@@ -176,8 +168,6 @@ The message is a signed and enveloped message.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hCryptProv [in]
 
@@ -187,13 +177,9 @@ This parameter is not used and should be set to <b>NULL</b>.
 
 Unless there is a strong reason for passing in a specific cryptographic provider in <i>hCryptProv</i>, set this parameter to <b>NULL</b>. Passing in <b>NULL</b> causes the default RSA or DSS provider to be acquired before performing hash, signature verification, or recipient encryption operations.
 
-
-
-
 ### -param pRecipientInfo [in]
 
 This parameter is reserved for future use and must be <b>NULL</b>.
-
 
 ### -param pStreamInfo [in, optional]
 
@@ -231,10 +217,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt
 
 In the case of a signed message enclosed in an enveloped message, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> output from the streaming decode of the enveloped message can be fed into another streaming decode to process the signed message.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns the handle of the opened message.
 
@@ -271,15 +254,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a>
 
@@ -302,7 +278,4 @@ A memory allocation failure occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

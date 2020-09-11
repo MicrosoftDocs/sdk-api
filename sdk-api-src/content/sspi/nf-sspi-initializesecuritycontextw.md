@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 ms.date: 12/05/2018
 ms.keywords: Digest, ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_HTTP, ISC_REQ_INTEGRITY, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_NO_INTEGRITY, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (General), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, Kerberos or Negotiate, NTLM, Schannel/SSL, _ssp_initializesecuritycontext, security.initializesecuritycontext, security.initializesecuritycontext__general_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
-f1_keywords:
-- sspi/InitializeSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- InitializeSecurityContext
-- InitializeSecurityContextA
-- InitializeSecurityContextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeSecurityContextW
+ - sspi/InitializeSecurityContextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - InitializeSecurityContext
+ - InitializeSecurityContextA
+ - InitializeSecurityContextW
 ---
 
 # InitializeSecurityContextW function
 
 
 ## -description
-
 
 The <b>InitializeSecurityContext (General)</b> function initiates the client side, outbound <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> from a credential handle. The function is used to build a security context between the client application and a remote peer. <b>InitializeSecurityContext (General)</b> returns a token that the client must pass to the remote peer, which the peer in turn submits to the local security implementation through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> call. The token generated should be considered opaque by all callers.
@@ -99,19 +99,14 @@ For information about using this function with a specific <a href="https://docs.
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Schannel security package.</td>
 </tr>
-</table> 
-
+</table>
 
 ## -parameters
-
-
-
 
 ### -param phCredential [in, optional]
 
 A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a>. This handle is used to build the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The <b>InitializeSecurityContext (General)</b> function requires at least OUTBOUND credentials.
-
 
 ### -param phContext [in, optional]
 
@@ -120,7 +115,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi
 This parameter is optional with the Microsoft Digest SSP and can be set to <b>NULL</b>.
 
 When using the Schannel SSP, on the first call to <b>InitializeSecurityContext (General)</b>, specify <b>NULL</b>. On future calls, specify the token received in the <i>phNewContext</i> parameter after the first call to this function.
-
 
 ### -param pTargetName [in, optional]
 
@@ -183,8 +177,6 @@ Null-terminated string that uniquely identifies the target server. Schannel uses
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fContextReq [in]
 
@@ -360,11 +352,9 @@ The requested attributes may not be supported by the client. For more informatio
 For  further descriptions of the various attributes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/context-requirements">Context Requirements</a>.
 
-
 ### -param Reserved1 [in]
 
 This parameter is reserved and must be set to zero.
-
 
 ### -param TargetDataRep [in]
 
@@ -372,17 +362,14 @@ The data representation, such as byte ordering, on the target. This parameter ca
 
 This parameter is not used with Digest or Schannel. Set it to zero.
 
-
 ### -param pInput [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains pointers to the buffers supplied as input to the package. Unless the client context was initiated by the server, the value of this parameter must be <b>NULL</b> on the first call to the function. On subsequent calls to the function or when the client context was initiated by the server, the value of this parameter is a pointer to a buffer allocated with enough memory to hold the token returned by the remote computer.
 
-
 ### -param Reserved2 [in]
 
 This parameter is reserved and must be set to zero.
-
 
 ### -param phNewContext [in, out, optional]
 
@@ -390,7 +377,6 @@ A pointer to a
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CtxtHandle</a> structure. On the first call to <b>InitializeSecurityContext (General)</b>, this pointer receives the new context handle. On the second call, <i>phNewContext</i> can be the same as the handle specified in the <i>phContext</i> parameter.
 
 When using the Schannel SSP,  on calls after the first call, pass the  handle returned here as the <i>phContext</i> parameter and specify <b>NULL</b> for <i>phNewContext</i>.
-
 
 ### -param pOutput [in, out, optional]
 
@@ -401,7 +387,6 @@ A pointer to a
 When using the Microsoft Digest SSP,  this parameter receives the challenge response that must be sent to the server.
 
 When using the Schannel SSP, if the ISC_REQ_ALLOCATE_MEMORY flag is specified, the Schannel SSP will allocate memory for  the buffer and put the appropriate information in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>. In addition, the caller must pass in a buffer of type <b>SECBUFFER_ALERT</b>. On output, if an alert is generated, this buffer  contains information about that alert, and the function fails.
-
 
 ### -param pfContextAttr [out]
 
@@ -424,10 +409,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/time
 
 There is no expiration time for Microsoft Digest SSP security contexts or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns one of the following success codes.
 
@@ -626,14 +608,8 @@ The principal that received the authentication request is not the same as the on
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for determining whether the final context attributes are sufficient. If, for example, confidentiality was requested, but could not be established, some applications may choose to shut down the connection immediately.
 
@@ -697,9 +673,6 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>
 
 
@@ -729,7 +702,4 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
- 
-
- 
 

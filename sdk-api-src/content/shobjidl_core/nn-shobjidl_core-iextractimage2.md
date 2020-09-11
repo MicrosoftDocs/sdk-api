@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 4fa28126-e65c-49d9-ab76-fb4a0dd0747c
 ms.date: 12/05/2018
 ms.keywords: IExtractImage2, IExtractImage2 interface [Windows Shell], IExtractImage2 interface [Windows Shell],described, _win32_IExtractImage2, shell.IExtractImage2, shobjidl_core/IExtractImage2
-f1_keywords:
-- shobjidl_core/IExtractImage2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IExtractImage2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtractImage2
+ - shobjidl_core/IExtractImage2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IExtractImage2
 ---
 
 # IExtractImage2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a>.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Requests the date the image was last modified. This method allows the Shell to d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Implement <b>IExtractImage2</b> to provide date stamps for your thumbnail images.
 
@@ -90,6 +86,4 @@ You do not call this interface directly. <b>IExtractImage2</b> is used by the op
 
 <b>IExtractImage2</b> implements all the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a> methods as well as 
 				<b>IUnknown</b>. The listed method is specific to <b>IExtractImage2</b>.
-
-
 

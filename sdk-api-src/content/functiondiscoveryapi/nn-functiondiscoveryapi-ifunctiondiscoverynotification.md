@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 1819fe08-b151-482d-8e2c-1d599fd15609
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification, IFunctionDiscoveryNotification interface, IFunctionDiscoveryNotification interface,described, functiondiscoveryapi/IFunctionDiscoveryNotification, ncd.ifunctiondiscoverynotification
-f1_keywords:
-- functiondiscoveryapi/IFunctionDiscoveryNotification
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- functiondiscoveryapi.h
-api_name:
-- IFunctionDiscoveryNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryNotification
+ - functiondiscoveryapi/IFunctionDiscoveryNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - functiondiscoveryapi.h
+api_name:
+ - IFunctionDiscoveryNotification
 ---
 
 # IFunctionDiscoveryNotification interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 This interface is implemented by the client program  to support asynchronous queries and is called by Function Discovery to notify the client program when a function instance that meets the query parameters has been added or removed.
-
 
 ## -inheritance
 
@@ -97,12 +96,9 @@ Indicates that a function instance has been added, removed, or changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface must be implemented by the client program in order to receive notifications from Function Discovery. The address of the client program's implementation is passed to one of the query methods to enable notifications for function instances which meet the query parameters.
 
@@ -135,5 +131,4 @@ private:
     HANDLE m_hAddEvent, m_hRemoveEvent, m_hChangeEvent;
 };
 </code></pre>
-
 

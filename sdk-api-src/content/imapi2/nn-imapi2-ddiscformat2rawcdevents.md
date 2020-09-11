@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 3a06911e-8a50-4e41-874c-478ad05f6488
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2RawCDEvents, DDiscFormat2RawCDEvents interface [IMAPI], DDiscFormat2RawCDEvents interface [IMAPI],described, imapi.ddiscformat2rawcdevents, imapi2/DDiscFormat2RawCDEvents
-f1_keywords:
-- imapi2/DDiscFormat2RawCDEvents
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- DDiscFormat2RawCDEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DDiscFormat2RawCDEvents
+ - imapi2/DDiscFormat2RawCDEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - DDiscFormat2RawCDEvents
 ---
 
 # DDiscFormat2RawCDEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement this interface to receive notifications of the current raw-image write operation.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Implement this method to receive progress notification of the current raw-image 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
- 
-
- 
 

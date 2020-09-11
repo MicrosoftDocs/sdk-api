@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 8baf8d8b-95a0-46bd-81ea-e99a7db45cdc
 ms.date: 12/05/2018
 ms.keywords: IWTSPluginServiceProvider, IWTSPluginServiceProvider interface [Remote Desktop Services], IWTSPluginServiceProvider interface [Remote Desktop Services],described, termserv.iwtspluginserviceprovider, tsvirtualchannels/IWTSPluginServiceProvider
-f1_keywords:
-- tsvirtualchannels/IWTSPluginServiceProvider
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tsvirtualchannels.h
-api_name:
-- IWTSPluginServiceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSPluginServiceProvider
+ - tsvirtualchannels/IWTSPluginServiceProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tsvirtualchannels.h
+api_name:
+ - IWTSPluginServiceProvider
 ---
 
 # IWTSPluginServiceProvider interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.
 
 This interface is implemented by the Remote Desktop Connection (RDC) client. You obtain an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelmanager">IWTSVirtualChannelManager</a> instance obtained in the plug-in's <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsplugin-initialize">IWTSPlugin::Initialize</a> method.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Obtains the specified service.
 
 </td>
 </tr>
-</table> 
+</table>
 

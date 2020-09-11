@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], IWICBitmapEncoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapencoder, wic._wic_codec_iwicbitmapencoder, wincodec/IWICBitmapEncoder
-f1_keywords:
-- wincodec/IWICBitmapEncoder
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wincodec.h
-api_name:
-- IWICBitmapEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapEncoder
+ - wincodec/IWICBitmapEncoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wincodec.h
+api_name:
+ - IWICBitmapEncoder
 ---
 
 # IWICBitmapEncoder interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods for setting an encoder's properties such as thumbnails, frames, and palettes.
-
 
 ## -inheritance
 
@@ -158,12 +157,9 @@ Sets the global thumbnail for the image.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 There are a number of concrete implemenations of this interface representing each of the standard encoders provided by the platform including bitmap (BMP), Portable Network Graphics (PNG), Joint Photographic Experts Group (JPEG), Graphics Interchange Format (GIF), Tagged Image File Format (TIFF), and Microsoft Windows Digital Photo (WDP). The following table includes the class identifier (CLSID) for each native encoder.
             
@@ -208,13 +204,7 @@ Additionally this interface may be sub-classed to provide support for third part
 
 CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>
 
@@ -237,7 +227,4 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
- 
-
- 
 

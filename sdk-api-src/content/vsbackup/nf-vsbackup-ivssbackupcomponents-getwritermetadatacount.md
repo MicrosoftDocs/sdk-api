@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: cf8c4782-2850-4847-a7a1-95bd2bd547a1
 ms.date: 12/05/2018
 ms.keywords: GetWriterMetadataCount, GetWriterMetadataCount method [VSS], GetWriterMetadataCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadataCount method, IVssBackupComponents.GetWriterMetadataCount, IVssBackupComponents::GetWriterMetadataCount, _win32_ivssbackupcomponents_getwritermetadatacount, base.ivssbackupcomponents_getwritermetadatacount, vsbackup/IVssBackupComponents::GetWriterMetadataCount
-f1_keywords:
-- vsbackup/IVssBackupComponents.GetWriterMetadataCount
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.GetWriterMetadataCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::GetWriterMetadataCount
+ - vsbackup/IVssBackupComponents::GetWriterMetadataCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.GetWriterMetadataCount
 ---
 
 # IVssBackupComponents::GetWriterMetadataCount
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetWriterMetadataCount</b> method returns the number of writers with metadata.
 
-
 ## -parameters
-
-
-
 
 ### -param pcWriters [out]
 
 Number of writers with metadata.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -124,14 +117,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A requester must call the asynchronous operation 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> and wait for it to complete prior to calling <b>IVssBackupComponents::GetWriterMetadataCount</b>.
@@ -140,13 +127,7 @@ The number of writers returned by
 <b>GetWriterMetadataCount</b> should always be the same as that returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatuscount">IVssBackupComponents::GetWriterStatusCount</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -161,7 +142,4 @@ The number of writers returned by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
- 
-
- 
 

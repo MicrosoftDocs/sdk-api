@@ -8,10 +8,6 @@ tech.root: wsb
 ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], IWsbApplicationRestoreSupport interface [Windows Server Backup],described, wsb.iwsbapplicationrestoresupport, wsbapp/IWsbApplicationRestoreSupport
-f1_keywords:
-- wsbapp/IWsbApplicationRestoreSupport
-dev_langs:
-- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WsbApp.h
-api_name:
-- IWsbApplicationRestoreSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWsbApplicationRestoreSupport
+ - wsbapp/IWsbApplicationRestoreSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WsbApp.h
+api_name:
+ - IWsbApplicationRestoreSupport
 ---
 
 # IWsbApplicationRestoreSupport interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods for performing application-specific restore tasks.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Performs application-specific <a href="https://docs.microsoft.com/windows/deskto
 
 </td>
 </tr>
-</table> 
+</table>
 

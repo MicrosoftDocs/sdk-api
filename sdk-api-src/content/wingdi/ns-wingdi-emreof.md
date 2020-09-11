@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 99a3f97e-cb43-49b3-9972-23f9911b2cd0
 ms.date: 12/05/2018
 ms.keywords: '*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, wingdi/EMREOF, wingdi/PEMREOF'
-f1_keywords:
-- wingdi/EMREOF
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- EMREOF
 targetos: Windows
 req.typenames: EMREOF, *PEMREOF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagEMREOF
+ - wingdi/tagEMREOF
+ - PEMREOF
+ - wingdi/PEMREOF
+ - EMREOF
+ - wingdi/EMREOF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - EMREOF
 ---
 
 # EMREOF structure
@@ -49,42 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EMREOF</b> structure contains data for the enhanced metafile record that indicates the end of the metafile.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field emr
 
 The base structure for all record types.
 
-
 ### -field nPalEntries
 
 The number of palette entries.
-
 
 ### -field offPalEntries
 
 The offset, in bytes, to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures.
 
-
 ### -field nSizeLast
 
 The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a> structure. This member must be the last double word of the record. If palette entries exist, they precede this member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
@@ -99,7 +89,4 @@ The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
- 
-
- 
 

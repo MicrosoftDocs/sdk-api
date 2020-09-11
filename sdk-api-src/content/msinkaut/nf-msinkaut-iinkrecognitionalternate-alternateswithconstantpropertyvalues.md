@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 6c199960-e0ee-4370-a302-a45a3dbe8b28
 ms.date: 12/05/2018
 ms.keywords: 6c199960-e0ee-4370-a302-a45a3dbe8b28, AlternatesWithConstantPropertyValues, AlternatesWithConstantPropertyValues method [Tablet PC], AlternatesWithConstantPropertyValues method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],AlternatesWithConstantPropertyValues method, IInkRecognitionAlternate.AlternatesWithConstantPropertyValues, IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues, tablet.iinkrecognitionalternate_alternateswithconstantpropertyvalues
-f1_keywords:
-- msinkaut/IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionAlternate::AlternatesWithConstantPropertyValues
+ - msinkaut/IInkRecognitionAlternate::AlternatesWithConstantPropertyValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
 ---
 
 # IInkRecognitionAlternate::AlternatesWithConstantPropertyValues
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection, which are a division of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object on which this method is called.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param PropertyType [in]
 
@@ -68,15 +61,11 @@ Specifies a string value that identifies the property. For a list of the propert
 
 For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ### -param AlternatesWithConstantPropertyValues [out, retval]
 
 When this method returns, contains an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection which is made up of a division of the alternate on which this method is called. Each <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object in the collection contains adjacent recognition segments which have the same property value for the <i>propertyType</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -141,14 +130,8 @@ Cannot allocate memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each alternate in the collection contains adjacent recognition segments which have the same property value for the property passed into the method.
 
@@ -172,12 +155,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut
 <div class="alert"><b>Note</b>  The <b>AlternatesWithConstantPropertyValues</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates</a> property, and the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object function differently than the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">AlternatesFromSelection</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> object. <b>AlternatesFromSelection</b> returns a collection of alternates for the requested segments of the recognition result.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates Property</a>
 
@@ -204,7 +182,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates Property</a>
- 
-
- 
 

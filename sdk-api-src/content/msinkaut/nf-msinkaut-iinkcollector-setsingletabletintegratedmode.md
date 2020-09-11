@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 96787996-c0fd-455f-952e-90ddc8640253
 ms.date: 12/05/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkCollector interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkCollector.SetSingleTabletIntegratedMode, IInkCollector::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetSingleTabletIntegratedMode, tablet.inkcollector_setsingletabletintegratedmode
-f1_keywords:
-- msinkaut/IInkCollector.SetSingleTabletIntegratedMode
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.SetSingleTabletIntegratedMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::SetSingleTabletIntegratedMode
+ - msinkaut/IInkCollector::SetSingleTabletIntegratedMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.SetSingleTabletIntegratedMode
 ---
 
 # IInkCollector::SetSingleTabletIntegratedMode
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Allows the ink collector (<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>) to collect ink from only one tablet. Ink from other tablets is ignored by the ink collector.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Tablet [in]
 
 The tablet on which ink is collected, or drawn.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,14 +124,8 @@ The tablet does not point to a compatible Ink object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To allow the ink collector to collect ink from all tablets, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setalltabletsmode">SetAllTabletsMode</a> method.
 
@@ -149,13 +133,7 @@ To allow the ink collector to collect ink from all tablets, call the <a href="ht
 <div> </div>
 When this method is called, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_cursors">Cursors</a> property of the ink collector is set to the empty collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled">Enabled Property</a>
 
@@ -178,7 +156,4 @@ When this method is called, the <a href="https://docs.microsoft.com/windows/desk
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setalltabletsmode">SetAllTabletsMode Method</a>
- 
-
- 
 

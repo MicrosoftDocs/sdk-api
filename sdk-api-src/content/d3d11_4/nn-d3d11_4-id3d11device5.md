@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device5, ID3D11Device5 interface [Direct3D 11], ID3D11Device5 interface [Direct3D 11],described, d3d11_4/ID3D11Device5, direct3d11.id3d11device5
-f1_keywords:
-- d3d11_4/ID3D11Device5
-dev_langs:
-- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: D3d11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.lib
-- d3d11.dll
-api_name:
-- ID3D11Device5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device5
+ - d3d11_4/ID3D11Device5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.lib
+ - d3d11.dll
+api_name:
+ - ID3D11Device5
 ---
 
 # ID3D11Device5 interface
 
 
 ## -description
-
 
 The device interface represents a virtual adapter; it is used to create resources. <b>ID3D11Device5</b> adds new methods to those in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>.
 <div class="alert"><b>Note</b>  This interface, introduced in the Windows 10 Creators Update, is the latest version of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> interface. Applications targetting Windows 10 Creators Update should use this interface instead of earlier versions.</div><div> </div>
@@ -87,20 +87,13 @@ Opens a handle for a shared fence by using HANDLE and REFIID.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>
- 
-
- 
 

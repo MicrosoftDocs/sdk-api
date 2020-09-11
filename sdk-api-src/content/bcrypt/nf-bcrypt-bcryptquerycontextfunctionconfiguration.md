@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4eea9efe-bf45-4926-86fc-9b12b6d292cd
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionConfiguration, BCryptQueryContextFunctionConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionConfiguration, security.bcryptquerycontextfunctionconfiguration
-f1_keywords:
-- bcrypt/BCryptQueryContextFunctionConfiguration
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptQueryContextFunctionConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptQueryContextFunctionConfiguration
+ - bcrypt/BCryptQueryContextFunctionConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptQueryContextFunctionConfiguration
 ---
 
 # BCryptQueryContextFunctionConfiguration function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptQueryContextFunctionConfiguration</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptQueryContextFunctionConfiguration</b> function obtains the cryptographic function configuration information for an existing CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -90,13 +86,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to obtain the function configuration information for.
-
 
 ### -param dwInterface [in]
 
@@ -188,20 +181,16 @@ Obtain the function configuration information from the list of Schannel function
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic function to obtain the configuration information for.
-
 
 ### -param pcbBuffer [in, out]
 
 The address of a <b>ULONG</b> variable that, on entry, contains the size, in bytes, of the buffer pointed to by <i>ppBuffer</i>. If this size is not large enough to hold the context information, this function will fail with <b>STATUS_BUFFER_TOO_SMALL</b>.
 
 After this function returns, this variable contains the number of bytes that were copied to the <i>ppBuffer</i> buffer.
-
 
 ### -param ppBuffer [in, out]
 
@@ -213,10 +202,7 @@ If this parameter is <b>NULL</b>, this function will place the required size, in
 
 For more information about the usage of this parameter, see Remarks.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -286,14 +272,8 @@ The specified context or function could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each cryptographic function has only one set of configuration information, so although the <i>ppBuffer</i> parameter appears to be a used as an array, this function treats this as an array with only one element. The following example helps clarify how this parameter is used.
 
@@ -316,16 +296,7 @@ status = BCryptQueryContextFunctionConfiguration(
 
 <b>BCryptQueryContextFunctionConfiguration</b> can be called only in user mode.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
- 
-
- 
 

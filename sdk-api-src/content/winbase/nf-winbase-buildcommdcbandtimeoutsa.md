@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d7fbc6e4-f166-4341-8ce9-37c8baab1b00
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCBAndTimeouts, BuildCommDCBAndTimeouts function, BuildCommDCBAndTimeoutsA, BuildCommDCBAndTimeoutsW, _win32_buildcommdcbandtimeouts, base.buildcommdcbandtimeouts, winbase/BuildCommDCBAndTimeouts, winbase/BuildCommDCBAndTimeoutsA, winbase/BuildCommDCBAndTimeoutsW
-f1_keywords:
-- winbase/BuildCommDCBAndTimeouts
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- BuildCommDCBAndTimeouts
-- BuildCommDCBAndTimeoutsA
-- BuildCommDCBAndTimeoutsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BuildCommDCBAndTimeoutsA
+ - winbase/BuildCommDCBAndTimeoutsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - BuildCommDCBAndTimeouts
+ - BuildCommDCBAndTimeoutsA
+ - BuildCommDCBAndTimeoutsW
 ---
 
 # BuildCommDCBAndTimeoutsA function
@@ -51,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates a device-definition string into appropriate device-control block codes and places them into 
     a device control block. The function can also set up time-out values, including the possibility of no 
     time-outs, for a device; the function's behavior in this regard depends on the contents of the device-definition 
     string.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDef [in]
 
@@ -88,7 +84,6 @@ For example, the following string specifies a baud rate of 1200, no parity, 8 da
 
 <code>baud=1200 parity=N data=8 stop=1</code>
 
-
 ### -param lpDCB [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-dcb">DCB</a> structure that receives information 
@@ -96,28 +91,19 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/n
       <b>DCB</b> structure defines the control settings for a 
       communications device.
 
-
 ### -param lpCommTimeouts [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure that 
       receives time-out information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>BuildCommDCBAndTimeouts</b> function 
     modifies its time-out setting behavior based on the presence or absence of a "to={on|off}" 
@@ -146,9 +132,6 @@ For more information, see the Remarks for the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
 
 
@@ -174,7 +157,4 @@ For more information, see the Remarks for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
- 
-
- 
 

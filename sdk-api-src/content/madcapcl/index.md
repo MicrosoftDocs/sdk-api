@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: madcap
+f1_keywords:
+ - madcapcl
+ - madcapcl/madcapcl
 ---
 
 # Madcapcl.h header
 
 
 ## -description
-
 
 This header is used by Multicast Address Dynamic Client Allocation Protocol (MADCAP). For more information, see:
 

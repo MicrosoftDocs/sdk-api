@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
-f1_keywords:
-- amaudio/IAMDirectSound
-dev_langs:
-- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDirectSound
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDirectSound
+ - amaudio/IAMDirectSound
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDirectSound
 ---
 
 # IAMDirectSound interface
@@ -50,16 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMDirectSound</code> interface specifies which window has focus for controlling DirectSound audio playback. DirectShow provides limited support for this interface:
 
 <ul>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> implements the <b>GetFocusWindow</b> and <b>SetFocusWindow</b> methods. It does not implement the other methods on the interface.</li>
 <li>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> exposes the interface but does not implement any of its methods.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -148,16 +145,9 @@ Sets the window that will handle sound playback for the current media file.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

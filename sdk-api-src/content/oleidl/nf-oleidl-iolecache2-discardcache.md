@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 03fb4bdb-1655-4923-b124-8854419766ec
 ms.date: 12/05/2018
 ms.keywords: DiscardCache, DiscardCache method [COM], DiscardCache method [COM],IOleCache2 interface, IOleCache2 interface [COM],DiscardCache method, IOleCache2.DiscardCache, IOleCache2::DiscardCache, _ole_iolecache2_discardcache, com.iolecache2_discardcache, oleidl/IOleCache2::DiscardCache
-f1_keywords:
-- oleidl/IOleCache2.DiscardCache
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleCache2.DiscardCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleCache2::DiscardCache
+ - oleidl/IOleCache2::DiscardCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleCache2.DiscardCache
 ---
 
 # IOleCache2::DiscardCache
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Discards the caches found in memory.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDiscardOptions [in]
 
@@ -64,10 +60,7 @@ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/
 
 Containers that have activated an embedded object, made some changes, and then called <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> with OLECLOSE_NOSAVE to roll back the changes can specify DISCARDCACHE_NOSAVE to ensure that the native and presentation data are not out of synchronization.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -99,26 +92,14 @@ The storage medium is full.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>IOleCache2::DiscardCache</b> method is commonly used to handle low memory conditions by freeing memory currently being used by presentation caches.
 
 After it is discarded, a cache will satisfy subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> calls by reverting to disk-based data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
@@ -129,7 +110,4 @@ After it is discarded, a cache will satisfy subsequent <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
- 
-
- 
 

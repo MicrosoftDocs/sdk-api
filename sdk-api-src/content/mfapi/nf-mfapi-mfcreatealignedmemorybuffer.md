@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: cccc0dea-3f1e-41e4-97f4-de7760ceccb0
 ms.date: 12/05/2018
 ms.keywords: MFCreateAlignedMemoryBuffer, MFCreateAlignedMemoryBuffer function [Media Foundation], MF_128_BYTE_ALIGNMENT, MF_16_BYTE_ALIGNMENT, MF_1_BYTE_ALIGNMENT, MF_256_BYTE_ALIGNMENT, MF_2_BYTE_ALIGNMENT, MF_32_BYTE_ALIGNMENT, MF_4_BYTE_ALIGNMENT, MF_512_BYTE_ALIGNMENT, MF_64_BYTE_ALIGNMENT, MF_8_BYTE_ALIGNMENT, cccc0dea-3f1e-41e4-97f4-de7760ceccb0, mf.mfcreatealignedmemorybuffer, mfapi/MFCreateAlignedMemoryBuffer
-f1_keywords:
-- mfapi/MFCreateAlignedMemoryBuffer
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFCreateAlignedMemoryBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateAlignedMemoryBuffer
+ - mfapi/MFCreateAlignedMemoryBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFCreateAlignedMemoryBuffer
 ---
 
 # MFCreateAlignedMemoryBuffer function
@@ -49,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param cbMaxLength
 
 Size of the buffer, in bytes.
-
 
 ### -param cbAligment
 
@@ -195,18 +189,12 @@ Align to 512 bytes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppBuffer
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the media buffer. The caller must release the interface.
-          
-
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -229,25 +217,12 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When the media buffer object is destroyed, it releases the allocated memory.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer">MFCreateMemoryBuffer</a>
 
@@ -258,7 +233,4 @@ When the media buffer object is destroyed, it releases the allocated memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

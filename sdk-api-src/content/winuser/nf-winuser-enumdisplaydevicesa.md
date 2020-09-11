@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: df3b493c-23d2-4996-9b79-86009efe3078
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayDevices, EnumDisplayDevices function [Windows GDI], EnumDisplayDevicesA, EnumDisplayDevicesW, _win32_EnumDisplayDevices, gdi.enumdisplaydevices, winuser/EnumDisplayDevices, winuser/EnumDisplayDevicesA, winuser/EnumDisplayDevicesW
-f1_keywords:
-- winuser/EnumDisplayDevices
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-sysparams-l1-1-0.dll
-api_name:
-- EnumDisplayDevices
-- EnumDisplayDevicesA
-- EnumDisplayDevicesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumDisplayDevicesA
+ - winuser/EnumDisplayDevicesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-sysparams-l1-1-0.dll
+api_name:
+ - EnumDisplayDevices
+ - EnumDisplayDevicesA
+ - EnumDisplayDevicesW
 ---
 
 # EnumDisplayDevicesA function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumDisplayDevices</b> function lets you obtain information about the display devices in the current session.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDevice [in]
 
@@ -69,13 +65,11 @@ A pointer to the device name. If <b>NULL</b>, function returns information for t
 
 For more information, see Remarks.
 
-
 ### -param iDevNum [in]
 
 An index value that specifies the display device of interest.
 
 The operating system identifies each display device in the current session with an index value. The index values are consecutive integers, starting at 0. If the current session has three display devices, for example, they are specified by the index values 0, 1, and 2.
-
 
 ### -param lpDisplayDevice [out]
 
@@ -83,26 +77,17 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns
 
 Before calling <b>EnumDisplayDevices</b>, you must initialize the <b>cb</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a> to the size, in bytes, of <b>DISPLAY_DEVICE</b>.
 
-
 ### -param dwFlags [in]
 
-Set this flag to EDD_GET_DEVICE_INTERFACE_NAME (0x00000001) to retrieve the device interface name for GUID_DEVINTERFACE_MONITOR, which is registered by the operating system on a per monitor basis. The value is placed in the DeviceID member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a> structure returned in <i>lpDisplayDevice</i>. The resulting device interface name can be used with <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi">SetupAPI functions</a> and serves as a link between GDI monitor devices and SetupAPI monitor devices. 
-
+Set this flag to EDD_GET_DEVICE_INTERFACE_NAME (0x00000001) to retrieve the device interface name for GUID_DEVINTERFACE_MONITOR, which is registered by the operating system on a per monitor basis. The value is placed in the DeviceID member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a> structure returned in <i>lpDisplayDevice</i>. The resulting device interface name can be used with <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi">SetupAPI functions</a> and serves as a link between GDI monitor devices and SetupAPI monitor devices.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. The function fails if <i>iDevNum</i> is greater than the largest device index.
 
-
-
-
 ## -remarks
-
-
 
 To query all display devices in the current session, call this function in a loop, starting with <i>iDevNum</i> set to 0, and incrementing <i>iDevNum</i> until the function fails. To select all display devices in the desktop, use only the display devices that have the DISPLAY_DEVICE_ATTACHED_TO_DESKTOP flag in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a> structure.
 
@@ -120,9 +105,6 @@ To query all monitor devices associated with an adapter, call <b>EnumDisplayDevi
 > The winuser.h header defines EnumDisplayDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
 
@@ -153,7 +135,4 @@ To query all monitor devices associated with an adapter, call <b>EnumDisplayDevi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
 ms.date: 12/05/2018
 ms.keywords: CryptMsgUpdate, CryptMsgUpdate function [Security], _crypto2_cryptmsgupdate, security.cryptmsgupdate, wincrypt/CryptMsgUpdate
-f1_keywords:
-- wincrypt/CryptMsgUpdate
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgUpdate
+ - wincrypt/CryptMsgUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgUpdate
 ---
 
 # CryptMsgUpdate function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgUpdate</b> function adds contents to a cryptographic message. The use of this function allows messages to be constructed piece by piece through repetitive calls of <b>CryptMsgUpdate</b>. The added message content is either encoded or decoded depending on whether the message was opened with 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptMsg [in]
 
 Cryptographic message handle of the message to be updated.
 
-
 ### -param pbData [in]
 
 A pointer to the buffer holding the data to be encoded or decoded.
 
-
 ### -param cbData [in]
 
 Number of bytes of data in the <i>pbData</i> buffer.
-
 
 ### -param fFinal [in]
 
@@ -92,10 +85,7 @@ If the CMSG_DETACHED_FLAG flag was set and a message is opened using <a href="ht
 
 When detached data is decoded, the header and the content of a message are contained in different BLOBs. Each BLOB requires that <i>fFinal</i> be set to <b>TRUE</b> when the last call to the function is made for that BLOB.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -216,15 +206,9 @@ Propagated errors might be encountered from any of the following functions:<ul>
 
 
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>
 
@@ -243,7 +227,4 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

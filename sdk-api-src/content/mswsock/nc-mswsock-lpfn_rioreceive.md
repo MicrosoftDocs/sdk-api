@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 26726277-4907-47A1-BACF-868389B46EA8
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORECEIVE
-f1_keywords:
-- mswsock/LPFN_RIORECEIVE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIORECEIVE
+ - mswsock/LPFN_RIORECEIVE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIORECEIVE
+ - LPFN_RIORECEIVE
 ---
 
 ## -description
@@ -58,13 +59,11 @@ A description of the portion of the registered buffer in which to receive data.
 
 This parameter may be NULL for a bound registered I/O UDP socket if the application does not need to receive the data payload in the UDP datagram.
 
-
 ### -param DataBufferCount
 
 A data buffer count parameter that indicates if data is to be received in the buffer pointed to by the *pData* parameter.
 
 This parameter should be set to zero if the *pData* is NULL. Otherwise, this parameter should be set to 1.
-
 
 ### -param Flags
 
@@ -76,9 +75,6 @@ The *Flags* parameter can contain a combination of the following options defined
 
 <table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Flag</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="RIO_MSG_COMMIT_ONLY"></span><span id="rio_msg_commit_only"></span><dl> <dt><strong>RIO_MSG_COMMIT_ONLY</strong></dt> </dl></td><td>Previous requests added with <strong>RIO_MSG_DEFER</strong> flag will be committed. <br/> When the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set, no other flags may be specified. When the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set, the <em>pData</em> and <em>RequestContext</em> parameters must be NULL and the <em>DataBufferCount</em> parameter must be zero. <br/> This flag would normally be used occasionally after a number of requests were issued with the <strong>RIO_MSG_DEFER</strong> flag set. This eliminates the need when using the <strong>RIO_MSG_DEFER</strong> flag to make the last request without the <strong>RIO_MSG_DEFER</strong> flag, which causes the last request to complete much slower than other requests. <br/> Unlike other calls to the <strong>RIOReceive</strong> function, when the <strong>RIO_MSG_COMMIT_ONLY</strong> flag is set calls to the <strong>RIOReceive</strong> function do not need to be serialized. For a single [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue), the <strong>RIOReceive</strong> function can be called with <strong>RIO_MSG_COMMIT_ONLY</strong> on one thread while calling the <strong>RIOReceive</strong> function on another thread.<br/></td></tr><tr class="even"><td><span id="RIO_MSG_DONT_NOTIFY"></span><span id="rio_msg_dont_notify"></span><dl> <dt><strong>RIO_MSG_DONT_NOTIFY</strong></dt> </dl></td><td>The request should not trigger the [<strong>RIONotify</strong>](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) function when request completion is inserted into its completion queue.<br/></td></tr><tr class="odd"><td><span id="RIO_MSG_DEFER"></span><span id="rio_msg_defer"></span><dl> <dt><strong>RIO_MSG_DEFER</strong></dt> </dl></td><td>The request does not need to be executed immediately. This will insert the request into the request queue, but it may or may not trigger the execution of the request. <br/> Data reception may be delayed until a receive request is made on the [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue) passed in the <em>SocketQueue</em> parameter without the <strong>RIO_MSG_DEFER</strong> flag set. To trigger execution for all receives in a request queue, call the <strong>RIOReceive</strong> or [<strong>RIOReceiveEx</strong>](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex) function without the <strong>RIO_MSG_DEFER</strong> flag set. <br/><blockquote>[!Note]<br />
 The receive request is charged against the outstanding I/O capacity on the [<strong>RIO_RQ</strong>](/windows/win32/winsock/riorqueue) passed in the <em>SocketQueue</em> parameter regardless of whether <strong>RIO_MSG_DEFER</strong> is set.</blockquote><br/></td></tr><tr class="even"><td><span id="RIO_MSG_WAITALL"></span><span id="rio_msg_waitall"></span><dl> <dt><strong>RIO_MSG_WAITALL</strong></dt> </dl></td><td>The <strong>RIOReceive</strong> function will not complete until one of the following events occurs:<br/><ul><li>The buffer segment supplied by the caller in the <em>pData</em> parameter is completely full.</li><li>The connection has been closed.</li><li>The request has been canceled or an error occurred.</li></ul><br/> This flag is not supported on UDP sockets.<br/></td></tr></tbody></table>
-
-
-
 
 ### -param RequestContext
 
@@ -98,9 +94,6 @@ A value of **FALSE** indicates the function failed, the operation was not succes
 | <dl> <dt>**[WSAEINVAL](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeinval)**</dt> </dl>                           | An invalid parameter was passed to the function. <br/> This error is returned if the *SocketQueue* parameter is not valid, the *Flags* parameter contains an value not valid for a receive operation, or the integrity of the completion queue has been compromised. This error can also be returned for other issues with parameters.<br/> |
 | <dl> <dt>**[WSAENOBUFS](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenobufs)**</dt> </dl>                         | Sufficient memory could not be allocated. This error is returned if the I/O completion queue associated with the *SocketQueue* parameter is full or the I/O completion queue was created with zero receive entries.<br/>                                                                                                                          |
 | <dl> <dt>**[WSA\_OPERATION\_ABORTED](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-operation-aborted)**</dt> </dl> | The operation has been canceled while the receive operation was pending. This error is returned if the socket is closed locally or remotely, or the **SIO\_FLUSH** command in [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) is executed on this socket.<br/>                                                                                                     |
-
-
-
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: cfab1ee0-03f3-4e0f-a29d-5331fec022b5
 ms.date: 12/05/2018
 ms.keywords: PathUnExpandEnvStrings, PathUnExpandEnvStrings function [Windows Shell], PathUnExpandEnvStringsA, PathUnExpandEnvStringsW, _win32_PathUnExpandEnvStrings, shell.PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStringsA, shlwapi/PathUnExpandEnvStringsW
-f1_keywords:
-- shlwapi/PathUnExpandEnvStrings
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathUnExpandEnvStrings
-- PathUnExpandEnvStringsA
-- PathUnExpandEnvStringsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathUnExpandEnvStringsA
+ - shlwapi/PathUnExpandEnvStringsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathUnExpandEnvStrings
+ - PathUnExpandEnvStringsA
+ - PathUnExpandEnvStringsW
 ---
 
 # PathUnExpandEnvStringsA function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces certain folder names in a fully qualified path with their associated environment string.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -69,13 +65,11 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be unexpanded.
 
-
 ### -param pszBuf [out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a buffer that, when this method returns successfully, receives the unexpanded string. The size of this buffer must be set to MAX_PATH to ensure that it is large enough to hold the returned string.
-
 
 ### -param cchBuf [in]
 
@@ -83,21 +77,13 @@ Type: <b>UINT</b>
 
 The size, in characters, in the <i>pszBuf</i> buffer.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The following folder paths are replaced by their equivalent environment string.
 
@@ -150,11 +136,5 @@ The environment variables listed in the above table might not all be set on all 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-doenvironmentsubsta">DoEnvironmentSubst</a>
- 
-
- 
 

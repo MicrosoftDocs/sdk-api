@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
-f1_keywords:
-- rpcasync/RpcServerInqCallAttributes
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerInqCallAttributes
-- RpcServerInqCallAttributesA
-- RpcServerInqCallAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerInqCallAttributesA
+ - rpcasync/RpcServerInqCallAttributesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerInqCallAttributes
+ - RpcServerInqCallAttributesA
+ - RpcServerInqCallAttributesW
 ---
 
 # RpcServerInqCallAttributesA function
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerInqCallAttributes</b> function is an RPC server call that obtains client security context attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param ClientBinding [in]
 
 Optional. For explicit binding within a server routine, <i>ClientBinding</i> is the binding handle with which the manager routine was called. See Remarks.
 
-
 ### -param RpcCallAttributes [in, out]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a> structure that receives call attributes.
 
-
 ## -returns
-
-
 
 Returns RPC_S_OK upon success, and <i>RpcCallAttributes</i> is filled. If ERROR_MORE_DATA is returned, one or more fields in <i>RpcCallAttributes</i> was of insufficient length and could not be filled. See Remarks in 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a> for details on handling ERROR_MORE_DATA.
@@ -85,11 +76,7 @@ Upon failure, the contents of <i>RpcCallAttributes</i> is undefined and may be p
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcServerInqCallAttributes</b> function uses a versioning scheme to incorporate new capabilities without having to introduce new functions with suffix identifiers. For example, a second version of the 
@@ -130,15 +117,9 @@ Status = RpcServerInqCallAttributes(0, &ClientContextAttributes);
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallhandle">RpcAsyncGetCallHandle</a>
- 
-
- 
 

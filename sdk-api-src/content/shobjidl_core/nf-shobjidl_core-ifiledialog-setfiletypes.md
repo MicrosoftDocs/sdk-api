@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ca850988-7f2f-4faf-9ded-14db476fc452
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypes method, IFileDialog.SetFileTypes, IFileDialog::SetFileTypes, SetFileTypes, SetFileTypes method [Windows Shell], SetFileTypes method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypes, shell_IFileDialog_SetFileTypes, shobjidl_core/IFileDialog::SetFileTypes
-f1_keywords:
-- shobjidl_core/IFileDialog.SetFileTypes
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileDialog.SetFileTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialog::SetFileTypes
+ - shobjidl_core/IFileDialog::SetFileTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileDialog.SetFileTypes
 ---
 
 # IFileDialog::SetFileTypes
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the file types that the dialog can open or save.
 
-
 ## -parameters
-
-
-
 
 ### -param cFileTypes [in]
 
@@ -64,17 +60,13 @@ Type: <b>UINT</b>
 
 The number of elements in the array specified by <i>rgFilterSpec</i>.
 
-
 ### -param rgFilterSpec [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-comdlg_filterspec">COMDLG_FILTERSPEC</a>*</b>
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-comdlg_filterspec">COMDLG_FILTERSPEC</a> structures, each representing a file type.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -120,14 +112,8 @@ The <i>rgFilterSpec</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When using the <b>Open</b> dialog, the file types declared there are used to filter the view. When using the <b>Save</b> dialog, these values determine which file name extension is appended to the file name.
 
@@ -147,7 +133,4 @@ COMDLG_FILTERSPEC rgSpec[] =
     { szAll, L"*.*" },
 };
 ```
-
-
-
 

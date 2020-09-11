@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c79e5810-c2be-4184-8ac7-c058ccb9308e
 ms.date: 12/05/2018
 ms.keywords: SCARD_LEAVE_CARD, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_RESET_CARD, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCARD_UNPOWER_CARD, SCardReconnect, SCardReconnect function [Security], _smart_scardreconnect, security.scardreconnect, winscard/SCardReconnect
-f1_keywords:
-- winscard/SCardReconnect
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardReconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardReconnect
+ - winscard/SCardReconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardReconnect
 ---
 
 # SCardReconnect function
@@ -50,20 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
 
-
 ## -parameters
-
-
-
 
 ### -param hCard [in]
 
 Reference value obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
-
 
 ### -param dwShareMode [in]
 
@@ -95,8 +90,6 @@ This application will not share this card with other applications.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwPreferredProtocols [in]
 
@@ -132,8 +125,6 @@ The value of this parameter should include the current protocol. Attempting to r
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwInitialization [in]
 
@@ -175,8 +166,6 @@ Power down the card and reset it (Cold Reset).
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwActiveProtocol [out, optional]
 
@@ -208,12 +197,8 @@ Flag that indicates the established active protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -246,14 +231,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SCardReconnect</b> is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
@@ -280,21 +259,11 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
- 
-
- 
 

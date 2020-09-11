@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
 ms.date: 12/05/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
-f1_keywords:
-- dbghelp/SymSrvStoreSupplement
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymSrvStoreSupplement
-- SymSrvStoreSupplement
-- SymSrvStoreSupplementW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymSrvStoreSupplementW
+ - dbghelp/SymSrvStoreSupplementW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymSrvStoreSupplement
+ - SymSrvStoreSupplement
+ - SymSrvStoreSupplementW
 ---
 
 ## -description
@@ -81,12 +82,7 @@ If the function succeeds, the return value is the fully qualified path for the s
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 An important use for this function is to store delta files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvdeltaname">SymSrvDeltaName</a>.
 
@@ -109,15 +105,9 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetsupplement">SymSrvGetSupplement</a>
- 
-
- 
 

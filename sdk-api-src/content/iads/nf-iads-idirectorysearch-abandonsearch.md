@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: cf220625-0aac-42ce-a15f-c44766693cf8
 ms.date: 12/05/2018
 ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
-f1_keywords:
-- iads/IDirectorySearch.AbandonSearch
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-- Adsldp.dll
-- Adsldpc.dll
-api_name:
-- IDirectorySearch.AbandonSearch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectorySearch::AbandonSearch
+ - iads/IDirectorySearch::AbandonSearch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+ - Adsldp.dll
+ - Adsldpc.dll
+api_name:
+ - IDirectorySearch.AbandonSearch
 ---
 
 # IDirectorySearch::AbandonSearch
@@ -51,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectorySearch::AbandonSearch</b> method abandons a search initiated by an earlier call to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">ExecuteSearch</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param phSearchResult [in]
 
 Provides a handle to the search context.
 
-
 ## -returns
-
-
 
 This method returns the standard return values, including S_OK if the first row is obtained successfully.
 
 For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>IDirectorySearch::AbandonSearch</b> may be used if the Page_Size or Asynchronous options can be specified through  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> before the search is executed.
 
@@ -118,14 +106,7 @@ while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
 m_pSearch->CloseSearchHandle( hSearch );
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
@@ -140,7 +121,4 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
- 
-
- 
 

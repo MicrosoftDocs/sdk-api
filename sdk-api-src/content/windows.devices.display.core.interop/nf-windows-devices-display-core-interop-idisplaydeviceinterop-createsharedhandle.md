@@ -5,8 +5,6 @@ description: For a [DisplaySurface](/uwp/api/windows.devices.display.core.displa
 helpviewer_keywords: ["IDisplayDeviceInterop::CreateSharedHandle"]
 ms.date: 02/10/2020
 tech.root: winrt
-dev_langs:
-- c++
 req.header: windows.devices.display.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -24,29 +22,37 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
- - IDisplayDeviceInterop::CreateSharedHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - IDisplayDeviceInterop::CreateSharedHandle
+f1_keywords:
+ - IDisplayDeviceInterop::CreateSharedHandle
+ - windows.devices.display.core.interop/IDisplayDeviceInterop::CreateSharedHandle
 ---
 
 ## -description
+
 For a [DisplaySurface](/uwp/api/windows.devices.display.core.displaysurface) or a [DisplayFence](/uwp/api/windows.devices.display.core.displayfence) object, creates a shared handle that can be used for interop with Direct3D or other graphics APIs.
 
 ## -parameters
 
 ### -param pObject
+
 A pointer to the **IUnknown** interface of a [DisplaySurface](/uwp/api/windows.devices.display.core.displaysurface) or a [DisplayFence](/uwp/api/windows.devices.display.core.displayfence) object.
 
 ### -param pSecurityAttributes
+
 A pointer to a [SECURITY_ATTRIBUTES](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure that contains two separate but related data members: an optional security descriptor, and a Boolean value that determines whether child processes can inherit the returned handle.
 
 Set this parameter to `nullptr` if you want child processes that the application might create to not inherit the handle returned by **CreateSharedHandle**, and if you want the resource that is associated with the returned handle to get a default security descriptor.
@@ -54,6 +60,7 @@ Set this parameter to `nullptr` if you want child processes that the application
 The *lpSecurityDescriptor* member of the structure specifies a [SECURITY_DESCRIPTOR](/windows/win32/api/winnt/ns-winnt-security_descriptor) for the resource. Set this member to `nullptr` if you want the runtime to assign a default security descriptor to the resource that is associated with the returned handle. The access control lists (ACLs) in the default security descriptor for the resource come from the primary or impersonation token of the creator. For more info, see [Synchronization object security and access rights](/windows/win32/sync/synchronization-object-security-and-access-rights).
 
 ### -param Access
+
 The requested access rights to the resource. In addition to the [Generic access rights](/windows/win32/secauthz/generic-access-rights), a surface can use these values.
 
 - **DXGI_SHARED_RESOURCE_READ** (0x80000000L). Specifies read access to the resource.
@@ -64,6 +71,7 @@ You can combine these values by using a bitwise OR operation.
 If *pObject* is a fence, then you must use **GENERIC_ALL**.
 
 ### -param Name
+
 Type: **[LPCWSTR](/windows/win32/winprog/windows-data-types)**
 
 A null-terminated Unicode string that contains the name to associate with the shared heap. The name is limited to **MAX_PATH** characters. Name comparison is case-sensitive.
@@ -75,14 +83,17 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 The object can be created in a private namespace. For more information, see [Object namespaces](/windows/win32/sync/object-namespaces).
 
 ### -param pHandle
+
 A pointer to a **HANDLE** that receives that new shared handle.
 
 ## -returns
+
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
 This method returns **S_OK** if it succeeded, otherwise a failure code indicating why it failed. If it succeeded, then *pHandle* will always point to the newly created handle.
 
 ## -remarks
+
 The handle returned by **CreateSharedHandle** can be used in any function that requires an "NT handle" to a GPU surface or fence (depending on what object was passed), provided that the caller has been granted access. Here are some examples.
 
 * Share surfaces and fences with Direct3D 12 using [ID3D12Device::OpenSharedHandle](/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandle).
@@ -98,3 +109,4 @@ Multiple processes can have handles of the same object, enabling use of the obje
 Use the [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle) function to close the handle. The system closes the handle automatically when the process terminates. The object is destroyed when its last handle has been closed and its last interface reference has been released.
 
 ## -see-also
+

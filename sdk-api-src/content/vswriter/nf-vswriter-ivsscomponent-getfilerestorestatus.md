@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b79c4443-c850-4edf-bdd2-917e22e67d77
 ms.date: 12/05/2018
 ms.keywords: GetFileRestoreStatus, GetFileRestoreStatus method [VSS], GetFileRestoreStatus method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetFileRestoreStatus method, IVssComponent.GetFileRestoreStatus, IVssComponent::GetFileRestoreStatus, _win32_ivsscomponent_getfilerestorestatus, base.ivsscomponent_getfilerestorestatus, vswriter/IVssComponent::GetFileRestoreStatus
-f1_keywords:
-- vswriter/IVssComponent.GetFileRestoreStatus
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetFileRestoreStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetFileRestoreStatus
+ - vswriter/IVssComponent::GetFileRestoreStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetFileRestoreStatus
 ---
 
 # IVssComponent::GetFileRestoreStatus
 
 
 ## -description
-
 
 The 
 <b>GetFileRestoreStatus</b> method returns the status of a completed attempt to restore all the files of a selected component or component set as a 
@@ -58,21 +58,14 @@ The
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pStatus [out]
 
 The address of a caller-allocated variable that receives a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a> enumeration value that specifies whether all files were successfully restored.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -138,14 +131,8 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should be called only following a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
@@ -153,20 +140,11 @@ This method should be called only following a
 The status returned is undefined if this method is applied to a component that has not been selected for restore by being added to the Backup Components via 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_file_restore_status">VSS_FILE_RESTORE_STATUS</a>
- 
-
- 
 

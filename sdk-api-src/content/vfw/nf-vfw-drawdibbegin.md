@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 89178e33-e440-49fe-9900-0baea229d289
 ms.date: 12/05/2018
 ms.keywords: DrawDibBegin, DrawDibBegin function [Windows Multimedia], _win32_DrawDibBegin, multimedia.drawdibbegin, vfw/DrawDibBegin
-f1_keywords:
-- vfw/DrawDibBegin
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- DrawDibBegin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawDibBegin
+ - vfw/DrawDibBegin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - DrawDibBegin
 ---
 
 # DrawDibBegin function
@@ -49,59 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DrawDib</b> function changes parameters of a DrawDib DC or initializes a new DrawDib DC.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hdd
 
 Handle to a DrawDib DC.
-          
-
 
 ### -param hdc
 
 Handle to a DC for drawing. This parameter is optional.
-          
-
 
 ### -param dxDst
 
 Width, in <b>MM_TEXT</b> client units, of the destination rectangle.
-          
-
 
 ### -param dyDst
 
 Height, in <b>MM_TEXT</b> client units, of the destination rectangle.
-          
-
 
 ### -param lpbi
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB follows the image format and the <b>biHeight</b> member must be a positive value.
-          
-
 
 ### -param dxSrc
 
 Width, in pixels, of the source rectangle.
-          
-
 
 ### -param dySrc
 
 Height, in pixels, of the source rectangle.
-          
-
 
 ### -param wFlags
 
@@ -156,21 +135,12 @@ Applicable flags for the function. The following values are defined.
 <td>Last buffered bitmap needs to be redrawn. If drawing fails with this value, a buffered image is not available and a new image needs to be specified before the display can be updated.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function prepares to draw a DIB specified by <i>lpbi</i> to the DC. The image is stretched to the size specified by <i>dxDest</i> and <i>dyDest</i>. If <i>dxDest</i> and <i>dyDest</i> are set to â€“1, the DIB is drawn to a 1:1 scale without stretching.
 
@@ -178,16 +148,7 @@ You can update the flags of a DrawDib DC by reissuing <b>DrawDibBegin</b>, speci
 
 If the parameters of <b>DrawDibBegin</b> have not changed, subsequent calls to the function have no effect.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
- 
-
- 
 

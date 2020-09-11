@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.date: 12/05/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
-f1_keywords:
-- enclaveapi/InitializeEnclave
-dev_langs:
-- c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-enclave-l1-1-0.dll
-- kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Enclave-L1-1-0.dll
-api_name:
-- InitializeEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeEnclave
+ - enclaveapi/InitializeEnclave
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-enclave-l1-1-0.dll
+ - kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Enclave-L1-1-0.dll
+api_name:
+ - InitializeEnclave
 ---
 
 # InitializeEnclave function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an enclave that you created and loaded with data.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process for which the enclave was created.
 
-
 ### -param lpAddress [in]
 
 Any address within the enclave.
-
 
 ### -param lpEnclaveInformation [in]
 
@@ -79,11 +73,9 @@ For the <b>ENCLAVE_TYPE_SGX</b> enclave type, specify a pointer to an <a href="h
 
 For the <b>ENCLAVE_TYPE_VBS</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_vbs">ENCLAVE_INIT_INFO_VBS</a> structure.
 
-
 ### -param dwInfoLength [in]
 
 The length of the structure that the <i>lpEnclaveInformation</i> parameter points to, in bytes. For the <b>ENCLAVE_TYPE_SGX</b> enclave type, this value must be 4096. For the <b>ENCLAVE_TYPE_VBS</b> enclave type, this value must be <code>sizeof(ENCLAVE_INIT_INFO_VBS)</code>, which is 8 bytes.
-
 
 ### -param lpEnclaveError [in]
 
@@ -93,10 +85,7 @@ For the <b>ENCLAVE_TYPE_SGX</b> enclave type, the <i>lpEnclaveError</i> paramete
 
 For the <b>ENCLAVE_TYPE_VBS</b> enclave type, the <i>lpEnclaveError</i> parameter  is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
@@ -143,14 +132,8 @@ The processor was not able to initialize the enclave in a timely fashion. Try  t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To create an enclave, use the <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a> function. To load data into the enclave before you initialize it, use the <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a> function.
 
@@ -164,14 +147,7 @@ To create an enclave, use the <a href="https://docs.microsoft.com/windows/deskto
 <li><b>MEM_RELEASE</b> for the <i>dwFreeType</i> parameter. The <b>MEM_DECOMMIT</b> value is not supported for enclaves.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
 
@@ -190,7 +166,4 @@ To create an enclave, use the <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
- 
-
- 
 

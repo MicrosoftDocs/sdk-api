@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 5ba3e521-2e70-4a5b-979d-30a061275d42
 ms.date: 12/05/2018
 ms.keywords: '*PDEVINFO, DEVINFO, DEVINFO structure [Display Devices], PDEVINFO, PDEVINFO structure pointer [Display Devices], display.devinfo, grstrcts_a5bb2e1a-5348-4453-a5ef-674b4693dbed.xml, winddi/DEVINFO, winddi/PDEVINFO'
-f1_keywords:
-- winddi/DEVINFO
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DEVINFO
 targetos: Windows
 req.typenames: DEVINFO, *PDEVINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagDEVINFO
+ - winddi/tagDEVINFO
+ - PDEVINFO
+ - winddi/PDEVINFO
+ - DEVINFO
+ - winddi/DEVINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DEVINFO
 ---
 
 # DEVINFO structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DEVINFO structure provides information about the driver and its private <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> to the graphics engine. 
-
+The DEVINFO structure provides information about the driver and its private <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> to the graphics engine.
 
 ## -struct-fields
-
-
-
 
 ### -field flGraphicsCaps
 
@@ -378,28 +378,22 @@ Indicates that the display driver is used to support a remote user sesssion.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lfDefaultFont
 
 Is an Extended Logical Font structure that specifies the default font for a device. For more information about this structure, see EXTLOGFONT in the Microsoft Windows SDK documentation.
 
-
 ### -field lfAnsiVarFont
 
 Is an Extended Logical Font structure that specifies the default variable-pitch font for a device. For more information about this structure, see EXTLOGFONT in the Windows SDK documentation.
-
 
 ### -field lfAnsiFixFont
 
 Is an Extended Logical Font structure that specifies the default fixed-pitch (monospaced) font for a device. For more information about this structure, see EXTLOGFONT in the Windows SDK documentation.
 
-
 ### -field cFonts
 
 Specifies the number of device fonts. GDI assumes that the device can draw text with this number of fonts on its own surfaces and that the driver can provide metrics information about the fonts. If the driver sets <b>cFonts</b> to -1, GDI will wait until fonts are needed to query the driver for the actual number of fonts it supports in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>.
-
 
 ### -field iDitherFormat
 
@@ -511,21 +505,16 @@ PNG compressed image
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cxDither
-
 
 ### -field cyDither
 
 Specify the dimensions of a dithered brush. If these members are nonzero, then the device can create a dithered brush for a given RGB color.
 
-
 ### -field hpalDefault
 
 Handle to the default palette for the device. The driver should create the palette by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>. The driver associates a palette with a device by returning this handle to GDI.
-
 
 ### -field flGraphicsCaps2
 
@@ -637,12 +626,8 @@ The driver supports a timer-based flush mechanism for batched graphics DDI calls
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function fills in a DEVINFO structure; the driver should set only the members that are relevant to it. This structure is zero-initialized by GDI before <b>DrvEnablePDEV</b> is called. Applications do not have direct access to this structure.
 
@@ -679,12 +664,7 @@ For driver-defined graphics DDI functions that receive a ROP4 input argument, on
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
@@ -699,7 +679,4 @@ For driver-defined graphics DDI functions that receive a ROP4 input argument, on
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
- 
-
- 
 

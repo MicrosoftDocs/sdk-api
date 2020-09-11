@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GDI], _win32_PTGetPrintCapabilities, gdi.ptgetprintcapabilities, prntvpt/PTGetPrintCapabilities
-f1_keywords:
-- prntvpt/PTGetPrintCapabilities
-dev_langs:
-- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- prntvpt.dll
-- Ext-MS-Win-printer-prntvpt-l1-1-0.dll
-api_name:
-- PTGetPrintCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PTGetPrintCapabilities
+ - prntvpt/PTGetPrintCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - prntvpt.dll
+ - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
+api_name:
+ - PTGetPrintCapabilities
 ---
 
 # PTGetPrintCapabilities function
@@ -50,38 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the printer's capabilities formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 A handle to an open provider whose print capabilities are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
-
 ### -param pPrintTicket [in]
 
 A pointer to a stream with its seek position at the beginning of the print ticket content. This parameter can be <b>NULL</b>.
-
 
 ### -param pCapabilities
 
 A pointer to the stream where the print capabilities will be written, starting at the current seek position.
 
-
 ### -param pbstrErrorMessage [out]
 
 A pointer to a string that specifies what, if anything, is invalid about <i>pPrintTicket</i>. If it is valid, this value is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the return value is S_OK.
 
@@ -95,12 +85,7 @@ If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_IN
 
 Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
@@ -113,13 +98,7 @@ When the function returns, the seek position of <i>pPrintTicket</i> is at the en
 
 If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
 
@@ -130,7 +109,4 @@ If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the ca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
 

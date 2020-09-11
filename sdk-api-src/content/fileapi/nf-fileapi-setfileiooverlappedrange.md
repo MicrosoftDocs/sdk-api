@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 4e7eff5e-2877-4524-8f76-55d41afe521d
 ms.date: 12/05/2018
 ms.keywords: SetFileIoOverlappedRange, SetFileIoOverlappedRange function [Files], fileapi/SetFileIoOverlappedRange, fs.setfileiooverlappedrange_func
-f1_keywords:
-- fileapi/SetFileIoOverlappedRange
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFileIoOverlappedRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileIoOverlappedRange
+ - fileapi/SetFileIoOverlappedRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFileIoOverlappedRange
 ---
 
 # SetFileIoOverlappedRange function
@@ -54,17 +55,12 @@ ms.custom: 19H1
 
 ## -description
 
-
  Associates a virtual address range with the specified file handle. This indicates that the 
     kernel should optimize any further asynchronous I/O requests with overlapped structures inside this range. The 
     overlapped range is locked in memory, and then unlocked when the file is closed. After a range is associated with 
     a file handle, it cannot be disassociated.
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
@@ -72,32 +68,22 @@ A handle to the file.
 
 This file handle must be opened with <b>FILE_READ_ATTRIBUTES</b> access rights.
 
-
 ### -param OverlappedRangeStart [in]
 
 The starting address for the range.
-
 
 ### -param Length [in]
 
 The length of the range, in bytes.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SetFileIoOverlappedRange</b> can be used to 
      improve performance in an application that issues a high number of asynchronous unbuffered I/O and uses a defined 
@@ -168,18 +154,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

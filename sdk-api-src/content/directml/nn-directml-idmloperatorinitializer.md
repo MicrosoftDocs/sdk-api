@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 86DB9277-ECA6-4D0C-82A5-88D7E9674AC7
 ms.date: 12/5/2018
 ms.keywords: IDMLOperatorInitializer, IDMLOperatorInitializer interface, IDMLOperatorInitializer interface,described, direct3d12.idmloperatorinitializer, directml/IDMLOperatorInitializer
-f1_keywords:
-- directml/IDMLOperatorInitializer
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.h
-api_name:
-- IDMLOperatorInitializer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLOperatorInitializer
+ - directml/IDMLOperatorInitializer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.h
+api_name:
+ - IDMLOperatorInitializer
 ---
 
 # IDMLOperatorInitializer interface
+
 
 ## -description
 
@@ -69,8 +71,7 @@ Resets the initializer to handle initialization of a new set of operators.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
@@ -86,6 +87,8 @@ When executing an initializer, the expected bindings are as follows:
 The operator initializer itself doesn't need to be initialized—GPU initialization only applies to compiled operators.
 
 ## -see-also
+
 [Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
 
 [IDMLDispatchable](/windows/desktop/api/directml/nn-directml-idmldispatchable)
+

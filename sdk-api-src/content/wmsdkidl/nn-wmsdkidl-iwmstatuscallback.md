@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3
 ms.date: 12/05/2018
 ms.keywords: IWMStatusCallback, IWMStatusCallback interface [windows Media Format], IWMStatusCallback interface [windows Media Format],described, IWMStatusCallbackInterface, wmformat.iwmstatuscallback, wmsdkidl/IWMStatusCallback
-f1_keywords:
-- wmsdkidl/IWMStatusCallback
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMStatusCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStatusCallback
+ - wmsdkidl/IWMStatusCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMStatusCallback
 ---
 
 # IWMStatusCallback interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMStatusCallback</b> interface is implemented by the application to receive status information from various objects.
-
-
-
 
 ## -inheritance
 
@@ -80,12 +76,9 @@ Called when status information must be communicated to the host application. Thi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following methods and functions associate an implementation of this interface with an object:
 
@@ -110,12 +103,7 @@ The following methods and functions associate an implementation of this interfac
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback</a>
 
@@ -126,7 +114,4 @@ The following methods and functions associate an implementation of this interfac
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

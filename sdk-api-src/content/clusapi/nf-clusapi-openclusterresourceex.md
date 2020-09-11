@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.date: 12/05/2018
 ms.keywords: OpenClusterResourceEx, OpenClusterResourceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX function [Failover Cluster], clusapi/OpenClusterResourceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE_EX, mscs.openclusterresourceex
-f1_keywords:
-- clusapi/OpenClusterResourceEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OpenClusterResourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterResourceEx
+ - clusapi/OpenClusterResourceEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OpenClusterResourceEx
 ---
 
 # OpenClusterResourceEx function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> and returns a handle to 
     it.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
-
 
 ### -param lpszResourceName [in, optional]
 
@@ -72,7 +67,6 @@ Resource names are not case sensitive. A resource name must be unique within the
        when the resource is created and can be changed using the 
        <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcename">SetClusterResourceName</a> function.
 
-
 ### -param dwDesiredAccess [in]
 
 The requested access privileges. This may be any combination of <b>GENERIC_READ</b> 
@@ -81,7 +75,6 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
       <b>GENERIC_ALL</b> is the same as calling 
       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>.
 
-
 ### -param lpdwGrantedAccess [out, optional]
 
 Optional parameter that contains the address of a <b>DWORD</b> that will receive the 
@@ -89,10 +82,7 @@ Optional parameter that contains the address of a <b>DWORD</b> that will receive
       <b>MAXIMUM_ALLOWED</b> (0x02000000) then the <b>DWORD</b> pointed to by 
       this parameter will contain the maximum privileges granted to this user.
 
-
 ## -returns
-
-
 
 If the operation was successful, 
       <b>OpenClusterResourceEx</b> returns a handle to the 
@@ -120,15 +110,8 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
@@ -139,7 +122,4 @@ The operation was not successful. For more information about the error, call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
- 
-
- 
 

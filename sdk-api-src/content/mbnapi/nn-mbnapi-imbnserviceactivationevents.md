@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: b3385523-f1ab-403d-9244-7683a7e9f95a
 ms.date: 12/05/2018
 ms.keywords: IMbnServiceActivationEvents, IMbnServiceActivationEvents interface [Microsoft Broadband Networks], IMbnServiceActivationEvents interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivationevents, mbnapi/IMbnServiceActivationEvents
-f1_keywords:
-- mbnapi/IMbnServiceActivationEvents
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnServiceActivationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnServiceActivationEvents
+ - mbnapi/IMbnServiceActivationEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnServiceActivationEvents
 ---
 
 # IMbnServiceActivationEvents interface
@@ -53,7 +54,6 @@ ms.custom: 19H1
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
 This notification interface signals an application about the completion of a service activation request.
-
 
 ## -inheritance
 
@@ -79,12 +79,9 @@ A service activation operation has completed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The following procedure describes how to register for notifications.
 
@@ -96,6 +93,4 @@ The following procedure describes how to register for notifications.
 Notifications can be terminated by calling <a href="https://msdn.microsoft.com/library/ms686608(VS.85).aspx">Unadvise</a> on the connection point returned in step 2.
 
 To view some code that registers for COM notifications, see the Client section of the <a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/september/clr-inside-out-com-connection-points">COM Connection Points</a> article.
-
-
 

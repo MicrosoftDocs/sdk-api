@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1bef2949-b4c8-400e-8a2d-60aa88a4e238
 ms.date: 12/05/2018
 ms.keywords: LsaRegisterLogonProcess, LsaRegisterLogonProcess function [Security], _lsa_lsaregisterlogonprocess, ntsecapi/LsaRegisterLogonProcess, security.lsaregisterlogonprocess
-f1_keywords:
-- ntsecapi/LsaRegisterLogonProcess
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- LsaRegisterLogonProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaRegisterLogonProcess
+ - ntsecapi/LsaRegisterLogonProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - LsaRegisterLogonProcess
 ---
 
 # LsaRegisterLogonProcess function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaRegisterLogonProcess</b> function establishes a connection to the LSA server and verifies that the caller is a logon application.
 
-
 ## -parameters
-
-
-
 
 ### -param LogonProcessName [in]
 
@@ -68,20 +64,15 @@ Pointer to an
 
 This string must not exceed 127 bytes.
 
-
 ### -param LsaHandle [out]
 
 Pointer that receives a handle used in future authentication function calls.
-
 
 ### -param SecurityMode [out]
 
 The value returned is not meaningful and should be ignored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -129,12 +120,7 @@ For more information, see
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 This function must be called before a logon process may use any other logon authentication functions provided by the LSA.
 
@@ -143,13 +129,7 @@ The <b>LsaRegisterLogonProcess</b> function verifies that the application making
 
 When you have finished using the connection to the LSA server, delete the caller's logon application context and close the connection by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaderegisterlogonprocess">LsaDeregisterLogonProcess</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights">LsaAddAccountRights</a>
 
@@ -160,7 +140,4 @@ When you have finished using the connection to the LSA server, delete the caller
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaderegisterlogonprocess">LsaDeregisterLogonProcess</a>
- 
-
- 
 

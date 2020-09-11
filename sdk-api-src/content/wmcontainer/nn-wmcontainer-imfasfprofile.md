@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: fe441c61-1be7-4fda-a2a3-bd79ecf4e54c
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFProfile interface [Media Foundation],described, fe441c61-1be7-4fda-a2a3-bd79ecf4e54c, mf.imfasfprofile, wmcontainer/IMFASFProfile
-f1_keywords:
-- wmcontainer/IMFASFProfile
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFProfile
+ - wmcontainer/IMFASFProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFProfile
 ---
 
 # IMFASFProfile interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages an Advanced Systems Format (ASF) profile. A profile is a collection of information that describes the configuration of streams that will be included in an ASF file. Information about the relationships between streams is also included in the profile.
 
 An <b>IMFASFProfile</b> interface exists for every ASF profile object. To create an ASF profile object, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile">MFCreateASFProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor">MFCreateASFProfileFromPresentationDescriptor</a>.
-
 
 ## -inheritance
 
@@ -227,13 +226,9 @@ Adds a stream to the profile or reconfigures an existing stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
@@ -244,7 +239,4 @@ Adds a stream to the profile or reconfigures an existing stream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

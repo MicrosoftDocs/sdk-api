@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7fc0aab3-7476-49ec-8a1d-3f4851f9f31c
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer, IOleUILinkContainer interface [COM], IOleUILinkContainer interface [COM],described, IOleUILinkContainerA, IOleUILinkContainerW, _ole_IOleUILinkContainer, com.ioleuilinkcontainer, oledlg/IOleUILinkContainer
-f1_keywords:
-- oledlg/IOleUILinkContainer
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleDlg.h
-api_name:
-- IOleUILinkContainer
-- IOleUILinkContainerA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUILinkContainerA
+ - oledlg/IOleUILinkContainerA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleDlg.h
+api_name:
+ - IOleUILinkContainer
+ - IOleUILinkContainerA
 ---
 
 # IOleUILinkContainerA interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links.
 
 The <b>IOleUILinkContainer</b> methods enumerate the links associated with a container, and specify how they should be updated, automatically or manually. They change the source of a link and obtain information associated with a link. They also open a link's source document, update links, and break a link to the source.
-
 
 ## -inheritance
 
@@ -143,13 +142,9 @@ Forces a link to connect to its source and update.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuieditlinksa">OLEUIEDITLINKS</a>
 
@@ -168,9 +163,6 @@ Forces a link to connect to its source and update.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiupdatelinksa">OleUIUpdateLinks</a>
- 
-
- 
 
 ## -remarks
 

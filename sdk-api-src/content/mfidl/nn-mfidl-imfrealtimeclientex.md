@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EC5CDD23-B862-4DAE-AC01-4926C4FAD89A
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation],described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
-f1_keywords:
-- mfidl/IMFRealTimeClientEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFRealTimeClientEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRealTimeClientEx
+ - mfidl/IMFRealTimeClientEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFRealTimeClientEx
 ---
 
 # IMFRealTimeClientEx interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
 
 
 
 This interface is a replacement for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient">IMFRealTimeClient</a> interface.
-
 
 ## -inheritance
 
@@ -101,20 +100,13 @@ Notifies the object to unregister its worker threads from the Multimedia Class S
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
- 
-
- 
 

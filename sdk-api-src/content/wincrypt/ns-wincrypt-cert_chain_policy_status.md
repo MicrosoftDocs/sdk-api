@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 599a09b6-fe9e-4489-99ae-8a88fa78a660
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_POLICY_STATUS, CERT_CHAIN_POLICY_STATUS, CERT_CHAIN_POLICY_STATUS structure [Security], CERT_E_CHAINING, CERT_E_CN_NO_MATCH, CERT_E_CRITICAL, CERT_E_EXPIRED, CERT_E_INVALID_NAME, CERT_E_INVALID_POLICY, CERT_E_PURPOSE, CERT_E_REVOCATION_FAILURE, CERT_E_REVOKED, CERT_E_ROLE, CERT_E_UNTRUSTEDROOT, CERT_E_UNTRUSTEDTESTROOT, CERT_E_VALIDITYPERIODNESTING, CERT_E_WRONG_USAGE, CRYPT_E_NO_REVOCATION_CHECK, CRYPT_E_REVOCATION_OFFLINE, CRYPT_E_REVOKED, PCERT_CHAIN_POLICY_STATUS, PCERT_CHAIN_POLICY_STATUS structure pointer [Security], TRUST_E_BASIC_CONSTRAINTS, TRUST_E_CERT_SIGNATURE, _crypto2_cert_chain_policy_status, security.cert_chain_policy_status, wincrypt/CERT_CHAIN_POLICY_STATUS, wincrypt/PCERT_CHAIN_POLICY_STATUS'
-f1_keywords:
-- wincrypt/CERT_CHAIN_POLICY_STATUS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_CHAIN_POLICY_STATUS
 targetos: Windows
 req.typenames: CERT_CHAIN_POLICY_STATUS, *PCERT_CHAIN_POLICY_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_CHAIN_POLICY_STATUS
+ - wincrypt/_CERT_CHAIN_POLICY_STATUS
+ - PCERT_CHAIN_POLICY_STATUS
+ - wincrypt/PCERT_CHAIN_POLICY_STATUS
+ - CERT_CHAIN_POLICY_STATUS
+ - wincrypt/CERT_CHAIN_POLICY_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_CHAIN_POLICY_STATUS
 ---
 
 # CERT_CHAIN_POLICY_STATUS structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_CHAIN_POLICY_STATUS</b> structure holds certificate chain status information returned by 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function when the certificate chains are validated.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwError
 
@@ -425,30 +424,21 @@ The certificate is not valid for the requested usage.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lChainIndex
 
 Index that indicates the chain in which an error or condition that is not valid was found. For more information, see Remarks.
 
-
 ### -field lElementIndex
 
 Index that indicates the element in a chain where an error or condition that is not valid was found. For more information, see Remarks.
-
 
 ### -field pvExtraPolicyStatus
 
 A pointer to a structure. The structure type is determined by the value of the <b>pszPolicyOID</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function. In addition to <b>dwError</b> errors, policy OID–specific extra status can also be returned here to provide additional chain status information. This pointer can be optionally set to point to an 
 <a href="/windows/win32/api/wincrypt/ns-wincrypt-authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
-
 ## -remarks
 
-
-
 If both <b>lChainIndex</b> and <b>lElementIndex</b> are set to –1, the error or condition that is not valid applies to the whole chain context. If only <b>lElementIndex</b> is set to –1, the error or condition that is not valid applies to the chain indexed by <b>lChainIndex</b>. Otherwise, the error or condition that is not valid applies to the certificate element at pChainContext-&gt;rgpChain[<b>lChainIndex</b>]-&gt;rgpElement[<b>lElementIndex</b>].
-
-
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 23796484-ee47-4f80-856d-5a5d5635547c
 ms.date: 12/05/2018
 ms.keywords: FILE_SKIP_COMPLETION_PORT_ON_SUCCESS, FILE_SKIP_SET_EVENT_ON_HANDLE, SetFileCompletionNotificationModes, SetFileCompletionNotificationModes function [Files], fs.setfilecompletionnotificationmodes_func, winbase/SetFileCompletionNotificationModes
-f1_keywords:
-- winbase/SetFileCompletionNotificationModes
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-- api-ms-win-core-kernel32-legacy-l1-1-6.dll
-api_name:
-- SetFileCompletionNotificationModes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileCompletionNotificationModes
+ - winbase/SetFileCompletionNotificationModes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - api-ms-win-core-kernel32-legacy-l1-1-6.dll
+api_name:
+ - SetFileCompletionNotificationModes
 ---
 
 # SetFileCompletionNotificationModes function
@@ -58,20 +59,14 @@ ms.custom: 19H1
 
 ## -description
 
-
  Sets the  notification modes for a file handle, allowing you to  specify how completion notifications 
     work for the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
 A handle to the file.
-
 
 ### -param Flags [in]
 
@@ -129,24 +124,15 @@ If an explicit event is provided for the request, it is still signaled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
 To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To compile an application that uses this function, define the <b>_WIN32_WINNT</b> macro 
     as 0x0600 or later. For more information, see 
@@ -210,18 +196,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 1a087fe2-d1ad-4ed9-b6f2-12389656e384
 ms.date: 12/05/2018
 ms.keywords: DisconnectObject, DisconnectObject method [COM], DisconnectObject method [COM],IMarshal interface, IMarshal interface [COM],DisconnectObject method, IMarshal.DisconnectObject, IMarshal::DisconnectObject, _com_imarshal_disconnectobject, com.imarshal_disconnectobject, objidlbase/IMarshal::DisconnectObject
-f1_keywords:
-- objidl/IMarshal.DisconnectObject
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMarshal.DisconnectObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMarshal::DisconnectObject
+ - objidl/IMarshal::DisconnectObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMarshal.DisconnectObject
 ---
 
 # IMarshal::DisconnectObject
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases all connections to an object. The object's server calls the object's implementation of this method prior to shutting down.
 
-
 ## -parameters
-
-
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
-
-
-
 ## -remarks
-
-
 
 This method is implemented on the object, not the proxy.
 
@@ -88,20 +76,11 @@ The outcome of any implementation of this method should be to enable a proxy to 
 
 If you are implementing this method for an immutable object, such as a moniker, your implementation does not need to do anything because such objects are typically copied whole into the client's address space. Therefore, they have neither a proxy nor a connection to the original object. For more information on marshaling immutable objects, see the "When to Implement" section of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> topic.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
- 
-
- 
 

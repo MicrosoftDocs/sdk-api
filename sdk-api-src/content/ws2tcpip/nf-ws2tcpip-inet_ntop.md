@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
-f1_keywords:
-- ws2tcpip/InetNtop
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- InetNtop
-- InetNtopA or inet_ntop
-- InetNtopW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - inet_ntop
+ - ws2tcpip/inet_ntop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - InetNtop
+ - InetNtopA or inet_ntop
+ - InetNtopW
 ---
 
 # inet_ntop function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>InetNtop</b> function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is   <b>inet_ntop</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -97,8 +93,6 @@ The Internet Protocol version 6 (IPv6) address family. When this parameter is sp
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pAddr [in]
 
@@ -108,7 +102,6 @@ When the <i>Family</i> parameter is <b>AF_INET</b>, then the <i>pAddr</i> parame
 
 When the <i>Family</i> parameter is <b>AF_INET6</b>, then the <i>pAddr</i> parameter must point to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a> structure with the IPv6 address to convert.
 
-
 ### -param pStringBuf [out]
 
 A pointer to a buffer in which to store the <b>NULL</b>-terminated string representation of the IP address.
@@ -117,15 +110,11 @@ For an IPv4 address, this buffer should be large enough to hold at least 16 char
 
 For an IPv6 address, this buffer should be large enough to hold at least 46 characters.
 
-
 ### -param StringBufSize [in]
 
-On input, the length, in characters, of the buffer pointed to by the <i>pStringBuf</i> parameter. 
-
+On input, the length, in characters, of the buffer pointed to by the <i>pStringBuf</i> parameter.
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>InetNtop</b> function returns a pointer to a buffer containing the string representation of IP address in standard format.
@@ -163,14 +152,8 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>InetNtop</b> function is supported on Windows Vista and later.
@@ -202,13 +185,7 @@ On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/des
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The  <b>InetNtopW</b> function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a>
 
@@ -259,7 +236,4 @@ On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
 

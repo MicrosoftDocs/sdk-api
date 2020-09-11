@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: a6158984-04d3-4919-8a67-fc860b4b3a47
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],WriteSection method, IWriteEngine2.WriteSection, IWriteEngine2::WriteSection, WriteSection, WriteSection method [IMAPI], WriteSection method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_writesection, imapi2/IWriteEngine2::WriteSection
-f1_keywords:
-- imapi2/IWriteEngine2.WriteSection
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.WriteSection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::WriteSection
+ - imapi2/IWriteEngine2::WriteSection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.WriteSection
 ---
 
 # IWriteEngine2::WriteSection
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes a data stream to the current recorder.
 
-
 ## -parameters
-
-
-
 
 ### -param data [in]
 
 An <b>IStream</b> interface of the data stream to write to the recorder.
 
-
 ### -param startingBlockAddress [in]
 
 Starting logical block address (LBA) of the write operation. Negative values are supported.
 
-
 ### -param numberOfBlocks [in]
 
-Number of blocks from the data stream to write. 
-
+Number of blocks from the data stream to write.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -137,14 +128,8 @@ Value: 0xC0AA0002
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_recorder">IWriteEngine2::put_Recorder</a> method to specify the recording device and the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">IWriteEngine2::put_BytesPerSector</a> method to specify the number of bytes to use for each sector during writing.
 
@@ -163,13 +148,7 @@ You should also consider calling the following methods if their default values a
 </ul>
 This method is synchronous. To determine the progress of the write operation, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://docs.microsoft.com/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
 
@@ -192,7 +171,4 @@ This method is synchronous. To determine the progress of the write operation, yo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_startlba">IWriteEngine2EventArgs::get_StartLba</a>
- 
-
- 
 

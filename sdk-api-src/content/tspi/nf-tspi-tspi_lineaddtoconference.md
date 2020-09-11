@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 6e3e3e1a-3a05-4464-9ead-abd647b3a721
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAddToConference, TSPI_lineAddToConference function [TAPI 2.2], _tspi_tspi_lineaddtoconference, tspi.tspi_lineaddtoconference, tspi/TSPI_lineAddToConference
-f1_keywords:
-- tspi/TSPI_lineAddToConference
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineAddToConference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineAddToConference
+ - tspi/TSPI_lineAddToConference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineAddToConference
 ---
 
 # TSPI_lineAddToConference function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineAddToConference</b> function adds the call specified by <i>hdConsultCall</i> to the conference call specified by <i>hdConfCall</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdConfCall
 
 The handle to the conference call. The call state of <i>hdConfCall</i> can be <i>onHoldPendingConference</i> or <i>onHold</i>.
-
 
 ### -param hdConsultCall
 
@@ -76,22 +70,14 @@ The handle to the call to be added to the conference call. This call cannot be e
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference">TSPI_lineSetupConference</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineprepareaddtoconference">TSPI_linePrepareAddToConference</a>. The call state of <i>hdConsultCall</i> can be <i>connected</i>, <i>onHold</i>, <i>proceeding</i>, or <i>ringback</i>.
 
-
 ## -returns
-
-
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_CONFERENCEFULL, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM.
 
-
-
-
 ## -remarks
-
-
 
 The service provider returns LINEERR_INVALCALLHANDLE if <i>hdConsultCall</i> is a parent of another conference or already a participant in a conference, or <i>hdConsultCall</i> cannot be added for other reasons, such as it must have been established using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference">TSPI_lineSetupConference</a> or 
@@ -114,13 +100,7 @@ Any monitoring (media, tones, digits) on a conference call applies only to the <
 
 This function has no restrictions based on privilege as in the corresponding function at the TAPI level. There is no explicit requirement for the service provider to track the relationships between the "parent" conference call and its participants, because there is no TSPI correspondence to the TAPI function. Many service providers may find it necessary to track these relationships internally to implement the other conference call management functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
@@ -139,7 +119,4 @@ This function has no restrictions based on privilege as in the corresponding fun
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference">TSPI_lineSetupConference</a>
- 
-
- 
 

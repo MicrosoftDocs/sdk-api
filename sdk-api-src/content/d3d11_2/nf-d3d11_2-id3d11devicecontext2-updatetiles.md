@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: EB0F9CBD-29B2-484D-8923-6686C73487F7
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTiles method, ID3D11DeviceContext2.UpdateTiles, ID3D11DeviceContext2::UpdateTiles, UpdateTiles, UpdateTiles method [Direct3D 11], UpdateTiles method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::UpdateTiles, direct3d11.id3d11devicecontext2_updatetiles
-f1_keywords:
-- d3d11_2/ID3D11DeviceContext2.UpdateTiles
-dev_langs:
-- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext2.UpdateTiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext2::UpdateTiles
+ - d3d11_2/ID3D11DeviceContext2::UpdateTiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext2.UpdateTiles
 ---
 
 # ID3D11DeviceContext2::UpdateTiles
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Updates tiles by copying from app memory to the tiled resource. 
-
+Updates tiles by copying from app memory to the tiled resource.
 
 ## -parameters
-
-
-
 
 ### -param pDestTiledResource [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to a tiled resource to update.
 
-
 ### -param pDestTileRegionStartCoordinate [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate">D3D11_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the tiled resource.
-
 
 ### -param pDestTileRegionSize [in]
 
@@ -79,13 +73,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/n
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tile_region_size">D3D11_TILE_REGION_SIZE</a> structure that describes the size of the tiled region.
 
-
 ### -param pSourceTileData [in]
 
 Type: <b>const void*</b>
 
 A pointer to memory that contains the source tile data that <b>UpdateTiles</b> uses to update the tiled resource.
-
 
 ### -param Flags [in]
 
@@ -95,11 +87,7 @@ A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2
  The other values aren't meaningful here, though
 by definition the <b>D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE</b> value is basically what <b>UpdateTiles</b> does, but sources from app memory.
 
-
-
 ## -remarks
-
-
 
 <b>UpdateTiles</b> drops write operations to unmapped areas (except on <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_tiled_resources_tier">Tier_1</a> tiled resources, where writing to unmapped areas is invalid).  
 
@@ -111,16 +99,7 @@ The memory layout of the data on the source side of the copy operation is linear
 
 For more info about tiled resources, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources">Tiled resources</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 774b91e8-b7f9-47b5-bbd9-025b03429b14
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],SetForwardType2 method, ITForwardInformation2.SetForwardType2, ITForwardInformation2::SetForwardType2, SetForwardType2, SetForwardType2 method [TAPI 2.2], SetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, _tapi3_itforwardinformation2_setforwardtype2, tapi3.itforwardinformation2_setforwardtype2, tapi3if/ITForwardInformation2::SetForwardType2
-f1_keywords:
-- tapi3if/ITForwardInformation2.SetForwardType2
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITForwardInformation2.SetForwardType2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITForwardInformation2::SetForwardType2
+ - tapi3if/ITForwardInformation2::SetForwardType2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITForwardInformation2.SetForwardType2
 ---
 
 # ITForwardInformation2::SetForwardType2
@@ -49,47 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetForwardType2</b> method sets the current forwarding mode, specified by caller address.
 
-
 ## -parameters
-
-
-
 
 ### -param ForwardType [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">Line forward type</a> to be set.
-
 
 ### -param pDestAddress [in]
 
 Pointer to the <b>BSTR</b> representation of the destination address.
 
-
 ### -param DestAddressType [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of destination.
-
 
 ### -param pCallerAddress [in]
 
 Pointer to the <b>BSTR</b> representation of the caller address.
 
-
 ### -param CallerAddressType [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of caller.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -143,15 +129,8 @@ The <i>pDestAddress</i> or <i>pCallerAddress</i> parameter is not a valid pointe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
@@ -162,7 +141,4 @@ The <i>pDestAddress</i> or <i>pCallerAddress</i> parameter is not a valid pointe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">ITForwardInformation::SetForwardType</a>
- 
-
- 
 

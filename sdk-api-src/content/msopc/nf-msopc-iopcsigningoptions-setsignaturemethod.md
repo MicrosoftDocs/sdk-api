@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: b567b09a-e688-4c02-8c01-983a307fd0e2
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureMethod method, IOpcSigningOptions.SetSignatureMethod, IOpcSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [Open Packaging Conventions], SetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureMethod, opc.iopcsigningoptions_setsignaturemethod
-f1_keywords:
-- msopc/IOpcSigningOptions.SetSignatureMethod
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.SetSignatureMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::SetSignatureMethod
+ - msopc/IOpcSigningOptions::SetSignatureMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.SetSignatureMethod
 ---
 
 # IOpcSigningOptions::SetSignatureMethod
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the signature method to use to calculate and encrypt the hash value of the <b>SignedInfo</b> element, which will be contained in the <b>SignatureValue</b> element of the signature.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureMethod [in]
 
 The signature method to use.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>signatureMethod</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To access the signature method before the signature is generated, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-getsignaturemethod">IOpcSigningOptions::GetSignatureMethod</a>.  To access the signature method after the signature is generated, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignature-getsignaturemethod">IOpcDigitalSignature::GetSignatureMethod</a> method.
 
@@ -121,13 +108,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -170,7 +151,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

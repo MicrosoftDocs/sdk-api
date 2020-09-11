@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
 ms.date: 12/05/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
-f1_keywords:
-- winsock/AcceptEx
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- AcceptEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AcceptEx
+ - winsock/AcceptEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - AcceptEx
 ---
 
 # AcceptEx function
@@ -49,64 +50,48 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AcceptEx</b> function accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. <div class="alert"><b>Note</b>  This function is a Microsoft-specific extension to the Windows Sockets specification.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param sListenSocket [in]
 
 A descriptor identifying a socket that has already been called with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function. A server application waits for attempts to connect on this socket.
 
-
 ### -param sAcceptSocket [in]
 
 A descriptor identifying a socket on which to accept an incoming connection. This socket must not be bound or connected.
 
-
 ### -param lpOutputBuffer [in]
 
 A pointer to a buffer that receives the first block of data sent on a new connection, the local address of the server, and the remote address of the client. The receive data is written to the first part of the buffer starting at offset zero, while the addresses are written to the latter part of the buffer. This parameter must be specified.
-
 
 ### -param dwReceiveDataLength [in]
 
 The number of bytes in <i>lpOutputBuffer</i> that will be used for actual receive data at the beginning of the buffer. This size should not include the size of the local address of the server, nor the remote address of the client; they are appended to the output buffer. If <i>dwReceiveDataLength</i> is zero, accepting the connection will not result in a receive operation. Instead, 
 <b>AcceptEx</b> completes as soon as a connection arrives, without waiting for any data.
 
-
 ### -param dwLocalAddressLength [in]
 
 The number of bytes reserved for the local address information. This value must be at least 16 bytes more than the maximum address length for the transport protocol in use.
-
 
 ### -param dwRemoteAddressLength [in]
 
 The number of bytes reserved for the remote address information. This value must be at least 16 bytes more than the maximum address length for the transport protocol in use. Cannot be zero.
 
-
 ### -param lpdwBytesReceived [out]
 
 A pointer to a <b>DWORD</b> that receives the count of bytes received. This parameter is set only if the operation completes synchronously. If it returns ERROR_IO_PENDING and is completed later, then this <b>DWORD</b> is never set and you must obtain the number of bytes read from the completion notification mechanism.
-
 
 ### -param lpOverlapped [in]
 
 An 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that is used to process the request. This parameter must be specified; it cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If no error occurs, the 
 <b>AcceptEx</b> function completed successfully and a value of <b>TRUE</b> is returned.
@@ -116,13 +101,7 @@ If the function fails,
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function can then be called to return extended error information. If 
 <b>WSAGetLastError</b> returns <b>ERROR_IO_PENDING</b>, then the operation was successfully initiated and is still in progress. If the error is WSAECONNRESET, an incoming connection was indicated, but was subsequently terminated by the remote peer prior to accepting the call.
 
-
-
-
 ## -remarks
-
-
-
 
 The 
 <b>AcceptEx</b> function combines several socket functions into a single API/kernel transition. The 
@@ -447,13 +426,7 @@ The
 There are important issues associated with connection setup when using Asynchronous Transfer Mode (ATM) with Windows Sockets 2. Please see the Remarks section in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> function documentation for important ATM connection setup information.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-getacceptexsockaddrs">GetAcceptExSockaddrs</a>
 
@@ -500,7 +473,4 @@ There are important issues associated with connection setup when using Asynchron
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

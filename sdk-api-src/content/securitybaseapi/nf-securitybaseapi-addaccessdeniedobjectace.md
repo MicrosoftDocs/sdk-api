@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1427c908-92b6-46b2-9189-a2fd93c470b1
 ms.date: 12/05/2018
 ms.keywords: AddAccessDeniedObjectAce, AddAccessDeniedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedobjectace, security.addaccessdeniedobjectace, securitybaseapi/AddAccessDeniedObjectAce
-f1_keywords:
-- securitybaseapi/AddAccessDeniedObjectAce
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddAccessDeniedObjectAce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddAccessDeniedObjectAce
+ - securitybaseapi/AddAccessDeniedObjectAce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddAccessDeniedObjectAce
 ---
 
 # AddAccessDeniedObjectAce function
@@ -56,25 +57,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddAccessDeniedObjectAce</b> function adds an access-denied <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). The new ACE can deny access to an object, or to a property set or property on an object. You can also use <b>AddAccessDeniedObjectAce</b> to add an ACE that only a specified type of child object can inherit.
 
-
 ## -parameters
-
-
-
 
 ### -param pAcl [in, out]
 
 A pointer to a DACL. The <b>AddAccessDeniedObjectAce</b> function adds an access-denied ACE to the end of this DACL. The ACE is in the form of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a> structure.
 
-
 ### -param dwAceRevision [in]
 
 Specifies the revision level of the DACL being modified. This value must be ACL_REVISION_DS. If the DACL's revision level is lower than ACL_REVISION_DS, the function changes it to ACL_REVISION_DS.
-
 
 ### -param AceFlags [in]
 
@@ -137,35 +131,27 @@ The ACE is inherited by noncontainer objects.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AccessMask [in]
 
 A set of bit flags that use the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> format to specify the access rights that the new ACE denies to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
-
 ### -param ObjectTypeGuid [in, optional]
 
 A pointer to a 
 <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of object, property set, or property protected by the new ACE. If this parameter is <b>NULL</b>, the new ACE protects the object to which the ACL is assigned.
 
-
 ### -param InheritedObjectTypeGuid [in, optional]
 
 A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that identifies the type of object that can inherit the new ACE. If this parameter is non-<b>NULL</b>, only the specified object type can inherit the ACE. If <b>NULL</b>, any type of child object can inherit the ACE. In either case, inheritance is also controlled by the value of the <i>AceFlags</i> parameter, as well as by any protection against inheritance placed on the child objects.
-
 
 ### -param pSid [in]
 
 A pointer to a 
 SID  that identifies the user, group, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> to which the new ACE allows access.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -244,14 +230,8 @@ The ACE was successfully added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If both <i>ObjectTypeGuid</i> and <i>InheritedObjectTypeGuid</i> are <b>NULL</b>, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedaceex">AddAccessDeniedAceEx</a> function rather than <b>AddAccessDeniedObjectAce</b>. This is suggested because an 
@@ -261,13 +241,7 @@ If both <i>ObjectTypeGuid</i> and <i>InheritedObjectTypeGuid</i> are <b>NULL</b>
 Although the <b>AddAccessDeniedObjectAce</b> function adds the new ACE to the end of the ACL, access-denied ACEs should appear at the beginning of an ACL. The caller must ensure that ACEs are added to the DACL in the correct order. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl">Order of ACEs in a DACL</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
 
@@ -306,7 +280,4 @@ Although the <b>AddAccessDeniedObjectAce</b> function adds the new ACE to the en
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
- 
-
- 
 

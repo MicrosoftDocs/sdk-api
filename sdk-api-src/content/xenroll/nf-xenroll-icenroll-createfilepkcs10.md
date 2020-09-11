@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 074c7321-6117-4261-836a-a2055c9e029d
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],createFilePKCS10 method, ICEnroll interface [Security],createFilePKCS10 method, ICEnroll.createFilePKCS10, ICEnroll2 interface [Security],createFilePKCS10 method, ICEnroll2::createFilePKCS10, ICEnroll3 interface [Security],createFilePKCS10 method, ICEnroll3::createFilePKCS10, ICEnroll4 interface [Security],createFilePKCS10 method, ICEnroll4::createFilePKCS10, ICEnroll::createFilePKCS10, createFilePKCS10, createFilePKCS10 method [Security], createFilePKCS10 method [Security],CEnroll object, createFilePKCS10 method [Security],ICEnroll interface, createFilePKCS10 method [Security],ICEnroll2 interface, createFilePKCS10 method [Security],ICEnroll3 interface, createFilePKCS10 method [Security],ICEnroll4 interface, security.icenroll4_createfilepkcs10, xenroll/ICEnroll2::createFilePKCS10, xenroll/ICEnroll3::createFilePKCS10, xenroll/ICEnroll4::createFilePKCS10, xenroll/ICEnroll::createFilePKCS10
-f1_keywords:
-- xenroll/ICEnroll4.createFilePKCS10
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.createFilePKCS10
-- ICEnroll3.createFilePKCS10
-- ICEnroll2.createFilePKCS10
-- ICEnroll.createFilePKCS10
-- CEnroll.createFilePKCS10
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::createFilePKCS10
+ - xenroll/ICEnroll::createFilePKCS10
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.createFilePKCS10
+ - ICEnroll3.createFilePKCS10
+ - ICEnroll2.createFilePKCS10
+ - ICEnroll.createFilePKCS10
+ - CEnroll.createFilePKCS10
 ---
 
 # ICEnroll::createFilePKCS10
 
 
 ## -description
-
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -61,16 +61,11 @@ The <b>createFilePKCS10</b> method creates a base64-encoded PKCS #10 <a href="ht
 This method differs from 
 the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a> method only in saving the base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> (in <b>BSTR</b> form) to the file specified by the <i>wszPKCS10FileName</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param DNName [in]
 
 The distinguished name (DN) of the entity for which the request is being made. <i>DNName</i> must follow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) may be provided instead.
-
 
 ### -param Usage [in]
 
@@ -78,15 +73,11 @@ An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">OID</a> t
 
 The OID is passed through to the PKCS #10 request. The control does not examine the OID.
 
-
 ### -param wszPKCS10FileName [in]
 
 The name of the file in which the base64-encoded PKCS #10 (in <b>BSTR</b> form) is saved. The contents of this file may be submitted to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> for processing.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
 The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
@@ -94,12 +85,7 @@ The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 If the method fails, the return value is an <b>HRESULT</b> indicating the error. For a list of common error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 By default, the Microsoft Base Cryptographic Provider is used, and a unique signature key is created.
 
@@ -191,7 +177,4 @@ if ( pEnroll )
 CoUninitialize();
 
 ```
-
-
-
 

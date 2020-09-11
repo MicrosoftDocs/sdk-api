@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 6e26a539-a22a-487a-b720-fa3660c1b485
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
-f1_keywords:
-- sfc/SfcIsKeyProtected
-dev_langs:
-- c++
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Sfc.lib
 req.dll: Sfc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sfc.dll
-api_name:
-- SfcIsKeyProtected
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SfcIsKeyProtected
+ - sfc/SfcIsKeyProtected
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sfc.dll
+api_name:
+ - SfcIsKeyProtected
 ---
 
 # SfcIsKeyProtected function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines whether the specified registry key is protected. Applications should avoid replacing protected registry keys. 
-
+Determines whether the specified registry key is protected. Applications should avoid replacing protected registry keys.
 
 ## -parameters
-
-
-
 
 ### -param KeyHandle [in]
 
@@ -70,13 +66,10 @@ A handle to the root registry key. This must be a handle to one of the following
 
 <p class="indent">HKEY_USERS
 
-
 ### -param SubKeyName [in, optional]
 
 A <b>null</b>-terminated string value containing the name of the subkey. This key must a subkey of the key identified by the <i>hKey</i> parameter. For more information about key names, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/structure-of-the-registry">Structure of the Registry</a>. 
-If this parameter is <b>NULL</b>, the function only checks whether the root registry key is protected. 
-
-
+If this parameter is <b>NULL</b>, the function only checks whether the root registry key is protected.
 
 ### -param KeySam [in]
 
@@ -121,23 +114,14 @@ Use the 32-bit registry key from either a 32-bit or 64-bit application.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the key is protected, the return value is a nonzero value.
 
 If the key is not protected, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 A key is protected by WRP if the path exists and is protected by WRP. The <b>SfcIsKeyProtected</b> function indicates that a subkey is protected by WRP if the subkey has a  parent key that is protected by WRP.  
 
@@ -161,17 +145,7 @@ The <b>SfcIsKeyProtected</b> function returns a nonzero value for the following 
             <b>&lt;WinFeature&gt;</b>
                <b>&lt;new subkey&gt;</b></pre>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sfc/nf-sfc-sfcisfileprotected">SfcIsFileProtected</a>
- 
-
- 
 

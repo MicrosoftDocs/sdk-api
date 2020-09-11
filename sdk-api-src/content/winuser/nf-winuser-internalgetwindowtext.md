@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm
 ms.date: 12/05/2018
 ms.keywords: InternalGetWindowText, InternalGetWindowText function [Windows and Messages], _win32_InternalGetWindowText, _win32_internalgetwindowtext_cpp, winmsg.internalgetwindowtext, winui._win32_internalgetwindowtext, winuser/InternalGetWindowText
-f1_keywords:
-- winuser/InternalGetWindowText
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- InternalGetWindowText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternalGetWindowText
+ - winuser/InternalGetWindowText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - InternalGetWindowText
 ---
 
 # InternalGetWindowText function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is not intended for general
       use. It may
@@ -61,20 +61,15 @@ This function is similar to the <a href="https://docs.microsoft.com/windows/desk
 		associated with the specified window's handle and then always provides the text as a
 		Unicode string. This is unlike <b>GetWindowText</b> which obtains the
 		text by sending the window a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message.  If the
-		specified window is a control, the text of the control is obtained. 
-
+		specified window is a control, the text of the control is obtained.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window or control containing the text. 
-
+A handle to the window or control containing the text.
 
 ### -param pString [out]
 
@@ -84,8 +79,7 @@ The buffer that is to receive the text.
 				
 				If the
 				string is as long or longer than the buffer, the string is truncated and
-				terminated with a null character. 
-
+				terminated with a null character.
 
 ### -param cchMaxCount [in]
 
@@ -93,12 +87,9 @@ Type: <b>int</b>
 
 The maximum number of characters to be copied to the buffer,
 				including the null character. If the text exceeds this limit,
-				it is truncated. 
-
+				it is truncated.
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -106,24 +97,13 @@ If the function succeeds, the return value is the length, in characters,
 				of the copied string, not including the terminating null character.
 				If the window has no title bar or text, if the title bar is empty, or if the window
 				or control handle is invalid, the return value is zero. To get extended error
-				information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+				information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -154,7 +134,4 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

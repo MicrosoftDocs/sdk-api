@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
-f1_keywords:
-- winsock/WSAAsyncSelect
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- wsock32.dll
-api_name:
-- WSAAsyncSelect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAsyncSelect
+ - winsock/WSAAsyncSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - wsock32.dll
+api_name:
+ - WSAAsyncSelect
 ---
 
 # WSAAsyncSelect function
@@ -50,41 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>WSAAsyncSelect</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Rather than use Select-style I/O, use <a href="https://docs.microsoft.com/windows/desktop/WinSock/overlapped-i-o-and-event-objects-2">Overlapped I/O and Event Objects</a> with WinSock2.]
 
 The 
 <b>WSAAsyncSelect</b> function requests Windows message-based notification of network events for a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor that identifies the socket for which event notification is required.
 
-
 ### -param hWnd [in]
 
 A handle that identifies the window that will receive a message when a network event occurs.
-
 
 ### -param wMsg [in]
 
 A message to be received when a network event occurs.
 
-
 ### -param lEvent [in]
 
 A bitmask that specifies a combination of network events in which the application is interested.
 
-
 ## -returns
-
-
 
 If the 
 <b>WSAAsyncSelect</b> function succeeds, the return value is zero, provided that the application's declaration of interest in the network event set was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
@@ -256,14 +246,8 @@ Event: FD_ROUTING_INTERFACE_CHANGE
 <td>The network subsystem failed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAAsyncSelect</b> function is used to request that WS2_32.DLL should send a message to the window <i>hWnd</i> when it detects any network event specified by the <i>lEvent</i> parameter. The message that should be sent is specified by the <i>wMsg</i> parameter. The socket for which notification is required is identified by the <i>s</i> parameter.
@@ -715,12 +699,7 @@ Here is a summary of events and conditions for each asynchronous notification me
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
 
@@ -735,7 +714,4 @@ Here is a summary of events and conditions for each asynchronous notification me
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
- 
-
- 
 

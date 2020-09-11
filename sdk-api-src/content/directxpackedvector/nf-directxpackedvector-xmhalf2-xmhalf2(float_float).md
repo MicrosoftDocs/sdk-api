@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor(float,float)
 ms.date: 12/05/2018
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(float,float), XMHALF2::XMHALF2, XMHALF2::XMHALF2(float,float), dxmath.xmhalf2_ctor_4
-f1_keywords:
-- directxpackedvector/XMHALF2.XMHALF2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMHALF2.XMHALF2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMHALF2::XMHALF2
+ - directxpackedvector/XMHALF2::XMHALF2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMHALF2.XMHALF2
 ---
 
 # XMHALF2::XMHALF2(float,float)
 
 
 ## -description
-
 
 Initializes a new instance of <code>XMHALF2</code> from two <code>float</code> arguments.
     
@@ -60,26 +60,17 @@ This constructor initializes a new instance of <a href="https://docs.microsoft.c
 
 ## -parameters
 
-
-
-
 ### -param _x
 
 Value of the x-coordinate of the vector, the <b>x</b> member of the new
 		    <code>XMHALF2</code> instance.
-		
-
 
 ### -param _y
 
 Value of the y-coordinate of the vector, the <b>y</b> member of the new
 		    <code>XMHALF2</code> instance.
-		
-
 
 ## -remarks
-
-
 
 If the magnitude of one of this constructor's floating point arguments cannot be
 	    represented by the <code>HALF</code> type, the corresponding member of the new instance of
@@ -100,14 +91,7 @@ The following pseudocode demonstrates the operation of this constructor using th
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -118,7 +102,4 @@ The following pseudocode demonstrates the operation of this constructor using th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmhalf2-ctor">XMHALF2 Constructors</a>
- 
-
- 
 

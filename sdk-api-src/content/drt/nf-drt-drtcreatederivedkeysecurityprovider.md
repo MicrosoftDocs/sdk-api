@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
-f1_keywords:
-- drt/DrtCreateDerivedKeySecurityProvider
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtCreateDerivedKeySecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtCreateDerivedKeySecurityProvider
+ - drt/DrtCreateDerivedKeySecurityProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtCreateDerivedKeySecurityProvider
 ---
 
 # DrtCreateDerivedKeySecurityProvider function
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtCreateDerivedKeySecurityProvider</b> function creates the derived key security provider for a Distributed Routing Table.
 
-
 ## -parameters
-
-
-
 
 ### -param pRootCert [in]
 
 Pointer to the certificate that is the "root" portion of the chain. This is used to ensure that keys derived from the same chain can be verified.
 
-
 ### -param pLocalCert [out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
-
 
 ### -param ppSecurityProvider
 
 Receives a pointer to the created security provider.
 
-
-
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -134,24 +123,12 @@ No certificate store attached or there is an error in the certificate chain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The security provider created by this function is specific to the DRT it was created for. It cannot be shared by multiple DRT instances.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_registration">DRT_REGISTRATION</a>
 
@@ -166,7 +143,4 @@ The security provider created by this function is specific to the DRT it was cre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider">DrtDeleteDerivedKeySecurityProvider</a>
- 
-
- 
 

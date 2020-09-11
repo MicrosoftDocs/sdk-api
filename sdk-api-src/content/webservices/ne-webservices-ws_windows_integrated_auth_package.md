@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 7aa0bbf3-afc0-4deb-9cb3-62e297dd8702
 ms.date: 12/05/2018
 ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration [Web Services for Windows], WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, wsw.ws_windows_integrated_auth_package
-f1_keywords:
-- webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
 targetos: Windows
 req.typenames: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+ - webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
 ---
 
 # WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration
@@ -49,31 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the specific SSP package to be used for Windows Integrated
 Authentication.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS
 
 The Kerberos package.
-                
-
 
 ### -field WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM
 
 The NTLM package.
-                
-
 
 ### -field WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO
 
 The SPNEGO package.
-                
 

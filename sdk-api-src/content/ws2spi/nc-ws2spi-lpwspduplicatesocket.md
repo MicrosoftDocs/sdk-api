@@ -27,33 +27,42 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPDUPLICATESOCKET
+ - LPWSPDUPLICATESOCKET
+f1_keywords:
+ - LPWSPDUPLICATESOCKET
+ - ws2spi/LPWSPDUPLICATESOCKET
 ---
 
 ## -description
+
 The **LPWSPDuplicateSocket** function returns a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure that can be used to create a new socket descriptor for a shared socket.
 
 ## -parameters
 
 ### -param s [in]
+
 Local socket descriptor.
 
 ### -param dwProcessId [in]
+
 Identifier of the target process for which the shared socket will be used.
 
 ### -param lpProtocolInfo [out]
+
 Pointer to a buffer allocated by the client that is large enough to contain a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure. The service provider copies the protocol information structure contents to this buffer.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPDuplicateSocket** returns zero. Otherwise, the value of SOCKET_ERROR is returned, and a specific error number is available in <i>lpErrno</i>.
 
 <table>
@@ -130,6 +139,7 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
+
 A source process calls **LPWSPDuplicateSocket** to obtain a special <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure. It uses some interprocess communications (IPC) mechanism to pass the contents of this structure to a target process, which in turn uses it in a call to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a></b> to obtain a descriptor for the duplicated socket. Note that the special **WSAPROTOCOL_INFO** structure can only be used once by the target process.
 
 It is the service provider's responsibility to perform whatever operations are needed in the source process context and to create a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure that will be recognized when it subsequently appears as a parameter to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a></b> in the target processes' context. The provider must then return a socket descriptor that references a common underlying socket. The **dwProviderReserved** member of the **WSAPROTOCOL_INFO** structure is available for the service provider's use and can be used to store any useful context information, including a duplicated handle.
@@ -323,3 +333,4 @@ One vital benefit of this policy is that base service providers do not have to b
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a>
+

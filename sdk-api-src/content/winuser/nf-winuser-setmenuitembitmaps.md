@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuitembitmaps.htm
 ms.date: 12/05/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, SetMenuItemBitmaps, SetMenuItemBitmaps function [Menus and Other Resources], _win32_SetMenuItemBitmaps, _win32_setmenuitembitmaps_cpp, menurc.setmenuitembitmaps, winui._win32_setmenuitembitmaps, winuser/SetMenuItemBitmaps
-f1_keywords:
-- winuser/SetMenuItemBitmaps
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- SetMenuItemBitmaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetMenuItemBitmaps
+ - winuser/SetMenuItemBitmaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - SetMenuItemBitmaps
 ---
 
 # SetMenuItemBitmaps function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Associates the specified bitmap with a menu item. Whether the menu item is selected or clear, the system displays the appropriate bitmap next to the menu item. 
-
+Associates the specified bitmap with a menu item. Whether the menu item is selected or clear, the system displays the appropriate bitmap next to the menu item.
 
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu containing the item to receive new check-mark bitmaps. 
-
+A handle to the menu containing the item to receive new check-mark bitmaps.
 
 ### -param uPosition [in]
 
 Type: <b>UINT</b>
 
-The menu item to be changed, as determined by the <i>uFlags</i> parameter. 
-
+The menu item to be changed, as determined by the <i>uFlags</i> parameter.
 
 ### -param uFlags [in]
 
@@ -106,39 +100,28 @@ Indicates that <i>uPosition</i> gives the zero-based relative position of the me
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hBitmapUnchecked [in, optional]
 
 Type: <b>HBITMAP</b>
 
-A handle to the bitmap displayed when the menu item is not selected. 
-
+A handle to the bitmap displayed when the menu item is not selected.
 
 ### -param hBitmapChecked [in, optional]
 
 Type: <b>HBITMAP</b>
 
-A handle to the bitmap displayed when the menu item is selected. 
-
+A handle to the bitmap displayed when the menu item is selected.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If either the <i>hBitmapUnchecked</i> or 
 				<i>hBitmapChecked</i> parameter is <b>NULL</b>, the system displays nothing next to the menu item for the corresponding check state. If both parameters are <b>NULL</b>, the system displays the default check-mark bitmap when the item is selected, and removes the bitmap when the item is not selected. 
@@ -156,11 +139,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 535224ff-0b91-4814-8100-b6a52afee370
 ms.date: 12/05/2018
 ms.keywords: 0, IInkEdit interface [Tablet PC],SelCharOffset property, IInkEdit.SelCharOffset, IInkEdit.get_SelCharOffset, IInkEdit::SelCharOffset, IInkEdit::get_SelCharOffset, IInkEdit::put_SelCharOffset, InkEdit.get_SelCharOffset, InkEdit.put_SelCharOffset, NULL, Negative integer, Positive integer, SelCharOffset property [Tablet PC], SelCharOffset property [Tablet PC],IInkEdit interface, get_SelCharOffset, inked/IInkEdit::SelCharOffset, inked/IInkEdit::get_SelCharOffset, inked/IInkEdit::put_SelCharOffset, put_SelCharOffset, tablet.inkedit_selcharoffset
-f1_keywords:
-- inked/IInkEdit.SelCharOffset
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- inked.h
-api_name:
-- IInkEdit.SelCharOffset
-- IInkEdit.get_SelCharOffset
-- IInkEdit.put_SelCharOffset
-- InkEdit.get_SelCharOffset
-- InkEdit.put_SelCharOffset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::get_SelCharOffset
+ - inked/IInkEdit::get_SelCharOffset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - inked.h
+api_name:
+ - IInkEdit.SelCharOffset
+ - IInkEdit.get_SelCharOffset
+ - IInkEdit.put_SelCharOffset
+ - InkEdit.get_SelCharOffset
+ - InkEdit.put_SelCharOffset
 ---
 
 # IInkEdit::get_SelCharOffset
@@ -53,26 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns or sets a value that determines whether text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
- 
-
- 
 

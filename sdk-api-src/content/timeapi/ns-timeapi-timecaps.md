@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 64a5c4ba-d340-4abc-8da3-766f3a2d7ec8
 ms.date: 12/05/2018
 ms.keywords: '*LPTIMECAPS, *NPTIMECAPS, *PTIMECAPS, LPTIMECAPS, LPTIMECAPS structure pointer [Windows Multimedia], NPTIMECAPS, NPTIMECAPS structure pointer [Windows Multimedia], PTIMECAPS, PTIMECAPS structure pointer [Windows Multimedia], TIMECAPS, TIMECAPS structure [Windows Multimedia], _win32_TIMECAPS_str, mmsystem/LPTIMECAPS, mmsystem/NPTIMECAPS, mmsystem/PTIMECAPS, mmsystem/TIMECAPS, multimedia.timecaps, timeapi/LPTIMECAPS, timeapi/NPTIMECAPS, timeapi/PTIMECAPS, timeapi/TIMECAPS'
-f1_keywords:
-- timeapi/TIMECAPS
-dev_langs:
-- c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- TimeAPI.h
-- Mmsystem.h
-api_name:
-- TIMECAPS
 targetos: Windows
 req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - timecaps_tag
+ - timeapi/timecaps_tag
+ - PTIMECAPS
+ - timeapi/PTIMECAPS
+ - TIMECAPS
+ - timeapi/TIMECAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - TimeAPI.h
+ - Mmsystem.h
+api_name:
+ - TIMECAPS
 ---
 
 # TIMECAPS structure
@@ -50,29 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TIMECAPS</b> structure contains information about the resolution of the timer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wPeriodMin
 
 The minimum supported resolution, in milliseconds.
 
-
 ### -field wPeriodMax
 
 The maximum supported resolution, in milliseconds.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-structures">Multimedia Timer Structures</a>
 
@@ -87,7 +82,4 @@ The maximum supported resolution, in milliseconds.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetdevcaps">timeGetDevCaps</a>
- 
-
- 
 

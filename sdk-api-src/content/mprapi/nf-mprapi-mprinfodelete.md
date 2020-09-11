@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371
 ms.date: 12/05/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
-f1_keywords:
-- mprapi/MprInfoDelete
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprInfoDelete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprInfoDelete
+ - mprapi/MprInfoDelete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprInfoDelete
 ---
 
 # MprInfoDelete function
 
 
 ## -description
-
 
 The 
 <b>MprInfoDelete</b> function deletes an information header created using 
@@ -57,20 +57,13 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockremove">MprInfoBlockRemove</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockset">MprInfoBlockSet</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpHeader [in]
 
 Pointer to the header to be deallocated.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -110,14 +103,7 @@ The call failed. Use
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -132,7 +118,4 @@ The call failed. Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprinfoblockset">MprInfoBlockSet</a>
- 
-
- 
 

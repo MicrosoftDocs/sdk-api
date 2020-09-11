@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8
 ms.date: 12/05/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
-f1_keywords:
-- opmapi/OPM_OMAC
-dev_langs:
-- c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksopmapi.h
-api_name:
-- OPM_OMAC
 targetos: Windows
 req.typenames: OPM_OMAC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OPM_OMAC
+ - opmapi/_OPM_OMAC
+ - OPM_OMAC
+ - opmapi/OPM_OMAC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksopmapi.h
+api_name:
+ - OPM_OMAC
 ---
 
 # OPM_OMAC structure
@@ -49,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a Message Authentication Code (MAC) for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field abOMAC
 
 A buffer that contains the cryptographic MAC value of the message.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
@@ -85,7 +79,4 @@ A buffer that contains the cryptographic MAC value of the message.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
- 
-
- 
 

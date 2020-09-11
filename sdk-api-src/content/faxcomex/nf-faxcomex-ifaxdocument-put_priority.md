@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7sah.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Priority property, IFaxDocument.Priority, IFaxDocument.get_Priority, IFaxDocument.put_Priority, IFaxDocument::Priority, IFaxDocument::get_Priority, IFaxDocument::put_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxDocument interface, _mfax_faxdocument.priority, fax._mfax_faxdocument_cpp_mfax_faxdocument_priority_cpp, fax._mfax_faxdocument_priority, faxcomex/IFaxDocument::Priority, faxcomex/IFaxDocument::get_Priority, faxcomex/IFaxDocument::put_Priority, put_Priority
-f1_keywords:
-- faxcomex/IFaxDocument.Priority
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDocument.Priority
-- IFaxDocument.get_Priority
-- IFaxDocument.put_Priority
-- IFaxDocument.get_Priority
-- IFaxDocument.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDocument::put_Priority
+ - faxcomex/IFaxDocument::put_Priority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDocument.Priority
+ - IFaxDocument.get_Priority
+ - IFaxDocument.put_Priority
+ - IFaxDocument.get_Priority
+ - IFaxDocument.put_Priority
 ---
 
 # IFaxDocument::put_Priority
@@ -53,28 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDocument::get_Priority</b> property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_priority_type_enum">fptLow</a>, which indicates low priority.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
@@ -85,7 +75,4 @@ By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
 

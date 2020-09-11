@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 46d18b8b-c688-4a41-841e-d952e9b07cf7
 ms.date: 12/05/2018
 ms.keywords: IPsecDospSetSecurityInfo0, IPsecDospSetSecurityInfo0 function [Filtering], fwp.ipsecdospsetsecurityinfo0, fwpmu/IPsecDospSetSecurityInfo0
-f1_keywords:
-- fwpmu/IPsecDospSetSecurityInfo0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IPsecDospSetSecurityInfo0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPsecDospSetSecurityInfo0
+ - fwpmu/IPsecDospSetSecurityInfo0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IPsecDospSetSecurityInfo0
 ---
 
 # IPsecDospSetSecurityInfo0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPsecDospSetSecurityInfo0</b> function sets specified security information in the security descriptor of the IPsec DoS Protection database.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param securityInfo [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
 
 The type of security information to set.
-
 
 ### -param sidOwner [in, optional]
 
@@ -78,13 +72,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 
 The owner's security identifier (SID) to be set in the security descriptor.
 
-
 ### -param sidGroup [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>*</b>
 
 The group's SID to be set in the security descriptor.
-
 
 ### -param dacl [in, optional]
 
@@ -92,17 +84,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-
 
 The discretionary access control list (DACL) to be set in the security descriptor.
 
-
 ### -param sacl [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>*</b>
 
 The system access control list (SACL) to be set in the security descriptor.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -148,29 +136,14 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function behaves like the standard Win32 	 <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> function. The caller needs the same standard access rights as described in the <b>SetSecurityInfo</b> reference topic.
 
 <b>IPsecDospSetSecurityInfo0</b> is a specific implementation of IPsecDospSetSecurityInfo. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecdospgetsecurityinfo0">IPsecDospGetSecurityInfo0</a>
- 
-
- 
 

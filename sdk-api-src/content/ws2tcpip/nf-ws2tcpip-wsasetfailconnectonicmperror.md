@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/02/2019
 ms.keywords: WSASetFailConnectOnIcmpError, WSASetFailConnectOnIcmpError function [Winsock], winsock.wsasetfailconnectonicmperror, ws2tcpip/WSASetFailConnectOnIcmpError
 ms.topic: function
-f1_keywords:
-- ws2tcpip/WSASetFailConnectOnIcmpError
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +25,21 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASetFailConnectOnIcmpError
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - WSASetFailConnectOnIcmpError
+ - ws2tcpip/WSASetFailConnectOnIcmpError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASetFailConnectOnIcmpError
 ---
 
 ## -description
@@ -66,3 +67,4 @@ On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/window
 This functionality is supported through the [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. **WSASetFailConnectOnIcmpError** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](/windows/win32/api/winsock/nf-winsock-setsockopt).
 
 ## -see-also
+

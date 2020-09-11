@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 813916f6-610f-4031-bb17-67d7f5ffed6f
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],IsEqualTfGuidAtom method, ITfCategoryMgr.IsEqualTfGuidAtom, ITfCategoryMgr::IsEqualTfGuidAtom, IsEqualTfGuidAtom, IsEqualTfGuidAtom method [Text Services Framework], IsEqualTfGuidAtom method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_isequaltfguidatom_ref, msctf/ITfCategoryMgr::IsEqualTfGuidAtom, tsf.itfcategorymgr_isequaltfguidatom
-f1_keywords:
-- msctf/ITfCategoryMgr.IsEqualTfGuidAtom
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.IsEqualTfGuidAtom
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::IsEqualTfGuidAtom
+ - msctf/ITfCategoryMgr::IsEqualTfGuidAtom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.IsEqualTfGuidAtom
 ---
 
 # ITfCategoryMgr::IsEqualTfGuidAtom
+
 
 ## -description
 
@@ -115,3 +117,4 @@ If the atom specified by the <i>guidatom</i> parameter represents the <b>GUID</b
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::RegisterGUID](nf-msctf-itfcategorymgr-registerguid.md)
+

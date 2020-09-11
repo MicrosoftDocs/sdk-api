@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPresenter interface [Media Foundation],ProcessMessage method, IMFVideoPresenter.ProcessMessage, IMFVideoPresenter::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFVideoPresenter interface, evr/IMFVideoPresenter::ProcessMessage, f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d, mf.imfvideopresenter_processmessage
-f1_keywords:
-- evr/IMFVideoPresenter.ProcessMessage
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoPresenter.ProcessMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoPresenter::ProcessMessage
+ - evr/IMFVideoPresenter::ProcessMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoPresenter.ProcessMessage
 ---
 
 # IMFVideoPresenter::ProcessMessage
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sends a message to the video presenter. Messages are used to signal the presenter that it must perform some action, or that some event has occurred.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param eMessage [in]
 
 Specifies the message as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-mfvp_message_type">MFVP_MESSAGE_TYPE</a> enumeration.
 
-
 ### -param ulParam [in]
 
 Message parameter. The meaning of this parameter depends on the message type.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -106,22 +95,12 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a>
- 
-
- 
 

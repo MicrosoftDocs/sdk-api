@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 00192755-9135-4193-90bc-6e312b294007
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSizeW, StrFormatByteSizeW function [Windows Shell], _win32_StrFormatByteSizeW, shell.StrFormatByteSizeW, shlwapi/StrFormatByteSizeW
-f1_keywords:
-- shlwapi/StrFormatByteSizeW
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- StrFormatByteSizeW
-- StrFormatByteSizeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StrFormatByteSizeW
+ - shlwapi/StrFormatByteSizeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - StrFormatByteSizeW
+ - StrFormatByteSizeW
 ---
 
 # StrFormatByteSizeW function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a> in one parameter type.
 
-
 ## -parameters
-
-
-
 
 ### -param qdw
 
@@ -67,13 +63,11 @@ Type: <b>LONGLONG</b>
 
 The numeric value to be converted.
 
-
 ### -param pszBuf [out]
 
 Type: <b>PWSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the converted number.
-
 
 ### -param cchBuf
 
@@ -81,21 +75,13 @@ Type: <b>UINT</b>
 
 The size of the buffer pointed to by <i>pszBuf</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>PWSTR</b>
 
 Returns a pointer to the converted string, or <b>NULL</b> if the conversion fails.
 
-
-
-
 ## -remarks
-
-
 
 The first parameter of this function has different types for the ANSI and Unicode versions. If your numeric value is a <b>DWORD</b>, you can use <b>StrFormatByteSize</b> with text macros for both cases. The compiler will cast the numerical value to a <b>LONGLONG</b> for the Unicode case. If your numerical value is a <b>LONGLONG</b>, you should use <b>StrFormatByteSizeW</b> explicitly.
 
@@ -140,9 +126,6 @@ The following table illustrates how this function converts a numeric value into 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
 
 
@@ -152,7 +135,4 @@ The following table illustrates how this function converts a numeric value into 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a>
- 
-
- 
 

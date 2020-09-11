@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: f0491047-d20d-49e4-9319-421b48feca48
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Item method, INetFwOpenPorts.Item, INetFwOpenPorts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_item, netfw/INetFwOpenPorts::Item
-f1_keywords:
-- netfw/INetFwOpenPorts.Item
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwOpenPorts.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwOpenPorts::Item
+ - netfw/INetFwOpenPorts::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwOpenPorts.Item
 ---
 
 # INetFwOpenPorts::Item
@@ -50,35 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
-Returns the specified port if it is in the collection. 
-
+Returns the specified port if it is in the collection.
 
 ## -parameters
-
-
-
 
 ### -param portNumber [in]
 
 Port number to find.
 
-
 ### -param ipProtocol [in]
 
 Protocol of the port to find by type <a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>.
-
 
 ### -param openPort [out]
 
 Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a> object.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 If the method succeeds, the return value is S_OK.
@@ -150,12 +141,7 @@ Reference to the returned
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
  object.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
 
@@ -166,7 +152,4 @@ Reference to the returned
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>
- 
-
- 
 

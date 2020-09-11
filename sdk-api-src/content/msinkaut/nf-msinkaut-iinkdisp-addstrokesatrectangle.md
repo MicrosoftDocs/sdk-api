@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: c5a7cbbc-361c-4e99-af31-f7114eb5261b
 ms.date: 12/05/2018
 ms.keywords: AddStrokesAtRectangle, AddStrokesAtRectangle method [Tablet PC], AddStrokesAtRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],AddStrokesAtRectangle method, IInkDisp.AddStrokesAtRectangle, IInkDisp::AddStrokesAtRectangle, c5a7cbbc-361c-4e99-af31-f7114eb5261b, msinkaut/IInkDisp::AddStrokesAtRectangle, tablet.inkdisp_addstrokesatrectangle
-f1_keywords:
-- msinkaut/IInkDisp.AddStrokesAtRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDisp.AddStrokesAtRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDisp::AddStrokesAtRectangle
+ - msinkaut/IInkDisp::AddStrokesAtRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDisp.AddStrokesAtRectangle
 ---
 
 # IInkDisp::AddStrokesAtRectangle
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">Strokes</a> collection into this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object at a specified rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param SourceStrokes [in]
 
  The strokes to add to the ink. These source strokes are appended to this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-
 ### -param TargetRectangle [in]
 
  The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> in ink space coordinates where the strokes are added. A run-time error occurs if the coordinates of the rectangle are {0,0,0,0}.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -150,26 +139,14 @@ The rectangle's top and bottom are equal.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When inserted, the strokes are scaled from the bounding box of the strokes to the rectangle.
 
 This method can be used to copy strokes within a single <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The source ink strokes do not have to come from another <b>InkDisp</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
@@ -180,7 +157,4 @@ This method can be used to copy strokes within a single <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

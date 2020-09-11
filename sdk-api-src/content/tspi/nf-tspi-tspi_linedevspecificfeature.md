@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0c42d932-f359-4557-bf26-daecca48781b
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDevSpecificFeature, TSPI_lineDevSpecificFeature function [TAPI 2.2], _tspi_tspi_linedevspecificfeature, tspi.tspi_linedevspecificfeature, tspi/TSPI_lineDevSpecificFeature
-f1_keywords:
-- tspi/TSPI_lineDevSpecificFeature
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineDevSpecificFeature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineDevSpecificFeature
+ - tspi/TSPI_lineDevSpecificFeature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineDevSpecificFeature
 ---
 
 # TSPI_lineDevSpecificFeature function
@@ -49,57 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineDevSpecificFeature</b> function is used as an extension mechanism to enable service providers to provide access to features not described in other operations. The meanings of these extensions are device specific, and taking advantage of these extensions requires TAPI or its client application to be fully aware of them.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequestID
 
 The identifier of the asynchronous request.
 
-
 ### -param hdLine
 
 The service provider's handle to the line device.
-
 
 ### -param dwFeature
 
 The feature to invoke on the line device. This parameter uses 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ constants</a>.
 
-
 ### -param lpParams
 
 A pointer to a memory area used to hold a feature-dependent parameter block. The format of this parameter block is device specific.
-
 
 ### -param dwSize
 
 The size of the buffer in bytes. If the <i>lpParams</i> parameter is a pointer to a string, the size must include the null terminator.
 
-
 ## -returns
-
-
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALFEATURE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
-
-
-
 ## -remarks
-
-
 
 Additional return values are device specific. The call state of <i>hdCall</i> is device-specific.
 
@@ -112,13 +96,7 @@ This function is called in direct response to an application calling the TAPI
 <div> </div>
 This operation is part of the Extended Telephony services. It only provides access to a device-specific feature without defining its meaning. This operation is only available if TAPI has successfully negotiated and selected a device-specific extension version.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
@@ -129,7 +107,4 @@ This operation is part of the Extended Telephony services. It only provides acce
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ Constants</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: e5e8f321-54b2-469d-bdd3-9867fd85b447
 ms.date: 12/05/2018
 ms.keywords: '*smiLPVALUE, SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, _snmp_smivalue_str, smiLPVALUE, smiLPVALUE structure pointer [SNMP], smiVALUE, smiVALUE structure [SNMP], snmp.smivalue_str, winsnmp/smiLPVALUE, winsnmp/smiVALUE'
-f1_keywords:
-- winsnmp/smiVALUE
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsnmp.h
-api_name:
-- smiVALUE
 targetos: Windows
 req.typenames: smiVALUE, *smiLPVALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - smiLPVALUE
+ - winsnmp/smiLPVALUE
+ - smiVALUE
+ - winsnmp/smiVALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsnmp.h
+api_name:
+ - smiVALUE
 ---
 
 # smiVALUE structure
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -58,11 +60,7 @@ The WinSNMP
 The <b>syntax</b> member of the 
 <b>smiVALUE</b> structure contains a WinSNMP data type that indicates the type of data in the <b>value</b> member. The <b>value</b> member of the structure is the union of all possible WinSNMP data types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field syntax
 
@@ -231,7 +229,6 @@ Indicates the WinSNMP application is attempting to reference an object identifie
 
 The last three syntax types describe exception conditions under the SNMP version 2C (SNMPv2C) framework.
 
-
 ### -field value
 
 Specifies the union of all possible WinSNMP syntax data types, including the 
@@ -286,42 +283,19 @@ Specifies an object identifier (OID).
 </b>
 Specifies an empty member.
 
-
 ### -field sNumber
-
- 
-
 
 ### -field uNumber
 
- 
-
-
 ### -field hNumber
-
- 
-
 
 ### -field string
 
- 
-
-
 ### -field oid
-
- 
-
 
 ### -field empty
 
- 
-
-
-
-
 ## -remarks
-
-
 
 A WinSNMP application must check the <b>syntax</b> member of an 
 <b>smiVALUE</b> structure to correctly dereference the <b>value</b> member. The <b>value</b> member can contain a simple scalar value or a non-scalar value like an 
@@ -338,13 +312,7 @@ If the <b>syntax</b> member indicates that the <b>value</b> member is an
 Because the WinSNMP application allocates memory for input descriptors with variable lengths, it must free that memory. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatevbl">SnmpCreateVbl</a>
 
@@ -371,7 +339,4 @@ Because the WinSNMP application allocates memory for input descriptors with vari
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a>
- 
-
- 
 

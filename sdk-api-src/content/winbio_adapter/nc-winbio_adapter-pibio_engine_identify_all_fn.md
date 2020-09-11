@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: B8B72654-D161-480B-AD3D-8ED236249562
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterIdentifyAll, EngineAdapterIdentifyAll callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_ALL_FN, PIBIO_ENGINE_IDENTIFY_ALL_FN callback, secbiomet.engineadapteridentifyall, winbio_adapter/EngineAdapterIdentifyAll
-f1_keywords:
-- winbio_adapter/EngineAdapterIdentifyAll
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterIdentifyAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_IDENTIFY_ALL_FN
+ - winbio_adapter/PIBIO_ENGINE_IDENTIFY_ALL_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterIdentifyAll
 ---
 
 # PIBIO_ENGINE_IDENTIFY_ALL_FN callback function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to determine the identities of any people who are currently in camera frame.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
 ### -param PresenceCount [out]
 
 Address of a variable that receives the number of presences detected by the function.
-
 
 ### -param *PresenceArray [out]
 
 Address of a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> elements.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -96,14 +87,8 @@ Any error code will cause the Biometric Service to log the error and ignore the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The biometric service calls this method after it sends a new frame of data to the engine adapter.
 
@@ -116,6 +101,4 @@ The engine adapter is responsible for allocating the array of <a href="https://d
 
 
 The values of the individual <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-presence">WINBIO_PRESENCE</a> items in the <i>PresenceArray</i> will determine the events generated for client applications. See the discussion of the <b>WINBIO_PRESENCE</b> structure for details.
-
-
 

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 845AC938-DE04-4151-8500-B8657234201C
 ms.date: 12/05/2018
 ms.keywords: RoGetServerActivatableClasses, RoGetServerActivatableClasses function [Windows Runtime], roregistrationapi/RoGetServerActivatableClasses, winrt.rogetserveractivatableclasses
-f1_keywords:
-- roregistrationapi/RoGetServerActivatableClasses
-dev_langs:
-- c++
 req.header: roregistrationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- runtimeobject.lib
-- runtimeobject.dll
-- API-MS-Win-Core-WinRT-registration-l1-1-0.dll
-- ComBase.dll
-api_name:
-- RoGetServerActivatableClasses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoGetServerActivatableClasses
+ - roregistrationapi/RoGetServerActivatableClasses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - runtimeobject.lib
+ - runtimeobject.dll
+ - API-MS-Win-Core-WinRT-registration-l1-1-0.dll
+ - ComBase.dll
+api_name:
+ - RoGetServerActivatableClasses
 ---
 
 # RoGetServerActivatableClasses function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the activatable classes that are  registered for a given executable (EXE) server, which was registered under the package ID of the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param serverName [in]
 
@@ -67,13 +63,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTR
 
 The name of the server to retrieve class registrations for. This server name is passed on the command line when the server is activated.
 
-
 ### -param activatableClassIds [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
 A callee-allocated array of activatable class ID strings which the server is registered to serve. The strings must be released by the caller using the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function. The buffer must then be released using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. The server (caller) is responsible for registering the activation factories for these classes.
-
 
 ### -param count [out]
 
@@ -81,10 +75,7 @@ Type: <b>DWORD*</b>
 
 The count of activatable class IDs returned in the <i>activatableClassIds</i> array.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -118,16 +109,8 @@ The process does not have sufficient permissions to read this server’s registr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>RoGetServerActivatableClasses</b> function to retrieve the class names that the server is expected to serve. Get the details on the individual classes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration">RoGetActivatableClassRegistration</a> function on each class name individually.
-
-
 

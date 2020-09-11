@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: cea59e2a-99d8-472d-8e4f-2e2474789c20
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],LockRegion method, ILockBytes.LockRegion, ILockBytes::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_lockregion, objidl/ILockBytes::LockRegion, stg.ilockbytes_lockregion
-f1_keywords:
-- objidl/ILockBytes.LockRegion
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- ILockBytes.LockRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILockBytes::LockRegion
+ - objidl/ILockBytes::LockRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - ILockBytes.LockRegion
 ---
 
 # ILockBytes::LockRegion
@@ -49,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LockRegion</b> method restricts access to a specified range of bytes in the byte array.
 
-
 ## -parameters
-
-
-
 
 ### -param libOffset [in]
 
 Specifies the byte offset for the beginning of the range.
 
-
 ### -param cb [in]
 
 Specifies, in bytes, the length of the range to be restricted.
-
 
 ### -param dwLockType [in]
 
 Specifies the type of restrictions being requested on accessing the range. This parameter uses one of the values from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a> enumeration.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 <b>ILockBytes::LockRegion</b> restricts access to the specified range of bytes. Once a region is locked, attempts by others to gain access to the restricted range must fail with the STG_E_ACCESSDENIED error.
 
@@ -116,13 +102,7 @@ Support for this method depends on how the storage object built on top of the
 A 
 <b>LockRegion</b> implementation can choose to support all, some, or none of the lock types. For unsupported lock types, the implementation should return STG_E_INVALIDFUNCTION.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-file-based-implementation">ILockBytes - File-Based Implementation</a>
 
@@ -145,7 +125,4 @@ A
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 5e342807-4796-449b-b490-815ce57f4d8f
 ms.date: 12/05/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerString method, IScheduledWorkItem.GetTriggerString, IScheduledWorkItem::GetTriggerString, _msb_ischeduledworkitem_gettriggerstring, mstask/IScheduledWorkItem::GetTriggerString, taskschd.ischeduledworkitem_gettriggerstring
-f1_keywords:
-- mstask/IScheduledWorkItem.GetTriggerString
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetTriggerString
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetTriggerString
+ - mstask/IScheduledWorkItem::GetTriggerString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetTriggerString
 ---
 
 # IScheduledWorkItem::GetTriggerString
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
  Retrieves a string that describes the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a> trigger.
 
-
 ## -parameters
-
-
-
 
 ### -param iTrigger [in]
 
 The index of the trigger to be retrieved. The first trigger is always referenced by 0. For more information, see Remarks.
 
-
 ### -param ppwszTrigger [out]
 
 A pointer to a null-terminated string that contains the retrieved trigger description. Note that this string must be release by a call to <b>CoTaskMemFree</b> after the string is no longer needed.
 
-
 ## -returns
-
-
 
 The 
 <b>GetTriggerString</b> method returns one of the following values.
@@ -116,14 +108,8 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A trigger index is not an identifier. It only indicates the trigger's position relative to the current triggers associated with the work item. For example, if you create four triggers, they will be numbered 0 through 3. But if the second trigger is deleted, the remaining triggers will be numbered 0 through 2. Note that the index of the first trigger is always 0, and the index of the last trigger is one less than the total number of triggers for the work item (TriggerCount -1).
 
@@ -137,19 +123,11 @@ For an example of how to retrieve the trigger string of all triggers associated 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
- 
-
- 
 

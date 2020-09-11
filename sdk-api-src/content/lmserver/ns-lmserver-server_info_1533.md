@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 2b54dcec-c456-4cef-a2b9-eb24adf4a994
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1533, *PSERVER_INFO_1533, LPSERVER_INFO_1533, LPSERVER_INFO_1533 structure pointer [Network Management], PSERVER_INFO_1533, PSERVER_INFO_1533 structure pointer [Network Management], SERVER_INFO_1533, SERVER_INFO_1533 structure [Network Management], _win32_server_info_1533_str, lmserver/LPSERVER_INFO_1533, lmserver/PSERVER_INFO_1533, lmserver/SERVER_INFO_1533, netmgmt.server_info_1533_str'
-f1_keywords:
-- lmserver/SERVER_INFO_1533
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_INFO_1533
 targetos: Windows
 req.typenames: SERVER_INFO_1533, *PSERVER_INFO_1533, *LPSERVER_INFO_1533
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_INFO_1533
+ - lmserver/_SERVER_INFO_1533
+ - PSERVER_INFO_1533
+ - lmserver/PSERVER_INFO_1533
+ - SERVER_INFO_1533
+ - lmserver/SERVER_INFO_1533
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_INFO_1533
 ---
 
 # SERVER_INFO_1533 structure
@@ -49,25 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>SERVER_INFO_1533</b> structure specifies the maximum number of outstanding requests a client can send to the server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sv1533_maxmpxct
 
 Specifies the maximum number of outstanding requests any one client can send to the server. For example, 10 means you can have 10 unanswered requests at the server. When any single client has 10 requests queued within the server, the client must wait for a server response before sending another request.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
@@ -82,7 +78,4 @@ Specifies the maximum number of outstanding requests any one client can send to 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
- 
-
- 
 

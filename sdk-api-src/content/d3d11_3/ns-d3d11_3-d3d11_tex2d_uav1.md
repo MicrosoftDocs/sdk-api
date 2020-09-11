@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 79B0E8F5-416F-4729-AF36-BA16169CDB7C
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_UAV1, D3D11_TEX2D_UAV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_UAV1, direct3d11.d3d11_tex2d_uav1
-f1_keywords:
-- d3d11_3/D3D11_TEX2D_UAV1
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_TEX2D_UAV1
 targetos: Windows
 req.typenames: D3D11_TEX2D_UAV1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TEX2D_UAV1
+ - d3d11_3/D3D11_TEX2D_UAV1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_TEX2D_UAV1
 ---
 
 # D3D11_TEX2D_UAV1 structure
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a unordered-access 2D texture resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MipSlice
 
 The mipmap slice index.
 
-
 ### -field PlaneSlice
 
 The index (plane slice number) of the plane to use in the texture.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
 

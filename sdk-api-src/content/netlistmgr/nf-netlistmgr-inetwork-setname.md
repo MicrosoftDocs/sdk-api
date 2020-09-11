@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: 7495e26f-b7cf-4abd-ab7d-82b0d4bd4d87
 ms.date: 12/05/2018
 ms.keywords: INetwork interface [Network Awareness],SetName method, INetwork.SetName, INetwork::SetName, SetName, SetName method [Network Awareness], SetName method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetName, nla.inetwork_setname
-f1_keywords:
-- netlistmgr/INetwork.SetName
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetwork.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetwork::SetName
+ - netlistmgr/INetwork::SetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetwork.SetName
 ---
 
 # INetwork::SetName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetName</b> method sets or renames a network.
 
-
 ## -parameters
-
-
-
 
 ### -param szNetworkNewName [in]
 
 Zero-terminated string that contains the new name of the network.
 
-
 ## -returns
-
-
 
 Returns S_OK if the method succeeds. Otherwise, the method returns one of the following values.
 
@@ -97,27 +90,12 @@ The name provided is too long.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The maximum length of a network name can be 128 characters and cannot contain spaces only, tab or "\ /: * ? " &lt; &gt; |".
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
- 
-
- 
 

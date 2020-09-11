@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 0256f1d2-a3fb-45b2-bd84-e2b71148e4ec
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], IFileSystemImage interface [IMAPI],described, imapi.ifilesystemimage, imapi2fs/IFileSystemImage
-f1_keywords:
-- imapi2fs/IFileSystemImage
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage
+ - imapi2fs/IFileSystemImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage
 ---
 
 # IFileSystemImage interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to build a file system image, set session parameter, and import or export an image.
 
 The file system directory hierarchy is built by adding directories and files to the root or child directories.
 
 To create an instance of this interface, call the <b>CoCreateInstance</b> function. Use__uuidof(MsftFileSystemImage) for the class identifier and __uuidof(IFileSystemImage) for the interface identifier.
-
 
 ## -inheritance
 
@@ -522,25 +521,13 @@ Set maximum number of blocks available based on the capabilities of the recorder
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create the <b>CFileSystemImage</b> object in a script, use IMAPI2.MsftFileSystemImage as the program identifier when calling <b>CreateObject</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageevents">DFileSystemImageEvents</a>
- 
-
- 
 

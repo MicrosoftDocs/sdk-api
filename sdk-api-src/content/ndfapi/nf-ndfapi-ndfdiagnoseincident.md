@@ -8,10 +8,6 @@ tech.root: NDF
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
 ms.date: 12/05/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
-f1_keywords:
-- ndfapi/NdfDiagnoseIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfDiagnoseIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfDiagnoseIncident
+ - ndfapi/NdfDiagnoseIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfDiagnoseIncident
 ---
 
 # NdfDiagnoseIncident function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfDiagnoseIncident</b> function diagnoses the root cause of an incident  without displaying a user interface.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [in]
 
@@ -64,13 +60,11 @@ Type: <b>NDFHANDLE</b>
 
 A handle to the Network Diagnostics Framework incident.
 
-
 ### -param RootCauseCount [out]
 
 Type: <b>ULONG*</b>
 
 The number of root causes that could potentially have caused this incident. If diagnosis does not succeed, the contents of this parameter should be ignored.
-
 
 ### -param RootCauses [out]
 
@@ -80,13 +74,11 @@ A collection of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib
 
 Memory allocated to these structures should later be freed.  For an example of how to do this, see the Microsoft Windows Network Diagnostics Samples.
 
-
 ### -param dwWait
 
 Type: <b>DWORD</b>
 
 The length of time, in milliseconds, to wait before terminating the diagnostic routine. INFINITE may be passed to this parameter if no time-out is desired.
-
 
 ### -param dwFlags
 
@@ -124,12 +116,8 @@ Applies filtering to the returned root causes so that they are consistent with t
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -174,14 +162,8 @@ The diagnostic routine has terminated because it has taken longer than the time-
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is intended for use with scenarios where no user interface is shown, or where the standard Windows experience is not being used (as with Media Center and  embedded applications). <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a> will launch the diagnostics user interface, and should be used in scenarios using the standard Windows experience. You can call either <b>NdfExecuteDiagnosis</b> or <b>NdfDiagnoseIncident</b>, but not both.
 
@@ -213,19 +195,8 @@ The following table shows some examples of root causes and their corresponding r
 <td>Reset the ""%InterfaceName%"" adapter.\nThis can sometimes resolve an intermittent problem.</td>
 </tr>
 </table>
- 
-
-
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
 
@@ -236,7 +207,4 @@ The following table shows some examples of root causes and their corresponding r
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>
- 
-
- 
 

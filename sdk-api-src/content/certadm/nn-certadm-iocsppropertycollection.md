@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
-f1_keywords:
-- certadm/IOCSPPropertyCollection
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPPropertyCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPPropertyCollection
+ - certadm/IOCSPPropertyCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPPropertyCollection
 ---
 
 # IOCSPPropertyCollection interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IOCSPPropertyCollection</b> interface represents a set of configurable attribute properties (name-value pairs) for an Online Certificate Status Protocol (OCSP) service. Microsoft provides a default implementation of this interface in the <b>OCSPPropertyCollection</b> class.
 
 In C++, you create an instance of this interface by calling the <b>CoCreateInstance</b> function with the <b>CLSID_OCSPPropertyCollection</b> class identifier.
 
 In Visual Basic Scripting Edition, you create an instance of the <b>OCSPPropertyCollection</b> object.
-
 
 ## -inheritance
 
@@ -164,12 +163,9 @@ Gets the property identified by name in a property set.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IOCSPPropertyCollection</b> contains attributes for the following:
 
@@ -187,16 +183,7 @@ All OCSP attribute information is stored in the following registry key:
 
 OCSP attributes govern OCSP responder service behavior for all CA configurations. For more information on CA configurations, see the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> interface topic.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

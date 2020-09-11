@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: fcbf0607-d048-486f-bec2-f6e9d03e4194
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUI, MsiSetExternalUI function, MsiSetExternalUIA, MsiSetExternalUIW, _msi_msisetexternalui, msi/MsiSetExternalUI, msi/MsiSetExternalUIA, msi/MsiSetExternalUIW, setup.msisetexternalui
-f1_keywords:
-- msi/MsiSetExternalUI
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSetExternalUI
-- MsiSetExternalUIA
-- MsiSetExternalUIW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSetExternalUIW
+ - msi/MsiSetExternalUIW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSetExternalUI
+ - MsiSetExternalUIA
+ - MsiSetExternalUIW
 ---
 
 # MsiSetExternalUIW function
@@ -51,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSetExternalUI</b> function enables an external user-interface handler. This external UI handler is called before the normal internal user-interface handler. The external UI handler has the option to suppress the internal UI by returning a non-zero value to indicate that it has handled the messages. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/about-the-user-interface">About the User Interface</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param puiHandler [in]
 
 Specifies a callback function that conforms to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handlera">INSTALLUI_HANDLER</a> specification.
-
 
 ### -param dwMessageFilter [in]
 
@@ -266,26 +261,16 @@ The message contains the product's ProductName, ProductCode, and return value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvContext [in]
 
 Pointer to an application context that is passed to the callback function. This parameter can be used for error checking.
 
-
 ## -returns
-
-
 
 The return value is the previously set external handler, or zero (0) if there was no previously set handler.
 
-
-
-
 ## -remarks
-
-
 
 To restore the previous UI handler, second call is made to 
 <b>MsiSetExternalUI</b> using the 
@@ -309,11 +294,5 @@ The external user interface handler pointed to by the <i>puiHandler</i> paramete
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
- 
-
- 
 

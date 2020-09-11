@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
 ms.date: 12/05/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
-f1_keywords:
-- evr/IMFVideoDisplayControl.GetNativeVideoSize
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.GetNativeVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::GetNativeVideoSize
+ - evr/IMFVideoDisplayControl::GetNativeVideoSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.GetNativeVideoSize
 ---
 
 # IMFVideoDisplayControl::GetNativeVideoSize
@@ -50,29 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pszVideo [in, out]
 
 Receives the size of the native video rectangle. This parameter can be <b>NULL</b>.
 
-
 ### -param pszARVideo [in, out]
 
 Receives the aspect ratio of the video. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,26 +106,14 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If no media types have been set on any video streams, the method succeeds but all parameters are set to zero.
 
 You can set <i>pszVideo</i> or <i>pszARVideo</i> to <b>NULL</b>, but not both.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
@@ -145,7 +124,4 @@ You can set <i>pszVideo</i> or <i>pszARVideo</i> to <b>NULL</b>, but not both.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
 

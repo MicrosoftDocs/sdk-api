@@ -8,10 +8,6 @@ tech.root: input_intcontext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
 ms.date: 12/05/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
-f1_keywords:
-- interactioncontext/ResetInteractionContext
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ninput.dll
-- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
-- IE_Shims.dll
-api_name:
-- ResetInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResetInteractionContext
+ - interactioncontext/ResetInteractionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ninput.dll
+ - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+ - IE_Shims.dll
+api_name:
+ - ResetInteractionContext
 ---
 
 # ResetInteractionContext function
@@ -51,49 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_state">interaction state</a>, interaction configuration settings, and all parameters to their initial state.  Current interactions are cancelled without notifications. 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> must be reconfigured before next use.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param interactionContext [in]
 
 Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns S_OK.
  
 Otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -remarks
-
-
 
 Useful for managing a pool of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> objects.
 
 Current interactions are cancelled without notifications.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-createinteractioncontext">CreateInteractionContext</a>
 
@@ -112,7 +92,4 @@ Current interactions are cancelled without notifications.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-stopinteractioncontext">StopInteractionContext</a>
- 
-
- 
 

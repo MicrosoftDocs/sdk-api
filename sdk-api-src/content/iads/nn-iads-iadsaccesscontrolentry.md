@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 6d2cd45b-0dc6-4bb3-9c41-014bec71f258
 ms.date: 12/05/2018
 ms.keywords: AccessControlEntry, IADsAccessControlEntry, IADsAccessControlEntry interface [ADSI], IADsAccessControlEntry interface [ADSI],described, _ds_iadsaccesscontrolentry, adsi.iadsaccesscontrolentry, iads/IADsAccessControlEntry
-f1_keywords:
-- iads/IADsAccessControlEntry
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsAccessControlEntry
-- AccessControlEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsAccessControlEntry
+ - iads/IADsAccessControlEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsAccessControlEntry
+ - AccessControlEntry
 ---
 
 # IADsAccessControlEntry interface
 
 
 ## -description
-
 
 The <b>IADsAccessControlEntry</b> interface is a dual 
     interface that enables directory clients to access and manipulate individual access-control entries (ACEs) of the 
@@ -91,9 +91,6 @@ Some of the <b>IADsAccessControlEntry</b> property
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
@@ -103,7 +100,4 @@ Some of the <b>IADsAccessControlEntry</b> property
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

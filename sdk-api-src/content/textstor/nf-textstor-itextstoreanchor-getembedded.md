@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 212286e1-aafa-4368-8dd3-45a0d4c6ecb9
 ms.date: 12/05/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEmbedded method, ITextStoreAnchor.GetEmbedded, ITextStoreAnchor::GetEmbedded, textstor/ITextStoreAnchor::GetEmbedded, tsf.itextstoreanchor_getembedded
-f1_keywords:
-- textstor/ITextStoreAnchor.GetEmbedded
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.GetEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::GetEmbedded
+ - textstor/ITextStoreAnchor::GetEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.GetEmbedded
 ---
 
 # ITextStoreAnchor::GetEmbedded
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreAnchor::GetEmbedded</b> method obtains an embedded object from a text stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Bit fields that specify how the method deals with hidden text. If set to TS_GEA_HIDDEN, an embedded object can be located within hidden text. Otherwise hidden text is skipped over.
 
-
 ### -param paPos [in]
 
 Pointer to an anchor positioned immediately in front of the embedded object, as denoted by a TS_CHAR_EMBEDDED character.
-
 
 ### -param rguidService [in]
 
@@ -108,22 +102,16 @@ The object should be obtained as an ActiveX object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param riid [in]
 
 Specifies the interface type requested.
 
-
 ### -param ppunk [out]
 
 Pointer to an <b>IUnknown</b> pointer that receives the requested interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -232,24 +220,12 @@ The service type specified in <i>rguidService</i> is unsupported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. Prospective interfaces include those associated with embedded documents or controls such as <b>IOleObject</b>, <b>IDataObject</b>, <b>IViewObject</b>, <b>IPersistStorage</b>, <b>IOleCache</b>, or <b>IDispatch</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
 
@@ -260,7 +236,4 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
- 
-
- 
 

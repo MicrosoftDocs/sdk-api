@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.date: 12/05/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
-f1_keywords:
-- wincred/CredReadDomainCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredReadDomainCredentials
-- CredReadDomainCredentialsA
-- CredReadDomainCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredReadDomainCredentialsA
+ - wincred/CredReadDomainCredentialsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredReadDomainCredentials
+ - CredReadDomainCredentialsA
+ - CredReadDomainCredentialsW
 ---
 
 # CredReadDomainCredentialsA function
@@ -55,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredReadDomainCredentials</b> function reads the domain credentials from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
-
 ## -parameters
-
-
-
 
 ### -param TargetInfo [in]
 
 Target information that identifies the target server. At least one of the naming members must not be <b>NULL</b>: NetbiosServerName, DnsServerName, NetbiosDomainName, DnsDomainName or DnsTreeName.
-
 
 ### -param Flags [in]
 
@@ -82,11 +77,9 @@ CRED_CACHE_TARGET_INFORMATION
 
 Cache the TargetInfo for a subsequent read using <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>.
 
-
 ### -param Count [out]
 
 Count of the credentials returned in the <i>Credentials</i> array.
-
 
 ### -param Credential [out]
 
@@ -105,10 +98,7 @@ Only those credential types specified by the <i>TargetInfo</i>.CredTypes array a
 
 The returned buffer is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
 
@@ -139,11 +129,7 @@ A flag that is not valid was specified for the <i>Flags</i> parameter.
 </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function returns the most specific credentials matching the naming parameters. For instance, if there is a credential that matches the target server name and a credential that matches the target domain name, only the server specific credential is returned. This is the credential that would be used.
 

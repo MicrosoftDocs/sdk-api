@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_PROTECTED_RESOURCE_SESSION_FLAGS","D3D12_PROTECTED_
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: D3D12_PROTECTED_RESOURCE_SESSION_FLAGS, D3D12_PROTECTED_RESOURCE_SESSION_FLAGS enumeration, direct3d12.d3d12_protected_resource_session_flags
-f1_keywords:
-- d3d12/D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 targetos: Windows
 req.typenames: D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 req.redist: 
+f1_keywords:
+ - D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
+ - d3d12/D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 ---
 
 ## -description
@@ -54,3 +55,4 @@ Specifies no flag.
 ## -remarks
 
 ## -see-also
+

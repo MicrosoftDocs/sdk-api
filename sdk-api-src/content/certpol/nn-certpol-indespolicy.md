@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9ed31493-832a-4f66-bb95-02ef1ad7ca15
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy, INDESPolicy interface [Security], INDESPolicy interface [Security],described, certpol/INDESPolicy, security.indespolicy
-f1_keywords:
-- certpol/INDESPolicy
-dev_langs:
-- c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- certpol.h
-api_name:
-- INDESPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INDESPolicy
+ - certpol/INDESPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - certpol.h
+api_name:
+ - INDESPolicy
 ---
 
 # INDESPolicy interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The NDES Policy Module Interface.  When installed against an enterprise CA, NDES generates a password after checking that the user has enrollment permission on the configured NDES templates, both user and machine templates.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Verifies the NDES certificate request for submission to the CA.
 
 </td>
 </tr>
-</table> 
+</table>
 

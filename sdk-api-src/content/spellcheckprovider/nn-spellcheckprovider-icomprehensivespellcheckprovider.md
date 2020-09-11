@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 303EE887-DCF0-4575-A45F-5A4088DE8F7B
 ms.date: 12/05/2018
 ms.keywords: IComprehensiveSpellCheckProvider, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications], IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],described, intl.icomprehensivespellcheckprovider, spellcheckprovider/IComprehensiveSpellCheckProvider
-f1_keywords:
-- spellcheckprovider/IComprehensiveSpellCheckProvider
-dev_langs:
-- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spellcheckprovider.h
-api_name:
-- IComprehensiveSpellCheckProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComprehensiveSpellCheckProvider
+ - spellcheckprovider/IComprehensiveSpellCheckProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spellcheckprovider.h
+api_name:
+ - IComprehensiveSpellCheckProvider
 ---
 
 # IComprehensiveSpellCheckProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows the provider to optionally support a more comprehensive spell checking functionality.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Spell-check the provider text in a more thorough manner than <a href="https://do
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 26fea1a4-f060-49e2-a7ac-0e751f798c72
 ms.date: 12/05/2018
 ms.keywords: CreateVolume, CreateVolume method [VDS], CreateVolume method [VDS],IVdsPack interface, IVdsPack interface [VDS],CreateVolume method, IVdsPack.CreateVolume, IVdsPack::CreateVolume, base.ivdspack_createvolume, vds/IVdsPack::CreateVolume
-f1_keywords:
-- vds/IVdsPack.CreateVolume
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsPack.CreateVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsPack::CreateVolume
+ - vds/IVdsPack::CreateVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsPack.CreateVolume
 ---
 
 # IVdsPack::CreateVolume
 
 
 ## -description
-
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
@@ -60,11 +60,7 @@ Creates a volume within the pack. The interface pointer for the new
    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure returned contains the volume 
    object interface pointer in the <b>cv.pVolumeUnk</b> member.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
@@ -72,14 +68,12 @@ A volume type enumerated by <a href="https://docs.microsoft.com/windows/desktop/
       Volumes on basic disks can have only one extent, and only the <b>VDS_VT_SIMPLE</b> flag is 
       valid.
 
-
 ### -param pInputDiskArray [in]
 
 Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a> 
       structures; one structure for each disk. A disk can be included in the array only once. All disks in the array 
       must be used, or the method fails. Callers must allocate and initialize the array, and free the memory when the 
       call returns.
-
 
 ### -param lNumberOfDisks [in]
 
@@ -96,7 +90,6 @@ If the volume is striped, the size of each stripe in bytes. Pass in zero bytes f
       <b>VDS_VT_MIRROR</b>; 64 kilobytes for <b>VDS_VT_STRIPE</b> and 
       <b>VDS_VT_PARITY</b>.
 
-
 ### -param ppAsync [out]
 
 The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface pointer, 
@@ -107,10 +100,7 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-
       you must release the interfaces returned in the 
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -424,14 +414,8 @@ The volume size is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This method cannot be used to create a volume on a removable disk.</div>
 <div> </div>
@@ -471,13 +455,7 @@ To create a logical volume with an optional alignment parameter, use the <a href
 Implementers must return a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> 
     interface for this method, regardless of whether the call initiates an asynchronous operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -508,7 +486,4 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_type">VDS_VOLUME_TYPE</a>
- 
-
- 
 

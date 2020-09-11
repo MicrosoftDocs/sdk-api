@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.date: 12/05/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
-f1_keywords:
-- shobjidl_core/IShellLink
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellLink
-- IShellLinkW
-- IShellLinkA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLinkA
+ - shobjidl_core/IShellLinkA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink
+ - IShellLinkW
+ - IShellLinkA
 ---
 
 # IShellLinkA interface
@@ -51,9 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that create, modify, and resolve Shell links.
-
 
 ## -inheritance
 
@@ -556,12 +555,9 @@ Sets the name of the working directory for a Shell link object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This interface cannot be used to create a link to a URL.</div>
 <div> </div>

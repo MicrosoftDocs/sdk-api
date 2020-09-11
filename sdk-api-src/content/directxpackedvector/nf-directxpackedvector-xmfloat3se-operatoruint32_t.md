@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.operator uint32_t
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMFLOAT3SE.operator uint32_t, DirectX::PackedVector::XMFLOAT3SE::operator uint32_t, XMFLOAT3SE structure [DirectX Math Support APIs],operator uint32_t method, XMFLOAT3SE.operator uint32_t, XMFLOAT3SE::operator uint32_t, dxmath.xmfloat3se_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMFLOAT3SE structure
-f1_keywords:
-- directxpackedvector/XMFLOAT3SE.operator uint32_t
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMFLOAT3SE.operator uint32_t
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3SE::operator uint32_t
+ - directxpackedvector/XMFLOAT3SE::operator uint32_t
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMFLOAT3SE.operator uint32_t
 ---
 
 # XMFLOAT3SE::operator uint32_t
 
 
 ## -description
-
 
 Returns an instance of <code>uint32_t</code> containing the components of the
 <code>XMFLOAT3SE</code> instance in a packed format.
@@ -60,24 +60,11 @@ This operator returns an instance of <code>uint32_t</code> containing the compon
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
 
-
-
 Contains the three vector components of an instance of  <code>XMFLOAT3SE</code> in a packed format.
-      
-
-
-
 
 ## -remarks
-
-
 
 The values of the three components of the current instance of <code>XMFLOAT3SE</code> are
 	returned in the following format: the <b>e</b> member of the <code>XMFLOAT3SE</code>structure -- the exponent shared by the mantissas of the floating point values of all
@@ -124,12 +111,7 @@ Bits 27-31 of the return value are the 5 bit <i>exponent</i> used
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -140,7 +122,4 @@ Bits 27-31 of the return value are the 5 bit <i>exponent</i> used
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-operators">XMFLOAT3SE Operators</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
 ms.date: 12/05/2018
 ms.keywords: GetEventMessage, PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, PGET_EVENT_MESSAGE callback function [RAS], ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/PGET_EVENT_MESSAGE, rras.geteventmessage
-f1_keywords:
-- routprot/PGET_EVENT_MESSAGE
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- PGET_EVENT_MESSAGE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PGET_EVENT_MESSAGE
+ - routprot/PGET_EVENT_MESSAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - PGET_EVENT_MESSAGE
 ---
 
 # PGET_EVENT_MESSAGE callback function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetEventMessage</b> function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
 
-
 ## -parameters
-
-
-
 
 ### -param *Event [out]
 
@@ -119,8 +115,6 @@ The routing protocol has completed an autostatic update request from the router 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param *Result [out]
 
@@ -132,22 +126,13 @@ Pointer to a
 
 This parameter is optional; the caller may specify <b>NULL</b> for this parameter.
 
-
 ## -returns
-
-
 
 If the entry is retrieved successfully, the return value is NO_ERROR.
 
 If the routing protocol's message queue does not contain any entries, the return value is ERROR_NO_MORE_ITEMS.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a>
 
@@ -178,7 +163,4 @@ If the routing protocol's message queue does not contain any entries, the return
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>
- 
-
- 
 

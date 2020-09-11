@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 07463f0d-f46c-4bc3-8170-0a480b826049
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],WriteCertToCSP property, IEnroll.WriteCertToCSP, IEnroll.put_WriteCertToCSP, IEnroll::WriteCertToCSP, IEnroll::get_WriteCertToCSP, IEnroll::put_WriteCertToCSP, WriteCertToCSP property [Security], WriteCertToCSP property [Security],IEnroll interface, put_WriteCertToCSP, security.ienroll4_writecerttocsp, xenroll/IEnroll::WriteCertToCSP, xenroll/IEnroll::get_WriteCertToCSP, xenroll/IEnroll::put_WriteCertToCSP
-f1_keywords:
-- xenroll/IEnroll.WriteCertToCSP
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.WriteCertToCSP
-- IEnroll.get_WriteCertToCSP
-- IEnroll.put_WriteCertToCSP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::put_WriteCertToCSP
+ - xenroll/IEnroll::put_WriteCertToCSP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.WriteCertToCSP
+ - IEnroll.get_WriteCertToCSP
+ - IEnroll.put_WriteCertToCSP
 ---
 
 # IEnroll::put_WriteCertToCSP
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -60,13 +60,9 @@ This property was first defined by the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property is typically used with smart cards, where the certificate is written to the smart card in addition to being written to the "MY" store.
 
@@ -86,17 +82,7 @@ To explicitly force that the Certificate Enrollment Control not attempt to write
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

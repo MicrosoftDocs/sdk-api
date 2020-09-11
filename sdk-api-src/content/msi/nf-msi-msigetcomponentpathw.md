@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 957fd25c-8db6-4f2e-a705-1e8c3b3de6c1
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MsiGetComponentPath, MsiGetComponentPath function, MsiGetComponentPathA, MsiGetComponentPathW, _msi_msigetcomponentpath, msi/MsiGetComponentPath, msi/MsiGetComponentPathA, msi/MsiGetComponentPathW, setup.msigetcomponentpath
-f1_keywords:
-- msi/MsiGetComponentPath
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetComponentPath
-- MsiGetComponentPathA
-- MsiGetComponentPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetComponentPathW
+ - msi/MsiGetComponentPathW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetComponentPath
+ - MsiGetComponentPathA
+ - MsiGetComponentPathW
 ---
 
 # MsiGetComponentPathW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetComponentPath</b> function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the client product.
 
-
 ### -param szComponent [in]
 
 Specifies the component ID of the component to be located.
-
 
 ### -param lpPathBuf [out]
 
@@ -129,8 +123,6 @@ For example, a registry key path of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcchBuf [in, out]
 
@@ -141,10 +133,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiGetComponentPath</b> function returns the following values.
@@ -233,14 +222,8 @@ The product code or component ID is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Upon success of the 
 <b>MsiGetComponentPath</b> function, the <i>pcchBuf</i> parameter contains the length of the string in <i>lpPathBuf</i>.
@@ -277,11 +260,5 @@ The feature is not published. The application should have determined this earlie
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d9a39211-f876-46d8-9a7c-c6bb3ba9edfe
 ms.date: 12/05/2018
 ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security], _gina_wlxnetworkproviderload, security.wlxnetworkproviderload, winwlx/WlxNetworkProviderLoad
-f1_keywords:
-- winwlx/WlxNetworkProviderLoad
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxNetworkProviderLoad
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxNetworkProviderLoad
+ - winwlx/WlxNetworkProviderLoad
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxNetworkProviderLoad
 ---
 
 # WlxNetworkProviderLoad function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The WlxNetworkProviderLoad function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -57,14 +57,10 @@ The <b>WlxNetworkProviderLoad</b> function must be implemented by a replacement 
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
 
 ### -param pNprNotifyInfo [out]
 
@@ -76,10 +72,7 @@ Points to an
 
 The GINA is not required to return password information. Any <b>NULL</b> fields within the structure will be ignored by Winlogon. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate each string; Winlogon will free them when they are no longer needed.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -109,18 +102,8 @@ Return <b>FALSE</b> if the user was not authenticated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
- 
-
- 
 

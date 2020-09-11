@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: d34e8da0-2689-4514-be10-4c11008432b3
 ms.date: 12/05/2018
 ms.keywords: ConsolePower, IConsolePower, IConsolePower interface [MMC], IConsolePower interface [MMC],described, _slate_iconsolepower, mmc.iconsolepower, mmc/IConsolePower
-f1_keywords:
-- mmc/IConsolePower
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsolePower
-- ConsolePower
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsolePower
+ - mmc/IConsolePower
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsolePower
+ - ConsolePower
 ---
 
 # IConsolePower interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IConsolePower</b> interface controls the execution state and idle timers on operating systems that support power management.
-
 
 ## -inheritance
 
@@ -88,16 +87,9 @@ Sets the execution state.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepowersink">IConsolePowerSink</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: d802b080-cf94-400a-96c4-e765008dfc8a
 ms.date: 12/05/2018
 ms.keywords: DD_NTPRIVATEDRIVERCAPS, DD_NTPRIVATEDRIVERCAPS structure [Display Devices], ddrawint/DD_NTPRIVATEDRIVERCAPS, ddstrcts_37e03d8c-1dc6-44d4-afe7-1f92acb58898.xml, display.dd_ntprivatedrivercaps
-f1_keywords:
-- ddrawint/DD_NTPRIVATEDRIVERCAPS
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_NTPRIVATEDRIVERCAPS
 targetos: Windows
 req.typenames: DD_NTPRIVATEDRIVERCAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DD_NTPRIVATEDRIVERCAPS
+ - ddrawint/DD_NTPRIVATEDRIVERCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_NTPRIVATEDRIVERCAPS
 ---
 
 # DD_NTPRIVATEDRIVERCAPS structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_NTPRIVATEDRIVERCAPS structure enables the driver to change the behavior of Microsoft DirectDraw when DirectDraw is creating surfaces.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size in bytes of this DD_NTPRIVATEDRIVERCAPS structure.
-
 
 ### -field dwPrivateCaps
 
@@ -81,10 +76,7 @@ When this flag is set, it indicates that the driver requests <a href="https://do
 
 When this flag is set, the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function is called when creating a primary surface. If this flag is not set, the driver's <i>DdCreateSurface</i> function is not called.
 
-
 ## -remarks
-
-
 
 The behavior of DirectDraw emulates the surface creation techniques employed by DirectDraw when creating surfaces for Microsoft Windows 98/Me.
 
@@ -92,20 +84,11 @@ When the DDHAL_PRIVATECAP_AUTOMICSURFACECREATION flag is not set, DirectDraw per
 
 When the DDHAL_PRIVATECAP_NOTIFYPRIMARYCREATION flag is not set, DirectDraw performs primary surface creation using the original method, that is, it does not call the driver when creating a primary surface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a>
- 
-
- 
 

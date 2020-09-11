@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 9daf31f3-84c2-48b2-ab21-a3809b6ed9af
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],Write method, IDiscFormat2Data.Write, IDiscFormat2Data::Write, Write, Write method [IMAPI], Write method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_write, imapi2/IDiscFormat2Data::Write
-f1_keywords:
-- imapi2/IDiscFormat2Data.Write
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.Write
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::Write
+ - imapi2/IDiscFormat2Data::Write
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.Write
 ---
 
 # IDiscFormat2Data::Write
@@ -49,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes the data stream to the device.<div class="alert"><b>Note</b>   For write success, the size of the passed-in stream must be a multiple of the sector size, 2048. This includes operations that utilize streams associated with .iso images not created by IMAPI.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param data [in]
 
 An <b>IStream</b> interface of the data stream to write.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -493,14 +485,8 @@ Value: 0x80004001
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, you must call the following methods:
 
@@ -538,13 +524,7 @@ This method is synchronous, which means that control is not returned until the p
 
 On sequentially recorded discs, the provided <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> is recorded as a new session. On rewritable discs, the provided <b>IStream</b> is always recorded starting from sector 0, but the object providing the <b>IStream</b> interface can also provide the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface listing the sectors that need to be recorded. The <b>IBlockRangeList</b> interface is used to avoid rewriting of sectors that have not changed in multisession scenarios. If the object providing <b>IStream</b> does not provide <b>IBlockRangeList</b>, it is assumed that the entire <b>IStream</b> needs to be recorded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
 
@@ -555,7 +535,4 @@ On sequentially recorded discs, the provided <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-cancelwrite">IDiscFormat2Data::CancelWrite</a>
- 
-
- 
 

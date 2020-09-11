@@ -8,8 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/01/2019
 ms.keywords: WSASetUdpSendMessageSize, WSASetUdpSendMessageSize function [Winsock], winsock.wsasetudpsendmessagesize, ws2tcpip/WSASetUdpSendMessageSize
 ms.topic: function
-f1_keywords:
-- ws2tcpip/WSASetUdpSendMessageSize
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +25,21 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASetUdpSendMessageSize
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - WSASetUdpSendMessageSize
+ - ws2tcpip/WSASetUdpSendMessageSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASetUdpSendMessageSize
 ---
 
 ## -description
@@ -66,3 +67,4 @@ On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/window
 UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSASetUdpSendMessageSize** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](/windows/win32/api/winsock/nf-winsock-setsockopt).
 
 ## -see-also
+

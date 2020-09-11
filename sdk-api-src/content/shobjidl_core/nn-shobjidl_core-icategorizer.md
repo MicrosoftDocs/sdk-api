@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 59c80328-0f82-4289-b55d-045f0cd3dc81
 ms.date: 12/05/2018
 ms.keywords: ICategorizer, ICategorizer interface [Windows Shell], ICategorizer interface [Windows Shell],described, inet_ICategorizer, shell.ICategorizer, shobjidl_core/ICategorizer
-f1_keywords:
-- shobjidl_core/ICategorizer
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICategorizer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICategorizer
+ - shobjidl_core/ICategorizer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICategorizer
 ---
 
 # ICategorizer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that are used to obtain information about item identifier lists.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Gets the name of a categorizer, such as <i>Group By Device Type</i>, that can be
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.date: 12/05/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
-f1_keywords:
-- ras/RasSetAutodialAddress
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasSetAutodialAddress
-- RasSetAutodialAddressA
-- RasSetAutodialAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSetAutodialAddressW
+ - ras/RasSetAutodialAddressW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasSetAutodialAddress
+ - RasSetAutodialAddressA
+ - RasSetAutodialAddressW
 ---
 
 # RasSetAutodialAddressW function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasSetAutodialAddress</b> function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -72,41 +68,26 @@ Pointer to a <b>null</b>-terminated string that specifies the address to add, de
 
 If this parameter is <b>NULL</b>, the function sets the default Internet connection (see Remarks). If this parameter points to a zero-length string, the function deletes the default Internet connection.
 
-
 ### -param arg2 [in]
 
 Reserved; must be zero.
-
 
 ### -param arg3 [in]
 
 Pointer to an array of one or more 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures to be associated with the <i>lpszAddress</i> address. If <i>lpAutoDialEntries</i> is <b>NULL</b> and <i>dwcbAutoDialEntries</i> is zero, 
-<b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database. 
-
-
-
-					
-
+<b>RasSetAutodialAddress</b> deletes all structures associated with <i>lpszAddress</i> from the mapping database.
 
 ### -param arg4 [in]
 
 Specifies the size, in bytes, of the <i>lpAutoDialEntries</i> buffer.
 
-
 ### -param arg5 [in]
 
 Specifies the number of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer. 
-
-
-
-					
-
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> structures in the <i>lpAutoDialEntries</i> buffer.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -152,14 +133,8 @@ The connection name specified in <i>lpAutoDialEntries</i> does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An address in the AutoDial mapping database can have any number of associated 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a> entries. Each entry specifies AutoDial information for a particular TAPI dialing location.
@@ -192,9 +167,6 @@ It is possible to have two connections that have the same name if one is configu
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
 
 
@@ -212,7 +184,4 @@ It is possible to have two connections that have the same name if one is configu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

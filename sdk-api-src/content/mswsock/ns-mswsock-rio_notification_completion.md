@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
 ms.date: 12/05/2018
 ms.keywords: '*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION structure pointer [Winsock], RIO_NOTIFICATION_COMPLETION, RIO_NOTIFICATION_COMPLETION structure [Winsock], mswsock/PRIO_NOTIFICATION_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION, winsock.rio_notification_completion'
-f1_keywords:
-- mswsock/RIO_NOTIFICATION_COMPLETION
-dev_langs:
-- c++
 req.header: mswsock.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mswsock.h
-api_name:
-- RIO_NOTIFICATION_COMPLETION
 targetos: Windows
 req.typenames: RIO_NOTIFICATION_COMPLETION, *PRIO_NOTIFICATION_COMPLETION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RIO_NOTIFICATION_COMPLETION
+ - mswsock/_RIO_NOTIFICATION_COMPLETION
+ - PRIO_NOTIFICATION_COMPLETION
+ - mswsock/PRIO_NOTIFICATION_COMPLETION
+ - RIO_NOTIFICATION_COMPLETION
+ - mswsock/RIO_NOTIFICATION_COMPLETION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mswsock.h
+api_name:
+ - RIO_NOTIFICATION_COMPLETION
 ---
 
 # RIO_NOTIFICATION_COMPLETION structure
@@ -49,64 +54,49 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RIO_NOTIFICATION_COMPLETION</b> structure specifies the method for I/O completion to be used with a <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> function for sending or receiving network data with the Winsock registered I/O extensions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of completion to use with the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> function when sending or receiving data.
 
-
 ### -field Event
-
 
 ### -field Event.EventHandle
 
 The handle for the event to set following a completed <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> request.
 
-This value is valid when the <b>Type </b> member is set to <b>RIO_EVENT_COMPLETION</b>.  
-
+This value is valid when the <b>Type </b> member is set to <b>RIO_EVENT_COMPLETION</b>.
 
 ### -field Event.NotifyReset
 
 The boolean value that causes the associated event to be reset when the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> function is called. A non-zero value cause the associated event to be reset. 
 
-This value is valid when the <b>Type </b> member is set to <b>RIO_EVENT_COMPLETION</b>.  
-
+This value is valid when the <b>Type </b> member is set to <b>RIO_EVENT_COMPLETION</b>.
 
 ### -field Iocp
-
 
 ### -field Iocp.IocpHandle
 
 The handle for the I/O completion port to use for queuing a <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> request completion. 
 
-This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.  
-
+This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.
 
 ### -field Iocp.CompletionKey
 
 The value to use for <i>lpCompletionKey</i> parameter returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> or <a href="https://docs.microsoft.com/windows/desktop/FileIO/getqueuedcompletionstatusex-func">GetQueuedCompletionStatusEx</a> function when queuing a <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> request. 
 
-This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.  
-
+This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.
 
 ### -field Iocp.Overlapped
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to use when queuing a <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> request completion.  This member must point to a valid <b>OVERLAPPED</b> structure.  
 
-This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.  
-
+This value is valid when the <b>Type </b> member is set to <b>RIO_IOCP_COMPLETION</b>.
 
 ## -remarks
-
-
 
 The <b>RIO_NOTIFICATION_COMPLETION</b> structure is used to specify the behavior of the <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> function used with the Winsock registered I/O extensions. 
 
@@ -120,13 +110,7 @@ For completion queues using an I/O completion port, the <b>Type</b> member  of t
 
 An application using thread pools can use thread pool wait objects to get <a href="/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify">RIONotify</a> completions via its thread pool.  In that case, the call to the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> function should immediately follow the call to <b>RIONotify</b>.  If the <b>SetThreadpoolWait</b> function is called before <b>RIONotify</b> and the application relies on <b>RIONotify</b> to clear the event object, this may result in spurious executions of the wait object callback.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
@@ -177,7 +161,4 @@ An application using thread pools can use thread pool wait objects to get <a hre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a>
- 
-
- 
 

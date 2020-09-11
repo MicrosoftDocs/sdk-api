@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
-f1_keywords:
-- wuapi/IStringCollection._NewEnum
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IStringCollection._NewEnum
-- IStringCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringCollection::get__NewEnum
+ - wuapi/IStringCollection::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IStringCollection._NewEnum
+ - IStringCollection.get__NewEnum
 ---
 
 # IStringCollection::get__NewEnum
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a> interface that can be used to enumerate the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 88437C86-DC0F-42F4-B58E-E732E1DAB9FD
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [Windows Shell], GetMonitor method [Windows Shell],ILaunchTargetMonitor interface, ILaunchTargetMonitor interface [Windows Shell],GetMonitor method, ILaunchTargetMonitor.GetMonitor, ILaunchTargetMonitor::GetMonitor, shell.ILaunchTargetMonitor_GetMonitor, shobjidl_core/ILaunchTargetMonitor::GetMonitor
-f1_keywords:
-- shobjidl_core/ILaunchTargetMonitor.GetMonitor
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ILaunchTargetMonitor.GetMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILaunchTargetMonitor::GetMonitor
+ - shobjidl_core/ILaunchTargetMonitor::GetMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ILaunchTargetMonitor.GetMonitor
 ---
 
 # ILaunchTargetMonitor::GetMonitor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the target monitor for the application being launched.
 
-
 ## -parameters
-
-
-
 
 ### -param monitor [out]
 
@@ -64,25 +60,13 @@ Type: <b>HMONITOR*</b>
 
 Contains the address of a pointer to the target  monitor's handle.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetmonitor">ILaunchTargetMonitor</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 95e2326c-d4b2-421c-b991-ca9c332b6f6f
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_VALUE, WS_XML_STRING_VALUE macro [Web Services for Windows], webservices/WS_XML_STRING_VALUE, wsw.ws_xml_string_value
-f1_keywords:
-- webservices/WS_XML_STRING_VALUE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_STRING_VALUE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_XML_STRING_VALUE
+ - webservices/WS_XML_STRING_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_STRING_VALUE
 ---
 
 # WS_XML_STRING_VALUE macro
@@ -49,28 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides an initializer for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> structure when there is no associated dictionary ID.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param S
 
 A static constant string, encoded in UTF-8.
 
-
-
-
-
-
 ## -remarks
-
-
 
 This initializer assumes the string is a static constant string.  It must be encoded in UTF-8.
       
@@ -79,6 +67,4 @@ The following is example usage:
       
 
 <code>WS_XML_STRING myString = WS_XML_STRING_VALUE("MyString");</code>
-
-
 

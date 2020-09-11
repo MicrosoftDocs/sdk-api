@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 129b8314-fa84-414d-93c4-f9320650e2de
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWTSProtocolConnection.QueryProperty, IWTSProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWTSProtocolConnection interface, WTS_QUERY_ALLOWED_INITIAL_APP, WTS_QUERY_AUDIOENUM_DLL, WTS_QUERY_LOGON_SCREEN_SIZE, WTS_QUERY_MF_FORMAT_SUPPORT, termserv.iwtsprotocolconnection_queryproperty, wtsprotocol/IWTSProtocolConnection::QueryProperty
-f1_keywords:
-- wtsprotocol/IWTSProtocolConnection.QueryProperty
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: Wtsdefs.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolConnection.QueryProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolConnection::QueryProperty
+ - wtsprotocol/IWTSProtocolConnection::QueryProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolConnection.QueryProperty
 ---
 
 # IWTSProtocolConnection::QueryProperty
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IWTSProtocolConnection::QueryProperty</b> 
     is no longer available for use as of Windows Server 2012. Instead, use 
@@ -57,11 +57,7 @@ ms.custom: 19H1
 Retrieves the specified property from the protocol. This method can be  used by other Windows 
     modules to request data  from or send data to the protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param QueryType [in]
 
@@ -213,30 +209,23 @@ An integer that contains the number of
        <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WTS_PROPERTY_VALUE</a> structures passed in the 
        <i>pPropertyEntriesIn</i> argument.
 
-
 ### -param ulNumEntriesOut [in]
 
 An integer that contains the number of 
        <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WTS_PROPERTY_VALUE</a> structures passed in the 
        <i>pPropertyEntriesOut</i> argument.
 
-
 ### -param pPropertyEntriesIn [in, optional]
 
 One or more <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WTS_PROPERTY_VALUE</a> structures 
        that can be used to help find the requested property information.
-
 
 ### -param pPropertyEntriesOut [out, optional]
 
 One or more <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WTS_PROPERTY_VALUE</a> structures 
        that contain the requested property information.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
 
@@ -263,7 +252,4 @@ One or more <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_property_value">WTS_PROPERTY_VALUE</a>
- 
-
- 
 

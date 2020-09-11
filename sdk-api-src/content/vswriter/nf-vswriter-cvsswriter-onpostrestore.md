@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ad07753c-1592-4fc8-9899-a73e798c158c
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPostRestore method, CVssWriter.OnPostRestore, CVssWriter::OnPostRestore, OnPostRestore, OnPostRestore method [VSS], OnPostRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onpostrestore, base.cvsswriter_onpostrestore, vswriter/CVssWriter::OnPostRestore
-f1_keywords:
-- vswriter/CVssWriter.OnPostRestore
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnPostRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnPostRestore
+ - vswriter/CVssWriter::OnPostRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnPostRestore
 ---
 
 # CVssWriter::OnPostRestore
 
 
 ## -description
-
 
 The 
 <b>OnPostRestore</b> method is called by a writer following a 
@@ -58,11 +58,7 @@ The
 <b>OnPostRestore</b> is a virtual method. It is implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, but can be overridden by derived classes.
 
-
 ## -parameters
-
-
-
 
 ### -param pComponent [in]
 
@@ -70,10 +66,7 @@ A pointer to an
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a> object passed in by VSS to provide the method with access to the writer's component information. The value of this parameter may be <b>NULL</b> if the requester does not support components (if 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-arecomponentsselected">CVssWriter::AreComponentsSelected</a> returns <b>false</b>).
 
-
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnPostRestore</b> always returns <b>true</b>.
@@ -83,12 +76,7 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, the method should write an event to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The default implementation of this method by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class returns <b>true</b> without performing any other operation.
@@ -105,20 +93,11 @@ With the generation of a
 If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-setwriterfailureex">CVssWriterEx2::SetWriterFailureEx</a> method, it must do so in  the same thread that called this method. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
- 
-
- 
 

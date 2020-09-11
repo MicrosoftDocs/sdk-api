@@ -3,10 +3,6 @@ UID: NF:processenv.SetEnvironmentStringsW
 title: SetEnvironmentStringsW
 ms.date: 4/26/2019
 ms.keywords: SetEnvironmentStringsW
-f1_keywords:
-- SetEnvironmentStringsW
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - SetEnvironmentStringsW
+ - processenv/SetEnvironmentStringsW
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- api-ms-win-core-processenvironment-l1-1-0.dll
+ - api-ms-win-core-processenvironment-l1-1-0.dll
 api_name:
-- SetEnvironmentStringsW
+ - SetEnvironmentStringsW
 ---
 
 ## -description
@@ -55,8 +56,6 @@ The environment variable string using the following format:
 <i>Value3</i>
 <i>VarN</i>
 <i>ValueN</i>
-
-
 
 ## -returns
 

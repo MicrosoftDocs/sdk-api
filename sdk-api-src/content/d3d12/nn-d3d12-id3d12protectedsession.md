@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: BBB87F18-A4F4-44E7-AFD8-803BD2C7C753
 ms.date: 12/05/2018
 ms.keywords: ID3D12ProtectedSession, ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,described, d3d12/ID3D12ProtectedSession, direct3d12.id3d12protectedsession
-f1_keywords:
-- d3d12/ID3D12ProtectedSession
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12ProtectedSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12ProtectedSession
+ - d3d12/ID3D12ProtectedSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12ProtectedSession
 ---
 
 # ID3D12ProtectedSession interface
+
 
 ## -description
 
@@ -83,8 +85,9 @@ Retrieves the fence for the protected session. From the fence, you can retrieve 
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
+

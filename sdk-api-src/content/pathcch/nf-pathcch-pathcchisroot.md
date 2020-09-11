@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchIsRoot"
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - PathCchIsRoot
+ - pathcch/PathCchIsRoot
 topic_type:
  - APIRef
  - kbSyntax
@@ -40,11 +46,6 @@ api_location:
  - KernelBase.dll
 api_name:
  - PathCchIsRoot
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # PathCchIsRoot function
@@ -52,37 +53,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Determines whether a path string refers to the root of a volume.
 
 This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisroota">PathIsRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in, optional]
 
 A pointer to the path string.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the specified path is a root, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The following table shows the <b>PathCchIsRoot</b> return value for various paths.
             
@@ -197,7 +182,4 @@ The following table shows the <b>PathCchIsRoot</b> return value for various path
  
 
 This function returns <b>TRUE</b> for paths such as "\", "<i>X</i>:\" or "&#92;&#92;<i>server</i>&#92;<i>share</i>". Paths such as "..\path2" or "&#92;&#92;<i>server</i>\" return <b>FALSE</b>.
-            
-
-
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 316d1a13-0803-4414-8c51-0d5c4768b06d
 ms.date: 12/05/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
-f1_keywords:
-- wmpservices/IWMPConvert
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpservices.h
-api_name:
-- IWMPConvert
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPConvert
+ - wmpservices/IWMPConvert
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpservices.h
+api_name:
+ - IWMPConvert
 ---
 
 # IWMPConvert interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPConvert</b> interface provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF).
-
-
-
 
 ## -inheritance
 
@@ -89,26 +85,13 @@ Called by Windows Media Player to retrieve the URL of a webpage that displays er
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
-These methods are implemented by a conversion plug-in and called by Windows Media Player. 
-	 
-
-
-
+These methods are implemented by a conversion plug-in and called by Windows Media Player.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

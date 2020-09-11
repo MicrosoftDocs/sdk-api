@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: FBC34FBA-C6BB-45AD-8005-5C2B91A1369D
 ms.date: 12/05/2018
 ms.keywords: GetArchitecture2, GetArchitecture2 method [App packaging and management], GetArchitecture2 method [App packaging and management],IAppxManifestPackageId2 interface, IAppxManifestPackageId2 interface [App packaging and management],GetArchitecture2 method, IAppxManifestPackageId2.GetArchitecture2, IAppxManifestPackageId2::GetArchitecture2, appxpackaging/IAppxManifestPackageId2::GetArchitecture2, appxpkg.iappxmanifestpackageid2_getarchitecture2
-f1_keywords:
-- appxpackaging/IAppxManifestPackageId2.GetArchitecture2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestPackageId2.GetArchitecture2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestPackageId2::GetArchitecture2
+ - appxpackaging/IAppxManifestPackageId2::GetArchitecture2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestPackageId2.GetArchitecture2
 ---
 
 # IAppxManifestPackageId2::GetArchitecture2
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the processor architecture as defined in the manifest.
 
-
 ## -parameters
-
-
-
 
 ### -param architecture [out, retval]
 
@@ -64,36 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/n
 
 The architecture specified for the package.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Processor architecture information is specified using the <b>ProcessorArchitecture</b> attribute of the <b>Identity</b> element in the app package manifest.
 
 If no architecture is defined in the manifest, this method returns the <b>APPX_PACKAGE_ARCHITECTURE_NEUTRAL</b> value of the  <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_package_architecture2">APPX_PACKAGE_ARCHITECTURE2</a> enumeration.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid2">IAppxManifestPackageId2</a>
- 
-
- 
 

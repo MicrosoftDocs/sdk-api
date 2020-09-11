@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
 ms.date: 12/05/2018
 ms.keywords: DsAddSidHistory, DsAddSidHistory function [Active Directory], DsAddSidHistoryA, DsAddSidHistoryW, _glines_dsaddsidhistory, ad.dsaddsidhistory, ntdsapi/DsAddSidHistory, ntdsapi/DsAddSidHistoryA, ntdsapi/DsAddSidHistoryW
-f1_keywords:
-- ntdsapi/DsAddSidHistory
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsAddSidHistory
-- DsAddSidHistoryA
-- DsAddSidHistoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsAddSidHistoryA
+ - ntdsapi/DsAddSidHistoryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsAddSidHistory
+ - DsAddSidHistoryA
+ - DsAddSidHistoryW
 ---
 
 # DsAddSidHistoryA function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsAddSidHistory</b> function retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the <b>sIDHistory</b> attribute of a security principal in another domain in a different forest. When the source domain is in Windows 2000 native mode, this function also retrieves the <b>sIDHistory</b> values of the source principal and adds them to the destination principal <b>sIDHistory</b>.
 
 The <b>DsAddSidHistory</b> function performs a security-sensitive function by adding the primary account SID of an existing security principal to the <b>sIDHistory</b> of a principal in a domain in a different forest, effectively granting to the latter access to all resources accessible to the former. For  more information about the use and security implications of this function, see <a href="https://docs.microsoft.com/windows/desktop/AD/using-dsaddsidhistory">Using DsAddSidHistory</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
@@ -68,11 +64,9 @@ Contains a directory service handle obtained from either the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
 
-
 ### -param Flags [in]
 
 Reserved for future use. Set to <b>NULL</b>.
-
 
 ### -param SrcDomain [in]
 
@@ -80,11 +74,9 @@ Pointer to a null-terminated string that specifies the name of the domain to que
 
 If the source domain runs on  Windows Server operating systems, <i>SrcDomain</i> can be either a domain name system (DNS) name, for example, fabrikam.com, or a flat NetBIOS, for example, Fabrikam, name. DNS names should be used when possible.
 
-
 ### -param SrcPrincipal [in]
 
 Pointer to a null-terminated string that specifies the name of a security principal, user or group, in the source domain. This name is a domain-relative Security Account Manager (SAM) name, for example: evacorets.
-
 
 ### -param SrcDomainController [in]
 
@@ -95,37 +87,25 @@ If this parameter is <b>NULL</b>, <a href="https://docs.microsoft.com/windows/de
 
 <i>SrcDomainController</i> can be either a DNS name or a flat NetBIOS name. DNS names should be used when possible.
 
-
 ### -param SrcDomainCreds [in]
 
 Contains an identity handle that represents the identity and credentials of a user with administrative rights in the source domain. To obtain this handle, call  <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>. This user must be a member of either the Administrators or the Domain Administrators group. If this call is made from a remote computer to the destination DC, then both the remote computer and the destination DC must support 128-bit encryption to privacy-protect the credentials. If 128-bit encryption is unavailable and <i>SrcDomainCreds</i> are provided, then the call must be made on the destination DC.
 
 If this parameter is <b>NULL</b>, the credentials of the caller are used for access to the source domain.
 
-
 ### -param DstDomain [in]
 
 Pointer to a null-terminated string that specifies the name of the destination domain in which <i>DstPrincipal</i> resides. This name can either be a DNS name, for example, fabrikam.com, or a NetBIOS name, for example, Fabrikam. The destination domain must run Windows 2000 native mode.
-
 
 ### -param DstPrincipal [in]
 
 Pointer to a null-terminated string that specifies the name of a security principal, user or group, in the destination domain. This domain-relative SAM name identifies the principal whose <b>sIDHistory</b> attribute is updated with the SID of the <i>SrcPrincipal</i>.
 
-
 ## -returns
-
-
 
 Returns a Win32 error codes including the following.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a>
 
@@ -152,9 +132,6 @@ Returns a Win32 error codes including the following.
 
 
 <b>ldap_open</b>
- 
-
- 
 
 ## -remarks
 

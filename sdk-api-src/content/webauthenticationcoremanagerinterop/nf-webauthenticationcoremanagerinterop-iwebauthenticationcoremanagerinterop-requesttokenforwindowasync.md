@@ -5,10 +5,6 @@ description: Asynchronously requests a token from a web account provider. If nec
 helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
-f1_keywords:
-- webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,15 +25,20 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- webauthenticationcoremanagerinterop.h
-api_name:
-- IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 tech.root: winrt
+f1_keywords:
+ - IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
+ - webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - webauthenticationcoremanagerinterop.h
+api_name:
+ - IWebAuthenticationCoreManagerInterop::RequestTokenForWindowAsync
 ---
 
 ## -description
@@ -94,5 +95,7 @@ This method is the equivalent for desktop apps of
 [WebAuthenticationCoreManager.RequestTokenAsync(WebTokenRequest)](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager.requesttokenasync#Windows_Security_Authentication_Web_Core_WebAuthenticationCoreManager_RequestTokenAsync_Windows_Security_Authentication_Web_Core_WebTokenRequest_).
 
 ## -see-also
+
 [Web account management sample app](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)
 >>>>>>> d00ded5462c7b66ea93a6693c8bb1ca4a5028557
+

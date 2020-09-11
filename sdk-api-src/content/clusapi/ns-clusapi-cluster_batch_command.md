@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 31f8e255-80c8-4381-a8f3-0d48a3831a89
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, CLUSREG_VALUE_DELETED, CLUSTER_BATCH_COMMAND, CLUSTER_BATCH_COMMAND structure [Failover Cluster], clusapi/CLUSTER_BATCH_COMMAND, mscs.cluster_batch_command
-f1_keywords:
-- clusapi/CLUSTER_BATCH_COMMAND
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSTER_BATCH_COMMAND
 targetos: Windows
 req.typenames: CLUSTER_BATCH_COMMAND
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_BATCH_COMMAND
+ - clusapi/_CLUSTER_BATCH_COMMAND
+ - CLUSTER_BATCH_COMMAND
+ - clusapi/CLUSTER_BATCH_COMMAND
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSTER_BATCH_COMMAND
 ---
 
 # CLUSTER_BATCH_COMMAND structure
 
 
 ## -description
-
 
 Represents the order in which current batch command data is sent to the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchreadcommand">ClusterRegBatchReadCommand</a> 
@@ -60,11 +62,7 @@ Represents the order in which current batch command data is sent to the
     <b>lpData</b>, and <b>cbData</b> members are set to the value being 
     deleted, similar to the <b>CLUSREG_SET_VALUE</b> command.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Command
 
@@ -109,7 +107,6 @@ Deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command 
 Indicates whether a  specific cluster registry value has been deleted or if the data of that cluster 
          registry value has been changed. This command is returned only through a batch update notification port.
 
-
 ### -field dwOptions
 
 If the <b>Command</b> member takes either the 
@@ -118,11 +115,9 @@ If the <b>Command</b> member takes either the
        <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">registry value types</a>. If not, then 
        <b>Command</b> is set to 0.
 
-
 ### -field wzName
 
 The name of the value or key relative to the command issued by <b>Command</b>.
-
 
 ### -field lpData
 
@@ -131,30 +126,20 @@ A pointer to the data relative to the command issued by <b>Command</b>. The valu
        <b>CLUSREG_SET_VALUE</b> and <b>CLUSREG_DELETE_VALUE</b> 
        commands.
 
-
 ### -field cbData
 
 The count, in bytes, of the data relative to the command issued by <b>Command</b>. The 
        value of this member is 0 for all the commands except the <b>CLUSREG_SET_VALUE</b> and 
        <b>CLUSREG_DELETE_VALUE</b> commands.
 
-
 ## -remarks
-
-
 
 The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch 
      notification is closed via the 
      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchclosenotification">ClusterRegBatchCloseNotification</a> 
      function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a>
 
@@ -177,7 +162,4 @@ The <b>wzName</b> and <b>lpData</b> pointers are valid until the batch
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>
- 
-
- 
 

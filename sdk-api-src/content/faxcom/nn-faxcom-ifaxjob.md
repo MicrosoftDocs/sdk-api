@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_75sy.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJob, IFaxJob interface [Fax Service], IFaxJob interface [Fax Service],described, _mfax_ifaxjob, fax._mfax_ifaxjob, faxcom/IFaxJob
-f1_keywords:
-- faxcom/IFaxJob
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxJob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxJob
+ - faxcom/IFaxJob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxJob
 ---
 
 # IFaxJob interface
 
 
 ## -description
-
 
 The <b>IFaxJob</b> dual interface is used by a fax client application to access information for a fax job on a connected fax server. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobs">FaxJobs</a> object is a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjob">FaxJob</a> objects.
 
@@ -58,8 +58,6 @@ The IFaxJob interface includes the following methods.
 <li>A method to refresh FaxJob object information.</li>
 <li>Property methods to retrieve individual property values associated with a FaxJob object retrieved by the IFaxJobs interface.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -347,12 +345,9 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 You should not implement this interface. The Microsoft standard implementation provides complete functionality. 
@@ -371,14 +366,7 @@ A client application should not call the <a href="https://docs.microsoft.com/win
 <li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjob">FaxJob</a> object to allow the object to deallocate itself, and again to destroy the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a> interface pointer.</li>
 </ol>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -389,7 +377,4 @@ A client application should not call the <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

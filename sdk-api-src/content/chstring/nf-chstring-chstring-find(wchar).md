@@ -7,10 +7,6 @@ helpviewer_keywords: ["CHString::Find"]
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: CHString::Find
-f1_keywords:
-- chstring/CHString::Find
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::Find
+ - chstring/CHString::Find
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::Find
+ - CHString::Find
 ---
 
 # CHString::Find
+
 
 ## -description
 
@@ -82,3 +84,4 @@ assert( s.Find( L"de" ) == 3 );
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">CHString::ReverseFind</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
+

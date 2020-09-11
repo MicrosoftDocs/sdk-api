@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentportname.htm
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPortName, GetCurrentPortName function, GetCurrentPortName method [Dialog Boxes], GetCurrentPortName method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentPortName method, IPrintDialogServices.GetCurrentPortName, IPrintDialogServices::GetCurrentPortName, _win32_IPrintDialogServices_GetCurrentPortName, _win32_iprintdialogservices_getcurrentportname_cpp, commdlg/IPrintDialogServices::GetCurrentPortName, dlgbox.iprintdialogservices_getcurrentportname, winui._win32_iprintdialogservices_getcurrentportname
-f1_keywords:
-- commdlg/IPrintDialogServices.GetCurrentPortName
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comdlg32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comdlg32.dll
-api_name:
-- IPrintDialogServices.GetCurrentPortName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintDialogServices::GetCurrentPortName
+ - commdlg/IPrintDialogServices::GetCurrentPortName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comdlg32.dll
+api_name:
+ - IPrintDialogServices.GetCurrentPortName
 ---
 
 # IPrintDialogServices::GetCurrentPortName
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of the current port for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pPortName
 
 Type: <b>LPTSTR</b>
 
 The name of the current port.
-
 
 ### -param pcchSize
 
@@ -73,10 +68,7 @@ On input, the variable specifies the size, in characters, of the buffer pointed 
 
 If the size is zero on input, the function returns the required buffer size (in bytes or characters) in <i>pcchSize</i> and does not use the <i>lpPortName</i> buffer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -84,13 +76,7 @@ If the method is successful, the return value is <b>S_OK</b>. If there is no cur
 
 If an error occurs, the return value is a COM error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
@@ -109,7 +95,4 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 <b>Reference</b>
- 
-
- 
 

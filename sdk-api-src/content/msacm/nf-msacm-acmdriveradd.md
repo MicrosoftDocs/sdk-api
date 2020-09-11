@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: f037cab8-a1f4-487f-ab0a-11e11993b007
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverAdd, acmDriverAdd, acmDriverAdd function [Windows Multimedia], acmDriverAddA, acmDriverAddW, msacm/acmDriverAdd, msacm/acmDriverAddA, msacm/acmDriverAddW, multimedia.acmdriveradd
-f1_keywords:
-- msacm/acmDriverAdd
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmDriverAdd
-- acmDriverAddA
-- acmDriverAddW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmDriverAdd
+ - msacm/acmDriverAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmDriverAdd
+ - acmDriverAddA
+ - acmDriverAddW
 ---
 
 # acmDriverAdd function
@@ -52,37 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmDriverAdd</b> function adds a driver to the list of available ACM drivers. The driver type and location are dependent on the flags used to add ACM drivers. After a driver is successfully added, the driver entry function will receive ACM driver messages.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phadid
 
 Pointer to the buffer that receives a handle identifying the installed driver. This handle is used to identify the driver in calls to other ACM functions.
 
-
 ### -param hinstModule
 
 Handle to the instance of the module whose executable or dynamic-link library (DLL) contains the driver entry function.
-
 
 ### -param lParam
 
 Driver function address or a notification window handle, depending on the <i>fdwAdd</i> flags.
 
-
 ### -param dwPriority
 
 Window message to send for notification broadcasts. This parameter is used only with the ACM_DRIVERADDF_NOTIFYHWND flag. All other flags require this member to be set to zero.
-
 
 ### -param fdwAdd
 
@@ -116,12 +105,8 @@ Flags for adding ACM drivers. The following values are defined.
 <td>The <i>lParam</i> parameter is a handle of a notification window that receives messages when changes to global driver priorities and states are made. The window message to receive is defined by the application and must be passed in <i>dwPriority</i>. The <i>wParam</i> and <i>lParam</i> parameters passed with the window message are reserved for future use and should be ignored. ACM_DRIVERADDF_GLOBAL cannot be specified in conjunction with this flag. For more information about driver priorities, see the description for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a> function.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -164,22 +149,12 @@ The system is unable to allocate resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
 

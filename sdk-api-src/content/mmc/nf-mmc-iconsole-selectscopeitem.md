@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: ADE56DDF-C437-4BF3-A2EC-1E35EE7567F3
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SelectScopeItem method, IConsole.SelectScopeItem, IConsole::SelectScopeItem, SelectScopeItem, SelectScopeItem method [MMC], SelectScopeItem method [MMC],IConsole interface, mmc.iconsole_selectscopeitem, mmc/IConsole::SelectScopeItem
-f1_keywords:
-- mmc/IConsole.SelectScopeItem
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole.SelectScopeItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole::SelectScopeItem
+ - mmc/IConsole::SelectScopeItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole.SelectScopeItem
 ---
 
 # IConsole::SelectScopeItem
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Selects the given scope item.
 
-
 ## -parameters
-
-
-
 
 ### -param hScopeItem [in]
 
 A handle to the item in the scope pane to be selected.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 Use this method to reselect the currently selected scope item or to select another scope item.
 
@@ -86,20 +74,11 @@ If
 <b>SelectScopeItem</b> is called by the snap-in in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification handler, MMC will not select the specified scope item, even though 
 <b>SelectScopeItem</b> may return <b>S_OK</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
- 
-
- 
 

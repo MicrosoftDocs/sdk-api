@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: f2d7f248-017e-4375-b0a0-49de65192511
 ms.date: 12/05/2018
 ms.keywords: DxSetState, DxSetState callback function [Display Devices], PDX_SETSTATE, PDX_SETSTATE callback, VideoMiniPort_DxApiFunctions_f9872ae5-7be7-4a13-bcb1-01353b3eb793.xml, display.dxsetstate, dxmini/DxSetState
-f1_keywords:
-- dxmini/DxSetState
-dev_langs:
-- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dxmini.h
-api_name:
-- DxSetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDX_SETSTATE
+ - dxmini/PDX_SETSTATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dxmini.h
+api_name:
+ - DxSetState
 ---
 
 # PDX_SETSTATE callback function
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The<i> DxSetState</i> callback function is called when a client of the video miniport driver decides it wants to switch from bob mode to weave mode, and vice versa. 
-
+The<i> DxSetState</i> callback function is called when a client of the video miniport driver decides it wants to switch from bob mode to weave mode, and vice versa.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 ### -param Arg2
 
-
 ### -param Arg3
-
-
-
-
-
-
-
 
 #### - HwDeviceExtension
 
@@ -87,19 +74,11 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dx
 
 Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a> structure that contains the state information for the hardware video port.
 
-
 ## -returns
-
-
 
 <i>DxSetState</i> returns DX_OK if it succeeds; otherwise, it returns one of the following error values:
 
-
-
-
 ## -remarks
-
-
 
 The surface data passed contains the new state. If the new state is not supported, the video miniport driver should fail the call. 
 
@@ -116,19 +95,11 @@ The <b>dwSurfaceIndex</b> member equal to the current position in the auto-flip 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\brightnesscontrastparams.htm
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrastParams, BrightnessContrastParams structure [GDI+], _gdiplus_STRUC_BrightnessContrastParams, gdiplus._gdiplus_STRUC_BrightnessContrastParams, gdipluseffects/BrightnessContrastParams
-f1_keywords:
-- gdipluseffects/BrightnessContrastParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- BrightnessContrastParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - BrightnessContrastParams
+ - gdipluseffects/BrightnessContrastParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - BrightnessContrastParams
 ---
 
 # BrightnessContrastParams structure
 
 
 ## -description
-
 
 A <b>BrightnessContrastParams</b> structure contains members that specify the nature of a brightness or contrast adjustment.
 
@@ -62,15 +62,11 @@ You can change the brightness or contrast (or both) of a bitmap by following the
 
 ## -struct-fields
 
-
-
-
 ### -field brightnessLevel
 
 Type: <b>INT</b>
 
 Integer in the range -255 through 255 that specifies the brightness level. If the value is 0, the brightness remains the same. As the value moves from 0 to 255, the brightness of the image increases. As the value moves from 0 to -255, the brightness of the image decreases.
-
 
 ### -field contrastLevel
 

@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 3fc94831-1743-4269-97af-48116e2a4e1a
 ms.date: 12/05/2018
 ms.keywords: CreateMetadataReader, CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReader method, IWICComponentFactory.CreateMetadataReader, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
-f1_keywords:
-- wincodecsdk/IWICComponentFactory.CreateMetadataReader
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICComponentFactory.CreateMetadataReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICComponentFactory::CreateMetadataReader
+ - wincodecsdk/IWICComponentFactory::CreateMetadataReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICComponentFactory.CreateMetadataReader
 ---
 
 # IWICComponentFactory::CreateMetadataReader
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a> based on the given parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param guidMetadataFormat [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFGUID</b>
 
 The GUID of the desired metadata format.
 
-
 ### -param pguidVendor [in]
 
 Type: <b>const GUID*</b>
 
 Pointer to the GUID of the desired metadata reader vendor.
-
 
 ### -param dwOptions [in]
 
@@ -78,28 +72,21 @@ Type: <b>DWORD</b>
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions">WICMetadataCreationOptions</a> options to use when creating the metadata reader.
 
-
 ### -param pIStream [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to a stream in which to initialize the reader with. If <b>NULL</b>, the metadata reader will be empty.
 
-
 ### -param ppIReader [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>**</b>
 
-A pointer that receives a pointer to the new metadata reader. 
-
+A pointer that receives a pointer to the new metadata reader.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

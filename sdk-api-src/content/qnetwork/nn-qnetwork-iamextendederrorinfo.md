@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 0e3274e6-7c22-4175-8b2e-cdf4afc1225e
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], IAMExtendedErrorInfo interface [DirectShow],described, IAMExtendedErrorInfoInterface, dshow.iamextendederrorinfo, qnetwork/IAMExtendedErrorInfo
-f1_keywords:
-- qnetwork/IAMExtendedErrorInfo
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMExtendedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtendedErrorInfo
+ - qnetwork/IAMExtendedErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMExtendedErrorInfo
 ---
 
 # IAMExtendedErrorInfo interface
@@ -49,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IAMExtendedErrorInfo</code> interface is used to obtain error information. 
 
 
 <div class="alert"><b>Note</b>  This interface is not implemented by any default components in DirectShow.</div>
 <div> </div>
-
-
-
-
 
 ## -inheritance
 
@@ -103,12 +98,9 @@ Queries whether an error occurred.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:
 
@@ -119,19 +111,11 @@ To define the interface identifier, include the header file Initguid.h before Qn
 <div class="alert"><b>Note</b>  Make sure that Initguid.h is included only once in your project. Otherwise, you will receive linker errors for duplicate GUID values.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
- 
-
- 
 

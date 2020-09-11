@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 4998d538-628f-4939-9db9-612e882e68b1
 ms.date: 12/05/2018
 ms.keywords: WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL, WS_LISTENER_PROPERTY_CHANNEL_BINDING, WS_LISTENER_PROPERTY_CHANNEL_TYPE, WS_LISTENER_PROPERTY_CLOSE_TIMEOUT, WS_LISTENER_PROPERTY_CONNECT_TIMEOUT, WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS, WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE, WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS, WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT, WS_LISTENER_PROPERTY_ID, WS_LISTENER_PROPERTY_ID enumeration [Web Services for Windows], WS_LISTENER_PROPERTY_IP_VERSION, WS_LISTENER_PROPERTY_IS_MULTICAST, WS_LISTENER_PROPERTY_LISTEN_BACKLOG, WS_LISTENER_PROPERTY_MULTICAST_INTERFACES, WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK, WS_LISTENER_PROPERTY_STATE, WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS, WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS, webservices/WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL, webservices/WS_LISTENER_PROPERTY_CHANNEL_BINDING, webservices/WS_LISTENER_PROPERTY_CHANNEL_TYPE, webservices/WS_LISTENER_PROPERTY_CLOSE_TIMEOUT, webservices/WS_LISTENER_PROPERTY_CONNECT_TIMEOUT, webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS, webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE, webservices/WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS, webservices/WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT, webservices/WS_LISTENER_PROPERTY_ID, webservices/WS_LISTENER_PROPERTY_IP_VERSION, webservices/WS_LISTENER_PROPERTY_IS_MULTICAST, webservices/WS_LISTENER_PROPERTY_LISTEN_BACKLOG, webservices/WS_LISTENER_PROPERTY_MULTICAST_INTERFACES, webservices/WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK, webservices/WS_LISTENER_PROPERTY_STATE, webservices/WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS, webservices/WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS, wsw.ws_listener_property_id
-f1_keywords:
-- webservices/WS_LISTENER_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_LISTENER_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_LISTENER_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_LISTENER_PROPERTY_ID
+ - webservices/WS_LISTENER_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_LISTENER_PROPERTY_ID
 ---
 
 # WS_LISTENER_PROPERTY_ID enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Each listener property is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a>, is identified by an ID, and has an associated value.  If a property
                 is not specified when the listener is created, then its default value is used.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_LISTENER_PROPERTY_LISTEN_BACKLOG
 
@@ -68,9 +63,7 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
 The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
 This controls the maximum length of the queue of pending connections. If set to 
-                    SOMAXCONN, the backlog will be set to a maximum reasonable value. 
-                
-
+                    SOMAXCONN, the backlog will be set to a maximum reasonable value.
 
 ### -field WS_LISTENER_PROPERTY_IP_VERSION
 
@@ -83,8 +76,6 @@ This property specifies which IP version that the listener should use.
                 
 
 The default value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_ip_version">WS_IP_VERSION_AUTO</a>.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_STATE
 
@@ -97,8 +88,6 @@ The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/
 Returns the current <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a> of the listener.  The returned value is a snapshot of the current state, so it is
                     possible that the state may have changed before the caller has
                     had a chance to examine the value.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_ASYNC_CALLBACK_MODEL
 
@@ -117,8 +106,6 @@ The default is <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 
 The <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> only supports <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_LONG_CALLBACK</a> as an acceptable value
                     for this property.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_CHANNEL_TYPE
 
@@ -128,8 +115,6 @@ The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/
 
 This property
                     specifies the message exchange pattern of the channel being used.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_CHANNEL_BINDING
 
@@ -139,8 +124,6 @@ The accompanying <b>value</b> member of the <a href="https://docs.microsoft.com/
 
 This property
                     specifies the binding of the channel being used.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_CONNECT_TIMEOUT
 
@@ -159,8 +142,6 @@ An accept operation will wait
                 
 
 The default value is 15000 (15 seconds).
-                
-
 
 ### -field WS_LISTENER_PROPERTY_IS_MULTICAST
 
@@ -180,8 +161,6 @@ The channel does not validate that the address is in fact a
                 
 
 The default value is <b>FALSE</b>.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_MULTICAST_INTERFACES
 
@@ -201,8 +180,6 @@ This value of the <a href="https://docs.microsoft.com/windows/desktop/api/webser
                 
 
 The default value is an empty list (no interfaces).
-                
-
 
 ### -field WS_LISTENER_PROPERTY_MULTICAST_LOOPBACK
 
@@ -222,8 +199,6 @@ This value of the <a href="https://docs.microsoft.com/windows/desktop/api/webser
                 
 
 The default value is <b>TRUE</b>.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_CLOSE_TIMEOUT
 
@@ -259,8 +234,6 @@ The calculation of the timeout value used is as follows:
                 </li>
 </ul>
 The default timeout value is 5000 (5 seconds).
-                
-
 
 ### -field WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS
 
@@ -308,9 +281,7 @@ WS_MATCH_URL_NO_QUERY
 </code></pre>
 This property only controls the verification of the message once it has been received
                     by the process, not the routing of the message to the process (which is determined
-                    by the URL passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenlistener">WsOpenListener</a>).                    
-                
-
+                    by the URL passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenlistener">WsOpenListener</a>).
 
 ### -field WS_LISTENER_PROPERTY_CUSTOM_LISTENER_CALLBACKS
 
@@ -324,8 +295,6 @@ This property is used to specify callbacks that
                 
 
 This property must be specified when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>is used.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS
 
@@ -345,8 +314,6 @@ The value of this property will be passed to the
                 
 
 If this property is not specified, it's value is <b>NULL</b> and size is zero.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE
 
@@ -364,8 +331,6 @@ This property can be used to obtain the underlying listener
                     instance for a custom listener.  This allows a caller to directly
                     interact with the instance for cases when the existing
                     set of listener properties or listener functions is insufficient.
-                
-
 
 ### -field WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT
 
@@ -392,5 +357,4 @@ The list by default contains the following entry
 
 
 This property does not apply to listeners configured with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_RAW</a> encoding.
-                
 

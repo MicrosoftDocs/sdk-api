@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\enumclipboardformats.htm
 ms.date: 12/05/2018
 ms.keywords: EnumClipboardFormats, EnumClipboardFormats function [Data Exchange], _win32_EnumClipboardFormats, _win32_enumclipboardformats_cpp, dataxchg.enumclipboardformats, winui._win32_enumclipboardformats, winuser/EnumClipboardFormats
-f1_keywords:
-- winuser/EnumClipboardFormats
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- EnumClipboardFormats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumClipboardFormats
+ - winuser/EnumClipboardFormats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - EnumClipboardFormats
 ---
 
 # EnumClipboardFormats function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the data formats currently available on the clipboard.
 
-Clipboard data formats are stored in an ordered list. To perform an enumeration of clipboard data formats, you make a series of calls to the <b>EnumClipboardFormats</b> function. For each call, the <i>format</i> parameter specifies an available clipboard format, and the function returns the next available clipboard format. 
-
+Clipboard data formats are stored in an ordered list. To perform an enumeration of clipboard data formats, you make a series of calls to the <b>EnumClipboardFormats</b> function. For each call, the <i>format</i> parameter specifies an available clipboard format, and the function returns the next available clipboard format.
 
 ## -parameters
-
-
-
 
 ### -param format [in]
 
@@ -70,12 +66,9 @@ To start an enumeration of clipboard formats, set
 					<i>format</i> to zero. When 
 					<i>format</i> is zero, the function retrieves the first available clipboard format. For subsequent calls during an enumeration, set 
 					<i>format</i> to the result of the previous 
-					<b>EnumClipboardFormats</b> call. 
-
+					<b>EnumClipboardFormats</b> call.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -86,12 +79,7 @@ If the function fails, the return value is zero. To get extended error informati
 If there are no more clipboard formats to enumerate, the return value is zero. In this case, the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the value <b>ERROR_SUCCESS</b>. This lets you distinguish between function failure and the end of enumeration.
 
-
-
-
 ## -remarks
-
-
 
 You must open the clipboard before enumerating its formats. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a> function to open the clipboard. The <b>EnumClipboardFormats</b> function fails if the clipboard is not open.
 
@@ -107,12 +95,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
@@ -135,7 +118,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
- 
-
- 
 

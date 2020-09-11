@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: e801ca27-4581-4369-886c-04b824d55013
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework], ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],described, msctf/ITfInputProcessorProfileSubstituteLayout, tsf.itfinputprocessorprofilesubstitutelayout
-f1_keywords:
-- msctf/ITfInputProcessorProfileSubstituteLayout
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: Textstor.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfInputProcessorProfileSubstituteLayout
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileSubstituteLayout
+ - msctf/ITfInputProcessorProfileSubstituteLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfInputProcessorProfileSubstituteLayout
 ---
 
 # ITfInputProcessorProfileSubstituteLayout interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This  interface is implemented by the TSF manager and is used by an application or text service to manipulate the substitute input locale identifier (keyboard layout) of a text service profile. The interface ID is IID_ITfInputProcessorProfileSubstituteLayout.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Retrieves the input locale identifier (keyboard layout).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

@@ -3,10 +3,6 @@ UID: NS:winioctl._STORAGE_RPMB_DESCRIPTOR
 title: STORAGE_RPMB_DESCRIPTOR
 ms.date: 4/26/2019
 ms.keywords: _STORAGE_RPMB_DESCRIPTOR, STORAGE_RPMB_DESCRIPTOR
-f1_keywords:
-- _STORAGE_RPMB_DESCRIPTOR
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -23,15 +19,24 @@ req.target-type:
 req.typenames: STORAGE_RPMB_DESCRIPTOR, *PSTORAGE_RPMB_DESCRIPTOR
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _STORAGE_RPMB_DESCRIPTOR
+ - winioctl/_STORAGE_RPMB_DESCRIPTOR
+ - PSTORAGE_RPMB_DESCRIPTOR
+ - winioctl/PSTORAGE_RPMB_DESCRIPTOR
+ - STORAGE_RPMB_DESCRIPTOR
+ - winioctl/STORAGE_RPMB_DESCRIPTOR
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winioctl.h
+ - winioctl.h
 api_name:
-- _STORAGE_RPMB_DESCRIPTOR
-- STORAGE_RPMB_DESCRIPTOR
+ - _STORAGE_RPMB_DESCRIPTOR
+ - STORAGE_RPMB_DESCRIPTOR
 ---
 
 ## -description
@@ -63,3 +68,4 @@ To support different RPMB frame formats, specifies which frame format the payloa
 ## -remarks
 
 ## -see-also
+

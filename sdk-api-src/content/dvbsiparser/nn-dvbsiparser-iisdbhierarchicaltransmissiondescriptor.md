@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 6586360b-60d8-4c3c-aa6e-b657e1784b6d
 ms.date: 12/05/2018
 ms.keywords: IIsdbHierarchicalTransmissionDescriptor, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies], IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor, mstv.iisdbhierarchicaltransmissiondescriptor
-f1_keywords:
-- dvbsiparser/IIsdbHierarchicalTransmissionDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbHierarchicalTransmissionDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbHierarchicalTransmissionDescriptor
+ - dvbsiparser/IIsdbHierarchicalTransmissionDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbHierarchicalTransmissionDescriptor
 ---
 
 # IIsdbHierarchicalTransmissionDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor. The hierarchical transmission descriptor appears as part of the ISDB service information in the program map table (PMT) and describes the relationship between hierarchical streams when events are transmitted hierarchically. 
-
+Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor. The hierarchical transmission descriptor appears as part of the ISDB service information in the program map table (PMT) and describes the relationship between hierarchical streams when events are transmitted hierarchically.
 
 ## -inheritance
 
@@ -122,5 +121,5 @@ Gets the tag that identifies an ISDB hierarchical transmission descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

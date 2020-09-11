@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
 f1_keywords:
+ - IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess::CreateContentDecryptionModule
 dev_langs:
  - c++
@@ -41,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule) that represents a Content Decryption Module (CDM) for a DRM key system. 
+Creates a [IMFContentDecryptionModule](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodule) that represents a Content Decryption Module (CDM) for a DRM key system.
 
 ## -parameters
 

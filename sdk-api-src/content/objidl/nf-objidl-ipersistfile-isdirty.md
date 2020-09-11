@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4f3df841-d7fe-472e-a13c-124fdf425a35
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],IsDirty method, IPersistFile.IsDirty, IPersistFile::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistFile interface, _com_ipersistfile_isdirty, com.ipersistfile_isdirty, objidl/IPersistFile::IsDirty
-f1_keywords:
-- objidl/IPersistFile.IsDirty
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistFile.IsDirty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistFile::IsDirty
+ - objidl/IPersistFile::IsDirty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistFile.IsDirty
 ---
 
 # IPersistFile::IsDirty
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether an object has changed since it was last saved to its current file.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method returns S_OK to indicate that the object has changed. Otherwise, it returns S_FALSE.
 
-
-
-
 ## -remarks
-
-
 
 Use this method to determine whether an object should be saved before closing it. The dirty flag for an object is conditionally cleared in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method.
 
@@ -87,13 +74,7 @@ A container with one or more contained objects must maintain an internal dirty f
 
 The container can clear its dirty flag whenever it is saved, as long as the file to which the object is saved is the current working file after the save. Therefore, the dirty flag would be cleared after a successful <b>Save</b> or <b>Save As</b> operation, but not after a <b>Save A Copy As . . .</b> operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">IAdviseSink::OnDataChange</a>
 
@@ -104,7 +85,4 @@ The container can clear its dirty flag whenever it is saved, as long as the file
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
- 
-
- 
 

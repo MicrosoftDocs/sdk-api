@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetLineSpacing method, ITextPara.SetLineSpacing, ITextPara::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Windows Controls], SetLineSpacing method [Windows Controls],ITextPara interface, _win32_ITextPara_SetLineSpacing, _win32_ITextPara_SetLineSpacing_cpp, controls.ITextPara_SetLineSpacing, controls._win32_ITextPara_SetLineSpacing, tom/ITextPara::SetLineSpacing
-f1_keywords:
-- tom/ITextPara.SetLineSpacing
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetLineSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetLineSpacing
+ - tom/ITextPara::SetLineSpacing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetLineSpacing
 ---
 
 # ITextPara::SetLineSpacing
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 
-
 ## -parameters
-
-
-
 
 ### -param Rule [in]
 
 Type: <b>long</b>
 
-Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method. 
-
+Value of new line-spacing rule. For a list of possible rule values and further discussion, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlinespacingrule">ITextPara::GetLineSpacingRule</a> method.
 
 ### -param Spacing [in]
 
 Type: <b>float</b>
 
-Value of new line spacing. If the line-spacing rule treats the <i>Spacing</i> value as a linear dimension, then <i>Spacing</i> is given in floating-point points. 
-
+Value of new line spacing. If the line-spacing rule treats the <i>Spacing</i> value as a linear dimension, then <i>Spacing</i> is given in floating-point points.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -141,24 +133,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The line-spacing rule and line spacing work together, and as a result, they must be set together, much as the first and left indents need to be set together. 
-
-
-
+The line-spacing rule and line spacing work together, and as a result, they must be set together, much as the first and left indents need to be set together.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -177,7 +157,4 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: d5a3d475-0ae0-4860-a433-dd916c586f50
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_PROFILE_INFO_LIST, PWLAN_PROFILE_INFO_LIST, PWLAN_PROFILE_INFO_LIST structure pointer [NativeWIFI], WLAN_PROFILE_INFO_LIST, WLAN_PROFILE_INFO_LIST structure [NativeWIFI], nwifi.wlan_profile_info_list, wlanapi/PWLAN_PROFILE_INFO_LIST, wlanapi/WLAN_PROFILE_INFO_LIST'
-f1_keywords:
-- wlanapi/WLAN_PROFILE_INFO_LIST
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_PROFILE_INFO_LIST
 targetos: Windows
 req.typenames: WLAN_PROFILE_INFO_LIST, *PWLAN_PROFILE_INFO_LIST
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_PROFILE_INFO_LIST
+ - wlanapi/_WLAN_PROFILE_INFO_LIST
+ - PWLAN_PROFILE_INFO_LIST
+ - wlanapi/PWLAN_PROFILE_INFO_LIST
+ - WLAN_PROFILE_INFO_LIST
+ - wlanapi/WLAN_PROFILE_INFO_LIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_PROFILE_INFO_LIST
 ---
 
 # WLAN_PROFILE_INFO_LIST structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_PROFILE_INFO_LIST</b> structure contains a list of wireless profile  information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumberOfItems
 
 The number of wireless profile entries in the <b>ProfileInfo</b> member.
-
 
 ### -field dwIndex
 
@@ -71,31 +70,17 @@ This member is not used by the wireless service. Applications can use this membe
 
 <b>dwIndex</b> should always be initialized before use.
 
-
 ### -field ProfileInfo.unique
-
- 
-
 
 ### -field ProfileInfo.size_is
 
- 
-
-
 ### -field ProfileInfo.size_is.dwNumberOfItems
-
- 
-
 
 ### -field ProfileInfo
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_profile_info">WLAN_PROFILE_INFO</a> structures containing interface information. The number of items in the array is specified in the <b>dwNumberOfItems</b> member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_profile_info">WLAN_PROFILE_INFO</a>
 
@@ -106,7 +91,4 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
- 
-
- 
 

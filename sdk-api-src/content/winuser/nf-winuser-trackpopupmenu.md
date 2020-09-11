@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenu.htm
 ms.date: 12/05/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TrackPopupMenu, TrackPopupMenu function [Menus and Other Resources], _win32_TrackPopupMenu, _win32_trackpopupmenu_cpp, menurc.trackpopupmenu, winui._win32_trackpopupmenu, winuser/TrackPopupMenu
-f1_keywords:
-- winuser/TrackPopupMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- TrackPopupMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TrackPopupMenu
+ - winuser/TrackPopupMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - TrackPopupMenu
 ---
 
 # TrackPopupMenu function
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a shortcut menu at the specified location and tracks the selection of items on the menu. The shortcut menu can appear anywhere on the screen.
 
-
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the shortcut menu to be displayed. The handle can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a> to create a new shortcut menu, or by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> to retrieve a handle to a submenu associated with an existing menu item. 
-
+A handle to the shortcut menu to be displayed. The handle can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a> to create a new shortcut menu, or by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> to retrieve a handle to a submenu associated with an existing menu item.
 
 ### -param uFlags [in]
 
@@ -309,47 +304,39 @@ For any animation to occur, the <a href="https://docs.microsoft.com/windows/desk
 
  Use the <b>TPM_RECURSE</b> flag to display a menu when another menu is already displayed. This is intended to support context menus within a menu. 
 
- For right-to-left text layout, use <b>TPM_LAYOUTRTL</b>. By default, the text layout is left-to-right. 
-
+ For right-to-left text layout, use <b>TPM_LAYOUTRTL</b>. By default, the text layout is left-to-right.
 
 ### -param x [in]
 
 Type: <b>int</b>
 
-The horizontal location of the shortcut menu, in screen coordinates. 
-
+The horizontal location of the shortcut menu, in screen coordinates.
 
 ### -param y [in]
 
 Type: <b>int</b>
 
-The vertical location of the shortcut menu, in screen coordinates. 
-
+The vertical location of the shortcut menu, in screen coordinates.
 
 ### -param nReserved [in]
 
 Type: <b>int</b>
 
-Reserved; must be zero. 
-
+Reserved; must be zero.
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>uFlags</i> parameter, the function does not send messages to the window identified by <i>hWnd</i>. However, you must still pass a window handle in <i>hWnd</i>. It can be any window handle from your application. 
-
+A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>uFlags</i> parameter, the function does not send messages to the window identified by <i>hWnd</i>. However, you must still pass a window handle in <i>hWnd</i>. It can be any window handle from your application.
 
 ### -param prcRect [in, optional]
 
 Type: <b>const RECT*</b>
 
-Ignored. 
-
+Ignored.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -357,12 +344,7 @@ If you specify <b>TPM_RETURNCMD</b> in the <i>uFlags</i> parameter, the return v
 
 If you do not specify <b>TPM_RETURNCMD</b> in the <i>uFlags</i> parameter, the return value is nonzero if the function succeeds and zero if it fails. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <b>TrackPopupMenu</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
 
@@ -400,12 +382,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -432,7 +409,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a>
- 
-
- 
 

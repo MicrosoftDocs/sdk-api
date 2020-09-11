@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: A2DB8313-2855-4B0E-908E-CAE71E88FEF0
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windows Deployment Services], IWdsTransportTftpManager interface [Windows Deployment Services],described, wds.iwdstransporttftpmanager, wdstptmgmt/IWdsTransportTftpManager
-f1_keywords:
-- wdstptmgmt/IWdsTransportTftpManager
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportTftpManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportTftpManager
+ - wdstptmgmt/IWdsTransportTftpManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportTftpManager
 ---
 
 # IWdsTransportTftpManager interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface provides a method to retrieve all the clients currently connected to the TFTP server.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves a pointer to the object of an <a href="https://docs.microsoft.com/wind
 
 </td>
 </tr>
-</table> 
+</table>
 

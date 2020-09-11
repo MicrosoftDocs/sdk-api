@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: 1a32d67f-1ddc-49dc-af88-b8c41a50ac54
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator, IReconcileInitiator interface [Legacy Windows Environment Features], IReconcileInitiator interface [Legacy Windows Environment Features],described, _win32_IReconcileInitiator, lwef.ireconcileinitiator, reconcil/IReconcileInitiator, shell.ireconcileinitiator
-f1_keywords:
-- reconcil/IReconcileInitiator
-dev_langs:
-- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IReconcileInitiator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReconcileInitiator
+ - reconcil/IReconcileInitiator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IReconcileInitiator
 ---
 
 # IReconcileInitiator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide the briefcase reconciler with the means to notify the initiator of its progress, to set a termination object, and to request a given version of a document. The initiator is responsible for implementing this interface.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Indicates the amount of progress the briefcase reconciler has made toward comple
 
 </td>
 </tr>
-</table> 
+</table>
 

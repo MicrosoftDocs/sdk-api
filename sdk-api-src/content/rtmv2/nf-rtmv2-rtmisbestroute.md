@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
 ms.date: 12/05/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
-f1_keywords:
-- rtmv2/RtmIsBestRoute
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmIsBestRoute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmIsBestRoute
+ - rtmv2/RtmIsBestRoute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmIsBestRoute
 ---
 
 # RtmIsBestRoute function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmIsBestRoute</b> function returns the set of views in which the specified route is the best route to a destination.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param RouteHandle [in]
 
 Handle to the route to check.
-
 
 ### -param BestInViews [out]
 
 Receives a pointer to the set of views for which the specified route is the best route.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -105,14 +96,7 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchdestination">RtmGetExactMatchDestination</a>
 
@@ -127,7 +111,4 @@ The handle is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetmostspecificdestination">RtmGetMostSpecificDestination</a>
- 
-
- 
 

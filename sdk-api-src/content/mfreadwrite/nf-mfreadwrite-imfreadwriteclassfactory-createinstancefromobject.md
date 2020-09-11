@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5da582c2-37f9-47ee-b8ea-d21f1323f1df
 ms.date: 12/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromObject, CreateInstanceFromObject method [Media Foundation], CreateInstanceFromObject method [Media Foundation],IMFReadWriteClassFactory interface, IMFByteStream, IMFMediaSink, IMFMediaSource, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromObject method, IMFReadWriteClassFactory.CreateInstanceFromObject, IMFReadWriteClassFactory::CreateInstanceFromObject, mf.imfreadwriteclassfactory_createinstancefromobject, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
-f1_keywords:
-- mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromObject
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFReadWriteClassFactory.CreateInstanceFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFReadWriteClassFactory::CreateInstanceFromObject
+ - mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFReadWriteClassFactory.CreateInstanceFromObject
 ---
 
 # IMFReadWriteClassFactory::CreateInstanceFromObject
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an instance of the sink writer or source reader, given an <b>IUnknown</b> pointer. 
-
+Creates an instance of the sink writer or source reader, given an <b>IUnknown</b> pointer.
 
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
@@ -88,8 +84,6 @@ Create the source reader. The <i>ppvObject</i> parameter receives an <a href="ht
 </td>
 </tr>
 </table>
- 
-
 
 ### -param punkObject [in]
 
@@ -135,8 +129,6 @@ Pointer to a media source. Applies only when <i>clsid</i> is <b>CLSID_MFSourceRe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pAttributes [in]
 
@@ -152,42 +144,23 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjec
 </ul>
 This parameter can be <b>NULL</b>.
 
-
 ### -param riid [in]
 
 The IID of the requested interface.
-
 
 ### -param ppvObject [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory">IMFReadWriteClassFactory</a>
- 
-
- 
 

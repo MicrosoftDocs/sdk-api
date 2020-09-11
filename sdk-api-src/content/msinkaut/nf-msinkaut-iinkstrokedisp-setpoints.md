@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
 ms.date: 12/05/2018
 ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tablet PC],SetPoints method, IInkStrokeDisp.SetPoints, IInkStrokeDisp::SetPoints, SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
-f1_keywords:
-- msinkaut/IInkStrokeDisp.SetPoints
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokeDisp.SetPoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokeDisp::SetPoints
+ - msinkaut/IInkStrokeDisp::SetPoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokeDisp.SetPoints
 ---
 
 # IInkStrokeDisp::SetPoints
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the points of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> using an array of X, Y values.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Points [in]
 
@@ -68,25 +61,19 @@ The array of new points to replace the points in the stroke beginning at <i>inde
 
 For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
-
 ### -param Index [in, optional]
 
 Optional. The zero-based index of the first point in the stroke to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_FirstElement</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that the first point in the stroke is modified.
-
 
 ### -param Count [in, optional]
 
 Optional. The count of points in the stroke to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_AllElements</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all points in the stroke are modified.
 
-
 ### -param NumberOfPointsSet [out, retval]
 
 When this method returns, contains the actual number of packets set.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -140,14 +127,8 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method does not change the number of points in the stroke. To change the number of points in the stroke, a new stroke must be created, or the stroke must be split.
 
@@ -157,20 +138,11 @@ This method does not provide for extending the stroke. If the points array conta
 
 In order to draw the stroke after calling <b>SetPoints</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
- 
-
- 
 

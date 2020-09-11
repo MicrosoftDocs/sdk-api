@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
-f1_keywords:
-- bits3_0/IEnumBitsPeers
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IEnumBitsPeers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBitsPeers
+ - bits3_0/IEnumBitsPeers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IEnumBitsPeers
 ---
 
 # IEnumBitsPeers interface
 
 
 ## -description
-
 
 Use <b>IEnumBitsPeers</b> to enumerate the list of peers that BITS has discovered. 
 
@@ -117,5 +117,5 @@ Skips a specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

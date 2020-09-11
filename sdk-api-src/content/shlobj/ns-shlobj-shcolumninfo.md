@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6d7caeca-38fe-4477-a278-abf483d8d42c
 ms.date: 12/05/2018
 ms.keywords: '*LPSHCOLUMNINFO, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLSTATE_EXTENDED, SHCOLSTATE_HIDDEN, SHCOLSTATE_ONBYDEFAULT, SHCOLSTATE_SECONDARYUI, SHCOLSTATE_SLOW, SHCOLSTATE_TYPE_DATE, SHCOLSTATE_TYPE_INT, SHCOLSTATE_TYPE_STR, SHCOLUMNINFO, SHCOLUMNINFO structure [Windows Shell], _win32_SHCOLUMNINFO_str, shell.SHCOLUMNINFO_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINFO'
-f1_keywords:
-- shlobj/SHCOLUMNINFO
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj.h
-api_name:
-- SHCOLUMNINFO
 targetos: Windows
 req.typenames: SHCOLUMNINFO, *LPSHCOLUMNINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSHCOLUMNINFO
+ - shlobj/LPSHCOLUMNINFO
+ - SHCOLUMNINFO
+ - shlobj/SHCOLUMNINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj.h
+api_name:
+ - SHCOLUMNINFO
 ---
 
 # SHCOLUMNINFO structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the properties of a column. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field scid
 
@@ -64,13 +62,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCO
 
 A <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that uniquely identifies the column.
 
-
 ### -field vt
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
 The native <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARIANT</a> type of the column's data.
-
 
 ### -field fmt
 
@@ -79,13 +75,11 @@ Type: <b>DWORD</b>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvcolumna">List view format</a>. This member is normally set to LVCFMT_LEFT.
 
-
 ### -field cChars
 
 Type: <b>UINT</b>
 
 The default width of the column, in characters.
-
 
 ### -field csFlags
 
@@ -141,13 +135,11 @@ Not displayed in the shortcut menu, but listed in the <b>More...</b> dialog box.
 
 Not displayed in the user interface.
 
-
 ### -field wszTitle
 
 Type: <b>WCHAR[MAX_COLUMN_NAME_LEN]</b>
 
 A null-terminated Unicode string with the column's title. It must contain no more than MAX_COLUMN_NAME_LEN characters, including the terminating <b>NULL</b>.
-
 
 ### -field wszDescription
 
@@ -155,14 +147,7 @@ Type: <b>WCHAR[MAX_COLUMN_DESC_LEN]</b>
 
 A null-terminated Unicode string with the column's description. It must contain no more than MAX_COLUMN_DESC_LEN characters, including the terminating <b>NULL</b>.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect.htm
 ms.date: 12/05/2018
 ms.keywords: 8f18434d-7574-2504-c371-767566771aca, ID3D10Effect, ID3D10Effect interface [Direct3D 10], ID3D10Effect interface [Direct3D 10],described, d3d10effect/ID3D10Effect, direct3d10.id3d10effect
-f1_keywords:
-- d3d10effect/ID3D10Effect
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10Effect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10Effect
+ - d3d10effect/ID3D10Effect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10Effect
 ---
 
 # ID3D10Effect interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An <b>ID3D10Effect</b> interface manages a set of state objects, resources, and shaders for implementing a rendering effect.
-
 
 ## -inheritance
 
@@ -186,12 +185,9 @@ Minimize the amount of memory required for an effect.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An effect is created by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10createeffectfrommemory">D3D10CreateEffectFromMemory</a>.
 
@@ -210,15 +206,7 @@ IUnknown* pIUnknown = (IUnknown*)pEffect;
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
- 
-
- 
 

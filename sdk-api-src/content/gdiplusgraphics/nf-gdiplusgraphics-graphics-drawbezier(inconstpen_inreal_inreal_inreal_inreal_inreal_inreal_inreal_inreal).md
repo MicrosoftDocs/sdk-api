@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawBezier"]
 ms.assetid: 8cc50b20-3c78-4462-bee5-f7fce4815bc1
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBezier
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawBezier
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawBezier
+ - gdiplusgraphics/Graphics::DrawBezier
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawBezier
+ - Graphics::DrawBezier
 ---
 
 # DrawBezier(Pen*,REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)
+
 
 ## -description
 
@@ -151,3 +153,4 @@ VOID Example_DrawBezier4(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-bezier-splines-use">Drawing Bézier Splines</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-bezier-splines-about">Bézier Splines</a>
+

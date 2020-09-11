@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
 ms.date: 12/05/2018
 ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
-f1_keywords:
-- bits3_0/IBitsPeerCacheRecord
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheRecord
+ - bits3_0/IBitsPeerCacheRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheRecord
 ---
 
 # IBitsPeerCacheRecord interface
 
 
 ## -description
-
 
 Use <b>IBitsPeerCacheRecord</b> to get information about a file in the cache. 
 
@@ -142,5 +142,5 @@ Determines whether the file has been validated.
 
 </td>
 </tr>
-</table> 
+</table>
 

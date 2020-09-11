@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582
 ms.date: 12/05/2018
 ms.keywords: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, base.avrf_heap_allocation_enumerate_callback, winprog.avrf_heap_allocation_enumerate_callback
-f1_keywords:
-- avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
-dev_langs:
-- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Avrfsdk.h
-api_name:
-- AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+ - avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Avrfsdk.h
+api_name:
+ - AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 ---
 
 # AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function
@@ -49,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives information related to heap allocations.
 
-
 ## -parameters
-
-
-
 
 ### -param HeapAllocation
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_heap_allocation">AVRF_HEAP_ALLOCATION</a> structure containing information about the heap to be enumerated.
 
-
 ### -param EnumerationContext
 
 A pointer to user-defined information in the context of the enumeration that is passed in when the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function is invoked.
-
 
 ### -param EnumerationLevel
 
 A pointer to a value that informs the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function to either continue or stop the enumeration operation. These values are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
 
-
 ## -returns
-
-
 
 This function returns error codes or other values defined by the application.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
- 
-
- 
 

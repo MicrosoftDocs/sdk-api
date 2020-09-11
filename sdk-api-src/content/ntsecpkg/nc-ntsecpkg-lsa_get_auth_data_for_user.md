@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1cc02c6b-2628-441d-97ae-ed83a4f6bfd0
 ms.date: 12/05/2018
 ms.keywords: GetAuthDataForUser, GetAuthDataForUser callback function [Security], LSA_GET_AUTH_DATA_FOR_USER, LSA_GET_AUTH_DATA_FOR_USER callback, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
-f1_keywords:
-- ntsecpkg/GetAuthDataForUser
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- GetAuthDataForUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_GET_AUTH_DATA_FOR_USER
+ - ntsecpkg/LSA_GET_AUTH_DATA_FOR_USER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - GetAuthDataForUser
 ---
 
 # LSA_GET_AUTH_DATA_FOR_USER callback function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAuthDataForUser</b> function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_convert_auth_data_to_token">ConvertAuthDataToToken</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
-
 
 ### -param NameType [in]
 
@@ -116,45 +111,32 @@ A
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Prefix [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the prefix to use for names specified with the <b>SecNameAlternateId</b> <i>NameType</i>.
 
-
 ### -param *UserAuthData [out]
 
 Pointer that receives the address of the retrieved data.
 
-
 ### -param UserAuthDataSize [out]
 
 Pointer to a <b>ULONG</b> that receives the size of the retrieved data.
-
 
 ### -param UserFlatName [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that receives the UPN, if applicable.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code that indicates the reason it failed.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetAuthDataForUser</b> function combines the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a>, 
@@ -165,13 +147,7 @@ Pointers to these functions are available in the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a>
 
@@ -190,7 +166,4 @@ Pointers to these functions are available in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
 

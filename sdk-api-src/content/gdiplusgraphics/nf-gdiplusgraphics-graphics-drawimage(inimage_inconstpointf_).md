@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawImage"]
 ms.assetid: 933bdaec-75a8-4437-b42a-0799c2925d66
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawImage
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawImage
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawImage
+ - gdiplusgraphics/Graphics::DrawImage
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawImage
+ - Graphics::DrawImage
 ---
 
 # DrawImage(Image*,PointF&)
+
 
 ## -description
 
@@ -96,3 +98,4 @@ VOID Example_DrawImage8(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-bitmaps-use">Loading and Displaying Bitmaps</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

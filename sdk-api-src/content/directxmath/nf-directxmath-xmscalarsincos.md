@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarSinCos(float@,float@,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarSinCos, XMScalarSinCos, XMScalarSinCos method [DirectX Math Support APIs], dxmath.xmscalarsincos
-f1_keywords:
-- directxmath/XMScalarSinCos
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMScalarSinCos
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMScalarSinCos
+ - directxmath/XMScalarSinCos
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMScalarSinCos
 ---
 
 # XMScalarSinCos function
@@ -49,53 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes both the sine and cosine of a radian angle.
 
-
 ## -parameters
-
-
-
 
 ### -param pSin [out]
 
 Address of a <b>float</b> that will contain the result of the sine of <i>Value</i>.
 
-
 ### -param pCos [out]
 
 Address of a <b>float</b> that will contain the result of the cosine of <i>Value</i>.
-
 
 ### -param Value [in]
 
 <b>float</b> value describing the radian angle.
 
-
 ## -remarks
-
-
 
 This function uses a 11-degree minimax approximation for sine; 10-degree for cosine.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-scalar">DirectXMath Library Scalar Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmscalarsincosest">XMScalarSinCosEst</a>
- 
-
- 
 

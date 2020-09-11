@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 051F58C1-E3F3-4205-B834-7A14FEDFED2C
 ms.date: 12/05/2018
 ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1, D3D11_SHADER_RESOURCE_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1, direct3d11.d3d11_shader_resource_view_desc1
-f1_keywords:
-- d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_SHADER_RESOURCE_VIEW_DESC1
 targetos: Windows
 req.typenames: D3D11_SHADER_RESOURCE_VIEW_DESC1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_SHADER_RESOURCE_VIEW_DESC1
+ - d3d11_3/D3D11_SHADER_RESOURCE_VIEW_DESC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_SHADER_RESOURCE_VIEW_DESC1
 ---
 
 ## -description
@@ -62,60 +63,47 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/f
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_srv">D3D11_BUFFER_SRV</a> structure that views the resource as a buffer.
 
-
 ### -field Texture1D
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_srv">D3D11_TEX1D_SRV</a> structure that views the resource as a 1D texture.
-
 
 ### -field Texture1DArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_array_srv">D3D11_TEX1D_ARRAY_SRV</a> structure that views the resource as a 1D-texture array.
 
-
 ### -field Texture2D
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_tex2d_srv1">D3D11_TEX2D_SRV1</a> structure that views the resource as a 2D-texture.
-
 
 ### -field Texture2DArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_tex2d_array_srv1">D3D11_TEX2D_ARRAY_SRV1</a> structure that views the resource as a 2D-texture array.
 
-
 ### -field Texture2DMS
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_srv">D3D11_TEX2DMS_SRV</a> structure that views the resource as a 2D-multisampled texture.
-
 
 ### -field Texture2DMSArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_array_srv">D3D11_TEX2DMS_ARRAY_SRV</a> structure that views the resource as a 2D-multisampled-texture array.
 
-
 ### -field Texture3D
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_srv">D3D11_TEX3D_SRV</a> structure that views the resource as a 3D texture.
-
 
 ### -field TextureCube
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_srv">D3D11_TEXCUBE_SRV</a> structure that views the resource as a 3D-cube texture.
 
-
 ### -field TextureCubeArray
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_array_srv">D3D11_TEXCUBE_ARRAY_SRV</a> structure that views the resource as a 3D-cube-texture array.
-
 
 ### -field BufferEx
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_bufferex_srv">D3D11_BUFFEREX_SRV</a> structure that views the resource as a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
-
 ## -remarks
-
-
 
 A view is a format-specific way to look at the data in a resource. The view determines what data to look at, and how it is cast when read.
 
@@ -123,16 +111,7 @@ When viewing a resource, the resource-view description must specify a typed form
 
 Create a shader-resource-view description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createshaderresourceview1">ID3D11Device3::CreateShaderResourceView1</a>. To view a shader-resource-view description, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11shaderresourceview1-getdesc1">ID3D11ShaderResourceView1::GetDesc1</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
 

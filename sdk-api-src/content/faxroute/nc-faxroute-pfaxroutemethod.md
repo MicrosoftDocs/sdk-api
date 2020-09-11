@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_2aw4.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteMethod, FaxRouteMethod callback, FaxRouteMethod callback function [Fax Service], PFAXROUTEMETHOD, _mfax_faxroutemethod, fax._mfax_faxroutemethod, faxroute/FaxRouteMethod
-f1_keywords:
-- faxroute/FaxRouteMethod
-dev_langs:
-- c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- FaxRoute.h
-api_name:
-- FaxRouteMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFAXROUTEMETHOD
+ - faxroute/PFAXROUTEMETHOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - FaxRoute.h
+api_name:
+ - FaxRouteMethod
 ---
 
 # PFAXROUTEMETHOD callback function
@@ -49,28 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxRouteMethod</b> function is a placeholder for a function name defined by the fax routing extension DLL. This function executes a defined fax routing procedure.
 
 The fax routing extension DLL can export multiple fax routing methods. The fax routing extension must export one uniquely named <b>FaxRouteMethod</b> function for each fax routing method it exports. It is recommended that each function name describe the functionality of the particular fax routing method. The fax service calls the <b>FaxRouteMethod</b> functions, in order of priority, after the service receives a fax document.
 
-
 ## -parameters
-
-
-
 
 ### -param *
 
-
 ### -param Arg1
-
-
-
-
-
-
-
 
 #### - FailureData [out]
 
@@ -92,10 +80,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd
 
 Pointer to a <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a> structure that contains information about the received fax document.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -105,12 +90,7 @@ If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
 
-
-
-
 ## -remarks
-
-
 
 A fax routing method can manipulate the received Tagged Image File Format Class F (TIFF Class F) file. For example, one routing method could route the received Tagged Image File Format (TIFF) file to a specific destination such as a printer, or deliver the file in an email message to a user. Another routing method could convert the TIFF file to text using optical character recognition (OCR) technology, and then create a Microsoft Word document from the text. A fax routing method cannot delete or modify the TIFF file. For information about TIFF files, see <a href="https://msdn.microsoft.com/d7840c10-6059-40ed-9040-50eefefc7349">Fax Image Format</a>..
 
@@ -123,12 +103,7 @@ If you want the fax service to retry a failed routing method at a later time, th
 <li>Set the <i>FailureData</i> parameter of the <b>FaxRouteMethod</b> function to a valid pointer value.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a>
 
@@ -163,7 +138,4 @@ If you want the fax service to retry a failed routing method at a later time, th
 
 
 <a href="https://msdn.microsoft.com/eeb84e95-1a47-4768-9cb7-d6e7a2ee2048">FaxRouteModifyRoutingData</a>
- 
-
- 
 

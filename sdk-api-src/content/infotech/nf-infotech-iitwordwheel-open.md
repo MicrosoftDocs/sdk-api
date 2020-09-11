@@ -8,10 +8,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelopen.htm
 ms.date: 12/05/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Open method, IITWordWheel.Open, IITWordWheel::Open, ITWW_OPEN_CONNECT, Open, Open method [HTML Help Workshop], Open method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_open, infotech/IITWordWheel::Open, refIITWordWheelOpen
-f1_keywords:
-- infotech/IITWordWheel.Open
-dev_langs:
-- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Infotech.h
-api_name:
-- IITWordWheel.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IITWordWheel::Open
+ - infotech/IITWordWheel::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Infotech.h
+api_name:
+ - IITWordWheel.Open
 ---
 
 # IITWordWheel::Open
@@ -49,30 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a word wheel.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpITDB [in]
 
 Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">database object</a>.
 
-
-
-
 ### -param lpszMoniker [in]
 
 Name of word wheel.
-
-
-
 
 ### -param dwFlags [in]
 
@@ -96,12 +84,8 @@ One or more of the following values:
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -160,18 +144,8 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/in
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
- 
-
- 
 

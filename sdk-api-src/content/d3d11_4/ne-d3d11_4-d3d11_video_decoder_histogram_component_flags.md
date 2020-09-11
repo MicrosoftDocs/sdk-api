@@ -6,10 +6,6 @@ tech.root: direct3d11
 helpviewer_keywords: ["D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS"]
 ms.date: 4/26/2019
 ms.keywords: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
-f1_keywords:
-- D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,14 +18,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
+ - d3d11_4/D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d11_4.h
+ - d3d11_4.h
 api_name:
-- D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
+ - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS
 ---
 
 ## -description
@@ -73,3 +74,4 @@ If the format is an RGB/BGR format, indicates the A component.
 ## -remarks
 
 ## -see-also
+

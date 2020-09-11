@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 f1_keywords:
+ - D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
  - d3d12video/D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC
 dev_langs:
  - c++

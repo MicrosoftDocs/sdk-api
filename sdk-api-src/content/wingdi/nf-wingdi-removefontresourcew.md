@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c
 ms.date: 12/05/2018
 ms.keywords: RemoveFontResource, RemoveFontResource function [Windows GDI], RemoveFontResourceA, RemoveFontResourceW, _win32_RemoveFontResource, gdi.removefontresource, wingdi/RemoveFontResource, wingdi/RemoveFontResourceA, wingdi/RemoveFontResourceW
-f1_keywords:
-- wingdi/RemoveFontResource
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- RemoveFontResource
-- RemoveFontResourceA
-- RemoveFontResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveFontResourceW
+ - wingdi/RemoveFontResourceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - RemoveFontResource
+ - RemoveFontResourceA
+ - RemoveFontResourceW
 ---
 
 # RemoveFontResourceW function
@@ -53,36 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveFontResource</b> function removes the fonts in the specified file from the system font table.
 
 If the font was added using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function, you must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 A pointer to a null-terminated string that names a font resource file.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 We recommend that if an app adds or removes fonts from the system font table that it notify other windows of the change by sending a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-fontchange">WM_FONTCHANGE</a> message to all top-level windows in the system. The app sends this message by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a> function with the <i>hwnd</i> parameter set to HWND_BROADCAST.
 
@@ -115,9 +103,6 @@ while( i-- )
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourcea">AddFontResource</a>
 
 
@@ -135,7 +120,4 @@ while( i-- )
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
- 
-
- 
 

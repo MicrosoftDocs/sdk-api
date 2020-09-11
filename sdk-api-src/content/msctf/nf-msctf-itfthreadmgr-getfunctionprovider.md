@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: b320790a-4b54-4475-97e6-e59f083cfc09
 ms.date: 12/05/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr.GetFunctionProvider, ITfThreadMgr::GetFunctionProvider, _tsf_itfthreadmgr_getfunctionprovider_ref, msctf/ITfThreadMgr::GetFunctionProvider, tsf.itfthreadmgr_getfunctionprovider
-f1_keywords:
-- msctf/ITfThreadMgr.GetFunctionProvider
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgr.GetFunctionProvider
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr::GetFunctionProvider
+ - msctf/ITfThreadMgr::GetFunctionProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgr.GetFunctionProvider
 ---
 
 # ITfThreadMgr::GetFunctionProvider
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Obtains the specified function provider object.
 
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
@@ -86,17 +84,12 @@ Obtains the function provider implemented by the current application. This objec
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppFuncProv [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface that receives the function provider.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -139,24 +132,12 @@ GUID_SYSTEM_FUNCTIONPROVIDER was requested, but cannot be obtained.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A function provider registers by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider
       </a>
@@ -174,7 +155,4 @@ A function provider registers by calling the TSF manager <a href="https://docs.m
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumfunctionproviders">ITfThreadMgr::EnumFunctionProviders
       </a>
- 
-
- 
 

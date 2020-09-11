@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpagebreakbefore.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetPageBreakBefore method, ITextPara.SetPageBreakBefore, ITextPara::SetPageBreakBefore, SetPageBreakBefore, SetPageBreakBefore method [Windows Controls], SetPageBreakBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetPageBreakBefore, _win32_ITextPara_SetPageBreakBefore_cpp, controls.ITextPara_SetPageBreakBefore, controls._win32_ITextPara_SetPageBreakBefore, tom/ITextPara::SetPageBreakBefore
-f1_keywords:
-- tom/ITextPara.SetPageBreakBefore
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetPageBreakBefore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetPageBreakBefore
+ - tom/ITextPara::SetPageBreakBefore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetPageBreakBefore
 ---
 
 # ITextPara::SetPageBreakBefore
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls whether there is a page break before each paragraph in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -114,12 +110,8 @@ The property is undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -186,24 +178,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is included for compatibility with Microsoft Word; it does not affect how the rich edit control displays text.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -218,7 +198,4 @@ This method is included for compatibility with Microsoft Word; it does not affec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

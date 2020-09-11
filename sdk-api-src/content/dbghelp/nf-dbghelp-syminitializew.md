@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395
 ms.date: 12/05/2018
 ms.keywords: SymInitialize, SymInitialize function, SymInitializeW, _win32_syminitialize, base.syminitialize, dbghelp/SymInitialize, dbghelp/SymInitializeW
-f1_keywords:
-- dbghelp/SymInitialize
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymInitialize
-- SymInitialize
-- SymInitializeW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymInitializeW
+ - dbghelp/SymInitializeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymInitialize
+ - SymInitialize
+ - SymInitializeW
 ---
 
 # SymInitializeW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the symbol handler for a process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -68,7 +64,6 @@ A handle that identifies the caller. This value should be unique and nonzero, bu
 
 
 This parameter cannot be <b>NULL</b>.
-
 
 ### -param UserSearchPath [in, optional]
 
@@ -84,28 +79,19 @@ The path, or series of paths separated by a semicolon (;), that is used to searc
 </ul>
 Note that the search path can also be set using the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> function.
 
-
 ### -param fInvadeProcess [in]
 
 If this value is <b>TRUE</b>, enumerates the loaded modules for the process and effectively calls the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> function for each module.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SymInitialize</b> function is used to initialize the symbol handler for a process. In the context of the symbol handler, a process is a convenient object to use when collecting symbol information. Usually, symbol handlers are used by debuggers and other tools that need to load symbols for a process being debugged.
@@ -141,9 +127,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
@@ -169,7 +152,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
- 
-
- 
 

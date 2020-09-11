@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7D6385BC-4D9C-4026-9363-0F6917A62BDE
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngineClassFactory, IMFImageSharingEngineClassFactory interface [Media Foundation], IMFImageSharingEngineClassFactory interface [Media Foundation],described, mf.imfimagesharingengineclassfactory, mfsharingengine/IMFImageSharingEngineClassFactory
-f1_keywords:
-- mfsharingengine/IMFImageSharingEngineClassFactory
-dev_langs:
-- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfsharingengine.h
-api_name:
-- IMFImageSharingEngineClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFImageSharingEngineClassFactory
+ - mfsharingengine/IMFImageSharingEngineClassFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfsharingengine.h
+api_name:
+ - IMFImageSharingEngineClassFactory
 ---
 
 # IMFImageSharingEngineClassFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a>.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

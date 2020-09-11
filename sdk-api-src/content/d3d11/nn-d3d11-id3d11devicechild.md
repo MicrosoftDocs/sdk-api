@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: bed17239-0358-4768-8655-9a1d92f25a2e
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceChild, ID3D11DeviceChild interface [Direct3D 11], ID3D11DeviceChild interface [Direct3D 11],described, d3d11/ID3D11DeviceChild, direct3d11.id3d11devicechild, ea2a7e4d-06b6-a8d0-51ff-52cc4806e595
-f1_keywords:
-- d3d11/ID3D11DeviceChild
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceChild
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceChild
+ - d3d11/ID3D11DeviceChild
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceChild
 ---
 
 # ID3D11DeviceChild interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A device-child interface accesses data used by a device.
-
 
 ## -inheritance
 
@@ -105,33 +104,20 @@ Associate an IUnknown-derived interface with this device child and associate tha
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 There are several types of device child interfaces, all of which inherit this interface. They include shaders, state objects, and input layouts.
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

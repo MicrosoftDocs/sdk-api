@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 1BB028E0-376E-42BD-82FD-08331341C93B
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurfaceFactory, IDCompositionSurfaceFactory interface [DirectComposition], IDCompositionSurfaceFactory interface [DirectComposition],described, dcomp/IDCompositionSurfaceFactory, directcomp.idcompositionsurfacefactory
-f1_keywords:
-- dcomp/IDCompositionSurfaceFactory
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionSurfaceFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionSurfaceFactory
+ - dcomp/IDCompositionSurfaceFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionSurfaceFactory
 ---
 
 # IDCompositionSurfaceFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates surface and virtual surface objects associated with an application-provided rendering device.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Creates a sparsely populated surface that can be associated with one or more vis
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
 
@@ -103,7 +98,4 @@ Creates a sparsely populated surface that can be associated with one or more vis
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvirtualsurface">IDCompositionVirtualSurface</a>
- 
-
- 
 

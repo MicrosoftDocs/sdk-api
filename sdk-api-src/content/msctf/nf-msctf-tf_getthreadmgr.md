@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f8e3ed16-7a4f-424a-ae6d-4f81ab344af0
 ms.date: 12/05/2018
 ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework], msctf/TF_GetThreadMgr, tsf.tf_getthreadmgr
-f1_keywords:
-- msctf/TF_GetThreadMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- msctf.dll
-api_name:
-- TF_GetThreadMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows XPWindows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - TF_GetThreadMgr
+ - msctf/TF_GetThreadMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - msctf.dll
+api_name:
+ - TF_GetThreadMgr
 ---
 
 # TF_GetThreadMgr function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TF_GetThreadMgr</b> function obtains a copy of a thread manager object previously created within the calling thread.
 
-
 ## -parameters
-
-
-
 
 ### -param pptim [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> interface pointer that receives the thread manager object. This receives <b>NULL</b> if no thread manager is created within the calling thread.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -81,14 +74,8 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-m
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If no thread manager is created within the calling thread, this function will set <i>pptim</i> to <b>NULL</b> and return S_OK. Therefore, it is necessary to verify that the function succeeded and that <i>pptim</i> is not <b>NULL</b> before using <i>pptim</i>.
 
@@ -152,14 +139,7 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
@@ -171,7 +151,4 @@ HRESULT GetThreadMgr(ITfThreadMgr **pptm)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
- 
-
- 
 

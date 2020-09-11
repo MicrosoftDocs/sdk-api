@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertVectorIntToFloat(XMVECTOR,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertVectorIntToFloat, XMConvertVectorIntToFloat, XMConvertVectorIntToFloat method [DirectX Math Support APIs], dxmath.xmconvertvectorinttofloat
-f1_keywords:
-- directxmath/XMConvertVectorIntToFloat
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMConvertVectorIntToFloat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMConvertVectorIntToFloat
+ - directxmath/XMConvertVectorIntToFloat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMConvertVectorIntToFloat
 ---
 
 # XMConvertVectorIntToFloat function
@@ -49,50 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> with <b>int32_t</b> components to an
   <b>XMVECTOR</b> with <b>float</b> components and applies a uniform bias.
 
-
 ## -parameters
-
-
-
 
 ### -param VInt [in]
 
 Vector with <b>int32_t</b> components that is to be converted.
-
 
 ### -param DivExponent [in]
 
 Each component of <i>VInt</i> will be converted to a <b>float</b> and then divided by two raised to the
         <i>DivExponent</i> power. This parameter must be a number (an immediate value) and not a variable.
 
-
 ## -returns
-
-
 
 Returns the converted vector, where each component has been divided by two raised to the <i>DivExponent</i> power.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-conversion">DirectXMath Library Conversion Functions</a>
 
@@ -103,7 +84,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmconvertvectoruinttofloat">XMConvertVectorUIntToFloat</a>
- 
-
- 
 

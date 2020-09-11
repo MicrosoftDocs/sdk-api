@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc
 ms.date: 12/05/2018
 ms.keywords: AddSecureMemoryCacheCallback, AddSecureMemoryCacheCallback function, base.addsecurememorycachecallback, winbase/AddSecureMemoryCacheCallback
-f1_keywords:
-- winbase/AddSecureMemoryCacheCallback
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-api_name:
-- AddSecureMemoryCacheCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddSecureMemoryCacheCallback
+ - winbase/AddSecureMemoryCacheCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+api_name:
+ - AddSecureMemoryCacheCallback
 ---
 
 # AddSecureMemoryCacheCallback function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a callback function to be called when a secured memory range is freed or its protections are 
     changed.
 
-
 ## -parameters
-
-
-
 
 ### -param pfnCallBack [in]
 
@@ -65,10 +61,7 @@ A pointer to the application-defined
       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a> function to 
       register.
 
-
 ## -returns
-
-
 
 If the function succeeds, it registers the callback function and returns 
       <b>TRUE</b>.
@@ -76,12 +69,7 @@ If the function succeeds, it registers the callback function and returns
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
       the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 An application that performs I/O directly to a high-performance device typically caches a virtual-to-physical 
     memory mapping for the buffer it uses for the I/O. The device's driver typically secures this memory address range 
@@ -99,20 +87,11 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
     or later. For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a>
- 
-
- 
 

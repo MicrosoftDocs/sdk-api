@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9115262e-00bb-4446-906d-7a57fd5781d1
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Skip method, IEnumCERTVIEWROW object [Security],Skip method, IEnumCERTVIEWROW.Skip, IEnumCERTVIEWROW::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWROW interface, Skip method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
-f1_keywords:
-- certview/IEnumCERTVIEWROW.Skip
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWROW.Skip
-- IEnumCERTVIEWROW.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWROW::Skip
+ - certview/IEnumCERTVIEWROW::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWROW.Skip
+ - IEnumCERTVIEWROW.Skip
 ---
 
 # IEnumCERTVIEWROW::Skip
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Skip</b> method skips a specified number of rows in the 
 row enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of rows to skip. A positive value for the <i>celt</i> parameter causes the row-enumeration sequence to skip forward in the enumeration sequence. A negative value for the <i>celt</i> parameter causes the row enumeration sequence to skip backward in the enumeration sequence.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
@@ -76,12 +69,7 @@ A return value of E_INVALIDARG indicates that the <i>celt</i> parameter was set 
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Upon successful completion of this method, call  the 
 <b>IEnumCERTVIEWROW::Skip</b> method to reference the current row in the row-enumeration sequence. After this second call is made, the 
@@ -140,14 +128,7 @@ if (NULL != pEnumRow)
     pEnumRow->Release();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a>
 
@@ -170,7 +151,4 @@ if (NULL != pEnumRow)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-reset">IEnumCERTVIEWROW::Reset</a>
- 
-
- 
 

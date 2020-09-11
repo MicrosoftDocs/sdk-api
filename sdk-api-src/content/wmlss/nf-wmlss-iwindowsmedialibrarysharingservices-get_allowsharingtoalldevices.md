@@ -8,10 +8,6 @@ tech.root: WMLSS
 ms.assetid: f166eca1-9413-4f14-be2f-ef433f3e391a
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_allowSharingToAllDevices method, IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices, IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices, get_allowSharingToAllDevices, get_allowSharingToAllDevices method [Windows Media Library Sharing Services], get_allowSharingToAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_allowSharingToAllDevices, wmlss/IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
+ - wmlss/IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices
 ---
 
 # IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_allowSharingToAllDevices</b> method retrieves a value that indicates whether the current user's media library is shared with all devices on the home network.
 
-
 ## -parameters
-
-
-
 
 ### -param sharingEnabled [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that receives <b>VARIANT_TRUE</b> if the media libray is shared with all devices and <b>VARIANT_FALSE</b> if the media library is not shared with at least one device.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,7 +79,4 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
 

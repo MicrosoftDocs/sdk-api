@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 746bd660-17b6-4669-8f23-254f5d7dde82
 ms.date: 12/05/2018
 ms.keywords: IShellImageStore, IShellImageStore interface [Windows Shell], IShellImageStore interface [Windows Shell],described, _win32_IShellImageStore, shell.IShellImageStore, shlobj/IShellImageStore
-f1_keywords:
-- shlobj/IShellImageStore
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageStore
+ - shlobj/IShellImageStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageStore
 ---
 
 # IShellImageStore interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Exposes methods that manipulate the image cache.
-
 
 ## -inheritance
 
@@ -113,14 +112,10 @@ Opens the storage and returns a lock.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  <b>IShellImageStore</b> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-
 

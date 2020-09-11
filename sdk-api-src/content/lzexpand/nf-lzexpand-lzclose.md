@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ba535eb7-8d9b-4290-af1f-495e9737cd38
 ms.date: 12/05/2018
 ms.keywords: LZClose, LZClose function [Files], _win32_lzclose, base.lzclose, fs.lzclose, lzexpand/LZClose
-f1_keywords:
-- lzexpand/LZClose
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- LZClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LZClose
+ - lzexpand/LZClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - LZClose
 ---
 
 # LZClose function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a file that was opened by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file to be closed.
 
-
 ## -remarks
-
-
 
 The handle identifying the file must be retrieved by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function. If the handle is retrieved by calling the 
@@ -139,14 +132,7 @@ Yes
 
 CsvFs will do redirected IO for compressed files.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -165,7 +151,4 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
- 
-
- 
 

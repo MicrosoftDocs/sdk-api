@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE","D3D12_VIDEO_PROCESS
 tech.root: mf
 ms.assetid: 828e0cbe-17ff-4830-8c95-997a6d53a994
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE, D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,18 +18,24 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
+ - d3d12video/D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
 ---
 
 # D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE enumeration
+
 
 ## -description
 
@@ -43,12 +45,11 @@ Specifies the alpha fill mode for video processing. This value is used by the [D
 
 ### -field D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE_OPAQUE 
 
-Alpha values inside the target rectangle are set to opaque. 
-
+Alpha values inside the target rectangle are set to opaque.
 
 ### -field D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE_BACKGROUND 
 
-Alpha values inside the target rectangle are set to the alpha value specified in the background color. 
+Alpha values inside the target rectangle are set to the alpha value specified in the background color.
 
 ### -field D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE_DESTINATION 
 
@@ -65,3 +66,4 @@ If the input stream does not have alpha data, the video processor sets the alpha
 **D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE_OPAQUE** must be always supported.  The background, destination, and source stream modes are only supported when the driver reports [D3D12_VIDEO_PROCESS_FEATURE_FLAG_ALPHA_FILL](ne-d3d12video-d3d12_video_process_feature_flags.md).
 
 ## -see-also
+

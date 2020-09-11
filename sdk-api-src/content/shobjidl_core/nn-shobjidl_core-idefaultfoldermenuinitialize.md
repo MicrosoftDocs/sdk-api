@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
-f1_keywords:
-- shobjidl_core/IDefaultFolderMenuInitialize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDefaultFolderMenuInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDefaultFolderMenuInitialize
+ - shobjidl_core/IDefaultFolderMenuInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDefaultFolderMenuInitialize
 ---
 
 # IDefaultFolderMenuInitialize interface
 
 
 ## -description
-
 
 Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu">SHCreateDefaultContextMenu</a> through the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu">DEFCONTEXTMENU</a> structure.
 <div class="alert"><b>Note</b>  Do not use this method to reinitialize a shortcut menu; use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> instead.</div><div> </div>
@@ -92,16 +92,9 @@ The <b>IDefaultFolderMenuInitialize</b> interface has these methods.
 </td>
 <td align="left" width="63%"></td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

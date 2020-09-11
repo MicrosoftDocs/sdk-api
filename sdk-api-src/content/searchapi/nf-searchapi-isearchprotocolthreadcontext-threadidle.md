@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadidle.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadIdle method, ISearchProtocolThreadContext.ThreadIdle, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle, ThreadIdle method [search], ThreadIdle method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
-f1_keywords:
-- searchapi/ISearchProtocolThreadContext.ThreadIdle
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchProtocolThreadContext.ThreadIdle
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchProtocolThreadContext::ThreadIdle
+ - searchapi/ISearchProtocolThreadContext::ThreadIdle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchProtocolThreadContext.ThreadIdle
 ---
 
 # ISearchProtocolThreadContext::ThreadIdle
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeElaspedSinceLastCallInMS [in]
 
@@ -64,23 +60,13 @@ Type: <b>DWORD</b>
 
 Passes the idle time, in milliseconds, to the protocol handler.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 This method is called when the filtering thread is waiting for new requests from the indexer service so the protocol handler can use this idle time to clean up.
-
-
 

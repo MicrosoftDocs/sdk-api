@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 5248be70-229d-42e6-923a-5a6ffd5268b1
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, WriteCacheNotChangeable, WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, fs.storage_write_cache_property, winioctl/PSTORAGE_WRITE_CACHE_PROPERTY, winioctl/STORAGE_WRITE_CACHE_PROPERTY'
-f1_keywords:
-- winioctl/STORAGE_WRITE_CACHE_PROPERTY
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_WRITE_CACHE_PROPERTY
 targetos: Windows
 req.typenames: STORAGE_WRITE_CACHE_PROPERTY, *PSTORAGE_WRITE_CACHE_PROPERTY
 req.redist: 
+f1_keywords:
+ - _STORAGE_WRITE_CACHE_PROPERTY
+ - winioctl/_STORAGE_WRITE_CACHE_PROPERTY
+ - PSTORAGE_WRITE_CACHE_PROPERTY
+ - winioctl/PSTORAGE_WRITE_CACHE_PROPERTY
+ - STORAGE_WRITE_CACHE_PROPERTY
+ - winioctl/STORAGE_WRITE_CACHE_PROPERTY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_WRITE_CACHE_PROPERTY
 ---
 
 # STORAGE_WRITE_CACHE_PROPERTY structure
@@ -48,26 +53,19 @@ req.redist:
 
 ## -description
 
-
 Used with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to retrieve information about a device's write cache property.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to 
       the structure.
 
-
 ### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
       structure.
-
 
 ### -field WriteCacheType
 
@@ -124,8 +122,6 @@ The device has a write-through cache.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WriteCacheEnabled
 
@@ -171,8 +167,6 @@ The device's write cache is enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WriteCacheChangeable
 
@@ -218,8 +212,6 @@ Host software can change the characteristics of the device's write cache
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WriteThroughSupported
 
@@ -264,15 +256,12 @@ Indicates that the device supports write-through operations.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FlushCacheSupported
 
 A <b>BOOLEAN</b> value that indicates whether the device allows host software to 
       flush the device cache. If <b>TRUE</b>, the device allows host software to flush the device 
       cache. If <b>FALSE</b>, host software cannot flush the device cache.
-
 
 ### -field UserDefinedPowerProtection
 
@@ -281,25 +270,17 @@ A <b>BOOLEAN</b> value that indicates whether a user can configure the device's 
       power protection characteristics in the registry. If <b>FALSE</b>, the user cannot configure 
       the device's power protection characteristics in the registry.
 
-
 ### -field NVCacheEnabled
 
 A <b>BOOLEAN</b> value that indicates whether the device has a battery backup for the 
       write cache. If <b>TRUE</b>, the device has a battery backup for the write cache. If 
       <b>FALSE</b>, the device does not have a battery backup for the writer cache.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
- 
-
- 
 

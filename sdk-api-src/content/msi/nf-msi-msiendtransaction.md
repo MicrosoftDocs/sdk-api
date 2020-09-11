@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 70912430-63d7-4087-858c-fb13f47008e2
 ms.date: 12/05/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction
-f1_keywords:
-- msi/MsiEndTransaction
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEndTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEndTransaction
+ - msi/MsiEndTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEndTransaction
 ---
 
 # MsiEndTransaction function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The  <b>MsiEndTransaction</b> function can commit or roll back all the installations belonging to the transaction opened by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function. This function should be called by the current owner of the transaction. 
 
 <b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-0">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTransactionState [in]
 
@@ -92,12 +88,8 @@ Commits all changes to the system belonging to the transaction. Runs any <a href
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>MsiEndTransaction</b> function returns the following values.
 					
@@ -152,18 +144,8 @@ An installation belonging to the transaction did not complete. During the instal
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
- 
-
- 
 

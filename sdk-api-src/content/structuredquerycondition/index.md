@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: search
+f1_keywords:
+ - structuredquerycondition
+ - structuredquerycondition/structuredquerycondition
 ---
 
 # Structuredquerycondition.h header
 
 
 ## -description
-
 
 This header is used by Windows Search. For more information, see:
 

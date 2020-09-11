@@ -7,10 +7,6 @@ helpviewer_keywords: ["Font::GetHeight"]
 ms.assetid: 4cfe970e-332c-461b-9b75-0d0802fad86f
 ms.date: 05/20/2019
 ms.keywords: Font::GetHeight
-f1_keywords:
-- gdiplusheaders/Font::GetHeight
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Font::GetHeight
+ - gdiplusheaders/Font::GetHeight
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusheaders.h
+ - gdiplusheaders.h
 api_name:
-- Font::GetHeight
+ - Font::GetHeight
 ---
 
 # Font::GetHeight(Graphics*)
+
 
 ## -description
 
@@ -112,3 +114,4 @@ VOID Example_GetHeight(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
+

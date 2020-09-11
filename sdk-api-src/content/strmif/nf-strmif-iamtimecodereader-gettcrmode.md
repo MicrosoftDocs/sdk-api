@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 227c5d8e-fbaf-4bf8-a8c8-954e14e51a24
 ms.date: 12/05/2018
 ms.keywords: GetTCRMode, GetTCRMode method [DirectShow], GetTCRMode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTCRMode method, IAMTimecodeReader.GetTCRMode, IAMTimecodeReader::GetTCRMode, IAMTimecodeReaderGetTCRMode, dshow.iamtimecodereader_gettcrmode, strmif/IAMTimecodeReader::GetTCRMode
-f1_keywords:
-- strmif/IAMTimecodeReader.GetTCRMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeReader.GetTCRMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeReader::GetTCRMode
+ - strmif/IAMTimecodeReader::GetTCRMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeReader.GetTCRMode
 ---
 
 # IAMTimecodeReader::GetTCRMode
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTCRMode</code> method retrieves the timecode reader's properties.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
 Timecode reader property to get (either ED_TCR_SOURCE or ED_TCR_NOTIFY_ENABLE).
-
 
 ### -param pValue [out]
 
@@ -97,21 +91,12 @@ Pointer to the value of the requested timecode reader property. If <i>Param</i> 
 <td>Last read value</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns E_NOTIMPL.
 
-
-
-
 ## -remarks
-
-
 
 Linear timecode is recorded on an analog audio track as a bi-phase mark -encoded signal. Each timecode frame is one video frame time in duration.
 
@@ -121,13 +106,7 @@ Control track is a once-per-frame signal recorded on a special track on a tape. 
 
 Note that ED_TCR_LAST_VALUE is used when implementing timecode notification because the application does not want to initiate another timecode request to the external device. This method is not recommended for frame-accurate applications because of multithreading issues.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -138,7 +117,4 @@ Note that ED_TCR_LAST_VALUE is used when implementing timecode notification beca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a>
- 
-
- 
 

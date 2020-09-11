@@ -1,17 +1,13 @@
 ---
 UID: NF:wingdi.PolyDraw
 title: PolyDraw function (wingdi.h)
-description: The PolyDraw function draws a set of line segments and B�zier curves.
+description: The PolyDraw function draws a set of line segments and B�zier curves.
 helpviewer_keywords: ["PT_BEZIERTO","PT_CLOSEFIGURE","PT_LINETO","PT_MOVETO","PolyDraw","PolyDraw function [Windows GDI]","_win32_PolyDraw","gdi.polydraw","wingdi/PolyDraw"]
 old-location: gdi\polydraw.htm
 tech.root: gdi
 ms.assetid: 5fd3f285-dcf3-4cd0-915a-236ba7902353
 ms.date: 12/05/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
-f1_keywords:
-- wingdi/PolyDraw
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-api_name:
-- PolyDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PolyDraw
+ - wingdi/PolyDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+api_name:
+ - PolyDraw
 ---
 
 # PolyDraw function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PolyDraw</b> function draws a set of line segments and Bézier curves.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a device context.
 
-
 ### -param apt [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
-
 
 ### -param aj [in]
 
@@ -135,28 +129,18 @@ The current position is set to the ending point of the closing line.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cpt [in]
 
 The total number of points in the <i>lppt</i> array, the same as the number of bytes in the <i>lpbTypes</i> array.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>PolyDraw</b> function can be used in place of consecutive calls to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a> functions to draw disjoint figures. The lines and curves are drawn using the current pen and figures are not filled. If there is an active path started by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>, <b>PolyDraw</b> adds to the path.
 
@@ -164,13 +148,7 @@ The points contained in the <i>lppt</i> array and in the <i>lpbTypes</i> array i
 
 This function updates the current position.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
@@ -205,7 +183,4 @@ This function updates the current position.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">PolyLine</a>
- 
-
- 
 

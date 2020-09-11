@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: b3508bb5-4e36-4088-afcc-4a75a01d1fe6
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE structure [MIB], PMIB_INVERTEDIFSTACK_TABLE, PMIB_INVERTEDIFSTACK_TABLE structure pointer [MIB], mib.mib_invertedifstack_table, netioapi/MIB_INVERTEDIFSTACK_TABLE, netioapi/PMIB_INVERTEDIFSTACK_TABLE'
-f1_keywords:
-- netioapi/MIB_INVERTEDIFSTACK_TABLE
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_INVERTEDIFSTACK_TABLE
 targetos: Windows
 req.typenames: MIB_INVERTEDIFSTACK_TABLE, *PMIB_INVERTEDIFSTACK_TABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_INVERTEDIFSTACK_TABLE
+ - netioapi/_MIB_INVERTEDIFSTACK_TABLE
+ - PMIB_INVERTEDIFSTACK_TABLE
+ - netioapi/PMIB_INVERTEDIFSTACK_TABLE
+ - MIB_INVERTEDIFSTACK_TABLE
+ - netioapi/MIB_INVERTEDIFSTACK_TABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_INVERTEDIFSTACK_TABLE
 ---
 
 # MIB_INVERTEDIFSTACK_TABLE structure
@@ -49,30 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_INVERTEDIFSTACK_TABLE</b> structure contains a table of inverted network interface stack row entries. This  specifies the relationship of the network interfaces on an interface stack in reverse order.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumEntries
 
 The number of inverted interface stack row entries in the array.
-
 
 ### -field Table
 
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_row">MIB_INVERTEDIFSTACK_ROW</a> structures containing inverted interface stack row entries.
 
-
 ## -remarks
-
-
 
 The <b>MIB_INVERTEDIFSTACK_TABLE</b> structure is defined on Windows Vista and later. 
 
@@ -88,13 +84,7 @@ The <b>MIB_INVERTEDIFSTACK_TABLE</b> structure may contain padding for alignment
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifstacktable">GetIfStackTable</a>
 
@@ -113,7 +103,4 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_row">MIB_INVERTEDIFSTACK_ROW</a>
- 
-
- 
 

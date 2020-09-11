@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d34d423b-4510-44ce-ab46-51560b01f205
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoSampleFromSurface, MFCreateVideoSampleFromSurface callback, MFCreateVideoSampleFromSurface callback function [Media Foundation], d34d423b-4510-44ce-ab46-51560b01f205, evr/MFCreateVideoSampleFromSurface, mf.mfcreatevideosamplefromsurface
-f1_keywords:
-- evr/MFCreateVideoSampleFromSurface
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- evr.h
-api_name:
-- MFCreateVideoSampleFromSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateVideoSampleFromSurface
+ - evr/MFCreateVideoSampleFromSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - evr.h
+api_name:
+ - MFCreateVideoSampleFromSurface
 ---
 
 # MFCreateVideoSampleFromSurface callback function
@@ -49,40 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a media sample that manages a Direct3D surface.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pUnkSurface [in]
 
 A pointer to the <b>IUnknown</b> interface of the Direct3D surface. This parameter can be <b>NULL</b>.
-          
-
 
 ### -param ppSample [out]
 
 Receives a pointer to the sample's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface.
           The caller must release the interface.
 
-
 ## -returns
-
-
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The media sample created by this function exposes the following interfaces in addition to <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>:
 
@@ -157,14 +142,7 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/directx-surface-buffer">DirectX Surface Buffer</a>
 
@@ -175,7 +153,4 @@ done:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
- 
-
- 
 

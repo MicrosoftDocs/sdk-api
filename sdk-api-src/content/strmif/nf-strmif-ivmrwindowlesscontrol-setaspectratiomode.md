@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 421910fb-8007-4347-a57c-6a46b7b733b3
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetAspectRatioMode method, IVMRWindowlessControl.SetAspectRatioMode, IVMRWindowlessControl::SetAspectRatioMode, IVMRWindowlessControlSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setaspectratiomode, strmif/IVMRWindowlessControl::SetAspectRatioMode
-f1_keywords:
-- strmif/IVMRWindowlessControl.SetAspectRatioMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRWindowlessControl.SetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRWindowlessControl::SetAspectRatioMode
+ - strmif/IVMRWindowlessControl::SetAspectRatioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRWindowlessControl.SetAspectRatioMode
 ---
 
 # IVMRWindowlessControl::SetAspectRatioMode
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetAspectRatioMode</code> method specifies whether the VMR will preserve the aspect ratio of the source video.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param AspectRatioMode [in]
 
 Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmr_aspect_ratio_mode">VMR_ASPECT_RATIO_MODE</a> enumeration type.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -112,15 +102,8 @@ The VMR is not in windowless mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -135,7 +118,4 @@ The VMR is not in windowless mode.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and Driver Installation], SetupDiCreateDevRegKeyA, SetupDiCreateDevRegKeyW, devinst.setupdicreatedevregkey, di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml, setupapi/SetupDiCreateDevRegKey
-f1_keywords:
-- setupapi/SetupDiCreateDevRegKey
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiCreateDevRegKey - SetupDiCreateDevRegKeyA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiCreateDevRegKeyA
+ - setupapi/SetupDiCreateDevRegKeyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiCreateDevRegKey - SetupDiCreateDevRegKeyA
 ---
 
 # SetupDiCreateDevRegKeyA function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiCreateDevRegKey</b> function creates a registry key for device-specific configuration information and returns a handle to the key. 
-
+The <b>SetupDiCreateDevRegKey</b> function creates a registry key for device-specific configuration information and returns a handle to the key.
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to create a registry key. 
-
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to create a registry key.
 
 ### -param DeviceInfoData [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
-
 
 ### -param Scope [in]
 
@@ -87,11 +81,9 @@ Create a key to store global configuration information. This information is not 
 
 Create a key to store hardware profile-specific configuration information. This key is rooted at one of the hardware-profile specific branches, instead of <b>HKEY_LOCAL_MACHINE</b>.
 
-
 ### -param HwProfile [in]
 
 The hardware profile for which to create a key if <i>HwProfileFlags</i> is set to SPDICS_FLAG_CONFIGSPECIFIC. If <i>HwProfile</i> is 0, the key for the current hardware profile is created. If <i>HwProfileFlags</i> is SPDICS_FLAG_GLOBAL, <i>HwProfile</i> is ignored.
-
 
 ### -param KeyType [in]
 
@@ -111,29 +103,19 @@ Create a <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware
 
 Create a <a href="https://docs.microsoft.com/windows-hardware/drivers/">software key</a> for the device.
 
-
 ### -param InfHandle [in, optional]
 
 The handle to an open INF file that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> to be executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfSectionName</i> must be specified as well.
-
 
 ### -param InfSectionName [in, optional]
 
 The name of an INF <i>DDInstall</i> section in the INF file specified by <i>InfHandle</i>. This section is executed for the newly created key. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <i>InfHandle</i> must be specified as well.
 
-
 ## -returns
-
-
 
 If <b>SetupDiCreateDevRegKey</b> succeeds, the function returns a handle to the specified registry key in which device-specific configuration data can be stored and retrieved. If <b>SetupDiCreateDevRegKey</b> fails, the function returns INVALID_HANDLE_VALUE. Call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> to get extended error information.
 
-
-
-
 ## -remarks
-
-
 
 The caller of <b>SetupDiCreateDevRegKey</b> must be a member of the Administrators group.
 
@@ -156,9 +138,6 @@ If the supplied device information set contains device information elements for 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfoa">SetupDiCreateDeviceInfo</a>
 
 
@@ -172,7 +151,4 @@ If the supplied device information set contains device information elements for 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
-f1_keywords:
-- winsock2/WSAEnumNetworkEvents
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAEnumNetworkEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAEnumNetworkEvents
+ - winsock2/WSAEnumNetworkEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAEnumNetworkEvents
 ---
 
 # WSAEnumNetworkEvents function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAEnumNetworkEvents</b> function discovers occurrences of network events for the indicated socket, clear internal network event records, and reset event objects (optional).
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying the socket.
 
-
 ### -param hEventObject [in]
 
 An optional handle identifying an associated event object to be reset.
-
 
 ### -param lpNetworkEvents [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanetworkevents">WSANETWORKEVENTS</a> structure that is filled with a record of network events that occurred and any associated error codes.
 
-
 ## -returns
-
-
 
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
@@ -155,14 +146,8 @@ The <i>lpNetworkEvents</i> parameter is not a valid part of the user address spa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAEnumNetworkEvents</b> function is used to discover which network events have occurred for the indicated socket since the last invocation of this function. It is intended for use in conjunction with 
@@ -412,13 +397,7 @@ int main()
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
 
@@ -429,7 +408,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

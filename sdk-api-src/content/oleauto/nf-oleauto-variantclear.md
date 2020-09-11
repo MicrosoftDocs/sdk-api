@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 28741d81-8404-4f85-95d3-5c209ec13835
 ms.date: 12/05/2018
 ms.keywords: VariantClear, VariantClear function [Automation], _oa96_VariantClear, automat.variantclear, oleauto/VariantClear
-f1_keywords:
-- oleauto/VariantClear
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VariantClear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VariantClear
+ - oleauto/VariantClear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VariantClear
 ---
 
 # VariantClear function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears a variant.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarg [in, out]
 
 The variant to clear.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -121,14 +114,8 @@ One of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this function to clear variables of type VARIANTARG (or VARIANT) before the memory containing the VARIANTARG is freed (as when a local variable goes out of scope). 
 
@@ -153,17 +140,7 @@ for(int i = 0; i < celt; ++i)
    VariantClear(&rgvar[i]);
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/variant-manipulation-functions">Variant Manipulation Functions</a>
- 
-
- 
 

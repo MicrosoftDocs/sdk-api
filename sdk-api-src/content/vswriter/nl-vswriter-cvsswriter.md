@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5d54c966-86ad-41af-82be-8a182b3d203a
 ms.date: 12/05/2018
 ms.keywords: CVssWriter, CVssWriter class [VSS], CVssWriter class [VSS],described, _win32_cvsswriter, base.cvsswriter, vswriter/CVssWriter
-f1_keywords:
-- vswriter/CVssWriter
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter
+ - vswriter/CVssWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter
 ---
 
 # CVssWriter class
 
 
 ## -description
-
 
 The <b>CVssWriter</b> class is an abstract base class that defines 
     the interface by which a writer synchronizes its state with VSS and other writers.

@@ -30,6 +30,7 @@ api_location:
 api_name:
  - D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR
 f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR
  - d3d12video/D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR
 dev_langs:
  - c++
@@ -60,7 +61,6 @@ A bitwise OR combination of values from the [D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR
 ### -field SizeRange
 
 A [D3D12_VIDEO_SIZE_RANGE](ns-d3d12video-d3d12_video_size_range.md) structure representing the minimum and maximum input size supported by the driver. The driver sets the fields of this structure to zero if motion estimation is unsupported.
-
 
 ## -remarks
 

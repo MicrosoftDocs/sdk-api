@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: FD91EE99-F94E-44CE-9331-933D0CAA5F75
 ms.date: 12/05/2018
 ms.keywords: QueryContextAttributesEx, QueryContextAttributesEx function [Security], QueryContextAttributesExA, QueryContextAttributesExW, SECPKG_ATTR_ACCESS_TOKEN, SECPKG_ATTR_APP_DATA, SECPKG_ATTR_AUTHORITY, SECPKG_ATTR_CLIENT_SPECIFIED_TARGET, SECPKG_ATTR_CONNECTION_INFO, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_DCE_INFO, SECPKG_ATTR_EAP_KEY_BLOCK, SECPKG_ATTR_ENDPOINT_BINDINGS, SECPKG_ATTR_FLAGS, SECPKG_ATTR_ISSUER_LIST_EX, SECPKG_ATTR_KEY_INFO, SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS, SECPKG_ATTR_LIFESPAN, SECPKG_ATTR_LOCAL_CERT_CONTEXT, SECPKG_ATTR_LOCAL_CRED, SECPKG_ATTR_NAMES, SECPKG_ATTR_NATIVE_NAMES, SECPKG_ATTR_NEGOTIATION_INFO, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_PASSWORD_EXPIRY, SECPKG_ATTR_REMOTE_CERT_CONTEXT, SECPKG_ATTR_ROOT_STORE, SECPKG_ATTR_SESSION_INFO, SECPKG_ATTR_SESSION_KEY, SECPKG_ATTR_SIZES, SECPKG_ATTR_STREAM_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, SECPKG_ATTR_SUPPORTED_SIGNATURES, SECPKG_ATTR_TARGET_INFORMATION, SECPKG_ATTR_UNIQUE_BINDINGS, security.querycontextattributesex, sspi/QueryContextAttributesEx, sspi/QueryContextAttributesExA, sspi/QueryContextAttributesExW
-f1_keywords:
-- sspi/QueryContextAttributesEx
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- QueryContextAttributesEx
-- QueryContextAttributesExA
-- QueryContextAttributesExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryContextAttributesExW
+ - sspi/QueryContextAttributesExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - QueryContextAttributesEx
+ - QueryContextAttributesExA
+ - QueryContextAttributesExW
 ---
 
 # QueryContextAttributesExW function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a transport application to query a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> for certain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A handle to the security context to be queried.
-
 
 ### -param ulAttribute [in]
 
@@ -516,34 +511,22 @@ This value is supported only by the Schannel security package.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
 A pointer to a structure that receives the attributes. The type of structure pointed to depends on the value specified in the <i>ulAttribute</i> parameter.
 
-
 ### -param cbBuffer [in]
 
 The size, in bytes, of the <i>pBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SEC_E_OK.
 
 If the function fails, the return value is a nonzero error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -590,9 +573,6 @@ If the function fails, the return value is a nonzero error code.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_streamsizes">SecPkgContext_StreamSizes</a>
- 
-
- 
 
 ## -remarks
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: mstv
+f1_keywords:
+ - strmif
+ - strmif/strmif
 ---
 
 # Strmif.h header
 
 
 ## -description
-
 
 This header is used by Microsoft TV Technologies. For more information, see:
 

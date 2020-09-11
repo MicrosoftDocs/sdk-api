@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
-f1_keywords:
-- dpapi/CryptProtectData
-dev_langs:
-- c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptProtectData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptProtectData
+ - dpapi/CryptProtectData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptProtectData
 ---
 
 # CryptProtectData function
@@ -49,42 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptProtectData</b> function performs encryption on the data in a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure. Typically, only a user with the same logon credential as the user who encrypted the data can decrypt the data. In addition, the encryption and decryption usually must be done on the same computer. For information about exceptions, see  Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataIn [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> to be encrypted.
 
-
 ### -param szDataDescr [in, optional]
 
 A string with a readable description of the data to be encrypted. This description string is included with the encrypted data. This parameter is optional and can be set to <b>NULL</b>.
-
 
 ### -param pOptionalEntropy [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure that contains a password or other additional entropy used to encrypt the data. The <b>DATA_BLOB</b> structure used in the encryption phase must also be used in the decryption phase. This parameter can be set to <b>NULL</b> for no additional entropy. For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-
 ### -param pvReserved [in]
 
 Reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param pPromptStruct [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/ns-dpapi-cryptprotect_promptstruct">CRYPTPROTECT_PROMPTSTRUCT</a> structure that provides information about where and when prompts are to be displayed and what the content of those prompts should be. This parameter can be set to <b>NULL</b> in both the encryption and decryption phases.
-
 
 ### -param dwFlags [in]
 
@@ -128,18 +119,13 @@ This flag generates an audit on protect and unprotect operations. Audit log entr
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDataOut [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">DATA_BLOB</a> structure that receives the encrypted data. When you have finished using the <b>DATA_BLOB</b> structure, free its <b>pbData</b> member by calling the   <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 						
@@ -147,12 +133,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Typically, only a user with logon <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> that match those of the user who encrypted the data can decrypt the data. In addition, decryption usually can only be done on the computer where the data was encrypted. However, a user with a roaming profile can decrypt the data from another computer on the network.
 
@@ -213,14 +194,7 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a>
 
@@ -235,7 +209,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
- 
-
- 
 

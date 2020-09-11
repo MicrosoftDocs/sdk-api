@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: c6ca6760-a927-470f-9785-7500d1711902
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING, WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING, wsw.ws_http_header_auth_security_binding
-f1_keywords:
-- webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+ - webservices/_WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+ - WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+ - webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 ---
 
 # WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure
 
 
 ## -description
-
 
 The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server 
                 based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.
@@ -74,18 +76,11 @@ With this security binding, the following security binding properties may be spe
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_property_id">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_DIGEST_DOMAIN</a> (server side only)</li>
 </ul>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field binding
 
 The base type from which this security binding subtype and all other security binding subtypes derive.
-                
-
 
 ### -field clientCredential
 
@@ -99,5 +94,4 @@ If the credential used is a <a href="/windows/win32/api/webservices/ns-webservic
                     <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_node_type">WS_HTTP_HEADER_AUTH_SCHEME_NONE</a>, <b>WS_HTTP_HEADER_AUTH_SCHEME_NTLM</b>, 
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</b> or <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b>.
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b> defaults to using the Passport keyring.
-                
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7483b51e-d71d-4570-8b76-64e344c2227e
 ms.date: 12/05/2018
 ms.keywords: IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], IPersistSerializedPropStorage2 interface [Windows Shell],described, _shell_IPersistSerializedPropStorage2, propsys/IPersistSerializedPropStorage2, shell.IPersistSerializedPropStorage2
-f1_keywords:
-- propsys/IPersistSerializedPropStorage2
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.dll
-api_name:
-- IPersistSerializedPropStorage2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistSerializedPropStorage2
+ - propsys/IPersistSerializedPropStorage2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.dll
+api_name:
+ - IPersistSerializedPropStorage2
 ---
 
 # IPersistSerializedPropStorage2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Gets the size of serialized property storage data from the property store instan
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipersistserializedpropstorage">IPersistSerializedPropStorage</a> interface, from which it inherits.
 
@@ -100,6 +96,4 @@ This interface also provides the methods of the <a href="https://docs.microsoft.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 The in-memory property store, created by calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatememorypropertystore">PSCreateMemoryPropertyStore</a>, provides an implementation of this interface. Use this implementation when you want to persist or restore serialized property storage data.
-
-
 

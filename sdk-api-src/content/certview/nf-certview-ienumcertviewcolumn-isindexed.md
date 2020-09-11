@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
-f1_keywords:
-- certview/IEnumCERTVIEWCOLUMN.IsIndexed
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWCOLUMN.IsIndexed
-- IEnumCERTVIEWCOLUMN.IsIndexed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWCOLUMN::IsIndexed
+ - certview/IEnumCERTVIEWCOLUMN::IsIndexed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWCOLUMN.IsIndexed
+ - IEnumCERTVIEWCOLUMN.IsIndexed
 ---
 
 # IEnumCERTVIEWCOLUMN::IsIndexed
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsIndexed</b> method reports whether the data in the column is indexed.
 
-
 ## -parameters
-
-
-
 
 ### -param pIndexed [out]
 
 A pointer to a variable of type <b>LONG</b> that indicates <b>TRUE</b> if the data is indexed and <b>FALSE</b> if the data is not indexed. This method fails if <i>pIndexed</i> is set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the <i>pIndexed</i> is set to <b>TRUE</b> or <b>FALSE</b>.
@@ -76,12 +69,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  One if the column is indexed; otherwise, zero.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to determine whether the data of the current column referenced by the column-enumeration sequence is indexed.
 
@@ -109,14 +97,7 @@ if (S_OK == hr)
     printf( bIsindexed ? "Indexed\n" : "Not indexed\n");
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
 
@@ -131,7 +112,4 @@ if (S_OK == hr)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
- 
-
- 
 

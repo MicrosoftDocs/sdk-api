@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 957f5646-86e7-4632-9012-b1fb281b65fb
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutClassAsync method, IWbemServices.PutClassAsync, IWbemServices::PutClassAsync, PutClassAsync, PutClassAsync method [Windows Management Instrumentation], PutClassAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclassasync, wbemcli/IWbemServices::PutClassAsync, wmi.iwbemservices_putclassasync
-f1_keywords:
-- wbemcli/IWbemServices.PutClassAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.PutClassAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::PutClassAsync
+ - wbemcli/IWbemServices::PutClassAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.PutClassAsync
 ---
 
 # IWbemServices::PutClassAsync
@@ -63,23 +64,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemServices::PutClassAsync</b> method 
     creates a new class, or updates an existing one. The class specified by the <i>pObject</i> 
     parameter must be correctly initialized with all of the required property values. The call immediately returns. 
     Success or failure is supplied to the object sink specified by the <i>pResponseHandler</i> 
     parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param pObject [in]
 
 Pointer to the object containing the class definition.
-
 
 ### -param lFlags [in]
 
@@ -141,13 +136,11 @@ This flag allows updates of classes even if there are child classes, as long as 
 
 This flag forces updates of classes when conflicting child classes exist. An example of an update this flag would force would be if a class qualifier were defined in a child class, and the base class tried to add the same qualifier which conflicted with the existing one. In force mode, this conflict would be resolved by deleting the conflicting qualifier in the child class.
 
-
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider that is receiving the requested class. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
-
 
 ### -param pResponseHandler [in]
 
@@ -159,10 +152,7 @@ Pointer to the caller's implementation of
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <b>AddRef</b> to the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For a detailed explanation of this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
@@ -180,11 +170,7 @@ Because returning <b>WBEM_E_FAILED</b> causes other providers to not have a chan
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">IWbemServices::PutClass</a> method should only be used to create or update a class when there are no clients or providers currently using the class.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 If multiple class providers are installed for one particular class, WMI will not recognize which class 
     provider is capable of creating that class.
@@ -228,14 +214,7 @@ HRESULT CStdProvider::PutClassAsync(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
@@ -250,7 +229,4 @@ HRESULT CStdProvider::PutClassAsync(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">IWbemServices::PutClass</a>
- 
-
- 
 

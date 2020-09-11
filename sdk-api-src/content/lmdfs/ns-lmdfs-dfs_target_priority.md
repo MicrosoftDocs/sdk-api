@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: b8f645ab-e3b4-4e0f-809a-57e27ab1e641
 ms.date: 12/05/2018
 ms.keywords: '*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY structure [Distributed File System], LPDFS_TARGET_PRIORITY, LPDFS_TARGET_PRIORITY structure pointer [Distributed File System], PDFS_TARGET_PRIORITY, PDFS_TARGET_PRIORITY structure pointer [Distributed File System], dfs.dfs_target_priority, fs.dfs_target_priority, lmdfs/DFS_TARGET_PRIORITY, lmdfs/LPDFS_TARGET_PRIORITY, lmdfs/PDFS_TARGET_PRIORITY, netmgmt.dfs_target_priority'
-f1_keywords:
-- lmdfs/DFS_TARGET_PRIORITY
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_TARGET_PRIORITY
 targetos: Windows
 req.typenames: DFS_TARGET_PRIORITY, *PDFS_TARGET_PRIORITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_TARGET_PRIORITY
+ - lmdfs/_DFS_TARGET_PRIORITY
+ - PDFS_TARGET_PRIORITY
+ - lmdfs/PDFS_TARGET_PRIORITY
+ - DFS_TARGET_PRIORITY
+ - lmdfs/DFS_TARGET_PRIORITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_TARGET_PRIORITY
 ---
 
 # DFS_TARGET_PRIORITY structure
@@ -49,36 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the priority class and rank of a specific DFS target.
-
 
 ## -struct-fields
 
-
-
-
 ### -field TargetPriorityClass
-
 
 <a href="/windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1">DFS_TARGET_PRIORITY_CLASS</a> enumeration 
       value that specifies the priority class of the target.
-
 
 ### -field TargetPriorityRank
 
 Specifies the priority rank value of the target. The default value is 0, which indicates the highest 
       priority rank within a priority class.
 
-
 ### -field Reserved
 
 This member is reserved and must be zero.
 
-
 ## -remarks
-
-
 
 This structure is used as the <b>TargetPriority</b> member of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>, 
@@ -113,13 +107,7 @@ Note that the value for a "normal priority class" is set to 0 even though it is 
 For more information about how server target priority is determined, see 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
@@ -154,7 +142,4 @@ For more information about how server target priority is determined, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

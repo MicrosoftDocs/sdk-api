@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: 787e12e9-b134-416a-9191-5a2cc6a922fd
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],Destroy method, IPhotoAcquireOptionsDialog.Destroy, IPhotoAcquireOptionsDialog::Destroy, IPhotoAcquireOptionsDialogDestroy, photoacquire/IPhotoAcquireOptionsDialog::Destroy, picacq.iphotoacquireoptionsdialog_destroy
-f1_keywords:
-- photoacquire/IPhotoAcquireOptionsDialog.Destroy
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireOptionsDialog.Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireOptionsDialog::Destroy
+ - photoacquire/IPhotoAcquireOptionsDialog::Destroy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireOptionsDialog.Destroy
 ---
 
 # IPhotoAcquireOptionsDialog::Destroy
@@ -50,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Destroy</code> method closes and destroys the modeless dialog box created with the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> method.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,27 +76,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you destroy the parent window, the child window will automatically be destroyed.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
- 
-
- 
 

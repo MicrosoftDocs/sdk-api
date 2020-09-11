@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 1053f68f-4785-48a2-98da-26cc8bd41a50
 ms.date: 12/05/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetLogonSetting, WinBioGetLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetlogonsetting, winbio/WinBioGetLogonSetting
-f1_keywords:
-- winbio/WinBioGetLogonSetting
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioGetLogonSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioGetLogonSetting
+ - winbio/WinBioGetLogonSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioGetLogonSetting
 ---
 
 # WinBioGetLogonSetting function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value that indicates whether users can log on by using biometric information.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [out]
 
 Pointer to a Boolean value that specifies whether biometric logons are enabled.
-
 
 ### -param Source [out]
 
@@ -116,25 +111,12 @@ The setting was created by Group Policy.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>
- 
-
- 
 

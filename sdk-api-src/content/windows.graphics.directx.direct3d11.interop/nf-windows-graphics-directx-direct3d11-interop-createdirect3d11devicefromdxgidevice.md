@@ -7,10 +7,6 @@ tech.root: winrt
 ms.assetid: DF768592-3A0D-4FEA-AE30-CDD5406CAC9D
 ms.date: 05/13/2019
 ms.keywords: DF768592-3A0D-4FEA-AE30-CDD5406CAC9D, CreateDirect3D11DeviceFromDXGIDevice, CreateDirect3D11DeviceFromDXGIDevice function [Direct3D 11], windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice, direct3d11.createdirect3d11devicefromdxgidevice
-f1_keywords:
-- windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice
-dev_langs:
-- c++
 req.header: windows.graphics.directx.direct3d11.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +24,27 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D11.dll
-api_name:
-- CreateDirect3D11DeviceFromDXGIDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - CreateDirect3D11DeviceFromDXGIDevice
+ - windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D11.dll
+api_name:
+ - CreateDirect3D11DeviceFromDXGIDevice
 ---
 
 # CreateDirect3D11DeviceFromDXGIDevice function
+
 
 ## -description
 
@@ -63,6 +65,7 @@ Type: **[IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspecta
 A Direct3DDevice instance that wraps the DXGIDevice.
 
 ## -returns
+
 Type: [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes)
 
 If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10).
@@ -84,3 +87,4 @@ If (SUCCEEDED(CreateDirect3D11DeviceFromDXGIDevice(dxgiDevice, &inspectableSurfa
 ## -see-also
 
 [Core functions](/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-functions)
+

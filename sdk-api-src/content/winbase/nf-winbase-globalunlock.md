@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 580a2873-7f06-47a1-acf5-c2b3c96e15e7
 ms.date: 12/05/2018
 ms.keywords: GlobalUnlock, GlobalUnlock function, _win32_globalunlock, base.globalunlock, winbase/GlobalUnlock
-f1_keywords:
-- winbase/GlobalUnlock
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GlobalUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalUnlock
+ - winbase/GlobalUnlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GlobalUnlock
 ---
 
 # GlobalUnlock function
@@ -52,15 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements the lock count associated with a memory object that was allocated with <b>GMEM_MOVEABLE</b>. This function has no effect on memory objects allocated with <b>GMEM_FIXED</b>.
 <div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param hMem [in]
 
@@ -68,22 +65,14 @@ A handle to the global memory object. This handle is returned by either the
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalrealloc">GlobalReAlloc</a> function.
 
-
 ## -returns
-
-
 
 If the memory object is still locked after decrementing the lock count, the return value is a nonzero value. If the memory object is unlocked after decrementing the lock count, the function returns zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>NO_ERROR</b>.
 
 If the function fails, the return value is zero and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value other than <b>NO_ERROR</b>.
 
-
-
-
 ## -remarks
-
-
 
 The internal data structures for each memory object include a lock count that is initially zero. For movable memory objects, the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> function increments the count by one, and 
@@ -101,13 +90,7 @@ If the memory object is already unlocked,
 A process should not rely on the return value to determine the number of times it must subsequently call 
 <b>GlobalUnlock</b> for a memory object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -127,7 +110,4 @@ A process should not rely on the return value to determine the number of times i
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

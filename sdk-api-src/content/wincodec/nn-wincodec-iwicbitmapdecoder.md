@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], IWICBitmapDecoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoder, wic._wic_codec_iwicbitmapdecoder, wincodec/IWICBitmapDecoder
-f1_keywords:
-- wincodec/IWICBitmapDecoder
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapDecoder
+ - wincodec/IWICBitmapDecoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapDecoder
 ---
 
 # IWICBitmapDecoder interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that represent a decoder.
 
-The interface provides access to the decoder's properties such as global thumbnails (if supported), frames, and palette. 
-
+The interface provides access to the decoder's properties such as global thumbnails (if supported), frames, and palette.
 
 ## -inheritance
 
@@ -169,12 +168,9 @@ Retrieves the capabilities of the decoder based on the specified stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 There are a number of concrete implemenations of this interface representing each of the standard decoders provided by the platform including bitmap (BMP), Portable Network Graphics (PNG), icon (ICO), Joint Photographic Experts Group (JPEG), Graphics Interchange Format (GIF), Tagged Image File Format (TIFF), and Microsoft Windows Digital Photo (WDP). The following table includes the class identifier (CLSID) for each native decoder.
             
@@ -229,13 +225,7 @@ Codecs written as TIFF container formats that are not register will decode as a 
 
 CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
 
@@ -258,7 +248,4 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
- 
-
- 
 

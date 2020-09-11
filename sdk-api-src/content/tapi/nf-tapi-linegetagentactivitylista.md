@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 8f0be375-2891-45bd-a2cb-246ea5c4b9bb
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetagentactivitylist, lineGetAgentActivityList, lineGetAgentActivityList function [TAPI 2.2], lineGetAgentActivityListA, lineGetAgentActivityListW, tapi/lineGetAgentActivityList, tapi/lineGetAgentActivityListA, tapi/lineGetAgentActivityListW, tapi2.linegetagentactivitylist
-f1_keywords:
-- tapi/lineGetAgentActivityList
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGetAgentActivityList
-- lineGetAgentActivityListA
-- lineGetAgentActivityListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGetAgentActivityListA
+ - tapi/lineGetAgentActivityListA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGetAgentActivityList
+ - lineGetAgentActivityListA
+ - lineGetAgentActivityListW
 ---
 
 # lineGetAgentActivityListA function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGetAgentActivityList</b> function obtains the identities of activities that the application can select using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a> to indicate what function the agent is actually performing at the moment.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to the open line device.
 
-
 ### -param dwAddressID
 
 Address on the open line device whose agent status is to be queried. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param lpAgentActivityList
 
@@ -79,22 +73,13 @@ Pointer to a variably sized structure of type
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>. Prior to calling 
 <b>lineGetAgentActivityList</b>, the application should set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the asynchronous operation starts; otherwise, this function returns one of these negative error values:
 
 LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_INVALAGENTID, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALLINEHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_STRUCTURETOOSMALL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentactivitylist">LINEAGENTACTIVITYLIST</a>
 
@@ -109,9 +94,6 @@ LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_INVALAGENTID, LINEERR_O
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentactivity">lineSetAgentActivity</a>
- 
-
- 
 
 ## -remarks
 

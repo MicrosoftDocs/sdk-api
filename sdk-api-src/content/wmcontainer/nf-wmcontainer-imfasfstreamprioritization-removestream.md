@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a6139042-9c78-4fe7-8549-655e35be2862
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamPrioritization interface [Media Foundation],RemoveStream method, IMFASFStreamPrioritization.RemoveStream, IMFASFStreamPrioritization::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFStreamPrioritization interface, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
-f1_keywords:
-- wmcontainer/IMFASFStreamPrioritization.RemoveStream
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamPrioritization.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamPrioritization::RemoveStream
+ - wmcontainer/IMFASFStreamPrioritization::RemoveStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamPrioritization.RemoveStream
 ---
 
 # IMFASFStreamPrioritization::RemoveStream
@@ -50,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is not implemented in this version of Media Foundation.</div>
 <div> </div>
 Removes a stream from the stream priority list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
 Index of the entry in the stream priority list to remove. Values range from zero, to one less than the stream count retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstreamcount">IMFASFStreamPrioritization::GetStreamCount</a>.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -92,27 +82,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When a stream is removed from the stream priority list, the index values of all streams that follow it in the list are decremented.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
- 
-
- 
 

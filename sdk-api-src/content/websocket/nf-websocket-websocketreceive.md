@@ -8,10 +8,6 @@ tech.root: WebSock
 ms.assetid: 6285c6fc-1f7a-45f3-ba28-94992e73693e
 ms.date: 12/05/2018
 ms.keywords: WebSocketReceive, WebSocketReceive function [Websocket Protocol Component API], websock.websocketreceive, websocket/WebSocketReceive
-f1_keywords:
-- websocket/WebSocketReceive
-dev_langs:
-- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- websocket.dll
-api_name:
-- WebSocketReceive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WebSocketReceive
+ - websocket/WebSocketReceive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - websocket.dll
+api_name:
+ - WebSocketReceive
 ---
 
 # WebSocketReceive function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WebSocketReceive</b> function adds a receive operation to the protocol component operation queue.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
 
 WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>.
-
 
 ### -param pBuffer [in, optional]
 
@@ -80,10 +75,7 @@ Type: <b>PVOID</b>
 
 A pointer to an application context handle that will be returned by a subsequent call to  <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -108,15 +100,8 @@ Protocol performed an invalid operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-web_socket_action">WEB_SOCKET_ACTION</a>
 
@@ -135,7 +120,4 @@ Protocol performed an invalid operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
- 
-
- 
 

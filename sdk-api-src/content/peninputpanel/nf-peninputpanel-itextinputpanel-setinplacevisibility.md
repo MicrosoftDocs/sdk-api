@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 1e503857-9276-4308-b4ad-83db25866689
 ms.date: 12/05/2018
 ms.keywords: 1e503857-9276-4308-b4ad-83db25866689, ITextInputPanel interface [Tablet PC],SetInPlaceVisibility method, ITextInputPanel.SetInPlaceVisibility, ITextInputPanel::SetInPlaceVisibility, SetInPlaceVisibility, SetInPlaceVisibility method [Tablet PC], SetInPlaceVisibility method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlaceVisibility, tablet.itextinputpanel_setinplacevisibility
-f1_keywords:
-- peninputpanel/ITextInputPanel.SetInPlaceVisibility
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.SetInPlaceVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::SetInPlaceVisibility
+ - peninputpanel/ITextInputPanel::SetInPlaceVisibility
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.SetInPlaceVisibility
 ---
 
 # ITextInputPanel::SetInPlaceVisibility
 
 
 ## -description
-
 
 <p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
@@ -57,22 +57,13 @@ ms.custom: 19H1
 
 Shows or hides the Tablet PC Input Panel.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Visible
 
 <b>TRUE</b> to show the Input Panel; <b>FALSE</b> to hide the Input Panel.
 
-
 ## -returns
-
-
 
 If the Input Panel can display, the method returns <b>S_OK</b>, otherwise <b>E_FAIL</b>. See the Remarks section for more information about when the Input Panel can and cannot be affected by the <b>ITextInputPanel::SetInPlaceVisibility Method</b>.
 
@@ -104,14 +95,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Input Panel is shown as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentinplacestate">ITextInputPanel::CurrentInPlaceState Property</a> property.
 
@@ -145,14 +130,7 @@ void CCOMTIPDlg::OnEnSetfocusEdit1()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
@@ -171,7 +149,4 @@ void CCOMTIPDlg::OnEnSetfocusEdit1()
 
 
 <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a>
- 
-
- 
 

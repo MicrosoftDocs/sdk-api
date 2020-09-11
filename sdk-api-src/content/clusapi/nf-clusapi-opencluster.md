@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
 ms.date: 12/05/2018
 ms.keywords: OpenCluster, OpenCluster function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER, PCLUSAPI_OPEN_CLUSTER function [Failover Cluster], _wolf_opencluster, clusapi/OpenCluster, clusapi/PCLUSAPI_OPEN_CLUSTER, mscs.opencluster
-f1_keywords:
-- clusapi/OpenCluster
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- OpenCluster
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenCluster
+ - clusapi/OpenCluster
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - OpenCluster
 ---
 
 # OpenCluster function
@@ -53,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a connection to a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to 
     it.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszClusterName [in, optional]
 
@@ -77,8 +73,6 @@ Specifies one of the following values:
 </ul>
 
 ## -returns
-
-
 
 If the operation was successful, <b>OpenCluster</b> returns 
        a cluster handle.
@@ -102,14 +96,8 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A cluster handle is a pointer to an internally defined structure which stores information about the RPC or LPC 
      connection to the cluster. Any object handles obtained from the cluster handle will be associated with the RPC or 
@@ -133,12 +121,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a>
 
@@ -149,7 +132,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
- 
-
- 
 

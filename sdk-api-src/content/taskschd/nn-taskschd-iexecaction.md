@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 46a4cd60-df23-4109-8a86-b7755a6922dd
 ms.date: 12/05/2018
 ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction interface [Task Scheduler],described, execute action [Task Scheduler],interface, taskschd.iexecaction, taskschd/IExecAction
-f1_keywords:
-- taskschd/IExecAction
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IExecAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExecAction
+ - taskschd/IExecAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IExecAction
 ---
 
 # IExecAction interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an action that executes a command-line operation.
 
-
 ## -remarks
-
-
 
 This action performs a command-line operation. For example, the action could run a script or launch an executable.
 
@@ -70,12 +67,7 @@ For more information and example code for this interface, see <a href="https://d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
@@ -86,7 +78,4 @@ For more information and example code for this interface, see <a href="https://d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

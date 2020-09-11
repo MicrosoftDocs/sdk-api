@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 07b0bdf2-d224-4bbc-be29-9032a848d5ae
 ms.date: 12/05/2018
 ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Query, TPC_Shutdown, TPC_TimeJumped, TPC_UpdateConfig, TimeProvCommand, TimeProvCommand callback, TimeProvCommand callback function, _win32_timeprovcommand, base.timeprovcommand, timeprov/TimeProvCommand
-f1_keywords:
-- timeprov/TimeProvCommand
-dev_langs:
-- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Timeprov.h
-api_name:
-- TimeProvCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TimeProvCommand
+ - timeprov/TimeProvCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Timeprov.h
+api_name:
+ - TimeProvCommand
 ---
 
 # TimeProvCommand function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 A callback function that is called by the time provider manager to send commands to the time provider.
 
-
 ## -parameters
-
-
-
 
 ### -param hTimeProv [in]
 
 A handle to the time provider. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function receives this handle.
-
 
 ### -param eCmd [in]
 
@@ -178,26 +173,16 @@ The <i>pvArgs</i> parameter is not used. Any error returned by the provider is i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvArgs [in]
 
 A pointer to a buffer that specifies command information. The format of this data depends on the value of <i>eCmd</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is S_OK. Otherwise, the return value is one of the error codes defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 The time provider should never take longer than half a second to return from this call.
 
@@ -210,12 +195,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
@@ -226,7 +206,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>
- 
-
- 
 

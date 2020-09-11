@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 56a7207a-0ddf-49e6-91f9-e47db6df3b61
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMonitorMedia, TSPI_lineMonitorMedia function [TAPI 2.2], _tspi_tspi_linemonitormedia, tspi.tspi_linemonitormedia, tspi/TSPI_lineMonitorMedia
-f1_keywords:
-- tspi/TSPI_lineMonitorMedia
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineMonitorMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineMonitorMedia
+ - tspi/TSPI_lineMonitorMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineMonitorMedia
 ---
 
 # TSPI_lineMonitorMedia function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineMonitorMedia</b> function enables and disables the detection of media types on the specified call. When a media type is detected, a 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725233(v=vs.85)">LINE_MONITORMEDIA</a> message is sent to TAPI.
 
-
 ## -parameters
-
-
-
 
 ### -param hdCall
 
 The handle to the call for which media monitoring is to be set. The call state of <i>hdCall</i> can be any state except <i>idle</i>.
-
 
 ### -param dwMediaModes
 
@@ -75,21 +70,13 @@ The media types to be monitored. The <i>dwMediaModes</i> parameter can have one 
 
 A value of 0 cancels all media type monitoring.
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_INVALMEDIAMODE, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM.
 
-
-
-
 ## -remarks
-
-
 
 The service provider returns LINEERR_INVALMEDIAMODE if the list of media types to be monitored contains invalid information.
 
@@ -114,13 +101,7 @@ Because media-mode detection enabled by
 
 Regarding the passed media type, TAPI guarantees that there are no reserved bits set. The service provider must perform any further validity checks on the media types, such as checking whether any media types are indeed supported by the service provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
@@ -155,7 +136,4 @@ Regarding the passed media type, TAPI guarantees that there are no reserved bits
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediamode">TSPI_lineSetMediaMode</a>
- 
-
- 
 

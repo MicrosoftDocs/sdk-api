@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: d48667a3-5ae9-4a7d-9af6-14f08835940d
 ms.date: 12/05/2018
 ms.keywords: 1, 1101, NetWkstaUserSetInfo, NetWkstaUserSetInfo function [Network Management], _win32_netwkstausersetinfo, lmwksta/NetWkstaUserSetInfo, netmgmt.netwkstausersetinfo
-f1_keywords:
-- lmwksta/NetWkstaUserSetInfo
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetWkstaUserSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetWkstaUserSetInfo
+ - lmwksta/NetWkstaUserSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetWkstaUserSetInfo
 ---
 
 # NetWkstaUserSetInfo function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetWkstaUserSetInfo</b> function sets the user-specific information about the configuration elements for a workstation.
 
-
 ## -parameters
-
-
-
 
 ### -param reserved
 
 This parameter must be set to zero.
-
 
 ### -param level [in]
 
@@ -98,23 +93,17 @@ Specifies domains browsed by the workstation. The <i>buf</i> parameter points to
 </td>
 </tr>
 </table>
- 
-
 
 ### -param buf [in]
 
 Pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param parm_err [out]
 
 Pointer to a value that receives the index of the first parameter that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -148,14 +137,8 @@ One of the function parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>NetWkstaUserSetInfo</b> function only works locally. Administrator group membership is required.
@@ -234,14 +217,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstausergetinfo">NetWkstaUserGetInfo</a>
 
@@ -266,7 +242,4 @@ int wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
- 
-
- 
 

@@ -33,6 +33,7 @@ api_location:
 api_name:
  - InitializeContext2
 f1_keywords:
+ - InitializeContext2
  - winbase/InitializeContext2
 dev_langs:
  - c++
@@ -43,7 +44,6 @@ dev_langs:
 Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure inside a buffer 
     with the necessary size and alignment, with the option to specify an XSTATE compaction mask.
 
-
 ## -parameters
 
 ### -param Buffer [out, optional]
@@ -52,7 +52,6 @@ A pointer to a buffer within which to initialize a
       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure. This parameter can be 
        <b>NULL</b> to determine the buffer size required to hold a context record with the 
        specified <i>ContextFlags</i>.
-
 
 ### -param ContextFlags
 
@@ -92,17 +91,13 @@ On input, specifies the length of the buffer pointed to by <i>Buffer</i>, in byt
 Supplies the XState compaction mask to use when allocating the <i>Context</i> structure.
 This parameter is only used when <b>CONTEXT_XSTATE</b> is supplied to <i>ContextFlags</i> and the system has XState enabled in compaction mode.
 
-
 ## -returns
 
 This function returns <b>TRUE</b> if successful, otherwise 
       <b>FALSE</b>. To get extended error information, call 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 <i>InitializeContext</i> can be used to initialize a 
     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure within a buffer with the required size and 
@@ -139,12 +134,7 @@ This is particularly useful if the system has many XState components enabled, bu
 The full set of enabled XState components can be obtained by calling <a href="/windows/win32/api/winbase/nf-winbase-getenabledxstatefeatures">GetEnabledXStateFeatures</a>.
 This function copies the specified XState compaction mask into the relevant location in the XState header.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
@@ -159,7 +149,4 @@ This function copies the specified XState compaction mask into the relevant loca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/working-with-xstate-context">Working with XState Context</a>
- 
-
- 
 

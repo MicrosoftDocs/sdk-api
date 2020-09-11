@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCONTROLDETAILS, *PMIXERCONTROLDETAILS, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
-f1_keywords:
-- mmeapi/MIXERCONTROLDETAILS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERCONTROLDETAILS
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS, *PMIXERCONTROLDETAILS, *LPMIXERCONTROLDETAILS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tMIXERCONTROLDETAILS
+ - mmeapi/tMIXERCONTROLDETAILS
+ - PMIXERCONTROLDETAILS
+ - mmeapi/PMIXERCONTROLDETAILS
+ - MIXERCONTROLDETAILS
+ - mmeapi/MIXERCONTROLDETAILS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERCONTROLDETAILS
 ---
 
 # MIXERCONTROLDETAILS structure
@@ -49,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, retrieving or setting state information of an audio mixer control. All members of this structure must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a> and <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a> functions.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
 
-
 ### -field dwControlID
 
 Control identifier on which to get or set properties.
-
 
 ### -field cChannels
 
@@ -118,16 +113,11 @@ An application cannot specify a value that falls between 1 and the number of cha
 
 This member cannot be 0 for noncustom control types.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.hwndOwner
 
 Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a> function.
-
 
 ### -field DUMMYUNIONNAME.cMultipleItems
 
@@ -176,7 +166,6 @@ In this case, the hwndOwner member overlaps with cMultipleItems, providing the v
 When using a MIXERCONTROL_CONTROLTYPE_CUSTOM control without the MIXERCONTROL_CONTROLTYPE_CUSTOM flag, specify zero for this member.
 
 An application cannot specify any value other than the value specified in the cMultipleItems member of the MIXERCONTROL structure for a MIXERCONTROL_CONTROLF_MULTIPLE control.
-
 
 ### -field cbDetails
 
@@ -228,8 +217,6 @@ Unsigned value for an audio line control.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field paDetails
 
@@ -246,11 +233,7 @@ For controls other than MIXERCONTROL_CONTROLF_MULTIPLE types, each element index
 
 If the control is a MIXERCONTROL_CONTROLTYPE_CUSTOM control, this member must point to a buffer that is at least large enough to contain the size, in bytes, specified by the cbCustomData member of the MIXERCONTROL structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
@@ -269,7 +252,4 @@ If the control is a MIXERCONTROL_CONTROLTYPE_CUSTOM control, this member must po
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
- 
-
- 
 

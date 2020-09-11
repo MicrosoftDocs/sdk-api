@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2
 ms.date: 12/05/2018
 ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
-f1_keywords:
-- iads/IADsContainer
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer
+ - iads/IADsContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer
 ---
 
 # IADsContainer interface
 
 
 ## -description
-
 
 The <b>IADsContainer</b> interface enables an ADSI container 
     object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory 
@@ -60,7 +60,6 @@ You can use the <b>IADsContainer</b> interface to either
     object, you can determine if the object has any children. If the interface is not supported, the object is a leaf. 
     Otherwise, it is a container. You can continue this process for the newly found container objects. To create, 
     copy, or delete an object, send the request to the container object to perform the task.
-
 
 ## -inheritance
 
@@ -188,12 +187,9 @@ Contains the properties to retrieve for each object that is enumerated by the co
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To determine if an object is a container, use the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">IADsClass.Container</a> property of the object.
 
@@ -297,14 +293,7 @@ pCls->Release();
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/creating-and-deleting-objects">Creating and Deleting Objects</a>
 
@@ -323,7 +312,4 @@ pCls->Release();
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

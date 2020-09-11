@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],OnDefWindowMessage method, IOleInPlaceSiteWindowless.OnDefWindowMessage, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
-f1_keywords:
-- ocidl/IOleInPlaceSiteWindowless.OnDefWindowMessage
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteWindowless.OnDefWindowMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteWindowless::OnDefWindowMessage
+ - ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteWindowless.OnDefWindowMessage
 ---
 
 # IOleInPlaceSiteWindowless::OnDefWindowMessage
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the default processing for all messages passed to an object.
 
-
 ## -parameters
-
-
-
 
 ### -param msg [in]
 
 The identifier for the window message provided to the container by Windows.
 
-
 ### -param wParam [in]
 
 A parameter for the window message provided to the container by Windows.
-
 
 ### -param lParam [in]
 
 A parameter for the window message provided to the container by Windows.
 
-
 ### -param plResult [out]
 
 A pointer to result code for the window message.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -101,14 +91,8 @@ The container's default processing for the window message was not invoked. See N
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A windowless object can explicitly invoke the default processing for a window message by calling this method. A container dispatches window messages to its windowless objects by calling <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless::OnWindowMessage</a>. The object usually returns S_FALSE to indicate that it did not process the message. Then, the container can perform the default behavior for the message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function.
 
@@ -140,20 +124,11 @@ The container can either process the window messages as its own and return S_OK 
 </ul>
 If the container returns S_FALSE, the object can take action to process the window message on its own.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplaceobjectwindowless">IOleInPlaceObjectWindowless::OnWindowMessage</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
- 
-
- 
 

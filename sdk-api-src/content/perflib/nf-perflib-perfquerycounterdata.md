@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterData, PerfQueryCounterData function [Perf], perf.perfquerycounterdata, perflib/PerfQueryCounterData
-f1_keywords:
-- perflib/PerfQueryCounterData
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- AdvAPI32.dll
-api_name:
-- PerfQueryCounterData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PerfQueryCounterData
+ - perflib/PerfQueryCounterData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - AdvAPI32.dll
+api_name:
+ - PerfQueryCounterData
 ---
 
 # PerfQueryCounterData function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the values of the performance counters that match the counter specifications in the
 specified query.
 
-
 ## -parameters
-
-
-
 
 ### -param hQuery [in]
 
 A handle to a query for the counter specifications of the performance counters for which you want to get the values.
-
 
 ### -param pCounterBlock [out, optional]
 
@@ -70,12 +65,9 @@ A pointer to a buffer that has enough space to receive the amount of  data that 
 
 <i>cbCounterBlock</i> is 0.
 
-
-
 ### -param cbCounterBlock
 
 The size of the buffer that the <i>pCounterBlock</i> parameter specifies, in bytes.
-
 
 ### -param pcbCounterBlockActual [out]
 
@@ -109,12 +101,8 @@ returns.
 <td>The value is undefined and should not be used.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -151,32 +139,17 @@ The function successfully stored all of the requested performance counter values
  
 
 For other types of failures, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
-					
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-
-
 The information about the performance counter values is  written to the buffer that <i>pCounterBlock</i> specifies as a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a> block, which consists <b>PERF_DATA_HEADER</b>structure followed by a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a> blocks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_header">PERF_COUNTER_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_data_header">PERF_DATA_HEADER</a>
- 
-
- 
 

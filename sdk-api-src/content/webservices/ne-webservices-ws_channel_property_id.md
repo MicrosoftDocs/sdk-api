@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_PROPERTY_ADDRESSING_VERSION, WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS, WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL, WS_CHANNEL_PROPERTY_CHANNEL_TYPE, WS_CHANNEL_PROPERTY_CLOSE_TIMEOUT, WS_CHANNEL_PROPERTY_CONNECT_TIMEOUT, WS_CHANNEL_PROPERTY_COOKIE_MODE, WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS, WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_INSTANCE, WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS, WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY, WS_CHANNEL_PROPERTY_DECODER, WS_CHANNEL_PROPERTY_ENABLE_HTTP_REDIRECT, WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS, WS_CHANNEL_PROPERTY_ENCODER, WS_CHANNEL_PROPERTY_ENCODING, WS_CHANNEL_PROPERTY_ENVELOPE_VERSION, WS_CHANNEL_PROPERTY_FAULTS_AS_ERRORS, WS_CHANNEL_PROPERTY_HTTP_CONNECTION_ID, WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING, WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE, WS_CHANNEL_PROPERTY_HTTP_PROXY_SPN, WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT, WS_CHANNEL_PROPERTY_HTTP_SERVER_SPN, WS_CHANNEL_PROPERTY_ID, WS_CHANNEL_PROPERTY_ID enumeration [Web Services for Windows], WS_CHANNEL_PROPERTY_IP_VERSION, WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN, WS_CHANNEL_PROPERTY_KEEP_ALIVE_INTERVAL, WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME, WS_CHANNEL_PROPERTY_MAX_BUFFERED_MESSAGE_SIZE, WS_CHANNEL_PROPERTY_MAX_HTTP_REQUEST_HEADERS_BUFFER_SIZE, WS_CHANNEL_PROPERTY_MAX_HTTP_SERVER_CONNECTIONS, WS_CHANNEL_PROPERTY_MAX_SESSION_DICTIONARY_SIZE, WS_CHANNEL_PROPERTY_MAX_STREAMED_FLUSH_SIZE, WS_CHANNEL_PROPERTY_MAX_STREAMED_MESSAGE_SIZE, WS_CHANNEL_PROPERTY_MAX_STREAMED_START_SIZE, WS_CHANNEL_PROPERTY_MULTICAST_HOPS, WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, WS_CHANNEL_PROPERTY_NO_DELAY, WS_CHANNEL_PROPERTY_PROTECTION_LEVEL, WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT, WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT, WS_CHANNEL_PROPERTY_REMOTE_ADDRESS, WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS, WS_CHANNEL_PROPERTY_RESOLVE_TIMEOUT, WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES, WS_CHANNEL_PROPERTY_SEND_TIMEOUT, WS_CHANNEL_PROPERTY_STATE, WS_CHANNEL_PROPERTY_TRANSFER_MODE, WS_CHANNEL_PROPERTY_TRANSPORT_URL, WS_CHANNEL_PROPERTY_TRIM_BUFFERED_MESSAGE_SIZE, webservices/WS_CHANNEL_PROPERTY_ADDRESSING_VERSION, webservices/WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS, webservices/WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL, webservices/WS_CHANNEL_PROPERTY_CHANNEL_TYPE, webservices/WS_CHANNEL_PROPERTY_CLOSE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_CONNECT_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_COOKIE_MODE, webservices/WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS, webservices/WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_INSTANCE, webservices/WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS, webservices/WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY, webservices/WS_CHANNEL_PROPERTY_DECODER, webservices/WS_CHANNEL_PROPERTY_ENABLE_HTTP_REDIRECT, webservices/WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS, webservices/WS_CHANNEL_PROPERTY_ENCODER, webservices/WS_CHANNEL_PROPERTY_ENCODING, webservices/WS_CHANNEL_PROPERTY_ENVELOPE_VERSION, webservices/WS_CHANNEL_PROPERTY_FAULTS_AS_ERRORS, webservices/WS_CHANNEL_PROPERTY_HTTP_CONNECTION_ID, webservices/WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING, webservices/WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE, webservices/WS_CHANNEL_PROPERTY_HTTP_PROXY_SPN, webservices/WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT, webservices/WS_CHANNEL_PROPERTY_HTTP_SERVER_SPN, webservices/WS_CHANNEL_PROPERTY_ID, webservices/WS_CHANNEL_PROPERTY_IP_VERSION, webservices/WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN, webservices/WS_CHANNEL_PROPERTY_KEEP_ALIVE_INTERVAL, webservices/WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME, webservices/WS_CHANNEL_PROPERTY_MAX_BUFFERED_MESSAGE_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_HTTP_REQUEST_HEADERS_BUFFER_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_HTTP_SERVER_CONNECTIONS, webservices/WS_CHANNEL_PROPERTY_MAX_SESSION_DICTIONARY_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_STREAMED_FLUSH_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_STREAMED_MESSAGE_SIZE, webservices/WS_CHANNEL_PROPERTY_MAX_STREAMED_START_SIZE, webservices/WS_CHANNEL_PROPERTY_MULTICAST_HOPS, webservices/WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, webservices/WS_CHANNEL_PROPERTY_NO_DELAY, webservices/WS_CHANNEL_PROPERTY_PROTECTION_LEVEL, webservices/WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_REMOTE_ADDRESS, webservices/WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS, webservices/WS_CHANNEL_PROPERTY_RESOLVE_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES, webservices/WS_CHANNEL_PROPERTY_SEND_TIMEOUT, webservices/WS_CHANNEL_PROPERTY_STATE, webservices/WS_CHANNEL_PROPERTY_TRANSFER_MODE, webservices/WS_CHANNEL_PROPERTY_TRANSPORT_URL, webservices/WS_CHANNEL_PROPERTY_TRIM_BUFFERED_MESSAGE_SIZE, wsw.ws_channel_property_id
-f1_keywords:
-- webservices/WS_CHANNEL_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_CHANNEL_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_CHANNEL_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_CHANNEL_PROPERTY_ID
+ - webservices/WS_CHANNEL_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CHANNEL_PROPERTY_ID
 ---
 
 # WS_CHANNEL_PROPERTY_ID enumeration
@@ -49,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Each channel property is identified by an ID and has an associated
                 value.  If a property is not specified when the channel is created,
                 then its default value is used.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_BUFFERED_MESSAGE_SIZE
 
@@ -88,8 +83,6 @@ The default value is 65536.
                 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> always uses the value 65536.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_STREAMED_MESSAGE_SIZE
 
@@ -107,8 +100,6 @@ This property may only be specified when streamed input or output has been selec
                 
 
 The default value is 4194304.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_STREAMED_START_SIZE
 
@@ -131,8 +122,6 @@ This property limits the amount of memory that the channel will allocate
                 
 
 The default value is 16384.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_STREAMED_FLUSH_SIZE
 
@@ -152,8 +141,6 @@ This property limits the amount of memory that the channel will allocate
                 
 
 The default value is 65536.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_ENCODING
 
@@ -177,8 +164,6 @@ The default value depends on the binding:
 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> always uses the value <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_XML_UTF8</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_ENVELOPE_VERSION
 
@@ -205,8 +190,6 @@ The default value depends on the binding:
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> uses <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a>.
                     </li>
 </ul>
-
-
 
 ### -field WS_CHANNEL_PROPERTY_ADDRESSING_VERSION
 
@@ -237,8 +220,6 @@ The default value depends on the binding:
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a> is only supported for
                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_SESSION_DICTIONARY_SIZE
 
@@ -265,8 +246,6 @@ This value is ignored if not using a session-based encoding.
                 
 
 The default value is 2048.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_STATE
 
@@ -277,8 +256,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
 The returned value is a snapshot of the current state, so it is
                    possible that the state may have changed before the caller has
                    had a chance to examine the value.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_ASYNC_CALLBACK_MODEL
 
@@ -296,8 +273,6 @@ The default is <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 
 Both the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> and <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> only support <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_LONG_CALLBACK</a> 
                     as an acceptable value for this property.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_IP_VERSION
 
@@ -313,8 +288,6 @@ To specify the IP version to use for channels that are accepted, use the
                 
 
 The default value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_ip_version">WS_IP_VERSION_AUTO</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_RESOLVE_TIMEOUT
 
@@ -329,8 +302,6 @@ This property can be set in any channel state.
                 
 
 The default value is INFINITE.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CONNECT_TIMEOUT
 
@@ -357,8 +328,6 @@ The default value is 30000 (30 seconds).
                 
 
 The <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> sets this timeout to INFINITE by default.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_SEND_TIMEOUT
 
@@ -386,8 +355,6 @@ The default value is 30000 (30 seconds).
 
 Both <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> and <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> set this 
                     timeout to INFINITE by default.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT
 
@@ -405,8 +372,6 @@ The default value is 30000 (30 seconds).
                 
 
 The <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> sets this timeout to INFINITE.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_RECEIVE_TIMEOUT
 
@@ -434,8 +399,6 @@ The default value is 30000 (30 seconds).
 
 Both <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> and <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> set this
                     timeout to INFINITE by default.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CLOSE_TIMEOUT
 
@@ -454,8 +417,6 @@ The default value is 30000 (30 seconds).
                 
 
 The <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> sets this timeout to INFINITE by default.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS
 
@@ -482,8 +443,6 @@ In order to implement their own timeout logic, <a href="https://docs.microsoft.c
                     standard channels bindings and require custom channels to support it by querying and 
                     verifying that it is set to <b>FALSE</b>.
                     More specific timeout properties can still be provided as described above.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_TRANSFER_MODE
 
@@ -511,8 +470,6 @@ The default property value is <a href="https://docs.microsoft.com/windows/deskto
 
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a> requires Windows Vista and above, and supports only <b>WS_HTTP_HEADER_AUTH_SCHEME_BASIC</b> when used with security.
 
-
-
 ### -field WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE
 
 A <b>ULONG</b>used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
@@ -532,8 +489,6 @@ This property can be set in any channel state.
                 
 
 The default property value is 0.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_MULTICAST_HOPS
 
@@ -543,8 +498,6 @@ A <b>ULONG</b>used with <a href="https://docs.microsoft.com/windows/desktop/api/
                 
 
 The default property value is 1.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_REMOTE_ADDRESS
 
@@ -566,8 +519,6 @@ This property cannot be retrieved until the channel has reached the open state.
 This property is based on the source IP address that is received from
                     the network, which may be spoofed or tampered with even if using a
                     secure channel (depending on the network environment).
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS
 
@@ -594,8 +545,6 @@ This property cannot be retrieved until the channel has begun reading a message.
 This property is based on the source IP address that is received from
                     the network, which may be spoofed or tampered with even if using a
                     secure channel (depending on the network environment).
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_CONNECTION_ID
 
@@ -618,8 +567,6 @@ A given reply channel instance is in no way correlated with a connection.
 
 The connection ID can be used by an application to correlate state with 
                     a HTTP connection.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS
 
@@ -631,8 +578,6 @@ This property is used to specify callbacks that
                 
 
 This property must be specified when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a> is used.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS
 
@@ -651,8 +596,6 @@ The value of this property will be passed to the
                 
 
 If this property is not specified, it's value is <b>NULL</b> and size is zero.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_INSTANCE
 
@@ -668,8 +611,6 @@ This property can be used to obtain the underlying channel
                     instance for a custom channel.  This allows a caller to directly
                     interact with the instance for cases when the existing
                     set of channel properties or channel functions is insufficient.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_TRANSPORT_URL
 
@@ -704,8 +645,6 @@ The caller should pass the address of a <a href="https://docs.microsoft.com/wind
                     retrieving this property.  The returned string is a fully qualified
                     URL in encoded form.   The returned string is good until the channel 
                     is freed or reset.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_NO_DELAY
 
@@ -724,8 +663,6 @@ Setting this value to <b>TRUE</b> may decrease latency at the cost of throughput
                 
 
 The default value is <b>FALSE</b>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES
 
@@ -741,8 +678,6 @@ Setting this value to <b>TRUE</b> will cause keep-alive packets to be sent
                 
 
 The default value is <b>FALSE</b>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME
 
@@ -760,8 +695,6 @@ The value represents the amount of time before sending keep alive packets if the
                 
 
 The default value is 2 hours.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_KEEP_ALIVE_INTERVAL
 
@@ -781,8 +714,6 @@ After the time specified in <b>WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME</b> has expir
                 
 
 The default value is 1 second.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_HTTP_SERVER_CONNECTIONS
 
@@ -795,8 +726,6 @@ This property specifies the maximum number of connections that a client applicat
                 
 
 The default value is INFINITE (no limit).
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN
 
@@ -811,8 +740,6 @@ This property indicates
 
 The channel must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a> or 
                     <b>WS_CHANNEL_STATE_FAULTED</b> state.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CHANNEL_TYPE
 
@@ -822,8 +749,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
                 
 
 The channel can be in any <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_TRIM_BUFFERED_MESSAGE_SIZE
 
@@ -848,8 +773,6 @@ The default value is 65536.
                 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> always uses the value 65536.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_ENCODER
 
@@ -857,8 +780,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to provide a custom encoding of messages.  
 
 This property cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_DECODER
 
@@ -866,8 +787,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to provide a custom dencoding of messages.  
 
 This property cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_PROTECTION_LEVEL
 
@@ -880,8 +799,6 @@ This property  indicates
 
 The value of this property depends on the security requirements
                     requested for the channel.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_COOKIE_MODE
 
@@ -889,8 +806,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
                 
 
 The default value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_cookie_mode">WS_AUTO_COOKIE_MODE</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE
 
@@ -898,8 +813,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
                 
 
 The default value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_http_proxy_setting_mode">WS_HTTP_PROXY_SETTING_MODE_AUTO</a>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY
 
@@ -909,8 +822,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webserv
                 
 
 The default value is <b>NULL</b>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING
 
@@ -937,8 +848,6 @@ The default value for this property is a <a href="https://docs.microsoft.com/win
 
 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> fields requestMappingOptions and responseMappingOptions must be 0 
                     unless encoding is set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_RAW</a> using channel property <b>WS_CHANNEL_PROPERTY_ENCODING</b>.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_ENABLE_HTTP_REDIRECT
 
@@ -954,8 +863,6 @@ Setting this value to <b>TRUE</b> enables HTTP auto redirection.
 The default value is <b>FALSE</b>. 
                     If the <b>WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT</b> property is specified, 
                     this property is ignored.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT
 
@@ -969,8 +876,6 @@ This property value may be specified when more granular control of automatic HTT
 When this property is set, the specified callback routine will be called with the original endpoint URL 
                     and the new URL that the message is to be forwarded to. Callback return value is used to indicate whether 
                     the redirection should be allowed.
-                
-
 
 ### -field WS_CHANNEL_PROPERTY_FAULTS_AS_ERRORS
 
@@ -1013,8 +918,6 @@ The default value is <b>TRUE</b>. If used with <a href="https://docs.microsoft.c
             
                 Setting this property to <b>TRUE</b> can cause message security verification to be disabled for certain faults.
                 Unverified faults may not be trustworthy.
-            
-
 
 ### -field WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS
 
@@ -1043,8 +946,6 @@ The default value is <b>FALSE</b>.
                 
 
 Setting this property to <b>TRUE</b> causes message security verification for faults to be disabled. Unsecured faults may not be trustworthy.
-            
-
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_SERVER_SPN
 
@@ -1066,8 +967,6 @@ Returns the Server Principal Name of the remote endpoint used for the last faile
 
 
 This property is only available on Windows 7 and above.
-            
-
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_PROXY_SPN
 
@@ -1088,8 +987,6 @@ Returns the Server Principal Name of the HTTP proxy server used for the last fai
 
 
 This property is only available on Windows 7 and above.
-            
-
 
 ### -field WS_CHANNEL_PROPERTY_MAX_HTTP_REQUEST_HEADERS_BUFFER_SIZE
 
@@ -1107,5 +1004,4 @@ This property limits the amount of memory
                 
 
 The default value is 65536.
-                
 

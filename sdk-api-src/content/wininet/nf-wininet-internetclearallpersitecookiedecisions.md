@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 980df63e-70b8-44d3-b98a-b7c8a3e395c6
 ms.date: 12/05/2018
 ms.keywords: InternetClearAllPerSiteCookieDecisions, InternetClearAllPerSiteCookieDecisions function [WinINet], wininet.internetclearallpersitecookiedecisions, wininet/InternetClearAllPerSiteCookieDecisions
-f1_keywords:
-- wininet/InternetClearAllPerSiteCookieDecisions
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetClearAllPerSiteCookieDecisions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetClearAllPerSiteCookieDecisions
+ - wininet/InternetClearAllPerSiteCookieDecisions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetClearAllPerSiteCookieDecisions
 ---
 
 # InternetClearAllPerSiteCookieDecisions function
@@ -49,39 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears all decisions that were made about cookies on a site by site basis.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if all decisions were cleared and <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetenumpersitecookiedecisiona">InternetEnumPerSiteCookieDecision</a>
 
@@ -100,7 +82,4 @@ Returns <b>TRUE</b> if all decisions were cleared and <b>FALSE</b> otherwise.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew">PrivacySetZonePreferenceW</a>
- 
-
- 
 

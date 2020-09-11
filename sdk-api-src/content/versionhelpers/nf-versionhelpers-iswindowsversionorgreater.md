@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
-f1_keywords:
-- versionhelpers/IsWindowsVersionOrGreater
-dev_langs:
-- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VersionHelpers.h
-api_name:
-- IsWindowsVersionOrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsWindowsVersionOrGreater
+ - versionhelpers/IsWindowsVersionOrGreater
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VersionHelpers.h
+api_name:
+ - IsWindowsVersionOrGreater
 ---
 
 # IsWindowsVersionOrGreater function
@@ -49,48 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  You should only use this function if the other provided 
    <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a> do not fit within your 
    scenarios.</div><div> </div>Indicates if the current OS version matches, or is greater than, the provided version 
     information. This function is useful in confirming a  version of Windows Server that 
     doesn't share a version number with a client release.
 
-
 ## -parameters
-
-
-
 
 ### -param wMajorVersion
 
 The major OS version number.
 
-
 ### -param wMinorVersion
 
 The minor OS version number.
-
 
 ### -param wServicePackMajor
 
 The major Service Pack version number.
 
-
 ## -returns
-
-
 
 <b>TRUE</b> if the specified version matches, or is greater than, the version of the 
       current Windows OS; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows7orgreater">IsWindows7OrGreater</a>
 
@@ -137,4 +122,4 @@ The major Service Pack version number.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
- 
+

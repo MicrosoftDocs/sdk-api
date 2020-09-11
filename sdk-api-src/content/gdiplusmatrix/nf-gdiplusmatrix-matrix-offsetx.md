@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsetx.htm
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],OffsetX method, Matrix.OffsetX, Matrix::OffsetX, OffsetX, OffsetX method [GDI+], OffsetX method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetX_, gdiplus._gdiplus_CLASS_Matrix_OffsetX_
-f1_keywords:
-- gdiplusmatrix/Matrix.OffsetX
-dev_langs:
-- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Matrix.OffsetX
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Matrix::OffsetX
+ - gdiplusmatrix/Matrix::OffsetX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Matrix.OffsetX
 ---
 
 # Matrix::OffsetX
@@ -50,32 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Matrix::OffsetX</b> method gets the horizontal translation value of this matrix, which is the element in row 3, column 1.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>REAL</b>
 
 This method returns the horizontal translation value of this matrix, which is the element in row 3, column 1.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-global-and-local-transformations-about">Global and Local Transformations</a>
 
@@ -98,7 +84,4 @@ This method returns the horizontal translation value of this matrix, which is th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
- 
-
- 
 

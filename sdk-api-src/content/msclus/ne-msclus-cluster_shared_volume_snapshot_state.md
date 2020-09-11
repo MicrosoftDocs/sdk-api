@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration [Failover Cluster], ClusterSharedVolumeHWSnapshotCompleted, ClusterSharedVolumePrepareForFreeze, ClusterSharedVolumePrepareForHWSnapshot, ClusterSharedVolumeSnapshotStateUnknown, clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, clusapi/ClusterSharedVolumeHWSnapshotCompleted, clusapi/ClusterSharedVolumePrepareForFreeze, clusapi/ClusterSharedVolumePrepareForHWSnapshot, clusapi/ClusterSharedVolumeSnapshotStateUnknown, msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, msclus/ClusterSharedVolumeHWSnapshotCompleted, msclus/ClusterSharedVolumePrepareForFreeze, msclus/ClusterSharedVolumePrepareForHWSnapshot, msclus/ClusterSharedVolumeSnapshotStateUnknown, mscs.cluster_shared_volume_snapshot_state
-f1_keywords:
-- msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
+ - msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ - 
+api_name:
+ - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 ---
 
 # CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration
@@ -48,46 +49,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the various snapshot states for a shared volume.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ClusterSharedVolumeSnapshotStateUnknown
 
 Indicates that the snapshot state is unknow.
 
-
 ### -field ClusterSharedVolumePrepareForHWSnapshot
 
 Indicates that the snapshot is being created.
-
 
 ### -field ClusterSharedVolumeHWSnapshotCompleted
 
 Indicates that the snapshot is completed.
 
-
 ### -field ClusterSharedVolumePrepareForFreeze
 
 TBD
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustersharedvolumesetsnapshotstate">ClusterSharedVolumeSetSnapshotState</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
 

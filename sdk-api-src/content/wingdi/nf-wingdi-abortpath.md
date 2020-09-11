@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 49299a11-910b-40e0-b02e-80a244cfc978
 ms.date: 12/05/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
-f1_keywords:
-- wingdi/AbortPath
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- AbortPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AbortPath
+ - wingdi/AbortPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - AbortPath
 ---
 
 # AbortPath function
@@ -51,44 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AbortPath</b> function closes and discards any paths in the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context from which a path will be discarded.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 If there is an open path bracket in the given device context, the path bracket is closed and the path is discarded. If there is a closed path in the device context, the path is discarded.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
@@ -103,7 +85,4 @@ If there is an open path bracket in the given device context, the path bracket i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
- 
-
- 
 

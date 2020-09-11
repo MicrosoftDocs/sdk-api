@@ -28,18 +28,19 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleFactory
 f1_keywords:
+ - IMFContentDecryptionModuleFactory
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleFactory
 dev_langs:
  - c++
 ---
 
-## -inheritance
-
-IUnknown
-
 ## -description
 
 A factory interface for creating [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess) objects.
+
+## -inheritance
+
+IUnknown
 
 ## -remarks
 

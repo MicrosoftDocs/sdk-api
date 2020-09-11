@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 83dd62df-71e1-44a6-bf38-461b7e26e54e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreator method, IXpsOMCoreProperties.SetCreator, IXpsOMCoreProperties::SetCreator, SetCreator, SetCreator method [XPS Documents and Packaging], SetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreator, xpsobjectmodel/IXpsOMCoreProperties::SetCreator
-f1_keywords:
-- xpsobjectmodel/IXpsOMCoreProperties.SetCreator
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCoreProperties.SetCreator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCoreProperties::SetCreator
+ - xpsobjectmodel/IXpsOMCoreProperties::SetCreator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCoreProperties.SetCreator
 ---
 
 # IXpsOMCoreProperties::SetCreator
@@ -49,43 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <b>creator</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param creator [in]
 
 The string to be written to the <b>creator</b> property. A <b>NULL</b> pointer clears the <b>creator</b> property.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>creator</b> property describes  the entity that is primarily responsible for making the content of
 the resource.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
@@ -96,7 +78,4 @@ the resource.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

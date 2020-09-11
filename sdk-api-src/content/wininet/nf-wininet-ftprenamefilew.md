@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
 ms.date: 12/05/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
-f1_keywords:
-- wininet/FtpRenameFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- FtpRenameFile
-- FtpRenameFileA
-- FtpRenameFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FtpRenameFileW
+ - wininet/FtpRenameFileW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - FtpRenameFile
+ - FtpRenameFileA
+ - FtpRenameFileW
 ---
 
 # FtpRenameFileW function
@@ -51,43 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renames a file stored on the FTP server.
 
-
 ## -parameters
-
-
-
 
 ### -param hConnect [in]
 
 Handle to an FTP session.
 
-
 ### -param lpszExisting [in]
 
 Pointer to a null-terminated string that contains the name of the file to be renamed.
-
 
 ### -param lpszNew [in]
 
 Pointer to a null-terminated string that contains the new name for the remote file.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <i>lpszExisting</i> and 
@@ -106,15 +92,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/ftp-sessions">FTP Sessions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
- 
-
- 
 

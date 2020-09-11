@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
 ms.date: 12/05/2018
 ms.keywords: WNetGetResourceInformation, WNetGetResourceInformation function [Windows Networking (WNet)], WNetGetResourceInformationA, WNetGetResourceInformationW, _win32_wnetgetresourceinformation, winnetwk/WNetGetResourceInformation, winnetwk/WNetGetResourceInformationA, winnetwk/WNetGetResourceInformationW, wnet.wnetgetresourceinformation
-f1_keywords:
-- winnetwk/WNetGetResourceInformation
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetResourceInformation
-- WNetGetResourceInformationA
-- WNetGetResourceInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetResourceInformationA
+ - winnetwk/WNetGetResourceInformationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetResourceInformation
+ - WNetGetResourceInformationA
+ - WNetGetResourceInformationW
 ---
 
 # WNetGetResourceInformationA function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 When provided with a remote path to a network resource, the 
 <b>WNetGetResourceInformation</b> function identifies the network provider that owns the resource and obtains information about the type of the resource. The function is typically used in conjunction with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceparenta">WNetGetResourceParent</a> function to parse and interpret a network path typed in by a user.
 
-
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
@@ -72,7 +68,6 @@ Pointer to a
 
 The <b>lpRemoteName</b> member of the structure should specify the remote path name of the resource, typically one typed in by a user. The <b>lpProvider</b> and <b>dwType</b> members should also be filled in if known, because this operation can be memory intensive, especially if you do not specify the <b>dwType</b> member. If you do not know the values for these members, you should set them to <b>NULL</b>. All other members of the 
 <b>NETRESOURCE</b> structure are ignored.
-
 
 ### -param lpBuffer [out]
 
@@ -93,12 +88,10 @@ The <b>lpRemoteName</b> member is returned in the same syntax as the one returne
 <b>WNetGetResourceInformation</b> is the same as the resource returned by a separate call to 
 <b>WNetEnumResource</b>.
 
-
 ### -param lpcbBuffer [in, out]
 
 Pointer to a location that, on entry, specifies the size of the <i>lpBuffer</i> buffer, in bytes. The buffer you allocate must be large enough to hold the 
 <b>NETRESOURCE</b> structure, plus the strings to which its members point. If the buffer is too small for the result, this location receives the required buffer size, and the function returns ERROR_MORE_DATA.
-
 
 ### -param lplpSystem [out]
 
@@ -110,10 +103,7 @@ If the function returns successfully, this parameter points to a string in the o
 For example, if the input remote resource name is \\server\share\dir1\dir2, the <b>lpRemoteName</b> member of the output 
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure points to \\server\share. Also, the <i>lplpSystem</i> parameter points to \dir1\dir2. Both strings are stored in the buffer pointed to by the <i>lpBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -182,15 +172,8 @@ The network is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
@@ -215,9 +198,6 @@ The network is unavailable.
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 
 ## -remarks
 

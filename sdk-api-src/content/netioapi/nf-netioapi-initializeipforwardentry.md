@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 1968c4e5-4b28-4387-a918-3326bc80bb3e
 ms.date: 12/05/2018
 ms.keywords: InitializeIpForwardEntry, InitializeIpForwardEntry function [IP Helper], iphlp.initializeipforwardentry, netioapi/InitializeIpForwardEntry
-f1_keywords:
-- netioapi/InitializeIpForwardEntry
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- InitializeIpForwardEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeIpForwardEntry
+ - netioapi/InitializeIpForwardEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - InitializeIpForwardEntry
 ---
 
 # InitializeIpForwardEntry function
@@ -49,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>InitializeIpForwardEntry</b> function  initializes a  <b>MIB_IPFORWARD_ROW2</b> structure with default values for an IP route entry on the local computer.  
-
+<b>InitializeIpForwardEntry</b> function  initializes a  <b>MIB_IPFORWARD_ROW2</b> structure with default values for an IP route entry on the local computer.
 
 ## -parameters
-
-
-
 
 ### -param Row [out]
 
 On entry, a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure entry for an IP route entry. On return, the  <b>MIB_IPFORWARD_ROW2</b> structure pointed to by this parameter is initialized with default values for an IP route entry.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The <b>InitializeIpForwardEntry</b> function is defined on Windows Vista and later. 
 
@@ -90,13 +78,7 @@ On output, the <b>ValidLifetime</b> and <b>PreferredLifetime</b> members of the 
 After calling <b>InitializeIpForwardEntry</b>, an application can then change the
     members in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> entry it wishes to modify, and then call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>  to add the new IP route entry to the local computer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
@@ -131,7 +113,4 @@ After calling <b>InitializeIpForwardEntry</b>, an application can then change th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
- 
-
- 
 

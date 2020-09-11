@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: f01e4a42-3378-4ceb-b23b-5deb78fb18ca
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration [NativeWIFI], nwifi.wlan_hosted_network_notification_code, wlan_hosted_network_peer_state_change, wlan_hosted_network_radio_state_change, wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/wlan_hosted_network_peer_state_change, wlanapi/wlan_hosted_network_radio_state_change, wlanapi/wlan_hosted_network_state_change'
-f1_keywords:
-- wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wlanapi.h
-api_name:
-- WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 targetos: Windows
 req.typenames: WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, *PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - wlanapi/_WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - wlanapi/PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+ - wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wlanapi.h
+api_name:
+ - WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 ---
 
 # WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration
@@ -49,38 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</b> enumerated type specifies the possible values of the NotificationCode parameter for received notifications on the wireless Hosted Network.
 
-
 ## -enum-fields
-
-
-
 
 ### -field wlan_hosted_network_state_change
 
 The Hosted Network state has changed.
 
-
 ### -field wlan_hosted_network_peer_state_change
 
 The Hosted Network peer state has changed.
-
 
 ### -field wlan_hosted_network_radio_state_change
 
 The Hosted Network radio state has changed.
 
-
 ### -field v1_enum
 
-
-
-
 ## -remarks
-
-
 
 The <b>WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</b> enumerated type is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and  on Windows Server 2008 R2 with the Wireless LAN Service installed.  
 
@@ -135,17 +127,8 @@ the <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/wlanapi/ns-wlanapi-wlan_hosted_network_data_peer_state_change">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
@@ -168,7 +151,4 @@ the <i>pData</i> member of <a href="https://docs.microsoft.com/previous-versions
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
 

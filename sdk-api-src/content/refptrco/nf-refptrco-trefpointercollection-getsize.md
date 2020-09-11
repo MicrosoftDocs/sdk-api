@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
-f1_keywords:
-- refptrco/TRefPointerCollection.GetSize
-dev_langs:
-- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- TRefPointerCollection.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TRefPointerCollection::GetSize
+ - refptrco/TRefPointerCollection::GetSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - TRefPointerCollection.GetSize
 ---
 
 # TRefPointerCollection::GetSize
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,19 +59,9 @@ ms.custom: 19H1
 
 The <b>GetSize</b> method returns how many items are in the list.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This method returns an <b>int</b>.
-
-
 

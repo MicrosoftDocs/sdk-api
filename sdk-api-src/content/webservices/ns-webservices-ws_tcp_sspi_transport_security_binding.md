@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: c617f6cf-cedb-4d52-954c-fd4577260ca3
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_tcp_sspi_transport_security_binding
-f1_keywords:
-- webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+ - webservices/_WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+ - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+ - webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
 ---
 
 # WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING structure
 
 
 ## -description
-
 
 The security binding subtype for specifying the use of the Windows
 Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO)
@@ -98,23 +100,15 @@ With this security binding, the following security binding properties may be spe
 </li>
 </ul>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field binding
 
 The base type from which this security binding subtype and all other security binding subtypes derive.
-                
-
 
 ### -field clientCredential
 
 The Windows Integrated Authentication credential to be used to
 authenticate the client.  This is required on the client and must not
 be specified on the server.
-                
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreHeapMinimize method, IMallocSpy.PreHeapMinimize, IMallocSpy::PreHeapMinimize, PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
-f1_keywords:
-- objidl/IMallocSpy.PreHeapMinimize
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMallocSpy.PreHeapMinimize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMallocSpy::PreHeapMinimize
+ - objidl/IMallocSpy::PreHeapMinimize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMallocSpy.PreHeapMinimize
 ---
 
 # IMallocSpy::PreHeapMinimize
@@ -49,30 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 This method is included for completeness; it is not anticipated that developers will implement significant functionality in this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>
 
@@ -83,7 +69,4 @@ This method is included for completeness; it is not anticipated that developers 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postheapminimize">IMallocSpy::PostHeapMinimize</a>
- 
-
- 
 

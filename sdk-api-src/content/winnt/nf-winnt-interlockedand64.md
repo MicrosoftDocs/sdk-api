@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 544b0710-3394-4123-88e1-0621de5fe7b6
 ms.date: 12/05/2018
 ms.keywords: InterlockedAnd64, InterlockedAnd64 function, base.interlockedand64, winnt/InterlockedAnd64
-f1_keywords:
-- winnt/InterlockedAnd64
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedAnd64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InterlockedAnd64
+ - winnt/InterlockedAnd64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedAnd64
 ---
 
 # InterlockedAnd64 function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an atomic AND operation on the specified <b>LONGLONG</b> values.
 
-
 ## -parameters
-
-
-
 
 ### -param Destination [in, out]
 
 A pointer to the first operand. This value will be replaced with the result of the operation.
 
-
 ### -param Value [in]
 
 The second operand.
 
-
 ## -returns
-
-
 
 The function returns the original value of the <i>Destination</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
@@ -92,12 +79,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -164,7 +146,4 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

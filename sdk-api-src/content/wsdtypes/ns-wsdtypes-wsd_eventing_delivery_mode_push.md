@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 350d023f-18fb-4eb5-af47-81fdb54e594d
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE_PUSH, WSD_EVENTING_DELIVERY_MODE_PUSH structure, ncd.wsd_eventing_delivery_mode_push, wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
-f1_keywords:
-- wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- WSD_EVENTING_DELIVERY_MODE_PUSH
 targetos: Windows
 req.typenames: WSD_EVENTING_DELIVERY_MODE_PUSH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSD_EVENTING_DELIVERY_MODE_PUSH
+ - wsdtypes/_WSD_EVENTING_DELIVERY_MODE_PUSH
+ - WSD_EVENTING_DELIVERY_MODE_PUSH
+ - wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - WSD_EVENTING_DELIVERY_MODE_PUSH
 ---
 
 # WSD_EVENTING_DELIVERY_MODE_PUSH structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the endpoint reference  used for push delivery of events in a WS-Eventing Subscribe message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NotifyTo
 

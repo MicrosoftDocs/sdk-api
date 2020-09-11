@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 52b034db-b08b-4c79-973f-33800ca866f5
 ms.date: 12/05/2018
 ms.keywords: TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpropertysize_func, tdh.tdhgetpropertysize_func, tdh/TdhGetPropertySize
-f1_keywords:
-- tdh/TdhGetPropertySize
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- API-MS-Win-Eventing-Tdh-L1-1-0.dll
-- MinTdh.dll
-api_name:
-- TdhGetPropertySize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhGetPropertySize
+ - tdh/TdhGetPropertySize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - API-MS-Win-Eventing-Tdh-L1-1-0.dll
+ - MinTdh.dll
+api_name:
+ - TdhGetPropertySize
 ---
 
 # TdhGetPropertySize function
@@ -51,38 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of one or more property values in the event data.
-		
-		
-	
-	
-
 
 ## -parameters
-
-
-
 
 ### -param pEvent [in]
 
 The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure.
 
-
 ### -param TdhContextCount [in]
 
 Number of elements in <i>pTdhContext</i>.
-
 
 ### -param pTdhContext [in]
 
 Array of context values for WPP or classic ETW events only, otherwise, <b>NULL</b>. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
 
-
 ### -param PropertyDataCount [in]
 
 Number of data descriptor structures in <i>pPropertyData</i>.
-
 
 ### -param pPropertyData [in]
 
@@ -92,15 +80,11 @@ You can pass this same array  to the <a href="https://docs.microsoft.com/windows
 
 If you are retrieving the size of a property that is not a member of a structure, you can specify a single data descriptor. If you are retrieving the size of a property that is a member of a structure, specify an array of two  data descriptors (structures cannot contain or reference other structures). For more information on specifying this parameter, see the example code below.
 
-
 ### -param pPropertySize [out]
 
 Size of the property, in bytes. Use this value to allocate the buffer passed in the <i>pBuffer</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a> function.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -156,14 +140,8 @@ The WMI service is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the event is a WPP or classic ETW event, you can specify context information that is used to help parse the event information. The event is a WPP event if the EVENT_HEADER_FLAG_TRACE_MESSAGE flag is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> (see the <b>EventHeader</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>). The event is a legacy ETW event if the EVENT_HEADER_FLAG_CLASSIC_HEADER flag is set.
 
@@ -174,15 +152,7 @@ For an example that shows how to call this function, see <a href="https://docs.m
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>
- 
-
- 
 

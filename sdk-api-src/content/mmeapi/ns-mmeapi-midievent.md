@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: e83bf111-2075-4cfc-a68b-e0a59a0c53e6
 ms.date: 12/05/2018
 ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVENT_str, midievent_tag, mmeapi/MIDIEVENT, multimedia.midievent
-f1_keywords:
-- mmeapi/MIDIEVENT
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIDIEVENT
 targetos: Windows
 req.typenames: MIDIEVENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midievent_tag
+ - mmeapi/midievent_tag
+ - MIDIEVENT
+ - mmeapi/MIDIEVENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIDIEVENT
 ---
 
 # MIDIEVENT structure
@@ -49,33 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The MIDIEVENT structure describes a MIDI event in a stream buffer.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwDeltaTime
 
 Time, in MIDI ticks, between the previous event and the current event. The length of a tick is defined by the time format and possibly the tempo associated with the stream. (The definition is identical to the specification for a tick in a standard MIDI file.)
 
-
 ### -field dwStreamID
 
 Reserved; must be zero.
 
-
 ### -field dwEvent
 
 Event code and event parameters or length. To parse this information, use the <a href="https://docs.microsoft.com/previous-versions/dd798442(v=vs.85)">MEVT_EVENTTYPE</a> and <a href="https://docs.microsoft.com/previous-versions/dd798441(v=vs.85)">MEVT_EVENTPARM</a> macros. See Remarks.
-            
-
 
 ### -field dwParms
 
@@ -83,12 +74,8 @@ If <b>dwEvent</b> specifies MEVT_F_LONG and the length of the buffer, this membe
             
 
 If <b>dwEvent</b> specifies MEVT_F_SHORT, do not use this member in the stream buffer.
-            
-
 
 ## -remarks
-
-
 
 The high byte of <b>dwEvent</b> contains flags and an event code. Either the MEVT_F_LONG or MEVT_F_SHORT flag must be specified. The MEVT_F_CALLBACK flag is optional. The following table describes these flags.
       
@@ -149,15 +136,8 @@ The remainder of the high byte contains one of the following event codes:
 <td>Long event. The event data must contain a MIDISTRMBUFFVER structure.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dd798441(v=vs.85)">MEVT_EVENTPARM</a>
 
@@ -180,7 +160,4 @@ The remainder of the high byte contains one of the following event codes:
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd798481(v=vs.85)">midiOutShortMsg</a>
- 
-
- 
 

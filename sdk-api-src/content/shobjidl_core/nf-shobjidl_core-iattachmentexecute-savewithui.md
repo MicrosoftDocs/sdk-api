@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6d5b2d02-98ee-4e46-826f-fa073ecff5c4
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SaveWithUI method, IAttachmentExecute.SaveWithUI, IAttachmentExecute::SaveWithUI, SaveWithUI, SaveWithUI method [Windows Shell], SaveWithUI method [Windows Shell],IAttachmentExecute interface, shell.IAttachmentExecute_SaveWithUI, shell_IAttachmentExecute_savewithui, shobjidl_core/IAttachmentExecute::SaveWithUI
-f1_keywords:
-- shobjidl_core/IAttachmentExecute.SaveWithUI
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IAttachmentExecute.SaveWithUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttachmentExecute::SaveWithUI
+ - shobjidl_core/IAttachmentExecute::SaveWithUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IAttachmentExecute.SaveWithUI
 ---
 
 # IAttachmentExecute::SaveWithUI
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Presents the user with explanatory error UI if the save action fails.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -64,21 +60,13 @@ Type: <b>HWND</b>
 
 The handle of the parent window.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>IAttachmentExecute::SaveWithUI</b> does not call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a>.
 
@@ -88,20 +76,11 @@ Before calling <b>IAttachmentExecute::SaveWithUI</b>, you must call <a href="htt
 
 <b>IAttachmentExecute::SaveWithUI</b> may attach <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-checkpolicy">evidence</a> to the local path in its NTFS alternate data stream (ADS).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-save">IAttachmentExecute::Save</a>
- 
-
- 
 

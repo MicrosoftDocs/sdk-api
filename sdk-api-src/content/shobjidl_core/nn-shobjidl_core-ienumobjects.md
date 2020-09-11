@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 914f2a4d-a67a-45d9-96ee-d8cae7d08e3c
 ms.date: 12/05/2018
 ms.keywords: IEnumObjects, IEnumObjects interface [Windows Shell], IEnumObjects interface [Windows Shell],described, _shell_IEnumObjects, shell.IEnumObjects, shobjidl_core/IEnumObjects
-f1_keywords:
-- shobjidl_core/IEnumObjects
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IEnumObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumObjects
+ - shobjidl_core/IEnumObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IEnumObjects
 ---
 
 # IEnumObjects interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to enumerate unknown objects.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Skips a specified number of objects.
 
 </td>
 </tr>
-</table> 
+</table>
 

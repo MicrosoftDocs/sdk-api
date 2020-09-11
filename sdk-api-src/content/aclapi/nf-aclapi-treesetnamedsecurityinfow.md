@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: caa711c3-301b-4ed7-b1f4-dc6a48563905
 ms.date: 12/05/2018
 ms.keywords: TREE_SEC_INFO_RESET, TREE_SEC_INFO_RESET_KEEP_EXPLICIT, TREE_SEC_INFO_SET, TreeSetNamedSecurityInfo, TreeSetNamedSecurityInfo function [Security], TreeSetNamedSecurityInfoA, TreeSetNamedSecurityInfoW, aclapi/TreeSetNamedSecurityInfo, aclapi/TreeSetNamedSecurityInfoA, aclapi/TreeSetNamedSecurityInfoW, security.treesetnamedsecurityinfo
-f1_keywords:
-- aclapi/TreeSetNamedSecurityInfo
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- TreeSetNamedSecurityInfo
-- TreeSetNamedSecurityInfoA
-- TreeSetNamedSecurityInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeSetNamedSecurityInfoW
+ - aclapi/TreeSetNamedSecurityInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - TreeSetNamedSecurityInfo
+ - TreeSetNamedSecurityInfoA
+ - TreeSetNamedSecurityInfoW
 ---
 
 # TreeSetNamedSecurityInfoW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TreeSetNamedSecurityInfo</b> function sets specified security information in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a specified tree of objects. This function allows a specified  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) or any elements in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) to be propagated throughout an entire tree. This function supports a callback function to track the progress of the tree operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pObjectName [in]
 
 			Pointer to a <b>null</b>-terminated string that specifies the name of the root node object for the objects  that are to receive updated security information. Supported objects are registry keys and file objects. For descriptions of the string formats for the different object types, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>.
 
-
 ### -param ObjectType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>  enumeration  that indicates the type of object named by the <i>pObjectName</i> parameter. The supported values are SE_REGISTRY_KEY and SE_FILE_OBJECT, for registry keys and file objects, respectively. 
-
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>  enumeration  that indicates the type of object named by the <i>pObjectName</i> parameter. The supported values are SE_REGISTRY_KEY and SE_FILE_OBJECT, for registry keys and file objects, respectively.
 
 ### -param SecurityInfo [in]
 
@@ -77,26 +71,21 @@ A set of
 bit flags that indicate the type of security information to set. This parameter can be a combination of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
-
 ### -param pOwner [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the owner of the object. The SID must be one that can be assigned as the owner SID of a security descriptor. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the owner SID, this parameter can be <b>NULL</b>.
-
 
 ### -param pGroup [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the primary group of the object. The <i>SecurityInfo</i> parameter must include the GROUP_SECURITY_INFORMATION flag.  To set the group, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the primary group SID, this parameter can be <b>NULL</b>.
 
-
 ### -param pDacl [in, optional]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) structure that represents the new DACL for the objects being reset. The <i>SecurityInfo</i> parameter must include the DACL_SECURITY_INFORMATION flag. The caller must have READ_CONTROL and WRITE_DAC access to each  object, including the root object. If you are not setting the DACL, this parameter can be <b>NULL</b>.
 
-
 ### -param pSacl [in, optional]
 
 A pointer to an ACL structure that represents the new SACL for the objects being reset. The <i>SecurityInfo</i> parameter must include any of the following flags: SACL_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, ATTRIBUTE_SECURITY_INFORMATION, SCOPE_SECURITY_INFORMATION, or BACKUP_SECURITY_INFORMATION. If setting SACL_SECURITY_INFORMATION or SCOPE_SECURITY_INFORMATION, the caller must have the SE_SECURITY_NAME privilege enabled. If you are not setting the SACL, this parameter can be <b>NULL</b>.
-
 
 ### -param dwAction [in]
 
@@ -145,8 +134,6 @@ If any object in the tree does not grant appropriate permissions to the caller t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fnProgress [in]
 
@@ -174,31 +161,21 @@ The progress function provides the caller with progress and error information wh
 
 If no progress function is to be used, set this parameter to <b>NULL</b>.
 
-
 ### -param ProgressInvokeSetting [in]
 
 A value of the <a href="/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
-
 
 ### -param Args [in, optional]
 
 A pointer to a <b>VOID</b> for progress function arguments specified by the caller.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns an error code defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 Setting a <b>NULL</b> owner, group, DACL, or SACL is not supported by this function.
 

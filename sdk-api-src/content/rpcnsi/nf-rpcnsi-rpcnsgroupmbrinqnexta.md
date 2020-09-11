@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
-f1_keywords:
-- rpcnsi/RpcNsGroupMbrInqNext
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsGroupMbrInqNext
-- RpcNsGroupMbrInqNextA
-- RpcNsGroupMbrInqNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsGroupMbrInqNextA
+ - rpcnsi/RpcNsGroupMbrInqNextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsGroupMbrInqNext
+ - RpcNsGroupMbrInqNextA
+ - RpcNsGroupMbrInqNextW
 ---
 
 # RpcNsGroupMbrInqNextA function
@@ -51,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsGroupMbrInqNext</b> function returns one entry name from a group at a time.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param InquiryContext
 
 Name service handle.
-
 
 ### -param MemberName
 
@@ -78,10 +74,7 @@ Specify a null value to prevent
 <b>RpcNsGroupMbrInqNext</b> from returning the <i>MemberName</i> parameter. In this case, the application does not call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -139,11 +132,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsGroupMbrInqNext</b> function returns one member of the RPC group specified by the <i>GroupName</i> parameter in 
@@ -168,9 +157,6 @@ The order in which group members are returned can be different for each viewing 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>
 
 
@@ -180,7 +166,4 @@ The order in which group members are returned can be different for each viewing 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 9AB312BE-E174-46D2-BF24-32309BD88AC4
 ms.date: 12/05/2018
 ms.keywords: ID3D12FunctionParameterReflection, ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,described, d3d12shader/ID3D12FunctionParameterReflection, direct3d12.id3d12functionparameterreflection
-f1_keywords:
-- d3d12shader/ID3D12FunctionParameterReflection
-dev_langs:
-- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12shader.h
-api_name:
-- ID3D12FunctionParameterReflection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12FunctionParameterReflection
+ - d3d12shader/ID3D12FunctionParameterReflection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12shader.h
+api_name:
+ - ID3D12FunctionParameterReflection
 ---
 
 # ID3D12FunctionParameterReflection interface
@@ -49,13 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 A function-parameter-reflection interface accesses function-parameter info. 
           <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 12 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -81,12 +79,9 @@ Fills the parameter descriptor structure for the function's parameter.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a function-parameter-reflection interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12functionreflection-getfunctionparameter">ID3D12FunctionReflection::GetFunctionParameter</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
       
@@ -95,15 +90,7 @@ To get a function-parameter-reflection interface, call <a href="https://docs.mic
       </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
- 
-
- 
 

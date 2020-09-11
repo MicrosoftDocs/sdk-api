@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 475CD001-27F6-40DE-887E-EC3EECB40DDA
 ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND_PROP, D2D1_BLEND_PROP enumeration [Direct2D], D2D1_BLEND_PROP_MODE, d2d1effects/D2D1_BLEND_PROP, d2d1effects/D2D1_BLEND_PROP_MODE, direct2d.d2d1_blend_prop
-f1_keywords:
-- d2d1effects/D2D1_BLEND_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_BLEND_PROP
 targetos: Windows
 req.typenames: D2D1_BLEND_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_BLEND_PROP
+ - d2d1effects/D2D1_BLEND_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_BLEND_PROP
 ---
 
 # D2D1_BLEND_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_BLEND_PROP_MODE
 
@@ -68,8 +63,5 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/
 
 The default value is D2D1_BLEND_MODE_MULTIPLY.
 
-
 ### -field D2D1_BLEND_PROP_FORCE_DWORD
-
-
 

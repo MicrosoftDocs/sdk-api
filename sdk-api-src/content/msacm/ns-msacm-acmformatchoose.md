@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: b5e36dbd-9eaf-479a-af4c-ce07e4b6f042
 ms.date: 12/05/2018
 ms.keywords: '*LPACMFORMATCHOOSE, *PACMFORMATCHOOSE, ACMFORMATCHOOSE, ACMFORMATCHOOSE structure [Windows Multimedia], ACMFORMATCHOOSE_STYLEF_CONTEXTHELP, ACMFORMATCHOOSE_STYLEF_ENABLEHOOK, ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE, ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT, ACMFORMATCHOOSE_STYLEF_SHOWHELP, ACM_FORMATENUMF_CONVERT, ACM_FORMATENUMF_HARDWARE, ACM_FORMATENUMF_INPUT, ACM_FORMATENUMF_NCHANNELS, ACM_FORMATENUMF_NSAMPLESPERSEC, ACM_FORMATENUMF_OUTPUT, ACM_FORMATENUMF_SUGGEST, ACM_FORMATENUMF_WBITSPERSAMPLE, ACM_FORMATENUMF_WFORMATTAG, msacm/ACMFORMATCHOOSE, multimedia.acmformatchoose_struct'
-f1_keywords:
-- msacm/ACMFORMATCHOOSE
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msacm.h
-api_name:
-- ACMFORMATCHOOSE
 targetos: Windows
 req.typenames: ACMFORMATCHOOSE, *PACMFORMATCHOOSE, *LPACMFORMATCHOOSE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tACMFORMATCHOOSE
+ - msacm/tACMFORMATCHOOSE
+ - PACMFORMATCHOOSE
+ - msacm/PACMFORMATCHOOSE
+ - ACMFORMATCHOOSE
+ - msacm/ACMFORMATCHOOSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFORMATCHOOSE
 ---
 
 # ACMFORMATCHOOSE structure
@@ -49,22 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ACMFORMATCHOOSE</b> structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Size, in bytes, of the <b>ACMFORMATCHOOSE</b> structure. This member must be initialized before an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function. The size specified in this member must be large enough to contain the base <b>ACMFORMATCHOOSE</b> structure.
-
 
 ### -field fdwStyle
 
@@ -136,48 +132,38 @@ A help button will appear in the dialog box. To use a custom Help file, an appli
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hwndOwner
 
 Handle to the window that owns the dialog box. This member can be any valid window handle, or <b>NULL</b> if the dialog box has no owner. This member must be initialized before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function.
 
-
 ### -field pwfx
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure. If the ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid format. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns, this buffer contains the selected format. If the user cancels the dialog box, no changes will be made to this buffer.
-
 
 ### -field cbwfx
 
 Size, in bytes, of the buffer pointed to by <b>pwfx</b>. If the buffer is too small to contain the format information, the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns ACMERR_NOTPOSSIBLE. Also, the ACM copies the required size into this member. An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> functions to determine the largest size required for this buffer.
 
-
 ### -field pszTitle
 
 Pointer to a string to be placed in the title bar of the dialog box. If this member is <b>NULL</b>, the ACM uses the default title (that is, "Sound Selection").
-
 
 ### -field szFormatTag
 
 Buffer containing a null-terminated string describing the format tag of the format selection when the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
 
-
 ### -field szFormat
 
 Buffer containing a null-terminated string describing the format attributes of the format selection when the [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. If the user cancels the dialog box, this member will contain a null-terminated string.
-
 
 ### -field pszName
 
 Pointer to a string for a user-defined format name. If this is a non-null-terminated string, the ACM will attempt to match the name with a previously saved user-defined format name. If a match is found, the dialog box is initialized to that format. If a match is not found or this member is a null-terminated string, this member is ignored on input. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns, this buffer contains a null-terminated string describing the user-defined format. If the format name is untitled (that is, the user has not given a name for the format), this member will be a null-terminated string on return. If the user cancels the dialog box, no changes will be made to this buffer.
 
-
 ### -field cchName
 
 Size, in characters, of the buffer identified by the <b>pszName</b> member. This buffer should be at least 128 characters long. If the <b>pszName</b> member is <b>NULL</b>, this member is ignored.
-
 
 ### -field fdwEnum
 
@@ -279,38 +265,28 @@ The <b>wFormatTag</b> member of the <a href="https://docs.microsoft.com/previous
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwfxEnum
 
 Pointer to a <b>WAVEFORMATEX</b> structure that will be used to restrict the formats listed in the dialog box. The <b>fdwEnum</b> member defines the members of the structure pointed to by <b>pwfxEnum</b> that should be used for the enumeration restrictions. If no special restrictions are desired, this member can be <b>NULL</b>. For other requirements associated with the <b>pwfxEnum</b> member, see the description for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function.
 
-
 ### -field hInstance
 
 Handle to a data block that contains a dialog box template specified by the <b>pszTemplateName</b> member. This member is used only if the <b>fdwStyle</b> member specifies the ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE or ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE flag; otherwise, this member should be <b>NULL</b> on input.
-
 
 ### -field pszTemplateName
 
 Pointer to a null-terminated string that specifies the name of the resource file for the dialog box template that is to be substituted for the dialog box template in the ACM. An application can use the <a href="https://msdn.microsoft.com/library/ms648029.aspx">MAKEINTRESOURCE</a> macro for numbered dialog box resources. This member is used only if the <b>fdwStyle</b> member specifies the ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE flag; otherwise, this member should be <b>NULL</b> on input.
 
-
 ### -field lCustData
 
 Application-defined data that the ACM passes to the hook function identified by the <b>pfnHook</b> member. The system passes the data in the <i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms645428.aspx">WM_INITDIALOG</a> message.
-
 
 ### -field pfnHook
 
 Pointer to a callback function that processes messages intended for the dialog box. An application must specify the ACMFORMATCHOOSE_STYLEF_ENABLEHOOK flag in the <b>fdwStyle</b> member to enable the hook; otherwise, this member should be <b>NULL</b>. The hook function should return <b>FALSE</b> to pass a message to the standard dialog box procedure or <b>TRUE</b> to discard the message. The callback function type is <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmformatchoosehookproc">acmFormatChooseHookProc</a>.
 
-
 ## -see-also
-
-
-
 
 [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)
 
@@ -365,7 +341,4 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
- 
-
- 
 

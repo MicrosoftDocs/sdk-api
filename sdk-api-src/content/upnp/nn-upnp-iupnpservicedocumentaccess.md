@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs],described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
-f1_keywords:
-- upnp/IUPnPServiceDocumentAccess
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceDocumentAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceDocumentAccess
+ - upnp/IUPnPServiceDocumentAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceDocumentAccess
 ---
 
 # IUPnPServiceDocumentAccess interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Use this interface to retrieve and provide the Service Control Protocol Description (SCPD) document to a UPnP control point application to expose actions supported by the service and provide information about state variables.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Retrieves the SCPD URL for a service object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
- 
-
- 
 

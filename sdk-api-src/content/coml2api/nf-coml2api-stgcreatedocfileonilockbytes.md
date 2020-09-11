@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 8af5098d-db04-4273-8f5f-6d1a1d9541de
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
-f1_keywords:
-- coml2api/StgCreateDocfileOnILockBytes
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- StgCreateDocfileOnILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StgCreateDocfileOnILockBytes
+ - coml2api/StgCreateDocfileOnILockBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - StgCreateDocfileOnILockBytes
 ---
 
 # StgCreateDocfileOnILockBytes function
@@ -52,53 +53,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StgCreateDocfileOnILockBytes</b> function creates and opens a new compound file storage object on top of a byte-array object provided by the caller. The storage object supports the COM-provided, compound-file implementation for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param plkbyt [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface on the underlying byte-array object on which to create a compound file.
 
-
 ### -param grfMode [in]
 
 Specifies the access mode to use when opening the new compound file. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a> and the Remarks section below.
 
-
 ### -param reserved [in]
 
 Reserved for future use; must be zero.
-
 
 ### -param ppstgOpen [out]
 
 A pointer to the location of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer on the new storage object.
 
-
 ## -returns
-
-
 
 The <b>StgCreateDocfileOnILockBytes</b> function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface error return values. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>StgCreateDocfileOnILockBytes</b> function creates a storage object on top of a byte array object using the COM-provided, compound-file implementation of the 
@@ -131,15 +116,7 @@ The ability to build a compound file on top of a byte-array object is provided t
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface must handle these issues itself.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: 96bd2b5b-c088-4eea-bbc2-31d83c13aa99
 ms.date: 12/05/2018
 ms.keywords: FreeGPOList, FreeGPOList function [Group Policy], FreeGPOListA, FreeGPOListW, _win32_freegpolist, policy.freegpolist, userenv/FreeGPOList, userenv/FreeGPOListA, userenv/FreeGPOListW
-f1_keywords:
-- userenv/FreeGPOList
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- FreeGPOList
-- FreeGPOListA
-- FreeGPOListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FreeGPOListW
+ - userenv/FreeGPOListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - FreeGPOList
+ - FreeGPOListA
+ - FreeGPOListW
 ---
 
 # FreeGPOListW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>FreeGPOList</b> function frees the specified list of GPOs.
 
-
 ## -parameters
-
-
-
 
 ### -param pGPOList [in]
 
@@ -68,23 +64,14 @@ A pointer to the list of GPO structures. This list is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a> function. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
@@ -105,9 +92,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
- 
-
- 
 
 ## -remarks
 

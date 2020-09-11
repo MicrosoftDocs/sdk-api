@@ -34,25 +34,29 @@ api_location:
 api_name:
  - SspiCreateAsyncContext
 f1_keywords:
+ - SspiCreateAsyncContext
  - sspi/SspiCreateAsyncContext
 dev_langs:
  - c++
 ---
 
 ## -description
-Creates an instance of SspiAsyncContext that tracks the async call. 
+
+Creates an instance of SspiAsyncContext that tracks the async call.
 
 ## -returns
+
 Returns the initialized SspiAsyncContext.
 
 ## -remarks
+
 When done, the caller must free the async context with [SspiFreeAsyncContext](nf-sspi-sspifreeasynccontext.md)
 
 While the instance's lifetime is the single async operation, it can be reused by calling [SspiReinitAsyncContext](nf-sspi-sspireinitasynccontext.md) after the operation has completed.
-
 
 ## -see-also
 
 [SspiFreeAsyncContext](nf-sspi-sspifreeasynccontext.md)
 
 [SspiReinitAsyncContext](nf-sspi-sspireinitasynccontext.md)
+

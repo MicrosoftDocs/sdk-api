@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer_69rectampdstrect_rectampsrcrect_unitunit.htm
 ms.date: 12/05/2018
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(IN const Rect &,IN const Rect &,IN Unit), Graphics.BeginContainer(const Rect&,const Rect&,Unit), Graphics::BeginContainer, Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit), _gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_
-f1_keywords:
-- gdiplusgraphics/Graphics.BeginContainer
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.BeginContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::BeginContainer
+ - gdiplusgraphics/Graphics::BeginContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.BeginContainer
 ---
 
 # Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit)
@@ -50,50 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
-
 ## -parameters
-
-
-
 
 ### -param dstrect [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
 
-Reference to a rectangle that, together with <i>srcrect</i>, specifies a transformation for the container. 
-
+Reference to a rectangle that, together with <i>srcrect</i>, specifies a transformation for the container.
 
 ### -param srcrect [in, ref]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a></b>
 
-Reference to a rectangle that, together with <i>dstrect</i>, specifies a transformation for the container. 
-
+Reference to a rectangle that, together with <i>dstrect</i>, specifies a transformation for the container.
 
 ### -param unit [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 
-Unit of measure for the container. 
-
+Unit of measure for the container.
 
 ## -returns
-
-
 
 Type: <b>GraphicsContainer</b>
 
 This method returns a value that identifies the container.
 
-
-
-
 ## -remarks
-
-
 
 Use this method to create nested graphics containers. Graphics containers are used to retain graphics state, such as transformations, clipping regions, and various rendering properties.
 
@@ -155,14 +141,7 @@ VOID Example_BeginContainer2(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
@@ -185,7 +164,4 @@ VOID Example_BeginContainer2(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
- 
-
- 
 

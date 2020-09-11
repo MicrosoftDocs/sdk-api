@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
 ms.date: 12/05/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
-f1_keywords:
-- ras/RasSetEntryProperties
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasSetEntryProperties
-- RasSetEntryPropertiesA
-- RasSetEntryPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSetEntryPropertiesA
+ - ras/RasSetEntryPropertiesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasSetEntryProperties
+ - RasSetEntryPropertiesA
+ - RasSetEntryPropertiesW
 ---
 
 # RasSetEntryPropertiesA function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RasSetEntryProperties</b> function changes the 
     connection information for an entry in the phone book or creates a new phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
@@ -67,7 +63,6 @@ Pointer to a null-terminated string that specifies the full path and file name o
       If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
       The default phone-book file is the one selected by the user in the <b>User Preferences</b> 
       property sheet of the <b>Dial-Up Networking</b> dialog box.
-
 
 ### -param arg2 [in]
 
@@ -83,7 +78,6 @@ If the entry name does not match an existing entry,
        <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasvalidateentrynamea">RasValidateEntryName</a> function to validate the 
        entry name before calling 
        <b>RasSetEntryProperties</b>.
-
 
 ### -param arg3 [in]
 
@@ -114,12 +108,10 @@ The structure might be followed by an array of null-terminated alternate phone n
        member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure contains the offset to 
        the first string.
 
-
 ### -param arg4 [in]
 
 Specifies the size, in bytes, of the buffer identified by the <i>lpRasEntry</i> 
       parameter.
-
 
 ### -param arg5 [in]
 
@@ -133,7 +125,6 @@ Pointer to a buffer that specifies device-specific configuration information. Th
 <b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to 
         <b>NULL</b>.
 
-
 ### -param arg6 [in]
 
 Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
@@ -141,10 +132,7 @@ Specifies the size, in bytes, of the <i>lpbDeviceInfo</i> buffer.
 
 <b>Windows XP:  </b>This parameter is unused. The calling function should set this parameter to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -205,14 +193,8 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When setting properties for an all-users connection, if the calling application specifies a 
     non-<b>NULL</b> value for the phone-book parameter, <i>lpszPhonebook</i>, 
@@ -239,9 +221,6 @@ The combined path is the correct location for the phone-book file.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
@@ -263,7 +242,4 @@ The combined path is the correct location for the phone-book file.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

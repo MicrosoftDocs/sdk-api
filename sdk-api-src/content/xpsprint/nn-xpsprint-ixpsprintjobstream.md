@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: a7855015-32db-48ff-8f8d-3d84d2843fde
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream
-f1_keywords:
-- xpsprint/IXpsPrintJobStream
-dev_langs:
-- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsPrint.h
-api_name:
-- IXpsPrintJobStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsPrintJobStream
+ - xpsprint/IXpsPrintJobStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsPrint.h
+api_name:
+ - IXpsPrintJobStream
 ---
 
 # IXpsPrintJobStream interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IXpsPrintJobStream is not supported and may be altered or unavailable in the future. ]
 
 A write-only stream interface into which an application writes print job data.
-
 
 ## -inheritance
 
@@ -79,22 +78,14 @@ Closes the stream and indicates that the entire document has been written.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjobstream-close">Close</a> method must be called before this interface is released.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
@@ -113,7 +104,4 @@ Closes the stream and indicates that the entire document has been written.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

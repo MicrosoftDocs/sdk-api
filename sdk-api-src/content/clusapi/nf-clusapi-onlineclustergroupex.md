@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: F79E75E9-EB54-4C66-AB7C-98AF075718B1
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_ONLINE_SYNCHRONOUS, OnlineClusterGroupEx, OnlineClusterGroupEx function [Failover Cluster], clusapi/OnlineClusterGroupEx, mscs.onlineclustergroupex
-f1_keywords:
-- clusapi/OnlineClusterGroupEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OnlineClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OnlineClusterGroupEx
+ - clusapi/OnlineClusterGroupEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OnlineClusterGroupEx
 ---
 
 # OnlineClusterGroupEx function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Brings a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> online.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 A handle to the group to be brought online.
 
-
 ### -param hDestinationNode [in, optional]
 
 A handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that is to host the group.
-
 
 ### -param dwOnlineFlags [in]
 
@@ -100,20 +94,15 @@ Let the cluster service is to determine the node that will host the group when i
 
 The server is  not to  ignore locked mode for the resource.
 
-
 ### -param lpInBuffer [in, optional]
 
 A pointer to the input buffer that receives instructions for the operation.  The <i>lpInBuffer</i>  parameter is formatted as a property list.
-
 
 ### -param cbInBufferSize [in]
 
 The size of the <i>lpInBuffer</i> parameter, in bytes.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -148,18 +137,8 @@ The operation is in progress.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
- 
-
- 
 

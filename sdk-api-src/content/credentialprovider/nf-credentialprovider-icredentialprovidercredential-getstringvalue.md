@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b891c735-9822-4bc1-a1cc-0c50b35c03c4
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetStringValue method, ICredentialProviderCredential.GetStringValue, ICredentialProviderCredential::GetStringValue, credentialprovider/ICredentialProviderCredential::GetStringValue, shell.ICredentialProviderCredential_GetStringValue, shell_ICredentialProviderCredential_GetStringValue
-f1_keywords:
-- credentialprovider/ICredentialProviderCredential.GetStringValue
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProviderCredential.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredential::GetStringValue
+ - credentialprovider/ICredentialProviderCredential::GetStringValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProviderCredential.GetStringValue
 ---
 
 # ICredentialProviderCredential::GetStringValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables retrieval of text from a credential with a text field.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFieldID [in]
 
@@ -64,28 +60,19 @@ Type: <b>DWORD</b>
 
 The identifier for the field.
 
-
 ### -param ppsz [out]
 
 Type: <b>LPWSTR*</b>
 
 A pointer to the memory containing a null-terminated Unicode string to return to the Logon UI or Credential UI.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is optional.
 
@@ -101,5 +88,4 @@ Credential providers handle extremely sensitive user secrets in order to complet
 <li>Securely discard secrets promptly after they are used.</li>
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>
-
 

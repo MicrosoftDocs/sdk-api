@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerCreateEnumHandle0, FwpmSubLayerCreateEnumHandle0 function [Filtering], fwp.fwpmsublayercreateenumhandle0_func, fwpmu/FwpmSubLayerCreateEnumHandle0
-f1_keywords:
-- fwpmu/FwpmSubLayerCreateEnumHandle0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmSubLayerCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmSubLayerCreateEnumHandle0
+ - fwpmu/FwpmSubLayerCreateEnumHandle0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmSubLayerCreateEnumHandle0
 ---
 
 # FwpmSubLayerCreateEnumHandle0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmSubLayerCreateEnumHandle0</b> function   creates a handle used to enumerate a set of sublayers.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param enumTemplate [in, optional]
 
 Type: [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)*</b>
 
 Template to selectively restrict the enumeration.
-
 
 ### -param enumHandle [out]
 
@@ -78,10 +72,7 @@ Type: <b>HANDLE*</b>
 
 Handle for sublayer enumeration.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -127,14 +118,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>enumTemplate</i> is <b>NULL</b>, all sublayers are returned.
 
@@ -146,20 +131,11 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 <b>FwpmSubLayerCreateEnumHandle0</b> is a specific implementation of FwpmSubLayerCreateEnumHandle. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_SUBLAYER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_enum_template0)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayerdestroyenumhandle0">FwpmSubLayerDestroyEnumHandle0</a>
- 
-
- 
 

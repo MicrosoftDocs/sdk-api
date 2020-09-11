@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW
-f1_keywords:
-- winldap/ldap_compare
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_compare
-- ldap_compareA
-- ldap_compareW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_compareW
+ - winldap/ldap_compareW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_compare
+ - ldap_compareA
+ - ldap_compareW
 ---
 
 # ldap_compareW function
@@ -51,49 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the <b>ldap_compare</b> function to determine whether an attribute for a given entry holds a known value.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
 
-
 ### -param dn [in]
 
 A pointer to a null-terminated string that contains the distinguished name of the entry.
-
 
 ### -param attr [in]
 
 A pointer to a null-terminated string that contains the attribute to compare.
 
-
 ### -param value [in]
 
 A pointer to a null-terminated string that contains the string attribute value to compare to the attribute value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the message ID of the compare operation is returned.
 
 If the function fails, it returns –1 and sets the session error parameters in the LDAP structure. This error can then be retrieved using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_compare</b> function initiates an asynchronous compare operation, comparing the value of an attribute to a known string value. Use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext">ldap_compare_ext</a> or 
@@ -125,9 +110,6 @@ Multithreading: Calls to <b>ldap_compare</b> are thread-safe, provided that
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
@@ -157,7 +139,4 @@ Multithreading: Calls to <b>ldap_compare</b> are thread-safe, provided that
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
- 
-
- 
 

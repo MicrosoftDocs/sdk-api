@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
 ms.date: 12/05/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
-f1_keywords:
-- uxtheme/BeginBufferedAnimation
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- BeginBufferedAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BeginBufferedAnimation
+ - uxtheme/BeginBufferedAnimation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - BeginBufferedAnimation
 ---
 
 # BeginBufferedAnimation function
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 
-
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
@@ -65,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A handle to the window in which the animations play.
 
-
 ### -param hdcTarget
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle of the target DC on which the buffer is animated.
-
 
 ### -param prcTarget
 
@@ -79,13 +72,11 @@ Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b
 
 A pointer to a structure that specifies the area of the target DC in which to draw.
 
-
 ### -param dwFormat
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a></b>
 
 The format of the buffer.
-
 
 ### -param pPaintParams [in]
 
@@ -93,13 +84,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxth
 
 A pointer to a structure that defines the paint operation parameters. This value can be <b>NULL</b>.
 
-
 ### -param pAnimationParams [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_animationparams">BP_ANIMATIONPARAMS</a>*</b>
 
 A pointer to a structure that defines the animation operation parameters.
-
 
 ### -param phdcFrom [out]
 
@@ -107,28 +96,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 When this function returns, this value points to the handle of the DC where the application should paint the initial state of the animation, if not <b>NULL</b>.
 
-
 ### -param phdcTo [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
 
 When this function returns, this value points to the handle of the DC where the application should paint the final state of the animation, if not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HANIMATIONBUFFER</b>
 
 A handle to the buffered paint animation.
 
-
-
-
 ## -remarks
-
-
 
 <b>BeginBufferedAnimation</b> will take care of drawing the intermediate frames between those two states by generating multiple <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages.
 		
@@ -317,7 +297,4 @@ void BufferedPaint(HDC hdc, const RECT *prcPaint)
 }
 
 ```
-
-
-
 

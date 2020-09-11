@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: e6521c35-a58e-4b8e-b415-b49954187736
 ms.date: 12/05/2018
 ms.keywords: SnmpCleanupEx, SnmpCleanupEx function [SNMP], _snmp_snmpcleanupex, snmp.snmpcleanupex, winsnmp/SnmpCleanupEx
-f1_keywords:
-- winsnmp/SnmpCleanupEx
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpCleanupEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpCleanupEx
+ - winsnmp/SnmpCleanupEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpCleanupEx
 ---
 
 # SnmpCleanupEx function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -61,14 +61,7 @@ This function should be used instead of <a href="https://docs.microsoft.com/wind
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS. Until the WinSNMP application successfully recalls the 
 corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartupex">SnmpStartupEx</a> function and there are no additional outstanding successful calls to either <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> or <b>SnmpStartupEx</b>, any other call to a WinSNMP function within the same application returns SNMPAPI_FAILURE, with an extended error code of SNMPAPI_NOT_INITIALIZED.
@@ -107,14 +100,8 @@ The
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before the WinSNMP application calls 
 <b>SnmpCleanupEx</b>, it should call the 
@@ -136,13 +123,7 @@ If a WinSNMP application must perform an emergency exit, and it calls
 
 <b>SnmpCleanupEx</b> must not be called when the application DLL is in the process of unloading.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpclose">SnmpClose</a>
 
@@ -182,7 +163,4 @@ If a WinSNMP application must perform an emergency exit, and it calls
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

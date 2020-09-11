@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: abde4b6f-7cd8-4a4b-9b00-f035b2c29054
 ms.date: 12/05/2018
 ms.keywords: PSECURE_MEMORY_CACHE_CALLBACK, PSECURE_MEMORY_CACHE_CALLBACK callback function, SecureMemoryCacheCallback, SecureMemoryCacheCallback callback, SecureMemoryCacheCallback callback function, base.securememorycachecallback, winnt/PSECURE_MEMORY_CACHE_CALLBACK, winnt/SecureMemoryCacheCallback
-f1_keywords:
-- winnt/SecureMemoryCacheCallback
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinNT.h
-api_name:
-- SecureMemoryCacheCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSECURE_MEMORY_CACHE_CALLBACK
+ - winnt/PSECURE_MEMORY_CACHE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinNT.h
+api_name:
+ - SecureMemoryCacheCallback
 ---
 
 # PSECURE_MEMORY_CACHE_CALLBACK callback function
 
 
 ## -description
-
 
 An application-defined function previously registered with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a> function 
@@ -58,25 +58,17 @@ The <b>PSECURE_MEMORY_CACHE_CALLBACK</b> type defines a pointer to this callback
     function. <i>SecureMemoryCacheCallback</i> is a 
     placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Addr [in]
 
 The starting address of the memory range.
 
-
 ### -param Range [in]
 
 The size of the memory range, in bytes.
 
-
 ## -returns
-
-
 
 The return value indicates the success or failure of this function.
 
@@ -86,12 +78,7 @@ If the caller has secured the specified memory range, this function should unsec
 If the caller has not secured the specified memory range, this function should return 
        <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 After the callback function is registered, it is called after any attempt to free the specified memory range 
     or change its protections. If the application has secured any part of the specified memory range, the callback 
@@ -122,20 +109,11 @@ To unregister the callback function, use the
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a> 
     function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-addsecurememorycachecallback">AddSecureMemoryCacheCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a>
- 
-
- 
 

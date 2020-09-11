@@ -8,10 +8,6 @@ tech.root: MachineLearning
 ms.assetid: 604ABFCC-9CA0-409D-A3FF-D5C59758462E
 ms.date: 12/05/2018
 ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described, MachineLearning.iwinmlmodel, winml/IWinMLModel
-f1_keywords:
-- winml/IWinMLModel
-dev_langs:
-- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winml.dll
-api_name:
-- IWinMLModel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinMLModel
+ - winml/IWinMLModel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winml.dll
+api_name:
+ - IWinMLModel
 ---
 
 # IWinMLModel interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
-Represents a Windows Machine Learning model with corresponding metadata; includes model descriptions (name, author, versioning, etc.), as well as expected inputs and outputs. 
-
+Represents a Windows Machine Learning model with corresponding metadata; includes model descriptions (name, author, versioning, etc.), as well as expected inputs and outputs.
 
 ## -inheritance
 
@@ -108,5 +107,5 @@ Retrieves the WinML model description.
 
 </td>
 </tr>
-</table> 
+</table>
 

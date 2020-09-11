@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 21eb9990-a07f-4d6c-b674-dc35f395e603
 ms.date: 12/05/2018
 ms.keywords: AllocSysString, AllocSysString method [Windows Management Instrumentation], AllocSysString method [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],AllocSysString method, CHString.AllocSysString, CHString::AllocSysString, _hmm_chstring_allocsysstring, chstring/CHString::AllocSysString, wmi.chstring_allocsysstring
-f1_keywords:
-- chstring/CHString.AllocSysString
-dev_langs:
-- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHString.AllocSysString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHString::AllocSysString
+ - chstring/CHString::AllocSysString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHString.AllocSysString
 ---
 
 # CHString::AllocSysString
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -59,19 +59,9 @@ ms.custom: 19H1
 
 The <b>AllocSysString</b> method allocates a new <b>BSTR</b> string that is Automation compatible. It then copies the contents of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>string into it, including the terminating <b>NULL</b> character.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If the <b>AllocSysString</b> method is successful, it points to the newly allocated string.
-
-
 

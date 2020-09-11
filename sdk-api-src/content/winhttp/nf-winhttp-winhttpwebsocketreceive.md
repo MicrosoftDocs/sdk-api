@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 9992150d-632b-45fe-8f11-84d698b4ffb3
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketReceive, WinHttpWebSocketReceive function [WinHTTP], http.winhttpwebsocketreceive, winhttp/WinHttpWebSocketReceive
-f1_keywords:
-- winhttp/WinHttpWebSocketReceive
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpWebSocketReceive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpWebSocketReceive
+ - winhttp/WinHttpWebSocketReceive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpWebSocketReceive
 ---
 
 # WinHttpWebSocketReceive function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpWebSocketReceive</b> function receives data from a WebSocket connection.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
@@ -64,13 +60,11 @@ Type: <b>HINTERNET</b>
 
 Handle to a WebSocket.
 
-
 ### -param pvBuffer [out]
 
 Type: <b>PVOID</b>
 
 Pointer to a buffer to receive the data.
-
 
 ### -param dwBufferLength [in]
 
@@ -78,13 +72,11 @@ Type: <b>DWORD</b>
 
 Length of <i>pvBuffer</i>, in bytes.
 
-
 ### -param pdwBytesRead [out]
 
 Type: <b>DWORD*</b>
 
 Pointer to a <b>DWORD</b> that receives the number of bytes read from the connection at the end of the operation. This is set only if <b>WinHttpWebSocketReceive</b> returns <b>NO_ERROR</b> and the handle was opened in synchronous mode.
-
 
 ### -param peBufferType [out]
 
@@ -92,10 +84,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winh
 
 The type of a returned buffer. This is only set if <b>WinHttpWebSocketReceive</b> returns <b>NO_ERROR</b> and the handle was opened in synchronous mode.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -151,7 +140,4 @@ The operation was cancelled because <a href="https://docs.microsoft.com/windows/
 </td>
 </tr>
 </table>
- 
-
-
 

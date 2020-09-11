@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
 ms.date: 12/05/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirListComboBox, DlgDirListComboBox function [Windows Controls], DlgDirListComboBoxA, DlgDirListComboBoxW, _win32_DlgDirListComboBox, _win32_DlgDirListComboBox_cpp, controls.DlgDirListComboBox, controls._win32_DlgDirListComboBox, winuser/DlgDirListComboBox, winuser/DlgDirListComboBoxA, winuser/DlgDirListComboBoxW
-f1_keywords:
-- winuser/DlgDirListComboBox
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DlgDirListComboBox
-- DlgDirListComboBoxA
-- DlgDirListComboBoxW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DlgDirListComboBoxW
+ - winuser/DlgDirListComboBoxW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DlgDirListComboBox
+ - DlgDirListComboBoxA
+ - DlgDirListComboBoxW
 ---
 
 # DlgDirListComboBoxW function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the dialog box that contains the combo box. 
-
+A handle to the dialog box that contains the combo box.
 
 ### -param lpPathSpec [in, out]
 
@@ -79,20 +74,17 @@ The function splits the string into a directory and a file name. The function se
 
 If the string includes a file name, the file name must contain at least one wildcard character (? or *). If the string does not include a file name, the function behaves as if you had specified the asterisk wildcard character (*) as the file name. All names in the specified directory that match the file name and have the attributes specified by the <i>uFiletype</i> parameter are added to the list displayed in the combo box.
 
-
 ### -param nIDComboBox [in]
 
 Type: <b>int</b>
 
-The identifier of a combo box in the <i>hDlg</i> dialog box. If this parameter is zero, <b>DlgDirListComboBox</b> does not try to fill a combo box. 
-
+The identifier of a combo box in the <i>hDlg</i> dialog box. If this parameter is zero, <b>DlgDirListComboBox</b> does not try to fill a combo box.
 
 ### -param nIDStaticPath [in]
 
 Type: <b>int</b>
 
-The identifier of a static control in the <i>hDlg</i> dialog box. <b>DlgDirListComboBox</b> sets the text of this control to display the current drive and directory. This parameter can be zero if you do not want to display the current drive and directory. 
-
+The identifier of a static control in the <i>hDlg</i> dialog box. <b>DlgDirListComboBox</b> sets the text of this control to display the current drive and directory. This parameter can be zero if you do not want to display the current drive and directory.
 
 ### -param uFiletype [in]
 
@@ -196,12 +188,8 @@ If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://docs.mi
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -209,13 +197,9 @@ If the function succeeds, the return value is nonzero.
                     
                     
 
-If the function fails, the return value is zero. For example, if the string specified by <i>lpPathSpec</i> is not a valid path, the function fails. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. For example, if the string specified by <i>lpPathSpec</i> is not a valid path, the function fails. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
 
 If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes the current directory to the specified directory before filling the combo box. The text of the static control identified by the <i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
 
@@ -241,9 +225,6 @@ Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft L
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a>
 
 
@@ -253,7 +234,4 @@ Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft L
 
 
 <b>Reference</b>
- 
-
- 
 

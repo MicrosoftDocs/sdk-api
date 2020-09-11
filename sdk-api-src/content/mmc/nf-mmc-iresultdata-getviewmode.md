@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: e6c9b3ef-3b12-42c1-9b3b-ad890b8bd05e
 ms.date: 12/05/2018
 ms.keywords: GetViewMode, GetViewMode method [MMC], GetViewMode method [MMC],IResultData interface, GetViewMode method [MMC],IResultData2 interface, IResultData interface [MMC],GetViewMode method, IResultData.GetViewMode, IResultData2 interface [MMC],GetViewMode method, IResultData2::GetViewMode, IResultData::GetViewMode, MMCLV_VIEWSTYLE_FILTERED, MMCLV_VIEWSTYLE_ICON, MMCLV_VIEWSTYLE_LIST, MMCLV_VIEWSTYLE_REPORT, MMCLV_VIEWSTYLE_SMALLICON, _slate_iresultdata_getviewmode, mmc.iresultdata_getviewmode, mmc/IResultData2::GetViewMode, mmc/IResultData::GetViewMode
-f1_keywords:
-- mmc/IResultData.GetViewMode
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IResultData.GetViewMode
-- IResultData2.GetViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultData::GetViewMode
+ - mmc/IResultData::GetViewMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IResultData.GetViewMode
+ - IResultData2.GetViewMode
 ---
 
 # IResultData::GetViewMode
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IResultData::GetViewMode</b> method enables the snap-in to retrieve a view mode for the result view pane. Be aware that view modes only apply to list views.
 
-
 ## -parameters
-
-
-
 
 ### -param lViewMode [out]
 
@@ -97,29 +93,15 @@ The list view is displayed as a filtered view. Each list view column has an asso
 
 This parameter must not be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 This method provides the same functionality for both virtual and nonvirtual list views.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
@@ -130,7 +112,4 @@ This method provides the same functionality for both virtual and nonvirtual list
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setviewmode">IResultData::SetViewMode</a>
- 
-
- 
 

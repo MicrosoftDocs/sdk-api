@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
-f1_keywords:
-- mergemod/IMsmDependency
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmDependency
-- IMsmDependency.get_Module
-- IMsmDependency.get_Language
-- IMsmDependency.get_Version
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmDependency
+ - mergemod/IMsmDependency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmDependency
+ - IMsmDependency.get_Module
+ - IMsmDependency.get_Language
+ - IMsmDependency.get_Version
 ---
 
 # IMsmDependency interface
@@ -52,10 +53,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMsmDependency</b> interface retrieves details for a single module 
 dependency.
-
 
 ## -inheritance
 
@@ -99,20 +98,13 @@ Retrieves the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

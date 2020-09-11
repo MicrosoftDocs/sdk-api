@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 0ed639f7-e7bd-49a2-a7c0-177699a2cf5e
 ms.date: 12/05/2018
 ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsock.wsarecvex_2, winsock/WSARecvEx
-f1_keywords:
-- mswsock/WSARecvEx
-dev_langs:
-- c++
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- WSARecvEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSARecvEx
+ - mswsock/WSARecvEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - WSARecvEx
 ---
 
 # WSARecvEx function
 
 
 ## -description
-
 
 The 
 <b>WSARecvEx</b> function receives data from a connected socket or a bound connectionless socket. The <b>WSARecvEx</b> function is similar to the 
@@ -58,32 +58,23 @@ The
 
 ## -parameters
 
-
-
-
 ### -param s [in]
 
 A descriptor that identifies a connected socket.
-
 
 ### -param buf [out]
 
 A pointer to the buffer to receive the incoming data.
 
-
 ### -param len [in]
 
 The length, in bytes, of the buffer pointed to by the <i>buf</i> parameter.
-
 
 ### -param flags [in, out]
 
 An indicator specifying whether the message is fully or partially received for datagram sockets.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSARecvEx</b> returns the number of bytes received. If the connection has been closed, it returns zero. Additionally, if a partial message was received, the MSG_PARTIAL bit is set in the <i>flags</i> parameter. If a complete message was received, MSG_PARTIAL is not set in <i>flags</i>
@@ -270,14 +261,8 @@ A successful
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSARecvEx</b> function that is part of the Microsoft implementation of Windows Sockets 2 is similar to the more common 
@@ -319,12 +304,7 @@ The
 <div class="alert"><b>Note</b>   All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> function for more information.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -359,7 +339,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

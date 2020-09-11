@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: a0cea95d-5839-41a2-91b9-da8e13030682
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], IFsrmFileScreenManager interface [File Server Resource Manager],described, fs.ifsrmfilescreenmanager, fsrm.ifsrmfilescreenmanager, fsrmscreen/IFsrmFileScreenManager
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenManager
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenManager
+ - fsrmscreen/IFsrmFileScreenManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenManager
 ---
 
 # IFsrmFileScreenManager interface
 
 
 ## -description
-
 
 Used to manage file screen objects.
 
@@ -57,7 +57,6 @@ To get this interface, call the
     <b>CLSID_FsrmFileScreenManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileScreenManager)</code> as the interface identifier. 
     For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-file-screen">Defining a File Screen</a>.
-
 
 ## -inheritance
 
@@ -179,12 +178,9 @@ Retrieves a  list of macros that you can specify in action property values.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 file screen restricts the types of files that can be stored in a specific directory and its subdirectories. 
     For each file screen, there is a configurable list of blocked file groups that define a set of patterns (that are 
@@ -204,20 +200,11 @@ You can create a file screen or a file screen template. The template is used to 
 To create this object from a script, use the "Fsrm.FsrmFileScreenManager" program 
     identifier.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4
 ms.date: 12/05/2018
 ms.keywords: FALSE, LSA_OPEN_SAM_USER, LSA_OPEN_SAM_USER callback, OpenSamUser, OpenSamUser callback function [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, TRUE, _ssp_opensamuser, ntsecpkg/OpenSamUser, security.opensamuser
-f1_keywords:
-- ntsecpkg/OpenSamUser
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- OpenSamUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_OPEN_SAM_USER
+ - ntsecpkg/LSA_OPEN_SAM_USER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - OpenSamUser
 ---
 
 # LSA_OPEN_SAM_USER callback function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a handle to a user account in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
-
 
 ### -param NameType [in]
 
@@ -115,14 +110,11 @@ A
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Prefix [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that specifies the prefix to use with names that use a <i>NameType</i> of SecNameAlternateId.
-
 
 ### -param AllowGuest [in]
 
@@ -154,22 +146,16 @@ If the user is not found and the Guest account is enabled, the Guest account is 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
 Reserved. Specify zero.
 
-
 ### -param *UserHandle [out]
 
 Pointer to a pointer that receives a handle to the user account.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -203,14 +189,8 @@ The SAM account could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To close the handle received by the <i>UserHandle</i> parameter,   call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a> function.
@@ -222,13 +202,7 @@ A pointer to the <b>OpenSamUser</b> function is available in the
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a>
 
@@ -239,7 +213,4 @@ A pointer to the <b>OpenSamUser</b> function is available in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
 

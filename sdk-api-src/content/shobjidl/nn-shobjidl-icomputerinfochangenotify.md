@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 47b853f7-3ee9-4884-94ab-bdcacfa0c2ef
 ms.date: 12/05/2018
 ms.keywords: IComputerInfoChangeNotify, IComputerInfoChangeNotify interface [Windows Shell], IComputerInfoChangeNotify interface [Windows Shell],described, _shell_IComputerInfoChangeNotify, shell.IComputerInfoChangeNotify, shobjidl/IComputerInfoChangeNotify
-f1_keywords:
-- shobjidl/IComputerInfoChangeNotify
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl.h
-api_name:
-- IComputerInfoChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComputerInfoChangeNotify
+ - shobjidl/IComputerInfoChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl.h
+api_name:
+ - IComputerInfoChangeNotify
 ---
 
 # IComputerInfoChangeNotify interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
  This interface may be absent in later versions of Windows.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Not currently supported.
 
 </td>
 </tr>
-</table> 
+</table>
 

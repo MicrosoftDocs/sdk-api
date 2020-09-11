@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a0b7b850-b58d-43a0-b5c5-61a3791f0681
 ms.date: 12/05/2018
 ms.keywords: RectU, RectU function [Direct2D], d2d1helper/RectU, direct2d.rectu
-f1_keywords:
-- d2d1helper/RectU
-dev_langs:
-- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- RectU
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RectU
+ - d2d1helper/RectU
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - RectU
 ---
 
 # RectU function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a> structure that contains the specified dimensions.
 
-
 ## -parameters
-
-
-
 
 ### -param left
 
@@ -64,13 +60,11 @@ Type: <b>UINT32</b>
 
 The x-coordinate of the upper-left corner of the rectangle. The default value is 0.
 
-
 ### -param top
 
 Type: <b>UINT32</b>
 
 The y-coordinate of the upper-left corner of the rectangle. The default value is 0.
-
 
 ### -param right
 
@@ -78,21 +72,15 @@ Type: <b>UINT32</b>
 
 The x-coordinate of the lower-right corner of the rectangle. The default value is 0.
 
-
 ### -param bottom
 
 Type: <b>UINT32</b>
 
 The y-coordinate of the lower-right corner of the rectangle. The default value is 0.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a></b>
 
 A rectangle structure that contains the specified dimensions.
-
-
 

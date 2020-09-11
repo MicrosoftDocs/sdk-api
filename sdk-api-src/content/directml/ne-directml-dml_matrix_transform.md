@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: C977E791-D3D4-4A59-87F0-E7838E455799
 ms.date: 12/5/2018
 ms.keywords: DML_MATRIX_TRANSFORM, DML_MATRIX_TRANSFORM enumeration, DML_MATRIX_TRANSFORM_NONE, DML_MATRIX_TRANSFORM_TRANSPOSE, direct3d12.dml_matrix_transform, directml/DML_MATRIX_TRANSFORM, directml/DML_MATRIX_TRANSFORM_NONE, directml/DML_MATRIX_TRANSFORM_TRANSPOSE
-f1_keywords:
-- directml/DML_MATRIX_TRANSFORM
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_MATRIX_TRANSFORM
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_MATRIX_TRANSFORM
+ - directml/DML_MATRIX_TRANSFORM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_MATRIX_TRANSFORM
 ---
 
 # DML_MATRIX_TRANSFORM enumeration
@@ -49,23 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
 Defines constants that specify a matrix transform to be applied to a DirectML tensor.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DML_MATRIX_TRANSFORM_NONE
 
 Specifies that no transform is to be applied.
-
 
 ### -field DML_MATRIX_TRANSFORM_TRANSPOSE
 

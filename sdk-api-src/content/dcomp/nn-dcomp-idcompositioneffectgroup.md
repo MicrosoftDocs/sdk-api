@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: B8C5A4D8-F161-4383-B117-B89E85C65B19
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup, IDCompositionEffectGroup interface [DirectComposition], IDCompositionEffectGroup interface [DirectComposition],described, dcomp/IDCompositionEffectGroup, directcomp.idcompositioneffectgroup
-f1_keywords:
-- dcomp/IDCompositionEffectGroup
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionEffectGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionEffectGroup
+ - dcomp/IDCompositionEffectGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionEffectGroup
 ---
 
 # IDCompositionEffectGroup interface
@@ -49,11 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a group of bitmap effects that are applied together to modify the rasterization of a visual's subtree.
-
-
-
 
 ## -inheritance
 
@@ -87,20 +84,13 @@ Sets the 3D transformation effect object that modifies the rasterization of the 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
- 
-
- 
 

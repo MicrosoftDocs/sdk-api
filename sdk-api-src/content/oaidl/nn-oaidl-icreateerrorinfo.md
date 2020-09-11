@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 2e7c5ad5-9018-413e-8826-ef752ebf302c
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation],described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
-f1_keywords:
-- oaidl/ICreateErrorInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateErrorInfo
+ - oaidl/ICreateErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateErrorInfo
 ---
 
 # ICreateErrorInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns error information.
-
 
 ## -inheritance
 
@@ -113,16 +112,9 @@ Sets the language-dependent programmatic identifier (ProgID) for the class or ap
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/error-handling-interfaces">Error Handling Interfaces </a>
- 
-
- 
 

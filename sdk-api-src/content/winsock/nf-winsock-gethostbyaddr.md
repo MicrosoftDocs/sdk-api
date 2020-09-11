@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
-f1_keywords:
-- winsock/gethostbyaddr
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- gethostbyaddr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - gethostbyaddr
+ - winsock/gethostbyaddr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - gethostbyaddr
 ---
 
 # gethostbyaddr function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>gethostbyaddr</b> is no longer recommended for use as of Windows Sockets 2. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getnameinfo">getnameinfo</a>.]
 
 The 
 <b>gethostbyaddr</b> function retrieves the host information corresponding to a network address.
 
-
 ## -parameters
-
-
-
 
 ### -param addr
 
 TBD
 
-
 ### -param len
 
 TBD
-
 
 ### -param type
 
@@ -137,12 +131,8 @@ The Internet Protocol version 6 (IPv6) address family.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>gethostbyaddr</b> returns a pointer to the 
@@ -278,14 +268,8 @@ A blocking Windows Socket 1.1 call was canceled through
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>gethostbyaddr</b> function returns a pointer to the 
@@ -442,13 +426,7 @@ int main(int argc, char **argv)
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
@@ -487,7 +465,4 @@ int main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a>
- 
-
- 
 

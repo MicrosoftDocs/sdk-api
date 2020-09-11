@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 23beb1b1-e4b7-4282-9868-5caf40a69a61
 ms.date: 12/05/2018
 ms.keywords: '*PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO, PSOLE_AUTHENTICATION_INFO structure pointer [COM], SOLE_AUTHENTICATION_INFO, SOLE_AUTHENTICATION_INFO structure [COM], _com_SOLE_AUTHENTICATION_INFO, com.sole_authentication_info, objidlbase/PSOLE_AUTHENTICATION_INFO, objidlbase/SOLE_AUTHENTICATION_INFO, tagSOLE_AUTHENTICATION_INFO'
-f1_keywords:
-- objidl/SOLE_AUTHENTICATION_INFO
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- objidlbase.h
-api_name:
-- SOLE_AUTHENTICATION_INFO
 targetos: Windows
 req.typenames: SOLE_AUTHENTICATION_INFO, *PSOLE_AUTHENTICATION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSOLE_AUTHENTICATION_INFO
+ - objidl/tagSOLE_AUTHENTICATION_INFO
+ - PSOLE_AUTHENTICATION_INFO
+ - objidl/PSOLE_AUTHENTICATION_INFO
+ - SOLE_AUTHENTICATION_INFO
+ - objidl/SOLE_AUTHENTICATION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - objidlbase.h
+api_name:
+ - SOLE_AUTHENTICATION_INFO
 ---
 
 # SOLE_AUTHENTICATION_INFO structure
@@ -49,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies an authentication service, authorization service, and the authentication information for the specified authentication service.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwAuthnSvc
 
 The authentication service. This member can be a single value from the <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-service-constants">Authentication Service Constants</a>.
 
-
 ### -field dwAuthzSvc
 
 The authorization service. This member can be a single value from the <a href="https://docs.microsoft.com/windows/desktop/com/com-authorization-constants">Authorization Constants</a>.
-
 
 ### -field pAuthInfo
 
@@ -80,11 +78,7 @@ For Snego (<a href="https://docs.microsoft.com/windows/desktop/com/com-authentic
 
 For authentication services not registered with DCOM, <b>pAuthInfo</b> must be set to <b>NULL</b> and DCOM will use the process identity to represent the client. For more information, see <a href="https://docs.microsoft.com/windows/desktop/com/com-and-security-packages">COM and Security Packages</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>
 
@@ -95,7 +89,4 @@ For authentication services not registered with DCOM, <b>pAuthInfo</b> must be s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-sole_authentication_list">SOLE_AUTHENTICATION_LIST</a>
- 
-
- 
 

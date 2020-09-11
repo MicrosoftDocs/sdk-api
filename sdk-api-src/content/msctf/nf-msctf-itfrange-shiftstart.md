@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: f9f983b1-a5fa-4857-b73c-b879c566d6f6
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStart method, ITfRange.ShiftStart, ITfRange::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstart_ref, msctf/ITfRange::ShiftStart, tsf.itfrange_shiftstart
-f1_keywords:
-- msctf/ITfRange.ShiftStart
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.ShiftStart
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::ShiftStart
+ - msctf/ITfRange::ShiftStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.ShiftStart
 ---
 
 # ITfRange::ShiftStart
@@ -53,32 +54,23 @@ Moves the start anchor of the range.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
 Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
 
 ### -param cchReq [in]
 
 Contains the number of characters the start anchor is shifted. A negative value causes the anchor to move backward and a positive value causes the anchor to move forward.
 
-
 ### -param pcch [out]
 
 Pointer to a <b>LONG</b> value that receives the number of characters the anchor was shifted.
-
 
 ### -param pHalt [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND</a> structure that contains conditions about the shift. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -132,14 +124,8 @@ The edit context identified by <i>ec</i> does not have a read-only lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The start and end positions of a range are called anchors.
 
@@ -149,13 +135,7 @@ If the shift operation causes the range start anchor to move past the end anchor
 
 <b>ITfRange::ShiftStart</b> can be a lengthy operation. For better performance, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstarttorange">ITfRange::ShiftStartToRange</a> when possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
@@ -188,7 +168,4 @@ If the shift operation causes the range start anchor to move past the end anchor
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
- 
-
- 
 

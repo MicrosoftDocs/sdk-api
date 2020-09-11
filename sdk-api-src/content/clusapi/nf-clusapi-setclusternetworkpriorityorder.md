@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster], SetClusterNetworkPriorityOrder, SetClusterNetworkPriorityOrder function [Failover Cluster], _wolf_setclusternetworkpriorityorder, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER, clusapi/SetClusterNetworkPriorityOrder, mscs.setclusternetworkpriorityorder
-f1_keywords:
-- clusapi/SetClusterNetworkPriorityOrder
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- SetClusterNetworkPriorityOrder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetClusterNetworkPriorityOrder
+ - clusapi/SetClusterNetworkPriorityOrder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - SetClusterNetworkPriorityOrder
 ---
 
 # SetClusterNetworkPriorityOrder function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008 and this function does nothing and returns 
@@ -57,21 +57,15 @@ ms.custom: 19H1
 Sets the priority order for the set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">networks</a> used for 
     internal communication between cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> to be affected.
 
-
 ### -param NetworkCount [in]
 
 Number of items in the list specified by the <i>NetworkList</i> parameter.
-
 
 ### -param NetworkList [in]
 
@@ -79,10 +73,7 @@ Prioritized array of handles to network objects. The first handle in the array h
        list must contain only those networks that are used for internal communication between nodes in the cluster, 
        and there can be no duplicates.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
@@ -108,27 +99,15 @@ There was a duplicate network in <i>NetworkList</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
      can have additional destructive effects. For information on how LPC and RPC handles are created, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a>
 
@@ -139,7 +118,4 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
- 
-
- 
 

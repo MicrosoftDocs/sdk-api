@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ad86f388-27af-442a-a76f-f386f66296ac
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_ADD_ENABLE_FLAG, CERT_PHYSICAL_STORE_INFO, CERT_PHYSICAL_STORE_INFO structure [Security], CERT_PHYSICAL_STORE_INSERT_COMPUTER_NAME_ENABLE_FLAG, CERT_PHYSICAL_STORE_OPEN_DISABLE_FLAG, CERT_PHYSICAL_STORE_REMOTE_OPEN_DISABLE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, PCERT_PHYSICAL_STORE_INFO, PCERT_PHYSICAL_STORE_INFO structure pointer [Security], _crypto2_cert_physical_store_info, security.cert_physical_store_info, wincrypt/CERT_PHYSICAL_STORE_INFO, wincrypt/PCERT_PHYSICAL_STORE_INFO'
-f1_keywords:
-- wincrypt/CERT_PHYSICAL_STORE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_PHYSICAL_STORE_INFO
 targetos: Windows
 req.typenames: CERT_PHYSICAL_STORE_INFO, *PCERT_PHYSICAL_STORE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_PHYSICAL_STORE_INFO
+ - wincrypt/_CERT_PHYSICAL_STORE_INFO
+ - PCERT_PHYSICAL_STORE_INFO
+ - wincrypt/PCERT_PHYSICAL_STORE_INFO
+ - CERT_PHYSICAL_STORE_INFO
+ - wincrypt/CERT_PHYSICAL_STORE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_PHYSICAL_STORE_INFO
 ---
 
 # CERT_PHYSICAL_STORE_INFO structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_PHYSICAL_STORE_INFO</b> structure contains information on physical <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate stores</a>. Some members of these structures are passed directly to system calls of 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> to open the physical store.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field pszOpenStoreProvider
 
@@ -76,7 +75,6 @@ In addition to predefined certificate store provider types, new store provider t
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extending-certopenstore-functionality">CertOpenStore</a>.
-
 
 ### -field dwOpenEncodingType
 
@@ -94,18 +92,14 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -field dwOpenFlags
 
 If a system store is opened with the SERVICES or USERS store location, the <b>dwOpenFlags</b> store location is set to CERT_SYSTEM_STORE_USERS or CERT_SYSTEM_STORE_SERVICES.
-
 
 ### -field OpenParameters
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains data to be passed to the <i>pvPara</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function. The data type depends on the provider specified. For detailed information about the type and content to be passed, see descriptions of available providers in 
 <b>CertOpenStore</b>.
-
 
 ### -field dwFlags
 
@@ -170,19 +164,13 @@ Enables <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-winc
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwPriority
 
 When a system store is opened, its physical stores are ordered according to their <b>dwPriority</b> settings. A higher <b>dwPriority</b> indicates higher priority. The <b>dwPriority</b> member is passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a>
 
@@ -201,7 +189,4 @@ When a system store is opened, its physical stores are ordered according to thei
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: EAP
 ms.assetid: 80a8f118-323d-4040-91f7-202eeee6d227
 ms.date: 12/05/2018
 ms.keywords: '*PPPP_EAP_INPUT, PPPP_EAP_INPUT, PPPP_EAP_INPUT structure pointer [EAP], PPP_EAP_INPUT, PPP_EAP_INPUT structure [EAP], RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_ALTERNATIVE_USER_DB, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PEAP_UPFRONT, RAS_EAP_FLAG_PRE_LOGON, RAS_EAP_FLAG_RESUME_FROM_HIBERNATE, RAS_EAP_FLAG_ROUTER, _eap_ppp_eap_input, eap.ppp_eap_input, raseapif/PPPP_EAP_INPUT, raseapif/PPP_EAP_INPUT'
-f1_keywords:
-- raseapif/PPP_EAP_INPUT
-dev_langs:
-- c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Raseapif.h
-api_name:
-- PPP_EAP_INPUT
 targetos: Windows
 req.typenames: PPP_EAP_INPUT, *PPPP_EAP_INPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PPP_EAP_INPUT
+ - raseapif/_PPP_EAP_INPUT
+ - PPPP_EAP_INPUT
+ - raseapif/PPPP_EAP_INPUT
+ - PPP_EAP_INPUT
+ - raseapif/PPP_EAP_INPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Raseapif.h
+api_name:
+ - PPP_EAP_INPUT
 ---
 
 # PPP_EAP_INPUT structure
@@ -49,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PPP_EAP_INPUT</b> structure is used in the interaction between the RAS Connection Manager Service PPP implementation and the EAP.
 
 This structure provides user information, and facilitates the use of authentication providers, such as a RADIUS server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSizeInBytes
 
 Specifies the size in bytes of the <b>PPP_EAP_INPUT</b> structure. The value of this member can be used to distinguish between current and future versions of this structure.
-
 
 ### -field fFlags
 
@@ -177,13 +176,10 @@ Specifies that the credentials for the user or a computer account should be obta
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fAuthenticator
 
 Specifies whether the authentication protocol is operating on the server or client. A value of <b>TRUE</b> indicates that the authentication protocol is operating on the server as the authenticator. A value of <b>FALSE</b> indicates that the authentication protocol is operating on the client as the process to be authenticated.
-
 
 ### -field pwszIdentity
 
@@ -194,16 +190,13 @@ Pointer to a Unicode string that identifies the user requesting authentication. 
 
 If the authentication protocol is able to derive the user's identity from an additional source, for example a certificate, it should verify that the derived identity matches the value of <b>pwszIdentity</b>.
 
-
 ### -field pwszPassword
 
 Pointer to a Unicode string that contains the user's account password. Available only if <b>fAuthenticator</b> is <b>FALSE</b>. This member may be <b>NULL</b>.
 
-
 ### -field bInitialId
 
 Specifies the identifier of the initial EAP packet sent by the DLL. This value is incremented by one for each subsequent request packet.
-
 
 ### -field pUserAttributes
 
@@ -212,21 +205,17 @@ Pointer to an array of
 <a href="/windows/win32/api/raseapif/ne-raseapif-ras_auth_attribute_type">RAS_AUTH_ATTRIBUTE_TYPE</a>). During the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> call, this array contains attributes that describe the currently dialed-in user. When the <b>fAuthenticationComplete</b> member is <b>TRUE</b>, this array may contain attributes returned by the authentication provider.
 
-
 ### -field fAuthenticationComplete
 
 Specifies a Boolean value that indicates whether the authentication provider has authenticated the user. A value of <b>TRUE</b> indicates authentication completion. Check the <b>dwAuthResultCode</b> member to determine if the authentication was successful. Ignore this member if the authentication protocol is not using an authentication provider.
-
 
 ### -field dwAuthResultCode
 
 Specifies the result of the authentication provider's authentication process. Successful authentication results in <b>NO_ERROR</b>. Authentication failure codes for <b>dwAuthResultCode</b> must come only from Winerror.h, Raserror.h or Mprerror.h. Ignore this field if the authentication protocol is not using an authentication provider.
 
-
 ### -field hTokenImpersonateUser
 
-Handle to an impersonation token for the user requesting authentication. This member is valid only on the client side. For more information on impersonation tokens, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">Access Tokens</a>. 
-
+Handle to an impersonation token for the user requesting authentication. This member is valid only on the client side. For more information on impersonation tokens, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">Access Tokens</a>.
 
 ### -field fSuccessPacketReceived
 
@@ -236,11 +225,9 @@ The EAP success packet is a non-acknowledged packet. Therefore, it may be lost a
 
 Examine this member only on the client side.
 
-
 ### -field fDataReceivedFromInteractiveUI
 
 Specifies whether information is available from the interactive user interface. Default is <b>FALSE</b>. RAS sets this member to <b>TRUE</b> whenever the user exits from the authentication protocol's interactive user interface.
-
 
 ### -field pDataFromInteractiveUI
 
@@ -248,11 +235,9 @@ Pointer to data received from the authentication protocol's interactive user int
 
 If non-<b>NULL</b>, the authentication protocol should make a copy of the data in its own memory space. RAS frees the memory occupied by this data on return from the call in which the <b>PPP_EAP_INPUT</b> structure was passed. To free the memory, RAS calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> function.
 
-
 ### -field dwSizeOfDataFromInteractiveUI
 
 Specifies the size, in bytes, of the data pointed to by <b>pDataFromInteractiveUI</b>. If no data is returned from the interactive user interface, this member is zero.
-
 
 ### -field pConnectionData
 
@@ -262,11 +247,9 @@ The authentication protocol should make a copy of this data in its own memory sp
 
 If the authentication protocol's configuration user interface does not return any data, this member is <b>NULL</b>.
 
-
 ### -field dwSizeOfConnectionData
 
 Specifies the size in bytes of the data pointed to by <b>pConnectionData</b>. If <b>pConnectionData</b> is <b>NULL</b>, this member is zero.
-
 
 ### -field pUserData
 
@@ -280,32 +263,19 @@ The authentication protocol should make a copy of this data in its own memory sp
 
 If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a> function is not implemented or did not return any data, and no data exists for the user in the registry, this member is <b>NULL</b>.
 
-
 ### -field dwSizeOfUserData
 
 Specifies the size, in bytes, of the data pointed to by <b>pUserData</b>. If <b>pUserData</b> is <b>NULL</b>, this member is zero.
-
 
 ### -field hReserved
 
 This member is reserved.
 
-
 ### -field guidConnectionId
-
- 
-
 
 ### -field isVpn
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>PPP_EAP_INPUT</b> structure is passed by RAS to the authentication protocol in calls to 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a> and 
@@ -323,13 +293,7 @@ If the authentication protocol is using an authentication provider, such as Radi
 Note that the array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> structures is passed only if <b>fAuthenticator</b> is <b>TRUE</b>. This array contains current session information such as port identifier and local IP address.
 
-
-
-
 ## -see-also
-
-
-
 
 [EAP Structures](/windows/win32/eap/eap-structures)
 
@@ -356,7 +320,4 @@ Note that the array of
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
- 
-
- 
 

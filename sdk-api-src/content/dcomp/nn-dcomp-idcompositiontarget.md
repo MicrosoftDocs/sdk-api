@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 86dbfe68-e360-42cf-b572-960398ef06ba
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTarget, IDCompositionTarget interface [DirectComposition], IDCompositionTarget interface [DirectComposition],described, dcomp/IDCompositionTarget, directcomp.idcompositiontarget
-f1_keywords:
-- dcomp/IDCompositionTarget
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionTarget
+ - dcomp/IDCompositionTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionTarget
 ---
 
 # IDCompositionTarget interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a binding between a Microsoft DirectComposition visual tree and a destination on top of which the visual tree should be composed. 
-
+Represents a binding between a Microsoft DirectComposition visual tree and a destination on top of which the visual tree should be composed.
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Sets a visual object as the new root object of a visual tree.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createtargetforhwnd">IDCompositionDevice::CreateTargetForHwnd</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
- 
-
- 
 

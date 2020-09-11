@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 77ba5ee6-082c-478f-83fc-7f6c31ee3c74
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
-f1_keywords:
-- rometadataapi/IMetaDataDispenser.OpenScope
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataDispenser.OpenScope
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataDispenser::OpenScope
+ - rometadataapi/IMetaDataDispenser::OpenScope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataDispenser.OpenScope
 ---
 
 ## -description
@@ -87,3 +88,4 @@ The in-memory copy of the metadata can be queried using methods from one of the 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>
+

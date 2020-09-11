@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: D71ED536-0D90-4E0D-8683-6260E31EAF20
 ms.date: 12/05/2018
 ms.keywords: FindClosestMatchingMode1, FindClosestMatchingMode1 method [DXGI], FindClosestMatchingMode1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],FindClosestMatchingMode1 method, IDXGIOutput1.FindClosestMatchingMode1, IDXGIOutput1::FindClosestMatchingMode1, direct3ddxgi.idxgioutput1_findclosestmatchingmode1, dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1
-f1_keywords:
-- dxgi1_2/IDXGIOutput1.FindClosestMatchingMode1
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIOutput1.FindClosestMatchingMode1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutput1::FindClosestMatchingMode1
+ - dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIOutput1.FindClosestMatchingMode1
 ---
 
 # IDXGIOutput1::FindClosestMatchingMode1
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds the display mode that most closely matches the requested display mode.
 
-
 ## -parameters
-
-
-
 
 ### -param pModeToMatch [in]
 
@@ -66,11 +62,9 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2
         <b>Height</b> is 0, both must be 0.  A numerator and denominator of 0 in <b>RefreshRate</b> indicate it is unspecified. Other members 
         of <b>DXGI_MODE_DESC1</b> have enumeration values that indicate that the member is unspecified.  If <i>pConcernedDevice</i> is <b>NULL</b>, the <b>Format</b>member of <b>DXGI_MODE_DESC1</b> cannot be <b>DXGI_FORMAT_UNKNOWN</b>.
 
-
 ### -param pClosestMatch [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_mode_desc1">DXGI_MODE_DESC1</a> structure that receives a description of the display mode that most closely matches the display mode described at <i>pModeToMatch</i>.
-
 
 ### -param pConcernedDevice [in, optional]
 
@@ -102,16 +96,9 @@ A pointer to the Direct3D device interface. If this parameter is <b>NULL</b>, <b
 
 ## -returns
 
-
-
 Returns one of the error codes described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.
 
-
-
-
 ## -remarks
-
-
 
 Direct3D devices require UNORM formats.
 
@@ -140,16 +127,7 @@ If a member is unspecified, <b>FindClosestMatchingMode1</b> gravitates toward th
       display mode, <b>FindClosestMatchingMode1</b> typically returns a display mode that matches the desktop settings for this output.  
       Because unspecified members are lower priority than specified members, <b>FindClosestMatchingMode1</b> resolves unspecified members later than specified members.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutput1">IDXGIOutput1</a>
- 
-
- 
 

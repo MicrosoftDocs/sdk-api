@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface,described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
-f1_keywords:
-- d3d12sdklayers/ID3D12SharingContract
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12SharingContract
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12SharingContract
+ - d3d12sdklayers/ID3D12SharingContract
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12SharingContract
 ---
 
 # ID3D12SharingContract interface
+
 
 ## -description
 
@@ -85,8 +87,9 @@ Signals a shared fence between the D3D layers and diagnostics tools.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [Core interfaces](https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces), [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)
+

@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 9762f0d6-0022-4e05-b2d8-6223d7bbb2c8
 ms.date: 12/05/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaiseEx, NetAlertRaiseEx function [Network Management], _win32_netalertraiseex, lmalert/NetAlertRaiseEx, netmgmt.netalertraiseex
-f1_keywords:
-- lmalert/NetAlertRaiseEx
-dev_langs:
-- c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetAlertRaiseEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetAlertRaiseEx
+ - lmalert/NetAlertRaiseEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetAlertRaiseEx
 ---
 
 # NetAlertRaiseEx function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is not supported as of Windows Vista because the alerter service is not supported.]
 
@@ -57,11 +57,7 @@ The
 <b>NetAlertRaiseEx</b> does not require that you specify a 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param AlertType [in]
 
@@ -125,8 +121,6 @@ An application or resource was used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param VariableInfo [in]
 
@@ -142,20 +136,15 @@ A pointer to the data to send to the clients listening for the interrupting mess
 The calling application must allocate and free the memory for all structures and variable data. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ### -param VariableInfoSize [in]
 
 The number of bytes of variable information in the buffer pointed to by the <i>VariableInfo</i> parameter.
-
 
 ### -param ServiceName [in]
 
 A pointer to a constant string that specifies the name of the service raising the interrupting message.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -190,14 +179,8 @@ The request is not supported. This error is returned on Windows Vista and later
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No special group membership is required to successfully execute the 
 <b>NetAlertRaiseEx</b> function.
@@ -391,14 +374,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
@@ -435,7 +411,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
- 
-
- 
 

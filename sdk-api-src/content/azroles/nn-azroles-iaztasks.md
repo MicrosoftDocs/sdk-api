@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.date: 12/05/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
-f1_keywords:
-- azroles/IAzTasks
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzTasks
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzTasks
+ - azroles/IAzTasks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzTasks
 ---
 
 # IAzTasks interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzTasks</b> interface represents a collection of  
 <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects.
-
 
 ## -inheritance
 
@@ -153,5 +152,5 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn
 
 </td>
 </tr>
-</table> 
+</table>
 

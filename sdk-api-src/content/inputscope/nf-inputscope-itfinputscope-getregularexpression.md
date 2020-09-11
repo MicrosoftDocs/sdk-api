@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
 ms.date: 12/05/2018
 ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetRegularExpression method, ITfInputScope.GetRegularExpression, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
-f1_keywords:
-- inputscope/ITfInputScope.GetRegularExpression
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputScope.GetRegularExpression
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputScope::GetRegularExpression
+ - inputscope/ITfInputScope::GetRegularExpression
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputScope.GetRegularExpression
 ---
 
 # ITfInputScope::GetRegularExpression
@@ -53,17 +54,11 @@ Gets the regular expression string to be rssecognized.
 
 ## -parameters
 
-
-
-
 ### -param pbstrRegExp [out]
 
 Pointer to a string containing the regular expression. The calling function must call <b>SystFreeString()</b> to free the memory allocated to the strings.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -84,7 +79,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

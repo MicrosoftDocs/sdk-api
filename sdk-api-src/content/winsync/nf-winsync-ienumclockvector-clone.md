@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 17e8704f-15fe-4d08-9e83-fd7b9a064569
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumClockVector interface, IEnumClockVector interface [Windows Sync],Clone method, IEnumClockVector.Clone, IEnumClockVector::Clone, winsync.ienumclockvector_clone, winsync/IEnumClockVector::Clone
-f1_keywords:
-- winsync/IEnumClockVector.Clone
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumClockVector.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumClockVector::Clone
+ - winsync/IEnumClockVector::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumClockVector.Clone
 ---
 
 # IEnumClockVector::Clone
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppiEnum [out]
 
 Returns the newly cloned enumerator.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -105,18 +98,8 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>
- 
-
- 
 

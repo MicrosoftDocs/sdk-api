@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3cmd.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],UseDevice property, IFaxOutboundRoutingRule.UseDevice, IFaxOutboundRoutingRule.get_UseDevice, IFaxOutboundRoutingRule.put_UseDevice, IFaxOutboundRoutingRule::UseDevice, IFaxOutboundRoutingRule::get_UseDevice, IFaxOutboundRoutingRule::put_UseDevice, UseDevice property [Fax Service], UseDevice property [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.usedevice, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_usedevice_cpp, fax._mfax_faxoutboundroutingrule_usedevice, faxcomex/IFaxOutboundRoutingRule::UseDevice, faxcomex/IFaxOutboundRoutingRule::get_UseDevice, faxcomex/IFaxOutboundRoutingRule::put_UseDevice, put_UseDevice
-f1_keywords:
-- faxcomex/IFaxOutboundRoutingRule.UseDevice
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutboundRoutingRule.UseDevice
-- IFaxOutboundRoutingRule.get_UseDevice
-- IFaxOutboundRoutingRule.put_UseDevice
-- IFaxOutboundRoutingRule.get_UseDevice
-- IFaxOutboundRoutingRule.put_UseDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutboundRoutingRule::put_UseDevice
+ - faxcomex/IFaxOutboundRoutingRule::put_UseDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutboundRoutingRule.UseDevice
+ - IFaxOutboundRoutingRule.get_UseDevice
+ - IFaxOutboundRoutingRule.put_UseDevice
+ - IFaxOutboundRoutingRule.get_UseDevice
+ - IFaxOutboundRoutingRule.put_UseDevice
 ---
 
 # IFaxOutboundRoutingRule::put_UseDevice
@@ -53,28 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxOutboundRoutingRule::get_UseDevice</b> property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 To read or to write to this property, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a>
 
@@ -85,7 +75,4 @@ To read or to write to this property, a user must have the <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
- 
-
- 
 

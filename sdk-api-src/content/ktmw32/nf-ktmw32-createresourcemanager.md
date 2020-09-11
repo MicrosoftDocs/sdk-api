@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ad88e478-1dff-4f35-a0e3-6bda8bb45711
 ms.date: 12/05/2018
 ms.keywords: CreateResourceManager, CreateResourceManager function [Files], RESOURCE_MANAGER_VOLATILE, fs.createresourcemanager, ktmw32/CreateResourceManager
-f1_keywords:
-- ktmw32/CreateResourceManager
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- CreateResourceManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateResourceManager
+ - ktmw32/CreateResourceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - CreateResourceManager
 ---
 
 # CreateResourceManager function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new resource manager (RM) object, and associates the RM with a transaction manager (TM).
 
-
 ## -parameters
-
-
-
 
 ### -param lpResourceManagerAttributes [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
-
 ### -param ResourceManagerId [in]
 
 A pointer the resource manager GUID. This parameter is required and must not be <b>NULL</b>.
-
 
 ### -param CreateOptions [in, optional]
 
@@ -88,22 +82,16 @@ Indicates that the RM is volatile, and does not perform recovery.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TmHandle [in]
 
 A handle to the TM that will manage the transactions for this RM.
 
-
 ### -param Description [in, optional]
 
 A description for this RM.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the RM.
 
@@ -112,14 +100,7 @@ If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended
 
 The following list identifies the  possible error codes:
 
-
-
-
-
-
 ## -remarks
-
-
 
 Immediately after calling this function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recoverresourcemanager">RecoverResourceManager</a>.
 
@@ -129,13 +110,7 @@ RMs are typically persistent, meaning that after a system failure, they must be 
 
 You can create a volatile RM on a durable TM, but you cannot create a durable RM on a volatile TM.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
@@ -150,7 +125,4 @@ You can create a volatile RM on a durable TM, but you cannot create a durable RM
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-setresourcemanagercompletionport">SetResourceManagerCompletionPort</a>
- 
-
- 
 

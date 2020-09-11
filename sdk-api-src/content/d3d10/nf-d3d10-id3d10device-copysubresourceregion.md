@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_copysubresourceregion.htm
 ms.date: 12/05/2018
 ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 10], CopySubresourceRegion method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopySubresourceRegion method, ID3D10Device.CopySubresourceRegion, ID3D10Device::CopySubresourceRegion, d3d10/ID3D10Device::CopySubresourceRegion, direct3d10.id3d10device_copysubresourceregion
-f1_keywords:
-- d3d10/ID3D10Device.CopySubresourceRegion
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10Device.CopySubresourceRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10Device::CopySubresourceRegion
+ - d3d10/ID3D10Device::CopySubresourceRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10Device.CopySubresourceRegion
 ---
 
 # ID3D10Device::CopySubresourceRegion
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copy a region from a source resource to a destination resource.
 
-
 ## -parameters
-
-
-
 
 ### -param pDstResource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
 
 A pointer to the destination resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
-
 
 ### -param DstSubresource [in]
 
@@ -73,13 +68,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Subresource</a> index of the destination.
 
-
 ### -param DstX [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The x coordinate of the upper left corner of the destination region.
-
 
 ### -param DstY [in]
 
@@ -87,13 +80,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The y coordinate of the upper left corner of the destination region.
 
-
 ### -param DstZ [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The z coordinate of the upper left corner of the destination region. For a 1D or 2D subresource, this must be zero.
-
 
 ### -param pSrcResource [in]
 
@@ -101,14 +92,12 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-
 
 A pointer to the source resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
 
-
 ### -param SrcSubresource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Subresource</a> index of the source.
-
 
 ### -param pSrcBox [in]
 
@@ -118,10 +107,7 @@ A 3D box (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d
 
 An empty box results in a no-op. A box is empty if the top value is greater than or equal to the bottom value, or the left value is greater than or equal to the right value, or the front value is greater than or equal to the back value. When the box is empty, <b>CopySubresourceRegion</b> doesn't perform a copy operation.
 
-
 ## -remarks
-
-
 
 The source box must be within the size of the source resource. The destination location is an absolute value (not a relative value). The destination location can be offset from the source location; however, the size of the region to copy (including the destination location) must fit in the destination resource.
 
@@ -191,20 +177,11 @@ pd3dDevice->CopySubresourceRegion( pDestTexture, 0, 130, 120, 0, pSourceTexture,
 
 Notice that, for a 2D texture, front and back are always set to 0 and 1 respectively.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
- 
-
- 
 

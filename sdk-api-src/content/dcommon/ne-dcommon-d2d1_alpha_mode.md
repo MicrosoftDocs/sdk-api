@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: f1b1e735-2e89-4dc1-9fee-dfb4626ef453
 ms.date: 12/05/2018
 ms.keywords: D2D1_ALPHA_MODE, D2D1_ALPHA_MODE enumeration [Direct2D], D2D1_ALPHA_MODE_IGNORE, D2D1_ALPHA_MODE_PREMULTIPLIED, D2D1_ALPHA_MODE_STRAIGHT, D2D1_ALPHA_MODE_UNKNOWN, dcommon/D2D1_ALPHA_MODE, dcommon/D2D1_ALPHA_MODE_IGNORE, dcommon/D2D1_ALPHA_MODE_PREMULTIPLIED, dcommon/D2D1_ALPHA_MODE_STRAIGHT, dcommon/D2D1_ALPHA_MODE_UNKNOWN, direct2d.D2D1_ALPHA_MODE
-f1_keywords:
-- dcommon/D2D1_ALPHA_MODE
-dev_langs:
-- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dcommon.h
-api_name:
-- D2D1_ALPHA_MODE
 targetos: Windows
 req.typenames: D2D1_ALPHA_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_ALPHA_MODE
+ - dcommon/D2D1_ALPHA_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dcommon.h
+api_name:
+ - D2D1_ALPHA_MODE
 ---
 
 # D2D1_ALPHA_MODE enumeration
@@ -49,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how the alpha value of a bitmap or render target should be treated.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_ALPHA_MODE_UNKNOWN
 
 The alpha value might not be meaningful.
 
-
 ### -field D2D1_ALPHA_MODE_PREMULTIPLIED
 
 The alpha value has been premultiplied. Each color is first scaled by the alpha value. The alpha value itself is the same in both straight and premultiplied alpha. Typically, no color channel value is greater than the alpha channel value.  If a color channel value in a premultiplied format is greater than the alpha channel, the standard source-over blending math results in an additive blend.
 
-
 ### -field D2D1_ALPHA_MODE_STRAIGHT
 
-The alpha value has not been premultiplied. The alpha channel indicates the transparency of the color. 
-
+The alpha value has not been premultiplied. The alpha channel indicates the transparency of the color.
 
 ### -field D2D1_ALPHA_MODE_IGNORE
 
 The alpha value is ignored.
 
-
 ### -field D2D1_ALPHA_MODE_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 The <b>D2D1_ALPHA_MODE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a> enumeration to specify the alpha mode of a render target or bitmap. Different render targets and bitmaps support different alpha modes. For a list, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.
 
@@ -111,15 +98,7 @@ You can use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-
 <li>Use <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOBackup, IGPMStarterGPOBackup, IGPMStarterGPOBackup interface [GPMC], IGPMStarterGPOBackup interface [GPMC],described, gpmc.igpmstartergpobackup, gpmgmt/IGPMStarterGPOBackup
-f1_keywords:
-- gpmgmt/IGPMStarterGPOBackup
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMStarterGPOBackup
-- GPMStarterGPOBackup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMStarterGPOBackup
+ - gpmgmt/IGPMStarterGPOBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMStarterGPOBackup
+ - GPMStarterGPOBackup
 ---
 
 # IGPMStarterGPOBackup interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMStarterGPOBackup</b> interface supports methods that allow you to delete 
 <b>GPMStarterGPOBackup</b> objects and to retrieve various properties of <b>GPMStarterGPOBackup</b> objects.
-
 
 ## -inheritance
 
@@ -202,13 +201,9 @@ Retrieves the value of the <b>Type</b> property representing a system or custom 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -223,7 +218,4 @@ Retrieves the value of the <b>Type</b> property representing a system or custom 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMStarterGPOBackupCollection</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
 ms.date: 12/05/2018
 ms.keywords: _win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname
-f1_keywords:
-- winsock/getsockname
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getsockname
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getsockname
+ - winsock/getsockname
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getsockname
 ---
 
 # getsockname function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getsockname</b> function retrieves the local name for a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 Descriptor identifying a socket.
-
 
 ### -param name [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure that receives the address (name) of the socket.
 
-
 ### -param namelen [in, out]
 
 Size of the <i>name</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getsockname</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -158,14 +149,8 @@ The socket has not been bound to an address with
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getsockname</b> function retrieves the current name for the specified socket descriptor in <i>name</i>. It is used on the bound or connected socket specified by the <i>s</i> parameter. The local association is returned. This call is especially useful when a 
@@ -184,13 +169,7 @@ The
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
 
@@ -213,7 +192,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0f7f1b2c-a191-45f5-a645-367e898b6ee2
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap, IFrequencyMap interface [Microsoft TV Technologies], IFrequencyMap interface [Microsoft TV Technologies],described, IFrequencyMapInterface, bdaiface/IFrequencyMap, mstv.ifrequencymap
-f1_keywords:
-- bdaiface/IFrequencyMap
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IFrequencyMap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFrequencyMap
+ - bdaiface/IFrequencyMap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IFrequencyMap
 ---
 
 # IFrequencyMap interface
 
 
 ## -description
-
-
 
 The <b>IFrequencyMap</b> interface sets the frequency table used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-network-provider-filter">BDA Network Provider</a> filter.
 
@@ -59,8 +58,6 @@ Frequencies used by this interface are measured in units of kilohertz (kHz), and
 
 <div class="alert"><b>Note</b>  Currently only the DVB-T Network Provider supports this interface.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -131,25 +128,13 @@ Sets the frequency table.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IFrequencyMap)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

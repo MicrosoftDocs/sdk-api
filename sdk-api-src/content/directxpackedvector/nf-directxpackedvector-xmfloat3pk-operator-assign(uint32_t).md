@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator = (const uint32_t)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3PK structure [DirectX Math Support APIs],operator = method, XMFLOAT3PK.operator =(const uint32_t), XMFLOAT3PK.operator-assign(uint32_t), XMFLOAT3PK.operator=, XMFLOAT3PK::operator-assign(uint32_t), XMFLOAT3PK::operator=, dxmath.xmfloat3pk_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3PK structure, operator=
-f1_keywords:
-- directxpackedvector/XMFLOAT3PK.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMFLOAT3PK.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3PK::operator=
+ - directxpackedvector/XMFLOAT3PK::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMFLOAT3PK.operator =
 ---
 
 # XMFLOAT3PK::operator-assign(uint32_t)
 
 
 ## -description
-
 
 This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to
      the current instance of <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>.
@@ -57,31 +57,17 @@ This operator assigns the vector component data packed in an instance of <code>u
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
 The values of three vector components in a packed format.
-      
-
 
 ## -returns
-
-
 
 The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated to
 	  the component values packed in the <code>uint32_t</code> instance specified by the
 	  <b>Packed</b> argument.
- 
-      
-
-
-
 
 ## -remarks
-
-
 
 The values of the three components assigned to the current instance of <code>XMFLOAT3PK</code> are stored
 	in the argument <b>Packed</b> with the z component (as a reduced precision
@@ -143,12 +129,7 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -159,7 +140,4 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 
 
 <a href="https://msdn.microsoft.com/82c6ee72-0706-49f9-bc19-9725496440d0">operator = </a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassRegistration interface [Windows Runtime], IDllServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IDllServerActivatableClassRegistration, winrt.idllserveractivatableclassregistration
-f1_keywords:
-- activationregistration/IDllServerActivatableClassRegistration
-dev_langs:
-- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- activationregistration.h
-api_name:
-- IDllServerActivatableClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDllServerActivatableClassRegistration
+ - activationregistration/IDllServerActivatableClassRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - activationregistration.h
+api_name:
+ - IDllServerActivatableClassRegistration
 ---
 
 # IDllServerActivatableClassRegistration interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables getting  the registration info for an in-process server.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Gets the apartment threading model for activating the in-process server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
 
@@ -103,7 +98,4 @@ Gets the apartment threading model for activating the in-process server.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

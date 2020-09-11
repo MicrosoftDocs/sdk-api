@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ab7f81ac-a962-4e86-b426-b0082d251645
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MOVE_FILE, FSCTL_MOVE_FILE control, FSCTL_MOVE_FILE control code [Files], _win32_fsctl_move_file, base.fsctl_move_file, fs.fsctl_move_file, winioctl/FSCTL_MOVE_FILE
-f1_keywords:
-- winioctl/FSCTL_MOVE_FILE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_MOVE_FILE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_MOVE_FILE
+ - winioctl/FSCTL_MOVE_FILE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_MOVE_FILE
 ---
 
 # FSCTL_MOVE_FILE IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,7 +87,6 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
 
 ## -remarks
 
@@ -114,7 +109,6 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -127,3 +121,4 @@ Cluster Shared Volume File System (CsvFS) | Yes
 * [GetQueuedCompletionStatus](../ioapiset/nf-ioapiset-getqueuedcompletionstatus.md)
 * [MOVE_FILE_DATA](ns-winioctl-move_file_data.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
+

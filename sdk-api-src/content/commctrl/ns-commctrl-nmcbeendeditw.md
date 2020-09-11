@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbeendedit.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMCBEENDEDITW, *PNMCBEENDEDITW, CBENF_DROPDOWN, CBENF_ESCAPE, CBENF_KILLFOCUS, CBENF_RETURN, NMCBEENDEDIT, NMCBEENDEDIT structure [Windows Controls], NMCBEENDEDITA, NMCBEENDEDITW, PNMCBEENDEDIT, PNMCBEENDEDIT structure pointer [Windows Controls], _win32_NMCBEENDEDIT, _win32_NMCBEENDEDIT_cpp, commctrl/NMCBEENDEDIT, commctrl/NMCBEENDEDITA, commctrl/NMCBEENDEDITW, commctrl/PNMCBEENDEDIT, controls.NMCBEENDEDIT, controls._win32_NMCBEENDEDIT'
-f1_keywords:
-- commctrl/NMCBEENDEDIT
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMCBEENDEDIT
-- NMCBEENDEDITA
-- NMCBEENDEDITW
 targetos: Windows
 req.typenames: NMCBEENDEDITW, *LPNMCBEENDEDITW, *PNMCBEENDEDITW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNMCBEENDEDITW
+ - commctrl/LPNMCBEENDEDITW
+ - NMCBEENDEDITW
+ - commctrl/NMCBEENDEDITW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMCBEENDEDIT
+ - NMCBEENDEDITA
+ - NMCBEENDEDITW
 ---
 
 # NMCBEENDEDITW structure
@@ -51,42 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/cben-endedit">CBEN_ENDEDIT</a> notification code. 
-
+Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/cben-endedit">CBEN_ENDEDIT</a> notification code.
 
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code. 
-
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code.
 
 ### -field fChanged
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-A value indicating whether the contents of the control's edit box have changed. This value is nonzero if the contents have been modified, or zero otherwise. 
-
+A value indicating whether the contents of the control's edit box have changed. This value is nonzero if the contents have been modified, or zero otherwise.
 
 ### -field iNewSelection
 
 Type: <b>int</b>
 
-The zero-based index of the item that will be selected after completing the edit operation. This value can be CB_ERR if no item will be selected. 
-
+The zero-based index of the item that will be selected after completing the edit operation. This value can be CB_ERR if no item will be selected.
 
 ### -field szText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
 
-A zero-terminated string that contains the text from within the control's edit box. 
-
+A zero-terminated string that contains the text from within the control's edit box.
 
 ### -field iWhy
 
@@ -140,7 +134,6 @@ The user completed the edit operation by pressing ENTER.
 </td>
 </tr>
 </table>
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
-f1_keywords:
-- fileapi/CreateFile2
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- MinKernelBase.dll
-api_name:
-- CreateFile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateFile2
+ - fileapi/CreateFile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateFile2
 ---
 
 # CreateFile2 function
 
 
 ## -description
-
 
 Creates or opens a file or I/O device. The most commonly used I/O devices are as follows: file, file stream, 
     directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe. The 
@@ -69,11 +69,7 @@ When called from a Windows Store app, <b>CreateFile2</b>
 <div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="https://docs.microsoft.com/previous-versions/windows/br212652(v=win.10)">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
     I/O, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -109,7 +105,6 @@ You cannot request an access mode that conflicts with the sharing mode that is s
 
 For more information, see the Remarks section of this topic and 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
-
 
 ### -param dwShareMode [in]
 
@@ -205,8 +200,6 @@ If this flag is not specified, but the file or device has been opened for write 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwCreationDisposition [in]
 
@@ -309,8 +302,6 @@ The calling process must open the file with the <b>GENERIC_WRITE</b> bit set as 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCreateExParams [in, optional]
 
@@ -318,10 +309,7 @@ Pointer to an optional
       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file, device, named pipe, or 
        mail slot.
@@ -329,12 +317,7 @@ If the function succeeds, the return value is an open handle to the specified fi
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To compile an application that uses the <b>CreateFile2</b> 
     function, define the <b>_WIN32_WINNT</b> macro as 0x0602 or later. For more information, see 
@@ -835,13 +818,7 @@ If there is at least one active pipe instance but there are no available listene
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/about-directory-management">About Directory Management</a>
 
@@ -976,7 +953,4 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/ip
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
 

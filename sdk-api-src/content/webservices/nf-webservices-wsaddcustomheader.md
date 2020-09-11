@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 4b95085a-e522-4ab2-b7c9-d332599c5598
 ms.date: 12/05/2018
 ms.keywords: WsAddCustomHeader, WsAddCustomHeader function [Web Services for Windows], webservices/WsAddCustomHeader, wsw.wsaddcustomheader
-f1_keywords:
-- webservices/WsAddCustomHeader
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsAddCustomHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsAddCustomHeader
+ - webservices/WsAddCustomHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsAddCustomHeader
 ---
 
 # WsAddCustomHeader function
@@ -49,18 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds the specified application-defined header to the <a href="https://docs.microsoft.com/windows/desktop/wsw/message">message</a>.
-            
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param message [in]
 
@@ -68,50 +60,33 @@ The message to which to add the header.
                 
 
 The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> enumeration..
-                
-
 
 ### -param headerDescription [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> structure that describes the header.
-                
-
 
 ### -param writeOption [in]
 
 Whether the header element is required, and how the value is allocated.
                     For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> enumeration.
-                
-
 
 ### -param value [in, ref]
 
 The header value to serialize.  For more information, see  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> enumeration.
-                
-                
-
 
 ### -param valueSize [in]
 
 The size of the value being serialized, in bytes.
-                
-
 
 ### -param headerAttributes [in]
 
 The values of the SOAP attributes for the header.
-                
-
 
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -167,14 +142,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WsAddCustomHeader</b> function is designed handle types of headers that are targeted at 
                 the final receiver.  Headers targeted at another receiver are ignored.
@@ -182,7 +151,4 @@ The <b>WsAddCustomHeader</b> function is designed handle types of headers that a
 
 If you are replacing a header, call the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function to remove 
                 the existing instances of the header before calling <b>WsAddCustomHeader</b>.
-            
-
-
 

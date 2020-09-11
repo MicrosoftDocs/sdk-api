@@ -8,10 +8,6 @@ tech.root: debug
 ms.assetid: a33f99a0-7c2d-45df-8a6a-d3257d537c9b
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], IWebApplicationScriptEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationscriptevents, webapplication/IWebApplicationScriptEvents
-f1_keywords:
-- webapplication/IWebApplicationScriptEvents
-dev_langs:
-- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- webapplication.h
-api_name:
-- IWebApplicationScriptEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebApplicationScriptEvents
+ - webapplication/IWebApplicationScriptEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - webapplication.h
+api_name:
+ - IWebApplicationScriptEvents
 ---
 
 # IWebApplicationScriptEvents interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a debugging or authoring app to receive notification of scripting engine events.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Fired when an unhandled script error occurs.
 
 </td>
 </tr>
-</table> 
+</table>
 

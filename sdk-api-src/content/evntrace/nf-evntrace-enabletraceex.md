@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd
 ms.date: 12/05/2018
 ms.keywords: EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_TS_ID, EnableTraceEx, EnableTraceEx function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, base.enabletraceex_func, etw.enabletraceex_func, evntrace/EnableTraceEx
-f1_keywords:
-- evntrace/EnableTraceEx
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- EnableTraceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnableTraceEx
+ - evntrace/EnableTraceEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-eventing-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - EnableTraceEx
 ---
 
 # EnableTraceEx function
 
 
 ## -description
-
 
 Enables or disables the specified event trace provider.
 		
@@ -60,32 +60,24 @@ Enables or disables the specified event trace provider.
 
 The <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function supersedes this function.
 
-
 ## -parameters
-
-
-
 
 ### -param ProviderId [in]
 
 GUID of the event trace provider that you want to enable or disable.
 
-
 ### -param SourceId [in, optional]
 
 GUID that uniquely identifies the session that is enabling or disabling the provider. Can be <b>NULL</b>. If the provider does not implement <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a>, the GUID is not used.
 
-
 ### -param TraceHandle [in]
 
 Handle of the event tracing session to which you want to enable or disable the provider. The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle. 
-
+<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
 ### -param IsEnabled [in]
 
 Set to 1 to receive events  when the provider is registered; otherwise, set to 0 to no longer receive events from the provider.
-
 
 ### -param Level [in]
 
@@ -156,18 +148,14 @@ Detailed trace events
 </td>
 </tr>
 </table>
- 
-
 
 ### -param MatchAnyKeyword [in]
 
 Bitmask of keywords that determine the category of events that you want the provider to write. The provider writes the event if any of the event's keyword bits match any of the bits set in this mask. See Remarks.
 
-
 ### -param MatchAllKeyword [in]
 
 This bitmask is optional. This mask further restricts the category of  events that you want the provider to write. If the event's keyword meets the <i>MatchAnyKeyword</i> condition, the provider will write the event only if all of the bits in this mask exist in the event's keyword. This mask is not used if <i>MatchAnyKeyword</i> is zero. See Remarks.
-
 
 ### -param EnableProperty [in]
 
@@ -199,8 +187,6 @@ Include the terminal session identifier in the extended data.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EnableFilterDesc [in, optional]
 
@@ -208,10 +194,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-
 
 A session can call the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a> function to determine the filters that it can pass to the provider.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is ERROR_SUCCESS.
 						
@@ -278,14 +261,8 @@ Only users with administrative privileges, users in the Performance Log Users gr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -326,18 +303,9 @@ If you use <b>EnableTraceEx</b> to enable a classic provider, the following tran
 </ul>
 A provider can define filters that a session uses to filter events based on event data. With the level and keywords that you provide, ETW determines whether the event is written to the session but with filters, the provider uses the filter data to determine whether it writes the event to the session. For example, if the provider generates process events, it could define a data filter that filters process events based on the process identifier. If the identifier of the process did not match the identifier that you passed as filter data, the provider would prevent event from being written to your session.
 
-On Windows 8.1,Windows Server 2012 R2, and later, payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on specific conditions in a logger session. 
-
-
-
+On Windows 8.1,Windows Server 2012 R2, and later, payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on specific conditions in a logger session.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
- 
-
- 
 

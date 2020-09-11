@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 3c8cd33c-5c2a-48a4-9e8a-f7dd03560848
 ms.date: 12/05/2018
 ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbTSInformationDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTSInformationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTSInformationDescriptor
+ - dvbsiparser/IIsdbTSInformationDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTSInformationDescriptor
 ---
 
 # IIsdbTSInformationDescriptor interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor. The TS information descriptor appears in the ISDB Service Information as part of the event information table (EIT). This descriptor specifies the remote control key identifier assigned to the applicable
 transport stream. It indicates the relationship between the service identifier and the transmission layer during
 hierarchical transmission.
-
 
 ## -inheritance
 
@@ -142,5 +141,5 @@ Gets the tag that identifies an ISDB TS information descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

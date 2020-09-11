@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: c3f847fe-6a1d-41d6-9ed1-807b6234f409
 ms.date: 12/05/2018
 ms.keywords: PXE_BA_CUSTOM, PXE_BA_IGNORE, PXE_BA_NBP, PXE_BA_REJECTED, PxeAsyncRecvDone, PxeAsyncRecvDone function [Windows Deployment Services], wds.pxeasyncrecvdone, wdspxe/PxeAsyncRecvDone
-f1_keywords:
-- wdspxe/PxeAsyncRecvDone
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeAsyncRecvDone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeAsyncRecvDone
+ - wdspxe/PxeAsyncRecvDone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeAsyncRecvDone
 ---
 
 # PxeAsyncRecvDone function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Passes the results of processing the client request asynchronously. This function should be called 
     only if the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> function 
     returns <b>ERROR_IO_PENDING</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientRequest [in]
 
 Handle to the request received from the client.
-
 
 ### -param Action [in]
 
@@ -129,22 +124,12 @@ The provider does not want to service the client request. The system passes the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
@@ -155,7 +140,4 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
 

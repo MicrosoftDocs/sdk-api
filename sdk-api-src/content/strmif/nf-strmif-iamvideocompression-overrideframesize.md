@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 19f5d231-965e-4b0a-bd0b-e85b03d79c71
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],OverrideFrameSize method, IAMVideoCompression.OverrideFrameSize, IAMVideoCompression::OverrideFrameSize, IAMVideoCompressionOverrideFrameSize, OverrideFrameSize, OverrideFrameSize method [DirectShow], OverrideFrameSize method [DirectShow],IAMVideoCompression interface, dshow.iamvideocompression_overrideframesize, strmif/IAMVideoCompression::OverrideFrameSize
-f1_keywords:
-- strmif/IAMVideoCompression.OverrideFrameSize
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoCompression.OverrideFrameSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoCompression::OverrideFrameSize
+ - strmif/IAMVideoCompression::OverrideFrameSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoCompression.OverrideFrameSize
 ---
 
 # IAMVideoCompression::OverrideFrameSize
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>OverrideFrameSize</code> method overrides the frame size of a specified frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param FrameNumber [in]
 
 Specifies the frame number. The first frame that the filter delivers is numbered zero.
 
-
 ### -param Size [in]
 
 Specifies the maximum size of the specified frame, in bytes.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -106,24 +95,12 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the filter supports this method, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideocompression-getinfo">IAMVideoCompression::GetInfo</a> method will return the <b>CompressionCaps_CanCrunch</b> flag in the <i>pCapabilities</i> parameter. However, this flag can also indicate that the filter supports setting the bit rate, so it does not guarantee that the <code>OverrideFrameSize</code> method is supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-compressioncaps">CompressionCaps Enumeration</a>
 
@@ -134,7 +111,4 @@ If the filter supports this method, the <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression Interface</a>
- 
-
- 
 

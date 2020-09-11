@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 0d5a78a3-0d56-47e8-939f-006d5f4db5c4
 ms.date: 12/05/2018
 ms.keywords: IDvbPrivateDataSpecifierDescriptor, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies], IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbPrivateDataSpecifierDescriptor, mstv.idvbprivatedataspecifierdescriptor
-f1_keywords:
-- dvbsiparser/IDvbPrivateDataSpecifierDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbPrivateDataSpecifierDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbPrivateDataSpecifierDescriptor
+ - dvbsiparser/IDvbPrivateDataSpecifierDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbPrivateDataSpecifierDescriptor
 ---
 
 # IDvbPrivateDataSpecifierDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) private data descriptor. The private data descriptor describes broadcaster-specific data that is not part of the official MPEG-2 standard for broadcast streams.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets the tag that identifies a DVB private data descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077
 ms.date: 12/05/2018
 ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], IEnumTfUIElements interface [Text Services Framework],described, _tsf_ienumtfuielements_ref, msctf/IEnumTfUIElements, tsf.ienumtfuielements
-f1_keywords:
-- msctf/IEnumTfUIElements
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- IEnumTfUIElements
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfUIElements
+ - msctf/IEnumTfUIElements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - IEnumTfUIElements
 ---
 
 # IEnumTfUIElements interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfUIElements</b> interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementmgr-enumuielements">ITfUIElementMgr::EnumUIElements</a>  and enumerates the registered UI elements.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 </td>
 </tr>
-</table> 
+</table>
 

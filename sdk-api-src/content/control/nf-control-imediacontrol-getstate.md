@@ -1,17 +1,13 @@
 ---
 UID: NF:control.IMediaControl.GetState
 title: IMediaControl::GetState (control.h)
-description: The GetState method retrieves the state of the filter graph�paused, running, or stopped.
+description: The GetState method retrieves the state of the filter graph�paused, running, or stopped.
 helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IMediaControl interface","IMediaControl interface [DirectShow]","GetState method","IMediaControl.GetState","IMediaControl::GetState","IMediaControlGetState","control/IMediaControl::GetState","dshow.imediacontrol_getstate"]
 old-location: dshow\imediacontrol_getstate.htm
 tech.root: dshow
 ms.assetid: 653a94ff-6929-41b1-9b94-dccaff0f7ec7
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],GetState method, IMediaControl.GetState, IMediaControl::GetState, IMediaControlGetState, control/IMediaControl::GetState, dshow.imediacontrol_getstate
-f1_keywords:
-- control/IMediaControl.GetState
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaControl.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaControl::GetState
+ - control/IMediaControl::GetState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaControl.GetState
 ---
 
 # IMediaControl::GetState
@@ -50,33 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetState</code> method retrieves the state of the filter graph—paused, running, or stopped.
 
 
 
 State transitions are not necessarily synchronous. Therefore, when you call this method, the filter graph might be in transition to a new state. In that case, the method blocks until the transition completes or until the specified time-out elapses.
 
-
 ## -parameters
-
-
-
 
 ### -param msTimeout [in]
 
 Duration of the time-out, in milliseconds, or INFINITE to specify an infinite time-out.
 
-
 ### -param pfs [out]
 
 Receives a member of the [FILTER_STATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state) enumeration.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -130,14 +121,8 @@ Failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Applications can use this method to determine whether playback has started after a call to <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>. Generally, applications should have their own mechanism for tracking which state they have put the filter graph into. Applications typically use the current state to determine which user interface controls are enabled or disabled. For example, once the graph goes into the running state, the application might disable a "Play" button and enable "Stop" and "Pause" buttons.
 
@@ -160,20 +145,11 @@ hr = pControl->GetState(msTimeOut, (OAFilterState*)&fs);
 
 For more information about filter graph states, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-states">Filter States</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
- 
-
- 
 

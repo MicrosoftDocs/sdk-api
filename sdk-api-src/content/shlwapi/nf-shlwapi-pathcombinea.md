@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
 ms.date: 12/05/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
-f1_keywords:
-- shlwapi/PathCombine
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,31 +25,35 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathCombine
-- PathCombineA
-- PathCombineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCombineA
+ - shlwapi/PathCombineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathCombine
+ - PathCombineA
+ - PathCombineW
 ---
 
 # PathCombineA function
 
 
 ## -description
-
 
 Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
         
@@ -62,15 +62,11 @@ Concatenates two strings that represent properly formed paths into one path; als
 
 ## -parameters
 
-
-
-
 ### -param pszDest [out]
 
 Type: <b>LPTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the combined path string. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
-
 
 ### -param pszDir [in, optional]
 
@@ -78,28 +74,19 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the first path. This value can be <b>NULL</b>.
 
-
 ### -param pszFile [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the second path. This value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>LPTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the concatenated path string. This is the same string pointed to by <i>pszPathOut</i>. If this function does not return successfully, this value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The directory path should be in the form of A:,B:, ..., Z:. The file path should be in a correct form that represents the file name part of the path. If the directory path ends with a backslash, the backslash will be maintained. Note that while <i>lpszDir</i> and <i>lpszFile</i> are both optional parameters, they cannot both be <b>NULL</b>.
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b
 ms.date: 12/05/2018
 ms.keywords: 0 (zero), HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY, HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY, HttpReceiveHttpRequest, HttpReceiveHttpRequest function [HTTP], _http_httpreceivehttprequest, http.httpreceivehttprequest, http/HttpReceiveHttpRequest
-f1_keywords:
-- http/HttpReceiveHttpRequest
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpReceiveHttpRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpReceiveHttpRequest
+ - http/HttpReceiveHttpRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpReceiveHttpRequest
 ---
 
 # HttpReceiveHttpRequest function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpReceiveHttpRequest</b> function retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
@@ -66,14 +62,12 @@ A handle to the request queue from which to retrieve the next available request.
 
 <b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
-
 ### -param RequestId [in]
 
 On the first call to retrieve a request, this parameter should be <b>HTTP_NULL_ID</b>. Then, if more than one call is required to retrieve the entire request, 
 <b>HttpReceiveHttpRequest</b> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a> can be called with <i>RequestID</i> set to the value returned in the <b>RequestId</b> member of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure pointed to by <i>pRequestBuffer</i>.
-
 
 ### -param Flags [in]
 
@@ -117,8 +111,6 @@ All of the entity bodies are copied along with the request headers. The <b>pEnti
 </td>
 </tr>
 </table>
- 
-
 
 ### -param RequestBuffer [out]
 
@@ -127,11 +119,9 @@ A pointer to a buffer into which the function copies an
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>.
 
-
 ### -param RequestBufferLength [in]
 
 Size, in bytes, of the  <i>pRequestBuffer</i> buffer.
-
 
 ### -param BytesReturned [out, optional]
 
@@ -141,7 +131,6 @@ Optional. A pointer to a variable that receives the size, in bytes, of the entit
 
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
-
 
 ### -param Overlapped [in, optional]
 
@@ -156,10 +145,7 @@ A synchronous call blocks until a request has arrived in the specified queue and
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see  
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -228,14 +214,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 More than one call can be required to retrieve a given request. When the <i>Flags</i> parameter is set to zero, for example, 
 <b>HttpReceiveHttpRequest</b> only copies the request header structure into the buffer, and does not attempt to copy any of the entity body. In this case, the 
@@ -250,12 +230,7 @@ If
 <div class="alert"><b>Note</b>  The application must examine all relevant request headers, including content-negotiation headers if used, and fail the request as appropriate based on the header content. <b>HttpReceiveHttpRequest</b> ensures only that the header line is properly terminated and does not contain illegal characters.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -274,7 +249,4 @@ If
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
- 
-
- 
 

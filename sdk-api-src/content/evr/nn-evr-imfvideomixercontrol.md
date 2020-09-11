@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
 ms.date: 12/05/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
-f1_keywords:
-- evr/IMFVideoMixerControl
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoMixerControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoMixerControl
+ - evr/IMFVideoMixerControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoMixerControl
 ---
 
 # IMFVideoMixerControl interface
 
 
 ## -description
-
 
 Controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) mixes video substreams. Applications can use this interface to control video mixing during playback.
 
@@ -64,7 +64,6 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 <li>The EVR mixer.
             </li>
 </ul>If you implement a custom mixer for the EVR, the mixer can optionally expose this interface as a service.
-
 
 ## -inheritance
 
@@ -117,20 +116,13 @@ Sets the z-order of a video stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

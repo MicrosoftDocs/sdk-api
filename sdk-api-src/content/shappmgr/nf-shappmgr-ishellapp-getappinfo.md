@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8842c12e-2b59-49d6-8140-5a402509a0dd
 ms.date: 12/05/2018
 ms.keywords: GetAppInfo, GetAppInfo method [Windows Shell], GetAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetAppInfo method, IShellApp.GetAppInfo, IShellApp::GetAppInfo, inet_IShellApp_GetAppInfo, shappmgr/IShellApp::GetAppInfo, shell.IShellApp_GetAppInfo
-f1_keywords:
-- shappmgr/IShellApp.GetAppInfo
-dev_langs:
-- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellApp.GetAppInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellApp::GetAppInfo
+ - shappmgr/IShellApp::GetAppInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellApp.GetAppInfo
 ---
 
 # IShellApp::GetAppInfo
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets general information about an application.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pai [out]
 
@@ -65,21 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-sha
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure that returns the application information.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Add/Remove Programs in the Control Panel sets the cbSize and dwMask members of the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure.</div>
 <div> </div>
@@ -116,14 +103,7 @@ HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>
 
@@ -138,7 +118,4 @@ HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
- 
-
- 
 

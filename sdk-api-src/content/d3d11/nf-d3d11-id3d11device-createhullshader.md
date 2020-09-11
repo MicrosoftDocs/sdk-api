@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 93ec9f46-69c5-4863-bd74-9c8c92fae586
 ms.date: 12/05/2018
 ms.keywords: 3183fc89-b12c-d245-312b-a06f19ecd6de, CreateHullShader, CreateHullShader method [Direct3D 11], CreateHullShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateHullShader method, ID3D11Device.CreateHullShader, ID3D11Device::CreateHullShader, d3d11/ID3D11Device::CreateHullShader, direct3d11.id3d11device_createhullshader
-f1_keywords:
-- d3d11/ID3D11Device.CreateHullShader
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device.CreateHullShader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::CreateHullShader
+ - d3d11/ID3D11Device::CreateHullShader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device.CreateHullShader
 ---
 
 # ID3D11Device::CreateHullShader
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull shader</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pShaderBytecode [in]
 
@@ -65,13 +61,11 @@ Type: <b>const void*</b>
 
 A pointer to a compiled shader.
 
-
 ### -param BytecodeLength [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Size of the compiled shader.
-
 
 ### -param pClassLinkage [in, optional]
 
@@ -79,28 +73,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to a class linkage interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
 
-
 ### -param ppHullShader [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11hullshader">ID3D11HullShader</a>**</b>
 
 Address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11hullshader">ID3D11HullShader</a> interface.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The Direct3D 11.1 runtime, which is available starting with Windows 8, provides the following new functionality for <b>CreateHullShader</b>.
 
@@ -144,15 +129,7 @@ If you pass a compiled shader to <i>pShaderBytecode</i> that uses any of the fol
 <li>All atomics and immediate atomics (for example, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/atomic-and--sm5---asm-">atomic_and</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/imm-atomic-and--sm5---asm-">imm_atomic_and</a>)</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

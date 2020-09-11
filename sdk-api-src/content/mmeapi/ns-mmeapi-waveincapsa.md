@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: e96524fd-82d3-4363-989b-23fb20786f3c
 ms.date: 12/05/2018
 ms.keywords: '*LPWAVEINCAPSA, *NPWAVEINCAPSA, *PWAVEINCAPSA, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], WAVEINCAPSA, _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag'
-f1_keywords:
-- mmeapi/WAVEINCAPS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- WAVEINCAPS
-- WAVEINCAPSA
 targetos: Windows
 req.typenames: WAVEINCAPSA, *PWAVEINCAPSA, *NPWAVEINCAPSA, *LPWAVEINCAPSA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWAVEINCAPSA
+ - mmeapi/tagWAVEINCAPSA
+ - PWAVEINCAPSA
+ - mmeapi/PWAVEINCAPSA
+ - WAVEINCAPSA
+ - mmeapi/WAVEINCAPSA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - WAVEINCAPS
+ - WAVEINCAPSA
 ---
 
 # WAVEINCAPSA structure
@@ -50,37 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WAVEINCAPS</b> structure describes the capabilities of a waveform-audio input device.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field wMid
 
 Manufacturer identifier for the device driver for the waveform-audio input device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
-
 ### -field wPid
 
 Product identifier for the waveform-audio input device. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-
 
 ### -field vDriverVersion
 
 Version number of the device driver for the waveform-audio input device. The high-order byte is the major version number, and the low-order byte is the minor version number.
 
-
 ### -field szPname
 
 Product name in a null-terminated string.
-
 
 ### -field dwFormats
 
@@ -156,28 +149,18 @@ Standard formats that are supported. Can be a combination of the following:
 <td>96 kHz, stereo, 16-bit</td>
 </tr>
 </table>
- 
-
 
 ### -field wChannels
 
 Number specifying whether the device supports mono (1) or stereo (2) input.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
- 
-
- 
 
 ## -remarks
 

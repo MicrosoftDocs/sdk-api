@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 69b89e5c-2a04-4a6a-beb0-18e68f8866ac
 ms.date: 12/05/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, DispInvoke, DispInvoke function [Automation], _oa96_DispInvoke, automat.dispinvoke, oleauto/DispInvoke
-f1_keywords:
-- oleauto/DispInvoke
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- DispInvoke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DispInvoke
+ - oleauto/DispInvoke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - DispInvoke
 ---
 
 # DispInvoke function
@@ -49,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Automatically calls member functions on an interface, given the type information for the interface. You can describe an interface with type information and implement <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> for the interface using this single call.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param _this
 
 An implementation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface described by <i>ptinfo</i>.
 
-
 ### -param ptinfo
 
 The type information that describes the interface.
 
-
 ### -param dispidMember
 
 The member to be invoked. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-getidsofnames">GetIDsOfNames</a> or the object's documentation to obtain the DISPID.
-
 
 ### -param wFlags
 
@@ -129,33 +120,24 @@ The member is changed by a reference assignment, rather than a value assignment.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pparams
 
 Pointer to a structure containing an array of arguments, an array of argument DISPIDs for named arguments, and counts for number of elements in the arrays.
 
-
 ### -param pvarResult
 
 Pointer to where the result is to be stored, or Null if the caller expects no result. This argument is ignored if DISPATCH_PROPERTYPUT or DISPATCH_PROPERTYPUTREF is specified.
-
 
 ### -param pexcepinfo
 
 Pointer to a structure containing exception information. This structure should be filled in if DISP_E_EXCEPTION is returned.
 
-
 ### -param puArgErr
 
 The index within rgvarg of the first argument that has an error. Arguments are stored in pdispparams-&gt;rgvarg in reverse order, so the first argument is the one with the highest index in the array. This parameter is returned only when the resulting return value is DISP_E_TYPEMISMATCH or DISP_E_PARAMNOTFOUND.
 
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -307,13 +289,7 @@ Insufficient memory to complete the operation.
 
 Any of the <b>ITypeInfo::Invoke</b> errors can also be returned.
 
-
-
-
-
 ## -remarks
-
-
 
 The parameter <i>_this</i> is a pointer to an implementation of the interface that is being deferred to. <b>DispInvoke</b> builds a stack frame, coerces parameters using standard coercion rules, pushes them on the stack, and then calls the correct member function in the VTBL.
 
@@ -342,14 +318,7 @@ CLines::Invoke(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
 
@@ -368,7 +337,4 @@ CLines::Invoke(
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-invoke">ITypeInfo::Invoke</a>
- 
-
- 
 

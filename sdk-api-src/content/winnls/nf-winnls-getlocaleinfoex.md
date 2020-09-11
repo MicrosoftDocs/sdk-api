@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
 ms.date: 12/05/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
-f1_keywords:
-- winnls/GetLocaleInfoEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetLocaleInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLocaleInfoEx
+ - winnls/GetLocaleInfoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetLocaleInfoEx
 ---
 
 # GetLocaleInfoEx function
@@ -56,18 +57,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a locale specified by name.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpLocaleName [in, optional]
 
@@ -99,20 +94,15 @@ If <i>LCType</i> is set to <a href="https://docs.microsoft.com/windows/desktop/I
 <div> </div>
 Starting with Windows Vista, your applications should not use <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilanguage">LOCALE_ILANGUAGE</a> in the <i>LCType</i> parameter to avoid failure or retrieval of unexpected data. Instead, it is recommended for your applications to call <b>GetLocaleInfoEx</b>.
 
-
 ### -param lpLCData [out, optional]
 
 Pointer to a buffer in which this function retrieves the requested locale information. This pointer is not used if <i>cchData</i> is set to 0.
-
 
 ### -param cchData [in]
 
 Size, in characters, of the data buffer indicated by <i>lpLCData</i>. Alternatively, the application can set this parameter to 0. In this case, the function does not use the <i>lpLCData</i> parameter and returns the required buffer size, including the terminating null character.
 
-
 ## -returns
-
-
 
 Returns the number of characters retrieved in the locale data buffer if successful and <i>cchData</i> is a nonzero value. If the function succeeds, <i>cchData</i> is nonzero, and <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-return-constants">LOCALE_RETURN_NUMBER</a> is specified, the return value is the size of the integer retrieved in the data buffer, that is, 2. If the function succeeds and the value of <i>cchData</i> is 0, the return value is the required size, in characters including a null character, for the locale data buffer.
 
@@ -124,11 +114,7 @@ The function returns 0 if it does not succeed. To get extended error information
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function normally retrieves information in text format. If the information is a numeric value and the value of <i>LCType</i> is <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilanguage">LOCALE_ILANGUAGE</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-idefault-constants">LOCALE_IDEFAULTLANGUAGE</a>, this function retrieves strings containing hexadecimal numbers. Otherwise, the retrieved text for numeric information is a decimal number.
 
@@ -171,12 +157,7 @@ Examples showing the use of this function can be found in <a href="https://docs.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
 
@@ -203,7 +184,4 @@ Examples showing the use of this function can be found in <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setlocaleinfoa">SetLocaleInfo</a>
- 
-
- 
 

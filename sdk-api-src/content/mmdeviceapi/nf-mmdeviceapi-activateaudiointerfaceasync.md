@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B
 ms.date: 12/05/2018
 ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [Core Audio], coreaudio.activateaudiointerfaceasync, mmdeviceapi/ActivateAudioInterfaceAsync
-f1_keywords:
-- mmdeviceapi/ActivateAudioInterfaceAsync
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mmdevapi.lib
 req.dll: Mmdevapi.dll
 req.irql: No
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mmdevapi.dll
-api_name:
-- ActivateAudioInterfaceAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ActivateAudioInterfaceAsync
+ - mmdeviceapi/ActivateAudioInterfaceAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mmdevapi.dll
+api_name:
+ - ActivateAudioInterfaceAsync
 ---
 
 # ActivateAudioInterfaceAsync function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables Windows Store apps to access preexisting Component Object Model (COM) interfaces in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> family. 
-
+Enables Windows Store apps to access preexisting Component Object Model (COM) interfaces in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> family.
 
 ## -parameters
-
-
-
 
 ### -param deviceInterfacePath [in]
 
@@ -64,30 +60,23 @@ A device interface ID for an audio device. This is normally retrieved from a <a 
 
 The GUIDs <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devinterface-xxx-guids">DEVINTERFACE_AUDIO_CAPTURE</a>  and <b>DEVINTERFACE_AUDIO_RENDER</b>  represent the default audio capture and render device respectively. Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid">StringFromIID</a> to convert either of these GUIDs to an <b>LPCWSTR</b> to use for this argument.
 
-
 ### -param riid [in]
 
 The IID of a COM interface in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> family, such as <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a>.
 
-
 ### -param activationParams [in]
 
-Interface-specific activation parameters. For more information, see the <i>pActivationParams</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>. 
-
+Interface-specific activation parameters. For more information, see the <i>pActivationParams</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>.
 
 ### -param completionHandler [in]
 
 An interface implemented by the caller that is called by Windows when the result of the activation procedure is available.
 
-
 ### -param activationOperation
 
 Returns an <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation">IActivateAudioInterfaceAsyncOperation</a> interface that represents the asynchronous operation of activating the requested <b>WASAPI</b> interface.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,14 +108,8 @@ On versions of Windows previous to Windows 10, this error may result if the func
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function enables Windows Store apps to  activate certain <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a> COM interfaces after using Windows Runtime APIs in the <b>Windows.Devices</b> and <a href="https://docs.microsoft.com/uwp/api/windows.media.devices">Windows.Media.Devices</a> namespaces to select an audio device.  
 
@@ -150,13 +133,7 @@ Depending on which <a href="https://docs.microsoft.com/windows/desktop/CoreAudio
 
 On versions of Windows previous to Windows 10, <b>ActivateAudioInterfaceAsync</b> must be called on a thread in a COM Single-Threaded Apartment (STA), when opening a device for audio capture. The <i>completionHandler</i> that is passed into <b>ActivateAudioInterfaceAsync</b> needs to implement <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagileobject">IAgileObject</a> to ensure that there is no deadlock when the <i>completionHandler</i> is called from the MTA. Otherwise, an <b>E_ILLEGAL_METHOD_CALL</b> will occur.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-functions">Core Audio Functions</a>
 
@@ -167,7 +144,4 @@ On versions of Windows previous to Windows 10, <b>ActivateAudioInterfaceAsync</b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler">IActivateAudioInterfaceCompletionHandler</a>
- 
-
- 
 

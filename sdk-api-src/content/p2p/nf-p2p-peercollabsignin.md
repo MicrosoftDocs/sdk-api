@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
-f1_keywords:
-- p2p/PeerCollabSignin
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabSignin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabSignin
+ - p2p/PeerCollabSignin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabSignin
 ---
 
 # PeerCollabSignin function
@@ -49,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabSignin</b> function signs the peer into a hosted Internet (serverless presence) or subnet ("People Near Me") peer collaboration network presence provider.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 Windows handle to the parent application signing in.
 
-
 ### -param dwSigninOptions [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer.
 
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -136,14 +127,8 @@ The sign-in succeeded, but IPv6 addresses are not available at this time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the p2phost.exe service is not running, this function will launch it.
 
@@ -165,13 +150,7 @@ Display names are not necessarily unique. Users should verify the identity of th
 
 To sign out of a peer collaborative network, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignout</a> with the same set of sign-in options. A user can also sign out through the user interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a>
 
@@ -186,7 +165,4 @@ To sign out of a peer collaborative network, call <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignOut</a>
- 
-
- 
 

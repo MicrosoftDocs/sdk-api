@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 36c763f0-562c-4fc8-9449-b37e993d5f5c
 ms.date: 12/05/2018
 ms.keywords: UnRegisterTypeLib, UnRegisterTypeLib function [Automation], _oa96_UnRegisterTypeLib, automat.unregistertypelib, oleauto/UnRegisterTypeLib
-f1_keywords:
-- oleauto/UnRegisterTypeLib
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- UnRegisterTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnRegisterTypeLib
+ - oleauto/UnRegisterTypeLib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - UnRegisterTypeLib
 ---
 
 # UnRegisterTypeLib function
@@ -49,44 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes type library information from the system registry. Use this API to allow applications to properly uninstall themselves.
 
-
 ## -parameters
-
-
-
 
 ### -param libID
 
 The GUID of the type library.
 
-
 ### -param wVerMajor
 
 The major version of the type library.
-
 
 ### -param wVerMinor
 
 The minor version of the type library.
 
-
 ### -param lcid
 
 The locale identifier.
-
 
 ### -param syskind
 
 The target operating system.
 
-
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -171,17 +159,8 @@ The type library could not be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-In-process objects typically call this API from <b>DllUnregisterServer</b>. 
-
-
-
+In-process objects typically call this API from <b>DllUnregisterServer</b>.
 

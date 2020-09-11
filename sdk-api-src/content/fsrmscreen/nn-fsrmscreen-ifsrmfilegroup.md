@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 9b657f1c-1d59-4ba5-9af9-978ffda1a348
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], IFsrmFileGroup interface [File Server Resource Manager],described, fs.ifsrmfilegroup, fsrm.ifsrmfilegroup, fsrm/IFsrmFileGroup
-f1_keywords:
-- fsrmscreen/IFsrmFileGroup
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileGroup
+ - fsrmscreen/IFsrmFileGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileGroup
 ---
 
 # IFsrmFileGroup interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -77,20 +77,12 @@ The following methods return this interface:
 
 ## -remarks
 
-
-
 A file group is formed by including all members and then excluding all nonmembers. For example, to list all 
     files except for <i>examplename</i>, set <b>Members</b> 
     to "*.*" and <b>NonMembers</b> to 
     "<i>examplename</i>".
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
@@ -101,7 +93,4 @@ A file group is formed by including all members and then excluding all nonmember
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
- 
-
- 
 

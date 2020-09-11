@@ -36,18 +36,24 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqCancelDiagnosticRecordOperation
+f1_keywords:
+ - DdqCancelDiagnosticRecordOperation
+ - diagnosticdataquery/DdqCancelDiagnosticRecordOperation
 ---
 
 ## -description
+
 Cancels all outstanding Diagnostic Data Query API internal query operations for this session. This can be called from another thread to interrupt long running Query APIs.
 
 ## -parameters
 
 ### -param hSession
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the Diagnostic Data Query session. 
+Handle to the Diagnostic Data Query session.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

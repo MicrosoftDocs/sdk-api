@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 2F3E0529-7E2B-4BCD-AE8F-D0F3259D1A48
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter3D, IXpsOMPackageWriter3D interface [XPS Documents and Packaging], IXpsOMPackageWriter3D interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter3d, xpsobjectmodel_2/IXpsOMPackageWriter3D
-f1_keywords:
-- xpsobjectmodel_2/IXpsOMPackageWriter3D
-dev_langs:
-- c++
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsObjectModel_2.h
-api_name:
-- IXpsOMPackageWriter3D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter3D
+ - xpsobjectmodel_2/IXpsOMPackageWriter3D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsObjectModel_2.h
+api_name:
+ - IXpsOMPackageWriter3D
 ---
 
 # IXpsOMPackageWriter3D interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains methods that support model textures and print ticket.
-
 
 ## -inheritance
 
@@ -131,13 +130,9 @@ Creates a print ticket with the specified part.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget">IXpsDocumentPackageTarget</a>
 
@@ -152,7 +147,4 @@ Creates a print ticket with the specified part.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/dn263137(v=win.10)">Supporting 3D printing</a>
- 
-
- 
 

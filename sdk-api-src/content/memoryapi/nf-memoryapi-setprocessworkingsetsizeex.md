@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 04332239-dfc2-4d32-987a-af187e725b71
 ms.date: 12/05/2018
 ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, SetProcessWorkingSetSizeEx, SetProcessWorkingSetSizeEx function, base.setprocessworkingsetsizeex, memoryapi/SetProcessWorkingSetSizeEx, winbase/SetProcessWorkingSetSizeEx
-f1_keywords:
-- memoryapi/SetProcessWorkingSetSizeEx
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Memory-l1-1-1.dll
-- API-MS-Win-Core-Memory-l1-1-2.dll
-- API-MS-Win-Core-Memory-l1-1-3.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- SetProcessWorkingSetSizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessWorkingSetSizeEx
+ - memoryapi/SetProcessWorkingSetSizeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Memory-l1-1-1.dll
+ - API-MS-Win-Core-Memory-l1-1-2.dll
+ - API-MS-Win-Core-Memory-l1-1-3.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - SetProcessWorkingSetSizeEx
 ---
 
 # SetProcessWorkingSetSizeEx function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the minimum and maximum working set sizes for the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -71,7 +67,6 @@ A handle to the process whose working set sizes is to be set.
 
 The handle must have <b>PROCESS_SET_QUOTA</b> access rights. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
 
 ### -param dwMinimumWorkingSetSize [in]
 
@@ -81,7 +76,6 @@ This parameter must be greater than zero but less than or equal to the maximum w
 
 If both <i>dwMinimumWorkingSetSize</i> and <i>dwMaximumWorkingSetSize</i> have the value (<b>SIZE_T</b>)–1, the function removes as many pages as possible from the working set of the specified process.
 
-
 ### -param dwMaximumWorkingSetSize [in]
 
 The maximum working set size for the process, in bytes. The virtual memory manager attempts to keep no more than this much memory resident in the process whenever the process is active and available memory is low.
@@ -89,7 +83,6 @@ The maximum working set size for the process, in bytes. The virtual memory manag
 This parameter must be greater than or equal to 13 pages (for example, 53,248 on systems with a 4K page size), and less than the system-wide maximum (number of available pages minus 512 pages). The default size is 345 pages (for example, this is 1,413,120 bytes on systems with a 4K page size).
 
 If both <i>dwMinimumWorkingSetSize</i> and <i>dwMaximumWorkingSetSize</i> have the value (<b>SIZE_T</b>)–1, the function removes as many pages as possible from the working set of the specified process. For details, see Remarks.
-
 
 ### -param Flags [in]
 
@@ -153,12 +146,8 @@ This flag cannot be used with <b>QUOTA_LIMITS_HARDWS_MAX_DISABLE</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function is succeeds, the return value is nonzero.
 
@@ -166,12 +155,7 @@ If the function fails, the return value is zero. To get extended error informati
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the function fails, the return value is zero. To get extended error information, call 
 <b>GetLastError</b>.
 
-
-
-
 ## -remarks
-
-
 
 The working set of a process is the set of memory pages in the virtual address space of the process that are currently resident in physical memory. These pages are available for an application to use without triggering a page fault. For more information about page faults, see <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">Working Set</a>. The minimum and maximum working set sizes affect the virtual memory paging behavior of a process.
 
@@ -193,13 +177,7 @@ When you increase the working set size of an application, you are taking away ph
 An application can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a> function to lock ranges of the application's virtual address space in memory; however, that can potentially degrade the performance of the system.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex">GetProcessWorkingSetSizeEx</a>
 
@@ -222,7 +200,4 @@ An application can use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">Working Set</a>
- 
-
- 
 

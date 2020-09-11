@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetMatchingFon
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetMatchingFonts method, IDWriteFontSet1.GetMatchingFonts, IDWriteFontSet1::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getmatchingfonts, dwrite_3/IDWriteFontSet1::GetMatchingFonts
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.GetMatchingFonts
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::GetMatchingFonts
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::GetMatchingFonts
+ - dwrite_3/IDWriteFontSet1::GetMatchingFonts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::GetMatchingFonts
 ---
 
 ## -description
@@ -84,3 +85,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 This method can yield distinct items that were not in the original font set, including items with simulation flags (if they would be a closer match to the request), and instances that were not named by the font author. Items from the same font resources are collapsed into one: the closest possible match.
 
 ## -see-also
+

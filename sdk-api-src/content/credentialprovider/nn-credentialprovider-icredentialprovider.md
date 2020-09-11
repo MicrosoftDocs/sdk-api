@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7ce6cd61-16d1-414e-b9b3-4929a65c0cc6
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], ICredentialProvider interface [Windows Shell],described, credentialprovider/ICredentialProvider, shell.ICredentialProvider, shell_ICredentialProvider
-f1_keywords:
-- credentialprovider/ICredentialProvider
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProvider
+ - credentialprovider/ICredentialProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProvider
 ---
 
 # ICredentialProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods used in the setup and manipulation of a credential provider. All credential providers must implement this interface.
-
 
 ## -inheritance
 
@@ -140,12 +139,9 @@ Used by the Logon UI or Credential UI to advise the credential provider that eve
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is how you will interact with the Logon UI and the Credential UI for your app.
 
@@ -155,13 +151,7 @@ Be aware that  a <a href="/windows/win32/api/credentialprovider/ns-credentialpro
 
 Windows 8 adds new functionality in the credential providers API, primarily the ability to group credentials by user.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a>
 
@@ -176,7 +166,4 @@ Windows 8 adds new functionality in the credential providers API, primarily the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>
- 
-
- 
 

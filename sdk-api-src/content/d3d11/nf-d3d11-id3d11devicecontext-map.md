@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: c9d57873-1faa-42fa-855c-26f565e3b27c
 ms.date: 12/05/2018
 ms.keywords: 8c85eb6d-c7f1-0944-a729-628dc7dd5fbc, ID3D11DeviceContext interface [Direct3D 11],Map method, ID3D11DeviceContext.Map, ID3D11DeviceContext::Map, Map, Map method [Direct3D 11], Map method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::Map, direct3d11.id3d11devicecontext_map
-f1_keywords:
-- d3d11/ID3D11DeviceContext.Map
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.Map
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::Map
+ - d3d11/ID3D11DeviceContext::Map
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.Map
 ---
 
 # ID3D11DeviceContext::Map
@@ -50,38 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the data contained in a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-subresources">subresource</a>, and denies the GPU access to that subresource.
 
-
 ## -parameters
-
-
-
 
 ### -param pResource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a> interface.
-          
-
 
 ### -param Subresource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index number of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-subresources">subresource</a>.
-          
-
 
 ### -param MapType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP</a></b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP</a>-typed value that specifies the CPU's read and write permissions for a resource.
-          
-
 
 ### -param MapFlags [in]
 
@@ -89,8 +79,6 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map_flag">Flag</a> that specifies what the CPU does when the GPU is busy. This flag is optional.
-          
-
 
 ### -param pMappedResource [out, optional]
 
@@ -98,12 +86,8 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_mapped_subresource">D3D11_MAPPED_SUBRESOURCE</a> structure for the mapped subresource.
             See the Remarks section regarding NULL pointers.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -117,14 +101,8 @@ This method also returns <b>DXGI_ERROR_DEVICE_REMOVED</b> if <i>MapType</i> allo
             
 
 For more information about these error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
-            
-
-
-
 
 ## -remarks
-
-
 
 If you call <b>Map</b> on a deferred context, you can only pass <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP_WRITE_DISCARD</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP_WRITE_NO_OVERWRITE</a>, or both to the <i>MapType</i> parameter. Other <b>D3D11_MAP</b>-typed values are not supported for a deferred context.
         
@@ -177,18 +155,8 @@ Use the appropriate optimization settings and language constructs to help avoid 
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
 

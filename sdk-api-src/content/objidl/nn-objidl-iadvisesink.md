@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: bc9f217a-75bd-4155-9d00-df44b00cf0e5
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink, IAdviseSink interface [COM], IAdviseSink interface [COM],described, _ole_iadvisesink, com.iadvisesink, objidl/IAdviseSink
-f1_keywords:
-- objidl/IAdviseSink
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IAdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAdviseSink
+ - objidl/IAdviseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IAdviseSink
 ---
 
 # IAdviseSink interface
 
 
 ## -description
-
 
 Enables containers and other objects to receive notifications of data changes, view changes, and compound-document changes occurring in objects of interest. Container applications, for example, require such notifications to keep cached presentations of their linked and embedded objects up-to-date. Calls to <b>IAdviseSink</b> methods are asynchronous, so the call is sent and then the next instruction is executed without waiting for the call's return.
 
@@ -84,7 +84,6 @@ As shown in the following table, an object that has implemented an advise sink r
 </table> 
 
 When an event occurs that applies to a registered notification type, the object application calls the appropriate <b>IAdviseSink</b> method. For example, when an embedded object closes, it calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> method to notify its container. These notifications are asynchronous, occurring after the events that trigger them.
-
 
 ## -inheritance
 
@@ -146,13 +145,9 @@ Advises that the view of object has changed.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink2">IAdviseSink2</a>
 
@@ -183,7 +178,4 @@ Advises that the view of object has changed.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
- 
-
- 
 

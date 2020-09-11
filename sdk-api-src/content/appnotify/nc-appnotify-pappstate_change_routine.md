@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: AA5B09FA-2016-4C9D-8DE3-CD3C6141B45A
 ms.date: 12/05/2018
 ms.keywords: PAPPSTATE_CHANGE_ROUTINE, PAPPSTATE_CHANGE_ROUTINE function, PAPPSTATE_CHANGE_ROUTINE function pointer [Windows Shell], appnotify/PAPPSTATE_CHANGE_ROUTINE, shell.PAPPSTATE_CHANGE_ROUTINE
-f1_keywords:
-- appnotify/PAPPSTATE_CHANGE_ROUTINE
-dev_langs:
-- c++
 req.header: appnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- appnotify.h
-api_name:
-- PAPPSTATE_CHANGE_ROUTINE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PAPPSTATE_CHANGE_ROUTINE
+ - appnotify/PAPPSTATE_CHANGE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - appnotify.h
+api_name:
+ - PAPPSTATE_CHANGE_ROUTINE
 ---
 
 ## -description
@@ -61,3 +62,4 @@ Type: <b>BOOLEAN</b>
 Type: <b>PVOID</b>
 
 A pointer to data that the app can save when suspending and use upon resuming. This value is supplied by the <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> function. This is commonly a "this" pointer.
+

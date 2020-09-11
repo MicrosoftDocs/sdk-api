@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 3ac48781-90c2-4b23-aa68-3453091bde61
 ms.date: 12/05/2018
 ms.keywords: IPartsList, IPartsList interface [Core Audio], IPartsList interface [Core Audio],described, coreaudio.ipartslist, devicetopology/IPartsList
-f1_keywords:
-- devicetopology/IPartsList
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IPartsList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPartsList
+ - devicetopology/IPartsList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IPartsList
 ---
 
 # IPartsList interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IPartsList</b> interface represents a list of parts, each of which is an object with an <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface that represents a connector or subunit. A client obtains a reference to an <b>IPartsList</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsincoming">IPart::EnumPartsIncoming</a>, <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsoutgoing">IPart::EnumPartsOutgoing</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getsignalpath">IDeviceTopology::GetSignalPath</a> method.
 
 For a code example that uses the <b>IPartsList</b> interface, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
-
-
-
 
 ## -inheritance
 
@@ -91,13 +87,9 @@ Gets a part from the parts list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -120,7 +112,4 @@ Gets a part from the parts list.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-enumpartsoutgoing">IPart::EnumPartsOutgoing</a>
- 
-
- 
 

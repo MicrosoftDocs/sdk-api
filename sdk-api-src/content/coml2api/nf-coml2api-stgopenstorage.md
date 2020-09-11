@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 5ff18dc8-b24f-42bb-8c32-efc4d3696687
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorage, StgOpenStorage function [Structured Storage], _stg_stgopenstorage, coml2api/StgOpenStorage, stg.stgopenstorage
-f1_keywords:
-- coml2api/StgOpenStorage
-dev_langs:
-- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
-- API-MS-Win-Core-Com-l2-1-1.dll
-- coml2.dll
-api_name:
-- StgOpenStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StgOpenStorage
+ - coml2api/StgOpenStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+ - API-MS-Win-Core-Com-l2-1-1.dll
+ - coml2.dll
+api_name:
+ - StgOpenStorage
 ---
 
 # StgOpenStorage function
 
 
 ## -description
-
 
 The <b>StgOpenStorage</b> function opens an existing root storage object in the file system. Use this function to open compound files. Do not use it to open directories, files, or summary catalogs. Nested storage objects can only be opened using their parent 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a> method.
@@ -62,13 +62,9 @@ The <b>StgOpenStorage</b> function opens an existing root storage object in the 
 
 ## -parameters
 
-
-
-
 ### -param pwcsName [in]
 
 A pointer to the path of the <b>null</b>-terminated Unicode string file that contains the storage object to open. This parameter is ignored if the <i>pstgPriority</i> parameter is not <b>NULL</b>.
-
 
 ### -param pstgPriority [in]
 
@@ -77,42 +73,30 @@ A pointer to the
 
 After <b>StgOpenStorage</b> returns, the storage object specified in <i>pStgPriority</i> may have been released and should no longer be used.
 
-
 ### -param grfMode [in]
 
 Specifies the access mode to use to open the storage object.
-
 
 ### -param snbExclude [in]
 
 If not <b>NULL</b>, pointer to a block of elements in the storage to be excluded as the storage object is opened. The exclusion occurs regardless of whether a snapshot copy happens on the open. Can be <b>NULL</b>.
 
-
 ### -param reserved [in]
 
 Indicates reserved for future use; must be zero.
-
 
 ### -param ppstgOpen [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>* pointer variable that receives the interface pointer to the opened storage.
 
-
 ## -returns
-
-
 
 The <b>StgOpenStorage</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>StgOpenStorage</b> function opens the specified root storage object according to the access mode in the <i>grfMode</i> parameter, and, if successful, supplies an 
@@ -169,12 +153,7 @@ if (SUCCEEDED(hr))
 }     
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
@@ -185,7 +164,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 9e318698-0c3c-41c2-bb9e-04e8c9746c4d
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit interface [COM],InitNew method, IPersistStreamInit.InitNew, IPersistStreamInit::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_initnew, com.ipersiststreaminit_initnew, ocidl/IPersistStreamInit::InitNew
-f1_keywords:
-- ocidl/IPersistStreamInit.InitNew
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPersistStreamInit.InitNew
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStreamInit::InitNew
+ - ocidl/IPersistStreamInit::InitNew
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPersistStreamInit.InitNew
 ---
 
 # IPersistStreamInit::InitNew
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an object to a default state. This method is to be called instead of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">IPersistStreamInit::Load</a>.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return valuesE_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -94,27 +86,12 @@ The object requires no default initialization. This error code is allowed becaus
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the object has already been initialized with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">IPersistStreamInit::Load</a>, then this method must return E_UNEXPECTED.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
- 
-
- 
 

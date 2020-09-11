@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 40af5582-f801-4437-b782-8d03ffffcb82
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile
-f1_keywords:
-- vfw/capCaptureSequenceNoFile
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- capCaptureSequenceNoFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - capCaptureSequenceNoFile
+ - vfw/capCaptureSequenceNoFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - capCaptureSequenceNoFile
 ---
 
 # capCaptureSequenceNoFile macro
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>capCaptureSequenceNoFile</b> macro initiates streaming video capture without writing data to a file. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-sequence-nofile">WM_CAP_SEQUENCE_NOFILE</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle to a capture window. 
-
+Handle to a capture window.
 
 ## -remarks
-
-
 
 This message is useful in conjunction with video stream or waveform-audio stream callback functions that let your application use the video and audio data directly.
 
@@ -96,19 +86,11 @@ During streaming capture, the capture window can optionally issue notifications 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
- 
-
- 
 

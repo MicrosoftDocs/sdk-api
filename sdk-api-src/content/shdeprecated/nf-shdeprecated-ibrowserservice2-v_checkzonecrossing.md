@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: cc682057-9a84-4b14-bfe3-32b6ada9304c
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_CheckZoneCrossing method, IBrowserService2.v_CheckZoneCrossing, IBrowserService2::v_CheckZoneCrossing, shdeprecated/IBrowserService2::v_CheckZoneCrossing, shell.IBrowserService2_v_CheckZoneCrossing, v_CheckZoneCrossing, v_CheckZoneCrossing method [Windows Shell], v_CheckZoneCrossing method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_CheckZoneCrossing
-f1_keywords:
-- shdeprecated/IBrowserService2.v_CheckZoneCrossing
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.v_CheckZoneCrossing
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::v_CheckZoneCrossing
+ - shdeprecated/IBrowserService2::v_CheckZoneCrossing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.v_CheckZoneCrossing
 ---
 
 # IBrowserService2::v_CheckZoneCrossing
@@ -50,30 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Called by the base class to validate a zone crossing when navigating from one page to another.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in, out]
 
 Type: <b>LPCITEMIDLIST</b>
 
 The PIDL of the navigation destination.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

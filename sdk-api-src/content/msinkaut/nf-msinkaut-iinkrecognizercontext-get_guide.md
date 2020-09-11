@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 706d28c3-fc5d-496a-a957-daf5ba8d47ca
 ms.date: 12/05/2018
 ms.keywords: 706d28c3-fc5d-496a-a957-daf5ba8d47ca, Guide property [Tablet PC], Guide property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Guide property, IInkRecognizerContext.Guide, IInkRecognizerContext.get_Guide, IInkRecognizerContext::Guide, IInkRecognizerContext::get_Guide, IInkRecognizerContext::putref_Guide, InkRecognizerContext.get_Guide, get_Guide, msinkaut/IInkRecognizerContext::Guide, msinkaut/IInkRecognizerContext::get_Guide, msinkaut/IInkRecognizerContext::putref_Guide, putref_Guide, tablet.inkrecognizercontext_guide
-f1_keywords:
-- msinkaut/IInkRecognizerContext.Guide
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.Guide
-- IInkRecognizerContext.get_Guide
-- InkRecognizerContext.get_Guide
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::get_Guide
+ - msinkaut/IInkRecognizerContext::get_Guide
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.Guide
+ - IInkRecognizerContext.get_Guide
+ - InkRecognizerContext.get_Guide
 ---
 
 # IInkRecognizerContext::get_Guide
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide</a> to use for ink input.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Setting the <b>Guide</b> property succeeds only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection is <b>NULL</b>. You must set the <b>Guide</b> property before you attach the InkStrokes collection to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> or you must set the InkStrokes collection to <b>NULL</b> and then set the <b>Guide</b> (and possible reattach the InkStrokes collection).
 
@@ -82,13 +77,7 @@ If you set the mode to one that is not available from this recognizer, an error 
 
 For information about how to query which capabilities, or modes, are available from a specific recognizer, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities">Capabilities</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object. In general, recognizers of Latin script support free input and horizontal lined input, recognizers of East Asian characters support free input and boxed input, and the gesture recognizer only supports free input.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities">Capabilities Property</a>
 
@@ -123,7 +112,4 @@ For information about how to query which capabilities, or modes, are available f
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>
- 
-
- 
 

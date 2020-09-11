@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: eb08f699-74bc-445d-96b7-678abbd366b3
 ms.date: 12/05/2018
 ms.keywords: SColumnSetID, SColumnSetID structure [MMC], _slate_scolumnsetid, mmc.scolumnsetid, mmc/SColumnSetID
-f1_keywords:
-- mmc/SColumnSetID
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- SColumnSetID
 targetos: Windows
 req.typenames: SColumnSetID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SColumnSetID
+ - mmc/_SColumnSetID
+ - SColumnSetID
+ - mmc/SColumnSetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - SColumnSetID
 ---
 
 # SColumnSetID structure
 
 
 ## -description
-
 
 The 
 <b>SColumnSetID</b> structure is introduced in MMC 1.2.
@@ -60,45 +62,27 @@ The
 The 
 <b>SColumnSetID</b> structure contains an array of bytes that represent the node ID.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
 Reserved for future use. Must be 0.
 
-
 ### -field cBytes
 
 The count of bytes in the <b>id</b> array.
-
 
 ### -field id
 
 The bytes that contains the column set ID.
 
-
 ## -remarks
-
-
 
 For details on using the 
 <b>SColumnSetID</b> structure with the CCF_COLUMN_SET_ID clipboard format, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
- 
-
- 
 

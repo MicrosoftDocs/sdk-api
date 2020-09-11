@@ -8,10 +8,6 @@ tech.root: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
-f1_keywords:
-- portabledeviceapi/IPortableDeviceDispatchFactory
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGuids.lib
-- PortableDeviceGuids.dll
-api_name:
-- IPortableDeviceDispatchFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceDispatchFactory
+ - portabledeviceapi/IPortableDeviceDispatchFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGuids.lib
+ - PortableDeviceGuids.dll
+api_name:
+ - IPortableDeviceDispatchFactory
 ---
 
 # IPortableDeviceDispatchFactory interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a factory that can instantiate a WPD Automation <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object.
-
 
 ## -inheritance
 
@@ -78,12 +77,9 @@ Instantiates a WPD Automation <a href="https://docs.microsoft.com/previous-versi
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IPortableDeviceDispatchFactory</b> interface can be CoCreated directly using <b>CLSID_PortableDeviceDispatchFactory</b> as in the following code.
 
@@ -103,12 +99,7 @@ For an example of how to use the <b>IPortableDeviceDispatchFactory</b> interface
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd389207(v=vs.85)">Device Object</a>
 
@@ -119,7 +110,4 @@ For an example of how to use the <b>IPortableDeviceDispatchFactory</b> interface
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wpdauto/wpd-automation-reference">WPD Automation Reference</a>
- 
-
- 
 

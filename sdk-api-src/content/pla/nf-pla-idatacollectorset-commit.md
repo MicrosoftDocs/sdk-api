@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 7e432e1f-4b86-45dc-93d5-df603068273d
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [PLA], Commit method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Commit method, IDataCollectorSet.Commit, IDataCollectorSet::Commit, base.idatacollectorset_commit, pla.idatacollectorset_commit, pla/IDataCollectorSet::Commit
-f1_keywords:
-- pla/IDataCollectorSet.Commit
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::Commit
+ - pla/IDataCollectorSet::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.Commit
 ---
 
 # IDataCollectorSet::Commit
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves, updates, or validates the data collector set. You can also use this method to flush a trace session.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 A unique name used to save the data collector set. The name is of the form  <b>[</b><i>Namespace</i><b>\]</b><i>Name</i>. For details, see Remarks.
 
-
 ### -param server [in]
 
 The computer on which you want to save the set. You can specify a computer name, a fully qualified domain name, or an IP address (IPv4 or IPv6 format). If <b>NULL</b>, the set is saved to the local computer.
-
 
 ### -param mode [in]
 
 Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="/windows/win32/api/pla/ne-pla-commitmode">CommitMode</a> enumeration.
 
-
 ### -param validation [out]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid or is ignored. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors or warnings.
 
-
 ## -returns
-
-
 
 Returns S_OK if the method call was successful. You must check the value map for errors (see Remarks). If the method returns S_OK	and there are no validation errors, then the set was successfully committed. The following table shows possible error values when calling this method.
 
@@ -135,14 +125,8 @@ You are trying to commit a new set, but a set with the specified name already ex
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you save the set, use the specified <i>name</i> and <i>server</i> parameter values when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a> method to retrieve the set.
 
@@ -238,15 +222,8 @@ The property conflicts with another property, for example, both <a href="https:/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
@@ -257,7 +234,4 @@ The property conflicts with another property, for example, both <a href="https:/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a>
- 
-
- 
 

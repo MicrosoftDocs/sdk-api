@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2636D1A1-6FD1-4F84-954C-499DCCE6E390
 ms.date: 12/05/2018
 ms.keywords: '*PUSN_RECORD_V4, PUSN_RECORD_V4, PUSN_RECORD_V4 structure pointer [Files], USN_REASON_BASIC_INFO_CHANGE, USN_REASON_CLOSE, USN_REASON_COMPRESSION_CHANGE, USN_REASON_DATA_EXTEND, USN_REASON_DATA_OVERWRITE, USN_REASON_DATA_TRUNCATION, USN_REASON_EA_CHANGE, USN_REASON_ENCRYPTION_CHANGE, USN_REASON_FILE_CREATE, USN_REASON_FILE_DELETE, USN_REASON_HARD_LINK_CHANGE, USN_REASON_INDEXABLE_CHANGE, USN_REASON_INTEGRITY_CHANGE, USN_REASON_NAMED_DATA_EXTEND, USN_REASON_NAMED_DATA_OVERWRITE, USN_REASON_NAMED_DATA_TRUNCATION, USN_REASON_OBJECT_ID_CHANGE, USN_REASON_RENAME_NEW_NAME, USN_REASON_RENAME_OLD_NAME, USN_REASON_REPARSE_POINT_CHANGE, USN_REASON_SECURITY_CHANGE, USN_REASON_STREAM_CHANGE, USN_REASON_TRANSACTED_CHANGE, USN_RECORD_V4, USN_RECORD_V4 structure [Files], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_CLIENT_REPLICATION_MANAGEMENT, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, fs.usn_record_v4, winioctl/PUSN_RECORD_V4, winioctl/USN_RECORD_V4'
-f1_keywords:
-- winioctl/USN_RECORD_V4
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- USN_RECORD_V4
 targetos: Windows
 req.typenames: USN_RECORD_V4, *PUSN_RECORD_V4
 req.redist: 
+f1_keywords:
+ - PUSN_RECORD_V4
+ - winioctl/PUSN_RECORD_V4
+ - USN_RECORD_V4
+ - winioctl/USN_RECORD_V4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - USN_RECORD_V4
 ---
 
 # USN_RECORD_V4 structure
@@ -48,26 +51,19 @@ req.redist:
 
 ## -description
 
-
 Contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 and 3.0 records are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> (also called <b>USN_RECORD</b>) and <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structures  respectively.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_common_header">USN_RECORD_COMMON_HEADER</a> structure that describes the record length, major version, and minor  version for the record.
-
 
 ### -field FileReferenceNumber
 
 The 128-bit ordinal number of the file or directory for which this record notes changes.
 
 This value  is an arbitrarily assigned value that associates a journal record with a file.
-
 
 ### -field ParentFileReferenceNumber
 
@@ -76,11 +72,9 @@ The 128-bit ordinal number of the directory where the file or directory that is 
 
 This value  is an arbitrarily assigned value that associates a journal record with a parent directory.
 
-
 ### -field Usn
 
 The USN of this record.
-
 
 ### -field Reason
 
@@ -373,8 +367,6 @@ The given stream is modified through a committed TxF transaction.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SourceInfo
 
@@ -450,32 +442,24 @@ The operation is modifying a file on client systems to match the contents of the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RemainingExtents
 
 The number of extents that remain after the current <b>USN_RECORD_V4</b> record.  Multiple version 4.0  records may be required to describe all of the modified extents for a given file.  When the <b>RemainingExtents</b> member is  0,  the current <b>USN_RECORD_V4</b> record is the last <b>USN_RECORD_V4</b> record for the file.  The last <b>USN_RECORD_V4</b> entry for a given file is always  followed by a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> record with at least the <b>USN_REASON_CLOSE</b> flag set.
 
-
 ### -field NumberOfExtents
 
 The number of extents in current <b>USN_RECORD_V4</b> entry.
-
 
 ### -field ExtentSize
 
 The size of each <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a> structure in the <b>Extents</b> member, in bytes.
 
-
 ### -field Extents
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_extent">USN_RECORD_EXTENT</a> structures that represent the extents in the <b>USN_RECORD_V4</b> entry.
 
-
 ## -remarks
-
-
 
 A <b>USN_RECORD_V4</b> record is only output when range tracking is turned on and the file size is equal or larger than the value of the <b>RangeTrackFileSizeThreshold</b> member. The user always receives one or more <b>USN_RECORD_V4</b> records followed by one <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> record.
 
@@ -490,13 +474,7 @@ An increase in the major version number of the change journal software indicates
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
 
@@ -539,7 +517,4 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/Fi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
 

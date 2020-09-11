@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSCROLLINFO, LPCSCROLLINFO, LPCSCROLLINFO structure pointer [Windows Controls], SCROLLINFO, SCROLLINFO structure [Windows Controls], SIF_ALL, SIF_DISABLENOSCROLL, SIF_PAGE, SIF_POS, SIF_RANGE, SIF_TRACKPOS, _win32_SCROLLINFO_str, _win32_SCROLLINFO_str_cpp, controls.SCROLLINFO, controls._win32_SCROLLINFO_str, winuser/LPCSCROLLINFO, winuser/SCROLLINFO'
-f1_keywords:
-- winuser/SCROLLINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- SCROLLINFO
 targetos: Windows
 req.typenames: SCROLLINFO, *LPSCROLLINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSCROLLINFO
+ - winuser/tagSCROLLINFO
+ - LPSCROLLINFO
+ - winuser/LPSCROLLINFO
+ - SCROLLINFO
+ - winuser/SCROLLINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - SCROLLINFO
 ---
 
 # SCROLLINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function (or <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-setscrollinfo">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a> function (or <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getscrollinfo">SBM_GETSCROLLINFO</a> message). 
-
+The <b>SCROLLINFO</b> structure contains scroll bar parameters to be set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function (or <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-setscrollinfo">SBM_SETSCROLLINFO</a> message), or retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a> function (or <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-getscrollinfo">SBM_GETSCROLLINFO</a> message).
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the size, in bytes, of this structure. The caller must set this to sizeof(<b>SCROLLINFO</b>). 
-
+Specifies the size, in bytes, of this structure. The caller must set this to sizeof(<b>SCROLLINFO</b>).
 
 ### -field fMask
 
@@ -138,48 +137,38 @@ The <b>nTrackPos</b> member contains the current position of the scroll box whil
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nMin
 
 Type: <b>int</b>
 
-Specifies the minimum scrolling position. 
-
+Specifies the minimum scrolling position.
 
 ### -field nMax
 
 Type: <b>int</b>
 
-Specifies the maximum scrolling position. 
-
+Specifies the maximum scrolling position.
 
 ### -field nPage
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Specifies the page size, in device units. A scroll bar uses this value to determine the appropriate size of the proportional scroll box. 
-
+Specifies the page size, in device units. A scroll bar uses this value to determine the appropriate size of the proportional scroll box.
 
 ### -field nPos
 
 Type: <b>int</b>
 
-Specifies the position of the scroll box. 
-
+Specifies the position of the scroll box.
 
 ### -field nTrackPos
 
 Type: <b>int</b>
 
-Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function ignores this member. 
-
+Specifies the immediate position of a scroll box that the user is dragging. An application can retrieve this value while processing the SB_THUMBTRACK request code. An application cannot set the immediate scroll position; the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function ignores this member.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
@@ -198,7 +187,4 @@ Specifies the immediate position of a scroll box that the user is dragging. An a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>
- 
-
- 
 

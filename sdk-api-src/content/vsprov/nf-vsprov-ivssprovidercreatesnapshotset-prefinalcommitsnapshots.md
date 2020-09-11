@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 6d6895b9-6e6c-4c4c-b7c9-a4eff771567a
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 
 
 ## -description
-
 
 The 
    <b>PreFinalCommitSnapshots</b> 
@@ -57,20 +57,13 @@ The
    copies. If the shadow copy has the <b>VSS_VOLSNAP_ATTR_AUTORECOVER</b> flag set in 
    the context, the volume can receive a large number of writes during the auto-recovery operation.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> that identifies the shadow copy set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -132,12 +125,7 @@ An unexpected provider error occurred. If this is returned, the error must be de
 If any other value is returned, VSS will write an event to the event log and convert the error to 
       <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
 
-
-
-
 ## -remarks
-
-
 
 This method was added to enable binary compatibility when the 
     <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> feature was introduced in 
@@ -157,17 +145,7 @@ VSS_ID     /* SnapshotSetId */
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
 

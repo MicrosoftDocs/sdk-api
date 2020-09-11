@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 4195C266-4F1D-4DD6-935E-78D07ACAA765
 ms.date: 12/05/2018
 ms.keywords: EnumSurfacesCallback, EnumSurfacesCallback callback function [DirectDraw], LPDDENUMSURFACESCALLBACK, LPDDENUMSURFACESCALLBACK callback, ddraw/EnumSurfacesCallback, directdraw.enumsurfacescallback
-f1_keywords:
-- ddraw/EnumSurfacesCallback
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddraw.h
-api_name:
-- EnumSurfacesCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDDENUMSURFACESCALLBACK
+ - ddraw/LPDDENUMSURFACESCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddraw.h
+api_name:
+ - EnumSurfacesCallback
 ---
 
 # LPDDENUMSURFACESCALLBACK callback function
@@ -49,31 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. This callback function is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumsurfaces">IDirectDraw7::EnumSurfaces</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces">IDirectDrawSurface7::EnumAttachedSurfaces</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders">IDirectDrawSurface7::EnumOverlayZOrders</a> methods.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 ### -param Arg2
 
-
 ### -param Arg3
-
-
-
-
-
-
-
 
 #### - lpContext [in]
 
@@ -89,27 +74,13 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that describes the attached surface.
 
-
 ## -returns
-
-
 
 The callback function returns DDENUMRET_OK to continue the enumeration.
 
 It returns DDENUMRET_CANCEL to stop the enumeration.
 
-
-
-
-
-
 ## -remarks
 
-
-
 You can use the LPDDENUMSURFACESCALLBACK data type to declare a variable that can contain a pointer to this callback function.
-
-
-
-
 

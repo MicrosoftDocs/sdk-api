@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1198ad57-ea47-428f-8867-061afbfc7709
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNetInterface, OpenClusterNetInterface function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_openclusternetinterface, clusapi/OpenClusterNetInterface, clusapi/PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, mscs.openclusternetinterface
-f1_keywords:
-- clusapi/OpenClusterNetInterface
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OpenClusterNetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterNetInterface
+ - clusapi/OpenClusterNetInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OpenClusterNetInterface
 ---
 
 # OpenClusterNetInterface function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a handle to a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>. The <b>PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
-
 ### -param lpszInterfaceName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the network interface to open.
 
-
 ## -returns
-
-
 
 If the operation was successful, 
        <b>OpenClusterNetInterface</b> returns an open 
@@ -95,15 +87,8 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternetinterface">CloseClusterNetInterface</a>
 
@@ -114,7 +99,4 @@ The operation was not successful. For more information about the error, call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetinterfaceex">OpenClusterNetInterfaceEx</a>
- 
-
- 
 

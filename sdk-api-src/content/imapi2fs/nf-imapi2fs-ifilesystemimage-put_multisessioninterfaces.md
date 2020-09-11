@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 632cd123-4e66-4ac3-891a-aa9d0c085b4f
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_MultisessionInterfaces method, IFileSystemImage.put_MultisessionInterfaces, IFileSystemImage::put_MultisessionInterfaces, imapi.ifilesystemimage_put_multisessioninterfaces, imapi2fs/IFileSystemImage::put_MultisessionInterfaces, put_MultisessionInterfaces, put_MultisessionInterfaces method [IMAPI], put_MultisessionInterfaces method [IMAPI],IFileSystemImage interface
-f1_keywords:
-- imapi2fs/IFileSystemImage.put_MultisessionInterfaces
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.put_MultisessionInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::put_MultisessionInterfaces
+ - imapi2fs/IFileSystemImage::put_MultisessionInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.put_MultisessionInterfaces
 ---
 
 # IFileSystemImage::put_MultisessionInterfaces
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the list of multi-session interfaces for the optical media.
 
-
 ## -parameters
-
-
-
 
 ### -param newVal [in]
 
 List of multi-session  interfaces for the optical media. Each element of the list is a VARIANT whose type is <b>VT_DISPATCH</b>. Query the multi-session interface for its <b>IDispatch</b> interface and set the <b>pdispVal</b> member of the variant to the <b>IDispatch</b> interface.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -172,11 +165,7 @@ Value: 0xC0AAB156
 <div class="alert"><b>Note</b>  Values returned by the  IUnknown::QueryInterface method may also be returned here.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 This method validates that the multi-session type is compatible. The method succeeds if either
 
@@ -188,13 +177,7 @@ Unless the media is overwritable (i.e. DVD+/-RW, BD-RE, etc..), this method will
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/imapi/creating-a-multisession-disc">Creating a Multisession Disc</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
 
@@ -209,7 +192,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/imapi/cr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
- 
-
- 
 

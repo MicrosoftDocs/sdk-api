@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.date: 12/05/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
-f1_keywords:
-- winhttp/WinHttpSendRequest
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpSendRequest
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpSendRequest
+ - winhttp/WinHttpSendRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpSendRequest
 ---
 
 # WinHttpSendRequest function
@@ -49,32 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpSendRequest</b> function sends the specified request to the HTTP server.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>.
 
-
 ### -param lpszHeaders [in, optional]
 
 A pointer to a string  that contains the additional headers to append to the request. This parameter can be <b>WINHTTP_NO_ADDITIONAL_HEADERS</b> if there are no additional headers to append.
-
 
 ### -param dwHeadersLength [in]
 
 An unsigned long integer value that contains the length, in characters, of the additional headers. If this parameter is <b>-1L</b> and 
 <i>pwszHeaders</i> is not <b>NULL</b>, this function assumes that 
 <i>pwszHeaders</i> is <b>null</b>-terminated, and the length is calculated.
-
 
 ### -param lpOptional [in, optional]
 
@@ -84,13 +77,11 @@ If the <i>dwOptionalLength</i> parameter is 0, this parameter is ignored and set
 
 This buffer must remain available until the request handle is closed or the call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> has completed.
 
-
 ### -param dwOptionalLength [in]
 
 An unsigned long integer value that contains the length, in bytes, of the optional data. This parameter can be zero if there is no optional data to send.
 
 This parameter must contain a valid length when the <i>lpOptional</i> parameter is not <b>NULL</b>. Otherwise, <i>lpOptional</i> is ignored and set to <b>NULL</b>.
-
 
 ### -param dwTotalLength [in]
 
@@ -100,15 +91,11 @@ An unsigned long integer value that contains the length, in bytes, of the total 
 
 <i>dwTotalLength</i> must not change between calls to <b>WinHttpSendRequest</b> for the same request.  If <i>dwTotalLength</i> needs to be changed, the caller should create a new request.
 
-
 ### -param dwContext [in]
 
 A pointer to a pointer-sized variable that contains an application-defined value that is passed, with the request handle, to any callback functions.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Error codes are listed in the following table.
@@ -332,14 +319,8 @@ The Content-Length header cannot be present when the Transfer-Encoding header is
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>, this function can operate either synchronously or asynchronously.  In either case, if the request is sent successfully, the application is called back with the completion status set to <b>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</b>. The <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> completion indicates that the operation completed asynchronously, but failed.  Upon receiving the <b>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</b> status callback, the application can start to receive a response from the server with <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>. Before then, no other asynchronous functions can be called, otherwise, <b>ERROR_WINHTTP_INCORRECT_HANDLE_STATE</b> is returned. 
 
@@ -465,14 +446,7 @@ The following code example shows how to obtain an
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -503,7 +477,4 @@ The following code example shows how to obtain an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>
- 
-
- 
 

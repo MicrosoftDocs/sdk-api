@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobError method, IBackgroundCopyCallback.JobError, IBackgroundCopyCallback::JobError, JobError, JobError method [BITS], JobError method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_joberror, bits.ibackgroundcopycallback_joberror, bits/IBackgroundCopyCallback::JobError
-f1_keywords:
-- bits/IBackgroundCopyCallback.JobError
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.h
-api_name:
-- IBackgroundCopyCallback.JobError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyCallback::JobError
+ - bits/IBackgroundCopyCallback::JobError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.h
+api_name:
+ - IBackgroundCopyCallback.JobError
 ---
 
 # IBackgroundCopyCallback::JobError
@@ -49,41 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 BITS calls your implementation of the 
 <b>JobError</b> method when the state of the job changes to BG_JOB_STATE_ERROR.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pJob [in]
 
 Contains job-related information, such as the number of bytes and files transferred before the error occurred. It also contains the methods to resume and cancel the job. Do not release <i>pJob</i>; BITS releases the interface when the <b>JobError</b> method returns.
 
-
 ### -param pError [in]
 
 Contains error information, such as the file being processed at the time the fatal error occurred and a description of the error. Do not release <i>pError</i>; BITS releases the interface when the <b>JobError</b> method returns.
 
-
 ## -returns
-
-
 
 This method should return <b>S_OK</b>; otherwise,  BITS continues to call this method until <b>S_OK</b> is returned. For performance reasons, you should limit the number  of times you return a value other than <b>S_OK</b> to a few times. As an alternative to returning an error code, consider always returning <b>S_OK</b> and handling the error internally. The interval at which this method is called is arbitrary.
 
 Note that if this method fails and you   called the <a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">IBackgroundCopyJob2::SetNotifyCmdLine</a> method, the command line is executed and this method is not called again.
 
-
-
-
 ## -remarks
-
-
 
 After you determine the cause of the error, perform one of the following options:
 
@@ -116,12 +102,7 @@ See the example code for the
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
@@ -140,7 +121,4 @@ See the example code for the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
- 
-
- 
 

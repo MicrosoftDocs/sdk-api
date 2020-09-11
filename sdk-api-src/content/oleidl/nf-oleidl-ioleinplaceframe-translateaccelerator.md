@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: f755b919-b810-4b66-b3c2-bf38bd525d60
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],TranslateAccelerator method, IOleInPlaceFrame.TranslateAccelerator, IOleInPlaceFrame::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_translateaccelerator, com.ioleinplaceframe_translateaccelerator, oleidl/IOleInPlaceFrame::TranslateAccelerator
-f1_keywords:
-- oleidl/IOleInPlaceFrame.TranslateAccelerator
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceFrame.TranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceFrame::TranslateAccelerator
+ - oleidl/IOleInPlaceFrame::TranslateAccelerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceFrame.TranslateAccelerator
 ---
 
 # IOleInPlaceFrame::TranslateAccelerator
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates accelerator keystrokes intended for the container's frame while an object is active in place.
 
-
 ## -parameters
-
-
-
 
 ### -param lpmsg [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the keystroke message.
 
-
 ### -param wID [in]
 
 The command identifier value corresponding to the keystroke in the container-provided accelerator table. Containers should use this value instead of translating again.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -113,14 +105,8 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The <b>IOleInPlaceFrame::TranslateAccelerator</b> method is called indirectly by <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> when a keystroke accelerator intended for the container (frame) is received.
@@ -135,13 +121,7 @@ You should define accelerator tables for containers so they will work properly w
 <pre class="syntax" xml:space="preserve"><code>"char", wID, VIRTKEY, CONTROL</code></pre>
 This is the most common way to describe keyboard accelerators. Failure to do so can result in keystrokes being lost or sent to the wrong object during an in-place session.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
 
@@ -160,7 +140,4 @@ This is the most common way to describe keyboard accelerators. Failure to do so 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel">TranslateMDISysAccel</a>
- 
-
- 
 

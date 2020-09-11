@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
-f1_keywords:
-- iads/IADsNameTranslate
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsNameTranslate
-- NameTranslate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsNameTranslate
+ - iads/IADsNameTranslate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsNameTranslate
+ - NameTranslate
 ---
 
 # IADsNameTranslate interface
 
 
 ## -description
-
 
 The <b>IADsNameTranslate</b>interface translates distinguished names (DNs) among various
   formats as defined in the 
@@ -174,13 +174,9 @@ Toggles referral chasing ON or OFF.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
@@ -224,7 +220,4 @@ Toggles referral chasing ON or OFF.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

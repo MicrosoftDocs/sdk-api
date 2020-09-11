@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 3f77db51-90d1-4a87-812b-1e129ae8fde9
 ms.date: 12/05/2018
 ms.keywords: ResetDC, ResetDC function [Windows GDI], ResetDCA, ResetDCW, _win32_ResetDC, gdi.resetdc, wingdi/ResetDC, wingdi/ResetDCA, wingdi/ResetDCW
-f1_keywords:
-- wingdi/ResetDC
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- ResetDC
-- ResetDCA
-- ResetDCW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResetDCA
+ - wingdi/ResetDCA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - ResetDC
+ - ResetDCA
+ - ResetDCW
 ---
 
 # ResetDCA function
@@ -53,39 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ResetDC</b> function updates the specified printer or plotter device context (DC) using the specified information.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the DC to update.
 
-
 ### -param lpdm [in]
 
 A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure containing information about the new DC.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the original DC.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 An application will typically use the <b>ResetDC</b> function when a window receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-devmodechange">WM_DEVMODECHANGE</a> message. <b>ResetDC</b> can also be used to change the paper orientation or paper bins while printing a document.
 
@@ -104,9 +91,6 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
@@ -124,7 +108,4 @@ An application can pass an information DC to the <b>ResetDC</b> function. In tha
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-escape">Escape</a>
- 
-
- 
 

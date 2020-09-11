@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet2","IDWriteFontSet2 interface [Direct Write
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet2, IDWriteFontSet2 interface [Direct Write], IDWriteFontSet2 interface [Direct Write],described, directwrite.idwritefontset2, dwrite_3/IDWriteFontSet2
-f1_keywords:
-- IDWriteFontSet2
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -25,16 +21,21 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontSet2
+ - dwrite_3/IDWriteFontSet2
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontSet2
+ - IDWriteFontSet2
 ---
 
 ## -description
@@ -46,3 +47,4 @@ This interface extends [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3
 ## -see-also
 
 [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1)
+

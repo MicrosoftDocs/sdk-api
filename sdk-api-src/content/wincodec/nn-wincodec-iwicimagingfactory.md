@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9
 ms.date: 12/05/2018
 ms.keywords: IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], IWICImagingFactory interface [Windows Imaging Component],described, _wic_codec_iwicimagingfactory, wic._wic_codec_iwicimagingfactory, wincodec/IWICImagingFactory
-f1_keywords:
-- wincodec/IWICImagingFactory
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICImagingFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICImagingFactory
+ - wincodec/IWICImagingFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICImagingFactory
 ---
 
 # IWICImagingFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods used to create components for the Windows Imaging Component (WIC) such as decoders, encoders and pixel format converters.
-
 
 ## -inheritance
 
@@ -293,5 +292,5 @@ Creates a new instance of the <a href="https://docs.microsoft.com/windows/deskto
 
 </td>
 </tr>
-</table> 
+</table>
 

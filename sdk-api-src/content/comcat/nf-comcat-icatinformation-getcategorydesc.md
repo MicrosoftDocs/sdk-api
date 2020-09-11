@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 66f004c2-2616-441e-8bb7-f56eb062bb35
 ms.date: 12/05/2018
 ms.keywords: GetCategoryDesc, GetCategoryDesc method [COM], GetCategoryDesc method [COM],ICatInformation interface, ICatInformation interface [COM],GetCategoryDesc method, ICatInformation.GetCategoryDesc, ICatInformation::GetCategoryDesc, _com_icatinformation_getcategorydesc, com.icatinformation_getcategorydesc, comcat/ICatInformation::GetCategoryDesc
-f1_keywords:
-- comcat/ICatInformation.GetCategoryDesc
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatInformation.GetCategoryDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatInformation::GetCategoryDesc
+ - comcat/ICatInformation::GetCategoryDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatInformation.GetCategoryDesc
 ---
 
 # ICatInformation::GetCategoryDesc
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the localized description string for a specific category ID.
 
-
 ## -parameters
-
-
-
 
 ### -param rcatid [in]
 
 The category identifier.
 
-
 ### -param lcid [in]
 
 The locale.
-
 
 ### -param pszDesc [out]
 
 A pointer to the string pointer for the description. This string must be released by the caller using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and S_OK, as well as the following values.
 
@@ -107,18 +98,8 @@ There is no description string for <i>rcatid</i> with the specified locale.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
- 
-
- 
 

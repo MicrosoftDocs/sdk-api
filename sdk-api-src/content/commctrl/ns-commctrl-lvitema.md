@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVITEMA, I_GROUPIDCALLBACK, I_GROUPIDNONE, LPLVITEM, LPLVITEM structure pointer [Windows Controls], LVCFMT_FILL, LVCFMT_LINE_BREAK, LVCFMT_NO_TITLE, LVCFMT_TILE_PLACEMENTMASK, LVCFMT_WRAP, LVIF_COLFMT, LVIF_COLUMNS, LVIF_DI_SETITEM, LVIF_GROUPID, LVIF_IMAGE, LVIF_INDENT, LVIF_NORECOMPUTE, LVIF_PARAM, LVIF_STATE, LVIF_TEXT, LVITEM, LVITEM structure [Windows Controls], LVITEMA, LVITEMW, _win32_LVITEM, _win32_LVITEM_cpp, commctrl/LPLVITEM, commctrl/LVITEM, commctrl/LVITEMA, commctrl/LVITEMW, controls.LVITEM, controls._win32_LVITEM'
-f1_keywords:
-- commctrl/LVITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVITEM
-- LVITEMA
-- LVITEMW
 targetos: Windows
 req.typenames: LVITEMA, *LPLVITEMA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVITEMA
+ - commctrl/tagLVITEMA
+ - LPLVITEMA
+ - commctrl/LPLVITEMA
+ - LVITEMA
+ - commctrl/LVITEMA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVITEM
+ - LVITEMA
+ - LVITEMW
 ---
 
 # LVITEMA structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies or receives the attributes of a list-view item. This structure has been updated to support a new mask value (LVIF_INDENT) that enables item indenting. This structure supersedes the <b>LV_ITEM</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -174,22 +174,18 @@ The <b>pszText</b> member is valid or must be set.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iItem
 
 Type: <b>int</b>
 
-Zero-based index of the item to which this structure refers. 
-
+Zero-based index of the item to which this structure refers.
 
 ### -field iSubItem
 
 Type: <b>int</b>
 
-One-based index of the subitem to which this structure refers, or zero if this structure refers to an item rather than a subitem. 
-
+One-based index of the subitem to which this structure refers, or zero if this structure refers to an item rather than a subitem.
 
 ### -field state
 
@@ -210,7 +206,6 @@ Bits 8 through 11 of this member specify the one-based overlay image index. Both
 
 Bits 12 through 15 of this member specify the state image index. The state image is displayed next to an item's icon to indicate an application-defined state. If these bits are zero, the item has no state image. To isolate these bits, use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_STATEIMAGEMASK</a> mask. To set the state image index, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextostateimagemask">INDEXTOSTATEIMAGEMASK</a> macro. The state image index specifies the index of the image in the state image list that should be drawn. The state image list is specified with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message.
 
-
 ### -field stateMask
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
@@ -230,7 +225,6 @@ To retrieve or modify all of the states, set this member to (<b>UINT</b>)-1.
 
 You can use the macro <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a> both to set and to clear bits.
 
-
 ### -field pszText
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
@@ -249,7 +243,6 @@ If the value of  <b>pszText</b> is LPSTR_TEXTCALLBACK, the item is a <a href="ht
 
 Do not set <b>pszText</b> to LPSTR_TEXTCALLBACK if the list-view control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SORTASCENDING</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SORTDESCENDING</a> style.
 
-
 ### -field cchTextMax
 
 Type: <b>int</b>
@@ -265,29 +258,24 @@ This member is only used when the structure receives item attributes. It is igno
 <div class="alert"><b>Note</b>  Never copy more than <b>cchTextMax</b> <b>TCHAR</b><b>s</b>—where <b>cchTextMax</b> includes the terminating <b>NULL</b>—into <b>pszText</b> during an LVN_  notification, otherwise your program can fail.</div>
 <div> </div>
 
-
-
 ### -field iImage
 
 Type: <b>int</b>
 
 Index of the item's icon in the control's image list. This applies to both the large and small image list. If this member is the I_IMAGECALLBACK value, the parent window is responsible for storing the index. In this case, the list-view control sends the parent an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification code to retrieve the index when it needs to display the image.
 
-
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Value specific to the item. If you use the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message, the list-view control passes this value to the application-defined comparison function. You can also use the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-finditem">LVM_FINDITEM</a> message to search a list-view control for an item with a specified <b>lParam</b> value. 
-
+Value specific to the item. If you use the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message, the list-view control passes this value to the application-defined comparison function. You can also use the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-finditem">LVM_FINDITEM</a> message to search a list-view control for an item with a specified <b>lParam</b> value.
 
 ### -field iIndent
 
 Type: <b>int</b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Number of image widths to indent the item. A single indentation equals the width of an item image. Therefore, the value 1 indents the item by the width of one image, the value 2 indents by two images, and so on. Note that this field is supported only for items. Attempting to set subitem indentation will cause the calling function to fail. 
-
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Number of image widths to indent the item. A single indentation equals the width of an item image. Therefore, the value 1 indents the item by the width of one image, the value 2 indents by two images, and so on. Note that this field is supported only for items. Attempting to set subitem indentation will cause the calling function to fail.
 
 ### -field iGroupId
 
@@ -323,8 +311,6 @@ The item does not belong to a group.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cColumns
 
@@ -333,14 +319,12 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0 </a> Number of data columns (subitems) to display for this item in tile view. The maximum value is 20. If this value is I_COLUMNSCALLBACK, the size of the column array and the array itself (<b>puColumns</b>) are obtained by sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-getdispinfo">LVN_GETDISPINFO</a> notification.
 
-
 ### -field puColumns
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PUINT</a></b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0 </a> A pointer to an array of column indices, specifying which columns are displayed for this item, and the order of those columns.
-
 
 ### -field piColFmt
 
@@ -404,8 +388,6 @@ Equivalent to a combination of LVCFMT_LINE_BREAK and LVCFMT_FILL.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iGroup
 
@@ -413,12 +395,8 @@ Type: <b>int</b>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Windows Vista</a>: Group index of the item. Valid only for owner data/callback (single item in multiple groups).
-                
-
 
 ## -remarks
-
-
 
 The <b>LVITEM</b> structure is used with several messages, including <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitem">LVM_GETITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deleteitem">LVM_DELETEITEM</a>.
 

@@ -8,10 +8,6 @@ tech.root: EAP
 ms.assetid: 6d347387-7f8f-478b-a115-f6960e6f856e
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],Initialize method, IEAPProviderConfig.Initialize, IEAPProviderConfig::Initialize, Initialize, Initialize method [EAP], Initialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_initialize, eap.ieapproviderconfig_initialize, rrascfg/IEAPProviderConfig::Initialize
-f1_keywords:
-- rrascfg/IEAPProviderConfig.Initialize
-dev_langs:
-- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rrascfg.h
-api_name:
-- IEAPProviderConfig.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEAPProviderConfig::Initialize
+ - rrascfg/IEAPProviderConfig::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rrascfg.h
+api_name:
+ - IEAPProviderConfig.Initialize
 ---
 
 # IEAPProviderConfig::Initialize
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The system calls the <b>Initialize</b> method to initialize an EAP configuration session with the specified computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pszMachineName
 
 Pointer to a null-terminated string that contains the name of the computer on which to configure EAP. String length is not limited.
 
-
 ### -param dwEapTypeId
 
 Specifies the EAP for which to initialize a configuration session.
-
 
 ### -param puConnectionParam
 
 Pointer to an unsigned integer variable. On successful return, the value of this variable identifies this configuration session.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value should be <b>S_OK</b>.
 
@@ -131,27 +122,15 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The configuration UI should allow the user to configure the EAP provider on a remote computer. Establish the connection to the remote computer during the call to <b>Initialize</b>.
 
 The DLL that implements 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">IEAPProviderConfig</a> can support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies the  authentication protocol to initialize a configuration session for.
 
-
-
-
 ## -see-also
-
-
-
 
 [EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
@@ -178,7 +157,4 @@ The DLL that implements
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">IEAPProviderConfig::Uninitialize</a>
- 
-
- 
 

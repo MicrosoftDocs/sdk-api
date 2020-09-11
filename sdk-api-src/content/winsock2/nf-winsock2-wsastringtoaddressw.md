@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7b9946c3-c8b3-45ae-9bde-03faaf604bba
 ms.date: 12/05/2018
 ms.keywords: WSAStringToAddress, WSAStringToAddress function [Winsock], WSAStringToAddressA, WSAStringToAddressW, _win32_wsastringtoaddress_2, winsock.wsastringtoaddress_2, winsock2/WSAStringToAddress, winsock2/WSAStringToAddressA, winsock2/WSAStringToAddressW
-f1_keywords:
-- winsock2/WSAStringToAddress
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAStringToAddress
-- WSAStringToAddressA
-- WSAStringToAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAStringToAddressW
+ - winsock2/WSAStringToAddressW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAStringToAddress
+ - WSAStringToAddressA
+ - WSAStringToAddressW
 ---
 
 # WSAStringToAddressW function
@@ -51,46 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAStringToAddress</b> function converts a network address in its standard text   presentation form into its numeric binary form in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure, suitable for passing to Windows Sockets routines that take such a structure.
 
-
 ## -parameters
-
-
-
 
 ### -param AddressString [in]
 
 A pointer to the zero-terminated string that contains the network address in standard text form to convert.
 
-
 ### -param AddressFamily [in]
 
 The address family of the network address pointed to by the <i>AddressString</i> parameter.
-
 
 ### -param lpProtocolInfo [in, optional]
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure associated with the provider to be used. If this is <b>NULL</b>, the call is routed to the provider of the first protocol supporting the indicated <i>AddressFamily</i>.
 
-
 ### -param lpAddress [out]
 
 A pointer to a buffer that is filled with a  <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the address string if the function succeeds.
-
 
 ### -param lpAddressLength [in, out]
 
 A pointer to the length, in bytes, of the buffer pointed to by the <i>lpAddress</i> parameter. If the function call is successful, this parameter returns a pointer to the size of the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure returned in the <i>lpAddress</i> parameter. If the specified buffer is not large enough, the function fails with a specific error of 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
 
-
 ## -returns
-
-
 
 The return value for 
 <b>WSAStringToAddress</b> is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
@@ -148,14 +137,8 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAStringToAddress</b> function converts a network address in standard text   form into its numeric binary form in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
@@ -181,9 +164,6 @@ Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was adde
 > The winsock2.h header defines WSAStringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
@@ -246,7 +226,4 @@ Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was adde
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
 

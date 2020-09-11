@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6
 ms.date: 12/05/2018
 ms.keywords: GetTrustLevel, GetTrustLevel method [Windows Runtime], GetTrustLevel method [Windows Runtime],IInputPaneInterop interface, GetTrustLevel method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetTrustLevel method, IInputPaneInterop::GetTrustLevel, IInspectable interface [Windows Runtime],GetTrustLevel method, IInspectable.GetTrustLevel, IInspectable::GetTrustLevel, inspectable/IInputPaneInterop::GetTrustLevel, inspectable/IInspectable::GetTrustLevel, winrt.iinspectable_gettrustlevel
-f1_keywords:
-- inspectable/IInspectable.GetTrustLevel
-dev_langs:
-- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inspectable.h
-api_name:
-- IInspectable.GetTrustLevel
-- IInputPaneInterop.GetTrustLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInspectable::GetTrustLevel
+ - inspectable/IInspectable::GetTrustLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inspectable.h
+api_name:
+ - IInspectable.GetTrustLevel
+ - IInputPaneInterop.GetTrustLevel
 ---
 
 # IInspectable::GetTrustLevel
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the trust level of the current Windows Runtime object.
 
-
 ## -parameters
-
-
-
 
 ### -param trustLevel [out]
 
@@ -65,29 +61,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-
 
 The trust level of the current Windows Runtime object. The default is <b>BaseLevel</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method always returns <b>S_OK</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

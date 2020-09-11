@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
-f1_keywords:
-- cryptdlg/GetFriendlyNameOfCert
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CryptDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CryptDlg.dll
-api_name:
-- GetFriendlyNameOfCert
-- GetFriendlyNameOfCertA
-- GetFriendlyNameOfCertW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFriendlyNameOfCertW
+ - cryptdlg/GetFriendlyNameOfCertW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CryptDlg.dll
+api_name:
+ - GetFriendlyNameOfCert
+ - GetFriendlyNameOfCertA
+ - GetFriendlyNameOfCertW
 ---
 
 ## -description
@@ -75,3 +76,4 @@ The return value is the number of characters, including the terminating <b>NULL<
 
 > [!NOTE]
 > The cryptdlg.h header defines GetFriendlyNameOfCert as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

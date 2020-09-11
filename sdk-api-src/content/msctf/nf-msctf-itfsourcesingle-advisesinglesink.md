@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2
 ms.date: 12/05/2018
 ms.keywords: AdviseSingleSink, AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework],ITfSourceSingle interface, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],AdviseSingleSink method, ITfSourceSingle.AdviseSingleSink, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
-f1_keywords:
-- msctf/ITfSourceSingle.AdviseSingleSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSourceSingle.AdviseSingleSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSourceSingle::AdviseSingleSink
+ - msctf/ITfSourceSingle::AdviseSingleSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSourceSingle.AdviseSingleSink
 ---
 
 # ITfSourceSingle::AdviseSingleSink
@@ -53,13 +54,9 @@ Installs an advise sink.
 
 ## -parameters
 
-
-
-
 ### -param tid [in]
 
 Contains a <b>TfClientId</b> value that identifies the client.
-
 
 ### -param riid [in]
 
@@ -95,17 +92,12 @@ Registers the client as a function provider. The <i>punk</i> parameter is an <a 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param punk [in]
 
 Pointer to the advise sink <b>IUnknown</b> pointer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -181,15 +173,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcleanupcontextsink">ITfCleanupContextSink
       </a>
@@ -202,7 +187,4 @@ A memory allocation failure occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsourcesingle">ITfSourceSingle</a>
- 
-
- 
 

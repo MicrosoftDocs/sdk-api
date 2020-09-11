@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wsw
+f1_keywords:
+ - webservices
+ - webservices/webservices
 ---
 
 # Webservices.h header
 
 
 ## -description
-
 
 This header is used by Windows Web Services. For more information, see:
 

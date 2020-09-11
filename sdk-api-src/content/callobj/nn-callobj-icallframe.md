@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 56a75123-f402-4187-af13-d31f72a5f094
 ms.date: 12/05/2018
 ms.keywords: ICallFrame, ICallFrame interface [COM], ICallFrame interface [COM],described, _com_icallframe_interface, callobj/ICallFrame, com.icallframe
-f1_keywords:
-- callobj/ICallFrame
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallFrame
+ - callobj/ICallFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallFrame
 ---
 
 # ICallFrame interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables manipulation of call frames such as stack frames. The call frame is the body of information that a procedure must save to allow it to properly return to its caller. A call frame may exist on the stack or in registers. A stack frame maintains its caller's context information on the stack.
 
 An instance of the <b>ICallFrame</b> interface can perform various transformations on a call frame. The call can be marshaled or persisted. The instance of this interface is bound and has an associated method number.
-
-
-
 
 ## -inheritance
 
@@ -243,5 +240,5 @@ Searches for interface pointers that are reachable from [in], [in, out], or [out
 
 </td>
 </tr>
-</table> 
+</table>
 

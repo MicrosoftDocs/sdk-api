@@ -1,17 +1,13 @@
 ---
 UID: NF:iphlpapi.GetIpAddrTable
 title: GetIpAddrTable function (iphlpapi.h)
-description: The GetIpAddrTable function retrieves the interface�to�IPv4 address mapping table.
+description: The GetIpAddrTable function retrieves the interface�to�IPv4 address mapping table.
 helpviewer_keywords: ["GetIpAddrTable","GetIpAddrTable function [IP Helper]","_iphlp_getipaddrtable","iphlp.getipaddrtable","iphlpapi/GetIpAddrTable"]
 old-location: iphlp\getipaddrtable.htm
 tech.root: IpHlp
 ms.assetid: 03bf5645-8237-4c78-a921-47315cab1c44
 ms.date: 12/05/2018
 ms.keywords: GetIpAddrTable, GetIpAddrTable function [IP Helper], _iphlp_getipaddrtable, iphlp.getipaddrtable, iphlpapi/GetIpAddrTable
-f1_keywords:
-- iphlpapi/GetIpAddrTable
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpAddrTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpAddrTable
+ - iphlpapi/GetIpAddrTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpAddrTable
 ---
 
 # GetIpAddrTable function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpAddrTable</b> function retrieves the interface–to–IPv4 address mapping table.
 
-
 ## -parameters
-
-
-
 
 ### -param pIpAddrTable [out]
 
 A pointer to a buffer that receives the interface–to–IPv4 address mapping table as a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
-
 
 ### -param pdwSize [in, out]
 
@@ -74,7 +69,6 @@ On input, specifies the size in bytes  of the buffer pointed to by the <i>pIpAdd
 
 On output, if the buffer is not large enough to hold the returned mapping table, the function sets this parameter equal to the required buffer size in bytes.
 
-
 ### -param bOrder [in]
 
 If this parameter is <b>TRUE</b>, then
@@ -84,8 +78,6 @@ The sorting is performed in network byte order.
 For example, 10.0.0.255 comes immediately before 10.0.1.0.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -143,14 +135,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpAddrTable</b> function retrieves the interface–to–IPv4 address mapping table on a local computer and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
 
@@ -268,14 +254,7 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-addipaddress">AddIPAddress</a>
 
@@ -306,7 +285,4 @@ int __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense">RestoreMediaSense</a>
- 
-
- 
 

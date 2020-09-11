@@ -8,10 +8,6 @@ tech.root: DHCP
 ms.assetid: 80474274-4ef8-4e53-85b4-78cb953e9831
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_VQ, PDHCP_CLIENT_INFO_ARRAY_VQ structure pointer [DHCP], dhcp.dhcp_client_info_array_vq, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_VQ'
-f1_keywords:
-- dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_CLIENT_INFO_ARRAY_VQ
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_ARRAY_VQ, *LPDHCP_CLIENT_INFO_ARRAY_VQ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_CLIENT_INFO_ARRAY_VQ
+ - dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_VQ
+ - LPDHCP_CLIENT_INFO_ARRAY_VQ
+ - dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_VQ
+ - DHCP_CLIENT_INFO_ARRAY_VQ
+ - dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_CLIENT_INFO_ARRAY_VQ
 ---
 
 # DHCP_CLIENT_INFO_ARRAY_VQ structure
@@ -49,44 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_CLIENT_INFO_ARRAY_VQ</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumElements
 
 The number of elements in the array.
 
-
 ### -field Clients
 
 Pointer to the first element in the array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a> structures.
 
-
 ### -field Clients.size_is
-
- 
-
 
 ### -field Clients.size_is.NumElements
 
- 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_vq">DHCP_CLIENT_INFO_VQ</a>
- 
-
- 
 

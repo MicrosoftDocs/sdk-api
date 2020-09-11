@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5ec3d8d2-5138-4887-9741-addaaaee6bee
 ms.date: 12/05/2018
 ms.keywords: IVssWMDependency, IVssWMDependency interface [VSS], IVssWMDependency interface [VSS],described, _win32_ivsswmdependency, base.ivsswmdependency, vswriter/IVssWMDependency
-f1_keywords:
-- vswriter/IVssWMDependency
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMDependency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMDependency
+ - vswriter/IVssWMDependency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMDependency
 ---
 
 # IVssWMDependency class
 
 
 ## -description
-
 
 The 
 <b>IVssWMDependency</b> is a C++ (not COM) interface returned by the 
@@ -68,7 +68,6 @@ The
 <b>IVssWMDependency</b> interface.
 
 Note that a dependency does not indicate an order of preference between the component with the documented dependencies and the components it depends on. A dependency merely indicates that the component and the components it depends on must always be backed up or restored together.
-
 
 ## -inheritance
 
@@ -112,5 +111,5 @@ Retrieves the class ID of a writer containing a component that the current compo
 
 </td>
 </tr>
-</table> 
+</table>
 

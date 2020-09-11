@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: 506aaf68-2f23-4dd2-b43c-aeb86334a3d8
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_101, *PDFS_INFO_101, DFS_INFO_101, DFS_INFO_101 structure [Distributed File System], DFS_STORAGE_STATE_ACTIVE, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, DFS_VOLUME_STATE_RESYNCHRONIZE, DFS_VOLUME_STATE_STANDBY, LPDFS_INFO_101, LPDFS_INFO_101 structure pointer [Distributed File System], PDFS_INFO_101, PDFS_INFO_101 structure pointer [Distributed File System], _win32_dfs_info_101_str, dfs.dfs_info_101_str, fs.dfs_info_101_str, lmdfs/DFS_INFO_101, lmdfs/LPDFS_INFO_101, lmdfs/PDFS_INFO_101, netmgmt.dfs_info_101_str'
-f1_keywords:
-- lmdfs/DFS_INFO_101
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_101
 targetos: Windows
 req.typenames: DFS_INFO_101, *PDFS_INFO_101, *LPDFS_INFO_101
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_101
+ - lmdfs/_DFS_INFO_101
+ - PDFS_INFO_101
+ - lmdfs/PDFS_INFO_101
+ - DFS_INFO_101
+ - lmdfs/DFS_INFO_101
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_101
 ---
 
 # DFS_INFO_101 structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the state of storage on a DFS root, link, root target, or link target.
 
-
 ## -struct-fields
-
-
-
 
 ### -field State
 
@@ -118,11 +118,7 @@ Forces a resynchronization on the DFS root target. This flag is valid only for a
 
 Puts a root volume in standby mode. This flag is valid for a clustered DFS namespace only.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
@@ -141,7 +137,4 @@ Puts a root volume in standby mode. This flag is valid for a clustered DFS names
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
 

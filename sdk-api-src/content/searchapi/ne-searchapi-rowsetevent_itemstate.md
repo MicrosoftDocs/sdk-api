@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_itemstate.htm
 ms.date: 12/05/2018
 ms.keywords: ROWSETEVENT_ITEMSTATE, ROWSETEVENT_ITEMSTATE enumeration [search], ROWSETEVENT_ITEMSTATE_INROWSET, ROWSETEVENT_ITEMSTATE_NOTINROWSET, ROWSETEVENT_ITEMSTATE_UNKNOWN, _search_ROWSETEVENT_ITEMSTATE, search._search_ROWSETEVENT_ITEMSTATE, searchapi/ROWSETEVENT_ITEMSTATE, searchapi/ROWSETEVENT_ITEMSTATE_INROWSET, searchapi/ROWSETEVENT_ITEMSTATE_NOTINROWSET, searchapi/ROWSETEVENT_ITEMSTATE_UNKNOWN
-f1_keywords:
-- searchapi/ROWSETEVENT_ITEMSTATE
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Searchapi.h
-api_name:
-- ROWSETEVENT_ITEMSTATE
 targetos: Windows
 req.typenames: ROWSETEVENT_ITEMSTATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_searchapi_0000_0023_0001
+ - searchapi/__MIDL___MIDL_itf_searchapi_0000_0023_0001
+ - ROWSETEVENT_ITEMSTATE
+ - searchapi/ROWSETEVENT_ITEMSTATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Searchapi.h
+api_name:
+ - ROWSETEVENT_ITEMSTATE
 ---
 
 # ROWSETEVENT_ITEMSTATE enumeration
@@ -49,48 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes whether an item that matches the search criteria of a rowset is currently in that rowset.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ROWSETEVENT_ITEMSTATE_NOTINROWSET
 
 The item is definitely not in the rowset.
-            
-
 
 ### -field ROWSETEVENT_ITEMSTATE_INROWSET
 
 The item is definitely contained within the rowset.
-            
-
 
 ### -field ROWSETEVENT_ITEMSTATE_UNKNOWN
 
 The item may be in the rowset.
-            
-
 
 ## -remarks
-
-
 
 This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a> to describe the state of rows in a rowset held by a client.
 
 Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -125,7 +109,4 @@ Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
- 
-
- 
 

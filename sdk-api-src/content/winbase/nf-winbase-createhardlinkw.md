@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
 ms.date: 12/05/2018
 ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW
-f1_keywords:
-- winbase/CreateHardLink
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-api_name:
-- CreateHardLink
-- CreateHardLinkA
-- CreateHardLinkW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateHardLinkW
+ - winbase/CreateHardLinkW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - CreateHardLink
+ - CreateHardLinkA
+ - CreateHardLinkW
 ---
 
 # CreateHardLinkW function
@@ -56,18 +57,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes a hard link between an existing file and a new file. This function is only 
     supported on the NTFS file system, and only for files, not directories.
 
 To perform this operation as a transacted operation, use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createhardlinktransacteda">CreateHardLinkTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -97,7 +93,6 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 
 Reserved; must be <b>NULL</b>.
 
-
 ## -returns
 
 If the function succeeds, the return value is nonzero.
@@ -108,11 +103,7 @@ The maximum number of hard links that can be created with this function is 1023 
 
 If you pass a name longer than MAX_PATH characters to the *lpFileName* or *lpExistingFileName* parameter of the ANSI version of this function or to the Unicode version of this function without prepending "\\\\?\\" to the path, the function returns ERROR_PATH_NOT_FOUND.
 
-
-
 ## -remarks
-
-
 
 Any directory entry for a file that is created with 
     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or 
@@ -245,9 +236,6 @@ The following code snippet shows you how to call
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
@@ -269,3 +257,4 @@ The following code snippet shows you how to call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 6DFC7A3D-0C29-421B-ADB0-360017DE7433
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceManagerNative, ISurfaceImageSourceManagerNative interface [Windows Runtime], ISurfaceImageSourceManagerNative interface [Windows Runtime],described, windows/ISurfaceImageSourceManagerNative, winrt.isurfaceimagesourcemanagernative
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- ISurfaceImageSourceManagerNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurfaceImageSourceManagerNative
+ - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - ISurfaceImageSourceManagerNative
 ---
 
 # ISurfaceImageSourceManagerNative interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables performing bulk operations across all <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> objects created in the same process.
-
 
 ## -inheritance
 
@@ -77,20 +76,13 @@ Flushes all current GPU work for all <a href="https://docs.microsoft.com/uwp/api
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
- 
-
- 
 

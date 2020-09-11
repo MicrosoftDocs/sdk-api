@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dttopts.htm
 ms.date: 12/05/2018
 ms.keywords: '*PDTTOPTS, DTTOPTS, DTTOPTS structure [Windows Controls], DTT_APPLYOVERLAY, DTT_BORDERCOLOR, DTT_BORDERSIZE, DTT_CALCRECT, DTT_CALLBACK, DTT_COLORPROP, DTT_COMPOSITED, DTT_FONTPROP, DTT_GLOWSIZE, DTT_SHADOWCOLOR, DTT_SHADOWOFFSET, DTT_SHADOWTYPE, DTT_STATEID, DTT_TEXTCOLOR, DTT_VALIDBITS, PDTTOPTS, PDTTOPTS structure pointer [Windows Controls], TST_CONTINUOUS, TST_NONE, TST_SINGLE, controls.DTTOPTS, controls.inet_DTTOPTS, inet_DTTOPTS, inet_DTTOPTS_cpp, uxtheme/DTTOPTS, uxtheme/PDTTOPTS'
-f1_keywords:
-- uxtheme/DTTOPTS
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uxtheme.h
-api_name:
-- DTTOPTS
 targetos: Windows
 req.typenames: DTTOPTS, *PDTTOPTS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DTTOPTS
+ - uxtheme/_DTTOPTS
+ - PDTTOPTS
+ - uxtheme/PDTTOPTS
+ - DTTOPTS
+ - uxtheme/DTTOPTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uxtheme.h
+api_name:
+ - DTTOPTS
 ---
 
 # DTTOPTS structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the options for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the structure.
-
 
 ### -field dwFlags
 
@@ -228,8 +227,6 @@ DTT_TEXTCOLOR |  DTT_BORDERCOLOR | DTT_SHADOWCOLOR | DTT_SHADOWTYPE |
 </td>
 </tr>
 </table>
- 
-
 
 ### -field crText
 
@@ -237,20 +234,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Specifies the color of the text that will be drawn.
 
-
 ### -field crBorder
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the outline that will be drawn around the text.
 
-
 ### -field crShadow
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the shadow that will be drawn behind the text.
-
 
 ### -field iTextShadowType
 
@@ -294,8 +288,6 @@ The shadow will be drawn to appear blurred underneath text.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ptShadowOffset
 
@@ -303,13 +295,11 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 Specifies the amount of offset, in logical coordinates, between the shadow and the text.
 
-
 ### -field iBorderSize
 
 Type: <b>int</b>
 
 Specifies the radius of the outline that will be drawn around the text.
-
 
 ### -field iFontPropId
 
@@ -317,13 +307,11 @@ Type: <b>int</b>
 
 Specifies an alternate font property to use when drawing text. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemesysfont">GetThemeSysFont</a>.
 
-
 ### -field iColorPropId
 
 Type: <b>int</b>
 
 Specifies an alternate color property to use when drawing text. If this value is valid and the corresponding flag is set in <b>dwFlags</b>, this value will override the value of <b>crText</b>. See the values listed in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> for the <i>nIndex</i> parameter.
-
 
 ### -field iStateId
 
@@ -331,13 +319,11 @@ Type: <b>int</b>
 
 Specifies an alternate state to use. This member is not used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a>.
 
-
 ### -field fApplyOverlay
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, text will be drawn on top of the shadow and outline effects. If <b>FALSE</b>, just the shadow and outline effects will be drawn.
-
 
 ### -field iGlowSize
 
@@ -345,13 +331,11 @@ Type: <b>int</b>
 
 Specifies the size of a glow that will be drawn on the background prior to any text being drawn.
 
-
 ### -field pfnDrawTextCallback
 
 Type: <b>DTT_CALLBACK_PROC</b>
 
 Pointer to callback function for <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a>.
-
 
 ### -field lParam
 

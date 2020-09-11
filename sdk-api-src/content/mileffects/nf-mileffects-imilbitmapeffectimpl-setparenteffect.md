@@ -8,10 +8,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\setparenteffect.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],SetParentEffect method, IMILBitmapEffectImpl.SetParentEffect, IMILBitmapEffectImpl::SetParentEffect, SetParentEffect, SetParentEffect method [WPF Bitmap Effects], SetParentEffect method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_setparenteffect, mileffects/IMILBitmapEffectImpl::SetParentEffect, wibe._wibe_imilbitmapeffectimpl_setparenteffect
-f1_keywords:
-- mileffects/IMILBitmapEffectImpl.SetParentEffect
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.h
-api_name:
-- IMILBitmapEffectImpl.SetParentEffect
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectImpl::SetParentEffect
+ - mileffects/IMILBitmapEffectImpl::SetParentEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.h
+api_name:
+ - IMILBitmapEffectImpl.SetParentEffect
 ---
 
 # IMILBitmapEffectImpl::SetParentEffect
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the parent of the effect.
 
-
 ## -parameters
-
-
-
 
 ### -param pParentEffect [in]
 
@@ -64,14 +60,9 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectgroup">IMILBitmapEffectGroup</a> parent of the effect.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

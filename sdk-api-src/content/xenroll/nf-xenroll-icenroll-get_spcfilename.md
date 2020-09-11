@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4ff2f111-31bd-4ed4-a335-2db536477660
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],SPCFileName property, ICEnroll interface [Security],SPCFileName property, ICEnroll.SPCFileName, ICEnroll.get_SPCFileName, ICEnroll2 interface [Security],SPCFileName property, ICEnroll2.SPCFileName, ICEnroll2::get_SPCFileName, ICEnroll2::put_SPCFileName, ICEnroll3 interface [Security],SPCFileName property, ICEnroll3.SPCFileName, ICEnroll3::get_SPCFileName, ICEnroll3::put_SPCFileName, ICEnroll4 interface [Security],SPCFileName property, ICEnroll4.SPCFileName, ICEnroll4::SPCFileName, ICEnroll4::get_SPCFileName, ICEnroll4::put_SPCFileName, ICEnroll::get_SPCFileName, ICEnroll::put_SPCFileName, SPCFileName property [Security], SPCFileName property [Security],CEnroll object, SPCFileName property [Security],ICEnroll interface, SPCFileName property [Security],ICEnroll2 interface, SPCFileName property [Security],ICEnroll3 interface, SPCFileName property [Security],ICEnroll4 interface, get_SPCFileName, security.icenroll4_spcfilename, xenroll/ICEnroll2::SPCFileName, xenroll/ICEnroll2::get_SPCFileName, xenroll/ICEnroll2::put_SPCFileName, xenroll/ICEnroll3::SPCFileName, xenroll/ICEnroll3::get_SPCFileName, xenroll/ICEnroll3::put_SPCFileName, xenroll/ICEnroll4::SPCFileName, xenroll/ICEnroll4::get_SPCFileName, xenroll/ICEnroll4::put_SPCFileName, xenroll/ICEnroll::SPCFileName, xenroll/ICEnroll::get_SPCFileName, xenroll/ICEnroll::put_SPCFileName
-f1_keywords:
-- xenroll/ICEnroll4.SPCFileName
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.SPCFileName
-- ICEnroll4.get_SPCFileName
-- ICEnroll4.put_SPCFileName
-- ICEnroll3.SPCFileName
-- ICEnroll3.get_SPCFileName
-- ICEnroll3.put_SPCFileName
-- ICEnroll2.SPCFileName
-- ICEnroll2.get_SPCFileName
-- ICEnroll2.put_SPCFileName
-- ICEnroll.SPCFileName
-- ICEnroll.get_SPCFileName
-- ICEnroll.put_SPCFileName
-- CEnroll.SPCFileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_SPCFileName
+ - xenroll/ICEnroll::get_SPCFileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.SPCFileName
+ - ICEnroll4.get_SPCFileName
+ - ICEnroll4.put_SPCFileName
+ - ICEnroll3.SPCFileName
+ - ICEnroll3.get_SPCFileName
+ - ICEnroll3.put_SPCFileName
+ - ICEnroll2.SPCFileName
+ - ICEnroll2.get_SPCFileName
+ - ICEnroll2.put_SPCFileName
+ - ICEnroll.SPCFileName
+ - ICEnroll.get_SPCFileName
+ - ICEnroll.put_SPCFileName
+ - CEnroll.SPCFileName
 ---
 
 # ICEnroll::get_SPCFileName
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -70,13 +70,9 @@ This property was first defined in the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The file is written as a binary PKCS #7. Specifying this file does not affect the acceptance of the certificates into any of the user's stores.
 
@@ -128,7 +124,4 @@ else
 if ( NULL != bstrNewSPCFile )
     SysFreeString( bstrNewSPCFile );
 ```
-
-
-
 

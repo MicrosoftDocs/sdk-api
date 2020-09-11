@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8
 ms.date: 12/05/2018
 ms.keywords: '*PCTL_CONTEXT, CTL_CONTEXT, CTL_CONTEXT structure [Security], PCCTL_CONTEXT, PCCTL_CONTEXT structure pointer [Security], PCTL_CONTEXT, PCTL_CONTEXT structure pointer [Security], _crypto2_ctl_context, security.ctl_context, wincrypt/CTL_CONTEXT, wincrypt/PCCTL_CONTEXT, wincrypt/PCTL_CONTEXT'
-f1_keywords:
-- wincrypt/CTL_CONTEXT
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CTL_CONTEXT
 targetos: Windows
 req.typenames: CTL_CONTEXT, *PCTL_CONTEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CTL_CONTEXT
+ - wincrypt/_CTL_CONTEXT
+ - PCTL_CONTEXT
+ - wincrypt/PCTL_CONTEXT
+ - CTL_CONTEXT
+ - wincrypt/CTL_CONTEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CTL_CONTEXT
 ---
 
 # CTL_CONTEXT structure
 
 
 ## -description
-
 
 The <b>CTL_CONTEXT</b> structure contains both the encoded and decoded representations of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a>. It also contains an opened <b>HCRYPTMSG</b> handle to the decoded, cryptographically signed message containing the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> as its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a>.
@@ -59,11 +63,7 @@ CryptoAPI
 A <b>CTL_CONTEXT</b> returned by any CryptoAPI function must be freed by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwMsgAndCertEncodingType
 
@@ -82,42 +82,32 @@ Currently defined encoding types are:
 
 A pointer to the encoded CTL.
 
-
 ### -field cbCtlEncoded
 
 The size, in bytes, of the encoded CTL.
-
 
 ### -field pCtlInfo
 
 A pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> structure contain the CTL information.
 
-
 ### -field hCertStore
 
 A handle to the certificate store.
-
 
 ### -field hCryptMsg
 
 Open <b>HCRYPTMSG</b> handle to a decoded, cryptographic-signed message containing the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> as its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a>.
 
-
 ### -field pbCtlContent
 
 The encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> of the signed message.
-
 
 ### -field cbCtlContent
 
 Count, in bytes, of <b>pbCtlContent</b>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
 
@@ -156,7 +146,4 @@ Count, in bytes, of <b>pbCtlContent</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgsignctl">CryptMsgSignCTL</a>
- 
-
- 
 

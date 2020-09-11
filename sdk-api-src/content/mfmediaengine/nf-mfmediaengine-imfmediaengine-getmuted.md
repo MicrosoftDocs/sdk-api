@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 6EDDE60A-1571-4021-B56F-4185694B0911
 ms.date: 12/05/2018
 ms.keywords: GetMuted, GetMuted method [Media Foundation], GetMuted method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetMuted method, IMFMediaEngine.GetMuted, IMFMediaEngine::GetMuted, mf.imfmediaengine_getmuted, mfmediaengine/IMFMediaEngine::GetMuted
-f1_keywords:
-- mfmediaengine/IMFMediaEngine.GetMuted
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngine.GetMuted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngine::GetMuted
+ - mfmediaengine/IMFMediaEngine::GetMuted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngine.GetMuted
 ---
 
 # IMFMediaEngine::GetMuted
@@ -49,35 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether the audio is muted.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the audio is muted, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
- 
-
- 
 

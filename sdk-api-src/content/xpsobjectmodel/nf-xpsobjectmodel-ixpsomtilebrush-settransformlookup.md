@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: b2d9519a-9e22-44ba-839d-e1ba33aacc26
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMTileBrush.SetTransformLookup, IXpsOMTileBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlookup, xpsobjectmodel/IXpsOMTileBrush::SetTransformLookup
-f1_keywords:
-- xpsobjectmodel/IXpsOMTileBrush.SetTransformLookup
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMTileBrush.SetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMTileBrush::SetTransformLookup
+ - xpsobjectmodel/IXpsOMTileBrush::SetTransformLookup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMTileBrush.SetTransformLookup
 ---
 
 # IXpsOMTileBrush::SetTransformLookup
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.The shared matrix transform that is referenced by the lookup key is stored in the resource dictionary.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
 A string variable that contains the lookup key name of a shared matrix transform in the resource dictionary. If a lookup key has already been set, a <b>NULL</b> pointer will clear it.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -119,14 +112,8 @@ No object could be found with a key name that matched the value passed in <i>key
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The transform is applied before the brush image is rendered in the path, stroke, or glyph that is using the tile brush. The tile brush has only one transform, which can be local or remote.
 
@@ -202,15 +189,8 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomtilebrush">IXpsOMTileBrush</a>
 
@@ -221,7 +201,4 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

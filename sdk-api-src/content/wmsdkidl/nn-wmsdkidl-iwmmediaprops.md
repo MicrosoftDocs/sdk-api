@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: a81abd80-e487-421c-ba81-9b43c4233084
 ms.date: 12/05/2018
 ms.keywords: IWMMediaProps, IWMMediaProps interface [windows Media Format], IWMMediaProps interface [windows Media Format],described, IWMMediaPropsInterface, wmformat.iwmmediaprops, wmsdkidl/IWMMediaProps
-f1_keywords:
-- wmsdkidl/IWMMediaProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMMediaProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMediaProps
+ - wmsdkidl/IWMMediaProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMMediaProps
 ---
 
 # IWMMediaProps interface
 
 
 ## -description
-
-
 
 The <b>IWMMediaProps</b> interface sets and retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure for an input, stream, or output.
 
@@ -60,9 +59,6 @@ In the case of outputs, the media type structure determines the settings used to
 The methods of <b>IWMMediaProps</b> are inherited by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps</a>, which provides access to additional settings for specifying video media types. The methods are also inherited by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a>.
 
 An instance of the <b>IWMMediaProps</b> interface exists for every stream configuration object, input media properties object, and output media properties object. You can retrieve a pointer to this interface by calling the <b>QueryInterface</b> method of any other interface in one of those objects.
-
-
-
 
 ## -inheritance
 
@@ -110,12 +106,7 @@ Specifies a <b>WM_MEDIA_TYPE</b> structure describing the media type.
 
 For information about which interfaces can be obtained by using the <b>QueryInterface</b> method of this interface, see the topic for the object on which this interface is implemented.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/input-media-properties-object">Input Media Properties Object</a>
 
@@ -130,7 +121,4 @@ For information about which interfaces can be obtained by using the <b>QueryInte
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-configuration-object">Stream Configuration Object</a>
- 
-
- 
 

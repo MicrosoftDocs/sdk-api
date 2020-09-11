@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 0db7d280-b703-4cfb-8332-d33f9fc89a55
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateInstallationResult interface, IUpdateInstallationResult interface [Windows Update Agent],HResult property, IUpdateInstallationResult.HResult, IUpdateInstallationResult.get_HResult, IUpdateInstallationResult::HResult, IUpdateInstallationResult::get_HResult, get_HResult, wua.iupdateinstallationresult_hresult, wuapi/IUpdateInstallationResult::HResult, wuapi/IUpdateInstallationResult::get_HResult
-f1_keywords:
-- wuapi/IUpdateInstallationResult.HResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateInstallationResult.HResult
-- IUpdateInstallationResult.get_HResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateInstallationResult::get_HResult
+ - wuapi/IUpdateInstallationResult::get_HResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateInstallationResult.HResult
+ - IUpdateInstallationResult.get_HResult
 ---
 
 # IUpdateInstallationResult::get_HResult
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <b>HRESULT</b> exception value that is raised during the operation on an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a>
- 
-
- 
 

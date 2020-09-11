@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 5973be2f-8267-496b-827b-778f705accdc
 ms.date: 12/05/2018
 ms.keywords: WlanGetProfileCustomUserData, WlanGetProfileCustomUserData function [NativeWIFI], nwifi.wlangetprofilecustomuserdata, wlanapi/WlanGetProfileCustomUserData
-f1_keywords:
-- wlanapi/WlanGetProfileCustomUserData
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanGetProfileCustomUserData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanGetProfileCustomUserData
+ - wlanapi/WlanGetProfileCustomUserData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanGetProfileCustomUserData
 ---
 
 # WlanGetProfileCustomUserData function
@@ -49,50 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanGetProfileCustomUserData</b> function gets the custom user data associated with a wireless profile.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
-
 ### -param pInterfaceGuid [in]
 
 A pointer to the GUID of the wireless LAN interface.
-
-
-
 
 ### -param strProfileName [in]
 
 The name of the profile with which the custom user data is associated. Profile names are case-sensitive. This string must be NULL-terminated.
 
-
 ### -param pReserved
 
 Reserved for future use. Must be set to <b>NULL</b>.
-
 
 ### -param pdwDataSize [out]
 
 The size, in bytes,  of the user data buffer pointed to by the <i>ppData</i>parameter.
 
-
 ### -param ppData [out]
 
 A pointer to the user data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -170,14 +156,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For every wireless WLAN profile used by the Native Wifi AutoConfig service, Windows maintains the concept of custom user data.  This custom user data is initially non-existent, but can be set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a> function. The custom user data gets reset to empty any time the profile is modified by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> function.
 
@@ -355,14 +335,7 @@ int _cdecl wmain(int argc, WCHAR **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
@@ -377,7 +350,4 @@ int _cdecl wmain(int argc, WCHAR **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a>
- 
-
- 
 

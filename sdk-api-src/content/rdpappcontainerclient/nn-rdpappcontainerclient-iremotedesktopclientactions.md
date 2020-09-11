@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 64b3683e-e577-48c1-a319-601e7944f68a
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], IRemoteDesktopClientActions interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientActions, termserv.iremotedesktopclientactions
-f1_keywords:
-- rdpappcontainerclient/IRemoteDesktopClientActions
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsTscAx.dll
-api_name:
-- IRemoteDesktopClientActions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRemoteDesktopClientActions
+ - rdpappcontainerclient/IRemoteDesktopClientActions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsTscAx.dll
+api_name:
+ - IRemoteDesktopClientActions
 ---
 
 # IRemoteDesktopClientActions interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
-
-
-
 
 ## -inheritance
 
@@ -107,16 +103,9 @@ Suspends screen updates being sent to the client.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 038aeca6-d7b7-4f74-ac69-4536c2e5118b
 ms.date: 12/05/2018
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
-f1_keywords:
-- winsock2/WSAIoctl
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAIoctl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAIoctl
+ - winsock2/WSAIoctl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAIoctl
 ---
 
 # WSAIoctl function
@@ -49,56 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAIoctl</b> function controls the mode of a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param dwIoControlCode [in]
 
 The control code of operation to perform.
-
 
 ### -param lpvInBuffer [in]
 
 A pointer to the input buffer.
 
-
 ### -param cbInBuffer [in]
 
 The size, in bytes, of the input buffer.
-
 
 ### -param lpvOutBuffer [out]
 
 A pointer to the output buffer.
 
-
 ### -param cbOutBuffer [in]
 
 The size, in bytes, of the output buffer.
-
 
 ### -param lpcbBytesReturned [out]
 
 A pointer to actual number of bytes of output.
 
-
 ### -param lpOverlapped [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for non-overlapped sockets).
-
 
 ### -param lpCompletionRoutine [in]
 
@@ -106,8 +94,6 @@ A pointer to a
 <div> </div>
 
 ## -returns
-
-
 
 Upon successful completion, the 
 <b>WSAIoctl</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -219,14 +205,8 @@ The socket option is not supported on the specified protocol. For example, an at
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAIoctl</b> function is used to set or retrieve operating parameters associated with the socket, the transport protocol, or the communications subsystem.
@@ -400,13 +380,7 @@ The IOCTL codes with T == 0 are a subset of the IOCTL codes used in Berkeley soc
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET Socket Options</a>
 
@@ -437,7 +411,4 @@ The IOCTL codes with T == 0 are a subset of the IOCTL codes used in Berkeley soc
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

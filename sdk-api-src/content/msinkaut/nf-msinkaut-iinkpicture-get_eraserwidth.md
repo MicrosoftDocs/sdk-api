@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490
 ms.date: 12/05/2018
 ms.keywords: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490, EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EraserWidth property, IInkPicture.EraserWidth, IInkPicture.get_EraserWidth, IInkPicture::EraserWidth, IInkPicture::get_EraserWidth, IInkPicture::put_EraserWidth, InkPicture.get_EraserWidth, InkPicture.put_EraserWidth, get_EraserWidth, msinkaut/IInkPicture::EraserWidth, msinkaut/IInkPicture::get_EraserWidth, msinkaut/IInkPicture::put_EraserWidth, put_EraserWidth, tablet.inkpicture_eraserwidth
-f1_keywords:
-- msinkaut/IInkPicture.EraserWidth
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkPicture.EraserWidth
-- IInkPicture.get_EraserWidth
-- IInkPicture.put_EraserWidth
-- InkPicture.get_EraserWidth
-- InkPicture.put_EraserWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture::get_EraserWidth
+ - msinkaut/IInkPicture::get_EraserWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkPicture.EraserWidth
+ - IInkPicture.get_EraserWidth
+ - IInkPicture.put_EraserWidth
+ - InkPicture.get_EraserWidth
+ - InkPicture.put_EraserWidth
 ---
 
 # IInkPicture::get_EraserWidth
@@ -54,35 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets a value that specifies the width of the eraser pen tip.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The value specifies the width of the eraser pen tip in ink space units.
 
 You cannot assign negative values to this property.
 
-This property applies only when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode</a> property is set to <b>IOEM_Delete</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode</a> property is set to <b>IOERM_PointErase</b>.  
-
-
-
+This property applies only when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode</a> property is set to <b>IOEM_Delete</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode</a> property is set to <b>IOERM_PointErase</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode [InkPicture Control]</a>
 
@@ -101,7 +90,4 @@ This property applies only when the <a href="https://docs.microsoft.com/windows/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
- 
-
- 
 

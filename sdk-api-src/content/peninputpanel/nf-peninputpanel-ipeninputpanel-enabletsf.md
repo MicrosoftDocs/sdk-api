@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 2c28e007-f06b-4d04-91a5-10e4b087fb2f
 ms.date: 12/05/2018
 ms.keywords: 2c28e007-f06b-4d04-91a5-10e4b087fb2f, EnableTsf, EnableTsf method [Tablet PC], EnableTsf method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],EnableTsf method, IPenInputPanel.EnableTsf, IPenInputPanel::EnableTsf, peninputpanel/IPenInputPanel::EnableTsf, tablet.peninputpanel_enabletsf
-f1_keywords:
-- peninputpanel/IPenInputPanel.EnableTsf
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IPenInputPanel.EnableTsf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPenInputPanel::EnableTsf
+ - peninputpanel/IPenInputPanel::EnableTsf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IPenInputPanel.EnableTsf
 ---
 
 # IPenInputPanel::EnableTsf
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.]
 
 Deprecated. Gets or sets a Boolean value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object attempts to send text to the attached control through the <a href="https://docs.microsoft.com/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF) and enables the use of the <b>correction</b> user interface.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param Enable
 
 <b>TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object should attempt to send text to the attached control using TSF and that the correction user interface should be enabled; otherwise <b>FALSE</b>. The default value is <b>TRUE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,14 +115,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method with Enable set to <b>TRUE</b> causes the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to attempt to start the TSF on the attached control.
 
@@ -159,20 +145,11 @@ On the <b>Advanced</b> tab of the <b>Text Services and Input Languages</b> dialo
 </ol>
 If successful, text is sent to the attached control through TSF. Furthermore, if the control supports TSF (and is not simply receiving text from TSF just because Advanced Text Services has been enabled for all programs in Control Panel as noted above), then the correction user interface appears in the control and allows access to handwriting alternates. Calling this method with Enable set to <b>FALSE</b> causes the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to attempt to shut down TSF on the attached control.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
- 
-
- 
 

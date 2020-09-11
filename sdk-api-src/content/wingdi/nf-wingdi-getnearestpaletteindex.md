@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: df54532d-dcdb-4927-8f48-c9c92a7e0121
 ms.date: 12/05/2018
 ms.keywords: GetNearestPaletteIndex, GetNearestPaletteIndex function [Windows GDI], _win32_GetNearestPaletteIndex, gdi.getnearestpaletteindex, wingdi/GetNearestPaletteIndex
-f1_keywords:
-- wingdi/GetNearestPaletteIndex
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-L1-2-1.dll
-- GDI32Full.dll
-api_name:
-- GetNearestPaletteIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNearestPaletteIndex
+ - wingdi/GetNearestPaletteIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-L1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - GetNearestPaletteIndex
 ---
 
 # GetNearestPaletteIndex function
@@ -51,51 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNearestPaletteIndex</b> function retrieves the index for the entry in the specified logical palette most closely matching a specified color value.
 
-
 ## -parameters
-
-
-
 
 ### -param h [in]
 
 A handle to a logical palette.
 
-
 ### -param color [in]
 
 A color to be matched. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the index of an entry in a logical palette.
 
 If the function fails, the return value is CLR_INVALID.
 
-
-
-
 ## -remarks
-
-
 
 An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
 If the given logical palette contains entries with the PC_EXPLICIT flag set, the return value is undefined.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -126,7 +107,4 @@ If the given logical palette contains entries with the PC_EXPLICIT flag set, the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
- 
-
- 
 

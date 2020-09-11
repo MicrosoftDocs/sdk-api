@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 30be7551-f326-4132-814a-a896b148f2fe
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Reset method, IEnumTfLanguageProfiles.Reset, IEnumTfLanguageProfiles::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_reset_ref, msctf/IEnumTfLanguageProfiles::Reset, tsf.ienumtflanguageprofiles_reset
-f1_keywords:
-- msctf/IEnumTfLanguageProfiles.Reset
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfLanguageProfiles.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLanguageProfiles::Reset
+ - msctf/IEnumTfLanguageProfiles::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfLanguageProfiles.Reset
 ---
 
 # IEnumTfLanguageProfiles::Reset
+
 
 ## -description
 
@@ -53,8 +55,6 @@ Resets the enumerator object by moving the current position to the beginning of 
 ## -parameters
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -79,3 +79,4 @@ The method was successful.
 ## -see-also
 
 [IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)
+

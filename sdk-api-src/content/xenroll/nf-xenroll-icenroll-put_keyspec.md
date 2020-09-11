@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 30cc7c86-29ce-42e9-b9dc-d29f5b5450a5
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],KeySpec property, ICEnroll interface [Security],KeySpec property, ICEnroll.KeySpec, ICEnroll.put_KeySpec, ICEnroll2 interface [Security],KeySpec property, ICEnroll2.KeySpec, ICEnroll2::get_KeySpec, ICEnroll2::put_KeySpec, ICEnroll3 interface [Security],KeySpec property, ICEnroll3.KeySpec, ICEnroll3::get_KeySpec, ICEnroll3::put_KeySpec, ICEnroll4 interface [Security],KeySpec property, ICEnroll4.KeySpec, ICEnroll4::KeySpec, ICEnroll4::get_KeySpec, ICEnroll4::put_KeySpec, ICEnroll::get_KeySpec, ICEnroll::put_KeySpec, KeySpec property [Security], KeySpec property [Security],CEnroll object, KeySpec property [Security],ICEnroll interface, KeySpec property [Security],ICEnroll2 interface, KeySpec property [Security],ICEnroll3 interface, KeySpec property [Security],ICEnroll4 interface, put_KeySpec, security.icenroll4_keyspec, xenroll/ICEnroll2::KeySpec, xenroll/ICEnroll2::get_KeySpec, xenroll/ICEnroll2::put_KeySpec, xenroll/ICEnroll3::KeySpec, xenroll/ICEnroll3::get_KeySpec, xenroll/ICEnroll3::put_KeySpec, xenroll/ICEnroll4::KeySpec, xenroll/ICEnroll4::get_KeySpec, xenroll/ICEnroll4::put_KeySpec, xenroll/ICEnroll::KeySpec, xenroll/ICEnroll::get_KeySpec, xenroll/ICEnroll::put_KeySpec
-f1_keywords:
-- xenroll/ICEnroll4.KeySpec
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.KeySpec
-- ICEnroll4.get_KeySpec
-- ICEnroll4.put_KeySpec
-- ICEnroll3.KeySpec
-- ICEnroll3.get_KeySpec
-- ICEnroll3.put_KeySpec
-- ICEnroll2.KeySpec
-- ICEnroll2.get_KeySpec
-- ICEnroll2.put_KeySpec
-- ICEnroll.KeySpec
-- ICEnroll.get_KeySpec
-- ICEnroll.put_KeySpec
-- CEnroll.KeySpec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::put_KeySpec
+ - xenroll/ICEnroll::put_KeySpec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.KeySpec
+ - ICEnroll4.get_KeySpec
+ - ICEnroll4.put_KeySpec
+ - ICEnroll3.KeySpec
+ - ICEnroll3.get_KeySpec
+ - ICEnroll3.put_KeySpec
+ - ICEnroll2.KeySpec
+ - ICEnroll2.get_KeySpec
+ - ICEnroll2.put_KeySpec
+ - ICEnroll.KeySpec
+ - ICEnroll.get_KeySpec
+ - ICEnroll.put_KeySpec
+ - CEnroll.KeySpec
 ---
 
 # ICEnroll::put_KeySpec
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -70,13 +70,9 @@ The <b>KeySpec</b> property sets or retrieves the  type of key generated.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For the Microsoft Base Cryptographic Provider, the <b>KeySpec</b> property has a value of AT_KEYEXCHANGE for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange keys</a>, or AT_SIGNATURE for signature keys. The default is AT_SIGNATURE.
 
@@ -122,7 +118,4 @@ if (FAILED( hr ))
 else
     printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );
 ```
-
-
-
 

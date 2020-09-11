@@ -7,10 +7,6 @@ helpviewer_keywords: ["Graphics::DrawClosedCurve"]
 ms.assetid: 49d14771-2cfb-4b42-b0cd-e8f9ef209b32
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawClosedCurve
-f1_keywords:
-- gdiplusgraphics/Graphics::DrawClosedCurve
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Graphics::DrawClosedCurve
+ - gdiplusgraphics/Graphics::DrawClosedCurve
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdiplusgraphics.h
+ - gdiplusgraphics.h
 api_name:
-- Graphics::DrawClosedCurve
+ - Graphics::DrawClosedCurve
 ---
 
 # DrawClosedCurve(Pen*,PointF*,INT)
+
 
 ## -description
 
@@ -131,3 +133,4 @@ VOID Example_DrawClosedCurve3(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

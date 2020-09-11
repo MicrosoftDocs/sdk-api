@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
 ms.date: 12/05/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
-f1_keywords:
-- webservices/WsAbortServiceHost
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsAbortServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsAbortServiceHost
+ - webservices/WsAbortServiceHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsAbortServiceHost
 ---
 
 # WsAbortServiceHost function
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Aborts all current operations on the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a>.
-             
-                
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param serviceHost [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>  structure representing the service host on which to abort operations.
-                
-
 
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -98,14 +83,8 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WsAbortServiceHost</b> aborts all  listeners on the service host, and as a result, no new channels are accepted from the client. All channels currently being used by the service host to service messages are aborted as well. 
 
@@ -115,8 +94,5 @@ If a call is pending and it has a cancel callback registered through the <a href
            
 
 For more information on registering for cancellation notification,
-                see  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a>. 
-           
-
-
+                see  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsregisteroperationforcancel">WsRegisterOperationForCancel</a>.
 

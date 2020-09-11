@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 173d6eff-b33b-4d7d-bedd-5ebfb1e45954
 ms.date: 12/05/2018
 ms.keywords: ABM_ACTIVATE, ABM_GETAUTOHIDEBAR, ABM_GETAUTOHIDEBAREX, ABM_GETSTATE, ABM_GETTASKBARPOS, ABM_NEW, ABM_QUERYPOS, ABM_REMOVE, ABM_SETAUTOHIDEBAR, ABM_SETAUTOHIDEBAREX, ABM_SETPOS, ABM_SETSTATE, ABM_WINDOWPOSCHANGED, SHAppBarMessage, SHAppBarMessage function [Windows Shell], _win32_SHAppBarMessage, shell.SHAppBarMessage, shellapi/SHAppBarMessage
-f1_keywords:
-- shellapi/SHAppBarMessage
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- SHAppBarMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHAppBarMessage
+ - shellapi/SHAppBarMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - SHAppBarMessage
 ---
 
 # SHAppBarMessage function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends an appbar message to the system.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMessage [in]
 
@@ -144,29 +140,19 @@ Notifies the system when an appbar's position has changed.
 
 <b>Windows XP and later:</b> Registers or unregisters an autohide appbar for an edge of a particular monitor.
 
-
 ### -param pData [in, out]
 
 Type: <b>PAPPBARDATA</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-appbardata">APPBARDATA</a> structure. The content of the structure on entry and on exit depends on the value set in the <i>dwMessage</i> parameter. See the individual message pages for specifics.
 
-
 ## -returns
-
-
 
 Type: <b>UINT_PTR</b>
 
 This function returns a message-dependent value. For more information, see the Windows SDK documentation for the specific appbar message sent. Links to those documents are given in the See Also section.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/abm-activate">ABM_ACTIVATE</a>
 
@@ -217,7 +203,4 @@ This function returns a message-dependent value. For more information, see the W
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/abm-windowposchanged">ABM_WINDOWPOSCHANGED</a>
- 
-
- 
 

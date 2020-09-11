@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: e7cf0c05-9d07-4630-ae34-9a9dd81492b2
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], ISyncProviderRegistration interface [Windows Sync],described, syncregistration/ISyncProviderRegistration, winsync.isyncproviderregistration
-f1_keywords:
-- syncregistration/ISyncProviderRegistration
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration
+ - syncregistration/ISyncProviderRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration
 ---
 
 # ISyncProviderRegistration interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents synchronization provider registration. This is the core registration interface that contains methods for creating, modifying, and enumerating registered synchronization providers and configuration UIs. This interface can be retrieved by calling <b>CoCreate</b>.
-
 
 ## -inheritance
 
@@ -223,16 +222,9 @@ Unregisters and removes the specified synchronization provider configuration UI 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
- 
-
- 
 

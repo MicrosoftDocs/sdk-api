@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 16CFF7ED-642A-48D8-8C72-3EC68B702E50
 ms.date: 12/05/2018
 ms.keywords: IDWriteRemoteFontFileLoader, IDWriteRemoteFontFileLoader interface [Direct Write], IDWriteRemoteFontFileLoader interface [Direct Write],described, directwrite.idwriteremotefontfileloader, dwrite_3/IDWriteRemoteFontFileLoader
-f1_keywords:
-- dwrite_3/IDWriteRemoteFontFileLoader
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,29 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteRemoteFontFileLoader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteRemoteFontFileLoader
+ - dwrite_3/IDWriteRemoteFontFileLoader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteRemoteFontFileLoader
 ---
 
 # IDWriteRemoteFontFileLoader interface
+
 
 ## -description
 
@@ -97,10 +99,11 @@ Gets the locality of the file resource identified by the unique key.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [Creating a custom font set using known, remote fonts on the Web](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-known-remote-fonts-on-the-web)
 
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
+

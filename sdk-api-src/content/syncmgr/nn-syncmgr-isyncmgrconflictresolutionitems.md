@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 5295ebe5-ec37-4070-80eb-5513b519a0c1
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolutionItems, ISyncMgrConflictResolutionItems interface [Windows Shell], ISyncMgrConflictResolutionItems interface [Windows Shell],described, _shell_ISyncMgrConflictResolutionItems, shell.ISyncMgrConflictResolutionItems, syncmgr/ISyncMgrConflictResolutionItems
-f1_keywords:
-- syncmgr/ISyncMgrConflictResolutionItems
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrConflictResolutionItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrConflictResolutionItems
+ - syncmgr/ISyncMgrConflictResolutionItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrConflictResolutionItems
 ---
 
 # ISyncMgrConflictResolutionItems interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that get item info and item count.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets result information for a specified item, when successful.
 
 </td>
 </tr>
-</table> 
+</table>
 

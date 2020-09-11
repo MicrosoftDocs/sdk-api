@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
-f1_keywords:
-- upnphost/IUPnPRegistrar
-dev_langs:
-- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnphost.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnphost.dll
-api_name:
-- IUPnPRegistrar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPRegistrar
+ - upnphost/IUPnPRegistrar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnphost.dll
+api_name:
+ - IUPnPRegistrar
 ---
 
 # IUPnPRegistrar interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPRegistrar</b> interface registers the devices that run in the context of the device host.
-
 
 ## -inheritance
 
@@ -123,5 +122,5 @@ Method that unregisters a device provider.
 
 </td>
 </tr>
-</table> 
+</table>
 

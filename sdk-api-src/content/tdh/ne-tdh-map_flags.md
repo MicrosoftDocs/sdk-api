@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 3fc6935a-328a-4df3-8c2f-cd634d94ca16
 ms.date: 12/05/2018
 ms.keywords: EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, EVENTMAP_INFO_FLAG_WBEM_BITMAP, EVENTMAP_INFO_FLAG_WBEM_FLAG, EVENTMAP_INFO_FLAG_WBEM_NO_MAP, EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, MAP_FLAGS, MAP_FLAGS enumeration [ETW], etw.map_flags_enum, tdh.map_flags_enum, tdh/EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_BITMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_FLAG, tdh/EVENTMAP_INFO_FLAG_WBEM_NO_MAP, tdh/EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, tdh/MAP_FLAGS
-f1_keywords:
-- tdh/MAP_FLAGS
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tdh.h
-api_name:
-- MAP_FLAGS
 targetos: Windows
 req.typenames: MAP_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MAP_FLAGS
+ - tdh/_MAP_FLAGS
+ - MAP_FLAGS
+ - tdh/MAP_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - MAP_FLAGS
 ---
 
 # MAP_FLAGS enumeration
@@ -49,53 +52,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
 
-
 ## -enum-fields
-
-
-
 
 ### -field EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP
 
 The manifest value map maps integer values to strings. For details, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
 
-
 ### -field EVENTMAP_INFO_FLAG_MANIFEST_BITMAP
 
 The manifest value map maps bit values to strings. For details, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-maptype-complextype">MapType</a> complex type.
-
 
 ### -field EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP
 
 The manifest value map uses regular expressions to map one name to another name. For details, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-patternmaptype-complextype">PatternMapType</a> complex type.
 
-
 ### -field EVENTMAP_INFO_FLAG_WBEM_VALUEMAP
 
-The WMI value map maps integer values to strings. For details, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/value-map">ValueMap and Value Qualifiers</a>. 
-
+The WMI value map maps integer values to strings. For details, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/value-map">ValueMap and Value Qualifiers</a>.
 
 ### -field EVENTMAP_INFO_FLAG_WBEM_BITMAP
 
 The WMI value map maps bit values to strings. For details, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/bitmap-and-bitvalues">BitMap and BitValue Qualifiers</a>.
 
-
 ### -field EVENTMAP_INFO_FLAG_WBEM_FLAG
 
 This flag can be combined with the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP flag to indicate that the ValueMap qualifier contains bit (flag) values instead of index values.
-
 
 ### -field EVENTMAP_INFO_FLAG_WBEM_NO_MAP
 
 This flag can be combined with the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP or EVENTMAP_INFO_FLAG_WBEM_BITMAP flag to indicate that the MOF class property contains a BitValues or Values qualifier but does not contain the BitMap or ValueMap qualifier.
 
-
 ## -remarks
-
-
 
 The following MOF example shows the flags that are set based on the WMI property attributes used. 
 
@@ -135,15 +124,7 @@ BitMap {"1", "3", "5", "0"},
 BitValues {"BitMap1", "BitMap3", "BitMap5", "BitMap0", "Other"}]
 uint32  Data6;</code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
- 
-
- 
 

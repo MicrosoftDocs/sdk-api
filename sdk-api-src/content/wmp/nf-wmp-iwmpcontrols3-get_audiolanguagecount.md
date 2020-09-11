@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 7c714f97-4f6b-4a8b-904c-3ce0f8057533
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCount method, IWMPControls3.get_audioLanguageCount, IWMPControls3::get_audioLanguageCount, IWMPControls3get_audioLanguageCount, get_audioLanguageCount, get_audioLanguageCount method [Windows Media Player], get_audioLanguageCount method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_audiolanguagecount, wmp/IWMPControls3::get_audioLanguageCount
-f1_keywords:
-- wmp/IWMPControls3.get_audioLanguageCount
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls3.get_audioLanguageCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls3::get_audioLanguageCount
+ - wmp/IWMPControls3::get_audioLanguageCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls3.get_audioLanguageCount
 ---
 
 # IWMPControls3::get_audioLanguageCount
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_audioLanguageCount</b> method retrieves the count of supported audio languages.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plCount [out]
 
 Pointer to a <b>long</b> containing the count.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,26 +79,14 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For Windows Media-based content, properties and methods related to language selection support only a single output.
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>long</b> set to 1.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
 
@@ -131,7 +109,4 @@ For Windows Media-based content, properties and methods related to language sele
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguageindex">IWMPControls3::get_currentAudioLanguageIndex</a>
- 
-
- 
 

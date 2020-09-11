@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: E0038A7B-291F-4A30-86BD-D9BD2404D3B5
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSAPI_READ_ACCESS, CLUSTER_DELETE_ACCESS_CONTROL_ENTRY, CLUSTER_SET_ACCESS_TYPE_ALLOWED, CLUSTER_SET_ACCESS_TYPE_DENIED, ClusterSetAccountAccess, ClusterSetAccountAccess function [Failover Cluster], PCLUSTER_SET_ACCOUNT_ACCESS, PCLUSTER_SET_ACCOUNT_ACCESS function [Failover Cluster], clusapi/ClusterSetAccountAccess, clusapi/PCLUSTER_SET_ACCOUNT_ACCESS, mscs.clustersetaccountaccess
-f1_keywords:
-- clusapi/ClusterSetAccountAccess
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterSetAccountAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterSetAccountAccess
+ - clusapi/ClusterSetAccountAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterSetAccountAccess
 ---
 
 # ClusterSetAccountAccess function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates an account access list (ACL) for a cluster.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 A handle to the cluster.
 
-
 ### -param szAccountSID [in]
 
 The security identifier (SID) or the account name for the new account access entry (ACE).
-
 
 ### -param dwAccess [in]
 
@@ -101,7 +95,6 @@ No access.
 
 The account can be used to read and change the cluster.
 
-
 ### -param dwControlType [in]
 
 The  ACE type to use.
@@ -129,26 +122,14 @@ Adds a denied ACE.
 
 Deletes all the ACEs for for the SID.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
- 
-
- 
 

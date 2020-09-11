@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 3fc84c37-f38d-4ff1-bdb1-f5d298802b64
 ms.date: 12/05/2018
 ms.keywords: IObjectConstruct, IObjectConstruct interface [COM+], IObjectConstruct interface [COM+],described, _cos_IObjectConstruct, comsvcs/IObjectConstruct, cos.iobjectconstruct
-f1_keywords:
-- comsvcs/IObjectConstruct
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectConstruct
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectConstruct
+ - comsvcs/IObjectConstruct
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectConstruct
 ---
 
 # IObjectConstruct interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Controls the object construction process by passing in parameters from other methods or objects. 
-
+Controls the object construction process by passing in parameters from other methods or objects.
 
 ## -inheritance
 
@@ -77,13 +76,9 @@ Constructs an object using the specified parameters.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-constructor-strings">COM+ Object Constructor Strings</a>
 
@@ -94,7 +89,4 @@ Constructs an object using the specified parameters.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>
- 
-
- 
 

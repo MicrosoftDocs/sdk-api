@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 368A6162-F194-4C5C-B5FE-89633435168F
 ms.date: 12/05/2018
 ms.keywords: WS_CERTIFICATE_VALIDATION_CALLBACK, WS_CERTIFICATE_VALIDATION_CALLBACK callback, WS_CERTIFICATE_VALIDATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERTIFICATE_VALIDATION_CALLBACK, wsw.ws_certificate_validation_callback
-f1_keywords:
-- webservices/WS_CERTIFICATE_VALIDATION_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_CERTIFICATE_VALIDATION_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_CERTIFICATE_VALIDATION_CALLBACK
+ - webservices/WS_CERTIFICATE_VALIDATION_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CERTIFICATE_VALIDATION_CALLBACK
 ---
 
 # WS_CERTIFICATE_VALIDATION_CALLBACK callback function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> callback is invoked to validate a certificate when a connection to an HTTP server has been established and headers sent.
 
-
 ## -parameters
-
-
-
 
 ### -param certContext [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that is associated with the connection. Applications must free this structure using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
-
 ### -param *state [in, optional]
 
 A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
 
-
 ## -returns
-
-
 
 This callback function can return one of these values.
 
@@ -102,29 +94,14 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>WS_CERTIFICATE_VALIDATION_CALLBACK</i> returns any value other than <b>S_OK</b>, the channel will be aborted. The service proxy will also be aborted if this property was passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a>.
 
 The callback implementation must avoid long computation times or long blocking calls so that it returns to the caller quickly.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/webservices/ns-webservices-ws_certificate_validation_callback_context">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
- 
-
- 
 

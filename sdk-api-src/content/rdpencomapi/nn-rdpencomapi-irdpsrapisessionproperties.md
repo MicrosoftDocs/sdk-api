@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
-f1_keywords:
-- rdpencomapi/IRDPSRAPISessionProperties
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPISessionProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPISessionProperties
+ - rdpencomapi/IRDPSRAPISessionProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPISessionProperties
 ---
 
 # IRDPSRAPISessionProperties interface
 
 
 ## -description
-
 
 Use this interface to get or set session properties.
 
@@ -64,11 +64,5 @@ To get this interface, access one of the following properties:
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

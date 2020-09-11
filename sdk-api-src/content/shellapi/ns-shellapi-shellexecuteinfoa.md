@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 50e0dac3-b5dc-4d9f-8fd7-3a53a428166b
 ms.date: 12/05/2018
 ms.keywords: '*LPSHELLEXECUTEINFOA, LPSHELLEXECUTEINFO, LPSHELLEXECUTEINFO structure pointer [Windows Shell], SEE_MASK_ASYNCOK, SEE_MASK_CLASSKEY, SEE_MASK_CLASSNAME, SEE_MASK_CONNECTNETDRV, SEE_MASK_DEFAULT, SEE_MASK_DOENVSUBST, SEE_MASK_FLAG_DDEWAIT, SEE_MASK_FLAG_HINST_IS_SITE, SEE_MASK_FLAG_LOG_USAGE, SEE_MASK_FLAG_NO_UI, SEE_MASK_HMONITOR, SEE_MASK_HOTKEY, SEE_MASK_ICON, SEE_MASK_IDLIST, SEE_MASK_INVOKEIDLIST, SEE_MASK_NOASYNC, SEE_MASK_NOCLOSEPROCESS, SEE_MASK_NOQUERYCLASSSTORE, SEE_MASK_NOZONECHECKS, SEE_MASK_NO_CONSOLE, SEE_MASK_UNICODE, SEE_MASK_WAITFORINPUTIDLE, SE_ERR_ACCESSDENIED, SE_ERR_ASSOCINCOMPLETE, SE_ERR_DDEBUSY, SE_ERR_DDEFAIL, SE_ERR_DDETIMEOUT, SE_ERR_DLLNOTFOUND, SE_ERR_FNF, SE_ERR_NOASSOC, SE_ERR_OOM, SE_ERR_PNF, SE_ERR_SHARE, SHELLEXECUTEINFO, SHELLEXECUTEINFO structure [Windows Shell], SHELLEXECUTEINFOA, _SHELLEXECUTEINFOA, _SHELLEXECUTEINFOW, _win32_SHELLEXECUTEINFO, edit, explore, find, open, print, properties, shell.SHELLEXECUTEINFO, shellapi/LPSHELLEXECUTEINFO, shellapi/SHELLEXECUTEINFO'
-f1_keywords:
-- shellapi/SHELLEXECUTEINFO
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shellapi.h
-api_name:
-- SHELLEXECUTEINFO - SHELLEXECUTEINFOA
 targetos: Windows
 req.typenames: SHELLEXECUTEINFOA, *LPSHELLEXECUTEINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHELLEXECUTEINFOA
+ - shellapi/_SHELLEXECUTEINFOA
+ - LPSHELLEXECUTEINFOA
+ - shellapi/LPSHELLEXECUTEINFOA
+ - SHELLEXECUTEINFOA
+ - shellapi/SHELLEXECUTEINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shellapi.h
+api_name:
+ - SHELLEXECUTEINFO - SHELLEXECUTEINFOA
 ---
 
 # SHELLEXECUTEINFOA structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
 Required. The size of this structure, in bytes.
-
 
 ### -field fMask
 
@@ -215,13 +214,11 @@ The <b>hInstApp</b> member is used to specify the <a href="https://docs.microsof
 
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 
-
 ### -field hwnd
 
 Type: <b>HWND</b>
 
 Optional. A handle to the parent window, used to display any message boxes that the system might produce while executing this function. This value can be <b>NULL</b>.
-
 
 ### -field lpVerb
 
@@ -272,7 +269,6 @@ Displays the file or folder's properties.
 
 Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
 
-
 ### -field lpFile
 
 Type: <b>LPCTSTR</b>
@@ -290,20 +286,17 @@ Type: <b>LPCTSTR</b>
 
 Optional. The address of a null-terminated string that contains the application parameters. The parameters must be separated by spaces. If the <b>lpFile</b> member specifies a document file, <b>lpParameters</b> should be <b>NULL</b>.
 
-
 ### -field lpDirectory
 
 Type: <b>LPCTSTR</b>
 
 Optional. The address of a null-terminated string that specifies the name of the working directory. If this member is <b>NULL</b>, the current directory is used as the working directory.
 
-
 ### -field nShow
 
 Type: <b>int</b>
 
 Required. Flags that specify how an application is to be shown when it is opened; one of the SW_ values listed for the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> function. If <b>lpFile</b> specifies a document file, the flag is simply passed to the associated application. It is up to the application to decide how to handle it.
-
 
 ### -field hInstApp
 
@@ -377,13 +370,11 @@ DDE operation is busy.
 
 File association not available.
 
-
 ### -field lpIDList
 
 Type: <b>LPVOID</b>
 
 The address of an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure (PCIDLIST_ABSOLUTE) to contain an item identifier list that uniquely identifies the file to execute. This member is ignored if the <b>fMask</b> member does not include <b>SEE_MASK_IDLIST</b> or <b>SEE_MASK_INVOKEIDLIST</b>.
-
 
 ### -field lpClass
 
@@ -400,8 +391,6 @@ The address of a null-terminated string that specifies one of the following:
 <li>A registry path under HKEY_CLASSES_ROOT that names a subkey that contains one or more Shell verbs. This key will have a subkey that conforms to the Shell verb registry schema, such as <b>shell</b>&#92;<i>verb name</i></p>.</li>
 </ul>
 This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSNAME</b>.
-                    
-
 
 ### -field hkeyClass
 
@@ -409,16 +398,13 @@ Type: <b>HKEY</b>
 
 A handle to the registry key for the file type. The access rights for this registry key should be set to KEY_READ. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_CLASSKEY</b>.
 
-
 ### -field dwHotKey
 
 Type: <b>DWORD</b>
 
 A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-sethotkey">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
 
-
 ### -field DUMMYUNIONNAME
-
 
 ### -field DUMMYUNIONNAME.hIcon
 
@@ -426,13 +412,11 @@ A keyboard shortcut to associate with the application. The low-order word is the
 </b>
 A handle to the icon for the file type. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_ICON</b>. This value is used only in Windows XP and earlier. It is ignored as of Windows Vista.
 
-
 ### -field DUMMYUNIONNAME.hMonitor
 
 <b>Type: <b>HANDLE</b>
 </b>
 A handle to the monitor upon which the document is to be displayed. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HMONITOR</b>.
-
 
 ### -field hProcess
 
@@ -444,8 +428,6 @@ A handle to the newly started application. This member is set on return and is a
 <div> </div>
 
 ## -remarks
-
-
 
 The <b>SEE_MASK_NOASYNC</b> flag must be specified if the thread calling <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> does not have a message loop or if the thread or process will terminate soon after <b>ShellExecuteEx</b> returns. Under such conditions, the calling thread will not be available to complete the DDE conversation, so it is important that <b>ShellExecuteEx</b> complete the conversation before returning control to the calling application. Failure to complete the conversation can result in an unsuccessful launch of the document.
 

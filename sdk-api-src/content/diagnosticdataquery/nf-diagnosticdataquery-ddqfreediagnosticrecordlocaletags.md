@@ -36,22 +36,29 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqFreeDiagnosticRecordLocaleTags
+f1_keywords:
+ - DdqFreeDiagnosticRecordLocaleTags
+ - diagnosticdataquery/DdqFreeDiagnosticRecordLocaleTags
 ---
 
 ## -description
+
 Frees memory allocated for tag information referenced by HDIAGNOSTIC_EVENT_TAG_DESCRIPTION handle.
 
 ## -parameters
 
 ### -param hTagDescription
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
-Handle to the resource that contains the tag descriptions being freed.  
+Handle to the resource that contains the tag descriptions being freed.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
+
 For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**]("/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description").
 
 ## -see-also

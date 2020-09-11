@@ -8,10 +8,6 @@ tech.root: VStor
 ms.assetid: 9b3874e1-e107-42f8-9ede-eb1eb6164ed2
 ms.date: 12/05/2018
 ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vdssys/DetachVirtualDisk, vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
-f1_keywords:
-- virtdisk/DetachVirtualDisk
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VirtDisk.dll
-api_name:
-- DetachVirtualDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DetachVirtualDisk
+ - virtdisk/DetachVirtualDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VirtDisk.dll
+api_name:
+ - DetachVirtualDisk
 ---
 
 # DetachVirtualDisk function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Detaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an appropriate virtual 
     disk provider to accomplish the operation.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualDiskHandle [in]
 
@@ -68,21 +64,16 @@ A handle to an open virtual disk, which must have been opened using the
       open a virtual disk, see the <b>OpenVirtualDisk</b> 
       function.
 
-
 ### -param Flags [in]
 
 A valid combination of values of the 
       <a href="/windows/win32/api/virtdisk/ne-virtdisk-detach_virtual_disk_flag">DETACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
-
 ### -param ProviderSpecificFlags [in]
 
 Flags specific to the type of virtual disk being detached. May be zero if none are required.
 
-
 ## -returns
-
-
 
 Status of the request.
 
@@ -91,12 +82,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 If the function fails, the return value is an error code. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <b>DetachVirtualDisk</b> function fails with an 
     error code value of <b>ERROR_INVALID_PARAMETER</b>, the cause may be due to any of the 
@@ -128,20 +114,11 @@ This function will fail if a provider cannot be found, if the image file is not 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
 

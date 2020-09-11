@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: E8F993BD-CB53-474A-926D-AED0F5A17073
 ms.date: 12/05/2018
 ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScopeIterator interface [Windows API],described, fhcfg/IFhScopeIterator, winprog.ifhscopeiterator
-f1_keywords:
-- fhcfg/IFhScopeIterator
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhScopeIterator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhScopeIterator
+ - fhcfg/IFhScopeIterator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhScopeIterator
 ---
 
 # IFhScopeIterator interface
 
 
 ## -description
-
 
 The <b>IFhScopeIterator</b> interface allows client applications to enumerate individual items in an inclusion or exclusion list. To retrieve inclusion and exclusion lists, call  the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a> method.
 
@@ -88,5 +88,5 @@ Moves to the next item in the inclusion or exclusion list.
 
 </td>
 </tr>
-</table> 
+</table>
 

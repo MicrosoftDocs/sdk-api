@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 4057cfcf-675e-439f-8b51-23adede1d35a
 ms.date: 12/05/2018
 ms.keywords: '*LPDDSURFACEDATA, DDSURFACEDATA, DDSURFACEDATA structure [Display Devices], LPDDSURFACEDATA, LPDDSURFACEDATA structure pointer [Display Devices], Video_Structs_0138ef0b-62f2-4d2d-a76e-48d153080ca7.xml, display.ddsurfacedata, dxmini/DDSURFACEDATA, dxmini/LPDDSURFACEDATA'
-f1_keywords:
-- dxmini/DDSURFACEDATA
-dev_langs:
-- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxmini.h
-api_name:
-- DDSURFACEDATA
 targetos: Windows
 req.typenames: DDSURFACEDATA, *LPDDSURFACEDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDSURFACEDATA
+ - dxmini/_DDSURFACEDATA
+ - LPDDSURFACEDATA
+ - dxmini/LPDDSURFACEDATA
+ - DDSURFACEDATA
+ - dxmini/DDSURFACEDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxmini.h
+api_name:
+ - DDSURFACEDATA
 ---
 
 # DDSURFACEDATA structure
@@ -49,44 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the kernel-mode miniport driver. 
-
+The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the kernel-mode miniport driver.
 
 ## -struct-fields
 
-
-
-
 ### -field ddsCaps
 
-Points to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that contains the creation capabilities used to describe the surface. 
-
+Points to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that contains the creation capabilities used to describe the surface.
 
 ### -field dwSurfaceOffset
 
-Specifies the byte offset from the beginning of the frame buffer to the start of the surface. This field is used only by the miniport driver. 
-
+Specifies the byte offset from the beginning of the frame buffer to the start of the surface. This field is used only by the miniport driver.
 
 ### -field fpLockPtr
 
-Points to the start of the surface. 
-
+Points to the start of the surface.
 
 ### -field dwWidth
 
-Specifies the surface width, in pixels. 
-
+Specifies the surface width, in pixels.
 
 ### -field dwHeight
 
-Specifies the surface height, in pixels. 
-
+Specifies the surface height, in pixels.
 
 ### -field lPitch
 
-Specifies the surface pitch, in bytes. 
-
+Specifies the surface pitch, in bytes.
 
 ### -field dwOverlayFlags
 
@@ -338,38 +332,30 @@ Turn this overlay on.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwOverlayOffset
 
-Specifies the byte offset from the beginning of the frame buffer to the start of the overlay. This field is used only by the miniport driver. 
-
+Specifies the byte offset from the beginning of the frame buffer to the start of the overlay. This field is used only by the miniport driver.
 
 ### -field dwOverlaySrcWidth
 
-Specifies the overlay source width, in pixels. This field is used only by the miniport driver. 
-
+Specifies the overlay source width, in pixels. This field is used only by the miniport driver.
 
 ### -field dwOverlaySrcHeight
 
-Specifies the overlay source height, in pixels. This field is used only by the miniport driver. 
-
+Specifies the overlay source height, in pixels. This field is used only by the miniport driver.
 
 ### -field dwOverlayDestWidth
 
-Specifies the overlay destination width, in pixels. This field is used only by the miniport driver. 
-
+Specifies the overlay destination width, in pixels. This field is used only by the miniport driver.
 
 ### -field dwOverlayDestHeight
 
-Specifies the overlay destination height, in pixels. This field is used only by the miniport driver. 
-
+Specifies the overlay destination height, in pixels. This field is used only by the miniport driver.
 
 ### -field dwVideoPortId
 
-If this surface is being fed by a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object, this field indicates the ID of the VPE object, an integer in the range (0 - (maximum number of hardware video ports -1 )); otherwise, this field is -1. 
-
+If this surface is being fed by a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object, this field indicates the ID of the VPE object, an integer in the range (0 - (maximum number of hardware video ports -1 )); otherwise, this field is -1.
 
 ### -field dwFormatFlags
 
@@ -571,58 +557,44 @@ The surface is in RGBZ format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFormatFourCC
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> code. 
-
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> code.
 
 ### -field dwFormatBitCount
 
-Specifies the number of bits per pixel (4, 8, 16, 24, or 32). 
-
+Specifies the number of bits per pixel (4, 8, 16, 24, or 32).
 
 ### -field dwRBitMask
 
-Specifies the red bitmask. 
-
+Specifies the red bitmask.
 
 ### -field dwGBitMask
 
-Specifies the green bitmask. 
-
+Specifies the green bitmask.
 
 ### -field dwBBitMask
 
-Specifies the blue bitmask. 
-
+Specifies the blue bitmask.
 
 ### -field dwDriverReserved1
 
 Reserved for the HAL/Miniport
 
-
 ### -field dwDriverReserved2
 
 Reserved for the HAL/Miniport
-
 
 ### -field dwDriverReserved3
 
 Reserved for the HAL/Miniport
 
-
 ### -field dwDriverReserved4
 
-Are reserved for use by the miniport driver. 
-
+Are reserved for use by the miniport driver.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
@@ -633,7 +605,4 @@ Are reserved for use by the miniport driver.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
- 
-
- 
 

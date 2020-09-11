@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ab58622e-79a6-4a1b-a0e2-74efb81c7062
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],Validate method, IX509EnrollmentPolicyServer.Validate, IX509EnrollmentPolicyServer::Validate, Validate, Validate method [Security], Validate method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::Validate, security.ix509enrollmentpolicyserver_validate
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.Validate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.Validate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::Validate
+ - certenroll/IX509EnrollmentPolicyServer::Validate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.Validate
 ---
 
 # IX509EnrollmentPolicyServer::Validate
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Validate</b> method validates the current policy information.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -96,27 +88,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certen
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method calls <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a> with the input parameter set to <b>LoadOptionReload</b>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

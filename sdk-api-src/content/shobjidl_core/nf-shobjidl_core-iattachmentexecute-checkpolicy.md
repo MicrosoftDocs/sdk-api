@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a
 ms.date: 12/05/2018
 ms.keywords: CheckPolicy, CheckPolicy method [Windows Shell], CheckPolicy method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],CheckPolicy method, IAttachmentExecute.CheckPolicy, IAttachmentExecute::CheckPolicy, _win32_IAttachmentExecute_CheckPolicy, shell.IAttachmentExecute_CheckPolicy, shobjidl_core/IAttachmentExecute::CheckPolicy
-f1_keywords:
-- shobjidl_core/IAttachmentExecute.CheckPolicy
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IAttachmentExecute.CheckPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttachmentExecute::CheckPolicy
+ - shobjidl_core/IAttachmentExecute::CheckPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IAttachmentExecute.CheckPolicy
 ---
 
 # IAttachmentExecute::CheckPolicy
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -87,14 +79,8 @@ Returns one of the following values.
 <td>Disable</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IAttachmentExecute::CheckPolicy</b> examines a set of properties known collectively as <i>evidence</i>. Anything used to determine trust level is considered evidence. These properties are set using the following methods.
 
@@ -118,6 +104,4 @@ The information returned by <b>IAttachmentExecute::CheckPolicy</b> enables an ap
 			
 
 <b>IAttachmentExecute::CheckPolicy</b> requires the application first to call either <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>.
-
-
 

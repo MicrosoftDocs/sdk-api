@@ -6,10 +6,6 @@ helpviewer_keywords: ["DWRITE_FONT_AXIS_VALUE","DWRITE_FONT_AXIS_VALUE structure
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_VALUE, DWRITE_FONT_AXIS_VALUE structure [Direct Write], directwrite.dwrite_font_axis_value, dwrite_3/DWRITE_FONT_AXIS_VALUE
-f1_keywords:
-- dwrite_3/DWRITE_FONT_AXIS_VALUE
-dev_langs:
-- c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_AXIS_VALUE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_AXIS_VALUE
+ - dwrite_3/DWRITE_FONT_AXIS_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_AXIS_VALUE
 ---
 
 ## -description
@@ -72,3 +73,4 @@ A value for the axis specified in `axisTag`. The meaning and range of the value 
 [DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
 
 [DWRITE_FONT_AXIS_RANGE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)
+

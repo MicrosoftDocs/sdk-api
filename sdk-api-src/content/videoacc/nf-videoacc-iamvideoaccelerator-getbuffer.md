@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 3385cad2-8885-4b17-83fa-f40f25b0c433
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer
-f1_keywords:
-- videoacc/IAMVideoAccelerator.GetBuffer
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator::GetBuffer
+ - videoacc/IAMVideoAccelerator::GetBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator.GetBuffer
 ---
 
 # IAMVideoAccelerator::GetBuffer
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetBuffer</b> method gets a pointer to a compressed or uncompressed surface that was allocated for DirectX Video Acceleration (DXVA) decoding.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwTypeIndex [in]
 
@@ -71,7 +64,6 @@ Specifies the surface type:
 <li>To get a pointer to an uncompressed output surface, set this parameter to 0xFFFFFFFF. </li>
 </ul>
 The value 0xFFFFFFFF is valid only between calls to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> and <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>.
-
 
 ### -param dwBufferIndex [in]
 
@@ -85,22 +77,16 @@ The zero-based index of the surface, within the pool of surfaces that were alloc
 ### -param bReadOnly [in]
 
 Specifies whether the decoder will write to the surface memory. For read-only access, specify <b>TRUE</b>. This might allow faster access to reference frames that are currently in use.
-          
-
 
 ### -param ppBuffer [out]
 
 Receives a pointer to the surface memory. To get the size of the buffer in bytes, call the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">IAMVideoAccelerator::GetInternalCompBufferInfo</a> method. The size is given in the <b>dwBytesToAllocate</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferinfo">AMVACompBufferInfo</a> structure that corresponds to <i>dwTypeIndex</i>.
 
-
 ### -param lpStride [out]
 
 Receives the surface stride, in bytes.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. <b>HRESULT</b> can include one of the following standard constants, or other values not listed.
 
@@ -187,14 +173,8 @@ The pins on the decoder and video renderer filters are not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
@@ -205,13 +185,7 @@ To release the buffer, call <a href="https://docs.microsoft.com/windows/desktop/
 
 Until all compressed buffers are released, it is possible that the calling thread will hold the Win16 lock or the DirectDraw lock.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -222,7 +196,4 @@ Until all compressed buffers are released, it is possible that the calling threa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
- 
-
- 
 

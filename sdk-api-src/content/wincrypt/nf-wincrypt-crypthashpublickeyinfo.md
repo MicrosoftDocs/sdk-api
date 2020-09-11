@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
 ms.date: 12/05/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
-f1_keywords:
-- wincrypt/CryptHashPublicKeyInfo
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptHashPublicKeyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptHashPublicKeyInfo
+ - wincrypt/CryptHashPublicKeyInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptHashPublicKeyInfo
 ---
 
 # CryptHashPublicKeyInfo function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashPublicKeyInfo</b> function encodes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information in a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure and computes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the encoded bytes. The hash created is used with 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">key identifier functions</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptProv [in]
 
@@ -68,19 +64,14 @@ This parameter is not used and should be set to <b>NULL</b>.
 
 Unless there is a strong reason for passing in a specific cryptographic provider in <i>hCryptProv</i>, zero is passed in. Passing in zero causes the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) provider to be acquired before doing hash, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature verification</a>, or recipient <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encryption</a> operations.
 
-
-
-
 ### -param Algid [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the CryptoAPI hash algorithm to use. If <i>Algid</i> is zero, the default hash algorithm, MD5, is used.
-
 
 ### -param dwFlags [in]
 
 Values to be passed on to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -100,14 +91,12 @@ Currently defined encoding types are:
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information to be encoded and hashed.
 
-
 ### -param pbComputedHash [out]
 
 A pointer to a buffer to receive the computed hash.
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbComputedHash [in, out]
 
@@ -117,8 +106,6 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
@@ -163,13 +150,7 @@ Invalid certificate encoding type. Currently only X509_ASN_ENCODING is supported
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>
 
@@ -180,8 +161,4 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
-
 

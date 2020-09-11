@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 4a0c0c1d-3d84-491f-8379-d164821fa71b
 ms.date: 12/05/2018
 ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], IWbemQuery interface [Windows Management Instrumentation],described, WbemQuery, _hmm_iwbemquery, wmi.iwbemquery, wmiutils/IWbemQuery
-f1_keywords:
-- wmiutils/IWbemQuery
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemQuery
-- IWbemQuery.GetQueryInfo
-- IWbemQuery.SetLanguageFeatures
-- IWbemQuery.TestLanguageFeatures
-- WbemQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemQuery
+ - wmiutils/IWbemQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemQuery
+ - IWbemQuery.GetQueryInfo
+ - IWbemQuery.SetLanguageFeatures
+ - IWbemQuery.TestLanguageFeatures
+ - WbemQuery
 ---
 
 # IWbemQuery interface
@@ -53,13 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemQuery</b> interface provides an entry point through which a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI Query Language</a> (WQL) query can be parsed. For more information about WQL, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL (SQL for WMI</a>).
 
 The following table lists the methods for 
 <b>IWbemQuery</b>.
-
 
 ## -inheritance
 
@@ -134,20 +133,13 @@ Not implemented. Returns <b>E_NOTIMPL</b> if called.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
- 
-
- 
 

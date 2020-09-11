@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 414ce7fe-e664-4915-84d6-0d4b6c750cf3
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_TerminalClasses method, ITPluggableTerminalSuperclassRegistration.get_TerminalClasses, ITPluggableTerminalSuperclassRegistration::get_TerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_get_terminalclasses, get_TerminalClasses, get_TerminalClasses method [TAPI 2.2], get_TerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_get_terminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
-f1_keywords:
-- termmgr/ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
-dev_langs:
-- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
+ - termmgr/ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalSuperclassRegistration.get_TerminalClasses
 ---
 
 # ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_TerminalClasses</b> method gets the terminal classes for this pluggable terminal superclass.
 
-
 ## -parameters
-
-
-
 
 ### -param pTerminals [out]
 
  Pointer to a <b>VARIANT</b> containing a <b>SAFEARRAY</b> of <b>BSTR</b> strings. Each string represents a terminal class.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,18 +102,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
- 
-
- 
 

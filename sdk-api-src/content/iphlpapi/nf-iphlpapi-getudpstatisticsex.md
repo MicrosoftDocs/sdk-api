@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 9de7fa95-6bda-4fcc-b563-aed2e61fc1c7
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx
-f1_keywords:
-- iphlpapi/GetUdpStatisticsEx
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetUdpStatisticsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUdpStatisticsEx
+ - iphlpapi/GetUdpStatisticsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetUdpStatisticsEx
 ---
 
 # GetUdpStatisticsEx function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetUdpStatisticsEx</b> function retrieves the User Datagram Protocol (UDP) statistics for the current computer. The 
 <b>GetUdpStatisticsEx</b> function differs from the 
 <b>GetUdpStatistics</b> function in that 
 <b>GetUdpStatisticsEx</b> also supports the Internet Protocol version 6 (IPv6) protocol family.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a> structure that receives the UDP statistics for the local computer.
-
 
 ### -param Family [in]
 
@@ -101,12 +95,8 @@ Internet Protocol version 6 (IPv6).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -152,15 +142,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatisticsex">GetIpStatisticsEx</a>
 
@@ -183,7 +166,4 @@ Use
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a>
- 
-
- 
 

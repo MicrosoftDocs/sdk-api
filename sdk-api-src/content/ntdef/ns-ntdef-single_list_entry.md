@@ -8,10 +8,6 @@ tech.root: Kernel
 ms.assetid: 2db8ce7e-67e0-43e8-98b5-a2112db5bd5a
 ms.date: 12/05/2018
 ms.keywords: '*PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SINGLE_LIST_ENTRY, SINGLE_LIST_ENTRY structure [Kernel-Mode Driver Architecture], kernel.single_list_entry, kstruct_d_146e3fe9-b909-4cd8-9eba-61203c32d658.xml, ntdef/PSINGLE_LIST_ENTRY, ntdef/SINGLE_LIST_ENTRY'
-f1_keywords:
-- ntdef/SINGLE_LIST_ENTRY
-dev_langs:
-- c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdef.h
-api_name:
-- SINGLE_LIST_ENTRY
 targetos: Windows
 req.typenames: SINGLE_LIST_ENTRY, *PSINGLE_LIST_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SINGLE_LIST_ENTRY
+ - ntdef/_SINGLE_LIST_ENTRY
+ - PSINGLE_LIST_ENTRY
+ - ntdef/PSINGLE_LIST_ENTRY
+ - SINGLE_LIST_ENTRY
+ - ntdef/SINGLE_LIST_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdef.h
+api_name:
+ - SINGLE_LIST_ENTRY
 ---
 
 # SINGLE_LIST_ENTRY structure
@@ -49,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 A <b>SINGLE_LIST_ENTRY</b> structure describes an entry in a singly linked list, or serves as the header for such a list.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Next
 
 For a <b>SINGLE_LIST_ENTRY</b> that serves as a list entry, the <b>Next</b> member points to the next entry in the list, or <b>NULL</b> if there is no next entry in the list. For a <b>SINGLE_LIST_ENTRY</b> that serves as the list header, the <b>Next</b> member points to the first entry in the list, or <b>NULL</b> if the list is empty.
 
-
 ## -remarks
-
-
 
 If a <b>SINGLE_LIST_ENTRY</b> structure is used as a list head, initialize the <b>Next</b> member of the structure to be <b>NULL</b>.
 
@@ -73,13 +70,7 @@ A driver can access the <b>Next</b> member of a <b>SINGLE_LIST_ENTRY</b>, but (o
 
 For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/339e688f-64ec-402f-bd28-9fa487acb984">ExInterlockedPopEntryList</a>
 
@@ -94,7 +85,4 @@ For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to imp
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>
- 
-
- 
 

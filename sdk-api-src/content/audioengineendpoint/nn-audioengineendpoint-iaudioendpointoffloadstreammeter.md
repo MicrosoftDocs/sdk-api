@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: B19413F9-1DE9-4940-B0A1-11E5278F084B
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMeter, IAudioEndpointOffloadStreamMeter interface [Core Audio], IAudioEndpointOffloadStreamMeter interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMeter, coreaudio.iaudioendpointoffloadstreammeter
-f1_keywords:
-- audioengineendpoint/IAudioEndpointOffloadStreamMeter
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioengineendpoint.h
-api_name:
-- IAudioEndpointOffloadStreamMeter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointOffloadStreamMeter
+ - audioengineendpoint/IAudioEndpointOffloadStreamMeter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioengineendpoint.h
+api_name:
+ - IAudioEndpointOffloadStreamMeter
 ---
 
 # IAudioEndpointOffloadStreamMeter interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioEndpointOffloadStreamMeter</b> interface retrieves general information about the audio channels in the offloaded audio stream.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Retrieves general information about the available audio channels in the offloade
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
- 
-
- 
 

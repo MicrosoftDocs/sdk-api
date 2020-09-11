@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1c12003a-c2f3-4069-8bd6-b8f2875b0c98
 ms.date: 12/05/2018
 ms.keywords: CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENCRYPTED, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgCalculateEncodedLength, CryptMsgCalculateEncodedLength function [Security], _crypto2_cryptmsgcalculateencodedlength, security.cryptmsgcalculateencodedlength, wincrypt/CryptMsgCalculateEncodedLength
-f1_keywords:
-- wincrypt/CryptMsgCalculateEncodedLength
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgCalculateEncodedLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgCalculateEncodedLength
+ - wincrypt/CryptMsgCalculateEncodedLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgCalculateEncodedLength
 ---
 
 # CryptMsgCalculateEncodedLength function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgCalculateEncodedLength</b> function calculates the maximum number of bytes needed for an encoded cryptographic message given the message type, encoding parameters, and total length of the data to be encoded. Note that the result will always be greater than or equal to the actual number of bytes needed.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMsgEncodingType [in]
 
@@ -122,8 +118,6 @@ Non-Data type <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwMsgType [in]
 
@@ -201,13 +195,10 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvMsgEncodeInfo [in]
 
 A pointer to the data to be encoded. The type of data pointed to depends on the value of <i>dwMsgType</i>. For details, see the <i>dwMsgType</i> table.
-
 
 ### -param pszInnerContentObjID [in, optional]
 
@@ -232,15 +223,11 @@ The following algorithm object identifiers are commonly used:
 </ul>
 A user can define new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">inner content</a> usage. The user must ensure that the sender and receiver of the message agree upon the semantics associated with the object identifier.
 
-
 ### -param cbData [in]
 
 The size, in bytes, of the content.
 
-
 ## -returns
-
-
 
 Returns the required length for an encoded cryptographic message. This length might not be the exact length but it will not be less than the required length. Zero is returned if the function fails.
 
@@ -285,15 +272,8 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
 
@@ -304,7 +284,4 @@ One or more arguments are not valid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

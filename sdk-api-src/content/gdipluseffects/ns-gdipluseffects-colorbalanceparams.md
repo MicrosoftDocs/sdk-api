@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorbalanceparams.htm
 ms.date: 12/05/2018
 ms.keywords: ColorBalanceParams, ColorBalanceParams structure [GDI+], _gdiplus_STRUC_ColorBalanceParams, gdiplus._gdiplus_STRUC_ColorBalanceParams, gdipluseffects/ColorBalanceParams
-f1_keywords:
-- gdipluseffects/ColorBalanceParams
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdipluseffects.h
-api_name:
-- ColorBalanceParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - ColorBalanceParams
+ - gdipluseffects/ColorBalanceParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdipluseffects.h
+api_name:
+ - ColorBalanceParams
 ---
 
 # ColorBalanceParams structure
 
 
 ## -description
-
 
 A <b>ColorBalanceParams</b> structure contains members that specify the nature of a color balance adjustment.
 
@@ -62,22 +62,17 @@ You can change the color balance of a bitmap by following these steps.
 
 ## -struct-fields
 
-
-
-
 ### -field cyanRed
 
 Type: <b>INT</b>
 
 Integer in the range -100 through 100 that specifies a change in the amount of red in the image. If the value is 0, there is no change. As the value moves from 0 to 100, the amount of red in the image increases and the amount of cyan decreases. As the value moves from 0 to -100, the amount of red in the image decreases and the amount of cyan increases.
 
-
 ### -field magentaGreen
 
 Type: <b>INT</b>
 
 Integer in the range -100 through 100 that specifies a change in the amount of green in the image. If the value is 0, there is no change. As the value moves from 0 to 100, the amount of green in the image increases and the amount of magenta decreases. As the value moves from 0 to -100, the amount of green in the image decreases and the amount of magenta increases.
-
 
 ### -field yellowBlue
 

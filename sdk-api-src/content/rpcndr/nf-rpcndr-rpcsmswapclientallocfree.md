@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: f07df5ec-0798-4cd2-a2f5-73e6245a7020
 ms.date: 12/05/2018
 ms.keywords: RpcSmSwapClientAllocFree, RpcSmSwapClientAllocFree function [RPC], _rpc_rpcsmswapclientallocfree, rpc.rpcsmswapclientallocfree, rpcndr/RpcSmSwapClientAllocFree
-f1_keywords:
-- rpcndr/RpcSmSwapClientAllocFree
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSmSwapClientAllocFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSmSwapClientAllocFree
+ - rpcndr/RpcSmSwapClientAllocFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSmSwapClientAllocFree
 ---
 
 # RpcSmSwapClientAllocFree function
@@ -49,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSmSwapClientAllocFree</b> function exchanges the client stub's memory-allocation and memory-freeing mechanisms with those supplied by the client.
 
-
 ## -parameters
-
-
-
 
 ### -param ClientAlloc
 
 New memory-allocation function.
 
-
 ### -param ClientFree
 
 New memory-releasing function.
-
 
 ### -param OldClientAlloc
 
 Returns the previous memory-allocation function before the call to this function.
 
-
 ### -param OldClientFree
 
 Returns the previous memory-releasing function before the call to this function.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -117,12 +107,7 @@ The argument is invalid.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
@@ -133,7 +118,4 @@ The argument is invalid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetclientallocfree">RpcSmSetClientAllocFree</a>
- 
-
- 
 

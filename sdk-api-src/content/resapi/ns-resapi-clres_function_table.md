@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: fa27076f-393c-415a-9301-91cfe770fb3c
 ms.date: 12/05/2018
 ms.keywords: '*PCLRES_FUNCTION_TABLE, CLRES_FUNCTION_TABLE, CLRES_FUNCTION_TABLE structure [Failover Cluster], CLRES_V1_FUNCTION_SIZE, CLRES_V2_FUNCTION_SIZE, CLRES_V3_FUNCTION_SIZE, CLRES_VERSION_V1_00, CLRES_VERSION_V2_00, CLRES_VERSION_V3_00, PCLRES_FUNCTION_TABLE, PCLRES_FUNCTION_TABLE structure pointer [Failover Cluster], _wolf_clres_function_table, mscs.clres_function_table, resapi/CLRES_FUNCTION_TABLE, resapi/PCLRES_FUNCTION_TABLE'
-f1_keywords:
-- resapi/CLRES_FUNCTION_TABLE
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ResApi.h
-api_name:
-- CLRES_FUNCTION_TABLE
 targetos: Windows
 req.typenames: CLRES_FUNCTION_TABLE, *PCLRES_FUNCTION_TABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLRES_FUNCTION_TABLE
+ - resapi/CLRES_FUNCTION_TABLE
+ - PCLRES_FUNCTION_TABLE
+ - resapi/PCLRES_FUNCTION_TABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ResApi.h
+api_name:
+ - CLRES_FUNCTION_TABLE
 ---
 
 # CLRES_FUNCTION_TABLE structure
@@ -49,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a function table for any version of the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TableSize
 
@@ -90,7 +88,6 @@ The size of the function table for Resource API version 3.0.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This value is not supported before Windows Server 2012 R2.
 
-
 ### -field Version
 
 The supported version of the Resource API.
@@ -122,15 +119,12 @@ Resource API version 3.0.
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This value is not supported before Windows Server 2012 R2.
 
-
 ### -field DUMMYUNIONNAME
-
 
 ### -field DUMMYUNIONNAME.V1Functions
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v1_functions">CLRES_V1_FUNCTIONS</a> structure that contains the 
         table of entry points included in the Resource API version 1.0.
-
 
 ### -field DUMMYUNIONNAME.V2Functions
 
@@ -139,7 +133,6 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resa
 
 <b>Windows Server 2008 R2:  </b>This member was added in Windows Server 2012.
 
-
 ### -field DUMMYUNIONNAME.V3Functions
 
 A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_v3_functions">CLRES_V3_FUNCTIONS</a> structure that contains the 
@@ -147,17 +140,9 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resa
 
 <b>Windows Server 2008 R2 and Windows Server 2012:  </b>This member was added in Windows Server 2012 R2.
 
-
 ### -field DUMMYUNIONNAME.V4Functions
 
- 
-
-
-
-
 ## -remarks
-
-
 
 Only the first two members are guaranteed to be at the same offset within the 
      <b>CLRES_FUNCTION_TABLE</b> structure. All other entries 
@@ -191,12 +176,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/d
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-parbitrate_routine">Arbitrate</a>
 
@@ -219,7 +199,4 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/d
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-presource_type_control_routine">ResourceTypeControl</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
 ms.date: 12/05/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
-f1_keywords:
-- mfidl/IMFNetCrossOriginSupport
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFNetCrossOriginSupport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetCrossOriginSupport
+ - mfidl/IMFNetCrossOriginSupport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFNetCrossOriginSupport
 ---
 
 # IMFNetCrossOriginSupport interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads. 
-
+Implemented by clients that want to enforce a cross origin policy for HTML5 media downloads.
 
 ## -inheritance
 
@@ -97,14 +96,9 @@ Returns true when the specified URL has the same origin as the HTML5 media eleme
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The Media Foundation network code uses these client callbacks to implement and enforce cross origin downloads.
-
-
 

@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
-f1_keywords:
-- winsnmp/SnmpRegister
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpRegister
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpRegister
+ - winsnmp/SnmpRegister
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpRegister
 ---
 
 # SnmpRegister function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -57,16 +57,11 @@ The WinSNMP
 
 A WinSNMP application can register or unregister for one type of trap or notification, or for all traps and notifications, depending on the value of the <i>notification</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session that is registering or unregistering for traps and notifications.
-
 
 ### -param srcEntity [in]
 
@@ -80,7 +75,6 @@ If this parameter is <b>NULL</b>, the Microsoft WinSNMP implementation registers
 Note that the <i>srcEntity</i> parameter to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function has a different role. In that function, <i>srcEntity</i> receives a handle to the entity that sent the trap.
 
-
 ### -param dstEntity [in]
 
 Handle to the management entity that is the recipient of the registration request. This entity, acting in an SNMP agent role, will send the trap or notification. 
@@ -93,7 +87,6 @@ If this parameter is <b>NULL</b>, the implementation registers or unregisters th
 Note that the <i>dstEntity</i> parameter to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmprecvmsg">SnmpRecvMsg</a> function receives a handle to the management entity that registers for trap notification.
 
-
 ### -param context [in]
 
 Handle to the context, which is a set of managed object resources. 
@@ -102,7 +95,6 @@ Handle to the context, which is a set of managed object resources.
 
 
 If this parameter is <b>NULL</b>, the implementation registers or unregisters the WinSNMP application for traps and notifications for every context.
-
 
 ### -param notification [in]
 
@@ -113,7 +105,6 @@ Pointer to an
 
 
 If this parameter is <b>NULL</b>, the implementation registers or unregisters the WinSNMP application for all traps and notifications from the management entity or entities specified by the <i>dstEntity</i> parameter.
-
 
 ### -param state [in]
 
@@ -147,12 +138,8 @@ Register to receive traps and notifications.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -282,12 +269,7 @@ An unknown or undefined error occurred.
 For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/network-transport-errors">Network Transport Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 Typically a WinSNMP manager application, rather than an agent application, calls the 
 <b>SnmpRegister</b> function.
@@ -314,13 +296,7 @@ If any or all of the <i>dstEntity</i>, <i>srcEntity</i>, or <i>context</i> param
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/multiple-trap-registrations">Multiple Trap Registrations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a>
 
@@ -344,7 +320,4 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

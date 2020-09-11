@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch function [TAPI 2.2], tapi/phoneGetHookSwitch, tapi2.phonegethookswitch
-f1_keywords:
-- tapi/phoneGetHookSwitch
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- phoneGetHookSwitch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - phoneGetHookSwitch
+ - tapi/phoneGetHookSwitch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - phoneGetHookSwitch
 ---
 
 # phoneGetHookSwitch function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>phoneGetHookSwitch</b> function returns the current hookswitch mode of the specified open phone device.
 
-
 ## -parameters
-
-
-
 
 ### -param hPhone
 
 Handle to the open phone device.
-
 
 ### -param lpdwHookSwitchDevs
 
@@ -70,32 +65,18 @@ Pointer to a <b>DWORD</b> to be filled with the mode of the phone's hookswitch d
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>. This parameter uses one or more of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALPOINTER, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPHONESTATE, PHONEERR_OPERATIONFAILED, PHONEERR_OPERATIONUNAVAIL, PHONEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 After the hookswitch state of a device changes, and if hookswitch monitoring is enabled, the application is sent a 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a> message.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
@@ -110,7 +91,4 @@ After the hookswitch state of a device changes, and if hookswitch monitoring is 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>
- 
-
- 
 

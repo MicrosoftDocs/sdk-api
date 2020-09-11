@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 6e86a22b-03b0-4ca6-a4e2-96ea365dabdf
 ms.date: 12/05/2018
 ms.keywords: ISnapinHelp2, ISnapinHelp2 interface [MMC], ISnapinHelp2 interface [MMC],described, _slate_isnapinhelp2, mmc.isnapinhelp2, mmc/ISnapinHelp2
-f1_keywords:
-- mmc/ISnapinHelp2
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- ISnapinHelp2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISnapinHelp2
+ - mmc/ISnapinHelp2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - ISnapinHelp2
 ---
 
 # ISnapinHelp2 interface
 
 
 ## -description
-
 
 The 
 <b>ISnapinHelp2</b> interface is introduced in MMC 1.1.
@@ -96,16 +96,9 @@ Allows the snap-in to specify the names and locations of any HTML Help files tha
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
- 
-
- 
 

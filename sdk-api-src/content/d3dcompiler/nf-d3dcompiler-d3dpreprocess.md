@@ -8,10 +8,6 @@ tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dpreprocess.htm
 ms.date: 12/05/2018
 ms.keywords: 91482c2f-2730-5aba-e73a-43653c75ff49, D3DPreprocess, D3DPreprocess function [HLSL], d3dcompiler/D3DPreprocess, direct3dhlsl.d3dpreprocess
-f1_keywords:
-- d3dcompiler/D3DPreprocess
-dev_langs:
-- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- d3dcompiler_47.dll
-api_name:
-- D3DPreprocess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3DPreprocess
+ - d3dcompiler/D3DPreprocess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - d3dcompiler_47.dll
+api_name:
+ - D3DPreprocess
 ---
 
 # D3DPreprocess function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Preprocesses uncompiled HLSL code.
 
-
 ## -parameters
-
-
-
 
 ### -param pSrcData [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A pointer to uncompiled shader data; either ASCII HLSL code or a compiled effect.
 
-
 ### -param SrcDataSize [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Length of <i>pSrcData</i>.
-
 
 ### -param pSourceName [in, optional]
 
@@ -78,13 +72,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
  The name of the file that contains the uncompiled HLSL code.
 
-
 ### -param pDefines [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a>*</b>
 
  An array of NULL-terminated macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro">D3D_SHADER_MACRO</a>).
-
 
 ### -param pInclude [in, optional]
 
@@ -98,14 +90,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3
 
 ```
 
-
-
 ### -param ppCodeText [out]
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a>**</b>
 
 The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> that contains the compiled code.
-
 
 ### -param ppErrorMsgs [out, optional]
 
@@ -113,34 +102,17 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/l
 
  A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)">ID3DBlob</a> that contains compiler error messages, or <b>NULL</b> if there were no errors.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>D3DPreprocess</b> outputs <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-appendix-pre-line">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
- 
-
- 
 

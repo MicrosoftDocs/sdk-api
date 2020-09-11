@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: a890aefe-e35e-4635-874d-953194f99a82
 ms.date: 12/05/2018
 ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows Management Instrumentation], IWbemUnboundObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemunboundobjectsink, wbemprov/IWbemUnboundObjectSink, wmi.iwbemunboundobjectsink
-f1_keywords:
-- wbemprov/IWbemUnboundObjectSink
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IWbemUnboundObjectSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemUnboundObjectSink
+ - wbemprov/IWbemUnboundObjectSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IWbemUnboundObjectSink
 ---
 
 # IWbemUnboundObjectSink interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemUnboundObjectSink</b> interface is implemented by all logical event consumers. It is a simple sink interface that accepts delivery of event objects.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Called by Windows Management to actually deliver events to a consumer.
 
 </td>
 </tr>
-</table> 
+</table>
 

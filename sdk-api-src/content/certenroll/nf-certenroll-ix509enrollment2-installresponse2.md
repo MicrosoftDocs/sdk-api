@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 1a5dce88-afc5-4d47-85e8-980192a662d8
 ms.date: 12/05/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment2 interface [Security],InstallResponse2 method, IX509Enrollment2.InstallResponse2, IX509Enrollment2::InstallResponse2, InstallResponse2, InstallResponse2 method [Security], InstallResponse2 method [Security],IX509Enrollment2 interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509Enrollment2::InstallResponse2, security.ix509enrollment2_installresponse2
-f1_keywords:
-- certenroll/IX509Enrollment2.InstallResponse2
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509Enrollment2.InstallResponse2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Enrollment2::InstallResponse2
+ - certenroll/IX509Enrollment2::InstallResponse2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509Enrollment2.InstallResponse2
 ---
 
 # IX509Enrollment2::InstallResponse2
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InstallResponse2</b> method installs a certificate chain on the end-entity computer. The byte array that contains the response is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard.  You must specify  the DER-encoded byte array in a string that is either a pure binary sequence or is Unicode encoded. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param Restrictions [in]
 
@@ -114,33 +110,26 @@ Perform the same action as the <b>AllowUntrustedCertificate</b> flag but also in
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strResponse [in]
 
 A <b>BSTR</b> variable that contains the DER-encoded response.
 
-
 ### -param Encoding [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to  the string that contains the DER-encoded response.
-
 
 ### -param strPassword [in, optional]
 
 An optional password for the certificate installation. This can be  <b>NULL</b> to indicate that  no password is used.  When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
-
 ### -param strEnrollmentPolicyServerUrl [in]
 
 A <b>BSTR</b> that contains the URL of the certificate enrollment policy (CEP) server.
 
-
 ### -param strEnrollmentPolicyServerID [in]
 
 A <b>BSTR</b> that contains an identifier for the CEP server.
-
 
 ### -param EnrollmentPolicyServerFlags [in]
 
@@ -204,8 +193,6 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 </td>
 </tr>
 </table>
- 
-
 
 ### -param authFlags [in]
 
@@ -259,12 +246,8 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -309,15 +292,8 @@ The enrollment object has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 The <b>InstallResponse2</b> method:
 
@@ -348,16 +324,7 @@ If you call this method from the web, you can specify only <b>AllowNone</b> or <
 
 The last four parameters (<i>strEnrollmentPolicyServerUrl</i>, <i>strEnrollmentPolicyServerID</i>, <i>EnrollmentPolicyServerFlags</i>, and <i>authFlags</i>) are not included in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a> method. They enable you to add a property value to the installed certificate in much the same way as the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a> interface does.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
- 
-
- 
 

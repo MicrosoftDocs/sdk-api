@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: dd8a4a2a-9f99-48c0-acb6-e5ceed63c88e
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Log_Conf_Handle, CM_Free_Log_Conf_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Handle, cfgmgrfn_acfb6a9e-f12b-40af-a239-dba8aff1e22b.xml, devinst.cm_free_log_conf_handle
-f1_keywords:
-- cfgmgr32/CM_Free_Log_Conf_Handle
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-api_name:
-- CM_Free_Log_Conf_Handle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Free_Log_Conf_Handle
+ - cfgmgr32/CM_Free_Log_Conf_Handle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+api_name:
+ - CM_Free_Log_Conf_Handle
 ---
 
 # CM_Free_Log_Conf_Handle function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CM_Free_Log_Conf_Handle</b> function invalidates a logical configuration handle and frees its associated memory allocation.
 
-
 ## -parameters
-
-
-
 
 ### -param lcLogConf [in]
 
@@ -85,22 +81,11 @@ Caller-supplied logical configuration handle. This handle must have been previou
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>
 
-
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
 
-
-
 Each time your code calls one of the functions listed under the description of <i>lcLogConf</i>, it must subsequently call <b>CM_Free_Log_Conf_Handle</b>.
-
-
 

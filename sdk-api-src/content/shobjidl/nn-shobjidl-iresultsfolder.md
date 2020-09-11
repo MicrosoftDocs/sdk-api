@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: db44052b-bd26-412f-9f2a-66a0c53b65ac
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], IResultsFolder interface [Windows Shell],described, _shell_IResultsFolder, shell.IResultsFolder, shobjidl/IResultsFolder
-f1_keywords:
-- shobjidl/IResultsFolder
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IResultsFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultsFolder
+ - shobjidl/IResultsFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IResultsFolder
 ---
 
 # IResultsFolder interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that hold items from a data object.
 
 An <b>IResultsFolder</b> is a folder that can hold items from all over the namespace and represent them to the user in a single folder.
-
 
 ## -inheritance
 
@@ -115,5 +114,5 @@ Removes an item from a results folder.
 
 </td>
 </tr>
-</table> 
+</table>
 

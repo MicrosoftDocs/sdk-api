@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 08f06007-5b21-44ab-b234-21a58c94ed4e
 ms.date: 12/05/2018
 ms.keywords: GGO_BEZIER, GGO_BITMAP, GGO_GLYPH_INDEX, GGO_GRAY2_BITMAP, GGO_GRAY4_BITMAP, GGO_GRAY8_BITMAP, GGO_METRICS, GGO_NATIVE, GGO_UNHINTED, GetGlyphOutline, GetGlyphOutline function [Windows GDI], GetGlyphOutlineA, GetGlyphOutlineW, _win32_GetGlyphOutline, gdi.getglyphoutline, wingdi/GetGlyphOutline, wingdi/GetGlyphOutlineA, wingdi/GetGlyphOutlineW
-f1_keywords:
-- wingdi/GetGlyphOutline
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetGlyphOutline
-- GetGlyphOutlineA
-- GetGlyphOutlineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetGlyphOutlineW
+ - wingdi/GetGlyphOutlineW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetGlyphOutline
+ - GetGlyphOutlineA
+ - GetGlyphOutlineW
 ---
 
 # GetGlyphOutlineW function
@@ -56,24 +57,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetGlyphOutline</b> function retrieves the outline or bitmap for a character in the TrueType font that is selected into the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param uChar [in]
 
 The character for which data is to be returned.
-
 
 ### -param fuFormat [in]
 
@@ -179,41 +173,29 @@ The function only returns unhinted outlines. This flag only works in conjunction
 
 Note that, for the GGO_GRAYn_BITMAP values, the function retrieves a glyph bitmap that contains n^2+1 (n squared plus one) levels of gray.
 
-
 ### -param lpgm [out]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetrics">GLYPHMETRICS</a> structure describing the placement of the glyph in the character cell.
-
 
 ### -param cjBuffer [in]
 
 The size, in bytes, of the buffer (*<i>lpvBuffer</i>) where the function is to copy information about the outline character. If this value is zero, the function returns the required size of the buffer.
 
-
 ### -param pvBuffer [out]
 
 A pointer to the buffer that receives information about the outline character. If this value is <b>NULL</b>, the function returns the required size of the buffer.
-
 
 ### -param lpmat2 [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a> structure specifying a transformation matrix for the character.
 
-
 ## -returns
-
-
 
 If GGO_BITMAP, GGO_GRAY2_BITMAP, GGO_GRAY4_BITMAP, GGO_GRAY8_BITMAP, or GGO_NATIVE is specified and the function succeeds, the return value is greater than zero; otherwise, the return value is GDI_ERROR. If one of these flags is specified and the buffer size or address is zero, the return value specifies the required buffer size, in bytes.
 
 If GGO_METRICS is specified and the function fails, the return value is GDI_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 The glyph outline returned by the <b>GetGlyphOutline</b> function is for a grid-fitted glyph. (A grid-fitted glyph is a glyph that has been modified so that its bitmapped image conforms as closely as possible to the original design of the glyph.) If an application needs an unmodified glyph outline, it can request the glyph outline for a character in a font whose size is equal to the font's em unit. The value for a font's em unit is stored in the <b>otmEMSquare</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a> structure.
 
@@ -235,9 +217,6 @@ Additional information on a glyph outlines is located in the TrueType and the Op
 > The wingdi.h header defines GetGlyphOutline as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
@@ -284,7 +263,4 @@ Additional information on a glyph outlines is located in the TrueType and the Op
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
- 
-
- 
 

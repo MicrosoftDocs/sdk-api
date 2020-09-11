@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6c6a0e38-54b8-4fa3-b37a-00073d40965d
 ms.date: 12/05/2018
 ms.keywords: DeleteOutputPin, DeleteOutputPin method [DirectShow], DeleteOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],DeleteOutputPin method, IMpeg2Demultiplexer.DeleteOutputPin, IMpeg2Demultiplexer::DeleteOutputPin, IMpeg2DemultiplexerDeleteOutputPin, dshow.impeg2demultiplexer_deleteoutputpin, strmif/IMpeg2Demultiplexer::DeleteOutputPin
-f1_keywords:
-- strmif/IMpeg2Demultiplexer.DeleteOutputPin
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMpeg2Demultiplexer.DeleteOutputPin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpeg2Demultiplexer::DeleteOutputPin
+ - strmif/IMpeg2Demultiplexer::DeleteOutputPin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMpeg2Demultiplexer.DeleteOutputPin
 ---
 
 # IMpeg2Demultiplexer::DeleteOutputPin
@@ -50,52 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>DeleteOutputPin</code> method deletes the specified output pin.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszPinName [in]
 
 The friendly name of the pin as specified when the pin was created in a call to <b>CreateOutputPin</b>.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Call this method only when you need to delete a pin while keeping the filter alive. When the filter is released, it will perform all necessary cleanup on the output pins.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-impeg2demultiplexer">IMpeg2Demultiplexer Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d94b04d9-9d94-4392-a0bf-a33210aeef1f
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_LUMA_KEY_DATA, DXVAHD_STREAM_STATE_LUMA_KEY_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA, mf.dxvahd_stream_state_luma_key_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_LUMA_KEY_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_LUMA_KEY_DATA
+ - DXVAHD_STREAM_STATE_LUMA_KEY_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_LUMA_KEY_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_LUMA_KEY_DATA
 ---
 
 # DXVAHD_STREAM_STATE_LUMA_KEY_DATA structure
@@ -49,35 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the luma key for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Enable
 
 If <b>TRUE</b>, luma keying is enabled. Otherwise, luma keying is disabled. The default value is <b>FALSE</b>.
 
-
-
-
 ### -field Lower
 
-The lower bound for the luma key. The range is [0…1]. The default state value is 0.0. 
-
+The lower bound for the luma key. The range is [0…1]. The default state value is 0.0.
 
 ### -field Upper
 
-The upper bound for the luma key. The range is [0…1]. The default state value is 0.0. 
-
+The upper bound for the luma key. The range is [0…1]. The default state value is 0.0.
 
 ## -remarks
-
-
 
 To use this state, the device must support luma keying, indicated by the <b>DXVAHD_FEATURE_CAPS_LUMA_KEY</b> capability flag. To query for this capability, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a>. If the device supports luma keying, it sets the  <b>DXVAHD_FEATURE_CAPS_LUMA_KEY</b> flag in the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure.
 
@@ -124,14 +115,7 @@ HRESULT DXVAHD_SetLumaKey(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -150,7 +134,4 @@ HRESULT DXVAHD_SetLumaKey(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

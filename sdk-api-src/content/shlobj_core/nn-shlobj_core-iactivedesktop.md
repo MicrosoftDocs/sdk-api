@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: 4d572b86-36e8-417b-857c-eb477c04c691
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop, IActiveDesktop interface [Legacy Windows Environment Features], IActiveDesktop interface [Legacy Windows Environment Features],described, _win32_IActiveDesktop_Interface, lwef.iactivedesktop_interface, shell.iactivedesktop_interface, shlobj_core/IActiveDesktop
-f1_keywords:
-- shlobj_core/IActiveDesktop
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IActiveDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActiveDesktop
+ - shlobj_core/IActiveDesktop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IActiveDesktop
 ---
 
 # IActiveDesktop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a client program to manage the desktop items and wallpaper on a local computer.
-
 
 ## -inheritance
 
@@ -239,25 +238,13 @@ Sets the wallpaper options.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Your code must include Wininet.h before it includes Shlobj.h. Failure to do so will result in a compiler error.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
- 
-
- 
 

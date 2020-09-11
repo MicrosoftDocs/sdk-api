@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
 ms.topic: function
-f1_keywords: 
- - "winbase/WaitNamedPipe"
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - WaitNamedPipeA
+ - winbase/WaitNamedPipeA
 topic_type:
  - APIRef
  - kbSyntax
@@ -50,11 +56,6 @@ api_name:
  - WaitNamedPipe
  - WaitNamedPipeA
  - WaitNamedPipeW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # WaitNamedPipeA function
@@ -62,15 +63,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending 
 <a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> operation on the pipe).
 
-
 ## -parameters
-
-
-
 
 ### -param lpNamedPipeName [in]
 
@@ -80,7 +76,6 @@ The name of the named pipe. The string must include the name of the computer on 
 
 
 &#92;&#92;<i>servername</i>\pipe&#92;<i>pipename</i>
-
 
 ### -param nTimeOut [in]
 
@@ -117,24 +112,15 @@ The function does not return until an instance of the named pipe is available.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If an instance of the pipe is available before the time-out interval elapses, the return value is nonzero.
 
 If an instance of the pipe is not available before the time-out interval elapses, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If no instances of the specified named pipe exist, the 
 <b>WaitNamedPipe</b> function returns immediately, regardless of the time-out value.
@@ -153,12 +139,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-callnamedpipea">CallNamedPipe</a>
 
@@ -181,7 +162,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
- 
-
- 
 

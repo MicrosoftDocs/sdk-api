@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 09b756de-7fd2-44d8-9ef3-6b5dc56cb8b3
 ms.date: 12/05/2018
 ms.keywords: GetXlcModeDDObjAndPrimarySurface, GetXlcModeDDObjAndPrimarySurface method [DirectShow], GetXlcModeDDObjAndPrimarySurface method [DirectShow],IVMRImagePresenterExclModeConfig interface, IVMRImagePresenterExclModeConfig interface [DirectShow],GetXlcModeDDObjAndPrimarySurface method, IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface, IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface, dshow.ivmrimagepresenterexclmodeconfig_getxlcmodeddobjandprimarysurface, strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
-f1_keywords:
-- strmif/IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
+ - strmif/IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImagePresenterExclModeConfig.GetXlcModeDDObjAndPrimarySurface
 ---
 
 # IVMRImagePresenterExclModeConfig::GetXlcModeDDObjAndPrimarySurface
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetXlcModeDDObjAndPrimarySurface</code> method retrieves the DirectDraw object and primary surface currently being used by a VMR that has been configured for DirectDraw Exclusive Mode using the <b>SetXlcModeDDObjAndPrimarySurface</b> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpDDObj [out]
 
 Retrieves the Exclusive Mode DirectDraw object created by the application.
 
-
 ### -param lpPrimarySurf [out]
 
 Retrieves the primary surface associated with the DirectDraw object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -95,24 +84,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The procedure for configuring and using an application-defined DirectDraw Exclusive Mode object is described in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directdraw-exclusive-mode">DirectDraw Exclusive Mode</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterexclmodeconfig">IVMRImagePresenterExclModeConfig Interface</a>
 
@@ -123,7 +100,4 @@ The procedure for configuring and using an application-defined DirectDraw Exclus
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
 

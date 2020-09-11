@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: d91bb6b2-ecc8-4c16-95fc-c0cb7bbe80e3
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],Clear method, ID2D1CommandSink.Clear, ID2D1CommandSink::Clear, d2d1_1/ID2D1CommandSink::Clear, direct2d.id2d1commandsink_clear
-f1_keywords:
-- d2d1_1/ID2D1CommandSink.Clear
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1CommandSink.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandSink::Clear
+ - d2d1_1/ID2D1CommandSink::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandSink.Clear
 ---
 
 # ID2D1CommandSink::Clear
@@ -49,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Clears the drawing area to the specified color. 
-
-
-
+Clears the drawing area to the specified color.
 
 ## -parameters
-
-
-
 
 ### -param color [in, optional]
 
@@ -66,22 +60,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1
 
 The color to which the command sink should be cleared.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code. 
-
-
-
-
+If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The clear color is restricted by the currently selected clip and layer bounds.
 
@@ -93,12 +78,7 @@ If no color is specified, the color should be interpreted by context. Examples i
 <li>Containing no content (or white) for a printer page.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandlist-stream">ID2D1CommandList::Stream</a>
 
@@ -109,7 +89,4 @@ If no color is specified, the color should be interpreted by context. Examples i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">ID2D1RenderTarget::Clear</a>
- 
-
- 
 

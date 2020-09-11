@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 3e5a48dc-ccd5-41ea-a24b-5c40213abf38
 ms.date: 12/05/2018
 ms.keywords: BLACKONWHITE, COLORONCOLOR, HALFTONE, STRETCH_ANDSCANS, STRETCH_DELETESCANS, STRETCH_HALFTONE, STRETCH_ORSCANS, SetStretchBltMode, SetStretchBltMode function [Windows GDI], WHITEONBLACK, _win32_SetStretchBltMode, gdi.setstretchbltmode, wingdi/SetStretchBltMode
-f1_keywords:
-- wingdi/SetStretchBltMode
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- SetStretchBltMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetStretchBltMode
+ - wingdi/SetStretchBltMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - SetStretchBltMode
 ---
 
 # SetStretchBltMode function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetStretchBltMode</b> function sets the bitmap stretching mode in the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
-
 
 ### -param mode [in]
 
@@ -159,12 +154,8 @@ Performs a Boolean OR operation using the color values for the eliminated and ex
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the previous stretching mode.
 
@@ -189,14 +180,8 @@ One or more of the input parameters is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The stretching mode defines how the system combines rows or columns of a bitmap with existing pixels on a display device when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> function.
 
@@ -206,13 +191,7 @@ The HALFTONE mode is slower and requires more processing of the source image tha
 
 Additional stretching modes might also be available depending on the capabilities of the device driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -231,7 +210,4 @@ Additional stretching modes might also be available depending on the capabilitie
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
- 
-
- 
 

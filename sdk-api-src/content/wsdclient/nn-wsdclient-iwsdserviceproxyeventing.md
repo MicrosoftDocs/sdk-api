@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
-f1_keywords:
-- wsdclient/IWSDServiceProxyEventing
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDServiceProxyEventing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceProxyEventing
+ - wsdclient/IWSDServiceProxyEventing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDServiceProxyEventing
 ---
 
 # IWSDServiceProxyEventing interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a remote WSD service for client applications and middleware.  This interface allows for the implementation of multiple asynchronous operations.
-
 
 ## -inheritance
 
@@ -176,5 +175,5 @@ Cancels a collection of subscriptions to notifications or solicit/request events
 
 </td>
 </tr>
-</table> 
+</table>
 

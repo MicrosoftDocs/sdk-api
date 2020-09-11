@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f14e0593-0f03-4119-b80a-12d32b68aa99
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonState method, ITPhone.get_ButtonState, ITPhone::get_ButtonState, _tapi3_itphone_get_buttonstate, get_ButtonState, get_ButtonState method [TAPI 2.2], get_ButtonState method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonstate, tapi3if/ITPhone::get_ButtonState
-f1_keywords:
-- tapi3if/ITPhone.get_ButtonState
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPhone.get_ButtonState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPhone::get_ButtonState
+ - tapi3if/ITPhone::get_ButtonState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPhone.get_ButtonState
 ---
 
 # ITPhone::get_ButtonState
@@ -49,50 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_ButtonState</b> method retrieves the button state associated with a particular button.
 
 The application must call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> method before invoking this method; otherwise, the invocation fails.
 
-
 ## -parameters
-
-
-
 
 ### -param lButtonID [in]
 
 Button identifier.
-
 
 ### -param pButtonState [out]
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_state">PHONE_BUTTON_STATE</a> descriptor for the button's state.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_buttonstate">ITPhoneEvent::get_ButtonState</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setparent.htm
 ms.date: 12/05/2018
 ms.keywords: SetParent, SetParent function [Windows and Messages], _win32_SetParent, _win32_setparent_cpp, winmsg.setparent, winui._win32_setparent, winuser/SetParent
-f1_keywords:
-- winuser/SetParent
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetParent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetParent
+ - winuser/SetParent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetParent
 ---
 
 # SetParent function
@@ -59,46 +60,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-Changes the parent window of the specified child window. 
-
+Changes the parent window of the specified child window.
 
 ## -parameters
-
-
-
 
 ### -param hWndChild [in]
 
 Type: <b>HWND</b>
 
-A handle to the child window. 
-
+A handle to the child window.
 
 ### -param hWndNewParent [in, optional]
 
 Type: <b>HWND</b>
 
 A handle to the new parent window. If this parameter is <b>NULL</b>, the desktop window becomes the new parent window. 
-					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">message-only window</a>. 
-
+					 If this parameter is <b>HWND_MESSAGE</b>, the child window becomes a <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">message-only window</a>.
 
 ## -returns
-
-
 
 Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the previous parent window.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 An application can use the <b>SetParent</b> function to set the parent window of a pop-up, overlapped, or child window.
 
@@ -139,14 +126,7 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 
  For more information on DPI awareness, see <a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">the Windows High DPI documentation.</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -161,7 +141,4 @@ Unexpected behavior or errors may occur if <i>hWndNewParent</i> and <i>hWndChild
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

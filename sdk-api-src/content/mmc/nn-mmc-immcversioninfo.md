@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 13cc0cef-3548-4f9f-b150-4f13be23d0ca
 ms.date: 12/05/2018
 ms.keywords: IMMCVersionInfo, IMMCVersionInfo interface [MMC], IMMCVersionInfo interface [MMC],described, MMCVersionInfo, _slate_immcversioninfo, mmc.immcversioninfo, mmc/IMMCVersionInfo
-f1_keywords:
-- mmc/IMMCVersionInfo
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IMMCVersionInfo
-- MMCVersionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMCVersionInfo
+ - mmc/IMMCVersionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IMMCVersionInfo
+ - MMCVersionInfo
 ---
 
 # IMMCVersionInfo interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IMMCVersionInfo</b> interface provides version information about the installed MMC application.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Returns version information about the installed MMC application.
 
 </td>
 </tr>
-</table> 
+</table>
 

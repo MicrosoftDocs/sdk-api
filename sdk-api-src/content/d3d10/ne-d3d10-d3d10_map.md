@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_map.htm
 ms.date: 12/05/2018
 ms.keywords: 851d7498-d47c-94c7-f2ce-7635689c4642, D3D10_MAP, D3D10_MAP enumeration [Direct3D 10], D3D10_MAP_READ, D3D10_MAP_READ_WRITE, D3D10_MAP_WRITE, D3D10_MAP_WRITE_DISCARD, D3D10_MAP_WRITE_NO_OVERWRITE, d3d10/D3D10_MAP, d3d10/D3D10_MAP_READ, d3d10/D3D10_MAP_READ_WRITE, d3d10/D3D10_MAP_WRITE, d3d10/D3D10_MAP_WRITE_DISCARD, d3d10/D3D10_MAP_WRITE_NO_OVERWRITE, direct3d10.d3d10_map
-f1_keywords:
-- d3d10/D3D10_MAP
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D10.h
-api_name:
-- D3D10_MAP
 targetos: Windows
 req.typenames: D3D10_MAP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D10_MAP
+ - d3d10/D3D10_MAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D10.h
+api_name:
+ - D3D10_MAP
 ---
 
 # D3D10_MAP enumeration
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies a resource to be accessed for reading and writing by the CPU. Applications may combine one or more of these flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D10_MAP_READ
 
 Resource is mapped for reading. The resource must have been created with read access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_READ</a>).
 
-
 ### -field D3D10_MAP_WRITE
 
 Resource is mapped for writing. The resource must have been created with write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>).
-
 
 ### -field D3D10_MAP_READ_WRITE
 
 Resource is mapped for reading and writing. The resource must have been created with read and write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_READ and D3D10_CPU_ACCESS_WRITE</a>).
 
-
 ### -field D3D10_MAP_WRITE_DISCARD
 
 Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>).
-
 
 ### -field D3D10_MAP_WRITE_NO_OVERWRITE
 
 Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and index buffers. The resource must have been created with write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>). Cannot be used on a resource created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag">D3D10_BIND_CONSTANT_BUFFER</a> flag.
 
-
 ## -remarks
-
-
 
 This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-map">ID3D10Buffer::Map</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-map">ID3D10Texture1D::Map</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">ID3D10Texture2D::Map</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture3d-map">ID3D10Texture3D::Map</a>.
 
@@ -113,16 +102,7 @@ A common use of these two flags involves filling dynamic index/vertex buffers wi
 
 Subsequent writes to the buffer within the same frame should use D3D10_MAP_WRITE_NO_OVERWRITE. This will enable the CPU to access a resource that is potentially being used by the GPU as long as the restrictions described previously are respected.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-enums">Resource Enumerations</a>
- 
-
- 
 

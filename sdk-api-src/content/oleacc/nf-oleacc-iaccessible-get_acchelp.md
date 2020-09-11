@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accHelp method, IAccessible.get_accHelp, IAccessible::get_accHelp, _msaa_IAccessible_get_accHelp, get_accHelp, get_accHelp method [Windows Accessibility], get_accHelp method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelp, oleacc/IAccessible::get_accHelp, winauto.iaccessible_iaccessible__get_acchelp
-f1_keywords:
-- oleacc/IAccessible.get_accHelp
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accHelp
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accHelp
+ - oleacc/IAccessible::get_accHelp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accHelp
 ---
 
 # IAccessible::get_accHelp
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accHelp</b> method retrieves the <b>Help</b> property string of an object. Not all objects support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
@@ -64,17 +60,13 @@ Type: <b>VARIANT</b>
 
 Specifies whether the retrieved help information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about one of the object's child elements). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-
 ### -param pszHelp
 
 Type: <b>BSTR*</b>
 
 [out, retval] Address of a <b>BSTR</b> that receives the localized string that contains the help information for the specified object, or <b>NULL</b> if no help information is available.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -121,14 +113,8 @@ The object does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 None of the predefined and common controls support this property.
 
@@ -180,14 +166,7 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accHelp(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/help-property">Help Property</a>
 
@@ -206,7 +185,4 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accHelp(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 5aec93c5-12a1-4b4e-813e-ee1e85adbf14
 ms.date: 12/05/2018
 ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 11], CreateBuffer method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBuffer method, ID3D11Device.CreateBuffer, ID3D11Device::CreateBuffer, d3d11/ID3D11Device::CreateBuffer, direct3d11.id3d11device_createbuffer, e4ddf93d-90c3-2369-284d-e5d67efaf51e
-f1_keywords:
-- d3d11/ID3D11Device.CreateBuffer
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device.CreateBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device::CreateBuffer
+ - d3d11/ID3D11Device::CreateBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device.CreateBuffer
 ---
 
 # ID3D11Device::CreateBuffer
@@ -50,22 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).
 
-
 ## -parameters
-
-
-
 
 ### -param pDesc [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_desc">D3D11_BUFFER_DESC</a> structure that describes the buffer.
-          
-
 
 ### -param pInitialData [in, optional]
 
@@ -77,8 +71,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-
 
 If you don't pass anything to <i>pInitialData</i>, the initial content of the memory for the buffer is undefined.
               In this case, you need to write the buffer content some other way before the resource is read.
-            
-
 
 ### -param ppBuffer [out, optional]
 
@@ -86,25 +78,15 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a> interface for the buffer object created.
             Set this parameter to <b>NULL</b> to validate the other input parameters (<b>S_FALSE</b> indicates a pass).
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the buffer.
               See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
-            
-
-
-
 
 ## -remarks
-
-
 
 For example code, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-vertex-how-to">How to: Create a Vertex Buffer</a>,
           <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-index-how-to">How to: Create an Index Buffer</a> or 
@@ -130,11 +112,5 @@ On runtimes older than Direct3D 11.1, a call to **CreateBuffer** to request a co
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
- 
-
- 
 

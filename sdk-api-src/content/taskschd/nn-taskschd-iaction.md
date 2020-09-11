@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 50d60cf0-642a-43fe-9163-51740e75fa8d
 ms.date: 12/05/2018
 ms.keywords: IAction, IAction interface [Task Scheduler], IAction interface [Task Scheduler],described, taskschd.iaction, taskschd/IAction
-f1_keywords:
-- taskschd/IAction
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAction
+ - taskschd/IAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IAction
 ---
 
 # IAction interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the common properties inherited by all action objects. An action object is created by the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create">IActionCollection::Create</a> method.
 
-
 ## -remarks
-
-
 
 For more information about how actions and tasks work together, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-actions">Task Actions</a>. The following table contains the interfaces that represent the actions  that can be performed:<table>
 <tr>
@@ -100,12 +97,7 @@ For more information and a code example  for this interface, see <a href="https:
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
 
@@ -120,7 +112,4 @@ For more information and a code example  for this interface, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

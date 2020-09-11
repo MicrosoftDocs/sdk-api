@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302
 ms.date: 12/05/2018
 ms.keywords: '*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, URL_COMPONENTS, URL_COMPONENTS structure [HTTP], URL_COMPONENTSW, http.url_components, winhttp/URL_COMPONENTS, winhttp_url_components_structure'
-f1_keywords:
-- winhttp/URL_COMPONENTS
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winhttp.h
-api_name:
-- URL_COMPONENTS
 targetos: Windows
 req.typenames: URL_COMPONENTS, *LPURL_COMPONENTS
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - LPURL_COMPONENTS
+ - winhttp/LPURL_COMPONENTS
+ - URL_COMPONENTS
+ - winhttp/URL_COMPONENTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winhttp.h
+api_name:
+ - URL_COMPONENTS
 ---
 
 ## -description
@@ -159,3 +162,4 @@ For the
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
+

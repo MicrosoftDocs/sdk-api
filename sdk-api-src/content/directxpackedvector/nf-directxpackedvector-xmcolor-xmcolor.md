@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(), XMCOLOR::XMCOLOR, dxmath.xmcolor_ctor_1
-f1_keywords:
-- directxpackedvector/XMCOLOR.XMCOLOR
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMCOLOR.XMCOLOR
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMCOLOR::XMCOLOR
+ - directxpackedvector/XMCOLOR::XMCOLOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMCOLOR.XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR
 
 
 ## -description
-
 
 Default constructor for <code>XMCOLOR</code>
 
@@ -58,25 +58,12 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 <code>XMCOLOR()</code> constructs a new instance of the <code>XMCOLOR</code> structure without
 	defining the value of any of its members.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -87,7 +74,4 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
- 
-
- 
 

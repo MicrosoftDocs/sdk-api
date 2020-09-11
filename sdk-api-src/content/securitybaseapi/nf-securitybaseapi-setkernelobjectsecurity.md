@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2a70483e-245d-4bc7-b90a-58d143364ce1
 ms.date: 12/05/2018
 ms.keywords: SetKernelObjectSecurity, SetKernelObjectSecurity function [Security], _win32_setkernelobjectsecurity, security.setkernelobjectsecurity, securitybaseapi/SetKernelObjectSecurity
-f1_keywords:
-- securitybaseapi/SetKernelObjectSecurity
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- SetKernelObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetKernelObjectSecurity
+ - securitybaseapi/SetKernelObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - SetKernelObjectSecurity
 ---
 
 # SetKernelObjectSecurity function
@@ -56,21 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetKernelObjectSecurity</b> function sets the security of a kernel object. For example, this can be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>, thread, or event.<div class="alert"><b>Note</b>  This function should not be used when setting a security descriptor on file system objects. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> functions.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param Handle [in]
 
 A handle to a kernel object for which security information is set.
-
 
 ### -param SecurityInformation [in]
 
@@ -78,16 +72,12 @@ A set of
 bit flags that indicate the type of security information to set. This parameter can be a combination of the 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
-
 ### -param SecurityDescriptor [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
       
@@ -95,13 +85,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity">GetKernelObjectSecurity</a>
 
@@ -132,7 +116,4 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
- 
-
- 
 

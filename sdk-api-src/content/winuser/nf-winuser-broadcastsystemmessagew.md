@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessage.htm
 ms.date: 12/05/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessage, BroadcastSystemMessage function [Windows and Messages], BroadcastSystemMessageW, _win32_BroadcastSystemMessage, _win32_broadcastsystemmessage_cpp, winmsg.broadcastsystemmessage, winui._win32_broadcastsystemmessage, winuser/BroadcastSystemMessage, winuser/BroadcastSystemMessageW
-f1_keywords:
-- winuser/BroadcastSystemMessage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- BroadcastSystemMessage
-- BroadcastSystemMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BroadcastSystemMessageW
+ - winuser/BroadcastSystemMessageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - BroadcastSystemMessage
+ - BroadcastSystemMessageW
 ---
 
 # BroadcastSystemMessageW function
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a message to the specified recipients. The recipients can be applications, installable drivers, network drivers, system-level device drivers, or any combination of these system components. 
 
 			
 
 To receive additional information if the request is defined, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -174,8 +170,6 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpInfo [in, out, optional]
 
@@ -229,8 +223,6 @@ Broadcast to applications.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Msg [in]
 
@@ -240,24 +232,19 @@ The message to be sent.
 
 For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
-
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ## -returns
-
-
 
 Type: <b>long</b>
 
@@ -267,12 +254,7 @@ If the function is unable to broadcast the message, the return value is –1.
 
 If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <b>BSF_QUERY</b> is not specified, the function sends the specified message to all requested recipients, ignoring values returned by those recipients.
 
@@ -293,9 +275,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>
 
 
@@ -313,7 +292,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
- 
-
- 
 

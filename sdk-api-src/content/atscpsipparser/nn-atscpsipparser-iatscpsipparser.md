@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: dbe922b3-b843-4eaa-807d-5608cfbb9686
 ms.date: 12/05/2018
 ms.keywords: IAtscPsipParser, IAtscPsipParser interface [Microsoft TV Technologies], IAtscPsipParser interface [Microsoft TV Technologies],described, IAtscPsipParserInterface, atscpsipparser/IAtscPsipParser, mstv.iatscpsipparser
-f1_keywords:
-- atscpsipparser/IAtscPsipParser
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscPsipParser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscPsipParser
+ - atscpsipparser/IAtscPsipParser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscPsipParser
 ---
 
 # IAtscPsipParser interface
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
 The <b>IAtscPsipParser</b> interface retrieves ATSC Program and System Information Protocol (PSIP) tables.
-
-
-
 
 ## -inheritance
 
@@ -173,12 +169,9 @@ Initializes the ATSC PSIP parser.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the following CLSID:
 
@@ -192,16 +185,7 @@ This CLSID is not is not published in an SDK header; define a new GUID constant 
 
 You must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-initialize">Initialize</a> before calling any other methods on the object.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

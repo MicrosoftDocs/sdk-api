@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c14de79d-e844-49cf-ae70-6c3e417fab90
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], IOleInPlaceObject interface [COM],described, _ole_ioleinplaceobject, com.ioleinplaceobject, oleidl/IOleInPlaceObject
-f1_keywords:
-- oleidl/IOleInPlaceObject
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceObject
+ - oleidl/IOleInPlaceObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceObject
 ---
 
 # IOleInPlaceObject interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.
 
 You can obtain a pointer to <b>IOleInPlaceObject</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>.
-
 
 ## -inheritance
 
@@ -106,20 +105,13 @@ Deactivates and removes the user interface of an active in-place object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 18c223e7-38ce-4f20-818b-84bd4c7e0dfd
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],SaveCompleted method, IPersistStorage.SaveCompleted, IPersistStorage::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistStorage interface, _com_ipersiststorage_savecompleted, com.ipersiststorage_savecompleted, objidl/IPersistStorage::SaveCompleted
-f1_keywords:
-- objidl/IPersistStorage.SaveCompleted
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistStorage.SaveCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStorage::SaveCompleted
+ - objidl/IPersistStorage::SaveCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistStorage.SaveCompleted
 ---
 
 # IPersistStorage::SaveCompleted
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the object that it can write to its storage object. It does this by notifying the object that it can revert from NoScribble mode (in which it must not write to its storage object), to Normal mode (in which it can). The object enters NoScribble mode when it receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> call.
 
-
 ## -parameters
-
-
-
 
 ### -param pStgNew [in]
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the new storage object, if different from the storage object prior to saving. This pointer can be <b>NULL</b> if the current storage object does not change during the save operation. If the object is in HandsOff mode, this parameter must be non-<b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -120,14 +113,8 @@ The object is in Normal mode, and there was no previous call to <a href="https:/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method notifies an object that it can revert to Normal mode and can once again write to its storage object. The object exits NoScribble mode or HandsOff mode.
 
@@ -139,16 +126,7 @@ This method must recursively call any nested objects that are loaded or running.
 
 If this method returns an error code, the object is not returned to Normal mode. Thus, the container object can attempt different save strategies.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
- 
-
- 
 

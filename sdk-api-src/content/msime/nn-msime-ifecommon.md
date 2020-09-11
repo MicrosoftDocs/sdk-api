@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 9FBECA6F-F162-485D-938F-FADC2D47083E
 ms.date: 12/05/2018
 ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], IFECommon interface [Internationalization for Windows Applications],described, intl.ifecommon, msime/IFECommon
-f1_keywords:
-- msime/IFECommon
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFECommon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFECommon
+ - msime/IFECommon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFECommon
 ---
 
 # IFECommon interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFECommon</b> interface provides IME-related services that are common for different languages.
 
 <b>IFECommon</b> allows the developer to control very basic functions of IMEs.
-
 
 ## -inheritance
 
@@ -106,14 +105,9 @@ Allows the Microsoft IME to become the default IME in the keyboard layout.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Create an instance of this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-createifecommoninstance">CreateIFECommonInstance</a> function.
-
-
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: EA6AC3DD-5F13-442A-B93D-FF0A5333609A
 ms.date: 03/25/2020
 ms.keywords: IInkPicture, IInkPicture interface [Tablet PC], IInkPicture interface [Tablet PC],described, msinkaut/IInkPicture, tablet.iinkpicture
-f1_keywords:
-- msinkaut/IInkPicture
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkPicture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkPicture
+ - msinkaut/IInkPicture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkPicture
 ---
 
 # IInkPicture interface
+
 
 ## -description
 
@@ -955,8 +957,9 @@ Gets either the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [InkPicture Control](/windows/win32/tablet/inkpicture-control-reference)
+

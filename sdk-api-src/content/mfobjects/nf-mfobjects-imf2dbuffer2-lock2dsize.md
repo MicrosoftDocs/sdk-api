@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 84885FEF-7F6D-4BE3-BF63-F9EC0C7E2D88
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DBuffer2.Lock2DSize, IMF2DBuffer2::Lock2DSize, Lock2DSize, Lock2DSize method [Media Foundation], Lock2DSize method [Media Foundation],IMF2DBuffer2 interface, mf.imf2dbuffer2_lock2dsize, mfobjects/IMF2DBuffer2::Lock2DSize
-f1_keywords:
-- mfobjects/IMF2DBuffer2.Lock2DSize
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMF2DBuffer2.Lock2DSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMF2DBuffer2::Lock2DSize
+ - mfobjects/IMF2DBuffer2::Lock2DSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMF2DBuffer2.Lock2DSize
 ---
 
 # IMF2DBuffer2::Lock2DSize
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gives the caller access to the memory in the buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param lockFlags [in]
 
 A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf2dbuffer_lockflags">MF2DBuffer_LockFlags</a> enumeration that specifies whether to lock the buffer for reading, writing, or both.
 
-
 ### -param ppbScanline0 [out]
 
 Receives a pointer to the first byte of the top row of pixels in the image. The top row is defined as the top row when the image is presented to the viewer, and might not be the first row in memory.
-
-
-
 
 ### -param plPitch [out]
 
 Receives the surface stride, in bytes. The stride might be negative, indicating that the image is oriented from the bottom up in memory.
 
-
-
-
 ### -param ppbBufferStart [out]
 
 Receives a pointer to the start of the accessible buffer in memory.
-
 
 ### -param pcbBufferLength [out]
 
 Receives the length of the buffer, in bytes.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -132,14 +117,8 @@ There is insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you are done accessing the memory, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-unlock2d">IMF2DBuffer::Unlock2D</a> to unlock the buffer. You must call <b>Unlock2D</b> once for each call to <b>Lock2DSize</b>.
 
@@ -165,13 +144,7 @@ The <i>lockFlags</i> parameter specifies whether the buffer is locked for read-o
 </ul>
 When possible, use a read-only or write-only lock, and avoid locking the buffer for read/write access. If the buffer represents a DirectX Graphics Infrastructure (DXGI) surface, a read/write lock can cause an extra copy between CPU memory and GPU memory.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>
- 
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b4594400-29f2-47e2-8b4f-87ee82ea5e82
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSecurityDescriptor, GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security],ICspInformation interface, ICspInformation interface [Security],GetDefaultSecurityDescriptor method, ICspInformation.GetDefaultSecurityDescriptor, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor
-f1_keywords:
-- certenroll/ICspInformation.GetDefaultSecurityDescriptor
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformation.GetDefaultSecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformation::GetDefaultSecurityDescriptor
+ - certenroll/ICspInformation::GetDefaultSecurityDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformation.GetDefaultSecurityDescriptor
 ---
 
 # ICspInformation::GetDefaultSecurityDescriptor
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDefaultSecurityDescriptor</b> method retrieves the default private key security descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param MachineContext [in]
 
 A <b>VARIANT_BOOL</b> variable that indicates whether to retrieve the security descriptor for the computer or the user. Specify <b>VARIANT_TRUE</b> for the computer and <b>VARIANT_FALSE</b> for the user.
 
-
 ### -param pValue [out]
 
 Pointer to a  <b>BSTR</b> variable that contains the security descriptor.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -130,14 +122,8 @@ The cryptographic provider does not support security descriptors.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To use the security descriptor, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function included with the Microsoft Authorization API and specify the string returned by the <b>GetDefaultSecurityDescriptor</b> method. The function returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
@@ -151,16 +137,7 @@ This method retrieves the default security descriptor that will be associated wi
 
 Some cryptographic providers do not support security descriptors. Examples include smart card and hardware security module (HSM) providers.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
- 
-
- 
 

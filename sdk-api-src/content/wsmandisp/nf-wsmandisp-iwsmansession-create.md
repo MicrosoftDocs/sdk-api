@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 7e8b561e-c724-427b-88a0-34a6c8a9c6bd
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Remote Management], Create method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Create method, IWSManSession.Create, IWSManSession::Create, winrm.iwsmansession_create, wsmandisp/IWSManSession::Create
-f1_keywords:
-- wsmandisp/IWSManSession.Create
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManSession.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManSession::Create
+ - wsmandisp/IWSManSession::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManSession.Create
 ---
 
 # IWSManSession::Create
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new instance of a resource and returns the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">endpoint reference</a> (EPR) of the new object.
 
-
 ## -parameters
-
-
-
 
 ### -param resourceUri [in]
 
@@ -75,29 +71,19 @@ This parameter can contain one of the following:
 
 An XML string that contains resource content.
 
-
 ### -param flags [in]
 
 Reserved. Must be set to 0.
-
 
 ### -param newUri [out]
 
 The EPR of the new resource.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>IWSManSession::Create</b> is only used for creating new 
     instances of a resource. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">IWSManSession::Put</a> method to 
@@ -106,20 +92,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
     contains any properties that the resource provider assigns when creating the new object. For example, if you 
     create a new WS-Management protocol<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">listener</a> and retrieve the listener object using <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-get">Session.Get</a>, then you also obtain the <b>Port</b>, <b>Enabled</b>, and <b>ListeningOn</b> properties.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-create">Session.Create</a>
- 
-
- 
 

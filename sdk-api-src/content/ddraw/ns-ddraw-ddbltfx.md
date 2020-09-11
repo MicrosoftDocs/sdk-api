@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: a542434f-61d3-4c73-a087-ffb83a509c67
 ms.date: 12/05/2018
 ms.keywords: '*LPDDBLTFX, DDBLTFX, DDBLTFX structure [DirectDraw], DDBLTFX_ARITHSTRETCHY, DDBLTFX_MIRRORLEFTRIGHT, DDBLTFX_MIRRORUPDOWN, DDBLTFX_NOTEARING, DDBLTFX_ROTATE180, DDBLTFX_ROTATE270, DDBLTFX_ROTATE90, DDBLTFX_ZBUFFERBASEDEST, DDBLTFX_ZBUFFERRANGE, LPDDBLTFX, LPDDBLTFX structure pointer [DirectDraw], ddraw/DDBLTFX, ddraw/LPDDBLTFX, directdraw.ddbltfx'
-f1_keywords:
-- ddraw/DDBLTFX
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ddraw.h
-api_name:
-- DDBLTFX
 targetos: Windows
 req.typenames: DDBLTFX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDBLTFX
+ - ddraw/_DDBLTFX
+ - DDBLTFX
+ - ddraw/DDBLTFX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ddraw.h
+api_name:
+ - DDBLTFX
 ---
 
 # DDBLTFX structure
@@ -49,21 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DDBLTFX structure passes raster operations (ROPs), effects, and override information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> method. This structure is also part of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddbltbatch">DDBLTBATCH</a> structure that is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Size of the structure, in bytes. This member must be initialized before the structure is used.
-
 
 ### -field dwDDFX
 
@@ -123,155 +118,97 @@ Adds the <b>dwZBufferBaseDest</b> member to each of the source z-values before c
 
 Uses the <b>dwZBufferLow</b> and <b>dwZBufferHigh</b> members as range values to specify limits to the bits copied from a source surface during this z-bitblt.
 
-
 ### -field dwROP
 
 Win32 raster operations. You can retrieve a list of supported raster operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">IDirectDraw7::GetCaps</a> method.
-
 
 ### -field dwDDROP
 
 DirectDraw raster operations.
 
-
 ### -field dwRotationAngle
 
 Rotation angle for the bitblt.
-
 
 ### -field dwZBufferOpCode
 
 Z-buffer compares.
 
-
 ### -field dwZBufferLow
 
 Low limit of a z-buffer.
-
 
 ### -field dwZBufferHigh
 
 High limit of a z-buffer.
 
-
 ### -field dwZBufferBaseDest
 
 Destination base value of a z-buffer.
-
 
 ### -field dwZDestConstBitDepth
 
 Bit depth of the destination z-constant.
 
-
 ### -field DUMMYUNIONNAMEN.dwZDestConst
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.lpDDSZBufferDest
-
- 
-
 
 ### -field dwZSrcConstBitDepth
 
 Bit depth of the source z-constant.
 
-
 ### -field DUMMYUNIONNAMEN.dwZSrcConst
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.lpDDSZBufferSrc
-
- 
-
 
 ### -field dwAlphaEdgeBlendBitDepth
 
 Bit depth of the constant for an alpha edge blend.
 
-
 ### -field dwAlphaEdgeBlend
 
 Alpha constant used for edge blending.
-
 
 ### -field dwReserved
 
 Reserved
 
-
 ### -field dwAlphaDestConstBitDepth
 
 Bit depth of the destination alpha constant.
 
-
 ### -field DUMMYUNIONNAMEN.dwAlphaDestConst
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.lpDDSAlphaDest
-
- 
-
 
 ### -field dwAlphaSrcConstBitDepth
 
 Bit depth of the source alpha constant.
 
-
 ### -field DUMMYUNIONNAMEN.dwAlphaSrcConst
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.lpDDSAlphaSrc
 
- 
-
-
 ### -field DUMMYUNIONNAMEN
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwFillColor
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.dwFillDepth
-
- 
-
 
 ### -field DUMMYUNIONNAMEN.dwFillPixel
 
- 
-
-
 ### -field DUMMYUNIONNAMEN.lpDDSPattern
-
- 
-
 
 ### -field ddckDestColorkey
 
 Destination color key override.
 
-
 ### -field ddckSrcColorkey
 
 Source color key override.
 
-
 ### -field DUMMYUNIONNAMEN(1)
-
-
 
 #### dwZDestConst
 
@@ -283,10 +220,7 @@ Constant used as the z-buffer destination.
 
 Surface used as the z-buffer destination.
 
-
 ### -field DUMMYUNIONNAMEN(2)
-
-
 
 #### dwZSrcConst
 
@@ -298,10 +232,7 @@ Constant used as the z-buffer destination.
 
 Surface used as the z-buffer source.
 
-
 ### -field DUMMYUNIONNAMEN(3)
-
-
 
 #### dwAlphaDestConst
 
@@ -313,10 +244,7 @@ Constant used as the alpha channel destination.
 
 Surface used as the alpha channel destination.
 
-
 ### -field DUMMYUNIONNAMEN(4)
-
-
 
 #### dwAlphaSrcConst
 
@@ -328,10 +256,7 @@ Constant used as the alpha channel source.
 
 Surface used as the alpha channel source.
 
-
 ### -field DUMMYUNIONNAMEN(5)
-
-
 
 #### dwFillColor
 
@@ -355,14 +280,7 @@ Pixel value for RGBA or RGBZ fills. Applications that use RGBZ fills should use 
 
 Surface to use as a pattern. The pattern can be used in certain blit operations that combine a source and a destination.
 
-
 ## -remarks
 
-
-
 The unions in this structure have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
-
-
-
-
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: f99095e1-8e7f-47eb-9234-70f651ebf793
 ms.date: 12/05/2018
 ms.keywords: DrawnBox property [Tablet PC], DrawnBox property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],DrawnBox property, IInkRecognizerGuide.DrawnBox, IInkRecognizerGuide.put_DrawnBox, IInkRecognizerGuide::DrawnBox, IInkRecognizerGuide::get_DrawnBox, IInkRecognizerGuide::put_DrawnBox, InkRecognizerGuide.get_DrawnBox, InkRecognizerGuide.put_DrawnBox, f99095e1-8e7f-47eb-9234-70f651ebf793, msinkaut/IInkRecognizerGuide::DrawnBox, msinkaut/IInkRecognizerGuide::get_DrawnBox, msinkaut/IInkRecognizerGuide::put_DrawnBox, put_DrawnBox, tablet.inkrecognizerguide_drawnbox
-f1_keywords:
-- msinkaut/IInkRecognizerGuide.DrawnBox
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerGuide.DrawnBox
-- IInkRecognizerGuide.get_DrawnBox
-- IInkRecognizerGuide.put_DrawnBox
-- InkRecognizerGuide.get_DrawnBox
-- InkRecognizerGuide.put_DrawnBox
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerGuide::put_DrawnBox
+ - msinkaut/IInkRecognizerGuide::put_DrawnBox
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerGuide.DrawnBox
+ - IInkRecognizerGuide.get_DrawnBox
+ - IInkRecognizerGuide.put_DrawnBox
+ - InkRecognizerGuide.get_DrawnBox
+ - InkRecognizerGuide.put_DrawnBox
 ---
 
 # IInkRecognizerGuide::put_DrawnBox
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the box that is physically drawn on the tablet's screen and in which writing takes place.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The lines of the drawn box are visual cues that specify where writing can take place. The user normally writes within the boundaries of the lines.
 
@@ -76,13 +71,7 @@ Another box, the writing box, is the invisible box in which writing can actually
 
 The writing box specifies the boundaries of the ink to the recognizer.The drawn box is drawn using ink space  units, relative to the top left of the writing box.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
 
@@ -93,7 +82,4 @@ The writing box specifies the boundaries of the ink to the recognizer.The drawn 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>
- 
-
- 
 

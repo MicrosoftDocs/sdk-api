@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: f53d9ee0-3f4d-4a01-b953-98d168ad94cb
 ms.date: 12/05/2018
 ms.keywords: IADs, IADs interface [ADSI], IADs interface [ADSI],described, _ds_iads, adsi.iads, iads/IADs
-f1_keywords:
-- iads/IADs
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs
+ - iads/IADs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs
 ---
 
 # IADs interface
 
 
 ## -description
-
 
 The <b>IADs</b> interface defines the basic object features, that is, properties and methods, of any ADSI object. Examples of ADSI objects include users, computers, services, organization of user accounts and computers, file systems, and file service operations. Every ADSI object must support this interface, which serves to do the following:
 <ul>
@@ -58,7 +58,6 @@ The <b>IADs</b> interface defines the basic object features, that is, properties
 <li>Loads object's attributes to the property cache and commits changes to the persistent directory store</li>
 <li>Accesses and modifies the object's attribute values in the property cache</li>
 </ul>The <b>IADs</b> interface is designed to ensure that ADSI objects provide network administrators and directory service providers with a simple and consistent representation of various underlying directory services.
-
 
 ## -inheritance
 
@@ -243,5 +242,5 @@ Gets the ADsPath string to the schema class object for this object.
 
 </td>
 </tr>
-</table> 
+</table>
 

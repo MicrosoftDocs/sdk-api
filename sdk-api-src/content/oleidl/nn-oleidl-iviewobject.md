@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 4310c987-3542-4a59-a6fb-951143001741
 ms.date: 12/05/2018
 ms.keywords: IViewObject, IViewObject interface [COM], IViewObject interface [COM],described, _ole_iviewobject, com.iviewobject, oleidl/IViewObject
-f1_keywords:
-- oleidl/IViewObject
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IViewObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObject
+ - oleidl/IViewObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IViewObject
 ---
 
 # IViewObject interface
 
 
 ## -description
-
 
 Enables an object to display itself directly without passing a data object to the caller. In addition, this interface can create and manage a connection with an advise sink so the caller can be notified of changes in the view object.
 
@@ -57,7 +57,6 @@ The caller can request specific representations and specific target devices. For
 The <b>IViewObject</b> interface is similar to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>; except that <b>IViewObject</b> places a representation of the data onto a device context while <b>IDataObject</b> places the representation onto a transfer medium.
 
 Unlike most other interfaces, <b>IViewObject</b> cannot be marshaled to another process. This is because device contexts are only effective in the context of one process.
-
 
 ## -inheritance
 
@@ -128,5 +127,5 @@ Releases a drawing that was previously frozen using <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
+</table>
 

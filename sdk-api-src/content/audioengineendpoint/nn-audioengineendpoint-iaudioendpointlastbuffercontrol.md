@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 79f4b370-fd04-41a9-ad74-54f7edd084c2
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], IAudioEndpointLastBufferControl interface [Core Audio],described, audioengineendpoint/IAudioEndpointLastBufferControl, coreaudio.iaudioendpointlastbuffercontrol
-f1_keywords:
-- audioengineendpoint/IAudioEndpointLastBufferControl
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioengineendpoint.h
-api_name:
-- IAudioEndpointLastBufferControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointLastBufferControl
+ - audioengineendpoint/IAudioEndpointLastBufferControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioengineendpoint.h
+api_name:
+ - IAudioEndpointLastBufferControl
 ---
 
 # IAudioEndpointLastBufferControl interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides functionality to allow an offload stream client to notify  the endpoint that the last buffer has been sent only partially filled.
-
 
 ## -inheritance
 
@@ -86,25 +85,13 @@ Releases the output data pointer for the last buffer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 This is an optional interface on an endpoint.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
- 
-
- 
 

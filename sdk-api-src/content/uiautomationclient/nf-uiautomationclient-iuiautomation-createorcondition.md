@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 17e83b94-21f0-44b6-87be-3fc44b0dc5a0
 ms.date: 12/05/2018
 ms.keywords: CreateOrCondition, CreateOrCondition method [Windows Accessibility], CreateOrCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrCondition method, IUIAutomation.CreateOrCondition, IUIAutomation::CreateOrCondition, uiauto.uiauto_IUIAutomation_CreateOrCondition, uiauto_IUIAutomation_CreateOrCondition, uiautomationclient/IUIAutomation::CreateOrCondition, winauto.uiauto_IUIAutomation_CreateOrCondition
-f1_keywords:
-- uiautomationclient/IUIAutomation.CreateOrCondition
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.CreateOrCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::CreateOrCondition
+ - uiautomationclient/IUIAutomation::CreateOrCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.CreateOrCondition
 ---
 
 # IUIAutomation::CreateOrCondition
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a combination of two conditions where a match exists if either of the conditions is true. 
-
+Creates a combination of two conditions where a match exists if either of the conditions is true.
 
 ## -parameters
-
-
-
 
 ### -param condition1 [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A pointer to the first condition.
 
-
 ### -param condition2 [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>*</b>
 
 A pointer to the second condition.
-
 
 ### -param newCondition [out, retval]
 
@@ -78,31 +72,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 Receives a pointer to the combined condition.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>CreateOrCondition</b> method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the <i>condition1</i> and <i>condition2</i> pointers. This means you can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on those two pointers after the call to <b>CreateOrCondition</b> returns  without invalidating the pointer returned from <b>CreateOrCondition</b>. When you call <b>Release</b> on the pointer returned from  <b>CreateOrCondition</b>, UI Automation calls <b>Release</b> on the <i>condition1</i> and <i>condition2</i> pointers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createorconditionfromarray">CreateOrConditionFromArray</a>
 
@@ -137,7 +117,4 @@ The <b>CreateOrCondition</b> method calls <a href="https://docs.microsoft.com/wi
 
 
 <b>Reference</b>
- 
-
- 
 

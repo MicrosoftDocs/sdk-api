@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet3 interface [Direct Write]","GetFontSourceN
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceNameLength method, IDWriteFontSet3.GetFontSourceNameLength, IDWriteFontSet3::GetFontSourceNameLength, GetFontSourceNameLength, GetFontSourceNameLength method [Direct Write], GetFontSourceNameLength method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcenamelength, dwrite_3/IDWriteFontSet3::GetFontSourceNameLength
-f1_keywords:
-- dwrite_3/IDWriteFontSet3.GetFontSourceNameLength
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet3::GetFontSourceNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet3::GetFontSourceNameLength
+ - dwrite_3/IDWriteFontSet3::GetFontSourceNameLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet3::GetFontSourceNameLength
 ---
 
 ## -description
@@ -66,3 +67,4 @@ The length of the font source name for the specified font.
 ## -see-also
 
 [GetFontSourceName](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset3-getfontsourcename)
+

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::ResolveQueryData
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::ResolveQueryData
  - d3d12video/ID3D12VideoEncodeCommandList::ResolveQueryData
 dev_langs:
  - c++
@@ -63,8 +64,7 @@ The number of queries to resolve.
 
 ### -param pDestinationBuffer
 
-A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the destination buffer. The resource must be in the state [D3D12_RESOURCE_STATE_COPY_DEST](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states). 
-
+A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the destination buffer. The resource must be in the state [D3D12_RESOURCE_STATE_COPY_DEST](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ### -param AlignedDestinationBufferOffset
 

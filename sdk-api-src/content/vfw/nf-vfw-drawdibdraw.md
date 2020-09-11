@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
 ms.date: 12/05/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
-f1_keywords:
-- vfw/DrawDibDraw
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- DrawDibDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawDibDraw
+ - vfw/DrawDibDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - DrawDibDraw
 ---
 
 # DrawDibDraw function
@@ -49,87 +50,57 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DrawDibDraw</b> function draws a DIB to the screen.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hdd
 
 Handle to a DrawDib DC.
-          
-
 
 ### -param hdc
 
 Handle to the DC.
-          
-
 
 ### -param xDst
 
 The x-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner of the destination rectangle.
-          
-
 
 ### -param yDst
 
 The y-coordinate, in <b>MM_TEXT</b> client coordinates, of the upper left corner of the destination rectangle.
-          
-
 
 ### -param dxDst
 
 Width, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dxDst</i> is â€“1, the width of the bitmap is used.
 
-
 ### -param dyDst
 
 Height, in <b>MM_TEXT</b> client coordinates, of the destination rectangle. If <i>dyDst</i> is â€“1, the height of the bitmap is used.
-          
-
 
 ### -param lpbi
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB within <b>BITMAPINFOHEADER</b> follows the format and the <b>biHeight</b> member must be a positive value; <b>DrawDibDraw</b> will not draw inverted DIBs.
 
-
 ### -param lpBits
 
 Pointer to the buffer that contains the bitmap bits.
-          
-
 
 ### -param xSrc
 
 The x-coordinate, in pixels, of the upper left corner of the source rectangle. The coordinates (0,0) represent the upper left corner of the bitmap.
-          
-
 
 ### -param ySrc
 
 The y-coordinate, in pixels, of the upper left corner of the source rectangle. The coordinates (0,0) represent the upper left corner of the bitmap.
-          
-
 
 ### -param dxSrc
 
 Width, in pixels, of the source rectangle.
-          
-
 
 ### -param dySrc
 
 Height, in pixels, of the source rectangle.
-          
-
 
 ### -param wFlags
 
@@ -182,22 +153,12 @@ Applicable flags for drawing. The following values are defined.
 <td>Last buffered bitmap is to be redrawn. If drawing fails with this value, a buffered image is not available and a new image needs to be specified before the display can be updated.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
-          
-
-
-
 
 ## -remarks
-
-
 
 <b>DDF_DONTDRAW</b> causes <b>DrawDibDraw</b> to decompress but not display an image. A subsequent call to <b>DrawDibDraw</b> specifying <b>DDF_UPDATE</b> displays the image.
 
@@ -205,16 +166,7 @@ If the DrawDib DC does not have an off-screen buffer specified, specifying <b>DD
 
 Although they are set at different times, <b>DDF_UPDATE</b> and <b>DDF_DONTDRAW</b> can be used together to create composite images off-screen. When the off-screen image is complete, you can display the image by calling <b>DrawDibDraw</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
- 
-
- 
 

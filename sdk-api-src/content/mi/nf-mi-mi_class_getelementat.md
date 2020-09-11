@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: f5479cc7-e3f6-447f-a8f8-dc08f3babe54
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetElementAt, MI_Class_GetElementAt function [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_ASSOCIATION, MI_FLAG_BORROW, MI_FLAG_CLASS, MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_EXPENSIVE, MI_FLAG_IN, MI_FLAG_INDICATION, MI_FLAG_KEY, MI_FLAG_METHOD, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_PARAMETER, MI_FLAG_PROPERTY, MI_FLAG_READONLY, MI_FLAG_REFERENCE, MI_FLAG_REQUIRED, MI_FLAG_RESTRICTED, MI_FLAG_STATIC, MI_FLAG_STREAM, MI_FLAG_TERMINAL, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_FLAG_VERSION, mi/MI_Class_GetElementAt, wmi_v2.mi_class_getelementat
-f1_keywords:
-- mi/MI_Class_GetElementAt
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Class_GetElementAt
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_Class_GetElementAt
+ - mi/MI_Class_GetElementAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Class_GetElementAt
 ---
 
 # MI_Class_GetElementAt function
@@ -49,54 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets details of a class element based on the element index.
 
-
 ## -parameters
-
-
-
 
 ### -param self [in]
 
 A pointer to the class object from which the element is to be retrieved.
 
-
 ### -param index
 
 Zero-based index of the element to retrieve.
-
 
 ### -param name
 
 A pointer to the pointer to the variable to receive the returned name of the element.  The memory associated with the name is valid until the class object is deleted. When you have finished using the class object, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
 
-
 ### -param value [out, optional]
 
 A pointer to the variable to receive the returned default value for the element.  The value is valid for the lifetime of the class object; the value does not need to be deleted. If this information is not needed, pass <b>NULL</b> for this parameter.
-
 
 ### -param valueExists [out, optional]
 
 A pointer to the variable to receive the returned Boolean value that indicates whether a default value exits for the specified element. <b>MI_TRUE</b> if a default value exits; otherwise, <b>MI_FALSE</b>. If this information is not needed, pass <b>NULL</b> for this parameter.
 
-
 ### -param type [out, optional]
 
 A pointer to the variable to receive the returned value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_type">MI_Type</a> enumeration that specifies the data type. This parameter is optional. If this information is not needed, pass <b>NULL</b> for this parameter.
-
 
 ### -param referenceClass
 
 The class of the reference (if the element is a strongly typed reference) or the class name (if the element is a strongly typed embedded instance).
 
-
 ### -param qualifierSet [out, optional]
 
 A pointer to the variable that receives the returned qualifier set.  This parameter is optional. The qualifier set exists for the lifetime of the class object. If this information is not needed, pass <b>NULL</b> for this parameter.
-
 
 ### -param flags [out, optional]
 
@@ -279,21 +267,11 @@ A qualifier flavor that indicates that there may be different languages associat
 
 Three bits reserved by the infrastructure to handle future versioning changes.
 
-
 ## -returns
-
-
 
 This function returns MI_INLINE MI_Result.
 
-
-
-
 ## -remarks
 
-
-
 All element information is read-only. The information returned is valid until the class is deleted.
-
-
 

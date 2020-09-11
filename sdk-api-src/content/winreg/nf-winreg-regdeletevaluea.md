@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 4393b4ef-cd10-40d4-bb12-2d84e7cb7d3c
 ms.date: 12/05/2018
 ms.keywords: RegDeleteValue, RegDeleteValue function, RegDeleteValueA, RegDeleteValueW, _win32_regdeletevalue, base.regdeletevalue, winreg/RegDeleteValue, winreg/RegDeleteValueA, winreg/RegDeleteValueW
-f1_keywords:
-- winreg/RegDeleteValue
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegDeleteValue
-- RegDeleteValueA
-- RegDeleteValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegDeleteValueA
+ - winreg/RegDeleteValueA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegDeleteValue
+ - RegDeleteValueA
+ - RegDeleteValueW
 ---
 
 # RegDeleteValueA function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a named value from the specified registry key. Note that value names are not case sensitive.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -88,8 +84,6 @@ This handle is returned by the
    <b>HKEY_LOCAL_MACHINE</b>
    <b>HKEY_USERS</b></pre>
 
-
-
 ### -param lpValueName [in, optional]
 
 The registry value to be removed. If this parameter is <b>NULL</b> or an empty string, the value set by the 
@@ -101,23 +95,14 @@ The registry value to be removed. If this parameter is <b>NULL</b> or an empty s
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
 
@@ -128,9 +113,6 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 
 ## -remarks
 

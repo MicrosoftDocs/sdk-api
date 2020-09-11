@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: da756cd5-1dec-4d88-9c90-76dd263035eb
 ms.date: 12/05/2018
 ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCountersignatureEncodedEx, CryptMsgVerifyCountersignatureEncodedEx function [Security], _crypto2_cryptmsgverifycountersignatureencodedex, security.cryptmsgverifycountersignatureencodedex, wincrypt/CryptMsgVerifyCountersignatureEncodedEx
-f1_keywords:
-- wincrypt/CryptMsgVerifyCountersignatureEncodedEx
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgVerifyCountersignatureEncodedEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgVerifyCountersignatureEncodedEx
+ - wincrypt/CryptMsgVerifyCountersignatureEncodedEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgVerifyCountersignatureEncodedEx
 ---
 
 # CryptMsgVerifyCountersignatureEncodedEx function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgVerifyCountersignatureEncodedEx</b> function verifies that the <i>pbSignerInfoCounterSignature</i> parameter contains the encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the <b>encryptedDigest</b> field of the <i>pbSignerInfo</i> parameter structure. The signer can be a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>, or a chain context.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptProv [in, optional]
 
@@ -66,9 +62,6 @@ This parameter is not used and should be set to <b>NULL</b>.
 
 Unless there is a strong reason for passing in a specific cryptographic provider in <i>hCryptProv</i>, pass <b>NULL</b> to cause the default RSA or DSS provider to be used.
 
-
-
-
 ### -param dwEncodingType [in]
 
 The encoding type used. Currently, only X509_ASN_ENCODING and PKCS_7_ASN_ENCODING are being used; however, additional encoding types may be added in the future. For either current encoding type, use:  
@@ -76,26 +69,21 @@ The encoding type used. Currently, only X509_ASN_ENCODING and PKCS_7_ASN_ENCODIN
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
 
-
 ### -param pbSignerInfo [in]
 
 A pointer to the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the signer of the contents of a message to be countersigned.
-
 
 ### -param cbSignerInfo [in]
 
 The count, in bytes, of the encoded BLOB for the signer of the contents.
 
-
 ### -param pbSignerInfoCountersignature [in]
 
 A pointer to the encoded BLOB containing the countersigner information.
 
-
 ### -param cbSignerInfoCountersignature [in]
 
 The count, in bytes, of the encoded BLOB for the countersigner of the message.
-
 
 ### -param dwSignerType [in]
 
@@ -140,13 +128,10 @@ The structure that contains the signer information. The following table shows th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvSigner [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a chain context depending on the value of <i>dwSignerType</i>.
-
 
 ### -param dwFlags
 
@@ -171,17 +156,12 @@ Performs a strong signature check after successful signature verification. Set t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvExtra
 
 If you set the <i>dwFlags</i> parameter to <b>CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG</b>, set this parameter (<i>pvExtra</i>) to point to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the parameters used to check the signature strength.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -288,12 +268,7 @@ Propagated errors from the following functions might be returned.
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Countersigner verification is done using the PKCS #7 <b>SIGNERINFO</b> structure. The signature must contain the encrypted hash of the encryptedDigest field of <i>pbSignerInfo</i>.
 
@@ -307,12 +282,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>
 
@@ -327,7 +297,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

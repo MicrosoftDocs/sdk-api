@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 839eefea-f06d-412b-9637-4af01b783121
 ms.date: 12/05/2018
 ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcepresolvebinding, rpc.rpcepresolvebinding, rpcdce/RpcEpResolveBinding
-f1_keywords:
-- rpcdce/RpcEpResolveBinding
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcEpResolveBinding
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcEpResolveBinding
+ - rpcdce/RpcEpResolveBinding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcEpResolveBinding
 ---
 
 # RpcEpResolveBinding function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcEpResolveBinding</b> function resolves a partially-bound server binding handle into a fully-bound server binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Partially-bound server binding handle to resolve to a fully-bound server binding handle.
 
-
 ### -param IfSpec
 
 Stub-generated structure specifying the interface of interest.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -118,11 +110,7 @@ This was the wrong kind of binding for the operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls the 
 <b>RpcEpResolveBinding</b> function to resolve a partially-bound server binding handle into a fully-bound binding handle.
@@ -145,12 +133,7 @@ In neither the partially- nor the fully-bound binding case does the resolve-bind
 <b>RpcEpResolveBinding</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
@@ -177,7 +160,4 @@ In neither the partially- nor the fully-bound binding case does the resolve-bind
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>
- 
-
- 
 

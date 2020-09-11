@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 28479a55-7a25-4254-b27a-45e09b166dd5
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetProxyForUrlEx, WinHttpGetProxyForUrlEx function [WinHTTP], http.winhttpgetproxyforurlex, winhttp/WinHttpGetProxyForUrlEx
-f1_keywords:
-- winhttp/WinHttpGetProxyForUrlEx
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpGetProxyForUrlEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpGetProxyForUrlEx
+ - winhttp/WinHttpGetProxyForUrlEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpGetProxyForUrlEx
 ---
 
 # WinHttpGetProxyForUrlEx function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The  <b>WinHttpGetProxyForUrlEx</b> function retrieves the proxy data for the specified URL.
 
-
 ## -parameters
-
-
-
 
 ### -param hResolver [in]
 
 The WinHTTP resolver handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a> function.
 
-
 ### -param pcwszUrl [in]
 
 A pointer to a null-terminated Unicode string that contains a URL for which proxy information will be determined.
-
 
 ### -param pAutoProxyOptions [in]
 
 A pointer to a <a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options">WINHTTP_AUTOPROXY_OPTIONS</a> structure that specifies the auto-proxy options to use.
 
-
 ### -param pContext [in]
 
 Context data that will be passed to the completion callback function.
 
-
 ## -returns
-
-
 
 A status code indicating the result of the operation.
 
@@ -189,14 +179,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function implements the Web Proxy Auto-Discovery (WPAD) protocol for automatically configuring the proxy settings for an HTTP request. The WPAD protocol downloads a Proxy Auto-Configuration (PAC) file, which is a script that identifies the proxy server to use for a given target URL. PAC files are typically deployed by the IT department within a corporate network environment. The URL of the PAC file can either be specified explicitly or <b>WinHttpGetProxyForUrlEx</b> can be instructed to automatically discover the location of the PAC file on the local network.
 
@@ -219,6 +203,4 @@ Once a callback of status <b>WINHTTP_CALLBACK_STATUS_GETPROXYFORURL_COMPLETE</b>
 If the call fails after returning <b>ERROR_IO_PENDING</b> then a callback of <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> will be issued.
 
 This function always executes out-of-process.
-
-
 

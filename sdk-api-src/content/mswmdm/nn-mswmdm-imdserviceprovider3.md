@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 94d4c323-07a9-406b-84e1-89703d2a8d10
 ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider3, IMDServiceProvider3 interface [windows Media Device Manager], IMDServiceProvider3 interface [windows Media Device Manager],described, IMDServiceProvider3Interface, mswmdm/IMDServiceProvider3, wmdm.imdserviceprovider3
-f1_keywords:
-- mswmdm/IMDServiceProvider3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDServiceProvider3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDServiceProvider3
+ - mswmdm/IMDServiceProvider3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDServiceProvider3
 ---
 
 # IMDServiceProvider3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMDServiceProvider3</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2</a> interface by providing a method for setting the device enumeration preferences.
-
-
-
 
 ## -inheritance
 
@@ -80,20 +76,13 @@ Sets the device enumeration preferences.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

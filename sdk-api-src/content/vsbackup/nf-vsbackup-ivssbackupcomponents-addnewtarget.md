@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9a4e2638-f6e7-4264-997d-41880f23c981
 ms.date: 12/05/2018
 ms.keywords: AddNewTarget, AddNewTarget method [VSS], AddNewTarget method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddNewTarget method, IVssBackupComponents.AddNewTarget, IVssBackupComponents::AddNewTarget, _win32_ivssbackupcomponents_addnewtarget, base.ivssbackupcomponents_addnewtarget, vsbackup/IVssBackupComponents::AddNewTarget
-f1_keywords:
-- vsbackup/IVssBackupComponents.AddNewTarget
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AddNewTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AddNewTarget
+ - vsbackup/IVssBackupComponents::AddNewTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AddNewTarget
 ---
 
 # IVssBackupComponents::AddNewTarget
@@ -50,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AddNewTarget</b> method is used by a requester during a restore operation to indicate that the backup application plans to restore files to a new location.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 Globally unique identifier (GUID) of the writer class containing the files that are to receive a new target.
 
-
 ### -param ct [in]
 
 Identifies the type of the component. Refer to the documentation for 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for possible return values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -85,7 +79,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component containing the files that are to receive a new restore target. 
@@ -97,7 +90,6 @@ The string should not be <b>NULL</b> and should contain the same component name 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
-
 
 ### -param wszPath [in]
 
@@ -112,7 +104,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
 
-
 ### -param wszFileName [in]
 
 <b>Null</b>-terminated wide character string containing the file specification of the files to receive a new restore target. 
@@ -121,7 +112,6 @@ There is no requirement that the path end with a backslash ("\"). It is up to ap
 
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -133,7 +123,6 @@ Boolean indicating whether only the files in the directory defined by <i>wszPath
 For information on traversing mounted folders, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
-
 ### -param wszAlternatePath [in]
 
 <b>Null</b>-terminated wide character string containing the fully qualified path of the new restore target directory. 
@@ -142,10 +131,7 @@ The directory can be a local directory on the VSS machine, or it can be a file s
 
 UNC paths are supported.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -236,14 +222,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
@@ -274,13 +254,7 @@ Writers can determine if files have been restored to new locations by using the
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtarget">IVssComponent::GetNewTarget</a> methods.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -335,7 +309,4 @@ Writers can determine if files have been restored to new locations by using the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

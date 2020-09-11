@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: netvista
+f1_keywords:
+ - l2cmn
+ - l2cmn/l2cmn
 ---
 
 # L2Cmn.h header
 
 
 ## -description
-
 
 This header is used by Network Drivers, Windows Vista and Later. For more information, see:
 

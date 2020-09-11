@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: f97df853-fc40-4529-b8a5-27069863a9b9
 ms.date: 12/05/2018
 ms.keywords: EnumUILanguages, EnumUILanguages function [Internationalization for Windows Applications], EnumUILanguagesA, EnumUILanguagesW, MUI_ALL_INSTALLED_LANGUAGES, MUI_GROUP_POLICY, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LICENSED_LANGUAGES, _win32_EnumUILanguages, intl.enumuilanguages, winnls/EnumUILanguages, winnls/EnumUILanguagesA, winnls/EnumUILanguagesW
-f1_keywords:
-- winnls/EnumUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
-- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- EnumUILanguages
-- EnumUILanguagesA
-- EnumUILanguagesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumUILanguagesW
+ - winnls/EnumUILanguagesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+ - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - EnumUILanguages
+ - EnumUILanguagesA
+ - EnumUILanguagesW
 ---
 
 # EnumUILanguagesW function
@@ -59,19 +60,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the user interface languages that are available on the operating system and calls the callback function with every language in the list.
 
-
 ## -parameters
-
-
-
 
 ### -param lpUILanguageEnumProc [in]
 
 Pointer to an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca">EnumUILanguagesProc</a> callback function. <b>EnumUILanguages</b> calls this function repeatedly to enumerate the languages in the list.
-
 
 ### -param dwFlags [in]
 
@@ -151,15 +146,11 @@ the group policy.
 
 <b>Windows 2000, Windows XP, Windows Server 2003:</b> The application must set <i>dwFlags</i> to 0.
 
-
 ### -param lParam [in]
 
 Application-defined value.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -168,11 +159,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function enumerates the user interface languages that are available and, depending on the flag specified, licensed for use on the operating system. It passes language identifiers or language names, one at a time, to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca">EnumUILanguagesProc</a> callback function. The <b>EnumUILanguages</b> function continues to pass language identifiers or names to the callback function until the last language is found or the callback function returns <b>FALSE</b>.
 
@@ -206,9 +193,6 @@ characters in length. For example, en-US will be passed as "0409" and en as "000
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-uilanguage_enumproca">EnumUILanguagesProc</a>
 
 
@@ -226,7 +210,4 @@ characters in length. For example, en-US will be passed as "0409" and en as "000
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 338e7afc-d05b-4779-ae74-e9ee97e9e0ce
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_GET_REQUESTED_LOCALE, WSMAN_PLUGIN_PARAMS_LARGEST_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_MAX_ENVELOPE_SIZE, WSMAN_PLUGIN_PARAMS_REMAINING_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_TIMEOUT, WSManPluginGetOperationParameters, WSManPluginGetOperationParameters function [Windows Remote Management], winrm.wsmanplugingetoperationparameters, wsman/WSManPluginGetOperationParameters
-f1_keywords:
-- wsman/WSManPluginGetOperationParameters
-dev_langs:
-- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WsmSvc.dll
-api_name:
-- WSManPluginGetOperationParameters
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WSManPluginGetOperationParameters
+ - wsman/WSManPluginGetOperationParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WsmSvc.dll
+api_name:
+ - WSManPluginGetOperationParameters
 ---
 
 # WSManPluginGetOperationParameters function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets operational information for items such as time-outs and data restrictions that are associated with the operation. A plug-in should not use these parameters for anything other than informational purposes.
 
-
 ## -parameters
-
-
-
 
 ### -param requestDetails [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
-
 
 ### -param flags [in]
 
@@ -109,17 +104,11 @@ Specifies the language locale that was requested by the client for the operation
 
 Specifies the language locale of the data that was requested by the client.
 
-
 ### -param data [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object.
 
-
 ## -returns
 
-
-
 The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code. The following are the most common error codes:
-
-
 

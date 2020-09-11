@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOCK_VOLUME, FSCTL_LOCK_VOLUME control, FSCTL_LOCK_VOLUME control code [Files], _win32_fsctl_lock_volume, base.fsctl_lock_volume, fs.fsctl_lock_volume, winioctl/FSCTL_LOCK_VOLUME
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_LOCK_VOLUME"
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,13 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+f1_keywords:
+ - FSCTL_LOCK_VOLUME
+ - winioctl/FSCTL_LOCK_VOLUME
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,17 +43,12 @@ api_location:
  - WinIoCtl.h
 api_name:
  - FSCTL_LOCK_VOLUME
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
 ---
 
 # FSCTL_LOCK_VOLUME IOCTL
 
 
 ## -description
-
 
 Locks a volume if it is not in use. A locked volume can be accessed only through handles to the file object (*<i>hDevice</i>) that locks the volume. For more information, see the Remarks section.
 
@@ -71,66 +71,31 @@ To perform this operation, call the
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
 
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
@@ -138,12 +103,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
-
-
-
 ## -remarks
-
-
 
 The <i>hDevice</i> handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form: 
@@ -225,13 +185,7 @@ On CsvFs Lock Volume, PNP notification will be sent only on the node where the l
 
 After acquiring a lock on a CSV volume, you must close the handle used to lock that volume before opening a handle to the volume. Unlocking the volume by using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_unlock_volume">FSCTL_UNLOCK_VOLUME</a> is not sufficient.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -254,7 +208,4 @@ After acquiring a lock on a CSV volume, you must close the handle used to lock t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
 

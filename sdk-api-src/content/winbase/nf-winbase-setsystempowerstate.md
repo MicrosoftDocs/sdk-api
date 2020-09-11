@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 58cf4e29-2a2e-499a-85ce-0034f4323cfe
 ms.date: 12/05/2018
 ms.keywords: SetSystemPowerState, SetSystemPowerState function, _win32_setsystempowerstate, base.setsystempowerstate, winbase/SetSystemPowerState
-f1_keywords:
-- winbase/SetSystemPowerState
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- SetSystemPowerState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetSystemPowerState
+ - winbase/SetSystemPowerState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - SetSystemPowerState
 ---
 
 # SetSystemPowerState function
@@ -49,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SetSystemPowerState</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications written for Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setsuspendstate">SetSuspendState</a> instead.]
 
 Suspends the system by shutting power down. Depending on the <i>ForceFlag</i> 
     parameter, the function either suspends operation immediately or requests permission from all applications and 
     device drivers before doing so.
 
-
 ## -parameters
-
-
-
 
 ### -param fSuspend [in]
 
 If this parameter is <b>TRUE</b>, the system is suspended. If the parameter is 
       <b>FALSE</b>, the system hibernates.
 
-
 ### -param fForce [in]
 
 This parameter has no effect.
-	  
-
 
 ## -returns
-
-
 
 If power has been suspended and subsequently restored, the return value is nonzero.
 
 If the system was not suspended, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. To enable the 
     <b>SE_SHUTDOWN_NAME</b> privilege, use the 
@@ -109,13 +95,7 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
     information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
     Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmquerysuspend">PBT_APMQUERYSUSPEND</a>
 
@@ -138,7 +118,4 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
- 
-
- 
 

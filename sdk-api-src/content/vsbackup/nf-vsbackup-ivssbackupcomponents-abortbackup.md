@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
 ms.date: 12/05/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
-f1_keywords:
-- vsbackup/IVssBackupComponents.AbortBackup
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AbortBackup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AbortBackup
+ - vsbackup/IVssBackupComponents::AbortBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AbortBackup
 ---
 
 # IVssBackupComponents::AbortBackup
 
 
 ## -description
-
 
 The 
 <b>AbortBackup</b> method notifies VSS that a backup operation was terminated.
@@ -61,17 +61,9 @@ This method must be called if a backup operation terminates after the creation o
 If 
 <b>AbortBackup</b> is called and no shadow copy or backup operations are underway, it is ignored.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -128,25 +120,13 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>AbortBackup</b> generates an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">Abort</a> event, which is handled by each instance of each writer through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onabort">CVssWriter::OnAbort</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>
 
@@ -169,7 +149,4 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
- 
-
- 
 

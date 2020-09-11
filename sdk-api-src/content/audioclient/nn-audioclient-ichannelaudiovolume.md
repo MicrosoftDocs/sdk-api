@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 0d0a20dc-5e5a-49a7-adc9-20aacb88368a
 ms.date: 12/05/2018
 ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IChannelAudioVolume interface [Core Audio],described, audioclient/IChannelAudioVolume, coreaudio.ichannelaudiovolume
-f1_keywords:
-- audioclient/IChannelAudioVolume
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IChannelAudioVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChannelAudioVolume
+ - audioclient/IChannelAudioVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IChannelAudioVolume
 ---
 
 # IChannelAudioVolume interface
 
 
 ## -description
-
-
 
 The <b>IChannelAudioVolume</b> interface enables a client to control and monitor the volume levels for all of the channels in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-sessions">audio session</a> that the stream belongs to. This is the session that the client assigned the stream to during the call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method. The client obtains a reference to the <b>IChannelAudioVolume</b> interface on a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IChannelAudioVolume.
 
@@ -68,9 +67,6 @@ Typical audio applications do not modify the volume levels of sessions. Instead,
 When releasing an <b>IChannelAudioVolume</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <b>IAudioClient::GetService</b> that created the object.
 
 The <b>IChannelAudioVolume</b> interface controls the channel volumes in an audio session. An audio session is a collection of shared-mode streams. This interface does not work with exclusive-mode streams. For information about volume controls for exclusive-mode streams, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpointvolume-api">EndpointVolume API</a>.
-
-
-
 
 ## -inheritance
 
@@ -132,13 +128,9 @@ Sets the volume level for the specified channel in the session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -161,7 +153,4 @@ Sets the volume level for the specified channel in the session.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

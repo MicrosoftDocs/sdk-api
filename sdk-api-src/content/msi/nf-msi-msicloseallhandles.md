@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 5914e99b-4895-4d12-bb4e-14a377b2eac4
 ms.date: 12/05/2018
 ms.keywords: MsiCloseAllHandles, MsiCloseAllHandles function, _msi_msicloseallhandles, msi/MsiCloseAllHandles, setup.msicloseallhandles
-f1_keywords:
-- msi/MsiCloseAllHandles
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiCloseAllHandles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiCloseAllHandles
+ - msi/MsiCloseAllHandles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiCloseAllHandles
 ---
 
 # MsiCloseAllHandles function
@@ -49,30 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiCloseAllHandles</b> function closes all open installation handles allocated by the current thread. This is a diagnostic function and should not be used for cleanup.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 This function returns 0 if all handles are closed. Otherwise, the function returns the number of handles open prior to its call.
 
-
-
-
 ## -remarks
-
-
 
 <b>MsiCloseAllHandles</b> only closes handles allocated by the calling thread, and does not affect handles allocated by other threads, such as the install handle passed to custom actions.
 
@@ -80,16 +67,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a> function opens a handle to a package and the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function opens a handle to a product. These function are for use with functions that access the product database.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Handle Management Functions</a>
- 
-
- 
 

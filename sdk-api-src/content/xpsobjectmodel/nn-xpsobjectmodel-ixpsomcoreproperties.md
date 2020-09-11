@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 705ec9c7-5aa9-4fc5-ad2c-441cb545d056
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
-f1_keywords:
-- xpsobjectmodel/IXpsOMCoreProperties
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCoreProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCoreProperties
+ - xpsobjectmodel/IXpsOMCoreProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCoreProperties
 ---
 
 # IXpsOMCoreProperties interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface provides access to the metadata that is stored in the Core Properties part of the XPS document.
 
 The contents of the Core Properties part are described in  the 1st edition, Part 2, "Open Packaging Conventions," of <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>.
-
 
 ## -inheritance
 
@@ -409,22 +408,13 @@ Sets the <b>version</b> property.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The meaning and use of these properties is determined by the user or context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createcoreproperties">IXpsOMObjectFactory::CreateCoreProperties</a>
 
@@ -443,7 +433,4 @@ The meaning and use of these properties is determined by the user or context.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

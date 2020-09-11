@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 3ad704a1-8244-4c35-9dc6-0b4058c71caa
 ms.date: 05/06/2019
 ms.keywords: XMCOLOR structure [DirectX Math Support APIs],operator = method, XMCOLOR.operator =(const XMCOLOR&), XMCOLOR.operator-assign(XMCOLOR &&), XMCOLOR.operator=, XMCOLOR::operator-assign(XMCOLOR &&), XMCOLOR::operator=, dxmath.xmcolor_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMCOLOR structure, operator=
-f1_keywords:
-- directxpackedvector/XMCOLOR.operator =
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMCOLOR.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMCOLOR::operator=
+ - directxpackedvector/XMCOLOR::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMCOLOR.operator =
 ---
 
 # XMCOLOR::operator-assign(XMCOLOR &&)
+
 
 ## -description
 
@@ -67,3 +69,4 @@ Instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpacke
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <a href="https://msdn.microsoft.com/7dbba878-2f03-451f-b02b-75e531b6315b">operator = </a>
+

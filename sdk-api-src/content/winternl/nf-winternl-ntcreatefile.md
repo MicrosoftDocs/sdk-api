@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 82965665-8531-4cca-bf37-6044e154d43b
 ms.date: 12/05/2018
 ms.keywords: DELETE, FILE_APPEND_DATA, FILE_COMPLETE_IF_OPLOCKED, FILE_CREATE, FILE_CREATE_TREE_CONNECTION, FILE_DELETE_ON_CLOSE, FILE_DIRECTORY_FILE, FILE_EXECUTE, FILE_GENERIC_EXECUTE, FILE_GENERIC_READ, FILE_GENERIC_WRITE, FILE_LIST_DIRECTORY, FILE_NON_DIRECTORY_FILE, FILE_NO_EA_KNOWLEDGE, FILE_NO_INTERMEDIATE_BUFFERING, FILE_OPEN, FILE_OPEN_BY_FILE_ID, FILE_OPEN_FOR_BACKUP_INTENT, FILE_OPEN_IF, FILE_OPEN_REPARSE_POINT, FILE_OPEN_REQUIRING_OPLOCK, FILE_OVERWRITE, FILE_OVERWRITE_IF, FILE_RANDOM_ACCESS, FILE_READ_ATTRIBUTES, FILE_READ_DATA, FILE_READ_EA, FILE_RESERVE_OPFILTER, FILE_SEQUENTIAL_ONLY, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, FILE_SUPERSEDE, FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_TRAVERSE, FILE_WRITE_ATTRIBUTES, FILE_WRITE_DATA, FILE_WRITE_EA, FILE_WRITE_THROUGH, HANDLE RootDirectory, NtCreateFile, NtCreateFile function [Windows API], PSECURITY_DESCRIPTOR SecurityDescriptor, PSECURITY_QUALITY_OF_SERVICE SecurityQualityOfService, PUNICODE_STRING ObjectName, READ_CONTROL, SYNCHRONIZE, ULONG Attributes, ULONG Length, WRITE_DAC, WRITE_OWNER, winprog.ntcreatefile, winternl/NtCreateFile
-f1_keywords:
-- winternl/NtCreateFile
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: NtDll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtDll.dll
-api_name:
-- NtCreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtCreateFile
+ - winternl/NtCreateFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtDll.dll
+api_name:
+ - NtCreateFile
 ---
 
 # NtCreateFile function
 
 
 ## -description
-
 
 Creates a new file or directory, or opens an existing file, device, directory, or 
     volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="https://docs.microsoft.com/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
@@ -58,16 +58,11 @@ Creates a new file or directory, or opens an existing file, device, directory, o
 This function is the user-mode equivalent to the <b>ZwCreateFile</b> function documented in the 
     Windows Driver Kit (WDK).
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [out]
 
 A pointer to a variable that receives the file handle if the call is successful.
-
 
 ### -param DesiredAccess [in]
 
@@ -301,8 +296,6 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectAttributes [in]
 
@@ -396,8 +389,6 @@ Specifies the access rights a server should be given to the client's security co
 </td>
 </tr>
 </table>
- 
-
 
 ### -param IoStatusBlock [out]
 
@@ -420,7 +411,6 @@ A pointer to a variable that receives the final completion status and informatio
 The initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being 
       created, overwritten, or superseded.
 
-
 ### -param FileAttributes [in]
 
 The file attributes. Explicitly specified attributes are applied only when the file is created, superseded, 
@@ -430,7 +420,6 @@ The file attributes. Explicitly specified attributes are applied only when the f
       NtDdk.h. For a list of flags that can be used with 
       <b>NtCreateFile</b>, see 
       <b>CreateFile</b>.
-
 
 ### -param ShareAccess [in]
 
@@ -479,7 +468,6 @@ The file can be opened for delete access by other threads' calls to
  
 
 For more information, see the Windows SDK.
-
 
 ### -param CreateDisposition [in]
 
@@ -553,8 +541,6 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CreateOptions [in]
 
@@ -758,8 +744,6 @@ Complete this operation immediately with an alternate success code of <b>STATUS_
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EaBuffer [in]
 
@@ -773,22 +757,14 @@ Pointer to an EA buffer used to pass extended attributes.
 
 Length of the EA buffer.
 
-
 ## -returns
-
-
 
 <b>NtCreateFile</b> returns either 
       <b>STATUS_SUCCESS</b> or an appropriate error status. If it returns an error status, the 
       caller can find more information about the cause of the failure by checking the 
       <i>IoStatusBlock</i>. To simplify this check, an application can use the <b>NT_SUCCESS</b>, <b>NT_ERROR</b>, and <b>NT_WARNING</b> macros.
 
-
-
-
 ## -remarks
-
-
 
 The handle, given by <b>NtCreateFile</b>, can be used by 
     subsequent calls to manipulate data within the file or the file object's state or attributes.
@@ -943,6 +919,4 @@ Note that the WDK header file NtDef.h is necessary for many constant definitions
     <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
     NtDll.dll.
-
-
 

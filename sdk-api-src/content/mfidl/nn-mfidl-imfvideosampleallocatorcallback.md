@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
-f1_keywords:
-- mfidl/IMFVideoSampleAllocatorCallback
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFVideoSampleAllocatorCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoSampleAllocatorCallback
+ - mfidl/IMFVideoSampleAllocatorCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFVideoSampleAllocatorCallback
 ---
 
 # IMFVideoSampleAllocatorCallback interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an application to track video samples allocated by the enhanced video renderer (EVR).
 
 The stream sinks on the EVR expose this interface as a service. To get a pointer to the interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> method, using the <b>MR_VIDEO_ACCELERATION_SERVICE</b> service identifier.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Sets the  callback object that receives notification whenever a video sample is 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

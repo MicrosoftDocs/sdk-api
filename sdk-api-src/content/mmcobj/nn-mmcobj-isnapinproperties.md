@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: d3a7d7e0-25c3-4dfa-8984-ca9c91db8493
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties, ISnapinProperties interface [MMC], ISnapinProperties interface [MMC],described, _slate_isnapinproperties, mmc.isnapinproperties, mmcobj/ISnapinProperties
-f1_keywords:
-- mmcobj/ISnapinProperties
-dev_langs:
-- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcobj.h
-api_name:
-- ISnapinProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISnapinProperties
+ - mmcobj/ISnapinProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcobj.h
+api_name:
+ - ISnapinProperties
 ---
 
 # ISnapinProperties interface
 
 
 ## -description
-
 
 The 
 <b>ISnapinProperties</b> interface enables a snap-in to initialize the snap-in's properties and receive notification when a property is added, changed, or deleted.
@@ -60,7 +60,6 @@ The
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/snapin-object">SnapIn</a> object. The 
 <b>SnapIn</b> object is part of the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 automation object model</a>.
-
 
 ## -inheritance
 
@@ -105,5 +104,5 @@ Returns the names of the properties that the snap-in uses for configuration.
 
 </td>
 </tr>
-</table> 
+</table>
 

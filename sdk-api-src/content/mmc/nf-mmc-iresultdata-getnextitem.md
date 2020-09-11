@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 1123fa48-969c-4208-83f2-e8ef4f72f0bb
 ms.date: 12/05/2018
 ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IResultData interface, GetNextItem method [MMC],IResultData2 interface, IResultData interface [MMC],GetNextItem method, IResultData.GetNextItem, IResultData2 interface [MMC],GetNextItem method, IResultData2::GetNextItem, IResultData::GetNextItem, _slate_iresultdata_getnextitem, mmc.iresultdata_getnextitem, mmc/IResultData2::GetNextItem, mmc/IResultData::GetNextItem
-f1_keywords:
-- mmc/IResultData.GetNextItem
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IResultData.GetNextItem
-- IResultData2.GetNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultData::GetNextItem
+ - mmc/IResultData::GetNextItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IResultData.GetNextItem
+ - IResultData2.GetNextItem
 ---
 
 # IResultData::GetNextItem
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IResultData::GetNextItem</b> method gets the next item in the result view with the specified state flags set.
 
-
 ## -parameters
-
-
-
 
 ### -param item [in, out]
 
@@ -66,36 +62,19 @@ A pointer to a
 
 The <b>nIndex</b> member will be updated to the index of the found item (or –1, if none is found). The <b>bScopeItem</b> and <b>lParam</b> members will be set according to the found item.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 When applied to virtual lists, only the <b>LVIS_FOCUSED</b> and <b>LVIS_SELECTED</b> state flags can specified. The <b>lParam</b> member is always set to 0 (zero).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.date: 12/05/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
-f1_keywords:
-- comppkgsup/RegisterServerForPMP
-dev_langs:
-- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CompPkgSup.dll
-api_name:
-- RegisterServerForPMP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterServerForPMP
+ - comppkgsup/RegisterServerForPMP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CompPkgSup.dll
+api_name:
+ - RegisterServerForPMP
 ---
 
 # RegisterServerForPMP function
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.
 
-
 ## -parameters
-
-
-
 
 ### -param serverClassId
 
 The CLSID of the COM server to be registered.
 
-
 ### -param classFactory
 
 The class factory to be registered.
-
 
 ### -param token [out]
 
 Receives a pointer to a registration token that can be used to unregister the server with <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp">UnregisterServerForPMP</a>.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

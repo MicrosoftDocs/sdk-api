@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvReadCertCallback, PFN_CERT_STORE_PROV_READ_CERT, PFN_CERT_STORE_PROV_READ_CERT callback, PFN_CERT_STORE_PROV_READ_CERT callback function [Security], _crypto2_certstoreprovreadcertcallback, security.certstoreprovreadcertcallback, wincrypt/PFN_CERT_STORE_PROV_READ_CERT
-f1_keywords:
-- wincrypt/PFN_CERT_STORE_PROV_READ_CERT
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- PFN_CERT_STORE_PROV_READ_CERT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_CERT_STORE_PROV_READ_CERT
+ - wincrypt/PFN_CERT_STORE_PROV_READ_CERT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - PFN_CERT_STORE_PROV_READ_CERT
 ---
 
 # PFN_CERT_STORE_PROV_READ_CERT callback function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function that reads the provider's copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>. If one exists, a new certificate context is created. Currently not called directly by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> functions. However, it might be exported to support other providers.
 
-
 ## -parameters
-
-
-
 
 ### -param hStoreProv [in]
 
@@ -64,37 +60,25 @@ Provider-specific value returned in
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
 
-
 ### -param pStoreCertContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> of the certificate to be read.
 
-
 ### -param dwFlags [in]
 
 Reserved for future use and is set to zero.
-
 
 ### -param *ppProvCertContext [out]
 
 A pointer to a pointer to provider's copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>. The context will be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the certificate was successfully read.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -113,7 +97,4 @@ Returns <b>TRUE</b> if the certificate was successfully read.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
- 
-
- 
 

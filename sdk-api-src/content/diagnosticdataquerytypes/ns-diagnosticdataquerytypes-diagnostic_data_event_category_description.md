@@ -4,7 +4,7 @@ title: DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
 ms.topic: language-reference
-description: A resource that represents a category, defined by an identifier and a name. A category is an organizational construct to categorize records for a given producer. For example, "Browsing Data" could be a category for the producer "Microsoft Edge". 
+description: A resource that represents a category, defined by an identifier and a name. A category is an organizational construct to categorize records for a given producer. For example, "Browsing Data" could be a category for the producer "Microsoft Edge".
 tech.root: security
 targetos: Windows
 product: Windows
@@ -32,18 +32,26 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
  - DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
+f1_keywords:
+ - tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
+ - DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
+ - diagnosticdataquerytypes/DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
 ---
 
 ## -description
-A resource that represents a category, defined by an identifier and a name. A category is an organizational construct to categorize records for a given producer. For example, "Browsing Data" could be a category for the producer "Microsoft Edge".  
+
+A resource that represents a category, defined by an identifier and a name. A category is an organizational construct to categorize records for a given producer. For example, "Browsing Data" could be a category for the producer "Microsoft Edge".
 
 ## -struct-fields
 
 ### -field id
+
 Type: **[INT32](/windows/desktop/winprog/windows-data-types)**
 An identifier to identify this category.
 
 ### -field name
+
 Type: **[LPWSTR](/windows/desktop/winprog/windows-data-types)**
 The name of this category.
 

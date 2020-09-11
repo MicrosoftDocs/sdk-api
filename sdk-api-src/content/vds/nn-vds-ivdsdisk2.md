@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9fb8a08e-412d-415a-aa27-cc0180599903
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2, IVdsDisk2 interface, IVdsDisk2 interface,described, base.ivdsdisk2, vds/IVdsDisk2
-f1_keywords:
-- vds/IVdsDisk2
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsDisk2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsDisk2
+ - vds/IVdsDisk2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsDisk2
 ---
 
 # IVdsDisk2 interface
@@ -50,13 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method to set the SAN mode of a disk to offline  or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is supserseded by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdiskonline">IVdsDiskOnline</a> interface.</div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -82,5 +80,5 @@ Sets the SAN mode of a disk to offline or online.
 
 </td>
 </tr>
-</table> 
+</table>
 

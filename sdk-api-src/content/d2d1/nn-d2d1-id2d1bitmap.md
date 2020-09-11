@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: e58216ea-e6b5-450f-a0ea-b879aa5dff38
 ms.date: 12/05/2018
 ms.keywords: ID2D1Bitmap, ID2D1Bitmap interface [Direct2D], ID2D1Bitmap interface [Direct2D],described, d2d1/ID2D1Bitmap, direct2d.ID2D1Bitmap
-f1_keywords:
-- d2d1/ID2D1Bitmap
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Bitmap
+ - d2d1/ID2D1Bitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Bitmap
 ---
 
 # ID2D1Bitmap interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a bitmap that has been bound to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>.
-
 
 ## -inheritance
 
@@ -131,12 +130,9 @@ Returns the size, in device-independent pixels (DIPs), of the bitmap.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Creating_ID2D1Bitmap_Objects"></a><a id="creating_id2d1bitmap_objects"></a><a id="CREATING_ID2D1BITMAP_OBJECTS"></a>Creating ID2D1Bitmap Objects</h3>
 To create a bitmap, use one of the following methods of the render target on which the bitmap will be drawn: <ul>
@@ -160,12 +156,7 @@ For examples that show how to create an <b>ID2D1Bitmap</b> from a WIC bitmap, se
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a   Bitmap from a File</a>
 
@@ -180,7 +171,4 @@ For examples that show how to create an <b>ID2D1Bitmap</b> from a WIC bitmap, se
 
 
 <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
- 
-
- 
 

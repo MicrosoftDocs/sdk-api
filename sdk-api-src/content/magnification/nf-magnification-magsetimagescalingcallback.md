@@ -8,10 +8,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetimagescalingcallback.htm
 ms.date: 12/05/2018
 ms.keywords: MagSetImageScalingCallback, MagSetImageScalingCallback function [Magnification API], magapi.magapi_MagSetImageScalingCallback, magapi_MagSetImageScalingCallback, magnification/MagSetImageScalingCallback
-f1_keywords:
-- magnification/MagSetImageScalingCallback
-dev_langs:
-- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Magnification.dll
-api_name:
-- MagSetImageScalingCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MagSetImageScalingCallback
+ - magnification/MagSetImageScalingCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Magnification.dll
+api_name:
+ - MagSetImageScalingCallback
 ---
 
 # MagSetImageScalingCallback function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  The <b>MagSetImageScalingCallback</b> function is deprecated in Windows 7 and later, and should not be used in new applications.  There is no alternate functionality.</div>
 <div> </div>
 
 
 Sets the callback function for external image filtering and scaling.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -69,28 +64,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The handle of the magnification window.
 
-
 ### -param callback [in]
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a></b>
 
 The callback function, or <b>NULL</b> to remove a callback that was previously set.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
@@ -119,21 +105,11 @@ If no callback is registered, the magnification engine scales bitmaps by the tra
 Windows Presentation Foundation (WPF) bitmaps can be scaled automatically using flat, bilinear, bicubic filtering and 
 consequently do not use this callback mechanism.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetimagescalingcallback">MagGetImageScalingCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetimagescalingcallback">MagSetImageScalingCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 1143280b-4c92-44cf-8e2d-acd26527f264
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureCustomObjectEnumerator.MovePrevious, IOpcSignatureCustomObjectEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious, opc.iopcsignaturecustomobjectenumerator_moveprevious
-f1_keywords:
-- msopc/IOpcSignatureCustomObjectEnumerator.MovePrevious
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureCustomObjectEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureCustomObjectEnumerator::MovePrevious
+ - msopc/IOpcSignatureCustomObjectEnumerator::MovePrevious
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureCustomObjectEnumerator.MovePrevious
 ---
 
 # IOpcSignatureCustomObjectEnumerator::MovePrevious
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves the current position of the enumerator to the previous <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsignaturecustomobject">IOpcSignatureCustomObject</a>interface pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param hasPrevious [out, retval]
 
@@ -92,12 +88,8 @@ The current position of the enumerator has been moved past the beginning of the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,15 +145,8 @@ The current position already precedes the first item of the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -204,7 +189,4 @@ The current position already precedes the first item of the enumerator.
 
 
 <b>Reference</b>
- 
-
- 
 

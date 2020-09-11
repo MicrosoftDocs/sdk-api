@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: cb4adf31-504a-46ee-b05e-768bdfde4b8f
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureSequence, capCaptureSequence, capCaptureSequence macro [Windows Multimedia], multimedia.capcapturesequence, vfw/capCaptureSequence
-f1_keywords:
-- vfw/capCaptureSequence
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- capCaptureSequence
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - capCaptureSequence
+ - vfw/capCaptureSequence
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - capCaptureSequence
 ---
 
 # capCaptureSequence macro
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>capCaptureSequence</b> macro initiates streaming video and audio capture to a file. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-sequence">WM_CAP_SEQUENCE</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle to a capture window. 
-
+Handle to a capture window.
 
 ## -remarks
-
-
 
 If you want to alter the parameters controlling streaming capture, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro prior to starting the capture.
 
@@ -94,19 +84,11 @@ During streaming capture, the capture window can optionally issue notifications 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
- 
-
- 
 

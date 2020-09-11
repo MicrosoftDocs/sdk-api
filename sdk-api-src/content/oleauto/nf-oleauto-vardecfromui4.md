@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 16cc817f-f232-49ec-aa16-34e518d5cb31
 ms.date: 12/05/2018
 ms.keywords: VarDecFromUI4, VarDecFromUI4 function [Automation], _oa96_VarDecFromUI4, automat.vardecfromui4, oleauto/VarDecFromUI4
-f1_keywords:
-- oleauto/VarDecFromUI4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDecFromUI4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDecFromUI4
+ - oleauto/VarDecFromUI4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDecFromUI4
 ---
 
 # VarDecFromUI4 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned long value to a decimal value.
 
-
 ## -parameters
-
-
-
 
 ### -param ulIn [in]
 
 The value to convert.
 
-
 ### -param pdecOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

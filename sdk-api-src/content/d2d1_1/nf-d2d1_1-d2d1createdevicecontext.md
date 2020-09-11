@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 0e56d057-20a5-47b7-aec9-63c8e31f349b
 ms.date: 12/05/2018
 ms.keywords: D2D1CreateDeviceContext, D2D1CreateDeviceContext function [Direct2D], d2d1_1/D2D1CreateDeviceContext, direct2d.d2d1createdevicecontext
-f1_keywords:
-- d2d1_1/D2D1CreateDeviceContext
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- d2d1.dll
-api_name:
-- D2D1CreateDeviceContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1CreateDeviceContext
+ - d2d1_1/D2D1CreateDeviceContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - d2d1.dll
+api_name:
+ - D2D1CreateDeviceContext
 ---
 
 # D2D1CreateDeviceContext function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new Direct2D device context associated with a DXGI surface. 
-
+Creates a new Direct2D device context associated with a DXGI surface.
 
 ## -parameters
-
-
-
 
 ### -param dxgiSurface [in]
 
 The DXGI surface the Direct2D device context is associated with.
 
-
 ### -param creationProperties [in, optional]
 
 The properties to apply to the Direct2D device context.
-
 
 ### -param d2dDeviceContext [out]
 
 When this function returns, contains the address of a pointer to a Direct2D device context.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +88,8 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 <td>An invalid value was passed to the method.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function will also create a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a> that can be retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1resource-getfactory">ID2D1Resource::GetFactory</a>.
 
@@ -114,13 +99,7 @@ The DXGI device will be specified implicitly through <i>dxgiSurface</i>.
 
 If <i>creationProperties</i> are not specified, the Direct2D device will inherit its threading mode from the DXGI device implied by <i>dxgiSurface</i> and debug tracing will not be enabled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice">D2D1CreateDevice</a>
 
@@ -143,7 +122,4 @@ If <i>creationProperties</i> are not specified, the Direct2D device will inherit
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1resource-getfactory">ID2D1Resource::GetFactory</a>
- 
-
- 
 

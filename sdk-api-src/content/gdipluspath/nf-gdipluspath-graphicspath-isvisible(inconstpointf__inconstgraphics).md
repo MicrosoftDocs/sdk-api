@@ -7,10 +7,6 @@ helpviewer_keywords: ["GraphicsPath::IsVisible"]
 ms.assetid: 0065e994-f6a0-47ea-a6c0-ab496f90f061
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsVisible
-f1_keywords:
-- gdipluspath/GraphicsPath::IsVisible
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - GraphicsPath::IsVisible
+ - gdipluspath/GraphicsPath::IsVisible
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- GraphicsPath::IsVisible
+ - GraphicsPath::IsVisible
 ---
 
 # GraphicsPath::IsVisible
+
 
 ## -description
 
@@ -127,3 +129,4 @@ VOID IsVisibleExample(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+

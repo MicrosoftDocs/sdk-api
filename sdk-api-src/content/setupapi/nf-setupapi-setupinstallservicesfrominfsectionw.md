@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 25a937d3-29f4-46e8-91e5-e956fbe647d7
 ms.date: 12/05/2018
 ms.keywords: SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSection, SetupInstallServicesFromInfSection function [Setup API], SetupInstallServicesFromInfSectionA, SetupInstallServicesFromInfSectionW, _setupapi_setupinstallservicesfrominfsection, setup.setupinstallservicesfrominfsection, setupapi/SetupInstallServicesFromInfSection, setupapi/SetupInstallServicesFromInfSectionA, setupapi/SetupInstallServicesFromInfSectionW
-f1_keywords:
-- setupapi/SetupInstallServicesFromInfSection
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupInstallServicesFromInfSection
-- SetupInstallServicesFromInfSectionA
-- SetupInstallServicesFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupInstallServicesFromInfSectionW
+ - setupapi/SetupInstallServicesFromInfSectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupInstallServicesFromInfSection
+ - SetupInstallServicesFromInfSectionA
+ - SetupInstallServicesFromInfSectionW
 ---
 
 # SetupInstallServicesFromInfSectionW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the 
     Requirements section. It may be altered or unavailable in subsequent versions. SetupAPI should no longer be used 
@@ -69,22 +69,16 @@ A caller of this function is required to have access to the
     <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify 
     services.
 
-
 ## -parameters
-
-
-
 
 ### -param InfHandle [in]
 
 A handle to the INF file that contains the <b>Service</b> section.
 
-
 ### -param SectionName [in]
 
 The name of the <b>Service</b> section to process. You should use a null-terminated 
       string.
-
 
 ### -param Flags [in]
 
@@ -239,12 +233,8 @@ AddService section: Do not overwrite the given service's required privileges if 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. The function calls 
        <b>SetLastError</b> with ERROR_SUCCESS_REBOOT_REQUIRED if a reboot of the system is 
@@ -253,13 +243,7 @@ If the function succeeds, the return value is nonzero. The function calls
 If the function fails, the return value is 0 (zero). To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
@@ -278,9 +262,6 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa">SetupInstallServicesFromInfSectionEx</a>
- 
-
- 
 
 ## -remarks
 

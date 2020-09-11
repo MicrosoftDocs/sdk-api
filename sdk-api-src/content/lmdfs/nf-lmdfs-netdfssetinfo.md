@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: 5526afa7-82bc-47c7-99d6-44e41ef772b1
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, 103, 104, 105, 106, 107, 150, NetDfsSetInfo, NetDfsSetInfo function [Distributed File System], _win32_netdfssetinfo, dfs.netdfssetinfo, fs.netdfssetinfo, lmdfs/NetDfsSetInfo, netmgmt.netdfssetinfo
-f1_keywords:
-- lmdfs/NetDfsSetInfo
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetDfsSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetDfsSetInfo
+ - lmdfs/NetDfsSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetDfsSetInfo
 ---
 
 # NetDfsSetInfo function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or modifies information about a specific Distributed File System (DFS) root, root target, link, or link 
     target.
 
-
 ## -parameters
-
-
-
 
 ### -param DfsEntryPath [in]
 
@@ -89,19 +85,16 @@ or
 
 where the values of the names are the same as those described previously.
 
-
 ### -param ServerName [in, optional]
 
 Pointer to a string that specifies the DFS link target server name. This parameter is optional. For more 
       information, see the Remarks section.
-
 
 ### -param ShareName [in, optional]
 
 Pointer to a string that specifies the DFS link target share name. This may also be a share name with a 
       path relative to the share.  For example, "share1\mydir1\mydir2". This parameter is optional. For more 
       information, see the Remarks section.
-
 
 ### -param Level [in]
 
@@ -180,29 +173,20 @@ Set the comment, state, time-out information, and property flags for the DFS roo
 Set the security descriptor for a DFS link's reparse point. The <i>Buffer</i> parameter 
          points to a <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_150">DFS_INFO_150</a> structure.
 
-
 ### -param Buffer [in]
 
 Pointer to a buffer that specifies the data. The format of this data depends on the value of the 
       <i>Level</i> parameter. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The caller must have Administrator privilege on the DFS server. For more information about calling functions 
     that require administrator privileges, see 
@@ -273,14 +257,7 @@ void wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_100">DFS_INFO_100</a>
 
@@ -331,7 +308,4 @@ void wmain(int argc, wchar_t *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
- 
-
- 
 

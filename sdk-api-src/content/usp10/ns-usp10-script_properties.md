@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_PROPERTIES, SCRIPT_PROPERTIES structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_PROPERTIES_str, intl.script_properties, usp10/SCRIPT_PROPERTIES
-f1_keywords:
-- usp10/SCRIPT_PROPERTIES
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usp10.h
-api_name:
-- SCRIPT_PROPERTIES
 targetos: Windows
 req.typenames: SCRIPT_PROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCRIPT_PROPERTIES
+ - usp10/SCRIPT_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usp10.h
+api_name:
+ - SCRIPT_PROPERTIES
 ---
 
 # SCRIPT_PROPERTIES structure
@@ -49,23 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about special processing for each script.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field langid
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language identifier</a> for the language associated with the script. When a script is used for many languages, this member represents a default language. For example, Western script is represented by LANG_ENGLISH although it is also used for French, German, and other European languages.
-
 
 ### -field fNumeric
 
@@ -97,8 +88,6 @@ The script does not contain only digits and the other characters used in writing
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fComplex
 
@@ -130,8 +119,6 @@ The script contains no combining characters and requires no contextual shaping o
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNeedsWordBreaking
 
@@ -163,8 +150,6 @@ Word break placement is identified by scanning for characters marked by the <b>f
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNeedsCaretInfo
 
@@ -198,15 +183,12 @@ The language does not restrict caret placement to cluster boundaries.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bCharSet
 
 Nominal character set associated with the script. During creation of a font suitable for displaying the script, this character set can be used as the value of the <b>lfCharSet</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>.
 
 For a new script having no character set defined, the application should typically set <b>bCharSet</b> to DEFAULT_CHARSET. See the description of member <b>fAmbiguousCharSet</b>.
-
 
 ### -field fControl
 
@@ -238,8 +220,6 @@ Do not set only control characters in the script.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fPrivateUseArea
 
@@ -271,8 +251,6 @@ Do not use a private use area.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fNeedsCharacterJustify
 
@@ -304,8 +282,6 @@ Do not use character justification.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInvalidGlyph
 
@@ -337,8 +313,6 @@ Do not generate an invalid glyph to represent invalid sequences.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInvalidLogAttr
 
@@ -370,8 +344,6 @@ Do not mark invalid combinations for the script.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCDM
 
@@ -403,8 +375,6 @@ The script does not contain an item that includes combining diacritical marks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fAmbiguousCharSet
 
@@ -436,8 +406,6 @@ The script does not contain characters that are supported by more than one chara
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fClusterSizeVaries
 
@@ -469,8 +437,6 @@ Do not use a variable cluster size for contextual shaping.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fRejectInvalid
 
@@ -502,12 +468,8 @@ Do not reject invalid sequences.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 This structure is filled by the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a> function.
 
@@ -540,14 +502,7 @@ if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
 
@@ -598,7 +553,4 @@ if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
- 
-
- 
 

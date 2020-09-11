@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\iuicontextualui.htm
 ms.date: 12/05/2018
 ms.keywords: IUIContextualUI, IUIContextualUI interface [Windows Ribbon], IUIContextualUI interface [Windows Ribbon],described, scenicintent_IUIContextualUI, uiribbon/IUIContextualUI, windowsribbon.windowsribbon_iuicontextualui
-f1_keywords:
-- uiribbon/IUIContextualUI
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUIContextualUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIContextualUI
+ - uiribbon/IUIContextualUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUIContextualUI
 ---
 
 # IUIContextualUI interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IUIContextualUI</b> interface is implemented by the 
-				Ribbon framework and provides the core functionality for the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> View. 
-			
-
+				Ribbon framework and provides the core functionality for the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> View.
 
 ## -inheritance
 
@@ -80,12 +78,9 @@ Displays a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/win
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> is composed of two components: the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextmenu">ContextMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-minitoolbar">MiniToolbar</a> elements.
 			
@@ -108,19 +103,11 @@ The following screen shot shows the <a href="https://docs.microsoft.com/windows/
 
 <img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="./images/IUIContextualUI_Concepts.png"/>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-contextpopupsample">ContextPopup Sample</a>
- 
-
- 
 

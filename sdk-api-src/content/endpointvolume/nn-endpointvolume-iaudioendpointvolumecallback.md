@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 0b631d1b-f89c-4789-a09c-875b24a48a89
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interface [Core Audio], IAudioEndpointVolumeCallback interface [Core Audio],described, coreaudio.iaudioendpointvolumecallback, endpointvolume/IAudioEndpointVolumeCallback
-f1_keywords:
-- endpointvolume/IAudioEndpointVolumeCallback
-dev_langs:
-- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Endpointvolume.h
-api_name:
-- IAudioEndpointVolumeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointVolumeCallback
+ - endpointvolume/IAudioEndpointVolumeCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Endpointvolume.h
+api_name:
+ - IAudioEndpointVolumeCallback
 ---
 
 # IAudioEndpointVolumeCallback interface
 
 
 ## -description
-
-
 
 The <b>IAudioEndpointVolumeCallback</b> interface provides notifications of changes in the volume level and muting state of an audio endpoint device. Unlike the other interfaces in this section, which are implemented by the WASAPI system component, an EndpointVolume API client implements the <b>IAudioEndpointVolumeCallback</b> interface. To receive event notifications, the client passes a pointer to its <b>IAudioEndpointVolumeCallback</b> interface to the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify">IAudioEndpointVolume::RegisterControlChangeNotify</a> method.
 
@@ -93,9 +92,6 @@ In implementing the <b>IAudioEndpointVolumeCallback</b> interface, the client sh
 </ul>
 For a code example that implements the <b>IAudioEndpointVolumeCallback</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-volume-controls">Endpoint Volume Controls</a>.
 
-
-
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointVolumeCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointVolumeCallback</b> also has these types of members:
@@ -120,13 +116,9 @@ Notifies the client that the volume level or muting state of the audio endpoint 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -141,7 +133,4 @@ Notifies the client that the volume level or muting state of the audio endpoint 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify">IAudioEndpointVolume::UnregisterControlChangeNotify</a>
- 
-
- 
 

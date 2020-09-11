@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 43467E09-835B-4DB9-B0A4-F75868DE4609
 ms.date: 12/05/2018
 ms.keywords: GetResourceAllocationInfo, GetResourceAllocationInfo method, GetResourceAllocationInfo method,ID3D12Device interface, ID3D12Device interface,GetResourceAllocationInfo method, ID3D12Device.GetResourceAllocationInfo, ID3D12Device::GetResourceAllocationInfo, d3d12/ID3D12Device::GetResourceAllocationInfo, direct3d12.id3d12device_getresourceallocationinfo
-f1_keywords:
-- d3d12/ID3D12Device.GetResourceAllocationInfo
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.GetResourceAllocationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::GetResourceAllocationInfo
+ - d3d12/ID3D12Device::GetResourceAllocationInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.GetResourceAllocationInfo
 ---
 
 ## -description
@@ -67,7 +68,7 @@ The number of resource descriptors in the *pResourceDescs* array.
 Type: **const [D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc)\***
 
 An array of **D3D12_RESOURCE_DESC** structures that described the resources to get info about.
-          
+
 ## -returns
 
 Type: **[D3D12_RESOURCE_ALLOCATION_INFO](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)**
@@ -89,3 +90,4 @@ When multiple resource descriptions are passed in, the C++ algorithm for calcula
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
+

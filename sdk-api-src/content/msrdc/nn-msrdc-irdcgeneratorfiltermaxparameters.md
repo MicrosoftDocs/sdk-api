@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 6767ab24-2bb6-48bf-8f12-794d8b22e2b7
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression], IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],described, fs.irdcgeneratorfiltermaxparameters, msrdc/IRdcGeneratorFilterMaxParameters, rdc.irdcgeneratorfiltermaxparameters
-f1_keywords:
-- msrdc/IRdcGeneratorFilterMaxParameters
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcGeneratorFilterMaxParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcGeneratorFilterMaxParameters
+ - msrdc/IRdcGeneratorFilterMaxParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcGeneratorFilterMaxParameters
 ---
 
 # IRdcGeneratorFilterMaxParameters interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcGeneratorFilterMaxParameters</b> 
     interface sets and retrieves parameters used by the FilterMax generator.
-
 
 ## -inheritance
 
@@ -101,20 +100,13 @@ Sets the hash window size—the size of the sliding window used by the
 Sets the horizon size—the length over which the FilterMax generator looks 
     for local maxima.</p> (Inherited from <b>IRdcGeneratorFilterMaxParameters</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
-f1_keywords:
-- gpmgmt/IGPMStatusMessage
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMStatusMessage
-- GPMStatusMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMStatusMessage
+ - gpmgmt/IGPMStatusMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMStatusMessage
+ - GPMStatusMessage
 ---
 
 # IGPMStatusMessage interface
@@ -50,10 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IGPMStatusMessage</b> interface contains property methods that retrieve various properties of status messages related to GPO operations.
-
 
 ## -inheritance
 
@@ -144,13 +143,9 @@ Name of the policy setting that was being processed when the message was generat
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -161,7 +156,4 @@ Name of the policy setting that was being processed when the message was generat
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
- 
-
- 
 

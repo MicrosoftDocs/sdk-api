@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 207435a6-0b16-49d9-a366-878331732a14
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SetSessionKey method, CSecureChannelServer.SetSessionKey, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
-f1_keywords:
-- scserver/CSecureChannelServer.SetSessionKey
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.SetSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::SetSessionKey
+ - scserver/CSecureChannelServer::SetSessionKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.SetSessionKey
 ---
 
 # CSecureChannelServer::SetSessionKey
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetSessionKey</b> method sets the session key that is used to communicate with another component. This method is published and available, but normally is used only by Windows Media Device Manager.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbSPSessionKey [in]
 
 Pointer to the first byte of the session key that is to be set. The key is used for encryption and decryption.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -100,22 +90,12 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/bb231602(v=vs.85)">CSecureChannelServer::GetSessionKey</a>
- 
-
- 
 

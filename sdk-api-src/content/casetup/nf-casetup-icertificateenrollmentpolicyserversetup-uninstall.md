@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3E53903A-B716-45E7-B0EB-0D1226291275
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],UnInstall method, ICertificateEnrollmentPolicyServerSetup.UnInstall, ICertificateEnrollmentPolicyServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall, security.icertificateenrollmentpolicyserversetup_uninstall
-f1_keywords:
-- casetup/ICertificateEnrollmentPolicyServerSetup.UnInstall
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentPolicyServerSetup.UnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentPolicyServerSetup::UnInstall
+ - casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentPolicyServerSetup.UnInstall
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::UnInstall
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>UnInstall</b> method removes the Certificate Enrollment Policy (CEP) Web Service.
 
-
 ## -parameters
-
-
-
 
 ### -param pAuthKeyBasedRenewal [in, optional]
 
@@ -74,11 +70,7 @@ You can set the following values for authentication type  in the first element o
 </li>
 </ul>The second (optional) element in the array value is <b>VARIANT_TRUE</b> for a KeyBasedRenewal CEP.
 
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -112,14 +104,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can call this method to remove the CEP service. However, because you cannot call the <b>UnInstall</b> method on an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a> object that has already been initialized, you must create a new <b>ICertificateEnrollmentPolicyServerSetup</b> before calling <b>UnInstall</b>.
 
@@ -142,13 +128,7 @@ Attempts to update the security descriptor of the Deleted Objects container in A
 </ul>
 When the <i>pAuthKeyBasedRenewal</i> parameter contains values for the authentication type and KeyBasedRenewal, this function performs the actions in the previous list but it only deletes the application that corresponds to the values set in <i>pAuthKeyBasedRenewal</i> and leaves other applications in place.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
 
@@ -159,7 +139,4 @@ When the <i>pAuthKeyBasedRenewal</i> parameter contains values for the authentic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-install">Install</a>
- 
-
- 
 

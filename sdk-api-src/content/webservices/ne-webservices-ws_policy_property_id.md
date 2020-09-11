@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 503d39c0-7546-429d-b8e3-66e80c76b7c1
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_PROPERTY_ID, WS_POLICY_PROPERTY_ID enumeration [Web Services for Windows], WS_POLICY_PROPERTY_MAX_ALTERNATIVES, WS_POLICY_PROPERTY_MAX_DEPTH, WS_POLICY_PROPERTY_MAX_EXTENSIONS, WS_POLICY_PROPERTY_STATE, webservices/WS_POLICY_PROPERTY_ID, webservices/WS_POLICY_PROPERTY_MAX_ALTERNATIVES, webservices/WS_POLICY_PROPERTY_MAX_DEPTH, webservices/WS_POLICY_PROPERTY_MAX_EXTENSIONS, webservices/WS_POLICY_PROPERTY_STATE, wsw.ws_policy_property_id
-f1_keywords:
-- webservices/WS_POLICY_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_POLICY_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_POLICY_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_POLICY_PROPERTY_ID
+ - webservices/WS_POLICY_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_POLICY_PROPERTY_ID
 ---
 
 # WS_POLICY_PROPERTY_ID enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies each policy property and its associated
                 value.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_POLICY_PROPERTY_STATE
 
@@ -66,7 +61,6 @@ This property is used with <a href="https://docs.microsoft.com/windows/desktop/a
                  It is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_policy_state">WS_POLICY_STATE</a>.
 
 The current state of the policy object.
-
 
 ### -field WS_POLICY_PROPERTY_MAX_ALTERNATIVES
 
@@ -88,8 +82,6 @@ When a policy is processed, the amount of memory allocated
                 
 
 The default value is 32.
-                
-
 
 ### -field WS_POLICY_PROPERTY_MAX_DEPTH
 
@@ -110,8 +102,6 @@ A small amount of stack space is consumed for each level of
                 
 
 The default value is 32.
-                
-
 
 ### -field WS_POLICY_PROPERTY_MAX_EXTENSIONS
 
@@ -136,5 +126,4 @@ When a policy is processed, the amount of memory allocated
                     of alternatives due to the expansion of different permutations
                     of assertions.  Setting this property to a large
                     value may lead to excessive processing or memory consumption.
-                
 

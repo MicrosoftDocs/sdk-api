@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: c358ea97-c42e-4912-a4e4-9a30935bd95b
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],SetTransform method, ID2D1RenderTarget.SetTransform, ID2D1RenderTarget::SetTransform, ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F), SetTransform, SetTransform method [Direct2D], SetTransform method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::SetTransform, direct2d.ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F
-f1_keywords:
-- d2d1/ID2D1RenderTarget.SetTransform
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::SetTransform
+ - d2d1/ID2D1RenderTarget::SetTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.SetTransform
 ---
 
 # ID2D1RenderTarget::SetTransform
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.
 
-
 ## -parameters
-
-
-
 
 ### -param transform [in]
 
@@ -64,11 +60,7 @@ Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3
 
 The transform to apply to the render target.
 
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/how-to-apply-multiple-transforms">How to Apply Multiple Transforms to an Object</a>
 
@@ -95,7 +87,4 @@ The transform to apply to the render target.
 
 
 <a href="/windows/win32/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
- 
-
- 
 

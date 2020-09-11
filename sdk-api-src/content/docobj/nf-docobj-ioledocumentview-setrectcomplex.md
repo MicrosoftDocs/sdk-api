@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d220b200-85cb-43ff-a59d-147c14eef544
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRectComplex method, IOleDocumentView.SetRectComplex, IOleDocumentView::SetRectComplex, SetRectComplex, SetRectComplex method [COM], SetRectComplex method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrectcomplex, com.ioledocumentview_setrectcomplex, docobj/IOleDocumentView::SetRectComplex
-f1_keywords:
-- docobj/IOleDocumentView.SetRectComplex
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.SetRectComplex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::SetRectComplex
+ - docobj/IOleDocumentView::SetRectComplex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.SetRectComplex
 ---
 
 # IOleDocumentView::SetRectComplex
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the rectangular coordinates of the viewport, scroll bars, and size box.
 
-
 ## -parameters
-
-
-
 
 ### -param prcView [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the viewport.
 
-
 ### -param prcHScroll [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the horizontal scroll bar.
-
 
 ### -param prcVScroll [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the vertical scroll bar.
 
-
 ### -param prcSizeBox [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the size box.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -112,14 +102,8 @@ The document object that owns this view does not support complex rectangles.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 View frames that support a workbook metaphor, in which a single document comprises multiple sheets or pages, typically call this method to set the coordinates to be used in common by all the sheets or pages.
 
@@ -135,20 +119,11 @@ Upon receiving a call to this method, a view should resize itself to fit the coo
 
 This method is defined with the [input_sync] attribute, which means that the implementing object cannot yield or make another, non input_sync RPC call while executing this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
- 
-
- 
 

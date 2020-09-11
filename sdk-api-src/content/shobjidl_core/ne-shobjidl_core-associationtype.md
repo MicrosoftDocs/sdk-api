@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3dbbe748-5e83-4103-932a-b51a2a55f9fd
 ms.date: 12/05/2018
 ms.keywords: ASSOCIATIONTYPE, ASSOCIATIONTYPE enumeration [Windows Shell], AT_FILEEXTENSION, AT_MIMETYPE, AT_STARTMENUCLIENT, AT_URLPROTOCOL, _shell_ASSOCIATIONTYPE, shell.ASSOCIATIONTYPE, shobjidl_core/ASSOCIATIONTYPE, shobjidl_core/AT_FILEEXTENSION, shobjidl_core/AT_MIMETYPE, shobjidl_core/AT_STARTMENUCLIENT, shobjidl_core/AT_URLPROTOCOL
-f1_keywords:
-- shobjidl_core/ASSOCIATIONTYPE
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- ASSOCIATIONTYPE
 targetos: Windows
 req.typenames: ASSOCIATIONTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ASSOCIATIONTYPE
+ - shobjidl_core/ASSOCIATIONTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ASSOCIATIONTYPE
 ---
 
 # ASSOCIATIONTYPE enumeration
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the type of association for an application. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field AT_FILEEXTENSION
 
 Indicates a file name extension, such as <code>.htm</code> or <code>.mp3</code>.
 
-
 ### -field AT_URLPROTOCOL
 
 Indicates a protocol, such as <code>http</code> or <code>mailto</code>.
 
-
 ### -field AT_STARTMENUCLIENT
 
 Indicates the owner of the startmenu client for a mail or Internet hyperlink. As of Windows 7, this value is used only for the MAPI sendmail client.
-
 
 ### -field AT_MIMETYPE
 

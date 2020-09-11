@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG'
-f1_keywords:
-- ws2def/WSAMSG
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2def.h
-- Mswsock.h
-api_name:
-- WSAMSG
 targetos: Windows
 req.typenames: WSAMSG, *PWSAMSG, *LPWSAMSG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSAMSG
+ - ws2def/_WSAMSG
+ - PWSAMSG
+ - ws2def/PWSAMSG
+ - WSAMSG
+ - ws2def/WSAMSG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2def.h
+ - Mswsock.h
+api_name:
+ - WSAMSG
 ---
 
 # WSAMSG structure
@@ -50,16 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAMSG</b> structure is used with the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used  to store message data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field name
 
@@ -68,14 +68,12 @@ Type: <b>LPSOCKADDR</b>
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure that stores information about the remote address. Used only with unconnected sockets.
 
-
 ### -field namelen
 
 Type: <b>INT</b>
 
 The length, in bytes, of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure pointed to in the <b>pAddr</b> member. Used only with unconnected sockets.
-
 
 ### -field lpBuffers
 
@@ -84,13 +82,11 @@ Type: <b>LPWSABUF</b>
 An array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures used to receive the message data. The capability of the <b>lpBuffers</b> member to contain multiple buffers enables the use of scatter/gather I/O.
 
-
 ### -field dwBufferCount
 
 Type: <b>DWORD</b>
 
 The number of buffers pointed to in the <b>lpBuffers</b> member.
-
 
 ### -field Control
 
@@ -98,7 +94,6 @@ Type: <b>WSABUF</b>
 
 A structure of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> type used to specify optional control data. See Remarks.
-
 
 ### -field dwFlags
 
@@ -170,12 +165,8 @@ The control (ancillary) data was truncated. More control data was present than t
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 In the Microsoft Windows Software Development Kit (SDK), the version of this structure for use on Windows Vistais defined with the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members as a <b>ULONG</b>.  When compiling an application if the target platform is Windows Vista and later (<b>NTDDI_VERSION &gt;= NTDDI_LONGHORN, _WIN32_WINNT &gt;= 0x0600</b>, or <b>WINVER &gt;= 0x0600</b>), the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members is a <b>ULONG</b>.
 
@@ -409,13 +400,7 @@ Returns the total size of a control data object, given the amount of data. Used 
 
 Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignment padding.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-pktinfo">IPV6_PKTINFO</a>
 
@@ -446,7 +431,4 @@ Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignmen
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>
- 
-
- 
 

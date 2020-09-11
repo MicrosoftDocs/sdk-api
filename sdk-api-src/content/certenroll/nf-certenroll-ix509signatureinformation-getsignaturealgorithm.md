@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e5b43e74-d802-43ff-bdf2-96ab475c31e7
 ms.date: 12/05/2018
 ms.keywords: GetSignatureAlgorithm, GetSignatureAlgorithm method [Security], GetSignatureAlgorithm method [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],GetSignatureAlgorithm method, IX509SignatureInformation.GetSignatureAlgorithm, IX509SignatureInformation::GetSignatureAlgorithm, certenroll/IX509SignatureInformation::GetSignatureAlgorithm, security.ix509signatureinformation_getsignaturealgorithm_method
-f1_keywords:
-- certenroll/IX509SignatureInformation.GetSignatureAlgorithm
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509SignatureInformation.GetSignatureAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SignatureInformation::GetSignatureAlgorithm
+ - certenroll/IX509SignatureInformation::GetSignatureAlgorithm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509SignatureInformation.GetSignatureAlgorithm
 ---
 
 # IX509SignatureInformation::GetSignatureAlgorithm
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSignatureAlgorithm</b> method retrieves the signing algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
-
 ## -parameters
-
-
-
 
 ### -param Pkcs7Signature [in]
 
 A <b>VARIANT_BOOL</b> variable that specifies whether the algorithm will be used to sign a PKCS #7 or CMC certificate request.
 
-
 ### -param SignatureKey [in]
 
 A <b>VARIANT_BOOL</b> variable that specifies whether an algorithm that is only used for signing is preferred when an algorithm OID is associated with more than one purpose. For example, XCN_OID_RSA_RSA (1.2.840.113549.1.1.1) can be used for both signing and key exchange.
-
 
 ### -param ppValue [out]
 
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the algorithm OID.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -111,14 +102,8 @@ The combined signature algorithm could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method searches for a cached signing algorithm that is consistent with the input parameters. If none is found, the method uses the input parameters plus the values assigned to various <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> properties as indicated by the following list.<ul>
 <li>
@@ -147,17 +132,7 @@ This case retrieves  a discrete signature algorithm OID for a PKCS #7 request. T
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
 

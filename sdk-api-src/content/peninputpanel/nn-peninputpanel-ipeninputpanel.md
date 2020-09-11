@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5
 ms.date: 12/05/2018
 ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPanel interface [Tablet PC],described, peninputpanel/IPenInputPanel, tablet.ipeninputpanel
-f1_keywords:
-- peninputpanel/IPenInputPanel
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- peninputpanel.h
-api_name:
-- IPenInputPanel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPenInputPanel
+ - peninputpanel/IPenInputPanel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - peninputpanel.h
+api_name:
+ - IPenInputPanel
 ---
 
 # IPenInputPanel interface
@@ -405,5 +406,5 @@ Gets the width of the pen input panel  in client coordinates.
 
 </td>
 </tr>
-</table> 
+</table>
 

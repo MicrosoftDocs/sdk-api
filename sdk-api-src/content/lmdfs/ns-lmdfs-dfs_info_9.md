@@ -8,10 +8,6 @@ tech.root: Dfs
 ms.assetid: d09ebaa7-4ec7-4d25-8b77-fe568264e6b9
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_9, *PDFS_INFO_9, DFS_INFO_9, DFS_INFO_9 structure [Distributed File System], DFS_PROPERTY_FLAG_ABDE, DFS_PROPERTY_FLAG_CLUSTER_ENABLED, DFS_PROPERTY_FLAG_INSITE_REFERRALS, DFS_PROPERTY_FLAG_ROOT_SCALABILITY, DFS_PROPERTY_FLAG_SITE_COSTING, DFS_PROPERTY_FLAG_TARGET_FAILBACK, DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, DFS_VOLUME_STATE_INCONSISTENT, DFS_VOLUME_STATE_OFFLINE, DFS_VOLUME_STATE_OK, DFS_VOLUME_STATE_ONLINE, PDFS_INFO_9, PDFS_INFO_9 structure pointer [Distributed File System], dfs.dfs_info_9, fs.dfs_info_9, lmdfs/DFS_INFO_9, lmdfs/PDFS_INFO_9'
-f1_keywords:
-- lmdfs/DFS_INFO_9
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_9
 targetos: Windows
 req.typenames: DFS_INFO_9, *PDFS_INFO_9, *LPDFS_INFO_9
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_9
+ - lmdfs/_DFS_INFO_9
+ - PDFS_INFO_9
+ - lmdfs/PDFS_INFO_9
+ - DFS_INFO_9
+ - lmdfs/DFS_INFO_9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_9
 ---
 
 # DFS_INFO_9 structure
@@ -49,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the name, status, <b>GUID</b>, time-out, property flags, metadata size, DFS target information, link 
      reparse point security descriptor, and a list of DFS targets for a root or link. This structure is only for use 
      with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> and 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field EntryPath
 
@@ -92,12 +92,10 @@ or
 
 where the values of the names are the same as those described previously.
 
-
 ### -field Comment
 
 Pointer to a null-terminated Unicode string that contains a comment associated with the DFS root or 
       link.
-
 
 ### -field State
 
@@ -145,16 +143,13 @@ The system sets this flag if the root is associated with a stand-alone DFS names
 
 The system sets this flag if the root is associated with a domain-based DFS namespace.
 
-
 ### -field Timeout
 
 Specifies the time-out, in seconds, of the DFS root or link.
 
-
 ### -field Guid
 
 Specifies the <b>GUID</b> of the DFS root or link.
-
 
 ### -field PropertyFlags
 
@@ -234,7 +229,6 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
          DFS link.
 
-
 ### -field MetadataSize
 
 For domain-based DFS namespaces, this member specifies the size of the corresponding Active Directory data 
@@ -244,26 +238,15 @@ For domain-based DFS namespaces, this member specifies the size of the correspon
 
 This field is valid for DFS roots only.
 
-
 ### -field SecurityDescriptorLength
-
- 
-
 
 ### -field pSecurityDescriptor.size_is
 
- 
-
-
 ### -field pSecurityDescriptor.size_is.SecurityDescriptorLength
-
- 
-
 
 ### -field SdLengthReserved
 
 This member is reserved for system use.
-
 
 ### -field pSecurityDescriptor
 
@@ -271,40 +254,25 @@ Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
       structure that specifies a self-relative security descriptor to be associated with the DFS link's reparse point. 
       This field is valid for DFS links only.
 
-
 ### -field NumberOfStorages
 
 Specifies the number of targets for the DFS root or link. These targets are contained in the 
       <b>Storage</b> member of this structure.
 
-
 ### -field Storage.size_is
 
- 
-
-
 ### -field Storage.size_is.NumberOfStorages
-
- 
-
 
 ### -field Storage
 
 Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a> 
       structures that contain the DFS target information.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
- 
-
- 
 

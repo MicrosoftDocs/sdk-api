@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
 ms.date: 12/05/2018
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView method, ClearRenderTargetView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearRenderTargetView method, ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ClearRenderTargetView
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ClearRenderTargetView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ClearRenderTargetView
+ - d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ClearRenderTargetView
 ---
 
 # ID3D12GraphicsCommandList::ClearRenderTargetView
@@ -49,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets all the elements in a render target to one value.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param RenderTargetView [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Specifies a D3D12_CPU_DESCRIPTOR_HANDLE structure that describes the CPU descriptor handle that represents the start of the heap for the render target to be cleared.
-          
-
 
 ### -param ColorRGBA [in]
 
 Type: <b>const FLOAT[4]</b>
 
 A 4-component array that represents the color to fill the render target with.
-          
-
 
 ### -param NumRects [in]
 
 Type: <b>UINT</b>
 
 The number of rectangles in the array that the <i>pRects</i> parameter specifies.
-          
-
 
 ### -param pRects [in]
 
 Type: <b>const D3D12_RECT*</b>
 
 An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearRenderTargetView</b> clears the entire resource view.
-          
-
 
 ## -remarks
-
-
 
 <b>ClearRenderTargetView</b> may be used to initialize resources which alias the same heap memory. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
@@ -223,15 +208,7 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 4f331f99-c52c-4744-a9a7-eeb09803862d
 ms.date: 12/05/2018
 ms.keywords: FtpFindFirstFile, FtpFindFirstFile function [WinINet], FtpFindFirstFileA, FtpFindFirstFileW, _inet_ftpfindfirstfile_function, wininet.ftpfindfirstfile, wininet/FtpFindFirstFile, wininet/FtpFindFirstFileA, wininet/FtpFindFirstFileW
-f1_keywords:
-- wininet/FtpFindFirstFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- FtpFindFirstFile
-- FtpFindFirstFileA
-- FtpFindFirstFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FtpFindFirstFileA
+ - wininet/FtpFindFirstFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - FtpFindFirstFile
+ - FtpFindFirstFileA
+ - FtpFindFirstFileW
 ---
 
 # FtpFindFirstFileA function
@@ -51,33 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches the specified directory of the given FTP session. File and directory entries are returned to the application in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param hConnect [in]
 
 Handle to an FTP session returned from 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
-
 ### -param lpszSearchFile [in]
 
 Pointer to a <b>null</b>-terminated string that specifies a valid directory path or file name for the FTP server's file system. The string can contain wildcards, but no blank spaces are allowed. If the value of 
 <i>lpszSearchFile</i> is <b>NULL</b> or if it is an empty string, the function  finds the first file in the current directory on the server.
 
-
 ### -param lpFindFileData [out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that receives information about the found file or directory.
-
 
 ### -param dwFlags [in]
 
@@ -93,27 +86,18 @@ Controls the behavior of this function. This parameter can be a combination of t
 
 <p class="indent">INTERNET_FLAG_RESYNCHRONIZE
 
-
 ### -param dwContext [in]
 
 Pointer to a variable that specifies the application-defined value that associates this search with any application data. This parameter is used only if the application has already called 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> to set up a status callback function.
 
-
 ## -returns
-
-
 
 Returns a valid handle for the request if the directory enumeration was started successfully, or returns <b>NULL</b> otherwise. To get a specific error message, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If <b>GetLastError</b> returns ERROR_INTERNET_EXTENDED_ERROR, as in the case where the function finds no matching files, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> function to retrieve the extended error text, as documented in <a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-c-handling-errors">Handling Errors</a>.
 
-
-
-
 ## -remarks
-
-
 
 For 
 <b>FtpFindFirstFile</b>, file times returned in the 
@@ -158,15 +142,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/ftp-sessions">FTP Sessions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

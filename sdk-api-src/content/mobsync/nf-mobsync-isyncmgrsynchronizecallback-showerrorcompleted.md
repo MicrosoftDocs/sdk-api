@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7441f8d3-1b9b-400f-a2c4-ec67f7677a32
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowErrorCompleted method, ISyncMgrSynchronizeCallback.ShowErrorCompleted, ISyncMgrSynchronizeCallback::ShowErrorCompleted, ShowErrorCompleted, ShowErrorCompleted method [Windows Shell], ShowErrorCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showerrorcompleted, syncmgr.isyncmgrsynchronizecallback_showerrorcompleted
-f1_keywords:
-- mobsync/ISyncMgrSynchronizeCallback.ShowErrorCompleted
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronizeCallback.ShowErrorCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronizeCallback::ShowErrorCompleted
+ - mobsync/ISyncMgrSynchronizeCallback::ShowErrorCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronizeCallback.ShowErrorCompleted
 ---
 
 # ISyncMgrSynchronizeCallback::ShowErrorCompleted
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the registered application's handler before or after its <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> operation has been completed.
 
-
 ## -parameters
-
-
-
 
 ### -param hr [in]
 
@@ -65,13 +61,11 @@ Type: <b>HRESULT</b>
 Whether <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> was successful. This value is S_SYNCMGR_RETRYSYNC if the registered application's handler requires SyncMgr to retry the synchronization. When this value is returned to SyncMgr both the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> methods are called again.
 
-
 ### -param cItems [in]
 
 Type: <b>ULONG</b>
 
 The number of items in the array pointed to by the <i>pItemIDs</i> parameter. This parameter is ignored unless <i>hrResult</i> is S_SYNCMGR_RETRYSYNC.
-
 
 ### -param pItemIDs [in]
 
@@ -80,10 +74,7 @@ Type: <b>const GUID*</b>
 A pointer to the array of item IDs to pass to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-prepareforsync">PrepareForSync</a> in the event of a retry. This parameter is ignored unless <i>hrResult</i> is S_SYNCMGR_RETRYSYNC.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,14 +97,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pItemIDs</i> parameter is an [in] parameter and the calling function owns the memory pointed to by it. SyncMgr makes a copy of the array before returning.
 
@@ -124,20 +109,11 @@ before returning from the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 The registered application's handler should not call this method unless a success code is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ShowError</a>
- 
-
- 
 

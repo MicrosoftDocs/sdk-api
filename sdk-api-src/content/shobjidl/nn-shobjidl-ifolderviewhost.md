@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1e3d4a9a-6336-4667-92dd-9dc9678606e9
 ms.date: 12/05/2018
 ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolderViewHost interface [Windows Shell],described, _shell_IFolderViewHost, shell.IFolderViewHost, shobjidl/IFolderViewHost
-f1_keywords:
-- shobjidl/IFolderViewHost
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IFolderViewHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderViewHost
+ - shobjidl/IFolderViewHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IFolderViewHost
 ---
 
 # IFolderViewHost interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that hosts an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object in a window.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Initializes the object that hosts an <a href="https://docs.microsoft.com/windows
 
 </td>
 </tr>
-</table> 
+</table>
 

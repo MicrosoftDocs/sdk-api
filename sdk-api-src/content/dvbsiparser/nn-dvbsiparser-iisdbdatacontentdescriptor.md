@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 91d55991-5994-4104-9a8f-01cfc347a96f
 ms.date: 12/05/2018
 ms.keywords: IIsdbDatacontentDescriptor, IIsdbDatacontentDescriptor interface [Microsoft TV Technologies], IIsdbDatacontentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDatacontentDescriptor, mstv.iisdbdatacontentdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbDatacontentDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dvbsiparser.h
-api_name:
-- IIsdbDatacontentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbDataContentDescriptor
+ - dvbsiparser/IIsdbDataContentDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dvbsiparser.h
+api_name:
+ - IIsdbDatacontentDescriptor
 ---
 
 # IIsdbDataContentDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. The data content descriptor appears in the ISDB Service Information as part of the event information table (EIT) and provides details about the content of a data broadcasting event.
-
 
 ## -inheritance
 
@@ -158,5 +157,5 @@ Gets the tag that identifies an ISDB data content descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

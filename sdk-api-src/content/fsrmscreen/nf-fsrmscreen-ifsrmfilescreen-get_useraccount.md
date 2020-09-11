@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: c47a61b8-3e9b-404f-9100-8e8ccb08ecd1
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserAccount property, IFsrmFileScreen.UserAccount, IFsrmFileScreen.get_UserAccount, IFsrmFileScreen::UserAccount, IFsrmFileScreen::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_useraccount, fsrm.ifsrmfilescreen_useraccount, fsrmscreen/IFsrmFileScreen::UserAccount, fsrmscreen/IFsrmFileScreen::get_UserAccount, get_UserAccount
-f1_keywords:
-- fsrmscreen/IFsrmFileScreen.UserAccount
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreen.UserAccount
-- IFsrmFileScreen.get_UserAccount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreen::get_UserAccount
+ - fsrmscreen/IFsrmFileScreen::get_UserAccount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreen.UserAccount
+ - IFsrmFileScreen.get_UserAccount
 ---
 
 # IFsrmFileScreen::get_UserAccount
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -59,21 +59,13 @@ The account name of the user whose files will be screened.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreen">IFsrmFileScreen</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
- 
-
- 
 

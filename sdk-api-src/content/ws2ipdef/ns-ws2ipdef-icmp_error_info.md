@@ -8,10 +8,6 @@ ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: "*PICMP_ERROR_INFO, ICMP_ERROR_INFO [Winsock], ICMP_ERROR_INFO, ICMP_ERROR_INFO structure [Winsock], PICMP_ERROR_INFO, PICMP_ERROR_INFO structure pointer [Winsock], icmp_error_info, icmp_error_info structure [Winsock], ws2ipdef.icmp_error_info, ws2ipdef/PICMP_ERROR_INFO, ws2ipdef/icmp_error_info, ws2ipdef/PICMP_ERROR_INFO, ws2ipdef/icmp_error_info"
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/ICMP_ERROR_INFO"
-dev_langs:
- - c++
 req.header: ws2ipdef.h
 req.include-header: ws2tcpip.h
 req.target-type: Windows
@@ -29,6 +25,18 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: ICMP_ERROR_INFO, *PICMP_ERROR_INFO
+req.redist: 
+f1_keywords:
+ - icmp_error_info
+ - ws2ipdef/icmp_error_info
+ - PICMP_ERROR_INFO
+ - ws2ipdef/PICMP_ERROR_INFO
+ - ICMP_ERROR_INFO
+ - ws2ipdef/ICMP_ERROR_INFO
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -39,9 +47,6 @@ api_location:
  - ws2tcpip.h
 api_name:
  - ICMP_ERROR_INFO
-targetos: Windows
-req.typenames: ICMP_ERROR_INFO, *PICMP_ERROR_INFO
-req.redist: 
 ---
 
 ## -description
@@ -77,3 +82,4 @@ The ICMP error code.
 ## -remarks
 
 ## -see-also
+

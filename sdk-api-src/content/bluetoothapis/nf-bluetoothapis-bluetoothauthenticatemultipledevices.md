@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
 ms.date: 12/05/2018
 ms.keywords: BluetoothAuthenticateMultipleDevices, BluetoothAuthenticateMultipleDevices function [Bluetooth], bluetooth.bluetoothauthenticatemultipledevices, bluetoothapis/BluetoothAuthenticateMultipleDevices
-f1_keywords:
-- bluetoothapis/BluetoothAuthenticateMultipleDevices
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bthprops.dll
-api_name:
-- BluetoothAuthenticateMultipleDevices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothAuthenticateMultipleDevices
+ - bluetoothapis/BluetoothAuthenticateMultipleDevices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bthprops.dll
+api_name:
+ - BluetoothAuthenticateMultipleDevices
 ---
 
 # BluetoothAuthenticateMultipleDevices function
@@ -49,40 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothAuthenticateMultipleDevices</b> function enables the caller to prompt for multiple devices to be authenticated during a single instance of the Bluetooth Connection wizard.<div class="alert"><b>Note</b>  <b>BluetoothAuthenticateMultipleDevices</b> has been deprecated. Implementation of this API is not recommended. </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hwndParent
 
 A window to be the parent of the Authentication wizard. If set to <b>NULL</b>, the wizard is parented off the desktop.
 
-
 ### -param hRadio
 
 The valid local radio handle, or <b>NULL</b>. If <b>NULL</b>, authentication is attempted on all local radios; if any radio succeeds, the function call succeeds.
-
 
 ### -param cDevices
 
 The number of devices in the <i>pbtdi</i> array of <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structures.
 
-
 ### -param rgbtdi
 
 An array of <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structures that contain records for the Bluetooth devices to be authenticated.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> upon successful completion; check the <b>fAuthenticate</b> flag for each device.
 
@@ -127,15 +116,8 @@ All  devices pointed to by <i>pbtdi</i>  are already marked as authenticated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>
 
@@ -166,7 +148,4 @@ All  devices pointed to by <i>pbtdi</i>  are already marked as authenticated.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothunregisterauthentication">BluetoothUnregisterAuthentication</a>
- 
-
- 
 

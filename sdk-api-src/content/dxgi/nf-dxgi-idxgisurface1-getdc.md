@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: b148d2b4-36a2-46b9-8a98-9f3c478549a4
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC method [DXGI], GetDC method [DXGI],IDXGISurface1 interface, IDXGISurface1 interface [DXGI],GetDC method, IDXGISurface1.GetDC, IDXGISurface1::GetDC, aa5d4cb4-dcad-b7fd-560c-12cc222965a0, direct3ddxgi.idxgisurface1_getdc, dxgi/IDXGISurface1::GetDC
-f1_keywords:
-- dxgi/IDXGISurface1.GetDC
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGISurface1.GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGISurface1::GetDC
+ - dxgi/IDXGISurface1::GetDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGISurface1.GetDC
 ---
 
 # IDXGISurface1::GetDC
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a device context (DC) that allows you to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface using Windows Graphics Device Interface (GDI).
 
-
 ## -parameters
-
-
-
 
 ### -param Discard
 
@@ -65,28 +61,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A Boolean value that specifies whether to preserve Direct3D contents in the GDI DC. <b>TRUE</b> directs the runtime not to preserve Direct3D contents in the GDI DC; that is, the runtime discards the Direct3D contents. <b>FALSE</b> guarantees that Direct3D contents are available in the GDI DC.
 
-
 ### -param phdc [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a> handle that represents the current device context for GDI rendering.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, an error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is not supported by DXGI 1.0, which shipped in Windows Vista and Windows Server 2008. DXGI 1.1 support is required, which is available on 
       Windows 7, Windows Server 2008 R2, and as an update to Windows Vista with Service Pack 2 (SP2) (<a href="https://support.microsoft.com/kb/971644">KB 971644</a>) and Windows Server 2008 (<a href="https://support.microsoft.com/kb/971512/">KB 971512</a>).
@@ -126,21 +113,11 @@ g_pSurface1->ReleaseDC( NULL );
       
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a>
- 
-
- 
 

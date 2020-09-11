@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
-f1_keywords:
-- mprapi/MprAdminConnectionClearStats
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminConnectionClearStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminConnectionClearStats
+ - mprapi/MprAdminConnectionClearStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminConnectionClearStats
 ---
 
 # MprAdminConnectionClearStats function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminConnectionClearStats</b> function resets the statistics counters for the specified connection.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasServer [in]
 
@@ -65,16 +61,12 @@ Handle to the Remote Access Server on which to execute
 <b>MprAdminConnectionClearStats</b>. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
-
 ### -param hRasConnection [in]
 
 Handle to the connection for which to reset the statistics. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenum">MprAdminConnectionEnum</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -146,26 +138,14 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminConnectionClearStats</b> rather than 
 <b>MprAdminConnectionClearStats</b>. Therefore, when using the RRAS redistributable, use 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenum">MprAdminConnectionEnum</a>
 
@@ -180,7 +160,4 @@ This function is available on Windows NT 4.0 if the RRAS redistributable is ins
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9bw2.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_EVENTA, FAX_EVENT, FAX_EVENT structure [Fax Service], FAX_EVENTA, FAX_EVENTW, FEI_ABORTING, FEI_ANSWERED, FEI_BAD_ADDRESS, FEI_BUSY, FEI_CALL_BLACKLISTED, FEI_CALL_DELAYED, FEI_COMPLETED, FEI_DELETED, FEI_DIALING, FEI_DISCONNECTED, FEI_FATAL_ERROR, FEI_FAXSVC_ENDED, FEI_FAXSVC_STARTED, FEI_IDLE, FEI_JOB_QUEUED, FEI_MODEM_POWERED_OFF, FEI_MODEM_POWERED_ON, FEI_NEVENTS, FEI_NOT_FAX_CALL, FEI_NO_ANSWER, FEI_NO_DIAL_TONE, FEI_RECEIVING, FEI_RINGING, FEI_ROUTING, FEI_SENDING, PFAX_EVENT, PFAX_EVENT structure pointer [Fax Service], _mfax_fax_event_str, fax._mfax_fax_event_str, winfax/FAX_EVENT, winfax/FAX_EVENTA, winfax/FAX_EVENTW, winfax/PFAX_EVENT'
-f1_keywords:
-- winfax/FAX_EVENT
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winfax.h
-api_name:
-- FAX_EVENT
-- FAX_EVENTA
-- FAX_EVENTW
 targetos: Windows
 req.typenames: FAX_EVENTA, *PFAX_EVENTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FAX_EVENTA
+ - winfax/_FAX_EVENTA
+ - PFAX_EVENTA
+ - winfax/PFAX_EVENTA
+ - FAX_EVENTA
+ - winfax/FAX_EVENTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winfax.h
+api_name:
+ - FAX_EVENT
+ - FAX_EVENTA
+ - FAX_EVENTW
 ---
 
 # FAX_EVENTA structure
@@ -51,37 +56,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FAX_EVENT</b> structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
 
 To create a fax event queue, the fax client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function. The queue enables the application to receive notifications of asynchronous events from the fax server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_EVENT</b> structure. The fax server sets this member to <b>sizeof(FAX_EVENT)</b>. 
-
+Specifies the size, in bytes, of the <b>FAX_EVENT</b> structure. The fax server sets this member to <b>sizeof(FAX_EVENT)</b>.
 
 ### -field TimeStamp
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the fax server generated the event. 
-
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the fax server generated the event.
 
 ### -field DeviceId
 
 Type: <b>DWORD</b>
 
-Specifies a <b>DWORD</b> variable that indicates the permanent line identifier for the fax device of interest. 
-
+Specifies a <b>DWORD</b> variable that indicates the permanent line identifier for the fax device of interest.
 
 ### -field EventId
 
@@ -237,19 +234,15 @@ The fax job has been processed. The job identifier for the job is no longer vali
 
 #### FEI_NEVENTS
 
-The total number of fax events received. For more information, see the following Remarks section. 
-
+The total number of fax events received. For more information, see the following Remarks section.
 
 ### -field JobId
 
 Type: <b>DWORD</b>
 
-Specifies a unique number that identifies the fax job of interest. If this member is equal to the value 0xffffffff, it indicates an inactive fax job. Note that this number is not a print spooler identification number. 
-
+Specifies a unique number that identifies the fax job of interest. If this member is equal to the value 0xffffffff, it indicates an inactive fax job. Note that this number is not a print spooler identification number.
 
 ## -remarks
-
-
 
 After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message from the fax service, it will no longer receive fax events. To resume receiving fax events, the application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function again when the fax service restarts. The application can determine if the fax service is running by using the service control manager.
 
@@ -263,9 +256,6 @@ If the application receives events using notification messages, it can use the <
 > The winfax.h header defines FAX_EVENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -284,7 +274,4 @@ If the application receives events using notification messages, it can use the <
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a>
- 
-
- 
 

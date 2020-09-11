@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7t6c.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSendDocument, FaxSendDocument function [Fax Service], FaxSendDocumentA, FaxSendDocumentW, _mfax_faxsenddocument, fax._mfax_faxsenddocument, winfax/FaxSendDocument, winfax/FaxSendDocumentA, winfax/FaxSendDocumentW
-f1_keywords:
-- winfax/FaxSendDocument
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxSendDocument
-- FaxSendDocumentA
-- FaxSendDocumentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxSendDocumentW
+ - winfax/FaxSendDocumentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxSendDocument
+ - FaxSendDocumentA
+ - FaxSendDocumentW
 ---
 
 # FaxSendDocumentW function
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxSendDocument</b> function to queue a fax job that will transmit an outgoing fax transmission.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a fax server handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a> function.
-
 
 ### -param FileName [in]
 
@@ -78,13 +73,11 @@ Pointer to a constant null-terminated character string that contains the fully q
 
 This parameter can contain any valid local file name. The file must be a properly registered file type, and the fax server must be able to access the file.
 
-
 ### -param JobParams [in]
 
 Type: <b>PFAX_JOB_PARAM</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a> structure that contains the information necessary for the fax server to send the fax transmission. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and job scheduling information.
-
 
 ### -param CoverpageInfo [in, optional]
 
@@ -92,17 +85,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document. This parameter must be <b>NULL</b> if a cover page is not required.
 
-
 ### -param FaxJobId [out]
 
 Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive a unique number that identifies the queued job that will send the fax transmission.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -182,14 +171,8 @@ An attempt was made to hand off a voice call to send a fax, using the <b>CallHan
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxcompletejobparamsa">FaxCompleteJobParams</a> function before calling the FaxSendDocument function. <b>FaxCompleteJobParams</b> is a utility function that fills in multiple members in the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_job_parama">FAX_JOB_PARAM</a> structures, with information such as the sender's name, the fax number, and optional billing code information.
 
@@ -209,9 +192,6 @@ When you send a document from an application, links in the document may cause a 
 > The winfax.h header defines FaxSendDocument as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_coverpage_infoa">FAX_COVERPAGE_INFO</a>
 
@@ -238,7 +218,4 @@ When you send a document from an application, links in the document may cause a 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumentforbroadcasta">FaxSendDocumentForBroadcast</a>
- 
-
- 
 

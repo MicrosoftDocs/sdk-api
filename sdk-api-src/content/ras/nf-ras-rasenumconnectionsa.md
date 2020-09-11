@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.date: 12/05/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
-f1_keywords:
-- ras/RasEnumConnections
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasEnumConnections
-- RasEnumConnectionsA
-- RasEnumConnectionsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasEnumConnectionsA
+ - ras/RasEnumConnectionsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasEnumConnections
+ - RasEnumConnectionsA
+ - RasEnumConnectionsW
 ---
 
 # RasEnumConnectionsA function
@@ -53,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasEnumConnections</b> function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in, out]
 
@@ -73,7 +69,6 @@ Pointer to a buffer that receives, on output, an array of
 
 On input, an application must set the <b>dwSize</b> member of the first 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
-
 
 ### -param arg2 [in, out]
 
@@ -95,10 +90,7 @@ On output, the function sets this variable to the number of bytes required to en
 Pointer to a variable that receives the number of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -121,14 +113,8 @@ The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i>parameter is les
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a connection was made without specifying a phone-book entry name, the information returned for that connection gives the connection phone number preceded by ".".
 
@@ -209,9 +195,6 @@ The most reliable way to enumerate and check for an active connection is to call
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a>
 
 
@@ -229,7 +212,4 @@ The most reliable way to enumerate and check for an active connection is to call
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

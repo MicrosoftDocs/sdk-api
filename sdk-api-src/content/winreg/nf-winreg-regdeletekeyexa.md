@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
-f1_keywords:
-- winreg/RegDeleteKeyEx
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-- kernel32.dll
-api_name:
-- RegDeleteKeyEx
-- RegDeleteKeyExA
-- RegDeleteKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegDeleteKeyExA
+ - winreg/RegDeleteKeyExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+ - kernel32.dll
+api_name:
+ - RegDeleteKeyEx
+ - RegDeleteKeyExA
+ - RegDeleteKeyExW
 ---
 
 # RegDeleteKeyExA function
@@ -59,16 +60,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a subkey and its values from the specified platform-specific view of the registry. Note that key names are not case sensitive.
 
 To delete a subkey as a transacted operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeytransacteda">RegDeleteKeyTransacted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -86,8 +82,6 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param lpSubKey [in]
 
 The name of the key to be deleted. This key must be a subkey of the key specified by the value of the <i>hKey</i> parameter. 
@@ -97,7 +91,6 @@ The  function opens the subkey with the DELETE access right.
 Key names are not case sensitive.
 
 The value of this parameter cannot be <b>NULL</b>.
-
 
 ### -param samDesired [in]
 
@@ -131,28 +124,18 @@ Delete the key from the 64-bit registry view.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved
 
 This parameter is reserved and must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 A deleted key is not removed until the last handle to it is closed.
 
@@ -173,9 +156,6 @@ If the function succeeds, <b>RegDeleteKeyEx</b> removes the specified key from t
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
@@ -193,7 +173,4 @@ If the function succeeds, <b>RegDeleteKeyEx</b> removes the specified key from t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg64/registry-redirector">Registry Redirector</a>
- 
-
- 
 

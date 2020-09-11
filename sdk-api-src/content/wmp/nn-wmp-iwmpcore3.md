@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 3004551e-ce36-4f15-88c3-93b2bfaa72fc
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3, IWMPCore3 interface [Windows Media Player], IWMPCore3 interface [Windows Media Player],described, IWMPCore3Interface, wmp.iwmpcore3, wmp/IWMPCore3
-f1_keywords:
-- wmp/IWMPCore3
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPCore3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCore3
+ - wmp/IWMPCore3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPCore3
 ---
 
 # IWMPCore3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPCore3</b> interface provides methods that supplement the <b>IWMPCore2</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -89,13 +85,9 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface for a new playlist.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
@@ -114,7 +106,4 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface for a new playlist.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

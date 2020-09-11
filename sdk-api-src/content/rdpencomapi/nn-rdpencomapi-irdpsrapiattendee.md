@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: e9edd9f2-ccbf-45b2-b71c-e30368435a60
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], IRDPSRAPIAttendee interface [RDP],described, rdp.irdpsrapiattendee, rdpencomapi/IRDPSRAPIAttendee
-f1_keywords:
-- rdpencomapi/IRDPSRAPIAttendee
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIAttendee
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIAttendee
+ - rdpencomapi/IRDPSRAPIAttendee
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIAttendee
 ---
 
 # IRDPSRAPIAttendee interface
 
 
 ## -description
-
 
 Attendee objects are created as a result of clients connecting to the session and being authenticated. After an attendee object is created, it is automatically added to the attendees list.You cannot create an instance of this object. Applications can get access to attendee objects in the following ways:
 
@@ -58,8 +58,6 @@ Attendee objects are created as a result of clients connecting to the session an
 <li>By calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeemanager-get_item">get_Item</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a> interface.</li>
 <li>By calling <b>get_Next</b> on the enumerator returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeemanager-get__newenum">IRDPSRAPIAttendeeManager::get__NewEnum</a> method.</li>
 </ul>
-
-
 
 ## -inheritance
 
@@ -190,22 +188,13 @@ The name of the remote client. This is usually the attendee's friendly name.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Applications should not save pointers to attendee objects. The lifetime of the attendee object depends on the lifetime of the <b>RDPSession</b> object. It also depends if the session is still in the opened state and if the client corresponding to the attendee object is still connected to the session. Applications can keep references to attendee objects but calling some methods on it after the client disconnected or after the session is destroyed will return <b>E_UNEXPECTED</b> failures.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -216,7 +205,4 @@ Applications should not save pointers to attendee objects. The lifetime of the a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager">IRDPSRAPIAttendeeManager</a>
- 
-
- 
 

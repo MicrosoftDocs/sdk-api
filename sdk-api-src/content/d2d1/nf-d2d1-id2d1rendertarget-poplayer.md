@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 6ab05160-4f42-477f-a5bf-f16863b0635c
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],PopLayer method, ID2D1RenderTarget.PopLayer, ID2D1RenderTarget::PopLayer, PopLayer, PopLayer method [Direct2D], PopLayer method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::PopLayer, direct2d.ID2D1RenderTarget_PopLayer
-f1_keywords:
-- d2d1/ID2D1RenderTarget.PopLayer
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.PopLayer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::PopLayer
+ - d2d1/ID2D1RenderTarget::PopLayer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.PopLayer
 ---
 
 # ID2D1RenderTarget::PopLayer
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Stops redirecting drawing operations to the layer that is specified by the last <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> call. 
-
+Stops redirecting drawing operations to the layer that is specified by the last <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> call.
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 A <b>PopLayer</b>  must match a previous <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> call.
 
@@ -113,14 +105,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
@@ -131,7 +116,4 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
 ms.date: 12/05/2018
 ms.keywords: Offline, Offline callback, Offline callback function [Failover Cluster], POFFLINE_ROUTINE, POFFLINE_ROUTINE callback function [Failover Cluster], _wolf_offline, mscs.offline, resapi/Offline, resapi/POFFLINE_ROUTINE
-f1_keywords:
-- resapi/Offline
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Offline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - POFFLINE_ROUTINE
+ - resapi/POFFLINE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Offline
 ---
 
 # POFFLINE_ROUTINE callback function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
     processing is complete. The <b>POFFLINE_ROUTINE</b> type defines a pointer to 
     this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 Resource identifier for the resource to be taken offline.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -105,12 +98,7 @@ If the operation was not successful for other reasons,
        <i>Offline</i> should return one of the 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 If <i>Offline</i> returns an error code other than 
      <b>ERROR_IO_PENDING</b>, the 
@@ -127,19 +115,11 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedel">NetShareDel</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>
- 
-
- 
 

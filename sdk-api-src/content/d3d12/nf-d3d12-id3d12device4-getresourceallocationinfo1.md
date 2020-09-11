@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device4 interface","GetResourceAllocationInfo1 meth
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,GetResourceAllocationInfo1 method, ID3D12Device4.GetResourceAllocationInfo1, ID3D12Device4::GetResourceAllocationInfo1, GetResourceAllocationInfo1, GetResourceAllocationInfo1 method, GetResourceAllocationInfo1 method,ID3D12Device4 interface, direct3d12.id3d12device4_getresourceallocationinfo1, d3d12/ID3D12Device4::GetResourceAllocationInfo1
-f1_keywords:
-- d3d12/ID3D12Device4.GetResourceAllocationInfo1
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device4::GetResourceAllocationInfo1
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device4::GetResourceAllocationInfo1
+ - d3d12/ID3D12Device4::GetResourceAllocationInfo1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device4::GetResourceAllocationInfo1
 ---
 
 ## -description
@@ -96,3 +97,4 @@ When multiple resource descriptions are passed in, the C++ algorithm for calcula
 ## -see-also
 
 [ID3D12Device4](/windows/win32/api/d3d12/nn-d3d12-id3d12device4)
+

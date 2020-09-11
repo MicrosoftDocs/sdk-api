@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 402d305e-1657-45c2-9f0d-04703c8d6e5c
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook interface [Windows Shell],SetReferent method, INewShortcutHook::SetReferent, INewShortcutHookA, INewShortcutHookA interface [Windows Shell],SetReferent method, INewShortcutHookA::SetReferent, INewShortcutHookW, INewShortcutHookW interface [Windows Shell],SetReferent method, INewShortcutHookW.SetReferent, INewShortcutHookW::SetReferent, SetReferent, SetReferent method [Windows Shell], SetReferent method [Windows Shell],INewShortcutHook interface, SetReferent method [Windows Shell],INewShortcutHookA interface, SetReferent method [Windows Shell],INewShortcutHookW interface, _win32_INewShortcutHook_SetReferent, shell.INewShortcutHook_SetReferent, shlobj/INewShortcutHook::SetReferent, shlobj/INewShortcutHookA::SetReferent, shlobj/INewShortcutHookW::SetReferent
-f1_keywords:
-- shlobj/INewShortcutHookA.SetReferent
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- INewShortcutHookA.SetReferent
-- INewShortcutHookW.SetReferent
-- INewShortcutHook.SetReferent
-- INewShortcutHookA::SetReferent
-- INewShortcutHookW::SetReferent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INewShortcutHookW::SetReferent
+ - shlobj/INewShortcutHookW::SetReferent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - INewShortcutHookA.SetReferent
+ - INewShortcutHookW.SetReferent
+ - INewShortcutHook.SetReferent
+ - INewShortcutHookA::SetReferent
+ - INewShortcutHookW::SetReferent
 ---
 
 # INewShortcutHookW::SetReferent
@@ -53,26 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the referent of the shortcut object.
 
-
 ## -parameters
-
-
-
 
 ### -param pcszReferent
 
 TBD
 
-
 ### -param hwnd
 
 TBD
-
-
-
 
 ### -param hWnd [in, optional]
 
@@ -87,23 +79,13 @@ Type: <b>PCTSTR</b>
 
 A pointer to a string that contains the referent.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 For Internet shortcut objects, this method is the same as <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dd565676(v=vs.85)">IUniformResourceLocator::SetURL</a>.
-
-
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: d9a5535f-6b80-40cc-a20b-b7a342414d7f
 ms.date: 12/05/2018
 ms.keywords: DRIVERPROC, DRIVERPROC callback function [Windows Multimedia], DRV_CLOSE, DRV_CONFIGURE, DRV_DISABLE, DRV_ENABLE, DRV_FREE, DRV_INSTALL, DRV_LOAD, DRV_OPEN, DRV_POWER, DRV_QUERYCONFIGURE, DRV_REMOVE, DriverProc callback, _win32_DriverProc, mmsystem/DRIVERPROC, multimedia.driverproc
-f1_keywords:
-- mmiscapi/DRIVERPROC
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mmsystem.h
-api_name:
-- DRIVERPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DRIVERPROC
+ - mmiscapi/DRIVERPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mmsystem.h
+api_name:
+ - DRIVERPROC
 ---
 
 # DRIVERPROC callback function
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Processes driver messages for the installable driver. <b>DriverProc</b> is a driver-supplied function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
 Identifier of the installable driver.
 
-
 ### -param Arg2
 
 Handle of the installable driver instance. Each instance of the installable driver has a unique handle.
-
 
 ### -param Arg3
 
@@ -191,7 +182,6 @@ Notifies the driver that it is about to be removed from the system.
 </td>
 </tr>
 </table>
- 
 
 ### -param Arg4
 
@@ -201,44 +191,21 @@ Notifies the driver that it is about to be removed from the system.
 
 32-bit message-specific value.
 
-
-
-
-
-
-
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
-
-
-
 ## -remarks
-
-
 
 When <i>msg</i> is <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-open">DRV_OPEN</a>, <i>lParam1</i> is the string following the driver filename from the SYSTEM.INI file and <i>lParam2</i> is the value given as the <i>lParam</i> parameter in a call to the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
 
 When <i>msg</i> is <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-close">DRV_CLOSE</a>, <i>lParam1</i> and <i>lParam2</i> are the same values as the <i>lParam1</i> and <i>lParam2</i> parameters in a call to the <a href="https://docs.microsoft.com/previous-versions/dd797785(v=vs.85)">CloseDriver</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/driver-functions">Driver Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
- 
-
- 
 

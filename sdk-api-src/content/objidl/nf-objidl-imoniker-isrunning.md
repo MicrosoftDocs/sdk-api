@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 081b394c-1fe8-4519-999e-b3985a77bd9c
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],IsRunning method, IMoniker.IsRunning, IMoniker::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IMoniker interface, _com_imoniker_isrunning, com.imoniker_isrunning, objidl/IMoniker::IsRunning
-f1_keywords:
-- objidl/IMoniker.IsRunning
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::IsRunning
+ - objidl/IMoniker::IsRunning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.IsRunning
 ---
 
 # IMoniker::IsRunning
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the object identified by this moniker is currently loaded and running.
 
-
 ## -parameters
-
-
-
 
 ### -param pbc [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment.
 
-
 ### -param pmkToLeft [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to the left of this moniker if this moniker is part of a composite. This parameter is used primarily by moniker implementers to enable cooperation between the various components of a composite moniker; moniker clients can usually pass <b>NULL</b>.
-
 
 ### -param pmkNewlyRunning [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker most recently added to the running object table (ROT). This can be <b>NULL</b>. If non-<b>NULL</b>, the implementation can return the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-isequal">IMoniker::IsEqual</a> on the <i>pmkNewlyRunning</i> parameter, passing the current moniker. This parameter is intended to enable <b>IsRunning</b> implementations that are more efficient than just searching the ROT, but the implementation can choose to ignore <i>pmkNewlyRunning</i> without causing any harm.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_UNEXPECTED, as well as the following values.
 
@@ -107,14 +98,8 @@ The moniker is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 If speed is important when you're requesting services from the object identified by the moniker, you may want those services only if the object is already running (because loading an object into the running state may be time-consuming). In such a situation, you should call <b>IsRunning</b> to determine whether the object is running.
@@ -193,15 +178,8 @@ Returns S_OK if this moniker is currently running. Otherwise, it returns S_FALSE
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
@@ -212,7 +190,4 @@ Returns S_OK if this moniker is currently running. Otherwise, it returns S_FALSE
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IRunningObjectTable::IsRunning</a>
- 
-
- 
 

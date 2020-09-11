@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 2617a6af-c91d-4416-8bef-fe69404e7c3f
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3, ISCPSecureExchange3 interface [windows Media Device Manager], ISCPSecureExchange3 interface [windows Media Device Manager],described, ISCPSecureExchange3Interface, mswmdm/ISCPSecureExchange3, wmdm.iscpsecureexchange3
-f1_keywords:
-- mswmdm/ISCPSecureExchange3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- ISCPSecureExchange3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureExchange3
+ - mswmdm/ISCPSecureExchange3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - ISCPSecureExchange3
 ---
 
 # ISCPSecureExchange3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ISCPSecureExchange3</b> interface extends <b>ISCPSecureExchange2</b> by providing improved data exchange performance, and a transfer-complete callback method.
-
-
-
 
 ## -inheritance
 
@@ -98,13 +94,9 @@ Transfers the container data on a clear channel.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
 
@@ -115,7 +107,4 @@ Transfers the container data on a clear channel.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
- 
-
- 
 

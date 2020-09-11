@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 4e9b5f3e-849f-46aa-a94a-3cd6ae16275f
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS, wsw.ws_endpoint_address
-f1_keywords:
-- webservices/WS_ENDPOINT_ADDRESS
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENDPOINT_ADDRESS
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_ENDPOINT_ADDRESS
+ - webservices/_WS_ENDPOINT_ADDRESS
+ - WS_ENDPOINT_ADDRESS
+ - webservices/WS_ENDPOINT_ADDRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENDPOINT_ADDRESS
 ---
 
 # WS_ENDPOINT_ADDRESS structure
@@ -49,15 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the network address of an endpoint.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field url
 
@@ -75,8 +72,6 @@ If this string is zero-length, then
 
 The value of this field corresponds to the Address element of the 
                     WS-Addressing specifications.
-                
-
 
 ### -field headers
 
@@ -101,8 +96,6 @@ This field may be <b>NULL</b> if there are no headers.
 
 This value of this field corresponds to the content of the 
                     ReferenceParameters element of the WS-Addressing specifications.
-                
-
 
 ### -field extensions
 
@@ -122,8 +115,6 @@ This value of this field corresponds to the other elements
 If the ReferenceProperties element is present (as defined by
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_0_9</a>), it must be the first element 
                     within the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
-                
-
 
 ### -field identity
 
@@ -132,15 +123,8 @@ The security identity of the endpoint represented by this endpoint address.
 
 This field corresponds to the Identity element, which is an extension
                     of the base WS-Addressing specifications.
-                
-
 
 ## -remarks
 
-
-
 Only the URL field is required (other fields may be <b>NULL</b>).
-            
-
-
 

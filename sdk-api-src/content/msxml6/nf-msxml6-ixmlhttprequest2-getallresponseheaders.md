@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: 6452812B-0E0F-4140-8E3C-25592A9C6C48
 ms.date: 12/05/2018
 ms.keywords: GetAllResponseHeaders, GetAllResponseHeaders method [XMLHttpRequest2], GetAllResponseHeaders method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetAllResponseHeaders method, IXMLHTTPRequest2.GetAllResponseHeaders, IXMLHTTPRequest2::GetAllResponseHeaders, ixhr2.ixmlhttprequest2_getallresponseheaders, msxml6/IXMLHTTPRequest2::GetAllResponseHeaders
-f1_keywords:
-- msxml6/IXMLHTTPRequest2.GetAllResponseHeaders
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2.GetAllResponseHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2::GetAllResponseHeaders
+ - msxml6/IXMLHTTPRequest2::GetAllResponseHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2.GetAllResponseHeaders
 ---
 
 # IXMLHTTPRequest2::GetAllResponseHeaders
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the values of all the HTTP response headers.
 
-
 ## -parameters
-
-
-
 
 ### -param ppwszHeaders [out]
 
 The returned header information. Free the memory used for this parameter using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> method.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success.
 
-
-
-
 ## -remarks
-
-
 
 Each header name/value pair is separated by a combination carriage return-line feed.
 
@@ -106,14 +94,7 @@ if (pwszHeaderValue != NULL)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
@@ -124,7 +105,4 @@ if (pwszHeaderValue != NULL)
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
- 
-
- 
 

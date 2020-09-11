@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getmutedebugoutput.htm
 ms.date: 12/05/2018
 ms.keywords: 9a2ef90e-dbc8-6d45-56ca-751c465da991, GetMuteDebugOutput, GetMuteDebugOutput method [Direct3D 10], GetMuteDebugOutput method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMuteDebugOutput method, ID3D10InfoQueue.GetMuteDebugOutput, ID3D10InfoQueue::GetMuteDebugOutput, d3d10sdklayers/ID3D10InfoQueue::GetMuteDebugOutput, direct3d10.id3d10infoqueue_getmutedebugoutput
-f1_keywords:
-- d3d10sdklayers/ID3D10InfoQueue.GetMuteDebugOutput
-dev_langs:
-- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10SDKLayers.h
-api_name:
-- ID3D10InfoQueue.GetMuteDebugOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10InfoQueue::GetMuteDebugOutput
+ - d3d10sdklayers/ID3D10InfoQueue::GetMuteDebugOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10SDKLayers.h
+api_name:
+ - ID3D10InfoQueue.GetMuteDebugOutput
 ---
 
 # ID3D10InfoQueue::GetMuteDebugOutput
@@ -49,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get a boolean that turns the debug output on or off.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Whether the debug output is on or off (true for on, false for off).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a
 ms.date: 12/05/2018
 ms.keywords: AddDllDirectory, AddDllDirectory function, base.adddlldirectory, libloaderapi/AddDllDirectory
-f1_keywords:
-- libloaderapi/AddDllDirectory
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
-- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- AddDllDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddDllDirectory
+ - libloaderapi/AddDllDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+ - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - AddDllDirectory
 ---
 
 # AddDllDirectory function
@@ -56,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a directory to the process DLL search path.
 
-
 ## -parameters
-
-
-
 
 ### -param NewDirectory [in]
 
@@ -71,10 +67,7 @@ An absolute path to the directory to add to the search path. For example, to add
       Dir2 to the process DLL search path, specify \Dir2. For more information about paths, 
       see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an opaque pointer that can be passed to 
       <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-removedlldirectory">RemoveDllDirectory</a> to remove the DLL from the 
@@ -83,12 +76,7 @@ If the function succeeds, the return value is an opaque pointer that can be pass
 If the function fails, the return value is zero. To get extended error 
       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>AddDllDirectory</b> function can be used to add 
     any absolute path to the set of directories that are searched for a DLL. If 
@@ -111,6 +99,4 @@ To remove a directory added with <b>AddDllDirectory</b>,
       from Kernel32.dll. 
       <a href="https://support.microsoft.com/kb/2533623">KB2533623</a> must be 
       installed on the target platform.
-
-
 

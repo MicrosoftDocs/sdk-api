@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 50434617-E70E-4931-B98E-61650E9DEA7E
 ms.date: 12/05/2018
 ms.keywords: IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audio], IAudioFormatEnumerator interface [Core Audio],described, coreaudio.iaudioformatenumerator, spatialaudioclient/IAudioFormatEnumerator
-f1_keywords:
-- spatialaudioclient/IAudioFormatEnumerator
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- IAudioFormatEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioFormatEnumerator
+ - spatialaudioclient/IAudioFormatEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - IAudioFormatEnumerator
 ---
 
 # IAudioFormatEnumerator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a list of supported audio formats. The most preferred format is first in the list. Get a reference to this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getsupportedaudioobjectformatenumerator">ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator</a>.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the format with the specified index in the list. The formats are listed in 
 
 </td>
 </tr>
-</table> 
+</table>
 

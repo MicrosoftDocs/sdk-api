@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
 ms.date: 12/05/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EndUIElement method, ITfUIElementMgr.EndUIElement, ITfUIElementMgr::EndUIElement, msctf/ITfUIElementMgr::EndUIElement, tsf.itfuielementmgr_enduielement
-f1_keywords:
-- msctf/ITfUIElementMgr.EndUIElement
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElementMgr.EndUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementMgr::EndUIElement
+ - msctf/ITfUIElementMgr::EndUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElementMgr.EndUIElement
 ---
 
 # ITfUIElementMgr::EndUIElement
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElementMgr::EndUIElement</b> method is called by a text service when the element of UI is hidden.
 
-
 ## -parameters
-
-
-
 
 ### -param dwUIElementId [in]
 
 [in] The element id to hide the UI element.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -119,7 +112,4 @@ Recursion call of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/
 </td>
 </tr>
 </table>
- 
-
-
 

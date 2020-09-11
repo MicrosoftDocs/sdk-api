@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.date: 12/05/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
-f1_keywords:
-- wuapi/IUpdateServiceManager.AddScanPackageService
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager.AddScanPackageService
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager::AddScanPackageService
+ - wuapi/IUpdateServiceManager::AddScanPackageService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager.AddScanPackageService
 ---
 
 # IUpdateServiceManager::AddScanPackageService
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a scan package as a service with Windows Update Agent (WUA) and then returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param serviceName [in]
 
 A descriptive name for the scan package service.
 
-
 ### -param scanFileLocation [in]
 
 The path of the Microsoft signed scan file that has to be registered as a service.
-
 
 ### -param flags [in]
 
@@ -75,15 +69,11 @@ Determines how to remove the service registration of the scan package.
 
 For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-updateserviceoption">UpdateServiceOption</a>.
 
-
 ### -param ppService [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface that contains service registration information.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. This method can also return the following error codes.
 
@@ -127,14 +117,8 @@ The computer could not access the update site.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use the ID of the service in searches by passing the ID as the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serviceid">ServiceID</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface.
 
@@ -148,16 +132,7 @@ An error is returned by <a href="https://docs.microsoft.com/windows/desktop/api/
 
 This method returns <b>WU_E_INVALID_OPERATION</b> if the object that implements the interface has been locked down.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
- 
-
- 
 

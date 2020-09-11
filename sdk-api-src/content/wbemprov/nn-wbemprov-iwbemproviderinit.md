@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 92edf347-c694-4023-b83f-09531072c631
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInit, IWbemProviderInit interface [Windows Management Instrumentation], IWbemProviderInit interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinit, wbemprov/IWbemProviderInit, wmi.iwbemproviderinit
-f1_keywords:
-- wbemprov/IWbemProviderInit
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemProviderInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemProviderInit
+ - wbemprov/IWbemProviderInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemProviderInit
 ---
 
 # IWbemProviderInit interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemProviderInit</b> interface is called by Windows Management to initialize providers. All providers are required to implement 
 <b>IWbemProviderInit</b>.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Called by Windows Management to initialize a provider.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 8887C3F1-3EA3-4948-A019-E3CB3F3D46C6
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContextState, CreateDeviceContextState method [Direct3D 11], CreateDeviceContextState method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateDeviceContextState method, ID3D11Device1.CreateDeviceContextState, ID3D11Device1::CreateDeviceContextState, d3d11_1/ID3D11Device1::CreateDeviceContextState, direct3d11.id3d11device1_createdevicecontextstate
-f1_keywords:
-- d3d11_1/ID3D11Device1.CreateDeviceContextState
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11Device1.CreateDeviceContextState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device1::CreateDeviceContextState
+ - d3d11_1/ID3D11Device1::CreateDeviceContextState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11Device1.CreateDeviceContextState
 ---
 
 # ID3D11Device1::CreateDeviceContextState
@@ -50,15 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a context state object that holds all Microsoft Direct3D state and some Direct3D behavior.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param Flags
 
@@ -80,7 +75,6 @@ A combination of
 
 If you set the single-threaded flag for both the context state object and the device, you guarantee that you will call the whole set of context methods and device methods only from one thread. 
             You therefore do not need to use critical sections to synchronize access to the device context, and the runtime can avoid working with those processor-intensive critical sections.
-
 
 ### -param pFeatureLevels [in]
 
@@ -104,63 +98,43 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
           
 ```
 
-
-
 ### -param FeatureLevels
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of elements in <i>pFeatureLevels</i>. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>, you must set <i>FeatureLevels</i> to greater than 0 because you can't set <i>pFeatureLevels</i> to <b>NULL</b>.
-          
-
 
 ### -param SDKVersion
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
-          
-
 
 ### -param EmulatedInterface
 
 Type: <b>REFIID</b>
 
 The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1">ID3D10Device1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a> interfaces. See Remarks.
-          
-
 
 ### -param pChosenFeatureLevel [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a>*</b>
 
 A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level">D3D_FEATURE_LEVEL</a> value from the <i>pFeatureLevels</i> array. This is the first array value with which <b>CreateDeviceContextState</b> succeeded in creating the context state object. If the call to <b>CreateDeviceContextState</b> fails, the variable pointed to by <i>pChosenFeatureLevel</i> is set to zero.
-          
-
 
 ### -param ppContextState [out, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate">ID3DDeviceContextState</a>**</b>
 
 The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate">ID3DDeviceContextState</a> object that represents the state of a Direct3D device.
-          
-
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
-          
-
-
-
 
 ## -remarks
-
-
 
 The  <b>REFIID</b> value of the emulated interface is a GUID obtained by use of the <b>__uuidof</b> operator. For example, <code>__uuidof(ID3D11Device)</code> gets the GUID of the interface to a Microsoft Direct3D 11 device.
         
@@ -1687,18 +1661,8 @@ Create*, like <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
- 
-
- 
 

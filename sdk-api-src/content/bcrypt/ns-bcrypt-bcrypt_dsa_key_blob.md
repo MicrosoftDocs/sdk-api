@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3db36170-106e-49c8-9866-e25759bdd7f9
 ms.date: 12/05/2018
 ms.keywords: '*PBCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB, BCRYPT_DSA_KEY_BLOB structure [Security], BCRYPT_DSA_PRIVATE_MAGIC, BCRYPT_DSA_PUBLIC_MAGIC, PBCRYPT_DSA_KEY_BLOB, PBCRYPT_DSA_KEY_BLOB structure pointer [Security], bcrypt/BCRYPT_DSA_KEY_BLOB, bcrypt/PBCRYPT_DSA_KEY_BLOB, security.bcrypt_dsa_key_blob'
-f1_keywords:
-- bcrypt/BCRYPT_DSA_KEY_BLOB
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- BCRYPT_DSA_KEY_BLOB
 targetos: Windows
 req.typenames: BCRYPT_DSA_KEY_BLOB, *PBCRYPT_DSA_KEY_BLOB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BCRYPT_DSA_KEY_BLOB
+ - bcrypt/_BCRYPT_DSA_KEY_BLOB
+ - PBCRYPT_DSA_KEY_BLOB
+ - bcrypt/PBCRYPT_DSA_KEY_BLOB
+ - BCRYPT_DSA_KEY_BLOB
+ - bcrypt/BCRYPT_DSA_KEY_BLOB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - BCRYPT_DSA_KEY_BLOB
 ---
 
 # BCRYPT_DSA_KEY_BLOB structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCRYPT_DSA_KEY_BLOB</b> structure is used as a header for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Algorithm</a> (DSA) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> in memory.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwMagic
 
@@ -90,32 +90,24 @@ The structure represents a DSA private key.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cbKey
 
 The length, in bytes, of the key.
 
-
 ### -field Count
 
-The number of iterations, in big-endian format, used to generate <i>q</i>. 
-
+The number of iterations, in big-endian format, used to generate <i>q</i>.
 
 ### -field Seed
 
 The seed value, in big-endian format, used to generate <i>q</i>.
 
-
 ### -field q
 
 The 160-bit prime factor, in big-endian format.
 
-
 ## -remarks
-
-
 
 The structure applies to DSA keys that equal or exceed 512 bits in length but are less  than or equal to 1024 bits.
 
@@ -137,19 +129,11 @@ Public[cbKey]         // Big-endian.
 PrivateExponent[20]   // Big-endian.
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
- 
-
- 
 

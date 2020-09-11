@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMATION, JOBOBJECT_BASIC_LIMIT_INFORMATION structure, JOB_OBJECT_LIMIT_ACTIVE_PROCESS, JOB_OBJECT_LIMIT_AFFINITY, JOB_OBJECT_LIMIT_BREAKAWAY_OK, JOB_OBJECT_LIMIT_DIE_ON_UNHANDLED_EXCEPTION, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE, JOB_OBJECT_LIMIT_PRESERVE_JOB_TIME, JOB_OBJECT_LIMIT_PRIORITY_CLASS, JOB_OBJECT_LIMIT_PROCESS_MEMORY, JOB_OBJECT_LIMIT_PROCESS_TIME, JOB_OBJECT_LIMIT_SCHEDULING_CLASS, JOB_OBJECT_LIMIT_SILENT_BREAKAWAY_OK, JOB_OBJECT_LIMIT_SUBSET_AFFINITY, JOB_OBJECT_LIMIT_WORKINGSET, PJOBOBJECT_BASIC_LIMIT_INFORMATION, PJOBOBJECT_BASIC_LIMIT_INFORMATION structure pointer, _JOBOBJECT_BASIC_LIMIT_INFORMATION, _win32_jobobject_basic_limit_information_str, base.jobobject_basic_limit_information_str, winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION, winnt/PJOBOBJECT_BASIC_LIMIT_INFORMATION'
-f1_keywords:
-- winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- JOBOBJECT_BASIC_LIMIT_INFORMATION
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_LIMIT_INFORMATION, *PJOBOBJECT_BASIC_LIMIT_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JOBOBJECT_BASIC_LIMIT_INFORMATION
+ - winnt/_JOBOBJECT_BASIC_LIMIT_INFORMATION
+ - PJOBOBJECT_BASIC_LIMIT_INFORMATION
+ - winnt/PJOBOBJECT_BASIC_LIMIT_INFORMATION
+ - JOBOBJECT_BASIC_LIMIT_INFORMATION
+ - winnt/JOBOBJECT_BASIC_LIMIT_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - JOBOBJECT_BASIC_LIMIT_INFORMATION
 ---
 
 # JOBOBJECT_BASIC_LIMIT_INFORMATION structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains basic limit information for a job object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PerProcessUserTimeLimit
 
@@ -68,7 +68,6 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_PROCESS_TIME</b>, this member
 The system periodically checks to determine whether each process associated with the job has accumulated more user-mode time than the set limit. If it has, the process is terminated.
 
 If the job is nested, the effective limit is the most restrictive limit in the job chain.
-
 
 ### -field PerJobUserTimeLimit
 
@@ -83,7 +82,6 @@ The system periodically checks to determine whether the sum of the user-mode exe
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure is carried out. By default, all processes are terminated and the status code is set to <b>ERROR_NOT_ENOUGH_QUOTA</b>.
 
 To register  for  notification when this limit is exceeded without terminating processes, use the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the <b>JobObjectNotificationLimitInformation</b> information class.
-
 
 ### -field LimitFlags
 
@@ -314,8 +312,6 @@ If the job is nested, the effective working set size is the smallest working set
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MinimumWorkingSetSize
 
@@ -323,20 +319,17 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_WORKINGSET</b>, this member i
 
 If <b>MaximumWorkingSetSize</b> is nonzero, <b>MinimumWorkingSetSize</b> cannot be zero.
 
-
 ### -field MaximumWorkingSetSize
 
 If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_WORKINGSET</b>, this member is the maximum working set size in bytes for each process associated with the job. Otherwise, this member is ignored.
 
 If <b>MinimumWorkingSetSize</b> is nonzero, <b>MaximumWorkingSetSize</b> cannot be zero.
 
-
 ### -field ActiveProcessLimit
 
 If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_ACTIVE_PROCESS</b>, this member is the active process limit for the job. Otherwise, this member is ignored.
 
 If you try to associate a process with a job, and this causes the active process count to exceed this limit, the process is terminated and the association fails.
-
 
 ### -field Affinity
 
@@ -345,13 +338,11 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_AFFINITY</b>, this member is 
 The affinity must be a subset of the system affinity mask obtained by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function. The affinity of each thread is set to this value, but threads are free to subsequently set their affinity, as long as it is a subset of the specified affinity mask. Processes cannot set their own affinity mask.
 
-
 ### -field PriorityClass
 
 If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_PRIORITY_CLASS</b>, this member is the priority class for all processes associated with the job. Otherwise, this member is ignored.
 
 Processes and threads cannot modify their priority class. The calling process must enable the <b>SE_INC_BASE_PRIORITY_NAME</b> privilege.
-
 
 ### -field SchedulingClass
 
@@ -359,23 +350,14 @@ If <b>LimitFlags</b> specifies <b>JOB_OBJECT_LIMIT_SCHEDULING_CLASS</b>, this me
 
 The valid values are 0 to 9. Use 0 for the least favorable scheduling class relative to other threads, and 9 for the most favorable scheduling class relative to other threads. By default, this value is 5. To use a scheduling class greater than 5, the calling process must enable the <b>SE_INC_BASE_PRIORITY_NAME</b> privilege.
 
-
 ## -remarks
-
-
 
 Processes can still empty their working sets using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a> function with (<b>SIZE_T</b>)-1, even when <b>JOB_OBJECT_LIMIT_WORKINGSET</b> is used. However, you cannot use <b>SetProcessWorkingSetSize</b> change the minimum or maximum working set size of a process in a job object.
 
 The system increments the active process count when you attempt to associate a process with a job. If the limit is exceeded, the system decrements the active process count only when the process terminates and all handles to the process are closed. Therefore, if you have an open handle to a process that has been terminated in such a manner, you cannot associate any new processes until the handle is closed and the active process count is below the limit.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
@@ -402,7 +384,4 @@ The system increments the active process count when you attempt to associate a p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
- 
-
- 
 

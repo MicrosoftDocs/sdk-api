@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
 ms.date: 12/05/2018
 ms.keywords: ComposeWith, ComposeWith method [COM], ComposeWith method [COM],IMoniker interface, IMoniker interface [COM],ComposeWith method, IMoniker.ComposeWith, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
-f1_keywords:
-- objidl/IMoniker.ComposeWith
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.ComposeWith
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::ComposeWith
+ - objidl/IMoniker::ComposeWith
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.ComposeWith
 ---
 
 # IMoniker::ComposeWith
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new composite moniker by combining the current moniker with the specified moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pmkRight [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to compose onto the end of this moniker.
 
-
 ### -param fOnlyIfNotGeneric [in]
 
 If <b>TRUE</b>, the caller requires a nongeneric composition, so the operation should proceed only if <i>pmkRight</i> is a moniker class that this moniker can compose with in some way other than forming a generic composite. If <b>FALSE</b>, the method can create a generic composite if necessary. Most callers should set this parameter to <b>FALSE</b>.
-
 
 ### -param ppmkComposite [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the composite moniker pointer. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the resulting moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs or if the monikers compose to nothing (for example, composing an anti-moniker with an item moniker or a file moniker), *<i>ppmkComposite</i> should be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -107,14 +98,8 @@ Indicates that <i>fOnlyIfNotGeneric</i> was <b>TRUE</b>, but the monikers could 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Joining two monikers together is called <i>composition</i>. Sometimes two monikers of the same class can be combined in what is called nongeneric composition. For example, a file moniker representing an incomplete path and another file moniker representing a relative path can be combined to form a single file moniker representing the complete path. Nongeneric composition for a given moniker class can be handled only in the implementation of <b>ComposeWith</b> for that moniker class.
 
@@ -182,22 +167,12 @@ If the <i>pmkRight</i> parameter is not of a class to which you give special tre
 <td>URL monikers support composition of two URLs: a base URL composed with a relative URL. This composition is done according to the RFC on relative URLs. If <i>fOnlyIfNotGeneric</i> is <b>TRUE</b>, the method returns MK_E_NEEDGENERIC. Otherwise, this method simply returns <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-creategenericcomposite">CreateGenericComposite</a>(this, pmkRight, ppmkComposite). </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-creategenericcomposite">CreateGenericComposite</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
- 
-
- 
 

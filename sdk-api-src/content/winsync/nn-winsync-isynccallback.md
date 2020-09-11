@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: f6c96e02-e9db-402c-8197-580f688b068f
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], ISyncCallback interface [Windows Sync],described, winsync.isynccallback, winsync/ISyncCallback
-f1_keywords:
-- winsync/ISyncCallback
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncCallback
+ - winsync/ISyncCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncCallback
 ---
 
 # ISyncCallback interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents application callbacks that are used to notify the application of synchronization events.
-
-
 
 ## -inheritance
 
@@ -119,20 +117,13 @@ Occurs when a synchronization provider sets a recoverable error while it is load
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-reference">Windows Sync Reference</a>
- 
-
- 
 

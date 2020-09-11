@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: 8225dd01-47cc-451e-b6a6-c16ddf62ca20
 ms.date: 12/05/2018
 ms.keywords: PSCoerceToCanonicalValue, PSCoerceToCanonicalValue function [Windows Properties], _shell_PSCoerceToCanonicalValue, properties.PSCoerceToCanonicalValue, propsys/PSCoerceToCanonicalValue, shell.PSCoerceToCanonicalValue
-f1_keywords:
-- propsys/PSCoerceToCanonicalValue
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSCoerceToCanonicalValue
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSCoerceToCanonicalValue
+ - propsys/PSCoerceToCanonicalValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSCoerceToCanonicalValue
 ---
 
 # PSCoerceToCanonicalValue function
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the value of a property to the canonical value, according to the property description.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
@@ -63,17 +59,13 @@ Type: <b>REFPROPERTYKEY</b>
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the property whose value is to be coerced.
 
-
 ### -param ppropvar [in, out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the original value. When this function returns successfully, contains the canonical value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -140,14 +132,8 @@ Coercion from the value's type to the property description's type was not possib
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is a wrapper around the system's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue">IPropertyDescription::CoerceToCanonicalValue</a>.
 
@@ -295,14 +281,7 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
@@ -321,7 +300,4 @@ else
 
 
 <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a>
- 
-
- 
 

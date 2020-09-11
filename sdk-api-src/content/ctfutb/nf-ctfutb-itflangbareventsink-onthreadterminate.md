@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: cdb5d505-524b-4fbc-a90a-181d22cbadbc
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadTerminate method, ITfLangBarEventSink.OnThreadTerminate, ITfLangBarEventSink::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [Text Services Framework], OnThreadTerminate method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreadterminate_ref, ctfutb/ITfLangBarEventSink::OnThreadTerminate, tsf.itflangbareventsink_onthreadterminate
-f1_keywords:
-- ctfutb/ITfLangBarEventSink.OnThreadTerminate
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msutb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msutb.dll
-api_name:
-- ITfLangBarEventSink.OnThreadTerminate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarEventSink::OnThreadTerminate
+ - ctfutb/ITfLangBarEventSink::OnThreadTerminate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msutb.dll
+api_name:
+ - ITfLangBarEventSink.OnThreadTerminate
 ---
 
 # ITfLangBarEventSink::OnThreadTerminate
@@ -53,19 +54,11 @@ Not currently used.
 
 ## -parameters
 
-
-
-
 ### -param dwThreadId [in]
 
 Not currently used.
 
-
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

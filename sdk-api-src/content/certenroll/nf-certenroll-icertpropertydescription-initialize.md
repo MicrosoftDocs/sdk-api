@@ -7,10 +7,6 @@ tech.root: security
 ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
-f1_keywords:
-- certenroll/ICertPropertyDescription.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyDescription.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyDescription::Initialize
+ - certenroll/ICertPropertyDescription::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyDescription.Initialize
 ---
 
 # ICertPropertyDescription::Initialize
@@ -48,23 +49,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes the object from a string that contains descriptive information about the certificate. Use this property to create a string that can be displayed in user interfaces that enumerate certificate properties. This method is web enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param strDescription [in]
 
 A <b>BSTR</b> variable that contains a description. The string length cannot exceed 260 characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -100,24 +93,12 @@ The string length exceeds 260 characters.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-setvalueoncertificate">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertydescription-get_description">Description</a> property to retrieve the description string.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
 
@@ -132,7 +113,4 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a>
- 
-
- 
 

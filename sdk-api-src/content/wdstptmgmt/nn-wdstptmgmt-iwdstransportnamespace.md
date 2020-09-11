@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: eadb7b1b-aaef-4a4e-a2de-c641a4e10173
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace, IWdsTransportNamespace interface [Windows Deployment Services], IWdsTransportNamespace interface [Windows Deployment Services],described, wds.iwdstransportnamespace, wdstptmgmt/IWdsTransportNamespace
-f1_keywords:
-- wdstptmgmt/IWdsTransportNamespace
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportNamespace
+ - wdstptmgmt/IWdsTransportNamespace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportNamespace
 ---
 
 # IWdsTransportNamespace interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a namespace on a WDS transport server.
-
 
 ## -inheritance
 
@@ -298,5 +297,5 @@ Receives the type of the namespace for this object.
 
 </td>
 </tr>
-</table> 
+</table>
 

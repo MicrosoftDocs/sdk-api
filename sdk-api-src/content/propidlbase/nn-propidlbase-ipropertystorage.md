@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
-f1_keywords:
-- propidlbase/IPropertyStorage
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyStorage
+ - propidlbase/IPropertyStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertyStorage
 ---
 
 # IPropertyStorage interface
 
 
 ## -description
-
 
 The <b>IPropertyStorage</b> interface manages the persistent properties of a single property set. Persistent properties consist of information that can be stored persistently in a property set, such as the summary information associated with a file. This contrasts with run-time properties associated with Controls and Automation, which can be used to affect system behavior. Use the methods of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface to create or open a persistent property set. An instance of the 
@@ -67,7 +67,6 @@ Property IDs differ from the dispatch IDs used in Automation <b>dispid</b> prope
 The 
 <b>IPropertyStorage</b> interface can be used to access both simple and nonsimple property sets. Nonsimple property sets can hold several complex property types that cannot be held in a simple property set. For more information see 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/storage-vs--stream-for-a-property-set">Storage and Stream Objects for a Property Set</a>.
-
 
 ## -inheritance
 
@@ -192,13 +191,9 @@ Creates or changes string names corresponding to given property identifiers.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
 
@@ -247,7 +242,4 @@ Creates or changes string names corresponding to given property identifiers.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 63097b58-8197-4354-8b92-25baaf265df2
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp, IMemAllocatorNotifyCallbackTemp interface [DirectShow], IMemAllocatorNotifyCallbackTemp interface [DirectShow],described, IMemAllocatorNotifyCallbackTempInterface, dshow.imemallocatornotifycallbacktemp, strmif/IMemAllocatorNotifyCallbackTemp
-f1_keywords:
-- strmif/IMemAllocatorNotifyCallbackTemp
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMemAllocatorNotifyCallbackTemp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemAllocatorNotifyCallbackTemp
+ - strmif/IMemAllocatorNotifyCallbackTemp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMemAllocatorNotifyCallbackTemp
 ---
 
 # IMemAllocatorNotifyCallbackTemp interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>IMemAllocatorNotifyCallbackTemp</b> is available for use in the operating 
 
@@ -58,7 +58,6 @@ systems specified in the Requirements section. It may be altered or unavailable 
 subsequent versions.]
 
 The <b>IMemAllocatorNotifyCallbackTemp</b> interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list. To receive callbacks, the filter must implement this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>.
-
 
 ## -inheritance
 
@@ -84,5 +83,5 @@ Called when a sample returns to the allocator's free list.
 
 </td>
 </tr>
-</table> 
+</table>
 

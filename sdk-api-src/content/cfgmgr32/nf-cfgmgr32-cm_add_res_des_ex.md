@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: f19996ae-f243-4e8c-b200-7d11c06490c9
 ms.date: 12/05/2018
 ms.keywords: CM_Add_Res_Des_Ex, CM_Add_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Add_Res_Des_Ex, cfgmgrfn_b3ed76ba-a2cc-4ede-a079-6e39c5c1d3bd.xml, devinst.cm_add_res_des_ex
-f1_keywords:
-- cfgmgr32/CM_Add_Res_Des_Ex
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-api_name:
-- CM_Add_Res_Des_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Add_Res_Des_Ex
+ - cfgmgr32/CM_Add_Res_Des_Ex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+api_name:
+ - CM_Add_Res_Des_Ex
 ---
 
 # CM_Add_Res_Des_Ex function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des">CM_Add_Res_Des</a> instead.]
 
 The <b>CM_Add_Res_Des_Ex</b> function adds a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>. The logical configuration can be on either the local or a remote machine.
 
-
 ## -parameters
-
-
-
 
 ### -param prdResDes [out, optional]
 
 Pointer to a location to receive a handle to the new resource descriptor.
-
 
 ### -param lcLogConf [in]
 
@@ -92,12 +87,9 @@ Caller-supplied handle to the logical configuration to which the resource descri
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex">CM_Get_Next_Log_Conf_Ex</a>
 
-
-
 ### -param ResourceID [in]
 
 Caller-supplied resource type identifier, which identifies the type of structure supplied by <i>ResourceData</i>. This must be one of the <b>ResType_</b>-prefixed constants defined in <i>Cfgmgr32.h</i>.
-
 
 ### -param ResourceData [in]
 
@@ -217,18 +209,14 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ResourceLen [in]
 
 Caller-supplied length of the structure pointed to by <i>ResourceData</i>.
 
-
 ### -param ulFlags [in]
 
 Not used, must be zero.
-
 
 ### -param hMachine [in, optional]
 
@@ -239,18 +227,12 @@ Caller-supplied machine handle, obtained from a previous call to <a href="https:
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
 <div class="alert"><b>Note</b>  Starting with Windows 8, <b>CM_Add_Res_Des_Ex</b> returns CR_CALL_NOT_IMPLEMENTED when used in a Wow64 scenario. To request information about the hardware resources on a local machine it is necessary implement an architecture-native version of the application using the hardware resource APIs. For example: An AMD64 application for AMD64 systems.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Callers of <b>CM_Add_Res_Des_Ex</b> must call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a> to deallocate the resource descriptor handle, after it is no longer needed.
 
@@ -258,20 +240,11 @@ Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are
 
 Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des">CM_Add_Res_Des</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_res_des_handle">CM_Free_Res_Des_Handle</a>
- 
-
- 
 

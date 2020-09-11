@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 1909e8b6-ee18-4d17-87cf-29bb3553bb25
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],Remove method, ITextStrings.Remove, ITextStrings::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],ITextStrings interface, controls.itextstrings_remove, tom/ITextStrings::Remove
-f1_keywords:
-- tom/ITextStrings.Remove
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextStrings.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStrings::Remove
+ - tom/ITextStrings::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextStrings.Remove
 ---
 
 # ITextStrings::Remove
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Removes a string from a string collection, starting at an index. 
-
+Removes a string from a string collection, starting at an index.
 
 ## -parameters
-
-
-
 
 ### -param iString [in]
 
@@ -64,17 +60,13 @@ Type: <b>long</b>
 
 The string index.
 
-
 ### -param cString [in]
 
 Type: <b>long</b>
 
 The count of strings to remove.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -97,27 +89,12 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The index is relative to the top of the collection, so <i>iString</i> = 0 removes the top string (<i>cString</i> must be 1), <i>iString</i> = –1 removes the one below the top string (and the top string if <i>cString</i> = 2), and so on.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
- 
-
- 
 

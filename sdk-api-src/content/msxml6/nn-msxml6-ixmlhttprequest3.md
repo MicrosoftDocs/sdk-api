@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: 66af3f84-585c-441e-b9be-4ec188d72a19
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3, IXMLHTTPRequest3 interface [XMLHttpRequest2], IXMLHTTPRequest3 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3, msxml6/IXMLHTTPRequest3
-f1_keywords:
-- msxml6/IXMLHTTPRequest3
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest3
+ - msxml6/IXMLHTTPRequest3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest3
 ---
 
 # IXMLHTTPRequest3 interface
@@ -49,11 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods and properties needed to configure and send HTTP requests and use  callbacks  to receive notifications  during HTTP response processing. Derives from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface. <div class="alert"><b>Note</b>  This interface is supported on Windows Phone 8.1. </div>
 <div> </div>
-
-
 
 ## -inheritance
 
@@ -79,12 +77,9 @@ Sets a client certificate to be used to authenticate against the URL specified i
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IXMLHTTPRequest3</b> interface configures and sends HTTP requests and uses  callbacks  to receive notifications  during HTTP response processing. The <b>IXMLHTTPRequest3</b> interface allows apps to run in a multi-threaded apartment (MTA), a requirement for running under the Windows Runtime (WinRT).
 
@@ -111,14 +106,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ms
 <li>XHR_PROP_IGNORE_CERT_ERRORS – Suppresses certain server certificate errors.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
@@ -133,7 +121,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ms
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
- 
-
- 
 

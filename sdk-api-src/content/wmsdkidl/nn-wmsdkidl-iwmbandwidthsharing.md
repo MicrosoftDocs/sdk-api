@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: fd0e48bb-2e5e-4158-9ff1-5b603f219689
 ms.date: 12/05/2018
 ms.keywords: IWMBandwidthSharing, IWMBandwidthSharing interface [windows Media Format], IWMBandwidthSharing interface [windows Media Format],described, IWMBandwidthSharingInterface, wmformat.iwmbandwidthsharing, wmsdkidl/IWMBandwidthSharing
-f1_keywords:
-- wmsdkidl/IWMBandwidthSharing
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMBandwidthSharing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMBandwidthSharing
+ - wmsdkidl/IWMBandwidthSharing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMBandwidthSharing
 ---
 
 # IWMBandwidthSharing interface
 
 
 ## -description
-
-
 
 The <b>IWMBandwidthSharing</b> interface contains methods to manage the properties of combined streams.
 
@@ -58,9 +57,6 @@ The list of streams that share bandwidth is stored in the bandwidth sharing obje
 The information in a bandwidth sharing object is purely informational. Nothing in the SDK seeks to enforce or check the accuracy of the bandwidth specified. You might want to use bandwidth sharing so that a reading application can make adjustments based on the information contained in the bandwidth sharing object.
 
 An <b>IWMBandwidthSharing</b> interface is exposed for each bandwidth sharing object upon creation. Bandwidth sharing objects are created using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing">IWMProfile3::CreateNewBandwidthSharing</a> method.
-
-
-
 
 ## -inheritance
 
@@ -128,15 +124,8 @@ The following interface can be obtained by using the QueryInterface method of th
 <td>IID_IWMStreamList</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/bandwidth-sharing-object">Bandwidth Sharing Object</a>
 
@@ -147,7 +136,4 @@ The following interface can be obtained by using the QueryInterface method of th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/using-bandwidth-sharing">Using Bandwidth Sharing</a>
- 
-
- 
 

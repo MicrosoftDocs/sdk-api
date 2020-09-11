@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStoryRanges interface, ITextStoryRanges interface [Windows Controls],GetCount method, ITextStoryRanges.GetCount, ITextStoryRanges::GetCount, _win32_ITextStoryRanges_GetCount, _win32_ITextStoryRanges_GetCount_cpp, controls.ITextStoryRanges_GetCount, controls._win32_ITextStoryRanges_GetCount, tom/ITextStoryRanges::GetCount
-f1_keywords:
-- tom/ITextStoryRanges.GetCount
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextStoryRanges.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoryRanges::GetCount
+ - tom/ITextStoryRanges::GetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextStoryRanges.GetCount
 ---
 
 # ITextStoryRanges::GetCount
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of stories in the specified stories collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pCount
 
 Type: <b>long*</b>
 
-The count of stories. 
-
+The count of stories.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-This method returns <b>S_OK</b>. 
-
-
-
+This method returns <b>S_OK</b>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -94,7 +81,4 @@ This method returns <b>S_OK</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

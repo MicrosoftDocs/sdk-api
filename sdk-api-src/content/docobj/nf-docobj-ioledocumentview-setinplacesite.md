@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 88de47c2-979b-4595-8a2f-d4ed1a3a7b6c
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumentView.SetInPlaceSite, IOleDocumentView::SetInPlaceSite, SetInPlaceSite, SetInPlaceSite method [COM], SetInPlaceSite method [COM],IOleDocumentView interface, _ole_ioledocumentview_setinplacesite, com.ioledocumentview_setinplacesite, docobj/IOleDocumentView::SetInPlaceSite
-f1_keywords:
-- docobj/IOleDocumentView.SetInPlaceSite
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.SetInPlaceSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::SetInPlaceSite
+ - docobj/IOleDocumentView::SetInPlaceSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.SetInPlaceSite
 ---
 
 # IOleDocumentView::SetInPlaceSite
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates a container's document view site with a document's view object.
 
-
 ## -parameters
-
-
-
 
 ### -param pIPSite [in]
 
 A pointer to the document view site's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> interface. This parameter can be <b>NULL</b>, in which case the document view object loses all asociation with the container.
 
-
 ## -returns
-
-
 
 This method returns S_OK if a document view site was successfully associated (or disassociated if <i>pIPSite</i> is <b>NULL</b>) with a document view object. Other possible return values include the following.
 
@@ -86,14 +79,8 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 As part of activating a document object, a container must pass the object a pointer to the container's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>. This pointer designates the document view site that is to be associated with the view on which this method is called.
 
@@ -108,20 +95,11 @@ If this method is called on a view that is already associated with a view site, 
 
 A document view must implement this method completely; E_NOTIMPL is not an acceptable return value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
- 
-
- 
 

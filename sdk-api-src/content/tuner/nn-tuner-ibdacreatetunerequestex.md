@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: b22ccd86-b8d7-4dd7-af4b-b99c9fea0de5
 ms.date: 12/05/2018
 ms.keywords: IBDACreateTuneRequestEx, IBDACreateTuneRequestEx interface [Microsoft TV Technologies], IBDACreateTuneRequestEx interface [Microsoft TV Technologies],described, mstv.ibdacreatetunerequestex, tuner/IBDACreateTuneRequestEx
-f1_keywords:
-- tuner/IBDACreateTuneRequestEx
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IBDACreateTuneRequestEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDACreateTuneRequestEx
+ - tuner/IBDACreateTuneRequestEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IBDACreateTuneRequestEx
 ---
 
 # IBDACreateTuneRequestEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacreatetunerequestex-createtunerequestex">CreateTuneRequestEx</a> method, which creates a new tuning request for a tuning space.
-
 
 ## -inheritance
 
@@ -78,14 +77,9 @@ Creates a new tuning request.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDACreateTuneRequestEx)</code>.
-
-
 

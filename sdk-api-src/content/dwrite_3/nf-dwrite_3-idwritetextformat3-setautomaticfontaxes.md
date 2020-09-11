@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","SetAutomati
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetAutomaticFontAxes method, IDWriteTextFormat3.SetAutomaticFontAxes, IDWriteTextFormat3::SetAutomaticFontAxes, SetAutomaticFontAxes, SetAutomaticFontAxes method [Direct Write], SetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setautomaticfontaxes, dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes
-f1_keywords:
-- dwrite_3/IDWriteTextFormat3.SetAutomaticFontAxes
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteTextFormat3::SetAutomaticFontAxes
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteTextFormat3::SetAutomaticFontAxes
+ - dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteTextFormat3::SetAutomaticFontAxes
 ---
 
 ## -description
@@ -64,3 +65,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

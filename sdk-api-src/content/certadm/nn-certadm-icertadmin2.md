@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: df40b6ac-825d-4e8d-a80b-6e57a4e740a2
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin2, ICertAdmin2 interface [Security], ICertAdmin2 interface [Security],described, _certsrv_icertadmin2, certadm/ICertAdmin2, security.icertadmin2
-f1_keywords:
-- certadm/ICertAdmin2
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2
+ - certadm/ICertAdmin2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2
 ---
 
 # ICertAdmin2 interface
 
 
 ## -description
-
 
 The <b>ICertAdmin2</b> interface
 			is one of two interfaces that provide administration functionality for properly authorized clients.
@@ -67,7 +67,6 @@ The <b>ICertAdmin2</b> interface is used to perform the following tasks:
 <li>Determine which roles are set.</li>
 <li>Import a certificate or key.</li>
 </ul>Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -231,5 +230,5 @@ Sets configuration  information for a CA.</p> (Inherited from <b>ICertAdmin2</b>
 <td align="left" width="63%">
 Sets the attributes of a certificate request.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a><b>CCertAdmin</b>)</td>
 </tr>
-</table> 
+</table>
 

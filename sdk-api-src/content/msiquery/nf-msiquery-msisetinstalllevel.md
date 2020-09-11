@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
 ms.date: 12/05/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel
-f1_keywords:
-- msiquery/MsiSetInstallLevel
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSetInstallLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSetInstallLevel
+ - msiquery/MsiSetInstallLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSetInstallLevel
 ---
 
 # MsiSetInstallLevel function
@@ -49,40 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSetInstallLevel</b> function sets the installation level for a full product installation.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
 Handle to the installation that is provided to a DLL custom action or obtained by using <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
-
 ### -param iInstallLevel [in]
 
 The installation level.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiSetInstallLevel</b> function returns one of the following values:
-					
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MsiSetInstallLevel</b> function sets the following:
@@ -103,16 +89,7 @@ If 0 (zero) or a negative number is passed in the <i>iInstallLevel</i> parameter
 
 If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
- 
-
- 
 

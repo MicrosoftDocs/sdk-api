@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
-f1_keywords:
-- windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory
-dev_langs:
-- c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.graphics.imaging.interop.h
-api_name:
-- ISoftwareBitmapNativeFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISoftwareBitmapNativeFactory
+ - windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.graphics.imaging.interop.h
+api_name:
+ - ISoftwareBitmapNativeFactory
 ---
 
 # ISoftwareBitmapNativeFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates instances of <a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/windows.graph
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

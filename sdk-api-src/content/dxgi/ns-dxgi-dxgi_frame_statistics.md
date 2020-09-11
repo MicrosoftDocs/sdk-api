@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_frame_statistics.htm
 ms.date: 12/05/2018
 ms.keywords: 97415a25-57a3-0530-e47d-4459bac66c73, DXGI_FRAME_STATISTICS, DXGI_FRAME_STATISTICS structure [DXGI], direct3ddxgi.dxgi_frame_statistics, dxgi/DXGI_FRAME_STATISTICS
-f1_keywords:
-- dxgi/DXGI_FRAME_STATISTICS
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DXGI.h
-api_name:
-- DXGI_FRAME_STATISTICS
 targetos: Windows
 req.typenames: DXGI_FRAME_STATISTICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_FRAME_STATISTICS
+ - dxgi/DXGI_FRAME_STATISTICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DXGI.h
+api_name:
+ - DXGI_FRAME_STATISTICS
 ---
 
 # DXGI_FRAME_STATISTICS structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes timing and presentation statistics for a frame.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PresentCount
 
@@ -74,13 +70,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 A value that represents  the running total count of v-blanks at which the last image was presented to the monitor and that have happened since the computer booted (for windowed mode, since the swap chain was created).
 
-
 ### -field SyncRefreshCount
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value that represents  the running total count of v-blanks when the scheduler last sampled the machine time by calling <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> and that have happened since the computer booted (for windowed mode, since the swap chain was created).
-
 
 ### -field SyncQPCTime
 
@@ -90,17 +84,13 @@ A value that represents the high-resolution performance counter timer.
         This value is the same as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> 
         function.
 
-
 ### -field SyncGPUTime
 
 Type: <b><a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a></b>
 
 Reserved. Always returns 0.
 
-
 ## -remarks
-
-
 
 You initialize the <b>DXGI_FRAME_STATISTICS</b> structure with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getframestatistics">IDXGIOutput::GetFrameStatistics</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getframestatistics">IDXGISwapChain::GetFrameStatistics</a> method.
 
@@ -109,16 +99,7 @@ You can only use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf
 The values in the <b>PresentCount</b> and <b>PresentRefreshCount</b> members indicate information about when a frame was presented on the display screen. You can use these values to determine whether a glitch occurred. The values in the <b>SyncRefreshCount</b> and <b>SyncQPCTime</b> members indicate timing information that you can use for audio and video synchronization or very precise animation. If the swap chain draws in full-screen mode, these values are based on when the computer booted. 
 If the swap chain draws in windowed mode, these values are based on when the swap chain is created.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
- 
-
- 
 

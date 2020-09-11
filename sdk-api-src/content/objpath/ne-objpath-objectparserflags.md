@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d
 ms.date: 12/05/2018
 ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Management Instrumentation], e_ParserAbsoluteNamespaceOnly, e_ParserAcceptAll, e_ParserAcceptRelativeNamespace, objpath/ObjectParserFlags, objpath/e_ParserAbsoluteNamespaceOnly, objpath/e_ParserAcceptAll, objpath/e_ParserAcceptRelativeNamespace, wmi.objectparserflags
-f1_keywords:
-- objpath/ObjectParserFlags
-dev_langs:
-- c++
 req.header: objpath.h
 req.include-header: Objpath.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Objpath.h
-api_name:
-- ObjectParserFlags
 targetos: Windows
 req.typenames: ObjectParserFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectParserFlags
+ - objpath/ObjectParserFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Objpath.h
+api_name:
+ - ObjectParserFlags
 ---
 
 # ObjectParserFlags enumeration
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -58,34 +58,21 @@ ms.custom: 19H1
 
 Flags used by constructor for <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field e_ParserAcceptRelativeNamespace
 
 Allow a relative namespace.
 
-
 ### -field e_ParserAbsoluteNamespaceOnly
 
 Require a full object path.
-
 
 ### -field e_ParserAcceptAll
 
 Accept any recognizable subset of a path.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
- 
-
- 
 

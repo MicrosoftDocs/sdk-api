@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 6b40ba9e-8562-4d31-beaf-e4d4858bf145
 ms.date: 12/05/2018
 ms.keywords: IVPNotify, IVPNotify interface [DirectShow], IVPNotify interface [DirectShow],described, IVPNotifyInterface, dshow.ivpnotify, vpnotify/IVPNotify
-f1_keywords:
-- vpnotify/IVPNotify
-dev_langs:
-- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVPNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPNotify
+ - vpnotify/IVPNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVPNotify
 ---
 
 # IVPNotify interface
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Supports a private communication mechanism between the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter and a VPE decoder filter that represents a hardware decoder.
 
 Only the Overlay Mixer filter implements this interface. Applications should never use it.
-
-
-
 
 ## -inheritance
 
@@ -92,23 +88,13 @@ Sets the deinterlacing mode (such as bob or weave).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Include Vptype.h before Vpnotify.h.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>
 
@@ -119,7 +105,4 @@ Include Vptype.h before Vpnotify.h.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>
- 
-
- 
 

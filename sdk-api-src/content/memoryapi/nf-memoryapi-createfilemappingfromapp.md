@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3
 ms.date: 12/05/2018
 ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp
-f1_keywords:
-- memoryapi/CreateFileMappingFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- CreateFileMappingFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateFileMappingFromApp
+ - memoryapi/CreateFileMappingFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - CreateFileMappingFromApp
 ---
 
 # CreateFileMappingFromApp function
@@ -55,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed file mapping object for a specified file from a 
     Windows Store app.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -81,7 +77,6 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
        mapping object of a specified size  that is backed by the system paging file instead of by a file in the file 
        system.
 
-
 ### -param SecurityAttributes [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
@@ -95,7 +90,6 @@ If <i>SecurityAttributes</i> is <b>NULL</b>, the handle cannot be
        default security descriptor for a file mapping object come from the primary or impersonation token of the 
        creator. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
-
 
 ### -param PageProtection [in]
 
@@ -296,8 +290,6 @@ Applications should not use this attribute except when
 </td>
 </tr>
 </table>
- 
-
 
 ### -param MaximumSize [in]
 
@@ -306,7 +298,6 @@ The maximum size of the file mapping object.
 An attempt to map a file with a length of 0 (zero) fails with an error code of 
        <b>ERROR_FILE_INVALID</b>. Applications should test for files with a length of 0 (zero) and 
        reject those files.
-
 
 ### -param Name [in, optional]
 
@@ -333,10 +324,7 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
        0 (zero), the next user to log on uses session 1 (one), and so on. Kernel object names must follow the 
        guidelines that are outlined for Terminal Services so that applications can support multiple users.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
@@ -347,12 +335,7 @@ If the object exists before the function call, the function returns a handle to 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 After a file mapping object is created, the size of the file must not exceed the size of the file mapping 
     object; if it does, not all of the file contents are available for sharing.
@@ -417,13 +400,7 @@ Use structured exception handling to protect any code that writes to or reads fr
 
  You can only successfully request executable protection if your app has the <b>codeGeneration</b> capability.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -478,7 +455,4 @@ File Mapping Functions
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: DD313EF9-E45A-418E-91D5-0BD16C42972A
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseCommandSessionComplete method, IMbnDeviceServicesEvents.OnCloseCommandSessionComplete, IMbnDeviceServicesEvents::OnCloseCommandSessionComplete, OnCloseCommandSessionComplete, OnCloseCommandSessionComplete method [Microsoft Broadband Networks], OnCloseCommandSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosecommandsessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseCommandSessionComplete
-f1_keywords:
-- mbnapi/IMbnDeviceServicesEvents.OnCloseCommandSessionComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceServicesEvents.OnCloseCommandSessionComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceServicesEvents::OnCloseCommandSessionComplete
+ - mbnapi/IMbnDeviceServicesEvents::OnCloseCommandSessionComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceServicesEvents.OnCloseCommandSessionComplete
 ---
 
 # IMbnDeviceServicesEvents::OnCloseCommandSessionComplete
@@ -54,30 +55,21 @@ ms.custom: 19H1
 
 Notification method indicating that a device service <b>CloseCommandSession</b> request has completed.
 
-
 ## -parameters
-
-
-
 
 ### -param deviceService [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the <b>CloseCommandSession</b> was requested.
 
-
 ### -param status [in]
 
 A status code that indicates the outcome of the operation.
-
 
 ### -param requestID [in]
 
 The request ID that was assigned by the Mobile Broadband service to the close request.
 
-
 ## -returns
-
-
 
 The method must return the following value.
 
@@ -98,18 +90,8 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
- 
-
- 
 

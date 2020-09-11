@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 1055a053-28d3-470f-aff5-ade71eebc809
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],put_FileName method, IMSVidFilePlayback.put_FileName, IMSVidFilePlayback::put_FileName, IMSVidFilePlaybackput_FileName, mstv.imsvidfileplayback_put_filename, put_FileName, put_FileName method [Microsoft TV Technologies], put_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, segment/IMSVidFilePlayback::put_FileName
-f1_keywords:
-- segment/IMSVidFilePlayback.put_FileName
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidFilePlayback.put_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidFilePlayback::put_FileName
+ - segment/IMSVidFilePlayback::put_FileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidFilePlayback.put_FileName
 ---
 
 # IMSVidFilePlayback::put_FileName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_FileName</b> method sets the name of the file to play.
 
-
 ## -parameters
-
-
-
 
 ### -param FileName [in]
 
 Specifies the file name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -86,18 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 1D0F8C4E-CB64-4787-A25F-8D826356226C
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media Foundation], IMFSensorActivityMonitor interface [Media Foundation],described, mf.imfsensoractivitymonitor, mfidl/IMFSensorActivityMonitor
-f1_keywords:
-- mfidl/IMFSensorActivityMonitor
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorActivityMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorActivityMonitor
+ - mfidl/IMFSensorActivityMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorActivityMonitor
 ---
 
 # IMFSensorActivityMonitor interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for controlling a sensor activity monitor.
-
 
 ## -inheritance
 
@@ -89,12 +88,9 @@ Stops the sensor activity monitor.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Get an instance of this class by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a>. Sensor activity reports are delivered through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a> interface passed into this method.
 
@@ -277,7 +273,4 @@ HRESULT IsCameraInUse(
 }
 
 ```
-
-
-
 

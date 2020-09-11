@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8243b154-be93-4a81-9990-f022dc8cb736
 ms.date: 12/05/2018
 ms.keywords: 8243b154-be93-4a81-9990-f022dc8cb736, MFT_DRAIN_NO_TAILS, MFT_DRAIN_PRODUCE_TAILS, _MFT_DRAIN_TYPE, _MFT_DRAIN_TYPE enumeration [Media Foundation], mf._mft_drain_type, mftransform/MFT_DRAIN_NO_TAILS, mftransform/MFT_DRAIN_PRODUCE_TAILS, mftransform/_MFT_DRAIN_TYPE
-f1_keywords:
-- mftransform/_MFT_DRAIN_TYPE
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mftransform.h
-api_name:
-- _MFT_DRAIN_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFT_DRAIN_TYPE
+ - mftransform/_MFT_DRAIN_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mftransform.h
+api_name:
+ - _MFT_DRAIN_TYPE
 ---
 
 # _MFT_DRAIN_TYPE enumeration
 
 
 ## -description
-
-
 
 Not supported.
 
@@ -58,28 +57,15 @@ Not supported.
 
 ## -enum-fields
 
-
-
-
 ### -field MFT_DRAIN_PRODUCE_TAILS
 
 Reserved.
-          
-
 
 ### -field MFT_DRAIN_NO_TAILS
 
 Reserved.
-          
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
 

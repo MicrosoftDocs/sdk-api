@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: a2ac70c8-e33b-46f1-b53b-1ab07555f109
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextRenderer, IDWriteTextRenderer interface [Direct Write], IDWriteTextRenderer interface [Direct Write],described, directwrite.IDWriteTextRenderer, dwrite/IDWriteTextRenderer
-f1_keywords:
-- dwrite/IDWriteTextRenderer
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextRenderer
+ - dwrite/IDWriteTextRenderer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextRenderer
 ---
 
 # IDWriteTextRenderer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
-
 
 ## -inheritance
 
@@ -108,16 +107,9 @@ The <b>IDWriteTextRenderer</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping">IDWritePixelSnapping</a>
- 
-
- 
 

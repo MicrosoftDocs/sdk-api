@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: a614ea59-0661-43db-8ad5-b732d4acee80
 ms.date: 12/05/2018
 ms.keywords: MMC_EXPANDSYNC_STRUCT, MMC_EXPANDSYNC_STRUCT structure [MMC], _slate_mmc_expandsync_struct, mmc.mmc_expandsync_struct, mmc/MMC_EXPANDSYNC_STRUCT
-f1_keywords:
-- mmc/MMC_EXPANDSYNC_STRUCT
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- MMC_EXPANDSYNC_STRUCT
 targetos: Windows
 req.typenames: MMC_EXPANDSYNC_STRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MMC_EXPANDSYNC_STRUCT
+ - mmc/_MMC_EXPANDSYNC_STRUCT
+ - MMC_EXPANDSYNC_STRUCT
+ - mmc/MMC_EXPANDSYNC_STRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - MMC_EXPANDSYNC_STRUCT
 ---
 
 # MMC_EXPANDSYNC_STRUCT structure
 
 
 ## -description
-
 
 The 
 <b>MMC_EXPANDSYNC_STRUCT</b> structure is introduced in MMC 1.1.
@@ -59,11 +61,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> method with the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a> notification.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bHandled
 
@@ -71,31 +69,20 @@ A value that specifies whether the snap-in has expanded the specified scope item
 
 The default value for <b>bHandled</b> is <b>FALSE</b>. If the snap-in does not handle <b>MMC_EXPANDSYNC</b> or sets <b>bHandled</b> to <b>FALSE</b>, MMC sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to the snap-in.
 
-
 ### -field bExpanding
 
 A value that specifies whether the snap-in is expanding or collapsing. <b>TRUE</b> if the folder is being expanded. <b>FALSE</b> if the folder is being collapsed.
-
 
 ### -field hItem
 
 The <b>HSCOPEITEM</b> of the item that must be expanded.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a> notification is sent by MMC when it requires a scope item to be synchronously expanded. Normally, this occurs when a console file is reloaded with a scope item expanded. For more information about handling this notification, see 
 <b>MMCN_EXPANDSYNC</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a>
 
@@ -110,7 +97,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mm
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a>
- 
-
- 
 

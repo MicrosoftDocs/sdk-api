@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 53084f0d-cf78-437a-ae04-43fd78cb9839
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],RemoveItem method, ITransferSource.RemoveItem, ITransferSource::RemoveItem, RemoveItem, RemoveItem method [Windows Shell], RemoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RemoveItem, shell.ITransferSource_RemoveItem, shobjidl_core/ITransferSource::RemoveItem
-f1_keywords:
-- shobjidl_core/ITransferSource.RemoveItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource.RemoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource::RemoveItem
+ - shobjidl_core/ITransferSource::RemoveItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource.RemoveItem
 ---
 
 # ITransferSource::RemoveItem
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the item without moving the item to the Recycle Bin.
 
-
 ## -parameters
-
-
-
 
 ### -param psiSource [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be removed.
 
-
 ### -param flags [in]
 
 Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
 Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -185,7 +177,4 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
- 
-
-
 

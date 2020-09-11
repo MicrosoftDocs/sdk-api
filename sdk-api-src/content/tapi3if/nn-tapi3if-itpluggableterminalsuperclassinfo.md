@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f9226af1-90e7-4317-af73-e1563883e2b6
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo, ITPluggableTerminalSuperclassInfo interface [TAPI 2.2], ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassinfo, tapi3if/ITPluggableTerminalSuperclassInfo
-f1_keywords:
-- tapi3if/ITPluggableTerminalSuperclassInfo
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalSuperclassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalSuperclassInfo
+ - tapi3if/ITPluggableTerminalSuperclassInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalSuperclassInfo
 ---
 
 # ITPluggableTerminalSuperclassInfo interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITPluggableTerminalSuperclassInfo</b> interface exposes methods that get the name and CLSID of a pluggable terminal class. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggablesuperclassinfo-next">IEnumPluggableSuperclassInfo::Next</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-get_pluggablesuperclasses">ITTerminalSupport2::get_PluggableSuperclasses</a> methods create the 
 <b>ITPluggableTerminalSuperclassInfo</b> interface.
-
 
 ## -inheritance
 
@@ -90,5 +89,5 @@ Gets the terminal's friendly name.
 
 </td>
 </tr>
-</table> 
+</table>
 

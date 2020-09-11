@@ -8,10 +8,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawindexedprimitiveup.htm
 ms.date: 12/05/2018
 ms.keywords: DrawIndexedPrimitiveUP, DrawIndexedPrimitiveUP method [Direct3D 9], DrawIndexedPrimitiveUP method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawIndexedPrimitiveUP method, IDirect3DDevice9.DrawIndexedPrimitiveUP, IDirect3DDevice9::DrawIndexedPrimitiveUP, a76e7ddd-b096-aabd-099d-4ef12355b8c1, d3d9helper/IDirect3DDevice9::DrawIndexedPrimitiveUP, direct3d9.idirect3ddevice9__drawindexedprimitiveup
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.DrawIndexedPrimitiveUP
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.DrawIndexedPrimitiveUP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::DrawIndexedPrimitiveUP
+ - d3d9helper/IDirect3DDevice9::DrawIndexedPrimitiveUP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.DrawIndexedPrimitiveUP
 ---
 
 # IDirect3DDevice9::DrawIndexedPrimitiveUP
@@ -50,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renders the specified geometric primitive with data specified by a user memory pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param PrimitiveType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dprimitivetype">D3DPRIMITIVETYPE</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dprimitivetype">D3DPRIMITIVETYPE</a> enumerated type, describing the type of primitive to render. 
-
+Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dprimitivetype">D3DPRIMITIVETYPE</a> enumerated type, describing the type of primitive to render.
 
 ### -param MinVertexIndex [in]
 
@@ -72,13 +67,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Minimum vertex index. This is a zero-based index.
 
-
 ### -param NumVertices [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
  Number of vertices used during this call. The first vertex is located at index: MinVertexIndex.
-
 
 ### -param PrimitiveCount [in]
 
@@ -86,13 +79,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Number of primitives to render. The maximum number of primitives allowed is determined by checking the MaxPrimitiveCount member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure (the number of indices is a function of the primitive count and the primitive type).
 
-
 ### -param pIndexData [in]
 
 Type: <b>const void*</b>
 
-User memory pointer to the index data. 
-
+User memory pointer to the index data.
 
 ### -param IndexDataFormat [in]
 
@@ -116,29 +107,20 @@ Type: <b>const void*</b>
 
 User memory pointer to the vertex data. The vertex data must be in stream 0.
 
-
 ### -param VertexStreamZeroStride [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of bytes of data for each vertex. This value may not be 0.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be the following:
      D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
-
-
 
 This method is intended for use in applications that are unable to store their vertex data in vertex buffers. This method supports only a single vertex stream, which must be declared as stream 0.
 
@@ -148,13 +130,7 @@ The vertex data passed to <b>IDirect3DDevice9::DrawIndexedPrimitiveUP</b> does n
 
 When converting a legacy application to Direct3D 9, you must add a call to either <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf">IDirect3DDevice9::SetFVF</a> to use the fixed function pipeline, or <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setvertexdeclaration">IDirect3DDevice9::SetVertexDeclaration</a> to use a vertex shader before you make any Draw calls.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
@@ -165,7 +141,4 @@ When converting a legacy application to Direct3D 9, you must add a call to eithe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d9/rendering-from-vertex-and-index-buffers">Rendering from Vertex and Index Buffers (Direct3D 9)</a>
- 
-
- 
 

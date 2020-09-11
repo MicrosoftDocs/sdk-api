@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage [Strctd Stg], IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage],described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
-f1_keywords:
-- propidl/IPropertySetStorage
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertySetStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySetStorage
+ - propidl/IPropertySetStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertySetStorage
 ---
 
 # IPropertySetStorage interface
 
 
 ## -description
-
 
 The 
 <b>IPropertySetStorage</b> interface creates, opens, deletes, and enumerates property set storages that support instances of the 
@@ -69,7 +69,6 @@ The
 <b>IPropertyStorage</b>.
 
 <b>IPropertySetStorage</b> methods identify property sets through a globally unique identifier (GUID) called a format identifier (FMTID). The FMTID for a property set identifies the property identifiers in the property set, their meaning, and any constraints on the values. The FMTID of a property set should also provide the means to manipulate that property set. Only one instance of a given FMTID may exist at a time within a single property storage.
-
 
 ## -inheritance
 
@@ -122,12 +121,9 @@ Opens a previously created property set.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  There is an exception to the above in The DocumentSummaryInformation and UserDefined property set. This property set is unique in that it may have two property set sections in a single underlying stream. This property set is described in <a href="https://docs.microsoft.com/windows/desktop/Stg/the-documentsummaryinformation-and-userdefined-property-sets">The DocumentSummaryInformation and UserDefined Property Sets</a>. The first section is the DocumentSummaryInformation property set. The second section is the UserDefined property set. Each section is identified by a unique format identifier (FMTID).  For example, FMTID_DocSummaryInformation and FMTID_UserDefined property set. The fact that these two property sets can exist in a single stream affects the behavior of the <b>IPropertySetStorage</b> interface.<p class="note">When <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a> is called to create the UserDefined property set, the first section is created automatically. Once the FMTID_UserDefinedProperties is created, FMTID_DocSummaryInformation need not be created, but can be operend with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-open">IPropertySetStorage::Open</a>. Creating the first section does not automatically create the second section and it is not possible to open both sections simultaneously.
 
@@ -138,12 +134,7 @@ Opens a previously created property set.
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
@@ -178,7 +169,4 @@ Opens a previously created property set.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
- 
-
- 
 

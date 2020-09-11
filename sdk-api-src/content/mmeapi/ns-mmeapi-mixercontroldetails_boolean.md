@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCONTROLDETAILS_BOOLEAN, *PMIXERCONTROLDETAILS_BOOLEAN, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
-f1_keywords:
-- mmeapi/MIXERCONTROLDETAILS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERCONTROLDETAILS
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_BOOLEAN, *PMIXERCONTROLDETAILS_BOOLEAN, *LPMIXERCONTROLDETAILS_BOOLEAN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tMIXERCONTROLDETAILS_BOOLEAN
+ - mmeapi/tMIXERCONTROLDETAILS_BOOLEAN
+ - PMIXERCONTROLDETAILS_BOOLEAN
+ - mmeapi/PMIXERCONTROLDETAILS_BOOLEAN
+ - MIXERCONTROLDETAILS_BOOLEAN
+ - mmeapi/MIXERCONTROLDETAILS_BOOLEAN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERCONTROLDETAILS
 ---
 
 # MIXERCONTROLDETAILS_BOOLEAN structure
@@ -51,18 +56,11 @@ ms.custom: 19H1
 
 The **MIXERCONTROLDETAILS_BOOLEAN** structure retrieves and sets Boolean control properties for an audio mixer control
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field fValue
 
 Boolean value for a single item or channel. This value is assumed to be zero for a FALSE state (such as off or disabled), and nonzero for a TRUE state (such as on or enabled).
-
 
 ## -remarks
 
@@ -104,12 +102,7 @@ MIXERCONTROL_CONTROLTYPE_MUX
 
 MIXERCONTROL_CONTROLTYPE_SINGLESELECT
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
@@ -128,7 +121,4 @@ MIXERCONTROL_CONTROLTYPE_SINGLESELECT
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
- 
-
- 
 

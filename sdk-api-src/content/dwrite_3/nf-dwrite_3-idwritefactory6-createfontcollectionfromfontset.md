@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontColl
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory6.CreateFontCollectionFromFontSet, IDWriteFactory6::CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontcollectionfromfontset, dwrite_3/IDWriteFactory6::CreateFontCollectionFromFontSet
-f1_keywords:
-- dwrite_3/IDWriteFactory6.CreateFontCollectionFromFontSet
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory6::CreateFontCollectionFromFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFactory6::CreateFontCollectionFromFontSet
+ - dwrite_3/IDWriteFactory6::CreateFontCollectionFromFontSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory6::CreateFontCollectionFromFontSet
 ---
 
 ## -description
@@ -76,3 +77,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

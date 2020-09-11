@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
-f1_keywords:
-- d3d11_3/D3D11_RASTERIZER_DESC2
-dev_langs:
-- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_3.h
-api_name:
-- D3D11_RASTERIZER_DESC2
 targetos: Windows
 req.typenames: D3D11_RASTERIZER_DESC2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_RASTERIZER_DESC2
+ - d3d11_3/D3D11_RASTERIZER_DESC2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_3.h
+api_name:
+ - D3D11_RASTERIZER_DESC2
 ---
 
 ## -description
@@ -216,3 +217,4 @@ The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> me
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
+

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 10E9250E-7A64-4FB0-ACB9-10CB144A0FBE
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriter, CreatePackageWriter method [App packaging and management], CreatePackageWriter method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageWriter method, IAppxFactory.CreatePackageWriter, IAppxFactory::CreatePackageWriter, appxpackaging/IAppxFactory::CreatePackageWriter, appxpkg.iappxfactory_createpackagewriter
-f1_keywords:
-- appxpackaging/IAppxFactory.CreatePackageWriter
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFactory.CreatePackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFactory::CreatePackageWriter
+ - appxpackaging/IAppxFactory::CreatePackageWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFactory.CreatePackageWriter
 ---
 
 # IAppxFactory::CreatePackageWriter
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a write-only package object to which  files can be added.
 
-
 ## -parameters
-
-
-
 
 ### -param outputStream [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objid
 
 The output stream that receives the serialized package data. The stream must support at least the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a> method.
 
-
 ### -param settings [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_package_settings">APPX_PACKAGE_SETTINGS</a>*</b>
 
 The settings for the production of this package.
-
 
 ### -param packageWriter [out, retval]
 
@@ -78,10 +72,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/n
 
 The package writer created by this method.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -126,14 +117,8 @@ The hash value is <a href="http://www.w3.org/2000/09/xmldsig">SHA1</a>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The implementation of an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a> is not guaranteed to write data to the output stream before the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-close">Close</a> method is called on the writer object. No other thread should access <i>outputStream</i> until the writer returns from its <b>Close</b> method.
 
@@ -144,15 +129,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory">IAppxFactory</a>
- 
-
- 
 

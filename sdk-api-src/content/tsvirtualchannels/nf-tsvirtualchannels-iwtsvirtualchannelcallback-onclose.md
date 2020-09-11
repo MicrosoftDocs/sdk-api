@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 5038f2f9-980b-4383-a718-eb4e07e9cfe9
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnClose method, IWTSVirtualChannelCallback.OnClose, IWTSVirtualChannelCallback::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_onclose, tsvirtualchannels/IWTSVirtualChannelCallback::OnClose
-f1_keywords:
-- tsvirtualchannels/IWTSVirtualChannelCallback.OnClose
-dev_langs:
-- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TsVirtualChannels.h
-api_name:
-- IWTSVirtualChannelCallback.OnClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSVirtualChannelCallback::OnClose
+ - tsvirtualchannels/IWTSVirtualChannelCallback::OnClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TsVirtualChannels.h
+api_name:
+ - IWTSVirtualChannelCallback.OnClose
 ---
 
 # IWTSVirtualChannelCallback::OnClose
 
 
 ## -description
-
 
 Notifies the user that the channel has been closed. There are three ways for the channel to 
     be closed:
@@ -69,30 +69,13 @@ Notifies the user that the channel has been closed. There are three ways for the
     lock, and the <b>Close()</b> method will try to 
     acquire the same lock on a different thread.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> on success. Results in no action if the call fails.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
- 
-
- 
 

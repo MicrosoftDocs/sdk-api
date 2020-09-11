@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.date: 12/05/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
-f1_keywords:
-- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
+ - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears the protection fault state for the specified volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
@@ -71,11 +67,7 @@ The name must be in one of the following formats and must include a trailing bac
 <li>A volume GUID path in the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -156,27 +148,12 @@ The specified volume was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>ClearVolumeProtectFault</b> method dismounts the volume and resets the volume's protection fault member to <b>FALSE</b> to allow normal I/O to continue on the volume. If the volume is not in a faulted state, this method does nothing.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
- 
-
- 
 

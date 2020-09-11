@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: powermeter
+f1_keywords:
+ - emi
+ - emi/emi
 ---
 
 # Emi.h header
 
 
 ## -description
-
 
 This header is used by Power Metering and Budgeting Reference. For more information, see:
 

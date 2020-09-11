@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
 ms.date: 12/05/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
-f1_keywords:
-- rpcdce/RpcEpRegister
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcEpRegister
-- RpcEpRegisterA
-- RpcEpRegisterW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcEpRegisterW
+ - rpcdce/RpcEpRegisterW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcEpRegister
+ - RpcEpRegisterA
+ - RpcEpRegisterW
 ---
 
 # RpcEpRegisterW function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcEpRegister</b> function adds to or replaces server address information in the local endpoint-map database.
 
-
 ## -parameters
-
-
-
 
 ### -param IfSpec
 
 Interface to register with the local endpoint-map database.
 
-
 ### -param BindingVector
 
 Pointer to a vector of binding handles over which the server can receive remote procedure calls.
 
-
 ### -param UuidVector
 
 Pointer to a vector of object UUIDs offered by the server. The server application constructs this vector.A null argument value indicates there are no object UUIDs to register.
-
 
 ### -param Annotation
 
@@ -85,10 +78,7 @@ Pointer to the character-string comment applied to each cross-product element ad
 
 The annotation string is used by applications for information only. RPC does not use this string to determine which server instance a client communicates with or for enumerating elements in the endpoint-map database.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -146,11 +136,7 @@ This was the wrong kind of binding for the operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcEpRegister</b> function adds or replaces entries in the local host's endpoint-map database. For an existing database entry that matches the provided interface specification, binding handle, and object UUID, this function replaces the entry's endpoint with the endpoint in the provided binding handle.
@@ -208,9 +194,6 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
@@ -248,7 +231,4 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
- 
-
- 
 

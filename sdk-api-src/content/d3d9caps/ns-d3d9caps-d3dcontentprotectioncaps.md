@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 73ef2e12-d376-4bc2-a940-d421acfdd43e
 ms.date: 12/05/2018
 ms.keywords: D3DCONTENTPROTECTIONCAPS, D3DCONTENTPROTECTIONCAPS structure [Media Foundation], D3DCPCAPS_CONTENTKEY, D3DCPCAPS_ENCRYPTEDREADBACK, D3DCPCAPS_ENCRYPTEDREADBACKKEY, D3DCPCAPS_FRESHENSESSIONKEY, D3DCPCAPS_HARDWARE, D3DCPCAPS_PARTIALDECRYPTION, D3DCPCAPS_PROTECTIONALWAYSON, D3DCPCAPS_SEQUENTIAL_CTR_IV, D3DCPCAPS_SOFTWARE, D3DKEYEXCHANGE_DXVA, D3DKEYEXCHANGE_RSAES_OAEP, d3d9caps/D3DCONTENTPROTECTIONCAPS, mf.d3dcontentprotectioncaps
-f1_keywords:
-- d3d9caps/D3DCONTENTPROTECTIONCAPS
-dev_langs:
-- c++
 req.header: d3d9caps.h
 req.include-header: D3d9.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d9caps.h
-api_name:
-- D3DCONTENTPROTECTIONCAPS
 targetos: Windows
 req.typenames: D3DCONTENTPROTECTIONCAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3DCONTENTPROTECTIONCAPS
+ - d3d9caps/_D3DCONTENTPROTECTIONCAPS
+ - D3DCONTENTPROTECTIONCAPS
+ - d3d9caps/D3DCONTENTPROTECTIONCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d9caps.h
+api_name:
+ - D3DCONTENTPROTECTIONCAPS
 ---
 
 # D3DCONTENTPROTECTIONCAPS structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the content protection capabilities of a display driver. To get the capabilities, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Caps
 
@@ -167,8 +165,6 @@ If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field KeyExchangeType
 
@@ -200,35 +196,24 @@ Use the key exchange mechanism defined for DirectX Video Acceleration 2 (DXVA-2)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BufferAlignmentStart
 
 The memory alignment required for buffers used by the GPU cryptographic engine. If the application uses a system memory buffer to pass encrypted content to the GPU, or to read back encrypted content from the GPU, the buffer's starting address must be a multiple of this value.
 
-
 ### -field BlockAlignmentSize
 
 The block alignment required by the GPU cryptographic engine. The size of data to be encrypted must be a multiple of this value.
-
 
 ### -field ProtectedMemorySize
 
 The total amount of memory that can be used to hold protected surfaces.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>
- 
-
- 
 

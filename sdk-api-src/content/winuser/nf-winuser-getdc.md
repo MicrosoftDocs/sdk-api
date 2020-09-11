@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
-f1_keywords:
-- winuser/GetDC
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
-- Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-dc-access-l1-1-0.dll
-- Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
-api_name:
-- GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDC
+ - winuser/GetDC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-dc-access-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
+api_name:
+ - GetDC
 ---
 
 # GetDC function
@@ -54,36 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDC</b> function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen. You can use the returned handle in subsequent GDI functions to draw in the DC. The device context is an opaque data structure, whose values are used internally by GDI.
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a> function is an extension to <b>GetDC</b>, which gives an application more control over how and whether clipping occurs in the client area.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the window whose DC is to be retrieved. If this value is <b>NULL</b>, <b>GetDC</b> retrieves the DC for the entire screen.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the DC for the specified window's client area.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetDC</b> function retrieves a common, class, or private DC depending on the class style of the specified window. For class and private DCs, <b>GetDC</b> leaves the previously assigned attributes unchanged. However, for common DCs, <b>GetDC</b> assigns default attributes to the DC each time it is retrieved. For example, the default font is System, which is a bitmap font. Because of this, the handle to a common DC returned by <b>GetDC</b> does not tell you what font, color, or brush was used when the window was drawn. To determine the font, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextfacea">GetTextFace</a>.
 
@@ -98,12 +86,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
@@ -130,7 +113,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfromdc">WindowFromDC</a>
- 
-
- 
 

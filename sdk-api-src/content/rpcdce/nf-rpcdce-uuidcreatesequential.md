@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 66975d82-559c-4a13-846c-e403b015563b
 ms.date: 12/05/2018
 ms.keywords: UuidCreateSequential, UuidCreateSequential function [RPC], _rpc_uuidcreatesequential, rpc.uuidcreatesequential, rpcdce/UuidCreateSequential
-f1_keywords:
-- rpcdce/UuidCreateSequential
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- UuidCreateSequential
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UuidCreateSequential
+ - rpcdce/UuidCreateSequential
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - UuidCreateSequential
 ---
 
 # UuidCreateSequential function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>UuidCreateSequential</b> function creates a new 
 <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param Uuid
 
 Returns a pointer to the created <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -114,11 +107,7 @@ Cannot get Ethernet or token-ring hardware address for this computer.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 For security reasons, 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a> was modified so that it no longer uses a machine's MAC address to generate <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a>s. 
@@ -133,12 +122,7 @@ The
 <b>UuidCreateSequential</b> function may be used.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
 
@@ -149,7 +133,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
- 
-
- 
 

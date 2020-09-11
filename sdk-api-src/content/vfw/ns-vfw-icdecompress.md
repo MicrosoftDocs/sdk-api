@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: bc9c2416-cc1c-4571-82ee-7d93307f5114
 ms.date: 12/05/2018
 ms.keywords: ICDECOMPRESS, ICDECOMPRESS structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompress_COLLISION813, multimedia.icdecompress_struct, vfw/ICDECOMPRESS
-f1_keywords:
-- vfw/ICDECOMPRESS
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDECOMPRESS
 targetos: Windows
 req.typenames: ICDECOMPRESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDECOMPRESS
+ - vfw/ICDECOMPRESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDECOMPRESS
 ---
 
 # ICDECOMPRESS structure
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDECOMPRESS</b> structure contains decompression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress">ICM_DECOMPRESS</a> message.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -126,43 +119,28 @@ Screen is being updated or refreshed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpbiInput
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
-          
-
 
 ### -field lpInput
 
 Pointer to a buffer containing the input data.
-          
-
 
 ### -field lpbiOutput
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
-          
-
 
 ### -field lpOutput
 
 Pointer to a buffer where the driver should write the decompressed image.
-          
-
 
 ### -field ckid
 
 Chunk identifier from the AVI file.
-          
-
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a>
 
@@ -177,7 +155,4 @@ Chunk identifier from the AVI file.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: dde37299-ad7c-4f59-af99-e75b72ad9188
 ms.date: 12/05/2018
 ms.keywords: GiveFeedback, GiveFeedback method [COM], GiveFeedback method [COM],IDropSource interface, IDropSource interface [COM],GiveFeedback method, IDropSource.GiveFeedback, IDropSource::GiveFeedback, _ole_idropsource_givefeedback, com.idropsource_givefeedback, oleidl/IDropSource::GiveFeedback
-f1_keywords:
-- oleidl/IDropSource.GiveFeedback
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IDropSource.GiveFeedback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDropSource::GiveFeedback
+ - oleidl/IDropSource::GiveFeedback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IDropSource.GiveFeedback
 ---
 
 # IDropSource::GiveFeedback
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a source application to give visual feedback to the end user during a drag-and-drop operation by providing the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function with an enumeration value specifying the visual effect.
-
 
 ## -parameters
 
-
-
-
 ### -param dwEffect [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> value returned by the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a>. 
-
+The <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> value returned by the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a>.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -86,14 +79,8 @@ Indicates successful completion of the method, and requests OLE to update the cu
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When your application detects that the user has started a drag-and-drop operation, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. <b>DoDragDrop</b> enters a loop, calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a> when the mouse first enters a drop target window, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> when the mouse changes its position within the target window, and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> when the mouse leaves the target window.
 
@@ -109,13 +96,7 @@ This function is called frequently during the <a href="https://docs.microsoft.co
 
 <b>IDropSource::GiveFeedback</b> is responsible for changing the cursor shape or for changing the highlighted source based on the value of the <i>dwEffect</i> parameter. If you are using default cursors, you can return DRAGDROP_S_USEDEFAULTCURSORS, which causes OLE to update the cursor for you, using its defaults.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
@@ -126,7 +107,4 @@ This function is called frequently during the <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
- 
-
- 
 

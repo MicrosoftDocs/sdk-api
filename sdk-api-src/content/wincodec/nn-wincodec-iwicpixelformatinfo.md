@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: d5853b27-4329-40d8-bfd0-b4b0f39ba6d5
 ms.date: 12/05/2018
 ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
-f1_keywords:
-- wincodec/IWICPixelFormatInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICPixelFormatInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICPixelFormatInfo
+ - wincodec/IWICPixelFormatInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICPixelFormatInfo
 ---
 
 # IWICPixelFormatInfo interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide information about a pixel format.
-
 
 ## -inheritance
 
@@ -114,13 +113,9 @@ Gets the pixel format GUID.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -135,7 +130,4 @@ Gets the pixel format GUID.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
- 
-
- 
 

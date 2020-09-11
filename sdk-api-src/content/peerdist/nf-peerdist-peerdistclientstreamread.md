@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 7c73e9e2-c723-4472-84e5-b0d25eb3b283
 ms.date: 12/05/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientStreamRead, PeerDistClientStreamRead function [Peer Networking], p2p.peerdistclientstreamread, peerdist/PeerDistClientStreamRead
-f1_keywords:
-- peerdist/PeerDistClientStreamRead
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PeerDist.dll
-api_name:
-- PeerDistClientStreamRead
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerDistClientStreamRead
+ - peerdist/PeerDistClientStreamRead
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PeerDist.dll
+api_name:
+ - PeerDistClientStreamRead
 ---
 
 # PeerDistClientStreamRead function
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerDistClientStreamRead</b> reads a sequence of bytes from content stream.
 
-
 ## -parameters
-
-
-
 
 ### -param hPeerDist [in]
 
 A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
-
 ### -param hContentHandle [in]
 
 A content handle opened by the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> function call.
-
 
 ### -param cbMaxNumberOfBytes
 
 The maximum number of bytes to read. If the <i>cbMaxNumberOfBytesToRead</i> is equal to 0, it indicates that the <b>PeerDistClientStreamRead</b> function is  querying the length of available consecutive content byes in the local cache at the current stream read offset. The query will neither download content from the peers, nor return the count of bytes present in the peer cache.
 
-
 ### -param pBuffer [in, out, optional]
 
 Pointer to the buffer that receives the data from the local cache. This buffer must remain valid for the duration of the read operation. The caller must not use this buffer until the read operation is completed. If the <i>cbMaxNumberOfBytesToRead</i> argument is equal to 0, the <i>pBuffer</i> parameter can be <b>NULL</b>.
-
 
 ### -param dwTimeoutInMilliseconds
 
@@ -108,17 +100,12 @@ Specifies the default timeout of 5 seconds.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. Stream read does not allow the caller to specify the start <b>Offset</b> for the reading. The next stream read offset is implicitly maintained per <i>hContentHandle</i>. 
-
+Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. Stream read does not allow the caller to specify the start <b>Offset</b> for the reading. The next stream read offset is implicitly maintained per <i>hContentHandle</i>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_IO_PENDING</b>. Otherwise, the function may return one of the following values:
 
@@ -172,14 +159,8 @@ The service is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>PeerDistClientStreamRead</b> queues the read and immediately returns to the caller.  As a result, multiple reads can be issued simultaneously with the data buffers utilized in a first-in/first-out manner.
 <b>PeerDistClientStreamRead</b>  will complete a read as soon as any data is available and will not wait for the buffer to fill completely.
@@ -209,13 +190,7 @@ If the read cannot not be completed from either the local cache or the peer cach
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientadddata">PeerDistClientAddData</a> allows content data to be added even if it lies outside the content range.  This extended data will be validated after the corresponding content information has been added to the local cache.  Once validated, it becomes available to peers.  In other words, if a client adds only content information for the first half of content, <b>PeerDistClientAddData</b> still allows the client to add data for the entire content.  However, the second half of the content will not be validated until the corresponding content information for the second half has been added.  No other Peer Distribution APIs are affected by range requests.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientaddcontentinformation">PeerDistClientAddContentInformation</a>
 
@@ -234,7 +209,4 @@ If the read cannot not be completed from either the local cache or the peer cach
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b
 ms.date: 12/05/2018
 ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
-f1_keywords:
-- objidlbase/IInternalUnknown
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IInternalUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInternalUnknown
+ - objidlbase/IInternalUnknown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IInternalUnknown
 ---
 
 # IInternalUnknown interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used exclusively in lightweight client-side handlers that require access to some of the internal interfaces on the proxy.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Retrieves pointers to the supported internal interfaces on an object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Handlers that need access to some of the internal interfaces on the proxy manager have to go through the <b>IInternalUnknown</b> interface. This prevents the handlers from blindly delegating and exposing the aggregatee's internal interfaces outside of the aggregate. These interfaces include <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>. If the handler wants to expose <b>IClientSecurity</b> or <b>IMultiQI</b>, the handler should implement these interfaces itself and delegate to the proxy manager's implementation of these interfaces when appropriate.
 
@@ -92,13 +88,7 @@ For the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl
 
 For the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a> interface, the handler should fill in the interfaces it knows about and then forward the call to the proxy manager to fill in the rest of the interfaces.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
 
@@ -109,7 +99,4 @@ For the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/the-lightweight-client-side-handler">Lightweight Client-Side Handler</a>
- 
-
- 
 

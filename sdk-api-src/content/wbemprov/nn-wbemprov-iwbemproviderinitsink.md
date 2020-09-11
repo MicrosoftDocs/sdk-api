@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
-f1_keywords:
-- wbemprov/IWbemProviderInitSink
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemProviderInitSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemProviderInitSink
+ - wbemprov/IWbemProviderInitSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemProviderInitSink
 ---
 
 # IWbemProviderInitSink interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemProviderInitSink</b> interface is implemented by WMI and called by providers to report initialization status.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Called by the provider to indicate success or failure of initialization.
 
 </td>
 </tr>
-</table> 
+</table>
 

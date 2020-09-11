@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6
 ms.date: 12/05/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
-f1_keywords:
-- lmshare/NetSessionDel
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetSessionDel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetSessionDel
+ - lmshare/NetSessionDel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetSessionDel
 ---
 
 # NetSessionDel function
@@ -49,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ends a network session between a server and a workstation.
-
 
 ## -parameters
 
-
-
-
 ### -param servername [in]
 
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param UncClientName [in]
 
 Pointer to a string that specifies the computer name of the client to disconnect. If the <i>UncClientName</i> parameter is <b>NULL</b>, then all the sessions of the user identified by the <i>username</i> parameter will be deleted on the server specified by the <i>servername</i> parameter. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>.
 
-
 ### -param username [in]
 
 Pointer to a string that specifies the name of the user whose session is to be terminated. If this parameter is <b>NULL</b>, all users' sessions from the client specified by the <i>UncClientName</i> parameter are to be terminated.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
@@ -136,14 +123,8 @@ A session does not exist with that computer name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetSessionDel</b> function.
@@ -211,14 +192,7 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>
 
@@ -240,7 +214,4 @@ int wmain(int argc, wchar_t *argv[])
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/session-functions">Session
 		  Functions</a>
- 
-
- 
 

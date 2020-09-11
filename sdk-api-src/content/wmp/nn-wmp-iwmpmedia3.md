@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 664a3148-3c78-41b0-85ba-9c2b3ac821d9
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia3, IWMPMedia3 interface [Windows Media Player], IWMPMedia3 interface [Windows Media Player],described, IWMPMedia3Interface, wmp.iwmpmedia3, wmp/IWMPMedia3
-f1_keywords:
-- wmp/IWMPMedia3
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPMedia3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMedia3
+ - wmp/IWMPMedia3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPMedia3
 ---
 
 # IWMPMedia3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPMedia3</b> interface provides methods that supplement the <b>IWMPMedia2</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -89,20 +85,13 @@ Retrieves the value of the attribute corresponding to the specified attribute ty
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2 Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

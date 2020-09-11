@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c
 ms.date: 12/05/2018
 ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_USAGE_FLAG, CTL_FIND_SHA1_HASH, CTL_FIND_SUBJECT, CTL_FIND_USAGE, CertFindCTLInStore, CertFindCTLInStore function [Security], _crypto2_certfindctlinstore, security.certfindctlinstore, wincrypt/CertFindCTLInStore
-f1_keywords:
-- wincrypt/CertFindCTLInStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertFindCTLInStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertFindCTLInStore
+ - wincrypt/CertFindCTLInStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertFindCTLInStore
 ---
 
 # CertFindCTLInStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertFindCTLInStore</b> function finds the first or next <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> that matches search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the CTL contexts in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that match the specified find criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of the certificate store to be searched.
-
 
 ### -param dwMsgAndCertEncodingType [in]
 
@@ -77,11 +72,9 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
 This parameter is used only when the <i>dwFindType</i> parameter is set to CTL_FIND_USAGE.
 
-
 ### -param dwFindFlags [in]
 
 Can be set when <i>dwFindType</i> is set to CTL_FIND_USAGE. For details, see the comments under CTL_FIND_USAGE, following.
-
 
 ### -param dwFindType [in]
 
@@ -190,13 +183,10 @@ A CTL having the specified subject is found. <a href="https://docs.microsoft.com
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvFindPara [in]
 
 A pointer to the search value associated with the <i>dwFindType</i> parameter.
-
 
 ### -param pPrevCtlContext [in]
 
@@ -204,10 +194,7 @@ A pointer to the last
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> returned by this function. It must be <b>NULL</b> to get the first CTL in the store. Successive CTLs are retrieved by setting <i>pPrevCtlContext</i> to the pointer to the <b>CTL_CONTEXT</b> returned by a previous function call. Any certificates that do not meet the search criteria or that have been previously deleted by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> are skipped. This function frees the <b>CTL_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
@@ -242,14 +229,8 @@ The handle in the <i>hCertStore</i> parameter is not the same as that in the CTL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subsequent call to the function. Otherwise, the pointer must be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>. A non-<b>NULL</b><i>pPrevCtlContext</i> passed to the function is always freed with a call to <b>CertFreeCTLContext</b>, even if the function generates an error.
@@ -259,13 +240,7 @@ A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subse
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>, or a link to that CTL context can be added to a noncollection store using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctllinktostore">CertAddCTLLinkToStore</a>. If a CTL matching the search criteria is not found, <b>NULL</b> is returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
@@ -304,7 +279,4 @@ A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subse
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
- 
-
- 
 

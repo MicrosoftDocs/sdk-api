@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 52dfb901-ee65-444a-8b27-2d2811cf83c0
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationPending method, IExplorerBrowserEvents.OnNavigationPending, IExplorerBrowserEvents::OnNavigationPending, OnNavigationPending, OnNavigationPending method [Windows Shell], OnNavigationPending method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationPending, shell.IExplorerBrowserEvents_OnNavigationPending, shobjidl_core/IExplorerBrowserEvents::OnNavigationPending
-f1_keywords:
-- shobjidl_core/IExplorerBrowserEvents.OnNavigationPending
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerBrowserEvents.OnNavigationPending
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerBrowserEvents::OnNavigationPending
+ - shobjidl_core/IExplorerBrowserEvents::OnNavigationPending
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerBrowserEvents.OnNavigationPending
 ---
 
 # IExplorerBrowserEvents::OnNavigationPending
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies clients of a pending Explorer browser navigation to a Shell folder.
 
-
 ## -parameters
-
-
-
 
 ### -param pidlFolder [in]
 
@@ -64,26 +60,16 @@ Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A PIDL that specifies the folder.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Explorer browser calls this method before it navigates to a folder, that is, before calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationfailed">IExplorerBrowserEvents::OnNavigationFailed</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationcomplete">IExplorerBrowserEvents::OnNavigationComplete</a>.
 
 
 Returning any failure code from this method, including E_NOTIMPL, will cancel the navigation.
-
-
 

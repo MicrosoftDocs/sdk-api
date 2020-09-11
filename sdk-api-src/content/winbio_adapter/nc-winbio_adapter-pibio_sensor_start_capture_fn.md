@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 79922878-f5d3-4400-8c4f-2636323d7dcf
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_START_CAPTURE_FN, PIBIO_SENSOR_START_CAPTURE_FN callback, SensorAdapterStartCapture, SensorAdapterStartCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterstartcapture, winbio_adapter/SensorAdapterStartCapture
-f1_keywords:
-- winbio_adapter/SensorAdapterStartCapture
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterStartCapture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_START_CAPTURE_FN
+ - winbio_adapter/PIBIO_SENSOR_START_CAPTURE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterStartCapture
 ---
 
 # PIBIO_SENSOR_START_CAPTURE_FN callback function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to begin an asynchronous biometric capture.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
 
 ### -param Purpose [in]
 
@@ -76,16 +71,11 @@ A <b>WINBIO_BIR_PURPOSE</b> bitmask that specifies the intended use of the sampl
 
 Some sensors have the ability to capture biometric information at multiple resolutions. If the <i>Purpose</i> parameter specifies more than one flag, your adapter should use the flag that represents the highest resolution to determine the resolution of the capture operation.
 
-
-
 ### -param *Overlapped [out]
 
 Address of a variable that receives a pointer to an <b>OVERLAPPED</b> structure that tracks the state of the asynchronous capture operation. This structure is created and managed by the sensor adapter but is used by the Windows Biometric Framework for synchronization. For more information, see the Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. The following values will be recognized by the Windows Biometric Framework.
 
@@ -161,14 +151,8 @@ The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function does not block. If the adapter issues multiple commands to the sensor to prepare for a capture operation, all but the final command can be synchronous. The final command, issued immediately before <i>SensorAdapterStartCapture</i> returns control to the Windows Biometric Framework, must be asynchronous and must use overlapped I/O.
 
@@ -438,21 +422,11 @@ SensorAdapterStartCapture(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn">SensorAdapterFinishCapture</a>
- 
-
- 
 

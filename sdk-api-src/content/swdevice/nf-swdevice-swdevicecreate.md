@@ -8,10 +8,6 @@ tech.root: swdevice
 ms.assetid: 8274D7D9-D4AD-412E-A9C0-7D4A08C8A14F
 ms.date: 12/05/2018
 ms.keywords: SwDeviceCreate, SwDeviceCreate function, swdevice.swdevicecreate, swdevice/SwDeviceCreate
-f1_keywords:
-- swdevice/SwDeviceCreate
-dev_langs:
-- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-- API-MS-Win-devices-swdevice-l1-1-0.dll
-- API-MS-Win-devices-swdevice-l1-1-1.dll
-api_name:
-- SwDeviceCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SwDeviceCreate
+ - swdevice/SwDeviceCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+ - API-MS-Win-devices-swdevice-l1-1-0.dll
+ - API-MS-Win-devices-swdevice-l1-1-1.dll
+api_name:
+ - SwDeviceCreate
 ---
 
 # SwDeviceCreate function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates the enumeration of a software device.
 
-
 ## -parameters
-
-
-
 
 ### -param pszEnumeratorName [in]
 
 A string that names the enumerator of the software device.  Choose a name that represents the component that enumerates the devices.
-
 
 ### -param pszParentDeviceInstance [in]
 
@@ -71,31 +66,25 @@ A string that specifies the device instance ID of the device that is the parent 
 
 This can be HTREE\ROOT\0, but we recommend to keep children of the root device to a minimum.  We also recommend that the preferred parent of a software device be a real device that the software device is extending the functionality for.  In situations where a software device doesn't have such a natural parent, create a device as a child of the root that can collect all the software devices that a component will enumerate; then, enumerate the actual software devices as children of this device grouping node.  This keeps the children of the root device to a manageable number.
 
-
 ### -param pCreateInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info">SW_DEVICE_CREATE_INFO</a> structure that describes info that PnP uses to create the device. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/swdevicedef/ns-swdevicedef-sw_device_create_info">SW_DEVICE_CREATE_INFO</a> structure that describes info that PnP uses to create the device.
 
 ### -param cPropertyCount [in]
 
 The number of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
 
-
 ### -param pProperties [in, optional]
 
 An optional array of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures.  These properties are set on the device after it is created but before a notification that the device has been created are sent.  For more info, see Remarks.  This pointer can be <b>NULL</b>.
-
 
 ### -param pCallback [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function that the operating system calls after PnP enumerates the device.
 
-
 ### -param pContext [in, optional]
 
 An optional client context that the operating system passes to the callback function. This pointer can be <b>NULL</b>.
-
 
 ### -param phSwDevice [out]
 
@@ -108,16 +97,9 @@ typedef HSWDEVICE *PHSWDEVICE;
 
 ## -returns
 
-
-
 S_OK is returned if device enumeration was successfully initiated.  This does not mean that the device has been successfully enumerated.  Check the <i>CreateResult</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to determine if the device was successfully enumerated.
 
-
-
-
 ## -remarks
-
-
 
 <b>SwDeviceCreate</b> returns a handle that represents the device.  After this handle is closed, PnP will remove the device.
 
@@ -133,16 +115,7 @@ We recommend that all properties be specified as part of the call to <b>SwDevice
 <div> </div>
 You can create a software device as the child of a parent that is not present at the time.  PnP will enumerate the software device after the parent becomes present.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a>
- 
-
- 
 

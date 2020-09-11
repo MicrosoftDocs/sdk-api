@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 476445bb-bf17-4091-a296-73594bd7ed7f
 ms.date: 12/05/2018
 ms.keywords: BoundaryLeft property [Windows Touch], BoundaryLeft property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryLeft property, IInertiaProcessor.BoundaryLeft, IInertiaProcessor.put_BoundaryLeft, IInertiaProcessor::BoundaryLeft, IInertiaProcessor::get_BoundaryLeft, IInertiaProcessor::put_BoundaryLeft, manipulations/IInertiaProcessor::BoundaryLeft, manipulations/IInertiaProcessor::get_BoundaryLeft, manipulations/IInertiaProcessor::put_BoundaryLeft, put_BoundaryLeft, wintouch.iinertiaprocessor_leftboundary
-f1_keywords:
-- manipulations/IInertiaProcessor.BoundaryLeft
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IInertiaProcessor.BoundaryLeft
-- IInertiaProcessor.get_BoundaryLeft
-- IInertiaProcessor.put_BoundaryLeft
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInertiaProcessor::put_BoundaryLeft
+ - manipulations/IInertiaProcessor::put_BoundaryLeft
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IInertiaProcessor.BoundaryLeft
+ - IInertiaProcessor.get_BoundaryLeft
+ - IInertiaProcessor.put_BoundaryLeft
 ---
 
 # IInertiaProcessor::put_BoundaryLeft
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BoundaryLeft</b> property limits how far towards the left of the screen the target object can move.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom">BoundaryBottom</a>
 
@@ -90,7 +85,4 @@ This property is read/write.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
- 
-
- 
 

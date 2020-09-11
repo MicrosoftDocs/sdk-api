@@ -3,7 +3,7 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_REPORT_PARAMETER
 title: DIAGNOSTIC_REPORT_PARAMETER
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_REPORT_PARAMETER, DIAGNOSTIC_REPORT_PARAMETER
-description: Resource that describes the parameters for an error report. 
+description: Resource that describes the parameters for an error report.
 tech.root: security
 ms.topic: language-reference
 targetos: Windows
@@ -32,22 +32,31 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_REPORT_PARAMETER
  - DIAGNOSTIC_REPORT_PARAMETER
+f1_keywords:
+ - tagDIAGNOSTIC_REPORT_PARAMETER
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_REPORT_PARAMETER
+ - DIAGNOSTIC_REPORT_PARAMETER
+ - diagnosticdataquerytypes/DIAGNOSTIC_REPORT_PARAMETER
 ---
 
 ## -description
-Resource that describes the parameters for an error report.  
+
+Resource that describes the parameters for an error report.
 
 ## -struct-fields
 
 ### -field name
+
 Type: **[WCHAR\[\]](/windows/desktop/winprog/windows-data-types)**
 The name of this parameter.
 
 ### -field value
+
 Type: **[WCHAR\[\]](/windows/desktop/winprog/windows-data-types)**
-The value of this parameter. 
+The value of this parameter.
 
 ## -remarks
+
 For more information about parameters, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werreportsetparameter").
 
 ## -see-also

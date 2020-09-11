@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba
 ms.date: 12/05/2018
 ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbComponentGroupDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbComponentGroupDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbComponentGroupDescriptor
+ - dvbsiparser/IIsdbComponentGroupDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbComponentGroupDescriptor
 ---
 
 # IIsdbComponentGroupDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. The component group  descriptor appears in the ISDB service information as part of the event information table (EIT) and describes component grouping in an event.
-
 
 ## -inheritance
 
@@ -167,5 +166,5 @@ Gets the tag that identifies an ISDB component group descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

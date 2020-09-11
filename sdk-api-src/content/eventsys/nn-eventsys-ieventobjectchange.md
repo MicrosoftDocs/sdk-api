@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 2e916601-e03d-4c5f-a8fb-38317cfb66ad
 ms.date: 12/05/2018
 ms.keywords: IEventObjectChange, IEventObjectChange interface [COM+], IEventObjectChange interface [COM+],described, _cos_IEventObjectChange, cos.ieventobjectchange, eventsys/IEventObjectChange
-f1_keywords:
-- eventsys/IEventObjectChange
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Eventsys.h
-api_name:
-- IEventObjectChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventObjectChange
+ - eventsys/IEventObjectChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Eventsys.h
+api_name:
+ - IEventObjectChange
 ---
 
 # IEventObjectChange interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies subscribers of changes to the event store.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Indicates that a subscription object has been added, modified, or deleted.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
- 
-
- 
 

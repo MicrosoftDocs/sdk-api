@@ -8,10 +8,6 @@ tech.root: ifsk
 ms.assetid: 222f5f68-6a1c-420e-a56f-de53b23f6ce6
 ms.date: 12/05/2018
 ms.keywords: FilterInstanceGetInformation, FilterInstanceGetInformation function [Installable File System Drivers], FltWin32ApiRef_e34f8425-037b-4c31-8559-2ad32527746f.xml, fltuser/FilterInstanceGetInformation, ifsk.filterinstancegetinformation
-f1_keywords:
-- fltuser/FilterInstanceGetInformation
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterInstanceGetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterInstanceGetInformation
+ - fltuser/FilterInstanceGetInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterInstanceGetInformation
 ---
 
 # FilterInstanceGetInformation function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FilterInstanceGetInformation</b> function returns various kinds of information about a minifilter instance. 
-
+The <b>FilterInstanceGetInformation</b> function returns various kinds of information about a minifilter instance.
 
 ## -parameters
 
-
-
-
 ### -param hInstance [in]
 
-Handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>. 
-
+Handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>.
 
 ### -param dwInformationClass [in]
 
@@ -113,27 +108,20 @@ Return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conte
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
-Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>dwInformationClass</i> parameter. 
-
+Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>dwInformationClass</i> parameter.
 
 ### -param dwBufferSize [in]
 
-Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The caller should set this parameter according to the given <i>dwInformationClass</i>. 
-
+Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The caller should set this parameter according to the given <i>dwInformationClass</i>.
 
 ### -param lpBytesReturned [out]
 
-Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterInstanceGetInformation</b> succeeds. This parameter is required and cannot be <b>NULL</b>. 
-
+Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterInstanceGetInformation</b> succeeds. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FilterInstanceGetInformation</b> returns S_OK if successful. Otherwise, it returns an HRESULT error value, such as one of the following:
 
@@ -165,26 +153,14 @@ An invalid value was specified for the <i>dwInformationClass</i> parameter.  For
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Given a handle to a minifilter instance, this routine returns information about the minifilter instance.  The type of instance information returned is determined by the <i>dwInformationClass</i> parameter.
 
-<b>FilterInstanceGetInformation</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetinstanceinformation">FltGetInstanceInformation</a>. 
-
-
-
+<b>FilterInstanceGetInformation</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetinstanceinformation">FltGetInstanceInformation</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancecreate">FilterInstanceCreate</a>
 
@@ -207,7 +183,4 @@ Given a handle to a minifilter instance, this routine returns information about 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
- 
-
- 
 

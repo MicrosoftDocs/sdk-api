@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: b414bdbc-0f49-4a00-9b25-fa738f5f880b
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_ExpectedTableOfContents method, IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents, IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_expectedtableofcontents, imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
-f1_keywords:
-- imapi2/IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
+ - imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 ---
 
 # IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the table of content for the audio tracks that were laid on the media within the track-writing session.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Table of contents for the audio tracks that were laid on the media within the track-writing session. Each element of the list is a <b>VARIANT</b> of type <b>VT_BYREF|VT_UI1</b>. The <b>pbVal</b> member of the variant contains a binary blob. For details of the blob, see the READ TOC command at ftp://ftp.t10.org/t10/drafts/mmc5/mmc5r03.pdf.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -140,24 +133,12 @@ Value: 0x8007000E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The property is not accessible outside a track-writing session. Nor is the property accessible if the disc is blank.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
@@ -168,7 +149,4 @@ The property is not accessible outside a track-writing session. Nor is the prope
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 47106C55-FA03-4996-BCFA-D00A51AF55EE
 ms.date: 12/05/2018
 ms.keywords: IInkDrawingAttributes, IInkDrawingAttributes interface [Tablet PC], IInkDrawingAttributes interface [Tablet PC],described, msinkaut/IInkDrawingAttributes, tablet.iinkdrawingattributes
-f1_keywords:
-- msinkaut/IInkDrawingAttributes
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkDrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDrawingAttributes
+ - msinkaut/IInkDrawingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkDrawingAttributes
 ---
 
 # IInkDrawingAttributes interface
+
 
 ## -description
 
@@ -244,8 +246,9 @@ Gets or sets the y-axis dimension, or width, of the pen tip when drawing ink.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [InkDrawingAttributes class](/windows/win32/tablet/inkdrawingattributes-class)
+

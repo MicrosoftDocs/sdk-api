@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
 ms.date: 12/05/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation],described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo
-f1_keywords:
-- wmcontainer/IMFASFContentInfo
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFContentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFContentInfo
+ - wmcontainer/IMFASFContentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFContentInfo
 ---
 
 # IMFASFContentInfo interface
@@ -50,12 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification. 
 
 The <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a> exposes this interface. To create the get a pointer to the <b>IMFASFContentInfo</b> interface, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo">MFCreateASFContentInfo</a>.
-        
-
 
 ## -inheritance
 
@@ -135,13 +133,9 @@ Uses profile data from a profile object to configure settings in the ContentInfo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
@@ -152,7 +146,4 @@ Uses profile data from a profile object to configure settings in the ContentInfo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

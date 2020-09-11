@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994
 ms.date: 12/05/2018
 ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness],described, netlistmgr/INetwork, nla.inetwork
-f1_keywords:
-- netlistmgr/INetwork
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetwork
+ - netlistmgr/INetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetwork
 ---
 
 # INetwork interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetwork</b> interface represents a network on the local machine. It can also represent a collection of network connections with a similar network signature.
-
 
 ## -inheritance
 
@@ -208,12 +207,9 @@ Specifies if the network has internet connectivity.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="https://msdn.microsoft.com/library/ms890661.aspx">QueryInterface</a> for <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
 
@@ -339,6 +335,4 @@ The machine has been configured for Direct Access and access is detected to the 
  
 
 The <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="https://msdn.microsoft.com/library/ms884257.aspx">IPropertyBag::Read</a> and <a href="https://msdn.microsoft.com/library/aa768196.aspx">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.
-
-
 

@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateService, CreateService function, CreateServiceA, CreateServiceW, SERVICE_ADAPTER, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_RECOGNIZER_DRIVER, SERVICE_SYSTEM_START, SERVICE_USER_OWN_PROCESS, SERVICE_USER_SHARE_PROCESS, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_createservice, base.createservice, winsvc/CreateService, winsvc/CreateServiceA, winsvc/CreateServiceW
 ms.topic: function
-f1_keywords: 
- - "winsvc/CreateService"
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,6 +27,14 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - CreateServiceW
+ - winsvc/CreateServiceW
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,11 +51,6 @@ api_name:
  - CreateService
  - CreateServiceA
  - CreateServiceW
-product: Windows
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # CreateServiceW function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a service object and adds it to the specified service control manager database.
 
-
 ## -parameters
-
-
-
 
 ### -param hSCManager [in]
 
@@ -72,22 +68,18 @@ A handle to the service control manager database. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function and must have the <b>SC_MANAGER_CREATE_SERVICE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ### -param lpServiceName [in]
 
 The name of the service to install. The maximum string length is 256 characters. The service control manager database preserves the case of the characters, but service name comparisons are always case insensitive. Forward-slash (/) and backslash (\) are not valid service name characters.
-
 
 ### -param lpDisplayName [in, optional]
 
 The display name to be used by user interface programs to identify the service. This string has a maximum length of 256 characters. The name is case-preserved in the service control manager. Display name comparisons are always case-insensitive.
 
-
 ### -param dwDesiredAccess [in]
 
 The access to the service. Before granting the requested access, the system checks the access token of the calling process. For a list of values, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
-
 
 ### -param dwServiceType [in]
 
@@ -217,8 +209,6 @@ For more information, see
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwStartType [in]
 
@@ -286,8 +276,6 @@ A device driver started by the <b>IoInitSystem</b> function. This value is valid
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwErrorControl [in]
 
@@ -343,8 +331,6 @@ The startup program logs the error in the event log. If the last-known-good conf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBinaryPathName [in, optional]
 
@@ -357,7 +343,6 @@ The path can also include arguments for an auto-start service. For example, "d:\
 
 If you specify a path on another computer, the share must be accessible by the computer account of the local computer because this is the security context used in the remote call. However, this requirement allows any potential vulnerabilities in the remote computer to affect the local computer. Therefore, it is best to use a local file.
 
-
 ### -param lpLoadOrderGroup [in, optional]
 
 The names of the load ordering group of which this service is a member. Specify NULL or an empty string if the service does not belong to a group. 
@@ -366,9 +351,6 @@ The names of the load ordering group of which this service is a member. Specify 
 
 
 The startup program uses load ordering groups to load groups of services in a specified order with respect to the other groups. The list of load ordering groups is contained in the following registry value: <b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\ServiceGroupOrder</b>
-
-
-
 
 ### -param lpdwTagId [out, optional]
 
@@ -383,7 +365,6 @@ You can use a tag for ordering service startup within a load ordering group by s
 
 Tags are only evaluated for driver services that have <b>SERVICE_BOOT_START</b> or <b>SERVICE_SYSTEM_START</b> start types.
 
-
 ### -param lpDependencies [in, optional]
 
 A pointer to a double null-terminated array of null-separated names of services or load ordering groups that the system must start before this service. Specify NULL or an empty string if the service has no dependencies. Dependency on a group means that this service can run if at least one member of the group is running after an attempt to start all members of the group. 
@@ -392,7 +373,6 @@ A pointer to a double null-terminated array of null-separated names of services 
 
 
 You must prefix group names with <b>SC_GROUP_IDENTIFIER</b> so that they can be distinguished from a service name, because services and service groups share the same name space.
-
 
 ### -param lpServiceStartName [in, optional]
 
@@ -419,7 +399,6 @@ A service can be configured to use a managed account or a virtual  account. If t
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Managed service accounts and virtual accounts are not supported until Windows 7 and Windows Server 2008 R2.
 
-
 ### -param lpPassword [in, optional]
 
 The password to the account name specified by the <i>lpServiceStartName</i> parameter. Specify an empty string if the account has no password or if the service runs in the LocalService, NetworkService, or LocalSystem account. For more information, see 
@@ -432,10 +411,7 @@ If the account name specified by the  <i>lpServiceStartName</i> parameter is the
 
 Passwords are ignored for driver services.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the service.
 
@@ -549,14 +525,8 @@ The specified service already exists in this database and has been marked for de
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>CreateService</b> function creates a service object and installs it in the service control manager database by creating a key with the same name as the service under the following registry key:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services</b>
@@ -643,12 +613,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
@@ -711,7 +676,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: InputMsg
 ms.assetid: 9F10ED61-90E3-441B-8F4D-E33DA54D473C
 ms.date: 12/05/2018
 ms.keywords: GetPointerInputTransform, GetPointerInputTransform function [Input Messages and Notifications], inputmsg.getpointerinputtransform, winuser/GetPointerInputTransform
-f1_keywords:
-- winuser/GetPointerInputTransform
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
-- MinUser.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
-- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
-- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
-api_name:
-- GetPointerInputTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPointerInputTransform
+ - winuser/GetPointerInputTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+ - MinUser.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+ - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+ - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+api_name:
+ - GetPointerInputTransform
 ---
 
 # GetPointerInputTransform function
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets one or more transforms for the pointer information coordinates associated with the current message.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pointerId [in]
 
 An identifier of the pointer for which to retrieve information.
-
 
 ### -param historyCount [in]
 
@@ -77,26 +71,17 @@ This value must be no less than 1 and no greater than the value specified in <b>
 
 If <b>GetPointerInputTransform</b> succeeds, <i>inputTransform</i>  is updated with the total count of structures available. The total count of structures available is the same as the <b>historyCount</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure.
 
-
 ### -param inputTransform [out]
 
 Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a> structures to receive the transform information. This parameter cannot be NULL.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 A consumer of pointer input messages typically uses <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapwindowpoints">MapWindowPoints</a> to convert screen coordinates to client coordinates.
 
@@ -124,20 +109,11 @@ If the information associated with the message is no longer available, this func
 
 If <i>historyCount</i> contains a value larger than the <b>historyCount</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_info">POINTER_INFO</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a> (or the first <b>POINTER_INFO</b> structure in the array returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfohistory">GetPointerInfoHistory</a>), the function fails with the last error set to <b>ERROR_INVALID_PARAMETER</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_transform">INPUT_TRANSFORM</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 6e664485-d26f-4702-9190-9440b13c60b5
 ms.date: 12/05/2018
 ms.keywords: UpdateLockdownOption, UpdateLockdownOption enumeration [Windows Update Agent], uloForWebsiteAccess, wua.updatelockdownoption, wuapi/UpdateLockdownOption, wuapi/uloForWebsiteAccess
-f1_keywords:
-- wuapi/UpdateLockdownOption
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- UpdateLockdownOption
 targetos: Windows
 req.typenames: UpdateLockdownOption
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagUpdateLockdownOption
+ - wuapi/tagUpdateLockdownOption
+ - UpdateLockdownOption
+ - wuapi/UpdateLockdownOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - UpdateLockdownOption
 ---
 
 # UpdateLockdownOption enumeration
@@ -49,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the functionality that the Windows Update Agent (WUA) object can access from Windows Update.
-
 
 ## -enum-fields
 
-
-
-
 ### -field uloForWebsiteAccess
 
-If access is from Windows Update, restrict access to the WUA interfaces that implement the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a> interface. 
-
+If access is from Windows Update, restrict access to the WUA interfaces that implement the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a> interface.
 
 ## -remarks
-
-
 
 In the following table, the first column lists the interfaces that  implement the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a> interface. The second column lists the methods and properties that are restricted by the WUA interfaces when a value is specified for <b>uloForWebsiteAccess</b>.
 
@@ -209,18 +204,8 @@ In the following table, the first column lists the interfaces that  implement th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatelockdown-lockdown">IUpdateLockdown::LockDown</a>
- 
-
- 
 

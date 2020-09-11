@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d38946be-8fd3-46e2-953e-8e94bcad4b81
 ms.date: 12/05/2018
 ms.keywords: GetSearchText, GetSearchText method [Windows Shell], GetSearchText method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchText method, ISearchContext.GetSearchText, ISearchContext::GetSearchText, _shell_ISearchContext_GetSearchText, shell.ISearchContext_GetSearchText, shlobj_core/ISearchContext::GetSearchText
-f1_keywords:
-- shlobj_core/ISearchContext.GetSearchText
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ISearchContext.GetSearchText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchContext::GetSearchText
+ - shlobj_core/ISearchContext::GetSearchText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ISearchContext.GetSearchText
 ---
 
 # ISearchContext::GetSearchText
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the text that is in the browser's Address bar.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrSearchText [in]
 
@@ -64,14 +60,9 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/a
 
 The <b>BSTR</b> that receives the text in the Address bar.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device4 interface","CreateCommandList1 method","ID3
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device4 interface,CreateCommandList1 method, ID3D12Device4.CreateCommandList1, ID3D12Device4::CreateCommandList1, CreateCommandList1, CreateCommandList1 method, CreateCommandList1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createcommandList1, d3d12/ID3D12Device4::CreateCommandList1
-f1_keywords:
-- d3d12/ID3D12Device4.CreateCommandList1
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device4::CreateCommandList1
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device4::CreateCommandList1
+ - d3d12/ID3D12Device4::CreateCommandList1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device4::CreateCommandList1
 ---
 
 ## -description
@@ -96,3 +97,4 @@ See [Direct3D 12 return codes](/windows/win32/direct3d12/d3d12-graphics-referenc
 ## -see-also
 
 [ID3D12Device::CreateCommandList](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandlist)
+

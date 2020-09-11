@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 99af6ebd-6a7d-4753-8bc6-cfd42919843e
 ms.date: 12/05/2018
 ms.keywords: SOCKET_SECURITY_SETTINGS_IPSEC, SOCKET_SECURITY_SETTINGS_IPSEC structure [Winsock], SOCKET_SETTINGS_ALLOW_INSECURE, SOCKET_SETTINGS_GUARANTEE_ENCRYPTION, SOCKET_SETTINGS_IPSEC_SKIP_FILTER_INSTANTIATION, mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC, winsock.socket_security_settings_ipsec
-f1_keywords:
-- mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC
-dev_langs:
-- c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstcpip.h
-api_name:
-- SOCKET_SECURITY_SETTINGS_IPSEC
 targetos: Windows
 req.typenames: SOCKET_SECURITY_SETTINGS_IPSEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SOCKET_SECURITY_SETTINGS_IPSEC
+ - mstcpip/_SOCKET_SECURITY_SETTINGS_IPSEC
+ - SOCKET_SECURITY_SETTINGS_IPSEC
+ - mstcpip/SOCKET_SECURITY_SETTINGS_IPSEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstcpip.h
+api_name:
+ - SOCKET_SECURITY_SETTINGS_IPSEC
 ---
 
 # SOCKET_SECURITY_SETTINGS_IPSEC structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure specifies various security requirements and settings that are specific to IPsec.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SecurityProtocol
 
 Type: <b>SOCKET_SECURITY_PROTOCOL</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the type of security protocol to be used on the socket. This member must be set to <b>SOCKET_SECURITY_PROTOCOL_IPSEC</b>.
-
 
 ### -field SecurityFlags
 
@@ -101,8 +98,6 @@ Indicates that clear text connections are allowed.  If this flag is set, some or
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IpsecFlags
 
@@ -127,22 +122,18 @@ When this flag is set, IPsec filter instantiation is omitted for the socket.  Th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthipMMPolicyKey
 
 Type: <b>GUID</b>
 
-The GUID for the Windows Filtering Platform key of the AuthIP main mode provider context.  If an application wishes to use a custom main mode policy, it should first use the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this member.  This field is ignored for a GUID of zero. 
-
+The GUID for the Windows Filtering Platform key of the AuthIP main mode provider context.  If an application wishes to use a custom main mode policy, it should first use the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this member.  This field is ignored for a GUID of zero.
 
 ### -field AuthipQMPolicyKey
 
 Type: <b>GUID</b>
 
-The Windows Filtering Platform key of the AuthIp quick mode provider context.  If an application wishes to use a custom quick mode policy, it should first use the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this field.  This field is ignored for a GUID of zero. 
-
+The Windows Filtering Platform key of the AuthIp quick mode provider context.  If an application wishes to use a custom quick mode policy, it should first use the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> function to add the corresponding provider context and specify the returned key in this field.  This field is ignored for a GUID of zero.
 
 ### -field Reserved
 
@@ -150,13 +141,11 @@ Type: <b>GUID</b>
 
 Reserved for future use.
 
-
 ### -field Reserved2
 
 Type: <b>UINT64</b>
 
 Reserved for future use.
-
 
 ### -field UserNameStringLen
 
@@ -164,13 +153,11 @@ Type: <b>ULONG</b>
 
 The length, in bytes, of the user name in the <b>AllStrings</b> member.
 
-
 ### -field DomainNameStringLen
 
 Type: <b>ULONG</b>
 
 The length, in bytes, of the domain name in the <b>AllStrings</b> member.
-
 
 ### -field PasswordStringLen
 
@@ -178,17 +165,13 @@ Type: <b>ULONG</b>
 
 The length, in bytes, of the password in the <b>AllStrings</b> member.
 
-
 ### -field AllStrings
 
 Type: <b>wchar_t[]</b>
 
 A string that contains the user name, the domain name, and the password concatenated in this order.
 
-
 ## -remarks
-
-
 
 The <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure  is supported on Windows Vistaand later.
 
@@ -201,13 +184,7 @@ To simplify Internet Protocol security (IPsec) deployment, Windows Vista and la
 
 There is a possibility that some of the IPsec settings specified in the <b>SOCKET_SECURITY_SETTINGS_IPSEC</b> structure may end up being different from the actual settings applied to the network traffic on a socket. For example, this could happen when an application specifies custom main mode or quick mode policy, but a different policy with a higher priority (a domain policy, for example) specifies conflicting settings for the same traffic. To be aware of such conflicts, an application can use the Windows Filtering Platform API to query the policy being applied and subscribe for notifications.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/about-windows-filtering-platform">About Windows Filtering Platform</a>
 
@@ -246,7 +223,4 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 5089a2b3-2973-4761-82f6-f6af3ac9f560
 ms.date: 12/05/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetZOrder method, IMixerPinConfig.GetZOrder, IMixerPinConfig::GetZOrder, IMixerPinConfigGetZOrder, dshow.imixerpinconfig_getzorder, mpconfig/IMixerPinConfig::GetZOrder
-f1_keywords:
-- mpconfig/IMixerPinConfig.GetZOrder
-dev_langs:
-- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMixerPinConfig.GetZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMixerPinConfig::GetZOrder
+ - mpconfig/IMixerPinConfig::GetZOrder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMixerPinConfig.GetZOrder
 ---
 
 # IMixerPinConfig::GetZOrder
@@ -50,47 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetZOrder</code> method retrieves the z-order of a particular video stream.
 
 
 
 This method is not currently implemented and returns E_NOTIMPL.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwZOrder [out]
 
 Pointer to a value indicating the order in which streams will clip each other.
 
-
 ## -returns
-
-
 
 Returns E_NOTIMPL.
 
-
-
-
 ## -remarks
-
-
 
 Images with larger z-values are always in front of images with smaller z-values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -101,7 +82,4 @@ Images with larger z-values are always in front of images with smaller z-values.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setzorder">IMixerPinConfig::SetZOrder</a>
- 
-
- 
 

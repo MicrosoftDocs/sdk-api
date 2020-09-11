@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 4e5da2cd-b83d-4ac3-80e1-d8ac4c6e1c42
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetVolume, MCIWndSetVolume macro [Windows Multimedia], _win32_MCIWndSetVolume, multimedia.mciwndsetvolume, vfw/MCIWndSetVolume
-f1_keywords:
-- vfw/MCIWndSetVolume
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndSetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndSetVolume
+ - vfw/MCIWndSetVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndSetVolume
 ---
 
 # MCIWndSetVolume macro
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndSetVolume</b> macro sets the volume level of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setvolume">MCIWNDM_SETVOLUME</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ### -param iVol
 
-New volume level. Specify 1000 for normal volume level. Specify a higher value for a louder volume or a lower value for a quieter volume. 
+New volume level. Specify 1000 for normal volume level. Specify a higher value for a louder volume or a lower value for a quieter volume.
 

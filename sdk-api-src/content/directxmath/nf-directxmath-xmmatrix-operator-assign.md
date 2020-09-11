@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator =(const XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMATRIX.operator =, Use DirectX::::XMMATRIX::operator =, XMMATRIX structure [DirectX Math Support APIs],operator = method, XMMATRIX.operator =, XMMATRIX.operator-assign, XMMATRIX.operator=, XMMATRIX::operator-assign, XMMATRIX::operator=, dxmath.xmmatrix_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMMATRIX structure, operator=
-f1_keywords:
-- directxmath/XMMATRIX.operator =
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMMATRIX.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - XMMATRIX::operator=
+ - directxmath/XMMATRIX::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMMATRIX.operator =
 ---
 
 # XMMATRIX::operator-assign
 
 
 ## -description
-
 
 Assigns the matrix data of one instance of <code>XMMATRIX</code> to the current instance of
 	<code>XMMATRIX</code> and returns a <code>reference</code> to the current instance.  
@@ -59,27 +59,16 @@ This operator assigns the matrix data of one instance of <a href="https://msdn.m
 
 ## -parameters
 
-
-
-
 ### -param M [ref]
 
 Instance of <code>XMMATRIX</code> whose data
       is used to update the current instance.
 
-
 ## -returns
-
-
 
 A <code>reference</code> to the current instance of <code>XMMATRIX</code>, which has been updated by this operator.
 
-
-
-
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of this operator:
 
@@ -104,12 +93,7 @@ The following pseudocode demonstrates the operation of this operator:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -120,7 +104,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 
 <a href="https://msdn.microsoft.com/74deddbd-0472-43fd-8ad6-2e933812eb14">XMMATRIX Operators</a>
- 
-
- 
 

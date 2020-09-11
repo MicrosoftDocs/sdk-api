@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d2f443de-929e-4bd4-bfb3-2a28c119c176
 ms.date: 12/05/2018
 ms.keywords: CloseView, CloseView method [COM], CloseView method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],CloseView method, IOleDocumentView.CloseView, IOleDocumentView::CloseView, _ole_ioledocumentview_closeview, com.ioledocumentview_closeview, docobj/IOleDocumentView::CloseView
-f1_keywords:
-- docobj/IOleDocumentView.CloseView
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IOleDocumentView.CloseView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleDocumentView::CloseView
+ - docobj/IOleDocumentView::CloseView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IOleDocumentView.CloseView
 ---
 
 # IOleDocumentView::CloseView
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs a document view to close itself and release its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer.
 
-
 ## -parameters
-
-
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success.
 
-
-
-
 ## -remarks
-
-
 
 When a separate window is no longer needed, the container calls <b>IOleDocumentView::CloseView</b>, whereupon the view releases its site pointer to the separate window and destroys the window. Unlike the normal in-place deactivation sequence for active documents, a document view continues to hold the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> pointer. This pointer is released only when the view's container calls <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">SetInPlaceSite</a>, with <i>pIPSite</i> set to <b>NULL</b>, or calls <b>IOleDocumentView::CloseView</b>.
 
@@ -84,13 +72,7 @@ The container must call this method before it deletes the view, that is, release
 
 Because <b>IOleDocumentView::CloseView</b> is called when a container is going to completely shut down a view, this method must be implemented and has no reason to fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
@@ -101,7 +83,4 @@ Because <b>IOleDocumentView::CloseView</b> is called when a container is going t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: be67a020-285d-4c1e-a8b5-8e1e90fae594
 ms.date: 12/05/2018
 ms.keywords: IFileDialog2, IFileDialog2 interface [Windows Shell], IFileDialog2 interface [Windows Shell],described, _shell_IFileDialog2, shell.IFileDialog2, shobjidl/IFileDialog2
-f1_keywords:
-- shobjidl/IFileDialog2
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll (version 6.1 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comdlg32.dll
-api_name:
-- IFileDialog2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileDialog2
+ - shobjidl/IFileDialog2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comdlg32.dll
+api_name:
+ - IFileDialog2
 ---
 
 # IFileDialog2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> interface by providing methods that allow the caller to name a specific, restricted location that can be browsed in the common file dialog as well as to specify alternate text to display as a label on the <b>Cancel</b> button.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Specifies a top-level location from which to begin browsing a namespace, for ins
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> interface, from which it inherits.
 
@@ -107,5 +103,4 @@ Use the methods of this interface in two instances:
 <li>When you want to restrict the dialog's navigation to a specific namespace.</li>
 <li>When you need the dialog's <b>Cancel</b> button to be labeled differently in keeping with your functionality.</li>
 </ul>
-
 

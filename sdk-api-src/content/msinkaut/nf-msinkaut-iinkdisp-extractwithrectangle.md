@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b32467a8-a677-4a80-8029-d364e6e372c6
 ms.date: 12/05/2018
 ms.keywords: ExtractWithRectangle, ExtractWithRectangle method [Tablet PC], ExtractWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractWithRectangle method, IInkDisp.ExtractWithRectangle, IInkDisp::ExtractWithRectangle, b32467a8-a677-4a80-8029-d364e6e372c6, msinkaut/IInkDisp::ExtractWithRectangle, tablet.inkdisp_extractwithrectangle
-f1_keywords:
-- msinkaut/IInkDisp.ExtractWithRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDisp.ExtractWithRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDisp::ExtractWithRectangle
+ - msinkaut/IInkDisp::ExtractWithRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDisp.ExtractWithRectangle
 ---
 
 # IInkDisp::ExtractWithRectangle
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Cuts or copies strokes from an existing <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object and pastes them into a new <b>InkDisp</b> object, by using the known rectangle to determine which strokes to extract.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Rectangle [in]
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object which delimits the ink to extract from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-
 ### -param extractFlags [in, optional]
 
 Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">InkExtractFlags</a> enumeration type, which determines whether the ink should be cut or copied from the existing <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is IEF_DEFAULT, which cuts the strokes from the existing <b>InkDisp</b> object.
-
 
 ### -param ExtractedInk [out, retval]
 
 When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that contains the extracted collection of strokes.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -166,14 +154,8 @@ The Ink object was not registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object retains the drawing attributes, properties, and coordinates of the original <b>InkDisp</b> object.
 
@@ -185,13 +167,7 @@ Only the portion of a stroke that is within the rectangle is added to the new <a
 
 When the <i>extractFlags</i> parameter is <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkextractflags">RemoveFromOriginal</a> or <b>Default</b>, any strokes that cross the rectangle are split and the portion within the rectangle removed from the existing <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>
 
@@ -214,7 +190,4 @@ When the <i>extractFlags</i> parameter is <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

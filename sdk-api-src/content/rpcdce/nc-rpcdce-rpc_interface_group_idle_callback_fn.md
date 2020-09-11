@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: D34F2902-80EE-4011-A837-2A8C21E5A136
 ms.date: 12/05/2018
 ms.keywords: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function [RPC], rpc.rpc_interface_group_idle_callback_fn, rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
-f1_keywords:
-- rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+ - rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 ---
 
 # RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN</b> is a user-defined callback that can be implemented for each defined interface group.  This callback is invoked by the RPC runtime when it detects that the idle state of an interface group has changed.
 
-
 ## -parameters
-
-
-
 
 ### -param IfGroup [in]
 
 A <b>RPC_INTERFACE_GROUP</b> from <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a> that defines the interface group for which the idle state has changed.
 
-
 ### -param *IdleCallbackContext [in]
 
 A user-defined context provided at interface group creation.
 
-
 ### -param IsGroupIdle [in]
 
-<b>TRUE</b> if the interface group has just become idle.  <b>FALSE</b> if the interface group was previously idle but has since received new activity.  
-
+<b>TRUE</b> if the interface group has just become idle.  <b>FALSE</b> if the interface group was previously idle but has since received new activity.
 
 ## -remarks
-
-
 
 When a server registers an interface group, it provides a pointer to an idle callback function through which RPC will notify the application when the interface group’s idle state has changed.  The server application can use this callback to attempt to deactivate the interface group when it becomes idle.
 
@@ -84,13 +75,7 @@ When a server registers an interface group, it provides a pointer to an idle cal
 
 Note that RPC server activity is not always visible to the server application.  In some cases, simply having a client with an open connection to the server may keep it active even if no calls have been dispatched for a long period of time.  Server applications must not rely on any correlation between the RPC runtime declaring that the group is idle and the time since the last call was dispatched.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
 
@@ -109,7 +94,4 @@ Note that RPC server activity is not always visible to the server application.  
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>
- 
-
- 
 

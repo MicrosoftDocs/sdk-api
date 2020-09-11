@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 3DA45F2F-7088-4A9B-968C-91E402CAA412
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestReader, IAppxManifestReader interface [App packaging and management], IAppxManifestReader interface [App packaging and management],described, appxpackaging/IAppxManifestReader, appxpkg.iappxmanifestreader
-f1_keywords:
-- appxpackaging/IAppxManifestReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestReader
+ - appxpackaging/IAppxManifestReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestReader
 ---
 
 # IAppxManifestReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
-
 
 ## -inheritance
 
@@ -149,12 +148,9 @@ Gets the raw XML parsed and read by the manifest reader.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Do  not implement this object. Use the provided implementation instead.
 
@@ -171,12 +167,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_capabilities">APPX_CAPABILITIES</a>
 
@@ -203,7 +194,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestresourcesenumerator">IAppxManifestResourcesEnumerator</a>
- 
-
- 
 

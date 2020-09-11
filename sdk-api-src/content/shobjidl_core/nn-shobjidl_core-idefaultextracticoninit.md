@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
-f1_keywords:
-- shobjidl_core/IDefaultExtractIconInit
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDefaultExtractIconInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDefaultExtractIconInit
+ - shobjidl_core/IDefaultExtractIconInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDefaultExtractIconInit
 ---
 
 # IDefaultExtractIconInit interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to set default icons associated with an object.
-
 
 ## -inheritance
 
@@ -123,5 +122,5 @@ Sets the icon for a shortcut to the object.
 
 </td>
 </tr>
-</table> 
+</table>
 

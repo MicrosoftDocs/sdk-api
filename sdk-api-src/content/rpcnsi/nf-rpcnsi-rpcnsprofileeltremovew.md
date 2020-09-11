@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltRemove, RpcNsProfileEltRemove function [RPC], RpcNsProfileEltRemoveA, RpcNsProfileEltRemoveW, _rpc_rpcnsprofileeltremove, rpc.rpcnsprofileeltremove, rpcnsi/RpcNsProfileEltRemove, rpcnsi/RpcNsProfileEltRemoveA, rpcnsi/RpcNsProfileEltRemoveW
-f1_keywords:
-- rpcnsi/RpcNsProfileEltRemove
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsProfileEltRemove
-- RpcNsProfileEltRemoveA
-- RpcNsProfileEltRemoveW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsProfileEltRemoveW
+ - rpcnsi/RpcNsProfileEltRemoveW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsProfileEltRemove
+ - RpcNsProfileEltRemoveA
+ - RpcNsProfileEltRemoveW
 ---
 
 # RpcNsProfileEltRemoveW function
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsProfileEltRemove</b> function removes an element from a profile.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param ProfileNameSyntax
 
@@ -70,11 +67,9 @@ Syntax of <i>ProfileName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param ProfileName
 
 Pointer to the name of the profile from which to remove an element.
-
 
 ### -param IfId
 
@@ -85,7 +80,6 @@ Pointer to the interface identification of the profile element to be removed.
 
 Specify a null value to remove the default profile member.
 
-
 ### -param MemberNameSyntax
 
 Syntax of <i>MemberName</i>. 
@@ -95,15 +89,11 @@ Syntax of <i>MemberName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param MemberName
 
 Pointer to the name service–entry name in the profile element to remove.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -183,11 +173,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsProfileEltRemove</b> function removes a profile element from the profile attribute in the <i>ProfileName</i> entry. This function requires an exact match of the <i>MemberName</i> and <i>IfId</i> parameters to remove a profile element. The entry (<i>MemberName</i>), included as a member in the profile element, is not deleted.
@@ -206,15 +192,9 @@ The
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofiledeletea">RpcNsProfileDelete</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltadda">RpcNsProfileEltAdd</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: A83903B5-314B-4a8b-8D37-F8A8995DE0CB
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper, IDesktopWallpaper interface [Windows Shell], IDesktopWallpaper interface [Windows Shell],described, shell.IDesktopWallpaper, shobjidl_core/IDesktopWallpaper
-f1_keywords:
-- shobjidl_core/IDesktopWallpaper
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDesktopWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopWallpaper
+ - shobjidl_core/IDesktopWallpaper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDesktopWallpaper
 ---
 
 # IDesktopWallpaper interface
@@ -50,8 +51,6 @@ ms.custom: 19H1
 ## -description
 
 Provides methods for managing the desktop wallpaper.
-
-
 
 ## -inheritance
 
@@ -212,16 +211,9 @@ Sets the desktop wallpaper.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

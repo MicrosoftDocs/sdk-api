@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.date: 12/05/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
-f1_keywords:
-- sspi/RevertSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- RevertSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RevertSecurityContext
+ - sspi/RevertSecurityContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - RevertSecurityContext
 ---
 
 # RevertSecurityContext function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> to discontinue the impersonation of the caller and restore its own <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
@@ -64,10 +60,7 @@ Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function and used in the call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-impersonatesecuritycontext">ImpersonateSecurityContext</a> function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SEC_E_OK.
 
@@ -90,25 +83,13 @@ The handle passed to the function is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RevertSecurityContext</b> is not available with all <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security packages</a> on all platforms. Typically, it is implemented only on platforms and with security packages for which a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querysecuritypackageinfoa">QuerySecurityPackageInfo</a> function indicates impersonation support.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a>
 
@@ -119,7 +100,4 @@ The handle passed to the function is not valid.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: 015b6b50-e749-452e-b05e-a5d18c29fea2
 ms.date: 05/13/2019
 ms.keywords: XMUINT4, XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4, XMUINT4.XMUINT4(), XMUINT4.XMUINT4(const uint32_t), XMUINT4::XMUINT4, XMUINT4::XMUINT4(const uint32_t), dxmath.xmuint4_ctor_1
-f1_keywords:
-- directxmath/XMUINT4.XMUINT4
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMUINT4.XMUINT4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUINT4::XMUINT4
+ - directxmath/XMUINT4::XMUINT4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMUINT4.XMUINT4
 ---
 
 # XMUINT4::XMUINT4(const uint32_t)
+
 
 ## -description
 
@@ -77,3 +79,4 @@ instance.w = pArray[3];
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>
+

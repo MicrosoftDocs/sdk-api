@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
 ms.date: 12/05/2018
 ms.keywords: PropertySheet, PropertySheet function [Windows Controls], PropertySheetA, PropertySheetW, _win32_PropertySheet, _win32_PropertySheet_cpp, controls.PropertySheet, controls._win32_PropertySheet, prsht/PropertySheet, prsht/PropertySheetA, prsht/PropertySheetW
-f1_keywords:
-- prsht/PropertySheet
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-- ext-ms-win-shell-comctl32-window-l1-1-0.dll
-api_name:
-- PropertySheet
-- PropertySheetA
-- PropertySheetW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropertySheetA
+ - prsht/PropertySheetA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+ - ext-ms-win-shell-comctl32-window-l1-1-0.dll
+api_name:
+ - PropertySheet
+ - PropertySheetA
+ - PropertySheetW
 ---
 
 # PropertySheetA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a property sheet and adds the pages defined in the specified property sheet header structure.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -67,10 +63,7 @@ Type: <b>LPCPROPSHEETHEADER</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PROPSHEETHEADER</a> structure that defines the frame and pages of a property sheet.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT_PTR</a></b>
 
@@ -126,14 +119,8 @@ A page sent the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 

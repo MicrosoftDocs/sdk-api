@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 0fdd85cb-f6a9-4a08-b72b-10d2075efb59
 ms.date: 12/05/2018
 ms.keywords: InternetSetFilePointer, InternetSetFilePointer function [WinINet], _inet_internetsetfilepointer_function, wininet.internetsetfilepointer, wininet/InternetSetFilePointer
-f1_keywords:
-- wininet/InternetSetFilePointer
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetSetFilePointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetSetFilePointer
+ - wininet/InternetSetFilePointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetSetFilePointer
 ---
 
 # InternetSetFilePointer function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a file position for 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a>. This is a synchronous call; however, subsequent calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a> might block or return pending if the data is not available from the cache and the server does not support random access.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -71,13 +67,9 @@ Handle returned from a previous call to
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_DONT_CACHE</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
 
-
 ### -param lDistanceToMove [in]
 
 The low order 32-bits of a signed 64-bit number of bytes to move the file pointer. <b>Internet Explorer 7 and earlier:  </b><b>InternetSetFilePointer</b> used to move the pointer only within the bounds of  a LONG. When calling this older version of the function, <i>lpDistanceToMoveHigh</i> is reserved and should be set to <b>0</b>. A positive value moves the pointer forward in the file; a negative value moves it backward.
-
-
-
 
 ### -param lpDistanceToMoveHigh [in, out]
 
@@ -85,9 +77,6 @@ A pointer to the high order 32-bits of the signed 64-bit distance
         to move. If you do not need the high order 32-bits, this pointer must
         be set to <b>NULL</b>.  When not <b>NULL</b>, this parameter also receives the high
         order DWORD of the new value of the file pointer. A positive value moves the pointer forward in the file; a negative value moves it backward.<b>Internet Explorer 7 and earlier:  </b><b>InternetSetFilePointer</b> used to move the pointer only within the bounds of  a LONG. When calling this older version of the function, <i>lpDistanceToMoveHigh</i> is reserved and should be set to <b>0</b>.
-
-
-
 
 ### -param dwMoveMethod [in]
 
@@ -133,17 +122,12 @@ Current end-of-file position is the starting point. This method fails if the con
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 I the function succeeds, it returns the current file position.     A return value of <b>INVALID_SET_FILE_POINTER</b> indicates a potential failure and needs to be followed by be a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.  
 
@@ -168,12 +152,7 @@ If a new file pointer is a negative value, the function fails, the file
 If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position does not fit
     in a 32-bit value the function fails and returns <b>INVALID_SET_FILE_POINTER</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function cannot be used once the end of the file has been reached by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfile">InternetReadFile</a>.
@@ -194,19 +173,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

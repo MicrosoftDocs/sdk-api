@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 0526B772-EA84-40B2-88D6-CFB1A70A1D5A
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D, IDCompositionScaleTransform3D interface [DirectComposition], IDCompositionScaleTransform3D interface [DirectComposition],described, dcomp/IDCompositionScaleTransform3D, directcomp.idcompositionscaletransform3d
-f1_keywords:
-- dcomp/IDCompositionScaleTransform3D
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionScaleTransform3D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionScaleTransform3D
+ - dcomp/IDCompositionScaleTransform3D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionScaleTransform3D
 ---
 
 # IDCompositionScaleTransform3D interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a 3D transformation effect that affects the scale of a visual along the x-axis, y-axis, and z-axis. The coordinate system is scaled from the specified center point. 
-
+Represents a 3D transformation effect that affects the scale of a visual along the x-axis, y-axis, and z-axis. The coordinate system is scaled from the specified center point.
 
 ## -inheritance
 
@@ -116,12 +115,9 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A 3D scale transform represents the following 4-by-4 matrix:
 
@@ -129,13 +125,7 @@ A 3D scale transform represents the following 4-by-4 matrix:
 
 The effect is to scale the blending of the visual's subtree up or down, and apply the corresponding translation such that the center point does not move.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
 
@@ -146,7 +136,4 @@ The effect is to scale the blending of the visual's subtree up or down, and appl
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
- 
-
- 
 

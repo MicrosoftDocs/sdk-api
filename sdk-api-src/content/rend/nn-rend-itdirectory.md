@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 9ec8c0ed-2fed-4701-acb5-86b69c10f18c
 ms.date: 12/05/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], ITDirectory interface [TAPI 2.2],described, _tapi3_itdirectory, rend/ITDirectory, tapi3.itdirectory
-f1_keywords:
-- rend/ITDirectory
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectory
+ - rend/ITDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectory
 ---
 
 # ITDirectory interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
@@ -58,7 +58,6 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectory">ITRendezvous::CreateDirectory</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdirectory-next">IEnumDirectory::Next</a> methods create the 
 <b>ITDirectory</b> interface.
-
 
 ## -inheritance
 
@@ -202,20 +201,13 @@ Refreshes the TTL for an object on the server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/directory-controls">Directory Controls</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 63ea910a-b9d7-43a3-97ae-2f9c26b52059
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBServerDisconnect, MprAdminMIBServerDisconnect function [RAS], _mpr_mpradminmibserverdisconnect, mprapi/MprAdminMIBServerDisconnect, rras.mpradminmibserverdisconnect
-f1_keywords:
-- mprapi/MprAdminMIBServerDisconnect
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminMIBServerDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminMIBServerDisconnect
+ - mprapi/MprAdminMIBServerDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminMIBServerDisconnect
 ---
 
 # MprAdminMIBServerDisconnect function
@@ -49,27 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminMIBServerDisconnect</b> function disconnects the connection made by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hMibServer [in]
 
 Handle to the router from which to disconnect. Obtain this handle by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>
 
@@ -80,7 +72,4 @@ Handle to the router from which to disconnect. Obtain this handle by calling
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
- 
-
- 
 

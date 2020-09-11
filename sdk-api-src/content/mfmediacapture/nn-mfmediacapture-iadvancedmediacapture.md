@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Foundation], IAdvancedMediaCapture interface [Media Foundation],described, mf.iadvancedmediacapture, mfmediacapture/IAdvancedMediaCapture
-f1_keywords:
-- mfmediacapture/IAdvancedMediaCapture
-dev_langs:
-- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfmediacapture.h
-api_name:
-- IAdvancedMediaCapture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAdvancedMediaCapture
+ - mfmediacapture/IAdvancedMediaCapture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfmediacapture.h
+api_name:
+ - IAdvancedMediaCapture
 ---
 
 # IAdvancedMediaCapture interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables advanced media capture.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Gets the advanced media capture settings.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

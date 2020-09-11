@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 37386225-0c64-49c0-a21c-cecd8bdb1f1f
 ms.date: 12/05/2018
 ms.keywords: '*PINET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES, INET_FIREWALL_AC_CAPABILITIES structure [ICS/ICF], PINET_FIREWALL_AC_CAPABILITIES, PINET_FIREWALL_AC_CAPABILITIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_CAPABILITIES, ics.inet_firewall_ac_capabilities, networkisolation/INET_FIREWALL_AC_CAPABILITIES, networkisolation/PINET_FIREWALL_AC_CAPABILITIES'
-f1_keywords:
-- networkisolation/INET_FIREWALL_AC_CAPABILITIES
-dev_langs:
-- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- networkisolation.h
-api_name:
-- INET_FIREWALL_AC_CAPABILITIES
 targetos: Windows
 req.typenames: INET_FIREWALL_AC_CAPABILITIES, *PINET_FIREWALL_AC_CAPABILITIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _INET_FIREWALL_AC_CAPABILITIES
+ - networkisolation/_INET_FIREWALL_AC_CAPABILITIES
+ - PINET_FIREWALL_AC_CAPABILITIES
+ - networkisolation/PINET_FIREWALL_AC_CAPABILITIES
+ - INET_FIREWALL_AC_CAPABILITIES
+ - networkisolation/INET_FIREWALL_AC_CAPABILITIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - networkisolation.h
+api_name:
+ - INET_FIREWALL_AC_CAPABILITIES
 ---
 
 # INET_FIREWALL_AC_CAPABILITIES structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INET_FIREWALL_AC_CAPABILITIES</b> structure contains information about the capabilities of an app container.
 
-
 ## -struct-fields
-
-
-
 
 ### -field count
 
 Type: <b>DWORD</b>
 
 The number of security identifiers (SIDs) in the <b>capabilities</b> member.
-
 
 ### -field capabilities
 

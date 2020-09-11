@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter method, IFsrmReport.SetFilter, IFsrmReport::SetFilter, SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
-f1_keywords:
-- fsrmreports/IFsrmReport.SetFilter
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReport.SetFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReport::SetFilter
+ - fsrmreports/IFsrmReport::SetFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReport.SetFilter
 ---
 
 # IFsrmReport::SetFilter
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current value of the specified report filter.
 
-
 ## -parameters
-
-
-
 
 ### -param filter [in]
 
 The filter used to  limit the files listed in a report. For possible values, see the 
       <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportfilter">FsrmReportFilter</a> enumeration.
-
 
 ### -param filterValue [in]
 
@@ -70,19 +65,11 @@ The filter value to use for the specified report filter. The filter value cannot
       slash mark (/), backslash (\), greater than sign (&gt;), less than sign (&lt;), vertical bar (|), double 
       quote ("), or colon (:).
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 The filter value overrides the default value set using the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setdefaultfilter">IFsrmReportManager::SetDefaultFilter</a> 
@@ -171,15 +158,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
- 
-
- 
 

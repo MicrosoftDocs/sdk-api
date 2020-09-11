@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: B002A9A9-0BF5-4FB1-8D7D-06F7D066432C
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetStream method, IAppxFile.GetStream, IAppxFile::GetStream, appxpackaging/IAppxFile::GetStream, appxpkg.iappxfile_getstream
-f1_keywords:
-- appxpackaging/IAppxFile.GetStream
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFile.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFile::GetStream
+ - appxpackaging/IAppxFile::GetStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFile.GetStream
 ---
 
 # IAppxFile::GetStream
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a read-only stream that contains the uncompressed content of the file.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [out, retval]
 
@@ -64,10 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objid
 
 A read-only stream that contains the uncompressed content of the file.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -88,12 +81,7 @@ HRESULT_FROM_WIN32(ERROR_INVALID_DATA) (0x8007000d) if a block in the file can't
 
 APPX_E_BLOCK_HASH_INVALID (0x80080207) if the content of this file’s blocks is inconsistent with its hash in the block map
 
-
-
-
 ## -remarks
-
-
 
 The <i>stream</i> returned is read-only and cloneable.
 
@@ -102,21 +90,11 @@ Validation of payload files is "lazy."  On the first call to the file’s <b>Get
 
 Instances of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that are returned for payload files are optimized for sequential access.  While random access to the stream is supported, that random access might be slower and more CPU-intensive.  We recommend a single sequential read of these streams whenever possible.  Reading the same range multiple times is supported but not recommended for performance; consider caching such ranges if their usage scenario demands it.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
- 
-
- 
 

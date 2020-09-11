@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAHD_Device interface [Media Foundation],described, dxvahd/IDXVAHD_Device, mf.idxvahd_device
-f1_keywords:
-- dxvahd/IDXVAHD_Device
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxvahd.h
-api_name:
-- IDXVAHD_Device
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXVAHD_Device
+ - dxvahd/IDXVAHD_Device
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxvahd.h
+api_name:
+ - IDXVAHD_Device
 ---
 
 # IDXVAHD_Device interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 
 To get a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-dxvahd_createdevice">DXVAHD_CreateDevice</a> function.
-
 
 ## -inheritance
 
@@ -144,13 +143,9 @@ Gets a list of the input formats supported by the DXVA-HD device.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -161,7 +156,4 @@ Gets a list of the input formats supported by the DXVA-HD device.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: dca5fe16-bf83-4426-af2a-9a205f4ebd57
 ms.date: 12/05/2018
 ms.keywords: GetDateStamp, GetDateStamp method [Windows Shell], GetDateStamp method [Windows Shell],IExtractImage2 interface, IExtractImage2 interface [Windows Shell],GetDateStamp method, IExtractImage2.GetDateStamp, IExtractImage2::GetDateStamp, _win32_IExtractImage2_GetDateStamp, shell.IExtractImage2_GetDateStamp, shobjidl_core/IExtractImage2::GetDateStamp
-f1_keywords:
-- shobjidl_core/IExtractImage2.GetDateStamp
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IExtractImage2.GetDateStamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtractImage2::GetDateStamp
+ - shobjidl_core/IExtractImage2::GetDateStamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IExtractImage2.GetDateStamp
 ---
 
 # IExtractImage2::GetDateStamp
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests the date the image was last modified. This method allows the Shell to determine whether cached images are out-of-date.
 
-
 ## -parameters
-
-
-
 
 ### -param pDateStamp
 
 Type: <b>FILETIME*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure used to return the last time the image was modified.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Return S_OK if successful, or a COM-defined error code otherwise.
-
-
 

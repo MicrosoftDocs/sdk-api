@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 6fbced31-a230-44d4-a9ee-bb3e15df2563
 ms.date: 12/05/2018
 ms.keywords: IRdcLibrary interface [Remote Differential Compression],OpenGeneratorParameters method, IRdcLibrary.OpenGeneratorParameters, IRdcLibrary::OpenGeneratorParameters, OpenGeneratorParameters, OpenGeneratorParameters method [Remote Differential Compression], OpenGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, fs.irdclibrary_opengeneratorparameters, msrdc/IRdcLibrary::OpenGeneratorParameters, rdc.irdclibrary_opengeneratorparameters
-f1_keywords:
-- msrdc/IRdcLibrary.OpenGeneratorParameters
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: MsRdc.dll
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcLibrary.OpenGeneratorParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcLibrary::OpenGeneratorParameters
+ - msrdc/IRdcLibrary::OpenGeneratorParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcLibrary.OpenGeneratorParameters
 ---
 
 # IRdcLibrary::OpenGeneratorParameters
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OpenGeneratorParameters</b> method 
     opens an existing serialized parameter block and returns an 
   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer initialized 
   with the data.
 
-
 ## -parameters
-
-
-
 
 ### -param size [in]
 
 The size, in bytes, of the serialized parameter block.
 
-
 ### -param parametersBlob [in]
 
 Pointer to a serialized parameter block.
-
 
 ### -param iGeneratorParameters [out]
 
@@ -77,29 +71,15 @@ Pointer to a location that will receive the returned
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer. Callers 
   must release the interface.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 To create a serialized parameter block, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">IRdcGeneratorParameters::Serialize</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
 
@@ -110,7 +90,4 @@ To create a serialized parameter block, use the <a href="https://docs.microsoft.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
- 
-
- 
 

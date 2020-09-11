@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 302f8008-c65d-4794-9297-8b47e29e36ce
 ms.date: 12/05/2018
 ms.keywords: GetGamutBoundaryMeshSize, GetGamutBoundaryMeshSize method [Windows Color System], GetGamutBoundaryMeshSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMeshSize method, IDeviceModelPlugIn.GetGamutBoundaryMeshSize, IDeviceModelPlugIn::GetGamutBoundaryMeshSize, _color_IDeviceModelPlugIn::GetGamutBoundaryMeshSize, wcs.IDeviceModelPlugIn_GetGamutBoundaryMeshSize, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
-f1_keywords:
-- wcsplugin/IDeviceModelPlugIn.GetGamutBoundaryMeshSize
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcsPlugIn.h
-api_name:
-- IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceModelPlugIn::GetGamutBoundaryMeshSize
+ - wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcsPlugIn.h
+api_name:
+ - IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 ---
 
 # IDeviceModelPlugIn::GetGamutBoundaryMeshSize
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the required data structure sizes for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-getgamutboundarymesh">GetGamutBoundaryMesh</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pNumVertices [out]
 
 The required number of vertices.
 
-
 ### -param pNumTriangles [out]
 
 The required number of triangles.
 
-
 ## -returns
-
-
 
 If this function succeeds, the return value is S_OK.
 
@@ -78,22 +70,11 @@ If the plug-in device model wants WCS to compute its gamut boundary mesh, the re
 
 If this function fails, the return value is E_FAIL.
 
-
-
-
 ## -remarks
-
-
 
 This function is called by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/createmultiprofiletransform">CreateMultiProfileTransform</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
@@ -104,7 +85,4 @@ This function is called by the <a href="https://docs.microsoft.com/previous-vers
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
- 
-
- 
 

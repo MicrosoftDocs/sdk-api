@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
 ms.date: 12/05/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
-f1_keywords:
-- fileapi/AreFileApisANSI
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-file-l1-2-2.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- AreFileApisANSI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AreFileApisANSI
+ - fileapi/AreFileApisANSI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-file-l1-2-2.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - AreFileApisANSI
 ---
 
 # AreFileApisANSI function
@@ -52,32 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the file I/O functions are using the ANSI or OEM character set code 
     page. This function is useful for 8-bit console input and output operations.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the set of file I/O functions is using the ANSI code page, the return value is nonzero.
 
 If the set of file I/O functions is using the OEM code page, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function causes a set of file 
     I/O functions to use the OEM code page. The 
@@ -154,15 +141,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -173,7 +153,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>
- 
-
- 
 

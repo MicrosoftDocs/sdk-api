@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382
 ms.date: 12/05/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
-f1_keywords:
-- ocidl/IFont
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFont
+ - ocidl/IFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IFont
 ---
 
 # IFont interface
 
 
 ## -description
-
 
 Provides a wrapper around a Windows font object. The COM font object supports a number of 
     read/write properties as well as a set of methods through its <b>IFont</b> 
@@ -78,7 +78,6 @@ The font object also supports <a href="https://docs.microsoft.com/windows/deskto
 
 In addition, the font object supports <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, which can 
     render a property set containing the font's attributes, allowing a client to save these properties as text.
-
 
 ## -inheritance
 
@@ -317,12 +316,9 @@ Converts the scaling factor for this font between logical units and <b>HIMETRIC<
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Each property in the <b>IFont</b> interface includes a 
      <b>get_<i>PropertyName</i></b> method if the property supports read 
@@ -450,16 +446,7 @@ The system provides a standard implementation of a font object with the
       derived from <b>IDispatch</b> to provide access to the font's properties through 
       Automation. The system implementation of the font object supplies both interfaces.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifontdisp">IFontDisp</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 64102b89-defe-4f26-b6b2-8c3903e08347
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeCRLDistInfo object, GetNameCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameCount method, ICertEncodeCRLDistInfo.GetNameCount, ICertEncodeCRLDistInfo::GetNameCount, _certsrv_icertencodecrldistinfo_getnamecount, certenc/ICertEncodeCRLDistInfo::GetNameCount, security.icertencodecrldistinfo_getnamecount
-f1_keywords:
-- certenc/ICertEncodeCRLDistInfo.GetNameCount
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeCRLDistInfo.GetNameCount
-- CCertEncodeCRLDistInfo.GetNameCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeCRLDistInfo::GetNameCount
+ - certenc/ICertEncodeCRLDistInfo::GetNameCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeCRLDistInfo.GetNameCount
+ - CCertEncodeCRLDistInfo.GetNameCount
 ---
 
 # ICertEncodeCRLDistInfo::GetNameCount
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNameCount</b> method returns the number of names in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution point.
 
-
 ## -parameters
-
-
-
 
 ### -param DistPointIndex [in]
 
 Specifies the index of the distribution point for which to get the name count.
 
-
 ### -param pNameCount [out]
 
 A pointer to a <b>Long</b> that will represent the number of name values contained in the CRL distribution point.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
@@ -81,13 +73,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the number of names in the CRL distribution point.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
@@ -102,7 +88,4 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnamecount">ICertEncodeCRLDistInfo::SetNameCount</a>
- 
-
- 
 

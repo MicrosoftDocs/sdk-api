@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.date: 12/05/2018
 ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
-f1_keywords:
-- cluadmex/IGetClusterResourceInfo
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IGetClusterResourceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetClusterResourceInfo
+ - cluadmex/IGetClusterResourceInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IGetClusterResourceInfo
 ---
 
 # IGetClusterResourceInfo interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements 
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IGetClusterResourceInfo</b> interface is 
     called by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> 
     extension to retrieve information about a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>.
-
 
 ## -inheritance
 
@@ -101,12 +100,9 @@ Returns the <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If the object being extended is not a resource, queries for 
      <b>IGetClusterResourceInfo</b> methods will fail. 
@@ -221,14 +217,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-information-interfaces">Failover Cluster Administrator Information Interfaces</a>
 
@@ -251,7 +240,4 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
- 
-
- 
 

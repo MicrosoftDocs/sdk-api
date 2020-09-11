@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7c8c5208-ea77-47b2-913d-314ade0313f5
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accParent method, IAccessible.get_accParent, IAccessible::get_accParent, _msaa_IAccessible_get_accParent, get_accParent, get_accParent method [Windows Accessibility], get_accParent method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accparent, oleacc/IAccessible::get_accParent, winauto.iaccessible_iaccessible__get_accparent
-f1_keywords:
-- oleacc/IAccessible.get_accParent
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accParent
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accParent
+ - oleacc/IAccessible::get_accParent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accParent
 ---
 
 # IAccessible::get_accParent
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accParent</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> of the object's parent. All objects support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param ppdispParent [out, retval]
 
@@ -64,10 +60,7 @@ Type: <b>IDispatch**</b>
 
  Receives the address of the parent object's <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface. If no parent exists or if the child cannot access its parent, the variable is set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -92,15 +85,8 @@ No parent exists for this object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
@@ -115,7 +101,4 @@ No parent exists for this object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>
- 
-
- 
 

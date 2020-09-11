@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: f104dc0c-b3e0-4f22-ac5f-5dbf967be31b
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyRouteChange2, NotifyRouteChange2 function [IP Helper], iphlp.notifyroutechange2, netioapi/NotifyRouteChange2
-f1_keywords:
-- netioapi/NotifyRouteChange2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- NotifyRouteChange2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyRouteChange2
+ - netioapi/NotifyRouteChange2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - NotifyRouteChange2
 ---
 
 # NotifyRouteChange2 function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NotifyRouteChange2</b> function  registers to be notified for changes to IP route entries  on  a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param AddressFamily [in]
 
@@ -105,35 +101,27 @@ The values currently supported are <b>AF_INET</b>, <b>AF_INET6</b>, and <b>AF_UN
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Callback [in]
 
 A pointer to the function to call when a change occurs. This function will be invoked
         when an IP route notification is received.
 
-
 ### -param CallerContext [in]
 
 A user context passed to the callback function specified in the <i>Callback</i> parameter when an interface notification is received.
-
 
 ### -param InitialNotification [in]
 
 A value that indicates whether the callback should be invoked
         immediately after registration for change notification completes. This initial notification does not indicate a change occurred to an IP route entry. The purpose of this parameter to provide confirmation that the callback is registered.
 
-
 ### -param NotificationHandle [in, out]
 
 A pointer used to return a handle that can be later used to
         deregister the change notification. On success, a notification handle is returned in this parameter. If an error occurs, <b>NULL</b> is returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -190,14 +178,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NotifyRouteChange2</b> function is defined on Windows Vista and later. 
 
@@ -259,13 +241,7 @@ To deregister for change notifications, call the  <a href="https://docs.microsof
 
 An application cannot make a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
 
@@ -308,7 +284,4 @@ An application cannot make a call to the <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
- 
-
- 
 

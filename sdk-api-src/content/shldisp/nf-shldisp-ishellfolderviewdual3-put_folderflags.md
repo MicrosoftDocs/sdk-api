@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 698678a6-3624-420a-997a-9fd1e61d67e6
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_FolderFlags method, IShellFolderViewDual3.put_FolderFlags, IShellFolderViewDual3::put_FolderFlags, _shell_IShellFolderViewDual3_put_FolderFlags, put_FolderFlags, put_FolderFlags method [Windows Shell], put_FolderFlags method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_FolderFlags, shldisp/IShellFolderViewDual3::put_FolderFlags
-f1_keywords:
-- shldisp/IShellFolderViewDual3.put_FolderFlags
-dev_langs:
-- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shldisp.h
-api_name:
-- IShellFolderViewDual3.put_FolderFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderViewDual3::put_FolderFlags
+ - shldisp/IShellFolderViewDual3::put_FolderFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shldisp.h
+api_name:
+ - IShellFolderViewDual3.put_FolderFlags
 ---
 
 # IShellFolderViewDual3::put_FolderFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current folders settings.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -64,14 +60,9 @@ Type: <b>DWORD</b>
 
 Flags that determine the folder settings. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

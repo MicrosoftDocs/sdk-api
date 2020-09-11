@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005
 ms.date: 12/05/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
-f1_keywords:
-- endpointvolume/IAudioMeterInformation
-dev_langs:
-- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Endpointvolume.h
-api_name:
-- IAudioMeterInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioMeterInformation
+ - endpointvolume/IAudioMeterInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Endpointvolume.h
+api_name:
+ - IAudioMeterInformation
 ---
 
 # IAudioMeterInformation interface
 
 
 ## -description
-
-
 
 The <b>IAudioMeterInformation</b> interface represents a peak meter on an audio stream to or from an audio endpoint device. The client obtains a reference to the <b>IAudioMeterInformation</b> interface on an endpoint object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioMeterInformation.
 
@@ -64,9 +63,6 @@ For a rendering endpoint device, the <b>IAudioMeterInformation</b> interface mon
 The peak values reported by the methods in the <b>IAudioMeterInformation</b> interface are normalized to the range from 0.0 to 1.0. For example, if a PCM stream contains 16-bit samples, and the peak sample value during a particular metering period is –8914, then the absolute value recorded by the peak meter is 8914, and the normalized peak value reported by the <b>IAudioMeterInformation</b> interface is 8914/32768 = 0.272.
 
 For a code example that uses the <b>IAudioMeterInformation</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/peak-meters">Peak Meters</a>.
-
-
-
 
 ## -inheritance
 
@@ -119,13 +115,9 @@ Queries the audio endpoint device for its hardware-supported functions.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -136,7 +128,4 @@ Queries the audio endpoint device for its hardware-supported functions.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
- 
-
- 
 

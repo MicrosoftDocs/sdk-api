@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
-f1_keywords:
-- appxpackaging/IAppxBlockMapReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBlockMapReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBlockMapReader
+ - appxpackaging/IAppxBlockMapReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBlockMapReader
 ---
 
 # IAppxBlockMapReader interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a read-only object model for block maps that provides access to the file attributes and block hashes.
-
 
 ## -inheritance
 
@@ -104,12 +103,9 @@ Retrieves a read-only stream that represents the XML content of the block map.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IAppxBlockMapReader</b> represents the <b>BlockMap</b> root element of the block map. <b>File</b> elements are the child elements of the <b>BlockMap</b> element.
 
@@ -119,12 +115,7 @@ For a code example, see the [Query app package and app manifest sample](https://
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
 
@@ -143,5 +134,4 @@ For a code example, see the [Query app package and app manifest sample](https://
 
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx">Query app package and app manifest sample</a>
-
 

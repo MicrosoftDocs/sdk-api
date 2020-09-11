@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],RequestEditSession method, ITfContext.RequestEditSession, ITfContext::RequestEditSession, RequestEditSession, RequestEditSession method [Text Services Framework], RequestEditSession method [Text Services Framework],ITfContext interface, TF_ES_ASYNC, TF_ES_ASYNCDONTCARE, TF_ES_READ, TF_ES_READWRITE, TF_ES_SYNC, _tsf_itfcontext_requesteditsession_ref, msctf/ITfContext::RequestEditSession, tsf.itfcontext_requesteditsession
-f1_keywords:
-- msctf/ITfContext.RequestEditSession
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.RequestEditSession
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::RequestEditSession
+ - msctf/ITfContext::RequestEditSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.RequestEditSession
 ---
 
 # ITfContext::RequestEditSession
@@ -53,18 +54,13 @@ Obtains access to the document text and properties.
 
 ## -parameters
 
-
-
-
 ### -param tid [in]
 
 Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client to establish the edit session with.
 
-
 ### -param pes [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession</a> interface called to perform the edit session.
-
 
 ### -param dwFlags [in]
 
@@ -126,8 +122,6 @@ The edit session must be asynchronous or the request fails. This value cannot be
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phrSession [out]
 
@@ -141,8 +135,6 @@ Address of an <b>HRESULT</b> value that receives the result of the edit session 
 </ul>
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -207,14 +199,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Pending asynchronous edit sessions are processed in the order received. Synchronous edit sessions are processed before any pending asynchronous edit sessions.
 
@@ -237,8 +223,7 @@ A synchronous read/write request will fail if made when processing one of the fo
 </li>
 </ul>
 
-
-
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession interface](nn-msctf-itfeditsession.md), [ITfStatusSink::OnStatusChange](nf-msctf-itfstatussink-onstatuschange.md), [ITfTextEditSink::OnEndEdit](nf-msctf-itftexteditsink-onendedit.md), [ITfTextLayoutSink::OnLayoutChange](nf-msctf-itftextlayoutsink-onlayoutchange.md)
+

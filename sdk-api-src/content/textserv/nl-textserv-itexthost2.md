@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761
 ms.date: 12/05/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 interface [Windows Controls],described, controls.itexthost2, textserv/ITextHost2
-f1_keywords:
-- textserv/ITextHost2
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost2
+ - textserv/ITextHost2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost2
 ---
 
 # ITextHost2 class
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITextHost2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> and <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices2">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
-
+The <b>ITextHost2</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a> and <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices2">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls.
 
 ## -inheritance
 
@@ -176,16 +175,9 @@ Shows or hides the  caret during the drop portion of a drag-and-drop operation (
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
- 
-
- 
 

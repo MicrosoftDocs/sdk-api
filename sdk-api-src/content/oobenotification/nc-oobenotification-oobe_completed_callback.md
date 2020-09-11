@@ -8,10 +8,6 @@ tech.root: windowssetupandmigration
 ms.assetid: 9786D6C3-82B1-4546-9BE9-7705AD3B7DBD
 ms.date: 12/05/2018
 ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback, OOBE_COMPLETED_CALLBACK callback function, oobenotification/OOBE_COMPLETED_CALLBACK, windowssetupandmigration.oobe_completed_callback
-f1_keywords:
-- oobenotification/OOBE_COMPLETED_CALLBACK
-dev_langs:
-- c++
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Oobenotification.h
-api_name:
-- OOBE_COMPLETED_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OOBE_COMPLETED_CALLBACK
+ - oobenotification/OOBE_COMPLETED_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Oobenotification.h
+api_name:
+ - OOBE_COMPLETED_CALLBACK
 ---
 
 # OOBE_COMPLETED_CALLBACK callback function
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Application-defined callback function used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param CallbackContext
 
 Pointer to the callback context. This is the value passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
 
-
 ## -remarks
 
-
-
 Once the callback function has completed, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-unregisterwaituntiloobecompleted">UnregisterWaitUntilOOBECompleted</a> should be called.
-
-
 

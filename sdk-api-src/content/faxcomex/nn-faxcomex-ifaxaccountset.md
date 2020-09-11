@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\faxinta_n_ifaxaccountset.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountSet, IFaxAccountSet interface [Fax Service], IFaxAccountSet interface [Fax Service],described, _mfax_faxaccountset_cpp, fax._mfax_faxaccountset_cpp, faxcomex/IFaxAccountSet
-f1_keywords:
-- faxcomex/IFaxAccountSet
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxAccountSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxAccountSet
+ - faxcomex/IFaxAccountSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxAccountSet
 ---
 
 # IFaxAccountSet interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides methods for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">fax account</a> management, including adding, removing, and retrieving fax accounts. 
-        
-
+Provides methods for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">fax account</a> management, including adding, removing, and retrieving fax accounts.
 
 ## -inheritance
 
@@ -105,14 +103,9 @@ Removes a fax account from the fax server.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A default implementation of <b>IFaxAccountSet</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountset">FaxAccountSet</a> object. The interface and the object are supported only on Windows Vista or later.
-
-
 

@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709
 ms.date: 12/05/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
-f1_keywords:
-- webservices/WsSetOutputToBuffer
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSetOutputToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSetOutputToBuffer
+ - webservices/WsSetOutputToBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSetOutputToBuffer
 ---
 
 # WsSetOutputToBuffer function
 
 
 ## -description
-
 
 This operation positions the Writer at the end of the specified buffer.
       
@@ -59,44 +59,29 @@ This operation positions the Writer at the end of the specified buffer.
       </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param writer [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object for which the output is set.  The pointer must reference a valid <b>XML Writer</b> object.
-                
-
 
 ### -param buffer [in]
 
 A pointer to the buffer where the Writer sends the data.
-        
-
 
 ### -param properties
 
-A WS_XML_WRITER_PROPERTY pointer that  references an "array" of optional Writer properties.  
-
+A WS_XML_WRITER_PROPERTY pointer that  references an "array" of optional Writer properties.
 
 ### -param propertyCount [in]
 
 The number of properties.
 
-
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -117,17 +102,8 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> for the default values of the properties of the writer.
-      
-
-
 

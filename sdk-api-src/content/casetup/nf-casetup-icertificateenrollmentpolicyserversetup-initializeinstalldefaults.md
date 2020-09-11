@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults
-f1_keywords:
-- casetup/ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults
+ - casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeInstallDefaults</b> method initializes the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a> object with a default configuration.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -102,14 +94,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method performs the following actions:
 
@@ -134,13 +120,7 @@ Checks to determine whether  the  CEP service is installed on a computer running
 </ul>
 You must call the <b>InitializeInstallDefaults</b> method before calling any method other than <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-uninstall">UnInstall</a>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-install">Install</a> method to install the configured CEP service. Call the <b>UnInstall</b> method on a new <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a> object to remove the service.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/casetup/ne-casetup-cepsetupproperty">CEPSetupProperty</a>
 
@@ -151,7 +131,4 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
- 
-
- 
 

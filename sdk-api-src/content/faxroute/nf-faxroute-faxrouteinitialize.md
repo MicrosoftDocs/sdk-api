@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm
 ms.date: 12/05/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
-f1_keywords:
-- faxroute/FaxRouteInitialize
-dev_langs:
-- c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- FaxRoute.h
-api_name:
-- FaxRouteInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxRouteInitialize
+ - faxroute/FaxRouteInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - FaxRoute.h
+api_name:
+ - FaxRouteInitialize
 ---
 
 # FaxRouteInitialize function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The fax service calls the <b>FaxRouteInitialize</b> function once, each time the service starts, to initialize the fax routing extension DLL. Each fax routing extension DLL must export the <b>FaxRouteInitialize</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param HeapHandle [in]
 
 Type: <b>HANDLE</b>
 
 Handle to an initialized heap. The fax routing extension DLL must use the Win32 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a>, described in MSDN, to allocate all memory from this heap.
-
 
 ### -param FaxRouteCallbackRoutines [in]
 
@@ -75,10 +70,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/faxroute/ns
 
 The fax routing extension DLL must store these pointers in a global variable for later use.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -86,24 +78,13 @@ If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
 
-
-
-
 ## -remarks
-
-
 
 The fax routing extension DLL should not perform provider-specific initialization when the fax service calls the <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function, described in MSDN. Instead, the extension should do this when the fax service calls the <b>FaxRouteInitialize</b> function.
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-routing-extension-registration">Fax Routing Extension Registration</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-file-lists">Fax File Lists</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/faxroute/ns-faxroute-fax_route_callbackroutines">FAX_ROUTE_CALLBACKROUTINES</a>
 
@@ -134,7 +115,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 37c0a579-64be-4ed6-b1b3-852013875361
 ms.date: 12/05/2018
 ms.keywords: DrtClose, DrtClose function [Peer Networking], drt/DrtClose, p2p.drtclose
-f1_keywords:
-- drt/DrtClose
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtClose
+ - drt/DrtClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtClose
 ---
 
 # DrtClose function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrtClose</b> function closes the local instance of the DRT. 
-
+The <b>DrtClose</b> function closes the local instance of the DRT.
 
 ## -parameters
-
-
-
 
 ### -param hDrt [in]
 
 Handle to the DRT instance.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -86,18 +79,8 @@ The <i>hDrt</i> handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
- 
-
- 
 

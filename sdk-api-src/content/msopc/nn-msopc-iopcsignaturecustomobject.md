@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 4ebb4fbe-66cc-46d9-b548-31177d9f6da9
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObject, IOpcSignatureCustomObject interface [Open Packaging Conventions], IOpcSignatureCustomObject interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObject, opc.iopcsignaturecustomobject
-f1_keywords:
-- msopc/IOpcSignatureCustomObject
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureCustomObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureCustomObject
+ - msopc/IOpcSignatureCustomObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureCustomObject
 ---
 
 # IOpcSignatureCustomObject interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an application-specific <b>Object</b> element that has been or will be signed.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Gets the XML markup of an application-specific <b>Object</b> element.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 An <b>IOpcSignatureCustomObject</b> interface pointer provides access to the XML markup of the <b>Object</b> element it represents. To access the XML markup of the  <b>Object</b> element, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturecustomobject-getxml">IOpcSignatureCustomObject::GetXml</a> method.
 
@@ -107,13 +103,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -168,7 +158,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

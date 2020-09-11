@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFon
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFontIndices method, IDWriteFontSet1.GetFilteredFontIndices, IDWriteFontSet1::GetFilteredFontIndices, GetFilteredFontIndices, GetFilteredFontIndices method [Direct Write], GetFilteredFontIndices method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfontindices, dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.GetFilteredFontIndices
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::GetFilteredFontIndices
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::GetFilteredFontIndices
+ - dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::GetFilteredFontIndices
 ---
 
 ## -description
@@ -98,3 +99,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

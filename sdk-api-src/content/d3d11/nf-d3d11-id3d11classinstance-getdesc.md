@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 5062595c-4152-4cfd-afcd-3e51d1087675
 ms.date: 12/05/2018
 ms.keywords: 64584e80-07e5-d72e-198e-074e63a44c16, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetDesc method, ID3D11ClassInstance.GetDesc, ID3D11ClassInstance::GetDesc, d3d11/ID3D11ClassInstance::GetDesc, direct3d11.id3d11classinstance_getdesc
-f1_keywords:
-- d3d11/ID3D11ClassInstance.GetDesc
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.lib
-- d3d11.dll
-api_name:
-- ID3D11ClassInstance.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11ClassInstance::GetDesc
+ - d3d11/ID3D11ClassInstance::GetDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.lib
+ - d3d11.dll
+api_name:
+ - ID3D11ClassInstance.GetDesc
 ---
 
 # ID3D11ClassInstance::GetDesc
@@ -50,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a description of the current HLSL class.
 
-
 ## -parameters
-
-
-
 
 ### -param pDesc [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_class_instance_desc">D3D11_CLASS_INSTANCE_DESC</a> structure that describes the current HLSL class.
-          
-
 
 ## -remarks
-
-
 
 For more information about using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a> interface, see
           <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking">Dynamic Linking</a>.
@@ -91,18 +83,8 @@ An instance does not replace the importance of reflection for a particular shade
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classinstance">ID3D11ClassInstance</a>
- 
-
- 
 

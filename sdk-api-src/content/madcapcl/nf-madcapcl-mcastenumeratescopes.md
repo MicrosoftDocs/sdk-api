@@ -8,10 +8,6 @@ tech.root: Madcap
 ms.assetid: df33d766-d420-4069-8b94-86f5e4e91c1d
 ms.date: 12/05/2018
 ms.keywords: McastEnumerateScopes, McastEnumerateScopes function [MADCAP], _mdhcp_mcastenumeratescopes, madcap.mcastenumeratescopes, madcapcl/McastEnumerateScopes
-f1_keywords:
-- madcapcl/McastEnumerateScopes
-dev_langs:
-- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpcsvc.dll
-api_name:
-- McastEnumerateScopes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - McastEnumerateScopes
+ - madcapcl/McastEnumerateScopes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpcsvc.dll
+api_name:
+ - McastEnumerateScopes
 ---
 
 # McastEnumerateScopes function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>McastEnumerateScopes</b> function enumerates multicast scopes available on the network.
 
-
 ## -parameters
-
-
-
 
 ### -param AddrFamily [in]
 
 Specifies the address family to be used in enumeration, in the form of an 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a> structure. Use AF_INET for IPv4 addresses and AF_INET6 for IPv6 addresses.
 
-
 ### -param ReQuery [in]
 
 Enables a caller to query a list again. Set this parameter to <b>TRUE</b> if the list is to be queried more than once. Otherwise, set it to <b>FALSE</b>.
-
 
 ### -param pScopeList [in, out]
 
@@ -88,7 +82,6 @@ If the buffer pointed to in <i>pScopeList</i> is <b>NULL</b> on input,
 To determine the size of buffer required to hold scope list data, set <i>pScopeList</i> to <b>NULL</b> and <i>pScopeLen</i> to a non-<b>NULL</b> value. The 
 <b>McastEnumerateScopes</b> function will then return ERROR_SUCCESS and store the size of the scope list data, in bytes, in <i>pScopeLen</i>.
 
-
 ### -param pScopeLen [in, out]
 
 Pointer to a value used to communicate the size of data or buffer space in <i>pScopeList</i>. On input, <i>pScopeLen</i> points to the size, in bytes, of the buffer pointed to by <i>pScopeList</i>. On return, <i>pScopeLen</i> points to the size of the data copied to <i>pScopeList</i>. 
@@ -102,15 +95,11 @@ The <i>pScopeLen</i> parameter cannot be <b>NULL</b>. If the buffer pointed to b
 To determine the size of buffer required to hold scope list data, set <i>pScopeList</i> to <b>NULL</b> and <i>pScopeLen</i> to a non-<b>NULL</b> value. The 
 <b>McastEnumerateScopes</b> function will then return ERROR_SUCCESS and store the size of the scope list data, in bytes, in <i>pScopeLen</i>.
 
-
 ### -param pScopeCount [out]
 
 Pointer to the number of scopes returned in <i>pScopeList</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 
@@ -121,23 +110,12 @@ If the
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastapistartup">McastApiStartup</a> function has not been called (it must be called before any other MADCAP client functions may be called), the 
 <b>McastEnumerateScopes</b> function returns ERROR_NOT_READY.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>McastEnumerateScopes</b> function queries multicast scopes for each network interface, and the interface on which the scope is retrieved is returned as part of the <i>pScopeList</i> parameter. Therefore, on multihomed computers it is possible that some scopes will get listed multiple times, once for each interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/madcapcl/ns-madcapcl-ipng_address">IPNG_ADDRESS</a>
 
@@ -184,7 +162,4 @@ The
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
- 
-
- 
 

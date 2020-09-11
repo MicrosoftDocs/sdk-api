@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 54b53e4d-990b-4496-aae6-039f443337ae
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA, mf.dxvahd_stream_state_input_color_space_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+ - DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 ---
 
 # DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the color space for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -90,8 +88,6 @@ Graphics.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RGB_Range
 
@@ -125,8 +121,6 @@ Limited range (16-235).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field YCbCr_Matrix
 
@@ -160,8 +154,6 @@ ITU-R BT.709.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field YCbCr_xvYCC
 
@@ -195,24 +187,12 @@ Extended YCbCr (xvYCC).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
- 
-
-
 ### -field Value
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>RGB_Range</b> member applies to RGB input, while the <b>YCbCr_Matrix</b> and <b>YCbCr_xvYCC</b> members apply to YCbCr (YUV) input.
 
@@ -254,14 +234,7 @@ HRESULT DXVAHD_SetInputColorSpace(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -280,7 +253,4 @@ HRESULT DXVAHD_SetInputColorSpace(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

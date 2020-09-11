@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: a0c47d13-c290-4efe-ad73-6dcb654dc18f
 ms.date: 12/05/2018
 ms.keywords: GUID_TFCAT_PROPSTYLE_CUSTOM, GUID_TFCAT_PROPSTYLE_STATIC, GUID_TFCAT_PROPSTYLE_STATICCOMPACT, GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetType method, ITfReadOnlyProperty.GetType, ITfReadOnlyProperty::GetType, _tsf_itfreadonlyproperty_gettype_ref, msctf/ITfReadOnlyProperty::GetType, tsf.itfreadonlyproperty_gettype
-f1_keywords:
-- msctf/ITfReadOnlyProperty.GetType
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReadOnlyProperty.GetType
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadOnlyProperty::GetType
+ - msctf/ITfReadOnlyProperty::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReadOnlyProperty.GetType
 ---
 
 # ITfReadOnlyProperty::GetType
@@ -52,9 +53,6 @@ ms.custom: 19H1
 Obtains the property identifier.
 
 ## -parameters
-
-
-
 
 ### -param pguid [out]
 
@@ -96,12 +94,8 @@ The property is a custom property.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,15 +138,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
       </a>
@@ -164,7 +151,4 @@ An unspecified error occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/properties">Properties</a>
- 
-
- 
 

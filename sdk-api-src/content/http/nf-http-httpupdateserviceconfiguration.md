@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89
 ms.date: 12/05/2018
 ms.keywords: HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpUpdateServiceConfiguration, HttpUpdateServiceConfiguration function [HTTP], http.httpupdateserviceconfiguration, http/HttpUpdateServiceConfiguration
-f1_keywords:
-- http/HttpUpdateServiceConfiguration
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- httpapi.dll
-api_name:
-- HttpUpdateServiceConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpUpdateServiceConfiguration
+ - http/HttpUpdateServiceConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - httpapi.dll
+api_name:
+ - HttpUpdateServiceConfiguration
 ---
 
 # HttpUpdateServiceConfiguration function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates atomically a service configuration parameter that specifies a Transport Layer Security (TLS) certificate in a  configuration record within the HTTP Server API configuration store.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [in]
 
 Reserved and must be  <b>NULL</b>.
-
 
 ### -param ConfigId [in]
 
@@ -103,8 +98,6 @@ Updates the   SSL certificate record that specifies that Http.sys should consult
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConfigInfo [in]
 
@@ -149,22 +142,16 @@ A pointer to a buffer that contains the appropriate data to specify the type of 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConfigInfoLength [in]
 
 The size, in bytes, of the <i>ConfigInfo</i> buffer.
 
-
 ### -param Overlapped [in]
 
 Reserved and must be  <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -242,24 +229,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The configuration parameters that you update with <b>HttpUpdateServiceConfiguration</b> are applied to all the HTTP Server API applications on the machine, and persist when the HTTP Server API shuts down, or when the computer is restarted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
@@ -290,7 +265,4 @@ The configuration parameters that you update with <b>HttpUpdateServiceConfigurat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
- 
-
- 
 

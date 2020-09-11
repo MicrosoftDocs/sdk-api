@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2f0582d2-b079-4b97-8da0-211b6ef1b8f3
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],InitializeSFB method, IShellFolderBand.InitializeSFB, IShellFolderBand::InitializeSFB, InitializeSFB, InitializeSFB method [Windows Shell], InitializeSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_InitializeSFB, shell.IShellFolderBand_InitializeSFB, shlobj/IShellFolderBand::InitializeSFB
-f1_keywords:
-- shlobj/IShellFolderBand.InitializeSFB
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolderBand.InitializeSFB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderBand::InitializeSFB
+ - shlobj/IShellFolderBand::InitializeSFB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolderBand.InitializeSFB
 ---
 
 # IShellFolderBand::InitializeSFB
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param psf
 
@@ -64,36 +60,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
 
-
 ### -param pidl
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A PIDL.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellfolderband">IShellFolderBand</a>
- 
-
- 
 

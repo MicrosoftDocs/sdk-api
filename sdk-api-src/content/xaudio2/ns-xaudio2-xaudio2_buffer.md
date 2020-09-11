@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_BUFFER, XAUDIO2_BUFFER structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer, xaudio2/XAUDIO2_BUFFER
-f1_keywords:
-- xaudio2/XAUDIO2_BUFFER
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xaudio2.h
-api_name:
-- XAUDIO2_BUFFER
 targetos: Windows
 req.typenames: XAUDIO2_BUFFER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAUDIO2_BUFFER
+ - xaudio2/XAUDIO2_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xaudio2.h
+api_name:
+ - XAUDIO2_BUFFER
 ---
 
 # XAUDIO2_BUFFER structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an audio data buffer, used with <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-submitsourcebuffer">IXAudio2SourceVoice::SubmitSourceBuffer</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -74,8 +70,6 @@ Flags that provide additional information about the audio buffer. May be 0, or t
           by starvation of the buffer queue. </td>
 </tr>
 </table>
- 
-
 
 ### -field AudioBytes
 
@@ -100,8 +94,6 @@ The memory allocated for a buffer containing XMA data must have a block alignmen
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PlayBegin
 
@@ -110,37 +102,29 @@ First sample in the buffer that should be played.
 
 For XMA buffers this value must be a multiple of 128 samples.
 
-
 ### -field PlayLength
 
 Length of the region to be played, in samples. A value of zero means to play the entire buffer, and, in this case, <i>PlayBegin</i> must be zero as well. 
 For ADPCM data this value must be a multiple of <b>wSamplesPerBlock</b> in the <b>ADPCMWAVEFORMAT</b> structure that contains this <b>XAUDIO2_BUFFER</b> structure.
 
-
 ### -field LoopBegin
 
 First sample of the region to be looped. The value of <i>LoopBegin</i> must be less than <i>PlayBegin</i> + <i>PlayLength</i>. <i>LoopBegin</i> can be less than <i>PlayBegin</i>. <i>LoopBegin</i> must be 0 if <i>LoopCount</i> is 0.
-
 
 ### -field LoopLength
 
 Length of the loop region, in samples. The value of <i>LoopBegin</i>+<i>LoopLength</i> must be greater than <i>PlayBegin</i> and less than <i>PlayBegin</i> + <i>PlayLength</i>. <i>LoopLength</i> must be zero if LoopCount is 0. If <i>LoopCount</i> is not 0 then a loop length of zero indicates the entire sample should be looped. 
 For ADPCM data this value must be a multiple of <b>wSamplesPerBlock</b> in the <b>ADPCMWAVEFORMAT</b> structure that contains this <b>XAUDIO2_BUFFER</b> structure.
 
-
 ### -field LoopCount
 
 Number of times to loop through the loop region. This value can be between 0 and XAUDIO2_MAX_LOOP_COUNT. If <i>LoopCount</i> is zero no looping is performed and <i>LoopBegin</i> and <i>LoopLength</i> must be 0. To loop forever, set <i>LoopCount</i> to XAUDIO2_LOOP_INFINITE.
-
 
 ### -field pContext
 
 Context value to be passed back in callbacks to the client. This may be NULL.
 
-
 ## -remarks
-
-
 
 XAudio2 audio data is interleaved, data from each channel is adjacent for a particular sample number. For example if there was a 4 channel wave playing into an XAudio2 source voice, the audio data would be a sample of channel 0, a sample of channel 1, a sample of channel 2, a sample of channel 3, and then the next sample of channels 0, 1, 2, 3, etc.
 
@@ -157,13 +141,7 @@ Memory allocated to hold a <b>XAUDIO2_BUFFER</b> or <a href="https://docs.micros
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--build-a-basic-audio-processing-graph">How to: Build a Basic Audio Processing Graph</a>
 
@@ -174,7 +152,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio2 Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 14b81b88-36db-4b01-96e6-eafed22ae02e
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerPolicy object, EnumerateAttributesSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesSetup method, ICertServerPolicy.EnumerateAttributesSetup, ICertServerPolicy::EnumerateAttributesSetup, _certsrv_icertserverpolicy_enumerateattributessetup, certif/ICertServerPolicy::EnumerateAttributesSetup, security.icertserverpolicy_enumerateattributessetup
-f1_keywords:
-- certif/ICertServerPolicy.EnumerateAttributesSetup
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.EnumerateAttributesSetup
-- CCertServerPolicy.EnumerateAttributesSetup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::EnumerateAttributesSetup
+ - certif/ICertServerPolicy::EnumerateAttributesSetup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.EnumerateAttributesSetup
+ - CCertServerPolicy.EnumerateAttributesSetup
 ---
 
 # ICertServerPolicy::EnumerateAttributesSetup
@@ -50,35 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EnumerateAttributesSetup</b> method initializes the internal enumeration pointer to the first request  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
 This parameter is reserved and must be set to zero.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request to use as the current context.
@@ -110,14 +98,7 @@ if (FAILED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
@@ -132,7 +113,4 @@ if (FAILED(hr))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
- 
-
- 
 

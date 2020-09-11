@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
 ms.date: 12/05/2018
 ms.keywords: '*PCACHE_RELATIONSHIP, CACHE_RELATIONSHIP, CACHE_RELATIONSHIP structure, PCACHE_RELATIONSHIP, PCACHE_RELATIONSHIP structure pointer, _CACHE_RELATIONSHIP, base.cache_relationship, winnt/CACHE_RELATIONSHIP, winnt/PCACHE_RELATIONSHIP'
-f1_keywords:
-- winnt/CACHE_RELATIONSHIP
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- CACHE_RELATIONSHIP
 targetos: Windows
 req.typenames: CACHE_RELATIONSHIP, *PCACHE_RELATIONSHIP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CACHE_RELATIONSHIP
+ - winnt/_CACHE_RELATIONSHIP
+ - PCACHE_RELATIONSHIP
+ - winnt/PCACHE_RELATIONSHIP
+ - CACHE_RELATIONSHIP
+ - winnt/CACHE_RELATIONSHIP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - CACHE_RELATIONSHIP
 ---
 
 # CACHE_RELATIONSHIP structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes cache attributes. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Level
 
@@ -101,43 +101,32 @@ L3
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Associativity
 
 The cache associativity. If this member is CACHE_FULLY_ASSOCIATIVE (0xFF), the cache is fully associative.
 
-
 ### -field LineSize
 
 The cache line size, in bytes.
-
 
 ### -field CacheSize
 
 The cache size, in bytes.
 
-
 ### -field Type
 
 The cache type. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-processor_cache_type">PROCESSOR_CACHE_TYPE</a> value.
-
 
 ### -field Reserved
 
 This member is reserved.
 
-
 ### -field GroupMask
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group. 
-
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structure that specifies a  group number and processor affinity within the group.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a>
 
@@ -152,7 +141,4 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_a
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
- 
-
- 
 

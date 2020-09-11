@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: c9f9aad8-754d-4ec8-92a3-8cf1929b9d8a
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMERATESYMBOLS_CALLBACK, PSYM_ENUMERATESYMBOLS_CALLBACKW, PSYM_ENUMERATESYMBOLS_CALLBACKW callback function, SymEnumSymbolsProc, SymEnumSymbolsProc callback, SymEnumSymbolsProc callback function, _win32_symenumsymbolsproc, base.symenumsymbolsproc, dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACK, dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACKW, dbghelp/SymEnumSymbolsProc
-f1_keywords:
-- dbghelp/SymEnumSymbolsProc
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- DbgHelp.h
-api_name:
-- SymEnumSymbolsProc
-- PSYM_ENUMERATESYMBOLS_CALLBACK
-- PSYM_ENUMERATESYMBOLS_CALLBACKW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - PSYM_ENUMERATESYMBOLS_CALLBACKW
+ - dbghelp/PSYM_ENUMERATESYMBOLS_CALLBACKW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - DbgHelp.h
+api_name:
+ - SymEnumSymbolsProc
+ - PSYM_ENUMERATESYMBOLS_CALLBACK
+ - PSYM_ENUMERATESYMBOLS_CALLBACKW
 ---
 
 # PSYM_ENUMERATESYMBOLS_CALLBACKW callback function
 
 
 ## -description
-
 
 An application-defined callback function used with the 
     <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsymbols">SymEnumSymbols</a>, 
@@ -62,23 +62,17 @@ The <b>PSYM_ENUMERATESYMBOLS_CALLBACK</b> and
     <b>SymEnumSymbolsProc</b> is a placeholder for the 
     application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param pSymInfo [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a> structure that 
       provides information about the symbol.
 
-
 ### -param SymbolSize [in]
 
 The size of the symbol, in bytes. The size is calculated and is actually a guess. In some cases, this value 
       can be zero.
-
 
 ### -param UserContext [in, optional]
 
@@ -88,22 +82,13 @@ The user-defined value passed from the
       <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data 
       structure that provides context information for the callback function.
 
-
 ## -returns
-
-
 
 If the function returns <b>TRUE</b>, the enumeration will continue.
 
 If the function returns <b>FALSE</b>, the enumeration will stop.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
@@ -122,9 +107,6 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumtypesbyname">SymEnumTypesByName</a>
- 
-
- 
 
 ## -remarks
 

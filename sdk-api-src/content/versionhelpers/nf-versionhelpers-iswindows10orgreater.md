@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
 ms.date: 12/05/2018
 ms.keywords: IsWindows10OrGreater, IsWindows10OrGreater function, base.iswindows10orgreater, versionhelpers/IsWindows10OrGreater
-f1_keywords:
-- versionhelpers/IsWindows10OrGreater
-dev_langs:
-- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- ntdll.dll
-api_name:
-- IsWindows10OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsWindows10OrGreater
+ - versionhelpers/IsWindows10OrGreater
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - ntdll.dll
+api_name:
+ - IsWindows10OrGreater
 ---
 
 # IsWindows10OrGreater function
@@ -50,29 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates if the current OS version matches, or is greater than, the Windows 10 version.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 True if the current OS version matches, or is greater than, the Windows 10 version; otherwise, false.
 
-
-
-
 ## -remarks
-
-
 
 Applications not manifested for Windows 10 return false, even if the current operating system version is Windows 10. To manifest your applications for Windows 10, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
@@ -99,14 +86,7 @@ For example, if your application requires Windows 10 or later, use the followin
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows7orgreater">IsWindows7OrGreater</a>
 
@@ -153,7 +133,4 @@ For example, if your application requires Windows 10 or later, use the followin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
- 
-
- 
 

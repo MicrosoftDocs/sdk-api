@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionString, ImmSetCompositionString function [Internationalization for Windows Applications], ImmSetCompositionStringA, ImmSetCompositionStringW, SCS_CHANGEATTR, SCS_CHANGECLAUSE, SCS_QUERYRECONVERTSTRING, SCS_SETRECONVERTSTRING, SCS_SETSTR, _win32_ImmSetCompositionString, imm/ImmSetCompositionString, imm/ImmSetCompositionStringA, imm/ImmSetCompositionStringW, intl.immsetcompositionstring
-f1_keywords:
-- imm/ImmSetCompositionString
-dev_langs:
-- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-- Ext-MS-Win-imm-l1-1-0.dll
-- ext-ms-win-imm-l1-1-1.dll
-api_name:
-- ImmSetCompositionString
-- ImmSetCompositionStringA
-- ImmSetCompositionStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmSetCompositionStringW
+ - imm/ImmSetCompositionStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+ - Ext-MS-Win-imm-l1-1-0.dll
+ - ext-ms-win-imm-l1-1-1.dll
+api_name:
+ - ImmSetCompositionString
+ - ImmSetCompositionStringA
+ - ImmSetCompositionStringW
 ---
 
 # ImmSetCompositionStringW function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the characters, attributes, and clauses of the composition and reading strings.
 
-
 ## -parameters
-
-
-
 
 ### -param HIMC [in]
 
 Handle to the input context.
-
 
 ### -param dwIndex [in]
 
@@ -127,41 +122,28 @@ Set the clause information for the composition string, the reading string, or bo
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpComp [in, optional]
 
 Pointer to a buffer containing the information to set for the composition string, as specified by the value of <i>dwIndex</i>.
 
-
 ### -param dwCompLen [in]
 
 Size, in bytes, of the information buffer for the composition string, even if SCS_SETSTR is specified and the buffer contains a Unicode string.
-
 
 ### -param lpRead [in, optional]
 
 Pointer to a buffer containing the information to set for the reading string, as specified by the value of <i>dwIndex</i>. The application can set this parameter to <b>NULL</b>.
 
-
 ### -param dwReadLen [in]
 
 Size, in bytes, of the information buffer for the reading string, even if SCS_SETSTR is specified and the buffer contains a Unicode string.
 
-
 ## -returns
-
-
 
 Returns a nonzero value if successful, or 0 otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The application can set <i>lpComp</i>, <i>lpRead</i>, or both. If the application does not specify a value for <i>lpComp</i>, it must set this parameter to <b>NULL</b> and set <i>dwCompLen</i> to 0.
 
@@ -188,9 +170,6 @@ When the IME completes the changes, it sends a <a href="https://docs.microsoft.c
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
@@ -204,7 +183,4 @@ When the IME completes the changes, it sends a <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-composition">WM_IME_COMPOSITION</a>
- 
-
- 
 

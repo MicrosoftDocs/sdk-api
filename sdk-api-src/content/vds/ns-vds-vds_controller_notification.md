@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: de2aa5d8-b9b0-4e3d-9846-e886ac1d4241
 ms.date: 12/05/2018
 ms.keywords: VDS_CONTROLLER_NOTIFICATION, VDS_CONTROLLER_NOTIFICATION structure [VDS], VDS_NF_CONTROLLER_ARRIVE, VDS_NF_CONTROLLER_DEPART, VDS_NF_CONTROLLER_MODIFY, VDS_NF_CONTROLLER_REMOVED, base.vds_controller_notification, vds/_VDS_CONTROLLER_NOTIFICATION, vdshwprv/_VDS_CONTROLLER_NOTIFICATION
-f1_keywords:
-- vds/VDS_CONTROLLER_NOTIFICATION
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_CONTROLLER_NOTIFICATION
 targetos: Windows
 req.typenames: VDS_CONTROLLER_NOTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_CONTROLLER_NOTIFICATION
+ - vds/_VDS_CONTROLLER_NOTIFICATION
+ - VDS_CONTROLLER_NOTIFICATION
+ - vds/VDS_CONTROLLER_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_CONTROLLER_NOTIFICATION
 ---
 
 # VDS_CONTROLLER_NOTIFICATION structure
@@ -50,16 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of controller events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulEvent
 
@@ -119,17 +117,12 @@ A controller is physically present but not available for use. The <a href="https
 </td>
 </tr>
 </table>
- 
-
 
 ### -field controllerId
 
 The GUID of the controller that triggered the event.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this structure as a member.
 
@@ -137,13 +130,7 @@ An application can receive controller events by implementing the <a href="https:
 
 To get the controller object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getproperties">IVdsController::GetProperties</a> method to get the controller properties.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
 
@@ -162,7 +149,4 @@ To get the controller object, use the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
- 
-
- 
 

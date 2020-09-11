@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 3733F912-9D43-489B-91D8-7128D0F5D1A4
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_STATUS_ROUTINE_EX, PSET_RESOURCE_STATUS_ROUTINE_EX callback function [Failover Cluster], SetResourceStatusEx, SetResourceStatusEx callback, SetResourceStatusEx callback function [Failover Cluster], mscs.setresourcestatusex, resapi/PSET_RESOURCE_STATUS_ROUTINE_EX, resapi/SetResourceStatusEx
-f1_keywords:
-- resapi/SetResourceStatusEx
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- SetResourceStatusEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSET_RESOURCE_STATUS_ROUTINE_EX
+ - resapi/PSET_RESOURCE_STATUS_ROUTINE_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - SetResourceStatusEx
 ---
 
 # PSET_RESOURCE_STATUS_ROUTINE_EX callback function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called to update the status of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. 
     The <b>PSET_RESOURCE_STATUS_ROUTINE_EX</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceHandle
 
@@ -65,16 +61,12 @@ A handle to the resource to be updated. The <i>ResourceHandle</i> parameter shou
        contain the same handle that is used for the <i>ResourceHandle</i> parameter in the 
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_v2_routine">OpenV2</a> entry point for this resource.
 
-
 ### -param ResourceStatus
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resource_status_ex">RESOURCE_STATUS_EX</a> structure that 
        contains information about the resource's state.
 
-
 ## -returns
-
-
 
 One of 
        the following values of the 
@@ -115,18 +107,8 @@ The resource has been terminated. Callers should end
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
- 
-
- 
 

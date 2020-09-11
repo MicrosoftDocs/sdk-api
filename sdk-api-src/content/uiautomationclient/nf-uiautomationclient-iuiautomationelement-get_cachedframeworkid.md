@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: da793d93-276b-47ea-a78f-bbdd83f1bc07
 ms.date: 12/05/2018
 ms.keywords: CachedFrameworkId property [Windows Accessibility], CachedFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedFrameworkId property, IUIAutomationElement.CachedFrameworkId, IUIAutomationElement.get_CachedFrameworkId, IUIAutomationElement::CachedFrameworkId, IUIAutomationElement::get_CachedFrameworkId, get_CachedFrameworkId, uiauto.uiauto_IUIAutomationElement_CachedFrameworkId, uiauto_IUIAutomationElement_CachedFrameworkId, uiautomationclient/IUIAutomationElement::CachedFrameworkId, uiautomationclient/IUIAutomationElement::get_CachedFrameworkId, winauto.uiauto_IUIAutomationElement_CachedFrameworkId
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CachedFrameworkId
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CachedFrameworkId
-- IUIAutomationElement.get_CachedFrameworkId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CachedFrameworkId
+ - uiautomationclient/IUIAutomationElement::get_CachedFrameworkId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CachedFrameworkId
+ - IUIAutomationElement.get_CachedFrameworkId
 ---
 
 # IUIAutomationElement::get_CachedFrameworkId
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached name of the underlying UI framework associated with the element.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
@@ -77,7 +72,4 @@ This property is read-only.
 
 
 <b>Reference</b>
- 
-
- 
 

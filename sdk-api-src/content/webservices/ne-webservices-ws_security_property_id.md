@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 98a824c9-11dd-4433-ae8f-2e6b6f6a520f
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_PROPERTY_ALGORITHM_SUITE, WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME, WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY, WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO, WS_SECURITY_PROPERTY_ID, WS_SECURITY_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW, WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY, WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT, WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION, WS_SECURITY_PROPERTY_SERVICE_IDENTITIES, WS_SECURITY_PROPERTY_TIMESTAMP_USAGE, WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION, WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL, webservices/WS_SECURITY_PROPERTY_ALGORITHM_SUITE, webservices/WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME, webservices/WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY, webservices/WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO, webservices/WS_SECURITY_PROPERTY_ID, webservices/WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW, webservices/WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY, webservices/WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT, webservices/WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION, webservices/WS_SECURITY_PROPERTY_SERVICE_IDENTITIES, webservices/WS_SECURITY_PROPERTY_TIMESTAMP_USAGE, webservices/WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION, webservices/WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL, wsw.ws_security_property_id
-f1_keywords:
-- webservices/WS_SECURITY_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SECURITY_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_SECURITY_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_SECURITY_PROPERTY_ID
+ - webservices/WS_SECURITY_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SECURITY_PROPERTY_ID
 ---
 
 # WS_SECURITY_PROPERTY_ID enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the properties representing channel-wide security settings.  This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_property">WS_SECURITY_PROPERTY</a> structure, which is in turn used within a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">WS_SECURITY_DESCRIPTION</a> structure.
-      
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL
 
@@ -65,8 +60,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webserv
           signing plus encryption should be done for the connection.  With at
           least one transport security binding in the security description, the
           default is <b>WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</b>.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_ALGORITHM_SUITE
 
@@ -77,8 +70,6 @@ With mixed-mode security, this property is a <a href="/windows/win32/api/webserv
 If neither this property nor <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME</a> is specified, the algorithm
           suite defaults to <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</b>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME
 
@@ -91,15 +82,11 @@ With mixed-mode security, this property is a  <a href="https://docs.microsoft.co
 If neither this property nor <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> is specified, the algorithm
           suite defaults to <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a>when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY
 
 With mixed-mode security, this property is a WS_TIMESPAN structure that specifies the maximum allowed staleness of
           an incoming timestamp in the security header. The default is 5 minutes.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_TIMESTAMP_VALIDITY_DURATION
 
@@ -107,8 +94,6 @@ With mixed-mode security, this property is a WS_TIMESPAN structure that specifie
           sender will remain valid for this duration from the security
           application instant.  This setting is sometimes called 'time-to-live'
           or 'TTL'. The default is 5 minutes.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_MAX_ALLOWED_CLOCK_SKEW
 
@@ -116,30 +101,22 @@ With mixed-mode security, this property is a WS_TIMESPAN structure that specifie
           the clocks of the sender and receiver.  This quantity serves as a
           margin of tolerance on the enforcement of settings such as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY</a>.  
           The default is 5 minutes.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_TIMESTAMP_USAGE
 
 With mixed-mode security, this property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_timestamp_usage">WS_SECURITY_TIMESTAMP_USAGE</a> value that specifies whether a timestamp should be
           generated (at sender) and demanded (at receiver) in the security
           header.  The default is <b>WS_SECURITY_TIMESTAMP_USAGE_ALWAYS</b>.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT
 
 With mixed-mode security, this property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_layout">WS_SECURITY_HEADER_LAYOUT</a> value that specifies the layout of the security
           header.  The default is <b>WS_SECURITY_HEADER_LAYOUT_STRICT</b>.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION
 
 With mixed-mode security, this property is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_header_version">WS_SECURITY_HEADER_VERSION</a> value that specifies the WS-Security version to use
           for the security header.  The default is <b>WS_SECURITY_HEADER_VERSION_1_1</b>.
-        
-
 
 ### -field WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_POLICY
 
@@ -153,8 +130,6 @@ This property is only available on the server and can only be used when <a href=
 
 Supported by default on Windows 7 and above. May require an update on systems running earlier versions of Windows. If the operating system was not updated,
                   this property is still available but has no effect.
-              
-
 
 ### -field WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO
 
@@ -168,8 +143,6 @@ The default is <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 
 Supported by default on Windows 7 and above. May require an update on systems running earlier versions of Windows. If the operating system was not updated,
                   this property is still available but has no effect.
-              
-
 
 ### -field WS_SECURITY_PROPERTY_SERVICE_IDENTITIES
 
@@ -186,18 +159,11 @@ If all of the above requirements are met, this property must be set for security
 
 Supported by default on Windows 7 and above. Requires update to the operating system on other platforms. If the operating system was not updated,
                   this property is still available but has no effect.
-              
-
 
 ## -remarks
-
-
 
 All properties defined by the keys here have reasonable defaults; so
         specifying them is optional.  In the common case, one should be able
         to create a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_security_description">WS_SECURITY_DESCRIPTION</a> without setting any of
         the properties below.
-      
-
-
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 9b55e181-ae03-473c-a85a-f169744d911d
 ms.date: 12/05/2018
 ms.keywords: IATSCChannelTuneRequest, IATSCChannelTuneRequest interface [Microsoft TV Technologies], IATSCChannelTuneRequest interface [Microsoft TV Technologies],described, IATSCChannelTuneRequestInterface, mstv.iatscchanneltunerequest, tuner/IATSCChannelTuneRequest
-f1_keywords:
-- tuner/IATSCChannelTuneRequest
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IATSCChannelTuneRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSCChannelTuneRequest
+ - tuner/IATSCChannelTuneRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IATSCChannelTuneRequest
 ---
 
 # IATSCChannelTuneRequest interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IATSCChannelTuneRequest</b> interface provides methods for tuning to a channel in an ATSC network. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atscchanneltunerequest-object">ATSCChannelTuneRequest</a> object implements this interface.
-
-
-
 
 ## -inheritance
 
@@ -89,12 +85,9 @@ Sets the minor channel to be tuned.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 ATSC defines a tune request in terms of a <i>major channel</i> and a <i>minor channel</i>. The major channel is mapped to a physical frequency and the minor channel identifies different programs within the same major channel. To access the channel numbers, use the following methods:
 
@@ -120,20 +113,11 @@ ATSC defines a tune request in terms of a <i>major channel</i> and a <i>minor ch
 </ul>
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IATSCChannelTuneRequest)</code>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
- 
-
- 
 

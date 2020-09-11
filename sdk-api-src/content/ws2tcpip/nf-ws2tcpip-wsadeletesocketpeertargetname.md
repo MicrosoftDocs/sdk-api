@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 5d973316-fc51-453e-8d98-36ba36367df7
 ms.date: 12/05/2018
 ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
-f1_keywords:
-- ws2tcpip/WSADeleteSocketPeerTargetName
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- WSADeleteSocketPeerTargetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSADeleteSocketPeerTargetName
+ - ws2tcpip/WSADeleteSocketPeerTargetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - WSADeleteSocketPeerTargetName
 ---
 
 # WSADeleteSocketPeerTargetName function
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WSADeleteSocketPeerTargetName</b> function removes the association between a peer target name and an IP address for a socket.  After a successful return, there will be no future association between the IP address and the target name.
 
-
 ## -parameters
-
-
-
 
 ### -param Socket [in]
 
 A descriptor identifying a socket on which the peer target name is being deleted.
 
-
 ### -param PeerAddr [in]
 
 The IP address of the peer for which the target name is being deleted.
-
 
 ### -param PeerAddrLen [in]
 
 The size, in bytes, of the <i>PeerAddr</i> parameter.
 
-
 ### -param Overlapped [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
-
 
 ### -param CompletionRoutine [in, optional]
 
 A pointer to the completion routine called when the operation has been completed.  This parameter is ignored for non-overlapped sockets.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is 0.  Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>. 
@@ -153,14 +142,8 @@ The descriptor passed in the <i>Socket</i> parameter is not a valid socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSADeleteSocketPeerTargetName</b> function provides a method to remove the association between a peer target name and an IP address for a socket. This function is used to delete a peer target name that was previously set with the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname">WSASetSocketPeerTargetName</a> function.  After the <b>WSADeleteSocketPeerTargetName</b> function returns, no future authentication to the IP address will use the previously specified target name. This function is primarily designed to be used by connectionless clients (for example, a socket created with the type set to SOCK_DGRAM or the protocol set to IPPROTO_UDP) after they have terminated the connection with the IP	address associated with the peer target name. For connection oriented clients (for example, a socket created with the type set to SOCK_STREAM or protocol set to IPPROTO_TCP), this function should not be called.
 
@@ -171,14 +154,7 @@ An error will be returned if the following conditions are not met.<ul>
 <li>The socket type must be either SOCK_STREAM or SOCK_DGRAM.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/using-secure-socket-extensions">Using Secure Socket Extensions</a>
 
@@ -213,7 +189,4 @@ An error will be returned if the following conditions are not met.<ul>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
- 
-
- 
 

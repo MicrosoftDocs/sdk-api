@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMapping method, IVssComponent.GetAlternateLocationMapping, IVssComponent::GetAlternateLocationMapping, _win32_ivsscomponent_getalternatelocationmapping, base.ivsscomponent_getalternatelocationmapping, vswriter/IVssComponent::GetAlternateLocationMapping
-f1_keywords:
-- vswriter/IVssComponent.GetAlternateLocationMapping
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetAlternateLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetAlternateLocationMapping
+ - vswriter/IVssComponent::GetAlternateLocationMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetAlternateLocationMapping
 ---
 
 # IVssComponent::GetAlternateLocationMapping
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAlternateLocationMapping</b> is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.
 
-
 ## -parameters
-
-
-
 
 ### -param iMapping [in]
 
@@ -66,16 +62,12 @@ Index of a particular mapping. The value of this parameter is an integer from 0
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of alternate location mappings associated with the current component. The value of <i>n</i> is returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getalternatelocationmappingcount">IVssComponent::GetAlternateLocationMappingCount</a>.
 
-
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the mapping information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -141,14 +133,8 @@ The specified item was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Alternate location mappings returned by 
 <b>GetAlternateLocationMapping</b> can come not only from files in the current component, but also from files in any of its nonselectable subcomponents.
@@ -190,13 +176,7 @@ The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unk
 For more information on backup and restore file locations under VSS, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>
 
@@ -207,7 +187,4 @@ For more information on backup and restore file locations under VSS, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a>
- 
-
- 
 

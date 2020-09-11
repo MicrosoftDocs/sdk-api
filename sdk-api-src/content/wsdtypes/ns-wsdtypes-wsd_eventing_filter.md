@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: e702aca8-9784-4e51-988b-f4311573c700
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_FILTER, WSD_EVENTING_FILTER structure, http://schemas.xmlsoap.org/ws/2006/02/devprof/Action, ncd.wsd_eventing_filter, wsdtypes/WSD_EVENTING_FILTER
-f1_keywords:
-- wsdtypes/WSD_EVENTING_FILTER
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- WSD_EVENTING_FILTER
 targetos: Windows
 req.typenames: WSD_EVENTING_FILTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSD_EVENTING_FILTER
+ - wsdtypes/_WSD_EVENTING_FILTER
+ - WSD_EVENTING_FILTER
+ - wsdtypes/WSD_EVENTING_FILTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - WSD_EVENTING_FILTER
 ---
 
 # WSD_EVENTING_FILTER structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an event filter used in WS-Eventing Subscribe messages.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Dialect
 
@@ -78,15 +76,10 @@ The boolean expression uses the Action filter dialect.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FilterAction
 
- 
-
-
 ### -field Data
 
-A reference to the expression used for filtering.  
+A reference to the expression used for filtering.
 

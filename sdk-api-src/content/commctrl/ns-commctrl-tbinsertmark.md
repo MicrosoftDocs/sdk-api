@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK'
-f1_keywords:
-- commctrl/TBINSERTMARK
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TBINSERTMARK
 targetos: Windows
 req.typenames: TBINSERTMARK, *LPTBINSERTMARK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPTBINSERTMARK
+ - commctrl/LPTBINSERTMARK
+ - TBINSERTMARK
+ - commctrl/TBINSERTMARK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TBINSERTMARK
 ---
 
 # TBINSERTMARK structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information on the insertion mark in a toolbar control. 
-
+Contains information on the insertion mark in a toolbar control.
 
 ## -struct-fields
-
-
-
 
 ### -field iButton
 
 Type: <b>int</b>
 
-Zero-based index of the insertion mark. If this member is -1, there is no insertion mark. 
-
+Zero-based index of the insertion mark. If this member is -1, there is no insertion mark.
 
 ### -field dwFlags
 
@@ -108,5 +105,4 @@ The insertion mark is on the background of the toolbar. This flag is only used w
 </td>
 </tr>
 </table>
- 
 

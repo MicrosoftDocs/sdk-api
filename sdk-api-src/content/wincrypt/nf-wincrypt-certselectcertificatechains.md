@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b740772b-d25b-4b3d-9acb-03f7018750d6
 ms.date: 12/05/2018
 ms.keywords: CERT_SELECT_ALLOW_DUPLICATES, CERT_SELECT_ALLOW_EXPIRED, CERT_SELECT_DISALLOW_SELFSIGNED, CERT_SELECT_HARDWARE_ONLY, CERT_SELECT_HAS_KEY_FOR_KEY_EXCHANGE, CERT_SELECT_HAS_KEY_FOR_SIGNATURE, CERT_SELECT_HAS_PRIVATE_KEY, CERT_SELECT_TRUSTED_ROOT, CertSelectCertificateChains, CertSelectCertificateChains function [Security], security.certselectcertificatechains, wincrypt/CertSelectCertificateChains
-f1_keywords:
-- wincrypt/CertSelectCertificateChains
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertSelectCertificateChains
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSelectCertificateChains
+ - wincrypt/CertSelectCertificateChains
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertSelectCertificateChains
 ---
 
 # CertSelectCertificateChains function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSelectCertificateChains</b> function retrieves certificate chains based on specified selection criteria.
-
 
 ## -parameters
 
-
-
-
 ### -param pSelectionContext [in, optional]
 
-A pointer to the GUID of the certificate selection scenario to use for this call. 
-
+A pointer to the GUID of the certificate selection scenario to use for this call.
 
 ### -param dwFlags [in]
 
@@ -166,8 +161,6 @@ Allow the selection of certificates on which the Subject and Subject Alt Name co
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pChainParameters [in, optional]
 
@@ -175,37 +168,29 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/
 
 The <b>pChainPara</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_chain_para">CERT_SELECT_CHAIN_PARA</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure that can be used to enable strong signing.
 
-
 ### -param cCriteria [in]
 
 The number of elements in the array pointed to by the <i>rgpCriteria</i> array.
-
 
 ### -param rgpCriteria [in, optional]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_select_criteria">CERT_SELECT_CRITERIA</a> structures that define the selection criteria. If this parameter is set to <b>NULL</b>, the value of the <i>cCriteria</i> parameter must be zero.
 
-
 ### -param hStore [in]
 
 The handle to a store from which to select the certificates.
-
 
 ### -param pcSelection [out]
 
  A pointer to a <b>DWORD</b> value to receive the number of elements in the array pointed to by the <i>pprgpSelection</i> parameter.
 
-
 ### -param pprgpSelection [out]
 
 A pointer to a pointer to a location to receive an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure. The <b>CertSelectCertificateChains</b> function only returns certificate chains that match all the selection criteria. The entries in the array are ordered by quality, i.e. the chain with the highest quality is the first entry. 
 
-Storage for the array is allocated by the <b>CertSelectCertificateChains</b> function. To free the allocated memory you must first release each individual chain context in the array by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function. Then you must  free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainlist">CertFreeCertificateChainList</a> function. 
-
+Storage for the array is allocated by the <b>CertSelectCertificateChains</b> function. To free the allocated memory you must first release each individual chain context in the array by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function. Then you must  free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainlist">CertFreeCertificateChainList</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>. 
 
@@ -216,11 +201,7 @@ If the function fails, it returns zero (FALSE). For extended error information, 
 </div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Selection criteria can  be specified through either the  <i>dwFlags</i>  parameter, through the <i>rgpCriteria</i> parameter, or through both parameters. If no selection criteria are specified, the function  succeeds and returns certificate chains for all certificates in the store specified by the <i>hStore</i> parameter.
 
@@ -249,13 +230,7 @@ Perform the following actions to enable strong signature checking:<ul>
 
 When you enable strong signature checking, any certificate chain that returns a <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> error in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure will be skipped. (The <i>pprgpSelection</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structure which, in turn, points to the  <b>CERT_TRUST_STATUS</b> structure.) The <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> value is also set for a weak signature.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -266,7 +241,4 @@ When you enable strong signature checking, any certificate chain that returns a 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
- 
-
- 
 

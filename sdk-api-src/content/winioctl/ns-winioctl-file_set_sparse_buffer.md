@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f9c24156-bcd6-423e-b055-18651f4e185e
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER structure [Files], PFILE_SET_SPARSE_BUFFER, PFILE_SET_SPARSE_BUFFER structure pointer [Files], fs.file_set_sparse_buffer, winioctl/FILE_SET_SPARSE_BUFFER, winioctl/PFILE_SET_SPARSE_BUFFER'
-f1_keywords:
-- winioctl/FILE_SET_SPARSE_BUFFER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FILE_SET_SPARSE_BUFFER
 targetos: Windows
 req.typenames: FILE_SET_SPARSE_BUFFER, *PFILE_SET_SPARSE_BUFFER
 req.redist: 
+f1_keywords:
+ - _FILE_SET_SPARSE_BUFFER
+ - winioctl/_FILE_SET_SPARSE_BUFFER
+ - PFILE_SET_SPARSE_BUFFER
+ - winioctl/PFILE_SET_SPARSE_BUFFER
+ - FILE_SET_SPARSE_BUFFER
+ - winioctl/FILE_SET_SPARSE_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FILE_SET_SPARSE_BUFFER
 ---
 
 # FILE_SET_SPARSE_BUFFER structure
@@ -48,17 +53,10 @@ req.redist:
 
 ## -description
 
-
 Specifies the sparse state to be set.<b>Windows Server 2003 and Windows XP:  </b>This structure is optional. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a>.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field SetSparse
 
@@ -74,18 +72,11 @@ If <b>FALSE</b>, makes the file not sparse.
         <b>FALSE</b> will cause the 
         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a> call to fail.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a>
- 
-
- 
 

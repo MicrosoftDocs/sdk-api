@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
 ms.date: 12/05/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+],described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
-f1_keywords:
-- comsvcs/ICreateWithLocalTransaction
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICreateWithLocalTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateWithLocalTransaction
+ - comsvcs/ICreateWithLocalTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICreateWithLocalTransaction
 ---
 
 # ICreateWithLocalTransaction interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a COM+ object that executes within the scope of the specified local transaction.
-
-
 
 ## -inheritance
 
@@ -78,5 +76,5 @@ Creates a COM+ object that executes within the scope of the specified local tran
 
 </td>
 </tr>
-</table> 
+</table>
 

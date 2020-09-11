@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75
 ms.date: 12/05/2018
 ms.keywords: '*PPAYLOAD_FILTER_PREDICATE, PAYLOADFIELD_BETWEEN, PAYLOADFIELD_CONTAINS, PAYLOADFIELD_DOESNTCONTAIN, PAYLOADFIELD_EQ, PAYLOADFIELD_GE, PAYLOADFIELD_GT, PAYLOADFIELD_INVALID, PAYLOADFIELD_IS, PAYLOADFIELD_ISNOT, PAYLOADFIELD_LE, PAYLOADFIELD_LT, PAYLOADFIELD_MODULO, PAYLOADFIELD_NE, PAYLOADFIELD_NOTBETWEEN, PAYLOAD_FILTER_PREDICATE, PAYLOAD_FILTER_PREDICATE structure [ETW], PPAYLOAD_FILTER_PREDICATE, PPAYLOAD_FILTER_PREDICATE structure pointer [ETW], etw.payload_filter_predicate, tdh/PAYLOAD_FILTER_PREDICATE, tdh/PPAYLOAD_FILTER_PREDICATE'
-f1_keywords:
-- tdh/PAYLOAD_FILTER_PREDICATE
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tdh.h
-api_name:
-- PAYLOAD_FILTER_PREDICATE
 targetos: Windows
 req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PAYLOAD_FILTER_PREDICATE
+ - tdh/_PAYLOAD_FILTER_PREDICATE
+ - PPAYLOAD_FILTER_PREDICATE
+ - tdh/PPAYLOAD_FILTER_PREDICATE
+ - PAYLOAD_FILTER_PREDICATE
+ - tdh/PAYLOAD_FILTER_PREDICATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - PAYLOAD_FILTER_PREDICATE
 ---
 
 # PAYLOAD_FILTER_PREDICATE structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PAYLOAD_FILTER_PREDICATE</b> structure defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FieldName
 
 The name of the field to filter in package manifest.
-
 
 ### -field CompareOp
 
@@ -255,17 +254,12 @@ A value of the payload operator that is not valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
-The string that contains one or values to compare depending on the <b>CompareOp</b> member. 
-
+The string that contains one or values to compare depending on the <b>CompareOp</b> member.
 
 ## -remarks
-
-
 
 On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
 
@@ -290,12 +284,7 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
@@ -318,7 +307,4 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
- 
-
- 
 

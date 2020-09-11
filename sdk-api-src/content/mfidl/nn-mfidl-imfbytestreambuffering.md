@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: bbf9cdb1-5ec7-498a-aa59-85c24779547e
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], IMFByteStreamBuffering interface [Media Foundation],described, bbf9cdb1-5ec7-498a-aa59-85c24779547e, mf.imfbytestreambuffering, mfidl/IMFByteStreamBuffering
-f1_keywords:
-- mfidl/IMFByteStreamBuffering
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStreamBuffering
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamBuffering
+ - mfidl/IMFByteStreamBuffering
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStreamBuffering
 ---
 
 # IMFByteStreamBuffering interface
@@ -50,12 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls how a byte stream buffers data from a network.
         
 
 To get a pointer to this interface, call <b>QueryInterface</b> on the byte stream object.
-
 
 ## -inheritance
 
@@ -102,12 +101,9 @@ Stops any buffering that is in progress.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 If a byte stream implements this interface, a media source can use it to control how the byte stream buffers data. This interface is designed for byte streams that read data from a network.
       
@@ -141,15 +137,8 @@ If the byte stream is buffering data internally and the media source calls <a hr
       
 
 After the presentation has started, the media source should forward and <a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstarted">MEBufferingStarted</a> and <a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a> events that it receives while started. The Media Session will pause the presentation clock while buffering is progress and restart the presentation clock when buffering completes. The media source should only forward these events while the presentation is playing. The purpose of sending these events to the Media Session is to pause the presentation time while the source buffers data.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
@@ -160,7 +149,4 @@ After the presentation has started, the media source should forward and <a href=
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

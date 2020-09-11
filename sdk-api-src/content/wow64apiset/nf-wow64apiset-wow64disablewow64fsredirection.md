@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 44bedfa3-5a92-4e78-9e38-8278a7efe9b7
 ms.date: 12/05/2018
 ms.keywords: Wow64DisableWow64FsRedirection, Wow64DisableWow64FsRedirection function [Files], base.wow64disablewow64fsredirection, fs.wow64disablewow64fsredirection, wow64apiset/Wow64DisableWow64FsRedirection
-f1_keywords:
-- wow64apiset/Wow64DisableWow64FsRedirection
-dev_langs:
-- c++
 req.header: wow64apiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Wow64-l1-1-0.dll
-- API-MS-Win-Core-Wow64-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- Wow64DisableWow64FsRedirection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Wow64DisableWow64FsRedirection
+ - wow64apiset/Wow64DisableWow64FsRedirection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Wow64-l1-1-0.dll
+ - API-MS-Win-Core-Wow64-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - Wow64DisableWow64FsRedirection
 ---
 
 # Wow64DisableWow64FsRedirection function
@@ -55,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disables file system redirection for the calling thread. File system redirection is enabled by 
     default.
 
-
 ## -parameters
-
-
-
 
 ### -param OldValue [out]
 
@@ -76,19 +72,12 @@ The WOW64 file system redirection value. The system uses this parameter to store
 
 ## -returns
 
-
-
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is useful for 32-bit applications that want to gain access to the native system32 directory. By 
     default, WOW64 file system redirection is enabled.
@@ -242,12 +231,7 @@ void main()
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -262,7 +246,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>
- 
-
- 
 

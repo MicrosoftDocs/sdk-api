@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::Close
 f1_keywords:
+ - IMFContentDecryptionModuleSession::Close
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::Close
 dev_langs:
  - c++
@@ -42,7 +43,6 @@ dev_langs:
 ## -description
 
 Indicates that the application no longer needs the session and the Content Decryption Module (CDM) should release any resources associated with the session and close it.
-
 
 ## -returns
 

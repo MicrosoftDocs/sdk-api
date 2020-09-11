@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: EA0277BF-C9C8-42FE-9206-A87FC3C50A9F
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], IMFSpatialAudioSample interface [Media Foundation],described, mf.imfspatialaudiosample, mfspatialaudio/IMFSpatialAudioSample
-f1_keywords:
-- mfspatialaudio/IMFSpatialAudioSample
-dev_langs:
-- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.lib
-- mfobjects.dll
-api_name:
-- IMFSpatialAudioSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSpatialAudioSample
+ - mfspatialaudio/IMFSpatialAudioSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.lib
+ - mfobjects.dll
+api_name:
+ - IMFSpatialAudioSample
 ---
 
 # IMFSpatialAudioSample interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a multimedia sample with spatial sound information. Every <b>IMFSpatialAudioSample</b> contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Returns the spatial audio object, represented by an <a href="https://docs.micros
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
- 
-
- 
 

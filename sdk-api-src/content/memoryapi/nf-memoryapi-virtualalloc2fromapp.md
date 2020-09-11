@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 84896A75-A917-4CA1-A417-650428E1FBFD
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAlloc2FromApp, VirtualAlloc2FromApp function, base.virtualalloc2fromapp, memoryapi/VirtualAlloc2FromApp
-f1_keywords:
-- memoryapi/VirtualAlloc2FromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- onecore.lib
-api_name:
-- VirtualAlloc2FromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualAlloc2FromApp
+ - memoryapi/VirtualAlloc2FromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - onecore.lib
+api_name:
+ - VirtualAlloc2FromApp
 ---
 
 # VirtualAlloc2FromApp function
 
 
 ## -description
-
 
 Reserves, commits, or changes the state  of a region of pages in the virtual address space of the calling process. 
     Memory allocated by this function is automatically initialized to zero.
@@ -58,11 +58,7 @@ Using this function, you can: for new allocations, specify a range of virtual ad
 
 To specify the NUMA node, see the <i>ExtendedParameters</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param Process [in, optional]
 
@@ -71,7 +67,6 @@ The handle to a process. The function allocates memory within the virtual addres
 The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, 
        see 
        <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
 
 ### -param BaseAddress [in, optional]
 
@@ -83,7 +78,6 @@ The pointer that specifies a desired starting address for the region of pages th
 If <i>BaseAddress</i> is <b>NULL</b>, the function determines where to 
        allocate the region.
 
-
 ### -param Size [in]
 
 The size of the region of memory to allocate, in bytes.
@@ -94,7 +88,6 @@ If <i>BaseAddress</i> is not <b>NULL</b>, the function allocates all
        pages that contain one or more bytes in the range from <i>BaseAddress</i> to 
        <i>BaseAddress</i>+<i>Size</i>. This means, for example, that a 2-byte 
        range that straddles a page boundary causes the function to allocate both pages.
-
 
 ### -param AllocationType [in]
 
@@ -304,8 +297,6 @@ To retrieve the addresses of the pages that have been written to since the regio
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PageProtection [in]
 
@@ -324,27 +315,18 @@ The memory protection for the region of pages to be allocated. If the pages are 
 
 An optional pointer to one or more  extended parameters of type <a href="https://msdn.microsoft.com/en-us/library/Mt832847(v=VS.85).aspx">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
-
 ### -param ParameterCount [in]
 
 The number of extended parameters pointed to by <i>ExtendedParameters</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 This API helps support high-performance games, and server applications, which have particular requirements around managing their virtual address space. For example, mapping memory on top of a previously reserved region; this is useful for implementing an automatically wrapping ring buffer. And allocating memory with specific alignment; for example, to enable your application to commit large/huge page-mapped regions on demand.
 
@@ -403,12 +385,7 @@ For code examples, see <a href="https://msdn.microsoft.com/en-us/library/Mt83284
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
@@ -439,7 +416,4 @@ For code examples, see <a href="https://msdn.microsoft.com/en-us/library/Mt83284
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
- 
-
- 
 

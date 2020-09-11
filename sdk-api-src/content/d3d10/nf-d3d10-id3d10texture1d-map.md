@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture1d_map.htm
 ms.date: 12/05/2018
 ms.keywords: 5214af3e-18cb-ccc4-745e-e8e5f90ef5cc, ID3D10Texture1D interface [Direct3D 10],Map method, ID3D10Texture1D.Map, ID3D10Texture1D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture1D interface, d3d10/ID3D10Texture1D::Map, direct3d10.id3d10texture1d_map
-f1_keywords:
-- d3d10/ID3D10Texture1D.Map
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10Texture1D.Map
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10Texture1D::Map
+ - d3d10/ID3D10Texture1D::Map
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10Texture1D.Map
 ---
 
 # ID3D10Texture1D::Map
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get a pointer to the data contained in a subresource, and deny the GPU access to that subresource.
 
-
 ## -parameters
-
-
-
 
 ### -param Subresource [in]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Index number of the subresource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
 
-
 ### -param MapType [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP</a></b>
 
 Specifies the CPU's read and write permissions for a resource. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP</a>.
-
 
 ### -param MapFlags [in]
 
@@ -80,28 +74,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map_flag">Flag</a> that specifies what the CPU should do when the GPU is busy. This flag is optional.
 
-
 ### -param ppData [out]
 
 Type: <b>void**</b>
 
 Pointer to the texture resource data.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. For other restrictions, and a listing of error values that can be returned by any of the <b>Map</b> methods, see Remarks.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Remarks"></a><a id="remarks"></a><a id="REMARKS"></a></h3>
 Mapping a texture enables the CPU to directly access the underlying data in the subresource of a texture. For the method to succeed, the texture being mapped must be created with the appropriate flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_FLAG</a>), and its specified usage (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">D3D10_USAGE</a>) must be either D3D10_USAGE_DYNAMIC or D3D10_USAGE_STAGING.
@@ -173,18 +158,8 @@ Differences between Direct3D 9 and Direct3D 10:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10texture1d">ID3D10Texture1D Interface</a>
- 
-
- 
 

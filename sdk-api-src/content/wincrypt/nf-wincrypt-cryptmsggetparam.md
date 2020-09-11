@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5a05eb09-208f-4e94-abfa-c2f14c0a3164
 ms.date: 12/05/2018
 ms.keywords: CMSG_ATTR_CERT_COUNT_PARAM, CMSG_ATTR_CERT_PARAM, CMSG_BARE_CONTENT_PARAM, CMSG_CERT_COUNT_PARAM, CMSG_CERT_PARAM, CMSG_CMS_RECIPIENT_COUNT_PARAM, CMSG_CMS_RECIPIENT_ENCRYPTED_KEY_INDEX_PARAM, CMSG_CMS_RECIPIENT_INDEX_PARAM, CMSG_CMS_RECIPIENT_INFO_PARAM, CMSG_CMS_SIGNER_INFO_PARAM, CMSG_COMPUTED_HASH_PARAM, CMSG_CONTENT_PARAM, CMSG_CRL_COUNT_PARAM, CMSG_CRL_PARAM, CMSG_ENCODED_MESSAGE, CMSG_ENCODED_SIGNER, CMSG_ENCRYPTED_DIGEST, CMSG_ENCRYPT_PARAM, CMSG_ENVELOPE_ALGORITHM_PARAM, CMSG_HASH_ALGORITHM_PARAM, CMSG_HASH_DATA_PARAM, CMSG_INNER_CONTENT_TYPE_PARAM, CMSG_RECIPIENT_COUNT_PARAM, CMSG_RECIPIENT_INDEX_PARAM, CMSG_RECIPIENT_INFO_PARAM, CMSG_SIGNER_AUTH_ATTR_PARAM, CMSG_SIGNER_CERT_ID_PARAM, CMSG_SIGNER_CERT_INFO_PARAM, CMSG_SIGNER_COUNT_PARAM, CMSG_SIGNER_HASH_ALGORITHM_PARAM, CMSG_SIGNER_INFO_PARAM, CMSG_SIGNER_UNAUTH_ATTR_PARAM, CMSG_TYPE_PARAM, CMSG_UNPROTECTED_ATTR_PARAM, CMSG_VERSION_PARAM, CryptMsgGetParam, CryptMsgGetParam function [Security], _crypto2_cryptmsggetparam, security.cryptmsggetparam, wincrypt/CryptMsgGetParam
-f1_keywords:
-- wincrypt/CryptMsgGetParam
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgGetParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgGetParam
+ - wincrypt/CryptMsgGetParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgGetParam
 ---
 
 # CryptMsgGetParam function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgGetParam</b> function acquires a message parameter after a cryptographic message has been encoded or decoded. This function is called after the final 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgupdate">CryptMsgUpdate</a> call.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptMsg [in]
 
 Handle of a cryptographic message.
-
 
 ### -param dwParamType [in]
 
@@ -528,13 +523,10 @@ Returns the message type of a decoded message of unknown type. The retrieved mes
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
 Index for the parameter being retrieved, where applicable. When a parameter is not being retrieved, this parameter is ignored and is set to zero.
-
 
 ### -param pvData [out]
 
@@ -548,15 +540,11 @@ This parameter can be <b>NULL</b> to set the size of this information for memory
 
 When processing the data returned in this buffer, applications need to use the actual size of the data returned. The actual size can be slightly smaller than the size of the buffer specified on input. (On input, buffer sizes are usually specified large enough to ensure that the largest possible output data will fit in the buffer.) On output, the variable pointed to by this parameter is updated to reflect the actual size of the data copied to the buffer.
 
-
 ### -param pcbData [in, out]
 
 A pointer to a variable that specifies the size, in bytes, of the buffer pointed to by the <i>pvData</i> parameter. When the function returns, the variable pointed to by the <i>pcbData</i> parameter contains the number of bytes stored in the buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -665,14 +653,9 @@ For <i>dwParamType</i> CMSG_COMPUTED_HASH_PARAM, an error can be propagated from
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>.
 
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -remarks
-
-
 
 The following version numbers are returned by calls to <b>CryptMsgGetParam</b> with <i>dwParamType</i> set to CMSG_VERSION_PARAM are defined:
 
@@ -705,12 +688,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
 
@@ -729,7 +707,4 @@ For an example that uses this function, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

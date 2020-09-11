@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], IWMMutualExclusion2 interface [windows Media Format],described, IWMMutualExclusion2Interface, wmformat.iwmmutualexclusion2, wmsdkidl/IWMMutualExclusion2
-f1_keywords:
-- wmsdkidl/IWMMutualExclusion2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMMutualExclusion2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMutualExclusion2
+ - wmsdkidl/IWMMutualExclusion2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMMutualExclusion2
 ---
 
 # IWMMutualExclusion2 interface
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMMutualExclusion2</b> interface provides advanced configuration features for mutual exclusion objects.
 
 This interface supports both multiple languages and advanced mutual exclusion.
 
 An <b>IWMMutualExclusion2</b> interface is created for each mutual exclusion object created. To retrieve a pointer to an <b>IWMMutualExclusion2</b> interface, call the <b>QueryInterface</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface returned by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-createnewmutualexclusion">IWMProfile::CreateNewMutualExclusion</a>.
-
-
-
 
 ## -inheritance
 
@@ -186,20 +182,13 @@ The following interface can be obtained by using the QueryInterface method of th
 </td>
 <td>IID_IWMMutualExclusion</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/mutual-exclusion-object">Mutual Exclusion Object</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: d52e5a33-5ef7-4a07-babb-3bfac5dd88e8
 ms.date: 12/05/2018
 ms.keywords: FSCTL_REQUEST_BATCH_OPLOCK, FSCTL_REQUEST_BATCH_OPLOCK control, FSCTL_REQUEST_BATCH_OPLOCK control code [Files], _win32_fsctl_request_batch_oplock, base.fsctl_request_batch_oplock, fs.fsctl_request_batch_oplock, winioctl/FSCTL_REQUEST_BATCH_OPLOCK
-f1_keywords:
-- winioctl/FSCTL_REQUEST_BATCH_OPLOCK
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_REQUEST_BATCH_OPLOCK
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_REQUEST_BATCH_OPLOCK
+ - winioctl/FSCTL_REQUEST_BATCH_OPLOCK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_REQUEST_BATCH_OPLOCK
 ---
 
 # FSCTL_REQUEST_BATCH_OPLOCK IOCTL
+
 
 ## -description
 
@@ -67,21 +69,15 @@ BOOL b = DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -119,7 +115,6 @@ SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | Yes
 
- 
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -128,3 +123,4 @@ Resilient File System (ReFS) | Yes
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
 * [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
 * [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+

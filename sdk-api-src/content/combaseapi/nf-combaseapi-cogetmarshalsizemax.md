@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c04c736c-8efe-438b-9d21-8b6ad53d36e7
 ms.date: 12/05/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
-f1_keywords:
-- combaseapi/CoGetMarshalSizeMax
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoGetMarshalSizeMax
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoGetMarshalSizeMax
+ - combaseapi/CoGetMarshalSizeMax
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoGetMarshalSizeMax
 ---
 
 # CoGetMarshalSizeMax function
@@ -54,48 +55,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an upper bound on the number of bytes needed to marshal the specified interface pointer to the specified object.
 
-
 ## -parameters
-
-
-
 
 ### -param pulSize [out]
 
 A pointer to the upper-bound value on the size, in bytes, of the data packet to be written to the marshaling stream. If this parameter is 0, the size of the packet is unknown.
 
-
 ### -param riid [in]
 
 A reference to the identifier of the interface whose pointer is to be marshaled. This interface must be derived from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
-
 
 ### -param pUnk [in]
 
 A pointer to the interface to be marshaled. This interface must be derived from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
-
 ### -param dwDestContext [in]
 
 The destination context where the specified interface is to be unmarshaled. Values for <i>dwDestContext</i> come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a>.
-
 
 ### -param pvDestContext [in, optional]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param mshlflags [in]
 
 Indicates whether the data to be marshaled is to be transmitted back to the client processthe normal case or written to a global table, where it can be retrieved by multiple clients. Values come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a>.
 
-
 ## -returns
-
-
 
 This function can return the standard return value E_UNEXPECTED, as well as the following values.
 
@@ -127,14 +115,8 @@ Before this function can be called, either the <a href="https://docs.microsoft.c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function performs the following tasks:
 
@@ -151,20 +133,11 @@ You do not explicitly call this function unless you are implementing <a href="ht
 
 The value returned by this method is guaranteed to be valid only as long as the internal state of the object being marshaled does not change. Therefore, the actual marshaling should be done immediately after this function returns, or the stub runs the risk that the object, because of some change in state, might require more memory to marshal than it originally indicated.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">IMarshal::GetMarshalSizeMax</a>
- 
-
- 
 

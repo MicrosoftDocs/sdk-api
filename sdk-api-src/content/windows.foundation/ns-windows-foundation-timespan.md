@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: fbc6ecc2-6372-4b15-9532-3cd68a72e7b4
 ms.date: 12/05/2018
 ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, winrt.timespan
-f1_keywords:
-- windows.foundation/TimeSpan
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windows.Foundation.h
-api_name:
-- TimeSpan
 targetos: Windows
 req.typenames: TimeSpan
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TimeSpan
+ - windows.foundation/TimeSpan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - TimeSpan
 ---
 
 # TimeSpan structure
@@ -49,21 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a time interval.
-
 
 ## -struct-fields
 
-
-
-
 ### -field TimeSpan.Duration
-
- 
-
-
-
 
 ### -field Duration
 
@@ -71,11 +62,7 @@ Type: <b>INT64</b>
 
 The time interval, in 100-nanosecond units.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createtimespan">CreateTimeSpan</a>
 
@@ -90,7 +77,4 @@ The time interval, in 100-nanosecond units.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-gettimespanarray">IPropertyValue::GetTimeSpanArray</a>
- 
-
- 
 

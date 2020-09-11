@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 233D9FBC-087D-42B4-84E2-2FDBD6DFF033
 ms.date: 12/5/2018
 ms.keywords: DML_GRU_OPERATOR_DESC, DML_GRU_OPERATOR_DESC structure, direct3d12.dml_gru_operator_desc, directml/DML_GRU_OPERATOR_DESC
-f1_keywords:
-- directml/DML_GRU_OPERATOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_GRU_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_GRU_OPERATOR_DESC
+ - directml/DML_GRU_OPERATOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_GRU_OPERATOR_DESC
 ---
 
 ## -description
+
 Describes a DirectML deep learning operator that performs a (standard layers) one-layer gated recurrent unit (GRU) function on the input. This operator uses multiple gates to perform this layer. These gates are performed multiple times in a loop dictated by the sequence length dimension and the *SequenceLengthsTensor* argument.
 
 ### Equation for the forward direction
@@ -176,3 +178,4 @@ The direction of the operator—forward, backwards, or bidirectional.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to specify that, when computing the output of the hidden gate, the linear transformation should be applied before multiplying by the output of the reset gate. Otherwise, <b>FALSE</b>.
+

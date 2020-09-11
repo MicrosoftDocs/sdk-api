@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
-f1_keywords:
-- winhttp/WinHttpAddRequestHeaders
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpAddRequestHeaders
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpAddRequestHeaders
+ - winhttp/WinHttpAddRequestHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpAddRequestHeaders
 ---
 
 # WinHttpAddRequestHeaders function
@@ -49,32 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpAddRequestHeaders</b> function adds one or more HTTP request headers to the HTTP request handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function.
 
 ### -param lpszHeaders [in]
 
 A pointer to a string variable that contains the headers to append to the request. Each header except the last must be terminated by a carriage return/line feed (CR/LF).
-
 
 ### -param dwHeadersLength [in]
 
 An unsigned long integer value that contains the length, in characters, of 
 <i>pwszHeaders</i>. If this parameter is -1L, the function assumes that 
 <i>pwszHeaders</i> is zero-terminated (ASCIIZ), and the length is computed.
-
 
 ### -param dwModifiers [in]
 
@@ -147,12 +140,8 @@ Replaces or removes a header. If the header value is empty and the header is fou
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -207,14 +196,8 @@ Not enough memory was available to complete the requested operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Headers are transferred across redirects. This can be a security issue. To avoid having headers transferred when a redirect occurs, use the  <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> callback to correct the specific headers when a  redirect occurs.
 
@@ -331,14 +314,7 @@ The following code example includes an If-Modified-Since header in a request.  T
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -353,7 +329,4 @@ The following code example includes an If-Modified-Since header in a request.  T
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>
- 
-
- 
 

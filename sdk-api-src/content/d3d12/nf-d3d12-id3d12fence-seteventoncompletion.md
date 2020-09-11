@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: DBC5A1FD-F3D0-4C9B-965B-1967151093F7
 ms.date: 12/05/2018
 ms.keywords: ID3D12Fence interface,SetEventOnCompletion method, ID3D12Fence.SetEventOnCompletion, ID3D12Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method, SetEventOnCompletion method,ID3D12Fence interface, d3d12/ID3D12Fence::SetEventOnCompletion, direct3d12.id3d12fence_seteventoncompletion
-f1_keywords:
-- d3d12/ID3D12Fence.SetEventOnCompletion
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Fence.SetEventOnCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Fence::SetEventOnCompletion
+ - d3d12/ID3D12Fence::SetEventOnCompletion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Fence.SetEventOnCompletion
 ---
 
 ## -description
@@ -100,3 +101,4 @@ Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example C
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a>
 
 <a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
+

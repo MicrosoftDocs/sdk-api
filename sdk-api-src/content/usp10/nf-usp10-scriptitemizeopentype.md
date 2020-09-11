@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.date: 12/05/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
-f1_keywords:
-- usp10/ScriptItemizeOpenType
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptItemizeOpenType
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - ScriptItemizeOpenType
+ - usp10/ScriptItemizeOpenType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptItemizeOpenType
 ---
 
 # ScriptItemizeOpenType function
@@ -52,29 +53,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Breaks a Unicode string into individually shapeable <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">items</a> and provides an array of feature tags for each shapeable item for OpenType processing.
 
-
 ## -parameters
-
-
-
 
 ### -param pwcInChars [in]
 
 Pointer to a Unicode string to itemize.
 
-
 ### -param cInChars [in]
 
 Number of characters in <i>pwcInChars</i> to itemize.
 
-
 ### -param cMaxItems [in]
 
 Maximum number of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures defining items to process.
-
 
 ### -param psControl [in, optional]
 
@@ -82,20 +75,17 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_C
 
 Alternatively, the application can set this parameter to <b>NULL</b> if no <a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> properties are needed. For more information, see the Remarks section.
 
-
 ### -param psState [in, optional]
 
 Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure indicating the initial bidirectional algorithm state.
 
 Alternatively, the application can set this parameter to <b>NULL</b> if the script state is not needed. For more information, see the Remarks section.
 
-
 ### -param pItems [out]
 
 Pointer to a buffer in which the function retrieves <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures representing the items that have been processed. The buffer should be  <code>(cMaxItems + 1) * sizeof(SCRIPT_ITEM)</code> bytes in length. It is invalid to call this function with a buffer that handles less than two <b>SCRIPT_ITEM</b> structures. The function always adds a terminal item to the item analysis array so that the length of the item with zero-based index "i" is always available as:
 
 <code>pItems[i+1].iCharPos - pItems[i].iCharPos;</code>
-
 
 ### -param pScriptTags [out]
 
@@ -108,10 +98,7 @@ Pointer to a buffer in which the function retrieves an array of <a href="https:/
 
 Pointer to the number of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures processed.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. In all error cases, no items are fully processed and no part of the output contains defined values. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
@@ -127,11 +114,7 @@ The function returns E_INVALIDARG if one or more of the following conditions occ
 <li><i>cMaxItems</i> &lt; 2</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <b>ScriptItemizeOpenType</b> is preferred over the older <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> function. One advantage of <b>ScriptItemizeOpenType</b> is the availability of feature tags for each shapeable item.
 
@@ -233,12 +216,7 @@ A script tag is usually determined by <b>ScriptItemizeOpenType</b> from input ch
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/digit-shapes">Digit Shapes</a>
 
@@ -281,7 +259,4 @@ A script tag is usually determined by <b>ScriptItemizeOpenType</b> from input ch
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

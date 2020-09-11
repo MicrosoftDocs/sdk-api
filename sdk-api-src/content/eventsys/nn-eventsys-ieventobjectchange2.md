@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 1b51c7ad-eae7-4030-81c2-ed9259648d31
 ms.date: 12/05/2018
 ms.keywords: IEventObjectChange2, IEventObjectChange2 interface [COM+], IEventObjectChange2 interface [COM+],described, _cos_IEventObjectChange2, cos.ieventobjectchange2, eventsys/IEventObjectChange2
-f1_keywords:
-- eventsys/IEventObjectChange2
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Eventsys.h
-api_name:
-- IEventObjectChange2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventObjectChange2
+ - eventsys/IEventObjectChange2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Eventsys.h
+api_name:
+ - IEventObjectChange2
 ---
 
 # IEventObjectChange2 interface
@@ -49,12 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies subscribers of changes to the event store while including partition and application ID information.
 
-The <b>IEventObjectChange2</b> interface has the same firing characteristics as <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>. 
-
-
+The <b>IEventObjectChange2</b> interface has the same firing characteristics as <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>.
 
 ## -inheritance
 
@@ -89,20 +87,13 @@ Indicates that a subscription object has been added, modified, or deleted.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
- 
-
- 
 

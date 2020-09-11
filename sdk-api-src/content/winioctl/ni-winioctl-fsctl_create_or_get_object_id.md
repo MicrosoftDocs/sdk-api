@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 78a2dfa0-a095-4ca3-bfbb-4535086dee4a
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CREATE_OR_GET_OBJECT_ID, FSCTL_CREATE_OR_GET_OBJECT_ID control, FSCTL_CREATE_OR_GET_OBJECT_ID control code [Files], _win32_fsctl_create_or_get_object_id, base.fsctl_create_or_get_object_id, fs.fsctl_create_or_get_object_id, winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID
-f1_keywords:
-- winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_CREATE_OR_GET_OBJECT_ID
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_CREATE_OR_GET_OBJECT_ID
+ - winioctl/FSCTL_CREATE_OR_GET_OBJECT_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_CREATE_OR_GET_OBJECT_ID
 ---
 
 # FSCTL_CREATE_OR_GET_OBJECT_ID IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -108,7 +104,6 @@ SMB 3.0 with Scale-out File Shares (SO) | Yes
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | No
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
@@ -118,3 +113,4 @@ Resilient File System (ReFS) | No
 * [FSCTL_SET_OBJECT_ID](ni-winioctl-fsctl_set_object_id.md)
 * [FSCTL_SET_OBJECT_ID_EXTENDED](ni-winioctl-fsctl_set_object_id_extended.md)
 * [Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
+

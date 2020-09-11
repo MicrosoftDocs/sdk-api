@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 74f489f2-d568-4133-96e6-de15cbfabfe7
 ms.date: 12/05/2018
 ms.keywords: 74f489f2-d568-4133-96e6-de15cbfabfe7, IMP_Arrow, IMP_ArrowHourglass, IMP_ArrowQuestion, IMP_Crosshair, IMP_Custom, IMP_Default, IMP_Hand, IMP_Hourglass, IMP_Ibeam, IMP_NoDrop, IMP_SizeAll, IMP_SizeNESW, IMP_SizeNS, IMP_SizeNWSE, IMP_SizeWE, IMP_UpArrow, InkMousePointer, InkMousePointer enumeration [Tablet PC], msinkaut/IMP_Arrow, msinkaut/IMP_ArrowHourglass, msinkaut/IMP_ArrowQuestion, msinkaut/IMP_Crosshair, msinkaut/IMP_Custom, msinkaut/IMP_Default, msinkaut/IMP_Hand, msinkaut/IMP_Hourglass, msinkaut/IMP_Ibeam, msinkaut/IMP_NoDrop, msinkaut/IMP_SizeAll, msinkaut/IMP_SizeNESW, msinkaut/IMP_SizeNS, msinkaut/IMP_SizeNWSE, msinkaut/IMP_SizeWE, msinkaut/IMP_UpArrow, msinkaut/InkMousePointer, tablet.inkmousepointer
-f1_keywords:
-- msinkaut/InkMousePointer
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkMousePointer
 targetos: Windows
 req.typenames: InkMousePointer
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkMousePointer
+ - msinkaut/InkMousePointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkMousePointer
 ---
 
 # InkMousePointer enumeration
@@ -49,102 +50,75 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the type of mouse pointer to appear.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IMP_Default
 
  The default mouse pointer.
 
-
 ### -field IMP_Arrow
 
 The arrow mouse pointer.
-
 
 ### -field IMP_Crosshair
 
 The cross (cross-hair) mouse pointer.
 
-
 ### -field IMP_Ibeam
 
 The I-beam mouse pointer.
-
 
 ### -field IMP_SizeNESW
 
 The sizing handle NE/SW mouse pointer (double arrow that points northeast and southwest).
 
-
 ### -field IMP_SizeNS
 
 The sizing handle N/S mouse pointer (double arrow that points north and south).
-
 
 ### -field IMP_SizeNWSE
 
 The sizing handle NW/SE mouse pointer (double arrow that points northwest and southeast).
 
-
 ### -field IMP_SizeWE
 
 The sizing handle W/E mouse pointer (double arrow that points west and east).
-
 
 ### -field IMP_UpArrow
 
 The up arrow mouse pointer.
 
-
 ### -field IMP_Hourglass
 
 The hourglass (wait) mouse pointer.
-
 
 ### -field IMP_NoDrop
 
 The no-drop mouse pointer.
 
-
 ### -field IMP_ArrowHourglass
 
 The arrow and hourglass mouse pointer.
-
 
 ### -field IMP_ArrowQuestion
 
 The arrow and question mark mouse pointer.
 
-
 ### -field IMP_SizeAll
 
 The size-all mouse pointer.
-
 
 ### -field IMP_Hand
 
 The hand mouse pointer.
 
-
 ### -field IMP_Custom
 
 The custom mouse pointer that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon">MouseIcon</a> property specifies.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
@@ -159,7 +133,4 @@ The custom mouse pointer that the <a href="https://docs.microsoft.com/windows/de
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer">MousePointer Property</a>
- 
-
- 
 

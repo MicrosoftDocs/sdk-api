@@ -8,10 +8,6 @@ tech.root: wer
 ms.assetid: b0fb2c0d-cc98-43cc-a508-e80545377b7f
 ms.date: 12/05/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
-f1_keywords:
-- werapi/WerRegisterRuntimeExceptionModule
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- WerRegisterRuntimeExceptionModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerRegisterRuntimeExceptionModule
+ - werapi/WerRegisterRuntimeExceptionModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - WerRegisterRuntimeExceptionModule
 ---
 
 # WerRegisterRuntimeExceptionModule function
@@ -51,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a custom runtime exception handler that is used to provide custom error reporting for crashes.
-
 
 ## -parameters
 
-
-
-
 ### -param pwszOutOfProcessCallbackDll [in]
 
-The name of the exception handler DLL to register. 
-
+The name of the exception handler DLL to register.
 
 ### -param pContext [in, optional]
 
 A pointer to arbitrary context information that is passed to the handler's callback functions.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
 
@@ -104,14 +96,8 @@ The number of registered runtime exception modules exceeds the limit. A process 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The exception handler is an out-of-process DLL that the WER service loads when a crash or unhandled exception occurs. The DLL must implement and export the following functions:
 
@@ -137,6 +123,4 @@ If an exception handler claims the exception, the WER service calls the <a href=
 After the handler has provided the event name, reporting parameters and debugger launch settings, the rest of the error reporting flow continues in the usual way.
 
 You must call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterruntimeexceptionmodule">WerUnregisterRuntimeExceptionModule</a> function to remove the registration before your process exits. A process can register up to WER_MAX_REGISTERED_RUNTIME_EXCEPTION_MODULES handlers.
-
-
 

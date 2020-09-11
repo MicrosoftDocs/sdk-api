@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 273e843d-94eb-405d-b7fa-43d49783282f
 ms.date: 12/05/2018
 ms.keywords: SLGetPolicyInformationDWORD, SLGetPolicyInformationDWORD function [Security], security.slgetpolicyinformationdword, slpublic/SLGetPolicyInformationDWORD
-f1_keywords:
-- slpublic/SLGetPolicyInformationDWORD
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetPolicyInformationDWORD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetPolicyInformationDWORD
+ - slpublic/SLGetPolicyInformationDWORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetPolicyInformationDWORD
 ---
 
 # SLGetPolicyInformationDWORD function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the policy information after right has been consumed successfully.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -64,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pwszValueName [in]
 
 Type: <b>PCWSTR</b>
 
 The policy name.
-
 
 ### -param pdwValue [out]
 
@@ -78,10 +72,7 @@ Type: <b>DWORD*</b>
 
 A pointer to the return value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -142,7 +133,4 @@ The input data type does not match the data type in the license.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23
 ms.date: 12/05/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
-f1_keywords:
-- rpcdce/RpcObjectInqType
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcObjectInqType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcObjectInqType
+ - rpcdce/RpcObjectInqType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcObjectInqType
 ---
 
 # RpcObjectInqType function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcObjectInqType</b> function returns the type of an object.
 
-
 ## -parameters
-
-
-
 
 ### -param ObjUuid
 
 Pointer to the object UUID whose associated type UUID is returned.
-
 
 ### -param TypeUuid
 
@@ -73,10 +68,7 @@ Returns a pointer to the type UUID of the <i>ObjUuid</i> parameter.
 
 Specify a parameter value of <b>NULL</b> to prevent the return of a type UUID. In this way, an application can determine (from the returned status) whether <i>ObjUuid</i> is registered without specifying an output type UUID variable.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -112,11 +104,7 @@ Object not found.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls 
 <b>RpcObjectInqType</b> to obtain the type UUID of an object. If the object was registered with the RPC run-time library using the 
@@ -157,21 +145,11 @@ The
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>
- 
-
- 
 

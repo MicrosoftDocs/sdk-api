@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b3c5960c-7800-485c-b030-199fee027154
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO, CCERT_STORE_PROV_FIND_INFO structure [Security], CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CERT_STORE_PROV_FIND_INFO, CERT_STORE_PROV_FIND_INFO structure [Security], PCCERT_STORE_PROV_FIND_INFO, PCCERT_STORE_PROV_FIND_INFO structure pointer [Security], PCERT_STORE_PROV_FIND_INFO, PCERT_STORE_PROV_FIND_INFO structure pointer [Security], _crypto2_cert_store_prov_find_info, security.cert_store_prov_find_info, wincrypt/CCERT_STORE_PROV_FIND_INFO, wincrypt/CERT_STORE_PROV_FIND_INFO, wincrypt/PCCERT_STORE_PROV_FIND_INFO, wincrypt/PCERT_STORE_PROV_FIND_INFO'
-f1_keywords:
-- wincrypt/CERT_STORE_PROV_FIND_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_STORE_PROV_FIND_INFO
 targetos: Windows
 req.typenames: CERT_STORE_PROV_FIND_INFO, *PCERT_STORE_PROV_FIND_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_STORE_PROV_FIND_INFO
+ - wincrypt/_CERT_STORE_PROV_FIND_INFO
+ - PCERT_STORE_PROV_FIND_INFO
+ - wincrypt/PCERT_STORE_PROV_FIND_INFO
+ - CERT_STORE_PROV_FIND_INFO
+ - wincrypt/CERT_STORE_PROV_FIND_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_STORE_PROV_FIND_INFO
 ---
 
 # CERT_STORE_PROV_FIND_INFO structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_STORE_PROV_FIND_INFO</b> structure is used by many of the store provider callback functions. It contains find criteria for finding a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size of the structure.
-
 
 ### -field dwMsgAndCertEncodingType
 
@@ -75,7 +74,6 @@ Specifies the encoding type used for messages and certificates. The certificate 
 ### -field dwFindFlags
 
 Used with some <b>dwFindType</b> values to modify the search criteria. For most <b>dwFindType</b> values, <b>dwFindFlags</b> is not used and should be set to zero.
-
 
 ### -field dwFindType
 
@@ -381,10 +379,7 @@ Searches for a certificate that contains the specified subject name string. The 
 
 Points to a data item or structure to be used with the find type indicated by the value of <b>dwFindType</b>.
 
-
 ## -remarks
-
-
 
 The <b>dwFindFlags</b> member is used to modify the criteria of some search types.
 
@@ -431,7 +426,4 @@ CERT_FIND_OR_ENHKEY_USAGE_FLAG can also be set if the certificate only needs to 
 <td>Used only with CERT_FIND_SUBJECT_ATTR and CERT_FIND_ISSUER-ATTR values of <b>dwFindType</b>. By default, a case-sensitive, exact match is made. If this flag is set, the match is case-insensitive.</td>
 </tr>
 </table>
- 
-
-
 

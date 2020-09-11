@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 8adfc942-ad91-43bb-8d23-8994026666ff
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBuffer, PropVariantToBuffer function [Windows Properties], properties.PropVariantToBuffer, propvarutil/PropVariantToBuffer, shell.PropVariantToBuffer, shell_PropVariantToBuffer
-f1_keywords:
-- propvarutil/PropVariantToBuffer
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToBuffer
+ - propvarutil/PropVariantToBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToBuffer
 ---
 
 # PropVariantToBuffer function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extracts the buffer value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1. 
-
+Extracts the buffer value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1.
 
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
@@ -64,13 +60,11 @@ Type: <b>REFPROPVARIANT</b>
 
 The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param pv [out]
 
 Type: <b>VOID*</b>
 
 Pointer to a buffer of length <i>cb</i> bytes. When this function returns, contains the first <i>cb</i> bytes of the extracted buffer value.
-
 
 ### -param cb [in]
 
@@ -78,10 +72,7 @@ Type: <b>UINT</b>
 
 The buffer length, in bytes.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -127,14 +118,8 @@ The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is used in places where the calling application expects a<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>to hold a buffer value. The calling application should check that the value has the expected length before calling this function.
 
@@ -172,21 +157,11 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfrombuffer">InitPropVariantFromBuffer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobuffer">VariantToBuffer</a>
- 
-
- 
 

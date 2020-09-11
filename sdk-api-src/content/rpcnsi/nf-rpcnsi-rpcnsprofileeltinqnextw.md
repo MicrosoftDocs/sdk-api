@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 78835fde-82c3-4cff-94b9-91e07120e03f
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileEltInqNext, RpcNsProfileEltInqNext function [RPC], RpcNsProfileEltInqNextA, RpcNsProfileEltInqNextW, _rpc_rpcnsprofileeltinqnext, rpc.rpcnsprofileeltinqnext, rpcnsi/RpcNsProfileEltInqNext, rpcnsi/RpcNsProfileEltInqNextA, rpcnsi/RpcNsProfileEltInqNextW
-f1_keywords:
-- rpcnsi/RpcNsProfileEltInqNext
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsProfileEltInqNext
-- RpcNsProfileEltInqNextA
-- RpcNsProfileEltInqNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsProfileEltInqNextW
+ - rpcnsi/RpcNsProfileEltInqNextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsProfileEltInqNext
+ - RpcNsProfileEltInqNextA
+ - RpcNsProfileEltInqNextW
 ---
 
 # RpcNsProfileEltInqNextW function
@@ -51,26 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsProfileEltInqNext</b> function returns one element at a time from a profile.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param InquiryContext
 
 Name-service handle returned from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina">RpcNsProfileEltInqBegin</a> function.
 
-
 ### -param IfId
 
 Returns a pointer to the interface identification of the profile element.
-
 
 ### -param MemberName
 
@@ -84,11 +79,9 @@ Specify a null value to prevent
 <b>RpcNsProfileEltInqNext</b> from returning the <i>MemberName</i> parameter. In this case, the application does not call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
-
 ### -param Priority
 
 Returns a pointer to the profile-element priority.
-
 
 ### -param Annotation
 
@@ -101,10 +94,7 @@ Specify a null value to prevent
 <b>RpcNsProfileEltInqNext</b> from returning the <i>Annotation</i> parameter. In this case, the application does not need to call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -162,11 +152,7 @@ No more elements.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsProfileEltInqNext</b> function returns one element from the profile specified by the <i>ProfileName</i> parameter in 
@@ -193,9 +179,6 @@ On each call to
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina">RpcNsProfileEltInqBegin</a>
 
 
@@ -205,7 +188,4 @@ On each call to
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
- 
-
- 
 

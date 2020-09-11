@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 58a0b4cf-0379-48a1-80c6-5245022cf891
 ms.date: 12/05/2018
 ms.keywords: '*LPCONTEXTMENUITEM, 0 (zero), CCM_COMMANDID_MASK_RESERVED = 0xFFFF0000, CCM_INSERTIONPOINTID_3RDPARTY_NEW = 0x90000001, CCM_INSERTIONPOINTID_3RDPARTY_TASK = 0x90000002, CCM_INSERTIONPOINTID_MASK_ADD_3RDPARTY = 0x10000000, CCM_INSERTIONPOINTID_MASK_ADD_PRIMARY = 0x20000000, CCM_INSERTIONPOINTID_MASK_CREATE_PRIMARY = 0x40000000, CCM_INSERTIONPOINTID_MASK_RESERVED = 0x0FFF0000, CCM_INSERTIONPOINTID_MASK_SHARED = 0x80000000, CCM_INSERTIONPOINTID_MASK_SPECIAL = 0xFFFF0000, CCM_INSERTIONPOINTID_PRIMARY_NEW = 0xA0000001, CCM_INSERTIONPOINTID_PRIMARY_TASK = 0xA0000002, CCM_INSERTIONPOINTID_PRIMARY_TOP = 0xA0000000, CCM_INSERTIONPOINTID_PRIMARY_VIEW = 0xA0000003, CCM_INSERTIONPOINTID_ROOT_MENU = 0x80000000, CCM_SPECIAL_DEFAULT_ITEM = 0x0004, CCM_SPECIAL_INSERTION_POINT = 0x0008, CCM_SPECIAL_SEPARATOR = 0x0001, CCM_SPECIAL_SUBMENU = 0x0002, CCM_SPECIAL_TESTONLY = 0x0010, CONTEXTMENUITEM, CONTEXTMENUITEM structure [MMC], LPCONTEXTMENUITEM, LPCONTEXTMENUITEM structure pointer [MMC], MF_BITMAP MF_OWNERDRAW, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_POPUP, MF_SEPARATOR, MF_UNCHECKED, _slate_contextmenuitem, mmc.contextmenuitem, mmc/CONTEXTMENUITEM, mmc/LPCONTEXTMENUITEM'
-f1_keywords:
-- mmc/CONTEXTMENUITEM
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- CONTEXTMENUITEM
 targetos: Windows
 req.typenames: CONTEXTMENUITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CONTEXTMENUITEM
+ - mmc/_CONTEXTMENUITEM
+ - CONTEXTMENUITEM
+ - mmc/CONTEXTMENUITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - CONTEXTMENUITEM
 ---
 
 # CONTEXTMENUITEM structure
 
 
 ## -description
-
 
 The <b>CONTEXTMENUITEM</b> structure is passed to the 
     <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> method or the 
@@ -57,21 +59,15 @@ The <b>CONTEXTMENUITEM</b> structure is passed to the
     menu item, submenu, or insertion point. The context menu is built from the root down, with each new item going to 
     the end of the submenu or insertion point where it is inserted.
 
-
 ## -struct-fields
-
-
-
 
 ### -field strName
 
 A pointer to a null-terminated string that contains the name of the menu item or of the submenu. This member cannot be <b>NULL</b> except for a separator or insertion point.
 
-
 ### -field strStatusBarText
 
 A pointer to a null-terminated string that contains the text that is displayed in the status bar when this item is highlighted. This member can be <b>NULL</b>.
-
 
 ### -field lCommandID
 
@@ -139,7 +135,6 @@ Allow extension snap-ins to add items to a shared insertion point or submenu.
 
 Insertion points or submenus cannot be added with any of these bits set.
 
-
 ### -field lInsertionPointID
 
 A value that specifies where in the context menu the new item should be added. Snap-ins can only add items to insertion points created by the menu creator or the primary snap-in. The following are the insertion points created by MMC in the default context menus for items in the scope pane and list view result pane:
@@ -199,7 +194,6 @@ The
 
 Neither primary extensions nor third-party extensions can add items to the root menu except through insertion points added by 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>.
-
 
 ### -field fFlags
 
@@ -319,11 +313,7 @@ Subsequent calls can use the <i>lCommandID</i> parameter from this call as their
 
 Validate the item parameters, but do not add the menu item. Return result code that indicates whether add would have been successful.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
@@ -338,7 +328,4 @@ Validate the item parameters, but do not add the menu item. Return result code t
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
- 
-
- 
 

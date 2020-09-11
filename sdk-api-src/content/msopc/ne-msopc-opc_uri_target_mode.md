@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: af052aa3-db7a-47de-938c-32895b8735e9
 ms.date: 12/05/2018
 ms.keywords: OPC_URI_TARGET_MODE, OPC_URI_TARGET_MODE enumeration [Open Packaging Conventions], OPC_URI_TARGET_MODE_EXTERNAL, OPC_URI_TARGET_MODE_INTERNAL, msopc/OPC_URI_TARGET_MODE, msopc/OPC_URI_TARGET_MODE_EXTERNAL, msopc/OPC_URI_TARGET_MODE_INTERNAL, opc.opc_uri_target_mode
-f1_keywords:
-- msopc/OPC_URI_TARGET_MODE
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msopc.h
-api_name:
-- OPC_URI_TARGET_MODE
 targetos: Windows
 req.typenames: OPC_URI_TARGET_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msopc_0000_0002_0001
+ - msopc/__MIDL___MIDL_itf_msopc_0000_0002_0001
+ - OPC_URI_TARGET_MODE
+ - msopc/OPC_URI_TARGET_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msopc.h
+api_name:
+ - OPC_URI_TARGET_MODE
 ---
 
 # OPC_URI_TARGET_MODE enumeration
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the target mode of a relationship.
 
-
 ## -enum-fields
-
-
-
 
 ### -field OPC_URI_TARGET_MODE_INTERNAL
 
 The target of the relationship  is a part inside the package.
 
-
 ### -field OPC_URI_TARGET_MODE_EXTERNAL
 
 The target of the relationship is a resource outside of the package.
 
-
 ## -remarks
-
-
 
 If the relationship's  target mode is <b>OPC_URI_TARGET_MODE_INTERNAL</b> the URI of the target  part is relative to the URI of the source of the relationship.
 
@@ -78,13 +72,7 @@ To get the URI of the target of the relationship, call the <a href="https://docs
 
 For more information about relationships, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a> and the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
@@ -135,7 +123,4 @@ For more information about relationships, see the <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
- 
-
- 
 

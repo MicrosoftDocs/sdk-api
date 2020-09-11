@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 18291a91-be7d-42ec-a44a-d1bbfb017c6e
 ms.date: 12/05/2018
 ms.keywords: OleFlushClipboard, OleFlushClipboard function [COM], _ole_OleFlushClipboard, com.oleflushclipboard, ole2/OleFlushClipboard
-f1_keywords:
-- ole2/OleFlushClipboard
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
-- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
-api_name:
-- OleFlushClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleFlushClipboard
+ - ole2/OleFlushClipboard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+ - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+api_name:
+ - OleFlushClipboard
 ---
 
 # OleFlushClipboard function
@@ -53,20 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Carries out the clipboard shutdown sequence. It also releases the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer that was placed on the clipboard by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -98,14 +90,8 @@ The Windows CloseClipboard function used within <a href="https://docs.microsoft.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OleFlushClipboard</b> renders the data from a data object onto the clipboard and releases the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer to the data object. While the application that put the data object on the clipboard is running, the clipboard holds only a pointer to the data object, thus saving memory. If you are writing an application that acts as the source of a clipboard operation, you can call the <b>OleFlushClipboard</b> function when your application is closed, such as when the user exits from your application. Calling <b>OleFlushClipboard</b> enables pasting and paste-linking of OLE objects after application shutdown.
 
@@ -117,13 +103,7 @@ To retrieve the information on the clipboard, you can call the <a href="https://
 
 To empty the clipboard, call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function specifying a <b>NULL</b> value for its parameter. The application should call this when it closes if there is no need to leave data on the clipboard after shutdown, or if data will be placed on the clipboard using the standard Windows clipboard functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
@@ -138,7 +118,4 @@ To empty the clipboard, call the <a href="https://docs.microsoft.com/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>
- 
-
- 
 

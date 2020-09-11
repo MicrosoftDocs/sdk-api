@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 38123a10-72a4-46eb-974b-3c01142dfc74
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgCredentials_NamesW, PSecPkgCredentials_Names, PSecPkgCredentials_Names structure pointer [Security], SecPkgCredentials_Names, SecPkgCredentials_Names structure [Security], SecPkgCredentials_NamesA, SecPkgCredentials_NamesW, _ssp_secpkgcredentials_names, security.secpkgcredentials_names, sspi/PSecPkgCredentials_Names, sspi/SecPkgCredentials_Names, sspi/SecPkgCredentials_NamesA, sspi/SecPkgCredentials_NamesW'
-f1_keywords:
-- sspi/SecPkgCredentials_Names
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgCredentials_Names
-- SecPkgCredentials_NamesA
-- SecPkgCredentials_NamesW
 targetos: Windows
 req.typenames: SecPkgCredentials_NamesW, *PSecPkgCredentials_NamesW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgCredentials_NamesW
+ - sspi/_SecPkgCredentials_NamesW
+ - PSecPkgCredentials_NamesW
+ - sspi/PSecPkgCredentials_NamesW
+ - SecPkgCredentials_NamesW
+ - sspi/SecPkgCredentials_NamesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgCredentials_Names
+ - SecPkgCredentials_NamesA
+ - SecPkgCredentials_NamesW
 ---
 
 # SecPkgCredentials_NamesW structure
@@ -51,37 +56,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgCredentials_Names</b> structure holds the name of the user associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a> function uses this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sUserName
 
 Pointer to a null-terminated string containing the name of the user represented by the credential. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> sets the SECPKG_FLAG_ACCEPT_WIN32_NAME flag to indicate that it can process Windows names, this name can be used in other Windows calls.
 
-
 ### -field sUserName.string
-
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycredentialsattributesa">QueryCredentialsAttributes</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 48f6ab36-f019-4096-b6e7-6f6ebc7c454a
 ms.date: 12/05/2018
 ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLAGS , AM_STREAM_INFO_FLAGS enumeration [DirectShow], AM_STREAM_INFO_FLAGSEnumeration, AM_STREAM_INFO_START_DEFINED, AM_STREAM_INFO_STOP_DEFINED, AM_STREAM_INFO_STOP_SEND_EXTRA, dshow.am_stream_info_flags, strmif/AM_STREAM_INFO_DISCARDING, strmif/AM_STREAM_INFO_FLAGS, strmif/AM_STREAM_INFO_START_DEFINED, strmif/AM_STREAM_INFO_STOP_DEFINED, strmif/AM_STREAM_INFO_STOP_SEND_EXTRA
-f1_keywords:
-- strmif/AM_STREAM_INFO_FLAGS
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- AM_STREAM_INFO_FLAGS
 targetos: Windows
 req.typenames: AM_STREAM_INFO_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AM_STREAM_INFO_FLAGS
+ - strmif/AM_STREAM_INFO_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - AM_STREAM_INFO_FLAGS
 ---
 
 # AM_STREAM_INFO_FLAGS enumeration
@@ -49,53 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AM_STREAM_INFO_FLAGS</b> enumeration defines flags that indicate a pin's stream-control status.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field AM_STREAM_INFO_START_DEFINED
 
 Indicates that the pin's start time is set.
-          
-
 
 ### -field AM_STREAM_INFO_STOP_DEFINED
 
 Indicates that the pin's stop time is been set.
-          
-
 
 ### -field AM_STREAM_INFO_DISCARDING
 
 Indicates that the pin is currently discarding data.
-          
-
 
 ### -field AM_STREAM_INFO_STOP_SEND_EXTRA
 
 Indicates that the pin will send one extra sample after it reaches the stop time.
-          
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_stream_info">AM_STREAM_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamcontrol-getinfo">IAMStreamControl::GetInfo</a>
- 
-
- 
 

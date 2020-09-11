@@ -8,10 +8,6 @@ tech.root: iSCSIDisc
 ms.assetid: 5da4aa28-a630-41f2-abb2-5538c11242e6
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_SESSION_INFOW, ISCSI_SESSION_INFO, ISCSI_SESSION_INFO structure [iSCSI Discovery Library API], ISCSI_SESSION_INFOA, ISCSI_SESSION_INFOW, PISCSI_SESSION_INFO, PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_session_info, iscsidsc/ISCSI_SESSION_INFO, iscsidsc/ISCSI_SESSION_INFOA, iscsidsc/ISCSI_SESSION_INFOW, iscsidsc/PISCSI_SESSION_INFO'
-f1_keywords:
-- iscsidsc/ISCSI_SESSION_INFO
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iscsidsc.h
-api_name:
-- ISCSI_SESSION_INFO
-- ISCSI_SESSION_INFOA
-- ISCSI_SESSION_INFOW
 targetos: Windows
 req.typenames: ISCSI_SESSION_INFOW, *PISCSI_SESSION_INFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PISCSI_SESSION_INFOW
+ - iscsidsc/PISCSI_SESSION_INFOW
+ - ISCSI_SESSION_INFOW
+ - iscsidsc/ISCSI_SESSION_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - ISCSI_SESSION_INFO
+ - ISCSI_SESSION_INFOA
+ - ISCSI_SESSION_INFOW
 ---
 
 # ISCSI_SESSION_INFOW structure
@@ -51,59 +54,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISCSI_SESSION_INFO</b> structure contains session information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SessionId
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing a unique identifier that represents the session.
 
-
 ### -field InitiatorName
 
 A string that represents the initiator name.
-
 
 ### -field TargetNodeName
 
 A string that represents the target node name.
 
-
 ### -field TargetName
 
 A string that represents the target name.
-
 
 ### -field ISID
 
 The initiator-side identifier (ISID) used in the iSCSI protocol.
 
-
 ### -field TSID
 
 The target-side identifier (TSID) used in the iSCSI protocol.
-
 
 ### -field ConnectionCount
 
 The number of connections associated with the session.
 
-
 ### -field Connections
 
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_connection_infoa">ISCSI_CONNECTION_INFO</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsisessionlista">GetIScsiSessionList</a>
 
@@ -114,9 +101,6 @@ A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/des
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
- 
-
- 
 
 ## -remarks
 

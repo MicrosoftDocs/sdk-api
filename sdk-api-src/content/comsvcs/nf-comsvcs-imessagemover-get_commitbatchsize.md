@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],get_CommitBatchSize method, IMessageMover.get_CommitBatchSize, IMessageMover::get_CommitBatchSize, comsvcs/IMessageMover::get_CommitBatchSize, cos.imessagemover_get_commitbatchsize, get_CommitBatchSize, get_CommitBatchSize method [COM+], get_CommitBatchSize method [COM+],IMessageMover interface
-f1_keywords:
-- comsvcs/IMessageMover.get_CommitBatchSize
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IMessageMover.get_CommitBatchSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMessageMover::get_CommitBatchSize
+ - comsvcs/IMessageMover::get_CommitBatchSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IMessageMover.get_CommitBatchSize
 ---
 
 # IMessageMover::get_CommitBatchSize
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the commit batch size.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 The commit batch size.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imessagemover">IMessageMover</a>
- 
-
- 
 

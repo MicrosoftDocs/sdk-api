@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
 ms.date: 12/05/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardGetCardTypeProviderName, SCardGetCardTypeProviderName function [Security], SCardGetCardTypeProviderNameA, SCardGetCardTypeProviderNameW, _smart_scardgetcardtypeprovidername, security.scardgetcardtypeprovidername, winscard/SCardGetCardTypeProviderName, winscard/SCardGetCardTypeProviderNameA, winscard/SCardGetCardTypeProviderNameW
-f1_keywords:
-- winscard/SCardGetCardTypeProviderName
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-wlan-scard-l1-1-0.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardGetCardTypeProviderName
-- SCardGetCardTypeProviderNameA
-- SCardGetCardTypeProviderNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardGetCardTypeProviderNameA
+ - winscard/SCardGetCardTypeProviderNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-wlan-scard-l1-1-0.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardGetCardTypeProviderName
+ - SCardGetCardTypeProviderNameA
+ - SCardGetCardTypeProviderNameW
 ---
 
 # SCardGetCardTypeProviderNameA function
@@ -53,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardGetCardTypeProviderName</b> function returns the name of the module (dynamic link library) that contains the provider for a given card name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">provider type</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context can be set by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This value can be <b>NULL</b> if the call to <b>SCardGetCardTypeProviderName</b> is not directed to a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
-
 ### -param szCardName [in]
 
 Name of the card type with which this provider name is associated.
-
 
 ### -param dwProviderId [in]
 
@@ -128,13 +122,10 @@ The function retrieves the name of the card module.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szProvider [out]
 
 String variable to receive the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">provider name</a> upon successful completion of this function.
-
 
 ### -param pcchProvider [in, out]
 
@@ -146,10 +137,7 @@ Pointer to <b>DWORD</b> value. On input, <i>pcchProvider</i> supplies the length
 
 On output, this value represents the actual number of characters, including the <b>null</b> terminator, in the <i>szProvider</i> variable.
 
-
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -182,14 +170,8 @@ An error code. For more information, see
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is not redirected, but calling the function when inside a Remote Desktop session  will not result in an error. It only means that the result will be from the remote computer instead of the local computer. 
 
@@ -245,9 +227,6 @@ if (SCARD_S_SUCCESS == lReturn)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
@@ -257,7 +236,4 @@ if (SCARD_S_SUCCESS == lReturn)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardsetcardtypeprovidernamea">SCardSetCardTypeProviderName</a>
- 
-
- 
 

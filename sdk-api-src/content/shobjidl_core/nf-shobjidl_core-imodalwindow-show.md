@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23
 ms.date: 12/05/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
-f1_keywords:
-- shobjidl_core/IModalWindow.Show
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IModalWindow.Show
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IModalWindow::Show
+ - shobjidl_core/IModalWindow::Show
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IModalWindow.Show
 ---
 
 # IModalWindow::Show
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Launches the modal window.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in, optional]
 
@@ -64,10 +60,7 @@ Type: <b>HWND</b>
 
 The handle of the owner window. This value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -90,7 +83,4 @@ The user closed the window by cancelling the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 797d96a1-0250-4e8d-a4bd-31152fd6eca7
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetText method, ITfRange.SetText, ITfRange::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITfRange interface, _tsf_itfrange_settext_ref, msctf/ITfRange::SetText, tsf.itfrange_settext
-f1_keywords:
-- msctf/ITfRange.SetText
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.SetText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::SetText
+ - msctf/ITfRange::SetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.SetText
 ---
 
 # ITfRange::SetText
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::SetText</b> method replaces the content covered by the range of text. For an empty range object, the method results in an insertion at the location of the range. If the new content is an empty string (<i>cch</i> = 0), the method deletes the existing content within the range.
 
-
 ## -parameters
-
-
-
 
 ### -param ec [in]
 
 Identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
-
 ### -param dwFlags [in]
 
 Specifies optional behavior for correction of content. If set to the value of <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framework-constants">TF_ST_CORRECTION</a>, then the operation is a correction of the existing content, not a creation of new content, and original text properties are preserved.
-
 
 ### -param pchText [in]
 
 Pointer to a buffer that contains the text to replace the range contents.
 
-
 ### -param cch [in]
 
 Contains the number of characters in <i>pchText</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -156,14 +146,8 @@ The range is not within the active composition of the caller.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a range covers multiple regions, call <b>ITfRange::SetText</b> on each region separately. Otherwise, the method can fail.
 
@@ -173,13 +157,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-framew
 
 For inserting text, the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection</a> method does not require a selection range to be allocated, and avoids the requirement that the range match the selection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection
       </a>
@@ -215,7 +193,4 @@ For inserting text, the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
- 
-
- 
 

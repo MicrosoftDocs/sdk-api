@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: E6539B3F-48DA-41AA-8AD4-2EBBAF98069F
 ms.date: 12/05/2018
 ms.keywords: DeletePersistentUdpPortReservation, DeletePersistentUdpPortReservation function [IP Helper], iphlp.deletepersistentudpportreservation, iphlpapi/DeletePersistentUdpPortReservation
-f1_keywords:
-- iphlpapi/DeletePersistentUdpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- DeletePersistentUdpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeletePersistentUdpPortReservation
+ - iphlpapi/DeletePersistentUdpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - DeletePersistentUdpPortReservation
 ---
 
 # DeletePersistentUdpPortReservation function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DeletePersistentUdpPortReservation</b> function deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting UDP port number in network byte order. 
-
+The starting UDP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of UDP port numbers to delete.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -128,14 +120,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>DeletePersistentUdpPortReservation</b> function is defined on Windows Vista and later. 
 
@@ -143,15 +129,7 @@ The <b>DeletePersistentUdpPortReservation</b> function is used to delete a persi
 
 The <b>DeletePersistentUdpPortReservation</b> function can only be called by a user logged on as a member of the Administrators group. If <b>DeletePersistentUdpPortReservation</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and later. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
@@ -170,7 +148,4 @@ The <b>DeletePersistentUdpPortReservation</b> function can only be called by a u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
- 
-
- 
 

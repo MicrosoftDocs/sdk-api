@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 569e64c5-1b7e-49ef-abaa-be9b2f85269b
 ms.date: 12/05/2018
 ms.keywords: ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z, ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z, GetStructtm, GetStructtm method [Windows Management Instrumentation], GetStructtm method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetStructtm method, WBEMTime.GetStructtm, WBEMTime::GetStructtm, _hmm_wbemtime_getstructtm, wbemtime/WBEMTime::GetStructtm, wmi.wbemtime_getstructtm
-f1_keywords:
-- wbemtime/WBEMTime.GetStructtm
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTime.GetStructtm
-- ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z
-- ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTime::GetStructtm
+ - wbemtime/WBEMTime::GetStructtm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTime.GetStructtm
+ - ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z
+ - ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z
 ---
 
 # WBEMTime::GetStructtm
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,24 +61,15 @@ ms.custom: 19H1
 
 The <b>GetStructtm</b> method gets the time as an ANSI C run-time <b>struct tm</b> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param ptm
 
 Pointer to an ANSI C run-time <b>struct tm</b> structure.
 
-
 ## -returns
-
-
 
 The method returns <b>TRUE</b> if the object's time is equal to or later than midnight Jan 1, 1900.
 
 The method returns <b>FALSE</b> on all other times or if the object's time is set to INVALID_TIME. In this case, the value of <i>ptm</i> is indeterminate.
-
-
 

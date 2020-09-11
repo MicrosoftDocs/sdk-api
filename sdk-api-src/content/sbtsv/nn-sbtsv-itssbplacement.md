@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services],described, sbtsv/ITsSbPlacement, termserv.itssbplacement
-f1_keywords:
-- sbtsv/ITsSbPlacement
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbPlacement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbPlacement
+ - sbtsv/ITsSbPlacement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbPlacement
 ---
 
 # ITsSbPlacement interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that prepare the environment (the computer that hosts the virtual 
 machine). After Remote Desktop Connection Broker (RD Connection Broker) receives a load-balancing result, it calls <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplacement-queryenvironmentfortarget">QueryEnvironmentForTarget</a> 
-to determine whether the environment is present and ready. 
-
+to determine whether the environment is present and ready.
 
 ## -inheritance
 
@@ -80,20 +79,13 @@ the target that was returned by load balancing.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
 

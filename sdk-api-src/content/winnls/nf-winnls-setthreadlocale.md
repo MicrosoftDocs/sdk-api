@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: d86193c7-9b3a-422b-b76c-ff1992f68958
 ms.date: 12/05/2018
 ms.keywords: SetThreadLocale, SetThreadLocale function [Internationalization for Windows Applications], _win32_SetThreadLocale, intl.setthreadlocale, winnls/SetThreadLocale
-f1_keywords:
-- winnls/SetThreadLocale
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- SetThreadLocale
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadLocale
+ - winnls/SetThreadLocale
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - SetThreadLocale
 ---
 
 # SetThreadLocale function
@@ -56,17 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current locale of the calling thread.
-
 
 ## -parameters
 
-
-
-
 ### -param Locale [in]
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
@@ -93,16 +88,9 @@ Sets the current locale of the calling thread.
 
 ## -returns
 
-
-
 The function should return an LCID on success. This is the LCID of the previous thread locale.
 
-
-
-
 ## -remarks
-
-
 
 When a thread is created, it uses the user locale. This value is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>. The user locale can be modified for future processes and thread creation using the regional and language options portion of the Control Panel. The thread locale can also be changed using <b>SetThreadLocale</b>.
 
@@ -113,13 +101,7 @@ When a thread is created, it uses the user locale. This value is returned by <a 
 
 <b>Windows 2000, Windows XP:</b> Do not use <b>SetThreadLocale</b> to select a user interface language. To select the resource that is defined in the .rc file with a <a href="https://docs.microsoft.com/windows/desktop/menurc/language-statement">LANGUAGE</a> statement, the application must use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourceexa">FindResourceEx</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
 
@@ -138,7 +120,4 @@ When a thread is created, it uses the user locale. This value is returned by <a 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: b636a3b4-2ac2-4400-b8ed-4430f598db7b
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RegisterForEvent method, ISyncProviderRegistration.RegisterForEvent, ISyncProviderRegistration::RegisterForEvent, RegisterForEvent, RegisterForEvent method [Windows Sync], RegisterForEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RegisterForEvent, winsync.isyncproviderregistration_registerforevent
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.RegisterForEvent
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.RegisterForEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::RegisterForEvent
+ - syncregistration/ISyncProviderRegistration::RegisterForEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.RegisterForEvent
 ---
 
 # ISyncProviderRegistration::RegisterForEvent
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the user to receive notification of the arrival of new registration
 		events that oocur when changes are made to the registration store.
 
-
 ## -parameters
-
-
-
 
 ### -param phEvent [out]
 
@@ -70,8 +66,6 @@ A <b>HANDLE</b> to a synchronization event that is used to notify
 <div> </div>
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -103,29 +97,14 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>HANDLE</b> returned by this method is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-getchange">GetChange</a> method. The event will only be set once from the <b>RegisterForEvent</b> call.  Any subsequent notifications will only occur when the user calls the <b>GetChange</b> method.
 
 To unregister from this event notification system, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-revokeevent">RevokeEvent</a> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 642e9266-40b8-4184-b83f-3131886da32b
 ms.date: 12/05/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetLogicalPath method, IVssWMDependency.GetLogicalPath, IVssWMDependency::GetLogicalPath, _win32_ivsswmdependency_getlogicalpath, base.ivsswmdependency_getlogicalpath, vswriter/IVssWMDependency::GetLogicalPath
-f1_keywords:
-- vswriter/IVssWMDependency.GetLogicalPath
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMDependency.GetLogicalPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMDependency::GetLogicalPath
+ - vswriter/IVssWMDependency::GetLogicalPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMDependency.GetLogicalPath
 ---
 
 # IVssWMDependency::GetLogicalPath
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetLogicalPath</b> method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrLogicalPath [out]
 
 The address of a caller-allocated variable that receives a <b>NULL</b>-terminated wide character string containing the logical path of the component that the current component depends on.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -147,14 +140,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must free the memory used by the returned string by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
@@ -164,13 +151,7 @@ It is possible to have multiple instances of a given writer class; however, any 
 
 If there are multiple instances of a writer class, it will be necessary to use logical path and component name information to identify the instance managing the component that the current component depends on.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdependency">IVssWMComponent::GetDependency</a>
 
@@ -185,7 +166,4 @@ If there are multiple instances of a writer class, it will be necessary to use l
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmdependency-getwriterid">IVssWMDependency::GetWriterId</a>
- 
-
- 
 

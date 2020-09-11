@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 14676159-cc31-4254-b174-dcd84d9ceec1
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, ad.ds_repl_opw_blob, ntdsapi/DS_REPL_OPW_BLOB
-f1_keywords:
-- ntdsapi/DS_REPL_OPW_BLOB
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntdsapi.h
-api_name:
-- DS_REPL_OPW_BLOB
 targetos: Windows
 req.typenames: DS_REPL_OPW_BLOB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DS_REPL_OPW_BLOB
+ - ntdsapi/_DS_REPL_OPW_BLOB
+ - DS_REPL_OPW_BLOB
+ - ntdsapi/DS_REPL_OPW_BLOB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntdsapi.h
+api_name:
+ - DS_REPL_OPW_BLOB
 ---
 
 # DS_REPL_OPW_BLOB structure
@@ -49,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DS_REPL_OPW_BLOB</b> structure describes a replication task currently executing or pending execution. This structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structure, but is obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions when obtaining binary data for the <b>msDS-ReplPendingOps</b> attribute.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ftimeEnqueued
 
 Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time that this operation was added to the queue.
 
-
 ### -field ulSerialNumber
 
 Contains the identifier of the operation. This value is unique  in the startup routine of every computer. When the computer is restarted, the identifiers are no longer unique.
-
 
 ### -field ulPriority
 
 Contains the priority value of this operation. Tasks with a higher priority value are executed first. The priority is calculated by the server based on the type of operation and its parameters.
 
-
 ### -field OpType
 
 Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-ds_repl_op_type">DS_REPL_OP_TYPE</a> values that indicate the type of operation that this structure represents.
-
 
 ### -field ulOptions
 
@@ -124,36 +118,27 @@ Contains zero or a combination of one or more of the <b>DS_REPMOD_*</b> values a
 
 Contains zero or a combination of one or more of the <b>DS_REPSUPD_*</b> values as defined for the <i>Options</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa">DsReplicaUpdateRefs</a>.
 
-
 ### -field oszNamingContext
 
 Contains the offset, in bytes, from the address of this structure  to  a null-terminated string that contains the distinguished name of the naming context associated with this operation. For example, the naming context to be synchronized for <b>DS_REPL_OP_TYPE_SYNC</b>.
-
 
 ### -field oszDsaDN
 
 Contains the offset, in bytes, from the address of this structure  to  a null-terminated string that contains the distinguished name of the directory system agent object associated with the remote server corresponding to this operation. For example, the server from which to ask for changes for <b>DS_REPL_OP_TYPE_SYNC</b>. This can be  <b>NULL</b>.
 
-
 ### -field oszDsaAddress
 
 Contains the offset, in bytes, from the address of this structure  to  a null-terminated string that contains the transport-specific network address of the remote server associated with this operation. For example, the DNS or SMTP address of the server from which to ask for changes for <b>DS_REPL_OP_TYPE_SYNC</b>. This can be  <b>NULL</b>.
-
 
 ### -field uuidNamingContextObjGuid
 
 Contains the <b>objectGuid</b> of the naming context identified by <b>pszNamingContext</b>.
 
-
 ### -field uuidDsaObjGuid
 
 Contains the <b>objectGuid</b> of the directory system agent object identified by <b>pszDsaDN</b>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a>
 
@@ -164,7 +149,4 @@ Contains the <b>objectGuid</b> of the directory system agent object identified b
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
- 
-
- 
 

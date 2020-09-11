@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 73ceaeb1-9a6b-449a-9851-3756736dbad7
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [ADSI], GetInfo method [ADSI],IADs interface, IADs interface [ADSI],GetInfo method, IADs.GetInfo, IADs::GetInfo, _ds_iads_getinfo, adsi.iads__getinfo, adsi.iads_getinfo, iads/IADs::GetInfo
-f1_keywords:
-- iads/IADs.GetInfo
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs::GetInfo
+ - iads/IADs::GetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs.GetInfo
 ---
 
 # IADs::GetInfo
@@ -49,32 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADs::GetInfo</b> method loads into the property cache values of the supported properties of this ADSI object from the underlying directory store.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method supports the standard return values, as well as the following.
       
 
 For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IADs::GetInfo</b> function is called to initialize or refresh the property cache. This is similar to obtaining those property values of supported properties from the underlying directory store.
 
@@ -294,14 +281,7 @@ if(pList)
    pList->Release();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -321,7 +301,4 @@ if(pList)
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
- 
-
- 
 

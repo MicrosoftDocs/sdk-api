@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 067d6fbb-833f-4e0e-bfdb-18d1b8608f58
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureFeature, MsiConfigureFeature function, MsiConfigureFeatureA, MsiConfigureFeatureW, _msi_msiconfigurefeature, msi/MsiConfigureFeature, msi/MsiConfigureFeatureA, msi/MsiConfigureFeatureW, setup.msiconfigurefeature
-f1_keywords:
-- msi/MsiConfigureFeature
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiConfigureFeature
-- MsiConfigureFeatureA
-- MsiConfigureFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiConfigureFeatureW
+ - msi/MsiConfigureFeatureW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiConfigureFeature
+ - MsiConfigureFeatureA
+ - MsiConfigureFeatureW
 ---
 
 # MsiConfigureFeatureW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiConfigureFeature</b> function configures the installed state for a product feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product to be configured.
 
-
 ### -param szFeature [in]
 
 Specifies the feature ID for the feature to be configured.
-
 
 ### -param eInstallState [in]
 
@@ -133,12 +127,8 @@ The feature is installed to its default location.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -191,15 +181,8 @@ An error that relates to the initialization has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
@@ -218,9 +201,6 @@ An error that relates to the initialization has occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
 
 ## -remarks
 

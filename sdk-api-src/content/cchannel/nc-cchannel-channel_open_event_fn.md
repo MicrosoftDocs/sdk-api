@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 7412d125-1a3c-4e9a-9804-b612030682da
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_EVENT_DATA_RECEIVED, CHANNEL_EVENT_WRITE_CANCELLED, CHANNEL_EVENT_WRITE_COMPLETE, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_OPEN_EVENT_FN, CHANNEL_OPEN_EVENT_FN callback function [Remote Desktop Services], VirtualChannelOpenEvent callback, _win32_virtualchannelopenevent, cchannel/CHANNEL_OPEN_EVENT_FN, termserv.virtualchannelopenevent
-f1_keywords:
-- cchannel/CHANNEL_OPEN_EVENT_FN
-dev_langs:
-- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cchannel.h
-api_name:
-- CHANNEL_OPEN_EVENT_FN
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHANNEL_OPEN_EVENT_FN
+ - cchannel/CHANNEL_OPEN_EVENT_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cchannel.h
+api_name:
+ - CHANNEL_OPEN_EVENT_FN
 ---
 
 # CHANNEL_OPEN_EVENT_FN callback function
 
 
 ## -description
-
 
 An application-defined callback function that Remote Desktop Services calls to notify the client DLL of 
      events for a specific virtual channel.
@@ -57,18 +57,13 @@ The <b>PCHANNEL_OPEN_EVENT_FN</b> type defines a pointer to this callback functi
     <b>VirtualChannelOpenEvent</b> is a 
     placeholder for the application-defined or library-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param openHandle [in]
 
 Handle to the virtual channel. This is the handle returned in the <i>pOpenHandle</i> 
       parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> 
       function.
-
 
 ### -param event [in]
 
@@ -104,7 +99,6 @@ A write operation started by a
         <i>pUserData</i> parameter of 
         <b>VirtualChannelWrite</b>.
 
-
 ### -param pData [in]
 
 Pointer to additional data for the event. The type of data depends on the event, as described previously in 
@@ -119,17 +113,14 @@ Note that the size of this parameter can be greater
        than the value specified by the <i>dataLength</i> parameter. The application should read 
        only the number of bytes specified by <i>dataLength</i>.
 
-
 ### -param dataLength [in]
 
 Specifies the size, in bytes, of the data in the <i>pData</i> buffer.
-
 
 ### -param totalLength [in]
 
 Specifies the total size, in bytes, of the data written by a single write operation to the server end of 
       the virtual channel.
-
 
 ### -param dataFlags [in]
 
@@ -175,19 +166,11 @@ Combines the <b>CHANNEL_FLAG_FIRST</b> and <b>CHANNEL_FLAG_LAST</b>
 
 Use bitwise comparisons when comparing this flag.
 
-
 ## -returns
-
-
 
 This function has no return values.
 
-
-
-
 ## -remarks
-
-
 
 The client DLL uses the 
     <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function to 
@@ -204,16 +187,7 @@ This function can be called with a different event type while it is executing. F
     <b>CHANNEL_EVENT_DATA_RECEIVED</b> event. Note that this function will not be called with the 
     same event type that it is currently processing.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
- 
-
- 
 

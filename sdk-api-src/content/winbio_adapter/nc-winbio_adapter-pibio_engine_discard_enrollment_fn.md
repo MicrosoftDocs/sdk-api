@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 305540bc-e0c6-460a-a00b-c295b3d6db93
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterDiscardEnrollment, EngineAdapterDiscardEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_DISCARD_ENROLLMENT_FN, PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback, secbiomet.engineadapterdiscardenrollment, winbio_adapter/EngineAdapterDiscardEnrollment
-f1_keywords:
-- winbio_adapter/EngineAdapterDiscardEnrollment
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterDiscardEnrollment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_DISCARD_ENROLLMENT_FN
+ - winbio_adapter/PIBIO_ENGINE_DISCARD_ENROLLMENT_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterDiscardEnrollment
 ---
 
 # PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to delete intermediate enrollment state information from the pipeline.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return the following <b>HRESULT</b> value to indicate the error.
 
@@ -86,14 +79,8 @@ The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Your implementation of this function should not save information in the biometric unit database.
 
@@ -161,17 +148,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: cbc63f97-dfc7-4e1f-97f9-2043f8bea1d4
 ms.date: 12/05/2018
 ms.keywords: IObjectControl, IObjectControl interface [COM+], IObjectControl interface [COM+],described, _cos_IObjectControl, comsvcs/IObjectControl, cos.iobjectcontrol
-f1_keywords:
-- comsvcs/IObjectControl
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectControl
+ - comsvcs/IObjectControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectControl
 ---
 
 # IObjectControl interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines context-specific initialization and cleanup procedures for your COM+ objects, and specifies whether the objects can be recycled.
-
-
 
 ## -inheritance
 
@@ -96,20 +94,13 @@ Enables a COM+ object to perform required cleanup before it is recycled or destr
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/context-activation">Context Activation</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
 ms.date: 12/05/2018
 ms.keywords: SCardReadCache, SCardReadCache function [Security], SCardReadCacheA, SCardReadCacheW, security.scardreadcache, winscard/SCardReadCache, winscard/SCardReadCacheA, winscard/SCardReadCacheW
-f1_keywords:
-- winscard/SCardReadCache
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardReadCache
-- SCardReadCacheA
-- SCardReadCacheW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardReadCacheW
+ - winscard/SCardReadCacheW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardReadCache
+ - SCardReadCacheA
+ - SCardReadCacheW
 ---
 
 # SCardReadCacheW function
@@ -51,49 +52,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardReadCache</b> function retrieves the value portion of a name-value pair from the global cache maintained by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-resource-manager">Smart Card Resource Manager</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 A handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>.
 
-
 ### -param CardIdentifier [in]
 
 A pointer to a value that uniquely identifies a smart card. The name-value pair that this function reads from the global cache is associated with this smart card.
-
 
 ### -param FreshnessCounter [in]
 
 The current revision of the cached data.
 
-
 ### -param LookupName [in]
 
 A pointer to a null-terminated string that contains the name portion of the name-value pair for which to retrieve the value portion.
-
 
 ### -param Data [out]
 
 A pointer to an array of byte values that contain the value portion of the name-value pair specified by the <i>LookupName</i> parameter.
 
-
 ### -param DataLen [out]
 
 A pointer to the size, in bytes, of the <i>Data</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SCARD_S_SUCCESS</b>.
 
@@ -129,20 +117,10 @@ The specified name-value pair was older than requested and has been deleted from
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardwritecachea">SCardWriteCache</a>
- 
-
- 
 
 ## -remarks
 

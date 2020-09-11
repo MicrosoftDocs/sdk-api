@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: f76539c8-13a8-4608-87a6-4947f5debb02
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_CreateDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateDevice, mf.pdxvahdsw_createdevice
-f1_keywords:
-- dxvahd/PDXVAHDSW_CreateDevice
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dxvahd.h
-api_name:
-- PDXVAHDSW_CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDXVAHDSW_CreateDevice
+ - dxvahd/PDXVAHDSW_CreateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dxvahd.h
+api_name:
+ - PDXVAHDSW_CreateDevice
 ---
 
 # PDXVAHDSW_CreateDevice callback function
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 
-
 ## -parameters
-
-
-
 
 ### -param *pD3DDevice [in]
 
 A pointer to the <b>IDirect3DDevice9Ex</b> interface of the Direct3D device.
 
-
 ### -param *phDevice [out]
 
 Receives a handle to the plug-in DXVA-HD device.
 
-
 ## -returns
-
-
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
@@ -91,7 +77,4 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VDS], VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PROP, VDS_LUN_PROP structure [VDS], base.vds_lun_prop, vds/PVDS_LUN_PROP, vds/_VDS_LUN_PROP, vdshwprv/PVDS_LUN_PROP, vdshwprv/_VDS_LUN_PROP'
-f1_keywords:
-- vdshwprv/VDS_LUN_PROP
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_LUN_PROP
 targetos: Windows
 req.typenames: VDS_LUN_PROP, *PVDS_LUN_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_LUN_PROP
+ - vdshwprv/_VDS_LUN_PROP
+ - PVDS_LUN_PROP
+ - vdshwprv/PVDS_LUN_PROP
+ - VDS_LUN_PROP
+ - vdshwprv/VDS_LUN_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_LUN_PROP
 ---
 
 # VDS_LUN_PROP structure
@@ -50,37 +55,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of 
    a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-object">LUN object</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field id
 
 The GUID of the LUN object.
 
-
 ### -field ullSize
 
 The size of the LUN, in bytes.
-
 
 ### -field pwszFriendlyName
 
 The name of the LUN; a zero-terminated, human-readable string.
 
-
 ### -field pwszIdentification
 
 The unique LUN identifier; a zero-terminated, human-readable string.
-
 
 ### -field pwszUnmaskingList
 
@@ -108,17 +104,14 @@ For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiato
 
 The LUN flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_flag">VDS_LUN_FLAG</a>.
 
-
 ### -field type
 
 The LUN type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>.
-
 
 ### -field status
 
 The status of the LUN object enumerated by 
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_status">VDS_LUN_STATUS</a>.
-
 
 ### -field health
 
@@ -157,12 +150,10 @@ A
 
 #### VDS_H_FAILED (8)
 
-
 ### -field TransitionState
 
 The transition state of the LUN enumerated by
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>.
-
 
 ### -field sRebuildPriority
 
@@ -192,21 +183,12 @@ The rebuild priority of the LUN object. A value between 0 (lowest priority) and 
 
 ##### - health.VDS_H_UNKNOWN (0)
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method returns 
     this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-object">LUN object</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a>
 
@@ -229,7 +211,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>
- 
-
- 
 

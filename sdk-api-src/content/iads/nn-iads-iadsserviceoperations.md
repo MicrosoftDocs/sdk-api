@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: f2459ca2-8a14-4343-bec6-ef3775dbf415
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations, IADsServiceOperations interface [ADSI], IADsServiceOperations interface [ADSI],described, _ds_iadsserviceoperations, adsi.iadsserviceoperations, iads/IADsServiceOperations
-f1_keywords:
-- iads/IADsServiceOperations
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsServiceOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsServiceOperations
+ - iads/IADsServiceOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsServiceOperations
 ---
 
 # IADsServiceOperations interface
@@ -49,12 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsServiceOperations</b> interface is a dual interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to manage system services installed on a computer. You can use this interface to start, pause, and stop a system service, change the password, and examine the status of a given service across a network.
    
 
 Of the system services and their operations, file service and file service operations are a special case. They are represented and managed by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileservice">IADsFileService</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
-
 
 ## -inheritance
 
@@ -300,13 +299,9 @@ Gets the status of the service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -321,7 +316,4 @@ Gets the status of the service.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

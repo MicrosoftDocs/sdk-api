@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: d3c0d850-914b-47ae-b614-a292411e6832
 ms.date: 12/05/2018
 ms.keywords: ClearFormatContent, ClearFormatContent method [IMAPI], ClearFormatContent method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],ClearFormatContent method, IDiscMaster.ClearFormatContent, IDiscMaster::ClearFormatContent, _win32_idiscmaster_clearformatcontent, base.idiscmaster_clearformatcontent, imapi.idiscmaster_clearformatcontent, imapi/IDiscMaster::ClearFormatContent
-f1_keywords:
-- imapi/IDiscMaster.ClearFormatContent
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscMaster.ClearFormatContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscMaster::ClearFormatContent
+ - imapi/IDiscMaster::ClearFormatContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscMaster.ClearFormatContent
 ---
 
 # IDiscMaster::ClearFormatContent
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears the contents of an unburned image (the current stash file).
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
-
-
-
 ## -remarks
-
-
 
 The stash file is an internal structure that is used to stage a disc before recording it to media.
 
@@ -83,15 +70,7 @@ The stash file is an internal structure that is used to stage a disc before reco
 <div class="alert"><b>Caution</b>  Use care when calling this method. There is no confirmation and no recovery. If an application fills the image file with data, then calls this method, the data is gone.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
- 
-
- 
 

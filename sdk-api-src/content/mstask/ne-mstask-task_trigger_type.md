@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 07cba55c-47af-4879-b7be-12952763e016
 ms.date: 12/05/2018
 ms.keywords: '*PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE, PTASK_TRIGGER_TYPE enumeration pointer [Task Scheduler], TASK_EVENT_TRIGGER_AT_LOGON, TASK_EVENT_TRIGGER_AT_SYSTEMSTART, TASK_EVENT_TRIGGER_ON_IDLE, TASK_TIME_TRIGGER_DAILY, TASK_TIME_TRIGGER_MONTHLYDATE, TASK_TIME_TRIGGER_MONTHLYDOW, TASK_TIME_TRIGGER_ONCE, TASK_TIME_TRIGGER_WEEKLY, TASK_TRIGGER_TYPE, TASK_TRIGGER_TYPE enumeration [Task Scheduler], _msb_task_trigger_type, mstask/PTASK_TRIGGER_TYPE, mstask/TASK_EVENT_TRIGGER_AT_LOGON, mstask/TASK_EVENT_TRIGGER_AT_SYSTEMSTART, mstask/TASK_EVENT_TRIGGER_ON_IDLE, mstask/TASK_TIME_TRIGGER_DAILY, mstask/TASK_TIME_TRIGGER_MONTHLYDATE, mstask/TASK_TIME_TRIGGER_MONTHLYDOW, mstask/TASK_TIME_TRIGGER_ONCE, mstask/TASK_TIME_TRIGGER_WEEKLY, mstask/TASK_TRIGGER_TYPE, taskschd.task_trigger_type'
-f1_keywords:
-- mstask/TASK_TRIGGER_TYPE
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstask.h
-api_name:
-- TASK_TRIGGER_TYPE
 targetos: Windows
 req.typenames: TASK_TRIGGER_TYPE, *PTASK_TRIGGER_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TASK_TRIGGER_TYPE
+ - mstask/_TASK_TRIGGER_TYPE
+ - PTASK_TRIGGER_TYPE
+ - mstask/PTASK_TRIGGER_TYPE
+ - TASK_TRIGGER_TYPE
+ - mstask/TASK_TRIGGER_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstask.h
+api_name:
+ - TASK_TRIGGER_TYPE
 ---
 
 # TASK_TRIGGER_TYPE enumeration
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-enumerated-types">Task Scheduler 2.0 Enumerated Types</a> instead.] ]
 
 Defines the types of <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">triggers</a> associated with a task.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TASK_TIME_TRIGGER_ONCE
 
@@ -69,7 +69,6 @@ Trigger is set to run the task a single time.
 
 When this value is specified, the <b>Type</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure is ignored.
-
 
 ### -field TASK_TIME_TRIGGER_DAILY
 
@@ -82,7 +81,6 @@ When this value is specified, the
 <b>DAILY</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-
 ### -field TASK_TIME_TRIGGER_WEEKLY
 
 Trigger is set to run the work item on specific days of a specific week of a specific month. 
@@ -93,7 +91,6 @@ Trigger is set to run the work item on specific days of a specific week of a spe
 When this value is specified, the 
 <b>WEEKLY</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
-
 
 ### -field TASK_TIME_TRIGGER_MONTHLYDATE
 
@@ -106,7 +103,6 @@ When this value is specified, the
 <b>MONTHLYDATE</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-
 ### -field TASK_TIME_TRIGGER_MONTHLYDOW
 
 Trigger is set to run the task on specific days, weeks, and months. 
@@ -118,7 +114,6 @@ When this value is specified, the
 <b>MONTHLYDOW</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure is used.
 
-
 ### -field TASK_EVENT_TRIGGER_ON_IDLE
 
 Trigger is set to run the task if the system remains idle for the amount of time specified by the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle wait time</a> of the task. 
@@ -128,7 +123,6 @@ Trigger is set to run the task if the system remains idle for the amount of time
 
 When this value is specified, the <b>wStartHour</b>, <b>wStartMinute</b>, and <b>Type</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure are ignored.
-
 
 ### -field TASK_EVENT_TRIGGER_AT_SYSTEMSTART
 
@@ -140,7 +134,6 @@ Trigger is set to run the task at system startup.
 When this value is specified, the <b>Type</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure is ignored.
 
-
 ### -field TASK_EVENT_TRIGGER_AT_LOGON
 
 Trigger is set to run the task when a user logs on. 
@@ -151,21 +144,12 @@ Trigger is set to run the task when a user logs on.
 When this value is specified, the <b>Type</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure is ignored.
 
-
 ## -remarks
-
-
 
 The constants defined here are used in the <b>TriggerType</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setidlewait">IScheduledWorkItem::SetIdleWait</a>
 
@@ -184,7 +168,4 @@ The constants defined here are used in the <b>TriggerType</b> member of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

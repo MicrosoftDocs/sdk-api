@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
-f1_keywords:
-- dpapi/CryptProtectMemory
-dev_langs:
-- c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptProtectMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptProtectMemory
+ - dpapi/CryptProtectMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptProtectMemory
 ---
 
 # CryptProtectMemory function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptProtectMemory</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypts</a> memory to prevent others from viewing sensitive information in your process. For example, use the <b>CryptProtectMemory</b> function to encrypt memory that contains a password. Encrypting the password prevents others from viewing it when the process is paged out to the swap file. Otherwise, the password is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> and viewable by others.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataIn [in, out]
 
 A pointer to the block of memory to encrypt. The <i>cbData</i> parameter specifies the number of bytes that will be encrypted. If the data contained in the memory space is smaller than the number of bytes specified, data outside of the intended block will be encrypted. If it is larger than <i>cbData</i> bytes, then only the first <i>cbData</i> bytes will be encrypted.
 
-
 ### -param cbDataIn [in]
 
 Number of bytes of memory pointed to by the <i>pData</i> parameter to encrypt. The number of bytes must be a multiple of the <b>CRYPTPROTECTMEMORY_BLOCK_SIZE</b> constant defined in Wincrypt.h.
-
 
 ### -param dwFlags [in]
 
@@ -108,23 +102,14 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Using  <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
@@ -193,14 +178,7 @@ void main()
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata">CryptProtectData</a>
 
@@ -215,7 +193,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a>
- 
-
- 
 

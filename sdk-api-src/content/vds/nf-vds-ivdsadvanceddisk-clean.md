@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4052f294-d911-44c6-a57f-0a0a6f24df70
 ms.date: 12/05/2018
 ms.keywords: Clean, Clean method [VDS], Clean method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],Clean method, IVdsAdvancedDisk.Clean, IVdsAdvancedDisk::Clean, base.ivdsadvanceddisk_clean, vds/IVdsAdvancedDisk::Clean
-f1_keywords:
-- vds/IVdsAdvancedDisk.Clean
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsAdvancedDisk.Clean
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsAdvancedDisk::Clean
+ - vds/IVdsAdvancedDisk::Clean
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsAdvancedDisk.Clean
 ---
 
 # IVdsAdvancedDisk::Clean
 
 
 ## -description
-
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
@@ -58,16 +58,11 @@ Removes partition information
 
 <b>Windows Server 2003:  </b>The <b>Clean</b> method is not supported for removable devices.
 
-
 ## -parameters
-
-
-
 
 ### -param bForce [in]
 
 If <b>TRUE</b>, cleans a disk containing data volumes or ESP partitions.
-
 
 ### -param bForceOEM [in]
 
@@ -102,14 +97,11 @@ If <b>TRUE</b>, cleans a MBR-based disk containing the known OEM partitions in t
 <td>An IBM IML partition.</td>
 </tr>
 </table>
- 
-
 
 ### -param bFullClean [in]
 
 If <b>TRUE</b>, cleans the entire disk by replacing the data on each sector with zeros; otherwise, this method cleans 
       only the first and the last megabytes on the disk.
-
 
 ### -param ppAsync [out]
 
@@ -117,10 +109,7 @@ The address of a pointer to the <a href="https://docs.microsoft.com/windows/desk
       pointer, which VDS initializes on return. Callers must release the interface. Use this pointer to cancel, wait 
       for, or query the status of the operation.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -206,14 +195,8 @@ The partition table is cleaned, but not all sectors are cleaned during a full cl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, the caller should dismount any mounted volumes on the disk by calling <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-dismount">IVdsVolumeMF::Dismount</a> for each volume.
 
@@ -227,13 +210,7 @@ Use the <i>bForce</i> parameter, the <i>bForceOEM</i> parameter, or both
 Implementers must return a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface for 
       this method, regardless of whether the call initiates an asynchronous operation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
 
@@ -244,7 +221,4 @@ Implementers must return a pointer to the <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
- 
-
- 
 

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: vhd
+f1_keywords:
+ - virtdisk
+ - virtdisk/virtdisk
 ---
 
 # Virtdisk.h header
 
 
 ## -description
-
 
 This header is used by Virtual Hard Disk. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: b0044783-552d-4492-bb1d-337227dd3e16
 ms.date: 12/05/2018
 ms.keywords: MsiExtractPatchXMLData, MsiExtractPatchXMLData function, MsiExtractPatchXMLDataA, MsiExtractPatchXMLDataW, msi/MsiExtractPatchXMLData, msi/MsiExtractPatchXMLDataA, msi/MsiExtractPatchXMLDataW, setup.msiextractpatchxmldata
-f1_keywords:
-- msi/MsiExtractPatchXMLData
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiExtractPatchXMLData
-- MsiExtractPatchXMLDataA
-- MsiExtractPatchXMLDataW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiExtractPatchXMLDataA
+ - msi/MsiExtractPatchXMLDataA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiExtractPatchXMLData
+ - MsiExtractPatchXMLDataA
+ - MsiExtractPatchXMLDataW
 ---
 
 # MsiExtractPatchXMLDataA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiExtractPatchXMLData</b> function extracts information from a patch  that can be used to determine if the patch applies to a target system. The function returns an XML string that can be provided to <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a> instead of the full patch file. The returned information  can be used to determine whether the patch is applicable.
 
-
 ## -parameters
-
-
-
 
 ### -param szPatchPath [in]
 
 The  full path to the patch that is being queried. Pass in as a null-terminated string. This parameter cannot be <b>NULL</b>.
 
-
 ### -param dwReserved [in]
 
 A reserved argument that must be 0 (zero).
-
 
 ### -param szXMLData [out, optional]
 
@@ -76,8 +70,7 @@ A pointer to a buffer to hold the XML string that contains the extracted patch i
 
 
 
-If <i>szXMLData</i> is set to <b>NULL</b> and <i>pcchXMLData</i> is set to a valid pointer,  the function returns ERROR_SUCCESS and sets *<i>pcchXMLData</i> to the number of <b>TCHAR</b> in the value, not including the terminating NULL character.  The function can then be called again to retrieve the value, with <i>szXMLData</i> buffer large enough to contain *<i>pcchXMLData</i> + 1 characters. 
-
+If <i>szXMLData</i> is set to <b>NULL</b> and <i>pcchXMLData</i> is set to a valid pointer,  the function returns ERROR_SUCCESS and sets *<i>pcchXMLData</i> to the number of <b>TCHAR</b> in the value, not including the terminating NULL character.  The function can then be called again to retrieve the value, with <i>szXMLData</i> buffer large enough to contain *<i>pcchXMLData</i> + 1 characters.
 
 ### -param pcchXMLData [in, out, optional]
 
@@ -85,10 +78,7 @@ A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szXM
 
 If this parameter is set to <b>NULL</b>, the function returns ERROR_INVALID_PARAMETER.
 
-
 ## -returns
-
-
 
 The <b>MsiExtractPatchXMLData</b> function can return the following values.
 
@@ -175,14 +165,8 @@ This error can be returned  if MSXML 3.0 is not installed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-extractpatchxmldata">ExtractPatchXMLData</a> method of the <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-object">Installer</a> object uses the <b>MsiExtractPatchXMLData</b> function.
 
@@ -195,9 +179,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-extractpat
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches </a>
 
 
@@ -207,7 +188,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-extractpat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
- 
-
- 
 

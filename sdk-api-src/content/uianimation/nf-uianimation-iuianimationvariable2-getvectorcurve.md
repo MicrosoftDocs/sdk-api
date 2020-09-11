@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: CAC7D415-5B0F-4587-8F1C-65399D2A5A58
 ms.date: 12/05/2018
 ms.keywords: GetVectorCurve, GetVectorCurve method [Windows Animation], GetVectorCurve method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetVectorCurve method, IUIAnimationVariable2.GetVectorCurve, IUIAnimationVariable2::GetVectorCurve, uianimation.iuianimationvariable2_getvectorcurve, uianimation/IUIAnimationVariable2::GetVectorCurve
-f1_keywords:
-- uianimation/IUIAnimationVariable2.GetVectorCurve
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationVariable2.GetVectorCurve
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationVariable2::GetVectorCurve
+ - uianimation/IUIAnimationVariable2::GetVectorCurve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationVariable2.GetVectorCurve
 ---
 
 # IUIAnimationVariable2::GetVectorCurve
@@ -49,51 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the animation curve of the animation variable for the specified dimension.
 
-
 ## -parameters
-
-
-
 
 ### -param animation [in]
 
 The object that generates a sequence of animation curve primitives.
 
-
 ### -param cDimension [in]
 
 The number of animation curves.
 
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 The application implements the <a href="https://docs.microsoft.com/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a> object that is referenced by the <i>animation</i> parameter.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
- 
-
- 
 

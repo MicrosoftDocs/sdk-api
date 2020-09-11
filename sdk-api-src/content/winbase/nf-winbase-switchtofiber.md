@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 020a8c97-848d-4b33-9cfb-77e5bff644fd
 ms.date: 12/05/2018
 ms.keywords: SwitchToFiber, SwitchToFiber function, _win32_switchtofiber, base.switchtofiber, winbase/SwitchToFiber
-f1_keywords:
-- winbase/SwitchToFiber
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-fibers-l2-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-fibers-l2-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- KernelBase.dll
-api_name:
-- SwitchToFiber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SwitchToFiber
+ - winbase/SwitchToFiber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-fibers-l2-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-fibers-l2-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - KernelBase.dll
+api_name:
+ - SwitchToFiber
 ---
 
 # SwitchToFiber function
@@ -54,23 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Schedules a fiber. The function must be called on a fiber.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFiber [in]
 
 The address of the fiber to be scheduled.
 
-
 ## -remarks
-
-
 
 You create fibers with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function. Before you can schedule fibers associated with a thread, you must call 
@@ -89,13 +82,7 @@ This call can cause unpredictable problems.
 To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
 
@@ -110,7 +97,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0400
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
- 
-
- 
 

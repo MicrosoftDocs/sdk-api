@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: d8b55500-d84c-431b-93c6-99d1f1b845c3
 ms.date: 12/05/2018
 ms.keywords: ExecQueryAsync, ExecQueryAsync method [Windows Management Instrumentation], ExecQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQueryAsync method, IWbemServices.ExecQueryAsync, IWbemServices::ExecQueryAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execqueryasync, wbemcli/IWbemServices::ExecQueryAsync, wmi.iwbemservices_execqueryasync
-f1_keywords:
-- wbemcli/IWbemServices.ExecQueryAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.ExecQueryAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::ExecQueryAsync
+ - wbemcli/IWbemServices::ExecQueryAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.ExecQueryAsync
 ---
 
 # IWbemServices::ExecQueryAsync
@@ -63,19 +64,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemServices::ExecQueryAsync</b> method executes a query to retrieve objects asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param strQueryLanguage [in]
 
 Valid <b>BSTR</b> that contains one of the query languages that Windows Management Instrumentation (WMI) supports. This must be "WQL".
-
 
 ### -param strQuery [in]
 
@@ -87,7 +82,6 @@ Valid <b>BSTR</b> that contains the text of the query. This cannot be
 For more information on building WMI query strings, see 
    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the 
    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
-
 
 ### -param lFlags [in]
 
@@ -130,13 +124,11 @@ This flag is used for prototyping. It does not execute the query, but returns an
 
 This flag causes direct access to the provider for the class specified without regard to its parent class or subclasses.
 
-
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that the provider can use to  return the requested classes or instances. The values in the context object must be specified in the documentation for the provider. For more information about this parameter, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
-
 
 ### -param pResponseHandler [in]
 
@@ -149,10 +141,7 @@ Pointer to the caller's implementation of
 WMI only calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
@@ -167,12 +156,7 @@ When finished, an instance provider can report success or failure with either th
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
 <b>SetStatus</b>, the return code sent through <i>pResponseHandler</i> takes precedence.
 
-
-
-
 ## -remarks
-
-
 
 There are limits to the number of AND and OR keywords that can be used in WQL queries.  Large numbers of WQL keywords used in a complex query can cause WMI to return the <b>WBEM_E_QUOTA_VIOLATION</b> error code as an <b>HRESULT</b> value.  The limit of WQL keywords depends on how complex the query is.
 
@@ -273,14 +257,7 @@ pSink->SetStatus(WBEM_STATUS_REQUIREMENTS,
     WBEM_REQUIREMENTS_STOP_POSTFILTER, 0, 0);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
@@ -299,7 +276,4 @@ pSink->SetStatus(WBEM_STATUS_REQUIREMENTS,
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
- 
-
- 
 

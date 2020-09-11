@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype.htm
 ms.date: 12/05/2018
 ms.keywords: 807ce993-4aee-8f2f-7837-5679d8a0dab0, ID3D10EffectType, ID3D10EffectType interface [Direct3D 10], ID3D10EffectType interface [Direct3D 10],described, d3d10effect/ID3D10EffectType, direct3d10.id3d10effecttype
-f1_keywords:
-- d3d10effect/ID3D10EffectType
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10EffectType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10EffectType
+ - d3d10effect/ID3D10EffectType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10EffectType
 ---
 
 # ID3D10EffectType interface
 
 
 ## -description
-
 
 The <b>ID3D10EffectType</b> interface accesses effect variables by type.
 
@@ -125,8 +125,7 @@ Tests that the effect type is valid.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -members
 
@@ -213,25 +212,11 @@ Get a member type by semantic.
 
 Tests that the effect type is valid.
 
- 
-
-
 ## -remarks
-
-
 
 To get information about an effect type from an effect variable, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectvariable-gettype">ID3D10EffectVariable::GetType</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-interfaces">Effect Interfaces (Direct3D 10)</a>
- 
-
- 
 

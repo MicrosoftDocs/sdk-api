@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 25ff08b2-5978-4d44-9877-ba4230ef7d12
 ms.date: 12/05/2018
 ms.keywords: PathCchCanonicalize, PathCchCanonicalize function [Windows Shell], pathcch/PathCchCanonicalize, shell.PathCchCanonicalize
-f1_keywords:
-- pathcch/PathCchCanonicalize
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchCanonicalize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchCanonicalize
+ - pathcch/PathCchCanonicalize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchCanonicalize
 ---
 
 # PathCchCanonicalize function
+
 
 ## -description
 
@@ -157,7 +159,6 @@ The following examples show the effect of these strings.
 <td>C:\</td>
 </tr>
 </table>
-
 
 ## -see-also
 

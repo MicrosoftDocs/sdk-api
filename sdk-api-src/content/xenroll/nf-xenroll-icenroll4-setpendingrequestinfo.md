@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: be369059-5852-4cde-8f78-d5883735b670
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],setPendingRequestInfo method, ICEnroll4 interface [Security],setPendingRequestInfo method, ICEnroll4.setPendingRequestInfo, ICEnroll4::setPendingRequestInfo, _xen_icenroll4_setpendingrequestinfo, security.icenroll4_setpendingrequestinfo, setPendingRequestInfo, setPendingRequestInfo method [Security], setPendingRequestInfo method [Security],CEnroll object, setPendingRequestInfo method [Security],ICEnroll4 interface, xenroll/ICEnroll4::setPendingRequestInfo
-f1_keywords:
-- xenroll/ICEnroll4.setPendingRequestInfo
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.setPendingRequestInfo
-- CEnroll.setPendingRequestInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll4::setPendingRequestInfo
+ - xenroll/ICEnroll4::setPendingRequestInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.setPendingRequestInfo
+ - CEnroll.setPendingRequestInfo
 ---
 
 # ICEnroll4::setPendingRequestInfo
@@ -50,46 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>setPendingRequestInfo</b> method sets properties for a pending request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param lRequestID [in]
 
 An identifier for the request, as assigned by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
-
 ### -param strCADNS [in]
 
 The Domain Name System (DNS) name of the certification authority. The  <i>strCADNS</i> parameter cannot be <b>NULL</b>.
-
 
 ### -param strCAName [in]
 
 The name of the certification authority. The <i>strCAName</i> parameter cannot be <b>NULL</b>.
 
-
 ### -param strFriendlyName [in]
 
 The display name of the certification authority. The <i>strFriendlyName</i> parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
 

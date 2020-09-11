@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: d93dd2d6-93c5-4781-8645-fd3f0b45c9b7
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontScriptTags, ScriptGetFontScriptTags function [Internationalization for Windows Applications], _win32_ScriptGetFontScriptTags, intl.scriptgetfontscripttags, usp10/ScriptGetFontScriptTags
-f1_keywords:
-- usp10/ScriptGetFontScriptTags
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Usp10.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- ScriptGetFontScriptTags
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - ScriptGetFontScriptTags
+ - usp10/ScriptGetFontScriptTags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Usp10.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - ScriptGetFontScriptTags
 ---
 
 # ScriptGetFontScriptTags function
@@ -52,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of scripts available in the font for OpenType processing. Scripts comprising the list are retrieved from the font located in the supplied device context or from the script shaping engine that processes the font of the current run.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in, optional]
 
 Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
 
-
 ### -param psc [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
-
 
 ### -param psa [in, optional]
 
@@ -77,36 +71,25 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
-
 ### -param cMaxTags [in]
 
 The length of the array specified by <i>pScriptTags</i>.
-
 
 ### -param pScriptTags [out]
 
 Pointer to a buffer in which this function retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structures defining script tags from the device context or the scripting engine associated with the current run. If the value of the <b>eScript</b> member of the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure provided in the <i>psa</i> parameter has a definite script tag associated with it and the tag is present in the font, <i>pScriptTags</i> contains only this tag.
 
-
 ### -param pcTags [out]
 
 Pointer to the number of elements in the script tag array indicated by <i>pScriptTags</i>.
 
-
 ## -returns
-
-
 
 Returns 0 if successful. The function returns a nonzero HRESULT value if it does not succeed. The application can test the return value with the <b>SUCCEEDED</b> and <b>FAILED</b> macros.
 
 If the number of matching tags exceeds the value of <i>cMaxTags</i>, the function fails with E_OUTOFMEMORY. The application can try calling again with larger buffers.
 
-
-
-
 ## -remarks
-
-
 
 While formally declared as a ULONG type, <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> defines a 4-byte array that contains four 8-bit ASCII values of space, A-Z or a-z. For example, the script tags for Latin and Arabic scripts are "latn" and "arab", respectively.
 
@@ -123,12 +106,7 @@ If a tag corresponding to a particular script is present, a shaping engine might
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>
 
@@ -155,7 +133,4 @@ If a tag corresponding to a particular script is present, a shaping engine might
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
- 
-
- 
 

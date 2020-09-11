@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: a238b050-101d-4b8a-9479-984b889823f4
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
-f1_keywords:
-- evr/IMFVideoMixerControl2
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- evr.h
-api_name:
-- IMFVideoMixerControl2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoMixerControl2
+ - evr/IMFVideoMixerControl2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - evr.h
+api_name:
+ - IMFVideoMixerControl2
 ---
 
 # IMFVideoMixerControl2 interface
 
 
 ## -description
-
 
 Controls preferences for video deinterlacing.
 
@@ -95,13 +95,9 @@ Sets the preferences for video deinterlacing.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideomixercontrol">IMFVideoMixerControl</a>
 
@@ -112,7 +108,4 @@ Sets the preferences for video deinterlacing.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
- 
-
- 
 

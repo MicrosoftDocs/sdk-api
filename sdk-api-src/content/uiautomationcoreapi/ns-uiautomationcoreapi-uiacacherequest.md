@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
 ms.date: 12/05/2018
 ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
-f1_keywords:
-- uiautomationcoreapi/UiaCacheRequest
-dev_langs:
-- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCoreApi.h
-api_name:
-- UiaCacheRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaCacheRequest
+ - uiautomationcoreapi/UiaCacheRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCoreApi.h
+api_name:
+ - UiaCacheRequest
 ---
 
 # UiaCacheRequest structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This structure is deprecated.</div><div> </div>  Contains information about a request to cache data about UI Automation elements.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pViewCondition
 
@@ -64,13 +60,11 @@ Type: <b>UiaCondition *</b>
 
 The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a> structure that specifies the condition that cached elements must match.
 
-
 ### -field Scope
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a></b>
 
 A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/ne-uiautomationclient-treescope">TreeScope</a> enumerated type indicating the scope of the cache request; for example, whether it includes children of the root element.
-
 
 ### -field pProperties
 
@@ -78,13 +72,11 @@ Type: <b>PROPERTYID*</b>
 
 The address of an array of identifiers for properties to cache. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
-
 ### -field cProperties
 
 Type: <b>int</b>
 
 The count of elements in the <b>pProperties</b> array.
-
 
 ### -field pPatterns
 
@@ -92,13 +84,11 @@ Type: <b>PATTERNID*</b>
 
 The address of an array of identifiers for control patterns to cache. For a list of control pattern IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-controlpattern-ids">Control Pattern Identifiers</a>.
 
-
 ### -field cPatterns
 
 Type: <b>int</b>
 
 The count of elements in the <b>pPatterns</b> array.
-
 
 ### -field automationElementMode
 

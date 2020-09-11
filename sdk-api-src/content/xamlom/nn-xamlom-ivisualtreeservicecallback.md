@@ -8,10 +8,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 85B94DA2-11EF-49ED-8076-DA5AB36EF781
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeServiceCallback, IVisualTreeServiceCallback interface, IVisualTreeServiceCallback interface,described, xaml_diagnostics.ivisualtreeservicecallback, xamlom/IVisualTreeServiceCallback
-f1_keywords:
-- xamlom/IVisualTreeServiceCallback
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xamlom.h
-api_name:
-- IVisualTreeServiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualTreeServiceCallback
+ - xamlom/IVisualTreeServiceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xamlom.h
+api_name:
+ - IVisualTreeServiceCallback
 ---
 
 # IVisualTreeServiceCallback interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Communicates the state of the visual tree.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Communicates the state of the visual tree when it changes.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

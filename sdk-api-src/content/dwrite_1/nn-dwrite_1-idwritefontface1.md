@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 1DB7156F-0578-46A0-8C96-E1E34FF4E49E
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace1, IDWriteFontFace1 interface [Direct Write], IDWriteFontFace1 interface [Direct Write],described, directwrite.idwritefontface1, dwrite_1/IDWriteFontFace1
-f1_keywords:
-- dwrite_1/IDWriteFontFace1
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFace1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFace1
+ - dwrite_1/IDWriteFontFace1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFace1
 ---
 
 ## -description
@@ -53,3 +54,4 @@ This interface extends [IDWriteFontFace](/windows/win32/api/dwrite/nn-dwrite-idw
 ## -see-also
 
 [IDWriteFontFace](/windows/win32/api/dwrite/nn-dwrite-idwritefontface)
+

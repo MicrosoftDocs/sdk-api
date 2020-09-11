@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: E595C072-98F8-4231-9C8F-A8393D751DE6
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback
-f1_keywords:
-- rtworkq/IRtwqAsyncCallback
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqAsyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqAsyncCallback
+ - rtworkq/IRtwqAsyncCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncCallback
 ---
 
 # IRtwqAsyncCallback interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback interface to notify the application when an asynchronous method completes.
-        
-
 
 ## -inheritance
 
@@ -87,5 +85,5 @@ Called when an asynchronous operation is completed.
 
 </td>
 </tr>
-</table> 
+</table>
 

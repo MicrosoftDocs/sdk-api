@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
 ms.date: 12/05/2018
 ms.keywords: MCIWndCreate, MCIWndCreate function [Windows Multimedia], MCIWndCreateA, MCIWndCreateW, _win32_MCIWndCreate, multimedia.mciwndcreate, vfw/MCIWndCreate, vfw/MCIWndCreateA, vfw/MCIWndCreateW
-f1_keywords:
-- vfw/MCIWndCreate
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- MCIWndCreate
-- MCIWndCreateA
-- MCIWndCreateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndCreateW
+ - vfw/MCIWndCreateW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - MCIWndCreate
+ - MCIWndCreateA
+ - MCIWndCreateW
 ---
 
 # MCIWndCreateW function
@@ -51,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndCreate</b> function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. <b>MCIWndCreate</b> can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwndParent
 
 Handle to the parent window.
 
-
 ### -param hInstance
 
 Handle to the module instance to associate with the MCIWnd window.
-
 
 ### -param dwStyle
 
@@ -157,26 +148,16 @@ Flags defining the window style. In addition to specifying the window styles use
 <td>Displays the current position within the content of the MCI device in the window title bar.</td>
 </tr>
 </table>
- 
-
 
 ### -param szFile
 
 Null-terminated string indicating the name of an MCI device or data file to open.
 
-
 ## -returns
-
-
 
 Returns the handle to an MCI window if successful or zero otherwise.
 
-
-
-
 ## -remarks
-
-
 
 Default window styles for a child window are WS_CHILD, WS_BORDER, and WS_VISIBLE. <b>MCIWndCreate</b> assumes a child window when a non-<b>NULL</b> handle of a parent window is specified.
 
@@ -192,9 +173,6 @@ Use the window handle returned by this function for the window handle in the MCI
 > The vfw.h header defines MCIWndCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a>
 
@@ -213,7 +191,4 @@ Use the window handle returned by this function for the window handle in the MCI
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a>
- 
-
- 
 

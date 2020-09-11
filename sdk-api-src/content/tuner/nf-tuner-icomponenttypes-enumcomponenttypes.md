@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c070998c-4350-4630-80c0-e3db46154845
 ms.date: 12/05/2018
 ms.keywords: EnumComponentTypes, EnumComponentTypes method [Microsoft TV Technologies], EnumComponentTypes method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],EnumComponentTypes method, IComponentTypes.EnumComponentTypes, IComponentTypes::EnumComponentTypes, IComponentTypesEnumComponentTypes, mstv.icomponenttypes_enumcomponenttypes, tuner/IComponentTypes::EnumComponentTypes
-f1_keywords:
-- tuner/IComponentTypes.EnumComponentTypes
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IComponentTypes.EnumComponentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentTypes::EnumComponentTypes
+ - tuner/IComponentTypes::EnumComponentTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IComponentTypes.EnumComponentTypes
 ---
 
 # IComponentTypes::EnumComponentTypes
@@ -49,39 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EnumComponentTypes</b> method returns an <b>IEnumComponentTypes</b> enumerator for all component types in the collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppNewEnum [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponenttypes">IEnumComponentTypes</a> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes Interface</a>
- 
-
- 
 

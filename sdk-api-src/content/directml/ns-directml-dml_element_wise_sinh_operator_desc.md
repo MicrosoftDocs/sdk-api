@@ -21,8 +21,8 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
@@ -30,6 +30,7 @@ api_location:
 api_name:
  - DML_ELEMENT_WISE_SINH_OPERATOR_DESC
 f1_keywords:
+ - DML_ELEMENT_WISE_SINH_OPERATOR_DESC
  - directml/DML_ELEMENT_WISE_SINH_OPERATOR_DESC
 dev_langs:
  - c++
@@ -64,3 +65,4 @@ An optional pointer to a constant [DML_SCALE_BIAS](/windows/desktop/api/directml
 ## -remarks
 
 ## -see-also
+

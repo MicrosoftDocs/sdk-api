@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient.Initialize, IAudioClient::Initialize, IAudioClientInitialize, Initialize, Initialize method [Core Audio], Initialize method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
-f1_keywords:
-- audioclient/IAudioClient.Initialize
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::Initialize
+ - audioclient/IAudioClient::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.Initialize
 ---
 
 # IAudioClient::Initialize
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Initialize</b> method initializes the audio stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ShareMode [in]
 
@@ -69,35 +62,27 @@ AUDCLNT_SHAREMODE_EXCLUSIVE
 
 AUDCLNT_SHAREMODE_SHARED
 
-
 ### -param StreamFlags [in]
 
 Flags to control creation of the stream. The client should set this parameter to 0 or to the bitwise OR of one or more of the  <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-streamflags-xxx-constants">AUDCLNT_STREAMFLAGS_XXX Constants</a> or  the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audclnt-sessionflags-xxx-constants">AUDCLNT_SESSIONFLAGS_XXX Constants</a>.
-
 
 ### -param hnsBufferDuration [in]
 
 The buffer capacity as a time value. This parameter is of type <b>REFERENCE_TIME</b> and is expressed in 100-nanosecond units. This parameter contains the buffer size that the caller requests for the buffer that the audio application will share with the audio engine (in shared mode) or with the endpoint device (in exclusive mode). If the call succeeds, the method allocates a buffer that is a least this large. For more information about <b>REFERENCE_TIME</b>, see the Windows SDK documentation. For more information about buffering requirements, see Remarks.
 
-
 ### -param hnsPeriodicity [in]
 
 The device period. This parameter can be nonzero only in exclusive mode. In shared mode, always set this parameter to 0. In exclusive mode, this parameter specifies the requested scheduling period for successive buffer accesses by the audio endpoint device. If the requested device period lies outside the range that is set by the device's minimum period and the system's maximum period, then the method clamps the period to that range. If this parameter is 0, the method sets the device period to its default value. To obtain the default device period, call the <a href="/windows/win32/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">IAudioClient::GetDevicePeriod</a> method. If the AUDCLNT_STREAMFLAGS_EVENTCALLBACK stream flag is set and  AUDCLNT_SHAREMODE_EXCLUSIVE is set as the  ShareMode, then <i>hnsPeriodicity</i> must be nonzero and equal to <i>hnsBufferDuration</i>.
-
 
 ### -param pFormat [in]
 
 Pointer to a format descriptor. This parameter must point to a valid format descriptor of type <b>WAVEFORMATEX</b> (or <b>WAVEFORMATEXTENSIBLE</b>). For more information, see Remarks.
 
-
 ### -param AudioSessionGuid [in]
 
 Pointer to a session GUID. This parameter points to a GUID value that identifies the audio session that the stream belongs to. If the GUID identifies a session that has been previously opened, the method adds the stream to that session. If the GUID does not identify an existing session, the method opens a new session and adds the stream to that session. The stream remains a member of the same session for its lifetime. Setting this parameter to <b>NULL</b> is equivalent to passing a pointer to a GUID_NULL value.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -294,14 +279,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After activating an <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface on an audio endpoint device, the client must successfully call <b>Initialize</b> once and only once to initialize the audio stream between the client and the device. The client can either connect directly to the audio hardware (exclusive mode) or indirectly through the audio engine (shared mode). In the <b>Initialize</b> call, the client specifies the audio data format, the buffer size, and audio session for the stream.
 
@@ -530,14 +509,7 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
@@ -576,7 +548,4 @@ done:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
- 
-
- 
 

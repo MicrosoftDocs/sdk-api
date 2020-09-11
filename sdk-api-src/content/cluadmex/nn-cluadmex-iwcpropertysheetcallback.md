@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: f90f9eb3-5568-4db1-8ff8-fda2d3bea952
 ms.date: 12/05/2018
 ms.keywords: IWCPropertySheetCallback, IWCPropertySheetCallback interface [Failover Cluster], IWCPropertySheetCallback interface [Failover Cluster],described, _wolf_iwcpropertysheetcallback, cluadmex/IWCPropertySheetCallback, mscs.iwcpropertysheetcallback
-f1_keywords:
-- cluadmex/IWCPropertySheetCallback
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCPropertySheetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCPropertySheetCallback
+ - cluadmex/IWCPropertySheetCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCPropertySheetCallback
 ---
 
 # IWCPropertySheetCallback interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWCPropertySheetCallback</b> interface is 
     called by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extension 
     to add property pages to a Failover Cluster Administrator property sheet.
-
 
 ## -inheritance
 
@@ -79,12 +78,9 @@ Adds a property page to a Failover Cluster Administrator property sheet.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Use the <i>piCallback</i> pointer that you receive when Failover Cluster Administrator calls 
      your 
@@ -92,20 +88,11 @@ Use the <i>piCallback</i> pointer that you receive when Failover Cluster Adminis
      method to call the <b>IWCPropertySheetCallback</b> 
      interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-callback-interfaces">Failover Cluster Administrator Callback Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendpropertysheet-createpropertysheetpages">IWEExtendPropertySheet::CreatePropertySheetPages</a>
- 
-
- 
 

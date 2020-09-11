@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ff8b9080-0299-4ba9-a49d-9ef142e91eb8
 ms.date: 12/05/2018
 ms.keywords: GetReason, GetReason method [Microsoft TV Technologies], GetReason method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetReason method, IESRequestTunerEvent.GetReason, IESRequestTunerEvent::GetReason, mstv.iesrequesttunerevent_getreason, tuner/IESRequestTunerEvent::GetReason
-f1_keywords:
-- tuner/IESRequestTunerEvent.GetReason
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESRequestTunerEvent.GetReason
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESRequestTunerEvent::GetReason
+ - tuner/IESRequestTunerEvent::GetReason
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESRequestTunerEvent.GetReason
 ---
 
 # IESRequestTunerEvent::GetReason
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its Conditional Access Services (CAS).
 
-
 ## -parameters
-
-
-
 
 ### -param pbyReason [out, retval]
 
@@ -104,25 +100,12 @@ Reserved.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesrequesttunerevent">IESRequestTunerEvent</a>
- 
-
- 
 

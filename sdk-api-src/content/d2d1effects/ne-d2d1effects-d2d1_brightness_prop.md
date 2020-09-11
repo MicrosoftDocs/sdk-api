@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 7D3CEF7A-AF72-451B-8E6A-A9DF8E85EDE9
 ms.date: 12/05/2018
 ms.keywords: D2D1_BRIGHTNESS_PROP, D2D1_BRIGHTNESS_PROP enumeration [Direct2D], D2D1_BRIGHTNESS_PROP_BLACK_POINT, D2D1_BRIGHTNESS_PROP_WHITE_POINT, d2d1effects/D2D1_BRIGHTNESS_PROP, d2d1effects/D2D1_BRIGHTNESS_PROP_BLACK_POINT, d2d1effects/D2D1_BRIGHTNESS_PROP_WHITE_POINT, direct2d.d2d1_brightness_prop
-f1_keywords:
-- d2d1effects/D2D1_BRIGHTNESS_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_BRIGHTNESS_PROP
 targetos: Windows
 req.typenames: D2D1_BRIGHTNESS_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_BRIGHTNESS_PROP
+ - d2d1effects/D2D1_BRIGHTNESS_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_BRIGHTNESS_PROP
 ---
 
 # D2D1_BRIGHTNESS_PROP enumeration
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/brightness">Brightness effect</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_BRIGHTNESS_PROP_WHITE_POINT
 
@@ -68,7 +64,6 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is (1.0f, 1.0f).
 
-
 ### -field D2D1_BRIGHTNESS_PROP_BLACK_POINT
 
 The lower portion of the brightness transfer curve. The black point adjusts the appearance of the darker portions of the image. 
@@ -79,8 +74,5 @@ The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-d
 
 The default value is (0.0f, 0.0f).
 
-
 ### -field D2D1_BRIGHTNESS_PROP_FORCE_DWORD
-
-
 

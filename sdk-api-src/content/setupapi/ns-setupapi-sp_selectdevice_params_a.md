@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 7d1168dd-0b61-44fb-928d-38f2c57c1092
 ms.date: 12/05/2018
 ms.keywords: '*PSP_SELECTDEVICE_PARAMS_A, PSP_SELECTDEVICE_PARAMS, PSP_SELECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_SELECTDEVICE_PARAMS, SP_SELECTDEVICE_PARAMS structure [Device and Driver Installation], SP_SELECTDEVICE_PARAMS_A, devinst.sp_selectdevice_params, di-struct_897a5d1d-5ff3-4d70-b39d-3763b81d54bf.xml, setupapi/PSP_SELECTDEVICE_PARAMS, setupapi/SP_SELECTDEVICE_PARAMS'
-f1_keywords:
-- setupapi/SP_SELECTDEVICE_PARAMS
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- setupapi.h
-api_name:
-- SP_SELECTDEVICE_PARAMS - sp_selectdevice_params_a
 targetos: Windows
 req.typenames: SP_SELECTDEVICE_PARAMS_A, *PSP_SELECTDEVICE_PARAMS_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_SELECTDEVICE_PARAMS_A
+ - setupapi/_SP_SELECTDEVICE_PARAMS_A
+ - PSP_SELECTDEVICE_PARAMS_A
+ - setupapi/PSP_SELECTDEVICE_PARAMS_A
+ - SP_SELECTDEVICE_PARAMS_A
+ - setupapi/SP_SELECTDEVICE_PARAMS_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - setupapi.h
+api_name:
+ - SP_SELECTDEVICE_PARAMS - sp_selectdevice_params_a
 ---
 
 # SP_SELECTDEVICE_PARAMS_A structure
@@ -49,48 +54,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 An SP_SELECTDEVICE_PARAMS structure corresponds to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a> installation request.
-
 
 ## -struct-fields
 
-
-
-
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>. 
-
+An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
 
 ### -field Title
 
-Buffer that contains an installer-provided window title for driver-selection windows. Windows uses this title for the window title for the Select Device dialogs. 
-
+Buffer that contains an installer-provided window title for driver-selection windows. Windows uses this title for the window title for the Select Device dialogs.
 
 ### -field Instructions
 
-Buffer that contains an installer-provided select-device instructions. 
-
+Buffer that contains an installer-provided select-device instructions.
 
 ### -field ListLabel
 
 Buffer that contains an installer-provided label for the list of drivers from which the user can select.
 
-
 ### -field SubTitle
 
 Buffer that contains an installer-provided subtitle used in select-device wizards. This string is not used in select dialogs.
-
 
 ### -field Reserved
 
 Reserved. For internal use only.
 
-
 ## -remarks
-
-
 
 If an installer sets fields in this structure to be used during driver selection, the installer must also set the DI_USECI_SELECTSTRINGS flag in the SP_DEVINSTALL_PARAMS. 
 
@@ -106,9 +98,6 @@ The following screen shot shows a sample Select Device dialog box and identifies
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a>
 
 
@@ -122,7 +111,4 @@ The following screen shot shows a sample Select Device dialog box and identifies
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiselectdevice">SetupDiSelectDevice</a>
- 
-
- 
 

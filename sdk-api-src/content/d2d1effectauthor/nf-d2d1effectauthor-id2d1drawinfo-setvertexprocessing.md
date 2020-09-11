@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 23DB679B-33E4-4FB1-B356-BBB1BA95E0EB
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetVertexProcessing method, ID2D1DrawInfo.SetVertexProcessing, ID2D1DrawInfo::SetVertexProcessing, SetVertexProcessing, SetVertexProcessing method [Direct2D], SetVertexProcessing method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetVertexProcessing, direct2d.id2d1drawinfo_setvertexprocessing
-f1_keywords:
-- d2d1effectauthor/ID2D1DrawInfo.SetVertexProcessing
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1DrawInfo.SetVertexProcessing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DrawInfo::SetVertexProcessing
+ - d2d1effectauthor/ID2D1DrawInfo::SetVertexProcessing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1DrawInfo.SetVertexProcessing
 ---
 
 # ID2D1DrawInfo::SetVertexProcessing
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a vertex buffer, a corresponding vertex shader, and options to control how the vertices are to be handled by the Direct2D context.
 
-
 ## -parameters
-
-
-
 
 ### -param vertexBuffer [in, optional]
 
@@ -65,13 +61,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectautho
 
 The vertex buffer, if this is cleared, the default vertex shader and mapping to the transform rectangles will be used.
 
-
 ### -param vertexOptions
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_vertex_options">D2D1_VERTEX_OPTIONS</a></b>
 
 Options that influence how the renderer will interact with the vertex shader.
-
 
 ### -param blendDescription [in, optional]
 
@@ -79,14 +73,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effec
 
 How the vertices will be blended with the output texture.
 
-
 ### -param vertexRange [in, optional]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_vertex_range">D2D1_VERTEX_RANGE</a>*</b>
 
 The set of vertices to use from the buffer.
-
-
 
 ### -param vertexShader
 
@@ -94,21 +85,13 @@ Type: <b>GUID*</b>
 
 The GUID of the vertex shader.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The vertex shaders associated with the vertex buffer through the vertex shader GUID must have been loaded through the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a> method before this call is made.
 
@@ -137,13 +120,7 @@ If this call fails, the corresponding <a href="https://docs.microsoft.com/window
 
   If blendDescription is NULL, a foreground-over blend mode is used.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>
 
@@ -154,7 +131,4 @@ If this call fails, the corresponding <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a>
- 
-
- 
 

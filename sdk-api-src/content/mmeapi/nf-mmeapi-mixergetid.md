@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: e70d6be0-858c-4042-bfaf-6a62bafa269c
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerGetID, mixerGetID, mixerGetID function [Windows Multimedia], mmeapi/mixerGetID, multimedia.mixergetid
-f1_keywords:
-- mmeapi/mixerGetID
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- mixerGetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mixerGetID
+ - mmeapi/mixerGetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - mixerGetID
 ---
 
 # mixerGetID function
@@ -51,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mixerGetID</b> function retrieves the device identifier for a mixer device associated with a specified device handle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmxobj
 
 Handle to the audio mixer object to map to a mixer device identifier.
 
-
 ### -param puMxId
 
 Pointer to a variable that receives the mixer device identifier. If no mixer device is available for the <i>hmxobj</i> object, the value -1 is placed in this location and the MMSYSERR_NODRIVER error value is returned.
-
 
 ### -param fdwId
 
@@ -129,12 +120,8 @@ Flags for mapping the mixer object <i>hmxobj</i>. The following values are defin
 <td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -199,22 +186,12 @@ No audio mixer device is available for the object specified by <i>hmxobj</i>. Th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
- 
-
- 
 

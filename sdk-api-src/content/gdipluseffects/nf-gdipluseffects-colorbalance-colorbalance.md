@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalanceconstructors\colorbalance.htm
 ms.date: 12/05/2018
 ms.keywords: ColorBalance, ColorBalance class [GDI+],ColorBalance constructor, ColorBalance constructor [GDI+], ColorBalance constructor [GDI+],ColorBalance class, ColorBalance.ColorBalance, ColorBalance::ColorBalance, _gdiplus_CLASS_ColorBalance_ColorBalance_, gdiplus._gdiplus_CLASS_ColorBalance_ColorBalance_
-f1_keywords:
-- gdipluseffects/ColorBalance.ColorBalance
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- ColorBalance.ColorBalance
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - ColorBalance::ColorBalance
+ - gdipluseffects/ColorBalance::ColorBalance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - ColorBalance.ColorBalance
 ---
 
 # ColorBalance::ColorBalance
@@ -50,21 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object. 
-
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a> object.
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorbalance">ColorBalance</a>
 
@@ -75,7 +66,4 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseff
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorbalanceparams">ColorBalanceParams</a>
- 
-
- 
 

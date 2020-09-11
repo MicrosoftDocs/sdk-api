@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
 ms.date: 12/05/2018
 ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCollection method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstanceCollection method, IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionDiscovery.GetInstanceCollection
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionDiscovery.GetInstanceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscovery::GetInstanceCollection
+ - functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionDiscovery.GetInstanceCollection
 ---
 
 # IFunctionDiscovery::GetInstanceCollection
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the specified collection of function instances, based on category and subcategory.
 
-
 ## -parameters
-
-
-
 
 ### -param pszCategory [in]
 
 The identifier of the category to be enumerated. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
 
-
 ### -param pszSubCategory [in]
 
 The identifier of the subcategory to be enumerated. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>. This parameter can be <b>NULL</b>.
-
 
 ### -param fIncludeAllSubCategories [in]
 
@@ -78,15 +72,11 @@ If <b>TRUE</b>, this method recursively enumerates all the subcategories of the 
 
 If <b>FALSE</b>, this method restricts itself to returning function instances in the category specified by <i>pszCategory</i> and the subcategory specified by <i>pszSubCategory</i>.
 
-
 ### -param ppIFunctionInstanceCollection [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a> interface pointer that receives the function instance collection containing the requested function instances. The collection is empty if no qualifying function instances are found.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -152,14 +142,8 @@ The call was executed for a provider that returns results asynchronously.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Some function discovery providers return their query results with the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  <b>GetInstanceCollection</b> does not find function instances that are returned in this way and will fail with E_PENDING.  It is recommended that clients use the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">CreateInstanceQuery</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a> interface to find function instances for such providers.
 
@@ -187,15 +171,7 @@ See interface constraints on <a href="https://docs.microsoft.com/windows/desktop
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
- 
-
- 
 

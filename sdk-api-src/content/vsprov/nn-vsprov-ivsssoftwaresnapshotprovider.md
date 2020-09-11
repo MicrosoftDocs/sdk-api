@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
-f1_keywords:
-- vsprov/IVssSoftwareSnapshotProvider
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssSoftwareSnapshotProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSoftwareSnapshotProvider
+ - vsprov/IVssSoftwareSnapshotProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssSoftwareSnapshotProvider
 ---
 
 # IVssSoftwareSnapshotProvider interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.
-
 
 ## -inheritance
 
@@ -159,16 +158,9 @@ Sets a property for a shadow copy.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

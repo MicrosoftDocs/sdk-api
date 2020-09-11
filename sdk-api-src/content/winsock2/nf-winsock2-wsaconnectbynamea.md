@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
-f1_keywords:
-- winsock2/WSAConnectByName
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAConnectByName
-- WSAConnectByNameA
-- WSAConnectByNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAConnectByNameA
+ - winsock2/WSAConnectByNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAConnectByName
+ - WSAConnectByNameA
+ - WSAConnectByNameW
 ---
 
 # WSAConnectByNameA function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WSAConnectByName</b> function establishes a connection to a specified host and port. This function is provided to allow a quick connection to a network endpoint given a host name and port.
 
 This function supports both IPv4 and IPv6 addresses.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
@@ -73,7 +69,6 @@ A descriptor that identifies an unconnected socket.
 
 A <b>NULL</b>-terminated string that contains the name of the host or the IP address of the host on which to connect for IPv4 or IPv6.
 
-
 ### -param servicename [in]
 
 A <b>NULL</b>-terminated string that contains the service name or destination port of the host on which to connect for IPv4 or IPv6. 
@@ -82,40 +77,31 @@ A service name is a string alias for a port number. For example, “http” is a
 
 <code>%WINDIR%\system32\drivers\etc\services</code>
 
-
 ### -param LocalAddressLength [in, out]
 
 On input, a pointer to the size, in bytes, of the <i>LocalAddress</i> buffer provided by the caller. On output, a pointer to the size, in bytes, of the <b>SOCKADDR</b> for the local address stored in the <i>LocalAddress</i> buffer filled in by the system upon successful completion of the call.
-
 
 ### -param LocalAddress [out]
 
 A pointer to the <b>SOCKADDR</b> structure that receives the local address of the connection. The size of the parameter is exactly the size returned in <i>LocalAddressLength</i>. This is the same information that would be returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function. This parameter can be <b>NULL</b>, in which case, the <i>LocalAddressLength</i> parameter is ignored.
 
-
 ### -param RemoteAddressLength [in, out]
 
 On input, a pointer to the size, in bytes, of the <i>RemoteAddress</i> buffer provided by the caller. On output, a pointer to the size, in bytes, of the <b>SOCKADDR</b> for the remote address stored in <i>RemoteAddress</i> buffer filled-in by the system upon successful completion of the call.
-
 
 ### -param RemoteAddress [out]
 
 A pointer to the <b>SOCKADDR</b> structure that receives the remote address of the connection. This is the same information that would be returned by the <b>getpeername</b> function. This parameter can be <b>NULL</b>, in which case, the <i>RemoteAddressLength</i> is ignored.
 
-
 ### -param timeout [in]
 
 The time, in milliseconds, to wait for a response from the remote application before aborting the call.
-
 
 ### -param Reserved
 
 Reserved for future implementation. This parameter must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If a connection is established, <b>WSAConnectByName</b> returns <b>TRUE</b> and <i>LocalAddress</i> and <i>RemoteAddress</i> parameters are filled in if these buffers were supplied by the caller.
 
@@ -182,14 +168,8 @@ A response from the  remote application was not received before the <i>timeout</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WSAConnectByName</b> is provided to enable quick and transparent connections to remote hosts on specific ports. It is compatible with both IPv6 and IPv4 versions.
 
@@ -369,9 +349,6 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
 
 
@@ -405,7 +382,4 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
- 
-
- 
 

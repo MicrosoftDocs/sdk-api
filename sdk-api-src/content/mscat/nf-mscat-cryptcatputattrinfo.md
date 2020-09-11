@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 13d5cdb4-2a15-4442-9e11-c3f76ca03f7e
 ms.date: 12/05/2018
 ms.keywords: CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, CryptCATPutAttrInfo, CryptCATPutAttrInfo function [Security], mscat/CryptCATPutAttrInfo, security.cryptcatputattrinfo
-f1_keywords:
-- mscat/CryptCATPutAttrInfo
-dev_langs:
-- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- CryptCATPutAttrInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCATPutAttrInfo
+ - mscat/CryptCATPutAttrInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - CryptCATPutAttrInfo
 ---
 
 # CryptCATPutAttrInfo function
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CryptCATPutAttrInfo</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>CryptCATPutAttrInfo</b> function allocates memory for  an attribute and adds it to a catalog member.
 
-
 ## -parameters
-
-
-
 
 ### -param hCatalog [in]
 
 A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
 
-
 ### -param pCatMember [in]
 
 A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the catalog member.
 
-
 ### -param pwszReferenceTag [in]
 
 A pointer to a null-terminated string that contains the name of the attribute.
-
 
 ### -param dwAttrTypeAndAction [in]
 
@@ -162,22 +155,16 @@ The attribute replaces the value for an existing attribute.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cbData [in]
 
 A value that specifies the number of bytes in the <i>pbData</i> buffer.
 
-
 ### -param pbData [in]
 
 A pointer to a memory buffer that contains the attribute value.
 
-
 ## -returns
-
-
 
 Upon success, this function returns a pointer to a [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the assigned attribute. The caller must not free this pointer or any of its members.
 
@@ -214,7 +201,4 @@ The operating system ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

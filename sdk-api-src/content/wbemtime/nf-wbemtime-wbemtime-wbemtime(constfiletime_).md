@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 6538fee8-a807-45ce-abdf-1c20524d78f2
 ms.date: 12/05/2018
 ms.keywords: ??0WBEMTime@@QAE@ABU_FILETIME@@@Z, ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const FILETIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const FILETIME &), WBEMTime::WBEMTime(const FILETIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_filetime__
-f1_keywords:
-- wbemtime/WBEMTime.WBEMTime
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTime.WBEMTime
-- ??0WBEMTime@@QAE@ABU_FILETIME@@@Z
-- ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTime::WBEMTime
+ - wbemtime/WBEMTime::WBEMTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTime.WBEMTime
+ - ??0WBEMTime@@QAE@ABU_FILETIME@@@Z
+ - ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z
 ---
 
 # WBEMTime::WBEMTime(const FILETIME &)
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,11 +61,7 @@ ms.custom: 19H1
 
 The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>  overload class constructor  takes a FILETIME reference parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param ft [ref]
 

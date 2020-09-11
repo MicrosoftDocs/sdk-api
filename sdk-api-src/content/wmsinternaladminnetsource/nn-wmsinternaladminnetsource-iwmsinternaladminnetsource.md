@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 0fbdad85-d94a-4598-bb25-f733df33692a
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format],described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
-f1_keywords:
-- wmsinternaladminnetsource/IWMSInternalAdminNetSource
-dev_langs:
-- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsinternaladminnetsource.h
-api_name:
-- IWMSInternalAdminNetSource
-- IWMSInternalAdminNetSource.GetNetSourceCreator
-- IWMSInternalAdminNetSource.Initialize
-- IWMSInternalAdminNetSource.IsUsingIE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSInternalAdminNetSource
+ - wmsinternaladminnetsource/IWMSInternalAdminNetSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsinternaladminnetsource.h
+api_name:
+ - IWMSInternalAdminNetSource
+ - IWMSInternalAdminNetSource.GetNetSourceCreator
+ - IWMSInternalAdminNetSource.Initialize
+ - IWMSInternalAdminNetSource.IsUsingIE
 ---
 
 # IWMSInternalAdminNetSource interface
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMSInternalAdminNetSource</b> interface manages cached passwords and finds proxy servers.
 
 To obtain a pointer to an instance of this interface, call the <b>QueryInterface</b> method of the <b>IDispatch</b> interface retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface">INSNetSourceCreator::GetNetSourceAdminInterface</a>.
-
-
-
 
 ## -inheritance
 
@@ -169,22 +165,13 @@ Releases internally allocated resources used in finding proxy servers.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Most of the methods of the <b>IWMSInternalAdminNetSource</b> interface have been updated in <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource2">IWMSInternalAdminNetSource2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource3">IWMSInternalAdminNetSource3</a>. If you are developing an application using a version of the Windows Media Format SDK that supports the later interfaces, you should use them.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmnetsourcecreator/nn-wmnetsourcecreator-insnetsourcecreator">INSNetSourceCreator Interface</a>
 
@@ -199,7 +186,4 @@ Most of the methods of the <b>IWMSInternalAdminNetSource</b> interface have been
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
- 
-
- 
 

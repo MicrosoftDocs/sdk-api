@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b
 ms.date: 12/05/2018
 ms.keywords: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], IMFOutputPolicy interface [Media Foundation],described, mf.imfoutputpolicy, mfidl/IMFOutputPolicy
-f1_keywords:
-- mfidl/IMFOutputPolicy
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFOutputPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFOutputPolicy
+ - mfidl/IMFOutputPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFOutputPolicy
 ---
 
 # IMFOutputPolicy interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates a usage policy from an input trust authority (ITA). Output trust authorities (OTAs) use this interface to query which protection systems they are required to enforce by the ITA.
-
 
 ## -inheritance
 
@@ -96,20 +95,13 @@ Retrieves a GUID identifying the ITA that created this output policy object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

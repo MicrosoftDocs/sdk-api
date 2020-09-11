@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: fc300bb8-aea4-4848-af43-a70a7fb8c07c
 ms.date: 12/05/2018
 ms.keywords: ICreateDevEnum, ICreateDevEnum interface [DirectShow], ICreateDevEnum interface [DirectShow],described, ICreateDevEnumInterface, dshow.icreatedevenum, strmif/ICreateDevEnum
-f1_keywords:
-- strmif/ICreateDevEnum
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICreateDevEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateDevEnum
+ - strmif/ICreateDevEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICreateDevEnum
 ---
 
 # ICreateDevEnum interface
 
 
 ## -description
-
 
 The <b>ICreateDevEnum</b> interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-device-enumerator">System Device Enumerator</a> exposes this interface.
 
@@ -58,7 +58,6 @@ Applications can use this interface to enumerate filters within a category. The 
 In some cases, the same DirectShow filter manages an entire category of hardware devices. In that case, the moniker represents the device, and the moniker is used to initialize the filter. The application can treat each device as a separate filter, regardless of the underlying implementation.
 
 For more information on using this interface, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-system-device-enumerator">Using the System Device Enumerator</a>.
-
 
 ## -inheritance
 
@@ -84,20 +83,13 @@ Creates a class enumerator for a specified device category.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-system-device-enumerator">Using the System Device Enumerator</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseGenerateTransform, MsiDatabaseGenerateTransform function, MsiDatabaseGenerateTransformA, MsiDatabaseGenerateTransformW, _msi_msidatabasegeneratetransform, msiquery/MsiDatabaseGenerateTransform, msiquery/MsiDatabaseGenerateTransformA, msiquery/MsiDatabaseGenerateTransformW, setup.msidatabasegeneratetransform
-f1_keywords:
-- msiquery/MsiDatabaseGenerateTransform
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDatabaseGenerateTransform
-- MsiDatabaseGenerateTransformA
-- MsiDatabaseGenerateTransformW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDatabaseGenerateTransformW
+ - msiquery/MsiDatabaseGenerateTransformW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDatabaseGenerateTransform
+ - MsiDatabaseGenerateTransformA
+ - MsiDatabaseGenerateTransformW
 ---
 
 # MsiDatabaseGenerateTransformW function
@@ -51,56 +52,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiDatabaseGenerateTransform</b> function generates a transform file of differences between two databases. A transform is a way of recording changes to a database without altering the original database. You can also use 
 <b>MsiDatabaseGenerateTransform</b> to test whether two databases are identical without creating a transform.
 
-
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
 Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> that includes the changes.
 
-
 ### -param hDatabaseReference [in]
 
 Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> that does not include the changes.
-
 
 ### -param szTransformFile [in]
 
 A null-terminated string that specifies the name of the transform file being generated. This parameter can be null. If <i>szTransformFile</i> is null, you can use 
 <b>MsiDatabaseGenerateTransform</b> to test whether two databases are identical without creating a transform. If the databases are identical, the function returns ERROR_NO_DATA. If the databases are different the function returns NOERROR.
 
-
 ### -param iReserved1 [in]
 
 This is a reserved argument and must be set to 0.
-
 
 ### -param iReserved2 [in]
 
 This is a reserved argument and must be set to 0.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiDatabaseGenerateTransform</b> function returns one of the following values:
 
-
-
-
 ## -remarks
-
-
 
 To generate a difference file between two databases, use the 
 <b>MsiDatabaseGenerateTransform</b> function. A transform contains information regarding insertion and deletion of columns and rows. The validation flags are stored in the summary information stream of the transform file.
@@ -127,15 +111,9 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
- 
-
- 
 

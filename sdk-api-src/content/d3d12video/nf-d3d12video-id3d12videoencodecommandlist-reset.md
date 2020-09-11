@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::Reset
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::Reset
  - d3d12video/ID3D12VideoEncodeCommandList::Reset
 dev_langs:
  - c++
@@ -50,7 +51,6 @@ Resets a command list back to its initial state as if a new command list was jus
 Type: <b>ID3D12CommandAllocator*</b>
 
 A pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> object that the device creates command lists from.
-  
 
 ## -returns
 

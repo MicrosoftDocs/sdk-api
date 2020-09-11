@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2cd9610b-aa83-4d0a-a7a9-1d4dab8be331
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code, base.ioctl_storage_get_device_number, winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
-f1_keywords:
-- winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_STORAGE_GET_DEVICE_NUMBER
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_GET_DEVICE_NUMBER
+ - winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_STORAGE_GET_DEVICE_NUMBER
 ---
 
 # IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -93,13 +88,12 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
-
 ## -remarks
 
 The values in the [STORAGE_DEVICE_NUMBER](ns-winioctl-storage_device_number.md) structure are guaranteed to remain unchanged until the device is removed or the system is restarted. It is not guaranteed to be persistent across device restarts or system restarts.
-
 
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [STORAGE_DEVICE_NUMBER](ns-winioctl-storage_device_number.md)
+

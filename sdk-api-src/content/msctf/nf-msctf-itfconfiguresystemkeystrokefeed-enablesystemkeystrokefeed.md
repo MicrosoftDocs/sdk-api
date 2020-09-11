@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 66dc5db3-c4d9-422e-bbc0-300409a9576a
 ms.date: 12/05/2018
 ms.keywords: EnableSystemKeystrokeFeed, EnableSystemKeystrokeFeed method [Text Services Framework], EnableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],EnableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed
-f1_keywords:
-- msctf/ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
+ - msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
 ---
 
 # ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed
@@ -53,14 +54,7 @@ Enables the TSF manager to process keystrokes after being disabled by DisableSys
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -92,22 +86,14 @@ There was no corresponding call to DisableSystemKeystrokeFeed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the TSF manager will process keystrokes and pass them to the text services. An application prevents this by calling <b>DisableSystemKeystrokeFeed</b> .
 
 Calls to <b>DisableSystemKeystrokeFeed</b> are cumulative, so every call to <b>DisableSystemKeystrokeFeed</b> requires a subsequent call to <b>EnableSystemKeystrokeFeed</b>. Calling <b>EnableSystemKeystrokeFeed</b> will not enable keystroke processing if <b>DisableSystemKeystrokeFeed</b> is called more than once.
 
-
-
-
 ## -see-also
 
 [ITfConfigureSystemKeystrokeFeed interface](nn-msctf-itfconfiguresystemkeystrokefeed.md), [ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed](nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed.md)
+

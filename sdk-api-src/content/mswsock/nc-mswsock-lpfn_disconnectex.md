@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 220ba610-1694-470d-8b5e-e6b5fc3b4d0b
 ms.date: 01/30/19
 ms.keywords: LPFN_DISCONNECTEX
-f1_keywords:
-- mswsock/LPFN_DISCONNECTEX
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_DISCONNECTEX
+ - mswsock/LPFN_DISCONNECTEX
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_DISCONNECTEX
+ - LPFN_DISCONNECTEX
 ---
 
 ## -description
@@ -105,3 +106,4 @@ By default, the MSL is defined to be 120 seconds. The TcpTimedWaitDelay registry
 **Windows 8.1** and **Windows Server 2012 R2**: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
 ## -see-also
+

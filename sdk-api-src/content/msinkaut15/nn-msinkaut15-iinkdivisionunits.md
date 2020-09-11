@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC],described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
-f1_keywords:
-- msinkaut15/IInkDivisionUnits
-dev_langs:
-- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inkdiv.dll
-- Inkdiv.dll.dll
-api_name:
-- IInkDivisionUnits
-- IInkDivisionUnits._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDivisionUnits
+ - msinkaut15/IInkDivisionUnits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inkdiv.dll
+ - Inkdiv.dll.dll
+api_name:
+ - IInkDivisionUnits
+ - IInkDivisionUnits._NewEnum
 ---
 
 # IInkDivisionUnits interface
@@ -51,12 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains a collection of <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> objects that are contained in an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object.
-
-
-
 
 ## -inheritance
 
@@ -123,12 +119,9 @@ Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/msink
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionresult-resultbytype">ResultByType</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object returns the requested structural elements of the analysis results in a <b>DivisionUnits</b> collection.
 
@@ -136,20 +129,11 @@ For more information about collections in Automation, see <a href="https://docs.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
- 
-
- 
 

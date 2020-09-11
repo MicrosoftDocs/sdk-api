@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8c80f6b9-f5f7-4fa1-9cb5-db19cdc9ec25
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],WriteCertToUserDS property, ICEnroll2 interface [Security],WriteCertToUserDS property, ICEnroll2.WriteCertToUserDS, ICEnroll2.put_WriteCertToUserDS, ICEnroll2::get_WriteCertToUserDS, ICEnroll2::put_WriteCertToUserDS, ICEnroll3 interface [Security],WriteCertToUserDS property, ICEnroll3.WriteCertToUserDS, ICEnroll3::get_WriteCertToUserDS, ICEnroll3::put_WriteCertToUserDS, ICEnroll4 interface [Security],WriteCertToUserDS property, ICEnroll4.WriteCertToUserDS, ICEnroll4::WriteCertToUserDS, ICEnroll4::get_WriteCertToUserDS, ICEnroll4::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],CEnroll object, WriteCertToUserDS property [Security],ICEnroll2 interface, WriteCertToUserDS property [Security],ICEnroll3 interface, WriteCertToUserDS property [Security],ICEnroll4 interface, put_WriteCertToUserDS, security.icenroll4_writecerttouserds, xenroll/ICEnroll2::WriteCertToUserDS, xenroll/ICEnroll2::get_WriteCertToUserDS, xenroll/ICEnroll2::put_WriteCertToUserDS, xenroll/ICEnroll3::WriteCertToUserDS, xenroll/ICEnroll3::get_WriteCertToUserDS, xenroll/ICEnroll3::put_WriteCertToUserDS, xenroll/ICEnroll4::WriteCertToUserDS, xenroll/ICEnroll4::get_WriteCertToUserDS, xenroll/ICEnroll4::put_WriteCertToUserDS
-f1_keywords:
-- xenroll/ICEnroll4.WriteCertToUserDS
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,35 +25,39 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.WriteCertToUserDS
-- ICEnroll4.get_WriteCertToUserDS
-- ICEnroll4.put_WriteCertToUserDS
-- ICEnroll3.WriteCertToUserDS
-- ICEnroll3.get_WriteCertToUserDS
-- ICEnroll3.put_WriteCertToUserDS
-- ICEnroll2.WriteCertToUserDS
-- ICEnroll2.get_WriteCertToUserDS
-- ICEnroll2.put_WriteCertToUserDS
-- CEnroll.WriteCertToUserDS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll2::put_WriteCertToUserDS
+ - xenroll/ICEnroll2::put_WriteCertToUserDS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.WriteCertToUserDS
+ - ICEnroll4.get_WriteCertToUserDS
+ - ICEnroll4.put_WriteCertToUserDS
+ - ICEnroll3.WriteCertToUserDS
+ - ICEnroll3.get_WriteCertToUserDS
+ - ICEnroll3.put_WriteCertToUserDS
+ - ICEnroll2.WriteCertToUserDS
+ - ICEnroll2.get_WriteCertToUserDS
+ - ICEnroll2.put_WriteCertToUserDS
+ - CEnroll.WriteCertToUserDS
 ---
 
 # ICEnroll2::put_WriteCertToUserDS
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -67,14 +67,9 @@ The <b>WriteCertToUserDS</b> property sets or retrieves a Boolean value that det
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 <b>WriteCertToUserDS</b> affects the behavior of the following methods:
 
@@ -114,7 +109,4 @@ if (FAILED( hr ))
 else
     printf( "WriteCertToUserDS set to TRUE\n" );
 ```
-
-
-
 

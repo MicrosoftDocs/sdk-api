@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorShiftLeft(XMVECTOR,XMVECTOR,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorShiftLeft, XMVectorShiftLeft, XMVectorShiftLeft method [DirectX Math Support APIs], dxmath.xmvectorshiftleft
-f1_keywords:
-- directxmath/XMVectorShiftLeft
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxmathvector.inl
-api_name:
-- XMVectorShiftLeft
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMVectorShiftLeft
+ - directxmath/XMVectorShiftLeft
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVectorShiftLeft
 ---
 
 # XMVectorShiftLeft function
@@ -49,43 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shifts a vector left by a given number of 32-bit elements, filling the vacated elements with elements from a second
   vector.
 
-
 ## -parameters
-
-
-
 
 ### -param V1 [in]
 
 Vector to shift left.
 
-
 ### -param V2 [in]
 
 Vector used to fill in the vacated components of <i>V1</i> after it is shifted left.
-
 
 ### -param Elements [in]
 
 Number of 32-bit elements by which to shift <i>V</i> left. This parameter must be 0, 1, 2, or 3.
 
-
 ## -returns
-
-
 
 Returns the shifted and filled in <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following code demonstrates how this function might be used.
 
@@ -115,13 +101,7 @@ Example: XMVectorShiftLeft<1>( v1, v2 );
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
@@ -136,7 +116,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateright">XMVectorRotateRight</a>
- 
-
- 
 

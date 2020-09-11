@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5380c03b-d2c5-4a0d-96a1-c39305b9c9ac
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_ConnectionInfo, 0 (Zero), CALG_3DES, CALG_AES_128, CALG_AES_256, CALG_DES, CALG_DH_EPHEM, CALG_MD5, CALG_RC2, CALG_RC4, CALG_RSA_KEYX, CALG_SHA, PSecPkgContext_ConnectionInfo, PSecPkgContext_ConnectionInfo structure pointer [Security], SP_PROT_PCT1_CLIENT, SP_PROT_PCT1_SERVER, SP_PROT_SSL2_CLIENT, SP_PROT_SSL2_SERVER, SP_PROT_SSL3_CLIENT, SP_PROT_SSL3_SERVER, SP_PROT_TLS1_1_CLIENT, SP_PROT_TLS1_1_SERVER, SP_PROT_TLS1_2_CLIENT, SP_PROT_TLS1_2_SERVER, SP_PROT_TLS1_CLIENT, SP_PROT_TLS1_SERVER, SecPkgContext_ConnectionInfo, SecPkgContext_ConnectionInfo structure [Security], _ssp_secpkgcontext_connectioninfo, schannel/PSecPkgContext_ConnectionInfo, schannel/SecPkgContext_ConnectionInfo, security.secpkgcontext_connectioninfo'
-f1_keywords:
-- schannel/SecPkgContext_ConnectionInfo
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SecPkgContext_ConnectionInfo
 targetos: Windows
 req.typenames: SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_ConnectionInfo
+ - schannel/_SecPkgContext_ConnectionInfo
+ - PSecPkgContext_ConnectionInfo
+ - schannel/PSecPkgContext_ConnectionInfo
+ - SecPkgContext_ConnectionInfo
+ - schannel/SecPkgContext_ConnectionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SecPkgContext_ConnectionInfo
 ---
 
 # SecPkgContext_ConnectionInfo structure
@@ -49,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgContext_ConnectionInfo</b> structure contains protocol and cipher information. This structure is used by the 
 <a href="https://docs.microsoft.com/en-us/windows/win32/secauthn/initializesecuritycontext--schannel">InitializeSecurityContext (Schannel)</a> function.
 
 This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwProtocol
 
@@ -203,8 +203,6 @@ Secure Sockets Layer 2.0 server-side. Superseded by SP_PROT_TLS1_SERVER.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field aiCipher
 
@@ -286,13 +284,10 @@ No encryption
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCipherStrength
 
 Strength of the bulk encryption cipher, in bits. Can be one of the following values: 0, 40, 56, 128, 168, or 256.
-
 
 ### -field aiHash
 
@@ -324,13 +319,10 @@ SHA hashing algorithm.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwHashStrength
 
 Strength of the hash, in bits: 128 or 160.
-
 
 ### -field aiExch
 
@@ -362,8 +354,6 @@ Diffie-Hellman key exchange.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwExchStrength
 

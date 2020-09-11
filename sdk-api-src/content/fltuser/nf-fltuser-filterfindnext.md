@@ -8,10 +8,6 @@ tech.root: ifsk
 ms.assetid: ce56037b-d303-4efa-956f-6bbe5127efb7
 ms.date: 12/05/2018
 ms.keywords: FilterFindNext, FilterFindNext function [Installable File System Drivers], FltWin32ApiRef_8f2234d4-aef1-47d3-9b9f-a43fbb309bef.xml, fltuser/FilterFindNext, ifsk.filterfindnext
-f1_keywords:
-- fltuser/FilterFindNext
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterFindNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterFindNext
+ - fltuser/FilterFindNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterFindNext
 ---
 
 # FilterFindNext function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FilterFindNext</b> function continues a filter search started by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. 
-
+The <b>FilterFindNext</b> function continues a filter search started by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>.
 
 ## -parameters
-
-
-
 
 ### -param hFilterFind [in]
 
 Filter search handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>.
-
 
 ### -param dwInformationClass [in]
 
@@ -103,27 +98,20 @@ The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned is defined by the <i>dwInformationClass</i> parameter.
 
-
 ### -param dwBufferSize [in]
 
 Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The caller should set this parameter according to the given <i>dwInformationClass</i>.
-
 
 ### -param lpBytesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterFindNext</b> succeeds. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FilterFindNext</b> returns S_OK if successful. Otherwise, it returns an HRESULT error value, such as one of the following:
 
@@ -167,14 +155,8 @@ No more filter drivers were found in the global list of registered filter driver
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After the filter search handle is established by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>, use the <b>FilterFindNext</b> function to search for additional filters in the global list of registered filters. 
 
@@ -185,13 +167,7 @@ Starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a> and <b>FilterFindNext</b> return information about filter drivers in order of decreasing distance from the base file system. Information about the filter farthest from the base file system is returned first.  Information about the second-farthest filter is returned second.  Information about the filter closest to the base file system is returned last.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
@@ -210,7 +186,4 @@ Starting with Microsoft Windows Server 2003 with SP1 and Microsoft Windows XP 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 57218f53-adcd-4a9a-b772-d3dab576b8c1
 ms.date: 12/05/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext
-f1_keywords:
-- txfw32/TxfLogCreateFileReadContext
-dev_langs:
-- c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: TxfW32.lib
 req.dll: TxfW32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- TxfW32.dll
-api_name:
-- TxfLogCreateFileReadContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TxfLogCreateFileReadContext
+ - txfw32/TxfLogCreateFileReadContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - TxfW32.dll
+api_name:
+ - TxfLogCreateFileReadContext
 ---
 
 # TxfLogCreateFileReadContext function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
@@ -58,60 +58,40 @@ ms.custom: 19H1
 
 Creates a context to be used to read replication records.
 
-
 ## -parameters
-
-
-
 
 ### -param LogPath [in]
 
 The path that identifies the Resource Manager's .blf file.
 
-
 ### -param BeginningLsn [in]
 
 The first LSN in the range to be read.
-
 
 ### -param EndingLsn [in]
 
 The last LSN in the range to be read.
 
-
 ### -param TxfFileId [in]
 
 The TxF identifier to search for in the LSN range. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
-
 
 ### -param TxfLogContext [out]
 
 A pointer to the context created.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/nf-txfw32-txflogdestroyreadcontext">TxfLogDestroyReadContext</a>
- 
-
- 
 

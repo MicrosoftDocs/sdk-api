@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: b435b38b-df86-4991-9772-c712c9ea606f
 ms.date: 12/05/2018
 ms.keywords: IcmpCreateFile, IcmpCreateFile function [IP Helper], _iphlp_icmpcreatefile, icmpapi/IcmpCreateFile, iphlp.icmpcreatefile
-f1_keywords:
-- icmpapi/IcmpCreateFile
-dev_langs:
-- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-- Icmp.dll
-api_name:
-- IcmpCreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IcmpCreateFile
+ - icmpapi/IcmpCreateFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+ - Icmp.dll
+api_name:
+ - IcmpCreateFile
 ---
 
 # IcmpCreateFile function
@@ -50,32 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IcmpCreateFile</b> function opens a handle on which IPv4 ICMP echo requests can be issued.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The 
 <b>IcmpCreateFile</b> function returns an open handle on success. On failure, the function returns <b>INVALID_HANDLE_VALUE</b>. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for extended error information.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IcmpCreateFile</b> function is exported from the <i>Icmp.dll</i> on Windows 2000. The <b>IcmpCreateFile</b> function is exported from the <i>Iphlpapi.dll</i> on Windows XP and later. Windows version checking is not recommended to use this function. Applications requiring portability  with this function across Windows 2000, Windows XP, Windows Server 2003 and later Windows versions should not statically link to either the <i>Icmp.lib</i> or the <i>Iphlpapi.lib</i> file. Instead, the application should check for the presence of <b>IcmpCreateFile</b> in the <i>Iphlpapi.dll</i> with calls to <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.  Failing that, the application should check for the presence of <b>IcmpCreateFile</b> in the <i>Icmp.dll</i> with  calls to <b>LoadLibrary</b> and <b>GetProcAddress</b>. 
 
@@ -116,14 +103,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
@@ -158,7 +138,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>
- 
-
- 
 

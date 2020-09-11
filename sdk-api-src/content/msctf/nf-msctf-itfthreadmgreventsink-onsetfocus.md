@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 2c8f2b0a-5b56-4814-bed4-6875a09de176
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnSetFocus method, ITfThreadMgrEventSink.OnSetFocus, ITfThreadMgrEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onsetfocus_ref, msctf/ITfThreadMgrEventSink::OnSetFocus, tsf.itfthreadmgreventsink_onsetfocus
-f1_keywords:
-- msctf/ITfThreadMgrEventSink.OnSetFocus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgrEventSink.OnSetFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgrEventSink::OnSetFocus
+ - msctf/ITfThreadMgrEventSink::OnSetFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgrEventSink.OnSetFocus
 ---
 
 # ITfThreadMgrEventSink::OnSetFocus
@@ -53,32 +54,19 @@ Called when a document view receives or loses the focus
 
 ## -parameters
 
-
-
-
 ### -param pdimFocus [in]
 
 Pointer to the document manager receiving the input focus. If no document is receiving the focus, this will be <b>NULL</b>.
-
 
 ### -param pdimPrevFocus [in]
 
 Pointer to the document manager that previously had the input focus. If no document had the focus, this will be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
       </a>
@@ -86,7 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a>
- 
-
- 
 

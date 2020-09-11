@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],Initialize method, CVssWriter.Initialize, CVssWriter::Initialize, Initialize, Initialize method [VSS], Initialize method [VSS],CVssWriter interface, _win32_cvsswriter_initialize, base.cvsswriter_initialize, vswriter/CVssWriter::Initialize
-f1_keywords:
-- vswriter/CVssWriter.Initialize
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::Initialize
+ - vswriter/CVssWriter::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.Initialize
 ---
 
 # CVssWriter::Initialize
@@ -50,39 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> object and allows a writer application to interact with VSS.
 
 <b>Initialize</b> is a public method implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
-
 ## -parameters
-
-
-
 
 ### -param WriterId [in]
 
 The globally unique identifier (GUID) of the writer class.
 
-
 ### -param wszWriterName [in]
 
 A <b>null</b>-terminated wide character string that contains the name of the writer. This string is not localized.
-
 
 ### -param ut [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a> enumeration value that indicates how the data managed by the writer is used on the host system.
 
-
 ### -param st [in]
 
 A
       <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a> enumeration value that indicates the type of data managed by the writer.
-
 
 ### -param nLevel [in]
 
@@ -94,7 +86,6 @@ A
 
 The default value for this parameter is VSS_APP_FRONT_END.
 
-
 ### -param dwTimeoutFreeze [in]
 
 The maximum permitted time, in milliseconds, between a writer's receipt of a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">Freeze</a> event notification and the receipt of a matching <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-t">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
@@ -105,7 +96,6 @@ The maximum permitted time, in milliseconds, between a writer's receipt of a <a 
 
 The default value for this parameter is 60000.
 
-
 ### -param aws [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_alternate_writer_state">VSS_ALTERNATE_WRITER_STATE</a> enumeration value that indicates whether the writer has an associated alternate writer. 
@@ -115,7 +105,6 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-v
 
 The default value for this parameter is VSS_AWS_NO_ALTERNATE_WRITER. The caller should not override this default value. This parameter is reserved for future use.
 
-
 ### -param bIOThrottlingOnly [in]
 
 Set this parameter to <b>true</b>  if I/O throttling methods are enabled, or <b>false</b> otherwise. 
@@ -124,7 +113,6 @@ Set this parameter to <b>true</b>  if I/O throttling methods are enabled, or <b>
 
 
 The default value for this parameter is <b>false</b>. The caller should not override this default value. This parameter is reserved for future use.
-
 
 ### -param wszWriterInstanceName [in]
 
@@ -137,10 +125,7 @@ The default value for this parameter is <b>NULL</b>. If the writer has multiple 
 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -219,26 +204,14 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 VSS assigns a unique writer instance ID to each instance of a writer application. If more than one instance is present on the system at the same time (for example, if multiple SQL servers are running on a system), each writer is uniquely identified by the combination of its writer class ID and its writer instance ID.
 
 The <i>wszWriterInstanceName</i> parameter allows a multi-instance writer to specify a persistent name for each writer instance as a human-readable string. This name must be unique across all instances of the writer on the system. If a writer has multiple instances and requires restore events, it must specify a non-<b>NULL</b> string for this parameter. VSS uses the instance name to correctly restore multi-instance writers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -265,7 +238,4 @@ The <i>wszWriterInstanceName</i> parameter allows a multi-instance writer to spe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
- 
-
- 
 

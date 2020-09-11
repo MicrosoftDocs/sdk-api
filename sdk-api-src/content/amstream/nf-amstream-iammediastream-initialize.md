@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: b695100b-75a4-4107-828c-e0067290d972
 ms.date: 12/05/2018
 ms.keywords: IAMMediaStream interface [DirectShow],Initialize method, IAMMediaStream.Initialize, IAMMediaStream::Initialize, IAMMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::Initialize, dshow.iammediastream_initialize
-f1_keywords:
-- amstream/IAMMediaStream.Initialize
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaStream.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaStream::Initialize
+ - amstream/IAMMediaStream::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaStream.Initialize
 ---
 
 # IAMMediaStream::Initialize
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>Initialize</code> method creates and initializes a new media stream with the specified stream type and purpose ID.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSourceObject [in]
 
 Pointer to an <b>IUnknown</b> source object.
-
 
 ### -param dwFlags [in]
 
@@ -95,32 +87,20 @@ Value that modifies the media stream's behavior; it is a combination of one or m
 <td>Terminates the stream if no samples were created or if the last sample is deleted.</td>
 </tr>
 </table>
- 
-
 
 ### -param PurposeId [in]
 
 Purpose ID for the new media stream.
 
-
 ### -param StreamType [in]
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type">STREAM_TYPE</a> enumeration value that specifies the new media stream's media type.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful or E_POINTER if one or more of the required parameters are invalid.
 
-
-
-
 ## -remarks
-
-
 
 If <i>dwFlags</i> specifies AMMSF_ADDDEFAULTRENDERER, then the default renderer for the given purpose ID is created, if possible. Currently, the only default renderer supported is for audio using DirectSound. In this case, the <i>pStreamObject</i> parameter must be <b>NULL</b> and any calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getmediastream">IMultiMediaStream::GetMediaStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-enummediastreams">IMultiMediaStream::EnumMediaStreams</a> method will not recognize the stream.
 
@@ -150,18 +130,8 @@ If no flags are set, then <i>pStreamObject</i> can be one of the following.
 <td>This is used to construct default streams. For video streams, this can be an <b>IDirectDraw</b> pointer.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
- 
-
- 
 

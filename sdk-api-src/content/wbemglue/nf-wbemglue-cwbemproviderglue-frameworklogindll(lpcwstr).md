@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: b701c70a-73f6-48b7-ab90-bbde1d29c9a2
 ms.date: 12/05/2018
 ms.keywords: ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLoginDLL method, CWbemProviderGlue.FrameworkLoginDLL, CWbemProviderGlue::FrameworkLoginDLL, FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll
-f1_keywords:
-- wbemglue/CWbemProviderGlue.FrameworkLoginDLL
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue.FrameworkLoginDLL
-- ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z
-- ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue::FrameworkLoginDLL
+ - wbemglue/CWbemProviderGlue::FrameworkLoginDLL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue.FrameworkLoginDLL
+ - ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z
+ - ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z
 ---
 
 # CWbemProviderGlue::FrameworkLoginDLL
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,31 +61,17 @@ ms.custom: 19H1
 
 The <b>FrameworkLoginDLL</b> method is called when the DLL_PROCESS_ATTACH value is sent to DllMain to determine whether the provider server can be loaded.
 
-
 ## -parameters
-
-
-
 
 ### -param name
 
 Name of the server that is loaded.
 
-
 ## -returns
-
-
 
 The method returns <b>TRUE</b> if the server can be loaded and <b>FALSE</b> if the server cannot be loaded.
 
-
-
-
 ## -remarks
 
-
-
 The <b>FrameworkLoginDLL</b> method should be called from DllMain when the <i>fdwReason</i> parameter has the value DLL_PROCESS_ATTACH. If <b>FrameworkLoginDLL</b> returns <b>FALSE</b>, the server should return <b>FALSE</b> from DllMain to fail the load.
-
-
 

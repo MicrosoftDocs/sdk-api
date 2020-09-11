@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 18d0da59-026a-4951-8529-f7dbaab20d08
 ms.date: 12/05/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutine, Msv1_0SubAuthenticationRoutine function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationroutine, security.msv1_0subauthenticationroutine, subauth/Msv1_0SubAuthenticationRoutine
-f1_keywords:
-- subauth/Msv1_0SubAuthenticationRoutine
-dev_langs:
-- c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Subauth.h
-api_name:
-- Msv1_0SubAuthenticationRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Msv1_0SubAuthenticationRoutine
+ - subauth/Msv1_0SubAuthenticationRoutine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Subauth.h
+api_name:
+ - Msv1_0SubAuthenticationRoutine
 ---
 
 # Msv1_0SubAuthenticationRoutine function
 
 
 ## -description
-
 
 The <b>Msv1_0SubAuthenticationRoutine</b> function performs client/server-specific authentication.
 
@@ -62,19 +62,14 @@ The <b>Msv1_0SubAuthenticationRoutine</b> function is called only for a
 
 ## -parameters
 
-
-
-
 ### -param LogonLevel [in]
 
 Specifies the level of information given in the <i>LogonInformation</i> parameter. This parameter is normally set to NetlogonInteractiveInformation.
-
 
 ### -param LogonInformation [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
-
 
 ### -param Flags [in]
 
@@ -106,14 +101,11 @@ This is a retry of the logon using the GUEST user account.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param UserAll [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
-
 
 ### -param WhichFields [out]
 
@@ -137,8 +129,6 @@ If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param UserFlags [out]
 
@@ -181,11 +171,9 @@ The caller did not specify encrypted credentials.
 
 A pointer to a Boolean value that indicates whether the status returned is an authoritative status that should be returned to the original caller. If the returned value is <b>FALSE</b>, the logon request can be tried again on another domain controller. This parameter should return valid information regardless of the return value of the function call.
 
-
 ### -param LogoffTime [out]
 
 A pointer to a value that receives the time at which the user should log off the system. This time is used to control the logon lifetime and is specified as a GMT-relative system time.
-
 
 ### -param KickoffTime [out]
 
@@ -198,11 +186,7 @@ KickoffTime->LowPart = 0xFFFFFFFF;
 
 ```
 
-
-
 ## -returns
-
-
 
 This function must return one of the following values.
 
@@ -333,14 +317,8 @@ The password was not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is called by the MSV1_0 authentication package if part of the <i>AuthenticationInformation</i> parameter indicates that subauthentication is to be done and if a subauthentication DLL that exports the <b>Msv1_0SubAuthenticationRoutine</b> function is correctly registered on the workstation.
 
@@ -349,6 +327,4 @@ The MSV1_0 authentication package does not support subauthentication for interac
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a> structure, can use subauthentication.
 
 The <b>Msv1_0SubAuthenticationRoutine</b> function is called after the correct domain controller has been located and all information about the security principal to be authenticated has been retrieved from the SAM database. When subauthentication is used, authentication is the responsibility of the subauthentication DLL and must be done by the <b>Msv1_0SubAuthenticationRoutine</b> function exported by that DLL.
-
-
 

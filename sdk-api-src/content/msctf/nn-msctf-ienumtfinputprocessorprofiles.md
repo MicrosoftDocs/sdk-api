@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1a6dd7f9-d348-4c86-8d74-544aaa45581d
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], IEnumTfInputProcessorProfiles interface [Text Services Framework],described, _tsf_ienumtfinputprocessorprofiles_ref, msctf/IEnumTfInputProcessorProfiles, tsf.ienumtfinputprocessorprofiles
-f1_keywords:
-- msctf/IEnumTfInputProcessorProfiles
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- IEnumTfInputProcessorProfiles
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfInputProcessorProfiles
+ - msctf/IEnumTfInputProcessorProfiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - IEnumTfInputProcessorProfiles
 ---
 
 # IEnumTfInputProcessorProfiles interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfInputProcessorProfiles</b> interface is implemented by TSF manager and used by applications or textservices. This interface can be retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-enumprofiles">ITfInputProcessorProfileMgr::EnumProfiles</a> and enumerates the registered profiles.
-
 
 ## -inheritance
 
@@ -104,17 +103,10 @@ Moves the current position forward in the enumeration sequence by the specified 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
       </a>
- 
-
- 
 

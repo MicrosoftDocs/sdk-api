@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 39e41b66-44ed-46dc-bfc2-65228b669992
 ms.date: 12/05/2018
 ms.keywords: WSAGetLastError, WSAGetLastError function [Winsock], _win32_wsagetlasterror_2, winsock.wsagetlasterror_2, winsock/WSAGetLastError
-f1_keywords:
-- winsock2/WSAGetLastError
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAGetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAGetLastError
+ - winsock2/WSAGetLastError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAGetLastError
 ---
 
 # WSAGetLastError function
@@ -49,30 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAGetLastError</b> function returns the error status for the last Windows Sockets operation that failed.
 
-
 ## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 The return value indicates the error code for this thread's last Windows Sockets operation that failed.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>WSAGetLastError</b> function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. This extended error code can be different from the error code obtained from 
@@ -102,13 +89,7 @@ For information on how to handle error codes when porting socket applications to
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/error-codes-errno-h-errno-and-wsagetlasterror-2">Error Codes - errno, h_errno and WSAGetLastError</a>
 
@@ -139,7 +120,4 @@ For information on how to handle error codes when porting socket applications to
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
- 
-
- 
 

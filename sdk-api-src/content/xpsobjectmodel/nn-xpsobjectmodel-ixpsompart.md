@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 71cd0155-6c95-42ca-bfc3-dffd43d95dc9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], IXpsOMPart interface [XPS Documents and Packaging],described, xps.ixpsompart, xpsobjectmodel/IXpsOMPart
-f1_keywords:
-- xpsobjectmodel/IXpsOMPart
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPart
+ - xpsobjectmodel/IXpsOMPart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPart
 ---
 
 # IXpsOMPart interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The base interface for all XPS document part interfaces.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Sets the name that will be used when the part is serialized.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
@@ -119,7 +114,4 @@ Sets the name that will be used when the part is serialized.
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

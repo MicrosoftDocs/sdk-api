@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 719c4ac5-8d67-4026-9eb6-9682942ad367
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeExtensions interface [Security],X509Extensions property, IX509AttributeExtensions.X509Extensions, IX509AttributeExtensions.get_X509Extensions, IX509AttributeExtensions::X509Extensions, IX509AttributeExtensions::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::X509Extensions, certenroll/IX509AttributeExtensions::get_X509Extensions, get_X509Extensions, security.ix509attributeextensions_x509extensions_property
-f1_keywords:
-- certenroll/IX509AttributeExtensions.X509Extensions
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509AttributeExtensions.X509Extensions
-- IX509AttributeExtensions.get_X509Extensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509AttributeExtensions::get_X509Extensions
+ - certenroll/IX509AttributeExtensions::get_X509Extensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509AttributeExtensions.X509Extensions
+ - IX509AttributeExtensions.get_X509Extensions
 ---
 
 # IX509AttributeExtensions::get_X509Extensions
@@ -50,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>X509Extensions</b> property retrieves the certificate extensions.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attributeextensions-initializeencode">InitializeEncode</a> method or the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attributeextensions-initializedecode">InitializeDecode</a> method to initialize the <b>X509Extensions</b> property.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
@@ -82,7 +72,4 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
 

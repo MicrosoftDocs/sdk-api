@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
 ms.date: 12/05/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname
-f1_keywords:
-- ntsecapi/LsaSetTrustedDomainInfoByName
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LsaSetTrustedDomainInfoByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaSetTrustedDomainInfoByName
+ - ntsecapi/LsaSetTrustedDomainInfoByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LsaSetTrustedDomainInfoByName
 ---
 
 # LsaSetTrustedDomainInfoByName function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaSetTrustedDomainInfoByName</b> function sets values for a 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param PolicyHandle [in]
 
 A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the trusted domain object determines whether the caller's changes are accepted. For information about policy object handles, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
-
 ### -param TrustedDomainName [in]
 
 Name of the trusted domain to set values for. This can either be the domain name or the flat name.
-
 
 ### -param InformationClass [in]
 
@@ -120,18 +114,12 @@ Full information, including the Posix offset and the authentication information.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [in]
 
 Pointer to a structure that contains the information to set. The type of structure depends on the value of the <i>InformationClass</i> parameter.
-					
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -141,13 +129,7 @@ the "LSA Policy Function Return Values" section of <a href="https://docs.microso
 You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
 
@@ -158,7 +140,4 @@ You can use the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
- 
-
- 
 

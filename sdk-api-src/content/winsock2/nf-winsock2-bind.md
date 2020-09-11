@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.date: 12/05/2018
 ms.keywords: _win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind
-f1_keywords:
-- winsock2/bind
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- bind
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - bind
+ - winsock2/bind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - bind
 ---
 
 # bind function
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>bind</b> function associates a local address with a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying an unbound socket.
 
-
 ### -param name [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure of the local address to assign to the bound socket .
-
 
 ### -param namelen [in]
 
 The length, in bytes, of the value pointed to by the <i>name</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>bind</b> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code can be retrieved by calling 
@@ -214,14 +205,8 @@ This error is returned if the descriptor in the <i>s</i> parameter is not a sock
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>bind</b> function is required on an unconnected socket before subsequent calls to the 
@@ -363,14 +348,7 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/multicast-programming">Multicast Programming</a>
 
@@ -425,7 +403,4 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 107a2ce8-2914-423a-bda7-4aeb112965bc
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnSetFocus method, IBrowserService2.OnSetFocus, IBrowserService2::OnSetFocus, OnSetFocus, OnSetFocus method [Windows Shell], OnSetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnSetFocus, shell.IBrowserService2_OnSetFocus, zone_IBrowserService2_OnSetFocus
-f1_keywords:
-- shdeprecated/IBrowserService2.OnSetFocus
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2.OnSetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::OnSetFocus
+ - shdeprecated/IBrowserService2::OnSetFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2.OnSetFocus
 ---
 
 # IBrowserService2::OnSetFocus
@@ -50,24 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a> message. The derived class handles the message.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

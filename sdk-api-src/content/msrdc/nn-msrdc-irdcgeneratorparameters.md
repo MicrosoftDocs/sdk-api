@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: 1b2db5c5-79eb-490a-ae03-36b0e926725d
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorParameters, IRdcGeneratorParameters interface [Remote Differential Compression], IRdcGeneratorParameters interface [Remote Differential Compression],described, fs.irdcgeneratorparameters, msrdc/IRdcGeneratorParameters, rdc.irdcgeneratorparameters
-f1_keywords:
-- msrdc/IRdcGeneratorParameters
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcGeneratorParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcGeneratorParameters
+ - msrdc/IRdcGeneratorParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcGeneratorParameters
 ---
 
 # IRdcGeneratorParameters interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IRdcGeneratorParameters</b> interface 
     is the generic interface for all types of generator parameters. All generator parameter objects must 
     support this interface.
-
 
 ## -inheritance
 
@@ -98,20 +97,13 @@ Returns the size, in bytes, of the serialized parameter data.</p> (Inherited fro
 <td align="left" width="63%">
 Serializes the parameter data into a block of memory.</p> (Inherited from <b>IRdcGeneratorParameters</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
- 
-
- 
 

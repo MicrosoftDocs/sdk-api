@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: c7f45f44-25e9-4124-a0a2-eb9969f0eb99
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING, wsw.ws_security_context_message_security_binding
-f1_keywords:
-- webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
+ - webservices/_WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
+ - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
+ - webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING
 ---
 
 # WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING structure
 
 
 ## -description
-
 
 The security binding subtype for specifying the use of a security context
 token negotiated between the client and server using
@@ -91,18 +93,11 @@ With this security binding, the following security binding properties may be spe
 </li>
 </ul>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field binding
 
 The base type from which this security binding subtype and all other security binding subtypes derive.
-                
-
 
 ### -field bindingUsage
 
@@ -120,9 +115,7 @@ Currently, only <a href="https://docs.microsoft.com/windows/desktop/api/webservi
 
 To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
 
-
 ### -field bootstrapSecurityDescription
 
 The security description for used to obtain the security context token.
-                
 

@@ -8,10 +8,6 @@ tech.root: audio
 ms.assetid: 63afd5b1-87cc-4e0a-8964-2138c5fbff46
 ms.date: 12/05/2018
 ms.keywords: IPropertyStore, IPropertyStore interface [Audio Devices], IPropertyStore interface [Audio Devices],described, audio.ipropertystore, audio_syseffects_r_1efc1bca-70e7-4db2-aea3-4c1d4aa1a39a.xml, propsys/IPropertyStore
-f1_keywords:
-- propsys/IPropertyStore
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyStore
+ - propsys/IPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyStore
 ---
 
 # IPropertyStore interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-This interface exposes methods used to enumerate and manipulate property values. 
-
+This interface exposes methods used to enumerate and manipulate property values.
 
 ## -inheritance
 
@@ -113,20 +112,13 @@ This method sets a property value or replaces or removes an existing value.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>
 
 
 
 <a href="/windows/win32/api/audioenginebaseapo/ns-audioenginebaseapo-audiofxextensionparams">AudioFXExtensionParams</a>
- 
-
- 
 

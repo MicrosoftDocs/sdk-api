@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: c3c68b46-adca-4f8d-86c2-075b72f7c656
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceDeactivateEx method, IOleInPlaceSiteEx.OnInPlaceDeactivateEx, IOleInPlaceSiteEx::OnInPlaceDeactivateEx, IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx, OnInPlaceDeactivateEx, OnInPlaceDeactivateEx method [COM], OnInPlaceDeactivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplacedeactivateex, com.ioleinplacesiteex_oninplacedeactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
-f1_keywords:
-- ocidl/IOleInPlaceSiteEx.OnInPlaceDeactivateEx
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-- wmp.dll
-api_name:
-- IOleInPlaceSiteEx.OnInPlaceDeactivateEx
-- IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteEx::OnInPlaceDeactivateEx
+ - ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+ - wmp.dll
+api_name:
+ - IOleInPlaceSiteEx.OnInPlaceDeactivateEx
+ - IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx
 ---
 
 # IOleInPlaceSiteEx::OnInPlaceDeactivateEx
@@ -51,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the container if the object needs to be redrawn upon deactivation.
 
-
 ## -parameters
-
-
-
 
 ### -param fNoRedraw [in]
 
 If <b>TRUE</b>, the container need not redraw the object after completing the deactivation; if <b>FALSE</b> the object must be redrawn after deactivation.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -88,31 +81,16 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method replaces <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplacedeactivate">IOleInPlaceSite::OnInPlaceDeactivate</a>. If the older method is used, the object must always be redrawn on deactivation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplacedeactivate">IOleInPlaceSite::OnInPlaceDeactivate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a>
- 
-
- 
 

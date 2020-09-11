@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 196abe2a-d88d-4b2d-8867-4e6cc15dee33
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Direction method, ITStream.get_Direction, ITStream::get_Direction, _tapi3_itstream_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITStream interface, tapi3.itstream_get_direction, tapi3if/ITStream::get_Direction
-f1_keywords:
-- tapi3if/ITStream.get_Direction
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITStream.get_Direction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITStream::get_Direction
+ - tapi3if/ITStream::get_Direction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITStream.get_Direction
 ---
 
 # ITStream::get_Direction
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Direction</b> method gets the stream's 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pTD [out]
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,24 +104,12 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Terminals of either direction can, in general, be selected on any stream whose media type matches the terminal's media type. However, some MSPs allow only terminals whose terminal direction matches the stream's terminal direction to be selected on a stream.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
@@ -139,7 +120,4 @@ Terminals of either direction can, in general, be selected on any stream whose m
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>
- 
-
- 
 

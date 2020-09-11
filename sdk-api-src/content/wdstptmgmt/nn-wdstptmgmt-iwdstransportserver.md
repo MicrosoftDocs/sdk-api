@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 0129658d-8725-4020-ae9c-9d0a44075561
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer, IWdsTransportServer interface [Windows Deployment Services], IWdsTransportServer interface [Windows Deployment Services],described, wds.iwdstransportserver, wdstptmgmt/IWdsTransportServer
-f1_keywords:
-- wdstptmgmt/IWdsTransportServer
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportServer
+ - wdstptmgmt/IWdsTransportServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportServer
 ---
 
 # IWdsTransportServer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a  WDS transport server.  A WDS client can use an object of this interface to manage setup, configuration, and namespace tasks on the server.
-
 
 ## -inheritance
 
@@ -150,5 +149,5 @@ Receives a pointer to the object of an  <a href="https://docs.microsoft.com/wind
 
 </td>
 </tr>
-</table> 
+</table>
 

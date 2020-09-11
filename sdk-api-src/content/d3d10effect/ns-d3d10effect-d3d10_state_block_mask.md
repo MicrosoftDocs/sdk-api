@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_state_block_mask.htm
 ms.date: 12/05/2018
 ms.keywords: D3D10_STATE_BLOCK_MASK, D3D10_STATE_BLOCK_MASK structure [Direct3D 10], bf81f800-b1fd-0774-8da5-ae9bd9fc43d4, d3d10effect/D3D10_STATE_BLOCK_MASK, direct3d10.d3d10_state_block_mask
-f1_keywords:
-- d3d10effect/D3D10_STATE_BLOCK_MASK
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10effect.h
-api_name:
-- D3D10_STATE_BLOCK_MASK
 targetos: Windows
 req.typenames: D3D10_STATE_BLOCK_MASK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3D10_STATE_BLOCK_MASK
+ - d3d10effect/_D3D10_STATE_BLOCK_MASK
+ - D3D10_STATE_BLOCK_MASK
+ - d3d10effect/D3D10_STATE_BLOCK_MASK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10effect.h
+api_name:
+ - D3D10_STATE_BLOCK_MASK
 ---
 
 ## -description
@@ -201,3 +204,4 @@ A state-block mask indicates the device states that a pass or a technique change
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
+

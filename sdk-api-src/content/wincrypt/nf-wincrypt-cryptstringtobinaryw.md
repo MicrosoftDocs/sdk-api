@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 13b6f5ef-174a-4254-8492-6e7dcc58945f
 ms.date: 12/05/2018
 ms.keywords: CRYPT_STRING_ANY, CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, CRYPT_STRING_BASE64REQUESTHEADER, CRYPT_STRING_BASE64X509CRLHEADER, CRYPT_STRING_BASE64_ANY, CRYPT_STRING_BINARY, CRYPT_STRING_HEX, CRYPT_STRING_HEXADDR, CRYPT_STRING_HEXASCII, CRYPT_STRING_HEXASCIIADDR, CRYPT_STRING_HEXRAW, CRYPT_STRING_HEX_ANY, CRYPT_STRING_STRICT, CryptStringToBinary, CryptStringToBinary function [Security], CryptStringToBinaryA, CryptStringToBinaryW, _crypto2_cryptstringtobinary, security.cryptstringtobinary, wincrypt/CryptStringToBinary, wincrypt/CryptStringToBinaryA, wincrypt/CryptStringToBinaryW
-f1_keywords:
-- wincrypt/CryptStringToBinary
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptStringToBinary
-- CryptStringToBinaryA
-- CryptStringToBinaryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptStringToBinaryW
+ - wincrypt/CryptStringToBinaryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptStringToBinary
+ - CryptStringToBinaryA
+ - CryptStringToBinaryW
 ---
 
 # CryptStringToBinaryW function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptStringToBinary</b> function converts a formatted string into an array of bytes.
 
-
 ## -parameters
-
-
-
 
 ### -param pszString [in]
 
 A pointer to a string that contains the formatted string to be converted.
 
-
 ### -param cchString [in]
 
 The number of characters of the formatted string to be converted, not including the terminating <b>NULL</b> character. If this parameter is zero,  <i>pszString</i> is considered to be a null-terminated string.
-
 
 ### -param dwFlags [in]
 
@@ -263,13 +257,10 @@ Set this flag for Base64 data to specify that the end of the binary data contain
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbBinary [in]
 
 A pointer to a buffer that receives the returned sequence of bytes. If this parameter is <b>NULL</b>, the function calculates the length of the buffer needed and returns the size, in bytes, of required memory in the <b>DWORD</b> pointed to by <i>pcbBinary</i>.
-
 
 ### -param pcbBinary [in, out]
 
@@ -277,11 +268,9 @@ A pointer to a <b>DWORD</b> variable that, on entry, contains the size, in bytes
 
 If <i>pbBinary</i> is <b>NULL</b>, the <b>DWORD</b> pointed to by <i>pcbBinary</i> is ignored.
 
-
 ### -param pdwSkip [out]
 
 A pointer to a <b>DWORD</b> value that receives the number of characters skipped to reach the beginning of the actual base64 or hexadecimal strings. This parameter is optional and can be <b>NULL</b> if it is not needed.
-
 
 ### -param pdwFlags [out]
 
@@ -339,29 +328,16 @@ This variable will receive one of the following values. Each value indicates the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Runtime], GetBuffer method [Windows Runtime],IMemoryBufferByteAccess interface, IMemoryBufferByteAccess interface [Windows Runtime],GetBuffer method, IMemoryBufferByteAccess.GetBuffer, IMemoryBufferByteAccess::GetBuffer, memorybuffer/IMemoryBufferByteAccess::GetBuffer, winrt.imemorybufferbyteaccess_getbuffer
-f1_keywords:
-- memorybuffer/IMemoryBufferByteAccess.GetBuffer
-dev_langs:
-- c++
 req.header: memorybuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- memorybuffer.h
-api_name:
-- IMemoryBufferByteAccess.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMemoryBufferByteAccess::GetBuffer
+ - memorybuffer/IMemoryBufferByteAccess::GetBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - memorybuffer.h
+api_name:
+ - IMemoryBufferByteAccess.GetBuffer
 ---
 
 # IMemoryBufferByteAccess::GetBuffer
@@ -49,50 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an <a href="https://docs.microsoft.com/uwp/api/windows.foundation.imemorybuffer">IMemoryBuffer</a> as an array of bytes. 
-
+Gets an <a href="https://docs.microsoft.com/uwp/api/windows.foundation.imemorybuffer">IMemoryBuffer</a> as an array of bytes.
 
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 A pointer to a byte array containing the buffer data.
 
-
 ### -param capacity [out]
 
 The number of bytes in the returned array
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 When <a href="https://docs.microsoft.com/uwp/api/windows.foundation.memorybuffer.close">MemoryBuffer::Close</a> is called, the code using this buffer should set the <i>value</i> pointer to null.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/mt297505(v=vs.85)">IMemoryBufferByteAccess</a>
- 
-
- 
 

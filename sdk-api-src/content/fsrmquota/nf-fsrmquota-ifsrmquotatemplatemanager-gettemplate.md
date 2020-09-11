@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 2877c453-aad7-42ea-a66d-b49ab1f8f854
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager],GetTemplate method, GetTemplate, GetTemplate method [File Server Resource Manager], GetTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, GetTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, IFsrmQuotaTemplateManager interface [File Server Resource Manager],GetTemplate method, IFsrmQuotaTemplateManager.GetTemplate, IFsrmQuotaTemplateManager::GetTemplate, fs.ifsrmquotatemplatemanager_gettemplate, fsrm.ifsrmquotatemplatemanager_gettemplate, fsrmquota/IFsrmQuotaTemplateManager::GetTemplate
-f1_keywords:
-- fsrmquota/IFsrmQuotaTemplateManager.GetTemplate
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaTemplateManager.GetTemplate
-- FsrmQuotaTemplateManager.GetTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaTemplateManager::GetTemplate
+ - fsrmquota/IFsrmQuotaTemplateManager::GetTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaTemplateManager.GetTemplate
+ - FsrmQuotaTemplateManager.GetTemplate
 ---
 
 # IFsrmQuotaTemplateManager::GetTemplate
@@ -50,43 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Retrieves the specified quota template.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 The name of the quota template to retrieve. The string is limited to 4,000 characters.
-
 
 ### -param quotaTemplate [out]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotatemplate">IFsrmQuotaTemplate</a> interface to the retrieved 
       template object.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmquotatemplatemanager">FsrmQuotaTemplateManager</a>
 
@@ -97,7 +83,4 @@ The method returns the following return values.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: a48644a4-43e2-4c52-84be-0cb5c49e6436
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject, ITDirectoryObject interface [TAPI 2.2], ITDirectoryObject interface [TAPI 2.2],described, _tapi3_itdirectoryobject, rend/ITDirectoryObject, tapi3.itdirectoryobject
-f1_keywords:
-- rend/ITDirectoryObject
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectoryObject
+ - rend/ITDirectoryObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectoryObject
 ---
 
 # ITDirectoryObject interface
 
 
 ## -description
-
 
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
@@ -69,8 +69,6 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-createdirectoryobject">ITRendezvous::CreateDirectoryObject</a>
-
-
 
 ## -inheritance
 
@@ -150,5 +148,5 @@ Sets the security descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

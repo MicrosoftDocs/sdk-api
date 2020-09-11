@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 98052ECB-9385-45C9-A03C-3F312ADD9872
 ms.date: 12/05/2018
 ms.keywords: IInkTablets, IInkTablets interface [Tablet PC], IInkTablets interface [Tablet PC],described, msinkaut/IInkTablets, tablet.iinktablets
-f1_keywords:
-- msinkaut/IInkTablets
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkTablets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTablets
+ - msinkaut/IInkTablets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkTablets
 ---
 
 # IInkTablets interface
+
 
 ## -description
 
@@ -124,7 +126,7 @@ Gets the default tablet within the set of available tablets.
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -remarks
 
@@ -133,3 +135,4 @@ Creating the InkCollector control behind a transparent control (such as a GroupB
 ## -see-also
 
 [InkCollector class](/windows/win32/tablet/inkcollector-class)
+

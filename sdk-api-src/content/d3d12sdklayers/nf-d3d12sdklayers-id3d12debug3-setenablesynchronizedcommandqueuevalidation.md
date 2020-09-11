@@ -5,10 +5,6 @@ description: Enables or disables dependent command queue synchronization when us
 helpviewer_keywords: ["- ID3D12Debug3.SetEnableSynchronizedCommandQueueValidation"]
 tech.root: direct3d12
 ms.date: 03/02/2020
-f1_keywords:
-- d3d12sdklayers/ID3D12Debug3.SetEnableSynchronizedCommandQueueValidation
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -26,18 +22,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12Debug3.SetEnableSynchronizedCommandQueueValidation
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Debug3::SetEnableSynchronizedCommandQueueValidation
+ - d3d12sdklayers/ID3D12Debug3::SetEnableSynchronizedCommandQueueValidation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12Debug3.SetEnableSynchronizedCommandQueueValidation
 ---
 
 ## -description
@@ -65,3 +66,4 @@ Disabling Dependent Command Queue Synchronization may reduce some debug layer pe
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug3</a>
+

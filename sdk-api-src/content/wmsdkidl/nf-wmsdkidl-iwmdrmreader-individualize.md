@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],Individualize method, IWMDRMReader.Individualize, IWMDRMReader::Individualize, IWMDRMReaderIndividualize, Individualize, Individualize method [windows Media Format], Individualize method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_individualize, wmsdkidl/IWMDRMReader::Individualize
-f1_keywords:
-- wmsdkidl/IWMDRMReader.Individualize
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMReader.Individualize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMReader::Individualize
+ - wmsdkidl/IWMDRMReader::Individualize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMReader.Individualize
 ---
 
 # IWMDRMReader::Individualize
@@ -50,20 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Individualize</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>Individualize</b> method individualizes the client by updating their DRM system components.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -85,12 +79,8 @@ The <b>Individualize</b> method individualizes the client by updating their DRM 
 <td>Indicates that the client will not be individualized again.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -122,14 +112,8 @@ A null or invalid argument has been passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This is an asynchronous call that returns immediately. To abandon the attempt, call <b>CancelIndividualization</b>.
 
@@ -139,13 +123,7 @@ Individualization is the process of making the DRM client unique by downloading 
 
 There are two times to initiate the individualization process: the first is when a piece of content requires it, and the second is when a player individualizes the client as part of the setup. In the latter case, there is no reason to individualize the client again.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-individualization">DRM Individualization</a>
 
@@ -164,7 +142,4 @@ There are two times to initiate the individualization process: the first is when
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a>
- 
-
- 
 

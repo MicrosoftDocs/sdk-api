@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 6C564C67-9166-4F65-B099-3DDDECCEDC40
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device4 interface [Direct3D 11],RegisterDeviceRemovedEvent method, ID3D11Device4.RegisterDeviceRemovedEvent, ID3D11Device4::RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent, RegisterDeviceRemovedEvent method [Direct3D 11], RegisterDeviceRemovedEvent method [Direct3D 11],ID3D11Device4 interface, d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent, direct3d11.id3d11device4_registerdeviceremovedevent
-f1_keywords:
-- d3d11_4/ID3D11Device4.RegisterDeviceRemovedEvent
-dev_langs:
-- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3d11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.lib
-- d3d11.dll
-api_name:
-- ID3D11Device4.RegisterDeviceRemovedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11Device4::RegisterDeviceRemovedEvent
+ - d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.lib
+ - d3d11.dll
+api_name:
+ - ID3D11Device4.RegisterDeviceRemovedEvent
 ---
 
 # ID3D11Device4::RegisterDeviceRemovedEvent
@@ -50,46 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the "device removed" event and indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
 Type: <b>HANDLE</b>
 
 The handle to the "device removed" event.
-          
-
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-A pointer to information about the "device removed" event, which can be used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a> to unregister the event. 
-
+A pointer to information about the "device removed" event, which can be used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a> to unregister the event.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
-          
-
-
-
 
 ## -remarks
-
-
 
 Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>. The reason for device removal can be retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getdeviceremovedreason">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
 
@@ -133,22 +117,12 @@ Each "device removed" event is never signaled, or is signaled only once.
 
 The semantics of <b>RegisterDeviceRemovedEvent</b> are similar to
           <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatusevent">IDXGIFactory2::RegisterOcclusionStatusEvent</a>.
-        
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a>
- 
-
- 
 

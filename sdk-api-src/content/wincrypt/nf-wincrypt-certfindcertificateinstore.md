@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
 ms.date: 12/05/2018
 ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
-f1_keywords:
-- wincrypt/CertFindCertificateInStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertFindCertificateInStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertFindCertificateInStore
+ - wincrypt/CertFindCertificateInStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertFindCertificateInStore
 ---
 
 # CertFindCertificateInStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertFindCertificateInStore</b> function finds the first or next certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that matches a search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that match the specified find criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to be searched.
-
 
 ### -param dwCertEncodingType [in]
 
@@ -74,12 +69,9 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param dwFindFlags [in]
 
 Used with some <i>dwFindType</i> values to modify the search criteria. For most <i>dwFindType</i> values, <i>dwFindFlags</i> is not used and should be set to zero. For detailed information, see  Remarks.
-
 
 ### -param dwFindType [in]
 
@@ -450,16 +442,12 @@ Find a certificate whose MD5-hashed public key matches the specified hash.
 
 Points to a data item or structure used with <i>dwFindType</i>.
 
-
 ### -param pPrevCertContext [in]
 
 A pointer to the last 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure returned by this function. This parameter must be <b>NULL</b> on the first call of the function. To find successive certificates meeting the search criteria,  set <i>pPrevCertContext</i> to the pointer returned by the previous call to the function. This function frees the <b>CERT_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
@@ -499,14 +487,8 @@ The handle in the <i>hCertStore</i> parameter is not the same as that in the cer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>dwFindFlags</i> parameter is used to modify the criteria of some search types.
 
@@ -610,14 +592,7 @@ if(hSystemStore)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
@@ -652,7 +627,4 @@ if(hSystemStore)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
 

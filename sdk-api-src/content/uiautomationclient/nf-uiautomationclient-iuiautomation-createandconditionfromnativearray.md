@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 2f47dfa7-1558-4984-8400-cac549543819
 ms.date: 12/05/2018
 ms.keywords: CreateAndConditionFromNativeArray, CreateAndConditionFromNativeArray method [Windows Accessibility], CreateAndConditionFromNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndConditionFromNativeArray method, IUIAutomation.CreateAndConditionFromNativeArray, IUIAutomation::CreateAndConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray, uiauto_IUIAutomation_CreateAndConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateAndConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray
-f1_keywords:
-- uiautomationclient/IUIAutomation.CreateAndConditionFromNativeArray
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.CreateAndConditionFromNativeArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::CreateAndConditionFromNativeArray
+ - uiautomationclient/IUIAutomation::CreateAndConditionFromNativeArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.CreateAndConditionFromNativeArray
 ---
 
 # IUIAutomation::CreateAndConditionFromNativeArray
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a condition that selects elements from a native array, based on multiple conditions that  must all be true.
 
-
 ## -parameters
-
-
-
 
 ### -param conditions [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 A pointer to an array of conditions to be combined.
 
-
 ### -param conditionCount [in]
 
 Type: <b>int</b>
 
 The number of elements in the <i>conditions</i> array.
-
 
 ### -param newCondition [out, retval]
 
@@ -78,31 +72,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcli
 
 Receives a pointer to the combined condition.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on each pointer in the <i>conditions</i> array. This means you can call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on those pointers after the call to <b>CreateAndConditionFromNativeArray</b> returns  without invalidating the pointer returned from <b>CreateAndConditionFromNativeArray</b>. When you call <b>Release</b> on the pointer returned from  <b>CreateAndConditionFromNativeArray</b>, UI Automation calls <b>Release</b> on each pointer in the <i>conditions</i> array.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createandcondition">CreateAndCondition</a>
 
@@ -137,7 +117,4 @@ This method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn
 
 
 <b>Reference</b>
- 
-
- 
 

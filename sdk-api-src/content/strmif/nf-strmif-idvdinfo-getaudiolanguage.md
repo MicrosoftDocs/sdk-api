@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7bb75657-d22e-47db-9389-99b51b16ca80
 ms.date: 12/05/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAudioLanguage method, IDvdInfo.GetAudioLanguage, IDvdInfo::GetAudioLanguage, IDvdInfoGetAudioLanguage, dshow.idvdinfo_getaudiolanguage, strmif/IDvdInfo::GetAudioLanguage
-f1_keywords:
-- strmif/IDvdInfo.GetAudioLanguage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDvdInfo.GetAudioLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo::GetAudioLanguage
+ - strmif/IDvdInfo::GetAudioLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDvdInfo.GetAudioLanguage
 ---
 
 # IDvdInfo::GetAudioLanguage
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves the language of the specified audio stream within the current title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulStream [in]
 
 Stream number.
 
-
 ### -param pLanguage [out]
 
 Pointer to the retrieved language.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
@@ -129,14 +118,8 @@ Requested action cannot occur at this point in the movie due to the authoring of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns an error unless the domain is DVD_DOMAIN_Title. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
@@ -155,19 +138,11 @@ GetLocaleInfo(*pLanguage, LOCALE_SENGLANGUAGE, pszString, cbSize);
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
- 
-
- 
 

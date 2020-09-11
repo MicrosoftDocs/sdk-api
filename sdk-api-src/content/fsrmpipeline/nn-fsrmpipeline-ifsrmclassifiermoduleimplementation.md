@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: f238c446-b268-4600-b6e3-ec772a5f7575
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], IFsrmClassifierModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduleimplementation, fsrm.ifsrmclassifiermoduleimplementation, fsrm/IFsrmClassifierModuleImplementation
-f1_keywords:
-- fsrmpipeline/IFsrmClassifierModuleImplementation
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassifierModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassifierModuleImplementation
+ - fsrmpipeline/IFsrmClassifierModuleImplementation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassifierModuleImplementation
 ---
 
 # IFsrmClassifierModuleImplementation interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Classifier modules implement this interface. FSRM calls the module's implementation when it runs 
     classification.
-
 
 ## -inheritance
 
@@ -163,20 +162,13 @@ The last time the classifier's internal rules were modified as a 64-bit
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
- 
-
- 
 

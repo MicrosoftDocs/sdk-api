@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 46f1d509-942f-4931-81ec-c01bac38c00b
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgress interface [Windows Update Agent],PercentComplete property, IInstallationProgress.PercentComplete, IInstallationProgress.get_PercentComplete, IInstallationProgress::PercentComplete, IInstallationProgress::get_PercentComplete, PercentComplete property [Windows Update Agent], PercentComplete property [Windows Update Agent],IInstallationProgress interface, get_PercentComplete, wua.iinstallationprogress_percentcomplete, wuapi/IInstallationProgress::PercentComplete, wuapi/IInstallationProgress::get_PercentComplete
-f1_keywords:
-- wuapi/IInstallationProgress.PercentComplete
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationProgress.PercentComplete
-- IInstallationProgress.get_PercentComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationProgress::get_PercentComplete
+ - wuapi/IInstallationProgress::get_PercentComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationProgress.PercentComplete
+ - IInstallationProgress.get_PercentComplete
 ---
 
 # IInstallationProgress::get_PercentComplete
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets how far the overall installation or uninstallation process has progressed, as a percentage.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a>
- 
-
- 
 

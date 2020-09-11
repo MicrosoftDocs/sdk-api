@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 609a20a7-e1a3-4889-abf3-4a6defc7739a
 ms.date: 12/05/2018
 ms.keywords: IWMAddressAccess2, IWMAddressAccess2 interface [windows Media Format], IWMAddressAccess2 interface [windows Media Format],described, IWMAddressAccess2Interface, wmformat.iwmaddressaccess2, wmsdkidl/IWMAddressAccess2
-f1_keywords:
-- wmsdkidl/IWMAddressAccess2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMAddressAccess2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMAddressAccess2
+ - wmsdkidl/IWMAddressAccess2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMAddressAccess2
 ---
 
 # IWMAddressAccess2 interface
 
 
 ## -description
-
-
 
 The <b>IWMAddressAccess2</b> interface controls IP access lists on the writer network sink object. Applications can use this interface to exclude specific IP addresses, or ranges of IP addresses, from connecting to the network sink. To obtain this interface, call <b>QueryInterface</b> on another interface of the writer network sink object.
 
@@ -94,10 +93,6 @@ The following interfaces can be obtained by using the QueryInterface method of t
 <td>IID_IWMWriterSink</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -inheritance
 
@@ -132,13 +127,9 @@ Retrieves an entry from the access list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess</a>
 
@@ -149,7 +140,4 @@ Retrieves an entry from the access list.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-network-sink-object">Writer Network Sink Object</a>
- 
-
- 
 

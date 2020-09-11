@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 5C004E4F-12C6-4C2E-AE9A-D841411FF689
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],described, windows/ISurfaceImageSourceNativeWithD2D, winrt.isurfaceimagesourcenativewithd2d
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- ISurfaceImageSourceNativeWithD2D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurfaceImageSourceNativeWithD2D
+ - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - ISurfaceImageSourceNativeWithD2D
 ---
 
 # ISurfaceImageSourceNativeWithD2D interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the implementation of a shared Microsoft DirectX surface which is displayed in a <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
-
 
 ## -inheritance
 
@@ -113,12 +112,9 @@ Suspends the drawing operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
 
@@ -159,13 +155,7 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.medi
 
 Handle the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.compositiontarget.surfacecontentslost">SurfaceContentsLost</a> event to determine when you need to recreate content which may be lost if the system resets the GPU.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
@@ -184,7 +174,4 @@ Handle the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.com
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
- 
-
- 
 

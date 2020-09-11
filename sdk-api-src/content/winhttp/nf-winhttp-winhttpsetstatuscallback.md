@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: b093daf0-7abe-49cb-8c09-9519e3c130b6
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CALLBACK_FLAG_ALL_COMPLETIONS, WINHTTP_CALLBACK_FLAG_ALL_NOTIFICATIONS, WINHTTP_CALLBACK_FLAG_CLOSE_CONNECTION, WINHTTP_CALLBACK_FLAG_CONNECT_TO_SERVER, WINHTTP_CALLBACK_FLAG_DATA_AVAILABLE, WINHTTP_CALLBACK_FLAG_DETECTING_PROXY, WINHTTP_CALLBACK_FLAG_HANDLES, WINHTTP_CALLBACK_FLAG_HEADERS_AVAILABLE, WINHTTP_CALLBACK_FLAG_INTERMEDIATE_RESPONSE, WINHTTP_CALLBACK_FLAG_READ_COMPLETE, WINHTTP_CALLBACK_FLAG_RECEIVE_RESPONSE, WINHTTP_CALLBACK_FLAG_REDIRECT, WINHTTP_CALLBACK_FLAG_REQUEST_ERROR, WINHTTP_CALLBACK_FLAG_RESOLVE_NAME, WINHTTP_CALLBACK_FLAG_SECURE_FAILURE, WINHTTP_CALLBACK_FLAG_SENDREQUEST_COMPLETE, WINHTTP_CALLBACK_FLAG_SEND_REQUEST, WINHTTP_CALLBACK_FLAG_WRITE_COMPLETE, WinHttpSetStatusCallback, WinHttpSetStatusCallback function [WinHTTP], http.winhttpsetstatuscallback, winhttp.winhttpsetstatuscallback_function, winhttp/WinHttpSetStatusCallback
-f1_keywords:
-- winhttp/WinHttpSetStatusCallback
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpSetStatusCallback
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpSetStatusCallback
+ - winhttp/WinHttpSetStatusCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpSetStatusCallback
 ---
 
 # WinHttpSetStatusCallback function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpSetStatusCallback</b> function sets up a callback function that WinHTTP can call as progress is made during an operation.
-
 
 ## -parameters
 
-
-
-
 ### -param hInternet [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle for which the callback is to be set. 
-
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle for which the callback is to be set.
 
 ### -param lpfnInternetCallback [in]
 
 Pointer to the callback function to call when progress is made.  Set this to <b>NULL</b> to remove the existing callback function. For more information about the callback function, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a>. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a>.
 
 ### -param dwNotificationFlags [in]
 
@@ -273,17 +266,12 @@ Activates upon a secure connection failure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If successful, returns a pointer to the previously defined status callback function or  <b>NULL</b> if there was no previously defined status callback function. Returns <b>WINHTTP_INVALID_STATUS_CALLBACK</b> if the callback function could not be installed. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
@@ -327,14 +315,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you set the callback on the session handle before creating the request handle, the request handle inherits the callback function pointer from its parent session.
 
@@ -398,14 +380,7 @@ The following example shows how to install a callback function for asynchronous 
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -424,7 +399,4 @@ The following example shows how to install a callback function for asynchronous 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
- 
-
- 
 

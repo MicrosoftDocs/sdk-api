@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 112ed457-1083-4550-abd6-933f4b128e9a
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], IFsrmReportManager interface [File Server Resource Manager],described, fs.ifsrmreportmanager, fsrm.ifsrmreportmanager, fsrmreports/IFsrmReportManager
-f1_keywords:
-- fsrmreports/IFsrmReportManager
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportManager
+ - fsrmreports/IFsrmReportManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportManager
 ---
 
 # IFsrmReportManager interface
 
 
 ## -description
-
 
 Used to manage report jobs.
 
@@ -57,7 +57,6 @@ To get this interface, call the
     <b>CLSID_FsrmReportManager</b> as the class identifier and 
     <code>__uuidof(IFsrmReportManager)</code> as the interface identifier. For 
     an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-report-job">Defining a Report Job</a>.
-
 
 ## -inheritance
 
@@ -165,12 +164,9 @@ Sets the current value of the specified report size limit.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A storage report job specifies a set of directories that will be analyzed to generate one or more different 
     report types that help administrators to better understand how storage is utilized in the specified directories. 
@@ -179,20 +175,11 @@ A storage report job specifies a set of directories that will be analyzed to gen
 To create this object from a script, use the "Fsrm.FsrmReportManager" program 
     identifier.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
- 
-
- 
 

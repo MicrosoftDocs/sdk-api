@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e163da81-d854-4f56-8eef-2788f1b566ba
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_QC_STATEMENT, CERT_QC_STATEMENT, CERT_QC_STATEMENT structure [Security], PCERT_QC_STATEMENT, PCERT_QC_STATEMENT structure pointer [Security], security.cert_qc_statement, szOID_QC_EU_COMPLIANCE, szOID_QC_SSCD, wincrypt/CERT_QC_STATEMENT, wincrypt/PCERT_QC_STATEMENT'
-f1_keywords:
-- wincrypt/CERT_QC_STATEMENT
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_QC_STATEMENT
 targetos: Windows
 req.typenames: CERT_QC_STATEMENT, *PCERT_QC_STATEMENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_QC_STATEMENT
+ - wincrypt/_CERT_QC_STATEMENT
+ - PCERT_QC_STATEMENT
+ - wincrypt/PCERT_QC_STATEMENT
+ - CERT_QC_STATEMENT
+ - wincrypt/CERT_QC_STATEMENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_QC_STATEMENT
 ---
 
 # CERT_QC_STATEMENT structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_QC_STATEMENT</b> structure represents a single statement in a sequence of one or more statements for inclusion in a  Qualified Certificate (QC) statements extension. This structure populates the <b>rgStatement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_qc_statements_ext_info">CERT_QC_STATEMENTS_EXT_INFO</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszStatementId
 
@@ -95,8 +95,6 @@ Secure Signature Creation Device
 </td>
 </tr>
 </table>
- 
-
 
 ### -field StatementInfo
 

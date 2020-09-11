@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.date: 12/05/2018
 ms.keywords: GetFileTime, GetFileTime function, _win32_getfiletime, base.getfiletime, fileapi/GetFileTime, winbase/GetFileTime
-f1_keywords:
-- fileapi/GetFileTime
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileTime
+ - fileapi/GetFileTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileTime
 ---
 
 # GetFileTime function
@@ -56,15 +57,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the date and time that a file or directory was created, last accessed, and last 
     modified.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -73,13 +69,11 @@ A handle to the file or directory for which dates and times are to be retrieved.
       <b>GENERIC_READ</b> access right. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-
 ### -param lpCreationTime [out, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to receive the 
       date and time the file or directory was created. This parameter can be <b>NULL</b> if the 
       application does not require this information.
-
 
 ### -param lpLastAccessTime [out, optional]
 
@@ -87,7 +81,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbas
       receive the date and time the file or directory was last accessed. The last access time includes the last time 
       the file or directory was written to, read from, or, in the case of executable files, run. This parameter can be 
       <b>NULL</b> if the application does not require this information.
-
 
 ### -param lpLastWriteTime [out, optional]
 
@@ -98,22 +91,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbas
       file attributes or security descriptors are changed. This parameter can be <b>NULL</b> if the 
       application does not require this information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Not all file systems can record creation and last access times and not all file systems record them in the 
     same manner. For example, on  FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 
@@ -139,12 +124,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
@@ -167,7 +147,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
- 
-
- 
 

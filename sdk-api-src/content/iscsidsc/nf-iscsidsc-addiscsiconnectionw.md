@@ -8,10 +8,6 @@ tech.root: iSCSIDisc
 ms.assetid: 919bf77f-f8e5-4fd2-926d-6fbca60b2fb2
 ms.date: 12/05/2018
 ms.keywords: AddIScsiConnectionW, AddIscsiConnection, AddIscsiConnection function [iSCSI Discovery Library API], AddIscsiConnectionA, AddIscsiConnectionW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsiconnection, iscsidsc/AddIscsiConnection, iscsidsc/AddIscsiConnectionA, iscsidsc/AddIscsiConnectionW
-f1_keywords:
-- iscsidsc/AddIscsiConnection
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- AddIscsiConnection
-- AddIscsiConnectionA
-- AddIscsiConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddIScsiConnectionW
+ - iscsidsc/AddIScsiConnectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - AddIscsiConnection
+ - AddIscsiConnectionA
+ - AddIscsiConnectionW
 ---
 
 # AddIScsiConnectionW function
@@ -51,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddIscsiConnection</b> function adds a new iSCSI connection to an existing session.
 
-
 ## -parameters
-
-
-
 
 ### -param UniqueSessionId [in]
 
 A pointer to a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that, on input, contains the session identifier for the session that was added.
 
-
 ### -param Reserved [in]
 
-This member should be <b>null</b> on input. 
-
+This member should be <b>null</b> on input.
 
 ### -param InitiatorPortNumber [in, optional]
 
 The number of the port on the initiator that the initiator uses to add the connection. A value of <b>ISCSI_ANY_INITIATOR_PORT</b> indicates that the initiator can use any of its ports to add the connection.
-
 
 ### -param TargetPortal [in]
 
 A pointer to an ISCSI_TARGET_PORTAL-type structure that indicates the target portal to use when adding the connection. 
 
 The portal must belong to the same portal group that the initiator used to login to the target, and it must be a portal that the initiator discovered. The iSCSI initiator service does not verify that the target portal meets these requirements.
-
 
 ### -param SecurityFlags [in, optional]
 
@@ -169,44 +161,28 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param LoginOptions [in, optional]
 
 A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
 
-
 ### -param KeySize [in, optional]
 
-The size, in bytes, of the preshared key that is passed to the target. 
-
+The size, in bytes, of the preshared key that is passed to the target.
 
 ### -param Key [in, optional]
 
-If the IPsec security policy between the initiator and the target portal is already configured as a result of the portal group policy or a previous connection to the portal, the existing key takes precedence over the key currently specified in this member. 
-
+If the IPsec security policy between the initiator and the target portal is already configured as a result of the portal group policy or a previous connection to the portal, the existing key takes precedence over the key currently specified in this member.
 
 ### -param ConnectionId [out, optional]
 
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a>-type structure that, on output, receives an opaque value that uniquely identifies the connection that was added to the session.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appropriate Win32 or iSCSI error code.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
 
@@ -217,9 +193,6 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
- 
-
- 
 
 ## -remarks
 

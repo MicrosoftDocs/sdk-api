@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: controls
+f1_keywords:
+ - richole
+ - richole/richole
 ---
 
 # Richole.h header
 
 
 ## -description
-
 
 This header is used by Windows Controls. For more information, see:
 

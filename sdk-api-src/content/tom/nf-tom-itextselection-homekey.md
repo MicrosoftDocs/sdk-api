@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.date: 12/05/2018
 ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
-f1_keywords:
-- tom/ITextSelection.HomeKey
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.HomeKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::HomeKey
+ - tom/ITextSelection::HomeKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.HomeKey
 ---
 
 # ITextSelection::HomeKey
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Generalizes the functionality of the Home key. 
-
+Generalizes the functionality of the Home key.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
@@ -114,8 +110,6 @@ Depending on
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Extend
 
@@ -123,19 +117,15 @@ Type: <b>long</b>
 
 Flag that indicates how to change the selection. If 
 					<i>Extend</i> is zero (or <b>tomMove</b>), the method collapses the selection to an insertion point. If 
-					<i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero. 
-
+					<i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero.
 
 ### -param pDelta
 
 Type: <b>long*</b>
 
-Pointer to a variable that receives the count of characters that the insertion point or the active end is moved. This parameter can be null. 
-
+Pointer to a variable that receives the count of characters that the insertion point or the active end is moved. This parameter can be null.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -170,14 +160,8 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ITextSelection::HomeKey</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
 
@@ -196,13 +180,7 @@ The <b>HomeKey</b> and
 				<b>StartOf</b> extends from Start and 
 				<b>EndOf</b> extends from End.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -241,7 +219,4 @@ The <b>HomeKey</b> and
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
 

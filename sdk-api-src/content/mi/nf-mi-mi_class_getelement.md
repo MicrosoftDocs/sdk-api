@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: eb13ea2b-eac6-4df2-8088-eb47449838b8
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetElement, MI_Class_GetElement function [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_ASSOCIATION, MI_FLAG_BORROW, MI_FLAG_CLASS, MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_EXPENSIVE, MI_FLAG_IN, MI_FLAG_INDICATION, MI_FLAG_KEY, MI_FLAG_METHOD, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_PARAMETER, MI_FLAG_PROPERTY, MI_FLAG_READONLY, MI_FLAG_REFERENCE, MI_FLAG_REQUIRED, MI_FLAG_RESTRICTED, MI_FLAG_STATIC, MI_FLAG_STREAM, MI_FLAG_TERMINAL, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_FLAG_VERSION, mi/MI_Class_GetElement, wmi_v2.mi_class_getelement
-f1_keywords:
-- mi/MI_Class_GetElement
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Class_GetElement
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_Class_GetElement
+ - mi/MI_Class_GetElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Class_GetElement
 ---
 
 # MI_Class_GetElement function
@@ -49,49 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets  all details of a specified named element from a class.
 
-
 ## -parameters
-
-
-
 
 ### -param self [in]
 
 A pointer to a class object from which the element is to be retrieved.
 
-
 ### -param name
 
 A pointer to the name of the element to be retrieved.
-
 
 ### -param value [out, optional]
 
 A pointer to the variable to receive the returned default value for the element.  The value is valid for the lifetime of the class object; the value does not need to be deleted. This parameter is optional. If this information is not needed, pass <b>NULL</b> for this parameter. If this parameter is not <b>NULL</b>, <i>valueExists</i> must not be <b>NULL</b>. If the returned value of <i>valueExists</i> is <b>MI_FALSE</b>, then there is no default value.
 
-
 ### -param valueExists [out, optional]
 
 A pointer to a variable that receives the returned Boolean value that indicates whether a default value exits for the specified element. The parameter is <b>MI_TRUE</b> if a default value exits; otherwise, <b>MI_FALSE</b>. If this information is not needed, pass <b>NULL</b> for this parameter.
-
 
 ### -param type [out, optional]
 
 A pointer to a variable that receives the returned value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_type">MI_Type</a> enumeration that specifies the data type. If this information is not needed, pass <b>NULL</b> for this parameter.
 
-
 ### -param referenceClass
 
 The class of the reference (if the element is a strongly typed reference) or the class name (if the element is a strongly typed embedded instance).
 
-
 ### -param qualifierSet [out, optional]
 
 A pointer to a variable to receive the returned element qualifier set.  This parameter is optional. The memory associated with the qualifier set is valid until the class object is deleted. When you have finished using the class qualifier set, delete the class object by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function. If this information is not needed, pass <b>NULL</b> for this parameter.
-
 
 ### -param flags [out, optional]
 
@@ -274,26 +263,15 @@ A qualifier flavor that indicates that there may be different languages associat
 
 Three bits reserved by the infrastructure to handle future versioning changes.
 
-
 ### -param index [out, optional]
 
 A pointer to a variable to receive the index of the element within the class. If this information is not needed, pass <b>NULL</b> for this parameter.
 
-
 ## -returns
-
-
 
 This function returns MI_INLINE MI_Result.
 
-
-
-
 ## -remarks
 
-
-
 All element information is read-only. The information returned is valid until the class is deleted.
-
-
 

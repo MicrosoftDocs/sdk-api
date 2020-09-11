@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6742f6a8-eda8-4ef0-8a11-dc70baefcc83
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandler interface [Windows Shell],Synchronize method, ISyncMgrHandler.Synchronize, ISyncMgrHandler::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrHandler interface, _shell_ISyncMgrHandler_Synchronize, shell.ISyncMgrHandler_Synchronize, syncmgr/ISyncMgrHandler::Synchronize
-f1_keywords:
-- syncmgr/ISyncMgrHandler.Synchronize
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrHandler.Synchronize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrHandler::Synchronize
+ - syncmgr/ISyncMgrHandler::Synchronize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrHandler.Synchronize
 ---
 
 # ISyncMgrHandler::Synchronize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a synchronization of a selection of the handler's sync items.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszItemIDs [in]
 
@@ -64,13 +60,11 @@ Type: <b>LPCWSTR*</b>
 
 A pointer to an array of item IDs representing the items to be synchronized. Each item ID is of maximum length MAX_SYNCMGR_ID including the terminating <b>null</b> character.
 
-
 ### -param cItems [in]
 
 Type: <b>ULONG</b>
 
 The number of items in <i>ppszItemIDs</i>.
-
 
 ### -param hwndOwner [in]
 
@@ -78,13 +72,11 @@ Type: <b>HWND</b>
 
 A handle to the window that the item uses to display any necessary UI. This value can be <b>NULL</b>.
 
-
 ### -param pSessionCreator [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrsessioncreator">ISyncMgrSessionCreator</a> interface. This interface enables the handler itself to report progress and events, or to signal a background process to report progress and events.
-
 
 ### -param punk [in]
 
@@ -92,21 +84,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknw
 
 A pointer to an interface to be passed to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a>. <b>ISyncMgrHandler::Synchronize</b> is called either when a user requests a synchronization from the Sync Center folder or when one of the <b>ISyncMgrControl</b> synchronize methods is called, such as <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startsyncall">StartSyncAll</a>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 <b>ISyncMgrHandler::Synchronize</b> is called on its own thread. Sync Center instantiates the handler object and the session creator object on that thread and then calls this method. 
 
@@ -262,7 +246,4 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItem
 }
 
 ```
-
-
-
 

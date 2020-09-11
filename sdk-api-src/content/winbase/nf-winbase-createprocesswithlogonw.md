@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
 ms.date: 12/05/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithLogonW, CreateProcessWithLogonW function, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, _win32_createprocesswithlogonw, base.createprocesswithlogonw, winbase/CreateProcessWithLogonW
-f1_keywords:
-- winbase/CreateProcessWithLogonW
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-Security-Cpwl-L1-1-0.dll
-api_name:
-- CreateProcessWithLogonW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateProcessWithLogonW
+ - winbase/CreateProcessWithLogonW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-Security-Cpwl-L1-1-0.dll
+api_name:
+ - CreateProcessWithLogonW
 ---
 
 # CreateProcessWithLogonW function
@@ -51,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 
 This function is similar to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprocesswithtokenw">CreateProcessWithTokenW</a> functions, except that the caller does not need to call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function to authenticate the user and get a token.
 
-
 ## -parameters
-
-
-
 
 ### -param lpUsername [in]
 
@@ -71,23 +67,14 @@ The name of the user. This is the name of the user account to log on to. If you 
 
 
 The user account must have the Log On Locally permission on the local computer. This permission is granted to all users on workstations and servers, but only to administrators on domain controllers.
-                  
-
 
 ### -param lpDomain [in, optional]
 
-The name of the domain or server whose account database contains the <i>lpUsername</i> account. If this parameter is NULL, the user name must be specified in UPN format. 
-
-
-
-               
-
+The name of the domain or server whose account database contains the <i>lpUsername</i> account. If this parameter is NULL, the user name must be specified in UPN format.
 
 ### -param lpPassword [in]
 
-The clear-text password for the <i>lpUsername</i> account. 
-               
-
+The clear-text password for the <i>lpUsername</i> account.
 
 ### -param dwLogonFlags [in]
 
@@ -135,8 +122,6 @@ The system does not validate the specified credentials. Therefore, the process c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpApplicationName [in, optional]
 
@@ -163,7 +148,6 @@ The system tries to interpret the possibilities in the following order:<ol>
 
 If the executable module is a 16-bit application, <i>lpApplicationName</i> should be NULL, and the string pointed to by <i>lpCommandLine</i> should specify the executable module and its arguments.
 
-
 ### -param lpCommandLine [in, out, optional]
 
 The command line to be executed. The maximum length of this string is 1024 characters. If <i>lpApplicationName</i> is <b>NULL</b>, the module name portion of <i>lpCommandLine</i> is limited to <b>MAX_PATH</b> characters.
@@ -187,7 +171,6 @@ If <i>lpApplicationName</i> is <b>NULL</b>, the first white space–delimited to
 <li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://docs.microsoft.com/windows/win32/api/shellapi/nf-shellapi-shellexecutew">ShellExecute</a> function.</li>
 </ol>
 The system adds a null character to the command line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
-
 
 ### -param dwCreationFlags [in]
 
@@ -291,7 +274,6 @@ Indicates the format of the <i>lpEnvironment</i> parameter. If this flag is set,
 This parameter also controls the new process's priority class, which is used to determine the scheduling priorities of the process's threads. For a list of values, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getpriorityclass">GetPriorityClass</a>. If none of the priority class flags is specified, the priority class defaults to <b>NORMAL_PRIORITY_CLASS</b> unless the priority class of the creating process is <b>IDLE_PRIORITY_CLASS</b> or <b>BELOW_NORMAL_PRIORITY_CLASS</b>. In this case, the child process receives the default priority class of the calling process.
 
-
 ### -param lpEnvironment [in, optional]
 
 A pointer to an environment block for the new process. If this parameter is <b>NULL</b>, the new process uses an environment created from the profile of the user specified by <i>lpUsername</i>. 
@@ -312,13 +294,11 @@ An ANSI environment block is terminated by two 0 (zero) bytes: one for the last 
 To retrieve a copy of the environment block for a specific user, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
-
 ### -param lpCurrentDirectory [in, optional]
 
 The full path to the current directory for the process. The string can also specify a UNC path. 
 
 If this parameter is <b>NULL</b>, the new process has the same current drive and directory as the calling process. This feature is provided primarily for shells that need to start an application, and specify its initial drive and working directory.
-
 
 ### -param lpStartupInfo [in]
 
@@ -352,24 +332,16 @@ Handles in
 <a href="/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information">PROCESS_INFORMATION</a> must be closed with the 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function when they are not needed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>. 
-
-
-
+Note that the function returns before the process has finished initialization. If a required DLL cannot be located or fails to initialize, the process is terminated. To get the termination status of a process, call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess">GetExitCodeProcess</a>.
 
 ## -remarks
-
-
 
 By default, 
 <b>CreateProcessWithLogonW</b> does not load the specified user profile into the <b>HKEY_USERS</b> registry key. This means that access to information in the <b>HKEY_CURRENT_USER</b> registry key may not produce results that are consistent with a normal interactive logon. It is your responsibility to load the user registry hive into <b>HKEY_USERS</b> before calling 
@@ -509,14 +481,7 @@ void wmain(int argc, WCHAR *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
@@ -567,7 +532,4 @@ void wmain(int argc, WCHAR *argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>
- 
-
- 
 

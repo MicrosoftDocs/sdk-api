@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: 963f87c1-e128-4bd5-9f28-d49418f768fb
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], IManipulationProcessor interface [Windows Touch],described, manipulations/IManipulationProcessor, wintouch.imanipulationprocessor
-f1_keywords:
-- manipulations/IManipulationProcessor
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IManipulationProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManipulationProcessor
+ - manipulations/IManipulationProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IManipulationProcessor
 ---
 
 # IManipulationProcessor interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The IManipulationProcessor provides functionality for monitoring and responding to multitouch input.
-
-
 
 ## -inheritance
 
@@ -257,16 +255,9 @@ This property is used to indicate which manipulations are supported by an object
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>
- 
-
- 
 

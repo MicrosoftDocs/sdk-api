@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c6cb7f74-237e-4d3e-a852-894da36e990c
 ms.date: 12/05/2018
 ms.keywords: RDW_ALLCHILDREN, RDW_ERASE, RDW_ERASENOW, RDW_FRAME, RDW_INTERNALPAINT, RDW_INVALIDATE, RDW_NOCHILDREN, RDW_NOERASE, RDW_NOFRAME, RDW_NOINTERNALPAINT, RDW_UPDATENOW, RDW_VALIDATE, RedrawWindow, RedrawWindow function [Windows GDI], _win32_RedrawWindow, gdi.redrawwindow, winuser/RedrawWindow
-f1_keywords:
-- winuser/RedrawWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
-- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
-api_name:
-- RedrawWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RedrawWindow
+ - winuser/RedrawWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
+api_name:
+ - RedrawWindow
 ---
 
 # RedrawWindow function
@@ -55,29 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RedrawWindow</b> function updates the specified rectangle or region in a window's client area.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the window to be redrawn. If this parameter is <b>NULL</b>, the desktop window is updated.
 
-
 ### -param lprcUpdate [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates, in device units, of the update rectangle. This parameter is ignored if the <i>hrgnUpdate</i> parameter identifies a region.
 
-
 ### -param hrgnUpdate [in]
 
 A handle to the update region. If both the <i>hrgnUpdate</i> and <i>lprcUpdate</i> parameters are <b>NULL</b>, the entire client area is added to the update region.
-
 
 ### -param flags [in]
 
@@ -241,33 +234,18 @@ Excludes child windows, if any, from the repainting operation.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the desktop window does not receive a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message. To repaint the desktop, an application uses the RDW_ERASE flag to generate a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdaterect">GetUpdateRect</a>
 
@@ -298,7 +276,4 @@ When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the d
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
- 
-
- 
 

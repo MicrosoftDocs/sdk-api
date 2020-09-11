@@ -8,10 +8,6 @@ tech.root: Sens
 ms.assetid: 39d483be-8dbd-41f9-9804-af9dc4535c05
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow, ISensOnNow interface [SENS], ISensOnNow interface [SENS],described, _zaw_isensonnow, sens.isensonnow, sensevts/ISensOnNow, syncmgr.isensonnow
-f1_keywords:
-- sensevts/ISensOnNow
-dev_langs:
-- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Sensevts.tlb
 req.lib: 
 req.dll: Sens.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sens.dll
-api_name:
-- ISensOnNow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensOnNow
+ - sensevts/ISensOnNow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sens.dll
+api_name:
+ - ISensOnNow
 ---
 
 # ISensOnNow interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ISensOnNow</b> interface handles AC and battery power events fired by the System Event Notification Service (SENS).
-
 
 ## -inheritance
 
@@ -96,13 +95,9 @@ Switched to Battery power.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
@@ -113,7 +108,4 @@ Switched to Battery power.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
-f1_keywords:
-- rpcdce/RpcServerInterfaceGroupCreate
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerInterfaceGroupCreate
-- RpcServerInterfaceGroupCreateA
-- RpcServerInterfaceGroupCreateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerInterfaceGroupCreateA
+ - rpcdce/RpcServerInterfaceGroupCreateA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerInterfaceGroupCreate
+ - RpcServerInterfaceGroupCreateA
+ - RpcServerInterfaceGroupCreateW
 ---
 
 # RpcServerInterfaceGroupCreateA function
@@ -51,58 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RpcServerInterfaceGroupCreate</b> function creates an RPC server interface group for the server application.  This interface group fully specifies the interfaces, endpoints, and idle properties of an RPC server application.  Once created, an interface group can be activated and deactivated as the application requires.
 
-
 ## -parameters
-
-
-
 
 ### -param Interfaces [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_interface_template">RPC_INTERFACE_TEMPLATE</a> structures that define the interfaces exposed by the interface group.
 
-
 ### -param NumIfs [in]
 
 The number of elements in <i>Interfaces</i>.
-
 
 ### -param Endpoints [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_endpoint_template">RPC_ENDPOINT_TEMPLATE</a> structures that define the endpoints used by the interface group.
 
-
 ### -param NumEndpoints [in]
 
 The number of elements in <i>Endpoints</i>.
-
 
 ### -param IdlePeriod [in]
 
 The length of time in seconds after the interface group becomes idle that the RPC runtime should wait before invoking the idle callback.  0 means the callback is invoked immediately. <b>INFINITE</b> means the server application does not care about the interface group’s idle state.
 
-
 ### -param IdleCallbackFn [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn">RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN</a> callback that the RPC runtime will invoke once the interface group is idle for the length of time given in <i>IdlePeriod</i>.  Can be <b>NULL</b> only if <i>IdlePeriod</i> is <b>INFINITE</b>.
-
 
 ### -param IdleCallbackContext [in]
 
 A user-defined pointer to be passed to the idle callback in <i>IdleCallbackFn</i>.
 
-
 ### -param IfGroup [out]
 
 If successful, a pointer to an <b>RPC_INTERFACE_GROUP</b> buffer that receives the handle to the newly created interface group.  If this function fails, <i>IfGroup</i> is undefined.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -127,11 +113,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application can optionally be notified when an interface group becomes idle.  Though any application can take advantage of this functionality, it is targeted towards service developers who would like to enable their service to idle stop.
 
@@ -150,9 +132,6 @@ RPC server activity is not always visible to the server application.  In some ca
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
 
 
@@ -166,7 +145,4 @@ RPC server activity is not always visible to the server application.  In some ca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>
- 
-
- 
 

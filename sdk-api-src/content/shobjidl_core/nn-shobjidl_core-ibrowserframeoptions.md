@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d
 ms.date: 12/05/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
-f1_keywords:
-- shobjidl_core/IBrowserFrameOptions
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IBrowserFrameOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserFrameOptions
+ - shobjidl_core/IBrowserFrameOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IBrowserFrameOptions
 ---
 
 # IBrowserFrameOptions interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a browser or host to ask <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> what kind of view behavior is supported.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves the available browser frame view options.
 
 </td>
 </tr>
-</table> 
+</table>
 

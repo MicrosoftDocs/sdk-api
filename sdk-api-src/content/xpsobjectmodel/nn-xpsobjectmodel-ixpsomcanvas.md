@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 3cb0e1b3-88a8-4724-a3c5-0df416294e62
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], IXpsOMCanvas interface [XPS Documents and Packaging],described, xps.ixpsomcanvas, xpsobjectmodel/IXpsOMCanvas
-f1_keywords:
-- xpsobjectmodel/IXpsOMCanvas
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCanvas
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCanvas
+ - xpsobjectmodel/IXpsOMCanvas
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCanvas
 ---
 
 # IXpsOMCanvas interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A group of visual elements and related properties.
-
 
 ## -inheritance
 
@@ -191,12 +190,9 @@ Sets the value that determines whether the edges of objects in this canvas will 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The code example that follows illustrates how to create an instance of  this interface.
 
@@ -234,14 +230,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createcanvas">IXpsOMObjectFactory::CreateCanvas</a>
 
@@ -256,7 +245,4 @@ else
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

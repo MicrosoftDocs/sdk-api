@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 75968d53-5af2-4d77-9486-26403b73c954
 ms.date: 12/05/2018
 ms.keywords: KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_INTERACTIVE_LOGON, KERB_S4U_LOGON, KERB_SMARTCARD_LOGON, KERB_SMARTCARD_UNLOCK_LOGON, KERB_TICKET_LOGON, KERB_TICKET_PROFILE, KERB_TICKET_UNLOCK_LOGON, LsaLogonUser, LsaLogonUser function [Security], MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_SUBAUTH_LOGON, STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsalogonuser, ntsecapi/LsaLogonUser, security.lsalogonuser
-f1_keywords:
-- ntsecapi/LsaLogonUser
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- LsaLogonUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaLogonUser
+ - ntsecapi/LsaLogonUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - LsaLogonUser
 ---
 
 # LsaLogonUser function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaLogonUser</b> function authenticates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal's</a> logon data by using stored credentials information.
 
 If the authentication is successful, this function creates a new logon session and returns a user token.
 
 When a new ticket granting ticket (TGT) is obtained by using new certificate credentials, then all of the system's TGTs and service tickets are purged. Any user service tickets that are of a compound identity are also purged.
 
-
 ## -parameters
-
-
-
 
 ### -param LsaHandle [in]
 
@@ -77,23 +73,19 @@ The caller is required to have <b>SeTcbPrivilege</b> only if one or more of the 
 </ul>
  If <b>SeTcbPrivilege</b> is not required, call <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaconnectuntrusted">LsaConnectUntrusted</a> to obtain the handle.
 
-
 ### -param OriginName [in]
 
 A string that identifies the origin of the logon attempt. For more information, see Remarks.
-
 
 ### -param LogonType [in]
 
 A 
 value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> enumeration that specifies the type of logon requested. If <i>LogonType</i> is Interactive or Batch, a primary token is generated to represent the new user. If <i>LogonType</i> is Network, an impersonation token is generated.
 
-
 ### -param AuthenticationPackage [in]
 
 An identifier of the authentication package to use for the authentication. You can obtain this value by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>.
-
 
 ### -param AuthenticationInformation [in]
 
@@ -256,22 +248,18 @@ Authenticating a user with subauthentication.
 
 For more information about the buffer used by other authentication packages, see the documentation for those authentication packages.
 
-
 ### -param AuthenticationInformationLength [in]
 
 The length, in bytes, of the <i>AuthenticationInformation</i> buffer.
-
 
 ### -param LocalGroups [in, optional]
 
 A list of additional group identifiers to add to the token of the authenticated user. These group identifiers will be added, along with the default group WORLD and the logon type group (Interactive, Batch, or Network), which are automatically included in every user token.
 
-
 ### -param SourceContext [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a> structure that identifies the source module—for example, the session manager—and the context that may be useful to that module. This information is included in the user token and can be retrieved by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
-
 
 ### -param ProfileBuffer [out]
 
@@ -336,28 +324,23 @@ For more information about the buffer used by other authentication packages, see
 When this buffer is no longer needed, the calling application must free this buffer by calling 
 the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a> function.
 
-
 ### -param ProfileBufferLength [out]
 
 A pointer to a <b>ULONG</b> that receives the length, in bytes, of the returned profile buffer.
-
 
 ### -param LogonId [out]
 
 A pointer to a buffer that receives an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> that uniquely identifies the logon session. This <b>LUID</b> is assigned by the domain controller that authenticated the logon information.
 
-
 ### -param Token [out]
 
 A pointer to a handle that receives the new user token created for this session. When you have finished using the token, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
-
 
 ### -param Quotas [out]
 
 When a primary token is returned, this parameter receives a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-quota_limits">QUOTA_LIMITS</a> structure that contains the process quota limits assigned to the newly logged on user's initial process.
-
 
 ### -param SubStatus [out]
 
@@ -411,12 +394,8 @@ The user account is currently disabled and cannot be used to log on.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns  STATUS_SUCCESS.
 
@@ -524,24 +503,13 @@ For more information, see
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>OriginName</i> parameter should specify meaningful information. For example, it might contain "TTY1" to indicate terminal one or "NTLM - remote node JAZZ" to indicate a network logon that uses NTLM through a remote node called "JAZZ".
 
 You must call <b>LsaLogonUser</b> separately to update PKINIT device credentials for LOCAL_SYSTEM and NETWORK_SERVICE. When there is no PKINIT device credential, a successful call does no operation. When there is a PKINIT device credential, a successful call cleans up the PKINIT device credential so that only the password credential remains.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
 
@@ -556,7 +524,4 @@ You must call <b>LsaLogonUser</b> separately to update PKINIT device credentials
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>
- 
-
- 
 

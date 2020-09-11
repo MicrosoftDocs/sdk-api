@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontList2 interface [Direct Write]","GetFontSet me
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontList2 interface [Direct Write],GetFontSet method, IDWriteFontList2.GetFontSet, IDWriteFontList2::GetFontSet, GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontList2 interface, directwrite.idwritefontlist2_getfontset, dwrite_3/IDWriteFontList2::GetFontSet
-f1_keywords:
-- dwrite_3/IDWriteFontList2.GetFontSet
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontList2::GetFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontList2::GetFontSet
+ - dwrite_3/IDWriteFontList2::GetFontSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontList2::GetFontSet
 ---
 
 ## -description
@@ -64,3 +65,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

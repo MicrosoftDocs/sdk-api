@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: d857ee04-38b8-4d98-a3e7-6ca8657ac9ed
 ms.date: 12/05/2018
 ms.keywords: SetIpStatistics, SetIpStatistics function [IP Helper], _iphlp_setipstatistics, iphlp.setipstatistics, iphlpapi/SetIpStatistics
-f1_keywords:
-- iphlpapi/SetIpStatistics
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetIpStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetIpStatistics
+ - iphlpapi/SetIpStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetIpStatistics
 ---
 
 # SetIpStatistics function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetIpStatistics</b> function toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pIpStats [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a> structure. The caller should set the <b>dwForwarding</b> and <b>dwDefaultTTL</b> members of this structure to the new values. To keep one of the members at its current value, use MIB_USE_CURRENT_TTL or MIB_USE_CURRENT_FORWARDING.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -113,14 +106,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To set only the default TTL, the caller can also use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipttl">SetIpTTL</a> function.
@@ -134,12 +121,7 @@ The <b>SetIpStatistics</b> function can also fail because of user account contro
 <div class="alert"><b>Note</b>   On Windows NT 4.0 and Windows 2000 and later, this function executes a privileged operation. For this function to execute successfully, the caller must be logged on as a member of the Administrators group or the NetworkConfigurationOperators group.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
@@ -158,7 +140,4 @@ The <b>SetIpStatistics</b> function can also fail because of user account contro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipttl">SetIpTTL</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790
 ms.date: 12/05/2018
 ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell.QISearch, shlwapi/QISearch
-f1_keywords:
-- shlwapi/QISearch
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- QISearch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QISearch
+ - shlwapi/QISearch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - QISearch
 ---
 
 # QISearch function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A table-driven implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param that [in]
 
@@ -69,13 +65,11 @@ Type: <b>void*</b>
 
 A pointer to the base of a COM object.
 
-
 ### -param pqit [in]
 
 Type: <b>LPCQITAB</b>
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ns-shlwapi-qitab">QITAB</a> structures. The last structure in the array must have its <b>piid</b> member set to <b>NULL</b> and its <b>dwOffset</b> member set to 0.
-
 
 ### -param riid [in]
 
@@ -83,28 +77,19 @@ Type: <b>REFIID</b>
 
 A reference to the IID of the interface to retrieve through <i>ppv</i>.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this method returns successfully, contains the interface pointer requested in <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if the requested interface was found in the table or if the requested interface was IUnknown. Returns E_NOINTERFACE if the requested interface was not found.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  Prior to Windows Vista, <b>QISearch</b> was not exported by name or declared in a public header file. To use it in those cases, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 219 from Shlwapi.dll to obtain a function pointer. Under Windows Vista, <b>QISearch</b> is included in Shlwapi.h and this is not necessary.</div>
 <div> </div>
@@ -161,7 +146,4 @@ HRESULT CSample::QueryInterface(REFIID riid, void **ppv)
     return QISearch(this, rgqit, IID_PPV_ARGS(&ppv));
 }
 ```
-
-
-
 

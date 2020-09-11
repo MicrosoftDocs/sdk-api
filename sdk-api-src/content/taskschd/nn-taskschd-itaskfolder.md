@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
-f1_keywords:
-- taskschd/ITaskFolder
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskFolder
+ - taskschd/ITaskFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskFolder
 ---
 
 # ITaskFolder interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
-
 
 ## -inheritance
 
@@ -208,16 +207,9 @@ Gets the path to where the folder is stored.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
 

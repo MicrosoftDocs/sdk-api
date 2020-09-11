@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c312a152-21ee-4708-90a8-ab9bde9a2011
 ms.date: 12/05/2018
 ms.keywords: IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], IDVB_BAT interface [Microsoft TV Technologies],described, IDVB_BATInterface, dvbsiparser/IDVB_BAT, mstv.idvb_bat
-f1_keywords:
-- dvbsiparser/IDVB_BAT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_BAT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_BAT
+ - dvbsiparser/IDVB_BAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_BAT
 ---
 
 # IDVB_BAT interface
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -59,9 +58,6 @@ The <b>IDVB_BAT</b> interface enables the client to get data from a bouquet asso
 A bouquet is a collection of services that are marketed as one entity. A single bouquet may contain several transport streams that are delivered across different distribution media (satellite, cable, or terrestrial).
 
 The BAT may contain one or more table-wide descriptors. In addition, each record in the BAT may have one or more descriptors. To get the table-wide descriptors, use the <b>GetTableDescriptorByIndex</b> or <b>GetTableDescriptorByTag</b> method. To get the record descriptors, use the <b>GetRecordDescriptorByIndex</b> or <b>GetRecordDescriptorByTag</b> method.
-
-
-
 
 ## -inheritance
 
@@ -222,16 +218,9 @@ Registers the client to be notified when the table becomes current.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

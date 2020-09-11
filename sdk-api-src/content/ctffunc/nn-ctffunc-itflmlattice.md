@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
-f1_keywords:
-- ctffunc/ITfLMLattice
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfLMLattice
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLMLattice
+ - ctffunc/ITfLMLattice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfLMLattice
 ---
 
 # ITfLMLattice interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfLMLattice</b> interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service). A client obtains this interface from the GUID_PROP_LMLATTICE property by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">ITfReadOnlyProperty::GetValue</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties</a>.
-
 
 ## -inheritance
 
@@ -86,13 +85,9 @@ Determines if a specific lattice element type is supported by the lattice proper
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreadonlyproperty-getvalue">ITfReadOnlyProperty::GetValue
       </a>
@@ -105,7 +100,4 @@ Determines if a specific lattice element type is supported by the lattice proper
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
- 
-
- 
 

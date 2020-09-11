@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.date: 12/05/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
-f1_keywords:
-- certbcli/CertSrvRestoreGetDatabaseLocations
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvRestoreGetDatabaseLocations
-- CertSrvRestoreGetDatabaseLocationsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvRestoreGetDatabaseLocationsW
+ - certbcli/CertSrvRestoreGetDatabaseLocationsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvRestoreGetDatabaseLocations
+ - CertSrvRestoreGetDatabaseLocationsW
 ---
 
 # CertSrvRestoreGetDatabaseLocationsW function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvRestoreGetDatabaseLocations</b> function is used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup or restore context.
-
 
 ### -param ppwszzDatabaseLocationList [out]
 
@@ -110,25 +105,15 @@ You must free this allocated memory when done by calling <a href="https://docs.m
 
 Setting *<i>ppwszzDatabaseLocationList</i> to <b>NULL</b> before calling this function is optional.
 
-
 ### -param pcbSize [out]
 
 A pointer to the <b>DWORD</b> value that specifies the number of bytes in <i>ppwszzDatabaseLocationList</i>.
-					
-
 
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
-
-
 
 Certificate Services must be running for this method to succeed.
 
@@ -186,21 +171,11 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 571df609-9d17-415c-a4e0-23c4e1523993
 ms.date: 12/05/2018
 ms.keywords: IShellImageStore interface [Windows Shell],IsEntryInStore method, IShellImageStore.IsEntryInStore, IShellImageStore::IsEntryInStore, IsEntryInStore, IsEntryInStore method [Windows Shell], IsEntryInStore method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_IsEntryInStore, shell.IShellImageStore_IsEntryInStore, shlobj/IShellImageStore::IsEntryInStore
-f1_keywords:
-- shlobj/IShellImageStore.IsEntryInStore
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageStore.IsEntryInStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageStore::IsEntryInStore
+ - shlobj/IShellImageStore::IsEntryInStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageStore.IsEntryInStore
 ---
 
 # IShellImageStore::IsEntryInStore
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks to see if the image is in the store.
 
-
 ## -parameters
-
-
-
 
 ### -param pszName [in]
 
@@ -64,17 +60,13 @@ Type: <b>PCWSTR</b>
 
 A pointer to a null-terminated string that specifies the path to the file that contains the image.
 
-
 ### -param pftTimeStamp [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time stamp for the image.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -119,16 +111,9 @@ The store is not open.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-
 

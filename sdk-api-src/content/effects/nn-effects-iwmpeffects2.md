@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 44e044c1-97fd-43cb-9530-4556e485f5ae
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], IWMPEffects2 interface [Windows Media Player],described, IWMPEffects2Interface, effects/IWMPEffects2, wmp.iwmpeffects2
-f1_keywords:
-- effects/IWMPEffects2
-dev_langs:
-- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- effects.h
-api_name:
-- IWMPEffects2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEffects2
+ - effects/IWMPEffects2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - effects.h
+api_name:
+ - IWMPEffects2
 ---
 
 # IWMPEffects2 interface
@@ -50,8 +51,6 @@ ms.custom: 19H1
 ## -description
 
 The IWMPEffects2 interface.
-
-
 
 ## -inheritance
 
@@ -122,16 +121,13 @@ Called by Windows Media Player to provide visualization access to the core Windo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/custom-visualization-programming-reference">Custom Visualization Programming Reference</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
+

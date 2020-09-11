@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: a8334b28-9328-49f4-bf92-f43c556781bf
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRestoreName method, IVssBackupComponentsEx2.SetRestoreName, IVssBackupComponentsEx2::SetRestoreName, SetRestoreName, SetRestoreName method, SetRestoreName method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrestorename, vsbackup/IVssBackupComponentsEx2::SetRestoreName
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.SetRestoreName
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponentsEx2.SetRestoreName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::SetRestoreName
+ - vsbackup/IVssBackupComponentsEx2::SetRestoreName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponentsEx2.SetRestoreName
 ---
 
 # IVssBackupComponentsEx2::SetRestoreName
@@ -50,25 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns a new logical name to a component that is being restored.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 The globally unique identifier (GUID) of the writer class.
 
-
 ### -param ct [in]
 
 The type of the component. See the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       enumeration for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -82,7 +76,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 A <b>null</b>-terminated wide character string containing the name of the component. 
@@ -92,15 +85,11 @@ The string cannot be <b>NULL</b> and should contain the same component name as w
       to the backup set using 
       the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> method.
 
-
 ### -param wszRestoreName [in]
 
 A <b>null</b>-terminated wide character string containing the restore name to be set for the component.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -179,14 +168,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>SetRestoreName</b> method can only be called during a restore operation.
 
@@ -196,13 +179,7 @@ For more
       information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>
 
@@ -213,7 +190,4 @@ For more
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: eb311b8d-560d-4742-af4c-b5afe660c8e5
 ms.date: 12/05/2018
 ms.keywords: RetrieveUrlCacheEntryFile, RetrieveUrlCacheEntryFile function [WinINet], RetrieveUrlCacheEntryFileA, RetrieveUrlCacheEntryFileW, _inet_retrieveurlcacheentryfile_function, wininet.retrieveurlcacheentryfile, wininet/RetrieveUrlCacheEntryFile, wininet/RetrieveUrlCacheEntryFileA, wininet/RetrieveUrlCacheEntryFileW
-f1_keywords:
-- wininet/RetrieveUrlCacheEntryFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- RetrieveUrlCacheEntryFile
-- RetrieveUrlCacheEntryFileA
-- RetrieveUrlCacheEntryFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RetrieveUrlCacheEntryFileA
+ - wininet/RetrieveUrlCacheEntryFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - RetrieveUrlCacheEntryFile
+ - RetrieveUrlCacheEntryFileA
+ - RetrieveUrlCacheEntryFileW
 ---
 
 # RetrieveUrlCacheEntryFileA function
@@ -51,40 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the cache entry file associated with the specified URL.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrlName [in]
 
 Pointer to a string that contains the URL of the resource associated with the cache entry. This must be a unique name. The name string should not contain any escape characters.
-
 
 ### -param lpCacheEntryInfo [out]
 
 Pointer to a cache entry information buffer. If the buffer is not sufficient, this function returns ERROR_INSUFFICIENT_BUFFER and sets 
 <i>lpdwCacheEntryInfoBufferSize</i> to the number of bytes required.
 
-
 ### -param lpcbCacheEntryInfo [in, out]
 
 Pointer to an unsigned long integer variable that specifies the size of the 
 <i>lpCacheEntryInfo</i> buffer, in bytes. When the function returns, the variable contains the size, in bytes, of the actual buffer used or the number of bytes required to retrieve the cache entry file. The caller should check the return value in this parameter. If the return size is less than or equal to the size passed in, all the relevant data has been returned.
 
-
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include:
@@ -120,14 +110,8 @@ The size of the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RetrieveUrlCacheEntryFile</b> does not do any URL parsing, so a URL containing an anchor (#) will not be found in the cache, even if the resource is cached. For example, if the URL http://adatum.com/example.htm#sample was passed, the function would return ERROR_FILE_NOT_FOUND even if http://adatum.com/example.htm is in the cache.
 
@@ -147,15 +131,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

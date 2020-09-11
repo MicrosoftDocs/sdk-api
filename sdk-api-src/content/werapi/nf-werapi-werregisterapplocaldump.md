@@ -8,10 +8,6 @@ tech.root: wer
 ms.assetid: C57F5758-2BF7-444E-A22C-62C925B899A1
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAppLocalDump, WerRegisterAppLocalDump function [Windows Error Reporting], wer.werregisterapplocaldump, werapi/WerRegisterAppLocalDump
-f1_keywords:
-- werapi/WerRegisterAppLocalDump
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: KernelBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- KernelBase.dll
-- Kernel32.dll
-- Api-ms-win-core-windowserrorreporting-l1.dll
-api_name:
-- WerRegisterAppLocalDump
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerRegisterAppLocalDump
+ - werapi/WerRegisterAppLocalDump
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - KernelBase.dll
+ - Kernel32.dll
+ - Api-ms-win-core-windowserrorreporting-l1.dll
+api_name:
+ - WerRegisterAppLocalDump
 ---
 
 # WerRegisterAppLocalDump function
+
 
 ## -description
 
@@ -57,7 +59,6 @@ Registers a path, relative to the [LocalFolder](https://docs.microsoft.com/uwp/a
 ### -param localAppDataRelativePath [in]
 
 The path relative to the local app store for the calling application where WER should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding. The maximum length for this relative path in characters is **WER_MAX_LOCAL_DUMP_SUBPATH_LENGTH**, which has a value of 64. This maximum length includes the null-termination character.
-
 
 ## -returns
 
@@ -101,3 +102,4 @@ WER does not manage storage at the location that the relative path specifies or 
 ## -see-also
 
 [WerUnregisterAppLocalDump function](nf-werapi-werunregisterapplocaldump.md)
+

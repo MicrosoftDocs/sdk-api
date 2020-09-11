@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 2ff77f09-1b4c-4115-9bb4-4040097d1f90
 ms.date: 12/05/2018
 ms.keywords: ITfSource, ITfSource interface [Text Services Framework], ITfSource interface [Text Services Framework],described, _tsf_itfsource_ref, msctf/ITfSource, tsf.itfsource
-f1_keywords:
-- msctf/ITfSource
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSource
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSource
+ - msctf/ITfSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSource
 ---
 
 # ITfSource interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfSource</b> interface is implemented by the TSF manager. It is used by applications and text services to install and uninstall advise sinks.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Uninstalls an advise sink.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The TSF manager has different implementations of <b>ITfSource</b>, depending upon how the <b>ITfSource</b> interface is obtained. The difference in the implementations is the types of advise sinks that can be installed with the interface. The different implementations can be obtained from the following objects.
 
@@ -220,7 +216,4 @@ if(SUCCEEDED(hr))
 }
 
 ```
-
-
-
 

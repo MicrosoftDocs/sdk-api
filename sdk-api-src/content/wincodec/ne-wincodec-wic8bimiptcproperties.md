@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: c752790c-6392-4406-b006-8f5da9f4e23d
 ms.date: 12/05/2018
 ms.keywords: WIC8BIMEmbeddedIPTC, WIC8BIMIptcPString, WIC8BIMIptcProperties, WIC8BIMIptcProperties enumeration [Windows Imaging Component], _wic_codec_wic8bimiptcproperties, wic._wic_codec_wic8bimiptcproperties, wincodec/WIC8BIMEmbeddedIPTC, wincodec/WIC8BIMIptcPString, wincodec/WIC8BIMIptcProperties
-f1_keywords:
-- wincodec/WIC8BIMIptcProperties
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WIC8BIMIptcProperties
 targetos: Windows
 req.typenames: WIC8BIMIptcProperties
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WIC8BIMIptcProperties
+ - wincodec/WIC8BIMIptcProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WIC8BIMIptcProperties
 ---
 
 # WIC8BIMIptcProperties enumeration
@@ -49,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the identifiers of the metadata items in an 8BIM IPTC block.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WIC8BIMIptcPString
 
 [VT_LPSTR] A name that identifies the 8BIM block.
 
-
 ### -field WIC8BIMIptcEmbeddedIPTC
 
-
 ### -field WIC8BIMIptcProperties_FORCE_DWORD
-
-
-
 
 #### - WIC8BIMEmbeddedIPTC
 

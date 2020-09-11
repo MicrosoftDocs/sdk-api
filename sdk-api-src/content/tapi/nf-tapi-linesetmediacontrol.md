@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 5a4fc83a-6bc9-4081-b374-ddb912fb2242
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linesetmediacontrol, lineSetMediaControl, lineSetMediaControl function [TAPI 2.2], tapi/lineSetMediaControl, tapi2.linesetmediacontrol
-f1_keywords:
-- tapi/lineSetMediaControl
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineSetMediaControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineSetMediaControl
+ - tapi/lineSetMediaControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineSetMediaControl
 ---
 
 # lineSetMediaControl function
@@ -49,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineSetMediaControl</b> function enables and disables control actions on the media stream associated with the specified line, address, or call. Media control actions can be triggered by the detection of specified digits, media types, custom tones, and call states.
 
-
 ## -parameters
-
-
-
 
 ### -param hLine
 
 Handle to an open line device.
 
-
 ### -param dwAddressID
 
 Address identifier on the given open line device. An address identifier is permanently associated with an address; the identifier remains constant across operating system upgrades.
-
 
 ### -param hCall
 
 Handle to a call. The application must be an owner of the call. The call state of <i>hCall</i> can be any state.
 
-
 ### -param dwSelect
 
 Whether the media control requested is associated with a single call, is the default for all calls on an address, or is the default for all calls on a line. This parameter one and only one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ Constants</a>.
-
 
 ### -param lpDigitList
 
@@ -90,59 +82,44 @@ Pointer to the array that contains the digits that are to trigger media control 
 
 Valid digits for pulse mode are '0' through '9'. Valid digits for DTMF mode are '0' through '9', 'A', 'B', 'C', 'D', '*', '#'.
 
-
 ### -param dwDigitNumEntries
 
 Number of entries in the <i>lpDigitList</i>.
-
 
 ### -param lpMediaList
 
 Pointer to an array with entries of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia">LINEMEDIACONTROLMEDIA</a>. The array has <i>dwMediaNumEntries</i> entries. Each entry contains a media type to be monitored, media-type specific information (such as duration), and a media control field. If a media type in the list is detected, the corresponding media control action is performed on the call's media stream.
 
-
 ### -param dwMediaNumEntries
 
 Number of entries in <i>lpMediaList</i>.
-
 
 ### -param lpToneList
 
 Pointer to an array with entries of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone">LINEMEDIACONTROLTONE</a>. The array has <i>dwToneNumEntries</i> entries. Each entry contains a description of a tone to be monitored, duration of the tone, and a media-control field. If a tone in the list is detected, the corresponding media control action is performed on the call's media stream.
 
-
 ### -param dwToneNumEntries
 
 Number of entries in <i>lpToneList</i>.
-
 
 ### -param lpCallStateList
 
 Pointer to an array with entries of type 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate">LINEMEDIACONTROLCALLSTATE</a>. The array has <i>dwCallStateNumEntries</i> entries. Each entry contains a call state and a media control action. Whenever the given call transitions into one of the call states in the list, the corresponding media control action is invoked.
 
-
 ### -param dwCallStateNumEntries
 
 Number of entries in <i>lpCallStateList</i>.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALADDRESSID, LINEERR_NOMEM, LINEERR_INVALCALLHANDLE, LINEERR_NOTOWNER, LINEERR_INVALCALLSELECT, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATELIST, LINEERR_OPERATIONFAILED, LINEERR_INVALDIGITLIST, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALLINEHANDLE, LINEERR_UNINITIALIZED, LINEERR_INVALMEDIALIST, LINEERR_INVALPOINTER, LINEERR_INVALTONELIST.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>lineSetMediaControl</b> function is considered successful if media control has been correctly initiated, not when any media control has taken effect. Media control in progress is changed or is canceled by calling this function again with either different parameters or <b>NULL</b>s. If one or more of the parameters <i>lpDigitList</i>, <i>lpMediaList</i>, <i>lpToneList</i>, and <i>lpCallStateList</i> are <b>NULL</b>, then the corresponding digit, media type, tone, or call state-triggered media control is disabled. To modify just a portion of the media control parameters while leaving the remaining settings in effect, the application should invoke 
@@ -157,13 +134,7 @@ Depending on the service provider and other activities that compete for such res
 
 Whether or not media control is supported by the service provider is a device capability.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate">LINEMEDIACONTROLCALLSTATE</a>
 
@@ -186,7 +157,4 @@ Whether or not media control is supported by the service provider is a device ca
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
- 
-
- 
 

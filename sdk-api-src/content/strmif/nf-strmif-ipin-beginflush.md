@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 15563666-5f35-46a0-ad12-215979c9d9c1
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IPin interface, IPin interface [DirectShow],BeginFlush method, IPin.BeginFlush, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush
-f1_keywords:
-- strmif/IPin.BeginFlush
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.BeginFlush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::BeginFlush
+ - strmif/IPin::BeginFlush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.BeginFlush
 ---
 
 # IPin::BeginFlush
@@ -50,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>BeginFlush</code> method begins a flush operation.
 
 
 
 Applications should not call this method. This method is called by other filters, to flush data from the graph.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,14 +91,8 @@ The pin is an output pin.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this method only on input pins. Output pins return E_UNEXPECTED.
 
@@ -124,13 +109,7 @@ When the <code>BeginFlush</code> notification reaches a renderer filter, the ren
 
 After <code>BeginFlush</code> is called, the pin rejects all samples from upstream, with a return value of S_FALSE, until the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endflush">IPin::EndFlush</a> method is called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
@@ -141,7 +120,4 @@ After <code>BeginFlush</code> is called, the pin rejects all samples from upstre
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
 

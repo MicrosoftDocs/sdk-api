@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
 ms.date: 12/05/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
-f1_keywords:
-- certpol/ICertPolicy
-dev_langs:
-- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPolicy
+ - certpol/ICertPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertPolicy
 ---
 
 # ICertPolicy interface
 
 
 ## -description
-
 
 The <b>ICertPolicy</b> interface  provides communications between the Certificate Services server engine and the policy module.
 <div class="alert"><b>Note</b>  The policy module can communicate with the Certificate Services server engine by using the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a> interface.</div><div> </div>The Certificate Services server engine calls the <b>ICertPolicy</b> methods to perform the following tasks:<ul>
@@ -66,7 +66,6 @@ Policy modules should implement both <b>ICertPolicy</b> and
 <b>ICertPolicy</b> is defined in Certpol.h. When you create your program, however, use Certsrv.h as the include file.
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -111,12 +110,9 @@ Called by the server engine before the server is terminated.</p> (Inherited from
 <td align="left" width="63%">
 Notifies the policy module that a new request has entered the system.</p> (Inherited from <b>ICertPolicy</b><a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">CCertPolicy</a>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 Only a stand-alone <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> should use custom policy or exit modules; when running an enterprise certification authority, the use of Microsoft-provided policy and exit modules is strongly recommended.
 
@@ -167,6 +163,4 @@ Implementers of <b>ICertPolicy</b> in Visual Basic Scripting Edition must name t
 <b>"</b><i>MyApp</i><b>"</b>
 
 Where <i>MyApp</i> is a specifier that identifies the application; further, the class implementing <b>ICertPolicy</b> must be named <b>"Policy"</b>.
-
-
 

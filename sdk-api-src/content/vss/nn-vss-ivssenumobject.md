@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
-f1_keywords:
-- vss/IVssEnumObject
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssEnumObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssEnumObject
+ - vss/IVssEnumObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssEnumObject
 ---
 
 # IVssEnumObject interface
 
 
 ## -description
-
 
 The <b>IVssEnumObject</b> interface contains methods 
     to iterate over and perform other operations on a list of enumerated objects.
@@ -62,7 +62,6 @@ The calling application is responsible for calling
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a> method 
     returns an <b>IVssEnumObject</b> object.
-
 
 ## -inheritance
 
@@ -115,5 +114,5 @@ Skips the specified number of objects in the list of enumerated objects.
 
 </td>
 </tr>
-</table> 
+</table>
 

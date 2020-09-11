@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: D1BA8E91-A3D1-454A-A4F6-E3C786F0BD7E
 ms.date: 12/05/2018
 ms.keywords: GetPackageFullName, GetPackageFullName function [App packaging and management], appmodel/GetPackageFullName, appxpkg.getpackagefullname
-f1_keywords:
-- appmodel/GetPackageFullName
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetPackageFullName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPackageFullName
+ - appmodel/GetPackageFullName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetPackageFullName
 ---
 
 # GetPackageFullName function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package full name for the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -72,13 +68,11 @@ Type: <b>HANDLE</b>
 
 A handle to the process that has the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-
 ### -param packageFullNameLength [in, out]
 
 Type: <b>UINT32*</b>
 
 On input, the size of the <i>packageFullName</i> buffer, in characters. On output, the size of the package full name returned, in characters, including the null terminator.
-
 
 ### -param packageFullName [out, optional]
 
@@ -86,10 +80,7 @@ Type: <b>PWSTR</b>
 
 The package full name.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -123,14 +114,8 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
@@ -214,14 +199,7 @@ void ShowProcessPackageFullName(__in const UINT32 pid, __in HANDLE process)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
 
@@ -236,7 +214,4 @@ void ShowProcessPackageFullName(__in const UINT32 pid, __in HANDLE process)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
- 
-
- 
 

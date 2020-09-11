@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: a37b72f9-4f71-433c-afad-66caae2d749a
 ms.date: 12/05/2018
 ms.keywords: DeviceDisconnect, DeviceDisconnect method [Windows Media Player], DeviceDisconnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceDisconnect method, IWMPEvents2.DeviceDisconnect, IWMPEvents2::DeviceDisconnect, IWMPEvents2DeviceDisconnect, wmp.iwmpevents2_iwmpevents2__devicedisconnect, wmp/IWMPEvents2::DeviceDisconnect
-f1_keywords:
-- wmp/IWMPEvents2.DeviceDisconnect
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPEvents2.DeviceDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents2::DeviceDisconnect
+ - wmp/IWMPEvents2::DeviceDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPEvents2.DeviceDisconnect
 ---
 
 # IWMPEvents2::DeviceDisconnect
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DeviceDisconnect</b> event occurs when the user disconnects a device from the computer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDevice [in]
 
 Address of the <b>IWMPSyncDevice</b> interface that represents the device that the user disconnected.
 
-
 ## -remarks
-
-
 
 Use <b>IWMPSyncDevice::isIdentical</b> to determine whether a particular device matches the device that the user disconnected.
 
@@ -76,13 +66,7 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 <b>Windows Media Player 10 Mobile: </b>This event is not supported.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2 Interface</a>
 
@@ -93,7 +77,4 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 6a08c948-1b25-4a36-93c8-23e7e3f4fb08
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], IRDPSRAPIApplicationFilter interface [RDP],described, rdp.irdpsrapiapplicationfilter, rdpencomapi/IRDPSRAPIApplicationFilter
-f1_keywords:
-- rdpencomapi/IRDPSRAPIApplicationFilter
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIApplicationFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIApplicationFilter
+ - rdpencomapi/IRDPSRAPIApplicationFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIApplicationFilter
 ---
 
 # IRDPSRAPIApplicationFilter interface
 
 
 ## -description
-
 
 Manages the shared desktop area at the window and process level. Applications can use the enumerators to display lists of objects in the session that can be shared.
 
@@ -58,11 +58,7 @@ The list of sharable objects is exposed as a two-level tree. Each window has an 
 
 If a shared application creates a new window that is sharable, it will be shared because the parent application is shared.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -73,7 +69,4 @@ If a shared application creates a new window that is sharable, it will be shared
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationlist">IRDPSRAPIApplicationList</a>
- 
-
- 
 

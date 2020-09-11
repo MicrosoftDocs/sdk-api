@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 58b32c87-39b6-4d64-9174-cf798ed302c2
 ms.date: 12/05/2018
 ms.keywords: IOleObject, IOleObject interface [COM], IOleObject interface [COM],described, _ole_ioleobject, com.ioleobject, oleidl/IOleObject
-f1_keywords:
-- oleidl/IOleObject
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject
+ - oleidl/IOleObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject
 ---
 
 # IOleObject interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serves as the principal means by which an embedded object provides basic functionality to, and communicates 
     with, its container.
-
 
 ## -inheritance
 
@@ -261,5 +260,5 @@ Updates an object handler's or link object's data or view caches.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
 ms.date: 12/05/2018
 ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
-f1_keywords:
-- evntprov/EventWriteString
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-eventing-provider-l1-1-0.dll
-- API-MS-Win-Eventing-Provider-L1-1-1.dll
-api_name:
-- EventWriteString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventWriteString
+ - evntprov/EventWriteString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-eventing-provider-l1-1-0.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
+api_name:
+ - EventWriteString
 ---
 
 # EventWriteString function
@@ -54,20 +55,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes an event that contains a string as its data.
 
-
 ## -parameters
-
-
-
 
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
       <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
-
 
 ### -param Level [in]
 
@@ -76,7 +71,6 @@ Level of detail included in the event. If the provider uses a manifest to define
       ensure the event is written, otherwise, the event is written based on the level rule defined in 
       <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
 
-
 ### -param Keyword [in]
 
 Bitmask that specifies the event category. If the provider uses a manifest to define the event, set this 
@@ -84,15 +78,11 @@ Bitmask that specifies the event category. If the provider uses a manifest to de
       value to 0 to ensure the event is written, otherwise, the event is written based on the keyword rules defined 
       in <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
 
-
 ### -param String [in]
 
 Null-terminated string to write as the event data.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful or one of the following values on error.
 
@@ -171,14 +161,8 @@ The real-time playback file is full. Events are not logged to the session until 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The provider does not need a manifest to use this function to write the event, unlike the 
     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> function which does require a manifest. 
@@ -191,13 +175,7 @@ ETW decides based on the level and keyword mask whether  the event is written to
 
 This function cannot be used to write events to the Admin or Operational channels.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
@@ -208,7 +186,4 @@ This function cannot be used to write events to the Admin or Operational channel
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
- 
-
- 
 

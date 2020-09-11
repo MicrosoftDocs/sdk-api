@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
 ms.date: 12/05/2018
 ms.keywords: '*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp'
-f1_keywords:
-- commctrl/LITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LITEM
 targetos: Windows
 req.typenames: LITEM, *PLITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLITEM
+ - commctrl/tagLITEM
+ - PLITEM
+ - commctrl/PLITEM
+ - LITEM
+ - commctrl/LITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LITEM
 ---
 
 # LITEM structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to set and retrieve information about a link item.
 
-
 ## -struct-fields
-
-
-
 
 ### -field mask
 
@@ -114,15 +114,12 @@ Set or get the URL for this item.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iLink
 
 Type: <b>int</b>
 
 Value of type <b>int</b> that contains the item index. This numeric index is used to access a SysLink control link.
-
 
 ### -field state
 
@@ -191,8 +188,6 @@ Enable custom text colors to be used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field stateMask
 
@@ -200,13 +195,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Combination of flags describing which state item to get or set. Allowable items are identical to those allowed in <b>state</b>.
 
-
 ### -field szID
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>[MAX_LINKID_TEXT]</b>
 
 <b>WCHAR</b> string that contains the ID name. The maximum number of characters in the array is MAX_LINKID_TEXT. The ID name cannot be used to access a SysLink control link. You use the item index to access the item.
-
 
 ### -field szUrl
 

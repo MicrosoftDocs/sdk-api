@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: 596b700f-9a16-4ed0-9ea8-8a1da7d841ae
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetLOD method, IDirectDrawSurface7.SetLOD, IDirectDrawSurface7::SetLOD, SetLOD, SetLOD method [DirectDraw], SetLOD method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetLOD, directdraw.idirectdrawsurface7_setlod
-f1_keywords:
-- ddraw/IDirectDrawSurface7.SetLOD
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.SetLOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::SetLOD
+ - ddraw/IDirectDrawSurface7::SetLOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.SetLOD
 ---
 
 # IDirectDrawSurface7::SetLOD
@@ -49,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the maximum level of detail (LOD) for a managed mipmap surface. This method succeeds only on managed textures.
 
-
 ## -parameters
-
-
-
-
-
 
 #### - dwMaxLOD [in]
 
 The maximum LOD value to be set for the mipmap chain if the call succeeds.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -80,11 +71,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 Applications can call this method only for managed textures (those surfaces that were created with the DDSCAPS2_TEXTUREMANAGE flag). If you call <b>SetLOD</b> on a nonmanaged texture, <b>SetLOD</b> fails and returns DDERR_INVALIDOBJECT.
 
@@ -94,16 +81,7 @@ Applications can call this method only for managed textures (those surfaces that
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetLOD</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
 

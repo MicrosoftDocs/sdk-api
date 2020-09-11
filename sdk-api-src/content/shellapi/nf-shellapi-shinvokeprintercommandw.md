@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c
 ms.date: 12/05/2018
 ms.keywords: PRINTACTION_DOCUMENTDEFAULTS, PRINTACTION_NETINSTALL, PRINTACTION_NETINSTALLLINK, PRINTACTION_OPEN, PRINTACTION_OPENNETPRN, PRINTACTION_PROPERTIES, PRINTACTION_SERVERPROPERTIES, PRINTACTION_TESTPAGE, SHInvokePrinterCommand, SHInvokePrinterCommand function [Windows Shell], SHInvokePrinterCommandA, SHInvokePrinterCommandW, _win32_SHInvokePrinterCommand, shell.SHInvokePrinterCommand, shellapi/SHInvokePrinterCommand, shellapi/SHInvokePrinterCommandA, shellapi/SHInvokePrinterCommandW
-f1_keywords:
-- shellapi/SHInvokePrinterCommand
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHInvokePrinterCommand
-- SHInvokePrinterCommandA
-- SHInvokePrinterCommandW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHInvokePrinterCommandW
+ - shellapi/SHInvokePrinterCommandW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHInvokePrinterCommand
+ - SHInvokePrinterCommandA
+ - SHInvokePrinterCommandW
 ---
 
 # SHInvokePrinterCommandW function
 
 
 ## -description
-
 
 Executes a command on a printer object.
             
@@ -59,15 +59,11 @@ Executes a command on a printer object.
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in, optional]
 
 Type: <b>HWND</b>
 
 The handle of the parent window of any windows or dialog boxes that are created during the operation.
-
 
 ### -param uAction
 
@@ -125,20 +121,17 @@ The type of printer operation to perform. One of the following values:
 
 0x7. Display the properties for the printer server specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored.
 
-
 ### -param lpBuf1 [in]
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a null-terminated string that contains additional information for the printer command. The information contained in this parameter depends upon the value of <i>uAction</i>.
 
-
 ### -param lpBuf2 [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a null-terminated string that contains additional information for the printer command. The information contained in this parameter depends upon the value of <i>uAction</i>.
-
 
 ### -param fModal
 
@@ -186,21 +179,13 @@ Type: <b>BOOL</b>
 
 0x4. Print a test page on the printer specified by <i>lpBuf1</i>. The <i>lpBuf2</i> parameter is ignored.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 When a printer name is specified by <i>lpBuf1</i>, the name can either be the name of a local printer or the server and share name of a network printer. When specifying a network printer name, the name must be specified in this format: 
 

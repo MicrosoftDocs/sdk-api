@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: e739acb5-4d93-4871-8b35-54d45138fe0f
 ms.date: 12/05/2018
 ms.keywords: AppendRecord, AppendRecord method [COM], AppendRecord method [COM],ILog interface, ILog interface [COM],AppendRecord method, ILog.AppendRecord, ILog::AppendRecord, _com_ilog_appendrecord, com.ilog_appendrecord, txlogpub/ILog::AppendRecord
-f1_keywords:
-- txlogpub/ILog.AppendRecord
-dev_langs:
-- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Txlogpub.h
-api_name:
-- ILog.AppendRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILog::AppendRecord
+ - txlogpub/ILog::AppendRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Txlogpub.h
+api_name:
+ - ILog.AppendRecord
 ---
 
 # ILog::AppendRecord
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Write a new record to the end of the log.
 
-
 ## -parameters
-
-
-
 
 ### -param rgBlob [in]
 
 A pointer to an array of BLOBs of data to be written.
 
-
 ### -param cBlob [in]
 
 The size of the <i>rgBlob</i> array, in elements.
-
 
 ### -param fForceNow [in]
 
 Indicates whether to force the data to disk. If <b>TRUE</b>, the contents of the log up to this record must be forced to disk before the call returns. If <b>FALSE</b>, this record may be buffered in memory to be written after the call returns successfully.
 
-
 ### -param plsn [in, out]
 
 A pointer to the LSN of the newly appended record. If the LSN of the newly appended record is not needed, this parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Each log record written or read by <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> is an opaque BLOB of data. As a convenience to callers, <b>AppendRecord</b> allows multiple BLOBs to be concatenated into a single record; because many implementations of <b>ILog</b> will copy records to a buffer in memory, it may be inefficient for the caller to allocate memory for concatenating the parts of a record. However, once a record is appended to the log, <b>ILog</b> provides no method to extract individual BLOBs from the record. It is the responsibility of the caller to parse the data in records read from the log. See <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-readrecord">ILog::ReadRecord</a>.
 
@@ -100,20 +85,11 @@ A failure return value indicates that any records appended to the log since the 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If <i>fForceNow</i> is <b>TRUE</b>, it is recommended that you flush file buffers (for example, using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function) before returning from this method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
- 
-
- 
 

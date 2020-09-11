@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 6B5E19EA-F66B-447C-B8D5-C98260E82789
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameNative, IVideoFrameNative interface [Windows Runtime], IVideoFrameNative interface [Windows Runtime],described, windows/IVideoFrameNative, winrt.ivideoframenative
-f1_keywords:
-- windows.media.core.interop/IVideoFrameNative
-dev_langs:
-- c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.core.interop.h
-api_name:
-- IVideoFrameNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoFrameNative
+ - windows.media.core.interop/IVideoFrameNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.core.interop.h
+api_name:
+ - IVideoFrameNative
 ---
 
 # IVideoFrameNative interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a frame of video data.
-
 
 ## -inheritance
 
@@ -86,16 +85,9 @@ This method returns a device associated with the video data.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
 

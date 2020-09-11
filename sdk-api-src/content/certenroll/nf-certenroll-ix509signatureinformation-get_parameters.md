@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cb5675d5-cf06-4407-a7fd-b703a56cacba
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],Parameters property, IX509SignatureInformation.Parameters, IX509SignatureInformation.get_Parameters, IX509SignatureInformation::Parameters, IX509SignatureInformation::get_Parameters, IX509SignatureInformation::put_Parameters, Parameters property [Security], Parameters property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::Parameters, certenroll/IX509SignatureInformation::get_Parameters, certenroll/IX509SignatureInformation::put_Parameters, get_Parameters, security.ix509signatureinformation_parameters_property
-f1_keywords:
-- certenroll/IX509SignatureInformation.Parameters
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509SignatureInformation.Parameters
-- IX509SignatureInformation.get_Parameters
-- IX509SignatureInformation.put_Parameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SignatureInformation::get_Parameters
+ - certenroll/IX509SignatureInformation::get_Parameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509SignatureInformation.Parameters
+ - IX509SignatureInformation.get_Parameters
+ - IX509SignatureInformation.put_Parameters
 ---
 
 # IX509SignatureInformation::get_Parameters
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Parameters</b> property retrieves a byte array that contains the parameters associated with the signature algorithm. The byte array is represented by a Unicode-encoded string.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The AlgorithmIdentifier ASN.1 object that is used in various fields of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> version 3 certificate contains an algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and optional parameters.
 
@@ -117,19 +113,7 @@ RSASSA-PSS-params ::= SEQUENCE
 <li>XCN_OID_ECDSA_SHA512 (1.2.840.10045.4.3.4)</li>
 </ul>
 
-
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
 

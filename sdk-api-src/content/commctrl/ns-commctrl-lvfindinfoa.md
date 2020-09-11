@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPFINDINFOA, LPFINDINFO, LPFINDINFO structure pointer [Windows Controls], LVFINDINFO, LVFINDINFO structure [Windows Controls], LVFINDINFOA, LVFINDINFOW, LVFI_NEARESTXY, LVFI_PARAM, LVFI_PARTIAL, LVFI_STRING, LVFI_SUBSTRING, LVFI_WRAP, _win32_LVFINDINFO, _win32_LVFINDINFO_cpp, commctrl/LPFINDINFO, commctrl/LVFINDINFO, commctrl/LVFINDINFOA, commctrl/LVFINDINFOW, controls.LVFINDINFO, controls._win32_LVFINDINFO'
-f1_keywords:
-- commctrl/LVFINDINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVFINDINFO
-- LVFINDINFOA
-- LVFINDINFOW
 targetos: Windows
 req.typenames: LVFINDINFOA, *LPFINDINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVFINDINFOA
+ - commctrl/tagLVFINDINFOA
+ - LPFINDINFOA
+ - commctrl/LPFINDINFOA
+ - LVFINDINFOA
+ - commctrl/LVFINDINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVFINDINFO
+ - LVFINDINFOA
+ - LVFINDINFOW
 ---
 
 # LVFINDINFOA structure
@@ -51,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions. 
-
+Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
 
 ## -struct-fields
-
-
-
 
 ### -field flags
 
@@ -132,8 +132,6 @@ Finds the item nearest to the position specified in the <b>pt</b> member, in the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field psz
 
@@ -141,13 +139,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Address of a null-terminated string to compare with the item text. It is valid only if LVFI_STRING or LVFI_PARTIAL is set in the <b>flags</b> member.
 
-
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
-
 
 ### -field pt
 
@@ -155,7 +151,6 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
-
 
 ### -field vkDirection
 

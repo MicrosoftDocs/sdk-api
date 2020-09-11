@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
-f1_keywords:
-- ondemandconnroutehelper/GetInterfaceContextTableForHostName
-dev_langs:
-- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OnDemandConnRouteHelper.dll
-- API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
-api_name:
-- GetInterfaceContextTableForHostName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetInterfaceContextTableForHostName
+ - ondemandconnroutehelper/GetInterfaceContextTableForHostName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OnDemandConnRouteHelper.dll
+ - API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
+api_name:
+ - GetInterfaceContextTableForHostName
 ---
 
 # GetInterfaceContextTableForHostName function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 This function retrieves an interface context table for the given hostname and connection profile filter.
 
-
 ## -parameters
-
-
-
 
 ### -param HostName [in, optional]
 
 The destination hostname.
 
-
 ### -param ProxyName [in, optional]
 
 The HTTP proxy name.
-
 
 ### -param Flags [in]
 
@@ -90,27 +84,20 @@ You can use the following flags.
 <td>Indicates whether the underlying connection should be activated or not.</td>
 </tr>
 </table>
- 
-
 
 ### -param ConnectionProfileFilterRawData [in, optional]
 
 The connection profile filter blog which is a byte cast of wcm_selection_filters.
 
-
 ### -param ConnectionProfileFilterRawDataSize [in]
 
 The size of the <i>ConnectionProfileFilterRawData</i> in bytes.
-
 
 ### -param InterfaceContextTable [out]
 
 This is set to the list of <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures containing the interface indices and configuration names that can be used for the hostname and filter.
 
-
 ## -returns
-
-
 
 This function returns the following <b>HRESULT</b> values depending on the status.
 
@@ -166,22 +153,12 @@ This is returned because of failures that are outside the control of this functi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a>
 
 
 
 <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a>
- 
-
- 
 

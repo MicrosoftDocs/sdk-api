@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 0ec18926-1ee9-4e28-9284-9d95d06be2e4
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetCredentials, MprAdminInterfaceGetCredentials function [RAS], _mpr_mpradmininterfacegetcredentials, mprapi/MprAdminInterfaceGetCredentials, rras.mpradmininterfacegetcredentials
-f1_keywords:
-- mprapi/MprAdminInterfaceGetCredentials
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceGetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceGetCredentials
+ - mprapi/MprAdminInterfaceGetCredentials
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceGetCredentials
 ---
 
 # MprAdminInterfaceGetCredentials function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>MprAdminInterfaceGetCredentials</b> function to retrieve the domain, user name, and password for dialing out on the specified demand-dial interface.
 
-
 ## -parameters
-
-
-
 
 ### -param lpwsServer [in]
 
@@ -68,12 +64,10 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the name of th
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the call is executed on the local machine.
 
-
 ### -param lpwsInterfaceName [in]
 
 Pointer to a <b>null</b>-terminated Unicode string that specifies the name of the demand-dial interface. Use 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a> to obtain the interface name.
-
 
 ### -param lpwsUserName [out]
 
@@ -84,7 +78,6 @@ Pointer to a Unicode string that receives the name of the user. This string shou
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not return the user name.
 
-
 ### -param lpwsPassword [out]
 
 Pointer to a Unicode string that receives the password. This string should be PWLEN+1 long. 
@@ -93,7 +86,6 @@ Pointer to a Unicode string that receives the password. This string should be PW
 
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not return the password.
-
 
 ### -param lpwsDomainName [out]
 
@@ -104,10 +96,7 @@ Pointer to a Unicode string that receives the domain name. This string should be
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not return the domain name.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -165,14 +154,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>lpwsUserName</i>, <i>lpwsPassword</i>, and <i>lpwsDomainName</i> parameters are optional. If the calling application specifies <b>NULL</b> for all three parameters, 
 <b>MprAdminInterfaceGetCredentials</b> returns NO_ERROR and the domain, user name, and password are not returned.
@@ -183,13 +166,7 @@ Note that the order of the parameters in
 <b>MprAdminInterfaceGetCredentials</b> is different from 
 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials">MprAdminInterfaceSetCredentials</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
@@ -204,7 +181,4 @@ Note that the order of the parameters in
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
 

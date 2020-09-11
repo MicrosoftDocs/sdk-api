@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB
 ms.date: 12/05/2018
 ms.keywords: IColumnMapperCreator, IColumnMapperCreator interface [search], IColumnMapperCreator interface [search],described, indexsrv/IColumnMapperCreator, search.icolumnmappercreator
-f1_keywords:
-- indexsrv/IColumnMapperCreator
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- indexsrv.h
-api_name:
-- IColumnMapperCreator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IColumnMapperCreator
+ - indexsrv/IColumnMapperCreator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - indexsrv.h
+api_name:
+ - IColumnMapperCreator
 ---
 
 # IColumnMapperCreator interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a method to retrieves a column mapper object.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Retrieves a column mapper object.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: b21a460b-63cb-49c1-bd6c-a747df495efc
 ms.date: 12/05/2018
 ms.keywords: D3D10_CT_CBUFFER, D3D10_CT_TBUFFER, D3D11_CT_CBUFFER, D3D11_CT_INTERFACE_POINTERS, D3D11_CT_RESOURCE_BIND_INFO, D3D11_CT_TBUFFER, D3D_CBUFFER_TYPE, D3D_CBUFFER_TYPE enumeration [Direct3D 11], D3D_CT_CBUFFER, D3D_CT_INTERFACE_POINTERS, D3D_CT_RESOURCE_BIND_INFO, D3D_CT_TBUFFER, d3dcommon/D3D10_CT_CBUFFER, d3dcommon/D3D10_CT_TBUFFER, d3dcommon/D3D11_CT_CBUFFER, d3dcommon/D3D11_CT_INTERFACE_POINTERS, d3dcommon/D3D11_CT_RESOURCE_BIND_INFO, d3dcommon/D3D11_CT_TBUFFER, d3dcommon/D3D_CBUFFER_TYPE, d3dcommon/D3D_CT_CBUFFER, d3dcommon/D3D_CT_INTERFACE_POINTERS, d3dcommon/D3D_CT_RESOURCE_BIND_INFO, d3dcommon/D3D_CT_TBUFFER, direct3d11.d3d_cbuffer_type
-f1_keywords:
-- d3dcommon/D3D_CBUFFER_TYPE
-dev_langs:
-- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3DCommon.h
-api_name:
-- D3D_CBUFFER_TYPE
 targetos: Windows
 req.typenames: D3D_CBUFFER_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3D_CBUFFER_TYPE
+ - d3dcommon/_D3D_CBUFFER_TYPE
+ - D3D_CBUFFER_TYPE
+ - d3dcommon/D3D_CBUFFER_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3DCommon.h
+api_name:
+ - D3D_CBUFFER_TYPE
 ---
 
 ## -description
@@ -96,3 +99,4 @@ A buffer containing binding information.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
+

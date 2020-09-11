@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb
 ms.date: 12/05/2018
 ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System], _color_PrimaryJabColors_str, wcs.primaryjabcolors, wcsplugin/PrimaryJabColors
-f1_keywords:
-- wcsplugin/PrimaryJabColors
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WcsPlugIn.h
-api_name:
-- PrimaryJabColors
 targetos: Windows
 req.typenames: PrimaryJabColors
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PrimaryJabColors
+ - wcsplugin/_PrimaryJabColors
+ - PrimaryJabColors
+ - wcsplugin/PrimaryJabColors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WcsPlugIn.h
+api_name:
+ - PrimaryJabColors
 ---
 
 # PrimaryJabColors structure
@@ -49,69 +52,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This structure contains eight primary colors in Jab coordinates.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field red
 
 Red primary.
 
-
 ### -field yellow
 
 Yellow primary.
-
 
 ### -field green
 
 Green primary.
 
-
 ### -field cyan
 
 Cyan primary.
-
 
 ### -field blue
 
 Blue primary.
 
-
 ### -field magenta
 
 Magenta primary.
-
 
 ### -field black
 
 Black primary.
 
-
 ### -field white
 
 White primary.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/structures">Structures</a>
- 
-
- 
 

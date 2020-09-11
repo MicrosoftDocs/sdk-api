@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 4e1f4300-057d-40df-8e5c-75765f9ce337
 ms.date: 12/05/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [windows Media Device Manager], GetObjectAttributes method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectAttributes method, IWMDMOperation.GetObjectAttributes, IWMDMOperation::GetObjectAttributes, IWMDMOperationGetObjectAttributes, mswmdm/IWMDMOperation::GetObjectAttributes, wmdm.iwmdmoperation_getobjectattributes
-f1_keywords:
-- mswmdm/IWMDMOperation.GetObjectAttributes
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMOperation.GetObjectAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMOperation::GetObjectAttributes
+ - mswmdm/IWMDMOperation::GetObjectAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMOperation.GetObjectAttributes
 ---
 
 # IWMDMOperation::GetObjectAttributes
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetObjectAttributes</b> method allows the application to specify attributes for an object being written to a device. Windows Media Device Manager calls this method before a file is written to the device in order to learn the file's attributes.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwAttributes [out]
 
 Pointer to a <b>DWORD</b> that specifies the attributes defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a> method.
 
-
 ### -param pFormat [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies the audio format for files with audio data attributes.
 
-
 ## -returns
-
-
 
 The application should return one of the following <b>HRESULT</b> values.
 
@@ -117,14 +106,8 @@ An unspecified error occurred, and the read operation should be cancelled withou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When transferring data to the device, you should provide object attributes for optimal transferrence.
 
@@ -160,14 +143,7 @@ HRESULT GetObjectAttributes(DWORD* pdwAttributes, _WAVEFORMATEX* pFormat)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
@@ -178,7 +154,4 @@ HRESULT GetObjectAttributes(DWORD* pdwAttributes, _WAVEFORMATEX* pFormat)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes">IWMDMOperation::SetObjectAttributes</a>
- 
-
- 
 

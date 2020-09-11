@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 ms.date: 12/05/2018
 ms.keywords: EnableTrace, EnableTrace function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, _evt_enabletrace, base.enabletrace, etw.enabletrace, evntrace/EnableTrace
-f1_keywords:
-- evntrace/EnableTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- EnableTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnableTrace
+ - evntrace/EnableTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-eventing-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - EnableTrace
 ---
 
 # EnableTrace function
@@ -51,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables the specified classic event trace provider. 
 		
 
 On Windows Vista and later, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function to enable or disable a provider.
 
-
 ## -parameters
-
-
-
 
 ### -param Enable [in]
 
 If <b>TRUE</b>, the provider is enabled; otherwise, the provider is disabled.
-
 
 ### -param EnableFlag [in]
 
 Provider-defined value that specifies the class of events for which the provider generates events. A provider that generates only one class of events will typically ignore this flag. If the provider is more complex, the provider could use the <i>TraceGuidReg</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to register more than one class of events. For example, if the provider has a database component, a UI component, and a general processing component, the provider could register separate event classes for these components. This would then allow the controller the ability to turn on tracing in only the database component. 
 
 The provider calls <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> from its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function to obtain the enable flags.
-
 
 ### -param EnableLevel [in]
 
@@ -145,23 +139,17 @@ Detailed trace events
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ControlGuid [in]
 
 GUID of the event trace provider that you want to enable or disable.
-
 
 ### -param TraceHandle [in]
 
 Handle of the event tracing session to which you want to enable, disable, or change the logging level of the provider. The 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is ERROR_SUCCESS.
 						
@@ -240,14 +228,8 @@ Only users with administrative privileges, users in the Performance Log Users gr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -293,12 +275,7 @@ For an example that uses
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a>
 
@@ -325,7 +302,4 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
- 
-
- 
 

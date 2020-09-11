@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 9ebe8b85-7500-405f-98c2-6f51f3339629
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogComplete, RasSecurityDialogComplete function [RAS], _ras_rassecuritydialogcomplete, rasshost/RasSecurityDialogComplete, rras.rassecuritydialogcomplete
-f1_keywords:
-- rasshost/RasSecurityDialogComplete
-dev_langs:
-- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Rasman.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasman.dll
-api_name:
-- RasSecurityDialogComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasSecurityDialogComplete
+ - rasshost/RasSecurityDialogComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasman.dll
+api_name:
+ - RasSecurityDialogComplete
 ---
 
 # RasSecurityDialogComplete function
 
 
 ## -description
-
 
 The 
 <b>RasSecurityDialogComplete</b> function notifies the RAS server of the results of a third-party security authentication transaction. A third-party RAS security DLL calls 
@@ -64,30 +64,18 @@ The RAS server passes a pointer to the
 
 ## -parameters
 
-
-
-
 ### -param pSecMsg [in]
 
 Pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a> structure that specifies the results of the authentication transaction.
 
-
 ## -remarks
-
-
 
 When a security DLL has finished authenticating the remote user, it calls the 
 <b>RasSecurityDialogComplete</b> function to report the results. The RAS server then performs a cleanup sequence. As part of this cleanup sequence, the RAS server calls the security DLL's 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogend">RasSecurityDialogEnd</a> function to give the DLL an opportunity to perform its own cleanup, if necessary.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
 
@@ -106,7 +94,4 @@ When a security DLL has finished authenticating the remote user, it calls the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-security_message">SECURITY_MESSAGE</a>
- 
-
- 
 

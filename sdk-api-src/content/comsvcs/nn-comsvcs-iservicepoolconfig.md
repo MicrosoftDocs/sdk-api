@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 026abfcf-56b5-4821-a9d4-37beeb3a052b
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], IServicePoolConfig interface [COM+],described, _cos_IServicePoolConfig, comsvcs/IServicePoolConfig, cos.iservicepoolconfig
-f1_keywords:
-- comsvcs/IServicePoolConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServicePoolConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServicePoolConfig
+ - comsvcs/IServicePoolConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServicePoolConfig
 ---
 
 # IServicePoolConfig interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to configure an object pool.
-
-
 
 ## -inheritance
 
@@ -159,16 +157,9 @@ Sets whether objects involved in transactions are held until the transaction com
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
- 
-
- 
 

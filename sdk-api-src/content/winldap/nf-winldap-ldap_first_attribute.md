@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 2a654ef4-519f-41a7-943e-3befe5c932e8
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_first_attribute, ldap.ldap__first__attribute, ldap.ldap_first_attribute, ldap_first_attribute, ldap_first_attribute function [LDAP], ldap_first_attributeA, ldap_first_attributeW, winldap/ldap_first_attribute, winldap/ldap_first_attributeA, winldap/ldap_first_attributeW
-f1_keywords:
-- winldap/ldap_first_attribute
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_first_attribute
-- ldap_first_attributeA
-- ldap_first_attributeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_first_attribute
+ - winldap/ldap_first_attribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_first_attribute
+ - ldap_first_attributeA
+ - ldap_first_attributeW
 ---
 
 # ldap_first_attribute function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 For a given directory entry, the <b>ldap_first_attribute</b> function returns the first attribute.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
-
 
 ### -param entry [in]
 
@@ -71,26 +66,17 @@ The entry whose attributes are to be stepped through, as returned by
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_first_entry">ldap_first_entry</a> or 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>.
 
-
 ### -param ptr [out]
 
 The address of a pointer used internally to track the current position in the entry.
 
-
 ## -returns
-
-
 
 A pointer to a null-terminated string. If the function succeeds, it returns a pointer to an allocated buffer that contains the current attribute name. When there are no more attributes to step through, it returns <b>NULL</b>. The session error parameter in the LDAP data structure is set to 0 in either case.
 
 If the function fails, it returns <b>NULL</b> and sets the session error parameter in the LDAP data structure to the LDAP error code.
 
-
-
-
 ## -remarks
-
-
 
 Use 
 <b>ldap_first_attribute</b> in conjunction with 
@@ -110,13 +96,7 @@ Both
 <b>ldap_first_attribute</b> or  
 <b>ldap_next_attribute</b>, the user should make a copy of the attribute name if it must be preserved for processing.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
@@ -151,7 +131,4 @@ Both
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
- 
-
- 
 

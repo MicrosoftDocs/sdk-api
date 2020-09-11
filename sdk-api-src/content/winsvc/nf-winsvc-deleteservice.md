@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0
 ms.date: 12/05/2018
 ms.keywords: DeleteService, DeleteService function, _win32_deleteservice, base.deleteservice, winsvc/DeleteService
-f1_keywords:
-- winsvc/DeleteService
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l1-1-0.dll
-api_name:
-- DeleteService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteService
+ - winsvc/DeleteService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l1-1-0.dll
+api_name:
+ - DeleteService
 ---
 
 # DeleteService function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks the specified service for deletion from the service control manager database.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -68,10 +64,7 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the DELETE access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -119,14 +112,8 @@ The specified service has already been marked for deletion.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>DeleteService</b> function marks a service for deletion from the service control manager database. The database entry is not removed until all open handles to the service have been closed by calls to the 
@@ -143,12 +130,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-closeservicehandle">CloseServiceHandle</a>
 
@@ -171,7 +153,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
- 
-
- 
 

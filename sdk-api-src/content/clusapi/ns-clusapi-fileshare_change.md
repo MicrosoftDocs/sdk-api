@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: f317f162-49b2-43df-a298-e2de707e089a
 ms.date: 12/05/2018
 ms.keywords: '*PFILESHARE_CHANGE, FILESHARE_CHANGE, FILESHARE_CHANGE structure [Failover Cluster], FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_MODIFY, PFILESHARE_CHANGE, PFILESHARE_CHANGE structure pointer [Failover Cluster], clusapi/FILESHARE_CHANGE, clusapi/PFILESHARE_CHANGE, mscs.fileshare_change'
-f1_keywords:
-- clusapi/FILESHARE_CHANGE
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- FILESHARE_CHANGE
 targetos: Windows
 req.typenames: FILESHARE_CHANGE, *PFILESHARE_CHANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILESHARE_CHANGE
+ - clusapi/_FILESHARE_CHANGE
+ - PFILESHARE_CHANGE
+ - clusapi/PFILESHARE_CHANGE
+ - FILESHARE_CHANGE
+ - clusapi/FILESHARE_CHANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - FILESHARE_CHANGE
 ---
 
 # FILESHARE_CHANGE structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the format for an entry in an event notification list.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Change
 
@@ -84,23 +84,15 @@ A file share resource has been deleted and will be removed from the file shares 
 
 One or more properties of an existing file share resource have been changed.
 
-
 ### -field ShareName
 
 The name of the file share resource specific to this entry in the event notification list.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: 4BBA4E21-29ED-413D-90D6-161D31CC13C9
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IXMLHTTPRequest2.SetProperty, IXMLHTTPRequest2::SetProperty, SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
-f1_keywords:
-- msxml6/IXMLHTTPRequest2.SetProperty
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2::SetProperty
+ - msxml6/IXMLHTTPRequest2::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2.SetProperty
 ---
 
 # IXMLHTTPRequest2::SetProperty
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a property on an outgoing HTTP request.
 
-
 ## -parameters
-
-
-
 
 ### -param eProperty [in]
 
@@ -166,8 +162,6 @@ This property is supported by the <a href="https://docs.microsoft.com/previous-v
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ullValue [in]
 
@@ -305,21 +299,12 @@ The number of milliseconds, up to 0xFFFFFFFF, that the app waits before timing o
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> on success.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface is extended on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface with new properties to support new scenarios:
 
@@ -331,14 +316,7 @@ The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previou
 <li>XHR_PROP_IGNORE_CERT_ERRORS – Suppresses certain server certificate errors.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
@@ -357,7 +335,4 @@ The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previou
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_property">XHR_PROPERTY Enumeration</a>
- 
-
- 
 

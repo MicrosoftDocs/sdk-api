@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_WORKER, CLUS_WORKER, CLUS_WORKER structure [Failover Cluster], PCLUS_WORKER, PCLUS_WORKER structure pointer [Failover Cluster], _wolf_clus_worker, mscs.clus_worker, resapi/CLUS_WORKER, resapi/PCLUS_WORKER'
-f1_keywords:
-- resapi/CLUS_WORKER
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ResApi.h
-api_name:
-- CLUS_WORKER
 targetos: Windows
 req.typenames: CLUS_WORKER, *PCLUS_WORKER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUS_WORKER
+ - resapi/CLUS_WORKER
+ - PCLUS_WORKER
+ - resapi/PCLUS_WORKER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ResApi.h
+api_name:
+ - CLUS_WORKER
 ---
 
 # CLUS_WORKER structure
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a worker thread.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hThread
 
 Handle to the worker thread.
 
-
 ### -field Terminate
 
 Flag that indicates whether the thread is to be terminated.
 
-
 ## -remarks
-
-
 
 A worker thread is a thread that is created to offload work from a main thread so that the main thread is not blocked.
 
@@ -81,13 +75,7 @@ The
 <b>Terminate</b> to <b>TRUE</b>. Subsequent calls return immediately after checking the value of 
 <b>Terminate</b> without waiting for the thread to exit.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a>
 
@@ -98,7 +86,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 97e2644c-5298-4dea-b35a-fc0e2c74f9c8
 ms.date: 12/05/2018
 ms.keywords: GetBValue, GetBValue macro [Windows GDI], _win32_GetBValue, gdi.getbvalue, wingdi/GetBValue
-f1_keywords:
-- wingdi/GetBValue
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- GetBValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetBValue
+ - wingdi/GetBValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - GetBValue
 ---
 
 # GetBValue macro
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetBValue</b> macro retrieves an intensity value for the blue component of a red, green, blue (RGB) value.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param rgb
 
 Specifies an RGB color value.
 
-
 ## -remarks
-
-
 
 The intensity value is in the range 0 through 255.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/color-macros">Color Macros</a>
 
@@ -105,7 +89,4 @@ The intensity value is in the range 0 through 255.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
- 
-
- 
 

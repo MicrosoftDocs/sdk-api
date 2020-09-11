@@ -8,10 +8,6 @@ tech.root: ics
 ms.assetid: 56d2877b-8e94-4e9a-8d84-5a0263ef825d
 ms.date: 12/05/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingEveryConnectionCollection.get__NewEnum, INetSharingEveryConnectionCollection::get__NewEnum, _ics_inetsharingeveryconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get__newenum, netcon/INetSharingEveryConnectionCollection::get__NewEnum
-f1_keywords:
-- netcon/INetSharingEveryConnectionCollection.get__NewEnum
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingEveryConnectionCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingEveryConnectionCollection::get__NewEnum
+ - netcon/INetSharingEveryConnectionCollection::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingEveryConnectionCollection.get__NewEnum
 ---
 
 # INetSharingEveryConnectionCollection::get__NewEnum
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get__NewEnum</b> method retrieves an enumerator for the connections collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to an interface pointer that, on successful return, receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,15 +161,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingeveryconnectioncollection">INetSharingEveryConnectionCollection</a>
 
@@ -187,7 +173,4 @@ The method failed for unknown reasons.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
 

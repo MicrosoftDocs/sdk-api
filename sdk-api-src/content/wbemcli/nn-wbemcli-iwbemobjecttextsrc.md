@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: b86fd54e-15a8-4a08-ba29-5bc086ababf8
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectTextSrc, IWbemObjectTextSrc interface [Windows Management Instrumentation], IWbemObjectTextSrc interface [Windows Management Instrumentation],described, WbemObjectTextSrc, _hmm_iwbemobjecttextsrc, wbemcli/IWbemObjectTextSrc, wmi.iwbemobjecttextsrc
-f1_keywords:
-- wbemcli/IWbemObjectTextSrc
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IWbemObjectTextSrc
-- IWbemObjectTextSrc.CreateFromText
-- WbemObjectTextSrc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemObjectTextSrc
+ - wbemcli/IWbemObjectTextSrc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IWbemObjectTextSrc
+ - IWbemObjectTextSrc.CreateFromText
+ - WbemObjectTextSrc
 ---
 
 # IWbemObjectTextSrc interface
@@ -51,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemObjectTextSrc</b> interface is used to translate 
 <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instances to and from differing text formats.
-
 
 ## -inheritance
 
@@ -88,20 +87,13 @@ Creates a textual representation of a class or object instance.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>
- 
-
- 
 

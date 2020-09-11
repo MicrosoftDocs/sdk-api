@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2c3dc668-1745-49f4-9cd1-3bf0b322d0b2
 ms.date: 12/05/2018
 ms.keywords: AssociateControllers, AssociateControllers method [VDS], AssociateControllers method [VDS],IVdsLun interface, IVdsLun interface [VDS],AssociateControllers method, IVdsLun.AssociateControllers, IVdsLun::AssociateControllers, base.ivdslun_associatecontrollers, vds/IVdsLun::AssociateControllers, vdshwprv/IVdsLun::AssociateControllers
-f1_keywords:
-- vdshwprv/IVdsLun.AssociateControllers
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsLun.AssociateControllers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsLun::AssociateControllers
+ - vdshwprv/IVdsLun::AssociateControllers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsLun.AssociateControllers
 ---
 
 # IVdsLun::AssociateControllers
@@ -50,42 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the subsystem controllers to active or inactive with respect to the LUN.
 
-
 ## -parameters
-
-
-
 
 ### -param pActiveControllerIdArray [in]
 
 A pointer to an array of controller GUIDs. The provider sets these controllers to active. This array 
       includes controllers already set to active that are to remain so.
 
-
 ### -param lNumberOfActiveControllers [in]
 
 The number of controllers specified in the <i>pActiveControllerArray</i> parameter.
-
 
 ### -param pInactiveControllerIdArray [in]
 
 A pointer to an array of controller GUIDs. The provider sets these controllers to inactive. This array 
       includes controllers already set to inactive that are to remain so.
 
-
 ### -param lNumberOfInactiveControllers [in]
 
 The number of controllers specified in the  <i>pInactiveControllerIdArray</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -172,14 +162,8 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller must include each subsystem controller in exactly one of either the 
     <i>pActiveControllerIdArray</i> parameter or the 
@@ -198,13 +182,7 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdsh
     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-queryassociatedluns">IVdsController::QueryAssociatedLuns</a> 
     method to query the LUNs associated with a particular controller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-queryassociatedluns">IVdsController::QueryAssociatedLuns</a>
 
@@ -223,7 +201,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdsh
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-queryactivecontrollers">IVdsLun::QueryActiveControllers</a>
- 
-
- 
 

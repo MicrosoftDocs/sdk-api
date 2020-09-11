@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
 ms.date: 12/05/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
-f1_keywords:
-- shobjidl/IShellRunDll
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl.h
-api_name:
-- IShellRunDll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellRunDll
+ - shobjidl/IShellRunDll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl.h
+api_name:
+ - IShellRunDll
 ---
 
 # IShellRunDll interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Not currently supported.
 
 </td>
 </tr>
-</table> 
+</table>
 

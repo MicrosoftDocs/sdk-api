@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.date: 12/05/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
-f1_keywords:
-- processthreadsapi/SetProcessInformation
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-- KernelBase.dll
-api_name:
-- SetProcessInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessInformation
+ - processthreadsapi/SetProcessInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+ - KernelBase.dll
+api_name:
+ - SetProcessInformation
 ---
 
 # SetProcessInformation function
@@ -51,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Sets information for the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
@@ -68,11 +64,9 @@ A handle to the process. This handle must have the <b>PROCESS_SET_INFORMATION</b
       right. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-
 ### -param ProcessInformationClass [in]
 
-A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to set.  
-
+A member of the [PROCESS_INFORMATION_CLASS](/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_information_class) enumeration specifying the kind of information to set.
 
 ### -param ProcessInformation
 
@@ -91,7 +85,6 @@ If the <i>ProcessInformationClass</i> parameter is
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
        <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
 
-
 ### -param ProcessInformationSize [in]
 
 The size in bytes of the structure specified by the <i>ProcessInformation</i> parameter.
@@ -108,22 +101,14 @@ If the <i>ProcessInformationClass</i> parameter is
        <b>ProcessLeapSecondInfo</b>, this parameter must be 
        <code>sizeof(PROCESS_LEAP_SECOND_INFO)</code>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 To help improve system performance, applications should use the 
     <b>SetProcessInformation</b> function with 
@@ -216,12 +201,7 @@ SetProcessInformation(GetCurrentProcess(),
                       sizeof(PowerThrottling));
  </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessinformation">GetProcessInformation</a>
 
@@ -236,7 +216,4 @@ SetProcessInformation(GetCurrentProcess(),
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetThreadInformation</a>
- 
-
- 
 

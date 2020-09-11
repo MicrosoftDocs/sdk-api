@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 7e1968f9-548c-4002-848b-9443d12ea0a7
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],HResult property, IUpdateHistoryEntry.HResult, IUpdateHistoryEntry.get_HResult, IUpdateHistoryEntry::HResult, IUpdateHistoryEntry::get_HResult, get_HResult, wua.iupdatehistoryentry_hresult, wuapi/IUpdateHistoryEntry::HResult, wuapi/IUpdateHistoryEntry::get_HResult
-f1_keywords:
-- wuapi/IUpdateHistoryEntry.HResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateHistoryEntry.HResult
-- IUpdateHistoryEntry.get_HResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateHistoryEntry::get_HResult
+ - wuapi/IUpdateHistoryEntry::get_HResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateHistoryEntry.HResult
+ - IUpdateHistoryEntry.get_HResult
 ---
 
 # IUpdateHistoryEntry::get_HResult
@@ -50,35 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the <b>HRESULT</b> value that is returned from the operation on an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The returned value is a mapped exception code. To retrieve the actual exception code, use the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode">UnmappedResultCode</a> property.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode">UnmappedResultCode</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
 ms.date: 12/05/2018
 ms.keywords: ControlTrace, ControlTrace function [ETW], ControlTraceA, ControlTraceW, EVENT_TRACE_CONTROL_FLUSH, EVENT_TRACE_CONTROL_QUERY, EVENT_TRACE_CONTROL_STOP, EVENT_TRACE_CONTROL_UPDATE, _evt_controltrace, base.controltrace, etw.controltrace, evntrace/ControlTrace, evntrace/ControlTraceA, evntrace/ControlTraceW
-f1_keywords:
-- evntrace/ControlTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- AdvApi32Legacy.dll
-- KernelBase.dll
-api_name:
-- ControlTrace
-- ControlTraceA
-- ControlTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ControlTraceW
+ - evntrace/ControlTraceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+ - AdvApi32Legacy.dll
+ - KernelBase.dll
+api_name:
+ - ControlTrace
+ - ControlTraceA
+ - ControlTraceW
 ---
 
 # ControlTraceW function
@@ -57,15 +58,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ControlTrace</b> function flushes, queries, updates, or 
    stops the specified event tracing session.
 
-
 ## -parameters
-
-
-
 
 ### -param TraceHandle [in]
 
@@ -75,7 +71,6 @@ Handle to an event tracing session, or <b>NULL</b>. You must specify
       <b>NULL</b>. The handle is returned by the 
       <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
-
 ### -param InstanceName [in]
 
 Name of an event tracing session, or <b>NULL</b>. You must specify 
@@ -84,7 +79,6 @@ Name of an event tracing session, or <b>NULL</b>. You must specify
 
 To specify the NT Kernel Logger session, set <i>SessionName</i> to 
       <b>KERNEL_LOGGER_NAME</b>.
-
 
 ### -param Properties [in, out]
 
@@ -155,7 +149,6 @@ If you call the <b>ControlTrace</b> function to query the
 
 <b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>ControlTrace</b> for  system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
-
 ### -param ControlCode [in]
 
 Requested control function. You can specify one of the following values. 
@@ -214,10 +207,7 @@ Updates the session properties.
 
 Note that it is not safe to flush buffers or stop a trace session from DllMain.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
       
@@ -322,14 +312,8 @@ The given session is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -347,9 +331,6 @@ This function supersedes the <a href="https://docs.microsoft.com/windows/desktop
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
 
 
@@ -359,7 +340,4 @@ This function supersedes the <a href="https://docs.microsoft.com/windows/desktop
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 45134db8-059b-43d3-90c2-9b6cc970fca0
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx
-f1_keywords:
-- wincrypt/CryptEncodeObjectEx
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptEncodeObjectEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptEncodeObjectEx
+ - wincrypt/CryptEncodeObjectEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptEncodeObjectEx
 ---
 
 # CryptEncodeObjectEx function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptEncodeObjectEx</b> function encodes a structure of the type indicated by the value of the <i>lpszStructType</i> parameter. This function offers a significant performance improvement over 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> by supporting memory allocation with the <b>CRYPT_ENCODE_ALLOC_FLAG</b> value.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -91,8 +87,6 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszStructType [in]
 
@@ -101,11 +95,9 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-g
 For more information about object identifier strings, their predefined constants and corresponding structures, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
-
 ### -param pvStructInfo [in]
 
 A pointer to the structure to be encoded. The structure must be of the type specified by <i>lpszStructType</i>.
-
 
 ### -param dwFlags [in]
 
@@ -185,8 +177,6 @@ This flag is applicable when encoding an X509_UNICODE_NAME. When set, CERT_RDN_U
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pEncodePara [in]
 
@@ -197,7 +187,6 @@ If either <i>pEncodePara</i> or the <b>pfnAlloc</b> member of <i>pEncodePara</i>
 
 If both <i>pEncodePara</i> and the <b>pfnAlloc</b> member of <i>pEncodePara</i> are not <b>NULL</b>, then the function pointed to by the <b>pfnAlloc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encode_para">CRYPT_ENCODE_PARA</a> structure pointed to by <i>pEncodePara</i> is called for the allocation. The function pointed to by the <b>pfnFree</b> member of <i>pEncodePara</i> must be called to free the memory.
 
-
 ### -param pvEncoded [out]
 
 A pointer to a buffer to receive the encoded structure. The size of this buffer is specified in the <i>pcbEncoded</i> parameter. When the buffer that is specified is not large enough to receive the decoded structure, the function sets the <b>ERROR_MORE_DATA</b> code and stores the required buffer size, in bytes, in the variable pointed to by <i>pcbEncoded</i>.
@@ -206,7 +195,6 @@ This parameter can be <b>NULL</b> to retrieve the size of the buffer for memory 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 If <i>dwFlags</i> contains the <b>CRYPT_ENCODE_ALLOC_FLAG</b> flag, <i>pvEncoded</i> is not a pointer to a buffer but is the address of a pointer to the buffer. Because memory is allocated inside the function and the pointer is stored in <i>pvEncoded</i>, <i>pvEncoded</i> cannot be <b>NULL</b>.
-
 
 ### -param pcbEncoded [in, out]
 
@@ -218,8 +206,6 @@ When <i>dwFlags</i> contains the <b>CRYPT_ENCODE_ALLOC_FLAG</b> flag, <i>pcbEnco
 <div> </div>
 
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise.
 
@@ -270,12 +256,7 @@ If the buffer specified by the <i>pvEncoded</i> parameter is not large enough to
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 When encoding a cryptographic object using the preferred <b>CryptEncodeObjectEx</b> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a> function, the terminating <b>NULL</b> character is not retained.
 
@@ -487,14 +468,7 @@ if(pbEncoded)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
 
@@ -509,7 +483,4 @@ if(pbEncoded)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Object Encoding and Decoding Functions</a>
- 
-
- 
 

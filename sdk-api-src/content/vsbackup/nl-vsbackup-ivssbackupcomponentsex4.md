@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx4
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx4
+ - vsbackup/IVssBackupComponentsEx4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx4
 ---
 
 # IVssBackupComponentsEx4 class
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines additional methods to support the processing of UNC file share paths in a requester.
 
 To obtain an instance of the <b>IVssBackupComponentsEx4</b> 
    interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx4</b> constant as the interface identifier (IID) parameter.
-
 
 ## -inheritance
 
@@ -82,13 +81,9 @@ Normalizes a local volume path or UNC share path so that it can be passed to the
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -103,7 +98,4 @@ Normalizes a local volume path or UNC share path so that it can be passed to the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
- 
-
- 
 

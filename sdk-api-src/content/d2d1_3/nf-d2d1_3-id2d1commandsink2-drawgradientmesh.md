@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 19adf39c-5eec-aa77-9022-1b69ef924679
 ms.date: 12/05/2018
 ms.keywords: DrawGradientMesh, DrawGradientMesh method [Direct2D], DrawGradientMesh method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawGradientMesh method, ID2D1CommandSink2.DrawGradientMesh, ID2D1CommandSink2::DrawGradientMesh, d2d1_3/ID2D1CommandSink2::DrawGradientMesh, direct2d.id2d1commandsink2_drawgradientmesh
-f1_keywords:
-- d2d1_3/ID2D1CommandSink2.DrawGradientMesh
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1CommandSink2.DrawGradientMesh
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandSink2::DrawGradientMesh
+ - d2d1_3/ID2D1CommandSink2::DrawGradientMesh
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandSink2.DrawGradientMesh
 ---
 
 # ID2D1CommandSink2::DrawGradientMesh
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renders a given gradient mesh to the target.
 
-
 ## -parameters
-
-
-
 
 ### -param gradientMesh [in]
 
@@ -64,23 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_
 
 The gradient mesh to be rendered.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>
- 
-
- 
 

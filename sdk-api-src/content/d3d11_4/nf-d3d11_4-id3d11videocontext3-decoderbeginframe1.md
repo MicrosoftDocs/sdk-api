@@ -6,10 +6,6 @@ tech.root: direct3d11
 helpviewer_keywords: ["ID3D11VideoContext3::DecoderBeginFrame1"]
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3::DecoderBeginFrame1
-f1_keywords:
-- ID3D11VideoContext3::DecoderBeginFrame1
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,14 +26,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D11VideoContext3::DecoderBeginFrame1
+ - d3d11_4/ID3D11VideoContext3::DecoderBeginFrame1
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d11_4.h
+ - d3d11_4.h
 api_name:
-- ID3D11VideoContext3::DecoderBeginFrame1
+ - ID3D11VideoContext3::DecoderBeginFrame1
 ---
 
 ## -description
@@ -69,7 +70,7 @@ The number of components to record a histograms for.  Use [D3D11_FEATURE_VIDEO_D
 
 ### -param pHistogramOffsets
 
-An array of starting buffer offset locations within the *ppHistogramBuffers* parallel array.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component.md) to index the array.  If a component is not requested, specify an offset of zero.   The offsets must be 256-byte aligned.  
+An array of starting buffer offset locations within the *ppHistogramBuffers* parallel array.  Use [D3D11_VIDEO_DECODE_HISTOGRAM_COMPONENT](ne-d3d11_4-d3d11_video_decoder_histogram_component.md) to index the array.  If a component is not requested, specify an offset of zero.   The offsets must be 256-byte aligned.
 
 ### -param ppHistogramBuffers
 

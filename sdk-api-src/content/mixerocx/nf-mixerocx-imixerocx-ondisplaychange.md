@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 5d082ab6-6195-417b-ad0d-b8e97561b268
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDisplayChange method, IMixerOCX.OnDisplayChange, IMixerOCX::OnDisplayChange, IMixerOCXOnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondisplaychange, mixerocx/IMixerOCX::OnDisplayChange
-f1_keywords:
-- mixerocx/IMixerOCX.OnDisplayChange
-dev_langs:
-- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMixerOCX.OnDisplayChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMixerOCX::OnDisplayChange
+ - mixerocx/IMixerOCX::OnDisplayChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMixerOCX.OnDisplayChange
 ---
 
 # IMixerOCX::OnDisplayChange
@@ -50,53 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>OnDisplayChange</code> method informs the Overlay Mixer that the monitor's display settings have changed. (Not implemented.)
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulBitsPerPixel [in]
 
 Specifies the new bits per pixel setting.
 
-
 ### -param ulScreenWidth [in]
 
 Specifies the new screen width in pixels.
-
 
 ### -param ulScreenHeight [in]
 
 Specifies the new screen height in pixels.
 
-
 ## -returns
-
-
 
 Returns E_NOTIMPL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
- 
-
- 
 

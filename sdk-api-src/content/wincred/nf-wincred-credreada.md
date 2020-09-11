@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3222de7b-5290-4e82-a382-b2db6afc78cc
 ms.date: 12/05/2018
 ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred_credread, security.credread, wincred/CredRead, wincred/CredReadA, wincred/CredReadW
-f1_keywords:
-- wincred/CredRead
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredRead
-- CredReadA
-- CredReadW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredReadA
+ - wincred/CredReadA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredRead
+ - CredReadA
+ - CredReadW
 ---
 
 # CredReadA function
@@ -55,39 +56,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredRead</b> function reads a credential from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
-
 ## -parameters
-
-
-
 
 ### -param TargetName [in]
 
 Pointer to a null-terminated string that contains the name of the credential to read.
 
-
 ### -param Type [in]
 
 Type of the credential to read. <i>Type</i> must be one of the CRED_TYPE_* defined types.
 
-
 ### -param Flags [in]
 
 Currently reserved and must be zero.
-
 
 ### -param Credential [out]
 
 Pointer to a single allocated block buffer to return the credential.
 Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
-
 ## -returns
-
-
 
 The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
 
@@ -113,11 +103,7 @@ A flag that is not valid was specified for the <i>Flags</i> parameter.
 </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function can return only one credential of the specified type.
 

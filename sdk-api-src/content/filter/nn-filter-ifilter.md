@@ -8,10 +8,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9sfm.htm
 ms.date: 12/05/2018
 ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
-f1_keywords:
-- filter/IFilter
-dev_langs:
-- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Filter.h
-api_name:
-- IFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilter
+ - filter/IFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Filter.h
+api_name:
+ - IFilter
 ---
 
 # IFilter interface
@@ -49,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Scans documents for text and properties (also called attributes). It extracts chunks of text from these documents, filtering out embedded formatting and retaining information about the position of the text. It also extracts chunks of values, which are properties of an entire document or of well-defined parts of a document. <b>IFilter</b> provides the foundation for building higher-level applications such as document indexers and application-independent viewers.
 
 For introductory information about how the <b>IFilter</b> interface works with documents and document properties, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/properties-of-documents">Properties of Documents</a>. For a synopsis and an example of how the <b>IFilter</b> interface processes a document, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/property-filtering">Property Filtering</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/property-indexing">Property Indexing</a>.
-
-
-
 
 ## -inheritance
 
@@ -119,22 +116,13 @@ Initializes a filtering session.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IFilter</b> components for Indexing Service run in the Local Security context and should be written to manage buffers and to stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstorage">BindIFilterFromStorage</a>
 
@@ -145,7 +133,4 @@ Initializes a filtering session.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-loadifilter">LoadIFilter</a>
- 
-
- 
 

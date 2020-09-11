@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 921a3b86-a240-454e-9411-8d653e02b90e
 ms.date: 12/05/2018
 ms.keywords: GetClassID, GetClassID method [COM], GetClassID method [COM],IBaseFilter interface, GetClassID method [COM],IPersist interface, GetClassID method [COM],IPersistFolder interface, IBaseFilter interface [COM],GetClassID method, IBaseFilter::GetClassID, IPersist interface [COM],GetClassID method, IPersist.GetClassID, IPersist::GetClassID, IPersistFolder interface [COM],GetClassID method, IPersistFolder::GetClassID, _com_ipersist_getclassid, com.ipersist_getclassid, objidl/IBaseFilter::GetClassID, objidl/IPersist::GetClassID, objidl/IPersistFolder::GetClassID
-f1_keywords:
-- objidl/IPersist.GetClassID
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersist.GetClassID
-- IPersistFolder.GetClassID
-- IBaseFilter.GetClassID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersist::GetClassID
+ - objidl/IPersist::GetClassID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersist.GetClassID
+ - IPersistFolder.GetClassID
+ - IBaseFilter.GetClassID
 ---
 
 # IPersist::GetClassID
@@ -51,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the class identifier (CLSID) of the object. 
-
+Retrieves the class identifier (CLSID) of the object.
 
 ## -parameters
-
-
-
 
 ### -param pClassID [out]
 
 A pointer to the location that receives the CLSID on return. The CLSID is a globally unique identifier (GUID) that uniquely represents an object class that defines the code that can manipulate the object's data.
 
-
 ## -returns
 
-
-
-If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL. 
-
-
-
+If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 ## -remarks
-
-
 
 The <b>GetClassID</b> method retrieves the class identifier (CLSID) for an object, used in later operations to load object-specific code into the caller's context.
 
@@ -96,13 +84,7 @@ If you are writing a custom object handler for your object, you might want to si
 <h3><a id="URL_Moniker_Notes"></a><a id="url_moniker_notes"></a><a id="URL_MONIKER_NOTES"></a>URL Moniker Notes</h3>
 This method returns CLSID_StdURLMoniker.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>
 
@@ -113,7 +95,4 @@ This method returns CLSID_StdURLMoniker.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder">IPersistFolder</a>
- 
-
- 
 

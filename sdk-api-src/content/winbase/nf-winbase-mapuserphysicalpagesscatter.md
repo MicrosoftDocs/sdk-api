@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
-f1_keywords:
-- winbase/MapUserPhysicalPagesScatter
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- MapUserPhysicalPagesScatter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapUserPhysicalPagesScatter
+ - winbase/MapUserPhysicalPagesScatter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - MapUserPhysicalPagesScatter
 ---
 
 # MapUserPhysicalPagesScatter function
 
 
 ## -description
-
 
 Maps previously allocated physical memory pages at a specified address in an 
     <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region.
@@ -57,11 +57,7 @@ Maps previously allocated physical memory pages at a specified address in an
      <b>MapUserPhysicalPagesScatter</b> is not 
      supported for 32-bit applications.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualAddresses [in]
 
@@ -72,14 +68,12 @@ Each entry in
       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function returns when the <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region is 
       allocated. The value in <i>NumberOfPages</i> indicates the size of the array. Entries can be from multiple Address Windowing Extensions (AWE) regions.
 
-
 ### -param NumberOfPages [in]
 
 The size of the physical memory and virtual address space for which to establish translations, in pages. 
 
 The 
       array at <i>VirtualAddresses</i> specifies the virtual address range.
-
 
 ### -param PageArray [in]
 
@@ -95,10 +89,7 @@ If this parameter is <b>NULL</b>, then every address in the <i>VirtualAddresses<
 
 The value in <i>NumberOfPages</i> indicates the size of the array.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -106,12 +97,7 @@ If the function fails, the return value is <b>FALSE</b>, and the function does n
        otherwise. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The physical pages may be unmapped, but they are not freed. You must call 
     <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the physical 
@@ -136,13 +122,7 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
     information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
     Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
@@ -161,7 +141,4 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: dbdf27dc-5fb9-49ef-9a9b-ffcd7b148479
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryServiceProvider, IFunctionDiscoveryServiceProvider interface, IFunctionDiscoveryServiceProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider, ncd.ifunctiondiscoveryserviceprovider
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryServiceProvider
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryServiceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryServiceProvider
+ - functiondiscoveryprovider/IFunctionDiscoveryServiceProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryServiceProvider
 ---
 
 # IFunctionDiscoveryServiceProvider interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider-initialize">Initialize</a> method is called to initialize the object.
-
 
 ## -inheritance
 
@@ -79,5 +78,5 @@ Initializes an object that provides a specific interface that has been bound to 
 
 </td>
 </tr>
-</table> 
+</table>
 

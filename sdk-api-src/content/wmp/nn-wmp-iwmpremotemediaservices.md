@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
 ms.date: 12/05/2018
 ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
-f1_keywords:
-- wmp/IWMPRemoteMediaServices
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPRemoteMediaServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPRemoteMediaServices
+ - wmp/IWMPRemoteMediaServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPRemoteMediaServices
 ---
 
 # IWMPRemoteMediaServices interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPRemoteMediaServices</b> interface includes methods that provide services to Windows Media Player from a program that hosts the Player control. These methods are designed to be used with C++, and some methods can only be used with remoting.
-
-
-
 
 ## -inheritance
 
@@ -110,20 +106,12 @@ Called by Windows Media Player to determine whether a host program wants to run 
 </table> 
 
 A pointer to an <b>IWMPRemoteMediaServices</b> interface is retrieved by calling the COM <b>CoCreateInstance</b> method.
-	
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
 

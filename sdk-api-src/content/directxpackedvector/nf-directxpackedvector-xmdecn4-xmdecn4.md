@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMDECN4, XMDECN4 constructor [DirectX Math Support APIs], XMDECN4 constructor [DirectX Math Support APIs],XMDECN4 structure, XMDECN4 structure [DirectX Math Support APIs],XMDECN4 constructor, XMDECN4.XMDECN4, XMDECN4.XMDECN4(), XMDECN4::XMDECN4, dxmath.xmdecn4_ctor_1
-f1_keywords:
-- directxpackedvector/XMDECN4.XMDECN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMDECN4.XMDECN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMDECN4::XMDECN4
+ - directxpackedvector/XMDECN4::XMDECN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMDECN4.XMDECN4
 ---
 
 # XMDECN4::XMDECN4
 
 
 ## -description
-
 
 Default constructor for <code>XMDECN4</code>.
     
@@ -60,25 +60,12 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 <code>XMDECN4()</code> constructs a new instance of the <code>XMDECN4</code> structure without
 	defining the value of any of its members.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -89,7 +76,4 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmdecn4-ctor">XMDECN4 Constructors</a>
- 
-
- 
 

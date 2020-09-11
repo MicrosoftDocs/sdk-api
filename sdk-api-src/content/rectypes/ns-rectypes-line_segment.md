@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36
 ms.date: 12/05/2018
 ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment
-f1_keywords:
-- rectypes/LINE_SEGMENT
-dev_langs:
-- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rectypes.h
-api_name:
-- LINE_SEGMENT
 targetos: Windows
 req.typenames: LINE_SEGMENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLINE_SEGMENT
+ - rectypes/tagLINE_SEGMENT
+ - LINE_SEGMENT
+ - rectypes/LINE_SEGMENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rectypes.h
+api_name:
+ - LINE_SEGMENT
 ---
 
 # LINE_SEGMENT structure
@@ -49,35 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Describes the start and end points of a line recognition segment, such as the baseline or midline.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field PtA
 
 Point that represents the start of the line segment. The point is in ink space coordinates.
 
-
 ### -field PtB
 
 Point that represents the end of the line segment. The point is in ink space coordinates.
 
-
 ## -see-also
 
-
-
-
 [LINE_METRICS Enumeration](/windows/win32/api/rectypes/ne-rectypes-line_metrics)
- 
-
- 
 

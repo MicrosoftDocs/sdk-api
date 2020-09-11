@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: aeeaf67c-119f-482b-b064-87739499abda
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriterFileSink, WMCreateWriterFileSink function [windows Media Format], wmformat.wmcreatewriterfilesink, wmsdkidl/WMCreateWriterFileSink
-f1_keywords:
-- wmsdkidl/WMCreateWriterFileSink
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateWriterFileSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateWriterFileSink
+ - wmsdkidl/WMCreateWriterFileSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateWriterFileSink
 ---
 
 # WMCreateWriterFileSink function
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateWriterFileSink</b> function creates a writer file sink object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppSink [out]
 
 Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink</a> interface of the newly created writer file sink object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,22 +90,12 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-file-sink-object">Writer File Sink Object</a>
- 
-
- 
 

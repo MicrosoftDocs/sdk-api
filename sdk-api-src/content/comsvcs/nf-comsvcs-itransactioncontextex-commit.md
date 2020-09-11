@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 0ec2e6aa-c534-4c13-9f8b-371f49b96479
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],Commit method, ITransactionContextEx.Commit, ITransactionContextEx::Commit, _cos_ITransactionContextEx_Commit, comsvcs/ITransactionContextEx::Commit, cos.itransactioncontextex_commit
-f1_keywords:
-- comsvcs/ITransactionContextEx.Commit
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionContextEx.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionContextEx::Commit
+ - comsvcs/ITransactionContextEx::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionContextEx.Commit
 ---
 
 # ITransactionContextEx::Commit
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -105,14 +97,8 @@ The transaction was aborted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-commit">Commit</a> attempts to commit a transaction. However, the transaction aborts under the following conditions:
 
@@ -133,15 +119,7 @@ See the example in <a href="https://docs.microsoft.com/windows/desktop/api/comsv
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
- 
-
- 
 

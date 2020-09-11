@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 8ca0e25e-6a3f-41ff-9a4a-7cca9a02d07c
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64WithDefault, PropVariantToUInt64WithDefault function [Windows Properties], properties.PropVariantToUInt64WithDefault, propvarutil/PropVariantToUInt64WithDefault, shell.PropVariantToUInt64WithDefault, shell_PropVariantToUInt64WithDefault
-f1_keywords:
-- propvarutil/PropVariantToUInt64WithDefault
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToUInt64WithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToUInt64WithDefault
+ - propvarutil/PropVariantToUInt64WithDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToUInt64WithDefault
 ---
 
 # PropVariantToUInt64WithDefault function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Extracts <b>ULONGLONG</b> value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value exists, then the specified default value is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param propvarIn [in]
 
@@ -64,28 +60,19 @@ Type: <b>REFPROPVARIANT</b>
 
 Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
-
 ### -param ullDefault [in]
 
 Type: <b>ULONGLONG</b>
 
 Specifies a default property value, for use where no value currently exists.
 
-
 ## -returns
-
-
 
 Type: <b>ULONGLONG</b>
 
 Returns the extracted unsigned <b>LONGLONG</b> value, or a default.
 
-
-
-
 ## -remarks
-
-
 
 This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a <b>ULONGLONG</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>ULONGLONG</b> value for <b>UInt64</b> properties.
 
@@ -111,7 +98,4 @@ if (SUCCEEDED(hr))
      PropVariantClear(&propvar);
 }
 ```
-
-
-
 

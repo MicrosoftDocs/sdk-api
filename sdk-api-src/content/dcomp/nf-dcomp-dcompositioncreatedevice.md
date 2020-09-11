@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 3eb5d698-3cbf-456e-aa5f-395687c68c13
 ms.date: 12/05/2018
 ms.keywords: DCompositionCreateDevice, DCompositionCreateDevice function [DirectComposition], dcomp/DCompositionCreateDevice, directcomp.dcompositioncreatedevice
-f1_keywords:
-- dcomp/DCompositionCreateDevice
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dcomp.dll
-api_name:
-- DCompositionCreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DCompositionCreateDevice
+ - dcomp/DCompositionCreateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dcomp.dll
+api_name:
+ - DCompositionCreateDevice
 ---
 
 # DCompositionCreateDevice function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new device object that can be used to create other Microsoft DirectComposition objects.
 
-
 ## -parameters
-
-
-
 
 ### -param dxgiDevice [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-id
 
 The DXGI device to use to create DirectComposition surface objects.
 
-
 ### -param iid [in]
 
 Type: <b>REFIID</b>
 
-The identifier of the interface to retrieve. 
-
+The identifier of the interface to retrieve.
 
 ### -param dcompositionDevice [out]
 
@@ -78,21 +72,13 @@ Type: <b>void**</b>
 
 Receives an interface pointer to the newly created device object. The pointer is of the type specified by the <i>iid</i> parameter. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 A  device object serves as the factory for all other DirectComposition objects. It also controls transactional composition through the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-commit">IDCompositionDevice::Commit</a> method.
 
@@ -169,17 +155,7 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/directcomp/functions">Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 41699ca8-a30d-48ab-bace-bc2b95b67e77
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetDevConfig, TSPI_lineSetDevConfig function [TAPI 2.2], _tspi_tspi_linesetdevconfig, tspi.tspi_linesetdevconfig, tspi/TSPI_lineSetDevConfig
-f1_keywords:
-- tspi/TSPI_lineSetDevConfig
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineSetDevConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineSetDevConfig
+ - tspi/TSPI_lineSetDevConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineSetDevConfig
 ---
 
 # TSPI_lineSetDevConfig function
@@ -49,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineSetDevConfig</b> function restores the configuration of a device associated one-to-one with the line device from a data structure previously obtained using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig">TSPI_lineGetDevConfig</a>. The contents of this data structure are specific to the line [service provider] and device class.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDeviceID
 
 The line device to be configured.
-
 
 ### -param lpDeviceConfig
 
 A pointer to the configuration data structure that is returned in the variable portion of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure by 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig">TSPI_lineGetDevConfig</a>.
-
 
 ### -param dwSize
 
@@ -90,21 +84,13 @@ The number of bytes in the structure pointed to by <i>lpDeviceConfig</i>. This v
 A pointer to a null-terminated Unicode string that specifies the device class of the device whose configuration is to be restored. Valid device class strings are the same as those specified for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetid">TSPI_lineGetID</a> function when it is applied to a "line" device (that is, when <i>dwSelect</i> has the value LINECALLSELECT_LINE).
 
-
 ## -returns
-
-
 
 Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are:
 
 LINEERR_INVALDEVICECLASS, LINEERR_NOMEM, LINEERR_INVALPOINTER, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALPARAM, LINEERR_OPERATIONFAILED, LINEERR_INVALLINESTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_NODRIVER.
 
-
-
-
 ## -remarks
-
-
 
 The call state is device specific.
 
@@ -139,12 +125,7 @@ The exact format of the data contained within the structure passed to this funct
 <div class="alert"><b>Note</b>  Some service providers may permit the configuration to be set while a device is in use, and others may not.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclose">TSPI_lineClose</a>
 
@@ -167,7 +148,4 @@ The exact format of the data contained within the structure passed to this funct
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
- 
-
- 
 

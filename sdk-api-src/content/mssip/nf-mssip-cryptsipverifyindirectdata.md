@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
 ms.date: 12/05/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
-f1_keywords:
-- mssip/CryptSIPVerifyIndirectData
-dev_langs:
-- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSIPVerifyIndirectData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSIPVerifyIndirectData
+ - mssip/CryptSIPVerifyIndirectData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSIPVerifyIndirectData
 ---
 
 # CryptSIPVerifyIndirectData function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptSIPVerifyIndirectData</b> function validates the indirect hashed data against the supplied subject.
 
-
 ## -parameters
-
-
-
 
 ### -param pSubjectInfo [in]
 
 A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
-
 ### -param pIndirectData [in]
 
 A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains information about the hashed subject information.
 
-
 ## -returns
-
-
 
 The return value is <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
@@ -107,16 +99,8 @@ The subject type is an unknown type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Subjects include, but are not limited to, portable executable images (.exe), cabinet (.cab) images, flat files, and catalog files. Each subject type uses a different subset of its data for hash calculation and requires a different procedure for storage and retrieval. Therefore each subject type has a unique subject interface package specification.
-
-
 

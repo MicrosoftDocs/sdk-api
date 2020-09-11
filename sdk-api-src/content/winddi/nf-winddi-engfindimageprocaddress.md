@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: a81c0814-3210-40dd-969f-20593353e54c
 ms.date: 12/05/2018
 ms.keywords: EngFindImageProcAddress, EngFindImageProcAddress function [Display Devices], display.engfindimageprocaddress, gdifncs_7680e4bd-d5d2-4365-84a0-131ea7a38b22.xml, winddi/EngFindImageProcAddress
-f1_keywords:
-- winddi/EngFindImageProcAddress
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngFindImageProcAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngFindImageProcAddress
+ - winddi/EngFindImageProcAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngFindImageProcAddress
 ---
 
 # EngFindImageProcAddress macro
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngFindImageProcAddress</b> function returns the address of a function within an executable module.
 
-
 ## -parameters
-
-
-
 
 ### -param h
 
 Handle to the image in which the function can be found. This handle was obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>. This parameter can be <b>NULL</b> on Windows NT 4.0 SP3 and later versions, which includes Windows 2000 and later operating system versions.
 
-
 ### -param procname [in]
 
-Pointer to the string that specifies the name of the function to be located. 
-
+Pointer to the string that specifies the name of the function to be located.
 
 ## -remarks
-
-
 
 A driver must previously have loaded the image into kernel-mode through a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>.
 
@@ -332,22 +324,12 @@ To obtain the address of a GDI service routine that is new to Windows 2000 and l
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
- 
-
- 
 

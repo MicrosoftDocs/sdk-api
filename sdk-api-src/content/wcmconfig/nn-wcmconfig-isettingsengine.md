@@ -8,10 +8,6 @@ tech.root: SMI
 ms.assetid: ba816a00-e238-4dbd-a09a-ad4e191d9c4e
 ms.date: 12/05/2018
 ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine interface [SMI],described, smi.isettingsengine, wcmconfig/ISettingsEngine
-f1_keywords:
-- wcmconfig/ISettingsEngine
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsEngine
+ - wcmconfig/ISettingsEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsEngine
 ---
 
 # ISettingsEngine interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The central interface for opening namespaces and controlling how they are opened.Unless otherwise specified, all methods return an HRESULT value.
-
 
 ## -inheritance
 
@@ -194,5 +193,5 @@ Unregisters an existing namespace.
 
 </td>
 </tr>
-</table> 
+</table>
 

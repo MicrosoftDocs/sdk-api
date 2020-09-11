@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: d0461861-6093-480c-9fd9-6387622e5b4f
 ms.date: 12/05/2018
 ms.keywords: VarDecFromBool, VarDecFromBool function [Automation], _oa96_VarDecFromBool, automat.vardecfrombool, oleauto/VarDecFromBool
-f1_keywords:
-- oleauto/VarDecFromBool
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDecFromBool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDecFromBool
+ - oleauto/VarDecFromBool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDecFromBool
 ---
 
 # VarDecFromBool function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a Boolean value to a decimal value.
 
-
 ## -parameters
-
-
-
 
 ### -param boolIn [in]
 
 The value to convert.
 
-
 ### -param pdecOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

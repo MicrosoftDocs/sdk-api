@@ -34,6 +34,9 @@ api_location:
  - cimfs.h
 api_name:
  - cimfs
+f1_keywords:
+ - cimfs
+ - cimfs/cimfs
 ---
 
 ## -description
@@ -41,6 +44,7 @@ api_name:
 Provides the ability to construct and mount Composite Images (CIMs).
 
 ## -remarks
+
 A CIM is a file-backed image format similar in concept to a WIM or a read-only VHD.
 
 A CIM image consists of a small collection of flat files that include one or more data and metadata region files, one or more object ID files and one or more filesystem description files. As a result of their “flatness” CIMs are faster to construct, extract and delete than the equivalent raw directories they contain.

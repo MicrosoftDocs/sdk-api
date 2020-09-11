@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 03a895ef-6c67-4537-bc1c-838b65ae3487
 ms.date: 12/05/2018
 ms.keywords: ITsSbGenericNotifySink, ITsSbGenericNotifySink interface [Remote Desktop Services], ITsSbGenericNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbGenericNotifySink, termserv.itssbgenericnotifysink
-f1_keywords:
-- sbtsv/ITsSbGenericNotifySink
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbGenericNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbGenericNotifySink
+ - sbtsv/ITsSbGenericNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbGenericNotifySink
 ---
 
 # ITsSbGenericNotifySink interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that reports completion to and gets wait time from the Remote Desktop Connection Broker (RD Connection Broker).
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Reports completion to RD Connection Broker.
 
 </td>
 </tr>
-</table> 
+</table>
 

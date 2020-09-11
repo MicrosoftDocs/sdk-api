@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: E07EC208-CF00-46D0-B00D-AA8E59F12A0A
 ms.date: 12/05/2018
 ms.keywords: IMediaRendererFactory, IMediaRendererFactory interface [Media Streaming API], IMediaRendererFactory interface [Media Streaming API],described, mediastreaming.imediarendererfactory, windows/IMediaRendererFactory
-f1_keywords:
-- windows.media.streaming/IMediaRendererFactory
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IMediaRendererFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaRendererFactory
+ - windows.media.streaming/IMediaRendererFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IMediaRendererFactory
 ---
 
 # IMediaRendererFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encapsulates the methods needed to asynchronously create a new instance of an object that implements the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Asynchronously creates a new instance of an object that implements the <a href="
 
 </td>
 </tr>
-</table> 
+</table>
 

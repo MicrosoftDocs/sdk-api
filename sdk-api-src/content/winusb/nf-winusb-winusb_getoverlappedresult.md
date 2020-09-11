@@ -8,10 +8,6 @@ tech.root: buses
 ms.assetid: e6078b1f-0921-4e1f-a444-f8a1481c8f8a
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetOverlappedResult, WinUsb_GetOverlappedResult function [Buses], buses.winusb_getoverlappedresult, winusb/WinUsb_GetOverlappedResult, winusbfunc_197c2ea2-c5fd-4a19-b4e5-00c373231606.xml
-f1_keywords:
-- winusb/WinUsb_GetOverlappedResult
-dev_langs:
-- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winusb.dll
-api_name:
-- WinUsb_GetOverlappedResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinUsb_GetOverlappedResult
+ - winusb/WinUsb_GetOverlappedResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winusb.dll
+api_name:
+ - WinUsb_GetOverlappedResult
 ---
 
 # WinUsb_GetOverlappedResult function
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinUsb_GetOverlappedResult</b> function retrieves the results of an overlapped operation on the specified file.
-
 
 ## -parameters
 
-
-
-
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
-
+An opaque handle to the first interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
 
 ### -param lpOverlapped [in]
 
 A pointer to an <b>OVERLAPPED</b> structure that was specified when the overlapped operation was started.
 
-
 ### -param lpNumberOfBytesTransferred [out]
 
 A pointer to a variable that receives the number of bytes that were actually transferred by a read or write operation.
-
 
 ### -param bWait [in]
 
 If this parameter is <b>TRUE</b>, the function does not return until the operation has been completed. If this parameter is <b>FALSE</b> and the operation is still pending, the function returns <b>FALSE</b> and the <b>GetLastError</b> function returns ERROR_IO_INCOMPLETE.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is any number other than zero. If the function fails, the return value is zero. To get extended error information, call <b>GetLastError</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function is like the Win32 API routine, <b>GetOverlappedResult</b>, with one difference—instead of passing a file handle that is returned from <b>CreateFile</b>, the caller passes an interface handle that is returned from <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. The caller can use either API routine, if the appropriate handle is passed. The <b>WinUsb_GetOverlappedResult </b> function extracts the file handle from the interface handle and then calls <b>GetOverlappedResult</b>.
 
@@ -101,13 +86,7 @@ If the <i>bWait</i> parameter is <b>TRUE</b>, <b>WinUsb_GetOverlappedResult</b> 
 
 If the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure is <b>NULL</b>, the system uses the state of the file handle to signal when the operation has been completed. Do not use file handles for this purpose. It is better to use an event object because of the confusion that can occur when multiple concurrent overlapped operations are performed on the same file. In this situation, you cannot know which operation caused the state of the object to be signaled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
@@ -122,7 +101,4 @@ If the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure is <b>NULL</b>, t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_descriptor_request">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
- 
-
- 
 

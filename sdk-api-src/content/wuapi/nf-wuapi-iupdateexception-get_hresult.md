@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 122c7945-c75d-4205-8df6-3136d388baee
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],HResult property, IUpdateException.HResult, IUpdateException.get_HResult, IUpdateException::HResult, IUpdateException::get_HResult, get_HResult, wua.iupdateexception_hresult, wuapi/IUpdateException::HResult, wuapi/IUpdateException::get_HResult
-f1_keywords:
-- wuapi/IUpdateException.HResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateException.HResult
-- IUpdateException.get_HResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateException::get_HResult
+ - wuapi/IUpdateException::get_HResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateException.HResult
+ - IUpdateException.get_HResult
 ---
 
 # IUpdateException::get_HResult
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the Windows-based <b>HRESULT</b> code for the search results.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a>
- 
-
- 
 

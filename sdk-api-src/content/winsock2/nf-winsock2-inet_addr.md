@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.date: 12/05/2018
 ms.keywords: _win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr
-f1_keywords:
-- winsock2/inet_addr
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- inet_addr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - inet_addr
+ - winsock2/inet_addr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - inet_addr
 ---
 
 # inet_addr function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>inet_addr</b> function converts a string containing an IPv4 dotted-decimal address into a proper address for the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param cp
 
@@ -71,10 +67,7 @@ TBD
 
 A <b>NULL</b>-terminated character string representing a number expressed in the Internet standard ".'' (dotted) notation.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 the <b>inet_addr</b> function returns an unsigned long value containing a suitable binary representation of the Internet address given. 
@@ -90,12 +83,7 @@ On Windows XPand earlier if the string in the <i>cp</i> parameter is an empty s
 <b>inet_addr</b> returns the value <b>INADDR_ANY</b>. If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>inet_addr</b> function interprets the character string specified by the <i>cp</i> parameter. This string represents a numeric Internet address expressed in the Internet standard ".'' notation. The value returned is a number suitable for use as an Internet address. All Internet addresses are returned in IP's network order (bytes ordered from left to right). If you pass in " " (a space) to the 
@@ -222,14 +210,7 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>IN6_ADDR</b>
 
@@ -284,7 +265,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
 

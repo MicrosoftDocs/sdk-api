@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 357D7166-C115-4F32-AE8B-AA31018F700C
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter2, IAppxEncryptedBundleWriter2 interface [App packaging and management], IAppxEncryptedBundleWriter2 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter2, appxpkg.iappxencryptedbundlewriter2
-f1_keywords:
-- appxpackaging/IAppxEncryptedBundleWriter2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptedBundleWriter2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptedBundleWriter2
+ - appxpackaging/IAppxEncryptedBundleWriter2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptedBundleWriter2
 ---
 
 # IAppxEncryptedBundleWriter2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for encrypted bundle packages.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Adds a reference within the encrypted package bundle to an external app package.
 
 </td>
 </tr>
-</table> 
+</table>
 

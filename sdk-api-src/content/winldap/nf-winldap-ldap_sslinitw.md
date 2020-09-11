@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW
-f1_keywords:
-- winldap/ldap_sslinit
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_sslinit
-- ldap_sslinitA
-- ldap_sslinitW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_sslinitW
+ - winldap/ldap_sslinitW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_sslinit
+ - ldap_sslinitA
+ - ldap_sslinitW
 ---
 
 # ldap_sslinitW function
@@ -51,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_sslinit</b> function initializes a Secure Sockets Layer (SSL) session with an LDAP server.
 
-
 ## -parameters
-
-
-
 
 ### -param HostName [in]
 
 A pointer to a null-terminated string that contains a space-separated list of host names or dotted strings representing the IP address of hosts running an LDAP server to which to connect. Each host name in the list can include an optional port number which is separated from the host itself with a colon (:) character.
 
-
 ### -param PortNumber [in]
 
 Contains the TCP port number to which to connect. Set to <b>LDAP_SSL_PORT</b> to obtain the default port, 636. This parameter is ignored if a host name includes a port number.
-
 
 ### -param secure [in]
 
 If nonzero, the function uses SSL encryption. If the value is 0, the function establishes a plain TCP connection and uses clear text (no encryption).
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns a session handle, in the form of a pointer to an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> structure. The session handle must be freed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when it is no longer needed.
@@ -85,12 +76,7 @@ If the function succeeds, it returns a session handle, in the form of a pointer 
 If the function fails, the return value is <b>NULL</b>. Use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> to retrieve the error code.
 
-
-
-
 ## -remarks
-
-
 
 Call <b>ldap_sslinit</b> to create a connection block to a secured LDAP server. The <i>HostName</i> parameter can be <b>NULL</b> in which case the run time attempts to find the "default" LDAP server. The hosts are tried in the order listed, stopping with the first one to which a successful connection is made.
 
@@ -113,9 +99,6 @@ Microsoft implements security features, like SSL, through its SSPI capabilities.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
@@ -137,7 +120,4 @@ Microsoft implements security features, like SSL, through its SSPI capabilities.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
- 
-
- 
 

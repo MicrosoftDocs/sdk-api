@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: c67dc959-2511-4a95-87e4-1689f49c167a
 ms.date: 12/05/2018
 ms.keywords: QOSRemoveSocketFromFlow, QOSRemoveSocketFromFlow function [QOS], qos.qosremovesocketfromflow, qos2/QOSRemoveSocketFromFlow
-f1_keywords:
-- qos2/QOSRemoveSocketFromFlow
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSRemoveSocketFromFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSRemoveSocketFromFlow
+ - qos2/QOSRemoveSocketFromFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSRemoveSocketFromFlow
 ---
 
 # QOSRemoveSocketFromFlow function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSRemoveSocketFromFlow</b> function notifies the QOS subsystem that a previously added flow has been terminated by the application, and that the subsystem must update its internal information accordingly.
 
-
 ## -parameters
-
-
-
 
 ### -param QOSHandle [in]
 
 Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
 
 ### -param Socket [in, optional]
 
@@ -69,20 +64,15 @@ Socket to be removed from the flow.
 
 Only flows created with the <b>QOS_NON_ADAPTIVE_FLOW</b> flag may have multiple sockets added to the same flow.  By passing the <i>Socket</i> parameter in this call, each socket can be removed individually.  If the <i>Socket</i> parameter is not passed, the entire flow will be destroyed.  If only one socket was attached to the flow, passing this socket as a parameter to this function and passing <b>NULL</b> as a socket are equivalent calls.
 
-
 ### -param FlowId [in]
 
 A flow identifier. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
-
 
 ### -param Flags
 
 Reserved for future use. This parameter must be set to 0.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -182,14 +172,8 @@ The network location cannot be reached.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> function immediately aborts all pending operations and flows added by that handle.  If a handle is closed while a <b>QOSRemoveSocketFromFlow</b> call is still progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b>.
 
@@ -257,17 +241,7 @@ int CleanUpQos( HANDLE qosHandle,
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
 

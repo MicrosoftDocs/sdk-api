@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: 1AB999FB-E24C-4CC6-A3B9-D4F61FF31760
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetEnvironment method, IXAPOHrtfParameters.SetEnvironment, IXAPOHrtfParameters::SetEnvironment, SetEnvironment, SetEnvironment method [XAudio2 Audio Mixing APIs], SetEnvironment method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetEnvironment, xaudio2.ixapohrtfparameters_setenvironment
-f1_keywords:
-- hrtfapoapi/IXAPOHrtfParameters.SetEnvironment
-dev_langs:
-- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: HrtfApo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- HrtfApo.dll
-api_name:
-- IXAPOHrtfParameters.SetEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPOHrtfParameters::SetEnvironment
+ - hrtfapoapi/IXAPOHrtfParameters::SetEnvironment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - HrtfApo.dll
+api_name:
+ - IXAPOHrtfParameters.SetEnvironment
 ---
 
 # IXAPOHrtfParameters::SetEnvironment
@@ -49,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Selects the acoustic environment to simulate.
 
-
 ## -parameters
-
-
-
 
 ### -param environment [in]
 
 The acoustic environment to simulate.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The environment represents distance-cue params.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
- 
-
- 
 

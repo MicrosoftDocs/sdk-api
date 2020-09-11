@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: b6591369-d73f-4c7d-8525-428dffc9a341
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], IWorkspaceScriptable interface [Remote Desktop Services],described, termserv.iworkspacescriptable, workspaceruntime/IWorkspaceScriptable
-f1_keywords:
-- workspaceruntime/IWorkspaceScriptable
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: Wksprt.exe
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wksprt.exe
-api_name:
-- IWorkspaceScriptable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceScriptable
+ - workspaceruntime/IWorkspaceScriptable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wksprt.exe
+api_name:
+ - IWorkspaceScriptable
 ---
 
 # IWorkspaceScriptable interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that manage RemoteApp and Desktop Connection credentials and connections. This interface is implemented by the RemoteApp and Desktop Connection runtime. These methods are called by custom clients that implement the <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a> interface.
-
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Associates user credentials and certificates with a connection ID.
 
 </td>
 </tr>
-</table> 
+</table>
 

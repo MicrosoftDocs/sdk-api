@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: e8b4393b-84f7-4440-92b5-fd7fa2be96a2
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_DWORD_VALUE, PRESUTIL_SET_DWORD_VALUE function [Failover Cluster], ResUtilSetDwordValue, ResUtilSetDwordValue function [Failover Cluster], _wolf_resutilsetdwordvalue, mscs.resutilsetdwordvalue, resapi/PRESUTIL_SET_DWORD_VALUE, resapi/ResUtilSetDwordValue
-f1_keywords:
-- resapi/ResUtilSetDwordValue
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilSetDwordValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilSetDwordValue
+ - resapi/ResUtilSetDwordValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilSetDwordValue
 ---
 
 # ResUtilSetDwordValue function
@@ -49,50 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a numeric value in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>. The <b>PRESUTIL_SET_DWORD_VALUE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyClusterKey [in]
 
 Key identifying the location of the numeric value in the cluster database.
 
-
 ### -param pszValueName [in]
 
 A null-terminated Unicode string containing the name of the value to update.
-
 
 ### -param dwNewValue [in]
 
 New <b>DWORD</b> value.
 
-
 ### -param pdwOutValue [in, out]
 
 Optional. Pointer to where the updated value should be copied.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
 the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 The  <b>ResUtilSetDwordValue</b> utility function updates the cluster database by calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>.
 
@@ -117,13 +102,7 @@ Do not call  <b>ResUtilSetDwordValue</b> from the following resource DLL entry p
 </ul>
 <b>ResUtilSetDwordValue</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>
 
@@ -142,7 +121,4 @@ Do not call  <b>ResUtilSetDwordValue</b> from the following resource DLL entry p
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetszvalue">ResUtilSetSzValue</a>
- 
-
- 
 

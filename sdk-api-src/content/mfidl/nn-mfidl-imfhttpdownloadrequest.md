@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: A8A37C2F-A662-4FDA-95F6-43D96A8471A8
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest, IMFHttpDownloadRequest interface [Media Foundation], IMFHttpDownloadRequest interface [Media Foundation],described, mf.imfhttpdownloadrequest, mfidl/IMFHttpDownloadRequest
-f1_keywords:
-- mfidl/IMFHttpDownloadRequest
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFHttpDownloadRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFHttpDownloadRequest
+ - mfidl/IMFHttpDownloadRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFHttpDownloadRequest
 ---
 
 # IMFHttpDownloadRequest interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation. Applications provide the <b>IMFHttpDownloadRequest</b> interface to Media Foundation through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-createrequest">CreateRequest</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> interface.
-
 
 ## -inheritance
 
@@ -215,5 +214,5 @@ Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP h
 
 </td>
 </tr>
-</table> 
+</table>
 

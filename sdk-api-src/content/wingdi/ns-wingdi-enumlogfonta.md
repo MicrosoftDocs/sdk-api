@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: cfae9e97-c714-40fb-88ab-95e12ea3ffa9
 ms.date: 12/05/2018
 ms.keywords: '*LPENUMLOGFONTA, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT'
-f1_keywords:
-- wingdi/ENUMLOGFONT
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- ENUMLOGFONT
-- ENUMLOGFONTA
-- ENUMLOGFONTW
 targetos: Windows
 req.typenames: ENUMLOGFONTA, *LPENUMLOGFONTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagENUMLOGFONTA
+ - wingdi/tagENUMLOGFONTA
+ - LPENUMLOGFONTA
+ - wingdi/LPENUMLOGFONTA
+ - ENUMLOGFONTA
+ - wingdi/ENUMLOGFONTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - ENUMLOGFONT
+ - ENUMLOGFONTA
+ - ENUMLOGFONTW
 ---
 
 # ENUMLOGFONTA structure
@@ -51,37 +56,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ENUMLOGFONT</b> structure defines the attributes of a font, the complete name of a font, and the style of a font.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field elfLogFont
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that defines the attributes of a font.
 
-
 ### -field elfFullName
 
 A unique name for the font. For example, ABCD Font Company TrueType Bold Italic Sans Serif.
-
 
 ### -field elfStyle
 
 The style of the font. For example, Bold Italic.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>
 
@@ -96,9 +87,6 @@ The style of the font. For example, Bold Italic.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
- 
-
- 
 
 ## -remarks
 

@@ -8,10 +8,6 @@ tech.root: nla
 ms.assetid: 72d1f049-3c8d-4332-9bf1-9f49b47cd315
 ms.date: 12/05/2018
 ms.keywords: NLM_CONNECTIVITY, NLM_CONNECTIVITY enumeration [Network Awareness], NLM_CONNECTIVITY_DISCONNECTED, NLM_CONNECTIVITY_IPV4_INTERNET, NLM_CONNECTIVITY_IPV4_LOCALNETWORK, NLM_CONNECTIVITY_IPV4_NOTRAFFIC, NLM_CONNECTIVITY_IPV4_SUBNET, NLM_CONNECTIVITY_IPV6_INTERNET, NLM_CONNECTIVITY_IPV6_LOCALNETWORK, NLM_CONNECTIVITY_IPV6_NOTRAFFIC, NLM_CONNECTIVITY_IPV6_SUBNET, netlistmgr/NLM_CONNECTIVITY, netlistmgr/NLM_CONNECTIVITY_DISCONNECTED, netlistmgr/NLM_CONNECTIVITY_IPV4_INTERNET, netlistmgr/NLM_CONNECTIVITY_IPV4_LOCALNETWORK, netlistmgr/NLM_CONNECTIVITY_IPV4_NOTRAFFIC, netlistmgr/NLM_CONNECTIVITY_IPV4_SUBNET, netlistmgr/NLM_CONNECTIVITY_IPV6_INTERNET, netlistmgr/NLM_CONNECTIVITY_IPV6_LOCALNETWORK, netlistmgr/NLM_CONNECTIVITY_IPV6_NOTRAFFIC, netlistmgr/NLM_CONNECTIVITY_IPV6_SUBNET, nla.nlm_connectivity
-f1_keywords:
-- netlistmgr/NLM_CONNECTIVITY
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netlistmgr.h
-api_name:
-- NLM_CONNECTIVITY
 targetos: Windows
 req.typenames: NLM_CONNECTIVITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NLM_CONNECTIVITY
+ - netlistmgr/NLM_CONNECTIVITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netlistmgr.h
+api_name:
+ - NLM_CONNECTIVITY
 ---
 
 # NLM_CONNECTIVITY enumeration
@@ -49,54 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
-The NLM_Connectivity enumeration is  a set of flags that provide notification whenever connectivity related parameters have changed. 
-
+The NLM_Connectivity enumeration is  a set of flags that provide notification whenever connectivity related parameters have changed.
 
 ## -enum-fields
-
-
-
 
 ### -field NLM_CONNECTIVITY_DISCONNECTED
 
 The underlying network interfaces have no connectivity to any network.
 
-
 ### -field NLM_CONNECTIVITY_IPV4_NOTRAFFIC
 
 There is connectivity to a network, but the service cannot detect any IPv4 Network Traffic.
-
 
 ### -field NLM_CONNECTIVITY_IPV6_NOTRAFFIC
 
 There is connectivity to a network, but the service cannot detect any IPv6 Network Traffic.
 
-
 ### -field NLM_CONNECTIVITY_IPV4_SUBNET
 
 There is connectivity to the local subnet using the IPv4 protocol.
-
 
 ### -field NLM_CONNECTIVITY_IPV4_LOCALNETWORK
 
 There is connectivity to a routed network using the IPv4 protocol.
 
-
 ### -field NLM_CONNECTIVITY_IPV4_INTERNET
 
 There is connectivity to the Internet using the IPv4 protocol.
-
 
 ### -field NLM_CONNECTIVITY_IPV6_SUBNET
 
 There is connectivity to the local subnet using the IPv6 protocol.
 
-
 ### -field NLM_CONNECTIVITY_IPV6_LOCALNETWORK
 
 There is connectivity to a local network using the IPv6 protocol.
-
 
 ### -field NLM_CONNECTIVITY_IPV6_INTERNET
 

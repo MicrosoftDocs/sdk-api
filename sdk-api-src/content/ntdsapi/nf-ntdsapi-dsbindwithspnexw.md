@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: 52a5761d-5244-4bc9-8c09-fd08f10a9fff
 ms.date: 12/05/2018
 ms.keywords: DsBindWithSpnEx, DsBindWithSpnEx function [Active Directory], DsBindWithSpnExA, DsBindWithSpnExW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FIND_BINDING, NTDSAPI_BIND_FORCE_KERBEROS, ad.dsbindwithspnex, ntdsapi/DsBindWithSpnEx, ntdsapi/DsBindWithSpnExA, ntdsapi/DsBindWithSpnExW
-f1_keywords:
-- ntdsapi/DsBindWithSpnEx
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
-- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
-- KernelBase.dll
-api_name:
-- DsBindWithSpnEx
-- DsBindWithSpnExA
-- DsBindWithSpnExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsBindWithSpnExW
+ - ntdsapi/DsBindWithSpnExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+ - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+ - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+ - KernelBase.dll
+api_name:
+ - DsBindWithSpnEx
+ - DsBindWithSpnExA
+ - DsBindWithSpnExW
 ---
 
 # DsBindWithSpnExW function
@@ -54,26 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsBindWithSpnEx</b> function binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication. This function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a> function except this function allows more binding options with the <i>BindFlags</i> parameter.
 
 This function is provided where complete control is required over mutual authentication. Do not use this function if you expect <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> to find a server for you, because SPNs are computer-specific, and it is unlikely that the SPN you provide will match the server that <b>DsBind</b> finds for you. Providing a <b>NULL</b><i>ServicePrincipalName</i> argument results in behavior that is identical to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param DomainControllerName [in, optional]
 
 Pointer to a null-terminated string that contains the fully qualified DNS name of the domain to bind. For more information, see the <i>DomainControllerName</i> description in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> topic.
 
-
 ### -param DnsDomainName [in, optional]
 
 Pointer to a null-terminated string that contains the fully qualified DNS name of the domain to bind. For more information, see the <i>DnsDomainName</i> description in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> topic.
-
 
 ### -param AuthIdentity [in, optional]
 
@@ -85,11 +79,9 @@ Contains an <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-auth-ide
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a> must be called before freeing this handle with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreepasswordcredentials">DsFreePasswordCredentials</a> function.
 
-
 ### -param ServicePrincipalName [in, optional]
 
 Pointer to a null-terminated string that specifies the Service Principal Name to assign to the client. Passing <b>NULL</b> in <i>ServicePrincipalName</i> is equivalent to a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a> function.
-
 
 ### -param BindFlags [in, optional]
 
@@ -121,7 +113,6 @@ Reserved.
 
 <b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <b>DsBindWithSpnEx</b> forces Kerberos authentication to be used. If Kerberos authentication cannot be established, <b>DsBindWithSpnEx</b> will not attempt to authenticate with any other method.
 
-
 ### -param phDS [out]
 
 Address of a <b>HANDLE</b> value that receives the binding handle. To close this handle, pass it to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a> function.
@@ -149,20 +140,11 @@ Reserved.
 
 <b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <b>DsBindWithSpnEx</b> forces Kerberos authentication to be used. If Kerberos authentication cannot be established, <b>DsBindWithSpnEx</b> will not attempt to authenticate with any other method.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherwise. The following list lists common error codes.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
@@ -185,9 +167,6 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>
- 
-
- 
 
 ## -remarks
 

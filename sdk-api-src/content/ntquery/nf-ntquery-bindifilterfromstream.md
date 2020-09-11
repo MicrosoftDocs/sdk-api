@@ -8,10 +8,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0f8t.htm
 ms.date: 12/05/2018
 ms.keywords: BindIFilterFromStream, BindIFilterFromStream function [Indexing Service], _idxs_BindIFilterFromStream, indexsrv.bindifilterfromstream, ntquery/BindIFilterFromStream
-f1_keywords:
-- ntquery/BindIFilterFromStream
-dev_langs:
-- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntquery.dll
-api_name:
-- BindIFilterFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BindIFilterFromStream
+ - ntquery/BindIFilterFromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntquery.dll
+api_name:
+ - BindIFilterFromStream
 ---
 
 # BindIFilterFromStream function
@@ -49,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Indexing Service is unsupported as of Windows XP. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects accessible through their <b>IStream</b> interfaces.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pStm [in]
 
-A pointer to the <b>IStream</b> interface to be used to access the file. 
-
+A pointer to the <b>IStream</b> interface to be used to access the file.
 
 ### -param pUnkOuter [in]
 
 A pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the aggregate in which this stream object exists.
 
-
 ### -param ppIUnk [out]
 
-A pointer to an output variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer. 
-
+A pointer to an output variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface pointer.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -154,24 +144,12 @@ An unknown error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function is not a full implementation of a COM persistent handler.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstorage">BindIFilterFromStorage</a>
 
@@ -182,7 +160,4 @@ This function is not a full implementation of a COM persistent handler.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-loadifilter">LoadIFilter</a>
- 
-
- 
 

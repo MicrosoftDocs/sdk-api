@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 9945bffb-6748-4c7d-ba14-91470cf6c651
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IAMDevMemoryControl interface [DirectShow],described, IAMDevMemoryControlInterface, dshow.iamdevmemorycontrol, strmif/IAMDevMemoryControl
-f1_keywords:
-- strmif/IAMDevMemoryControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmif.h
-api_name:
-- IAMDevMemoryControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDevMemoryControl
+ - strmif/IAMDevMemoryControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmif.h
+api_name:
+ - IAMDevMemoryControl
 ---
 
 # IAMDevMemoryControl interface
 
 
 ## -description
-
-
 
 <div class="alert"><b>Note</b>  This interface is no longer supported by the AVI Splitter.</div>
 <div> </div>
@@ -60,9 +59,6 @@ A device memory control object supports <code>IAMDevMemoryControl</code>. This o
 Implement this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator</a> interface when pins need to have greater control of memory allocation.
 
 Use this interface to synchronize the completion of writing data to a memory allocator, and to get the device ID of the on-board memory allocator.
-
-
-
 
 ## -inheritance
 
@@ -106,16 +102,9 @@ Used to synchronize with the completed write operation by returning when any dat
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
- 
-
- 
 

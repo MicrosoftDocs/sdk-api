@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: A8323E69-F385-4E91-8B1F-A7CD3D508A09
 ms.date: 12/05/2018
 ms.keywords: D3D11_RENDER_TARGET_BLEND_DESC1, D3D11_RENDER_TARGET_BLEND_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RENDER_TARGET_BLEND_DESC1, direct3d11.d3d11_render_target_blend_desc1
-f1_keywords:
-- d3d11_1/D3D11_RENDER_TARGET_BLEND_DESC1
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11_1.h
-api_name:
-- D3D11_RENDER_TARGET_BLEND_DESC1
 targetos: Windows
 req.typenames: D3D11_RENDER_TARGET_BLEND_DESC1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_RENDER_TARGET_BLEND_DESC1
+ - d3d11_1/D3D11_RENDER_TARGET_BLEND_DESC1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11_1.h
+api_name:
+ - D3D11_RENDER_TARGET_BLEND_DESC1
 ---
 
 ## -description
@@ -180,3 +181,4 @@ Here are the default values for blend state.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
+

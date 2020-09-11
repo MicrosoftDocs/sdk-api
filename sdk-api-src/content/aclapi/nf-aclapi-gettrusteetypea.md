@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
 ms.date: 12/05/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
-f1_keywords:
-- aclapi/GetTrusteeType
-dev_langs:
-- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- GetTrusteeType
-- GetTrusteeTypeA
-- GetTrusteeTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTrusteeTypeA
+ - aclapi/GetTrusteeTypeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - GetTrusteeType
+ - GetTrusteeTypeA
+ - GetTrusteeTypeW
 ---
 
 # GetTrusteeTypeA function
@@ -51,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetTrusteeType</b> function retrieves the trustee type from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 
-
 ## -parameters
-
-
-
 
 ### -param pTrustee [in, optional]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
-
 ## -returns
 
-
-
 The return value is one of the constants from the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a> enumeration.
-					
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
@@ -94,9 +80,6 @@ The return value is one of the constants from the <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a>
- 
-
- 
 
 ## -remarks
 

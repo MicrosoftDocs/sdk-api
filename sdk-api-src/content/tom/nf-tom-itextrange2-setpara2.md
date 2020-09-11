@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: ffd25a04-27a8-47c0-95a4-d66291971819
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetPara2 method, ITextRange2.SetPara2, ITextRange2::SetPara2, SetPara2, SetPara2 method [Windows Controls], SetPara2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setpara2, tom/ITextRange2::SetPara2
-f1_keywords:
-- tom/ITextRange2.SetPara2
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange2.SetPara2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange2::SetPara2
+ - tom/ITextRange2::SetPara2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange2.SetPara2
 ---
 
 # ITextRange2::SetPara2
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the paragraph format attributes of a range.
 
-
 ## -parameters
-
-
-
 
 ### -param pPara [in]
 
@@ -64,10 +60,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itex
 
 The desired paragraph format.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,22 +105,12 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getpara2">ITextRange2::GetPara2</a>
- 
-
- 
 

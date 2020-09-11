@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter.htm
 ms.date: 12/05/2018
 ms.keywords: 5f145307-fa6f-0182-45d3-5fa9da029cf2, IDXGIAdapter, IDXGIAdapter interface [DXGI], IDXGIAdapter interface [DXGI],described, direct3ddxgi.idxgiadapter, dxgi/IDXGIAdapter
-f1_keywords:
-- dxgi/IDXGIAdapter
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIAdapter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIAdapter
+ - dxgi/IDXGIAdapter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIAdapter
 ---
 
 # IDXGIAdapter interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDXGIAdapter</b> interface represents a display subsystem (including one or more GPUs, DACs and video memory).
-      
-
 
 ## -inheritance
 
@@ -97,12 +95,9 @@ Gets a DXGI 1.0 description of an adapter (or video card).
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A display subsystem is often referred to as a video card, however, on some machines the display subsystem is part of the motherboard.
           
@@ -118,22 +113,12 @@ To create a software adapter, use <a href="https://docs.microsoft.com/windows/de
 
 <b>Windows Phone 8:
         </b> This API is supported.
-      
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
- 
-
- 
 

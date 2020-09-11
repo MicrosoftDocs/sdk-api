@@ -8,10 +8,6 @@ tech.root: wincontacts
 ms.assetid: 1a62c5d3-7052-4c10-90e7-25f616ac36b8
 ms.date: 12/05/2018
 ms.keywords: GetBinary, GetBinary method [Windows Contacts], GetBinary method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetBinary method, IContactProperties.GetBinary, IContactProperties::GetBinary, _wincontacts_IContactProperties_GetBinary, icontact/IContactProperties::GetBinary, wincontacts._wincontacts_IContactProperties_GetBinary
-f1_keywords:
-- icontact/IContactProperties.GetBinary
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactProperties.GetBinary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactProperties::GetBinary
+ - icontact/IContactProperties::GetBinary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactProperties.GetBinary
 ---
 
 # IContactProperties::GetBinary
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the binary data of a property using an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>. 
-
+Retrieves the binary data of a property using an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>.
 
 ## -parameters
-
-
-
 
 ### -param pszPropertyName [in]
 
@@ -64,45 +60,37 @@ Type: <b>LPCWSTR</b>
 
 Specifies the property to retrieve.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
-Must be CGD_DEFAULT. 
-
+Must be CGD_DEFAULT.
 
 ### -param pszContentType [in, out]
 
 Type: <b>LPWSTR</b>
 
-Specifies user-allocated buffer to store the MIME content type. 
-
+Specifies user-allocated buffer to store the MIME content type.
 
 ### -param cchContentType [in]
 
 Type: <b>DWORD</b>
 
-Specifies the allocated buffer size in characters. 
-
+Specifies the allocated buffer size in characters.
 
 ### -param pdwcchContentTypeRequired [in, out]
 
 Type: <b>DWORD*</b>
 
-On failure, contains the required size for <i>pszContentType</i>. 
-
+On failure, contains the required size for <i>pszContentType</i>.
 
 ### -param ppStream [out]
 
 Type: <b>IStream**</b>
 
-On success, contains a new <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>. Use this to retrieve the binary data. 
-
+On success, contains a new <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>. Use this to retrieve the binary data.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -173,20 +161,12 @@ Unable to get value for this property due to schema.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To retrieve a single level property, set <i>pszPropertyName</i> to the property name. 
 
 To retrieve a value from a multi-value (hierarchical) property, include the desired index as part of <i>pszPropertyName</i> using the form: toplevel/secondlevel[1]/thirdlevel. NOTE: the first element of a set is index 1, so index [0] is invalid.
 
 For deleted properties, this method returns S_OK and an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> of zero length. NOTE: For properties not of binary type, this method may return incorrect data in the IStream.
-
-
 

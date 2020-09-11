@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSourceVoice(IXAudio2SourceVoice@,const WAVEFORMATEX,UINT32,float,IXAudio2VoiceCallback,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.date: 12/05/2018
 ms.keywords: CreateSourceVoice, CreateSourceVoice method [XAudio2 Audio Mixing APIs], CreateSourceVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSourceVoice method, IXAudio2.CreateSourceVoice, IXAudio2::CreateSourceVoice, xaudio2.ixaudio2_interface_createsourcevoice, xaudio2/IXAudio2::CreateSourceVoice
-f1_keywords:
-- xaudio2/IXAudio2.CreateSourceVoice
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2.CreateSourceVoice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2::CreateSourceVoice
+ - xaudio2/IXAudio2::CreateSourceVoice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2.CreateSourceVoice
 ---
 
 # IXAudio2::CreateSourceVoice
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and configures a source voice.
 
-
 ## -parameters
-
-
-
 
 ### -param ppSourceVoice [out]
 
 If successful, returns a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a> object.
-
 
 ### -param pSourceFormat [in]
 
@@ -143,9 +138,6 @@ The number of channels in a source voice must be less than or equal to XAUDIO2_M
 
 TBD
 
-
-
-
 ### -param Flags [in]
 
 Flags that specify the behavior of the source voice. A flag can be 0 or a combination of one or more of the following:
@@ -202,26 +194,19 @@ If <i>MaxFrequencyRatio</i> is less than 1.0, the voice will use that ratio imme
 <div class="alert"><b>Note</b>  You can use the lowest possible <i>MaxFrequencyRatio</i> value to reduce XAudio2's memory usage.</div>
 <div> </div>
 
-
-
 ### -param pCallback [in, optional]
 
 Pointer to a client-provided callback interface, <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voicecallback">IXAudio2VoiceCallback</a>.
-
 
 ### -param pEffectChain [in, optional]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_chain">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the source voice.
 
-
 ### -param pSendList [in, out]
 
 Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_voice_sends">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the source voice. If pSendList is NULL, the send list defaults to a single output to the first mastering voice created.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful; otherwise, an error code. 
 
@@ -229,12 +214,7 @@ Returns S_OK if successful; otherwise, an error code.
 
 See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2-specific error codes.
 
-
-
-
 ## -remarks
-
-
 
 Source voices read audio data from the client. They process the data and send it to the XAudio2 processing graph.
 
@@ -271,13 +251,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-x
 Windows 10 (XAudio2.9); 
             Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--build-a-basic-audio-processing-graph">How to: Build a Basic Audio Processing Graph</a>
 
@@ -292,7 +266,4 @@ Windows 10 (XAudio2.9);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-sample-rate-conversions">XAudio2 Sample Rate Conversions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 53819ce0-4b81-4720-8c1d-6e9031b228c9
 ms.date: 12/05/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, IXpsOMBrush interface [XPS Documents and Packaging],GetOpacity method, IXpsOMBrush.GetOpacity, IXpsOMBrush::GetOpacity, xps.ixpsombrush_getopacity, xpsobjectmodel/IXpsOMBrush::GetOpacity
-f1_keywords:
-- xpsobjectmodel/IXpsOMBrush.GetOpacity
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMBrush.GetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMBrush::GetOpacity
+ - xpsobjectmodel/IXpsOMBrush::GetOpacity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMBrush.GetOpacity
 ---
 
 # IXpsOMBrush::GetOpacity
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the opacity of the brush.
 
-
 ## -parameters
-
-
-
 
 ### -param opacity [out, retval]
 
 The opacity value of the brush.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -97,24 +90,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>opacity</i> is expressed as a value between 0.0 and 1.0; 0.0 indicates that the brush is completely transparent, 0.5  that it is 50 percent opaque, and 1.0 that it is completely opaque.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
@@ -125,7 +106,4 @@ The method succeeded.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
 

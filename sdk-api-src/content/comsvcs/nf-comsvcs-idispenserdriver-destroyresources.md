@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 0c7fe9ca-8a27-4459-a95d-084d717d3a65
 ms.date: 12/05/2018
 ms.keywords: DestroyResourceS, DestroyResourceS method [COM+], DestroyResourceS method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResourceS method, IDispenserDriver.DestroyResourceS, IDispenserDriver::DestroyResourceS, _dtc_IDispenserDriver_DestroyResourceS, comsvcs/IDispenserDriver::DestroyResourceS, cos.idispenserdriver_destroyresources
-f1_keywords:
-- comsvcs/IDispenserDriver.DestroyResourceS
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IDispenserDriver.DestroyResourceS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispenserDriver::DestroyResourceS
+ - comsvcs/IDispenserDriver::DestroyResourceS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IDispenserDriver.DestroyResourceS
 ---
 
 # IDispenserDriver::DestroyResourceS
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys a resource (string resource version).
 
-
 ## -parameters
-
-
-
 
 ### -param ResId [in]
 
 The resource that the Dispenser Manager is asking the Resource Dispenser to destroy.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -108,18 +101,8 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextmarkermethods\nextmarker.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextMarker method, GraphicsPathIterator.NextMarker, GraphicsPathIterator.NextMarker(GraphicsPath*), GraphicsPathIterator.NextMarker(OUT const GraphicsPath), GraphicsPathIterator::NextMarker, GraphicsPathIterator::NextMarker(OUT const GraphicsPath), NextMarker, NextMarker method [GDI+], NextMarker method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextMarker_path_
-f1_keywords:
-- gdipluspath/GraphicsPathIterator.NextMarker
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPathIterator.NextMarker
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPathIterator::NextMarker
+ - gdipluspath/GraphicsPathIterator::NextMarker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPathIterator.NextMarker
 ---
 
 # GraphicsPathIterator::NextMarker(OUT const GraphicsPath)
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPathIterator::NextMarker</b> method gets the next marker-delimited section of this iterator's associated path.
 
-
 ## -parameters
-
-
-
 
 ### -param path [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved section. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved section.
 
 ## -returns
-
-
 
 Type: <b>INT</b>
 
 This method returns the number of data points in the retrieved section. If there are no more marker-delimited sections to retrieve, this method returns 0.
 
-
-
-
 ## -remarks
-
-
 
 A path has an array of data points that define its lines and curves. You can call a path's <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker">SetMarker</a> method to designate certain points in the array as markers. Those marker points divide the path into sections.
 
@@ -135,14 +123,7 @@ VOID NextMarkerExample(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
@@ -169,7 +150,4 @@ VOID NextMarkerExample(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: f68d0fb0-126d-4464-9d5a-0ffae4d40cb7
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_State method, ITAddress.get_State, ITAddress::get_State, _tapi3_itaddress_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_state, tapi3if/ITAddress::get_State
-f1_keywords:
-- tapi3if/ITAddress.get_State
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddress.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddress::get_State
+ - tapi3if/ITAddress::get_State
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddress.get_State
 ---
 
 # ITAddress::get_State
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_State</b> method gets the current state of the address in <i>pAddressState</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param pAddressState [out]
 
 Pointer to a member of 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_state">ADDRESS_STATE</a>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,15 +103,8 @@ The <i>pAddressState</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_state">ADDRESS_STATE</a>
 
@@ -129,7 +115,4 @@ The <i>pAddressState</i> parameter is not a valid pointer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
- 
-
- 
 

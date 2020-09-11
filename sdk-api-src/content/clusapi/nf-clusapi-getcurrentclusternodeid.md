@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
 ms.date: 12/05/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
-f1_keywords:
-- clusapi/GetCurrentClusterNodeId
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- GetCurrentClusterNodeId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentClusterNodeId
+ - clusapi/GetCurrentClusterNodeId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - GetCurrentClusterNodeId
 ---
 
 ## -description
@@ -69,3 +70,4 @@ Note that <i>_lpcchName_</i> refers to a count of characters and not a count of 
 <a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
 <a href="/windows/win32/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
+

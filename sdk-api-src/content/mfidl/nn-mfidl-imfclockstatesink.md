@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196
 ms.date: 12/05/2018
 ms.keywords: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], IMFClockStateSink interface [Media Foundation],described, mf.imfclockstatesink, mfidl/IMFClockStateSink
-f1_keywords:
-- mfidl/IMFClockStateSink
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFClockStateSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFClockStateSink
+ - mfidl/IMFClockStateSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFClockStateSink
 ---
 
 # IMFClockStateSink interface
@@ -50,10 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives state-change notifications from the presentation clock.
-        
-
 
 ## -inheritance
 
@@ -115,12 +113,9 @@ Called when the presentation clock stops.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 To receive state-change notifications from the presentation clock, implement this interface and call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-addclockstatesink">IMFPresentationClock::AddClockStateSink</a> on the presentation clock.
 
@@ -138,13 +133,7 @@ Media sinks. Media sinks use this interface to get notifications when the presen
 </ul>
 Other objects that need to be notified can implement this interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a>
 
@@ -155,7 +144,4 @@ Other objects that need to be notified can implement this interface.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
 

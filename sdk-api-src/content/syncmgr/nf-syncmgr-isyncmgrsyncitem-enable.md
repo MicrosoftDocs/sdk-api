@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7d73508e-4381-47fe-98ba-ab3ef665cd3e
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],Enable method, ISyncMgrSyncItem.Enable, ISyncMgrSyncItem::Enable, _shell_ISyncMgrSyncItem_Enable, shell.ISyncMgrSyncItem_Enable, syncmgr/ISyncMgrSyncItem::Enable
-f1_keywords:
-- syncmgr/ISyncMgrSyncItem.Enable
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrSyncItem.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSyncItem::Enable
+ - syncmgr/ISyncMgrSyncItem::Enable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrSyncItem.Enable
 ---
 
 # ISyncMgrSyncItem::Enable
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables the sync item.
 
-
 ## -parameters
-
-
-
 
 ### -param fEnable [in]
 
@@ -64,21 +60,13 @@ Type: <b>BOOL</b>
 
 <b>TRUE</b> to enable; <b>FALSE</b> to disable.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Sync Center calls this method in the following scenarios.
             
@@ -105,7 +93,4 @@ STDMETHODIMP CMyDeviceSyncItem::Enable(__in BOOL fEnable)
 }
 
 ```
-
-
-
 

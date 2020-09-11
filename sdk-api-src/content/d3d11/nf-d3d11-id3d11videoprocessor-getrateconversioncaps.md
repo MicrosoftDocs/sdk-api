@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: CC1ED2C7-8277-4F2A-801D-7534CE383DAD
 ms.date: 12/05/2018
 ms.keywords: GetRateConversionCaps, GetRateConversionCaps method [Media Foundation], GetRateConversionCaps method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetRateConversionCaps method, ID3D11VideoProcessor.GetRateConversionCaps, ID3D11VideoProcessor::GetRateConversionCaps, d3d11/ID3D11VideoProcessor::GetRateConversionCaps, mf.id3d11videoprocessor_getrateconversioncaps
-f1_keywords:
-- d3d11/ID3D11VideoProcessor.GetRateConversionCaps
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11VideoProcessor.GetRateConversionCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoProcessor::GetRateConversionCaps
+ - d3d11/ID3D11VideoProcessor::GetRateConversionCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11VideoProcessor.GetRateConversionCaps
 ---
 
 # ID3D11VideoProcessor::GetRateConversionCaps
@@ -49,27 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the rate conversion capabilities of the video processor.
 
-
 ## -parameters
-
-
-
 
 ### -param pCaps [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_rate_conversion_caps">D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a> structure that receives the rate conversion capabilities.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a>
- 
-
- 
 

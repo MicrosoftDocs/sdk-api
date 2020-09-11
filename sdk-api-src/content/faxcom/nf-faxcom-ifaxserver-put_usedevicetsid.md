@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0xb8.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],UseDeviceTsid property, IFaxServer.UseDeviceTsid, IFaxServer.get_UseDeviceTsid, IFaxServer.put_UseDeviceTsid, IFaxServer::UseDeviceTsid, IFaxServer::get_UseDeviceTsid, IFaxServer::put_UseDeviceTsid, UseDeviceTsid property [Fax Service], UseDeviceTsid property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_usedevicetsid, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_usedevicetsid_cpp, fax._mfax_ifaxserver_get_usedevicetsid, faxcom/IFaxServer::UseDeviceTsid, faxcom/IFaxServer::get_UseDeviceTsid, faxcom/IFaxServer::put_UseDeviceTsid, put_UseDeviceTsid
-f1_keywords:
-- faxcom/IFaxServer.UseDeviceTsid
-dev_langs:
-- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Faxcom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Faxcom.dll
-api_name:
-- IFaxServer.UseDeviceTsid
-- IFaxServer.get_UseDeviceTsid
-- IFaxServer.put_UseDeviceTsid
-- IFaxServer.get_UseDeviceTsid
-- IFaxServer.put_UseDeviceTsid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxServer::put_UseDeviceTsid
+ - faxcom/IFaxServer::put_UseDeviceTsid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Faxcom.dll
+api_name:
+ - IFaxServer.UseDeviceTsid
+ - IFaxServer.get_UseDeviceTsid
+ - IFaxServer.put_UseDeviceTsid
+ - IFaxServer.get_UseDeviceTsid
+ - IFaxServer.put_UseDeviceTsid
 ---
 
 # IFaxServer::put_UseDeviceTsid
@@ -53,29 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves the <b>UseDeviceTsid</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The <b>UseDeviceTsid</b> property is a Boolean value that indicates whether the fax server uses the device's transmitting station identifier (TSID) instead of a user-specified TSID.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-To ensure that the TSID for a port is associated with outbound faxes, set the <b>UseDeviceTsid</b> property equal to <b>TRUE</b>. This overrides the TSID a user can optionally specify for an outbound fax by setting the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-tsid-vb">Tsid</a> property. 
-		
-
-
-
+To ensure that the TSID for a port is associated with outbound faxes, set the <b>UseDeviceTsid</b> property equal to <b>TRUE</b>. This overrides the TSID a user can optionally specify for an outbound fax by setting the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-tsid-vb">Tsid</a> property.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
@@ -94,7 +83,4 @@ To ensure that the TSID for a port is associated with outbound faxes, set the <b
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-tsid-vb">Tsid</a>
- 
-
- 
 

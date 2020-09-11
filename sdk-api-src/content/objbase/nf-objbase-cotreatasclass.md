@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d871879f-ec68-48e1-8ef6-364cf1447d0f
 ms.date: 12/05/2018
 ms.keywords: CoTreatAsClass, CoTreatAsClass function [COM], _com_CoTreatAsClass, com.cotreatasclass, objbase/CoTreatAsClass
-f1_keywords:
-- objbase/CoTreatAsClass
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- CoTreatAsClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoTreatAsClass
+ - objbase/CoTreatAsClass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - CoTreatAsClass
 ---
 
 # CoTreatAsClass function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes or removes an emulation, in which objects of one class are treated as objects of a different class.
 
-
 ## -parameters
-
-
-
 
 ### -param clsidOld [in]
 
 The CLSID of the object to be emulated.
 
-
 ### -param clsidNew [in]
 
 The CLSID of the object that should emulate the original object. This replaces any existing emulation for <i>clsidOld</i>. This parameter can be CLSID_NULL, in which case any existing emulation for <i>clsidOld</i> is removed.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_INVALIDARG, as well as the following values.
 
@@ -124,14 +116,8 @@ Error writing to registration database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function sets the <b>TreatAs</b> entry in the registry for the specified object, allowing the object to be emulated by another application. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. After this entry is set, whenever any function such as <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> specifies the object's original CLSID (<i>clsidOld</i>), it is transparently forwarded to the new CLSID (<i>clsidNew</i>), thus launching the application associated with the <b>TreatAs</b> CLSID. When the object is saved, it can be saved in its native format, which may result in loss of edits not supported by the original format.
 
@@ -165,17 +151,7 @@ If there is no CLSID assigned to the <b>AutoTreatAs</b> key in the registry, set
 
 <b>CoTreatAsClass</b> does not validate whether an appropriate registry entry for clsidNew currently exists.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogettreatasclass">CoGetTreatAsClass</a>
- 
-
- 
 

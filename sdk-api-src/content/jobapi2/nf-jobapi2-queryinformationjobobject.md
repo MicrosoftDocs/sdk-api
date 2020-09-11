@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: d843d578-fd67-4708-959f-00245ff70ec6
 ms.date: 12/05/2018
 ms.keywords: JobObjectBasicAccountingInformation, JobObjectBasicAndIoAccountingInformation, JobObjectBasicLimitInformation, JobObjectBasicProcessIdList, JobObjectBasicUIRestrictions, JobObjectCpuRateControlInformation, JobObjectEndOfJobTimeInformation, JobObjectExtendedLimitInformation, JobObjectGroupInformation, JobObjectGroupInformationEx, JobObjectLimitViolationInformation, JobObjectLimitViolationInformation2, JobObjectNetRateControlInformation, JobObjectNotificationLimitInformation, JobObjectNotificationLimitInformation2, JobObjectSecurityLimitInformation, QueryInformationJobObject, QueryInformationJobObject function, _win32_queryinformationjobobject, base.queryinformationjobobject, jobapi2/QueryInformationJobObject
-f1_keywords:
-- jobapi2/QueryInformationJobObject
-dev_langs:
-- c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-job-l2-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Job-L2-1-1.dll
-api_name:
-- QueryInformationJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryInformationJobObject
+ - jobapi2/QueryInformationJobObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-job-l2-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Job-L2-1-1.dll
+api_name:
+ - QueryInformationJobObject
 ---
 
 # QueryInformationJobObject function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves limit and job state information from the job object.
 
-
 ## -parameters
-
-
-
 
 ### -param hJob [in, optional]
 
@@ -72,7 +68,6 @@ A handle to the job whose information is being queried. The
 
 
 If this value is NULL and the calling process is associated with a job, the job associated with the calling process is used. If the job is nested, the immediate job of the calling process is used.
-
 
 ### -param JobObjectInformationClass [in]
 
@@ -298,39 +293,27 @@ This flag is not supported. Applications must set security limits individually f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpJobObjectInformation [out]
 
 The limit or job state information. The format of this data depends on the value of the <i>JobObjectInfoClass</i> parameter.
 
-
 ### -param cbJobObjectInformationLength [in]
 
 The count of the job information being queried, in bytes. This value depends on the value of the <i>JobObjectInfoClass</i> parameter.
-
 
 ### -param lpReturnLength [out, optional]
 
 A pointer to a variable that receives the length of data written to the structure pointed to by the <i>lpJobObjectInfo</i> parameter. Specify <b>NULL</b>  to not receive this information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Use 
 <b>QueryInformationJobObject</b> to obtain the current limits and modify them. Use the 
@@ -339,13 +322,7 @@ Use
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
 
@@ -412,7 +389,4 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
 

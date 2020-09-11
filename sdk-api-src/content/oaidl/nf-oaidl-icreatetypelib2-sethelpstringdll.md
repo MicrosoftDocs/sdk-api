@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: f00a3dbf-7205-48fd-abeb-1d2d80be7743
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib2 interface [Automation],SetHelpStringDll method, ICreateTypeLib2.SetHelpStringDll, ICreateTypeLib2::SetHelpStringDll, SetHelpStringDll, SetHelpStringDll method [Automation], SetHelpStringDll method [Automation],ICreateTypeLib2 interface, _oa96_ICreateTypeLib2_SetHelpStringDll, automat.icreatetypelib2_sethelpstringdll, oaidl/ICreateTypeLib2::SetHelpStringDll
-f1_keywords:
-- oaidl/ICreateTypeLib2.SetHelpStringDll
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib2.SetHelpStringDll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib2::SetHelpStringDll
+ - oaidl/ICreateTypeLib2::SetHelpStringDll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib2.SetHelpStringDll
 ---
 
 # ICreateTypeLib2::SetHelpStringDll
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the DLL name to be used for Help string lookup (for localization purposes).
 
-
 ## -parameters
-
-
-
 
 ### -param szFileName [in]
 
 The DLL file name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,18 +103,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib2">ICreateTypeLib2</a>
- 
-
- 
 

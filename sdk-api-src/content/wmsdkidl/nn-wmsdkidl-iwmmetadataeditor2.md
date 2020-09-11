@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: e991ac8e-35af-484f-8c60-dc6a7d402120
 ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor2, IWMMetadataEditor2 interface [windows Media Format], IWMMetadataEditor2 interface [windows Media Format],described, IWMMetadataEditor2Interface, wmformat.iwmmetadataeditor2, wmsdkidl/IWMMetadataEditor2
-f1_keywords:
-- wmsdkidl/IWMMetadataEditor2
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMMetadataEditor2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMetadataEditor2
+ - wmsdkidl/IWMMetadataEditor2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMMetadataEditor2
 ---
 
 # IWMMetadataEditor2 interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMMetadataEditor2</b> interface provides an improved method for opening files for metadata operations.
 
 This interface is implemented as part of the metadata editor object. To obtain a pointer to <b>IWMMetadataEditor2</b>, call the <b>QueryInterface</b> method of any other interface in an existing metadata editor object.
-
-
-
 
 ## -inheritance
 
@@ -121,20 +117,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </td>
 <td>IID_IWMMetadataEditor</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>
- 
-
- 
 

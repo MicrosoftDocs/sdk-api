@@ -8,10 +8,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 214BE795-5883-4761-9040-2C7A679F5258
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IVisualTreeService interface, IVisualTreeService interface,CreateInstance method, IVisualTreeService.CreateInstance, IVisualTreeService::CreateInstance, xaml_diagnostics.ivisualtreeservice_createinstance, xamlom/IVisualTreeService::CreateInstance
-f1_keywords:
-- xamlom/IVisualTreeService.CreateInstance
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xamlom.h
-api_name:
-- IVisualTreeService.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualTreeService::CreateInstance
+ - xamlom/IVisualTreeService::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xamlom.h
+api_name:
+ - IVisualTreeService.CreateInstance
 ---
 
 # IVisualTreeService::CreateInstance
@@ -49,56 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of any XAML runtime, enum, or primitive type.
 
-
 ## -parameters
-
-
-
 
 ### -param typeName [in]
 
 The type name. (Should be from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue.Type</a>.)
 
-
 ### -param value [in]
 
 The value to set on a primitive or enum type. <b>null</b> if creating a XAML runtime type.
-
 
 ### -param pInstanceHandle [out, retval]
 
 An instance handle to newly created instance.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
  For primitives and enums, <i>value</i> should be 
     set to desired value. For XAML runtime types, <i>value</i> should be <b>null</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
- 
-
- 
 

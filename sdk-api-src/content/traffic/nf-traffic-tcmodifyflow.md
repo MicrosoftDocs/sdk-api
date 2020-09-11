@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
 ms.date: 12/05/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
-f1_keywords:
-- traffic/TcModifyFlow
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcModifyFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcModifyFlow
+ - traffic/TcModifyFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcModifyFlow
 ---
 
 # TcModifyFlow function
 
 
 ## -description
-
 
 The 
 <b>TcModifyFlow</b> function modifies an existing flow. When calling 
@@ -57,26 +57,18 @@ The
 Traffic control clients that have registered a ModifyFlowComplete handler (a mechanism for allowing traffic control to call the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a> callback function in order to alert clients of completed flow modifications) can expect a return value of ERROR_SIGNAL_PENDING.
 
-
 ## -parameters
-
-
-
 
 ### -param FlowHandle [in]
 
 Handle for the flow, as received from a previous call to the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddflow">TcAddFlow</a> function.
 
-
 ### -param pGenericFlow [in]
 
 Pointer to a description of the flow modifications.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -302,14 +294,8 @@ The network cable is not plugged into the adapter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the 
 <b>TcModifyFlow</b> function returns ERROR_SIGNAL_PENDING, the 
@@ -320,12 +306,7 @@ If the
 <b>TcModifyFlow</b> function requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a>
 
@@ -336,7 +317,4 @@ If the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
- 
-
- 
 

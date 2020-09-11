@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 5694c4b6-3d0f-4a48-8d15-1e404cbb6164
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpenEx, WTSVirtualChannelOpenEx function [Remote Desktop Services], WTS_CHANNEL_OPTION_DYNAMIC_NO_COMPRESS, WTS_CHANNEL_OPTION_DYNAMIC_PRI_HIGH, WTS_CHANNEL_OPTION_DYNAMIC_PRI_LOW (default), WTS_CHANNEL_OPTION_DYNAMIC_PRI_MED, WTS_CHANNEL_OPTION_DYNAMIC_PRI_REAL, termserv.wtsvirtualchannelopenex, wtsapi32/WTSVirtualChannelOpenEx
-f1_keywords:
-- wtsapi32/WTSVirtualChannelOpenEx
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
-api_name:
-- WTSVirtualChannelOpenEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSVirtualChannelOpenEx
+ - wtsapi32/WTSVirtualChannelOpenEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+ - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+api_name:
+ - WTSVirtualChannelOpenEx
 ---
 
 # WTSVirtualChannelOpenEx function
 
 
 ## -description
-
 
 Creates a virtual channel in a manner similar to 
     <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>.
@@ -60,11 +60,7 @@ This API supports both static virtual channel (SVC) and dynamic virtual channel 
     by specifying the appropriate flag. After a DVC is created, you can use the same functions for Read, Write, Query, 
     or Close that are used for the SVC.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionId [in]
 
@@ -78,7 +74,6 @@ To be able to open a virtual channel on another user's session, you must have th
        <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>. 
        To modify permissions on a session, use the Remote Desktop Services Configuration administrative tool.
 
-
 ### -param pVirtualName [in]
 
 In the case of an SVC, points to a null-terminated string that contains the virtual channel name. The length 
@@ -87,7 +82,6 @@ In the case of an SVC, points to a null-terminated string that contains the virt
 
 In the case of a DVC, points to a null-terminated string that contains the endpoint name of the listener. The 
        length of a DVC name is limited to <b>MAX_PATH</b> characters.
-
 
 ### -param flags [in]
 
@@ -134,21 +128,12 @@ High priority. Use this priority level for data that is critical and directly af
 Real-time priority. Use this priority level only in cases where the data transfer is absolutely critical. 
         The data transfer size should be limited to a few hundred bytes per message.
 
-
 ## -returns
-
-
 
 <b>NULL</b> on error with 
       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> set.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/dvc-server-apis">DVC Server APIs</a>
 
@@ -159,7 +144,4 @@ Real-time priority. Use this priority level only in cases where the data transfe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>
- 
-
- 
 

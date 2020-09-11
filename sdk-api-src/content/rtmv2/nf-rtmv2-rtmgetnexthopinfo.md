@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 45f18cfe-b863-4b78-90e4-c7b25c949834
 ms.date: 12/05/2018
 ms.keywords: RtmGetNextHopInfo, RtmGetNextHopInfo function [RAS], _rtmv2ref_rtmgetnexthopinfo, rras.rtmgetnexthopinfo, rtmv2/RtmGetNextHopInfo
-f1_keywords:
-- rtmv2/RtmGetNextHopInfo
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetNextHopInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetNextHopInfo
+ - rtmv2/RtmGetNextHopInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetNextHopInfo
 ---
 
 # RtmGetNextHopInfo function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetNextHopInfo</b> function returns information about the specified next hop.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
-
 ### -param NextHopHandle [in]
 
 Handle to the next hop.
-
 
 ### -param NextHopInfo [out]
 
@@ -80,10 +74,7 @@ On input, <i>NextHopInfo</i> a pointer to an
 
 On output, <i>NextHopInfo</i> is filled with the requested next-hop information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -111,31 +102,16 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 When the next hop handle is no longer required, release it by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeletenexthop">RtmDeleteNextHop</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>
- 
-
- 
 

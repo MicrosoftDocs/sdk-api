@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: f1b9487a-156c-4c2c-ab18-edfd66d96315
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM+], GetObject method [COM+],IServicePool interface, IServicePool interface [COM+],GetObject method, IServicePool.GetObject, IServicePool::GetObject, _cos_IServicePool_GetObject, comsvcs/IServicePool::GetObject, cos.iservicepool_getobject
-f1_keywords:
-- comsvcs/IServicePool.GetObject
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServicePool.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServicePool::GetObject
+ - comsvcs/IServicePool::GetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServicePool.GetObject
 ---
 
 # IServicePool::GetObject
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an object from the object pool.
 
 The object returned is a COM object that can run under arbitrary threading models and contexts.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 A reference to the identifier of the object requested.
 
-
 ### -param ppv [out]
 
 The requested object.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -126,18 +118,8 @@ The object pool was not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
- 
-
- 
 

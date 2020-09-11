@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: F0CDC9CD-7D31-4854-9568-8F13516C6D15
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_STANDARD_INFO, CF_PLACEHOLDER_STANDARD_INFO structure, cfapi/CF_PLACEHOLDER_STANDARD_INFO, cloudApi.cf_placeholder_standard_info
-f1_keywords:
-- cfapi/CF_PLACEHOLDER_STANDARD_INFO
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_PLACEHOLDER_STANDARD_INFO
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_STANDARD_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_PLACEHOLDER_STANDARD_INFO
+ - cfapi/CF_PLACEHOLDER_STANDARD_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_PLACEHOLDER_STANDARD_INFO
 ---
 
 ## -description
@@ -89,3 +90,4 @@ Length, in bytes, of the FileIdentity.
 ### -field FileIdentity
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
+

@@ -8,10 +8,6 @@ tech.root: upnp
 ms.assetid: 566cc606-3dfb-4052-93b0-3c922bf30f84
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice, IUPnPDevice interface [UPnP APIs], IUPnPDevice interface [UPnP APIs],described, _upnp_iupnpdevice, upnp.iupnpdevice, upnp/IUPnPDevice
-f1_keywords:
-- upnp/IUPnPDevice
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDevice
+ - upnp/IUPnPDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDevice
 ---
 
 # IUPnPDevice interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IUPnPDevice</b> interface enables an application to retrieve information about a specific device.
-
 
 ## -inheritance
 
@@ -302,5 +301,5 @@ Human-readable form of the product code.
 
 </td>
 </tr>
-</table> 
+</table>
 

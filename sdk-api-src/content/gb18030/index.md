@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: intl
+f1_keywords:
+ - gb18030
+ - gb18030/gb18030
 ---
 
 # Gb18030.h header
 
 
 ## -description
-
 
 This header is used by Internationalization for Windows Applications. For more information, see:
 

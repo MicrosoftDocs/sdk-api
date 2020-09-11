@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 4c6be981-4271-4040-8f6e-725616355062
 ms.date: 12/05/2018
 ms.keywords: VSS_RESTOREMETHOD_ENUM, VSS_RESTOREMETHOD_ENUM enumeration [VSS], VSS_RME_CUSTOM, VSS_RME_RESTORE_AT_REBOOT, VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE, VSS_RME_RESTORE_IF_CAN_REPLACE, VSS_RME_RESTORE_IF_NOT_THERE, VSS_RME_RESTORE_STOP_START, VSS_RME_RESTORE_TO_ALTERNATE_LOCATION, VSS_RME_STOP_RESTORE_START, VSS_RME_UNDEFINED, _win32_vss_restoremethod_enum, base.vss_restoremethod_enum, enumeration [VSS], vswriter/VSS_RESTOREMETHOD_ENUM, vswriter/VSS_RME_CUSTOM, vswriter/VSS_RME_RESTORE_AT_REBOOT, vswriter/VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE, vswriter/VSS_RME_RESTORE_IF_CAN_REPLACE, vswriter/VSS_RME_RESTORE_IF_NOT_THERE, vswriter/VSS_RME_RESTORE_STOP_START, vswriter/VSS_RME_RESTORE_TO_ALTERNATE_LOCATION, vswriter/VSS_RME_STOP_RESTORE_START, vswriter/VSS_RME_UNDEFINED
-f1_keywords:
-- vswriter/VSS_RESTOREMETHOD_ENUM
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VsWriter.h
-api_name:
-- VSS_RESTOREMETHOD_ENUM
 targetos: Windows
 req.typenames: VSS_RESTOREMETHOD_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VSS_RESTOREMETHOD_ENUM
+ - vswriter/VSS_RESTOREMETHOD_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VsWriter.h
+api_name:
+ - VSS_RESTOREMETHOD_ENUM
 ---
 
 # VSS_RESTOREMETHOD_ENUM enumeration
 
 
 ## -description
-
 
 The <b>VSS_RESTOREMETHOD_ENUM</b> enumeration is 
     used by a writer at backup time to specify through its Writer Metadata Document the default file restore 
@@ -58,11 +58,7 @@ The restore method is writer-wide and is also referred to as the original restor
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> value of 
     <b>VSS_RT_ORIGINAL</b>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_RME_UNDEFINED
 
@@ -72,7 +68,6 @@ No restore method is defined.
 This indicates an error on the part of the writer.
 
 This value is not supported for express writers.
-
 
 ### -field VSS_RME_RESTORE_IF_NOT_THERE
 
@@ -88,7 +83,6 @@ If a file's alternate location mapping is defined, and a version of the files is
        original location, files should be written to the alternate location only if no version of the file exists at 
        the alternate location.
 
-
 ### -field VSS_RME_RESTORE_IF_CAN_REPLACE
 
 The requester should restore files of a selected component or component set only if the files currently on the disk can be overwritten. 
@@ -99,7 +93,6 @@ Unless alternate location mappings are defined for file restoration, if there is
        component or component set should be restored.
 
 If a file's alternate location mapping is defined, files should be written to the alternate location.
-
 
 ### -field VSS_RME_STOP_RESTORE_START
 
@@ -116,7 +109,6 @@ The service to be stopped is specified the writer beforehand when it calls the <
 
 Note that if the writer is hosted in the service that is being stopped, that writer will not receive the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event, because the writer instance ID changes when the service is stopped and restarted.
 
-
 ### -field VSS_RME_RESTORE_TO_ALTERNATE_LOCATION
 
 The requester should restore the files of the selected component or component set to the location specified by the 
@@ -128,7 +120,6 @@ The requester should restore the files of the selected component or component se
 
 This value is not supported for express writers.
 
-
 ### -field VSS_RME_RESTORE_AT_REBOOT
 
 The requester should restore the files of a selected component or component set after the computer is restarted. 
@@ -138,7 +129,6 @@ The files to be restored should be copied to a temporary location, and the reque
        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefileexa">MoveFileEx</a> with the 
        <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> flag to complete the restoration of these files to their 
        proper location after the computer is restarted.
-
 
 ### -field VSS_RME_RESTORE_AT_REBOOT_IF_CANNOT_REPLACE
 
@@ -155,7 +145,6 @@ In this case, files to be restored should be copied to a temporary location on d
        <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> flag to complete the restoration of these files to their 
        proper location after the computer is restarted.
 
-
 ### -field VSS_RME_CUSTOM
 
 The requester should use a custom restore method to restore the files that are managed by the selected 
@@ -168,7 +157,6 @@ A custom restore may use file retrieval API functions or protocols that are priv
        information.)
 
 This value is not supported for express writers.
-
 
 ### -field VSS_RME_RESTORE_STOP_START
 
@@ -183,10 +171,7 @@ The requester should perform the restore operation as follows:
 </ol>
 The service to be stopped is specified by the writer beforehand when it calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> method. The requester can obtain the name of the service by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a> method.
 
-
 ## -remarks
-
-
 
 A writer sets the restore method in the Writer Metadata Document by calling 
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> 
@@ -241,13 +226,7 @@ For more information on backup and restore file locations under VSS, see
     <a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore 
     Locations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping">IVssBackupComponents::AddAlternativeLocationMapping</a>
 
@@ -278,7 +257,4 @@ For more information on backup and restore file locations under VSS, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_writerrestore_enum">VSS_WRITERRESTORE_ENUM</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5sac.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetPortW, _mfax_faxsetport, fax._mfax_faxsetport, winfax/FaxSetPort, winfax/FaxSetPortA, winfax/FaxSetPortW
-f1_keywords:
-- winfax/FaxSetPort
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxSetPort
-- FaxSetPortA
-- FaxSetPortW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxSetPortA
+ - winfax/FaxSetPortA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxSetPort
+ - FaxSetPortA
+ - FaxSetPortW
 ---
 
 # FaxSetPortA function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 A fax client application calls the <b>FaxSetPort</b> function to change the configuration of the fax port of interest. The configuration data can include, among other items, the capability of the port, its priority, rings before answer, and the transmitting and called station identifiers..
 
-
 ## -parameters
-
-
-
 
 ### -param FaxPortHandle [in]
 
@@ -67,17 +63,13 @@ Type: <b>HANDLE</b>
 
 Specifies a fax port handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
 
-
 ### -param PortInfo [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a> structure. The structure contains data to modify the configuration of the specified fax port.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -124,14 +116,8 @@ One or both of the <i>FaxPortHandle</i> or <i>PortInfo</i> parameters are <b>NUL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function and specify the <b>PORT_OPEN_MODIFY</b> access level before calling the <b>FaxSetPort</b> function.
 
@@ -149,9 +135,6 @@ To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter o
 > The winfax.h header defines FaxSetPort as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_port_infoa">FAX_PORT_INFO</a>
 
@@ -174,7 +157,4 @@ To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter o
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a>
- 
-
- 
 

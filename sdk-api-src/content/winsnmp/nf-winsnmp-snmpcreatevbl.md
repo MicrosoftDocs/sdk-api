@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 5e973b32-3e7e-41f7-9257-4ac3d67fd853
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, snmp.snmpcreatevbl, winsnmp/SnmpCreateVbl
-f1_keywords:
-- winsnmp/SnmpCreateVbl
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpCreateVbl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpCreateVbl
+ - winsnmp/SnmpCreateVbl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpCreateVbl
 ---
 
 # SnmpCreateVbl function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -57,32 +57,23 @@ The WinSNMP
 <b>SnmpCreateVbl</b> uses their values to create the first variable binding entry for the new variable bindings list. The 
 <b>SnmpCreateVbl</b> function returns a handle to the new variable bindings list and allocates any necessary memory for it.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session.
-
 
 ### -param name [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioid">smiOID</a> structure that contains the variable name for the first variable binding entry. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
 
-
 ### -param value [in]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure that contains a value to associate with the variable in the first variable binding entry. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to a new variable bindings list.
 
@@ -164,14 +155,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SnmpCreateVbl</b> function uses the values of the <i>name</i> and <i>value</i> parameters to create and initialize the first variable binding entry of a new variable bindings list. If the <i>name</i> parameter is <b>NULL</b>, the Microsoft WinSNMP implementation ignores the <i>value</i> parameter and creates an empty variable bindings list.
@@ -187,13 +172,7 @@ The WinSNMP application must release the resources associated with each variable
 <b>SnmpDuplicateVbl</b>. For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpduplicatevbl">SnmpDuplicateVbl</a>
 
@@ -217,7 +196,4 @@ The WinSNMP application must release the resources associated with each variable
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
- 
-
- 
 

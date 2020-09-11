@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 312c3e62-4c08-447b-951f-d8d944daff3e
 ms.date: 12/05/2018
 ms.keywords: MSIMODIFY_ASSIGN, MSIMODIFY_DELETE, MSIMODIFY_INSERT, MSIMODIFY_INSERT_TEMPORARY, MSIMODIFY_MERGE, MSIMODIFY_REFRESH, MSIMODIFY_REPLACE, MSIMODIFY_SEEK, MSIMODIFY_UPDATE, MSIMODIFY_VALIDATE, MSIMODIFY_VALIDATE_DELETE, MSIMODIFY_VALIDATE_FIELD, MSIMODIFY_VALIDATE_NEW, MsiViewModify, MsiViewModify function, _msi_msiviewmodify, msiquery/MsiViewModify, setup.msiviewmodify
-f1_keywords:
-- msiquery/MsiViewModify
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiViewModify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiViewModify
+ - msiquery/MsiViewModify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiViewModify
 ---
 
 # MsiViewModify function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiViewModify</b> function updates a fetched record.
 
-
 ## -parameters
-
-
-
 
 ### -param hView [in]
 
 Handle to a view.
-
 
 ### -param eModifyMode [in]
 
@@ -229,29 +224,19 @@ Validates a record that will be deleted later. You must first call
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hRecord [in]
 
 Handle to the record to modify.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiViewModify</b> function returns the following values:
 
 Note that in low memory situations, this function can raise a STATUS_NO_MEMORY exception.
 
-
-
-
 ## -remarks
-
-
 
 The MSIMODIFY_VALIDATE, MSIMODIFY_VALIDATE_NEW, MSIMODIFY_VALIDATE_FIELD, and MSIMODIFY_VALIDATE_DELETE values of the 
 <b>MsiViewModify</b> function do not perform actual updates; they ensure that the data in the record is valid. Use of these validation enumerations requires that the database contains the 
@@ -270,16 +255,7 @@ Note that custom actions can only add, modify, or remove temporary rows, columns
 
 If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
- 
-
- 
 

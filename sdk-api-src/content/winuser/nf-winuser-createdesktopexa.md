@@ -8,10 +8,6 @@ tech.root: winstation
 ms.assetid: 2fe8859d-1fe3-4f44-aa97-58e61779c4cc
 ms.date: 12/05/2018
 ms.keywords: CreateDesktopEx, CreateDesktopEx function [Windows Stations and Desktops], CreateDesktopExA, CreateDesktopExW, DF_ALLOWOTHERACCOUNTHOOK, base.createdesktopex, winstation.createdesktopex, winuser/CreateDesktopEx, winuser/CreateDesktopExA, winuser/CreateDesktopExW
-f1_keywords:
-- winuser/CreateDesktopEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- CreateDesktopEx
-- CreateDesktopExA
-- CreateDesktopExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDesktopExA
+ - winuser/CreateDesktopExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - CreateDesktopEx
+ - CreateDesktopExA
+ - CreateDesktopExW
 ---
 
 # CreateDesktopExA function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread. The calling process must have an associated window station, either assigned by the system at process creation time or set by 
 the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszDesktop [in]
 
 The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).
 
-
 ### -param lpszDevice
 
 This parameter is reserved and must be NULL.
 
-
 ### -param pDevmode
 
 This parameter is reserved and must be NULL.
-
 
 ### -param dwFlags [in]
 
@@ -97,8 +90,6 @@ Enables processes running in other accounts on the desktop to set hooks in this 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwDesiredAccess [in]
 
@@ -111,7 +102,6 @@ The requested access to the desktop. For a list of values, see
 This parameter must include the DESKTOP_CREATEWINDOW access right, because internally 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> uses the handle to create a window.
 
-
 ### -param lpsa [in, optional]
 
 A pointer to a 
@@ -122,20 +112,15 @@ A pointer to a
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new desktop. If this parameter is NULL, the desktop inherits its security descriptor from the parent window station.
 
-
 ### -param ulHeapSize [in]
 
-The size of the desktop heap, in kilobytes. 
-
+The size of the desktop heap, in kilobytes.
 
 ### -param pvoid
 
 This parameter is reserved and must be NULL.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created desktop. If the specified desktop already exists, the function succeeds and returns a handle to the existing desktop. When you are finished using the handle, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> function to close it.
@@ -143,12 +128,7 @@ If the function succeeds, the return value is a handle to the newly created desk
 If the function fails, the return value is NULL. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>dwDesiredAccess</i> parameter specifies the READ_CONTROL, WRITE_DAC, or WRITE_OWNER standard access rights, you must also request the DESKTOP_READOBJECTS and DESKTOP_WRITEOBJECTS access rights.
 
@@ -181,9 +161,6 @@ The default size of the desktop heap depends on factors such as hardware archite
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a>
 
 
@@ -205,7 +182,4 @@ The default size of the desktop heap depends on factors such as hardware archite
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
- 
-
- 
 

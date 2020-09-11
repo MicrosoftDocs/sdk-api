@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84
 ms.date: 12/05/2018
 ms.keywords: IMFSensorStream, IMFSensorStream interface [Media Foundation], IMFSensorStream interface [Media Foundation],described, mf.imfsensorstream, mfidl/IMFSensorStream
-f1_keywords:
-- mfidl/IMFSensorStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorStream
+ - mfidl/IMFSensorStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorStream
 ---
 
 # IMFSensorStream interface
@@ -52,9 +53,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods for cloning and querying the properties of a sensor stream.
-
 
 ## -inheritance
 
@@ -98,13 +97,9 @@ Gets the count of media types supported by the sensor stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
  
@@ -112,3 +107,4 @@ Gets the count of media types supported by the sensor stream.
  
 
 >>>>>>> master
+

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess::GetConfiguration
 f1_keywords:
+ - IMFContentDecryptionModuleAccess::GetConfiguration
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess::GetConfiguration
 dev_langs:
  - c++
@@ -54,8 +55,6 @@ Recevices a referebce to an [IPropertyStore](/windows/win32/api/propsys/nn-props
 Returns S_OK on success.
 
 ## -remarks
-
-
 
 **GetConfiguration** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess.keySystem](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysystemaccess-getconfiguration).
 

@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 2b377855-dae7-47cb-925a-9ee0a9265f83
 ms.date: 12/05/2018
 ms.keywords: PXE_REG_INDEX_BOTTOM, PXE_REG_INDEX_TOP, PxeProviderRegister, PxeProviderRegister function [Windows Deployment Services], wds.pxeproviderregister, wdspxe/PxeProviderRegister
-f1_keywords:
-- wdspxe/PxeProviderRegister
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeProviderRegister
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeProviderRegister
+ - wdspxe/PxeProviderRegister
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeProviderRegister
 ---
 
 # PxeProviderRegister function
@@ -49,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a provider with the system. Providers use this function during installation to 
     register with the system. On successful registration, a registry key handle is returned that should be used to 
     store configuration information.
 
-
 ## -parameters
-
-
-
 
 ### -param pszProviderName [in]
 
 Address of a null terminated string that specifies the display name of the provider. This name is 
       displayed to the user and must be unique among registered providers.
 
-
 ### -param pszModulePath [in]
 
 Address of a null-terminated string that specifies the full path to the provider DLL.
-
 
 ### -param Index [in]
 
@@ -104,14 +98,11 @@ Add the provider to the bottom of the list.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bIsCritical [in]
 
 Indicates whether the provider is critical. If a critical provider fails, the WDS server will also 
       fail.
-
 
 ### -param phProviderKey [out]
 
@@ -119,20 +110,11 @@ Address of a <b>HKEY</b> where the configuration should be stored. The provider 
       receive a handle to this same key as the <i>hProviderKey</i> parameter to its 
       <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> callback.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
@@ -143,7 +125,4 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
 

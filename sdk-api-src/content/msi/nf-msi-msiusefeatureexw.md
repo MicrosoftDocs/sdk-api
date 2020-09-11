@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
-f1_keywords:
-- msi/MsiUseFeatureEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiUseFeatureEx
-- MsiUseFeatureExA
-- MsiUseFeatureExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiUseFeatureExW
+ - msi/MsiUseFeatureExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiUseFeatureEx
+ - MsiUseFeatureExA
+ - MsiUseFeatureExW
 ---
 
 # MsiUseFeatureExW function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiUseFeatureEx</b> function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that owns the feature to be used.
 
-
 ### -param szFeature [in]
 
 Identifies the feature to be used.
-
 
 ### -param dwInstallMode [in]
 
@@ -93,17 +87,12 @@ Return value indicates the installation state.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwReserved [in]
 
 Reserved for future use. This value must be set to 0.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -166,14 +155,8 @@ The feature is not published.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MsiUseFeatureEx</b> function should only be used on features known to be published. INSTALLSTATE_UNKNOWN indicates that the program is trying to use a feature that is not published. The application should determine whether the feature is published before calling 
@@ -190,11 +173,5 @@ The
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
- 
-
- 
 

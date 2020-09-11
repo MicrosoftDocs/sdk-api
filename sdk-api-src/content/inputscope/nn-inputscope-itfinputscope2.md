@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 45314d3a-cb54-4524-819a-16c035dfe533
 ms.date: 12/05/2018
 ms.keywords: ITfInputScope2, ITfInputScope2 interface [Text Services Framework], ITfInputScope2 interface [Text Services Framework],described, _tsf_itfinputscope2_ref, inputscope/ITfInputScope2, tsf.ITfInputScope2
-f1_keywords:
-- inputscope/ITfInputScope2
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfInputScope2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputScope2
+ - inputscope/ITfInputScope2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfInputScope2
 ---
 
 # ITfInputScope2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfInputScope2</b> interface is used by the text input processors to get the IEnumString interface pointer and this IEnumString interface enumerates the word list that the application specified for this context.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Return a pointer to obtain the IEnumString interface pointer.
 
 </td>
 </tr>
-</table> 
+</table>
 

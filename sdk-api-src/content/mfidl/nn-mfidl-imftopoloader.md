@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942
 ms.date: 12/05/2018
 ms.keywords: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942, IMFTopoLoader, IMFTopoLoader interface [Media Foundation], IMFTopoLoader interface [Media Foundation],described, mf.imftopoloader, mfidl/IMFTopoLoader
-f1_keywords:
-- mfidl/IMFTopoLoader
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopoLoader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopoLoader
+ - mfidl/IMFTopoLoader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopoLoader
 ---
 
 # IMFTopoLoader interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a partial topology into a full topology. The topology loader exposes this interface.
-
 
 ## -inheritance
 
@@ -78,22 +77,13 @@ Creates a fully loaded topology from the input partial topology.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create the topology loader, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopoloader">MFCreateTopoLoader</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/advanced-topology-building">Advanced Topology Building</a>
 
@@ -104,7 +94,4 @@ To create the topology loader, call the <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
 

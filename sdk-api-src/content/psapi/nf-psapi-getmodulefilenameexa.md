@@ -8,10 +8,6 @@ tech.root: psapi
 ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
 ms.date: 12/05/2018
 ms.keywords: GetModuleFileNameEx, GetModuleFileNameEx function [PSAPI], GetModuleFileNameExA, GetModuleFileNameExW, K32GetModuleFileNameEx, K32GetModuleFileNameExA, K32GetModuleFileNameExW, _win32_getmodulefilenameex, base.getmodulefilenameex, psapi.getmodulefilenameex, psapi/GetModuleFileNameEx, psapi/GetModuleFileNameExA, psapi/GetModuleFileNameExW, psapi/K32GetModuleFileNameEx, psapi/K32GetModuleFileNameExA, psapi/K32GetModuleFileNameExW
-f1_keywords:
-- psapi/GetModuleFileNameEx
-dev_langs:
-- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Psapi.dll
-- Psapi.dll
-- API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
-- KernelBase.dll
-- API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
-- API-Ms-Win-Core-PsAPI-L1-1-0.dll
-api_name:
-- GetModuleFileNameEx
-- GetModuleFileNameExA
-- GetModuleFileNameExW
-- K32GetModuleFileNameEx
-- K32GetModuleFileNameExW
-- K32GetModuleFileNameExA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetModuleFileNameExA
+ - psapi/GetModuleFileNameExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Psapi.dll
+ - Psapi.dll
+ - API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
+ - API-Ms-Win-Core-PsAPI-L1-1-0.dll
+api_name:
+ - GetModuleFileNameEx
+ - GetModuleFileNameExA
+ - GetModuleFileNameExW
+ - K32GetModuleFileNameEx
+ - K32GetModuleFileNameExW
+ - K32GetModuleFileNameExA
 ---
 
 # GetModuleFileNameExA function
@@ -60,9 +61,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the fully qualified path for the file containing the specified module.
-
 
 ## -parameters
 
@@ -74,37 +73,26 @@ The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LI
 
 The <b>GetModuleFileNameEx</b> function does not retrieve the path for modules  that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
-
 ### -param hModule [in, optional]
 
 A handle to the module. If this parameter is NULL, <b>GetModuleFileNameEx</b> returns the path of the executable file of the process specified in <i>hProcess</i>.
-
 
 ### -param lpFilename [out]
 
 A pointer to a buffer that receives the fully qualified path to the module. If the size of the file name is larger than the value of the <i>nSize</i> parameter, the function succeeds but the file name is truncated and null-terminated.
 
-
 ### -param nSize [in]
 
 The size of the <i>lpFilename</i> buffer, in characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the length of the string copied to the buffer.
 
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetModuleFileNameEx</b> function is primarily designed for use by debuggers and similar applications that must extract module information from another process. If the module list in the target process is corrupted or is not yet initialized, or if the module list changes during the function call as a result of DLLs being loaded or unloaded, <b>GetModuleFileNameEx</b> may fail or return incorrect information.
 
@@ -145,9 +133,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
@@ -173,3 +158,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+

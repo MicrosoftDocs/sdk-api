@@ -8,10 +8,6 @@ tech.root: buses
 ms.assetid: 995b1d1b-8c08-4e67-8ba5-155231fe37f4
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WritePipe, WinUsb_WritePipe function [Buses], buses.winusb_writepipe, winusb/WinUsb_WritePipe, winusbfunc_6fbed2b9-a65e-4802-8ba4-369a3200bffd.xml
-f1_keywords:
-- winusb/WinUsb_WritePipe
-dev_langs:
-- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winusb.dll
-api_name:
-- WinUsb_WritePipe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinUsb_WritePipe
+ - winusb/WinUsb_WritePipe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winusb.dll
+api_name:
+ - WinUsb_WritePipe
 ---
 
 # WinUsb_WritePipe function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinUsb_WritePipe</b> function writes data to a pipe.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceHandle [in]
 
@@ -64,35 +60,27 @@ An opaque handle to the interface that contains the endpoint with which the pipe
 
 To write to  a pipe that is associated with an endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
-
 ### -param PipeID [in]
 
 <i>PipeID</i> corresponds to the <b>bEndpointAddress</b> field in the endpoint descriptor. For information about the layout of this field, see <b>Table 9-13</b> in "Universal Serial Bus Specification Revision 2.0" at <a href="https://www.microsoft.com/whdc/connect/usb/default.mspx">USB Technology</a>. In the <b>bEndpointAddress</b> field, Bit 7 indicates the direction of the endpoint: 0 for OUT; 1 for IN.
-
 
 ### -param Buffer [in]
 
 A caller-allocated buffer that contains the data to write.
 
-
 ### -param BufferLength [in]
 
 The number of bytes to write. This number must be less than or equal to the size, in bytes, of <i>Buffer</i>.
-
 
 ### -param LengthTransferred [out, optional]
 
 A pointer to a ULONG variable that receives the actual number of bytes that were written to the pipe. For more information, see Remarks.
 
-
 ### -param Overlapped [in, optional]
 
 An optional pointer to an OVERLAPPED structure, which is used for asynchronous operations. If this parameter is specified, <b>WinUsb_WritePipe</b> immediately returns, and the event is signaled when the operation is complete.
 
-
 ## -returns
-
-
 
 <b>WinUsb_WritePipe</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, this function returns <b>FALSE</b>, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
 
@@ -151,14 +139,8 @@ The write operation initiated by  <a href="https://docs.microsoft.com/windows/de
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To create a write request, your the application must allocate a buffer, fill it with the data that you want to write to the device, and send the buffer to the host controller by calling  <b>WinUsb_WritePipe</b>. 
 
@@ -176,13 +158,7 @@ If an application passes <b>NULL</b> in the <i>Overlapped</i> parameter (synchro
 
 If <i>Overlapped</i> is not <b>NULL</b> (asynchronous operation),  <i>LengthTransferred</i> can be set to <b>NULL</b>. For an overlapped operation (and if <i>LengthTransferred</i> is a non-<b>NULL</b> value), the value received in <i>LengthTransferred</i> after <b>WinUsb_WritePipe</b> returns is meaningless until the overlapped operation has completed. To retrieve the actual number of bytes returned, call <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getoverlappedresult">WinUsb_GetOverlappedResult</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
@@ -193,7 +169,4 @@ If <i>Overlapped</i> is not <b>NULL</b> (asynchronous operation),  <i>LengthTran
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
- 
-
- 
 

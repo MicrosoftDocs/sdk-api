@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: d634f203-cf98-4f4e-85ce-5df23653a3ad
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_DECODER, WS_CHANNEL_DECODER structure [Web Services for Windows], webservices/WS_CHANNEL_DECODER, wsw.ws_channel_decoder
-f1_keywords:
-- webservices/WS_CHANNEL_DECODER
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_CHANNEL_DECODER
 targetos: Windows
 req.typenames: WS_CHANNEL_DECODER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_CHANNEL_DECODER
+ - webservices/_WS_CHANNEL_DECODER
+ - WS_CHANNEL_DECODER
+ - webservices/WS_CHANNEL_DECODER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CHANNEL_DECODER
 ---
 
 # WS_CHANNEL_DECODER structure
@@ -49,63 +52,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 A structure that is used to specify a set of callbacks
                 that can transform the content type and encoded bytes of a received message.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field createContext
 
 A context that will be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
-                
-
 
 ### -field createDecoderCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> callback that creates an instance of an decoder.
-                
-
 
 ### -field decoderGetContentTypeCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_get_content_type_callback">WS_DECODER_GET_CONTENT_TYPE_CALLBACK</a> callback that is invoked to get the content type of the message.
-                
-
 
 ### -field decoderStartCallback
 
 A 
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_start_callback">WS_DECODER_START_CALLBACK</a> callback that is invoked at the start of decoding a message.
-                
-
 
 ### -field decoderDecodeCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> callback that is invoked to decode a message.
-                
-
 
 ### -field decoderEndCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> callback that is invoked at the end of decoding a message.
-                
-
 
 ### -field freeDecoderCallback
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a> callback that frees an instance of an decoder.
-                
-
 
 ## -remarks
-
-
 
 A <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> may wish to decompress, modify, or otherwise transform
                 the encoded bytes of a message as soon as they are received. A <b>WS_CHANNEL_DECODER</b> 
@@ -143,7 +124,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webse
 
 When the channel is finished using the decoder instance it will free it via the 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a>.
-            
-
-
 

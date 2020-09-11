@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pwv.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetRoutingInfo, FaxGetRoutingInfo function [Fax Service], FaxGetRoutingInfoA, FaxGetRoutingInfoW, _mfax_faxgetroutinginfo, fax._mfax_faxgetroutinginfo, winfax/FaxGetRoutingInfo, winfax/FaxGetRoutingInfoA, winfax/FaxGetRoutingInfoW
-f1_keywords:
-- winfax/FaxGetRoutingInfo
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: WinFax.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WinFax.lib
-- WinFax.dll
-api_name:
-- FaxGetRoutingInfo
-- FaxGetRoutingInfoA
-- FaxGetRoutingInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxGetRoutingInfoA
+ - winfax/FaxGetRoutingInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WinFax.lib
+ - WinFax.dll
+api_name:
+ - FaxGetRoutingInfo
+ - FaxGetRoutingInfoA
+ - FaxGetRoutingInfoW
 ---
 
 # FaxGetRoutingInfoA function
@@ -52,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxGetRoutingInfo</b> function returns to a fax client application routing information for a fax routing method that is associated with a specific fax device.
 
-
 ## -parameters
-
-
-
 
 ### -param FaxPortHandle [in]
 
 Type: <b>HANDLE</b>
 
 Specifies a fax port handle returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a> function.
-
 
 ### -param RoutingGuid [in]
 
@@ -78,13 +73,11 @@ Pointer to a constant null-terminated character string that specifies the GUID t
 
 For information about fax routing methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">About the Fax Routing Extension API</a>. For information about the relationship between routing methods and GUIDs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-routing-methods">Fax Routing Methods</a>.
 
-
 ### -param RoutingInfoBuffer [out]
 
 Type: <b>LPBYTE*</b>
 
 Pointer to the address of a buffer to receive the fax routing information.
-
 
 ### -param RoutingInfoBufferSize [out]
 
@@ -92,10 +85,7 @@ Type: <b>LPDWORD</b>
 
 Pointer to a <b>DWORD</b> variable to receive the size of the buffer, in bytes, pointed to by the <i>RoutingInfoBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -153,14 +143,8 @@ The <i>RoutingGuid</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The fax service administration application, a Microsoft Management Console (MMC) snap-in component that manages the specified fax routing method, typically calls the <b>FaxGetRoutingInfo</b> function. This is because the format of the routing data is unavailable to a fax client application. The routing data is relevant only to the exported fax routing method and to the fax service administration application.
 
@@ -180,9 +164,6 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 > The winfax.h header defines FaxGetRoutingInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_global_routing_infoa">FAX_GLOBAL_ROUTING_INFO</a>
 
@@ -217,7 +198,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetroutinginfoa">FaxSetRoutingInfo</a>
- 
-
- 
 

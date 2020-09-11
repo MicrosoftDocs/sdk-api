@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 44b7e6f2-eb7e-47ec-8252-689eb1e5aa77
 ms.date: 12/05/2018
 ms.keywords: FreeReturnBuffer, FreeReturnBuffer callback function [Security], LSA_FREE_LSA_HEAP, LSA_FREE_LSA_HEAP callback, _ssp_freereturnbuffer, ntsecpkg/FreeReturnBuffer, security.freereturnbuffer
-f1_keywords:
-- ntsecpkg/FreeReturnBuffer
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- FreeReturnBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_FREE_LSA_HEAP
+ - ntsecpkg/LSA_FREE_LSA_HEAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - FreeReturnBuffer
 ---
 
 # LSA_FREE_LSA_HEAP callback function
@@ -49,42 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FreeReturnBuffer</b> function is used to free buffers allocated by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) and returned to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. The package calls this function when the information in the returned buffer is no longer needed.
 
-
 ## -parameters
-
-
-
 
 ### -param Base [in]
 
 Pointer to the buffer to free.
 
-
 ## -remarks
-
-
 
 A pointer to the <b>FreeReturnBuffer</b> function is available in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
 

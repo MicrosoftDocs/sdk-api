@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
-f1_keywords:
-- wingdi/GetObject
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-l1-2-0.dll
-- ext-ms-win-gdi-dc-l1-1-0.dll
-- ext-ms-win-gdi-dc-l1-2-1.dll
-- GDI32Full.dll
-api_name:
-- GetObject
-- GetObjectA
-- GetObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetObjectW
+ - wingdi/GetObjectW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-l1-2-0.dll
+ - ext-ms-win-gdi-dc-l1-1-0.dll
+ - ext-ms-win-gdi-dc-l1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - GetObject
+ - GetObjectA
+ - GetObjectW
 ---
 
 # GetObjectW function
@@ -55,24 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetObject</b> function retrieves information for the specified graphics object.
 
-
 ## -parameters
-
-
-
 
 ### -param h [in]
 
 A handle to the graphics object of interest. This can be a handle to one of the following: a logical bitmap, a brush, a font, a palette, a pen, or a device independent bitmap created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function.
 
-
 ### -param c [in]
 
 The number of bytes of information to be written to the buffer.
-
 
 ### -param pv [out]
 
@@ -173,10 +167,7 @@ If the <i>lpvObject</i> parameter is <b>NULL</b>, the function return value is t
 
 The address of <i>lpvObject</i> must be on a 4-byte boundary; otherwise, <b>GetObject</b> fails.
 
-
 ## -returns
-
-
 
 If the function succeeds, and <i>lpvObject</i> is a valid pointer, the return value is the number of bytes stored into the buffer.
 
@@ -184,12 +175,7 @@ If the function succeeds, and <i>lpvObject</i> is <b>NULL</b>, the return value 
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The buffer pointed to by the <i>lpvObject</i> parameter must be sufficiently large to receive the information about the graphics object. Depending on the graphics object, the function uses a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogpen">EXTLOGPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a> structure, or a count of table entries (for a logical palette).
 
@@ -215,9 +201,6 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/stor
 > The wingdi.h header defines GetObject as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
@@ -272,7 +255,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/stor
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
- 
-
- 
 

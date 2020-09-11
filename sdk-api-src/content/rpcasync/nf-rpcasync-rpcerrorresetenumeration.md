@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872
 ms.date: 12/05/2018
 ms.keywords: RpcErrorResetEnumeration, RpcErrorResetEnumeration function [RPC], _rpc_rpcerrorresetenumeration, rpc.rpcerrorresetenumeration, rpcasync/RpcErrorResetEnumeration
-f1_keywords:
-- rpcasync/RpcErrorResetEnumeration
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcErrorResetEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcErrorResetEnumeration
+ - rpcasync/RpcErrorResetEnumeration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcErrorResetEnumeration
 ---
 
 # RpcErrorResetEnumeration function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcErrorResetEnumeration</b> function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorgetnextrecord">RpcErrorGetNextRecord</a> retrieves the first extended error information record.
 
-
 ## -parameters
-
-
-
 
 ### -param EnumHandle
 
 Pointer to the enumeration handle.
 
-
 ## -returns
-
-
 
 Successful completion returns RPC_S_OK. The 
 <b>RpcErrorResetEnumeration</b> function call cannot fail unless its parameters are invalid.
@@ -76,23 +69,13 @@ Successful completion returns RPC_S_OK. The
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcErrorResetEnumeration</b> function call can reset an enumeration of extended error information even if the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorgetnextrecord">RpcErrorGetNextRecord</a> function reaches the end of enumerations and returns RPC_S_SNTRY_NOT_FOUND.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
 
@@ -107,7 +90,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
- 
-
- 
 

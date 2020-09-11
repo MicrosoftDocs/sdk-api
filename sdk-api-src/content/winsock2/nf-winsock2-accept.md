@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b
 ms.date: 12/05/2018
 ms.keywords: _win32_accept_2, accept, accept function [Winsock], winsock.accept_2, winsock2/accept
-f1_keywords:
-- winsock2/accept
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- accept
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - accept
+ - winsock2/accept
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - accept
 ---
 
 # accept function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>accept</b> function permits an incoming connection attempt on a socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
@@ -65,21 +61,16 @@ A descriptor that identifies a socket that has been placed in a listening state 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function. The connection is actually made with the socket that is returned by 
 <b>accept</b>.
 
-
 ### -param addr [out]
 
 An optional pointer to a buffer that receives the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family that was established when the socket from the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure was created.
 
-
 ### -param addrlen [in, out]
 
 An optional pointer to an integer that contains the length of structure pointed to by the <i>addr</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>accept</b> returns a value of type <b>SOCKET</b> that is a descriptor for the new socket. This returned value is a handle for the socket on which the actual connection is made.
@@ -232,14 +223,8 @@ The socket is marked as nonblocking and no connections are present to be accepte
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>accept</b> function extracts the first connection on the queue of pending connections on socket <i>s</i>. It then creates and returns a handle to the new socket. The newly created socket is the socket that will handle the actual connection; it has the same properties as socket <i>s</i>, including the asynchronous events registered with the 
@@ -368,13 +353,7 @@ The following are important issues associated with connection setup, and must be
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a>
 
@@ -413,7 +392,4 @@ The following are important issues associated with connection setup, and must be
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

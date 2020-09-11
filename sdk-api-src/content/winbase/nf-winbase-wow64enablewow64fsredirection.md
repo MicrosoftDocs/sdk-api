@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
 ms.date: 12/05/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
-f1_keywords:
-- winbase/Wow64EnableWow64FsRedirection
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
-api_name:
-- Wow64EnableWow64FsRedirection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Wow64EnableWow64FsRedirection
+ - winbase/Wow64EnableWow64FsRedirection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+api_name:
+ - Wow64EnableWow64FsRedirection
 ---
 
 # Wow64EnableWow64FsRedirection function
 
 
 ## -description
-
 
 Enables or disables file system redirection for the calling thread.
 
@@ -69,29 +69,18 @@ This function may not work reliably when there are nested calls. Therefore, this
 
 ## -parameters
 
-
-
-
 ### -param Wow64FsEnableRedirection [in]
 
 Indicates the type of request for WOW64 system folder redirection. If 
       <b>TRUE</b>, requests redirection be enabled; if <b>FALSE</b>, requests 
       redirection be disabled.
 
-
 ## -returns
-
-
 
 Boolean value indicating whether the function succeeded. If <b>TRUE</b>, the function 
       succeeded; if <b>FALSE</b>, the function failed.
 
-
-
-
 ## -remarks
-
-
 
 This function is useful for 32-bit applications that want to gain access to the native system32 directory. By 
     default, WOW64 file system redirection is enabled.
@@ -229,14 +218,7 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
@@ -255,7 +237,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>
- 
-
- 
 

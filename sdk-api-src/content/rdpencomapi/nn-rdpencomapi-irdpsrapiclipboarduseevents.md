@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 76ea520c-64c2-4096-ab21-9714b98b5dac
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents, IRDPSRAPIClipboardUseEvents interface [RDP], IRDPSRAPIClipboardUseEvents interface [RDP],described, rdp.irdpsrapiclipboarduseevents, rdpencomapi/IRDPSRAPIClipboardUseEvents
-f1_keywords:
-- rdpencomapi/IRDPSRAPIClipboardUseEvents
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncomAPI.h
-api_name:
-- IRDPSRAPIClipboardUseEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIClipboardUseEvents
+ - rdpencomapi/IRDPSRAPIClipboardUseEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncomAPI.h
+api_name:
+ - IRDPSRAPIClipboardUseEvents
 ---
 
 # IRDPSRAPIClipboardUseEvents interface
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement this interface on the sharer side to track or control use of the clipboard. 
 If you do not enable clipboard sharing, this interface has no effect. You need to set a value for the <b>SetClipboardRedirectCallback</b> property described in <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>.
 
 This interface is available starting with Windows 10, version 1511.
-
-
-
 
 ## -inheritance
 
@@ -82,16 +79,9 @@ This callback is issued when an attempt to copy data from the sharer computer is
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>
- 
-
- 
 

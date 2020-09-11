@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 0326a81e-036c-4548-9e09-29054e51fadd
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, PVSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration pointer [VSS], VSS_VOLSNAP_ATTR_AUTORECOVER, VSS_VOLSNAP_ATTR_CLIENT_ACCESSIBLE, VSS_VOLSNAP_ATTR_DELAYED_POSTSNAPSHOT, VSS_VOLSNAP_ATTR_DIFFERENTIAL, VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY, VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY, VSS_VOLSNAP_ATTR_HARDWARE_ASSISTED, VSS_VOLSNAP_ATTR_IMPORTED, VSS_VOLSNAP_ATTR_NOT_SURFACED, VSS_VOLSNAP_ATTR_NOT_TRANSACTED, VSS_VOLSNAP_ATTR_NO_AUTORECOVERY, VSS_VOLSNAP_ATTR_NO_AUTO_RELEASE, VSS_VOLSNAP_ATTR_NO_WRITERS, VSS_VOLSNAP_ATTR_PERSISTENT, VSS_VOLSNAP_ATTR_PLEX, VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY, VSS_VOLSNAP_ATTR_TRANSPORTABLE, VSS_VOLSNAP_ATTR_TXF_RECOVERY, VSS_VOLUME_SNAPSHOT_ATTRIBUTES, VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration [VSS], _VSS_VOLUME_SNAPSHOT_ATTRIBUTES, _VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration [VSS], _win32__vss_volume_snapshot_attributes, base._vss_volume_snapshot_attributes, vss/PVSS_VOLUME_SNAPSHOT_ATTRIBUTES, vss/VSS_VOLSNAP_ATTR_AUTORECOVER, vss/VSS_VOLSNAP_ATTR_CLIENT_ACCESSIBLE, vss/VSS_VOLSNAP_ATTR_DELAYED_POSTSNAPSHOT, vss/VSS_VOLSNAP_ATTR_DIFFERENTIAL, vss/VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY, vss/VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY, vss/VSS_VOLSNAP_ATTR_HARDWARE_ASSISTED, vss/VSS_VOLSNAP_ATTR_IMPORTED, vss/VSS_VOLSNAP_ATTR_NOT_SURFACED, vss/VSS_VOLSNAP_ATTR_NOT_TRANSACTED, vss/VSS_VOLSNAP_ATTR_NO_AUTORECOVERY, vss/VSS_VOLSNAP_ATTR_NO_AUTO_RELEASE, vss/VSS_VOLSNAP_ATTR_NO_WRITERS, vss/VSS_VOLSNAP_ATTR_PERSISTENT, vss/VSS_VOLSNAP_ATTR_PLEX, vss/VSS_VOLSNAP_ATTR_ROLLBACK_RECOVERY, vss/VSS_VOLSNAP_ATTR_TRANSPORTABLE, vss/VSS_VOLSNAP_ATTR_TXF_RECOVERY, vss/_VSS_VOLUME_SNAPSHOT_ATTRIBUTES'
-f1_keywords:
-- vss/VSS_VOLUME_SNAPSHOT_ATTRIBUTES
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vss.h
-api_name:
-- VSS_VOLUME_SNAPSHOT_ATTRIBUTES
 targetos: Windows
 req.typenames: VSS_VOLUME_SNAPSHOT_ATTRIBUTES, *PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - vss/_VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - vss/PVSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+ - vss/VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vss.h
+api_name:
+ - VSS_VOLUME_SNAPSHOT_ATTRIBUTES
 ---
 
 # VSS_VOLUME_SNAPSHOT_ATTRIBUTES enumeration
 
 
 ## -description
-
 
 Allows additional attributes to be specified for a shadow copy. The context of a shadow copy (as 
     set by the 
@@ -57,11 +61,7 @@ Allows additional attributes to be specified for a shadow copy. The context of a
     <b>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</b> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a> enumeration values.
 
-
 ## -enum-fields
-
-
-
 
 ### -field VSS_VOLSNAP_ATTR_PERSISTENT
 
@@ -75,7 +75,6 @@ This attribute is automatically set for
        <b>VSS_CTX_NAS_ROLLBACK</b>.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
-
 
 ### -field VSS_VOLSNAP_ATTR_NO_AUTORECOVERY
 
@@ -112,7 +111,6 @@ This attribute is automatically set for
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
 
-
 ### -field VSS_VOLSNAP_ATTR_NO_WRITERS
 
 No writers are involved in creating the shadow copy.
@@ -124,7 +122,6 @@ This attribute is automatically set for
        <b>VSS_CTX_CLIENT_ACCESSIBLE</b>.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
-
 
 ### -field VSS_VOLSNAP_ATTR_TRANSPORTABLE
 
@@ -139,7 +136,6 @@ This attribute can be used explicitly by requesters when setting the context of 
 See <a href="https://docs.microsoft.com/windows/desktop/VSS/importing-transportable-shadow-copied-volumes">Importing Transportable 
        Shadow Copied Volumes</a> for more information.
 
-
 ### -field VSS_VOLSNAP_ATTR_NOT_SURFACED
 
 The shadow copy is not currently exposed.
@@ -148,7 +144,6 @@ The shadow copy is not currently exposed.
 Unless the shadow copy is explicitly exposed or mounted, this attribute is set for all shadow copies.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
-
 
 ### -field VSS_VOLSNAP_ATTR_NOT_TRANSACTED
 
@@ -159,7 +154,6 @@ A requester can modify a shadow copy context with a bitwise OR of this attribute
 Setting this attribute guarantees that the requester will not receive VSS_E_TRANSACTION_FREEZE_TIMEOUT errors. However, it may cause unwanted consequences, such as the loss of transactional integrity or even data loss.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Vista.
-
 
 ### -field VSS_VOLSNAP_ATTR_HARDWARE_ASSISTED
 
@@ -174,7 +168,6 @@ This enumeration value cannot be used to manually set the context (using the
        context value from 
        <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>.
 
-
 ### -field VSS_VOLSNAP_ATTR_DIFFERENTIAL
 
 Indicates that a given provider uses differential data or a copy-on-write mechanism to implement shadow copies.
@@ -186,7 +179,6 @@ A requester can modify a shadow copy context with a bitwise OR of this attribute
        returned to 
        <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>.
 
-
 ### -field VSS_VOLSNAP_ATTR_PLEX
 
 Indicates that a given provider uses a PLEX or mirrored split mechanism to implement shadow copies.
@@ -197,7 +189,6 @@ A requester can modify a shadow copy context with a bitwise OR of this attribute
        provider installed on the system supports the requested attributes, a VSS_E_VOLUME_NOT_SUPPORTED error will be 
        returned to 
        <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>.
-
 
 ### -field VSS_VOLSNAP_ATTR_IMPORTED
 
@@ -212,7 +203,6 @@ This attribute is automatically set if a shadow copy is imported.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
 
-
 ### -field VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY
 
 The shadow copy is locally exposed. If this bit flag and the VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY bit flag are 
@@ -225,7 +215,6 @@ The attribute is automatically added to a shadow copy context upon calling the
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
 
-
 ### -field VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY
 
 The shadow copy is remotely exposed. If this bit flag and the VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY bit flag are 
@@ -237,7 +226,6 @@ The attribute is automatically added to a shadow copy context upon calling the
        method to expose a shadow copy locally.
 
 This attribute should not be used explicitly by requesters when setting the context of a shadow copy.
-
 
 ### -field VSS_VOLSNAP_ATTR_AUTORECOVER
 
@@ -263,15 +251,9 @@ Indicates that TxF recovery should be enforced during shadow copy creation.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008.
 
-
 ### -field VSS_VOLSNAP_ATTR_FILE_SHARE
 
-
-
-
 ## -remarks
-
-
 
 The default context for VSS shadow copies is VSS_CTX_BACKUP.
 
@@ -320,13 +302,7 @@ The shadow copies' context and attributes are found as a bit mask contained in t
     <b>m_lSnapshotAttributes</b> member of the 
     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>
 
@@ -361,7 +337,4 @@ The shadow copies' context and attributes are found as a bit mask contained in t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_context">_VSS_SNAPSHOT_CONTEXT</a>
- 
-
- 
 

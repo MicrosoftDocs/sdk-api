@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: dd3df604-074b-4206-827e-3cc4d5f71f87
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnLoad method, IVssProviderNotifications.OnLoad, IVssProviderNotifications::OnLoad, OnLoad, OnLoad method [VSS], OnLoad method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onload, vsprov/IVssProviderNotifications::OnLoad
-f1_keywords:
-- vsprov/IVssProviderNotifications.OnLoad
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderNotifications.OnLoad
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderNotifications::OnLoad
+ - vsprov/IVssProviderNotifications::OnLoad
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderNotifications.OnLoad
 ---
 
 # IVssProviderNotifications::OnLoad
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OnLoad</b> method 
   notifies a provider that it was loaded.
 
-
 ## -parameters
-
-
-
 
 ### -param pCallback [in]
 
 This parameter is reserved.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,22 +118,12 @@ An unexpected provider error occurred. If this is returned, the error must be de
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>
- 
-
- 
 

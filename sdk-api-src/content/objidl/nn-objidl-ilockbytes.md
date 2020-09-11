@@ -8,10 +8,6 @@ tech.root: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
 ms.date: 12/05/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
-f1_keywords:
-- objidl/ILockBytes
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- ILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILockBytes
+ - objidl/ILockBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - ILockBytes
 ---
 
 # ILockBytes interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ILockBytes</b> interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database. It is used by a COM compound file storage object to give its root storage access to the physical device, while isolating the root storage from the details of accessing the physical storage.
-
 
 ## -inheritance
 
@@ -134,5 +133,5 @@ Writes a specified number of bytes to a specified location in the byte array.
 
 </td>
 </tr>
-</table> 
+</table>
 

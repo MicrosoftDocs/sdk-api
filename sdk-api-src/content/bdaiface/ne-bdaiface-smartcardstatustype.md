@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: c699c6a9-f554-4e2d-ac7f-9b5ff954fa6b
 ms.date: 12/05/2018
 ms.keywords: CardDataChanged, CardError, CardFirmwareUpgrade, CardInserted, CardRemoved, SmartCardStatusType, SmartCardStatusType enumeration [Microsoft TV Technologies], bdaiface/CardDataChanged, bdaiface/CardError, bdaiface/CardFirmwareUpgrade, bdaiface/CardInserted, bdaiface/CardRemoved, bdaiface/SmartCardStatusType, mstv.smartcardstatustype
-f1_keywords:
-- bdaiface/SmartCardStatusType
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdaiface.h
-api_name:
-- SmartCardStatusType
 targetos: Windows
 req.typenames: SmartCardStatusType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SmartCardStatusType
+ - bdaiface/SmartCardStatusType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdaiface.h
+api_name:
+ - SmartCardStatusType
 ---
 
 # SmartCardStatusType enumeration
@@ -49,50 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SmartCardStatusType</b> enumeration type specifies the status of a smart card.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field CardInserted
 
 The card was inserted.
 
-
 ### -field CardRemoved
 
 The card was removed.
-
 
 ### -field CardError
 
 An error occurred.
 
-
 ### -field CardDataChanged
 
 The card data has changed.
-
 
 ### -field CardFirmwareUpgrade
 
 Firmware upgrade.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
- 
-
- 
 

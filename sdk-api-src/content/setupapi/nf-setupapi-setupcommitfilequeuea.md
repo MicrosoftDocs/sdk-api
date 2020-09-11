@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
 ms.date: 12/05/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
-f1_keywords:
-- setupapi/SetupCommitFileQueue
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupCommitFileQueue
-- SetupCommitFileQueueA
-- SetupCommitFileQueueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupCommitFileQueueA
+ - setupapi/SetupCommitFileQueueA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupCommitFileQueue
+ - SetupCommitFileQueueA
+ - SetupCommitFileQueueW
 ---
 
 # SetupCommitFileQueueA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -62,22 +62,16 @@ The best practice is to collect all the required file operations for the file qu
 
 If a file is modified, the caller of this function is required have privileges to write into the target directory.
 
-
 ## -parameters
-
-
-
 
 ### -param Owner [in]
 
 Optional handle to a window to use as the parent of any progress dialog boxes.
 
-
 ### -param QueueHandle [in]
 
 Handle to a setup file queue, as returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>.
-
 
 ### -param MsgHandler [in]
 
@@ -86,29 +80,20 @@ Pointer to an optional callback routine to be notified of various significant ev
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a> If the callback routine is <b>null</b>, 
 <b>SetupCommitFileQueue</b> returns <b>TRUE</b> and the error is 0 or NO_ERROR.
 
-
 ### -param Context [in]
 
 Value that is passed to the callback function supplied by the <i>MsgHandler</i> parameter. If the default callback routine has been specified as <i>MsgHandler</i>, this context must be the context returned from 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The callback routine specified in <i>MsgHandler</i> should be compatible with the parameters that 
 <b>SetupCommitFileQueue</b> passed to it during a queue commit.
@@ -124,9 +109,6 @@ If Unicode is defined in your callback application, and you specify <i>MsgHandle
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
@@ -136,7 +118,4 @@ If Unicode is defined in your callback application, and you specify <i>MsgHandle
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupclosefilequeue">SetupCloseFileQueue</a>
- 
-
- 
 

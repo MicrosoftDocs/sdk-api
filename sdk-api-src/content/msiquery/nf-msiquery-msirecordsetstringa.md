@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetStringA, MsiRecordSetStringW, _msi_msirecordsetstring, msiquery/MsiRecordSetString, msiquery/MsiRecordSetStringA, msiquery/MsiRecordSetStringW, setup.msirecordsetstring
-f1_keywords:
-- msiquery/MsiRecordSetString
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSI-Misc-l1-1-0.dll
-api_name:
-- MsiRecordSetString
-- MsiRecordSetStringA
-- MsiRecordSetStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiRecordSetStringA
+ - msiquery/MsiRecordSetStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+api_name:
+ - MsiRecordSetString
+ - MsiRecordSetStringA
+ - MsiRecordSetStringW
 ---
 
 # MsiRecordSetStringA function
@@ -52,43 +53,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiRecordSetString</b> function copies a string into the designated field.
 
-
 ## -parameters
-
-
-
 
 ### -param hRecord [in]
 
 Handle to the record.
 
-
 ### -param iField [in]
 
 Specifies the field of the record to set.
-
 
 ### -param szValue [in]
 
 Specifies the string value of the field.
 
-
 ## -returns
-
-
 
 This function returns UINT.
 
-
-
-
 ## -remarks
-
-
 
 In the 
 <b>MsiRecordSetString</b> function, a null string pointer and an empty string both set the field to null. Attempting to store a value in a nonexistent field causes an error.
@@ -104,11 +90,5 @@ To set a record string field to null, set szValue to either a null string or an 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
- 
-
- 
 

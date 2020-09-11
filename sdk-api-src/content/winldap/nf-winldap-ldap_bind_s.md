@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 67d30a7b-2f42-4e1a-8c59-5ba22ed3fad4
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_bind_s, ldap.ldap__bind__s, ldap.ldap_bind_s, ldap_bind_s, ldap_bind_s function [LDAP], ldap_bind_sA, ldap_bind_sW, winldap/ldap_bind_s, winldap/ldap_bind_sA, winldap/ldap_bind_sW
-f1_keywords:
-- winldap/ldap_bind_s
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_bind_s
-- ldap_bind_sA
-- ldap_bind_sW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_bind_s
+ - winldap/ldap_bind_s
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_bind_s
+ - ldap_bind_sA
+ - ldap_bind_sW
 ---
 
 # ldap_bind_s function
@@ -51,51 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The  <b>ldap_bind_s</b> function synchronously  authenticates a client to the LDAP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
 
-
 ### -param dn [in]
 
 Pointer to a null-terminated string that contains the distinguished name of the entry used to bind. This can be a DN, a UPN, a WinNT style user name, or other name that the directory server will accept as an identifier.
 
-
 ### -param cred [in]
 
 Pointer to a null-terminated string that contains the credentials with which to authenticate. Arbitrary credentials can be passed using this parameter. The format and content of the credentials depends on the setting of the <i>method</i> parameter. For more information, see Remarks.
-
 
 ### -param method [in]
 
 Indicates the authentication method to use.  For more information and  a listing of valid asynchronous authentication methods, see the Remarks section. For more information and a description of the valid asynchronous authentication method, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The introduction of User Account Control in Windows Server 2008 and Windows Vista has a very important consequence with regard to making modifications or additions in LDAP.  When a user is logged on to a DC with a restricted UAC Administrator token and using <b>NULL</b> credentials, any modification or addition to the directory, or any schema change operation, will fail. This includes DirSync searches, retrieving the SACL from an object's <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-ntsecuritydescriptor">ntSecurityDescriptor</a> attribute when using SecurityDescriptorFlags, and many other operations.
 
@@ -223,13 +208,7 @@ Multithreading: Bind calls are unsafe because they apply to the connection as a 
 <div> </div>
 When all of the operations on the session handle are completed, the session must be terminated by passing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function.  Also, if the <b>ldap_bind_s</b> call fails, the session handle should be freed with a call to  <b>ldap_unbind</b> when no longer required for error recovery.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
 
@@ -256,7 +235,4 @@ When all of the operations on the session handle are completed, the session must
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
- 
-
- 
 

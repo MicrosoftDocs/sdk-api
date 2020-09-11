@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 6ecaedf0-0038-46d3-9916-c9cb069c5e92
 ms.date: 12/05/2018
 ms.keywords: SIO_NSP_NOTIFY_CHANGE, WSANSPIoctl, WSANSPIoctl function [Winsock], _win32_wsanspioctl_2, winsock.wsanspioctl_2, winsock2/WSANSPIoctl
-f1_keywords:
-- winsock2/WSANSPIoctl
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- WSANSPIoctl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSANSPIoctl
+ - winsock2/WSANSPIoctl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - WSANSPIoctl
 ---
 
 # WSANSPIoctl function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The Windows Sockets 
 <b>WSANSPIoctl</b> function enables developers to make I/O control calls to a registered namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param hLookup [in]
 
 The lookup handle returned from a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> function. 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> function.
 
 ### -param dwControlCode [in]
 
@@ -92,42 +87,32 @@ This operation checks if the results returned with previous calls using the <i>h
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpvInBuffer [in]
 
 A pointer to the input buffer.
 
-
 ### -param cbInBuffer [in, out]
 
 The size, in bytes, of the input buffer.
-
 
 ### -param lpvOutBuffer [out]
 
 A pointer to the output buffer.
 
-
 ### -param cbOutBuffer [in]
 
 The size, in bytes, of the output buffer.
-
 
 ### -param lpcbBytesReturned [out]
 
 A pointer to the number of bytes returned.
 
-
 ### -param lpCompletion [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsacompletion">WSACOMPLETION</a> structure, used for asynchronous processing. Set <i>lpCompletion</i> to <b>NULL</b> to force blocking (synchronous) execution.
 
-
 ## -returns
-
-
 
 Success returns NO_ERROR. Failure returns SOCKET_ERROR, and a specific error code can be retrieved by calling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function. The following table describes the error codes.
@@ -218,14 +203,8 @@ This error is used as a special notification for the SIO_NSP_NOTIFY_CHANGE IOCTL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSANSPIoctl</b> function is used to set or retrieve operating parameters associated with a query handle to a namespace provider. The <i>hLookup</i> parameter is a handle to the namespace provider query previously returned by 
@@ -289,13 +268,7 @@ To cancel an asynchronous notification request, end the original query with a
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
@@ -322,7 +295,4 @@ To cancel an asynchronous notification request, end the original query with a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
- 
-
- 
 

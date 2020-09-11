@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 1ec0fe70-4749-4251-9c58-44efdab74688
 ms.date: 12/05/2018
 ms.keywords: InternetReadFile, InternetReadFile function [WinINet], _inet_internetreadfile_function, wininet.internetreadfile, wininet/InternetReadFile
-f1_keywords:
-- wininet/InternetReadFile
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetReadFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetReadFile
+ - wininet/InternetReadFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetReadFile
 ---
 
 # InternetReadFile function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from a handle opened by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-ftpopenfilea">FtpOpenFile</a>, 
 or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -70,37 +66,26 @@ Handle returned from a previous call to
 or 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a>.
 
-
 ### -param lpBuffer [out]
 
 Pointer to a buffer that receives the data.
 
-
 ### -param dwNumberOfBytesToRead [in]
 
 Number of bytes to be read.
-
 
 ### -param lpdwNumberOfBytesRead [out]
 
 Pointer to a variable that receives the number of bytes read. 
 <b>InternetReadFile</b> sets this value to zero before doing any work or error checking.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> when necessary.
 
-
-
-
 ## -remarks
-
-
 
 <b>InternetReadFile</b> operates much like the base 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> function, with a few exceptions. Typically, 
@@ -131,19 +116,11 @@ When running asynchronously, if a call to <b>InternetReadFile</b> does not resul
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

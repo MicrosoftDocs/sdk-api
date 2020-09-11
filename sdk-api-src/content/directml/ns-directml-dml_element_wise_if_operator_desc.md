@@ -21,8 +21,8 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
  - HeaderDef
 api_location:
@@ -30,6 +30,7 @@ api_location:
 api_name:
  - DML_ELEMENT_WISE_IF_OPERATOR_DESC
 f1_keywords:
+ - DML_ELEMENT_WISE_IF_OPERATOR_DESC
  - directml/DML_ELEMENT_WISE_IF_OPERATOR_DESC
 dev_langs:
  - c++
@@ -66,13 +67,11 @@ Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_te
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>A</i> tensor to read from.
 
-
 ### -field BTensor
 
 Type: **const [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc)\***
 
 A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-directml-dml_tensor_desc) containing the description of the <i>B</i> tensor to read from.
-
 
 ### -field OutputTensor
 
@@ -83,3 +82,4 @@ A pointer to a constant [DML_TENSOR_DESC](/windows/desktop/api/directml/ns-direc
 ## -remarks
 
 ## -see-also
+

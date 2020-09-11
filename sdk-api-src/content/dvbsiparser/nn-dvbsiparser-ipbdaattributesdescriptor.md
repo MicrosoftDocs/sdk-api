@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 489348b7-0f10-4a49-a7d4-10a1ed478aa8
 ms.date: 12/05/2018
 ms.keywords: IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], IPBDAAttributesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAAttributesDescriptor, mstv.ipbdaattributesdescriptor
-f1_keywords:
-- dvbsiparser/IPBDAAttributesDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IPBDAAttributesDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPBDAAttributesDescriptor
+ - dvbsiparser/IPBDAAttributesDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IPBDAAttributesDescriptor
 ---
 
 # IPBDAAttributesDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from anattributes descriptor in a Protected Broadcast  Device Architecture (PBDA) transport stream.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Gets the tag that uniquely identifies the attributes descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: e1cd88f1-1ed7-4e7f-a745-9a9c4af69317
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation, ITAddressTranslation interface [TAPI 2.2], ITAddressTranslation interface [TAPI 2.2],described, _tapi3_itaddresstranslation, tapi3.itaddresstranslation, tapi3if/ITAddressTranslation
-f1_keywords:
-- tapi3if/ITAddressTranslation
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressTranslation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressTranslation
+ - tapi3if/ITAddressTranslation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressTranslation
 ---
 
 # ITAddressTranslation interface
 
 
 ## -description
-
 
 The 
 <b>ITAddressTranslation</b> interface provides methods that allow translation of a calling address into a different format. For example, an application may need to translate an address from canonical to dialable prior to making a call.
@@ -64,7 +64,6 @@ The
 For additional information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/initiate-a-session-ovr">Address Translation</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>.
-
 
 ## -inheritance
 
@@ -135,13 +134,9 @@ Invokes the control panel's telephony applet.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
@@ -172,7 +167,4 @@ Invokes the control panel's telephony applet.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: 809e7d2f-6b41-4afc-86c2-43b6611d6e48
 ms.date: 12/05/2018
 ms.keywords: WinBioEnrollCaptureWithCallback, WinBioEnrollCaptureWithCallback function [Windows Biometric Framework API], secbiomet.winbioenrollcapturewithcallback, winbio/WinBioEnrollCaptureWithCallback
-f1_keywords:
-- winbio/WinBioEnrollCaptureWithCallback
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioEnrollCaptureWithCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioEnrollCaptureWithCallback
+ - winbio/WinBioEnrollCaptureWithCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioEnrollCaptureWithCallback
 ---
 
 # WinBioEnrollCaptureWithCallback function
 
 
 ## -description
-
 
 Asynchronously captures a biometric sample and adds it to a template. The function returns immediately to the caller, performs enrollment on a separate thread, and calls into an application-defined callback function to update operation status.
 
@@ -67,31 +67,21 @@ Asynchronously captures a biometric sample and adds it to a template. The functi
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.
 
-
 ### -param EnrollCallback [in]
 
 Address of a callback function that will be called by the <b>WinBioEnrollCaptureWithCallback</b> function when the capture operation succeeds or fails. You must create the callback.
-
 
 ### -param EnrollCallbackContext [in, optional]
 
 Pointer to an optional application-defined structure that is passed to the <i>EnrollCallbackContext</i> parameter of the callback function. This structure can contain any data that the custom callback function is designed to handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -134,14 +124,8 @@ The pointer specified by the <i>EnrollCallback</i> parameter cannot be <b>NULL</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the  <i>SessionHandle</i> parameter refers to the system sensor pool, the callback function will not be called until the application acquires window focus and the user has provided a biometric sample. The manner in which you acquire focus depends on the type of application you are writing. For example, if you are creating a GUI application you can implement a message handler that captures  a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a>, or other appropriate message. If you are writing a CUI application, call <b>GetConsoleWindow</b> to retrieve a handle to the console window and pass that handle to the <b>SetForegroundWindow</b> function to force the console window into the foreground and assign it focus. If your application is running in a detached process and has no window or is a Windows service, use <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioacquirefocus">WinBioAcquireFocus</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioreleasefocus">WinBioReleaseFocus</a> to manually control focus.
 
@@ -414,14 +398,7 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioacquirefocus">WinBioAcquireFocus</a>
 
@@ -444,7 +421,4 @@ e_Exit:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioreleasefocus">WinBioReleaseFocus</a>
- 
-
- 
 

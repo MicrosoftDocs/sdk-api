@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarsplitter.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMREBARSPLITTER, LPNMREBARSPLITTER, LPNMREBARSPLITTER structure pointer [Windows Controls], NMREBARSPLITTER, NMREBARSPLITTER structure [Windows Controls], _shell_NMREBARSPLITTER, _shell_NMREBARSPLITTER_cpp, commctrl/LPNMREBARSPLITTER, commctrl/NMREBARSPLITTER, controls.NMREBARSPLITTER, controls._shell_NMREBARSPLITTER'
-f1_keywords:
-- commctrl/NMREBARSPLITTER
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMREBARSPLITTER
 targetos: Windows
 req.typenames: NMREBARSPLITTER, *LPNMREBARSPLITTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMREBARSPLITTER
+ - commctrl/tagNMREBARSPLITTER
+ - LPNMREBARSPLITTER
+ - commctrl/LPNMREBARSPLITTER
+ - NMREBARSPLITTER
+ - commctrl/NMREBARSPLITTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMREBARSPLITTER
 ---
 
 # NMREBARSPLITTER structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used to handle an <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-splitterdrag">RBN_SPLITTERDRAG</a> notification code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about this notification. 
-
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about this notification.
 
 ### -field rcSizing
 

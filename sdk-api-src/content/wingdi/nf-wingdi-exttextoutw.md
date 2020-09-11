@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
 ms.date: 12/05/2018
 ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN, ETO_NUMERICSLOCAL, ETO_OPAQUE, ETO_PDY, ETO_RTLREADING, ExtTextOut, ExtTextOut function [Windows GDI], ExtTextOutA, ExtTextOutW, _win32_ExtTextOut, gdi.exttextout, wingdi/ExtTextOut, wingdi/ExtTextOutA, wingdi/ExtTextOutW
-f1_keywords:
-- wingdi/ExtTextOut
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Font-l1-1-1.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- ExtTextOut
-- ExtTextOutA
-- ExtTextOutW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtTextOutW
+ - wingdi/ExtTextOutW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Font-l1-1-1.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - ExtTextOut
+ - ExtTextOutA
+ - ExtTextOutW
 ---
 
 # ExtTextOutW function
@@ -55,29 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ExtTextOut</b> function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param x [in]
 
 The x-coordinate, in logical coordinates, of the reference point used to position the string.
 
-
 ### -param y [in]
 
 The y-coordinate, in logical coordinates, of the reference point used to position the string.
-
 
 ### -param options [in]
 
@@ -175,16 +168,13 @@ When this is set, the array pointed to by <i>lpDx</i> contains pairs of values. 
 
 The ETO_GLYPH_INDEX and ETO_RTLREADING values cannot be used together. Because ETO_GLYPH_INDEX implies that all language processing has been completed, the function ignores the ETO_RTLREADING flag if also specified.
 
-
 ### -param lprect [in]
 
 A pointer to an optional <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the dimensions, in logical coordinates, of a rectangle that is used for clipping, opaquing, or both.
 
-
 ### -param lpString [in]
 
 A pointer to a string that specifies the text to be drawn. The string does not need to be zero-terminated, since <i>cbCount</i> specifies the length of the string.
-
 
 ### -param c [in]
 
@@ -192,26 +182,17 @@ The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of
 
 This value may not exceed 8192.
 
-
 ### -param lpDx [in]
 
 A pointer to an optional array of values that indicate the distance between origins of adjacent character cells. For example, lpDx[<i>i</i>] logical units separate the origins of character cell <i>i</i> and character cell <i>i</i> + 1.
 
-
 ## -returns
-
-
 
 If the string is drawn, the return value is nonzero. However, if the ANSI version of <b>ExtTextOut</b> is called with ETO_GLYPH_INDEX, the function returns <b>TRUE</b> even though the function does nothing.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The current text-alignment settings for the specified device context determine how the reference point is used to position the text. The text-alignment settings are retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function. The text-alignment settings are altered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. You can use the following values for text alignment. Only one flag can be chosen from those that affect horizontal and vertical alignment. In addition, only one of the two flags that alter the current position can be chosen.
 
@@ -338,9 +319,6 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
@@ -370,7 +348,4 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
- 
-
- 
 

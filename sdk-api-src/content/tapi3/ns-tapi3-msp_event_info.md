@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
 ms.date: 12/05/2018
 ms.keywords: MSP_EVENT_INFO, MSP_EVENT_INFO structure [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0005, _tapi3_msp_event_info, msp/MSP_EVENT_INFO, tapi3.msp_event_info
-f1_keywords:
-- tapi3/MSP_EVENT_INFO
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msp.h
-api_name:
-- MSP_EVENT_INFO
 targetos: Windows
 req.typenames: MSP_EVENT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_tapi3_0000_0018_0005
+ - tapi3/__MIDL___MIDL_itf_tapi3_0000_0018_0005
+ - MSP_EVENT_INFO
+ - tapi3/MSP_EVENT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msp.h
+api_name:
+ - MSP_EVENT_INFO
 ---
 
 # MSP_EVENT_INFO structure
@@ -49,86 +52,64 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MSP_EVENT_INFO</b> structure defines the type of event returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Total size of structure returned.
 
-
 ### -field Event
-
- 
-
 
 ### -field hCall
 
 MSP handle; may be <b>NULL</b>.
 
-
 ### -field MSP_ADDRESS_EVENT_INFO
 
 Struct returned if MSP event is ME_ADDRESS_EVENT.
-
 
 ### -field MSP_ADDRESS_EVENT_INFO.Type
 
 Describes the 
 <a href="/windows/win32/api/msp/ne-msp-msp_address_event">msp address event</a> of the event that has occurred.
 
-
 ### -field MSP_ADDRESS_EVENT_INFO.pTerminal
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
 
-
 ### -field MSP_CALL_EVENT_INFO
 
 Struct returned if MSP event is ME_CALL_EVENT.
-
 
 ### -field MSP_CALL_EVENT_INFO.Type
 
 Indicates type of 
 <a href="/windows/win32/api/msp/ne-msp-msp_call_event">MSP_CALL_EVENT</a> that has occurred.
 
-
 ### -field MSP_CALL_EVENT_INFO.Cause
-
- 
-
 
 ### -field MSP_CALL_EVENT_INFO.pStream
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface on which event occurred.
 
-
 ### -field MSP_CALL_EVENT_INFO.pTerminal
 
 Pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface on which event occurred.
 
-
 ### -field MSP_CALL_EVENT_INFO.hrError
 
 Indicates error, if one has happened.
 
-
 ### -field MSP_TSP_DATA
 
 Struct returned if MSP event is ME_TSP_DATA.
-
 
 ### -field MSP_TSP_DATA.dwBufferSize
 
@@ -136,16 +117,13 @@ Size of buffer returned.
 
 Buffer size, in bytes.
 
-
 ### -field MSP_TSP_DATA.pBuffer
 
 Pointer to buffer.
 
-
 ### -field MSP_PRIVATE_EVENT_INFO
 
 Struct returned if MSP event is ME_PRIVATE_EVENT.
-
 
 ### -field MSP_PRIVATE_EVENT_INFO.pEvent
 
@@ -157,81 +135,35 @@ MSP event.
 
 Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
 
-
 ### -field MSP_PRIVATE_EVENT_INFO.lEventCode
-
- 
-
 
 ### -field MSP_FILE_TERMINAL_EVENT_INFO
 
- 
-
-
 ### -field MSP_FILE_TERMINAL_EVENT_INFO.pParentFileTerminal
-
- 
-
 
 ### -field MSP_FILE_TERMINAL_EVENT_INFO.pFileTrack
 
- 
-
-
 ### -field MSP_FILE_TERMINAL_EVENT_INFO.TerminalMediaState
-
- 
-
 
 ### -field MSP_FILE_TERMINAL_EVENT_INFO.ftecEventCause
 
- 
-
-
 ### -field MSP_FILE_TERMINAL_EVENT_INFO.hrErrorCode
-
- 
-
 
 ### -field MSP_ASR_TERMINAL_EVENT_INFO
 
- 
-
-
 ### -field MSP_ASR_TERMINAL_EVENT_INFO.pASRTerminal
-
- 
-
 
 ### -field MSP_ASR_TERMINAL_EVENT_INFO.hrErrorCode
 
- 
-
-
 ### -field MSP_TTS_TERMINAL_EVENT_INFO
-
- 
-
 
 ### -field MSP_TTS_TERMINAL_EVENT_INFO.pTTSTerminal
 
- 
-
-
 ### -field MSP_TTS_TERMINAL_EVENT_INFO.hrErrorCode
-
- 
-
 
 ### -field MSP_TONE_TERMINAL_EVENT_INFO
 
- 
-
-
 ### -field MSP_TONE_TERMINAL_EVENT_INFO.pToneTerminal
-
- 
-
 
 ### -field MSP_TONE_TERMINAL_EVENT_INFO.hrErrorCode
 
@@ -244,18 +176,11 @@ Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop
 
 Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
 

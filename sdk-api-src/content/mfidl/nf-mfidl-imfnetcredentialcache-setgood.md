@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e2e9d87a-6238-49a0-9a19-fe213749d627
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredentialCache interface [Media Foundation],SetGood method, IMFNetCredentialCache.SetGood, IMFNetCredentialCache::SetGood, SetGood, SetGood method [Media Foundation], SetGood method [Media Foundation],IMFNetCredentialCache interface, e2e9d87a-6238-49a0-9a19-fe213749d627, mf.imfnetcredentialcache_setgood, mfidl/IMFNetCredentialCache::SetGood
-f1_keywords:
-- mfidl/IMFNetCredentialCache.SetGood
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetCredentialCache.SetGood
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetCredentialCache::SetGood
+ - mfidl/IMFNetCredentialCache::SetGood
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetCredentialCache.SetGood
 ---
 
 # IMFNetCredentialCache::SetGood
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Reports whether the credential object provided successfully passed the authentication challenge.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCred [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface.
 
-
 ### -param fGood [in]
 
 <b>TRUE</b> if the credential object succeeded in the authentication challenge; otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -95,27 +84,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called by the network source into the credential manager.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
- 
-
- 
 

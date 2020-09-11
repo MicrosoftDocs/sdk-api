@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e
 ms.date: 12/05/2018
 ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], IInkCustomStrokes interface [Tablet PC],described, msinkaut/IInkCustomStrokes, tablet.iinkcustomstrokes
-f1_keywords:
-- msinkaut/IInkCustomStrokes
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCustomStrokes
-- IInkCustomStrokes._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCustomStrokes
+ - msinkaut/IInkCustomStrokes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCustomStrokes
+ - IInkCustomStrokes._NewEnum
 ---
 
 # IInkCustomStrokes interface
@@ -51,12 +52,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains a collection of user-defined <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collections.
-
-
-
 
 ## -inheritance
 
@@ -150,12 +146,9 @@ Gets the number of <a href="https://docs.microsoft.com/previous-versions/windows
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The custom strokes are essentially named <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collections that are persisted and recalled for later use.
 
@@ -176,20 +169,11 @@ For more information about collections in COM, see <a href="https://docs.microso
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

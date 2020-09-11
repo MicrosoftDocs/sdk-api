@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 1d23bda1-d1da-44d4-9a9d-258bba200b29
 ms.date: 12/05/2018
 ms.keywords: WsSetWriterPosition, WsSetWriterPosition function [Web Services for Windows], webservices/WsSetWriterPosition, wsw.wssetwriterposition
-f1_keywords:
-- webservices/WsSetWriterPosition
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSetWriterPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSetWriterPosition
+ - webservices/WsSetWriterPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSetWriterPosition
 ---
 
 # WsSetWriterPosition function
@@ -49,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current position of the writer.  The position must have been obtained by a 
         call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param writer [in]
 
 The writer for which the current position will be set.
-        
-
 
 ### -param nodePosition [in]
 
 The position to set the writer to.
-        
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-        
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -112,14 +99,8 @@ The operation is not allowed due to the current state of the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This can only be used on a writer that is set to an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
@@ -128,7 +109,4 @@ When writing to a buffer, the position represents the xml node before which new 
       
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
-      
-
-
 

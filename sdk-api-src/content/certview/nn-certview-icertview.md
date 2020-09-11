@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0b6660ee-458f-457f-8a38-0d950aee2710
 ms.date: 12/05/2018
 ms.keywords: ICertView, ICertView interface [Security], ICertView interface [Security],described, _certsrv_icertview, certview/ICertView, security.icertview
-f1_keywords:
-- certview/ICertView
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView
+ - certview/ICertView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView
 ---
 
 # ICertView interface
 
 
 ## -description
-
 
 The <b>ICertView</b> interface allows properly authorized clients to create a customized or complete view of the Certificate Services database.
 
@@ -68,7 +68,6 @@ In C++, the <b>ICertView</b> interface is instantiated through a call to the COM
 The <b>ICertView</b> interface is defined in Certview.h. When you create your program, however, use Certsrv.h as the include file. Certadm.dll provides the <b>ICertView</b> interface. The type information for this interface is also in Certadml.dll, which is shipped with the Platform Software Development Kit (SDK).
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
-
 
 ## -inheritance
 
@@ -143,13 +142,9 @@ Specifies a column for the result set of a customized view of the Certificate Se
 <td align="left" width="63%">
 Specifies the maximum the number of columns for the result set of a customized view of the Certificate Services database.</p> (Inherited from <b>ICertView</b><b>CCertView</b>)</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -160,7 +155,4 @@ Specifies the maximum the number of columns for the result set of a customized v
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a>
- 
-
- 
 

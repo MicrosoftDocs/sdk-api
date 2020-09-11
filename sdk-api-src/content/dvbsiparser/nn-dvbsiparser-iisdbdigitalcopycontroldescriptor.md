@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: d509eb58-0c58-4173-8c9c-d52b81932b5c
 ms.date: 12/05/2018
 ms.keywords: IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDigitalCopyControlDescriptor, mstv.iisdbdigitalcopycontroldescriptor
-f1_keywords:
-- dvbsiparser/IIsdbDigitalCopyControlDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbDigitalCopyControlDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbDigitalCopyControlDescriptor
+ - dvbsiparser/IIsdbDigitalCopyControlDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbDigitalCopyControlDescriptor
 ---
 
 # IIsdbDigitalCopyControlDescriptor interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor. The digital copy control descriptor appears in the ISDB Service Information as part of the event information table (EIT). Broadcasting service
 providers who hold copyrights can use this descriptor to provide data that controls the recording of digital broadcasts and provides copyright data for digital recording equipment. This descriptor also identifies the maximum transmission rate
 for each event.
-
 
 ## -inheritance
 
@@ -115,5 +114,5 @@ Gets the tag that identifies an ISDB digital copy control descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

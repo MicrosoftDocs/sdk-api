@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: b0060666-3987-49eb-916e-0bcbf54acb23
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PRODUCTSTATE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetProductInfoEx, MsiGetProductInfoEx function, MsiGetProductInfoExA, MsiGetProductInfoExW, NULL, User SID, msi/MsiGetProductInfoEx, msi/MsiGetProductInfoExA, msi/MsiGetProductInfoExW, setup.msigetproductinfoex
-f1_keywords:
-- msi/MsiGetProductInfoEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiGetProductInfoEx
-- MsiGetProductInfoExA
-- MsiGetProductInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetProductInfoExW
+ - msi/MsiGetProductInfoExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiGetProductInfoEx
+ - MsiGetProductInfoExA
+ - MsiGetProductInfoExW
 ---
 
 # MsiGetProductInfoExW function
 
 
 ## -description
-
 
 The <b>MsiGetProductInfoEx</b> function returns product information for advertised and installed products. This function can  retrieve information 
 
@@ -62,16 +62,11 @@ The calling process must have administrative privileges for a user who is differ
 
 This function is an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetproductinfoa">MsiGetProductInfo</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param szProductCode [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance that is being queried.
-
 
 ### -param szUserSid [in]
 
@@ -148,8 +143,6 @@ Retrieves the product property for the per-machine instance of the product.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szProperty [in]
 
@@ -417,8 +410,6 @@ the <a href="https://docs.microsoft.com/windows/desktop/Msi/arpproducticon">ARPP
 <td>A value of one (1) indicates a product that can be serviced by non-administrators using <a href="https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. A missing value or a value of 0 (zero) indicates that least-privilege patching is not enabled. Available in Windows Installer 3.0 or later.</td>
 </tr>
 </table>
- 
-
 
 ### -param szValue [out, optional]
 
@@ -428,17 +419,13 @@ If <i>lpValue</i> is set to <b>NULL</b> and <i>pcchValue</i> is set to a valid p
 
 If <i>lpValue</i> and <i>pcchValue</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the value exists, without  retrieving the value.
 
-
 ### -param pcchValue [in, out, optional]
 
 A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>lpValue</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>lpValue</i> is also <b>NULL</b>. Otherwise, the function returns <b>ERROR_INVALID_PARAMETER</b>.
 
-
 ## -returns
-
-
 
 The <b>MsiGetProductInfoEx</b> function returns the following values.
 
@@ -538,14 +525,8 @@ An unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the 
 <b>MsiGetProductInfoEx</b> function returns, the <i>pcchValue</i> parameter contains the length of the string that is stored in the buffer. The count returned does not include the terminating null character. If the buffer is not big enough, 
@@ -567,9 +548,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetpro
 > The msi.h header defines MsiGetProductInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/arphelplink">ARPHELPLINK</a>
 
@@ -648,7 +626,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetpro
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
 

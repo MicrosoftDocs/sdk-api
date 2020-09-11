@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: d8e7cc61-e313-4e36-88e7-686b4f9282b5
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrClose, SnmpMgrClose function [SNMP], _snmp_snmpmgrclose, mgmtapi/SnmpMgrClose, snmp.snmpmgrclose
-f1_keywords:
-- mgmtapi/SnmpMgrClose
-dev_langs:
-- c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mgmtapi.lib
 req.dll: Mgmtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mgmtapi.dll
-api_name:
-- SnmpMgrClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpMgrClose
+ - mgmtapi/SnmpMgrClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mgmtapi.dll
+api_name:
+ - SnmpMgrClose
 ---
 
 # SnmpMgrClose function
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrClose</b> function closes the communications sockets and data structures that are associated with the specified session. This function is an element of the SNMP Management API.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Pointer to an internal structure that specifies the session to close. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -76,12 +69,7 @@ If the function fails, the return value is zero.
 
  This function may return Windows Sockets error codes.
 
-
-
-
 ## -remarks
-
-
 
 <b>Windows Server 2003:  </b>SNMP manager applications can call 
 <b>SnmpMgrClose</b> with a <b>NULL</b><i>session</i> parameter to clean up the resources that are associated with a successful call to the 
@@ -99,13 +87,7 @@ If the function fails, the return value is zero.
 
 <b>Windows Server 2003 with SP1:  </b>The above issue does not apply to Windows 2003 Service Pack 1.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
@@ -120,7 +102,4 @@ If the function fails, the return value is zero.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrrequest">SnmpMgrRequest</a>
- 
-
- 
 

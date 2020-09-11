@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
-f1_keywords:
-- pla/IScheduleCollection
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IScheduleCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IScheduleCollection
+ - pla/IScheduleCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IScheduleCollection
 ---
 
 # IScheduleCollection interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a collection of Schedule objects.
 
 To get this interface, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a> property.
-
 
 ## -inheritance
 
@@ -159,5 +158,5 @@ Retrieves the requested schedule from the collection.
 
 </td>
 </tr>
-</table> 
+</table>
 

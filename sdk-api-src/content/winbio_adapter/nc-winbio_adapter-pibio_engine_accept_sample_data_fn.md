@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: fa6c5aa4-a9f4-421e-bc43-ced7fade4144
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterAcceptSampleData, EngineAdapterAcceptSampleData callback function [Windows Biometric Framework API], PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN, PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback, secbiomet.engineadapteracceptsampledata, winbio_adapter/EngineAdapterAcceptSampleData
-f1_keywords:
-- winbio_adapter/EngineAdapterAcceptSampleData
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterAcceptSampleData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
+ - winbio_adapter/PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterAcceptSampleData
 ---
 
 # PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN callback function
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn">SensorAdapterPushDataToEngine</a>  function implemented by the sensor adapter to notify the engine adapter to accept a raw biometric sample and extract a feature set. The feature set can be used for matching or enrollment.
 
-
 ## -parameters
-
-
-
 
 ### -param Pipeline [in, out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-
 ### -param SampleBuffer [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the biometric sample to be processed.
 
-
-
 ### -param SampleSize [in]
 
 A <b>SIZE_T</b> value that contains the size of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned in the <i>SampleBuffer</i> parameter.
-
 
 ### -param Purpose [in]
 
@@ -83,8 +75,6 @@ A <b>WINBIO_BIR_PURPOSE</b> bitmask that specifies the intended use of the sampl
 <li>WINBIO_PURPOSE_ENROLL_FOR_VERIFICATION</li>
 <li>WINBIO_PURPOSE_ENROLL_FOR_IDENTIFICATION</li>
 </ul>
-
-
 
 ### -param RejectDetail [out]
 
@@ -104,8 +94,6 @@ A pointer to a <b>WINBIO_REJECT_DETAIL</b> value that receives additional inform
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -159,14 +147,8 @@ The data could not be processed to create the required feature set. The RejectDe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The feature set created by calling this function is retained in the biometric unit pipeline after the function returns. It replaces any previous feature set.
 
@@ -300,21 +282,11 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_export_engine_data_fn">EngineAdapterExportEngineData</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
 

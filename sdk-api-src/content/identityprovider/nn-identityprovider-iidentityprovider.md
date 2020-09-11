@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0f23e369-1501-4e72-94d1-dadb9dac5be6
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider, IIdentityProvider interface [Security], IIdentityProvider interface [Security],described, identityprovider/IIdentityProvider, security.iidentityprovider
-f1_keywords:
-- identityprovider/IIdentityProvider
-dev_langs:
-- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Identityprovider.h
-api_name:
-- IIdentityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIdentityProvider
+ - identityprovider/IIdentityProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Identityprovider.h
+api_name:
+ - IIdentityProvider
 ---
 
 # IIdentityProvider interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IIdentityProvider</b> interface represents an identity provider.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Deletes a connection created by calling the <a href="https://docs.microsoft.com/
 
 </td>
 </tr>
-</table> 
+</table>
 

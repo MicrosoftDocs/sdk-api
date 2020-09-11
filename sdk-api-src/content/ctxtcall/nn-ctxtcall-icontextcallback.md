@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 47af7b80-3419-4a40-8932-a5a27f297dc9
 ms.date: 12/05/2018
 ms.keywords: IContextCallback, IContextCallback interface [COM], IContextCallback interface [COM],described, _com_icontextcallback, com.icontextcallback, ctxtcall/IContextCallback
-f1_keywords:
-- ctxtcall/IContextCallback
-dev_langs:
-- c++
 req.header: ctxtcall.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctxtcall.h
-api_name:
-- IContextCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextCallback
+ - ctxtcall/IContextCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctxtcall.h
+api_name:
+ - IContextCallback
 ---
 
 # IContextCallback interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a mechanism to execute a function inside a specific COM+ object context.
-
-
 
 ## -inheritance
 
@@ -78,14 +76,9 @@ Enters the object context, executes the specified function, and returns.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
  An instance of this interface for the current context can be obtained using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>.
-
-
 

@@ -34,21 +34,27 @@ api_location:
 api_name:
  - SspiAsyncNotifyCallback
 f1_keywords:
+ - SspiAsyncNotifyCallback
  - sspi/SspiAsyncNotifyCallback
 dev_langs:
  - c++
 ---
+
 # SspiAsyncNotifyCallback function
 
+
 ## -description
+
 Callback used for notifying completion of an async SSPI call.
 
 ## -parameters
 
 ### -param Handle
+
 The async context handle.
 
 ### -param CallbackData
+
 Receives the callback data passed by the [SspiSetAsyncNotifyCallback](nf-sspi-sspisetasyncnotifycallback.md) function as "PVOID CallbackData".
 
 ## -remarks
@@ -56,3 +62,4 @@ Receives the callback data passed by the [SspiSetAsyncNotifyCallback](nf-sspi-ss
 ## -see-also
 
 [SspiSetAsyncNotifyCallback](nf-sspi-sspisetasyncnotifycallback.md)
+

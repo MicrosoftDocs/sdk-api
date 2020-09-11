@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
 ms.date: 12/05/2018
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
-f1_keywords:
-- rpcdce/DceErrorInqText
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- DceErrorInqText
-- DceErrorInqTextA
-- DceErrorInqTextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DceErrorInqText
+ - rpcdce/DceErrorInqText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - DceErrorInqText
+ - DceErrorInqTextA
+ - DceErrorInqTextW
 ---
 
 # DceErrorInqText function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DceErrorInqText</b> function returns the message text for a status code.
 
-
 ## -parameters
-
-
-
 
 ### -param RpcStatus
 
 Status code to convert to a text string.
-
 
 ### -param ErrorText
 
@@ -96,12 +91,8 @@ Unknown error code.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns RPC_S_OK if it is successful, or an error code if not.
 
@@ -109,14 +100,8 @@ This function returns RPC_S_OK if it is successful, or an error code if not.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>DceErrorInqText</b> routine fills the string pointed to by the <i>ErrorText</i> parameter with a null-terminated character string message for a particular status code.
-
-
 

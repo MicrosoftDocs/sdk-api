@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 1e078817-be7c-493c-9b46-9c9f4068745c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMPath.SetAccessibilityShortDescription, IXpsOMPath::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription
-f1_keywords:
-- xpsobjectmodel/IXpsOMPath.SetAccessibilityShortDescription
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPath.SetAccessibilityShortDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPath::SetAccessibilityShortDescription
+ - xpsobjectmodel/IXpsOMPath::SetAccessibilityShortDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPath.SetAccessibilityShortDescription
 ---
 
 # IXpsOMPath::SetAccessibilityShortDescription
@@ -49,49 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the short textual description of the object's contents. This description is used by accessibility clients to describe the object.
 
-
 ## -parameters
-
-
-
 
 ### -param shortDescription [in]
 
 The  short textual description of the object's contents.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 In the document markup, the value that is set in <i>shortDescription</i> will be that of  the <b>AutomationProperties.Name</b> attribute of the  <b>Path</b> element.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

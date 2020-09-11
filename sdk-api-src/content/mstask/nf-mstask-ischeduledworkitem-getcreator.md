@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 25bbb200-3418-4ca9-87a5-5db537baceee
 ms.date: 12/05/2018
 ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetCreator method, IScheduledWorkItem.GetCreator, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
-f1_keywords:
-- mstask/IScheduledWorkItem.GetCreator
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetCreator
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetCreator
+ - mstask/IScheduledWorkItem::GetCreator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetCreator
 ---
 
 # IScheduledWorkItem::GetCreator
@@ -49,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Retrieves the name of the creator of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param ppwszCreator [out]
 
 A pointer to a null-terminated string that contains the name of the creator of the current work item. The application that invokes 
 <b>GetCreator</b> is responsible for freeing this string using the <b>CoTaskMemFree</b> function.
 
-
 ## -returns
-
-
 
 The 
 <b>GetCreator</b> method returns one of the following values.
@@ -112,22 +105,12 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setcreator">IScheduledWorkItem::SetCreator</a>
- 
-
- 
 

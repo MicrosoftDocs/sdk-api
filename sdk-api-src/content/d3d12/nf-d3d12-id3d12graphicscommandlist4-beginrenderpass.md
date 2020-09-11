@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 6A7CF754-F2E6-48D4-8A4D-CE64B31267F7
 ms.date: 12/05/2018
 ms.keywords: BeginRenderPass, BeginRenderPass method, BeginRenderPass method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,BeginRenderPass method, ID3D12GraphicsCommandList4.BeginRenderPass, ID3D12GraphicsCommandList4::BeginRenderPass, d3d12/ID3D12GraphicsCommandList4::BeginRenderPass, direct3d12.id3d12graphicscommandlist4_beginrenderpass
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList4.BeginRenderPass
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12GraphicsCommandList4.BeginRenderPass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList4::BeginRenderPass
+ - d3d12/ID3D12GraphicsCommandList4::BeginRenderPass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12GraphicsCommandList4.BeginRenderPass
 ---
 
 ## -description
@@ -73,3 +74,4 @@ A <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_render_pass_flags">D3D12_REND
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist4">ID3D12GraphicsCommandList4</a>
 
 <a href="/windows/win32/direct3d12/rendering">Rendering</a>
+

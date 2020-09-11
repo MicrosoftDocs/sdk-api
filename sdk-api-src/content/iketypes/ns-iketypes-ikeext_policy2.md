@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: d6efc1dd-3127-44d0-9f6a-ebf7cba477aa
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_POLICY2, IKEEXT_POLICY2 structure [Filtering], IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy2, iketypes/IKEEXT_POLICY2
-f1_keywords:
-- iketypes/IKEEXT_POLICY2
-dev_langs:
-- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iketypes.h
-api_name:
-- IKEEXT_POLICY2
 targetos: Windows
 req.typenames: IKEEXT_POLICY2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKEEXT_POLICY2_
+ - iketypes/IKEEXT_POLICY2_
+ - IKEEXT_POLICY2
+ - iketypes/IKEEXT_POLICY2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iketypes.h
+api_name:
+ - IKEEXT_POLICY2
 ---
 
 # IKEEXT_POLICY2 structure
@@ -49,14 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IKEEXT_POLICY2</b> structure is used to store the IKE/AuthIP main mode negotiation policy.
 [IKEEXT_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0)  is available.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field softExpirationTime
 
@@ -64,13 +63,11 @@ Type: <b>UINT32</b>
 
 Lifetime of the IPsec soft SA, in seconds. The caller must set this to 0.
 
-
 ### -field numAuthenticationMethods
 
 Type: <b>UINT32</b>
 
 Number of authentication methods.
-
 
 ### -field authenticationMethods
 
@@ -78,13 +75,11 @@ Type: [IKEEXT_AUTHENTICATION_METHOD2](https://docs.microsoft.com/windows/desktop
 
 Array of acceptable authentication methods.
 
-
 ### -field initiatorImpersonationType
 
 Type: <b><a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a></b>
 
-Type of impersonation. Applies only to AuthIP. 
-
+Type of impersonation. Applies only to AuthIP.
 
 ### -field numIkeProposals
 
@@ -92,13 +87,11 @@ Type: <b>UINT32</b>
 
 Number of main mode proposals.
 
-
 ### -field ikeProposals
 
 Type: [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)*</b>
 
-Array of main mode proposals. 
-
+Array of main mode proposals.
 
 ### -field flags
 
@@ -154,8 +147,6 @@ Allow the responder to accept any DH proposal, including no DH, regardless of wh
 </td>
 </tr>
 </table>
- 
-
 
 ### -field maxDynamicFilters
 
@@ -167,18 +158,13 @@ Maximum number of dynamic IPsec filters per remote IP address and per
 
 Set this to 0 to disable dynamic filter addition. Dynamic filters are added by IKE/AuthIP on responder, when the QM traffic proposed by initiator is a subset of responder's traffic configuration.
 
-
 ### -field retransmitDurationSecs
 
 Type: <b>UINT32</b>
 
 The number of seconds for which IKEv2 SA negotiation packets will be retransmitted before the SA times out. The caller must set this to at least 120 seconds.
 
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a>
 
@@ -193,7 +179,4 @@ The number of seconds for which IKEv2 SA negotiation packets will be retransmitt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
 

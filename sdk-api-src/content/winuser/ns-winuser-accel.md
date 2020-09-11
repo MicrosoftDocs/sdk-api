@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorstructures\accel.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPACCEL, ACCEL, ACCEL structure [Menus and Other Resources], FALT, FCONTROL, FNOINVERT, FSHIFT, FVIRTKEY, LPACCEL, LPACCEL structure pointer [Menus and Other Resources], _win32_ACCEL_str, _win32_accel_str_cpp, menurc.accel, winui._win32_accel_str, winuser/ACCEL, winuser/LPACCEL'
-f1_keywords:
-- winuser/ACCEL
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- ACCEL
 targetos: Windows
 req.typenames: ACCEL, *LPACCEL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagACCEL
+ - winuser/tagACCEL
+ - LPACCEL
+ - winuser/LPACCEL
+ - ACCEL
+ - winuser/ACCEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - ACCEL
 ---
 
 # ACCEL structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines an accelerator key used in an accelerator table. 
-
+Defines an accelerator key used in an accelerator table.
 
 ## -struct-fields
-
-
-
 
 ### -field fVirt
 
@@ -125,27 +125,20 @@ The <b>key</b> member specifies a virtual-key code. If this flag is not specifie
 </td>
 </tr>
 </table>
- 
-
 
 ### -field key
 
 Type: <b>WORD</b>
 
-The accelerator key. This member can be either a <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a> or a character code. 
-
+The accelerator key. This member can be either a <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a> or a character code.
 
 ### -field cmd
 
 Type: <b>WORD</b>
 
-The accelerator identifier. This value is placed in the low-order word of the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> message when the accelerator is pressed. 
-
+The accelerator identifier. This value is placed in the low-order word of the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> message when the accelerator is pressed.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -164,7 +157,4 @@ The accelerator identifier. This value is placed in the low-order word of the <i
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
- 
-
- 
 

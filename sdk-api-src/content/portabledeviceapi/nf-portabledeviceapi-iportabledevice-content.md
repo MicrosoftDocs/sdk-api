@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: f65ff0b5-ca3b-498f-9c5e-36a76104d220
 ms.date: 12/05/2018
 ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Content method, IPortableDevice.Content, IPortableDevice::Content, IPortableDeviceContent, portabledeviceapi/IPortableDevice::Content, wpdsdk.iportabledevice_content
-f1_keywords:
-- portabledeviceapi/IPortableDevice.Content
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevice.Content
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDevice::Content
+ - portabledeviceapi/IPortableDevice::Content
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevice.Content
 ---
 
 # IPortableDevice::Content
@@ -50,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Content</b> method retrieves an interface that you can use to access objects on a device.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param ppContent [out]
 
 Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -101,15 +92,8 @@ The <i>ppContent</i> argument was a NULL pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>
 
@@ -144,7 +128,4 @@ The <i>ppContent</i> argument was a NULL pointer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
- 
-
- 
 

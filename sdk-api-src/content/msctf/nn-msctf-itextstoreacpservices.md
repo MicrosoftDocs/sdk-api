@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 8c84429c-3f99-4ab1-b994-e4e93cd9c86d
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], ITextStoreACPServices interface [Text Services Framework],described, _tsf_itextstoreacpservices_ref, msctf/ITextStoreACPServices, tsf.itextstoreacpservices
-f1_keywords:
-- msctf/ITextStoreACPServices
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPServices
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPServices
+ - msctf/ITextStoreACPServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPServices
 ---
 
 # ITextStoreACPServices interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreACPServices</b> interface is implemented by the TSF manager to provide various services to an ACP-based application. To obtain an instance of this interface, an application calls <b>QueryInterface</b> on the <i>punk</i> parameter passed to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">ITextStoreACP::AdviseSink</a> with IID_ITextStoreACPServices.
-
 
 ## -inheritance
 
@@ -104,13 +103,9 @@ Takes previously serialized property data and applies it to a property object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-advisesink">ITextStoreACP::AdviseSink
       </a>
@@ -118,7 +113,4 @@ Takes previously serialized property data and applies it to a property object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
 

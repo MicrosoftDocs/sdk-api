@@ -7,10 +7,6 @@ old-location: direct2d\d2d1_hdrtonemap_prop.htm
 tech.root: Direct2D
 ms.date: 01/30/2019
 ms.keywords: D2D1_HDRTONEMAP_PROP, D2D1_HDRTONEMAP_PROP enumeration [Direct2D], D2D1_HDRTONEMAP_PROP_INPUT_MAX_LUMINANCE, D2D1_HDRTONEMAP_PROP_OUTPUT_MAX_LUMINANCE, D2D1_HDRTONEMAP_PROP_DISPLAY_MODE, d2d1effects_2/D2D1_HDRTONEMAP_PROP, d2d1effects_2/D2D1_HDRTONEMAP_PROP_INPUT_MAX_LUMINANCE, d2d1effects_2/D2D1_HDRTONEMAP_PROP_OUTPUT_MAX_LUMINANCE, d2d1effects_2/D2D1_HDRTONEMAP_PROP_DISPLAY_MODE, direct2d.d2d1_hdrtonemap_prop
-f1_keywords:
-- d2d1effects_2/D2D1_HDRTONEMAP_PROP
-dev_langs:
-- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects_2.h
-api_name:
-- D2D1_HDRTONEMAP_PROP
 targetos: Windows
 req.typenames: D2D1_HDRTONEMAP_PROP
 req.redist: 
+f1_keywords:
+ - D2D1_HDRTONEMAP_PROP
+ - d2d1effects_2/D2D1_HDRTONEMAP_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects_2.h
+api_name:
+ - D2D1_HDRTONEMAP_PROP
 ---
 
 # D2D1_HDRTONEMAP_PROP enumeration
+
 
 ## -description
 
@@ -63,3 +65,4 @@ Identifies the `OutputMaxLuminance` property of the effect. The property is of t
 Identifies the `DisplayMode` property of the effect. The property is of type <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode"><strong>D2D1_HDRTONEMAP_DISPLAY_MODE</strong></a>.
 
 ### -field D2D1_HDRTONEMAP_PROP_FORCE_DWORD (0xFFFFFFFF)
+

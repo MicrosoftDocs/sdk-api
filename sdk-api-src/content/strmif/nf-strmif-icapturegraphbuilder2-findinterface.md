@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 931b42bf-25d6-4f0a-8c45-baf8ed65e302
 ms.date: 12/05/2018
 ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],FindInterface method, ICaptureGraphBuilder2.FindInterface, ICaptureGraphBuilder2::FindInterface, ICaptureGraphBuilder2FindInterface, dshow.icapturegraphbuilder2_findinterface, strmif/ICaptureGraphBuilder2::FindInterface
-f1_keywords:
-- strmif/ICaptureGraphBuilder2.FindInterface
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICaptureGraphBuilder2.FindInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICaptureGraphBuilder2::FindInterface
+ - strmif/ICaptureGraphBuilder2::FindInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICaptureGraphBuilder2.FindInterface
 ---
 
 # ICaptureGraphBuilder2::FindInterface
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>FindInterface</code> method searches the graph for a specified interface, starting from a specified filter. You can restrict the search to a section of the graph upstream or downstream of the filter, or restrict it to a particular pin category or media type.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCategory [in]
 
@@ -74,30 +67,23 @@ A pointer to a GUID that specifies the search criteria. See Remarks for more inf
 </ul>
 See Remarks for more information.
 
-
 ### -param pType [in]
 
 Pointer to a GUID that specifies the major media type of an output pin, or <b>NULL</b>.
-
 
 ### -param pf [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter. The method begins searching from this filter.
 
-
 ### -param riid [in]
 
 Interface identifier (IID) of the interface to locate.
-
 
 ### -param ppint [out]
 
 Address of a variable that receives the interface pointer. Be sure to release the retrieved interface pointer when you are done with the interface.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -151,14 +137,8 @@ No such interface supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In a capture graph, various filters and pins might expose interfaces for setting properties such as compression parameters (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression</a>) or stream formats (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig</a>). Depending on the capture device, other useful interfaces might include <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar</a>, which routes analog signals, or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a>, which controls a TV tuner device. You can use this method to find an interface, without writing special code that traverses the graph.
 
@@ -187,20 +167,11 @@ Some video capture filters have a video port pin (PIN_CATEGORY_VIDEOPORT) instea
 
 <b>Supporting Filters</b>. If a capture device uses a Windows Driver Model (WDM) driver, the graph may require certain filters upstream from the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture</a> filter, such as a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/tv-tuner-filter">TV Tuner</a> filter or an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/analog-video-crossbar-filter">Analog Video Crossbar</a> filter. If the <i>pCategory</i> parameter does not equal <b>NULL</b>, this method automatically inserts any required WDM filters into the graph. To do so, it queries the input pins on the capture filter to determine what mediums they support, and connects them to matching filters. If the <i>pCategory</i> parameter is <b>NULL</b>, the method does not add the upstream filters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
- 
-
- 
 

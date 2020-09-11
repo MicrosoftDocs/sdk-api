@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97
 ms.date: 12/05/2018
 ms.keywords: WS_HEAP_PROPERTY_ACTUAL_SIZE, WS_HEAP_PROPERTY_ID, WS_HEAP_PROPERTY_ID enumeration [Web Services for Windows], WS_HEAP_PROPERTY_MAX_SIZE, WS_HEAP_PROPERTY_REQUESTED_SIZE, WS_HEAP_PROPERTY_TRIM_SIZE, webservices/WS_HEAP_PROPERTY_ACTUAL_SIZE, webservices/WS_HEAP_PROPERTY_ID, webservices/WS_HEAP_PROPERTY_MAX_SIZE, webservices/WS_HEAP_PROPERTY_REQUESTED_SIZE, webservices/WS_HEAP_PROPERTY_TRIM_SIZE, wsw.ws_heap_property_id
-f1_keywords:
-- webservices/WS_HEAP_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_HEAP_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_HEAP_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_HEAP_PROPERTY_ID
+ - webservices/WS_HEAP_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_HEAP_PROPERTY_ID
 ---
 
 # WS_HEAP_PROPERTY_ID enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Each heap property is identified by an ID and has an associated value.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_HEAP_PROPERTY_MAX_SIZE
 
@@ -65,8 +60,6 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
                     the total number of bytes that can be allocated from the heap.  The total
                     number of bytes is defined as sum of the sizes passed in all the calls to
                     <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> since the heap was created / reset.
-                
-
 
 ### -field WS_HEAP_PROPERTY_TRIM_SIZE
 
@@ -76,21 +69,16 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf
                     be treated an approximate value due to heap overhead.  If the
                     trim size is larger than the max size, then the size of the
                     heap will not be trimmed.
-                
-
 
 ### -field WS_HEAP_PROPERTY_REQUESTED_SIZE
 
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  Returns the current 
                     total number of bytes requested from the heap since the heap was 
                     created/reset.
-                
-
 
 ### -field WS_HEAP_PROPERTY_ACTUAL_SIZE
 
 Used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheapproperty">WsGetHeapProperty</a>.  Returns the current
                     total number of bytes that the WS_HEAP has allocated from the
                     operating system for purposes of providing allocations.
-                
 

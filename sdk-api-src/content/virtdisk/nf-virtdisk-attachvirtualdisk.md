@@ -8,10 +8,6 @@ tech.root: VStor
 ms.assetid: 528370bc-77d4-4983-8910-d941165a037c
 ms.date: 12/05/2018
 ms.keywords: AttachVirtualDisk, AttachVirtualDisk function [VHD], vdssys/AttachVirtualDisk, vhd.attachvirtualdisk, vhd.surfacevirtualdisk, virtdisk/AttachVirtualDisk
-f1_keywords:
-- virtdisk/AttachVirtualDisk
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VirtDisk.dll
-api_name:
-- AttachVirtualDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AttachVirtualDisk
+ - virtdisk/AttachVirtualDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VirtDisk.dll
+api_name:
+ - AttachVirtualDisk
 ---
 
 # AttachVirtualDisk function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an appropriate VHD 
     provider to accomplish the attachment.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
       <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
-
 
 ### -param SecurityDescriptor [in, optional]
 
@@ -75,24 +70,20 @@ An optional pointer to a
 Ensure that the security descriptor that <b>AttachVirtualDisk</b> applies to the attached virtual disk grants the write attributes permission for the user, or that the security descriptor of the virtual disk 
       image file grants the write attributes permission for the user  if you specify NULL for this parameter. If the security descriptor does not grant write attributes permission for a user, Shell displays the following error when the user accesses the attached virtual disk: <b>The Recycle Bin is corrupted. Do you want to empty the Recycle Bin for this drive?</b>
 
-
 ### -param Flags [in]
 
 A valid combination of values of the 
       <a href="/windows/win32/api/virtdisk/ne-virtdisk-attach_virtual_disk_flag">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
-
 ### -param ProviderSpecificFlags [in]
 
 Flags specific to the type of virtual disk being attached. May be zero if none are required.
-
 
 ### -param Parameters [in, optional]
 
 A pointer to a valid 
       <a href="/windows/win32/api/virtdisk/ns-virtdisk-attach_virtual_disk_parameters">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
       structure that contains attachment parameter data.
-
 
 ### -param Overlapped [in, optional]
 
@@ -101,10 +92,7 @@ An optional pointer to a valid <a href="/windows/desktop/api/minwinbase/ns-minwi
       <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is 
       desired.
 
-
 ## -returns
-
-
 
 Status of the request.
 
@@ -113,12 +101,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 If the function fails, the return value is an error code. For more information, see 
        <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>AttachVirtualDisk</b> function is not supported 
     for VHDs or ISOs hosted on Secure Digital (SD) media plugged into an SD controller in native mode (for which 
@@ -155,20 +138,11 @@ The intended access mode of the virtual disk must be considered when opening the
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
 

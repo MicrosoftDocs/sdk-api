@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
 ms.date: 12/05/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
-f1_keywords:
-- wincrypt/CryptSignMessage
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSignMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignMessage
+ - wincrypt/CryptSignMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSignMessage
 ---
 
 # CryptSignMessage function
@@ -49,41 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptSignMessage</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the specified content, signs the hash, and then encodes both the original message content and the signed hash.
 
-
 ## -parameters
-
-
-
 
 ### -param pSignPara [in]
 
 A pointer to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure containing the signature parameters.
 
-
 ### -param fDetachedSignature [in]
 
 <b>TRUE</b> if this is to be a detached signature. Otherwise, <b>FALSE</b>. If this parameter is set to <b>TRUE</b>, only the signed hash is encoded in <i>pbSignedBlob</i>. Otherwise, both <i>rgpbToBeSigned</i> and the signed hash are encoded.
-
 
 ### -param cToBeSigned [in]
 
 Count of the number of array elements in <i>rgpbToBeSigned</i> and <i>rgcbToBeSigned</i>. This parameter must be set to one unless <i>fDetachedSignature</i> is set to <b>TRUE</b>.
 
-
 ### -param rgpbToBeSigned [in]
 
 Array of pointers to buffers that contain the contents to be signed.
 
-
 ### -param rgcbToBeSigned [in]
 
 Array of sizes, in bytes, of the content buffers pointed to in <i>rgpbToBeSigned</i>.
-					
-
 
 ### -param pbSignedBlob [out]
 
@@ -94,7 +84,6 @@ A pointer to a buffer to receive the encoded signed hash, if <i>fDetachedSignatu
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbSignedBlob [in, out]
 
@@ -107,8 +96,6 @@ A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbSignedBlo
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -167,15 +154,9 @@ The <i>pSigningCert</i> in *<i>pSignPara</i> does not have a CERT_KEY_PROV_INFO_
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> might be propagated to this function.</div>
 <div> </div>
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
-
-
-
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignandencryptmessage">CryptSignAndEncryptMessage</a>
 
@@ -186,3 +167,4 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
+

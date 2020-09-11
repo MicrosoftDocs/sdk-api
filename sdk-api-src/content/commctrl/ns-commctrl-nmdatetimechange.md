@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimechange.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMDATETIMECHANGE, GDT_NONE, GDT_VALID, LPNMDATETIMECHANGE, LPNMDATETIMECHANGE structure pointer [Windows Controls], NMDATETIMECHANGE, NMDATETIMECHANGE structure [Windows Controls], _win32_NMDATETIMECHANGE, _win32_NMDATETIMECHANGE_cpp, commctrl/LPNMDATETIMECHANGE, commctrl/NMDATETIMECHANGE, controls.NMDATETIMECHANGE, controls._win32_NMDATETIMECHANGE'
-f1_keywords:
-- commctrl/NMDATETIMECHANGE
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMDATETIMECHANGE
 targetos: Windows
 req.typenames: NMDATETIMECHANGE, *LPNMDATETIMECHANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMDATETIMECHANGE
+ - commctrl/tagNMDATETIMECHANGE
+ - LPNMDATETIMECHANGE
+ - commctrl/LPNMDATETIMECHANGE
+ - NMDATETIMECHANGE
+ - commctrl/NMDATETIMECHANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMDATETIMECHANGE
 ---
 
 # NMDATETIMECHANGE structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-datetimechange">DTN_DATETIMECHANGE</a> notification code. 
-
+Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-datetimechange">DTN_DATETIMECHANGE</a> notification code.
 
 ## -struct-fields
-
-
-
 
 ### -field nmhdr
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code. 
-
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification code.
 
 ### -field dwFlags
 
@@ -98,12 +97,10 @@ The control is not set to the "no date" status. The
 </td>
 </tr>
 </table>
- 
-
 
 ### -field st
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains information about the current system date and time. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains information about the current system date and time.
 

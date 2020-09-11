@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: cded1b76-0fad-454f-bf5a-c500c9079f08
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_delete_s, ldap.ldap__delete__s, ldap.ldap_delete_s, ldap_delete_s, ldap_delete_s function [LDAP], ldap_delete_sA, ldap_delete_sW, winldap/ldap_delete_s, winldap/ldap_delete_sA, winldap/ldap_delete_sW
-f1_keywords:
-- winldap/ldap_delete_s
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_delete_s
-- ldap_delete_sA
-- ldap_delete_sW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_delete_sW
+ - winldap/ldap_delete_sW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_delete_s
+ - ldap_delete_sA
+ - ldap_delete_sW
 ---
 
 # ldap_delete_sW function
@@ -51,40 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_delete_s</b> function is a synchronous operation that removes a leaf entry from the directory tree.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
 
-
 ### -param dn [in]
 
 A pointer to a null-terminated string that contains the distinguished name of the entry to delete.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Call <b>ldap_delete_s</b> to remove a leaf entry from the directory tree. Be aware that LDAP does not support deletion of entire subtrees in a single operation. As a synchronous operation, <b>ldap_delete_s</b> does not return until the operation is compete. Use 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_delete">ldap_delete</a> or 
@@ -104,9 +91,6 @@ Multithreading: The <b>ldap_delete_s</b> function is thread-safe.
 > The winldap.h header defines ldap_delete_s as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -133,7 +117,4 @@ Multithreading: The <b>ldap_delete_s</b> function is thread-safe.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
- 
-
- 
 

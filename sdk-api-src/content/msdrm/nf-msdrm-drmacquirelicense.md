@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 0d4ce794-8384-4f1c-bc8c-1e67fbb5f987
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
-f1_keywords:
-- msdrm/DRMAcquireLicense
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMAcquireLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMAcquireLicense
+ - msdrm/DRMAcquireLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMAcquireLicense
 ---
 
 # DRMAcquireLicense function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by the client in Msdrm.dll is available 
     for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, 
@@ -60,11 +60,7 @@ ms.custom: 19H1
 
 The <b>DRMAcquireLicense</b> function attempts to acquire an end-user license or client licensor certificate asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
@@ -75,7 +71,6 @@ A client session handle is obtained by using the
        a client licensor certificate is acquired. The application callback function specified in the <b>DRMCreateClientSession</b> function will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-clientlicensor">DRM_MSG_ACQUIRE_CLIENTLICENSOR</a> message to provide status feedback.
 
 A license storage session handle is obtained by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function. In this case, an end-user license is acquired. The application callback function specified in the client session passed in the <i>hClient</i> parameter of the  <b>DRMCreateLicenseStorageSession</b> function will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-license">DRM_MSG_ACQUIRE_LICENSE</a> message to provide status feedback.
-
 
 ### -param uFlags [in]
 
@@ -115,21 +110,17 @@ This flag suppresses the Windows network authentication dialog box. If the licen
 
 If <i>hSession</i> is a client session handle, this flag is ignored.
 
-
 ### -param wszGroupIdentityCredential [in]
 
 An optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
-
 
 ### -param wszRequestedRights [in]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param wszCustomData [in]
 
 Optional application-specific data that might be required for a license. This must be a valid XML string. After returning control to the caller, this function creates a license request by using the application-specific data specified here.
-
 
 ### -param wszURL [in]
 
@@ -137,26 +128,17 @@ A license acquisition URL. This parameter is required when a client licensor cer
 
 A license may hold multiple license acquisition URLs, but only the first is used by default. To use any of the other URLs specified, you must parse the license. For more information, see the Remarks section.
 
-
 ### -param pvContext [in]
 
 A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is used for retrieving an end-user license or client licensor certificate asynchronously. There 
      is no synchronous version of this function. To cancel a license request in process, call 
@@ -247,16 +229,7 @@ AD RMS allows an administrator to specify an extranet licensing  URL in addition
 
 Multiple URLs are often specified so that  users can access protected content both at work and at home. The second URL provides a license acquisition point that does not require the user working at home to log on to the corporate network. The <b>DRMAcquireLicense</b> function, however, uses the first URL by default. Therefore, to allow the consumer to use an alternate URL, your application must parse the license.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.date: 12/05/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
-f1_keywords:
-- fileapi/WriteFileGather
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,33 +25,37 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- WriteFileGather
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WriteFileGather
+ - fileapi/WriteFileGather
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - WriteFileGather
 ---
 
 # WriteFileGather function
 
 
 ## -description
-
 
 Retrieves data 
     from an array of buffers and writes the data to a file.
@@ -64,11 +64,7 @@ The function starts writing data to the file at a position that is specified by 
     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. The 
     <b>WriteFileGather</b> function operates asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -76,7 +72,6 @@ A handle to the file. The file handle must be created with the <b>GENERIC_WRITE<
       access right, and the <b>FILE_FLAG_OVERLAPPED</b> and 
       <b>FILE_FLAG_NO_BUFFERING</b> flags. For more information, see 
       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
 
 ### -param aSegmentArray [in]
 
@@ -101,7 +96,6 @@ Due to the asynchronous operation of this function, precautions must be taken to
        always references valid memory for the lifetime of the asynchronous writes. For instance, a common programming 
        error is to use local stack storage and then allow execution to run out of scope.
 
-
 ### -param nNumberOfBytesToWrite [in]
 
 The total number of bytes to be written. Each element of <i>aSegmentArray</i> contains a 
@@ -115,11 +109,9 @@ If <i>nNumberOfBytesToWrite</i> is zero (0), the function performs a null write 
        data beyond the current end of the file, 
        the <b>WriteFileGather</b> function extends the file.
 
-
 ### -param lpReserved
 
 This parameter is reserved for future use and must be <b>NULL</b>.
-
 
 ### -param lpOverlapped [in, out]
 
@@ -148,10 +140,7 @@ The <b>WriteFileGather</b> function may return before the
        obtain information about the completion of the write operation. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -162,12 +151,7 @@ If the function returns before the write operation is complete, the function ret
        the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
        <b>ERROR_IO_PENDING</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function is not supported for 32-bit applications by WOW64 on the Itanium-based systems.
 
@@ -255,13 +239,7 @@ Yes
 <h3><a id="Transacted_Operations"></a><a id="transacted_operations"></a><a id="TRANSACTED_OPERATIONS"></a>Transacted Operations</h3>
 If there is a transaction bound to the file handle, then the operation is transacted.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -304,7 +282,4 @@ If there is a transaction bound to the file handle, then the operation is transa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
- 
-
- 
 

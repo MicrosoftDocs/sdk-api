@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: bc7cf886-f763-428a-9e75-031e8df26554
 ms.date: 12/05/2018
 ms.keywords: '*PENABLE_TRACE_PARAMETERS, ENABLE_TRACE_PARAMETERS, ENABLE_TRACE_PARAMETERS structure [ETW], EVENT_ENABLE_PROPERTY_EVENT_KEY, EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE, EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0, EVENT_ENABLE_PROPERTY_PROCESS_START_KEY, EVENT_ENABLE_PROPERTY_PROVIDER_GROUP, EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_STACK_TRACE, EVENT_ENABLE_PROPERTY_TS_ID, PENABLE_TRACE_PARAMETERS, PENABLE_TRACE_PARAMETERS structure pointer [ETW], _ENABLE_TRACE_PARAMETERS, etw.enable_trace_parameters, evntrace/ENABLE_TRACE_PARAMETERS, evntrace/PENABLE_TRACE_PARAMETERS'
-f1_keywords:
-- evntrace/ENABLE_TRACE_PARAMETERS
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntrace.h
-api_name:
-- ENABLE_TRACE_PARAMETERS
 targetos: Windows
 req.typenames: ENABLE_TRACE_PARAMETERS, *PENABLE_TRACE_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ENABLE_TRACE_PARAMETERS
+ - evntrace/_ENABLE_TRACE_PARAMETERS
+ - PENABLE_TRACE_PARAMETERS
+ - evntrace/PENABLE_TRACE_PARAMETERS
+ - ENABLE_TRACE_PARAMETERS
+ - evntrace/ENABLE_TRACE_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntrace.h
+api_name:
+ - ENABLE_TRACE_PARAMETERS
 ---
 
 # ENABLE_TRACE_PARAMETERS structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ENABLE_TRACE_PARAMETERS</b> structure defines the information used to enable a provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Set to <b>ENABLE_TRACE_PARAMETERS_VERSION_2</b>.
-
 
 ### -field EnableProperty
 
@@ -181,18 +180,14 @@ Supported on Windows 7 and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ControlFlags
 
 Reserved. Set to 0.
 
-
 ### -field SourceId
 
 A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a>, the GUID is not used.
-
 
 ### -field EnableFilterDesc
 
@@ -202,7 +197,6 @@ For a schematized filter (a <b>Type</b> member equal to <b>EVENT_FILTER_TYPE_SCH
 
 A session can call the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a> function to determine the schematized filters that it can pass to the provider.
 
-
 ### -field FilterDescCount
 
 The number of elements (filters) in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> array pointed to by <b>EnableFilterDesc</b> member. 
@@ -211,10 +205,7 @@ The <b>FilterDescCount</b>  member should match the number of <a href="https://d
 
 .
 
-
 ## -remarks
-
-
 
 The <b>ENABLE_TRACE_PARAMETERS</b> structure is a version 2 structure and replaces the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a> structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
@@ -222,15 +213,7 @@ On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and 
 
 Typically, on 64-bit computers, you cannot capture the kernel stack in certain contexts when page faults are not allowed. To enable walking the kernel stack on x64, set the <b>DisablePagingExecutive</b> Memory Management registry value to 1. The <b>DisablePagingExecutive</b> registry value is located under the following registry key:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management</b></p>You should consider the cost of setting this registry value before doing so.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a>
 
@@ -261,7 +244,4 @@ Typically, on 64-bit computers, you cannot capture the kernel stack in certain c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
- 
-
- 
 

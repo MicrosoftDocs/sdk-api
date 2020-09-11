@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
 ms.date: 12/05/2018
 ms.keywords: CertCreateCRLContext, CertCreateCRLContext function [Security], _crypto2_certcreatecrlcontext, security.certcreatecrlcontext, wincrypt/CertCreateCRLContext
-f1_keywords:
-- wincrypt/CertCreateCRLContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCreateCRLContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCreateCRLContext
+ - wincrypt/CertCreateCRLContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCreateCRLContext
 ---
 
 # CertCreateCRLContext function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertCreateCRLContext</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from an encoded CRL. The created context is not persisted to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. It makes a copy of the encoded CRL within the created context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
@@ -69,21 +65,15 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pbCrlEncoded [in]
 
 A pointer to a buffer containing the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a> from which the context is to be created.
-
 
 ### -param cbCrlEncoded [in]
 
 The size, in bytes, of the <i>pbCrlEncoded</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to a read-only 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>.
@@ -113,12 +103,7 @@ Invalid certificate encoding type. Currently, only the encoding type X509_ASN_EN
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> must be freed by calling 
@@ -127,13 +112,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty">CertSetCRLContextProperty</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a> can be called to store and read properties for the CRL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
@@ -164,7 +143,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 3bfde980-e478-4960-b41f-e1c8105ef419
 ms.date: 12/05/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
-f1_keywords:
-- wininet/InternetCanonicalizeUrl
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetCanonicalizeUrl
-- InternetCanonicalizeUrlA
-- InternetCanonicalizeUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetCanonicalizeUrlA
+ - wininet/InternetCanonicalizeUrlA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetCanonicalizeUrl
+ - InternetCanonicalizeUrlA
+ - InternetCanonicalizeUrlW
 ---
 
 # InternetCanonicalizeUrlA function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Canonicalizes a URL, which includes converting unsafe characters and spaces into escape sequences.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrl [in]
 
  A pointer to the string that contains the URL to canonicalize.
 
-
 ### -param lpszBuffer [out]
 
 A pointer to the buffer that receives the resulting canonicalized URL.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -76,7 +70,6 @@ A pointer to a variable that contains the size, in characters,  of the
 <i>lpszBuffer</i> buffer. If the function succeeds, this parameter receives the number of characters actually copied to the 
 <i>lpszBuffer</i> buffer, which does not include the terminating null character. If the function fails, this parameter receives the required size of the 
 buffer, in characters, which includes the terminating null character.
-
 
 ### -param dwFlags [in]
 
@@ -155,12 +148,8 @@ Does not remove meta sequences (such as "." and "..") from the URL.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. Possible errors include the following.
@@ -216,14 +205,8 @@ There is an invalid string, buffer, buffer size, or flags parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In Internet Explorer 4.0 and later, 
 <b>InternetCanonicalizeUrl</b> always functions as if the <b>ICU_BROWSER_MODE</b> flag is set. Client applications that must canonicalize the entire URL should use either 
@@ -250,15 +233,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 818fd713-1b41-4abd-aca4-c74383fa3594
 ms.date: 12/05/2018
 ms.keywords: GetRestoreOptions, GetRestoreOptions method [VSS], GetRestoreOptions method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreOptions method, IVssComponent.GetRestoreOptions, IVssComponent::GetRestoreOptions, _win32_ivsscomponent_getrestoreoptions, base.ivsscomponent_getrestoreoptions, vswriter/IVssComponent::GetRestoreOptions
-f1_keywords:
-- vswriter/IVssComponent.GetRestoreOptions
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetRestoreOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetRestoreOptions
+ - vswriter/IVssComponent::GetRestoreOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetRestoreOptions
 ---
 
 # IVssComponent::GetRestoreOptions
@@ -50,27 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetRestoreOptions</b> method gets the restore options specified to the current writer by a requester using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions">IVssBackupComponents::SetRestoreOptions</a>.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrRestoreOptions [out]
 
 String containing the restore options of the writer.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -136,26 +129,14 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller should free the memory held by the <i>pbstrRestoreOptions</i> parameter by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 If no restore options have been set, S_FALSE is returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions">IVssBackupComponents::SetRestoreOptions</a>
 
@@ -166,7 +147,4 @@ If no restore options have been set, S_FALSE is returned.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupoptions">IVssComponent::GetBackupOptions</a>
- 
-
- 
 

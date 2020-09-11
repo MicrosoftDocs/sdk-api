@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: d2866beb-ff7a-4390-8651-e7bf458ddf88
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleBitmap, CreateCompatibleBitmap function [Windows GDI], _win32_CreateCompatibleBitmap, gdi.createcompatiblebitmap, wingdi/CreateCompatibleBitmap
-f1_keywords:
-- wingdi/CreateCompatibleBitmap
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- CreateCompatibleBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateCompatibleBitmap
+ - wingdi/CreateCompatibleBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - CreateCompatibleBitmap
 ---
 
 # CreateCompatibleBitmap function
@@ -54,44 +55,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateCompatibleBitmap</b> function creates a bitmap compatible with the device that is associated with the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to a device context.
 
-
 ### -param cx [in]
 
 The bitmap width, in pixels.
-
 
 ### -param cy [in]
 
 The bitmap height, in pixels.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the compatible bitmap (DDB).
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The color format of the bitmap created by the <b>CreateCompatibleBitmap</b> function matches the color format of the device identified by the <i>hdc</i> parameter. This bitmap can be selected into any memory device context that is compatible with the original device.
 
@@ -122,12 +108,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/scal
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -146,7 +127,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/scal
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
 

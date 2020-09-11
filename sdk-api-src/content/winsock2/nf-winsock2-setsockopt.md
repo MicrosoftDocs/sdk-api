@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3a6960c9-0c04-4403-aee1-ce250459dc30
 ms.date: 12/05/2018
 ms.keywords: _win32_setsockopt_2, setsockopt, setsockopt function [Winsock], winsock.setsockopt_2, winsock/setsockopt
-f1_keywords:
-- winsock2/setsockopt
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- wsock32.dll
-api_name:
-- setsockopt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - setsockopt
+ - winsock2/setsockopt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - wsock32.dll
+api_name:
+ - setsockopt
 ---
 
 # setsockopt function
@@ -50,44 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>setsockopt</b> function sets a socket option.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor that identifies a socket.
 
-
 ### -param level [in]
 
 The level at which the option is defined (for example, SOL_SOCKET).
-
 
 ### -param optname [in]
 
 The socket option for which the value is to be set (for example, SO_BROADCAST). The <i>optname</i> parameter must be a socket option defined within the specified <i>level</i>, or behavior is undefined.
 
-
 ### -param optval [in]
 
 A pointer to the buffer in which the value for the requested option is specified.
-
 
 ### -param optlen [in]
 
 The size, in bytes, of the buffer pointed to by the <i>optval</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>setsockopt</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -199,14 +188,8 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>setsockopt</b> function sets the current value for a socket option associated with a socket of any type, in any state. Although options can exist at multiple protocol levels, they are always present at the uppermost socket level. Options affect socket operations, such as whether expedited data (OOB data for example) is received in the normal data stream, and whether broadcast messages can be sent on the socket.
@@ -657,13 +640,7 @@ Many SO_ level socket options are not meaningful to IrDA. Only SO_LINGER is spec
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a>
 
@@ -734,7 +711,4 @@ Many SO_ level socket options are not meaningful to IrDA. Only SO_LINGER is spec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

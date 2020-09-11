@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: a94db861-b24e-476a-810d-2cf3bbfc67d1
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],RegisterTaskDefinition method, ITaskFolder.RegisterTaskDefinition, ITaskFolder::RegisterTaskDefinition, RegisterTaskDefinition, RegisterTaskDefinition method [Task Scheduler], RegisterTaskDefinition method [Task Scheduler],ITaskFolder interface, TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_UPDATE, TASK_VALIDATE_ONLY, taskschd.itaskfolder_registertaskdefinition, taskschd/ITaskFolder::RegisterTaskDefinition
-f1_keywords:
-- taskschd/ITaskFolder.RegisterTaskDefinition
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskFolder.RegisterTaskDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskFolder::RegisterTaskDefinition
+ - taskschd/ITaskFolder::RegisterTaskDefinition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskFolder.RegisterTaskDefinition
 ---
 
 # ITaskFolder::RegisterTaskDefinition
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers (creates) a task in a specified location using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface to define a task.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -64,11 +60,9 @@ The name of the task. If this value is <b>NULL</b>, the task will be registered 
 
 A task name cannot begin or end with a space character. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
-
 ### -param pDefinition [in]
 
 The definition of the registered task.
-
 
 ### -param flags [in]
 
@@ -157,8 +151,6 @@ The Task Scheduler creates the task, but ignores the registration triggers in th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param userId [in]
 
@@ -170,7 +162,6 @@ The user credentials used to register the task. If present, these credentials ta
 ### -param password [in]
 
 The password for the userId used to register the task. When the TASK_LOGON_SERVICE_ACCOUNT logon type is used, the password must be an empty <b>VARIANT</b> value such as <b>VT_NULL</b> or <b>VT_EMPTY</b>.
-
 
 ### -param logonType [in]
 
@@ -259,8 +250,6 @@ First use the interactive token.  If the user is not logged on (no interactive t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param sddl [in, optional]
 
@@ -275,10 +264,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-
 
 Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -348,14 +334,8 @@ The task is registered, but not all specified triggers will start the task.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type.  To set the task logon type to be interactive, specify <b>TASK_LOGON_INTERACTIVE_TOKEN</b> or  <b>TASK_LOGON_GROUP</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_logontype">LogonType</a> property of the task principal, or in the <i>logonType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">ITaskFolder::RegisterTask</a> or <b>ITaskFolder::RegisterTaskDefinition</b>. 
 
@@ -370,13 +350,7 @@ The <b>ITaskFolder::RegisterTaskDefinition</b> method returns error  80070534 wh
 
 If a task defines a network that does not exist in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_networksettings">NetworkSettings</a> settings of the task, the <b>ITaskFolder::RegisterTaskDefinition</b>  method will return error 0x8000ffff when the task is registered.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
 
@@ -387,7 +361,4 @@ If a task defines a network that does not exist in the <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

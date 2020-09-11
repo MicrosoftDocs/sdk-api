@@ -6,10 +6,6 @@ helpviewer_keywords: ["DWRITE_FONT_AXIS_RANGE","DWRITE_FONT_AXIS_RANGE structure
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_RANGE, DWRITE_FONT_AXIS_RANGE structure [Direct Write], directwrite.dwrite_font_axis_range, dwrite_3/DWRITE_FONT_AXIS_RANGE
-f1_keywords:
-- dwrite_3/DWRITE_FONT_AXIS_RANGE
-dev_langs:
-- c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_AXIS_RANGE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_AXIS_RANGE
+ - dwrite_3/DWRITE_FONT_AXIS_RANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_AXIS_RANGE
 ---
 
 ## -description
@@ -80,3 +81,4 @@ The meaning and range of axis values depends on the semantics of the particular 
 [DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
 
 [DWRITE_FONT_AXIS_VALUE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value)
+

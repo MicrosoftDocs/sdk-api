@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 3deb3467-b6f2-49f9-ba24-fd2cca80f247
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder2, IPersistFolder2 interface [Windows Shell], IPersistFolder2 interface [Windows Shell],described, _win32_IPersistFolder2, shell.IPersistFolder2, shobjidl_core/IPersistFolder2
-f1_keywords:
-- shobjidl_core/IPersistFolder2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IPersistFolder2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistFolder2
+ - shobjidl_core/IPersistFolder2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IPersistFolder2
 ---
 
 # IPersistFolder2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that obtain information from Shell folder objects.
-
 
 ## -inheritance
 
@@ -77,17 +76,12 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder">IPersistFolder</a> interfaces, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 When implementing a Shell namespace extension, specifically the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface, you need to implement this interface so that the Shell folder object's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> can be retrieved.
-
-
 

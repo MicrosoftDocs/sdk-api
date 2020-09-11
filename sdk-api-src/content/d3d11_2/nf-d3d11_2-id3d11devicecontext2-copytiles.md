@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: C336B0C7-DB99-466C-B689-5D6634EE0B36
 ms.date: 12/05/2018
 ms.keywords: CopyTiles, CopyTiles method [Direct3D 11], CopyTiles method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],CopyTiles method, ID3D11DeviceContext2.CopyTiles, ID3D11DeviceContext2::CopyTiles, d3d11_2/ID3D11DeviceContext2::CopyTiles, direct3d11.id3d11devicecontext2_copytiles
-f1_keywords:
-- d3d11_2/ID3D11DeviceContext2.CopyTiles
-dev_langs:
-- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext2.CopyTiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext2::CopyTiles
+ - d3d11_2/ID3D11DeviceContext2::CopyTiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext2.CopyTiles
 ---
 
 # ID3D11DeviceContext2::CopyTiles
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies tiles from buffer to tiled resource or vice versa. 
-
+Copies tiles from buffer to tiled resource or vice versa.
 
 ## -parameters
-
-
-
 
 ### -param pTiledResource [in]
 
@@ -65,50 +61,37 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-
 
 A pointer to a tiled resource.
 
-
 ### -param pTileRegionStartCoordinate [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate">D3D11_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the tiled resource.
-          
-
 
 ### -param pTileRegionSize [in]
 
 Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tile_region_size">D3D11_TILE_REGION_SIZE</a>*</b>
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ns-d3d11_2-d3d11_tile_region_size">D3D11_TILE_REGION_SIZE</a> structure that describes the size of the tiled region.
-          
-
 
 ### -param pBuffer [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a> that represents a default, dynamic, or staging buffer.
-          
-
 
 ### -param BufferStartOffsetInBytes [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The offset in bytes into the buffer at <i>pBuffer</i> to start the operation.
-          
-
 
 ### -param Flags [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/ne-d3d11_2-d3d11_tile_copy_flag">D3D11_TILE_COPY_FLAG</a>-typed values that are combined by using a bitwise OR operation and that identifies how to copy tiles.
-          
-
 
 ## -remarks
-
-
 
 <b>CopyTiles</b> drops write operations to unmapped areas and handles read operations from unmapped areas (except on <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_tiled_resources_tier">Tier_1</a> tiled resources, where reading and writing unmapped areas is invalid).
       
@@ -122,18 +105,8 @@ The memory layout of the tiles in the non-tiled buffer resource side of the copy
       
 
 For more info about tiled resources, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources">Tiled resources</a>.
-      
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
- 
-
- 
 

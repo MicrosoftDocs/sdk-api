@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: C76D087C-7039-4C1F-93D0-0CBAC925EE43
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText, IMFTimedText interface [Media Foundation], IMFTimedText interface [Media Foundation],described, mf.imftimedtext, mfmediaengine/IMFTimedText
-f1_keywords:
-- mfmediaengine/IMFTimedText
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedText
+ - mfmediaengine/IMFTimedText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedText
 ---
 
 # IMFTimedText interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A timed-text object represents a component of timed text.
-
 
 ## -inheritance
 
@@ -185,16 +184,9 @@ Enables or disables inband mode.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
 

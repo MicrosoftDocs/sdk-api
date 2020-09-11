@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],RegisterObjectParam method, IBindCtx.RegisterObjectParam, IBindCtx::RegisterObjectParam, RegisterObjectParam, RegisterObjectParam method [COM], RegisterObjectParam method [COM],IBindCtx interface, _com_ibindctx_registerobjectparam, com.ibindctx_registerobjectparam, objidl/IBindCtx::RegisterObjectParam
-f1_keywords:
-- objidl/IBindCtx.RegisterObjectParam
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IBindCtx.RegisterObjectParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBindCtx::RegisterObjectParam
+ - objidl/IBindCtx::RegisterObjectParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IBindCtx.RegisterObjectParam
 ---
 
 # IBindCtx::RegisterObjectParam
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates an object with a string key in the bind context's string-keyed table of pointers.
 
-
 ## -parameters
-
-
-
 
 ### -param pszKey [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">bind context string key</a> under which the object is being registered. Key string comparison is case-sensitive.
-
 
 ### -param punk [in]
 
@@ -69,19 +64,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/
 
 The method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the pointer.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 A bind context maintains a table of interface pointers, each associated with a string key. This enables communication between a moniker implementation and the caller that initiated the binding operation. One party can store an interface pointer under a string known to both parties so that the other party can later retrieve it from the bind context.
 
@@ -111,15 +98,7 @@ When you register an object using this method, the object is not released until 
 <li>The bind context is released. All registered objects are released when the bind context is released.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
- 
-
- 
 

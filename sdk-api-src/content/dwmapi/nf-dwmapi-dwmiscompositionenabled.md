@@ -8,10 +8,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmiscompositionenabled.htm
 ms.date: 12/05/2018
 ms.keywords: DwmIsCompositionEnabled, DwmIsCompositionEnabled function [Desktop Window Manager], _udwm_dwmiscompositionenabled, _udwm_dwmiscompositionenabled_cpp, dwm.dwmiscompositionenabled, dwmapi/DwmIsCompositionEnabled, winui._udwm_dwmiscompositionenabled
-f1_keywords:
-- dwmapi/DwmIsCompositionEnabled
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- API-MS-Win-dwmapi-l1-1-0.dll
-- Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
-- ext-ms-win-dwmapi-ext-l1-1-1.dll
-- ext-ms-win-dwmapi-ext-l1-1-2.dll
-api_name:
-- DwmIsCompositionEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmIsCompositionEnabled
+ - dwmapi/DwmIsCompositionEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - API-MS-Win-dwmapi-l1-1-0.dll
+ - Ext-Ms-Win-DwmAPI-Ext-L1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+api_name:
+ - DwmIsCompositionEnabled
 ---
 
 # DwmIsCompositionEnabled function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains a value that indicates whether Desktop Window Manager (DWM) composition is enabled. Applications on machines running Windows 7 or earlier can listen for composition state changes by handling the <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> notification.
 
-
 ## -parameters
-
-
-
 
 ### -param pfEnabled [out]
 
@@ -72,12 +68,7 @@ A pointer to a value that, when this function returns successfully, receives <b>
 <div> </div>
 For more information, see <a href="https://msdn.microsoft.com/library/windows/desktop/hh404233">Supporting High Contrast Themes</a>.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

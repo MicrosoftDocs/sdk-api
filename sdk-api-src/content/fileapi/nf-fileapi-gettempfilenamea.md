@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
 ms.date: 12/05/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
-f1_keywords:
-- fileapi/GetTempFileName
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetTempFileName
-- GetTempFileNameA
-- GetTempFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTempFileNameA
+ - fileapi/GetTempFileNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetTempFileName
+ - GetTempFileNameA
+ - GetTempFileNameW
 ---
 
 # GetTempFileNameA function
@@ -58,15 +59,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a name for a temporary file. If a unique file name is generated, an empty file is created and 
     the handle to it is released; otherwise, only a file name is generated.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName [in]
 
@@ -76,12 +72,10 @@ The directory path for the file name. Applications typically specify a period (.
        <b>GetTempFileName</b> will fail. If this parameter is 
        <b>NULL</b>, the function fails.
 
-
 ### -param lpPrefixString [in]
 
 The null-terminated prefix string. The function uses up to the first three characters of this string as the 
        prefix of the file name. This string must consist of characters in the OEM-defined character set.
-
 
 ### -param uUnique [in]
 
@@ -93,16 +87,12 @@ If <i>uUnique</i> is zero, the function attempts to form a unique file name usin
        and closes it.  Note that the function does not attempt  to verify the uniqueness of the file name when 
        <i>uUnique</i> is nonzero.
 
-
 ### -param lpTempFileName [out]
 
 A pointer to the buffer that receives the temporary file name. This buffer should be 
        <b>MAX_PATH</b> characters to accommodate the path plus the terminating null character.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the unique numeric value used in the temporary file 
        name. If the <i>uUnique</i> parameter is nonzero, the return value specifies that same 
@@ -134,14 +124,8 @@ The length of the string pointed to by the <i>lpPathName</i> parameter is more t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetTempFileName</b> function creates a temporary 
     file name of the following form:
@@ -268,9 +252,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
@@ -288,7 +269,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
- 
-
- 
 

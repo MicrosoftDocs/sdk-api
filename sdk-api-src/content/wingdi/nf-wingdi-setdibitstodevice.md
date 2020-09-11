@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
-f1_keywords:
-- wingdi/SetDIBitsToDevice
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- SetDIBitsToDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDIBitsToDevice
+ - wingdi/SetDIBitsToDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - SetDIBitsToDevice
 ---
 
 # SetDIBitsToDevice function
@@ -53,69 +54,53 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetDIBitsToDevice</b> function sets the pixels in the specified rectangle on the device that is associated with the destination device context using color data from a DIB, JPEG, or PNG image.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param xDest [in]
 
 The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
-
 
 ### -param yDest [in]
 
 The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 
-
 ### -param w [in]
 
 The width, in logical units, of the image.
-
 
 ### -param h [in]
 
 The height, in logical units, of the image.
 
-
 ### -param xSrc [in]
 
 The x-coordinate, in logical units, of the lower-left corner of the image.
-
 
 ### -param ySrc [in]
 
 The y-coordinate, in logical units, of the lower-left corner of the image.
 
-
 ### -param StartScan [in]
 
 The starting scan line in the image.
-
 
 ### -param cLines [in]
 
 The number of DIB scan lines contained in the array pointed to by the <i>lpvBits</i> parameter.
 
-
 ### -param lpvBits [in]
 
 A pointer to the color data stored as an array of bytes. For more information, see the following Remarks section.
 
-
 ### -param lpbmi [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
-
 
 ### -param ColorUse [in]
 
@@ -149,12 +134,8 @@ The color table contains literal RGB values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of scan lines set.
 
@@ -162,12 +143,7 @@ If zero scan lines are set (such as when <i>dwHeight</i> is 0) or the function f
 
 If the driver cannot support the JPEG or PNG file image passed to <b>SetDIBitsToDevice</b>, the function will fail and return GDI_ERROR. If failure does occur, the application must fall back on its own JPEG or PNG support to decompress the image into a bitmap, and then pass the bitmap to <b>SetDIBitsToDevice</b>.
 
-
-
-
 ## -remarks
-
-
 
 Optimal bitmap drawing speed is obtained when the bitmap bits are indexes into the system palette.
 
@@ -194,12 +170,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/test
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -222,7 +193,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/test
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
- 
-
- 
 

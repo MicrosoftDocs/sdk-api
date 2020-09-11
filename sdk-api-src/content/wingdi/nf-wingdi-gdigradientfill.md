@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c88c1137-5690-4139-9d10-90d036e8f31c
 ms.date: 12/05/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GdiGradientFill, GdiGradientFill function [Windows GDI], gdi.gdigradientfill, wingdi/GdiGradientFill
-f1_keywords:
-- wingdi/GdiGradientFill
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- GdiGradientFill
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GdiGradientFill
+ - wingdi/GdiGradientFill
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - GdiGradientFill
 ---
 
 # GdiGradientFill function
@@ -52,39 +53,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GdiGradientFill</b> function fills rectangle and triangle structures.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the destination device context.
 
-
 ### -param pVertex [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures that each define a triangle vertex.
-
 
 ### -param nVertex [in]
 
 The number of vertices in <i>pVertex</i>.
 
-
 ### -param pMesh [in]
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures in triangle mode, or an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures in rectangle mode.
 
-
 ### -param nCount [in]
 
 The number of elements (triangles or rectangles) in <i>pMesh</i>.
-
 
 ### -param ulMode [in]
 
@@ -126,23 +117,14 @@ In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/ap
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This function is the same as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>.</div>
 <div> </div>
@@ -163,13 +145,7 @@ Note that <b>GdiGradientFill</b> does not use the Alpha member of the <a href="h
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/smooth-shading">Smooth Shading</a>, <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-triangle">Drawing a Shaded Triangle</a>, and <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-rectangle">Drawing a Shaded Rectangle</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
@@ -192,7 +168,4 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/gd
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
- 
-
- 
 

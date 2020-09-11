@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: cc9a8bfd-14c0-459c-a911-325b73323c08
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Connect method, ITBasicCallControl.Connect, ITBasicCallControl::Connect, _tapi3_itbasiccallcontrol_connect, tapi3.itbasiccallcontrol_connect, tapi3if/ITBasicCallControl::Connect
-f1_keywords:
-- tapi3if/ITBasicCallControl.Connect
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::Connect
+ - tapi3if/ITBasicCallControl::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.Connect
 ---
 
 # ITBasicCallControl::Connect
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Connect</b> method attempts to complete the connection of an outgoing call.
 
-
 ## -parameters
-
-
-
 
 ### -param fSync [in]
 
 Boolean indicating whether connection is to be performed synchronously (VARIANT_TRUE) or asynchronously (VARIANT_FALSE).
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,14 +114,8 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the call is asynchronous, the application will receive information about the call's progress through the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a> outgoing interface. The application must register the outgoing interface before calling 
@@ -137,13 +124,7 @@ If the call is asynchronous, the application will receive information about the 
 
 If the call is synchronous, this method will not return until the call is in the connected state or fails.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
@@ -158,7 +139,4 @@ If the call is synchronous, this method will not return until the call is in the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
 ms.date: 12/05/2018
 ms.keywords: SendMessageCallback, SendMessageCallback function [Windows and Messages], SendMessageCallbackA, SendMessageCallbackW, _win32_SendMessageCallback, _win32_sendmessagecallback_cpp, winmsg.sendmessagecallback, winui._win32_sendmessagecallback, winuser/SendMessageCallback, winuser/SendMessageCallbackA, winuser/SendMessageCallbackW
-f1_keywords:
-- winuser/SendMessageCallback
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-api_name:
-- SendMessageCallback
-- SendMessageCallbackA
-- SendMessageCallbackW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SendMessageCallbackA
+ - winuser/SendMessageCallbackA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+api_name:
+ - SendMessageCallback
+ - SendMessageCallbackA
+ - SendMessageCallbackW
 ---
 
 # SendMessageCallbackA function
@@ -54,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends the specified message to a window or windows. It calls the window procedure for the specified window and returns immediately if the window belongs to another thread. After the window procedure processes the message, the system calls the specified callback function, passing the result of the message processing and an application-defined value to the callback function.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window whose window procedure will receive the message. If this parameter is <b>HWND_BROADCAST</b> ((HWND)0xffff), the message is sent to all top-level windows in the system, including disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows.
-
 
 ### -param Msg [in]
 
@@ -78,20 +73,17 @@ The message to be sent.
 
 For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
-
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
 Additional message-specific information.
 
-
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
 Additional message-specific information.
-
 
 ### -param lpResultCallBack [in]
 
@@ -103,30 +95,21 @@ A pointer to a callback function that the system calls after the window procedur
 
 If <i>hWnd</i> is <b>HWND_BROADCAST</b> ((HWND)0xffff), the system calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-sendasyncproc">SendAsyncProc</a> callback function once for each top-level window.
 
-
 ### -param dwData [in]
 
 Type: <b>ULONG_PTR</b>
 
 An application-defined value to be sent to the callback function pointed to by the <i>lpCallBack</i> parameter.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If the target window belongs to the same thread as the caller, then the window procedure is called synchronously, and the callback function is called immediately after the window procedure returns. If the target window belongs to a different thread from the caller, then the callback function is called only when the thread that called <b>SendMessageCallback</b> also calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>.
 
@@ -144,9 +127,6 @@ The system only does marshalling for system messages (those in the range 0 to (<
 > The winuser.h header defines SendMessageCallback as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -177,7 +157,4 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
- 
-
- 
 

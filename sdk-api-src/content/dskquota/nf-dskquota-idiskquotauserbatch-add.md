@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Files], Add method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],Add method, IDiskQuotaUserBatch.Add, IDiskQuotaUserBatch::Add, _win32_idiskquotauserbatch_add, base.idiskquotauserbatch_add, dskquota/IDiskQuotaUserBatch::Add, fs.idiskquotauserbatch_add
-f1_keywords:
-- dskquota/IDiskQuotaUserBatch.Add
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUserBatch.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUserBatch::Add
+ - dskquota/IDiskQuotaUserBatch::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUserBatch.Add
 ---
 
 # IDiskQuotaUserBatch::Add
 
 
 ## -description
-
 
 Adds an 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> pointer to the batch list. This method calls <b>AddRef</b> on the <i>pUser</i> interface pointer. <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> is automatically called on each contained 
@@ -59,21 +59,14 @@ When setting values on a quota user object in preparation for batch processing, 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold">IDiskQuotaUser::SetQuotaThreshold</a> methods. This stores the values in memory without writing to disk. To write the changes to disk, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauserbatch-flushtodisk">IDiskQuotaUserBatch::FlushToDisk</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param pUser [in]
 
 A pointer to the quota user object's 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface.
 
-
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -127,15 +120,8 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
@@ -146,7 +132,4 @@ An unexpected exception occurred.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
- 
-
- 
 

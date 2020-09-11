@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: D26C9A87-8C29-4029-BF8A-E0566DC2DF2A
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings, IApplicationDesignModeSettings interface [Windows Shell], IApplicationDesignModeSettings interface [Windows Shell],described, shell.IApplicationDesignModeSettings, shobjidl_core/IApplicationDesignModeSettings
-f1_keywords:
-- shobjidl_core/IApplicationDesignModeSettings
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Twinapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Twinapi.dll
-api_name:
-- IApplicationDesignModeSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationDesignModeSettings
+ - shobjidl_core/IApplicationDesignModeSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Twinapi.dll
+api_name:
+ - IApplicationDesignModeSettings
 ---
 
 # IApplicationDesignModeSettings interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables development tool applications to dynamically spoof system and user states, such as native display resolution, device scale factor, and application view state, for the purpose of testing Windows Store apps running in design mode for a wide range of form factors without the need for the actual hardware. Also enables testing of changes in normally user-controlled state to test Windows Store apps under a variety of scenarios.
-
 
 ## -inheritance
 
@@ -122,12 +121,9 @@ Sends a spoofed edge gesture event to the proxy core window on the caller's thre
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface is acquired by cocreating CLSID_ApplicationDesignModeSettings.
 
@@ -216,7 +212,4 @@ if (SUCCEEDED(hr))
     pDesignModeSettings->Release();
 }
 ```
-
-
-
 

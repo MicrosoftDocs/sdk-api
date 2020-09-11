@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontFace5","IDWriteFontFace5 interface [Direct Wri
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5, IDWriteFontFace5 interface [Direct Write], IDWriteFontFace5 interface [Direct Write],described, directwrite.idwritefontface5, dwrite_3/IDWriteFontFace5
-f1_keywords:
-- IDWriteFontFace5
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -25,16 +21,21 @@ req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontFace5
+ - dwrite_3/IDWriteFontFace5
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontFace5
+ - IDWriteFontFace5
 ---
 
 ## -description
@@ -46,3 +47,4 @@ This interface extends [IDWriteFontFace4](/windows/win32/api/dwrite_3/nn-dwrite_
 ## -see-also
 
 [IDWriteFontFace4](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4)
+

@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
-f1_keywords:
-- winnetwk/WNetAddConnection2
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetAddConnection2
-- WNetAddConnection2A
-- WNetAddConnection2W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetAddConnection2W
+ - winnetwk/WNetAddConnection2W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetAddConnection2
+ - WNetAddConnection2A
+ - WNetAddConnection2W
 ---
 
 # WNetAddConnection2W function
 
 
 ## -description
-
 
 The
 				<b>WNetAddConnection2</b> function makes a connection to a network resource and can redirect a local device to the network resource.
@@ -60,11 +60,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> function. If you can pass a handle to a window that the provider of network resources can use as an owner window for dialog boxes, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function instead.
 
-
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
@@ -149,7 +145,6 @@ The
 <b>WNetAddConnection2</b> function ignores the other members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
 
-
 ### -param lpPassword [in]
 
 A pointer to a constant <b>null</b>-terminated string that specifies a password to be used in making the network connection.
@@ -161,7 +156,6 @@ If <i>lpPassword</i> points to an empty string, the function does not use a pass
 If the connection fails because of an invalid password and the CONNECT_INTERACTIVE value is set in the <i>dwFlags</i> parameter, the function displays a dialog box asking the user to type the password.
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
-
 
 ### -param lpUserName [in]
 
@@ -178,7 +172,6 @@ The user-name string represents a
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
-
 
 ### -param dwFlags [in]
 
@@ -329,12 +322,8 @@ If this flag is set, and the operating system prompts for a credential, the cred
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -570,14 +559,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On Windows Server 2003 and Windows XP, the WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID (a  
 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
@@ -699,9 +682,6 @@ For other code samples that illustrates how to make a connection to a network re
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
@@ -725,7 +705,4 @@ For other code samples that illustrates how to make a connection to a network re
 
 <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
 

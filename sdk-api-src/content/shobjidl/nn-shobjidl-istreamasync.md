@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2d436312-3d61-4511-9342-711b2f7d4717
 ms.date: 12/05/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], IStreamAsync interface [Windows Shell],described, _shell_IStreamAsync, shell.IStreamAsync, shobjidl/IStreamAsync
-f1_keywords:
-- shobjidl/IStreamAsync
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IStreamAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamAsync
+ - shobjidl/IStreamAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IStreamAsync
 ---
 
 # IStreamAsync interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods to manage input/outpout (I/O) to an asynchronous stream.
-        
-
 
 ## -inheritance
 
@@ -105,5 +103,5 @@ Writes information to a stream asynchronously. For example, the Shell implements
 
 </td>
 </tr>
-</table> 
+</table>
 

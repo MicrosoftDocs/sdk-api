@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 8981042a-f11d-458d-be27-3b1749f9e995
 ms.date: 12/05/2018
 ms.keywords: DRM_VAL16, DRM_VAL16 structure [windows Media Format], structure [windows Media Format], wmformat.drm_val16, wmsdkidl/DRM_VAL16
-f1_keywords:
-- wmsdkidl/DRM_VAL16
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- DRM_VAL16
 targetos: Windows
 req.typenames: DRM_VAL16
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DRM_VAL16
+ - wmsdkidl/_DRM_VAL16
+ - DRM_VAL16
+ - wmsdkidl/DRM_VAL16
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - DRM_VAL16
 ---
 
 # DRM_VAL16 structure
@@ -49,39 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DRM_VAL16</b> structure is used by some DRM-related methods for passing 128-bit device identification values.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field val
 
 Array of <b>BYTE</b> values that contains a 128-bit value. Data is stored with the high-order byte in the lowest address (big-endian).
 
-
 ## -remarks
-
-
 
 This structure is used to store the device serial number for network devices, such as set-top boxes.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
 

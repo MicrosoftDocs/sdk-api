@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 79f4949d-e5ef-4d2e-ac11-0e30b6c566fd
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceTypeControl, ClusterResourceTypeControl function [Failover Cluster], _wolf_clusterresourcetypecontrol, clusapi/ClusterResourceTypeControl, mscs.clusterresourcetypecontrol
-f1_keywords:
-- clusapi/ClusterResourceTypeControl
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- ClusterResourceTypeControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterResourceTypeControl
+ - clusapi/ClusterResourceTypeControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - ClusterResourceTypeControl
 ---
 
 # ClusterResourceTypeControl function
@@ -50,33 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates an operation affecting a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>. The 
     operation performed depends on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to the cluster containing the resource type identified in 
        <i>lpszResourceTypeName</i>.
 
-
 ### -param lpszResourceTypeName [in]
 
 Pointer to a <b>NULL</b>-terminated Unicode string containing the name of the resource 
        type to be affected.
 
-
 ### -param hHostNode [in, optional]
 
 Handle to the node hosting the affected resource type.
-
 
 ### -param dwControlCode [in]
 
@@ -165,23 +158,19 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/res
 Pointer to the input buffer with information needed for the operation, or <b>NULL</b> if 
        no information is needed.
 
-
 ### -param nInBufferSize [in]
 
 Number of bytes in the buffer pointed to by <i>lpInBuffer</i>.
-
 
 ### -param lpOutBuffer [out, optional]
 
 Pointer to the output buffer with information resulting from the operation, or 
       <b>NULL</b> if nothing will be returned.
 
-
 ### -param nOutBufferSize [in]
 
 Number of bytes in the output buffer pointed to by <i>lpOutBuffer</i>, or zero if the 
        caller does not know how much data will be returned.
-
 
 ### -param lpBytesReturned [out, optional]
 
@@ -191,10 +180,7 @@ Pointer to the number of bytes in the buffer pointed to by <i>lpOutBuffer</i> th
        <b>ClusterResourceTypeControl</b> does not need 
        to pass back the number of bytes in the output buffer.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -246,14 +232,8 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When <b>ClusterResourceTypeControl</b> returns 
      <b>ERROR_MORE_DATA</b>, set <i>nOutBufferSize</i> to the number of bytes 
@@ -269,20 +249,11 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
      control codes and control code functions, see 
      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>
- 
-
- 
 

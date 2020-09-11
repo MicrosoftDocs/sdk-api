@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d890f91f-bb45-463b-b7c0-56acc9367571
 ms.date: 12/05/2018
 ms.keywords: CryptGetMessageCertificates, CryptGetMessageCertificates function [Security], _crypto2_cryptgetmessagecertificates, security.cryptgetmessagecertificates, wincrypt/CryptGetMessageCertificates
-f1_keywords:
-- wincrypt/CryptGetMessageCertificates
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptGetMessageCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetMessageCertificates
+ - wincrypt/CryptGetMessageCertificates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptGetMessageCertificates
 ---
 
 # CryptGetMessageCertificates function
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptGetMessageCertificates</b> function returns the handle of an open <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> containing the message's certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRLs</a>. This function calls 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> using provider type CERT_STORE_PROV_PKCS7 as its <i>lpszStoreProvider</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMsgAndCertEncodingType [in]
 
@@ -82,29 +78,21 @@ This parameter is not used and should be set to <b>NULL</b>.
 
 This parameter's data type is <b>HCRYPTPROV</b>.
 
-
-
-
 ### -param dwFlags [in]
 
 Flags passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>.
-
 
 ### -param pbSignedBlob [in]
 
 A pointer to a buffered 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the signed message.
 
-
 ### -param cbSignedBlob [in]
 
 The size, in bytes, of the signed message.
 
-
 ## -returns
-
-
 
 Returns the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> containing the message's certificates and CRLs. For an error, <b>NULL</b> is returned.
 
@@ -133,12 +121,7 @@ Invalid message and certificate encoding types. Currently only PKCS_7_ASN_ENCODI
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Use 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine the reason for any errors.
@@ -150,19 +133,11 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: d8a7c433-7e6a-45cc-914f-a15a3688c7aa
 ms.date: 12/05/2018
 ms.keywords: ??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation],described, _hmm_provider, provider/Provider, wmi.provider
-f1_keywords:
-- provider/Provider
-dev_langs:
-- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-- sqlmgmprovider.dll
-api_name:
-- Provider
-- ??1Provider@@UAE@XZ
-- ??1Provider@@UEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Provider
+ - provider/Provider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+ - sqlmgmprovider.dll
+api_name:
+ - Provider
+ - ??1Provider@@UAE@XZ
+ - ??1Provider@@UEAA@XZ
 ---
 
 # Provider class
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <b>Provider</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -262,14 +262,9 @@ Determines whether a set of flags is valid for a query operation.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for this class is <b>Provider::~Provider</b>.
-
-
 

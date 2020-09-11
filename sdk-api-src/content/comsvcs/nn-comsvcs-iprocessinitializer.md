@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 7c7edeb7-5bc1-4ede-8fe4-78fc7c6bdd30
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer, IProcessInitializer interface [COM+], IProcessInitializer interface [COM+],described, _cos_IProcessInitializer, comsvcs/IProcessInitializer, cos.iprocessinitializer
-f1_keywords:
-- comsvcs/IProcessInitializer
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IProcessInitializer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProcessInitializer
+ - comsvcs/IProcessInitializer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IProcessInitializer
 ---
 
 # IProcessInitializer interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods that can be called whenever Dllhost.exe starts up or shuts down.
-
-
 
 ## -inheritance
 
@@ -88,5 +86,5 @@ Called when Dllhost.exe starts.
 
 </td>
 </tr>
-</table> 
+</table>
 

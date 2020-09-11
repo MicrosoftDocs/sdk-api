@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7d7940c3-b562-455f-9a21-6d5fb5953030
 ms.date: 12/05/2018
 ms.keywords: EnumServicesStatusEx, EnumServicesStatusEx function, EnumServicesStatusExA, EnumServicesStatusExW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatusex, base.enumservicesstatusex, winsvc/EnumServicesStatusEx, winsvc/EnumServicesStatusExA, winsvc/EnumServicesStatusExW
-f1_keywords:
-- winsvc/EnumServicesStatusEx
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-Core-l1-1-1.dll
-- AdvApi32Legacy.dll
-- API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
-- API-Ms-Win-Service-Core-L1-1-2.dll
-- API-MS-Win-Service-Core-Ansi-L1-1-1.dll
-api_name:
-- EnumServicesStatusEx
-- EnumServicesStatusExA
-- EnumServicesStatusExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumServicesStatusExA
+ - winsvc/EnumServicesStatusExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-Core-l1-1-1.dll
+ - AdvApi32Legacy.dll
+ - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
+ - API-Ms-Win-Service-Core-L1-1-2.dll
+ - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+api_name:
+ - EnumServicesStatusEx
+ - EnumServicesStatusExA
+ - EnumServicesStatusExW
 ---
 
 # EnumServicesStatusExA function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates services in the specified service control manager database. The name and status of each service are provided, along with additional data based on the specified information level.
 
-
 ## -parameters
-
-
-
 
 ### -param hSCManager [in]
 
@@ -73,14 +69,12 @@ A handle to the service control manager database. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function, and must have the <b>SC_MANAGER_ENUMERATE_SERVICE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
-
 ### -param InfoLevel [in]
 
 The service attributes that are to be returned. Use <b>SC_ENUM_PROCESS_INFO</b> to retrieve the name and service status information for each service in the database. The <i>lpServices</i> parameter is a pointer to a buffer that receives an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a> structures. The buffer must be large enough to hold the structures as well as the strings to which their members point.
 
 Currently, no other information levels are defined.
-
 
 ### -param dwServiceType [in]
 
@@ -158,8 +152,6 @@ Services that share a process with one or more other services. For more informat
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwServiceState [in]
 
@@ -204,8 +196,6 @@ Combines the <b>SERVICE_ACTIVE</b> and <b>SERVICE_INACTIVE</b> states.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpServices [out, optional]
 
@@ -215,21 +205,17 @@ The maximum size of this array is 256K bytes. To determine the required size, sp
 
 <b>Windows Server 2003 and Windows XP:  </b>The maximum size of this array is 64K bytes. This limit was increased as of Windows Server 2003 with SP1 and Windows XP with SP2.
 
-
 ### -param cbBufSize [in]
 
 The size of the buffer pointed to by the <i>lpServices</i> parameter, in bytes.
-
 
 ### -param pcbBytesNeeded [out]
 
 A pointer to a variable that receives the number of bytes needed to return the remaining service entries, if the buffer is too small.
 
-
 ### -param lpServicesReturned [out]
 
 A pointer to a variable that receives the number of service entries returned.
-
 
 ### -param lpResumeHandle [in, out, optional]
 
@@ -238,15 +224,11 @@ A pointer to a variable that, on input, specifies the starting point of enumerat
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_MORE_DATA</b>, this value indicates the next service entry to be read when the 
 <b>EnumServicesStatusEx</b> function is called to retrieve the additional data.
 
-
 ### -param pszGroupName [in, optional]
 
 The load-order group name. If this parameter is a string, the only services enumerated are those that belong to the group that has the name specified by the string. If this parameter is an empty string, only services that do not belong to any group are enumerated. If this parameter is <b>NULL</b>, group membership is ignored and all services are enumerated.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -325,14 +307,8 @@ The system is shutting down; this function cannot be called.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the caller does not have the <b>SERVICE_QUERY_STATUS</b> access right to a service, the service is silently omitted from the list of services returned to the client.
 
@@ -345,9 +321,6 @@ If the caller does not have the <b>SERVICE_QUERY_STATUS</b> access right to a se
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a>
 
 
@@ -357,7 +330,4 @@ If the caller does not have the <b>SERVICE_QUERY_STATUS</b> access right to a se
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
- 
-
- 
 

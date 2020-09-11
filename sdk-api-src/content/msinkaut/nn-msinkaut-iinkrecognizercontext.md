@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC], IInkRecognizerContext interface [Tablet PC],described, msinkaut/IInkRecognizerContext, tablet.iinkrecognizercontext
-f1_keywords:
-- msinkaut/IInkRecognizerContext
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msinkaut.h
-api_name:
-- IInkRecognizerContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext
+ - msinkaut/IInkRecognizerContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msinkaut.h
+api_name:
+ - IInkRecognizerContext
 ---
 
 # IInkRecognizerContext interface
+
 
 ## -description
 
@@ -310,8 +312,9 @@ Gets or sets the word list that is used in the recognition process to improve th
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [InkRecognizerContext class](/windows/win32/tablet/inkrecognizercontext-class)
+

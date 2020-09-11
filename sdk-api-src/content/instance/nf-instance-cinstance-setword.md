@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: e58b98d9-56c2-4e92-90ee-c9ff4fae9f8f
 ms.date: 12/05/2018
 ms.keywords: ?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance interface [Windows Management Instrumentation],SetWORD method, CInstance.SetWORD, CInstance::SetWORD, SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword
-f1_keywords:
-- instance/CInstance.SetWORD
-dev_langs:
-- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CInstance.SetWORD
-- ?SetWORD@CInstance@@QAE_NPBGG@Z
-- ?SetWORD@CInstance@@QEAA_NPEBGG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CInstance::SetWORD
+ - instance/CInstance::SetWORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CInstance.SetWORD
+ - ?SetWORD@CInstance@@QAE_NPBGG@Z
+ - ?SetWORD@CInstance@@QEAA_NPEBGG@Z
 ---
 
 # CInstance::SetWORD
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -61,27 +61,17 @@ ms.custom: 19H1
 
 The <b>SetWORD</b> method sets a <b>WORD</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param name
 
 Name of the <b>WORD</b> property that is set.
 
-
 ### -param w
 
 Value assigned to the <b>WORD</b> property.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent or non-<b>WORD</b> property. More information is available in the log file, Framework.log.
-
-
 

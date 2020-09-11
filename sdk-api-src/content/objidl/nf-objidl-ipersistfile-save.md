@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: da9581e8-98c7-4592-8ee1-a1bc8232635b
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],Save method, IPersistFile.Save, IPersistFile::Save, Save, Save method [COM], Save method [COM],IPersistFile interface, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
-f1_keywords:
-- objidl/IPersistFile.Save
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IPersistFile.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistFile::Save
+ - objidl/IPersistFile::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IPersistFile.Save
 ---
 
 # IPersistFile::Save
@@ -49,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves a copy of the object to the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFileName [in]
 
 The absolute path of the file to which the object should be saved. If <i>pszFileName</i> is <b>NULL</b>, the object should save its data to the current file, if there is one.
 
-
 ### -param fRemember [in]
 
 Indicates whether the <i>pszFileName</i> parameter is to be used as the current working file. If <b>TRUE</b>, <i>pszFileName</i> becomes the current file and the object should clear its dirty flag after the save. If <b>FALSE</b>, this save operation is a <b>Save A Copy As ...</b> operation. In this case, the current file is unchanged and the object should not clear its dirty flag. If <i>pszFileName</i> is <b>NULL</b>, the implementation should ignore the <i>fRemember</i> flag.
 
-
 ## -returns
-
-
 
 If the object was successfully saved, the return value is S_OK. Otherwise, it is S_FALSE. This method can also return various storage errors.
 
-
-
-
 ## -remarks
-
-
-
 
 This method can be called to save an object to the specified file in one of three ways:
 
@@ -97,16 +83,7 @@ In the <b>Save a Copy As</b> scenario, the implementation does not clear the int
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 OLE does not call <b>IPersistFile::Save</b>. Typically, applications would not call it unless they are saving an object to a file directly, which is generally left to the end-user.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
- 
-
- 
 

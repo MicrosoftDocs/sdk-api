@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 93c1591d-2c95-45cb-8fc5-5726e905f202
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], ITfKeystrokeMgr interface [Text Services Framework],described, _tsf_itfkeystrokemgr_ref, msctf/ITfKeystrokeMgr, tsf.itfkeystrokemgr
-f1_keywords:
-- msctf/ITfKeystrokeMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfKeystrokeMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfKeystrokeMgr
+ - msctf/ITfKeystrokeMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfKeystrokeMgr
 ---
 
 # ITfKeystrokeMgr interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfKeystrokeMgr</b> interface is implemented by the TSF manager and used by applications and text services to interact with the keyboard manager.
-
 
 ## -inheritance
 
@@ -194,5 +193,5 @@ Unregisters a preserved key.
 
 </td>
 </tr>
-</table> 
+</table>
 

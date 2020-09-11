@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 6b9a628d-d0cb-49d1-a667-337b5f7f31ff
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBuilder, ISyncChangeBuilder interface [Windows Sync], ISyncChangeBuilder interface [Windows Sync],described, winsync.isyncchangebuilder, winsync/ISyncChangeBuilder
-f1_keywords:
-- winsync/ISyncChangeBuilder
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBuilder
+ - winsync/ISyncChangeBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBuilder
 ---
 
 # ISyncChangeBuilder interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides additional data for an item change.
-
-
 
 ## -inheritance
 
@@ -79,16 +77,9 @@ Adds change unit metadata to an item change.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

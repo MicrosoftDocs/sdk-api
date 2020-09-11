@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: b8b9084f-f4aa-42b8-8c45-ed075db8ffe4
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],SerializeWithOptions method, ISyncKnowledge2.SerializeWithOptions, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
-f1_keywords:
-- winsync/ISyncKnowledge2.SerializeWithOptions
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge2.SerializeWithOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge2::SerializeWithOptions
+ - winsync/ISyncKnowledge2::SerializeWithOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge2.SerializeWithOptions
 ---
 
 # ISyncKnowledge2::SerializeWithOptions
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serializes the knowledge object data to a byte array based on the specified version and serialization options.
 
-
 ## -parameters
-
-
-
 
 ### -param targetFormatVersion [in]
 
 The serialized knowledge is compatible with this version.
 
-
 ### -param dwFlags [in]
 
 Options that specify additional information about how to serialize the object. Must be zero or a combination of the values specified by the <b>SYNC_SERIALIZE</b> flags (see Remarks). When zero is specified, the replica key map is not included as part of the serialized knowledge data.
-
 
 ### -param pbBuffer [in, out]
 
 The serialized knowledge object data is serialized to this buffer.
 
-
 ### -param pdwSerializedSize [in, out]
 
 Specifies the number of bytes in <i>pBuffer</i>. Returns either the number of bytes that are required to serialize the knowledge data when <i>pBuffer</i> is too small, or the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -134,14 +124,8 @@ The value of <i>targetFormatVersion</i> is higher than the version of the object
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Note</b>  The <b>SYNC_SERIALIZE</b> flags are defined as follows:<code>#define SYNC_SERIALIZE_REPLICA_KEY_MAP                 0x00000001</code>
 
@@ -153,13 +137,7 @@ The value <b>SYNC_SERIALIZE_REPLICA_KEY_MAP</b> indicates that the replica key m
 
 The value of <i>targetFormatVersion</i> determines the format of the serialized knowledge data and refers to the version of <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>. For an overview of what is involved in building synchronization providers using  <a href="https://www.microsoft.com/downloads/details.aspx?familyid=A3EE7BC5-A823-4FB4-B152-9E8CE9D5546F&displaylang=en">Microsoft Sync Framework</a>, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
 
@@ -174,7 +152,4 @@ The value of <i>targetFormatVersion</i> determines the format of the serialized 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>
- 
-
- 
 

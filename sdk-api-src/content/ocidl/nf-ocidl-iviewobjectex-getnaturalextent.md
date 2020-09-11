@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 5759c482-2dea-4b94-956d-9560f72acbd5
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, GetNaturalExtent, GetNaturalExtent method [COM], GetNaturalExtent method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetNaturalExtent method, IViewObjectEx.GetNaturalExtent, IViewObjectEx::GetNaturalExtent, _ole_iviewobjectex_getnaturalextent, com.iviewobjectex_getnaturalextent, ocidl/IViewObjectEx::GetNaturalExtent
-f1_keywords:
-- ocidl/IViewObjectEx.GetNaturalExtent
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IViewObjectEx.GetNaturalExtent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObjectEx::GetNaturalExtent
+ - ocidl/IViewObjectEx::GetNaturalExtent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IViewObjectEx.GetNaturalExtent
 ---
 
 # IViewObjectEx::GetNaturalExtent
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides sizing hints from the container for the object to use as the user resizes it.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAspect [in]
 
@@ -108,37 +104,28 @@ Provide a thumbnail representation of an object so it can be displayed in a brow
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lindex [in]
 
 Indicates the portion of the object that is of interest for the draw operation. Its interpretation varies depending on the value in the <i>dwAspect</i> parameter. See the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a> enumeration for more information.
 
-
 ### -param ptd [in]
 
 Pointer to the target device structure that describes the device for which the object is to be rendered. If <b>NULL</b>, the view should be rendered for the default target device (typically the display). A value other than <b>NULL</b> is interpreted in conjunction with <i>hicTargetDev</i> and <b>hdcDraw</b>. For example, if <b>hdcDraw</b> specifies a printer as the device context, the <i>ptd</i> parameter points to a structure describing that printer device. The data may actually be printed if <i>hicTargetDev</i> is a valid value or it may be displayed in print preview mode if <i>hicTargetDev</i> is <b>NULL</b>.
-
 
 ### -param hicTargetDev [in]
 
 Specifies the information context for the target device indicated by the ptd parameter from which the object can extract device metrics and test the device's capabilities. If <i>ptd</i> is <b>NULL</b>; the object should ignore the value in the <i>hicTargetDev</i> parameter.
 
-
 ### -param pExtentInfo [in]
 
 Pointer to <a href="/windows/win32/api/ocidl/ns-ocidl-dvextentinfo">DVEXTENTINFO</a> structure that specifies the sizing data.
-
 
 ### -param pSizel [out]
 
 Pointer to sizing data returned by the object. The returned sizing data is set to -1 for any dimension that was not adjusted. That is if <b>cx</b> is -1 then the width was not adjusted, if <b>cy</b> is -1 then the height was not adjusted. If E_FAIL is returned indicating no size was adjusted then <i>pSizel</i> may be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -170,14 +157,8 @@ This method was not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 There are two general approaches to sizing a control. The first approach gives the control responsibility for sizing itself; the second approach gives the container responsibility for sizing the control. The first approach is called autosizing. There are two alternatives involved in the second approach: content sizing and integral sizing.
 
@@ -199,12 +180,7 @@ If the object is active, the following occurs:
 <li>The container calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> and specifies the new size.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-requestnewobjectlayout">IOleClientSite::RequestNewObjectLayout</a>
 
@@ -227,7 +203,4 @@ If the object is active, the following occurs:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
- 
-
- 
 

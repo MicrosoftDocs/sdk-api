@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 95b41aa0-44c9-41a2-8132-6aecc4685243
 ms.date: 12/05/2018
 ms.keywords: AddNotification, AddNotification method [File Server Resource Manager], AddNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],AddNotification method, IFsrmFileManagementJob.AddNotification, IFsrmFileManagementJob::AddNotification, fs.ifsrmfilemanagementjob_addnotification, fsrm.ifsrmfilemanagementjob_addnotification, fsrmreports/IFsrmFileManagementJob::AddNotification
-f1_keywords:
-- fsrmreports/IFsrmFileManagementJob.AddNotification
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileManagementJob.AddNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileManagementJob::AddNotification
+ - fsrmreports/IFsrmFileManagementJob::AddNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileManagementJob.AddNotification
 ---
 
 # IFsrmFileManagementJob::AddNotification
 
 
 ## -description
-
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
@@ -58,29 +58,17 @@ ms.custom: 19H1
 Adds a new notification value (period) to the file management job's list of 
     notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param days [in]
 
 A unique notification value to add. The value cannot be less than zero.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 The <i>days</i> parameter specifies the number of days before the file is to expire. If the 
     appropriate conditions set in the job are met, notification will be sent to the user to let them know that the 
@@ -123,13 +111,7 @@ To associate an action with the notification value, call the
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-createnotificationaction">IFsrmFileManagementJob::CreateNotificationAction</a> 
     method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
@@ -148,7 +130,4 @@ To associate an action with the notification value, call the
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotification-createfmjnotification">MSFT_FSRMFMJNotification::CreateFMJNotification</a>
- 
-
- 
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device6 interface","SetBackgroundProcessingMode met
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device6 interface,SetBackgroundProcessingMode method, ID3D12Device6.SetBackgroundProcessingMode, ID3D12Device6::SetBackgroundProcessingMode, SetBackgroundProcessingMode, SetBackgroundProcessingMode method, SetBackgroundProcessingMode method,ID3D12Device6 interface, direct3d12.id3d12device6_setbackgroundprocessingmode, d3d12/ID3D12Device6::SetBackgroundProcessingMode
-f1_keywords:
-- d3d12/ID3D12Device6.SetBackgroundProcessingMode
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device6::SetBackgroundProcessingMode
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device6::SetBackgroundProcessingMode
+ - d3d12/ID3D12Device6::SetBackgroundProcessingMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device6::SetBackgroundProcessingMode
 ---
 
 ## -description
@@ -102,3 +103,4 @@ SetBackgroundProcessingMode(
 [PIX](https://devblogs.microsoft.com/pix/) automatically uses **SetBackgroundProcessingMode**&mdash;first to prime the system,and then to prevent any further changes from taking place in the middle of its analysis. PIX waits on an event (to make sure all background shader recompiles have finished) before it starts taking measurements.
 
 ## -see-also
+

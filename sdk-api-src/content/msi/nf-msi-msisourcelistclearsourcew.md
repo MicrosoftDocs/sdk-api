@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 7d37cdd2-ecdd-4d27-b5b1-87bcffc5bf79
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearSource, MsiSourceListClearSource function, MsiSourceListClearSourceA, MsiSourceListClearSourceW, NULL, User SID, msi/MsiSourceListClearSource, msi/MsiSourceListClearSourceA, msi/MsiSourceListClearSourceW, setup.msisourcelistclearsource
-f1_keywords:
-- msi/MsiSourceListClearSource
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiSourceListClearSource
-- MsiSourceListClearSourceA
-- MsiSourceListClearSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListClearSourceW
+ - msi/MsiSourceListClearSourceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiSourceListClearSource
+ - MsiSourceListClearSourceA
+ - MsiSourceListClearSourceW
 ---
 
 # MsiSourceListClearSourceW function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSourceListClearSource</b> function removes an existing source for a product or patch in a specified context. The patch registration is also removed if the sole source of the patch gets removed and if the patch is not installed by any client in the same context. Specifying that <b>MsiSourceListClearSource</b> remove the current source for this product or patch forces the installer to search the source list for a source the next time a source is required.
 
-
 ## -parameters
-
-
-
 
 ### -param szProductCodeOrPatchCode [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
-
 
 ### -param szUserSid [in, optional]
 
@@ -143,8 +138,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -196,18 +189,13 @@ The source is a URL type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szSource [in]
 
 Source to remove. This parameter is expected to contain only the path without the filename. 
 The filename is already registered as "PackageName" and can be manipulated through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>. This argument is required.
 
-
 ## -returns
-
-
 
 The <b>MsiSourceListClearSource</b> function returns the following values.
 
@@ -305,14 +293,8 @@ Unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
@@ -326,9 +308,6 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 > The msi.h header defines MsiSourceListClearSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
 
@@ -355,7 +334,4 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
- 
-
- 
 

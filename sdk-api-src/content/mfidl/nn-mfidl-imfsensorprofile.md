@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 58D9FE3F-0F42-4262-B1BE-336BFA2E4BC7
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfile, IMFSensorProfile interface [Media Foundation], IMFSensorProfile interface [Media Foundation],described, mf.imfsensorprofile, mfidl/IMFSensorProfile
-f1_keywords:
-- mfidl/IMFSensorProfile
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfsensorgroup.dll
-api_name:
-- IMFSensorProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorProfile
+ - mfidl/IMFSensorProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfsensorgroup.dll
+api_name:
+ - IMFSensorProfile
 ---
 
 # IMFSensorProfile interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a media foundation sensor profile.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Determines if a media stream supports the specified media type.
 
 </td>
 </tr>
-</table> 
+</table>
 

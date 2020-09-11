@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 3678315d-b6ab-48c8-8522-a57deb63f8c9
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2 structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PMIB_IPFORWARD_ROW2, PMIB_IPFORWARD_ROW2 structure pointer [MIB], _MIB_IPFORWARD_ROW2, mib.mib_ipforward_row2, netioapi/MIB_IPFORWARD_ROW2, netioapi/PMIB_IPFORWARD_ROW2'
-f1_keywords:
-- netioapi/MIB_IPFORWARD_ROW2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_IPFORWARD_ROW2
 targetos: Windows
 req.typenames: MIB_IPFORWARD_ROW2, *PMIB_IPFORWARD_ROW2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPFORWARD_ROW2
+ - netioapi/_MIB_IPFORWARD_ROW2
+ - PMIB_IPFORWARD_ROW2
+ - netioapi/PMIB_IPFORWARD_ROW2
+ - MIB_IPFORWARD_ROW2
+ - netioapi/MIB_IPFORWARD_ROW2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_IPFORWARD_ROW2
 ---
 
 # MIB_IPFORWARD_ROW2 structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IPFORWARD_ROW2</b> structure stores information about an IP route entry.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceLuid
 
@@ -65,13 +65,11 @@ Type: <b>NET_LUID</b>
 
 The locally unique identifier (LUID) for the network interface associated with this IP route entry.
 
-
 ### -field InterfaceIndex
 
 Type: <b>NET_IFINDEX</b>
 
-The local index value for the network interface associated with this IP route entry. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent. 
-
+The local index value for the network interface associated with this IP route entry. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
 
 ### -field DestinationPrefix
 
@@ -79,21 +77,18 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-net
 
 The IP address prefix for the destination IP address for this route.
 
-
 ### -field NextHop
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a></b>
 
 For a remote route, the IP address of the next system or gateway en route. If the route is to a local loopback address or an IP address on the local link, the next hop is unspecified (all zeros). For a local loopback route, this member should be an IPv4 address of 0.0.0.0 for an IPv4 route entry or an IPv6 address address of 0::0  for an IPv6 route entry.
 
-
 ### -field SitePrefixLength
 
 Type: <b>UCHAR</b>
 
 The length, in bits, of the site prefix or network part of the IP address for this route. For an IPv4 route entry, any value greater than 32 is an illegal value. For an IPv6 route entry, any value greater than 128 is an illegal value. 
-A value of 255 is commonly used to represent an illegal value. 
-
+A value of 255 is commonly used to represent an illegal value.
 
 ### -field ValidLifetime
 
@@ -101,13 +96,11 @@ Type: <b>ULONG</b>
 
 The maximum time, in seconds, that the IP route entry is valid. A value of 0xffffffff  is considered to be infinite.
 
-
 ### -field PreferredLifetime
 
 Type: <b>ULONG</b>
 
 The preferred time, in seconds, that the IP route entry is valid. A value of 0xffffffff is considered to be infinite.
-
 
 ### -field Metric
 
@@ -115,7 +108,6 @@ Type: <b>ULONG</b>
 
 The route metric offset value for this IP route entry. Note the actual route metric used to compute the route preference is the summation of interface metric specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structure and the route metric offset specified in this member. The semantics of this metric are determined by the routing protocol specified in the <b>Protocol</b> member. If this metric is not used, its value should be set to -1. This value is documented in RFC 4292. 
 For more information, see <a href="https://www.ietf.org/rfc/rfc4292.txt">http://www.ietf.org/rfc/rfc4292.txt</a>.
-
 
 ### -field Protocol
 
@@ -323,8 +315,6 @@ A Windows specific entry added as an static route from the routing user interfac
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Loopback
 
@@ -332,13 +322,11 @@ Type: <b>BOOLEAN</b>
 
 A value that specifies if the route is a loopback route (the gateway is on the local host).
 
-
 ### -field AutoconfigureAddress
 
 Type: <b>BOOLEAN</b>
 
 A value that specifies if the IP address is autoconfigured.
-
 
 ### -field Publish
 
@@ -346,21 +334,18 @@ Type: <b>BOOLEAN</b>
 
 A value that specifies if the route is published.
 
-
 ### -field Immortal
 
 Type: <b>BOOLEAN</b>
 
-A value that specifies if the route is immortal. 
-
+A value that specifies if the route is immortal.
 
 ### -field Age
 
 Type: <b>ULONG</b>
 
 The number of seconds  since  the  route  was
-                added or modified in the network routing table. 
-
+                added or modified in the network routing table.
 
 ### -field Origin
 
@@ -429,12 +414,8 @@ A result of 6to4 tunneling.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The <b>MIB_IPFORWARD_ROW2</b> structure is defined on Windows Vista and later. 
 
@@ -456,13 +437,7 @@ The route metric specified in the <b>Metric</b> member of the  <b>MIB_IPFORWARD_
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
@@ -501,7 +476,4 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
- 
-
- 
 

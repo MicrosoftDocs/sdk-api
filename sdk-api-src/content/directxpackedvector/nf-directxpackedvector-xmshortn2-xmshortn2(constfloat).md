@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: ff110a88-4c5e-4f1a-b04e-c8aa8e00d2b8
 ms.date: 05/06/2019
 ms.keywords: XMSHORTN2, XMSHORTN2 constructor [DirectX Math Support APIs], XMSHORTN2 constructor [DirectX Math Support APIs],XMSHORTN2 structure, XMSHORTN2 structure [DirectX Math Support APIs],XMSHORTN2 constructor, XMSHORTN2.XMSHORTN2, XMSHORTN2.XMSHORTN2(), XMSHORTN2.XMSHORTN2(const float), XMSHORTN2::XMSHORTN2, XMSHORTN2::XMSHORTN2(const float), dxmath.xmshortn2_ctor_1
-f1_keywords:
-- directxpackedvector/XMSHORTN2.XMSHORTN2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMSHORTN2.XMSHORTN2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMSHORTN2::XMSHORTN2
+ - directxpackedvector/XMSHORTN2::XMSHORTN2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMSHORTN2.XMSHORTN2
 ---
 
 # XMSHORTN2::XMSHORTN2(const float)
+
 
 ## -description
 
@@ -86,3 +88,4 @@ instance._y = _y1;
 <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn2">XMSHORTN2</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshortn2-ctor">XMSHORTN2 Constructors</a>
+

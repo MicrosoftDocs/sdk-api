@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: B9093E64-1796-4AF2-AB45-84F278813B66
 ms.date: 12/05/2018
 ms.keywords: TdhAggregatePayloadFilters, TdhAggregatePayloadFilters function [ETW], etw.tdhaggregatepayloadfilters, tdh/TdhAggregatePayloadFilters
-f1_keywords:
-- tdh/TdhAggregatePayloadFilters
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
-api_name:
-- TdhAggregatePayloadFilters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhAggregatePayloadFilters
+ - tdh/TdhAggregatePayloadFilters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+api_name:
+ - TdhAggregatePayloadFilters
 ---
 
 # TdhAggregatePayloadFilters function
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>TdhAggregatePayloadFilters</b> function aggregates multiple payload filters for a single provider into a single data structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  
-
+The <b>TdhAggregatePayloadFilters</b> function aggregates multiple payload filters for a single provider into a single data structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
 ## -parameters
-
-
-
 
 ### -param PayloadFilterCount
 
 The count of payload filters.
 
-
 ### -param PayloadFilterPtrs
 
 An array of event payload single filters,
         each created by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>  function.
-
-
 
 ### -param EventMatchALLFlags [in, optional]
 
@@ -88,8 +81,6 @@ When a Boolean value is <b>FALSE</b>, an event will be written to a session only
         the same event Id or event version, then the event is written if any of
         the non-flagged filters are satisfied.
 
-
-
 ### -param EventFilterDescriptor [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  The <b>EVENT_FILTER_DESCRIPTOR</b> structure will
@@ -99,11 +90,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov
 When the caller is finished using this
         <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function,  the  <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcleanuppayloadeventfilterdescriptor">TdhCleanupPayloadEventFilterDescriptor</a>  function should be called to free the allocated memory.
 
-
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -135,14 +122,8 @@ Unable to allocate memory to create the aggregated payload filter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on the specific content of the event in a logger session. 
 
@@ -157,12 +138,7 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
@@ -185,7 +161,4 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhdeletepayloadfilter">TdhDeletePayloadFilter</a>
- 
-
- 
 

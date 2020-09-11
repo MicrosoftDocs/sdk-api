@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
 ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
-f1_keywords:
-- mfplay/IMFPMediaPlayer.CreateMediaItemFromObject
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.CreateMediaItemFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::CreateMediaItemFromObject
+ - mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.CreateMediaItemFromObject
 ---
 
 # IMFPMediaPlayer::CreateMediaItemFromObject
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Creates a media item from an object.
 
-
 ## -parameters
-
-
-
 
 ### -param pIUnknownObj [in]
 
 A pointer to the object's <b>IUnknown</b> interface. See Remarks.
 
-
 ### -param fSync [in]
 
 If <b>TRUE</b>, the method blocks until it completes. If <b>FALSE</b>, the method does not block and completes asynchronously.
-
 
 ### -param dwUserData [in]
 
 Application-defined value to store in the media item. To retrieve this value from the media item, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getuserdata">IMFPMediaItem::GetUserData</a>.
 
-
 ### -param ppMediaItem [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a> interface. The caller must release the interface. If <i>fSync</i> is <b>TRUE</b>, this parameter must be a valid pointer. If <i>bSync</i> is <b>FALSE</b>, this parameter must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -139,14 +128,8 @@ The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-m
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pIUnknownObj</i> parameter must specify one of the following:
 
@@ -178,20 +161,11 @@ If <i>pIUnknownObj</i> points to a byte stream, you can configure the media sour
 </ol>
 If <i>pIUnknownObj</i> points to a media source, you can configure the source at the time that you create it.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

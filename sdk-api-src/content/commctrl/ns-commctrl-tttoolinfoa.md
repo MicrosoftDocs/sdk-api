@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\toolinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTTTOOLINFOA, *PTOOLINFOA, LPTOOLINFO, LPTOOLINFO structure pointer [Windows Controls], PTOOLINFO, PTOOLINFO structure pointer [Windows Controls], TOOLINFO, TOOLINFO structure [Windows Controls], TOOLINFOA, TOOLINFOW, TTF_ABSOLUTE, TTF_CENTERTIP, TTF_IDISHWND, TTF_PARSELINKS, TTF_RTLREADING, TTF_SUBCLASS, TTF_TRACK, TTF_TRANSPARENT, TTTOOLINFO, TTTOOLINFOA, TTTOOLINFOW, _win32_TOOLINFO, _win32_TOOLINFO_cpp, commctrl/LPTOOLINFO, commctrl/PTOOLINFO, commctrl/TOOLINFO, commctrl/TOOLINFOA, commctrl/TOOLINFOW, controls.TOOLINFO, controls._win32_TOOLINFO'
-f1_keywords:
-- commctrl/TOOLINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TOOLINFO
-- TOOLINFOA
-- TOOLINFOW
-- tttoolinfoa
 targetos: Windows
 req.typenames: TTTOOLINFOA, *PTOOLINFOA, *LPTTTOOLINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTOOLINFOA
+ - commctrl/tagTOOLINFOA
+ - PTOOLINFOA
+ - commctrl/PTOOLINFOA
+ - TTTOOLINFOA
+ - commctrl/TTTOOLINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TOOLINFO
+ - TOOLINFOA
+ - TOOLINFOW
+ - tttoolinfoa
 ---
 
 # TTTOOLINFOA structure
@@ -52,21 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TOOLINFO</b> structure contains information about a tool in a tooltip control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Size of this structure, in bytes. This member must be specified. 
-
+Size of this structure, in bytes. This member must be specified.
 
 ### -field uFlags
 
@@ -165,8 +164,6 @@ Causes the tooltip control to forward mouse event messages to the parent window.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hwnd
 
@@ -174,27 +171,23 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Handle to the window that contains the tool. If <b>lpszText</b> includes the LPSTR_TEXTCALLBACK value, this member identifies the window that receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/ttn-getdispinfo">TTN_GETDISPINFO</a> notification codes.
 
-
 ### -field uId
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
-Application-defined identifier of the tool. If <b>uFlags</b> includes the TTF_IDISHWND flag, <b>uId</b> must specify the window handle to the tool. 
-
+Application-defined identifier of the tool. If <b>uFlags</b> includes the TTF_IDISHWND flag, <b>uId</b> must specify the window handle to the tool.
 
 ### -field rect
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The bounding rectangle coordinates of the tool. The coordinates are relative to the upper-left corner of the client area of the window identified by <b>hwnd</b>. If <b>uFlags</b> includes the TTF_IDISHWND flag, this member is ignored. 
-
+The bounding rectangle coordinates of the tool. The coordinates are relative to the upper-left corner of the client area of the window identified by <b>hwnd</b>. If <b>uFlags</b> includes the TTF_IDISHWND flag, this member is ignored.
 
 ### -field hinst
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the instance that contains the string resource for the tool. If <b>lpszText</b> specifies the identifier of a string resource, this member is used.
-
 
 ### -field lpszText
 
@@ -203,13 +196,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Pointer to the buffer that contains the text for the tool, or identifier of the string resource that contains the text. This member is sometimes used to return values. If you need to examine the returned value,  must point to a valid buffer of sufficient size. Otherwise, it can be set to <b>NULL</b>. If <b>lpszText</b> is set to LPSTR_TEXTCALLBACK, the control sends
 the <a href="https://docs.microsoft.com/windows/desktop/Controls/ttn-getdispinfo">TTN_GETDISPINFO</a> notification code to the owner window to retrieve the text.
 
-
 ### -field lParam
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-<b>Version 4.70 and later</b>. A 32-bit application-defined value that is associated with the tool. 
-
+<b>Version 4.70 and later</b>. A 32-bit application-defined value that is associated with the tool.
 
 ### -field lpReserved
 
@@ -217,10 +208,7 @@ Type: <b>void*</b>
 
 Reserved. Must be set to <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 Normal windows display text left-to-right (LTR). Windows can be <i>mirrored</i> to display languages such as Hebrew or Arabic that read right-to-left (RTL). Normally, tooltip text is displayed in the same direction as the text in its parent window. If TTF_RTLREADING is set, tooltip text will read in the opposite direction from the text in the parent window.
 

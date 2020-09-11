@@ -8,10 +8,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
-f1_keywords:
-- wiavideo/IWiaVideo
-dev_langs:
-- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Wiavideo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiavideo.dll
-api_name:
-- IWiaVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaVideo
+ - wiavideo/IWiaVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiavideo.dll
+api_name:
+ - IWiaVideo
 ---
 
 # IWiaVideo interface
 
 
 ## -description
-
 
 The <b>IWiaVideo</b> interface provides methods that allow an application that uses Windows Image Acquisition (WIA) services to acquire still images from a streaming video device.
 
@@ -192,12 +192,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IWiaVideo</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
@@ -225,7 +222,4 @@ The <b>IWiaVideo</b> interface, like all Component Object Model (COM) interfaces
 <td>Decrements reference count.</td>
 </tr>
 </table>
- 
-
-
 

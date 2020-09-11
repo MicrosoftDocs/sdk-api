@@ -8,10 +8,6 @@ tech.root: ifsk
 ms.assetid: e4bcd797-5a1a-45b9-a4f2-387ea1df7c2f
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeInstanceFindNext, FilterVolumeInstanceFindNext function [Installable File System Drivers], FltWin32ApiRef_646e3187-31a8-42fb-b8a6-bca598605660.xml, fltuser/FilterVolumeInstanceFindNext, ifsk.filtervolumeinstancefindnext
-f1_keywords:
-- fltuser/FilterVolumeInstanceFindNext
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterVolumeInstanceFindNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterVolumeInstanceFindNext
+ - fltuser/FilterVolumeInstanceFindNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterVolumeInstanceFindNext
 ---
 
 # FilterVolumeInstanceFindNext function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FilterVolumeInstanceFindNext</b> function continues a minifilter driver instance or legacy filter driver search started by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>. 
-
+The <b>FilterVolumeInstanceFindNext</b> function continues a minifilter driver instance or legacy filter driver search started by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>.
 
 ## -parameters
-
-
-
 
 ### -param hVolumeInstanceFind [in]
 
 Volume filter driver search handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>.
-
 
 ### -param dwInformationClass [in]
 
@@ -115,27 +110,20 @@ This structure is available starting with Windows Vista.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
 Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>dwInformationClass</i> parameter.
 
-
 ### -param dwBufferSize [in]
 
 Size, in bytes, of the buffer that the <i>lpBuffer</i> parameter points to. The caller should set this parameter according to the given <i>dwInformationClass</i>.
-
 
 ### -param lpBytesReturned [out]
 
 Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>lpBuffer</i> points to if the call to <b>FilterVolumeInstanceFindNext</b> succeeds. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FilterVolumeInstanceFindNext</b> returns S_OK if successful. Otherwise, it returns an HRESULT error value, such as one of the following:
 
@@ -178,14 +166,8 @@ No more filter drivers were found on the given volume.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FilterVolumeInstanceFindNext</b> finds one filter driver per call.
 
@@ -193,13 +175,7 @@ After the search handle is established by calling <b>FilterVolumeInstanceFindFir
 
 Starting with Windows Vista, this routine can return both legacy filter driver information and minifilter driver instance information when the value of the <i>dwInformationClass</i> parameter is <b>InstanceAggregateStandardInformation</b>.  For earlier operating systems, this routine cannot return legacy filter information because the INSTANCE_AGGREGATE_STANDARD_INFORMATION structure is not available.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
 
@@ -222,7 +198,4 @@ Starting with Windows Vista, this routine can return both legacy filter driver 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
- 
-
- 
 

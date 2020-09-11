@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributesCount method, IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
-f1_keywords:
-- mfidl/IMFSensorDevice.GetStreamAttributesCount
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorDevice.GetStreamAttributesCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorDevice::GetStreamAttributesCount
+ - mfidl/IMFSensorDevice::GetStreamAttributesCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorDevice.GetStreamAttributesCount
 ---
 
 # IMFSensorDevice::GetStreamAttributesCount
@@ -52,28 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the count of stream attribute stores for the sensor device. This number represents the number of total streams available for the device because every valid stream must have an attribute store that contains at least the stream ID and stream category.
-
 
 ## -parameters
 
-
-
-
 ### -param eType [in]
 
-A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype">MFSensorStreamType</a> enumeration specifying whether the attribute store count is being requested for an input or output stream.  
-
+A member of the <a href="/windows/win32/api/mfidl/ne-mfidl-mfsensorstreamtype">MFSensorStreamType</a> enumeration specifying whether the attribute store count is being requested for an input or output stream.
 
 ### -param pdwCount [out]
 
-The number of stream attributes available for this sensor device. 
-
+The number of stream attributes available for this sensor device.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -118,14 +110,8 @@ The sensor group has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller can use the number of stream attributes to indicate the number of streams provided by the sensor device.  
 
@@ -134,15 +120,7 @@ If no streams are marked as shared and no preview stream is available, the first
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
- 
-
- 
 

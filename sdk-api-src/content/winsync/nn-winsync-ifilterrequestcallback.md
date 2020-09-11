@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 11ba822e-63d6-4947-8e21-7134bdbcbdc0
 ms.date: 12/05/2018
 ms.keywords: IFilterRequestCallback, IFilterRequestCallback interface [Windows Sync], IFilterRequestCallback interface [Windows Sync],described, winsync.ifilterrequestcallback, winsync/IFilterRequestCallback
-f1_keywords:
-- winsync/IFilterRequestCallback
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IFilterRequestCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterRequestCallback
+ - winsync/IFilterRequestCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IFilterRequestCallback
 ---
 
 # IFilterRequestCallback interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Mediates filter negotiation between a destination provider and a source provider.
-
-
 
 ## -inheritance
 
@@ -79,13 +77,9 @@ Requests that the filter that is specified by the destination provider be used b
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irequestfilteredsync">IRequestFilteredSync Interface</a>
 
@@ -96,7 +90,4 @@ Requests that the filter that is specified by the destination provider be used b
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

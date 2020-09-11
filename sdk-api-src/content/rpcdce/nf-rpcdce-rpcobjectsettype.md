@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f
 ms.date: 12/05/2018
 ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectsettype, rpc.rpcobjectsettype, rpcdce/RpcObjectSetType
-f1_keywords:
-- rpcdce/RpcObjectSetType
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcObjectSetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcObjectSetType
+ - rpcdce/RpcObjectSetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcObjectSetType
 ---
 
 # RpcObjectSetType function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcObjectSetType</b> function assigns the type of an object.
 
-
 ## -parameters
-
-
-
 
 ### -param ObjUuid
 
 Pointer to an object UUID to associate with the type UUID in the <i>TypeUuid</i> parameter.
-
 
 ### -param TypeUuid
 
@@ -73,10 +68,7 @@ Pointer to the type UUID of the <i>ObjUuid</i> parameter.
 
 Specify a parameter value of NULL or a nil UUID to reset the object type to the default association of object UUID/nil-type UUID.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -134,11 +126,7 @@ The system is out of memory.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls 
 <b>RpcObjectSetType</b> to assign a type UUID to an object UUID. By default, the RPC run-time library automatically assigns all object UUIDs with the nil-type UUID. A server application that contains one implementation of an interface (one manager entry-point vector [EPV]) does not need to call 
@@ -155,13 +143,7 @@ The RPC run-time library allows an application to set the type for an unlimited 
 For detailed information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces">Registering Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces">Registering
 		  Interfaces</a>
@@ -169,7 +151,4 @@ For detailed information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
- 
-
- 
 

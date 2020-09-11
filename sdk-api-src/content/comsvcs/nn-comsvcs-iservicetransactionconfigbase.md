@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: e4740bf4-51b1-474f-9637-7c5d78f0def5
 ms.date: 12/05/2018
 ms.keywords: IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], IServiceTransactionConfigBase interface [COM+],described, _cos_IServiceTransactionConfigBase, comsvcs/IServiceTransactionConfigBase, cos.iservicetransactionconfigbase
-f1_keywords:
-- comsvcs/IServiceTransactionConfigBase
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceTransactionConfigBase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceTransactionConfigBase
+ - comsvcs/IServiceTransactionConfigBase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceTransactionConfigBase
 ---
 
 # IServiceTransactionConfigBase interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the transaction services for the work that is done when calling either <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>.
-
 
 ## -inheritance
 
@@ -117,13 +116,9 @@ Sets the transaction time-out for a new transaction.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/bring-your-own-transaction--byot-">Bring Your Own Transaction (BYOT)</a>
 
@@ -134,7 +129,4 @@ Sets the transaction time-out for a new transaction.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
- 
-
- 
 

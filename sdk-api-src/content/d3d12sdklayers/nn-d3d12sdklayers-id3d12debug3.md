@@ -5,10 +5,6 @@ description: Adds configurable levels of GPU-based validation to the debug layer
 helpviewer_keywords: ["- ID3D12Debug3"]
 tech.root: direct3d12
 ms.date: 03/02/2020
-f1_keywords:
-- d3d12sdklayers/ID3D12Debug3
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -26,19 +22,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12sdklayers.h
-api_name:
-- ID3D12Debug3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Debug3
+ - d3d12sdklayers/ID3D12Debug3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12sdklayers.h
+api_name:
+ - ID3D12Debug3
 ---
 
 ## -description
@@ -53,3 +54,4 @@ The **ID3D12Debug3** interface inherits from the [ID3D12Debug](/windows/win32/ap
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+

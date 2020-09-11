@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c
 ms.date: 12/05/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method, AddFilesToFileGroup method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddFilesToFileGroup method, IVssCreateExpressWriterMetadata.AddFilesToFileGroup, IVssCreateExpressWriterMetadata::AddFilesToFileGroup, base.ivsscreateexpresswritermetadata_addfilestofilegroup, vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
-f1_keywords:
-- vswriter/IVssCreateExpressWriterMetadata.AddFilesToFileGroup
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateExpressWriterMetadata.AddFilesToFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateExpressWriterMetadata::AddFilesToFileGroup
+ - vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateExpressWriterMetadata.AddFilesToFileGroup
 ---
 
 # IVssCreateExpressWriterMetadata::AddFilesToFileGroup
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a file set (a specified file or files) to a specified file group component for an express writer.
 
-
 ## -parameters
-
-
-
 
 ### -param wszLogicalPath [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing the logical path (which may be <b>NULL</b>) of the component to which to add the files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
-
 ### -param wszGroupName [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing the name of the file group component. The type of this component must be VSS_CT_FILEGROUP; otherwise, the method will return an error.
-
 
 ### -param wszPath [in]
 
@@ -80,7 +74,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash (\). It is up to applications that retrieve this information to check.
 
-
 ### -param wszFilespec [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing the file specification of the files to be included. 
@@ -89,7 +82,6 @@ A pointer to a <b>null</b>-terminated wide character string containing the file 
 
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
-
 
 ### -param bRecursive [in]
 
@@ -101,11 +93,9 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 For information on traversing over mounted folders, see 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
-
 ### -param wszAlternateLocation [in]
 
 This parameter is reserved and must be <b>NULL</b>.
-
 
 ### -param dwBackupTypeMask [in]
 
@@ -117,10 +107,7 @@ This parameter cannot include <b>VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED</b>, <b>V
 
 The default value for this argument is (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -200,18 +187,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
- 
-
- 
 

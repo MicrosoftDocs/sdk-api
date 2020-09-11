@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
 ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
-f1_keywords:
-- avrt/AvRtCreateThreadOrderingGroupEx
-dev_langs:
-- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avrt.dll
-api_name:
-- AvRtCreateThreadOrderingGroupEx
-- AvRtCreateThreadOrderingGroupExA
-- AvRtCreateThreadOrderingGroupExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AvRtCreateThreadOrderingGroupExA
+ - avrt/AvRtCreateThreadOrderingGroupExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avrt.dll
+api_name:
+ - AvRtCreateThreadOrderingGroupEx
+ - AvRtCreateThreadOrderingGroupExA
+ - AvRtCreateThreadOrderingGroupExW
 ---
 
 # AvRtCreateThreadOrderingGroupExA function
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a thread ordering group and associates the server thread with a task.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [out]
 
 A pointer to a context handle.
-
 
 ### -param Period [in]
 
@@ -71,13 +66,11 @@ A pointer to a value, in 100-nanosecond increments, that specifies the period fo
 
 The possible values for this parameter depend on the platform, but this parameter can be as low as 500 microseconds or as high as 0x1FFFFFFFFFFFFFFF. If this parameter is less than 500 microseconds, then it is set to 500 microseconds. If this parameter is greater than the maximum, then it is set to 0x1FFFFFFFFFFFFFFF.
 
-
 ### -param ThreadOrderingGuid [in, out]
 
 A pointer to the unique identifier for the thread ordering group to be created. If this value is not unique to the thread ordering service, the function fails.
 
 If the identifier is GUID_NULL on input, the thread ordering service generates and returns a unique identifier.
-
 
 ### -param Timeout [in, optional]
 
@@ -91,15 +84,11 @@ If this parameter is <b>NULL</b> or 0, the default is five times the value of <i
 
 If this parameter is THREAD_ORDER_GROUP_INFINITE_TIMEOUT, the group is created with an infinite time-out interval. This can be useful for debugging purposes.
 
-
 ### -param TaskName [in]
 
 The name of the task.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -108,12 +97,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 If a thread ordering group with the specified identifier already exists, the function fails and sets the last error to ERROR_ALREADY_EXISTS.
 
-
-
-
 ## -remarks
-
-
 
 The calling thread is considered to be the parent thread. Each thread ordering group has one parent thread. Each parent thread can have zero or more predecessor threads and zero or more successor threads. A client thread can join a thread ordering group and specify whether it is a predecessor or successor using the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrtjointhreadorderinggroup">AvRtJoinThreadOrderingGroup</a> function.
 
@@ -178,11 +162,5 @@ int main( void )
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>
- 
-
- 
 

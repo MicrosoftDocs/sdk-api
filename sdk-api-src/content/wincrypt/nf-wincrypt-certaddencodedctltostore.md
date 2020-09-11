@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 4239d43e-187d-4f40-99ae-6f914b7577ac
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCTLToStore, CertAddEncodedCTLToStore function [Security], _crypto2_certaddencodedctltostore, security.certaddencodedctltostore, wincrypt/CertAddEncodedCTLToStore
-f1_keywords:
-- wincrypt/CertAddEncodedCTLToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddEncodedCTLToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddEncodedCTLToStore
+ - wincrypt/CertAddEncodedCTLToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddEncodedCTLToStore
 ---
 
 # CertAddEncodedCTLToStore function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddEncodedCTLToStore</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from an encoded CTL and adds it to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. The function makes a copy of the CTL context before adding it to the store.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store.
-
 
 ### -param dwMsgAndCertEncodingType [in]
 
@@ -74,17 +69,13 @@ Currently defined encoding types are:<ul>
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pbCtlEncoded [in]
 
 A pointer to a buffer containing the encoded CTL to be added to the certificate store.
 
-
 ### -param cbCtlEncoded [in]
 
 The size, in bytes, of the <i>pbCtlEncoded</i> buffer.
-
 
 ### -param dwAddDisposition [in]
 
@@ -183,8 +174,6 @@ If a matching CTL or a link to a matching CTL does not exist, a new CTL is added
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppCtlContext [out, optional]
 
@@ -192,10 +181,7 @@ A pointer to a pointer to the decoded
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. Can be <b>NULL</b> indicating that the calling application does not require a copy of the added or existing CTL. If a copy is made, it must be freed by using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -239,13 +225,7 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>
 
@@ -256,7 +236,4 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
- 
-
- 
 

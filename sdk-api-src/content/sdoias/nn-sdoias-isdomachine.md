@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903
 ms.date: 12/05/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
-f1_keywords:
-- sdoias/ISdoMachine
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Iassdo.dll
-api_name:
-- ISdoMachine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISdoMachine
+ - sdoias/ISdoMachine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Iassdo.dll
+api_name:
+ - ISdoMachine
 ---
 
 # ISdoMachine interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>ISdoMachine</b> interface to attach to an SDO computer, obtain information about the SDO computer, and obtain interfaces to other SDO objects.
-
 
 ## -inheritance
 
@@ -143,13 +142,9 @@ Tests whether an Active Directory service is available on the SDO computer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -160,7 +155,4 @@ Tests whether an Active Directory service is available on the SDO computer.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-server-data-objects-reference">Server Data Objects Reference</a>
- 
-
- 
 

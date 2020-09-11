@@ -34,6 +34,7 @@ api_location:
 api_name:
  - NotificationUnhookProc
 f1_keywords:
+ - NotificationUnhookProc
  - gdiplusinit/NotificationUnhookProc
 dev_langs:
  - c++
@@ -52,3 +53,4 @@ A pointer to the **ULONG** that contains the token.
 ## -remarks
 
 ## -see-also
+

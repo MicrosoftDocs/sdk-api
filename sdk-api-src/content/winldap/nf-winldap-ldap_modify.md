@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 93ae0af4-1b16-4bb0-952f-139241189d79
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_modify, ldap.ldap__modify, ldap.ldap_modify, ldap_modify, ldap_modify function [LDAP], ldap_modifyA, ldap_modifyW, winldap/ldap_modify, winldap/ldap_modifyA, winldap/ldap_modifyW
-f1_keywords:
-- winldap/ldap_modify
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_modify
-- ldap_modifyA
-- ldap_modifyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_modify
+ - winldap/ldap_modify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_modify
+ - ldap_modifyA
+ - ldap_modifyW
 ---
 
 # ldap_modify function
@@ -51,45 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_modify</b> function changes an existing entry.
 
-
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 The session handle.
 
-
 ### -param dn [in]
 
 A pointer to a null-terminated string that contains the name of the entry to modify.
-
 
 ### -param mods [in]
 
 A null-terminated array of modifications to make to the entry.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns the message ID of the modify operation.
 
 If the function fails, it returns –1 and sets the session error parameters in the 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> data structure.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_modify</b> function initiates an asynchronous operation to modify an existing entry. If values are being added to or replaced in the entry, the function creates the attribute, if necessary. If values are being deleted, and no values remain, the function removes the attribute. All modifications are performed in the order in which they are listed.
 
@@ -110,12 +96,7 @@ Multithreading: Calls to <b>ldap_modify</b> are thread-safe, provided that
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a> routines) before attempting any other operations.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -158,7 +139,4 @@ Multithreading: Calls to <b>ldap_modify</b> are thread-safe, provided that
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
- 
-
- 
 

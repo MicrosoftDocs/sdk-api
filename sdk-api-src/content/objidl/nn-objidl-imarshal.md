@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
 ms.date: 12/05/2018
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
-f1_keywords:
-- objidl/IMarshal
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMarshal
+ - objidl/IMarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMarshal
 ---
 
 # IMarshal interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a COM object to define and manage the marshaling of its interface pointers.
-
 
 ## -inheritance
 
@@ -122,12 +121,9 @@ Unmarshals an interface pointer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <i>Marshaling</i> is the process of packaging data into packets for transmission to a different process 
      or computer. Unmarshaling is the process of recovering that data at the receiving end. In any given call, method 
@@ -293,16 +289,7 @@ At various times, proxies and stubs will have need to allocate or free memory. I
       proxies and interface stubs are just normal COM components, in that they should use the standard task allocator. 
       (See <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>.)
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>
- 
-
- 
 

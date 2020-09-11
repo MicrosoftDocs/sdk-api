@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: F07138FE-340F-4493-A3A9-AED075B2CEEA
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory, IAppxEncryptionFactory interface [App packaging and management], IAppxEncryptionFactory interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory, appxpkg.iappxencryptionfactory
-f1_keywords:
-- appxpackaging/IAppxEncryptionFactory
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptionFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptionFactory
+ - appxpackaging/IAppxEncryptionFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptionFactory
 ---
 
 # IAppxEncryptionFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates objects for encrypting, decrypting,  reading, and writing packages and bundles.
-
 
 ## -inheritance
 
@@ -140,20 +139,13 @@ Creates an encrypted Windows app package from an unencrypted one.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedbundlewriter">IAppxEncryptedBundleWriter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedpackagewriter">IAppxEncryptedPackageWriter</a>
- 
-
- 
 

@@ -1,17 +1,13 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathPoints(OUTPoint,ININT)
 title: GraphicsPath::GetPathPoints(OUT Point,IN INT) (gdipluspath.h)
-description: The GraphicsPath::GetPathPoints method gets this path's array of points. The array contains the endpoints and control points of the lines and B�zier splines that are used to draw the path.
+description: The GraphicsPath::GetPathPoints method gets this path's array of points. The array contains the endpoints and control points of the lines and B�zier splines that are used to draw the path.
 helpviewer_keywords: ["GetPathPoints","GetPathPoints method [GDI+]","GetPathPoints method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","GetPathPoints method","GraphicsPath.GetPathPoints","GraphicsPath.GetPathPoints(OUT Point","IN INT)","GraphicsPath.GetPathPoints(Point*","INT)","GraphicsPath::GetPathPoints","GraphicsPath::GetPathPoints(OUT Point","IN INT)","_gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_","gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetpathpointsmethods\getpathpoints.htm
 ms.date: 12/05/2018
 ms.keywords: GetPathPoints, GetPathPoints method [GDI+], GetPathPoints method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathPoints method, GraphicsPath.GetPathPoints, GraphicsPath.GetPathPoints(OUT Point,IN INT), GraphicsPath.GetPathPoints(Point*,INT), GraphicsPath::GetPathPoints, GraphicsPath::GetPathPoints(OUT Point,IN INT), _gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_
-f1_keywords:
-- gdipluspath/GraphicsPath.GetPathPoints
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- GraphicsPath.GetPathPoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - GraphicsPath::GetPathPoints
+ - gdipluspath/GraphicsPath::GetPathPoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - GraphicsPath.GetPathPoints
 ---
 
 # GraphicsPath::GetPathPoints(OUT Point,IN INT)
@@ -50,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphicsPath::GetPathPoints</b> method gets this path's array of points. The array contains the endpoints and control points of the lines and Bézier splines that are used to draw the path.
 
-
 ## -parameters
-
-
-
 
 ### -param points [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects that receives the data points. You must allocate memory for this array. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpointcount">GraphicsPath::GetPointCount</a> method to determine the required size of the array. The size, in bytes, should be the return value of <b>GraphicsPath::GetPointCount</b> multiplied by <b>sizeof</b>(<b>Point</b>). 
-
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects that receives the data points. You must allocate memory for this array. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpointcount">GraphicsPath::GetPointCount</a> method to determine the required size of the array. The size, in bytes, should be the return value of <b>GraphicsPath::GetPointCount</b> multiplied by <b>sizeof</b>(<b>Point</b>).
 
 ### -param count [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of elements in the <i>points</i> array. Set this parameter equal to the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpointcount">GraphicsPath::GetPointCount</a> method. 
-
+Integer that specifies the number of elements in the <i>points</i> array. Set this parameter equal to the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpointcount">GraphicsPath::GetPointCount</a> method.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -83,12 +75,7 @@ If the method succeeds, it returns Ok, which is an element of the <a href="https
 
 If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object has an array of points and an array of types. Each element in the array of types is a byte that specifies the point type and a set of flags for the corresponding element in the array of points. Possible point types and flags are listed in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pathpointtype">PathPointType</a> enumeration.
 
@@ -145,14 +132,7 @@ VOID GetPathPointsExample(HDC hdc)
 Color(255, 255, 0,  0)
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use">Clipping with a Region</a>
 
@@ -195,7 +175,4 @@ Color(255, 255, 0,  0)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
 ms.date: 12/05/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
-f1_keywords:
-- mfapi/MFTEnumEx
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFTEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFTEnumEx
+ - mfapi/MFTEnumEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFTEnumEx
 ---
 
 # MFTEnumEx function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param guidCategory [in]
 
 A GUID that specifies the category of MFTs to enumerate. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
-
 ### -param Flags [in]
 
 The bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
-
 
 ### -param pInputType [in]
 
@@ -74,36 +68,25 @@ A pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all input types are matched.
 
-
 ### -param pOutputType [in]
 
 A pointer to an <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_register_type_info">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all output types are matched.
 
-
 ### -param pppMFTActivate [out]
 
 Receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface pointers. Each pointer represents an activation object for an MFT that matches the search criteria. The function allocates the memory for the array. The caller must release the pointers and call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory for the array.
-
 
 ### -param pnumMFTActivate [out]
 
 Receives the number of elements in the <i>pppMFTActivate</i> array. If no MFTs match the search criteria, this parameter receives the value zero.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>Flags</i> parameter controls which MFTs are enumerated, and the order in which they are returned. The flags for this parameter fall into several groups.
 
@@ -451,12 +434,7 @@ HRESULT FindVideoDecoder(
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/field-of-use-restrictions">Field of Use Restrictions</a>
 
@@ -471,7 +449,4 @@ HRESULT FindVideoDecoder(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/registering-and-enumerating-mfts">Registering and Enumerating MFTs</a>
- 
-
- 
 

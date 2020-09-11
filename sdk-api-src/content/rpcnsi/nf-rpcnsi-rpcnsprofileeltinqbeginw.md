@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 5b14eb21-0c3e-4f12-b1dc-95b364d87a4f
 ms.date: 12/05/2018
 ms.keywords: RPC_C_PROFILE_ALL_ELTS, RPC_C_PROFILE_DEFAULT_ELT, RPC_C_PROFILE_MATCH_BY_BOTH, RPC_C_PROFILE_MATCH_BY_IF, RPC_C_PROFILE_MATCH_BY_MBR, RPC_C_VERS_ALL, RPC_C_VERS_COMPATIBLE, RPC_C_VERS_EXACT, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsProfileEltInqBegin, RpcNsProfileEltInqBegin function [RPC], RpcNsProfileEltInqBeginA, RpcNsProfileEltInqBeginW, _rpc_rpcnsprofileeltinqbegin, rpc.rpcnsprofileeltinqbegin, rpcnsi/RpcNsProfileEltInqBegin, rpcnsi/RpcNsProfileEltInqBeginA, rpcnsi/RpcNsProfileEltInqBeginW
-f1_keywords:
-- rpcnsi/RpcNsProfileEltInqBegin
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsProfileEltInqBegin
-- RpcNsProfileEltInqBeginA
-- RpcNsProfileEltInqBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsProfileEltInqBeginW
+ - rpcnsi/RpcNsProfileEltInqBeginW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsProfileEltInqBegin
+ - RpcNsProfileEltInqBeginA
+ - RpcNsProfileEltInqBeginW
 ---
 
 # RpcNsProfileEltInqBeginW function
@@ -51,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsProfileEltInqBegin</b> function creates an inquiry context for viewing the elements in a profile.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param ProfileNameSyntax
 
@@ -70,11 +67,9 @@ Syntax of <i>ProfileName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param ProfileName
 
 Pointer to the name of the profile to view.
-
 
 ### -param InquiryType
 
@@ -138,8 +133,6 @@ Searches the profile for elements that contain the interface identification and 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param IfId
 
@@ -150,7 +143,6 @@ Pointer to the interface identification of the profile elements to be returned b
 
 
 The <i>IfId</i> parameter is used only when specifying a value of RPC_C_PROFILE_MATCH_BY_IF or RPC_C_PROFILE_MATCH_BY_BOTH for the <i>InquiryType</i> parameter. Otherwise, <i>IfId</i> is ignored and a null value can be specified.
-
 
 ### -param VersOption
 
@@ -219,8 +211,6 @@ Returns profile elements that offer a version of the specified interface UUID le
 </td>
 </tr>
 </table>
- 
-
 
 ### -param MemberNameSyntax
 
@@ -232,12 +222,10 @@ Syntax of <i>MemberName</i>, and the return parameter <i>MemberName</i> in the
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param MemberName
 
 Pointer to the member name that the 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function looks for in profile elements. The <i>MemberName</i> parameter is used only when specifying a value of RPC_C_PROFILE_MATCH_BY_MBR or RPC_C_PROFILE_MATCH_BY_BOTH for <i>InquiryType</i>. Otherwise, <i>MemberName</i> is ignored and a null value can be specified.
-
 
 ### -param InquiryContext
 
@@ -245,10 +233,7 @@ Returns a pointer to a name-service handle for use with the
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone">RpcNsProfileEltInqDone</a> functions.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -339,11 +324,7 @@ The name service is unavailable.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsProfileEltInqBegin</b> function creates an inquiry context for viewing the elements in a profile.
@@ -376,9 +357,6 @@ When finished viewing the profile elements, the application calls the
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
 
 
@@ -388,7 +366,4 @@ When finished viewing the profile elements, the application calls the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>
- 
-
- 
 

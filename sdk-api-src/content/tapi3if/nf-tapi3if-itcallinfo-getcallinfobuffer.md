@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 00f5dde6-e9df-4b61-8122-2183e047f9ba
 ms.date: 12/05/2018
 ms.keywords: GetCallInfoBuffer, GetCallInfoBuffer method [TAPI 2.2], GetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, ITCallInfo interface [TAPI 2.2],GetCallInfoBuffer method, ITCallInfo.GetCallInfoBuffer, ITCallInfo::GetCallInfoBuffer, _tapi3_itcallinfo_getcallinfobuffer, tapi3.itcallinfo_getcallinfobuffer, tapi3if/ITCallInfo::GetCallInfoBuffer
-f1_keywords:
-- tapi3if/ITCallInfo.GetCallInfoBuffer
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallInfo.GetCallInfoBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallInfo::GetCallInfoBuffer
+ - tapi3if/ITCallInfo::GetCallInfoBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallInfo.GetCallInfoBuffer
 ---
 
 # ITCallInfo::GetCallInfoBuffer
@@ -49,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetCallInfoBuffer</b> method gets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer">ITCallInfo::get_CallInfoBuffer</a> method.
 
-
 ## -parameters
-
-
-
 
 ### -param CallInfoBuffer [in]
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_buffer">CALLINFO_BUFFER</a> indicator of information type needed, such as CIB_USERUSERINFO.
-
 
 ### -param pdwSize [out]
 
 Size of buffer returned in bytes.
 
-
 ### -param ppCallInfoBuffer [out]
 
 Pointer to buffer containing the needed call information.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,15 +134,8 @@ The current
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callinfo_buffer">CALLINFO_BUFFER</a>
 
@@ -175,7 +158,4 @@ The current
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfobuffer">put_CallInfoBuffer</a>
- 
-
- 
 

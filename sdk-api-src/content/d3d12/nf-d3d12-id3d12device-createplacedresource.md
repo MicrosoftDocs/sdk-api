@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 4581A82D-D2B6-4CAE-A336-07B8CF90A0BA
 ms.date: 12/05/2018
 ms.keywords: CreatePlacedResource, CreatePlacedResource method, CreatePlacedResource method,ID3D12Device interface, ID3D12Device interface,CreatePlacedResource method, ID3D12Device.CreatePlacedResource, ID3D12Device::CreatePlacedResource, d3d12/ID3D12Device::CreatePlacedResource, direct3d12.id3d12device_createplacedresource
-f1_keywords:
-- d3d12/ID3D12Device.CreatePlacedResource
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.CreatePlacedResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::CreatePlacedResource
+ - d3d12/ID3D12Device::CreatePlacedResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.CreatePlacedResource
 ---
 
 ## -description
@@ -169,3 +170,4 @@ The amount of inactivation varies based on resource properties. Textures with un
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
 
 <a href="/windows/win32/direct3d12/shared-heaps">Shared Heaps</a>
+

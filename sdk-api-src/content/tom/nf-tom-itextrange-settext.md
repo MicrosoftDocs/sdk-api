@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\settext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetText method, ITextRange.SetText, ITextRange::SetText, SetText, SetText method [Windows Controls], SetText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetText, _win32_ITextRange_SetText_cpp, controls.ITextRange_SetText, controls._win32_ITextRange_SetText, tom/ITextRange::SetText
-f1_keywords:
-- tom/ITextRange.SetText
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.SetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::SetText
+ - tom/ITextRange::SetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.SetText
 ---
 
 # ITextRange::SetText
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the text in this range.
 
-
 ## -parameters
-
-
-
 
 ### -param bstr [in]
 
 Type: <b>BSTR</b>
 
-Text that replaces the current text in this range. If null, the current text is deleted. 
-
+Text that replaces the current text in this range. If null, the current text is deleted.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,26 +105,14 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>ITextRange::SetText</b> replaces the text in the range with the new text. In contrast, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a> replaces the selection with the text <i>bstr</i> and leaves the selection as an insertion point just following the inserted text, just as if you had typed the text in. For UI selection behavior, see <b>TypeText</b>.
 
-If, after you call <b>ITextRange::SetText</b>, you call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>, you get back the same text that you set with the <b>ITextRange::SetText</b> method (unless some other range has changed that text in between the calls). 
-
-
-
+If, after you call <b>ITextRange::SetText</b>, you call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>, you get back the same text that you set with the <b>ITextRange::SetText</b> method (unless some other range has changed that text in between the calls).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -154,7 +135,4 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="https://docs.mi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a>
- 
-
- 
 

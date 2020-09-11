@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
 ms.date: 12/05/2018
 ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt
-f1_keywords:
-- winsock/getsockopt
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- wsock32.dll
-api_name:
-- getsockopt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getsockopt
+ - winsock/getsockopt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - wsock32.dll
+api_name:
+ - getsockopt
 ---
 
 # getsockopt function
@@ -50,44 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getsockopt</b> function retrieves a socket option.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param level [in]
 
 The level at which the option is defined. Example:  <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a>.
-
 
 ### -param optname [in]
 
 The socket option for which the value is to be retrieved. Example: <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options-and-ioctls-2">SO_ACCEPTCONN</a>. The <i>optname</i> value must be a socket option defined within the specified <i>level</i>, or behavior is undefined.
 
-
 ### -param optval [out]
 
 A pointer to the buffer in which the value for the requested option is to be returned.
-
 
 ### -param optlen [in, out]
 
 A pointer to the size, in bytes, of the <i>optval</i> buffer.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getsockopt</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -177,14 +166,8 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getsockopt</b> function retrieves the current value for a socket option associated with a socket of any type, in any state, and stores the result in <i>optval</i>. Options can exist at multiple protocol levels, but they are always present at the uppermost socket level. Options affect socket operations, such as the packet routing and OOB data transfer.
@@ -889,13 +872,7 @@ Many level socket options are not meaningful to IrDA; only SO_LINGER and SO_DONT
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a>
 
@@ -974,7 +951,4 @@ Many level socket options are not meaningful to IrDA; only SO_LINGER and SO_DONT
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mediastreaming
 ms.assetid: FD1242F8-4C2E-4027-B1DE-5FD69557684C
 ms.date: 12/05/2018
 ms.keywords: CreateMediaRendererAsync, CreateMediaRendererAsync method [Media Streaming API], CreateMediaRendererAsync method [Media Streaming API],IMediaRendererFactory interface, IMediaRendererFactory interface [Media Streaming API],CreateMediaRendererAsync method, IMediaRendererFactory.CreateMediaRendererAsync, IMediaRendererFactory.streaming, IMediaRendererFactory::CreateMediaRendererAsync, IMediaRendererFactory::streaming, mediastreaming.imediarendererfactory_createmediarendererasync, windows/IMediaRendererFactory::CreateMediaRendererAsync
-f1_keywords:
-- windows.media.streaming/IMediaRendererFactory.CreateMediaRendererAsync
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IMediaRendererFactory.CreateMediaRendererAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaRendererFactory::CreateMediaRendererAsync
+ - windows.media.streaming/IMediaRendererFactory::CreateMediaRendererAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IMediaRendererFactory.CreateMediaRendererAsync
 ---
 
 # IMediaRendererFactory::streaming
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Asynchronously creates a new instance of an object that implements the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified Unique Device Name (UDN).
 
-
 ## -parameters
-
-
-
 
 ### -param deviceIdentifier [in]
 
 An HSTRING containing a UDN that identifies the DLNA DMR device for which an instance of <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> will be created.
 
-
 ### -param value [out, retval]
 
 Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/createmediarendereroperation">CreateMediaRendererOperation</a> object that is used to get results from the asynchronous operation.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +83,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828924(v=vs.85)">IMediaRendererFactory</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: fedb6f47-59b9-4959-91ef-db1fb398aca9
 ms.date: 12/05/2018
 ms.keywords: GetXml, GetXml method [Open Packaging Conventions], GetXml method [Open Packaging Conventions],IOpcSignatureCustomObject interface, IOpcSignatureCustomObject interface [Open Packaging Conventions],GetXml method, IOpcSignatureCustomObject.GetXml, IOpcSignatureCustomObject::GetXml, msopc/IOpcSignatureCustomObject::GetXml, opc.iopcsignaturecustomobject_getxml
-f1_keywords:
-- msopc/IOpcSignatureCustomObject.GetXml
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSignatureCustomObject.GetXml
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSignatureCustomObject::GetXml
+ - msopc/IOpcSignatureCustomObject::GetXml
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSignatureCustomObject.GetXml
 ---
 
 # IOpcSignatureCustomObject::GetXml
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the XML markup of an application-specific <b>Object</b> element.
 
-
 ## -parameters
-
-
-
 
 ### -param xmlMarkup [out]
 
@@ -92,15 +88,11 @@ Supported encodings and <a href="https://docs.microsoft.com/previous-versions/ms
 
 For an example of a buffer with a <a href="https://docs.microsoft.com/previous-versions/ms776429(v=vs.85)">byte order mark</a>, see the Remarks section.
 
-
 ### -param count [out]
 
 A pointer to  the size of the <i>xmlMarkup</i> buffer.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -132,14 +124,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method allocates memory used by the buffer returned in <i>xmlMarkup</i>.  If the method succeeds, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free the memory.
 
@@ -199,13 +185,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -252,7 +232,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

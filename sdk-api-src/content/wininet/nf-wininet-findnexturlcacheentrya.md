@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 776bf73e-00f3-46a1-a8c7-5eb365e9a518
 ms.date: 12/05/2018
 ms.keywords: FindNextUrlCacheEntry, FindNextUrlCacheEntry function [WinINet], FindNextUrlCacheEntryA, FindNextUrlCacheEntryW, _inet_findnexturlcacheentry_function, wininet.findnexturlcacheentry, wininet/FindNextUrlCacheEntry, wininet/FindNextUrlCacheEntryA, wininet/FindNextUrlCacheEntryW
-f1_keywords:
-- wininet/FindNextUrlCacheEntry
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- FindNextUrlCacheEntry
-- FindNextUrlCacheEntryA
-- FindNextUrlCacheEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNextUrlCacheEntryA
+ - wininet/FindNextUrlCacheEntryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - FindNextUrlCacheEntry
+ - FindNextUrlCacheEntryA
+ - FindNextUrlCacheEntryW
 ---
 
 # FindNextUrlCacheEntryA function
@@ -51,36 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the next entry in the Internet cache.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnumHandle [in]
 
 Handle to the enumeration obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentrya">FindFirstUrlCacheEntry</a>.
 
-
 ### -param lpNextCacheEntryInfo [out]
 
 Pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_cache_entry_infoa">INTERNET_CACHE_ENTRY_INFO</a> structure that receives information about the cache entry.
-
 
 ### -param lpcbCacheEntryInfo [in, out]
 
 Pointer to a variable that specifies the size of the 
 <i>lpNextCacheEntryInfo</i> buffer, in bytes. When the function returns, the variable contains the number of bytes copied to the buffer, or the size of the buffer required to retrieve the cache entry, in bytes.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
@@ -116,14 +107,8 @@ The enumeration completed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Continue to call <b>FindNextUrlCacheEntry</b> until the last item in the cache is returned. 
 
@@ -140,15 +125,9 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

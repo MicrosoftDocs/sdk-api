@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d882f2b0-0f0a-41c7-afca-a232dc00797b
 ms.date: 12/05/2018
 ms.keywords: CERT_QUERY_CONTENT_CERT, CERT_QUERY_CONTENT_CERT_PAIR, CERT_QUERY_CONTENT_CRL, CERT_QUERY_CONTENT_CTL, CERT_QUERY_CONTENT_FLAG_ALL, CERT_QUERY_CONTENT_FLAG_CERT, CERT_QUERY_CONTENT_FLAG_CERT_PAIR, CERT_QUERY_CONTENT_FLAG_CRL, CERT_QUERY_CONTENT_FLAG_CTL, CERT_QUERY_CONTENT_FLAG_PFX, CERT_QUERY_CONTENT_FLAG_PFX_AND_LOAD, CERT_QUERY_CONTENT_FLAG_PKCS10, CERT_QUERY_CONTENT_FLAG_PKCS7_SIGNED, CERT_QUERY_CONTENT_FLAG_PKCS7_SIGNED_EMBED, CERT_QUERY_CONTENT_FLAG_PKCS7_UNSIGNED, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CERT, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CRL, CERT_QUERY_CONTENT_FLAG_SERIALIZED_CTL, CERT_QUERY_CONTENT_FLAG_SERIALIZED_STORE, CERT_QUERY_CONTENT_PFX, CERT_QUERY_CONTENT_PFX_AND_LOAD, CERT_QUERY_CONTENT_PKCS10, CERT_QUERY_CONTENT_PKCS7_SIGNED, CERT_QUERY_CONTENT_PKCS7_SIGNED_EMBED, CERT_QUERY_CONTENT_PKCS7_UNSIGNED, CERT_QUERY_CONTENT_SERIALIZED_CERT, CERT_QUERY_CONTENT_SERIALIZED_CRL, CERT_QUERY_CONTENT_SERIALIZED_CTL, CERT_QUERY_CONTENT_SERIALIZED_STORE, CERT_QUERY_FORMAT_ASN_ASCII_HEX_ENCODED, CERT_QUERY_FORMAT_BASE64_ENCODED, CERT_QUERY_FORMAT_BINARY, CERT_QUERY_FORMAT_FLAG_ALL, CERT_QUERY_FORMAT_FLAG_ASN_ASCII_HEX_ENCODED, CERT_QUERY_FORMAT_FLAG_BASE64_ENCODED, CERT_QUERY_FORMAT_FLAG_BINARY, CERT_QUERY_OBJECT_BLOB, CERT_QUERY_OBJECT_FILE, CryptQueryObject, CryptQueryObject function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptqueryobject, security.cryptqueryobject, wincrypt/CryptQueryObject
-f1_keywords:
-- wincrypt/CryptQueryObject
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptQueryObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptQueryObject
+ - wincrypt/CryptQueryObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptQueryObject
 ---
 
 # CryptQueryObject function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptQueryObject</b> function retrieves information about the contents of a cryptography API object, such as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a>, or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a>. The object can either reside in a structure in memory or be contained in a file.
 
-
 ## -parameters
-
-
-
 
 ### -param dwObjectType [in]
 
@@ -88,8 +84,6 @@ The object is stored in a file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvObject [in]
 
@@ -122,8 +116,6 @@ This parameter is a pointer to a null-terminated Unicode string that contains th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwExpectedContentTypeFlags [in]
 
@@ -299,8 +291,6 @@ The content is a serialized store.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwExpectedFormatTypeFlags [in]
 
@@ -352,13 +342,10 @@ The content should be returned in binary format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
 This parameter is reserved for future use and must be set to zero.
-
 
 ### -param pdwMsgAndCertEncodingType [out]
 
@@ -397,8 +384,6 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwContentType [out]
 
@@ -556,8 +541,6 @@ The content is a serialized store.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwFormatType [out]
 
@@ -599,8 +582,6 @@ The content is in binary format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phCertStore [out]
 
@@ -675,7 +656,6 @@ When you have finished using the handle, free it by passing the handle to the <a
 
 If this information is not needed, set this parameter to <b>NULL</b>.
 
-
 ### -param phMsg [out]
 
 A pointer to an <b>HCRYPTMSG</b> value that receives the handle of an opened message.
@@ -706,7 +686,6 @@ This parameter only receives a message handle when the <i>dwContentType</i> para
 When you have finished using the handle, free it by passing the handle to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.
 
 If this information is not needed, set this parameter to <b>NULL</b>.
-
 
 ### -param ppvContext [out]
 
@@ -787,26 +766,14 @@ This parameter receives a pointer to a <a href="https://docs.microsoft.com/windo
 
 If this information is not needed, set this parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

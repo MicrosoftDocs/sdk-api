@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: b50677cd-8815-4d84-b70a-c83863378c56
 ms.date: 12/05/2018
 ms.keywords: PathCchAddBackslash, PathCchAddBackslash function [Windows Shell], pathcch/PathCchAddBackslash, shell.PathCchAddBackslash
-f1_keywords:
-- pathcch/PathCchAddBackslash
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchAddBackslash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchAddBackslash
+ - pathcch/PathCchAddBackslash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchAddBackslash
 ---
 
 # PathCchAddBackslash function
@@ -59,26 +60,21 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div>
 
-
 ## -parameters
-
 
 ### -param pszPath [in, out]
 
 A pointer to the path string. When this function returns successfully, the buffer contains the string with the appended backslash. This value should not be <b>NULL</b>.
 
-
 ### -param cchPath [in]
 
 The size of the buffer pointed to by <i>pszPath</i>, in characters.
-
 
 ## -returns
 
 This function returns <b>S_OK</b> if the function was successful, <b>S_FALSE</b> if the path string already ends in a backslash, or an error code otherwise.
 
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>
- 
+

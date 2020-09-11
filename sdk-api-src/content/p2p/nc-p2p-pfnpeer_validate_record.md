@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 5d81f09b-e46b-43e6-b0a8-ed7c236f2968
 ms.date: 12/05/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
-f1_keywords:
-- p2p/PFNPEER_VALIDATE_RECORD
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- P2P.h
-api_name:
-- PFNPEER_VALIDATE_RECORD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNPEER_VALIDATE_RECORD
+ - p2p/PFNPEER_VALIDATE_RECORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - P2P.h
+api_name:
+ - PFNPEER_VALIDATE_RECORD
 ---
 
 # PFNPEER_VALIDATE_RECORD callback function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PFNPEER_VALIDATE_RECORD</b> callback specifies the function that the Peer Graphing Infrastructure calls     to validate records.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Specifies the peer graph associated with the specified record.
 
-
 ### -param pvContext [in]
 
 Pointer to the security context. This parameter should point to the <b>pvContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface">PEER_SECURITY_INTERFACE</a> structure.
-
 
 ### -param pRecord [in]
 
 Specifies the record to validate.
 
-
 ### -param changeType [in]
 
 Specifies the reason the validation must occur.  Must be one of the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_record_change_type">PEER_RECORD_CHANGE_TYPE</a> values.
 
-
 ## -returns
-
-
 
 If this callback succeeds, the return value is S_OK; otherwise, the function returns one of the following errors:
 
@@ -123,26 +113,14 @@ The specified record is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When this callback is called by the Peer Graphing Infrastructure, a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_record_change_type">PEER_RECORD_CHANGE_TYPE</a> value is passed.  This specifies  the operation just performed on the record.  The application must verify the record based on the change type.  If the application  requires more information to verify the record, it can return PEER_E_DEFERRED_VALIDATION  and the Peer Graphing  Infrastructure places the record  in a deferred-record list.  Once the security mechanism has enough information to validate the record, it  calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphvalidatedeferredrecords">PeerGraphValidateDeferredRecords</a>, and any record in the deferred-record list is re-submitted for validation.
 
-This callback can be invoked from any of the Peer Graphing API functions involving records, such as <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>. 
-
-
-
+This callback can be invoked from any of the Peer Graphing API functions involving records, such as <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
@@ -157,7 +135,4 @@ This callback can be invoked from any of the Peer Graphing API functions involvi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphvalidatedeferredrecords">PeerGraphValidateDeferredRecords</a>
- 
-
- 
 

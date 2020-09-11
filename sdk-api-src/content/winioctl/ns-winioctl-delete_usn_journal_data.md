@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 06db4b46-fc91-40e0-ab0b-1e014622ae22
 ms.date: 12/05/2018
 ms.keywords: '*PDELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA structure [Files], PDELETE_USN_JOURNAL_DATA, PDELETE_USN_JOURNAL_DATA structure pointer [Files], USN_DELETE_FLAG_DELETE, USN_DELETE_FLAG_NOTIFY, _win32_delete_usn_journal_data_str, base.delete_usn_journal_data_str, fs.delete_usn_journal_data_str, winioctl/DELETE_USN_JOURNAL_DATA, winioctl/PDELETE_USN_JOURNAL_DATA'
-f1_keywords:
-- winioctl/DELETE_USN_JOURNAL_DATA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DELETE_USN_JOURNAL_DATA
 targetos: Windows
 req.typenames: DELETE_USN_JOURNAL_DATA, *PDELETE_USN_JOURNAL_DATA
 req.redist: 
+f1_keywords:
+ - PDELETE_USN_JOURNAL_DATA
+ - winioctl/PDELETE_USN_JOURNAL_DATA
+ - DELETE_USN_JOURNAL_DATA
+ - winioctl/DELETE_USN_JOURNAL_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DELETE_USN_JOURNAL_DATA
 ---
 
 # DELETE_USN_JOURNAL_DATA structure
@@ -48,15 +51,10 @@ req.redist:
 
 ## -description
 
-
 Contains information on the deletion of an update sequence number (USN) change journal using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a> control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UsnJournalID
 
@@ -70,7 +68,6 @@ If the journal is active and deletion is requested by setting the USN_DELETE_FLA
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a> fails.
 
 If notification instead of deletion is requested by setting only the USN_DELETE_FLAG_NOTIFY flag in <b>DeleteFlags</b>, <b>UsnJournalID</b> is ignored.
-
 
 ### -field DeleteFlags
 
@@ -115,30 +112,17 @@ The notification is performed using an I/O completion port or another mechanism 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
- 
-
- 
 

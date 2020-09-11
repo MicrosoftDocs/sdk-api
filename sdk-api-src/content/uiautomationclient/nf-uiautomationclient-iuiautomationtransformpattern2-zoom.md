@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 7CCDDF69-32FA-486C-B319-4D2F7A2407B4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
-f1_keywords:
-- uiautomationclient/IUIAutomationTransformPattern2.Zoom
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationTransformPattern2.Zoom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTransformPattern2::Zoom
+ - uiautomationclient/IUIAutomationTransformPattern2::Zoom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationTransformPattern2.Zoom
 ---
 
 # IUIAutomationTransformPattern2::Zoom
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Zooms the viewport of the control.
 
-
 ## -parameters
-
-
-
 
 ### -param zoomValue [in]
 
@@ -64,25 +60,13 @@ Type: <b>double</b>
 
 The amount to zoom the viewport, specified as a percentage. Positive values increase the zoom level, and negative values decrease it. The control zooms its viewport to the nearest supported value.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern2">IUIAutomationTransformPattern2</a>
- 
-
- 
 

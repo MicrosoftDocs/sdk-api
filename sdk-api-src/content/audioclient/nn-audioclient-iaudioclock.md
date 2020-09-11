@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: dbec9468-b555-42a0-a988-dec3a66c9f96
 ms.date: 12/05/2018
 ms.keywords: IAudioClock, IAudioClock interface [Core Audio], IAudioClock interface [Core Audio],described, audioclient/IAudioClock, coreaudio.iaudioclock
-f1_keywords:
-- audioclient/IAudioClock
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClock
+ - audioclient/IAudioClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClock
 ---
 
 # IAudioClock interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IAudioClock</b> interface enables a client to monitor a stream's data rate and the current position in the stream. The client obtains a reference to the <b>IAudioClock</b> interface of a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to REFIID IID_IAudioClock.
 
 When releasing an <b>IAudioClock</b> interface instance, the client must call the interface's Release method from the same thread as the call to <b>IAudioClient::GetService</b> that created the object.
-
-
-
 
 ## -inheritance
 
@@ -100,13 +96,9 @@ Gets the current position in the stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
@@ -117,7 +109,4 @@ Gets the current position in the stream.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
- 
-
- 
 

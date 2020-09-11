@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
 ms.date: 12/05/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier
-f1_keywords:
-- winnt/MemoryBarrier
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- MemoryBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MemoryBarrier
+ - winnt/MemoryBarrier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - MemoryBarrier
 ---
 
 # MemoryBarrier function
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering read and write operations. It may also prevent the compiler from re-ordering read and write operations.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use this macro or the interlocked functions when the order of memory read and write operations is critical for program operation.
 
@@ -93,15 +85,7 @@ MemoryBarrier (
     }
 }</code></pre>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
- 
-
- 
 

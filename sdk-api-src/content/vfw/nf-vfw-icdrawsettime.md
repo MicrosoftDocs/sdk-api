@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 4c97e0ee-c6f1-4258-9a5f-de633f8c0335
 ms.date: 12/05/2018
 ms.keywords: ICDrawSetTime, ICDrawSetTime macro [Windows Multimedia], _win32_ICDrawSetTime, multimedia.icdrawsettime, vfw/ICDrawSetTime
-f1_keywords:
-- vfw/ICDrawSetTime
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDrawSetTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDrawSetTime
+ - vfw/ICDrawSetTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDrawSetTime
 ---
 
 # ICDrawSetTime macro
@@ -49,50 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDrawSetTime</b> macro provides synchronization information to a rendering driver that handles the timing of drawing frames. The synchronization information is the sample number of the frame to draw. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-settime">ICM_DRAW_SETTIME</a> message.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hic
 
-Handle to a driver. 
-
+Handle to a driver.
 
 ### -param lTime
 
-Sample number of the frame to render. 
-
+Sample number of the frame to render.
 
 ## -remarks
-
-
 
 Typically, the driver compares the specified value with the frame number associated with the time of its internal clock and attempts to synchronize the two if the difference is significant.
 
 Use this message when the hardware performs its own asynchronous decompression, timing, and drawing, and the hardware relies on an external synchronization signal (the hardware is not being used as the synchronization master).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
 

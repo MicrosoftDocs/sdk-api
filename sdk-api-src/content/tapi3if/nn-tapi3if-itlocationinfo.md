@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0f82a6f4-26a6-48dc-9bfa-a86edf1b6be4
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo, ITLocationInfo interface [TAPI 2.2], ITLocationInfo interface [TAPI 2.2],described, _tapi3_itlocationinfo, tapi3.itlocationinfo, tapi3if/ITLocationInfo
-f1_keywords:
-- tapi3if/ITLocationInfo
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLocationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLocationInfo
+ - tapi3if/ITLocationInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLocationInfo
 ---
 
 # ITLocationInfo interface
 
 
 ## -description
-
 
 The 
 <b>ITLocationInfo</b> interface is used to get information related to the location of the calling party. This is the location information that is entered by using the Telephony applet under the Control Panel.
@@ -64,7 +64,6 @@ An
 The 
 <b>ITLocationInfo</b> interface is a COM wrapper for the TAPI 2.<i>x</i>
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linelocationentry">LINELOCATIONENTRY</a> structure.
-
 
 ## -inheritance
 
@@ -180,13 +179,9 @@ Gets toll prefix list.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
@@ -209,7 +204,4 @@ Gets toll prefix list.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
- 
-
- 
 

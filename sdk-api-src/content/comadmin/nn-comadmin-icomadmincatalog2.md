@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: ffca611d-dacc-47be-9101-9de76ecc8393
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ICOMAdminCatalog2 interface [COM+],described, comadmin/ICOMAdminCatalog2, cos.icomadmincatalog2
-f1_keywords:
-- comadmin/ICOMAdminCatalog2
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog2
+ - comadmin/ICOMAdminCatalog2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog2
 ---
 
 # ICOMAdminCatalog2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 An extension of the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a> interface. The <b>ICOMAdminCatalog2</b> methods are used to control the interactions of applications, components, and partitions. These methods enable developers to control application execution, to dump applications or partitions to disk, to move components between applications, and to move applications between partitions.
-
 
 ## -inheritance
 
@@ -398,5 +397,5 @@ Indicates whether the software required for application instance dumps is instal
 
 </td>
 </tr>
-</table> 
+</table>
 

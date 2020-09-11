@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 9bd76fc3-6c31-4e29-b482-82ee0a505656
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],Begin method, IAVIStreaming.Begin, IAVIStreaming::Begin, _win32_IAVIStreaming_Begin, multimedia.iavistreaming_begin, vfw/IAVIStreaming::Begin
-f1_keywords:
-- vfw/IAVIStreaming.Begin
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vfw32.lib
-- Vfw32.dll
-api_name:
-- IAVIStreaming.Begin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAVIStreaming::Begin
+ - vfw/IAVIStreaming::Begin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vfw32.lib
+ - Vfw32.dll
+api_name:
+ - IAVIStreaming.Begin
 ---
 
 # IAVIStreaming::Begin
@@ -50,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Begin</b> method prepares for the streaming operation. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreambeginstreaming">AVIStreamBeginStreaming</a> function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lStart
 
 Starting frame for streaming.
 
-
 ### -param lEnd
 
 Ending frame for streaming.
-
 
 ### -param lRate
 
@@ -81,19 +72,11 @@ Speed at which the file is read relative to its normal playback rate. Normal spe
 
 Pointer to the interface to a stream.
 
-
 ## -returns
-
-
 
 Returns the HRESULT defined by OLE.
 
-
-
-
 ## -remarks
-
-
 
 For handlers written in C++, <b>Begin</b> has the following syntax:
 
@@ -105,21 +88,11 @@ HRESULT Begin(LONG lStart, LONG lEnd, LONG lRate);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
- 
-
- 
 

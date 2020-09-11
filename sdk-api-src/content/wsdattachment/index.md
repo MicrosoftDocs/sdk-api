@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: ncd
+f1_keywords:
+ - wsdattachment
+ - wsdattachment/wsdattachment
 ---
 
 # Wsdattachment.h header
 
 
 ## -description
-
 
 This header is used by Other Devices Technologies. For more information, see:
 

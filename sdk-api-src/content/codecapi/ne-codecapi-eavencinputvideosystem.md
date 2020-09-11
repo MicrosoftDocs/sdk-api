@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f72be523-917a-439f-adc5-d7550e8d6cf9
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncInputVideoSystem, codecapi/eAVEncInputVideoSystem_Component, codecapi/eAVEncInputVideoSystem_HDV, codecapi/eAVEncInputVideoSystem_MAC, codecapi/eAVEncInputVideoSystem_NTSC, codecapi/eAVEncInputVideoSystem_PAL, codecapi/eAVEncInputVideoSystem_SECAM, codecapi/eAVEncInputVideoSystem_Unspecified, dshow.eavencinputvideosystem, eAVEncInputVideoSystem, eAVEncInputVideoSystem enumeration [DirectShow], eAVEncInputVideoSystemEnumeration, eAVEncInputVideoSystem_Component, eAVEncInputVideoSystem_HDV, eAVEncInputVideoSystem_MAC, eAVEncInputVideoSystem_NTSC, eAVEncInputVideoSystem_PAL, eAVEncInputVideoSystem_SECAM, eAVEncInputVideoSystem_Unspecified
-f1_keywords:
-- codecapi/eAVEncInputVideoSystem
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVEncInputVideoSystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVEncInputVideoSystem
+ - codecapi/eAVEncInputVideoSystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVEncInputVideoSystem
 ---
 
 # eAVEncInputVideoSystem enumeration
@@ -49,64 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the nominal range for a video source. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencinputvideosystem-property">AVEncInputVideoSystem</a> property.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field eAVEncInputVideoSystem_Unspecified
 
 The video system is not specified.
 
-
 ### -field eAVEncInputVideoSystem_PAL
 
 PAL television.
-
 
 ### -field eAVEncInputVideoSystem_NTSC
 
 NTSC television.
 
-
 ### -field eAVEncInputVideoSystem_SECAM
 
 SECAM television.
-
 
 ### -field eAVEncInputVideoSystem_MAC
 
 Not documented for this release.
 
-
 ### -field eAVEncInputVideoSystem_HDV
 
 High-definition (HD) video.
-
 
 ### -field eAVEncInputVideoSystem_Component
 
 Component video.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
 

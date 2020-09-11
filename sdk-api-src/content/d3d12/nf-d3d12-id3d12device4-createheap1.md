@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12Device4 interface","CreateHeap1 method","ID3D12Devi
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device4 interface,CreateHeap1 method, ID3D12Device4.CreateHeap1, ID3D12Device4::CreateHeap1, CreateHeap1, CreateHeap1 method, CreateHeap1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createheap1, d3d12/ID3D12Device4::CreateHeap1
-f1_keywords:
-- d3d12/ID3D12Device4.CreateHeap1
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device4::CreateHeap1
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device4::CreateHeap1
+ - d3d12/ID3D12Device4::CreateHeap1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device4::CreateHeap1
 ---
 
 ## -description
@@ -98,3 +99,4 @@ Before releasing the final reference on the heap, your application must ensure t
 A placed resource object holds a reference on the heap it is created on; but a reserved resource doesn't hold a reference for each mapping made to a heap.
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 43d8223b-a3fb-432c-ab4e-009d79ad8658
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreAlloc method, IMallocSpy.PreAlloc, IMallocSpy::PreAlloc, PreAlloc, PreAlloc method [COM], PreAlloc method [COM],IMallocSpy interface, _com_imallocspy_prealloc, com.imallocspy_prealloc, objidl/IMallocSpy::PreAlloc
-f1_keywords:
-- objidl/IMallocSpy.PreAlloc
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMallocSpy.PreAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMallocSpy::PreAlloc
+ - objidl/IMallocSpy::PreAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMallocSpy.PreAlloc
 ---
 
 # IMallocSpy::PreAlloc
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param cbRequest [in]
 
 The number of bytes specified in the allocation request the caller is passing to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">Alloc</a>.
 
-
 ## -returns
-
-
 
 The number of bytes specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">Alloc</a>, which can be greater than or equal to the value of <i>cbRequest</i>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>PreAlloc</b> implementation may extend and/or modify the allocation to store debug-specific information with the allocation.
 
@@ -84,13 +72,7 @@ The <b>PreAlloc</b> implementation may extend and/or modify the allocation to st
 
 The call to <b>PreAlloc</b> through the return from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">PostAlloc</a> is guaranteed to be thread-safe.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>
 
@@ -101,7 +83,4 @@ The call to <b>PreAlloc</b> through the return from <a href="https://docs.micros
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">IMallocSpy::PostAlloc</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
 ms.date: 12/05/2018
 ms.keywords: REG_MUI_STRING_TRUNCATE, RegLoadMUIString, RegLoadMUIString function, RegLoadMUIStringA, RegLoadMUIStringW, base.regloadmuistring, winreg/RegLoadMUIString, winreg/RegLoadMUIStringA, winreg/RegLoadMUIStringW
-f1_keywords:
-- winreg/RegLoadMUIString
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-api_name:
-- RegLoadMUIString
-- RegLoadMUIStringA
-- RegLoadMUIStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegLoadMUIStringA
+ - winreg/RegLoadMUIStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+api_name:
+ - RegLoadMUIString
+ - RegLoadMUIStringA
+ - RegLoadMUIStringW
 ---
 
 # RegLoadMUIStringA function
@@ -58,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the specified string from the specified key and subkey.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -82,12 +78,9 @@ This handle is returned by the
 <dd><b>HKEY_USERS</b></dd>
 </dl>
 
-
-
 ### -param pszValue [in, optional]
 
 The name of the registry value.
-
 
 ### -param pszOutBuf [out, optional]
 
@@ -97,20 +90,17 @@ Strings of the following form receive special handling:
 
 @[<i>path</i>]&#92;<i>dllname</i>,-<i>strID</i>
 
-The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. If the <i>pszDirectory</i> parameter is not <b>NULL</b>, the directory is prepended to the path specified in the registry data. Note that <i>dllname</i> can contain environment variables to be expanded. 
-
+The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. If the <i>pszDirectory</i> parameter is not <b>NULL</b>, the directory is prepended to the path specified in the registry data. Note that <i>dllname</i> can contain environment variables to be expanded.
 
 ### -param cbOutBuf [in]
 
 The size of the <i>pszOutBuf</i> buffer, in bytes.
-
 
 ### -param pcbData [out, optional]
 
 A pointer to a variable that receives the size of the data copied to the <i>pszOutBuf</i> buffer, in bytes.
 
 If the buffer is not large enough to hold the data, the function returns ERROR_MORE_DATA and stores the required buffer size in the variable pointed to by <i>pcbData</i>. In this case, the contents of the buffer are undefined.
-
 
 ### -param Flags [in]
 
@@ -133,17 +123,12 @@ The string is truncated to fit the available size of the <i>pszOutBuf</i> buffer
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszDirectory [in, optional]
 
 The directory path.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -154,12 +139,7 @@ If the <i>pcbData</i> buffer is too small to receive the string, the function re
 
 The ANSI version of this function returns ERROR_CALL_NOT_IMPLEMENTED.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RegLoadMUIString</b> function is supported only for Unicode. Although both Unicode (W) and ANSI (A) versions of this function are declared, the <b>RegLoadMUIStringA</b> function returns ERROR_CALL_NOT_IMPLEMENTED. Applications should explicitly call <b>RegLoadMUIStringW</b> or specify Unicode as the character set in platform invoke (PInvoke) calls. 
 
@@ -175,11 +155,5 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
- 
-
- 
 

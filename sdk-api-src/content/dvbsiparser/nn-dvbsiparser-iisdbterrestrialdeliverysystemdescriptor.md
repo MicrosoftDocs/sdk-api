@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 32bde3dd-05e0-466b-9f04-4b55b0d7f374
 ms.date: 12/05/2018
 ms.keywords: IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor, mstv.iisdbterrestrialdeliverysystemdescriptor
-f1_keywords:
-- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTerrestrialDeliverySystemDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTerrestrialDeliverySystemDescriptor
+ - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTerrestrialDeliverySystemDescriptor
 ---
 
 # IIsdbTerrestrialDeliverySystemDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor. The terrestrial delivery system descriptor appears in the network information table (NIT) as part of the ISDB service information and indicates the physical characteristics of the terrestrial transmission path. This descriptor is required for all ISDB terrestrial broadcasting.
-
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Gets the tag that identifies an ISDB terrestrial delivery system descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

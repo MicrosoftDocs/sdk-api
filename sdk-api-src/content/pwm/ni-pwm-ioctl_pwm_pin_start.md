@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2256B46F-2E81-4A28-8F48-C870E4B8D906
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_START, IOCTL_PWM_PIN_START control, IOCTL_PWM_PIN_START control code, base.ioctl_pwm_pin_start, pwm/IOCTL_PWM_PIN_START
-f1_keywords:
-- pwm/IOCTL_PWM_PIN_START
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_PIN_START
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_PIN_START
+ - pwm/IOCTL_PWM_PIN_START
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_PIN_START
 ---
 
 # IOCTL_PWM_PIN_START IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Starts generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
-
 
 ### -output-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -output-buffer-length
 
 Not used with this operation; set to zero.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -259,18 +235,9 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 </table>
  
 
-Issuing this IOCTL on a pin or channel that is already started has no effect, but does succeed. 
-
-
-
+Issuing this IOCTL on a pin or channel that is already started has no effect, but does succeed.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

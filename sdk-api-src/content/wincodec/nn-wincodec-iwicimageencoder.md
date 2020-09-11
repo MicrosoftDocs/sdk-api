@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: D9854D82-0226-4DD8-AE54-93E5B6544B46
 ms.date: 12/05/2018
 ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], IWICImageEncoder interface [Windows Imaging Component],described, wic.iwicimageencoder, wincodec/IWICImageEncoder
-f1_keywords:
-- wincodec/IWICImageEncoder
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICImageEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICImageEncoder
+ - wincodec/IWICImageEncoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICImageEncoder
 ---
 
 # IWICImageEncoder interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encodes <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a> interfaces to an <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder">IWICBitmapEncoder</a>.  The input images can be larger than the maximum device texture size.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Encodes the given image as the thumbnail to the given WIC bitmap encoder.
 
 </td>
 </tr>
-</table> 
+</table>
 

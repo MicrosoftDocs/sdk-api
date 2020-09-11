@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getunit.htm
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetUnit method, Font.GetUnit, Font::GetUnit, GetUnit, GetUnit method [GDI+], GetUnit method [GDI+],Font class, _gdiplus_CLASS_Font_GetUnit_, gdiplus._gdiplus_CLASS_Font_GetUnit_
-f1_keywords:
-- gdiplusheaders/Font.GetUnit
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Font.GetUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Font::GetUnit
+ - gdiplusheaders/Font::GetUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Font.GetUnit
 ---
 
 # Font::GetUnit
@@ -50,33 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Font::GetUnit</b> method returns the unit of measure of this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a></b>
 
 This method returns one of the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
@@ -99,7 +85,4 @@ This method returns one of the elements of the <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
- 
-
- 
 

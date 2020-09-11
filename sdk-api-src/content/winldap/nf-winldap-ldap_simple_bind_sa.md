@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: c3edca12-2dde-4f64-a479-2fbda8a4a996
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_simple_bind_s, ldap.ldap__simple__bind__s, ldap.ldap_simple_bind_s, ldap_simple_bind_s, ldap_simple_bind_s function [LDAP], ldap_simple_bind_sA, ldap_simple_bind_sW, winldap/ldap_simple_bind_s, winldap/ldap_simple_bind_sA, winldap/ldap_simple_bind_sW
-f1_keywords:
-- winldap/ldap_simple_bind_s
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_simple_bind_s
-- ldap_simple_bind_sA
-- ldap_simple_bind_sW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_simple_bind_sA
+ - winldap/ldap_simple_bind_sA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_simple_bind_s
+ - ldap_simple_bind_sA
+ - ldap_simple_bind_sW
 ---
 
 # ldap_simple_bind_sA function
@@ -51,45 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_simple_bind_s</b> function synchronously authenticates a client to a server, using a plaintext password.
 <div class="alert"><b>Caution</b>  This function sends the name and password without encrypting them, and an unauthorized user, on the network, could read the password. Unless a TLS (SSL) encrypted session has been established, do not this function. For more information about how to set up an encrypted session, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/initializing-a-session">Initializing a Session</a>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ld [in]
 
 The session handle.
-
 
 ### -param dn [in]
 
 The name of the user to bind as. The bind operation uses the <i>dn</i> and <i>passwd</i> parameters to authenticate the user.
 
-
 ### -param passwd [in]
 
 The password of the user specified in the <i>dn</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ldap_simple_bind_s</b> function initiates a simple synchronous bind operation to authenticate a client to an LDAP server. Subsequent bind calls can be used to reauthenticate using the same connection.
 
@@ -103,13 +90,7 @@ Multithreading: Bind calls are unsafe because they apply to the connection as a 
 <div> </div>
 When all of the operations on the session handle are completed, terminate the session by passing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function.  Also, if the <b>ldap_simple_bind_s</b> call fails, the session handle should be freed with a call to  <b>ldap_unbind</b> when no longer required for error recovery.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
 
@@ -136,7 +117,4 @@ When all of the operations on the session handle are completed, terminate the se
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
- 
-
- 
 

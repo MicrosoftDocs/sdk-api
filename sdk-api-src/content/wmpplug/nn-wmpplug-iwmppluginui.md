@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: f292a3e6-87bf-4e68-8737-f7d6351c4ff4
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], IWMPPluginUI interface [Windows Media Player],described, IWMPPluginUIInterface, wmp.iwmppluginui, wmpplug/IWMPPluginUI
-f1_keywords:
-- wmpplug/IWMPPluginUI
-dev_langs:
-- c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpplug.h
-api_name:
-- IWMPPluginUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPluginUI
+ - wmpplug/IWMPPluginUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpplug.h
+api_name:
+ - IWMPPluginUI
 ---
 
 # IWMPPluginUI interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPPluginUI</b> interface manages the connection to Windows Media Player.
-
-
-
 
 ## -inheritance
 
@@ -139,11 +135,5 @@ Called as part of the Windows Media Player message loop to allow the plug-in to 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/WMP/user-interface-plug-ins-programming-reference">User Interface Plug-ins Programming Reference</a>
- 
-
- 
 

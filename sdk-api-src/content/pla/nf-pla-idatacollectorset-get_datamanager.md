@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 739cf386-c5fb-454c-9919-e3997944d68c
 ms.date: 12/05/2018
 ms.keywords: DataManager property [PLA], DataManager property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataManager property, IDataCollectorSet.DataManager, IDataCollectorSet.get_DataManager, IDataCollectorSet::DataManager, IDataCollectorSet::get_DataManager, base.idatacollectorset_get_datamanager, get_DataManager, pla.idatacollectorset_get_datamanager, pla/IDataCollectorSet::DataManager, pla/IDataCollectorSet::get_DataManager
-f1_keywords:
-- pla/IDataCollectorSet.DataManager
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.DataManager
-- IDataCollectorSet.get_DataManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::get_DataManager
+ - pla/IDataCollectorSet::get_DataManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.DataManager
+ - IDataCollectorSet.get_DataManager
 ---
 
 # IDataCollectorSet::get_DataManager
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the data manager associated with this data collector set.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
- 
-
- 
 

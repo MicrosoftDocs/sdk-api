@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: e6326364-fbd0-4446-97c3-6a3940856efb
 ms.date: 12/05/2018
 ms.keywords: DeleteItems, DeleteItems method [Offline Files], DeleteItems method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItems method, IOfflineFilesCache.DeleteItems, IOfflineFilesCache::DeleteItems, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItems, of.iofflinefilescache_deleteitems
-f1_keywords:
-- cscobj/IOfflineFilesCache.DeleteItems
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesCache.DeleteItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesCache::DeleteItems
+ - cscobj/IOfflineFilesCache::DeleteItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesCache.DeleteItems
 ---
 
 # IOfflineFilesCache::DeleteItems
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes files and directories from the local cache.  Deleting a container item implies deletion of all its contained items, recursively.
 
-
 ## -parameters
-
-
-
 
 ### -param rgpszPaths [in]
 
 Array of pointers, each to a fully qualified UNC path of a file or directory to be deleted.
 
-
 ### -param cPaths [in]
 
 Number of paths in the <i>rgpszPaths</i> array.
-
 
 ### -param dwFlags [in]
 
@@ -97,32 +91,22 @@ Delete even if locally modified in the cache.  The default behavior is to not de
 
 Allows administrators to enumerate and delete all files regardless of access rights.  If this flag is set and the caller is not an administrator, the function fails.
 
-
 ### -param bAsync [in]
 
 Indicates if the operation is to be performed asynchronously.  If this parameter is <b>TRUE</b>, the operation is scheduled for asynchronous operation and the function returns immediately.  If this parameter is <b>FALSE</b>, the function returns when the operation is complete.
-
 
 ### -param pIProgress [in]
 
 Interface to an event sink that will receive progress events during the operation.  If events are not desired, this parameter may be <b>NULL</b>.  Providing an event sink is highly recommended for asynchronous operation.  A progress implementation is the only way to be notified when the asynchronous operation completes.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code>  if the operation is canceled.
 Returns HRESULT_FROM_WIN32(ERROR_MORE_DATA)  if errors occurred during the operation.  Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessimpleprogress-itemresult">IOfflineFilesSimpleProgress::ItemResult</a> callback method to detect errors as they occur.
 
-
-
-
 ## -remarks
-
-
 
 The caller must have sufficient access to the files and directories to be deleted.
 
@@ -188,18 +172,8 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 <td>Called at the end of the operation.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
- 
-
- 
 

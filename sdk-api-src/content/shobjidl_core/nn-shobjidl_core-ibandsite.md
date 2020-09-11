@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827
 ms.date: 12/05/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
-f1_keywords:
-- shobjidl_core/IBandSite
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IBandSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBandSite
+ - shobjidl_core/IBandSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IBandSite
 ---
 
 # IBandSite interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that control band objects.
-
 
 ## -inheritance
 
@@ -140,29 +139,17 @@ Set the state of a band in the band site.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 <b>IBandSite</b> is used to host band objects, such as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/shell/mandatory-user-profiles">MenuBandSite</a>
- 
-
- 
 

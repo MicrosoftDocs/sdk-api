@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 23063e34-9d77-4167-83cd-8561accf0a8d
 ms.date: 12/05/2018
 ms.keywords: APPLET_PROC, APPLET_PROC callback, CPlApplet, CPlApplet callback function [Windows Shell], _win32_CPlApplet, cpl/CPlApplet, shell.CPlApplet
-f1_keywords:
-- cpl/CPlApplet
-dev_langs:
-- c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Cpl.h
-api_name:
-- CPlApplet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - APPLET_PROC
+ - cpl/APPLET_PROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Cpl.h
+api_name:
+ - CPlApplet
 ---
 
 ## -description
@@ -85,3 +86,4 @@ For more information, see the descriptions of the individual <a href="https://do
 ## -remarks
 
 Implementers of Control Panel items must also implement this function. No default implementation is available.
+

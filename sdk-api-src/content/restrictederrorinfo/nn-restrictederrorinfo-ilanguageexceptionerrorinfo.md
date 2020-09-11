@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 625C0DAF-8AF6-43EB-BC81-2B3189CF8963
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionErrorInfo, ILanguageExceptionErrorInfo interface [Windows Runtime], ILanguageExceptionErrorInfo interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo
-f1_keywords:
-- restrictederrorinfo/ILanguageExceptionErrorInfo
-dev_langs:
-- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- restrictederrorinfo.h
-api_name:
-- ILanguageExceptionErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILanguageExceptionErrorInfo
+ - restrictederrorinfo/ILanguageExceptionErrorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - restrictederrorinfo.h
+api_name:
+ - ILanguageExceptionErrorInfo
 ---
 
 # ILanguageExceptionErrorInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables retrieving the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer stored in the error info with the call to RoOriginateLanguageException.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Gets the stored <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/n
 
 </td>
 </tr>
-</table> 
+</table>
 

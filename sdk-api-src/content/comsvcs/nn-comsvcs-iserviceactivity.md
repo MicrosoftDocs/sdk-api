@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 005bf0ec-f5a7-41a3-85b3-07f79f26af27
 ms.date: 12/05/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
-f1_keywords:
-- comsvcs/IServiceActivity
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceActivity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceActivity
+ - comsvcs/IServiceActivity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceActivity
 ---
 
 # IServiceActivity interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to call the batch work that is submitted through the activity created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>.
-
-
 
 ## -inheritance
 
@@ -105,13 +103,9 @@ Unbinds the user-defined batch work from the thread on which it is running.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
@@ -130,7 +124,4 @@ Unbinds the user-defined batch work from the thread on which it is running.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicethreadpoolconfig">IServiceThreadPoolConfig</a>
- 
-
- 
 

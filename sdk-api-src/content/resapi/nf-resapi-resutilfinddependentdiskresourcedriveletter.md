@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 8f2187e3-6bb7-4756-af2b-a28857581bcb
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER function [Failover Cluster], ResUtilFindDependentDiskResourceDriveLetter, ResUtilFindDependentDiskResourceDriveLetter function [Failover Cluster], _wolf_resutilfinddependentdiskresourcedriveletter, mscs.resutilfinddependentdiskresourcedriveletter, resapi/PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, resapi/ResUtilFindDependentDiskResourceDriveLetter
-f1_keywords:
-- resapi/ResUtilFindDependentDiskResourceDriveLetter
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilFindDependentDiskResourceDriveLetter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilFindDependentDiskResourceDriveLetter
+ - resapi/ResUtilFindDependentDiskResourceDriveLetter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilFindDependentDiskResourceDriveLetter
 ---
 
 # ResUtilFindDependentDiskResourceDriveLetter function
@@ -49,32 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the drive letter associated with a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a>
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> of a 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Cluster handle.
 
-
 ### -param hResource [in]
 
 Handle to the resource to query for dependencies.
 
-
 ### -param pszDriveLetter [out]
 
 Buffer in which to store the drive letter.
-
 
 ### -param pcchDriveLetter [in, out]
 
@@ -82,10 +75,7 @@ On input, specifies the size of the <i>pszDriveLetter</i> buffer as a count of
        <b>WCHAR</b>s. On output, specifies the size of the resulting data as a count of 
        <b>WCHAR</b>s that includes the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
@@ -133,14 +123,8 @@ The buffer passed in was too small. The <i>pcchDriveLetter</i> parameter specifi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not call this function from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>. It will 
      cause a deadlock. You should have your resource extension call this function and write the results out as a 
@@ -330,14 +314,7 @@ Error_exit:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>
 
@@ -360,7 +337,4 @@ Error_exit:
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wes
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
 ms.date: 12/05/2018
 ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
-f1_keywords:
-- winevt/EvtNextPublisherId
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-api_name:
-- EvtNextPublisherId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtNextPublisherId
+ - winevt/EvtNextPublisherId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+api_name:
+ - EvtNextPublisherId
 ---
 
 # EvtNextPublisherId function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the identifier of a provider from the enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param PublisherEnum [in]
 
 A handle to the registered providers enumerator that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenpublisherenum">EvtOpenPublisherEnum</a> function returns.
 
-
 ### -param PublisherIdBufferSize [in]
 
 The size of the <i>PublisherIdBuffer</i> buffer, in characters.
-
 
 ### -param PublisherIdBuffer [in]
 
 A caller-allocated buffer that will receive the name of the registered provider. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
-
 ### -param PublisherIdBufferUsed [out]
 
 The size, in characters, of the caller-allocated buffer that the function used or the required buffer size if the function fails with ERROR_INSUFFICIENT_BUFFER.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -112,14 +102,8 @@ The function failed. To get the error code, call the <a href="https://docs.micro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this function in a loop until the function returns <b>FALSE</b> and the error code is ERROR_NO_MORE_ITEMS.
 
@@ -132,15 +116,7 @@ For an example that shows how to use this function, see <a href="https://docs.mi
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenpublishermetadata">EvtOpenPublisherMetadata</a>
- 
-
- 
 

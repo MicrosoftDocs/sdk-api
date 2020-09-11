@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
-f1_keywords:
-- lmaccess/NetUserGetInfo
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserGetInfo
+ - lmaccess/NetUserGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserGetInfo
 ---
 
 # NetUserGetInfo function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserGetInfo</b> function retrieves information about a particular user account on a server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param username [in]
 
 A pointer to a constant string that specifies the name of the user account for which to return information. For more information, see the following Remarks section.
-
 
 ### -param level [in]
 
@@ -197,8 +191,6 @@ Return user account information for accounts  which are connected to an Internet
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
@@ -207,10 +199,7 @@ A pointer to the buffer that receives the data. The format of this data depends 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -277,14 +266,8 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
@@ -603,14 +586,7 @@ int wmain(int argc, wchar_t * argv[])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
 
@@ -667,7 +643,4 @@ int wmain(int argc, wchar_t * argv[])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
 

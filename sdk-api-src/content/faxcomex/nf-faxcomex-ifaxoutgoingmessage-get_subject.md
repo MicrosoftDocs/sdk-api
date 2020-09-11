@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0h84.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Subject property, IFaxOutgoingMessage.Subject, IFaxOutgoingMessage.get_Subject, IFaxOutgoingMessage::Subject, IFaxOutgoingMessage::get_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.subject, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_subject_cpp, fax._mfax_faxoutgoingmessage_subject, faxcomex/IFaxOutgoingMessage::Subject, faxcomex/IFaxOutgoingMessage::get_Subject, get_Subject
-f1_keywords:
-- faxcomex/IFaxOutgoingMessage.Subject
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutgoingMessage.Subject
-- IFaxOutgoingMessage.get_Subject
-- IFaxOutgoingMessage.get_Subject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutgoingMessage::get_Subject
+ - faxcomex/IFaxOutgoingMessage::get_Subject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutgoingMessage.Subject
+ - IFaxOutgoingMessage.get_Subject
+ - IFaxOutgoingMessage.get_Subject
 ---
 
 # IFaxOutgoingMessage::get_Subject
@@ -51,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxOutgoingMessage::get_Subject</b> property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a>
 
@@ -74,7 +69,4 @@ This property is read-only.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
- 
-
- 
 

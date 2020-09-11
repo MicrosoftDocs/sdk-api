@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b7efac6a-ac9f-477a-aada-63fe32208e6f
 ms.date: 12/05/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrust, WinVerifyTrust function [Security], Zero, _win32_winverifytrust, security.winverifytrust, wintrust/WinVerifyTrust
-f1_keywords:
-- wintrust/WinVerifyTrust
-dev_langs:
-- c++
 req.header: wintrust.h
 req.include-header: Softpub.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- WinVerifyTrust
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinVerifyTrust
+ - wintrust/WinVerifyTrust
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - WinVerifyTrust
 ---
 
 # WinVerifyTrust function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinVerifyTrust</b> function performs a trust verification action on a specified object. The function passes the inquiry to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> that supports the action identifier, if one exists.
 
 For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -102,8 +98,6 @@ A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pgActionID [in]
 
@@ -190,8 +184,6 @@ Authenticode policy provider.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pWVTData [in]
 
@@ -200,10 +192,7 @@ A pointer that, when cast as a
 
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
 
-
 ## -returns
-
-
 
 If the trust provider verifies that the subject is trusted for the specified action, the return value is zero.  No other value besides zero should be considered a successful return.
 
@@ -267,14 +256,8 @@ The trust provider does not support the form specified for the subject.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WinVerifyTrust</b> function enables applications to invoke a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> to verify that a specified object satisfies the criteria of a specified verification operation. The <i>pgActionID</i> parameter identifies the verification operation, and the <i>pWinTrustData</i> parameter identifies the object whose trust is to be verified. A trust provider is a DLL registered with the operating system. A call to <b>WinVerifyTrust</b> forwards that call to the registered trust provider, if there is one, that supports that specified action identifier.
 
@@ -283,6 +266,4 @@ For example, the Software Publisher Trust Provider can verify that an executable
 Each trust provider supports a specific set of actions that it can evaluate. Each action has a GUID that identifies it. A trust provider can support any number of action identifiers, but two trust providers cannot support the same action identifier.
 
 For an example that demonstrates how to use this function to verify the signature of a portable executable (PE) file, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file">Example C Program: Verifying the Signature of a PE File</a>.
-
-
 

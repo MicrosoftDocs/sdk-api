@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo.get_TargetId, ITsSbTaskInfo::TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services],ITsSbTaskInfo interface, get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
-f1_keywords:
-- sbtsv/ITsSbTaskInfo.TargetId
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTaskInfo.TargetId
-- ITsSbTaskInfo.get_TargetId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTaskInfo::get_TargetId
+ - sbtsv/ITsSbTaskInfo::get_TargetId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTaskInfo.TargetId
+ - ITsSbTaskInfo.get_TargetId
 ---
 
 # ITsSbTaskInfo::get_TargetId
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the target identifier.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
- 
-
- 
 

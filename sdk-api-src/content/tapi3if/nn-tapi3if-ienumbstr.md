@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 0e87ec06-7f3a-410c-9d54-7a67991e089c
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr, IEnumBstr interface [TAPI 2.2], IEnumBstr interface [TAPI 2.2],described, _tapi3_ienumbstr, tapi3.ienumbstr, tapi3if/IEnumBstr
-f1_keywords:
-- tapi3if/IEnumBstr
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumBstr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBstr
+ - tapi3if/IEnumBstr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumBstr
 ---
 
 # IEnumBstr interface
 
 
 ## -description
-
 
 The 
 <b>IEnumBstr</b> interface provides COM-standard methods to enumerate <b>BSTR</b> strings. The following methods return a pointer to this interface:
@@ -67,7 +67,6 @@ The
 </li>
 </ul>The 
 <b>IEnumBstr</b> interface is hidden from Visual Basic and scripting languages.
-
 
 ## -inheritance
 
@@ -120,5 +119,5 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

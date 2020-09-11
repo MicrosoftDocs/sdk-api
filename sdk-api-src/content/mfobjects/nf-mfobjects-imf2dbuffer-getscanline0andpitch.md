@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 08a5f659-609d-4a86-a24e-b30bb7f9e835
 ms.date: 12/05/2018
 ms.keywords: 08a5f659-609d-4a86-a24e-b30bb7f9e835, GetScanline0AndPitch, GetScanline0AndPitch method [Media Foundation], GetScanline0AndPitch method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetScanline0AndPitch method, IMF2DBuffer.GetScanline0AndPitch, IMF2DBuffer::GetScanline0AndPitch, mf.imf2dbuffer_getscanline0andpitch, mfobjects/IMF2DBuffer::GetScanline0AndPitch
-f1_keywords:
-- mfobjects/IMF2DBuffer.GetScanline0AndPitch
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMF2DBuffer.GetScanline0AndPitch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMF2DBuffer::GetScanline0AndPitch
+ - mfobjects/IMF2DBuffer::GetScanline0AndPitch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMF2DBuffer.GetScanline0AndPitch
 ---
 
 # IMF2DBuffer::GetScanline0AndPitch
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a pointer to the buffer memory and the surface stride.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbScanline0 [out]
 
 Receives a pointer to the first byte of the top row of pixels in the image.
 
-
 ### -param plPitch [out]
 
 Receives the stride, in bytes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/image-stride">Image Stride</a>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -106,24 +95,12 @@ You must lock the buffer before calling this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Before calling this method, you must lock the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-lock2d">IMF2DBuffer::Lock2D</a>. The pointer returned in <i>plPitch</i> is valid only while the buffer remains locked.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
@@ -134,7 +111,4 @@ Before calling this method, you must lock the buffer by calling <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
- 
-
- 
 

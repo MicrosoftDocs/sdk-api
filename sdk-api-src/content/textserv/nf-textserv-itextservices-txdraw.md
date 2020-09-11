@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itextservices\itextservicestxdraw.htm
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],TxDraw method, ITextServices.TxDraw, ITextServices::TxDraw, TXTVIEW_ACTIVE, TXTVIEW_INACTIVE, TxDraw, TxDraw method [Windows Controls], TxDraw method [Windows Controls],ITextServices interface, _win32_ITextServices_TxDraw, _win32_ITextServices_TxDraw_cpp, controls.ITextServices_TxDraw, controls._win32_ITextServices_TxDraw, textserv/ITextServices::TxDraw
-f1_keywords:
-- textserv/ITextServices.TxDraw
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.TxDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::TxDraw
+ - textserv/ITextServices::TxDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.TxDraw
 ---
 
 # ITextServices::TxDraw
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws the text services object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDrawAspect [in]
 
@@ -94,8 +90,6 @@ Renders the object to the <i>hdcDraw</i> device context as though it were printe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lindex
 
@@ -103,55 +97,47 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 Not supported.
 
-
 ### -param pvAspect [in]
 
 Type: <b>void*</b>
 
 Information for drawing optimizations.
 
-
 ### -param ptd [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
 
-The target device. 
-
+The target device.
 
 ### -param hdcDraw [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-Rendering device context. 
-
+Rendering device context.
 
 ### -param hicTargetDev [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-Target information context. 
-
+Target information context.
 
 ### -param lprcBounds [in]
 
 Type: <b>LPCRECTL</b>
 
-The bounding (client) rectangle. 
-
+The bounding (client) rectangle.
 
 ### -param lprcWBounds [in]
 
 Type: <b>LPCRECTL</b>
 
-The clipping rectangle for metafiles. 
-
+The clipping rectangle for metafiles.
 
 ### -param lprcUpdate [in]
 
 Type: <b>LPRECT</b>
 
-The update region inside <i>lprcBounds</i>. 
-
+The update region inside <i>lprcBounds</i>.
 
 ### -param pfnContinue
 
@@ -159,13 +145,11 @@ Type: <b>BOOL CALLBACK*</b>
 
 Not supported.
 
-
 ### -param dwContinue
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Parameter to pass to continue function. 
-
+Parameter to pass to continue function.
 
 ### -param lViewId
 
@@ -199,23 +183,14 @@ Draw a view other than the inplace active view; for example, a print    preview.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is typically <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 This method renders the text services object. It accepts the same parameters as the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method in OLE, with the extra <i>lprcUpdate</i> and the <i>lViewId</i> parameters. It can be used while the host is in-place active or inactive.
 
@@ -231,15 +206,9 @@ An OLE host can call the <b>ITextServices::TxDraw</b> method at any time with an
 
 Normally, the client rectangle and device context passed to <b>ITextServices::TxDraw</b> should not be cached, because this would force the text services object to recalculate lines for every draw, which would impede performance. Instead, the text services object could cache the information that is computed for a specific client rectangle and device context (such as line breaks). On the next call to <b>ITextServices::TxDraw</b>, however, the validity of the cached information should be checked before it gets used, and updated information should be regenerated, if necessary.
 
-Also, take great care when the control is in-place active. This problem is even more complex since <b>ITextServices::TxDraw</b> can still be called to render other views than the one that is in-place active. In other words, the client rectangle passed to <b>ITextServices::TxDraw</b> may not be the same as the active one (passed to <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">ITextServices::OnTxInPlaceActivate</a> and obtained through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetclientrect">TxGetClientRect</a> on the host). 
-
-
-
+Also, take great care when the control is in-place active. This problem is even more complex since <b>ITextServices::TxDraw</b> can still be called to render other views than the one that is in-place active. In other words, the client rectangle passed to <b>ITextServices::TxDraw</b> may not be the same as the active one (passed to <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">ITextServices::OnTxInPlaceActivate</a> and obtained through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetclientrect">TxGetClientRect</a> on the host).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -286,7 +255,4 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
 

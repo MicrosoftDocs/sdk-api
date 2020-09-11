@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: b27f83fc-0fcf-44e9-a6ce-c3612c5399ff
 ms.date: 12/05/2018
 ms.keywords: IXpsOMNameCollection, IXpsOMNameCollection interface [XPS Documents and Packaging], IXpsOMNameCollection interface [XPS Documents and Packaging],described, xps.ixpsomnamecollection, xpsobjectmodel/IXpsOMNameCollection
-f1_keywords:
-- xpsobjectmodel/IXpsOMNameCollection
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMNameCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMNameCollection
+ - xpsobjectmodel/IXpsOMNameCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMNameCollection
 ---
 
 # IXpsOMNameCollection interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 A collection of name strings.
-
 
 ## -inheritance
 
@@ -86,22 +85,13 @@ Gets the number of name strings in the collection.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 For more information about the collection methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
@@ -112,7 +102,4 @@ For more information about the collection methods, see <a href="https://docs.mic
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontCollection3 interface [Direct Write]","GetExpi
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection3 interface [Direct Write],GetExpirationEvent method, IDWriteFontCollection3.GetExpirationEvent, IDWriteFontCollection3::GetExpirationEvent, GetExpirationEvent, GetExpirationEvent method [Direct Write], GetExpirationEvent method [Direct Write],IDWriteFontCollection3 interface, directwrite.idwritefontcollection3_getexpirationevent, dwrite_3/IDWriteFontCollection3::GetExpirationEvent
-f1_keywords:
-- dwrite_3/IDWriteFontCollection3.GetExpirationEvent
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontCollection3::GetExpirationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontCollection3::GetExpirationEvent
+ - dwrite_3/IDWriteFontCollection3::GetExpirationEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontCollection3::GetExpirationEvent
 ---
 
 ## -description
@@ -58,3 +59,4 @@ An event handle, if called on the system font set, or `nullptr` if called on a c
 You mustn't call **CloseHandle** on the returned event handle. The handle is owned by the font set object, and it remains valid as long as you hold a reference to the font set. You can wait on the returned event, or use [RegisterWaitForSingleObject](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) to request a callback when the event is set.
 
 ## -see-also
+

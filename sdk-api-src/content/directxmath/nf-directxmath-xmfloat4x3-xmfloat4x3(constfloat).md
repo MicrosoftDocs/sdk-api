@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X3.#ctor(const float)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 constructor [DirectX Math Support APIs], XMFLOAT4X3 constructor [DirectX Math Support APIs],XMFLOAT4X3 structure, XMFLOAT4X3 structure [DirectX Math Support APIs],XMFLOAT4X3 constructor, XMFLOAT4X3.XMFLOAT4X3, XMFLOAT4X3.XMFLOAT4X3(const float), XMFLOAT4X3.XMFLOAT4X3(const float*), XMFLOAT4X3::XMFLOAT4X3, XMFLOAT4X3::XMFLOAT4X3(const float), dxmath.xmfloat4x3_ctor_3
-f1_keywords:
-- directxmath/XMFLOAT4X3.XMFLOAT4X3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT4X3.XMFLOAT4X3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT4X3::XMFLOAT4X3
+ - directxmath/XMFLOAT4X3::XMFLOAT4X3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT4X3.XMFLOAT4X3
 ---
 
 # XMFLOAT4X3::XMFLOAT4X3(const float)
 
 
 ## -description
-
 
 Initializes a new instance of the <code>XMFLOAT4X3</code> structure from a twelve element
 	<code>float</code> array.
@@ -61,19 +61,12 @@ Initializes a new instance of the <a href="https://docs.microsoft.com/windows/de
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
 Address of a 12 element <code>float</code> array, specifying the value of each member
 		of a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>.
-	    
-
 
 ## -remarks
-
-
 
 The matrix elements are stored in <b>pArray</b> in <i>row-major</i> order.
 
@@ -120,14 +113,7 @@ Or
    
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -138,7 +124,4 @@ Or
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat4x3-ctor">XMFLOAT4X3 Constructors</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ixhr2
 ms.assetid: E150B7CA-A881-4CD5-896F-7E3B6770E105
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetCookie method, IXMLHTTPRequest2.SetCookie, IXMLHTTPRequest2::SetCookie, SetCookie, SetCookie method [XMLHttpRequest2], SetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.ixmlhttprequest2_setcookie, msxml6/IXMLHTTPRequest2::SetCookie
-f1_keywords:
-- msxml6/IXMLHTTPRequest2.SetCookie
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2.SetCookie
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2::SetCookie
+ - msxml6/IXMLHTTPRequest2::SetCookie
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2.SetCookie
 ---
 
 # IXMLHTTPRequest2::SetCookie
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a cookie associated with the specified URL in the HTTP cookie jar.
 
-
 ## -parameters
-
-
-
 
 ### -param pCookie
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cookie">XHR_COOKIE</a> structure that specifies the cookie and properties of the cookie to be associated with  the specified URL.
-
 
 ### -param pdwCookieState
 
@@ -147,21 +142,12 @@ The cookie was rejected.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> on success.
 
-
-
-
 ## -remarks
-
-
 
 The <b>SetCookie</b> method has different behavior for Windows Store apps and Windows desktop applications. 
 
@@ -169,13 +155,7 @@ When used in a Windows Store app, the <b>SetCookie</b> method  by default sets t
 
 When used in a Windows desktop application, the <b>SetCookie</b> method  by default sets a persistent cookie that  is system wide and shared by all Windows desktop applications.   When the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ns-msxml6-xhr_cookie">XHR_COOKIE</a> has the <b>XHR_COOKIE_IS_SESSION</b> flag set, then the cookie is set only for the current session of the Windows desktop application.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getcookie">GetCookie Method</a>
 
@@ -190,7 +170,4 @@ When used in a Windows desktop application, the <b>SetCookie</b> method  by defa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_state">XHR_COOKIE_STATE</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 618335a2-2b37-43e2-adaa-2a6d06464627
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionType, FsrmPropertyDefinitionType enumeration [File Server Resource Manager], FsrmPropertyDefinitionType_Bool, FsrmPropertyDefinitionType_Date, FsrmPropertyDefinitionType_Int, FsrmPropertyDefinitionType_MultiChoiceList, FsrmPropertyDefinitionType_MultiString, FsrmPropertyDefinitionType_OrderedList, FsrmPropertyDefinitionType_SingleChoiceList, FsrmPropertyDefinitionType_String, FsrmPropertyDefinitionType_Unknown, fs.fsrmpropertydefinitiontype, fsrm.fsrmpropertydefinitiontype, fsrmenums/FsrmPropertyDefinitionType, fsrmenums/FsrmPropertyDefinitionType_Bool, fsrmenums/FsrmPropertyDefinitionType_Date, fsrmenums/FsrmPropertyDefinitionType_Int, fsrmenums/FsrmPropertyDefinitionType_MultiChoiceList, fsrmenums/FsrmPropertyDefinitionType_MultiString, fsrmenums/FsrmPropertyDefinitionType_OrderedList, fsrmenums/FsrmPropertyDefinitionType_SingleChoiceList, fsrmenums/FsrmPropertyDefinitionType_String, fsrmenums/FsrmPropertyDefinitionType_Unknown
-f1_keywords:
-- fsrmenums/FsrmPropertyDefinitionType
-dev_langs:
-- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FsrmEnums.h
-api_name:
-- FsrmPropertyDefinitionType
 targetos: Windows
 req.typenames: FsrmPropertyDefinitionType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FsrmPropertyDefinitionType
+ - fsrmenums/_FsrmPropertyDefinitionType
+ - FsrmPropertyDefinitionType
+ - fsrmenums/FsrmPropertyDefinitionType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FsrmEnums.h
+api_name:
+ - FsrmPropertyDefinitionType
 ---
 
 # FsrmPropertyDefinitionType enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the types of file classification properties that you can define.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FsrmPropertyDefinitionType_Unknown
 
 The type is unknown. Do not use this value.
-
 
 ### -field FsrmPropertyDefinitionType_OrderedList
 
@@ -79,7 +76,6 @@ You can use the following comparison operators with this type (see
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
-
 ### -field FsrmPropertyDefinitionType_MultiChoiceList
 
 A classification property that defines a list of possible string values, one or more of which may be assigned 
@@ -95,7 +91,6 @@ You can use the following comparison operators with this type (see
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Contains, Contained in, Exists, and Not exists.
 
-
 ### -field FsrmPropertyDefinitionType_SingleChoiceList
 
 A classification property that defines a list of possible string values, only one of which may be assigned 
@@ -109,7 +104,6 @@ You can use the following comparison operators with this type (see
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This file classification property type is not supported before Windows Server 2012.
 
-
 ### -field FsrmPropertyDefinitionType_String
 
 A classification property that contains an arbitrary string value.
@@ -120,7 +114,6 @@ You can use the following comparison operators with this type (see
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Contains, Contained in, Start with, End with, Prefix of, Suffix of, Exists, and Not 
        exists.
-
 
 ### -field FsrmPropertyDefinitionType_MultiString
 
@@ -135,7 +128,6 @@ You can use the following comparison operators with this type (see
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Contains, Contained in, Exists, and Not exists.
 
-
 ### -field FsrmPropertyDefinitionType_Int
 
 A classification property that contains a decimal integer value expressed as a string.
@@ -145,7 +137,6 @@ The aggregation policy is to fail if two sources do not specify the same value.
 You can use the following comparison operators with this type (see 
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
-
 
 ### -field FsrmPropertyDefinitionType_Bool
 
@@ -162,7 +153,6 @@ You can use the following comparison operators with this type (see
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Exists, and Not exists.
 
-
 ### -field FsrmPropertyDefinitionType_Date
 
 A classification property that contains a date value. The date value is a 64-bit decimal number (see 
@@ -174,14 +164,7 @@ You can use the following comparison operators with this type (see
        <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmpropertyconditiontype">FsrmPropertyConditionType</a>): Equal, Not equal, 
        Greater than, Less than, Exists, and Not exists.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_type">IFsrmPropertyDefinition.Type</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b
 ms.date: 12/05/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
-f1_keywords:
-- jobapi2/AssignProcessToJobObject
-dev_langs:
-- c++
 req.header: jobapi2.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-job-l2-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Job-L2-1-1.dll
-api_name:
-- AssignProcessToJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AssignProcessToJobObject
+ - jobapi2/AssignProcessToJobObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-job-l2-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Job-L2-1-1.dll
+api_name:
+ - AssignProcessToJobObject
 ---
 
 # AssignProcessToJobObject function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns a process to an existing job object.
 
-
 ## -parameters
-
-
-
 
 ### -param hJob [in]
 
@@ -67,7 +63,6 @@ A handle to the job object to which the process will be associated. The
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle. The handle must have the JOB_OBJECT_ASSIGN_PROCESS access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>.
-
 
 ### -param hProcess [in]
 
@@ -80,22 +75,14 @@ If the process is already associated with a job, the job specified by <i>hJob</i
 
 <b>Terminal Services:  </b>All processes within a job must run within the same session as the job.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 After you associate a process with a job object using 
 <b>AssignProcessToJobObject</b>, the process is subject to the limits set for the job. To set limits for a job, use the 
@@ -125,13 +112,7 @@ If the job or any of its parent jobs in the job chain is terminating when <b>Ass
 To compile an application that uses this function, define _WIN32_WINNT as 0x0500 or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a>
 
@@ -154,7 +135,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
 

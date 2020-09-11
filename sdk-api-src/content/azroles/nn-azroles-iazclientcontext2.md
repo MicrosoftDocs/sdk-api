@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], IAzClientContext2 interface [Security],described, azroles/IAzClientContext2, security.iazclientcontext2
-f1_keywords:
-- azroles/IAzClientContext2
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzClientContext2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzClientContext2
+ - azroles/IAzClientContext2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzClientContext2
 ---
 
 # IAzClientContext2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzClientContext2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> interface and implements new methods that manipulate the client context.
-
 
 ## -inheritance
 
@@ -129,5 +128,5 @@ Retrieves or sets the domain name of the directory object to be used during eval
 
 </td>
 </tr>
-</table> 
+</table>
 

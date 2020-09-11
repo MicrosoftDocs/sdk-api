@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b0d848a2-1bac-4a30-ae02-26d5af719688
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer interface [Security],Initialize method, IX509EnrollmentPolicyServer.Initialize, IX509EnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::Initialize
+ - certenroll/IX509EnrollmentPolicyServer::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.Initialize
 ---
 
 # IX509EnrollmentPolicyServer::Initialize
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrPolicyServerUrl [in]
 
 A <b>BSTR</b> variable that contains the URL for the certificate enrollment policy server.
 
-
 ### -param bstrPolicyServerId [in]
 
 A <b>BSTR</b> variable that contains a unique ID for the certificate enrollment policy server. If this value is not <b>NULL</b>, it must match the ID string returned by the CEP response.
-
 
 ### -param authFlags [in]
 
@@ -120,13 +114,10 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fIsUnTrusted [in]
 
 A Boolean value that specifies whether to allow an untrusted certification authority certificates.
-
 
 ### -param context [in]
 
@@ -168,12 +159,8 @@ The certificate is being requested by an administrator acting on the behalf of a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -229,18 +216,8 @@ The value specified in the <i>bstrPolicyServerId</i> parameter is not <b>NULL</b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
 

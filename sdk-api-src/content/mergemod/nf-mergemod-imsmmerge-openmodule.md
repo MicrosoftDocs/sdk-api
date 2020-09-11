@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenModule method, IMsmMerge.OpenModule, IMsmMerge::OpenModule, OpenModule, OpenModule method, OpenModule method,IMsmMerge interface, _msi_openmodule_function, mergemod/IMsmMerge::OpenModule, setup.imsmmerge_openmodule
-f1_keywords:
-- mergemod/IMsmMerge.OpenModule
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmMerge.OpenModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmMerge::OpenModule
+ - mergemod/IMsmMerge::OpenModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmMerge.OpenModule
 ---
 
 # IMsmMerge::OpenModule
@@ -49,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OpenModule</b> method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-openmodule">OpenModule</a> method of the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 
 <b>IMsmMerge2::OpenModule</b>    Mergemod.dll version 2.0 and later.<div> </div><b>IMsmMerge::OpenModule</b>      All Mergemod.dll versions.
-			
-
 
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 Fully qualified file name that points to a merge module. A <b>LPCWSTR</b> can be used in place of a <b>BSTR</b>.
 
-
 ### -param Language [in]
 
 A language identifier (<b>LANGID</b>).
 
-
 ## -returns
-
-
 
 The <b>OpenModule</b> function returns the following values.
 
@@ -153,14 +144,8 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function opens the merge module in read-only mode (MSIDBOPEN_READONLY), and excludes other programs from writing to the merge module until the 
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closemodule">CloseModule</a> function is called. A merge module must be opened before it can be merged.
@@ -175,16 +160,7 @@ For more information, see the
 
 Opening a merge module clears any errors that have not already been retrieved.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 09545c1e-8090-4526-9faf-6cb2cb369208
 ms.date: 12/05/2018
 ms.keywords: GetStreamPrioritization, GetStreamPrioritization method [windows Media Format], GetStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStreamPrioritization method, IWMProfile3.GetStreamPrioritization, IWMProfile3::GetStreamPrioritization, IWMProfile3GetStreamPrioritization, wmformat.iwmprofile3_getstreamprioritization, wmsdkidl/IWMProfile3::GetStreamPrioritization
-f1_keywords:
-- wmsdkidl/IWMProfile3.GetStreamPrioritization
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfile3.GetStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile3::GetStreamPrioritization
+ - wmsdkidl/IWMProfile3::GetStreamPrioritization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfile3.GetStreamPrioritization
 ---
 
 # IWMProfile3::GetStreamPrioritization
@@ -52,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreamPrioritization</b> method retrieves the stream prioritization that exists in the profile.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppSP [out]
 
 Pointer to receive the address of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization</a> interface of the stream prioritization object in the profile.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,24 +104,12 @@ The method is unable to allocate memory for the stream prioritization object
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Many profiles do not have a stream prioritization assigned to them. If you call <b>GetStreamPrioritization</b> on such a profile, no error is returned, but the retrieved address is <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
 
@@ -150,7 +128,4 @@ Many profiles do not have a stream prioritization assigned to them. If you call 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/stream-prioritization-object">Stream Prioritization Object</a>
- 
-
- 
 

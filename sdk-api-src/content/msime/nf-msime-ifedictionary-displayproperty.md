@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 5598D1DD-0254-4142-B91F-6BE36DD94228
 ms.date: 12/05/2018
 ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],DisplayProperty method, IFEDictionary.DisplayProperty, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
-f1_keywords:
-- msime/IFEDictionary.DisplayProperty
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msime.h
-api_name:
-- IFEDictionary.DisplayProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFEDictionary::DisplayProperty
+ - msime/IFEDictionary::DisplayProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msime.h
+api_name:
+ - IFEDictionary.DisplayProperty
 ---
 
 # IFEDictionary::DisplayProperty
@@ -49,36 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method is obsolete starting with Windows 8, and is no longer supported.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 The parent window handle.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
- 
-
- 
 

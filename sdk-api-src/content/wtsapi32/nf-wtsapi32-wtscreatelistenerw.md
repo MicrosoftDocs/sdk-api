@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 057facde-43b6-44c4-944a-7ad7854ec1e6
 ms.date: 12/05/2018
 ms.keywords: WTSCreateListener, WTSCreateListener function [Remote Desktop Services], WTSCreateListenerA, WTSCreateListenerW, WTS_LISTENER_CREATE, WTS_LISTENER_UPDATE, termserv.wtscreatelistener, wtsapi32/WTSCreateListener, wtsapi32/WTSCreateListenerA, wtsapi32/WTSCreateListenerW
-f1_keywords:
-- wtsapi32/WTSCreateListener
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSCreateListener
-- WTSCreateListenerA
-- WTSCreateListenerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSCreateListenerW
+ - wtsapi32/WTSCreateListenerW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSCreateListener
+ - WTSCreateListenerA
+ - WTSCreateListenerW
 ---
 
 # WTSCreateListenerW function
@@ -51,39 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new Remote Desktop Services listener or configures an existing listener.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Always set this  parameter to <b>WTS_CURRENT_SERVER_HANDLE</b>.
 
-
 ### -param pReserved [in]
 
 This parameter is reserved. Always set this parameter to <b>NULL</b>.
-
 
 ### -param Reserved [in]
 
 This parameter is reserved. Always set this parameter to zero.
 
-
 ### -param pListenerName [in]
 
 A pointer to a null-terminated string that contains the name of the listener to create or configure.
 
-
 ### -param pBuffer [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that contains configuration information for the listener.
-
 
 ### -param flag [in]
 
@@ -111,22 +102,14 @@ Create a new listener.
 
 Update the settings of an existing listener.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
-
-
-
 ## -remarks
-
-
 
 This function creates or configures a listener that uses   <a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-protocol">Remote Desktop Protocol</a> (RDP). Always set the <b>version</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that is pointed to by the <i>pBuffer</i> parameter to one.
 
@@ -143,9 +126,6 @@ This function does not validate the settings for the new listener. Be sure that 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
@@ -159,7 +139,4 @@ This function does not validate the settings for the new listener. Be sure that 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetlistenersecuritya">WTSSetListenerSecurity</a>
- 
-
- 
 

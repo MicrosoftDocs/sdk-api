@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: audio
+f1_keywords:
+ - baseaudioprocessingobject
+ - baseaudioprocessingobject/baseaudioprocessingobject
 ---
 
 # Baseaudioprocessingobject.h header
 
 
 ## -description
-
 
 This header is used by Audio Devices DDI Reference. For more information, see:
 

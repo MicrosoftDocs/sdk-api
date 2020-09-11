@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 76f5d213-d1fb-4437-af09-9d915db05dc6
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2], ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassregistration, tapi3.itpluggableterminalsuperclassregistration, termmgr/ITPluggableTerminalSuperclassRegistration
-f1_keywords:
-- termmgr/ITPluggableTerminalSuperclassRegistration
-dev_langs:
-- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalSuperclassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalSuperclassRegistration
+ - termmgr/ITPluggableTerminalSuperclassRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalSuperclassRegistration
 ---
 
 # ITPluggableTerminalSuperclassRegistration interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ITPluggableTerminalSuperclassRegistration</b> interface exposes methods that get and set information about a terminal superclass (name and CLSID). The interface also includes methods that list all pluggable terminal public CLSIDs (terminal classes) registered below this terminal class.
-
 
 ## -inheritance
 
@@ -150,5 +149,5 @@ Sets the friendly name for the terminal superclass.
 
 </td>
 </tr>
-</table> 
+</table>
 

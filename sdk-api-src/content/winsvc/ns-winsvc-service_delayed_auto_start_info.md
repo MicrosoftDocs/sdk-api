@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 16117450-eb73-47de-8be7-c7aff3d44c81
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_DELAYED_AUTO_START_INFO, LPSERVICE_DELAYED_AUTO_START_INFO, LPSERVICE_DELAYED_AUTO_START_INFO structure pointer, SERVICE_DELAYED_AUTO_START_INFO, SERVICE_DELAYED_AUTO_START_INFO structure, base.service_delayed_auto_start_info, winsvc/LPSERVICE_DELAYED_AUTO_START_INFO, winsvc/SERVICE_DELAYED_AUTO_START_INFO'
-f1_keywords:
-- winsvc/SERVICE_DELAYED_AUTO_START_INFO
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_DELAYED_AUTO_START_INFO
 targetos: Windows
 req.typenames: SERVICE_DELAYED_AUTO_START_INFO, *LPSERVICE_DELAYED_AUTO_START_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_DELAYED_AUTO_START_INFO
+ - winsvc/_SERVICE_DELAYED_AUTO_START_INFO
+ - LPSERVICE_DELAYED_AUTO_START_INFO
+ - winsvc/LPSERVICE_DELAYED_AUTO_START_INFO
+ - SERVICE_DELAYED_AUTO_START_INFO
+ - winsvc/SERVICE_DELAYED_AUTO_START_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_DELAYED_AUTO_START_INFO
 ---
 
 # SERVICE_DELAYED_AUTO_START_INFO structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the delayed auto-start setting of an auto-start service.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fDelayedAutostart
 
@@ -64,10 +64,7 @@ If this member is <b>TRUE</b>, the service is started after other auto-start ser
 
 This setting is ignored unless the service is an auto-start service.
 
-
 ## -remarks
-
-
 
 Any service can be marked as a delayed auto-start service; however, this setting has no effect unless the service is an auto-start service. The change takes effect the next time the system is started.
 
@@ -79,20 +76,11 @@ If a delayed auto-start service is demand-started using the <a href="https://doc
 
 If a client calls a delayed auto-start service before it is loaded, the call fails. Therefore, clients should be prepared to either retry the call or demand start the service.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
- 
-
- 
 

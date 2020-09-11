@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: adb35089-2846-4782-8c96-d3d1e14beed9
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity interface [COM],SetBlanket method, IClientSecurity.SetBlanket, IClientSecurity::SetBlanket, SetBlanket, SetBlanket method [COM], SetBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_setblanket, com.iclientsecurity_setblanket, objidlbase/IClientSecurity::SetBlanket
-f1_keywords:
-- objidlbase/IClientSecurity.SetBlanket
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IClientSecurity.SetBlanket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClientSecurity::SetBlanket
+ - objidlbase/IClientSecurity::SetBlanket
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IClientSecurity.SetBlanket
 ---
 
 # IClientSecurity::SetBlanket
@@ -49,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.
 
 This setting overrides the process default settings for the specified proxy. Calling this method changes the security values for all other users of the specified proxy.
 
-
 ## -parameters
-
-
-
 
 ### -param pProxy [in]
 
 A pointer to the proxy.
 
-
 ### -param dwAuthnSvc [in]
 
 The authentication service. This will be a single value taken from the list of <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-service-constants">authentication service constants</a>. If no authentication is required, use RPC_C_AUTHN_NONE. If RPC_C_AUTHN_DEFAULT is specified, COM will pick an authentication service following its normal security blanket negotiation algorithm.
 
-
 ### -param dwAuthzSvc [in]
 
 The authorization service. This will be a single value taken from the list of <a href="https://docs.microsoft.com/windows/desktop/com/com-authorization-constants">authorization constants</a>. If RPC_C_AUTHZ_DEFAULT is specified, COM will pick an authorization service following its normal security blanket negotiation algorithm. If NTLMSSP, Kerberos, or Schannel is used as the authentication service, RPC_C_AUTHZ_NONE should be used as the authorization service.
-
 
 ### -param pServerPrincName [in]
 
@@ -83,16 +76,13 @@ If Schannel is used as the authentication service, this value must be one of the
 
 Generally, specifying <b>NULL</b> will not reset server principal name on the proxy, rather, the previous setting will be retained. You must exercise care when using <b>NULL</b> as <i>pServerPrincName</i> when selecting a different authentication service for the proxy, because there is no guarantee that the previously set principal name would be valid for the newly selected authentication service.
 
-
 ### -param dwAuthnLevel [in]
 
 The authentication level. This will be a single value taken from the list of <a href="https://docs.microsoft.com/windows/desktop/com/com-authentication-level-constants">authentication level constants</a>. If RPC_C_AUTHN_LEVEL_DEFAULT is specified, COM will pick an authentication level following its normal security blanket negotiation algorithm. If this value is set to RPC_C_AUTHN_LEVEL_NONE, the authentication service must be RPC_C_AUTHN_NONE. Each authentication service may choose to use a higher security authentication level than the one specified.
 
-
 ### -param dwImpLevel [in]
 
 The impersonation level. This will be a single value taken from the list of <a href="https://docs.microsoft.com/windows/desktop/com/com-impersonation-level-constants">impersonation level constants</a>. If RPC_C_IMP_LEVEL_DEFAULT is specified, COM will pick an impersonation level following its normal security blanket negotiation algorithm. If you are using NTLMSSP remotely, this value must be RPC_C_IMP_LEVEL_IMPERSONATE or RPC_C_IMP_LEVEL_IDENTIFY. When using NTLMSSP on the same computer, RPC_C_IMP_LEVEL_DELEGATE is also supported. For Kerberos, this value can be RPC_C_IMP_LEVEL_IDENTIFY, RPC_C_IMP_LEVEL_IMPERSONATE, or RPC_C_IMP_LEVEL_DELEGATE. For Schannel, this value must be RPC_C_IMP_LEVEL_IMPERSONATE.
-
 
 ### -param pAuthInfo [in]
 
@@ -110,15 +100,11 @@ If COLE_DEFAULT_AUTHINFO is specified, COM will pick the authentication informat
 
 <b>SetBlanket</b> will return an error if both <i>pAuthInfo</i> is set and one of the cloaking flags is set in <i>dwCapabilities</i>.
 
-
 ### -param dwCapabilities [in]
 
 The capabilities of this proxy. Capability flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-eole_authentication_capabilities">EOLE_AUTHENTICATION_CAPABILITIES</a> enumeration. The only flags that can be set through this method are EOAC_MUTUAL_AUTH, EOAC_STATIC_CLOAKING, EOAC_DYNAMIC_CLOAKING, EOAC_ANY_AUTHORITY (this flag is deprecated), EOAC_MAKE_FULLSIC, and EOAC_DEFAULT. Either EOAC_STATIC_CLOAKING or EOAC_DYNAMIC_CLOAKING can be set if <i>pAuthInfo</i> is not set and Schannel is not the authentication service. (See <a href="https://docs.microsoft.com/windows/desktop/com/cloaking">Cloaking</a> for more information.) If any capability flags other than those mentioned here are indicated, <b>SetBlanket</b> will return an error.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -150,14 +136,8 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SetBlanket</b> sets the authentication information that will be used to make calls on the specified interface proxy. The values specified here override the values chosen by automatic security. Calling this method changes the security values for all other users of the specified proxy. If you want the changes to apply only to a particular instance of a proxy, call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclientsecurity-copyproxy">IClientSecurity::CopyProxy</a> to make a private copy of the proxy and then call <b>SetBlanket</b> on the copy.
 
@@ -181,13 +161,7 @@ To change one <b>SetBlanket</b> parameter without having to deal with the others
 
 Note that it is important to set all unused parameters to the default constants because the default value is often not obvious. In particular, if you set the authentication service to the default, you should set the authentication information and principal name to the default. The reasons for this are twofold: First, the type of the authentication information depends on the authentication service DCOM chooses. Second, because DCOM needs to pass some complex authentication information for certain authentication services, if you set the authentication service to default and the authentication information to <b>NULL</b>, you might get a security setting that will not work.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket">CoQueryProxyBlanket</a>
 
@@ -198,7 +172,4 @@ Note that it is important to set all unused parameters to the default constants 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
- 
-
- 
 

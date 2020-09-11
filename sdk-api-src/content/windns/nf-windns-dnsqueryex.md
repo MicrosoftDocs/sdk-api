@@ -8,10 +8,6 @@ tech.root: DNS
 ms.assetid: 22664B9A-5010-42E7-880B-8D5B16A9F2DC
 ms.date: 12/05/2018
 ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQueryEx
-f1_keywords:
-- windns/DnsQueryEx
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsQueryEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsQueryEx
+ - windns/DnsQueryEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsQueryEx
 ---
 
 # DnsQueryEx function
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DnsQueryEx</b> function is the asynchronous generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
 
 Like <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>, <b>DnsQueryEx</b> can be used to make synchronous queries to the DNS namespace as well.
 
-
 ## -parameters
-
-
-
 
 ### -param pQueryRequest [in]
 
@@ -88,8 +84,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns
 <div> </div>
 
 ## -returns
-
-
 
 The 
 <b>DnsQueryEx</b> function has the following possible return values:
@@ -155,14 +149,8 @@ The query will be completed asynchronously.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a call to <b>DnsQueryEx</b> completes synchronously (i.e., the function return value is not <b>DNS_REQUEST_PENDING</b>), the <b>pQueryRecords</b> member of <i>pQueryResults</i> contains a pointer to a list of <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORDS</a> and <b>DnsQueryEx</b> will return either error or success.
 
@@ -181,12 +169,7 @@ If a call to <b>DnsQueryEx</b> completes asynchronously, the results of the quer
 <div class="alert"><b>Note</b>  Applications are notified of asynchronous <b>DnsQueryEx</b> completion through the <a href="https://docs.microsoft.com/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a> callback within the same process context.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a>
 
@@ -197,7 +180,4 @@ If a call to <b>DnsQueryEx</b> completes asynchronously, the results of the quer
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
- 
-
- 
 

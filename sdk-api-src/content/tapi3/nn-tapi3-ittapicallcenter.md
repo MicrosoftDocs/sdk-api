@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 871cb217-a44f-421e-9cb4-7d8771335d08
 ms.date: 12/05/2018
 ms.keywords: ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], ITTAPICallCenter interface [TAPI 2.2],described, _tapi3_ittapicallcenter, tapi3.ittapicallcenter, tapi3cc/ITTAPICallCenter
-f1_keywords:
-- tapi3/ITTAPICallCenter
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPICallCenter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPICallCenter
+ - tapi3/ITTAPICallCenter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPICallCenter
 ---
 
 # ITTAPICallCenter interface
 
 
 ## -description
-
 
 The 
 <b>ITTAPICallCenter</b> interface provides an entry point into call center controls. It exposes methods that allow an application to discover available agent handlers. The agent handler interface can then be used to access the other elements of a call center, such as ACD groups, agents, and queues.
@@ -59,7 +59,6 @@ The
 
 Please see 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a> for additional information.
-
 
 ## -inheritance
 
@@ -96,13 +95,9 @@ Creates a collection of
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-center-controls-interfaces">Call Center Interfaces</a>
 
@@ -113,7 +108,4 @@ Creates a collection of
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
- 
-
- 
 

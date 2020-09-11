@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: debug
+f1_keywords:
+ - webapplication
+ - webapplication/webapplication
 ---
 
 # Webapplication.h header
 
 
 ## -description
-
 
 This header is used by Debugging and authoring support. For more information, see:
 

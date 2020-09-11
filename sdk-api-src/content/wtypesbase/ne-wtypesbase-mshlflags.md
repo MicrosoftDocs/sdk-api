@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 42a482be-d4b8-4f2e-ae43-1d210cb44c7c
 ms.date: 12/05/2018
 ms.keywords: MSHLFLAGS, MSHLFLAGS enumeration [COM], MSHLFLAGS_NOPING, MSHLFLAGS_NORMAL, MSHLFLAGS_TABLESTRONG, MSHLFLAGS_TABLEWEAK, _com_MSHLFLAGS, com.mshlflags, wtypesbase/MSHLFLAGS, wtypesbase/MSHLFLAGS_NOPING, wtypesbase/MSHLFLAGS_NORMAL, wtypesbase/MSHLFLAGS_TABLESTRONG, wtypesbase/MSHLFLAGS_TABLEWEAK
-f1_keywords:
-- wtypesbase/MSHLFLAGS
-dev_langs:
-- c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wtypesbase.h
-api_name:
-- MSHLFLAGS
 targetos: Windows
 req.typenames: MSHLFLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMSHLFLAGS
+ - wtypesbase/tagMSHLFLAGS
+ - MSHLFLAGS
+ - wtypesbase/MSHLFLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wtypesbase.h
+api_name:
+ - MSHLFLAGS
 ---
 
 # MSHLFLAGS enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies why the marshaling is to be done.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MSHLFLAGS_NORMAL
 
 The marshaling is occurring because an interface pointer is being passed from one process to another. This is the normal case. The data packet produced by the marshaling process will be unmarshaled in the destination process. The marshaled data packet can be unmarshaled just once, or not at all. If the receiver unmarshals the data packet successfully, the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a> function is automatically called on the data packet as part of the unmarshaling process. If the receiver does not or cannot unmarshal the data packet, the sender must call <b>CoReleaseMarshalData</b> on the data packet.
-
 
 ### -field MSHLFLAGS_TABLESTRONG
 
@@ -69,37 +66,25 @@ The marshaling is occurring because the data packet is to be stored in a globall
 
 MSHLFLAGS_TABLESTRONG is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> function when registering a window as a drop target. This keeps the window registered as a drop target no matter how many times the end user drags across the window. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a>.
 
-
 ### -field MSHLFLAGS_TABLEWEAK
 
 The marshaling is occurring because the data packet is to be stored in a globally accessible table from which it can be unmarshaled one or more times, or not at all. However, the presence of the data packet in the table acts as a weak reference to the interface being marshaled, meaning that it is not sufficient to keep the object alive. When the data packet is removed from the table, the table implementer must call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a> function on the data packet. 
 
-MSHLFLAGS_TABLEWEAK is typically used when registering an object in the running object table (ROT). This prevents the object's entry in the ROT from keeping the object alive in the absence of any other connections. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> for more information. 
-
+MSHLFLAGS_TABLEWEAK is typically used when registering an object in the running object table (ROT). This prevents the object's entry in the ROT from keeping the object alive in the absence of any other connections. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a> for more information.
 
 ### -field MSHLFLAGS_NOPING
 
 Adding this flag to an original object marshaling (as opposed to marshaling a proxy) will disable the ping protocol for that object.
 
-
 ### -field MSHLFLAGS_RESERVED1
-
 
 ### -field MSHLFLAGS_RESERVED2
 
-
 ### -field MSHLFLAGS_RESERVED3
-
 
 ### -field MSHLFLAGS_RESERVED4
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal">CoGetStandardMarshal</a>
 
@@ -114,7 +99,4 @@ Adding this flag to an original object marshaling (as opposed to marshaling a pr
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
- 
-
- 
 

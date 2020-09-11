@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: e1124df5-7795-49c3-a640-f218cfdd4f1d
 ms.date: 12/05/2018
 ms.keywords: AddVisual, AddVisual method [DirectComposition], AddVisual method [DirectComposition],IDCompositionVisual interface, IDCompositionVisual interface [DirectComposition],AddVisual method, IDCompositionVisual.AddVisual, IDCompositionVisual::AddVisual, dcomp/IDCompositionVisual::AddVisual, directcomp.idcompositionvisual_addvisual
-f1_keywords:
-- dcomp/IDCompositionVisual.AddVisual
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionVisual.AddVisual
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionVisual::AddVisual
+ - dcomp/IDCompositionVisual::AddVisual
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionVisual.AddVisual
 ---
 
 # IDCompositionVisual::AddVisual
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a new child visual to the children list of this visual.
 
-
 ## -parameters
-
-
-
 
 ### -param visual [in]
 
@@ -64,13 +60,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-
 
 The child visual to add. This parameter must not be NULL.
 
-
 ### -param insertAbove [in]
 
 Type: <b>BOOL</b>
 
 TRUE to place the new child visual in front of the visual specified by the <i>referenceVisual</i> parameter, or FALSE to place it behind <i>referenceVisual</i>.
-
 
 ### -param referenceVisual [in, optional]
 
@@ -78,21 +72,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-
 
 The existing child visual next to which the new visual should be added.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
-
-
-
 ## -remarks
-
-
 
 Child visuals are arranged in an ordered list. The contents of a child visual are drawn in front of (or above) the contents of its parent visual,  but behind (or below) the contents of its children.
 
@@ -114,12 +100,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/directco
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createvisual">IDCompositionDevice::CreateVisual</a>
 
@@ -138,7 +119,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/directco
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-removevisual">IDCompositionVisual::RemoveVisual</a>
- 
-
- 
 

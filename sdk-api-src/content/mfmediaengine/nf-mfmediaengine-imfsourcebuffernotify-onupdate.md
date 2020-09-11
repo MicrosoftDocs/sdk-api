@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdate method, IMFSourceBufferNotify.OnUpdate, IMFSourceBufferNotify::OnUpdate, OnUpdate, OnUpdate method [Media Foundation], OnUpdate method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdate, mfmediaengine/IMFSourceBufferNotify::OnUpdate
-f1_keywords:
-- mfmediaengine/IMFSourceBufferNotify.OnUpdate
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBufferNotify.OnUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBufferNotify::OnUpdate
+ - mfmediaengine/IMFSourceBufferNotify::OnUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBufferNotify.OnUpdate
 ---
 
 # IMFSourceBufferNotify::OnUpdate
@@ -49,24 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to indicate that the source buffer is updating.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
- 
-
- 
 

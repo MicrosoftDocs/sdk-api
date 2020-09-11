@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
 ms.date: 12/05/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
-f1_keywords:
-- enclaveapi/DeleteEnclave
-dev_langs:
-- c++
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: onecore.lib
 req.dll: kernel32.dll; Api-ms-win-core-enclave-l1-1-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- api-ms-win-core-enclave-l1-1-0.dll
-api_name:
-- DeleteEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteEnclave
+ - enclaveapi/DeleteEnclave
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - api-ms-win-core-enclave-l1-1-0.dll
+api_name:
+ - DeleteEnclave
 ---
 
 # DeleteEnclave function
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified enclave.
-
 
 ## -parameters
 
-
-
-
 ### -param lpAddress [in]
 
-The base address of the enclave that you want to delete. 
-
+The base address of the enclave that you want to delete.
 
 ## -returns
-
-
 
 <b>TRUE</b> if the enclave was deleted successfully; otherwise <b>FALSE</b>. To get extended error information, 
        call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
@@ -90,18 +83,8 @@ The execution of threads running with the enclave was not ended, because either 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
- 
-
- 
 

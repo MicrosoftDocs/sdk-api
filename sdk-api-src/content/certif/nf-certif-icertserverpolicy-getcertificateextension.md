@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerPolicy object, GetCertificateExtension method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtension method, ICertServerPolicy.GetCertificateExtension, ICertServerPolicy::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverpolicy_getcertificateextension, certif/ICertServerPolicy::GetCertificateExtension, security.icertserverpolicy_getcertificateextension
-f1_keywords:
-- certif/ICertServerPolicy.GetCertificateExtension
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.GetCertificateExtension
-- CCertServerPolicy.GetCertificateExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::GetCertificateExtension
+ - certif/ICertServerPolicy::GetCertificateExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.GetCertificateExtension
+ - CCertServerPolicy.GetCertificateExtension
 ---
 
 # ICertServerPolicy::GetCertificateExtension
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCertificateExtension</b> method retrieves a specific certificate extension.
 
-
 ## -parameters
-
-
-
 
 ### -param strExtensionName [in]
 
 A string that contains the name of the extension.
-
 
 ### -param Type [in]
 
@@ -114,17 +109,12 @@ The extension value is ASN.1 encoded as an IA5 string.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarValue [out]
 
 A pointer to a <b>VARIANT</b> that receives the requested extension value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pvarValue</i> parameter contains the extension value.
@@ -134,12 +124,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the requested extension value.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
@@ -174,14 +159,7 @@ if (FAILED(hr))
 VariantClear(&varExt);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
@@ -192,7 +170,4 @@ VariantClear(&varExt);
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
- 
-
- 
 

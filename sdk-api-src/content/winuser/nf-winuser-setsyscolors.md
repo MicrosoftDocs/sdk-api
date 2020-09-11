@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: 41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0
 ms.date: 12/05/2018
 ms.keywords: SetSysColors, SetSysColors function [Windows and Messages], _win32_setsyscolors, base.changing_the_colors_of_window_elements, base.setsyscolors, winmsg.setsyscolors, winui.setsyscolors, winuser/SetSysColors
-f1_keywords:
-- winuser/SetSysColors
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-RTCore-NTUser-syscolors-l1-1-0.dll
-- minuser.dll
-- ext-ms-win-rtcore-ntuser-sysparams-l1-1-0.dll
-- Ext-MS-Win-NTUser-SysParaMS-Ext-L1-1-0.dll
-api_name:
-- SetSysColors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetSysColors
+ - winuser/SetSysColors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-syscolors-l1-1-0.dll
+ - minuser.dll
+ - ext-ms-win-rtcore-ntuser-sysparams-l1-1-0.dll
+ - Ext-MS-Win-NTUser-SysParaMS-Ext-L1-1-0.dll
+api_name:
+ - SetSysColors
 ---
 
 # SetSysColors function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the colors for the specified display elements. Display elements are the various parts of a window and the display that appear on the system display screen.
 
-
 ## -parameters
-
-
-
 
 ### -param cElements [in]
 
@@ -68,14 +64,12 @@ Type: <b>int</b>
 
 The number of display elements in the <i>lpaElements</i> array.
 
-
 ### -param lpaElements [in]
 
 Type: <b>const INT*</b>
 
 An array of integers that specify the display elements to be changed. For a list of display elements, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>.
-
 
 ### -param lpaRgbValues [in]
 
@@ -88,10 +82,7 @@ To generate a
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -100,12 +91,7 @@ If the function succeeds, the return value is a nonzero value.
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SetSysColors</b> function sends a 
@@ -180,14 +166,7 @@ void main()
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -198,7 +177,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
- 
-
- 
 

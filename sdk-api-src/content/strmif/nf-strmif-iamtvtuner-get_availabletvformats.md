@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 7b1a31d4-be05-4ab3-8ca3-b1a3f4bda03f
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_AvailableTVFormats method, IAMTVTuner.get_AvailableTVFormats, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AvailableTVFormats
-f1_keywords:
-- strmif/IAMTVTuner.get_AvailableTVFormats
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTVTuner.get_AvailableTVFormats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTVTuner::get_AvailableTVFormats
+ - strmif/IAMTVTuner::get_AvailableTVFormats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTVTuner.get_AvailableTVFormats
 ---
 
 # IAMTVTuner::get_AvailableTVFormats
@@ -50,36 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_AvailableTVFormats</code> method retrieves all the analog video TV standards that the tuner supports.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lAnalogVideoStandard [out]
 
 Pointer to a variable that receives a bitwise combination of values from the [AnalogVideoStandard](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-analogvideostandard) enumeration.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -90,7 +74,4 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
- 
-
- 
 

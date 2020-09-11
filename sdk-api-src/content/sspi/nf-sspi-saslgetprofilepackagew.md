@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.date: 12/05/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
-f1_keywords:
-- sspi/SaslGetProfilePackage
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SaslGetProfilePackage
-- SaslGetProfilePackageA
-- SaslGetProfilePackageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaslGetProfilePackageW
+ - sspi/SaslGetProfilePackageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SaslGetProfilePackage
+ - SaslGetProfilePackageA
+ - SaslGetProfilePackageW
 ---
 
 # SaslGetProfilePackageW function
@@ -51,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaslGetProfilePackage</b> function returns the package information for the specified package.
 
-
 ## -parameters
-
-
-
 
 ### -param ProfileName [in]
 
 Unicode or ANSI string that contains the name of the SASL package.
 
-
 ### -param PackageInfo [out]
 
 Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that returns the package information for the package specified by the <i>ProfileName</i> parameter.
 
-
 ## -returns
-
-
 
 If the call is completed successfully, this function returns SEC_E_OK. The following table shows some possible failure return values.
 
@@ -104,9 +96,6 @@ Memory could not be allocated for the <a href="https://docs.microsoft.com/window
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -remarks
 

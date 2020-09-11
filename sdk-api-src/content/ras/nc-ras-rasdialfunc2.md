@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: a9395048-492b-42fb-b247-52999cee3f44
 ms.date: 12/05/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc2, RasDialFunc2 callback, RasDialFunc2 callback function [RAS], _ras_rasdialfunc2, ras/RasDialFunc2, rras.rasdialfunc2
-f1_keywords:
-- ras/RasDialFunc2
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RasDialFunc2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RASDIALFUNC2
+ - ras/RASDIALFUNC2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RasDialFunc2
 ---
 
 # RASDIALFUNC2 callback function
@@ -49,45 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 A 
 <b>RasDialFunc2</b> callback function is called by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function calls when a change of state occurs during a remote access connection process. A 
 <b>RasDialFunc2</b> function is similar to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc1">RasDialFunc1</a> callback function, except that it provides additional information for multilink connections.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
-
 
 ### -param Arg5
 
-
 ### -param Arg6
 
-
 ### -param Arg7
-
-
-
-
-
-
-
 
 #### - dwCallbackId [in]
 
@@ -193,10 +176,7 @@ Specifies the
 
 Specifies the type of event that has occurred. Currently, the only event defined is WM_RASDIALEVENT.
 
-
 ## -returns
-
-
 
 If the 
 <b>RasDialFunc2</b> function returns a nonzero value, 
@@ -206,12 +186,7 @@ If the
 <b>RasDialFunc2</b> function returns zero, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> stops sending callback notifications for all subentries.
 
-
-
-
 ## -remarks
-
-
 
 A 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> connection operation is suspended during a call to a 
@@ -241,12 +216,7 @@ Do not call the
 <div class="alert"><b>Note</b>  <b>RasDialFunc2</b> is a placeholder for the application-defined or library-defined function name.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a>
 
@@ -289,7 +259,4 @@ Do not call the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
 

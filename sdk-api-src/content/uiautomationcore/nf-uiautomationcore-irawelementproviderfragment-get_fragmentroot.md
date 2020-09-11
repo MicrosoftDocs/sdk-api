@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: d3fceca3-78b2-4775-ae11-1c9e71dbf772
 ms.date: 12/05/2018
 ms.keywords: FragmentRoot property [Windows Accessibility], FragmentRoot property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],FragmentRoot property, IRawElementProviderFragment.FragmentRoot, IRawElementProviderFragment.get_FragmentRoot, IRawElementProviderFragment::FragmentRoot, IRawElementProviderFragment::get_FragmentRoot, get_FragmentRoot, uiauto.uiauto_IRawElementProviderFragment_FragmentRoot, uiauto_IRawElementProviderFragment_FragmentRoot, uiautomationcore/IRawElementProviderFragment::FragmentRoot, uiautomationcore/IRawElementProviderFragment::get_FragmentRoot, winauto.uiauto_IRawElementProviderFragment_FragmentRoot
-f1_keywords:
-- uiautomationcore/IRawElementProviderFragment.FragmentRoot
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IRawElementProviderFragment.FragmentRoot
-- IRawElementProviderFragment.get_FragmentRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderFragment::get_FragmentRoot
+ - uiautomationcore/IRawElementProviderFragment::get_FragmentRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IRawElementProviderFragment.FragmentRoot
+ - IRawElementProviderFragment.get_FragmentRoot
 ---
 
 # IRawElementProviderFragment::get_FragmentRoot
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the root node of the fragment.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A provider for a fragment root should return a pointer to its own implementation of 
 			<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>.
@@ -84,17 +80,7 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProvider
 }            
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
- 
-
- 
 

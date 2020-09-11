@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 328eedfe-7fdc-4e90-8bac-ab30944b8fbf
 ms.date: 12/05/2018
 ms.keywords: IADsFileService, IADsFileService interface [ADSI], IADsFileService interface [ADSI],described, _ds_iadsfileservice, adsi.iadsfileservice, iads/IADsFileService
-f1_keywords:
-- iads/IADsFileService
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsFileService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsFileService
+ - iads/IADsFileService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsFileService
 ---
 
 # IADsFileService interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsFileService</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>. It is designed for representing file services supported in the directory service. Through this interface you can discover and modify the maximum number of users simultaneously running a file service.
    
 
 To access active sessions or open resources used by the file service, you must go through the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a> interface to retrieve sessions or resources.
 
 To examine the status of the file service or to perform service management operations, you use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a> interface, which is inherited by <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
-
 
 ## -inheritance
 
@@ -465,22 +464,13 @@ Gets and sets the version data of this service.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Under the WinNT provider, this interface is implemented on the <b>WinNTService</b> object.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -504,7 +494,4 @@ Under the WinNT provider, this interface is implemented on the <b>WinNTService</
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

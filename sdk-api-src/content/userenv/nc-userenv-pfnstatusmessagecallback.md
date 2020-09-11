@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: 9eec6204-49b5-49fd-8db4-5c1777eb7c85
 ms.date: 12/05/2018
 ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTATUSMESSAGECALLBACK callback function [Group Policy], StatusMessageCallback, _win32_statusmessagecallback, policy.statusmessagecallback, userenv/PFNSTATUSMESSAGECALLBACK
-f1_keywords:
-- userenv/PFNSTATUSMESSAGECALLBACK
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Userenv.h
-api_name:
-- PFNSTATUSMESSAGECALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNSTATUSMESSAGECALLBACK
+ - userenv/PFNSTATUSMESSAGECALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Userenv.h
+api_name:
+ - PFNSTATUSMESSAGECALLBACK
 ---
 
 # PFNSTATUSMESSAGECALLBACK callback function
@@ -49,40 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>StatusMessageCallback</b> function is an application-defined callback function used to display status messages when applying policy. The <b>PFNSTATUSMESSAGECALLBACK</b> type defines a pointer to this callback function. 
 <b>StatusMessageCallback</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param bVerbose [in]
 
 Specifies whether the message is verbose. If this parameter is <b>TRUE</b>, the message is verbose. If this parameter is <b>FALSE</b>, the message is not verbose.
 
-
 ### -param lpMessage [in]
 
 Pointer to a buffer that contains the message string.
 
-
 ## -returns
-
-
 
 If the message was displayed successfully, return <b>ERROR_SUCCESS</b>. Otherwise, return a 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 Pass a pointer to the 
 <b>StatusMessageCallback</b> function when the system calls the 
@@ -100,12 +87,7 @@ The status user interface has two modes: standard and verbose. Verbose messages 
 <b>StatusMessageCallback</b> function from a background thread because you may overwrite another thread's status message.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
@@ -122,7 +104,4 @@ The status user interface has two modes: standard and verbose. Verbose messages 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 300e6345-0be0-48c7-a3a3-174879cf0bbb
 ms.date: 12/05/2018
 ms.keywords: CERT_NAME_ATTR_TYPE, CERT_NAME_DISABLE_IE4_UTF8_FLAG, CERT_NAME_DNS_TYPE, CERT_NAME_EMAIL_TYPE, CERT_NAME_FRIENDLY_DISPLAY_TYPE, CERT_NAME_ISSUER_FLAG, CERT_NAME_RDN_TYPE, CERT_NAME_SEARCH_ALL_NAMES_FLAG, CERT_NAME_SIMPLE_DISPLAY_TYPE, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_UPN_TYPE, CERT_NAME_URL_TYPE, CertGetNameString, CertGetNameString function [Security], CertGetNameStringA, CertGetNameStringW, _crypto2_certgetnamestring, security.certgetnamestring, wincrypt/CertGetNameString, wincrypt/CertGetNameStringA, wincrypt/CertGetNameStringW
-f1_keywords:
-- wincrypt/CertGetNameString
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetNameString
-- CertGetNameStringA
-- CertGetNameStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetNameStringW
+ - wincrypt/CertGetNameStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetNameString
+ - CertGetNameStringA
+ - CertGetNameStringW
 ---
 
 # CertGetNameStringW function
@@ -51,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertGetNameString</b> function obtains the subject or issuer name from a certificate 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure and converts it to a <b>null</b>-terminated character string.
 
-
 ## -parameters
-
-
-
 
 ### -param pCertContext [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> certificate context that includes a subject and issuer name to be converted.
-
 
 ### -param dwType [in]
 
@@ -184,8 +179,6 @@ If the UPN OID is found, decode the BLOB as a X509_UNICODE_ANY_STRING and return
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -256,13 +249,10 @@ This flag enables decoding of  <a href="https://docs.microsoft.com/windows/deskt
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvTypePara [in]
 
 A pointer to either a <b>DWORD</b> containing the <i>dwStrType</i> or an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) specifying the name attribute. The type pointed to is determined by the value of <i>dwType</i>.
-
 
 ### -param pszNameString [out]
 
@@ -270,30 +260,17 @@ A pointer to an allocated buffer to receive the returned string. If <i>pszNameSt
 
 If <b>CERT_NAME_SEARCH_ALL_NAMES_FLAG</b> is specified in the <i>dwFlags</i> parameter and <b>CERT_NAME_DNS_TYPE</b> is set in the <i>dwType</i> parameter, the returned string will contain all of the DNS names that apply. Each string in the output string is null-terminated and the last string will be double null-terminated. If no DNS names are found, a single null-terminated empty string is returned.
 
-
 ### -param cchNameString [in]
 
 Size, in characters, allocated for the returned string. The size must include the terminating <b>NULL</b> character.
 
-
 ## -returns
-
-
 
 Returns the number of characters converted, including the terminating zero character. If <i>pszNameString</i> is <b>NULL</b> or <i>cchNameString</i> is zero, returns the required size of the destination string (including the terminating <b>NULL</b> character). If the specified name type is not found, returns a <b>null</b>-terminated empty string with a returned character count of 1.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
- 
-
- 
 
 ## -remarks
 

@@ -25,6 +25,7 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+ms.custom: 20H1
 topic_type:
  - apiref
 api_type:
@@ -34,13 +35,14 @@ api_location:
 api_name:
  - PrjWritePlaceholderInfo2
 f1_keywords:
+ - PrjWritePlaceholderInfo2
  - projectedfslib/PrjWritePlaceholderInfo2
 dev_langs:
  - c++
-ms.custom: 20H1
 ---
 
 # PrjWritePlaceholderInfo2 function
+
 
 ## -description
 
@@ -92,3 +94,4 @@ To specify that this placeholder is to be a symbolic link, the provider formats 
 * `extendedInfo.Symlink.TargetName = <path to the target of the symbolic link>`
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: d063857b-6036-4e68-80af-9c70d12ae29e
 ms.date: 12/05/2018
 ms.keywords: GetSystemMetrics, GetSystemMetrics function [Windows and Messages], SM_ARRANGE, SM_CLEANBOOT, SM_CMONITORS, SM_CMOUSEBUTTONS, SM_CONVERTIBLESLATEMODE, SM_CXBORDER, SM_CXCURSOR, SM_CXDLGFRAME, SM_CXDOUBLECLK, SM_CXDRAG, SM_CXEDGE, SM_CXFIXEDFRAME, SM_CXFOCUSBORDER, SM_CXFRAME, SM_CXFULLSCREEN, SM_CXHSCROLL, SM_CXHTHUMB, SM_CXICON, SM_CXICONSPACING, SM_CXMAXIMIZED, SM_CXMAXTRACK, SM_CXMENUCHECK, SM_CXMENUSIZE, SM_CXMIN, SM_CXMINIMIZED, SM_CXMINSPACING, SM_CXMINTRACK, SM_CXPADDEDBORDER, SM_CXSCREEN, SM_CXSIZE, SM_CXSIZEFRAME, SM_CXSMICON, SM_CXSMSIZE, SM_CXVIRTUALSCREEN, SM_CXVSCROLL, SM_CYBORDER, SM_CYCAPTION, SM_CYCURSOR, SM_CYDLGFRAME, SM_CYDOUBLECLK, SM_CYDRAG, SM_CYEDGE, SM_CYFIXEDFRAME, SM_CYFOCUSBORDER, SM_CYFRAME, SM_CYFULLSCREEN, SM_CYHSCROLL, SM_CYICON, SM_CYICONSPACING, SM_CYKANJIWINDOW, SM_CYMAXIMIZED, SM_CYMAXTRACK, SM_CYMENU, SM_CYMENUCHECK, SM_CYMENUSIZE, SM_CYMIN, SM_CYMINIMIZED, SM_CYMINSPACING, SM_CYMINTRACK, SM_CYSCREEN, SM_CYSIZE, SM_CYSIZEFRAME, SM_CYSMCAPTION, SM_CYSMICON, SM_CYSMSIZE, SM_CYVIRTUALSCREEN, SM_CYVSCROLL, SM_CYVTHUMB, SM_DBCSENABLED, SM_DEBUG, SM_DIGITIZER, SM_IMMENABLED, SM_MAXIMUMTOUCHES, SM_MEDIACENTER, SM_MENUDROPALIGNMENT, SM_MIDEASTENABLED, SM_MOUSEHORIZONTALWHEELPRESENT, SM_MOUSEPRESENT, SM_MOUSEWHEELPRESENT, SM_NETWORK, SM_PENWINDOWS, SM_REMOTECONTROL, SM_REMOTESESSION, SM_SAMEDISPLAYFORMAT, SM_SECURE, SM_SERVERR2, SM_SHOWSOUNDS, SM_SHUTTINGDOWN, SM_SLOWMACHINE, SM_STARTER, SM_SWAPBUTTON, SM_SYSTEMDOCKED, SM_TABLETPC, SM_XVIRTUALSCREEN, SM_YVIRTUALSCREEN, _win32_getsystemmetrics, base.getsystemmetrics, getsystemmetrics_cpp, winmsg.getsystemmetrics, winui.getsystemmetrics, winuser/GetSystemMetrics
-f1_keywords:
-- winuser/GetSystemMetrics
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-sysparams-l1-1-0.dll
-api_name:
-- GetSystemMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemMetrics
+ - winuser/GetSystemMetrics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-sysparams-l1-1-0.dll
+api_name:
+ - GetSystemMetrics
 ---
 
 # GetSystemMetrics function
@@ -53,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified 
     system metric or system configuration setting.
 
 Note that all dimensions 
     retrieved by <b>GetSystemMetrics</b> are in pixels.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
@@ -1260,12 +1256,8 @@ The coordinates for the top of the virtual screen. The virtual screen is the bou
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -1273,14 +1265,8 @@ If the function succeeds, the return value is the requested system metric or con
 
 If the function fails, the return value is 0. 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> does not provide extended error information.
-      
-
-
-
 
 ## -remarks
-
-
 
 System metrics can vary from display to display.
 
@@ -1481,12 +1467,7 @@ void main()
    } 
 }</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a>
 
@@ -1497,7 +1478,4 @@ void main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
 

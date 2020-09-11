@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: f8401d12-da2e-4b35-b473-ebe3d1f91abd
 ms.date: 12/05/2018
 ms.keywords: OPC_CANONICALIZATION_C14N, OPC_CANONICALIZATION_C14N_WITH_COMMENTS, OPC_CANONICALIZATION_METHOD, OPC_CANONICALIZATION_METHOD enumeration [Open Packaging Conventions], OPC_CANONICALIZATION_NONE, msopc/OPC_CANONICALIZATION_C14N, msopc/OPC_CANONICALIZATION_C14N_WITH_COMMENTS, msopc/OPC_CANONICALIZATION_METHOD, msopc/OPC_CANONICALIZATION_NONE, opc.opc_canonicalization_method
-f1_keywords:
-- msopc/OPC_CANONICALIZATION_METHOD
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msopc.h
-api_name:
-- OPC_CANONICALIZATION_METHOD
 targetos: Windows
 req.typenames: OPC_CANONICALIZATION_METHOD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msopc_0001_0076_0001
+ - msopc/__MIDL___MIDL_itf_msopc_0001_0076_0001
+ - OPC_CANONICALIZATION_METHOD
+ - msopc/OPC_CANONICALIZATION_METHOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msopc.h
+api_name:
+ - OPC_CANONICALIZATION_METHOD
 ---
 
 # OPC_CANONICALIZATION_METHOD enumeration
@@ -49,46 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the canonicalization method  to be applied to XML markup.
 
-
 ## -enum-fields
-
-
-
 
 ### -field OPC_CANONICALIZATION_NONE
 
 No canonicalization method is applied.
 
-
 ### -field OPC_CANONICALIZATION_C14N
 
 The C14N canonicalization method that removes comments is applied.
-
 
 ### -field OPC_CANONICALIZATION_C14N_WITH_COMMENTS
 
 The C14N canonicalization method that preserves comments is applied.
 
-
 ## -remarks
-
-
 
 For more information about XML canonicalization, see the <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a> (http://www.w3.org/TR/xml-c14n).
 
 For more information about canonicalization and packages, see the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML standard</a>
 
@@ -156,7 +143,4 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
- 
-
- 
 

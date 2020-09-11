@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 8015689c-920c-4896-a34f-cda4f9b187e1
 ms.date: 12/05/2018
 ms.keywords: GetKValue, GetKValue macro [Windows Color System], _color_GetKValue, wcs.getkvalue, wingdi/GetKValue
-f1_keywords:
-- wingdi/GetKValue
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- GetKValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetKValue
+ - wingdi/GetKValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - GetKValue
 ---
 
 # GetKValue macro
@@ -49,27 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetKValue</b> macro retrieves the black color value from a CMYK color value.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cmyk
 
 CMYK color value from which the black color value will be retrieved.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
@@ -92,7 +81,4 @@ CMYK color value from which the black color value will be retrieved.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/macros-for-cmyk-values-and-colors">Macros for CMYK Values and Colors</a>
- 
-
- 
 

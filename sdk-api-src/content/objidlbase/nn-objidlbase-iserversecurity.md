@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
-f1_keywords:
-- objidlbase/IServerSecurity
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IServerSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServerSecurity
+ - objidlbase/IServerSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IServerSecurity
 ---
 
 # IServerSecurity interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Used by a server to help authenticate the client and to manage impersonation of the client. 
-
-
+Used by a server to help authenticate the client and to manage impersonation of the client.
 
 ## -inheritance
 
@@ -105,13 +103,9 @@ Restores the authentication information of a thread to what it was before impers
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
@@ -122,7 +116,4 @@ Restores the authentication information of a thread to what it was before impers
 
 
 <a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
- 
-
- 
 

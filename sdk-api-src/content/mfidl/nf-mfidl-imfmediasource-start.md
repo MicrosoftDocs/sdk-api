@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 0a5abafe-1525-4bda-946c-05a6145e57ee
 ms.date: 12/05/2018
 ms.keywords: 0a5abafe-1525-4bda-946c-05a6145e57ee, IMFMediaSource interface [Media Foundation],Start method, IMFMediaSource.Start, IMFMediaSource::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSource interface, mf.imfmediasource_start, mfidl/IMFMediaSource::Start
-f1_keywords:
-- mfidl/IMFMediaSource.Start
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSource.Start
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSource::Start
+ - mfidl/IMFMediaSource::Start
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSource.Start
 ---
 
 # IMFMediaSource::Start
@@ -50,39 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Starts, seeks, or restarts the media source by specifying where to start playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPresentationDescriptor [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get the presentation descriptor, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a>. You can modify the presentation descriptor before calling <b>Start</b>, to select or deselect streams or change the media types.
-          
-
 
 ### -param pguidTimeFormat [in]
 
 Pointer to a GUID that specifies the time format. The time format defines the units for the <i>pvarStartPosition</i> parameter. If the value <i></i> is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs. This parameter can be <b>NULL</b>. If the value is <b>NULL</b>, it is equalivent to <b>GUID_NULL</b>.
-          
-
 
 ### -param pvarStartPosition [in]
 
 Specifies where to start playback. The units of this parameter are indicated by the time format given in <i>pguidTimeFormat</i>. If the time format is <b>GUID_NULL</b>, the variant type must be <b>VT_I8</b> or <b>VT_EMPTY</b>. Use <b>VT_I8</b> to specify a new starting position, in 100-nanosecond units. Use <b>VT_EMPTY</b> to start from the current position. Other time formats might use other <b>PROPVARIANT</b> types.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -164,14 +149,8 @@ The media source does not support the time format specified in <i>pguidTimeForma
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is asynchronous. If the operation succeeds, the media source sends the following events:
 
@@ -238,21 +217,11 @@ hr = pSource->Start(pPresentationDescriptor, NULL, &var);
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
- 
-
- 
 

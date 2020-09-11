@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 233d4471-037f-4df9-bef6-57f2544dedb5
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetService method, IAudioClient.GetService, IAudioClient::GetService, IAudioClientGetService, audioclient/IAudioClient::GetService, coreaudio.iaudioclient_getservice
-f1_keywords:
-- audioclient/IAudioClient.GetService
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::GetService
+ - audioclient/IAudioClient::GetService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.GetService
 ---
 
 # IAudioClient::GetService
@@ -49,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetService</b> method accesses additional services from the audio client object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
@@ -83,15 +76,11 @@ IID_ISimpleAudioVolume
 
 For more information, see Remarks.
 
-
 ### -param ppv [out]
 
 Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetService</b> call fails, <i>*ppv</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -167,14 +156,8 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
@@ -235,12 +218,7 @@ For code examples that call the <b>GetService</b> method, see the following topi
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
@@ -275,7 +253,4 @@ For code examples that call the <b>GetService</b> method, see the following topi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
- 
-
- 
 

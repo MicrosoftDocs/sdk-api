@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: ff25bc2b-dde6-40c3-a270-372daab2e5c4
 ms.date: 12/05/2018
 ms.keywords: QueryDosDevice, QueryDosDevice function [Files], QueryDosDeviceA, QueryDosDeviceW, _win32_querydosdevice, base.querydosdevice, fileapi/QueryDosDevice, fileapi/QueryDosDeviceA, fileapi/QueryDosDeviceW, fs.querydosdevice, winbase/QueryDosDevice, winbase/QueryDosDeviceA, winbase/QueryDosDeviceW
-f1_keywords:
-- winbase/QueryDosDevice
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,37 +25,41 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- QueryDosDevice
-- QueryDosDeviceA
-- QueryDosDeviceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryDosDeviceA
+ - winbase/QueryDosDeviceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - QueryDosDevice
+ - QueryDosDeviceA
+ - QueryDosDeviceW
 ---
 
 # QueryDosDeviceA function
 
 
 ## -description
-
 
 Retrieves information about MS-DOS device names. The function can obtain the current 
     mapping for a particular MS-DOS device name. The function can also obtain a list of all existing MS-DOS device 
@@ -71,11 +71,7 @@ MS-DOS device names are stored as junctions in the object namespace. The code th
     the names of the junctions used to implement the MS-DOS device namespace as well as the value of each specific 
     junction.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDeviceName [in, optional]
 
@@ -85,7 +81,6 @@ An MS-DOS device name string specifying the target of the query. The device name
 This parameter can be <b>NULL</b>. In that case, the 
        <b>QueryDosDevice</b> function will store a list of all 
        existing MS-DOS device names into the buffer pointed to by <i>lpTargetPath</i>.
-
 
 ### -param lpTargetPath [out]
 
@@ -102,16 +97,12 @@ If <i>lpDeviceName</i> is <b>NULL</b>, the function retrieves a list of
        all existing MS-DOS device names. Each null-terminated string stored into the buffer is the name of an existing 
        MS-DOS device, for example, \Device\HarddiskVolume1 or \Device\Floppy0.
 
-
 ### -param ucchMax [in]
 
 The maximum number of <b>TCHARs</b> that can be stored into the buffer pointed to by 
       <i>lpTargetPath</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of <b>TCHARs</b> stored into 
        the buffer pointed to by <i>lpTargetPath</i>.
@@ -122,12 +113,7 @@ If the function fails, the return value is zero. To get extended error informati
 If the buffer is too small, the function fails and the last error code is 
        <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a> function enables an application 
     to create and modify the junctions used to implement the MS-DOS device namespace.
@@ -218,19 +204,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
 

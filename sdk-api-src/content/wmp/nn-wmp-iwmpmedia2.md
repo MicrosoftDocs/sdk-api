@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia2, IWMPMedia2 interface [Windows Media Player], IWMPMedia2 interface [Windows Media Player],described, IWMPMedia2Interface, wmp.iwmpmedia2, wmp/IWMPMedia2
-f1_keywords:
-- wmp/IWMPMedia2
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPMedia2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMedia2
+ - wmp/IWMPMedia2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPMedia2
 ---
 
 # IWMPMedia2 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPMedia2</b> interface provides a method that supplements the <b>IWMPMedia</b> interface.
-
-
-
 
 ## -inheritance
 
@@ -80,20 +76,13 @@ Retrieves a pointer to an <b>IWMPErrorItem</b> interface if the media item has a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: e7ff6acd-b7c4-463d-a34f-fd793067c63a
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],SetInfo method, IADs.SetInfo, IADs::SetInfo, SetInfo, SetInfo method [ADSI], SetInfo method [ADSI],IADs interface, _ds_iads_setinfo, adsi.iads__setinfo, adsi.iads_setinfo, iads/IADs::SetInfo
-f1_keywords:
-- iads/IADs.SetInfo
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs.SetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs::SetInfo
+ - iads/IADs::SetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs.SetInfo
 ---
 
 # IADs::SetInfo
@@ -49,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADs::SetInfo</b> method saves the cached property values of the ADSI object to the underlying directory store.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method supports the standard return values, including S_OK for a successful operation. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 It is important to emphasize the differences between the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a> and <b>IADs::SetInfo</b> methods. The former sets (or modifies) values of a given property in the property cache whereas the latter propagates the changes from the property cache into the underlying directory store. Therefore, any property value changes made by <b>IADs::Put</b> will be lost if <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a>) is invoked before <b>IADs::SetInfo</b> is called.
 
@@ -185,14 +172,7 @@ if(pADs)
    pADs->Release();
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
@@ -211,7 +191,4 @@ if(pADs)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: e7400a40-9b82-4750-8e92-a39c6f25b7cd
 ms.date: 12/05/2018
 ms.keywords: IOERM_PointErase, IOERM_StrokeErase, InkOverlayEraserMode, InkOverlayEraserMode enumeration [Tablet PC], e7400a40-9b82-4750-8e92-a39c6f25b7cd, msinkaut/IOERM_PointErase, msinkaut/IOERM_StrokeErase, msinkaut/InkOverlayEraserMode, tablet.inkoverlayerasermode
-f1_keywords:
-- msinkaut/InkOverlayEraserMode
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- InkOverlayEraserMode
 targetos: Windows
 req.typenames: InkOverlayEraserMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkOverlayEraserMode
+ - msinkaut/InkOverlayEraserMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - InkOverlayEraserMode
 ---
 
 # InkOverlayEraserMode enumeration
@@ -49,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the way in which ink is erased from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 This mode is used when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode</a> is set to Delete.
 
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field IOERM_StrokeErase
 
@@ -69,16 +62,11 @@ This mode is used when the <a href="https://docs.microsoft.com/windows/desktop/a
 
 This is the default value.
 
-
 ### -field IOERM_PointErase
 
 Ink is erased by point.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode Property [InkPicture Control]</a>
 
@@ -89,7 +77,4 @@ Ink is erased by point.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>
- 
-
- 
 

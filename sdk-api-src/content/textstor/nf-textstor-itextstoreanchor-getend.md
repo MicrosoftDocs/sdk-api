@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 4c510900-bcff-4ea1-a8f3-95b6f47b3432
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEnd method, ITextStoreAnchor.GetEnd, ITextStoreAnchor::GetEnd, textstor/ITextStoreAnchor::GetEnd, tsf.itextstoreanchor_getend
-f1_keywords:
-- textstor/ITextStoreAnchor.GetEnd
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.GetEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::GetEnd
+ - textstor/ITextStoreAnchor::GetEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.GetEnd
 ---
 
 # ITextStoreAnchor::GetEnd
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreAnchor::GetEnd</b> method returns an anchor positioned at the end of the text stream.
 
-
 ## -parameters
-
-
-
 
 ### -param ppaEnd [out]
 
 Pointer to an anchor object located at the very end of the text stream.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -130,15 +123,8 @@ The caller does not have a read-only lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
@@ -146,7 +132,4 @@ The caller does not have a read-only lock.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettext">ITextStoreAnchor::GetText
       </a>
- 
-
- 
 

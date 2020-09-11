@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 4c4d418d-e279-40ea-9ec1-42ced523db34
 ms.date: 12/05/2018
 ms.keywords: '*PSP_FILE_COPY_PARAMS_W, PSP_FILE_COPY_PARAMS, PSP_FILE_COPY_PARAMS structure pointer [Setup API], SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SP_FILE_COPY_PARAMS, SP_FILE_COPY_PARAMS structure [Setup API], SP_FILE_COPY_PARAMS_W, _setupapi_sp_file_copy_params, setup.sp_file_copy_params, setupapi/PSP_FILE_COPY_PARAMS, setupapi/SP_FILE_COPY_PARAMS'
-f1_keywords:
-- setupapi/SP_FILE_COPY_PARAMS
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Setupapi.h
-api_name:
-- SP_FILE_COPY_PARAMS
-- sp_file_copy_params_w
 targetos: Windows
 req.typenames: SP_FILE_COPY_PARAMS_W, *PSP_FILE_COPY_PARAMS_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_FILE_COPY_PARAMS_W
+ - setupapi/_SP_FILE_COPY_PARAMS_W
+ - PSP_FILE_COPY_PARAMS_W
+ - setupapi/PSP_FILE_COPY_PARAMS_W
+ - SP_FILE_COPY_PARAMS_W
+ - setupapi/SP_FILE_COPY_PARAMS_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Setupapi.h
+api_name:
+ - SP_FILE_COPY_PARAMS
+ - sp_file_copy_params_w
 ---
 
 # SP_FILE_COPY_PARAMS_W structure
@@ -50,61 +55,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SP_FILE_COPY_PARAMS</b> structure describes a single file copy operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size of the structure, in bytes. Set to the value: <code>sizeof(SP_FILE_COPY_PARAMS)</code>.
-
 
 ### -field QueueHandle
 
 Handle to a setup file queue, as returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>.
 
-
 ### -field SourceRootPath
 
 Optional pointer to the root of the source for this copy, such as A:\.
-
 
 ### -field SourcePath
 
 Optional pointer to the path relative to <b>SourceRootPath</b> where the file can be found.
 
-
 ### -field SourceFilename
 
 File name part of the file to be copied.
-
 
 ### -field SourceDescription
 
 Optional pointer to a description of the source media to be used during disk prompts.
 
-
 ### -field SourceTagfile
 
 Optional pointer to a tag file whose presence at <b>SourceRootPath</b> indicates the presence of the source media. If not specified, the file itself will be used as the tag file if required.
-
 
 ### -field TargetDirectory
 
 Directory where the file is to be copied.
 
-
 ### -field TargetFilename
 
 Optional pointer to the name of the target file. If not specified, the target file will have the same name as the source file.
-
 
 ### -field CopyStyle
 
@@ -272,32 +263,22 @@ If the user tries to skip a file, warn them that skipping a file may affect the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LayoutInf
 
 Handle to the INF to use to obtain source information.
 
-
 ### -field SecurityDescriptor
 
 An optional Security Descriptor String specifying the ACL to apply to the file.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
- 
-
- 
 
 ## -remarks
 

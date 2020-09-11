@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: c93be952-41a8-48c4-b24f-996bf9237727
 ms.date: 12/05/2018
 ms.keywords: VER_AND, VER_BUILDNUMBER, VER_EQUAL, VER_GREATER, VER_GREATER_EQUAL, VER_LESS, VER_LESS_EQUAL, VER_MAJORVERSION, VER_MINORVERSION, VER_OR, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SET_CONDITION, VER_SET_CONDITION macro, VER_SUITENAME, _win32_ver_set_condition, base.ver_set_condition, winnt/VER_SET_CONDITION
-f1_keywords:
-- winnt/VER_SET_CONDITION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- VER_SET_CONDITION
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VER_SET_CONDITION
+ - winnt/VER_SET_CONDITION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - VER_SET_CONDITION
 ---
 
 # VER_SET_CONDITION macro
@@ -49,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This macro is used to build the <i>dwlConditionMask</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param _m_
 
@@ -70,7 +66,6 @@ A variable to be passed as the <i>dwlConditionMask</i> parameter of the
 Before the first call to 
 <b>VER_SET_CONDITION</b>, initialize this variable to zero. For subsequent calls to 
 <b>VER_SET_CONDITION</b>, pass in the variable used in the previous call.
-
 
 ### -param _t_
 
@@ -172,8 +167,6 @@ wSuiteMask
 </td>
 </tr>
 </table>
- 
-
 
 ### -param _c_
 
@@ -278,12 +271,8 @@ At least one of the specified product suites must be present in the current syst
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Call this macro once for each bit set in the <i>dwTypeMask</i> parameter of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
@@ -296,19 +285,11 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: D4CE0071-47C4-421D-A0F1-D6E2D9983838
 ms.date: 12/05/2018
 ms.keywords: UiaDisconnectProvider, UiaDisconnectProvider function [Windows Accessibility], uiautomationcoreapi/UiaDisconnectProvider, winauto.uiauto_UiaDisconnectProvider
-f1_keywords:
-- uiautomationcoreapi/UiaDisconnectProvider
-dev_langs:
-- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Uiautomationcore.dll
-- Ext-MS-Win-uiacore-l1-1-0.dll
-- Ext-MS-Win-UIaCore-l1-1-1.dll
-- Ext-MS-Win-UIaCore-l1-1-2.dll
-- Ext-MS-Win-UiaCore-L1-1-3.dll
-api_name:
-- UiaDisconnectProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaDisconnectProvider
+ - uiautomationcoreapi/UiaDisconnectProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Uiautomationcore.dll
+ - Ext-MS-Win-uiacore-l1-1-0.dll
+ - Ext-MS-Win-UIaCore-l1-1-1.dll
+ - Ext-MS-Win-UIaCore-l1-1-2.dll
+ - Ext-MS-Win-UiaCore-L1-1-3.dll
+api_name:
+ - UiaDisconnectProvider
 ---
 
 # UiaDisconnectProvider function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases all references that a particular provider holds to Microsoft UI Automation objects.
 
-
 ## -parameters
-
-
-
 
 ### -param pProvider [in]
 
@@ -68,21 +64,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcor
 
 The provider to be disconnected.
 
-
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A provider should call this function to clean up UI Automation resources that are associated with a UI element that was destroyed.  The DLL  associated with the UI element can be safely unloaded after the function returns.
 
@@ -95,20 +83,11 @@ For more information, see <a href="https://support.microsoft.com/kb/198996">BUG:
 
 An application that calls <b>UiaDisconnectProvider</b> should not respond to a re-entrant <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message by returning a pointer to the provider that it is trying to disconnect.  If the application tries to disconnect a provider, but then calls the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiareturnrawelementprovider">UiaReturnRawElementProvider</a> function with that same provider during the disconnect attempt, the provider might not be fully disconnected.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiadisconnectallproviders">UiaDisconnectAllProviders</a>
- 
-
- 
 

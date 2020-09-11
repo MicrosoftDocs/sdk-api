@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputstructures\trackmouseevent.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT, LPTRACKMOUSEEVENT structure pointer [Keyboard and Mouse Input], TME_CANCEL, TME_HOVER, TME_LEAVE, TME_NONCLIENT, TME_QUERY, TRACKMOUSEEVENT, TRACKMOUSEEVENT structure [Keyboard and Mouse Input], _win32_TRACKMOUSEEVENT_str, _win32_trackmouseevent_str_cpp, inputdev.trackmouseevent_str, winui._win32_trackmouseevent_str, winuser/LPTRACKMOUSEEVENT, winuser/TRACKMOUSEEVENT'
-f1_keywords:
-- winuser/TRACKMOUSEEVENT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- TRACKMOUSEEVENT
 targetos: Windows
 req.typenames: TRACKMOUSEEVENT, *LPTRACKMOUSEEVENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTRACKMOUSEEVENT
+ - winuser/tagTRACKMOUSEEVENT
+ - LPTRACKMOUSEEVENT
+ - winuser/LPTRACKMOUSEEVENT
+ - TRACKMOUSEEVENT
+ - winuser/TRACKMOUSEEVENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - TRACKMOUSEEVENT
 ---
 
 # TRACKMOUSEEVENT structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
-The size of the <b>TRACKMOUSEEVENT</b> structure, in bytes. 
-
+The size of the <b>TRACKMOUSEEVENT</b> structure, in bytes.
 
 ### -field dwFlags
 
@@ -136,41 +135,26 @@ The function fills in the structure instead of treating it as a tracking request
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hwndTrack
 
 Type: <b>HWND</b>
 
-A handle to the window to track. 
-
+A handle to the window to track.
 
 ### -field dwHoverTime
 
 Type: <b>DWORD</b>
 
-The hover time-out (if <b>TME_HOVER</b> was specified in <b>dwFlags</b>), in milliseconds. Can be <b>HOVER_DEFAULT</b>, which means to use the system default hover time-out. 
-
+The hover time-out (if <b>TME_HOVER</b> was specified in <b>dwFlags</b>), in milliseconds. Can be <b>HOVER_DEFAULT</b>, which means to use the system default hover time-out.
 
 ## -remarks
-
-
 
 The system default hover time-out is initially the menu drop-down time, which is 400 milliseconds. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> and use <b>SPI_GETMOUSEHOVERTIME</b> to retrieve the default hover time-out.
 
 The system default hover rectangle is the same as the double-click rectangle. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> and use <b>SPI_GETMOUSEHOVERWIDTH</b> and <b>SPI_GETMOUSEHOVERHEIGHT</b> to retrieve the size of the rectangle within which the mouse pointer has to stay for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
- 
-
- 
 

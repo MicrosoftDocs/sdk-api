@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 0992dbd2-bd32-4af6-abd1-66027dd2b30f
 ms.date: 12/05/2018
 ms.keywords: 0992dbd2-bd32-4af6-abd1-66027dd2b30f, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],GetGestureStatus method, IInkEdit.GetGestureStatus, IInkEdit::GetGestureStatus, inked/IInkEdit::GetGestureStatus, tablet.inkedit_getgesturestatus
-f1_keywords:
-- inked/IInkEdit.GetGestureStatus
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkEd.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkEd.dll
-- InkEd.dll.dll
-api_name:
-- IInkEdit.GetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::GetGestureStatus
+ - inked/IInkEdit::GetGestureStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkEd.dll
+ - InkEd.dll.dll
+api_name:
+ - IInkEdit.GetGestureStatus
 ---
 
 # IInkEdit::GetGestureStatus
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is interested in a particular application gesture.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Gesture [in]
 
 The gesture that you want the status of.
 
-
 ### -param pListen [out, retval]
 
 <b>VARIANT_TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control has interest in the gesture and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture</a> event of the InkEdit control fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkEdit control has no interest in the gesture.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -150,14 +139,8 @@ The flag is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method throws an exception if the <i>gesture</i> parameter is set to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture.
 
@@ -186,12 +169,7 @@ To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/t
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture Event [InkEdit Control]</a>
 
@@ -210,7 +188,4 @@ To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus Method [InkEdit Control]</a>
- 
-
- 
 

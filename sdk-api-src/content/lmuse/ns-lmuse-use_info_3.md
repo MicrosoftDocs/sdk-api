@@ -8,10 +8,6 @@ tech.root: NetMgmt
 ms.assetid: 3fb3ad35-f9e5-46ba-b930-fc2ccafd8ee9
 ms.date: 12/05/2018
 ms.keywords: '*LPUSE_INFO_3, *PUSE_INFO_3, CREATE_BYPASS_CSC, CREATE_NO_CONNECT, LPUSE_INFO_0, LPUSE_INFO_0 structure pointer [Network Management], PUSE_INFO_3, PUSE_INFO_3 structure pointer [Network Management], USE_DEFAULT_CREDENTIALS, USE_INFO_3, USE_INFO_3 structure [Network Management], lmuse/LPUSE_INFO_0, lmuse/PUSE_INFO_3, lmuse/USE_INFO_3, netmgmt.use_info_3_str'
-f1_keywords:
-- lmuse/USE_INFO_3
-dev_langs:
-- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmuse.h
-api_name:
-- USE_INFO_3
 targetos: Windows
 req.typenames: USE_INFO_3, *PUSE_INFO_3, *LPUSE_INFO_3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USE_INFO_3
+ - lmuse/_USE_INFO_3
+ - PUSE_INFO_3
+ - lmuse/PUSE_INFO_3
+ - USE_INFO_3
+ - lmuse/USE_INFO_3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmuse.h
+api_name:
+ - USE_INFO_3
 ---
 
 # USE_INFO_3 structure
@@ -49,21 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USE_INFO_3</b> structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ui3_ui2
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure that contains 
-
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-use_info_2">USE_INFO_2</a> structure that contains
 
 ### -field ui3_flags
 
@@ -112,13 +110,8 @@ No explicit credentials are supplied in the call to <a href="https://docs.micros
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
@@ -137,7 +130,4 @@ No explicit credentials are supplied in the call to <a href="https://docs.micros
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 804E9F16-E4C9-41F6-8913-950A569FB835
 ms.date: 12/05/2018
 ms.keywords: BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],BeginCreateObject method, IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
-f1_keywords:
-- mfmediaengine/IMFMediaEngineExtension.BeginCreateObject
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineExtension.BeginCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineExtension::BeginCreateObject
+ - mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineExtension.BeginCreateObject
 ---
 
 # IMFMediaEngineExtension::BeginCreateObject
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Begins an asynchronous request to create either a byte stream or a media source.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrURL [in]
 
 The URL of the media resource.
-
 
 ### -param pByteStream [in]
 
@@ -70,7 +65,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjec
 If the <i>type</i> parameter equals  <b>MF_OBJECT_BYTESTREAM</b>, this parameter is <b>NULL</b>. 
 
 If <i>type</i> equals <b>MF_OBJECT_MEDIASOURCE</b>, this parameter either contains a pointer to a byte stream or is <b>NULL</b>. See Remarks for more information.
-
 
 ### -param type [in]
 
@@ -102,8 +96,6 @@ Create a media source. The media source must support the <a href="https://docs.m
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppIUnknownCancelCookie [out]
 
@@ -111,29 +103,19 @@ Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 The caller must release the interface. This parameter can be NULL.
 
-
 ### -param pCallback [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. This interface is used to signal the completion of the asynchronous operation.
 
-
 ### -param punkState [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object impemented by the caller. You can use this object to hold state information for the callback. The object is returned to the caller when the callback is invoked. This parameter can be <b>NULL</b>. 
-
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object impemented by the caller. You can use this object to hold state information for the callback. The object is returned to the caller when the callback is invoked. This parameter can be <b>NULL</b>.
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This method requests the object to create either a byte stream or a media source, depending on the value of the <i>type</i> parameter:
 
@@ -172,16 +154,7 @@ Examples:<ul>
 
 If the <b>BeginCreateObject</b> method succeeds, the operation should be performed asynchronously. When the operation completes, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method on the callback interface specified in <i>pCallback</i>. The Media Engine completes the operation by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-endcreateobject">IMFMediaEngineExtension::EndCreateObject</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
- 
-
- 
 

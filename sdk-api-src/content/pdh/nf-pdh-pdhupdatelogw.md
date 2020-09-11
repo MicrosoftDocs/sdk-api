@@ -8,10 +8,6 @@ tech.root: perf
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
-f1_keywords:
-- pdh/PdhUpdateLog
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhUpdateLog
-- PdhUpdateLogA
-- PdhUpdateLogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhUpdateLogW
+ - pdh/PdhUpdateLogW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhUpdateLog
+ - PdhUpdateLogA
+ - PdhUpdateLogW
 ---
 
 # PdhUpdateLogW function
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Collects counter data for the current query and writes the data to the log file.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
 Handle of a single log file to update. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function returns this handle.
 
-
 ### -param szUserString [in]
 
 Null-terminated string that contains a user-defined comment to add to the data record. The string can not be empty.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
@@ -111,14 +102,8 @@ An empty string was passed in the <i>szUserString</i> parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are updating a log file from another log file, the comments from the other log file do not migrate.
 
@@ -138,9 +123,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
@@ -154,7 +136,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>
- 
-
- 
 

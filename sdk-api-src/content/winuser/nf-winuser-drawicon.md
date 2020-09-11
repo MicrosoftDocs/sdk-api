@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawicon.htm
 ms.date: 12/05/2018
 ms.keywords: DrawIcon, DrawIcon function [Menus and Other Resources], _win32_DrawIcon, _win32_drawicon_cpp, menurc.drawicon, winui._win32_drawicon, winuser/DrawIcon
-f1_keywords:
-- winuser/DrawIcon
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DrawIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawIcon
+ - winuser/DrawIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DrawIcon
 ---
 
 # DrawIcon function
@@ -49,61 +50,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws an icon or cursor into the specified device context.
 
 To specify additional drawing options, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hDC [in]
 
 Type: <b>HDC</b>
 
-A handle to the device context into which the icon or cursor will be drawn. 
-
+A handle to the device context into which the icon or cursor will be drawn.
 
 ### -param X [in]
 
 Type: <b>int</b>
 
-The logical x-coordinate of the upper-left corner of the icon. 
-
+The logical x-coordinate of the upper-left corner of the icon.
 
 ### -param Y [in]
 
 Type: <b>int</b>
 
-The logical y-coordinate of the upper-left corner of the icon. 
-
+The logical y-coordinate of the upper-left corner of the icon.
 
 ### -param hIcon [in]
 
 Type: <b>HICON</b>
 
-A handle to the icon to be drawn. 
-
+A handle to the icon to be drawn.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 <b>DrawIcon</b> places the icon's upper-left corner at the location specified by the <i>X</i> and <i>Y</i> parameters. The location is subject to the current mapping mode of the device context. 
 
@@ -116,12 +101,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -144,7 +124,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <b>Reference</b>
- 
-
- 
 

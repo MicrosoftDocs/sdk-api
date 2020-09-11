@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertmark.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVINSERTMARK, LVIM_AFTER, LVINSERTMARK, LVINSERTMARK structure [Windows Controls], PLVINSERTMARK, PLVINSERTMARK structure pointer [Windows Controls], commctrl/LVINSERTMARK, commctrl/PLVINSERTMARK, controls.LVINSERTMARK, controls.inet_LVINSERTMARK, inet_LVINSERTMARK, inet_LVINSERTMARK_cpp'
-f1_keywords:
-- commctrl/LVINSERTMARK
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVINSERTMARK
 targetos: Windows
 req.typenames: LVINSERTMARK, *LPLVINSERTMARK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPLVINSERTMARK
+ - commctrl/LPLVINSERTMARK
+ - LVINSERTMARK
+ - commctrl/LVINSERTMARK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVINSERTMARK
 ---
 
 # LVINSERTMARK structure
@@ -49,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to describe insertion points.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the <b>LVINSERTMARK</b> structure.
-
 
 ### -field dwFlags
 
@@ -87,15 +84,12 @@ The insertion point appears after the item specified if the LVIM_AFTER flag is s
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iItem
 
 Type: <b>int</b>
 
 Item next to which the insertion point appears. If this member contains -1, there is no insertion point.
-
 
 ### -field dwReserved
 

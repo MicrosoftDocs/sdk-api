@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface, IOleObject interface [COM],Close method, IOleObject.Close, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
-f1_keywords:
-- oleidl/IOleObject.Close
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::Close
+ - oleidl/IOleObject::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.Close
 ---
 
 # IOleObject::Close
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes an embedded object from the running to the loaded state. Disconnects a linked object from its link source.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSaveOption [in]
 
@@ -66,8 +62,6 @@ Indicates whether the object is to be saved as part of the transition to the loa
 <div> </div>
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -88,14 +82,8 @@ The user was prompted to save but chose the <b>Cancel</b> button from the prompt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 A container application calls <b>IOleObject::Close</b> when it wants to move the object from a running to a loaded state. Following such a call, the object still appears in its container but is not open for editing. Calling <b>IOleObject::Close</b> on an object that is loaded but not running has no effect. Closing a linked object simply means disconnecting it.
@@ -115,13 +103,7 @@ If the object application is a local server (an EXE rather than a DLL), closing 
 
 Calling <b>IOleObject::Close</b> on a linked object disconnects it from, but does not shut down, its source application. A source application that is visible to the user when the object is closed remains visible and running after the disconnection and does not send an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> notification to the link container.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
 
@@ -156,7 +138,4 @@ Calling <b>IOleObject::Close</b> on a linked object disconnects it from, but doe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
- 
-
- 
 

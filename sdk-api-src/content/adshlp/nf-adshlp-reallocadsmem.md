@@ -8,10 +8,6 @@ tech.root: adsi
 ms.assetid: 471b8ae7-d3b6-4dd9-aa00-6e1d3ab278a9
 ms.date: 12/05/2018
 ms.keywords: ReallocADsMem, ReallocADsMem function [ADSI], _ds_reallocadsmem, adshlp/ReallocADsMem, adsi.reallocadsmem
-f1_keywords:
-- adshlp/ReallocADsMem
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-api_name:
-- ReallocADsMem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReallocADsMem
+ - adshlp/ReallocADsMem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+api_name:
+ - ReallocADsMem
 ---
 
 # ReallocADsMem function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ReallocADsMem</b> function reallocates and copies an existing memory block.
 
-
 ## -parameters
-
-
-
 
 ### -param pOldMem [in]
 
@@ -66,13 +62,11 @@ Pointer to the memory to copy. <b>ReallocADsMem</b> will free this memory with <
 
 The caller must  free this memory when it is no longer required by passing this pointer to <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>.
 
-
 ### -param cbOld [in]
 
 Type: <b>DWORD</b>
 
 Size, in bytes, of the memory to copy.
-
 
 ### -param cbNew [in]
 
@@ -80,21 +74,13 @@ Type: <b>DWORD</b>
 
 Size, in bytes, of the memory to allocate.
 
-
 ## -returns
-
-
 
 Type: <b>LPVOID</b>
 
 When successful, the function returns a pointer to the new allocated memory. Otherwise it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If <i>cbNew</i> is less than <i>cbOld</i>, the existing memory is truncated to fit the new memory size.
 
@@ -144,14 +130,7 @@ if(pwszADsPath)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
@@ -170,7 +149,4 @@ if(pwszADsPath)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a>
- 
-
- 
 

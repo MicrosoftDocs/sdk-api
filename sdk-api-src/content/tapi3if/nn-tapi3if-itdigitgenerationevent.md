@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent, ITDigitGenerationEvent interface [TAPI 2.2], ITDigitGenerationEvent interface [TAPI 2.2],described, _tapi3_itdigitgenerationevent, tapi3.itdigitgenerationevent, tapi3if/ITDigitGenerationEvent
-f1_keywords:
-- tapi3if/ITDigitGenerationEvent
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITDigitGenerationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDigitGenerationEvent
+ - tapi3if/ITDigitGenerationEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITDigitGenerationEvent
 ---
 
 # ITDigitGenerationEvent interface
 
 
 ## -description
-
 
 The 
 <b>ITDigitGenerationEvent</b> interface contains methods that describe digit generation events. When the application's implementation of the 
@@ -111,13 +111,9 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a>
 
@@ -136,7 +132,4 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
- 
-
- 
 

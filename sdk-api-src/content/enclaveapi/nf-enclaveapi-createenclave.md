@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
 ms.date: 12/05/2018
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
-f1_keywords:
-- enclaveapi/CreateEnclave
-dev_langs:
-- c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-enclave-l1-1-0.dll
-- kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Enclave-L1-1-0.dll
-api_name:
-- CreateEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateEnclave
+ - enclaveapi/CreateEnclave
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-enclave-l1-1-0.dll
+ - kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Enclave-L1-1-0.dll
+api_name:
+ - CreateEnclave
 ---
 
 # CreateEnclave function
@@ -52,29 +53,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new uninitialized enclave. An enclave  is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process for which you want to create an enclave.
 
-
 ### -param lpAddress [in, optional]
 
 The preferred base address of the enclave. Specify <b>NULL</b> to have the operating system assign the base address.
 
-
 ### -param dwSize [in]
 
 The size of the enclave that you want to create, including the size of the code that you will load into the enclave, in bytes.
-
 
 ### -param dwInitialCommitment [in]
 
@@ -85,7 +78,6 @@ If the amount of enclave memory available is not sufficient to commit this numbe
 The value of the <i>dwInitialCommittment</i> parameter must not exceed the value of the <i>dwSize</i> parameter.
 
 This parameter is not used for virtualization-based security (VBS) enclaves.
-
 
 ### -param flEnclaveType [in]
 
@@ -119,8 +111,6 @@ A  VBS enclave.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpEnclaveInformation [in]
 
@@ -130,20 +120,15 @@ For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <
 
 For the <b>ENCLAVE_TYPE_VBS</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a> structure.
 
-
 ### -param dwInfoLength [in]
 
 The length of the structure that the <i>lpEnclaveInformation</i> parameter points to, in bytes. For the <b>ENCLAVE_TYPE_SGX</b> enclave type, this value must be 4096.  For the <b>ENCLAVE_TYPE_VBS</b> enclave type, this value must be <code>sizeof(ENCLAVE_CREATE_INFO_VBS)</code>, which is 36 bytes.
-
 
 ### -param lpEnclaveError [out, optional]
 
 An optional pointer to  a variable that receives an enclave error code that is architecture-specific. For the <b>ENCLAVE_TYPE_SGX</b> and <b>ENCLAVE_TYPE_VBS</b>  enclave types, the <i>lpEnclaveError</i> parameter is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the base address of the created enclave.
 
@@ -180,14 +165,8 @@ The value of the <i>dwInfoLength</i> parameter did not match the value expected 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To load data into an enclave after you create it, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a>. To initialize the enclave after you load the data, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>.
 
@@ -204,13 +183,7 @@ To load data into an enclave after you create it, call <a href="https://docs.mic
 
 For information about the Intel Software Guard Extensions (SGX) architecture extension, see <a href="https://software.intel.com/sgx">Intel Software Guard Extensions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
 
@@ -237,7 +210,4 @@ For information about the Intel Software Guard Extensions (SGX) architecture ext
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
- 
-
- 
 

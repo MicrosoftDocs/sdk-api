@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 244b121a-76ba-44fd-b15d-f076b722b030
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetRevocationReason method, GetRevocationReason, GetRevocationReason method [Security], GetRevocationReason method [Security],CCertAdmin object, GetRevocationReason method [Security],ICertAdmin interface, GetRevocationReason method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetRevocationReason method, ICertAdmin.GetRevocationReason, ICertAdmin2 interface [Security],GetRevocationReason method, ICertAdmin2::GetRevocationReason, ICertAdmin::GetRevocationReason, certadm/ICertAdmin2::GetRevocationReason, certadm/ICertAdmin::GetRevocationReason, security.icertadmin2_getrevocationreason
-f1_keywords:
-- certadm/ICertAdmin2.GetRevocationReason
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.GetRevocationReason
-- ICertAdmin.GetRevocationReason
-- CCertAdmin.GetRevocationReason
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin::GetRevocationReason
+ - certadm/ICertAdmin::GetRevocationReason
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.GetRevocationReason
+ - ICertAdmin.GetRevocationReason
+ - CCertAdmin.GetRevocationReason
 ---
 
 # ICertAdmin::GetRevocationReason
@@ -51,26 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetRevocationReason</b> method  returns  the reason a certificate was revoked. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 Before you call this method, you must call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a> method. For more information, see Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param pReason [out]
 
 A pointer to a variable that will receive the revocation reason.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pReason</i> parameter is set to one of the values listed in the following table.
@@ -163,14 +156,8 @@ The certificate has been placed on hold.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before you call <b>GetRevocationReason</b>, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a> method to retrieve the disposition of the certificate. To call <b>GetRevocationReason</b>, you must receive a certificate disposition CA_DISP_REVOKED from this earlier call, indicating that the certificate has been revoked. The call to <b>IsValidCertificate</b> establishes the identity of the certificate whose revocation reason you want to retrieve.
@@ -201,14 +188,7 @@ if (CA_DISP_REVOKED == nDisp)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
@@ -223,7 +203,4 @@ if (CA_DISP_REVOKED == nDisp)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-isvalidcertificate">IsValidCertificate</a>
- 
-
- 
 

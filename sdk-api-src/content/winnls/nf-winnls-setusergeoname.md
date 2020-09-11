@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 0E5934DE-F526-45B4-9DAF-C8941F00C162
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for Windows Applications], intl.setusergeoname, winnls/SetUserGeoName
-f1_keywords:
-- winnls/SetUserGeoName
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- SetUserGeoName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetUserGeoName
+ - winnls/SetUserGeoName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - SetUserGeoName
 ---
 
 # SetUserGeoName function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the geographic location for the current user to the specified two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49  (M.49) code.
 
-
 ## -parameters
-
-
-
 
 ### -param geoName [in]
 
 The two-letter ISO 3166-1 or numeric UN M.49 code for the geographic location to set for the current user. To get the codes that are available on the operating system, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
@@ -110,14 +103,8 @@ A parameter value was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function writes to the registry the geographical location for a particular user instead of a particular application. This action affects the behavior of other applications that the user runs. As a rule, call this function only when the user has explicitly requested changes, but not for purely application-specific reasons.
 
@@ -125,13 +112,7 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.
 
 <b>SetUserGeoName</b> is intended for use by applications that are designed to change user settings, such as the Windows Settings app. Other applications should not call this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeonames">EnumSystemGeoNames</a>
 
@@ -150,7 +131,4 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoid">SetUserGeoID</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService method, IMFTopologyServiceLookup.LookupService, IMFTopologyServiceLookup::LookupService, LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation],IMFTopologyServiceLookup interface, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
-f1_keywords:
-- evr/IMFTopologyServiceLookup.LookupService
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFTopologyServiceLookup.LookupService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyServiceLookup::LookupService
+ - evr/IMFTopologyServiceLookup::LookupService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFTopologyServiceLookup.LookupService
 ---
 
 # IMFTopologyServiceLookup::LookupService
@@ -50,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves an interface from the enhanced video renderer (EVR), or from the video mixer or video presenter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Type [in]
 
 Specifies the scope of the search. Currently this parameter is ignored. Use the value MF_SERVICE_LOOKUP_GLOBAL.
 
-
 ### -param dwIndex [in]
 
 Reserved, must be zero.
-
 
 ### -param guidService [in]
 
 Service GUID of the requested interface.
 
-
 ### -param riid [in]
 
 Interface identifier of the requested interface.
-
 
 ### -param ppvObjects [out]
 
 Array of interface pointers. If the method succeeds, each member of the array contains either a valid interface pointer or <b>NULL</b>. The caller must release the interface pointers when the EVR calls <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers">IMFTopologyServiceLookupClient::ReleaseServicePointers</a> (or earlier). If the method fails, every member of the array is <b>NULL</b>.
 
-
 ### -param pnObjects [in, out]
 
 Pointer to a value that specifies the size of the <i>ppvObjects</i> array. The value must be at least 1. In the current implementation, there is no reason to specify an array size larger than one element. The value is not changed on output.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -159,14 +144,8 @@ The object does not support the specified service GUID.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called only from inside the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers">IMFTopologyServiceLookupClient::InitServicePointers</a> method. At any other time, the method returns MF_E_NOTACCEPTING.
 
@@ -239,19 +218,11 @@ The following interfaces are available from the mixer:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imftopologyservicelookup">IMFTopologyServiceLookup</a>
- 
-
- 
 

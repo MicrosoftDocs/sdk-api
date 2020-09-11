@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.date: 12/05/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
-f1_keywords:
-- sspi/EncryptMessage
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-- sspicli.dll
-api_name:
-- EncryptMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EncryptMessage
+ - sspi/EncryptMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+ - sspicli.dll
+api_name:
+ - EncryptMessage
 ---
 
 # EncryptMessage function
 
 
 ## -description
-
 
 The <b>EncryptMessage (Digest)</b> function encrypts a message to provide <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privacy</a>. <b>EncryptMessage (Digest)</b> allows the application to choose among <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithms</a> supported by the chosen mechanism. The <b>EncryptMessage (Digest)</b> function uses the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> that can be checked.
 
@@ -58,20 +58,15 @@ This function is available as a SASL mechanism only.
 
 ## -parameters
 
-
-
-
 ### -param phContext [in]
 
 A handle to the security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> to be used to encrypt the message.
-
 
 ### -param fQOP [in]
 
 Package-specific flags that indicate the quality of protection. A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> can use this parameter to enable the selection of cryptographic algorithms.
 
 When using the Digest SSP, this parameter must be set to zero.
-
 
 ### -param pMessage [in, out]
 
@@ -91,17 +86,13 @@ When using the Digest SSP,  there must be a second buffer of type SECBUFFER_PADD
 
 Applications that do not use SSL must supply a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> of type SECBUFFER_PADDING.
 
-
 ### -param MessageSeqNo [in]
 
 The sequence number that the transport application assigned to the message. If the transport application does not maintain sequence numbers, this parameter must be zero.
 
 When using the Digest SSP, this parameter must be set to zero. The Digest SSP manages sequence numbering internally.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns SEC_E_OK.
 
@@ -190,14 +181,8 @@ Neither confidentiality nor <a href="https://docs.microsoft.com/windows/desktop/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>EncryptMessage (Digest)</b> function encrypts a message based on the message and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
 
@@ -259,13 +244,7 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 <b>Windows XP:  </b>This function was also known as <b>SealMessage</b>. Applications should now use <b>EncryptMessage (Digest)</b>  only.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Digest)</a>
 
@@ -292,7 +271,4 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: c0c03c7d-baac-4b59-ba2f-8f6330651b49
 ms.date: 12/05/2018
 ms.keywords: '*LPHANDLETABLE, *PHANDLETABLE, HANDLETABLE, HANDLETABLE structure [Windows GDI], PHANDLETABLE, PHANDLETABLE structure pointer [Windows GDI], _win32_HANDLETABLE_str, gdi.handletable, wingdi/HANDLETABLE, wingdi/PHANDLETABLE'
-f1_keywords:
-- wingdi/HANDLETABLE
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- HANDLETABLE
 targetos: Windows
 req.typenames: HANDLETABLE, *PHANDLETABLE, *LPHANDLETABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHANDLETABLE
+ - wingdi/tagHANDLETABLE
+ - PHANDLETABLE
+ - wingdi/PHANDLETABLE
+ - HANDLETABLE
+ - wingdi/HANDLETABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - HANDLETABLE
 ---
 
 # HANDLETABLE structure
@@ -49,27 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>HANDLETABLE</b> structure is an array of handles, each of which identifies a graphics device interface (GDI) object.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field objectHandle
 
 An array of handles.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
@@ -84,7 +77,4 @@ An array of handles.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
- 
-
- 
 

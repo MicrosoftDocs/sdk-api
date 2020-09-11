@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate
-f1_keywords:
-- wincrypt/CryptSignAndEncodeCertificate
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSignAndEncodeCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignAndEncodeCertificate
+ - wincrypt/CryptSignAndEncodeCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSignAndEncodeCertificate
 ---
 
 # CryptSignAndEncodeCertificate function
 
 
 ## -description
-
 
 The <b>CryptSignAndEncodeCertificate</b> function encodes and signs a certificate, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
@@ -63,14 +63,10 @@ This function performs the following operations:
 
 ## -parameters
 
-
-
-
 ### -param hBCryptKey [in]
 
 A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to do the signature. This handle is an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in a <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
-
 
 ### -param dwKeySpec [in]
 
@@ -102,8 +98,6 @@ Use the digital signature key.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwCertEncodingType [in]
 
@@ -126,8 +120,6 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszStructType [in]
 
@@ -179,13 +171,10 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvStructInfo [in]
 
 The address of a structure that contains the data to be signed and encoded. The format of this structure is determined by the <i>lpszStructType</i> parameter.
-
 
 ### -param pSignatureAlgorithm [in]
 
@@ -199,11 +188,9 @@ A pointer to a
 </ul>
 If the signature algorithm is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm, the signature contains only the unencrypted hash octets. A private key is not used to encrypt the hash. <i>dwKeySpec</i> is not used and <i>hCryptProvOrNCryptKey</i> can be <b>NULL</b> if an appropriate default CSP can be used for hashing.
 
-
 ### -param pvHashAuxInfo [in]
 
 Reserved. Must be <b>NULL</b>.
-
 
 ### -param pbEncoded [out]
 
@@ -211,7 +198,6 @@ A pointer to a buffer to receive the signed and encoded output.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbEncoded [in, out]
 
@@ -224,8 +210,6 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
@@ -294,20 +278,11 @@ An error was encountered while encoding or decoding. The most likely cause of th
 If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsigncertificate">CryptSignCertificate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
 

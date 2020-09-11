@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
-f1_keywords:
-- wsdclient/IWSDAsyncResult.SetWaitHandle
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDAsyncResult.SetWaitHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDAsyncResult::SetWaitHandle
+ - wsdclient/IWSDAsyncResult::SetWaitHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDAsyncResult.SetWaitHandle
 ---
 
 # IWSDAsyncResult::SetWaitHandle
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a wait handle to set when the operation completes.
 
-
 ## -parameters
-
-
-
 
 ### -param hWaitHandle [in]
 
 The wait handle to set.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -108,27 +101,12 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Do not close <i>hWaitHandle</i> until after the asynchronous operation has completed.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
- 
-
- 
 

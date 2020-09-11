@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a
 ms.date: 12/05/2018
 ms.keywords: IVssAsync interface [VSS],QueryStatus method, IVssAsync.QueryStatus, IVssAsync::QueryStatus, QueryStatus, QueryStatus method [VSS], QueryStatus method [VSS],IVssAsync interface, VSS_S_ASYNC_CANCELLED, VSS_S_ASYNC_FINISHED, VSS_S_ASYNC_PENDING, _win32_ivssasync_querystatus, base.ivssasync_querystatus, vss/IVssAsync::QueryStatus
-f1_keywords:
-- vss/IVssAsync.QueryStatus
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssAsync.QueryStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAsync::QueryStatus
+ - vss/IVssAsync::QueryStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssAsync.QueryStatus
 ---
 
 # IVssAsync::QueryStatus
@@ -50,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryStatus</b> method queries the status of an 
     asynchronous operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pHrResult [out]
 
@@ -111,15 +107,11 @@ The asynchronous operation is still running.
 Additional return values can be returned, but depend on the return codes of the method that initially 
        returned the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
-
 ### -param pReserved [out]
 
 The value of this parameter should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -177,14 +169,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In the event of an error during the course of an asynchronous operation, 
     <b>QueryStatus</b> will return the same error code as the 
@@ -194,13 +180,7 @@ To obtain a complete list of return values for an
     <b>IVssAsync::QueryStatus</b> object returned by a 
     specific method, see the error codes documented for that method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
@@ -231,7 +211,4 @@ To obtain a complete list of return values for an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
- 
-
- 
 

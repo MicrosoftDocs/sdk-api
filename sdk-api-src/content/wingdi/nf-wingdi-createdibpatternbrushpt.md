@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 0e34d108-fd35-4512-9eb3-c7710af36e95
 ms.date: 12/05/2018
 ms.keywords: CreateDIBPatternBrushPt, CreateDIBPatternBrushPt function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrushPt, gdi.createdibpatternbrushpt, wingdi/CreateDIBPatternBrushPt
-f1_keywords:
-- wingdi/CreateDIBPatternBrushPt
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- CreateDIBPatternBrushPt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDIBPatternBrushPt
+ - wingdi/CreateDIBPatternBrushPt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - CreateDIBPatternBrushPt
 ---
 
 # CreateDIBPatternBrushPt function
@@ -52,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateDIBPatternBrushPt</b> function creates a logical brush that has the pattern specified by the device-independent bitmap (DIB).
 
-
 ## -parameters
-
-
-
 
 ### -param lpPackedDIB [in]
 
 A pointer to a packed DIB consisting of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by an array of bytes defining the pixels of the bitmap.
-
 
 ### -param iUsage [in]
 
@@ -96,23 +91,14 @@ A color table is provided and contains literal RGB values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value identifies a logical brush.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A brush is a bitmap that the system uses to paint the interiors of filled shapes.
 
@@ -122,13 +108,7 @@ When you no longer need the brush, call the <a href="https://docs.microsoft.com/
 
 <b>ICM:</b> No color is done at brush creation. However, color management is performed when the brush is selected into an ICM-enabled device context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
@@ -171,7 +151,4 @@ When you no longer need the brush, call the <a href="https://docs.microsoft.com/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
- 
-
- 
 

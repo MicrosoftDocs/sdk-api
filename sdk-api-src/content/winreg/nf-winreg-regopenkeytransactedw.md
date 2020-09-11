@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
 ms.date: 12/05/2018
 ms.keywords: RegOpenKeyTransacted, RegOpenKeyTransacted function, RegOpenKeyTransactedA, RegOpenKeyTransactedW, base.regopenkeytransacted, winreg/RegOpenKeyTransacted, winreg/RegOpenKeyTransactedA, winreg/RegOpenKeyTransactedW
-f1_keywords:
-- winreg/RegOpenKeyTransacted
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Registry-l2-1-0.dll
-- advapi32legacy.dll
-- API-MS-Win-Core-Registry-l2-2-0.dll
-api_name:
-- RegOpenKeyTransacted
-- RegOpenKeyTransactedA
-- RegOpenKeyTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegOpenKeyTransactedW
+ - winreg/RegOpenKeyTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Registry-l2-1-0.dll
+ - advapi32legacy.dll
+ - API-MS-Win-Core-Registry-l2-2-0.dll
+api_name:
+ - RegOpenKeyTransacted
+ - RegOpenKeyTransactedA
+ - RegOpenKeyTransactedW
 ---
 
 # RegOpenKeyTransactedW function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the specified registry key and associates it with a  transaction. Note that key names are not case sensitive.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
@@ -86,49 +82,36 @@ If this parameter is <b>NULL</b> or a pointer to an empty string, the function w
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
-
 ### -param ulOptions [in]
 
 This parameter is reserved and must be zero.
-
 
 ### -param samDesired [in]
 
 A mask that specifies the desired access rights to the key. The function fails if the security descriptor of the key does not permit the requested access for the calling process. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
-
 ### -param phkResult [out]
 
 A pointer to a variable that receives a handle to the opened key. If the key is not one of the predefined registry keys, call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function after you have finished using the handle.
 
-
 ### -param hTransaction [in]
 
 A handle to an active transaction. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
-
 
 ### -param pExtendedParemeter
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 When a key is opened using this function, subsequent operations on the key are transacted. If a non-transacted operation is performed on the key before the transaction is committed, the transaction is rolled back. After a transaction is committed or rolled back, you must re-open the key using the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a> or <b>RegOpenKeyTransacted</b> function with an active transaction handle to make additional operations transacted. For more information about transactions, see <a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-portal">Kernel Transaction Manager</a>.
 
@@ -151,9 +134,6 @@ A single registry key can be opened only 65,534 times. When attempting the 65,53
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
@@ -171,7 +151,4 @@ A single registry key can be opened only 65,534 times. When attempting the 65,53
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: wintouch
 ms.assetid: a76c9150-49b8-4a74-8ef0-bfa5ce9ec28a
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessDownWithTime method, IManipulationProcessor.ProcessDownWithTime, IManipulationProcessor::ProcessDownWithTime, ProcessDownWithTime, ProcessDownWithTime method [Windows Touch], ProcessDownWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessDownWithTime, wintouch.imanpiulationprocessor_processdownwithtime
-f1_keywords:
-- manipulations/IManipulationProcessor.ProcessDownWithTime
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IManipulationProcessor.ProcessDownWithTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManipulationProcessor::ProcessDownWithTime
+ - manipulations/IManipulationProcessor::ProcessDownWithTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IManipulationProcessor.ProcessDownWithTime
 ---
 
 # IManipulationProcessor::ProcessDownWithTime
@@ -49,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Feeds touch down data, including a timestamp, to the manipulation processor associated with a target.
 
-
 ## -parameters
-
-
-
 
 ### -param manipulatorId
 
 The identifier for the touch contact to be processed.
 
-
 ### -param x
 
 The horizontal coordinate data associated with the target.
-
 
 ### -param y
 
 The vertical coordinate data associated with the target.
 
-
 ### -param timestamp
 
 The time of the data event.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT error code such as <b>E_FAIL</b>.
 
-
-
-
 ## -remarks
-
-
 
 It is possible to receive touch events out of the order they were produced.  To fix this, 
     you should extract the timestamp from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touchinput">TOUCHINPUT</a> structure when you process events.
@@ -110,14 +95,7 @@ static void ProcessDown(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipu
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
@@ -136,7 +114,4 @@ static void ProcessDown(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipu
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime">ProcessUpWithTime</a>
- 
-
- 
 

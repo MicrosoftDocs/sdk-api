@@ -8,10 +8,6 @@ tech.root: UIAnimation
 ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
-f1_keywords:
-- uianimation/IUIAnimationTransition
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationTransition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationTransition
+ - uianimation/IUIAnimationTransition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationTransition
 ---
 
 # IUIAnimationTransition interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a transition, which determines how an animation variable changes over time.
-
 
 ## -inheritance
 
@@ -104,12 +103,9 @@ Sets the initial velocity for the transition.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <b>IUIAnimationTransition</b> is one of the primary interfaces used to add animation to an application,
          along with 
@@ -120,13 +116,7 @@ Sets the initial velocity for the transition.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317028(v=vs.85)">UIAnimationTransitionLibrary</a> implements
          a library of standard transitions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-scheduletransition">IUIAnimationManager::ScheduleTransition</a>
 
@@ -157,7 +147,4 @@ Sets the initial velocity for the transition.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/storyboard-construction">Storyboard Overview</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.date: 12/05/2018
 ms.keywords: '*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message'
-f1_keywords:
-- routprot/MESSAGE
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Routprot.h
-api_name:
-- MESSAGE
 targetos: Windows
 req.typenames: MESSAGE, *PMESSAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MESSAGE
+ - routprot/_MESSAGE
+ - PMESSAGE
+ - routprot/PMESSAGE
+ - MESSAGE
+ - routprot/MESSAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Routprot.h
+api_name:
+ - MESSAGE
 ---
 
 # MESSAGE structure
@@ -49,30 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MESSAGE</b> union contains information about an event reported to the router manager through the routing protocol's message queue.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UpdateCompleteMessage
 
 Provides information associated with an UPDATE_COMPLETE event.
 
-
 ### -field InterfaceIndex
 
 Identifies the interface associated with a SAVE_INTERFACE_CONFIG_INFO event.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a>
 
@@ -95,7 +90,4 @@ Identifies the interface associated with a SAVE_INTERFACE_CONFIG_INFO event.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-update_complete_message">UPDATE_COMPLETE_MESSAGE</a>
- 
-
- 
 

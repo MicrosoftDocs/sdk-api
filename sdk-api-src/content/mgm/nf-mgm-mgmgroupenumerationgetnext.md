@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: a5e659e9-b566-490b-831b-96f9de822ebf
 ms.date: 12/05/2018
 ms.keywords: MgmGroupEnumerationGetNext, MgmGroupEnumerationGetNext function [RAS], _mpr_mgmgroupenumerationgetnext, mgm/MgmGroupEnumerationGetNext, rras.mgmgroupenumerationgetnext
-f1_keywords:
-- mgm/MgmGroupEnumerationGetNext
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmGroupEnumerationGetNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmGroupEnumerationGetNext
+ - mgm/MgmGroupEnumerationGetNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmGroupEnumerationGetNext
 ---
 
 # MgmGroupEnumerationGetNext function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmGroupEnumerationGetNext</b> function retrieves the next set of group entries. The information that is returned by this function is a list of groups joined and the sources requested, if any.
 
 The groups are not returned in any particular order.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnum [in]
 
 Handle to the enumeration that was obtained from a previous call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>.
-
 
 ### -param pdwBufferSize [in, out]
 
@@ -75,7 +70,6 @@ On input, <i>pdwBufferSize</i> is a pointer to a <b>DWORD</b>-sized memory locat
 
 
 On output, if the return value is ERROR_INSUFFICIENT_BUFFER, <i>pdwBufferSize</i> receives the minimum size that the buffer pointed to by <i>pbBuffer</i> must be to hold a group entry; otherwise the value of <i>pdwBufferSize</i> remains unchanged.
-
 
 ### -param pbBuffer [in, out]
 
@@ -87,7 +81,6 @@ On input, the client must supply a pointer to a buffer.
 On output, <i>pbBuffer</i> contains one or more group entries. Each group entry is a 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a> structure.
 
-
 ### -param pdwNumEntries [in, out]
 
 On input, the client must supply a pointer to a <b>DWORD</b> value. 
@@ -97,10 +90,7 @@ On input, the client must supply a pointer to a <b>DWORD</b> value.
 
 On output, <i>pdwNumEntries</i> receives the number of groups in <i>pbBuffer</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -183,14 +173,7 @@ Not enough memory to complete this operation.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
 
@@ -201,7 +184,4 @@ Not enough memory to complete this operation.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-source_group_entry">SOURCE_GROUP_ENTRY</a>
- 
-
- 
 

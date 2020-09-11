@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 7c178688-64f4-49a9-907c-890f7d5030be
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderEnum0, FwpmProviderEnum0 function [Filtering], fwp.fwpmproviderenum0_func, fwpmu/FwpmProviderEnum0
-f1_keywords:
-- fwpmu/FwpmProviderEnum0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmProviderEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmProviderEnum0
+ - fwpmu/FwpmProviderEnum0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmProviderEnum0
 ---
 
 # FwpmProviderEnum0 function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmProviderEnum0</b> function returns the next page of results from the provider enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
@@ -64,13 +60,11 @@ Type: <b>HANDLE</b>
 
 Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
-
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
 Handle for a provider  enumeration created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercreateenumhandle0">FwpmProviderCreateEnumHandle0</a>.
-
 
 ### -param numEntriesRequested [in]
 
@@ -78,13 +72,11 @@ Type: <b>UINT32</b>
 
 The number of provider entries requested.
 
-
 ### -param entries [out]
 
 Type: [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)***</b>
 
 Addresses of the enumeration entries.
-
 
 ### -param numEntriesReturned [out]
 
@@ -92,10 +84,7 @@ Type: <b>UINT32*</b>
 
 The number of provider objects returned.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -141,14 +130,8 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>numEntriesReturned</i> is less than the <i>numEntriesRequested</i>, the enumeration is exhausted. 
 
@@ -160,20 +143,11 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 <b>FwpmProviderEnum0</b> is a specific implementation of FwpmProviderEnum. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
-
-
-
 ## -see-also
-
-
-
 
 [FWPM_PROVIDER0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider0)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercreateenumhandle0">FwpmProviderCreateEnumHandle0</a>
- 
-
- 
 

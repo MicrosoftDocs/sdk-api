@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
 ms.date: 12/05/2018
 ms.keywords: NIM_ADD, NIM_DELETE, NIM_MODIFY, NIM_SETFOCUS, NIM_SETVERSION, Shell_NotifyIcon, Shell_NotifyIcon function [Windows Shell], Shell_NotifyIconA, Shell_NotifyIconW, _win32_Shell_NotifyIcon, shell.Shell_NotifyIcon, shellapi/Shell_NotifyIcon, shellapi/Shell_NotifyIconA, shellapi/Shell_NotifyIconW
-f1_keywords:
-- shellapi/Shell_NotifyIcon
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- Shell_NotifyIcon
-- Shell_NotifyIconA
-- Shell_NotifyIconW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Shell_NotifyIconW
+ - shellapi/Shell_NotifyIconW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - Shell_NotifyIcon
+ - Shell_NotifyIconA
+ - Shell_NotifyIconW
 ---
 
 # Shell_NotifyIconW function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a message to the taskbar's status area.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMessage [in]
 
@@ -102,7 +98,6 @@ NIM_SETVERSION must be called every time a notification area icon is added (NIM_
 
 For details, see the Remarks section.
 
-
 ### -param lpData [in]
 
 Type: <b>PNOTIFYICONDATA</b>
@@ -138,21 +133,13 @@ NIM_SETVERSION must be called every time a notification area icon is added (NIM_
 
 For details, see the Remarks section.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. If <i>dwMessage</i> is set to NIM_SETVERSION, the function returns <b>TRUE</b> if the version was successfully changed, or <b>FALSE</b> if the requested version is not supported.
 
-
-
-
 ## -remarks
-
-
 
 As of Windows 2000 (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell32.dll version 5.0</a>), if you set the <b>uVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa">NOTIFYICONDATA</a> structure pointed to by <i>lpdata</i> to NOTIFYICON_VERSION_4 or higher, <b>Shell_NotifyIcon</b> mouse and keyboard events are handled differently than in earlier versions of Windows. The differences include the following:
 
@@ -195,11 +182,5 @@ As of Windows XP Service Pack 2 (SP2), a custom icon can be displayed in the n
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/shell/notification-area">Notifications and the Notification Area</a>
- 
-
- 
 

@@ -1,17 +1,13 @@
 ---
 UID: NN:photoacquire.IUserInputString
 title: IUserInputString (photoacquire.h)
-description: The IUserInputString interface represents the object created when asking the user for a string�for example, when obtaining the name of a tag.
+description: The IUserInputString interface represents the object created when asking the user for a string�for example, when obtaining the name of a tag.
 helpviewer_keywords: ["IUserInputString","IUserInputString interface [Picture Acquisition]","IUserInputString interface [Picture Acquisition]","described","IUserInputStringInterface","photoacquire/IUserInputString","picacq.iuserinputstring"]
 old-location: picacq\iuserinputstring.htm
 tech.root: picacq
 ms.assetid: f942fefc-2db1-4067-8311-f9ebbaca9d31
 ms.date: 12/05/2018
 ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition],described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
-f1_keywords:
-- photoacquire/IUserInputString
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- photoacquire.h
-api_name:
-- IUserInputString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString
+ - photoacquire/IUserInputString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - photoacquire.h
+api_name:
+ - IUserInputString
 ---
 
 # IUserInputString interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IUserInputString</b> interface represents the object created when asking the user for a string—for example, when obtaining the name of a tag.
-
-
-
 
 ## -inheritance
 
@@ -161,16 +157,9 @@ Retrieves the tooltip text displayed for a control.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7d54830f-93cc-44c0-9bb7-43c439f4aa8e
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],UnRegisterDeviceFilter method, IBDA_NetworkProvider.UnRegisterDeviceFilter, IBDA_NetworkProvider::UnRegisterDeviceFilter, IBDA_NetworkProviderUnRegisterDeviceFilter, UnRegisterDeviceFilter, UnRegisterDeviceFilter method [Microsoft TV Technologies], UnRegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::UnRegisterDeviceFilter, mstv.ibda_networkprovider_unregisterdevicefilter
-f1_keywords:
-- bdaiface/IBDA_NetworkProvider.UnRegisterDeviceFilter
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_NetworkProvider.UnRegisterDeviceFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_NetworkProvider::UnRegisterDeviceFilter
+ - bdaiface/IBDA_NetworkProvider::UnRegisterDeviceFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_NetworkProvider.UnRegisterDeviceFilter
 ---
 
 # IBDA_NetworkProvider::UnRegisterDeviceFilter
@@ -49,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>UnRegisterDeviceFilter</b> method is called by BDA device filters when they are removed from the filter graph.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pvRegistrationContext [in]
 
 The registration context that the filter received in the call to <b>RegisterDeviceFilter</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_networkprovider">IBDA_NetworkProvider Interface</a>
- 
-
- 
 

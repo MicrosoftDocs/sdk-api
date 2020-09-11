@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: ef4678b4-e6b0-4044-ba11-7a3ae01ad2c7
 ms.date: 12/05/2018
 ms.keywords: IFsrmCommittableCollection, IFsrmCommittableCollection interface [File Server Resource Manager], IFsrmCommittableCollection interface [File Server Resource Manager],described, fs.ifsrmcommitablecollection, fs.ifsrmcommittablecollection, fsrm.ifsrmcommittablecollection, fsrm/IFsrmCommittableCollection
-f1_keywords:
-- fsrm/IFsrmCommittableCollection
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmCommittableCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmCommittableCollection
+ - fsrm/IFsrmCommittableCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmCommittableCollection
 ---
 
 # IFsrmCommittableCollection interface
 
 
 ## -description
-
 
 Defines a collection of FSRM objects that can have the same type of objects added to or removed from 
     the collection. All objects in the collection can also be committed in a single batch operation. 
@@ -109,7 +109,6 @@ The following methods and properties return this collection:
 </ul>The collection is empty if the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_count">IFsrmCollection::Count</a> property is zero.
 
-
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmCommittableCollection</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>. <b>IFsrmCommittableCollection</b> also has these types of members:
@@ -134,16 +133,9 @@ Commits all the objects of the collection and returns the commit results for eac
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>
- 
-
- 
 

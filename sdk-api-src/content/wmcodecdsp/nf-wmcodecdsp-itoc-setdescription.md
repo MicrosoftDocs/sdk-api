@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],SetDescription method, IToc.SetDescription, IToc::SetDescription, SetDescription, SetDescription method [Media Foundation], SetDescription method [Media Foundation],IToc interface, codecapi.itoc_setdescription, mf.itoc_setdescription, wmcodecdsp/IToc::SetDescription
-f1_keywords:
-- wmcodecdsp/IToc.SetDescription
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- IToc.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToc::SetDescription
+ - wmcodecdsp/IToc::SetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - IToc.SetDescription
 ---
 
 # IToc::SetDescription
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetDescription</b> method associates a description with the table of contents.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszDescription [in]
 
 Pointer to a NULL-terminated, wide-character string that contains the description.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,31 +79,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You can use this method to associate any description with the table of contents. TOC parser does not inspect or interpret the description.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-getdescription">GetDescription</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
- 
-
- 
 

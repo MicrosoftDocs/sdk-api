@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: D3D31978-D450-40B3-8C61-1F2662C1BA50
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallbackEx, DDEnumCallbackEx callback function [DirectDraw], LPDDENUMCALLBACKEX, LPDDENUMCALLBACKEX callback, LPDDENUMCALLBACKEXA, LPDDENUMCALLBACKEXW, ddraw/DDEnumCallbackEx, directdraw.ddenumcallbackex
-f1_keywords:
-- ddraw/DDEnumCallbackEx
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddraw.h
-api_name:
-- DDEnumCallbackEx
-- lpddenumcallbackexa
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDDENUMCALLBACKEXA
+ - ddraw/LPDDENUMCALLBACKEXA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddraw.h
+api_name:
+ - DDEnumCallbackEx
+ - lpddenumcallbackexa
 ---
 
 # LPDDENUMCALLBACKEXA callback function
@@ -50,37 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <i>DDEnumCallbackEx</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumerateexa">DirectDrawEnumerateEx</a> function.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param *
-
 
 ### -param Arg1
 
-
 ### -param Arg2
-
 
 ### -param Arg3
 
-
 ### -param Arg4
-
-
-
-
-
-
-
 
 #### - hm [in]
 
@@ -106,23 +89,13 @@ Address of a string that contains the driver name.
 
 A pointer to the unique identifier of the DirectDraw object.
 
-
 ## -returns
-
-
 
 The callback function returns nonzero to continue the enumeration.
 
 It returns zero to stop the enumeration.
 
-
-
-
-
-
 ## -remarks
-
-
 
 After the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumerateexa">DirectDrawEnumerateEx</a> function completes, the pointer to the GUID at <i>lpGUID</i> is no longer valid. You must save a copy of the GUID structure itself, not the pointer, or the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateex">DirectDrawCreateEx</a> function fails.
 

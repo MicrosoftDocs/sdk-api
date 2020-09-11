@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: B16BEFFD-26CF-4598-96A4-098C3E3AA51C
 ms.date: 12/05/2018
 ms.keywords: MFCreateProtectedEnvironmentAccess, MFCreateProtectedEnvironmentAccess function [Media Foundation], mf.mfcreateprotectedenvironmentaccess, mfidl/MFCreateProtectedEnvironmentAccess
-f1_keywords:
-- mfidl/MFCreateProtectedEnvironmentAccess
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateProtectedEnvironmentAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateProtectedEnvironmentAccess
+ - mfidl/MFCreateProtectedEnvironmentAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateProtectedEnvironmentAccess
 ---
 
 # MFCreateProtectedEnvironmentAccess function
@@ -49,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a> object that allows content protection systems to perform a handshake with the protected environment.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAccess [out]
 
 Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a> interface.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfprotectedenvironmentaccess-call">Call</a>
 
@@ -77,7 +69,4 @@ Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

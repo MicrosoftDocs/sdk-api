@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: C187EEB7-DCD0-4535-AF0E-EF2C0E2DC83C
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device1 interface,SetEventOnMultipleFenceCompletion method, ID3D12Device1.SetEventOnMultipleFenceCompletion, ID3D12Device1::SetEventOnMultipleFenceCompletion, SetEventOnMultipleFenceCompletion, SetEventOnMultipleFenceCompletion method, SetEventOnMultipleFenceCompletion method,ID3D12Device1 interface, d3d12/ID3D12Device1::SetEventOnMultipleFenceCompletion, direct3d12.id3d12device1_seteventonmultiplefencecompletion
-f1_keywords:
-- d3d12/ID3D12Device1.SetEventOnMultipleFenceCompletion
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12Device1.SetEventOnMultipleFenceCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device1::SetEventOnMultipleFenceCompletion
+ - d3d12/ID3D12Device1::SetEventOnMultipleFenceCompletion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12Device1.SetEventOnMultipleFenceCompletion
 ---
 
 ## -description
@@ -95,3 +96,4 @@ If *hEvent* is a null handle, then this API will not return until the specified 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
+

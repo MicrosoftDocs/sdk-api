@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: ea08e599-5d4a-4919-abed-c35fe0977f3f
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings2, ITaskSettings2 interface [Task Scheduler], ITaskSettings2 interface [Task Scheduler],described, taskschd.itasksettings2, taskschd/ITaskSettings2
-f1_keywords:
-- taskschd/ITaskSettings2
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskSettings2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskSettings2
+ - taskschd/ITaskSettings2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskSettings2
 ---
 
 # ITaskSettings2 interface
@@ -49,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Provides the extended settings that the Task Scheduler uses to run the task.
 
-
 ## -remarks
-
-
 
 When reading or writing XML for a task, the task settings are defined in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-settings-tasktype-element">Settings</a> element of the Task Scheduler schema.
 
@@ -66,12 +63,7 @@ For more information and a code example for this interface, see <a href="https:/
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a>
 
@@ -82,7 +74,4 @@ For more information and a code example for this interface, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
- 
-
- 
 

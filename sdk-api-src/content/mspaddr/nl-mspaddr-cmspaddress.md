@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 864bf814-43dd-4d2b-a5a7-fff12520accb
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress, CMSPAddress class [TAPI 2.2], CMSPAddress class [TAPI 2.2],described, _tapi3_cmspaddress, mspaddr/CMSPAddress, tapi3.cmspaddress
-f1_keywords:
-- mspaddr/CMSPAddress
-dev_langs:
-- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mspaddr.h
-api_name:
-- CMSPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CMSPAddress
+ - mspaddr/CMSPAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mspaddr.h
+api_name:
+ - CMSPAddress
 ---
 
 # CMSPAddress class
 
 
 ## -description
-
 
 The 
 <b>CMSPAddress</b> class implements the MSP address object and supports the 

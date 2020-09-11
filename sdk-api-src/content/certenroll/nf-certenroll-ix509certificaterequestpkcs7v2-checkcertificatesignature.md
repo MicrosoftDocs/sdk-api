@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6ee30e16-1901-45dc-8023-ef605d8a4d21
 ms.date: 12/05/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestPkcs7V2 interface, IX509CertificateRequestPkcs7V2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs7V2.CheckCertificateSignature
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateRequestPkcs7V2.CheckCertificateSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs7V2::CheckCertificateSignature
+ - certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateRequestPkcs7V2.CheckCertificateSignature
 ---
 
 # IX509CertificateRequestPkcs7V2::CheckCertificateSignature
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CheckCertificateSignature</b> method verifies the certificate signature.
 
-
 ## -parameters
-
-
-
 
 ### -param ValidateCertificateChain [in]
 
 A Boolean value that specifies whether to also verify the certificate chain. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -89,27 +82,12 @@ A signer certificate cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A PKCS #7 request has exactly one certificate-based signature.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7v2">IX509CertificateRequestPkcs7V2</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e
 ms.date: 12/05/2018
 ms.keywords: ACMFILTERENUMCB, ACMFILTERENUMCB callback, ACMFILTERENUMCB callback function [Windows Multimedia], ACMFILTERENUMCBA, ACMFILTERENUMCBW, _win32_acmFilterEnumCallback, acmFilterEnumCallback, msacm/ACMFILTERENUMCB, msacm/ACMFILTERENUMCBA, msacm/ACMFILTERENUMCBW, multimedia.acmfilterenumcallback
-f1_keywords:
-- msacm/ACMFILTERENUMCB
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Msacm.h
-api_name:
-- ACMFILTERENUMCB
-- ACMFILTERENUMCBA
-- ACMFILTERENUMCBW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ACMFILTERENUMCB
+ - msacm/ACMFILTERENUMCB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFILTERENUMCB
+ - ACMFILTERENUMCBA
+ - ACMFILTERENUMCBW
 ---
 
 # ACMFILTERENUMCB callback function
@@ -51,32 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmFilterEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a> function. The <b>acmFilterEnumCallback</b> name is a placeholder for an application-defined function name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hadid
 
 Handle to the ACM driver identifier.
 
-
 ### -param pafd
 
 Pointer to an [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure that contains the enumerated filter details for a filter tag.
 
-
 ### -param dwInstance
 
 Application-defined value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a>.
-
 
 ### -param fdwSupport
 
@@ -110,40 +100,22 @@ Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](/wi
 <td>Driver supports hardware input, output, or both with the specified filter through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The callback function must return <b>TRUE</b> to continue enumeration or <b>FALSE</b> to stop enumeration.
 
-
-
-
 ## -remarks
-
-
 
 The <b>acmFilterEnum</b> function will return MMSYSERR_NOERROR (zero) if no filters are to be enumerated. Moreover, the callback function will not be called.
 
 The following functions should not be called from within the callback function: <b>acmDriverAdd</b>, <b>acmDriverRemove</b>, and <b>acmDriverPriority</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
 

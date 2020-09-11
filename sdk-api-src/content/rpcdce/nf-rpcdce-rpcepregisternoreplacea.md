@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: eaf132a8-0bc2-4201-945a-76b6c2eab559
 ms.date: 12/05/2018
 ms.keywords: RpcEpRegisterNoReplace, RpcEpRegisterNoReplace function [RPC], RpcEpRegisterNoReplaceA, RpcEpRegisterNoReplaceW, _rpc_rpcepregisternoreplace, rpc.rpcepregisternoreplace, rpcdce/RpcEpRegisterNoReplace, rpcdce/RpcEpRegisterNoReplaceA, rpcdce/RpcEpRegisterNoReplaceW
-f1_keywords:
-- rpcdce/RpcEpRegisterNoReplace
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcEpRegisterNoReplace
-- RpcEpRegisterNoReplaceA
-- RpcEpRegisterNoReplaceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcEpRegisterNoReplaceA
+ - rpcdce/RpcEpRegisterNoReplaceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcEpRegisterNoReplace
+ - RpcEpRegisterNoReplaceA
+ - RpcEpRegisterNoReplaceW
 ---
 
 # RpcEpRegisterNoReplaceA function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcEpRegisterNoReplace</b> function adds server-address information to the local endpoint-map database.
 
-
 ## -parameters
-
-
-
 
 ### -param IfSpec
 
 Interface to register with the local endpoint-map database.
 
-
 ### -param BindingVector
 
 Pointer to a vector of binding handles over which the server can receive remote procedure calls.
-
 
 ### -param UuidVector
 
@@ -80,7 +74,6 @@ Pointer to a vector of object UUIDs offered by the server. The server applicatio
 
 A null parameter value indicates there are no object UUIDs to register.
 
-
 ### -param Annotation
 
 Pointer to the character-string comment applied to each cross-product element added to the local endpoint-map database. The string can be up to 64 characters long, including the null-terminating character. Specify a null value or a null-terminated string ("\0") if there is no annotation string. 
@@ -90,10 +83,7 @@ Pointer to the character-string comment applied to each cross-product element ad
 
 The annotation string is used by applications for information only. RPC does not use this string to determine which server instance a client communicates with or to enumerate elements in the endpoint-map database.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -151,11 +141,7 @@ This was the wrong kind of binding for the operation.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcEpRegisterNoReplace</b> function adds entries to the local host's endpoint-map database. This function does not replace existing database entries.
@@ -221,9 +207,6 @@ Each element added to the endpoint-map database logically contains the following
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
@@ -261,7 +244,4 @@ Each element added to the endpoint-map database logically contains the following
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
- 
-
- 
 

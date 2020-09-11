@@ -8,10 +8,6 @@ tech.root: input_intcontext
 ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATION structure, input_intcontext.interaction_context_configuration, interactioncontext.interaction_context_configuration, interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
-f1_keywords:
-- interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- interactioncontext.h
-api_name:
-- INTERACTION_CONTEXT_CONFIGURATION
 targetos: Windows
 req.typenames: INTERACTION_CONTEXT_CONFIGURATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INTERACTION_CONTEXT_CONFIGURATION
+ - interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - interactioncontext.h
+api_name:
+ - INTERACTION_CONTEXT_CONFIGURATION
 ---
 
 # INTERACTION_CONTEXT_CONFIGURATION structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines  the configuration of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object that enables, disables, or modifies the behavior of an interaction.
 
-
 ## -struct-fields
-
-
-
 
 ### -field interactionId
 
@@ -97,19 +93,11 @@ This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION<
 }                                                                         \
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: FAAE902A-622E-42D2-B332-CD4126A4182E
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorSetStreamStereoFormat, ID3D11VideoContext::VideoProcessorSetStreamStereoFormat, VideoProcessorSetStreamStereoFormat, VideoProcessorSetStreamStereoFormat method [Media Foundation], VideoProcessorSetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamStereoFormat, mf.id3d11videocontext_videoprocessorsetstreamstereoformat
-f1_keywords:
-- d3d11/ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
+ - d3d11/ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables stereo 3D video for an input stream on the video processor. In addition, this method specifies the layout of the video frames in memory.
 
-
 ## -parameters
-
-
-
 
 ### -param pVideoProcessor [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
-
 ### -param StreamIndex [in]
 
 The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
-
 
 ### -param Enable [in]
 
 Specifies whether stereo 3D is enabled for this stream. If the value is <b>FALSE</b>, the remaining parameters of this method are ignored.
 
-
 ### -param Format [in]
 
 Specifies the layout of the two stereo views in memory, as a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
-
 
 ### -param LeftViewFrame0 [in]
 
@@ -109,7 +101,6 @@ This parameter is ignored for the following stereo formats:
 
 A flag from the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_flip_mode">D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration, specifying whether one of the views is flipped.
 
-
 ### -param MonoOffset [in]
 
 For <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> format, this parameter specifies how to generate the left and right views:  
@@ -120,14 +111,7 @@ For <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> format, this paramete
 </ul>
 If <i>Format</i> is not <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, this parameter must be zero.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
- 
-
- 
 

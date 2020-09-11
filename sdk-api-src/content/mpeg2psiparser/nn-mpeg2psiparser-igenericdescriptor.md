@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84
 ms.date: 12/05/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
-f1_keywords:
-- mpeg2psiparser/IGenericDescriptor
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IGenericDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGenericDescriptor
+ - mpeg2psiparser/IGenericDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IGenericDescriptor
 ---
 
 # IGenericDescriptor interface
@@ -49,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
 The <b>IGenericDescriptor</b> enables the client to get an MPEG-2 descriptor in an unparsed format.
 
 See ISO/IEC 1318-1 for the MPEG-2 descriptor specifications. See ETSI EN 300 468 for the DVB descriptor specifications.
-
-
-
 
 ## -inheritance
 
@@ -112,16 +108,9 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

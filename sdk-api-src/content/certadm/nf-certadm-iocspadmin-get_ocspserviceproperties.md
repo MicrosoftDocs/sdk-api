@@ -7,10 +7,6 @@ tech.root: security
 ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
-f1_keywords:
-- certadm/IOCSPAdmin.OCSPServiceProperties
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +24,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPAdmin.OCSPServiceProperties
-- IOCSPAdmin.get_OCSPServiceProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPAdmin::get_OCSPServiceProperties
+ - certadm/IOCSPAdmin::get_OCSPServiceProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPAdmin.OCSPServiceProperties
+ - IOCSPAdmin.get_OCSPServiceProperties
 ---
 
 # IOCSPAdmin::get_OCSPServiceProperties
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table lists the possible <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a>-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> pairs for OCSP service properties.
 
@@ -163,18 +159,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 879f83ba-211b-49f6-93b2-6cde5f50fc24
 ms.date: 12/05/2018
 ms.keywords: TS_LC_CHANGE, TS_LC_CREATE, TS_LC_DESTROY, TsLayoutCode, TsLayoutCode enumeration [Text Services Framework], _tsf_tslayoutcode_ref, textstor/TS_LC_CHANGE, textstor/TS_LC_CREATE, textstor/TS_LC_DESTROY, textstor/TsLayoutCode, tsf.tslayoutcode
-f1_keywords:
-- textstor/TsLayoutCode
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Textstor.h
-api_name:
-- TsLayoutCode
 targetos: Windows
 req.typenames: TsLayoutCode
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_textstor_0000_0000_0002
+ - textstor/__MIDL___MIDL_itf_textstor_0000_0000_0002
+ - TsLayoutCode
+ - textstor/TsLayoutCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Textstor.h
+api_name:
+ - TsLayoutCode
 ---
 
 # TsLayoutCode enumeration
@@ -49,34 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Elements of the <b>TsLayoutCode</b> enumeration are used to specify the type of layout change in an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onlayoutchange">ITextStoreACPSink::OnLayoutChange</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange</a> notification.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TS_LC_CREATE
 
 The view has just been created.
 
-
 ### -field TS_LC_CHANGE
 
 The view layout has changed.
-
 
 ### -field TS_LC_DESTROY
 
 The view is about to be destroyed.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onlayoutchange">ITextStoreACPSink::OnLayoutChange
       </a>
@@ -85,7 +77,4 @@ The view is about to be destroyed.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange
       </a>
- 
-
- 
 

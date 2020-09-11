@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA
 ms.date: 12/05/2018
 ms.keywords: '*PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FILE_STORAGE_TIER_FLAG_NO_SEEK_PENALTY, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure [Files], PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT, PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure pointer [Files], fs.fsctl_query_storage_classes_output, winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT'
-f1_keywords:
-- winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoctl.h
-api_name:
-- FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 targetos: Windows
 req.typenames: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT, *PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 req.redist: 
+f1_keywords:
+ - _FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ - winioctl/_FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ - PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ - winioctl/PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ - FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+ - winioctl/FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoctl.h
+api_name:
+ - FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 ---
 
 # FSCTL_QUERY_STORAGE_CLASSES_OUTPUT structure
@@ -48,24 +53,17 @@ req.redist:
 
 ## -description
 
-
 Contains information for all tiers of a specific volume.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The size of this structure serves as the version.  Set it to <b>sizeof</b>(<b>FSCTL_QUERY_STORAGE_CLASSES_OUTPUT</b>).
 
-
 ### -field Size
 
 Size of this structure plus all the variable sized fields.
-
 
 ### -field Flags
 
@@ -88,21 +86,16 @@ Tier does not suffer a seek penalty on IO operations, which indicates that is an
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TotalNumberOfTiers
 
 Total number of available tiers for this disk.
 
-
 ### -field NumberOfTiersReturned
 
 Number of tiers that fit in the output.
 
-
 ### -field Tiers
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier">FILE_STORAGE_TIER</a> structure that contains detailed info on the storage tiers.
 

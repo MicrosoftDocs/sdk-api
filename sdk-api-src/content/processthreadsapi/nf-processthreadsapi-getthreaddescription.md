@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
 ms.date: 12/05/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
-f1_keywords:
-- processthreadsapi/GetThreadDescription
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Kernelbase.dll
-- Api-ms-win-core-processthreads-l1-1-3.dll
-api_name:
-- GetThreadDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThreadDescription
+ - processthreadsapi/GetThreadDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Kernelbase.dll
+ - Api-ms-win-core-processthreads-l1-1-3.dll
+api_name:
+ - GetThreadDescription
 ---
 
 # GetThreadDescription function
@@ -96,3 +97,4 @@ if (SUCCEEDED(hr))
 ## -see-also
 
 [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree), [SetThreadDescription](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreaddescription)
+

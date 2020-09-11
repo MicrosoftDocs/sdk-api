@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: 06954cc5-19a7-4bae-ac30-94dcdc35d15d
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2, ContextInfo2 interface [COM+], ContextInfo2 interface [COM+],described, _cos_ContextInfo2, comsvcs/ContextInfo2, cos.contextinfo2
-f1_keywords:
-- comsvcs/ContextInfo2
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ContextInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ContextInfo2
+ - comsvcs/ContextInfo2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ContextInfo2
 ---
 
 # ContextInfo2 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Provides additional information about an object's context, supplementing the information that is available through the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a> interface.
 
 <b>ContextInfo2</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a> provide the same functionality, but unlike <b>IObjectContextInfo2</b>, <b>ContextInfo2</b> is compatible with Automation.
-
 
 ## -inheritance
 
@@ -97,13 +96,9 @@ Retrieves the GUID of the COM+ partition of the current object context.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
@@ -126,7 +121,4 @@ Retrieves the GUID of the COM+ partition of the current object context.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
- 
-
- 
 

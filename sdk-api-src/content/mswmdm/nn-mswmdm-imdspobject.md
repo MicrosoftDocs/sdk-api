@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 271d7185-1a9d-4bec-9289-4ae5461ed741
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], IMDSPObject interface [windows Media Device Manager],described, IMDSPObjectInterface, mswmdm/IMDSPObject, wmdm.imdspobject
-f1_keywords:
-- mswmdm/IMDSPObject
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPObject
+ - mswmdm/IMDSPObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPObject
 ---
 
 # IMDSPObject interface
 
 
 ## -description
-
-
 
 The <b>IMDSPObject</b> interface manages the transfer of data to and from storage media.
 
@@ -58,9 +57,6 @@ The <b>Open</b>, <b>Read</b>, <b>Write</b>, and <b>Close</b> methods are valid o
 The service provider should also be able to handle simultaneous read or write operations on multiple files. If the underlying file-system does not support opening of multiple files at the same time, service provider should gracefully return an error.
 
 The <b>Delete</b>, <b>Rename</b>, and <b>Move</b> methods are valid for both files and folders.
-
-
-
 
 ## -inheritance
 
@@ -149,20 +145,13 @@ Writes data to the object at the current position within the object. This object
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2">IMDSPObject2 Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

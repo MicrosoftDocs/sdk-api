@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: cd1422d1-16a3-4aae-aadb-772a06173ba3
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyle method, IVideoWindow.put_WindowStyle, IVideoWindow::put_WindowStyle, IVideoWindowput_WindowStyle, control/IVideoWindow::put_WindowStyle, dshow.ivideowindow_put_windowstyle, put_WindowStyle, put_WindowStyle method [DirectShow], put_WindowStyle method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_WindowStyle
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_WindowStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_WindowStyle
+ - control/IVideoWindow::put_WindowStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_WindowStyle
 ---
 
 # IVideoWindow::put_WindowStyle
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_WindowStyle</code> method sets the window styles on the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param WindowStyle [in]
 
 One or more flags from the GWL_STYLE value of the Windows <b>SetWindowLong</b> function.
 
-
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -101,14 +91,8 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is a thin wrapper over the <b>SetWindowLong</b> function and must be treated with care. In particular, you should retrieve the current styles and then add or remove flags. With some exceptions, flags allowed by the Windows <b>CreateWindow</b> function are acceptable. However, do not use this method to change the window size, and do not use the following flags:
 
@@ -121,12 +105,7 @@ This method is a thin wrapper over the <b>SetWindowLong</b> function and must be
 <li>WS_VSCROLL</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
@@ -141,7 +120,4 @@ This method is a thin wrapper over the <b>SetWindowLong</b> function and must be
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyleex">IVideoWindow::put_WindowStyleEx</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 61E9BC6A-2120-4874-9053-E1D232DF1CCA
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], IMFSpatialAudioObjectBuffer interface [Media Foundation],described, mf.imfspatialaudioobjectbuffer, mfspatialaudio/IMFSpatialAudioObjectBuffer
-f1_keywords:
-- mfspatialaudio/IMFSpatialAudioObjectBuffer
-dev_langs:
-- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.lib
-- mfobjects.dll
-api_name:
-- IMFSpatialAudioObjectBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSpatialAudioObjectBuffer
+ - mfspatialaudio/IMFSpatialAudioObjectBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.lib
+ - mfobjects.dll
+api_name:
+ - IMFSpatialAudioObjectBuffer
 ---
 
 # IMFSpatialAudioObjectBuffer interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a section of audio data with
 associated positional and rendering metadata.  Spatial audio objects are stored in <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a> instances, and allow passing of 
 spatial audio information between Media Foundation components.
-
 
 ## -inheritance
 
@@ -120,25 +119,13 @@ Sets the type of the spatial audio object represented by the buffer.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To get the audio data contained in the spatial audio object, use the    <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">IMFMediaBuffer::Unlock</a> methods.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
- 
-
- 
 

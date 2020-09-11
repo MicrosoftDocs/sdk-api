@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.date: 12/05/2018
 ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE callback function [Failover Cluster], _wolf_close, mscs.close, resapi/PCLOSE_ROUTINE
-f1_keywords:
-- resapi/PCLOSE_ROUTINE
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- PCLOSE_ROUTINE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PCLOSE_ROUTINE
+ - resapi/PCLOSE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - PCLOSE_ROUTINE
 ---
 
 # PCLOSE_ROUTINE callback function
@@ -49,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>PCLOSE_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
 
-
-
-
 ### -param Resource
-
-
-
-
-
-
-
 
 #### - ResourceId [in]
 
 Resource identifier of the resource to close.
 
-
 ## -returns
-
-
 
 None. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to specify that an error has 
        occurred.
 
-
-
-
 ## -remarks
-
-
 
 For effective implementation strategies of the <b>Close</b> 
      entry-point function, see 
@@ -98,15 +79,7 @@ See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Res
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

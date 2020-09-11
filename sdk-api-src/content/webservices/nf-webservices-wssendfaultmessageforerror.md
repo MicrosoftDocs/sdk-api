@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 1bb2af58-21c1-45e1-a685-91d200e9b452
 ms.date: 12/05/2018
 ms.keywords: WsSendFaultMessageForError, WsSendFaultMessageForError function [Web Services for Windows], webservices/WsSendFaultMessageForError, wsw.wssendfaultmessageforerror
-f1_keywords:
-- webservices/WsSendFaultMessageForError
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSendFaultMessageForError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSendFaultMessageForError
+ - webservices/WsSendFaultMessageForError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSendFaultMessageForError
 ---
 
 # WsSendFaultMessageForError function
@@ -49,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a fault message given a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to send the message on.
-                
-
 
 ### -param replyMessage [in]
 
@@ -73,14 +66,10 @@ A message object to use to send the reply message.
 The message object should be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> or
                     <b>WS_MESSAGE_STATE_INITIALIZED</b>.  If an initialized message is provided,
                     it should have been initialized using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a>.
-                
-
 
 ### -param faultError [in]
 
 The error object to use to construct the fault.
-                
-
 
 ### -param faultErrorCode [in]
 
@@ -91,14 +80,10 @@ The error code associated with the fault.  This cannot
 This error code is never included in the fault message directly, but 
                     instead is used as a fallback mechanism for creating an fault string in the case that
                     the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object does not contain any error strings.
-                
-
 
 ### -param faultDisclosure [in]
 
 Controls how much of the error information is included in the fault message.
-                
-
 
 ### -param requestMessage [in]
 
@@ -107,24 +92,16 @@ The request message.  This is used to obtain correlation information used
                 
 
 The message can be in any state but <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
-                
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -267,14 +244,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> that is sent in the body of the message
                 is constructed using the same rules as defined by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatefaultfromerror">WsCreateFaultFromError</a>.
@@ -312,7 +283,4 @@ If sending a fault without a <a href="https://docs.microsoft.com/windows/desktop
 
 To add custom headers to the message, initialize the message <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> and then add the headers using 
                 <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> before calling this function.
-            
-
-
 

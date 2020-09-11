@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7cd20c78-8203-42a2-ad58-1a206fad5463
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpGetCredUIContextFn, SpGetCredUIContextFn callback, SpGetCredUIContextFn callback function [Security], ntsecpkg/SpGetCredUIContextFn, security.spgetcreduicontextfn
-f1_keywords:
-- ntsecpkg/SpGetCredUIContextFn
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpGetCredUIContextFn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpGetCredUIContextFn
+ - ntsecpkg/SpGetCredUIContextFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpGetCredUIContextFn
 ---
 
 # SpGetCredUIContextFn callback function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves context information from a credential provider.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextHandle [in]
 
 A handle to the context for which to get information.
-
 
 ### -param *CredType [in]
 
@@ -106,37 +101,24 @@ The credential is authentication data from a <a href="https://docs.microsoft.com
 </td>
 </tr>
 </table>
- 
-
 
 ### -param FlatCredUIContextLength [out]
 
 The size, in characters, of the buffer received by the <i>FlatCredUIContext</i> parameter.
 
-
 ### -param *FlatCredUIContext [out]
 
 A pointer to an array of characters that specifies information about the context specified by the <i>ContextHandle</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, return <b>STATUS_SUCCESS</b> or an informational status code.
 
 If the function fails, return an <b>NTSTATUS</b> error code that indicates the reason it failed. For more information, see Remarks.
 
-
-
-
 ## -remarks
-
-
 
 A pointer to the <b>SpGetCredUIContextFn</b> function is available in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
-
-
 

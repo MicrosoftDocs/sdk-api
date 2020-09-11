@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 51bbd98a-7017-497a-858a-dd63cefc679a
 ms.date: 12/05/2018
 ms.keywords: IMenuButton, IMenuButton interface [MMC], IMenuButton interface [MMC],described, _slate_imenubutton, mmc.imenubutton, mmc/IMenuButton
-f1_keywords:
-- mmc/IMenuButton
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IMenuButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMenuButton
+ - mmc/IMenuButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IMenuButton
 ---
 
 # IMenuButton interface
@@ -49,10 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IMenuButton</b> interface enables the user to add and manage menu buttons for a snap-in. MMC provides one menu bar per view; when a snap-in has the focus you can add one or more menu buttons for the view to this bar. These buttons are always added by appending them to the buttons already in the menu bar.
-
 
 ## -inheritance
 
@@ -96,5 +95,5 @@ Sets the state of a menu bar button.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetClassInfo, GetClassInfo function [Windows and Messages], GetClassInfoA, GetClassInfoW, _win32_GetClassInfo, _win32_getclassinfo_cpp, winmsg.getclassinfo, winui._win32_getclassinfo, winuser/GetClassInfo, winuser/GetClassInfoA, winuser/GetClassInfoW
-f1_keywords:
-- winuser/GetClassInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,36 +25,40 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-windowclass-l1-1-2.dll
-api_name:
-- GetClassInfo
-- GetClassInfoA
-- GetClassInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClassInfoW
+ - winuser/GetClassInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+api_name:
+ - GetClassInfo
+ - GetClassInfoA
+ - GetClassInfoW
 ---
 
 # GetClassInfoW function
 
 
 ## -description
-
 
 Retrieves information about a window class. 
 
@@ -68,15 +68,11 @@ Retrieves information about a window class.
 
 ## -parameters
 
-
-
-
 ### -param hInstance [in, optional]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the instance of the application that created the class. To retrieve information about classes defined by the system (such as buttons or list boxes), set this parameter to <b>NULL</b>. 
-
+A handle to the instance of the application that created the class. To retrieve information about classes defined by the system (such as buttons or list boxes), set this parameter to <b>NULL</b>.
 
 ### -param lpClassName [in]
 
@@ -87,31 +83,21 @@ The class name. The name must be that of a preregistered class or a class regist
 Alternatively, this parameter can be an atom. If so, it must be a class atom created by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>. The atom must be in the low-order word of 
 					<i>lpClassName</i>; the high-order word must be zero.
 
-
 ### -param lpWndClass [out]
 
 Type: <b>LPWNDCLASS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure that receives the information about the class. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure that receives the information about the class.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function finds a matching class and successfully copies the data, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -146,9 +132,6 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
- 
-
- 
 
 ## -remarks
 

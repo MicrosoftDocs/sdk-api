@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df
 ms.date: 12/05/2018
 ms.keywords: '*LPDDVIDEOPORTDATA, DDVIDEOPORTDATA, DDVIDEOPORTDATA structure [Display Devices], LPDDVIDEOPORTDATA, LPDDVIDEOPORTDATA structure pointer [Display Devices], Video_Structs_2c27c41d-7b5c-4e72-a362-ca2699099ef4.xml, display.ddvideoportdata, dxmini/DDVIDEOPORTDATA, dxmini/LPDDVIDEOPORTDATA'
-f1_keywords:
-- dxmini/DDVIDEOPORTDATA
-dev_langs:
-- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxmini.h
-api_name:
-- DDVIDEOPORTDATA
 targetos: Windows
 req.typenames: DDVIDEOPORTDATA, *LPDDVIDEOPORTDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DDVIDEOPORTDATA
+ - dxmini/DDVIDEOPORTDATA
+ - LPDDVIDEOPORTDATA
+ - dxmini/LPDDVIDEOPORTDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxmini.h
+api_name:
+ - DDVIDEOPORTDATA
 ---
 
 # DDVIDEOPORTDATA structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDVIDEOPORTDATA structure is used by DirectDraw to represent a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object to the kernel-mode video miniport driver. 
-
+The DDVIDEOPORTDATA structure is used by DirectDraw to represent a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object to the kernel-mode video miniport driver.
 
 ## -struct-fields
 
-
-
-
 ### -field dwVideoPortId
 
-Specifies the ID of this hardware video port, an integer in the range (0 - (maximum number of hardware video ports - 1)). 
-
+Specifies the ID of this hardware video port, an integer in the range (0 - (maximum number of hardware video ports - 1)).
 
 ### -field dwVPFlags
 
@@ -233,46 +230,32 @@ Data within the vertical blanking interval should not be scaled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwOriginOffset
 
-Specifies the byte offset of the VPE object relative to the start of the surface. This value is used only by the miniport driver. 
-
+Specifies the byte offset of the VPE object relative to the start of the surface. This value is used only by the miniport driver.
 
 ### -field dwHeight
 
-Specifies the height in pixels of the VPE object data. This value is used only by the miniport driver. 
-
+Specifies the height in pixels of the VPE object data. This value is used only by the miniport driver.
 
 ### -field dwVBIHeight
 
-Specifies the height in scan lines of the VBI data. This value is used only by the miniport driver. 
-
+Specifies the height in scan lines of the VBI data. This value is used only by the miniport driver.
 
 ### -field dwDriverReserved1
 
 Reserved for use by the miniport driver.
 
-
 ### -field dwDriverReserved2
 
 Reserved for use by the miniport driver.
-
 
 ### -field dwDriverReserved3
 
 Reserved for use by the miniport driver.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
- 
-
- 
 

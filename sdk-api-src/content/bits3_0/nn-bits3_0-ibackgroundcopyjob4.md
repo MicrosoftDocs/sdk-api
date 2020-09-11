@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 68909710-f749-487e-b064-9f8630929c53
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], IBackgroundCopyJob4 interface [BITS],described, bits.ibackgroundcopyjob4, bits3_0/IBackgroundCopyJob4
-f1_keywords:
-- bits3_0/IBackgroundCopyJob4
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx4.dll
-api_name:
-- IBackgroundCopyJob4
 targetos: Windows
 req.typenames: 
 req.redist: BITS 2.5 on  Windows Server 2003,  Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob4
+ - bits3_0/IBackgroundCopyJob4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx4.dll
+api_name:
+ - IBackgroundCopyJob4
 ---
 
 # IBackgroundCopyJob4 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to enable peer caching, restrict download time, and inspect user token characteristics.
 
-To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method using <code>__uuidof(IBackgroundCopyJob4)</code> as the interface identifier. 
-
+To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method using <code>__uuidof(IBackgroundCopyJob4)</code> as the interface identifier.
 
 ## -inheritance
 
@@ -124,13 +123,9 @@ Sets flags that determine if the files of the job can be cached and served to pe
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
@@ -141,7 +136,4 @@ Sets flags that determine if the files of the job can be cached and served to pe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
- 
-
- 
 

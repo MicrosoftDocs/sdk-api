@@ -8,10 +8,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopenex.htm
 ms.date: 12/05/2018
 ms.keywords: WABOpenEx, WABOpenEx callback, WABOpenEx callback function [Windows Address Book], _wab_WABOpenEx, wab._wab_WABOpenEx, wabapi/WABOpenEx
-f1_keywords:
-- wabapi/WABOpenEx
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wabapi.h
-api_name:
-- WABOpenEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.5
 ms.custom: 19H1
+f1_keywords:
+ - WABOpenEx
+ - wabapi/WABOpenEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wabapi.h
+api_name:
+ - WABOpenEx
 ---
 
 # WABOpenEx callback function
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<i>WABOpenEx</i> is no longer available for use as of Windows Vista.]
 
 Provides access to the Windows Address Book (WAB) through a number of object interfaces. The root interface is <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>, which is a subset of the MAPI implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lppAdrBook
 
@@ -67,34 +63,21 @@ Type: <b>LPADRBOOK*</b>
 
 Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface returned by the function.
 
-
 ### -param lppWABObject
 
 Type: <b>LPWABOBJECT*</b>
 
 Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nn-wabapi-iwabobject">IWABObject</a> interface returned by the function.
 
-
 ### -param lpWP
-
 
 ### -param Reserved
 
-
 ### -param fnAllocateBuffer
-
 
 ### -param fnAllocateMore
 
-
 ### -param fnFreeBuffer
-
-
-
-
-
-
-
 
 #### - Reserved2
 
@@ -130,21 +113,13 @@ Type: <b>FREEBUFFER*</b>
 
 Pointer to a function that specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a>-style memory freeing function. Set to <b>NULL</b> to use WAB internal routines.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 This function calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/nc-wabapi-wabopen">WABOpen</a> function, and the extra parameters <i>lpfnAllocateBuffer</i>, <i>lpfnAllocateMore</i>, and <i>lpfnFreeBuffer</i> are ignored.
 
@@ -155,5 +130,4 @@ If you do not need the extra memory allocation functionality of <i>WABOpenEx</i>
 <div class="alert"><b>Note</b>  When you specify memory allocation routines with <i>WABOpenEx</i>, these routines globally replace the WAB internal routines for this process.  Other threads may still call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/nc-wabapi-wabopen">WABOpen</a>, but the memory will be allocated with those routines previously passed to <i>WABOpenEx</i>.  
 </div>
 <div> </div>
-
 

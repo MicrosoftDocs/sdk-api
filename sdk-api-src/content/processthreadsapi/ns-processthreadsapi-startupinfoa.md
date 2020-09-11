@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.date: 12/05/2018
 ms.keywords: '*LPSTARTUPINFOA, LPSTARTUPINFO, LPSTARTUPINFO structure pointer, STARTF_FORCEOFFFEEDBACK, STARTF_FORCEONFEEDBACK, STARTF_PREVENTPINNING, STARTF_RUNFULLSCREEN, STARTF_TITLEISAPPID, STARTF_TITLEISLINKNAME, STARTF_UNTRUSTEDSOURCE, STARTF_USECOUNTCHARS, STARTF_USEFILLATTRIBUTE, STARTF_USEHOTKEY, STARTF_USEPOSITION, STARTF_USESHOWWINDOW, STARTF_USESIZE, STARTF_USESTDHANDLES, STARTUPINFO, STARTUPINFO structure, STARTUPINFOA, STARTUPINFOW, _win32_startupinfo_str, base.startupinfo_str, processthreadsapi/LPSTARTUPINFO, processthreadsapi/STARTUPINFO, processthreadsapi/STARTUPINFOA, processthreadsapi/STARTUPINFOW, winbase/LPSTARTUPINFO, winbase/STARTUPINFO, winbase/STARTUPINFOA, winbase/STARTUPINFOW'
-f1_keywords:
-- processthreadsapi/STARTUPINFO
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,22 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-- processthreadsapi.h
-api_name:
-- STARTUPINFO
-- STARTUPINFOA
-- STARTUPINFOW
 targetos: Windows
 req.typenames: STARTUPINFOA, *LPSTARTUPINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _STARTUPINFOA
+ - processthreadsapi/_STARTUPINFOA
+ - LPSTARTUPINFOA
+ - processthreadsapi/LPSTARTUPINFOA
+ - STARTUPINFOA
+ - processthreadsapi/STARTUPINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+ - processthreadsapi.h
+api_name:
+ - STARTUPINFO
+ - STARTUPINFOA
+ - STARTUPINFOW
 ---
 
 # STARTUPINFOA structure
@@ -52,37 +57,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cb
 
 The size of the structure, in bytes.
 
-
 ### -field lpReserved
 
 Reserved; must be NULL.
-
 
 ### -field lpDesktop
 
  The name of the desktop, or the name of both the desktop and window station for this process. A backslash in the string indicates that the string includes both the desktop and window station names. 
 
 For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/thread-connection-to-a-desktop">Thread Connection to a Desktop</a>.
-					
-
 
 ### -field lpTitle
 
 For console processes, this is the title displayed in the title bar if a new console window is created. If NULL, the name of the executable file is used as the window title instead. This parameter must be NULL for GUI or console processes that do not create a new console window.
-
 
 ### -field dwX
 
@@ -93,7 +88,6 @@ If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the x offset of t
 
 The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>x</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
-
 ### -field dwY
 
 If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the y offset of the upper left corner of a window if a new window is created, in pixels. Otherwise, this member is ignored. 
@@ -102,7 +96,6 @@ If <b>dwFlags</b> specifies STARTF_USEPOSITION, this member is the y offset of t
 
 
 The offset is from the upper left corner of the screen. For GUI processes, the specified position is used the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>y</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
-
 
 ### -field dwXSize
 
@@ -113,7 +106,6 @@ If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the width of the wind
 
 For GUI processes, this is used only the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>nWidth</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
-
 ### -field dwYSize
 
 If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the height of the window if a new window is created, in pixels. Otherwise, this member is ignored. 
@@ -123,16 +115,13 @@ If <b>dwFlags</b> specifies STARTF_USESIZE, this member is the height of the win
 
 For GUI processes, this is used only the first time the new process calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create an overlapped window if the <i>nHeight</i> parameter of <b>CreateWindow</b> is CW_USEDEFAULT.
 
-
 ### -field dwXCountChars
 
  If <b>dwFlags</b> specifies STARTF_USECOUNTCHARS, if a new console window is created in a console process, this member specifies the screen buffer width, in character columns. Otherwise, this member is ignored.
 
-
 ### -field dwYCountChars
 
  If <b>dwFlags</b> specifies STARTF_USECOUNTCHARS, if a new console window is created in a console process, this member specifies the screen buffer height, in character rows. Otherwise, this member is ignored.
-
 
 ### -field dwFillAttribute
 
@@ -144,7 +133,6 @@ If <b>dwFlags</b> specifies STARTF_USEFILLATTRIBUTE, this member is the initial 
 This value can be any combination of the following values: FOREGROUND_BLUE, FOREGROUND_GREEN, FOREGROUND_RED, FOREGROUND_INTENSITY, BACKGROUND_BLUE, BACKGROUND_GREEN, BACKGROUND_RED, and BACKGROUND_INTENSITY. For example, the following combination of values produces red text on a white background:
 
 <code>FOREGROUND_RED| BACKGROUND_RED| BACKGROUND_GREEN| BACKGROUND_BLUE</code>
-
 
 ### -field dwFlags
 
@@ -358,8 +346,6 @@ This flag cannot be used with <b>STARTF_USEHOTKEY</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wShowWindow
 
@@ -371,16 +357,13 @@ If <b>dwFlags</b> specifies STARTF_USESHOWWINDOW, this member can be any of the 
 For GUI processes, the first time 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> is called, its <i>nCmdShow</i> parameter is ignored <b>wShowWindow</b> specifies the default value. In subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>, the <b>wShowWindow</b> member is used if the <i>nCmdShow</i> parameter of <b>ShowWindow</b> is set to SW_SHOWDEFAULT.
 
-
 ### -field cbReserved2
 
 Reserved for use by the C Run-time; must be zero.
 
-
 ### -field lpReserved2
 
 Reserved for use by the C Run-time; must be NULL.
-
 
 ### -field hStdInput
 
@@ -390,24 +373,17 @@ If <b>dwFlags</b> specifies STARTF_USEHOTKEY, this member specifies a hotkey val
 
 Otherwise, this member is ignored.
 
-
 ### -field hStdOutput
 
 If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard output handle for the process. Otherwise, this member is ignored and the default for standard output is the console window's buffer.
 
 If a process is launched from the taskbar or jump list, the system sets <b>hStdOutput</b> to a handle to the monitor that contains the taskbar or jump list used to launch the process. For more information, see Remarks.<b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>This behavior was introduced in Windows 8 and Windows Server 2012.
 
-
-
-
 ### -field hStdError
 
 If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard error handle for the process. Otherwise, this member is ignored and the default for standard error is the console window's buffer.
 
-
 ## -remarks
-
-
 
 For graphical user interface (GUI) processes, this information affects the first window created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function and shown by the 
@@ -439,9 +415,6 @@ For an example, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
@@ -459,7 +432,4 @@ For an example, see
 
 
 [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)
- 
-
- 
 

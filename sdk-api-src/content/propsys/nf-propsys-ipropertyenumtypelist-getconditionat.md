@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: 0754ac31-09e9-429b-8ae2-58346fb50944
 ms.date: 12/05/2018
 ms.keywords: GetConditionAt, GetConditionAt method [Windows Properties], GetConditionAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetConditionAt method, IPropertyEnumTypeList.GetConditionAt, IPropertyEnumTypeList::GetConditionAt, _shell_IPropertyEnumTypeList_GetConditionAt, properties.IPropertyEnumTypeList_GetConditionAt, propsys/IPropertyEnumTypeList::GetConditionAt, shell.IPropertyEnumTypeList_GetConditionAt
-f1_keywords:
-- propsys/IPropertyEnumTypeList.GetConditionAt
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- propsys.h
-api_name:
-- IPropertyEnumTypeList.GetConditionAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyEnumTypeList::GetConditionAt
+ - propsys/IPropertyEnumTypeList::GetConditionAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - propsys.h
+api_name:
+ - IPropertyEnumTypeList.GetConditionAt
 ---
 
 # IPropertyEnumTypeList::GetConditionAt
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 Gets the condition at the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
@@ -66,13 +62,11 @@ Type: <b>UINT</b>
 
 Index of the desired condition.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 A reference to the IID of the interface to retrieve.
-
 
 ### -param ppv [out]
 
@@ -80,14 +74,9 @@ Type: <b>void**</b>
 
 When this method returns, contains the address of an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> interface pointer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

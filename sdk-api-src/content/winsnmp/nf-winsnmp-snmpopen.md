@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: 45085cad-2bfb-4f6c-9e42-6041fed681b8
 ms.date: 12/05/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
-f1_keywords:
-- winsnmp/SnmpOpen
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpOpen
+ - winsnmp/SnmpOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpOpen
 ---
 
 # SnmpOpen function
 
 
 ## -description
-
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
@@ -61,22 +61,15 @@ The
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
 
 Handle to a window of the WinSNMP application to notify when an asynchronous request completes, or when trap notification occurs.
-
 
 ### -param wMsg [in]
 
 Specifies an unsigned integer that identifies the notification message to send to the WinSNMP application window.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle that identifies the WinSNMP session that the implementation opens for the calling application.
 
@@ -135,14 +128,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SnmpOpen</b> function returns a unique handle to each open WinSNMP session within the calling WinSNMP application. The application must use the session handle that 
@@ -172,13 +159,7 @@ For information about opening a WinSNMP session and specifying the method used t
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-sessions">WinSNMP Sessions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a>
 
@@ -206,7 +187,4 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

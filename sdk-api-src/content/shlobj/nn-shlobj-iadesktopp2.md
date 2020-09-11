@@ -8,10 +8,6 @@ tech.root: lwef
 ms.assetid: f67cc6c0-183c-4da2-9648-68a86dccfd78
 ms.date: 12/05/2018
 ms.keywords: IADesktopP2, IADesktopP2 interface [Legacy Windows Environment Features], IADesktopP2 interface [Legacy Windows Environment Features],described, _win32_IADesktopP2, lwef.iadesktopp2, shell.iadesktopp2, shlobj/IADesktopP2
-f1_keywords:
-- shlobj/IADesktopP2
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IADesktopP2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADesktopP2
+ - shlobj/IADesktopP2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IADesktopP2
 ---
 
 # IADesktopP2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides methods to manage the Windows Desktop.
-
 
 ## -inheritance
 
@@ -77,25 +76,13 @@ Calls the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlo
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 Despite its name, this interface does not inherit from <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-iactivedesktopp">IActiveDesktopP</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
- 
-
- 
 

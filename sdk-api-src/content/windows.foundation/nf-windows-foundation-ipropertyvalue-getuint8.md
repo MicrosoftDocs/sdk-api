@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 736B44FF-F5A7-463A-9892-399CB3EC90B4
 ms.date: 12/05/2018
 ms.keywords: GetUInt8, GetUInt8 method [Windows Runtime], GetUInt8 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8 method, IPropertyValue.GetUInt8, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8, winrt.ipropertyvalue_getuint8
-f1_keywords:
-- windows.foundation/IPropertyValue.GetUInt8
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetUInt8
+ - windows.foundation/IPropertyValue::GetUInt8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetUInt8
 ---
 
 # IPropertyValue::IPropertyValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the unsigned 8-bit integer value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -64,10 +60,7 @@ Type: <b>BYTE*</b>
 
 The unsigned 8-bit integer values.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -112,22 +105,12 @@ The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint8">IPropertyValueStatics::CreateUInt8</a>
- 
-
- 
 

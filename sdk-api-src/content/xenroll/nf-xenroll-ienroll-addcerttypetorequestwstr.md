@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
 ms.date: 12/05/2018
 ms.keywords: AddCertTypeToRequestWStr, AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security],IEnroll interface, IEnroll interface [Security],AddCertTypeToRequestWStr method, IEnroll.AddCertTypeToRequestWStr, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
-f1_keywords:
-- xenroll/IEnroll.AddCertTypeToRequestWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.AddCertTypeToRequestWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::AddCertTypeToRequestWStr
+ - xenroll/IEnroll::AddCertTypeToRequestWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.AddCertTypeToRequestWStr
 ---
 
 # IEnroll::AddCertTypeToRequestWStr
 
 
 ## -description
-
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -58,42 +58,21 @@ The <b>AddCertTypeToRequestWStr</b> method is an advanced topic that is associat
 
 The phrase "certificate type" is synonymous with "certificate template."
 
-
 ## -parameters
-
-
-
 
 ### -param szw [in]
 
 Fully qualified name of the certificate template which is being added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the certification authority.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>, with S_OK returned if the call is successful.
 
-
-
-
 ## -remarks
-
-
 
 This method can be called multiple times if more than one certificate template is desired for the request.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
 

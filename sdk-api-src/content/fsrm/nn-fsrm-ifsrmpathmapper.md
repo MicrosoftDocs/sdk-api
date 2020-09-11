@@ -8,10 +8,6 @@ tech.root: fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
 ms.date: 12/05/2018
 ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
-f1_keywords:
-- fsrm/IFsrmPathMapper
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPathMapper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPathMapper
+ - fsrm/IFsrmPathMapper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPathMapper
 ---
 
 # IFsrmPathMapper interface
@@ -49,14 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to retrieve the network share paths that are mapped to a local path.
 
 To get this interface, call the 
     <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmPathMapper</b> as the class identifier and 
     <code>__uuidof(IFsrmPathMapper)</code> as the interface identifier.
-
 
 ## -inheritance
 
@@ -82,29 +81,17 @@ Retrieves a list of network shares that point to the specified local path.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To create this object from a script, use the program identifier, "Fsrm.FsrmPathMapper".
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmpathmapper">FsrmPathMapper</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0
 ms.date: 12/05/2018
 ms.keywords: GetAdditionalRestores, GetAdditionalRestores method [VSS], GetAdditionalRestores method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAdditionalRestores method, IVssComponent.GetAdditionalRestores, IVssComponent::GetAdditionalRestores, _win32_ivsscomponent_getadditionalrestores, base.ivsscomponent_getadditionalrestores, vswriter/IVssComponent::GetAdditionalRestores
-f1_keywords:
-- vswriter/IVssComponent.GetAdditionalRestores
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetAdditionalRestores
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetAdditionalRestores
+ - vswriter/IVssComponent::GetAdditionalRestores
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetAdditionalRestores
 ---
 
 # IVssComponent::GetAdditionalRestores
@@ -50,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAdditionalRestores</b> method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbAdditionalRestores [out]
 
 The address of a caller-allocated variable that receives <b>true</b> if additional restores will occur for the current component, or <b>false</b> otherwise.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -135,14 +128,8 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The value returned by 
 <b>GetAdditionalRestores</b> will be false, unless during a restore operation a requester calls 
@@ -161,16 +148,7 @@ When
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores">SetAdditionalRestores</a> returns <b>false</b>, then after the restore has finished, when handling the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event, the writer can complete its recovery operation and be brought back online.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
 

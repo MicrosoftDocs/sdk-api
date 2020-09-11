@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 49f6b26c-76e1-4519-920b-e05279f23112
 ms.date: 12/05/2018
 ms.keywords: GetClipboardData, GetClipboardData method [COM], GetClipboardData method [COM],IOleObject interface, IOleObject interface [COM],GetClipboardData method, IOleObject.GetClipboardData, IOleObject::GetClipboardData, _ole_ioleobject_getclipboarddata, com.ioleobject_getclipboarddata, oleidl/IOleObject::GetClipboardData
-f1_keywords:
-- oleidl/IOleObject.GetClipboardData
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.GetClipboardData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::GetClipboardData
+ - oleidl/IOleObject::GetClipboardData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.GetClipboardData
 ---
 
 # IOleObject::GetClipboardData
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a data object containing the current contents of the embedded object on which this method is called. Using the pointer to this data object, it is possible to create a new embedded object with the same data as the original.
 
-
 ## -parameters
-
-
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be zero.
 
-
 ### -param ppDataObject [out]
 
 Address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer variable that receives the interface pointer to the data object. If an error occurs, <i>ppDataObject</i> must be set to <b>NULL</b>. Each time an object receives a call to <b>IOleObject::GetClipboardData</b>, it must increase the reference count on <i>ppDataObject</i>. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when it is done with <i>ppDataObject</i>.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -103,14 +95,8 @@ The object is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use the <b>IOleObject::GetClipboardData</b> method to convert a linked object to an embedded object, in which case the container application would call <b>IOleObject::GetClipboardData</b> and then pass the data received to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>. This method returns a pointer to a data object that is identical to what would have been passed to the clipboard by a standard copy operation.
 
@@ -120,13 +106,7 @@ If you want a stable snapshot of the current contents of an embedded object, cal
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If you implement this function, you must return an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer for an object whose data will not change.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
@@ -141,7 +121,4 @@ If you implement this function, you must return an <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
- 
-
- 
 

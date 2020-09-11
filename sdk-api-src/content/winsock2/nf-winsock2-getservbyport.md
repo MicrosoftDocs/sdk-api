@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: afd63c2d-4f77-49df-aeff-bfe56598fcbf
 ms.date: 12/05/2018
 ms.keywords: _win32_getservbyport_2, getservbyport, getservbyport function [Winsock], winsock.getservbyport_2, winsock/getservbyport
-f1_keywords:
-- winsock2/getservbyport
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getservbyport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getservbyport
+ - winsock2/getservbyport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getservbyport
 ---
 
 # getservbyport function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getservbyport</b> function retrieves service information corresponding to a port and protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param port [in]
 
 Port for a service, in network byte order.
-
 
 ### -param proto [in]
 
@@ -71,10 +66,7 @@ Optional pointer to a protocol name. If this is null,
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-servent">servent</a> structure. Otherwise, 
 <b>getservbyport</b> matches both the <i>port</i> and the <i>proto</i> parameters.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getservbyport</b> returns a pointer to the 
@@ -188,14 +180,8 @@ A blocking Windows Socket 1.1 call was canceled through
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getservbyport</b> function returns a pointer to a 
@@ -209,13 +195,7 @@ The
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyport">WSAAsyncGetServByPort</a>
 
@@ -230,7 +210,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>
- 
-
- 
 

@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessCommandList::ResolveQueryData","Resolve
 tech.root: mf
 ms.assetid: a30beb4e-98e3-4644-843d-c206eb4ef138
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::ResolveQueryData
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::ResolveQueryData, ResolveQueryData, ID3D12VideoProcessCommandList.ResolveQueryData, ID3D12VideoProcessCommandList::ResolveQueryData, ID3D12VideoProcessCommandList.ResolveQueryData
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::ResolveQueryData
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::ResolveQueryData
+ - d3d12video/ID3D12VideoProcessCommandList::ResolveQueryData
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::ResolveQueryData
 ---
 
 # ID3D12VideoProcessCommandList::ResolveQueryData
@@ -67,7 +68,7 @@ The number of queries to resolve.
 
 ### -param pDestinationBuffer
 
-A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the destination buffer. The resource must be in the state [D3D12_RESOURCE_STATE_COPY_DEST](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states). 
+A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the destination buffer. The resource must be in the state [D3D12_RESOURCE_STATE_COPY_DEST](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ### -param AlignedDestinationBufferOffset
 
@@ -76,3 +77,4 @@ The alignment offset into the destination buffer. This must be a multiple of 8 b
 ## -remarks
 
 ## -see-also
+

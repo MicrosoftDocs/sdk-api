@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: e7b0f28d-16f3-4dd4-8b28-f46e492f5c8e
 ms.date: 12/05/2018
 ms.keywords: Bookmark property [Microsoft TV Technologies], Bookmark property [Microsoft TV Technologies],IMSVidWebDVD2 interface, IMSVidWebDVD2 interface [Microsoft TV Technologies],Bookmark property, IMSVidWebDVD2.Bookmark, IMSVidWebDVD2.put_Bookmark, IMSVidWebDVD2::Bookmark, IMSVidWebDVD2::get_Bookmark, IMSVidWebDVD2::put_Bookmark, mstv.imsvidwebdvd2_bookmark, put_Bookmark, segment/IMSVidWebDVD2::Bookmark, segment/IMSVidWebDVD2::get_Bookmark, segment/IMSVidWebDVD2::put_Bookmark
-f1_keywords:
-- segment/IMSVidWebDVD2.Bookmark
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidWebDVD2.Bookmark
-- IMSVidWebDVD2.get_Bookmark
-- IMSVidWebDVD2.put_Bookmark
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidWebDVD2::put_Bookmark
+ - segment/IMSVidWebDVD2::put_Bookmark
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidWebDVD2.Bookmark
+ - IMSVidWebDVD2.get_Bookmark
+ - IMSVidWebDVD2.put_Bookmark
 ---
 
 # IMSVidWebDVD2::put_Bookmark
@@ -51,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves or loads the playback position and state information for a DVD.
 <ul>
 <li>To create a DVD bookmark and save it to a buffer, call <b>get_Bookmark</b>.</li>
 <li>To load a bookmark from a buffer,  call <b>put_Bookmark</b>. Loading the bookmark restores the DVD playback state to its original state.</li>
 </ul>This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidwebdvd2">IMSVidWebDVD2</a>
- 
-
- 
 

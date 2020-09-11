@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 06cfe56c-907f-49ed-8a7a-db31383a06f9
 ms.date: 12/05/2018
 ms.keywords: ITTAPIEventNotification, ITTAPIEventNotification interface [TAPI 2.2], ITTAPIEventNotification interface [TAPI 2.2],described, _tapi3_ittapieventnotification, tapi3.ittapieventnotification, tapi3if/ITTAPIEventNotification
-f1_keywords:
-- tapi3if/ITTAPIEventNotification
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITTAPIEventNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITTAPIEventNotification
+ - tapi3if/ITTAPIEventNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITTAPIEventNotification
 ---
 
 # ITTAPIEventNotification interface
 
 
 ## -description
-
 
 The 
 <b>ITTAPIEventNotification</b> interface is an outgoing interface that allows an application to control the processing of event information. The application must implement this interface: it must create a COM object that supports this interface, and then register it using the COM standard 
@@ -67,7 +67,6 @@ The application may then call
 
 Please refer to the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Event</a> overview for additional information on event handling.
-
 
 ## -inheritance
 
@@ -94,13 +93,9 @@ Gets
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Event overview</a>
 
@@ -183,7 +178,4 @@ Gets
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
- 
-
- 
 

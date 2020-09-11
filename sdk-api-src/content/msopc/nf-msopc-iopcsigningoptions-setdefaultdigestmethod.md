@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: 8de18a0e-cb3a-4232-90cb-718abdc9fb28
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetDefaultDigestMethod method, IOpcSigningOptions.SetDefaultDigestMethod, IOpcSigningOptions::SetDefaultDigestMethod, SetDefaultDigestMethod, SetDefaultDigestMethod method [Open Packaging Conventions], SetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetDefaultDigestMethod, opc.iopcsigningoptions_setdefaultdigestmethod
-f1_keywords:
-- msopc/IOpcSigningOptions.SetDefaultDigestMethod
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.SetDefaultDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::SetDefaultDigestMethod
+ - msopc/IOpcSigningOptions::SetDefaultDigestMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.SetDefaultDigestMethod
 ---
 
 # IOpcSigningOptions::SetDefaultDigestMethod
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the default digest method that will be used to compute digest values for objects to be signed.
 
-
 ## -parameters
-
-
-
 
 ### -param digestMethod [in]
 
 The default digest method.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,14 +90,8 @@ The <i>digestMethod</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To access the default digest method before the signature is generated, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-getdefaultdigestmethod">IOpcSigningOptions::GetDefaultDigestMethod</a>.
 
@@ -117,13 +104,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
@@ -166,7 +147,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <b>Reference</b>
- 
-
- 
 

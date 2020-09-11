@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: A2178E6A-04AD-4024-A083-5C76A5F60743
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent, IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging], IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageStatusEvent, xps.iprintdocumentpackagestatusevent
-f1_keywords:
-- documenttarget/IPrintDocumentPackageStatusEvent
-dev_langs:
-- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Documenttarget.h
-api_name:
-- IPrintDocumentPackageStatusEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintDocumentPackageStatusEvent
+ - documenttarget/IPrintDocumentPackageStatusEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Documenttarget.h
+api_name:
+ - IPrintDocumentPackageStatusEvent
 ---
 
 # IPrintDocumentPackageStatusEvent interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the progress of the print job.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Updates the status of the package when the  print job in progress raises an even
 
 </td>
 </tr>
-</table> 
+</table>
 

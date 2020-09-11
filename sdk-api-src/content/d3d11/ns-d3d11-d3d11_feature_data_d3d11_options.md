@@ -8,10 +8,6 @@ tech.root: direct3d11
 ms.assetid: 02A3B423-75AB-4F44-BEBE-B8039EF384DC
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS, D3D11_FEATURE_DATA_D3D11_OPTIONS structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS, direct3d11.d3d11_feature_data_d3d11_options
-f1_keywords:
-- d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_FEATURE_DATA_D3D11_OPTIONS
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_FEATURE_DATA_D3D11_OPTIONS
+ - d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_FEATURE_DATA_D3D11_OPTIONS
 ---
 
 ## -description
@@ -148,3 +149,4 @@ The runtime always sets the following groupings of members identically. That is,
 <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature">D3D11_FEATURE</a>
+

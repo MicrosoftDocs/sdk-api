@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9644c200-1b55-4287-8d98-27b5a8d38c90
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvReadCRLCallback, PFN_CERT_STORE_PROV_READ_CRL, PFN_CERT_STORE_PROV_READ_CRL callback, PFN_CERT_STORE_PROV_READ_CRL callback function [Security], _crypto2_certstoreprovreadcrlcallback, security.certstoreprovreadcrlcallback, wincrypt/PFN_CERT_STORE_PROV_READ_CRL
-f1_keywords:
-- wincrypt/PFN_CERT_STORE_PROV_READ_CRL
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- PFN_CERT_STORE_PROV_READ_CRL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_CERT_STORE_PROV_READ_CRL
+ - wincrypt/PFN_CERT_STORE_PROV_READ_CRL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - PFN_CERT_STORE_PROV_READ_CRL
 ---
 
 # PFN_CERT_STORE_PROV_READ_CRL callback function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function that reads the provider's copy of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a> context. If one exists, a new CRL context is created.
 
 Currently not called directly by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> functions. However, might be exported to support other providers.
 
-
 ## -parameters
-
-
-
 
 ### -param hStoreProv [in]
 
@@ -66,37 +62,25 @@ Provider-specific value returned in
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> by 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_dll_open_store_prov_func">CertDllOpenStoreProv</a>.
 
-
 ### -param pStoreCrlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> of the CRL to be read.
 
-
 ### -param dwFlags [in]
 
 Reserved for future use and is set to zero.
-
 
 ### -param *ppProvCrlContext [out]
 
 A pointer to a pointer to provider's copy of the CRL context. The context will be freed by calling 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>.
 
-
 ## -returns
-
-
 
 Returns TRUE if the CRL was successfully read.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a>
 
@@ -115,7 +99,4 @@ Returns TRUE if the CRL was successfully read.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
- 
-
- 
 

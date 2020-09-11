@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: c37b438b-39e7-4f24-b076-2401900dab71
 ms.date: 12/05/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
-f1_keywords:
-- pathcch/PathCchAddExtension
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchAddExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchAddExtension
+ - pathcch/PathCchAddExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchAddExtension
 ---
 
 # PathCchAddExtension function
@@ -57,9 +58,7 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div>
 
-
 ## -parameters
-
 
 ### -param pszPath [in, out]
 
@@ -67,16 +66,13 @@ A pointer to the path string. When this function returns successfully, the buffe
 
 <div class="alert"><b>Note</b>  If the original string already has a file name extension present, no new extension will be added and the original string will be unchanged.</div>
 
-
 ### -param cchPath [in]
 
 The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
-
 ### -param pszExt [in]
 
 A pointer to the file name extension string. This string can be given either with or without a preceding period (".ext" or "ext").
-
 
 ## -returns
 

@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 8825c951-a6c1-4690-b36a-6159f30a13d9
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accNavigate method, IAccessible.accNavigate, IAccessible::accNavigate, VT_DISPATCH, VT_EMPTY, VT_I4, _msaa_IAccessible_accNavigate, accNavigate, accNavigate method [Windows Accessibility], accNavigate method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accnavigate, oleacc/IAccessible::accNavigate, winauto.iaccessible_iaccessible__accnavigate
-f1_keywords:
-- oleacc/IAccessible.accNavigate
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.accNavigate
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::accNavigate
+ - oleacc/IAccessible::accNavigate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.accNavigate
 ---
 
 # IAccessible::accNavigate
@@ -49,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::accNavigate</b> method traverses to another UI element within a container and retrieves the object. This method is optional.
 <div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVARIANT</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param navDir [in]
 
@@ -64,13 +61,11 @@ Type: <b>long</b>
 
 Specifies the direction to navigate. This direction is in <i>spatial</i> order, such as left or right, or <i>logical</i> order, such as next or previous. This value is one of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">navigation constants</a>.
 
-
 ### -param varStart [in]
 
 Type: <b>VARIANT</b>
 
 Specifies whether the starting object of the navigation is the object itself or one of the object's children. This parameter is either CHILDID_SELF (to start from the object) or a child ID (to start from one of the object's child elements). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
-
 
 ### -param pvarEndUpAt [out, retval]
 
@@ -114,12 +109,8 @@ None. There was no UI element in the specified direction.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
@@ -166,14 +157,8 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Navigation, both spatial and logical, is always restricted to the UI elements within a container. With spatial navigation, clients navigate only to a sibling of the starting object (<i>varStart</i>). Depending on the navigational flag used with logical navigation, clients navigate to either a child or to a sibling of the starting object.
 
@@ -362,14 +347,7 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
@@ -388,7 +366,4 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: CB4BC8A4-D5D5-48B9-A477-65A12A43D4A6
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory6, IDXGIFactory6 interface [DXGI], IDXGIFactory6 interface [DXGI],described, direct3ddxgi.idxgifactory6, dxgi1_6/IDXGIFactory6
-f1_keywords:
-- dxgi1_6/IDXGIFactory6
-dev_langs:
-- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxgi.lib
-- dxgi.dll
-api_name:
-- IDXGIFactory6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactory6
+ - dxgi1_6/IDXGIFactory6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi.lib
+ - dxgi.dll
+api_name:
+ - IDXGIFactory6
 ---
 
 # IDXGIFactory6 interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface enables a single method that enumerates graphics adapters based on a given GPU preference.
-
 
 ## -inheritance
 
@@ -78,13 +77,9 @@ Enumerates graphics adapters based on a given GPU preference.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
@@ -119,7 +114,4 @@ Enumerates graphics adapters based on a given GPU preference.
 
 
 <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/develop/Samples/Desktop/D3D12xGPU">xGPU desktop sample</a>
- 
-
- 
 

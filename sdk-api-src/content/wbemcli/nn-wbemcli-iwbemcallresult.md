@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: f0aa0233-3b9b-4757-bfdc-26d9fd556ce9
 ms.date: 12/05/2018
 ms.keywords: IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], IWbemCallResult interface [Windows Management Instrumentation],described, _hmm_iwbemcallresult, wbemcli/IWbemCallResult, wmi.iwbemcallresult
-f1_keywords:
-- wbemcli/IWbemCallResult
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemcli.h
-api_name:
-- IWbemCallResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemCallResult
+ - wbemcli/IWbemCallResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemcli.h
+api_name:
+ - IWbemCallResult
 ---
 
 # IWbemCallResult interface
 
 
 ## -description
-
 
 The 
 <b>IWbemCallResult</b> interface is used for semisynchronous calls of the 
@@ -144,5 +144,5 @@ Returns an object path, which is the result of a semisynchronous call to
 
 </td>
 </tr>
-</table> 
+</table>
 

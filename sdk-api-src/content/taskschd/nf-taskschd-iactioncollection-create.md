@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 815a000b-ba02-470d-80e6-06ba3c8ea014
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Create method, IActionCollection.Create, IActionCollection::Create, TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, actions [Task Scheduler],creating, taskschd.iactioncollection_create, taskschd/IActionCollection::Create
-f1_keywords:
-- taskschd/IActionCollection.Create
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IActionCollection.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActionCollection::Create
+ - taskschd/IActionCollection::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IActionCollection.Create
 ---
 
 # IActionCollection::Create
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and adds a new action to the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
@@ -112,8 +108,6 @@ This action shows a message box.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppAction [out]
 
@@ -121,29 +115,15 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-
 
 Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 You cannot add more than 32 actions to the collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
@@ -174,7 +154,4 @@ You cannot add more than 32 actions to the collection.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 58f027c6-fa92-40ac-b41d-89b6fba7455d
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ThumbPrint property, ICEnroll4 interface [Security],ThumbPrint property, ICEnroll4.ThumbPrint, ICEnroll4.put_ThumbPrint, ICEnroll4::ThumbPrint, ICEnroll4::get_ThumbPrint, ICEnroll4::put_ThumbPrint, ThumbPrint property [Security], ThumbPrint property [Security],CEnroll object, ThumbPrint property [Security],ICEnroll4 interface, _xen_icenroll4_thumbprint, put_ThumbPrint, security.icenroll4_thumbprint, xenroll/ICEnroll4::ThumbPrint, xenroll/ICEnroll4::get_ThumbPrint, xenroll/ICEnroll4::put_ThumbPrint
-f1_keywords:
-- xenroll/ICEnroll4.ThumbPrint
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,29 +25,33 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.ThumbPrint
-- ICEnroll4.get_ThumbPrint
-- ICEnroll4.put_ThumbPrint
-- CEnroll.ThumbPrint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll4::put_ThumbPrint
+ - xenroll/ICEnroll4::put_ThumbPrint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.ThumbPrint
+ - ICEnroll4.get_ThumbPrint
+ - ICEnroll4.put_ThumbPrint
+ - CEnroll.ThumbPrint
 ---
 
 # ICEnroll4::put_ThumbPrint
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -61,15 +61,9 @@ This property was first defined in the <a href="https://docs.microsoft.com/windo
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The thumbprint is used to point to a pending certificate.
-
-
 

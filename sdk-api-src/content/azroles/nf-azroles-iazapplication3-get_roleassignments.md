@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 5f70cc85-9275-4ccd-ad53-c22b00a4dea3
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],RoleAssignments property, IAzApplication3.RoleAssignments, IAzApplication3.get_RoleAssignments, IAzApplication3::RoleAssignments, IAzApplication3::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleAssignments, azroles/IAzApplication3::get_RoleAssignments, get_RoleAssignments, security.iazapplication3_roleassignments
-f1_keywords:
-- azroles/IAzApplication3.RoleAssignments
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication3.RoleAssignments
-- IAzApplication3.get_RoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication3::get_RoleAssignments
+ - azroles/IAzApplication3::get_RoleAssignments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication3.RoleAssignments
+ - IAzApplication3.get_RoleAssignments
 ---
 
 # IAzApplication3::get_RoleAssignments
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RoleAssignments</b> property gets an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignments">IAzRoleAssignments</a> object that represents the collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with the current <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication3">IAzApplication3</a> object.
 
 This property is read-only.
-
 
 ## -parameters
 

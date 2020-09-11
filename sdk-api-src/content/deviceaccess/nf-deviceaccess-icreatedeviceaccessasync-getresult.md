@@ -8,10 +8,6 @@ tech.root: deviceaccess
 ms.assetid: 002e6638-a38a-4fda-b71c-a7a6983dda62
 ms.date: 12/05/2018
 ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],GetResult method, ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
-f1_keywords:
-- deviceaccess/ICreateDeviceAccessAsync.GetResult
-dev_langs:
-- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Deviceaccess.lib
-- Deviceaccess.dll
-api_name:
-- ICreateDeviceAccessAsync.GetResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateDeviceAccessAsync::GetResult
+ - deviceaccess/ICreateDeviceAccessAsync::GetResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Deviceaccess.lib
+ - Deviceaccess.dll
+api_name:
+ - ICreateDeviceAccessAsync.GetResult
 ---
 
 # ICreateDeviceAccessAsync::GetResult
@@ -50,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a> object that's bound to the device interface that's specified in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 An interface identifier that indicates what type of device access interface the caller wants to retrieve. The only valid value for this identifier is IID_IDeviceIoControl.
 
-
 ### -param deviceAccess [out]
 
 If the binding was successful, contains an interface of the type that was supplied to the initial call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance">CreateDeviceAccessInstance</a>.
 
-
 ## -returns
-
-
 
 This method supports standard return values, in addition to these:
 
@@ -103,18 +95,8 @@ The asynchronous operation wasn't in a valid state. The bind operation was eithe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>
- 
-
- 
 

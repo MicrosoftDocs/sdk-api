@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], ICertificateEnrollmentServerSetup interface [Security],described, casetup/ICertificateEnrollmentServerSetup, security.icertificateenrollmentserversetup
-f1_keywords:
-- casetup/ICertificateEnrollmentServerSetup
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertificateEnrollmentServerSetup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificateEnrollmentServerSetup
+ - casetup/ICertificateEnrollmentServerSetup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertificateEnrollmentServerSetup
 ---
 
 # ICertificateEnrollmentServerSetup interface
 
 
 ## -description
-
 
 The <b>ICertificateEnrollmentServerSetup</b> interface represents the Certificate Enrollment Web Service (CES) within Active Directory Certificate Services (ADCS). The service enables users and computers to enroll for and renew certificates under the following conditions:<ul>
 <li>Computers and users can enroll, manually renew, and automatically renew certificates when joined to a domain.</li>
@@ -58,7 +58,6 @@ The <b>ICertificateEnrollmentServerSetup</b> interface represents the Certificat
 
 
 A related interface, <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>, represents the Certificate Enrollment Policy (CEP) Web Service and  enables users and computers to obtain certificate enrollment policy information. CEP and CES work together to provide policy-based certificate enrollment.
-
 
 ## -inheritance
 
@@ -154,20 +153,13 @@ Retrieves a string that contains additional information about CES setup failure.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: SNMP
 ms.assetid: e89c9315-efe4-4241-a7c4-f4475b107701
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _snmp_snmplisten, snmp.snmplisten, winsnmp/SnmpListen
-f1_keywords:
-- winsnmp/SnmpListen
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpListen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpListen
+ - winsnmp/SnmpListen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpListen
 ---
 
 # SnmpListen function
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpListen</b> function registers a WinSNMP application as an SNMP agent. An agent application calls this function to inform the Microsoft WinSNMP implementation that an entity will be acting in the role of an SNMP agent. An application also calls this function to inform the implementation when an entity will no longer be acting in this role. The 
 <b>SnmpListen</b> function is an element of the WinSNMP API, version 2.0.
 
-
 ## -parameters
-
-
-
 
 ### -param hEntity [in]
 
@@ -72,7 +68,6 @@ Handle to the WinSNMP entity to notify when the Microsoft WinSNMP implementation
 When you call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatesession">SnmpCreateSession</a> function, you can specify whether the implementation should use a window notification message or an 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nc-winsnmp-snmpapi_callback">SNMPAPI_CALLBACK</a> function to notify the application when an SNMP message or asynchronous event is available.
-
 
 ### -param lStatus [in]
 
@@ -110,10 +105,7 @@ The specified WinSNMP entity is not functioning in an agent role.
 
 Passing a value of SNMPAPI_OFF releases both the resources allocated to the entity and the port assigned it. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
@@ -217,14 +209,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you specify an entity, you explicitly specify the address family, interface address, and port for the entity. This is because WinSNMP assigns these attributes to each WinSNMP entity as a result of a call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a> function. The implementation uses the address and port settings currently assigned to the entity specified by the <i>hEntity</i> parameter when it sends notifications to the agent application. For more information, see 
@@ -238,13 +224,7 @@ For more information about SNMP management applications and agent applications, 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/registering-an-snmp-agent-application">Registering an SNMP Agent Application</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp">About SNMP</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
@@ -276,7 +256,4 @@ For more information about SNMP management applications and agent applications, 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
 

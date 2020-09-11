@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
-f1_keywords:
-- objidl/IMoniker.RelativePathTo
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.RelativePathTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::RelativePathTo
+ - objidl/IMoniker::RelativePathTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.RelativePathTo
 ---
 
 # IMoniker::RelativePathTo
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a relative moniker between this moniker and the specified moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pmkOther [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to which a relative path should be taken.
 
-
 ### -param ppmkRelPath [out]
 
 A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the relative moniker. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation sets *<i>ppmkRelPath</i> to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -113,14 +105,8 @@ This moniker is a relative moniker, such as an item moniker. This moniker must b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A relative moniker is analogous to a relative path (such as "..\backup"). For example, suppose you have one moniker that represents the path "c:\projects\secret\art\pict1.bmp" and another moniker that represents the path "c:\projects\secret\docs\chap1.txt". Calling <b>RelativePathTo</b> on the first moniker, passing the second one as the <i>pmkOther</i> parameter, would create a relative moniker representing the path "..\docs\chap1.txt".
 
@@ -179,22 +165,12 @@ For certain types of monikers, you cannot use your <a href="https://docs.microso
 <td>This method returns E_NOTIMPL.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 306e6704-2068-42da-bcc4-c0772c719ee8
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_502, *PSHARE_INFO_502, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_502, LPSHARE_INFO_502 structure pointer [Files], PSHARE_INFO_502, PSHARE_INFO_502 structure pointer [Files], SHARE_INFO_502, SHARE_INFO_502 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_502_str, fs.share_info_502_str, lmshare/LPSHARE_INFO_502, lmshare/PSHARE_INFO_502, lmshare/SHARE_INFO_502, netmgmt.share_info_502_str'
-f1_keywords:
-- lmshare/SHARE_INFO_502
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SHARE_INFO_502
 targetos: Windows
 req.typenames: SHARE_INFO_502, *PSHARE_INFO_502, *LPSHARE_INFO_502
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHARE_INFO_502
+ - lmshare/_SHARE_INFO_502
+ - PSHARE_INFO_502
+ - lmshare/PSHARE_INFO_502
+ - SHARE_INFO_502
+ - lmshare/SHARE_INFO_502
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SHARE_INFO_502
 ---
 
 # SHARE_INFO_502 structure
@@ -49,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the shared resource, including name of the resource, type and permissions, number of connections, and other pertinent information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field shi502_netname
 
 Pointer to a Unicode string specifying the name of a shared resource. Calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
 
 ### -field shi502_type
 
@@ -148,13 +147,10 @@ A temporary share.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field shi502_remark
 
 Pointer to a Unicode string specifying an optional comment about the shared resource.
-
 
 ### -field shi502_permissions
 
@@ -252,25 +248,20 @@ Permission to read, write, create, execute, and delete resources, and to modify 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field shi502_max_uses
 
 Specifies a DWORD value that indicates the maximum number of concurrent connections that the shared resource can accommodate. The number of connections is unlimited if the value specified in this member is –1.
-
 
 ### -field shi502_current_uses
 
 Specifies a DWORD value that indicates the number of current connections to the resource. Calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
-
 ### -field shi502_path
 
 Pointer to a Unicode string that contains the local path for the shared resource. For disks, this member is the path being shared. For print queues, this member is the name of the print queue being shared. Calls to the 
 <b>NetShareSetInfo</b> function ignore this member.
-
 
 ### -field shi502_passwd
 
@@ -282,23 +273,17 @@ Pointer to a Unicode string that specifies the share's password (when the server
 This member can be no longer than SHPWLEN+1 bytes (including a terminating null character). Calls to the 
 <b>NetShareSetInfo</b> function ignore this member.
 
-
 ### -field shi502_reserved
 
 Reserved; must be zero. Calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
 
 ### -field shi502_security_descriptor
 
 Specifies the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with this share.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
@@ -325,7 +310,4 @@ Specifies the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: xps
 ms.assetid: 6AD4BEB8-86B7-4085-9B84-D723982933FE
 ms.date: 12/05/2018
 ms.keywords: CreateXpsOMPackageWriter, CreateXpsOMPackageWriter method [XPS Documents and Packaging], CreateXpsOMPackageWriter method [XPS Documents and Packaging],IXpsOMPackageTarget interface, IXpsOMPackageTarget interface [XPS Documents and Packaging],CreateXpsOMPackageWriter method, IXpsOMPackageTarget.CreateXpsOMPackageWriter, IXpsOMPackageTarget::CreateXpsOMPackageWriter, xps.ixpsompackagetarget_createxpsompackagewriter, xpsobjectmodel/IXpsOMPackageTarget::CreateXpsOMPackageWriter
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackageTarget.CreateXpsOMPackageWriter
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: XpsPrint.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsPrint.lib
-- XpsPrint.dll
-api_name:
-- IXpsOMPackageTarget.CreateXpsOMPackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageTarget::CreateXpsOMPackageWriter
+ - xpsobjectmodel/IXpsOMPackageTarget::CreateXpsOMPackageWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsPrint.lib
+ - XpsPrint.dll
+api_name:
+ - IXpsOMPackageTarget.CreateXpsOMPackageWriter
 ---
 
 # IXpsOMPackageTarget::CreateXpsOMPackageWriter
@@ -50,38 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Create an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface for use with a print job that the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob1">StartXpsPrintJob1</a> function created.
 
-
 ## -parameters
-
-
-
 
 ### -param documentSequencePartName [in]
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
 
-
 ### -param documentSequencePrintTicket [in, optional]
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. Set this parameter to <b>NULL</b> if you do not have a package-level print ticket.
-
 
 ### -param discardControlPartName [in, optional]
 
 The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the name of the discard control part. Set this parameter to <b>NULL</b> if you do not have a discard control part.
 
-
 ### -param packageWriter [out, retval]
 
 A pointer to the new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface that this method created.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -128,13 +118,7 @@ The method succeeded.
 
 This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ff970304(v=vs.85)">IXpsOMPackageTarget</a>
 
@@ -145,7 +129,4 @@ This method calls the <a href="https://docs.microsoft.com/previous-versions/wind
 
 
 <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
- 
-
- 
 

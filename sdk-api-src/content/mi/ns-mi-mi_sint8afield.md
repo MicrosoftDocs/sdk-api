@@ -8,10 +8,6 @@ tech.root: wmi_v2
 ms.assetid: 42475234-e8e4-4fc5-9d5b-bf0dbd881b6e
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint8AField, MI_Sint8AField structure [Windows Management Infrastructure (MI)], mi/MI_Sint8AField, wmi._mi_sint8afield, wmi_v2.mi_sint8afield
-f1_keywords:
-- mi/MI_Sint8AField
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Sint8AField
 targetos: Windows
 req.typenames: MI_Sint8AField
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_Sint8AField
+ - mi/_MI_Sint8AField
+ - MI_Sint8AField
+ - mi/MI_Sint8AField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Sint8AField
 ---
 
 # MI_Sint8AField structure
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field value
 
 A field of type <b>MI_Sint8A</b>.
 
-
 ### -field exists
 
 Indicates whether the field is non-null. Can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 

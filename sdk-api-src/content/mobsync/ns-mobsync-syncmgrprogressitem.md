@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.date: 12/05/2018
 ms.keywords: '*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem'
-f1_keywords:
-- mobsync/SYNCMGRPROGRESSITEM
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mobsync.h
-api_name:
-- SYNCMGRPROGRESSITEM
 targetos: Windows
 req.typenames: SYNCMGRPROGRESSITEM, *LPSYNCMGRPROGRESSITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tagSYNCMGRPROGRESSITEM
+ - mobsync/_tagSYNCMGRPROGRESSITEM
+ - LPSYNCMGRPROGRESSITEM
+ - mobsync/LPSYNCMGRPROGRESSITEM
+ - SYNCMGRPROGRESSITEM
+ - mobsync/SYNCMGRPROGRESSITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mobsync.h
+api_name:
+ - SYNCMGRPROGRESSITEM
 ---
 
 # SYNCMGRPROGRESSITEM structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides status information while a synchronization is in progress. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a> method and corresponds to a single synchronization item.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -64,13 +64,11 @@ Type: <b>DWORD</b>
 
 The size of the structure, in bytes.
 
-
 ### -field mask
 
 Type: <b>UINT</b>
 
 Flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration that specify which members of this structure are used.
-
 
 ### -field lpcStatusText
 
@@ -78,13 +76,11 @@ Type: <b>LPCWSTR</b>
 
 Status text.
 
-
 ### -field dwStatusType
 
 Type: <b>DWORD</b>
 
 One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrstatus">SYNCMGRSTATUS</a> enumeration.
-
 
 ### -field iProgValue
 
@@ -92,21 +88,13 @@ Type: <b>int</b>
 
 An integer that indicates the progress value.
 
-
 ### -field iMaxValue
 
 Type: <b>int</b>
 
 An integer that indicates the maximum progress value.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress">ISyncMgrSynchronizeCallback::Progress</a>
- 
-
- 
 

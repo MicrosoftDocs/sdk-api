@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_enablewizbuttons.htm
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_EnableWizButtons, PropSheet_EnableWizButtons macro [Windows Controls], _win32_PropSheet_EnableWizButtons, _win32_PropSheet_EnableWizButtons_cpp, controls.PropSheet_EnableWizButtons, controls._win32_PropSheet_EnableWizButtons, prsht/PropSheet_EnableWizButtons
-f1_keywords:
-- prsht/PropSheet_EnableWizButtons
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_EnableWizButtons
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_EnableWizButtons
+ - prsht/PropSheet_EnableWizButtons
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_EnableWizButtons
 ---
 
 # PropSheet_EnableWizButtons macro
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-enablewizbuttons">PSM_ENABLEWIZBUTTONS</a> message explicitly.
 
-
 ## -parameters
-
-
-
 
 ### -param hDlg
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
-
 
 ### -param dwState
 
@@ -117,8 +112,6 @@ One or more of the following values that specify which property sheet buttons ar
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwMask
 
@@ -126,10 +119,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 One or more of the same values used in <i>dwState</i>, specifying which buttons are affected by this call. If a button value appears in this parameter but not in <i>dwState</i>, the button is disabled.
 
-
 ## -remarks
-
-
 
 The following example code enables the <b>Back</b> button and disables the <b>Next</b> button.
 
@@ -139,7 +129,4 @@ PropSheet_EnableWizButtons(hwnd,
                          PSWIZB_NEXT,
                          PSWIZB_BACK | PSWIZB_NEXT);
 ```
-
-
-
 

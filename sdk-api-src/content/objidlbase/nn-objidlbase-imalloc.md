@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
 ms.date: 12/05/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
-f1_keywords:
-- objidlbase/IMalloc
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMalloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMalloc
+ - objidlbase/IMalloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMalloc
 ---
 
 # IMalloc interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates, frees, and manages memory.
-
-
 
 ## -inheritance
 
@@ -123,13 +121,9 @@ Changes the size of a previously allocated block of memory.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
 
@@ -144,7 +138,4 @@ Changes the size of a previously allocated block of memory.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
- 
-
- 
 

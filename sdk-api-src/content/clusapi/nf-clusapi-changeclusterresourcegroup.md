@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
 ms.date: 12/05/2018
 ms.keywords: ChangeClusterResourceGroup, ChangeClusterResourceGroup function [Failover Cluster], PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/ChangeClusterResourceGroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
-f1_keywords:
-- clusapi/ChangeClusterResourceGroup
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ChangeClusterResourceGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeClusterResourceGroup
+ - clusapi/ChangeClusterResourceGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ChangeClusterResourceGroup
 ---
 
 # ChangeClusterResourceGroup function
@@ -49,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> from one 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> to another. The 
     <b>PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 Handle of the resource to be moved.
-
 
 ### -param hGroup [in]
 
 Handle of the group that should receive the resource identified by 
       <i>hResource</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 With the <b>ChangeClusterResourceGroup</b> 
     function, both the group that a resource currently belongs to and its new group must be owned by the same 
@@ -106,13 +93,7 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
@@ -123,7 +104,4 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>
- 
-
- 
 

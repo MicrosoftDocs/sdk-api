@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
-f1_keywords:
-- ocidl/IViewObjectEx.QueryHitPoint
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IViewObjectEx.QueryHitPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObjectEx::QueryHitPoint
+ - ocidl/IViewObjectEx::QueryHitPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IViewObjectEx.QueryHitPoint
 ---
 
 # IViewObjectEx::QueryHitPoint
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether a point is within a given aspect of an object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAspect [in]
 
 The requested drawing aspect.
-
 
 ### -param pRectBounds [in]
 
 An object bounding rectangle in client coordinates of the containing window. This rectangle is computed and 
        passed by the container so that the object can meaningfully interpret the hit location.
 
-
 ### -param ptlLoc [in]
 
 The hit location in client coordinates of the containing window.
-
 
 ### -param lCloseHint [in]
 
@@ -80,16 +73,12 @@ Suggested distance in <b>HIMETRIC</b> units that the container considers close. 
        value is a hint, and objects can interpret it in their own way. Objects can also use this hint to roughly infer 
        output resolution to choose expansiveness of hit test implementation.
 
-
 ### -param pHitResult [out]
 
 A pointer to returned information about the hit expressed as the 
        <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a> enumeration values.
 
-
 ## -returns
-
-
 
 This method returns <b>S_OK</b> on success. Other possible return values include the 
        following.
@@ -112,14 +101,8 @@ This method is not implemented for the requested aspect. Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To support hit detection on non-rectangular objects, the container needs a reliable way to ask an object 
      whether a given location is inside one of its drawing aspects. This function is provided by 
@@ -180,13 +163,7 @@ An object supporting <a href="https://docs.microsoft.com/windows/desktop/api/oci
       not take any other action in response to this method other than to return the information; there should be no 
       side-effects.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-hitresult">HITRESULT</a>
 
@@ -197,7 +174,4 @@ An object supporting <a href="https://docs.microsoft.com/windows/desktop/api/oci
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
- 
-
- 
 

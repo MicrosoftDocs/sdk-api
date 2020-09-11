@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: a0facf08-1b03-415b-b97e-3fda5a164b89
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], ITAllocatorProperties interface [TAPI 2.2],described, _tapi3_itallocatorproperties, tapi3.itallocatorproperties, tapi3ds/ITAllocatorProperties
-f1_keywords:
-- tapi3/ITAllocatorProperties
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAllocatorProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAllocatorProperties
+ - tapi3/ITAllocatorProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAllocatorProperties
 ---
 
 # ITAllocatorProperties interface
 
 
 ## -description
-
 
 The 
 <b>ITAllocatorProperties</b> interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application. An application needs to tune the sample size for a particular protocol. The decision concerning appropriate properties is highly implementation dependent.
@@ -57,7 +57,6 @@ This interface is exposed on the
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a> by the associated Media Service Provider. If it exists, a <b>QueryInterface</b> on any Terminal interface, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>, can be used to obtain an 
 <b>ITAllocatorProperties</b> pointer.
-
 
 ## -inheritance
 
@@ -128,5 +127,5 @@ Sets the size of the allocator buffer.
 
 </td>
 </tr>
-</table> 
+</table>
 

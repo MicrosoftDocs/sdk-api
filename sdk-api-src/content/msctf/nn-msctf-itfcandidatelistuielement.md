@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1f39aa06-3c94-4959-b857-ca61498d5b5c
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework],described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
-f1_keywords:
-- msctf/ITfCandidateListUIElement
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.h
-api_name:
-- ITfCandidateListUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateListUIElement
+ - msctf/ITfCandidateListUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.h
+api_name:
+ - ITfCandidateListUIElement
 ---
 
 # ITfCandidateListUIElement interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfCandidateListUIElement</b> interface is implemented by a text service that has the candidate list UI.
-
 
 ## -inheritance
 
@@ -140,5 +139,5 @@ Set the page index.
 
 </td>
 </tr>
-</table> 
+</table>
 

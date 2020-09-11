@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 193a8a84-6824-4881-9399-832810957366
 ms.date: 12/05/2018
 ms.keywords: IS_ADDRESS_CITY, IS_ADDRESS_COUNTRYNAME, IS_ADDRESS_COUNTRYSHORTNAME, IS_ADDRESS_FULLPOSTALADDRESS, IS_ADDRESS_POSTALCODE, IS_ADDRESS_STATEORPROVINCE, IS_ADDRESS_STREET, IS_ALPHANUMERIC_FULLWIDTH, IS_ALPHANUMERIC_HALFWIDTH, IS_ALPHANUMERIC_PIN, IS_ALPHANUMERIC_PIN_SET, IS_BOPOMOFO, IS_CHAT, IS_CHAT_WITHOUT_EMOJI, IS_CHINESE_FULLWIDTH, IS_CHINESE_HALFWIDTH, IS_CURRENCY_AMOUNT, IS_CURRENCY_AMOUNTANDSYMBOL, IS_CURRENCY_CHINESE, IS_DATE_DAY, IS_DATE_DAYNAME, IS_DATE_FULLDATE, IS_DATE_MONTH, IS_DATE_MONTHNAME, IS_DATE_YEAR, IS_DEFAULT, IS_DIGITS, IS_EMAILNAME_OR_ADDRESS, IS_EMAIL_SMTPEMAILADDRESS, IS_EMAIL_USERNAME, IS_ENUMSTRING, IS_FILE_FILENAME, IS_FILE_FULLFILEPATH, IS_FORMULA, IS_FORMULA_NUMBER, IS_HANJA, IS_HANJA_FULLWIDTH, IS_HANJA_HALFWIDTH, IS_HIRAGANA, IS_KATAKANA_FULLWIDTH, IS_KATAKANA_HALFWIDTH, IS_LOGINNAME, IS_MAPS, IS_NAME_OR_PHONENUMBER, IS_NATIVE_SCRIPT, IS_NUMBER, IS_NUMBER_FULLWIDTH, IS_NUMERIC_PASSWORD, IS_NUMERIC_PIN, IS_ONECHAR, IS_PASSWORD, IS_PERSONALNAME_FULLNAME, IS_PERSONALNAME_GIVENNAME, IS_PERSONALNAME_MIDDLENAME, IS_PERSONALNAME_PREFIX, IS_PERSONALNAME_SUFFIX, IS_PERSONALNAME_SURNAME, IS_PHRASELIST, IS_PRIVATE, IS_REGULAREXPRESSION, IS_SEARCH, IS_SEARCH_INCREMENTAL, IS_SRGS, IS_TELEPHONE_AREACODE, IS_TELEPHONE_COUNTRYCODE, IS_TELEPHONE_FULLTELEPHONENUMBER, IS_TELEPHONE_LOCALNUMBER, IS_TEXT, IS_TIME_FULLTIME, IS_TIME_HOUR, IS_TIME_MINORSEC, IS_URL, IS_XML, IS_YOMI, InputScope, InputScope enumeration [Text Services Framework], _tsf_InputScope_ref, inputscope/IS_ADDRESS_CITY, inputscope/IS_ADDRESS_COUNTRYNAME, inputscope/IS_ADDRESS_COUNTRYSHORTNAME, inputscope/IS_ADDRESS_FULLPOSTALADDRESS, inputscope/IS_ADDRESS_POSTALCODE, inputscope/IS_ADDRESS_STATEORPROVINCE, inputscope/IS_ADDRESS_STREET, inputscope/IS_ALPHANUMERIC_FULLWIDTH, inputscope/IS_ALPHANUMERIC_HALFWIDTH, inputscope/IS_ALPHANUMERIC_PIN, inputscope/IS_ALPHANUMERIC_PIN_SET, inputscope/IS_BOPOMOFO, inputscope/IS_CHAT, inputscope/IS_CHAT_WITHOUT_EMOJI, inputscope/IS_CHINESE_FULLWIDTH, inputscope/IS_CHINESE_HALFWIDTH, inputscope/IS_CURRENCY_AMOUNT, inputscope/IS_CURRENCY_AMOUNTANDSYMBOL, inputscope/IS_CURRENCY_CHINESE, inputscope/IS_DATE_DAY, inputscope/IS_DATE_DAYNAME, inputscope/IS_DATE_FULLDATE, inputscope/IS_DATE_MONTH, inputscope/IS_DATE_MONTHNAME, inputscope/IS_DATE_YEAR, inputscope/IS_DEFAULT, inputscope/IS_DIGITS, inputscope/IS_EMAILNAME_OR_ADDRESS, inputscope/IS_EMAIL_SMTPEMAILADDRESS, inputscope/IS_EMAIL_USERNAME, inputscope/IS_ENUMSTRING, inputscope/IS_FILE_FILENAME, inputscope/IS_FILE_FULLFILEPATH, inputscope/IS_FORMULA, inputscope/IS_FORMULA_NUMBER, inputscope/IS_HANJA, inputscope/IS_HANJA_FULLWIDTH, inputscope/IS_HANJA_HALFWIDTH, inputscope/IS_HIRAGANA, inputscope/IS_KATAKANA_FULLWIDTH, inputscope/IS_KATAKANA_HALFWIDTH, inputscope/IS_LOGINNAME, inputscope/IS_MAPS, inputscope/IS_NAME_OR_PHONENUMBER, inputscope/IS_NATIVE_SCRIPT, inputscope/IS_NUMBER, inputscope/IS_NUMBER_FULLWIDTH, inputscope/IS_NUMERIC_PASSWORD, inputscope/IS_NUMERIC_PIN, inputscope/IS_ONECHAR, inputscope/IS_PASSWORD, inputscope/IS_PERSONALNAME_FULLNAME, inputscope/IS_PERSONALNAME_GIVENNAME, inputscope/IS_PERSONALNAME_MIDDLENAME, inputscope/IS_PERSONALNAME_PREFIX, inputscope/IS_PERSONALNAME_SUFFIX, inputscope/IS_PERSONALNAME_SURNAME, inputscope/IS_PHRASELIST, inputscope/IS_PRIVATE, inputscope/IS_REGULAREXPRESSION, inputscope/IS_SEARCH, inputscope/IS_SEARCH_INCREMENTAL, inputscope/IS_SRGS, inputscope/IS_TELEPHONE_AREACODE, inputscope/IS_TELEPHONE_COUNTRYCODE, inputscope/IS_TELEPHONE_FULLTELEPHONENUMBER, inputscope/IS_TELEPHONE_LOCALNUMBER, inputscope/IS_TEXT, inputscope/IS_TIME_FULLTIME, inputscope/IS_TIME_HOUR, inputscope/IS_TIME_MINORSEC, inputscope/IS_URL, inputscope/IS_XML, inputscope/IS_YOMI, inputscope/InputScope, tsf.ienumtfinputscope, tsf.inputscope
-f1_keywords:
-- inputscope/InputScope
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- InputScope.h
-api_name:
-- InputScope
 targetos: Windows
 req.typenames: InputScope
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_inputscope_0000_0000_0001
+ - inputscope/__MIDL___MIDL_itf_inputscope_0000_0000_0001
+ - InputScope
+ - inputscope/InputScope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - InputScope.h
+api_name:
+ - InputScope
 ---
 
 # InputScope enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <a href="/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
 
-
 ## -enum-fields
-
-
-
 
 ### -field IS_DEFAULT
 
 Indicates the standard recognition bias. Treated as default and uses the default lexicon. If combined with another input scope, it does not force coercion on the other input scope.
-
 
 ### -field IS_URL
 
@@ -125,7 +122,6 @@ Indicates email user names. Examples include the following.
 ### -field IS_EMAIL_SMTPEMAILADDRESS
 
 Indicates a complete SMTP email address, for example, someone@example.com.
-
 
 ### -field IS_LOGINNAME
 
@@ -282,7 +278,6 @@ Indicates currency symbols and numbers. Examples include the following, formatte
 
 Indicates a numeric value for currency, excluding currency symbols. For example, 2,100.25.
 
-
 ### -field IS_DATE_FULLDATE
 
 Indicates a full date, in a variety of formats. Examples include the following, formatted for English (United States).
@@ -352,7 +347,6 @@ Indicates a character representation of days. Examples include the following, fo
 
 Indicates positive whole numbers, constrained to 0-9.
 
-
 ### -field IS_NUMBER
 
 Indicates numbers, including commas, negative sign, and decimal. For United States locations, the following conditions are enforced.
@@ -369,7 +363,6 @@ Indicates a single ANSI character, codepage 1252. For United States locations, t
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdEfghijklmnopqrstuvwxyz0123456789!\"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
 
-
 ### -field IS_PASSWORD
 
 Indicates a password. <b>IS_PASSWORD</b> is not supported and may be altered or unavailable in the future.
@@ -377,8 +370,6 @@ Indicates a password. <b>IS_PASSWORD</b> is not supported and may be altered or 
 
 <div class="alert"><b>Note</b>  <b>IS_PASSWORD</b> only indicates the password; it doesn't provide any security around the password. All passwords fields should have text services disabled to maintain password secrecy, and therefore it is not valid to have a password field with an <b>IS_PASSWORD</b> input scope.</div>
 <div> </div>
-
-
 
 ### -field IS_TELEPHONE_FULLTELEPHONENUMBER
 
@@ -439,177 +430,141 @@ Indicates hours, minutes, seconds, and alphabetical time abbreviations. US Engli
 
 Indicates a numeric representation of hours, constrained to 0-24.
 
-
 ### -field IS_TIME_MINORSEC
 
 Indicates a numeric representation of minutes or seconds, constrained to 0-59.
-
 
 ### -field IS_NUMBER_FULLWIDTH
 
 Indicates full-width number, used for Japanese only. Constrained to full-width numbers and Kanji numbers.
 
-
 ### -field IS_ALPHANUMERIC_HALFWIDTH
 
 Indicates half-width alphanumeric characters for East-Asian languages, constrained to half-width alphabetical characters and numbers.
-
 
 ### -field IS_ALPHANUMERIC_FULLWIDTH
 
 Indicates full-width alphanumeric characters for East-Asian languages, constrained to full-width alphabet characters and numbers.
 
-
 ### -field IS_CURRENCY_CHINESE
 
 Indicates Chinese currency.
-
 
 ### -field IS_BOPOMOFO
 
 Indicates Bopomofo characters.
 
-
 ### -field IS_HIRAGANA
 
 Indicates Hiragana characters.
-
 
 ### -field IS_KATAKANA_HALFWIDTH
 
 Indicates half-width Katakana characters.
 
-
 ### -field IS_KATAKANA_FULLWIDTH
 
 Indicates full-width Katakana characters.
-
 
 ### -field IS_HANJA
 
 Indicates Hanja characters.
 
-
 ### -field IS_HANGUL_HALFWIDTH
 
-
 ### -field IS_HANGUL_FULLWIDTH
-
 
 ### -field IS_SEARCH
 
 <b>Starting with Windows 8:</b> Indicates a search string.
 
-
 ### -field IS_FORMULA
 
 <b>Starting with Windows 8:</b> Indicates a formula control, for example, a spreadsheet field.
-
 
 ### -field IS_SEARCH_INCREMENTAL
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for search boxes where incremental results are displayed as the user types.
 
-
 ### -field IS_CHINESE_HALFWIDTH
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for Chinese half-width characters.
-
 
 ### -field IS_CHINESE_FULLWIDTH
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for Chinese full-width characters.
 
-
 ### -field IS_NATIVE_SCRIPT
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for native script.
-
 
 ### -field IS_YOMI
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for Japanese names.
 
-
 ### -field IS_TEXT
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with text.
-
 
 ### -field IS_CHAT
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for chat strings.
 
-
 ### -field IS_NAME_OR_PHONENUMBER
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with a name or telephone number.
-
 
 ### -field IS_EMAILNAME_OR_ADDRESS
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with an email name or full email address.
 
-
 ### -field IS_PRIVATE
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with private data.
-
 
 ### -field IS_MAPS
 
 <b>Starting with Windows 10:</b> Indicates input scope is intended for working with a map location.
 
-
 ### -field IS_NUMERIC_PASSWORD
 
 <b>Starting with Windows 10:</b> Indicates expected input is a numeric password, or PIN.
-
 
 ### -field IS_NUMERIC_PIN
 
 <b>Starting with Windows 10:</b> Indicates expected input is a numeric PIN.
 
-
 ### -field IS_ALPHANUMERIC_PIN
 
 <b>Starting with Windows 10:</b> Indicates expected input is an alphanumeric PIN.
-
 
 ### -field IS_ALPHANUMERIC_PIN_SET
 
 <b>Starting with Windows 10:</b> Indicates expected input is an alphanumeric PIN for lock screen.
 
-
 ### -field IS_FORMULA_NUMBER
 
 <b>Starting with Windows 10:</b> Indicates expected input is a mathematical formula.
 
-
 ### -field IS_CHAT_WITHOUT_EMOJI
 
-<b>Starting with Windows 10:</b> Indicates expected input does not include emoji. 
-
+<b>Starting with Windows 10:</b> Indicates expected input does not include emoji.
 
 ### -field IS_PHRASELIST
 
 Indicates a phrase list.
 
-
 ### -field IS_REGULAREXPRESSION
 
 Indicates a regular expression.
-
 
 ### -field IS_SRGS
 
 Indicates an XML string that conforms to the Speech Recognition Grammar Specification (SRGS) standard. Information on SRGS can be found at <a href="https://www.w3.org/tr/speech-grammar">http://www.w3.org/TR/speech-grammar</a>.
 
-
 ### -field IS_XML
 
 Indicates a custom xml string.
-
 
 ### -field IS_ENUMSTRING
 
@@ -625,20 +580,11 @@ Indicates Hanja characters.
 
 Indicates Hanja characters.
 
-
 ## -remarks
-
-
 
 Whether a given input scope value is supported can vary across technologies.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nn-inputscope-itfinputscope">ITfInputScope
       </a>
@@ -654,7 +600,4 @@ Whether a given input scope value is supported can vary across technologies.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>
- 
-
- 
 

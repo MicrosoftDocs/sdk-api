@@ -8,10 +8,6 @@ tech.root: NAP
 ms.assetid: dbf2978f-062a-417b-a6df-a82879e10ec8
 ms.date: 12/05/2018
 ms.keywords: FailureCategoryMapping, FailureCategoryMapping structure [NAP], nap.failurecategorymapping_struct, naptypes/FailureCategoryMapping
-f1_keywords:
-- naptypes/FailureCategoryMapping
-dev_langs:
-- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NapTypes.h
-api_name:
-- FailureCategoryMapping
 targetos: Windows
 req.typenames: FailureCategoryMapping
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagFailureCategoryMapping
+ - naptypes/tagFailureCategoryMapping
+ - FailureCategoryMapping
+ - naptypes/FailureCategoryMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NapTypes.h
+api_name:
+ - FailureCategoryMapping
 ---
 
 # FailureCategoryMapping structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>FailureCategoryMapping</b> structure contains optional compliance state information that is returned by the System Health Validator (SHV).
 
-
 ## -struct-fields
-
-
-
 
 ### -field mappingCompliance
 
@@ -66,8 +64,6 @@ An array of        <b>BOOLs</b> that contain the compliance state of each <a hre
 <div> </div>
 
 ## -remarks
-
-
 
 If a failure occurs in the system (for example, a component or communication failures), the SHV may return
    an <a href="https://docs.microsoft.com/windows/desktop/NAP/sohattributetype-enum">sohAttributeTypeFailureCategory</a> type type-length-value (TLV) object in its <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoHResponse</a> instead
@@ -87,16 +83,7 @@ If a failure occurs in the system (for example, a component or communication fai
 </ul>
 By default, all categories map to non-compliant (FALSE).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-failurecategory">FailureCategory</a>
- 
-
- 
 

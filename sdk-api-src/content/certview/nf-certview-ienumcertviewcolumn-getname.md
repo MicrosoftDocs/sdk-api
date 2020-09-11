@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: be76cec1-9ac0-4cc0-bddb-992b2d3590d7
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetName method, IEnumCERTVIEWCOLUMN.GetName, IEnumCERTVIEWCOLUMN::GetName, _certsrv_ienumcertviewcolumn_getname, certview/IEnumCERTVIEWCOLUMN::GetName, security.ienumcertviewcolumn_getname
-f1_keywords:
-- certview/IEnumCERTVIEWCOLUMN.GetName
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWCOLUMN.GetName
-- IEnumCERTVIEWCOLUMN.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWCOLUMN::GetName
+ - certview/IEnumCERTVIEWCOLUMN::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWCOLUMN.GetName
+ - IEnumCERTVIEWCOLUMN.GetName
 ---
 
 # IEnumCERTVIEWCOLUMN::GetName
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetName</b> method retrieves the nonlocalized name of the current column in the column-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param pstrOut [out]
 
 A pointer to a variable of <b>BSTR</b> type that  contains the name of the column.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK  and the <i>pstrOut</i> parameter contains the name of the column.
@@ -78,12 +71,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a <b>String</b> that contains the name of the column.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to retrieve the nonlocalized name of the  column currently referenced by the 
 column-enumeration sequence.
@@ -116,14 +104,7 @@ if (NULL != bstrColName)
     SysFreeString(bstrColName);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewcolumn">IEnumCERTVIEWCOLUMN</a>
 
@@ -138,7 +119,4 @@ if (NULL != bstrColName)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-skip">IEnumCERTVIEWCOLUMN::Skip</a>
- 
-
- 
 

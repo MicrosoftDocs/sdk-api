@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEDIALPARAMS, LINEDIALPARAMS, LINEDIALPARAMS structure [TAPI 2.2], LPLINEDIALPARAMS, LPLINEDIALPARAMS structure pointer [TAPI 2.2], _tapi2_linedialparams_str, tapi/LINEDIALPARAMS, tapi/LPLINEDIALPARAMS, tapi2.linedialparams_str'
-f1_keywords:
-- tapi/LINEDIALPARAMS
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tapi.h
-api_name:
-- LINEDIALPARAMS
 targetos: Windows
 req.typenames: LINEDIALPARAMS, *LPLINEDIALPARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - linedialparams_tag
+ - tapi/linedialparams_tag
+ - LPLINEDIALPARAMS
+ - tapi/LPLINEDIALPARAMS
+ - LINEDIALPARAMS
+ - tapi/LINEDIALPARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tapi.h
+api_name:
+ - LINEDIALPARAMS
 ---
 
 # LINEDIALPARAMS structure
@@ -49,42 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LINEDIALPARAMS</b> structure specifies a collection of dialing-related fields. Call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a> function or the 
 <a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetcallparams">TSPI_lineSetCallParams</a> function to set parameters for a call using the 
 <b>LINEDIALPARAMS</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwDialPause
 
 Duration of a comma in the dialable address, in milliseconds.
 
-
 ### -field dwDialSpeed
 
 Interdigit time period between successive digits, in milliseconds.
-
 
 ### -field dwDigitDuration
 
 Duration of a digit, in milliseconds.
 
-
 ### -field dwWaitForDialtone
 
 Maximum amount of time to wait for a dial tone when a 'W' is used in the dialable address, in milliseconds.
 
-
 ## -remarks
-
-
 
 This structure may not be extended.
 
@@ -96,13 +90,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a> function can be used to adjust the dialing parameters of an existing call. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure lists the call's current dialing parameters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
@@ -121,7 +109,4 @@ The
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a>
- 
-
- 
 

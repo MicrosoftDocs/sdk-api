@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\emftowmfbits.htm
 ms.date: 12/05/2018
 ms.keywords: EmfToWmfBits, EmfToWmfBits method [GDI+], EmfToWmfBits method [GDI+],Metafile class, Metafile class [GDI+],EmfToWmfBits method, Metafile.EmfToWmfBits, Metafile::EmfToWmfBits, _gdiplus_CLASS_Metafile_EmfToWmfBits_, gdiplus._gdiplus_CLASS_Metafile_EmfToWmfBits_
-f1_keywords:
-- gdiplusheaders/Metafile.EmfToWmfBits
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Metafile.EmfToWmfBits
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Metafile::EmfToWmfBits
+ - gdiplusheaders/Metafile::EmfToWmfBits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Metafile.EmfToWmfBits
 ---
 
 # Metafile::EmfToWmfBits
@@ -50,16 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts an enhanced-format metafile to a Windows Metafile Format (WMF) metafile and stores the converted records in a specified buffer. 
-
-
-
+Converts an enhanced-format metafile to a Windows Metafile Format (WMF) metafile and stores the converted records in a specified buffer.
 
 ## -parameters
-
-
-
 
 ### -param hemf [in]
 
@@ -67,13 +61,11 @@ Type: <b>HENHMETAFILE</b>
 
 Handle to the enhanced-format metafile that is to be converted.
 
-
 ### -param cbData16 [in]
 
 Type: <b>UINT</b>
 
 Unsigned integer that specifies the number of bytes in the buffer pointed to by the <i>pData16</i> parameter.
-
 
 ### -param pData16 [out]
 
@@ -81,13 +73,11 @@ Type: <b>LPBYTE</b>
 
 Pointer to a buffer that receives the converted records. If <i>pData16</i> is <b>NULL</b>, <b>Metafile::EmfToWmfBits</b> returns the number of bytes required to store the converted metafile records.
 
-
 ### -param iMapMode [in, optional]
 
 Type: <b>INT</b>
 
 Optional. Specifies the mapping mode to use in the converted metafile. For a list of possible mapping modes, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>. The default value is MM_ANISOTROPIC.
-
 
 ### -param eFlags [in, optional]
 
@@ -95,21 +85,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne
 
 Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlags</a> enumeration that specifies options for the conversion. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftowmfbitsflags">EmfToWmfBitsFlagsDefault</a>.
 
-
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 If the method succeeds and the buffer pointer is <b>NULL</b>, the return value is the number of bytes required to store the converted records. If the method succeeds and the buffer pointer is a valid pointer, the return value is the size of the metafile data in bytes. If the method fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 When you call <b>Metafile::EmfToWmfBits</b> to determine the size of the required buffer, you must pass the same value for <i>eFlags</i> that you pass later when you call <b>Metafile::EmfToWmfBits</b> to perform the conversion. Otherwise, the size returned by the first call to <b>Metafile::EmfToWmfBits</b> will be incorrect.
 
@@ -166,14 +148,7 @@ DeleteEnhMetaFile(hEmf);
 delete[] buffer;
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
 
@@ -188,7 +163,4 @@ delete[] buffer;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
- 
-
- 
 

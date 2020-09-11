@@ -8,10 +8,6 @@ tech.root: AMSI
 ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
 ms.date: 01/28/2019
 ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
-f1_keywords:
-- amsi/IAmsiStream
-dev_langs:
-- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amsi.h
-api_name:
-- IAmsiStream
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IAmsiStream
+ - amsi/IAmsiStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amsi.h
+api_name:
+ - IAmsiStream
 ---
 
 # IAmsiStream interface
+
 
 ## -description
 
@@ -82,4 +84,5 @@ Requests a buffer-full of content to be read.
 
 </td>
 </tr>
-</table> 
+</table>
+

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_KeyInfoA, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW'
-f1_keywords:
-- sspi/SecPkgContext_KeyInfo
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgContext_KeyInfo
-- SecPkgContext_KeyInfoA
-- SecPkgContext_KeyInfoW
 targetos: Windows
 req.typenames: SecPkgContext_KeyInfoA, *PSecPkgContext_KeyInfoA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_KeyInfoA
+ - sspi/_SecPkgContext_KeyInfoA
+ - PSecPkgContext_KeyInfoA
+ - sspi/PSecPkgContext_KeyInfoA
+ - SecPkgContext_KeyInfoA
+ - sspi/SecPkgContext_KeyInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgContext_KeyInfo
+ - SecPkgContext_KeyInfoA
+ - SecPkgContext_KeyInfoW
 ---
 
 # SecPkgContext_KeyInfoA structure
@@ -51,52 +56,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a> used in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 Applications using the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sSignatureAlgorithmName
 
 Pointer to a null-terminated string that contains the name, if available, of the algorithm used for generating signatures, for example "MD5" or "SHA-2".
 
-
 ### -field sEncryptAlgorithmName
 
 Pointer to a null-terminated string that contains the name, if available, of the algorithm used for encrypting messages. Reserved for future use.
-
 
 ### -field KeySize
 
 Specifies the effective key length, in bits, for the session key. This is typically 40, 56, or 128 bits.
 
-
 ### -field SignatureAlgorithm
 
 Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for generating signatures, if available.
-
 
 ### -field EncryptAlgorithm
 
 Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for encrypting messages. Reserved for future use.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
- 
-
- 
 
 ## -remarks
 

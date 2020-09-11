@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: 7F6782F3-7779-4DBD-AD5A-AE0FB136FC70
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice4 interface [DXGI],OfferResources1 method, IDXGIDevice4.OfferResources1, IDXGIDevice4::OfferResources1, OfferResources1, OfferResources1 method [DXGI], OfferResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_offerresources1, dxgi1_5/IDXGIDevice4::OfferResources1
-f1_keywords:
-- dxgi1_5/IDXGIDevice4.OfferResources1
-dev_langs:
-- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxgi.dll
-api_name:
-- IDXGIDevice4.OfferResources1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIDevice4::OfferResources1
+ - dxgi1_5/IDXGIDevice4::OfferResources1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxgi.dll
+api_name:
+ - IDXGIDevice4.OfferResources1
 ---
 
 # IDXGIDevice4::OfferResources1
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows the operating system to free the video memory of resources, including both discarding the content and de-committing the memory.
 
-
 ## -parameters
-
-
-
 
 ### -param NumResources [in]
 
@@ -64,13 +60,11 @@ Type: <b>UINT</b>
 
 The number of resources in the <i>ppResources</i> argument array.
 
-
 ### -param ppResources [in]
 
 Type: <b>IDXGIResource*</b>
 
 An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> interfaces for the resources to offer.
-
 
 ### -param Priority [in]
 
@@ -78,28 +72,19 @@ Type: <b>DXGI_OFFER_RESOURCE_PRIORITY</b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_offer_resource_priority">DXGI_OFFER_RESOURCE_PRIORITY</a>-typed value that indicates how valuable data is.
 
-
 ### -param Flags [in]
 
 Type: <b>UINT</b>
 
 Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_offer_resource_flags">DXGI_OFFER_RESOURCE_FLAGS</a>.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns an HRESULT success or error code, which can include E_INVALIDARG if a resource in the array, or the priority, is invalid.
 
-
-
-
 ## -remarks
-
-
 
 <b>OfferResources1</b> (an extension of the original <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-offerresources">IDXGIDevice2::OfferResources</a> API) enables D3D based applications to allow de-committing of an allocation’s backing store to reduce system commit under low memory conditions. 
 A de-committed allocation cannot be reused, so opting in to the new DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT flag means the new reclaim results must be properly handled. Refer to the flag descriptions in <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a> and the Example below.
@@ -175,19 +160,11 @@ void Application::ReclaimInterfaceResources (ID3D11Device* pD3D11Device)
 } 
 </code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ne-dxgi1_5-dxgi_reclaim_resource_results">DXGI_RECLAIM_RESOURCE_RESULTS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4">IDXGIDevice4</a>
- 
-
- 
 

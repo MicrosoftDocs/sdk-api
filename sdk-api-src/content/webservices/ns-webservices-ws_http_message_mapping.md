@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: dff8217e-769d-4f0b-acf2-02d6e43589cf
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows], webservices/WS_HTTP_MESSAGE_MAPPING, wsw.ws_http_message_mapping
-f1_keywords:
-- webservices/WS_HTTP_MESSAGE_MAPPING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_HTTP_MESSAGE_MAPPING
 targetos: Windows
 req.typenames: WS_HTTP_MESSAGE_MAPPING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_HTTP_MESSAGE_MAPPING
+ - webservices/_WS_HTTP_MESSAGE_MAPPING
+ - WS_HTTP_MESSAGE_MAPPING
+ - webservices/WS_HTTP_MESSAGE_MAPPING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_HTTP_MESSAGE_MAPPING
 ---
 
 # WS_HTTP_MESSAGE_MAPPING structure
@@ -49,59 +52,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies information about how an HTTP request or response should be
                 represented in a message object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field requestMappingOptions
 
 Options that control how information in the HTTP request is mapped to the message object.
-                
-
 
 ### -field responseMappingOptions
 
 Options that control how information in the HTTP response is mapped to the message object.
-                
-
 
 ### -field requestHeaderMappings
 
 An array of pointers to mappings which describe which
                     HTTP headers are mapped to/from headers in the message object
                     for an HTTP request.  The pointers in the array may not be <b>NULL</b>.
-                
-
 
 ### -field requestHeaderMappingCount
 
 The number of items in the requestHeaderMappings array.
-                
-
 
 ### -field responseHeaderMappings
 
 An array of pointers to mappings which describe which
                     HTTP headers are mapped to/from headers in the message object
                     for an HTTP response.  The pointers in the array may not be <b>NULL</b>.
-                
-
 
 ### -field responseHeaderMappingCount
 
 The number of items in the responseHeaderMappings array.
-                
-
 
 ## -remarks
-
-
 
 A message may contain additional transport-specific information that is
                 not part of the message envelope.  This transport-specific information
@@ -152,7 +136,4 @@ Other information in an HTTP request or response that does not correspond
                 extracted using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmappedheader">WsGetMappedHeader</a>.  
                 See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_HTTP_REQUEST_MAPPING_OPTIONS</a> or <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_property_id">WS_HTTP_RESPONSE_MAPPING_OPTIONS</a> 
                 for information about what information can be mapped into message headers.
-            
-
-
 

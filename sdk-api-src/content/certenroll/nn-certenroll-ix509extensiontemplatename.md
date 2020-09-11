@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9a2d0219-6fe3-4a75-8d28-281c0b863a35
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionTemplateName, IX509ExtensionTemplateName interface [Security], IX509ExtensionTemplateName interface [Security],described, certenroll/IX509ExtensionTemplateName, security.ix509extensiontemplatename
-f1_keywords:
-- certenroll/IX509ExtensionTemplateName
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionTemplateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionTemplateName
+ - certenroll/IX509ExtensionTemplateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionTemplateName
 ---
 
 # IX509ExtensionTemplateName interface
 
 
 ## -description
-
 
 The <b>IX509ExtensionTemplateName</b> interface defines methods and properties that can be used to initialize or retrieve a template name extension. This extension can be placed in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> to tell the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> what template to use when issuing or renewing a certificate. The template is identified by name.<div class="alert"><b>Note</b>  The <b>CertificateTemplateName</b> extension is used to identify version 1 templates. To identify a version 2 template, you can use the <b>CertificateTemplate</b> extension defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplate">IX509ExtensionTemplate</a> interface.</div>
 <div> </div>
@@ -71,7 +71,6 @@ The extension is encoded as a name-value pair where name equals the Unicode stri
 |           00 55 00 73 00 65 00 72                           ; .U.s.e.r
 |              ; "User"
 </code></pre>To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
-
 
 ## -inheritance
 
@@ -133,20 +132,13 @@ Retrieves the name of the template.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
- 
-
- 
 

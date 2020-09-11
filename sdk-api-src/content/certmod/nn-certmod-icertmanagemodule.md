@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.date: 12/05/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
-f1_keywords:
-- certmod/ICertManageModule
-dev_langs:
-- c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertManageModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertManageModule
+ - certmod/ICertManageModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertManageModule
 ---
 
 # ICertManageModule interface
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICertManageModule</b> interface is provided to retrieve information about a Certificate Services 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/policy-modules">Policy</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/exit-modules">Exit</a> module.
-
 
 ## -inheritance
 
@@ -98,12 +97,9 @@ Assigns a value to a property in the module.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>ICertManageModule</b> interface provides a method to invoke the module user interface for setting and viewing configuration settings. Writers of Policy and Exit modules should implement the <b>ICertManageModule</b> interface (in addition to the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> interfaces, respectively). An enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) should always use the Microsoft-provided enterprise policy and exit modules; additional exit modules are permitted for enterprise CAs.
 
@@ -158,7 +154,4 @@ TEXT(".PolicyManage")
 </td>
 </tr>
 </table>
- 
-
-
 

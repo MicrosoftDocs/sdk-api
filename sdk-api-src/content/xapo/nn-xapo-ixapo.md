@@ -8,10 +8,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapo.IXAPO
 ms.date: 12/05/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
-f1_keywords:
-- xapo/IXAPO
-dev_langs:
-- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XAPO.h
-api_name:
-- IXAPO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPO
+ - xapo/IXAPO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XAPO.h
+api_name:
+ - IXAPO
 ---
 
 # IXAPO interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The interface for an Audio Processing Object which be used in an XAudio2 effect chain.
-
 
 ## -inheritance
 
@@ -158,26 +157,14 @@ Deallocates variables that were allocated with the <a href="https://docs.microso
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">Interfaces</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
-f1_keywords:
-- wsddisco/IWSDiscoveredService
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService
+ - wsddisco/IWSDiscoveredService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService
 ---
 
 # IWSDiscoveredService interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 This interface represents a remotely discovered host.  WSDAPI returns this interface when calling  <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">IWSDiscoveryProviderNotify::Add</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-remove">IWSDiscoveryProviderNotify::Remove</a>. The interface is populated when a match for an outstanding query issued using <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbytype">IWSDiscoveryProvider::SearchByType</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyaddress">IWSDiscoveryProvider::SearchByAddress</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-searchbyid">IWSDiscoveryProvider::SearchById</a> is received, or if a device on the network announces itself with a Hello message.
-
 
 ## -inheritance
 
@@ -169,5 +168,5 @@ Retrieves a list of WS-Discovery XAddrs provided in the Hello, ProbeMatch, or Re
 
 </td>
 </tr>
-</table> 
+</table>
 

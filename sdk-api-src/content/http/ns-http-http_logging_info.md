@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 12e12f83-c36a-4b4e-8890-50566cf00c2b
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO structure [HTTP], HTTP_LOGGING_FLAG_LOCAL_TIME_ROLLOVER, HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY, HTTP_LOGGING_FLAG_LOG_SUCCESS_ONLY, HTTP_LOGGING_FLAG_USE_UTF8_CONVERSION, HTTP_LOGGING_INFO, HTTP_LOGGING_INFO structure [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_info, http/*PHTTP_LOGGING_INFO, http/HTTP_LOGGING_INFO'
-f1_keywords:
-- http/HTTP_LOGGING_INFO
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_LOGGING_INFO
 targetos: Windows
 req.typenames: HTTP_LOGGING_INFO, *PHTTP_LOGGING_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_LOGGING_INFO
+ - http/_HTTP_LOGGING_INFO
+ - PHTTP_LOGGING_INFO
+ - http/PHTTP_LOGGING_INFO
+ - HTTP_LOGGING_INFO
+ - http/HTTP_LOGGING_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_LOGGING_INFO
 ---
 
 # HTTP_LOGGING_INFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HTTP_LOGGING_INFO</b> structure is used to enable server side logging on a URL Group or on a server session.
 
 This structure must be used when setting or querying  the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerLoggingProperty</a> on a URL Group or server session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies whether the property is present.
-
 
 ### -field LoggingFlags
 
@@ -121,13 +120,10 @@ The <b>HTTP_LOGGING_FLAG_LOG_ERRORS_ONLY</b>  and <b>HTTP_LOGGING_FLAG_LOG_SUCCE
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SoftwareName
 
 The optional software name string used in W3C type logging. This name is not used for other types of logging. If this parameter is <b>NULL</b>, the HTTP Server API logs a default string.
-
 
 ### -field SoftwareNameLength
 
@@ -135,18 +131,15 @@ The length, in bytes, of the software name. The length cannot be greater than <b
 
 If the <b>SoftwareName</b> member is <b>NULL</b>, this length must be zero.
 
-
 ### -field DirectoryNameLength
 
 The length, in bytes, of the directory name. The length cannot be greater than 424  bytes.
-
 
 ### -field DirectoryName
 
 The logging directory under which the log files are created. The directory string must be a fully qualified path including the drive letter.
 
   Applications can use a UNC path to a remote machine to enable UNC logging.
-
 
 ### -field Format
 
@@ -198,8 +191,6 @@ The log format is centralized binary logging. This format has fixed field defini
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Fields
 
@@ -207,21 +198,17 @@ The fields that are logged when the format is set to W3C. These  can be one or m
 
 When the logging format is W3C is , applications must specify the log fields otherwise no fields are logged.
 
-
 ### -field pExtFields
 
 Reserved. Set to 0 (zero) or <b>NULL</b>.
-
 
 ### -field NumOfExtFields
 
 Reserved. Set to 0 (zero) or <b>NULL</b>.
 
-
 ### -field MaxRecordSize
 
 Reserved. Set to 0 (zero) or <b>NULL</b>.
-
 
 ### -field RolloverType
 
@@ -283,8 +270,6 @@ The log files are rolled over every hour.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RolloverSize
 
@@ -294,15 +279,11 @@ This field is used only for <b>HttpLoggingRolloverSize</b> rollover type and sho
 
 When rollover type is <b>HttpLoggingRolloverSize</b>, applications must specify the maximum size for the log file.
 
-
 ### -field pSecurityDescriptor
 
 The security descriptor that is applied to the log files directory and all sub-directories. If this member is <b>NULL</b>, either the system default ACL is used or the ACL is inherited from the parent directory.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HttpServerLoggingProperty</a> property sets one of four types of server side logging: HttpLoggingTypeW3C, HttpLoggingTypeIIS, HttpLoggingTypeNCSA, or HttpLoggingTypeRaw. When this property is set on a server session it functions as centralized form of logging for all of the URL groups under that server session. Requests that are routed to one of the URL groups under the server session are logged in one centralized log file. The configuration parameters for the log file are passed in the  <b>HTTP_LOGGING_INFO</b> structure in the call to   <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>.
 
@@ -413,13 +394,7 @@ Please note that in the HTTP version 2.0 API, the <a href="https://docs.microsof
 
 For information on the log file formats, see the <a href="https://msdn.microsoft.com/library/ms525807.aspx">IIS Log File Formats</a> topic.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
@@ -458,7 +433,4 @@ For information on the log file formats, see the <a href="https://msdn.microsoft
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
- 
-
- 
 

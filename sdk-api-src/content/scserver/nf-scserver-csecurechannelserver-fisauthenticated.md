@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: 673d3bf6-27ba-4d91-b485-1171bc47a0d0
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],fIsAuthenticated method, CSecureChannelServer.fIsAuthenticated, CSecureChannelServer::fIsAuthenticated, CSecureChannelServerfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::fIsAuthenticated, wmdm.csecurechannelserver_fisauthenticated
-f1_keywords:
-- scserver/CSecureChannelServer.fIsAuthenticated
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.fIsAuthenticated
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::fIsAuthenticated
+ - scserver/CSecureChannelServer::fIsAuthenticated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.fIsAuthenticated
 ---
 
 # CSecureChannelServer::fIsAuthenticated
@@ -50,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>fIsAuthenticated</b> method verifies that a <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Secure Authenticated Channel</a> has been successfully established.
-
-
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,12 +66,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 </ul>
 For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to ensure that a secure authenticated channel has been established between components before allowing certain operations. This includes calls by devices and storages prior to accessing and transferring data streams. You should confirm that this method returns <b>TRUE</b> before calling other top-level methods on the component.
 
@@ -114,21 +98,11 @@ HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/previous-versions/ms868497(v=msdn.10)">CSecureChannelClient::fIsAuthenticated</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
- 
-
- 
 

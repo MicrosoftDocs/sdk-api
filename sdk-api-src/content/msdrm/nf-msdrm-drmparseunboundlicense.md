@@ -8,10 +8,6 @@ tech.root: rm
 ms.assetid: 2ae65ed2-7702-4e9b-b986-68b83ebe8bf5
 ms.date: 12/05/2018
 ms.keywords: DRMParseUnboundLicense, DRMParseUnboundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMParseUnboundLicense, rm.drmparseunboundlicense
-f1_keywords:
-- msdrm/DRMParseUnboundLicense
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMParseUnboundLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMParseUnboundLicense
+ - msdrm/DRMParseUnboundLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMParseUnboundLicense
 ---
 
 # DRMParseUnboundLicense function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
@@ -61,36 +61,23 @@ which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMParseUnboundLicense</b> function creates a handle to an unbound license, to allow an application to navigate its objects and attributes. For more information, see Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param wszCertificate [in]
 
 The leaf certificate on the license to be examined, in plain text (not encoded).
 
-
 ### -param phQueryRoot [out]
 
 Pointer to a handle to the root object of the license. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosequeryhandle">DRMCloseQueryHandle</a> to close the handle.
 
-
 ## -returns
-
-
 
  If the function succeeds, the function returns S_OK.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 This function is for querying unbound end-user licenses, and also for obtaining license acquisition URLs from issuance licenses. The unbound end-user license retrieved by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> is a certificate chain. To properly query the unbound license itself, first call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmdeconstructcertificatechain">DRMDeconstructCertificateChain</a> to obtain the first element of the chain (item zero), which is the actual license.
 
@@ -102,20 +89,11 @@ The output of this function can be passed into one of the <b>DRMGetUnboundLicens
 
 Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosequeryhandle">DRMCloseQueryHandle</a> to close the unbound license handle created by calling this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/querying-licenses">Querying Licenses</a>
- 
-
- 
 

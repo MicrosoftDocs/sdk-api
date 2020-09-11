@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: B5132FF2-9DE3-40F3-82F0-90FE0640F646
 ms.date: 12/05/2018
 ms.keywords: TdhCreatePayloadFilter, TdhCreatePayloadFilter function [ETW], etw.tdhcreatepayloadfilter, tdh/TdhCreatePayloadFilter
-f1_keywords:
-- tdh/TdhCreatePayloadFilter
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
-api_name:
-- TdhCreatePayloadFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhCreatePayloadFilter
+ - tdh/TdhCreatePayloadFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+api_name:
+ - TdhCreatePayloadFilter
 ---
 
 # TdhCreatePayloadFilter function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>TdhCreatePayloadFilter</b> function  creates  a single filter for a single payload to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  
-
+The <b>TdhCreatePayloadFilter</b> function  creates  a single filter for a single payload to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
 ## -parameters
 
-
-
-
 ### -param ProviderGuid [in]
 
-A GUID that identifies the manifest provider of the <i>EventDescriptor</i> parameter. 
-
+A GUID that identifies the manifest provider of the <i>EventDescriptor</i> parameter.
 
 ### -param EventDescriptor [in]
 
 A pointer to the event descriptor whose payload will be filtered.
-
 
 ### -param EventMatchANY [in]
 
@@ -79,29 +73,22 @@ When this parameter is <b>TRUE</b>, an event will be written to a session if any
 When this parameter is <b>FALSE</b>, an event will be written to a session only if all of
         the specified conditions specified in the filter are  <b>TRUE</b>.
 
-
 ### -param PayloadPredicateCount [in]
 
 The number of conditions specified in the filter.
         This value must be less than or equal to the <b>ETW_MAX_PAYLOAD_PREDICATES</b> constant defined in the <i>Tdh.h</i> header file.
 
-
-
 ### -param PayloadPredicates [in]
 
 A pointer to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures that contain the list conditions that the filter specifies.
-
 
 ### -param PayloadFilter [out]
 
 On success, this parameter returns a pointer to a single payload filter that is properly sized and built for the specified conditions.
 
-When the caller is finished using the returned payload filter with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function,  the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhdeletepayloadfilter">TdhDeletePayloadFilter</a> function should be called to free the allocated memory. 
-
+When the caller is finished using the returned payload filter with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function,  the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhdeletepayloadfilter">TdhDeletePayloadFilter</a> function should be called to free the allocated memory.
 
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -169,14 +156,8 @@ The schema information for supplied provider GUID was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on the specific content of  event in a logger session. 
 
@@ -195,12 +176,7 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
@@ -231,7 +207,4 @@ the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enab
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhdeletepayloadfilter">TdhDeletePayloadFilter</a>
- 
-
- 
 

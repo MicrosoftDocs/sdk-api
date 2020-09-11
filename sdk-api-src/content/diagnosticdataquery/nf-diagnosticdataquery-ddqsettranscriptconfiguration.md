@@ -36,22 +36,29 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqSetTranscriptConfiguration
+f1_keywords:
+ - DdqSetTranscriptConfiguration
+ - diagnosticdataquery/DdqSetTranscriptConfiguration
 ---
 
 ## -description
+
 Sets event transcript configuration, such as maximum storage size and hours of data history. Note that setting the configuration will fail if the user is not elevated.
 
 ## -parameters
 
 ### -param hSession
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the Diagnostic Data Query session.
 
 ### -param desiredConfig
+
 Type: **[DIAGNOSTIC_DATA_EVENT_TRANSCRIPT_CONFIGURATION\*](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_data_event_transcript_configuration)**
-Pointer to the resource that contains the desired event transcript configuration. 
+Pointer to the resource that contains the desired event transcript configuration.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

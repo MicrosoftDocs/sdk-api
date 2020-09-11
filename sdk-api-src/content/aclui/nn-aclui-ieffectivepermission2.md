@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2FDCA205-6880-4526-B8D7-6F9B107B218B
 ms.date: 12/05/2018
 ms.keywords: IEffectivePermission2, IEffectivePermission2 interface [Security], IEffectivePermission2 interface [Security],described, aclui/IEffectivePermission2, security.ieffectivepermission2
-f1_keywords:
-- aclui/IEffectivePermission2
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- IEffectivePermission2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEffectivePermission2
+ - aclui/IEffectivePermission2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - IEffectivePermission2
 ---
 
 # IEffectivePermission2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEffectivePermission2</b> interface provides a way to determine effective permissions for a security principal on an object in a way where the principal's security context may be compounded with a device context or adjusted in other ways. Additionally, it determines the effective permissions even when multiple security checks apply. The access control editor uses this information to communicate the effective permissions to the client.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Computes the effective permissions by using the secondary security for an object
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 The <b>IEffectivePermission2</b> interface should be implemented by resource managers that support dynamic access control or by resource managers where the effective access to an object is determined by more than one security check, for example, a security descriptor and a firewall. 
 
@@ -90,16 +86,7 @@ The resource manager typically implements <a href="https://docs.microsoft.com/wi
 
 If the <b>IEffectivePermission2</b> interface is implemented, then the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a> interface is not used.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a>
- 
-
- 
 

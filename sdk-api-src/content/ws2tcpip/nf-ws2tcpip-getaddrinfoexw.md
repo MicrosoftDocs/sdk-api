@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
-f1_keywords:
-- ws2tcpip/GetAddrInfoEx
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- GetAddrInfoEx
-- GetAddrInfoExA
-- GetAddrInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAddrInfoExW
+ - ws2tcpip/GetAddrInfoExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - GetAddrInfoEx
+ - GetAddrInfoExA
+ - GetAddrInfoExW
 ---
 
 # GetAddrInfoExW function
@@ -51,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAddrInfoEx</b> function provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 
-
 ## -parameters
-
-
-
 
 ### -param pName [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string containing a host (node) name or a numeric host address string. For the Internet protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hex address.
-
 
 ### -param pServiceName [in, optional]
 
@@ -73,7 +68,6 @@ A pointer to an optional <b>NULL</b>-terminated string that contains either a se
 A service name is a string alias for a port number. For example, “http” is an alias for port 80 defined by the Internet Engineering Task Force (IETF) as the default port used by web servers for the HTTP protocol. Possible values for the <i>pServiceName</i> parameter when a port number is not specified are listed in the following file: 
 
 <code>%WINDIR%\system32\drivers\etc\services</code>
-
 
 ### -param dwNameSpace [in]
 
@@ -210,13 +204,10 @@ This namespace identifier is supported on Windows Vista and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpNspId [in, optional]
 
 A pointer to an optional GUID of a specific namespace provider to query in the case where  multiple namespace providers are registered under a single namespace such as <b>NS_DNS</b>. Passing the GUID for specific namespace provider will result in only the specified namespace provider being queried. The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
-
 
 ### -param hints [in, optional]
 
@@ -227,19 +218,16 @@ The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> m
 
 See the Remarks for more details.
 
-
 ### -param ppResult [out]
 
 A pointer to a linked list of one or more 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures that contains response information about the host.
-
 
 ### -param timeout [in, optional]
 
 An optional parameter indicating the time, in milliseconds, to wait for a response from the namespace provider before aborting the call. 
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function. Otherwise, this parameter is currently reserved and must be set to <b>NULL</b> since a <i>timeout</i> option is not supported.
-
 
 ### -param lpOverlapped [in, optional]
 
@@ -251,8 +239,7 @@ On Windows 8 and Windows Server 2012, if no <i>lpCompletionRoutine</i> paramet
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
+On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
 ### -param lpCompletionRoutine [in, optional]
 
@@ -279,8 +266,7 @@ When the asynchronous operation has completed, the completion routine will be in
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
+On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
 ### -param lpHandle
 
@@ -299,12 +285,9 @@ On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function wil
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
+On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
 ## -returns
-
-
 
 On success,  <b>GetAddrInfoEx</b> returns <b>NO_ERROR</b> (0). Failure returns a nonzero Windows Sockets error code, as found in the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
@@ -499,14 +482,8 @@ The specified class was not found. The <i>pServiceName</i> parameter is not supp
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetAddrInfoEx</b>  function provides protocol-independent translation from host name to address and from service name to port number. The <b>GetAddrInfoEx</b>  function is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> functions. The <b>GetAddrInfoEx</b>  function allows specifying the namespace provider to resolve the query. 
 
@@ -1341,9 +1318,6 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a>
 
 
@@ -1393,7 +1367,4 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
- 
-
- 
 

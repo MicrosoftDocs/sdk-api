@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b
 ms.date: 12/05/2018
 ms.keywords: '*PIPX_SERVICE, IPX_SERVICE, IPX_SERVICE structure [RAS], PIPX_SERVICE, PIPX_SERVICE structure pointer [RAS], _mpr_ipx_service, rras.ipx_service, stm/IPX_SERVICE, stm/PIPX_SERVICE'
-f1_keywords:
-- stm/IPX_SERVICE
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Stm.h
-api_name:
-- IPX_SERVICE
 targetos: Windows
 req.typenames: IPX_SERVICE, *PIPX_SERVICE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IPX_SERVICE
+ - stm/_IPX_SERVICE
+ - PIPX_SERVICE
+ - stm/PIPX_SERVICE
+ - IPX_SERVICE
+ - stm/IPX_SERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Stm.h
+api_name:
+ - IPX_SERVICE
 ---
 
 # IPX_SERVICE structure
@@ -49,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IPX_SERVICE</b> structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceIndex
 
 Contains the index of the interface through which the service information was obtained.
 
-
 ### -field Protocol
 
 Contains the identifier of the protocol that obtained the service information. Static services are viewed as services obtained through the IPX_PROTOCOL_STATIC protocol.
-
 
 ### -field Server
 
@@ -81,11 +79,7 @@ Contains the identifier of the protocol that obtained the service information. S
 Specifies an 
 <a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_server_entry">IPX_SERVER_ENTRY</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
@@ -96,7 +90,4 @@ Specifies an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: ed01e945-06e7-4d3d-8a23-066ef6e0b13c
 ms.date: 12/05/2018
 ms.keywords: GetWebSettings, GetWebSettings method, GetWebSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebSettings method, IWindowsParentalControlsCore.GetWebSettings, IWindowsParentalControlsCore::GetWebSettings, parcon.iwindowsparentalcontrols_getwebsettings, wpcapi/IWindowsParentalControlsCore::GetWebSettings
-f1_keywords:
-- wpcapi/IWindowsParentalControlsCore.GetWebSettings
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWindowsParentalControlsCore.GetWebSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsParentalControlsCore::GetWebSettings
+ - wpcapi/IWindowsParentalControlsCore::GetWebSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWindowsParentalControlsCore.GetWebSettings
 ---
 
 # IWindowsParentalControlsCore::GetWebSettings
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to an interface for web restrictions settings for the specified user.
 
-
 ## -parameters
-
-
-
 
 ### -param pcszSID [in]
 
 The SID string of the user. If this parameter is <b>NULL</b>, retrieve settings for the current user.
 
-
 ### -param ppSettings [out]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcwebsettings">IWPCWebSettings</a> interface pointer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,22 +127,12 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwindowsparentalcontrols">IWindowsParentalControls</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
- 
-
- 
 

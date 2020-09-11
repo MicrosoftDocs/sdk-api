@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cad6d8f0-f7d6-4ede-96a2-b00159962a1b
 ms.date: 12/05/2018
 ms.keywords: CspStatuses property [Security], CspStatuses property [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CspStatuses property, IX509CertificateRequestPkcs10.CspStatuses, IX509CertificateRequestPkcs10.get_CspStatuses, IX509CertificateRequestPkcs10::CspStatuses, IX509CertificateRequestPkcs10::get_CspStatuses, certenroll/IX509CertificateRequestPkcs10::CspStatuses, certenroll/IX509CertificateRequestPkcs10::get_CspStatuses, get_CspStatuses, security.ix509certificaterequestpkcs10_cspstatuses_property
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.CspStatuses
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.CspStatuses
-- IX509CertificateRequestPkcs10.get_CspStatuses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::get_CspStatuses
+ - certenroll/IX509CertificateRequestPkcs10::get_CspStatuses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.CspStatuses
+ - IX509CertificateRequestPkcs10.get_CspStatuses
 ---
 
 # IX509CertificateRequestPkcs10::get_CspStatuses
@@ -50,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CspStatuses</b> property retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> objects that matches the intended use of the private key associated with the certificate request.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> objects. Each object represents a single provider/algorithm pair. The <b>CspStatuses</b> property differs from the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-getcspstatuses">GetCspStatuses</a> method. The method enables you to set a <i>KeySpec</i> parameter, but <b>CspStatuses</b> uses the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a> property set on the private key associated with the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> object. This can be one of the following values. <table>
 <tr>
@@ -123,14 +119,7 @@ Assume, for example, that the <a href="https://docs.microsoft.com/windows/deskto
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
 
@@ -153,7 +142,4 @@ Assume, for example, that the <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
 

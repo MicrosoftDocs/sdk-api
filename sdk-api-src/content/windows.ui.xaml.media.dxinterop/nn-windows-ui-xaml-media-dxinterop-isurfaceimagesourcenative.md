@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 55122048-FA3B-494F-8BD3-97D2C36E4579
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNative, ISurfaceImageSourceNative interface [Windows Runtime], ISurfaceImageSourceNative interface [Windows Runtime],described, windows/ISurfaceImageSourceNative, winrt.isurfaceimagesourcenative
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- ISurfaceImageSourceNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurfaceImageSourceNative
+ - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - ISurfaceImageSourceNative
 ---
 
 # ISurfaceImageSourceNative interface
 
 
 ## -description
-
 
 Provides the implementation of a shared fixed-size surface for Direct2D drawing.
 <div class="alert"><b>Note</b>  If the surface is larger than the screen size, use <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">IVirtualSurfaceImageSourceNative</a> instead.</div><div> </div>
@@ -95,12 +95,9 @@ Sets the DXGI device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 This interface provides the native implementation of the <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> Windows runtime type. To obtain a pointer to <b>ISurfaceImageSourceNative</b>, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
@@ -114,14 +111,7 @@ sisInspectable->QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&m_
 	
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
@@ -136,7 +126,4 @@ sisInspectable->QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&m_
 
 
 <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
- 
-
- 
 

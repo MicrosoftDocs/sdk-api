@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW'
-f1_keywords:
-- netioapi/MIB_IPINTERFACE_ROW
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_IPINTERFACE_ROW
 targetos: Windows
 req.typenames: MIB_IPINTERFACE_ROW, *PMIB_IPINTERFACE_ROW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPINTERFACE_ROW
+ - netioapi/_MIB_IPINTERFACE_ROW
+ - PMIB_IPINTERFACE_ROW
+ - netioapi/PMIB_IPINTERFACE_ROW
+ - MIB_IPINTERFACE_ROW
+ - netioapi/MIB_IPINTERFACE_ROW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_IPINTERFACE_ROW
 ---
 
 # MIB_IPINTERFACE_ROW structure
@@ -49,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MIB_IPINTERFACE_ROW</b> structure stores interface management information for a particular IP address family on a network interface. 
-
+<b>MIB_IPINTERFACE_ROW</b> structure stores interface management information for a particular IP address family on a network interface.
 
 ## -struct-fields
-
-
-
 
 ### -field Family
 
@@ -109,8 +109,6 @@ The Internet Protocol version 6 (IPv6) address family.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InterfaceLuid
 
@@ -118,13 +116,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-
 
 The locally unique identifier (LUID) for the network interface.
 
-
 ### -field InterfaceIndex
 
 Type: <b>NET_IFINDEX</b>
 
 The local index value for the network interface. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
-
 
 ### -field MaxReassemblySize
 
@@ -132,13 +128,11 @@ Type: <b>ULONG</b>
 
 The maximum reassembly size, in bytes, of a fragmented IP packet. This member is currently set to zero and reserved for future use.
 
-
 ### -field InterfaceIdentifier
 
 Type: <b>ULONG64</b>
 
 Reserved for future use. This member is currently set to zero.
-
 
 ### -field MinRouterAdvertisementInterval
 
@@ -146,20 +140,17 @@ Type: <b>ULONG</b>
 
 The minimum router advertisement interval, in milliseconds, on this IP interface. This member defaults to 200 for IPv6. This member is only applicable if the <b>AdvertisingEnabled</b> member is set to <b>TRUE</b>.
 
-
 ### -field MaxRouterAdvertisementInterval
 
 Type: <b>ULONG</b>
 
 The maximum router advertisement interval, in milliseconds, on this IP interface. This member defaults  to 600 for IPv6. This member is only applicable if the <b>AdvertisingEnabled</b> member is set to <b>TRUE</b>.
 
-
 ### -field AdvertisingEnabled
 
 Type: <b>BOOLEAN</b>
 
-A value that indicates if router advertising is enabled on this IP interface. The default for IPv6 is that  router advertisement is enabled only if the interface is configured to act as a router.  The default for IPv4 is that router advertisement is disabled. 
-
+A value that indicates if router advertising is enabled on this IP interface. The default for IPv6 is that  router advertisement is enabled only if the interface is configured to act as a router.  The default for IPv4 is that router advertisement is disabled.
 
 ### -field ForwardingEnabled
 
@@ -167,13 +158,11 @@ Type: <b>BOOLEAN</b>
 
 A value that indicates if IP forwarding is enabled on this IP interface.
 
-
 ### -field WeakHostSend
 
 Type: <b>BOOLEAN</b>
 
 A value that indicates if weak host send mode is enabled  on this IP interface.
-
 
 ### -field WeakHostReceive
 
@@ -181,13 +170,11 @@ Type: <b>BOOLEAN</b>
 
 A value that indicates if weak host receive mode is enabled  on this IP interface.
 
-
 ### -field UseAutomaticMetric
 
 Type: <b>BOOLEAN</b>
 
 A value that indicates if the IP interface uses automatic metric.
-
 
 ### -field UseNeighborUnreachabilityDetection
 
@@ -195,13 +182,11 @@ Type: <b>BOOLEAN</b>
 
 A value that indicates if neighbor unreachability detection is enabled on this IP interface.
 
-
 ### -field ManagedAddressConfigurationSupported
 
 Type: <b>BOOLEAN</b>
 
 A value that indicates if the IP interface supports managed address configuration using DHCP.
-
 
 ### -field OtherStatefulConfigurationSupported
 
@@ -209,13 +194,11 @@ Type: <b>BOOLEAN</b>
 
 A value that indicates if the IP interface supports other stateful configuration (route configuration, for example).
 
-
 ### -field AdvertiseDefaultRoute
 
 Type: <b>BOOLEAN</b>
 
 A value that indicates if the IP interface advertises the default route. This member is only applicable if the <b>AdvertisingEnabled</b> member is set to <b>TRUE</b>.
-
 
 ### -field RouterDiscoveryBehavior
 
@@ -273,8 +256,6 @@ This value is used when setting the properties for an IP interface when the valu
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DadTransmits
 
@@ -288,13 +269,11 @@ The number of consecutive messages sent while performing duplicate address
                      retransmissions. For IPv4, the default for this member is 3. For IPv6, the default for this member is 1. For IPv6, these messages will sent as neighbor solicitation requests.
                      This member is defined as DupAddrDetectTransmits in RFC 2462. For more information, see <a href="https://www.ietf.org/rfc/rfc2462.txt">http://www.ietf.org/rfc/rfc2462.txt</a>.
 
-
 ### -field BaseReachableTime
 
 Type: <b>ULONG</b>
 
 The base for random reachable time,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>.
-
 
 ### -field RetransmitTime
 
@@ -302,13 +281,11 @@ Type: <b>ULONG</b>
 
 The neighbor solicitation timeout,  in milliseconds. The member is described in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>.
 
-
 ### -field PathMtuDiscoveryTimeout
 
 Type: <b>ULONG</b>
 
 The path MTU discovery timeout,  in milliseconds.
-
 
 ### -field LinkLocalAddressBehavior
 
@@ -367,8 +344,6 @@ This value is used when setting the properties for an IP interface when the valu
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LinkLocalAddressTimeout
 
@@ -376,21 +351,18 @@ Type: <b>ULONG</b>
 
 The link local IP address timeout, in milliseconds.
 
-
 ### -field ZoneIndices
 
 Type: <b>ULONG[ScopeLevelCount]</b>
 
 An array that specifies the zone part of scope IDs.
 
-
 ### -field SitePrefixLength
 
 Type: <b>ULONG</b>
 
 The site prefix length, in bits, of the IP interface address. The length, in bits, of the site prefix or network part of the IP interface address. For an IPv4 address, any value greater than 32 is an illegal value. For an IPv6 address, any value greater than 128 is an illegal value. 
-A value of 255 is commonly used to represent an illegal value. 
-
+A value of 255 is commonly used to represent an illegal value.
 
 ### -field Metric
 
@@ -398,13 +370,11 @@ Type: <b>ULONG</b>
 
 The interface metric. Note the actual route metric used to compute the route preference is the summation of the route metric offset specified in the <b>Metric</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface metric specified in this member.
 
-
 ### -field NlMtu
 
 Type: <b>ULONG</b>
 
 The network layer MTU size, in bytes.
-
 
 ### -field Connected
 
@@ -412,13 +382,11 @@ Type: <b>BOOLEAN</b>
 
 A value that indicates if the interface is connected to a network access point.
 
-
 ### -field SupportsWakeUpPatterns
 
 Type: <b>BOOLEAN</b>
 
 A value that specifies if the network interface supports Wake on LAN.
-
 
 ### -field SupportsNeighborDiscovery
 
@@ -426,13 +394,11 @@ Type: <b>BOOLEAN</b>
 
 A value that specifies if the IP interface support neighbor discovery.
 
-
 ### -field SupportsRouterDiscovery
 
 Type: <b>BOOLEAN</b>
 
 A value that specifies if the IP interface support neighbor discovery.
-
 
 ### -field ReachableTime
 
@@ -440,13 +406,11 @@ Type: <b>ULONG</b>
 
 The reachable timeout, in milliseconds.
 
-
 ### -field TransmitOffload
 
 Type: <b>NL_INTERFACE_OFFLOAD_ROD</b>
 
 A set of flags that indicate the transmit offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
-
 
 ### -field ReceiveOffload
 
@@ -454,17 +418,13 @@ Type: <b>NL_INTERFACE_OFFLOAD_ROD</b>
 
 A set of flags that indicate the receive offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
 
-
 ### -field DisableDefaultRoutes
 
 Type: <b>BOOLEAN</b>
 
 A value that indicates if using default route on the interface should be disabled. This member can be used by VPN clients to restrict split tunneling.
 
-
 ## -remarks
-
-
 
 The <b>MIB_IPINTERFACE_ROW</b> structure is defined on Windows Vista and later. 
 
@@ -501,12 +461,7 @@ To view an example that retrieves the <a href="https://docs.microsoft.com/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
 
@@ -541,7 +496,4 @@ To view an example that retrieves the <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mbn
 ms.assetid: 9114a3ed-2dc9-4637-b3d5-9430d309e89b
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberInformation, GetSubscriberInformation method [Microsoft Broadband Networks], GetSubscriberInformation method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetSubscriberInformation method, IMbnInterface.GetSubscriberInformation, IMbnInterface::GetSubscriberInformation, mbn.imbninterface_getsubscriberinformation, mbnapi/IMbnInterface::GetSubscriberInformation
-f1_keywords:
-- mbnapi/IMbnInterface.GetSubscriberInformation
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.GetSubscriberInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::GetSubscriberInformation
+ - mbnapi/IMbnInterface::GetSubscriberInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.GetSubscriberInformation
 ---
 
 # IMbnInterface::GetSubscriberInformation
@@ -54,20 +55,13 @@ ms.custom: 19H1
 
 Gets the subscriber information.
 
-
 ## -parameters
-
-
-
 
 ### -param subscriberInformation [out, retval]
 
 A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a> interface that contains subscriber information for the device.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,14 +93,8 @@ The information is not available.  The Mobile Broadband  service is currently pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetSubscriberInformation</b> method returns the subscriber-related information, including subscriber ID, SIM international circuit card number, and phone numbers associated with this interface.
 
@@ -116,16 +104,7 @@ Some of the values returned in subscriber information are populated only when th
 
 Subscriber information for a device will not change once the device ready state is <b>MBN_READY_STATE_INITIALIZED</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
 

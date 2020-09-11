@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: ca2e036a-d0f8-4372-872a-388217050d15
 ms.date: 12/05/2018
 ms.keywords: ITfReverseConversion, ITfReverseConversion interface [Text Services Framework], ITfReverseConversion interface [Text Services Framework],described, msctf/ITfReverseConversion, tsf.itfreverseconversion_
-f1_keywords:
-- msctf/ITfReverseConversion
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReverseConversion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfReverseConversion
+ - msctf/ITfReverseConversion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReverseConversion
 ---
 
 # ITfReverseConversion interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>ITfReverseConversion</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.]
 
-Performs a reverse conversion of a specified string. 
-
+Performs a reverse conversion of a specified string.
 
 ## -inheritance
 
@@ -81,14 +80,9 @@ Performs a reverse conversion of the specified string.
 <div> </div>
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 A reverse conversion provides the keystroke sequences required to create the specified string.
-
-
 

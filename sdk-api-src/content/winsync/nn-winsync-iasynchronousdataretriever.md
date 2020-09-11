@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 38f07582-908b-430e-a886-c0fc24b807ef
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever, IAsynchronousDataRetriever interface [Windows Sync], IAsynchronousDataRetriever interface [Windows Sync],described, winsync.iasynchronousdataretriever, winsync/IAsynchronousDataRetriever
-f1_keywords:
-- winsync/IAsynchronousDataRetriever
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IAsynchronousDataRetriever
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAsynchronousDataRetriever
+ - winsync/IAsynchronousDataRetriever
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IAsynchronousDataRetriever
 ---
 
 # IAsynchronousDataRetriever interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the mechanism by which the destination provider asynchronously retrieves item data from the source provider.
-
-
 
 ## -inheritance
 
@@ -107,16 +105,9 @@ Indicates that the <b>IAsynchronousDataRetriever</b>  object must no longer use 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
 

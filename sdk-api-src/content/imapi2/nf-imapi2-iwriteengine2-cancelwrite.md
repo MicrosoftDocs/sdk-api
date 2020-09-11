@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: cd658bd3-71ab-4e63-adec-8b7405a76c12
 ms.date: 12/05/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IWriteEngine2 interface, IWriteEngine2 interface [IMAPI],CancelWrite method, IWriteEngine2.CancelWrite, IWriteEngine2::CancelWrite, imapi.iwriteengine2_cancelwrite, imapi2/IWriteEngine2::CancelWrite
-f1_keywords:
-- imapi2/IWriteEngine2.CancelWrite
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.CancelWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::CancelWrite
+ - imapi2/IWriteEngine2::CancelWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.CancelWrite
 ---
 
 # IWriteEngine2::CancelWrite
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Cancels a write operation that is in progress. 
-
+Cancels a write operation that is in progress.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 The following values are returned on success, but other success codes may be returned as a result of implementation: The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -119,24 +111,12 @@ Value: 0x80004005
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To cancel the write operation, you must call this method from the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-dwriteengine2events-update">DWriteEngine2Events::Update</a> event handler that you implemented. 
-
-
-
+To cancel the write operation, you must call this method from the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-dwriteengine2events-update">DWriteEngine2Events::Update</a> event handler that you implemented.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-dwriteengine2events">DWriteEngine2Events</a>
 
@@ -151,7 +131,4 @@ To cancel the write operation, you must call this method from the <a href="https
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_writeinprogress">IWriteEngine2::get_WriteInProgress</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: mmc
 ms.assetid: 488a6c26-e064-44a1-9842-6f41ec25887c
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IConsoleNameSpace interface, DeleteItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],DeleteItem method, IConsoleNameSpace.DeleteItem, IConsoleNameSpace2 interface [MMC],DeleteItem method, IConsoleNameSpace2::DeleteItem, IConsoleNameSpace::DeleteItem, _slate_iconsolenamespace2_deleteitem, mmc.iconsolenamespace2_deleteitem, mmc/IConsoleNameSpace2::DeleteItem, mmc/IConsoleNameSpace::DeleteItem
-f1_keywords:
-- mmc/IConsoleNameSpace.DeleteItem
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsoleNameSpace.DeleteItem
-- IConsoleNameSpace2.DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsoleNameSpace::DeleteItem
+ - mmc/IConsoleNameSpace::DeleteItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsoleNameSpace.DeleteItem
+ - IConsoleNameSpace2.DeleteItem
 ---
 
 # IConsoleNameSpace::DeleteItem
@@ -50,45 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>enables the snap-in to delete a single item from the scope pane.
 
-
 ## -parameters
-
-
-
 
 ### -param hItem [in]
 
 A handle to the item whose child items are to be deleted from the scope pane. If the second argument to <b>IConsoleNameSpace2::DeleteItem</b> is set to <b>TRUE</b>, the item is also deleted.
 
-
 ### -param fDeleteThis [in]
 
 If <b>TRUE</b>, the item specified by hItem is also deleted; otherwise, it is not.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
- 
-
- 
 

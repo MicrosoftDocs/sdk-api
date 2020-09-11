@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 204c647d-65c0-4b0e-b0fa-1abe9e8fdedd
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], IReferenceTrackerTarget interface [Windows Runtime],described, windows/IReferenceTrackerTarget, winrt.ireferencetrackertarget
-f1_keywords:
-- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget
-dev_langs:
-- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.ui.xaml.hosting.referencetracker.h
-api_name:
-- IReferenceTrackerTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceTrackerTarget
+ - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.ui.xaml.hosting.referencetracker.h
+api_name:
+ - IReferenceTrackerTarget
 ---
 
 # IReferenceTrackerTarget interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines an interface implemented by a garbage collector object referenced from XAML.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Marks that the reference tracker target is no longer in use by the XAML framewor
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowplacement.htm
 ms.date: 12/05/2018
 ms.keywords: '*PWINDOWPLACEMENT, LPWINDOWPLACEMENT, LPWINDOWPLACEMENT structure pointer [Windows and Messages], PWINDOWPLACEMENT, PWINDOWPLACEMENT structure pointer [Windows and Messages], SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, WINDOWPLACEMENT, WINDOWPLACEMENT structure [Windows and Messages], WPF_ASYNCWINDOWPLACEMENT, WPF_RESTORETOMAXIMIZED, WPF_SETMINPOSITION, _win32_WINDOWPLACEMENT_str, _win32_windowplacement_str_cpp, winmsg.windowplacement, winui._win32_windowplacement_str, winuser/LPWINDOWPLACEMENT, winuser/PWINDOWPLACEMENT, winuser/WINDOWPLACEMENT'
-f1_keywords:
-- winuser/WINDOWPLACEMENT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- WINDOWPLACEMENT
 targetos: Windows
 req.typenames: WINDOWPLACEMENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWINDOWPLACEMENT
+ - winuser/tagWINDOWPLACEMENT
+ - WINDOWPLACEMENT
+ - winuser/WINDOWPLACEMENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - WINDOWPLACEMENT
 ---
 
 # WINDOWPLACEMENT structure
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the placement of a window on the screen. 
-
+Contains information about the placement of a window on the screen.
 
 ## -struct-fields
-
-
-
 
 ### -field length
 
@@ -67,7 +65,6 @@ The length of the structure, in bytes. Before calling the <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a> fail if this member is not set correctly.
-
 
 ### -field flags
 
@@ -120,8 +117,6 @@ This flag must be specified if the coordinates are set in the <b>ptMinPosition</
 </td>
 </tr>
 </table>
- 
-
 
 ### -field showCmd
 
@@ -265,54 +260,36 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ptMinPosition
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-The coordinates of the window's upper-left corner when the window is minimized. 
-
+The coordinates of the window's upper-left corner when the window is minimized.
 
 ### -field ptMaxPosition
 
 Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-The coordinates of the window's upper-left corner when the window is maximized. 
-
+The coordinates of the window's upper-left corner when the window is maximized.
 
 ### -field rcNormalPosition
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The window's coordinates when the window is in the restored position. 
-
+The window's coordinates when the window is in the restored position.
 
 ### -field rcDevice
 
- 
-
-
-
-
 ## -remarks
-
-
 
 If the window is a top-level window that does not have the <b>WS_EX_TOOLWINDOW</b> window style, then the coordinates represented by the following members are in workspace coordinates: <b>ptMinPosition</b>, <b>ptMaxPosition</b>, and <b>rcNormalPosition</b>. Otherwise, these members are in screen coordinates.
 
 Workspace coordinates differ from screen coordinates in that they take the locations and sizes of application toolbars (including the taskbar) into account. Workspace coordinate (0,0) is the upper-left corner of the workspace area, the area of the screen not being used by application toolbars.
 
-The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a> functions. Passing workspace coordinates to functions which expect screen coordinates (such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>) will result in the window appearing in the wrong location. For example, if the taskbar is at the top of the screen, saving window coordinates using <b>GetWindowPlacement</b> and restoring them using <b>SetWindowPos</b> causes the window to appear to "creep" up the screen. 
-
-
-
+The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a> functions. Passing workspace coordinates to functions which expect screen coordinates (such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>) will result in the window appearing in the wrong location. For example, if the taskbar is at the top of the screen, saving window coordinates using <b>GetWindowPlacement</b> and restoring them using <b>SetWindowPos</b> causes the window to appear to "creep" up the screen.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -347,7 +324,4 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
 

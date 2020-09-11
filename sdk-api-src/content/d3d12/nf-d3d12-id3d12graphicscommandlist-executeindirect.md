@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 99FB088D-F3EB-4BAD-A945-51A1ED6F9288
 ms.date: 12/05/2018
 ms.keywords: ExecuteIndirect, ExecuteIndirect method, ExecuteIndirect method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteIndirect method, ID3D12GraphicsCommandList.ExecuteIndirect, ID3D12GraphicsCommandList::ExecuteIndirect, d3d12/ID3D12GraphicsCommandList::ExecuteIndirect, direct3d12.id3d12graphicscommandlist_executeindirect
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ExecuteIndirect
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ExecuteIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ExecuteIndirect
+ - d3d12/ID3D12GraphicsCommandList::ExecuteIndirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ExecuteIndirect
 ---
 
 # ID3D12GraphicsCommandList::ExecuteIndirect
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Apps perform indirect draws/dispatches using the <b>ExecuteIndirect</b> method.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pCommandSignature [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandsignature">ID3D12CommandSignature</a>*</b>
 
 Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandsignature">ID3D12CommandSignature</a>. The data referenced by <i>pArgumentBuffer</i> will be interpreted depending on the contents of the command signature. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/indirect-drawing">Indirect Drawing</a> for the APIs that are used to create a command signature.
-          
-
 
 ### -param MaxCommandCount [in]
 
@@ -85,36 +78,26 @@ There are two ways that command counts can be specified:
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 Specifies one or more <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> objects, containing the command arguments.
-          
-
 
 ### -param ArgumentBufferOffset [in]
 
 Type: <b>UINT64</b>
 
 Specifies an offset into <i>pArgumentBuffer</i> to identify the first command argument.
-          
-
 
 ### -param pCountBuffer [in, optional]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
 Specifies a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
-          
-
 
 ### -param CountBufferOffset [in]
 
 Type: <b>UINT64</b>
 
 Specifies a UINT64 that is the offset into <i>pCountBuffer</i>, identifying the argument count.
-          
-
 
 ## -remarks
-
-
 
 The semantics of this API are defined with the following pseudo-code:
 
@@ -329,19 +312,11 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/indirect-drawing">Indirect Drawing</a>
- 
-
- 
 

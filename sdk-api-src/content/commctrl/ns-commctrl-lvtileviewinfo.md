@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp'
-f1_keywords:
-- commctrl/LVTILEVIEWINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVTILEVIEWINFO
 targetos: Windows
 req.typenames: LVTILEVIEWINFO, *PLVTILEVIEWINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVTILEVIEWINFO
+ - commctrl/tagLVTILEVIEWINFO
+ - PLVTILEVIEWINFO
+ - commctrl/PLVTILEVIEWINFO
+ - LVTILEVIEWINFO
+ - commctrl/LVTILEVIEWINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVTILEVIEWINFO
 ---
 
 # LVTILEVIEWINFO structure
@@ -49,22 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides information about a list-view control when it is displayed in tile view.
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the <b>LVTILEVIEWINFO</b> structure.
-
 
 ### -field dwMask
 
@@ -111,8 +109,6 @@ Mask that determines which members are valid. This member may be one of the foll
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 
@@ -180,8 +176,6 @@ Apply a fixed height and width to the tiles.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field sizeTile
 
@@ -189,13 +183,11 @@ Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)
 
 Size of an individual tile. Values for dimensions not specified as fixed in <b>dwFlags</b> are ignored.
 
-
 ### -field cLines
 
 Type: <b>int</b>
 
 Maximum number of text lines in each item label, not counting the title.
-
 
 ### -field rcLabelMargin
 
@@ -204,21 +196,11 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that contains coordinates of the label margin.
 
-
 ## -remarks
 
-
-
 By default, the dimensions of tiles are determined automatically. To apply a fixed size, supply the correct value or values in <b>sizeTile</b> and set the appropriate flag in <b>dwFlags</b>. Allow enough vertical space for all lines of the label to be displayed. If a line does not fit in the allowed horizontal space, it is terminated with an ellipsis.
-	
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -237,7 +219,4 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>
- 
-
- 
 

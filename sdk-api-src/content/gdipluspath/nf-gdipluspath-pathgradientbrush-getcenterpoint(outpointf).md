@@ -7,10 +7,6 @@ helpviewer_keywords: ["PathGradientBrush::GetCenterPoint"]
 ms.assetid: 80e265c4-6f87-4a3f-b198-b2857a0aa182
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetCenterPoint
-f1_keywords:
-- gdipluspath/PathGradientBrush::GetCenterPoint
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - PathGradientBrush::GetCenterPoint
+ - gdipluspath/PathGradientBrush::GetCenterPoint
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- gdipluspath.h
+ - gdipluspath.h
 api_name:
-- PathGradientBrush::GetCenterPoint
+ - PathGradientBrush::GetCenterPoint
 ---
 
 # PathGradientBrush::GetCenterPoint
+
 
 ## -description
 
@@ -121,3 +123,4 @@ VOID Example_GetCenterPoint(HDC hdc)
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor">PathGradientBrush::SetCenterColor</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)">PathGradientBrush::SetCenterPoint Methods</a>
+

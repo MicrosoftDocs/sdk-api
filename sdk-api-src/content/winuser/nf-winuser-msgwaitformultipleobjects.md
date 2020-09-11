@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
 ms.date: 12/05/2018
 ms.keywords: MsgWaitForMultipleObjects, MsgWaitForMultipleObjects function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjects, base.msgwaitformultipleobjects, winuser/MsgWaitForMultipleObjects
-f1_keywords:
-- winuser/MsgWaitForMultipleObjects
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Message-l1-1-0.dll
-- IE_Shims.dll
-- API-MS-Win-RTCore-NTUser-synch-l1-1-0.dll
-- MinUser.dll
-- Ext-MS-Win-NTUser-synch-l1-1-0.dll
-- Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
-- NTUserSynchExtHost.dll
-- ComBase.dll
-api_name:
-- MsgWaitForMultipleObjects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsgWaitForMultipleObjects
+ - winuser/MsgWaitForMultipleObjects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Message-l1-1-0.dll
+ - IE_Shims.dll
+ - API-MS-Win-RTCore-NTUser-synch-l1-1-0.dll
+ - MinUser.dll
+ - Ext-MS-Win-NTUser-synch-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
+ - NTUserSynchExtHost.dll
+ - ComBase.dll
+api_name:
+ - MsgWaitForMultipleObjects
 ---
 
 # MsgWaitForMultipleObjects function
@@ -57,22 +58,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects, which you specify using the <i>dwWakeMask</i> parameter.
 
 To enter an alertable wait state, use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param nCount [in]
 
 The number of object handles in the array pointed to by <i>pHandles</i>. The maximum number of object handles is <b>MAXIMUM_WAIT_OBJECTS</b> minus one. If this parameter has the value zero, then the function waits only for an input event.
-
 
 ### -param pHandles [in]
 
@@ -86,11 +81,9 @@ If one of these handles is closed while the wait is still pending, the function'
 The handles must have the <b>SYNCHRONIZE</b> access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
-
 ### -param fWaitAll [in]
 
 If this parameter is <b>TRUE</b>, the function returns when the states of all objects in the <i>pHandles</i> array have been set to signaled and an input event has been received. If this parameter is <b>FALSE</b>, the function returns when the state of any one of the objects is set to signaled or an input event has been received. In this case, the return value indicates the object whose state caused the function to return.
-
 
 ### -param dwMilliseconds [in]
 
@@ -278,12 +271,8 @@ A <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER<
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value indicates the event that caused the function to return. It can be one of the following values. (Note that <b>WAIT_OBJECT_0</b> is defined as 0 and <b>WAIT_ABANDONED_0</b> is defined as 0x00000080L.)
 
@@ -366,14 +355,8 @@ The function has failed. To get extended error information, call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MsgWaitForMultipleObjects</b> function determines whether the wait criteria have been met. If the criteria have not been met, the calling thread enters the wait state until the conditions of the wait criteria have been met or the time-out interval elapses.
@@ -410,13 +393,7 @@ The
 </ul>
 The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> multiple times to get messages in different ranges.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>
 
@@ -427,7 +404,4 @@ The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 1fa046dd-fac9-4246-a90b-1837206b164c
 ms.date: 12/05/2018
 ms.keywords: CreateLun2, CreateLun2 method, CreateLun2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,CreateLun2 method, IVdsSubSystem2.CreateLun2, IVdsSubSystem2::CreateLun2, base.ivdssubsystem2_createlun2, vds/IVdsSubSystem2::CreateLun2, vdshwprv/IVdsSubSystem2::CreateLun2
-f1_keywords:
-- vds/IVdsSubSystem2.CreateLun2
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystem2.CreateLun2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystem2::CreateLun2
+ - vds/IVdsSubSystem2::CreateLun2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystem2.CreateLun2
 ---
 
 # IVdsSubSystem2::CreateLun2
@@ -50,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Creates a LUN. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method, except that automagic hints are provided using a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure instead of a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
@@ -73,7 +69,6 @@ The interface pointer for the new
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> structure returned by <b>Wait</b>  contains the 
       LUN object interface pointer in the <b>cl.pLunUnk</b> member.
 
-
 ### -param ullSizeInBytes [in]
 
 The size, in bytes, of the new LUN. The provider can round the size up or down to meet alignment 
@@ -83,7 +78,6 @@ The size, in bytes, of the new LUN. The provider can round the size up or down t
 
 After the LUN is created, the caller can determine the actual size of the LUN by calling the 
        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method.
-
 
 ### -param pDriveIdArray [in]
 
@@ -97,7 +91,6 @@ Alternatively, the caller can direct the provider to select the drives automatic
 
 If the <i>type</i> parameter specifies an automagic type, this parameter should be <b>NULL</b>.
 
-
 ### -param lNumberOfDrives [in]
 
 The number of drives specified in <i>pDriveIdArray</i>. If the caller passes 0, the 
@@ -108,7 +101,6 @@ If the <i>type</i> parameter specifies an automagic type, this parameter should 
 
 After the LUN is created, the caller can determine which drives are in use by calling the 
        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryextents">IVdsLunPlex::QueryExtents</a> method.
-
 
 ### -param pwszUnmaskingList [in]
 
@@ -134,7 +126,6 @@ For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiato
 After the LUN is created, the caller can determine the actual unmasking list by calling the 
        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method.
 
-
 ### -param pHints2 [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints2">VDS_HINTS2</a> structure that specifies the hints to be used in creating the LUN. The provider is not required to apply the hints to the LUN. The hints specified in the <b>VDS_HINTS2</b> structure are only a request to the provider.
@@ -143,7 +134,6 @@ After the LUN is created, the caller can determine the hints that the provider a
       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun2-queryhints2">IVdsLun2::QueryHints2</a>  method.
 
 If the <i>type</i> parameter specifies a non-automagic type, this parameter should be <b>NULL</b>.
-
 
 ### -param ppAsync [out]
 
@@ -155,10 +145,7 @@ If <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-
       the interfaces returned in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a> 
       structure must be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros defined in Winerror.h.
 
-
 ## -returns
-
-
 
 This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
@@ -269,14 +256,8 @@ Too few free drives are present in the subsystem to complete this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By choosing appropriate values for the <i>type</i> and <i>pHints2</i> parameters, the caller can specify the attributes of the LUN wholly, partially, or minimally. The provider can 
     automatically include unspecified attributes, based on the automagic hints specified in the 
@@ -297,13 +278,7 @@ There is a subtle difference between the <b>E_INVALIDARG</b> and
     create many different types of LUNs (for example, simple, mirror, striped, and parity). However, providers are not required to support all 
     types of LUNs. If the caller specifies a value for the <i>type</i> parameter that is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a> enumeration value, the provider should return <b>E_INVALIDARG</b>. If the caller specifies a valid <i>type</i> value that the provider does not support, the provider should return VDS_E_NOT_SUPPORTED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
@@ -358,7 +333,4 @@ There is a subtle difference between the <b>E_INVALIDARG</b> and
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>
- 
-
- 
 

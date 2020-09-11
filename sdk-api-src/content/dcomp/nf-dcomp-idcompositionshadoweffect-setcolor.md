@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: 1C08E464-087A-41BF-9B0E-E1370576E64A
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetColor method, IDCompositionShadowEffect.SetColor, IDCompositionShadowEffect::SetColor, SetColor, SetColor method [DirectComposition], SetColor method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetColor, directcomp.idcompositionshadoweffect_setcolor
-f1_keywords:
-- dcomp/IDCompositionShadowEffect.SetColor
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionShadowEffect.SetColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionShadowEffect::SetColor
+ - dcomp/IDCompositionShadowEffect::SetColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionShadowEffect.SetColor
 ---
 
 # IDCompositionShadowEffect::SetColor
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets color of the shadow.
 
-
 ## -parameters
-
-
-
 
 ### -param color [in, ref]
 
@@ -64,25 +60,13 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/n
 
 The color of the shadow.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionshadoweffect">IDCompositionShadowEffect</a>
- 
-
- 
 

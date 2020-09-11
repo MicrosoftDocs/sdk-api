@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: F327D8E9-7441-41A4-B70B-E148083605C2
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control, IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE control code, base.ioctl_pwm_pin_get_active_duty_cycle_percentage, pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-f1_keywords:
-- pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
+ - pwm/IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
 ---
 
 # IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE IOCTL
@@ -49,55 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the current duty cycle percentage for a pin or channel. The control code returns the percentage as a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-active-duty-cycle-percentage-output">PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT</a> structure.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
-
 
 ### -output-buffer
 
 A pointer to the buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-active-duty-cycle-percentage-output">PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT</a> struct. This represents the current duty cycle percentage for the PWM controller
 
-
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
 
-
-
 <text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
 <text></text>
-
-
-
 
 ### -status-block
 
@@ -109,10 +88,7 @@ If the operation fails or is pending,
        <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
        information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
 ## -remarks
-
-
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
@@ -257,18 +233,8 @@ For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
 

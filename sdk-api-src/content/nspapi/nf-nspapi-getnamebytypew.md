@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 74d747f0-5f5e-4f54-8b2f-7ea96d4043ee
 ms.date: 12/05/2018
 ms.keywords: GetNameByType, GetNameByType function [Winsock], GetNameByTypeA, GetNameByTypeW, _win32_getnamebytype_2, nspapi/GetNameByType, nspapi/GetNameByTypeA, nspapi/GetNameByTypeW, winsock.getnamebytype_2
-f1_keywords:
-- nspapi/GetNameByType
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- GetNameByType
-- GetNameByTypeA
-- GetNameByTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNameByTypeW
+ - nspapi/GetNameByTypeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - GetNameByType
+ - GetNameByTypeA
+ - GetNameByTypeW
 ---
 
 # GetNameByTypeW function
 
 
 ## -description
-
 
 The 
 <b>GetNameByType</b> function retrieves the name of a network service for the specified service type.
@@ -66,12 +66,7 @@ The
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpServiceType [in]
 
@@ -79,33 +74,22 @@ A pointer to a globally unique identifier (GUID) that specifies the type of the 
 
 The <i>Svcguid.h</i> header file is not automatically included by the <i>Winsock2.h</i> header file.
 
-
 ### -param lpServiceName [out]
 
 A pointer to a buffer to receive a zero-terminated string that uniquely represents the name of the network service.
-
 
 ### -param dwNameLength [in]
 
 A pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpServiceName</i>. On output, the variable contains the actual size of the service name string, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is not SOCKET_ERROR (–1).
 
 If the function fails, the return value is SOCKET_ERROR (–1). To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-gettypebynamea">GetTypeByName</a>
 
@@ -116,9 +100,6 @@ If the function fails, the return value is SOCKET_ERROR (–1). To get extended 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 
 ## -remarks
 

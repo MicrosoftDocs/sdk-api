@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: a2aefba7-40ff-4399-b13f-f1bad191f366
 ms.date: 12/05/2018
 ms.keywords: WS_RECEIVE_OPTION, WS_RECEIVE_OPTION enumeration [Web Services for Windows], WS_RECEIVE_OPTIONAL_MESSAGE, WS_RECEIVE_REQUIRED_MESSAGE, webservices/WS_RECEIVE_OPTION, webservices/WS_RECEIVE_OPTIONAL_MESSAGE, webservices/WS_RECEIVE_REQUIRED_MESSAGE, wsw.ws_receive_option
-f1_keywords:
-- webservices/WS_RECEIVE_OPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_RECEIVE_OPTION
 targetos: Windows
 req.typenames: WS_RECEIVE_OPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_RECEIVE_OPTION
+ - webservices/WS_RECEIVE_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_RECEIVE_OPTION
 ---
 
 # WS_RECEIVE_OPTION enumeration
@@ -49,22 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether a message is required when receiving from a channel.
-            
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_RECEIVE_REQUIRED_MESSAGE
 
 A message is required to be received.  If the channel does not have
                     any more messages, then the function will fail.
-                
-
 
 ### -field WS_RECEIVE_OPTIONAL_MESSAGE
 

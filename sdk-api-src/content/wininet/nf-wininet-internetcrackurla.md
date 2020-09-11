@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
 ms.date: 12/05/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
-f1_keywords:
-- wininet/InternetCrackUrl
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetCrackUrl
-- InternetCrackUrlA
-- InternetCrackUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetCrackUrlA
+ - wininet/InternetCrackUrlA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetCrackUrl
+ - InternetCrackUrlA
+ - InternetCrackUrlW
 ---
 
 # InternetCrackUrlA function
@@ -51,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cracks a URL into its component parts.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrl [in]
 
 Pointer to a string that contains the canonical URL to be cracked.
-
 
 ### -param dwUrlLength [in]
 
 Size of the 
 <i>lpszUrl</i> string, in <b>TCHARs</b>, or zero if 
 <i>lpszUrl</i> is an ASCIIZ string.
-
 
 ### -param dwFlags [in]
 
@@ -104,28 +98,18 @@ Converts all escape sequences (%xx) to their corresponding characters. This can 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpUrlComponents [in, out]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a> structure that receives the URL components.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The required components are indicated by members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a> structure. Each component has a pointer to the value and has a member that stores the length of the stored value. If both the value and the length for a component are equal to zero, that component is not returned. <b>Windows Vista and later.:  </b>If the pointer to the value of the component is <b>NULL</b> and the value of its corresponding length member is nonzero, the address of the first character of the corresponding component in the 
@@ -156,9 +140,6 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-ftpopenfilea">FtpOpenFile</a>
 
 
@@ -180,7 +161,4 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
 

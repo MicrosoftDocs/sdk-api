@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
-f1_keywords:
-- wincrypt/CryptVerifyMessageHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyMessageHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyMessageHash
+ - wincrypt/CryptVerifyMessageHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyMessageHash
 ---
 
 # CryptVerifyMessageHash function
@@ -49,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptVerifyMessageHash</b> function verifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of specified content.
 
-
 ## -parameters
-
-
-
 
 ### -param pHashPara [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a> structure containing hash parameters.
 
-
 ### -param pbHashedBlob [in]
 
 A pointer to a buffer containing original content and its hash.
 
-
 ### -param cbHashedBlob [in]
 
 The size, in bytes, of the original hash buffer.
-
 
 ### -param pbToBeHashed [out]
 
@@ -83,7 +76,6 @@ A pointer to a buffer to receive the original content that was hashed.
 
 This parameter can be <b>NULL</b> if the original content is not needed for additional processing, or to set the size of the original content for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pcbToBeHashed [in, out]
 
@@ -100,7 +92,6 @@ A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbToBeHashe
 A pointer to a buffer to receive the computed hash. This parameter can be <b>NULL</b> if the created hash is not needed for additional processing, or to set the size of the original content for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ### -param pcbComputedHash [in, out, optional]
 
 A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbComputedHash</i> buffer. When the function returns, this variable contains the size, in bytes, of the created hash. The hash is not returned if this parameter is <b>NULL</b>. 
@@ -112,8 +103,6 @@ A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbComputedH
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
@@ -175,19 +164,11 @@ If the buffer specified by the <i>pbToBeHashed</i> parameter is not large enough
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagehash">CryptVerifyDetachedMessageHash</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
 

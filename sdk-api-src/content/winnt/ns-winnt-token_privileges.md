@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c9016511-740f-44f3-92ed-17cc518c6612
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES structure pointer [Security], SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_REMOVED, SE_PRIVILEGE_USED_FOR_ACCESS, TOKEN_PRIVILEGES, TOKEN_PRIVILEGES structure [Security], _TOKEN_PRIVILEGES, _win32_token_privileges_str, security.token_privileges, winnt/PTOKEN_PRIVILEGES, winnt/TOKEN_PRIVILEGES'
-f1_keywords:
-- winnt/TOKEN_PRIVILEGES
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TOKEN_PRIVILEGES
 targetos: Windows
 req.typenames: TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TOKEN_PRIVILEGES
+ - winnt/_TOKEN_PRIVILEGES
+ - PTOKEN_PRIVILEGES
+ - winnt/PTOKEN_PRIVILEGES
+ - TOKEN_PRIVILEGES
+ - winnt/TOKEN_PRIVILEGES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TOKEN_PRIVILEGES
 ---
 
 # TOKEN_PRIVILEGES structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TOKEN_PRIVILEGES</b> structure contains information about a set of privileges for an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PrivilegeCount
 
 This must be set to the number of entries in the <b>Privileges</b> array.
-
 
 ### -field Privileges
 
@@ -124,13 +123,8 @@ The privilege was used to gain access to an object or service. This flag is used
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a>
 
@@ -205,7 +199,4 @@ The privilege was used to gain access to an object or service. This flag is used
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
- 
-
- 
 

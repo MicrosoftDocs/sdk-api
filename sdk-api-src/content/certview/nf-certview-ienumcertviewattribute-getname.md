@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c2409bf1-0571-479e-8499-010d52cfb776
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetName method, IEnumCERTVIEWATTRIBUTE.GetName, IEnumCERTVIEWATTRIBUTE::GetName, _certsrv_ienumcertviewattribute_getname, certview/IEnumCERTVIEWATTRIBUTE::GetName, security.ienumcertviewattribute_getname
-f1_keywords:
-- certview/IEnumCERTVIEWATTRIBUTE.GetName
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IEnumCERTVIEWATTRIBUTE.GetName
-- IEnumCERTVIEWATTRIBUTE.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCERTVIEWATTRIBUTE::GetName
+ - certview/IEnumCERTVIEWATTRIBUTE::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IEnumCERTVIEWATTRIBUTE.GetName
+ - IEnumCERTVIEWATTRIBUTE.GetName
 ---
 
 # IEnumCERTVIEWATTRIBUTE::GetName
@@ -50,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetName</b> method retrieves the name of the current attribute in the attribute-enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param pstrOut [out]
 
 A pointer to a variable of <b>BSTR</b> type that contains the name of the attribute.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and the <i>pstrOut</i> parameter contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a>.
@@ -78,12 +71,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is a <b>String</b> that contains the name of the attribute.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to retrieve the name of the attribute currently referenced by the 
 attribute-enumeration sequence.
@@ -117,14 +105,7 @@ if (NULL != bstrAttribName)
     SysFreeString(bstrAttribName);
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a>
 
@@ -143,7 +124,4 @@ if (NULL != bstrAttribName)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewattribute-skip">IEnumCERTVIEWATTRIBUTE::Skip</a>
- 
-
- 
 

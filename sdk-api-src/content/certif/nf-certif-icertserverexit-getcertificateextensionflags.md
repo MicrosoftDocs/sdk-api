@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerExit object, GetCertificateExtensionFlags method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtensionFlags method, ICertServerExit.GetCertificateExtensionFlags, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
-f1_keywords:
-- certif/ICertServerExit.GetCertificateExtensionFlags
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerExit.GetCertificateExtensionFlags
-- CCertServerExit.GetCertificateExtensionFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerExit::GetCertificateExtensionFlags
+ - certif/ICertServerExit::GetCertificateExtensionFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerExit.GetCertificateExtensionFlags
+ - CCertServerExit.GetCertificateExtensionFlags
 ---
 
 # ICertServerExit::GetCertificateExtensionFlags
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCertificateExtensionFlags</b> method gets the flags from the extension acquired by the most recent call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">ICertServerExit::GetCertificateExtension</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param pExtFlags [out]
 
 A pointer to a <b>LONG</b> variable that will contain the extension flags.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and *<i>pExtFlags</i> is set to the variable that contains the flags from the extension acquired by the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">ICertServerExit::GetCertificateExtension</a>.
@@ -77,12 +70,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 <h3>VB</h3>
  The return value is the flags from the extension acquired by the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextension">ICertServerExit::GetCertificateExtension</a>.
 
-
-
-
 ## -remarks
-
-
 
 There are two kinds of flags used in extensions: policy flags and origin flags.<table>
 <tr>
@@ -236,14 +224,7 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>CCertServerExit</b>
 
@@ -262,7 +243,4 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">IEnumCERTVIEWEXTENSION::GetFlags</a>
- 
-
- 
 

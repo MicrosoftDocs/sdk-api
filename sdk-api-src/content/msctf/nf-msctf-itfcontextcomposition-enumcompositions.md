@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 230daf27-2655-4d67-b183-cd0f0c855298
 ms.date: 12/05/2018
 ms.keywords: EnumCompositions, EnumCompositions method [Text Services Framework], EnumCompositions method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],EnumCompositions method, ITfContextComposition.EnumCompositions, ITfContextComposition::EnumCompositions, _tsf_itfcontextcomposition_enumcompositions_ref, msctf/ITfContextComposition::EnumCompositions, tsf.itfcontextcomposition_enumcompositions
-f1_keywords:
-- msctf/ITfContextComposition.EnumCompositions
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfContextComposition.EnumCompositions
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextComposition::EnumCompositions
+ - msctf/ITfContextComposition::EnumCompositions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfContextComposition.EnumCompositions
 ---
 
 # ITfContextComposition::EnumCompositions
@@ -53,17 +54,11 @@ Creates an enumerator object that contains all compositions in the context.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the enumerator object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,11 +123,8 @@ The context object is not on a document stack.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md)
+

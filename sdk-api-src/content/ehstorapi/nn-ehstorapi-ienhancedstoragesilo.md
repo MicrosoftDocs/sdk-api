@@ -8,10 +8,6 @@ tech.root: enstor
 ms.assetid: 041e66d2-f772-407d-85f7-71f226c7ec4b
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], IEnhancedStorageSilo interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSilo, enstor.ienhancedstoragesilo
-f1_keywords:
-- ehstorapi/IEnhancedStorageSilo
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageSilo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageSilo
+ - ehstorapi/IEnhancedStorageSilo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageSilo
 ---
 
 # IEnhancedStorageSilo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnhancedStorageSilo</b> interface is the point of access for an IEEE 1667 silo and is used to obtain information and perform operations at the silo level.
-
 
 ## -inheritance
 
@@ -113,5 +112,5 @@ Sends a raw silo command to the silo object. This method is used to communicate 
 
 </td>
 </tr>
-</table> 
+</table>
 

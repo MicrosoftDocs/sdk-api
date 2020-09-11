@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 2b8b2021-8650-452d-a975-54249620d72f
 ms.date: 12/05/2018
 ms.keywords: '*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Files], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Files], _win32_disk_geometry_ex_str, base.disk_geometry_ex_str, fs.disk_geometry_ex_str, winioctl/DISK_GEOMETRY_EX, winioctl/PDISK_GEOMETRY_EX'
-f1_keywords:
-- winioctl/DISK_GEOMETRY_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DISK_GEOMETRY_EX
 targetos: Windows
 req.typenames: DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX
 req.redist: 
+f1_keywords:
+ - _DISK_GEOMETRY_EX
+ - winioctl/_DISK_GEOMETRY_EX
+ - PDISK_GEOMETRY_EX
+ - winioctl/PDISK_GEOMETRY_EX
+ - DISK_GEOMETRY_EX
+ - winioctl/DISK_GEOMETRY_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DISK_GEOMETRY_EX
 ---
 
 # DISK_GEOMETRY_EX structure
+
 
 ## -description
 
@@ -86,3 +92,4 @@ The information returned does not include the number of partitions nor the parti
 ## -see-also
 
 [DISK_GEOMETRY](ns-winioctl-disk_geometry.md), [DISK_DETECTION_INFO](ns-winioctl-disk_detection_info.md), [DISK_PARTITION_INFO](ns-winioctl-disk_partition_info.md), [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](ni-winioctl-ioctl_disk_get_drive_geometry_ex.md)
+

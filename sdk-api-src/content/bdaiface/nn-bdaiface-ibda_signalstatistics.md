@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: ee8b25d5-d39b-42ac-9f6a-0825e396241c
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], IBDA_SignalStatistics interface [Microsoft TV Technologies],described, IBDA_SignalStatisticsInterface, bdaiface/IBDA_SignalStatistics, mstv.ibda_signalstatistics
-f1_keywords:
-- bdaiface/IBDA_SignalStatistics
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_SignalStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_SignalStatistics
+ - bdaiface/IBDA_SignalStatistics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_SignalStatistics
 ---
 
 # IBDA_SignalStatistics interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IBDA_SignalStatistics</b> interface is implemented on a BDA device filter and provides methods by which the filter can describe the condition of a signal that is being received.
-
-
-
 
 ## -inheritance
 
@@ -161,25 +157,13 @@ Specifies the strength of the signal in decibels.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_SignalStatistics)</code>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
- 
-
- 
 

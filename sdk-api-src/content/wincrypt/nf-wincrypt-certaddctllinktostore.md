@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: c129aeae-69d9-440a-979d-e9e481c64538
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCTLLinkToStore, CertAddCTLLinkToStore function [Security], _crypto2_certaddctllinktostore, security.certaddctllinktostore, wincrypt/CertAddCTLLinkToStore
-f1_keywords:
-- wincrypt/CertAddCTLLinkToStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertAddCTLLinkToStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertAddCTLLinkToStore
+ - wincrypt/CertAddCTLLinkToStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertAddCTLLinkToStore
 ---
 
 # CertAddCTLLinkToStore function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertAddCTLLinkToStore</b> function adds a link in a store to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> in a different store. Instead of creating and adding a duplicate of a CTL context, this function adds a link to the original CTL context.
 
-
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of the certificate store where the link is to be added.
 
-
 ### -param pCtlContext [in]
 
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure to be linked.
-
 
 ### -param dwAddDisposition [in]
 
@@ -158,18 +152,13 @@ If a matching CTL or a link to a matching CTL does not exist, a new CTL is added
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppStoreContext [out, optional]
 
 A pointer to a pointer to a copy of the link created. <i>ppStoreContext</i> can be <b>NULL</b> to indicate that a copy of the link is not needed. If a copy of the link is created, that copy must be freed using 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -204,14 +193,8 @@ The add disposition specified by the <i>dwAddDisposition</i> parameter is not va
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because the link provides access to the original <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> context, setting an extended property in the linked CTL context changes that extended property in the original CTL's location and in any other links to that CTL.
 
@@ -225,13 +208,7 @@ When links are used and
 
 To remove the CTL context link from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletectlfromstore">CertDeleteCTLFromStore</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcrllinktostore">CertAddCRLLinkToStore</a>
 
@@ -254,7 +231,4 @@ To remove the CTL context link from the certificate store, use the  <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
- 
-
- 
 

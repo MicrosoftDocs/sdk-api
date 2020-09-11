@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 41ba60f7-d621-478a-a24a-202d326ebf2c
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE, PVSS_FILE_SPEC_BACKUP_TYPE enumeration pointer [VSS], VSS_FILE_SPEC_BACKUP_TYPE, VSS_FILE_SPEC_BACKUP_TYPE enumeration [VSS], VSS_FSBT_ALL_BACKUP_REQUIRED, VSS_FSBT_ALL_SNAPSHOT_REQUIRED, VSS_FSBT_CREATED_DURING_BACKUP, VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, VSS_FSBT_FULL_BACKUP_REQUIRED, VSS_FSBT_FULL_SNAPSHOT_REQUIRED, VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, VSS_FSBT_LOG_BACKUP_REQUIRED, VSS_FSBT_LOG_SNAPSHOT_REQUIRED, _win32_vss_file_spec_backup_type, base.vss_file_spec_backup_type, vss/PVSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FILE_SPEC_BACKUP_TYPE, vss/VSS_FSBT_ALL_BACKUP_REQUIRED, vss/VSS_FSBT_ALL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_CREATED_DURING_BACKUP, vss/VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED, vss/VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_FULL_BACKUP_REQUIRED, vss/VSS_FSBT_FULL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED, vss/VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED, vss/VSS_FSBT_LOG_BACKUP_REQUIRED, vss/VSS_FSBT_LOG_SNAPSHOT_REQUIRED'
-f1_keywords:
-- vss/VSS_FILE_SPEC_BACKUP_TYPE
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vss.h
-api_name:
-- VSS_FILE_SPEC_BACKUP_TYPE
 targetos: Windows
 req.typenames: VSS_FILE_SPEC_BACKUP_TYPE, *PVSS_FILE_SPEC_BACKUP_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VSS_FILE_SPEC_BACKUP_TYPE
+ - vss/_VSS_FILE_SPEC_BACKUP_TYPE
+ - PVSS_FILE_SPEC_BACKUP_TYPE
+ - vss/PVSS_FILE_SPEC_BACKUP_TYPE
+ - VSS_FILE_SPEC_BACKUP_TYPE
+ - vss/VSS_FILE_SPEC_BACKUP_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vss.h
+api_name:
+ - VSS_FILE_SPEC_BACKUP_TYPE
 ---
 
 # VSS_FILE_SPEC_BACKUP_TYPE enumeration
 
 
 ## -description
-
 
 The <b>VSS_FILE_SPEC_BACKUP_TYPE</b> enumeration is 
     used by writers to indicate their support of certain backup 
@@ -66,9 +70,6 @@ File sets stored in the Writer Metadata Document are tagged with a bit mask (or 
 
 ## -enum-fields
 
-
-
-
 ### -field VSS_FSBT_FULL_BACKUP_REQUIRED
 
 A file set tagged with this value must be involved in all types of backup operations. 
@@ -79,7 +80,6 @@ A writer tags a file set with this value to indicate to the requester that it ex
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
 
-
 ### -field VSS_FSBT_DIFFERENTIAL_BACKUP_REQUIRED
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
@@ -88,7 +88,6 @@ A writer tags a file set with this value to indicate to the requester that it ex
       <b>VSS_BT_DIFFERENTIAL</b>.
 
 This value is not supported for express writers.
-
 
 ### -field VSS_FSBT_INCREMENTAL_BACKUP_REQUIRED
 
@@ -99,7 +98,6 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 This value is not supported for express writers.
 
-
 ### -field VSS_FSBT_LOG_BACKUP_REQUIRED
 
 A writer tags a file set with this value to indicate to the requester that it expects a copy of the current 
@@ -109,14 +107,12 @@ A writer tags a file set with this value to indicate to the requester that it ex
 
 This value is not supported for express writers.
 
-
 ### -field VSS_FSBT_FULL_SNAPSHOT_REQUIRED
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_FULL</b>.
-
 
 ### -field VSS_FSBT_DIFFERENTIAL_SNAPSHOT_REQUIRED
 
@@ -125,14 +121,12 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_DIFFERENTIAL</b>.
 
-
 ### -field VSS_FSBT_INCREMENTAL_SNAPSHOT_REQUIRED
 
 A file set tagged with this value must be backed up from a shadow copy of a volume (and never from the 
       original volume) when participating in a backup operation with a 
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_INCREMENTAL</b>.
-
 
 ### -field VSS_FSBT_LOG_SNAPSHOT_REQUIRED
 
@@ -141,27 +135,21 @@ A file set tagged with this value must be backed up from a shadow copy of a volu
       <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> of 
       <b>VSS_BT_LOG</b>).
 
-
 ### -field VSS_FSBT_CREATED_DURING_BACKUP
 
 A writer tags a file set with this value to indicate to the requester that they expect the file to be created during the snapshot sequence.
-
 
 ### -field VSS_FSBT_ALL_BACKUP_REQUIRED
 
 The default file backup specification type. A file set tagged with this value must always participate in 
       backup and restore operations.
 
-
 ### -field VSS_FSBT_ALL_SNAPSHOT_REQUIRED
 
 The shadow copy requirement for backup. A file set tagged with this value must always be backed up from a 
       shadow copy of a volume (and never from the original volume) when participating in a backup operation.
 
-
 ## -remarks
-
-
 
 When a writer sets a backup-required value of the 
     <b>VSS_FILE_SPEC_BACKUP_TYPE</b> enumeration, it is 
@@ -208,13 +196,7 @@ Requesters or writers can recover a file set's file specification backup type by
     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getbackuptypemask">IVssWMFiledesc::GetBackupTypeMask</a> 
     method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 
@@ -241,7 +223,4 @@ Requesters or writers can recover a file set's file specification backup type by
 
 
 <a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
- 
-
- 
 

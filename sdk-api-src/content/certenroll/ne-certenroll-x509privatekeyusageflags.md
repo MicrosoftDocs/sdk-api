@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 831c4c07-dc26-420a-ac04-d96248f3fad2
 ms.date: 12/05/2018
 ms.keywords: X509PrivateKeyUsageFlags, X509PrivateKeyUsageFlags enumeration [Security], XCN_NCRYPT_ALLOW_ALL_USAGES, XCN_NCRYPT_ALLOW_DECRYPT_FLAG, XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG, XCN_NCRYPT_ALLOW_SIGNING_FLAG, XCN_NCRYPT_ALLOW_USAGES_NONE, certenroll/X509PrivateKeyUsageFlags, certenroll/XCN_NCRYPT_ALLOW_ALL_USAGES, certenroll/XCN_NCRYPT_ALLOW_DECRYPT_FLAG, certenroll/XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG, certenroll/XCN_NCRYPT_ALLOW_SIGNING_FLAG, certenroll/XCN_NCRYPT_ALLOW_USAGES_NONE, security.x509privatekeyusageflags
-f1_keywords:
-- certenroll/X509PrivateKeyUsageFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- X509PrivateKeyUsageFlags
 targetos: Windows
 req.typenames: X509PrivateKeyUsageFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X509PrivateKeyUsageFlags
+ - certenroll/X509PrivateKeyUsageFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - X509PrivateKeyUsageFlags
 ---
 
 # X509PrivateKeyUsageFlags enumeration
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>X509PrivateKeyUsageFlags</b> enumeration specifies the permitted uses of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. It is the responsibility of the cryptographic provider. The enumeration value can be set and retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
 
-
 ## -enum-fields
-
-
-
 
 ### -field XCN_NCRYPT_ALLOW_USAGES_NONE
 
 The permitted uses are not defined.
-
 
 ### -field XCN_NCRYPT_ALLOW_DECRYPT_FLAG
 
@@ -88,19 +83,13 @@ The key can be used for signing. This maps to the following <a href="https://doc
 
 The key can be used to establish key agreement between entities.
 
-
 ### -field XCN_NCRYPT_ALLOW_KEY_IMPORT_FLAG
-
 
 ### -field XCN_NCRYPT_ALLOW_ALL_USAGES
 
 All of the uses defined for this enumeration are permitted.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
@@ -111,7 +100,4 @@ All of the uses defined for this enumeration are permitted.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
 

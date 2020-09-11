@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: dc68eddb-7991-42bd-bc0e-4f5d890ca468
 ms.date: 12/05/2018
 ms.keywords: ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ, GetStatusObject, GetStatusObject method [Windows Management Instrumentation], GetStatusObject method [Windows Management Instrumentation],MethodContext interface, MethodContext interface [Windows Management Instrumentation],GetStatusObject method, MethodContext.GetStatusObject, MethodContext::GetStatusObject, methodco/MethodContext::GetStatusObject, wmi.methodcontext_getstatusobject
-f1_keywords:
-- methodco/MethodContext.GetStatusObject
-dev_langs:
-- c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- framedynos.dll
-api_name:
-- MethodContext.GetStatusObject
-- ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MethodContext::GetStatusObject
+ - methodco/MethodContext::GetStatusObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - framedynos.dll
+api_name:
+ - MethodContext.GetStatusObject
+ - ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ
 ---
 
 ## -description
@@ -64,3 +65,4 @@ A pointer to the **IWbemClassObject** information.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/methodco/nl-methodco-methodcontext">MethodContext</a>
+

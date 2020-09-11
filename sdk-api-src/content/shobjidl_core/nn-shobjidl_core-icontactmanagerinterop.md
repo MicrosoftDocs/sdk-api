@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.date: 12/05/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
-f1_keywords:
-- shobjidl_core/IContactManagerInterop
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IContactManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactManagerInterop
+ - shobjidl_core/IContactManagerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IContactManagerInterop
 ---
 
 # IContactManagerInterop interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables access to <b>ContactManager</b> methods in an app that manages multiple windows.
-
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Displays the UI for a contact on the specified window.
 
 </td>
 </tr>
-</table> 
+</table>
 

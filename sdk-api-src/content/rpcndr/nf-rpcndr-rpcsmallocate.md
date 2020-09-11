@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: ca3373fa-8ea4-452e-b2a2-f30eb48fef9d
 ms.date: 12/05/2018
 ms.keywords: RpcSmAllocate, RpcSmAllocate function [RPC], _rpc_rpcsmallocate, rpc.rpcsmallocate, rpcndr/RpcSmAllocate
-f1_keywords:
-- rpcndr/RpcSmAllocate
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSmAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSmAllocate
+ - rpcndr/RpcSmAllocate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSmAllocate
 ---
 
 # RpcSmAllocate function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSmAllocate</b> function allocates memory within the RPC stub memory management function and returns a pointer to the allocated memory or <b>NULL</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param Size
 
 Size of memory to allocate, in bytes.
 
-
 ### -param pStatus
 
 Pointer to the returned status.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -107,11 +99,7 @@ The system is out of memory.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcSmAllocate</b> routine allows an application to allocate memory within the RPC stub memory–management environment. Prior to calling 
@@ -140,13 +128,7 @@ To manage the same memory within the stub memory–management environment, multi
 For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
 
@@ -165,7 +147,4 @@ For more information, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>
- 
-
- 
 

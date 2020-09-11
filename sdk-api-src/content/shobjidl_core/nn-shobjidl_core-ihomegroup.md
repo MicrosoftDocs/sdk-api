@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
-f1_keywords:
-- shobjidl_core/IHomeGroup
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Provsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Provsvc.dll
-api_name:
-- IHomeGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHomeGroup
+ - shobjidl_core/IHomeGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Provsvc.dll
+api_name:
+ - IHomeGroup
 ---
 
 # IHomeGroup interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
-
 
 ## -inheritance
 
@@ -86,12 +85,9 @@ Displays a wizard that allows a user to create a Home Group, and then retrieves 
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Custom implementations of <b>IHomeGroup</b> are not supported; client applications use the implementation provided in Provsvc.dll.
@@ -102,6 +98,4 @@ Use <b>IHomeGroup</b> when there is a need to determine the local computer's Hom
 
 
 To create an instance of <b>IHomeGroup</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> and specify <b>CLSID_HomeGroup</b> as the CLSID. <b>CLSID_HomeGroup</b> is defined in Shobjidl.h and Shobjidl.idl.
-
-
 

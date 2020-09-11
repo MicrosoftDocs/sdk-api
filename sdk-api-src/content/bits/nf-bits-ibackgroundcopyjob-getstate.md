@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetState method, IBackgroundCopyJob.GetState, IBackgroundCopyJob::GetState, _drz_ibackgroundcopyjob_getstate, bits.ibackgroundcopyjob_getstate, bits/IBackgroundCopyJob::GetState
-f1_keywords:
-- bits/IBackgroundCopyJob.GetState
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::GetState
+ - bits/IBackgroundCopyJob::GetState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.GetState
 ---
 
 # IBackgroundCopyJob::GetState
+
 
 ## -description
 
@@ -102,3 +104,4 @@ See the example code for the [IBackgroundCopyManager::GetJob](/windows/win32/api
 ## -see-also
 
 [BG_JOB_STATE](/windows/desktop/api/bits/ne-bits-bg_job_state), [Determining the status of a job](/windows/desktop/Bits/determining-the-status-of-a-job), [IBackgroundCopyCallback](/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback)
+

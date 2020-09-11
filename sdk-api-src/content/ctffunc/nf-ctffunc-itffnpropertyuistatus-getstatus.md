@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: aef8c1b4-3cda-4fa3-ae8c-a8f8da4840b5
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, ITfFnPropertyUIStatus interface [Text Services Framework],GetStatus method, ITfFnPropertyUIStatus.GetStatus, ITfFnPropertyUIStatus::GetStatus, TF_PROPUI_STATUS_SAVETOFILE, _tsf_itffnpropertyuistatus_getstatus_ref, ctffunc/ITfFnPropertyUIStatus::GetStatus, tsf.itffnpropertyuistatus_getstatus
-f1_keywords:
-- ctffunc/ITfFnPropertyUIStatus.GetStatus
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfFnPropertyUIStatus.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnPropertyUIStatus::GetStatus
+ - ctffunc/ITfFnPropertyUIStatus::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfFnPropertyUIStatus.GetStatus
 ---
 
 # ITfFnPropertyUIStatus::GetStatus
@@ -53,13 +54,9 @@ Obtains the status of a text service property UI.
 
 ## -parameters
 
-
-
-
 ### -param refguidProp [in]
 
 Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property</a> identifiers.
-
 
 ### -param pdw [out]
 
@@ -81,12 +78,8 @@ The property can be serialized. If this value is not present, the property canno
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,15 +122,8 @@ The text service does not support this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnpropertyuistatus">ITfFnPropertyUIStatus</a>
 
@@ -145,7 +131,4 @@ The text service does not support this method.
 
 <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
- 
-
- 
 

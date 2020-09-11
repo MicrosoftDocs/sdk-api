@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer
-f1_keywords:
-- tapi/lineBlindTransfer
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineBlindTransfer
-- lineBlindTransferA
-- lineBlindTransferW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineBlindTransfer
+ - tapi/lineBlindTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineBlindTransfer
+ - lineBlindTransferA
+ - lineBlindTransferW
 ---
 
 # lineBlindTransfer function
@@ -51,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineBlindTransfer</b> function performs a blind or single-step transfer of the specified call to the specified destination address.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call to be transferred. The application must be an owner of this call. The call state of <i>hCall</i> must be <i>connected</i>.
 
-
 ### -param lpszDestAddress
 
 TBD
-
 
 ### -param dwCountryCode
 
@@ -80,22 +74,14 @@ Country or region code of the destination. This is used by the implementation to
 
 Pointer to a null-terminated string identifying where the call is to be transferred to. The destination address uses the standard dialable number format.
 
-
 ## -returns
-
-
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_INVALCOUNTRYCODE, LINEERR_INVALCALLSTATE, LINEERR_INVALPOINTER, LINEERR_NOMEM, LINEERR_OPERATIONUNAVAIL, LINEERR_NOTOWNER, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALADDRESS, LINEERR_UNINITIALIZED, LINEERR_ADDRESSBLOCKED, LINEERR_OPERATIONFAILED.
 
-
-
-
 ## -remarks
-
-
 
 If LINEERR_INVALADDRESS is returned, no dialing occurs.
 
@@ -104,13 +90,7 @@ Blind transfer differs from a consultation transfer in that no consultation call
 The application's call handle remains valid after the transfer has completed. The application must deallocate its handle using 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a> when it is no longer interested in the transferred call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
@@ -129,7 +109,4 @@ The application's call handle remains valid after the transfer has completed. Th
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a>
- 
-
- 
 

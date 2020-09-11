@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_type.htm
 ms.date: 12/05/2018
 ms.keywords: UI_VIEWTYPE, UI_VIEWTYPE enumeration [Windows Ribbon], UI_VIEWTYPE_RIBBON, scenicintent_UI_VIEWTYPE, uiribbon/UI_VIEWTYPE, uiribbon/UI_VIEWTYPE_RIBBON, windowsribbon.windowsribbon_ui_viewtype
-f1_keywords:
-- uiribbon/UI_VIEWTYPE
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_VIEWTYPE
 targetos: Windows
 req.typenames: UI_VIEWTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_VIEWTYPE
+ - uiribbon/UI_VIEWTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_VIEWTYPE
 ---
 
 # UI_VIEWTYPE enumeration
@@ -49,27 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies values that identify the Ribbon framework View.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UI_VIEWTYPE_RIBBON
 
 A Ribbon View.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
- 
-
- 
 

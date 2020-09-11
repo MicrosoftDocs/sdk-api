@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 697f8247-6940-4b5e-8521-df89838837be
 ms.date: 12/05/2018
 ms.keywords: DWriteEngine2Events, DWriteEngine2Events interface [IMAPI], DWriteEngine2Events interface [IMAPI],described, imapi.dwriteengine2events, imapi2/DWriteEngine2Events
-f1_keywords:
-- imapi2/DWriteEngine2Events
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- DWriteEngine2Events
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWriteEngine2Events
+ - imapi2/DWriteEngine2Events
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - DWriteEngine2Events
 ---
 
 # DWriteEngine2Events interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Implement this interface to receive notifications of the current write operation.  
-
+Implement this interface to receive notifications of the current write operation.
 
 ## -inheritance
 
@@ -77,5 +76,5 @@ Implement this method to receive progress notification of the current write oper
 
 </td>
 </tr>
-</table> 
+</table>
 

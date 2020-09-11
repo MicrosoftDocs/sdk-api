@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
-f1_keywords:
-- mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 targetos: Windows
 req.typenames: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+ - mfidl/_MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+ - MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+ - mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 ---
 
 # MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure
@@ -49,45 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the data you received as output from a protection system function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PrivateDataByteCount
 
 The size of the private data that the implementation of the security processor reserves, in bytes. You can determine this value  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
 
-
 ### -field MaxHWProtectionDataByteCount
 
 The maximum size of data that the independent hardware vendor (IHV) can return in the output buffer, in bytes.
-
 
 ### -field HWProtectionDataByteCount
 
 The size of the data that the  IHV wrote to the output buffer, in bytes.
 
-
 ### -field Status
 
 The result of the protection system function.
 
-
 ### -field TransportTimeInHundredsOfNanoseconds
 
-The number of 100 nanosecond units spent transporting the data.   
-
+The number of 100 nanosecond units spent transporting the data.
 
 ### -field ExecutionTimeInHundredsOfNanoseconds
 
-The number of 100 nanosecond units spent running the protection system function.  
-
-
+The number of 100 nanosecond units spent running the protection system function.
 
 ### -field OutputData
 
@@ -100,11 +91,7 @@ If the value of the <b>PrivateDataByteCount</b> member is greater than 0, bytes 
 The protection system specification defines the format and size of the   
     function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
 
@@ -119,7 +106,4 @@ The protection system specification defines the format and size of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
 

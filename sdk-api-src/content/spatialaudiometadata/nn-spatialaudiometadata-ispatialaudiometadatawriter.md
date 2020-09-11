@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: F8CD8B79-9442-46D0-ABF5-5F6734474B01
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], ISpatialAudioMetadataWriter interface [Core Audio],described, coreaudio.ispatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataWriter
-f1_keywords:
-- spatialaudiometadata/ISpatialAudioMetadataWriter
-dev_langs:
-- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialAudioMetadata.h
-api_name:
-- ISpatialAudioMetadataWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioMetadataWriter
+ - spatialaudiometadata/ISpatialAudioMetadataWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialAudioMetadata.h
+api_name:
+ - ISpatialAudioMetadataWriter
 ---
 
 # ISpatialAudioMetadataWriter interface
 
 
 ## -description
-
 
 Provides methods for storing spatial audio metadata items
 positioned within a range of corresponding audio frames.  Each metadata item has a zero-based 
@@ -59,7 +59,6 @@ Multiple metadata items can be placed in the <a href="https://docs.microsoft.com
 call <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-writenextitem">WriteNextItem</a> followed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatawriter-writenextitemcommand">WriteNextItemCommand</a>.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
-
 
 ## -inheritance
 
@@ -112,5 +111,5 @@ Writes metadata commands and value data to the current item.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8ef520d9-f6d4-46fd-8e91-c2113ea8eb20
 ms.date: 12/05/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, CheckSignature, CheckSignature method [Security], CheckSignature method [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],CheckSignature method, IX509CertificateRequestPkcs10.CheckSignature, IX509CertificateRequestPkcs10::CheckSignature, certenroll/IX509CertificateRequestPkcs10::CheckSignature, security.ix509certificaterequestpkcs10_checksignature_method
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.CheckSignature
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.CheckSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::CheckSignature
+ - certenroll/IX509CertificateRequestPkcs10::CheckSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.CheckSignature
 ---
 
 # IX509CertificateRequestPkcs10::CheckSignature
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CheckSignature</b> method verifies that the certificate request has been signed and that the signature is valid.
 
-
 ## -parameters
-
-
-
 
 ### -param AllowedSignatureTypes [in]
 
@@ -90,12 +86,8 @@ Null-signed signatures are permitted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
@@ -140,27 +132,12 @@ The value specified by the <i>AllowedSignatureTypes</i> parameter is not a membe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method uses the public key to decrypt the signature and compares the signature to a hash of the certificate request.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
 

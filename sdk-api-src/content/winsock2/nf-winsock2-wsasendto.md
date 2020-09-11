@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: e3a11522-871c-4d6b-a2e6-ca91ffc2b698
 ms.date: 12/05/2018
 ms.keywords: WSASendTo, WSASendTo function [Winsock], _win32_wsasendto_2, winsock.wsasendto_2, winsock2/WSASendTo
-f1_keywords:
-- winsock2/WSASendTo
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASendTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASendTo
+ - winsock2/WSASendTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASendTo
 ---
 
 # WSASendTo function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSASendTo</b> function sends data to a specific destination, using overlapped I/O where applicable.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a (possibly connected) socket.
-
 
 ### -param lpBuffers [in]
 
@@ -71,12 +66,10 @@ A pointer to an array of
 <b>WSABUF</b> structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the 
 <b>WSASendTo</b> function is called, the system owns these buffers and the application may not access them. This array must remain valid for the duration of the send operation.
 
-
 ### -param dwBufferCount [in]
 
 The number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
-
 
 ### -param lpNumberOfBytesSent [out]
 
@@ -84,38 +77,30 @@ A pointer to the number of bytes sent by this call if the I/O operation complete
 
 Use <b>NULL</b> for this parameter if the <i>lpOverlapped</i> parameter is not <b>NULL</b> to avoid potentially erroneous results. This parameter can be <b>NULL</b> only  if the <i>lpOverlapped</i> parameter is not <b>NULL</b>.
 
-
 ### -param dwFlags [in]
 
 The flags  used to modify the behavior of the 
 <b>WSASendTo</b> function call.
-
 
 ### -param lpTo [in]
 
 An optional pointer to the address of the target socket in the 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure.
 
-
 ### -param iTolen [in]
 
 The size, in bytes, of the address in the <i>lpTo</i> parameter.
-
 
 ### -param lpOverlapped [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure (ignored for nonoverlapped sockets).
 
-
 ### -param lpCompletionRoutine [in]
 
 A pointer to the completion routine called when the send operation has been completed (ignored for nonoverlapped sockets).
 
-
 ## -returns
-
-
 
 If no error occurs and the send operation has completed immediately, 
 <b>WSASendTo</b> returns zero. In this case, the completion routine will have already been scheduled to be called once the calling thread is in the alertable state. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
@@ -377,14 +362,8 @@ The overlapped operation has been canceled due to the closure of the socket, or 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSASendTo</b> function provides enhanced features over the standard 
@@ -698,13 +677,7 @@ int __cdecl main(int argc, char **argv)
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
 
@@ -731,7 +704,4 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
 

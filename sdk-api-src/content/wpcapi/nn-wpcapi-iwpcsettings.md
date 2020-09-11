@@ -8,10 +8,6 @@ tech.root: parcon
 ms.assetid: 92ae8611-fbb4-470e-8a48-395defaef904
 ms.date: 12/05/2018
 ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface,described, parcon.iwpcsettings, wpcapi/IWPCSettings
-f1_keywords:
-- wpcapi/IWPCSettings
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCSettings
+ - wpcapi/IWPCSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCSettings
 ---
 
 # IWPCSettings interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Accesses general settings for the user.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Determines whether activity logging should be performed when obtaining the <b>IW
 
 </td>
 </tr>
-</table> 
+</table>
 

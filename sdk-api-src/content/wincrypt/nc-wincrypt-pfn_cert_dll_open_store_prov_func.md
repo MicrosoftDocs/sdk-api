@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 2fe291dd-23e2-49df-b9e4-a4ed29667123
 ms.date: 12/05/2018
 ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertDllOpenStoreProv, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC callback, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC callback function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certdllopenstoreprov, security.certdllopenstoreprov, wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
-f1_keywords:
-- wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
+ - wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 ---
 
 # PFN_CERT_DLL_OPEN_STORE_PROV_FUNC callback function
@@ -49,16 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertDllOpenStoreProv</b> function is implemented by a store-provider and is used to open a store. This function is called by 
 the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
 <div class="alert"><b>Note</b>  The first five parameters are identical to the matching parameters in 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpszStoreProvider [in]
 
@@ -380,10 +377,6 @@ Not currently used.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param dwEncodingType [in]
 
@@ -424,13 +417,10 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hCryptProv [in]
 
 A handle to a cryptographic provider. This parameter can be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -790,19 +780,15 @@ Use this flag with the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag to cause the LDAP
 </td>
 </tr>
 </table>
- 
-
 
 ### -param *pvPara [in]
 
 A 32-bit value that can contain additional information for this function. The contents of this parameter depends on the value of the <i>lpszStoreProvider</i> and other parameters.
 
-
 ### -param hCertStore [in]
 
 The handle of the store in memory that has been opened and can be used to make calls to other store-related API calls, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore">CertAddSerializedElementToStore</a>.
-
 
 ### -param pStoreProvInfo [in, out]
 
@@ -812,20 +798,11 @@ A pointer to the
 The <b>cStoreProvFunc</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a> structure is the count of callback functions that are implemented and should be set last. After <b>cStoreProvFunc</b> is set, all subsequent store calls, such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a>, will call the appropriate provider callback function.
 
-
 ## -returns
-
-
 
 <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_store_prov_info">CERT_STORE_PROV_INFO</a>
 
@@ -840,7 +817,4 @@ The <b>cStoreProvFunc</b>  member of the <a href="https://docs.microsoft.com/win
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
- 
-
- 
 

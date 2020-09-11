@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setstateimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: Header_SetStateImageList, Header_SetStateImageList macro [Windows Controls], _win32_Header_SetStateImageList, _win32_Header_SetStateImageList_cpp, commctrl/Header_SetStateImageList, controls.Header_SetStateImageList, controls._win32_Header_SetStateImageList
-f1_keywords:
-- commctrl/Header_SetStateImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Header_SetStateImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Header_SetStateImageList
+ - commctrl/Header_SetStateImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Header_SetStateImageList
 ---
 
 # Header_SetStateImageList macro
@@ -49,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns an image list to an existing header control state.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a header control. 
-
+A handle to a header control.
 
 ### -param himl
 
 Type: <b>HIMAGELIST</b>
 
-A handle to an image list control. 
+A handle to an image list control.
 

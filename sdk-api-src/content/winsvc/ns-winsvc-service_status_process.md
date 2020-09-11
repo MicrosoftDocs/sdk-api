@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 303986a0-c51e-4078-a3ca-d59e5a302b36
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_STATUS_PROCESS, LPSERVICE_STATUS_PROCESS, LPSERVICE_STATUS_PROCESS structure pointer, SERVICE_ACCEPT_HARDWAREPROFILECHANGE, SERVICE_ACCEPT_NETBINDCHANGE, SERVICE_ACCEPT_PARAMCHANGE, SERVICE_ACCEPT_PAUSE_CONTINUE, SERVICE_ACCEPT_POWEREVENT, SERVICE_ACCEPT_PRESHUTDOWN, SERVICE_ACCEPT_SESSIONCHANGE, SERVICE_ACCEPT_SHUTDOWN, SERVICE_ACCEPT_STOP, SERVICE_CONTINUE_PENDING, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_PAUSED, SERVICE_PAUSE_PENDING, SERVICE_RUNNING, SERVICE_RUNS_IN_SYSTEM_PROCESS, SERVICE_START_PENDING, SERVICE_STATUS_PROCESS, SERVICE_STATUS_PROCESS structure, SERVICE_STOPPED, SERVICE_STOP_PENDING, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_service_status_process_str, base.service_status_process_str, winsvc/LPSERVICE_STATUS_PROCESS, winsvc/SERVICE_STATUS_PROCESS'
-f1_keywords:
-- winsvc/SERVICE_STATUS_PROCESS
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_STATUS_PROCESS
 targetos: Windows
 req.typenames: SERVICE_STATUS_PROCESS, *LPSERVICE_STATUS_PROCESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_STATUS_PROCESS
+ - winsvc/_SERVICE_STATUS_PROCESS
+ - LPSERVICE_STATUS_PROCESS
+ - winsvc/LPSERVICE_STATUS_PROCESS
+ - SERVICE_STATUS_PROCESS
+ - winsvc/SERVICE_STATUS_PROCESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_STATUS_PROCESS
 ---
 
 # SERVICE_STATUS_PROCESS structure
@@ -49,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains process status information for a service. The 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>,  and 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> functions use this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwServiceType
 
@@ -141,8 +141,6 @@ For more information, see
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCurrentState
 
@@ -231,8 +229,6 @@ The service has stopped.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwControlsAccepted
 
@@ -394,34 +390,27 @@ This member can also contain the following extended control codes, which are sup
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwWin32ExitCode
 
 The error code that the service uses to report an error that occurs when it is starting or stopping. To return an error code specific to the service, the service must set this value to <b>ERROR_SERVICE_SPECIFIC_ERROR</b> to indicate that the <b>dwServiceSpecificExitCode</b> member contains the error code. The service should set this value to <b>NO_ERROR</b> when it is running and when it terminates normally.
 
-
 ### -field dwServiceSpecificExitCode
 
 The service-specific error code that the service returns when an error occurs while the service is starting or stopping. This value is ignored unless the <b>dwWin32ExitCode</b> member is set to <b>ERROR_SERVICE_SPECIFIC_ERROR</b>.
 
-
 ### -field dwCheckPoint
 
 The check-point value that the service increments periodically to report its progress during a lengthy start, stop, pause, or continue operation. For example, the service should increment this value as it completes each step of its initialization when it is starting up. The user interface program that invoked the operation on the service uses this value to track the progress of the service during a lengthy operation. This value is not valid and should be zero when the service does not have a start, stop, pause, or continue operation pending.
-
 
 ### -field dwWaitHint
 
 The estimated time required for a pending start, stop, pause, or continue operation, in milliseconds. Before the specified amount of time has elapsed, the service should make its next call to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function with either an incremented <b>dwCheckPoint</b> value or a change in <b>dwCurrentState</b>. If the amount of time specified by <b>dwWaitHint</b> passes, and <b>dwCheckPoint</b> has not been incremented or <b>dwCurrentState</b> has not changed, the service control manager or service control program can assume that an error has occurred and the service should be stopped. However, if the service shares a process with other services, the service control manager cannot terminate the service application because it would have to terminate the other services sharing the process as well.
 
-
 ### -field dwProcessId
 
 The process identifier of the service.
-
 
 ### -field dwServiceFlags
 
@@ -460,13 +449,8 @@ The service runs in a system process that must always be running.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
 
@@ -481,7 +465,4 @@ The service runs in a system process that must always be running.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
- 
-
- 
 

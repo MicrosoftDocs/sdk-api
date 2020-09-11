@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: d67a85e7-6dfc-4444-bb69-a46e1234d021
 ms.date: 12/05/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DrawingAttributes property, IDynamicRenderer.DrawingAttributes, IDynamicRenderer.get_DrawingAttributes, IDynamicRenderer.put_DrawingAttributes, IDynamicRenderer::DrawingAttributes, IDynamicRenderer::get_DrawingAttributes, IDynamicRenderer::put_DrawingAttributes, d67a85e7-6dfc-4444-bb69-a46e1234d021, get_DrawingAttributes, rtscom/IDynamicRenderer::DrawingAttributes, rtscom/IDynamicRenderer::get_DrawingAttributes, rtscom/IDynamicRenderer::put_DrawingAttributes, tablet.idynamicrenderer_drawingattributes
-f1_keywords:
-- rtscom/IDynamicRenderer.DrawingAttributes
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IDynamicRenderer.DrawingAttributes
-- IDynamicRenderer.get_DrawingAttributes
-- IDynamicRenderer.put_DrawingAttributes
-- IDynamicRenderer.get_DrawingAttributes
-- IDynamicRenderer.put_DrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDynamicRenderer::get_DrawingAttributes
+ - rtscom/IDynamicRenderer::get_DrawingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IDynamicRenderer.DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
 ---
 
 # IDynamicRenderer::get_DrawingAttributes
@@ -53,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the <b>DrawingAttributes</b> object used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Enables the caller to set or modify the drawing attributes for the next stroke. Device rendering should not use the dynamic renderer. The sole purpose of the dynamic renderer is to perform real time dynamic rendering as part of a user interface.
 
@@ -187,15 +182,8 @@ Width
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
@@ -206,7 +194,4 @@ Width
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
- 
-
- 
 

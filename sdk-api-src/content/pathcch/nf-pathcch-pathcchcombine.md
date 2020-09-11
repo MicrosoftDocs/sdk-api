@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05
 ms.date: 12/05/2018
 ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/PathCchCombine, shell.PathCchCombine
-f1_keywords:
-- pathcch/PathCchCombine
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchCombine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchCombine
+ - pathcch/PathCchCombine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchCombine
 ---
 
 # PathCchCombine function
@@ -61,29 +62,23 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div>
 
-
 ## -parameters
-
 
 ### -param pszPathOut [out]
 
 A pointer to a buffer that, when this function returns successfully, receives the combined path string. This parameter can point to the same buffer as <i>pszPathIn</i> or <i>pszMore</i>.
 
-
 ### -param cchPathOut [in]
 
 The size of the buffer pointed to by <i>pszPathOut</i>, in characters.
-
 
 ### -param pszPathIn [in, optional]
 
 A pointer to the first path string. This value can be <b>NULL</b>.
 
-
 ### -param pszMore [in, optional]
 
 A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualfied, it is copied directly to the output buffer without being combined with the other path. This value can be <b>NULL</b>.
-
 
 ## -returns
 
@@ -136,11 +131,9 @@ The size of one or both of the original paths exceeded <b>PATHCCH_MAX_CCH</b>.
 </tr>
 </table>
 
-
 ## -remarks
 
 If both <i>pszPathIn</i> and <i>pszMore</i> are <b>NULL</b> or point to empty strings, a single backslash is copied to the buffer pointed to by <i>pszPathOut</i>.
-
 
 ## -see-also
 

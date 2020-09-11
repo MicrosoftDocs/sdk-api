@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 67f418c8-184d-46f0-8939-69194c7e7a50
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format],described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink3
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmsdkidl.h
-api_name:
-- IWMWriterFileSink3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink3
+ - wmsdkidl/IWMWriterFileSink3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmsdkidl.h
+api_name:
+ - IWMWriterFileSink3
 ---
 
 # IWMWriterFileSink3 interface
@@ -49,12 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMWriterFileSink3</b> interface provides additional functionality to the file sink object. To obtain a pointer to this interface, call <b>QueryInterface</b> on the file sink object.
-
-
-
 
 ## -inheritance
 
@@ -163,13 +159,9 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </td>
 <td>IID_IWMWriterFileSink2</td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink Interface</a>
 
@@ -188,7 +180,4 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-file-sink-object">Writer File Sink Object</a>
- 
-
- 
 

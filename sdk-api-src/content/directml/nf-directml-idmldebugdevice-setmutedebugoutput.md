@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 74BA5FE6-1197-4BF0-A5FE-FAFE650C4C8E
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice interface,SetMuteDebugOutput method, IDMLDebugDevice.SetMuteDebugOutput, IDMLDebugDevice::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,IDMLDebugDevice interface, direct3d12.idmldebugdevice_setmutedebugoutput, directml/IDMLDebugDevice::SetMuteDebugOutput
-f1_keywords:
-- directml/IDMLDebugDevice.SetMuteDebugOutput
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectML.dll
-api_name:
-- IDMLDebugDevice.SetMuteDebugOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDMLDebugDevice::SetMuteDebugOutput
+ - directml/IDMLDebugDevice::SetMuteDebugOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectML.dll
+api_name:
+ - IDMLDebugDevice.SetMuteDebugOutput
 ---
 
 # IDMLDebugDevice::SetMuteDebugOutput
+
 
 ## -description
 
@@ -61,3 +63,4 @@ If <b>TRUE</b>, DirectML is muted, and it will not send messages to the <a href=
 ## -see-also
 
 [IDMLDebugDevice](/windows/desktop/api/directml/nn-directml-idmldebugdevice)
+

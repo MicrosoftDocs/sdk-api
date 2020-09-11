@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: ddf0e01c-08e9-4e32-b012-76c8a41037a7
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CHANGE_CLUSTER_PROPERTY, CLUSTER_CHANGE_CLUSTER_RECONNECT, CLUSTER_CHANGE_CLUSTER_STATE, CLUSTER_CHANGE_GROUP_ADDED, CLUSTER_CHANGE_GROUP_DELETED, CLUSTER_CHANGE_GROUP_PROPERTY, CLUSTER_CHANGE_GROUP_STATE, CLUSTER_CHANGE_HANDLE_CLOSE, CLUSTER_CHANGE_NETINTERFACE_ADDED, CLUSTER_CHANGE_NETINTERFACE_DELETED, CLUSTER_CHANGE_NETINTERFACE_PROPERTY, CLUSTER_CHANGE_NETINTERFACE_STATE, CLUSTER_CHANGE_NETWORK_ADDED, CLUSTER_CHANGE_NETWORK_DELETED, CLUSTER_CHANGE_NETWORK_PROPERTY, CLUSTER_CHANGE_NETWORK_STATE, CLUSTER_CHANGE_NODE_ADDED, CLUSTER_CHANGE_NODE_DELETED, CLUSTER_CHANGE_NODE_PROPERTY, CLUSTER_CHANGE_NODE_STATE, CLUSTER_CHANGE_QUORUM_STATE, CLUSTER_CHANGE_REGISTRY_ATTRIBUTES, CLUSTER_CHANGE_REGISTRY_NAME, CLUSTER_CHANGE_REGISTRY_SUBTREE, CLUSTER_CHANGE_REGISTRY_VALUE, CLUSTER_CHANGE_RESOURCE_ADDED, CLUSTER_CHANGE_RESOURCE_DELETED, CLUSTER_CHANGE_RESOURCE_PROPERTY, CLUSTER_CHANGE_RESOURCE_STATE, CLUSTER_CHANGE_RESOURCE_TYPE_ADDED, CLUSTER_CHANGE_RESOURCE_TYPE_DELETED, CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY, PCLUSAPI_REGISTER_CLUSTER_NOTIFY, PCLUSAPI_REGISTER_CLUSTER_NOTIFY function [Failover Cluster], RegisterClusterNotify, RegisterClusterNotify function [Failover Cluster], _wolf_registerclusternotify, clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY, clusapi/RegisterClusterNotify, mscs.registerclusternotify
-f1_keywords:
-- clusapi/RegisterClusterNotify
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- RegisterClusterNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterClusterNotify
+ - clusapi/RegisterClusterNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - RegisterClusterNotify
 ---
 
 # RegisterClusterNotify function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds an 
     event type to the list of events stored for a notification port. The <b>PCLUSAPI_REGISTER_CLUSTER_NOTIFY</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hChange [in]
 
 Handle to a notification port created with the 
       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyport">CreateClusterNotifyPort</a> function.
-
 
 ### -param dwFilterType [in]
 
@@ -282,7 +277,6 @@ The queue receives a notification when an existing resource type is deleted.
 The queue receives a notification when the 
         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a> of a resource type change.
 
-
 ### -param hObject [in]
 
 Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">failover cluster object</a> 
@@ -391,29 +385,20 @@ The cluster database functions return a valid cluster database key that can be u
        <i>hObject</i> when <i>dwFilterType</i> is set to an event type affecting 
        the cluster database.
 
-
 ### -param dwNotifyKey [in]
 
 Notification key returned from 
       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a> when the requested event 
       occurs.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 The  <b>RegisterClusterNotify</b> function enables an application that has already created a notification port with  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyport">CreateClusterNotifyPort</a> to register for an additional event that affects a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>,  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>, or  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>.
 
@@ -430,12 +415,7 @@ See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternotifyport">CloseClusterNotifyPort</a>
 
@@ -446,7 +426,4 @@ See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>
- 
-
- 
 

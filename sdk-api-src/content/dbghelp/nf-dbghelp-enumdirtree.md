@@ -8,10 +8,6 @@ tech.root: Debug
 ms.assetid: 2dd132f3-83d4-4afd-b44d-9f8d385d6116
 ms.date: 12/05/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
-f1_keywords:
-- dbghelp/EnumDirTree
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- EnumDirTree
-- EnumDirTree
-- EnumDirTreeW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later
 ms.custom: 19H1
+f1_keywords:
+ - EnumDirTree
+ - dbghelp/EnumDirTree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - EnumDirTree
+ - EnumDirTree
+ - EnumDirTreeW
 ---
 
 # EnumDirTree function
@@ -51,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates all occurrences of the specified file in the specified directory tree.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in, optional]
 
 A handle to a process. This handle must have been previously passed to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
-
 ### -param RootPath [in]
 
 The path where the function should begin searching for the file.
 
-
 ### -param InputPathName [in]
 
 The name of the file to be found. You can specify a partial path.
-
 
 ### -param OutputPathBuffer [out, optional]
 
@@ -82,33 +75,23 @@ A pointer to a buffer that receives the full path of the file. If the function f
 
 This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param cb [in, optional]
 
 An application-defined callback function, or <b>NULL</b>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-penumdirtree_callback">EnumDirTreeProc</a>.
 
-
 ### -param data [in, optional]
 
 The user-defined data or <b>NULL</b>. This value is passed to the callback function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The search can be canceled if you register a 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function. For every file operation, 
@@ -119,20 +102,11 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-penumdirtree_callback">EnumDirTreeProc</a>
- 
-
- 
 

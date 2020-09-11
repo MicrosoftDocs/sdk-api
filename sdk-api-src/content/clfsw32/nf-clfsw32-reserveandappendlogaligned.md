@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7
 ms.date: 12/05/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned
-f1_keywords:
-- clfsw32/ReserveAndAppendLogAligned
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfsw32.dll
-api_name:
-- ReserveAndAppendLogAligned
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReserveAndAppendLogAligned
+ - clfsw32/ReserveAndAppendLogAligned
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfsw32.dll
+api_name:
+ - ReserveAndAppendLogAligned
 ---
 
 # ReserveAndAppendLogAligned function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserves space for log buffers, or appends a log record  to the log, or both.  This function is like the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a> function, but <b>ReserveAndAppendLogAligned</b> aligns the  write entries of the record to the specified byte alignment.
 
-
 ## -parameters
-
-
-
 
 ### -param pvMarshal [in]
 
 A pointer to a   marshaling context that  is allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
-
 
 ### -param rgWriteEntries [in, optional]
 
@@ -69,13 +64,11 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api
 
 This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
-
 ### -param cWriteEntries [in]
 
 The number of write entries  in the <i>rgWriteEntries</i>  array. 
 
 If this value is nonzero, you must specify a buffer in the <i>rgWriteEntries</i> parameter.
-
 
 ### -param cbEntryAlignment [in]
 
@@ -83,21 +76,17 @@ The byte alignment for each write entry in the <i>rgWriteEntries</i> parameter.
 
 Specify 1 (one) for a simple concatenation. The <i>cbWriteEntryAlignment</i> parameter must be nonzero.
 
-
 ### -param plsnUndoNext [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.
-
 
 ### -param plsnPrevious [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
 
-
 ### -param cReserveRecords [in]
 
 The number of record sizes in the <i>rgcbReservation</i> array.
-
 
 ### -param rgcbReservation [in, out, optional]
 
@@ -106,7 +95,6 @@ A pointer to an array of reservation sizes for each record  that  the <i>cReserv
  This parameter is ignored if the <i>cReserveRecords</i> parameter is zero.    If a reservation size is negative, a reservation of that size is released.
 
 The actual space that is reserved for each record, including required overhead, is returned in the individual array elements on successful completion. These values can  be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-freereservedlog">FreeReservedLog</a>  function to adjust space that is reserved in the marshaling area.
-
 
 ### -param fFlags [in]
 
@@ -164,13 +152,10 @@ Assigns no flags.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param plsn [out, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that receives the LSN  of the appended record.
-
 
 ### -param pOverlapped [in, out, optional]
 
@@ -178,10 +163,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -189,12 +171,7 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, call 
 the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. The following list identifies the possible error codes:
 
-
-
-
 ## -remarks
-
-
 
 The LSN that is returned by the <b>ReserveAndAppendLogAligned</b> function is not necessarily the next LSN that is used.  The LSN that is returned is an estimate of the next LSN, and it varies based on which flags are specified by the <i>fFlags</i> parameter.  The LSN that is returned can be used when moving the base tail.  This LSN is invalidated by the next call to this function.
 
@@ -208,13 +185,7 @@ If the <b>ReserveAndAppendLogAligned</b>  function is called with a valid <i>ove
 
 To complete the log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the synchronization <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
@@ -229,7 +200,4 @@ To complete the log-record copy, the client should first synchronize its executi
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
- 
-
- 
 

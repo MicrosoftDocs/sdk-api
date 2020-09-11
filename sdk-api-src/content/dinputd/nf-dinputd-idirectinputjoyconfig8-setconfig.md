@@ -8,10 +8,6 @@ tech.root: hid
 ms.assetid: 58f413c4-7b4c-47bd-8991-ffe681e96f48
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetConfig method, IDirectInputJoyConfig8.SetConfig, IDirectInputJoyConfig8::SetConfig, SetConfig, SetConfig method [Human Input Devices], SetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_e9168f2d-cee8-4cac-8299-65360fd784f1.xml, dinputd/IDirectInputJoyConfig8::SetConfig, hid.idirectinputjoyconfig8_setconfig
-f1_keywords:
-- dinputd/IDirectInputJoyConfig8.SetConfig
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dinputd.h
-api_name:
-- IDirectInputJoyConfig8.SetConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputJoyConfig8::SetConfig
+ - dinputd/IDirectInputJoyConfig8::SetConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dinputd.h
+api_name:
+ - IDirectInputJoyConfig8.SetConfig
 ---
 
 # IDirectInputJoyConfig8::SetConfig
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDirectInputJoyConfig8::SetConfig </b>method creates or redefines configuration information about a joystick. 
-
+The <b>IDirectInputJoyConfig8::SetConfig </b>method creates or redefines configuration information about a joystick.
 
 ## -parameters
 
-
-
-
 ### -param arg1
 
-Indicates a zero-based joystick identification number. 
-
+Indicates a zero-based joystick identification number.
 
 ### -param arg2
 
-Contains information about the joystick. 
-
+Contains information about the joystick.
 
 ### -param arg3
 
@@ -90,12 +84,9 @@ Indicates that the force-feedback gain for the joystick is valid.
 
 #### DIJC_CALLOUT
 
-Indicates that the joystick polling callout is valid. 
-
+Indicates that the joystick polling callout is valid.
 
 ## -returns
-
-
 
 Returns DI_OK if successful; otherwise, returns one of the following COM error values:
 
@@ -127,7 +118,4 @@ One or more parameters was invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

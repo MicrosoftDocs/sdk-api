@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 949dafeb-f59d-4507-a3eb-4a381f4108ff
 ms.date: 12/05/2018
 ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordOriginalNetworkId method, IDVB_RST.GetRecordOriginalNetworkId, IDVB_RST::GetRecordOriginalNetworkId, IDVB_RSTGetRecordOriginalNetworkId, dvbsiparser/IDVB_RST::GetRecordOriginalNetworkId, mstv.idvb_rst_getrecordoriginalnetworkid
-f1_keywords:
-- dvbsiparser/IDVB_RST.GetRecordOriginalNetworkId
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_RST.GetRecordOriginalNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_RST::GetRecordOriginalNetworkId
+ - dvbsiparser/IDVB_RST::GetRecordOriginalNetworkId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_RST.GetRecordOriginalNetworkId
 ---
 
 # IDVB_RST::GetRecordOriginalNetworkId
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordOriginalNetworkId</b> method returns the original network identifier for a record in the RST.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_rst-getcountofrecords">IDVB_RST::GetCountOfRecords</a> method to get the number of records in the RST.
 
-
 ### -param pwVal [out]
 
 Pointer to a variable that receives the original_network_id field. This value identifies the network_id of the originating delivery system.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -119,18 +110,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_rst">IDVB_RST Interface</a>
- 
-
- 
 

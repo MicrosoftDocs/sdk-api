@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
-f1_keywords:
-- clusapi/ClusterRegCreateBatchNotifyPort
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterRegCreateBatchNotifyPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegCreateBatchNotifyPort
+ - clusapi/ClusterRegCreateBatchNotifyPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterRegCreateBatchNotifyPort
 ---
 
 # ClusterRegCreateBatchNotifyPort function
@@ -49,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a subscription to a batch notification port. The batch notification port needs to 
     be closed after it is no longer needed. This is done via the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatchnotifyport">ClusterRegCloseBatchNotifyPort</a> 
     function.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 A cluster registry key. Any updates performed at this key or keys below it will be posted to a notification 
        port.
-
 
 ### -param phBatchNotifyPort [out]
 
@@ -73,33 +68,19 @@ A handle to a batch notification port that allows subsequent reading batch notif
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterreggetbatchnotification">ClusterRegGetBatchNotification</a> 
        function.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
        <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT</b> type defines a pointer to this 
      function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
@@ -110,7 +91,4 @@ The <b>PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT</b> type defines a pointer to this
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterreggetbatchnotification">ClusterRegGetBatchNotification</a>
- 
-
- 
 

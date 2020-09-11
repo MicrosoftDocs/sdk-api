@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 675de64c-4eef-47c8-a06c-9167559b11a9
 ms.date: 12/05/2018
 ms.keywords: GPMSOM class [GPMC],SetSecurityInfo method, IGPMSOM interface [GPMC],SetSecurityInfo method, IGPMSOM.SetSecurityInfo, IGPMSOM::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMSOM class, SetSecurityInfo method [GPMC],IGPMSOM interface, _win32_igpmsom_setsecurityinfo, gpmc.igpmsom_setsecurityinfo, gpmgmt/IGPMSOM::SetSecurityInfo
-f1_keywords:
-- gpmgmt/IGPMSOM.SetSecurityInfo
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSOM.SetSecurityInfo
-- GPMSOM.SetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSOM::SetSecurityInfo
+ - gpmgmt/IGPMSOM::SetSecurityInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSOM.SetSecurityInfo
+ - GPMSOM.SetSecurityInfo
 ---
 
 # IGPMSOM::SetSecurityInfo
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the list of permissions for the scope of management (SOM) to that of the specified object.
 
-
 ## -parameters
-
-
-
 
 ### -param pSecurityInfo [in]
 
@@ -70,10 +66,7 @@ Pointer to an
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> object to set.
 
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -81,13 +74,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
@@ -98,7 +85,4 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
- 
-
- 
 

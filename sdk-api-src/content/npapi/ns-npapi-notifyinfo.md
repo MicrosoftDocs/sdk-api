@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
 ms.date: 12/05/2018
 ms.keywords: '*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo'
-f1_keywords:
-- npapi/NOTIFYINFO
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Npapi.h
-api_name:
-- NOTIFYINFO
 targetos: Windows
 req.typenames: NOTIFYINFO, *LPNOTIFYINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NOTIFYINFO
+ - npapi/_NOTIFYINFO
+ - LPNOTIFYINFO
+ - npapi/LPNOTIFYINFO
+ - NOTIFYINFO
+ - npapi/NOTIFYINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Npapi.h
+api_name:
+ - NOTIFYINFO
 ---
 
 # NOTIFYINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NOTIFYINFO</b> structure contains status information about a network connect or disconnect operation. It is used by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-cancelconnectnotify">CancelConnectNotify</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNotifyStatus
 
 This will be either NOTIFY_PRE or NOTIFY_POST to indicate whether this notification is sent before or after the connection or disconnection is performed.
-
 
 ### -field dwOperationStatus
 
@@ -75,7 +74,6 @@ This is set to WN_SUCCESS when <b>dwNotifyStatus</b> is NOTIFY_PRE.
 If <b>dwNotifyStatus</b> is set to NOTIFY_POST, <b>dwOperationStatus</b> contains the return status code from the function performing the operation: 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npcancelconnection">NPCancelConnection</a>.
-
 
 ### -field lpContext
 

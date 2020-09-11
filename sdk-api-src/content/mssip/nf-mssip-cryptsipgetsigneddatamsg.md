@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetSignedDataMsg, CryptSIPGetSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPGetSignedDataMsg, security.cryptsipgetsigneddatamsg
-f1_keywords:
-- mssip/CryptSIPGetSignedDataMsg
-dev_langs:
-- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSIPGetSignedDataMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSIPGetSignedDataMsg
+ - mssip/CryptSIPGetSignedDataMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSIPGetSignedDataMsg
 ---
 
 # CryptSIPGetSignedDataMsg function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptSIPGetSignedDataMsg</b> function retrieves an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> signature from the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pSubjectInfo [in]
 
 A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
-
 
 ### -param pdwEncodingType [out]
 
@@ -100,18 +95,14 @@ Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
 This parameter is reserved and should be set to zero.
 
-
 ### -param pcbSignedDataMsg [in, out]
 
 The length, in bytes, of the buffer pointed to by the <i>pbSignedDataMsg</i> parameter.
-
 
 ### -param pbSignedDataMsg [out]
 
@@ -120,11 +111,7 @@ A pointer to a buffer to receive the returned Authenticode signature.
 To determine the size of the buffer needed, set the <i>pbSignedDataMsg</i> parameter to <b>NULL</b> and call the <b>CryptSIPGetSignedDataMsg</b> function. This function will place the required size of the buffer, in bytes, in the value pointed to by <i>pcbSignedDataMsg</i>. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
-
 ## -returns
-
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -193,31 +180,16 @@ The specified subject type is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Subjects include, but are not limited to, portable executable images (.exe), cabinet (.cab) images, flat files, and catalog files. Each subject type uses a different subset of its data for hash calculation and requires a different procedure for storage and retrieval. Therefore, each subject type has a unique SIP specification.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: 4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], IWMPSyncDevice3 interface [Windows Media Player],described, wmp.iwmpsyncdevice3, wmp/IWMPSyncDevice3
-f1_keywords:
-- wmp/IWMPSyncDevice3
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.h
-api_name:
-- IWMPSyncDevice3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice3
+ - wmp/IWMPSyncDevice3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.h
+api_name:
+ - IWMPSyncDevice3
 ---
 
 # IWMPSyncDevice3 interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWMPSyncDevice3</b> interface provides methods for estimating the size required to synchronize a playlist to a device.
 
 To use this interface, you must create a remoted instance of the Windows Media Player 12 control.
-
 
 ## -inheritance
 
@@ -88,13 +87,9 @@ Initiates the estimation of the size required on the device to synchronize a spe
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2</a>
 
@@ -105,7 +100,4 @@ Initiates the estimation of the size required on the device to synchronize a spe
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
 

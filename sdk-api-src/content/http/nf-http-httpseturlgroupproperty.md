@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
 ms.date: 12/05/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
-f1_keywords:
-- http/HttpSetUrlGroupProperty
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpSetUrlGroupProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpSetUrlGroupProperty
+ - http/HttpSetUrlGroupProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpSetUrlGroupProperty
 ---
 
 # HttpSetUrlGroupProperty function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpSetUrlGroupProperty</b> function sets a new property or modifies an existing property on the specified URL Group.
 
-
 ## -parameters
-
-
-
 
 ### -param UrlGroupId [in]
 
 The ID of the URL Group for which the property is set.
-
 
 ### -param Property [in]
 
@@ -153,8 +148,6 @@ Enables server side authentication that uses a channel binding token (CBT).
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyInformation [in]
 
@@ -214,19 +207,12 @@ A pointer to the buffer that contains the property information.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param PropertyInformationLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
@@ -257,24 +243,12 @@ The application does not have permission to set the URL Group properties. Only t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After the URL Group is created it must be associated with a request queue to receive requests. To associate the URL Group with a request queue, the application calls <b>HttpSetUrlGroupProperty</b> with the <b>HttpServerBindingProperty</b> property. If this property is not set, matching requests for the URL Group are not delivered to a request queue and the  HTTP Server API generates a 503 response.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -297,7 +271,4 @@ After the URL Group is created it must be associated with a request queue to rec
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
- 
-
- 
 

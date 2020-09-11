@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: a6eea412-553a-4bdd-afc2-cc002c4500a4
 ms.date: 12/05/2018
 ms.keywords: IShellItemImageFactory, IShellItemImageFactory interface [Windows Shell], IShellItemImageFactory interface [Windows Shell],described, _shell_IShellItemImageFactory, shell.IShellItemImageFactory, shobjidl_core/IShellItemImageFactory
-f1_keywords:
-- shobjidl_core/IShellItemImageFactory
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellItemImageFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItemImageFactory
+ - shobjidl_core/IShellItemImageFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellItemImageFactory
 ---
 
 # IShellItemImageFactory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to return either icons or thumbnails for Shell items. If no thumbnail or icon is available for the requested item, a per-class icon may be provided from the Shell.
-
 
 ## -inheritance
 
@@ -77,12 +76,9 @@ Gets an HBITMAP that represents an <a href="https://docs.microsoft.com/windows/d
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 A pointer to this interface is commonly obtained through one of the following functions:
                 
@@ -106,6 +102,4 @@ A pointer to this interface is commonly obtained through one of the following fu
 </li>
 </ul>
 See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940383(v=vs.85)">Using Image Factory</a> sample for a full example of how to use this interface.
-
-
 

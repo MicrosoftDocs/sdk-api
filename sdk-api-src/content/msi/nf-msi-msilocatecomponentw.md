@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 5b6235c5-9a64-4b4e-9f2c-42ed73400cbe
 ms.date: 12/05/2018
 ms.keywords: MsiLocateComponent, MsiLocateComponent function, MsiLocateComponentA, MsiLocateComponentW, _msi_msilocatecomponent, msi/MsiLocateComponent, msi/MsiLocateComponentA, msi/MsiLocateComponentW, setup.msilocatecomponent
-f1_keywords:
-- msi/MsiLocateComponent
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiLocateComponent
-- MsiLocateComponentA
-- MsiLocateComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiLocateComponentW
+ - msi/MsiLocateComponentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiLocateComponent
+ - MsiLocateComponentA
+ - MsiLocateComponentW
 ---
 
 # MsiLocateComponentW function
@@ -51,27 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiLocateComponent</b> function returns the full path to an installed component without a product code. This function attempts to determine the product using 
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetproductcodea">MsiGetProductCode</a>, but is not guaranteed to find the correct product for the caller. 
 <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a> should always be called when possible.
 
-
 ## -parameters
-
-
-
 
 ### -param szComponent [in]
 
 Specifies the component ID of the component to be located.
 
-
 ### -param lpPathBuf [out]
 
 Pointer to a variable that receives the path to the component. The variable includes the terminating null character.
-
 
 ### -param pcchBuf [in, out]
 
@@ -83,10 +77,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -182,14 +173,8 @@ The product code or component ID is unknown. See Remarks.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MsiLocateComponent</b> function might return INSTALLSTATE_ABSENT or INSTALL_STATE_UNKNOWN, for the following reasons:
@@ -223,11 +208,5 @@ The feature is not published. The application should have determined this earlie
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
- 
-
- 
 

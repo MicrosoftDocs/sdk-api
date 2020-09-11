@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: 3f6efd3c-3ddf-4ce6-9527-730e01c45e74
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontData, DrvQueryFontData function [Display Devices], ddifncs_6992339b-a8e8-4bdf-b7a4-7a3087f62051.xml, display.drvqueryfontdata, winddi/DrvQueryFontData
-f1_keywords:
-- winddi/DrvQueryFontData
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryFontData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryFontData
+ - winddi/DrvQueryFontData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryFontData
 ---
 
 # DrvQueryFontData function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrvQueryFontData</b> function retrieves information about a realized font. 
-
+The <b>DrvQueryFontData</b> function retrieves information about a realized font.
 
 ## -parameters
-
-
-
 
 ### -param dhpdev
 
 Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was returned from a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
-
 ### -param pfo
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that defines the font realization.
-
 
 ### -param iMode
 
@@ -174,53 +168,34 @@ Same as QFD_TT_GRAY1_BITMAP.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hg
 
 Handle to the glyph.
 
-
 ### -param pgd
 
 Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphdata">GLYPHDATA</a> structure. This parameter can be <b>NULL</b>.
-
 
 ### -param pv [out]
 
 Pointer to a data buffer. The type of data written to this buffer is dependent on <i>iMode</i>. This parameter can be <b>NULL</b>.
 
-
 ### -param cjSize
 
 Specifies the size of the buffer pointed to by <i>pv</i>.
 
-
 ## -returns
-
-
 
 The return value depends on the value of the <i>iMode</i> parameter. If an error occurs, the return value is FD_ERROR, and an error code is logged.
 
-
-
-
 ## -remarks
-
-
 
 For the QFD_GLYPHANDBITMAP and QFD_GLYPHANDOUTLINE values of the <i>iMode</i> parameter, GDI provides a pointer to a GLYPHDATA structure (in the <i>pgd</i> parameter). The driver places information about glyph metrics in this structure and writes the contents of either a GLYPHBITS structure or a PATHOBJ structure in the location specified by the <i>pv</i> parameter, depending respectively, on whether the font is a bitmap font or an outline font. For the QFD_MAXEXTENTS value of the <i>iMode</i> parameter, the driver writes the contents of an FD_DEVICEMETRICS structure in the location specified by the <i>pv</i> parameter. 
 
 <b>DrvQueryFontData</b> is required for font drivers and drivers that use device-specific or driver-specific fonts.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
@@ -247,7 +222,4 @@ For the QFD_GLYPHANDBITMAP and QFD_GLYPHANDOUTLINE values of the <i>iMode</i> pa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
- 
-
- 
 

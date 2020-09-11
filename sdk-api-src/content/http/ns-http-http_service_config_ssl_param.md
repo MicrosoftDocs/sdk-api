@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 2bb3bfe0-9bac-4eb5-80b1-c883503a30b3
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_PARAM, 0, 0x10000, 1, 2, 4, HTTP_SERVICE_CONFIG_SSL_FLAG_NEGOTIATE_CLIENT_CERT, HTTP_SERVICE_CONFIG_SSL_FLAG_NO_RAW_FILTER, HTTP_SERVICE_CONFIG_SSL_FLAG_USE_DS_MAPPER, HTTP_SERVICE_CONFIG_SSL_PARAM, HTTP_SERVICE_CONFIG_SSL_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_PARAM, PHTTP_SERVICE_CONFIG_SSL_PARAM structure pointer [HTTP], _http_http_service_config_ssl_param, http.http_service_config_ssl_param, http/HTTP_SERVICE_CONFIG_SSL_PARAM, http/PHTTP_SERVICE_CONFIG_SSL_PARAM'
-f1_keywords:
-- http/HTTP_SERVICE_CONFIG_SSL_PARAM
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_SERVICE_CONFIG_SSL_PARAM
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_SSL_PARAM, *PHTTP_SERVICE_CONFIG_SSL_PARAM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_SERVICE_CONFIG_SSL_PARAM
+ - http/_HTTP_SERVICE_CONFIG_SSL_PARAM
+ - PHTTP_SERVICE_CONFIG_SSL_PARAM
+ - http/PHTTP_SERVICE_CONFIG_SSL_PARAM
+ - HTTP_SERVICE_CONFIG_SSL_PARAM
+ - http/HTTP_SERVICE_CONFIG_SSL_PARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_SERVICE_CONFIG_SSL_PARAM
 ---
 
 # HTTP_SERVICE_CONFIG_SSL_PARAM structure
@@ -49,35 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HTTP_SERVICE_CONFIG_SSL_PARAM</b> structure defines a record in the SSL configuration store.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SslHashLength
 
 The size, in bytes,  of the SSL hash.
 
-
 ### -field pSslHash
 
 A pointer to the SSL certificate hash.
-
 
 ### -field AppId
 
 A unique identifier of the application setting this record.
 
-
 ### -field pSslCertStoreName
 
 A pointer to a wide-character string that contains the name of the store from which the server certificate is to be read. If set to <b>NULL</b>, "MY" is assumed as the default name. The specified certificate store name must be present in the Local System store location.
-
 
 ### -field DefaultCertCheckMode
 
@@ -139,28 +135,22 @@ No usage check is to be performed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DefaultRevocationFreshnessTime
 
 The number of seconds after which to check for an updated certificate revocation list (CRL). If this value is zero, the new CRL is updated only when the previous one expires.
 
-
 ### -field DefaultRevocationUrlRetrievalTimeout
 
 The timeout interval, in milliseconds,  for an attempt to retrieve a certificate revocation list from the remote URL.
-
 
 ### -field pDefaultSslCtlIdentifier
 
 A pointer to an SSL control identifier, which enables an application to restrict the group of certificate issuers to be trusted. This group must be a subset of the certificate issuers trusted by the machine on which the application is running.
 
-
 ### -field pDefaultSslCtlStoreName
 
 The name of the store where the control identifier pointed to by <b>pDefaultSslCtlIdentifier</b> is stored.
-
 
 ### -field DefaultFlags
 
@@ -210,12 +200,8 @@ If this flag is set and the mapping is successful, the <b>Token</b> member of th
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Together with a 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_key">HTTP_SERVICE_CONFIG_SSL_KEY</a> structure, the <b>HTTP_SERVICE_CONFIG_SSL_PARAM</b> structure makes up the 
@@ -227,13 +213,7 @@ Together with a
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a> structure passed to 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> function in the <i>pConfigInformation</i> parameter when the <i>ConfigId</i> parameter is set to <b>HttpServiceConfigSslCcsCertInfo</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_ssl_ccs_set">HTTP_SERVICE_CONFIG_SSL_CCS_SET</a>
 
@@ -244,7 +224,4 @@ Together with a
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
- 
-
- 
 

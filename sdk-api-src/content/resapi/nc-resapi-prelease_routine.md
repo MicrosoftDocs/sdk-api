@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.date: 12/05/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
-f1_keywords:
-- resapi/Release
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Release
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PRELEASE_ROUTINE
+ - resapi/PRELEASE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Release
 ---
 
 # PRELEASE_ROUTINE callback function
@@ -49,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases the 
     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a> from arbitration. The 
     <b>PCLOSE_ROUTINE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 Resource identifier for the quorum resource to be released.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,14 +91,8 @@ The quorum resource was not successfully released.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>Release</i> entry-point function is implemented for quorum 
      resources only. A quorum resource might have to be released when the 
@@ -119,15 +106,7 @@ The <i>Release</i> entry-point function is implemented for quorum
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
 

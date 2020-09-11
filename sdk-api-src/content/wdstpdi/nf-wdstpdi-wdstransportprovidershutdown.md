@@ -8,10 +8,6 @@ tech.root: wds
 ms.assetid: 89f563e1-8dbd-4660-8cec-506f708ae310
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderShutdown, WdsTransportProviderShutdown callback, WdsTransportProviderShutdown callback function [Windows Deployment Services], wds.wdstransportprovidershutdown, wdstpdi/WdsTransportProviderShutdown
-f1_keywords:
-- wdstpdi/WdsTransportProviderShutdown
-dev_langs:
-- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdstpdi.h
-api_name:
-- WdsTransportProviderShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsTransportProviderShutdown
+ - wdstpdi/WdsTransportProviderShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdstpdi.h
+api_name:
+ - WdsTransportProviderShutdown
 ---
 
 # WdsTransportProviderShutdown function
@@ -49,31 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Shutsdown the content provider. 
-
+Shutsdown the content provider.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return is <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
-
-
 This callback is required.
-
-
 

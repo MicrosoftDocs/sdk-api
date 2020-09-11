@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyncMgrHandlerInfo.IsActive, ISyncMgrHandlerInfo::IsActive, IsActive, IsActive method [Windows Shell], IsActive method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsActive, shell.ISyncMgrHandlerInfo_IsActive, syncmgr/ISyncMgrHandlerInfo::IsActive
-f1_keywords:
-- syncmgr/ISyncMgrHandlerInfo.IsActive
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrHandlerInfo.IsActive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrHandlerInfo::IsActive
+ - syncmgr/ISyncMgrHandlerInfo::IsActive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrHandlerInfo.IsActive
 ---
 
 # ISyncMgrHandlerInfo::IsActive
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that indicates whether the handler can be synchronized.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -74,12 +66,7 @@ If the handler wants Sync Center to maintain the current state, it can return E_
 
 If either the SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE or SYNCMGR_HCM_QUERY_BEFORE_DEACTIVE flag is set in the mask returned from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getcapabilities">GetCapabilities</a>, the handler must manage its own activation state and therefore must return either S_OK or S_FALSE. Any other return value will be considered an error.
 
-
-
-
 ## -remarks
-
-
 
 If a handler is not active, it appears in the Sync Setup folder. Handlers in that folder cannot be synchronized. To move a handler to the Sync Center folder, the user selects the <b>Setup</b> task on the handler's shortcut menu or from the command module.
 
@@ -104,21 +91,11 @@ STDMETHODIMP CMyDeviceHandler::IsActive()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-activate">Activate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlerinfo">ISyncMgrHandlerInfo</a>
- 
-
- 
 

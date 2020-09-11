@@ -34,6 +34,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
 f1_keywords:
+ - IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
 dev_langs:
  - c++
@@ -68,7 +69,6 @@ Returns S_OK on success.
 ## -remarks
 
 **IMFContentDecryptionModuleAccess** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess.getConfiguration](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#mediakeysystemaccess-interface).
-
 
 ## -see-also
 

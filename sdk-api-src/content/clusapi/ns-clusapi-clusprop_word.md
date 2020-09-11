@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_WORD, CLUSPROP_WORD, CLUSPROP_WORD structure [Failover Cluster], PCLUSPROP_WORD, PCLUSPROP_WORD structure pointer [Failover Cluster], _wolf_clusprop_word, clusapi/CLUSPROP_WORD, clusapi/PCLUSPROP_WORD, mscs.clusprop_word'
-f1_keywords:
-- clusapi/CLUSPROP_WORD
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSPROP_WORD
 targetos: Windows
 req.typenames: CLUSPROP_WORD, *PCLUSPROP_WORD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSPROP_WORD
+ - clusapi/CLUSPROP_WORD
+ - PCLUSPROP_WORD
+ - clusapi/PCLUSPROP_WORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSPROP_WORD
 ---
 
 # CLUSPROP_WORD structure
 
 
 ## -description
-
 
 Describes numeric data. It 
     is used as an entry in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
@@ -60,26 +62,17 @@ Describes numeric data. It
 
 ## -struct-fields
 
-
-
-
 ### -field w
 
 Numeric value.
 
-
 ### -field CLUSPROP_VALUE
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing 
        the format, type, and 
-       the count of bytes in the <b>w</b> member. 
-
+       the count of bytes in the <b>w</b> member.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
@@ -90,7 +83,4 @@ Numeric value.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
 

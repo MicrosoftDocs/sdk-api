@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getblend_22blendfactors_blendpositions_count.htm
 ms.date: 12/05/2018
 ms.keywords: GetBlend, GetBlend method [GDI+], GetBlend method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetBlend method, PathGradientBrush.GetBlend, PathGradientBrush::GetBlend, _gdiplus_CLASS_PathGradientBrush_GetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetBlend_blendFactors_blendPositions_count_
-f1_keywords:
-- gdipluspath/PathGradientBrush.GetBlend
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- PathGradientBrush.GetBlend
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - PathGradientBrush::GetBlend
+ - gdipluspath/PathGradientBrush::GetBlend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - PathGradientBrush.GetBlend
 ---
 
 # PathGradientBrush::GetBlend
@@ -50,28 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PathGradientBrush::GetBlend</b> method gets the blend factors and the corresponding blend positions currently set for this path gradient brush.
 
-
 ## -parameters
-
-
-
 
 ### -param blendFactors [out]
 
 Type: <b>REAL*</b>
 
-Pointer to an array that receives the blend factors. 
-
+Pointer to an array that receives the blend factors.
 
 ### -param blendPositions [out]
 
 Type: <b>REAL*</b>
 
-Pointer to an array that receives the blend positions. 
-
+Pointer to an array that receives the blend positions.
 
 ### -param count [in]
 
@@ -79,12 +73,9 @@ Type: <b>INT</b>
 
 Integer that specifies the number of blend factors to retrieve. Before calling the <b>PathGradientBrush::GetBlend</b> method of a 
 					<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object, call the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a> method of that same 
-					<b>PathGradientBrush</b>object to determine the current number of blend factors. The number of blend positions retrieved is the same as the number of blend factors retrieved. 
-
+					<b>PathGradientBrush</b>object to determine the current number of blend factors. The number of blend positions retrieved is the same as the number of blend factors retrieved.
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
@@ -94,12 +85,7 @@ If the method succeeds, it returns <b>Ok</b>, which is an element of the
 If the method fails, it returns one of the other elements of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 A 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object has a boundary path and a center point. When you fill an area with a path gradient brush, the color changes gradually as you move from the boundary path to the center point. By default, the color is linearly related to the distance, but you can customize the relationship between color and distance by calling the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a> method.
@@ -170,14 +156,7 @@ VOID Example_GetBlend(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
@@ -224,7 +203,4 @@ VOID Example_GetBlend(HDC hdc)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
- 
-
- 
 

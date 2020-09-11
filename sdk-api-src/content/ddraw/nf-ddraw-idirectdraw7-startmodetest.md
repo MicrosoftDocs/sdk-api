@@ -8,10 +8,6 @@ tech.root: directdraw
 ms.assetid: b669e3c7-b34b-4919-9a3e-0349288360ba
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDraw7.StartModeTest, IDirectDraw7::StartModeTest, StartModeTest, StartModeTest method [DirectDraw], StartModeTest method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::StartModeTest, directdraw.idirectdraw7_startmodetest
-f1_keywords:
-- ddraw/IDirectDraw7.StartModeTest
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.StartModeTest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::StartModeTest
+ - ddraw/IDirectDraw7::StartModeTest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7.StartModeTest
 ---
 
 # IDirectDraw7::StartModeTest
@@ -49,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination. A call to this method is typically followed by calls to <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> to pass or fail modes displayed by the test.
 
-
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 An array of SIZE elements that describe, in terms of screen resolutions, the modes that should be tested.
 
-
 ### -param arg2 [in]
 
 The number of elements in the array that the  <i>lpModesToTest</i> parameter specifies.
-
 
 ### -param arg3 [in]
 
 Flags that specify options for starting a test. The only flag value that is currently valid is DDSMT_ISTESTREQUIRED. When this flag is specified, <b>StartModeTest</b> does not initiate a test, but instead returns a value that indicates whether it is possible or necessary to test the resolutions that the <i>lpModesToTest</i> and <i>dwNumEntries</i> parameters identify.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -101,11 +91,7 @@ When the method is called with the DDSMT_ISTESTREQUIRED flag, it can return one 
 <li>DDERR_TESTFINISHED</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 You can use the <b>StartModeTest</b> method together with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-evaluatemode">IDirectDraw7::EvaluateMode</a> method to determine the maximum refresh rate that an EDID monitor and display adapter combination can support for each screen resolution. The results of the testing are stored in the system registry and affect the operation of <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> when that method is called with the DDEDM_REFRESHRATES flag set.
 
@@ -129,16 +115,7 @@ The test does not guarantee to display only the resolutions in the array describ
 
 You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>StartModeTest</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3fe02245-97b1-49f3-8f35-2dcd6f221547
 ms.date: 12/05/2018
 ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryservicestatusex, base.queryservicestatusex, winsvc/QueryServiceStatusEx
-f1_keywords:
-- winsvc/QueryServiceStatusEx
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l2-1-0.dll
-api_name:
-- QueryServiceStatusEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryServiceStatusEx
+ - winsvc/QueryServiceStatusEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l2-1-0.dll
+api_name:
+ - QueryServiceStatusEx
 ---
 
 # QueryServiceStatusEx function
@@ -52,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current status of the specified service based on the specified information level.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
@@ -67,7 +63,6 @@ A handle to the service. This handle is returned by the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> function, and it must have the SERVICE_QUERY_STATUS access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
-
 
 ### -param InfoLevel [in]
 
@@ -79,27 +74,21 @@ The service attributes to be returned. Use SC_STATUS_PROCESS_INFO to retrieve th
 
 Currently, no other information levels are defined.
 
-
 ### -param lpBuffer [out, optional]
 
 A pointer to the buffer that receives the status information. The format of this data depends on the value of the <i>InfoLevel</i> parameter.
 
 The maximum size of this array is 8K bytes. To determine the required size, specify NULL for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return ERROR_INSUFFICIENT_BUFFER. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
-
 ### -param cbBufSize [in]
 
 The size of the buffer pointed to by the <i>lpBuffer</i> parameter, in bytes.
-
 
 ### -param pcbBytesNeeded [out]
 
 A pointer to a variable that receives the number of bytes needed to store all status information, if the function fails with ERROR_INSUFFICIENT_BUFFER.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 						
@@ -181,14 +170,8 @@ The system is shutting down; this function cannot be called.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>QueryServiceStatusEx</b> function returns the most recent service status information reported to the service control manager. If the service just changed its status, it may not have updated the service control manager yet.
@@ -203,12 +186,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a>
 
@@ -219,7 +197,4 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Services/service-startup">Service Startup</a>
- 
-
- 
 

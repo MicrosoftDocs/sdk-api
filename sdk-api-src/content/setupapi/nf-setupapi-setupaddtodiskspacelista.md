@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: f1bb7096-b4a6-450b-9552-9a3dc4c71f24
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY., FILEOP_DELETE, SetupAddToDiskSpaceList, SetupAddToDiskSpaceList function [Setup API], SetupAddToDiskSpaceListA, SetupAddToDiskSpaceListW, _setupapi_setupaddtodiskspacelist, setup.setupaddtodiskspacelist, setupapi/SetupAddToDiskSpaceList, setupapi/SetupAddToDiskSpaceListA, setupapi/SetupAddToDiskSpaceListW
-f1_keywords:
-- setupapi/SetupAddToDiskSpaceList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupAddToDiskSpaceList
-- SetupAddToDiskSpaceListA
-- SetupAddToDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupAddToDiskSpaceListA
+ - setupapi/SetupAddToDiskSpaceListA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupAddToDiskSpaceList
+ - SetupAddToDiskSpaceListA
+ - SetupAddToDiskSpaceListW
 ---
 
 # SetupAddToDiskSpaceListA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -61,27 +61,20 @@ The
 
 Target disk compression is ignored by this function. Files are assumed to occupy their full size on the target disk.
 
-
 ## -parameters
-
-
-
 
 ### -param DiskSpace [in]
 
 Handle to the disk-space list.
 
-
 ### -param TargetFilespec [in]
 
 File name of the file to be added to the disk-space list. You should use a null-terminated string that specifies  a fully qualified path. Otherwise, the path must be relative to the current directory.
-
 
 ### -param FileSize [in]
 
 Uncompressed size of the file as it will exist in the target directory, in bytes. You can use 
 <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilesizea">SetupGetSourceFileSize</a> to retrieve this information from an INF file. This parameter is ignored for FILEOP_DELETE operations.
-
 
 ### -param Operation [in]
 
@@ -115,44 +108,29 @@ A file copy operation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved1 [in]
 
 Must be zero.
 
-
 ### -param Reserved2 [in]
 
 Must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
- 
-
- 
 
 ## -remarks
 

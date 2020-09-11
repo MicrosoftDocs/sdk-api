@@ -8,10 +8,6 @@ tech.root: iSCSIDisc
 ms.assetid: 184b256b-0cb0-45c1-8f73-5ff28fb388fb
 ms.date: 12/05/2018
 ms.keywords: AddPersistentIScsiDeviceW, AddPersistentIscsiDevice, AddPersistentIscsiDevice function [iSCSI Discovery Library API], AddPersistentIscsiDeviceA, AddPersistentIscsiDeviceW, AddPersistentiScsiDevice, iscsidisc.addpersistentiscsidevice, iscsidsc/AddPersistentIscsiDevice, iscsidsc/AddPersistentIscsiDeviceA, iscsidsc/AddPersistentIscsiDeviceW
-f1_keywords:
-- iscsidsc/AddPersistentIscsiDevice
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- AddPersistentIscsiDevice
-- AddPersistentIscsiDeviceA
-- AddPersistentIscsiDeviceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddPersistentIScsiDeviceW
+ - iscsidsc/AddPersistentIScsiDeviceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - AddPersistentIscsiDevice
+ - AddPersistentIscsiDeviceA
+ - AddPersistentIscsiDeviceW
 ---
 
 # AddPersistentIScsiDeviceW function
@@ -51,25 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddPersistentIscsiDevice</b> function adds a volume device name, drive letter, or mount point symbolic link to the list of iSCSI persistently bound volumes and devices.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param DevicePath [in]
 
 A drive letter or symbolic link for a mount point of the volume.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns one of the following:
 
@@ -101,15 +92,8 @@ The volume or device is already in the persistent volume or device list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-clearpersistentiscsidevices">ClearPersistentScsiDevices</a>
 
@@ -132,9 +116,6 @@ The volume or device is already in the persistent volume or device list.
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setuppersistentiscsidevices">SetupPersistentIscsiDevices</a>
- 
-
- 
 
 ## -remarks
 

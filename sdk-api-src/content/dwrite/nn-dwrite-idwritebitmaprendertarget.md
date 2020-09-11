@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 9953a9e9-7772-41a3-9cd9-2340a9dd4b6f
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget, IDWriteBitmapRenderTarget interface [Direct Write], IDWriteBitmapRenderTarget interface [Direct Write],described, directwrite.IDWriteBitmapRenderTarget, dwrite/IDWriteBitmapRenderTarget
-f1_keywords:
-- dwrite/IDWriteBitmapRenderTarget
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteBitmapRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteBitmapRenderTarget
+ - dwrite/IDWriteBitmapRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteBitmapRenderTarget
 ---
 
 # IDWriteBitmapRenderTarget interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs.
-
 
 ## -inheritance
 
@@ -144,12 +143,9 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 You create an <b>IDWriteBitmapRenderTarget</b> by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget">IDWriteGdiInterop::CreateBitmapRenderTarget</a> method, as shown in the following code.
 
@@ -204,6 +200,4 @@ STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
 
 
 The <b>IDWriteBitmapRenderTarget</b> encapsulates and renders to a bitmap in memory.  The  <a href="/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-getmemorydc">GetMemoryDC</a> function returns a handle to the device context of this bitmap.
-
-
 

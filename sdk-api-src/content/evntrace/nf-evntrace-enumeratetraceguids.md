@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
-f1_keywords:
-- evntrace/EnumerateTraceGuids
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- EnumerateTraceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumerateTraceGuids
+ - evntrace/EnumerateTraceGuids
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-eventing-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - EnumerateTraceGuids
 ---
 
 # EnumerateTraceGuids function
 
 
 ## -description
-
 
 The 
 <b>EnumerateTraceGuids</b> function retrieves information about registered event trace providers that are running on the computer. 
@@ -59,28 +59,20 @@ The
 
 ## -parameters
 
-
-
-
 ### -param GuidPropertiesArray [in, out]
 
 An array of pointers to 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES</a> structures.
 
-
 ### -param PropertyArrayCount [in]
 
 Number of elements in the <i>GuidPropertiesArray</i> array.
-
 
 ### -param GuidCount [out]
 
 Actual number of event tracing providers registered on the computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 						
@@ -120,14 +112,8 @@ The property array is too small to receive information for all registered provid
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event trace controllers call this function.
 
@@ -330,14 +316,7 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>
 
@@ -352,7 +331,4 @@ cleanup:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES</a>
- 
-
- 
 

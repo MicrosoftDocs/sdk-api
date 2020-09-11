@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
 ms.date: 12/05/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
-f1_keywords:
-- drt/DrtGetEventData
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtGetEventData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtGetEventData
+ - drt/DrtGetEventData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtGetEventData
 ---
 
 # DrtGetEventData function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The	<b>DrtGetEventData</b> function retrieves event data associated with a signaled event.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrt [in]
 
 Handle to the Distributed Routing Table instance for which the event occurred.
 
-
 ### -param ulEventDataLen [out]
 
 The size, in bytes, of the <i>pEventData</i> buffer.
-
 
 ### -param pEventData [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure that contains the event data.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -129,18 +120,8 @@ No more event data available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a>
- 
-
- 
 

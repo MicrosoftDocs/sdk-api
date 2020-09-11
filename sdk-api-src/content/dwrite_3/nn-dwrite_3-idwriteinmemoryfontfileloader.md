@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58
 ms.date: 12/05/2018
 ms.keywords: IDWriteInMemoryFontFileLoader, IDWriteInMemoryFontFileLoader interface [Direct Write], IDWriteInMemoryFontFileLoader interface [Direct Write],described, directwrite.idwriteinmemoryfontfileloader, dwrite_3/IDWriteInMemoryFontFileLoader
-f1_keywords:
-- dwrite_3/IDWriteInMemoryFontFileLoader
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,29 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteInMemoryFontFileLoader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteInMemoryFontFileLoader
+ - dwrite_3/IDWriteInMemoryFontFileLoader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteInMemoryFontFileLoader
 ---
 
 # IDWriteInMemoryFontFileLoader interface
+
 
 ## -description
 
@@ -55,8 +57,6 @@ Represents a font file loader that can access in-memory fonts.
         A client can also create its own custom implementation, however. In either case, the client is responsible for registering and unregistering the loader 
         using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontfileloader">IDWriteFactory::RegisterFontFileLoader</a> 
         and <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontfileloader">IDWriteFactory::UnregisterFontFileLoader</a>.
-      
-
 
 ## -inheritance
 
@@ -91,10 +91,11 @@ Returns the number of font file references that have been created using this loa
 
 </td>
 </tr>
-</table> 
+</table>
 
 ## -see-also
 
 [Creating a custom font set using font data loaded into memory](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-font-data-loaded-into-memory)
 
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDWriteFontFileLoader</a>
+

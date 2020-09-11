@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: de37bb9a-e1b2-4448-9610-566f77acf542
 ms.date: 12/05/2018
 ms.keywords: PeerGraphUnregisterEvent, PeerGraphUnregisterEvent function [Peer Networking], p2p.peergraphunregisterevent, p2p/PeerGraphUnregisterEvent
-f1_keywords:
-- p2p/PeerGraphUnregisterEvent
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphUnregisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphUnregisterEvent
+ - p2p/PeerGraphUnregisterEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphUnregisterEvent
 ---
 
 # PeerGraphUnregisterEvent function
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphUnregisterEvent</b> function requests that the application no longer be  notified of changes associated with a peer graph and  record type.
 
-
 ## -parameters
-
-
-
 
 ### -param hPeerEvent [in]
 
 Peer event handle obtained from call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following values.
 
@@ -97,27 +90,12 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The peer event handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a> must be closed only after <b>PeerGraphUnregisterEvent</b> has been called.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerRegisterEvent</a>
- 
-
- 
 

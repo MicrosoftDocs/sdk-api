@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: cb8cd2cc-e498-43c2-ae1e-3543b4ea3b56
 ms.date: 12/05/2018
 ms.keywords: IPBDA_EIT, IPBDA_EIT interface [Microsoft TV Technologies], IPBDA_EIT interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_EIT, mstv.ipbda_eit
-f1_keywords:
-- dvbsiparser/IPBDA_EIT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IPBDA_EIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPBDA_EIT
+ - dvbsiparser/IPBDA_EIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IPBDA_EIT
 ---
 
 # IPBDA_EIT interface
 
 
 ## -description
-
 
 Implements methods that enable the client to get information from an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-geteit">IPBDASiParser::GetEIT</a> method returns a pointer to this interface.
 
@@ -70,8 +70,7 @@ An EIT provides information about events in each service, such as the event name
 <td>0x81</td>
 <td>Schedule EIT for this transport stream. </td>
 </tr>
-</table> 
-
+</table>
 
 ## -inheritance
 
@@ -198,5 +197,5 @@ Initializes the object.
 
 </td>
 </tr>
-</table> 
+</table>
 

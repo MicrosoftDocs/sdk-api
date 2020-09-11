@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 448a461b-779a-457e-8206-2055a73c9b45
 ms.date: 12/05/2018
 ms.keywords: GetAutospaceNumeric, GetAutospaceNumeric method [Windows Controls], GetAutospaceNumeric method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceNumeric method, ITextFont2.GetAutospaceNumeric, ITextFont2::GetAutospaceNumeric, controls.itextfont2_getautospacenumeric, tom/ITextFont2::GetAutospaceNumeric
-f1_keywords:
-- tom/ITextFont2.GetAutospaceNumeric
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont2.GetAutospaceNumeric
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont2::GetAutospaceNumeric
+ - tom/ITextFont2::GetAutospaceNumeric
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont2.GetAutospaceNumeric
 ---
 
 # ITextFont2::GetAutospaceNumeric
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the East Asian "autospace numeric" state.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -82,31 +78,18 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The AutospaceNumeric property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setautospacenumeric">ITextFont2::SetAutospaceNumeric</a>
- 
-
- 
 

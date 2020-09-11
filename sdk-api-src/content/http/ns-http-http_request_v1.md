@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 5550c49c-36ef-42e6-8134-5d9d0d9d53b5
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_REQUEST, *PHTTP_REQUEST_V1, HTTP_REQUEST, HTTP_REQUEST_FLAG_HTTP2, HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS, HTTP_REQUEST_FLAG_IP_ROUTED, HTTP_REQUEST_V1, HTTP_REQUEST_V1 structure [HTTP], PHTTP_REQUEST_V1, PHTTP_REQUEST_V1 structure pointer [HTTP], http.http_request_v1, http/HTTP_REQUEST_V1, http/PHTTP_REQUEST_V1'
-f1_keywords:
-- http/HTTP_REQUEST_V1
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_REQUEST_V1
 targetos: Windows
 req.typenames: HTTP_REQUEST_V1, *PHTTP_REQUEST_V1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_REQUEST_V1
+ - http/_HTTP_REQUEST_V1
+ - PHTTP_REQUEST_V1
+ - http/PHTTP_REQUEST_V1
+ - HTTP_REQUEST_V1
+ - http/HTTP_REQUEST_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_REQUEST_V1
 ---
 
 ## -description
@@ -188,7 +193,6 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 ## -see-also
 
-
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
@@ -238,3 +242,4 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
+

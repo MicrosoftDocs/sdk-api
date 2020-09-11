@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117
 ms.date: 12/05/2018
 ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cancelsynchronousio_func, ioapiset/CancelSynchronousIo, winbase/CancelSynchronousIo
-f1_keywords:
-- ioapiset/CancelSynchronousIo
-dev_langs:
-- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-io-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-api_name:
-- CancelSynchronousIo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CancelSynchronousIo
+ - ioapiset/CancelSynchronousIo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - CancelSynchronousIo
 ---
 
 # CancelSynchronousIo function
@@ -53,24 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks pending synchronous I/O operations that are issued by the specified thread as 
     canceled.
 
-
 ## -parameters
-
-
-
 
 ### -param hThread [in]
 
 A handle to the thread.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -81,12 +74,7 @@ If this function cannot find a request to cancel, the return value is 0 (zero), 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_NOT_FOUND</b>.
 
-
-
-
 ## -remarks
-
-
 
 The caller must have the 
     <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">THREAD_TERMINATE</a> access right.
@@ -170,15 +158,8 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
 
@@ -193,7 +174,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: df2679a5-cdd9-468b-823a-f98044189f65
 ms.date: 12/05/2018
 ms.keywords: _win32_getpeername_2, getpeername, getpeername function [Winsock], winsock.getpeername_2, winsock/getpeername
-f1_keywords:
-- winsock/getpeername
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getpeername
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getpeername
+ - winsock/getpeername
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getpeername
 ---
 
 # getpeername function
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getpeername</b> function retrieves the address of the peer to which a socket is connected.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a connected socket.
-
 
 ### -param name [out]
 
 The 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure that receives the address of the peer.
 
-
 ### -param namelen [in, out]
 
 A pointer to the size, in bytes, of the <i>name</i> parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getpeername</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
@@ -156,14 +147,8 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getpeername</b> function retrieves the address of the peer connected to the socket <i>s</i> and stores the address in the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> structure identified by the <i>name</i> parameter. This function works with any address family and it simply returns the address to which the socket is connected. The 
@@ -180,13 +165,7 @@ On call, the <i>namelen</i> parameter contains the size, in bytes, of the <i>nam
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
@@ -213,7 +192,4 @@ On call, the <i>namelen</i> parameter contains the size, in bytes, of the <i>nam
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

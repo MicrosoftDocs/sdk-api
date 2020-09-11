@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin2 interface [Security],SetConfigEntry method, ICertAdmin2.SetConfigEntry, ICertAdmin2::SetConfigEntry, SetConfigEntry, SetConfigEntry method [Security], SetConfigEntry method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetConfigEntry, security.icertadmin2_setconfigentry
-f1_keywords:
-- certadm/ICertAdmin2.SetConfigEntry
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.SetConfigEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::SetConfigEntry
+ - certadm/ICertAdmin2::SetConfigEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.SetConfigEntry
 ---
 
 # ICertAdmin2::SetConfigEntry
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetConfigEntry</b> method sets configuration  information for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
@@ -70,11 +66,9 @@ String value that represents a valid configuration string for the CA in the form
 
 String value that represents the node path for the configuration information. This parameter can be an empty string, in which case the function retrieves configuration information from the path identified by <i>strConfig</i>. This parameter cannot be <b>NULL</b>.
 
-
 ### -param strEntryName [in]
 
 String value that represents the name of the entry whose information is being set. This value can be an empty string, in which case the default entry  is the entry being set. This parameter cannot be <b>NULL</b>.
-
 
 ### -param pvarEntry [in]
 
@@ -91,36 +85,20 @@ String value that represents the name of the entry whose information is being se
 
 ## -returns
 
-
-
 <h3>VB</h3>
 If the function is successful, the return value is S_OK.
 
  
 If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
-
-
-
 ## -remarks
-
-
 
  The configuration information is stored in the registry under the following path.
 
 
 <b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>CertSvc</b>&#92;<b>Configuration</b>&#92;<i>[CASANITIZEDNAME]</i>&#92;<i>[strNodePath]</i>&#92;<i>[strEntryName]</i></p>Where <i>CASANITIZEDNAME</i> is the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized name</a> for the CA. For more information about sanitized names, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
- 
-
- 
 

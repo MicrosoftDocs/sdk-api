@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 56dae943-659a-4e75-81ef-0d58fa3cd6d2
 ms.date: 12/05/2018
 ms.keywords: SLUnloadApplicationPolicies, SLUnloadApplicationPolicies function [Security], security.slunloadapplicationpolicies, slpublic/SLUnloadApplicationPolicies
-f1_keywords:
-- slpublic/SLUnloadApplicationPolicies
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLUnloadApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLUnloadApplicationPolicies
+ - slpublic/SLUnloadApplicationPolicies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLUnloadApplicationPolicies
 ---
 
 # SLUnloadApplicationPolicies function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases the policy context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hPolicyContext [in]
 
@@ -64,17 +60,13 @@ Type: <b>HSLP</b>
 
 The context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
 The additional flags.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -110,7 +102,4 @@ The policy context was not found.
 </td>
 </tr>
 </table>
- 
-
-
 

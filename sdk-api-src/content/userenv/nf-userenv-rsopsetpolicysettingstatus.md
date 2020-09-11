@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: 7ea2f217-4dd2-4c0f-af1b-d4bcb8707519
 ms.date: 12/05/2018
 ms.keywords: RSoPSetPolicySettingStatus, RSoPSetPolicySettingStatus function [Group Policy], RsopSetPolicySettingStatus, _win32_rsopsetpolicysettingstatus, policy.rsopsetpolicysettingstatus, userenv/RSoPSetPolicySettingStatus
-f1_keywords:
-- userenv/RSoPSetPolicySettingStatus
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- RSoPSetPolicySettingStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RsopSetPolicySettingStatus
+ - userenv/RsopSetPolicySettingStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - RSoPSetPolicySettingStatus
 ---
 
 # RsopSetPolicySettingStatus function
 
 
 ## -description
-
 
 The 
     <b>RSoPSetPolicySettingStatus</b> function creates an instance of 
@@ -57,64 +57,42 @@ The
 <b>RSOP_PolicySettingStatus</b> to its 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 This parameter is currently unused.
 
-
 ### -param pServices [in]
 
 Specifies a WMI services pointer to the RSoP namespace to which the policy data is to be written. This parameter is required.
-
 
 ### -param pSettingInstance [in]
 
 Pointer to an instance of 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> containing the policy setting. This parameter is required and can point to the instance's children.
 
-
 ### -param nInfo [in]
 
 Specifies the number of elements in the <i>pStatus</i> array.
-
 
 ### -param pStatus [in]
 
 Pointer to an array of 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-policysettingstatusinfo">POLICYSETTINGSTATUSINFO</a> structures.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>S_OK</b>. Otherwise, the function returns one of the COM error codes defined in the Platform SDK header file WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 To unlink an 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> instance from its 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance, you can call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopresetpolicysettingstatus">RSoPResetPolicySettingStatus</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
@@ -135,7 +113,4 @@ To unlink an
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopresetpolicysettingstatus">RSoPResetPolicySettingStatus</a>
- 
-
- 
 

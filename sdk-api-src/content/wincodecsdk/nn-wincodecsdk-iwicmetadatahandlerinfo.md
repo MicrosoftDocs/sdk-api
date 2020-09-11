@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 505105c2-de50-4b5f-9089-e9a3cea2f464
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], IWICMetadataHandlerInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatahandlerinfo, wic._wic_codec_iwicmetadatahandlerinfo, wincodecsdk/IWICMetadataHandlerInfo
-f1_keywords:
-- wincodecsdk/IWICMetadataHandlerInfo
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataHandlerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataHandlerInfo
+ - wincodecsdk/IWICMetadataHandlerInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataHandlerInfo
 ---
 
 # IWICMetadataHandlerInfo interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that provide basic information about the registered metadata handler.
-
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Retrieves the metadata format of the metadata handler.
 
 </td>
 </tr>
-</table> 
+</table>
 

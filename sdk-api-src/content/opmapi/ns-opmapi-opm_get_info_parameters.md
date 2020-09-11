@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8959c7d1-9a78-497f-8841-d3e61e9db6a3
 ms.date: 12/05/2018
 ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_INFO_PARAMETERS, ksopmapi/OPM_GET_INFO_PARAMETERS, mf.opm_get_info_parameters
-f1_keywords:
-- opmapi/OPM_GET_INFO_PARAMETERS
-dev_langs:
-- c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksopmapi.h
-api_name:
-- OPM_GET_INFO_PARAMETERS
 targetos: Windows
 req.typenames: OPM_GET_INFO_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OPM_GET_INFO_PARAMETERS
+ - opmapi/_OPM_GET_INFO_PARAMETERS
+ - OPM_GET_INFO_PARAMETERS
+ - opmapi/OPM_GET_INFO_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksopmapi.h
+api_name:
+ - OPM_GET_INFO_PARAMETERS
 ---
 
 # OPM_GET_INFO_PARAMETERS structure
@@ -49,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation">IOPMVideoOutput::GetInformation</a> method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field omac
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_omac">OPM_OMAC</a> structure that contains a message authentication code (MAC) for the data in the rest of the structure.
 
-
 ### -field rnRandomNumber
 
 An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_random_number">OPM_RANDOM_NUMBER</a> structure that contains a cryptographically secure 128-bit random number.
 
-
 ### -field guidInformation
 
 A GUID that defines the status request. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-requests">OPM Status Requests</a>.
-
 
 ### -field ulSequenceNumber
 
@@ -81,20 +76,15 @@ On the first call to <a href="https://docs.microsoft.com/windows/desktop/api/opm
 
 Exception: If the status request fails, do not increment the sequence number. Instead, re-use the same number for the next status request.
 
-
 ### -field cbParametersSize
 
 The number of bytes of valid data in the <b>abParameters</b> member.
-
 
 ### -field abParameters
 
 The data for the status request. The meaning of the data depends on the request. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-requests">OPM Status Requests</a>.
 
-
 ## -remarks
-
-
 
 Initialize this structure as follows:
 
@@ -105,19 +95,11 @@ Initialize this structure as follows:
 <li>Copy the MAC to the <b>omac</b> member.</li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
- 
-
- 
 

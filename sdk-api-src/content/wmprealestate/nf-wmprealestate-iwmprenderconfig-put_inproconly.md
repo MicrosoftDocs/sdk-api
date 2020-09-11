@@ -8,10 +8,6 @@ tech.root: WMP
 ms.assetid: fd7c7cbc-f428-46e1-b239-74b78cbf5835
 ms.date: 12/05/2018
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],put_inProcOnly method, IWMPRenderConfig.put_inProcOnly, IWMPRenderConfig::put_inProcOnly, IWMPRenderConfigputInProcOnly, put_inProcOnly, put_inProcOnly method [Windows Media Player], put_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_put_inproconly, wmprealestate/IWMPRenderConfig::put_inProcOnly
-f1_keywords:
-- wmprealestate/IWMPRenderConfig.put_inProcOnly
-dev_langs:
-- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPRenderConfig.put_inProcOnly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPRenderConfig::put_inProcOnly
+ - wmprealestate/IWMPRenderConfig::put_inProcOnly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPRenderConfig.put_inProcOnly
 ---
 
 # IWMPRenderConfig::put_inProcOnly
@@ -49,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_inProcOnly</b> method specifies a value indicating whether playback is restricted to the current process.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fInProc [in]
 
 <b>BOOL</b>, <b>TRUE</b> specifying that playback is restricted to the current process.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Using this method with protected content is not supported.
 
@@ -108,16 +92,7 @@ Note that DirectShow graphs in Windows Media Player always run in the main proce
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>
- 
-
- 
 

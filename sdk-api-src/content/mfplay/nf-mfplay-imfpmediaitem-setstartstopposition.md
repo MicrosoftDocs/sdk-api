@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStartStopPosition method, IMFPMediaItem.SetStartStopPosition, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
-f1_keywords:
-- mfplay/IMFPMediaItem.SetStartStopPosition
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.SetStartStopPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::SetStartStopPosition
+ - mfplay/IMFPMediaItem::SetStartStopPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.SetStartStopPosition
 ---
 
 # IMFPMediaItem::SetStartStopPosition
@@ -49,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Sets the start and stop time for the media item.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidStartPositionType [in]
 
 Unit of time for the start position. See Remarks. This parameter can be <b>NULL</b>.
 
-
 ### -param pvStartValue [in]
 
 Start position. The meaning and data type of this parameter are indicated by the <i>pguidStartPositionType</i> parameter. The  <i>pvStartValue</i> parameter must be <b>NULL</b> if <i>pguidStartPositionType</i> is <b>NULL</b>, and cannot be <b>NULL</b> otherwise.
-
 
 ### -param pguidStopPositionType [in]
 
 Unit of time for the stop position. See Remarks. This parameter can be <b>NULL</b>.
 
-
 ### -param pvStopValue [in]
 
 Stop position. The meaning and data type of this parameter are indicated by the <i>pguidStopPositionType</i> parameter. The <i>pvStopValue</i>  parameter must be <b>NULL</b> if <i>pguidStopPositionType</i> is <b>NULL</b>, and cannot be <b>NULL</b> otherwise.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -133,14 +122,8 @@ Invalid start or stop time. Any of the following can cause this error:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, a media item plays from the beginning to the end of the file. This method adjusts the start time and/or  the stop time:
 
@@ -236,14 +219,7 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-a-file-clip">How to Play a File Clip</a>
 
@@ -254,7 +230,4 @@ done:
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
 

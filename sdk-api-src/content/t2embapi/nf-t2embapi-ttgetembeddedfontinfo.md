@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 0ce9ade0-df5b-4a2a-adf6-ca641e27d2bd
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTGetEmbeddedFontInfo, TTGetEmbeddedFontInfo function [Windows GDI], TTLOAD_FONT_SUBSETTED, _win32_TTGetEmbeddedFontInfo, gdi.ttgetembeddedfontinfo, t2embapi/TTGetEmbeddedFontInfo
-f1_keywords:
-- t2embapi/TTGetEmbeddedFontInfo
-dev_langs:
-- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- T2embed.dll
-api_name:
-- TTGetEmbeddedFontInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TTGetEmbeddedFontInfo
+ - t2embapi/TTGetEmbeddedFontInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - T2embed.dll
+api_name:
+ - TTGetEmbeddedFontInfo
 ---
 
 # TTGetEmbeddedFontInfo function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about an embedded font, such as embedding permissions. <b>TTGetEmbeddedFontInfo</b> performs the same task as <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> but does not allocate internal data structures for the embedded font.
 
-
 ## -parameters
-
-
-
 
 ### -param ulFlags [in]
 
@@ -108,8 +104,6 @@ Return a compressed font structure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulPrivStatus [out]
 
@@ -161,8 +155,6 @@ Restricted License Embedding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulPrivs [in]
 
@@ -226,8 +218,6 @@ Use default embedding level.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulStatus [out]
 
@@ -249,27 +239,20 @@ The font loaded is a subset of the original font.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpfnReadFromStream
 
 [callback] Pointer to the client-defined callback function that reads the font structure from the document stream.
 
-
 ### -param lpvReadStream [in]
 
 Currently undefined. Reserved for a pointer to the stream (font structure).
-
 
 ### -param pTTLoadInfo [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained.
 
-
 ## -returns
-
-
 
 If successful, returns E_NONE.
 
@@ -277,13 +260,7 @@ The location referenced by *<i>pulPrivStatus</i> identifies embedding privileges
 
 Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
 
@@ -298,7 +275,4 @@ Otherwise, returns an error code described in <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
- 
-
- 
 

@@ -1,14 +1,10 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice2.ExecuteExtensionCommand
 title: ID3D12VideoDevice2::ExecuteExtensionCommand
-description: Executes a video extension command. 
+description: Executes a video extension command.
 tech.root: mf
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoDevice2::ExecuteExtensionCommand
-f1_keywords:
-- ID3D12VideoDevice2::ExecuteExtensionCommand
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,14 +25,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoDevice2::ExecuteExtensionCommand
+ - d3d12video/ID3D12VideoDevice2::ExecuteExtensionCommand
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12video.h
+ - d3d12video.h
 api_name:
-- ID3D12VideoDevice2::ExecuteExtensionCommand
+ - ID3D12VideoDevice2::ExecuteExtensionCommand
 ---
 
 ## -description
@@ -82,5 +83,4 @@ Video extension commands executed through this method must complete before this 
 [ID3D12VideoDecodeComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videodecodecommandlist2-executeextensioncommand.md)
 [ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](nf-d3d12video-id3d12videoencodecommandlist1-executeextensioncommand.md)
 [ID3D12VideoProcessComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand.md)
-
 

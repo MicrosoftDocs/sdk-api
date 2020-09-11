@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 70DB58DB-7EE0-4E5C-8B24-22DA9347A80F
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY structure, d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY, direct3d12.d3d12_feature_data_command_queue_priority
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
+ - d3d12/D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY
 ---
 
 # D3D12_FEATURE_DATA_COMMAND_QUEUE_PRIORITY structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Details the adapter's support for prioritization of different command queue types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CommandListType
 
@@ -64,13 +60,11 @@ Details the adapter's support for prioritization of different command queue type
 
 The type of the command list you're interested in.
 
-
 ### -field Priority
 
 <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The priority level you're interested in.
-
 
 ### -field PriorityForTypeIsSupported
 
@@ -78,29 +72,17 @@ The priority level you're interested in.
 
 On return, contains true if the specfied command list type supports the specified priority level; otherwise, false.
 
-
 ## -remarks
-
-
 
 Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the priority levels supported by various command queue types.
 
 See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
- 
-
- 
 

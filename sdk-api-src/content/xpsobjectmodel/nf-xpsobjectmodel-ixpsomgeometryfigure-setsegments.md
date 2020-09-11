@@ -7,10 +7,6 @@ tech.root: xps
 ms.assetid: 4e2a1a80-1eda-458f-b711-de56df7a98ac
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSegments method, IXpsOMGeometryFigure.SetSegments, IXpsOMGeometryFigure::SetSegments, SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.SetSegments
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.SetSegments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::SetSegments
+ - xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.SetSegments
 ---
 
 # IXpsOMGeometryFigure::SetSegments
@@ -48,21 +49,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the segment information and data points for segments in the figure.
 
-
 ## -parameters
-
-
-
 
 ### -param segmentCount [in]
 
 The number of segments.
 
-This value is also the number of elements in the arrays that are referenced by <i>segmentTypes</i> and <i>segmentStrokes</i>. 
-
+This value is also the number of elements in the arrays that are referenced by <i>segmentTypes</i> and <i>segmentStrokes</i>.
 
 ### -param segmentDataCount [in]
 
@@ -70,25 +65,19 @@ The number of segment data points.
 
 This value is also the number of elements in the array that is referenced by <i>segmentData</i>.
 
-
 ### -param segmentTypes [in]
 
 An array of <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type">XPS_SEGMENT_TYPE</a> variables. The value of <i>segmentCount</i> specifies the number of elements in this array.
-
 
 ### -param segmentData [in]
 
 An array of segment data values. The value of <i>segmentDataCount</i> specifies the number of elements in this array.
 
-
 ### -param segmentStrokes [in]
 
 An array of segment stroke values. The value of <i>segmentCount</i> specifies the number of elements in this array.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
@@ -166,14 +155,8 @@ An entry in the array that is passed in <i>segmentData</i> contains a negative v
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A geometry segment is described by the start point, the segment type, and additional parameters whose values are determined by the segment type. The coordinates for the start point of the first segment are a property of the geometry figure and are set by calling <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setstartpoint">SetStartPoint</a>. The start point of each subsequent segment is the end point of the preceding segment.
 
@@ -597,14 +580,7 @@ UpdateSegmentData (
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a>
 
@@ -623,7 +599,4 @@ UpdateSegmentData (
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_segment_type">XPS_SEGMENT_TYPE</a>
- 
-
- 
 

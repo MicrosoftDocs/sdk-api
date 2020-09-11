@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: b8d36716-e25a-4215-8bc7-30091b68c0f6
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_PROPERTY_ALLOW_FRAGMENT, WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, WS_XML_READER_PROPERTY_CHARSET, WS_XML_READER_PROPERTY_COLUMN, WS_XML_READER_PROPERTY_ID, WS_XML_READER_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_READER_PROPERTY_IN_ATTRIBUTE, WS_XML_READER_PROPERTY_MAX_ATTRIBUTES, WS_XML_READER_PROPERTY_MAX_DEPTH, WS_XML_READER_PROPERTY_MAX_MIME_PARTS, WS_XML_READER_PROPERTY_MAX_NAMESPACES, WS_XML_READER_PROPERTY_READ_DECLARATION, WS_XML_READER_PROPERTY_ROW, WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE, WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE, WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE, WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE, webservices/WS_XML_READER_PROPERTY_ALLOW_FRAGMENT, webservices/WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES, webservices/WS_XML_READER_PROPERTY_CHARSET, webservices/WS_XML_READER_PROPERTY_COLUMN, webservices/WS_XML_READER_PROPERTY_ID, webservices/WS_XML_READER_PROPERTY_IN_ATTRIBUTE, webservices/WS_XML_READER_PROPERTY_MAX_ATTRIBUTES, webservices/WS_XML_READER_PROPERTY_MAX_DEPTH, webservices/WS_XML_READER_PROPERTY_MAX_MIME_PARTS, webservices/WS_XML_READER_PROPERTY_MAX_NAMESPACES, webservices/WS_XML_READER_PROPERTY_READ_DECLARATION, webservices/WS_XML_READER_PROPERTY_ROW, webservices/WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE, webservices/WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE, webservices/WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE, webservices/WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE, wsw.ws_xml_reader_property_id
-f1_keywords:
-- webservices/WS_XML_READER_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_READER_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_XML_READER_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_XML_READER_PROPERTY_ID
+ - webservices/WS_XML_READER_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_READER_PROPERTY_ID
 ---
 
 # WS_XML_READER_PROPERTY_ID enumeration
@@ -49,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies each XML reader property is and its associated
         value.  This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_property">WS_XML_READER_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadxmlbufferfrombytes">WsReadXmlBufferFromBytes</a>. It is also used directly as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderproperty">WsGetReaderProperty</a>.
-      
-
 
 ## -enum-fields
-
-
-
 
 ### -field WS_XML_READER_PROPERTY_MAX_DEPTH
 
@@ -75,8 +70,6 @@ This property defaults to 32.
         
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_ALLOW_FRAGMENT
 
@@ -86,8 +79,6 @@ A <b>BOOL</b> that
         
 
 This property defaults to <b>FALSE</b>.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_MAX_ATTRIBUTES
 
@@ -98,8 +89,6 @@ This property defaults to 128.
         
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_READ_DECLARATION
 
@@ -107,8 +96,6 @@ A <b>BOOL</b> that specifies if the reader should permit an xml declaration at t
         
 
 This property defaults to <b>TRUE</b>.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_CHARSET
 
@@ -122,20 +109,14 @@ If the reader was initialized with a <a href="https://docs.microsoft.com/windows
         
 
 If the reader was initialized with any other value, then this property simply returns that value.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_ROW
 
 A <b>ULONGLONG</b> that returns the 0 based row number of the node the reader is positioned on for text xml documents.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_COLUMN
 
 A <b>ULONGLONG</b> that returns the 0 based column number of the node the reader is positioned on for text xml documents.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE
 
@@ -145,8 +126,6 @@ A <b>ULONG</b> that specifies the trim size of the internal buffer used by the
         
 
 This property defaults to 4096.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE
 
@@ -155,17 +134,12 @@ A <b>ULONG</b> that specifies the size of the buffer the <a href="https://docs.m
           can reduce the number of times the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a> is invoked.
         
 
-This property defaults to 4096.          
-        
-
+This property defaults to 4096.
 
 ### -field WS_XML_READER_PROPERTY_IN_ATTRIBUTE
 
 Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadstartattribute">WsReadStartAttribute</a> has been called and the reader is
           positioned on attribute content.
-        
-      
-
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE
 
@@ -175,9 +149,7 @@ A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-w
           <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
         
 
-This property defaults to 65536.          
-        
-
+This property defaults to 65536.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE
 
@@ -187,8 +159,6 @@ A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-w
         
 
 This property defaults to 256.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_MAX_MIME_PARTS
 
@@ -196,9 +166,7 @@ A <b>ULONG</b>used with  <a href="/windows/win32/api/webservices/ns-webservices-
           that may appear in the document.  It has no effect when used with other encodings.
         
 
-This property defaults to 4096.          
-        
-
+This property defaults to 4096.
 
 ### -field WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES
 
@@ -210,8 +178,6 @@ Setting this property to <b>TRUE</b> may affect interoperability.
         
 
 This property defaults to <b>FALSE</b>.
-        
-
 
 ### -field WS_XML_READER_PROPERTY_MAX_NAMESPACES
 
@@ -223,5 +189,4 @@ This property defaults to 32.
         
 
 See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
-        
 

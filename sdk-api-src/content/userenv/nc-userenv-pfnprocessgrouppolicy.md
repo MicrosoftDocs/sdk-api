@@ -8,10 +8,6 @@ tech.root: Policy
 ms.assetid: f639c11c-ee65-45b6-ba0d-f39c825b3d80
 ms.date: 12/05/2018
 ms.keywords: GPO_INFO_FLAG_ASYNC_FOREGROUND, GPO_INFO_FLAG_BACKGROUND, GPO_INFO_FLAG_FORCED_REFRESH, GPO_INFO_FLAG_LINKTRANSITION, GPO_INFO_FLAG_LOGRSOP_TRANSITION, GPO_INFO_FLAG_MACHINE, GPO_INFO_FLAG_NOCHANGES, GPO_INFO_FLAG_SAFEMODE_BOOT, GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, PFNPROCESSGROUPPOLICY, PFNPROCESSGROUPPOLICY callback, PFNPROCESSGROUPPOLICY callback function [Group Policy], ProcessGroupPolicy, _win32_processgrouppolicy, policy.processgrouppolicy, userenv/PFNPROCESSGROUPPOLICY
-f1_keywords:
-- userenv/PFNPROCESSGROUPPOLICY
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Userenv.h
-api_name:
-- PFNPROCESSGROUPPOLICY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNPROCESSGROUPPOLICY
+ - userenv/PFNPROCESSGROUPPOLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Userenv.h
+api_name:
+ - PFNPROCESSGROUPPOLICY
 ---
 
 # PFNPROCESSGROUPPOLICY callback function
 
 
 ## -description
-
 
 The
     <b>ProcessGroupPolicy</b> function is an application-defined callback function used when applying policy. The <b>PFNPROCESSGROUPPOLICY</b> type defines a pointer to this callback function. 
@@ -57,11 +57,7 @@ The
 This callback function is not useful for Resultant Set of Policy (RSoP) processing; use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a> callback function instead.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -128,7 +124,6 @@ A forced policy refresh is being applied.
 
 Safe mode flag.
 
-
 ### -param hToken [in]
 
 Token for the user or computer, returned from the 
@@ -140,53 +135,39 @@ Token for the user or computer, returned from the
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a>.
 
-
 ### -param hKeyRoot [in]
 
 Handle to the <b>HKEY_LOCAL_MACHINE</b> or <b>HKEY_CURRENT_USER</b> registry key.
-
 
 ### -param pDeletedGPOList [in]
 
 Pointer that receives the list of deleted GPO structures. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
-
 ### -param pChangedGPOList [in]
 
 Pointer that receives the list of changed GPO structures. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
-
 ### -param pHandle [in]
 
 Asynchronous completion handle. If the callback function does not support asynchronous processing, this handle is zero.
 
-
 ### -param *pbAbort [in]
 
 Specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>, GPO processing will cease. If this parameter is <b>FALSE</b>, GPO processing will continue.
-
 
 ### -param pStatusCallback [in]
 
 Pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a> callback function that displays status messages. This parameter can be <b>NULL</b> in certain cases. For example, if the system is applying policy in the background, the status user interface is not present and the application cannot send status messages to be displayed. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If policy was applied successfully, return <b>ERROR_SUCCESS</b>. If there are no changes to the GPO list, and the extension is to be called again, return <b>ERROR_OVERRIDE_NOCHANGES</b>. Returning <b>ERROR_OVERRIDE_NOCHANGES</b> ensures that the extension is called again, even if the <b>NoGPOListChanges</b> registry value is set. (For more information about this registry value, see Remarks.) Otherwise, return a 
 <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/implementing-a-group-policy-client-side-extension">Implementing a Group Policy Client-side Extension</a>.
@@ -211,12 +192,7 @@ You should update the status message only if you are applying policy synchronous
 <div class="alert"><b>Warning</b>  Do not call the <i>pStatusCallback</i> function from a background thread because you may overwrite another thread's status message.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
@@ -237,7 +213,4 @@ You should update the status message only if you are applying policy synchronous
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 71f3a4bd-5823-47ae-aa7a-f3058f18c591
 ms.date: 12/05/2018
 ms.keywords: '*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE'
-f1_keywords:
-- wingdi/GRADIENT_TRIANGLE
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- GRADIENT_TRIANGLE
 targetos: Windows
 req.typenames: GRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, *LPGRADIENT_TRIANGLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _GRADIENT_TRIANGLE
+ - wingdi/_GRADIENT_TRIANGLE
+ - PGRADIENT_TRIANGLE
+ - wingdi/PGRADIENT_TRIANGLE
+ - GRADIENT_TRIANGLE
+ - wingdi/GRADIENT_TRIANGLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - GRADIENT_TRIANGLE
 ---
 
 # GRADIENT_TRIANGLE structure
@@ -49,36 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GRADIENT_TRIANGLE</b> structure specifies the index of three vertices in the <i>pVertex</i> array in the <b>GradientFill</b> function. These three vertices form one triangle.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Vertex1
 
 The first point of the triangle where sides intersect.
 
-
 ### -field Vertex2
 
 The second point of the triangle where sides intersect.
-
 
 ### -field Vertex3
 
 The third point of the triangle where sides intersect.
 
-
 ## -remarks
-
-
 
 The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_TRIANGLE. For related <b>GradientFill</b> structures, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>.
 
@@ -92,12 +84,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
@@ -116,7 +103,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
- 
-
- 
 

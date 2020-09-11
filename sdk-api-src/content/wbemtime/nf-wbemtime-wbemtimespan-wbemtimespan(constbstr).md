@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 51be003d-e85d-4cd0-99ed-a4575e35a773
 ms.date: 12/05/2018
 ms.keywords: ??0WBEMTimeSpan@@QAE@QAG@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const BSTR), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(BSTR), WBEMTimeSpan::WBEMTimeSpan(const BSTR), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_bstr_
-f1_keywords:
-- wbemtime/WBEMTimeSpan.WBEMTimeSpan
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTimeSpan.WBEMTimeSpan
-- ??0WBEMTimeSpan@@QAE@QAG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTimeSpan::WBEMTimeSpan
+ - wbemtime/WBEMTimeSpan::WBEMTimeSpan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTimeSpan.WBEMTimeSpan
+ - ??0WBEMTimeSpan@@QAE@QAG@Z
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan(const BSTR)
 
 
 ## -description
-
 
 <p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
@@ -60,11 +60,7 @@ ms.custom: 19H1
 
 This   <b>WBEMTimeSpan</b> class constructor creates a time span object from a <b>BSTR</b> in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/interval-format">Interval Format</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrDMTFFormat
 

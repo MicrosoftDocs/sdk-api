@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 52724e5d-074f-4715-9dca-50ed22d8519e
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewModeAndIconSize method, IFolderView2.SetViewModeAndIconSize, IFolderView2::SetViewModeAndIconSize, SetViewModeAndIconSize, SetViewModeAndIconSize method [Windows Shell], SetViewModeAndIconSize method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewModeAndIconSize, shell.IFolderView2_SetViewModeAndIconSize, shobjidl_core/IFolderView2::SetViewModeAndIconSize
-f1_keywords:
-- shobjidl_core/IFolderView2.SetViewModeAndIconSize
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFolderView2.SetViewModeAndIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView2::SetViewModeAndIconSize
+ - shobjidl_core/IFolderView2::SetViewModeAndIconSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFolderView2.SetViewModeAndIconSize
 ---
 
 # IFolderView2::SetViewModeAndIconSize
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets and applies the view mode and image size.
 
-
 ## -parameters
-
-
-
 
 ### -param uViewMode [in]
 
@@ -64,30 +60,19 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/n
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a> to be applied.
 
-
 ### -param iImageSize [in]
 
 Type: <b>int</b>
 
 The size of the image in pixels.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 If <i>iImageSize</i> is -1 then the current default icon size for the view mode is used.
-
-
 

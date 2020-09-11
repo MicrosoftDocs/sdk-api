@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: f67b04b5-163e-4793-8df0-10a4b2be5025
 ms.date: 12/05/2018
 ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype
-f1_keywords:
-- dmort/MoCreateMediaType
-dev_langs:
-- c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdmo.dll
-api_name:
-- MoCreateMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MoCreateMediaType
+ - dmort/MoCreateMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdmo.dll
+api_name:
+ - MoCreateMediaType
 ---
 
 # MoCreateMediaType function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MoCreateMediaType</b> function allocates a new media type structure.
 
-
 ## -parameters
-
-
-
 
 ### -param ppmt
 
 Receives a pointer to an allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
 
-
 ### -param cbFormat
 
 Number of bytes to allocate for the format block. Can be zero.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -113,20 +105,10 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function allocates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure on the heap. It also allocates memory for the format block. The caller must delete the structure by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-modeletemediatype">MoDeleteMediaType</a> function.
 
 Internally, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-moinitmediatype">MoInitMediaType</a> to allocate the format block.
-
-
-
-
 

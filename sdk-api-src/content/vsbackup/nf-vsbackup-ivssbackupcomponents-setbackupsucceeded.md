@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
-f1_keywords:
-- vsbackup/IVssBackupComponents.SetBackupSucceeded
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.SetBackupSucceeded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::SetBackupSucceeded
+ - vsbackup/IVssBackupComponents::SetBackupSucceeded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.SetBackupSucceeded
 ---
 
 # IVssBackupComponents::SetBackupSucceeded
@@ -50,31 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetBackupSucceeded</b> method indicates whether the backup of the specified component of a specific writer was successful.
 
-
 ## -parameters
-
-
-
 
 ### -param instanceId [in]
 
 Globally unique identifier (GUID) of the writer instance.
 
-
 ### -param writerId [in]
 
 Globally unique identifier (GUID) of the writer class.
-
 
 ### -param ct [in]
 
 Type of the component. See 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for the possible values.
-
 
 ### -param wszLogicalPath [in]
 
@@ -90,7 +83,6 @@ The logical path can be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ### -param wszComponentName [in]
 
 <b>Null</b>-terminated wide character string containing the name of the component. 
@@ -101,15 +93,11 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 The string cannot be <b>NULL</b> and should contain the same component name as was used when the component was added to the backup set using 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
-
 ### -param bSucceded [in]
 
 Set this parameter to <b>true</b> if the component was successfully backed up, or <b>false</b> otherwise.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -200,14 +188,8 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When working in component mode (when 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a> is called with its select components argument set to <b>true</b>), writers check the state of each components backup using 
@@ -217,13 +199,7 @@ When working in component mode (when
 
 Do not call this method if the call to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> failed.  For more information about how requesters use  <b>DoSnapshotSet</b>, <b>SetBackupSucceeded</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> in a backup operation, see <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-actual-backup-of-files">Overview of Actual Backup Of Files</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
@@ -238,7 +214,4 @@ Do not call this method if the call to <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
 

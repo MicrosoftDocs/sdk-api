@@ -8,10 +8,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_copyresource.htm
 ms.date: 12/05/2018
 ms.keywords: 7cc09321-049c-23b4-3867-f1b76d332515, CopyResource, CopyResource method [Direct3D 10], CopyResource method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopyResource method, ID3D10Device.CopyResource, ID3D10Device::CopyResource, d3d10/ID3D10Device::CopyResource, direct3d10.id3d10device_copyresource
-f1_keywords:
-- d3d10/ID3D10Device.CopyResource
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: D3D10.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10.lib
-- D3D10.dll
-api_name:
-- ID3D10Device.CopyResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10Device::CopyResource
+ - d3d10/ID3D10Device::CopyResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10.lib
+ - D3D10.dll
+api_name:
+ - ID3D10Device.CopyResource
 ---
 
 # ID3D10Device::CopyResource
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copy the entire contents of the source resource to the destination resource using the GPU. 
-
+Copy the entire contents of the source resource to the destination resource using the GPU.
 
 ## -parameters
-
-
-
 
 ### -param pDstResource [in]
 
@@ -65,17 +61,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-
 
 A pointer to the destination resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
 
-
 ### -param pSrcResource [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>*</b>
 
 A pointer to the source resource (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource</a>).
 
-
 ## -remarks
-
-
 
 This method is unusual in that it causes the GPU to perform the copy operation (similar to a memcpy by the CPU). As a result, it has a few restrictions designed for improving performance. For instance, the source and destination resources:
 
@@ -107,22 +99,12 @@ It is possible to copy between prestructured+typed resources and block-compresse
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
- 
-
- 
 

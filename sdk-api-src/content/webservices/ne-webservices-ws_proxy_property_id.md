@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: d81944ae-74b9-4eee-b02f-5b1d5c99c358
 ms.date: 12/05/2018
 ms.keywords: WS_PROXY_FAULT_LANG_ID, WS_PROXY_PROPERTY_CALL_TIMEOUT, WS_PROXY_PROPERTY_ID, WS_PROXY_PROPERTY_ID enumeration [Web Services for Windows], WS_PROXY_PROPERTY_MAX_CALL_POOL_SIZE, WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT, WS_PROXY_PROPERTY_MAX_PENDING_CALLS, WS_PROXY_PROPERTY_MESSAGE_PROPERTIES, WS_PROXY_PROPERTY_STATE, webservices/WS_PROXY_FAULT_LANG_ID, webservices/WS_PROXY_PROPERTY_CALL_TIMEOUT, webservices/WS_PROXY_PROPERTY_ID, webservices/WS_PROXY_PROPERTY_MAX_CALL_POOL_SIZE, webservices/WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT, webservices/WS_PROXY_PROPERTY_MAX_PENDING_CALLS, webservices/WS_PROXY_PROPERTY_MESSAGE_PROPERTIES, webservices/WS_PROXY_PROPERTY_STATE, wsw.ws_proxy_property_id
-f1_keywords:
-- webservices/WS_PROXY_PROPERTY_ID
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_PROXY_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_PROXY_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_PROXY_PROPERTY_ID
+ - webservices/WS_PROXY_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_PROXY_PROPERTY_ID
 ---
 
 # WS_PROXY_PROPERTY_ID enumeration
@@ -49,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Optional parameters for configuring the service proxy. With an exception of
                 <b>WS_PROXY_PROPERTY_STATE</b> all the values are only supported for 
-                use with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_proxy_property">WS_PROXY_PROPERTY*</a> parameter. 
-            
-
+                use with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_proxy_property">WS_PROXY_PROPERTY*</a> parameter.
 
 ## -enum-fields
-
-
-
 
 ### -field WS_PROXY_PROPERTY_CALL_TIMEOUT
 
@@ -70,8 +65,6 @@ If an application wishes to have no timeout associated with a call, it can set t
                 
 
 This property is write only.
-                
-
 
 ### -field WS_PROXY_PROPERTY_MESSAGE_PROPERTIES
 
@@ -112,8 +105,6 @@ Each call in the service proxy is represented by an object internal to the servi
                  It is of type <b>USHORT</b>.
 
 This property is write only.
-                
-
 
 ### -field WS_PROXY_PROPERTY_STATE
 
@@ -126,8 +117,6 @@ This property is read only.
 The returned value is a snapshot of the current state, so it is
                     possible that the state may have changed before the caller has
                     had a chance to examine the value.
-                
-
 
 ### -field WS_PROXY_PROPERTY_MAX_PENDING_CALLS
 
@@ -138,8 +127,6 @@ The maximum number of pending calls allowed on the service proxy. If the
                  It is of type <b>ULONG</b>.
 
 This property is write only.
-                
-
 
 ### -field WS_PROXY_PROPERTY_MAX_CLOSE_TIMEOUT
 
@@ -153,12 +140,10 @@ The default value for this property is 5000 (5 seconds).
 This property is write only.
                  It is of type <b>ULONG</b>.
 
-
 ### -field WS_PROXY_FAULT_LANG_ID
 
 The LANGID that would be used for returning a fault. If none specified default user locale will be used. It is of type <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">LANGID</a>. 
                 
 
 This property is write only.
-                
 

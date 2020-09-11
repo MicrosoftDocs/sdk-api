@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: b9227df3-0693-4b0f-99de-d10fa3d7acf5
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE function [Failover Cluster], ResUtilSetSzValue, ResUtilSetSzValue function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE, resapi/ResUtilSetSzValue
-f1_keywords:
-- resapi/ResUtilSetSzValue
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilSetSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilSetSzValue
+ - resapi/ResUtilSetSzValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilSetSzValue
 ---
 
 # ResUtilSetSzValue function
@@ -49,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a string value in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>. The <b>PRESUTIL_SET_SZ_VALUE</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyClusterKey [in]
 
 Key identifying the location of the string value in the cluster database.
 
-
 ### -param pszValueName [in]
 
 Null-terminated Unicode string containing the name of the value to update.
-
 
 ### -param pszNewValue [in]
 
 Pointer to the new string value.
 
-
 ### -param ppszOutString [in, out, optional]
 
 Pointer to a string pointer that receives a copy of the updated value. If used, callers must call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> on *<i>ppszOutValue</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
@@ -104,14 +94,8 @@ An error occurred while attempting to allocate memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  <b>ResUtilSetSzValue</b> utility function allocates memory for the new value and calls the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-api">Cluster API</a> function  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>. If necessary, a previous value is deallocated. The new value is copied to the content of <i>ppszOutValue</i>.
 
@@ -138,13 +122,7 @@ Do not call  <b>ResUtilSetSzValue</b> from the following resource DLL entry poin
 </ul>
 <b>ResUtilSetSzValue</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a>
 
@@ -163,7 +141,4 @@ Do not call  <b>ResUtilSetSzValue</b> from the following resource DLL entry poin
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetmultiszvalue">ResUtilSetMultiSzValue</a>
- 
-
- 
 

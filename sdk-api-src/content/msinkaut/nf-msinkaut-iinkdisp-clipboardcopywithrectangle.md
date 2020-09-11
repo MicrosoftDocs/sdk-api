@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: a4e6a183-242a-40af-871b-43a0b177a27a
 ms.date: 12/05/2018
 ms.keywords: ClipboardCopyWithRectangle, ClipboardCopyWithRectangle method [Tablet PC], ClipboardCopyWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopyWithRectangle method, IInkDisp.ClipboardCopyWithRectangle, IInkDisp::ClipboardCopyWithRectangle, a4e6a183-242a-40af-871b-43a0b177a27a, msinkaut/IInkDisp::ClipboardCopyWithRectangle, tablet.inkdisp_clipboardcopywithrectangle
-f1_keywords:
-- msinkaut/IInkDisp.ClipboardCopyWithRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDisp.ClipboardCopyWithRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDisp::ClipboardCopyWithRectangle
+ - msinkaut/IInkDisp::ClipboardCopyWithRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDisp.ClipboardCopyWithRectangle
 ---
 
 # IInkDisp::ClipboardCopyWithRectangle
@@ -50,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Copies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> objects that are contained within the known rectangle to the Clipboard.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Rectangle [in]
 
 Specifies the rectangle that contains the strokes to copy to the Clipboard.
 
-
 ### -param ClipboardFormats [in, optional]
 
 Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats">InkClipboardFormats</a> enumeration value of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The default value is <b>ICF_Default</b>.
-
 
 ### -param ClipboardModes [in, optional]
 
 Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardmodes">InkClipboardModes Enumeration</a> value of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a> object. The default value is <b>ICB_Default</b>.
 
-
 ### -param DataObject [out, retval]
 
 When this method returns, contains a pointer to the newly create data object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -127,14 +114,8 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the rectangle clips strokes, those strokes are clipped in the copied data.
 
@@ -150,13 +131,7 @@ This also applies to <a href="https://docs.microsoft.com/windows/desktop/tablet/
 
 If the strokes count is queried within the event handler, the result is the total number of strokes added by the whole operation including the strokes that have not yet generated events.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy">ClipboardCopy Method</a>
 
@@ -179,7 +154,4 @@ If the strokes count is queried within the event handler, the result is the tota
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
 

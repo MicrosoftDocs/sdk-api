@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8E4E1E6C-1C80-4A0B-98CE-2ED3443E1821
 ms.date: 12/05/2018
 ms.keywords: UnpackRatio, mf.unpackratio, mfapi/unpackratio, unpackratio, unpackratio function [Media Foundation]
-f1_keywords:
-- mfapi/unpackratio
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfapi.h
-api_name:
-- unpackratio
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnpackRatio
+ - mfapi/UnpackRatio
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - unpackratio
 ---
 
 # UnpackRatio function
@@ -49,43 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the low-order and high-order <b>UINT32</b> values from a <b>UINT64</b> value that represents a ratio.
 
-
 ## -parameters
-
-
-
 
 ### -param unPacked [in]
 
 The value to convert.
 
-
 ### -param pnNumerator [out]
 
 Receives the high-order 32 bits.
-
 
 ### -param punDenominator [out]
 
 Receives the low-order 32 bits.
 
-
 ## -remarks
-
-
 
 You can use this function to unpack a <b>UINT64</b> value that you receive from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">IMFAttributes::GetUINT64</a> method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributeratio">MFGetAttributeRatio</a>
 
@@ -96,7 +81,4 @@ You can use this function to unpack a <b>UINT64</b> value that you receive from 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
 

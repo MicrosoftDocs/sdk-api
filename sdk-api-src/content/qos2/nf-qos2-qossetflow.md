@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648
 ms.date: 12/05/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
-f1_keywords:
-- qos2/QOSSetFlow
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSSetFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSSetFlow
+ - qos2/QOSSetFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSSetFlow
 ---
 
 # QOSSetFlow function
@@ -49,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSSetFlow</b> function is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.  This function is also used to notify the QoS subsystem of a flow change: for example, if the flow rate is changed in order to account for network congestion, or if the QoS priority value requires adjustment for transferring or streaming different types of content over a single persistent socket connection.
 
-
 ## -parameters
-
-
-
 
 ### -param QOSHandle [in]
 
 Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
-
 ### -param FlowId [in]
 
 A flow identifier. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
-
 
 ### -param Operation [in]
 
@@ -113,32 +107,24 @@ Windows 7, Windows Server 2008 R2, and later: The outgoing DSCP value will be
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Size [in]
 
 The size of the <i>Buffer</i> parameter, in bytes.
 
-
 ### -param Buffer [in]
 
 Pointer to the structure specified by the value of the <i>Operation</i> parameter.
-
 
 ### -param Flags
 
 Reserved for future use. This parameter must be set to 0.
 
-
 ### -param Overlapped [out, optional]
 
 Pointer to an OVERLAPPED structure used for asynchronous output.  This must be set to <b>NULL</b> if this function is not being called asynchronously.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -326,14 +312,8 @@ The network connection with the remote host failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> has not already been called, calling <b>QOSSetFlow</b> will cause the QOS subsystem to perform the following.<ul>
 <li>Discover whether the end-to-end network path supports prioritization.</li>
@@ -394,17 +374,7 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
 

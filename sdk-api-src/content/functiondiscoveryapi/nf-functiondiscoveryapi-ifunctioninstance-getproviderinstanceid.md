@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
 ms.date: 12/05/2018
 ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderInstanceID method,IFunctionInstance interface, IFunctionInstance interface,GetProviderInstanceID method, IFunctionInstance.GetProviderInstanceID, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstance.GetProviderInstanceID
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstance.GetProviderInstanceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstance::GetProviderInstanceID
+ - functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstance.GetProviderInstanceID
 ---
 
 # IFunctionInstance::GetProviderInstanceID
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the identifier string for the provider instance. This string is the unique identifier for the provider instance.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszCoMemProviderInstanceIdentity [out]
 
@@ -66,10 +62,7 @@ The provider instance identifier string. For root devices, this string has the s
 
 Be sure to free this buffer using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -112,18 +105,8 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
- 
-
- 
 

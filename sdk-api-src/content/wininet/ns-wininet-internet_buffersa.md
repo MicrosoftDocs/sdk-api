@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERNET_BUFFERSA, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW'
-f1_keywords:
-- wininet/INTERNET_BUFFERS
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- INTERNET_BUFFERS
-- INTERNET_BUFFERSA
-- INTERNET_BUFFERSW
 targetos: Windows
 req.typenames: INTERNET_BUFFERSA, *LPINTERNET_BUFFERSA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _INTERNET_BUFFERSA
+ - wininet/_INTERNET_BUFFERSA
+ - LPINTERNET_BUFFERSA
+ - wininet/LPINTERNET_BUFFERSA
+ - INTERNET_BUFFERSA
+ - wininet/INTERNET_BUFFERSA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - INTERNET_BUFFERS
+ - INTERNET_BUFFERSA
+ - INTERNET_BUFFERSW
 ---
 
 # INTERNET_BUFFERSA structure
@@ -51,72 +56,55 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains both the data and header information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwStructSize
 
 Size of the 
-structure, in bytes. 
-
+structure, in bytes.
 
 ### -field Next
 
 Pointer to the next 
-<b>INTERNET_BUFFERS</b> structure. 
-
+<b>INTERNET_BUFFERS</b> structure.
 
 ### -field lpcszHeader
 
-Pointer to a string value that contains the headers. This member can be <b>NULL</b>. 
-
+Pointer to a string value that contains the headers. This member can be <b>NULL</b>.
 
 ### -field dwHeadersLength
 
 Size of the headers, in <b>TCHARs</b>, if 
-<b>lpcszHeader</b> is not <b>NULL</b>. 
-
+<b>lpcszHeader</b> is not <b>NULL</b>.
 
 ### -field dwHeadersTotal
 
-Size of the headers, if there is not enough memory in the buffer. 
-
+Size of the headers, if there is not enough memory in the buffer.
 
 ### -field lpvBuffer
 
-Pointer to the data buffer. 
-
+Pointer to the data buffer.
 
 ### -field dwBufferLength
 
 Size of the buffer, in bytes, if 
-<b>lpvBuffer</b> is not <b>NULL</b>. 
-
+<b>lpvBuffer</b> is not <b>NULL</b>.
 
 ### -field dwBufferTotal
 
-Total size of the resource, in bytes. 
-
+Total size of the resource, in bytes.
 
 ### -field dwOffsetLow
 
-Reserved; do not use. 
-
+Reserved; do not use.
 
 ### -field dwOffsetHigh
 
-Reserved; do not use. 
-
+Reserved; do not use.
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
@@ -129,15 +117,9 @@ Reserved; do not use.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequestexa">HttpSendRequestEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetreadfileexa">InternetReadFileEx</a>
- 
-
- 
 

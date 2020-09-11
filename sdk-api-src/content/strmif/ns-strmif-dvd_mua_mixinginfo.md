@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53
 ms.date: 12/05/2018
 ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_MUA_MixingInfoStructure, dshow.dvd_mua_mixinginfo, strmif/DVD_MUA_MixingInfo
-f1_keywords:
-- strmif/DVD_MUA_MixingInfo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- DVD_MUA_MixingInfo
 targetos: Windows
 req.typenames: DVD_MUA_MixingInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagDVD_MUA_MixingInfo
+ - strmif/tagDVD_MUA_MixingInfo
+ - DVD_MUA_MixingInfo
+ - strmif/DVD_MUA_MixingInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - DVD_MUA_MixingInfo
 ---
 
 # DVD_MUA_MixingInfo structure
@@ -49,46 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>DVD_MUA_MixingInfo</code> structure describes the surround sound mixing information for the channels in one audio stream in a specified title.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field fMixTo0
 
 Variable of type BOOL; <b>TRUE</b> means the channel is mixed to channel 0.
 
-
 ### -field fMixTo1
 
 Variable of type BOOL; <b>TRUE</b> means the channel is mixed to channel 1.
-
 
 ### -field fMix0InPhase
 
 Variable of type BOOL; <b>TRUE</b> means the channel is mixed in phase to channel 0.
 
-
 ### -field fMix1InPhase
 
 Variable of type BOOL; <b>TRUE</b> means the channel is mixed in phase to channel 1.
-
 
 ### -field dwSpeakerPosition
 
 The speaker for which this channel is intended. See Remarks.
 
-
 ## -remarks
-
-
 
 Applications cannot use the information contained in this structure to change the mixing unless they have a way to communicate with a custom audio decoder that has been inserted manually into the filter graph. The default audio decoder handles Linear Pulse Code Modulated (LPCM) audio using the mixing information on the digital video disc (DVD), but applications have no way to instruct the decoder to modify the mixing values. This means that current DVD playback applications should have no need to access the multichannel-related data structures.
 
@@ -157,22 +145,12 @@ Possible values for <b>dwSpeakerPosition</b> are defined in Ksmedia.h as follows
 <td>0x800</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 [DVD_AudioAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_audioattributes)
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
 

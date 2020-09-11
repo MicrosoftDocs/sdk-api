@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 3F38BC3A-9CFD-4FB3-A744-612E25DF0F0F
 ms.date: 12/05/2018
 ms.keywords: GetFile, GetFile method [App packaging and management], GetFile method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFile method, IAppxBlockMapReader.GetFile, IAppxBlockMapReader::GetFile, appxpackaging/IAppxBlockMapReader::GetFile, appxpkg.iappxblockmapreader_getfile
-f1_keywords:
-- appxpackaging/IAppxBlockMapReader.GetFile
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBlockMapReader.GetFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBlockMapReader::GetFile
+ - appxpackaging/IAppxBlockMapReader::GetFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBlockMapReader.GetFile
 ---
 
 # IAppxBlockMapReader::GetFile
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves data corresponding to a file in the block map with the specified file name.
 
-
 ## -parameters
-
-
-
 
 ### -param filename [in]
 
@@ -64,17 +60,13 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The name of the file.
 
-
 ### -param file [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfile">IAppxBlockMapFile</a>**</b>
 
 The data about the file's attributes and blocks.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,18 +89,8 @@ The specified file name does not match the name of a file listed in the block ma
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
- 
-
- 
 

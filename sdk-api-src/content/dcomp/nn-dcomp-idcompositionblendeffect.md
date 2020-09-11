@@ -8,10 +8,6 @@ tech.root: directcomp
 ms.assetid: F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBlendEffect, IDCompositionBlendEffect interface [DirectComposition], IDCompositionBlendEffect interface [DirectComposition],described, dcomp/IDCompositionBlendEffect, directcomp.idcompositionblendeffect
-f1_keywords:
-- dcomp/IDCompositionBlendEffect
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionBlendEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionBlendEffect
+ - dcomp/IDCompositionBlendEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionBlendEffect
 ---
 
 # IDCompositionBlendEffect interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The Blend Effect is used to combine 2 images.
-        
-
 
 ## -inheritance
 
@@ -78,16 +76,9 @@ Sets the blend mode to use when the blend effect combines the two images.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
- 
-
- 
 

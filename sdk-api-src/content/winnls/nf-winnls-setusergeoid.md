@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: 2e201a7e-6767-4908-b98c-f5b7f0544e60
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windows Applications], _win32_SetUserGeoID, intl.setusergeoid, winnls/SetUserGeoID
-f1_keywords:
-- winnls/SetUserGeoID
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- SetUserGeoID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetUserGeoID
+ - winnls/SetUserGeoID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - SetUserGeoID
 ---
 
 # SetUserGeoID function
@@ -55,27 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SetUserGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoname">SetUserGeoName</a>.
 
 ]
 
 Sets the geographical location identifier for the user. This identifier should have one of the values described in <a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param GeoId [in]
 
 Identifier for the geographical location of the user.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
@@ -89,23 +82,13 @@ If this function does not succeed, the application can call <a href="https://doc
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function writes to the registry the geographical location for a particular user instead of a particular application. This action affects the behavior of other applications run by the user. As a rule, the application should call this function only when the user has explicitly requested changes, but not for purely application-specific reasons.
 
 <b>SetUserGeoID</b> is intended for use by applications that are designed to change user settings, such as the Windows Settings app. Other applications should not call this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getusergeoid">GetUserGeoID</a>
 
@@ -124,7 +107,4 @@ This function writes to the registry the geographical location for a particular 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>
- 
-
- 
 

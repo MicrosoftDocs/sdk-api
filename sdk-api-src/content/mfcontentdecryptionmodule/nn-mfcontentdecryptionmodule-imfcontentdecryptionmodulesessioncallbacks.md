@@ -28,23 +28,23 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSessionCallbacks
 f1_keywords:
+ - IMFContentDecryptionModuleSessionCallbacks
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSessionCallbacks
 dev_langs:
  - c++
 ---
 
-## -inheritance
-
-IUnknown
-
 ## -description
 
 Provides a callback mechanism for receiving key status change updates from an [IMFContentDecryptionModuleSession](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession.md).
 
+## -inheritance
+
+IUnknown
+
 ## -remarks
 
 **IMFContentDecryptionModuleSessionCallbacks** is based on the Encrypted Media Extension specification's  [keystatuseschange event](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-evt-keystatuseschange).
-
 
 ## -see-also
 

@@ -28,12 +28,11 @@ api_location:
 api_name:
  - IMFRelativePanelReport
 f1_keywords:
+ - IMFRelativePanelReport
  - mfidl/IMFRelativePanelReport
 dev_langs:
  - c++
 ---
-
-
 
 ## -description
 

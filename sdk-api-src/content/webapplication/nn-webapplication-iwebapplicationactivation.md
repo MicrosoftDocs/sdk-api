@@ -8,10 +8,6 @@ tech.root: debug
 ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
-f1_keywords:
-- webapplication/IWebApplicationActivation
-dev_langs:
-- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WWAHost.exe
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WWAHost.exe
-- WWAHost.exe.dll
-api_name:
-- IWebApplicationActivation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebApplicationActivation
+ - webapplication/IWebApplicationActivation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WWAHost.exe
+ - WWAHost.exe.dll
+api_name:
+ - IWebApplicationActivation
 ---
 
 # IWebApplicationActivation interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables debugging applications to manage activations.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Cancels a pending activation.
 
 </td>
 </tr>
-</table> 
+</table>
 

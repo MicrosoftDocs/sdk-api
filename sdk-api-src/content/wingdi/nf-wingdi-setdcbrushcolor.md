@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
 ms.date: 12/05/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
-f1_keywords:
-- wingdi/SetDCBrushColor
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-l1-2-0.dll
-- ext-ms-win-gdi-dc-l1-1-0.dll
-- ext-ms-win-gdi-dc-l1-2-1.dll
-- GDI32Full.dll
-api_name:
-- SetDCBrushColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDCBrushColor
+ - wingdi/SetDCBrushColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-l1-2-0.dll
+ - ext-ms-win-gdi-dc-l1-1-0.dll
+ - ext-ms-win-gdi-dc-l1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - SetDCBrushColor
 ---
 
 # SetDCBrushColor function
@@ -53,39 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>SetDCBrushColor</b> function sets the current device context (DC) brush color to the specified color value. If the device cannot represent the specified color value, the color is set to the nearest physical color.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the DC.
 
-
 ### -param color [in]
 
 The new brush color.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the previous DC brush color as a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value.
 
 If the function fails, the return value is CLR_INVALID.
 
-
-
-
 ## -remarks
-
-
 
 When the stock DC_BRUSH is selected in a DC, all the subsequent drawings will be done using the DC brush color until the stock brush is deselected. The default DC_BRUSH color is WHITE.
 
@@ -102,12 +89,7 @@ For an example of setting colors, see <a href="https://docs.microsoft.com/window
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
@@ -123,7 +105,4 @@ For an example of setting colors, see <a href="https://docs.microsoft.com/window
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcbrushcolor">GetDCBrushColor
       </a>
- 
-
- 
 

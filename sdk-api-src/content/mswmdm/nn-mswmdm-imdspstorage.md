@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: f22b8a6d-7df8-4fea-9436-79b9ded25a40
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], IMDSPStorage interface [windows Media Device Manager],described, IMDSPStorageInterface, mswmdm/IMDSPStorage, wmdm.imdspstorage
-f1_keywords:
-- mswmdm/IMDSPStorage
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IMDSPStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorage
+ - mswmdm/IMDSPStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IMDSPStorage
 ---
 
 # IMDSPStorage interface
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IMDSPStorage</b> interface provides an instanced-based association with a storage medium on a device. An <b>IMDSPStorage</b> interface can represent the entire storage medium, or can be further enumerated to represent any object, such as a folder or file, on that medium. This reiterative enumeration provides the mechanism for describing the organization of a hierarchically structured storage medium.
 
 The methods of <b>IMDSPStorage</b> can be used to gather information about the object that the interface represents. The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage2">IMDSPStorage2</a> interface extends <b>IMDSPStorage</b> by getting and setting extended attributes and making it possible to get a pointer to a storage medium from its name.
-
-
-
 
 ## -inheritance
 
@@ -163,13 +159,9 @@ Sets the attributes of the storage object.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspenumstorage">IMDSPEnumStorage Interface</a>
 
@@ -192,7 +184,4 @@ Sets the attributes of the storage object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
- 
-
- 
 

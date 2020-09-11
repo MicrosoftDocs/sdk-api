@@ -8,10 +8,6 @@ tech.root: p2p
 ms.assetid: 4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_RECORD, PEER_RECORD, PEER_RECORD structure [Peer Networking], PPEER_RECORD, PPEER_RECORD structure pointer [Peer Networking], p2p.peer_record, p2p/PPEER_RECORD, p2p/peer_record_tag'
-f1_keywords:
-- p2p/PEER_RECORD
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- P2P.h
-api_name:
-- PEER_RECORD
 targetos: Windows
 req.typenames: PEER_RECORD, *PPEER_RECORD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - peer_record_tag
+ - p2p/peer_record_tag
+ - PPEER_RECORD
+ - p2p/PPEER_RECORD
+ - PEER_RECORD
+ - p2p/PEER_RECORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - P2P.h
+api_name:
+ - PEER_RECORD
 ---
 
 # PEER_RECORD structure
@@ -49,34 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PEER_RECORD</b> structure contains the record object that an application uses.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size of a structure.  Set the value to   sizeof(<b>PEER_RECORD</b>).
 
-
 ### -field type
 
 Specifies the type of  record. The  type is a <b>GUID</b> that an application must specify.  The <b>GUID</b> represents a unique record type, for example, a chat record.
-
 
 ### -field id
 
 Specifies the unique ID of a record. The Peer Infrastructure supplies this ID. This parameter is ignored in calls to  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>. An application cannot modify this member.
 
-
 ### -field dwVersion
 
 Specifies the version of a record that   the Peer Infrastructure supplies when an application  calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>. An application cannot modify this member.
-
 
 ### -field dwFlags
 
@@ -105,11 +101,9 @@ Specifies the flags that indicate  special processing, which must be applied to 
 
 Pointer to the unique ID of a record creator.   This member is set to <b>NULL</b> for calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a> and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>. An application cannot set this member.
 
-
 ### -field pwzModifiedById
 
 Specifies the unique ID of  the last person who changes a record. An application cannot set this member.
-
 
 ### -field pwzAttributes
 
@@ -125,12 +119,9 @@ The Peer Infrastructure reserves several attribute names that a user cannot set.
 <li><b>peerlastmodificationtime</b></li>
 </ul>
 
-
-
 ### -field ftCreation
 
 Specifies the Coordinated Universal Time (UTC) that a record is created. The Peer Infrastructure supplies this value, and the value is set to zero (0) in calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>. An application cannot set this member.
-
 
 ### -field ftExpiration
 
@@ -143,21 +134,15 @@ The UTC time that a record expires. This member is required.  It can be updated 
 
 The UTC time that a record is modified.   The Peer Infrastructure supplies this value. Set this member to  <b>NULL</b> when  calling  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphaddrecord">PeerGraphAddRecord</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphupdaterecord">PeerGraphUpdateRecord</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupaddrecord">PeerGroupAddRecord</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupupdaterecord">PeerGroupUpdateRecord</a>. An application cannot set this member.
 
-
 ### -field securityData
 
 Specifies the security data contained in a  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a> structure. The Graphing API uses this member, and provides  the security provider with a place to store security data, for example, a signature.  The Grouping API cannot modify this member.
-
 
 ### -field data
 
 Specifies the actual data that this record contains.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a>
 
@@ -200,7 +185,4 @@ Specifies the actual data that this record contains.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupupdaterecord">PeerGroupUpdateRecord</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mcgridinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMCGRIDINFO, MCGIF_DATE, MCGIF_NAME, MCGIF_RECT, MCGIP_CALENDAR, MCGIP_CALENDARBODY, MCGIP_CALENDARCELL, MCGIP_CALENDARCONTROL, MCGIP_CALENDARHEADER, MCGIP_CALENDARROW, MCGIP_FOOTER, MCGIP_NEXT, MCGIP_PREV, MCGRIDINFO, MCGRIDINFO structure [Windows Controls], PMCGRIDINFO, PMCGRIDINFO structure pointer [Windows Controls], _shell_MCGRIDINFO, _shell_MCGRIDINFO_cpp, commctrl/MCGRIDINFO, commctrl/PMCGRIDINFO, controls.MCGRIDINFO, controls._shell_MCGRIDINFO'
-f1_keywords:
-- commctrl/MCGRIDINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MCGRIDINFO
 targetos: Windows
 req.typenames: MCGRIDINFO, *PMCGRIDINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMCGRIDINFO
+ - commctrl/tagMCGRIDINFO
+ - PMCGRIDINFO
+ - commctrl/PMCGRIDINFO
+ - MCGRIDINFO
+ - commctrl/MCGRIDINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MCGRIDINFO
 ---
 
 # MCGRIDINFO structure
@@ -49,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about part of a calendar control.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of this structure, in bytes.
-
 
 ### -field dwPart
 
@@ -167,8 +166,6 @@ A given calendar cell. Used with <b>iCalendar</b>, <b>iRow</b>, <b>iCol</b>, <b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 
@@ -212,8 +209,6 @@ Indicates what information is to be filled in. A combination of one or more of t
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iCalendar
 
@@ -221,13 +216,11 @@ Type: <b>int</b>
 
 If <b>dwPart</b> is MCGIP_CALENDAR, MCGIP_CALENDARHEADER, MCGIP_CALENDARBODY, MCGIP_CALENDARROW, or MCGIP_CALENDARCELL, this member specifies the index of the calendar for which to retrieve information. For those parts, this must be a valid value even if there is only one calendar that is currently in the control.
 
-
 ### -field iRow
 
 Type: <b>int</b>
 
 If <b>dwPart</b> is MCGIP_CALENDARROW, specifies the row for which to return information.
-
 
 ### -field iCol
 
@@ -235,13 +228,11 @@ Type: <b>int</b>
 
 If <b>dwPart</b> is MCGIP_CALENDARCELL, specifies the column of the cell for which to return information. The <b>iRow</b> member provides the row of the cell for which to return information.
 
-
 ### -field bSelected
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>dwPart</b> is MCGIP_CALENDARCELL, indicates if the cell described by <b>iRow</b> and <b>iCol</b> is currently selected.
-
 
 ### -field stStart
 
@@ -249,20 +240,17 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-m
 
 Returns the start date specified by iCalendar. Used only when <b>dwFlags</b> contains MCGIF_DATE.
 
-
 ### -field stEnd
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 Returns the end date specified by iCalendar. Used only when <b>dwFlags</b> contains MCGIF_DATE.
 
-
 ### -field rc
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 Returns the rectangle of the part specified in <b>dwPart</b>. Set only if <b>dwFlags</b> contains MCGIF_RECT.
-
 
 ### -field pszName
 

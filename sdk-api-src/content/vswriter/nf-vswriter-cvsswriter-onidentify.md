@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 542d479a-695a-4b1f-94e7-f2ffa08440b7
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnIdentify method, CVssWriter.OnIdentify, CVssWriter::OnIdentify, OnIdentify, OnIdentify method [VSS], OnIdentify method [VSS],CVssWriter interface, _win32_cvsswriter_onidentify, base.cvsswriter_onidentify, vswriter/CVssWriter::OnIdentify
-f1_keywords:
-- vswriter/CVssWriter.OnIdentify
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnIdentify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnIdentify
+ - vswriter/CVssWriter::OnIdentify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnIdentify
 ---
 
 # CVssWriter::OnIdentify
@@ -50,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OnIdentify</b> method is called by a writer following receipt of an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event.
 
 <b>OnIdentify</b> is a virtual method. It is implemented by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, but can be overridden by derived classes.
 
-
 ## -parameters
-
-
-
 
 ### -param pMetadata [in]
 
 A pointer to an 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> object used to construct the writer's metadata.
 
-
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnIdentify</b> always returns <b>true</b>.
@@ -81,12 +74,7 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, including nonfatal errors, the method should write a detailed entry to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The default implementation of this method by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class returns <b>true</b> without performing any other operation.
@@ -121,13 +109,7 @@ See
 The life cycle of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> object passed into <b>OnIdentify</b> is managed by the VSS infrastructure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
@@ -138,7 +120,4 @@ The life cycle of the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
- 
-
- 
 

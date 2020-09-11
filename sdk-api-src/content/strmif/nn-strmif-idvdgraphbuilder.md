@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 2179e54a-c6e2-4837-9f89-be210bde9180
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder
-f1_keywords:
-- strmif/IDvdGraphBuilder
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,28 +25,31 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdGraphBuilder
+ - strmif/IDvdGraphBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdGraphBuilder
 ---
 
 # IDvdGraphBuilder interface
 
 
 ## -description
-
-
 
 The <code>IDvdGraphBuilder</code> interface builds a filter graph for DVD-Video playback. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-graph-builder">DVD Graph Builder</a> object implements this interface.
 
@@ -59,9 +58,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idv
 <div class="alert"><b>Note</b>  A DVD filter graph requires either a hardware or software MPEG-2 decoder.</div>
 <div> </div>
 Generally, you should not add, remove, connect, disconnect, or access individual filters in the graph created by <b>RenderDvdVideoVolume</b>, because doing so might confuse the cleanup code. The purpose of the <b>DvdGraphBuilder</b> object is to simplify the development of DVD-Video applications. If you need a specific type of graph for a particular solution, you should manually create the entire filter graph.
-
-
-
 
 ## -inheritance
 
@@ -105,16 +101,9 @@ Completes building a filter graph according to user specifications for playing a
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\pagesetuphook.htm
 ms.date: 12/05/2018
 ms.keywords: LPPAGESETUPHOOK, LPPAGESETUPHOOK callback, LPPAGESETUPHOOK callback function [Dialog Boxes], _win32_PageSetupHook, _win32_pagesetuphook_cpp, commdlg/LPPAGESETUPHOOK, dlgbox.pagesetuphook, winui._win32_pagesetuphook
-f1_keywords:
-- commdlg/LPPAGESETUPHOOK
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Commdlg.h
-api_name:
-- LPPAGESETUPHOOK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPPAGESETUPHOOK
+ - commdlg/LPPAGESETUPHOOK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Commdlg.h
+api_name:
+ - LPPAGESETUPHOOK
 ---
 
 ## -description
@@ -88,13 +89,7 @@ Do not call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/
 
 You can subclass the standard controls of a common dialog box. However, the dialog box procedure may also subclass the controls. Because of this, you should subclass controls when your hook procedure processes the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. This ensures that your subclass procedure receives the control-specific messages before the subclass procedure set by the dialog box procedure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
@@ -129,7 +124,4 @@ You can subclass the standard controls of a common dialog box. However, the dial
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
- 
-
- 
 

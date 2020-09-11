@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 8394b843-75f0-4bbd-9ad8-6f4b5dc4bf7b
 ms.date: 12/05/2018
 ms.keywords: '*PRASPPP_PROJECTION_INFO, RASCCPCA_MPPC, RASCCPCA_STAC, RASCCPO_COMPRESSION, RASCCPO_ENCRYPTION128BIT, RASCCPO_ENCRYPTION40BIT, RASCCPO_ENCRYPTION40BITOLD, RASCCPO_ENCRYPTION56BIT, RASCCPO_HISTORYLESS, RASIPO_VJ, RASLCPAD_CHAP_MD5, RASLCPAD_CHAP_MS, RASLCPAD_CHAP_MSV2, RASLCPAP_CHAP, RASLCPAP_EAP, RASLCPAP_PAP, RASLCPAP_SPAP, RASLCPO_3_DES, RASLCPO_ACFC, RASLCPO_DES_56, RASLCPO_PFC, RASLCPO_SSHF, RASPPP_PROJECTION_INFO, RASPPP_PROJECTION_INFO structure [RAS], ras/RASPPP_PROJECTION_INFO, rras.rasppp_projection_info'
-f1_keywords:
-- ras/RASPPP_PROJECTION_INFO
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ras.h
-api_name:
-- RASPPP_PROJECTION_INFO
 targetos: Windows
 req.typenames: RASPPP_PROJECTION_INFO, *PRASPPP_PROJECTION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RASPPP_PROJECTION_INFO
+ - ras/_RASPPP_PROJECTION_INFO
+ - PRASPPP_PROJECTION_INFO
+ - ras/PRASPPP_PROJECTION_INFO
+ - RASPPP_PROJECTION_INFO
+ - ras/RASPPP_PROJECTION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ras.h
+api_name:
+ - RASPPP_PROJECTION_INFO
 ---
 
 # RASPPP_PROJECTION_INFO structure
@@ -49,30 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RASPPP_PROJECTION_INFO</b> structure contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwIPv4NegotiationError
 
 A value that specifies the result of PPP IPv4  network control protocol negotiation. A value of zero indicates Ipv4 has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during the control protocol negotiation.
 
-
 ### -field ipv4Address
 
 A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
 
-
 ### -field ipv4ServerAddress
 
 A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains a Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
-
 
 ### -field dwIPv4Options
 
@@ -94,8 +91,6 @@ Indicates that IP datagrams sent by the local client are compressed using Van Ja
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwIPv4ServerOptions
 
@@ -117,33 +112,26 @@ Indicates that IP datagrams sent by the remote server (that is, received by the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwIPv6NegotiationError
 
 A value that specifies the result of PPP IPv6  network control protocol negotiation. A value of zero indicates Ipv6 has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during the control protocol negotiation.
 
-
 ### -field bInterfaceIdentifier
 
 An array that specifies the 64-bit IPv6 interface identifier of the client. The last 64 bits of a 128-bit IPv6 internet address are considered the "interface identifier," which provides a strong level of uniqueness for the preceding 64-bits. <b>bInterfaceIdentifier</b> must not be zero and is valid only if <b>dwIPv6NegotiationError</b> is zero.
-
 
 ### -field bServerInterfaceIdentifier
 
 An array that specifies the 64-bit IPv6 interface identifier of the server. The last 64 bits of a 128-bit IPv6 internet address are considered the "interface identifier," which provides a strong level of uniqueness for the preceding 64-bits. <b>bServerInterfaceIdentifier</b> must not be zero and is valid only if <b>dwIPv6NegotiationError</b> is zero.
 
-
 ### -field fBundled
 
-A <b>BOOL</b> that is <b>TRUE</b> if the connection is composed of multiple links and <b>FALSE</b> otherwise. 
-
+A <b>BOOL</b> that is <b>TRUE</b> if the connection is composed of multiple links and <b>FALSE</b> otherwise.
 
 ### -field fMultilink
 
-A <b>BOOL</b> that is <b>TRUE</b> if the connection supports multiple links and <b>FALSE</b> otherwise. 
-
+A <b>BOOL</b> that is <b>TRUE</b> if the connection supports multiple links and <b>FALSE</b> otherwise.
 
 ### -field dwAuthenticationProtocol
 
@@ -195,8 +183,6 @@ Extensible Authentication Protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAuthenticationData
 
@@ -238,8 +224,6 @@ Microsoft CHAP version 2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwServerAuthenticationProtocol
 
@@ -291,8 +275,6 @@ Extensible Authentication Protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwServerAuthenticationData
 
@@ -334,18 +316,14 @@ Microsoft CHAP version 2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEapTypeId
 
 A value that specifies the type identifier of the Extensible Authentication Protocol (EAP) used to authenticate the local client. The value of this member is valid only if <b>dwAuthenticationProtocol</b> is <b>RASLCPAPP_EAP.</b>.
 
-
 ### -field dwServerEapTypeId
 
 A value that specifies the type identifier of the Extensible Authentication Protocol (EAP) used to authenticate the remote server. The value of this member is valid only if <b>dwRemoteAuthenticationProtocol</b> is <b>RASLCPAPP_EAP.</b>.
-
 
 ### -field dwLcpOptions
 
@@ -407,8 +385,6 @@ The connection is using Triple DES Encryption.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLcpServerOptions
 
@@ -470,13 +446,8 @@ The connection is using Triple DES Encryption.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCcpError
-
- 
-
 
 ### -field dwCcpCompressionAlgorithm
 
@@ -508,8 +479,6 @@ STAC option 4 (<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCcpServerCompressionAlgorithm
 
@@ -543,8 +512,6 @@ STAC option 4 (
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCcpOptions
 
@@ -616,8 +583,6 @@ MPPE compression using 128-bit keys.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCcpServerOptions
 
@@ -689,13 +654,8 @@ MPPE compression using 128-bit keys.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetprojectioninfoex">RasGetProjectionInfoEx</a>
 
@@ -706,7 +666,4 @@ MPPE compression using 128-bit keys.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: e2021bf3-40d8-4697-b82f-eebee2140a6e
 ms.date: 12/05/2018
 ms.keywords: RtwqAllocateSerialWorkQueue, RtwqAllocateSerialWorkQueue function, base.rtwqallocateserialworkqueue, rtworkq/RtwqAllocateSerialWorkQueue
-f1_keywords:
-- rtworkq/RtwqAllocateSerialWorkQueue
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqAllocateSerialWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqAllocateSerialWorkQueue
+ - rtworkq/RtwqAllocateSerialWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqAllocateSerialWorkQueue
 ---
 
 # RtwqAllocateSerialWorkQueue function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a virtual  work queue on top of another work queue that is guaranteed to serialize work items. The serial work queue wraps an existing multithreaded work queue. The serial work queue enforces a first-in, first-out (FIFO) execution order.
 
-
 ## -parameters
-
-
-
 
 ### -param workQueueIdIn [in]
 
@@ -73,10 +69,7 @@ The identifier of an existing work queue. This must be either a multithreaded qu
 
 Receives an identifier for the new serial work queue. Use this identifier when queuing work items.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -122,29 +115,14 @@ The application did not call <a href="https://docs.microsoft.com/windows/desktop
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqunlockworkqueue">RtwqUnlockWorkQueue</a>.
 
 Multithreaded queues use a thread pool, which  can reduce the total number of threads in the pipeline. However, they do not serialize work items. A serial work queue enables the application to get the benefits of the thread pool, without needing to perform manual serialization of its own work items.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/ne-rtworkq-rtwq_workqueue_type">RTWQ_WORKQUEUE_TYPE</a>
- 
-
- 
 

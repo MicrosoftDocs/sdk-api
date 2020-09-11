@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 132b79c8-d7f4-49c1-87c7-9bdf311ae697
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], IEventPublisher interface [COM],described, _com_ieventpublisher, com.ieventpublisher, eventsys/IEventPublisher
-f1_keywords:
-- eventsys/IEventPublisher
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventPublisher
+ - eventsys/IEventPublisher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventPublisher
 ---
 
 # IEventPublisher interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers, modifies, removes, and provides information about an event publisher.
-
-
 
 ## -inheritance
 
@@ -194,5 +192,5 @@ The optional administrative group for the event publisher.
 
 </td>
 </tr>
-</table> 
+</table>
 

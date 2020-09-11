@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 41db6c35-b722-4b46-bfc2-7bbfe50aaa0a
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_GetStatus, RESPONSEBODY_GetStatus structure, ncd.responsebody_getstatus, wsdtypes/RESPONSEBODY_GetMetadata
-f1_keywords:
-- wsdtypes/RESPONSEBODY_GetStatus
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- RESPONSEBODY_GetStatus
 targetos: Windows
 req.typenames: RESPONSEBODY_GetStatus
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RESPONSEBODY_GetStatus
+ - wsdtypes/RESPONSEBODY_GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - RESPONSEBODY_GetStatus
 ---
 
 # RESPONSEBODY_GetStatus structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a WS-Eventing GetStatus response message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field expires
 
 Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_eventing_expires">WSD_EVENTING_EXPIRES</a> structure that specifies when the subscription expires.
-
 
 ### -field any
 

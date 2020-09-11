@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 8fef8dc9-7621-4928-94a6-491a095b11fa
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpMessageParameters interface,SetRetransmitParams method, IWSDUdpMessageParameters.SetRetransmitParams, IWSDUdpMessageParameters::SetRetransmitParams, SetRetransmitParams, SetRetransmitParams method, SetRetransmitParams method,IWSDUdpMessageParameters interface, ncd.iwsdudpmessageparameters_setretransmitparams, wsdbase/IWSDUdpMessageParameters::SetRetransmitParams
-f1_keywords:
-- wsdbase/IWSDUdpMessageParameters.SetRetransmitParams
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDUdpMessageParameters.SetRetransmitParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDUdpMessageParameters::SetRetransmitParams
+ - wsdbase/IWSDUdpMessageParameters::SetRetransmitParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDUdpMessageParameters.SetRetransmitParams
 ---
 
 # IWSDUdpMessageParameters::SetRetransmitParams
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the values that WSD uses to determine how often to repeat the message transmission.
-
 
 ## -parameters
 
-
-
-
 ### -param pParams [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsdudpretransmitparams">WSDUdpRetransmitParams</a> structure. The structure contains values that determine how often WSD repeats the message transmission. 
-
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsdudpretransmitparams">WSDUdpRetransmitParams</a> structure. The structure contains values that determine how often WSD repeats the message transmission.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -86,27 +79,12 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you do not specify these values, WSD sends the message only once.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a>
- 
-
- 
 

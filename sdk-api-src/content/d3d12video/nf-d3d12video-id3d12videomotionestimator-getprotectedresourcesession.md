@@ -5,7 +5,7 @@ ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
 description: Gets the ID3D12ProtectedResourceSession that was passed into ID3D12VideoDevice1::CreateVideoMotionEstimator when the ID3D12VideoMotionEstimator was created.
-tech.root: mf 
+tech.root: mf
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoMotionEstimator::GetProtectedResourceSession
 f1_keywords:
+ - ID3D12VideoMotionEstimator::GetProtectedResourceSession
  - d3d12video/ID3D12VideoMotionEstimator::GetProtectedResourceSession
 dev_langs:
  - c++

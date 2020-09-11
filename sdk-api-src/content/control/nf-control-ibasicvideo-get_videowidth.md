@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: d5167b1e-1341-43b0-bc72-e990ee76e3c4
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoWidth method, IBasicVideo.get_VideoWidth, IBasicVideo::get_VideoWidth, IBasicVideoget_VideoWidth, control/IBasicVideo::get_VideoWidth, dshow.ibasicvideo_get_videowidth, get_VideoWidth, get_VideoWidth method [DirectShow], get_VideoWidth method [DirectShow],IBasicVideo interface
-f1_keywords:
-- control/IBasicVideo.get_VideoWidth
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo.get_VideoWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo::get_VideoWidth
+ - control/IBasicVideo::get_VideoWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo.get_VideoWidth
 ---
 
 # IBasicVideo::get_VideoWidth
@@ -50,43 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The get_VideoWidth method retrieves the native width of the video.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pVideoWidth [out]
 
 Pointer to a variable that receives the width of the video, in pixels.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
- 
-
- 
 

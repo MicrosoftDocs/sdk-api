@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 45E3121A-F6FD-49C7-B147-5317C045DE35
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],RegisterThreadsEx method, IMFRealTimeClientEx.RegisterThreadsEx, IMFRealTimeClientEx::RegisterThreadsEx, RegisterThreadsEx, RegisterThreadsEx method [Media Foundation], RegisterThreadsEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_registerthreadsex, mfidl/IMFRealTimeClientEx::RegisterThreadsEx
-f1_keywords:
-- mfidl/IMFRealTimeClientEx.RegisterThreadsEx
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFRealTimeClientEx.RegisterThreadsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRealTimeClientEx::RegisterThreadsEx
+ - mfidl/IMFRealTimeClientEx::RegisterThreadsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFRealTimeClientEx.RegisterThreadsEx
 ---
 
 # IMFRealTimeClientEx::RegisterThreadsEx
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
 
-
 ## -parameters
-
-
-
 
 ### -param pdwTaskIndex [in, out]
 
 The MMCSS task identifier. If the value is zero on input,  the object should create a new MCCSS task group. See Remarks.
 
-
 ### -param wszClassName [in]
 
 The name of the MMCSS task.
-
 
 ### -param lBasePriority [in]
 
 The base priority of the thread.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If the object does not create worker threads, the method should simply return S_OK and take no further action. 
 
@@ -97,20 +83,11 @@ Otherwise, if the value of <code>*pdwTaskIndex</code> is zero on input, the obje
 </ol>
 If the value of <code>*pdwTaskIndex</code> is nonzero on input, the parameter contains an existing MMCSS task identifer. In that case, all worker threads of the object should register themselves for that task by calling <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadcharacteristicsa">AvSetMmThreadCharacteristics</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclientex">IMFRealTimeClientEx</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
- 
-
- 
 

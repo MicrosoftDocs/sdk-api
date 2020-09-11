@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.operator uint32_t
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMUDECN4.operator uint32_t, DirectX::PackedVector::XMUDECN4::operator uint32_t, XMUDECN4 structure [DirectX Math Support APIs],operator uint32_t method, XMUDECN4.operator uint32_t, XMUDECN4::operator uint32_t, dxmath.xmudecn4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMUDECN4 structure
-f1_keywords:
-- directxpackedvector/XMUDECN4.operator uint32_t
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUDECN4.operator uint32_t
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUDECN4::operator uint32_t
+ - directxpackedvector/XMUDECN4::operator uint32_t
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUDECN4.operator uint32_t
 ---
 
 # XMUDECN4::operator uint32_t
 
 
 ## -description
-
 
 Returns an instance of <code>uint32_t</code> containing the components of the <code>XMUDECN4</code>instance in a packed format.
     
@@ -59,25 +59,12 @@ Returns an instance of <code>uint32_t</code> containing the components of the <a
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Contains the four vector components of an instance of <code>XMUDECN4</code> in a packed
 		format.
-	    
-
-
-
 
 ## -remarks
-
-
 
 The values of the <code>XMUDECN4</code> components returned are not normalized, and are in
 	    the following format:
@@ -108,12 +95,7 @@ The last 2 bits (bits 30-31) of the return value are the <b>w</b> component
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
@@ -124,7 +106,4 @@ The last 2 bits (bits 30-31) of the return value are the <b>w</b> component
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmudecn4-operators">XMUDECN4 Operators</a>
- 
-
- 
 

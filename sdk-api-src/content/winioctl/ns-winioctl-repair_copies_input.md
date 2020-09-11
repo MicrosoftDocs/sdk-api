@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
 ms.date: 12/05/2018
 ms.keywords: '*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT'
-f1_keywords:
-- winioctl/REPAIR_COPIES_INPUT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- REPAIR_COPIES_INPUT
 targetos: Windows
 req.typenames: REPAIR_COPIES_INPUT, *PREPAIR_COPIES_INPUT
 req.redist: 
+f1_keywords:
+ - _REPAIR_COPIES_INPUT
+ - winioctl/_REPAIR_COPIES_INPUT
+ - PREPAIR_COPIES_INPUT
+ - winioctl/PREPAIR_COPIES_INPUT
+ - REPAIR_COPIES_INPUT
+ - winioctl/REPAIR_COPIES_INPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - REPAIR_COPIES_INPUT
 ---
 
 # REPAIR_COPIES_INPUT structure
@@ -48,55 +53,40 @@ req.redist:
 
 ## -description
 
-
-Input structure for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code. It describes a single block of data and indicates which of the copies is to be copied to the specified copies of the data. The 
-
+Input structure for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code. It describes a single block of data and indicates which of the copies is to be copied to the specified copies of the data. The
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Set to <code>sizeof(REPAIR_COPIES_INPUT)</code>.
 
-
 ### -field Flags
 
 Reserved (must be zero)
-
 
 ### -field FileOffset
 
 The file position to start the repair operation.
 
-
 ### -field Length
 
 The number of bytes to be repaired.
 
-
 ### -field SourceCopy
 
 The zero-based copy number of the source copy.
-
 
 ### -field NumberOfRepairCopies
 
 The number of copies that will be repaired. This is the size of the <b>RepairCopies</b> 
       array.
 
-
 ### -field RepairCopies
 
 The zero-based copy numbers of the copies that will be repaired.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a>
 
@@ -107,7 +97,4 @@ The zero-based copy numbers of the copies that will be repaired.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
 

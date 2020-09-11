@@ -8,10 +8,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm
 ms.date: 05/30/2019
 ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute
-f1_keywords:
-- dwmapi/DwmSetWindowAttribute
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll; Uxtheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- uxtheme.dll
-- ext-ms-win-dwmapi-ext-l1-1-0.dll
-- ext-ms-win-dwmapi-ext-l1-1-1.dll
-- ext-ms-win-dwmapi-ext-l1-1-2.dll
-api_name:
-- DwmSetWindowAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmSetWindowAttribute
+ - dwmapi/DwmSetWindowAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - uxtheme.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+ - ext-ms-win-dwmapi-ext-l1-1-1.dll
+ - ext-ms-win-dwmapi-ext-l1-1-2.dll
+api_name:
+ - DwmSetWindowAttribute
 ---
 
 # DwmSetWindowAttribute function
+
 
 ## -description
 
@@ -88,3 +90,4 @@ It's not valid to call this function with the *dwAttribute* parameter set to **D
 
 * [DwmGetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute)
 * [Enable and control DWM composition](/windows/desktop/dwm/composition-ovw)
+

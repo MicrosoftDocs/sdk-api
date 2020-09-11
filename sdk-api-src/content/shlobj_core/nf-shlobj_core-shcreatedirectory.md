@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
 ms.date: 12/05/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
-f1_keywords:
-- shlobj_core/SHCreateDirectory
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHCreateDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHCreateDirectory
+ - shlobj_core/SHCreateDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHCreateDirectory
 ---
 
 # SHCreateDirectory function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHCreateDirectory</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Creates a new file system folder.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in, optional]
 
@@ -66,17 +62,13 @@ Type: <b>HWND</b>
 
 A handle to a parent window. This parameter can be set to <b>NULL</b> if no user interface is displayed.
 
-
 ### -param pszPath [in]
 
 Type: <b>PCWSTR</b>
 
 A pointer to a null-terminated Unicode string that contains the fully qualified path of the directory. This string should have no more than MAX_PATH characters, including the terminating null character.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -143,29 +135,14 @@ The user canceled the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function creates a file system folder whose fully qualified path is given by <i>pszPath</i>. If one or more of the intermediate folders do not exist, it creates them.
 
 To set security attributes on a new folder, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa">SHCreateDirectoryEx</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa">SHCreateDirectoryEx</a>
- 
-
- 
 

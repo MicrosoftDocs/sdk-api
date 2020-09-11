@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: bdc3278e-3b5a-4ad0-9e9b-9639a2db4040
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509PrivateKey.MachineContext, IX509PrivateKey.put_MachineContext, IX509PrivateKey::MachineContext, IX509PrivateKey::get_MachineContext, IX509PrivateKey::put_MachineContext, MachineContext property [Security], MachineContext property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::MachineContext, certenroll/IX509PrivateKey::get_MachineContext, certenroll/IX509PrivateKey::put_MachineContext, put_MachineContext, security.ix509privatekey_machinecontext_property
-f1_keywords:
-- certenroll/IX509PrivateKey.MachineContext
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.MachineContext
-- IX509PrivateKey.get_MachineContext
-- IX509PrivateKey.put_MachineContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::put_MachineContext
+ - certenroll/IX509PrivateKey::put_MachineContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.MachineContext
+ - IX509PrivateKey.get_MachineContext
+ - IX509PrivateKey.put_MachineContext
 ---
 
 # IX509PrivateKey::put_MachineContext
@@ -51,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MachineContext</b> property specifies or retrieves a Boolean value that identifies the local certificate store context. This property is web enabled for both input and output.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
 

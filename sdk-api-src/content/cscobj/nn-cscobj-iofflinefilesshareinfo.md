@@ -8,10 +8,6 @@ tech.root: of
 ms.assetid: 9647aae3-06ca-4813-8243-3d0fb794802d
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesShareInfo, IOfflineFilesShareInfo interface [Offline Files], IOfflineFilesShareInfo interface [Offline Files],described, cscobj/IOfflineFilesShareInfo, of.iofflinefilesshareinfo
-f1_keywords:
-- cscobj/IOfflineFilesShareInfo
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesShareInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesShareInfo
+ - cscobj/IOfflineFilesShareInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesShareInfo
 ---
 
 # IOfflineFilesShareInfo interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Presents share-specific information about cached items.
-
 
 ## -inheritance
 
@@ -96,16 +95,9 @@ Determines whether the share item is a DFS junction or a shared folder on a serv
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
 

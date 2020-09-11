@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 08b4ea41-4349-4746-a98e-93ba1db20d0e
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_RESET_ALL, WINHTTP_RESET_NOTIFY_NETWORK_CHANGED, WINHTTP_RESET_OUT_OF_PROC, WINHTTP_RESET_SCRIPT_CACHE, WINHTTP_RESET_STATE, WINHTTP_RESET_SWPAD_ALL, WINHTTP_RESET_SWPAD_CURRENT_NETWORK, WinHttpResetAutoProxy, WinHttpResetAutoProxy function [WinHTTP], http.winhttpresetautoproxy, winhttp/WinHttpResetAutoProxy
-f1_keywords:
-- winhttp/WinHttpResetAutoProxy
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpResetAutoProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpResetAutoProxy
+ - winhttp/WinHttpResetAutoProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpResetAutoProxy
 ---
 
 # WinHttpResetAutoProxy function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpResetAutoProxy</b> function resets the auto-proxy.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 A valid 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> WinHTTP session handle returned by a previous call to 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function. 
-
+the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> function.
 
 ### -param dwFlags [in]
 
@@ -161,13 +156,8 @@ Applications that use the  <a href="https://docs.microsoft.com/windows/desktop/a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
-
 
 A code indicating the success or failure of the operation.
 
@@ -212,14 +202,8 @@ The <i>hSession</i> parameter is not the product of a call to <a href="https://d
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To reset everything, set the <i>dwFlags</i> parameter to include <b>WINHTTP_RESET_ALL</b> and <b>WINHTTP_RESET_OUT_OF_PROC</b>. 
 
@@ -228,7 +212,4 @@ To reset everything, set the <i>dwFlags</i> parameter to include <b>WINHTTP_RESE
 <div class="alert"><b>Note</b>  If you make subsequent calls to the <b>WinHttpResetAutoProxy</b> function, there must be at least 30 seconds delay between calls to reset the state of the auto-proxy. If there is less than 30 seconds, the <b>WinHttpResetAutoProxy</b> function call may return <b>ERROR_SUCCESS</b> but the reset won't happen. 
 </div>
 <div> </div>
-
-
-
 

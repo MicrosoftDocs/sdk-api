@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: 7f3645fd-cb1e-4bd5-a995-d70197c61afc
 ms.date: 12/05/2018
 ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Tablet PC],SetSingleTabletMode method, IRealTimeStylus.SetSingleTabletMode, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
-f1_keywords:
-- rtscom/IRealTimeStylus.SetSingleTabletMode
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.SetSingleTabletMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::SetSingleTabletMode
+ - rtscom/IRealTimeStylus::SetSingleTabletMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.SetSingleTabletMode
 ---
 
 # IRealTimeStylus::SetSingleTabletMode
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Modifies the mode for <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object to collect input from only one tablet object representing a digitizer attached to the Tablet PC. Stylus input from other digitizers is ignored by the RealTimeStylus.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param piTablet [in]
 
  The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object that represents the digitizer device attached to the Tablet PC.
 
-
 ## -returns
-
-
 
 For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -remarks
-
-
 
 A <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> can be set to one of two tablet-related modes:
 
@@ -116,14 +101,7 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
@@ -134,7 +112,4 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
- 
-
- 
 

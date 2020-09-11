@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setcheck.htm
 ms.date: 12/05/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, Button_SetCheck macro [Windows Controls], _win32_Button_SetCheck, _win32_Button_SetCheck_cpp, controls.Button_SetCheck, controls._win32_Button_SetCheck, windowsx/Button_SetCheck
-f1_keywords:
-- windowsx/Button_SetCheck
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Button_SetCheck
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Button_SetCheck
+ - windowsx/Button_SetCheck
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Button_SetCheck
 ---
 
 # Button_SetCheck macro
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the check state of a radio button or check box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message explicitly. 
-
-
+Sets the check state of a radio button or check box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message explicitly.
 
 ## -parameters
-
-
-
 
 ### -param hwndCtl
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
-
 
 ### -param check
 
@@ -108,14 +102,8 @@ Sets the button state to cleared.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-The macro has no effect on push buttons. 
-
-
+The macro has no effect on push buttons.
 

@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 2e94516e-de36-407a-a1fe-6a6e66641c17
 ms.date: 12/05/2018
 ms.keywords: VarCat, VarCat function [Automation], _oa96_VarCat, automat.varcat, oleauto/VarCat
-f1_keywords:
-- oleauto/VarCat
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarCat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarCat
+ - oleauto/VarCat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarCat
 ---
 
 # VarCat function
@@ -49,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Concatenates two variants and returns the result.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarLeft [in]
 
 The first variant.
 
-
 ### -param pvarRight [in]
 
 The second variant.
-
 
 ### -param pvarResult [out]
 
 The result variant.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The function operates as follows.
 
@@ -130,7 +116,4 @@ The function operates as follows.
 <td>Empty string</td>
 </tr>
 </table>
- 
-
-
 

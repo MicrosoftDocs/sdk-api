@@ -8,10 +8,6 @@ tech.root: display
 ms.assetid: d79b9277-ef71-4ef8-804c-d5bc8f772d0f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_ATTACHLIST, DD_ATTACHLIST, DD_ATTACHLIST structure [Display Devices], ddrawint/DD_ATTACHLIST, ddstrcts_3c38acaf-5568-4af1-ae84-a6f4752b2a02.xml, display.dd_attachlist'
-f1_keywords:
-- ddrawint/DD_ATTACHLIST
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_ATTACHLIST
 targetos: Windows
 req.typenames: '*PDD_ATTACHLIST, DD_ATTACHLIST'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_ATTACHLIST
+ - ddrawint/_DD_ATTACHLIST
+ - PDD_ATTACHLIST
+ - ddrawint/PDD_ATTACHLIST
+ - DD_ATTACHLIST
+ - ddrawint/DD_ATTACHLIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_ATTACHLIST
 ---
 
 # DD_ATTACHLIST structure
@@ -49,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DD_ATTACHLIST structure maintains a list of attached surfaces for Microsoft DirectDraw.
-
 
 ## -struct-fields
 
-
-
-
 ### -field lpLink
 
-Points to the next attached surface. 
-
+Points to the next attached surface.
 
 ### -field lpAttached
 

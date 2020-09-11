@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 1c2b9be8-d9b7-4ed4-a6da-e8166ddc35b3
 ms.date: 12/05/2018
 ms.keywords: FOFX_ADDUNDORECORD, FOFX_COPYASDOWNLOAD, FOFX_DONTDISPLAYDESTPATH, FOFX_DONTDISPLAYLOCATIONS, FOFX_DONTDISPLAYSOURCEPATH, FOFX_EARLYFAILURE, FOFX_KEEPNEWERFILE, FOFX_MOVEACLSACROSSVOLUMES, FOFX_NOCOPYHOOKS, FOFX_NOMINIMIZEBOX, FOFX_NOSKIPJUNCTIONS, FOFX_PREFERHARDLINK, FOFX_PRESERVEFILEEXTENSIONS, FOFX_RECYCLEONDELETE, FOFX_REQUIREELEVATION, FOFX_SHOWELEVATIONPROMPT, FOF_ALLOWUNDO, FOF_FILESONLY, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_WANTNUKEWARNING, IFileOperation interface [Windows Shell],SetOperationFlags method, IFileOperation.SetOperationFlags, IFileOperation::SetOperationFlags, SetOperationFlags, SetOperationFlags method [Windows Shell], SetOperationFlags method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetOperationFlags, shell.IFileOperation_SetOperationFlags, shobjidl_core/IFileOperation::SetOperationFlags
-f1_keywords:
-- shobjidl_core/IFileOperation.SetOperationFlags
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileOperation.SetOperationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileOperation::SetOperationFlags
+ - shobjidl_core/IFileOperation::SetOperationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileOperation.SetOperationFlags
 ---
 
 # IFileOperation::SetOperationFlags
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets parameters for the current operation.
 
-
 ## -parameters
-
-
-
 
 ### -param dwOperationFlags [in]
 
@@ -238,23 +234,13 @@ Do not display the path of the destination item in the progress dialog.
 
 <b>Introduced in Windows 7</b>. Do not display the location line in the progress dialog.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 Set these flags before you call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to define the parameters for whatever operations are being performed, such as copy, delete, or rename.
-
-
 

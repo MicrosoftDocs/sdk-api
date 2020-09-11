@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 764339e6-a1ac-455d-8ebd-ad0fa50dc3b0
 ms.date: 12/05/2018
 ms.keywords: WSASend, WSASend function [Winsock], _win32_wsasend_2, winsock.wsasend_2, winsock2/WSASend
-f1_keywords:
-- winsock2/WSASend
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASend
+ - winsock2/WSASend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASend
 ---
 
 # WSASend function
@@ -49,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSASend</b> function sends data on a connected socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor that identifies a connected socket.
-
 
 ### -param lpBuffers [in]
 
@@ -71,12 +66,10 @@ A pointer to an array of
 <b>WSABUF</b> structure contains a pointer to a buffer and the length, in bytes, of the buffer. For a Winsock application, once the 
 <b>WSASend</b> function is called, the system owns these buffers and the application may not access them. This array must remain valid for the duration of the send operation.
 
-
 ### -param dwBufferCount [in]
 
 The number of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
-
 
 ### -param lpNumberOfBytesSent [out]
 
@@ -84,27 +77,21 @@ A pointer to the number, in bytes, sent by this call if the I/O operation comple
 
 Use <b>NULL</b> for this parameter if the <i>lpOverlapped</i> parameter is not <b>NULL</b> to avoid potentially erroneous results. This parameter can be <b>NULL</b> only  if the <i>lpOverlapped</i> parameter is not <b>NULL</b>.
 
-
 ### -param dwFlags [in]
 
 The flags used to modify the behavior of the 
 <b>WSASend</b> function call. For more information, see Using <i>dwFlags</i> in the Remarks section.
-
 
 ### -param lpOverlapped [in]
 
 A pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure. This parameter is ignored for nonoverlapped sockets.
 
-
 ### -param lpCompletionRoutine [in]
 
 A pointer to the completion routine called when the send operation has been completed. This parameter is ignored for nonoverlapped sockets.
 
-
 ## -returns
-
-
 
 If no error occurs and the send operation has completed immediately, 
 <b>WSASend</b> returns zero. In this case, the completion routine will have already been scheduled to be called once the calling thread is in the alertable state. Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
@@ -323,14 +310,8 @@ The overlapped operation has been canceled due to the closure of the socket, the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSASend</b> function provides functionality over and above the standard 
@@ -608,13 +589,7 @@ int __cdecl main()
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a>
 
@@ -665,7 +640,4 @@ int __cdecl main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

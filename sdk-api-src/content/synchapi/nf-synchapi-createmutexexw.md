@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
 ms.date: 12/05/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
-f1_keywords:
-- synchapi/CreateMutexEx
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -29,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CreateMutexEx
-- CreateMutexExA
-- CreateMutexExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateMutexExW
+ - synchapi/CreateMutexExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateMutexEx
+ - CreateMutexExA
+ - CreateMutexExW
 ---
 
 # CreateMutexExW function
@@ -57,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates or opens a named or unnamed mutex object and returns a handle to the object.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMutexAttributes [in, optional]
 
@@ -75,7 +71,6 @@ A pointer to a
 
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new mutex. If <i>lpMutexAttributes</i> is <b>NULL</b>, the mutex gets a default security descriptor. The ACLs in the default security descriptor for a mutex come from the primary or impersonation token of the creator. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
-
 
 ### -param lpName [in, optional]
 
@@ -94,7 +89,6 @@ The name can have a "Global\" or "Local\" prefix to explicitly create the object
 <a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user switching is implemented using Terminal Services sessions. Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
 
 The object can be created in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
-
 
 ### -param dwFlags [in]
 
@@ -117,18 +111,13 @@ The object creator is the initial owner of the mutex.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwDesiredAccess [in]
 
 The access mask for the mutex object. For a list of access rights, see 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created mutex object.
 
@@ -137,12 +126,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
 [OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) function.
 
-
-
-
 ## -remarks
-
-
 
 If you are using a named mutex to limit your application to a single instance, a malicious user can create this mutex before you do and prevent your application from starting. To prevent this situation, create a randomly named mutex and store the name so that it can only be obtained by an authorized user. Alternatively, you can use a file for this purpose. To limit your application to one instance per user, create a locked file in the user's profile directory.
 
@@ -180,9 +164,6 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -192,7 +173,4 @@ Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-han
 
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

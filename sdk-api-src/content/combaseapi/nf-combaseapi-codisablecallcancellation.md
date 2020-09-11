@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 33d99eab-a0bf-4e4d-93a4-5c03c41cebbb
 ms.date: 12/05/2018
 ms.keywords: CoDisableCallCancellation, CoDisableCallCancellation function [COM], _com_CoDisableCallCancellation, com.codisablecallcancellation, combaseapi/CoDisableCallCancellation
-f1_keywords:
-- combaseapi/CoDisableCallCancellation
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoDisableCallCancellation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoDisableCallCancellation
+ - combaseapi/CoDisableCallCancellation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoDisableCallCancellation
 ---
 
 # CoDisableCallCancellation function
@@ -53,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Undoes the action of a call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a>. Disables cancellation of synchronous calls on the calling thread when all calls to <b>CoEnableCallCancellation</b> are balanced by calls to <b>CoDisableCallCancellation</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param pReserved [in, optional]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -101,14 +94,8 @@ There have been more successful calls to <a href="https://docs.microsoft.com/win
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When call cancellation is enabled on a thread, marshaled synchronous calls from that thread to objects on the same computer can suffer serious performance degradation. By default, then, synchronous calls cannot be canceled, even if a cancel object is available. To enable call cancellation, you must call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a> first. 
 
@@ -124,20 +111,11 @@ A call will be cancelable or not depending on the state of the thread at the tim
 
 If a thread is uninitialized and then reinitialized by calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>, call cancellation is disabled on the thread, even if it was enabled when the thread was uninitialized.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation">CoEnableCallCancellation</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
- 
-
- 
 

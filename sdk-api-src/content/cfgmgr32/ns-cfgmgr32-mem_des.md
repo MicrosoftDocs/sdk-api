@@ -8,10 +8,6 @@ tech.root: devinst
 ms.assetid: 1a9ee8f2-fabe-4351-b11e-93f46e190d66
 ms.date: 12/05/2018
 ms.keywords: '*PMEM_DES, MEM_DES, MEM_DES structure [Device and Driver Installation], PMEM_DES, PMEM_DES structure pointer [Device and Driver Installation], cfgmgr32/MEM_DES, cfgmgr32/PMEM_DES, cfgmgrst_cdbb69b5-e18f-4721-bb66-c6160d959f10.xml, devinst.mem_des'
-f1_keywords:
-- cfgmgr32/MEM_DES
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- cfgmgr32.h
-api_name:
-- MEM_DES
 targetos: Windows
 req.typenames: MEM_DES, *PMEM_DES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Mem_Des_s
+ - cfgmgr32/Mem_Des_s
+ - PMEM_DES
+ - cfgmgr32/PMEM_DES
+ - MEM_DES
+ - cfgmgr32/MEM_DES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - cfgmgr32.h
+api_name:
+ - MEM_DES
 ---
 
 # MEM_DES structure
@@ -49,20 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The MEM_DES structure is used for specifying either a resource list or a resource requirements list that describes memory usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
-
 
 ## -struct-fields
 
-
-
-
 ### -field MD_Count
-
-
-
-
 
 #### For a resource list:
 
@@ -74,17 +70,11 @@ Zero.
 
 The number of elements in the [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range) array that is included in the [MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource) structure.
 
-
 ### -field MD_Type
 
 Must be set to the constant value <b>MType_Range</b>.
 
-
 ### -field MD_Alloc_Base
-
-
-
-
 
 #### For a resource list:
 
@@ -96,12 +86,7 @@ The lowest-numbered of a range of contiguous physical memory addresses allocated
 
 Zero.
 
-
 ### -field MD_Alloc_End
-
-
-
-
 
 #### For a resource list:
 
@@ -112,7 +97,6 @@ The highest-numbered of a range of contiguous physical memory addresses allocate
 #### For a resource requirements list:
 
 Zero.
-
 
 ### -field MD_Flags
 
@@ -365,25 +349,16 @@ Bitmask for the bit within <b>MD_Flags</b> that specifies the combine-write cach
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MD_Reserved
 
 <i>For internal use only.</i>
 
-
 ## -see-also
-
-
-
 
 [MEM_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_range)
 
 
 
 [MEM_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
- 
-
- 
 

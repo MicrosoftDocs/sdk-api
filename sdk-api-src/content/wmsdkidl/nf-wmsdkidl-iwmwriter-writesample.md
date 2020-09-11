@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: ba1cf121-1d01-4e90-9ab0-95af0b6e3850
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],WriteSample method, IWMWriter.WriteSample, IWMWriter::WriteSample, IWMWriterWriteSample, WriteSample, WriteSample method [windows Media Format], WriteSample method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_writesample, wmsdkidl/IWMWriter::WriteSample
-f1_keywords:
-- wmsdkidl/IWMWriter.WriteSample
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriter.WriteSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriter::WriteSample
+ - wmsdkidl/IWMWriter::WriteSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriter.WriteSample
 ---
 
 # IWMWriter::WriteSample
@@ -52,27 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WriteSample</b> method passes in uncompressed data to be compressed and appended to the file that is being created.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNum [in]
 
 <b>DWORD</b> containing the input number.
 
-
 ### -param cnsSampleTime [in]
 
 <b>QWORD</b> containing the sample time, in 100-nanosecond units.
-
 
 ### -param dwFlags [in]
 
@@ -102,17 +93,12 @@ The <b>WriteSample</b> method passes in uncompressed data to be compressed and a
 <td>This flag is not used by the writer object.</td>
 </tr>
 </table>
- 
-
 
 ### -param pSample [in]
 
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing a sample.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -214,31 +200,16 @@ Samples from a real-time source are arriving faster than expected. This error is
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the output stream has a time code data unit extension and there is no time code extension on the sample, this method will fail in order not to cause problems later when the file is indexed. All other data unit extensions are optional on the sample. That means that this method will succeed if a data unit extension has been specified for the stream but no actual data extension is present in the sample. <b>WriteSample</b> will write zeros into the file for samples that do not have extensions specified on the sample.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/wmformat/to-write-samples">To Write Samples</a>
- 
-
- 
 

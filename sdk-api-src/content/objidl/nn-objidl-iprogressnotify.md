@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1
 ms.date: 12/05/2018
 ms.keywords: IProgressNotify, IProgressNotify interface [COM], IProgressNotify interface [COM],described, _com_iprogressnotify, com.iprogressnotify, objidl/IProgressNotify
-f1_keywords:
-- objidl/IProgressNotify
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IProgressNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressNotify
+ - objidl/IProgressNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IProgressNotify
 ---
 
 # IProgressNotify interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables applications and other objects to receive notifications of changes in the progress of a downloading operation.
-
 
 ## -inheritance
 
@@ -77,16 +76,9 @@ Notifies registered objects and applications of the progress of a downloading op
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprogressnotify-onprogress">IProgressNotify::OnProgress</a>
- 
-
- 
 

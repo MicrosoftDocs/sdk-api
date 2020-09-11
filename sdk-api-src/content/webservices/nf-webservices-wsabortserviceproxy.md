@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
 ms.date: 12/05/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
-f1_keywords:
-- webservices/WsAbortServiceProxy
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsAbortServiceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsAbortServiceProxy
+ - webservices/WsAbortServiceProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsAbortServiceProxy
 ---
 
 # WsAbortServiceProxy function
@@ -49,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Aborts the <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>, and cancels any pending I/O on the service proxy.
-            
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param serviceProxy [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the service proxy to abort.
 
-
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -96,14 +83,8 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WsAbortServiceProxy</b> shows the following  behavior depending on the state of service proxy (see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_proxy_state">WS_SERVICE_PROXY_STATE</a> enumeration for possible states):<ul>
 <li>If the service proxy is opening and in the WS_SERVICE_PROXY_STATE_OPENING state, you can call <b>WsAbortServiceProxy</b> to abort the opening operation. The service proxy will
@@ -116,7 +97,4 @@ One or more arguments are invalid.
 
 
 For an example of using this function, see <a href="https://docs.microsoft.com/windows/desktop/wsw/servicecancellationexample">ServiceCancellationExample</a>.
-           
-
-
 

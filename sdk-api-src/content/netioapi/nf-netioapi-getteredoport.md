@@ -8,10 +8,6 @@ tech.root: IpHlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
 ms.date: 12/05/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
-f1_keywords:
-- netioapi/GetTeredoPort
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTeredoPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTeredoPort
+ - netioapi/GetTeredoPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTeredoPort
 ---
 
 # GetTeredoPort function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>GetTeredoPort</b> function  retrieves the dynamic UDP port number used by the Teredo client on the local computer. 
-
+<b>GetTeredoPort</b> function  retrieves the dynamic UDP port number used by the Teredo client on the local computer.
 
 ## -parameters
 
-
-
-
 ### -param Port [out]
 
-A pointer to the  UDP port number. On successful return, this parameter will be filled with the port number used by the Teredo client. 
-
+A pointer to the  UDP port number. On successful return, this parameter will be filled with the port number used by the Teredo client.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -123,14 +116,8 @@ Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetTeredoPort</b> function is defined on Windows Vista and later. 
 
@@ -140,20 +127,11 @@ The Teredo client also uses static UDP port 3544 for listening to multicast traf
 
 The <b>GetTeredoPort</b> function is used primarily by firewall applications in order to configure the appropriate exceptions to allow incoming and outgoing Teredo traffic.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>
- 
-
- 
 

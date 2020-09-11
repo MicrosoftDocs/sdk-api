@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 19c7fe4d-9c7b-4547-baab-443483deb013
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredWriteFn, CredWriteFn callback, CrediWrite, CrediWrite callback function [Security], ntsecpkg/CrediWrite, security.crediwrite
-f1_keywords:
-- ntsecpkg/CrediWrite
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- CrediWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredWriteFn
+ - ntsecpkg/CredWriteFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - CrediWrite
 ---
 
 # CredWriteFn callback function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes the specified credential to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param LogonId [in]
 
 The logon ID for which to read credentials.
-
 
 ### -param CredFlags [in]
 
@@ -139,48 +134,28 @@ The caller is a trusted process.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Credential [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that represents the credentials to write.
 
-
 ### -param Flags [in]
 
 Reserved. This parameter must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS, or an informational status code.
 
 If the function fails, return an NTSTATUS error code that indicates the reason it failed.
 
-
-
-
 ## -remarks
-
-
 
 A pointer to the <b>CrediWrite</b> function is available in the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
 

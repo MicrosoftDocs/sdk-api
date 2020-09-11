@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],InitFromData method, IOleObject.InitFromData, IOleObject::InitFromData, InitFromData, InitFromData method [COM], InitFromData method [COM],IOleObject interface, _ole_ioleobject_initfromdata, com.ioleobject_initfromdata, oleidl/IOleObject::InitFromData
-f1_keywords:
-- oleidl/IOleObject.InitFromData
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.InitFromData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::InitFromData
+ - oleidl/IOleObject::InitFromData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.InitFromData
 ---
 
 # IOleObject::InitFromData
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
 
-
 ## -parameters
-
-
-
 
 ### -param pDataObject [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object from which the initialization data is to be obtained. This parameter can be <b>NULL</b>, which indicates that the caller wants to know if it is worthwhile trying to send data; that is, whether the container is capable of initializing an object from data passed to it. The data object to be passed can be based on either the current selection within the container document or on data transferred to the container from an external source.
 
-
 ### -param fCreation [in]
 
 <b>TRUE</b> indicates the container is inserting a new object inside itself and initializing that object with data from the current selection; <b>FALSE</b> indicates a more general programmatic data transfer, most likely from a source other than the current selection.
-
 
 ### -param dwReserved [in]
 
 This parameter is reserved and must be zero.
 
-
 ## -returns
-
-
 
 This method returns S_OK if <i>pDataObject</i> is not <b>NULL</b>, the object successfully attempted to initialize itself from the provided data; if <i>pDataObject</i> is <b>NULL</b>, the object is able to attempt a successful initialization.. Other possible return values include the following.
 
@@ -118,14 +109,8 @@ The object is not running and therefore cannot perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables a container document to insert within itself a new object whose content is based on a current data selection within the container. For example, a spreadsheet document may want to create a graph object based on data in a selected range of cells.
 
@@ -143,13 +128,7 @@ If <i>fCreation</i> is <b>FALSE</b>, the caller is attempting to replace the obj
 
 If the object returns S_FALSE, it cannot initialize itself from the provided data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a>
 
@@ -160,7 +139,4 @@ If the object returns S_FALSE, it cannot initialize itself from the provided dat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>
- 
-
- 
 

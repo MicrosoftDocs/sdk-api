@@ -8,10 +8,6 @@ tech.root: tablet
 ms.assetid: b0f9e49c-6a16-43c5-a653-d6142e58019a
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusUp method, IStylusPlugin.StylusUp, IStylusPlugin::StylusUp, StylusUp, StylusUp method [Tablet PC], StylusUp method [Tablet PC],IStylusPlugin interface, b0f9e49c-6a16-43c5-a653-d6142e58019a, rtscom/IStylusPlugin::StylusUp, tablet.istylusplugin_stylusup
-f1_keywords:
-- rtscom/IStylusPlugin.StylusUp
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusPlugin.StylusUp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusPlugin::StylusUp
+ - rtscom/IStylusPlugin::StylusUp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusPlugin.StylusUp
 ---
 
 # IStylusPlugin::StylusUp
@@ -49,59 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Notifies the implementing plug-in that the user has raised the tablet pen from the tablet digitizer surface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param piRtsSrc [in]
 
 The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
-
 ### -param pStylusInfo [in]
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ns-rtscom-stylusinfo">StylusInfo Structure</a> containing the information about the RTS that is associated with the pen.
 
-
 ### -param cPropCountPerPkt [in]
-
-
 
 Number of properties per packet. Valid values are 0 through 32, inclusive.
 
-
 ### -param pPacket [in]
 
-
-
 The start of the packet data.
-
 
 ### -param ppInOutPkt [in, out]
 
 A pointer to the modified stylus data packet. The plug-in can use this parameter to feed modified packet data to downstream packets. A value other than <b>NULL</b> indicates that the packet has been modified and RTS will send this data down to plug-ins by using the <i>pPacket</i> parameter.
 
-
 ## -returns
-
-
 
 For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method is used when the pen leaves the digitizer surface.
 
@@ -196,14 +173,7 @@ HRESULT CPacketModifier::ModifyPacket(
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
@@ -218,7 +188,4 @@ HRESULT CPacketModifier::ModifyPacket(
 
 
 <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
- 
-
- 
 

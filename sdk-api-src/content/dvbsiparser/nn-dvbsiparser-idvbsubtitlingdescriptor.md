@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c
 ms.date: 12/05/2018
 ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSubtitlingDescriptor, mstv.idvbsubtitlingdescriptor
-f1_keywords:
-- dvbsiparser/IDvbSubtitlingDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSubtitlingDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSubtitlingDescriptor
+ - dvbsiparser/IDvbSubtitlingDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSubtitlingDescriptor
 ---
 
 # IDvbSubtitlingDescriptor interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) subtitling descriptor. The subtitling  descriptor  appears in the DVB service information as part of the  the program map table (PMT) and defines the language, text, and formatting that is used for subtitling data in a DVB broadcast.
-
 
 ## -inheritance
 
@@ -131,5 +130,5 @@ Gets the tag that identifies a DVB subtitling descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

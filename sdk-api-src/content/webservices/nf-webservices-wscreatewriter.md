@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 5b4bb009-764e-4892-903a-5939f5570016
 ms.date: 12/05/2018
 ms.keywords: WsCreateWriter, WsCreateWriter function [Web Services for Windows], webservices/WsCreateWriter, wsw.wscreatewriter
-f1_keywords:
-- webservices/WsCreateWriter
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCreateWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCreateWriter
+ - webservices/WsCreateWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCreateWriter
 ---
 
 # WsCreateWriter function
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-creates an <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-writer">XML Writer</a> with the specified properties. 
-
-
-
+creates an <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-writer">XML Writer</a> with the specified properties.
 
 ## -parameters
-
-
-
 
 ### -param properties
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_property">WS_XML_WRITER_PROPERTY</a> structures containing optional properties for the XML writer.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
-                
-
 
 ### -param propertyCount [in]
 
 The number of properties in the <i>properties</i> array.
-                
-
 
 ### -param writer
 
@@ -81,17 +70,11 @@ On   success, a pointer that receives the address of the  <a href="https://docs.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.
 
-
 ### -param error [in, optional]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-                
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -112,14 +95,8 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>functions to choose the encoding of the XML writer and to indicate where to direct the output.
       
@@ -139,7 +116,4 @@ If an operation on a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws
         and further calls to the Writer return <b>WS_E_OBJECT_FAULTED</b>.  (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)The only possible function calls for the XML writer
         if this occurs are <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> to return the XML writer to a usable state,
         or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a> to free the XML writer.
-      
-
-
 

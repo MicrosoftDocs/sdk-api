@@ -6,10 +6,6 @@ tech.root: direct3d12
 helpviewer_keywords: ["D3D12_FEATURE_DATA_CROSS_NODE"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_CROSS_NODE
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_CROSS_NODE
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,14 +22,19 @@ req.target-type:
 req.typenames: D3D12_FEATURE_DATA_CROSS_NODE
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - D3D12_FEATURE_DATA_CROSS_NODE
+ - d3d12/D3D12_FEATURE_DATA_CROSS_NODE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_FEATURE_DATA_CROSS_NODE
+ - D3D12_FEATURE_DATA_CROSS_NODE
 ---
 
 ## -description
@@ -57,3 +58,4 @@ Indicates there is support for shader instructions which operate across adapters
 ## -remarks
 
 ## -see-also
+

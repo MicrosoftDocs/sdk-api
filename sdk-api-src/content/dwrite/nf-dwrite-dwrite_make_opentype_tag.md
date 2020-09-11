@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: fe93a24a-5f3d-4e73-87ac-b33357c838e3
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG
-f1_keywords:
-- dwrite/DWRITE_MAKE_OPENTYPE_TAG
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite.h
-api_name:
-- DWRITE_MAKE_OPENTYPE_TAG
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_MAKE_OPENTYPE_TAG
+ - dwrite/DWRITE_MAKE_OPENTYPE_TAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite.h
+api_name:
+ - DWRITE_MAKE_OPENTYPE_TAG
 ---
 
 # DWRITE_MAKE_OPENTYPE_TAG macro
+
 
 ## -description
 
@@ -85,3 +87,4 @@ The OpenType language (such as "ROM ", "URD ", and "FAR " for Romanian, Urdu, an
 DWRITE_MAKE_OPENTYPE_TAG('c','c','m','p');
 // Result: DWORD 0x706D6363
 ```
+

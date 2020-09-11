@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
-f1_keywords:
-- syncmgr/ISyncMgrHandler.Activate
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrHandler.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrHandler::Activate
+ - syncmgr/ISyncMgrHandler::Activate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrHandler.Activate
 ---
 
 # ISyncMgrHandler::Activate
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that the handler is activated or deactivated. An active handler can be synchronized; an inactive handler cannot.
 
-
 ## -parameters
-
-
-
 
 ### -param fActivate [in]
 
@@ -64,21 +60,13 @@ Type: <b>BOOL</b>
 
 <b>TRUE</b> to activate; <b>FALSE</b> to deactivate.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 An active handler appears in the Sync Center folder and can be synchronized. An inactive handler appears in the Sync Setup folder and must be activated (which moves it to the Sync Center folder) before it can be synchronized.
 
@@ -114,14 +102,7 @@ STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>
 
@@ -132,7 +113,4 @@ STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>
- 
-
- 
 

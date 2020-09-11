@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: 2647d75d-09b5-48b2-9a79-4d1f95cb094b
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_POLICY, 0, PRPC_POLICY, PRPC_POLICY structure pointer [RPC], RPC_C_BIND_TO_ALL_NICS, RPC_C_MQ_AUTHENTICATE, RPC_C_MQ_AUTHN_LEVEL_NONE, RPC_C_MQ_AUTHN_LEVEL_PKT_INTEGRITY, RPC_C_MQ_AUTHN_LEVEL_PKT_PRIVACY, RPC_C_MQ_CLEAR_ON_OPEN, RPC_C_MQ_ENCRYPT, RPC_C_MQ_PERMANENT, RPC_C_MQ_TEMPORARY, RPC_C_MQ_USE_EXISTING_SECURITY, RPC_C_USE_INTERNET_PORT, RPC_C_USE_INTRANET_PORT, RPC_POLICY, RPC_POLICY structure [RPC], _rpc_rpc_policy, rpc.rpc_policy, rpcdce/PRPC_POLICY, rpcdce/RPC_POLICY'
-f1_keywords:
-- rpcdce/RPC_POLICY
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_POLICY
 targetos: Windows
 req.typenames: RPC_POLICY, *PRPC_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_POLICY
+ - rpcdce/_RPC_POLICY
+ - PRPC_POLICY
+ - rpcdce/PRPC_POLICY
+ - RPC_POLICY
+ - rpcdce/RPC_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_POLICY
 ---
 
 # RPC_POLICY structure
@@ -49,24 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_POLICY</b> structure contains flags that determine binding on multihomed computers, and port allocations when using the 
 <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a> and 
 <a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a> protocols.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 Size of the 
 <b>RPC_POLICY</b> structure, in bytes. The <b>Length</b> member allows compatibility with future versions of this structure, which may contain additional fields. Always set the <b>Length</b> equal to <b>sizeof</b>(RPC_POLICY) when you initialize the 
 <b>RPC_POLICY</b> structure in your code.
-
 
 ### -field EndpointFlags
 
@@ -252,12 +251,8 @@ Overrides the registry settings and binds to all NICs. If the Bind key is missin
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 You can use the <b>RPC_Policy</b> structure to set policies for remote procedure calls at run time. These policies include:
 
@@ -272,12 +267,7 @@ You can use the <b>RPC_Policy</b> structure to set policies for remote procedure
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>
 
@@ -304,7 +294,4 @@ You can use the <b>RPC_Policy</b> structure to set policies for remote procedure
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
- 
-
- 
 

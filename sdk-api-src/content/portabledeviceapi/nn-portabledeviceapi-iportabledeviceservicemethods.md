@@ -8,10 +8,6 @@ tech.root: wpdsdk
 ms.assetid: 9d233dea-91b6-4358-830c-6abe466264e5
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods, IPortableDeviceServiceMethods interface [Windows Portable Devices SDK], IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceMethods, wpdsdk.iportabledeviceservicemethods
-f1_keywords:
-- portabledeviceapi/IPortableDeviceServiceMethods
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceServiceMethods
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceServiceMethods
+ - portabledeviceapi/IPortableDeviceServiceMethods
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceServiceMethods
 ---
 
 # IPortableDeviceServiceMethods interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPortableDeviceServiceMethods</b> interface invokes, or cancels invocation of, a method on a service.
-
 
 ## -inheritance
 
@@ -95,5 +94,5 @@ Asynchronously invokes a method.
 
 </td>
 </tr>
-</table> 
+</table>
 

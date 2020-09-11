@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
 ms.date: 12/05/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
-f1_keywords:
-- combaseapi/CoGetClassObject
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoGetClassObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoGetClassObject
+ - combaseapi/CoGetClassObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoGetClassObject
 ---
 
 # CoGetClassObject function
@@ -54,47 +55,34 @@ ms.custom: 19H1
 
 ## -description
 
-
  Provides a pointer to an interface on a class object associated with a specified CLSID. <b>CoGetClassObject</b> locates, and if necessary, dynamically loads the executable code required to do this.
 
 
 Call <b>CoGetClassObject</b> directly to create multiple objects through a class object for which there is a CLSID in the system registry. You can also retrieve a class object from a specific remote computer. Most class objects implement the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface. You would then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">CreateInstance</a> to create an uninitialized object. It is not always necessary to go through this process however. To create a single object, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function, which allows you to create an instance on a remote machine. This replaces the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function, which can still be used to create an instance on a local computer. Both functions encapsulate connecting to the class object, creating the instance, and releasing the class object. Two other functions, <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromfile">CoGetInstanceFromFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromistorage">CoGetInstanceFromIStorage</a>, provide both instance creation on a remote system and object activation. There are numerous functions and interface methods whose purpose is to create objects of a single type and provide a pointer to an interface on that object.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 The CLSID associated with the data and code that you will use to create the objects.
 
-
 ### -param dwClsContext [in]
 
 The context in which the executable code is to be run. To enable a remote activation, include CLSCTX_REMOTE_SERVER. For more information on the context values and their use, see the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration.
-
 
 ### -param pvReserved [in, optional]
 
 A pointer to computer on which to instantiate the class object. If this parameter is <b>NULL</b>, the class object is instantiated on the current computer or at the computer specified under the class's <a href="https://docs.microsoft.com/windows/desktop/com/remoteservername">RemoteServerName</a> key, according to the interpretation of the <i>dwClsCtx</i> parameter. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a>.
 
-
 ### -param riid [in]
 
 Reference to the identifier of the interface, which will be supplied in _ppv_ on successful return. This interface will be used to communicate with the class object. Typically this value is IID_IClassFactory, although other values such as IID_IClassFactory2 which supports a form of licensing are allowed. All OLE-defined interface IIDs are defined in the OLE header files as IID_interfacename, where interfacename is the name of the interface.
-
-
 
 ### -param ppv [out]
 
 The address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppv</i> contains the requested interface pointer.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -205,14 +193,8 @@ The executable was launched, but it did not register the class object (and it ma
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A class object in OLE is an intermediate object that supports an interface that permits operations common to a group of objects. The objects in this group are instances derived from the same object definition represented by a single CLSID. Usually, the interface implemented on a class object is <a href="https://docs.microsoft.com/windows/desktop/com/implementing-iclassfactory">IClassFactory</a>, through which you can create object instances of a given definition (class).
 
@@ -250,14 +232,7 @@ The <i>dwClsContext</i> parameter specifies the execution context, allowing one 
 
 To release a class object, use the class object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method. The function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject">CoRevokeClassObject</a> is to be used only to remove a class object's CLSID from the system registry.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>
 
@@ -288,7 +263,4 @@ To release a class object, use the class object's <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
- 
-
- 
 

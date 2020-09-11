@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: ff4f3707-1f2e-499b-8108-81616fe4ae9b
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowForeground method, IVideoWindow.SetWindowForeground, IVideoWindow::SetWindowForeground, IVideoWindowSetWindowForeground, SetWindowForeground, SetWindowForeground method [DirectShow], SetWindowForeground method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowForeground, dshow.ivideowindow_setwindowforeground
-f1_keywords:
-- control/IVideoWindow.SetWindowForeground
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.SetWindowForeground
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::SetWindowForeground
+ - control/IVideoWindow::SetWindowForeground
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.SetWindowForeground
 ---
 
 # IVideoWindow::SetWindowForeground
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetWindowForeground</code> method places the video window at the top of the Z order.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Focus
 
@@ -84,12 +77,8 @@ Specifies whether to give the window focus. Must be one of the following values:
 <td>Do not give the window focus.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -132,22 +121,12 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
- 
-
- 
 

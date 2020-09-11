@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204
 ms.date: 12/05/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
-f1_keywords:
-- evntprov/EventDescOrKeyword
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntprov.h
-api_name:
-- EventDescOrKeyword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventDescOrKeyword
+ - evntprov/EventDescOrKeyword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Evntprov.h
+api_name:
+ - EventDescOrKeyword
 ---
 
 # EventDescOrKeyword function
@@ -49,50 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds another keyword to the event descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param EventDescriptor [in]
 
 Event descriptor to modify. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
-
 ### -param Keyword [in]
 
 New keyword to add to the current keyword bitmask.
 
-
 ## -returns
-
-
 
 The modified event descriptor.
 
-
-
-
 ## -remarks
-
-
 
 This is a convenience macro for setting the member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
- 
-
- 
 

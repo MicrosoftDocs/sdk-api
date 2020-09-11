@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 990a5f92-2285-4461-8020-25028d2cab90
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],RegistryKeys property, IConfigurationDataCollector.RegistryKeys, IConfigurationDataCollector.put_RegistryKeys, IConfigurationDataCollector::RegistryKeys, IConfigurationDataCollector::get_RegistryKeys, IConfigurationDataCollector::put_RegistryKeys, RegistryKeys property [PLA], RegistryKeys property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_registrykeys, pla.iconfigurationdatacollector_registrykeys, pla/IConfigurationDataCollector::RegistryKeys, pla/IConfigurationDataCollector::get_RegistryKeys, pla/IConfigurationDataCollector::put_RegistryKeys, put_RegistryKeys
-f1_keywords:
-- pla/IConfigurationDataCollector.RegistryKeys
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IConfigurationDataCollector.RegistryKeys
-- IConfigurationDataCollector.get_RegistryKeys
-- IConfigurationDataCollector.put_RegistryKeys
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigurationDataCollector::put_RegistryKeys
+ - pla/IConfigurationDataCollector::put_RegistryKeys
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IConfigurationDataCollector.RegistryKeys
+ - IConfigurationDataCollector.get_RegistryKeys
+ - IConfigurationDataCollector.put_RegistryKeys
 ---
 
 # IConfigurationDataCollector::put_RegistryKeys
@@ -51,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets a list of registry keys to collect.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You can collect registry data from the following registry hives:
 
@@ -81,20 +77,11 @@ To collect all the values under a registry key and its subkeys, use two backslas
 
 To collect registry information from a remote computer, include the computer name at the beginning of the registry path, for example, <b>\\computername\HKEY_LOCAL_MACHINE\MyKey\MyValue</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrymaxrecursivedepth">IConfigurationDataCollector::RegistryMaxRecursiveDepth</a>
- 
-
- 
 

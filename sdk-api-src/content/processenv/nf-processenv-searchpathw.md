@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d
 ms.date: 12/5/2018
 ms.keywords: SearchPath, SearchPath function [Files], SearchPathA, SearchPathW, _win32_searchpath, base.searchpath, fs.searchpath, processenv/SearchPath, processenv/SearchPathA, processenv/SearchPathW
-f1_keywords:
-- processenv/SearchPath
-dev_langs:
-- c++
 req.header: processenv.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SearchPath
-- SearchPathA
-- SearchPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - SearchPathW
+ - processenv/SearchPathW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SearchPath
+ - SearchPathA
+ - SearchPathW
 ---
 
 # SearchPathW function
@@ -55,14 +56,9 @@ req.redist:
 
 ## -description
 
-
 Searches for a specified file in a specified path.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPath [in, optional]
 
@@ -72,11 +68,9 @@ If this parameter is <b>NULL</b>, the
        function searches for a matching file using a registry-dependent system  search path. For more information, see 
        the Remarks section.
 
-
 ### -param lpFileName [in]
 
 The name of the file for which to search.
-
 
 ### -param lpExtension [in, optional]
 
@@ -87,18 +81,15 @@ The extension to be added to the file name when searching for the file. The firs
 If a file name extension is not required or if the file name contains an extension, this parameter can be 
        <b>NULL</b>.
 
-
 ### -param nBufferLength [in]
 
 The size of the buffer that receives the valid path and file name (including the terminating null 
       character), in <b>TCHARs</b>.
 
-
 ### -param lpBuffer [out]
 
 A pointer to the buffer to receive the path and file name of the file found. The  string is a 
       null-terminated string.
-
 
 ### -param lpFilePart [out, optional]
 
@@ -106,10 +97,7 @@ A pointer to the variable to receive the address (within <i>lpBuffer</i>) of the
       component of the valid path and file name, which is the address of the character immediately following the final 
       backslash (\) in the path.
 
-
 ## -returns
-
-
 
 If the function succeeds, the value returned is the length, in <b>TCHARs</b>, of the 
        string that is copied to the buffer, not including the terminating null character. If the return value is 
@@ -119,12 +107,7 @@ If the function succeeds, the value returned is the length, in <b>TCHARs</b>, of
 If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>lpPath</i> parameter is <b>NULL</b>, 
      <b>SearchPath</b> searches for a matching file based on the current 
@@ -224,9 +207,6 @@ Yes
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
@@ -248,7 +228,4 @@ Yes
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setsearchpathmode">SetSearchPathMode</a>
- 
-
- 
 

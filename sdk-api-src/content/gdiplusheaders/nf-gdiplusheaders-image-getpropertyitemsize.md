@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitemsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItemSize, GetPropertyItemSize method [GDI+], GetPropertyItemSize method [GDI+],Image class, Image class [GDI+],GetPropertyItemSize method, Image.GetPropertyItemSize, Image::GetPropertyItemSize, _gdiplus_CLASS_Image_GetPropertyItemSize_propId_, gdiplus._gdiplus_CLASS_Image_GetPropertyItemSize_propId_
-f1_keywords:
-- gdiplusheaders/Image.GetPropertyItemSize
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Image.GetPropertyItemSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Image::GetPropertyItemSize
+ - gdiplusheaders/Image::GetPropertyItemSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Image.GetPropertyItemSize
 ---
 
 # Image::GetPropertyItemSize
@@ -50,38 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Image::GetPropertyItemSize</b> method gets the size, in bytes, of a specified property item of this 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param propId [in]
 
 Type: <b>PROPID</b>
 
-Integer that identifies the property item. 
-
+Integer that identifies the property item.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
 This method returns the size, in bytes, of a specified property item of this 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem">Image::GetPropertyItem</a> method returns a <a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a> object. Before you call 
 				<b>Image::GetPropertyItem</b>, you must allocate a buffer large enough to receive that object — the size varies according to data type and value of the property item. You can call the <b>Image::GetPropertyItemSize</b> method of an 
@@ -147,14 +135,7 @@ The data type of the property item is 2.
 The value of the property item is Northwind Traders.
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
@@ -193,7 +174,4 @@ The value of the property item is Northwind Traders.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
- 
-
- 
 

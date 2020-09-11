@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 3b32cc6e-3df7-4104-a0d4-317fd445c7b2
 ms.date: 12/05/2018
 ms.keywords: WSAConnect, WSAConnect function [Winsock], _win32_wsaconnect_2, winsock.wsaconnect_2, winsock2/WSAConnect
-f1_keywords:
-- winsock2/WSAConnect
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAConnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAConnect
+ - winsock2/WSAConnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAConnect
 ---
 
 # WSAConnect function
@@ -49,56 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAConnect</b> function establishes a connection to another socket application, exchanges connect data, and specifies required quality of service based on the specified 
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying an unconnected socket.
 
-
 ### -param name [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure  that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional flow and scope-id information. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure  that specifies the address to which to connect. For  IPv4, the <b>sockaddr</b> contains <b>AF_INET</b> for the address family, the destination IPv4 address, and the destination port. For  IPv6, the <b>sockaddr</b> structure contains <b>AF_INET6</b> for the address family, the destination IPv6 address, the destination port, and may contain additional flow and scope-id information.
 
 ### -param namelen [in]
 
 The length, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>name</i> parameter.
 
-
 ### -param lpCallerData [in]
 
 A pointer to the user data that is to be transferred to the other socket during connection establishment. See Remarks.
-
 
 ### -param lpCalleeData [out]
 
 A pointer to the user data that is to be transferred back from the other socket during connection establishment. See Remarks.
 
-
 ### -param lpSQOS [in]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i>, one for each direction.
-
 
 ### -param lpGQOS [in]
 
 Reserved for future use with socket groups. A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for the socket group (if applicable). This parameter should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAConnect</b> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code can be retrieved by calling 
@@ -371,14 +358,8 @@ Attempt to connect datagram socket to broadcast address failed because
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAConnect</b> function is used to create a connection to the specified destination, and to perform a number of other ancillary operations that occur at connect time. If the socket, <i>s</i>, is unbound, unique values are assigned to the local association by the system, and the socket is marked as bound.
@@ -447,13 +428,7 @@ When connected sockets become closed for whatever reason, they should be discard
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
@@ -508,7 +483,4 @@ When connected sockets become closed for whatever reason, they should be discard
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
 

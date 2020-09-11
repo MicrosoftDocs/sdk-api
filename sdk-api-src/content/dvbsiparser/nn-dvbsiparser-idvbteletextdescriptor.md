@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: 5148a87b-e6b6-4bda-871c-10a2f398ebcc
 ms.date: 12/05/2018
 ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], IDvbTeletextDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbTeletextDescriptor, mstv.idvbteletextdescriptor
-f1_keywords:
-- dvbsiparser/IDvbTeletextDescriptor
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbTeletextDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbTeletextDescriptor
+ - dvbsiparser/IDvbTeletextDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbTeletextDescriptor
 ---
 
 # IDvbTeletextDescriptor interface
@@ -49,11 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implements methods that get data from a Digital Video Broadcast (DVB) teletext descriptor. 
 The teletext descriptor is the part of the DVB program map table (PMT) that identifies European Broadcasting Union 
 (EBU) teletext streams.
-
 
 ## -inheritance
 
@@ -133,5 +132,5 @@ Gets the tag that idenfities a DVB teletext descriptor.
 
 </td>
 </tr>
-</table> 
+</table>
 

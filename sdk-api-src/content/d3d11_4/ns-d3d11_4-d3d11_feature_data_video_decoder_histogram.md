@@ -6,10 +6,6 @@ tech.root: direct3d11
 helpviewer_keywords: ["D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM"]
 ms.date: 4/26/2019
 ms.keywords: D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
-f1_keywords:
-- D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,14 +22,19 @@ req.target-type:
 req.typenames: D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
+ - d3d11_4/D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d11_4.h
+ - d3d11_4.h
 api_name:
-- D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
+ - D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM
 ---
 
 ## -description
@@ -63,3 +64,4 @@ The bit depth of the bin counter.  The counter is always stored in a 32-bit valu
 ## -see-also
 
 [ID3D11VideoDevice2::CheckFeatureSupport](nf-d3d11_4-id3d11videodevice2-checkfeaturesupport.md)
+

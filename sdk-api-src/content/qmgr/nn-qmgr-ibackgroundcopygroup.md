@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS],described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
-f1_keywords:
-- qmgr/IBackgroundCopyGroup
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyGroup
-- IBackgroundCopyGroup.InternalSetProp
-- IBackgroundCopyGroup.QueryNewJobInterface
-- IBackgroundCopyGroup.SetNotificationPointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyGroup
+ - qmgr/IBackgroundCopyGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyGroup
+ - IBackgroundCopyGroup.InternalSetProp
+ - IBackgroundCopyGroup.QueryNewJobInterface
+ - IBackgroundCopyGroup.SetNotificationPointer
 ---
 
 # IBackgroundCopyGroup interface
@@ -52,11 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
-Use the <b>IBackgroundCopyGroup</b> interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue. 
-
+Use the <b>IBackgroundCopyGroup</b> interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.
 
 ## -inheritance
 
@@ -211,5 +210,5 @@ Downloads the group in the foreground instead of the background.
 
 </td>
 </tr>
-</table> 
+</table>
 

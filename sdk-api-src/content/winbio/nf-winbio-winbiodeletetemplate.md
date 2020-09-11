@@ -8,10 +8,6 @@ tech.root: SecBioMet
 ms.assetid: aad22c42-d306-42b5-8415-0b561c8bcecf
 ms.date: 12/05/2018
 ms.keywords: WinBioDeleteTemplate, WinBioDeleteTemplate function [Windows Biometric Framework API], secbiomet.winbiodeletetemplate, winbio/WinBioDeleteTemplate
-f1_keywords:
-- winbio/WinBioDeleteTemplate
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioDeleteTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioDeleteTemplate
+ - winbio/WinBioDeleteTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioDeleteTemplate
 ---
 
 # WinBioDeleteTemplate function
@@ -51,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a biometric template from the template store. Starting with Windows 10, build 1607, this  function is available to use with a mobile image.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionHandle [in]
 
 A <b>WINBIO_SESSION_HANDLE</b> value that identifies an open biometric session.  Open a synchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. Open an asynchronous session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>.
 
-
 ### -param UnitId [in]
 
 A <b>WINBIO_UNIT_ID</b> value that identifies the biometric unit where the template is located.
-
 
 ### -param Identity [in]
 
 Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the GUID or SID of the template to be deleted. If the <b>Type</b> member of the <b>WINBIO_IDENTITY</b> structure is <b>WINBIO_ID_TYPE_WILDCARD</b>, templates matching the <i>SubFactor</i> parameter will be deleted for all identities. Only administrators can perform wildcard identity deletion.
 
-
 ### -param SubFactor [in]
 
 A <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that provides additional information about the template to be deleted. If you specify WINBIO_SUBTYPE_ANY, all templates for the biometric unit specified by the <i>UnitId</i> parameter are deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
@@ -136,14 +126,8 @@ The operation could not be completed because the biometric unit is currently bei
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To use <b>WinBioDeleteTemplate</b> synchronously, call the function with a session handle created by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>. The function blocks until the operation completes or an error is encountered.
 
@@ -313,7 +297,4 @@ e_Exit:
 
 
 ```
-
-
-
 

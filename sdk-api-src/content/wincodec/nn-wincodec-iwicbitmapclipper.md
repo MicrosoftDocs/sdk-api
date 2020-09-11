@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: a21fb11f-8622-46d6-8612-875ac59d3fbf
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapClipper, IWICBitmapClipper interface [Windows Imaging Component], IWICBitmapClipper interface [Windows Imaging Component],described, _wic_codec_iwicbitmapclipper, wic._wic_codec_iwicbitmapclipper, wincodec/IWICBitmapClipper
-f1_keywords:
-- wincodec/IWICBitmapClipper
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICBitmapClipper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapClipper
+ - wincodec/IWICBitmapClipper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapClipper
 ---
 
 # IWICBitmapClipper interface
@@ -50,9 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that produce a clipped version of the input bitmap for a specified rectangular region of interest.
-
 
 ## -inheritance
 
@@ -78,5 +77,5 @@ Initializes the bitmap clipper with the provided parameters.
 
 </td>
 </tr>
-</table> 
+</table>
 

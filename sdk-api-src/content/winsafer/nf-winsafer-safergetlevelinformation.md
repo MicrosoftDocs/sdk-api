@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
 ms.date: 12/05/2018
 ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Security], SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, _mnp_safergetlevelinformation, security.safergetlevelinformation, winsafer/SaferGetLevelInformation
-f1_keywords:
-- winsafer/SaferGetLevelInformation
-dev_langs:
-- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- SaferGetLevelInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaferGetLevelInformation
+ - winsafer/SaferGetLevelInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - SaferGetLevelInformation
 ---
 
 # SaferGetLevelInformation function
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaferGetLevelInformation</b> function retrieves information about a policy level.
 
-
 ## -parameters
-
-
-
 
 ### -param LevelHandle [in]
 
 The handle of the level to be queried.
-
 
 ### -param dwInfoType [in]
 
@@ -125,30 +120,21 @@ Queries for the description.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpQueryBuffer [out, optional]
 
 A buffer to contain the results of the query. For the type of the returned information for each possible value of the <i>dwInfoType</i> parameter, see the <i>dwInfoType</i> parameter.
 
-
 ### -param dwInBufferSize [in]
 
 The size of the <i>lpQueryBuffer</i> parameter in bytes.
-
 
 ### -param lpdwOutBufferSize [out]
 
 A pointer to return the output size of the <i>lpQueryBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
 

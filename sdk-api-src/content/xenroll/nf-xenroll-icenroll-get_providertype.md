@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 90daa97a-350e-4307-80a5-b018cc1f0e86
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ProviderType property, ICEnroll interface [Security],ProviderType property, ICEnroll.ProviderType, ICEnroll.get_ProviderType, ICEnroll2 interface [Security],ProviderType property, ICEnroll2.ProviderType, ICEnroll2::get_ProviderType, ICEnroll2::put_ProviderType, ICEnroll3 interface [Security],ProviderType property, ICEnroll3.ProviderType, ICEnroll3::get_ProviderType, ICEnroll3::put_ProviderType, ICEnroll4 interface [Security],ProviderType property, ICEnroll4.ProviderType, ICEnroll4::ProviderType, ICEnroll4::get_ProviderType, ICEnroll4::put_ProviderType, ICEnroll::get_ProviderType, ICEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],CEnroll object, ProviderType property [Security],ICEnroll interface, ProviderType property [Security],ICEnroll2 interface, ProviderType property [Security],ICEnroll3 interface, ProviderType property [Security],ICEnroll4 interface, get_ProviderType, security.icenroll4_providertype, xenroll/ICEnroll2::ProviderType, xenroll/ICEnroll2::get_ProviderType, xenroll/ICEnroll2::put_ProviderType, xenroll/ICEnroll3::ProviderType, xenroll/ICEnroll3::get_ProviderType, xenroll/ICEnroll3::put_ProviderType, xenroll/ICEnroll4::ProviderType, xenroll/ICEnroll4::get_ProviderType, xenroll/ICEnroll4::put_ProviderType, xenroll/ICEnroll::ProviderType, xenroll/ICEnroll::get_ProviderType, xenroll/ICEnroll::put_ProviderType
-f1_keywords:
-- xenroll/ICEnroll4.ProviderType
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,38 +25,42 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.ProviderType
-- ICEnroll4.get_ProviderType
-- ICEnroll4.put_ProviderType
-- ICEnroll3.ProviderType
-- ICEnroll3.get_ProviderType
-- ICEnroll3.put_ProviderType
-- ICEnroll2.ProviderType
-- ICEnroll2.get_ProviderType
-- ICEnroll2.put_ProviderType
-- ICEnroll.ProviderType
-- ICEnroll.get_ProviderType
-- ICEnroll.put_ProviderType
-- CEnroll.ProviderType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_ProviderType
+ - xenroll/ICEnroll::get_ProviderType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.ProviderType
+ - ICEnroll4.get_ProviderType
+ - ICEnroll4.put_ProviderType
+ - ICEnroll3.ProviderType
+ - ICEnroll3.get_ProviderType
+ - ICEnroll3.put_ProviderType
+ - ICEnroll2.ProviderType
+ - ICEnroll2.get_ProviderType
+ - ICEnroll2.put_ProviderType
+ - ICEnroll.ProviderType
+ - ICEnroll.get_ProviderType
+ - ICEnroll.put_ProviderType
+ - CEnroll.ProviderType
 ---
 
 # ICEnroll::get_ProviderType
 
 
 ## -description
-
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
@@ -71,13 +71,9 @@ The value of the <b>ProviderType</b> property is passed to the
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 For general information about provider types, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
@@ -128,7 +124,4 @@ if (FAILED(hr))
 else
     printf("ProviderType set to %d\n", PROV_MS_EXCHANGE);
 ```
-
-
-
 

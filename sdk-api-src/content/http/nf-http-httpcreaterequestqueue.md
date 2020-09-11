@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
 ms.date: 12/05/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
-f1_keywords:
-- http/HttpCreateRequestQueue
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpCreateRequestQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpCreateRequestQueue
+ - http/HttpCreateRequestQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpCreateRequestQueue
 ---
 
 # HttpCreateRequestQueue function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpCreateRequestQueue</b> function creates a new request queue or opens an existing request queue.
 
  This function replaces the HTTP version 1.0 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param Version [in]
 
@@ -66,20 +62,17 @@ An HTTPAPI_VERSION structure indicating the request queue version. For  version 
 
 The version must be 2.0; <b>HttpCreateRequestQueue</b> does not support  version 1.0 request queues.
 
-
 ### -param Name [in, optional]
 
 The name of the request queue. The length, in bytes, cannot exceed MAX_PATH.
 
   The optional name parameter allows other processes to access the request queue by name.
 
-
 ### -param SecurityAttributes [in, optional]
 
 A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
 
 This parameter must be <b>NULL</b> when opening an existing request queue.
-
 
 ### -param Flags [in, optional]
 
@@ -111,17 +104,12 @@ The handle to the request queue created using this flag cannot be used to perfor
 </td>
 </tr>
 </table>
- 
-
 
 ### -param RequestQueueHandle [out]
 
 A pointer to a variable that receives a handle to the request queue.  This parameter must contain a valid pointer; it cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>
 
@@ -198,14 +186,8 @@ The application has not called <a href="https://docs.microsoft.com/windows/deskt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The HTTP Server API supports existing applications using the version 1.0 request queues, however, new development with the HTTP Server API should use <b>HttpCreateRequestQueue</b> to create request queues; <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> should not be used. The version 2.0 API are only compatible with the version 2.0 request queues created by <b>HttpCreateRequestQueue</b>.
 
@@ -221,13 +203,7 @@ The handle to the request queue created by <b>HttpCreateRequestQueue</b> must be
 
 Applications must call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> prior to calling <b>HttpCreateRequestQueue</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
@@ -250,7 +226,4 @@ Applications must call <a href="https://docs.microsoft.com/windows/desktop/api/h
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
- 
-
- 
 

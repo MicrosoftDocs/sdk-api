@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
 ms.date: 12/05/2018
 ms.keywords: GetFilespec, GetFilespec method [VSS], GetFilespec method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetFilespec method, IVssWMFiledesc.GetFilespec, IVssWMFiledesc::GetFilespec, _win32_ivsswmfiledesc_getfilespec, base.ivsswmfiledesc_getfilespec, vswriter/IVssWMFiledesc::GetFilespec
-f1_keywords:
-- vswriter/IVssWMFiledesc.GetFilespec
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWMFiledesc.GetFilespec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWMFiledesc::GetFilespec
+ - vswriter/IVssWMFiledesc::GetFilespec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWMFiledesc.GetFilespec
 ---
 
 # IVssWMFiledesc::GetFilespec
 
 
 ## -description
-
 
 The 
 <b>GetFilespec</b> method returns the file specification used to obtain the list of files that the current 
@@ -58,11 +58,7 @@ The
 A querying method used a path and this file specification to return the current 
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrFilespec [out]
 
@@ -73,10 +69,7 @@ The address of a caller-allocated variable that receives a string specifying the
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -145,27 +138,12 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
- 
-
- 
 

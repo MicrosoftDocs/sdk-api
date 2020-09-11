@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 792112a6-b10a-432f-854a-07bd74173e84
 ms.date: 12/05/2018
 ms.keywords: IAudioData interface [DirectShow],SetFormat method, IAudioData.SetFormat, IAudioData::SetFormat, IAudioDataSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioData interface, austream/IAudioData::SetFormat, dshow.iaudiodata_setformat
-f1_keywords:
-- austream/IAudioData.SetFormat
-dev_langs:
-- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- austream.h
-api_name:
-- IAudioData.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioData::SetFormat
+ - austream/IAudioData::SetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - austream.h
+api_name:
+ - IAudioData.SetFormat
 ---
 
 # IAudioData::SetFormat
@@ -49,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>SetFormat</code> method sets the current data format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpWaveFormat [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will contain the current data format.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value, which can include the following values.
 
@@ -113,22 +103,12 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-iaudiodata-getformat">IAudioData::GetFormat</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: 6486e961-402f-45c8-a806-ab91a4f0f156
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GET_PLAINTEXT_KEY, WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanGetProfile, WlanGetProfile function [NativeWIFI], nwifi.wlangetprofile, wlanapi/WlanGetProfile
-f1_keywords:
-- wlanapi/WlanGetProfile
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanGetProfile
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanGetProfile
+ - wlanapi/WlanGetProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanGetProfile
 ---
 
 # WlanGetProfile function
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanGetProfile</b> function retrieves all information about a  specified wireless profile.
 
-
 ## -parameters
-
-
-
 
 ### -param hClientHandle [in]
 
 The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
 
 ### -param pInterfaceGuid [in]
 
@@ -70,23 +65,19 @@ The GUID of the wireless interface.
 
 A list of the GUIDs for wireless interfaces on the local computer can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function.
 
-
 ### -param strProfileName [in]
 
 The name of the profile. Profile names are case-sensitive. This string must be NULL-terminated. The maximum length of the profile name is 255 characters. This means that the maximum length of this string, including the NULL terminator, is 256 characters.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The name of the profile is derived automatically from the SSID of the network. For infrastructure network profiles, the name of the profile is the SSID of the network. For ad hoc network profiles, the name of the profile is the SSID of the ad hoc network followed by <code>-adhoc</code>.
 
-
 ### -param pReserved [in]
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param pstrProfileXml [out]
 
 A string that is the XML representation of the queried profile. There is no predefined maximum string length.
-
 
 ### -param pdwFlags [in, out, optional]
 
@@ -143,8 +134,6 @@ On output when the <b>WlanGetProfile</b> call is successful, this flag indicates
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwGrantedAccess [out, optional]
 
@@ -189,12 +178,8 @@ The user has execute access and the user can also modify the content of the  pro
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -280,14 +265,8 @@ Various RPC and other error codes. Use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <b>WlanGetProfile</b> function succeeds, the wireless profile is returned in the buffer pointed to by the <i>pstrProfileXml</i> parameter. The buffer contains a string that is the XML representation of the queried profile. For a description of the XML representation of the wireless profile, see <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-policyschema-schema">WLAN_profile Schema</a>. 
 
@@ -500,14 +479,7 @@ int _cdecl wmain(int argc, WCHAR **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_profile_info">WLAN_PROFILE_INFO</a>
 
@@ -578,7 +550,4 @@ int _cdecl wmain(int argc, WCHAR **argv)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileposition">WlanSetProfilePosition</a>
- 
-
- 
 

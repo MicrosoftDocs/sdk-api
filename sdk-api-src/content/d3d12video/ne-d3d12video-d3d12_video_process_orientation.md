@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_PROCESS_ORIENTATION","D3D12_VIDEO_PROCESS_ORI
 tech.root: mf
 ms.assetid: 1196949a-a9d4-4a82-8300-d84b5960f6ef
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_PROCESS_ORIENTATION
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_PROCESS_ORIENTATION, D3D12_VIDEO_PROCESS_ORIENTATION,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,18 +18,24 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_ORIENTATION
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_PROCESS_ORIENTATION
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_ORIENTATION
+ - d3d12video/D3D12_VIDEO_PROCESS_ORIENTATION
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_PROCESS_ORIENTATION
 ---
 
 # D3D12_VIDEO_PROCESS_ORIENTATION enumeration
+
 
 ## -description
 
@@ -73,7 +75,7 @@ The image is rotated 270 degrees clockwise.
 
 The image is rotated 270 degrees clockwise and then flipped horizontally.
 
-
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 003b400c-03a4-47c0-a6b8-04aa65ac573c
 ms.date: 12/05/2018
 ms.keywords: GetClient, GetClient method [Windows Shell], GetClient method [Windows Shell],IDeskBar interface, IDeskBar interface [Windows Shell],GetClient method, IDeskBar.GetClient, IDeskBar::GetClient, _win32_IDeskBar_GetClient, shell.IDeskBar_GetClient, shobjidl_core/IDeskBar::GetClient
-f1_keywords:
-- shobjidl_core/IDeskBar.GetClient
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDeskBar.GetClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBar::GetClient
+ - shobjidl_core/IDeskBar::GetClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDeskBar.GetClient
 ---
 
 # IDeskBar::GetClient
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the client object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppunkClient [out]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 The address of a pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that receives the client used by the desk bar.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if the client object is returned, or an error value otherwise.
-
-
 

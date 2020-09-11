@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk
-f1_keywords:
-- mmiscapi/mmioCreateChunk
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-misc-l1-1-0.dll
-- winmmbase.dll
-- API-MS-Win-mm-misc-l1-1-1.dll
-api_name:
-- mmioCreateChunk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mmioCreateChunk
+ - mmiscapi/mmioCreateChunk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-misc-l1-1-0.dll
+ - winmmbase.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+api_name:
+ - mmioCreateChunk
 ---
 
 # mmioCreateChunk function
@@ -52,27 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mmioCreateChunk</b> function creates a chunk in a RIFF file that was opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. The new chunk is created at the current file position. After the new chunk is created, the current file position is the beginning of the data portion of the new chunk.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmmio
 
 File handle of an open RIFF file.
 
-
 ### -param pmmcki
 
 Pointer to a buffer that receives a <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure containing information about the chunk to be created.
-
 
 ### -param fuCreate
 
@@ -94,12 +85,8 @@ Flags identifying what type of chunk to create. The following values are defined
 <td>"RIFF" chunk.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -131,14 +118,8 @@ Unable to write the chunk header.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function cannot insert a chunk into the middle of a file. If an application attempts to create a chunk somewhere other than at the end of a file, <b>mmioCreateChunk</b> overwrites existing information in the file.
 
@@ -151,5 +132,4 @@ The <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMC
 <li>The <b>dwDataOffset</b> member does not need to be filled in. The <b>mmioCreateChunk</b> function fills this member with the file offset of the data portion of the chunk.</li>
 <li>The <b>dwFlags</b> member does not need to be filled in. The <b>mmioCreateChunk</b> function sets the MMIO_DIRTY flag in <b>dwFlags</b>.</li>
 </ul>
-
 

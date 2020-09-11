@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
 ms.date: 12/05/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
-f1_keywords:
-- rometadataresolution/RoGetMetaDataFile
-dev_langs:
-- c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: WindowsApp.lib
 req.dll: WinTypes.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinTypes.dll
-- API-MS-Win-ro-typeresolution-l1-1-0.dll
-- Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
-api_name:
-- RoGetMetaDataFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoGetMetaDataFile
+ - rometadataresolution/RoGetMetaDataFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinTypes.dll
+ - API-MS-Win-ro-typeresolution-l1-1-0.dll
+ - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+api_name:
+ - RoGetMetaDataFile
 ---
 
 # RoGetMetaDataFile function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates and retrieves the metadata file that describes the Application Binary Interface (ABI) for the specified typename.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
@@ -66,13 +62,11 @@ Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring
 
 The name to resolve, either a typename or a namespace. The name input string must be non-empty and must not contain embedded NUL characters. If the name is a dot-separated string, then the substring to the left of the last dot and the substring to the right of the last dot must be non-empty.
 
-
 ### -param metaDataDispenser [in, optional]
 
 Type: <b>IMetaDataDispenserEx*</b>
 
 A metadata dispenser that the caller can optionally pass in for the <b>RoGetMetaDataFile</b> function to be able to open the metadata files through the provided <b>IMetaDataDispenserEx::OpenScope</b> method. If the metadata dispenser parameter is set to <b>nullptr</b>, the function creates an internal instance of the refactored metadata reader (RoMetadata.dll) and uses its <b>IMetaDataDispenserEx::OpenScope</b> method.
-
 
 ### -param metaDataFilePath [out, optional]
 
@@ -80,13 +74,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTR
 
 The absolute path of the metadata (.winmd) file that describes the ABI, unless set to <b>nullptr</b>. The caller is responsible for freeing the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> method.
 
-
 ### -param metaDataImport [out, optional]
 
 Type: <b>IMetaDataImport2**</b>
 
 A pointer to the metadata file reader object. If the caller passes in a <b>nullptr</b> ,  the function releases the <b>IMetaDataImport2</b> reference, otherwise the caller must release the reference. The value is set to <b>nullptr</b> on failure.
-
 
 ### -param typeDefToken [out, optional]
 
@@ -96,10 +88,7 @@ If the name input string is resolved successfully as a typename, this parameter 
 
 On failure, this parameter is set to <b>mdTypeDefNil</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -171,14 +160,8 @@ The function was called from a process that is not in a Windows Store app.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller can optionally pass-in a metadata dispenser for the <b>RoGetMetaDataFile</b> function to open the metadata files through the <b>IMetaDataDispenserEx::OpenScope</b> method. 
 
@@ -400,7 +383,4 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
 }
 
 ```
-
-
-
 

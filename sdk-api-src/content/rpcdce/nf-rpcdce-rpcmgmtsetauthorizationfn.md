@@ -8,10 +8,6 @@ tech.root: Rpc
 ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetAuthorizationFn, RpcMgmtSetAuthorizationFn function [RPC], _rpc_rpcmgmtsetauthorizationfn, rpc.rpcmgmtsetauthorizationfn, rpcdce/RpcMgmtSetAuthorizationFn
-f1_keywords:
-- rpcdce/RpcMgmtSetAuthorizationFn
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtSetAuthorizationFn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtSetAuthorizationFn
+ - rpcdce/RpcMgmtSetAuthorizationFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtSetAuthorizationFn
 ---
 
 # RpcMgmtSetAuthorizationFn function
@@ -49,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtSetAuthorizationFn</b> function establishes an authorization function for processing remote calls to a server's management functions.
 
-
 ## -parameters
-
-
-
 
 ### -param AuthorizationFn
 
 Specifies an authorization function. The RPC server run-time library automatically calls this function whenever the server run-time receives a client request to execute one of the remote management functions. The server must implement this function. Applications specify a value of <b>NULL</b> to unregister a previously registered authorization function. After such a call, default authorizations are used.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -91,11 +84,7 @@ The call succeeded.
 <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Server applications call the 
 <b>RpcMgmtSetAuthorizationFn</b> function to establish an authorization function that controls access to the server's remote management functions. When a server has not called 
@@ -145,13 +134,7 @@ Server applications call the
 
 In the preceding table, "Enabled" indicates that all clients can execute the remote function, and "Disabled" indicates that all clients are prevented from executing the remote function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_mgmt_authorization_fn">RPC_MGMT_AUTHORIZATION_FN</a>
 
@@ -170,7 +153,4 @@ In the preceding table, "Enabled" indicates that all clients can execute the rem
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a>
- 
-
- 
 

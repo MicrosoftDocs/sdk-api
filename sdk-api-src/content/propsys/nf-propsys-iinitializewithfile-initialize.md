@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 7b7bb534-dff7-455b-baee-f573fb645cc3
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithFile interface [Windows Shell],Initialize method, IInitializeWithFile.Initialize, IInitializeWithFile::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithFile interface, STGM_READ, STGM_READWRITE, propsys/IInitializeWithFile::Initialize, shell.IInitializeWithFile_Initialize, shell_IInitializeWithFile_Initialize
-f1_keywords:
-- propsys/IInitializeWithFile.Initialize
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IInitializeWithFile.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeWithFile::Initialize
+ - propsys/IInitializeWithFile::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IInitializeWithFile.Initialize
 ---
 
 # IInitializeWithFile::Initialize
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a handler with a file path.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFilePath [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a buffer that contains the file path as a null-terminated Unicode string.
-
 
 ### -param grfMode [in]
 
@@ -83,22 +78,13 @@ The file indicated by <b>IInitializeWithFile::Initialize</b> is read-only.
 
 The file indicated by <b>IInitializeWithFile::Initialize</b> can be read from and written to.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a> is preferred to this method because of its ability to use files that are not accessible through a Win32 path, such as the contents of a compressed file with a .zip file name extension. Use <b>IInitializeWithFile::Initialize</b> only when the API used by the handler to access the file accepts file paths only.
 
@@ -107,6 +93,4 @@ The file pointed to by <i>pszFilePath</i> must remain open for the lifetime of t
 If the file cannot be opened according to the method's parameter values, this method returns a suitable error code.
 
 A handler instance should be initialized only once in its lifetime. Attempts by the calling application to reinitialize the handler should result in the error <code>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</code>.
-
-
 

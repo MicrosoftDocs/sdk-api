@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
-f1_keywords:
-- rdpencomapi/IRDPViewerRenderingSurface
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPViewerRenderingSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPViewerRenderingSurface
+ - rdpencomapi/IRDPViewerRenderingSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPViewerRenderingSurface
 ---
 
 # IRDPViewerRenderingSurface interface
@@ -49,13 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>IRDPViewerRenderingSurface</b> interface is no longer available for use as of Windows 10, version 1709.]
 
 Manages the rendering surface for the viewer. The viewer control host uses this interface to set the rendering surface that the viewer should use.
 
 This interface is implemented by the viewer control. An instance of this interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method, passing <b>IID_IRDPViewerRenderingSurface</b>.
-
 
 ## -inheritance
 
@@ -81,5 +80,5 @@ Sets the rendering surface to be used by the viewer.
 
 </td>
 </tr>
-</table> 
+</table>
 

@@ -34,6 +34,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::SetProtectedResourceSession
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::SetProtectedResourceSession
  - d3d12video/ID3D12VideoEncodeCommandList::SetProtectedResourceSession
 dev_langs:
  - c++

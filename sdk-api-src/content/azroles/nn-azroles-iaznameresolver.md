@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9426a623-cefc-43ed-9987-77802fce1a78
 ms.date: 12/05/2018
 ms.keywords: IAzNameResolver, IAzNameResolver interface [Security], IAzNameResolver interface [Security],described, azroles/IAzNameResolver, security.iaznameresolver
-f1_keywords:
-- azroles/IAzNameResolver
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzNameResolver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzNameResolver
+ - azroles/IAzNameResolver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzNameResolver
 ---
 
 # IAzNameResolver interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzNameResolver</b> interface translates <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) into principal display names.
-
 
 ## -inheritance
 
@@ -86,5 +85,5 @@ Gets the display names that correspond to the specified SIDs.
 
 </td>
 </tr>
-</table> 
+</table>
 

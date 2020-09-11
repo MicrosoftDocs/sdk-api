@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: fc9b3474-6f56-4274-af7d-72e0920c0457
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], IEnumOLEVERB interface [COM],described, _ole_ienumoleverb, com.ienumoleverb, oleidl/IEnumOLEVERB
-f1_keywords:
-- oleidl/IEnumOLEVERB
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IEnumOLEVERB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumOLEVERB
+ - oleidl/IEnumOLEVERB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IEnumOLEVERB
 ---
 
 # IEnumOLEVERB interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the different verbs available for an object in order of ascending verb number. An enumerator that implements the <b>IEnumOLEVERB</b> interface is returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>.
-
 
 ## -inheritance
 
@@ -104,5 +103,5 @@ Skips over the specified number of items in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
+</table>
 

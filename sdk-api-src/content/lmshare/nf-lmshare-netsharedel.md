@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
 ms.date: 12/05/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
-f1_keywords:
-- lmshare/NetShareDel
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetShareDel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetShareDel
+ - lmshare/NetShareDel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetShareDel
 ---
 
 # NetShareDel function
@@ -49,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 
 The extended function <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a> allows the caller  to specify a <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
@@ -69,22 +65,17 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> is defined.
 
-
 ### -param netname [in]
 
 Pointer to a string that specifies the name of the share to delete.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> is defined.
 
-
 ### -param reserved
 
 Reserved, must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -140,14 +131,8 @@ The share name does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
 
@@ -197,14 +182,7 @@ void wmain( int argc, TCHAR *argv[ ])
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
@@ -225,7 +203,4 @@ void wmain( int argc, TCHAR *argv[ ])
 
 
 <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
 

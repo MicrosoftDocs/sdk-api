@@ -8,10 +8,6 @@ tech.root: ad
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory],described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
-f1_keywords:
-- objsel/IDsObjectPicker
-dev_langs:
-- c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Objsel.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Objsel.dll
-api_name:
-- IDsObjectPicker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsObjectPicker
+ - objsel/IDsObjectPicker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Objsel.dll
+api_name:
+ - IDsObjectPicker
 ---
 
 # IDsObjectPicker interface
 
 
 ## -description
-
 
 The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
 
@@ -64,7 +64,6 @@ hr = CoCreateInstance(CLSID_DsObjectPicker,
 ```
 
 The  <b>IDsObjectPicker</b> implemented by the system  supports both apartment and free-threading models and is thread safe. In practice, this means that a call to the methods of this interface will block until no other thread of your application is calling any other method on that instance of the interface.
-
 
 ## -inheritance
 
@@ -99,30 +98,18 @@ Displays the dialog box and returns the user's selections.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
-
-
 
 It is acceptable to create and initialize a single instance of the <b>IDsObjectPicker</b> interface and then make multiple 
 calls to <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-invokedialog">InvokeDialog</a> without having to reinitializing the interface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: http
 ms.assetid: 37fb9342-c5c2-46a3-a8b0-83060aa997e2
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpQueryAuthSchemes, WinHttpQueryAuthSchemes function [WinHTTP], http.winhttpqueryauthschemes, winhttp.winhttpqueryauthschemes_function, winhttp/WinHttpQueryAuthSchemes
-f1_keywords:
-- winhttp/WinHttpQueryAuthSchemes
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpQueryAuthSchemes
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpQueryAuthSchemes
+ - winhttp/WinHttpQueryAuthSchemes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpQueryAuthSchemes
 ---
 
 # WinHttpQueryAuthSchemes function
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpQueryAuthSchemes</b> function returns the authorization schemes that are supported by the server.
 
-
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 Valid 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
-
-
 
 ### -param lpdwSupportedSchemes [out]
 
@@ -126,8 +120,6 @@ Selects between NTLM and Kerberos authentication.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwFirstScheme [out]
 
@@ -189,8 +181,6 @@ Selects between NTLM and Kerberos authentication.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwAuthTarget [out]
 
@@ -222,12 +212,8 @@ Authentication target is a proxy. Indicates that a 407 status code has been rece
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> if unsuccessful. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following table identifies the error codes that are returned.
@@ -271,14 +257,8 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> is set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -527,14 +507,7 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
@@ -545,7 +518,4 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetcredentials">WinHttpSetCredentials</a>
- 
-
- 
 

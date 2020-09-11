@@ -8,10 +8,6 @@ tech.root: MachineLearning
 ms.assetid: 6350AFEE-8E1A-4C21-8017-9D3E9EC601F8
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_sequence_variable_desc, PWINML_SEQUENCE_VARIABLE_DESC, PWINML_SEQUENCE_VARIABLE_DESC structure pointer, WINML_SEQUENCE_VARIABLE_DESC, WINML_SEQUENCE_VARIABLE_DESC structure, winml/PWINML_SEQUENCE_VARIABLE_DESC, winml/WINML_SEQUENCE_VARIABLE_DESC
-f1_keywords:
-- winml/WINML_SEQUENCE_VARIABLE_DESC
-dev_langs:
-- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winml.h
-api_name:
-- WINML_SEQUENCE_VARIABLE_DESC
 targetos: Windows
 req.typenames: WINML_SEQUENCE_VARIABLE_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WINML_SEQUENCE_VARIABLE_DESC
+ - winml/WINML_SEQUENCE_VARIABLE_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winml.h
+api_name:
+ - WINML_SEQUENCE_VARIABLE_DESC
 ---
 
 # WINML_SEQUENCE_VARIABLE_DESC structure
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 <b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Contains description properties of the sequence variable.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ElementType
 

@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 4C615D7D-6DBC-4EDA-8D72-271EC53047BF
 ms.date: 12/05/2018
 ms.keywords: CreateCommandList, CreateCommandList method, CreateCommandList method,ID3D12Device interface, ID3D12Device interface,CreateCommandList method, ID3D12Device.CreateCommandList, ID3D12Device::CreateCommandList, d3d12/ID3D12Device::CreateCommandList, direct3d12.id3d12device_createcommandlist
-f1_keywords:
-- d3d12/ID3D12Device.CreateCommandList
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.CreateCommandList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::CreateCommandList
+ - d3d12/ID3D12Device::CreateCommandList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.CreateCommandList
 ---
 
 ## -description
 
 Creates a command list.
-        
+
 ## -parameters
 
 ### -param nodeMask [in]
@@ -134,3 +135,4 @@ Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example C
 [ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)
 
 [ID3D12GraphicsCommandList::Reset](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
+

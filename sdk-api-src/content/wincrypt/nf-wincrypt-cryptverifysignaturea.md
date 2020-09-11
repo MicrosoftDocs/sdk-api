@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
-f1_keywords:
-- wincrypt/CryptVerifySignature
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,30 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptVerifySignature
-- CryptVerifySignatureA
-- CryptVerifySignatureW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifySignatureA
+ - wincrypt/CryptVerifySignatureA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptVerifySignature
+ - CryptVerifySignatureA
+ - CryptVerifySignatureW
 ---
 
 # CryptVerifySignatureA function
 
 
 ## -description
-
 
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptVerifySignature</b> function verifies the signature of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>.
 
@@ -64,36 +64,27 @@ Before calling this function,
 After <b>CryptVerifySignature</b> completes, only 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> can be called by using the <i>hHash</i> handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 A handle to the hash object to verify.
 
-
 ### -param pbSignature [in]
 
 The address of the signature data to be verified.
-
 
 ### -param dwSigLen [in]
 
 The number of bytes in the <i>pbSignature</i> signature data.
 
-
 ### -param hPubKey [in]
 
 A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> to use to authenticate the signature. This public key must belong to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pair</a> that was originally used to create the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a>.
 
-
 ### -param szDescription [in]
 
 This parameter should no longer be used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
-
 
 ### -param dwFlags [in]
 
@@ -147,12 +138,8 @@ Use X.931 support for the FIPS 186-2–compliant version of RSA (rDSA).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
@@ -257,14 +244,8 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CryptVerifySignature</b> function completes the hash. After this call, no more data can be added to the hash. Additional calls to 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
@@ -290,9 +271,6 @@ For an example that uses the <b>CryptVerifySignature</b> function, see <a href="
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
@@ -314,7 +292,4 @@ For an example that uses the <b>CryptVerifySignature</b> function, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

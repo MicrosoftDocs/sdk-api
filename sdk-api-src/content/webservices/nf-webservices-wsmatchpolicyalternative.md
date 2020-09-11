@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 6e5f352b-5422-4bba-9525-7850bdddf0a5
 ms.date: 12/05/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
-f1_keywords:
-- webservices/WsMatchPolicyAlternative
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsMatchPolicyAlternative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsMatchPolicyAlternative
+ - webservices/WsMatchPolicyAlternative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsMatchPolicyAlternative
 ---
 
 # WsMatchPolicyAlternative function
@@ -49,18 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Verifies that a Policy Alternative is compatible
                 with the specified Policy Constraint.  If the alternative is compatible the constraint structures are populated with Policy information.
             <div class="alert"><b>Note</b>  See Remarks on this page for information on the constraint structures.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param policy [in]
 
@@ -71,15 +66,11 @@ A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-polic
                 </div>
 <div> </div>
 
-
-
 ### -param alternativeIndex [in]
 
 Specifies the zero-based index that identifies the alternative to use within the policy
                     object.  The number of alternatives present in the policy object can be obtained
                     using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetpolicyalternativecount">WsGetPolicyAlternativeCount</a>.
-                
-
 
 ### -param policyConstraints [in]
 
@@ -103,8 +94,6 @@ Indicates whether a match is required or not.
                 </div>
 <div> </div>
 
-
-
 ### -param heap [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">Heap</a> object used to store any data requiring allocation
@@ -112,17 +101,11 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">Hea
                 </div>
 <div> </div>
 
-
-
 ### -param error [in, optional]
 
 A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -185,14 +168,8 @@ The policy alternative meets the specific constraints.  The <b>out</b> fields
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each of these data types contain a struct field called "out".  
                 
@@ -226,7 +203,4 @@ The content of the <b>out</b> field of these structures
 
 </div>
 <div> </div>
-
-
-
 

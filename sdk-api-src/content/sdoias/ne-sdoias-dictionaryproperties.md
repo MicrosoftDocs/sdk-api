@@ -8,10 +8,6 @@ tech.root: Nps
 ms.assetid: 47da09d8-9b45-4910-a6b1-1759c5000482
 ms.date: 12/05/2018
 ms.keywords: DICTIONARYPROPERTIES, DICTIONARYPROPERTIES enumeration [Network Policy Server], PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION, PROPERTY_DICTIONARY_LOCATION, _sdo_dictionaryproperties, nps.SDO_dictionaryproperties, sdo.dictionaryproperties, sdoias/DICTIONARYPROPERTIES, sdoias/PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION, sdoias/PROPERTY_DICTIONARY_LOCATION
-f1_keywords:
-- sdoias/DICTIONARYPROPERTIES
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SdoIas.h
-api_name:
-- DICTIONARYPROPERTIES
 targetos: Windows
 req.typenames: DICTIONARYPROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DICTIONARYPROPERTIES
+ - sdoias/_DICTIONARYPROPERTIES
+ - DICTIONARYPROPERTIES
+ - sdoias/DICTIONARYPROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SdoIas.h
+api_name:
+ - DICTIONARYPROPERTIES
 ---
 
 # DICTIONARYPROPERTIES enumeration
@@ -49,39 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The values of the 
 <b>DICTIONARYPROPERTIES</b> properties type enumerate properties associated with the attribute dictionary.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION
 
 The collection of all possible attributes.
 
-
 ### -field PROPERTY_DICTIONARY_LOCATION
 
 The location of the datastore that contains the dictionary. This property is read-only.
 
-
 ## -remarks
-
-
 
 The dictionary is the collection of all possible attributes. It includes some attributes that are reserved for system use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeproperties">ATTRIBUTEPROPERTIES</a>
 
@@ -92,7 +80,4 @@ The dictionary is the collection of all possible attributes. It includes some at
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">ISdoMachine::GetDictionarySDO</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: e16cb767-87a9-49f6-a3a7-88166f2abe73
 ms.date: 12/05/2018
 ms.keywords: GetDvdInterface, GetDvdInterface method [DirectShow], GetDvdInterface method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetDvdInterface method, IDvdGraphBuilder.GetDvdInterface, IDvdGraphBuilder::GetDvdInterface, IDvdGraphBuilderGetDvdInterface, dshow.idvdgraphbuilder_getdvdinterface, strmif/IDvdGraphBuilder::GetDvdInterface
-f1_keywords:
-- strmif/IDvdGraphBuilder.GetDvdInterface
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdGraphBuilder.GetDvdInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdGraphBuilder::GetDvdInterface
+ - strmif/IDvdGraphBuilder::GetDvdInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdGraphBuilder.GetDvdInterface
 ---
 
 # IDvdGraphBuilder::GetDvdInterface
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDvdInterface</b> method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 IID of the requested interface.
 
-
 ### -param ppvIF [out]
 
 Receives a pointer to the interface. The application must release the interface.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -117,14 +106,8 @@ The graph is not built yet. See Remarks.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use this method to select and configure a video renderer filter before you build the filter graph for DVD playback. The following interfaces are available:
 
@@ -154,13 +137,7 @@ Before the DVD playback graph is built, if you request any interfaces that are n
 </ul>
 To get other interfaces, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getfiltergraph">IDvdGraphBuilder::GetFiltergraph</a>. Query the returned <b>IGraphBuilder</b> interface or use <b>EnumFilters</b> to enumerate the filters.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
@@ -171,7 +148,4 @@ To get other interfaces, call <a href="https://docs.microsoft.com/windows/deskto
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
- 
-
- 
 

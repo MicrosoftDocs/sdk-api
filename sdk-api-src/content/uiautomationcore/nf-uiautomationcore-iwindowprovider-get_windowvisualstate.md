@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: c65e8687-51b7-45ea-8183-6d9674f77012
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowVisualState property, IWindowProvider.WindowVisualState, IWindowProvider.get_WindowVisualState, IWindowProvider::WindowVisualState, IWindowProvider::get_WindowVisualState, WindowVisualState property [Windows Accessibility], WindowVisualState property [Windows Accessibility],IWindowProvider interface, get_WindowVisualState, uiauto.uiauto_IWindowProvider_WindowVisualState, uiauto_IWindowProvider_WindowVisualState, uiautomationcore/IWindowProvider::WindowVisualState, uiautomationcore/IWindowProvider::get_WindowVisualState, winauto.uiauto_IWindowProvider_WindowVisualState
-f1_keywords:
-- uiautomationcore/IWindowProvider.WindowVisualState
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IWindowProvider.WindowVisualState
-- IWindowProvider.get_WindowVisualState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowProvider::get_WindowVisualState
+ - uiautomationcore/IWindowProvider::get_WindowVisualState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IWindowProvider.WindowVisualState
+ - IWindowProvider.get_WindowVisualState
 ---
 
 # IWindowProvider::get_WindowVisualState
@@ -50,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the visual state of the window; that is, whether the window is normal (restored), minimized, or maximized.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -81,7 +76,4 @@ This property is read-only.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
 

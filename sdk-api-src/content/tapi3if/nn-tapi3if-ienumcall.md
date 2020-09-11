@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 418c1005-98f0-406f-a85c-c08adb269b9f
 ms.date: 12/05/2018
 ms.keywords: IEnumCall, IEnumCall interface [TAPI 2.2], IEnumCall interface [TAPI 2.2],described, _tapi3_ienumcall, tapi3.ienumcall, tapi3if/IEnumCall
-f1_keywords:
-- tapi3if/IEnumCall
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCall
+ - tapi3if/IEnumCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumCall
 ---
 
 # IEnumCall interface
 
 
 ## -description
-
 
 The 
 <b>IEnumCall</b> interface provides COM-standard enumeration methods for the 
@@ -59,7 +59,6 @@ The
 
 The 
 <b>IEnumCall</b> interface is hidden from Visual Basic and scripting languages.
-
 
 ## -inheritance
 
@@ -112,16 +111,9 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
- 
-
- 
 

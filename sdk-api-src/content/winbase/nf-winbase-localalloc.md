@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.date: 12/05/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc
-f1_keywords:
-- winbase/LocalAlloc
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-Heap-L2-1-0.dll
-api_name:
-- LocalAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LocalAlloc
+ - winbase/LocalAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-Heap-L2-1-0.dll
+api_name:
+ - LocalAlloc
 ---
 
 # LocalAlloc function
@@ -56,15 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates the specified number of bytes from the heap.
 <div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param uFlags [in]
 
@@ -169,28 +166,18 @@ The following values are obsolete, but are provided for compatibility with 16-bi
 <dd><b>LMEM_NODISCARD</b></dd>
 </dl>
 
-
-
 ### -param uBytes [in]
 
 The number of bytes to allocate. If this parameter is zero and the <i>uFlags</i> parameter specifies <b>LMEM_MOVEABLE</b>, the function returns a handle to a memory object that is marked as discarded.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly allocated memory object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 Windows memory management does not provide a separate local heap and global heap. Therefore, the <b>LocalAlloc</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> functions are essentially the same. 
 
@@ -245,14 +232,7 @@ void _cdecl _tmain()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
@@ -280,7 +260,4 @@ void _cdecl _tmain()
 
 <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
- 
-
- 
 

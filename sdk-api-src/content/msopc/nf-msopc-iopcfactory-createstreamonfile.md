@@ -8,10 +8,6 @@ tech.root: OPC
 ms.assetid: d41bb51d-127c-4b24-8c93-4224404e0b2d
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnFile, CreateStreamOnFile method [Open Packaging Conventions], CreateStreamOnFile method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreateStreamOnFile method, IOpcFactory.CreateStreamOnFile, IOpcFactory::CreateStreamOnFile, msopc/IOpcFactory::CreateStreamOnFile, opc.iopcfactory_createstreamonfile
-f1_keywords:
-- msopc/IOpcFactory.CreateStreamOnFile
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcFactory.CreateStreamOnFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcFactory::CreateStreamOnFile
+ - msopc/IOpcFactory::CreateStreamOnFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcFactory.CreateStreamOnFile
 ---
 
 # IOpcFactory::CreateStreamOnFile
@@ -49,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a stream over a file. This method is a simplified wrapper for a call to the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. <b>CreateFile</b> parameters that are not exposed through this method use their default values. For more information, see <b>CreateFile</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param filename [in]
 
 The name of the file over which the stream is created.
 
-
 ### -param ioMode [in]
 
 The value that describes the read/write status of the stream to be created.
 
-
 ### -param securityAttributes [in]
 
 For information about the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure in this parameter, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -79,15 +72,11 @@ The settings and attributes of the file. For most files, <b>FILE_ATTRIBUTE_NORMA
 
 For more information about this parameter, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
-
 ### -param stream [out, retval]
 
 A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -141,14 +130,8 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/window
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Do not use a stream to serialize package data when the same stream is being used to deserialize a package, because the attempt may result in undefined behavior.
 
@@ -164,13 +147,7 @@ Packaging objects are not thread-safe.
 
 For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
@@ -237,7 +214,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/saving-a-package">Saving a Package</a>
- 
-
- 
 

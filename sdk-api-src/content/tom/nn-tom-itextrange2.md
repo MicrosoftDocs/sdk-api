@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65
 ms.date: 12/05/2018
 ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], ITextRange2 interface [Windows Controls],described, controls.itextrange2, tom/ITextRange2
-f1_keywords:
-- tom/ITextRange2
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange2
+ - tom/ITextRange2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange2
 ---
 
 # ITextRange2 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextRange2</b> interface is derived from <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
-
 
 ## -inheritance
 
@@ -428,5 +427,5 @@ Converts the Unicode character(s) preceding the start position of this text rang
 
 </td>
 </tr>
-</table> 
+</table>
 

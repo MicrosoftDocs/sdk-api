@@ -8,10 +8,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecallback.htm
 ms.date: 12/05/2018
 ms.keywords: PFNCALLBACK, PFNCALLBACK callback, PFNCALLBACK callback function [Data Exchange], XCLASS_BOOL, XCLASS_DATA, XCLASS_FLAGS, XCLASS_NOTIFICATION, _win32_DdeCallback, _win32_ddecallback_cpp, dataxchg.ddecallback, ddeml/PFNCALLBACK, winui._win32_ddecallback
-f1_keywords:
-- ddeml/PFNCALLBACK
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ddeml.h
-api_name:
-- PFNCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNCALLBACK
+ - ddeml/PFNCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ddeml.h
+api_name:
+ - PFNCALLBACK
 ---
 
 # PFNCALLBACK callback function
@@ -49,62 +50,48 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML) functions. It processes Dynamic Data Exchange (DDE) transactions. The 
-			<b>PFNCALLBACK</b> type defines a pointer to this callback function. <i>DdeCallback</i> is a placeholder for the application-defined function name. 
-
+			<b>PFNCALLBACK</b> type defines a pointer to this callback function. <i>DdeCallback</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
-
-
-
 ### -param wType
-
 
 ### -param wFmt
 
-
 ### -param hConv
-
 
 ### -param hsz1 [in]
 
 Type: <b>HSZ</b>
 
-A handle to a string. The meaning of this parameter depends on the type of the current transaction. For the meaning of this parameter, see the description of the transaction type. 
-
+A handle to a string. The meaning of this parameter depends on the type of the current transaction. For the meaning of this parameter, see the description of the transaction type.
 
 ### -param hsz2 [in]
 
 Type: <b>HSZ</b>
 
-A handle to a string. The meaning of this parameter depends on the type of the current transaction. For the meaning of this parameter, see the description of the transaction type. 
-
+A handle to a string. The meaning of this parameter depends on the type of the current transaction. For the meaning of this parameter, see the description of the transaction type.
 
 ### -param hData
-
 
 ### -param dwData1 [in]
 
 Type: <b>ULONG_PTR</b>
 
-Transaction-specific data. For the meaning of this parameter, see the description of the transaction type. 
-
+Transaction-specific data. For the meaning of this parameter, see the description of the transaction type.
 
 ### -param dwData2 [in]
 
 Type: <b>ULONG_PTR</b>
 
-Transaction-specific data. For the meaning of this parameter, see the description of the transaction type. 
-
+Transaction-specific data. For the meaning of this parameter, see the description of the transaction type.
 
 ### -param hconv [in]
 
 Type: <b>HCONV</b>
 
-A handle to the conversation associated with the current transaction. 
-
+A handle to the conversation associated with the current transaction.
 
 ### -param hdata [in]
 
@@ -213,30 +200,17 @@ The transaction types that belong to this class are for notification purposes on
 
 ## -returns
 
-
-
 Type: <b>HDDEDATA</b>
 
-The return value depends on the transaction class. For more information about the return values, see descriptions of the individual transaction types. 
-
-
-
+The return value depends on the transaction class. For more information about the return values, see descriptions of the individual transaction types.
 
 ## -remarks
 
-
-
 The callback function is called asynchronously for transactions that do not involve the creation or termination of conversations. An application that does not frequently accept incoming messages will have reduced DDE performance because the Dynamic Data Exchange Management Library (DDEML) uses messages to initiate transactions. 
 
-An application must register the callback function by specifying a pointer to the function in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
-
-
-
+An application must register the callback function by specifying a pointer to the function in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -255,7 +229,4 @@ An application must register the callback function by specifying a pointer to th
 
 
 <b>Reference</b>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
-f1_keywords:
-- wincrypt/CryptSignHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptSignHash
-- CryptSignHashA
-- CryptSignHashW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignHashW
+ - wincrypt/CryptSignHashW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptSignHash
+ - CryptSignHashA
+ - CryptSignHashW
 ---
 
 # CryptSignHashW function
@@ -53,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSignHash</b> function signs data. Because all signature algorithms are asymmetric and thus slow, CryptoAPI does not allow data to be signed directly. Instead, data is first <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a>, and <b>CryptSignHash</b> is used to sign the hash.
 
-
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a> to be signed.
-
 
 ### -param dwKeySpec [in]
 
@@ -78,11 +73,9 @@ The signature algorithm used is specified when the key pair is originally create
 
 The only signature algorithm that the Microsoft Base Cryptographic Provider supports is the RSA Public Key algorithm.
 
-
 ### -param szDescription [in]
 
 This parameter is no longer used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
-
 
 ### -param dwFlags [in]
 
@@ -136,8 +129,6 @@ Use the RSA signature padding method specified in the ANSI X9.31 standard.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbSignature [out]
 
@@ -148,7 +139,6 @@ A pointer to a buffer receiving the signature data.
 
 This parameter can be <b>NULL</b> to set the buffer size for memory allocation purposes. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
 
 ### -param pdwSigLen [in, out]
 
@@ -161,8 +151,6 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 <div> </div>
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
@@ -276,14 +264,8 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this function, the 
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> function must be called to get a handle to a hash object. The 
@@ -417,9 +399,6 @@ For a complete example including the  context for this code, see
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
@@ -441,7 +420,4 @@ For a complete example including the  context for this code, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
 

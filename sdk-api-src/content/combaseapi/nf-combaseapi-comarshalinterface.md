@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: 04ca1217-eac1-43e2-b736-8d7522ce8592
 ms.date: 12/05/2018
 ms.keywords: CoMarshalInterface, CoMarshalInterface function [COM], _com_CoMarshalInterface, com.comarshalinterface, combaseapi/CoMarshalInterface
-f1_keywords:
-- combaseapi/CoMarshalInterface
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoMarshalInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoMarshalInterface
+ - combaseapi/CoMarshalInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoMarshalInterface
 ---
 
 # CoMarshalInterface function
@@ -54,48 +55,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes into a stream the data required to initialize a proxy object in some client process.
 
-
 ## -parameters
-
-
-
 
 ### -param pStm [in]
 
 A pointer to the stream to be used during marshaling. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
-
 ### -param riid [in]
 
 A reference to the identifier of the interface to be marshaled. This interface must be derived from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
-
 
 ### -param pUnk [in]
 
 A pointer to the interface to be marshaled. This interface must be derived from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
-
 ### -param dwDestContext [in]
 
 The destination context where the specified interface is to be unmarshaled. The possible values come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshctx">MSHCTX</a>. Currently, unmarshaling can occur in another apartment of the current process (MSHCTX_INPROC), in another process on the same computer as the current process (MSHCTX_LOCAL), or in a process on a different computer (MSHCTX_DIFFERENTMACHINE).
-
 
 ### -param pvDestContext [in, optional]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param mshlflags [in]
 
 The flags that specify whether the data to be marshaled is to be transmitted back to the client process (the typical  case) or written to a global table, where it can be retrieved by multiple clients. The possibles values come from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
 
-
 ## -returns
-
-
 
 This function can return the standard return values E_FAIL, E_OUTOFMEMORY, and E_UNEXPECTED, the stream-access error values returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>, as well as the following values.
 
@@ -127,14 +115,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-c
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoMarshalInterface</b> function marshals the interface referred to by riid on the object whose <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation is pointed to by <i>pUnk</i>. To do so, the <b>CoMarshalInterface</b> function performs the following tasks:
 
@@ -162,21 +144,11 @@ If you are implementing existing COM interfaces or defining your own interfaces 
 
 If you are writing your own implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>, and your proxy needs access to a private object, you can include an interface pointer to that object as part of the data you write to the stream. In such situations, if you want to use COM's default marshaling implementation when passing the interface pointer, you can call <b>CoMarshalInterface</b> on the object to do so.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-marshalinterface">IMarshal::MarshalInterface</a>
- 
-
- 
 

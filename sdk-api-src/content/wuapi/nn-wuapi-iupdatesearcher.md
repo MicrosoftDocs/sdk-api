@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: f41b1689-d9fe-4697-91e9-a176d3b592c7
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], IUpdateSearcher interface [Windows Update Agent],described, wua.iupdatesearcher, wuapi/IUpdateSearcher
-f1_keywords:
-- wuapi/IUpdateSearcher
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher
+ - wuapi/IUpdateSearcher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher
 ---
 
 # IUpdateSearcher interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches for updates on a server.
-
 
 ## -inheritance
 
@@ -227,14 +226,9 @@ Gets and sets a site to search when the site to search is not a Windows Update s
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the UpdateSearcher coclass. Use the Microsoft.Update.Searcher program identifier to create the object.
-
-
 
