@@ -111,6 +111,7 @@ If a thread terminates while it has ownership of a critical section, the state o
 
 If a critical section is deleted while it is still owned, the state of the threads waiting for ownership of the deleted critical section is undefined.
 
+While a process is exiting, if a call to <b>EnterCriticalSection</b> would block, it will instead terminate the process immediately. This may cause global destructors to not be called.
 
 #### Examples
 
